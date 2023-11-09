@@ -4,6 +4,7 @@ description: When you attach a rate card to a project, all of the roles by locat
 author: Lisa
 feature: Work Management
 role: User
+exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
 ---
 # Attach a rate card to a project
 
@@ -69,4 +70,3 @@ You must have the following access to perform the steps in this article:
    >[!NOTE]
    >
    >On the billing rates list, you can remove one or more job roles that came from a rate card. Removing a job role billing rate from the project does not remove it from the default rate card.
-

@@ -92,8 +92,6 @@ To invite a user to join an organization:
 
 [!DNL Fusion] sends an email with an invitation to the specific organization and an [!UICONTROL Accept The Role] button.
 
-![](assets/accept-the-role.png)
-
 When the recipient clicks the button, they are redirected to the invitation page, where they can accept the invitation.
 
 The invitation will expire in a day.
@@ -141,6 +139,8 @@ A user has one of the following roles in each of their teams:
 * **[!UICONTROL Team Operator]**: The [!UICONTROL operator] role allows users to see execution data and change the "Active" status of scenarios.
 * **[!UICONTROL Team Restricted Member]**: Functionality for this role is currently unavailable, and will be made available in the near future. We do not recommend assigning users to this role at this time.
 
+For information on specific tasks available to team roles, see[Organization and team roles](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+
 ### Team Management
 
 * [Create a team](#create-a-team)
@@ -158,6 +158,12 @@ To create a team:
 1. Enter a name for the new team, and click **Add**.
 
 #### Set Team Notification Options
+
+>[!NOTE] 
+>
+>If you access [!DNL Fusion] through the [!DNL Adobe Experience Cloud], your notifications are handled in the [!DNL Experience Cloud] notification center.
+>
+>For more information, see [Access your notifications](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) in [[!DNL Adobe Unified Experience] for [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md)
 
 Email notification options are set on the team level.
 

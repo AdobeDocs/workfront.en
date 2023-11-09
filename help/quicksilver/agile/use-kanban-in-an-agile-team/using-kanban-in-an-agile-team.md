@@ -6,6 +6,7 @@ title: Kanban in an agile team
 description: Review these articles to learn more about using Kanban in an agile team.
 author: Lisa
 feature: Agile
+recommendations: noDisplay, noCatalog
 exl-id: 20bb4534-796c-48ac-b43e-85717fefe1bf
 ---
 # Kanban in an agile team

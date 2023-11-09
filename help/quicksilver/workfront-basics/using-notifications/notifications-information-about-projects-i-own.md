@@ -2,14 +2,14 @@
 content-type: reference
 navigation-topic: notifications
 title: 'Notifications: Information about projects I own'
-description: The following notifications alert you about activities taking place on a project you own. For information about configuring which notifications you receive, see Activate or deactivate your own event notifications.
+description: The following notifications alert you about activities taking place on a project you own. For information about configuring which notifications you receive, see Modify your own email notifications.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: cf605849-bcc0-4982-b8fa-f69eef7a4fb6
 ---
 # Notifications: Information about projects I own
 
-The following notifications alert you about activities taking place on a project you own. For information about configuring which notifications you receive, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+The following notifications alert you about activities taking place on a project you own. For information about configuring which notifications you receive, see [Modify your own email notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 See also [Event notifications](../../workfront-basics/using-notifications/event-notifications.md).
 

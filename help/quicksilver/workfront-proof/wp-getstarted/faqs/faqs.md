@@ -4,9 +4,10 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: basics-workfront-proof
 title: Workfront Proof - frequently asked questions
-description: This section contains the following articles - EDIT ME.
+description: See frequently asked questions about Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: e2bbb311-b56a-46aa-8595-420482fa4ed8
 ---
 # Workfront Proof - frequently asked questions

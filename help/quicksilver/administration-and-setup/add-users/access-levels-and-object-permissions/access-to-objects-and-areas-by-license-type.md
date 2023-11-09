@@ -43,7 +43,7 @@ The table below tells you the highest level of access (Edit or View) that each o
 
 >[!NOTE]
 >
->Users with a Review license or a Request license has limited sharing capabilities. For more information, see [Adobe Workfront licenses overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md) or [Adobe Workfront licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
+>Users with a Review license or a Request license has limited sharing capabilities. For more information, see [Adobe Workfront licenses overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 >
 >External users cannot search for items in Workfront. They can view documents and calendars that are specifically shared with them. They can also see the users that share items with them.
 

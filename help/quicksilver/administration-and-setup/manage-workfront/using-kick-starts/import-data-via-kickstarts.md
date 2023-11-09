@@ -40,7 +40,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>:</p> 
+   <p> If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -301,20 +302,33 @@ Each row of the sheet corresponds to a unique object.
 1. Complete the cell in the **isNew** column:
 
    * If the object you are importing is new, type **TRUE** to import the data in the row.
-   * If the object is already in Workfront, type **FALSE** to ignore the row.
+   * If the object is already in Workfront, **FALSE** must be in the column to ignore the row.
+
+     * Records that already exist in Workfront are not updated.
+     * If you downloaded a template with data, existing objects are already marked with **FALSE**.
+     * If you downloaded a blank template, you do not need to add new rows for existing objects.
 
 1. Complete the cell in the **ID** column in one of the following ways:
 
-   * If the object you are importing is new (and you typed**TRUE** in the **isNew** column), specify any number for the ID. This number must be unique in the spreadsheet.
+   * If the object you are importing is new (and you typed **TRUE** in the **isNew** column), type any number for the ID. This number must be unique in the spreadsheet.
    
-   * If the object you are importing already exists in the Workfront system (and you typed**FALSE** in the **isNew** column), the ID must be the alpha-numeric GUID that exists in Workfront for that object.
+   * If the object already exists in Workfront (and **FALSE** is in the **isNew** column), the ID must be the alpha-numeric GUID that exists in Workfront for that object.
+
+     * Records that already exist in Workfront are not updated.
+     * If you downloaded a template with data, existing objects already contain the GUID as the ID.
+     * You can import a new object based on an existing object by changing **FALSE** to **TRUE** in the **isNew** column, changing the ID, and making the necessary data adjustments before importing.
+
+      ![Sample ID for a Group](assets/kick-start-group-example.png)
    
+   * When you import a project, you must indicate a Group ID.
+   
+      * If the group already exists in Workfront, you must add its unique ID to the **setGroupID** field for the project.
+      * If the group does not exist in Workfront, you can add the **GROUP Group** sheet to your import file, set the **isNew** field to **TRUE** on the Group sheet, and indicate a numeric ID for the new group in the **ID** column. The **setGroupID** field for the new project must match the numeric **ID** for the new group.
+
      **Example:** For a project, the value displayed in the **setGroupID** column must one of the following:
 
       * The GUID for an existing Group in your Workfront instance
       * The value (number) in the ID column on the **GROUP Group** sheet if you are creating a new Group during the import
-
-        ![](assets/verysimplekickstartprojectimport-350x31.png)
 
 1. Input values for the required fields and any other fields you want to populate during the import.
 1. (Optional) To add custom data:
@@ -414,7 +428,7 @@ Though it is a best practice to use IDs whenever possible, sometimes it's inconv
 
      For role assignments to new role records, input the ID you assigned on the ROLE Role sheet in the setRoleID.
 
-     ![](assets/setroleid-350x66.png)
+     ![Role ID for users](assets/set-role-id.png)
 
 ## Import the spreadsheet data into Workfront
 
@@ -422,18 +436,24 @@ After you populate the Excel template with your data, you can upload it's data i
 
 The Kick-Start import supports the following file types:
 
-* XML-based Excel (&#42;.xlsx)
-* Legacy Excel (&#42;.xls)
-* Zipped (&#42;ZIP) xlsx or xls file
+* XML-based Excel (.xlsx)
+* Legacy Excel (.xls)
+* Zipped (.ZIP) file (that contains only .xlsx or .xls files)
 
    >[!NOTE]
    >
-   >You must use a ZIP file when importing Excel spreadsheets that reference reports; documents; avatars; or view, filter, or grouping property files. When using a zipped import file, the &#42;ZIP file must have the same name as the &#42;.xlsx or &#42;.xls file, and all contents must be at the same file structure level (no folders).
-
+   >You must use a .ZIP file when importing Excel spreadsheets that reference the following objects: 
+   >
+   >* Reports
+   >* Documents
+   >* Avatars
+   >* View, filter, or grouping property files. 
+   >
+   >When using a zipped import file, the .ZIP file must have the same name as the .xlsx or .xls file, and all files must be at the same structure level (no folders).
 
 To import the template spreadsheet data into Workfront:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
 1. Click **System** >**Import Data (Kick-Starts)**.
 
@@ -443,6 +463,6 @@ To import the template spreadsheet data into Workfront:
 
    If the Excel file takes longer than 5 minutes to upload to Workfront, the application times out and the file cannot be uploaded.
 
-   Try importing your data in smaller batches of objects.  
+   Try importing your data in smaller batches of objects.
 
 1. (Conditional) If you are using Workfront Fusion, you can now turn on your FLOs or scenarios.

@@ -7,6 +7,7 @@ description: Rate cards allow you to define multiple billing rates per role, bas
 author: Lisa
 feature: System Setup and Administration
 role: Admin
+exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
 ---
 # Manage rate cards
 
@@ -47,12 +48,11 @@ You must have the following access to perform the steps in this article:
 {{step-1-to-setup}}
 
 1. In the left panel, click [!UICONTROL **Rate cards**].
-1. Click [!UICONTROL **New rate card**], then enter the rate card name and description in the list.
-1. To add billing rates, click the rate card name in the list.
-1. On the card screen, click [!UICONTROL **New billing rate**].
-1. In the New Billing Rate dialog, select a [!UICONTROL **Job Role**] to define billing rates for.
+1. Click [!UICONTROL **New rate card**], then type a name for the rate card in the [!UICONTROL **Rate card**] field, to replace "Untitled Rate Card."
+1. On the card screen, click [!UICONTROL **Add job role**].
+1. In the dialog, select a [!UICONTROL **Job Role**] to define billing rates for.
 
-   The Default Billing Rate displays the system-level rate for this job role.
+   The Default Billing Rate displays the system-level rate for this job role, if one is defined.
 
    ![New Billing Rate dialog](assets/location-rate-for-rate-card.png)
 
@@ -73,23 +73,24 @@ You must have the following access to perform the steps in this article:
      Billing Rate 1 will not have a start date and the last billing rate will not have an end date. Some dates are added automatically. For example, if Billing Rate 1 does not have an end date, and you add Billing Rate 2 with a start date of May 1, 2023, an end date of April 30, 2023 is added to Billing Rate 1 so that no gaps exist.
 
 1. Click [!UICONTROL **Save**].
-1. (Optional) To add another billing rate, either for the same job role in another location or for a separate job role, click [!UICONTROL **New billing rate**].
+1. (Optional) To add another billing rate, either for the same job role in another location or for a separate job role, click [!UICONTROL **Add job role**].
+1. (Optional) To edit a billing rate, select the rate in the rate card and click the **Edit** icon.
 
 ## Copy a rate card
 
 {{step-1-to-setup}}
 
 1. In the left panel, click [!UICONTROL **Rate cards**].
-1. Select the check box next to rate card in the list and click the **Copy** icon ![Copy icon](assets/copy-icon.png).
+1. Select the check box next to the rate card in the list and click the **Copy** icon ![Copy icon](assets/copy-icon.png).
 
    A duplicate rate card is added. Click the rate card name in the list to change its name.
 
-## Delete a rate card
+## Delete an entire rate card
 
 {{step-1-to-setup}}
 
 1. In the left panel, click [!UICONTROL **Rate cards**].
-1. Select the check box next to rate card in the list click the **Delete** icon ![Delete icon](assets/delete.png).
+1. Select the check box next to the rate card in the list click the **Delete** icon ![Delete icon](assets/delete.png).
 
    >[!NOTE]
    >

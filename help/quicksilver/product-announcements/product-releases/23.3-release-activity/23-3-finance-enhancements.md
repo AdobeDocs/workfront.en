@@ -3,14 +3,29 @@ title: 23.3 Financial Management enhancements
 description: 23.3 Financial Management enhancements
 author: Lisa
 feature: Product Announcements
+exl-id: dc8ea58d-ad8a-45c8-bd02-552ab6127c38
 ---
 # 23.3 Financial Management enhancements
 
-This page describes all Financial Management enhancements made with the 23.3 release to the Preview environment. These enhancements will be made available in the Production environment with the 23.3 release. 
+This page describes all Financial Management enhancements made with the 23.3 release.
 
 For a list of all changes available at this point in the 23.3 release cycle, see [23.3 Release overview](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Date effective cost and billing rates
+
+
+>[!IMPORTANT]
+>
+>This feature will be made available on the following dates:
+>
+>* Preview release: June 29, 2023
+>
+>* Production release for the Fast release customers: To be announced, after the 23.3 Production release
+>
+>* Production release for all customers: Production release for all customers: To be announced
+>
+>The assignment rate override feature was temporarily disabled in Preview from June 30 to July 13, 2023. 
+
 
 Date effective cost and billing rates are now available on the company, user, and job role objects in Workfront. When date effective rates are applied to a project, and hours are logged on project tasks, the costs and revenue are calculated using the specified rates for each time period.
 

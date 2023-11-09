@@ -4,9 +4,10 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-navigation-topic
 title: Workfront Proof
-description: This section contains the following subsections - EDIT ME.
+description: Learn how to use Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: f9c782b7-23dc-4fde-83e1-b7ef71a3b741
 ---
 # Workfront Proof

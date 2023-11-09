@@ -4,9 +4,10 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: emails-and-notifications-workfront-proof
 title: Email alerts
-description: This section contains the following articles - EDIT ME.
+description: Learn about setting up email alerts in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: eacd6ff8-49f3-46d5-89e0-1bb44554cce7
 ---
 # Email alerts

@@ -6,6 +6,7 @@ title: Work directly with others
 description: Review these articles to learn how to work directly with others in Workfront.
 author: Lisa
 feature: People Teams and Groups
+recommendations: noDisplay, noCatalog
 exl-id: 83d9f2f6-f5f9-4fd1-8c2d-2eda521d0c19
 ---
 # Work directly with others

@@ -5,6 +5,7 @@ title: Retrieve currency information for a project when currency is null
 description: Retrieve currency information for a project when currency is null
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 31ed533b-be19-4ccb-aad4-7c78e008b3e9
 ---
 # Retrieve currency information for a project when currency is null (not assigned)

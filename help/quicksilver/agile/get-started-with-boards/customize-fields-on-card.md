@@ -90,3 +90,7 @@ Custom fields are available on connected cards. They are only visible on the ful
    ![Custom field value and label](assets/save-custom-field-value-label.png)
 
    The custom field is added to the list of available fields and is enabled by default. You can disable the custom field following the steps in the [Configure cards](customize-fields-on-card.md#configure-cards) section above, edit the field, or delete it from all cards.
+
+>[!NOTE]
+>
+>If you later rename the custom field in Workfront, you must edit the field label on the Configure panel to match, or the field will not display on the cards.

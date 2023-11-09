@@ -9,7 +9,11 @@ exl-id: 0071fa0d-8164-42d2-bbc6-bd60f8e0c052
 ---
 # Add tags
 
-You can add tags to cards to visually show that they are similar. Then you can filter by those tags to display related cards. Board tags are not shared between boards, but workstream tags are available on all boards in a workstream.
+You can add tags to cards to visually show that they are similar. Then you can filter by those tags to display related cards.
+
+>[!NOTE]
+>
+>Tags are not shared between boards.
 
 ## Access requirements
 
@@ -51,6 +55,12 @@ You must have the following access to perform the steps in this article:
    ![Tag Manager](assets/tag-manager-2023.png)
 
 ## Create tags for a workstream
+
+>[!IMPORTANT]
+>
+>Workstreams are only available to a specific group of customers.
+
+Workstream tags are available to all boards in a workstream.
 
 {{step1-to-boards}}
 

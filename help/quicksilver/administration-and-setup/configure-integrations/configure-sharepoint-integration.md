@@ -9,7 +9,7 @@ feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
 ---
-# Configure the Legacy [!DNL SharePoint] integration
+# Configure the [!DNL SharePoint] integration
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
@@ -75,6 +75,27 @@ For instructions on linking documents through the new [!DNL SharePoint] integrat
 >* A [!DNL SharePoint] integration can connect to a single [!DNL SharePoint] instance. Therefore, a user can set up an integration for one [!DNL SharePoint], but cannot set up an integration to a second [!DNL SharePoint], even if they have permissions to and documents on the second [!DNL SharePoint].
 >
 >* A user has access to the same sites, collections, folders, subfolders, and files through the [!DNL Workfront] [!DNL SharePoint] integration as they have in their [!DNL SharePoint] account.
+
+### Link documents from SharePoint
+
+For instructions on linking documents from SharePoint through the new [!DNL SharePoint] integration, see [Link an external document to [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
+
+### Send documents to SharePoint
+
+To send a document to SharePoint:
+
+1. Click the **Send to** icon ![Send to](assets/send-to-icon.png) and select SharePoint (Graph API).
+1. (Optional) Search in the search bar for the site or folder where you want to send the document.
+1. Select the site or folder from the list.
+
+   * Sites are marked with ![Site icon](assets/site-icon.png).
+
+   * Folders are marked with ![Folder icon](assets/folder-icon.png).
+
+   * Files are not marked with an icon.
+
+1. Click **Save**.
+
 
 ## Security, access, and authorization information for the [!DNL SharePoint] integration
 

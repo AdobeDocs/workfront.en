@@ -16,9 +16,17 @@ Only one intake column is permitted on a board, and it always appears as the lef
 
 The intake column is not available on a dynamic board.
 
-The intake column is not available on boards that are part of a workstream. Instead, you can set up a backlog column to pull in cards from the card list. For information about adding a backlog column to a board in a workstream, see [Configure the backlog on a workstream board](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md).
+The intake column is limited to 300 tasks and 300 issues. The default ordering of items in the intake column is as follows:
 
-The intake column is limited to 300 tasks and 300 issues. They are sorted by the priority defined on the items. For information about priority, see [Update task priority](/help/quicksilver/manage-work/tasks/task-information/task-priority.md) and [Update issue priority](/help/quicksilver/manage-work/issues/issue-information/update-issue-priority.md).
+Tasks:
+
+* Primary order: Project name
+* Secondary order: Work Breakdown Structure
+
+Issues:
+
+* Primary order: Project name
+* Secondary order: Reference number
 
 For more information on columns, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). For information on connected cards, see [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
@@ -46,10 +54,6 @@ You must have the following access to perform the steps in this article:
 &#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 ## Create an intake column using simple filters
-
->[!NOTE]
->
->Simple filters are only available via the early feature opt-in for Adobe Workfront Boards.
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Boards]**.
 1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).

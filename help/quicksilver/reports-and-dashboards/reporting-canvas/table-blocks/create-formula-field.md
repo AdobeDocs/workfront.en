@@ -1,12 +1,10 @@
 ---
 title: Build a formula field in Reporting Canvas
 description: Build a formula field in Reporting Canvas
-author: Nolan
-draft: Probably
-feature: Reports and Dashboards
+hidefromtoc: yes
+hide: yes
 exl-id: 22a2c3d7-39db-4f5d-94f3-222ca3ee0615
 ---
-
 # Build a formula field in Reporting Canvas
 
 The field builder in Reporting Canvas allows you to create fields that perform custom calculations.

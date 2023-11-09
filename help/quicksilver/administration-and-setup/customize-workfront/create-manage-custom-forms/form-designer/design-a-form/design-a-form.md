@@ -5,7 +5,7 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: You can design a custom form with the form designer.
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 ---
@@ -125,7 +125,7 @@ To add a text field:
 
 1. On the left side of the screen, find one of the following text fields and drag it to a section on the canvas:
 
-    * Single Line Text:
+    * Single Line Text
     * Paragraph Text
     * Text field with formatting
     * Descriptive text
@@ -237,7 +237,7 @@ To add a calculated field, see [Add calculated fields with the form designer](/h
 
 ### Add radio buttons, checkboxes, and dropdowns
 
- You can add radio buttons, checkboxes, and dropdowns to a custom form. 
+ You can add radio buttons, checkboxes, and dropdowns to a custom form.
 
 +++ **Expand to see descriptions of available fields**
 
@@ -246,6 +246,10 @@ To add a calculated field, see [Add calculated fields with the form designer](/h
 * **Dropdown**: Provides a list of dropdown choices.
 
 +++
+
+>[!NOTE]
+>
+>Fields that allow multiple selections, such as the Checkbox Group and Dropdown, are difficult to chart and group in reports. To allow easier charting and grouping in reports, you can create separate fields for each choice (for example, a single-line text field).
 
 To add radio buttons and checkboxes:
 
@@ -316,7 +320,7 @@ To add radio buttons and checkboxes:
     </tr> 
     <tr> 
      <td role="rowheader">Display Type</td> 
-    <td>Switch between radio buttons, checkbox groups, or dropdowns for the field.</td> 
+    <td>Switch between radio buttons, checkbox groups, dropdowns, or multi-select dropdowns for the field.</td> 
     <td><ul>
     <li>Radio buttons</li>
     <li>Checkbox Group</li>
@@ -484,11 +488,107 @@ To add typeahead date fields:
 
     or
 
-    Click **Save and Close**. 
+    Click **Save and Close**.
 
-### Add images, PDFs, and Videos
+### Add external lookup fields
 
- You can add an images, PDFs, and Videos to a custom form. Users who work with the object the custom form is attached to can see the image, PDF, or video only in the following areas:
+An external lookup field calls an external API and returns values as options in a dropdown field. Users who work with the object the custom form is attached to can select one or more of these options from the dropdown.
+
+To add an external lookup:
+
+1. On the left side of the screen, find **External lookup** and drag it to a section on the canvas.
+1. On the right side of the screen, configure the options for the custom field:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Label</td> 
+      <td> <p>(Required) Type a descriptive label to display above the custom field. You can change the label at any time.</p> <p><b>IMPORTANT</b>: Avoid using special characters in this label. They don't display correctly in reports.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Name</td> 
+      <td> <p>(Required) This name is how the system identifies the custom field.</p> <p>When you are configuring the custom field for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p> 
+      <p><b>IMPORTANT</b>:   
+      <ul> 
+      <li>Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the custom field where it might now be referenced in other areas of Workfront. <p>For example, if you add the custom field to a report and later change its name, Workfront doesn't recognize it in the report and it will stop functioning correctly there unless you re-add it to the report using the new name.</p> </li>
+      <li> <p>We recommend that you do not type a name that is already used for built-in Workfront fields.</p> </li>
+      <li><p>We recommend that you do not use the period/dot character in the custom field name, to prevent errors when using the field in different areas of Workfront.</p></li>
+      </ul> <p>Each custom field name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form. For more information, see <a href="#Add" class="MCXref xref">Add a custom field to a custom form</a> in this article.</p> </td>
+     </tr> 
+      <td role="rowheader">Instructions</td> 
+      <td> <p>Type any additional information about the custom field. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Format</td>
+      <td><p>Select the type of data that will be captured in the custom field.</p>
+      <p><strong>NOTE:</strong></p>
+      <ul><li>You can change the format type after the form is saved, with one limitation: All existing values on objects must be able to be converted to the new type. (For example, if the format type is Text, and an object is storing the value "abc," you cannot convert the field and will get an error that the system cannot convert "abc" to number/currency.) If you intend to use your field in mathematical calculations, ensure that you select a Number or Currency format.</li>
+      <li>When you select Number or Currency, the system automatically truncates numbers that start with 0.</li></ul></td>
+     </tr> 
+     <tr> 
+      <td role="rowheader">Base API URL</td> 
+      <td><p>Type or paste the URL for the API.</p><p>The API URL must return a JSON content of the options that you would like to show in the dropdown. You can use the JSON Path field to select the specific values from the returned JSON to be dropdown options.</p><p>When entering the API URL, you can optionally pass the following values in the URL:</p>
+      <ul><li>$$QUERY - This represents the search text that the end user types in the field and allows you to implement query filtering for your end users. (The user will search for the value in the dropdown.)</li>
+      <li>$$HOST - This represents the current Workfront host and can be used to make /search API calls to the Workfront API. When this wildcard is used, the authentication is handled and users don't need to send authentication headers. (For example, users can search tasks using the base URL "$$HOST/attask/api/task/search" and it will allow searching tasks and selecting values from a returned list of tasks.)</li>
+      <li>{fieldName} - Where fieldName is any custom or native field in Workfront. This way you can implement cascading dropdown option filters, when you pass the value of an already selected field to the External Lookup field to filter down options. (For example, the Region field already exists on the form and you are narrowing a list of countries from the API to those that are in a specific region.)</li></ul>
+      <p><strong>NOTE:</strong> Review the documentation for the API you are working with for the specific queries you can define.</p></td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">HTTP Method</td> 
+      <td>Select <strong>Get</strong>, <strong>Post</strong>, or <strong>Put</strong> for the method.</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">JSON Path</td>
+      <td><p>Type or paste the JSON path for the API.</p> <p>This option allows extracting data from the JSON returned by the API URL. It serves as a way to select which values from inside the JSON will appear in the dropdown options.</p><p>For example, if your API URL returns JSON in this format:</br>
+      <pre>
+      {
+       data: {
+         { name: "USA"},
+         { name: "Canada"}
+       }
+      }
+      </pre>
+      </p>
+      <p>then you can use "$.data[*].name" to select USA and Canada as dropdown options.</p> <p>For more information about the JSON Path and ensuring you write the correct JSON Path, refer to <a href="https://jsonpath.com/">https://jsonpath.com/</a>.</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">Headers</td>
+      <td><p>Click <strong>Add Header</strong>, and type or paste the key-value pair required for authentication with the API.</p><p><strong>NOTE:</strong> The Header fields are not a secure place to store credentials, and you should be careful of what you enter and save.</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">Multi-Select Dropdown</td>
+      <td><p>Select this option to allow the user to select more than one value in the dropdown.</p></td>
+     </tr>
+     </tr>
+     <tr> 
+      <td role="rowheader">Make a required field</td>
+      <td><p>Select this option if you want the field to be required in order for the user to complete the custom form.</p></td>
+     </tr>       
+    </tbody>
+   </table>
+
+1. To save your changes, click **Apply** and move on to another section to continue building your form.
+
+    or
+
+    Click **Save and Close**.
+
+>[!NOTE]
+>
+>The following items are technical limitations of the call to the external API:
+>
+>* Maximum number of options: 200 (only the first 200 options from the returned JSON are displayed)
+>* Timeout: 3 seconds
+>* Number of retries: 3
+>* Wait duration between retries: 500ms
+>* Expected response statuses: 2xx
+>* Users can see the selected value (and edit the value) in Workfront lists and reports, but will not see the dropdown with options coming from the external API.
+
+### Add images, PDFs, and videos
+
+ You can add an images, PDFs, and videos to a custom form. Users who work with the object the custom form is attached to can see the image, PDF, or video only in the following areas:
 
 * The object's Details area (for example, for a project, the Project Details area)
 * The Edit box for the object, if it has the new Adobe Workfront experience look and feel (for example, the Edit Project and Edit Task boxes)
@@ -508,7 +608,7 @@ The Workfront Mobile app -->
 
 +++
 
- To add an images, PDFs, or videos:
+ To add images, PDFs, or videos:
 
 1. On the left side of the screen, find one of the following fields and drag it to a section on the canvas.
 

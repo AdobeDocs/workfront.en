@@ -4,7 +4,7 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Add a section break to a custom form with the legacy form builder
 description: You can group the custom fields and widgets in a custom form into sections with headings. This is useful for presenting an organized experience to users who will fill out the form. Also, if you need to limit access to certain custom fields and widgets to certain users, you can place them in a section and then grant access to the section to only those users.
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
 ---
@@ -84,7 +84,8 @@ You must have the following to perform the steps in this article:
       <td role="rowheader"> <p>Grant access</p> </td> 
       <td> <p> Select the permissions that users need on an object where the custom form is attached in order to view this section and edit its field values. 
        <p>The following permissions are available under <b>Users with this access to the object can view field values</b>:</p> 
-         <ul>  
+         <ul>
+          <li><strong>View</strong>: View permissions to the object</li>
           <li><p><b>Limited Edit</b>: (Available only if the object is a project, task, issue, or user):</p> 
           <p>Allows users to contribute to the object if it's a project, task, or issue.</p>
           <p>Allows users  to edit the profile or own the profile permission to the object if it's a user.</p></li> 

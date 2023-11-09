@@ -8,6 +8,7 @@ description: As a Workfront administrator, you can customize the branding in you
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 8a733194-f99b-4066-949f-755046b8d515
 ---
 # Custom branding in Adobe Workfront

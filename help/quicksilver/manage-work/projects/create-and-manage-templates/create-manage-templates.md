@@ -6,6 +6,7 @@ title: Create and manage project templates
 description: Learn information about how to create and manage project templates in the following articles.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 64fbad12-ce16-449f-8991-62af31e595b2
 ---
 # Create and manage project templates

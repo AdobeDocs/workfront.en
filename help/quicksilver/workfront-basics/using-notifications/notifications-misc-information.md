@@ -11,7 +11,7 @@ exl-id: fd93a48b-ef09-4489-b93d-5328240ffed6
 
 The following notifications alert you about activities happening on a project you are sponsoring.
 
-For information about configuring which notifications you receive, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+For information about configuring which notifications you receive, see [Modify your own email notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 See also [Event notifications](../../workfront-basics/using-notifications/event-notifications.md).
 

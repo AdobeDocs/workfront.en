@@ -14,6 +14,8 @@ exl-id: 4cc72e55-8105-420a-9609-e965222399e3
 
 The Preview environment is updated once a week with new features. These features are communicated in the release notes for the upcoming quarterly release.
 
+Releases typically take place around 8-10 PM US Mountain Time.
+
 ## Update schedule for Production
 
 ### Product features
@@ -21,7 +23,7 @@ The Preview environment is updated once a week with new features. These features
 
 Adobe Workfront has two models for releasing new features and updates. Your organization can choose whether to receive new functionality on a quarterly basis, or on a faster release schedule. 
 
-Monthly and quarterly releases are planned to be available on the last Thursday of the month.
+Monthly and quarterly releases are planned to be available on the last Thursday of the month. Releases typically take place around 8-10 PM US Mountain Time the evening before.
 
 Usually, features in Preview are made available in your Production environment with the next release. However, in some cases, features are made available in the Production environment outside of a scheduled release. These changes remain in Preview for a minimum of 2 weeks to provide you with adequate time to become acquainted with the changes. These changes are also communicated via the Announcement Center at the time they are added to Preview.
 

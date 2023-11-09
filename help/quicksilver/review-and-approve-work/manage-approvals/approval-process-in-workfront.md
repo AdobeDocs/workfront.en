@@ -5,7 +5,7 @@ navigation-topic: approvals
 title: Approval process overview
 description: You can create an approval process and attach it to an object to make sure that designated users review certain changes before the object progresses.
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: dd0822b6-80f1-4a2e-bf6a-0c425984f4d0
 ---
 # Approval process overview
@@ -106,7 +106,7 @@ This section explains the following about approving work items:
 
 Attaching a status to an approval process ensures that the item moves through departments in the right order.
 
-**Example:** You could attach an approval process to the Marketing Department status that requires approval by the Finance department. Then, when someone changes the status for a work item to “Marketing Department,” the item can't move to that department until the Finance department signs off on it.
+**Example:** You could attach an approval process to the Marketing Department status that requires approval by the Finance department. Then, when someone changes the status for a work item to "Marketing Department," the item can't move to that department until the Finance department signs off on it.
 
 For more information about statuses for work items, see the following articles:
 

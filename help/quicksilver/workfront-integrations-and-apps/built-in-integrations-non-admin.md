@@ -145,13 +145,6 @@ The following built-in integrations are currently available in Workfront.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront DAM*</td> 
-   <td> 
-    <ul> 
-     <li> <p class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Link digital assets to [!DNL Workfront]</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
    <td role="rowheader"> <p>Workfront Fusion*</p> 
  </td> 
    <td> 

@@ -4,7 +4,7 @@ navigation-topic: approvals
 title: Limited document and proof decision for non-paid users overview 
 description: Proof and document decisions are limited for all non-paid Workfront licenses. Limits reset on a per-user basis each month.
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
 ---
 # Limited document and proof decision for non-paid users overview

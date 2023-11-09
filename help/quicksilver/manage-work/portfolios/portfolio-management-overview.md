@@ -6,6 +6,7 @@ title: Portfolio Management
 description: Find out information about portfolio management in the following sections.
 author: Alina
 feature: Work Management, Strategic Planning
+recommendations: noDisplay, noCatalog
 exl-id: 89f572a8-f585-4eee-a346-9e3188496c6d
 ---
 # Portfolio Management

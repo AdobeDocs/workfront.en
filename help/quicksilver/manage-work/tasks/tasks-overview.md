@@ -6,6 +6,7 @@ title: Tasks
 description: Tasks are smaller work items in Adobe Workfront that contribute to the completion of a project. Learn information about managing tasks in the following articles. 
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 08a47320-b847-4b18-b4c0-1b9f67cfd248
 ---
 # Tasks

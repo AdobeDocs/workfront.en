@@ -6,6 +6,7 @@ title: Calendars
 description: Review these articles to get an understanding of calendar reports in Adobe Workfront.
 author: Lisa
 feature: Reports and Dashboards
+recommendations: noDisplay, noCatalog
 exl-id: b46834db-358e-4ee2-9512-f7419351de30
 ---
 # Calendars

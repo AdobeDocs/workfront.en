@@ -3,14 +3,15 @@ content-type: reference
 product-area: reporting
 navigation-topic: reports
 title: Calculated custom data in reports
-description: This section contains the following articles - EDIT ME.
+description: Learn about custom data in reports.
 author: Nolan
 feature: Reports and Dashboards
+recommendations: noDisplay, noCatalog
 exl-id: 673792b6-7369-47ce-b0df-9bda4254781c
 ---
 # Calculated custom data in reports
 
-This section contains the following articles:
+You can create reports using calculated custom data. The following articles describe how: 
 
 * [Calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) 
 * [Calculated custom fields vs. calculated columns](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md) 

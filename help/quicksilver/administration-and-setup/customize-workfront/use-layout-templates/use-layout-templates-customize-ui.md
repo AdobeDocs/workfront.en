@@ -8,6 +8,7 @@ description: As a Workfront administrator or a group administrator, you can crea
 author: Alina
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: f8961140-948f-4bea-956b-a8126008b8cb
 ---
 # Layout templates
@@ -29,3 +30,4 @@ This section contains the following articles:
 * [Grant administrative access for a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md) 
 * [Assign users to a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) 
 * [Copy a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
+* [Delete the Classic layout templates using an API call](../../../administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)

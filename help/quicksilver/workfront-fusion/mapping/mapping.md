@@ -7,6 +7,7 @@ title: Mapping in Adobe Workfront Fusion
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 author: Becky
 feature: Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 31612996-988c-450c-8a1e-eb6c77f74692
 ---
 # Mapping in Adobe Workfront Fusion

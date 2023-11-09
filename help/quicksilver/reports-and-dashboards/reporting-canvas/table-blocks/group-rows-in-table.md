@@ -1,12 +1,10 @@
 ---
 title: Group table rows in Reporting Canvas
 description: Group table rows in Reporting Canvas
-author: Nolan
-draft: Probably
-feature: Reports and Dashboards
+hidefromtoc: yes
+hide: yes
 exl-id: 355bbe5b-9c66-4b6b-b479-a48a20b53fe6
 ---
-
 # Group table rows in Reporting Canvas
 
 You can organize the information in a report by displaying it in groups defined by currency, date, percentage, text, and time fields.

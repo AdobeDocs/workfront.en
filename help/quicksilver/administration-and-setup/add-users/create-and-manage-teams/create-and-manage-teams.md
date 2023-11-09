@@ -8,6 +8,7 @@ description: As an Adobe Workfront administrator, you can create a team from the
 author: Caroline, Courtney
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: ccf55d72-1a8a-48a0-88c3-64408a5bf688
 ---
 # Create and manage teams

@@ -1,12 +1,16 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Adobe Experience Manager Assets integrations
-description: You can connect your work with the following Adobe Experience Manager Assets Integrations.
+title: Configure the [!UICONTROL Experience Manager Assets as a Cloud Service] integration
+description: You can connect your work with your content in [!DNL Experience Manager Assets].
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
 ---
 # Configure the [!UICONTROL Experience Manager Assets as a Cloud Service] integration
+
+>[!IMPORTANT]
+>
+>This functionality is available only to organization that have been onboarded to the [!DNL Adobe Admin Console].
 
 You can connect your work with your content in [!DNL Experience Manager Assets]â€‹:
 
@@ -19,7 +23,7 @@ You can connect your work with your content in [!DNL Experience Manager Assets]â
 
 >[!NOTE]
 >
->You can also connect several Experience Manager Assets repositories to one Workfront environment, or several Workfront environments to one Experience Manager Assets repository across Organization IDs. Follow the configuration instructions in this article for each integration you'd like to set up. 
+>You can also connect several [!DNL Experience Manager Assets] repositories to one [!UICONTROL Workfront] environment, or several [!DNL Workfront] environments to one [!DNL Experience Manager Assets] repository across Organization IDs. Follow the configuration instructions in this article for each integration you'd like to set up. 
 
 ## Access requirements
 
@@ -73,6 +77,7 @@ Before you begin,
 
 1. Click the **[!UICONTROL Main Menu]** icon  in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Setup]** .
 1. Select **[!UICONTROL Documents]** in the left panel, then select **[!UICONTROL [!DNL Experience Manager] Integration]**.
+
     >[!NOTE]
     >
     >This configuration area appears only if your [!DNL Workfront] environment is included under an [!DNL Adobe Admin Console].
@@ -169,7 +174,9 @@ Metadata maps when an asset is pushed from [!DNL Workfront] for the first time. 
 
 To map metadata for assets: 
 
+<!--
 1. Select **[!UICONTROL Assets]** above the metadata table.
+-->
 1. In the **[!UICONTROL [!DNL Workfront] field]** column, choose a built-in or custom Workfront field.
 
     >[!NOTE]
@@ -179,8 +186,10 @@ To map metadata for assets:
 
 1. In the [!DNL Experience Manager Assets] field, search through the pre-populated categories or enter at least two letters in the search field to access additional categories.
 1. Repeat steps 2 and 3 as needed.
-![metadata fields](assets/asset-metadata.png)
-1. Click [!UICONTROL Save] or move on to the [Folders](#folders) section in this article.
+![metadata fields](assets/metadata-no-asset-toggle.png)
+1. Click [!UICONTROL Save] or move on to the [Set up Workflows](#set-up-workflows-optional) section in this article.
+
+<!--
 
 ### Map metadata for folders
 
@@ -190,7 +199,7 @@ When users create a linked folder on a project, the associated project, portfoli
 >
 >This integration does not support custom metadata from [!DNL Adobe Experience Manager].
 
-To map metadata for folders:
+To map metadata for folders: 
 
 1. Select **[!UICONTROL Folders]** above the metadata table.
 1. In the **[!UICONTROL [!DNL Workfront] field]** column, choose a built-in or custom Workfront field.
@@ -209,14 +218,14 @@ To map metadata for folders:
 
 An [!DNL Experience Manager] fields that is mapped to [!DNL Workfront] portfolio, program, project, task, issue, and document fields update automatically when the field is changed in [!DNL Workfront].
 
+When this option is enabled, any asset that has been pushed to Adobe Experience manager includes a card on the Document Details page that displays a real-time view of the document's Adobe Experience Manager metadata.
+
 >[!IMPORTANT]
 >
 >Users must have write access in [!DNL Experience Manager] for assets living in the object in order for the metadata to sync when it's updated.
 
 1. Enable the **[!UICONTROL Sync object metadata]** field.
-1. Click **Save** or move on to the [Set up workflows (Optional)](#set-up-workflows-optional) section in this article.
-
-<!--Courtney start here-->
+1. Click **Save** or move on to the [Set up workflows (Optional)](#set-up-workflows-optional) section in this article.-->
 
 ## Set up workflows (Optional)
 
@@ -237,15 +246,12 @@ The followings workflows are available in the Adobe Experience Manager integrati
 1. Enable the **[!UICONTROL Append Portfolio and Program Names]** option to automatically include Portfolio and Program names at the end of the linked folder's name.
 1. Click **[!UICONTROL Save]** or move on to the [Publish assets that are sent to Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) section in this article.
 
-<!--Courtney end here-->
-
 ### Publish assets that are sent to Adobe Experience Manager Assets
 
 1. Toggle on **[!UICONTROL Publish assets automatically]**.
 1. Check the box next to the location where you want to publish assets sent to Adobe Experience Manager assets. You may enable either or both options. 
 1. (Conditional) If you have enabled the Brand Portal option, Select the Brand Portal where you want to publish assets.
 1. Click **[!UICONTROL Save]** or move on to the [Set up linked folders (Optional)](#set-up-linked-folders-optional) section in this article.
-
 
 ## Set up linked folders (Optional)
 

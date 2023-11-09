@@ -2072,7 +2072,8 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Status Update]</td> 
-   <td> <p>This field shows the most recent status update that users have provided in the '[!UICONTROL Update Status]' field. Comments made on status updates are not displayed in the [!UICONTROL Status Update] column.</p> <p>To show the '[!UICONTROL New],' '[!UICONTROL In Process],' and '[!UICONTROL Complete]' statuses, use the [!UICONTROL Status] column.</p> <p>Comments made on status updates are not displayed in the [!UICONTROL Status Update] column.</p> <p>For more information on statuses, see the article <a href="../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Update task status</a>.</p> </td> 
+   <td> <p>This field shows the most recent status update that object owners have provided in the '[!UICONTROL Update Status]' field. For projects, this means comments made by the Project Owner, and for tasks and issues, this means comments made by the assignees.</p> 
+   <p> Comments made on status updates are not displayed in the [!UICONTROL Status Update] column.</p> <p>To show the '[!UICONTROL New],' '[!UICONTROL In Process],' and '[!UICONTROL Complete]' statuses, use the [!UICONTROL Status] column.</p> <p>For more information on statuses, see the article <a href="../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Update task status</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Statuses]</td> 

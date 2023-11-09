@@ -12,6 +12,8 @@ exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
 
 The [!UICONTROL Portfolio Optimizer] is the tool used for project evaluation and comparison. The process of reviewing and comparing [!UICONTROL Business Case] values for projects assigned to a portfolio is how a portfolio manager can prioritize projects and generate the most value for an organization.
 
+![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+
 The purpose of the [!UICONTROL portfolio optimizer] is to provide an interface through which a portfolio manager, steering committee, or product management office can view summary information about the business case of each project. Projects can then be prioritized according to strategic values and goals, or according to their overall score.
 
 The [!UICONTROL Portfolio Optimizer] can only assist you if you have completed the following prerequisites:

@@ -5,9 +5,14 @@ navigation-topic: boards
 title: Configure the backlog on a workstream board
 description: You can choose to display a backlog column on a board in a workstream, and define a query for the cards that are pulled into the board backlog from the workstream card list.
 author: Lisa
+feature: Agile
 exl-id: fd2f6eeb-a565-4461-a153-0504ad3c07d7
 ---
 # Configure the backlog on a workstream board
+
+>[!IMPORTANT]
+>
+>Workstreams are only available to a specific group of customers.
 
 You can choose to display a backlog column on a board in a workstream, and define a query for the cards that are pulled into the board backlog from the workstream card list.
 

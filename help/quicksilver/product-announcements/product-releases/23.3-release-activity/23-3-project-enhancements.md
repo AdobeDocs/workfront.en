@@ -3,10 +3,11 @@ title: 23.3 Project enhancements
 description: 23.3 Project enhancements
 author: Lisa
 feature: Product Announcements
+exl-id: df24d13e-d9ff-4c04-8669-9e0b6e4f6501
 ---
 # 23.3 Project enhancements
 
-This page describes all project enhancements made with the 23.3 release to the Preview environment. These enhancements will be made available in the Production environment with the 23.3 release. 
+This page describes all project enhancements made with the 23.3 release. These enhancements were made available in the Production environment with the 23.3 release on July 20 and 21, 2023. 
 
 For a list of all changes available at this point in the 23.3 release cycle, see [23.3 Release overview](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 

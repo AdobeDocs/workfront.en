@@ -4,7 +4,7 @@ navigation-topic: approvals
 title: Add additional approvers to submitted document approvals
 description: You can add additional approvers to a document approval directly from the Home area.
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: 2418565a-639c-424e-873a-f6512efc5cb5
 ---
 # Add additional approvers to submitted document approvals

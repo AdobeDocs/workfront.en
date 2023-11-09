@@ -6,6 +6,7 @@ title: Update work items and view updates
 description: You can use the Updates section of most objects to add comments, replies, or to follow system-tracked updates about changes that take place on the object. 
 author: Alina
 feature: Get Started with Workfront
+recommendations: noDisplay, noCatalog
 exl-id: ef3440fd-92b7-4760-9f53-1b0e736d3a0f
 ---
 # Update work items and view updates

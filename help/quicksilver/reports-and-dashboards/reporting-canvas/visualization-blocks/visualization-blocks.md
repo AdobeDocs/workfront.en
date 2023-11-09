@@ -1,14 +1,11 @@
 ---
-content-type: reference
-product-area: reporting
-navigation-topic: reporting-canvas
 title: Visualization Blocks
 description: Visualization Blocks overview
-author: Nolan
-feature: Reports and Dashboards
+hidefromtoc: yes
+hide: yes
+recommendations: noDisplay, noCatalog
 exl-id: 804ea81c-7d25-4d6f-ab25-46800ab7b2d1
 ---
-
 # Visualization Blocks
 
 This section contains the following articles:

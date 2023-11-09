@@ -6,6 +6,7 @@ title: Create tasks
 description: You can create tasks in a specific project, or you can create tasks from the Home area.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 5776570c-f303-4e62-bc80-5038191a83fd
 ---
 # Create tasks

@@ -3,10 +3,11 @@ title: 23.3 Integration enhancements
 description: 23.3 Integration enhancements
 author: Lisa
 feature: Product Announcements
+exl-id: d24ddc8a-fe96-4e9b-8186-0b54ab9ab213
 ---
 # 23.3 Integration enhancements
 
-This page describes all integration enhancements made with the 23.3 release to the Preview environment. These enhancements will be made available in the Production environment with the 23.3 release. 
+This page describes all integration enhancements made with the 23.3 release. These enhancements were made available in the Production environment with the 23.3 release on July 20 and 21, 2023.
 
 For a list of all changes available at this point in the 23.3 release cycle, see [23.3 Release overview](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
@@ -44,6 +45,8 @@ For more information, see [View and Manage [!DNL Adobe Workfront] notifications 
 
 For information on installing the Workfront for Creative Cloud plugins, see [Install the Adobe Workfront plugin for Creative Cloud Applications](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md).
 
+<!--
+
 ## Improved experience when moving a document to a linked folder with drag and drop
 
 We've added some transparency to the process of dragging and dropping a document into a linked folder. Now, the document that you moved to a linked folder remains in the document list until it has fully moved. The document options are disabled, but you can still open the document for view while it is moving. When the document has completed the transfer, it disappears from the document list, because it is now fully located in the linked folder.
@@ -51,6 +54,8 @@ We've added some transparency to the process of dragging and dropping a document
 Previously, documents would immediately disappear from the document list, before they had finished moving to the linked folder.
 
 For more information, see [Link documents from external applications](/help/quicksilver/documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+
+-->
 
 ## Automatically create linked folders to Adobe Experience Manager Assets when creating a project
 

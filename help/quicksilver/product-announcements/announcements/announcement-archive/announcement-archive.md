@@ -5,6 +5,7 @@ title: Announcement archive
 description: This section contains past announcements for reference
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: d2962100-3a64-47a9-a67c-5ebf6a594711
 ---
 # Announcement archive

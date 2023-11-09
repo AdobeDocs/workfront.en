@@ -4,7 +4,8 @@ navigation-topic: manage-tasks
 title: Edit tasks
 description: You can edit information on tasks that you have created, or that you have Contribute or Manage permissions to.
 author: Alina
-feature: Work Management
+feature: Work Management, Tasks
+role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
 ---
 # Edit tasks
@@ -46,8 +47,13 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">Object permissions</td> 
    <td> 
     <ul> 
-     <li> <p>Contribute permissions to a task to edit it in the Task Details area </p> </li> 
-     <li> <p>Manage permissions to a task to edit it in the Edit Task box</p> </li> 
+     <li> <p>Contribute permissions to a task to edit the following information in the Task Details area: </p>
+     <ul>
+     <li>Description</li>
+     <li>Status</li>
+     </ul>  
+      </li> 
+     <li> <p>Manage permissions to a task to edit all the information in the Details area and the Edit Task box</p> </li> 
     </ul> 
     <ul> 
      <li> <p>Contribute or higher permissions to the project</p> </li> 
@@ -96,7 +102,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 1. Click **Projects**, then click the name of a project to open it.
 1. Click **Tasks** in the left panel. 
 1. Click the task you want to edit.
-1. (Conditional) To edit limited information about a task, as a user with Contribute permissions to the task, click **Task Details** in the left panel.
+1. (Conditional) To edit limited information about a task, click **Task Details** in the left panel.
 
    ![](assets/nwe-task-details-expanded-350x273.png)
 
@@ -350,7 +356,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Duration per Occurrence</td> 
-      <td> <p>This displays only on the parent of recurring tasks. It displays the duration of each recurring task. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>. </p> <p> <b>NOTE</b> 
+      <td> <p>This displays only on the parent of recurring tasks. It displays the duration of each recurring task, as defined when the task was created. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>. </p> <p> <b>NOTE</b> 
       
       Durations modified in individual recurring tasks do not display the value indicated in this field. </p> </td> 
      </tr> 
@@ -431,7 +437,13 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
    </tr> 
    <tr> 
    <td role="rowheader">Planned Hours</td> 
-   <td> <p>Specify the amount of Planned Hours for the task, in hours. This is the amount of actual time it would take the assignees of the task to complete it. You can only specify the amount of Planned Hours for a task when the Duration Type is set to Calculated Assignment. For more information about duration types, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p> </td> 
+   <td> <p>Specify the amount of Planned Hours for the task, in hours. This is the amount of actual time it would take the assignees of the task to complete it. You can only specify the amount of Planned Hours for a task when the Duration Type is set to Calculated Assignment. For more information about duration types, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p> 
+   <b>NOTE</b>
+   <p>
+   When creating recurring tasks, the Planned Hours are those of each occurrence. The Planned Hours of the parent tasks are the total of all Planned Hours from all the occurrences. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>.
+   </p>
+   
+   </td> 
    </tr> 
    <tr> 
    <td role="rowheader">Allocation</td> 

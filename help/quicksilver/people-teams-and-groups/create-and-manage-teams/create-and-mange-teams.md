@@ -6,6 +6,7 @@ title: Create and manage teams overview
 description: Review these articles to learn how to create and manage teams in Adobe Workfront.
 author: Lisa
 feature: People Teams and Groups
+recommendations: noDisplay, noCatalog
 exl-id: a5bf6aee-e41f-44d8-a377-baeea6a0a911
 ---
 # Create and manage teams

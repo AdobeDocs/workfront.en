@@ -6,6 +6,7 @@ title: Review a proof
 description: View content in a proof
 author: Courtney
 feature: Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 9fbdf8a3-eebc-4ad3-9ad9-7d8ad782b929
 ---
 # Review a proof

@@ -5,6 +5,7 @@ title: Authorization code flow for custom OAuth 2 applications
 description: Authorization code flow for custom OAuth 2 applications
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
 ---
 

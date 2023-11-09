@@ -4,9 +4,10 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: mobile-workfront-proof
 title: Tips, tricks, and troubleshooting for the [!DNL Workfront Proof] mobile app
-description: This section contains the following articles - EDIT ME.
+description: Learn to troubleshoot Workfront Proof mobile.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: b8384c56-345d-428a-bb86-05fa4001d3ea
 ---
 # Tips, tricks, and troubleshooting for the [!DNL Workfront Proof] mobile app

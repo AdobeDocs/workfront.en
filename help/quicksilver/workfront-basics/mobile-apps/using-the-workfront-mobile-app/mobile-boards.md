@@ -17,6 +17,10 @@ Any changes you make to board columns and cards in the app are also reflected in
 
 To provide feedback on mobile boards, select the **[!UICONTROL Send]** ![Send feedback](assets/mobile-send-feedback-icon.png) icon at the top of any board and follow the prompts.
 
+>[!NOTE]
+>
+>At this time, the mobile app supports all types of boards **except** Iteration Process boards.
+
 ## View and filter the list of boards
 
 1. Select [!UICONTROL **Boards**] on the home page to view a list of all boards you created or have been added to in the desktop version of [!DNL Workfront].
@@ -38,7 +42,7 @@ To provide feedback on mobile boards, select the **[!UICONTROL Send]** ![Send fe
 
 >[!NOTE]
 >
->At this time, you can only archive or delete a board from the desktop verion of [!DNL Workfront] [!UICONTROL Boards], not from the mobile app.
+>At this time, you can only archive or delete a board from the desktop version of [!DNL Workfront] [!UICONTROL Boards], not from the mobile app.
 
 ## View board contents
 

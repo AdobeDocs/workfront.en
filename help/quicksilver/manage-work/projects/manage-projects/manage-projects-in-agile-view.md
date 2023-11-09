@@ -9,8 +9,6 @@ exl-id: fc633fd6-35b4-4949-8045-22c775002436
 ---
 # Manage a project in the Agile View
 
-{{highlighted-preview}}
-
 <!--
 Required plans, license types, and access
 
@@ -76,7 +74,7 @@ You must have the following access to perform the steps in this article:
 
 >[!NOTE]
 >
-><span class="preview">This section only applies to the legacy Agile view, not to the board view of a project.</span>
+>This section only applies to the legacy Agile view, not to the board view of a project.
 
 * [Agile functionality in a project](#agile-functionality-in-a-project) 
 * [Differences when using the Agile view on a project versus on an iteration](#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration)
@@ -157,26 +155,20 @@ For information about how to customize an agile view, see [Create or customize a
 
 ## View a project in the Agile view
 
-1. Go to the project you want to view in an agile view.
-1. Click the **Agile** icon ![Agile icon](assets/agile-icon-nwe.png).
+1. Go to the project you want to view in an agile view, on either the task list or the issue list.
+1. Click the **Board** icon ![Board icon](assets/board-icon-for-agile-view.png).
 
-   <span class="preview">Or</span>
-
-   <span class="preview">Click the **Board** icon ![Board icon](assets/board-icon-for-agile-view.png).</span>
-
-   The project is displayed in the default agile view.
-
-   <span class="preview">In the Preview environment, the board view displays by default.</span>
+   The board view of the project displays by default.
 
    ![Board view of project](assets/project-agile-board-view.png)
 
-   (Legacy agile view only) If you previously viewed the project in a custom agile view, the project is displayed in that view rather than in the default agile view.
+   <!--(Legacy agile view only) If you previously viewed the project in a custom agile view, the project is displayed in that view rather than in the default agile view.-->
 
-1. <span class="preview">(Optional) Click **Configure** to set options for the columns and cards.</span>
+1. (Optional) Click **Configure** to set options for the columns and cards.
 
-   <span class="preview">For more information, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) and [Customize which fields are displayed on a card](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Note that you can't define column policies on the board view of a project.</span>
+   For more information, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) and [Customize which fields are displayed on a card](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Note that you can't define column policies on the board view of a project.
 
-1. <span class="preview">(Optional) Click **Use legacy agile** to use the legacy agile view instead of the board view.</span>
+1. (Optional) Click **Use legacy agile** to use the legacy agile view instead of the board view.
 
 1. (Optional – legacy agile view only) If you have created a custom agile view, or if another user has created a custom agile view and shared it with you, you can view it instead of the default agile view.
 
@@ -194,14 +186,13 @@ For information about how to customize an agile view, see [Create or customize a
 
    To add statuses to the agile view, either create a new agile view or customize an existing agile view, as described in the "Create or customize an Agile view" section in the article [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. (Optional) To return to the list view, click the **List** icon.  
-   ![List icon](assets/list-icon.png)
+1. (Optional) To return to the list view, click the **List** icon.
 
 ## Create and customize Agile views {#create-and-customize-agile-views}
 
 >[!NOTE]
 >
-><span class="preview">This section only applies to the legacy Agile view, not to the board view of a project.</span>
+>This section only applies to the legacy Agile view, not to the board view of a project.
 
 As with standard views in Workfront, you can customize existing agile Views or create new agile Views from scratch. Unlike standard views, you cannot create new agile Views based on existing agile Views.
 
@@ -211,7 +202,7 @@ For more information about creating and customizing agile views, see the "Create
 
 >[!NOTE]
 >
-><span class="preview">This section only applies to the legacy Agile view, not to the board view of a project.</span>
+>This section only applies to the legacy Agile view, not to the board view of a project.
 
 For information about how to share an agile view, see [Share a filter, view, or grouping](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
@@ -219,6 +210,6 @@ For information about how to share an agile view, see [Share a filter, view, or 
 
 >[!NOTE]
 >
-><span class="preview">This section only applies to the legacy Agile view, not to the board view of a project.</span>
+>This section only applies to the legacy Agile view, not to the board view of a project.
 
 For information about how to delete a view, see the "Remove a view" section in the article [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).

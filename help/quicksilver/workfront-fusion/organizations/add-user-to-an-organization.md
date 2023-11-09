@@ -99,4 +99,4 @@ To add a user to the organization:
 >
 >   <p>For instructions on adding a user to an organization that has been onboarded to the [!DNL Adobe Business Platform], see <a href="#add-a-user-to-an-organization-that-has-been-onboarded-to-the-adobe-business-platform" class="MCXref xref">Add a user to an organization that has been onboarded to the [!DNL Adobe Business Platform]</a></p>
   
-The user receives an invitation email where they can accept the invitation by clicking an [!UICONTROL Accept the Role] button.
+The user receives an invitation email where they can accept the invitation.

@@ -58,6 +58,12 @@ Your [!DNL Workfront] administrator must enable [!DNL Outlook for Office] with [
    Select the **[!UICONTROL Issue]** radio button if you want to add an issue to the selected project.
 
 1. (Optional) Specify who this task or issue is assigned to in the **[!UICONTROL Assign this to]** field. 
+
+   >[!TIP]
+   >
+   >You can assign the task or the issue to a team, if you want several people to be aware of it. If the members of the team have their email notifications enabled, they will receive an email about the new task or issue assigned to them.
+
+
 1. (Optional) Specify the **[!UICONTROL Due by date]**. This becomes the [!UICONTROL Planned Completion Date] of the task or issue.
 1. (Optional) Update the following information from the email before it is saved as a task or issue (required fields are preceded by an asterisk).
 
@@ -86,4 +92,6 @@ Your [!DNL Workfront] administrator must enable [!DNL Outlook for Office] with [
 1. (Optional) Go back to [!DNL Outlook], and select the converted email.
 
    At the top of the [!DNL Workfront] add-in panel, notice the confirmation with a link that the email was added to [!DNL Workfront] as a task or an issue. The link includes the date on which it was converted.
+
+
 

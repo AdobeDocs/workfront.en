@@ -6,7 +6,7 @@ title: Adobe Workfront Proof with the 23.3 release
 description: This page provides information about functionality for Adobe Workfront Proof in the new Adobe Workfront experience that is releasing to the Production environment with the 23.3 release.
 author: Nolan
 feature: Product Announcements, Workfront Proof
-exl-id: 4d09b464-9c58-4a7c-9af5-549812826d33
+exl-id: b4e3f45f-b687-40e5-93f9-a7c3b58d55bd
 ---
 # Adobe Workfront Proof with the 23.3 release
 
@@ -36,10 +36,12 @@ For a list of all changes available for all areas of Workfront at this point in 
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: With the 23.3 release</p>
+                                <p><i>For users using manual installation, with version 2.1.26</i></p>
+                                <p>Preview and production release: July 27, 2023</p>
                             </li>
                             <li>
-                                <p>Production release: With the 23.3 release</p>
+                                <p><i>For users using automatic installation, with version 2.1.28</i></p>
+                                <p>Preview and production release: August 10, 2023</p>
                             </li>
                         </ul>
                     </td>

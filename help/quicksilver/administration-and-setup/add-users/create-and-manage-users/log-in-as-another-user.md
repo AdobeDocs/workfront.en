@@ -12,7 +12,8 @@ exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
 # Log in as another user
 
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all users only in the Preview environment.</span> 
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all users only in the Preview environment.</span> -->
+
 <!--
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. Also linked to other articles: Creating and Managing Groups, etc.</p>
 -->
@@ -98,7 +99,7 @@ You must have the following to perform the steps in this article:
 1. Click **Log in.**
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Might come in a future story:</p>
+   <p> Might come in a future story:</p>
    -->
 
    <!--
@@ -140,13 +141,6 @@ When you log in as another user, the last login date is modified for that user t
 When you log in to Workfront as another user and perform an action, Workfront clearly indicates that any action you perform is made by you on behalf of the user who you are logged in as.
 
 For example, if you comment on an item while logged in as another user, a statement indicates that the comment was made by you on behalf of the user.
-
->[!NOTE]
->
-><span class="preview">When using the new commenting experience, the comment is added as the user who logged in as another user and there is no indication that they are adding a comment on someone else's behalf. 
->
->For example, if a Workfront administrator logs in as another user, the user associated with the comment is the Workfront administrator. For more information, see [New commenting experience](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). </span>
-
 
 ### View audit information {#view-audit-information}
 

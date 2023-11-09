@@ -45,6 +45,13 @@ An ad hoc card is not connected to a work item in [!DNL Adobe Workfront].
 1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **[!UICONTROL Boards]**.
 1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
 1. Click **[!UICONTROL Add card] &gt; [!UICONTROL New card]**.
+
+   The [!UICONTROL Card Details] box appears.
+
+   >[!NOTE]
+   >
+   >If you click outside of the Name field, the ad hoc card is automatically saved as "Untitled" at the bottom of the left-most column. To exit without saving the card, you must click [!UICONTROL **Cancel**] without clicking anywhere else in the [!UICONTROL Card Details] box.
+
 1. In the **[!UICONTROL Card Details]** box, add the following information:
 
    <table style="table-layout:auto"> 
@@ -76,8 +83,8 @@ An ad hoc card is not connected to a work item in [!DNL Adobe Workfront].
       <td>Type the estimated number of hours for the card to be completed. This is a manual entry only.</td>
      </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Assignees]</strong> </td> 
-      <td> <p>To assign the card, start typing a name in the search field, then select it when it displays in the list. You can add both individuals and teams, and you can assign more than one person or team to a card.</p> <p>Assignees must be members on the board or they will not appear in the selection list. When a team is a member on the board, then the individual team members can be assigned to the card.</p></td>
+      <td role="rowheader"><strong>[!UICONTROL Assignments]</strong> </td> 
+      <td>To assign the card, click <strong>[!UICONTROL Add Assignment]</strong> and start typing a name in the search field. Then, select it when it displays in the list of results. You can add both individuals and teams, and you can assign more than one person or team to a card.</td>
      </tr>     
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Tags]</strong></td> 
@@ -95,15 +102,11 @@ An ad hoc card is not connected to a work item in [!DNL Adobe Workfront].
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
       <td><p>Click in the <strong>[!UICONTROL New comment]</strong> field and type your comment. Use the formatting tools to format the text, and click the <strong>Add attachment</strong> icon <img src="assets/attachment-icon.png" alt="Attachment icon"> to attach a file to the comment. To tag a person or team, use the search box at the bottom of the commenting area. The user does not have to be a member on the board.</p><p><strong>NOTE:</strong> At this time, users tagged in comments on ad hoc cards do not receive an email notification.
       </p><p>Click <strong>[!UICONTROL Submit]</strong> to add the comment to the card.</p>
-      <p><strong>NOTE:</strong> The commenting area on cards uses the new Adobe Workfront commenting experience. For more information, see <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Update work</a>.</p><p><strong>NOTE:</strong> Comments on cards are available only through the early feature opt-in for Workfront Boards.</p></td>
+      <p><strong>NOTE:</strong> The commenting area on cards uses the new Adobe Workfront commenting experience. For more information, see <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Update work</a>.</p></td>
      </tr>
     </tbody> 
    </table>
-   
-   Sample image in the Production environment when the early feature opt-in is not used:
-   ![Ad hoc card details](assets/boards-edit-ad-hoc-card-041723.png)
 
-   Sample image in the Production environment when the early feature opt-in is enabled:
    ![Ad hoc card details](assets/ad-hoc-card-details-with-comments.png)
 
    Use the left navigation panel to move between sections of fields on the card details.

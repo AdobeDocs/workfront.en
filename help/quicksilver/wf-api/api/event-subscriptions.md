@@ -4,6 +4,7 @@ navigation-topic: Event Subscriptions resources
 description: Event Subscriptions resources
 author: Becky
 feature: Workfront API
+role: Developer
 ---
 # Event Subscriptions
 

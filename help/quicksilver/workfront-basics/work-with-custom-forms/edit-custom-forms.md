@@ -87,23 +87,17 @@ Editing information on a custom form attached to an object is identical for all 
 
    For information about all of the field types, see [Create or edit a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-1. Click **Save** Changes.
+1. Click **Save Changes**.
 
    >[!IMPORTANT]
    >
+   >You must complete all required fields on the form before you can save the form. The name of a required field is followed by an asterisk.
    >
-   >
-   ><!--   >
-   ><p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">This is true in "Edit custom forms" but not in "Add a custom form to an object." This snippet is used in both articles. The whole snippet is conditioned for classic only in "Add" but not in "Edit." Don't remove the NWE conditioning in the snippet because it is needed in "Edit."</p>   >
-   >-->   >
-   >
-   >You must complete all required fields on the form before you can save the form.&nbsp;The name of a required field is followed by an asterisk. 
-   >
-   >
-   >![](assets/nwe-required-custom-field.png)   >
-   >
+   >![](assets/nwe-required-custom-field.png)
 
    When someone changes data in another object that is referenced by calculated custom fields in your object, the changes are not reflected automatically in your object. For information about manually updating all calculated custom fields in your object, see [Recalculate all calculated custom fields for an object](#recalculate-all-calculated-custom-fields-for-an-object) in this article.
+
+   When dependent fields on the page are modified, calculated fields on the custom form are dynamically re-calculated in real time. You can see the new calculated field value without saving the form, but it is not actually applied to the form and the object until you save the changes. This applies to calculated fields on default forms as well as custom forms.
 
    You can also manually update all calculated custom fields for an object when you bulk-edit the object along with other objects in a list. For instructions, see [Recalculate all calculated custom fields for multiple objects in a list when editing the objects](#recalculate-all-calculated-custom-fields-for-multiple-objects-in-a-list-when-editing-the-objects) in this article.
 

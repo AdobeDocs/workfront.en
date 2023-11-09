@@ -1,11 +1,10 @@
 ---
 title: Configure a bar visualization in the Reporting Canvas
 description: Configure a bar visualization in the Reporting Canvas
-author: Nolan
-feature: Reports and Dashboards
+hidefromtoc: yes
+hide: yes
 exl-id: 7dc4f156-d262-482f-aa82-c905f0d1b20f
 ---
-
 # Configure a bar visualization in the Reporting Canvas
 
 A bar visualization can help you quickly tell a story about your data by highlighting important information using horizontal bars.

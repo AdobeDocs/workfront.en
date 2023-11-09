@@ -3,9 +3,10 @@ content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
 title: Proofing
-description: This section contains the following subsections - EDIT ME.
+description: Learn about proofing.
 author: Courtney
 feature: Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 34814016-e030-4e21-a597-686c4107eff4
 ---
 # Proofing

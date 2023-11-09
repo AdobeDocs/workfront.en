@@ -4,9 +4,10 @@ product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: integrations-workfront-proof
 title: Basecamp Classic
-description: This section contains the following articles - EDIT ME.
+description: Learn more about integrating with Basecemp Classic.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: b66b7820-bb8a-4d29-822c-0de968fa2492
 ---
 # Basecamp Classic

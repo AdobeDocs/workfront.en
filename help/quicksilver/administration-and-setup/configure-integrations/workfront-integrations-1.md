@@ -281,17 +281,13 @@ We understand that the available built-in (native) integrations might not meet a
 
 [!DNL Workfront] enables you to leverage other built-in integrations and integrated products at an additional cost. Consult your Account Representative for pricing details.
 
-* [!DNL Workfront DAM]
-
-  For more information, see [[!DNL Adobe Workfront DAM] within [!DNL Adobe Workfront]](../../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md).
-
 * [!DNL Workfront Fusion]
 
   For more information, see [[!DNL Adobe Workfront Fusion] overview](../../workfront-fusion/get-started/workfront-fusion-overview.md).
 
 * [!DNL Adobe Experience Manager Assets]
 
-  For more information, see [Configure [!DNL Workfront] with [!DNL Adobe Experience Manager] legacy connector](../../administration-and-setup/configure-integrations/configure-workfront-aem.md).
+  For more information, see [Adobe Workfront for Experience Manager Assets and Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md).
 
 ## Partner integrations
 

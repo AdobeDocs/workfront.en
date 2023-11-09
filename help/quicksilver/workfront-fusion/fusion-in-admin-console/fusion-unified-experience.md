@@ -97,3 +97,17 @@ This menu allows you to:
 * Access your **[!UICONTROL [!DNL Workfront Fusion] Profile]**. Once you are on the profile, click the **[!UICONTROL More]** menu ![](assets/more-icon.png) and select **[!UICONTROL Edit]**. For more information about the profile, see [Configure My Settings](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 * **[!UICONTROL Sign out]** of Adobe Experience Cloud.
  
+
+## Access your notifications
+
+You can find your notifications and announcements in the Notifications area of the Unified Shell.
+
+To view your notifications, click the Notifications icon ![Notifications icon](assets/notifications-icon.png) near the upper-right corner of the screen. A red dot on the Notifications icon indicates that you have unread notifications or announcements.
+
+For instructions on configuring your notifications in the Adobe Experience Cloud, see [Notification Configuration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/notifications.html?lang=en#:~:text=You%20can%20customize%20how%20you,how%20you%20receive%20your%20notifications.) in the Adobe documentation.
+
+When configuring, note the following:
+
+* **Alerts** refer to stuck scenarios.
+* **Updates on content** refer to errors and warnings in scenario executions.
+

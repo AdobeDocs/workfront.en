@@ -7,6 +7,7 @@ description: You can integrate Adobe Workfront with third-party applications. In
 author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 50088ae0-8460-4163-acab-ebb711acda5a
 ---
 # Configure integrations
@@ -23,6 +24,7 @@ This section contains the following articles:
 * [Disable document integrations](../../administration-and-setup/configure-integrations/disable-document-integrations.md) 
 * [Configure the [!DNL SharePoint] integration](../../administration-and-setup/configure-integrations/configure-sharepoint-integration.md) 
 * [Set up metadata mapping](../../administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
+* [Create [!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] packages for your users in the [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../administration-and-setup/configure-integrations/create-oauth-application.md" class="MCXref xref" xrefformat="{para}">Create OAuth2 applications for Workfront integrations</a> </li>

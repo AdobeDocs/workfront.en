@@ -7,6 +7,7 @@ title: Get started with [!DNL agile] in [!DNL Adobe Workfront]
 description: Review these articles to get started with agile in Workfront.
 author: Lisa
 feature: Agile
+recommendations: noDisplay, noCatalog
 exl-id: 151aec93-3ccb-475f-b894-61be20a8544a
 ---
 # Get started with [!DNL agile] in [!DNL Adobe Workfront]

@@ -4,6 +4,7 @@ navigation-topic: delegate-work
 title: Delegate tasks and issues
 description: You can temporarily delegate the work you are assigned to while you are out of the office. This article describes how to delegate task and issue assignments.
 author: Alina
+feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
 ---
 # Manage task and issue delegation
@@ -144,7 +145,7 @@ To delegate your tasks and issues to others:
 
    * The user you selected as your delegate receives an email about the delegation, if their event notifications are enabled.
 
-      For information about enabling personal email notifications, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+      For information about enabling personal email notifications, see [Modify your own email notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 
 

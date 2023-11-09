@@ -5,6 +5,7 @@ title: Ending support for JSONP
 description: Ending support for JSONP
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 681336c2-2f41-4746-8cba-be077f556742
 ---
 # Ending support for JSONP

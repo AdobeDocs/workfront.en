@@ -16,6 +16,8 @@ For information and considerations about text mode before you begin, see [Text M
 
 For a complete list of all our reportable fields and their attributes, see the [API Explorer](../../../wf-api/general/api-explorer.md).
 
+For more information about creating reports using text mode, including classes, videos, and tutorials, see the Learn section on the Adobe Experience League site. 
+
 ## Considerations about text mode syntax
 
 * You must understand the Adobe Workfront syntax before you can start building reporting elements in text mode. The Workfront syntax for text mode is unique to this application and it has unique characteristics that you must be familiar with.

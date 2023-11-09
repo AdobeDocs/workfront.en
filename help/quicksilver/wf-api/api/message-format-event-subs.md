@@ -5,6 +5,7 @@ title: Outbound message format for event subscriptions
 description: Outbound message format for event subscriptions
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: addcf5bc-a101-4bb0-93a6-46b4af67c848
 ---
 # Outbound message format for event subscriptions

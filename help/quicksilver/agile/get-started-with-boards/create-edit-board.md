@@ -11,8 +11,6 @@ exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
 
 From the [!UICONTROL boards] dashboard, you can create a new board or edit an existing board.
 
-To add a board to a workstream, see [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
-
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
@@ -37,7 +35,7 @@ You must have the following access to perform the steps in this article:
 ## Create a new board
 
 1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
-1. To create a standalone board, click **[!UICONTROL Add board]** in the [!UICONTROL Boards] area. To add a board to a workstream, see [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+1. Click **[!UICONTROL Add board]**.
 
 1. Select a template for the board.
 
@@ -46,7 +44,7 @@ You must have the following access to perform the steps in this article:
    | Basic board | Three default columns are provided on the board. You can add new columns and rename or delete the default columns. <p>Three default columns are provided on the board. You can add new columns and rename or delete the default columns. |
    | Kanban board | The following columns are provided on the board: Backlog, New, In Progress, Complete, and On Hold. You can add new columns and rename or delete the default columns.<p>To use the backlog, you must set up filters for the intake column. For information, see [Add an intake column to a board](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>To review the default policies for each column, click the [!UICONTROL **More** menu] on a column and select [!UICONTROL **Edit**]. You can change any of these pre-set policies. For information, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
    | Retrospective board | The following columns are provided on the board: What went well? What could be improved? Who should we celebrate? What can we do to move faster? You can add new columns and rename or delete the default columns. <p>No column policies are applied. |
-   | Dynamic board | The following columns are provided on the board: Unselected, New, In Progress, On Hold, and Complete. You can add new columns and rename or delete the default columns. (The Unselected column can be renamed but not deleted. This column holds all cards with a status that doesn't match any of the other column statuses.) <p>The default column policies assign cards to columns based on their status. For information, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). <p>**NOTE:** The dynamic board is available only through the early feature opt-in for Workfront Boards. |
+   | Dynamic board | The following columns are provided on the board: Unselected, New, In Progress, On Hold, and Complete. You can add new columns and rename or delete the default columns. (The Unselected column can be renamed but not deleted. This column holds all cards with a status that doesn't match any of the other column statuses.) <p>The default column policies assign cards to columns based on their status. For information, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
 1. For a dynamic board only, follow the setup wizard steps:
 

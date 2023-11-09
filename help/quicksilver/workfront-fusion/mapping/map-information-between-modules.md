@@ -96,7 +96,7 @@ For more information, see [Configure a module's settings in [!DNL Adobe Workfron
 
 You can map multiple items into a field, combine them with literals (fixed values), and employ Operators and Functions to build complex formulas:
 
-![](assets/operators-and-functions-350x187.png)
+![](assets/operators-and-functions.png) 
 
 You can find the functions and operators in the mapping panel under one of its tabs.
 
