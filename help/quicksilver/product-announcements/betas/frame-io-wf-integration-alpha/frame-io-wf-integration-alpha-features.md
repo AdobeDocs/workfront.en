@@ -9,9 +9,7 @@ hide: yes
 hidefromtoc: yes
 exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
 ---
-# Adobe Workfront and Frame.io native integration alpha: features
-
-## Use cases and feature testing
+# Adobe Workfront and Frame.io native integration alpha: features and testing
 
 With this integration, our goal is to allow creatives to stay in their tool of choice (CC or Frame.io) to conduct their content creation and peer reviews, while having project managers coordinate the work and initialize and monitor the formal review process from inside Workfront. This can be achieved by utilizing the best of both solutions: Workfront's new document approvals for managing content approvals, in conjunction with the content review capabilities offered by Frame.io. Collectively, the new document approvals and Frame.io are going to form our new end-to-end content review and approval experience.  
  
@@ -22,39 +20,40 @@ To learn more about how the alpha will function and ways you can participate, se
 >
 >In case you came across these pages without your company participating in this alpha program, please make sure to treat the information here with care and reach out to your Workfront or Frame.io administrator for more information.
 
-<!--Initial setup and basic test scenario 
+## Basic test scenario 
 
-As part of the alpha program, we've provisioned a new test Frame.io account for you and connected it to a new group "Frame.io alpha testing" in your existing Workfront Preview or Sandbox environment. To test the delivered functionality please log in to your Workfront Preview or Sandbox instance and  perform the following steps: 
+To allow you to easily test the new features of the alpha program, we've created a new test Frame.io account and connected it to a new group called `Frame.io alpha testing` in your existing Workfront Preview or Sandbox environment.
 
-Coordinators: Within Workfront, create a project with the "Frame.io alpha testing" group assigned as project group 
+To test the functionality, please log in to your Workfront Preview or Sandbox instance and perform the following steps: 
 
-Coordinators: Within Workfront, assign your creatives to the project or Frame enabled tasks and change the project status to "Current" 
+1. **Coordinators:** Within Workfront, create a project with the `Frame.io alpha testing` group assigned as the project group. 
 
-Creatives: Check your emails for an invite to the newly created Frame.io project 
+1. **Coordinators:** Within Workfront, assign your creatives to the project or Frame enabled tasks and change the project status to "Current". 
 
-Creatives: Click on the "Join project" button within the invitation email to join the Frame.io project, review the creative brief within the project and start your content creation within your CC tool of choice 
+1. **Creatives:** Check your emails for an invite to the newly created Frame.io project 
 
-Creatives: Upload your created assets to Frame.io and add them to the linked Workfront project (or assigned Frame enabled tasks)  
+1. **Creatives:** Click the "Join project" button within the invitation email to join the Frame.io project, review the creative brief within the project and start your content creation within your Creative Cloud tool of choice. 
 
-Coordinators: Within Workfront, see the linked Frame.io assets in your project and assign reviewers / approvers (new document approvals: More help on this feature) 
+1. **Creatives:** Upload your created assets to Frame.io and add them to the linked Workfront project (or assigned Frame-enabled tasks).  
 
-Stakeholders: Withing Workfront, view your approval request in Workfront Home or Document Details and review the Frame connected document in the Frame.io Viewer. Leave a comment feedback 
+1. **Coordinators:** Within Workfront, find the linked Frame.io assets in your project and assign reviewers/approvers (for more information on assigning reviews/approvers, see [Add additional approvers or reviewers to a document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)). 
 
-Coordinators: Within Workfront, view the stakeholder created comments within the Updates section of the Frame.io connected document in Workfront 
+1. **Stakeholders:** Within Workfront, view your approval request in Home or Document Details and review the Frame connected document in the Frame.io Viewer, then leave a comment containing feedback.
 
-Stakeholders: Make a decision from within the Frame.io Viewer 
+1. **Coordinators:** Within Workfront, view the stakeholder created comments within the Updates section of the Frame.io connected document.
 
-Creatives: Within Frame.io, notice the overall approval decision made for your assets 
+1. **Stakeholders:** Make a decision from within the Frame.io Viewer.
 
-Creatives: Within Frame.io, Apply the requested changes by adding the updated version to the version stack of the connected asset 
+1. **Creatives:** Within Frame.io, notice the overall approval decision made for your assets. 
 
-Coordinators: Within Workfront, assign approvers / reviewers to the new version upload and monitor the progress until it reaches sign-off--> 
+1. **Creatives:** Within Frame.io, apply the requested changes by adding the updated version to the version stack of the connected asset. 
+
+1. **Coordinators:** Within Workfront, assign approvers/reviewers to the newly uploaded version and monitor the progress until it reaches sign-off. 
 
 ## Feature plans
 
 Below is information about the primary use cases we are looking to address and the features we currently have planned to do so. <!--, along with documentation to get you started testing.--> 
  
-
 ### Workfront admins can set up a connection between Workfront groups and Frame.io accounts 
 
 * _Within Workfront, you have the ability to connect a Workfront group to a Frame.io account_
