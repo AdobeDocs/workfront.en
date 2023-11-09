@@ -92,7 +92,7 @@ You must have the following access to perform the steps in this article:
 
 You can create records in the table view of a record type page. 
 
-1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner <!--or the **Main Menu** icon ![](assets/main-menu-shell.png) in the upper-left corner, if available-->, then click **Maestro** ![](assets/maestro-icon.png). 
+1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner, or the **Main Menu** icon ![](assets/main-menu-shell.png) in the upper-left corner, if available, then click **Maestro** ![](assets/maestro-icon.png). 
     The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture-and-fields/create-workspaces.md).
 1. Click a record type card. For information about creating a record type, see [Create record types](../architecture-and-fields/create-record-types.md). 
 

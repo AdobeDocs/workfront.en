@@ -95,7 +95,7 @@ You must have the following access to perform the steps in this article:
 
 <!--When they release the sharing of fields between other records, revise this section.  -->
 
-1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, <!--or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> then click **Maestro** ![](assets/maestro-icon.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available, then click **Maestro** ![](assets/maestro-icon.png).
     
     This opens the last-accessed workspace in Maestro. 
 1. Click the card of a record type whose fields you want to delete. 

@@ -3,8 +3,8 @@ content-type: reference
 product-area: projects
 navigation-topic: proofing-in-workfront-navigation-topic
 title: Review and approve work
-description: You can associate approvals with work or with documents in Adobe Workfront. 
-author: Courtney and Alina
+description: Learn about review and approval.
+author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: c88c09aa-166f-4ae1-bcfc-89b678590f51

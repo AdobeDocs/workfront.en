@@ -2,7 +2,7 @@
 product-area: documents
 navigation-topic: review-a-proof
 title: View content in a proof
-description: You must have the following access to perform the steps in this article - EDIT ME.
+description: Learn how to view content in a proof.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: f44e191c-edce-4387-8ab0-7a014d094a29

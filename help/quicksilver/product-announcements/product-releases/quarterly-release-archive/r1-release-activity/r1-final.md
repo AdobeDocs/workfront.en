@@ -2,7 +2,7 @@
 content-type: release-notes
 navigation-topic: product-releases-archive
 title: R1 Final
-description: The following functionality is not currently available in Preview or Beta, but is releasing to the Production environment in R1 - EDIT ME.
+description: 2018.3 Release Activity
 author: Luke
 feature: Product Announcements
 exl-id: 38974e97-dea3-4c9e-bc32-bd55665370c7
