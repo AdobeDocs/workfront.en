@@ -20,7 +20,7 @@ This article explains the pros and cons of 4 options you can use to export histo
 
 * **Pros:** All your [!DNL Workfront] objects are exported, including the custom fields. The interface of the Viewer is easy to use and read, and it's easily importable in a [!DNL MS Access] Database.  
 
-* **Cons:** Documents are not exported. You will have to download them separately. For more information, go to [http://www.atappstore.com/App/snapshot-to-msaccess/Default.aspx.](http://www.atappstore.com/App/snapshot-to-msaccess/Default.aspx)
+* **Cons:** Documents are not exported. You will have to download them separately. For more information, go to [http://www.atappstore.com/App/snapshot-to-msaccess/Default.aspx.](https://www.atappstore.com/App/snapshot-to-msaccess/Default.aspx)
 
 ## Request a [!DNL Postgres] data dump file from our Database team
 
