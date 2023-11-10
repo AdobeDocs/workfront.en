@@ -15,7 +15,7 @@ exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
 
 With the [!DNL Adobe Experience Manager Forms] connector for [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Adobe Experience Manager Forms] account by creating a webhook.
 
-You can use this webhook within [!DNL Adobe Experience Manager Forms] to 
+You can configure a form within [!DNL Adobe Experience Manager Forms] to send form submissions to this webhook.
 
 ## Access requirements
 
@@ -68,9 +68,9 @@ Currently, there is only one module in the Adobe Experience Manager Forms connec
 
 This instant trigger (webhook) allows you to start a scenario when a Submit action occurs on an Adobe Experience Manager Form.
 
->[!IMPOTRANT]
+>[!IMPORTANT]
 >
->This module also requires configuration in Adobe Experience Manager. You must configure your form to send submissions to your Workfront Fusion scenario.
+>This module also requires configuration in Adobe Experience Manager. After you set up this webhook, you must open Adobe Experience Manager and configure your form to send submissions to the webhook.
 >
 ><!--For instructions on the required form configuration, see insert url here-->
 
@@ -84,7 +84,7 @@ This instant trigger (webhook) allows you to start a scenario when a Submit acti
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Adobe Acrobat Sign] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Adobe Experience Manager] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
   </tr> 
 
 
