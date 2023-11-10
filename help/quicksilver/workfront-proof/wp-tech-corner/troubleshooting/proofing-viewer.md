@@ -21,6 +21,7 @@ If your proof content is not loading and you can only see an empty proofing view
 
 All developers constantly work on their applications and they regularly release new features and fixes for their products. This is to improve user experience and maintain security level so it's the best practice to use only the newest versions. This also helps avoiding conflicts between the applications.
 
+<!--
 ### [!DNL Flash Player] Plugin Version
 
 To check your current [!DNL Flash Player] version visit the [[!DNL Adobe] website](http://www.adobe.com/software/flash/about/).
@@ -30,6 +31,7 @@ To check your current [!DNL Flash Player] version visit the [[!DNL Adobe] websit
 If your version number differs from the one listed for your platform go to the [[!DNL Flash Player] download page](http://get.adobe.com/flashplayer/otherversions/) and get the latest version.
 
 Please note: we do recommend using the original [!DNL Adobe] plugin, so if your browser uses a built-in solution deactivate it and install the [!DNL Adobe] solution.
+-->
 
 ### Browser Version
 
@@ -74,13 +76,6 @@ If your browser and [!DNL Flash Player] plugin is up-to-date and your network is
 
 The best practice is to remove all the unknown add-ons and keep only the ones that you use and that you trust. Each browser should give you options to check/modify/delete the plugins and extensions. Our [!DNL Workfront Proof] Viewer is based on [!DNL Flash] and we use JavaScript to load the viewer so you will want to especially review the plugins that could affect these.
 
-Please visit the pages listed below for more detailed instructions from the developers on how to disable the browser add-ons:
-
-* Chrome: [plugins](https://support.google.com/chrome/answer/142064?hl=en-GB) / [extensions](https://support.google.com/chrome/answer/113907?hl=en-GB)
-* Firefox: [add-ons](https://support.mozilla.org/en-US/kb/disable-or-remove-add-ons)
-* Internet Explorer: [add-ons](http://windows.microsoft.com/en-GB/internet-explorer/manage-add-ons#ie=ie-11)
-* Safari: [add-ons](http://support.apple.com/en-gb/HT203353)
-
 If there is any particular add-on interfering with loading the proofs you can try checking the details in the browser's console.
 
 ![ProofView_4.png](assets/proofview-4-350x57.png)
@@ -92,7 +87,7 @@ If you're having troubles with viewing the proofs:
 * Open your browser's console and re-load the proof.
 * Check if there are any alerts or messages in the console. These details can help identifying what's the root cause of the issues.
 * Have your IT team to analyze the results. They should be able to advise and help resolving the local problem.
-* Share the results with our [Support team](https://support.workfront.com/hc/en-us/requests/new). We will be happy to assist.
+* Share the results with our Support team. We will be happy to assist.
 
 
 ## Check Mixed Content Settings
@@ -101,4 +96,4 @@ All of the connections to [!DNL Workfront Proof] are over HTTPS. However, in the
 
 If this is the reason why the proofs are not opening on your computer (you should be able to see the relevant alerts in the browser's console) authorize such connections for [!DNL Workfront Proof] or amend your settings to allow passive mixed content on your machine. The mixed content may be blocked by your browser, AV software, network configuration etc - to determine the exact cause please get in touch with your IT team/network administrators. They should also be able to help with enabling the mixed content on your machine.
 
-Contact our [Support team](https://support.workfront.com/hc/en-us/requests/new) if you need any assistance from our end.
+

@@ -48,6 +48,3 @@ All requests use the following envelope, header and body format:
     </soapenv:Envelope>
 ```
 
-## FAQ's
-
-For a collection of frequently asked questions, please visit [this](http://api.proofhq.com/faqs) page.

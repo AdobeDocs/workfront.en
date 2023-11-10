@@ -53,7 +53,7 @@ You do not need to obtain a new Session ID before every call to the API and it w
 
 **Team/Public**: Each proof version has a unique Team (Public) URL. If enabled, it will open the proof in read only mode. You can obtain the Team URL using the [getProofURL()](http://api.proofhq.com/home/proofs/getproofurl) method.
 
-**Personal**: A personal URL is unique for every reviewer and proof version. If a proof set contains 3 versions and a reviewer is on all versions, the reviewer will have 3 unique personal URLs. A personal URL opens the proof version with the reviewer already identified and should therefore be kept safe and not shared. Personal URLs can be obtained by calling the [getProofReviewers()](http://api.proofhq.com/home/proofs/getproofreviewers)&nbsp;method and then iterating over each&nbsp; [SOAPRecepientObject](http://api.proofhq.com/home/objects/soaprecipientobject)&nbsp;and getting the parameter "proof_url".
+**Personal**: A personal URL is unique for every reviewer and proof version. If a proof set contains 3 versions and a reviewer is on all versions, the reviewer will have 3 unique personal URLs. A personal URL opens the proof version with the reviewer already identified and should therefore be kept safe and not shared. Personal URLs can be obtained by calling the [getProofReviewers()](https://api.proofhq.com/home/proofs/getproofreviewers.html) method and then iterating over each&nbsp; [SOAPRecepientObject](https://api.proofhq.com/home/objects/soaprecipientobject.html) and getting the parameter "proof_url".
 
 ## >How to include custom parameters when opening the miniproof?
 
