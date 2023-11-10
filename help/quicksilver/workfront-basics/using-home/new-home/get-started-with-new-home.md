@@ -31,7 +31,7 @@ Below are the ten widgets currently available to choose from, as well as a summa
     Displays tasks that are assigned to you in a table with customizable filters, views, and groupings, as well as a button to directly create a new task.
 
 * **My issues**\
-    Displays issues that are assigned to you in a table with customizable filters, views, and groupings, as well as a button to directly create a new issue.
+    Displays issues that are assigned to you in a table with customizable filters, views, and groupings, as well as a button to directly create a new issue. This widget only includes issues whose associated projects are set to Current.
 
 * **My requests**\
     Displays all requests you have submitted, a filter to only display open requests, and a button that opens the summary pane for a request.
