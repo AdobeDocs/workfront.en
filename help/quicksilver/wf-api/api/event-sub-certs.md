@@ -59,7 +59,7 @@ server {
 }
 ```
 
-For more information, see the [NGiNX documentation for ngx_http_ssl_module](http://nginx.org/en/docs/http/ngx_http_ssl_module.html). 
+For more information, see the [NGiNX documentation for ngx_http_ssl_module](https://nginx.org/en/docs/http/ngx_http_ssl_module.html). 
 
 ### Apache
 
