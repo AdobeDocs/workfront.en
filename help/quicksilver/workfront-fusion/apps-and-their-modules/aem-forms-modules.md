@@ -60,6 +60,32 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 * You must have an [!DNL Adobe Experience Manager Forms] account to use this module.
 
+## Adobe Experience Manager Forms module and its fields
+
+Currently, there is only one module in the Adobe Experience Manager Forms connector. 
+
+### Watch for Form Events
+
+This instant trigger (webhook) allows you to start a scenario when a Submit action occurs on an Adobe Experience Manager Form.
+
+>[!IMPOTRANT]
+>
+>This module also requires configuration in Adobe Experience Manager. You must configure your form to send submissions to your Workfront Fusion scenario.
+>
+><!--For instructions on the required form configuration, see insert url here-->
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Webhook name]</td> 
+   <td> <p>Enter a name for the webhook</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL Adobe Acrobat Sign] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
 
 
 
