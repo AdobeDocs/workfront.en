@@ -58,11 +58,11 @@ You must have the following to perform the steps in this article:
       <td role="rowheader">Add a portfolio</td> 
       <td> 
        <ol> 
-        <li> <p>Click <strong>New Portfolio</strong>.</p> </li> 
-        <li>Replace <strong>Untitled Portfolio</strong> with the name you want for the portfolio.</li>
-        <li><p>Click <strong>Portfolio Details</strong> in the left panel and update information in the Overview area as needed.</p>
+        <li value="1"> <p>Click <strong>New Portfolio</strong>.</p> </li> 
+        <li value="2">Replace <strong>Untitled Portfolio</strong> with the name you want for the portfolio.</li>
+        <li value="3"><p>Click <strong>Portfolio Details</strong> in the left panel and update information in the Overview area as needed.</p>
         <p>For more information on the configuration options, see <a href="/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Create a portfolio</a>.</p></li>
-        <li> <p>Click your browser's Back button to return to the group's Portfolios list.</p> </li> 
+        <li value="4">Click your browser's Back button to return to the group's Portfolios list.</li> 
        </ol> </td>
      </tr> 
      <tr> 
