@@ -13,12 +13,8 @@ Depending on how your email notifications are configured, you might receive an e
 
 You can reply to an update from an email notification in the following ways:
 
-reply to the original comment.
-
 * Use the Comment button inside the email to navigate back to Workfront and reply to the update in the Updates area.
-* Reply to the email that you receive. Your reply email is added as a Workfront 
-
-
+* Reply to the email that you receive. Your reply email is added as a Workfront reply to the original comment.
 
 >[!NOTE]
 >
@@ -40,7 +36,7 @@ You can respond to Workfront email that is generated from comments made to the f
 
 You must have the following access to perform the steps in this article:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 

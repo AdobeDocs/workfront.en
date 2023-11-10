@@ -723,7 +723,7 @@ feature-set: Workfront
       * [Manage group objects](administration-and-setup/manage-groups/work-with-group-objects/work-with-a-groups-objects.md)
       * [Manage group companies](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md)
       * [Manage group layout templates](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)
-      * [Manage group projects](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md)
+      * [Manage group portfolios](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md)
       * [Manage group programs](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md)
       * [Manage group teams](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md)
       * [Manage group approval processes](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md)
