@@ -64,10 +64,76 @@ You can create a connection to your [!DNL Maestro] account directly from inside 
 
 ## [!DNL Adobe Maestro] modules and their fields
 
+### Delete a field
+
+This action module deletes a single field in Maestro by its ID.
+
+>[!NOTE]
+>
+>Deleting a field in Maestro deletes it and any data in it from every object of that record type in Maestro.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Maestro], see <a href="create-a-connection-to-adobe-maestro" class="MCXref xref" > in this article.</td>
+    </tr>
+     <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Field ID]</p>
+      </td>
+      <td>Enter or map the ID of the field you want to delete.</td> 
+      </tr>
+  </tbody>
+</table>
+
+### Delete a record type
+
+This action module deletes a single record type in Maestro by its ID.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Maestro], see <a href="create-a-connection-to-adobe-maestro" class="MCXref xref" > in this article.</td>
+    </tr>
+     <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Record type ID]</p>
+      </td>
+      <td>Enter or map the ID of the field you want to delete.</td> 
+      </tr>
+  </tbody>
+</table>
+
+### Get a field 
+
+<!--CHECK ME-->
+
+This action module retrieves a single field in Maestro by its ID.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Maestro], see <a href="create-a-connection-to-adobe-maestro" class="MCXref xref" > in this article.</td>
+    </tr>
+     <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Field ID]</p>
+      </td>
+      <td>Enter or map the ID of the field you want to delete.</td> 
+      </tr>
+  </tbody>
+</table>
+
 ### Make a custom API call
-
-
-#### [!UICONTROL Make a custom API call]
 
 This module makes a custom API call to the [!DNL Adobe Maestro] API.
 
@@ -77,7 +143,7 @@ This module makes a custom API call to the [!DNL Adobe Maestro] API.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Target], see <a href="#Create" class="MCXref xref" >Create a connection to [!DNL Adobe Maestro]</a> in this article.</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Maestro], see <a href="create-a-connection-to-adobe-maestro" class="MCXref xref" >Create a connection to [!DNL Adobe Maestro]</a> in this article.</td>
     </tr>
      <tr>
       <td role="rowheader">
@@ -132,7 +198,7 @@ This module makes a custom API call to the [!DNL Adobe Maestro] API.
   </tbody>
 </table>
 
-### Create Record
+### Create a record
 
 This action creates a single record in Maestro.
 
@@ -142,7 +208,7 @@ This action creates a single record in Maestro.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Target], see <a href="#Create" class="MCXref xref" >Create a connection to [!DNL Adobe Maestro]</a> in this article.</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Maestro], see <a href="create-a-connection-to-adobe-maestro" class="MCXref xref" > in this article.</td>
     </tr>
      <tr>
       <td role="rowheader">
@@ -175,7 +241,7 @@ This action module deletes the specified record in Maestro.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Target], see <a href="#Create" class="MCXref xref" >Create a connection to [!DNL Adobe Maestro]</a> in this article.</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Maestro], see <a href="create-a-connection-to-adobe-maestro" class="MCXref xref" > in this article.</td>
     </tr>
      <tr>
       <td role="rowheader">
@@ -192,6 +258,8 @@ This action module deletes the specified record in Maestro.
   </tbody>
 </table>
 
+<!--
+
 ### Get all records
 
 This action module retrieves all records from an [!DNL Adobe Maestro] account.
@@ -202,7 +270,7 @@ This action module retrieves all records from an [!DNL Adobe Maestro] account.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Target], see <a href="#Create" class="MCXref xref" >Create a connection to [!DNL Adobe Maestro]</a> in this article.</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Maestro], see <a href="create-a-connection-to-adobe-maestro" class="MCXref xref" > in this article.</td>
     </tr>
      <tr>
       <td role="rowheader">
@@ -212,6 +280,8 @@ This action module retrieves all records from an [!DNL Adobe Maestro] account.
       </tr>
   </tbody>
 </table>
+
+-->
 
 ### Get a record
 
@@ -223,7 +293,7 @@ This action module retrieves a single record from [!DNL Adobe Maestro], specifie
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Target], see <a href="#Create" class="MCXref xref" >Create a connection to [!DNL Adobe Maestro]</a> in this article.</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Maestro], see <a href="create-a-connection-to-adobe-maestro" class="MCXref xref" > in this article.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Record ID]</td>
@@ -247,7 +317,7 @@ This action module retrieves all records of the specified type.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Target], see <a href="#Create" class="MCXref xref" >Create a connection to [!DNL Adobe Maestro]</a> in this article.</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Maestro], see <a href="create-a-connection-to-adobe-maestro" class="MCXref xref" > in this article.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Record type]</td>
@@ -271,7 +341,7 @@ This action module retrieves a list of record types in an [!DNL Adobe Maestro] a
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Target], see <a href="#Create" class="MCXref xref" >Create a connection to [!DNL Adobe Maestro]</a> in this article.</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Maestro], see <a href="create-a-connection-to-adobe-maestro" class="MCXref xref" > in this article.</td>
     </tr>
      <tr>
       <td role="rowheader">
@@ -283,8 +353,10 @@ This action module retrieves a list of record types in an [!DNL Adobe Maestro] a
 
 ### Update record
 
+<!--CHECK ME-->
+
 ### Search records
 
-
+<!--CHECK ME-->
 
 
