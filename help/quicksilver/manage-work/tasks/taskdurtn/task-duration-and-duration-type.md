@@ -6,6 +6,7 @@ title: Overview of Task Duration and Duration Type
 description: The task Duration is the difference between the Planned Completion Date and the Planned Start Date of the task. The Duration indicates the time frame that is available for the task to get completed.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
 ---
 # Overview of Task Duration and Duration Type

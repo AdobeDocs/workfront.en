@@ -10,7 +10,7 @@ exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
 ---
 # Get started with dashboards
 
-The purpose of a dashboard is to provide quick access to information. You can gather information in reports and you can then place them on dashboards to make the information easier to access.
+The purpose of a dashboard is to provide quick access to information that comes from multiple reports. First, you can gather information in reports and you can then place multiple reports on dashboards to make the information easier to access.
 
 ## Access requirements
 
