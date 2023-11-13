@@ -1,43 +1,43 @@
 ---
-title: Edit fields
-description: In Adobe Maestro, you can edit the field settings for fields that are already created.
+title: Delete record types
+description: You can delete operational record types or taxonomy record types when they are no longer relevant.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
+exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
 ---
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this avilable in TOC and in the left nav:
+---
+title: Delete record types
+description: You can delete operational record types or taxonomy record types when they are no longer relevant. 
+author: Alina
+feature: Work Management
+topic: Architecture
+role: User
+hidefromtoc: yes
+hide: yes
+---
+-->
 
-# Edit fields 
+# Delete record types
 
 >[!IMPORTANT]
 >
->The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
 >
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
+>Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use Maestro capabilities.
 >
 >Contact your account representative for more information about joining the beta program for Maestro.
 >
 >For information, see [Adobe Maestro overview](../maestro-overview.md).
 
-You can edit the field settings for fields that are already created. 
+You can delete operational record types or taxonomy record types when they are no longer relevant. 
 
-For information about creating Adobe Maestro fields, see [Create fields](../architecture-and-fields/create-fields.md). 
+For information about record types and taxonomies, see [Overview of record types and taxonomies](../architecture-and-fields/overview-of-record-types-and-taxonomies.md).
 
-This article describes how you can edit the settings for Maestro fields. For information about editing field values for Maestro records, see [Edit records](../records/edit-records.md). 
+We recommend recreating the fields and the records associated with the record type or taxonomy that you want to delete on another record type before deleting them.
 
-## Considerations about editing field information
-
-* You can edit fields that you created or fields created by other users. <!--this will change with access levels/ permissions-->
-* You can edit a field in the record type table. 
-* You cannot edit the Field type, after the field is saved.
-* You cannot deselect the Allow negative numbers setting that was previously selected, for a Number, Percentage, or Currency field if there are already negative values stored on the records it is attached to. 
-<!--this is not true yet; one piece of it is true and I added it as the bullet above: 
-* You cannot edit the options, or the special format of the following fields, after they are saved:
-
-    * Allow negative numbers option from a Number, Percentage, or Currency field. 
-    * The Options of a Single-select or a Multi-select field.
--->
+<!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
 ## Access requirements
 
@@ -93,7 +93,17 @@ You must have the following access to perform the steps in this article:
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>--> 
 
-## Edit fields
+## Considerations when deleting record types
+
+<!--check this and ensure these are still true - some things might change with / after closed beta-->
+
+* You can delete any record type or taxonomy that either you or anyone in your organization has created. <!--this will change with access levels and permissions-->
+* Deleting record types removes all the information associated with them, including fields and records of that type. 
+* You cannot recover deleted record types or their information. 
+
+## Delete record types
+
+Deleting taxonomy record types is identical to deleting operational record types. 
 
 1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available, then click **Maestro** ![](assets/maestro-icon.png).
 
@@ -102,27 +112,10 @@ You must have the following access to perform the steps in this article:
 1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to delete record types for.  
 
     The workspace opens and the record types and taxonomies associated with it display. 
-1. Click the card for the record type or the taxonomy whose fields you want to edit.
+1. Click the card for the record type or the taxonomy that you want to delete. 
 
     This opens the record type's page. 
-1. (Conditional) Select a **Table view** from the **View** drop-down menu in the upper-right corner of the record type page.
-1. Hover over the column header of a field you want to edit, then click the downward-pointing arrow after the field name, then click **Edit field**
+1. Click the **More** menu ![](assets/more-menu.png) to the right of the record type name, then click **Delete**. 
+1. Click **Delete** to confirm. 
 
-    Or 
-    
-    Double-click the column header for the field.
-
-    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
-    
-1. Update information about the field and click **Save**.
-
-    <!--insert screen shot when finalized-->
-
-    >[!TIP]
-    >
-    >You cannot update the field type after the field is saved.
-
-
-1. (Conditional) For linked record fields, click **Edit lookup fields** and add or remove any of the fields from the linked record type.
-  
-    For more information, see [Connect record types](../architecture-and-fields/connect-record-types.md).
+    The selected record type or taxonomy, along with their fields and associated records, are deleted.

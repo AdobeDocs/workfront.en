@@ -1,14 +1,22 @@
 ---
-title: Share records
-description: You can share records with others to increase your collaboration.
+title: Formula fields
+description: In Adobe Maestro, you can create formula fields that use functions and existing  fields to calculate a new custom value. 
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
 ---
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav - below-->
 
-# Share records
+<!---
+title: Formula fields
+description: In Adobe Maestro, you can create formula fields that use functions and existing  fields to calculate a new custom value. 
+hidefromtoc: yes
+hide: yes
+author: Alina
+feature: (*******************WE NEED A NEW ONE*******************)
+role: User, Administrator (************is this right???************)
+recommendations: noDisplay, noCatalog
+--->
 
 >[!IMPORTANT]
 >
@@ -18,22 +26,9 @@ exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
 >
 >Contact your account representative for more information about joining the beta program for Maestro.
 >
->For information, see [Adobe Maestro overview](../maestro-overview.md).
+>For information, see [Adobe Maestro overview](../maestro-overview.md). 
 
-To collaborate with other users, you can share records with others. 
-
-You can share a Maestro record in the following ways: 
-
-* Copy the link of the Details page of a record from your browser when the page is open. 
-
-* Copy a link to the record's Details page when viewing records in the record type's table view.   
-
-This article describes how you can copy a link to a record's Details page from the table view of a record type. 
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+You can create calculated fields in Adobe Maestro where the values are calculated automatically, rather than manually. Formula fields generate a new value using existing values from other fields in a record type and a function that indicates how the existing values should be calculated. 
 
 ## Access requirements
 
@@ -89,32 +84,9 @@ You must have the following access to perform the steps in this article:
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>--> 
 
-## Share record links from the record type table view
+## Considerations about formula fields
 
-1. Click the **Main Menu** ![](assets/main-menu-workfront.png) in the upper-right corner, or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available, then click **Maestro**. 
-
-    The workspace that you accessed last opens. 
-1. Click a record type card. 
-
-    The record type page opens. 
-1. (Conditional) From the **View** drop-down menu in the upper-right corner of the table, select a table view. This should be the default view, unless you viewed the record type in the timeline view when you accessed it last. 
-
-    The records associated with the selected record type display in the table view. 
-1. Right-click a record row
-
-    Or 
-
-    Hover over a record's name, click the **More** menu ![](assets/more-menu.png), then click **Copy link**.
-
-    ![](assets/contextual-menu-for-record-row.png)
-
-    The link is copied to your clipboard. 
-
-1. Paste the link into an email, or chat window, to share with other users. When users receive the link, it opens the Details page of the record. 
-
-    >[!TIP]
-    >
-    >The fields of the record in the Details page are the same fields available in the Table view of the record. 
-
-
-    <!--add there when it will be available: if they have access to this record-->
+* Formula fields reference fields that belong to the same record type. You cannot reference fields from other record types when creating a formula field. <!--is this still accurate??-->
+* You cannot change the Field type of a Formula field after you saved it. 
+* You can update the calculation of a formula field after you save it, and the results of the calculation update automatically for all the records of the same type. 
+* For more information about Maestro fields, see [Create fields](../fields/create-fields.md). 
