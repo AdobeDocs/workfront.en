@@ -58,3 +58,8 @@ Work automation requires rapid processing, so [!DNL Adobe Workfront Fusion] is d
   * The webhook is used only in inactive scenarios, which have been inactive for more than 30 days.
 
 * Deactivated webhooks are deleted and unregistered automatically if they are not connected to any scenarios and have been in deactivated status for over 30 days.
+
+## Execution history
+
+* Execution history logs are limited to a size of **100 MB**. If the execution history exceeds this size, only the first 100 MB will be shown.
+
