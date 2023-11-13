@@ -64,6 +64,7 @@ The following Workfront objects are supported by event subscriptions.
 * Template
 * Timesheet
 * User
+* Workspace
 
 For a list of fields supported by event subscription objects, see [Event subscription resource fields](../../wf-api/api/event-sub-resource-fields.md).
 
@@ -173,6 +174,10 @@ The subscription resource&nbsp;contains the following fields.
        <tr> 
         <td scope="col">User</td> 
         <td scope="col">USER</td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Workspace</td> 
+        <td scope="col">WORKSPACE</td> 
        </tr> 
       </tbody> 
      </table>
