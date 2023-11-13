@@ -33,9 +33,10 @@ The following example shows URI that calls API-Unsupported:
 ```
 https://<domainname>.my.workfront.com/attask/api-unsupported/proj/4c70...
 ```
+
 >[!NOTE]
 >
->API-Unsupported calls omit the`/api` section of the URL.
+>API-Unsupported calls omit the `/api` section of the URL.
 
 The following example shows a URI that calls Version 15.0 of the API: 
 
