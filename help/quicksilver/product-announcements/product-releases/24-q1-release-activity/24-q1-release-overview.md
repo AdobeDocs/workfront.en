@@ -59,10 +59,10 @@ The <add release> release webinar will be held on <date>. You can [register for 
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: November 9, 2024, 2024<br /></p>
+                                <p>Preview release: November 9, 2024, 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Production for all customers: November 9. 2024</span></p>
+                                <p><span class="preview">Production for all customers: November 9. 2023</span></p>
                             </li>
                         </ul>
                     </td>
