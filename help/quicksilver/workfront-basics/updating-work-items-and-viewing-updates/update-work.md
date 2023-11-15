@@ -384,7 +384,7 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
    1. Under **Text to display**, type or paste the link text.
    1. Click **Save**.
 
-1. (Optional) To attach an image to your update, click the **Add image** icon ![](assets/add-image-mountain-with-plus-icon.png) and browse to the image on your computer, when using the new commenting experience. 
+1. (Optional) <!--<span class="preview">To attach an image to your update, copy a screen shot from your computer, then click **CTRL + V** for Windows (or **CMD + V** for Mac) to paste it in the comment</span> Or--> Click the **Add image** icon ![](assets/add-image-mountain-with-plus-icon.png) and browse to the image on your computer, when using the new commenting experience. 
 
    >[!NOTE]
    >
@@ -402,7 +402,30 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
   
 1. Click **Submit** to add your comment. 
 
+<!-- for the search for comments - November 2023 release to Preview: 
 
+<div class="preview">
+
+## Search for an update
+
+>[!NOTE]
+>
+>This functionality is available only for the Comments tab in the new comment experience. This is not available for the System Activity tab of the Updates section. 
+
+You can search for a comment or a reply in the Updates section of an object. 
+
+1. Go to the **Updates** section of an object.
+1. Start typing a keyword or a user's name in the **Search** box in the upper-right corner of the Updates section. You can search for comment owner's names or for users who are tagged on comments. 
+
+   ![](assets/search-field-in-updates-tab.png)
+
+   The keyword or user you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
+
+1. Click the **x** icon in the search field to clear the search results and return to the complete up.
+
+</div>
+
+-->
 ## Copy update information
 
 There are several ways you can copy an update. After copying a link, you can share the link with others to direct them to the update.
