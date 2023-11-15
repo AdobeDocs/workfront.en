@@ -4,7 +4,6 @@ description: You can share or remove permissions to a Adobe Maestro workspace yo
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: 99fac041-a235-4991-b826-d19944164bc9
 ---
 <!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Maestro. This article describes the levels of access that users could have to Adobe Maestro. -->
 
