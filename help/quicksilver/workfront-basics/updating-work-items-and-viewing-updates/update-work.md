@@ -426,6 +426,7 @@ You can search for a comment or a reply in the Updates section of an object.
 </div>
 
 -->
+
 ## Copy update information
 
 There are several ways you can copy an update. After copying a link, you can share the link with others to direct them to the update.
