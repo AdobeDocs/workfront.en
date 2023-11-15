@@ -35,6 +35,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
 ## Adobe Workfront enhancements
     
 * [Integration enhancements](#integration-enhancements)
+* [Update stream and notification enhancements](#update-stream-and-notification-enhancements)
     
 ### Integration enhancements
 
@@ -59,16 +60,70 @@ The <add release> release webinar will be held on <date>. You can [register for 
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: November 9, 2024, 2023<br /></p>
+                                <p>Preview release: November 9, 2023<br /></p>
                             </li>
                             <li>
-                                <p><span class="preview">Production for all customers: November 9. 2023</span></p>
+                                <p><span class="preview">Production for all customers: November 9, 2023</span></p>
                             </li>
                         </ul>
                     </td>
            </tbody>
         </table>
 
+## Update stream and notification enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Search for a comment or user in the Updates section</p><p>To quickly find information in the Updates section of an object, you can now search for a keyword from a comment or for any user associated with a comment.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: November 16, 2023</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 24.1 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 24.1 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Copy and paste an image in a comment in the Updates section</p><p>To quickly provide context to the content of a message, you can now quickly attach images to your comments.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: November 16, 2023</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 24.1 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 24.1 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
+           </tbody>
+</table>
 
 ## Announcements
 

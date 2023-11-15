@@ -1,0 +1,33 @@
+---
+title: First Quarter 2024 Update stream and notification enhancements
+description: First Quarter 2024 Update stream and notification enhancements
+author: Lisa
+feature: Product Announcements
+---
+# First Quarter 2024 Update stream and notification enhancements
+
+This page describes all integration enhancements made with the First Quarter 2024 release to the Preview environment. These enhancements will be made available in the Production environment with the First Quarter 2024 release.
+
+For a list of all changes available at this point in the First Quarter 2024 release cycle, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+
+## Search for a comment or user in the Updates section
+
+To quickly find information in the Updates section of an object, you can now search for a keyword from a comment or for any user associated with a comment.
+
+The comments that are relevant to your search are filtered and the keywords are highlighted, so you can easily find them.
+
+For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3425730/){target=_blank}
+
+## Copy and paste an image in a comment in the Updates section
+
+To quickly provide context to the content of a message, you can now quickly attach images to your comments. This functionality is available only in the Updates section of an object.
+
+You can attach images to the comment by using the Ctrl/Cmd + V key combination, after you have copied a screen shot on your computer.
+
+The following file formats are supported: .jpg, .jpeg, .png, .gif.
+
+For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3425731/){target=_blank}
