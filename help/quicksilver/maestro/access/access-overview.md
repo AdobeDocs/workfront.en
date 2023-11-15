@@ -12,11 +12,9 @@ exl-id: 99fac041-a235-4991-b826-d19944164bc9
 
 >[!IMPORTANT]
 >
->The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
 >
->Adobe Maestro is a new offering from Adobe Workfront. 
->
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
+>Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to have access to Maestro. 
 >
 >Contact your account representative for more information about joining the beta program for Maestro.
 >
@@ -30,6 +28,8 @@ Currently, all users in your organization can have access to Maestro, if a Workf
 >[!NOTE]
 >
 >There are no access levels or permissions associated with users or the information in Maestro. All users that have Maestro enabled in their environment can view, edit, and delete all the information any other user adds to Maestro. 
+
+## Access requirements 
 
 You must have the following access to use Adobe Maestro: 
 
@@ -65,18 +65,30 @@ You must have the following access to use Adobe Maestro:
   </tr>
   
   <tr>
-   <td role="rowheader">Access level</td>
+   <td role="rowheader"><p>Access level</p></td>
    <td> <p>Any</p>  
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Layout template</td>
+   <td role="rowheader"><p>Layout template</p></td>
    <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
 </td>
   </tr>
  </tbody>
 </table>
+
+<!--
+## Considerations about accessing Adobe Maestro
+
+* There are no access level restrictions for Adobe Maestro. 
+* There are only permissions associated with workspaces in Maestro.
+* Only Workfront administrators can create workspaces. 
+* All Workfront administrators have access to edit or delete existing workspaces, even when they are created by other users. 
+* For information about sharing the Maestro area with users or sharing permissions to Maestro workspaces, see the following articles:
+
+   * [Overview of sharing permissions in Adobe Maestro](../access/sharing-permissions-overview.md)
+   * [Grant access to Adobe Maestro](../access/grant-access.md)
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
