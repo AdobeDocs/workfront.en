@@ -71,7 +71,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### [!DNL Custom API Call]
 
-This module calls any available [!DNL Quickbase] RESTful API endpoint documented at [developer.quickbase.com](http://developer.quickbase.com/).
+This module calls any available [!DNL Quickbase] RESTful API endpoint documented at [developer.quickbase.com](https://developer.quickbase.com/).
 
 <table style="table-layout:auto"> 
  <col> 

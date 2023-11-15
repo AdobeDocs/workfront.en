@@ -15,10 +15,6 @@ For details on how to opt in to new Boards features before the quarterly release
 
 ## Subtasks now available on Adobe Workfront Boards
 
->[!NOTE]
->
->This feature is temporarily unavailable as of November 7, 2023. This page will be updated when the feature is available.
-
 When you add a connected card to a board for a Workfront task, any existing subtasks are imported onto the card. Also, when you create a subtask on a connected card, a subtask is added to the Workfront task.
 
 Using subtasks on cards allows you to create a hierarchy of work.

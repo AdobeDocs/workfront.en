@@ -304,7 +304,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Resolution ID]</td> 
-   <td>Enter the ID of the resolution you want to use for your proof. For a list of resolution IDs, see the [!DNL Workfront Proof] <a href="http://api.proofhq.com/home/objects/soapworkflowproofobject">API documentation</a>.</td> 
+   <td>Enter the ID of the resolution you want to use for your proof. For a list of resolution IDs, see the [!DNL Workfront Proof] <a href="https://api.proofhq.com/home/objects/soapworkflowproofobject.html">API documentation</a>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL SWF]</td> 

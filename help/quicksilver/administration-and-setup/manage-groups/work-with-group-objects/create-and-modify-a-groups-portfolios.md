@@ -9,7 +9,7 @@ feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 76ac1f4e-8323-45d1-81f3-6a07e4e2e080
 ---
-# Create and modify a group's projects
+# Create and modify a group's portfolios
 
 When you are viewing a group that you manage in the Groups area, you can view and work with its portfolios.
 
