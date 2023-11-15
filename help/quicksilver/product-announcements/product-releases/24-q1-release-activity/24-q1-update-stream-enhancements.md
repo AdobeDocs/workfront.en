@@ -6,7 +6,7 @@ feature: Product Announcements
 ---
 # First Quarter 2024 Update stream and notification enhancements
 
-This page describes all integration enhancements made with the First Quarter 2024 release to the Preview environment. These enhancements will be made available in the Production environment with the First Quarter 2024 release.
+This page describes all update stream and notification enhancements made with the First Quarter 2024 release to the Preview environment. These enhancements will be made available in the Production environment with the First Quarter 2024 release.
 
 For a list of all changes available at this point in the First Quarter 2024 release cycle, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
