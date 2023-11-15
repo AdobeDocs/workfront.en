@@ -9,10 +9,6 @@ exl-id: 166a84d3-18ea-4a58-b0e8-f09df2a63caa
 ---
 # Manage subtasks on boards
 
->[!IMPORTANT]
->
->Subtasks on cards are temporarily unavailable as of November 7, 2023.
-
 Using subtasks on cards allows you to establish a parent-child relationship between tasks and create a hierarchy of work. A subtask you add to a card on a Workfront board is also added to the task in the Workfront project. For more information on subtasks and tasks at the project level, see [Create subtasks](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
 Subtasks are only available on connected cards, and they are not available on issues. For information on connected cards, see [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
