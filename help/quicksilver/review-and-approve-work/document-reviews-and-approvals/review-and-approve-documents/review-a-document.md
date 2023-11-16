@@ -9,6 +9,8 @@ exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
 ---
 # Review a document
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 As a reviewer, you can view a document that has been submitted to you for review. Unlike an approval, you do not make a decision. Instead, you confirm that you have reviewed the asset.
 
 >[!IMPORTANT]
@@ -64,7 +66,7 @@ Add once functionality is added
     Click **Download** to download a local copy of the document onto your device.
 
 1. (Optional) Once you have reviewed the document, you can leave a comment for the requester in the document's **Updates** section. For more information on commenting, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. To record that you have completed your review, click **Complete review**.
+1. <span class="preview">To record that you have completed your review, click **Complete review**.</span>
 
 ## Review a document from the Document Summary pane
 
@@ -85,4 +87,4 @@ Add once functionality is added
 1. (Optional) Once you have reviewed the document, you can leave a comment for the requester in the document's **Updates** section. For more information on commenting, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Optional) You can also preview or download a specific version of the document by scrolling down to the **Versions** section of the Document Summary pane, then clicking on the More icon ![](../assets/more-icon.png) next to the version you would like to review and selecting **Download** or **Preview**.
-1. To record that you have completed your review, click **Complete review**.
+1. <span class="preview"> To record that you have completed your review, click **Complete review**.</span>
