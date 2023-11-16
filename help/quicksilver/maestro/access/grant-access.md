@@ -12,9 +12,9 @@ exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 
 >[!IMPORTANT]
 >
->The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
 >
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
+>Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to have access to Maestro
 >
 >Contact your account representative for more information about joining the beta program for Maestro.
 >
@@ -57,3 +57,29 @@ To share the Maestro area using a layout template:
     All users assigned to the template can now access Maestro in their Main Menu. 
     
     Users can start creating workspaces, records types, records, and fields.
+
+<!--
+## Share permissions to a workspace
+
+1. Click the **Main Menu** icon ![](assets/dots-main-menu.png) in the upper-right or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **Maestro**.
+1. Open the workspace you want to share, then click **Share** in the upper-right corner of the screen. (*************add screen shot when UI is finalized and maybe edit the steps*********)
+1. In the field provided, start typing the name of a user or a group, then click it when it displays in the list. 
+1. Select one of the following permission levels from the drop-down menu: 
+    * View
+    * Contribute
+    * Manage
+
+        For information about permission levels and what actions users can perform for each level, see [Overview of sharing permissions in Adobe Maestro](../access/sharing-permissions-overview.md).
+1. Click **Save**.
+
+
+## Remove permissions to a workspace
+
+1. Click the **Main Menu** icon ![](assets/dots-main-menu.png) in the upper-right or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **Maestro**.
+1. Open the workspace you want to share, then click **Share** in the upper-right corner of the screen. (********) add screen shot when UI is finalized and maybe edit the steps???****)
+1. Click the drop-down menu at the right of a user or group name, then click **Remove**. 
+    
+    The user or the users that belong to the group removed no longer have access to the workspace or its objects. 
+1. Click **Save**.
+
+-->
