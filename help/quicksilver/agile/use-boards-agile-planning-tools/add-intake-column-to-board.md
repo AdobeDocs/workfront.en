@@ -108,9 +108,13 @@ You must have the following access to perform the steps in this article:
 
    ![Filter builder](assets/intake-filter-dialog6.png)
 
-   This example shows a filter for tasks from a specific project that are in the status of [!UICONTROL New] or [!UICONTROL In Progress], and are assigned to me.
+   This example shows a filter for tasks from a specific project that are in the status of [!UICONTROL New] or [!UICONTROL In Progress].
 
-   For details about building a filter, see the section "Create or edit a filter in the standard builder" in the article [Create or edit filters in [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+   >[!NOTE]
+   >
+   >It is recommended to not use the "Me" (logged in user) wildcard on a board filter, because it is not guaranteed to always display tasks or issues for the logged in user. After the board is set up with the correct tasks and issues, you can filter the board to show items for a specific assignee. For more information, see [Filter and search in a board](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+
+   For more details about building a filter, see the section "Create or edit a filter in the standard builder" in the article [Create or edit filters in [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 1. Name the filter and click **[!UICONTROL Save]**.
 
@@ -135,7 +139,6 @@ You must have the following access to perform the steps in this article:
 ## Use the intake column
 
 Cards in the intake column are not editable until you move them into other board columns. You can click on the card to open it in a read-only view, or click ![Open task or issue](assets/boards-launch-icon.png) to open the task or issue in a new browser tab.
-
 
 You can manually re-order the items on the intake column.
 
