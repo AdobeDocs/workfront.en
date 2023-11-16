@@ -108,7 +108,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Typeahead fields now available in Adobe Experience Manager IntegrationM</a></p><p>To make it easier to link fields between Workfront and Adobe Experience Manager, we've added support for typeahead fields in the metadata mapping. Now, you can map typeahead fields to corresponding fields in Adobe Experience Manager.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Typeahead fields now available in Adobe Experience Manager Integration</a></p><p>To make it easier to link fields between Workfront and Adobe Experience Manager, we've added support for typeahead fields in the metadata mapping. Now, you can map typeahead fields to corresponding fields in Adobe Experience Manager.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
