@@ -14,11 +14,6 @@ exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
 
 Using single sign-on (SSO), you can pass attributes from your identity provider's Active Directory to your Adobe Workfront users. You can also add new users to Workfront using the Auto-Provision option (also called Just In Time Provisioning or JIT).
 
->[!NOTE]
->
->This is not available if your organization has been onboarded to the Adobe Admin Console. See your network or IT administrator if you need more information.
-
-
 ## Access requirements
 
 You must have the following access to perform the steps in this article: 
