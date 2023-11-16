@@ -54,21 +54,6 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                  </tr>
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Document review and approval status displays in document header</a></p><p>[!BADGE In production ]{type=Informative}</p><p>To make the review and approval process more transparent, we've added the status to the header of the Document Details page.</p>
-                    </td>
-                    <td><p><b>Available on these dates:</b></p>
-                        <ul>
-                            <li>
-                                <p>Preview release: November 16, 2023</p>
-                            </li>
-                            <li>
-                                <p><span class="preview">Production for all customers: November 16, 2023</span></p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Mark a review as complete</a></p><p>To make it more clear when a document has been reviewed and is ready for the next approval stage, we've created a new <strong>Complete my review</strong> button.</p>
@@ -87,6 +72,24 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </ul>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Document review and approval status displays in document header</a></p><p>[!BADGE In production ]{type=Informative}</p><p>To make the review and approval process more transparent, we've added the status to the header of the Document Details page.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: November 9, 2023</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 24.1 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 24.1 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
            </tbody>
 </table>
 
