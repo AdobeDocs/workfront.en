@@ -178,7 +178,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                     </tr>
                     <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Copy and paste an image in a comment in the Updates section</a><span style="color: #ff0000;"> New in Preview!</span></p><p>To quickly provide context to the content of a message, you can now quickly attach images to your comments.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Copy and paste an image in a comment in the Updates section</a><span style="color: #ff0000;"> New in Preview!</span></p><p>To provide context to the content of a message, you can now quickly attach images to your comments by copying them from your computer and pasting them in a new update or reply.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>

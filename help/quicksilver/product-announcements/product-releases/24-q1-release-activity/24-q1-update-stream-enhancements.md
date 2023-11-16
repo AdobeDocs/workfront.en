@@ -22,9 +22,7 @@ For more information, see [Update work](/help/quicksilver/workfront-basics/updat
 
 ## Copy and paste an image in a comment in the Updates section
 
-To quickly provide context to the content of a message, you can now quickly attach images to your comments. This functionality is available only in the Updates section of an object.
-
-You can attach images to the comment by using the Ctrl/Cmd + V key combination, after you have copied a screen shot on your computer.
+To provide context to the content of a message, you can now quickly attach images to your comments by copying them from your computer and pasting them in a new update or reply. This functionality is available only in the Comments tab of the Updates section of an object.
 
 The following file formats are supported: .jpg, .jpeg, .png, .gif.
 
