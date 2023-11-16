@@ -13,12 +13,13 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 
 <!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
+
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)</span> 
+
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
-
-<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
-
 -->
 
 >[!IMPORTANT]
@@ -32,7 +33,7 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 >
 >For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
->The new commenting experience is available only for the Updates section of Workfront objects, and it is not available when you access the objects from the following areas:
+>The new commenting experience is available only for the Updates section of Workfront objects, and it is not available when you access updates from the following areas:
 >
 > * Home
 > * Summary panel in lists
@@ -384,13 +385,17 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
    1. Under **Text to display**, type or paste the link text.
    1. Click **Save**.
 
-1. (Optional) <!--<span class="preview">To attach an image to your update, copy a screen shot from your computer, then click **CTRL + V** for Windows (or **CMD + V** for Mac) to paste it in the comment</span> Or--> Click the **Add image** icon ![](assets/add-image-mountain-with-plus-icon.png) and browse to the image on your computer, when using the new commenting experience. 
+1. (Optional) <span class="preview">To attach an image to your update, copy a screen shot from your computer, then click **CTRL + V** for Windows (or **CMD + V** for Mac) to paste it in the comment</span> 
+   
+   Or 
+   
+   Click the **Add image** icon ![](assets/add-image-mountain-with-plus-icon.png) and browse to the image on your computer, when using the new commenting experience. 
 
    >[!NOTE]
    >
    >* Your Workfront administrator must enable adding images in the Update Feeds Preferences section of the Workfront Interface area before you can see the Image or the Add attachment icons. For information, see [Configure preferences for user updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md). 
    >* The maximum image file size is 7 MB. Supported image file types are .jpg, .gif, and .png.
-   >* Images are accessible from the Updates section on an object and they are also available in the Documents area. 
+   >* Images are accessible from the Updates section on an object and they are also available in the Documents area under the Main Menu. 
    >* You can send an update with an image and no text.
    >* When you delete a comment that contains an image, the following scenarios exist depending on which experience you choose: 
    >
@@ -401,8 +406,6 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
    <!--remove the statement above about legacy, when we remove the legacy environment.-->
   
 1. Click **Submit** to add your comment. 
-
-<!-- for the search for comments - November 2023 release to Preview: 
 
 <div class="preview">
 
@@ -415,17 +418,17 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
 You can search for a comment or a reply in the Updates section of an object. 
 
 1. Go to the **Updates** section of an object.
-1. Start typing a keyword or a user's name in the **Search** box in the upper-right corner of the Updates section. You can search for comment owner's names or for users who are tagged on comments. 
+1. Start typing a keyword <!--or a user's name--> in the **Search** box in the upper-right corner of the Updates section. <!--You can search for comment owner's names or for users who are tagged on comments. -->
 
    ![](assets/search-field-in-updates-tab.png)
 
-   The keyword or user you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
+   The keyword <!--or user--> you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
 
 1. Click the **x** icon in the search field to clear the search results and return to the complete up.
 
 </div>
 
--->
+<!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 
 ## Copy update information
 
