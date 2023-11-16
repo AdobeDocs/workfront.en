@@ -63,9 +63,9 @@ To create a static proof, the website needs to be publicly accessible (not behin
 
 1. Type the URL of the website you want to proof in the **Add Files** area, then press **Enter**.
 
-   The URL appears below the box where you typed it.
-
-   ![](assets/url-name-appears-below-350x142.png)
+   >[!NOTE]
+   >
+   > The URL must be less than 1,000 characters.
 
 1. Click the URL you have added.
 
