@@ -157,7 +157,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Search for a comment or user in the Updates section</p><p>To quickly find information in the Updates section of an object, you can now search for a keyword from a comment or for any user associated with a comment.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Search for a comment or user in the Updates section</a></p><p>To quickly find information in the Updates section of an object, you can now search for a keyword from a comment or for any user associated with a comment.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -175,7 +175,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                     </tr>
                     <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Copy and paste an image in a comment in the Updates section</p><p>To quickly provide context to the content of a message, you can now quickly attach images to your comments.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Copy and paste an image in a comment in the Updates section</a></p><p>To quickly provide context to the content of a message, you can now quickly attach images to your comments.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
