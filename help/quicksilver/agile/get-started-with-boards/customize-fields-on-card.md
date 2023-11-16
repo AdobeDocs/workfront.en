@@ -65,9 +65,7 @@ You must have the following access to perform the steps in this article:
 
 Custom fields are available on connected cards. They are only visible on the full card view, not the condensed view on the board.
 
->[!NOTE]
->
->When you add a custom field to your cards, the data on the card is read-only.
+The data on custom fields is editable on the card, though certain custom elements might only be available to edit on the original field and not on the card.
 
 1. Access a board and click [!UICONTROL **Configure**] to open the Configure panel.
 1. Expand [!UICONTROL **Cards**].

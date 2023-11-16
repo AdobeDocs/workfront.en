@@ -47,7 +47,7 @@ See also [Event notifications](../../workfront-basics/using-notifications/event-
    <td><strong>Instant</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>An error was found that needs my attention</strong> </p> <p>The user replying to a comment via email receives an email notification when the reply fails to be delivered.</p> <p>The subject of the instant notification email is: <em>[!UICONTROL Failed to Process on] &lt;subject of original message></em></p> <p>For information about using email to reply to comments, see .<strong></strong></p> </td> 
+   <td> <p><strong>An error was found that needs my attention</strong> </p> <p>The user replying to a comment via email receives an email notification when the reply fails to be delivered.</p> <p>The subject of the instant notification email is: <em>[!UICONTROL Failed to Process on] &lt;subject of original message></em></p> <p>For information about using email to reply to comments, see <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md">Reply to email notifications</a>.</p> </td>
    <td> </td> 
    <td><strong>Instant</strong> </td> 
   </tr> 

@@ -4,11 +4,13 @@ description: This article describes an example of how to create a connection bet
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: e0a78473-a8f3-4f4f-84fa-c2d5af8999a0
+exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
 ---
 # Example of connecting record types and records
 
 >[!IMPORTANT]
+>
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
 >
 >Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
 >
@@ -170,13 +172,32 @@ To do this:
     * The projects you selected to connect to campaigns display as separate records in the Workfront Project record type page. The project records are also read-only and their information updates automatically as projects update in Workfront. You must add more projects from the connected Maestro record to view them in the Workfront Project record type. 
     * The Campaign linked record field is populated with the names of the campaigns that are connected to projects from the Campaign record type page. 
 
-1. (Optional) Click the **More** icon ![](assets/more-menu.png) to the right of the Workfront Project record type name and click **Rename** to rename the record type. 
+1. (Optional) To open the Workfront project Details page in Maestro, do one of the following:
 
-    >[!TIP]
-    >
-    >You can rename a record type name by clicking the name in the record type header.
+    * From the record type you linked from (**Campaign**), go to the Workfront project linked record field (**Project information**) and click the name of a Workfront project.
+    * From the **Table** view of the **Workfront Project** record page, click the name of a Workfront project
 
-1. Click the Add fields icon ![](assets/add-fields-icon.png) in the upper-right corner of the Workfront Project record type table to add more project fields to the Workfront Project Maestro record type. 
+      Or
+
+      Click the **More** menu to the right of a Workfront project,then click **View**. 
+
+      ![](assets/workfront-object-more-menu-in-table-with-go-to-source-link.png)
+
+    This opens the Maestro Details page of the linked Workfront project. This is a read-only page. 
+
+1. (Optional) To open the linked Workfront project in Workfront, do one of the following:
+
+    * From the **Table** view of the **Workfront Project** page, click the name of a Workfront project, 
+  
+    Or
+
+    Click the **More** menu to the right of the Workfront project name, then click **Go to source**. 
+
+    ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
+
+    This opens the Workfront project page. You can edit information about the Workfront project, if you have permissions to do so. 
+
+1. Click the **Add fields** icon ![](assets/add-fields-icon.png) in the upper-right corner of the Workfront Project record type table to add more project fields to the Workfront Project Maestro record type. 
 1. Click the **+** icon for any project fields you want to add to the Workfront Project Maestro record in the **Unselected fields** section. 
 1. Click the **-** icon for any project fields you want to remove from the Workfront Project Maestro record in the **Selected fields** section.
 1. Click **Save**.

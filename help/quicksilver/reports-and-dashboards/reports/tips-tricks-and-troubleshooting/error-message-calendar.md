@@ -3,7 +3,7 @@ content-type: tips-tricks-troubleshooting
 product-area: reporting;calendars
 navigation-topic: tips-tricks-and-troubleshooting-reports
 title: "Error message on calendar: 'This calendar has the view rights of a deactivated user.'"
-description: You must have the following access to perform the steps in this article - EDIT ME.
+description: Learn about 'This calendar has the view rights of a deactivated user' error message.
 author: Lisa
 feature: Reports and Dashboards
 exl-id: ba1e25f2-4960-47f7-ac7d-6f6b0f59cfe2

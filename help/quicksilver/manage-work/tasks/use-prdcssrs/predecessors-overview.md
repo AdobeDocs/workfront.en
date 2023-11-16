@@ -100,7 +100,7 @@ When you view predecessors in a list of tasks, you might see any of the followin
   >
   >The enforced value (**e**) must be added to the Lag, not to the predecessor.
 
-* **4515:2** The predecessor task number is 2. - This is a Finish to Start, non-enforced dependency with the predecessor in the project with reference number **4515**; the predecessor task number is **2**.
+* **4515:2** The predecessor task number is 2. - This is a Finish to Start, non-enforced dependency with the predecessor in the project with reference number **4515**.
 
 ## View predecessor information
 

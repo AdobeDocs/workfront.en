@@ -1,6 +1,7 @@
 ---
 filename: wf-kb
 title: Workfront knowledge base
+recommendations: noDisplay, noCatalog
 description: .
 ---
 

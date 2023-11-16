@@ -4,7 +4,7 @@ description: Learn how to grant access and share information in Adobe Maestro.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: 31082d44-5b2a-4e2a-9568-c729607da388
+exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 ---
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
@@ -12,7 +12,9 @@ exl-id: 31082d44-5b2a-4e2a-9568-c729607da388
 
 >[!IMPORTANT]
 >
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
+>
+>Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to have access to Maestro
 >
 >Contact your account representative for more information about joining the beta program for Maestro.
 >
@@ -20,8 +22,6 @@ exl-id: 31082d44-5b2a-4e2a-9568-c729607da388
 
 <!-- the table will change after we implement access levels/ permissions for Maestro-->
 <!-- fix the formatting on the table - some lines are way too spaced out-->
-
-Adobe Maestro is a new offering from Adobe Workfront. For more information, see [Maestro overview](../maestro-overview.md). 
 
 Currently, all users in your organization can have access to Maestro, if the following prerequisite is in place:
 
@@ -44,16 +44,42 @@ After your organization has been enrolled in the Maestro beta program, you can a
 
 To share the Maestro area using a layout template: 
 
-1. Log in to Workfront as a system administrator.  
+1. Log in to **Workfront** as a Workfront administrator.  
 
-1. Add the Maestro icon to the Main Menu using a Layout Template. 
+1. Add the **Maestro** icon ![](assets/maestro-icon.png) to the **Main Menu** using a **Layout Template**. 
     
     For information, see [Customize the Main Menu using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-1. Assign the  layout template to the users that you want to have access to Maestro. 
+1. Assign the layout template to the users that you want to have access to Maestro. 
 
     For information, see [Assign users to a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
     All users assigned to the template can now access Maestro in their Main Menu. 
     
     Users can start creating workspaces, records types, records, and fields.
+
+<!--
+## Share permissions to a workspace
+
+1. Click the **Main Menu** icon ![](assets/dots-main-menu.png) in the upper-right or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **Maestro**.
+1. Open the workspace you want to share, then click **Share** in the upper-right corner of the screen. (*************add screen shot when UI is finalized and maybe edit the steps*********)
+1. In the field provided, start typing the name of a user or a group, then click it when it displays in the list. 
+1. Select one of the following permission levels from the drop-down menu: 
+    * View
+    * Contribute
+    * Manage
+
+        For information about permission levels and what actions users can perform for each level, see [Overview of sharing permissions in Adobe Maestro](../access/sharing-permissions-overview.md).
+1. Click **Save**.
+
+
+## Remove permissions to a workspace
+
+1. Click the **Main Menu** icon ![](assets/dots-main-menu.png) in the upper-right or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **Maestro**.
+1. Open the workspace you want to share, then click **Share** in the upper-right corner of the screen. (********) add screen shot when UI is finalized and maybe edit the steps???****)
+1. Click the drop-down menu at the right of a user or group name, then click **Remove**. 
+    
+    The user or the users that belong to the group removed no longer have access to the workspace or its objects. 
+1. Click **Save**.
+
+-->

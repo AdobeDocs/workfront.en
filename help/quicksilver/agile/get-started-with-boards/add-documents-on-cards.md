@@ -2,14 +2,12 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Add documents on cards
-description: coming soon !!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+description: You can add documents to connected cards on Adobe Workfront Boards.
 author: Lisa
 feature: Agile
-exl-id: 163b2431-5cd2-4972-8514-d4c6b6724dc0
+exl-id: d68c1eec-c527-44b0-bdc5-ca3b7731b648
 ---
 # Add documents on cards
-
-{{article-preview-and-fast-release}}
 
 You can add documents to connected cards on Adobe Workfront Boards. Any documents you add on the card become available on the Documents tab of the connected task or issue, and documents added on the task or issue are visible on the card. The same file types are supported in both areas. For more information on documents in Workfront, see [Add documents to Adobe Workfront from your file system](/help/quicksilver/documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
@@ -55,3 +53,7 @@ You must have the following access to perform the steps in this article:
 
 1. On the card, locate the [!UICONTROL Documents] area. Click ![List icon](assets/docs-list-icon.png) to view all documents in a list, or click ![Gallery icon](assets/docs-gallery-icon.png) to view the documents in a gallery.
 1. Hover over the document thumbnail, and click [!UICONTROL **Preview**] to view the file in the browser or [!UICONTROL **Download**] to download the file to your computer.
+
+   >[!NOTE]
+   >
+   >PDFs do not show a thumbnail image.

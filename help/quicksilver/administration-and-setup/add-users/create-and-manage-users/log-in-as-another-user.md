@@ -99,7 +99,7 @@ You must have the following to perform the steps in this article:
 1. Click **Log in.**
 
    <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Might come in a future story:</p>
+   <p> Might come in a future story:</p>
    -->
 
    <!--
@@ -141,15 +141,6 @@ When you log in as another user, the last login date is modified for that user t
 When you log in to Workfront as another user and perform an action, Workfront clearly indicates that any action you perform is made by you on behalf of the user who you are logged in as.
 
 For example, if you comment on an item while logged in as another user, a statement indicates that the comment was made by you on behalf of the user.
-
-<!--you might need to reword this note when we go to a global way for the update stream; or refer to areas where this is possible as something else than "New commenting" - not sure if this will affect areas that stay old, like iterations???-->
-
->[!NOTE]
->
->When using the new commenting experience, the comment is added as the user who logged in as another user and there is no indication that they are adding a comment on someone else's behalf. 
->
->For example, if a Workfront administrator logs in as another user, the user associated with the comment is the Workfront administrator. For more information, see [New commenting experience](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
-
 
 ### View audit information {#view-audit-information}
 

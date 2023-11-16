@@ -5,6 +5,7 @@ title: Event subscription certificates
 description: Event subscription certificates
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 3606b6c3-b373-47ea-9cb5-813bd3af8da7
 ---
 # Configure Client TLS for Event Subscription
@@ -58,7 +59,7 @@ server {
 }
 ```
 
-For more information, see the [NGiNX documentation for ngx_http_ssl_module](http://nginx.org/en/docs/http/ngx_http_ssl_module.html). 
+For more information, see the [NGiNX documentation for ngx_http_ssl_module](https://nginx.org/en/docs/http/ngx_http_ssl_module.html). 
 
 ### Apache
 

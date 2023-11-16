@@ -5,7 +5,8 @@ navigation-topic: projects-navigation-topic
 title: Work approvals
 description: This section contains articles about work approvals in Workfront.
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 66674732-6ad7-477b-8473-03b1dac750a3
 ---
 # Work approvals

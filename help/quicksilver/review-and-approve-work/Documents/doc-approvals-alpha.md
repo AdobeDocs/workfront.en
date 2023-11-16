@@ -4,9 +4,10 @@ navigation-topic: approvals
 title: Alpha Program – Document Approvals
 description: We are excited to announce the launch of our Alpha program for document approvals. Here you will find information about the latest Alpha release along with a brief video walkthrough to get you started.
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 hide: yes
 hidefromtoc: yes
+recommendations: noDisplay, noCatalog
 exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
 ---
 # Alpha Program – Document Approvals
@@ -19,17 +20,31 @@ In order to participate in this Alpha release, please ensure you have been added
 
 ## Latest release
 
+### Alpha Release 5 - Sep. 2023
+
+In this 5th Alpha release we have:
+
+* Improved the list displaying approvers and reviewers
+* Added the ability to remind approvers who haven't made an approval decision yet
+* Added the ability to view individual team members in the approval list
+* Added the ability to add external approvers
+* Improved the view for external approvers to preview, download, and comment on a document
+
+Check out the full video walk-through below:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3424613/)
+
+## _Past releases_
+
 ### Alpha Release 4 - May 2023
 
-In this 4th Alpha release, prior to launching to production for only to a select group of customers, we've incorporated notifications into the Workfront header, update stream, and email. Please note that email notifications are exclusive to the production environment and are not visible in your preview environment. If you're interested in having this release implemented in your production environment on June 14th, please reach out to me directly at jbarron@adobe.com.
+In this 4th Alpha release, prior to launching to production for only to a select group of customers, we've incorporated notifications into the Workfront header, update stream, and email. Please note that email notifications are exclusive to the production environment and are not visible in your preview environment. <!--If you're interested in having this release implemented in your production environment on June 14th, please reach out to me directly at jbarron@adobe.com.-->
 
 We are excited for this milestone and look forward to much more to come!
 
 Check out the full video walk-through below:
 
->[!VIDEO](https://video.tv.adobe.com/v/3420094/)
-
-## _Past releases_
+Watch the [video walk-through](https://video.tv.adobe.com/v/3420094/){target=_blank}
 
 ### Alpha Release 3 - Mar. 2023
 

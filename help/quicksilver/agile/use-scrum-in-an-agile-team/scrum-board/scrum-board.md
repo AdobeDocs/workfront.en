@@ -6,6 +6,7 @@ title: Scrum board
 description: Review the articles in this section to learn about using the Scrum board in Workfront.
 author: Lisa
 feature: Agile
+recommendations: noDisplay, noCatalog
 exl-id: ce032f98-4716-4ed7-99f3-c7ebf0a16a70
 ---
 # Scrum board

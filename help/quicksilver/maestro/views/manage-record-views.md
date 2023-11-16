@@ -4,13 +4,15 @@ description: You can display records in a table or a timeline view when using Ad
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: 4e75ea5c-598d-41a6-8eb9-7947293fa158
+exl-id: 77342724-0182-4134-903b-4428d54cdceb
 ---
 # Manage record views
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 >[!IMPORTANT]
+>
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
 >
 >Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
 >
@@ -136,17 +138,15 @@ The following table shows the similarities and differences between the table and
 | Filter records                                       | ✓          | ✓             |
 | Group records                                      |           | ✓             |
 | Sort records                                       | ✓          |              |
+| Color-code records                     |           | ✓              |
+| Color-code groupings                     |           | ✓              |
 
 <!--| Sort groupings                                                        | ✓          | ✓             |-->
-
  <!--| Display a limited number of fields as columns, by default                      | ✓          |               |-->
-
- <!--| Color-code records                     |           | ✓              |-->
- <!--| Color-code groupings                     |           | ✓              |-->
 
 ## Create or edit views {#create-or-edit-views}
 
-1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner <!--or the **Main Menu** icon ![](assets/main-menu-shell.png) in the upper-left corner, if available-->, then click **Maestro** ![](assets/maestro-icon.png). 
+1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner, or the **Main Menu** icon ![](assets/main-menu-shell.png) in the upper-left corner, if available, then click **Maestro** ![](assets/maestro-icon.png). 
     The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture-and-fields/create-workspaces.md).
 1. Click a record type card. For information about creating a record type, see [Create record types](../architecture-and-fields/create-record-types.md). 
 

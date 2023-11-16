@@ -4,7 +4,7 @@ description: You can edit record types after they have been saved. Record types 
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: 03b1c85c-1c2c-4311-928e-06018c6b8c9f
+exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
 ---
 <!--update the metadata with real information when making this available in TOC and in the left nav
 ---
@@ -23,6 +23,8 @@ hide: yes
 # Edit record types
 
 >[!IMPORTANT]
+>
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
 >
 >Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
 >
@@ -88,7 +90,7 @@ You must have the following access to perform the steps in this article:
 
 ## Edit record types
 
-1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> then click **Maestro** ![](assets/maestro-icon.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available, then click **Maestro** ![](assets/maestro-icon.png).
 
     The last-accessed workspace should open by default. 
 

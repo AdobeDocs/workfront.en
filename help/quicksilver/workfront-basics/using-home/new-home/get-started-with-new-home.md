@@ -5,7 +5,7 @@ title: Get started with New Home in Adobe Workfront
 description: New Home is a powerful new feature for managing your work.
 author: Nolan
 feature: Get Started with Workfront
-exl-id: 649c81a2-8979-4379-9d1d-9dcc7a2bfcae
+exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
 ---
 # Get started with New Home in Adobe Workfront
 
@@ -31,7 +31,7 @@ Below are the ten widgets currently available to choose from, as well as a summa
     Displays tasks that are assigned to you in a table with customizable filters, views, and groupings, as well as a button to directly create a new task.
 
 * **My issues**\
-    Displays issues that are assigned to you in a table with customizable filters, views, and groupings, as well as a button to directly create a new issue.
+    Displays issues that are assigned to you in a table with customizable filters, views, and groupings, as well as a button to directly create a new issue. This widget only includes issues whose associated projects are set to Current.
 
 * **My requests**\
     Displays all requests you have submitted, a filter to only display open requests, and a button that opens the summary pane for a request.
@@ -46,7 +46,7 @@ Below are the ten widgets currently available to choose from, as well as a summa
     Displays all approvals for your organization in a table with customizable columns, as well as a search bar that allows you to search for specific approvals.
 
 * **Mentions**\
-    Displays recent comment threads that contain @ mentions of you across Workfront, as well as a reply button that allows you to compose a reply within the widget. This widget also shows comments made on tasks and issues that you are assigned to, that you assigned to another user, that you own, that you are primary contact on, or that you created—as long as the task or issue has been updated in the last 30 days.
+    Displays recent comment threads from across Workfront, similarly to the My Updates page, as well as a reply button that allows you to compose a reply within the widget. This widget also shows comments made on tasks and issues that you are assigned to, that you assigned to another user, that you own, that you are primary contact on, or that you created—as long as the task or issue has been updated in the last 30 days.
 
 * **To-dos**\
     This unique widget allows you to add text items to a personal checklist that you can freely edit.
@@ -72,7 +72,7 @@ By default, the Home page is populated with a few specific widgets based on your
     </tr>
     <tr>
         <td>Contributor</td>
-        <td>My Work, Mentions</td>
+        <td>My Requests, Mentions, Awaiting My Approval, Boards</td>
     </tr>
     <tr>
         <td>External</td>
@@ -98,11 +98,11 @@ By default, the Home page is populated with a few specific widgets based on your
         <td>My Work, Mentions</td>
     </tr>
     <tr>
-        <td>Limited</td>
+        <td>Request</td>
         <td>My Projects, Awaiting My Approval</td>
     </tr>
     <tr>
-        <td>Contributor</td>
+        <td>Contribute</td>
         <td>My Work, Mentions</td>
     </tr>
     <tr>
@@ -125,24 +125,9 @@ You can add a bit of personal flare to your Home page by selecting a colorful ba
 
 1. In the **Background** section of the **Customize** pane that appears, click on the color you would like to select for your Home background. You can also click **None** to remove the background.
 
-### Filter by time range
-
-You can quickly filter all of the information on your Home page to display object information within three specific time ranges: Day, Week, or Month. Additionally, a summary of the number of tasks you have due and those you've completed within range is displayed at the top of the Home page.
-
-**To change the time range of your Home page:**
-
-1. Navigate to your Home page, either by clicking on the Adobe Workfront icon ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) at the top of your screen if Home is set as your landing page, or by clicking on the main menu icon ![Main Menu Icon](../new-home/assets/main-menu-icon-left-nav.png) then clicking on **Home**.
-
-1. Click on the time range filter in the top-left corner of the Home page. By default, the filter is set to **My Week**.
-
-    ![Time range filter dropdown](../new-home/assets/time-range-filter-dropdown-home.png)
-
-1. Click on either **Day**, **Week**, or **Month** to filter your Home page so that it only displays information on objects due within that time frame.
-
 ## Revert to current Home experience
 
 For users that prefer the existing Home experience, New Home can be toggled off.
-
 
 **To go back to the current Home experience:**
 

@@ -4,7 +4,7 @@ description: Adobe Maestro is a new offering from Adobe Workfront. You can creat
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: 66966cb1-b75d-4576-addd-a72eacef0526
+exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 ---
 # Adobe Maestro overview
 
@@ -19,6 +19,8 @@ exl-id: 66966cb1-b75d-4576-addd-a72eacef0526
 <!--update the video in the IMPORTANT below, when we have something better, especially after Open Beta - remove it-->
 
 >[!IMPORTANT]
+>
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
 >
 >Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
 >
@@ -214,6 +216,11 @@ The following are the main Maestro objects and concepts:
     * Percentage 
     * Currency
     * Checkbox  
+    * People
+    * Created by
+    * Created date
+    * Last modified by
+    * Last modified date
    
 * **Linked record types**, **Linked records**, and **Linked record fields**:  You can create a connection between the following entities:
     
@@ -345,20 +352,27 @@ The following table illustrates the main features that will be available in Maes
 |     View records in a timeline                     |   ✓                           |                                  |                  |
 |     Filter records                                 |   ✓                           |                                  |                  |
 |     Group records in the timeline view             |   ✓                           |                                  |                  |
-|     Group records in the table view                |                               |   ✓                              |                  |
+|     Group records in the table view                | ✓                              |                                 |                  |
 |     Sort records in the table view                                 |  ✓                             |                                 |                  |
 |     Sort records in the timeline view                                 |                               |   ✓                              |                  |
 |     Sort groupings in the table view                                 |                               |   ✓                              |                  |
 |     Sort groupings in the timeline view                                 |                               |   ✓                              |                  |
 |     Connect workspaces                                |                               |   ✓                              |                  |
 |     Connect Maestro records and taxonomies  |   ✓                            |  
+|   Search for records in the table view    | ✓    |   |
 |     Connect Maestro records to Workfront projects, programs, portfolios, companies, groups  |   ✓                            |                                 |                  |
 |     Record details page                            |   ✓                           |                                  |                  |
 |     Update the layout of the record Details page              |                               |   ✓                              |                  |
-| Access levels and permissions | |✓ |  |
+|  Workspace permissions | |✓ |  |
 |     Submit requests                                |                               |                                  |   ✓              |
 |     Creative brief                                 |                               |                                  |   ✓              |
 |     Customize the color and icon of a record                                 |      ✓                         |                                  |                 |
+<!--
+Add another row for Rich text formatting:
+
+
+|     Rich Text formatting for Paragraph fields                                 |      ✓                         |                                  |                 |
+--> 
 
 ## Maestro release activity 
 

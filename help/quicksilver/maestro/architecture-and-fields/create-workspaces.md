@@ -4,13 +4,15 @@ description: A workspace is a collection of operational record types and taxonom
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: 5c49cf0f-f9a3-42a6-bcbe-59730f9642d5
+exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 ---
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Create workspaces
 
 >[!IMPORTANT]
+>
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
 >
 >Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
 >
@@ -86,7 +88,7 @@ You must have the following access to perform the steps in this article:
 
 ## Create a workspace
 
-1. (Conditional) If you don't have any workspaces in your system, click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, <!--or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> then click **Maestro** ![](assets/maestro-icon.png).
+1. (Conditional) If you don't have any workspaces in your system, click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available, then click **Maestro** ![](assets/maestro-icon.png).
 
     Or, from an existing workspace, click the downward-pointing to the right of the workspace name, then click **Create workspace**. 
 

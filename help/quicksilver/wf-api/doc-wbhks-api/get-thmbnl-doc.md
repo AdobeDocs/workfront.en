@@ -6,6 +6,7 @@ title: Get a thumbnail for a document
 description: Get a thumbnail for a document
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 31960689-1811-4ba7-a63d-0842caedf3ea
 ---
 

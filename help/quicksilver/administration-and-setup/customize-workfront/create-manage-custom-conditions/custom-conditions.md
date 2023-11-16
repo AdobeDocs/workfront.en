@@ -8,6 +8,7 @@ description: A condition is a visual representation of how a project, task, or i
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: bbe6f0a0-18bf-4229-a50a-aa7286b82626
 ---
 # Custom conditions

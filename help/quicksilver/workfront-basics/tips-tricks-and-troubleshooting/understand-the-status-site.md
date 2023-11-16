@@ -26,7 +26,7 @@ You can view status updates on the [!DNL Adobe] Status site.
 
    Or
 
-   Type [status.adobe.com](http://status.adobe.com/) in your browser to access the Status site.
+   Type [status.adobe.com](https://status.adobe.com/) in your browser to access the Status site.
 
 1. Select **[!UICONTROL Experience Cloud]**.
 1. Scroll down and select **[!UICONTROL Adobe Workfront]** from the list of solutions.
@@ -35,7 +35,7 @@ You can view status updates on the [!DNL Adobe] Status site.
 
 To subscribe to the Status site or to manage your subscription after you have already subscribed: 
 
-1. Go to [status.adobe.com](http://status.adobe.com/).
+1. Go to [status.adobe.com](https://status.adobe.com/).
 1. In the status bar, select **[!UICONTROL Manage subscriptions]**.
 1. If you have an existing account, log in to the account; otherwise, create a new account.
 1. Click the **[!UICONTROL Create subscriptions]** button.

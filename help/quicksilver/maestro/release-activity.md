@@ -1,14 +1,16 @@
 ---
 title: Adobe Maestro release activity
-description: Use Maestro to create custom objects, fields, and workspaces.
+description: Adobe Maestro is currently available to select Workfront customers. Review this article often to learn about the features recently released for Adobe Maestro. 
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: cc9f2497-36fa-467b-9585-30b500cad906
+exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
 ---
 # Adobe Maestro release activity 
 
 >[!IMPORTANT]
+>
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
 >
 >Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
 >
@@ -28,13 +30,147 @@ This section lists the features and patches that have been released after the la
 
 The features are released weekly and are listed in the order of their release, with the most recent first. Customers who are participating in the Maestro closed beta program can access all features in their Preview and Production environments.
 
+<!--
+## Week of November 13, 2023
+
+### Maestro permissions for users and groups
+
+Preview and production: November 16, 2023
+
+You can now share a workspace with users and groups and set their permissions to different levels, depending on what information they need to view or edit in a Maestro workspace.  
+
+The following are the permissions levels for Maestro workspaces:  
+
+No permissions: Users cannot access any workspaces in Maestro, even if the Maestro area is shared with them through a layout template. 
+
+View permissions: Users can view workspaces that are shared with them. They can also view record types, and records from the shared workspace. 
+
+Contribute permissions: Users can create, edit, or delete records in the workspace that is shared with them.  They cannot create or edit record types or workspaces ones shared with them.  
+
+Manage permissions: Users can create, edit, and delete record types, records, and fields in workspaces that are shared with them. They cannot create workspaces.  
+
+Only Workfront administrators can create, edit, or delete workspaces and all information associated with them. They also can add users and groups with various permission levels to Maestro workspaces.  
+ 
+
+For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md). -->
+
+## Week of November 6, 2023
+
+### Grouping for the table view
+
+Preview and production: November 7, 2023
+
+You can now group records in the table view of a record type page. You can group by three unique fields in the Maestro interface <!--checking into this for now: and by four fields when using the API-->.  
+
+For more information, see [Manage the table view](../maestro/views/manage-the-table-view.md). 
+
+## Week of October 30, 2023
+
+### New field types for user and date fields to capture who created or last modified a record or on what date 
+
+Preview and production: October 30, 2023
+
+We have introduced the following field types for Maestro records:  
+
+* Created by 
+
+* Created date 
+
+* Last modified by 
+
+* Last modified date 
+
+The field values of the fields created from these field types are read-only and capture the name of the user who created or last modified a record, or the date when the record was created or last modified. 
+
+For more information, see [Create fields](../maestro/architecture-and-fields/create-fields.md).
+
+### Navigate to Workfront objects from a Maestro record
+
+Preview and production: October 31, 2023
+
+You can now open the Workfront object pages from the following areas in Maestro: 
+
+* The read-only linked Workfront object record table view
+
+* The read-only Workfront object record Details page 
+
+For more information, see [Connect records](../maestro/records/connect-records.md). 
+
+### Improved navigation in the table view
+
+Preview and production: November 2, 2023
+
+We have improved the navigation in the table view of a record type page.  
+
+The following are some of the improvements: 
+
+* Use the tab key on your keyboard to navigate the table's columns and rows 
+
+* Add a new record from any column position. Prior to this improvement you could add a record only from the first column. 
+
+* Use the Shift + Enter keyboard combination to add a new record (or row) in the table.  
+
+For more information, see [Create records](../maestro/records/connect-records.md). 
+
+## Week of October 16, 2023
+
+### New People field type 
+
+Preview and production: October 16, 2023
+
+You can now add a People-type field to Maestro record types. You can use People-type fields to associate existing users with a record. For information, see [Create fields](../maestro/architecture-and-fields/create-fields.md). 
+
+
+### Rich Text- format for Paragraph fields
+
+Preview and production: October 16, 2023
+
+We have added Rich Text format controls for Paragraph-type fields. You can format your paragraph fields using Rich Text either in the Table view of a record type, or in the Details page of a record. For more information, see [Edit records](../maestro/records/edit-records.md). 
+
+
+### Record and grouping color-coding for the Timeline view 
+
+Preview and production: October 19, 2023
+
+You can now color-code the record bars and the groupings in the Timeline view.  
+
+The following are options for the colors you can choose to display for record bars and groupings in the Timeline view: 
+
+* Groupings can match the following colors:  
+
+    * Gray (the default) 
+
+    * The color of the field that you group by 
+
+* Bars can match the following colors: 
+
+    * The color of the record type 
+
+    * The color of a field that you select 
+
+    * The color of the grouping 
+
+    * No color (the default) 
+
+When matching colors to a certain field, you can select only fields with color-coded options.  
+
+For more information, see [Manage the timeline view](../maestro/views/manage-the-timeline-view.md). 
+
+## Week of October 9, 2023
+
+### Search in table view  
+
+Preview and production: October 9, 2023
+
+You can now search for a keyword to quickly find a record in the table view. You can use keywords and special characters in any fields that are visible on the screen to find a record. For information, see [Manage the table view](../maestro/views/manage-the-table-view.md). 
+
 ## Week of September 18, 2023
 
 ### Reorder rows
 
 Preview and production: September 20, 2023
 
-You can now reorder one or several rows (or records) in the Table view of a record type page.
+You can now reorder one or several rows (or records) in the Table view of a record type page. For information, see [Manage the table view](../maestro/views/manage-the-table-view.md). 
 
 ## Week of September 4, 2023
 

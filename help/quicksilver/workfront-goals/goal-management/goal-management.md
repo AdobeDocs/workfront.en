@@ -6,6 +6,7 @@ title: Goal management in Adobe Workfront Goals
 description: Review the following articles to learn where you start with Workfront Goals, the importance of using goals, how to create, edit, comment, and manage goals, as well as how to filter and print goal information
 author: Alina
 feature: Workfront Goals
+recommendations: noDisplay, noCatalog
 exl-id: cba07613-9912-4929-bda4-50f503faa3e1
 ---
 # Goal management in Adobe Workfront Goals

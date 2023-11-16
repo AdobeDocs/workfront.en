@@ -5,8 +5,9 @@ navigation-topic: projects-navigation-topic
 title: Review and approve documents
 description: This section contains articles about reviewing and approving documents in Adobe Workfront.
 author: Nolan
-feature: Work Management
-exl-id: 513228a8-9e7f-4a0f-8a0d-a092fdbe02ce
+feature: Work Management, Digital Content and Documents
+recommendations: noDisplay, noCatalog
+exl-id: cb4c2496-4219-4e37-9785-a8d224bc3936
 ---
 # Review and approve documents
 

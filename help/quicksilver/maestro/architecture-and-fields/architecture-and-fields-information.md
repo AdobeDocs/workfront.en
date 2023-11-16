@@ -4,7 +4,7 @@ description: The following articles describe how you can configure the architect
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: cdd4d3fb-78ee-4e7f-8190-6ba7b1b4a70b
+exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
 ---
 <!--
 ---
@@ -23,6 +23,8 @@ hide: yes
 # Architecture information
 
 >[!IMPORTANT]
+>
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
 >
 >Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
 >
@@ -46,7 +48,7 @@ The articles in the following sections describe how you can configure the Maestr
 * [Edit record types](../architecture-and-fields/edit-record-types.md)
 * [Connect record types](../architecture-and-fields/connect-record-types.md)
 * [Example of connecting record types and records](../architecture-and-fields/example-connect-record-types-and-records.md)
-* [Create fields in Adobe Maestro](../architecture-and-fields/create-fields.md)
+* [Create fields](../architecture-and-fields/create-fields.md)
 * [Edit fields](../architecture-and-fields/edit-fields.md)
 * [Delete workspaces](../architecture-and-fields/delete-workspaces.md)
 * [Delete record types](../architecture-and-fields/delete-record-types.md)

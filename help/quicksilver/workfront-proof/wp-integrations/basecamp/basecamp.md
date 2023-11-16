@@ -4,9 +4,10 @@ product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: integrations-workfront-proof
 title: Basecamp
-description: This section contains the following articles - EDIT ME.
+description: Learn more about integrating with Basecamp.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: ba0819cf-debd-47eb-ab9d-a326b84aa1e8
 ---
 # Basecamp

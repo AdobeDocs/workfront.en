@@ -4,7 +4,7 @@ description: You can display Adobe Maestro records in a table or timeline view. 
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: 4cfacef1-f9cc-490d-b09b-99d846b9de2d
+exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
 ---
 <!--
 ---
@@ -18,11 +18,13 @@ hide: yes
 ---
 -->
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
 # Views information
 
 >[!IMPORTANT]
+>
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
 >
 >Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
 >

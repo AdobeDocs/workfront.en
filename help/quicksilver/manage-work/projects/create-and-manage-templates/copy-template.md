@@ -40,6 +40,26 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
+
+## Considerations about copying templates
+
+The following items are always copied from an existing project to a new one:
+
+* Template Tasks
+* Template Task Default information (Task Default Approval Process, Task Default Custom Forms)
+* Custom forms
+* Risks
+* Queue Setup information
+* Portfolio and Program
+* Approvals
+* Documents
+* The days of the original template tasks transfer to the new template. You must change the Start or Completion day of the template (depending on its Schedule Mode) to update the days on the template tasks, if needed. 
+
+The following items are never copied from an existing project to a new one:   
+
+* Billing Rates
+* User comments  
+
 ## Copy a template
 
 1. Go to the template that you want to copy.

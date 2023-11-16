@@ -4,7 +4,7 @@ description: As a marketing operations leader, you can use Adobe Maestro to orga
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: 35e642cd-5506-48c5-a6d0-c966289ed714
+exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 ---
 # Adobe Maestro information
 
@@ -25,6 +25,8 @@ hide: yes
 As a marketing operations leader, you can use Adobe Maestro to organize work across the marketing lifecycle for all your teams.
 
 >[!IMPORTANT]
+>
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
 >
 >Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers.  
 >
@@ -47,8 +49,8 @@ Access the following articles for an overview of Adobe Maestro:
 <!--update the video when we have something better, especially after Open Beta - remove it-->
 
 * [View a video demonstration of Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}
-* [Maestro overview](maestro-overview.md): A high-level overview of Adobe Maestro, including the terminology and concepts that are unique to this solution. We recommend that you start your journey with Maestro here. 
-* [Release activity](../maestro/release-activity.md): A list of all the features that have been released since the launch of the Maestro closed beta program, on May 22, 2023 with exact release dates and a short overview of each feature.
+* [Adobe Maestro overview](maestro-overview.md): A high-level overview of Adobe Maestro, including the terminology and concepts that are unique to this solution. We recommend that you start your journey with Maestro here. 
+* [Adobe Maestro release activity](../maestro/release-activity.md): A list of all the features that have been released since the launch of the Maestro closed beta program, on May 22, 2023 with exact release dates and a short overview of each feature.
 
 ## Maestro architecture and functionality
 

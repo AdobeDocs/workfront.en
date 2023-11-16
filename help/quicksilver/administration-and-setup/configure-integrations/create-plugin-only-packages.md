@@ -6,7 +6,7 @@ navigation-topic: administrator-integrations
 description: An Adobe Admin Console administrator can create a lightweight, plugin-only package. By distributing these preconfigured packages, admins can ensure that the users have these plugins without relying on the user to seek out the plugin themselves. We recommend using these lightweight plugins to distribute the Adobe Workfront for Creative Cloud plugins to users in your organization.
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
-exl-id: 641987ae-5c3a-4213-be35-3155199879fc
+exl-id: 99c40201-815e-447d-b791-dd026af55ec1
 ---
 # Create [!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] packages for your users in the [!DNL Adobe Admin Console]
 

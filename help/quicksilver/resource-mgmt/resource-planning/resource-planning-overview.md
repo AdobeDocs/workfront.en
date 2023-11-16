@@ -6,6 +6,7 @@ title: Resource Planning in Adobe Workfront
 description: The articles in this section contain information about functionality in the Planner and Resource Pools sections of the Resourcing area of Adobe Workfront.
 author: Alina
 feature: Resource Management
+recommendations: noDisplay, noCatalog
 exl-id: 21ffaa14-435d-46f3-bfdd-823fa616df5a
 ---
 # Resource Planning in Adobe Workfront

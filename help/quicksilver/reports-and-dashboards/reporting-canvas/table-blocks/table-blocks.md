@@ -3,6 +3,7 @@ title: Table Blocks
 description: Table Blocks overview
 hidefromtoc: yes
 hide: yes
+recommendations: noDisplay, noCatalog
 exl-id: 2b4e1515-01fa-494f-9a1b-abd148afe0b0
 ---
 # Table Blocks

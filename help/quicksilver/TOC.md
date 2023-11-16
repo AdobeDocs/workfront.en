@@ -13,13 +13,18 @@ feature-set: Workfront
     * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
+    * 2024 Q1 Release {#release-24-q1}
+      * [2024 Q1 Release overview](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
+      * [2024 Q1 Integration enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md)
     * 2023 Q4 Release {#release-23-q4}
       * [2023 Q4 Release overview](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
-      * [2023 Q4 Release week of July 24, 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-26.md)
-      * [2023 Q4 Release week of July 31, 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-july-31.md)
-      * [2023 Q4 Release week of August 14, 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-14.md)
-      * [2023 Q4 Release week of August 21, 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-aug-21.md)
-      * [2023 Q4 Release week of September 11, 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-sept-11.md)
+      * [2023 Q4 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md)
+      * [2023 Q4 Boards enhancements](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md)
+      * [2023 Q4 Financial Management enhancements](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-financial-mgmt-enhancements.md)
+      * [2023 Q4 Home enhancements](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-home-enhancements.md)
+      * [2023 Q4 Integration enhancements](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-integration-enhancements.md)
+      * [2023 Q4 Project enhancements](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-project-enhancements.md)
+      * [2023 Q4 Other enhancements](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-other-enhancements.md)
       * [Look-and-feel updates during the 2023 Q4 release timeframe](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-look-and-feel-updates.md)
     * 23.3 Release {#release-23-3}
       * [23.3 Release overview](product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md)
@@ -127,6 +132,7 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+      * [Workfront Fusion release activity: Week of October 30, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-10-26.md)
       * [Workfront Fusion release activity: Week of September 1, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-9-1.md)
       * [Workfront Fusion release activity: Week of August 21, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-8-21.md)
       * [Workfront Fusion release activity: Week of August 7, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-8-7.md)
@@ -371,6 +377,9 @@ feature-set: Workfront
       * [New commenting experience](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
       * [New commenting experience release activity](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
       * [New commenting experience FAQs](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
+    * Workfront and Frame.io integration alpha {#frame-io-wf-integration-alpha}
+      * [Adobe Workfront and Frame.io native integration alpha: overview](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
+      * [Adobe Workfront and Frame.io native integration alpha: features](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
 * Administration and setup {#administration-and-setup}
   * [Administration and setup](administration-and-setup/administration-and-setup.md)
   * Get started with administration {#get-started-administration}
@@ -714,7 +723,7 @@ feature-set: Workfront
       * [Manage group objects](administration-and-setup/manage-groups/work-with-group-objects/work-with-a-groups-objects.md)
       * [Manage group companies](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md)
       * [Manage group layout templates](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)
-      * [Manage group projects](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md)
+      * [Manage group portfolios](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md)
       * [Manage group programs](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md)
       * [Manage group teams](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md)
       * [Manage group approval processes](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md)
@@ -755,6 +764,7 @@ feature-set: Workfront
   * Administration in the Adobe Admin Console {#admin-in-admin-console}
     * [Workfront Administration in the Adobe Admin Console](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
     * [Prepare for the Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)    
+    * [Understanding Workfront Product and User Migration to the Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)    
   * Tips, tricks, and troubleshooting for administration and setup {#admin-setup-tips}
     * [Tips, tricks, and troubleshooting](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
     * [Group admins must have higher access than those they manage](administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
@@ -964,6 +974,7 @@ feature-set: Workfront
     * [Use connected cards on boards](agile/get-started-with-boards/connected-cards.md)
     * [Add existing tasks or issues to a board](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
     * [Manage cards](agile/get-started-with-boards/move-board-items.md)
+    * [Manage subtasks on boards](/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md)
     * [Manage checklist items on cards](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
     * [Add documents on cards](/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md)
     * [Customize which fields are displayed on a card](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
@@ -1981,7 +1992,7 @@ feature-set: Workfront
     * [Architecture information](maestro/architecture-and-fields/architecture-and-fields-information.md)
     * [Create workspaces](maestro/architecture-and-fields/create-workspaces.md)
     * [Overview of record types and taxonomies](maestro/architecture-and-fields/overview-of-record-types-and-taxonomies.md)
-    * [Create record types](maestro/architecture-and-fields/create-record-types.md)
+    * [Create operational record types](maestro/architecture-and-fields/create-record-types.md)
     * [Create taxonomy record types](maestro/architecture-and-fields/create-a-taxonomy.md)
     * [Connect record types](maestro/architecture-and-fields/connect-record-types.md)
     * [Create fields](maestro/architecture-and-fields/create-fields.md)
@@ -1995,6 +2006,7 @@ feature-set: Workfront
   * Adobe Maestro access {#adobe-maestro-access}
     * [Access information](maestro/access/access-information.md)
     * [Access overview](maestro/access/access-overview.md)
+    * [Overview of sharing permissions in Adobe Maestro](maestro/access/sharing-permissions-overview.md)
     * [Grant access to Adobe Maestro](maestro/access/grant-access.md)
   * Adobe Maestro records {#adobe-maestro-records}
     * [Records information](maestro/records/records-information.md) 
@@ -2561,6 +2573,7 @@ feature-set: Workfront
     * [Configure and use your organization's custom OAuth 2 applications using JWT flow](wf-api/api/oauth-app-jwt-flow.md)
     * [Configure and use your organization's custom OAuth 2 applications using PKCE flow](wf-api/api/oauth-app-pkce-flow.md)    
     * [Deprecation of API-Internal](wf-api/api/deprecation-api-internal.md)
+    * [What's new in API version 17](wf-api/api/new-api-version-17.md)
     * [What's new in API version 16](wf-api/api/new-api-version-16.md)
     * [What's new in API version 15](wf-api/api/new-api-version-15.md)
     * [What's new in API version 14](wf-api/api/new-api-version-14.md)

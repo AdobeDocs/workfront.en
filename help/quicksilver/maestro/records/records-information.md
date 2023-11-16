@@ -4,7 +4,7 @@ description: After you create record types in Adobe Maestro you can create indiv
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: 5c4bdf7e-1e30-4ee6-9c11-4909d2f2d3e3
+exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 ---
 <!-- update the metadata with real information when making this available in TOC and in the left nav
 ---
@@ -21,6 +21,8 @@ hide: yes
 # Records information
 
 >[!IMPORTANT]
+>
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
 >
 >Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
 >

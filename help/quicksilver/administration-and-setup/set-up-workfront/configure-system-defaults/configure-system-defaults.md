@@ -8,6 +8,7 @@ description: As an [!DNL Adobe Workfront] administrator, you can configure the s
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 0ea1722b-fbcf-4e13-b206-f954877076cf
 ---
 # Configure system defaults

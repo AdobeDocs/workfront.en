@@ -4,9 +4,10 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: work-with-proofs-and-files
 title: Review proofs in the Desktop Proofing Viewer
-description: This section contains the following articles - EDIT ME.
+description: Review proofs in the Desktop Proofing Viewer.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 26637f09-3513-48d9-9a35-7b94bf0d1581
 ---
 # Review proofs in the Desktop Proofing Viewer

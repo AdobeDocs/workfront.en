@@ -6,6 +6,7 @@ title: Create a Folder with Document Webhooks
 description: Create a Folder with Document Webhooks
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 50905915-58c9-4b50-b8a1-133833884a88
 ---
 
@@ -46,7 +47,7 @@ returns
 ```
 {title:"New Folder",br /> kind:"folder"
  id":"5678",
- viewLink:"”,
+ viewLink:"",
  downloadLink:"",
  mimeType:"",
  dateModified:"2014­06­05T17:39:45.251Z"

@@ -127,7 +127,7 @@ Do the following to merge the data from multiple columns to display it in one co
    `sharecol=true`
    
 
-1. Add the following text to the first column:
+1. Click the first column and click **Switch to Text Mode**, then add the following text to the column:
 
    `sharecol=true`
    

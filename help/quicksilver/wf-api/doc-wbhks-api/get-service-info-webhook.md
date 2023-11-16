@@ -6,6 +6,7 @@ title: Get information about the service
 description: Get information about the service
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: a3a423ff-29a6-466e-a568-f64e02dcb484
 ---
 
@@ -59,12 +60,12 @@ JSON containing information about this service
   <tr> 
    <td>availableEndpoints</td> 
    <td>String&nbsp;</td> 
-   <td>A list containing the API Endpoints implemented by this service. This may be used to ensure that the user interface in Workfront reflect the capabilities offered by the webhook provider. Each item in the list must include the name of the endpoint (such as “search”).</td> 
+   <td>A list containing the API Endpoints implemented by this service. This may be used to ensure that the user interface in Workfront reflect the capabilities offered by the webhook provider. Each item in the list must include the name of the endpoint (such as "search").</td> 
   </tr> 
   <tr> 
    <td>customActions&nbsp;</td> 
    <td>String</td> 
-   <td>&nbsp; <p>A list containing the custom operations implemented by this webhook. Each list item includes a name and display name. The display name will appear in the “Document Actions” dropdown in Workfront. Clicking on the item in the dropdown will invoke the action in the webhook by calling the /customAction endpoint.</p></td> 
+   <td>&nbsp; <p>A list containing the custom operations implemented by this webhook. Each list item includes a name and display name. The display name will appear in the "Document Actions" dropdown in Workfront. Clicking on the item in the dropdown will invoke the action in the webhook by calling the /customAction endpoint.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,12 +76,12 @@ returns
 
 ```
 {
-webhook version: “1.2”, version: “1.0”, publisher: “Acme, LLC”, availableEndpoints: [“files”, “metadata”, “search”, “download”
-“thumbnail”, “uploadInit”, “upload” ], customActions [
+webhook version: "1.2", version: "1.0", publisher: "Acme, LLC", availableEndpoints: ["files", "metadata", "search", "download"
+"thumbnail", "uploadInit", "upload" ], customActions [
 {
-name: “archive”, displayName: “Archive” 
+name: "archive", displayName: "Archive" 
 }, 
-{name: “doSomethingElse”, displayName: “Do Something” }, 
+{name: "doSomethingElse", displayName: "Do Something" }, 
 ] 
 }
 ```

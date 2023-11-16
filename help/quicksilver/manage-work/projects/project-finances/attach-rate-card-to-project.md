@@ -4,7 +4,7 @@ description: When you attach a rate card to a project, all of the roles by locat
 author: Lisa
 feature: Work Management
 role: User
-exl-id: 49b7646e-b89c-4b2d-93bb-89809c8a9419
+exl-id: 97c33c5a-e42d-4015-841f-69dc44a0599d
 ---
 # Attach a rate card to a project
 

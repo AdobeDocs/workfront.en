@@ -103,17 +103,19 @@ Consider the following when viewing the Workload Balancer:
 
     >[!NOTE]
     >
-    >* Work items assigned to a job role or a team, and also assigned to a user who is the primary assignee, do not display in the Unassigned Work area.
-    >* Work items assigned to a user and a job role, where the job role is selected as the primary assignee of the item, do display in the Unassigned Work area.
+    >* Work items assigned to a job role or a team, and also assigned to a user, display in both the Unassigned Work area and under the assigned user's name in the Assigned Work area.
+    >* Work items assigned to a user and a job role, where the job role is selected as the primary assignee of the item, display in the Unassigned Work area.
     >* Work items assigned to more than one user display under all of the assigned users' names in the Assigned Work area.
 
-* When a project has no tasks during a period of time, the bar at the project level becomes a dimmed color.
+    For more information, see "Assignment areas in the Workload Balancer" in [Overview of assigning work in the Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-  ![](assets/wb-break-in-project-timeline-with-no-tasks-highlight-350x80.png)
+* When a project has no tasks during a period of time, the bar at the project level is blank for that time.
+
+  ![Project with no tasks during a period of time](assets/wb-no-tasks-in-time-period.png)
 
 * When you don't have permissions to see certain items, they display as **Inaccessible work items** or **Inaccessible projects**.
 
-  ![](assets/balancer-inaccessible-items-and-projects-highlighted-350x108.png)
+  ![Inaccessible work items](assets/wb-inaccessible-work-items.png)
 
 * The names of the work items display on the left and their timeline displays on the right. 
 * The total of Planned Hours for each work item displays to the right of the name of the work item and to the left of the bar that represents the work item's timeline. 
@@ -151,7 +153,7 @@ To navigate the Workload Balancer for multiple projects:
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Resourcing**.
 1. Click **Workload Balancer** in the left panel.
 
-    ![](assets/nwe-balancer-global.png)
+    ![Workload Balancer](assets/nwe-balancer-global.png)
     
     The Workload Balancer displays work assignment information starting with the current week in the following two areas:
 
@@ -184,7 +186,7 @@ To navigate the Workload Balancer for multiple projects:
                 > 
                 >For information about customizing settings, see the section [Customize the view](#customize-the-view) in this article.               
 
-1. (Optional) Click the **Filter** icon ![](assets/filter-icon.png) in the **Assigned Work** area, then select the **Default filter** in the **Suggested** area of the filter box.  
+1. (Optional) Click the **Filter** icon ![Filter icon](assets/filter-icon.png) in the **Assigned Work** area, then select the **Default filter** in the **Suggested** area of the filter box.  
 
     When applying the Default filter, users that belong to any of your teams and their work items display. You can edit a copy of this filter.
  
@@ -206,10 +208,10 @@ To navigate the Workload Balancer for multiple projects:
     The Workload Balancer displays work assignment information starting with the current week. 
 
 1. Use the horizontal scroll to view the timeline of work items that extend beyond the limits of the screen.
-1. Click the **back or forward** icons ![](assets/back-and-forward-icons.png) in the upper-left corner to navigate the timeline, then click **Today** to return to the current week.
+1. Click the **back or forward** icons ![Back and forward icons](assets/back-and-forward-icons.png) in the upper-left corner to navigate the timeline, then click **Today** to return to the current week.
 1. Click the **time frame drop-down menu** on the toolbar, then click the beginning date of the period you want to display. By default, the first week selected on the calendar is the week you navigated to.
 
-    ![](assets/calendar-date-picker-wb.png)
+    ![Calendar selection](assets/calendar-date-picker-wb.png)
 
 1. Select the number of weeks you want to display at one time in the Workload Balancer from the following options:
     * 1 week
@@ -218,7 +220,7 @@ To navigate the Workload Balancer for multiple projects:
     * 6 weeks
     * 3 months 
 
-    ![](assets/3-months-12-weeks-drop-down-wb.png)
+    ![Select weeks](assets/3-months-12-weeks-drop-down-wb.png)
 
 1. Click one of the following options in the toolbar to display information by different time frames:
     * **Day**: Displays information by day for four weeks starting with today's date, by default.
@@ -229,11 +231,11 @@ To navigate the Workload Balancer for multiple projects:
 
 ### Customize the view
 
-1. Access the Workload Balancer in the **Resourcing** area, as described in the section [Access the Workload Balancer for multiple projects in the Resourcing area](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in this article. 
+1. Access the Workload Balancer in the **Resourcing** area, as described in the section [Access the Workload Balancer for multiple projects in the Resourcing area](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in this article.
 
     The names of work items are listed on the left side and are represented by bars on the right side of the Workload Balancer. The length of the bar represents the timeline of a work item.
 
-1. (Optional and recommended) Use filters in the Unassigned and Assigned Work areas to display only work items or users that are relevant to you. 
+1. (Optional and recommended) Use filters in the Unassigned and Assigned Work areas to display only work items or users that are relevant to you.
 
     For more information, see [Filter information in the Workload Balancer](../workload-balancer/filter-information-workload-balancer.md).
 
@@ -250,20 +252,19 @@ To navigate the Workload Balancer for multiple projects:
 
     >[!TIP]
     >
-    >Work items are listed under project names in the Unassigned area only when you enable the "Group by Project" setting. 
-
+    >Work items are listed under project names in the Unassigned area only when you enable the "Group by Project" setting.
 
 1. Click the **down-pointing arrow** to the left of the Unassigned or Assigned areas to collapse all items under the project names (in the Unassigned area) and under the user names (in the Assigned area).
 
 1. Drag and drop the **separation line** between the left panel and the timeline area to adjust the size of the left panel.
 
-    ![](assets/separation-line-between-left-panel-and-timeline-highlighted-nwe-350x174.png)
+    ![Separation line](assets/wb-adjust-panel-size.png)
 
-1. Click the **Settings** icon ![](assets/settings-gear-icon.png).
+1. Click the **Settings** icon ![Settings icon](assets/settings-gear-icon.png).
 
     The Settings panel displays on the right.
 
-    ![](assets/settings-box-options-global-with-color-theme-and-percentage-wb-nwe.png)
+    ![Settings panel](assets/settings-box-options-global-with-color-theme-and-percentage-wb-nwe.png)
 
     Select from the options listed below to update the information you view in the Workload Balancer, then click the **X icon** in the upper-right of the Settings box to close it.
 
@@ -272,7 +273,7 @@ To navigate the Workload Balancer for multiple projects:
     * **Include hours from issues**: When this is selected, issues assigned to users display under the user's name in the Assigned Work area and issues that are not assigned to users display in the Unassigned Work area. The Planned Hours from the issues count towards the Planned Hours for the project and for the user in the Assigned Work area.
     * **Show Projected Dates**: When this is selected, the projected timeline of work items displays in addition to the planned timeline. Notice the following:
         * The projected timeline of project, tasks, and issues displays as a dark blue line above the task, issue, and project bars.
-        *  The projected timeline that is outside of the planned timeline displays in light blue, even when you update the color theme, as described below.
+        * The projected timeline that is outside of the planned timeline displays in light blue, even when you update the color theme, as described below.
         * The projected timeline for the items that you have no access to view displays in light gray with a line underneath.
         * When a task or issue completes before the due Planned Completion Date the allocation numbers for the remaining days are struck through and do not count towards the user's allocation. This displays only when both the Show Projected Dates setting and the Show allocation icon are enabled.
         
@@ -311,12 +312,12 @@ To navigate the Workload Balancer for multiple projects:
 
 1. (Optional and conditional) When you change the color theme to Project Status, hover over the name of a project on the left to view the status of the project. 
 
-    ![](assets/hover-over-project-status-tooltip-350x115.png)
+    ![Project status tooltip](assets/hover-over-project-status-tooltip-350x115.png)
 
 ### Assign work items and adjust user allocations
 
 1. Access the Workload Balancer in the Resourcing area, as described in the section [Access the Workload Balancer for multiple projects in the Resourcing area](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in this article. 
-1. Click the **Show allocations icon** ![](assets/show-allocations-icon-small.png) to view the daily or weekly Planned Hours for work items. 
+1. Click the **Show allocations icon** ![Show allocations icon](assets/show-allocations-icon-small.png) to view the daily or weekly Planned Hours for work items. 
 
     This replaces the name in the bars of the work items with the amount of daily or weekly Planned Hours in the Unassigned and Assigned Work areas. This setting is disabled by default. 
 
@@ -331,12 +332,12 @@ To navigate the Workload Balancer for multiple projects:
 
 1. (Optional) Hover over the allocated time in the user line to understand the capacity and allocation of the user. The capacity is the availability of the user according to their schedule.
 
-    ![](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
+    ![Allocated time details](assets/overallocation-vs-capacity-tooltip-wb-nwe.png)
 
 1. (Optional) Click the **Hide allocations icon** ![](assets/show-allocations-icon-small.png) to display the name of the tasks and issues  in the bars of the work items.
 1. Click the **More menu** icon ![](assets/more-icon.png) to the right of a task or issue name, then click one of the options below.
 
-    ![](assets/more-menu-right-of-task-350x104.png)
+    ![More menu](assets/more-menu-right-of-task-350x104.png)
 
     * **Assign this to**, then start typing the name of a user, role, or team you want to assign the work item to in the **Search people, role, or teams** field. 
 
@@ -355,13 +356,13 @@ To navigate the Workload Balancer for multiple projects:
     
     * **Open Summary**. The Summary panel opens on the right, then click the Assignments field and start typing the name of a user, role, or team in the **Search people, role, or teams** field to assign the item. For more information, see the section [Display more information about tasks and issues](#display-more-information-about-tasks-and-issues) in this article. 
 
-1. (Optional) Double-click a daily or weekly allocation for a user inside the bar of a work item to edit the number of allocated hours, then click the **Save** icon ![](assets/save-allocations-wb.png) to save the allocations or the **Cancel** icon  ![](assets/cancel-allocations-wb.png) to remove the allocations you adjusted.
+1. (Optional) Double-click a daily or weekly allocation for a user inside the bar of a work item to edit the number of allocated hours, then click the **Save** icon ![Save icon](assets/save-allocations-wb.png) to save the allocations or the **Cancel** icon ![Cancel icon](assets/cancel-allocations-wb.png) to remove the allocations you adjusted.
 
     >[!TIP]
     >
     >The Save and Cancel icons display towards the end of a task or an issue's timeline bar. 
     >
-    >![](assets/cancel-and-save-icon-on-adjust-allocation-bar-wb-highlighted.png)
+    >![Save or cancel manual allocations](assets/cancel-and-save-icon-on-adjust-allocation-bar-wb-highlighted.png)
     
     For information about managing user allocations, see [Manage user allocations in the Workload Balancer](../workload-balancer/manage-user-allocations-workload-balancer.md). 
 
@@ -372,26 +373,22 @@ To navigate the Workload Balancer for multiple projects:
 
     For more information, see [Assign work in the Workload Balancer by dragging and dropping](../workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md). 
 
-
 ### View allocations in a chart
 
-Instead of viewing allocations in daily or weekly numbers, you can view them in a chart. 
+Instead of viewing allocations in daily or weekly numbers, you can view them in a chart.
 
 1. Access the Workload Balancer in the Resourcing area, as described in the section [Access the Workload Balancer for multiple projects in the Resourcing area](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in this article.
-1. Click the **Chart icon** ![](assets/user-allocation-chart-icon.png) to display the user allocation in a chart format.
+1. Click the **Chart icon** ![Chart icon](assets/user-allocation-chart-icon.png) to display the user allocation in a chart format.
 
    Days where the user is overallocated display as red blocks, and days where the user is underallocated or at capacity display as blue blocks.  
     
    The size of the blocks indicates the amount of the allocation: the larger the box, the more time the user is allocated to work items for that day or week. 
    
-   ![](assets/user-allocation-chart-350x237.png)
-
-
+   ![User allocation as a chart](assets/wb-allocation-as-chart.png)
 
 ### Display more information about tasks and issues
 
-You can view more information about the tasks and the issues in the Workload Balancer. 
-
+You can view more information about the tasks and the issues in the Workload Balancer.
 
 1. Access the Workload Balancer in the Resourcing area, as described in the section [Access the Workload Balancer for multiple projects in the Resourcing area](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in this article.
 1. To view more information in the Summary panel, do one of the following:
@@ -411,31 +408,30 @@ You can view more information about the tasks and the issues in the Workload Bal
     * For tasks, the predecessor number.
     * For tasks, an indicator in the upper-corner of the box that indicates whether the task is ready to be worked on or not. 
 
-    ![](assets/task-bar-hover-over-detail-wb.png)
+    ![Task details](assets/task-bar-hover-over-detail-wb.png)
 
-1. Click the name of a work item on the left to access it. The work item opens in a new browser tab. 
-
+1. Click the name of a work item on the left to access it. The work item opens in a new browser tab.
 
 ### Display the Workload Balancer in full screen
 
 1. Access the Workload Balancer in the Resourcing area, as described in the section [Access the Workload Balancer for multiple projects in the Resourcing area](#access-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in this article.
 
-1. Click the **Full screen** icon ![](assets/full-screen.png) to display the Workload Balancer in full screen. 
+1. Click the **Full screen** icon ![Full screen icon](assets/full-screen.png) to display the Workload Balancer in full screen. 
 
     The Workload Balancer occupies the entire screen. Browser windows and tabs are excluded from the view. 
  
-1. Click the **Exit full screen** icon ![](assets/exit-full-screen.png) to return to the default screen and view the Workload Balancer inside the browser tab. 
+1. Click the **Exit full screen** icon ![Exit full screen icon](assets/exit-full-screen.png) to return to the default screen and view the Workload Balancer inside the browser tab. 
 
 
 ## Navigate the Workload Balancer of a team
 
 Navigating the Workload Balancer of a team is similar to how you navigate the Workload Balancer for multiple projects. For information, see the section [Navigate the Workload Balancer for multiple projects](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in this article. 
 
-1. Click the **Main menu** icon ![](assets/main-menu-icon.png), then click **Teams**. 
+1. Click the **Main menu** icon ![Main menu](assets/main-menu-icon.png), then click **Teams**. 
 The page of your Home Team displays by default. 
 1. Click **Workload Balancer** in the left panel. The Workload Balancer of a team should display by default. 
 
-    ![](assets/nwe-balancer-team-350x172.png)
+    ![Workload Balancer of a team](assets/nwe-balancer-team-350x172.png)
 
     The Workload Balancer of a team displays the following information, by default:
 
@@ -446,11 +442,11 @@ The page of your Home Team displays by default.
 
 ## Navigate the Workload Balancer of a single project
 
-1. Click the **Main menu** icon ![](assets/main-menu-icon.png), then click **Projects**.
+1. Click the **Main menu** icon ![Main menu](assets/main-menu-icon.png), then click **Projects**.
 1. Click the name of a project to open the project page.
 1. Click **Workload Balancer** in the left panel. You might have to click **Show More**, then **Workload Balancer**.
 
-    ![](assets/nwe-balancer-project-350x152.png)
+    ![Workload Balancer of a project](assets/nwe-balancer-project-350x152.png)
 
     The Workload Balancer for the project displays the following information, by default: 
     
@@ -461,13 +457,13 @@ The page of your Home Team displays by default.
     
     For example, you might consider displaying only users that belong to your teams or groups. For more information, see [Filter information in the Workload Balancer](../workload-balancer/filter-information-workload-balancer.md). 
 
-1. (Optional) Click the **Filter** icon ![](assets/filter-icon.png) in the Assigned Work area and select the **This project's work items** option from the **Suggested** area of the filter panel. This filter is deselected by default.
+1. (Optional) Click the **Filter** icon ![Filter icon](assets/filter-icon.png) in the Assigned Work area and select the **This project's work items** option from the **Suggested** area of the filter panel. This filter is deselected by default.
 
     When this option is selected, only the items assigned to users on the selected project display. 
     
     When the option is not selected, all the items assigned to the users on the project display, regardless of what projects the items belong to.
 
-1. (Optional and recommended) Apply a filter in the Assigned Work area to display users that are important to you but might not be assigned to items on the project, then click the **Show all users** icon ![](assets/show-all-users-icon-project-workload-balancer.png). 
+1. (Optional and recommended) Apply a filter in the Assigned Work area to display users that are important to you but might not be assigned to items on the project, then click the **Show all users** icon ![Show all users icon](assets/show-all-users-icon-project-workload-balancer.png). 
 
     By showing all users, you can display all users in Workfront that are not yet assigned to work or other roles on the project. 
     
@@ -481,8 +477,7 @@ The page of your Home Team displays by default.
     >
     > The Show all users option is available only for the Workload Balancer of a project.
 
-
-1. (Optional) Click the **Show role allocations** icon ![](assets/show-role-allocation-icon.png).
+1. (Optional) Click the **Show role allocations** icon ![Show role allocations icon](assets/show-role-allocation-icon.png).
 
     The Role Allocation panel displays. 
     
@@ -494,7 +489,6 @@ The page of your Home Team displays by default.
     >[!NOTE]
     >
     >You cannot view initiative job role information if your organization has not purchased a license for the Workfront Scenario Planner. In this case, you can only view the planned hours associated with job roles on the project. For more information, see [Access needed to use the Scenario Planner](../../scenario-planner/access-needed-to-use-sp.md).
-
 
 1. Continue navigating the Workload Balancer of a project as described in the [Navigate the Workload Balancer for multiple projects](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) section of this article.
 

@@ -8,6 +8,7 @@ description: As an Adobe Workfront administrator, you can configure security pre
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: a8be3e69-0e1d-4a9e-9da8-4cde9643ca25
 ---
 # Security

@@ -5,6 +5,7 @@ title: Get users available time API
 description: Get users available time API
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: fa37920a-c08b-4af3-9896-7e4044834860
 ---
 # Users available time API

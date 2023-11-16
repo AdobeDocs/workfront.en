@@ -4,6 +4,7 @@ title: Beta programs
 description: Learn about the current beta releases in Adobe Workfront. 
 author: Alina
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
 ---
 # Beta programs

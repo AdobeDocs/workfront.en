@@ -6,7 +6,7 @@ description: Review the weekly release activity for the Adobe Workfront new comm
 author: Alina
 feature: Product Announcements
 role: User, Admin
-exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
+exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
 ---
 # New commenting experience release activity
 
@@ -19,6 +19,21 @@ exl-id: 1c0cb547-ac99-4cdf-8a74-2c47ad5a10ad
 <span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
 
 
+>[!IMPORTANT]
+>
+>The information in this article refers to features that were released during the beta phase for the new commenting experience. 
+>
+>The beta program for the new commenting experience started in April 2023 and ended in October 2023.
+>
+>The features released during the beta period have been made available to all customers starting with the Fourth Quarter release of 2023 (October 2023) and the beta program has closed. 
+> 
+><br>For more information, see the following articles: </br>
+>
+>* For information about the features that released during the new experience beta period, see [New commenting experience](../../betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+>
+>* For information about features released for the commenting experience after the new commenting experience beta program closed, see the current product release overview page. 
+
+<!--
  This page contains information about the release timeline for the new commenting experience which is currently ongoing in Adobe Workfront. 
 
 For general information on the new commenting experience, including a list of features that are currently available or in research, see [New commenting experience](../new-commenting-experience-beta/unified-commenting-experience.md). 
@@ -32,38 +47,66 @@ For general information on the new commenting experience, including a list of fe
 >* Goals
 >* Cards in the Boards area. 
 
-## Release timeline
+-->
 
-We are planning to release the new commenting experience iteratively. This will impact select objects with each release. A small set of features might be released in the beginning and more features will be added to the remaining objects over time.
+## New commenting experience release timeline
 
-For information about which Workfront objects display the Updates section, see   [Updates section overview](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+The new commenting experience brings a new design to the Updates section of Workfront objects. 
 
-The following is a planned timeline with key milestones for the release of the new commenting experience to the Production environment. In addition to the milestones below, we will continue to improve the commenting experience with smaller enhancements. For details about all the released features, see the [Released features](#released-features) section in this article.
+For information about which Workfront objects display the Updates section, see [Updates section overview](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+The following is a planned timeline with key milestones for the release of the new commenting experience to the Production environment. In addition to the milestones below, we will continue to improve the commenting experience with smaller enhancements. 
+
+For details about what features released during the beta period and when they were released, see the [Features released during the beta period](#features-released-during-the-beta-period) section in this article.
+
+For information about the features released for the new commenting experience after the beta period closed, see the current release overview page. 
+
+The following is a planned timeline for the release of the new commenting experience:
 
 * With the 23.2 release (April 6, 2023): 
-    * Commenting experience Beta for issues
-    * New commenting experience for goals (as the only experience)
+    * Launch the commenting experience Beta for issues
+    * Release the new commenting experience for goals (as the only experience)
 * With the 23.3 release (July 20, 2023): 
-    * Commenting experience Beta for projects, tasks, and documents. 
-    * New commenting experience for cards in the Boards area (as the only experience)
+    * Launch the commenting experience Beta for projects, tasks, and documents. 
+    * Release the new commenting experience for cards in the Boards area (as the only experience)
 * During the Fourth Quarter 2023 release (limited release, only available to customers that choose the fast release): 
-    * New commenting experience for templates, template tasks, programs, portfolios, teams, users, and timesheets (as the only experience)
-    * Commenting experience Beta for projects, tasks, issues, and documents becomes the default option. The "Beta" label is removed. 
-* With the Fourth Quarter 2023 (23.10) release (October, 2023)
-    * New commenting experience for templates, template tasks, programs, portfolios, teams, users, and timesheets (as the only experience)
-    * The new commenting experience for projects, tasks, issues, and documents becomes the default option. This will conclude the Beta stage of the new commenting experience.
+    * Release the new commenting experience for templates, template tasks, programs, portfolios, teams, users, and timesheets (as the only experience)
+    * Update the commenting experience Beta for projects, tasks, issues, and documents to become the default option. The "Beta" label is removed. 
+* With the Fourth Quarter 2023 (23.10) release (October 26, 2023)
+    * Release the new commenting experience for templates, template tasks, programs, portfolios, teams, users, and timesheets (as the only experience) to all customers. 
+    * Make the new commenting experience for projects, tasks, issues, and documents the default option. 
+    
+    >[!IMPORTANT]
+    >
+    >    This will conclude the Beta stage of the new commenting experience. 
+
+    * Make all features released for the commenting experience starting with this date part of the current regular monthly and quarterly releases.
 * End of 2023: 
-    * The legacy commenting experience will remain as a secondary option for the following objects: projects, tasks, issues, and documents. 
+    * Keep the legacy commenting experience as a secondary option for the following objects: projects, tasks, issues, and documents. The new commenting experience is the default option for all users. 
 
     >[!NOTE]
     >
     >    Iterations will continue to have the legacy commenting experience. The new commenting experience will not be available for iterations. 
 
-## Released features
+* First quarter of 2024 (January 2024):
 
-The following section contains a list of features that have been added after the original 23.2 release, starting with the ones released most recently. 
+    * Remove the option to switch back to the legacy commenting stream and make the new commenting stream the only experience for all objects, with the exception of Iterations. 
 
-The following information refers to the release activity on a weekly basis of the features included in the new commenting beta experience. This article lists new features that are added and issues that are resolved for the new commenting experience.
+## Features released during the beta period
+
+The features documented in this section are now available to all customers and in all environments. 
+
+The following features were added to the commenting experience during the beta phase, between the 23.2 release (April 6, 2023) and the Fourth Quarter 2023 release (October 26, 2023). 
+
+The following information refers to the release activity on a weekly basis, starting with the most recent update. 
+
+### Week of October 16, 2023
+
+#### Add the "on behalf of < user name >" information when commenting while logged in as another user
+
+While redesigning the commenting experience, we had removed the "on behalf of < user name >" indicator when a Workfront or group administrator added comments while logged in as another user. This information has now been restored. 
+
+Preview and production for all customers: October 19, 2023. 
 
 ### Week of September 11, 2023
 
@@ -91,7 +134,9 @@ Preview and production for all customers: August 24, 2023
 
 #### New commenting experience for additional objects 
 
+<!--
 [!BADGE In production for Fast Release ]{type=Positive}
+-->
 
 The new commenting experience will be available for the following objects, shortly after the 23.3 release to Production: template tasks, templates, timesheets, teams, users, programs, portfolios.  
 
@@ -107,7 +152,9 @@ Production release for all customers: With the 23.10 release (October, 2023)
 
 #### New design update for the new commenting stream 
 
+<!--
 [!BADGE In production for Fast Release ]{type=Positive}
+-->
 
 We have redesigned the new commenting stream to give it a more updated look-and-feel. Some of the improvements are:  
 
@@ -133,7 +180,9 @@ For more information, see [Updates tab overview](../../../workfront-basics/updat
 
 #### The new commenting experience is the default experience for projects, tasks, issues, and documents
 
+<!--
 [!BADGE In production for Fast Release ]{type=Positive}
+-->
 
 We are making the new commenting experience the default experience for the following objects: projects, tasks, issues, and documents.  The legacy commenting experience will remain as an alternative option when accessing these objects.  
 

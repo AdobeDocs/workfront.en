@@ -7,6 +7,7 @@ title: Scenarios in [!DNL Adobe] Workfront Fusion
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 author: Becky
 feature: Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
 ---
 # Scenarios in [!DNL Adobe Workfront Fusion]

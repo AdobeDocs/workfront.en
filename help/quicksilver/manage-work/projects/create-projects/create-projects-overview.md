@@ -6,6 +6,7 @@ title: Create projects
 description: Learn information about creating projects in the following articles.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: a49c9157-05d8-41a6-93c3-068d835b52e3
 ---
 # Create projects

@@ -8,6 +8,7 @@ description: You can configure the Workfront system defaults, timesheets and sch
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 8d5497fa-3432-4188-ad71-92ab91cd19fa
 ---
 # Get started with Adobe Workfront administration

@@ -4,13 +4,15 @@ description: In Adobe Maestro, you can delete custom fields that are no longer r
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: 6a54c584-2fac-4de9-8a0b-346587d29b99
+exl-id: ec48db42-2395-4439-97ae-e4f5242170b7
 ---
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Delete fields
 
 >[!IMPORTANT]
+>
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
 >
 >Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
 >
@@ -26,9 +28,13 @@ You can delete Maestro fields that are no longer relevant.
 
 ## Considerations about deleting Maestro fields:
 
-* You can delete fields that you created or fields created by other users. <!--this will change with access levels/ permissions-->
+* You can delete fields that you created or fields created by other users or by the system. <!--this will change with access levels/ permissions-->
+* You cannot delete the Name field of a record. <!--change this to say you can't delete the field selected to be the primary-->
 * You can delete a field only in the record type table. 
 * Any information stored in the field is deleted and cannot be recovered. 
+* When you delete a linked record field, all the linked lookup fields are also deleted from the record type you link from. The linked record fields of the record types you link to are not deleted. 
+
+   For more information, see [Connect record types](../architecture-and-fields/connect-record-types.md).
 <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
 ## Access requirements
@@ -89,12 +95,15 @@ You must have the following access to perform the steps in this article:
 
 <!--When they release the sharing of fields between other records, revise this section.  -->
 
-1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, <!--or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> then click **Maestro** ![](assets/maestro-icon.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available, then click **Maestro** ![](assets/maestro-icon.png).
     
     This opens the last-accessed workspace in Maestro. 
 1. Click the card of a record type whose fields you want to delete. 
 1. (Conditional) Select a **Table view** from the **View** drop-down menu in the upper-right corner of the record type page. 
 1. Find the field that you want to delete in the column headers, and hover over the column header, then click the downward-pointing arrow after the field name. 
+
+   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+   
 1. Click **Delete**. <!-- check this: they might replace it with **Delete field**-->
 
     <!--insert screen shot when finalized-->

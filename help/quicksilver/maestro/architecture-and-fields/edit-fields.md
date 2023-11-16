@@ -4,13 +4,15 @@ description: In Adobe Maestro, you can edit the field settings for fields that a
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: 93c0feed-836b-4b96-aaca-9ccb7cb6a804
+exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
 ---
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Edit fields 
 
 >[!IMPORTANT]
+>
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
 >
 >Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
 >
@@ -93,7 +95,7 @@ You must have the following access to perform the steps in this article:
 
 ## Edit fields
 
-1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> then click **Maestro** ![](assets/maestro-icon.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available, then click **Maestro** ![](assets/maestro-icon.png).
 
     The last-accessed workspace should open by default. 
 
@@ -104,8 +106,15 @@ You must have the following access to perform the steps in this article:
 
     This opens the record type's page. 
 1. (Conditional) Select a **Table view** from the **View** drop-down menu in the upper-right corner of the record type page.
-1. Hover over the column header of a field you want to edit, then click the downward-pointing arrow after the field name.
-1. Click **Edit field**, then update information about the field and click **Save**.
+1. Hover over the column header of a field you want to edit, then click the downward-pointing arrow after the field name, then click **Edit field**
+
+    Or 
+    
+    Double-click the column header for the field.
+
+    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+    
+1. Update information about the field and click **Save**.
 
     <!--insert screen shot when finalized-->
 

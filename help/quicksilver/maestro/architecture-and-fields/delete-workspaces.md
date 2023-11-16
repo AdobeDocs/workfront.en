@@ -4,13 +4,15 @@ description: You can delete workspaces when they are no longer relevant.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: b612c4d6-bfc5-420a-a20b-bc9cab6ee8bf
+exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
 ---
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Delete workspaces
 
 >[!IMPORTANT]
+>
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
 >
 >Currently, Adobe Maestro is part of a closed beta program which is open to a limited number of customers. 
 >
@@ -86,7 +88,7 @@ You must have the following access to perform the steps in this article:
 
 ## Delete a workspace
 
-1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> then click **Maestro** ![](assets/maestro-icon.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available, then click **Maestro** ![](assets/maestro-icon.png).
 
     This opens the last workspace you accessed. 
 

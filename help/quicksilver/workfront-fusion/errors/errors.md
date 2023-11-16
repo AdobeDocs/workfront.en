@@ -7,6 +7,7 @@ title: Errors in Adobe Workfront Fusion
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 author: Becky
 feature: Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 16205e28-92e3-4c90-afa5-35eb793b239b
 ---
 # Errors in Adobe Workfront Fusion

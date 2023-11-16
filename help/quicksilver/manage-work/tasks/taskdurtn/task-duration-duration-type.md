@@ -6,6 +6,7 @@ title: Task Duration and Duration Types
 description: The Duration Type of a task identifies the relationship between the number of resources assigned to a task, the total effort, and the total Duration of the task. Learn about task Duration and Duration Type in the following articles. 
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: df6cd9bc-e34f-4e84-8a1b-484a6bffe53c
 ---
 # Task Duration and Duration Types

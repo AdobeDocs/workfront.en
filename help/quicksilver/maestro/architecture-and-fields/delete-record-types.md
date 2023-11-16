@@ -4,7 +4,7 @@ description: You can delete operational record types or taxonomy record types wh
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: 50ef4ada-316e-4ca5-83fc-21a871bfeae2
+exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
 ---
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav:
 ---
@@ -22,6 +22,8 @@ hide: yes
 # Delete record types
 
 >[!IMPORTANT]
+>
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
 >
 >Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
 >
@@ -103,7 +105,7 @@ You must have the following access to perform the steps in this article:
 
 Deleting taxonomy record types is identical to deleting operational record types. 
 
-1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> then click **Maestro** ![](assets/maestro-icon.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available, then click **Maestro** ![](assets/maestro-icon.png).
 
     The last-accessed workspace should open by default. 
 

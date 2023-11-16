@@ -1,16 +1,18 @@
 ---
-title: Create record types
+title: Create operational record types
 description: Record types are the object types of Adobe Maestro. In Maestro, you can create custom record types which illustrate the work items needed in your organization's lifecycle.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: 08542d99-1fb2-4f7a-b017-b28a41c3b4c9
+exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
 ---
 <!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
-# Create record types
+# Create operational record types
 
 >[!IMPORTANT]
+>
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
 >
 >Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
 >
@@ -94,7 +96,7 @@ You must have the following access to perform the steps in this article:
         
             For information, see [Create workspaces](../architecture-and-fields/create-workspaces.md).
         * When you import them using an Excel or CSV file. This is not available for taxonomy record types. 
-        * When you create a connection to object types from another application, when adding fields to a record type. This creates a read-only record type in Maestro which is connected to object types from the original application. This is not available for taxonomy record types. 
+        * When you create a connection to object types from another application, when adding fields to a record type. This creates a read-only record type in Maestro which is connected to object types from the original application. 
 
         For information about connecting object types with Maestro records, see [Connect records](../records/connect-records.md). 
     * Manually:
@@ -115,7 +117,7 @@ This article describes how to create operational record types from scratch. Crea
 
 For more information about taxonomies, see [Create a taxonomy](../architecture-and-fields/create-a-taxonomy.md).
 
-1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, <!---or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available--> then click **Maestro** ![](assets/maestro-icon.png).
+1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available, then click **Maestro** ![](assets/maestro-icon.png).
 
     The last-accessed workspace should open by default. 
 
@@ -252,5 +254,7 @@ You can import the following objects from the following applications:
     * Projects
     * Portfolios
     * Programs
+    * Company
+    * Group
 
 For more information, see [Connect record types](../architecture-and-fields/connect-record-types.md).

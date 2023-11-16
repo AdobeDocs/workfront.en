@@ -8,6 +8,7 @@ description: As a [!DNL Workfront] administrator, you can define your work week 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: eb3e58d4-a8c6-4b5c-a045-742509f2b5c6
 ---
 # Configure schedules and timesheet preferences

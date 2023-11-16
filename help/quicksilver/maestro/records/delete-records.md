@@ -4,13 +4,14 @@ description: You can delete records that you or another user created. You cannot
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: 76373b62-f299-47cb-a6ef-6921503e06f9
+exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
 ---
 <!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
 # Delete records
 
 >[!IMPORTANT]
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
 >
 >Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
 >
@@ -81,6 +82,7 @@ You must have the following access to perform the steps in this article:
 * If the deleted records are linked to other records, the linked records are not deleted, but the information from the deleted record is also deleted. 
 * You cannot delete records in bulk. <!--this will probably change-->
 * You cannot delete records from the timeline view. 
+* You cannot delete a record type linked from another application. For example, if you link a Maestro record to a Workfront object, you cannot delete the Workfront object from the Workfront object record page. 
 
 ## Delete records
 

@@ -5,6 +5,7 @@ title: Updates to API Version 9
 description: Updated Resources
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 51892846-d93f-4363-8416-4118fb2ef84d
 ---
 # Updates to API Version 9
@@ -26,8 +27,8 @@ The following existing resources have been updated with this release of the Adob
 
 {style="table-layout:auto"}
 
-¹ Flag removed: REPORTABLE   
-² Flag removed: NOT_GROUPABLE
+<sup>1</sup> Flag removed: REPORTABLE   
+<sup>2</sup> Flag removed: NOT_GROUPABLE
 
 ### Approval
 
@@ -48,7 +49,7 @@ Assignment
 
 {style="table-layout:auto"}
 
-¹ Added field: lockToRole
+<sup>1</sup> Added field: lockToRole
 
 ### CustomerPreferences
 
@@ -58,7 +59,7 @@ Assignment
 
 {style="table-layout:auto"}
 
-¹ Changes to possibleValues
+<sup>1</sup> Changes to possibleValues
 
 ### Hour
 
@@ -114,7 +115,7 @@ Assignment
 
 {style="table-layout:auto"}
 
-¹ Flag removed: REPORTABLE
+<sup>1</sup> Flag removed: REPORTABLE
 
 ### Schedule
 

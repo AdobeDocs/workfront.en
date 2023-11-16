@@ -11,8 +11,6 @@ exl-id: bb597032-3395-4c9a-b622-5c920ba55131
 ---
 # Create and edit companies
 
-{{highlighted-preview}}
-
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
 A company is an organizational unit in [!DNL Adobe Workfront] that can represent your organization, a department within the organization, or a client you work with. You can add companies to [!DNL Workfront] and use them for financial planning, reporting purposes, to define permissions around objects, and to keep information confidential.
@@ -103,11 +101,7 @@ To add or edit a company:
         <li> <p><b>[!UICONTROL Group]</b>: If there is a group that conducts business with the company, you can add the name of the group here. This is useful for group administrators who need to report on and manage all the companies that their groups do business with.</p> <p><b>IMPORTANT</b>: If you don't associate the group that will be working with this company, administrators for the group can't access unless they have administrative access to companies in their access level. For information about how this access is granted, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">Start typing the name of the group, then press <strong>[!UICONTROL Enter]</strong> when it appears.</p> <p data-mc-conditions="SnippetConditions-wf-groups.system-level">When you assign a group to a company, the group administrators for the group gain [!UICONTROL Manage] access to the company. For more information, see <a href="#group-administrators-and-companies" class="MCXref xref">Group administrators and companies</a> in this article.</p> </li> 
         <li> <p><b>[!UICONTROL Company Members]</b>: Add existing users to the company. By doing this, you are associating these users with this company.</p> <p>There is no limit to how many users you associate with one company, but a user cannot be associated with more than one company.</p> </li> 
        </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">[!UICONTROL Billing Rates] section</td> 
-      <td> <p><span class="preview">This section has been removed in the Preview environment.</span></p><p>You can override billing rates associated with your job roles at the company level. For information about creating job roles and associating them with billing rates, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md" class="MCXref xref">Create and manage job roles</a>.</p> <p>For more information about overriding billing rates at the company level, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/override-job-role-billing-rates-company-level.md" class="MCXref xref">Override job role billing rates at the company level</a>.</p> </td> 
-     </tr> 
+     </tr>
      <tr> 
       <td role="rowheader">[!UICONTROL Custom Forms] section</td> 
       <td> <p>If there are fields that you want to add to your company that are not available in [!DNL Workfront], you can build a Custom Form and associate it with your company. You can attach this form to your company by selecting it from the drop-down menu. Only active companies are listed in the drop-down menu. For information about creating Custom Forms, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>. </p> </td> 

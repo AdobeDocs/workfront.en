@@ -76,13 +76,20 @@ You can make general comments about the timesheet.
 
 1. Click **Timesheets**.
 1. Go to the timesheet where you want to make a comment.
-1. Click **Updates** in the left panel and start entering an update.
-1. (Optional) Add people or teams in the **Notify** field to include others in your update. For more information about Workfront updates, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. Type your comment, then click **Update**.
+1. Click **Updates** in the left panel, then click the **Comments** tab.
+<!--
+1. (Optional) Start typing a keyword or a the name of a user associated with a comment in the **Search** field, in the upper-right corner of the Comments tab. 
+
+   If found, the keyword or user you searched for is highlighted and the comments associated with them display at the top of the Comments tab. -->
+1. Enter an update in the **New comment** box.
+1. (Optional) Add people or teams in the **Tag people or teams** field to include others in your update. For more information, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+1. (Optional) Add Rich Text formatting to your comment. For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Optional) Select the **Private to my company** option if you want only people from your company to view the update.
+1. Type your comment, then click **Submit**.
 
    Your comment displays in the [!UICONTROL Updates] section of the timesheet.
 
-   System-generated updates also display in this area when you enable the [!UICONTROL **Show System Updates**] setting in the Updates section. 
+1. (Optional) Click the **System Activity** tab to review system-generated updates.
 
    For more information, see the "Enable or disable system updates" section in the article [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 

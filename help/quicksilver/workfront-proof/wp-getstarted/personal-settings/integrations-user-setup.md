@@ -21,7 +21,7 @@ This is also where you can find your authentication token that allows third part
 
 Current integration points are available for the following:
 
-* Public API (1) - See our dedicated [API help page](http://api.proofhq.com/) 
+* Public API (1) - See our dedicated [API help page](https://api.proofhq.com/) 
 * [!DNL Basecamp] (2) - See our dedicated [[!DNL Basecamp]](https://support.workfront.com/hc/en-us/sections/115000911927-Basecamp) and [[!DNL Basecamp Classic]](https://support.workfront.com/hc/en-us/categories/115000588707-Basecamp-Classic) help pages
 
 * [!DNL NetSuite] (3)
