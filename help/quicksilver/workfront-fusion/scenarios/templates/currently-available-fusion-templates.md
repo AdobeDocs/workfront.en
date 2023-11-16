@@ -24,11 +24,11 @@ These templates automate Workfront processes and workflows.
 
 This automation creates new projects in Workfront based off Name, Portfolio, Status, Planned Start Date, and Template details that you specify in a CSV.
 
-###  Workfront - Cleanup Requests with no new notes in past 30 days
+### Workfront - Cleanup Requests with no new notes in past 30 days
 
 Use this template to enforce a 30 day note update on your requests. Requests not updated in 30 days get their status changed and closed at 60 days.
 
-###  Workfront - Change project Status to Complete at 100% complete.
+### Workfront - Change project Status to Complete at 100% complete.
 
 This automation updates projects to Complete status that have all tasks at 1005 complete. Projects with open issues or open tasks or project approvals will receive an update, and when resolved, the projects will move to Complete status.
 
