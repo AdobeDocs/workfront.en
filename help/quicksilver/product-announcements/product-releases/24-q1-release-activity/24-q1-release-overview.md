@@ -142,7 +142,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
            </tbody>
         </table>
 
-## Update stream and notification enhancements
+### Update stream and notification enhancements
 
 <table>
             <col style="width: 50%;" />
