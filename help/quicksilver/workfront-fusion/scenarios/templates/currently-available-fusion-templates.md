@@ -20,23 +20,23 @@ To view available templates, click the **Templates** icon ![](assets/fusion-temp
 
 These templates automate Workfront processes and workflows.
 
-### [!BADGE New!]{type=Informative}  Workfront - Project Creation from CSV
+### Workfront - Project Creation from CSV
 
 This automation creates new projects in Workfront based off Name, Portfolio, Status, Planned Start Date, and Template details that you specify in a CSV.
 
-### [!BADGE New!]{type=Informative} Workfront - Cleanup Requests with no new notes in past 30 days
+###  Workfront - Cleanup Requests with no new notes in past 30 days
 
 Use this template to enforce a 30 day note update on your requests. Requests not updated in 30 days get their status changed and closed at 60 days.
 
-### [!BADGE New!]{type=Informative} Workfront - Change project Status to Complete at 100% complete.
+###  Workfront - Change project Status to Complete at 100% complete.
 
 This automation updates projects to Complete status that have all tasks at 1005 complete. Projects with open issues or open tasks or project approvals will receive an update, and when resolved, the projects will move to Complete status.
 
-### [!BADGE New!]{type=Informative} Workfront - Warn and attempt to close stale projects
+### Workfront - Warn and attempt to close stale projects
 
 Use this scenario to help automate the warning on and closure of projects that meet your organization's stale project policy.
 
-### [!BADGE New!]{type=Informative} Workfront - Copy new notes and replies from source issue/request to already converted project or task
+### Workfront - Copy new notes and replies from source issue/request to already converted project or task
 
 Use this template to copy notes and replies from an issue or request to an already converted project or task.
 
@@ -51,6 +51,10 @@ This automation watches for new projects in portfolios with custom forms. It the
 ### Workfront - Convert approved issue to project
 
 This template converts Issues to Projects. You can modify it to meet your organization's standards.
+
+### [!BADGE New!]{type=Informative} Workfront - Copy documents from issues/requests to already converted projects or tasks
+
+This flexible scenario copies documents from issues or requests to previously converted projects or tasks.
 
 ### Tailored Notification Based on Field Change
 
@@ -96,7 +100,7 @@ These templates retrieve information from a web service, and bring that informat
 >
 > You must have a Workfront Fusion for Work Automation and Integration license to use templates in this section.
 
-### [!BADGE New!]{type=Informative} Establishing Connection using JWT (JSON Web Token)
+### Establishing Connection using JWT (JSON Web Token)
 
 Establish JWT Authorization for a client API.
 
@@ -132,7 +136,7 @@ These templates connect Workfront and SharePoint.
 >
 > You must have a Workfront Fusion for Work Automation and Integration license to use templates in this section.
 
-### [!BADGE New!]{type=Informative} Watch SharePoint Folder Changes
+### Watch SharePoint Folder Changes
 
 This template allows you to see if there is a change in a SharePoint folder.
 
