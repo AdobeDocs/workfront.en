@@ -10,19 +10,24 @@ exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
 ---
 # New commenting experience
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 
-<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> -->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.  </span>  
+
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+
+<!--
+
+After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  -->
 
 >[!IMPORTANT]
 >
->The information in this article refers to features that were released during the beta phase for the new commenting experience. 
+>The information in this article refers to features that have been released to the new commenting experience. 
 >
->The beta program for the new commenting experience started in April 2023 and ended in October 2023.
+>The beta program for the new commenting experience started in April 2023 and ended in October 2023. The beta program for the new commenting experience closed with the October 2023 release. 
 >
->The features released during the beta period have been made available to all customers starting with the Fourth Quarter release of 2023 (October 2023) and the beta program has closed. 
+>The features described in this article were released to all customers in October 2023, unless otherwise specified. 
 
 <!--An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
 
@@ -388,13 +393,13 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> 
    </td>
-   <td> 
+   <td> <span class="preview">✓</span>
    </td>
    <td> 
    </td>
    <td>Q1, 2024 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
 
@@ -403,13 +408,13 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> 
    </td>
-   <td> 
+   <td> <span class="preview">✓</span>
    </td>
    <td> 
    </td>
    <td>Q1, 2024 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
 
@@ -502,14 +507,14 @@ Depending on what objects you access the commenting experience for, you might se
 
 * Both the new and legacy commenting experience for the following objects: 
 
-      * Project
-      * Task (this includes Stories)
-      * Issue
-      * Document
+    * Project
+    * Task (this includes Stories)
+    * Issue
+    * Document
 
-      >[!TIP]
-      >
-      >Use the New commenting option to display the new commenting experience (when you enable it) or the legacy commenting experience (when you disable it), as described in this section. The new commenting experience is the default. 
+    >[!TIP]
+    >
+    >Use the New commenting option to display the new commenting experience (when you enable it) or the legacy commenting experience (when you disable it), as described in this section. The new commenting experience is the default. 
 
   * Only the new commenting experience for the objects listed below. There is no option to enable the legacy commenting experience for these objects:   
 
