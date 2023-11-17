@@ -152,5 +152,5 @@ Consider the following when sharing permissions to Maestro:
 For information about sharing the Maestro area with users or sharing permissions to Maestro workspaces, see the following articles:
 
    * [Overview of sharing permissions in Adobe Maestro](../access/sharing-permissions-overview.md)
-   * [Grant access to Adobe Maestro](../access/grant-access.md)
+   * [Grant access to Adobe Maestro](../access/grant-access.md) -->
 
