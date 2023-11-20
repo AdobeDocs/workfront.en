@@ -11,7 +11,11 @@ exl-id: 6d9a409d-8d16-4c58-ad02-f60aa1ac1714
 ---
 # Deactivate or reactivate a custom form
 
-You can reactivate or deactivate a custom form. We recommend deactivating custom forms rather than deleting forms you no longer use to retain historical data. 
+You can reactivate or deactivate a custom form. We recommend deactivating custom forms rather than deleting forms you no longer use to retain historical data.
+
+>[!NOTE]
+>
+>If a custom form is deactivated but is still part of a queue topic or request queue definition, it will be attached to new requests. If you do not want the form to be on the requests, you must manually remove it from the request queue.
 
 ## Access requirements
 
