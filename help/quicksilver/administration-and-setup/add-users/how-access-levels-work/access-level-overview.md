@@ -251,6 +251,7 @@ Attached to the Contributor license, this access level is designed for users who
 * Submit requests
 * Track requests
 * Update and review requests
+* Approve requests
 
 Users with this built-in access level:
 
