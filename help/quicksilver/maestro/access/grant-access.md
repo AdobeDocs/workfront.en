@@ -80,10 +80,10 @@ To share a workspace with others:
 ## Remove permissions to a workspace
 
 1. Click the **Main Menu** icon ![](assets/dots-main-menu.png) in the upper-right or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **Maestro**.
-1. Open the workspace you want to share, then click **Share** in the upper-right corner of the screen. (********add screen shot when UI is finalized and maybe edit the steps???****)
-1. Click the drop-down menu at the right of a user or group name, then click **Remove**. 
-    
-    The user or the users that belong to the group removed no longer have access to the workspace or its objects. 
+1. Open the workspace you want to remove permissions to, then click **Share** in the upper-right corner of the screen. (********add screen shot when UI is finalized and maybe edit the steps???****)
+1. Click the drop-down menu to the right of a user or group name, then click **Remove**. 
 1. Click **Save**.
+
+    The user or the users that belong to the group removed no longer have access to the workspace or its objects. 
 
 -->

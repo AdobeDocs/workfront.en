@@ -33,13 +33,13 @@ role: User
 
 In Adobe Maestro, a workspace is a collection of operational record types and taxonomies used by a team and represents the team's work lifecycle. 
 
-Maestro comes with a set of templates to get you started with basic record types, taxonomies, and fields when you are building your workspace. For information about creating workspaces, see [Create workspaces](../architecture-and-fields/create-workspaces.md). 
+Maestro comes with a set of templates to get you started with basic record types, taxonomies, and fields when you are building your workspace. For information about creating workspaces, see [Create workspaces](../architecture/create-workspaces.md). 
 
 This article describes the workspace templates available in Maestro. 
 
 ## Considerations about Maestro templates
 
-* Each template comes with a set of operational record types and taxonomies. For information, see [Overview of record types and taxonomies](../architecture-and-fields/overview-of-record-types-and-taxonomies.md).
+* Each template comes with a set of operational record types and taxonomies. For information, see [Overview of record types and taxonomies](../architecture/overview-of-record-types-and-taxonomies.md).
 * Each operational record type and taxonomy comes with a set of fields. Some of these fields are connections to other Maestro record types. 
 * You can customize any template.
 

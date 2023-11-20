@@ -93,8 +93,8 @@ You must have the following access to perform the steps in this article:
 You can create records in the table view of a record type page. 
 
 1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner, or the **Main Menu** icon ![](assets/main-menu-shell.png) in the upper-left corner, if available, then click **Maestro** ![](assets/maestro-icon.png). 
-    The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture-and-fields/create-workspaces.md).
-1. Click a record type card. For information about creating a record type, see [Create record types](../architecture-and-fields/create-record-types.md). 
+    The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture/create-workspaces.md).
+1. Click a record type card. For information about creating a record type, see [Create record types](../architecture/create-record-types.md). 
 
     The record type page opens in the view that you last accessed. By default, a record type page opens in the table view. 
     All the records of the selected type display in the table view. 
@@ -123,7 +123,7 @@ You can create records in the table view of a record type page.
 
 You can import records from other applications by linking them to Maestro linked records. 
 
-1. Create a Maestro record type, as described in the [Create record types](../architecture-and-fields/create-record-types.md).
+1. Create a Maestro record type, as described in the [Create record types](../architecture/create-record-types.md).
 
 1. Create Maestro records for the record type you created in the previous step. For information, see the section [Create records by manually adding them to a record type](#create-records-by-manually-adding-them-to-a-record-type) in this article. 
 

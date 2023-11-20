@@ -32,7 +32,7 @@ hide: yes
 >
 >For information, see [Adobe Maestro overview](../maestro-overview.md).
 
-Record types are the object types of Adobe Maestro. You can edit the appearance of record types that you or anyone else created. For information about creating Maestro record types, see [Create record types](../architecture-and-fields/create-record-types.md). 
+Record types are the object types of Adobe Maestro. You can edit the appearance of record types that you or anyone else created. For information about creating Maestro record types, see [Create record types](../architecture/create-record-types.md). 
 
 ## Access requirements
 

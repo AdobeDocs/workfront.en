@@ -24,7 +24,7 @@ Taxonomies are record types that capture attributes about operational record typ
 
 For example, Campaign can be an operational record type. The following are taxonomies which capture attributes about the Campaign record type: Region, Audience, Country. 
 
-For more information about Maestro record types, see [Overview of record types and taxonomies](../architecture-and-fields/overview-of-record-types-and-taxonomies.md). 
+For more information about Maestro record types, see [Overview of record types and taxonomies](../architecture/overview-of-record-types-and-taxonomies.md). 
 
 ## Access requirements
 
@@ -87,9 +87,9 @@ You must have the following access to perform the steps in this article:
 
 * You must create a workspace before you can create taxonomies in the workspace. 
 
-  For information about workspaces, see [Create workspaces](../architecture-and-fields/create-workspaces.md).  
+  For information about workspaces, see [Create workspaces](../architecture/create-workspaces.md).  
 * You can create a taxonomy record type by doing one of the following:
-   * Create them automatically when you create a workspace using a template. For information, see [Create workspaces](../architecture-and-fields/create-workspaces.md).
+   * Create them automatically when you create a workspace using a template. For information, see [Create workspaces](../architecture/create-workspaces.md).
    * Create them manually, from scratch.  
    * Create them manually, by pasting information from an external list. 
 
@@ -111,6 +111,6 @@ You must have the following access to perform the steps in this article:
 
 Creating taxonomies is similar to creating an operational record type from scratch or from a workspace template. 
 
-For information, see the section "Create a record type from scratch" in the article [Create record types](../architecture-and-fields/create-record-types.md). 
+For information, see the section "Create a record type from scratch" in the article [Create record types](../architecture/create-record-types.md). 
 
-For information about automatically creating taxonomies when creating a workspace from a template, see [Create workspaces](../architecture-and-fields/create-workspaces.md).
+For information about automatically creating taxonomies when creating a workspace from a template, see [Create workspaces](../architecture/create-workspaces.md).

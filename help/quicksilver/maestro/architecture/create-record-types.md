@@ -27,7 +27,7 @@ Record types can be one of the following:
 * **Operational record types**
 * **Taxonomies**
 
-For more information about Maestro record types, see [Overview of record types and taxonomies](../architecture-and-fields/overview-of-record-types-and-taxonomies.md).
+For more information about Maestro record types, see [Overview of record types and taxonomies](../architecture/overview-of-record-types-and-taxonomies.md).
 
 Creating operational record types is similar to creating taxonomy record types. This article describes how you create operational record types. 
 
@@ -94,7 +94,7 @@ You must have the following access to perform the steps in this article:
     * Automatically: 
         * When you create a workspace using a template. 
         
-            For information, see [Create workspaces](../architecture-and-fields/create-workspaces.md).
+            For information, see [Create workspaces](../architecture/create-workspaces.md).
         * When you import them using an Excel or CSV file. This is not available for taxonomy record types. 
         * When you create a connection to object types from another application, when adding fields to a record type. This creates a read-only record type in Maestro which is connected to object types from the original application. 
 
@@ -107,9 +107,9 @@ You must have the following access to perform the steps in this article:
 
 You can create record types automatically when you create a workspace using a template. Each Maestro template contains sample operational and taxonomy record types. 
 
-For information about creating workspaces, see [Create workspaces](../architecture-and-fields/create-workspaces.md).
+For information about creating workspaces, see [Create workspaces](../architecture/create-workspaces.md).
 
-For information about what record types are included with each template, see [List of workspace templates](../architecture-and-fields/workspace-templates.md). 
+For information about what record types are included with each template, see [List of workspace templates](../architecture/workspace-templates.md). 
 
 ## Create a record type from scratch
 

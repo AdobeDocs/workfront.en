@@ -28,7 +28,9 @@ recommendations: noDisplay, noCatalog
 >
 >For information, see [Adobe Maestro overview](../maestro-overview.md). 
 
-You can create calculated fields in Adobe Maestro where the values are calculated automatically, rather than manually. Formula fields generate a new value using existing values from other fields in a record type and a function that indicates how the existing values should be calculated. 
+You can create calculated fields in Adobe Maestro where the values are calculated automatically, rather than manually, by creating Formula-type fields. For information, see [Create fields](../fields/create-fields.md). 
+
+Formula fields generate a new value using existing values from other fields in a record type and a function that indicates how the existing values should be calculated. 
 
 ## Access requirements
 
@@ -73,20 +75,20 @@ You must have the following access to perform the steps in this article:
  </tbody>
 </table>
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
 <!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
 <p>Current plan: Prime and Ultimate</p>
 <p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>--> 
 
 ## Considerations about formula fields
 
 * Formula fields reference fields that belong to the same record type. You cannot reference fields from other record types when creating a formula field. <!--is this still accurate??-->
 * You cannot change the Field type of a Formula field after you saved it. 
 * You can update the calculation of a formula field after you save it, and the results of the calculation update automatically for all the records of the same type. 
-* For more information about Maestro fields, see [Create fields](../fields/create-fields.md). 
+
+
+<!--
+## The syntax of Maestro formula fields
+
+## Functions supported in Maestro formula fields - I think this should be its own article, but link from here. 
+
+-->

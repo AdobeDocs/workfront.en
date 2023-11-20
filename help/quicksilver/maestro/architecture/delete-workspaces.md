@@ -20,7 +20,7 @@ exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
 >
 >For information, see [Adobe Maestro overview](../maestro-overview.md).
 
-In Adobe Maestro, workspaces are centralized locations for teams to plan work. For more information, see [Create workspaces](../architecture-and-fields/create-workspaces.md). 
+In Adobe Maestro, workspaces are centralized locations for teams to plan work. For more information, see [Create workspaces](../architecture/delete-workspaces.md). 
 
 You can delete workspaces that are no longer relevant. 
 

@@ -90,6 +90,10 @@ You can add new fields in Adobe Maestro that reflect your organization's lifecyc
 
         * When you create a workspace from a template. Maestro creates fields for operational record types and taxonomies when you create a workspace from a template. For information, see [Create workspaces](../architecture/create-workspaces.md). 
 
+* Maestro fields are not accessible from Workfront. 
+
+* Workfront fields are accessible from Maestro only when you connect Maestro record types with Workfront object types and add linked or lookup fields from Workfront objects. For information, see [Connect record types](../architecture/connect-record-types.md).  
+
 * You can view and update the settings for the fields that you or any other user created. <!--this will change with access/ permissions-->
 
 * You can have up to 500 fields for one record type.

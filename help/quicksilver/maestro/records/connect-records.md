@@ -137,8 +137,8 @@ You must have the following access to perform the steps in this article:
   * Workfront objects. For example, you must first create projects, portfolios, programs, companies, or groups in Workfront.
   * Maestro workspaces, record types, and records. For more information, see the following articles:
 
-    * [Create workspaces](../architecture-and-fields/create-workspaces.md)
-    * [Create record types](../architecture-and-fields/create-record-types.md)
+    * [Create workspaces](../architecture/create-workspaces.md)
+    * [Create record types](../architecture/create-record-types.md)
     * [Create records](../records/create-records.md)
 
   * Connections between record types, or between record types and objects from other applications. For information, see [Connect record types](../architecture-and-fields/connect-record-types.md). 

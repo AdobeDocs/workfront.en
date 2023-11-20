@@ -105,7 +105,7 @@ You must have the following access to perform the steps in this article:
 
     ![](assets/previewing-a-workspace-template.png)
 
-    For information about Maestro workspace templates, see [List of workspace templates](../architecture-and-fields/workspace-templates.md).
+    For information about Maestro workspace templates, see [List of workspace templates](../architecture/workspace-templates.md).
 
 1. Click **Use template** to start creating the workspace from the selected template
 
@@ -126,7 +126,7 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) Click **Add record type** to add record types to the workspace.
     
-    For information, see [Create record types](../architecture-and-fields/create-record-types.md).
+    For information, see [Create record types](../architecture/create-record-types.md).
 
 1. (Optional) Click **Add taxonomy** to add taxonomies to the workspace. 
 

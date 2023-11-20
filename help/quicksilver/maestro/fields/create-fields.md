@@ -37,7 +37,7 @@ recommendations: noDisplay, noCatalog
 
 In Adobe Maestro, you can create custom fields for operational record types or taxonomies. You can then associate the fields with Maestro records to enhance record information. 
 
-You must create record types before you can create fields to associate with them. For information, see [Create record types](../architecture-and-fields/create-record-types.md). 
+You must create record types before you can create fields to associate with them. For information, see [Create record types](../architecture/create-record-types.md). 
 
 You can create fields in the following ways in Maestro:
 
@@ -472,14 +472,14 @@ For information about connecting Maestro record types, see [Connect record types
 
 ## Create fields by importing record types using an Excel and CSV file
 
-For more information, see [Create record types](../architecture-and-fields/create-record-types.md). 
+For more information, see [Create record types](../architecture/create-record-types.md). 
 
 ## Create fields by creating a record type
 
-When you create a record type, several fields associated with the new record type are also created by default. For more information, see [Create record types](../architecture-and-fields/create-record-types.md). 
+When you create a record type, several fields associated with the new record type are also created by default. For more information, see [Create record types](../architecture/create-record-types.md). 
 
 ## Create fields by creating a workspace from a template
 
 Maestro creates fields for operational record types and taxonomies when you create a workspace from a template. 
 
-For information, see [Create workspaces](../architecture-and-fields/create-workspaces.md).
+For information, see [Create workspaces](../architecture/create-workspaces.md).
