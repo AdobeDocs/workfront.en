@@ -58,13 +58,17 @@ You must have the following access to perform the steps in this article:
 
       ![Select_proof_by_selecting_light_blue_background.png](assets/select-proof-by-selecting-light-blue-background-350x52.png)
 
+
    1. In the **Add new** drop-down, click **Version** > **Proof**.
 
-1. In the **Add files** section, type the URL of the website you want to proof, then press **Enter**.
+1. In the **Add files** section, type the URL of the website you want to proof, then press **Enter**.  You can repeat this process to add multiple websites to be proofed.
 
    ![proof_website.png](assets/proof-website-350x65.png)
 
-   You can repeat this process to add multiple websites to be proofed.
+  
+   >[!NOTE]
+   >
+   > The URL must be less than 1,000 characters.
 
 1. Click the URL you have added.
 

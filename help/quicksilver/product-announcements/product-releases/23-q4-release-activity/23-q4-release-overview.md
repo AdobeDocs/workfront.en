@@ -141,7 +141,7 @@ The 23.10 release webinar was on October 5, 2023. You can [register for the webi
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Subtasks now available on Adobe Workfront Boards</a> <span style="color: #ff0000; font-weight: bold;">(Temporarily unavailable as of November 7, 2023)</span></p><p>[!BADGE In production ]{type=Informative}</p><p>When you add a connected card to a board for a Workfront task, any existing subtasks are imported onto the card. Also, when you create a subtask on a connected card, a subtask is added to the Workfront task.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Subtasks now available on Adobe Workfront Boards</a></p><p>[!BADGE In production ]{type=Informative}</p><p>When you add a connected card to a board for a Workfront task, any existing subtasks are imported onto the card. Also, when you create a subtask on a connected card, a subtask is added to the Workfront task.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>

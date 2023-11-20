@@ -15,7 +15,9 @@ feature-set: Workfront
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
     * 2024 Q1 Release {#release-24-q1}
       * [2024 Q1 Release overview](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
+      * [First Quarter 2024 Document management enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md)
       * [2024 Q1 Integration enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md)
+      * [First Quarter 2024 Update stream and notification enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md)
     * 2023 Q4 Release {#release-23-q4}
       * [2023 Q4 Release overview](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
       * [2023 Q4 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md)
@@ -132,6 +134,7 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+      * [Workfront Fusion release activity: Week of November 13, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-14.md)
       * [Workfront Fusion release activity: Week of October 30, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-10-26.md)
       * [Workfront Fusion release activity: Week of September 1, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-9-1.md)
       * [Workfront Fusion release activity: Week of August 21, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-8-21.md)
@@ -1768,6 +1771,7 @@ feature-set: Workfront
       * [Create a document approval](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
       * [Add additional reviewers or approvers to a document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
       * [Remove approvers or reviewers from a document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+      * [Document approval status](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
     * Review and approve documents {#review-and-approve-documents}
       * [Review and approve documents](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md)
       * [Review a document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
@@ -2006,6 +2010,7 @@ feature-set: Workfront
   * Adobe Maestro access {#adobe-maestro-access}
     * [Access information](maestro/access/access-information.md)
     * [Access overview](maestro/access/access-overview.md)
+    * [Overview of sharing permissions in Adobe Maestro](maestro/access/sharing-permissions-overview.md)
     * [Grant access to Adobe Maestro](maestro/access/grant-access.md)
   * Adobe Maestro records {#adobe-maestro-records}
     * [Records information](maestro/records/records-information.md) 

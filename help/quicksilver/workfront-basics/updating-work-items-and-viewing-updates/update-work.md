@@ -9,16 +9,15 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 ---
 # Update work
 
+<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
-<!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> 
 
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
-
-<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
-
 -->
 
 >[!IMPORTANT]
@@ -32,7 +31,7 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 >
 >For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
->The new commenting experience is available only for the Updates section of Workfront objects, and it is not available when you access the objects from the following areas:
+>The new commenting experience is available only for the Updates section of Workfront objects, and it is not available when you access updates from the following areas:
 >
 > * Home
 > * Summary panel in lists
@@ -76,7 +75,7 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 
 * You can add comments to Workfront objects from other applications that are integrated with Workfront or from the Workfront mobile app. 
 
-   Not all applications that are integrated with Workfront have the capability of adding comments to Workfront objects. 
+   Not all applications that are integrated with Workfront can add comments to Workfront objects. 
    
    Not all features that are available in the Updates section of an object in Workfront are available in other applications, when accessing Workfront objects from the application. For example, Rich Text capabilities or making a comment private to someone's Company might not be available when adding comments to a Workfront object from a third-party application. 
 
@@ -227,7 +226,7 @@ Adding an update to a work item differs depending on what version of the Updates
 
    >[!NOTE]
    >
-   >A small pop-up window will appear for seven seconds after clicking **Update**, allowing you to undo the update and return to the editing pane before the update is posted. The update will be posted if you dismiss the undo pop-up, wait for it to disappear, or navigate away from the page. 
+   >A small pop-up window will appear for seven seconds after clicking **Update**, allowing you to undo the update and return to the editing pane before the update is posted. The update is posted if you dismiss the undo pop-up, wait for it to disappear, or navigate away from the page. 
    >
    >If your Workfront administrator selects the "Never allow users to delete comments" setting in your access level, you cannot undo a comment. For more information, see [Create and modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -256,7 +255,7 @@ Adding an update to a work item differs depending on what version of the Updates
 
       >[!TIP]
       >
-      >If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. 
+      >If another user submits a comment to the same item you are updating, there is a red line with a "New" indicator to inform you of the newer comments. 
       >
       >The indicator displays only after the comment was submitted on the item, and not when the comment is still composed. 
       >
@@ -283,7 +282,7 @@ Adding an update to a work item differs depending on what version of the Updates
    >
    >* An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.
    >* The date stamp next to the comment is the date of the original comment, not the date of the last edit. 
-   >* When you post a comment on behalf of another user (when logging in as another user as a Workfront or group administrator), you cannot edit the comment if you are logged in as the other user. You can edit the comment only after you log out as the user and log back in as yourself.  
+   >* When you add a comment on behalf of another user (when logging in as another user as a Workfront or group administrator), you cannot edit the comment if you are logged in as the other user. You can edit the comment only after you log out as the user and log back in as yourself.  
      
 
 1. (Optional) Click **Reply** or start typing a comment in the **Add reply ...** area, to reply to an existing comment, then follow the steps 4-8 above. <!--(**************insure this stays accurate***********)--> For information about replying to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).  
@@ -384,13 +383,18 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
    1. Under **Text to display**, type or paste the link text.
    1. Click **Save**.
 
-1. (Optional) To attach an image to your update, click the **Add image** icon ![](assets/add-image-mountain-with-plus-icon.png) and browse to the image on your computer, when using the new commenting experience. 
+1. (Optional) <span class="preview">To attach an image to your update, copy a screenshot from your computer, then paste it in the comment </span> 
+   
+   Or 
+   
+   Click the **Add image** icon ![](assets/add-image-mountain-with-plus-icon.png) and browse to the image on your computer. 
 
    >[!NOTE]
    >
    >* Your Workfront administrator must enable adding images in the Update Feeds Preferences section of the Workfront Interface area before you can see the Image or the Add attachment icons. For information, see [Configure preferences for user updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md). 
    >* The maximum image file size is 7 MB. Supported image file types are .jpg, .gif, and .png.
-   >* Images are accessible from the Updates section on an object and they are also available in the Documents area. 
+   >* Images are accessible from the Updates section on an object and they are also available in the Documents area under the Main Menu. 
+   >* <span class="preview">You can paste the image by right-clicking in the new comment, or by pressing CTRL + V for Windows (or CMD + V for Mac) on your keyboard.</span> 
    >* You can send an update with an image and no text.
    >* When you delete a comment that contains an image, the following scenarios exist depending on which experience you choose: 
    >
@@ -402,6 +406,32 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
   
 1. Click **Submit** to add your comment. 
 
+<div class="preview">
+
+## Search for an update
+
+>[!NOTE]
+>
+>This functionality is available only for the Comments tab in the new comment experience. This is not available for the System Activity tab of the Updates section. 
+
+You can search for a comment or a reply in the Updates section of an object. 
+
+1. Go to the **Updates** section of an object.
+1. Start typing a keyword <!--or a user's name --> in the **Search** box in the upper-right corner of the **Comments** tab. 
+
+    <!--Add this tip when it'll be possible: You can search for users who have been tagged or for comment owners.-->
+
+      ![](assets/search-field-in-updates-tab.png)
+
+      The keyword <!--or user--> you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
+   
+      Workfront searches the entire update stream of the object, outside the comments that are visible on the screen. 
+
+1. Click the **x** icon in the search field to clear the search results and return to all comments.
+
+</div>
+
+<!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 
 ## Copy update information
 
