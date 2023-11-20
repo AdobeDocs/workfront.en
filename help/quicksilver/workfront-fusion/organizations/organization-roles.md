@@ -21,10 +21,6 @@ This article describes the access and functionality available to the different t
 
 You must have the following access to use the functionality in this article:
 
-<## Access requirements
-
-You must have the following access to use the functionality in this article:
-
 <table style="table-layout:auto">
  <col> 
  <col> 
@@ -100,7 +96,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Delete organizations</p> </td> 
+   <td> <p>Delete organization</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
    <td> </td> 
    <td> </td> 
@@ -116,7 +112,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
   <tr> 
    <td> <p>Manage organization users</p> </td> 
    <td><span style="font-family: 'Wingdings'">ü</span> </td> 
-   <td> </td> 
+   <td><span style="font-family: 'Wingdings'">ü</span></td> 
    <td> </td> 
    <td> </td> 
   </tr> 
