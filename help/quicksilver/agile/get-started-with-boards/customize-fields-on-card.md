@@ -92,3 +92,19 @@ The data on custom fields is editable on the card, though certain custom element
 >[!NOTE]
 >
 >If you later rename the custom field in Workfront, you must edit the field label on the Configure panel to match, or the field will not display on the cards.
+
+## Display or hide archived cards
+
+You must turn on a configuration setting to display archived cards on a board.
+
+1. Access a board and click [!UICONTROL **Configure**] to open the Configure panel.
+1. Expand [!UICONTROL **Cards**].
+1. Turn on [!UICONTROL **Display archived cards on the board**].
+
+   Now, you can filter the board to show any cards that have been archived. For details, see [Filter and search in a board](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+
+1. Click [!UICONTROL **Hide configure**] to close the Configure panel.
+
+## Configure card falloff
+
+To automatically remove cards from the board after a period of time, see [Configure card falloff](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
