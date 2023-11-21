@@ -31,28 +31,31 @@ This section lists the features and patches that have been released after the la
 The features are released weekly and are listed in the order of their release, with the most recent first. Customers who are participating in the Maestro closed beta program can access all features in their Preview and Production environments.
 
 <!--
-## Week of November 13, 2023
+## Week of November 27, 2023
 
 ### Maestro permissions for users and groups
 
-Preview and production: November 16, 2023
+Production: November 28, 2023
 
-You can now share a workspace with users and groups and set their permissions to different levels, depending on what information they need to view or edit in a Maestro workspace.  
+>[!IMPORTANT]
+>
+>This functionality is not yet available in Preview.
+
+You can now share a workspace with users and groups. You can set their permissions to different levels, depending on what information they need to view or edit in a Maestro workspace. After you share permissions to a workspace, users have permissions to the record types, records, and fields in that space.
 
 The following are the permissions levels for Maestro workspaces:  
 
-No permissions: Users cannot access any workspaces in Maestro, even if the Maestro area is shared with them through a layout template. 
+* None: Users cannot access any workspaces in Maestro, even if the Maestro area is shared with them through a layout template. 
 
-View permissions: Users can view workspaces that are shared with them. They can also view record types, and records from the shared workspace. 
+* View: Users can view workspaces that are shared with them. They can also view record types, and records from the shared workspace. 
 
-Contribute permissions: Users can create, edit, or delete records in the workspace that is shared with them.  They cannot create or edit record types or workspaces ones shared with them.  
+* Contribute: Users can create, edit, or delete records in the workspace that is shared with them.  They cannot create or edit record types or workspaces ones shared with them.  
 
-Manage permissions: Users can create, edit, and delete record types, records, and fields in workspaces that are shared with them. They cannot create workspaces.  
+* Manage: Users can create, edit, and delete record types, records, and fields in workspaces that are shared with them. They cannot create workspaces.  
 
-Only Workfront administrators can create, edit, or delete workspaces and all information associated with them. They also can add users and groups with various permission levels to Maestro workspaces.  
- 
+Only Workfront administrators can create, edit, or delete workspaces and all information associated with them.  
 
-For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md). -->
+For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
 
 ## Week of November 6, 2023
 
