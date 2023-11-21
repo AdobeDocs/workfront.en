@@ -24,9 +24,9 @@ hide: yes
 
 >[!IMPORTANT]
 >
->The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
 >
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
+>Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use Maestro capabilities.
 >
 >Contact your account representative for more information about joining the beta program for Maestro.
 >
@@ -36,9 +36,9 @@ You can connect Adobe Maestro records to one another or to objects from other ap
 
 You must first connect two record types together or a record type to an object type from another application, and then you can use the Table view of the record type to connect records to one another or records to other objects. 
 
-For information about connecting record types to one another or to object types from other applications, see [Connect record types](../architecture-and-fields/connect-record-types.md).
+For information about connecting record types to one another or to object types from other applications, see [Connect record types](../architecture/connect-record-types.md). 
 
-For an example of connecting record types, see [Example of connecting record types and records](../architecture-and-fields/example-connect-record-types-and-records.md).
+For an example of connecting record types, see [Example of connecting record types and records](../architecture/example-connect-record-types-and-records.md).
 
 You can connect the following: 
 
@@ -107,6 +107,61 @@ You must have the following access to perform the steps in this article:
  </tbody>
 </table>
 
+<!--
+After permssions - replace the table with: 
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Adobe product</p> </td>
+   <td>
+   <p> Adobe Workfront</p> </td>
+  </tr>  
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
+   <td>
+<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
+   <td>
+<p>Any</p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td>
+   <p>Any</p> 
+  </td>
+  </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level</p></td>
+   <td> <p>Any</p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+</td>
+  </tr>
+ </tbody>
+</table>
+
+-->
+
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -137,11 +192,11 @@ You must have the following access to perform the steps in this article:
   * Workfront objects. For example, you must first create projects, portfolios, programs, companies, or groups in Workfront.
   * Maestro workspaces, record types, and records. For more information, see the following articles:
 
-    * [Create workspaces](../architecture-and-fields/create-workspaces.md)
-    * [Create record types](../architecture-and-fields/create-record-types.md)
+    * [Create workspaces](../architecture/create-workspaces.md)
+    * [Create record types](../architecture/create-record-types.md)
     * [Create records](../records/create-records.md)
 
-  * Connections between record types, or between record types and objects from other applications. For information, see [Connect record types](../architecture-and-fields/connect-record-types.md). 
+  * Connections between record types, or between record types and objects from other applications. For information, see [Connect record types](../architecture/connect-record-types.md)
   
 ### Connect Maestro records
 
@@ -152,7 +207,7 @@ You must have the following access to perform the steps in this article:
 1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to connect records from.
 1. Click the card of a record type to open the record type page. 
 1. Select a **Table** view from the **View** drop-down menu in the upper-right corner of the record type page. 
-1. Add a connection to another record or object type from the selected record type. For information, see [Connect record types](../architecture-and-fields/connect-record-types.md). 
+1. Add a connection to another record or object type from the selected record type. For information, see [Connect record types](../architecture/connect-record-types.md). 
 
    A new column is added to the table to display the linked record type. 
 
@@ -210,7 +265,7 @@ After you created a connection between a Maestro record type and a Workfront obj
     * Company
     * Group
 
-    For more information, see [Connect record types](../architecture-and-fields/connect-record-types.md).
+    For more information, see [Connect record types](../architecture/connect-record-types.md). 
 
     A new column is added to the table to display the linked object type. 
 

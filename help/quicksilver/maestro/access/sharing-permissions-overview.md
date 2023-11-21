@@ -9,6 +9,8 @@ recommendations: noDisplay, noCatalog
 
 <!--over time, this article should look like this one does: https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
 
+<!-- *********add to TOC****************-->
+
 # Overview of sharing permissions in Adobe Maestro
 
 You can share or remove permissions to a Adobe Maestro workspace you created. Only Workfront administrators can create and share workspaces. 
@@ -29,7 +31,7 @@ You can share the following objects in Maestro:
 
 * Workspaces
 
-    Sharing workspaces shares all the record types, records, and fields associated with the workspaces. 
+    When you share a workspace, all record types, records, and fields associated with the workspaces are also shared. 
 
 ## Considerations about sharing objects in Maestro
 
@@ -40,7 +42,7 @@ You can share the following objects in Maestro:
     * Users
     * Groups
 
-## Share permissions for Maestro objects
+## Sharing permissions for Maestro objects
 
 The following table illustrates the level of permissions that you can select when sharing a Maestro workspace: 
 
@@ -48,9 +50,14 @@ The following table illustrates the level of permissions that you can select whe
  <col> 
  <col> 
  <tbody> 
+ <tr> 
+   <td role="rowheader"><p><b>Permission level</b></p></td> 
+   <td> <p><b>Actions you can perform</b></p> 
+    </td> 
+  </tr> 
   <tr> 
-   <td role="rowheader">View</td> 
-   <td> <p>You can perform the following actions:</p> 
+   <td role="rowheader"><p>View</p></td> 
+   <td> 
     <ul> 
      <li>View the workspace</li> 
      <li>View all record types in the workspace</li> 
@@ -59,8 +66,8 @@ The following table illustrates the level of permissions that you can select whe
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Contribute</td> 
-   <td> <p>You can perform the following actions:</p> 
+   <td role="rowheader"><p>Contribute</p></td> 
+   <td>  
     <ul> 
      <li>All the actions included with the View permission</li> 
      <li>Add records</li>
@@ -71,8 +78,8 @@ The following table illustrates the level of permissions that you can select whe
      </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Manage</td> 
-   <td> <p>You can perform the following actions:</p> 
+   <td role="rowheader"><p>Manage</p></td> 
+   <td> 
     <ul> 
      <li>All the actions included with the View and Contribute permissions</li> 
      <li>Edit record types</li> 
@@ -84,7 +91,7 @@ The following table illustrates the level of permissions that you can select whe
      </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront administrators</td> 
+   <td role="rowheader"><p>Workfront administrators</p></td> 
    <td> <p>This is not a Maestro permission.</p>
    <p> All Workfront administrators can do the following: </p>
    <ul><li>Create workspaces</li>
@@ -95,13 +102,15 @@ The following table illustrates the level of permissions that you can select whe
  </tbody> 
 </table>
 
+<!-- the following sections are hidden in the links below - ensure they are visible-->
+
 ## Share a workspace
 
-For information about sharing a Maestro workspace, see [Grant access](../access/grant-access.md). 
+For information about sharing a Maestro workspace, see [Grant access to Adobe Maestro](../access/grant-access.md). 
 
 ## Remove permissions to a workspace
 
-For information about sharing a Maestro workspace, see [Grant access](../access/grant-access.md). 
+For information about sharing a Maestro workspace, see [Grant access to Adobe Maestro](../access/grant-access.md). 
 
 <!--This is currently not possible: ## Request permissions to objects -->
 
