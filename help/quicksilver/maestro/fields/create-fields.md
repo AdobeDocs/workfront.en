@@ -47,7 +47,7 @@ You can create fields in the following ways in Maestro:
 * By creating a record type
 * By creating a workspace from a template
 
-For more information about Maestro fields, see [Field overview](../fields/fields-overview..md). 
+For more information about Maestro fields, see [Field overview](../fields/fields-overview.md)
 
 ## Access requirements
 
@@ -525,18 +525,18 @@ You can use the Last modified date field type to add the date when a record was 
 
 You can create linked record fields when you add a new connection between two Maestro record types, or a record type and an object types from other applications. 
         
-For information about connecting Maestro record types, see [Connect record types](../architecture-and-fields/connect-record-types.md).
+For information about connecting Maestro record types, see [Connect record types](../architecture/connect-record-types.md)
 
 ## Create fields by importing record types using an Excel and CSV file
 
-For more information, see [Create record types](../architecture/create-record-types.md). 
+For more information, see [Create record types](../architecture/create-record-types.md).
 
 ## Create fields by creating a record type
 
-When you create a record type, several fields associated with the new record type are also created by default. For more information, see [Create record types](../architecture/create-record-types.md). 
+When you create a record type, several fields associated with the new record type are also created by default. For more information, see [Create operational record types](../architecture/create-record-types.md). 
 
 ## Create fields by creating a workspace from a template
 
 Maestro creates fields for operational record types and taxonomies when you create a workspace from a template. 
 
-For information, see [Create workspaces](../architecture/create-workspaces.md).
+For information, see [Create operational workspaces](../architecture/create-workspaces.md).

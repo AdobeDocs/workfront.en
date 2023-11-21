@@ -49,7 +49,7 @@ After the connection between record or object types is established, you can conn
 
 For information about connecting a Maestro record to an object from another application, see [Connect records](../records/connect-records.md). 
 
-For an example of connecting record types, see [Example of connecting record types and records](../architecture-and-fields/example-connect-record-types-and-records.md). 
+For an example of connecting record types, see [Example of connecting record types and records](../architecture/example-connect-record-types-and-records.md). 
 
 <!--ensure this last linked article is right; the title and the link should have changed-->
 

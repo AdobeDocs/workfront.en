@@ -2009,8 +2009,7 @@ feature-set: Workfront
     * [Fields overview](maestro/fields/fields-overview.md)
     * [Create fields](maestro/fields/create-fields.md)
     * [Edit fields](maestro/fields/edit-fields.md)
-    * [Delete fields](maestro/fields/delete-fields.md)
-    * [Formula fields](maestro/fields/formula-fields.md)
+    * [Delete fields](maestro/fields/delete-fields.md)    
   * Adobe Maestro access {#adobe-maestro-access}
     * [Access information](maestro/access/access-information.md)
     * [Access overview](maestro/access/access-overview.md)

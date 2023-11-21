@@ -31,11 +31,12 @@ hide: yes
 
 As a marketing operations leader, you can use Adobe Maestro to organize work across the marketing lifecycle for all your teams. In Maestro, you can fully customize the architecture of your workflows, including adding custom fields for all the custom record types you create. 
 
-The articles in the following sections describe how you can configure Maestro fields: 
+The articles in the following sections describe how you can create and configure Maestro fields: 
 
 * [Field overview](../fields/fields-overview..md)
 * [Create fields](../fields/create-fields.md)
 * [Edit fields](../fields/edit-fields.md)
 * [Delete fields](../fields/delete-fields.md)
+<!--* [Formula fields](../fields/formula-fields.md)-->
 
 

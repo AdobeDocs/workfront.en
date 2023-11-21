@@ -33,7 +33,7 @@ recommendations: noDisplay, noCatalog
 
 In Adobe Maestro, you can create custom fields to store information about records. 
 
-For information about creating custom fields in Maestro, see [Create fields](../architecture-and-fields/create-fields.md). 
+For information about creating custom fields in Maestro, see [Create fields](../fields/create-fields.md).
 
 You can delete Maestro fields that are no longer relevant. 
 
@@ -45,7 +45,7 @@ You can delete Maestro fields that are no longer relevant.
 * Any information stored in the field is deleted and cannot be recovered. 
 * When you delete a linked record field, all the linked lookup fields are also deleted from the record type you link from. The linked record fields of the record types you link to are not deleted. 
 
-   For more information, see [Connect record types](../architecture-and-fields/connect-record-types.md).
+   For more information, see [Connect record types](../architecture/connect-record-types.md). 
 <!-- this is not possible yet, since fields cannot be shared yet; maybe move this up a bit, in this bullet list: * When you delete a field, it is deleted from all records associated with the field.-->
 
 ## Access requirements

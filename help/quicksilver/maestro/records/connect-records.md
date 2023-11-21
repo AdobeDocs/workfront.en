@@ -38,7 +38,7 @@ You must first connect two record types together or a record type to an object t
 
 For information about connecting record types to one another or to object types from other applications, see [Connect record types](../architecture-and-fields/connect-record-types.md).
 
-For an example of connecting record types, see [Example of connecting record types and records](../architecture-and-fields/example-connect-record-types-and-records.md).
+For an example of connecting record types, see [Example of connecting record types and records](../architecture/example-connect-record-types-and-records.md).
 
 You can connect the following: 
 

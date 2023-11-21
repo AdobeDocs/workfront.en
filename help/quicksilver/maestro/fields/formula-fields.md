@@ -1,11 +1,13 @@
 ---
-title: Formula fields
+title: Formula fields overview
 description: In Adobe Maestro, you can create formula fields that use functions and existing  fields to calculate a new custom value. 
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
 ---
 <!--update the metadata with real information when making this available in TOC and in the left nav - below-->
+
+<!--**********ADD TO TOC************>
 
 <!---
 title: Formula fields
@@ -18,6 +20,8 @@ role: User, Administrator (************is this right???************)
 recommendations: noDisplay, noCatalog
 --->
 
+## Formula fields overview
+
 >[!IMPORTANT]
 >
 >The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
@@ -28,9 +32,11 @@ recommendations: noDisplay, noCatalog
 >
 >For information, see [Adobe Maestro overview](../maestro-overview.md). 
 
-You can create calculated fields in Adobe Maestro where the values are calculated automatically, rather than manually, by creating Formula-type fields. For information, see [Create fields](../fields/create-fields.md). 
+You can create custom fields in Adobe Maestro by referring to existing fields and connecting them by a formula. You can do this by creating a custom Formula-type field. 
 
 Formula fields generate a new value using existing values from other fields in a record type and a function that indicates how the existing values should be calculated. 
+
+For information, see [Create fields](../fields/create-fields.md). 
 
 ## Access requirements
 

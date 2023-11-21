@@ -154,7 +154,7 @@ The following are the main Maestro objects and concepts:
 
         For example, Audience, Region, or Address can be taxonomy-type record types.  
 
-       For more information, see [Create taxonomy record types](../maestro/architecture-and-fields/create-a-taxonomy.md).
+       For more information, see [Create taxonomy record types](../maestro/architecture/create-a-taxonomy.md).
 
 * **Record**: An instance of a Maestro record type. A record could refer to an operational record type or to a taxonomy. 
 
@@ -193,7 +193,7 @@ The following are the main Maestro objects and concepts:
 
     * Maestro fields are fully customizable and are accessible only in Maestro. You cannot access Maestro fields from Workfront. 
 
-    For more information, see [Create fields](../maestro/architecture-and-fields/create-fields.md)
+    For more information, see [Create fields](../maestro/fields/create-fields.md)
     
     A new operational record type is associated with the following predefined fields, by default: 
 

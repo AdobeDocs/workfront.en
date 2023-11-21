@@ -85,7 +85,7 @@ We have introduced the following field types for Maestro records:
 
 The field values of the fields created from these field types are read-only and capture the name of the user who created or last modified a record, or the date when the record was created or last modified. 
 
-For more information, see [Create fields](../maestro/architecture-and-fields/create-fields.md).
+For more information, see [Create fields](../maestro/fields/create-fields.md).
 
 ### Navigate to Workfront objects from a Maestro record
 
@@ -121,8 +121,7 @@ For more information, see [Create records](../maestro/records/connect-records.md
 
 Preview and production: October 16, 2023
 
-You can now add a People-type field to Maestro record types. You can use People-type fields to associate existing users with a record. For information, see [Create fields](../maestro/architecture-and-fields/create-fields.md). 
-
+You can now add a People-type field to Maestro record types. You can use People-type fields to associate existing users with a record. For information, see [Create fields](../maestro/fields/create-fields.md). 
 
 ### Rich Text- format for Paragraph fields
 

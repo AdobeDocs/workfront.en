@@ -34,7 +34,7 @@ recommendations: noDisplay, noCatalog
 
 You can edit the field settings for fields that are already created. 
 
-For information about creating Adobe Maestro fields, see [Create fields](../architecture-and-fields/create-fields.md). 
+For information about creating Adobe Maestro fields, see [Create fields](../fields/create-fields.md).
 
 This article describes how you can edit the settings for Maestro fields. For information about editing field values for Maestro records, see [Edit records](../records/edit-records.md). 
 
@@ -192,4 +192,4 @@ After permssions - replace the table with:
 
 1. (Conditional) For linked record fields, click **Edit lookup fields** and add or remove any of the fields from the linked record type.
   
-    For more information, see [Connect record types](../architecture-and-fields/connect-record-types.md).
+    For more information, see [Connect record types](../architecture/connect-record-types.md). 

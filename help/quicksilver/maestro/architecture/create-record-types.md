@@ -31,7 +31,7 @@ For more information about Maestro record types, see [Overview of record types a
 
 Creating operational record types is similar to creating taxonomy record types. This article describes how you create operational record types. 
 
-For information about creating taxonomies, see [Create taxonomy record types](../architecture-and-fields/create-a-taxonomy.md). 
+For information about creating taxonomies, see [Create taxonomy record types](../architecture/create-a-taxonomy.md). 
 
 ## Access requirements
 
@@ -170,7 +170,7 @@ For information about what record types are included with each template, see [Li
 
 This article describes how to create operational record types from scratch. Creating operational record types from scratch is similar to creating taxonomies. 
 
-For more information about taxonomies, see [Create a taxonomy](../architecture-and-fields/create-a-taxonomy.md).
+For more information about taxonomies, see [Create a taxonomy](../architecture/create-a-taxonomy.md).
 
 1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available, then click **Maestro** ![](assets/maestro-icon.png).
 
@@ -218,7 +218,7 @@ For more information about taxonomies, see [Create a taxonomy](../architecture-a
     Click the **More** icon ![](assets/more-menu.png) to the right of the record type name and click **Rename** to rename it. 
 
 1. (Optional) Click **+ New < record type name >** to add records of the selected record type. For more information, see [Create records](../records/create-records.md). 
-1. (Optional) Click the **+** icon in the upper-right corner of the table to add more fields to the record type. For more information, see [Create fields](../architecture-and-fields/create-fields.md). 
+1. (Optional) Click the **+** icon in the upper-right corner of the table to add more fields to the record type. For more information, see [Create fields](../fields/create-fields.md).
 1. (Optional) Click the left-pointing arrow to the left of the record type name to go back to the selected workspace. 
 
     The record type card displays the number of fields and connections the record type contains. 
@@ -228,8 +228,8 @@ For more information about taxonomies, see [Create a taxonomy](../architecture-a
     For additional information about adding records, deleting or editing record types, or updating the view in the record type page, see the following articles:
 
       * [Create records](../records/create-records.md)
-      * [Delete record types](../architecture-and-fields/delete-record-types.md)
-      * [Edit record types](../architecture-and-fields/edit-record-types.md)
+      * [Delete record types](../architecture/delete-record-types.md)
+      * [Edit record types](../architecture/edit-record-types.md)
       * [Manage record views in Adobe Maestro](../views/manage-record-views.md) <!--add information here about the sorting and grouping when available-->
 
 ## Create record types by importing an Excel or CSV file

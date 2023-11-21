@@ -155,7 +155,7 @@ After permssions - replace the table with:
 
     * Name <!--if there won't be any more fields, consider rephrasing this-->
 
-    Additionally, you can add custom fields to taxonomies. For more information, see [Create fields](../architecture-and-fields/create-fields.md).  
+    Additionally, you can add custom fields to taxonomies. For more information, see [Create fields](../fields/create-fields.md).
 
   >[!NOTE]
   >

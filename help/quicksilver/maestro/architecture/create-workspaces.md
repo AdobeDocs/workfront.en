@@ -182,4 +182,4 @@ After permssions - replace the table with:
 
 1. (Optional) Click **Add taxonomy** to add taxonomies to the workspace. 
 
-    For information, see [Create taxonomies](../architecture-and-fields/create-a-taxonomy.md).
+    For information, see [Create taxonomies](../architecture/create-a-taxonomy.md).

@@ -51,7 +51,7 @@ A taxonomy is a record type that captures attributes about an operational record
 
 ![](assets/taxonomy-record-type-blank.png)
 
-For more information about taxonomy record types, see [Create a taxonomy](../architecture-and-fields/create-a-taxonomy.md). 
+For more information about taxonomy record types, see [Create a taxonomy](../architecture/create-a-taxonomy.md). 
 
 Although creating taxonomies is identical to creating operational record types, Maestro distinguishes conceptually between an operational record type and a taxonomy record type. The purpose of taxonomies is to enhance operational record types. Taxonomies should not directly represent work objects.  <!--this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.--> 
 
@@ -59,7 +59,7 @@ Although creating taxonomies is identical to creating operational record types, 
 
 For example, Audience, Region, or Address can be taxonomy-type record types.  
 
-For more information, see [Create a taxonomy](../architecture-and-fields/create-a-taxonomy.md). 
+For more information, see [Create a taxonomy](../architecture/create-a-taxonomy.md). 
 
 ## Similarities and differences between operational record types and taxonomies
 
