@@ -20,7 +20,7 @@ role: User, Administrator (************is this right???************)
 recommendations: noDisplay, noCatalog
 --->
 
-## Formula fields overview
+# Formula fields overview
 
 >[!IMPORTANT]
 >

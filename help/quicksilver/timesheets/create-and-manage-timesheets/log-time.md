@@ -114,14 +114,15 @@ You can log time in the following areas in Workfront:
 
 You can log time to the following items in the timesheet: 
 
-   * Pre-populated tasks, issues, and projects that display automatically, based on how your Workfront administrator sets the timesheet preferences. For information about how timesheets are pre-populated, see [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+* Pre-populated tasks, issues, and projects that display automatically, based on how your Workfront administrator sets the timesheet preferences. For information about how timesheets are pre-populated, see [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-      Only the the tasks and issues assigned to you are pre-populated in your timesheet. Tasks and issues assigned to your teams or job roles do not populate your timesheet automatically. 
+   Only the the tasks and issues assigned to you are pre-populated in your timesheet. Tasks and issues assigned to your teams or job roles do not populate your timesheet automatically. 
 
-      Clicking Work On It on an item assigned to your teams assigns the item to you and the item will display in your timesheet. 
-   * Tasks, issues, or projects you manually add. 
-   * Tasks, issues, or projects for which you already logged time elsewhere in Workfront. 
-   * General time (vacation, training, overhead time). 
+   Clicking Work On It on an item assigned to your teams assigns the item to you and the item will display in your timesheet. 
+   
+* Tasks, issues, or projects you manually add. 
+* Tasks, issues, or projects for which you already logged time elsewhere in Workfront. 
+* General time (vacation, training, overhead time). 
 
 >[!NOTE]
 >
