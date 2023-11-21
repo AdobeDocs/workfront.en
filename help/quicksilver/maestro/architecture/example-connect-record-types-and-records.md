@@ -26,7 +26,7 @@ This article describes an example of the following:
 
 For more information, also see the following articles:
 
-* [Connect record types](../architecture-and-fields/connect-record-types.md)
+* [Connect record types](../architecture/connect-record-types.md)
 * [Connect records](../records/connect-records.md)
 
 ## Connect two Maestro record types and records (example)

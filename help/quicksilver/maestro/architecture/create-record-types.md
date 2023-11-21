@@ -312,4 +312,4 @@ You can import the following objects from the following applications:
     * Company
     * Group
 
-For more information, see [Connect record types](../architecture-and-fields/connect-record-types.md).
+For more information, see [Connect record types](../architecture/connect-record-types.md). 

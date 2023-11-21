@@ -194,7 +194,7 @@ Consider the following:
 
     For more information, see the following articles:
 
-    * [Connect record types](../maestro/architecture-and-fields/connect-record-types.md)
+    * [Connect record types](../maestro/architecture/connect-record-types.md)
     * [Connect records](../maestro/records/connect-records.md)
 
 ### URL support for single-line text fields 

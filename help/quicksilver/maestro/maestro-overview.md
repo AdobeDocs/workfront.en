@@ -237,7 +237,7 @@ The following are the main Maestro objects and concepts:
 
     For information about linking record types, records, and creating linked fields, see the following articles:
 
-    * [Connect record types](../maestro/architecture-and-fields/connect-record-types.md)
+    * [Connect record types](../maestro/architecture/connect-record-types.md)
     * [Connect records](../maestro/records/connect-records.md)
 
 <!--not yet:* Fields are reusable across Record Types.  -->

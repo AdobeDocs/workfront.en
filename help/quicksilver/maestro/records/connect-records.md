@@ -36,7 +36,7 @@ You can connect Adobe Maestro records to one another or to objects from other ap
 
 You must first connect two record types together or a record type to an object type from another application, and then you can use the Table view of the record type to connect records to one another or records to other objects. 
 
-For information about connecting record types to one another or to object types from other applications, see [Connect record types](../architecture-and-fields/connect-record-types.md).
+For information about connecting record types to one another or to object types from other applications, see [Connect record types](../architecture/connect-record-types.md). 
 
 For an example of connecting record types, see [Example of connecting record types and records](../architecture/example-connect-record-types-and-records.md).
 
@@ -196,7 +196,7 @@ After permssions - replace the table with:
     * [Create record types](../architecture/create-record-types.md)
     * [Create records](../records/create-records.md)
 
-  * Connections between record types, or between record types and objects from other applications. For information, see [Connect record types](../architecture-and-fields/connect-record-types.md). 
+  * Connections between record types, or between record types and objects from other applications. For information, see [Connect record types](../architecture/connect-record-types.md)
   
 ### Connect Maestro records
 
@@ -207,7 +207,7 @@ After permssions - replace the table with:
 1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to connect records from.
 1. Click the card of a record type to open the record type page. 
 1. Select a **Table** view from the **View** drop-down menu in the upper-right corner of the record type page. 
-1. Add a connection to another record or object type from the selected record type. For information, see [Connect record types](../architecture-and-fields/connect-record-types.md). 
+1. Add a connection to another record or object type from the selected record type. For information, see [Connect record types](../architecture/connect-record-types.md). 
 
    A new column is added to the table to display the linked record type. 
 
@@ -265,7 +265,7 @@ After you created a connection between a Maestro record type and a Workfront obj
     * Company
     * Group
 
-    For more information, see [Connect record types](../architecture-and-fields/connect-record-types.md).
+    For more information, see [Connect record types](../architecture/connect-record-types.md). 
 
     A new column is added to the table to display the linked object type. 
 

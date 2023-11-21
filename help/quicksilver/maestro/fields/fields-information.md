@@ -33,7 +33,7 @@ As a marketing operations leader, you can use Adobe Maestro to organize work acr
 
 The articles in the following sections describe how you can create and configure Maestro fields: 
 
-* [Field overview](../fields/fields-overview..md)
+* [Field overview](../fields/fields-overview.md)
 * [Create fields](../fields/create-fields.md)
 * [Edit fields](../fields/edit-fields.md)
 * [Delete fields](../fields/delete-fields.md)
