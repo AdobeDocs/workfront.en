@@ -5,6 +5,7 @@ title: Document approval status
 description: Document approval statuses are listed and explained
 author: Becky
 feature: Work Management, Digital Content and Documents
+exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
 ---
 # Document approval status
 

@@ -3,6 +3,7 @@ title: First Quarter 2024 Integration enhancements
 description: First Quarter 2024 Integration enhancements
 author: Becky
 feature: Product Announcements
+exl-id: 0d581f3c-2aaf-4ac1-97a5-df1b01627080
 ---
 # First Quarter 2024 Integration enhancements
 
@@ -25,7 +26,3 @@ We've added another workflow to the Adobe Experience Manager integration. Now, y
 The Automatic Publish workflow can be enabled and configured in the Adobe Experience Manager integration. When enabled, the workflow can be edited on the project template or project level.
 
 For more information, see [Publishing assets](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#publishing-assets) in [Use workflows in the Experience Manager Assets integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
-
-
-
-
