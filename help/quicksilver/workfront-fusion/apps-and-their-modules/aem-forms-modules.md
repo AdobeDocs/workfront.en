@@ -60,6 +60,99 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 * You must have an [!DNL Adobe Experience Manager Forms] account to use this module.
 
+## Create a connection to Adobe Experience Manager Forms
+
+To create a connection for your [!DNL Adobe Experience Manager Forms] modules:
+
+1. Click **[!UICONTROL Add]** next to the Connection box.
+
+1. Fill in the following fields:
+
+   <table style="table-layout:auto"> 
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+    </col>
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+    </col>
+    <tbody>
+      <tr>
+        <td role="rowheader">[!UICONTROL Connection name]</td>
+        <td>
+          <p>Enter a name for this connection.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Environment]</td>
+        <td>
+          <p>Select whether this connection connects to a Production or Non-production environment.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Type]</td>
+        <td>
+          <p>Select whether this account is a service account or a personal account.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Instance URL without a trailing slash]</td>
+        <td>
+          <p>Enter the URL that you use to access the account, without the final slash.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL IMS endpoint]</td>
+        <td>
+          <p><code>https://ims-na1.adobelogin.com</code></p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Client ID]</td>
+        <td>Enter your [!DNL Adobe] Client ID. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Client Secret]</td>
+        <td>Enter your [!DNL Adobe] Client Secret. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Org ID]</td>
+        <td>Enter your [!DNL Adobe] Organization ID. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Technical account ID]</td>
+        <td>Enter your [!DNL Adobe] Technical account ID. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Meta Scopes]</td>
+        <td>Enter <code>ent_marketing_sdk</code>       </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Private key]</td>
+        <td>
+          <p>Enter the private key that was generated when your credentials were created in the [!DNL Adobe Developer Console]. </p>
+          <p>To extract your private key or certificate:</p>
+          <ol>
+            <li value="1">
+              <p>Click <b>[!UICONTROL Extract]</b>.</p>
+            </li>
+            <li value="2">
+              <p>Select the type of file you are extracting.</p>
+            </li>
+            <li value="3">
+              <p>Select the file that contains the private key or certificate.</p>
+            </li>
+            <li value="4">
+              <p>Enter the password for the file.</p>
+            </li>
+            <li value="5">
+              <p>Click <b>[!UICONTROL Save]</b> to extract the file and return to the connection setup.</p>
+            </li>
+          </ol>
+        </td>
+      </tr>
+    </tbody>
+    </table>
+
+1. Click **[!UICONTROL Continue]** to save the connection and return to the module.
+
 ## Adobe Experience Manager Forms module and its fields
 
 Currently, there is only one module in the Adobe Experience Manager Forms connector. 
@@ -84,8 +177,10 @@ This instant trigger (webhook) allows you to start a scenario when a Submit acti
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Adobe Experience Manager] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Adobe Experience Manager] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/apps-and-their-modules/aem-forms-modules.md#create-a-connection-to-adobe-experience-manager-forms" class="MCXref xref">Create a connection to [!DNL Adobe Experience Manager Forms]</a></p> </td> 
   </tr> 
+
+  The module creates a webhook and gives you the webhook address, which you can enter into the form submission dialog in [!DNL Adobe Experience Manager Forms].
 
 
 
