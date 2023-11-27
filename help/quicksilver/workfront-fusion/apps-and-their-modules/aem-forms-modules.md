@@ -122,7 +122,7 @@ To create a connection for your [!DNL Adobe Experience Manager Forms] modules:
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Meta Scopes]</td>
-        <td>Enter <code>ent_marketing_sdk</code>       </td>
+        <td>Enter any appropriate meta scopes       </td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Private key]</td>
