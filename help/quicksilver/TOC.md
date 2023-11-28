@@ -2013,7 +2013,6 @@ feature-set: Workfront
   * Adobe Maestro access {#adobe-maestro-access}
     * [Access information](maestro/access/access-information.md)
     * [Access overview](maestro/access/access-overview.md)
-    * [Overview of sharing permissions in Adobe Maestro](maestro/access/sharing-permissions-overview.md)
     * [Grant access to Adobe Maestro](maestro/access/grant-access.md)
   * Adobe Maestro records {#adobe-maestro-records}
     * [Records information](maestro/records/records-information.md) 

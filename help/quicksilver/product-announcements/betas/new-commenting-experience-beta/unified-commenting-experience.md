@@ -58,6 +58,8 @@ The following features have been removed from the new experience:
 * The "on behalf of < user name >" information when a Workfront or group administrator logs in as another user and adds a comment on their behalf was originally removed. It has been reinstated on October 19, 2023.
 * The "Ask for approval" option when you tag people while adding a comment to a document. 
 
+<!--removed this note on November 28, 2023, when this limitation was removed: 
+
 >[!NOTE]
 >
 >The objects listed below have only the comments and system updates starting with January 1, 2019 available in the new commenting experience.  
@@ -70,6 +72,7 @@ The following features have been removed from the new experience:
 >* Documents
 
 For more information, see the [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md). 
+-->
 
 The following table illustrates the features that will be available in the new commenting experience as well as their availability in areas where they are supported: 
 
