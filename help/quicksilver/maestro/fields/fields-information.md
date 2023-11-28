@@ -1,9 +1,10 @@
 ---
 title: Adobe Maestro fields
-description: You can add new fields in Adobe Maestro that reflect your organization's lifecycle. Fields are attributes of record types. 
+description: You can add new fields in Adobe Maestro that reflect your organization's lifecycle. Fields are attributes of record types.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: d06028d9-9230-4a6c-a227-20618067192c
 ---
 # Field information
 
@@ -38,5 +39,3 @@ The articles in the following sections describe how you can create and configure
 * [Edit fields](../fields/edit-fields.md)
 * [Delete fields](../fields/delete-fields.md)
 <!--* [Formula fields](../fields/formula-fields.md)-->
-
-

@@ -1,9 +1,10 @@
 ---
 title: Overview of sharing permissions in Adobe Maestro
-description: You can share or remove permissions to a Adobe Maestro workspace you created. Only Workfront administrators can create and share workspaces. 
+description: You can share or remove permissions to a Adobe Maestro workspace you created. Only Workfront administrators can create and share workspaces.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 ---
 <!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Maestro. This article describes the levels of access that users could have to Adobe Maestro. -->
 
@@ -113,5 +114,3 @@ For information about sharing a Maestro workspace, see [Grant access to Adobe Ma
 For information about sharing a Maestro workspace, see [Grant access to Adobe Maestro](../access/grant-access.md). 
 
 <!--This is currently not possible: ## Request permissions to objects -->
-
-
