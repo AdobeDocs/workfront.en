@@ -89,6 +89,7 @@ The following table illustrates the level of permissions that you can select whe
      <li>Add fields</li> 
      <li>Delete fields</li> 
      <li>Add new connections between record types</li> 
+     <li>Share the workspace with users and groups</li> 
      </ul> </td> 
   </tr> 
   <tr> 

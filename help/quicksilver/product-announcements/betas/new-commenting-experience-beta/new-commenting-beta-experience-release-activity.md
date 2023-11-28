@@ -112,6 +112,11 @@ Preview and production for all customers: October 19, 2023.
 
 #### The new commenting experience captures information starting with January 1, 2019
 
+>[!NOTE]
+>
+>This limitation was removed after November 28, 2023. For more information, see [First Quarter 2024 release overview](../../product-releases/24-q1-release-activity/24-q1-release-overview.md). 
+
+
 Projects, tasks, issues, and documents display updates starting with January 1, 2019 now. Prior to this enhancement, the new commenting experience captured only updates from June 2022 for these objects.  
 
 For more information, see [New commenting experience](../new-commenting-experience-beta/unified-commenting-experience.md). 
