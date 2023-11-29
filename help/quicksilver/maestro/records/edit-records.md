@@ -141,7 +141,7 @@ After permssions - replace the table with:
 * You cannot edit fields that are linked from other records or fields that contain calculations. 
 * If the records you display are linked to other records, the new information of the records that you are editing reflects on the linked records. 
 * You cannot edit records in bulk. <!--this will probably change-->
-* URLs are recognized as links in single-line text field types only when they start with the following: http://, https://, ftp://, or <www>. . 
+* URLs are recognized as links in single-line text field types only when they start with the following: http://, https://, ftp://, or www. . 
 * You can use the following Rich Text formatting options when editing a Paragraph-type field:
 
     * Bold
