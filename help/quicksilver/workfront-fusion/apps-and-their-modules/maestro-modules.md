@@ -64,6 +64,41 @@ You can create a connection to your [!DNL Maestro] account directly from inside 
 
 ## [!DNL Adobe Maestro] modules and their fields
 
+### Triggers
+
+#### Watch Events
+
+This trigger module starts a scenario when a record, record type, or workspace is created, updated, or deleted in Maestro
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Webhook]</td>
+      <td>Select the webhook that you want to use, or click Add to create a new one.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Maestro], see <a href="create-a-connection-to-adobe-maestro" class="MCXref xref" > in this article.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Object type]</td>
+      <td>Select whether you want to watch records, record types, or workspaces.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Objects to watch]</td>
+      <td>Select whether you want to watch for new. updated, new and updated, or deleted records.</td>
+    </tr>
+     <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Exclude updates made by this connection]</p>
+      </td>
+      <td>Enable this option to prevent the scenario from triggering when a change is made by the connection used by this module. This prevents another instance of the scenario being triggered if this scenario performs a triggering action.</td> 
+      </tr>
+  </tbody>
+</table>
+
 ### Delete a field
 
 This action module deletes a single field in Maestro by its ID.
