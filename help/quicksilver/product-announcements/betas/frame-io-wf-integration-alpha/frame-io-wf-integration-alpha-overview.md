@@ -26,7 +26,7 @@ To learn more about the alpha's planned features and how you can test them, see 
 
 ## Communication channels
 
-This alpha program provides you with the unique opportunity to test the seamless experience that we aim to build by leveraging the best of both Workfront and Frame.io. Workfront for work planning, monitoring, and managing the review & approval process of requested assets, and Frame.io for creative collaboration and conducting the review and approval.    
+This alpha program provides you with the unique opportunity to test the seamless experience that we aim to build by leveraging the best of both Workfront and Frame.io. Workfront for work planning, monitoring, and managing the review & approval process of requested assets, and Frame.io for creative collaboration and conducting the review and approval. 
 
 As part of the alpha program, we're going to work closely together to shape what will become the future unified formal review & approval experience across Adobe.  
 

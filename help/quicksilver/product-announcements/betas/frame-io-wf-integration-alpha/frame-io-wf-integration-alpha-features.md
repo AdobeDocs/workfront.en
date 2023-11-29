@@ -53,10 +53,18 @@ To test the functionality, please log in to your Workfront Preview or Sandbox in
 ## Feature plans
 
 Below is information about the primary use cases we are looking to address and the features we currently have planned to do so. <!--, along with documentation to get you started testing.--> 
- 
+
+>[!NOTE]
+>
+><span class="preview">Highlighted text</span> below refers to features that are not yet implemented, but will be included in a later release.
+>
+>Bullets under a **"Potential improvements in future releases"** header may or may not be included in a future release, depending on alpha feedback and our evolving development plans. 
+>
+
+
 ### Workfront admins can set up a connection between Workfront groups and Frame.io accounts 
 
-* _Within Workfront, you have the ability to connect a Workfront group to a Frame.io account_
+* <span class="preview">Within Workfront, you have the ability to connect a Workfront group to a Frame.io account</span>
 
 * A new Frame.io team will be created within Frame.io representing the connected Workfront group 
 
@@ -70,19 +78,19 @@ Below is information about the primary use cases we are looking to address and t
 
 * Ability to mark Workfront projects as Frame.io enabled by assigning a Frame connected group 
 
-* _Enhancement: Ability to toggle tasks inside Workfront projects as Frame tasks which in turns will create task folders inside Frame.io_
+* <span class="preview">Enhancement: Ability to toggle tasks inside Workfront projects as Frame tasks which in turns will create task folders inside Frame.io</span>
 
 * When a Workfront project status is set to Current, a corresponding connected project is created in Frame, Workfront assigned users are add to the Frame project, and an email notification is sent to them from Frame.io 
 
     * All Workfront Project members (users and teams) will be added as Collaborators to the Frame.io project (on project creation and later) 
 
-    * _Change: Users and teams assigned to Frame enabled Workfront tasks will be added as Collaborators to the Frame.io project and notified (on project creation and later)_ 
+    * <span class="preview">Change: Users and teams assigned to Frame enabled Workfront tasks will be added as Collaborators to the Frame.io project and notified (on project creation and later)</span> 
 
 * Documents (Creative Briefs) added to the project and Frame enabled tasks will be pushed to the Frame.io project (within respective work folder) when the project gets created (trigger: project status set to Current) 
 
     * We recommend you limit the amount of documents added to your project prior to becoming active to your creative briefs only, to avoid send multiple unnecessary documents to Frame.io 
 
-* _Enhancement: Users / teams explicitly unassigned from a frame enabled Workfront task  will be removed from the Frame.io project_
+* <span class="preview">Enhancement: Users / teams explicitly unassigned from a frame enabled Workfront task  will be removed from the Frame.io project</span>
 
 **Potential improvements in future releases:**
 
@@ -98,9 +106,9 @@ Below is information about the primary use cases we are looking to address and t
 
 * New version uploads inside Frame.io will automatically create new document version within Workfront on connected assets 
 
-* _Enhancement: Ability to mark the referenced Workfront tasks as complete from within Frame.io_
+* <span class="preview">Enhancement: Ability to mark the referenced Workfront tasks as complete from within Frame.io</span>
 
-* _Enhancement: In case the connected Workfront document gets deleted it remains within Frame.io and can be reconnected to the same or other project task_
+* <span class="preview">Enhancement: In case the connected Workfront document gets deleted it remains within Frame.io and can be reconnected to the same or other project task</span>
 
 **Potential improvements in future releases:** 
 
@@ -112,7 +120,7 @@ Below is information about the primary use cases we are looking to address and t
 
 * Workfront users and teams can be added to new document approvals for Frame.io connected documents 
 
-* _Enhancement: When a user / team is unshared from a Frame enabled document, then they will  also lose their access to the asset in Frame.io Viewer_ 
+* <span class="preview">Enhancement: When a user / team is unshared from a Frame enabled document, then they will  also lose their access to the asset in Frame.io Viewer</span> 
 
 **Potential improvements in future releases:** 
 
@@ -128,12 +136,12 @@ Below is information about the primary use cases we are looking to address and t
 
 * Ability to harness the existing review & commenting capabilities provided by the Frame.io Viewer which will be synchronised with the Workfront's Update Stream 
 
-* _Ability to make a new document approval decision from within the Frame.io Viewer_ 
+* <span class="preview">Ability to make a new document approval decision from within the Frame.io Viewer</span> 
 
 ### Within Frame.io, Creatives will be informed about the overall decision made on the connected Frame.io asset 
 
-* _Enhancement: Overall document approval status will be displayed on asset inside Frame.io_ 
+* <span class="preview">Enhancement: Overall document approval status will be displayed on asset inside Frame.io</span> 
 
 ### Project coordinators can send final assets to AEM  
 
-* _Enhancement: Frame connected documents including metadata can be sent to AEM using the existing Workfront + AEM Asset CS connector_
+* <span class="preview">Enhancement: Frame connected documents including metadata can be sent to AEM using the existing Workfront + AEM Asset CS connector</span>
