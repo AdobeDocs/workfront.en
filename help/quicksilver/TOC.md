@@ -18,6 +18,7 @@ feature-set: Workfront
       * [First Quarter 2024 Document management enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md)
       * [2024 Q1 Integration enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md)
       * [First Quarter 2024 Update stream and notification enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md)
+      * [First Quarter 2024 Home enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md)
     * 2023 Q4 Release {#release-23-q4}
       * [2023 Q4 Release overview](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
       * [2023 Q4 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md)
