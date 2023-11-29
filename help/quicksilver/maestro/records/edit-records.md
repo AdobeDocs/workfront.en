@@ -141,7 +141,7 @@ After permssions - replace the table with:
 * You cannot edit fields that are linked from other records or fields that contain calculations. 
 * If the records you display are linked to other records, the new information of the records that you are editing reflects on the linked records. 
 * You cannot edit records in bulk. <!--this will probably change-->
-* URLs are recognized as links in single-line text field types only when they start with the following: http://, https://, ftp://, or www. . 
+* URLs are recognized as links in single-line text field types only when they start with the following: http://, https://, ftp://, or <www>. . 
 * You can use the following Rich Text formatting options when editing a Paragraph-type field:
 
     * Bold
@@ -187,7 +187,7 @@ You can edit a record from the following areas:
 
 ### Edit a record from the record type table view
 
-1. Click the **Main Menu** ![](assets/main-menu-workfront.png) in the upper-right corner, <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available,--> then click **Maestro** ![](assets/maestro-icon.png). 
+1. Click the **Main Menu** ![](assets/main-menu-workfront.png) in the upper-right corner, or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available, then click **Maestro** ![](assets/maestro-icon.png). 
 
     The workspace that you accessed last opens. 
 
@@ -195,10 +195,38 @@ You can edit a record from the following areas:
 1. Click a record type card. 
 
     The record type page opens. 
-1. (Conditional) From the **View** drop-down menu in the upper-right corner of the table, select a Table view. This should be the default view, unless you viewed the record type in the timeline view when you accessed it last. 
+1. (Conditional) From the **View** drop-down menu in the upper-right corner of the table, select a **Table** view. This should be the default view, unless you viewed the record type in the timeline view when you accessed it last. 
 
     The records associated with the selected record type display in the table view. 
 1. Click inside the row of a record to start editing information about the record inline.
 
     ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 1. Press **Enter** on your keyboard or click outside of a row to save your changes. The changes are saved automatically. A Saved indicator displays briefly in the upper-right corner of the table view to show that the changes were saved. 
+
+    >[!NOTE]
+    >
+    >  You cannot edit information for the following fields, as they are read-only and Workfront updates them automatically: 
+    >  
+    >  * Linked fields that are created by linking record types
+    >  * Fields of the following types: Created by, Created date, Last modified by, Last Modified date
+
+
+1. (Optional) Copy an existing value of a field, then paste in into a field of the same type on another record, then click **Enter** on your keyboard to save your changes. 
+
+    >[!NOTE]
+    >
+    >Consider the following:   
+    >
+    >* You cannot copy information from another source, other than a Maestro field of the same type as the field you paste the information in.  
+    >
+    >* You cannot copy and paste field values for fields that display in the Details area of a record.   
+    >* You cannot copy and paste field values for the following field types:   
+    ><ul>
+    >
+    > * People
+    >
+    > * System fields  
+    >
+    > * Linked fields created as a result of connecting records   
+
+    <!--take People out of the list above when they release this - this might be coming later-->
