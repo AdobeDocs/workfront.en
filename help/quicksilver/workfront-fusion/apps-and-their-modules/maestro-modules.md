@@ -8,6 +8,8 @@ title: Adobe Maestro modules
 description: With the [!DNL Adobe Maestro] modules, you can start an [!DNL Adobe Workfront Fusion] scenario based on events in your [!DNL Adobe] Maestro account, create, read, or update agreements and other records, search for records using criteria you set, and upload documents.
 author: Becky
 feature: Workfront Fusion
+hide: yes
+hidefromtoc: yes
 ---
 # [!DNL Adobe Maestro] modules
 
