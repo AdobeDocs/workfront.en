@@ -26,25 +26,30 @@ To allow you to easily test the new features of the alpha program, we've created
 
 To test the functionality, please log in to your Workfront Preview or Sandbox instance and perform the following steps: 
 
+>[!NOTE]
+>
+><span class="preview">Highlighted text</span> below refers to features that are not yet implemented for testing, but will be included in a later release. 
+>
+
 1. **Coordinators:** Within Workfront, create a project with the `Frame.io alpha testing` group assigned as the project group. 
 
-1. **Coordinators:** Within Workfront, assign your creatives to the project or Frame enabled tasks and change the project status to "Current". 
+1. **Coordinators:** Within Workfront, assign your creatives to the project <span class="preview">or Frame enabled tasks</span> and change the project status to "Current". 
 
 1. **Creatives:** Check your emails for an invite to the newly created Frame.io project 
 
 1. **Creatives:** Click the "Join project" button within the invitation email to join the Frame.io project, review the creative brief within the project and start your content creation within your Creative Cloud tool of choice. 
 
-1. **Creatives:** Upload your created assets to Frame.io and add them to the linked Workfront project (or assigned Frame-enabled tasks).  
+1. **Creatives:** Upload your created assets to Frame.io and add them to the linked Workfront project <span class="preview">(or assigned Frame-enabled tasks).</span>  
 
 1. **Coordinators:** Within Workfront, find the linked Frame.io assets in your project and assign reviewers/approvers (for more information on assigning reviews/approvers, see [Add additional approvers or reviewers to a document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)). 
 
 1. **Stakeholders:** Within Workfront, view your approval request in Home or Document Details and review the Frame connected document in the Frame.io Viewer, then leave a comment containing feedback.
 
-1. **Coordinators:** Within Workfront, view the stakeholder created comments within the Updates section of the Frame.io connected document.
+1. <span class="preview">**Coordinators:** Within Workfront, view the stakeholder created comments within the Updates section of the Frame.io connected document.</span>
 
-1. **Stakeholders:** Make a decision from within the Frame.io Viewer.
+1. <span class="preview">**Stakeholders:** Make a decision from within the Frame.io Viewer.</span>
 
-1. **Creatives:** Within Frame.io, notice the overall approval decision made for your assets. 
+1. <span class="preview">**Creatives:** Within Frame.io, notice the overall approval decision made for your assets.</span> 
 
 1. **Creatives:** Within Frame.io, apply the requested changes by adding the updated version to the version stack of the connected asset. 
 
