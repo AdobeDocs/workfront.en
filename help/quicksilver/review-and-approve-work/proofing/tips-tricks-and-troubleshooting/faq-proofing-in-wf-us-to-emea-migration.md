@@ -21,7 +21,7 @@ Yes. Before the migration, make sure you add the following to your organization'
 
 ## How long will it take to migrate my account?
 
-For a small period of time, up to two hours, your account will not be accessible while we migrate it to its new location on the EMEA data center. You can find details about the timing of the migration on our [Workfront Status site](http://status.workfront.com/).&nbsp;
+For a small period of time, up to two hours, your account will not be accessible while we migrate it to its new location on the EMEA data center.
 
 After the account migration has completed, we will start moving all your files from our US data center to the EMEA data center. While the files are being moved, they will still be accessible on the US data center.&nbsp;This process will take place in the background and will not impact you and your users.
 

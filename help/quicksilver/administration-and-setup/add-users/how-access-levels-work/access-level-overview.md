@@ -109,13 +109,13 @@ Attached to the Light license, this access level is designed for users who:
 * View all items and updates tied to work
 * Approve projects, tasks, and issues
 * View dashboards and reports
-* Track time
+* Track time and approve timesheets
 * Create and manage issues
 * Make updates on work
 
 Users with the Light access level:
 
-* Cannot be assigned work items or approve timesheets
+* Can be assigned work items but can't complete them.
 * Can access requests and documents in the Main Menu.
 * Have limited ability to create objects—they can't create projects, portfolios, programs, or reports.
 
@@ -250,14 +250,15 @@ Attached to the Contributor license, this access level is designed for users who
 
 * Submit requests
 * Track requests
-* Update and review requests.
+* Update and review requests
+* Approve requests
 
 Users with this built-in access level:
 
 * Can make requests and update those requests
 * Can upload and approve documents
 * Can review the status of issues they have submitted
-* Cannot be assigned to work items  
+* Can be assigned to work items but can't complete them
 * Can access requests only from the Main Menu. For more information about request queues, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 >[!NOTE]

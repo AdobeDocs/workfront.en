@@ -5,6 +5,7 @@ title: API basics
 description: API basics
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
 ---
 
@@ -88,7 +89,7 @@ Authentication is performed by passing in a session ID which can be given using 
 
 #### Request Header Authentication
 
-The preferred method of authentication is to pass a request header named SessionID containing the session token. This has the advantage of being safe against [Cross-site Request Forgery (CSRF)](http://en.wikipedia.org/wiki/Cross-site_request_forgery) attacks and not interfering with the URI for caching purposes.
+The preferred method of authentication is to pass a request header named SessionID containing the session token. This has the advantage of being safe against [Cross-site Request Forgery (CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) attacks and not interfering with the URI for caching purposes.
 
 The following is an example of a request header:
 

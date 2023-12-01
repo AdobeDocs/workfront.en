@@ -74,6 +74,8 @@ A user has one of the following roles in an organization:
 * **[!UICONTROL Accountant]**: An accountant role only allows users to see license information on the organization dashboard.
 * **[!UICONTROL App Developer]**: Functionality for this role is currently unavailable, and will be made available in the near future. We do not recommend assigning users to this role at this time.
 
+For information on specific actions available to users in each organization role, see [Organization and team roles](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+
 ### Inviting users to an organization
 
 By default, an organization owner (or authorized user) can invite another person to join their organization.
@@ -139,7 +141,7 @@ A user has one of the following roles in each of their teams:
 * **[!UICONTROL Team Operator]**: The [!UICONTROL operator] role allows users to see execution data and change the "Active" status of scenarios.
 * **[!UICONTROL Team Restricted Member]**: Functionality for this role is currently unavailable, and will be made available in the near future. We do not recommend assigning users to this role at this time.
 
-For information on specific tasks available to team roles, see[Organization and team roles](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+For information on specific actions available to users in each team role, see [Organization and team roles](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
 
 ### Team Management
 

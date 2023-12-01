@@ -13,6 +13,12 @@ feature-set: Workfront
     * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
+    * 2024 Q1 Release {#release-24-q1}
+      * [2024 Q1 Release overview](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
+      * [First Quarter 2024 Document management enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md)
+      * [2024 Q1 Integration enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md)
+      * [First Quarter 2024 Update stream and notification enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md)
+      * [First Quarter 2024 Home enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md)
     * 2023 Q4 Release {#release-23-q4}
       * [2023 Q4 Release overview](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
       * [2023 Q4 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md)
@@ -129,6 +135,8 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+      * [Workfront Fusion release activity: Week of November 13, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-14.md)
+      * [Workfront Fusion release activity: Week of October 30, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-10-26.md)
       * [Workfront Fusion release activity: Week of September 1, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-9-1.md)
       * [Workfront Fusion release activity: Week of August 21, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-8-21.md)
       * [Workfront Fusion release activity: Week of August 7, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-8-7.md)
@@ -375,6 +383,7 @@ feature-set: Workfront
       * [New commenting experience FAQs](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
     * Workfront and Frame.io integration alpha {#frame-io-wf-integration-alpha}
       * [Adobe Workfront and Frame.io native integration alpha: overview](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
+      * [Adobe Workfront and Frame.io native integration alpha: features](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
 * Administration and setup {#administration-and-setup}
   * [Administration and setup](administration-and-setup/administration-and-setup.md)
   * Get started with administration {#get-started-administration}
@@ -718,7 +727,7 @@ feature-set: Workfront
       * [Manage group objects](administration-and-setup/manage-groups/work-with-group-objects/work-with-a-groups-objects.md)
       * [Manage group companies](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-companies.md)
       * [Manage group layout templates](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md)
-      * [Manage group projects](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md)
+      * [Manage group portfolios](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-portfolios.md)
       * [Manage group programs](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-programs.md)
       * [Manage group teams](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md)
       * [Manage group approval processes](administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md)
@@ -740,7 +749,7 @@ feature-set: Workfront
     * [Disable document integrations](administration-and-setup/configure-integrations/disable-document-integrations.md)
     * [Configure the SharePoint integration](administration-and-setup/configure-integrations/configure-sharepoint-integration.md)
     * [Set up metadata mapping](administration-and-setup/configure-integrations/set-up-metadata-mapping.md)
-    * [Create [!UICONTROL [!DNL Adobe Workfront] for [!DNL Creative Cloud]] packages for your users in the [!DNL Adobe Admin Console]](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
+    * [Create Adobe Workfront Creative Cloud packages for your users in the Adobe Admin Console](/help/quicksilver/administration-and-setup/configure-integrations/create-plugin-only-packages.md)
     * [Create OAuth2 applications for Workfront integrations](administration-and-setup/configure-integrations/create-oauth-application.md)
     * [View and manage custom OAuth2 applications](administration-and-setup/configure-integrations/manage-custom-oauth2-apps.md)
     * [Configure the JumpSeat integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md)
@@ -759,6 +768,7 @@ feature-set: Workfront
   * Administration in the Adobe Admin Console {#admin-in-admin-console}
     * [Workfront Administration in the Adobe Admin Console](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
     * [Prepare for the Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)    
+    * [Understanding Workfront Product and User Migration to the Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)    
   * Tips, tricks, and troubleshooting for administration and setup {#admin-setup-tips}
     * [Tips, tricks, and troubleshooting](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
     * [Group admins must have higher access than those they manage](administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
@@ -1762,6 +1772,7 @@ feature-set: Workfront
       * [Create a document approval](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
       * [Add additional reviewers or approvers to a document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
       * [Remove approvers or reviewers from a document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+      * [Document approval status](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
     * Review and approve documents {#review-and-approve-documents}
       * [Review and approve documents](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md)
       * [Review a document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
@@ -1983,20 +1994,23 @@ feature-set: Workfront
   * [Adobe Maestro overview](maestro/maestro-overview.md)
   * [Adobe Maestro release activity](maestro/release-activity.md)
   * Adobe Maestro architecture {#adobe-maestro-architecture}
-    * [Architecture information](maestro/architecture-and-fields/architecture-and-fields-information.md)
-    * [Create workspaces](maestro/architecture-and-fields/create-workspaces.md)
-    * [Overview of record types and taxonomies](maestro/architecture-and-fields/overview-of-record-types-and-taxonomies.md)
-    * [Create operational record types](maestro/architecture-and-fields/create-record-types.md)
-    * [Create taxonomy record types](maestro/architecture-and-fields/create-a-taxonomy.md)
-    * [Connect record types](maestro/architecture-and-fields/connect-record-types.md)
-    * [Create fields](maestro/architecture-and-fields/create-fields.md)
-    * [Edit record types](maestro/architecture-and-fields/edit-record-types.md)
-    * [Edit fields](maestro/architecture-and-fields/edit-fields.md)
-    * [Delete workspaces](maestro/architecture-and-fields/delete-workspaces.md)
-    * [Delete record types](maestro/architecture-and-fields/delete-record-types.md)
-    * [Delete fields](maestro/architecture-and-fields/delete-fields.md)
-    * [Example of connecting record types and records](maestro/architecture-and-fields/example-connect-record-types-and-records.md)
-    * [List of workspace templates](maestro/architecture-and-fields/workspace-templates.md)
+    * [Architecture information](maestro/architecture/architecture-information.md)
+    * [Create workspaces](maestro/architecture/create-workspaces.md)
+    * [Overview of record types and taxonomies](maestro/architecture/overview-of-record-types-and-taxonomies.md)
+    * [Create operational record types](maestro/architecture/create-record-types.md)
+    * [Create taxonomy record types](maestro/architecture/create-a-taxonomy.md)
+    * [Connect record types](maestro/architecture/connect-record-types.md)
+    * [Edit record types](maestro/architecture/edit-record-types.md)
+    * [Delete workspaces](maestro/architecture/delete-workspaces.md)
+    * [Delete record types](maestro/architecture/delete-record-types.md)
+    * [Example of connecting record types and records](maestro/architecture/example-connect-record-types-and-records.md)
+    * [List of workspace templates](maestro/architecture/workspace-templates.md)
+  * Adobe Maestro fields {#adobe-maestro-fields}
+    * [Fields information](maestro/fields/fields-information.md)
+    * [Fields overview](maestro/fields/fields-overview.md)
+    * [Create fields](maestro/fields/create-fields.md)
+    * [Edit fields](maestro/fields/edit-fields.md)
+    * [Delete fields](maestro/fields/delete-fields.md)    
   * Adobe Maestro access {#adobe-maestro-access}
     * [Access information](maestro/access/access-information.md)
     * [Access overview](maestro/access/access-overview.md)

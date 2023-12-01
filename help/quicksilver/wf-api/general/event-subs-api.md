@@ -5,6 +5,7 @@ title: Event Subscription API
 description: Event Subscription API
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
 ---
 
@@ -49,17 +50,21 @@ The following Workfront objects are supported by event subscriptions.
 * Dashboard
 * Document
 * Expense
+* Field
 * Hour
 * Issue
 * Note
 * Portfolio
 * Program
 * Project
+* Record
+* Record Type
 * Report
 * Task
 * Template
 * Timesheet
 * User
+* Workspace
 
 For a list of fields supported by event subscription objects, see [Event subscription resource fields](../../wf-api/api/event-sub-resource-fields.md).
 
@@ -115,6 +120,10 @@ The subscription resource&nbsp;contains the following fields.
         <td scope="col">EXPNS</td> 
        </tr> 
        <tr> 
+        <td scope="col"><p>Field</p></td> 
+        <td scope="col"><p>FIELD</p></td> 
+       </tr> 
+      <tr> 
         <td scope="col"><p>Hour</p></td> 
         <td scope="col">HOUR</td> 
        </tr> 
@@ -139,6 +148,14 @@ The subscription resource&nbsp;contains the following fields.
         <td scope="col"><p>PROJ</p></td> 
        </tr> 
        <tr> 
+        <td scope="col"><p>Record</p></td> 
+        <td scope="col"><p>RECORD</p></td> 
+       </tr> 
+       <tr> 
+        <td scope="col"><p>Record Type</p></td> 
+        <td scope="col"><p>RECORD_TYPE</p></td> 
+       </tr> 
+       <tr> 
         <td scope="col"><p>Report</p></td> 
         <td scope="col"><p>PTLSEC</p></td> 
        </tr> 
@@ -157,6 +174,10 @@ The subscription resource&nbsp;contains the following fields.
        <tr> 
         <td scope="col">User</td> 
         <td scope="col">USER</td> 
+       </tr> 
+       <tr> 
+        <td scope="col">Workspace</td> 
+        <td scope="col">WORKSPACE</td> 
        </tr> 
       </tbody> 
      </table>

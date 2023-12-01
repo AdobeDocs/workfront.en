@@ -5,6 +5,7 @@ title: Deprecation of API-Internal
 description: Deprecation of API-Internal
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 45b42fe8-7ce3-441d-8fbc-b8db7f9b254e
 ---
 # Deprecation of API-Internal
@@ -30,8 +31,12 @@ https://<domainname>.my.workfront.com/attask/api/api-internal/proj/4c70…
 The following example shows URI that calls API-Unsupported: 
 
 ```
-https://<domainname>.my.workfront.com/attask/api/api-unsupported/proj/4c70...
+https://<domainname>.my.workfront.com/attask/api-unsupported/proj/4c70...
 ```
+
+>[!NOTE]
+>
+>API-Unsupported calls omit the `/api` section of the URL.
 
 The following example shows a URI that calls Version 15.0 of the API: 
 

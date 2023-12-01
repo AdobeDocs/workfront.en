@@ -3,10 +3,11 @@ title: Fourth Quarter 2023 Integration enhancements
 description: Fourth Quarter 2023 Integration enhancements
 author: Lisa
 feature: Product Announcements
+exl-id: 0e8952db-5103-4730-860b-e3d6088497ec
 ---
 # Fourth Quarter 2023 Integration enhancements
 
-This page describes all integration enhancements made with the Fourth Quarter 2023 release to the Preview environment. These enhancements will be made available in the Production environment with the 23.10 release.
+This page describes all integration enhancements made with the Fourth Quarter 2023 release to the Preview environment. These enhancements were made available in the Production environment with the 23.10 release.
 
 For a list of all changes available at this point in the Fourth Quarter 2023 release cycle, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 

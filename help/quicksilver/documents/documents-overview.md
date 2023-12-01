@@ -3,7 +3,7 @@ content-type: overview;reference
 product-area: documents
 navigation-topic: documents-navigation-topic
 title: Documents
-description: This section contains the following subsections - EDIT ME.
+description: Learn how to use documents.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog

@@ -3,7 +3,7 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Create Folders in [!DNL Workfront Proof]
-description: You can create sub-folders in either of the following ways - EDIT ME.
+description: You can create sub-folders in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 5a7c4c8d-3136-4ea2-8b2c-98eed06822b0

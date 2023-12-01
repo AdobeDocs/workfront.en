@@ -5,6 +5,7 @@ title: What's new in API version 12
 description: Workfront released API version 12 on November 12, 2020. API version 12 features the following changes from version 11
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 1ffba3b5-ab24-4ca2-a1ef-f7e5b77e776c
 ---
 # What's new in API version 12

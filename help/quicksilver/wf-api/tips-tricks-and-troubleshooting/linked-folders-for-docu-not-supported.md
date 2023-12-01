@@ -5,6 +5,7 @@ title: Linked folders are not supported for DOCU object
 description: Linked folders are not supported for DOCU object
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 33b5a998-f3e1-42a2-852e-fb862d770d50
 ---
 # Using the API to add a linked folder is not supported

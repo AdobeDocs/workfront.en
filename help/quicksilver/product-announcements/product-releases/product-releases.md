@@ -24,6 +24,11 @@ For information on helping your organization adjust smoothly to new releases, se
    <td>Other product releases</td> 
   </tr> 
   <tr data-mc-conditions=""> 
+   <td> <p>Releases in 2024</p> 
+    <ul> 
+    <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md" class="MCXref xref" xrefformat="{para}">First Quarter 2024 release overview</a> </p> 
+   <td> <ul>    <li> <p><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion release activity</a> </p> </li> </ul>   </td> 
+  <tr data-mc-conditions=""> 
    <td> <p>Releases in 2023</p> 
     <ul> 
     <li> <p><a href="/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md" class="MCXref xref" xrefformat="{para}">Fourth Quarter 2023 release overview</a> </p> <p> Includes releases: <ul><li>23.8</li><li>23.9</li><li>23.10</li></ul></p>
@@ -44,7 +49,9 @@ For information on helping your organization adjust smoothly to new releases, se
      <li> <p><a href="../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md" class="MCXref xref" xrefformat="{para}">22.2 Release overview</a> </p> </li> 
      <li> <p><a href="../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md" class="MCXref xref" xrefformat="{para}">22.1 Release overview</a> </p> </li> 
     </ul> </td> 
-   <td>&nbsp;</td> 
+   <td><ul> 
+     <li> <p><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion release activity</a> </p> </li> 
+    </ul></td> 
   </tr> 
   <tr> 
    <td> <p>Releases in 2021</p> 

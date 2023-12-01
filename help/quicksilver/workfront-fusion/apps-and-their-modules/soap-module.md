@@ -62,7 +62,7 @@ The [!UICONTROL SOAP] module is currently in beta and does not support:
 * Total digits restrictions
 * White space restrictions
 * Multiple parts in input and output messages. Only single part messages are supported
-* Custom XML Schema elements defined with the help of [[!UICONTROL SOAP] Encoding](http://schemas.xmlsoap.org) schemas and elements.
+* Custom XML Schema elements defined with the help of [[!UICONTROL SOAP] Encoding](https://schemas.xmlsoap.org) schemas and elements.
 
 >[!INFO]
 >

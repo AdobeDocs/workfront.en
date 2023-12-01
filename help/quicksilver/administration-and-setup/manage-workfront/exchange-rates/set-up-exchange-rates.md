@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: exchange-rates
-title: As an Adobe Workfront administrator, you can set up currency exchange rates in Workfront.
-description: Set up exchange rates
+title: Set up exchange rates
+description: As an Adobe Workfront administrator, you can set up currency exchange rates in Workfront.
 feature: System Setup and Administration
 role: Admin
 exl-id: 149c08de-fd3a-465a-afd1-0b53012d30d8

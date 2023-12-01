@@ -16,7 +16,7 @@ To find out what the current state of development is for a project, task, or iss
 
 For example, in this project, the status Planning indicates that the project's manager is currently planning aspects of the project such as its timeline, task assignments, and approvals.
 
-![](assets/statuses-overview.png)
+![Sample project status](assets/statuses-overview.png)
 
 Changing the status of a project, task, or issue is usually a manual process. However, there are times when the status of an issue is changed automatically, depending on other factors happening in the system.
 

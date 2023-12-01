@@ -3,7 +3,7 @@ content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
 title: Review proofs within Adobe Workfront
-description: This section contains the following articles - EDIT ME.
+description: Learn how to review proofs in Workfront.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog

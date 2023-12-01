@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: manage-your-users-and-contacts
 title: Tips, tricks, and troubleshooting for [!DNL Workfront Proof] users and contacts
-description: This section contains the following articles - EDIT ME.
+description: Learn how to troubleshoot Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog

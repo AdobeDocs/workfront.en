@@ -6,6 +6,7 @@ description: This article describes how you can associate approval processes wit
 author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
+exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 ---
 # Associate a new or existing approval process with work
 
