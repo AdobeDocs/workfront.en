@@ -69,10 +69,6 @@ If you use Fusion in the Adobe Unified Shell, you can access the Dev Tool from t
 1. Right click in an empty area of the page (not on a module).
 1. Select **Open Devtool**.
 
->[!NOTE]
->
->Currently, only the **Live Stream** and **Scenario Debugger** areas of the Devtool is available to users in the Unified Experience. The **Tools** area is not available in the Unified Experience at this time.
-
 ### Access the Devtool in the classic [!DNL Fusion] experience
 
 To use the Devtool in the classic [!DNL Fusion] experience, you must install a [!DNL Chrome] extension. You can then use this extension from the [!DNL Chrome] Developer Tools.
@@ -187,10 +183,6 @@ The Scenario Debugger is useful for more complex scenarios. It displays the hist
 1. View request details by clicking the desired operation.
 
 ### Tools
-
->[!NOTE]
->
->This area is not currently available to users in the Adobe Unified Experience.
 
 The [!DNL Workfront Fusion] Devtool features tools that make setting up your scenario easier.
 
