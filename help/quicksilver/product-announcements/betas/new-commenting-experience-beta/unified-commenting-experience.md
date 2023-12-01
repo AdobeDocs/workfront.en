@@ -27,7 +27,7 @@ After the monthly releases to Production, the same features are also available i
 >
 >The beta program for the new commenting experience started in April 2023 and ended in October 2023. The beta program for the new commenting experience closed with the October 2023 release. 
 >
->The features described in this article were released to all customers in October 2023, unless otherwise specified. 
+>Starting in October 2023, all new features for the new commenting experience are released to all customers. For more information, see the current Release overview page for each release. 
 
 <!--An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
 
@@ -496,9 +496,45 @@ The following table illustrates the features that will be available in the new c
 
 ## Release timeline 
 
-For information about the features recently released to the new commenting experience, as well as a release timeline, see [New commenting beta experience release activity](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).  
+For information about the features released to the new commenting experience during the beta time frame, see [New commenting beta experience release activity](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).  
 
 For more information about managing updates for Workfront objects, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+
+The following is a planned timeline with key milestones for the release of the new commenting experience to the Production environment. In addition to the milestones below, we will continue to improve the commenting experience with smaller enhancements. 
+
+For information about the features released for the new commenting experience after the beta period closed, see the current release overview page. 
+
+The following is a planned timeline for the release of the new commenting experience:
+
+* With the 23.2 release (April 6, 2023): 
+    * Launch the commenting experience Beta for issues
+    * Release the new commenting experience for goals (as the only experience)
+* With the 23.3 release (July 20, 2023): 
+    * Launch the commenting experience Beta for projects, tasks, and documents. 
+    * Release the new commenting experience for cards in the Boards area (as the only experience)
+* During the Fourth Quarter 2023 release (limited release, only available to customers that choose the fast release): 
+    * Release the new commenting experience for templates, template tasks, programs, portfolios, teams, users, and timesheets (as the only experience)
+    * Update the commenting experience Beta for projects, tasks, issues, and documents to become the default option. The "Beta" label is removed. 
+* With the Fourth Quarter 2023 (23.10) release (October 26, 2023)
+    * Release the new commenting experience for templates, template tasks, programs, portfolios, teams, users, and timesheets (as the only experience) to all customers. 
+    * Make the new commenting experience for projects, tasks, issues, and documents the default option. 
+    
+    >[!IMPORTANT]
+    >
+    >    This will conclude the Beta stage of the new commenting experience. 
+
+    * Make all features released for the new commenting experience starting with this date part of the current regular monthly and quarterly releases.
+* End of 2023: 
+    * Keep the legacy commenting experience as a secondary option for the following objects: projects, tasks, issues, and documents. The new commenting experience is the default option for all users for these objects. 
+    * Make the new commenting experience the only experience for all other objects. 
+
+    >[!NOTE]
+    >
+    >    Iterations will continue to have the legacy commenting experience. The new commenting experience will not be available for iterations. 
+
+* Second quarter of 2024 (April 2024):
+
+    * Remove the option to switch back to the legacy commenting stream and make the new commenting stream the only experience for all objects, with the exception of Iterations. 
 
 ## Locate the new commenting experience
 
