@@ -254,7 +254,7 @@ The following are the main Maestro objects and concepts:
 
         ![](assets/table-view-example.png)
 
-    * **Timeline view**: Displays records that have at least two Date fields in a chronological timeline. 
+    * **Timeline view**: Displays records that have at least two Date-type fields in a chronological timeline. 
 
         ![](assets/grouping-applied-in-timeline-view.png)
 
@@ -367,12 +367,8 @@ The following table illustrates the main features that will be available in Maes
 |     Submit requests                                |                               |                                  |   ✓              |
 |     Creative brief                                 |                               |                                  |   ✓              |
 |     Customize the color and icon of a record                                 |      ✓                         |                                  |                 |
-<!--
-Add another row for Rich text formatting:
-
-
-|     Rich Text formatting for Paragraph fields                                 |      ✓                         |                                  |                 |
---> 
+|     Add comments to records                                 |                               |                         ✓         |                 |
+|     Rich Text formatting for Paragraph fields                                 |      ✓                         |                                  |                 | 
 
 ## Maestro release activity 
 
