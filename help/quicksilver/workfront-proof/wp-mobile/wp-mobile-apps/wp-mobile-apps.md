@@ -1,13 +1,8 @@
 ---
-product-previous: workfront-proof
-product-area: documents
-navigation-topic: mobile-workfront-proof
 title: Workfront Proof mobile apps
 description: Learn to use the Workfront Proof mobile app.
-author: Courtney
-feature: Workfront Proof, Digital Content and Documents
-recommendations: noDisplay, noCatalog
-exl-id: 8a868212-cf8e-4752-8aa6-ed74f10f5cea
+hide: true
+hidefromtoc: true
 ---
 # Workfront Proof mobile apps
 

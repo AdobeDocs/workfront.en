@@ -1,14 +1,8 @@
 ---
-content-type: reference
-product-previous: workfront-proof
-product-area: documents
-navigation-topic: workfront-proof-navigation-topic
 title: Workfront Proof mobile
 description: Learn about Workfront Proof mobile.
-author: Courtney
-feature: Workfront Proof, Digital Content and Documents
-recommendations: noDisplay, noCatalog
-exl-id: 5f2280d0-8a4d-4daa-b5d9-ce347d2892ed
+hide: true
+hidefromtoc: true
 ---
 # [!DNL Workfront Proof] mobile
 

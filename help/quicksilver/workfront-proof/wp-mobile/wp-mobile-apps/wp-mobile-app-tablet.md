@@ -1,13 +1,8 @@
 ---
-content-type: overview;reference
-product-previous: workfront-proof
-product-area: documents
-navigation-topic: workfront-proof-mobile-apps
 title: Workfront Proof mobile app for tablets
 description: The [!DNL Workfront Proof] tablet app lets you conveniently review and approve your proofs when you're on the go. The app is available for download for everyone, you don't have to be a [!DNL Workfront Proof] user to be able to review proofs on your tablet or your phone.
-author: Courtney
-feature: Workfront Proof, Digital Content and Documents
-exl-id: 7a3f1d96-103d-41cf-8470-3fc69e4bd507
+hide: true
+hidefromtoc: true
 ---
 # [!DNL Workfront Proof] mobile app for tablets
 
