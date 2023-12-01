@@ -134,6 +134,7 @@ feature-set: Workfront
       * [21.1 Mobile enhancements](product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md)
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
+      * [Workfront Fusion release activity: Week of November 27, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-30.md)
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
       * [Workfront Fusion release activity: Week of November 13, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-14.md)
       * [Workfront Fusion release activity: Week of October 30, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-10-26.md)
@@ -2144,6 +2145,7 @@ feature-set: Workfront
     * [Adobe Creative Cloud Libraries modules](workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)
     * [Adobe Campaign Classic modules](workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)
     * [Adobe Experience Manager Assets modules](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)    
+    * [Adobe Experience Manager Forms module](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)    
     * [Adobe Journey Optimizer modules](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
     * [Adobe PDF Services modules](workfront-fusion/apps-and-their-modules/pdf-modules.md)
     * [Airtable modules](workfront-fusion/apps-and-their-modules/airtable-modules.md)
