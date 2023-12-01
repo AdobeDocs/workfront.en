@@ -22,9 +22,9 @@ hide: yes
 
 >[!IMPORTANT]
 >
->The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
 >
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
+>Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use Maestro capabilities.
 >
 >Contact your account representative for more information about joining the beta program for Maestro.
 >
@@ -119,7 +119,7 @@ Adding columns to a view is identical to adding fields to a record type.
 You can add up to 500 fields (or columns) in a table view. 
 
 1. Go to a record type page and select a **Table** view from the view drop-down menu.
-1. Start adding fields (or columns), as described in the article [Create fields](../architecture-and-fields/create-fields.md). 
+1. Start adding fields (or columns), as described in the article [Create fields](../fields/create-fields.md). 
 
     The columns you add are visible to all users who access the record type and are added as new fields on the Details page of the records of the selected record type.
 
@@ -232,7 +232,7 @@ To add a filter to a table view:
 
         >[!TIP]
         >
-        > You cannot select linked fields. For information, see [Create fields](../architecture-and-fields/create-fields.md). 
+        > You cannot select linked fields. For information, see [Create fields](../fields/create-fields.md).
 
         <table>
         <thead>
@@ -406,7 +406,7 @@ To sort <!--ungrouped (add this when sorting for groupings will be available--> 
 
     >[!TIP]
     >
-    > You cannot select linked fields. For information, see [Create fields](../architecture-and-fields/create-fields.md). 
+    > You cannot select linked fields. For information, see [Create fields](../fields/create-fields.md). 
 
 1. (Optional) In the **Sort records by** box, click the **x** icon to the right of a sorting field to remove the sort
 

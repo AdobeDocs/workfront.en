@@ -69,10 +69,6 @@ If you use Fusion in the Adobe Unified Shell, you can access the Dev Tool from t
 1. Right click in an empty area of the page (not on a module).
 1. Select **Open Devtool**.
 
->[!NOTE]
->
->Currently, only the **Live Stream** area of the Devtool is available to users in the Unified Shell.
-
 ### Access the Devtool in the classic [!DNL Fusion] experience
 
 To use the Devtool in the classic [!DNL Fusion] experience, you must install a [!DNL Chrome] extension. You can then use this extension from the [!DNL Chrome] Developer Tools.

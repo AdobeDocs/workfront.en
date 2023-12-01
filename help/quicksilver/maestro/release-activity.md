@@ -10,9 +10,9 @@ exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
 
 >[!IMPORTANT]
 >
->The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
 >
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
+>Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use Maestro capabilities. 
 >
 >Contact your account representative for more information about joining the beta program for Maestro.
 >
@@ -29,6 +29,57 @@ The released features are listed in the order of their release, with the most re
 This section lists the features and patches that have been released after the launch of the Maestro closed beta program, on May 22, 2023. 
 
 The features are released weekly and are listed in the order of their release, with the most recent first. Customers who are participating in the Maestro closed beta program can access all features in their Preview and Production environments.
+
+<!--
+## Week of November 27, 2023
+
+### Maestro permissions for users and groups
+
+Production: November 28, 2023
+
+>[!IMPORTANT]
+>
+>This functionality is not yet available in Preview.
+
+You can now share a workspace with users and groups. You can set their permissions to different levels, depending on what information they need to view or edit in a Maestro workspace. After you share permissions to a workspace, users have permissions to the record types, records, and fields in that space.
+
+The following are the permissions levels for Maestro workspaces:  
+
+* None: Users cannot access any workspaces in Maestro, even if the Maestro area is shared with them through a layout template. 
+
+* View: Users can view workspaces that are shared with them. They can also view record types, and records from the shared workspace. 
+
+* Contribute: Users can create, edit, or delete records in the workspace that is shared with them.  They cannot create or edit record types or workspaces ones shared with them.  
+
+* Manage: Users can create, edit, and delete record types, records, and fields in workspaces that are shared with them. They cannot create workspaces.  
+
+Only Workfront administrators can create, edit, or delete workspaces and all information associated with them.  
+
+For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
+
+## Week of November 27, 2023
+
+### Copy and paste information from one field to another in the Maestro table view
+
+Preview and production: November 28, 2023
+
+You can now copy and paste information from one field to another field of the same type in a Maestro record type table view.  
+
+Consider the following:  
+
+* You cannot copy information from another source, other than a Maestro field of the same type as the field you paste the information in. 
+
+* You cannot copy and paste field values for fields that display in the Details area of a record.  
+
+* You cannot copy and paste field values for the following field types:  
+
+    * People 
+
+    * System fields 
+
+    * Linked fields created as a result of connecting records  
+
+For more information, see [Edit records](../maestro/records/edit-records.md). 
 
 ## Week of November 6, 2023
 
@@ -58,7 +109,7 @@ We have introduced the following field types for Maestro records:
 
 The field values of the fields created from these field types are read-only and capture the name of the user who created or last modified a record, or the date when the record was created or last modified. 
 
-For more information, see [Create fields](../maestro/architecture-and-fields/create-fields.md).
+For more information, see [Create fields](../maestro/fields/create-fields.md).
 
 ### Navigate to Workfront objects from a Maestro record
 
@@ -94,8 +145,7 @@ For more information, see [Create records](../maestro/records/connect-records.md
 
 Preview and production: October 16, 2023
 
-You can now add a People-type field to Maestro record types. You can use People-type fields to associate existing users with a record. For information, see [Create fields](../maestro/architecture-and-fields/create-fields.md). 
-
+You can now add a People-type field to Maestro record types. You can use People-type fields to associate existing users with a record. For information, see [Create fields](../maestro/fields/create-fields.md). 
 
 ### Rich Text- format for Paragraph fields
 
@@ -168,7 +218,7 @@ Consider the following:
 
     For more information, see the following articles:
 
-    * [Connect record types](../maestro/architecture-and-fields/connect-record-types.md)
+    * [Connect record types](../maestro/architecture/connect-record-types.md)
     * [Connect records](../maestro/records/connect-records.md)
 
 ### URL support for single-line text fields 

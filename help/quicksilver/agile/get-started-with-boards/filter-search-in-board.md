@@ -96,7 +96,7 @@ By default, only active cards are displayed on a board. You can filter the board
 
    >[!NOTE]
    >
-   >The [!UICONTROL Archived Cards] section is not available in the filter if you have not turned on the configuration setting to display archived cards.
+   >The [!UICONTROL Archived Cards] section is not available in the filter if you have not turned on the configuration setting to display archived cards. For more information, see [Customize which fields are displayed on a card](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
 1. Select **[!UICONTROL Archived cards]** again to clear the option and display only active cards.
 

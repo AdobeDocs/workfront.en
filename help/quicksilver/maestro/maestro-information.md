@@ -26,9 +26,9 @@ As a marketing operations leader, you can use Adobe Maestro to organize work acr
 
 >[!IMPORTANT]
 >
->The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
 >
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers.  
+>Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use Maestro capabilities.
 >
 >Contact your account representative for more information about joining the beta program for Maestro.
 >
@@ -56,7 +56,8 @@ Access the following articles for an overview of Adobe Maestro:
 
 The following sections contain articles that describe in detail the Maestro features that are currently available: 
 
-* [Access information](../maestro/access/access-information.md): Information about the access needed to use Adobe Maestro.
-* [Architecture information](../maestro/architecture-and-fields/architecture-and-fields-information.md): In-depth information about the architecture of Adobe Maestro, with step-by-step instructions about how you can create and manage workspaces, record types, and fields. 
+* [Access information](../maestro/access/access-information.md): Information about the access and permissions needed to use Adobe Maestro.
+* [Architecture information](../maestro/architecture/architecture-information.md): In-depth information about the architecture of Adobe Maestro, with step-by-step instructions about how you can create and manage workspaces and record types.
+* [Fields information](../maestro/fields/fields-information.md): In-depth information and step-by-step instructions about creating custom fields for Maestro record types. 
 * [Records information](../maestro/records/records-information.md): In-depth information and step-by-step instructions about how you can create and manage records. 
-* [Views information](../maestro/views/views-information.md): In-depth information about Maestro views and how to manage them.
+* [Views information](../maestro/views/views-information.md): In-depth information about Maestro views and how to manage them when viewing records in a record type page.
