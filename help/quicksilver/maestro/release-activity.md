@@ -57,6 +57,30 @@ Only Workfront administrators can create, edit, or delete workspaces and all inf
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
 
+## Week of November 27, 2023
+
+### Copy and paste information from one field to another in the Maestro table view
+
+Preview and production: November 28, 2023
+
+You can now copy and paste information from one field to another field of the same type in a Maestro record type table view.  
+
+Consider the following:  
+
+* You cannot copy information from another source, other than a Maestro field of the same type as the field you paste the information in. 
+
+* You cannot copy and paste field values for fields that display in the Details area of a record.  
+
+* You cannot copy and paste field values for the following field types:  
+
+    * People 
+
+    * System fields 
+
+    * Linked fields created as a result of connecting records  
+
+For more information, see [Edit records](../maestro/records/edit-records.md). 
+
 ## Week of November 6, 2023
 
 ### Grouping for the table view

@@ -9,7 +9,11 @@ exl-id: 837b5a23-162d-4862-b6fd-be3048ab0269
 
 This page describes all update stream and notification enhancements made with the First Quarter 2024 release to the Preview environment. These enhancements will be made available in the Production environment with the First Quarter 2024 release.
 
-For a list of all changes available at this point in the First Quarter 2024 release cycle, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+For a list of all changes available at this point in the First Quarter 2024 release cycle, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+## The new commenting experience captures all information for projects, tasks, issues, and documents
+
+Projects, tasks, issues, and documents display all updates in the new commenting experience area, since the beginning of your Workfront instance. Prior to this enhancement, the new commenting experience captured only updates starting with January 2019 for these objects. 
 
 ## Search for a comment or user in the Updates section
 
