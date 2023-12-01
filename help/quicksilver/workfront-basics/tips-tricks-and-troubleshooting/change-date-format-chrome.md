@@ -43,7 +43,7 @@ You can change date formats in Workfront in the following ways, depending on wha
 
    ![](assets/email-locale-for-user-profile-highlighted.png)
 
-   For more information, see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/). 
+   For more information, see [Edit a user's profile](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md). 
 
 <!--drafted because we should not document steps for a third-party application
 
