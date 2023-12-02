@@ -99,9 +99,9 @@ For more information, see
 
 Click the following links to download the client certificates.
 
-* [Client certificate - Production environment](https://cdn.experience.workfront.com/Documentation/Event+Subscriptions/event_subscription_dec_2022_production.crt)
-* [Client certificate - Preview environment](https://cdn.experience.workfront.com/Documentation/Event+Subscriptions/event_subscription_dec_2022_preview.crt)
-* [Client certificate - Sandbox environment](https://cdn.experience.workfront.com/Documentation/Event+Subscriptions/event_subscription_dec_2022_sandboxes.crt)
+* [Client certificate - Production environment](assets/event_subscription_nov_2023_production.crt)
+* [Client certificate - Preview environment](assets/event_subscription_nov_2023_preview.crt)
+* [Client certificate - Sandbox environment](assets/event_subscription_nov_2023_sandboxes.crt)
 
 >[!NOTE]
 >
