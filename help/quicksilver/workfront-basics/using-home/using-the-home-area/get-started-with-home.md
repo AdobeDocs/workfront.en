@@ -1,44 +1,53 @@
 ---
 content-type: overview
 navigation-topic: use-the-home-area
-title: Get started with Home
-description: There are two ways to view your work in the [!UICONTROL Home] area, either from the [!UICONTROL Work List] or the Calendar.
-author: Lisa
+title: Get started with [!UICONTROL Home]
+description: There are two ways to view your work in the [!UICONTROL Home] area, either from the [!UICONTROL Work List] or the [!UICONTROL Calendar].
+author: Nolan
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
 ---
 # Get started with [!UICONTROL Home]
 
-There are two ways to view your work in the [!UICONTROL Home] area, either from the [!UICONTROL Work List] or the Calendar.
+This article describes an overview of the current [!UICONTROL Home] area in [!DNL Adobe Workfront]. For information about working in the new [!UICONTROL Home], see [Get started with New Home in Adobe Workfront](../new-home/get-started-with-new-home.md).
+
+There are two ways to view your work in the current [!UICONTROL Home] area:
+
+* From the [!UICONTROL Work List] 
+* From the [!UICONTROL Calendar].
 
 ## Work List
 
-The [!UICONTROL Work List] allows you to view all of your assigned work in one place:
+You can view all of your assigned work in one place, in the [!UICONTROL Work List]:
 
 ![[!UICONTROL Work List] panels](assets/worklist-and-right-panel-home.png)
 
-A. Use the left panel to filter, sort, and select work assigned to you.
+Review the following sections in the current [!UICONTROL Home] area, as highlighted in the above image: 
 
-B. After selecting a work item in the left panel, use the right panel to interact with custom fields, make updates, and log time.
+* **A**: Use the left panel to filter, sort, and select work assigned to you.
 
-For more information on using the [!UICONTROL Home Work List], see the following articles:
+* **B**: After selecting a work item in the left panel, use the right panel to interact with custom fields, make updates, and log time.
+
+For more information about using the [!UICONTROL Home Work List], see the following articles:
 
 * [Display items in the [!UICONTROL Work List] in the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
 * [Create work items from the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
 
 ## Calendar
 
-The Calendar allows you to visualize your work by displaying when work items are due and allowing you to block out time to complete them:
+You can visualize your work by displaying when work items are due and you can block out time to complete them, by reviewing your work in the [!UICONTROL Calendar] in the [!UICONTROL Home] area: 
 
 ![](assets/calendar-home-nwe-350x114.png)
 
-A. Use the [!UICONTROL Calendar] view to create a visual map of the work you need to complete. Simply click and drag work items from the [!UICONTROL Work List] on to the Calendar to block out time to work.
+Review the following sections in the current [!UICONTROL Home] area, as highlighted in the above image: 
 
-B. Use the Calendar's sync option to sync with your [!DNL Outlook] calendar. Manage meetings and work all in one place.
+* **A**: Use the [!UICONTROL Calendar] view to create a visual map of the work you need to complete. Simply click and drag work items from the [!UICONTROL Work List] on to the [!UICONTROL Calendar] to block out time to work.
 
-C. Use the [!UICONTROL Details] button to open a new right panel where you can view more information about the work item.
+* **B**: Use the [!UICONTROL Calendar]'s sync option to sync with your [!DNL Outlook] calendar. Manage meetings and work all in one place.
 
-D. Use the due bar to keep track of when work assigned to you is due.
+* **C**: Use the [!UICONTROL Details] button to open a new right panel where you can view more information about the work item.
+
+* **D**: Use the due bar to keep track of when work assigned to you is due.
 
 For more information on how to use the Home Calendar, see [Use the [!UICONTROL Home Calendar] view](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
 
