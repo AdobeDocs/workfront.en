@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;setup
 navigation-topic: administration-and-setup
 title: Administration and setup
-description: Find the information you need to manage the Workfront system in this section.
+description: Find the information you need to manage the Workfront system.
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
@@ -12,7 +12,7 @@ exl-id: f80bb267-be96-41d4-98c5-398bde66499e
 ---
 # Administration and setup
 
-This section contains the following subsections:
+Administrators have the ability to control and customize the user experience in Workfront. Use the links below to get started: 
 
 * [Get started with Adobe Workfront administration](../administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
   <!--
