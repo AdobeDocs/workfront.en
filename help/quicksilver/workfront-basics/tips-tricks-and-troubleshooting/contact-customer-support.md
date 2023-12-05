@@ -4,6 +4,7 @@ navigation-topic: tips-tricks-and-troubleshooting-workfront-basics
 title: Contact Customer Support
 description: As an Adobe Workfront customer, you can contact the Workfront Customer Support team by phone or by submitting a ticket online. This article includes instructions on contacting Customer Support and on viewing and managing your support cases.
 feature: Get Started with Workfront
+author: Becky
 exl-id: fa8e0559-7af6-4049-9c24-76d1bcbebf84
 ---
 # Contact Customer Support
@@ -47,7 +48,9 @@ You can submit a support ticket from the self-serve [!DNL Experience League] por
 
 1. Click **[!UICONTROL Open case]** in the left sidebar.
 
+<!--
    ![](assets/left-nav-bar-for-exl-support-portal.png)
+-->
 
    The [!UICONTROL case creation] page opens where you can enter your product name ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion], etc.), case title, and case description.
 
@@ -67,7 +70,9 @@ You can submit a support ticket from the self-serve [!DNL Experience League] por
 
    The case is submmitted, and the [!UICONTROL My cases] page displays.
 
-   ![](assets/all-cases-list-exl-support-portal.png)
+   <!--
+   [](assets/all-cases-list-exl-support-portal.png)
+   -->
 
 If you have any questions or problems submitting a request, call the Customer Support team.
 
