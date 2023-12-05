@@ -8,7 +8,7 @@ author: Lisa
 recommendations: noDisplay, noCatalog
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
 ---
-# Navigate [!DNL Adobe Workfront]
+# Navigate [!DNL Adobe Workfront]: article index
 
 Review these articles to get an understanding of how to navigate Adobe Workfront and learn Workfront terminology.
 

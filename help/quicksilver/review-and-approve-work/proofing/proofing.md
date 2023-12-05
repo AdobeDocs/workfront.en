@@ -9,7 +9,7 @@ feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 34814016-e030-4e21-a597-686c4107eff4
 ---
-# Proofing
+# Proofing: article index
 
 Review and comment in the same document where creative teams work. With Workfront Proofing, you can request feedback, see comments, and get notifications for pending and completed approvals –– all while maintaining an audit trail of comments and versions.
 

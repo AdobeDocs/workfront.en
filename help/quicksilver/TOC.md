@@ -801,7 +801,7 @@ feature-set: Workfront
   * [Adobe Workfront browser requirements](workfront-basics/workfront-browser-requirements.md)
   * [Supported languages in Adobe Workfront](workfront-basics/supported-languages-in-workfront.md)
   * Navigate Adobe Workfront {#navigate}
-    * [Navigate Adobe Workfront](workfront-basics/navigate-workfront/navigate-workfront.md)
+    * [Navigate Adobe Workfront: article index](workfront-basics/navigate-workfront/navigate-workfront.md)
     * Adobe Workfront Search {#search}
       * [Adobe Workfront Search](workfront-basics/navigate-workfront/search/search.md)
       * [Search Adobe Workfront](workfront-basics/navigate-workfront/search/search-workfront.md)

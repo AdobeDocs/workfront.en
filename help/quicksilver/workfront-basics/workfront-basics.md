@@ -15,7 +15,7 @@ This section contains the following subsections:
 * [Glossary of Adobe Workfront terminology](../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md) 
 * [Adobe Workfront browser requirements](../workfront-basics/workfront-browser-requirements.md) 
 * [Supported languages in Adobe Workfront](../workfront-basics/supported-languages-in-workfront.md) 
-* [Navigate Adobe Workfront](../workfront-basics/navigate-workfront/navigate-workfront.md) 
+* [Navigate Adobe Workfront: article index](../workfront-basics/navigate-workfront/navigate-workfront.md) 
 * [Home](../workfront-basics/using-home/home.md) 
 * [Update work items and view updates](../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md) 
 * [Work with custom forms](../workfront-basics/work-with-custom-forms/work-with-custom-forms.md) 
