@@ -49,7 +49,7 @@ You must have the following to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>You must be a [!DNL Workfront] administrator. For information on [!DNL Workfront] administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
+   <td>You must be a [!DNL Workfront] administrator. For information on [!DNL Workfront] administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,7 +58,7 @@ You must have the following to perform the steps in this article:
 
 ## Prerequisites
 
-You must have any necessary access or permissions in [!DNL SharePoint] to modify or configure your organization's [!DNL SharePoint].
+You must have any necessary access or permissions in [!DNL SharePoint] to modify or configure your [!DNL SharePoint] integration.
 
 ## Link documents through the new SharePoint integration
 
@@ -78,7 +78,7 @@ For instructions on linking documents through the new [!DNL SharePoint] integrat
 
 ### Link documents from SharePoint
 
-For instructions on linking documents from SharePoint through the new [!DNL SharePoint] integration, see [Link an external document to [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
+For instructions on linking documents from SharePoint through the new [!DNL SharePoint] integration, see [Link an external document to [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront).
 
 ### Send documents to SharePoint
 
@@ -109,9 +109,9 @@ The first time a user adds a document to [!DNL Workfront] from [!DNL SharePoint]
 
 | Access | Reason |
 |---|---|
-| Have full access to your files | Allows [!DNL Workfront] to access a user's files to link asset. When documents are sent from [!DNL Workfront] to [!DNL SharePoint], [!DNL Workfront] requires access to create the asset. |
+| Have full access to your files | Allows [!DNL Workfront] to access a user's files to link assets. When documents are sent from [!DNL Workfront] to [!DNL SharePoint], [!DNL Workfront] requires access to create the asset. |
 | Read items in all site collections | Allows [!DNL Workfront] to read assets to enable user navigation. | 
-| Edit or delete items in all site collections | Allows [!DNL Workfront] to create assets in sites and site collection. Delete is used only when cleaning up after unsuccessful link attempts.|
+| Edit or delete items in all site collections | Allows [!DNL Workfront] to create assets in sites and site collections. Delete is used only when cleaning up after unsuccessful link attempts.|
 | Maintain access to data you have given it access to | Allows [!DNL Workfront] to generate a refresh token. |
 | Sign in and read user profile | Allows [!DNL Workfront] to use the access token to act of behalf of the user, through the OAuth2 login flow. |
 
