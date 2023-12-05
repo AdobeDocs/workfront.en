@@ -167,6 +167,7 @@ After permssions - replace the table with:
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>--> 
 
+
 ## Considerations about connecting record types
 
 * You can connect the following entities in Maestro:
