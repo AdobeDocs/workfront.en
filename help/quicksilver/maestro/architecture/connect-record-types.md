@@ -170,7 +170,7 @@ After permssions - replace the table with:
 
 ## Considerations about connecting record types
 
-Consider the following: 
+Consider the following:
 
 * You can connect the following entities in Maestro:
 
@@ -216,7 +216,7 @@ Consider the following:
 
 <!--when changes here, also update the article for "Connect records"-->
 
-1. {{step1-to-maestro}}
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/dots-main-menu.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/lines-main-menu.png) in the upper-left corner, then click **[!UICONTROL Maestro]**.
 
     The last-accessed workspace should open by default. 
 
