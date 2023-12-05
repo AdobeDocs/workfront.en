@@ -2333,7 +2333,7 @@ feature-set: Workfront
     * [Create an Anaplan list item from an Adobe Workfront campaign request](workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
     * [Apply an Anaplan budget allocation to an Adobe Workfront campaign request or campaign project](workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
 * Workfront Proof {#workfront-proof}
-  * [Workfront Proof](workfront-proof/workfront-proof.md)
+  * [Workfront Proof: article index](workfront-proof/workfront-proof.md)
   * Get started with Workfront Proof {#get-started-wf-proof}
     * [Getting started with Workfront Proof](workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md)
     * Workflow examples {#workflow-examples}
