@@ -30,9 +30,9 @@ You can contact [!DNL Workfront Customer Support] 7 days a week, 24 hours a day,
 
 You can submit a support ticket from the self-serve [!DNL Experience League] portal.
 
->[!CAUTION]
+>[!IMPORTANT]
 >
->Only authorized support contacts (or entitled customers) can submit online support tickets.
+>Only authorized support contacts (or support entitled users) can submit online support tickets.
 
 
 1. From the [[!DNL Experience League]](https://experienceleague.adobe.com) website, click **[!UICONTROL Support]**  at the top of the page.
