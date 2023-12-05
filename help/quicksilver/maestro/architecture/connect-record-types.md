@@ -170,6 +170,8 @@ After permssions - replace the table with:
 
 ## Considerations about connecting record types
 
+Consider the following: 
+
 * You can connect the following entities in Maestro:
 
     * Two operational record types
