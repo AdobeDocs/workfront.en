@@ -675,6 +675,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
          <li>They are automatically given Manage permissions to the template. </li> 
          <li>They are added to the project team and are automatically given Manage permissions to the project created from the template. </li> 
          <li>They become the Project Owner, when the project is created from this template. </li> 
+         <li> If the user designated as the Template Owner has limited access to templates or projects from their access level, their Manage permissions on the template and on the projects will be limited. For example, if they have only View access for templates or projects in their access level, they will automatically receive View permissions on the template and the project when they are designated as the Template Owner.</li>
          </ul></td> 
        </tr> 
        <tr> 
