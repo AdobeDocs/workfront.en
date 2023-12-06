@@ -28,9 +28,9 @@ You must have the following to perform the steps in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td>
-   <p>Current plan: Standard</p>
+   <p>New plan: Standard</p>
    <p>or</p>
-   <p>Legacy plan: Plan</p></td> 
+   <p>Current plan: Plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Access level configurations*</td> 
