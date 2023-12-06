@@ -386,7 +386,7 @@ feature-set: Workfront
       * [Adobe Workfront and Frame.io native integration alpha: overview](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
       * [Adobe Workfront and Frame.io native integration alpha: features](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
 * Administration and setup {#administration-and-setup}
-  * [Administration and setup](administration-and-setup/administration-and-setup.md)
+  * [Administration and setup: article index](administration-and-setup/administration-and-setup.md)
   * Get started with administration {#get-started-administration}
     * [Get started](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
     * [Define objectives for implementation](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)

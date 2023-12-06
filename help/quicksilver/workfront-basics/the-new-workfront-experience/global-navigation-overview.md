@@ -115,7 +115,7 @@ Below these options in the [!UICONTROL Main Menu], you can access:
  <tbody> 
   <tr> 
    <td> <p class="bold">[!UICONTROL Setup]</p> </td> 
-   <td> <p>Clicking <b>[!UICONTROL Setup]</b> takes you to the [!UICONTROL Setup] area where you can configure different aspects of your [!DNL Workfront] account. Depending on your access settings, what you can configure may be limited.</p> <p>For more information on the [!UICONTROL Setup] area, see <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">Administration and setup</a>.</p> </td> 
+   <td> <p>Clicking <b>[!UICONTROL Setup]</b> takes you to the [!UICONTROL Setup] area where you can configure different aspects of your [!DNL Workfront] account. Depending on your access settings, what you can configure may be limited.</p> <p>For more information on the [!UICONTROL Setup] area, see <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">Administration and setup: article index</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p class="bold">[!UICONTROL Help]</p> </td> 

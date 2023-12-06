@@ -3,7 +3,7 @@ content-type: overview
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
 title: Timesheets overview
-description: You can use timesheets to track the time that you spend on work. For information about the timesheet layout in Adobe Workfront, see Understand the Timesheet layout.
+description: You can use timesheets to track the time that you spend on work.
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
@@ -12,9 +12,9 @@ exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
 
 You can use timesheets to track the time that you spend on work in Adobe Workfront.
 
-As a Workfront or group administrator, you can create timesheets and associate them with your users. For information about creating timesheets, see [Create and manage timesheets](../create-and-manage-timesheets/create-and-manage-timesheets.md). 
+If you are a Workfront or group administrator, you can create timesheets and associate them with your users. For information about creating timesheets, see [Create and manage timesheets](../create-and-manage-timesheets/create-and-manage-timesheets.md). 
 
-A timesheet is a grid-like table that displays work items and a calendar area. You can log time for items and associate it with the day in which the work was preformed. This tracks your actual work time in Workfront. There is also an area in the timesheet where you can log time for non-work-related items, like meetings, training, or time away from the office. 
+You can log time for items and associate it with the day in which the work was preformed. This tracks your actual work time in Workfront. There is also an area in the timesheet where you can log time for non-work-related items, like meetings, training, or time away from the office. 
 
 For information about the timesheet layout in Adobe Workfront, see [Understand the Timesheet layout](../../timesheets/timesheets/timesheet-layout.md).
 

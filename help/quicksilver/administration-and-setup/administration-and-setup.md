@@ -3,14 +3,14 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;setup
 navigation-topic: administration-and-setup
-title: Administration and setup
+title: "Administration and setup: article index"
 description: Find the information you need to manage the Workfront system.
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: f80bb267-be96-41d4-98c5-398bde66499e
 ---
-# Administration and setup
+# Administration and setup: article index
 
 Administrators have the ability to control and customize the user experience in Workfront. Use the links below to get started: 
 
