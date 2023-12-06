@@ -51,7 +51,7 @@ For information about all areas of Workfront where you can log time, see [Log ti
 
 To access a timesheet: 
 
-
+{{step-1-to-timesheets}}
 
     The Timesheets area displays and all timesheets that belong to you or you have access to view display, by default. 
 
