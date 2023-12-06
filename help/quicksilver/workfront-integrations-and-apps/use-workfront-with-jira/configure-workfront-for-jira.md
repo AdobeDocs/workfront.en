@@ -29,7 +29,7 @@ You must have the following:
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL [!DNL Adobe Workfront] plan]*</td> 
-   <td><p>New plan: [!UICONTROL Prime] or higher</p>
+   <td><p>New plan: Any</p>
        <p>or</p>
        <p>Current plan: [!UICONTROL Pro] or higher</p>
    </td> 
