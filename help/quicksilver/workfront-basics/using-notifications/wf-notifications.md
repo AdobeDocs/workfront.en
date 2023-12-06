@@ -1,19 +1,19 @@
 ---
 content-type: overview;reference
 navigation-topic: notifications
-title: Adobe Workfront notifications
+title: Notifications overview
 description: Adobe Workfront sends email notifications, in-app notifications, and notifications on your mobile device.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 118677e9-a13f-47e6-96a3-6f5e93b005e9
 ---
-# [!DNL Adobe Workfront] notifications
+# Notifications overview
 
 [!DNL Adobe Workfront] sends email notifications, in-app notifications, and notifications on your mobile device.
 
 ## Email notifications
 
-[!DNL Workfront] sends out a number of email notifications to alert users about activity in Workfront and provide useful information and links.
+[!DNL Workfront] sends email notifications to alert users about activity in Workfront, and provide useful information and links.
 
 To change the preferences for your email notifications, see [Modify your own email notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
@@ -33,9 +33,9 @@ You can receive the following email notifications from [!DNL Workfront]:
 
 ### Event notifications 
 
-Event notifications are predefined in [!DNL Workfront]. They are usually triggered by certain events.
+Event notifications usually triggered by certain predefined events, such as having a task assigned to you or getting a reply on a comment you made.
 
-After the event notifications are activated by your [!DNL Workfront] administrator or group administrator, you can select which ones you would like to receive by editing your [!UICONTROL Notifications] preferences in your user profile. You can also choose whether you want to receive notifications as events happen, or if you want to receive events summarized in one daily digest email.
+After event notifications are activated in your [!DNL Workfront] system by your [!DNL Workfront] administrator or group administrator, you can select which ones you would like to receive by editing your [!UICONTROL Notifications] preferences in your user profile. You can also choose whether you want to receive notifications as events happen, or if you want to receive events summarized in one daily digest email.
 
 Depending on how the [!DNL Workfront] administrator has configured event notifications for your [!DNL Workfront] system (as described in [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)), you might see only a subset of these notifications in your settings.
 
