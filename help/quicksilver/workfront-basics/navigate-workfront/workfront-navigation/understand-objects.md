@@ -209,7 +209,7 @@ You can report on all objects in the database using our open API. For a complete
 >[!NOTE]
 >
 > * If you have customized the names of your objects using a layout template, the names for the object in the report builder have also been customized. Ensure you know what objects have been customized and look for the customized name in the report builder. For more information about which objects can have customized names in [!DNL Workfront], see [Object names that can be customized using a  [!UICONTROL Layout Template]](#object-names-that-can-be-customized-using-a-layout-template) in this article.
->* When using text mode in your reports, the names of the objects in text mode expressions are the standard names in [!DNL Workfront], and not the customized object names. For more information about using text mode in reports, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+> * When using text mode in your reports, the names of the objects in text mode expressions are the standard names in [!DNL Workfront], and not the customized object names. For more information about using text mode in reports, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 For more information about building a report, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).\
 For more information about our API, see [API Explorer](../../../wf-api/general/api-explorer.md).
@@ -231,8 +231,8 @@ You can report on the following objects when using the report builder in the [!D
 * [!UICONTROL Baseline Task]
 * [!UICONTROL Billing Record]
 * [!UICONTROL Budgeted Hour]
-   *  This is the [!UICONTROL Budgeted Hours], as they appear in the in older, deprecated resource management tools.
-   *   The "Bud. Hours" field in the [!UICONTROL Budgeted Hour] report refers to the hours budgeted for job roles in the [!UICONTROL Resource Planner]. For more information, see [Understand [!UICONTROL Budgeted Labor Cost] and [!UICONTROL Budgeted Hours] for projects](../../../manage-work/projects/project-finances/budgeted-labor-cost.md).
+   * This is the [!UICONTROL Budgeted Hours], as they appear in the in older, deprecated resource management tools.
+   * The "Bud. Hours" field in the [!UICONTROL Budgeted Hour] report refers to the hours budgeted for job roles in the [!UICONTROL Resource Planner]. For more information, see [Understand [!UICONTROL Budgeted Labor Cost] and [!UICONTROL Budgeted Hours] for projects](../../../manage-work/projects/project-finances/budgeted-labor-cost.md).
 
 * [!UICONTROL Calendar Event]
 * [!UICONTROL Company]
@@ -241,7 +241,7 @@ You can report on the following objects when using the report builder in the [!D
 * [!UICONTROL Document]
 * [!UICONTROL Document Approval]
 * [!UICONTROL Document Version]
-  *   You can view information about the version of the document, the document the version is associated with, who created the version, and the user who created the proof on the document version if one exists (Proof Creator).
+  * You can view information about the version of the document, the document the version is associated with, who created the version, and the user who created the proof on the document version if one exists (Proof Creator).
 * [!UICONTROL Email Template]
 * [!UICONTROL Expense]
 * [!UICONTROL Expense Type]
@@ -249,22 +249,22 @@ You can report on the following objects when using the report builder in the [!D
 * [!UICONTROL Favorite]
 * [!UICONTROL Filter]
 * [!UICONTROL Goal]
-  *   You can build a report for strategic goals or you can display goal-related information in a project report when projects are associated with goals as goal activities. You can create strategic goals and connect projects them only if your organization has purchased a [!DNL Workfront Goals] license. For information about [!DNL Workfront Goals], see [[!DNL Workfront Goals] overview](../../../workfront-goals/goal-management/wf-goals-overview.md). For information about connecting projects to strategic goals, see [Add projects to goals in Adobe Workfront Goals](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
-  *  You cannot report on project goals that are associated with a [!UICONTROL Business Case]. For information about project goals vs strategic goals, see [Glossary of [!DNL Adobe Workfront] terminology](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+  * You can build a report for strategic goals or you can display goal-related information in a project report when projects are associated with goals as goal activities. You can create strategic goals and connect projects them only if your organization has purchased a [!DNL Workfront Goals] license. For information about [!DNL Workfront Goals], see [[!DNL Workfront Goals] overview](../../../workfront-goals/goal-management/wf-goals-overview.md). For information about connecting projects to strategic goals, see [Add projects to goals in Adobe Workfront Goals](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+  *You cannot report on project goals that are associated with a [!UICONTROL Business Case]. For information about project goals vs strategic goals, see [Glossary of [!DNL Adobe Workfront] terminology](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 * [!UICONTROL Group]
 * [!UICONTROL Grouping]
 * [!UICONTROL Hour Type]
 * [!UICONTROL Initiative]
-  *   You can build a report for initiatives which are the children objects of a plan only if your company has purchased a [!DNL Workfront Scenario Planner] license. For information about initiatives, see [Initiatives overview in the [!DNL Workfront Scenario Planner]](../../../scenario-planner/initiatives-overview.md).
+  * You can build a report for initiatives which are the children objects of a plan only if your company has purchased a [!DNL Workfront Scenario Planner] license. For information about initiatives, see [Initiatives overview in the [!DNL Workfront Scenario Planner]](../../../scenario-planner/initiatives-overview.md).
    
 * Initiative Job Role
-   *   You can build a report for the job roles associated with the initiatives in a plan only if your company has purchased a [!DNL Workfront Scenario Planner] license. For information about creating initiatives and associating them with job roles, see [Create and edit initiatives in the [!DNL Workfront Scenario Planner]](../../../scenario-planner/create-and-edit-initiatives.md).
+   * You can build a report for the job roles associated with the initiatives in a plan only if your company has purchased a [!DNL Workfront Scenario Planner] license. For information about creating initiatives and associating them with job roles, see [Create and edit initiatives in the [!DNL Workfront Scenario Planner]](../../../scenario-planner/create-and-edit-initiatives.md).
 
 * [!UICONTROL Iteration]
 * [!UICONTROL Job Role]
 * [!UICONTROL Journal Entry]
-  *  You can report on tracked system updates in the [!UICONTROL Updates] area of objects like tasks, projects, issues, etc. For more information, see [Report on the [!UICONTROL Updates] area](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+  * You can report on tracked system updates in the [!UICONTROL Updates] area of objects like tasks, projects, issues, etc. For more information, see [Report on the [!UICONTROL Updates] area](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
 * [!UICONTROL Layout Template]
 * [!UICONTROL Milestone]
@@ -283,9 +283,9 @@ You can report on the following objects when using the report builder in the [!D
    >Financial information populates in [!UICONTROL Project] ([!UICONTROL Financial Data]) reports only when the data associated with it is less than 5 years old. For example, if a job role was allocated to a task in January 2015 and today is September 2021, a financial filed like the [!UICONTROL Allocation Date] for the job role does not populate in the [!UICONTROL Project (Financial Data)] report.
 
 * [!UICONTROL Proof Approval]
-  *    Enables you to view various information about the proof approval, including: the proof that was submitted for approval, information about the [!UICONTROL Approver], information about the Requester (if the Requester is a licensed [!DNL Workfront] user), version information, the proof ID, and the proof creation date.\
+  * Enables you to view various information about the proof approval, including: the proof that was submitted for approval, information about the [!UICONTROL Approver], information about the Requester (if the Requester is a licensed [!DNL Workfront] user), version information, the proof ID, and the proof creation date.\
    [!UICONTROL Proof Approval] reports include only proofs that are available in users' My Work areas where decisions have not yet been made.\
-   * Proof approvals are assigned in [!DNL Workfront] as described [Add users to a proof](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add) in [Share a proof within [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
+  * Proof approvals are assigned in [!DNL Workfront] as described [Add users to a proof](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md#add) in [Share a proof within [!DNL Adobe Workfront]](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
 
 * [!UICONTROL Queue]
 * [!UICONTROL Queue Topic]
