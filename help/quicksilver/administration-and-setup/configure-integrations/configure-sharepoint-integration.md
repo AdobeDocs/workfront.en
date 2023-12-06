@@ -3,8 +3,8 @@ title: Configure the [!DNL SharePoint] integration
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
-description: You can integrate [!DNL Workfront] with [!DNL SharePoint] Online, providing users with the ability to navigate to, link, and add [!DNL SharePoint] documents within Workfront. The functionality provided is similar to that of other [!DNL Workfront] integrations, such as Google Drive, Box, and Dropbox.
-author: Becky, Caroline
+description: You can integrate [!DNL Workfront] with [!DNL SharePoint] Online, providing users with the ability to navigate to, link, and add [!DNL SharePoint] documents within Workfront. The functionality provided is similar to that of other [!DNL Workfront] document integrations.
+author: Becky
 feature: System Setup and Administration, [!DNL Workfront] Integrations and Apps, Digital Content and Documents
 role: Admin
 exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
@@ -115,10 +115,7 @@ The first time a user adds a document to [!DNL Workfront] from [!DNL SharePoint]
 | Maintain access to data you have given it access to | Allows [!DNL Workfront] to generate a refresh token. |
 | Sign in and read user profile | Allows [!DNL Workfront] to use the access token to act of behalf of the user, through the OAuth2 login flow. |
 
-This access is granted by the user the first time they use the integration, and can be revoked at any time.
-
-Consider the following regarding access to [!DNL SharePoint] through the [!DNL Workfront] [!DNL SharePoint] integration:
-
+* This access is granted by the user the first time they use the integration, and can be revoked at any time.
 * The permissions requested for this integration are **delegated** permissions.
 * [!DNL Workfront] requests the minimum access required to perform operations in the integration.
 * Access to view, edit, or delete an [!DNL Adobe Workfront] document linked to [!DNL SharePoint] is based on the user's access in [!DNL Workfront]. However, any navigation, downloading, or editing of a [!DNL SharePoint] file or folder requires access to [!DNL SharePoint], and access to these actions is controlled by [!DNL SharePoint]. 
@@ -142,19 +139,20 @@ To ensure that your users have continued access to documents linked to Workfront
 
 ### Reconfigure access to the legacy [!DNL SharePoint] integration
 
-To ensure that you can access documents linked through the legacy [!DNL SharePoint] integration, while ensuring that your users cannot link new documents through that integration, complete the following procedure.
+Reconfiguring the legacy [!DNL SharePoint] integration allows your users to access documents linked through the legacy [!DNL SharePoint] integration, while ensuring that your users cannot link new documents through that integration. 
 
 >[!NOTE]
 >
 > * The legacy [!DNL SharePoint] integration is labeled "[!DNL SharePoint]."
 > * The new [!DNL SharePoint] integration is labeled "[!UICONTROL [!DNL SharePoint] (Graph API)]." 
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main menu](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Setup]** ![Setup](../get-started-wf-administration/assets/gear-icon-settings.png).
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
 1. Select **[!UICONTROL Documents]** in the left navigation, then select **[!UICONTROL Cloud Providers]**.
 1. Make sure that the **[!DNL SharePoint]** option and **[!UICONTROL [!DNL SharePoint] (Graph API)]** option are both enabled.
 1. Click **[!UICONTROL Save]**.
 1. Select **[!UICONTROL Documents]** in the left navigation, then select **[!UICONTROL [!DNL SharePoint] Integration]**.
 1. Select the checkmark on the left of the list for all existing integrations, then select **[!UICONTROL Disable]**.
+   ![](assets/disable-old-sharepoint.png)
     
 
 ### Configure the Client Secret for continued access to the legacy [!DNL SharePoint] integration
@@ -169,13 +167,13 @@ Your [!DNL SharePoint] Client Secret expires once a year. To ensure continued ac
 
 1. Add `/_layouts/15/appregnew.aspx` to the end of the URL in the search bar at the top of your browser window.-->
 
-1. Generate a new client secret as described in [Replace an expiring client secret in a [!DNL SharePoint] Add-in](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret)
+1. Generate a new client secret as described in [Replace an expiring client secret in a [!DNL SharePoint] Add-in](https://docs.microsoft.com/en-us/sharepoint/dev/sp-add-ins/replace-an-expiring-client-secret-in-a-sharepoint-add-in#generate-a-new-secret).
 1. Copy this Client Secret to a secure location. 
 1. Log into [!DNL Workfront] as an administrator.
-1. In Workfront, click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. In Workfront, click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
 1. In the left panel, click **[!UICONTROL Documents]** > **[!UICONTROL [!DNL SharePoint] Integration]**.
 1. Click on the [!DNL SharePoint] integration you want to update, then click **[!UICONTROL Edit]**.
-1. Enter the new Client Secret into the **[!UICONTROL Client Secret]** field.
+1. Locate the **Connection Info** section of the editing window, then enter the new Client Secret into the **[!UICONTROL SharePoint Client Secret]** field.
 1. Click **[!UICONTROL Save]**.
 
 <!--
@@ -461,7 +459,8 @@ To see a site collection in [!DNL Workfront], the following conditions must be m
 
 * The user must have view access to the site collection in [!DNL SharePoint].
 
-  To verify this in [!DNL SharePoint], go to [!DNL SharePoint], and open the site collection > [!UICONTROL Settings] > [!UICONTROL Site permissions].
+  To verify this in [!DNL SharePoint], check the site collection's permissions in SharePoint.
+
 <!--* The [!DNL SharePoint] Site App must have access to the site collection.
 
   To verify this in [!DNL SharePoint]:
