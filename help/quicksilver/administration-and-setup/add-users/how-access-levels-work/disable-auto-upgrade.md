@@ -21,7 +21,6 @@ You can disable the auto-upgrade option from the setup area. To learn more about
 >
 >Once disabled, any non-paid user who goes over their allotted number of decisions will not be upgraded automatically.
 
-
 ## Access requirements
 
 You must have the following access to perform the steps in this article: 
@@ -36,9 +35,9 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td>Current plan: Standard
+   <td>New plan: Standard
    <p>or</p>
-   <p>Legacy plan: Plan</p></td> 
+   <p>Current plan: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 

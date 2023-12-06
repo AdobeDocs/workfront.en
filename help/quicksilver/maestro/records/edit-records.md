@@ -211,7 +211,7 @@ You can edit a record from the following areas:
     >  * Fields of the following types: Created by, Created date, Last modified by, Last Modified date
 
 
-1. (Optional) Copy an existing value of a field, then paste in into a field of the same type on another record, then click **Enter** on your keyboard to save your changes. 
+1. (Optional) Copy one or multiple existing values of a field, then paste them into a field of the same type on another record, then click **Enter** on your keyboard to save your changes. 
 
     >[!NOTE]
     >
@@ -223,10 +223,7 @@ You can edit a record from the following areas:
     >* You cannot copy and paste field values for the following field types:   
     ><ul>
     >
-    > * People
-    >
     > * System fields  
-    >
-    > * Linked fields created as a result of connecting records   
+    
 
     <!--take People out of the list above when they release this - this might be coming later-->

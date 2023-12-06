@@ -167,7 +167,10 @@ After permssions - replace the table with:
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>--> 
 
+
 ## Considerations about connecting record types
+
+Consider the following:
 
 * You can connect the following entities in Maestro:
 
@@ -213,7 +216,7 @@ After permssions - replace the table with:
 
 <!--when changes here, also update the article for "Connect records"-->
 
-1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available, then click **Maestro** ![](assets/maestro-icon.png).
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/dots-main-menu.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/lines-main-menu.png) in the upper-left corner, then click **[!UICONTROL Maestro]**.
 
     The last-accessed workspace should open by default. 
 
