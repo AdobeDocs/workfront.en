@@ -165,14 +165,14 @@ As the [!DNL Jira] administrator, you can define which fields should automatical
 
 To define what fields should automatically synchronize on items linked between the two applications:
 
-1. Log into [!DNL Jira] as a Jira administrator.
+1. Log in to [!DNL Jira] as a Jira administrator.
 1. Click **[!UICONTROL Settings]** in the main [!DNL Jira] menu.
 1. Click **[!UICONTROL Add-ons]**, then **[!UICONTROL Manage add-ons]**.
 1. Expand the **[!DNL Workfront]** add-on.
 1. Click **[!UICONTROL Configure]**.
 1. Log in to [!DNL Workfront] as a Workfront administrator.
 1. In Jira, click the **[!UICONTROL Setup]** tab.
-1. In the **[!UICONTROL Synchronize from Jira to Workfront]** section, select the fields that you want to update in [!DNL Jira] when they are updated in Workfront. 
+1. In the **[!UICONTROL Synchronize from Workfront to Jira]** section, select the fields that you want to update in [!DNL Jira] when they are updated in Workfront. 
 
    1. Select any of the following frequencies with which the fields are synchronized:
 
@@ -209,9 +209,9 @@ To define what fields should automatically synchronize on items linked between t
          <td role="rowheader">Documents</td>
          <td><p>Documents attached to a task or an issue in [!DNL Workfront] are also attached to the issue to which it is linked in Jira. New document versions from [!DNL Workfront] are added as separate documents to Jira and are appended with <i>_v&lt;version number></i> to indicate the numbered version in Workfront. </p><p>For example, if the name of a document in [!DNL Workfront] is <strong>Main Ad</strong>, and you add a new version to it in [!DNL Workfront], the new version is transferred to [!DNL Jira] as a new document with the name <strong>Main Ad_v2</strong>.</p><p>Important: <p>Consider the following when syncing documents:</p>
            <ul>
-            <li><p>Documents larger than 5MB do not sync. If a document sync fails because the document is too large, an error is logged in the Activity log. </p><p>For more information on the activity log, see <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md" class="MCXref xref">View the Jira Activity Log</a>.</p></li>
+            <li><p>Documents larger than 5MB do not sync. If a document sync fails because the document is too large, an error is logged in the activity log. </p><p>For more information on the activity log, see <a href="../../workfront-integrations-and-apps/use-workfront-with-jira/view-the-jira-activity-log.md" class="MCXref xref">View the Jira Activity Log</a>.</p></li>
             <li><p>Documents that are linked to tasks and issues from external servers are not transferred to the [!DNL Jira] items. Only documents uploaded directly on the task or the issue in [!DNL Workfront] are transferred to the linked issue in [!DNL Jira].</p></li>
-            <li><p>To create a proof from a document, you must generate the proof in [!DNL Workfront]. </p><p>For more information on generating a proof, see <a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md#create" class="MCXref xref">Create a proof for an existing document </a>in <a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md" class="MCXref xref">Create a proof for a document</a>.<br></p></li>
+            <li><p>To create a proof from a document, you must generate the proof in [!DNL Workfront]. </p><p>For more information on generating a proof, see <a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md#create-a-proof-for-an-existing-document" class="MCXref xref">Create a proof for an existing document </a>in <a href="../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md" class="MCXref xref">Create a proof for a document</a>.<br></p></li>
            </ul></p></td>
         </tr>
         <tr>
@@ -252,7 +252,7 @@ To define what fields should automatically synchronize on items linked between t
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL Assignee]</td>
-         <td><p>The [!UICONTROL Assignee] of an issue in [!DNL Jira] becomes the [!UICONTROL Assignee] of the task or issue to which it is linked in [!DNL Workfront].</p><p>Important: When you assign an item in [!DNL Jira] to a user who does not have a [!DNL Workfront] account, the integration creates a new active user in [!DNL Workfront] only when the <strong>Automatically create a user in [!DNL Workfront] if the [!DNL Jira] user does not have a [!DNL Workfront] account</strong> is set to <strong>[!UICONTROL Always]</strong>. This user does not occupy a [!DNL Workfront] license. Active users can be assigned to work items in [!DNL Workfront], but cannot be included in updates. </p></td>
+         <td><p>The [!UICONTROL Assignee] of an issue in [!DNL Jira] becomes the [!UICONTROL Assignee] of the task or issue to which it is linked in [!DNL Workfront].</p><p>Important: When you assign an item in [!DNL Jira] to a user who does not have a [!DNL Workfront] account, the integration creates a new active user in [!DNL Workfront] only when <strong>Automatically create a user in [!DNL Workfront] if the [!DNL Jira] user does not have a [!DNL Workfront] account</strong> is set to <strong>[!UICONTROL Always]</strong>. This user does not occupy a [!DNL Workfront] license. Active users can be assigned to work items in [!DNL Workfront], but cannot be included in updates. </p></td>
         </tr>
         <tr>
          <td role="rowheader">[!UICONTROL Attachments]</td>
@@ -265,7 +265,7 @@ To define what fields should automatically synchronize on items linked between t
        </tbody>
       </table>
 
-1. In the **[!UICONTROL OTHER]** section, select what additional fields should be updated between linked items. 
+1. In the **[!UICONTROL OTHER]** section, select which additional fields should be updated between linked items. 
 
    1. Select an option to determine whether the fields you specify **[!UICONTROL Always]** or **[!UICONTROL Never]** update in [!DNL Jira] or [!DNL Workfront] when they are modified.
 
@@ -291,7 +291,7 @@ To define what fields should automatically synchronize on items linked between t
          <td role="rowheader">[!UICONTROL Automatically create a user in [!DNL Workfront] if the [!DNL Jira] user does not have a [!DNL Workfront] account]</td>
          <td><p>The following scenarios exist:</p>
           <ul>
-           <li>When you select <strong>[!UICONTROL Always]</strong> you enable the integration to create a new Workfront user every time a [!DNL Jira] user without a [!DNL Workfront] account performs the following actions on a linked [!DNL Jira] issue:
+           <li>When you select <strong>[!UICONTROL Always]</strong>, you enable the integration to create a new Workfront user every time a [!DNL Jira] user without a [!DNL Workfront] account performs the following actions on a linked [!DNL Jira] issue:
             <ul>
              <li>Is assigned to a [!DNL Jira] issue</li>
              <li><p>Logs time to a [!DNL Jira] issue</p><p>This new user does not occupy a [!DNL Workfront] license. The default setting is Always. The user created this way in [!DNL Workfront] has "[!UICONTROL Jira]" added to their name.</p></li>
@@ -316,17 +316,17 @@ To define what fields should automatically synchronize on items linked between t
 
 #### Problem
 
-When an error occurs with our [!DNL Workfront for Jira] application, [!DNL Workfront] disables the triggers to prevent further complications. When those triggers are disabled, they display as "[!UICONTROL Couldn't be found]".
+When an error occurs with the [!DNL Workfront for Jira] application, [!DNL Workfront] disables the triggers to prevent further complications. When those triggers are disabled, they display as "[!UICONTROL Couldn't be found]."
 
 #### Solution
 
-Locate the error that disabled the triggers. You can find the error in the [!DNL Workfront for Jira] "[!UICONTROL Activity Log]".
+Locate the error that disabled the triggers. You can find the error in the [!DNL Workfront for Jira] [!UICONTROL Activity Log].
 
 The most common cause of this behavior is the error "[!UICONTROL Field 'duedate' cannot be set. It is not on the appropriate screen, or unknown.]"
 
-This error means that you are attempting to sync the "[!UICONTROL Planned Completion Date]" from [!DNL Workfront] to [!DNL Jira]. In order to do this, you must ensure that your [!DNL Jira] objects have a field called "[!UICONTROL Due Date]". If they do not have this field, [!DNL Workfront] is unable to sync the planned completion date from [!DNL Workfront] and disables your triggers.
+This error means that you are attempting to sync the "[!UICONTROL Planned Completion Date]" from [!DNL Workfront] to [!DNL Jira]. In order to do this, you must ensure that your [!DNL Jira] objects have a field called "[!UICONTROL Due Date]." If they do not have this field, [!DNL Workfront] is unable to sync the planned completion date from [!DNL Workfront] and disables your triggers.
 
 To resolve this error, try one of the following:
 
 * Ask your [!DNL Jira] administrator to update the affected [!DNL Jira] objects to ensure that they have a due date field.
-* Disable the synchronization of [!DNL Workfront]'s planned completion date in the Workfront "[!UICONTROL Setup]" page
+* Disable the synchronization of [!DNL Workfront]'s planned completion date in the Workfront [!UICONTROL Setup] page.
