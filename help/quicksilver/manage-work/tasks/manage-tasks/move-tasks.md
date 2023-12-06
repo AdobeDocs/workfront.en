@@ -33,7 +33,9 @@ You must have the following access to perform the actions in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront licenses*</td> 
-   <td> <p>Work or higher</p> </td> 
+   <td> <p>New plan: Standard </p> 
+ <p>or</p>  
+<p>Current plan: Work or higher </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 

@@ -96,9 +96,11 @@ After the monthly releases to Production, the same features are also available i
    * From the Home area (for tasks and issues)
    * From the Summary panel in a list of objects or from a timesheet (for tasks and issues)
 
-The information on this page describes how you can comment on Workfront objects and how you update projects, tasks, and issues. 
+The information on this page describes how you can comment on Workfront objects and how you update projects, tasks, and issues while adding comments to them.
 
-For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). You must have an additional license to access Workfront Goals. 
+<!--take this out (below) when we remove legacy out of the application-->
+
+For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). You must have an additional license to access Workfront Goals.
 
 For information about commenting on cards in the Boards area, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 
@@ -150,13 +152,14 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>Request or higher for issues and documents; Review or higher for all other objects</p> </td> 
+   <td> <p>Request or higher for issues and documents</p>
+   <p> Review or higher for all other objects</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
    <td> <p>View or Edit access for the object the update is on</p> <p><b>NOTE</b>
    
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
@@ -169,14 +172,29 @@ You must have the following access to perform the steps in this article:
 
 ## Add an update to a work item
 
+Adding an update to a work item differs depending on what version of the Updates section you use.  
+
+You can add updates to the following objects: 
+
+* Projects
+* Tasks
+* Issues
+* Programs
+* Portfolios
+* Templates
+* Template tasks
+* Users
+* Timesheets
+* Teams
+* Goals
+* Cards in the Boards area
+* Iterations
+
+### Add an update to a work item in the legacy Updates section
+
 >[!IMPORTANT]
 >
 >The information on this page describes how you update projects, tasks, and issues.
-
-
-Adding an update to a work item differs depending on what version of the Updates section you use.  
-
-### Add an update to a work item in the legacy Updates section
 
 1. Go to the work item for which you want to provide an update (such as a project, task, or issue).
 1. Click the **Updates** section.

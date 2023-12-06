@@ -9,9 +9,9 @@ exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
 ---
 # Manage goal comments in Adobe Workfront Goals
 
-<!--consider retiring this article when goals and all objects are in parity - after the new commenting experience goes to production GA-->
+<!--consider retiring this article when goals and all objects are in parity and we remove the legacy commenting from the system. From then on, there is just ONE way to comment and that will be documented in the Update Work article-->
 
-<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
+<!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
