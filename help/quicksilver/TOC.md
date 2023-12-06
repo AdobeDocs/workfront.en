@@ -967,7 +967,7 @@ feature-set: Workfront
   * [Agile](agile/agile.md)
   * [Boards overview](agile/boards-overview.md)
   * Get started with boards in Adobe Workfront {#boards-in-workfront}
-    * [Get started with boards in Adobe Workfront](agile/get-started-with-boards/get-started-with-boards.md)
+    * [Get started with boards: article index](agile/get-started-with-boards/get-started-with-boards.md)
     * [Adobe Workfront Boards video demonstrations](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
     * [Boards early feature opt-in](agile/get-started-with-boards/boards-early-feature-opt-in.md)
     * [Use the boards dashboard](agile/get-started-with-boards/use-boards-page.md)
