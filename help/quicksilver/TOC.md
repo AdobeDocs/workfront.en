@@ -388,7 +388,7 @@ feature-set: Workfront
 * Administration and setup {#administration-and-setup}
   * [Administration and setup](administration-and-setup/administration-and-setup.md)
   * Get started with administration {#get-started-administration}
-    * [Get started](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
+    * [Get started with administration: article index](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
     * [Define objectives for implementation](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
     * [Manage your licenses](administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
     * [Configure the basics](administration-and-setup/get-started-wf-administration/configure-basic-info.md)
@@ -827,7 +827,7 @@ feature-set: Workfront
     * [Pin pages to customize your workspace](workfront-basics/the-new-workfront-experience/pin-pages.md)
     * [Create custom sections](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
     * [Access Adobe Workfront help](workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
-    * [Understand objects in Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
+    * [[!DNL Adobe Workfront] objects overview](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
     * [Understand the navigation for a Work-license user](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
     * [Understand the navigation for a Review-license user](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
     * [Overview of the Project, Task, and Issue dates in Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
