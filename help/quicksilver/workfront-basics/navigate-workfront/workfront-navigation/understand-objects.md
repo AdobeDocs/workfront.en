@@ -4,6 +4,7 @@ navigation-topic: workfront-navigation
 title: "[!DNL Adobe Workfront] objects overview"
 description: "The information you display in [!DNL Adobe Workfront] is represented by objects which are stored in the [!DNL Workfront] database. The objects are what drives the information in [!DNL Workfront]. Learn more about these objects in this article."
 feature: Get Started with Workfront
+author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
 ---
 # [!DNL Adobe Workfront] objects overview
