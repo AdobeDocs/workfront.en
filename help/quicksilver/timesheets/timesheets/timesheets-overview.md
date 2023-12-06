@@ -30,33 +30,6 @@ For more information about where you can log time in Workfront, see [Log time](.
 >
 >The Workfront mobile app also allows you to post updates, change logged time, enter comments, and close your timesheet.
 
-## Access requirements
-
-You must have the following to perform the steps in this article:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>You must have administrative access to Timesheets. </p> <p>For more information, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
-
 
 ## Understand project time vs non-project time
 
@@ -78,7 +51,7 @@ For information about all areas of Workfront where you can log time, see [Log ti
 
 To access a timesheet: 
 
-1. Click the **Main Menu** icon ![](assets/dots-main-menu.png) in the upper-right corner, or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner of Workfront, if available, then click Timesheets. 
+
 
     The Timesheets area displays and all timesheets that belong to you or you have access to view display, by default. 
 
