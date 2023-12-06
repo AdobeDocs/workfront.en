@@ -134,7 +134,7 @@ If an asset was first uploaded to [!DNL Workfront], and then sent to [!DNL Share
 
 To ensure that your users have continued access to documents linked to Workfront through the legacy [!DNL SharePoint] integration, you must reconfigure access to the legacy [!DNL SharePoint] integration and keep the SharePoint Client Secret up to date.
 
-* [Reconfigure access to the legacy [!DNL SharePoint] integration](+)
+* [Reconfigure access to the legacy [!DNL SharePoint] integration](#reconfigure-access-to-the-legacy-sharepoint-integration)
 * [Configure the Client Secret for continued access to the legacy [!DNL SharePoint] integration](#configure-the-client-secret-for-continued-access-to-the-legacy-sharepoint-integration)
 
 ### Reconfigure access to the legacy [!DNL SharePoint] integration
