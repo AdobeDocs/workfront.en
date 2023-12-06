@@ -56,7 +56,7 @@ You must have the following to perform the steps in this article:
 
 Deactivating a user causes the following things to happen:
 
-* Removes the user's licenses to both Workfront and Workfront Proof if the Workfront Proof component is associated with your Workfront account. For more information about Workfront Proof, see [Workfront Proof](../../../workfront-proof/workfront-proof.md).
+* Removes the user's licenses to both Workfront and Workfront Proof if the Workfront Proof component is associated with your Workfront account. For more information about Workfront Proof, see [Workfront Proof: article index](../../../workfront-proof/workfront-proof.md).
 * The user can no longer be assigned work.
 * The user can no longer be added to updates.
 * The user can no longer be added to teams or groups.
@@ -79,7 +79,7 @@ Deactivating a user causes the following things to happen:
 
 Deleting a user causes the following things to happen:
 
-* Removes the user's licenses to both Workfront and Workfront Proof, if the Workfront Proof component is associated with your Workfront account. For more information about Workfront Proof, see [Workfront Proof](../../../workfront-proof/workfront-proof.md).
+* Removes the user's licenses to both Workfront and Workfront Proof, if the Workfront Proof component is associated with your Workfront account. For more information about Workfront Proof, see [Workfront Proof: article index](../../../workfront-proof/workfront-proof.md).
 * The user can no longer be assigned work.
 * The user can no longer be added to updates.
 * The user can no longer be added to teams or groups.
