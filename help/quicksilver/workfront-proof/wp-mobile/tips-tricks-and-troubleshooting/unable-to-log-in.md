@@ -3,6 +3,7 @@ title: Unable to Log In to the [!DNL Workfront Proof] Mobile App
 description: Troubleshoot logging into the Workfront Proof mobile app.
 hide: true
 hidefromtoc: true
+exl-id: c6c52365-dbfe-481f-953c-6c70af6af46d
 ---
 # Unable to Log In to the [!DNL Workfront Proof] Mobile App
 
