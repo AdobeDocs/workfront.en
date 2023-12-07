@@ -16,7 +16,7 @@ For information and considerations about text mode before you begin, see [Text M
 
 For a complete list of all our reportable fields and their attributes, see the [API Explorer](../../../wf-api/general/api-explorer.md).
 
-For more information about creating reports using text mode, including classes, videos, and tutorials, see the Learn section on the Adobe Experience League site. 
+For more information about creating reports using text mode, including classes, videos, and tutorials, visit the Learn section on the Adobe Experience League site. 
 
 ## Considerations about text mode syntax
 
@@ -93,14 +93,14 @@ The following similarities exist between the syntax of the sets of reporting ele
 
 ### Syntax for views and groupings 
 
-You may notice that the lines of code when building views and groupings are similar.
+The lines of code when building views and groupings are similar.
 
 For information about creating views and groupings, see the following articles:
 
 * [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md) 
 * [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
-The most important line of code for a view or a grouping is the line that identifies the object referenced in the view's column or the grouping. Depending on whether this field is a direct reference to a Workfront database field or a calculation between several fields, the line of code may start with `valuefield` or `valueexpression`
+The most important line of code for a view or a grouping is the line that identifies the object referenced in the view's column or in the grouping. This line of code may start with `valuefield` or `valueexpression` based on whether this field is a direct reference to a Workfront database field or a calculation between several fields.
 
 The following table lists the most common lines of codes in a view or grouping: 
 
@@ -210,13 +210,11 @@ The following rules apply when referencing Workfront objects using a `valueexpre
 
 #### `Valueformat` overview for views and groupings
 
-The second most important line of code in a view or grouping is the `valueformat=` line. This tells Workfront in what format to return the value you specify in the 
-`valuefield` or valueexpression lines. Although you can use various formats for the `valueformat` lines, we recommend that you always use the following value when using 
-`valueexpression`: 
+The second most important line of code in a view or grouping is the `valueformat=` line. This tells Workfront in what format to return the value you specify in the `valuefield` or `valueexpression` lines. Although you can use various formats for the `valueformat` lines, we recommend that you always use the following value when using `valueexpression`: 
 
 `valueformat=HTML`
 
-For additional `valueformats` values, also see the following articles:
+For additional `valueformat` values, also see the following articles:
 
 * [Format dates in text mode reports](../../reports/text-mode/format-dates-in-text-mode-reports.md)
 * [Format numbers, currency and percentage values in text mode reports](../../reports/text-mode/format-numbers-in-text-mode-reports.md)
@@ -227,7 +225,7 @@ For additional `valueformats` values, also see the following articles:
 
 You must use the additional `usewidths=true` line of code to enforce the width specified for the column.
 
-**Example:** To display a column with a width of 80 pixles, use the following lines:
+**Example:** To display a column with a width of 80 pixels, use the following lines:
 
 `width=80`
 

@@ -192,14 +192,10 @@ To log time on a timesheet:
    
 1. (Optional) To manually pin an item that displays on the timesheet automatically, hover over the name of the item, then click the **pin** icon ![](assets/empty-pin-icon.png).
 
-   <!--
-
    >[!TIP]
    >
    >   When using a standard QWERTY keyboard after clicking an item in the timesheet, press the following set of keys to pin an item:
    >   * Option + P for both Windows and Mac computers. 
-
-   -->
    
 
 1. (Optional) Click the search icon ![](assets/search-icon.png) and start typing a keyword to find a project, task, or an issue on the timesheet. 
@@ -214,13 +210,11 @@ To log time on a timesheet:
    ![Hour type drop-down menu](assets/hour-type-drop-down-expanded-redesigned-timesheet.png)
 
    
-   <!--
    >[!TIP]
    >
    >   Depending on your operating system or browser and when using a standard QWERTY keyboard, press the following set of keys to add another row:
    >   * Ctrl + Option + + for Windows computers 
    >   * Cmd + Option + + for Mac computers
-   -->
    
    Hour types are available depending on what has been defined at the system, project, and user levels, as described in [Define hour types and availability for timesheets](define-hour-types-and-availability.md).
 
@@ -234,13 +228,11 @@ To log time on a timesheet:
 
 1. Click the **delete** icon  ![](assets/delete.png) next to the job role to remove it. Any time logged for the role is also removed. 
 
-   <!--
    >[!TIP]
    >
    >   Depending on your operating system or browser and when using a standard QWERTY keyboard, press the following set of keys to delete a row:
    >   * Ctrl + Option + - for Windows computers 
    >   * Cmd + Option + - for Mac computers
-   -->
 
 1. Specify the amount of time you want to log on any given day in the timeline section of the timesheet, then click outside the hour box to save the hour entry. The hours are saved automatically. The row for which you log time is highlighted in light blue and the hour entry box is outlined in dark blue.
 
@@ -271,12 +263,10 @@ To log time on a timesheet:
 
    ![](assets/commment-button-on-hour-log-redesigned-timesheet.png)
 
-   <!--
    >[!TIP]
    >
    >   When using a standard QWERTY keyboard after clicking the hour entry box, press the following set of keys to open the comment box:
    >   * Shift + F2 for both Windows and Mac computers. 
-   -->
 
 1. Click **Done** to save the comment.
 
@@ -352,12 +342,10 @@ To remove an item from the timesheet that was manually added:
 1. Ensure that no time is logged against the item.
 1. Click the **unpin** icon ![Pin an item](assets/pin-icon.png) next to the item to unpin the item from the timesheet.
 
-   <!--
    >[!TIP]
    >
    >   When using a standard QWERTY keyboard after clicking an item in the timesheet, press the following set of keys to unpin an item:
    > * Option + P for both Windows and Mac computers.
-   --> 
 
    The item is removed from the timesheet after you refresh the page.
 
