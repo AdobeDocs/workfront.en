@@ -13,7 +13,7 @@ exl-id: e67c0b10-af9f-4657-8f99-8b63ae3c0865
 
 You can use text mode in a column to display a calculation between two fields in the view of a report or list. Each line displays the calculation for each object in the report or list.
 
-For example, you can display the difference between Actual Hours and Planned Hours in a third column called Work Balance for each task in a task report. For more information about calculated data expressions, see [Calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+For example, you can display the difference between Actual Hours and Planned Hours in a third column called Work Balance for each task in a task report. For more information about calculated data expressions, see [Overview of calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 You can display the aggregated value of multiple calculated view items in the same column in a grouping by adding a calculation to the `aggregator` line of the column that contains the calculated value. For example, you can aggregate (display the sum of) the amount of Work Balance hours of all the tasks in the grouping of the report or the list for the Work Balance column. This article describes how to do this.
 
