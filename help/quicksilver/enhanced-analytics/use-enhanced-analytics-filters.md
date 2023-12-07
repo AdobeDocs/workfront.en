@@ -22,9 +22,6 @@ You can add and remove filters as needed and Workfront retains the filters that 
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
- <caption style="text-align: left;">
-  *To find out what plan, license type, or access you have, contact your Workfront administrator.
- </caption> 
  <col> 
  <col> 
  <tbody> 
@@ -44,15 +41,17 @@ You must have the following access to perform the steps in this article:
    </td> 
   </tr>
   <tr> 
-   <td><b>Access level*</b> </td> 
+   <td>Access level* </td> 
    <td> <p>View access to Projects</p> <p>You must also have View access to Tasks, Portfolios, and Users to see specific project field filter options.</p> <p>Note: If restrictions are selected in the Set additional restrictions section of the Edit Access Level dialog, you may not see all information in the filters or on the Enhanced analytics page after the filter is applied. For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><b>Object permissions</b> </p> </td> 
+   <td> <p>Object permissions </p> </td> 
    <td> <p>View</p> <p>For information on requesting additional access, see <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
