@@ -81,7 +81,7 @@ You must have the following access to perform the steps in this article:
 
    This rounds the number of Budgeted Hours to a number of decimals that you specify.
 
-   For information about how to round a number in Workfront, see the article [Calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   For information about how to round a number in Workfront, see the article [Overview of calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 1. (Optional)&nbsp;Click **Add Column** to add additional columns.
 1. (Optional) To make the report easier to read, we recommend that you add a grouping to it. We suggest the following grouping:
