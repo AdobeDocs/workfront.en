@@ -9,6 +9,7 @@ title: Adobe Experience Manager Forms modules
 description: With the [!DNL Adobe Experience Manager Forms] connector for [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Adobe Experience Manager Forms] account, create, upload, and update assets, and copy or move folders and assets.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
+exl-id: 107d81f7-ca41-4d76-a6dd-e579886dc2ad
 ---
 # [!DNL Adobe Experience Manager Forms] modules
 
@@ -180,14 +181,3 @@ This instant trigger (webhook) allows you to start a scenario when a Submit acti
   </tr> 
 
   The module creates a webhook and gives you the webhook address, which you can enter into the form submission dialog in [!DNL Adobe Experience Manager Forms].
-
-
-
-
-
-
-
-
-
-
-

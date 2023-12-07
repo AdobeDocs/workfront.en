@@ -139,7 +139,7 @@ To ensure that your users have continued access to documents linked to Workfront
 
 ### Reconfigure access to the legacy [!DNL SharePoint] integration
 
-Reconfiguring the legacy [!DNL SharePoint] integration allows your users to access documents linked through the legacy [!DNL SharePoint] integration, while ensuring that your users cannot link new documents through that integration. 
+Reconfiguring the legacy [!DNL SharePoint] integration allows your users to access documents linked through the legacy [!DNL SharePoint] integration, while ensuring that your users cannot link new documents through that integration.
 
 >[!NOTE]
 >
