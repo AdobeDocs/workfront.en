@@ -63,7 +63,7 @@ You must have the following:
 
 ## Create a system-level or group-level global approval process for work items
 
-{{step1-to-setup}}
+{{step-1-to-setup}}
 
 1. (Conditional) If you are creating a system-level approval process, click **Processes** > **Approvals** in the left panel.
 
