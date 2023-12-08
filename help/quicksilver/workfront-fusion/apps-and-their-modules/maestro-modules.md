@@ -189,6 +189,8 @@ This module makes a custom API call to the [!DNL Adobe Maestro] API.
   </tbody>
 </table>
 
+<!--
+
 ### Delete a field
 
 This action module deletes a single field in Maestro by its ID.
@@ -216,7 +218,6 @@ This action module deletes a single field in Maestro by its ID.
 
 ### Get a field 
 
-<!--CHECK ME-->
 
 This action module retrieves a single field in Maestro by its ID.
 
@@ -236,6 +237,8 @@ This action module retrieves a single field in Maestro by its ID.
       </tr>
   </tbody>
 </table>
+
+-->
 
 ### Create a record
 
