@@ -35,7 +35,10 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td>Plan</td> 
+   <td> <p>New plan: Standard </p>
+ <p>or</p> 
+<p>Current plan: Plan </p> 
+</td> 
   </tr> 
  </tbody> 
 </table>
@@ -44,7 +47,9 @@ You must have the following access to perform the steps in this article:
 
 ## Modify the email notification settings of multiple users in bulk
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). Select the users, then click **Edit**. 
+{{step-1-to-users}}
+
+1. Select the users, then click **Edit**. 
 1. In the **Edit Person** box that appears, click **Notifications**.
 
 1. Expand a category to view notification settings related to that category.
