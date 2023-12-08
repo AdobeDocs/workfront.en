@@ -356,7 +356,7 @@ You can log project-specific time in Home.
 For general information about using the Home area, see the following sections: 
 
 * For information about using the legacy Home area, see [Use the Home area](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-* For information about using the new Home area, see [Get started with New Home in Adobe Workfront](../../workfront-basics/using-home/new-home/get-started-with-new-home.md). 
+* For information about using the new Home area, see [Get started with New Home](../../workfront-basics/using-home/new-home/get-started-with-new-home.md). 
 
 #### Log time on a work item from the new Home area
 

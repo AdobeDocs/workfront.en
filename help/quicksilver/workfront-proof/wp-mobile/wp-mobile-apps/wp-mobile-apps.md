@@ -3,6 +3,7 @@ title: Workfront Proof mobile apps
 description: Learn to use the Workfront Proof mobile app.
 hide: true
 hidefromtoc: true
+exl-id: 8a868212-cf8e-4752-8aa6-ed74f10f5cea
 ---
 # Workfront Proof mobile apps
 

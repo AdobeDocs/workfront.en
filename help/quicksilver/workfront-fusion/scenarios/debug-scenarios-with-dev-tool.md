@@ -12,6 +12,8 @@ exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
 
 The [!DNL Adobe Workfront Fusion] Devtool allows you to understand and troubleshoot scenarios. The Devtool adds an extra panel to the [!DNL Chrome Developer Tools]. Using this debugger panel, you can check all the manual runs of your scenario, review all the performed operations, and see the details of every API call performed. You can see which module, operation, or single response caused the error, and use that knowledge to refine your scenario.
 
+For an in-depth video walkthrough of the Fusion Devtool, see [Devtool walkthrough](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en).
+
 ## Access requirements
 
 You must have the following access to use the functionality in this article:
@@ -80,7 +82,7 @@ To use the Devtool in the classic [!DNL Fusion] experience, you must install a [
 
 You can add the [!DNL Workfront Fusion] Devtool to [!DNL Chrome] through the [!UICONTROL [!DNL Chrome] Web Store].
 
-1. Click [this link](https://chrome.google.com/webstore/detail/workfront-fusion-Devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn/related) to go to the [!DNL Workfront Fusion] Devtool on the [!UICONTROL [!DNL Chrome] Web Store].
+1. Click [this link](https://chromewebstore.google.com/u/1/detail/workfront-fusion-devtool/hkimbmkkmmejdnhbhoaefggkpkndfjnn) to go to the [!DNL Workfront Fusion] Devtool on the [!UICONTROL [!DNL Chrome] Web Store].
 1. Click **[!UICONTROL Add to [!DNL Chrome]]**.
 1. In the window that opens, examine permissions. If you agree with the permissions, click **[!UICONTROL Add Extension]**.
 
