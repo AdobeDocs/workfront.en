@@ -146,9 +146,9 @@ After permssions - replace the table with:
 
 ## Edit record types
 
-1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available, then click **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-    The last-accessed workspace should open by default. 
+   The last-accessed workspace should open by default. 
 
 1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to create record types for.
 1. Hover over the card of a record type and click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the record type card, then click **Update appearance**. 
@@ -175,3 +175,4 @@ After permssions - replace the table with:
     ![](assets/more-menu-options-from-record-details-page.png) <!--check this screen shot - not sure this is valid ???-->
 
     You can also rename a record type in the header of the record type's page.
+1. (Optional) Expand the downward-pointing arrow to the right of a record type name and select another record type to edit. 

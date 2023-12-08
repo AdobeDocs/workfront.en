@@ -123,6 +123,21 @@ You can add up to 500 fields (or columns) in a table view.
 
     The columns you add are visible to all users who access the record type and are added as new fields on the Details page of the records of the selected record type.
 
+<!--1. Hover over a field name in the column header, then click the downward-pointing arrow to the right of the field name, then click **Make this a primary field**. (****accurate UI element?!*****)
+
+    (******add screen shot*****)
+
+    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves in the second column
+
+    >[!NOTE]
+    >
+    >    Only fields of the following types can be primary fields: 
+
+        * Single-line text
+        * Number
+        * Formula --> 
+
+
 1. Do one of the following to reorder columns in the table:
 
     * Grab the column header and drag and drop it in the desired position. The column you moved briefly displays with a blue background until you make other adjustments to the table. 

@@ -185,7 +185,7 @@ You can edit a record from the following areas:
 
 1. Click **Save changes**. <!--logged a bug for this - this needs to be "Save"-->
 
-### Edit a record from the record type table view
+### Edit a record from the table view of a record type
 
 1. Click the **Main Menu** ![](assets/main-menu-workfront.png) in the upper-right corner, or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available, then click **Maestro** ![](assets/maestro-icon.png). 
 
@@ -207,7 +207,7 @@ You can edit a record from the following areas:
     >
     >  You cannot edit information for the following fields, as they are read-only and Workfront updates them automatically: 
     >  
-    >  * Linked fields that are created by linking record types
+    >  * Linked fields that are created by connecting record types. For more information, see [Connect record types](../architecture/connect-record-types.md).
     >  * Fields of the following types: Created by, Created date, Last modified by, Last Modified date
 
 
@@ -219,11 +219,12 @@ You can edit a record from the following areas:
     >
     >* You cannot copy information from another source, other than a Maestro field of the same type as the field you paste the information in.  
     >
-    >* You cannot copy and paste field values for fields that display in the Details area of a record.   
+    >* You cannot copy and paste field values in the Details area of a record. This functionality is supported only in the table view of a record type.  
     >* You cannot copy and paste field values for the following field types:   
-    ><ul>
     >
-    > * System fields  
+    >
+    >    * Linked fields that are created by connecting record types. You can copy and paste linked record fields. For more information, see [Connect record types](../architecture/connect-record-types.md). 
+    >    * Fields of the following types: Created by, Created date, Last modified by, Last Modified date 
     
 
     <!--take People out of the list above when they release this - this might be coming later-->
