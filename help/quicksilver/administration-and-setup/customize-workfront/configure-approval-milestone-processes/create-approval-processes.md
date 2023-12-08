@@ -75,7 +75,7 @@ You must have the following:
    ![](assets/approvals-area-in-setup-processes.png)
    -->
 
-1. Click the **Project Approvals**, **Task Approvals**, or **Issue Approvals** tab, depending on the type of approval process you want to create.
+1. Choose either the **Project Approvals**, **Task Approvals**, or **Issue Approvals** tab.
 
 1. Click **New Approval Process**.
 1. Specify the following information in the box that displays:
@@ -86,15 +86,15 @@ You must have the following:
     <tbody> 
      <tr> 
       <td role="rowheader">Approval process name</td> 
-      <td>Type a descriptive name for the approval process. Users see this name when applying the approval process to an object, as described in <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associate a new or existing approval process with work</a>.</td> 
+      <td><p>Type a descriptive name for the approval process. Users see this name when applying the approval process to an object, as described in <a href="../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md" class="MCXref xref">Associate a new or existing approval process with work</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Description</td> 
-      <td>Type a description of the approval process. This displays in the <b>Approvals</b> section in the <b>Setup</b> area next to the name of the approval process.</td> 
+      <td><p>Type a description of the approval process. This displays in the <b>Approvals</b> section in the <b>Setup</b> area next to the name of the approval process.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Is Active</td> 
-      <td> <p>Keep this option enabled if you want other users to be able to attach the approval process to projects, tasks, and issues that they create. </p> <p>This option is enabled by default.</p> <p> Marking an approval process as inactive is useful when your organization no longer needs to use it, but you want to preserve historical information about its use.</p> </td> 
+      <td> <p>Keep this option enabled if you want other users to be able to attach the approval process to projects, tasks, and issues that they create. </p> <p>This option is enabled by default.</p> <p> Tip: Marking an approval process as inactive is useful when your organization no longer needs to use it, but you want to preserve historical information about its use.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">This approval process can be used by </td> 
@@ -156,12 +156,12 @@ You must have the following:
        </ul> <p> <img src="assets/approval-create-add-users-nwe-350x304.png" style="width: 350;height: 304;"> </p> </p> <p>You can repeat this process to add multiple approvers to the stage. A single stage can include a combination of users, teams, and job roles as approvers. There is no limit to the number of approvers you can add to a stage.</p> <p><b>IMPORTANT</b>:  <p>When you assign job roles as approvers, all users associated with that job role that are also on the project team can make a decision on the approval. </p> <p>When you assign a team as an approver, any user in that team can make a decision on the approval. </p> <p>For more information about the project team, see <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md" class="MCXref xref">Project Team overview</a>. For more information about approving work, see <a href="../../../review-and-approve-work/manage-approvals/approving-work.md" class="MCXref xref">Approving work </a>.</p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Only one decision is required</td> 
-      <td> <p>(Displays only if you add multiple approvers to the stage) Select this option if any one of the approvers on the stage can approve or reject the work item during this stage. This action allows the work item to leave the stage. </p> <p>When this option is not selected, all of the identified approvers must approve or reject the stage (in any order) before the item leaves the stage. If any one of the approvers rejects the stage, the process interrupts and starts over so that the required changes can be made. Then the approvers can approve or reject the stage once again.</p> <p>When a team is designated as an approver, any member of the team can grant or reject a stage.</p> </td> 
+      <td role="rowheader">Only one decision is required <br> <br>(Displays only if you add multiple approvers to the stage) </td> 
+      <td> <p>Select this option if any one of the approvers on the stage can approve or reject the work item during this stage. This action allows the work item to leave the stage. </p> <p>When this option is not selected, all of the identified approvers must approve or reject the stage (in any order) before the item leaves the stage. If any one of the approvers rejects the stage, the process interrupts and starts over so that the required changes can be made. Then the approvers can approve or reject the stage once again.</p> <p>When a team is designated as an approver, any member of the team can grant or reject a stage.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">Add stage</p> </td> 
-      <td>(Optional) Add another a stage to the path, using the options explained in the three rows above. You can add as many stages to the path as you need.</td> 
+      <td><p>(Optional) Add another a stage to the path, using the options explained in the three rows above. You can add as many stages to the path as you need.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Choose what happens when the approval is rejected</p> </td> 
@@ -194,7 +194,11 @@ For information about editing an approval process, see [Edit an approval process
 
 ## Associating an approval process with a work item
 
-When you want to create an approval process for a work item (project, task, or issue), you create the approval process first, then create the work item, and then you and your users can associate the approval process with the work item.
+When you want to create an approval process for a work item (project, task, or issue), you 
+
+1. Create the approval process first
+1. Create the work item
+1. Associate the approval process with the work item
 
 For instructions on associating an approval process with a work item, see [Associate a new or existing approval process with work](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
