@@ -46,7 +46,10 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td>Plan</td> 
+   <td> <p>New plan: Standard </p>
+ <p>or</p> 
+<p>Current plan: Plan </p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -56,11 +59,11 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+   &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Create a system-level or group-level global approval process for work items
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step1-to-setup}}
 
 1. (Conditional) If you are creating a system-level approval process, click **Processes** > **Approvals** in the left panel.
 
