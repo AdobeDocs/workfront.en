@@ -386,7 +386,7 @@ feature-set: Workfront
       * [Adobe Workfront and Frame.io native integration alpha: overview](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
       * [Adobe Workfront and Frame.io native integration alpha: features](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
 * Administration and setup {#administration-and-setup}
-  * [Administration and setup](administration-and-setup/administration-and-setup.md)
+  * [Administration and setup: article index](administration-and-setup/administration-and-setup.md)
   * Get started with administration {#get-started-administration}
     * [Get started with administration: article index](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
     * [Define objectives for implementation](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
@@ -801,7 +801,7 @@ feature-set: Workfront
   * [Adobe Workfront browser requirements](workfront-basics/workfront-browser-requirements.md)
   * [Supported languages in Adobe Workfront](workfront-basics/supported-languages-in-workfront.md)
   * Navigate Adobe Workfront {#navigate}
-    * [Navigate Adobe Workfront](workfront-basics/navigate-workfront/navigate-workfront.md)
+    * [Navigate Adobe Workfront: article index](workfront-basics/navigate-workfront/navigate-workfront.md)
     * Adobe Workfront Search {#search}
       * [Adobe Workfront Search](workfront-basics/navigate-workfront/search/search.md)
       * [Search Adobe Workfront](workfront-basics/navigate-workfront/search/search-workfront.md)
@@ -967,7 +967,7 @@ feature-set: Workfront
   * [Agile](agile/agile.md)
   * [Boards overview](agile/boards-overview.md)
   * Get started with boards in Adobe Workfront {#boards-in-workfront}
-    * [Get started with boards in Adobe Workfront](agile/get-started-with-boards/get-started-with-boards.md)
+    * [Get started with boards: article index](agile/get-started-with-boards/get-started-with-boards.md)
     * [Adobe Workfront Boards video demonstrations](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
     * [Boards early feature opt-in](agile/get-started-with-boards/boards-early-feature-opt-in.md)
     * [Use the boards dashboard](agile/get-started-with-boards/use-boards-page.md)
@@ -1510,7 +1510,7 @@ feature-set: Workfront
       * [Groupings overview in Adobe Workfront](reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
       * [Create groupings in Adobe Workfront](reports-and-dashboards/reports/reporting-elements/create-groupings.md)
       * [Edit existing groupings](reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
-      * [Wildcard filter variables](reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
+      * [Wildcard filter variables overview](reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
       * [Use date-based wildcards to generalize reports](reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)
       * [Use user-based wildcards to generalize reports](reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)
       * [Share a filter, view, or grouping](reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
@@ -1779,7 +1779,7 @@ feature-set: Workfront
       * [Review a document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
       * [Approve a document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
   * Proofing {#proofing}
-    * [Proofing](review-and-approve-work/proofing/proofing.md)
+    * [Proofing: article index](review-and-approve-work/proofing/proofing.md)
     * Proofing overview {#proofing-overview}
       * [Proofing overview](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
       * [Proof Permission Profile overview](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)

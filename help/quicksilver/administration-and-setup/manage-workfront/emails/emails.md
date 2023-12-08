@@ -26,7 +26,7 @@ This section contains the following articles:
 * [Event notifications available in Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md) 
 * [Unlock or lock configuration of event notifications for all groups](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md) 
 * [Customize email subjects for event notifications](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md) 
-* [Modify email notification settings in users' profiles](../../../administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md) 
+* [Modify multiple users' email notification settings](../../../administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md) 
 * [Set up reminder notifications](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md) 
 * [Attach a reminder notification to an object](../../../workfront-basics/using-notifications/attach-reminder-notification-object.md) 
 * [Set up automatic reminders](../../../administration-and-setup/manage-workfront/emails/setting-up-automatic-reminders.md) 

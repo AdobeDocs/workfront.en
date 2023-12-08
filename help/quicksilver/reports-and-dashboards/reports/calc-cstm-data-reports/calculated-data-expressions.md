@@ -50,21 +50,20 @@ For example:
 
 * In a custom field, on a custom form for tasks, you would use the following to generate the name of the parent project of the task where the custom form is attached:
 
-  ```
-  {project}.{name}
-  ```
+
+   ` {project}.{name}`
+
 
 * In a custom column in a report, you would use the following to add a Project Name custom column on a task report:
 
-  ```
-  valuefield=project:name
-  ```
+  
+    `valuefield=project:name`
+  
 
   Or
 
-  ```
-  valueexpression={project}.{name}
-  ```
+  `valueexpression={project}.{name}`
+
 
   >[!TIP]
   >
