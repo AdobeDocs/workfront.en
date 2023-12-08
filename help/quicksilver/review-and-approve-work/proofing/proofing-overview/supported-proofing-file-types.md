@@ -26,7 +26,7 @@ Workfront has the following limits:
 
 >[!NOTE]
 >
->Larger files take more time to upload, and if your connection is not stable, the action may be terminated/broken.
+>Larger files take more time to upload, and if your connection is not stable, the action may be terminated or broken.
 
 ## Static files
 
