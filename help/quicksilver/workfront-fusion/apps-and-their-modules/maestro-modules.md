@@ -103,6 +103,10 @@ This trigger module starts a scenario when a record, record type, or workspace i
 
 This action module deletes a single record type in Maestro by its ID.
 
+>[!WARNING]
+>
+>Deleting a record type in Maestro also deletes all records in the record type table. 
+
 <table style="table-layout:auto"> 
   <col/>
   <col/>
@@ -189,7 +193,7 @@ This module makes a custom API call to the [!DNL Adobe Maestro] API.
 
 This action module deletes a single field in Maestro by its ID.
 
->[!NOTE]
+>[!WARNING]
 >
 >Deleting a field in Maestro deletes it and any data in it from every object of that record type in Maestro.
 
@@ -205,7 +209,7 @@ This action module deletes a single field in Maestro by its ID.
       <td role="rowheader">
         <p>[!UICONTROL Field ID]</p>
       </td>
-      <td>Enter or map the ID of the field you want to delete.</td> 
+      <td>Enter or map the ID of the record type you want to delete.</td> 
       </tr>
   </tbody>
 </table>
