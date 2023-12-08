@@ -42,7 +42,7 @@ The following areas are included in the default layout of a [!UICONTROL Worker]:
 
 * **[!UICONTROL Analytics]**: Look at project data and identify trends with planning and completion. This area displays insight into projects you have access to view. For more information, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
-* **[!UICONTROL Boards]**: Work with flexibility and collaboration with your team members by using shared boards that contains columns and cards reflecting work you want to get done. For information, see [Get started with boards in [!DNL Adobe Workfront]](../../../agile/get-started-with-boards/get-started-with-boards.md).
+* **[!UICONTROL Boards]**: Work with flexibility and collaboration with your team members by using shared boards that contains columns and cards reflecting work you want to get done. For information, see [Get started with boards: article index](../../../agile/get-started-with-boards/get-started-with-boards.md).
 
 * **[!UICONTROL Blueprints]**: Review existing blueprints in your system and request one to be installed, if the [!DNL Workfront] administrator configured the request queue for blueprints. For more information, see [Blueprints overview](../../../administration-and-setup/blueprints/blueprints-overview.md).
 

@@ -66,8 +66,11 @@ You must have the following access to perform the steps in this article and log 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <ul><li>Review or higher to log General Hours in a timesheet</li>
-   <li> Work or higher to log hours on a project, task, or issue</li></ul>
+   <td> <p>New plan:<ul><li>Light or higher to log General Hours in a timesheet</li></p>
+   <li> Standard or higher to log hours on a project, task, or issue</li></ul></p>
+   <p>or</p>
+   <p>Current plan:<ul><li>Review or higher to log General Hours in a timesheet</li></p>
+   <li> Work or higher to log hours on a project, task, or issue</li></ul></p>
    </td> 
   </tr> 
   <tr> 
@@ -97,7 +100,7 @@ You must have the following access to perform the steps in this article and log 
 * Hour entries that are included in billed billing records are dimmed and cannot be edited in the timesheet. For more information, see [Create billing records](../../manage-work/projects/project-finances/create-billing-records.md). 
 * Personal tasks do not display in the timesheet by default. Personal tasks display in the timesheet only when they have time logged. After you log the time on a personal task, you can pin the task to the timesheet and it will remain on the timesheet if it remains pinned. For more information, see [Create work items from the Home area](../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md). 
 
-## Log time
+## Log time {#log-time-section}
 
 You can log time in the following areas in Workfront:
 
@@ -130,7 +133,7 @@ You can log time to the following items in the timesheet:
 
 To log time on a timesheet: 
 
-1. Click the [!UICONTROL **Main Menu**] icon ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner of Workfront, if available.
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner.
 
 1. Click [!UICONTROL **Timesheets**]. Your current timesheet displays by default. 
    ![Timesheet](assets/timesheet-redesigned-nwe.png)
@@ -146,11 +149,13 @@ To log time on a timesheet:
 
    <!--drafted for full screen mode for add projects story - align it with the rest of the steps when you enable this:: 1. (Optional) Click the **full-screen** icon ![](assets/full-screen.png) to display the list of objects in full-screen mode.-->
 
-1. (Optional) Click the search icon ![Search for an item](assets/search-icon.png) to search for a specific item  using a keyword to add to the timesheet.
+1. (Optional) Click the search icon ![Search for an item](assets/search-icon.png) to search for a specific item using a keyword to add to the timesheet.
 
 1. (Optional) Expand the filter, view, or grouping drop-down menus to apply or customize one and to view the item information that you want. 
 
 1. Select one or several items in the list, then click **Add**. 
+
+   If you have added fewer than 50 items at one time, the items are added to the timesheet. Tasks and issues are listed under the name of the project. 
 
    >[!NOTE]
    >
@@ -204,6 +209,7 @@ To log time on a timesheet:
 
    ![Hour type drop-down menu](assets/hour-type-drop-down-expanded-redesigned-timesheet.png)
 
+   
    >[!TIP]
    >
    >   Depending on your operating system or browser and when using a standard QWERTY keyboard, press the following set of keys to add another row:
@@ -227,7 +233,6 @@ To log time on a timesheet:
    >   Depending on your operating system or browser and when using a standard QWERTY keyboard, press the following set of keys to delete a row:
    >   * Ctrl + Option + - for Windows computers 
    >   * Cmd + Option + - for Mac computers
-   
 
 1. Specify the amount of time you want to log on any given day in the timeline section of the timesheet, then click outside the hour box to save the hour entry. The hours are saved automatically. The row for which you log time is highlighted in light blue and the hour entry box is outlined in dark blue.
 
@@ -296,6 +301,8 @@ To log time on a timesheet:
 
    ![enter-an-update-in-redesigned-timesheet-left-panel](assets/enter-an-update-in-redesigned-timesheet-left-panel.png)
 
+1. (Optional) Return to the **Timesheet** area to close or submit your timesheet.
+
    * **Close**: Close the timesheet when you are done updating it. This option is only available when your timesheet is not associated with an approver.
 
    * **Submit for approval:** This option is available only if there is an approver on the timesheet. Save your changes and submit for approval. You can open the timesheet after closing it by clicking **Recall**, if an approval has not been granted yet. For more information, see [Submit a timesheet for approval](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
@@ -319,7 +326,7 @@ You can remove an hour entry or an item (project, task, or issue) from a timeshe
 
 To remove an hour entry from a timesheet: 
 
-1. Go to the timesheet and find the hour entry you want to remvoe. 
+1. Go to the timesheet and find the hour entry you want to remove. 
 1. Replace the hours entered with 0
       Or
    Remove the hours and replace them with 0, then press Enter. 
@@ -338,7 +345,7 @@ To remove an item from the timesheet that was manually added:
    >[!TIP]
    >
    >   When using a standard QWERTY keyboard after clicking an item in the timesheet, press the following set of keys to unpin an item:
-   > * Option + P for both Windows and Mac computers. 
+   > * Option + P for both Windows and Mac computers.
 
    The item is removed from the timesheet after you refresh the page.
 

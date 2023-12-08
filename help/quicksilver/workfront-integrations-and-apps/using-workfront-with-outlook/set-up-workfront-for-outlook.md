@@ -35,9 +35,12 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+  <tr>
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New plan: Standard </p>
+ <p>or</p> 
+<p>Current plan: [!UICONTROL Work], [!UICONTROL Plan] </p> 
+  </td> 
   </tr> 
  </tbody> 
 </table>

@@ -121,7 +121,7 @@ When this occurs, you can do one of the following:
 
 For instructions on adding a calculated custom field to a custom form, see [Add calculated data to a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-For more information about variables like `$$OBJCODE`, see [Wildcard filter variables](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+For more information about variables like `$$OBJCODE`, see [Wildcard filter variables overview](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ### Caution about deleting an object type from a custom form
 
