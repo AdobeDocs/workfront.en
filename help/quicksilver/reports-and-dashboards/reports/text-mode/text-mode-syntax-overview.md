@@ -205,7 +205,7 @@ The following rules apply when referencing Workfront objects using a `valueexpre
 
 * You can use a wildcard in a `valueexpression` but not in a `valuefield` line.
 
-  For information about wildcards, see [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+  For information about wildcards, see [Wildcard filter variables overview](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 
 #### `Valueformat` overview for views and groupings
@@ -281,4 +281,4 @@ You can use the following elements to build filters and custom prompts in text m
      >
      >Statement connectors are case sensitive and always uppercase. "AND" can be omitted in text mode.
 
-* Wildcards to make filters more dynamic and customize them for the current time or the user who is logged in. For information about wildcards, see [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+* Wildcards to make filters more dynamic and customize them for the current time or the user who is logged in. For information about wildcards, see [Wildcard filter variables overview](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).

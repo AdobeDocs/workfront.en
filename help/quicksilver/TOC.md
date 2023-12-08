@@ -1510,7 +1510,7 @@ feature-set: Workfront
       * [Groupings overview in Adobe Workfront](reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
       * [Create groupings in Adobe Workfront](reports-and-dashboards/reports/reporting-elements/create-groupings.md)
       * [Edit existing groupings](reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
-      * [Wildcard filter variables](reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
+      * [Wildcard filter variables overview](reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
       * [Use date-based wildcards to generalize reports](reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md)
       * [Use user-based wildcards to generalize reports](reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md)
       * [Share a filter, view, or grouping](reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md)
