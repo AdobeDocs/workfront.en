@@ -2,10 +2,12 @@
 content-type: reference
 navigation-topic: workfront-navigation
 title: Glossary of [!DNL Adobe Workfront] terminology
-description: The [!DNL Adobe Workfront] glossary lists commonly used terms in Adobe Workfront.
+description: The [!DNL Adobe Workfront] glossary lists commonly-used terms in [!DNL Adobe Workfront]. You can use the glossary when you want to find the definition of concepts you see in the [!UICONTROL Workfront] interface, reports, or you try to understand the meaning of [!DNL Workfront] concepts defined in the [!DNL Workfront] documentation.
+author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 ---
+
 # Glossary of [!DNL Adobe Workfront] terminology
 
 >[!IMPORTANT]
@@ -86,11 +88,11 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Agile Team]</td> 
-   <td>Differ from traditional team because they take their prospective work from a backlog and work on it within a set period of time that is called an [!UICONTROL Iteration].</td> 
+   <td>Differs a from traditional team because they take their prospective work from a backlog and work on it within a set period of time that is called an [!UICONTROL Iteration].</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL All My Teams]</td> 
-   <td> <p>When this is referenced in [!UICONTROL filters], this field displays either users that belong to the any of the teams that the logged-in user belongs to, or work items assigned to any of the teams that the logged-in user belongs to. </p> <p>We recommend using this field in a filter to make reports more generic when sharing them with other users. This way, you can build only one report which will display different information depending on who logs in to view it, as the information is always customized for the logged-in user. </p> </td> 
+   <td> <p>When this is referenced in [!UICONTROL filters], this field displays either users that belong to any of the teams that the logged-in user belongs to, or work items assigned to any of the teams that the logged-in user belongs to. </p> <p>We recommend using this field in a filter to make reports more generic when sharing them with other users. This way, you can build only one report which will display different information depending on who logs in to view it, as the information is always customized for the logged-in user. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Allocation Date]</td> 
@@ -121,7 +123,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <p>For a [!UICONTROL Budgeted Hour] report:</p> 
      <ul> 
       <li>Build this report when trying to understand the amount of [!UICONTROL Budgeted Hours] that is allocated to your resources or to your projects in the Resource Planner.</li> 
-      <li> <p>The [!UICONTROL Allocation Date] is the first day (a Sunday) of the week for which you budgeted the hours in the [!UICONTROL Resource Planner]. </p> <p>Tip:   <p>If a week spans for two months, it will generate two rows in the report: one corresponding to the first day of the week (Sunday of the first week which is during the first month), and the second row displays the first day of the second month. </p> <p>For example, if you budget 8 hours for a user for the week of June 30 (Sunday) - July 6 (Saturday), the two rows show an [!UICONTROL Allocation Date] of June 30, and July 1. </p> </p> <p>For information about budgeting resources in the [!DNL Resource Planner], see the article <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the [!DNL Resource Planner] using the [!UICONTROL Project] and [!UICONTROL Role] views</a>.</p> <p>For information about building a [!UICONTROL Budgeted Hour] report, see <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">Report: Budgeted Hour</a>. </p> </li> 
+      <li> <p>The [!UICONTROL Allocation Date] is the first day (a Sunday) of the week for which you budgeted the hours in the [!UICONTROL Resource Planner]. </p> <p><b>TIP</b></p> <p>If a week spans for two months, it will generate two rows in the report: one corresponding to the first day of the week (Sunday of the first week which is during the first month), and the second row displays the first day of the second month. </p> <p>For example, if you budget 8 hours for a user for the week of June 30 (Sunday) - July 6 (Saturday), the two rows show an [!UICONTROL Allocation Date] of June 30, and July 1. </p> </p> <p>For information about budgeting resources in the [!DNL Resource Planner], see the article <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the [!DNL Resource Planner] using the [!UICONTROL Project] and [!UICONTROL Role] views</a>.</p> <p>For information about building a [!UICONTROL Budgeted Hour] report, see <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">Report: Budgeted Hour</a>. </p> </li> 
      </ul> 
     </div> </td> 
   </tr> 
@@ -195,7 +197,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Audit Area]</td> 
-   <td> <p>Audits are system messages that record an action tha happened in Workfront. The following audit types are recorded:</p> 
+   <td> <p>Audits are system messages that record an action that happened in Workfront. The following audit types are recorded:</p> 
     <ul> 
      <li>[!UICONTROL Scope Change]</li> 
      <li>[!UICONTROL Attachment Action]</li> 
@@ -214,7 +216,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Automatic And On Change]</td> 
-   <td> <p>One of the [!UICONTROL Project Update] types. This will recalculate the Project's Projected and Planned timelines when the nightly recalculation process runs and when any update is made to the Project or Tasks within the Project. </p> <p>For more information, see <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.</p> </td> 
+   <td> <p>One of the [!UICONTROL Project Update] types. This will recalculate the Project's Projected and Planned timelines when the nightly recalculation process runs and when any update is made to the project or tasks within the Project. </p> <p>For more information, see <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.</p> </td> 
   </tr> 
   
   <tr> 
@@ -440,7 +442,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Calculated Assignment]</td> 
-   <td> <p>One of the task [!UICONTROL Duration] Types. This will calculate the percentage of an 8-hour work day that the user assigned to the task will be allocated to the task, based on the [!UICONTROL Duration] of the task and the [!UICONTROL Work Required].</p> <p>For more information, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task [!UICONTROL Duration] and [!UICONTROL Duration Type]</a>.</p> </td> 
+   <td> <p>One of the task [!UICONTROL Duration Types] . This will calculate the percentage of an 8-hour work day that the user assigned to the task will be allocated to the task, based on the [!UICONTROL Duration] of the task and the [!UICONTROL Work Required].</p> <p>For more information, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task [!UICONTROL Duration] and [!UICONTROL Duration Type]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Calculated Work]</td> 
@@ -448,7 +450,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Calendar]</td> 
-   <td> <p>There are two types of calendars in [!DNL Workfront]: the [!UICONTROL Home Calendar] and calendar reports.</p> <p>The [!UICONTROL Home Calendar] is a personal calendar that allows a user to manage their workload against their available hours in [!DNL Workfront]. The user can also integrate their [!UICONTROL Home Calendar] with [!DNL Outlook] ([!DNL Google] and [!DNL Microsoft] integration to come). </p> <p>For more information about the [!UICONTROL Home Calendar], see <a href="../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md" class="MCXref xref">[!UICONTROL Home Calendar] view</a>.</p> <p>A calendar report is a dynamic report in which users can view the date and other important details of an event, including the due date, status of work, and the user to whom the event is assigned.</p> <p> For more information about calendar reports, see <a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref">Calendar reports overview</a>.</p> </td> 
+   <td> <p>There are two types of calendars in [!DNL Workfront]: the [!UICONTROL Home Calendar] and calendar reports.</p> <p>The [!UICONTROL Home Calendar] is a personal calendar that allows a user to manage their workload against their available hours in [!DNL Workfront]. The users can also integrate their [!UICONTROL Home Calendar] with [!DNL Outlook] ([!DNL Google] and [!DNL Microsoft] integration to come). </p> <p>For more information about the [!UICONTROL Home Calendar], see <a href="../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md" class="MCXref xref">[!UICONTROL Home Calendar] view</a>.</p> <p>A calendar report is a dynamic report in which users can view the date and other important details of an event, including the due date, status of work, and the user to whom the event is assigned.</p> <p> For more information about calendar reports, see <a href="../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md" class="MCXref xref">Calendar reports overview</a>.</p> </td> 
   </tr> 
    <tr> 
    <td>[!UICONTROL Can Start]</td> 
@@ -522,7 +524,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Change Only]</td> 
-   <td>One of the Project [!UICONTROL Update Types]. It only updates [!UICONTROL Project Projected] and [!UICONTROL Planned] timelines when Updates are made to Tasks or edits are performed on the Project or Tasks.</td> 
+   <td>One of the project [!UICONTROL Update Types]. It only updates [!UICONTROL Project Projected] and [!UICONTROL Planned] timelines when Updates are made to tasks or edits are performed on the project or tasks.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Change Order]</td> 
@@ -586,14 +588,14 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li>[!UICONTROL On Target]</li> 
      <li>[!UICONTROL At Risk]</li> 
      <li>[!UICONTROL In Trouble]</li> 
-    </ul> <p>For more information about project condition, see the article <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Overview of [!UICONTROL Project Condition] and [!UICONTROL Condition Type]</a>.</p>
+    </ul> <p>For more information about project conditions, see the article <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Overview of [!UICONTROL Project Condition] and [!UICONTROL Condition Type]</a>.</p>
      <p>You can associate task and issue conditions with a number that can display in reports. The lists below display the default names and numbers for task and issue conditions. Your system administrator can update the names of conditions and they can add new conditions with different numbers. After a number is associated with a condition, it cannot be edited.  </p> 
      <p>For tasks, the condition is set manually by the task owner. The possible values for the task condition are:</p> 
     <ul> 
      <li>[!UICONTROL Going Smoothly] (0)<br></li> 
      <li> [!UICONTROL Some Concerns] (1)<br></li> 
      <li>[!UICONTROL Major Roadblocks] (2)</li> 
-    </ul> <p>For more information about task condition, see the article <a href="../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Update [!UICONTROL Condition] for tasks and issues</a>.</p> <p>For issues, the condition is set manually by the issue owner. The possible values for the issue condition are:<br></p> 
+    </ul> <p>For more information about task conditions, see the article <a href="../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md" class="MCXref xref">Update [!UICONTROL Condition] for tasks and issues</a>.</p> <p>For issues, the condition is set manually by the issue owner. The possible values for the issue condition are:<br></p> 
     <ul> 
      <li>[!UICONTROL Going Smoothly] (0)<br></li> 
      <li>[!UICONTROL Some Concerns] (1)<br></li> 
@@ -615,11 +617,11 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li>[!UICONTROL Must Finish On]</li> 
      <li>[!UICONTROL Start No Later Than]</li> 
      <li>[!UICONTROL Start No Earlier Than]</li> 
-    </ul> <p>Tip:   
+    </ul> <p><b>TIP</b></p>   
      <ul> 
       <li> <p>A task with a [!UICONTROL Constraint] of [!UICONTROL Fixed Dates] has no [!UICONTROL Constraint Date]. </p> </li> 
       <li> <p> [!UICONTROL Constraint Date] is only viewable in a report or customized view.</p> </li> 
-     </ul> </p> </td> 
+     </ul> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Constraint Day]</td> 
@@ -629,15 +631,15 @@ The following table is a list of commonly used terms in Adobe Workfront:
      <li>[!UICONTROL Must Finish On]</li> 
      <li>[!UICONTROL Start No Later Than]</li> 
      <li>[!UICONTROL Start No Earlier Than]</li> 
-    </ul> <p>Tip:   [!UICONTROL Constraint Day] is only viewable in a report or customized view. </p> </td> 
+    </ul> <p><b>TIP</b></p> <p>  [!UICONTROL Constraint Day] is only viewable in a report or customized view. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Constraint Type]</td> 
-   <td> <p>The scheduling tendency of a Task. For example, [!UICONTROL As Soon as Possible] will schedule a Task to begin as soon as possible, and [!UICONTROL Finish No Later Than] will schedule a Task to finish by the [!UICONTROL Constraint Date] and no later.</p> <p>For more information, see <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">[!UICONTROL Task Constraint] overview</a>.</p> </td> 
+   <td> <p>The scheduling tendency of a task. For example, [!UICONTROL As Soon as Possible] will schedule a task to begin as soon as possible, and [!UICONTROL Finish No Later Than] will schedule a task to finish by the [!UICONTROL Constraint Date] and no later.</p> <p>For more information, see <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">[!UICONTROL Task Constraint] overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Contextual Menu]</td> 
-   <td>A menu, located on the left side of the screen, on which the items change to correlate with the active content. For example, when a user is viewing a Project, the [!UICONTROL Contextual Menu] will display links to Project-related information and tools.</td> 
+   <td>A menu, located on the left side of the screen, on which the items change to correlate with the active content. For example, when a user is viewing a project, the [!UICONTROL Contextual Menu] will display links to project-related information and tools.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Converted Issue Originator]</td> 
@@ -682,19 +684,19 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL Custom Field]</td> 
-   <td>For Custom data that allow the user to select from several options, these are the values from which a User can select. Custom Options are only valid on [!UICONTROL Drop-Down], [!UICONTROL Multi-Select Drop-Down], [!UICONTROL Radio Buttons], and [!UICONTROL Checkboxes].</td> 
+   <td>For Custom data that allow the user to select from several options, these are the values from which a user can select. Custom Options are only valid on [!UICONTROL Drop-Down], [!UICONTROL Multi-Select Drop-Down], [!UICONTROL Radio Buttons], and [!UICONTROL Checkboxes].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Custom Form Label]</td> 
-   <td>When using a Custom Display Type with Custom Options, this is the User Interface text that will display in the Drop-Down menu, the Checkboxes, or the Radio Buttons for that Custom Option.</td> 
+   <td>When using a Custom Display Type with Custom Options, this is the user interface text that will display in the Drop-Down menu, the Checkboxes, or the Radio Buttons for that Custom Option.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Custom Value]</td> 
-   <td>When using a Custom field with Custom Options, this is the value that will be store in the database for a particular Option.</td> 
+   <td>When using a Custom field with Custom Options, this is the value that will be stored in the database for a particular Option.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Custom View]</td> 
-   <td>A definition of the data fields, or columns, that are displayed for each object in a list.</td> 
+   <td>A definition of the data fields, or columns that display for each object in a list.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Customer]</td> 
@@ -717,7 +719,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
  <tbody> 
   <tr> 
    <td>[!UICONTROL Dashboards]</td> 
-   <td> <p> You can add this field in a report or a list of the report object, to display the dashboards on which the report is listed in a list. </p> <p> You can use this field to filter for reports that are listed on a specific dashboard, as well. </p> <p> For more information about including dashboard information on report object reports, see the "Understanding What Reports Are Listed on Dashboards" section in the article <a href="../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md" class="MCXref xref">Access and organize reports</a></p> </td> 
+   <td> <p> You can add this field in a report or a view of the Report object, to display the dashboards on which the report is listed in a list. </p> <p> You can use this field to filter for reports that are listed on a specific dashboard, as well. </p> <p> For more information about including dashboard information on report object reports, see the "Understanding What Reports Are Listed on Dashboards" section in the article <a href="../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md" class="MCXref xref">Access and organize reports</a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Data Type]</td> 
@@ -778,7 +780,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[!UICONTROL Duration Type]</td> 
-   <td> <p>A task field that indicates how the work required to complete the task is allocated to the assignees across the task duration. It represents the relationship between the [!UICONTROL Duration] of the task, the [!UICONTROL Work Required], and the amount of time, or [!UICONTROL Allocation], the assigned resources should spend on the task to complete it. </p> <p>This field appears on the [!UICONTROL Details] tab of a task. </p> <p>Option are:</p> 
+   <td> <p>A task field that indicates how the work required to complete the task is allocated to the assignees across the task duration. It represents the relationship between the [!UICONTROL Duration] of the task, the [!UICONTROL Work Required], and the amount of time, or [!UICONTROL Allocation], the assigned resources should spend on the task to complete it. </p> <p>This field appears on the [!UICONTROL Details] tab of a task. </p> <p>The options for the Duration Type of a task are:</p> 
     <ul> 
      <li>[!UICONTROL Calculated assignment]</li> 
      <li>[!UICONTROL Calculated Work]</li> 
@@ -836,7 +838,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr> 
    <td>[!UICONTROL External]</td> 
-   <td> <p>Typically, a license type, or a user with such a license, which only has the ability to review information in the system.</p> <p>For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] licenses overview</a>.</p> </td> 
+   <td> <p>Typically, this is a license type, or a user with such a license. A user with such a license type only has the ability to review information in the system. They cannot actively participate in work.</p> <p>For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] licenses overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL External System]</td> 
@@ -848,14 +850,14 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td><p>Any Workfront object or the information associated with it, as it appears in the database. </p>
    <p>For example, "project", "user", "hour" are both Workfront objects as well as fields. "Name", "status", "owner", "start date" are Workfront fields that are associated with the above objects. </p>
 
-   <p>When referring to objects, the tems "objects" and "fields" can be used interchangeably.</p>
+   <p>When referring to objects, the terms "objects" and "fields" can be used interchangeably.</p>
    <p>In the scope of reporting, the "fields" refer to the objects or the information about the object that you want to capture in the report.</p>
    
    <p><b>NOTE</b></p>
 
-  <p>In text-more reporting, fields refer to the the objects or their information as it appears in the database.</p>
-   <p>Sometimes the name that you see in the user interface is different than the name of the field in the database. For example, "issue" is the name of the object in the Workfront interface, but "opTask" is the name of the object (or the field) in the Workfront database. </p> 
-   <p> It's important to use the field as it appears in the databse when writing a text-mode report, view, filter, or grouping, or when creating a calculated field.</p>
+  <p>In text-more reporting, fields refer to the objects or their information as it appears in the database.</p>
+   <p>Sometimes the name that you see in the user interface is different from the name of the field in the database. For example, "issue" is the name of the object in the Workfront interface, but "opTask" is the name of the object (or the field) in the Workfront database. </p> 
+   <p> It's important to use the field as it appears in the database when writing a text-mode report, view, filter, or grouping, or when creating a calculated field.</p>
 
    <p>For more information, see <a href="../../../wf-api/general/api-explorer.md">API Explorer</a> and <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md">Text Mode overview</a>.</p>  
 
@@ -989,11 +991,11 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Help Desk]</td> 
-   <td>The portion of [!DNL Workfront] that holds all issue queues. The [!UICONTROL Help Desk] can be used to process customer support tickets, project requests, help desk tickets, etc. This is the same as the [!UICONTROL Requests] area.</td> 
+   <td>An alternative name to describe the [!UICONTROL Requests] area of [!DNL Workfront]. You can use the [!UICONTROL Requests] area to process customer support tickets, project requests, help desk tickets, etc.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Owner]</td> 
-   <td>In an [!UICONTROL Hour] report, the [!UICONTROL Owner] is the user to whom the hours are attributed. This is different than the user who is actually logging the time. These two entities can sometimes be two different users. <br>For more information about logging time for another user, see the article <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Log time</a>.</td> 
+   <td>In an [!UICONTROL Hour] report, the [!UICONTROL Owner] is the user to whom the hours are attributed. This is different from the user who is actually logging the time. These two entities can sometimes be two different users. <br>For more information about logging time for another user, see the article <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Log time</a>.</td> 
   </tr> 
   
   <tr> 
@@ -1029,7 +1031,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL ID]</td> 
-   <td> <p>The ID is an alphanumeric indicator associated with every object in [!DNL Workfront]. It uniquely identifies each object in the [!DNL Workfront] database. You can view the ID of any object in a report or a list for each object. </p> <p>Tip:   <p>You can also view the ID in the URL of the object's page. For example, the ID of a project might look something like the number outlined in the following URL, when you access the [!UICONTROL Project Details] page:</p> <p><code>https://&lt;your domain>.my.workfront.com/project/<b>5e29c8010027d8eb334762d4fff3ffca</b>/overview</code> </p> </p> </td> 
+   <td> <p>The ID is an alphanumeric indicator associated with every object in [!DNL Workfront]. It uniquely identifies each object in the [!DNL Workfront] database. You can view the ID of any object in a report or a list for each object. </p> <p><b>TIP</b></p>   <p>You can also view the ID in the URL of the object's page. For example, the ID of a project might look something like the number outlined in the following URL, when you access the [!UICONTROL Project Details] page:</p> <p><code>https://&lt;your domain>.my.workfront.com/project/<b>5e29c8010027d8eb334762d4fff3ffca</b>/overview</code> </p> </p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Individual Goals]</td> 
@@ -1053,11 +1055,11 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Initiative Job Role Count]</td> 
-   <td> <p>In an [!UICONTROL Initiative Job Role] report, this displays the number of a specific job role associated with an initiative.</p> <p>The [!DNL Scenario Planner] requires an additional license. For information about the [!DNL Workfront Scenario Planner], see <a href="../../../scenario-planner/scenario-planner-overview.md">The [!DNL Scenario Planner] overview</a>. </p> <p>This field and the [!UICONTROL Initiative Job Role] report type are not visible in your [!DNL Workfront] instance unless your company has purchased a [!DNL Workfront Scenario Planner] license.</p> </td> 
+   <td> <p>In an [!UICONTROL Initiative Job Role] report, this displays the number of specific job roles associated with an initiative.</p> <p>The [!DNL Scenario Planner] requires an additional license. For information about the [!DNL Workfront Scenario Planner], see <a href="../../../scenario-planner/scenario-planner-overview.md">The [!DNL Scenario Planner] overview</a>. </p> <p>This field and the [!UICONTROL Initiative Job Role] report type are not visible in your [!DNL Workfront] instance unless your company has purchased a [!DNL Workfront Scenario Planner] license.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Initiative Last Published Date]</td> 
-   <td> <p>A field in an [!UICONTROL Initiative], [!UICONTROL Initiative Job Role], and [!UICONTROL Project] reports that displays the date that a plan initiative was last published to a project. You can publish initiatives to create projects or to update projects linked to the initiatives.</p> <p>The [!DNL Scenario Planner] requires an additional license. For information about the [!DNL Workfront Scenario Planner], see <a href="../../../scenario-planner/scenario-planner-overview.md">The [!DNL Scenario Planner] overview</a>. </p> <p><span>For information about publishing initiatives, see</span><a href="../../../scenario-planner/publish-scenarios-update-projects.md">Publish scenarios to create and update projects in the [!DNL Workfront Scenario Planner]</a>. This field is not visible in your [!DNL Workfront] instance unless your company has purchased a [!DNL Workfront Scenario Planner] license.</p> </td> 
+   <td> <p>A field in an [!UICONTROL Initiative], [!UICONTROL Initiative Job Role], and [!UICONTROL Project] report that displays the date that a plan initiative was last published to a project. You can publish initiatives to create projects or to update projects linked to the initiatives.</p> <p>The [!DNL Scenario Planner] requires an additional license. For information about the [!DNL Workfront Scenario Planner], see <a href="../../../scenario-planner/scenario-planner-overview.md">The [!DNL Scenario Planner] overview</a>. </p> <p><span>For information about publishing initiatives, see</span><a href="../../../scenario-planner/publish-scenarios-update-projects.md">Publish scenarios to create and update projects in the [!DNL Workfront Scenario Planner]</a>. This field is not visible in your [!DNL Workfront] instance unless your company has purchased a [!DNL Workfront Scenario Planner] license.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Inline Search]</td> 
@@ -1243,7 +1245,7 @@ The designated full time equivalency for users. A full-time user should have 100
  <tbody> 
   <tr> 
    <td>[!UICONTROL Manual Only]</td> 
-   <td> <p>One of a [!UICONTROL Project]'s [!UICONTROL Update Types]. This setting allows [!UICONTROL Project Projected] and [!UICONTROL Planned] timelines to be updated only when "[!UICONTROL Recalculated Timelines]" is clicked. Projects set up this way will be ignored during the lightly recalculation process and when the Project or Task in the Project are updated.</p> <p>For more information, see <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project [!UICONTROL Update Type] </a>.</p> </td> 
+   <td> <p>One of a [!UICONTROL Project]'s [!UICONTROL Update Types]. This setting allows [!UICONTROL Project Projected] and [!UICONTROL Planned] timelines to be updated only when "[!UICONTROL Recalculated Timelines]" is clicked. Projects set up this way will be ignored during the nightly recalculation process and when the project or tasks in the project are updated.</p> <p>For more information, see <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project [!UICONTROL Update Type] </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Me]</td> 
@@ -1255,11 +1257,11 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>[!UICONTROL Milestone]</td> 
-   <td> <p>A marker that you can associate with a task to indicate that a key point in the Project has been achieved when the task is completed. You generally can use milestones to show a significant event such as the completion of a phase of the project or a set of critical activities. [!UICONTROL Milestones] are typically associated with parent tasks. You must create the milestones before you can attach them to tasks. For information about milestones, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md">Create a milestone path</a> and <a href="../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md">Associate milestones with tasks</a>. </p> </td> 
+   <td> <p>A marker that you can associate with a task to indicate that a key point in the project has been achieved when the task is completed. You generally can use milestones to show a significant event such as the completion of a phase of the project or a set of critical activities. [!UICONTROL Milestones] are typically associated with parent tasks. You must create the milestones before you can attach them to tasks. For information about milestones, see <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md">Create a milestone path</a> and <a href="../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md">Associate milestones with tasks</a>. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Milestone Path]</td> 
-   <td>A collection of [!UICONTROL milestones]. [!UICONTROL Milestone Paths] are used on Projects to distinguish Projects with certain types of [!UICONTROL Milestones] from Projects with a different set of [!UICONTROL Milestones].</td> 
+   <td>A collection of [!UICONTROL milestones]. [!UICONTROL Milestone Paths] are used on projects to distinguish projects with certain types of [!UICONTROL Milestones] from projects with a different set of [!UICONTROL Milestones].</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>[!UICONTROL Milestone Task]</td> 
@@ -1279,7 +1281,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Naming convention]</td> 
-   <td>An organization-wide set of rules that uses data to create names of projects, tasks, and deliverables.</td> 
+   <td>An organization-wide set of rules that use data to create names of projects, tasks, and deliverables.</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>[!UICONTROL Native Integration]</td> 
@@ -1297,7 +1299,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr>
   <tr> 
    <td>[!UICONTROL Non Work Day]</td> 
-   <td>A day that is not allocated to the completion of any assignments. This is usually a vacation day, holiday, or weekend.</td> 
+   <td>A day that is not allocated to the completion of any assignments. This is usually a vacation day, holiday, or weekend. The term display in the API explorer. </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Note]</td> 
@@ -1305,7 +1307,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Note Text]</td> 
-   <td> <p>This displays the text of an update entered by an user on any object. </p> </td> 
+   <td> <p>This displays the text of an update entered by a user on any object. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Number of Linked Goals]</td> 
@@ -1351,7 +1353,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr>
   <tr> 
    <td>[!UICONTROL On Change Only]</td> 
-   <td> <p>One of the [!UICONTROL Project Update] Types. When this is selected, the [!UICONTROL Project Projected] and [!UICONTROL Planned] timelines update only when an update or change is made to the Project or to a Task within the Project. It does not update the project every night.</p> <p>For more information, see <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.</p> </td> 
+   <td> <p>One of the [!UICONTROL Project Update] Types. When this is selected, the [!UICONTROL Project Projected] and [!UICONTROL Planned] timelines update only when an update or change is made to the project or to a task within the project. It does not update the project every night.</p> <p>For more information, see <a href="../../../manage-work/projects/manage-projects/select-project-update-type.md" class="MCXref xref">Select the project Update Type </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Op Task]</td> 
@@ -1359,7 +1361,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Open]</td> 
-   <td>An Issue or Task that is not complete, but being worked on.</td> 
+   <td>An issue or task that is not complete, but being worked on.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Org Chart]</td> 
@@ -1490,7 +1492,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Managed"> 
    <td>[!UICONTROL Planned Budgeted Hours]</td> 
-   <td> <p>In a [!UICONTROL Budgeted Hour] report, this displays the amount of hours budgeted for Projects or [!UICONTROL Job Roles] in the [!UICONTROL Resource Planner]. </p> <p>For information about budgeting Projects or Roles in the [!UICONTROL Resource Planner], see the article <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the [!UICONTROL Resource Planner] using the [!UICONTROL Project] and [!UICONTROL Role] views</a>. For information about the [!UICONTROL Budgeted Hours] report, see the article <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">Report: Budgeted Hour</a>.</p> </td> 
+   <td> <p>In a [!UICONTROL Budgeted Hour] report, this displays the number of hours budgeted for projects or [!UICONTROL Job Roles] in the [!UICONTROL Resource Planner]. </p> <p>For information about budgeting projects or roles in the [!UICONTROL Resource Planner], see the article <a href="../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md" class="MCXref xref">Budget resources in the [!UICONTROL Resource Planner] using the [!UICONTROL Project] and [!UICONTROL Role] views</a>. For information about the [!UICONTROL Budgeted Hours] report, see the article <a href="../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/report-budgeted-hour.md" class="MCXref xref">Report: Budgeted Hour</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Completion Date]</td> 
@@ -1506,7 +1508,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Duration]</td> 
-   <td> <p>A task's [!UICONTROL Planned Duration] is usually the same as the task's [!UICONTROL Duration]. It represents the difference in days between the [!UICONTROL Planned Start] and the [!UICONTROL Planned Completion Dates] of the task. </p> <p>When the task has a [!UICONTROL Duration] Type of [!UICONTROL Effort Driven], the [!UICONTROL Planned Duration] can differ from the [!UICONTROL Duration] of the task, based on how many resources you assign to the task. </p> <p>For example, if a task with a [!UICONTROL Duration] Type of [!UICONTROL Effort Driven] has a [!UICONTROL Duration] of 3 days and you assign one resource with a full time schedule to the task, the [!UICONTROL Planned Duration] is 3 days, as well. If you assign three resources with a full time schedule to the same task, the [!UICONTROL Duration] stays 3 days, but the [!UICONTROL Planned Duration] becomes 1 day. The [!UICONTROL Planned Duration] also changes the [!UICONTROL Planned Start] and [!UICONTROL Planned Completion] dates of the task, to reflect the new [!UICONTROL Planned Duration]. As a result, the timeline of the project is affected as well. </p> <p>For more information about the difference between [!UICONTROL Duration] and [!UICONTROL Planned Duration] for tasks, see the article <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">Difference between [!UICONTROL Planned Duration] and [!UICONTROL Duration] for tasks</a>.</p> <p>Projects and issues don't have a [!UICONTROL Planned Duration]. </p> </td> 
+   <td> <p>A task's [!UICONTROL Planned Duration] is usually the same as the task's [!UICONTROL Duration]. It represents the difference in days between the [!UICONTROL Planned Start] and the [!UICONTROL Planned Completion Dates] of the task. </p> <p>When the task has a [!UICONTROL Duration] Type of [!UICONTROL Effort Driven], the [!UICONTROL Planned Duration] can differ from the [!UICONTROL Duration] of the task, based on how many resources you assign to the task. </p> <p>For example, if a task with a [!UICONTROL Duration] Type of [!UICONTROL Effort Driven] has a [!UICONTROL Duration] of 3 days and you assign one resource with a full-time schedule to the task, the [!UICONTROL Planned Duration] is 3 days, as well. If you assign three resources with a full-time schedule to the same task, the [!UICONTROL Duration] stays 3 days, but the [!UICONTROL Planned Duration] becomes 1 day. The [!UICONTROL Planned Duration] also changes the [!UICONTROL Planned Start] and [!UICONTROL Planned Completion] dates of the task, to reflect the new [!UICONTROL Planned Duration]. As a result, the timeline of the project is affected as well. </p> <p>For more information about the difference between [!UICONTROL Duration] and [!UICONTROL Planned Duration] for tasks, see the article <a href="../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md" class="MCXref xref">Difference between [!UICONTROL Planned Duration] and [!UICONTROL Duration] for tasks</a>.</p> <p>Projects and issues don't have a [!UICONTROL Planned Duration]. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Duration Minutes]</td> 
@@ -1523,9 +1525,9 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Hours]</td> 
-   <td> <p>This field appears in the [!UICONTROL projects], [!UICONTROL tasks], and issues areas, reports for projects, tasks, or issues, and resource management tools like the [!UICONTROL Resource Planner], [!UICONTROL Workload Balancer] and the [!UICONTROL Utilization] report. </p> <p>It shows the amount of hours that the Project Owner estimates that each task or issue should take to complete. For projects, it is generally a roll-up of the [!UICONTROL Planned Hours] from the tasks on the project. </p> <p>The [!UICONTROL Planned Hours] field might display different information depending on where you view it from. For information about Planned Hours, see <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Planned Hours overview</a>.</p> <p>Planned Hours are stored in minutes in the [!DNL Workfront] database. When writing calculations using this field, ensure you account for the fact that the hours display as minutes.<br></p> <p>By default, Planned Hours are distributed equally to all the days within the duration of a work item and also equally for all resources assigned to the task. Users can update the daily amount of Planned Hours for a work item or the individual Planned Hours for each assignee.</p> <p>Updating this field differs for projects, tasks, and issues: </p> 
+   <td> <p>This field appears in the [!UICONTROL projects], [!UICONTROL tasks], and issues areas, reports for projects, tasks, or issues, and resource management tools like the [!UICONTROL Resource Planner], [!UICONTROL Workload Balancer] and the [!UICONTROL Utilization] report. </p> <p>It shows the number of hours that the Project Owner estimates that each task or issue should take to complete. For projects, it is generally a roll-up of the [!UICONTROL Planned Hours] from the tasks on the project. </p> <p>The [!UICONTROL Planned Hours] field might display different information depending on where you view it from. For information about Planned Hours, see <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Planned Hours overview</a>.</p> <p>Planned Hours are stored in minutes in the [!DNL Workfront] database. When writing calculations using this field, ensure you account for the fact that the hours display as minutes.<br></p> <p>By default, Planned Hours are distributed equally to all the days within the duration of a work item and also equally for all resources assigned to the task. Users can update the daily number of Planned Hours for a work item or the individual Planned Hours for each assignee.</p> <p>Updating this field differs for projects, tasks, and issues: </p> 
     <ul> 
-     <li> <p>For issues, you can manually update this field. Issue Planned Hours are not added to the Project Planned Hours. </p> <p>Tip: In an issue report, one of the [!UICONTROL Planned Hours] fields is replaced by the [!UICONTROL Work] field. The field displays the number of Planned Hours on the issue. For more information, see the "work" or "[!UICONTROL Work]" fields in this table. </p> </li> 
+     <li> <p>For issues, you can manually update this field. Issue Planned Hours are not added to the Project Planned Hours. </p> <p><b>TIP</b></p> <p>In an issue report, one of the [!UICONTROL Planned Hours] fields is replaced by the [!UICONTROL Work] field. The field displays the number of Planned Hours on the issue. For more information, see the "work" or "[!UICONTROL Work]" fields in this table. </p> </li> 
     </ul> 
     <ul> 
      <li> <p>For tasks, you can manually update this field when the [!UICONTROL Duration Type] of the task is [!UICONTROL Calculated Assignment] or [!UICONTROL Simple]. This field is calculated by [!DNL Workfront] when the [!UICONTROL Duration Type] of the task is [!UICONTROL Calculated Work] or [!UICONTROL Effort Driven].<br>For information about [!UICONTROL Task Duration], see the article <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task [!UICONTROL Duration] and [!UICONTROL Duration Type]</a>.</p> </li> 
@@ -1593,26 +1595,26 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[!UICONTROL Predecessor]</td> 
-   <td> <p>A Task that must be complete prior to the completion of a Dependent Task. Also a Task that is marked as a [!UICONTROL Dependency] for another Task. Predecessors allow the planner to set sequence-dependency logic, such as to start a task after another task finishes.</p> <p>For more information, see <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">Overview of task predecessors</a>.</p> </td> 
+   <td> <p>A task that must be completed prior to the completion of a dependent task. Also a task that is marked as a [!UICONTROL Dependency] for another task. Predecessors allow the planner to set sequence-dependency logic, such as to start a task after another task finishes.</p> <p>For more information, see <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">Overview of task predecessors</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Primary Company]</td> 
-   <td>The Company that the user belongs to as designated in their user settings. Companies can also be associated with Projects.</td> 
+   <td>The Company that the user belongs to as designated in their user settings. Companies can also be associated with projects.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Primary Contact]</td> 
    <td><p>The [!UICONTROL Primary Contact] is the creator of an issue and it is automatically designated by [!DNL Workfront] when the someone creates the issue. You can manually update this field if you have [!DNL Manage] permissions to the issue. An issue can have only one Primary Contact.</p> 
    <p>If you change the Primary Contact, the user originally designated as the primary contact still has [!UICONTROL Manage] access to the issue.</p>
-   <p>When converting an issue to a task or a project, the user designated as the [!UICONTROL Primary Contact] of the becomes the [!UICONTROL Converted Issue Originator] of the project or task. If the [!UICONTROL Primary Contact] of the issue is updated after the issue was converted, the [!UICONTROL Converted Issue Originator] will be preserved as the [!UICONTROL Primary Contact] of the issue at the moment when the conversion happened. See also "[!UICONTROL Converted Issue Originator]" in this article.</p> 
+   <p>When converting an issue to a task or a project, the user designated as the [!UICONTROL Primary Contact] of the issue becomes the [!UICONTROL Converted Issue Originator] of the project or task. If the [!UICONTROL Primary Contact] of the issue is updated after the issue was converted, the [!UICONTROL Converted Issue Originator] will be preserved as the [!UICONTROL Primary Contact] of the issue at the moment when the conversion happened. See also "[!UICONTROL Converted Issue Originator]" in this article.</p> 
    </td> 
   </tr>
   <tr> 
    <td>[!UICONTROL Priority]</td> 
-   <td>A value that can be assigned to a Task, Issue or Project to designate how important it is. </td> 
+   <td>A value that can be assigned to a task, issue or a project to designate how important it is. </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Private]</td> 
-   <td>On a [!UICONTROL Note] or [!UICONTROL Document], this option makes that object hidden to most viewers. For a Private Help Desk Queue, only Users on the Queue Team can submit issues to that Queue through the [!UICONTROL Help Desk] Area.</td> 
+   <td>On a [!UICONTROL Note] or [!UICONTROL Document], this option makes that object hidden to most viewers. For a Private Help Request Queue, only users on the Project Team can submit issues to that queue (or project) through the [!UICONTROL Requests] area.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Profile]</td> 
@@ -1682,7 +1684,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Project Teams]</td> 
-   <td> <p>The collection of Users or Roles assigned to a Project</p> <p>For more information, see <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md">Project Team overview</a>.</p> </td> 
+   <td> <p>The collection of users or roles assigned to a project</p> <p>For more information, see <a href="../../../manage-work/projects/planning-a-project/project-team-overview.md">Project Team overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Project tracking]</td> 
@@ -1718,7 +1720,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Public]</td> 
-   <td>On a [!UICONTROL Note] or [!UICONTROL Document], this option makes that object accessible to other users, or even people from outside [!DNL Workfront]. For a [!UICONTROL Help Desk Queue], [!UICONTROL Public] means that all users that can submit Issues can submit Issues through the [!UICONTROL Help Desk] Area.</td> 
+   <td>On a [!UICONTROL Note] or [!UICONTROL Document], this option makes that object accessible to other users, or even people from outside [!DNL Workfront]. For a [!UICONTROL Help Request Queue], [!UICONTROL Public] means that all users that can submit issues to a project can submit issues through the [!UICONTROL Requests] area.</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Integrated"> 
    <td>[!UICONTROL Quality]</td> 
@@ -1726,19 +1728,19 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Queue]</td> 
-   <td>Also called [!UICONTROL Help Desk Queue]. This is a Project that has been published to the [!UICONTROL Help Desk] area to allow users to submit Issues to it. Usually Queues are created for particular topics, such as Bugs, Project Requests, etc.</td> 
+   <td>Also called Help Desk Queue or [!UICONTROL Help Request Queue]. This is a project that has been published to the [!UICONTROL Requests] area to allow users to submit issues to it. Usually queues are created for particular topics, such as [!UICONTROL Bugs], [!UICONTROL Project Requests], etc.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Queue Properties]</td> 
-   <td>These settings define Issue submission rules for a Project that is being published to the [!UICONTROL Help Desk].</td> 
+   <td>These settings define issue submission rules for a project that is being published to the [!UICONTROL Requests] area.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Queue Topic]</td> 
-   <td> <p>A property on a [!UICONTROL Help Desk Queue] that allows users submitting an Issue to select a Topic. Topics can:</p> 
+   <td> <p>A property on a [!UICONTROL Help Request Queue] that allows users submitting an issue to select a Topic. Topics can:</p> 
     <ul> 
      <li>Be associated with a Custom Data Form.</li> 
-     <li>Assign the Issue automatically to a User, Role, or Team through the Routing Rule set on the selected Topic.</li> 
-     <li>Move the issue to a different Project or Queue through the routing rule set on the selected topic.</li> 
+     <li>Assign the issue automatically to a user, role, or team through the Routing Rule set on the selected Topic.</li> 
+     <li>Move the issue to a different project or queue through the routing rule set on the selected topic.</li> 
     </ul> <p>For more information, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">Create Queue Topics</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -1755,7 +1757,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Reference Number]</td> 
-   <td> <p>Projects, tasks, and issues are automatically associated with a unique reference number as they are created. You can view the [!UICONTROL Reference Number] in the [!UICONTROL Details] page of projects, tasks, or issues, or in a list or report. </p> <p><b>TIP</b><p><br>You can defer to reference numbers when two items have the same name, as reference numbers are always unique. </p> <p>[!DNL Workfront] automatically generates sequential reference number at the system level. Each project, task, or issue gets the next available number in the sequence. <br></p> <p>For example, if User A creates a task, [!DNL Workfront] might automatically assign the task the Reference Number of 100. If User B creates an issue right after this, [!DNL Workfront] assigns the issue the Reference Number of 101. You cannot manually edit Reference Numbers. </p> </td> 
+   <td> <p>Projects, tasks, and issues are automatically associated with a unique reference number as they are created. You can view the [!UICONTROL Reference Number] in the [!UICONTROL Details] page of projects, tasks, or issues, or in a list or report. </p> <p><b>TIP</b><p><br>You can defer to reference numbers when two items have the same name, as reference numbers are always unique. </p> <p>[!DNL Workfront] automatically generates sequential reference numberss at the system level. Each project, task, or issue gets the next available number in the sequence. <br></p> <p>For example, if User A creates a task, [!DNL Workfront] might automatically assign the task the Reference Number of 100. If User B creates an issue right after this, [!DNL Workfront] assigns the issue the Reference Number of 101. You cannot manually edit Reference Numbers. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Rejection Issue]</td> 
@@ -1767,7 +1769,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Replanning]</td> 
-   <td>Changing the dates of a Project to repair or overcome problems. For example, a project that has been on hold for several months would need to be replanned to reflect accurate dates.</td> 
+   <td>Changing the dates of a project to repair or overcome problems. For example, a project that has been on hold for several months would need to be replanned to reflect accurate dates. This is a manual operation of adjusting either the dates of the project or those of the tasks. </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Report]</td> 
@@ -1791,7 +1793,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Reserved Time]</td> 
-   <td>Days specified on a User's Personal Time, indicating that the User will not be available for work. See "[!UICONTROL Non Work Days]".</td> 
+   <td>Days specified on a user's Personal Time, indicating that the user will not be available for work. See "[!UICONTROL Non Work Days]".</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Resolve Issue]</td> 
@@ -1807,7 +1809,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Resource]</td> 
-   <td>User(s) and/or Role(s) existing in the system and assigned to Project Teams and Tasks.</td> 
+   <td>Users or roles that exist in [!DNL Workfront] and are assigned to Project Teams, tasks, and issues. They are responsible for completing the work associated with projects, tasks, or issues. </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td>Resource Estimates</td> 
@@ -1818,7 +1820,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> -->
   <tr> 
    <td>[!UICONTROL Resource Management]</td> 
-   <td> <p>[!UICONTROL Resource Management] is an enterprise set of tools that allows you to accurately forecast the use of your resources based on their availability so that the work that must be done is completed on time and on budget. </p> <p>With Resource Management tools you can plan long term capacity and short term scheduling needs for your resources. </p> <p>For information about Resource Management in [!DNL Workfront], see <a href="../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md">Get started with Resource Management</a>.</p> </td> 
+   <td> <p>[!UICONTROL Resource Management] is an enterprise set of tools that allows you to accurately forecast the use of your resources based on their availability so that the work that must be done is completed on time and on budget. </p> <p>With Resource Management tools you can plan long-term capacity and short-term scheduling needs for your resources. </p> <p>For information about Resource Management in [!DNL Workfront], see <a href="../../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md">Get started with Resource Management</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Resource Manager IDs]</td> 
@@ -1838,12 +1840,12 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Resource Planner Budgeted Labor Cost]</td> 
-   <td> <p>These are the cost associated with the hours budgeted for project job roles using the Resource Planner. </p> <p>See also "Budgeted Labor Cost" in this article. </p> </td>
+   <td> <p>These is the cost associated with the hours budgeted for project job roles using the Resource Planner. </p> <p>See also "Budgeted Labor Cost" in this article. </p> </td>
 
 </tr> 
   <tr> 
    <td>[!UICONTROL Resource Pools]</td> 
-   <td> <p>Resource Pools are collections of users that can be associated with a project.The users in the same Resource Pool usually belong to the same department, have similar or complementary skills, or are funded by the same budget. You can associate multiple Resource Pools to a project or to a user. A resource pool can be assigned exclusively to a project or shared by several projects.</p> 
+   <td> <p>Resource Pools are collections of users that can be associated with a project. The users in the same Resource Pool usually belong to the same department, have similar or complementary skills, or are funded by the same budget. You can associate multiple Resource Pools to a project or to a user. A resource pool can be assigned exclusively to a project or shared by several projects.</p> 
    <p>For more information about resource pools, see <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview </a>.</p> 
    <p>In project reports, Resource Pools show all the pools associated with a project. This object cannot be used in a grouping.</p> 
   </td> 
@@ -1866,7 +1868,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Reviewer]</td> 
-   <td>Typically a license type. A User with a [!UICONTROL Reviewer] license has the ability to review and approve work items in the system.</td> 
+   <td>Typically a license type. A user with a [!UICONTROL Reviewer] license has the ability to review and approve work items in the system.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Risk]</td> 
@@ -1896,11 +1898,11 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Routing]</td> 
-   <td>Automatically assigning or moving an Issue, usually due to a Queue Topic or by way of being the Default Route (Routing Rule) for the Queue.</td> 
+   <td>Automatically assigning or moving an issue, usually due to a Queue Topic or by way of being the Default Route (Routing Rule) for the queue.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Routing Rule]</td> 
-   <td>A setting on Projects and Queues that automatically assigns an Issue to a User, Role, or Team, or moved the Issue to another Project or Queue. Routing Rules are generally used with Help Desk Queues to automatically assign incoming Issues.</td> 
+   <td>A setting on projects and queue topics that automatically assigns an issue to a user, role, or team, or moves the issue to another project or queue topic. Routing Rules are generally used with Help Request Queues to automatically assign incoming issues.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -1931,7 +1933,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Schedule]</td> 
-   <td>The weekly work schedule, including working times, combined with Days off (such as Holidays) and exception days (such as a Saturday work day). Schedules can be applied to Projects and Users.</td> 
+   <td>The weekly work schedule, including working times, combined with Days off (such as Holidays) and exception days (such as a Saturday work day). Yiu can associate schedules with projects and users.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Schedule Exemption]</td> 
@@ -1943,7 +1945,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Scope Change]</td> 
-   <td>An [!UICONTROL Audit Trail] that, if active, generates a note any time a change is made to the Scope of a Project or Task, such as if a [!UICONTROL Task Duration] or [!UICONTROL Predecessors] are changed.</td> 
+   <td>An [!UICONTROL Audit Trail] that, if active, generates a note anytime a change is made to the Scope of a project or task, such as if a [!UICONTROL Task Duration] or the [!UICONTROL Predecessors] are changed.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Section]</td> 
@@ -1955,7 +1957,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Security]</td> 
-   <td>The settings that allow a User to interact with certain objects in the system and not others. See also "[!UICONTROL Access Levels]" in this article.</td> 
+   <td>The settings that allow a user to interact with certain objects in the system and not others. See also "[!UICONTROL Access Levels]" in this article.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Setup]</td> 
@@ -1963,7 +1965,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Severity]</td> 
-   <td> <p>[!UICONTROL Severity] is an indication of how likely an item is to impact the completion of the work. For example, an Issue with high [!UICONTROL Severity] may completely block a Task's completion, but an Issue with low [!UICONTROL Severity] may be merely cosmetic.</p> <p>For more information, see <a href="../../../manage-work/issues/issue-information/update-issue-severity.md" class="MCXref xref"> Update issue severity</a>.</p> </td> 
+   <td> <p>[!UICONTROL Severity] is an indication of how likely an item is to impact the completion of the work. For example, an issue with high [!UICONTROL Severity] may completely block a task's completion, but an issue with low [!UICONTROL Severity] may be merely cosmetic.</p> <p>For more information, see <a href="../../../manage-work/issues/issue-information/update-issue-severity.md" class="MCXref xref"> Update issue severity</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Severities]</td> 
@@ -1979,7 +1981,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Smart Assignments]</td> 
-   <td> <p>When assigning Tasks or Issues to Users, [!DNL Workfront] makes recommendations ([!UICONTROL Smart Assignments]) about who the best users are to complete the work, based on the time they have available to complete it and their relationship to the project.</p> <p>For more information , see <a href="../../../manage-work/tasks/assign-tasks/smart-assignments.md" class="MCXref xref">Smart assignments overview</a>.</p> </td> 
+   <td> <p>When assigning tasks or issues to users, [!DNL Workfront] makes recommendations ([!UICONTROL Smart Assignments]) about who the best users are to complete the work, based on the time they have available to complete it and their relationship to the project.</p> <p>For more information , see <a href="../../../manage-work/tasks/assign-tasks/smart-assignments.md" class="MCXref xref">Smart assignments overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Source]</td> 
@@ -2009,19 +2011,19 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Status]</td> 
-   <td> <p>An indicator used to signal a workflow position of a work item or of a strategic goal.</p> <p>For Projects, the [!UICONTROL Status] is a setting on the Project that indicates whether the Project is:</p> 
+   <td> <p>An indicator used to signal a workflow position of a work item or of a strategic goal.</p> <p>For projects, the [!UICONTROL Status] is a setting on the project that indicates whether the project is:</p> 
     <ul> 
      <li>[!UICONTROL Current]</li> 
      <li>[!UICONTROL On Hold] </li> 
      <li>[!UICONTROL Complete] </li> 
      <li>[!UICONTROL Dead]</li> 
-    </ul> <p>For more information on Project Status, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md">Access the list of system project statuses</a>.</p>
-    <p>For Tasks, the [!UICONTROL Status] is a setting on the Task that indicates whether the Task is:</p> 
+    </ul> <p>For more information on a project's Status, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md">Access the list of system project statuses</a>.</p>
+    <p>For tasks, the [!UICONTROL Status] is a setting on the task that indicates whether the task is:</p> 
     <ul> 
      <li>[!UICONTROL New]</li> 
      <li>[!UICONTROL In Progress]</li> 
      <li>[!UICONTROL Complete]</li> 
-    </ul> <p>For more information on Task Status, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md">Access the list of system task statuses</a></p> <p>For Issues, the [!UICONTROL Status] is a setting on the Issue that indicates whether this Issue is:</p> 
+    </ul> <p>For more information on task Status, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md">Access the list of system task statuses</a></p> <p>For issues, the [!UICONTROL Status] is a setting on the issue that indicates whether this issue is:</p> 
     <ul> 
      <li>[!UICONTROL New]</li> 
      <li>[!UICONTROL In Progress]</li> 
@@ -2032,7 +2034,7 @@ The designated full time equivalency for users. A full-time user should have 100
      <li>[!UICONTROL Cannot Duplicate]</li> 
      <li>[!UICONTROL Verified Complete]</li> 
      <li>[!UICONTROL Reopened]</li> 
-    </ul> <p>For more information on Issue Statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Access the list of system issue statuses</a>.</p> 
+    </ul> <p>For more information on issue Statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref">Access the list of system issue statuses</a>.</p> 
     <p>For strategic goals, the [!UICONTROL Status] is a setting on the goal that indicates whether the goal is:</p> 
      <ul> 
       <li>[!UICONTROL Active]</li> 
@@ -2046,7 +2048,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Status Change]</td> 
-   <td>An [!UICONTROL Audit Trail]. A note is generated when a User changes the Status of the Project, Task, or Issue.</td> 
+   <td>An [!UICONTROL Audit Trail]. A note is generated when a user changes the Status of the project, task, or issue.</td> 
   </tr> 
   <tr> 
    <td>Status Icons</td> 
@@ -2072,8 +2074,8 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Status Update]</td> 
-   <td> <p>This field shows the most recent status update that object owners have provided in the '[!UICONTROL Update Status]' field. For projects, this means comments made by the Project Owner, and for tasks and issues, this means comments made by the assignees.</p> 
-   <p> Comments made on status updates are not displayed in the [!UICONTROL Status Update] column.</p> <p>To show the '[!UICONTROL New],' '[!UICONTROL In Process],' and '[!UICONTROL Complete]' statuses, use the [!UICONTROL Status] column.</p> <p>For more information on statuses, see the article <a href="../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Update task status</a>.</p> </td> 
+   <td> <p>In a project, task, or issue report, this field shows the most recent status update that object owners have provided in the '[!UICONTROL Updates]' area. For projects, this means that comments made by the Project Owner, and for tasks and issues, this means that comments made by the assignees.</p> 
+   <p> Comments made when updating the status of an object do not display in the [!UICONTROL Status Update] column.</p> <p>To show the '[!UICONTROL New],' '[!UICONTROL In Process],' and '[!UICONTROL Complete]' statuses, use the [!UICONTROL Status] column.</p> <p>For more information on statuses, see the article <a href="../../../manage-work/projects/updating-work-in-a-project/update-task-status.md" class="MCXref xref">Update task status</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Statuses]</td> 
@@ -2111,7 +2113,7 @@ The designated full time equivalency for users. A full-time user should have 100
 
   <tr> 
    <td>[!UICONTROL Subscribers]</td> 
-   <td> <p>Users that subscribe to Projects, Tasks, or Issues.</p> <p>When you use this field in a report, a list of subscribers displays, with each subscriber separated by a comma.</p> <p>For more information, see the article <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Subscribe to items in [!DNL Adobe Workfront]</a>.</p> </td> 
+   <td> <p>Users that subscribe to projects, tasks, or issues.</p> <p>When you use this field in a report, a list of subscribers displays, with each subscriber separated by a comma.</p> <p>For more information, see the article <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Subscribe to items in [!DNL Adobe Workfront]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Summary Task]</td> 
@@ -2135,7 +2137,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Task Attribute]</td> 
-   <td>Other fields or objects that are associated with a Task and indicate certain details about the Task. Some examples are [!UICONTROL Planned Completion Date] and [!UICONTROL Status].</td> 
+   <td>Other fields or objects that are associated with a task and indicate certain details about the task. Some examples are [!UICONTROL Planned Completion Date] and [!UICONTROL Status].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Task Constraint]</td> 
@@ -2164,7 +2166,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Template Task]</td> 
-   <td>A Task that is part of a Template. Template Tasks become Tasks in the Project that is created by using the Template.</td> 
+   <td>A task that is part of a template. Template Tasks become Tasks in the project that is created by using the template.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Thread]</td> 
@@ -2196,14 +2198,14 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Total Hours]</td> 
-   <td> <p>In a [!UICONTROL project report], this field displays the rounded sum of all hours on the project, the last time the project finances were calculated. [!UICONTROL Actual Hours] reflect the exact hours logged on the project. Typically, the [!UICONTROL Actual Hours] should match the [!UICONTROL Total Hours]. If the [!UICONTROL Total Hours] appears significantly different than the [!UICONTROL Actual Hours] field, you must Recalculate Finances on the project.</p> <p>For more information about recalculating project finances, see the article <a href="../../../manage-work/projects/project-finances/recalculate-project-finances.md" class="MCXref xref">Recalculate project finances</a>.</p> <p>In a timesheet [!UICONTROL Standard] view, this field refers to the total hours logged for items for the dates displayed on a timesheet. The [!UICONTROL Total Hours] field for timesheets in this built-in view references the "[!UICONTROL hoursDuration]" field which dynamically calculates the difference in hours between the timesheet Start and End dates. This is used to display the [!UICONTROL Total Hours] column in red if the user logs more time than the available hours in the timesheet's time frame. For more information, see <a href="../../../timesheets/create-and-manage-timesheets/view-total-hours-timesheets.md" class="MCXref xref">View total hours on the timesheet</a>. </p> </td> 
+   <td> <p>In a [!UICONTROL project report], this field displays the rounded sum of all hours on the project, the last time the project finances were calculated. [!UICONTROL Actual Hours] reflect the exact hours logged on the project. Typically, the [!UICONTROL Actual Hours] should match the [!UICONTROL Total Hours]. If the [!UICONTROL Total Hours] appears significantly different from the [!UICONTROL Actual Hours] field, you must Recalculate Finances on the project.</p> <p>For more information about recalculating project finances, see the article <a href="../../../manage-work/projects/project-finances/recalculate-project-finances.md" class="MCXref xref">Recalculate project finances</a>.</p> <p>In a timesheet [!UICONTROL Standard] view, this field refers to the total hours logged for items for the dates displayed on a timesheet. The [!UICONTROL Total Hours] field for timesheets in this built-in view references the "[!UICONTROL hoursDuration]" field which dynamically calculates the difference in hours between the timesheet Start and End dates. This is used to display the [!UICONTROL Total Hours] column in red if the user logs more time than the available hours in the timesheet's time frame. For more information, see <a href="../../../timesheets/create-and-manage-timesheets/view-total-hours-timesheets.md" class="MCXref xref">View total hours on the timesheet</a>. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Tracking Mode]</td> 
-   <td> <p>An attribute of a Task. This determined how and then the Projected timelines will be updated for a Task. For example:</p> 
+   <td> <p>An attribute of a task. This determines how and when the Projected timelines will be updated for a task. For example:</p> 
     <ul> 
-     <li>[!UICONTROL User Must Update] requires that a Task be updated manually. Otherwise, it will become [!UICONTROL Behind Schedule], then [!UICONTROL Late].</li> 
-     <li>[!UICONTROL Auto Complete] will automatically complete a Task when the Due Date, or [!UICONTROL Planned Completion Date], has passed.</li> 
+     <li>[!UICONTROL User Must Update] requires that a task be updated manually. Otherwise, it will become [!UICONTROL Behind Schedule], then [!UICONTROL Late].</li> 
+     <li>[!UICONTROL Auto Complete] will automatically complete a task when the Due Date, or [!UICONTROL Planned Completion Date], has passed.</li> 
     </ul> <p>For more information, see <a href="../../../manage-work/tasks/task-information/task-tracking-mode.md" class="MCXref xref">Task Tracking Mode overview</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Optimized"> 
@@ -2212,15 +2214,15 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Trouble Task]</td> 
-   <td>An incomplete Task with a condition of [!UICONTROL Late], [!UICONTROL Behind Schedule], or [!UICONTROL At Risk].</td> 
+   <td>An incomplete task with a condition of [!UICONTROL Late], [!UICONTROL Behind Schedule], or [!UICONTROL At Risk].</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Unassigned Task]</td> 
-   <td>A Task that is not assigned to any User, Role, or Team.</td> 
+   <td>A task that is not assigned to any User, Role, or Team.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Update Type]</td> 
-   <td> <p>A setting on the Project that determines when the Project's Projected timeline will be recalculated. Options are:</p> 
+   <td> <p>A setting on a project that determines when the project's Projected timeline will be recalculated. The [!UICONTROL Update Type] can have the following values:</p> 
     <ul> 
      <li>[!UICONTROL Automatic and On Change]</li> 
      <li>[!UICONTROL Automatic Only]</li> 
@@ -2277,7 +2279,8 @@ The designated full time equivalency for users. A full-time user should have 100
    </tr> 
   <tr> 
    <td>[!UICONTROL View]</td> 
-   <td> <p>Views can be used to modify the columns in a Report or in a list of projects, tasks, or issues, or they can be used to indicate a user's right to only view information on an access level or at a permissions sharing level.</p> </td> 
+   <td> <p>Views refer to a reporting element which allows you to modify the columns in a report or in a list of objects.</p> 
+   <p> View also refers to a user's right to only view information on an object, according to their access level or at a permissions sharing level on that object.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL View Icons]</td> 
@@ -2316,7 +2319,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </td>
 <td> In a report, when using the [!UICONTROL Text Mode] interface, the line of code where you can specify the width of each column in pixels. Workfront provides a suggested width for each field,
 though depending on the type of field and format, you may want to make adjustments.
-You must use the additional <code>[!UICONTROL usewidths=true]</code> line of code to enforce the width specified for the columm. 
+You must use the additional <code>[!UICONTROL usewidths=true]</code> line of code to enforce the width specified for the column. 
   </td>
 
   </tr>
@@ -2332,7 +2335,7 @@ You must use the additional <code>[!UICONTROL usewidths=true]</code> line of cod
   </tr> 
   <tr> 
    <td>[!UICONTROL Work]</td> 
-   <td> <p>One of the two primary License Types. This has less access than [!UICONTROL Plan], but can create and make updates in the system. This mas more abilities than [!UICONTROL External], [!UICONTROL Reviewer], or [!UICONTROL Requester] License Types.</p> <p>For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] licenses overview</a>.</p> <p>Work might refer to the number of [!UICONTROL Planned Hours] for a project, task, or issue. For more information, see the "[!UICONTROL work]" field in this table. </p> <p>Tip: In an issue report, adding one of the [!UICONTROL Planned Hours] fields adds the <code>work </code>field to the report. </p> </td> 
+   <td> <p>One of the two primary License Types. This has less access than [!UICONTROL Plan], but can create and make updates in the system. A user with a Work license has more abilities than an [!UICONTROL External], [!UICONTROL Reviewer], or [!UICONTROL Requester] license holder.</p> <p>For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">[!DNL Adobe Workfront] licenses overview</a>.</p> <p>Work might refer to the number of [!UICONTROL Planned Hours] for a project, task, or issue. For more information, see the "[!UICONTROL work]" field in this table. </p> <p><b>TIP</b></p> <p> In an issue report, adding one of the [!UICONTROL Planned Hours] fields adds the <code>work </code>field to the report. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Work Breakdown Structure]</td> 
@@ -2343,7 +2346,7 @@ You must use the additional <code>[!UICONTROL usewidths=true]</code> line of cod
    <td> 
     <p>A project manager might decide to use this field instead of [!UICONTROL Planned Hours] to estimate the effort needed to complete a task. This field is visible only when the following conditions are met:</p> 
      <ul> 
-      <li> <p>The task has a [!UICONTROL Simple Duration Type]. </p> <p>Tip: If you update the task [!UICONTROL Duration Type] to any other type, this field becomes hidden. </p> </li> 
+      <li> <p>The task has a [!UICONTROL Simple Duration Type]. </p> <p><b>TIP</b></p> <p> If you update the task [!UICONTROL Duration Type] to any other type, this field becomes hidden. </p> </li> 
       <li>The project manager has enabled the [!UICONTROL Use Work Effort] to automatically calculate task [!UICONTROL Planned Hours] field on the project. </li> 
      </ul> 
      <p>For information about using [!UICONTROL Work Effort] instead of [!UICONTROL Planned Hours] to estimate task effort, see <a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Work Effort overview</a>. </p> 
@@ -2400,7 +2403,7 @@ You must use the additional <code>[!UICONTROL usewidths=true]</code> line of cod
    <p>The system uses this number to calculate the availability of the user for actual, project-related work. </p>
    <p> Schedule exceptions and time off might also affect the user capacity. </p>
    <p>For more information about creating schedules in Workfront, see <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md">Create a schedule</a>. </p>
-    <p>Workfront calculates a user's availability depending on the Resource Management preferences in your [!UICONTROL Setup] area. For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">Configure Resource Management preferences</a>. </p> 
+    <p>Workfront calculates a user's availability depending on the Resource Management preferences in the [!UICONTROL Setup] area. For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md/">Configure Resource Management preferences</a>. </p> 
    <p>You can update the [!UICONTROL Work Time] of a user when you edit or create the user. For information, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md">Edit a user's profile</a></p> 
    <b>TIP</b> 
    <p>Set the [!UICONTROL Work Time] value to  1 to indicate that the user is available for project-related work their entire full-time equivalent.</p> 

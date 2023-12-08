@@ -200,7 +200,7 @@ You can add updates to the following objects:
 1. Click the **Updates** section.
 1. (Conditional) If it is enabled, click the **New commenting** option in the upper-right corner of the Updates section to disable it and enable the legacy commenting experience.
 1. Click **Start a new update,** then type your update.  
-1. (Optional) Use Rich Text, or add emojis, links, or images to your update, to enhance your content. For more information, see the [Use Rich Text in a Workfront update](#use-rich-text-in-a-workfront-update) section in this article.
+1. (Optional) Use the options in the Rich Text toolbar to format your text, add emojis, links, or images to your update, to enhance your content. For more information, see the [Use Rich Text in a Workfront update](#use-rich-text-in-a-workfront-update) section in this article.
 1. (Optional) Update any of the following information about the work item:
 
    <table style="table-layout:auto"> 
@@ -269,7 +269,7 @@ You can add updates to the following objects:
       * CTRL + Z (⌘+z for Mac) to undo a change 
       * CTRL + Y (⌘+y for Mac) to redo a change 
 1. (Optional) In the **Tag people or teams** area, start typing the name or the email of a user, or a team that you would like to include in this comment, then select it when it displays in the list. 
-1. (Optional) Use Rich Text, or add emojis, links, or images to your update, to enhance your content. For more information, see the [Use Rich Text in a Workfront update](#use-rich-text-in-a-workfront-update) section in this article. 
+1. (Optional) Use the options in the Rich Text toolbar to format your text, add emojis, links, or images to your update, to enhance your content. For more information, see the [Use Rich Text in a Workfront update](#use-rich-text-in-a-workfront-update) section in this article. 
 
       >[!TIP]
       >
@@ -285,7 +285,7 @@ You can add updates to the following objects:
 
    >[!IMPORTANT]
    >
-   >You can edit your comment only within 15 from submitting it.  
+   >You can edit your comment only within 15 minutes from submitting it.  
 
 1. Edit the information in the comment, add or remove images or remove any of the tagged users. An "Edited" indicator is added to the left of the date stamp that displays when the comment was entered.
    
@@ -401,12 +401,16 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
    1. Under **Text to display**, type or paste the link text.
    1. Click **Save**.
 
-1. (Optional) <span class="preview">To attach an image to your update, copy a screenshot from your computer, then paste it in the comment </span> 
-   
-   Or 
-   
-   Click the **Add image** icon ![](assets/add-image-mountain-with-plus-icon.png) and browse to the image on your computer. 
+1. (Optional) To attach an image to your update, do one of the following: 
 
+   <!--* <span class="preview">Save the image on our computer, then drag and drop it in the New comment area.</span>
+   <span class="preview">This is not available in the Production environment for the new commenting experience.</span>
+   -->
+   
+   * <span class="preview">Copy a screenshot from your computer, then paste it in the comment </span> 
+   * Click the **Add image** icon ![](assets/add-image-mountain-with-plus-icon.png) and browse to the image on your computer. 
+
+   
    >[!NOTE]
    >
    >* Your Workfront administrator must enable adding images in the Update Feeds Preferences section of the Workfront Interface area before you can see the Image or the Add attachment icons. For information, see [Configure preferences for user updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md). 

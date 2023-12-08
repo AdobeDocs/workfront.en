@@ -16,7 +16,7 @@ For example, if you want to find out the number of week days that elapsed betwee
 For example, you can calculate the week day difference between the Planned Completion Date and the Actual Completion Date of a task and display the result in a column.
 
 You can use any other two dates in this calculation (Actual Start, Actual Completion, Projected Start, Projected Completion, etc).  
-For more information about calculated data expressions, see [Calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+For more information about calculated data expressions, see [Overview of calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 ## Access requirements
 
