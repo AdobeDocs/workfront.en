@@ -63,7 +63,7 @@ You must have the following access to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>Enable fast review process</p> </td> 
-      <td>Lets you enable monthly Workfront releases for your organization instead of quarterly releases.</p><p>For more information about the fast release process, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Enable or disable fast releases for your organization</a>.</p></td> 
+      <td>Lets you enable monthly Workfront releases for your organization instead of quarterly releases.</p><p>For more information about the fast release process, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">Enable or disable fast releases for your organization</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Allow embedding of <strong>Workfront</strong> in an iframe</p> </td> 

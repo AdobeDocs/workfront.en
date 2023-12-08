@@ -11,10 +11,7 @@ This page provides information about functionality that is included in the First
 
 The enhancements on this page are available in the Preview environment. This page will be updated with additional enhancements as the First Quarter 2024 release nears its planned Production release.
 
-
-<!-- Keep commented until Final Preview release.
-
-The <add release> release webinar will be held on <date>. You can [register for the webinar here <get link from product ops>. -->
+The 24.1 release webinar will be held on January 11, 2024. You can [register for the webinar here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
 
 <span class="preview">Off-cycle features (those releasing to Production prior to the First Quarter 2024 release date) are highlighted in yellow.</span>
 

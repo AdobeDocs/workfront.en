@@ -116,7 +116,7 @@ You can use both built-in Workfront fields and custom fields that you already cr
    >
    >In this example, `SUB` is the expression, and the referenced fields are `actualRevenue` and `actualCost`.
 
-   A calculation usually starts with an expression, followed by parentheses containing the fields you want to reference when the custom form is attached to an object. For information about the expressions that are available, see [Calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   A calculation usually starts with an expression, followed by parentheses containing the fields you want to reference when the custom form is attached to an object. For information about the expressions that are available, see [Overview of calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
    Each field must be surrounded with curly brackets, as explained in the section [Syntax required in calculated custom fields](#syntax-required-in-calculated-custom-fields) in this article. When you start typing the name of a field, the system makes suggestions and you can select one to insert it into your calculation.
 
@@ -132,7 +132,7 @@ You can use both built-in Workfront fields and custom fields that you already cr
    >
    >You can do any of the following to get help with your calculation:
    > 
-   >* Hover over an expression in your calculation to see a description, an example showing how it can be used, and a "Learn More" link to more information in the article [Calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   >* Hover over an expression in your calculation to see a description, an example showing how it can be used, and a "Learn More" link to more information in the article [Overview of calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
    >  ![](assets/hover-expression-help-text.jpg)
    >* Use the color coding to identify the components you have added. Expressions display in blue and fields display in green.
    >  ![](assets/colors-fields-expressions.jpg)
