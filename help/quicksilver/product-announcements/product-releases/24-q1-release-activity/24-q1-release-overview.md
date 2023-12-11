@@ -3,18 +3,15 @@ title: First Quarter 2024 release overview
 description: First Quarter 2024 release overview
 author: Becky
 feature: Product Announcements
+exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
 ---
-
 # First Quarter 2024 release overview
 
 This page provides information about functionality that is included in the First Quarter 2024 release scheduled for January 2024. 
 
 The enhancements on this page are available in the Preview environment. This page will be updated with additional enhancements as the First Quarter 2024 release nears its planned Production release.
 
-
-<!-- Keep commented until Final Preview release.
-
-The <add release> release webinar will be held on <date>. You can [register for the webinar here <get link from product ops>. -->
+The 24.1 release webinar will be held on January 11, 2024. You can [register for the webinar here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
 
 <span class="preview">Off-cycle features (those releasing to Production prior to the First Quarter 2024 release date) are highlighted in yellow.</span>
 
@@ -111,6 +108,40 @@ The <add release> release webinar will be held on <date>. You can [register for 
            </tbody>
 </table>
 
+### Home enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">My Work quick action buttons changed to only display on mouseover</a><span style="color: #ff0000;"> New in Preview!</span></p><p>To improve performance, the quick action buttons available in the My Work widget will now only be displayed when a work item is hovered over with the mouse.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: November 29, 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production for all customers: November 29, 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
 ### Integration enhancements
 
 <table>
@@ -129,7 +160,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Typeahead fields now available in Adobe Experience Manager Integration</a><span style="color: #ff0000;"> New in Preview!</span></p><p>To make it easier to link fields between Workfront and Adobe Experience Manager, we've added support for typeahead fields in the metadata mapping. Now, you can map typeahead fields to corresponding fields in Adobe Experience Manager.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Typeahead fields now available in Adobe Experience Manager Integration</a></p><p>[!BADGE In production ]{type=Informative}</p><p>To make it easier to link fields between Workfront and Adobe Experience Manager, we've added support for typeahead fields in the metadata mapping. Now, you can map typeahead fields to corresponding fields in Adobe Experience Manager.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -137,7 +168,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
                                 <p>Preview release: November 16, 2023</p>
                             </li>
                             <li>
-                                <p><span class="preview">Production for all customers: December 7, 2023</span></p>
+                                <p><span class="preview">Production for all customers: November 29, 2023</span></p>
                             </li>
                         </ul>
                     </td>
@@ -176,6 +207,21 @@ The <add release> release webinar will be held on <date>. You can [register for 
                         </p>
                     </td>
                  </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">The new commenting experience captures all information for projects, tasks, issues, and documents</a><span style="color: #ff0000;"> New in Preview!</span></p><p>Projects, tasks, issues, and documents display all updates in the new commenting experience area, since the beginning of your Workfront instance.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: November 28, 2023</p>
+                            </li>
+                            <li>
+                                <p>Production for all customers: November 28, 2023</p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Search for a comment or user in the Updates section</a><span style="color: #ff0000;"> New in Preview!</span></p><p>To quickly find information in the Updates section of an object, you can now search for a keyword from a comment or for any user associated with a comment.</p>

@@ -12,16 +12,16 @@ exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 
 >[!IMPORTANT]
 >
->The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
 >
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
+>Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use Maestro capabilities.
 >
 >Contact your account representative for more information about joining the beta program for Maestro.
 >
 >For information, see [Adobe Maestro overview](../maestro-overview.md).
 
 You can edit record information in Adobe Maestro. You must create record types before you can start creating and editing records. 
-For information, see [Create record types](../architecture-and-fields/create-record-types.md).
+For information, see [Create record types](../architecture/create-record-types.md).
 
 <!-- mention in here that the fields in the Details view are the same as the ones in the table view -- this article is linked from the Manage record views one to refer to this info-->
 
@@ -67,6 +67,62 @@ You must have the following access to perform the steps in this article:
   </tr>
  </tbody>
 </table>
+
+<!--
+After permssions - replace the table with: 
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Adobe product</p> </td>
+   <td>
+   <p> Adobe Workfront</p> </td>
+  </tr>  
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
+   <td>
+<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
+   <td>
+<p>Any</p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td>
+   <p>Any</p> 
+  </td>
+  </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level</p></td>
+   <td> <p>Any</p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+</td>
+  </tr>
+ </tbody>
+</table>
+
+-->
+
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -129,9 +185,9 @@ You can edit a record from the following areas:
 
 1. Click **Save changes**. <!--logged a bug for this - this needs to be "Save"-->
 
-### Edit a record from the record type table view
+### Edit a record from the table view of a record type
 
-1. Click the **Main Menu** ![](assets/main-menu-workfront.png) in the upper-right corner, <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available,--> then click **Maestro** ![](assets/maestro-icon.png). 
+1. Click the **Main Menu** ![](assets/main-menu-workfront.png) in the upper-right corner, or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available, then click **Maestro** ![](assets/maestro-icon.png). 
 
     The workspace that you accessed last opens. 
 
@@ -139,10 +195,36 @@ You can edit a record from the following areas:
 1. Click a record type card. 
 
     The record type page opens. 
-1. (Conditional) From the **View** drop-down menu in the upper-right corner of the table, select a Table view. This should be the default view, unless you viewed the record type in the timeline view when you accessed it last. 
+1. (Conditional) From the **View** drop-down menu in the upper-right corner of the table, select a **Table** view. This should be the default view, unless you viewed the record type in the timeline view when you accessed it last. 
 
     The records associated with the selected record type display in the table view. 
 1. Click inside the row of a record to start editing information about the record inline.
 
     ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 1. Press **Enter** on your keyboard or click outside of a row to save your changes. The changes are saved automatically. A Saved indicator displays briefly in the upper-right corner of the table view to show that the changes were saved. 
+
+    >[!NOTE]
+    >
+    >  You cannot edit information for the following fields, as they are read-only and Workfront updates them automatically: 
+    >  
+    >  * Linked fields that are created by connecting record types. For more information, see [Connect record types](../architecture/connect-record-types.md).
+    >  * Fields of the following types: Created by, Created date, Last modified by, Last Modified date
+
+
+1. (Optional) Copy one or multiple existing values of a field, then paste them into a field of the same type on another record, then click **Enter** on your keyboard to save your changes. 
+
+    >[!NOTE]
+    >
+    >Consider the following:   
+    >
+    >* You cannot copy information from another source, other than a Maestro field of the same type as the field you paste the information in.  
+    >
+    >* You cannot copy and paste field values in the Details area of a record. This functionality is supported only in the table view of a record type.  
+    >* You cannot copy and paste field values for the following field types:   
+    >
+    >
+    >    * Linked fields that are created by connecting record types. You can copy and paste linked record fields. For more information, see [Connect record types](../architecture/connect-record-types.md). 
+    >    * Fields of the following types: Created by, Created date, Last modified by, Last Modified date 
+    
+
+    <!--take People out of the list above when they release this - this might be coming later-->

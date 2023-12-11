@@ -12,9 +12,9 @@ exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
 
 >[!IMPORTANT]
 >
->The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
 >
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
+>Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use Maestro capabilities. 
 >
 >Contact your account representative for more information about joining the beta program for Maestro.
 >
@@ -27,6 +27,11 @@ You can share a Maestro record in the following ways:
 * Copy the link of the Details page of a record from your browser when the page is open. 
 
 * Copy a link to the record's Details page when viewing records in the record type's table view.   
+
+<!-- Update with this when we release permissions: 
+
+* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
+-->
 
 This article describes how you can copy a link to a record's Details page from the table view of a record type. 
 
@@ -77,6 +82,62 @@ You must have the following access to perform the steps in this article:
   </tr>
  </tbody>
 </table>
+
+<!--
+After permissions - replace the table with - below
+****AND - see more above, another bullet point to update when permissions are released****
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Adobe product</p> </td>
+   <td>
+   <p> Adobe Workfront</p> </td>
+  </tr>  
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
+   <td>
+<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
+   <td>
+<p>Any</p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td>
+   <p>Any</p> 
+  </td>
+  </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level</p></td>
+   <td> <p>Any</p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>View or higher permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+</td>
+  </tr>
+ </tbody>
+</table>
+
+-->
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]

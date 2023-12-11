@@ -86,7 +86,7 @@ For information on modifying filters and groupings, see the articles [Filters ov
 The report or calendar might have a wildcard filter variable which points to the user who is logged in. In this case, the report shows information based on the user who is logged in. Adjust the filter to remove the wildcard that points to the logged-in user.  
 ![](assets/qs--user.id-filter-variable-350x79.png)
 
-For a complete list of user-based wildcard filter variables, see [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+For a complete list of user-based Wildcard filter variables overview, see [Wildcard filter variables overview](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Why does the data in my report seem incomplete?
 

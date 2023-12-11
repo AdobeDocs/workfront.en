@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: configure-access-to-workfront
 description: As an Adobe Workfront administrator, you can create custom access levels and apply them to users.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
@@ -13,10 +13,10 @@ exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
 
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help. -->
 
-As an Adobe Workfront administrator, you can create custom access levels and apply them to users. As you work with access levels, it is important to understand how they work together with the object permissions that users grant when they share objects with each other. For more information about access levels, see
+As an Adobe Workfront administrator, you can create custom access levels and apply them to users. As you work with access levels, it is important to understand how they work together with the object permissions that users grant when they share objects with each other. For more information about access levels, see:
 
 * [New access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
-* [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
+* [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
 
 >[!IMPORTANT]
 >
@@ -36,9 +36,9 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td>Current plan: Standard
+   <td>New plan: Standard
    <p>or</p>
-   <p>Legacy plan: Plan</p></td> 
+   <p>Current plan: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -99,7 +99,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Exchange rates</td> 
-      <td> <p>Add new currency in Workfront.</p> <p>Without this access, the user can add an existing currency only to a project they create.</p> </td> 
+      <td> Add new currency in Workfront. <p>Without this access, the user can add an existing currency only to a project they create.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Expenses</td> 
@@ -112,13 +112,13 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Job roles</td> 
-      <td> <p>With this access, the user is allowed to do the following:</p> 
+      <td> With this access, the user is allowed to do the following: 
        <ul> 
         <li>View and edit existing job roles</li> 
         <li>Add new job roles</li> 
         <li>Edit role billing and cost rates</li> 
        </ul> 
-       <p>For important information about access to financial data that is available to a Standard or Planner user with administrative access to job roles, see <a href="#planner-users-with-administrative-access-to-job-roles">Standard or Planner users with administrative access to job roles</a>.</p>
+       <p>For important information about access to financial data that is available to a Standard or Planner user with administrative access to job roles, see <a href="#standard-or-planner-users-with-administrative-access-to-job-roles">Standard or Planner users with administrative access to job roles</a>.</p>
       </td> 
      </tr> 
      <tr> 
@@ -131,7 +131,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Timesheets &amp; hours</td> 
-      <td> <p>Group administrators can assign timesheet profiles to users in the groups and subgroups they manage.</p> <p>Without this option enabled, group administrators cannot assign timesheet profiles to other users in the groups and subgroups they manage, although they can create them.</p> <p>All other users with a Standard or Plan license can view all hours and timesheets in Workfront.</p> <p>Without this option enabled, users can view hours only on:</p> 
+      <td> Group administrators can assign timesheet profiles to users in the groups and subgroups they manage. <p>Without this option enabled, group administrators cannot assign timesheet profiles to other users in the groups and subgroups they manage, although they can create them.</p> <p>All other users with a Standard or Plan license can view all hours and timesheets in Workfront.</p> <p>Without this option enabled, users can view hours only on:</p> 
        <ul> 
         <li>Projects, tasks or issues they manage</li> 
         <li>Their own timesheet</li> 
@@ -162,11 +162,11 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">View only updates in which they have been included in the conversation</td> 
-      <td> <p>Enables users to see only comments where their name or the name of their team has been included.</p> <p> <p><b>NOTE</b>: This prevents users from subscribing to items in Workfront. For more information about subscribing to items, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Add users</a>.</p> </p> </td> 
+      <td> Enables users to see only comments where their name or the name of their team has been included. <p> <p><b>NOTE</b>: This prevents users from subscribing to items in Workfront. For more information about subscribing to items, see <a href="../../../workfront-basics/using-notifications/subscribe-to-items-in-workfront.md" class="MCXref xref">Subscribe to items in Adobe Workfront</a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Never allow users to delete comments </td> 
-      <td> <p>Prevents users from deleting the comments they make on items. </p> <p><b>NOTE</b>: No one can delete the comments of other users.</p> </td> 
+      <td> Prevents users from deleting the comments they make on items.  <p><b>NOTE</b>: No one can delete the comments of other users.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">View only companies, groups &amp; teams they belong to</td> 
@@ -185,7 +185,7 @@ You must have the following access to perform the steps in this article:
 
 1. (Conditional and optional) If your Workfront system is set up for users that belong to multiple companies, restrict the visibility to other users based on what company they belong to in the section **People in other companies should only view users from**.
 
-   You can restrict the users to see just users from their own company or from the company you designated as the primary company. For more information about the primary company, see [Create and edit companies](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+   You can restrict the users to see just users from their own company or from the company you designated as the primary company. The primary company typically represents your Workfront account where most of your users work. For more information about the primary company, see [Create and edit companies](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
    >[!NOTE]
    >

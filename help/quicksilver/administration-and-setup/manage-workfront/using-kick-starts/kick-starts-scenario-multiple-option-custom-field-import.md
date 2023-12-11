@@ -118,7 +118,7 @@ To populate the Excel spreadsheet with information for the new custom fields:
     >
     >You must write the names of the objects and their attributes in the format supported by the Workfront database.
     >
-    >For information about the meaning of these objects, see the [Workfront glossary](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md). 
+    >For information about the meaning of these objects, see the [Glossary of [!DNL Adobe Workfront] terminology](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md). 
     >
     >For information about the names of the objects in the Workfront database, see the [API Explorer](../../../wf-api/general/api-explorer.md). 
     >

@@ -12,9 +12,9 @@ exl-id: 77342724-0182-4134-903b-4428d54cdceb
 
 >[!IMPORTANT]
 >
->The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
 >
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
+>Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use Maestro capabilities.
 >
 >Contact your account representative for more information about joining the beta program for Maestro.
 >
@@ -147,8 +147,8 @@ The following table shows the similarities and differences between the table and
 ## Create or edit views {#create-or-edit-views}
 
 1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner, or the **Main Menu** icon ![](assets/main-menu-shell.png) in the upper-left corner, if available, then click **Maestro** ![](assets/maestro-icon.png). 
-    The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture-and-fields/create-workspaces.md).
-1. Click a record type card. For information about creating a record type, see [Create record types](../architecture-and-fields/create-record-types.md). 
+    The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture/create-workspaces.md).
+1. Click a record type card. For information about creating a record type, see [Create record types](../architecture/create-record-types.md). 
 
     By default, all the records of the selected type display in the table view. 
 
@@ -183,10 +183,10 @@ The following table shows the similarities and differences between the table and
 
 1. From the **Main Menu** ![](assets/main-menu-workfront.png) in the upper-right corner of the screen, <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner of the screen, if available,--> click **Maestro** ![](assets/maestro-icon.png).
 
-    The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture-and-fields/create-workspaces.md).
+    The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture/create-workspaces.md).
 1. Click a record type card. 
 
-    For information about creating a record type, see [Create record types](../architecture-and-fields/create-record-types.md). 
+    For information about creating a record type, see [Create record types](../architecture/create-record-types.md). 
 
     By default, all the records of the selected type display in the table view. 
 
@@ -202,8 +202,8 @@ The following table shows the similarities and differences between the table and
 If you want to keep multiple versions of a view and make slight changes between the version, you can duplicate a view. Duplicating a view creates identical copies of an existing view. 
 
 1. From the **Main Menu**, click **Maestro**. 
-    The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture-and-fields/create-workspaces.md).
-1. Click a record type. For information about creating a record type, see [Create record types](../architecture-and-fields/create-record-types.md). 
+    The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture/create-workspaces.md).
+1. Click a record type. For information about creating a record type, see [Create record types](../architecture/create-record-types.md). 
 
     By default, all the records of the type selected display in the table view. 
 

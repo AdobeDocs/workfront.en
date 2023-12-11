@@ -101,7 +101,7 @@ Each icon takes you to a different area of the new [!DNL Adobe Workfront] experi
      <li>[!UICONTROL Analytics]: <a href="../../enhanced-analytics/enhanced-analytics-overview.md" class="MCXref xref">Enhanced analytics overview</a></li> 
      <li>[!UICONTROL Goals]: <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] overview</a></li> 
      <li>[!UICONTROL Scenarios]: <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Scenario Planner overview</a></li> 
-     <li>[!UICONTROL Proofing]: <a href="../../workfront-proof/workfront-proof.md" class="MCXref xref">[!DNL Workfront] Proof</a></li> 
+     <li>[!UICONTROL Proofing]: <a href="../../workfront-proof/workfront-proof.md" class="MCXref xref">[!DNL Workfront] Proof: article index</a></li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -115,7 +115,7 @@ Below these options in the [!UICONTROL Main Menu], you can access:
  <tbody> 
   <tr> 
    <td> <p class="bold">[!UICONTROL Setup]</p> </td> 
-   <td> <p>Clicking <b>[!UICONTROL Setup]</b> takes you to the [!UICONTROL Setup] area where you can configure different aspects of your [!DNL Workfront] account. Depending on your access settings, what you can configure may be limited.</p> <p>For more information on the [!UICONTROL Setup] area, see <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">Administration and setup</a>.</p> </td> 
+   <td> <p>Clicking <b>[!UICONTROL Setup]</b> takes you to the [!UICONTROL Setup] area where you can configure different aspects of your [!DNL Workfront] account. Depending on your access settings, what you can configure may be limited.</p> <p>For more information on the [!UICONTROL Setup] area, see <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">Administration and setup: article index</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p class="bold">[!UICONTROL Help]</p> </td> 

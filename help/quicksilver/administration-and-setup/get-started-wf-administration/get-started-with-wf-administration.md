@@ -3,15 +3,17 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
-title: Get started with Adobe Workfront administration
-description: You can configure the Workfront system defaults, timesheets and schedules, organizational setup, system-tracked update information, and testing environments for your organizationl
-author: Caroline
+title: "Get started with Adobe Workfront administration: article index"
+description: In this section, you can find information and instructions about first-time setup of Adobe Workfront, as well as information that you'll need as a Workfront administrator.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8d5497fa-3432-4188-ad71-92ab91cd19fa
 ---
-# Get started with Adobe Workfront administration
+# Get started with Adobe Workfront administration: article index
+
+In this section, you can find information and instructions about first-time setup of Adobe Workfront, as well as information that you'll need as a Workfront administrator.
 
 This section contains the following articles:
 

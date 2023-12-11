@@ -96,9 +96,11 @@ After the monthly releases to Production, the same features are also available i
    * From the Home area (for tasks and issues)
    * From the Summary panel in a list of objects or from a timesheet (for tasks and issues)
 
-The information on this page describes how you can comment on Workfront objects and how you update projects, tasks, and issues. 
+The information on this page describes how you can comment on Workfront objects and how you update projects, tasks, and issues while adding comments to them.
 
-For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). You must have an additional license to access Workfront Goals. 
+<!--take this out (below) when we remove legacy out of the application-->
+
+For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). You must have an additional license to access Workfront Goals.
 
 For information about commenting on cards in the Boards area, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 
@@ -150,13 +152,14 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>Request or higher for issues and documents; Review or higher for all other objects</p> </td> 
+   <td> <p>Request or higher for issues and documents</p>
+   <p> Review or higher for all other objects</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
    <td> <p>View or Edit access for the object the update is on</p> <p><b>NOTE</b>
    
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
@@ -169,20 +172,35 @@ You must have the following access to perform the steps in this article:
 
 ## Add an update to a work item
 
+Adding an update to a work item differs depending on what version of the Updates section you use.  
+
+You can add updates to the following objects: 
+
+* Projects
+* Tasks
+* Issues
+* Programs
+* Portfolios
+* Templates
+* Template tasks
+* Users
+* Timesheets
+* Teams
+* Goals
+* Cards in the Boards area
+* Iterations
+
+### Add an update to a work item in the legacy Updates section
+
 >[!IMPORTANT]
 >
 >The information on this page describes how you update projects, tasks, and issues.
-
-
-Adding an update to a work item differs depending on what version of the Updates section you use.  
-
-### Add an update to a work item in the legacy Updates section
 
 1. Go to the work item for which you want to provide an update (such as a project, task, or issue).
 1. Click the **Updates** section.
 1. (Conditional) If it is enabled, click the **New commenting** option in the upper-right corner of the Updates section to disable it and enable the legacy commenting experience.
 1. Click **Start a new update,** then type your update.  
-1. (Optional) Use Rich Text, or add emojis, links, or images to your update, to enhance your content. For more information, see the [Use Rich Text in a Workfront update](#use-rich-text-in-a-workfront-update) section in this article.
+1. (Optional) Use the options in the Rich Text toolbar to format your text, add emojis, links, or images to your update, to enhance your content. For more information, see the [Use Rich Text in a Workfront update](#use-rich-text-in-a-workfront-update) section in this article.
 1. (Optional) Update any of the following information about the work item:
 
    <table style="table-layout:auto"> 
@@ -251,7 +269,7 @@ Adding an update to a work item differs depending on what version of the Updates
       * CTRL + Z (⌘+z for Mac) to undo a change 
       * CTRL + Y (⌘+y for Mac) to redo a change 
 1. (Optional) In the **Tag people or teams** area, start typing the name or the email of a user, or a team that you would like to include in this comment, then select it when it displays in the list. 
-1. (Optional) Use Rich Text, or add emojis, links, or images to your update, to enhance your content. For more information, see the [Use Rich Text in a Workfront update](#use-rich-text-in-a-workfront-update) section in this article. 
+1. (Optional) Use the options in the Rich Text toolbar to format your text, add emojis, links, or images to your update, to enhance your content. For more information, see the [Use Rich Text in a Workfront update](#use-rich-text-in-a-workfront-update) section in this article. 
 
       >[!TIP]
       >
@@ -267,7 +285,7 @@ Adding an update to a work item differs depending on what version of the Updates
 
    >[!IMPORTANT]
    >
-   >You can edit your comment only within 15 from submitting it.  
+   >You can edit your comment only within 15 minutes from submitting it.  
 
 1. Edit the information in the comment, add or remove images or remove any of the tagged users. An "Edited" indicator is added to the left of the date stamp that displays when the comment was entered.
    
@@ -383,12 +401,16 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
    1. Under **Text to display**, type or paste the link text.
    1. Click **Save**.
 
-1. (Optional) <span class="preview">To attach an image to your update, copy a screenshot from your computer, then paste it in the comment </span> 
-   
-   Or 
-   
-   Click the **Add image** icon ![](assets/add-image-mountain-with-plus-icon.png) and browse to the image on your computer. 
+1. (Optional) To attach an image to your update, do one of the following: 
 
+   <!--* <span class="preview">Save the image on our computer, then drag and drop it in the New comment area.</span>
+   <span class="preview">This is not available in the Production environment for the new commenting experience.</span>
+   -->
+   
+   * <span class="preview">Copy a screenshot from your computer, then paste it in the comment </span> 
+   * Click the **Add image** icon ![](assets/add-image-mountain-with-plus-icon.png) and browse to the image on your computer. 
+
+   
    >[!NOTE]
    >
    >* Your Workfront administrator must enable adding images in the Update Feeds Preferences section of the Workfront Interface area before you can see the Image or the Add attachment icons. For information, see [Configure preferences for user updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md). 
