@@ -12,12 +12,12 @@ exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>(NOTE: Linked to the UI - do not change/ remove; THIS IS NOW SPLIT IN THREE ARTICLES>> MAKE SURE THE TRANSITION TO THE OTHER TWO IS CLEAR SINCE THIS IS LINKED TO UI)</p>
-<p>(NOTE:&nbsp;If they come out with templates AND drafts, consider splitting this article to keep Create in one and Working with Drafts and Requests in another??)</p>
+<p>(NOTE: If they come out with templates AND drafts, consider splitting this article to keep Create in one and Working with Drafts and Requests in another??)</p>
 <p>(NOTE: this article is linked from Submitting Workfront Requests from Salesforce) </p>
 </div>
 -->
 
-Planned work is represented in Adobe Workfront by projects and tasks. However, you might work in an environment where unplanned work—in the form of random requests—can come in at any time. Workfront provides a workflow to accommodate this type of environment through the use of Request Queues.&nbsp;
+Planned work is represented in Adobe Workfront by projects and tasks. However, you might work in an environment where unplanned work, in the form of requests, can come in at any time. Workfront provides a workflow to accommodate this type of environment through the use of Request Queues. 
 
 After you create a request in a Request Queue, you can either assign it to be completed or you can convert it to a task or a project.   
 For more information about converting issues to a task or project, see the article [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
@@ -63,15 +63,17 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
+   <td> Any  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Request or higher</p> </td> 
+   <td> New license: Contributor or higher
+   <p>Or</p>
+   <p>Current license: Request or higher</p>
+    </td> 
   </tr> 
-  <tr> 
    <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to Issues</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> Edit access to Issues <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -80,13 +82,13 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites for using Request Queues
 
-As a Workfront administrator, you must create Request Queues and make them available to users&nbsp;before they can use this functionality. A user with a Planner license and with Edit access to Projects and Manage permissions to a specific project can also create Request Queues.&nbsp;
+A Workfront administrator must create Request Queues and make them available to users before they can use this functionality. A user with a Planner license and with Edit access to Projects and Manage permissions to a specific project can also create Request Queues. 
 
 For information about how to create Requests Queues, see the article [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-You must create the following components of a Request Queue:
+A Workfront administrator must create the following components of a Request Queue:
 
-* A project in Current status, published as a Help Request&nbsp;Queue.
+* A project in Current status, published as a Help Request Queue.
 * Queue Topics.  
   For more information, see the article [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
@@ -118,9 +120,9 @@ You can continue submitting the request, or you can complete as much information
 
 For information about creating requests from existing drafts, see [Create requests from drafts](../../../manage-work/requests/create-requests/create-requests-from-drafts.md). For information about deleting request drafts, see also [Delete a request draft](../../../manage-work/requests/create-requests/delete-request-draft.md).
 
-To create a request in the Workfront web app:&nbsp;
+To create a request in the Workfront web app: 
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner.
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -147,7 +149,7 @@ To create a request in the Workfront web app:&nbsp;
    * From the **Request Queues** section, select a request queue. 
    * Enter a keyword that belongs to a previously accessed path to search for a request queue.
 
-     For example, if you have a request queue named "Help&nbsp;Desk" with a Topic Group named "Location" and a Queue Topic named "Remote", you can type "remote" and all the request queues that contain "remote" in any element of their path display.
+     For example, if you have a request queue named "Help Desk" with a Topic Group named "Location" and a Queue Topic named "Remote", you can type "remote" and all the request queues that contain "remote" in any element of their path display.
 
      >[!TIP]
      >
@@ -176,15 +178,15 @@ To create a request in the Workfront web app:&nbsp;
 
    >[!TIP]
    >
-   >* The first 200 requests queues display by default, in alphabetical order. 
+   >* The first 200 request queues display by default, in alphabetical order. 
    >* The name of the request queue is the name of the project which has been published as a Help Request Queue. 
    >* The description of the project configured as the selected request queue displays to the right of the request queue name. 
    >   
-   >For more information about how to publish a project as a Help&nbsp;Request Queue, see the article [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   >For more information about how to publish a project as a Help Request Queue, see the article [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 1. In the **New request** form, do one of the following:
 
-   * (Conditional) Select an available draft from the notification message displayed under the&nbsp;Request&nbsp;Type field.
+   * (Conditional) Select an available draft from the notification message displayed under the Request Type field.
 
      This area displays only if you have saved drafts before without submitting them.
 
@@ -196,24 +198,24 @@ To create a request in the Workfront web app:&nbsp;
 
      A new draft automatically saves for you in the Drafts  section  after you start entering information for the new request and you give the request a name in the Subject field.
 
-1. (Optional) If your Request Queue includes Topic Groups, select the name of the Topic Group in the first drop-down field. Otherwise, select a Queue&nbsp;Topic.
+1. (Optional) If your Request Queue includes Topic Groups, select the name of the Topic Group in the first drop-down field. Otherwise, select a Queue Topic.
 
    >[!TIP]
    >
-   >When you hover over a Topic Group or a Queue&nbsp;Topic the Description field displays to the right. This contains additional information about the topic group or queue topic. 
+   >When you hover over a Topic Group or a Queue Topic the Description field displays to the right. This contains additional information about the topic group or queue topic. 
    >
    >
    >![](assets/show-description-on-queue-topic-when-submitting-request-nwe-350x81.png)   >
    >
 
-   You can have up to 10 tiers of Topic Groups built into&nbsp;your Request Queue.   
+   You can have up to 10 tiers of Topic Groups built into your Request Queue.   
    For more information about how to create Topic Groups, see the article [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see the article [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
    >[!TIP]
    >
    >If you selected a draft or a previous path, the topic groups and queue topics are already selected. You can select a different one, if needed.
 
-1. Depending on what fields the Workfront administrator enabled in the **New Issue Fields** section of the **Queue Details**&nbsp;subtab on the project, you might find&nbsp;any of the following fields when you submit a new request:
+1. Depending on what fields the Workfront administrator enabled in the **New Issue Fields** section of the **Queue Details** subtab on the project, you might find any of the following fields when you submit a new request:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -233,7 +235,7 @@ To create a request in the Workfront web app:&nbsp;
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Priority</strong> </td> 
-      <td> <p>Specify a priority for your request. The priority should define how fast you think this request should be resolved. The default&nbsp;options are: </p> 
+      <td> <p>Specify a priority for your request. The priority should define how fast you think this request should be resolved. The default options are: </p> 
        <ul> 
         <li>None</li> 
         <li>Low </li> 
@@ -244,7 +246,7 @@ To create a request in the Workfront web app:&nbsp;
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Severity</strong> </td> 
-      <td> <p>Specify a severity for your request. The severity should define the impact this request has on your work should it not be resolved in time. The default&nbsp;options are:</p> 
+      <td> <p>Specify a severity for your request. The severity should define the impact this request has on your work should it not be resolved in time. The default options are:</p> 
        <ul> 
         <li>Cosmetic</li> 
         <li>Causes Confusion</li> 
@@ -298,14 +300,14 @@ To create a request in the Workfront web app:&nbsp;
    </table>
 
 1. (Optional) If your Workfront administrator associated a custom form with the Request Queue or with the Queue Topic, specify the fields inside the custom form.   
-   Custom forms are different for every Workfront instance.&nbsp;
+   Custom forms are different for every Workfront instance. 
 1. (Optional and conditional) At any point during entering the request, click [!UICONTROL **Discard draft**] if you want to delete the draft that is automatically created. This deletes the draft which cannot be recovered. A confirmation message displays to acknowledge that you are deleting the draft. 
 
 1. (Optional) Click [!UICONTROL **Undo**] on the confirmation message if you want to revert your action and keep the draft.
 
 1. Do one of the following:
 
-   * Click **Submit** if you are ready to submit the request. The request is saved in the  Submitted section  . Depending on the Routing Rule of the Request Queue, this request might be routed to a different project than the one designated&nbsp;as a Request Queue. For information about routing rules, see [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
+   * Click **Submit** if you are ready to submit the request. The request is saved in the  Submitted section  . Depending on the Routing Rule of the Request Queue, this request might be routed to a different project than the one designated as a Request Queue. For information about routing rules, see [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md).
 
      Or
 
@@ -321,11 +323,11 @@ To create a request in the Workfront web app:&nbsp;
 
 ## Create requests from outside of Workfront
 
-You can share a direct link to a request queue when you submit a new request and embed it in other applications. Users who access this link from the web or from other applications must also be logged in with an active Workfront account to be able to access this queue and submit requests to it. For information, see [Share a link to a request queue](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
+You can share a direct link to a request queue when you submit a new request, and embed it in other applications. Users who access this link from the web or from other applications must also be logged in with an active Workfront account to be able to access this queue and submit requests to it. For information, see [Share a link to a request queue](../../../manage-work/requests/create-requests/share-link-to-request-queue.md).
 
-## Create requests by emailing&nbsp;into Workfront
+## Create requests by emailing into Workfront
 
-If your Request Queue is enabled to receive requests through email, you can email your requests directly to the email associated with the Request Queue.
+If your Request Queue is enabled to receive requests through email, you can email your requests directly to the email address associated with the Request Queue.
 
 The body text of the email is added as the request description.
 
@@ -335,24 +337,24 @@ The body text of the email is added as the request description.
 
 For information about how to enable a Request Queue to receive requests through email, see [Enable users to email an issue into a Request Queue project](../../../manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
-## Create requests using the Outlook&nbsp;client
+## Create requests using the Outlook client
 
-You can submit requests using the Outlook client. You can create a new request or you can convert an email into a request.&nbsp;
+You can submit requests using the Outlook client. You can create a new request or you can convert an email into a request. 
 
 For information about submitting requests using the Outlook client, see the article [Create an Adobe Workfront request from an Outlook email](../../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
 
 ## Create requests by using the Workfront mobile app
 
-You can submit requests using the mobile app on your smartphone. You can create a new request&nbsp;and submit it to the Request Queues you have access to see in the web application.&nbsp;
+You can submit requests using the mobile app on your smartphone. You can create a new request and submit it to the Request Queues you have access to see in the web application. 
 
-For information about submitting requests&nbsp;through the mobile app, see the [Requests](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md#requests) section in the articles:
+For information about submitting requests through the mobile app, see the Requests section in the articles:
 
-* [Adobe Workfront for Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) 
-* [Adobe Workfront for iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
+* [Adobe Workfront for Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md#requests) 
+* [Adobe Workfront for iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md#requests)
 
 ## Create requests from other applications
 
-You can submit requests using any applications that have been integrated with Workfront:&nbsp;
+You can submit requests using any applications that have been integrated with Workfront: 
 
 * You can build a custom integration between Workfront and another application that allows you to submit requests to Workfront from the other application.  
   For more information about custom Workfront integrations, see the article [Adobe Workfront integrations](../../../administration-and-setup/configure-integrations/workfront-integrations-1.md).
