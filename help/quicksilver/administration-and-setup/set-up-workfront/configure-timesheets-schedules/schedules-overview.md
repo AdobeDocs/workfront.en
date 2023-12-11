@@ -57,7 +57,7 @@ The order in which the schedules are used by the system when more than one exist
 
 * When a user is assigned to a task, [!DNL Workfront] uses the user's schedule for calculating the timeline of the task. This also includes the personal time of the user. The schedule of the project is ignored.
 
-   For more information about personal time, see [Configure personal time off in [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+   For more information about personal time, see [Configure personal time off](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
 * When multiple users are assigned to a task, and the users have different schedules during the time frame of the task, [!DNL Workfront] uses either one of the following schedules, as defined in the [!UICONTROL Project Preferences] area of [!UICONTROL Setup]:
 
