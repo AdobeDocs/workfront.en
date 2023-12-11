@@ -8,6 +8,9 @@ feature: Work Management, Digital Content and Documents
 ---
 # Document approval status
 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
+
 You can find a document's approval status in the header of the document. 
 
 The following statuses are available:
@@ -18,7 +21,7 @@ The following statuses are available:
             <tbody>
                  <tr>
                     <td>
-                        Notified</p>
+                        Pending Review</p>
                     </td>
                     <td>
                         <ul>
@@ -35,11 +38,28 @@ The following statuses are available:
                     <td>
                         <ul>
                             <li>
-                                <p>At least one reviewer or approver has viewed the asset</p>
+                                <p>At least one reviewer has viewed the asset</p>
                             </li>
                             <li>
-                                <p>At least one reviewer has not completed their review</p><p>Or</p>
-                                <p>At least one approver has not made an approval decision</p>
+                                <p>At least one reviewer has not completed their review</p>
+                            </li>
+                            <li>
+                                <p>No approvers have been assigned to this asset</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
+                        Reviewed</p>
+                    </td>
+                    <td>
+                        <ul>
+                            <li>
+                                <p>All reviewers have completed their review</p>
+                            </li>
+                            <li>
+                                <p>No approvers have been assigned to this asset</p>
                             </li>
                         </ul>
                     </td>
