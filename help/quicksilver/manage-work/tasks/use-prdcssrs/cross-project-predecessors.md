@@ -109,13 +109,17 @@ You must have the following access to perform the steps in this article:
 
 1. Click **Save**.
 
-   Tasks that have a cross-project predecessor display the reference number of the project the predecessor belongs to and the number of the task, separated by a colon in the Predecessors column on a task list.
+   Tasks that have a cross-project predecessor display the reference number of the project the predecessor belongs to and the number of the task, separated by a colon, in the Predecessors column on a task list.
 
    ![Cross-project predecessor](assets/cross-project-predecessor-in-list-view.png)
 
    The predecessor icon turns green when the predecessor task is marked complete. This signals that the dependent task is ready for work.
 
-   Hover over this value to get more information on the predecessor, the project, and the dates. Click the cross-project predecessor in the details box to open the task. Click **See Project** to open the cross project.
+   Hover over this value to get more information on the predecessor, the project, and the dates. Click the cross-project predecessor in the details box to open the task.
+
+   Click near the top of the hover window to see more information about the predecessor's project.
+
+   Click **See Project** to open the predecessor's project.
 
    ![Cross-project predecessor details](assets/cross-project-predecessor-details.png)
 
