@@ -1,15 +1,15 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Adobe Experience Manager Assets integrations overview
+title: Overview of Adobe Experience Manager Assets integrations
 description: The integration between Workfront and Experience Manager Assets or Assets Essentials lets organizations improve content velocity and time-to-market by intrinsically connecting work and digital asset management.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bdcf315c-5710-41dc-8528-0634e89907df
 ---
-# Adobe Experience Manager Assets integrations overview
+# Overview of Adobe Experience Manager Assets integrations
 
-The integration between Workfront and Experience Manager Assets or Assets Essentials lets organizations improve content velocity and time-to-market by intrinsically connecting work and digital asset management.
+The integration between Workfront and Experience Manager Assets or Assets Essentials helps organizations improve content velocity and time-to-market by intrinsically connecting work and digital asset management.
 
 >[!IMPORTANT]
 >
@@ -23,7 +23,7 @@ With the native Experience Manager integration, you can
 * Automatically create folders linked between Workfront and Experience Manager
 * Easily sync metadata for existing linked assets
 * Automatically update portfolio, program, project, task, issue, and document metadata when it's changed in Workfront
-* Smoothly connect several Experience Manager Assets repositories to one Workfront environment, or several Workfront environments to one Experience Manager Assets repository across Organization IDs.
+* Smoothly connect several Experience Manager Assets repositories to one Workfront environment, or several Workfront environments to one Experience Manager Assets repository across Organization IDs
 
 
 ## Prerequisites
@@ -45,4 +45,4 @@ With the native Experience Manager integration, you can
     1. [Configure the Experience Manager Assets as a Cloud Service integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md)
     Or
     1. [Configure the Experience Manager Assets Essentials integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
-1. Use the integration: Send assets, create linked folders, map metadata, and more. See [Adobe Workfront for Experience Manager Assets and Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md) for more information.
+1. Use the integration: Send assets, create linked folders, map metadata, and more. See [Adobe Workfront for Experience Manager Assets and Assets Essentials: article index](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md) for more information.
