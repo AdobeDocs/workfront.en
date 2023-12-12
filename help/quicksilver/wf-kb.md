@@ -21,7 +21,7 @@ description: .
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Enhanced analytics</li>
   -->
 
-* [Timesheets](timesheets/timesheets-all.md) 
+* [Timesheets: article index](timesheets/timesheets-all.md) 
 * [Adobe Workfront integrations](workfront-integrations-and-apps/workfront-integrations.md) 
 <!--* [Adobe Workfront API](wf-api/workfront-api.md) -->
 * [Workfront Proof](workfront-proof/workfront-proof.md) 
