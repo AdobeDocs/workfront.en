@@ -1735,7 +1735,7 @@ feature-set: Workfront
     * [Resource Utilization](resource-mgmt/resource-utilization/resource-utilization.md)
     * [View resource utilization information](resource-mgmt/resource-utilization/view-utilization-information.md)
   * The Workload Balancer {#the-workload-balancer}
-    * [The Workload Balancer](resource-mgmt/workload-balancer/workload-balancer.md)
+    * [The Workload Balancer: article index](resource-mgmt/workload-balancer/workload-balancer.md)
     * [Overview of the Workload Balancer](resource-mgmt/workload-balancer/overview-workload-balancer.md)
     * [Access needed to manage resources in the Workload Balancer](resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)
     * [Locate the Workload Balancer](resource-mgmt/workload-balancer/locate-workload-balancer.md)

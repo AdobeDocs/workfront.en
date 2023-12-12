@@ -102,7 +102,7 @@ In the beginning of a fiscal year or quarter, you may want to manage your resour
 For information about planning the use of your resources at a higher level, see the article [Get started with Resource Planning](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
 When you manage your resources in the context of building the Work Breakdown Structure of one project, and ensuring that each task is assigned to the correct resource, you are ready to schedule your resources for the work that needs to be done.   
-For information about scheduling your resources, see the articles in the [The Workload Balancer](../../../resource-mgmt/workload-balancer/workload-balancer.md) section.
+For information about scheduling your resources, see the articles in the [The Workload Balancer: article index](../../../resource-mgmt/workload-balancer/workload-balancer.md) section.
 
 ## Estimate project finances
 
