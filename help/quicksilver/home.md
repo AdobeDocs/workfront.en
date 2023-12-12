@@ -69,7 +69,7 @@ See [Text Mode resources](/help/quicksilver/reports-and-dashboards/reports/text-
 
 Use the Workload Balancer as an alternative to scheduling resources in Workfront.
 
-See [The Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
+See [The Workload Balancer: article index](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
 
 ### Adobe Workfront Goals
 
