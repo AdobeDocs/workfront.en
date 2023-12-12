@@ -42,9 +42,9 @@ You must have the following access to perform the actions described in this arti
   </tr> 
 <tr> 
   <td role="rowheader">Adobe Workfront license*</td> 
-  <td> <p>New plan: Contributor or higher </p>
+  <td> <p>New: Contributor or higher </p>
  <p>or</p> 
-<p>Current plan: Request or higher </p> 
+<p>Current: Request or higher </p> 
 </td> 
  </tr> 
   <tr> 

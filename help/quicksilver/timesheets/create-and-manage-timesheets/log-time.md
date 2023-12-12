@@ -66,10 +66,10 @@ You must have the following access to perform the steps in this article and log 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>New plan:<ul><li>Light or higher to log General Hours in a timesheet</li></p>
+   <td> <p>New:<ul><li>Light or higher to log General Hours in a timesheet</li></p>
    <li> Standard or higher to log hours on a project, task, or issue</li></ul></p>
    <p>or</p>
-   <p>Current plan:<ul><li>Review or higher to log General Hours in a timesheet</li></p>
+   <p>Current:<ul><li>Review or higher to log General Hours in a timesheet</li></p>
    <li> Work or higher to log hours on a project, task, or issue</li></ul></p>
    </td> 
   </tr> 

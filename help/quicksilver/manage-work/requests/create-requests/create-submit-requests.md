@@ -67,9 +67,9 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> New license: Contributor or higher
+   <td> New: Contributor or higher
    <p>Or</p>
-   <p>Current license: Request or higher</p>
+   <p>Current: Request or higher</p>
     </td> 
   </tr> 
    <td role="rowheader">Access level*</td> 
