@@ -29,16 +29,16 @@ You must have the following:
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL [!DNL Adobe Workfront] plan]*</td> 
-   <td><p>New plan: Any</p>
+   <td><p>New: Any</p>
        <p>or</p>
-       <p>Current plan: [!UICONTROL Pro] or higher</p>
+       <p>Current: [!UICONTROL Pro] or higher</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td><p>New plan: [!UICONTROL Standard] </p>
+   <td><p>New: [!UICONTROL Standard] </p>
        <p>or</p> 
-       <p>Current plan: [!UICONTROL Plan] </p>
+       <p>Current: [!UICONTROL Plan] </p>
    </td>
   </tr> 
   <tr> 

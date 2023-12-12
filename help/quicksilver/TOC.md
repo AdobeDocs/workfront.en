@@ -1893,13 +1893,13 @@ feature-set: Workfront
     * [Tips, tricks, and troubleshooting for approvals](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
     * [View the number of proof and document decisions for all users](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * Timesheets {#timesheets}
-  * [Timesheets](timesheets/timesheets-all.md)
+  * [Timesheets: article index](timesheets/timesheets-all.md)
   * Timesheet details {#details}
-    * [Timesheet details in Adobe Workfront](timesheets/timesheets/timesheets.md)
+    * [Timesheet details: article index](timesheets/timesheets/timesheets.md)
     * [Timesheets overview](timesheets/timesheets/timesheets-overview.md)
     * [Understand the Timesheet layout](timesheets/timesheets/timesheet-layout.md)
-  * Create and manage timesheets in Adobe Workfront {#create-and-manage-timesheets-in-adobe-workfront}
-    * [Create and manage timesheets in Adobe Workfront](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
+  * Create and manage timesheets {#create-and-manage-timesheets-in-adobe-workfront}
+    * [Create and manage timesheets: article index](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
     * [Create, edit, and assign timesheet profiles](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
     * [Define hour types and availability for timesheets](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
     * [Create a single-use timesheet](timesheets/create-and-manage-timesheets/create-tmshts.md)
@@ -1914,10 +1914,10 @@ feature-set: Workfront
     * [Manually generate timesheets](timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
     * [Export a list of timesheets](timesheets/create-and-manage-timesheets/export-timesheets.md)
   * Configure how time is logged {#configure-timesheet-preferences}
-    * [Configure how time is logged](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
+    * [Configure how time is logged: article index](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
     * [Configure whether time is logged in hours or days](timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
   * Tips, tricks, and troubleshooting for timesheets {#tips-tricks-troubleshooting-for-timesheets}
-    * [Tips, Tricks, and Troubleshooting](timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)
+    * [Tips, tricks, and troubleshooting: article index](timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)
     * [Correct the start day of the work week for Timesheets](timesheets/tips-tricks-and-troubleshooting/correct-start-day-of-work-week.md)
     * [Prevent the Recalculate Finances action from affecting historic hours when rates change](timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
     * [Track Hour Records with the Adobe Workfront API](timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
