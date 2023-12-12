@@ -34,7 +34,7 @@ The following areas are included in the default layout of a [!UICONTROL Worker]:
 
 * **[!UICONTROL Requests]**: You can submit requests and review requests you or your team members have submitted here. For information, see [Requests](../../../manage-work/requests/requests-overview.md).
 
-* **[!UICONTROL Timesheets]**: You can access your current, future, or old timesheets here. For information, see [Timesheets](../../../timesheets/timesheets-all.md).
+* **[!UICONTROL Timesheets]**: You can access your current, future, or old timesheets here. For information, see [Timesheets: article index](../../../timesheets/timesheets-all.md).
 
 * **[!UICONTROL Documents]**: You can upload documents, or review documents shared with you, here. For information, see [Documents](../../../documents/documents-overview.md).
 
