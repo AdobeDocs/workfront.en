@@ -42,9 +42,9 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>New plan: Standard (to configure your personal time off)</p>
+   <td> <p>New: Standard (to configure your personal time off)</p>
         <p>or</p>
-        <p>Current plan: Work or higher (to configure your personal time off)</p> </td>
+        <p>Current: Work or higher (to configure your personal time off)</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
