@@ -36,15 +36,22 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
+  
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
    <td> <p>New: [!UICONTROL Standard]</p> 
    or
    <p>Current: [!UICONTROL Work] or higher</p> </td> 
+  </tr>
+
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Teams</p>  </td> 
   </tr> 
+
  </tbody> 
 </table>
 
@@ -62,7 +69,6 @@ To configure how stories are estimated for your agile team:
 1. Select the agile team that you want to manage.
 1. Click the **[!UICONTROL More]** menu ![](assets/more-menu.png) , then select **[!UICONTROL Edit]**.
 
-   Only team members with either a [!UICONTROL Plan] or [!UICONTROL Work] license see this option.\
    ![Edit team](assets/edit-team-settings-350x205.png)
 
 1. In the **[!UICONTROL Agile]** section, in the **[!UICONTROL Estimate Stories in]** area, select whether you want to use points or hours for estimating the size (work load) of stories. If you select Points, specify how many hours are equal to 1 point. (The default is 1 point = 8 hours.) This is the number of Planned Hours that are added to the story.
@@ -83,8 +89,6 @@ To define the statuses that are available for the story board associated with th
 
 1. Select the agile team that you want to manage.
 1. Click the **[!UICONTROL More]** menu, then select **[!UICONTROL Edit]**.
-
-   Only team members with either a [!UICONTROL Plan] or [!UICONTROL Work] license see this option.
 
    ![Edit team](assets/edit-team-settings-350x205.png)
 
@@ -133,8 +137,7 @@ To configure story cards that are assigned to the agile team to display addition
 
 1. Select the agile team that you want to manage.
 1. Click the **[!UICONTROL More]** menu, then select **[!UICONTROL Edit]**.\
-   Only team members with either a [!UICONTROL Plan] or [!UICONTROL Work] license see this option.
-
+   
    ![Edit team](assets/edit-team-settings-350x205.png)
 
 1. In the **[!UICONTROL Agile]** section, type a field name to locate it.
@@ -159,8 +162,6 @@ To limit WIP for your Kanban team:
 
 1. Select the Kanban team that you want to manage.
 1. Click the **[!UICONTROL More]** menu ![](assets/more-menu.png), then select **[!UICONTROL Edit]**.
-
-   Only team members with either a [!UICONTROL Plan] or [!UICONTROL Work] license see this option.
 
    ![Edit team](assets/edit-team-settings-350x205.png)
 
@@ -187,8 +188,6 @@ You can configure stories from the backlog to be automatically added to the firs
 1. Select the Kanban team that you want to manage.
 1. Click the **[!UICONTROL More]** menu ![](assets/more-menu.png), then select **[!UICONTROL Edit]**.
 
-   Only team members with either a [!UICONTROL Plan] or [!UICONTROL Work] license see this option.
-
    ![Edit team](assets/edit-team-settings-350x205.png)
 
 1. Select **[!UICONTROL Automatically add next story from backlog]** to configure that the next item from the backlog to be automatically added to the **[!UICONTROL New]** column when an item is moved out of the **[!UICONTROL In Progress]** column.
@@ -209,8 +208,6 @@ You can choose how long completed cards stay on the [!UICONTROL Kanban] board. T
 1. (Optional) Click the **[!UICONTROL Switch Teams]** icon ![Switch Teams icon](assets/switch-team-icon.png), then either select a new Kanban team from the drop-down menu or search for a team in the search bar.
 1. Select the Kanban team.
 1. Click the **[!UICONTROL More]** menu ![](assets/more-menu.png) , then select **[!UICONTROL Edit]**.
-
-   Only team members with either a [!UICONTROL Plan] or [!UICONTROL Work] license see this option.
 
    ![Edit team](assets/edit-team-settings-350x205.png)
 
