@@ -20,7 +20,7 @@ For more detailed information about how to log time in Workfront, see [Log time]
 
 >[!TIP]
 >
->If you are a Workfront or group administrator, you can create timesheets and associate them with your users. For information about creating timesheets, see [Create and manage timesheets](../create-and-manage-timesheets/create-and-manage-timesheets.md). 
+>If you are a Workfront or group administrator, you can create timesheets and associate them with your users. For information about creating timesheets, see [Create and manage timesheets: article index](../create-and-manage-timesheets/create-and-manage-timesheets.md). 
 
 
 ## Understand project time vs non-project time

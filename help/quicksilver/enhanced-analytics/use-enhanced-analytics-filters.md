@@ -28,16 +28,16 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td>
-      <p>New plan: Any</p>
+      <p>New: Any</p>
       <p>or</p>
-      <p>Current plan: Business or higher</p></td> 
+      <p>Current: Business or higher</p></td> 
   </tr>
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td>
-      <p>New plan: Light or higher</p>
+      <p>New: Light or higher</p>
       <p>or</p>
-      <p>Current plan: Review or higher</p>
+      <p>Current: Review or higher</p>
    </td> 
   </tr>
   <tr> 

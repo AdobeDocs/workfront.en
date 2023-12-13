@@ -42,7 +42,7 @@ Workfront has several sets of tools used to manage resources. Each tool has an i
 
   * **The Workload Balancer**: This belongs to a lower-level stage of resource management, where you can assign your resources to the actual work (tasks and issues) that they must complete, based on the amount of hours needed to complete them and their availability. Using the Workload Balancer you can assign users to actual work that is currently unassigned or assigned to job roles.
 
-     For information about the Workfront Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md). 
+     For information about the Workfront Balancer, see the section [The Workload Balancer: article index](../../resource-mgmt/workload-balancer/workload-balancer.md). 
   
 <!--
 
@@ -112,7 +112,7 @@ The process of managing resources in Workfront includes the following stages:
 
    * [Resource Planning in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [Adobe Workfront Scenario Planner](../../scenario-planner/scenario-planning.md)
-   * [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md)
+   * [The Workload Balancer: article index](../../resource-mgmt/workload-balancer/workload-balancer.md)
 
 <!--
 * **Resource scheduling**: After generally planning for resources to use on your projects at a high level, you can start assigning work items (tasks and issues) to users based on their job roles using the Workload Balancer.
