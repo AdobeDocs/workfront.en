@@ -94,6 +94,7 @@ NOTE: Alina: [! This information is shared between "Exporting Data" and "Setting
 
 There are several limitations around the way reports display in Workfront as well as the way they export through a manual export, a delivered report, or through the API.
 
+* **50,000 cells:** The maximum number of cells allowed in a report export for Excel files. 
 * **50,000 rows:** The number of rows of data allowed in a report export for .pdf and Tab Delimited files.
 
   * For Excel .xls files, this limit is **65,000 rows**.  
