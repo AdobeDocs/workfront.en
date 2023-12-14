@@ -20,7 +20,7 @@ Administrators have the ability to control and customize the user experience in 
   -->
 
 * [Set up Adobe Workfront](../administration-and-setup/set-up-workfront/set-up-workfront.md) 
-* [Add users](../administration-and-setup/add-users/add-users.md) 
+* [User management](../administration-and-setup/add-users/add-users.md) 
 * [Customize Adobe Workfront](../administration-and-setup/customize-workfront/customize-workfront.md) 
 * [Manage Adobe Workfront](../administration-and-setup/manage-workfront/manage-workfront.md) 
 * [Manage groups](../administration-and-setup/manage-groups/manage-groups.md) 
