@@ -10,6 +10,8 @@ exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
 ---
 # Text mode syntax overview
 
+<!--Audited: 12/2023-->
+
 You can use the text mode interface to create more complex views, filters, groupings, and customized prompts in lists and reports. By using text mode, you can access fields and their attributes that are not available in the standard mode interface.
 
 For information and considerations about text mode before you begin, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).

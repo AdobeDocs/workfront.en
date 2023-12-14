@@ -11,6 +11,8 @@ exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
 ---
 # Configure the [!DNL SharePoint] integration
 
+<!--Audited: 12/2023-->
+
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
