@@ -91,6 +91,27 @@ With this improvement, notice the following:
 
 For more information, see [Manage table view](/help/quicksilver/maestro/views/manage-the-table-view.md).  
 
+
+### Connect Maestro records with Adobe Experience Manager (AEM) assets 
+
+Preview release: December 14, 2023 
+
+Production release: December 15, 2023 
+
+You can now establish a connection between Maestro record types and Adobe Experience Manager assets.  
+
+After you establish the connection, the following functionality is available with this update:  
+
+* Maestro users can link AEM assets, folders, or collections to a Maestro record from a specific repository in AEM to which they have access
+
+* Maestro users can view all connected assets in Maestro after they are connected to records.  
+
+* An Experience Manager Assets record type is automatically created in Maestro after you establish the connection. Connected assets are visible in the Maestro table and timeline views of this new record type.  
+
+* You can view AEM asset information in the Maestro record table where you are connecting from.  
+
+For more information, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md)  
+
 ## Week of December 4, 2023
 
 ### Copy and paste information from one field to another in the Maestro table view for People-type and linked record fields
