@@ -226,8 +226,12 @@ The following are the main Maestro objects and concepts:
     
     * Two Maestro record types
     * A Maestro record type and a Workfront project, program, portfolio, company, or group object type. 
+    * A Maestro record type and an Adobe Experience Manager asset, folder, or collection. 
 
-    ![](assets/new-connection-tab-with-workfront-option.png)
+        You must have an Adobe Experience Manager license to link record types with Experience Manager objects.
+
+        ![](assets/new-connection-tab-with-workfront-aem-options.png)
+
 
     After you establish a connection between the record types, you can connect individual records of those types to one another. The connection between the records displays as a linked record field. 
 
@@ -361,6 +365,7 @@ The following table illustrates the main features that will be available in Maes
 |     Connect Maestro records and taxonomies  |   ✓                            |  
 |   Search for records in the table view    | ✓    |   |
 |     Connect Maestro records to Workfront projects, programs, portfolios, companies, groups  |   ✓                            |                                 |                  |
+|     Connect Maestro records to Adobe Experience Manager assets, folders, and collections                                 |      ✓                         |                                  |                 | 
 |     Record details page                            |   ✓                           |                                  |                  |
 |     Update the layout of the record Details page              |                               |   ✓                              |                  |
 |  Workspace permissions | |✓ |  |
@@ -369,6 +374,8 @@ The following table illustrates the main features that will be available in Maes
 |     Customize the color and icon of a record                                 |      ✓                         |                                  |                 |
 |     Add comments to records                                 |                               |                         ✓         |                 |
 |     Rich Text formatting for Paragraph fields                                 |      ✓                         |                                  |                 | 
+
+
 
 ## Maestro release activity 
 
