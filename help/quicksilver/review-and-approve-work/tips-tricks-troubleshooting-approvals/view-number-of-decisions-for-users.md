@@ -29,6 +29,11 @@ To view the number of decisions for a user:
 1. <span class="preview">To see historical data, open the **Views** area and choose **Historical User View**.</span>
 1. <span class="preview">Find the column **Users Historical Decisions** to view the number of decsions each user has made in a month. The data goes back 12 months from the current month.</span>
 
+>[!NOTE]
+>
+><span class="preview">If the Historical User View is not available, then you can create a new view to display the historical data. Add **Users Historical Decisions** as a column in the view. For information on adding a column to a view, see [Create or edit views in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).</span>
+
+
 ## View decisions in the Reporting area
 
 >[!NOTE]
