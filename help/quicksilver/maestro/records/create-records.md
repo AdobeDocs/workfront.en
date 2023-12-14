@@ -37,8 +37,8 @@ You can create records in Maestro by doing one of the following:
 
 This article describes how you can create Maestro records. For information about managing records in the table or timeline views, see the following articles:
 
-* [Manage the table view](help/quicksilver/maestro/views/manage-the-table-view.md)
-* [Manage the timeline view](help/quicksilver/maestro/views/manage-the-timeline-view.md)
+* [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md)
+* [Manage the timeline view](/help/quicksilver/maestro/views/manage-the-timeline-view.md)
 
 ## Access requirements
 
