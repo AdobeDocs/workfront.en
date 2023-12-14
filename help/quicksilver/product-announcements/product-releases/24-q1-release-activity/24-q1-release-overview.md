@@ -59,10 +59,13 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: November 29, 2023</p>
+                                <p>Preview release: December 14, 2023</p>
                             </li>
                             <li>
-                                <p><span class="preview">Production for all customers: November 29, 2023</span></p>
+                                <p>Production for fast release: With the 24.1 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 24.1 release</p>
                             </li>
                         </ul>
                     </td>
@@ -242,6 +245,24 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                         </p>
                     </td>
                  </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Drag and drop image in a comment in the Updates section</a><span style="color: #ff0000;"> New in Preview!</span></p><p>To enhance the content of your comments, you can now quickly drag and drop an image in a comment or reply in the Updates section of an object.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: December 14, 2023</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 24.1 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 24.1 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">The new commenting experience captures all information for projects, tasks, issues, and documents</a></p><p>Projects, tasks, issues, and documents display all updates in the new commenting experience area, since the beginning of your Workfront instance.</p>
