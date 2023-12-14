@@ -28,11 +28,11 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
+   <td> <p>New: Any</p> <p>or</p> <p>Current: Pro or Higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Any</p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
+   <td> <p>Any</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,7 +59,7 @@ If this is not the case, you can follow the steps below.
 
 >[!NOTE]
 >
->If the Desktop Proofing Viewer does not launch when you open an interactive proof, this probably means that your Workfront or Workfront Proof administrator needs to configure the Desktop Proofing Viewer as the default viewer for interactive proofs, as described in [User Setting for Opening Non-Interactive Proofs in the Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs).
+>If the Desktop Proofing Viewer does not launch when you open an interactive proof, this probably means that your Workfront or Workfront Proof administrator needs to configure the Desktop Proofing Viewer as the default viewer for interactive proofs, as described in [User Setting for Opening Non-Interactive Proofs in the Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-opening-non-interactive-proofs-in-the-desktop-proofing-viewer).
 
 ## Install the Desktop Proofing Viewer on Windows
 
