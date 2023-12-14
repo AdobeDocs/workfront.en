@@ -13,6 +13,8 @@ exl-id: d9b5e4a1-069e-48be-80d0-84f4bf8aea8b
 ---
 # Prepare to onboard your organization to the Adobe Admin Console
 
+<!-- Audited: 12/2023 -->
+
 Because Adobe Workfront is an Adobe product, you can access it through the Adobe Admin Console. This enables you to manage Workfront along with other Adobe accounts and products for your users in a central place.
 
 All Workfront customers will eventually be moved to the Adobe Admin Console. After your organization moves to the Adobe Admin Console, Workfront authentication is managed by the Console. Preparing and making this move sooner lays the groundwork for efficiency in work management and positions your organization for faster innovation in the future 

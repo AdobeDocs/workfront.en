@@ -1126,7 +1126,7 @@ feature-set: Workfront
 * Manage Work {#manage-work}
   * [Manage work](manage-work/manage-work.md)
   * Projects {#projects}
-    * [Projects](manage-work/projects/projects-overview.md)
+    * [Projects: article index](manage-work/projects/projects-overview.md)
     * Plan a project {#plan-a-project}
       * [Plan a project](manage-work/projects/planning-a-project/plan-project-overview.md)
       * [Plan a project overview](manage-work/projects/planning-a-project/plan-project.md)

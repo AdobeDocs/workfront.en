@@ -13,6 +13,8 @@ exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
 ---
 # Licenses overview
 
+<!-- Audited: 12/2023 -->
+
 Your organization purchased a certain number of licenses when it acquired Adobe Workfront. As a Workfront administrator, you give one of five types of Workfront licenses to each user when you assign the user an access level.
 
 ## How licenses and access levels are tied together

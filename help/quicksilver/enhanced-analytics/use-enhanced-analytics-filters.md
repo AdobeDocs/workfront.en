@@ -9,6 +9,8 @@ exl-id: 25854c04-d914-4302-a36b-e8134637efe1
 ---
 # Apply filters in Enhanced analytics
 
+<!-- Audited: 12/2023 -->
+
 The filters in the Enhanced analytics area of Adobe Workfront help you focus on specific projects or specific types of data. The types of filters that you use can give you insight on:
 
 * Projects you own

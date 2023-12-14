@@ -13,6 +13,8 @@ exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:this is linked from the UI from the Projects global nav section in classic. Do not change/ remove)</p>
 -->
 
+<!-- Audited: 12/2023 -->
+
 Projects represent a large amount of work that needs to be done in Adobe Workfront.
 
 ## Access requirements
