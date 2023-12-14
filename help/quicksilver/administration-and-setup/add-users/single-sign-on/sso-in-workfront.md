@@ -12,6 +12,8 @@ exl-id: 87f1b6c0-6b74-4eac-87cd-899b1c74af25
 ---
 # Overview of single sign-on in Adobe Workfront
 
+<!--Audited: 12/2023-->
+
 {{important-admin-console-onboard}}
 
 

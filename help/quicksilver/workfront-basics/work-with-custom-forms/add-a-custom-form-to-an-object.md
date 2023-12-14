@@ -10,6 +10,8 @@ exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
 ---
 # Add a custom form to an object
 
+<!--Audited: 12/2023-->
+
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 You can add an existing custom form to any of the objects listed below. A custom form contains custom fields where you can store information about the object.

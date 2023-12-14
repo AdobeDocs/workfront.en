@@ -11,6 +11,8 @@ exl-id: fb6faa48-d97b-4b7b-83ae-fe39d40b3963
 ---
 # Proof Permission Profile overview
 
+<!--Audited: 12/2023-->
+
 Proof Permission Profiles determine what overall permissions users have over all proofs in your account. Proof Permission Profiles are assigned to users in their User Profile. 
 
 Proof Permission Profiles are different from proof roles. For more information about proof roles, see [Proof Roles overview](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).

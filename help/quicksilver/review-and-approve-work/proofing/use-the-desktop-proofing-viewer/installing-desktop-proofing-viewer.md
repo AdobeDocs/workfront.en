@@ -9,6 +9,8 @@ exl-id: 4441cf7f-13c7-4bd5-a971-2c9c0302d309
 ---
 # Install the Desktop Proofing Viewer
 
+<!--Audited: 12/2023-->
+
 The Desktop Proofing Viewer, which is designed primarily for proofing interactive content, is an application that must be installed on your local machine.
 
 ## System Requirements

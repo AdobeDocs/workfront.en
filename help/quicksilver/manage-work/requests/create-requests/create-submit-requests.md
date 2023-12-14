@@ -9,6 +9,8 @@ exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
 ---
 # Create and submit Adobe Workfront requests
 
+<!--Audited: 12/2023-->
+
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>(NOTE: Linked to the UI - do not change/ remove; THIS IS NOW SPLIT IN THREE ARTICLES>> MAKE SURE THE TRANSITION TO THE OTHER TWO IS CLEAR SINCE THIS IS LINKED TO UI)</p>
