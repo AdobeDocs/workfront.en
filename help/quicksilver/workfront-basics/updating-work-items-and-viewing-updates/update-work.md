@@ -403,10 +403,9 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
 
 1. (Optional) To attach an image to your update, do one of the following: 
 
-   <!--* <span class="preview">Save the image on our computer, then drag and drop it in the New comment area.</span>
-   <span class="preview">This is not available in the Production environment for the new commenting experience.</span>
-   -->
-   
+   * <span class="preview">Save the image on our computer, then drag and drop it in the New comment area.</span>
+   <span class="preview">This is not available in the Production environment for the new commenting experience. Dragging and dropping an image in a comment is available in the legacy commenting experience in Production. </span>
+     
    * <span class="preview">Copy a screenshot from your computer, then paste it in the comment </span> 
    * Click the **Add image** icon ![](assets/add-image-mountain-with-plus-icon.png) and browse to the image on your computer. 
 
@@ -425,6 +424,11 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
    >* When someone deletes an image attached to a comment from the Documents area, it is also removed from the comment. 
 
    <!--remove the statement above about legacy, when we remove the legacy environment.-->
+
+1. (Optional) To view an image in the existing update do one of the following:
+
+   * Click the **Preview** icon <span class="preview">![](assets/previewimageicon-31x31.png)</span> on the image thumbnail to open the full-size image in a new browser tab.
+   * Click the **Download** icon ![](assets/downloadimageicon.png) on the image thumbnail to download the image.
   
 1. Click **Submit** to add your comment. 
 
