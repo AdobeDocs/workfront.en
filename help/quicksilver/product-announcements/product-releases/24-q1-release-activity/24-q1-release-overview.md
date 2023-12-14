@@ -265,7 +265,7 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                     </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">The new commenting experience captures all information for projects, tasks, issues, and documents</a></p><p>Projects, tasks, issues, and documents display all updates in the new commenting experience area, since the beginning of your Workfront instance.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">The new commenting experience captures all information for projects, tasks, issues, and documents</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Projects, tasks, issues, and documents display all updates in the new commenting experience area, since the beginning of your Workfront instance.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -273,7 +273,7 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                                 <p>Preview release: November 28, 2023</p>
                             </li>
                             <li>
-                                <p>Production for all customers: November 28, 2023</p>
+                                <p><span class="preview">Production for all customers: November 28, 2023</span></p>
                             </li>
                         </ul>
                     </td>
