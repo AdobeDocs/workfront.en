@@ -3,25 +3,25 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration
 navigation-topic: start-with-workfront-administration
-title: Defining objectives for your Adobe Workfront implementation
-description: When implementing Adobe Workfront, it is important to identify the principles of your success criteria. We recommend you start by documenting your current processes, organizational structure, and workflows, and then define your overall goals and objectives for how Workfront will fit in your organization.
-author: Caroline
+title: Overview of defining objectives for your Adobe Workfront implementation
+description: When implementing Adobe Workfront, it is important to identify the principles of your success criteria. We recommend you start by documenting your current processes, organizational structure, and workflows, and then define your overall objectives for how Workfront will fit in your organization.
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1b425244-e3f3-45a0-8ba1-5fbc7b339c85
 ---
-# Defining objectives for your Adobe Workfront implementation
+# Overview of defining objectives for your Adobe Workfront implementation
 
 When implementing Adobe Workfront, it is important to identify the principles of your success criteria. You may want to ask yourself the following questions:
 
 * What is it that you are trying to solve?
 * Why are you implementing Workfront?
 * How do you plan to use the software to improve your processes?
-* How would you know whether you are successful?
+* How would you know whether your implementation is successful?
 
-There are a few factors to consider as you map your goals and identify the business processes you want to improve. We recommend you start by documenting your current processes, organizational structure, and workflows, and then define your overall goals and objectives for how Workfront will fit in your organization. 
+There are a few factors to consider as you map your objectives and identify the business processes you want to improve. We recommend you start by documenting your current processes, organizational structure, and workflows, and then define your overall objectives for how Workfront fits in your organization. 
 
-The following are examples of goals defined by a company and how they fit within Workfront. You may consider some of these as you gather your requirements:
+The following are examples of objectives defined by a company and how they fit within Workfront. You may consider some of these as you gather your requirements:
 
 ## Improve service response times within the organization
 
@@ -39,7 +39,7 @@ You can achieve this in Workfront by configuring the following:
 
 You can achieve this in Workfront by configuring the following:
 
-* Develop a standard project methodology for your organization. This includes identifying the users who will be responsible for creating and managing projects, as well as granting any approvals.  
+* Develop a standard project methodology for your organization. This includes identifying the users who are responsible for creating and managing projects, and granting any approvals.  
   
   For more information about creating projects, see [Create a project](../../manage-work/projects/create-projects/create-project.md).  
   
@@ -68,7 +68,7 @@ You can achieve this in Workfront by configuring the following:
 
 ## Define success criteria
 
-Once you identify your primary goals and objectives, you can start defining the success criteria surrounding your Workfront implementation. The criteria should reflect the reasons you purchased Workfront in the first place.
+Once you identify your primary objectives, you can start defining the success criteria surrounding your Workfront implementation. The criteria should reflect the reasons you purchased Workfront in the first place.
 
 With your success criteria in place, Workfront will be in position to manage the needs of your organization and make your implementation a success.
 
@@ -79,4 +79,4 @@ The following are examples of success metrics:
 * The processes that support internal projects are managed using Workfront.
 * All repetitive processes are managed in Workfront including utilization of resources, continual project and task templates, and any internal processes necessary for quality delivery.
 
-As you work to define these goals and success criteria, be sure to provide opportunities for review by implementation team members as well as other stakeholders involved. Incorporating their feedback is key to success and facilitates a smooth adoption of the Workfront solution.
+As you work to define these objectives and success criteria, be sure to provide opportunities for review by implementation team members and other stakeholders involved. Incorporating their feedback is key to success and facilitates a smooth adoption of the Workfront solution.

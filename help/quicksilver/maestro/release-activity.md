@@ -57,6 +57,40 @@ Only Workfront administrators can create, edit, or delete workspaces and all inf
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
 
+## Week of December 18, 2023
+
+### Update the primary field in a table view of a record type
+
+Preview and production: December 14, 2023 
+
+You can now choose the field you want to display in the first column of a Maestro table view. This field is now called a primary field.  
+
+Prior to this enhancement, the Name field of a record always displayed in the first column of the table view and it could not be placed in another position.
+
+With this improvement, notice the following: 
+
+* The Name column or field is still the first column of a table, by default.  
+
+* You can choose any field of the following types to be a primary field and replace the Name field in the first column: 
+
+    * Single-line text 
+
+    * Number 
+
+    * Formula
+
+        >[!NOTE]
+        >
+        >Formula-type fields will be released at a later date.
+
+* The primary field of a table view is always frozen and cannot be moved, unless you set another field as a primary field.  
+
+* You can change the primary field from a non-primary column header.  
+
+* All table views of a record type have the same primary field you select. 
+
+For more information, see [Manage table view](/help/quicksilver/maestro/views/manage-the-table-view.md).  
+
 ## Week of December 4, 2023
 
 ### Copy and paste information from one field to another in the Maestro table view for People-type and linked record fields

@@ -131,36 +131,44 @@ You can add up to 500 fields (or columns) in a table view.
 
         ![](assets/fields-setting-table-view-toolbar-expanded.png)
 
-    >[!TIP]
-    >
-    >* The Name field is always the first field in the table view.
-    >
-    >* You cannot move the Name field to another position.
-    >
-    >* You cannot hide the Name field. 
-    >
-    >* The Name field is frozen and is not part of the horizontal scroll.
+
+        >[!TIP]
+        >
+        >* The Name field is always the first field in the table view.
+        >
+        >* You cannot move the Name field to another position.
+        >
+        >* You cannot hide the Name field. 
+        >
+        >* The Name field is frozen and is not part of the horizontal scroll.
  
-    <!--* Replace the field in the first column with another field by changing the primary field. For more information, continue to step 4. (******ensure this is accurate****)-->
+    * Replace the field in the first column with another field by changing the primary field. For more information, continue to step 4. <!--accurate?-->
 
-    <!--1. (Optional) Hover over a field name in the column header of any field that does not display in the first field of the table, click the downward-pointing arrow to the right of the field name, then click **Set as primary field**. 
-    (******add screen shot*****)
+1. (Optional) Hover over a field name in the column header of any field that does not display in the first column of the table, click the downward-pointing arrow to the right of the field name, then click **Set as primary field**. 
+    
+    ![](assets/set-as-primary-field-option-table-view.png)
 
-    1. Click **Set field** to confirm. 
-    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves in the second column.
+1. Click **Set field** to confirm. 
+
+    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves to the second column.
+
     >[!NOTE]
     >
     >   * Only fields of the following types can be primary fields: 
     >
     >       * Single-line text
     >       * Number
-    >       * Formula (********HIDE THIS FOR NOW???********)
+    >       * Formula
     >
-    >   * The primary field is always frozen.
+    >         Formula fields will be released at a later date. 
+    >
+    >   * The primary field is always frozen and cannot be moved. You can select another field to replace a primary field, if you need to move it to another position. 
     >
     >   * Changing the primary field in your table view affects the view for all other users who choose it.
-    
-    ************ALSO UPDATE THE TIP BELOW ABOUT THE PRIMARY FIELD******-->
+    >
+    >   * Changing the primary field in a table view affects all your table views. 
+    >
+    >   * You cannot delete or hide a primary field. 
 
 1. Click and drag the column separation lines and drop them in the desired spot to increase the width of the columns. 
 

@@ -3,8 +3,8 @@ content-type: overview
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Overview of the Workload Balancer
-description: After project managers plan the work on projects and create tasks, you can use the Workload Balancer to assign this work to users in your teams.
-author: Alina
+description: After project managers plan the work on projects by creating tasks and after resource managers allocate job role resources to projects in the Resource Planner, project owners and team managers can use the Workload Balancer to assign work items to users.
+author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
 ---
@@ -14,7 +14,7 @@ exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
 <p>(NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK) </p>
 -->
 
-After project managers plan the work on projects and create tasks, you can use the Workload Balancer to assign this work to users.
+After project managers plan the work on projects by creating tasks and after resource managers allocate job role resources to projects in the Resource Planner, project owners and team managers can use the Workload Balancer to assign work items to users.
 
 >[!IMPORTANT]
 >
@@ -49,12 +49,12 @@ Consider the following benefits when using the Workload Balancer:
 -->
 
 * Access a clear visual mapping of resource overallocation and underutilization which is transparent to all stakeholders. 
-* As a people manager, you can protect your people from burnout and empower them to do their best work with better focus, quality and engagement. You can ensure their full utilization, break silos, and enable alignment of work across teams. 
+* As a people manager, you can protect your people from burnout and empower them to do their best work with better focus, quality, and engagement. You can ensure their full utilization, break silos, and enable alignment of work across teams. 
 * When you assign work at the task or issue level you don't have visibility into how busy a user might be. When you use the Workload Balancer, you can view which users have availability in their workload to complete the task or issue on time. This includes their time off and schedule exceptions details.
 
   For more information, see [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-  You can also assigning work items in bulk which makes it easier to distribute a large number of work items at one time, across multiple projects. For more information, see [Assign work in bulk using the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md). 
+  You can also assign work items in bulk which makes it easier to distribute many work items at one time, across multiple projects. For more information, see [Assign work in bulk using the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md). 
 
 * Executives can make timely staffing decisions through transparency into how people in their organization are utilized. 
 * Team members benefit from better collaboration, as they can all view what their coworkers are working on at any given time. For information about the access needed to view or manage resources in the Workload Balancer, see [Access needed to manage resources in the Workload Balancer](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
@@ -86,15 +86,18 @@ For information about creating and using filters in the Workload Balancer, see [
 
   For information about the access needed to manage the workload of your resources in the Workload Balancer, see [Access needed to manage resources in the Workload Balancer](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md). 
 
-* The users whose workload you want to manage need to meet the following criteria so that the information about their availability and skills is accurate:
+* The users whose workload you want to manage must meet the following criteria so that the information about their availability and skills is accurate:
 
    * Have Schedules and Job Roles associated with their profile.
-   * For more information about associating Schedules and Job Roles with users, see [Add users](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
+     
+     For more information about associating Schedules and Job Roles with users, see [Add users](../../administration-and-setup/add-users/create-and-manage-users/add-users.md)
    * If a user is not associated with a Schedule, the Default Schedule of your Workfront system is associated with the user by default, for the purposes of resource management. 
    * Have Schedule Exceptions updated in their schedules.  
+     
      For more information about creating schedules, see [Create a schedule](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
    
    * Have their Time Off calendar updated in their profile.   
+     
      For information about updating a user's Time Off calendar, see [Configure personal time off](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
      <!--   
@@ -104,13 +107,15 @@ For information about creating and using filters in the Workload Balancer, see [
      </div>   
      -->
 
-* The Workfront administrator must determine how Workfront calculates user availability.&nbsp;They can decide whether Workfront uses either the System Default Schedule, or the user's schedule to calculate the time that the user is available to work. For more information, see [Configure Resource Management preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+* The Workfront administrator must determine how Workfront calculates user availability. They can decide whether Workfront uses the System Default Schedule, or the user's schedule to calculate the time that the user is available to work by adjusting the Resource Management preferences in the Setup area of Workfront. 
+  
+  For more information, see [Configure Resource Management preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
 ### Best practices for setting up tasks and issues {#best-practices-for-setting-up-tasks-and-issues}
 
 Ensure the following task and issue setup exists before starting assigning work to users in the Workload Balancer:
 
-* Parent tasks are not assigned to users or roles. They do not display in the Workload Balancer. 
+* Parent tasks are not assigned to users or roles. Parent tasks do not display in the Workload Balancer. 
 * Tasks and issues have a value for Planned Hours which is greater than zero. 
 
 * Tasks and issues have a value for their Duration which is greater than zero. 
@@ -118,16 +123,16 @@ Ensure the following task and issue setup exists before starting assigning work 
 
 ## Before you start to use the Workload Balancer
 
-* You can use the Workload Balancer to assign work and manage daily allocations for users in your organization.
+* Review the following articles before you start using the Workload Balancer: 
 
-  This article walks you through how to navigate the Workload Balancer to perform these actions: [Navigate the Workload Balancer](../workload-balancer/navigate-the-workload-balancer.md). 
+    * This article walks you through how to navigate the Workload Balancer to perform these actions: [Navigate the Workload Balancer](../workload-balancer/navigate-the-workload-balancer.md). 
 
-  The following articles walk you through how you assign work and manage user allocations:
+  * The following articles walk you through how you assign work and manage user allocations:
   
-  * [Overview of assigning work in the Workload Balancer](../workload-balancer/assign-work-in-workload-balancer.md).
-  * [Manage user allocations in the Workload Balancer](../workload-balancer/manage-user-allocations-workload-balancer.md). 
+    * [Overview of assigning work in the Workload Balancer](../workload-balancer/assign-work-in-workload-balancer.md).
+    * [Manage user allocations in the Workload Balancer](../workload-balancer/manage-user-allocations-workload-balancer.md). 
 
-* The Workload Balancer can be located in several different areas of Workfront. For information about where you can find the Workload Balancer, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+* The Workload Balancer can be found several different areas of Workfront. For information about where you can find the Workload Balancer, see [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 ## Access needed to use the Workload Balancer
 
