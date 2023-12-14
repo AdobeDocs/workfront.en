@@ -127,26 +127,6 @@ The following table displays the permissions available with each Proof Permissio
    <td>
    </td>
   </tr>
-  <tr>
-   <td>Observer
-   </td>
-   <td>
-   </td>
-   <td>x
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
 </table>
 
 ### Administrator
