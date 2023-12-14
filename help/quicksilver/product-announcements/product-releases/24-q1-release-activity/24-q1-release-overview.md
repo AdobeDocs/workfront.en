@@ -19,7 +19,7 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
 >
 >The 23.3 release included the option to move your organization to monthly releases. Therefore, Workfront has changed the numbering scheme of releases to account for both monthly and quarterly release tracks.
 >
->Monthly and quarterly releases are planned to be available on the last Thursday of the month, unless otherwise specified.
+>Monthly and quarterly releases are planned to be available on the Thursday of the second full week of the month, unless otherwise specified.
 >
 >|Monthly release|Quarterly release|
 >|----|----|
