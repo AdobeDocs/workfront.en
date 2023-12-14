@@ -33,6 +33,12 @@ You can create records in Maestro by doing one of the following:
 
 * Manually create them for Maestro record types
 * Connect them to Maestro records from third-party applications. 
+* Create records by copying and pasting information from an external list. 
+
+This article describes how you can create Maestro records. For information about managing records in the table or timeline views, see the following articles:
+
+* [Manage the table view](help/quicksilver/maestro/views/manage-the-table-view.md)
+* [Manage the timeline view](help/quicksilver/maestro/views/manage-the-timeline-view.md)
 
 ## Access requirements
 
@@ -177,7 +183,7 @@ You can create records in the table view of a record type page.
 
 ## Create records by connecting them from another application
 
-You can import records from other applications by linking them to Maestro linked records. 
+You can import records from other applications by linking them to Maestro linked records. This creates a Maestro record type for the third-party application connected object. Records you connect to the original Maestro records display in the third-party application connected object Maestro record type table view. 
 
 1. Create a Maestro record type, as described in the [Create record types](../architecture/create-record-types.md).
 
@@ -193,7 +199,6 @@ You can import records from other applications by linking them to Maestro linked
 
       For example, if you connect a Maestro record type to Workfront projects, a read-only record type named "Workfront projects" is created in the same workspace. 
     * Read-only records in the third-party record type page. The records imported from the third-party application remain read-only and can only be updated in their original application. 
-
 
 ## Create records by copying and pasting information from an external list
 
