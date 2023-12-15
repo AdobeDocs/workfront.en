@@ -68,7 +68,9 @@ You must have the following access to perform the steps in this article:
 <td>
    <p> Adobe product</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> 
+   <p>To connect Maestro record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets</p>
+   </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
@@ -115,7 +117,7 @@ After permssions - replace the table with:
 <td>
    <p> Adobe product</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <p> Adobe Workfront</p> <p>To connect Maestro record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
@@ -193,6 +195,12 @@ Consider the following:
         * Companies
         * Groups
 
+    * Adobe Experience Manager Assets:
+
+        * Assets
+        * Folders
+        * Collections
+
 * After you connect a record type with another record type or with an object type from another application, the following scenarios exist: 
     
     * When you connect two record types: A Linked record field is created on the record type you're connecting from. A similar Linked record field is created on the record type you are connecting to. 
@@ -224,12 +232,14 @@ Consider the following:
 1. Click the card of a record type to open the record type page. 
 1. Click the **+** icon in the upper-right corner of the table view, then click the **New connection** tab.
 
-    ![](assets/new-connection-tab-with-workfront-option.png)
+    ![](assets/new-connection-tab-with-workfront-aem-options.png)
+
 1. In the **Record Type** field, select one of the following: <!--is the field name spelled right? lowercase "t"?-->
 
-    * Another operational record type
-    * A taxonomy
-    * A Workfront Project, Portfolio, Program, Company, or Group. 
+    * Another operational record type from the workspace you selected
+    * A taxonomy from the workspace you selected
+    * A Project, Portfolio, Program, Company, or Group from the Workfront Object Types section.
+    * Experience Manager Assets from the Adobe Applications section. 
 
     ![](assets/new-connection-tab-fields-with-another-record-selected.png)
 
@@ -249,9 +259,17 @@ Consider the following:
      * **Allow multiple records**: Select this option to indicate that you allow that users can add multiple records when the linked record type field displays on the original records. This is selected by default.
      * **Select lookup fields**: Select this option to add fields from the selected record type. This is selected by default. 
 
+1. (Conditional and optional) If you selected to connect a Workfront object, select a **Custom form** from the **Link only projects that match these criteria** section. <!--this needs to be updated for each object when they fix this UI.--> Only objects that have the selected custom forms attached can be linked to the selected Maestro record type. You can select more than one form. 
+
+    ![](assets/workfront-project-connection-selection.png)
+
+1. (Conditional) If you selected to connect to Experience Manager Assets, select a repository from the **Experience Manager repository** drop-down menu in the **Link assets from the following repository** section. This is a required field. Only repositories you have access to in Experience Manager Assets display in this field. 
+
+    ![](assets/aem-assets-connection-selection.png)
+
 1. Click **Create**.
 
-1. (Conditional) If you selected the Select lookup field setting in the previous step, the **Add lookup fields** box opens. 
+1. (Conditional) If you selected the **Select lookup field** setting in the previous step, the **Add lookup fields** box opens. 
 
     Click the **+** icon  to add fields from the **Unselected fields** area. 
 
@@ -267,7 +285,11 @@ Consider the following:
     
 1. (Optional and conditional) If you select to link a number, currency, percentage, or date-type field, also select an aggregator value. The values for the linked fields display either separated by commas or as a aggregated value according to the aggregator you choose, when users select more than one linked record in the linked record field. 
 
-    ![](assets/aggregator-drop-down-for-number-linked-field.png)    
+    ![](assets/aggregator-drop-down-for-number-linked-field.png)  
+
+    >[!NOTE]
+    >
+    > Aggregators are not available when connecting record types to Experience Manager Assets.  
 
     Select from the following:
 

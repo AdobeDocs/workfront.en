@@ -57,6 +57,61 @@ Only Workfront administrators can create, edit, or delete workspaces and all inf
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
 
+## Week of December 18, 2023
+
+### Update the primary field in a table view of a record type
+
+Preview and production: December 14, 2023 
+
+You can now choose the field you want to display in the first column of a Maestro table view. This field is now called a primary field.  
+
+Prior to this enhancement, the Name field of a record always displayed in the first column of the table view and it could not be placed in another position.
+
+With this improvement, notice the following: 
+
+* The Name column or field is still the first column of a table, by default.  
+
+* You can choose any field of the following types to be a primary field and replace the Name field in the first column: 
+
+    * Single-line text 
+
+    * Number 
+
+    * Formula
+
+        >[!NOTE]
+        >
+        >Formula-type fields will be released at a later date.
+
+* The primary field of a table view is always frozen and cannot be moved, unless you set another field as a primary field.  
+
+* You can change the primary field from a non-primary column header.  
+
+* All table views of a record type have the same primary field you select. 
+
+For more information, see [Manage table view](/help/quicksilver/maestro/views/manage-the-table-view.md).  
+
+
+### Connect Maestro records with Adobe Experience Manager (AEM) assets 
+
+Preview release: December 14, 2023 
+
+Production release: December 15, 2023 
+
+You can now establish a connection between Maestro record types and Adobe Experience Manager assets.  
+
+After you establish the connection, the following functionality is available with this update:  
+
+* Maestro users can link AEM assets, folders, or collections to a Maestro record from a specific repository in AEM to which they have access
+
+* Maestro users can view all connected assets in Maestro after they are connected to records.  
+
+* An Experience Manager Assets record type is automatically created in Maestro after you establish the connection. Connected assets are visible in the Maestro table and timeline views of this new record type.  
+
+* You can view AEM asset information in the Maestro record table where you are connecting from.  
+
+For more information, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md)  
+
 ## Week of December 4, 2023
 
 ### Copy and paste information from one field to another in the Maestro table view for People-type and linked record fields
