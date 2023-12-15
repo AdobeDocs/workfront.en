@@ -20,7 +20,7 @@ The following areas are included in the default layout of a [!UICONTROL Worker]:
 
 * **[!UICONTROL Home]**: Tasks and issues assigned to you display here. This is the default landing page for a Worker , however, it doesn't appear in the [!UICONTROL Main Menu] unless a Workfront administrator adds it in the layout template .  For information, see [Get started with [!UICONTROL Home]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
-* **[!UICONTROL Projects]**: Projects that are shared with you display here. For information, see [Projects](../../../manage-work/projects/projects-overview.md).
+* **[!UICONTROL Projects]**: Projects that are shared with you display here. For information, see [Projects: article index](../../../manage-work/projects/projects-overview.md).
 
 * **[!UICONTROL Reports]**: Reports that are shared with you display here. For information, see [Reports](../../../reports-and-dashboards/reports/reports-overview.md).
 
@@ -34,7 +34,7 @@ The following areas are included in the default layout of a [!UICONTROL Worker]:
 
 * **[!UICONTROL Requests]**: You can submit requests and review requests you or your team members have submitted here. For information, see [Requests](../../../manage-work/requests/requests-overview.md).
 
-* **[!UICONTROL Timesheets]**: You can access your current, future, or old timesheets here. For information, see [Timesheets](../../../timesheets/timesheets-all.md).
+* **[!UICONTROL Timesheets]**: You can access your current, future, or old timesheets here. For information, see [Timesheets: article index](../../../timesheets/timesheets-all.md).
 
 * **[!UICONTROL Documents]**: You can upload documents, or review documents shared with you, here. For information, see [Documents](../../../documents/documents-overview.md).
 

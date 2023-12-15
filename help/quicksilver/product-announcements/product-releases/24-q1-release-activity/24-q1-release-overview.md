@@ -19,7 +19,7 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
 >
 >The 23.3 release included the option to move your organization to monthly releases. Therefore, Workfront has changed the numbering scheme of releases to account for both monthly and quarterly release tracks.
 >
->Monthly and quarterly releases are planned to be available on the last Thursday of the month, unless otherwise specified.
+>Monthly and quarterly releases are planned to be available on the Thursday of the second full week of the month, unless otherwise specified.
 >
 >|Monthly release|Quarterly release|
 >|----|----|
@@ -30,11 +30,49 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
 
 
 ## Adobe Workfront enhancements
-    
+
+* [Administrator enhancements](#administrator-enhancements)
 * [Document management enhancements](#document-management-enhancements)
 * [Integration enhancements](#integration-enhancements)
 * [Update stream and notification enhancements](#update-stream-and-notification-enhancements)
-    
+
+### Administrator enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Proof/document decisions now available for the previous 12 months</a><span style="color: #ff0000;"> New in Preview!</span></p><p>The Users Decisions reports for both new and legacy license types now display the number of decisions for the current month as well as the previous 12 months.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: December 14, 2023</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 24.1 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 24.1 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
 ### Document management enhancements
 
 <table>
@@ -53,7 +91,25 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Mark a review as complete</a><span style="color: #ff0000;"> New in Preview!</span></p><p>To make it more clear when a document has been reviewed and is ready for the next approval stage, we've created a new <strong>Complete my review</strong> button.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Updated statuses for document approvals</a></p><p>To make document approval status more clear, we've updated available document status approvals. Now, the approval status accounts for reviewers marking their review complete, as well as cases where there are only reviewers but not approvers.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: December 7, 2023</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 24.1 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 24.1 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Mark a review as complete</a></p><p>To make it more clear when a document has been reviewed and is ready for the next approval stage, we've created a new <strong>Complete my review</strong> button.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -108,7 +164,7 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">My Work quick action buttons changed to only display on mouseover</a><span style="color: #ff0000;"> New in Preview!</span></p><p>To improve performance, the quick action buttons available in the My Work widget will now only be displayed when a work item is hovered over with the mouse.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">My Work quick action buttons changed to only display on mouseover</a></p><p>[!BADGE In production ]{type=Informative}</p><p>To improve performance, the quick action buttons available in the My Work widget will now only be displayed when a work item is hovered over with the mouse.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -191,7 +247,25 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">The new commenting experience captures all information for projects, tasks, issues, and documents</a><span style="color: #ff0000;"> New in Preview!</span></p><p>Projects, tasks, issues, and documents display all updates in the new commenting experience area, since the beginning of your Workfront instance.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Drag and drop image in a comment in the Updates section</a><span style="color: #ff0000;"> New in Preview!</span></p><p>To enhance the content of your comments, you can now quickly drag and drop an image in a comment or reply in the Updates section of an object.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: December 14, 2023</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 24.1 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 24.1 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">The new commenting experience captures all information for projects, tasks, issues, and documents</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Projects, tasks, issues, and documents display all updates in the new commenting experience area, since the beginning of your Workfront instance.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -199,14 +273,14 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                                 <p>Preview release: November 28, 2023</p>
                             </li>
                             <li>
-                                <p>Production for all customers: November 28, 2023</p>
+                                <p><span class="preview">Production for all customers: November 28, 2023</span></p>
                             </li>
                         </ul>
                     </td>
                     </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Search for a comment or user in the Updates section</a><span style="color: #ff0000;"> New in Preview!</span></p><p>To quickly find information in the Updates section of an object, you can now search for a keyword from a comment or for any user associated with a comment.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Search for a comment or user in the Updates section</a></p><p>To quickly find information in the Updates section of an object, you can now search for a keyword from a comment or for any user associated with a comment.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -224,7 +298,7 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                     </tr>
                     <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Copy and paste an image in a comment in the Updates section</a><span style="color: #ff0000;"> New in Preview!</span></p><p>To provide context to the content of a message, you can now quickly attach images to your comments by copying them from your computer and pasting them in a new update or reply.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Copy and paste an image in a comment in the Updates section</a></p><p>To provide context to the content of a message, you can now quickly attach images to your comments by copying them from your computer and pasting them in a new update or reply.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>

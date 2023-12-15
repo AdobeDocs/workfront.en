@@ -424,15 +424,15 @@ The following table illustrates the features that will be available in the new c
 <tr>
    <td>Drag and drop images in a comment
    </td>
-   <td> 
+   <td> ✓
    </td>
-   <td> 
+   <td> <span class="preview">✓</span>
    </td>
    <td> 
    </td>
    <td>Q1, 2024 
    </td>
-   <td>✓ 
+   <td> 
    </td>
   </tr>
 

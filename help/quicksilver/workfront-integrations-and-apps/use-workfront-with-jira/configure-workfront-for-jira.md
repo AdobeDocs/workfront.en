@@ -9,6 +9,8 @@ exl-id: 959adc88-5201-4945-96c4-ea890f0bd371
 ---
 # Configure [!DNL Adobe Workfront for Jira]
 
+<!-- Audited: 12/2023 -->
+
 You can use [!DNL Adobe Workfront for Jira] to integrate your [!DNL Jira] and [!DNL Workfront] systems.
 
 After installing the add-on, you can define workflows that create [!DNL Jira] issues automatically when [!DNL Workfront] work items are created. The items in both applications become linked, and some of their information automatically updates in both systems.
@@ -29,16 +31,16 @@ You must have the following:
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL [!DNL Adobe Workfront] plan]*</td> 
-   <td><p>New plan: Any</p>
+   <td><p>New: Any</p>
        <p>or</p>
-       <p>Current plan: [!UICONTROL Pro] or higher</p>
+       <p>Current: [!UICONTROL Pro] or higher</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td><p>New plan: [!UICONTROL Standard] </p>
+   <td><p>New: [!UICONTROL Standard] </p>
        <p>or</p> 
-       <p>Current plan: [!UICONTROL Plan] </p>
+       <p>Current: [!UICONTROL Plan] </p>
    </td>
   </tr> 
   <tr> 

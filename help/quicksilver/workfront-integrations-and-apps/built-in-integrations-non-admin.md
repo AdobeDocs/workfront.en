@@ -5,9 +5,12 @@ navigation-topic: workfront-integrations-navigation-topic
 title: Adobe Workfront built-in integrations overview
 description: You can integrate [!DNL Adobe Workfront] with third-party applications. These integrations can extend the utility of [!DNL Workfront] and tailor it to the needs of your organization. For example, if you are a creative worker in the marketing industry, you can use the Adobe Creative Cloud add-in to export assets directly from Photoshop to Workfront.
 feature: Workfront Integrations and Apps
+author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
 ---
 # Adobe Workfront built-in integrations overview
+
+<!-- Audited: 12/2023 -->
 
 You can integrate [!DNL Adobe Workfront] with third-party applications, as well as other [!DNL Adobe] products. These integrations can extend the utility of [!DNL Workfront] and tailor it to the needs of your organization. For example, if you are a creative worker in the marketing industry, you can use the [!DNL Adobe Workfront] plugin for [!DNL Creative Cloud] applications to export assets directly from Photoshop to Workfront.
 
@@ -35,7 +38,7 @@ The following built-in integrations are currently available in Workfront.
      <li>After Effects </li>
      </ul>
      <li><p>Download/install from <a href="https://exchange.adobe.com/apps/browse/cc?page=1&product=All&q=workfront&sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
-     <p>For information and instructions, see <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Install the  [!DNL Adobe Workfront] plugin for [!DNL Creative Cloud] Applications</a></p> </td> 
+     <p>For information and instructions, see <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Install the  [!DNL Adobe Workfront] plugin for [!DNL Creative Cloud] Applications</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Box</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 

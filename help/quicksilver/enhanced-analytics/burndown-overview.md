@@ -10,6 +10,8 @@ exl-id: e67c92d5-b309-406b-b6f0-4d414d0e7dcc
 ---
 # View the Burndown visualization in Enhanced analytics
 
+<!-- Audited: 12/2023 -->
+
 The Burndown visualization shows a specific project's burndown over time and helps you understand the relationship between project condition, velocity, and remaining hours—or days.
 
 ![Enhanced analytics burndown example](assets/burndown120623.png)
@@ -25,16 +27,16 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td>
-      <p>New plan: Any</p>
+      <p>New: Any</p>
       <p>or</p>
-      <p>Current plan: Business or higher</p></td>
+      <p>Current: Business or higher</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td>
-      <p>New plan: Light or higher</p>
+      <p>New: Light or higher</p>
       <p>or</p>
-      <p>Current plan: Review or higher</p>
+      <p>Current: Review or higher</p>
    </td> 
   </tr> 
   <tr> 

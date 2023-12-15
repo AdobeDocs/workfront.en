@@ -15,6 +15,7 @@ feature-set: Workfront
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
     * 2024 Q1 Release {#release-24-q1}
       * [2024 Q1 Release overview](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
+      * [First Quarter 2024 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md)
       * [First Quarter 2024 Document management enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md)
       * [2024 Q1 Integration enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md)
       * [First Quarter 2024 Update stream and notification enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md)
@@ -389,7 +390,7 @@ feature-set: Workfront
   * [Administration and setup: article index](administration-and-setup/administration-and-setup.md)
   * Get started with administration {#get-started-administration}
     * [Get started with administration: article index](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
-    * [Define objectives for implementation](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
+    * [Overview of defining objectives for your Adobe Workfront implementation](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
     * [Manage your licenses](administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
     * [Configure the basics](administration-and-setup/get-started-wf-administration/configure-basic-info.md)
     * [Firewall overview](administration-and-setup/get-started-wf-administration/firewall-overview.md)
@@ -444,8 +445,8 @@ feature-set: Workfront
       * [Preview Sandbox environment](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
       * [Custom Refresh Sandbox environment](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
       * [Move objects from one [!DNL Workfront] environment to another](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
-  * Add users {#add-users}
-    * [Add users to Workfront](administration-and-setup/add-users/add-users.md)
+  * User management {#add-users}
+    * [User management: article index](administration-and-setup/add-users/add-users.md)
     * Create and manage users {#create-manage-users}
       * [Manage users](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
       * [Add users](administration-and-setup/add-users/create-and-manage-users/add-users.md)
@@ -913,7 +914,7 @@ feature-set: Workfront
     * Configure your User Profile {#configure-user-profile}
       * [Configure your User Profile](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-user-profile.md)
       * [Configure My Settings](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md)
-      * [Configure personal time off in Adobe Workfront](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
+      * [Configure personal time off](workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)
     * Manage your Adobe Workfront account {#manage-workfront-account}
       * [Manage your Adobe Workfront account](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
       * [Log in to Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)
@@ -1104,8 +1105,8 @@ feature-set: Workfront
       * [Proof a linked asset with the enhanced connector](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
       * [View or download a linked asset with the enhanced connector](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-view-download-asset.md)
     * Adobe Workfront for Experience Manager Assets and Assets Essentials {#wf-aem-essentials}
-      * [Adobe Workfront for Experience Manager Assets and Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
-      * [Adobe Experience Manager Assets integrations overview](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
+      * [Adobe Workfront for Experience Manager Assets and Assets Essentials: article index](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
+      * [Overview of Adobe Experience Manager Assets integrations](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
       * [Link assets and folders from Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
       * [View mapped metadata for Experience Manager Assets or Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
       * [View or download a linked asset from Experience Manager Assets or Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
@@ -1125,9 +1126,9 @@ feature-set: Workfront
 * Manage Work {#manage-work}
   * [Manage work](manage-work/manage-work.md)
   * Projects {#projects}
-    * [Projects](manage-work/projects/projects-overview.md)
+    * [Projects: article index](manage-work/projects/projects-overview.md)
     * Plan a project {#plan-a-project}
-      * [Plan a project](manage-work/projects/planning-a-project/plan-project-overview.md)
+      * [Plan a project: article index](manage-work/projects/planning-a-project/plan-project-overview.md)
       * [Plan a project overview](manage-work/projects/planning-a-project/plan-project.md)
       * [Determine Work Breakdown Structure in a project](manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md)
       * [Project Team overview](manage-work/projects/planning-a-project/project-team-overview.md)
@@ -1148,14 +1149,14 @@ feature-set: Workfront
       * [Project Progress Status overview](manage-work/projects/planning-a-project/project-progress-status.md)
       * [Overview of the project Projected Start Date](manage-work/projects/planning-a-project/project-projected-start-date.md)
     * Create projects {#create-projects}
-      * [Create projects](manage-work/projects/create-projects/create-projects-overview.md)
+      * [Create projects: article index](manage-work/projects/create-projects/create-projects-overview.md)
       * [Create a project](manage-work/projects/create-projects/create-project.md)
       * [Request a project](manage-work/projects/create-projects/request-project.md)
       * [Create a project using a template](manage-work/projects/create-projects/create-project-from-template.md)
       * [Import a project from Microsoft Project](manage-work/projects/create-projects/import-project-from-ms-project.md)
       * [Create project baselines](manage-work/projects/create-projects/create-baselines.md)
     * Update work on a project {#update-work-on-a-project}
-      * [Update work on a project](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
+      * [Update work on a project: article index](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
       * [Apply statuses to work that is associated with a group](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
       * [Update task status](manage-work/projects/updating-work-in-a-project/update-task-status.md)
       * [Update issue status](manage-work/projects/updating-work-in-a-project/update-issue-status.md)
@@ -1166,7 +1167,7 @@ feature-set: Workfront
       * [Update Condition for tasks and issues](manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md)
       * [Update Condition for a project](manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)
     * Manage projects {#manage-projects} 
-      * [Manage projects](manage-work/projects/manage-projects/manage-projects-overview.md)
+      * [Manage projects: article index](manage-work/projects/manage-projects/manage-projects-overview.md)
       * [Edit projects](manage-work/projects/manage-projects/edit-projects.md)
       * [Copy a project](manage-work/projects/manage-projects/copy-project.md)
       * [Save a project as a template](manage-work/projects/manage-projects/save-project-as-template.md)
@@ -1188,7 +1189,7 @@ feature-set: Workfront
       * [Overview of project metrics](manage-work/projects/manage-projects/project-metrics.md)
       * [Project limits overview](manage-work/projects/manage-projects/project-maximums.md)
     * Create and manage project templates {#create-and-manage-project-templates}
-      * [Create and manage project templates](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
+      * [Create and manage project templates: article index](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
       * [Project template overview](manage-work/projects/create-and-manage-templates/project-template-overview.md)
       * [Create a project template](manage-work/projects/create-and-manage-templates/create-template.md)
       * [Create project templates from examples](manage-work/projects/create-and-manage-templates/create-templates-from-examples.md)
@@ -1205,7 +1206,7 @@ feature-set: Workfront
       * [Overview of Start and Completion Days in a template](manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)
       * [Overview of attaching a template to a project](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
     * Define a Business Case {#define-business-case}
-      * [Define a Business Case](manage-work/projects/define-a-business-case/define-business-case.md)
+      * [Define a Business Case: article index](manage-work/projects/define-a-business-case/define-business-case.md)
       * [Overview of the Areas of the Business Case](manage-work/projects/define-a-business-case/areas-of-business-case.md)
       * [Create a Business Case for a project](manage-work/projects/define-a-business-case/create-business-case.md)
       * [Approve a Business Case](manage-work/projects/define-a-business-case/approve-business-case.md)
@@ -1219,7 +1220,7 @@ feature-set: Workfront
       * [Create and edit risks on projects](manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)
       * [Export the Business Case of a project](manage-work/projects/define-a-business-case/export-business-case.md)
     * Project finances {#project-finances}
-      * [Project finances](manage-work/projects/project-finances/project-finances-overview.md)
+      * [Project finances: article index](manage-work/projects/project-finances/project-finances-overview.md)
       * [Project finances fields](manage-work/projects/project-finances/project-finances-overview-1.md)
       * [Recalculate project finances](manage-work/projects/project-finances/recalculate-project-finances.md)
       * [Project finances included in project baselines](manage-work/projects/project-finances/project-finances-included-in-project-baselines.md)
@@ -1248,7 +1249,7 @@ feature-set: Workfront
       * [Understand Budgeted Labor Cost and Budgeted Hours for projects](manage-work/projects/project-finances/budgeted-labor-cost.md)
       * [Calculate Planned Labor Cost](manage-work/projects/project-finances/planned-labor-cost.md)
     * Tips, tricks, and troubleshooting for projects {#tips-tricks-troubleshooting-for-projects}
-      * [Tips, tricks, and troubleshooting for projects](manage-work/projects/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-for-projects.md)
+      * [Tips, tricks, and troubleshooting: article index](manage-work/projects/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-for-projects.md)
       * [Projects FAQs](manage-work/projects/tips-tricks-and-troubleshooting/projects-faqs.md)
       * [Project status will not change from Complete to Current](manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md)
       * [Calculation example - Calculate EAC as a roll up from tasks](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)
@@ -1735,7 +1736,7 @@ feature-set: Workfront
     * [Resource Utilization](resource-mgmt/resource-utilization/resource-utilization.md)
     * [View resource utilization information](resource-mgmt/resource-utilization/view-utilization-information.md)
   * The Workload Balancer {#the-workload-balancer}
-    * [The Workload Balancer](resource-mgmt/workload-balancer/workload-balancer.md)
+    * [The Workload Balancer: article index](resource-mgmt/workload-balancer/workload-balancer.md)
     * [Overview of the Workload Balancer](resource-mgmt/workload-balancer/overview-workload-balancer.md)
     * [Access needed to manage resources in the Workload Balancer](resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)
     * [Locate the Workload Balancer](resource-mgmt/workload-balancer/locate-workload-balancer.md)
@@ -1893,13 +1894,13 @@ feature-set: Workfront
     * [Tips, tricks, and troubleshooting for approvals](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
     * [View the number of proof and document decisions for all users](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * Timesheets {#timesheets}
-  * [Timesheets](timesheets/timesheets-all.md)
+  * [Timesheets: article index](timesheets/timesheets-all.md)
   * Timesheet details {#details}
-    * [Timesheet details in Adobe Workfront](timesheets/timesheets/timesheets.md)
+    * [Timesheet details: article index](timesheets/timesheets/timesheets.md)
     * [Timesheets overview](timesheets/timesheets/timesheets-overview.md)
     * [Understand the Timesheet layout](timesheets/timesheets/timesheet-layout.md)
-  * Create and manage timesheets in Adobe Workfront {#create-and-manage-timesheets-in-adobe-workfront}
-    * [Create and manage timesheets in Adobe Workfront](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
+  * Create and manage timesheets {#create-and-manage-timesheets-in-adobe-workfront}
+    * [Create and manage timesheets: article index](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
     * [Create, edit, and assign timesheet profiles](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
     * [Define hour types and availability for timesheets](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
     * [Create a single-use timesheet](timesheets/create-and-manage-timesheets/create-tmshts.md)
@@ -1914,10 +1915,10 @@ feature-set: Workfront
     * [Manually generate timesheets](timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
     * [Export a list of timesheets](timesheets/create-and-manage-timesheets/export-timesheets.md)
   * Configure how time is logged {#configure-timesheet-preferences}
-    * [Configure how time is logged](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
+    * [Configure how time is logged: article index](timesheets/config-timesheet-prefs/configure-timesheet-preferences.md)
     * [Configure whether time is logged in hours or days](timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)
   * Tips, tricks, and troubleshooting for timesheets {#tips-tricks-troubleshooting-for-timesheets}
-    * [Tips, Tricks, and Troubleshooting](timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)
+    * [Tips, tricks, and troubleshooting: article index](timesheets/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-timesheets.md)
     * [Correct the start day of the work week for Timesheets](timesheets/tips-tricks-and-troubleshooting/correct-start-day-of-work-week.md)
     * [Prevent the Recalculate Finances action from affecting historic hours when rates change](timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
     * [Track Hour Records with the Adobe Workfront API](timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)

@@ -13,6 +13,13 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 
 <!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
 
+<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
+
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> 
+
+
 >[!IMPORTANT]
 >
 >We are currently redesigning the commenting experience in Adobe Workfront.
@@ -43,7 +50,7 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 
 The Updates section of an object shows system updates, and up to 200 of the most recent updates users made within the past 90 days. 
 
-  ![](assets/updates-tab-after-unified-experience-for-issues.png)
+  <span class="preview">![](assets/updates-tab-after-unified-experience-for-issues.png)</span>
 
 Depending on what objects you access the commenting experience for, you might find the following experience for the Updates section:
 
@@ -83,7 +90,7 @@ Depending on what objects you access the commenting experience for, you might fi
 
 ### Overview of the Updates section in the new commenting experience
 
-![](assets/updates-tab-after-unified-experience-for-tasks.png)
+<span class="preview">![](assets/updates-tab-after-unified-experience-for-tasks.png)</span>
 
 >[!NOTE]
 >
@@ -196,9 +203,6 @@ The following table shows the objects whose comments also display on their highe
  </tbody> 
 </table>
  
-
-<br>
-
 >[!NOTE]
 >
 >Replies added to system updates do not roll up to the parent object. Only direct replies on a child object and replies added to existing updates roll up to parent objects.
@@ -207,7 +211,6 @@ The following table shows the objects whose comments also display on their highe
 >
 > It is not possible to reply to system updates in the new commenting experience. For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-</br>
 
 ## Limitations of the Updates section
 

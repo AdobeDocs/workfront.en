@@ -19,7 +19,7 @@ In this section, you can find information and instructions about first-time setu
 
 This section contains the following articles:
 
-* [Defining objectives for your Adobe Workfront implementation](../../administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md) 
+* [Overview of defining objectives for your Adobe Workfront implementation](../../administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md) 
 * [Manage available licenses in your system](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md) 
 * [Configure basic information for your system](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md) 
 * [Firewall overview](../../administration-and-setup/get-started-wf-administration/firewall-overview.md) 

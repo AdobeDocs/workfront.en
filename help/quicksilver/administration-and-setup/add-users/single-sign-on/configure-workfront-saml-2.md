@@ -15,6 +15,8 @@ exl-id: cf09859c-7d6f-4bf0-9b7f-c57096233c94
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.** </p>
 -->
 
+<!-- Audited: 12/2023 -->
+
 {{important-admin-console-onboard}}
 
 As an Adobe Workfront administrator, you can configure the Workfront web and mobile applications to integrate with a Security Assertion Markup Language (SAML) 2.0 solution for single sign-on (SSO).
@@ -35,9 +37,9 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td><p>New plan: Standard </p>
+   <td><p>New: Standard </p>
        <p>or</p> 
-       <p>Current plan: Plan </p>
+       <p>Current: Plan </p>
    </td> 
   </tr> 
   <tr> 

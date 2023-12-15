@@ -12,6 +12,8 @@ exl-id: f9c782b7-23dc-4fde-83e1-b7ef71a3b741
 ---
 # Workfront Proof: article index
 
+<!-- Audited: 12/2023 -->
+
 >[!IMPORTANT]
 >
 >This article refers to functionality in the standalone product [!DNL Workfront Proof]. For information on proofing inside Adobe Workfront, see [Proofing](../review-and-approve-work/proofing/proofing.md).
