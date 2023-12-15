@@ -39,7 +39,7 @@ For information on related topics, see the following articles:
  </thead> 
  <tbody> 
   <tr> 
-   <td><strong>Licenses</strong</td> 
+   <td><p><strong>Licenses</strong></p></td> 
    <td> <p>The license attached to an access level determines how the access level can be configured.</p> <p>For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Licenses overview</a>.</p> <p><strong>Tip</strong>: You can see which access level and license is assigned to each user by viewing a user list or report. For instructions, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md" class="MCXref xref">List your users' access levels and licenses</a>.</p> </td> 
   </tr> 
   <tr> 
