@@ -494,6 +494,10 @@ To add typeahead date fields:
 
 An external lookup field calls an external API and returns values as options in a dropdown field. Users who work with the object the custom form is attached to can select one or more of these options from the dropdown.
 
+>[!NOTE]
+>
+>External lookup functionality is not available on Document objects.
+
 To add an external lookup:
 
 1. On the left side of the screen, find **External lookup** and drag it to a section on the canvas.
