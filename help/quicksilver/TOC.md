@@ -1430,7 +1430,7 @@ feature-set: Workfront
       * [Define Request Types for a project](manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)
     * Create requests {#create-requests}
       * [Create requests](manage-work/requests/create-requests/create-requests.md)
-      * [Create and submit Adobe Workfront requests](manage-work/requests/create-requests/create-submit-requests.md)
+      * [Create and submit requests](manage-work/requests/create-requests/create-submit-requests.md)
       * [Create requests from drafts](manage-work/requests/create-requests/create-requests-from-drafts.md)
       * [Enable users to email an issue into a Request Queue project](manage-work/requests/create-requests/enable-email-issues-into-projects.md)
       * [Locate submitted requests](manage-work/requests/create-requests/locate-submitted-requests.md)

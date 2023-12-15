@@ -9,6 +9,8 @@ exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
 ---
 # [!DNL Adobe Workfront] objects overview
 
+<!--Audited: 12/2023-->
+
 <!--
 <***Linked to several articles, do not remove/ change. 
 -->

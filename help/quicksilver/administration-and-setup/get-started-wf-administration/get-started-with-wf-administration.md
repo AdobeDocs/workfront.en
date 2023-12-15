@@ -13,6 +13,8 @@ exl-id: 8d5497fa-3432-4188-ad71-92ab91cd19fa
 ---
 # Get started with Adobe Workfront administration: article index
 
+<!--Audited: 12/2023-->
+
 In this section, you can find information and instructions about first-time setup of Adobe Workfront, as well as information that you'll need as a Workfront administrator.
 
 This section contains the following articles:

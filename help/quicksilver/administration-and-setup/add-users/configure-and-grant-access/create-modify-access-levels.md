@@ -11,6 +11,8 @@ exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
 ---
 # Create and modify custom access levels
 
+<!--Audited: 12/2023-->
+
 <!--Don't delete, draft, or change the title of this article. The UI links to it via context-sensitive help. -->
 
 As an Adobe Workfront administrator, you can create custom access levels and apply them to users. As you work with access levels, it is important to understand how they work together with the object permissions that users grant when they share objects with each other. For more information about access levels, see:
@@ -36,9 +38,9 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td>New plan: Standard
+   <td>New: Standard
    <p>or</p>
-   <p>Current plan: Plan</p></td> 
+   <p>Current: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
