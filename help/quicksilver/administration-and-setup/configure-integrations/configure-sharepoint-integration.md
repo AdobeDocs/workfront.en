@@ -47,7 +47,7 @@ You must have the following to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td>New: Standard <p>Or</p><p>Currennt: Plan</p></td> 
+   <td>New: Standard <p>Or</p><p>Current: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
