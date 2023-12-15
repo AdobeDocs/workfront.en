@@ -163,13 +163,13 @@ If you have concerns or issues regarding your limit, please contact Workfront Te
 
 1. Click **Export**, then select a format.
 
-<!--
-This note doesn't seem to be true (I tested with e reviewer and they could export the dashboard and its reports), and there's another article all about exporting dashboards. Lisa 12/23
+   <!--
+   This note doesn't seem to be true (I tested with e reviewer and they could export the dashboard and its reports), and there's another article all about exporting dashboards. Lisa 12/23
    >[!NOTE]
    >
    >To export a Dashboard report, you must have a Plan license.  
    >![](assets/nwe-dashboard-export-note-350x271.png)
--->
+   -->
 
    Or
 
