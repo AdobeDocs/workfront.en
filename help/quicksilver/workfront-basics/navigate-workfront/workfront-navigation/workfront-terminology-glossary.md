@@ -10,6 +10,8 @@ exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 
 # Glossary of [!DNL Adobe Workfront] terminology
 
+<!--Audited: 12/2023-->
+
 >[!IMPORTANT]
 >
 >This article should be used as a reference to understand the terms that you may encounter in the [!DNL Adobe Workfront] application, in the [!DNL Workfront] documentation, or when generally speaking about planning and managing work. We are currently updating this information and as a result this table might not be complete. We will remove this disclaimer when we consider this information exhaustive.

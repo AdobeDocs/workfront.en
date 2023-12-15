@@ -10,6 +10,8 @@ exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
 ---
 # Overview of calculated data expressions
 
+<!--Audited: 12/2023-->
+
 You can use data expressions to define calculated custom fields in Adobe Workfront. Calculated expressions connect existing Workfront fields in statements that generate a new field.
 
 You can use calculated data expressions in:

@@ -175,6 +175,8 @@ To approve a user:
 
 ## Create system administrators in Workfront with the Adobe Admin Console {#create-system-administrators-in-workfront-with-the-adobe-admin-console}
 
+<!--Audited: 12/2023-->
+
 The System Administrator access level is granted only on the Adobe Admin Console. You cannot grant or remove admin access from within Workfront.
 
 You must add a user to your Production instance of Workfront before you can make the user a Workfront system administrator. For instructions, see the section [Create users in Workfront with the Adobe Admin Console](#create-users-in-workfront-with-the-adobe-admin-console) in this article.

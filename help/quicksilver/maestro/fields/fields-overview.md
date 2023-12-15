@@ -52,7 +52,7 @@ You can add new fields in Adobe Maestro that reflect your organization's lifecyc
 
     * Manually:
 
-        * By adding columns in the Table view of a record type page. The columns of the table are the fields associated with the record type. They are the same fields that display on a record's Details page. 
+        * By adding columns in the table view of a record type page. The columns of the table are the fields associated with the record type. They are the same fields that display on a record's Details page. 
         
             You cannot create fields from the Details page of a record.
             

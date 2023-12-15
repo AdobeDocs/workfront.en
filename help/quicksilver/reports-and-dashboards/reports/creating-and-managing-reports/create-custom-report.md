@@ -10,6 +10,8 @@ exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
 
 # Create a custom report
 
+<!--Audited: 12/2023-->
+
 You can provide access to the information your organization needs in Adobe Workfront by creating reports. You can use any of the built-in reports available in Workfront, or you can build your custom reports from scratch.
 
 For more information about built-in reports, see [Use Adobe Workfront built-in reports](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md). 

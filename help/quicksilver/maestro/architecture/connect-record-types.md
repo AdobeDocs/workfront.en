@@ -36,10 +36,10 @@ You can use Adobe Maestro to design fully-customizable workspaces that contain r
 
 You can connect the following: 
 
-* Maestro operational record types 
-* Maestro operational record types to taxonomy record types
-* Maestro taxonomy types to operational record types
-* Maestro operational record types and object types from other applications.
+* Maestro operational record types to one another
+* Maestro taxonomies to one another
+* Maestro operational record types and taxonomies to one another
+* Maestro operational record types and taxonomies with object types from other applications.
 
 By doing this, you can display fields from the linked record or object type on another Maestro record.  
 
@@ -69,7 +69,8 @@ You must have the following access to perform the steps in this article:
    <p> Adobe product</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>To connect Maestro record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets</p>
+   <p><b>NOTE</b></p>
+   <p>To connect Maestro record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console. </p>
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
@@ -117,7 +118,7 @@ After permssions - replace the table with:
 <td>
    <p> Adobe product</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>To connect Maestro record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets</p> </td>
+   <p> Adobe Workfront</p> <p>To connect Maestro record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console.</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
@@ -179,11 +180,7 @@ Consider the following:
     * Two operational record types
     * Two taxonomies
     * An operational record type and a taxonomy
-    * An operational record type and an object type from another application. 
-
-        >[!TIP]
-        >
-        >    You cannot connect a taxonomy record type to an operational record type or to an object type from another application.
+    * An operational record type or a taxonomy and an object type from another application. 
 
 * You can connect the following objects from the following applications with Maestro record types:
 
@@ -197,36 +194,44 @@ Consider the following:
 
     * Adobe Experience Manager Assets:
 
-        * Assets
+        * Images
         * Folders
-        * Collections
+
+        >[!IMPORTANT]
+        >
+        >You must have an Adobe Experience Manager Assets license, and your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console to connect Maestro records to Adobe Experience Manager Assets.
+        >
+        >If you have questions about onboarding to the Adobe Admin Console, see the [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 * After you connect a record type with another record type or with an object type from another application, the following scenarios exist: 
     
-    * When you connect two record types: A Linked record field is created on the record type you're connecting from. A similar Linked record field is created on the record type you are connecting to. 
+    * **When you connect two record types**: A Linked record field is created on the record type you're connecting from. A similar Linked record field is created on the record type you are connecting to. 
 
         For example, if you connect the "Campaign" record type with the "Product" record type, a linked record field that you name "Linked Product" is created on the Campaign record type and a linked record type automatically named "Campaign" is created on the Product record type. 
 
-    * When you connect a record type field with a taxonomy: A linked record field is created on the record type you're connecting from. No linked record field is created on the taxonomy that you are connecting to. 
-
-        For example, if you connect the "Campaign" record type with the "Audience" taxonomy record type, a linked record field that you name "Linked Audience" is created on the Campaign record type. No linked record field automatically named "Campaign" is created on the Audience taxonomy record type. <!--this might be temporary-->
-
-    * When you connect a record type field with an object type from another application: A linked record field is created on the record type you're connecting from. No linked record field is automatically created on the Workfront project in Workfront. A linked record field is created on the Workfront object record type only when actual objects are connected to the Maestro records. 
+    * **When you connect a record type with an object type from another application**: A linked record field is created on the record type you're connecting from. No linked record field is automatically created on the third-party application object. 
+        
+        A new Maestro record type is created for the third-party application object is created only when actual objects are connected to the Maestro records. 
     
         For more information, see [Connect records](../records/connect-records.md). 
+    
+    * **When you add lookup fields from the record or object you connect to**: Linked fields are added to the record you are connecting from that display the lookup fields you selected to bring over from the linked record to the records you're linking from. The the record fields are always read-only and populate automatically with the values of the third-party object. 
 
-* After you connect the record types, you can connect multiple fields from one record type to another record type. We will refer to these fields as "linked fields" or "lookup fields."
-* Linked record fields are preceded by a relationship icon ![](assets/relationship-field-icon.png).
+        For example, if you connect the "Campaign" Maestro record type with a Workfront project and you select to bring the Planned Completion Date field of the project to the Maestro record, a linked field called Planned Completion Date (from Project) is automatically created for the record you are linking from. 
+
+* Linked record fields are preceded by a relationship icon ![](assets/relationship-field-icon.png). 
+    
+    Linked fields are preceded by an icon that identifies the field type. For example, icons that indicate that a field is a number, a paragraph, or a date. 
+
 * After you create individual records for a record type, you can select the records you connect to from the linked record type field. For information, see [Connect records](../records/connect-records.md). 
-* You cannot edit the information of the linked fields from the record type you are linking from, as they automatically populate from the original record type they belong to as soon as you select the linked records.
 
 ## Connect record types
 
 <!--when changes here, also update the article for "Connect records"-->
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/dots-main-menu.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/lines-main-menu.png) in the upper-left corner, then click **[!UICONTROL Maestro]**.
+{{step1-to-maestro}}
 
-    The last-accessed workspace should open by default. 
+   The last-accessed workspace should open by default. 
 
 1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to connect record types from.
 1. Click the card of a record type to open the record type page. 
@@ -236,16 +241,19 @@ Consider the following:
 
 1. In the **Record Type** field, select one of the following: <!--is the field name spelled right? lowercase "t"?-->
 
-    * Another operational record type from the workspace you selected
-    * A taxonomy from the workspace you selected
-    * A Project, Portfolio, Program, Company, or Group from the Workfront Object Types section.
-    * Experience Manager Assets from the Adobe Applications section. 
+    * Another operational record type or a taxonomy from the workspace you selected
+
+        >[!TIP]
+        >
+        >Only record types and taxonomies from the workspace you selected are available to connect to. 
+        > 
+        >If you don't have other record types in the selected workspace, the workspace name does not display. 
+
+    * A **Project, Portfolio, Program, Company**, or **Group** from the **Workfront Object Types** section.
+    * **Experience Manager Assets** from the **Adobe Applications** section. 
 
     ![](assets/new-connection-tab-fields-with-another-record-selected.png)
 
-    >[!TIP]
-    >
-    > Only record types and taxonomies from the selected workspace are available to select.
 
 1. Update the following information: 
 
@@ -269,7 +277,7 @@ Consider the following:
 
 1. Click **Create**.
 
-1. (Conditional) If you selected the **Select lookup field** setting in the previous step, the **Add lookup fields** box opens. 
+1. (Conditional) If you selected the **Select lookup field** setting, the **Add lookup fields** box opens. 
 
     Click the **+** icon  to add fields from the **Unselected fields** area. 
 
@@ -279,10 +287,9 @@ Consider the following:
 
     ![](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
     
-    >[!NOTE]
-    >
-    >If you don't select any of the fields, the **Name** of the linked record is the only visible field in the original record's table view. The **Name** field cannot be removed.
     
+1. (Optional) Click **Skip** and don't add any fields from the linked record or object. The **Name** of the linked record is the only visible field in the original record's table view. 
+
 1. (Optional and conditional) If you select to link a number, currency, percentage, or date-type field, also select an aggregator value. The values for the linked fields display either separated by commas or as a aggregated value according to the aggregator you choose, when users select more than one linked record in the linked record field. 
 
     ![](assets/aggregator-drop-down-for-number-linked-field.png)  
@@ -312,19 +319,17 @@ Consider the following:
 
 1. (Optional) Use the **search** icon ![](assets/search-icon.png) to search for a field.
 
-1. (Optional) Click **Skip** if you don't want to add any fields from the connected record type.
-
 1. Click **Add fields** to save your changes.
 
     The following items are added: 
 
-    * The linked record field that will display the records from the linked record type, after you manually add them. The name of the linked record field is the name you selected in step 6. <!-- ensure this is still accurate--> 
+    * The linked record field that displays the records from the linked record type, after you manually add them. The name of the linked record field is the name you selected in step 5. <!--accurate--> 
     
-    * The linked field (or fields) that will display information from the fields of the linked record type after you manually add the records in the linked record field. The linked fields are created only when the **Select lookup fields** setting is selected when creating the connection. The linked fields are named according to this pattern: 
+    * The linked field (or fields) that display information from the fields of the linked record type after you manually add the records in the linked record field. The linked fields are created only when the **Select lookup fields** setting is selected when creating the connection. The linked fields are named according to this pattern: 
 
         `<Name of the original field on the linked record> (from <Name of your linked field>)`
 
-    * A linked record field on the record type you are linking to. The name of the linked record field on the linked record type is the name of the record type that you link from. 
+    * When you link Maestro record types to one another, a linked record field is also added on the record type you are linking to . The name of the linked record field on the linked record type is the name of the record type that you link from. 
     
         For example, if you link the "Product" record type from the "Campaign" record type and you name the connected field of the Campaign "Linked Product", a "Campaign" linked record field is created for the Product record type. 
 
@@ -335,7 +340,14 @@ Consider the following:
 
     ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
-    To add or remove lookup fields, follow the directions in steps 7-12 above. <!--ensure these step numbers stay accurate--> 
+    To add or remove lookup fields, follow the directions in steps 9-13 above. <!--ensure these step numbers stay accurate--> 
+
+    >[!NOTE]
+    >
+    > You cannot add the lookup fields of the record you link from to the linked record type that indicates an object in a third-party application. 
+    >
+    > For example, you cannot add the lookup field of a "Campaign" Maestro object from the "Campaign" linked record field displayed in the Maestro Project record type when linking to Workfront projects. 
+
     
 1. (Optional) Click the downward-pointing arrow in the header of the linked record field from the record type you are linking from, then click **Delete**. 
 

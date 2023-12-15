@@ -12,6 +12,8 @@ exl-id: 1b425244-e3f3-45a0-8ba1-5fbc7b339c85
 ---
 # Overview of defining objectives for your Adobe Workfront implementation
 
+<!--Audited: 12/2023-->
+
 When implementing Adobe Workfront, it is important to identify the principles of your success criteria. You may want to ask yourself the following questions:
 
 * What is it that you are trying to solve?

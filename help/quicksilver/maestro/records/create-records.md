@@ -175,7 +175,7 @@ You can create records in the table view of a record type page.
 
     >[!NOTE]
     >
-    >  * The Name field is not a mandatory field. However, we recommend that you add a name for the record as it is helpful to identify records when linking records to one another. 
+    >  * There are no mandatory fields for records. However, we recommend that you add a Name for the record as it is helpful to identify records when linking records to one another. 
     >
     >  * Fields that refer to other record types or calculated fields are read-only fields. 
 
