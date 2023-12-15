@@ -445,8 +445,8 @@ feature-set: Workfront
       * [Preview Sandbox environment](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
       * [Custom Refresh Sandbox environment](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
       * [Move objects from one [!DNL Workfront] environment to another](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
-  * Add users {#add-users}
-    * [Add users to Workfront](administration-and-setup/add-users/add-users.md)
+  * User management {#add-users}
+    * [User management: article index](administration-and-setup/add-users/add-users.md)
     * Create and manage users {#create-manage-users}
       * [Manage users](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
       * [Add users](administration-and-setup/add-users/create-and-manage-users/add-users.md)
@@ -1105,8 +1105,8 @@ feature-set: Workfront
       * [Proof a linked asset with the enhanced connector](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
       * [View or download a linked asset with the enhanced connector](documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-view-download-asset.md)
     * Adobe Workfront for Experience Manager Assets and Assets Essentials {#wf-aem-essentials}
-      * [Adobe Workfront for Experience Manager Assets and Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
-      * [Adobe Experience Manager Assets integrations overview](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
+      * [Adobe Workfront for Experience Manager Assets and Assets Essentials: article index](documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
+      * [Overview of Adobe Experience Manager Assets integrations](documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
       * [Link assets and folders from Experience Manager Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
       * [View mapped metadata for Experience Manager Assets or Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
       * [View or download a linked asset from Experience Manager Assets or Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
