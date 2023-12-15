@@ -2,14 +2,26 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Export data
-description: Learn to export report data
+description: You can export Adobe Workfront data from various lists, reports, dashboards, and searches.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
 ---
 # Export data
 
-You can export Adobe Workfront data from various lists, reports, dashboards, and searches. 
+<!-- Audited: 12/2023 -->
+
+You can export Adobe Workfront data from various lists, reports, dashboards, and searches.
+
+Some of the reasons to export data are:
+
+* You want to provide a hard copy of your data to someone outside of Workfront.
+* You want to send the results of a report as an attachment to an external user.
+* You want to create an external back-up of your Workfront data.
+* There is a limit to display only 2,000 results on one page inside the Workfront web application. If your report produces more than 2,000, you can export the report to any of the available formats and view all the results in the report in one list.
+
+You can either export a report manually, from the Workfront interface, or you can schedule a delivery for a report and that report will be sent to you at a later time. For more information on scheduling delivered reports, see [Report delivery overview](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
+
 The information in this article does not apply to the following exports:
 
 * Exporting information from chart reports.
@@ -23,15 +35,6 @@ The information in this article does not apply to the following exports:
 * Exporting information from the Resource Planner.
 
   For more information about exporting the information from the Resource Planner, see "Export Option" in [Resource Planner navigation overview](../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
-
-Some of the reasons to export data are:
-
-* You want to provide a hard copy of your data to someone outside of Workfront.
-* You want to send the results of a report as an attachment to an external user.
-* You want to create an external back-up of your Workfront data.
-* There is a limit to display only 2,000 results on one page inside the Workfront web application. If your report produces more than 2,000, you can export the report to any of the below-mentioned formats and get view all the results in the report in one list.
-
-You can either export a report manually, from the Workfront interface, or you can schedule a delivery for a report and that report will be sent to you at a later time. For more information on scheduling delivered reports, see [Report delivery overview](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
 ## Access requirements
 
@@ -49,29 +52,31 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Review or higher</p> </td> 
+   <td>
+    <p>New: Light or higher</p>
+    <p>or</p>
+    <p>Current: Review or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to export reports</p> <p>View or higher access to the objects you view in a list to export the list</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Reports, Dashboards, and Calendars to export reports</p> <p>View or higher access to the objects you view in a list to export the list</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to a report or dashboard to export the report or the dashboard</p> <p>View or higher permissions to the objects you view in a list to export the list</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View or higher permissions to a report or dashboard to export the report or the dashboard</p> <p>View or higher permissions to the objects you view in a list to export the list</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
 ## Prerequisites
 
 The report must be created before you can export its data.
 
-For more information on creating reports, see [Create a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+For more information on creating reports, see [Create a custom report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) or [Create a copy of a report](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 ## Export formats and limits
-
-* [Export formats](#export-formats) 
-* [Export limits](#export-limits)
 
 ### Export formats {#export-formats}
 
@@ -99,7 +104,7 @@ There are several limitations around the way reports display in Workfront as wel
 
   * For Excel .xls files, this limit is **65,000 rows**.  
   * For Excel .xlsx files, this limit is **100,000 rows**.  
-  * These limits exclude the column headings, as well as rows for groupings in the report. For instance, if you have 6 groupings in a report, and 50,000 rows or data, the exported file will have 50,000 rows.
+  * These limits exclude the column headings, as well as rows for groupings in the report. For instance, if you have 6 groupings in a report, and 50,000 rows of data, the exported file will have 50,000 rows.
 
   >[!IMPORTANT]
   >
@@ -123,11 +128,11 @@ There are several limitations around the way reports display in Workfront as wel
   * An export through an API integration.
   * Data exported through a kick-start.  
 
-    For more information about exporting data via kick-starts, see [Export data from Adobe Workfront via Kick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md)   
+    For more information about exporting data via kick-starts, see [Export data from Adobe Workfront via Kick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
    
     >[!NOTE]
     >
-    >You can export 50,000 rows in a kick-start file, although you can export the data only to an Excel format file.&nbsp;
+    >You can export 50,000 rows in a kick-start file, although you can export the data only to an Excel format file.
 
   * Exporting utilization information for a project.
 
@@ -145,9 +150,6 @@ If you have concerns or issues regarding your limit, please contact Workfront Te
 
 ## Export data
 
-* [Export data from a report or list](#export-data-from-a-report-or-list) 
-* [Export data from a dashboard](#export-data-from-a-dashboard)
-
 ### Export data from a report or list {#export-data-from-a-report-or-list}
 
 1. Go to the report or list you want to export.
@@ -161,14 +163,17 @@ If you have concerns or issues regarding your limit, please contact Workfront Te
 
 1. Click **Export**, then select a format.
 
+<!--
+This note doesn't seem to be true (I tested with e reviewer and they could export the dashboard and its reports), and there's another article all about exporting dashboards. Lisa 12/23
    >[!NOTE]
    >
    >To export a Dashboard report, you must have a Plan license.  
    >![](assets/nwe-dashboard-export-note-350x271.png)
+-->
 
    Or
 
-   Click the **Export** icon ![](assets/export-icon-nwe.png), then select a format.
+   Click the **Export** icon ![Export icon](assets/export-icon-nwe.png), then select a format.
 
    The options available to you for PDF export depend on the locale settings in your Workfront user settings:
 
@@ -206,21 +211,18 @@ For more information about exporting data from a dashboard, see [Export a dashbo
 
 Whether you export a list of objects or a report, your exported file will have a file name and a title. You can find the exported file on your computer by referring to the file name. The title of the report will give users an indication of what the exported file represents when you share it with them.
 
-* [File names for exported lists](#file-names-for-exported-lists) 
-* [File names for exported reports](#file-names-for-exported-reports)
-
 #### File names for exported lists {#file-names-for-exported-lists}
 
 When you export a list of objects, the type of the object is displayed on the exported file in the file name and in the title of the list.
 
 When you export a list of task or issues, the **File Name** can be one of the following:
 
-* When you export Task and Issue Lists in a Project:
+* When you export task and issue lists in a project:
 
   * *The_project_name_Exported_Tasks*(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
   * *The_project_name_Exported_Issues*(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
 
-* When you export Task and Issue Lists in a Task (subtasks):
+* When you export task and issue lists in a task (subtasks):
 
   * **The_project_name_the_task_name_Exported_Tasks**(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
   * **The_project_name_the_task_name_Exported_Issues**(*in PDF, Excel, Excel (.xlsx), or Tab delimited formats)*
@@ -239,19 +241,16 @@ When you export a report, the file name of the exported report is:
 
 ### Titles {#titles}
 
-When you export a list of objects, only the file in the PDF format will have a title. If you export a list or a report to Excel, Excel (.xlsx), or Tab delimited formats, the file does not have a title.
-
-* [Titles for exported lists](#titles-for-exported-lists) 
-* [Titles for exported reports](#titles-for-exported-reports)
+When you export a list of objects, only the file in the PDF format will have a title. If you export a list or a report to Excel, Excel (.xlsx), or Tab Delimited formats, the file does not have a title.
 
 #### Titles for exported lists {#titles-for-exported-lists}
 
-When you export Task and Issue&nbsp;Lists in a Project to a PDF file, the title of the exported document is one of the following:
+When you export task and issue lists in a project to a PDF file, the title of the exported document is one of the following:
 
 * *Project name - Exported Tasks* 
 * *Project name - Exported Issues*
 
-When you export Task and Issue lists in a Task to a PDF file, the tile of the exported document is one of the following:
+When you export task and issue lists in a task to a PDF file, the tile of the exported document is one of the following:
 
 * *Project name - Task Name - Exported Tasks* 
 * *Project name - Task Name - Exported Issues*
@@ -264,11 +263,11 @@ For example, the title may be:
 
 #### Titles for exported reports {#titles-for-exported-reports}
 
-A report which is exported to a PDF file will have a title.
+A report that is exported to a PDF file will have a title.
 
-If the report is exported to Excel, Excel (.xlsx) or Tab delimited formats, the exported report will not have a title. The title of the exported file is the name of the report as it appears in the Workfront web application.
+If the report is exported to Excel, Excel (.xlsx) or Tab Delimited formats, the exported report will not have a title. The title of the exported file is the name of the report as it appears in the Workfront web application.
 
-If the report has a description, it will be included in the exported file.
+If the report has a description, it is included in the exported file.
 
 ### Timestamps {#timestamps}
 
@@ -291,7 +290,7 @@ When you export a project to .pdf, any subtasks are displayed as indented to the
 
 You always receive the default tab of a report when a report is sent or scheduled for a delivery, unless the report has a special view.
 
-If your report has special formatting in the web application, the report should be delivered with the special formatting when the Details and the Matrix tabs are delivered for .pdf and Excel files only.
+If your report has special formatting in the web application, the report should be delivered with the special formatting when the Details and the Matrix tabs are delivered, for .pdf and Excel files only.
 
 >[!NOTE]
 >
@@ -309,17 +308,21 @@ Links can point to any object in Workfront that supports linking. When you expor
 >
 >For example, if you have a custom field called Open Q1 Projects that contains links, you would add the following code: 
 >
->```
->link.url=customDataLabelsAsString(Open Q1 Projects)
->linkedname=direct
->```
+>`link.url=customDataLabelsAsString(Open Q1 Projects)`
+>`linkedname=direct`
 
 When you export to an Excel format, only links to objects within Workfront are included in the exported file and they are only supported in places where you can select to allow links in exported Excel documents, such as report deliveries.
 
 ## Branding {#branding}
 
+>[!IMPORTANT]
+>
+>Branding applies only to organizations that are not yet onboarded to Adobe Experience Cloud.
+>
+>If your organization has been onboarded to Adobe Experience Cloud, branding is not available.
+
 If your Workfront administrator has added customized branding to your Workfront instance for the Global Navigation Bar, the exported .pdf files also include your personalized logo.
 
-Data which is exported in any other formats cannot be personalized with your logo.
+Data that is exported in any other formats cannot be personalized with your logo.
 
 For more information about branding your Workfront instance and the Global Navigation Bar, see [Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md).
