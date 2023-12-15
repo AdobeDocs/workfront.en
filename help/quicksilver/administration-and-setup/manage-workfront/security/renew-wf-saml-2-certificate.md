@@ -83,7 +83,13 @@ To review the warning message and acknowledge the update of the SAML 2.0 metadat
 1. (Conditional) If the Assertion Consumer Service (ACS) URL or Reply URL has changed in your identity provider, change it back to the URL you copied in Step 5.
 1. In Workfront, on the **Single Sign-on (SSO) page**, make sure that this option is selected: **The new Workfront certificate has already been uploaded to the Identity Provider**.
 
-   When this field is selected, Workfront administrators can log in to Workfront with their SSO credentials or their Workfront credentials.
+   >[!NOTE]
+   >
+   >* This option is visible only if all of the following apply:
+   >   * Your organization is already set up for SAML 2.0
+   >   * The current certificate is ready to expire
+   >   * The new certificate is available
+   >* When this field is selected, Workfront administrators can log in to Workfront with their SSO credentials or their Workfront credentials.
 
 1. Click **Save**.
 
