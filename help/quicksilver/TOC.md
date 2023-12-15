@@ -1628,7 +1628,7 @@ feature-set: Workfront
       * [View: user personal time off](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-personal-time-off.md)
       * [Chart a report by a multi-select custom field](reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md)
     * Text Mode resources {#text-mode}
-      * [Text Mode resources](reports-and-dashboards/reports/text-mode/text-mode-resources.md)
+      * [Text Mode resources: article index](reports-and-dashboards/reports/text-mode/text-mode-resources.md)
       * [Text Mode overview](reports-and-dashboards/reports/text-mode/understand-text-mode.md)
       * [Overview of common uses for Text Mode](reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
       * [Text mode syntax overview](reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
