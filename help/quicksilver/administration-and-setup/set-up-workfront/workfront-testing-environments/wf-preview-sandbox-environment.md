@@ -12,6 +12,8 @@ exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
 ---
 # The [!DNL Adobe Workfront] Preview Sandbox Environment
 
+<!-- Audited: 12/2023 -->
+
 There are two testing environments for [!DNL Workfront] that are replicas of your [!DNL Workfront] production environment:
 
 * The Preview Sandbox

@@ -9,6 +9,8 @@ exl-id: bdcf315c-5710-41dc-8528-0634e89907df
 ---
 # Overview of Adobe Experience Manager Assets integrations
 
+<!-- Audited: 12/2023 -->
+
 The integration between Workfront and Experience Manager Assets or Assets Essentials helps organizations improve content velocity and time-to-market by intrinsically connecting work and digital asset management.
 
 >[!IMPORTANT]

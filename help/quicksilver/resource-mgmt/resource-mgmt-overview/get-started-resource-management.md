@@ -10,6 +10,8 @@ exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
 ---
 # Get started with Resource Management
 
+<!-- Audited: 12/2023 -->
+
 <!--
 <p>(NOTE: DO NOT DELETE THIS ARTICLE. MANY ARTICLES MENTIONING RES MANAGEMENT ARE AND STILL SHOULD / WILL BE LINKED TO IT.) </p>
 <p>(NOTE: Alina: ***As functionality is removed from Legacy and added to Res Planning - this will be continually updated: remove the Legacy Res Planning when that functionality is removed from the system.) </p>
