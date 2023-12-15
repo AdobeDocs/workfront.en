@@ -108,7 +108,7 @@ For information about scheduling your resources, see the articles in the [The Wo
 
 Workfront will calculate the planned costs for each task and the overall costs for a project. Planned costs for a task include all expenses of the task plus the cost of the employee or role assigned to the task. Hourly rates for the task, role, and employee are assigned during task, role, and user creation.
 
-For information about project finances, see the section [Project finances](../../../manage-work/projects/project-finances/project-finances-overview.md) .
+For information about project finances, see the section [Project finances: article index](../../../manage-work/projects/project-finances/project-finances-overview.md).
 
 ## Determine approval points for the project
 

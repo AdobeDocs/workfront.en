@@ -97,7 +97,7 @@ Each icon takes you to a different area of the new [!DNL Adobe Workfront] experi
      <li>[!UICONTROL Requests]: <a href="../../manage-work/requests/create-requests/create-requests.md" class="MCXref xref">Create requests</a></li> 
      <li>[!UICONTROL Timesheets]: <a href="../../timesheets/timesheets-all.md" class="MCXref xref">Timesheets: article index</a></li> 
      <li>[!UICONTROL Documents]: <a href="../../documents/documents-overview.md" class="MCXref xref">Documents</a></li> 
-     <li>[!UICONTROL Templates]: <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">Create and manage project templates</a></li> 
+     <li>[!UICONTROL Templates]: <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">Create and manage project templates: article index</a></li> 
      <li>[!UICONTROL Analytics]: <a href="../../enhanced-analytics/enhanced-analytics-overview.md" class="MCXref xref">Enhanced analytics overview</a></li> 
      <li>[!UICONTROL Goals]: <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] overview</a></li> 
      <li>[!UICONTROL Scenarios]: <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Scenario Planner overview</a></li> 

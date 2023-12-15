@@ -18,11 +18,9 @@ The purpose of the [!UICONTROL portfolio optimizer] is to provide an interface t
 
 The [!UICONTROL Portfolio Optimizer] can only assist you if you have completed the following prerequisites:
 
-
-* The [!UICONTROL Business Cases] have been completed on the projects. For information, see the articles in the seection [Define a Business Case](../../projects/define-a-business-case/define-business-case.md). 
-* A portfolio is defined in the Project Overview area of Project Details section for the projects you want to review
-* You have indicated the Project Budget and Planned Benefit for the projects you want to review. Fixed Cost and Fixed Revenue are optional but add additional value. For information, see [Project finances fields](../../projects/project-finances/project-finances-overview-1.md). 
-
+* The [!UICONTROL Business Cases] have been completed on the projects. For information, see the articles in [Define a Business Case: article index](../../projects/define-a-business-case/define-business-case.md).
+* A portfolio is defined in the Project Overview area of Project Details section for the projects you want to review.
+* You have indicated the Project Budget and Planned Benefit for the projects you want to review. Fixed Cost and Fixed Revenue are optional but add additional value. For information, see [Project finances fields](../../projects/project-finances/project-finances-overview-1.md).
 
 For information about locating the [!UICONTROL Portfolio Optimizer], see [Locate the [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/locate-portfolio-optimizer.md).
 
