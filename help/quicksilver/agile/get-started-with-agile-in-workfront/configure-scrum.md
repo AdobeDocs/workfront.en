@@ -9,7 +9,20 @@ exl-id: 7509608e-96af-4601-80d4-791ee29046da
 ---
 # Configure [!UICONTROL Scrum]
 
-You can configure the following options for agile teams during or after the team is created. You create an agile team (Kanban or Scrum) in [!DNL Adobe Workfront] as described in [Create an agile team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+You can create an agile team in [!DNL Adobe Workfront] as described in [Create an agile team](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md). While creating an agile team you can choose the methodology that the team uses to complete their work. You can choose from the following options:
+
+* Scrum
+* Kanban
+
+This article describes how to configure the settings for a Scrum team. After you create an agile team and choose the Scrum methodology, you can refer to this article to update the following settings:
+
+* Whether stories are estimated in points or hours
+* The status columns on the agile story board  for iterations and projects
+* Additional fields to display on story cards on the agile story board
+* How color indicators are used for stories on the agile story board
+* How dates are applied when adding work items to an iteration
+
+For information about configuring a Kanban team, see [Configure Kanban](/help/quicksilver/agile/get-started-with-agile-in-workfront/configure-kanban.md). 
 
 ## Access requirements
 
@@ -22,17 +35,26 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
    <td> <p>Any</p> </td> 
   </tr> 
+  
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Work] or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>New: [!UICONTROL Standard]</p> 
+   or
+   <p>Current: [!UICONTROL Work] or higher</p> </td> 
+  </tr>
+
+  <tr> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Teams</p>  </td> 
   </tr> 
+
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
+*To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
 
 ## Configure whether stories are estimated in points or hours
 
