@@ -10,6 +10,8 @@ exl-id: 30d1c60d-0632-4a32-b7e7-a9f8e81bf727
 ---
 # Overview of task dependency types
 
+<!-- Audited: 12/2023 -->
+
 Dependency Types refer to the predecessor relationships between tasks. They define when the dependent task can start or finish based on the start or finish of its predecessor.
 
 >[!IMPORTANT]

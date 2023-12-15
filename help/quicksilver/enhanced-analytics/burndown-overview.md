@@ -10,6 +10,8 @@ exl-id: e67c92d5-b309-406b-b6f0-4d414d0e7dcc
 ---
 # View the Burndown visualization in Enhanced analytics
 
+<!-- Audited: 12/2023 -->
+
 The Burndown visualization shows a specific project's burndown over time and helps you understand the relationship between project condition, velocity, and remaining hours—or days.
 
 ![Enhanced analytics burndown example](assets/burndown120623.png)

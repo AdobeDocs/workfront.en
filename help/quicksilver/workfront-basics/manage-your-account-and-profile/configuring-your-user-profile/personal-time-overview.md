@@ -10,6 +10,8 @@ exl-id: e7710495-c418-47b1-8598-725580054fc5
 ---
 # Configure personal time off
 
+<!-- Audited: 12/2023 -->
+
 [!DNL Adobe Workfront] is not designed to replicate or replace your existing systems for managing, accruing, and tracking personal time off.
 
 However, it is important to indicate when approved time off happens, because this affects both your schedule and the [!UICONTROL Planned Completion Dates] of the tasks you are assigned to.

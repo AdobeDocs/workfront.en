@@ -271,8 +271,8 @@ The following are the highest access settings available for objects in the Contr
 
 | Workfront object type |No access |View access |Edit access |
 |---|---|---|---|
-| Project |&nbsp; |✓ (Only the Project Details page) |&nbsp; |
-| Task |&nbsp; |✓(Only the Details page) |&nbsp; |
+| Project |&nbsp; |✓ |&nbsp; |
+| Task |&nbsp; |✓ |&nbsp; |
 | Issue |&nbsp; |&nbsp; |✓ |
 | Portfolios |✓ |&nbsp; |&nbsp; |
 | Programs |✓ |&nbsp; |&nbsp; |

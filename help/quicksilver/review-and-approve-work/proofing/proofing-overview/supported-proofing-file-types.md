@@ -10,6 +10,8 @@ exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
 ---
 # Supported proofing file types and size limits overview
 
+<!--Audited: 12/2023-->
+
 You can share and review various types of files with your reviewers, even if they do not have the software used to create the files (such as Photoshop or Illustrator) installed on their machines. We support static, video, audio, web capture, and interactive file types up to 4 GB in size.
 
 ## File size limits

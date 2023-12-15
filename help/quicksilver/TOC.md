@@ -1126,9 +1126,9 @@ feature-set: Workfront
 * Manage Work {#manage-work}
   * [Manage work](manage-work/manage-work.md)
   * Projects {#projects}
-    * [Projects](manage-work/projects/projects-overview.md)
+    * [Projects: article index](manage-work/projects/projects-overview.md)
     * Plan a project {#plan-a-project}
-      * [Plan a project](manage-work/projects/planning-a-project/plan-project-overview.md)
+      * [Plan a project: article index](manage-work/projects/planning-a-project/plan-project-overview.md)
       * [Plan a project overview](manage-work/projects/planning-a-project/plan-project.md)
       * [Determine Work Breakdown Structure in a project](manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md)
       * [Project Team overview](manage-work/projects/planning-a-project/project-team-overview.md)
@@ -1149,14 +1149,14 @@ feature-set: Workfront
       * [Project Progress Status overview](manage-work/projects/planning-a-project/project-progress-status.md)
       * [Overview of the project Projected Start Date](manage-work/projects/planning-a-project/project-projected-start-date.md)
     * Create projects {#create-projects}
-      * [Create projects](manage-work/projects/create-projects/create-projects-overview.md)
+      * [Create projects: article index](manage-work/projects/create-projects/create-projects-overview.md)
       * [Create a project](manage-work/projects/create-projects/create-project.md)
       * [Request a project](manage-work/projects/create-projects/request-project.md)
       * [Create a project using a template](manage-work/projects/create-projects/create-project-from-template.md)
       * [Import a project from Microsoft Project](manage-work/projects/create-projects/import-project-from-ms-project.md)
       * [Create project baselines](manage-work/projects/create-projects/create-baselines.md)
     * Update work on a project {#update-work-on-a-project}
-      * [Update work on a project](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
+      * [Update work on a project: article index](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
       * [Apply statuses to work that is associated with a group](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
       * [Update task status](manage-work/projects/updating-work-in-a-project/update-task-status.md)
       * [Update issue status](manage-work/projects/updating-work-in-a-project/update-issue-status.md)
@@ -1167,7 +1167,7 @@ feature-set: Workfront
       * [Update Condition for tasks and issues](manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md)
       * [Update Condition for a project](manage-work/projects/updating-work-in-a-project/update-condition-on-project.md)
     * Manage projects {#manage-projects} 
-      * [Manage projects](manage-work/projects/manage-projects/manage-projects-overview.md)
+      * [Manage projects: article index](manage-work/projects/manage-projects/manage-projects-overview.md)
       * [Edit projects](manage-work/projects/manage-projects/edit-projects.md)
       * [Copy a project](manage-work/projects/manage-projects/copy-project.md)
       * [Save a project as a template](manage-work/projects/manage-projects/save-project-as-template.md)
@@ -1189,7 +1189,7 @@ feature-set: Workfront
       * [Overview of project metrics](manage-work/projects/manage-projects/project-metrics.md)
       * [Project limits overview](manage-work/projects/manage-projects/project-maximums.md)
     * Create and manage project templates {#create-and-manage-project-templates}
-      * [Create and manage project templates](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
+      * [Create and manage project templates: article index](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
       * [Project template overview](manage-work/projects/create-and-manage-templates/project-template-overview.md)
       * [Create a project template](manage-work/projects/create-and-manage-templates/create-template.md)
       * [Create project templates from examples](manage-work/projects/create-and-manage-templates/create-templates-from-examples.md)
@@ -1206,7 +1206,7 @@ feature-set: Workfront
       * [Overview of Start and Completion Days in a template](manage-work/projects/create-and-manage-templates/overview-of-start-completion-day-on-template.md)
       * [Overview of attaching a template to a project](manage-work/projects/create-and-manage-templates/attach-template-to-project-overview.md)
     * Define a Business Case {#define-business-case}
-      * [Define a Business Case](manage-work/projects/define-a-business-case/define-business-case.md)
+      * [Define a Business Case: article index](manage-work/projects/define-a-business-case/define-business-case.md)
       * [Overview of the Areas of the Business Case](manage-work/projects/define-a-business-case/areas-of-business-case.md)
       * [Create a Business Case for a project](manage-work/projects/define-a-business-case/create-business-case.md)
       * [Approve a Business Case](manage-work/projects/define-a-business-case/approve-business-case.md)
@@ -1220,7 +1220,7 @@ feature-set: Workfront
       * [Create and edit risks on projects](manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)
       * [Export the Business Case of a project](manage-work/projects/define-a-business-case/export-business-case.md)
     * Project finances {#project-finances}
-      * [Project finances](manage-work/projects/project-finances/project-finances-overview.md)
+      * [Project finances: article index](manage-work/projects/project-finances/project-finances-overview.md)
       * [Project finances fields](manage-work/projects/project-finances/project-finances-overview-1.md)
       * [Recalculate project finances](manage-work/projects/project-finances/recalculate-project-finances.md)
       * [Project finances included in project baselines](manage-work/projects/project-finances/project-finances-included-in-project-baselines.md)
@@ -1249,7 +1249,7 @@ feature-set: Workfront
       * [Understand Budgeted Labor Cost and Budgeted Hours for projects](manage-work/projects/project-finances/budgeted-labor-cost.md)
       * [Calculate Planned Labor Cost](manage-work/projects/project-finances/planned-labor-cost.md)
     * Tips, tricks, and troubleshooting for projects {#tips-tricks-troubleshooting-for-projects}
-      * [Tips, tricks, and troubleshooting for projects](manage-work/projects/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-for-projects.md)
+      * [Tips, tricks, and troubleshooting: article index](manage-work/projects/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-for-projects.md)
       * [Projects FAQs](manage-work/projects/tips-tricks-and-troubleshooting/projects-faqs.md)
       * [Project status will not change from Complete to Current](manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md)
       * [Calculation example - Calculate EAC as a roll up from tasks](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)
@@ -1430,7 +1430,7 @@ feature-set: Workfront
       * [Define Request Types for a project](manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)
     * Create requests {#create-requests}
       * [Create requests](manage-work/requests/create-requests/create-requests.md)
-      * [Create and submit Adobe Workfront requests](manage-work/requests/create-requests/create-submit-requests.md)
+      * [Create and submit requests](manage-work/requests/create-requests/create-submit-requests.md)
       * [Create requests from drafts](manage-work/requests/create-requests/create-requests-from-drafts.md)
       * [Enable users to email an issue into a Request Queue project](manage-work/requests/create-requests/enable-email-issues-into-projects.md)
       * [Locate submitted requests](manage-work/requests/create-requests/locate-submitted-requests.md)
@@ -1628,7 +1628,7 @@ feature-set: Workfront
       * [View: user personal time off](reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-user-personal-time-off.md)
       * [Chart a report by a multi-select custom field](reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md)
     * Text Mode resources {#text-mode}
-      * [Text Mode resources](reports-and-dashboards/reports/text-mode/text-mode-resources.md)
+      * [Text Mode resources: article index](reports-and-dashboards/reports/text-mode/text-mode-resources.md)
       * [Text Mode overview](reports-and-dashboards/reports/text-mode/understand-text-mode.md)
       * [Overview of common uses for Text Mode](reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)
       * [Text mode syntax overview](reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)

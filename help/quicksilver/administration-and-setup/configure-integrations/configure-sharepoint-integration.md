@@ -11,6 +11,8 @@ exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
 ---
 # Configure the [!DNL SharePoint] integration
 
+<!--Audited: 12/2023-->
+
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
@@ -45,7 +47,7 @@ You must have the following to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td>New: Standard <p>Or</p><p>Current: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 

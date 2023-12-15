@@ -10,6 +10,8 @@ exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
 ---
 # Adobe Workfront built-in integrations overview
 
+<!-- Audited: 12/2023 -->
+
 You can integrate [!DNL Adobe Workfront] with third-party applications, as well as other [!DNL Adobe] products. These integrations can extend the utility of [!DNL Workfront] and tailor it to the needs of your organization. For example, if you are a creative worker in the marketing industry, you can use the [!DNL Adobe Workfront] plugin for [!DNL Creative Cloud] applications to export assets directly from Photoshop to Workfront.
 
 Your [!DNL Workfront] administrator must enable and configure built-in integrations before you can use them. To learn which built-in integrations are used within your organization, contact your [!DNL Workfront] administrator.
