@@ -134,13 +134,13 @@ You can add up to 500 fields (or columns) in a table view.
 
         >[!TIP]
         >
-        >* The Name field is always the first field in the table view.
+        >* The Name field is always the first field in the table view, by default. This is considered a primary field. 
         >
-        >* You cannot move the Name field to another position.
+        >* You cannot move the Name field to another position, unless you designate another field as the primary field. For more information, continue with Step 4. <!--accurate?-->
         >
-        >* You cannot hide the Name field. 
+        >* You cannot hide or delete a primary field. 
         >
-        >* The Name field is frozen and is not part of the horizontal scroll.
+        >* The primary field is frozen and is not part of the horizontal scroll.
  
     * Replace the field in the first column with another field by changing the primary field. For more information, continue to step 4. <!--accurate?-->
 
@@ -191,11 +191,13 @@ You can add up to 500 fields (or columns) in a table view.
 
 1. Do the following to quickly find records that match a keyword:
 
-    1. Click the **search** icon ![](assets/search-icon.png) and start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the field with the correct match is highlighted in blue. 
+    1. Click the **search** icon ![](assets/search-icon.png) and start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the field with the correct match is highlighted. 
 
         You can use any word or special character that is visible on the screen. 
     
         You cannot use keywords that are associated with fields that are hidden in the table view. 
+
+        Pressing Enter on your keyboard takes you to the next found field. 
 
         ![](assets/search-box-with-results-blue-outline-table-view.png)
 

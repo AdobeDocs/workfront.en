@@ -9,6 +9,8 @@ exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
 ---
 # Get started with the new Home
 
+<!--Audited: 12/2023-->
+
 The new Home experience in Adobe Workfront aims to improve the current Home experience while providing a more flexible way for you to focus on the right work.
 
 The new Home is a powerful new feature for managing your work. You can customize this flexible space to highlight the work that is most important to you and streamline your task, issue, request, and approval management.

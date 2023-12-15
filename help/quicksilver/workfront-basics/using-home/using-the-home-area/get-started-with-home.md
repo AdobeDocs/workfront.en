@@ -9,6 +9,8 @@ exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
 ---
 # Get started with [!UICONTROL Home]
 
+<!--Audited: 12/2023-->
+
 This article describes an overview of the current [!UICONTROL Home] area in [!DNL Adobe Workfront]. For information about working in the new [!UICONTROL Home], see [Get started with New Home](../new-home/get-started-with-new-home.md).
 
 There are two ways to view your work in the current [!UICONTROL Home] area:

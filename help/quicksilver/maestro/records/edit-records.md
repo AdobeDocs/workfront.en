@@ -160,9 +160,9 @@ You can edit a record from the following areas:
 
 ### Edit a record from the record's Details page
 
-1. Click the **Main Menu** ![](assets/main-menu-workfront.png) in the upper-right corner, or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available, then click **Maestro**. 
+{{step1-to-maestro}}
 
-    The workspace that you access last opens. 
+The workspace that you access last opens. 
 
 1. (Optional) Click the downward-pointing arrow to the right of the workspace name to select the workspace whose records you want to update. 
 1. Do one of the following:

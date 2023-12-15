@@ -27,6 +27,8 @@ For information about configuring a Scrum team, see [Configure Scrum](../get-sta
 
 ## Access requirements
 
+<!--Audited: 12/2023-->
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
