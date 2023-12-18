@@ -17,7 +17,7 @@ As an Adobe Workfront administrator, you can access information about your Workf
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto">
  <col> 
