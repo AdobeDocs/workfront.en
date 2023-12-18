@@ -464,7 +464,7 @@ feature-set: Workfront
       * [Audit logs](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
       * [View and export audit logs](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
       * [View user login information](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
-      * [Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
+      * [Manage users in the Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
     * How new access levels work {#access-levels}
       * [How new access levels work](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
       * [New access levels overview](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
