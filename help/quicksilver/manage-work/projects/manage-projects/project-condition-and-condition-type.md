@@ -10,6 +10,8 @@ exl-id: 0c847b26-b0cb-49bb-84be-32534c72d5b6
 ---
 # Overview of Project Condition and Condition Type
 
+<!-- Audited: 12/2023 -->
+
 The project Condition is a visual representation of how the project is progressing. It is a reportable variable determined by the relationship between the planned, projected, and estimated dates of the project.
 
 ## Project Condition overview
@@ -18,8 +20,8 @@ Consider the following in understanding the Condition of a project:
 
 * As the project owner, you can decide whether the Condition of a project is set manually or automatically. The Condition of a project can be set in the following ways:
 
-   * Manually, by users who have access to Manage the project and when the Condition Type of the project is set to Manual.
-   * Automatically, by Adobe Workfront, when the Condition Type of the project is set to Progress Status. The Progress Status of the project is determined by the progress of the tasks on the project. For information about the Progress Status of the project, see [Project Progress Status overview](../../../manage-work/projects/planning-a-project/project-progress-status.md).
+   * Manually by users who have access to Manage the project and when the Condition Type of the project is set to Manual.
+   * Automatically by Adobe Workfront, when the Condition Type of the project is set to Progress Status. The Progress Status of the project is determined by the progress of the tasks on the project. For information about the Progress Status of the project, see [Project Progress Status overview](../../../manage-work/projects/planning-a-project/project-progress-status.md).
 
   For information about how to update the Condition Type of the project, see [Set the Condition Type of a project](../../../manage-work/projects/manage-projects/set-condition-type-for-project.md).
 
@@ -67,14 +69,14 @@ In this case, the values for the Project Condition can be:
  <col> 
  <tbody> 
   <tr> 
-   <td>Project&nbsp;Condition</td> 
-   <td>Project Progress Status</td> 
-   <td>Workfront Condition Indicator</td> 
+   <td><strong>Project Condition</strong></td> 
+   <td><strong>Project Progress Status</strong></td> 
+   <td><strong>Workfront Condition Indicator</strong></td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td>On Target</td> 
-   <td> <li>When Progress Status of the project of On Time, the Condition of the project is <strong>On Target</strong>.</li> </td> 
+   <td>When Progress Status of the project of On Time, the Condition of the project is <strong>On Target</strong>. </td> 
    <td> <img src="assets/on-target-condition-icon.png"> </td> 
    <td>&nbsp;</td> 
   </tr> 

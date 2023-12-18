@@ -10,6 +10,8 @@ exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
 ---
 # Resource Planner overview
 
+<!-- Audited: 12/2023 -->
+
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Alina: this used to be the beginning of Planning in the Resource Planner - consider restructuring it further? Merging some of this information with information about Understanding Navigation in the RP?!)</p>
 -->
@@ -34,9 +36,9 @@ You can view information in the Resource Planner using three separate views. You
 
 * To view the following information using the User view:
 
-   * the availability of your users according to their schedule
-   * the planned amount of time needed to complete the work according to the project plan. 
-   * the amount of time that users have already logged on actual work items.
+   * The availability of your users according to their schedule
+   * The planned amount of time needed to complete the work according to the project plan 
+   * The amount of time that users have already logged on actual work items
 
   For more information about viewing Available, Planned, and Actual Hours or FTE for users in the Resource Planner, see the article [View Available, Planned, and Actual Hours or FTE in the Resource Planner when using the User view](../../resource-mgmt/resource-planning/view-hours-fte-user-view-resource-planner.md#using).
 
