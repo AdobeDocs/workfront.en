@@ -8,12 +8,18 @@ description: Workfront documentation how-to articles contain a table that explai
 author: Becky
 feature: System Setup and Administration
 role: Admin
+hide: yes
+hidefromtoc: yes
 ---
 # Access levels Requirements in Workfront documentation
 
-Workfront documentation how-to articles contain a table that explains the access and permissions requirements needed for that procedure. This allows users to understand whether they can perform a certain action in Workfront, and why they might not be able to. This article explains each element of the Access requirements table, and provides troubleshooting tips and links to more in-depth information.
+Workfront documentation how-to articles contain a table that explains the access and permissions requirements needed for that procedure. This Access requirements table allows you to understand whether you can perform a certain action in Workfront, or why you might not be able to. This article explains each element of the Access requirements table, and provides troubleshooting tips and links to more in-depth information.
 
 If a row is absent from the Access requirements table in a given article, there are no requirements of that type for that action.
+
+>[!NOTE]
+>
+>If you have questions about how any of the fields in this table apply to you, contact your Workfront administrator.
 
 ## The Access requirements table
 
@@ -23,13 +29,13 @@ If a row is absent from the Access requirements table in a given article, there 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td> Adobe Workfront plans refer to the set of features and functionalities that your organization has purchased. Most Workfront functionality is available in all plans, with a few exceptions, mostly related to strategic planning and enterprise controls. 
+   <td> Adobe Workfront plans refer to the set of features that your organization has purchased. Most Workfront functionality is available in all plans, with a few exceptions, mostly related to strategic planning and enterprise controls. 
    <ul><li>To find out what Adobe Workfront plan your organization uses, including whether your organization is under the new or current packaging model, contact your Workfront administrator.</li>
    <li>For instructions on how a Workfront Administrator can locate your organization's Workfront plan, see <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">View your organization's cluster and Workfront plan</a>.</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> Adobe Workfront licenses refer to the set of Workfront features and functionalities in which an individual user can perform actions. For example, one user might have a license that includes marking work items complete and logging time, while another user has a license that allows them only to approve assets or submit requests. <p> 
+   <td> Adobe Workfront licenses refer to the set of Workfront features included with the license assigned to you. For example, one user might have a license that includes marking work items complete and logging time, while another user has a license that allows them only to approve assets or submit requests. <p> 
    <ul>
    <li>To find out which license you are assigned, contact your Workfront administrator.</li>
    <li>Adobe Workfront is transitioning to a new pricing and packaging model. For information about licenses see:
@@ -42,31 +48,32 @@ If a row is absent from the Access requirements table in a given article, there 
   </tr> 
   <tr> 
    <td role="rowheader">Access level</td> 
-   <td> Access levels are sets of permissions for actions an individual can perform in Workfront, set by your Workfront administrator. <p>Workfront has built-in access levels that correspond to Workfront licenses, but your Workfront Administrator can create more access levels to more accurately reflect permission sets needed in your organization.</p>
+   <td> Access levels are sets of permissions for actions you can perform in Workfront, set by your Workfront administrator. <p>Workfront has built-in access levels that correspond to Workfront licenses, but your Workfront Administrator can create more access levels to more accurately reflect permission sets needed in your organization.</p>
    <ul>
-    <li>To find out the details of your access level, contact your Workfront Administrator</li>
     <li>Adobe Workfront is transitioning to a new pricing and packaging model. For information about access levels for each model see:
    <ul>
    <li>New: <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">New access levels overview</a></li>
    <li>Current: <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md" class="MCXref xref">Access levels overview</a></li></ul></li>
+    <li>To find out the details of your access level, contact your Workfront Administrator</li>
     <li>If you are a Workfront administrator, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Configure access to Adobe Workfront</a> to learn more about granting access to specific objects in the access level.</li>  
    <li>If you have the correct access level and still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</li>
     </td>
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td><p>Object permissions refer to the access you have to individual Workfront objects. For example, you must have View access to a specific project to view the project, even if your access level allows you to view projects. This section of the Access requirement table describes any specific object permissions you need to perform the action in the article.</p>
+   <td><p>Object permissions refer to the access you have to individual Workfront objects when you create them or when they are shared with you. For example, you must have View access to a specific project to view the project, even if your access level allows you to view projects. This section of the Access requirement table describes any specific object permissions you need to perform the action in the article.</p>
    <p>For information on requesting additional access to an object, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects</a>.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Workfront offers some products that can be purchased in addition to Workfront:
+   <td>Workfront offers some products that can be purchased in addition to Workfront.
+   <p>Articles that describe procedures performed inside these additional products list the required product here.</p>
    <ul>
+   <li>Adobe Experience Manager Assets or Assets Essentials </li>
    <li>Workfront Fusion</li>
    <li>Workfront Goals</li>
    <li>Workfront Scenario Planner</li>
    </ul>
-   <p>Articles that describe procedures performed inside these additional products list the required product here.</p>
    <p>To find out if your organization has purchased one of these additional products, contact your Workfront administrator.</p></td> 
   </tr> 
   <tr> 
