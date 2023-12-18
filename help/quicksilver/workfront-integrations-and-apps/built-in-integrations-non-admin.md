@@ -76,7 +76,6 @@ The following built-in integrations are currently available in Workfront.
     <ul> 
      <li>Create new tickets in [!DNL Jira] based on tasks and issues in [!DNL Workfront]</li> 
      <li>Sync updates and statuses of linked tasks between [!DNL Workfront] and [!DNL Jira] </li> 
-     <li>Works on both [!DNL Jira] Server and Jira Cloud </li> 
     </ul> </td> 
   </tr> 
   <tr> 

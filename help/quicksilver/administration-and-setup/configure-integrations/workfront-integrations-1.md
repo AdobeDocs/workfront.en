@@ -290,6 +290,7 @@ We understand that the available built-in (native) integrations might not meet a
   For more information, see [[!DNL Adobe Workfront Fusion] overview](../../workfront-fusion/get-started/workfront-fusion-overview.md).
 
 * [!DNL Adobe Experience Manager Assets]
+* [!DNL Anaplan] (Requires [!DNL Workfront Fusion])
 
 The integration between Workfront and Experience Manager Assets or Assets Essentials lets organizations improve content velocity and time-to-market by intrinsically connecting work and digital asset management.
 
