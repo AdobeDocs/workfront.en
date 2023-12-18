@@ -13,12 +13,16 @@ exl-id: a1603a06-957b-4d52-89f3-f0cec1a4e02c
 
 With this integration, our goal is to allow creatives to stay in their tool of choice (CC or Frame.io) to conduct their content creation and peer reviews, while having project managers coordinate the work and initialize and monitor the formal review process from inside Workfront. This can be achieved by utilizing the best of both solutions: Workfront's new document approvals for managing content approvals, in conjunction with the content review capabilities offered by Frame.io. Collectively, the new document approvals and Frame.io are going to form our new end-to-end content review and approval experience.  
  
-To learn more about how the alpha will function and ways you can participate, see [Adobe Workfront and Frame.io integration alpha: overview](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
+To learn more about how the alpha will function and ways you can participate, see [Adobe Workfront and Frame.io integration alpha: overview](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md).
 
 >[!NOTE]
 >
 >In case you came across these pages without your company participating in this alpha program, please make sure to treat the information here with care and reach out to your Workfront or Frame.io administrator for more information.
 >
+
+## Demo Video
+
+>[!VIDEO](https://video.tv.adobe.com/v/3426406/)
 
 ## Basic test scenario 
 
