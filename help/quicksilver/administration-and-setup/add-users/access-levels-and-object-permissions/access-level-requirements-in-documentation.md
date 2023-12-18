@@ -77,7 +77,7 @@ If a row is absent from the Access requirements table in a given article, there 
    <p>To find out if your organization has purchased one of these additional products, contact your Workfront administrator.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] license</td> 
+   <td role="rowheader">Adobe Workfront Fusion license</td> 
    <td>Adobe Workfront Fusion has a separate licensing model than Workfront. 
    <ul><li>Current: The current license model is based on the number of operations performed, and has no limitations on what actions an organization can perform. </li>
    <li>Legacy: Legacy licenses are based on whether scenarios are able to connect to third-party applications, or whether the scenarios are used for Workfront automation only. </li>
