@@ -9,7 +9,10 @@ topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
 ---
+
 # Create a Request Queue
+
+<!--Audited: 12/2023-->
 
 <!--
 <THIS IS CONNECTED TO THE PRODUCT IN BLUEPRINTS. DO NOT MOVE/ CHANGE URL>

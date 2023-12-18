@@ -11,6 +11,8 @@ exl-id: b6a9e2ad-bd69-4075-8b87-3545e07b744d
 ---
 # The Workload Balancer: article index
 
+<!--Audited: 12/2023-->
+
 The Workload Balancer is a resource scheduling tool in Adobe Workfront that allows you to assign tasks and issues to your people resources. 
 
 For information about what the Workload Balancer is, how to navigate it, and how to assign work using it, see the following articles:

@@ -92,25 +92,34 @@ With this improvement, notice the following:
 For more information, see [Manage table view](/help/quicksilver/maestro/views/manage-the-table-view.md).  
 
 
-### Connect Maestro records with Adobe Experience Manager (AEM) assets 
+### Connect Maestro records with Adobe Experience Manager Assets 
 
 Preview release: December 14, 2023 
 
 Production release: December 15, 2023 
 
-You can now establish a connection between Maestro record types and Adobe Experience Manager assets.  
+>[!IMPORTANT]
+>
+>Your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console to be able to connect Maestro records to Adobe Experience Manager Assets.
+>
+>If you have questions about onboarding to the Adobe Admin Console, see the [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+
+
+You can now establish a connection between Maestro record types and Adobe Experience Manager Assets.  
 
 After you establish the connection, the following functionality is available with this update:  
 
-* Maestro users can link AEM assets, folders, or collections to a Maestro record from a specific repository in AEM to which they have access
+* You can link Experience Manager assets and folders to a Maestro record from a specific repository in Experience Manager Assets to which they have access. You can connect asset fields to Maestro fields in this process. 
 
-* Maestro users can view all connected assets in Maestro after they are connected to records.  
+* Maestro users can view the name of the connected assets, as well as the values of the connected fields in Maestro
 
+<!--removed per PM, for now: 
 * An Experience Manager Assets record type is automatically created in Maestro after you establish the connection. Connected assets are visible in the Maestro table and timeline views of this new record type.  
+-->
 
-* You can view AEM asset information in the Maestro record table where you are connecting from.  
+* You can click the asset name in the table view of the Maestro record from the connected record field, and view a pop-up window with the asset thumbnail and several key fields. From the pop-up window, you can navigate to the asset viewer in Experience Manager and view all the details about it.
 
-For more information, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md)  
+For more information, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).  
 
 ## Week of December 4, 2023
 
