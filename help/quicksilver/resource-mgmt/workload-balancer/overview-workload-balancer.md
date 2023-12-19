@@ -2,13 +2,13 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Overview of the Workload Balancer
+title: Workload Balancer overview
 description: After project managers plan the work on projects by creating tasks and after resource managers allocate job role resources to projects in the Resource Planner, project owners and team managers can use the Workload Balancer to assign work items to users.
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
 ---
-# Overview of the Workload Balancer
+# Workload Balancer overview
 
 <!--
 <p>(NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK) </p>

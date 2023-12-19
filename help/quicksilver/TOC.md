@@ -590,7 +590,7 @@ feature-set: Workfront
       * [Create custom statuses and priority labels](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
       * [Statuses overview](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)
       * [List all project statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
-      * [Project statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)
+      * [Overview of system project statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)
       * [List all task statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
       * [Task statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md)
       * [List issue statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
@@ -1738,7 +1738,7 @@ feature-set: Workfront
     * [View resource utilization information](resource-mgmt/resource-utilization/view-utilization-information.md)
   * The Workload Balancer {#the-workload-balancer}
     * [The Workload Balancer: article index](resource-mgmt/workload-balancer/workload-balancer.md)
-    * [Overview of the Workload Balancer](resource-mgmt/workload-balancer/overview-workload-balancer.md)
+    * [Workload Balancer overview](resource-mgmt/workload-balancer/overview-workload-balancer.md)
     * [Access needed to manage resources in the Workload Balancer](resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)
     * [Locate the Workload Balancer](resource-mgmt/workload-balancer/locate-workload-balancer.md)
     * [Overview of assigning work in the Workload Balancer](resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)

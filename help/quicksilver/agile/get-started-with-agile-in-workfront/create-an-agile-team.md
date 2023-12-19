@@ -77,7 +77,7 @@ The following functionality supports this methodology:
 * View a burndown chart to see progress against stories during the iteration\
    For more information, see [Agile burndown chart overview](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
 
-## Create a new agile team
+## Create an agile team
 
 1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Teams]**.
 1. Click the **[!UICONTROL Switch Teams]** icon ![Switch team icon](assets/switch-team-icon.png), then click **[!UICONTROL Create New Team]**.

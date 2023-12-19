@@ -33,7 +33,7 @@ Various features are being phased out of the Adobe Workfront product. Following 
    <td>No longer supported with the 21.2 release</td> 
   </tr> 
   <tr> 
-   <td> <p>Resource Scheduling</p> <p>Workload Balancer provides an improved experience in scheduling resources.</p> <p>For more detailed information about the Workload Balancer, see <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md">Overview of the Workload Balancer</a>.</p> </td> 
+   <td> <p>Resource Scheduling</p> <p>Workload Balancer provides an improved experience in scheduling resources.</p> <p>For more detailed information about the Workload Balancer, see <a href="../../resource-mgmt/workload-balancer/overview-workload-balancer.md">Workload Balancer overview</a>.</p> </td> 
    <td>&nbsp;</td> 
    <td> <p>No longer supported on November 9, 2020 (with the 20.4 release)</p> <p>--</p> <p>Removed from the Workfront platform after the first half of 2022</p> </td> 
   </tr> 

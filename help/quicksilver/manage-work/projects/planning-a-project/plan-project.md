@@ -146,4 +146,4 @@ When defining tasks, consider the following:
    * Add more users to a task to ensure it can be completed during the time allocated for it.
    * Reassign the tasks to users who are available with no other constraints.  
      For more information about planning your project resources, see the article [Resource Planning in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md).  
-     For more information about scheduling your resources to accomplish the work on a project, see [Overview of the Workload Balancer](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md). 
+     For more information about scheduling your resources to accomplish the work on a project, see [Workload Balancer overview](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md). 
