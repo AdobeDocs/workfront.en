@@ -68,7 +68,7 @@ You can create a connection to your [!DNL Maestro] account directly from inside 
 
 ### Watch Events
 
-This trigger module starts a scenario when a record, record type, or workspace is created, updated, or deleted in Maestro
+This trigger module starts a scenario when a record, record type, or workspace is created, updated, or deleted in Maestro.
 
 <table style="table-layout:auto"> 
   <col/>
