@@ -408,14 +408,7 @@ This action updates a single record in Maestro.
 
 This action module retrieves a list of records based on criteria you specify.
 
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Maestro], see <a href="create-a-connection-to-adobe-maestro" class="MCXref xref" >Create a connection to [!DNL Adobe Maestro]</a> in this article.</td>
-    </tr>
-  </tbody>
-</table>
+>[!NOTE]
+>
+>This module is under construction.
 
