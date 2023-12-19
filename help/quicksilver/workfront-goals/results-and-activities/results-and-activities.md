@@ -6,6 +6,7 @@ title: Results and activities in Adobe Workfront Goals
 description: Results and activities are progress indicators for a goal in Adobe Workfront Goals. Learn more information about results and activities in the following articles.
 author: Alina
 feature: Workfront Goals
+recommendations: noDisplay, noCatalog
 exl-id: d166674a-a158-4467-bedf-fa5c997c18ec
 ---
 

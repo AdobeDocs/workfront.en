@@ -5,6 +5,7 @@ navigation-topic: manage-proofs-within-workfront
 title: Manage automated proofs
 description: View Automated Workflow stages on a proof
 author: Courtney
+recommendations: noDisplay, noCatalog
 feature: Digital Content and Documents
 exl-id: ea3d3840-bff9-428f-88a2-7c618945514d
 ---

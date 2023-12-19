@@ -20,7 +20,9 @@ exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 
 >[!IMPORTANT]
 >
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
+>
+>Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use Maestro capabilities.
 >
 >Contact your account representative for more information about joining the beta program for Maestro.
 >[View a video demonstration of Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}
@@ -122,7 +124,7 @@ The following are the main Maestro objects and concepts:
 
     ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png) 
     
-    For more information, see [Create workspaces](../maestro/architecture-and-fields/create-workspaces.md).
+    For more information, see [Create workspaces](../maestro/architecture/create-workspaces.md). 
 
 * **Record Type**: The Maestro main object type.  
     
@@ -132,7 +134,7 @@ The following are the main Maestro objects and concepts:
     
     In Maestro, you can create any record types that meet your organization's workflows. Later, you can define how the record types relate to one another or form dependencies. 
     
-    For more information, see [Overview of operational record types and taxonomies](../maestro/architecture-and-fields/overview-of-record-types-and-taxonomies.md).
+    For more information, see [Overview of operational record types and taxonomies](../maestro/architecture/overview-of-record-types-and-taxonomies.md).
 
     Maestro has the following record types: 
 
@@ -142,7 +144,7 @@ The following are the main Maestro objects and concepts:
 
         For example, Campaign, Activity, Program can be operational record types.  
 
-        For more information, see [Create record types](../maestro/architecture-and-fields/create-record-types.md).
+        For more information, see [Create record types](../maestro/architecture/create-record-types.md).
 
     * **Taxonomy**: A record type that captures attributes about an operational record type. 
 
@@ -152,7 +154,7 @@ The following are the main Maestro objects and concepts:
 
         For example, Audience, Region, or Address can be taxonomy-type record types.  
 
-       For more information, see [Create taxonomy record types](../maestro/architecture-and-fields/create-a-taxonomy.md).
+       For more information, see [Create taxonomy record types](../maestro/architecture/create-a-taxonomy.md).
 
 * **Record**: An instance of a Maestro record type. A record could refer to an operational record type or to a taxonomy. 
 
@@ -175,7 +177,7 @@ The following are the main Maestro objects and concepts:
 
     Maestro comes with a Sales, Marketing, and Product Management workspace template. 
     
-    For more information, see [Create workspaces](../maestro/architecture-and-fields/create-workspaces.md).
+    For more information, see [Create workspaces](../maestro/architecture/create-workspaces.md).
 
 * **Fields**: Fields are attributes that you can add to operational or taxonomy record types that contain information about the record type. <!--check the shot below, "Connection" needs to be in lowercase-->
 
@@ -191,7 +193,7 @@ The following are the main Maestro objects and concepts:
 
     * Maestro fields are fully customizable and are accessible only in Maestro. You cannot access Maestro fields from Workfront. 
 
-    For more information, see [Create fields](../maestro/architecture-and-fields/create-fields.md)
+    For more information, see [Create fields](../maestro/fields/create-fields.md)
     
     A new operational record type is associated with the following predefined fields, by default: 
 
@@ -214,13 +216,22 @@ The following are the main Maestro objects and concepts:
     * Percentage 
     * Currency
     * Checkbox  
+    * People
+    * Created by
+    * Created date
+    * Last modified by
+    * Last modified date
    
 * **Linked record types**, **Linked records**, and **Linked record fields**:  You can create a connection between the following entities:
     
     * Two Maestro record types
     * A Maestro record type and a Workfront project, program, portfolio, company, or group object type. 
+    * A Maestro record type and an Adobe Experience Manager asset, folder, or collection. 
 
-    ![](assets/new-connection-tab-with-workfront-option.png)
+        You must have an Adobe Experience Manager license to link record types with Experience Manager objects.
+
+        ![](assets/new-connection-tab-with-workfront-aem-options.png)
+
 
     After you establish a connection between the record types, you can connect individual records of those types to one another. The connection between the records displays as a linked record field. 
 
@@ -230,7 +241,7 @@ The following are the main Maestro objects and concepts:
 
     For information about linking record types, records, and creating linked fields, see the following articles:
 
-    * [Connect record types](../maestro/architecture-and-fields/connect-record-types.md)
+    * [Connect record types](../maestro/architecture/connect-record-types.md)
     * [Connect records](../maestro/records/connect-records.md)
 
 <!--not yet:* Fields are reusable across Record Types.  -->
@@ -247,7 +258,7 @@ The following are the main Maestro objects and concepts:
 
         ![](assets/table-view-example.png)
 
-    * **Timeline view**: Displays records that have at least two Date fields in a chronological timeline. 
+    * **Timeline view**: Displays records that have at least two Date-type fields in a chronological timeline. 
 
         ![](assets/grouping-applied-in-timeline-view.png)
 
@@ -345,20 +356,26 @@ The following table illustrates the main features that will be available in Maes
 |     View records in a timeline                     |   ✓                           |                                  |                  |
 |     Filter records                                 |   ✓                           |                                  |                  |
 |     Group records in the timeline view             |   ✓                           |                                  |                  |
-|     Group records in the table view                |                               |   ✓                              |                  |
+|     Group records in the table view                | ✓                              |                                 |                  |
 |     Sort records in the table view                                 |  ✓                             |                                 |                  |
 |     Sort records in the timeline view                                 |                               |   ✓                              |                  |
 |     Sort groupings in the table view                                 |                               |   ✓                              |                  |
 |     Sort groupings in the timeline view                                 |                               |   ✓                              |                  |
 |     Connect workspaces                                |                               |   ✓                              |                  |
 |     Connect Maestro records and taxonomies  |   ✓                            |  
+|   Search for records in the table view    | ✓    |   |
 |     Connect Maestro records to Workfront projects, programs, portfolios, companies, groups  |   ✓                            |                                 |                  |
+|     Connect Maestro records to Adobe Experience Manager assets, folders, and collections                                 |      ✓                         |                                  |                 | 
 |     Record details page                            |   ✓                           |                                  |                  |
 |     Update the layout of the record Details page              |                               |   ✓                              |                  |
-| Access levels and permissions | |✓ |  |
+|  Workspace permissions | |✓ |  |
 |     Submit requests                                |                               |                                  |   ✓              |
 |     Creative brief                                 |                               |                                  |   ✓              |
 |     Customize the color and icon of a record                                 |      ✓                         |                                  |                 |
+|     Add comments to records                                 |                               |                         ✓         |                 |
+|     Rich Text formatting for Paragraph fields                                 |      ✓                         |                                  |                 | 
+
+
 
 ## Maestro release activity 
 

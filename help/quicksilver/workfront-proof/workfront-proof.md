@@ -3,13 +3,16 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-navigation-topic
-title: Workfront Proof
-description: This section contains the following subsections - EDIT ME.
+title: "Workfront Proof: article index"
+description: Learn how to use the Workfront Proof standalone product.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: f9c782b7-23dc-4fde-83e1-b7ef71a3b741
 ---
-# Workfront Proof
+# Workfront Proof: article index
+
+<!-- Audited: 12/2023 -->
 
 >[!IMPORTANT]
 >
@@ -23,7 +26,6 @@ This section contains the following subsections:
 * [[!DNL Workfront Proof] Billing Settings](../workfront-proof/wp-billingsettings/wp-billing-settings.md) 
 * [Proof notifications and reminders](../workfront-proof/wp-emailsntfctns/wp-emails-and-notifications.md) 
 * [Email alerts](../workfront-proof/wp-emailsntfctns/email-alerts/email-alerts.md) 
-* [Managing users and contacts in [!DNL Workfront Proof]](../workfront-proof/wp-mnguserscontacts/manage-user-contacts.md) 
-* [[!DNL Workfront Proof] mobile](../workfront-proof/wp-mobile/wp-mobile.md) 
+* [Managing users and contacts in [!DNL Workfront Proof]](../workfront-proof/wp-mnguserscontacts/manage-user-contacts.md)
 * [[!DNL Workfront Proof] tech corner](../workfront-proof/wp-tech-corner/tech-corner.md) 
 * [[!DNL Workfront Proof] integrations](../workfront-proof/wp-integrations/wp-integrations.md)

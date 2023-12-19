@@ -2,13 +2,16 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: Text Mode resources
+title: "Text Mode resources: article index"
 description: Text Mode resources
 author: Nolan
 feature: Reports and Dashboards
+recommendations: noDisplay, noCatalog
 exl-id: 892f1746-b9c6-4414-bfa1-24f68a3be6fb
 ---
-# Text Mode resources
+# Text Mode resources: article index
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: This is the section article with links to all other articles in this section)</p>

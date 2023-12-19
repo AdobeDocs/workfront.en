@@ -6,6 +6,7 @@ title: Reporting basics
 description: Review these articles to understand reporting basics in Adobe Workfront.
 author: Nolan
 feature: Reports and Dashboards
+recommendations: noDisplay, noCatalog
 exl-id: 7cec252f-e5be-4099-8fa6-308f80952a21
 ---
 # Reporting basics

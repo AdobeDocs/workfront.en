@@ -3,7 +3,7 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
 title: Configure Proof Settings in [!DNL Workfront Proof]
-description: You can configure a proof you are creating or editing in any of the following ways - EDIT ME.
+description: You can configure a proof you are creating or editing in proofs.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ca379054-4737-4796-a812-f2ec38b437ba

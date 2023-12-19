@@ -84,7 +84,7 @@ Each icon takes you to a different area of the new [!DNL Adobe Workfront] experi
      <li>[!UICONTROL Home]: <a href="../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md" class="MCXref xref">Use the [!UICONTROL Home] area</a></li> 
      <li>[!UICONTROL Portfolios]: <a href="../../manage-work/portfolios/portfolio-management-overview.md" class="MCXref xref">Portfolio Management</a></li> 
      <li>[!UICONTROL Programs]: <a href="../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md" class="MCXref xref">Create and manage programs </a></li> 
-     <li>[!UICONTROL Projects]: <a href="../../manage-work/projects/projects-overview.md" class="MCXref xref">Projects</a></li> 
+     <li>[!UICONTROL Projects]: <a href="../../manage-work/projects/projects-overview.md" class="MCXref xref">Projects: article index</a></li> 
      <li>[!UICONTROL Reports]: <a href="../../reports-and-dashboards/reports/reports-overview.md" class="MCXref xref">Reports</a></li> 
      <li>[!UICONTROL Dashboards]: <a href="../../reports-and-dashboards/dashboards/dashboards-overview.md" class="MCXref xref">Dashboards</a></li> 
      <li>[!UICONTROL Calendars]: <a href="../../reports-and-dashboards/reports/calendars/calendars.md" class="MCXref xref">Calendars</a></li> 
@@ -95,13 +95,13 @@ Each icon takes you to a different area of the new [!DNL Adobe Workfront] experi
    <td> 
     <ul> 
      <li>[!UICONTROL Requests]: <a href="../../manage-work/requests/create-requests/create-requests.md" class="MCXref xref">Create requests</a></li> 
-     <li>[!UICONTROL Timesheets]: <a href="../../timesheets/timesheets-all.md" class="MCXref xref">Timesheets</a></li> 
+     <li>[!UICONTROL Timesheets]: <a href="../../timesheets/timesheets-all.md" class="MCXref xref">Timesheets: article index</a></li> 
      <li>[!UICONTROL Documents]: <a href="../../documents/documents-overview.md" class="MCXref xref">Documents</a></li> 
-     <li>[!UICONTROL Templates]: <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">Create and manage project templates</a></li> 
+     <li>[!UICONTROL Templates]: <a href="../../manage-work/projects/create-and-manage-templates/create-manage-templates.md" class="MCXref xref">Create and manage project templates: article index</a></li> 
      <li>[!UICONTROL Analytics]: <a href="../../enhanced-analytics/enhanced-analytics-overview.md" class="MCXref xref">Enhanced analytics overview</a></li> 
      <li>[!UICONTROL Goals]: <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] overview</a></li> 
      <li>[!UICONTROL Scenarios]: <a href="../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">The Scenario Planner overview</a></li> 
-     <li>[!UICONTROL Proofing]: <a href="../../workfront-proof/workfront-proof.md" class="MCXref xref">[!DNL Workfront] Proof</a></li> 
+     <li>[!UICONTROL Proofing]: <a href="../../workfront-proof/workfront-proof.md" class="MCXref xref">[!DNL Workfront] Proof: article index</a></li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -115,7 +115,7 @@ Below these options in the [!UICONTROL Main Menu], you can access:
  <tbody> 
   <tr> 
    <td> <p class="bold">[!UICONTROL Setup]</p> </td> 
-   <td> <p>Clicking <b>[!UICONTROL Setup]</b> takes you to the [!UICONTROL Setup] area where you can configure different aspects of your [!DNL Workfront] account. Depending on your access settings, what you can configure may be limited.</p> <p>For more information on the [!UICONTROL Setup] area, see <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">Administration and setup</a>.</p> </td> 
+   <td> <p>Clicking <b>[!UICONTROL Setup]</b> takes you to the [!UICONTROL Setup] area where you can configure different aspects of your [!DNL Workfront] account. Depending on your access settings, what you can configure may be limited.</p> <p>For more information on the [!UICONTROL Setup] area, see <a href="../../administration-and-setup/administration-and-setup.md" class="MCXref xref">Administration and setup: article index</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p class="bold">[!UICONTROL Help]</p> </td> 

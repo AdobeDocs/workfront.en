@@ -9,6 +9,7 @@ description: As an Adobe Workfront administrator, you can use the Kick-Starts da
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 6ccaf048-e27e-4ce7-8d38-64a5304e38ae
 ---
 # Kick-Starts

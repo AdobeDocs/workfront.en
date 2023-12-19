@@ -155,5 +155,10 @@ The following actions are available in the Scenario editor:
      <td role="rowheader">Test-run the scenario</td>   
      <td>Click <strong>[!UICONTROL Run once]</strong> to verify that the scenario runs as you expect before you activate it. Once activated, the scenario will execute according to its schedule. If everything does not run as expected, you can visit our error handling section to learn how to handle errors.</td> 
    </tr> 
+   <tr> 
+     <td role="rowheader">Use the Devtool to debug the scenario</td>   
+     <td>For information, see For more information, see <a href="../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md" class="MCXref xref">Debug scenarios with the [!DNL Adobe Workfront Fusion] Devtool</a>.
+</td> 
+   </tr> 
 </tbody>
 </table>

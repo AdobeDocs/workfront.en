@@ -71,7 +71,7 @@ For more information about Resource Management, see the [Manage resources](../..
 
 After receiving the project approval from the Portfolio Manager and the validation of the resources from the Resource Manager, as the Project Owner, you can place the project in the status of [!UICONTROL Current] and your users can start the work to complete the project. It is recommended to capture a baseline of the project in this phase, to have a reference point for the project, in its original state.
 
-For more information about managing projects in [!DNL Workfront], see [Manage projects](../../../manage-work/projects/manage-projects/manage-projects-overview.md).\
+For more information about managing projects in [!DNL Workfront], see [Manage projects: article index](../../../manage-work/projects/manage-projects/manage-projects-overview.md).\
 For more information about creating baselines on projects, see [Create project baselines](../../../manage-work/projects/create-projects/create-baselines.md).
 
 ### Project Postmortem {#project-postmortem}

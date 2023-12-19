@@ -451,7 +451,7 @@ To edit fields in the Finance area:
        <td> <p>Controls how the parent tasks are marked as Complete. Select from the following options: 
        <ul> 
        <li><strong>Automatic</strong>: The parent tasks are marked Complete and they update their percent complete automatically, as the children tasks are completed and the percent complete of the children is updated. </li> 
-       <li><strong>Manual</strong>: You have to manually update the percent complete and the status of the parent tasks, independently of what changes are made to the children tasks.</li> 
+       <li><strong>Manual</strong>: You have to manually update the percent complete and the status of the parent tasks, independently of what changes are made to the children tasks. This allows you to mark a parent task completed even when the subtasks are incomplete. </li> 
        </ul></p> </td> 
        </tr> 
        <tr> 

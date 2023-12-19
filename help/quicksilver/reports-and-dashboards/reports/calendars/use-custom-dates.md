@@ -95,7 +95,7 @@ You can choose how you want the group of items to display on your calendar.
      </tr>
      <tr data-mc-conditions="">
       <td role="rowheader"><strong>[!UICONTROL Custom Dates]</strong></td>
-      <td><p>Enter the custom date name attached to the object you want to track.</p></td>
+      <td><p>Enter the custom date name attached to the object you want to track.</p><p><strong>NOTE:</strong> The search for the custom date name is limited to 50 results to avoid performance issues.</td>
      </tr>
     </tbody>
    </table>

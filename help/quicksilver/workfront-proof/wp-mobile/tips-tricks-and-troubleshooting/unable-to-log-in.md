@@ -1,12 +1,8 @@
 ---
-content-type: tips-tricks-troubleshooting
-product-previous: workfront-proof
-product-area: documents
-navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-mobile
 title: Unable to Log In to the [!DNL Workfront Proof] Mobile App
-description: When trying to log in to the Workfront Proof Mobile App it returns - EDIT ME.
-author: Courtney
-feature: Workfront Proof, Digital Content and Documents
+description: Troubleshoot logging into the Workfront Proof mobile app.
+hide: true
+hidefromtoc: true
 exl-id: c6c52365-dbfe-481f-953c-6c70af6af46d
 ---
 # Unable to Log In to the [!DNL Workfront Proof] Mobile App

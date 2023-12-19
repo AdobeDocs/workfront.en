@@ -6,6 +6,7 @@ title: Manage proof reviewers
 description: Configure access and subscription settings for a proof
 author: Courtney
 feature: Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: b7775036-d603-48c2-9fc5-1335f2ef54be
 ---
 # Manage proof reviewers

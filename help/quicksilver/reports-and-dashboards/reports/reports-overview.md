@@ -6,6 +6,7 @@ title: Reports
 description: Review these areas to get an understanding of how to use reporting in Adobe Workfront.
 author: Nolan
 feature: Reports and Dashboards
+recommendations: noDisplay, noCatalog
 exl-id: b7117ff8-5353-4766-b982-ba624a484ad1
 ---
 # Reports
@@ -18,7 +19,7 @@ This section contains the following subsections:
 * [Create and manage reports](../../reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md) 
 * [Calculated custom data in reports](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md) 
 * [Custom View, Filter, and Grouping samples](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md) 
-* [Text Mode resources](../../reports-and-dashboards/reports/text-mode/text-mode-resources.md) 
+* [Text Mode resources: article index](../../reports-and-dashboards/reports/text-mode/text-mode-resources.md) 
 * [Report usage overview](../../reports-and-dashboards/reports/report-usage/report-usage-overview.md) 
 * [Calendars](../../reports-and-dashboards/reports/calendars/calendars.md) 
 * [Tips, tricks, and troubleshooting for reports](../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)

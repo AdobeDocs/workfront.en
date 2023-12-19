@@ -6,6 +6,7 @@ title: Overview of Task Duration and Duration Type
 description: The task Duration is the difference between the Planned Completion Date and the Planned Start Date of the task. The Duration indicates the time frame that is available for the task to get completed.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
 ---
 # Overview of Task Duration and Duration Type
@@ -16,17 +17,13 @@ The Duration Type of a task identifies the relationship between the number of re
 
 ## Task Duration overview
 
->[!NOTE]
->
->When taking into account the Primary Assignee's time off on a project, the planned dates of the task might adjust, but the Duration of the task remains the same. For information about taking into account the time off of the Primary Assignee when planning a project, see  [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+If the Actual Start and Actual Completion Dates of the task fall outside of the schedule of the project, primary assignee, or the Default Schedule, the task Duration is zero.
 
-If the Actual Start and&nbsp;Actual Completion Dates of the task fall outside of the schedule of the project, primary assignee, or the Default Schedule, the task&nbsp;Duration is zero.
+**Example:** If you have a schedule that starts at 9:00 AM and ends at 12:00 PM and a task that is scheduled to start at 2:00 PM and end at 4:00 PM, the task's Duration is zero.
 
-**Example:** If you have a schedule that starts at 9:00&nbsp;AM and ends at 12:00&nbsp;PM and a task that is scheduled to start at 2:00 PM and end at 4:00 PM, the task's Duration is zero.
+The following are two scenarios that exist when calculating duration in&nbsp;Adobe Workfront: 
 
-The following are two scenarios that exist when calculating duration in&nbsp;Adobe Workfront.
-
-* If the task is assigned to a user Workfront uses one of the following schedules, in this exact order to calculate Duration:
+* If the task is assigned to a user Workfront, uses one of the following schedules, in this exact order to calculate Duration:
 
    1. Workfront takes into account the user's schedule. 
    1. If the user is not associated with a schedule, Workfront takes into account the project's schedule.
@@ -34,11 +31,15 @@ The following are two scenarios that exist when calculating duration in&nbsp;Ado
 
 * If the task is assigned to multiple users:
 
-  Workfront takes into account either the schedule of the project or that of the primary assignee.
+  1. Workfront takes into account either the schedule of the project or that of the primary assignee.
 
   Your Workfront administrator determines which schedule Workfront uses when a task is assigned to multiple users. For information, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   The steps are similar to the first scenario after understanding which schedule Workfront uses to calculate Duration.
+
+>[!NOTE]
+>
+>When taking into account the Primary Assignee's time off on a project, the planned dates of the task might adjust, but the Duration of the task remains the same. For information about taking into account the time off of the Primary Assignee when planning a project, see  [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ## Units of time for Task Duration
 
@@ -87,7 +88,7 @@ Duration Type helps to answer the following questions:
 * How big is the job?
 * How long is it going to take?
 
-![duration_type_triangle.png](assets/duration-type-triangle-350x245.png)
+![duration_type_triangle.png](assets/duration_type_triangle.png)
 
 ## Define Duration Types
 
@@ -97,7 +98,7 @@ Duration Type helps to answer the following questions:
  <col> 
  <thead> 
   <tr> 
-   <th scope="row">Duration Type </th> 
+   <th scope="row"><p><strong>Duration Type</strong></p></th> 
    <th scope="col"> <p><strong>Function</strong> </p> </th> 
    <th scope="col"> <p><strong>How Resources Affect It</strong> </p> </th> 
   </tr> 
@@ -114,7 +115,7 @@ Duration Type helps to answer the following questions:
    <td scope="col"> <p>Planned Hours increase when assignees are added to the task. </p> <p>Planned Hours decrease when assignees are removed from the task.</p> </td> 
   </tr> 
   <tr> 
-   <th scope="col"> <p>Effort Driven</p> </th> 
+   <th scope="col"> <p><strong>Effort Driven</strong></p> </th> 
    <td scope="col"> <p>Determines the Planned Hours based on the number of resources.</p> <p>When you choose this Duration Type, you have the ability to input an individual Duration for the task. Workfront calculates the Planned Hours for the task by multiplying the number of days in the Duration by the number of work hours in the schedule and dividing that by the number of assignees to the task. </p> <p>You have the ability to manually change the allocation percentage of each assignee to the task, but the number of Planned Hours remains the same.</p> <p>For more detailed information, see <a href="../../../manage-work/tasks/taskdurtn/effort-driven.md" class="MCXref xref">Duration Type overview: Effort Driven</a>.</p> </td> 
    <td scope="col"> <p>Planned hours increase when assignees are removed from the task.</p> <p>Planned hours decrease when assignees are added to the task. </p> <p>The Duration does not change, regardless of changes in the number of assignees or their schedule. </p> <p>Duration is equal to Planned Hours. Planned Duration is equal to Planned Hours divided by the number of assignees.</p> </td> 
   </tr> 
@@ -126,7 +127,7 @@ Duration Type helps to answer the following questions:
  </tbody> 
 </table>
 
-## The Duration&nbsp;Type of new tasks
+## The Duration Type of new tasks
 
 The Duration Type of a new task matches the Duration Type set up in your system. The default Duration Type is Calculated Assignment. Your Workfront administrator or a group administrator can update the default Duration Type for your system or for the group associated with the project. For information, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 

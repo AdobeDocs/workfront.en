@@ -5,6 +5,7 @@ title: Using the API Explorer
 description: Using the API Explorer
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: dcb7dadb-4dd8-48da-a559-cbe8ad99ff9e
 ---
 

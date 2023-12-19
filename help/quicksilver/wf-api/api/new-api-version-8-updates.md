@@ -2,9 +2,10 @@
 content-type: api
 navigation-topic: api-navigation-topic
 title: Updates to API Version 8
-description: The following existing resources have been updated with this release of the Adobe Workfront API. To view the resources that are new to versions 8, please see What's New in API Version 8. Changes made to a resource are indicated in the following manner - EDIT ME.
+description: View the updates to API Version 8.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: c6d7d2d2-cd21-4ca8-a5a0-afe3669dc959
 ---
 # Updates to API Version 8
@@ -21,38 +22,38 @@ The following existing resources have been updated with this release of the Adob
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| action¹&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| action<sup>1</sup>&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹ Changes to possible values
+<sup>1</sup> Changes to possible values
 
-### AccessRule¹&nbsp;
+### AccessRule<sup>1</sup>&nbsp;
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| coreAction²&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| forbiddenActions² |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| secondaryActions² |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| coreAction<sup>2</sup>&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| forbiddenActions<sup>2</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| secondaryActions<sup>2</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹ Flag removed: REPORTABLE   
-² Changes to possible values
+<sup>1</sup> Flag removed: REPORTABLE   
+<sup>2</sup> Changes to possible values
 
 ### Approval
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |agileWork&nbsp; |resourcePools |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| backlogOrder² |kanbanBoard&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| auditTypes<sup>1</sup> |agileWork&nbsp; |resourcePools |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| backlogOrder<sup>2</sup> |kanbanBoard&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | backlogParent |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | kanbanBoardID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹Changes to possible values   
-²Flags added: DYNAMIC, LAZY_READ, and NOT_GROUPABLE
+<sup>1</sup>Changes to possible values   
+<sup>2</sup>Flags added: DYNAMIC, LAZY_READ, and NOT_GROUPABLE
 
 ### Assignment
 
@@ -68,32 +69,32 @@ The following existing resources have been updated with this release of the Adob
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| bizRuleExclusions¹ |&nbsp; |&nbsp; |&nbsp; |getPackagingOptionValue |&nbsp; |&nbsp; |
-| proofPlan¹ |&nbsp; |&nbsp; |&nbsp; |isPackagingOptionEnabled |&nbsp; |&nbsp; |
+| bizRuleExclusions<sup>1</sup> |&nbsp; |&nbsp; |&nbsp; |getPackagingOptionValue |&nbsp; |&nbsp; |
+| proofPlan<sup>1</sup> |&nbsp; |&nbsp; |&nbsp; |isPackagingOptionEnabled |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹Changes to possible values
+<sup>1</sup>Changes to possible values
 
 ### CustomerPreferences
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| name¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| name<sup>1</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹Changes to possible values
+<sup>1</sup>Changes to possible values
 
 ### DocumentApproval
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| ID¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| ID<sup>1</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹Flag added: NOT_FILTERABLE
+<sup>1</sup>Flag added: NOT_FILTERABLE
 
 ### DocumentVersion
 
@@ -115,11 +116,11 @@ The following existing resources have been updated with this release of the Adob
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| appGlobalID¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| appGlobalID<sup>1</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹Flag added: NOT_FILTERABLE
+<sup>1</sup>Flag added: NOT_FILTERABLE
 
 ### Iteration
 
@@ -141,17 +142,17 @@ The following existing resources have been updated with this release of the Adob
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| auditType¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| auditType<sup>1</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹Changes to possible values
+<sup>1</sup>Changes to possible values
 
 ### OpTask
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |agileWork&nbsp; |&nbsp; |&nbsp; |&nbsp; |defaultShownTimesheetIssues&nbsp; |&nbsp; |
+| auditTypes<sup>1</sup> |agileWork&nbsp; |&nbsp; |&nbsp; |&nbsp; |defaultShownTimesheetIssues&nbsp; |&nbsp; |
 | backlogOrder |iteration |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | backlogParent |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | estimate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
@@ -159,37 +160,37 @@ The following existing resources have been updated with this release of the Adob
 
 {style="table-layout:auto"}
 
-¹Changes to possible values
+<sup>1</sup>Changes to possible values
 
 ### Portfolio
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| auditTypes<sup>1</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹Changes to possible values
+<sup>1</sup>Changes to possible values
 
 ### Program
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| auditTypes<sup>1</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹Changes to possible values
+<sup>1</sup>Changes to possible values
 
 ### Project
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |&nbsp; |resourcePools |&nbsp; |&nbsp; |defaultShownTimesheetProjects |&nbsp; |
+| auditTypes<sup>1</sup> |&nbsp; |resourcePools |&nbsp; |&nbsp; |defaultShownTimesheetProjects |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹Changes to possible values
+<sup>1</sup>Changes to possible values
 
 ### ProofApproval
 
@@ -197,23 +198,23 @@ The following existing resources have been updated with this release of the Adob
 |---|---|---|---|---|---|---|
 | approverID |approver |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | documentVersionID |documentVersion |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| ID¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| ID<sup>1</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | proofCreationDate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹Flag added: NOT_FILTERABLE
+<sup>1</sup>Flag added: NOT_FILTERABLE
 
 ### QueueDef
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| requestorCoreAction¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| requestorForbiddenActions¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| requestorCoreAction<sup>1</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| requestorForbiddenActions<sup>1</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹Changes to possible values
+<sup>1</sup>Changes to possible values
 
 ### Rate
 
@@ -245,13 +246,13 @@ The following existing resources have been updated with this release of the Adob
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |agileWork&nbsp; |&nbsp; |&nbsp; |&nbsp; |allTasksOnIterations&nbsp; |&nbsp; |
+| auditTypes<sup>1</sup> |agileWork&nbsp; |&nbsp; |&nbsp; |&nbsp; |allTasksOnIterations&nbsp; |&nbsp; |
 | backlogParent |kanbanBoard |&nbsp; |&nbsp; |&nbsp; |defaultShownTimesheetTasks |&nbsp; |
 | kanbanBoardID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹Changes to possible values
+<sup>1</sup>Changes to possible values
 
 ### Team
 
@@ -277,21 +278,21 @@ The following existing resources have been updated with this release of the Adob
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| auditTypes<sup>1</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹Changes to possible values
+<sup>1</sup>Changes to possible values
 
 Update 
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| updateType¹ |`updateEndorsement`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| updateType<sup>1</sup> |`updateEndorsement`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹Changes to possible values
+<sup>1</sup>Changes to possible values
 
 ### User
 
@@ -309,22 +310,22 @@ Update
 |---|---|---|---|---|---|---|
 | `endorsementID`  |`endorsement`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | `endorsementShareID`  |`endorsementShare`  |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| eventType¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| eventType<sup>1</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹Changes to possible values
+<sup>1</sup>Changes to possible values
 
 ### Work
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| auditTypes¹ |agileWork&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| backlogOrder² |kanbanBoard&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| auditTypes<sup>1</sup> |agileWork&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| backlogOrder<sup>2</sup> |kanbanBoard&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | backlogParent&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | kanbanBoardID |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹Changes to possible values   
-²Flags added: DYNAMIC, LAZY_READ, and NOT_GROUPABLE
+<sup>1</sup>Changes to possible values   
+<sup>2</sup>Flags added: DYNAMIC, LAZY_READ, and NOT_GROUPABLE

@@ -2,13 +2,14 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: Project finances
+title: "Project finances: article index"
 description: The following articles contain information about areas where you can find project financial information and about how to manage project finances.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 7dda021d-4cf8-4f65-b187-23fcd935a842
 ---
-# Project finances
+# Project finances: article index
 
 For information about areas where you can find project financial information and about how to manage project finances, see the following articles:
 

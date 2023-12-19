@@ -1,13 +1,14 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Get started with boards in [!DNL Adobe Workfront]
+title: "Get started with boards: article index"
 description: Review these articles to learn how to use boards in Workfront.
 author: Lisa
 feature: Agile
+recommendations: noDisplay, noCatalog
 exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
 ---
-# Get started with boards in [!DNL Adobe Workfront]
+# Get started with boards: article index
 
 This section contains the following articles:
 
@@ -22,6 +23,7 @@ This section contains the following articles:
 * [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)
 * [Add existing tasks or issues to a board](/help/quicksilver/agile/get-started-with-boards/add-card-from-list-to-board.md)
 * [Manage cards](../../agile/get-started-with-boards/move-board-items.md)
+* [Manage subtasks on boards](/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md)
 * [Manage checklist items on cards](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md)
 * [Customize which fields are displayed on a card](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md)
 * [Delete or archive a card from a board](../../agile/get-started-with-boards/delete-board-items.md)

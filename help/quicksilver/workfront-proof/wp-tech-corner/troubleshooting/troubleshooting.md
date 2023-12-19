@@ -4,9 +4,10 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: tech-corner
 title: Troubleshooting in [!DNL Workfront Proof]
-description: This section contains the following articles - EDIT ME.
+description: Learn to troubleshoot Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: f9e93cc2-9dff-4150-a809-10598e110ef8
 ---
 # Troubleshooting in [!DNL Workfront Proof]

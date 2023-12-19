@@ -20,10 +20,9 @@ Using boards, you can:
 * Configure columns to show a status or category
 * Customize workflows with open-ended cards (either ad hoc cards or cards connected to [!DNL Workfront] tasks and issues)
 * Organize and manage work for a team in one place
-* Use workstreams to group data (such as boards and cards) and collaborate on work
-* Use agile planning tools such as an intake column for Kanban boards, as well as a card list and iteration planning
+* Use agile planning tools such as an intake column for Kanban boards
 
-For information about how to use the basic boards features, see [Get started with boards in [!DNL Adobe Workfront]](../agile/get-started-with-boards/get-started-with-boards.md). For information about agile planning tools in boards, see [Agile planning tools overview](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
+For information about how to use the basic boards features, see [Get started with boards: article index](../agile/get-started-with-boards/get-started-with-boards.md). For information about agile planning tools in boards, see [Agile planning tools overview](/help/quicksilver/agile/use-boards-agile-planning-tools/agile-planning-tools-overview.md).
 
 For information about using a board on a project, see [Manage a project in the Agile View](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
 

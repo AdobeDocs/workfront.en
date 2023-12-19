@@ -7,11 +7,12 @@ navigation-topic: administration-and-setup
 description: Find answers to frequently asked questions for Workfront administrators here.
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 9b230142-de71-4577-8e67-35e8a6b9b932
 ---
 # Administrator FAQs
 
-This section contains the following articles:
+The following FAQ articles are available for administrators:
 
 * [AtTask OnPremise support policy](../../administration-and-setup/administrator-faqs/attask-onpremise-support-policy.md)
 

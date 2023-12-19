@@ -4,9 +4,10 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: billing-settings
 title: Manage your billing
-description: This section contains the following articles - EDIT ME.
+description: Learn about billing management in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 8c6a8fb5-842f-4322-9a99-550395207206
 ---
 # Manage your billing

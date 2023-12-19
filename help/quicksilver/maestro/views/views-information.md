@@ -18,13 +18,15 @@ hide: yes
 ---
 -->
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
 # Views information
 
 >[!IMPORTANT]
 >
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
+>
+>Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use Maestro capabilities.
 >
 >Contact your account representative for more information about joining the beta program for Maestro.
 >

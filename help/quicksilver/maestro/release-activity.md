@@ -1,6 +1,6 @@
 ---
 title: Adobe Maestro release activity
-description: Use Maestro to create custom objects, fields, and workspaces.
+description: Adobe Maestro is currently available to select Workfront customers. Review this article often to learn about the features recently released for Adobe Maestro. 
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -10,7 +10,9 @@ exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
 
 >[!IMPORTANT]
 >
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
+>
+>Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use Maestro capabilities. 
 >
 >Contact your account representative for more information about joining the beta program for Maestro.
 >
@@ -28,13 +30,260 @@ This section lists the features and patches that have been released after the la
 
 The features are released weekly and are listed in the order of their release, with the most recent first. Customers who are participating in the Maestro closed beta program can access all features in their Preview and Production environments.
 
+<!--
+## Week of November 27, 2023
+
+### Maestro permissions for users and groups
+
+Production: November 28, 2023
+
+>[!IMPORTANT]
+>
+>This functionality is not yet available in Preview.
+
+You can now share a workspace with users and groups. You can set their permissions to different levels, depending on what information they need to view or edit in a Maestro workspace. After you share permissions to a workspace, users have permissions to the record types, records, and fields in that space.
+
+The following are the permissions levels for Maestro workspaces:  
+
+* None: Users cannot access any workspaces in Maestro, even if the Maestro area is shared with them through a layout template. 
+
+* View: Users can view workspaces that are shared with them. They can also view record types, and records from the shared workspace. 
+
+* Contribute: Users can create, edit, or delete records in the workspace that is shared with them.  They cannot create or edit record types or workspaces ones shared with them.  
+
+* Manage: Users can create, edit, and delete record types, records, and fields in workspaces that are shared with them. They cannot create workspaces.  
+
+Only Workfront administrators can create, edit, or delete workspaces and all information associated with them.  
+
+For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
+
+## Week of December 18, 2023
+
+### Update the primary field in a table view of a record type
+
+Preview and production: December 14, 2023 
+
+You can now choose the field you want to display in the first column of a Maestro table view. This field is now called a primary field.  
+
+Prior to this enhancement, the Name field of a record always displayed in the first column of the table view and it could not be placed in another position.
+
+With this improvement, notice the following: 
+
+* The Name column or field is still the first column of a table, by default.  
+
+* You can choose any field of the following types to be a primary field and replace the Name field in the first column: 
+
+    * Single-line text 
+
+    * Number 
+
+    * Formula
+
+        >[!NOTE]
+        >
+        >Formula-type fields will be released at a later date.
+
+* The primary field of a table view is always frozen and cannot be moved, unless you set another field as a primary field.  
+
+* You can change the primary field from a non-primary column header.  
+
+* All table views of a record type have the same primary field you select. 
+
+For more information, see [Manage table view](/help/quicksilver/maestro/views/manage-the-table-view.md).  
+
+
+### Connect Maestro records with Adobe Experience Manager Assets 
+
+Preview release: December 14, 2023 
+
+Production release: December 15, 2023 
+
+>[!IMPORTANT]
+>
+>Your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console to be able to connect Maestro records to Adobe Experience Manager Assets.
+>
+>If you have questions about onboarding to the Adobe Admin Console, see the [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+
+
+You can now establish a connection between Maestro record types and Adobe Experience Manager Assets.  
+
+After you establish the connection, the following functionality is available with this update:  
+
+* You can link Experience Manager assets and folders to a Maestro record from a specific repository in Experience Manager Assets to which they have access. You can connect asset fields to Maestro fields in this process. 
+
+* Maestro users can view the name of the connected assets, as well as the values of the connected fields in Maestro
+
+<!--removed per PM, for now: 
+* An Experience Manager Assets record type is automatically created in Maestro after you establish the connection. Connected assets are visible in the Maestro table and timeline views of this new record type.  
+-->
+
+* You can click the asset name in the table view of the Maestro record from the connected record field, and view a pop-up window with the asset thumbnail and several key fields. From the pop-up window, you can navigate to the asset viewer in Experience Manager and view all the details about it.
+
+For more information, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).  
+
+## Week of December 4, 2023
+
+### Copy and paste information from one field to another in the Maestro table view for People-type and linked record fields
+
+Preview and production: December 5, 2023
+
+You can now copy and paste information from one field to another field of the same type in a Maestro record type table view. This functionality is now supported for the following types of fields: 
+
+* People
+* Linked record fields
+
+Consider the following:  
+
+* Copying and pasting field values from one field to another is supported for fields that display multiple values. 
+
+* You cannot copy information from another source, other than a Maestro field of the same type as the field you paste the information in. 
+
+* You cannot copy and paste field values for fields that display in the Details area of a record.  
+
+For more information, see [Edit records](../maestro/records/edit-records.md). 
+
+For information about linked fields, see [Connect record types](../maestro/architecture/connect-record-types.md). 
+
+## Week of November 27, 2023
+
+### Copy and paste information from one field to another in the Maestro table view
+
+Preview and production: November 28, 2023
+
+You can now copy and paste information from one field to another field of the same type in a Maestro record type table view.  
+
+Consider the following:  
+
+* You cannot copy information from another source, other than a Maestro field of the same type as the field you paste the information in. 
+
+* You cannot copy and paste field values for fields that display in the Details area of a record.  
+
+* You cannot copy and paste field values for the following field types:  
+
+    * People 
+
+    * System fields 
+
+    * Linked fields created as a result of connecting records  
+
+For more information, see [Edit records](../maestro/records/edit-records.md). 
+
+## Week of November 6, 2023
+
+### Grouping for the table view
+
+Preview and production: November 7, 2023
+
+You can now group records in the table view of a record type page. You can group by three unique fields in the Maestro interface <!--checking into this for now: and by four fields when using the API-->.  
+
+For more information, see [Manage the table view](../maestro/views/manage-the-table-view.md). 
+
+## Week of October 30, 2023
+
+### New field types for user and date fields to capture who created or last modified a record or on what date 
+
+Preview and production: October 30, 2023
+
+We have introduced the following field types for Maestro records:  
+
+* Created by 
+
+* Created date 
+
+* Last modified by 
+
+* Last modified date 
+
+The field values of the fields created from these field types are read-only and capture the name of the user who created or last modified a record, or the date when the record was created or last modified. 
+
+For more information, see [Create fields](../maestro/fields/create-fields.md).
+
+### Navigate to Workfront objects from a Maestro record
+
+Preview and production: October 31, 2023
+
+You can now open the Workfront object pages from the following areas in Maestro: 
+
+* The read-only linked Workfront object record table view
+
+* The read-only Workfront object record Details page 
+
+For more information, see [Connect records](../maestro/records/connect-records.md). 
+
+### Improved navigation in the table view
+
+Preview and production: November 2, 2023
+
+We have improved the navigation in the table view of a record type page.  
+
+The following are some of the improvements: 
+
+* Use the tab key on your keyboard to navigate the table's columns and rows 
+
+* Add a new record from any column position. Prior to this improvement you could add a record only from the first column. 
+
+* Use the Shift + Enter keyboard combination to add a new record (or row) in the table.  
+
+For more information, see [Create records](../maestro/records/connect-records.md). 
+
+## Week of October 16, 2023
+
+### New People field type 
+
+Preview and production: October 16, 2023
+
+You can now add a People-type field to Maestro record types. You can use People-type fields to associate existing users with a record. For information, see [Create fields](../maestro/fields/create-fields.md). 
+
+### Rich Text- format for Paragraph fields
+
+Preview and production: October 16, 2023
+
+We have added Rich Text format controls for Paragraph-type fields. You can format your paragraph fields using Rich Text either in the Table view of a record type, or in the Details page of a record. For more information, see [Edit records](../maestro/records/edit-records.md). 
+
+
+### Record and grouping color-coding for the Timeline view 
+
+Preview and production: October 19, 2023
+
+You can now color-code the record bars and the groupings in the Timeline view.  
+
+The following are options for the colors you can choose to display for record bars and groupings in the Timeline view: 
+
+* Groupings can match the following colors:  
+
+    * Gray (the default) 
+
+    * The color of the field that you group by 
+
+* Bars can match the following colors: 
+
+    * The color of the record type 
+
+    * The color of a field that you select 
+
+    * The color of the grouping 
+
+    * No color (the default) 
+
+When matching colors to a certain field, you can select only fields with color-coded options.  
+
+For more information, see [Manage the timeline view](../maestro/views/manage-the-timeline-view.md). 
+
+## Week of October 9, 2023
+
+### Search in table view  
+
+Preview and production: October 9, 2023
+
+You can now search for a keyword to quickly find a record in the table view. You can use keywords and special characters in any fields that are visible on the screen to find a record. For information, see [Manage the table view](../maestro/views/manage-the-table-view.md). 
+
 ## Week of September 18, 2023
 
 ### Reorder rows
 
 Preview and production: September 20, 2023
 
-You can now reorder one or several rows (or records) in the Table view of a record type page.
+You can now reorder one or several rows (or records) in the Table view of a record type page. For information, see [Manage the table view](../maestro/views/manage-the-table-view.md). 
 
 ## Week of September 4, 2023
 
@@ -56,7 +305,7 @@ Consider the following:
 
     For more information, see the following articles:
 
-    * [Connect record types](../maestro/architecture-and-fields/connect-record-types.md)
+    * [Connect record types](../maestro/architecture/connect-record-types.md)
     * [Connect records](../maestro/records/connect-records.md)
 
 ### URL support for single-line text fields 

@@ -4,9 +4,10 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
 title: Branding [!DNL Workfront Proof]
-description: This section contains the following articles - EDIT ME.
+description: Learn more about branding in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: fbda05d5-3f06-461c-8ecd-042316ecd277
 ---
 # Branding [!DNL Workfront Proof]

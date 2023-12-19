@@ -7,6 +7,7 @@ title: Get started with [!DNL Adobe Workfront Fusion]
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 author: Becky
 feature: Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 91b07548-059f-4eb9-bf8f-69b0bc397097
 ---
 # Get started with [!DNL Adobe Workfront Fusion]
