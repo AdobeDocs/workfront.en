@@ -29,15 +29,16 @@ You must have the following to perform the steps in this article:
    <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> </td> 
+   <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New: Standard </p>
+ <p>or</p> 
+<p>Current: Plan </p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>You must have administrative access to Timesheets. </p> <p>For more information, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Grant users administrative access to certain areas</a>.</p>  <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must have administrative access to Timesheets. </p> <p>For more information, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Grant users administrative access to certain areas</a>.</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -56,6 +57,8 @@ You must have the following to perform the steps in this article:
 >[!IMPORTANT]
 >
 >To enable timesheet profile changes in current timesheets, you have to delete the existing timesheets and then generate new ones. For instructions, see [Delete timesheets in Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md) and [Manually generate timesheets](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md).
+
+
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
