@@ -57,7 +57,31 @@ Only Workfront administrators can create, edit, or delete workspaces and all inf
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
 
-## Week of December 18, 2023
+## Week of December 18, 2024
+
+### Add comments on records from the Details page
+
+Preview and Production for all customers: December 18, 2023 
+
+>[!NOTE]
+>
+>The following capabilities will be available in Production with the January 2024 release: 
+>
+>* Search for comments 
+>
+>* Copy and paste images 
+>
+>* Drag and drop images 
+>
+>For more information, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+
+You can now collaborate with others on individual records by adding comments or replying to others while viewing a record in the Details page.   
+
+The commenting experience for Maestro records matches the new commenting experience for Workfront objects.   
+
+For more information, see [Manage record comments](/help/quicksilver/maestro/records/manage-record-comments.md).  
+
+## Week of December 11, 2023
 
 ### Update the primary field in a table view of a record type
 
@@ -96,7 +120,7 @@ For more information, see [Manage table view](/help/quicksilver/maestro/views/ma
 
 Preview release: December 14, 2023 
 
-Production release: December 15, 2023 
+Production release: planned for December 15, 2023 
 
 >[!IMPORTANT]
 >
