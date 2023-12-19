@@ -1,12 +1,12 @@
 ---
-title: Adobe Maestro fields
+title: "Fields: article index"
 description: You can add new fields in Adobe Maestro that reflect your organization's lifecycle. Fields are attributes of record types.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
 exl-id: d06028d9-9230-4a6c-a227-20618067192c
 ---
-# Field information
+# Fields: article index
 
 <!--
 title: Adobe Maestro fields

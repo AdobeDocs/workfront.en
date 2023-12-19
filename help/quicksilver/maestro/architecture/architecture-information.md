@@ -1,5 +1,5 @@
 ---
-title: Architecture information
+title: "Architecture: article index"
 description: The following articles describe how you can configure the architecture of Adobe Maestro. As part of this configuration, you learn how you create workspaces, record types, and custom fields to map out the workflows you want to manage in Adobe Maestro.
 hidefromtoc: yes
 hide: yes
@@ -20,7 +20,7 @@ hide: yes
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Architecture information
+# Architecture: article index
 
 >[!IMPORTANT]
 >

@@ -1,5 +1,5 @@
 ---
-title: Views information
+title: "Views: article index"
 description: You can display Adobe Maestro records in a table or timeline view. The following articles describe how you can create and manage Adobe Maestro record views.
 hidefromtoc: yes
 hide: yes
@@ -20,7 +20,7 @@ hide: yes
 
 <!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
-# Views information
+# Views: article index
 
 >[!IMPORTANT]
 >

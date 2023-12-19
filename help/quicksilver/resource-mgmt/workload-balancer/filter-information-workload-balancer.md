@@ -15,7 +15,7 @@ exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
 
 As a resource manager, you can use the Workload Balancer to view and manage the workload of your users. For more general information about the Workload Balancer, see the following articles:
 
-* [Overview of the Workload Balancer](../../resource-mgmt/workload-balancer/overview-workload-balancer.md) 
+* [Workload Balancer overview](../../resource-mgmt/workload-balancer/overview-workload-balancer.md) 
 * [Navigate the Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
 
 >[!IMPORTANT]

@@ -590,7 +590,7 @@ feature-set: Workfront
       * [Create custom statuses and priority labels](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
       * [Statuses overview](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)
       * [List all project statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
-      * [Project statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)
+      * [Overview of system project statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)
       * [List all task statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
       * [Task statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md)
       * [List issue statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
@@ -1738,7 +1738,7 @@ feature-set: Workfront
     * [View resource utilization information](resource-mgmt/resource-utilization/view-utilization-information.md)
   * The Workload Balancer {#the-workload-balancer}
     * [The Workload Balancer: article index](resource-mgmt/workload-balancer/workload-balancer.md)
-    * [Overview of the Workload Balancer](resource-mgmt/workload-balancer/overview-workload-balancer.md)
+    * [Workload Balancer overview](resource-mgmt/workload-balancer/overview-workload-balancer.md)
     * [Access needed to manage resources in the Workload Balancer](resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)
     * [Locate the Workload Balancer](resource-mgmt/workload-balancer/locate-workload-balancer.md)
     * [Overview of assigning work in the Workload Balancer](resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
@@ -1997,7 +1997,7 @@ feature-set: Workfront
   * [Adobe Maestro overview](maestro/maestro-overview.md)
   * [Adobe Maestro release activity](maestro/release-activity.md)
   * Adobe Maestro architecture {#adobe-maestro-architecture}
-    * [Architecture information](maestro/architecture/architecture-information.md)
+    * [Architecture: article index](maestro/architecture/architecture-information.md)
     * [Create workspaces](maestro/architecture/create-workspaces.md)
     * [Overview of record types and taxonomies](maestro/architecture/overview-of-record-types-and-taxonomies.md)
     * [Create operational record types](maestro/architecture/create-record-types.md)
@@ -2009,7 +2009,7 @@ feature-set: Workfront
     * [Example of connecting record types and records](maestro/architecture/example-connect-record-types-and-records.md)
     * [List of workspace templates](maestro/architecture/workspace-templates.md)
   * Adobe Maestro fields {#adobe-maestro-fields}
-    * [Fields information](maestro/fields/fields-information.md)
+    * [Fields: article index](maestro/fields/fields-information.md)
     * [Fields overview](maestro/fields/fields-overview.md)
     * [Create fields](maestro/fields/create-fields.md)
     * [Edit fields](maestro/fields/edit-fields.md)
@@ -2019,14 +2019,15 @@ feature-set: Workfront
     * [Access overview](maestro/access/access-overview.md)
     * [Grant access to Adobe Maestro](maestro/access/grant-access.md)
   * Adobe Maestro records {#adobe-maestro-records}
-    * [Records information](maestro/records/records-information.md) 
+    * [Records: article index](maestro/records/records-information.md) 
     * [Create records](maestro/records/create-records.md)
     * [Connect records](maestro/records/connect-records.md)
     * [Edit records](maestro/records/edit-records.md)
     * [Delete records](maestro/records/delete-records.md)
     * [Share records](maestro/records/share-records.md)
+    * [Manage record comments](maestro/records/manage-record-comments.md)
   * Adobe Maestro views {#adobe-maestro-views}
-    * [Views information](maestro/views/views-information.md)
+    * [Views: article index](maestro/views/views-information.md)
     * [Manage record views](maestro/views/manage-record-views.md)
     * [Manage the table view](maestro/views/manage-the-table-view.md)
     * [Manage the timeline view](maestro/views/manage-the-timeline-view.md)
