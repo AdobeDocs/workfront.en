@@ -10,6 +10,8 @@ exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
 ---
 # Timesheets overview
 
+<!-- Audited: 12/2023 -->
+
 You can use timesheets to track the time that you spend on work, both inside and outside, of Adobe Workfront.
 
 You can log project time on work items, such as projects, tasks, and issues. Time logged on tasks, issues, and projects automatically displays in your timesheet.

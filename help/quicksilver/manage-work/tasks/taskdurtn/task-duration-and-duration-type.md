@@ -11,6 +11,8 @@ exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
 ---
 # Overview of Task Duration and Duration Type
 
+<!-- Audited: 12/2023 -->
+
 The task Duration is the difference between the Planned Completion Date and the Planned Start Date of the task. The Duration indicates the time frame that is available for the task to get completed.
 
 The Duration Type of a task identifies the relationship between the number of resources assigned to a task, the total effort, and the total Duration of the task.
