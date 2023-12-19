@@ -9,6 +9,10 @@ exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
 ---
 # Access [!DNL Adobe Workfront] from [!DNL Microsoft Teams]
 
+>[!NOTE]
+>
+>The Adobe Workfront for Microsoft Teams integration is currently supported only for the classic Microsoft Teams experience.
+
 You can access [!DNL Adobe Workfront] from [!DNL Microsoft Teams] and perform several actions in [!DNL Workfront] by typing commands in either the [!DNL Workfront] bot channel or any other team channel.
 
 You can do the following in [!DNL Workfront] from [!DNL Microsoft Teams]:
