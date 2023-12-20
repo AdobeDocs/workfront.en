@@ -391,7 +391,7 @@ feature-set: Workfront
   * Get started with administration {#get-started-administration}
     * [Get started with administration: article index](administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)
     * [Overview of defining objectives for your Adobe Workfront implementation](administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
-    * [Manage your licenses](administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
+    * [Manage available licenses in your system](administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
     * [Configure the basics](administration-and-setup/get-started-wf-administration/configure-basic-info.md)
     * [Firewall overview](administration-and-setup/get-started-wf-administration/firewall-overview.md)
     * [Configure firewall allowlist](administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
@@ -464,7 +464,7 @@ feature-set: Workfront
       * [Audit logs](administration-and-setup/add-users/create-and-manage-users/audit-logs.md)
       * [View and export audit logs](administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md)
       * [View user login information](administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md)
-      * [Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
+      * [Manage users in the Adobe Admin Console](administration-and-setup/add-users/create-and-manage-users/admin-console.md)
     * How new access levels work {#access-levels}
       * [How new access levels work](administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
       * [New access levels overview](administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)
@@ -472,6 +472,7 @@ feature-set: Workfront
       * [Access to objects and areas by new licenses](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
       * [Functionality available for each object type for new access levels](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
       * [Disable the auto-upgrade option for non-paid users on the new licensing plan](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
+      * [Access levels Requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
     * How access levels work {#legacy-access-levels}
       * [How access levels work](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
       * [Access overview](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
@@ -589,7 +590,7 @@ feature-set: Workfront
       * [Create custom statuses and priority labels](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-custom-status-and-priority-labels.md)
       * [Statuses overview](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md)
       * [List all project statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md)
-      * [Project statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)
+      * [Overview of system project statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md)
       * [List all task statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md)
       * [Task statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md)
       * [List issue statuses](administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md)
@@ -1497,7 +1498,7 @@ feature-set: Workfront
     * [Reports](reports-and-dashboards/reports/reports-overview.md)
     * Reporting basics {#report-basics}
       * [Reporting basics](reports-and-dashboards/reports/reporting/reporting-basics.md)
-      * [Get started with reports in Adobe Workfront](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+      * [Get started with reports](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
       * [Save default reports as new reports](reports-and-dashboards/reports/reporting/save-default-reports-new-reports.md)
     * Reporting elements {#report-elements}
       * [Reporting elements overview](reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
@@ -1555,7 +1556,7 @@ feature-set: Workfront
       * [Calculated custom field example: display a Status timestamp in a Custom Form](reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
       * [Calculated custom field example: display a field's edit history](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
     * Custom View, Filter, and Grouping samples {#custom-view-samples}
-      * [Custom View, Filter, and Grouping samples](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+      * [Custom view, filter, and grouping samples: article index](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
       * [Reports or lists: display users associated with an object](reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
       * [Filter: display incomplete cross-project predecessors](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
       * [Filter: display incomplete cross-project successors](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
@@ -1737,7 +1738,7 @@ feature-set: Workfront
     * [View resource utilization information](resource-mgmt/resource-utilization/view-utilization-information.md)
   * The Workload Balancer {#the-workload-balancer}
     * [The Workload Balancer: article index](resource-mgmt/workload-balancer/workload-balancer.md)
-    * [Overview of the Workload Balancer](resource-mgmt/workload-balancer/overview-workload-balancer.md)
+    * [Workload Balancer overview](resource-mgmt/workload-balancer/overview-workload-balancer.md)
     * [Access needed to manage resources in the Workload Balancer](resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)
     * [Locate the Workload Balancer](resource-mgmt/workload-balancer/locate-workload-balancer.md)
     * [Overview of assigning work in the Workload Balancer](resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
@@ -1898,7 +1899,7 @@ feature-set: Workfront
   * Timesheet details {#details}
     * [Timesheet details: article index](timesheets/timesheets/timesheets.md)
     * [Timesheets overview](timesheets/timesheets/timesheets-overview.md)
-    * [Understand the Timesheet layout](timesheets/timesheets/timesheet-layout.md)
+    * [Timesheet layout overview](timesheets/timesheets/timesheet-layout.md)
   * Create and manage timesheets {#create-and-manage-timesheets-in-adobe-workfront}
     * [Create and manage timesheets: article index](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
     * [Create, edit, and assign timesheet profiles](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
@@ -1996,7 +1997,7 @@ feature-set: Workfront
   * [Adobe Maestro overview](maestro/maestro-overview.md)
   * [Adobe Maestro release activity](maestro/release-activity.md)
   * Adobe Maestro architecture {#adobe-maestro-architecture}
-    * [Architecture information](maestro/architecture/architecture-information.md)
+    * [Architecture: article index](maestro/architecture/architecture-information.md)
     * [Create workspaces](maestro/architecture/create-workspaces.md)
     * [Overview of record types and taxonomies](maestro/architecture/overview-of-record-types-and-taxonomies.md)
     * [Create operational record types](maestro/architecture/create-record-types.md)
@@ -2008,7 +2009,7 @@ feature-set: Workfront
     * [Example of connecting record types and records](maestro/architecture/example-connect-record-types-and-records.md)
     * [List of workspace templates](maestro/architecture/workspace-templates.md)
   * Adobe Maestro fields {#adobe-maestro-fields}
-    * [Fields information](maestro/fields/fields-information.md)
+    * [Fields: article index](maestro/fields/fields-information.md)
     * [Fields overview](maestro/fields/fields-overview.md)
     * [Create fields](maestro/fields/create-fields.md)
     * [Edit fields](maestro/fields/edit-fields.md)
@@ -2018,14 +2019,15 @@ feature-set: Workfront
     * [Access overview](maestro/access/access-overview.md)
     * [Grant access to Adobe Maestro](maestro/access/grant-access.md)
   * Adobe Maestro records {#adobe-maestro-records}
-    * [Records information](maestro/records/records-information.md) 
+    * [Records: article index](maestro/records/records-information.md) 
     * [Create records](maestro/records/create-records.md)
     * [Connect records](maestro/records/connect-records.md)
     * [Edit records](maestro/records/edit-records.md)
     * [Delete records](maestro/records/delete-records.md)
     * [Share records](maestro/records/share-records.md)
+    * [Manage record comments](maestro/records/manage-record-comments.md)
   * Adobe Maestro views {#adobe-maestro-views}
-    * [Views information](maestro/views/views-information.md)
+    * [Views: article index](maestro/views/views-information.md)
     * [Manage record views](maestro/views/manage-record-views.md)
     * [Manage the table view](maestro/views/manage-the-table-view.md)
     * [Manage the timeline view](maestro/views/manage-the-timeline-view.md)
@@ -2148,9 +2150,10 @@ feature-set: Workfront
     * [Adobe Experience Manager Assets modules](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)    
     * [Adobe Experience Manager Forms module](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)    
     * [Adobe Journey Optimizer modules](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
+    * [Adobe Maestro modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
     * [Adobe PDF Services modules](workfront-fusion/apps-and-their-modules/pdf-modules.md)
-    * [Airtable modules](workfront-fusion/apps-and-their-modules/airtable-modules.md)
     * [Adobe Target modules](workfront-fusion/apps-and-their-modules/adobe-target-modules.md)
+    * [Airtable modules](workfront-fusion/apps-and-their-modules/airtable-modules.md)
     * [Allocadia modules](workfront-fusion/apps-and-their-modules/allocadia-modules.md)
     * [Anaplan Modules](workfront-fusion/apps-and-their-modules/anaplan-modules.md)
     * [Archive modules](workfront-fusion/apps-and-their-modules/archive-modules.md)

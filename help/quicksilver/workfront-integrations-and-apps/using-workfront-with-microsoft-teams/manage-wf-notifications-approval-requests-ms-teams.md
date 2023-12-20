@@ -9,6 +9,10 @@ exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
 ---
 # Manage [!DNL Adobe Workfront] notifications in [!DNL Microsoft Teams]
 
+>[!NOTE]
+>
+>The Adobe Workfront for Microsoft Teams integration is currently supported only for the classic Microsoft Teams experience.
+
 You can receive notifications from [!DNL Adobe Workfront] about items you need to approve, assignments you've been given, or comments and changes to items you're associated with.
 
 These notifications contain [!DNL Workfront] actions that you can take within [!DNL Microsoft Teams] without navigating away from [!DNL Microsoft Teams] to accomplish them. 
