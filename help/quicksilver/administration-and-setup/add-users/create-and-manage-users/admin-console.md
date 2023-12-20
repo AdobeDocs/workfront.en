@@ -159,7 +159,7 @@ To approve a user:
 
 {{step-1-to-users}}
 
-1. Select the user, then click the M**o**re icon ![](assets/more-icon.png).
+1. Select the user, then click the **More** icon ![](assets/more-icon.png).
 
 1. To approve the user, click **Approve**, then click **Submit**. 
 
