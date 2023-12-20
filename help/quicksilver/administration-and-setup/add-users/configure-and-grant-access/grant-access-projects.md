@@ -11,6 +11,8 @@ exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
 ---
 # Grant access to projects
 
+<!-- Audited: 12/2023 -->
+
 As an Adobe Workfront administrator, you can use an access level to define a user's access to projects, as explained in the following articles:
 * [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
 * [New access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md)

@@ -9,6 +9,8 @@ exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
 ---
 # Create or edit a board
 
+<!-- Audited: 12/2023 -->
+
 From the [!UICONTROL boards] dashboard, you can create a new board or edit an existing board.
 
 ## Access requirements
@@ -22,6 +24,13 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
    <td> <p>Any</p> </td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New: Contributor or higher </p>
+ <p>or</p> 
+<p>Current: [!UICONTROL Request] or higher </p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
