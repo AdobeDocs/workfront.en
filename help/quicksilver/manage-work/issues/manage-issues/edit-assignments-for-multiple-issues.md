@@ -18,7 +18,7 @@ You can simultaneously modify user assignments to multiple issues.&nbsp;For info
 * [Edit issues](../../../manage-work/issues/manage-issues/edit-issues.md) 
 * [Assign issues](../../../manage-work/issues/manage-issues/assign-issues.md)
 
-For general information about assigning issues, see [Modify issue assignments overview](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+For general information about assigning issues, see [Overview of modifying issue assignments](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!NOTE]
 >

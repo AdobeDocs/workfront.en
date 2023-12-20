@@ -1375,7 +1375,7 @@ feature-set: Workfront
       * [Copy issues](manage-work/issues/manage-issues/copy-issues.md)
       * [Move issues](manage-work/issues/manage-issues/move-issues.md)
       * [Delete issues](manage-work/issues/manage-issues/delete-issues.md)
-      * [Modify issue assignments overview](manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
+      * [Overview of modifying issue assignments](manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
       * [Modify user assignments for multiple issues in a list](manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
       * [Automatically update issue statuses from Awaiting Feedback to In Progress](manage-work/issues/manage-issues/turn-issue-status-from-awf-to-inp-automatically.md)
   * The Gantt Chart {#the-gantt-chart} 

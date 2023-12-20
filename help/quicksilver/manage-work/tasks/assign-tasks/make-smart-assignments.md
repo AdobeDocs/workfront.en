@@ -9,6 +9,12 @@ exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
 ---
 # Make smart assignments
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>   
+  
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> 
+-->
+
 You can use smart assignments to identify who the best user is to complete the work. Smart assignments are suggestions for users that Adobe Workfront presents to you when you assign work items to resources based on an algorithm that determines the most appropriate resource for the job. For information about smart assignments, see [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Access requirements
@@ -25,7 +31,9 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Work or higher</p> </td> 
+   <td> <p>New: Standard</p>
+      Or
+      <p>Current: Work or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -55,7 +63,15 @@ Smart assignments are available in most locations where you can make assignments
    * A task or issue in the Scheduling or Schedule areas
    * A task or issue in the Workload Balancer
 
-1. Place your cursor in the assignment field, and wait for two seconds. The ******Suggested Assignments** list displays.
+1. Place your cursor in the assignment field, and wait for two seconds. The **Suggested Assignments** or the **Here are a few recommendations** list displays. 
+
+   <!--check the casing for "assignments" should be lower case in task lists??-->
+
+   <!--replace the last sentence above with this when we release smarter assignments:
+   The **Suggested assignments** list displays. 
+   NOTE (********and add preview tags for the note*****)
+   The list header displays **Here are a few recommendations** instead of **Suggested assignments** in an issue list.
+   -->
 
    ![](assets/smart-assignments-task-header-nwe-350x302.png)
 

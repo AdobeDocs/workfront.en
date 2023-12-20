@@ -16,13 +16,14 @@ exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-As a Workfront administrator or a group administrator, you can create and modify layout templates to customize the following layout elements in Workfront for your users:
+As an Adobe Workfront administrator or a group administrator, you can create and modify layout templates to customize the following layout elements in Workfront for your users:
 
 * Main Menu
 * Left navigation panel
 * Home area 
 * Views, filters, and groupings people use with lists and reports.
 * On-screen terminology
+* Project, task, and issue headers
 
 After you create or modify a layout template, you can assign it to individual users, teams, groups, or job roles.
 
@@ -42,12 +43,16 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td>Plan</td> 
+   <td><p>New: Standard</p>
+   Or
+   <p>Current: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>To perform these steps at the system level, you need the System Administrator access level.
-To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>To perform these steps at the system level, you need the System Administrator access level.</p>
+<p>To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE</b>:</p> <p>If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. 
+
+For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,7 +68,7 @@ For more information about layout templates, see [Layout templates](../../../adm
 
 ## Create or modify a layout template
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left panel, click **Interface** > **Layout Templates**.
 
@@ -86,10 +91,13 @@ For more information about layout templates, see [Layout templates](../../../adm
    * [Customize Filters, Views, and Groupings using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) 
    * [Customize user interface terminology using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
 
-1. Continue on to test your layout template and make it available to users, as described in the articles below:
+1. Continue to test your layout template and make it available to users, as described in the articles below:
 
    * [Testing a new layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md) 
    * [Grant administrative access for a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md) 
    * [Assign users to a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md)
 
-You can also create a new layout template by copying it and changing the copy. For more information, see [Copy a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
+>[!TIP]
+>
+>You can also create a layout template by copying it and changing the copy. For more information, see [Copy a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md).
+
