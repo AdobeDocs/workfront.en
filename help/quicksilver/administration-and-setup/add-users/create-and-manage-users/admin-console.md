@@ -139,7 +139,7 @@ Workfront users must be added to the Adobe Admin Console. An administrator can c
    >
    >For new Adobe users, the Admin Console delivers an email to invite them to complete the registration process. All users must complete the registration process to access any Adobe application.
    >
-   >For existing Adobe users, the user may or may not receive an email about Workfront being available. This is a preference controlled by the Adobe administrator for the product.
+   >For existing Adobe users, the user may or may not receive an email about Workfront being available. This is a preference controlled by the Adobe administrator for the product. Your Adobe administrator may be a different person than your Workfront administrator.
 
 ### Create users in Workfront and approve them for the Adobe Admin Console
 
