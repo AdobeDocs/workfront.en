@@ -47,7 +47,10 @@ If you are a Workfront administrator, we recommend that you do the following bef
 
 ## Access needed for group administrators {#access-needed-for-group-administrators}
 
-Every group administrator is required to have a Plan license.
+Every group administrator is required to have
+
+* A Plan license in the current pricing and packaging model
+* A Standard license in the new pricing and packaging model
 
 We recommend that group administrators have Edit access to users so that they can perform the following tasks:
 
@@ -64,6 +67,17 @@ For a group administrator who needs to assign timesheet profiles to users in the
 ## Tasks done by group administrators {#tasks-done-by-group-administrators}
 
 As a group administrator, you can carry out the tasks outlined below to manage the groups that you oversee. Some of these are the same as abilities afforded to a Workfront administrator.
+
+>[!NOTE]
+>
+>In the new pricing and packaging model, you must have a Prime plan or higher to perform the following:
+>
+> * Create group event notifications
+> * Configure group project preferences
+> * Configure group task and issue preferences
+> * Unlock configuration of subgroup preferences
+> * Group timesheet and hour preferences
+> * Unlock timesheet and hour preference
 
 ### Manage group members {#manage-group-members}
 
