@@ -5,12 +5,14 @@ content-type: reference;overview
 product-area: system-administration;user-management
 navigation-topic: group-roles
 description: Adobe Workfront administrators in a large organization with many departments might not want to manage all the organization's departments and groups within those departments. Instead, they can create a group for each department and subgroups within that group, each managed by a group administrator.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 589cf9fb-f195-4b69-a240-3f73e6ca623e
 ---
 # Group administrators
+
+<!-- Audited: 12/2023 -->
 
 Adobe Workfront administrators in a large organization with many departments might not want to manage all the organization's departments and groups within those departments. Instead, they can create a group for each department and subgroups within that group, each managed by a group administrator.
 
@@ -34,9 +36,9 @@ If you are a Workfront administrator, we recommend that you do the following bef
 * Make note of the number of groups you have in your system.
 * Determine whether you can change the access level of some of the Workfront administrators and designate them as group administrators instead.
 
-  For more information about the capabilities of group administrators, see [Tasks done by group administrators](#tasks-done-by-group-administrators).
+  For more information about the capabilities of group administrators, see [Tasks done by group administrators](#tasks-done-by-group-administrators) in this article.
 
-* Determine whether you want group administrators to be able to log in as other users, or to reset passwords for users in the groups you administer. Additional access is needed to perform these tasks, as explained in [Access needed for group administrators](#access-needed-for-group-administrators).
+* Determine whether you want group administrators to be able to log in as other users, or to reset passwords for users in the groups you administer. Additional access is needed to perform these tasks, as explained below in [Access needed for group administrators](#access-needed-for-group-administrators).
 * For better user management, consider assigning groups or subgroups instead of users to the following objects:
 
    * Layout Templates
@@ -61,11 +63,7 @@ For a group administrator who needs to assign timesheet profiles to users in the
 
 ## Tasks done by group administrators {#tasks-done-by-group-administrators}
 
-As a group administrator, you can carry out the tasks below to manage the groups that you oversee. Some of these are the same as abilities afforded to a Workfront administrator.
-
-* [Manage group members](#manage-group-members) 
-* [Manage group objects](#manage-group-objects) 
-* [Manage group preferences and tools](#manage-group-preferences-and-tools)
+As a group administrator, you can carry out the tasks outlined below to manage the groups that you oversee. Some of these are the same as abilities afforded to a Workfront administrator.
 
 ### Manage group members {#manage-group-members}
 
