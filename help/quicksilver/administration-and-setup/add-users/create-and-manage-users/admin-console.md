@@ -78,15 +78,15 @@ Before using the Admin Console for Workfront, you should receive an email inviti
 
 ## Access the user and admin area for your Production instance of Workfront {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
-1. From the [Adobe Admin Console page](https://adminconsole.adobe.com/), select the **Products** tab in the top navigation bar, and then select the **Workfront** product tile.
+1. From the [Adobe Admin Console page](https://adminconsole.adobe.com/), select the **Products** tab in the top navigation bar, and then select **Workfront**.
 
-   ![](assets/admin-product-1.png)
+   <!--![](assets/admin-product-1.png)-->
 
 1. In the list that displays, select the link at the top.
 
    This is your Production instance where your users work.
 
-   ![](assets/instances-1.png)
+   <!--![](assets/instances-1.png)-->
 
    >[!TIP]
    >
@@ -159,7 +159,7 @@ To approve a user:
 
 {{step-1-to-users}}
 
-1. Select the user, then click the M**o**re icon ![](assets/more-icon.png).
+1. Select the user, then click the **More** icon ![](assets/more-icon.png).
 
 1. To approve the user, click **Approve**, then click **Submit**. 
 
