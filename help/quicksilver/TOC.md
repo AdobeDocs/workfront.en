@@ -1899,7 +1899,7 @@ feature-set: Workfront
   * Timesheet details {#details}
     * [Timesheet details: article index](timesheets/timesheets/timesheets.md)
     * [Timesheets overview](timesheets/timesheets/timesheets-overview.md)
-    * [Understand the Timesheet layout](timesheets/timesheets/timesheet-layout.md)
+    * [Timesheet layout overview](timesheets/timesheets/timesheet-layout.md)
   * Create and manage timesheets {#create-and-manage-timesheets-in-adobe-workfront}
     * [Create and manage timesheets: article index](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
     * [Create, edit, and assign timesheet profiles](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
