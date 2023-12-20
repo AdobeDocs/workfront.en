@@ -1,34 +1,36 @@
 ---
 title: Manage record comments 
-description: You can collaborate on Adobe Maestro records, by adding updates and asking questions or replies in the Comments area of a record.
+description: You can collaborate on Adobe Maestro records, by adding comments or replies in the Comments area of a record.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
 ---
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
-
 # Manage record comments
 
-You can ollaborate on Adobe Maestro records, by adding updates and asking questions or replies in the Comments area of a record.
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
+
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> 
+
+You can collaborate on Adobe Maestro records, by adding comments or replies in the Comments area of a record.
 
 ## Considerations about commenting on a record
 
 * You can add comments and replies to operational records and taxonomies in Maestro, in the Comments section of a record. 
 
-* Comments added to linked records do not display on the records you are linking from. For example, if you comment on a Project that is linked to a Campaign record, the comment displays only on the project record in Maestro and not on the campaign record from which you are linking. 
+* Comments added to linked records do not display on the records you are linking from. For example, if you comment on a Maestro Product record that is linked to a Campaign record, the comment displays only on the Product record in Maestro and not on the Campaign record from which you are linking. 
 
-* Comments added to linked objects in other applications do not display in Maestro. 
-    Comments added to linked objects in Maestro do not display in other applications.  
-    For example, comments added to projects in Workfront do not display on the same project linked to a campaign in Maestro. 
+* You can add comments to Maestro records created as a result of a connection between a Maestro record and an object from another application. 
+   
+   For example, you can comment on the Project Maestro record after you connect Workfront projects with Maestro records. For more information, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). 
 
-* You can tag users to bring their attention to an update. Tagged users do not receive an in-app notification or an email about your update. You cannot tag teams in a Maestro comment. 
+* Comments added to linked objects in other applications do not display in Maestro and comments added to linked objects in Maestro do not display in other applications.  
+   
+   For example, comments added to projects in Workfront do not display on the same project linked to a campaign in Maestro, and comments added to the project Maestro record don't display in Workfront. 
 
-   >[!TIP]
-   >
-   >*   Comment owners are not automatically tagged in an update. 
-   >
-   >*   You cannot remove tagged users from an update when you reply to it. 
+* You can tag users to bring their attention to an update. Tagged users do not receive an in-app notification or an email about your update. <!--this might change??-->
    
 * You can add an update to records from the following areas of Maestro:
 
@@ -134,27 +136,15 @@ After permissions - replace the table with: **************CHECK ON THE VIEW PERM
 
 -->
 
-
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>--> 
-
 ### Manage comments on records
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/dots-main-menu.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/lines-main-menu.png) in the upper-left corner, then click **[!UICONTROL Maestro]**.
+{{step1-to-maestro}}
 
-    The last accessed workspace opens by default. 
+   The last accessed workspace opens by default. 
 1. Choose a table view from the **View** drop-down menu.
 1. Click the name of a record in the table view. 
 
-    The record's **Details** page opens. 
+    The record's **Details** page opens. The Comments area opens by default in the right panel. 
 
 1. Start entering a comment in the **New comment** box. 
    
@@ -191,9 +181,9 @@ After permissions - replace the table with: **************CHECK ON THE VIEW PERM
       >
       >Comments from the current year do not display the year in the date stamp. Hovering over a timestamp displays the full date, including the year.
 
-1. (Optional and conditional) To search for an existing comment, start typing a keyword in the search box in the upper-right corner of the **Comments** area.     
+1. <span class="preview">(Optional and conditional) To search for an existing comment, start typing a keyword in the search box in the upper-right corner of the **Comments** area.</span>     
 
-    ![](assets/search-box-for-comments-area.png)
+   <span class="preview">![](assets/search-box-for-comments-area.png)</span>
      
 1. (Optional) Click **Reply** or start typing a comment in the **Add reply ...** area, to reply to an existing comment, then follow steps 4-8 above. <!--(**************accurate??***********)-->  
 

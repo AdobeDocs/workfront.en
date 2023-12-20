@@ -23,7 +23,7 @@ You can use resource planning tools to manage your job roles, their availability
 
 Budgeting users' general allocation to projects does not assign them to actual work (tasks and issues). You must assign your resources to work by using the Workload Balancer.
 
-For more information about scheduling resources in Workfront using the Workload Balancer, see [Overview of the Workload Balancer](../workload-balancer/overview-workload-balancer.md). 
+For more information about scheduling resources in Workfront using the Workload Balancer, see [Workload Balancer overview](../workload-balancer/overview-workload-balancer.md). 
 
 ## Resource planning tools in&nbsp;Workfront
 

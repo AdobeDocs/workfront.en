@@ -27,7 +27,7 @@ You can use the Resource Planner to easily understand the availability of users 
 >[!IMPORTANT]
 >
 >You cannot use the Resource Planner to assign actual work (tasks and issues) to users. You can only estimate the amount of time needed for the users or job roles to complete a project, regardless of the tasks and issues they are assigned to.  
->To assign actual work to users you must use the Workload Balancer. For more information about the Workload Balancer, see [Overview of the Workload Balancer](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>To assign actual work to users you must use the Workload Balancer. For more information about the Workload Balancer, see [Workload Balancer overview](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 You can view information in the Resource Planner using three separate views. You can use each view to fulfill one of the following purposes:
 

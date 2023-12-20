@@ -20,7 +20,7 @@ To begin using advanced agile in Workfront:
 
 1. Create an agile team.
 
-   For information, see the section [Create a new agile team](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#creating-an-agile-team-from-scratch) or [Convert an existing team into an agile team](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team) in the article [Create an agile team](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+   For information, see the section [Create an agile team](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md/#create-an-agile-team-1) or [Convert an existing team into an agile team](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md#converting-an-existing-team-into-an-agaile-team) in the article [Create an agile team](../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
 1. Configure the agile team to use Kanban or Scrum.
 

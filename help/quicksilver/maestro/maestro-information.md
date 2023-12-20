@@ -18,7 +18,9 @@ role: User, Admin
 hide: yes
 -->
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
+
+<!-- update the title to "Article index" when we get out of beta and we inhide this article-->
 
 <!--remove the video at open beta or before-->
 
@@ -56,8 +58,8 @@ Access the following articles for an overview of Adobe Maestro:
 
 The following sections contain articles that describe in detail the Maestro features that are currently available: 
 
-* [Access information](../maestro/access/access-information.md): Information about the access and permissions needed to use Adobe Maestro.
-* [Architecture information](../maestro/architecture/architecture-information.md): In-depth information about the architecture of Adobe Maestro, with step-by-step instructions about how you can create and manage workspaces and record types.
-* [Fields information](../maestro/fields/fields-information.md): In-depth information and step-by-step instructions about creating custom fields for Maestro record types. 
-* [Records information](../maestro/records/records-information.md): In-depth information and step-by-step instructions about how you can create and manage records. 
-* [Views information](../maestro/views/views-information.md): In-depth information about Maestro views and how to manage them when viewing records in a record type page.
+* [Access: article index](../maestro/access/access-information.md): Information about the access and permissions needed to use Adobe Maestro.
+* [Architecture: article index](../maestro/architecture/architecture-information.md): In-depth information about the architecture of Adobe Maestro, with step-by-step instructions about how you can create and manage workspaces and record types.
+* [Fields: article index](../maestro/fields/fields-information.md): In-depth information and step-by-step instructions about creating custom fields for Maestro record types. 
+* [Records: article index](../maestro/records/records-information.md): In-depth information and step-by-step instructions about how you can create and manage records. 
+* [Views: article index](../maestro/views/views-information.md): In-depth information about Maestro views and how to manage them when viewing records in a record type page.
