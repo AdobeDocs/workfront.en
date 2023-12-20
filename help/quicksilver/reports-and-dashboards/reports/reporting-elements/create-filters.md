@@ -37,11 +37,33 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>Request or higher</p> </td> 
+   <td> <p>New: Contributor or higher</p> 
+   
+   Or
+
+   <p>Current: Request or higher</p>
+
+   <p><b>NOTE:</b></p>
+
+   To edit a filter in a report, you must have the following license:
+
+   <p>New: Plan</p> 
+   
+   Or
+   
+   <p>Current: Standard</p>
+
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>Edit access to Filters, Views, and Groupings</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <ul><li><p>Edit access to Filters, Views, and Groupings</p></li></ul>
+    <p><b>NOTE:</b></p>
+   To edit a filter in a report, you must have the following access level configuration, in addition to Edit access to Filters, Views, and Groupings:
+
+   <ul><li><p>Edit access to Reports, Dashboards, and Calendars</p></li></ul>   
+   
+   <p><b>NOTE:</b></p> <p> If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
@@ -87,7 +109,7 @@ You can create filters using the types of filter builders described in the table
 <ul>
 <li> <p>The Projects list in the Scenario Planner</p> <p>The Scenario Planner requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md">The Scenario Planner overview</a>. </p> </li>
 </ul>
-<p>NOTE: Standard builders for filters are not available in reports.
+<p><b>NOTE:</b></p> <p>Standard builders for filters are not available in reports.
 </td>
 </tr>
 <tr>
