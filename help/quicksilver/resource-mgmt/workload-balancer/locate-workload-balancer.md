@@ -26,7 +26,7 @@ This article describes the areas where you can access the Workload Balancer.
 >
 >For information about the Workload Balancer and how to use it for managing and scheduling your resources for work, see the following articles: 
 >
->* [Overview of the Workload Balancer](../../resource-mgmt/workload-balancer/overview-workload-balancer.md) 
+>* [Workload Balancer overview](../../resource-mgmt/workload-balancer/overview-workload-balancer.md) 
 >* [Navigate the Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) 
 >* [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md) 
 >* [Manage user allocations in the Workload Balancer](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md) 

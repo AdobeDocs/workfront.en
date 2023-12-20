@@ -17,7 +17,7 @@ This section contains the following articles:
 
 * [Statuses overview](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/statuses-overview.md) 
 * [Access the list of system project statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md) 
-* [System project statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md) 
+* [Overview of system project statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md) 
 * [Access the list of system task statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md) 
 * [Access the list of system issue statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md) 
 * [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) 

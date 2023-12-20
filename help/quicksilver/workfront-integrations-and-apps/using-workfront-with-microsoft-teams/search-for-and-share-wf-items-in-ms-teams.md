@@ -9,6 +9,10 @@ exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
 ---
 # Search for and share [!DNL Adobe Workfront] items in [!DNL Microsoft Teams]
 
+>[!NOTE]
+>
+>The Adobe Workfront for Microsoft Teams integration is currently supported only for the classic Microsoft Teams experience.
+
 You can search for [!DNL Workfront] items in any [!DNL Adobe Workfront] channel in [!DNL Microsoft Teams] and share these items with members of your teams. 
 
 * [Prerequisites for sharing [!DNL Workfront] items in [!DNL Microsoft Teams]](#prerequisites-for-sharing-workfront-items-in-microsoft-teams-prerequisites-for-sharing-workfront-items-in-microsoft-teams)

@@ -118,7 +118,7 @@ You must have the following access to perform the steps in this article:
 
 * Designating Resource Managers on projects is not a prerequisite to allowing users to schedule resources for work using the Workload Balancer.
 
-  For information about the Workload Balancer, see [Overview of the Workload Balancer](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md). 
+  For information about the Workload Balancer, see [Workload Balancer overview](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md). 
 
  -->
 

@@ -17,7 +17,7 @@ The Workload Balancer is a resource scheduling tool in Adobe Workfront that allo
 
 For information about what the Workload Balancer is, how to navigate it, and how to assign work using it, see the following articles:
 
-* [Overview of the Workload Balancer](../../resource-mgmt/workload-balancer/overview-workload-balancer.md) 
+* [Workload Balancer overview](../../resource-mgmt/workload-balancer/overview-workload-balancer.md) 
 * [Access needed to manage resources in the Workload Balancer](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md) 
 * [Locate the Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md) 
 * [Navigate the Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md) 

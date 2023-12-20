@@ -9,6 +9,10 @@ exl-id: 31b86c8d-967a-446a-86f2-3d38e44c45e1
 ---
 # Create [!DNL Adobe Workfront] tasks from [!DNL Microsoft Teams]
 
+>[!NOTE]
+>
+>The Adobe Workfront for Microsoft Teams integration is currently supported only for the classic Microsoft Teams experience.
+
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
