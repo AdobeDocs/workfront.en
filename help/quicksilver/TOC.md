@@ -1498,7 +1498,7 @@ feature-set: Workfront
     * [Reports](reports-and-dashboards/reports/reports-overview.md)
     * Reporting basics {#report-basics}
       * [Reporting basics](reports-and-dashboards/reports/reporting/reporting-basics.md)
-      * [Get started with reports in Adobe Workfront](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+      * [Get started with reports](reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
       * [Save default reports as new reports](reports-and-dashboards/reports/reporting/save-default-reports-new-reports.md)
     * Reporting elements {#report-elements}
       * [Reporting elements overview](reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
@@ -1556,7 +1556,7 @@ feature-set: Workfront
       * [Calculated custom field example: display a Status timestamp in a Custom Form](reports-and-dashboards/reports/calc-cstm-data-reports/example-status-timestamp-in-calculated-field.md)
       * [Calculated custom field example: display a field's edit history](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-field-example-edit-history-of-another-field.md)
     * Custom View, Filter, and Grouping samples {#custom-view-samples}
-      * [Custom View, Filter, and Grouping samples](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+      * [Custom view, filter, and grouping samples: article index](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
       * [Reports or lists: display users associated with an object](reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
       * [Filter: display incomplete cross-project predecessors](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
       * [Filter: display incomplete cross-project successors](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
@@ -1899,7 +1899,7 @@ feature-set: Workfront
   * Timesheet details {#details}
     * [Timesheet details: article index](timesheets/timesheets/timesheets.md)
     * [Timesheets overview](timesheets/timesheets/timesheets-overview.md)
-    * [Understand the Timesheet layout](timesheets/timesheets/timesheet-layout.md)
+    * [Timesheet layout overview](timesheets/timesheets/timesheet-layout.md)
   * Create and manage timesheets {#create-and-manage-timesheets-in-adobe-workfront}
     * [Create and manage timesheets: article index](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
     * [Create, edit, and assign timesheet profiles](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)

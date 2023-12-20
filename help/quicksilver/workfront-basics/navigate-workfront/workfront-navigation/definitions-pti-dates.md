@@ -17,7 +17,7 @@ This article provides definitions to the most common dates associated with proje
 For information about reports and lists, see the following articles:
 
 * [Get started with lists in [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
-* [Get started with reports in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
+* [Get started with reports](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md)
 
 For more information on project, task, and issue fields, see [Glossary of [!DNL Adobe Workfront] terminology](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 

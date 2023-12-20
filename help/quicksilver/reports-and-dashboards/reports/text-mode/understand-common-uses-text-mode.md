@@ -17,7 +17,7 @@ You can expand your reporting capabilities by using text mode in reports and rep
 
 This article outlines just a few common examples of where you would most likely need to use text mode to expand reporting or calculated custom fields capabilities in Adobe Workfront. For a more expansive list of examples, see:
 
-* [Custom View, Filter, and Grouping samples](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md) 
+* [Custom view, filter, and grouping samples: article index](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md) 
 * [Calculated custom data in reports](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
 
 For more information about creating reports using text mode, including classes, videos, and tutorials, see the Learn section on the Adobe Experience League site. 

@@ -45,7 +45,7 @@ To access a timesheet:
 
 {{step1-to-timesheets}}
 
-  All of your timesheets as well as timesheets you have access to display by default. For information about the timesheet layout in Adobe Workfront, see [Understand the Timesheet layout](../../timesheets/timesheets/timesheet-layout.md).
+  All of your timesheets as well as timesheets you have access to display by default. For information about the timesheet layout in Adobe Workfront, see [Timesheet layout overview](../../timesheets/timesheets/timesheet-layout.md).
 
   ![](assets/all-timesheets-list-nwe-350x68.png)
 

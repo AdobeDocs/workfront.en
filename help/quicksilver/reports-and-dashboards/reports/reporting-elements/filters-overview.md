@@ -137,7 +137,7 @@ When working with lists and reports, you can filter information on the screen by
 >For information about editing a report, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 For information about Workfront lists, see the article [Get started with lists in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).  
-For information about Workfront reports, see the article [Get started with reports in Adobe Workfront](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
+For information about Workfront reports, see the article [Get started with reports](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
 
 Consider the following when working with filters in lists or reports:
 
