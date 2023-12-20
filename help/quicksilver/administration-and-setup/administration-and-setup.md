@@ -12,6 +12,8 @@ exl-id: f80bb267-be96-41d4-98c5-398bde66499e
 ---
 # Administration and setup: article index
 
+<!-- Audited: 12/2023 -->
+
 Administrators have the ability to control and customize the user experience in Workfront. Use the links below to get started: 
 
 * [Get started with Adobe Workfront administration](../administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md)

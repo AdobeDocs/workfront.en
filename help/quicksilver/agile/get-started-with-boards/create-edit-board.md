@@ -9,6 +9,8 @@ exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
 ---
 # Create or edit a board
 
+<!-- Audited: 12/2023 -->
+
 From the [!UICONTROL boards] dashboard, you can create a new board or edit an existing board.
 
 ## Access requirements
@@ -23,6 +25,13 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
+    <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New: Contributor or higher </p>
+ <p>or</p> 
+<p>Current: [!UICONTROL Request] or higher </p> 
+</td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
    <td> <p>[!UICONTROL Request] or higher</p> </td> 
@@ -34,7 +43,7 @@ You must have the following access to perform the steps in this article:
 
 ## Create a new board
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
+{{step1-to-boards}}
 1. Click **[!UICONTROL Add board]**.
 
 1. Select a template for the board.
@@ -80,7 +89,7 @@ You must have the following access to perform the steps in this article:
 
 ## Edit an existing board
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
+{{step1-to-boards}}
 1. On the dashboard, select the board to open.
 1. Edit the board as needed. You can click on the board name to rename it.
 
