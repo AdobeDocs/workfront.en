@@ -81,11 +81,31 @@ The commenting experience for Maestro records matches the new commenting experie
 
 For more information, see [Manage record comments](/help/quicksilver/maestro/records/manage-record-comments.md).  
 
+### Maestro connector (beta) for Adobe Workfront Fusion
+
+Preview and Production: December 21, 2023
+
+Now, you can use Adobe Workfront Fusion to connect to Maestro. With the new Adobe Maestro Fusion connection, you can:  
+
+* Create, read, update, and delete records 
+
+* Get a list of records by record type 
+
+* Delete or get a list of record types 
+
+* Search records 
+
+* Make an API call 
+
+* Trigger a scenario when a change is made in Maestro 
+
+For more information, see [Adobe Maestro modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md).
+
 ## Week of December 11, 2023
 
 ### Update the primary field in a table view of a record type
 
-Preview and production: December 14, 2023 
+Preview and Production: December 14, 2023 
 
 You can now choose the field you want to display in the first column of a Maestro table view. This field is now called a primary field.  
 
@@ -120,7 +140,7 @@ For more information, see [Manage table view](/help/quicksilver/maestro/views/ma
 
 Preview release: December 14, 2023 
 
-Production release: planned for December 15, 2023 
+Production release: December 21, 2023 
 
 >[!IMPORTANT]
 >
@@ -149,7 +169,7 @@ For more information, see [Connect record types](/help/quicksilver/maestro/archi
 
 ### Copy and paste information from one field to another in the Maestro table view for People-type and linked record fields
 
-Preview and production: December 5, 2023
+Preview and Production: December 5, 2023
 
 You can now copy and paste information from one field to another field of the same type in a Maestro record type table view. This functionality is now supported for the following types of fields: 
 
@@ -172,7 +192,7 @@ For information about linked fields, see [Connect record types](../maestro/archi
 
 ### Copy and paste information from one field to another in the Maestro table view
 
-Preview and production: November 28, 2023
+Preview and Production: November 28, 2023
 
 You can now copy and paste information from one field to another field of the same type in a Maestro record type table view.  
 
@@ -196,7 +216,7 @@ For more information, see [Edit records](../maestro/records/edit-records.md).
 
 ### Grouping for the table view
 
-Preview and production: November 7, 2023
+Preview and Production: November 7, 2023
 
 You can now group records in the table view of a record type page. You can group by three unique fields in the Maestro interface <!--checking into this for now: and by four fields when using the API-->.  
 
@@ -206,7 +226,7 @@ For more information, see [Manage the table view](../maestro/views/manage-the-ta
 
 ### New field types for user and date fields to capture who created or last modified a record or on what date 
 
-Preview and production: October 30, 2023
+Preview and Production: October 30, 2023
 
 We have introduced the following field types for Maestro records:  
 
@@ -224,7 +244,7 @@ For more information, see [Create fields](../maestro/fields/create-fields.md).
 
 ### Navigate to Workfront objects from a Maestro record
 
-Preview and production: October 31, 2023
+Preview and Production: October 31, 2023
 
 You can now open the Workfront object pages from the following areas in Maestro: 
 
@@ -236,7 +256,7 @@ For more information, see [Connect records](../maestro/records/connect-records.m
 
 ### Improved navigation in the table view
 
-Preview and production: November 2, 2023
+Preview and Production: November 2, 2023
 
 We have improved the navigation in the table view of a record type page.  
 
@@ -254,20 +274,20 @@ For more information, see [Create records](../maestro/records/connect-records.md
 
 ### New People field type 
 
-Preview and production: October 16, 2023
+Preview and Production: October 16, 2023
 
 You can now add a People-type field to Maestro record types. You can use People-type fields to associate existing users with a record. For information, see [Create fields](../maestro/fields/create-fields.md). 
 
 ### Rich Text- format for Paragraph fields
 
-Preview and production: October 16, 2023
+Preview and Production: October 16, 2023
 
 We have added Rich Text format controls for Paragraph-type fields. You can format your paragraph fields using Rich Text either in the Table view of a record type, or in the Details page of a record. For more information, see [Edit records](../maestro/records/edit-records.md). 
 
 
 ### Record and grouping color-coding for the Timeline view 
 
-Preview and production: October 19, 2023
+Preview and Production: October 19, 2023
 
 You can now color-code the record bars and the groupings in the Timeline view.  
 
@@ -297,7 +317,7 @@ For more information, see [Manage the timeline view](../maestro/views/manage-the
 
 ### Search in table view  
 
-Preview and production: October 9, 2023
+Preview and Production: October 9, 2023
 
 You can now search for a keyword to quickly find a record in the table view. You can use keywords and special characters in any fields that are visible on the screen to find a record. For information, see [Manage the table view](../maestro/views/manage-the-table-view.md). 
 
@@ -305,7 +325,7 @@ You can now search for a keyword to quickly find a record in the table view. You
 
 ### Reorder rows
 
-Preview and production: September 20, 2023
+Preview and Production: September 20, 2023
 
 You can now reorder one or several rows (or records) in the Table view of a record type page. For information, see [Manage the table view](../maestro/views/manage-the-table-view.md). 
 
@@ -313,7 +333,7 @@ You can now reorder one or several rows (or records) in the Table view of a reco
 
 ### Connect Maestro records with Workfront companies and groups
 
-Preview and production: September 5, 2023  
+Preview and Production: September 5, 2023  
 
 You can now connect a Maestro record with Workfront companies and groups. You must first create a connection between a Maestro record type and the Workfront companies and groups object types. Then, you can connect a single Maestro record of the selected record type to individual Workfront companies and groups.  
 
@@ -334,7 +354,7 @@ Consider the following:
 
 ### URL support for single-line text fields 
 
-Preview and production: September 7, 2023 
+Preview and Production: September 7, 2023 
 
 For better visibility when working with links in the Table view, we have added support for URLs in single-line text fields. Using URLs to other websites or external drives when updating a single-line text field, now identifies them as links and allows you to click them from the table. Prior to this enhancement, links displayed as text.  
 
@@ -342,7 +362,7 @@ For better visibility when working with links in the Table view, we have added s
 
 ### Field visibility menu for the Table View toolbar
 
-Preview and production: August 31, 2023
+Preview and Production: August 31, 2023
 
 To display the right information on a given set of records, especially if you intend to share the view with others who must see some but not all fields of a record type, you can now select which fields (or columns) to display and which to hide in the Table view.  
 
@@ -354,7 +374,7 @@ For more information, see [Manage the table view](../maestro/views/manage-the-ta
 
 ### Connect Maestro records to programs and portfolios 
 
-Preview and production: August 24, 2023
+Preview and Production: August 24, 2023
 
 You can now connect a Maestro record with Workfront programs and portfolios. You must create a connection between a Maestro record type and a program or portfolio which creates a connected field. Then, you can connect any Maestro records from all other record types within the same workspace to specific programs and portfolios which creates a read-only Workfront Program or Workfront Portfolio record type in the same workspace. Consider the following:
 
@@ -364,7 +384,7 @@ You can now connect a Maestro record with Workfront programs and portfolios. You
 
 ### New sorting functionality for the table view
 
-Preview and production: August 24, 2023
+Preview and Production: August 24, 2023
 
 You can now sort records in the table view of a record type page. 
 The following capabilities are now available: 
@@ -374,7 +394,7 @@ The following capabilities are now available:
 
 ### Improvements to the timeline view: new look-and-feel for groupings and the Compact/ Standard view switch
 
-Preview and production: August 24, 2023
+Preview and Production: August 24, 2023
 
 We have introduced the following improvements to the timeline view: 
 
@@ -405,13 +425,13 @@ You can now scroll horizontally in the timeline view of a record type.
 
 ### Import record types from an Excel file 
 
-Preview and production: August 10, 2023
+Preview and Production: August 10, 2023
 
 You can now import an Excel file to create record types in a workspace. The sheets of the file become the record types, and the columns of the file become their respective fields.  
 
 ### Improved experience for connecting record types and projects 
 
-Preview and production: August 10, 2023
+Preview and Production: August 10, 2023
 
 We have improved the way that you connect record types, including connecting to Workfront projects. As part of this improvement, we made the following changes when adding a field for a record type from the table view:  
 
@@ -423,13 +443,13 @@ We have improved the way that you connect record types, including connecting to 
 
 ### Update the appearance of a record type
 
-Preview and production: July 13, 2023
+Preview and Production: July 13, 2023
 
 You can now select a custom icon for a record type, and a custom color for the record type icon.  
 
 ### New Checkbox field type
 
-Preview and production: July 13, 2023 
+Preview and Production: July 13, 2023 
 
 You can now add a Checkbox field type to Maestro record types. You can use a Checkbox-type field to add a single checkbox option to a record. You can use this field to indicate a specific attribute or status for that particular record. For example, you can use it as a flag for tracking completion, approval, or any other binary attribute for each record.  
 
@@ -437,7 +457,7 @@ You can now add a Checkbox field type to Maestro record types. You can use a Che
 
 ### Quick activation of the contextual menu in a table
 
-Preview and production: June 28, 2023
+Preview and Production: June 28, 2023
  
 We have enabled the ability to activate the contextual menu by right-clicking anywhere in a record row, when viewing the records in the table view or a record type. You can now quickly view, delete, or copy a link to the record's Details page when you access the contextual menu from anywhere in the table view of a record type. Prior to this enhancement, the contextual menu was accessible only from the More menu in the Name column of a record.  
 
@@ -451,7 +471,7 @@ We have introduced a requirement now that the field names of a Maestro record ty
 
 ### Connect Maestro records with Workfront projects
 
-Preview and production: June 5, 2023
+Preview and Production: June 5, 2023
 
 You can now connect a Maestro record with Workfront projects. You must create a connector Maestro record type to establish the connection between Maestro records and Workfront projects. Then, you can connect any Maestro records from all other record types to the connector record using the Relationship field. Consider the following:
 
@@ -463,6 +483,6 @@ You can now connect a Maestro record with Workfront projects. You must create a 
 
 ### Two-date requirement for creating a Timeline view
 
-Preview and production: May 31, 2023  
+Preview and Production: May 31, 2023  
 
 You must have at least two date fields associated with a record type to create a Timeline view.
