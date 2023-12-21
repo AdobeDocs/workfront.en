@@ -239,7 +239,7 @@ Consider the following:
 
     ![](assets/new-connection-tab-with-workfront-aem-options.png)
 
-1. In the **Record Type** field, select one of the following: <!--is the field name spelled right? lowercase "t"?-->
+1. In the **Record Type** field, search for a record type, or select one of the following: <!--is the field name spelled right? lowercase "t"?-->
 
     * Another operational record type or a taxonomy from the workspace you selected
 

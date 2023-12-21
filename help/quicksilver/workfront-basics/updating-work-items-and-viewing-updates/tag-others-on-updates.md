@@ -35,6 +35,7 @@ exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
 > * Home
 > * Summary panel in lists
 > * Summary panel in timesheets 
+> * Summary panel in the Workload Balancer
 
 You can tag users when making an update to an object if you want to draw their attention to an object they might otherwise not follow. 
 

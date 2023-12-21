@@ -180,7 +180,7 @@ After permssions - replace the table with:
 
     
 1. Click the **+** icon in the upper-right corner of the table view to add new fields.
-1. In the **New field** tab, select from the following field types: 
+1. In the **New field** tab, search for a field type in the **Field type** box, or select from the following field types: 
 
     * [Single-line text](#single-line-text)
     * [Paragraph](#paragraph)
