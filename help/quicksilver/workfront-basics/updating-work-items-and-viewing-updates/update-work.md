@@ -36,6 +36,7 @@ After the monthly releases to Production, the same features are also available i
 > * Home
 > * Summary panel in lists
 > * Summary panel in timesheets 
+> * Summary panel in the Workload Balancer
 
 <!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
@@ -94,7 +95,7 @@ After the monthly releases to Production, the same features are also available i
 
    * From a Workfront object, in the Updates  section  
    * From the Home area (for tasks and issues)
-   * From the Summary panel in a list of objects or from a timesheet (for tasks and issues)
+   * From the Summary panel in a list of objects, a timesheet, or from the Workload Balancer (for tasks and issues)
 
 The information on this page describes how you can comment on Workfront objects and how you update projects, tasks, and issues while adding comments to them.
 

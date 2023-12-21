@@ -38,6 +38,7 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 > * Home
 > * Summary panel in lists
 > * Summary panel in timesheets 
+> * Summary panel in the Workload Balancer
 
 <!-- with October 26 release: add somewhere this:
 

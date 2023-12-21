@@ -83,7 +83,13 @@ For more information, see [Manage record comments](/help/quicksilver/maestro/rec
 
 ### Maestro connector (beta) for Adobe Workfront Fusion
 
-Preview and Production: December 21, 2023
+Production: December 21, 2023
+
+>[!IMPORTANT]
+>
+>Your organization must purchase Adobe Workfront Fusion to be able to build connections with Maestro.
+>
+>For information, see [Adobe Workfront Fusion overview](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
 
 Now, you can use Adobe Workfront Fusion to connect to Maestro. With the new Adobe Maestro Fusion connection, you can:  
 
