@@ -18,7 +18,9 @@ role: User, Admin
 hide: yes
 -->
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
+
+<!-- update the title to "Article index" when we get out of beta and we inhide this article-->
 
 <!--remove the video at open beta or before-->
 

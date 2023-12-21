@@ -292,7 +292,7 @@ For instructions on configuring and using the OAuth2 application with user crede
       <td>This is the email address of the developer who is setting up the OAuth2 application.</td> 
      </tr> 
    <tr> 
-      <td role="rowheader">[!UICONTROL Privacy policy UTL]</td> 
+      <td role="rowheader">[!UICONTROL Privacy policy URL]</td> 
       <td>This is the link to where your organization stores the privacy policy.</td> 
      </tr> 
 

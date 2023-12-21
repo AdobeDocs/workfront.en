@@ -10,33 +10,34 @@ exl-id: dd0822b6-80f1-4a2e-bf6a-0c425984f4d0
 ---
 # Approval process overview
 
+<!-- Audited: 12/2023 -->
+
 You can create an approval process and attach it to an object to make sure that designated users review certain changes before the object progresses.
 
-This is available for the following types of objects in&nbsp;Adobe Workfront:
+This is available for the following types of objects in Adobe Workfront:
 
 * Work item (project, task or issue, template, template task)
 * Document
 * Proof
 
-For instructions on creating an approval process, see [Create an approval process for work items](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
-
 This article contains general information about approval processes associated with work items.
+ For instructions on creating an approval process, see [Create an approval process for work items](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-## Types of approval processes
+## Types of approval processes for work items
 
 If you are an Adobe Workfront administrator, or a user with administrative access to approval processes, you can create the following approval processes for projects, tasks, and issues:
 
 * **A system-level global approval process**: Users can attach these to any of the following:
 
    * A project, task, or issue in the Approvals section
-   * In the Edit Project box, the Task Default Approval Process area
-   * In the Queue Details or Queue Topic section of a project, in the Default Approval Process areas. The project must be enabled as a request queue.
+   * In the Edit Project box in the Task Default Approval Process area
+   * In the Queue Details or Queue Topic section of a project in the Default Approval Process areas. The project must be enabled as a request queue.
 
 * **A group-level global approval process**: Users can attach these to the following:
 
    * A project, task, or issue belonging to the group that is associated with the approval process in the Approvals section
-   * In the Edit Project box, the Task Default Approval Process area for a project belonging to the group associated with the approval process
-   * In the Queue Details or Queue Topic section of a project, in the Default Approval Process areas. The project must be enabled as a request queue and must belong to the group associated with the approval process.
+   * In the Edit Project box in the Task Default Approval Process area for a project belonging to the group associated with the approval process
+   * In the Queue Details or Queue Topic section of a project in the Default Approval Process areas. The project must be enabled as a request queue and must belong to the group associated with the approval process.
 
   For information about creating system-level or group-level approval process, see [Create an approval process for work items](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
