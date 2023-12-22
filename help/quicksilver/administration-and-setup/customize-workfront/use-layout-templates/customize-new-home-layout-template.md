@@ -73,7 +73,7 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
       <td>
       <p>Select which widgets will be present in users' workspaces, their position, and choose a background. Note that while users cannot remove the selected widgets, they can move and resize them freely as well as add additional widgets.</p>
       <p>This tab essentially functions as a small new Home workspace; as such, it can be customized according to the steps described in <a href="/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Add, edit, or remove widgets in new Home</a>. Select widgets and arrange the workspace as you would like it to appear for users.</p>
-      <p>To change the background, follow the steps under <b>Background customization</b> in <a href="/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)" class="MCXref xref">Get started with New Home</a>.</p>
+      <p>To change the background, follow the steps under <b>Background customization</b> in <a href="/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md" class="MCXref xref">Get started with New Home</a>.</p>
       </td> 
      </tr> 
      <tr> 
