@@ -73,6 +73,40 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
            </tbody>
         </table>
 
+### Boards enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">Dynamic boards archive completed cards when the board is created</a></p><p>[!BADGE In production ]{type=Informative}</p><p>When you create a dynamic board, you have the option to include completed tasks and issues on the board. For projects with large numbers of completed tasks and issues, the dynamic board might have performance issues. Now, when you create a dynamic board and choose to include completed work, the tasks and issues are brought onto the board as archived cards.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: December 21, 2023</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production for all customers: December 21, 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
 ### Document management enhancements
 
 <table>
@@ -164,6 +198,24 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                  </tr>
                  <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Administrator controls for new Home using layout templates</a></p><p>Administrators can now customize new Home for users using layout templates. Customization options include selecting mandatory widgets and their position, choosing a background, and widget-specific options for choosing available filters and groups (and setting defaults).</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: December 21, 2023</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 24.1 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 24.1 release</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">My Work quick action buttons changed to only display on mouseover</a></p><p>[!BADGE In production ]{type=Informative}</p><p>To improve performance, the quick action buttons available in the My Work widget will now only be displayed when a work item is hovered over with the mouse.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -222,6 +274,44 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                             </li>
                             <li>
                                 <p><span class="preview">Production for all customers: November 9, 2023</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                    </tr>
+           </tbody>
+        </table>
+
+
+### Project enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">AI-driven smart assignments</a></p><p>We have changed the algorithm that Workfront uses to calculate and suggest smart assignments for tasks. The new algorithm applies everywhere in Workfront where you assign a task (task lists, the Assignments area in the task header, Home, and the Summary panel).</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: December 21, 2023</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 24.1 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 24.1 release</p>
                             </li>
                         </ul>
                     </td>
