@@ -143,24 +143,24 @@ Consider the following when creating filters using the different interfaces:
   >
   >1. Use the standard builder to create a filter that has the following syntax:
   >
-  >   `(A OR B) AND C`
+  >      `(A OR B) AND C`
   >
-  >1. Switch to the legacy builder and edit the filter using the syntax of the legacy builder as described in the [Create or edit a filter in the legacy builder](#create-filter-in-legacy-builder) section in this article. The syntax for the legacy builder displays the filter statements as follows:
+  >1. Switch to the legacy builder and edit the filter using the syntax of the legacy builder as described in the section [Create or edit a filter in the legacy builder](#create-filter-in-legacy-builder) in this article. The syntax for the legacy builder displays the filter statements as follows:
   >
-  >   `A AND C`
-  >   `OR`
-  >   `B AND C`
+  >      `A AND C`
+  >      `OR`
+  >      `B AND C`
   >
   >1. Make a change to the filter in the legacy interface.
   >1. Switch back to the standard builder. The filter statement displays according to the logic supported in the legacy builder, as described above.
   >
-  >   The filter displays in the standard builder interface as follows:
+  >      The filter displays in the standard builder interface as follows:
   >  
-  >   `A AND C`
-  >   `OR`
-  >   `B AND C`
+  >      `A AND C`
+  >      `OR`
+  >      `B AND C`
   > 
-  >   This happens because the filter was modified in the legacy interface.
+  >      This happens because the filter was modified in the legacy interface.
 
 ## Create or edit a filter in the standard builder
 

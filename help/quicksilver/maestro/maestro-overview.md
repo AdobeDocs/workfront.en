@@ -46,6 +46,44 @@ The following are some of the main capabilities of Maestro:
 * Fully customize your workflows, from deciding what object types (or record types) your organization uses to configuring how these objects link to one another.  
 * Link to object types from other systems, creating a coherent framework for all your processes.  
 
+## Features currently available in Maestro
+
+The following table illustrates the main features that will be available in Maestro, and a timeline of their availability. The list does not include all features.  
+
+|       Feature                                      |     Available now  |     Available soon   |     In research  |
+|----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
+|     Create workspaces                              |   ✓                           |                                  |                  |
+|     Create operational record types                |   ✓                           |                                  |                  |
+|     Create taxonomies                              |   ✓                           |                                  |                  |
+|     Create individual, named records and taxonomies|   ✓                           |                                  |                  |
+|     Create record custom fields                    |   ✓                           |                                  |                  |
+|     Import record types and fields using an Excel  or CSV file                              |   ✓                           |                                  |                  |
+|     Link records                                   |   ✓                           |                                  |                  |
+|     View records in a table                        |   ✓                           |                                  |                  |
+|     View records in a timeline                     |   ✓                           |                                  |                  |
+|     Filter records                                 |   ✓                           |                                  |                  |
+|     Group records in the timeline view             |   ✓                           |                                  |                  |
+|     Group records in the table view                | ✓                              |                                 |                  |
+|     Sort records in the table view                                 |  ✓                             |                                 |                  |
+|     Sort records in the timeline view                                 |                               |   ✓                              |                  |
+|     Sort groupings in the table view                                 |                               |   ✓                              |                  |
+|     Sort groupings in the timeline view                                 |                               |   ✓                              |                  |
+|     Connect workspaces                                |                               |   ✓                              |                  |
+|     Connect Maestro records and taxonomies  |   ✓                            |  
+|   Search for records in the table view    | ✓    |   |
+|     Connect Maestro records to Workfront projects, programs, portfolios, companies, groups  |   ✓                            |                                 |                  |
+|     Connect Maestro records to Adobe Experience Manager assets                                  |      ✓                         |                                  |                 | 
+|     Record details page                            |   ✓                           |                                  |                  |
+|     Update the layout of the record Details page              |                               |   ✓                              |                  |
+|  Workspace permissions | |✓ |  |
+|     Submit requests                                |                               |                                  |   ✓              |
+|     Creative brief                                 |                               |                                  |   ✓              |
+|     Customize the color and icon of a record                                 |      ✓                         |                                  |                 |
+|     Add comments to records                                 | ✓                              |                                  |                 |
+|     Rich Text formatting for Paragraph fields                                 |      ✓                         |                                  |                 | 
+|     Maestro Modules for Adobe Workfront Fusion                                 |      ✓                         |                                  |                 | 
+|     Copy and paste information from one field to another                                  |      ✓                         |                                  |                 | 
+
 ## Access required to use Maestro during the closed beta program
 
 >[!IMPORTANT]
@@ -338,44 +376,6 @@ To locate Maestro:
     1. Create a Timeline view from the **View** drop-down menu in the upper-right corner of the record type page. 
 
     1. Customize the timeline view by updating Filters, Groupings, or Settings.  
-
-## Features currently available in Maestro
-
-The following table illustrates the main features that will be available in Maestro, and a timeline of their availability. The list does not include all features.  
-
-|       Feature                                      |     Available now  |     Available soon   |     In research  |
-|----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
-|     Create workspaces                              |   ✓                           |                                  |                  |
-|     Create operational record types                |   ✓                           |                                  |                  |
-|     Create taxonomies                              |   ✓                           |                                  |                  |
-|     Create individual, named records and taxonomies|   ✓                           |                                  |                  |
-|     Create record custom fields                    |   ✓                           |                                  |                  |
-|     Import record types and fields using an Excel  or CSV file                              |   ✓                           |                                  |                  |
-|     Link records                                   |   ✓                           |                                  |                  |
-|     View records in a table                        |   ✓                           |                                  |                  |
-|     View records in a timeline                     |   ✓                           |                                  |                  |
-|     Filter records                                 |   ✓                           |                                  |                  |
-|     Group records in the timeline view             |   ✓                           |                                  |                  |
-|     Group records in the table view                | ✓                              |                                 |                  |
-|     Sort records in the table view                                 |  ✓                             |                                 |                  |
-|     Sort records in the timeline view                                 |                               |   ✓                              |                  |
-|     Sort groupings in the table view                                 |                               |   ✓                              |                  |
-|     Sort groupings in the timeline view                                 |                               |   ✓                              |                  |
-|     Connect workspaces                                |                               |   ✓                              |                  |
-|     Connect Maestro records and taxonomies  |   ✓                            |  
-|   Search for records in the table view    | ✓    |   |
-|     Connect Maestro records to Workfront projects, programs, portfolios, companies, groups  |   ✓                            |                                 |                  |
-|     Connect Maestro records to Adobe Experience Manager assets, folders, and collections                                 |      ✓                         |                                  |                 | 
-|     Record details page                            |   ✓                           |                                  |                  |
-|     Update the layout of the record Details page              |                               |   ✓                              |                  |
-|  Workspace permissions | |✓ |  |
-|     Submit requests                                |                               |                                  |   ✓              |
-|     Creative brief                                 |                               |                                  |   ✓              |
-|     Customize the color and icon of a record                                 |      ✓                         |                                  |                 |
-|     Add comments to records                                 |                               |                         ✓         |                 |
-|     Rich Text formatting for Paragraph fields                                 |      ✓                         |                                  |                 | 
-
-
 
 ## Maestro release activity 
 
