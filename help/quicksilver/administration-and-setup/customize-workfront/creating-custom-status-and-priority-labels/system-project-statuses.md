@@ -12,6 +12,8 @@ exl-id: 6b8dd52b-1696-4e5d-bcbb-5b6d3b736df0
 ---
 # Overview of system project statuses
 
+<!--Audited: 12/2023-->
+
 Workfront has 9 built-in system project statuses.
 
 The first 3 in the table below are required, which means that you can unlock, rename, and reorder them, but you cannot hide or delete them.

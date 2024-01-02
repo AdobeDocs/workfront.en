@@ -140,6 +140,7 @@ The following table shows the similarities and differences between the table and
 | Sort records                                       | ✓          |              |
 | Color-code records                     |           | ✓              |
 | Color-code groupings                     |           | ✓              |
+| Search records                     |  ✓         | ✓              |
 
 <!--| Sort groupings                                                        | ✓          | ✓             |-->
  <!--| Display a limited number of fields as columns, by default                      | ✓          |               |-->
