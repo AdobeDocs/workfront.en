@@ -9,6 +9,8 @@ exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
 ---
 # Create or edit filters in Adobe Workfront
 
+<!--Audited: 12/2023-->
+
 You can limit the amount of information you display on the screen in a list of items with a filter. You can define certain criteria based on particular pieces of information about an object and only display the objects that meet those criteria.
 
 You can apply the following types of filters in Adobe Workfront:
