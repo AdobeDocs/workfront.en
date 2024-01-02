@@ -139,6 +139,7 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                                 <p>Production for quarterly release: With the 24.1 release</p>
                             </li>
                         </ul>
+                        <p><span style="color: #ff0000;">This feature is part of a phased release and is currently only available for specific customers.</span></p>
                     </td>
                 </tr>
                 <tr>
@@ -157,6 +158,7 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                                 <p>Production for quarterly release: With the 24.1 release</p>
                             </li>
                         </ul>
+                        <p><span style="color: #ff0000;">This feature is part of a phased release and is currently only available for specific customers.</span></p>
                     </td>
                 </tr>
                 <tr>
@@ -175,6 +177,7 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                                 <p>Production for quarterly release: With the 24.1 release</p>
                             </li>
                         </ul>
+                        <p><span style="color: #ff0000;">This feature is part of a phased release and is currently only available for specific customers.</span></p>
                     </td>
                 </tr>                
            </tbody>
