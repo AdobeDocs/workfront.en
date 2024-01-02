@@ -77,27 +77,21 @@ To change the display name in a project grouping:
 
    * Add the following code to the existing text available in the **Group your Report** box:
 
-     `   
-     group.0.displayname=Your Value
-     `
+        
+     `group.0.displayname=Your Value`
+     
 
       Or, in this case:
 
-      `
-      group.0.displayname=Portfolio
-      `
+      `group.0.displayname=Portfolio`
 
    * Remove all the lines in the text mode interface of the grouping that have the word "name" in them, then add the line:
 
-     `   
-     group.0.name=Your Value
-     `
+     `group.0.name=Your Value`
 
       Or, in this case:
 
-      `   
-      group.0.name=Portfolio
-      `
+      `group.0.name=Portfolio`
 
       >[!TIP]
       >
