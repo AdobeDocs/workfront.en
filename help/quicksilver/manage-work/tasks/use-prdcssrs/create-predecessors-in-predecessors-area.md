@@ -73,7 +73,7 @@ You must have the following access to perform the steps in this article:
 
 1. Specify a **Lag** amount in days.
 
-   For information about Lag Types, see ​ [Overview of Lag Types](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+   For information about Lag Types, see ​ [Lag Types overview](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
 1. Select **Enforced** if you want to enforce the predecessor relationship between the two tasks.
 

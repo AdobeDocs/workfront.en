@@ -1345,7 +1345,7 @@ feature-set: Workfront
       * [Create cross-project predecessors](manage-work/tasks/use-prdcssrs/cross-project-predecessors.md)
       * [Overview of task dependency types](manage-work/tasks/use-prdcssrs/task-dependency-types.md)
       * [Enforce predecessors](manage-work/tasks/use-prdcssrs/enforced-predecessors.md)
-      * [Overview of Lag Types](manage-work/tasks/use-prdcssrs/lag-types.md)
+      * [Lag Types overview](manage-work/tasks/use-prdcssrs/lag-types.md)
       * [Task dependency loop overview](manage-work/tasks/use-prdcssrs/dependency-loop-overview.md)
     * Tips, tricks, and troubleshooting for tasks {#tips-tricks-and-troubleshooting-for-tasks}
       * [Tips, tricks, and troubleshooting for tasks](manage-work/tasks/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-tasks.md)

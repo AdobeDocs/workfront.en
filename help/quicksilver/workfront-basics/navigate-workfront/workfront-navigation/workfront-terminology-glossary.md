@@ -1135,7 +1135,7 @@ The designated full time equivalency for users. A full-time user should have 100
      <li>[!UICONTROL Calendar Days] (ignore holidays)</li> 
      <li>[!UICONTROL Percent]</li> 
      <li>[!UICONTROL Day of Week]</li> 
-    </ul> <p>For more information, see the section "[!UICONTROL Lag Types overview]" in <a href="../../../manage-work/tasks/use-prdcssrs/lag-types.md" class="MCXref xref">Overview of Lag Types</a></p> </td> 
+    </ul> <p>For more information, see <a href="../../../manage-work/tasks/use-prdcssrs/lag-types.md" class="MCXref xref">Lag Types overview</a>.</p> </td>
   </tr> 
   <tr> 
    <td>[!UICONTROL Large Thumbnail]</td> 
