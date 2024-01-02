@@ -11,6 +11,8 @@ This page describes all home enhancements made with the First Quarter 2024 relea
 
 For a list of all changes available at this point in the First Quarter 2024 release cycle, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
+<!--
+
 ## Administrator controls for new Home using layout templates
 
 Administrators can now customize new Home for users using layout templates. Customization options include selecting mandatory widgets and their position, choosing a background, and widget-specific options for choosing available filters and groups (and setting defaults).
@@ -18,6 +20,8 @@ Administrators can now customize new Home for users using layout templates. Cust
 Note that administrator layout template choices override individual users' customization; i.e., when changes to a layout template are saved, users on that layout template will have their new Home page changed to match the layout template and their existing widget selections will pushed to the bottom of the page. While widgets selected by the administrator may be repositioned by a user, they cannot be removed.
 
 For more information, see [Customize new Home using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
+
+-->
 
 ## My Work quick action buttons changed to only display on mouseover
 
