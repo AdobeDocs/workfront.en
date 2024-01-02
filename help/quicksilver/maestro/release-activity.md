@@ -57,7 +57,15 @@ Only Workfront administrators can create, edit, or delete workspaces and all inf
 
 For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
 
-## Week of December 18, 2024
+## Week of December 25, 2023
+
+### Search in timeline view   
+
+Preview and Production: December 27, 2023 
+
+You can now search for a keyword to quickly find a record in the timeline view. You can use keywords and special characters from any fields that are visible on the screen to find a record. For information, see [Manage the timeline view](../maestro/views/manage-the-timeline-view.md). 
+
+## Week of December 18, 2023
 
 ### Add comments on records from the Details page
 
@@ -325,7 +333,7 @@ For more information, see [Manage the timeline view](../maestro/views/manage-the
 
 Preview and Production: October 9, 2023
 
-You can now search for a keyword to quickly find a record in the table view. You can use keywords and special characters in any fields that are visible on the screen to find a record. For information, see [Manage the table view](../maestro/views/manage-the-table-view.md). 
+You can now search for a keyword to quickly find a record in the table view. You can use keywords and special characters from any fields that are visible on the screen to find a record. For information, see [Manage the table view](../maestro/views/manage-the-table-view.md). 
 
 ## Week of September 18, 2023
 

@@ -496,9 +496,12 @@ The following table illustrates the features that will be available in the new c
 
 ## Release timeline 
 
-For information about the features released to the new commenting experience during the beta time frame, see [New commenting beta experience release activity](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).  
+>[!IMPORTANT]
+>
+>For information about the features released to the new commenting experience during the beta time frame, see [New commenting beta experience release activity](../../betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).  
+>
+>For more information about managing updates for Workfront objects, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 
-For more information about managing updates for Workfront objects, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 
 The following is a planned timeline with key milestones for the release of the new commenting experience to the Production environment. In addition to the milestones below, we will continue to improve the commenting experience with smaller enhancements. 
 
