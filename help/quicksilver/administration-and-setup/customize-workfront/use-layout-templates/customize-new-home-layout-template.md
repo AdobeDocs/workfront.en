@@ -7,6 +7,8 @@ description: You can use a Layout Template to configure what users see when they
 author: Nolan
 feature: System Setup and Administration
 role: Admin
+hide: yes
+hidefromtoc: yes
 ---
 # Customize new Home using a layout template
 
