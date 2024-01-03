@@ -121,7 +121,7 @@ You can configure proof settings for proofs you create.
    |Proof template |Description|
    |---|---|
    |**[!UICONTROL Proof subject template]** | Displays on the New proof page, New version page, Message page and Remind page. Can be edited before it's sent. |
-      | **[!UICONTROL Proof message template]** | Displays on the New proof page, New version page, Message page, and Remind page. Can be edited before it's sent. |
+   | **[!UICONTROL Proof message template]** | Displays on the New proof page, New version page, Message page, and Remind page. Can be edited before it's sent. |
 
 ## Change email alerts for a recipient
 
