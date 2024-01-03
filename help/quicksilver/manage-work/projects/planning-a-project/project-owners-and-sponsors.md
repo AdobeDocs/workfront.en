@@ -10,6 +10,8 @@ exl-id: e3e8be3f-105f-4702-8c93-ae8092f5d5d3
 ---
 # Overview of project owners and sponsors
 
+<!-- Audited: 1/2024 -->
+
 You can designate a Project Owner and a Project Sponsor for a project.
 
 The Project Owner is the individual responsible for the completion of the project on time and on budget.

@@ -16,13 +16,24 @@ exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
 
 Email notifications inform collaborators about recent activity on proofs, such as comments, replies, decisions.
 
+## Access requirements
+
+You must have the following access to perform the steps in this article:
+
+<table style="table-layout:auto"> 
+<tr> 
+   <td role="rowheader">Product</td> 
+   <td>Workfront Proof Standalone</td> 
+  </tr> 
+
+</table>
 Email notifications for reviewers can be set on the New proof page, [!UICONTROL New version] page, and managed in the [!UICONTROL Workflow] section of the [!UICONTROL Proof details] page. For more information, see [Generate Proofs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
 * [Generate Proofs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) [Generate Proofs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
 * [Manage Proof Details in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
-Every user can also set their own email alert settings that will be automatically applied when a proof is shared with them. If the collaborators have their preferences, or account administrators have their recommendation on alerts frequency. This can be set as a proof default on the users details pages.
+Every user can also set their own email alert settings which are automatically applied when a proof is shared with them if the collaborators have their preferences or account administrators have their recommendation on alerts frequency. This can be set as a proof default on the users details pages.
 
 >[!NOTE]
 >
