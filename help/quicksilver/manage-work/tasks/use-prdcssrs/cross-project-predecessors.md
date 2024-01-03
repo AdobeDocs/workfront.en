@@ -103,7 +103,7 @@ You must have the following access to perform the steps in this article:
 
    * **Dependency Type:** Select the relationship that you want the predecessor task to have with the dependent task. The default relationship is "Finish-Start," meaning that the predecessor task must finish before the dependent task can start. For more information about the various dependency types, see [Overview of task dependency types](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)
    
-   * **Lag:** Specify the amount of time that must pass after the completion of an enforced predecessor until the dependent task can begin. For more information about the various types of lag, see [Overview of Lag Types](../../../manage-work/tasks/use-prdcssrs/lag-types.md). 
+   * **Lag:** Specify the amount of time that must pass after the completion of an enforced predecessor until the dependent task can begin. For more information about the various types of lag, see [Lag Types overview](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
    
    * **Enforced:** When this option is selected, dependency relationship between the two tasks cannot be circumvented by users beginning tasks early. For example, if you enforce a relationship between Task A and Task B, Task B cannot be started until Task A is complete. For more information about enforcing predecessors, see [Enforce predecessors](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
