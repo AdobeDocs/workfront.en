@@ -404,7 +404,8 @@ This action module lists, deletes, or retrieves files or file content.
    <td role="rowheader">[!UICONTROL File ID]</td> 
    <td> If you are deleting a file, or retrieving a file or file content, enter or map the ID of the file. 
   </tr> 
-</tbody> 
+</tbody>
+</table> 
 
 ### Manage Fine-tunes
 
