@@ -2,13 +2,15 @@
 content-type: overview
 product-area: reporting
 navigation-topic: reporting-elements
-title: Filters overview in Adobe Workfront
+title: Filters overview
 description: You can use filters in Adobe Workfront to reduce the amount of information you display on the screen in lists, reports, or other areas.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
 ---
-# Filters overview in Adobe Workfront
+# Filters overview
+
+<!-- Audited: 01/2024 -->
 
 You can use filters in Adobe Workfront to reduce the amount of information you display on the screen in lists, reports, or other areas.
 
@@ -51,7 +53,7 @@ For information about quick filters, see [Apply the quick filter to a list](../.
 
 You can use permanent filters that you, others, or Workfront created in lists or reports of objects.
 
-For information about objects in Workfront and which ones you can build reports for, see [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+For information about objects in Workfront and which ones you can build reports for, see [Adobe Workfront objects overview](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 For more information about filters in lists and reports, see the following articles:
 
@@ -64,7 +66,7 @@ For more information about filters in lists and reports, see the following artic
 You can use either built-in filters or build custom filters in the following areas of Workfront:
 
 * Home   
-  For information, see the [Filter the Work List](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filtering-by-item-type) section in the article [Display items in the Work List in the Home area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  For information, see the [Filter the Work List](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filter-the-work-list) section in the article [Display items in the Work List in the Home area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 * Requests area. You cannot customize filters in the Requests area.
 
   For information, see [Locate submitted requests](../../../manage-work/requests/create-requests/locate-submitted-requests.md). 
@@ -74,7 +76,7 @@ You can use either built-in filters or build custom filters in the following are
 
 * Utilization report
 
-  For information, see the section [Filter utilization information](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filtering-utilization-information) in the article [View resource utilization information](../../../resource-mgmt/resource-utilization/view-utilization-information.md). 
+  For information, see the section [Filter utilization information](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filter-utilization-information) in the article [View resource utilization information](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
 * Workload Balancer
 
@@ -82,11 +84,11 @@ You can use either built-in filters or build custom filters in the following are
 
 * Analytics area
 
-  For information, see [Apply filters in Enhanced analytics](../../../enhanced-analytics/use-enhanced-analytics-filters.md). 
+  For information, see [Apply filters in Enhanced analytics](../../../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 * Blueprints area
 
-  For information, see [Install a blueprint](../../../administration-and-setup/blueprints/blueprints-install.md). 
+  For information, see [Install a blueprint](../../../administration-and-setup/blueprints/blueprints-install.md).
 
 * Scenario Planner
 
@@ -175,7 +177,7 @@ A filter contains the following elements:
  <tbody> 
   <tr> 
    <td><strong>Object</strong></td> 
-   <td> <p>The Workfront database object of the filter. For information about what objects are reportable in Workfront, see <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>. </p> <p>For example, projects, tasks, issues, users, documents can be the object of a filter. </p> </td> 
+   <td> <p>The Workfront database object of the filter. For information about what objects are reportable in Workfront, see <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Adobe Workfront objects overview</a>. </p> <p>For example, projects, tasks, issues, users, documents can be the object of a filter. </p> </td> 
   </tr> 
   <tr> 
    <td><strong>Field</strong></td> 
@@ -241,8 +243,7 @@ For more information about creating a filter using the text mode interface, see 
 
 ## Create filters for complex fields
 
-* [Create filters for fields whose values contain commas](#create-filters-for-fields-whose-values-contain-commas) 
-* [Create filters for whose values are a multi-select custom field](#create-filters-for-whose-values-are-a-multi-select-custom-field)
+You can create filters for complex fields, such as fields whose values contain commas and fields whose values are a multi-select custom field.
 
 ### Create filters for fields whose values contain commas {#create-filters-for-fields-whose-values-contain-commas}
 

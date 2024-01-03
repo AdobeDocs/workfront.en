@@ -47,15 +47,15 @@ There are several size limits that affect how reports display in Workfront and h
 
   For Excel .xlsx files, this limit is **100,000 rows**.
 
-  These limits exclude the column headings, as well as rows for groupings in the report. For instance, if you have 6 groupings in a report, and 50,000&nbsp;rows or data, the exported file will have 50,000&nbsp;rows.
+  These limits exclude the column headings, as well as rows for groupings in the report. For instance, if you have 6 groupings in a report, and 50,000 rows of data, the exported file will have 50,000 rows.
 
-  If your report has more items than these limits, you receive an error that the export and delivery of the report is not successful. Reduce the number of items you see on the screen to a number less than or equal to these limits to be able to deliver the results.&nbsp;If want to export all the data, we suggest that you use filters to obtain smaller loads&nbsp;of data, then perform multiple exports. For more information, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  If your report has more items than these limits, you receive an error that the export and delivery of the report is not successful. Reduce the number of items you see on the screen to a number less than or equal to these limits to be able to deliver the results. If want to export all the data, we suggest that you use filters to obtain smaller loads of data, then perform multiple exports. For more information, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
   These limits apply to:
 
    * A manual export of a report.
    * A scheduled report.
-   * An export through an API integration.&nbsp;
+   * An export through an API integration.
    * Data exported through a kick-start.
 
      For more information about exporting data via kick-starts, see the article [Export data from Adobe Workfront via Kick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
