@@ -419,8 +419,16 @@ Manage fine-tuning jobs to tailor a model to your specific training data.
    <td> <p>For instructions about connecting your [!DNL OpenAI (ChatGPT & DALL-E)] account to Workfront Fusion, see <a href="#connecting-openaichatgpt-to-workfront-fusion" class="MCXref xref">Connecting [!DNL OpenAI (ChatGPT & DALL-E)] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Action]</td> 
-   <td> Select the action that you want to perform. 
+   <td role="rowheader">[!UICONTROL Select the operation]</td> 
+   <td> Select the action that you want to perform.
+   <ul>
+   <li><p>Fine-tune a model from a dataset</p><p>Enter or map a description for the desired image.</p>
+     <li><p>Get info about a fine-tuning job</p><p>Enter or map the ID of the job.</p>
+   <li><p>Cancel a fine-tuning job</p><p>Enter or map the ID of the job.</p>
+   <li><p>Cancel a fine-tuning job</p><p>Enter or map the ID of the job.</p>
+   <li><p>Get status updates for a fine-tuning job</p><p>Enter or map the ID of the job, and select whether you want to stream these updates.</p>
+   <li><p>Delete a fine-tuned model</p><p>Enter or map the ID of the model you want to delete.</p>
+ </ul> 
   </tr> 
    <tr> 
    <td role="rowheader">[!UICONTROL File ID]</td> 
