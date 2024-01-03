@@ -148,11 +148,11 @@ To manage a timeline view:
 
         You can use any word or special character that is visible on the screen.
 
-        You cannot use keywords that are associated with fields that are hidden in the table view.
+        You cannot use keywords that are associated with fields that do not display in the timeline view.
 
     1. Press Enter on your keyboard to go to the next found field.
     1. (Optional) If there is more than one match, click the up and down arrows to the right of the search keyword to find all the matches in the table.
-    1. Click the X icon in the search box to clear the search keyword.
+    1. Click the **x** icon in the search box to clear the search keyword.
 
 1. Update the following view elements as described in the subsections below:
     * [Filters](#add-filters)
