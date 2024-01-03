@@ -122,7 +122,7 @@ When creating an OAuth2 application, choose the type of application that best me
 1. In the left navigation panel, click **[!UICONTROL System]**, then select **[!UICONTROL OAuth2 Applications]**.
 1. Click **[!UICONTROL Create app integration]**.
    The **New OAuth2 application** box displays.
-1. In the **New OAuth2 application** box, select **[!UICONTROL Server Authentication]**.
+1. In the **New OAuth2 application** box, select **[!UICONTROL Machine to Machine Application]**.
 1. Enter a name for the new application, such as "[!DNL Workfront] for ClientApp."
 1. Click **[!UICONTROL Create]**.
 1. Fill in the fields for the new app.
@@ -174,7 +174,7 @@ For instructions on configuring and using the OAuth2 application with user crede
 1. Click **[!UICONTROL Create app integration]**.
 
    The **New OAuth2 application** displays.
-1. In the **New OAuth2 application** box, select **[!UICONTROL User Authentication]**.
+1. In the **New OAuth2 application** box, select **[!UICONTROL Web Application]**.
 1. Enter a name for the new OAuth2 application, such as "[!DNL Workfront] for ClientApp."
 1. Click **[!UICONTROL Create]**.
 1. Fill in the fields for the new app.
@@ -256,11 +256,11 @@ For instructions on configuring and using the OAuth2 application with user crede
       <td> <p>This field is automatically generated.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Redirect URls]</td> 
+      <td role="rowheader">[!UICONTROL Redirect URLs]</td> 
       <td>Users will be redirected to this path after they have authenticated with Workfront.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL Rotate refresh token everytime it is used]</td> 
+      <td role="rowheader">[!UICONTROL Rotate refresh token every time it is used]</td> 
       <td>Enable this option to issue a new refresh token whenever the refresh token is used. Your application must store the new refresh token after every refresh.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
