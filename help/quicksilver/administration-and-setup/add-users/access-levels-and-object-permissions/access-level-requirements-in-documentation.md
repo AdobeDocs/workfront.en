@@ -17,6 +17,8 @@ Workfront documentation how-to articles contain a table that explains the access
 
 If a row is absent from the Access requirements table in a given article, there are no requirements of that type for that action.
 
+Some rows contain information labeled "New" and "Current." This is because Workfront is transitioning to a new pricing and packaging model, with some organizations operating under the new model and others still using the current model. To find out which model your organization uses, contact your Workfront administrator. You can find details and links to information in the [The Access requirements table](#the-access-requirements-table) section of this article. 
+
 >[!NOTE]
 >
 >If you have questions about how any of the fields in this table apply to you, contact your Workfront administrator.
@@ -31,7 +33,7 @@ If a row is absent from the Access requirements table in a given article, there 
    <td role="rowheader">Adobe Workfront plan</td> 
    <td> Adobe Workfront plans refer to the set of features that your organization has purchased. Most Workfront functionality is available in all plans, with a few exceptions, mostly related to strategic planning and enterprise controls. 
    <ul><li>To find out what Adobe Workfront plan your organization uses, including whether your organization is under the new or current packaging model, contact your Workfront administrator.</li>
-   <li>For instructions on how a Workfront Administrator can locate your organization's Workfront plan, see <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">View your organization's cluster and Workfront plan</a>.</li></ul> </td> 
+   <li>For instructions on how a Workfront administrator can locate your organization's Workfront plan, see <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">View your organization's cluster and Workfront plan</a>.</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
@@ -47,14 +49,26 @@ If a row is absent from the Access requirements table in a given article, there 
       </p> </td> 
   </tr> 
   <tr> 
+   <td role="rowheader">Product</td> 
+   <td>Workfront offers some products that can be purchased in addition to Workfront.
+   <p>Articles that describe procedures performed inside these additional products list the required product here.</p>
+   <ul>
+   <li>Adobe Experience Manager Assets or Assets Essentials </li>
+   <li>Workfront Fusion</li>
+   <li>Workfront Goals</li>
+   <li>Workfront Scenario Planner</li>
+   </ul>
+   <p>To find out if your organization has purchased one of these additional products, contact your Workfront administrator.</p></td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">Access level</td> 
-   <td> Access levels are sets of permissions for actions you can perform in Workfront, set by your Workfront administrator. <p>Workfront has built-in access levels that correspond to Workfront licenses, but your Workfront Administrator can create more access levels to more accurately reflect permission sets needed in your organization.</p>
+   <td> Access levels are sets of permissions for actions you can perform in Workfront, set by your Workfront administrator. <p>Workfront has built-in access levels that correspond to Workfront licenses, but your Workfront administrator can create more access levels to more accurately reflect permission sets needed in your organization.</p>
    <ul>
     <li>Adobe Workfront is transitioning to a new pricing and packaging model. For information about access levels for each model see:
    <ul>
    <li>New: <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">New access levels overview</a></li>
    <li>Current: <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md" class="MCXref xref">Access levels overview</a></li></ul></li>
-    <li>To find out the details of your access level, contact your Workfront Administrator</li>
+    <li>To find out the details of your access level, contact your Workfront administrator</li>
     <li>If you are a Workfront administrator, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Configure access to Adobe Workfront</a> to learn more about granting access to specific objects in the access level.</li>  
    <li>If you have the correct access level and still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</li>
     </td>
