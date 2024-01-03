@@ -111,9 +111,9 @@ Before you begin, you must
 
 You can map any Workfront supported field to a keyword in Experience Manager Assets Essentials. 
 
-To link a field to a keyword, select `dc:subject` in the Experience Manager Assets field dropdown in the metadata mapping area. 
+To link a field to a keyword, select `xcm:keywords` in the Experience Manager Assets field dropdown in the metadata mapping area. 
 
-To map multiple single-line text fields to keywords, enter a comma-separated list of the keyword values into the Workfront side of the metadata mapping, and `dc:subject` on the Experience Manager Assets side. Each field value maps to a separate keyword. You can use a calculated field to combine multiple Workfront fields into a single comma-separated text field.
+To map multiple single-line text fields to keywords, enter a comma-separated list of the keyword values into the Workfront side of the metadata mapping, and `xcm:keywords` on the Experience Manager Assets side. Each field value maps to a separate keyword. You can use a calculated field to combine multiple Workfront fields into a single comma-separated text field.
 
 <!--
 Look for essentials article
@@ -133,7 +133,7 @@ Metadata maps when an asset is pushed from Workfront for the first time. Documen
    >You can map a single Workfront field to multiple Experience Manager Assets fields. You can't map multiple Workfront fields to a single Experience Manager Assets field.
 1. In the **Experience Manager** field, choose an Experience Manager Assets field.
    
-   To map a Workfront field to an Experience Manager Assets tag, select `dc:subject`.
+   To map a Workfront field to an Experience Manager Assets tag, select `xcm:keywords`.
 1. Repeat steps 1 and 2 as needed.
 ![enable metadata](assets/metadata-assets-essentials.png)
 1. Click **Save** or move on to the [Set up linked folders (optional)](#set-up-linked-folders-optional) section in this article.
