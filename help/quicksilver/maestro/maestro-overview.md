@@ -71,6 +71,7 @@ The following table illustrates the main features that will be available in Maes
 |     Connect workspaces                                |                               |   ✓                              |                  |
 |     Connect Maestro records and taxonomies  |   ✓                            |  
 |   Search for records in the table view    | ✓    |   |
+|   Search for records in the timeline view    | ✓    |   |
 |     Connect Maestro records to Workfront projects, programs, portfolios, companies, groups  |   ✓                            |                                 |                  |
 |     Connect Maestro records to Adobe Experience Manager assets                                  |      ✓                         |                                  |                 | 
 |     Record details page                            |   ✓                           |                                  |                  |

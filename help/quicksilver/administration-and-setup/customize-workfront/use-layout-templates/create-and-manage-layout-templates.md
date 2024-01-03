@@ -12,6 +12,8 @@ exl-id: 53076920-3b13-4b65-85cb-38096cf2d04d
 ---
 # Create and manage layout templates
 
+<!--Audited: 12/2023-->
+
 <!--
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->

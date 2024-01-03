@@ -139,6 +139,7 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                                 <p>Production for quarterly release: With the 24.1 release</p>
                             </li>
                         </ul>
+                        <p><span style="color: #ff0000;">This feature is part of a phased release and is currently only available for specific customers.</span></p>
                     </td>
                 </tr>
                 <tr>
@@ -157,6 +158,7 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                                 <p>Production for quarterly release: With the 24.1 release</p>
                             </li>
                         </ul>
+                        <p><span style="color: #ff0000;">This feature is part of a phased release and is currently only available for specific customers.</span></p>
                     </td>
                 </tr>
                 <tr>
@@ -175,6 +177,7 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                                 <p>Production for quarterly release: With the 24.1 release</p>
                             </li>
                         </ul>
+                        <p><span style="color: #ff0000;">This feature is part of a phased release and is currently only available for specific customers.</span></p>
                     </td>
                 </tr>                
            </tbody>
@@ -196,7 +199,7 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                         </p>
                     </td>
                  </tr>
-                 <tr>
+<!--                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Administrator controls for new Home using layout templates</a></p><p>Administrators can now customize new Home for users using layout templates. Customization options include selecting mandatory widgets and their position, choosing a background, and widget-specific options for choosing available filters and groups (and setting defaults).</p>
                     </td>
@@ -213,7 +216,7 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                             </li>
                         </ul>
                     </td>
-                </tr>
+                </tr>-->
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">My Work quick action buttons changed to only display on mouseover</a></p><p>[!BADGE In production ]{type=Informative}</p><p>To improve performance, the quick action buttons available in the My Work widget will now only be displayed when a work item is hovered over with the mouse.</p>

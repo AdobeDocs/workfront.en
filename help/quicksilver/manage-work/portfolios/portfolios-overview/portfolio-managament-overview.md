@@ -9,6 +9,8 @@ exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
 ---
 # Portfolio Management overview
 
+<!--Audited: 12/2023-->
+
 ## Overview of Project Portfolio Management (PPM)
 
 Portfolio or Project Portfolio Management (PPM) is the process of prioritizing and managing a list of projects in order to achieve specific business objectives. Thus, a portfolio is a collection of projects with common business goals. The result of an effective PPM methodology allows executives to:
