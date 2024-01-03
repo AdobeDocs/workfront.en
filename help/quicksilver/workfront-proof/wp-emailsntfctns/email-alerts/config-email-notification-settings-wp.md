@@ -3,26 +3,34 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: email-alerts-workfront-proof
 title: Configure email notification settings in [!DNL Workfront Proof]
-description: Email notifications inform collaborators about recent activity on proofs, such as comments, replies, decisions.
+description: Email notifications generated from Workfront Proof inform collaborators about recent activity on proofs, such as comments, replies, or decisions.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
 ---
 # Configure email notification settings in [!DNL Workfront Proof]
 
+<!--Audited: 01/2024-->
+
 >[!IMPORTANT]
 >
 >This article refers to functionality in the standalone product [!DNL Workfront Proof]. For information on proofing inside [!DNL Adobe Workfront], see [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Email notifications inform collaborators about recent activity on proofs, such as comments, replies, decisions.
+Email notifications inform collaborators about recent activity on proofs, such as comments, replies, or decisions.
 
-Email notifications for reviewers can be set on the New proof page, [!UICONTROL New version] page, and managed in the [!UICONTROL Workflow] section of the [!UICONTROL Proof details] page. For more information, see [Generate Proofs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
+You can set email notifications for reviewers in the following areas: 
+
+* The New proof page
+* The [!UICONTROL New version] page
+* The [!UICONTROL Workflow] section of the [!UICONTROL Proof details] page. 
+
+For more information, see [Generate Proofs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
 * [Generate Proofs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) [Generate Proofs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
 * [Manage Proof Details in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
-Every user can also set their own email alert settings that will be automatically applied when a proof is shared with them. If the collaborators have their preferences, or account administrators have their recommendation on alerts frequency. This can be set as a proof default on the users details pages.
+Every user can also set their own email alert settings that will be automatically applied when a proof is shared with them. <!--If the collaborators have their preferences, or account administrators have their recommendation on alerts frequency. This can be set as a proof default on the users details pages.-->
 
 >[!NOTE]
 >
@@ -40,7 +48,7 @@ For information about profiles, see [Proof Permissions Profiles in [!DNL Workfro
 
 You can configure proof settings for proofs you create. 
 
-For information about proof settings the [!DNL Workfront] administrator or [!DNL Workfront Proof] administrator can configure, see .
+<!--For information about proof settings the [!DNL Workfront] administrator or [!DNL Workfront Proof] administrator can configure, see .-->
 
 1. Click **[!UICONTROL Settings]** > **[!UICONTROL Personal settings]**.
 
@@ -101,26 +109,26 @@ For information about proof settings the [!DNL Workfront] administrator or [!DNL
       <td>Specify whether you want to receive a [!UICONTROL Proof made] email when you create a proof. For more information, see <a href="../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md" class="MCXref xref">The [!UICONTROL Proof Made] email</a></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Format of emails sent to me]</strong> </td> 
-      <td> <p>Choose between HTML styled emails and Plain text emails. </p> <p>Note:  Proofing default settings are overridden by the settings at proof level. However, if proof email notifications are disabled for the whole account in [!UICONTROL Account] settings, no email alerts will be sent to the collaborators even if the [!UICONTROL Disabled email alert] is not selected on proofs.<br></p> </td> 
+      <td role="rowheader">[!UICONTROL Format of emails sent to me] </td> 
+      <td> <p>Choose between HTML styled emails and Plain text emails. </p> <p><b>NOTE</b></p>
+      <p>Proofing default settings are overridden by the settings at proof level. However, if proof email notifications are disabled for the whole account in [!UICONTROL Account] settings, no email alerts will be sent to the collaborators even if the [!UICONTROL Disabled email alert] is not selected on proofs.<br></p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Under **[!UICONTROL Message settings]**, change any of the following:
 
-   | **[!UICONTROL Proof subject template]** | Displays on the New proof page, New version page, Message page and Remind page. Can be edited before it's sent. |
+   |Proof template |Description|
    |---|---|
+   |**[!UICONTROL Proof subject template]** | Displays on the New proof page, New version page, Message page and Remind page. Can be edited before it's sent. |
    | **[!UICONTROL Proof message template]** | Displays on the New proof page, New version page, Message page, and Remind page. Can be edited before it's sent. |
-
-   {style="table-layout:auto"}
 
 ## Change email alerts for a recipient
 
 You can change email alerts for a particular recipient in a batch action.
 
 1. Click **[!UICONTROL Contacts]** in the left navigation panel.
-1. Click the **[!UICONTROL More]** (three dot) menu for the recipient, then click **[!UICONTROL View member details]** in the dropdown menu.
+1. Click the **[!UICONTROL More]** menu ![](assets/more-button-small.png) for the recipient, then click **[!UICONTROL View member details]** in the dropdown menu.
 
 1. Open the **[!UICONTROL Shared items]** section.
 1. Select the checkbox to the left of each item for which you want to change the email alert.
@@ -135,12 +143,12 @@ If you are a [!DNL Workfront Proof] administrator, you can set proof defaults fo
 1. Click **[!UICONTROL Settings]** > **[!UICONTROL Account settings]**. 
 
 1. Open the **[!UICONTROL Users]** tab.
-1. Open the **[!UICONTROL  More]** menu to the right of the user's name. ![More_button_small.png](assets/more-button-small.png)
+1. Open the **[!UICONTROL  More]** menu ![More_button_small.png](assets/more-button-small.png) to the right of the user's name. 
 
 1. Click **[!UICONTROL View users details]** in the dropdown menu.
 1. Under **[!UICONTROL Settings]**, click **[!UICONTROL Default email alert settings]** to expand it.
 
-1. In the drop-down list to the right of the following two settings, select one of the options explained in the table below:
+1. In the dropdown list to the right of the following two settings, select one of the options explained in the table below:
 
    * **[!UICONTROL Default email alert]**: Affects every proof that is shared with you. This setting can be overridden at the proof level.
    * **[!UICONTROL Default email alert for new guest reviewers]**: Affects reviewers that did not previously exist as contacts in your account.
@@ -195,8 +203,8 @@ If you are a [!DNL Workfront Proof] administrator, you can set proof defaults fo
       <td>Specify whether you want to receive a [!UICONTROL Proof made] email when you create a proof. For more information, see <a href="https://support.workfront.com/hc/en-us/article">The [!UICONTROL Proof Made] Email.</a></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Format of emails sent to me]</strong> </td> 
-      <td> <p>Choose between HTML styled emails and Plain text emails. </p> <p>Note:  Proofing default settings are overridden by the settings at proof level. However, if proof email notifications are disabled for the whole account in [!UICONTROL Account] settings, no email alerts will be sent to the collaborators even if the [!UICONTROL Disabled email alert] is not selected on proofs.<br></p> </td> 
+      <td role="rowheader">[!UICONTROL Format of emails sent to me] </td> 
+      <td> <p>Choose between HTML styled emails and Plain text emails. </p> <p><b>NOTE</b></p> <p>Proofing default settings are overridden by the settings at proof level. However, if proof email notifications are disabled for the whole account in [!UICONTROL Account] settings, no email alerts will be sent to the collaborators even if the [!UICONTROL Disabled email alert] is not selected on proofs.<br></p> </td> 
      </tr> 
     </tbody> 
    </table>

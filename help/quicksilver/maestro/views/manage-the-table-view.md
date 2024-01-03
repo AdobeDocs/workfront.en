@@ -203,7 +203,7 @@ You can add up to 500 fields (or columns) in a table view.
 
     1. (Optional) If there is more than one match, click the up and down arrows to the right of the search keyword to find all the matches in the table. 
 
-    1. Click the **X** icon in the search box to clear the search keyword. 
+    1. Click the **x** icon in the search box to clear the search keyword. 
    
 
 ### Add rows (or records) {#add-rows}
