@@ -107,7 +107,7 @@ You can view the individual allocation of Planned Hours for each user or job rol
 
 ### Reports {#reports}
 
-![Planned Hours on report](assets/planned-hours-on-task-report.png.png)
+![Planned Hours on report](assets/planned-hours-on-task-report.png)
 
 You can add the Planned Hours field in project, task, and issue reports.
 
