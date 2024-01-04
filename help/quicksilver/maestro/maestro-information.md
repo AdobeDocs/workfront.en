@@ -1,12 +1,12 @@
 ---
-title: Adobe Maestro information
+title: "Adobe Maestro information: article index"
 description: As a marketing operations leader, you can use Adobe Maestro to organize work across the marketing lifecycle for all your teams. The articles in this section describe how you can configure Maestro and how you can start using its capabilities as part of your campaign management operations.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 ---
-# Adobe Maestro information
+# Adobe Maestro information: article index
 
 <!--
 title: Adobe Maestro 

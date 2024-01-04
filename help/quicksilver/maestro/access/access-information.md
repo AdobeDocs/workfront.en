@@ -1,12 +1,12 @@
 ---
-title: Access information
+title: "Access information: article index"
 description: As a Workfront administrator, you must give access to your users to use Maestro. The following articles contain information about what access your users need to use Maestro.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
 ---
-# Access information
+# Access information: article index
 
 >[!IMPORTANT]
 >
