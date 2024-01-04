@@ -1259,7 +1259,7 @@ feature-set: Workfront
       * [Calculation example - Calculate EAC as a roll up from tasks](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)
       * [Calculation example - calculate EAC at the Project Level](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-at-project-level-example.md)
   * Tasks {#tasks}
-    * [Tasks](manage-work/tasks/tasks-overview.md)
+    * [Tasks: article index](manage-work/tasks/tasks-overview.md)
     * Task information {#task-information}
       * [Task information](manage-work/tasks/task-information/task-information.md)
       * [Tasks overview](manage-work/tasks/task-information/tasks-overview.md)
@@ -1473,7 +1473,7 @@ feature-set: Workfront
     * [Tips, Tricks, and Troubleshooting for Teams and Groups](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
     * [Username Already in Use](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * Reporting {#reporting}
-  * [Reporting](reports-and-dashboards/reports-and-dashboards-overview.md)
+  * [Reports and Dashboards: article index](reports-and-dashboards/reports-and-dashboards-overview.md)
   * Reporting Canvas {#reporting-canvas}
     * [Reporting Canvas](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
     * Manage reports {#manage-reports}
