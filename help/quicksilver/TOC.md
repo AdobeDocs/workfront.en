@@ -1506,7 +1506,7 @@ feature-set: Workfront
     * Reporting elements {#report-elements}
       * [Reporting elements overview](reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
       * [Reporting elements: filters, views, and groupings](reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
-      * [Filters overview in Adobe Workfront](reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+      * [Filters overview](reports-and-dashboards/reports/reporting-elements/filters-overview.md)
       * [Create or edit filters in Adobe Workfront](reports-and-dashboards/reports/reporting-elements/create-filters.md)
       * [Filter and condition modifiers](reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
       * [Views overview in Adobe Workfront](reports-and-dashboards/reports/reporting-elements/views-overview.md)

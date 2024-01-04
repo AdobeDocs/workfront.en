@@ -2,13 +2,15 @@
 content-type: overview
 product-area: reporting
 navigation-topic: reporting-elements
-title: Filters overview in Adobe Workfront
+title: Filters overview
 description: You can use filters in Adobe Workfront to reduce the amount of information you display on the screen in lists, reports, or other areas.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3daacfba-9da7-4c04-be98-ec5f953c3c34
 ---
-# Filters overview in Adobe Workfront
+# Filters overview
+
+<!-- Audited: 01/2024 -->
 
 You can use filters in Adobe Workfront to reduce the amount of information you display on the screen in lists, reports, or other areas.
 
@@ -43,7 +45,7 @@ The following are types of filters that you can use in Workfront:
 
 ## Workfront temporary filters
 
-Quick filters allow you to search for an item on the screen by using a keyword. After you refresh the page, the temporary quick filter is cleared. You cannot save temporary filters to reuse.
+Quick filters allow you to search for an item on the screen using a keyword. After you refresh the page, the temporary quick filter is cleared. You cannot save temporary filters to reuse.
 
 For information about quick filters, see [Apply the quick filter to a list](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
@@ -51,7 +53,7 @@ For information about quick filters, see [Apply the quick filter to a list](../.
 
 You can use permanent filters that you, others, or Workfront created in lists or reports of objects.
 
-For information about objects in Workfront and which ones you can build reports for, see [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+For information about objects in Workfront and which ones you can build reports for, see [Adobe Workfront objects overview](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 For more information about filters in lists and reports, see the following articles:
 
@@ -64,7 +66,7 @@ For more information about filters in lists and reports, see the following artic
 You can use either built-in filters or build custom filters in the following areas of Workfront:
 
 * Home   
-  For information, see the [Filter the Work List](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filtering-by-item-type) section in the article [Display items in the Work List in the Home area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  For information, see the [Filter the Work List](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filter-the-work-list) section in the article [Display items in the Work List in the Home area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 * Requests area. You cannot customize filters in the Requests area.
 
   For information, see [Locate submitted requests](../../../manage-work/requests/create-requests/locate-submitted-requests.md). 
@@ -74,7 +76,7 @@ You can use either built-in filters or build custom filters in the following are
 
 * Utilization report
 
-  For information, see the section [Filter utilization information](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filtering-utilization-information) in the article [View resource utilization information](../../../resource-mgmt/resource-utilization/view-utilization-information.md). 
+  For information, see the section [Filter utilization information](../../../resource-mgmt/resource-utilization/view-utilization-information.md#filter-utilization-information) in the article [View resource utilization information](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
 
 * Workload Balancer
 
@@ -82,11 +84,11 @@ You can use either built-in filters or build custom filters in the following are
 
 * Analytics area
 
-  For information, see [Apply filters in Enhanced analytics](../../../enhanced-analytics/use-enhanced-analytics-filters.md). 
+  For information, see [Apply filters in Enhanced analytics](../../../enhanced-analytics/use-enhanced-analytics-filters.md).
 
 * Blueprints area
 
-  For information, see [Install a blueprint](../../../administration-and-setup/blueprints/blueprints-install.md). 
+  For information, see [Install a blueprint](../../../administration-and-setup/blueprints/blueprints-install.md).
 
 * Scenario Planner
 
@@ -124,7 +126,7 @@ You can use either built-in filters or build custom filters in the following are
 
 ## Overview of filters in lists and reports
 
-When working with lists and reports, you can filter information on the screen by using the following types of filters:
+When working with lists and reports, you can filter information on the screen with the following types of filters:
 
 * built-in filters
 * new filters you or others create from scratch
@@ -136,8 +138,9 @@ When working with lists and reports, you can filter information on the screen by
 >When creating or editing filters in reports, you must edit the report in order for the new filter to become the default filter for the report. When you edit just the filter, outside the report builder, the default filter of the report is not updated.  
 >For information about editing a report, see the article [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-For information about Workfront lists, see the article [Get started with lists in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).  
-For information about Workfront reports, see the article [Get started with reports](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
+For information about Workfront lists, see [Get started with lists in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+
+For information about Workfront reports, see [Get started with reports](../../../reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
 
 Consider the following when working with filters in lists or reports:
 
@@ -145,13 +148,13 @@ Consider the following when working with filters in lists or reports:
 
 * Your Workfront administrator must grant you Edit access to filters, views, and groupings to create permanent filters.
 
-  For information about granting access to filters, views, and groupings, see [Grant access to filters, views, and groupings](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
+  For more information, see [Grant access to filters, views, and groupings](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
-* Your level of permissions to a filter determines how filters are saved. If you created the filter originally, you can save the changes, otherwise you are prompted to save a version of the filter that you are modifying.
+* Your level of permissions to a filter determines how filters are saved. If you created the filter originally, you can save the changes. Otherwise, you are prompted to save a new version of the filter that you are modifying.
 
   >[!TIP]
   >
-  >Keep in mind if you make changes to a filter you have shared with others, the changes impact them as well.
+  >Keep in mind that if you make changes to a filter you have shared with others, the changes impact them as well.
 
 * You can customize a filter that was shared with you only if the user who shared it granted you Manage access. For information about sharing a filter, see [Share a filter, view, or grouping](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
@@ -175,14 +178,14 @@ A filter contains the following elements:
  <tbody> 
   <tr> 
    <td><strong>Object</strong></td> 
-   <td> <p>The Workfront database object of the filter. For information about what objects are reportable in Workfront, see <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Understand objects in Adobe Workfront</a>. </p> <p>For example, projects, tasks, issues, users, documents can be the object of a filter. </p> </td> 
+   <td> <p>The Workfront database object of the filter. For information about what objects are reportable in Workfront, see <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Adobe Workfront objects overview</a>. </p> <p>For example, projects, tasks, issues, users, or documents can be the object of a filter. </p> </td> 
   </tr> 
   <tr> 
    <td><strong>Field</strong></td> 
    <td> <p>The attribute of the object that you are filtering by. </p> <p>For example, you can filter by Portfolio Name, or Project Owner. In these case, Name and Owner are fields of the Portfolio and Project objects. </p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Value</strong></p> </td> 
+   <td><strong>Value</strong></td> 
    <td>The actual name of the field in Workfront. For example, Complete can be the value of a Project&nbsp;Status field. </td> 
   </tr> 
   <tr> 
@@ -235,22 +238,21 @@ For information about creating a filter using the standard or legacy builder int
 
 ## Create filters using the text mode interface
 
-You can build filters using the text mode interface. We recommend to build most of the filter statements using the standard or beta builder interface, and to edit the code of the filter only as a final step. Building a filter from scratch using the text mode interface alone is not recommended.
+You can build filters using the text mode interface. We recommend to build most of the filter statements using the standard or legacy builder interface, and to edit the code of the filter only as a final step. Building a filter from scratch using the text mode interface alone is not recommended.
 
 For more information about creating a filter using the text mode interface, see [Edit a filter using text mode](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
 ## Create filters for complex fields
 
-* [Create filters for fields whose values contain commas](#create-filters-for-fields-whose-values-contain-commas) 
-* [Create filters for whose values are a multi-select custom field](#create-filters-for-whose-values-are-a-multi-select-custom-field)
+You can create filters for complex fields, such as fields whose values contain commas and fields whose values are a multi-select custom field.
 
 ### Create filters for fields whose values contain commas {#create-filters-for-fields-whose-values-contain-commas}
 
 When building a filter in text mode and filtering for field values that contain commas, you must add a slash ("/") before the commas separating the values, to ensure that the value is read as one filter option. This only applies for the following field types:
 
 * Dropdowns
-* Radio Buttons
-* Checkboxes
+* Radio buttons
+* Check boxes
 
 For example, you have a radio button field on a project called "Color" and the options for it are:
 
@@ -264,13 +266,13 @@ If you want to build a filter that would find only projects where the third opti
 
 `DE:check_Mod=in`
 
-This syntax ensures that the values are read together, as one option. If you omit the slash, Workfront reads the comma as an 'OR', in which case only the projects that have either the first or the second option would be selected.
+This syntax ensures that the values are read together, as one option. If you omit the slash, Workfront reads the comma as an OR, in which case only the projects that have either the first or the second option would be selected.
 
 This syntax also applies when building prompts. For more information about using prompts, see [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
 ### Create filters for whose values are a multi-select custom field {#create-filters-for-whose-values-are-a-multi-select-custom-field}
 
-You can report on multi-select custom fields. For example, you can report on fields that are checkboxes.
+You can report on multi-select custom fields. For example, you can report on fields that are check boxes.
 
 However, when you want to exclude results that have only one of the options selected, the report will display any objects that have that option and any other option selected.
 

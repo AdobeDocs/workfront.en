@@ -22,10 +22,9 @@ As a resource manager, you can use the Workload Balancer to view and manage the 
 >
 >To efficiently find work items and to focus on the users or items you manage, we strongly recommend that you use filters in the Workload Balancer. This allows you to display the correct information before you start managing the assignments of your resources.
 >
->When you save and apply a new filter then navigate away from the Workload Balancer, the filter is preserved even after you log off and log back on. 
+>When you save and apply a new filter then navigate away from the Workload Balancer, the filter is preserved even after you log off and log back on.
 
-
-This article contains information about filters in the Workload Balancer. For information about filters in Workfront, see [Filters overview in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+This article contains information about filters in the Workload Balancer. For information about filters in Workfront, see [Filters overview](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Access requirements
 

@@ -16,7 +16,7 @@ For information about how to create a View, see [Views overview in Adobe Workfro
 For more information about groupings, see [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 If your report displays too many items, a chart is not created. In this case, you must also add a Filter to the report to reduce the number of results in your report.  
-For more information about filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+For more information about filters, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Access requirements
 

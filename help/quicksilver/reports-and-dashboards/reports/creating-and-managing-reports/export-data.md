@@ -117,7 +117,7 @@ There are several limitations around the way reports display in Workfront as wel
 
   If your report has more than 50,000/ 65,000/ 100,000 rows and you want to export all the data, we suggest that you use filters or prompts to obtain smaller loads of data, and perform multiple exports.
 
-  For information on using filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).  
+  For information on using filters, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).  
   
   For information about using prompts, see [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 

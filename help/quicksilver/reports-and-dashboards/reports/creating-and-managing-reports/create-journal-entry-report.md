@@ -244,7 +244,7 @@ This information can be used to help with auditing and to illustrate how well yo
    >
    >To report on condition changes, you can instead add the filter rule **Field Name** > **Equal** > **Condition**.
 
-   For more information on adding filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   For more information on adding filters, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Optional) To narrow the focus of the report and reduce load times, add a prompt.
 
@@ -327,7 +327,7 @@ To see when a task or issue was deleted:
      <!--WRITER check link; this png file has spaces
      [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
 
-   For more information on adding filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   For more information on adding filters, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Optional) To narrow the focus of the report and reduce load times, add a prompt.
 
@@ -435,7 +435,7 @@ To see how custom fields changed over the course of a project's life cycle:
 
      ![](assets/qs-custom-form-changes-filter-350x92.png)
 
-   For more information on adding filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   For more information on adding filters, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Optional) To narrow the focus of the report and reduce load times, add a prompt.
 
@@ -536,7 +536,7 @@ You can set up the Journal Entry report to show how often the Planned Completion
 
    ![](assets/qs-planned-completion-date-change-filter-350x91.png)
 
-   For more information on adding filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   For more information on adding filters, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Optional) To narrow the focus of the report and reduce load times, add a prompt.
 
@@ -625,7 +625,7 @@ You can set up the Journal Entry report to show how many times the project owner
 
      ![](assets/qs-owner-changes-filter-350x94.png)
 
-   For more information on adding filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   For more information on adding filters, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Optional) To narrow the focus of the report and reduce load times, add a prompt.
 

@@ -64,7 +64,7 @@ Editing a filter using text mode is identical for reports and lists. Accessing t
 >
 >We recommend that you build as much of the filter as possible in standard mode, then convert the filter to text mode to edit it.
 
-For more information about building filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+For more information about building filters, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 For information about creating a report, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
