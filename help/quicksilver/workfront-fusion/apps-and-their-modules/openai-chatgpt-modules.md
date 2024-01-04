@@ -234,6 +234,8 @@ Given a list of messages describing a conversation, this action module returns a
  </tbody> 
 </table>
 
+<!--
+
 ### Edit image
 
 This action module makes edits or creates variations of existing images.
@@ -266,6 +268,8 @@ This action module makes edits or creates variations of existing images.
   </tr> 
  </tbody> 
 </table>
+
+-->
 
 ### Generate images
 
@@ -352,6 +356,8 @@ This action module a custom HTTP request to the OpenAI API.
  </tbody> 
 </table>
 
+<!--
+
 ### Manage Audio
 
 This action modules converts audio to text.
@@ -383,6 +389,8 @@ This action modules converts audio to text.
   </tr> 
  </tbody> 
 </table>
+
+-->
 
 ### Manage files
 
