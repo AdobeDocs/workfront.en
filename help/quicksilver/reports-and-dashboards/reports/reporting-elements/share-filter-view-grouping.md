@@ -26,7 +26,7 @@ When a filter, view, or grouping is shared with you, you can apply that filter, 
 
 For information about how to create a filter, view, or grouping, see the following articles:
 
-* [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 
+* [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 
 * [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md) 
 * [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 

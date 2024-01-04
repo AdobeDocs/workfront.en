@@ -23,7 +23,7 @@ You can apply the following types of filters in Adobe Workfront:
 
 * Filters in other areas of Workfront, outside of lists and reports.
 
-  For a list of all filters in Workfront and the areas where you can apply them, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  For a list of all filters in Workfront and the areas where you can apply them, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Access requirements
 
@@ -235,7 +235,7 @@ Create a filter using the standard builder interface:
 
    ![Include if all or any or true drop-down menu](assets/new-filters-all-or-any-are-true-drop-down-menu-nwe.png)
 
-   For more information about filter operators, see [Filters overview in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   For more information about filter operators, see [Filters overview](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Click the field drop-down menu to view a list of recently used fields, and suggested fields to filter by. The suggested fields are currently displayed in the list that you are filtering.
 

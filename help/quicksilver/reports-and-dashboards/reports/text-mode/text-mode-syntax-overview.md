@@ -255,7 +255,7 @@ The syntax for creating filters is similar to that for creating custom prompts.
 
 For information about building filters and custom prompts, see:
 
-* [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 
+* [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 
 * [Add a prompt to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
 For information about creating filters in text mode, see [Edit a filter using text mode](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).

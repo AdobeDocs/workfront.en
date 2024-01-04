@@ -48,7 +48,7 @@ Some attributes of filters are:
 * Workfront provides a number of filters for various objects by default.
 * You can customize filters that you own or manage.
   
-  For more information about filters, see the article [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  For more information about filters, see the article [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ![Filter icon](assets/projects-list-with-filter-drop-down-highlighted-nwe.png)
 
