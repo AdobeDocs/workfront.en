@@ -19,7 +19,7 @@ You can apply the following types of filters in Adobe Workfront:
 
   For information about quick filters, see [Apply the quick filter to a list](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
-* Permanent filters that you can save and use numerous time on multiple lists and reports. This article describes how to create a permanent filter or edit an existing one in a list or report.
+* Permanent filters that you can save and use numerous times on multiple lists and reports. This article describes how to create a permanent filter or edit an existing one in a list or report.
 
 * Filters in other areas of Workfront, outside of lists and reports.
 
@@ -196,7 +196,7 @@ Create a filter using the standard builder interface:
    </tr>
    <tr>
    <td role="rowheader"><strong>System defaults</strong></td>
-   <td>Workfront system default filters, as well as filters that the Workfront administrator added to your list of filters, either at the system level or in your layout template.</td>
+   <td>Workfront system default filters, and filters that the Workfront administrator added to your list of filters, either at the system level or in your layout template.</td>
    </tr>
    <tr>
    <td role="rowheader"><strong>Shared with me</strong></td>
@@ -237,7 +237,7 @@ Create a filter using the standard builder interface:
 
    For more information about filter operators, see [Filters overview](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Click the field drop-down menu to view a list of recently used fields, and suggested fields to filter by. The suggested fields are currently displayed in the list you are filtering.
+1. Click the field drop-down menu to view a list of recently used fields, and suggested fields to filter by. The suggested fields are currently displayed in the list that you are filtering.
 
    You can also select **Browse fields** to view a list of all fields you can filter by. The fields in the advanced search are grouped by object category.
 
@@ -251,20 +251,20 @@ Create a filter using the standard builder interface:
    >
    >As you build the filter, the results appear immediately in the list. If the filter panel covers the list, you can close it to see the display. The information you entered remains in the builder when you open the panel again.
 
-1. Start typing the value of a field you want to filter by. For example, start typing the name of an issue, if you want to filter by `Issue:Name`. Select the value when it displays in the list.
+1. Start typing the value of a field that you want to filter by. For example, start typing the name of an issue, if you want to filter by `Issue:Name`. Select the value when it displays in the list.
 
    >[!TIP]
    >
    >Depending on what modifier you selected, you can select multiple values.
 
-1. Click **Add filter** to select another field and add a new filtering criteria to the filter statement.
+1. Click **Add filter** to select another field add a filtering criteria to the filter statement.
 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete.png) to remove existing filter statements.
 
    Or
    
    Click **Clear all** to clear all filtering criteria.
 
-1. (Optional) Click **Add filter group** to add another set of filtering criteria. The default operator between the sets is AND. Click the operator to change it to OR.
+1. (Optional) Click **Add filter group** to add another set of filtering criteria. The default operator between the sets is **AND**. Click the operator to change it to **OR**.
 
    >[!TIP]
    >
@@ -288,7 +288,7 @@ Create a filter using the standard builder interface:
 
    >[!TIP]
    >
-   >We recommend building as much of the filter as possible using the standard builder interface and only using text mode when you must make modifications to the filter that are only supported in text mode.
+   >We recommend building as much of the filter as possible using the standard builder interface and only using text mode when you must modify the filters that are only supported in text mode.
 
    For more information about creating a filter using the text mode interface, see [Edit a filter using text mode](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
@@ -300,7 +300,7 @@ Create a filter using the standard builder interface:
 
 1. (Optional) Click **Apply** to apply the filter to the list and see the results.
 
-   If the filter produces no results, the list will be empty.
+   If the filter produces no results, the list is empty.
 
 1. Click **Save as new** to save the filter for future use.
 
@@ -310,7 +310,7 @@ Create a filter using the standard builder interface:
 
    >[!TIP]
    >
-   >Be sure to name the filter so that you can find it later. If you do not name the filter, it will be called Untitled Filter in the system.
+   >Be sure to name the filter so that you can find it later. If you do not name the filter, it is called Untitled Filter in the system.
 
 1. Select an icon for the new filter from the **Icon** drop-down menu.
 
@@ -323,17 +323,17 @@ Create a filter using the standard builder interface:
    >Clicking **Cancel** at any time takes you back to the filter building area.
 
 1. Click **Save**. The filter is saved in the Saved list and is applied to the list of items.
-1. (Optional) To move a filter to the Favorited list, hover over any filter in the filter drawer and click the Favorite icon ![Favorite icon](assets/favorites-icon-small.png).
+1. (Optional) To move a filter to the Favorited list, hover over any filter in the filter drawer and click the **Favorite** icon ![Favorite icon](assets/favorites-icon-small.png).
 
    Or
    
    Hover over any filter in the filter drawer, click the More menu ![More menu](assets/more-icon-spectrum.png), and click **Favorite**.
 
-1. (Optional) Click the **Stack filters** button to activate stacked filters. This option allows you to apply more than one saved filter. The filter rules are applied in the order you select them.
+1. (Optional) Click the **Stack filters** button to activate stacked filters. This option allows you to apply more than one saved filter. The filter rules are applied in the order that you select them.
 
    >[!TIP]
    >
-   >There is no limit to the number of filters you can select.
+   >There is no limit to the number of filters that you can select.
    >
    >When you select multiple filters, all of their conditions must be met simultaneously to display matching results.
 
@@ -371,7 +371,7 @@ Regardless of the method you use to create filters, creating a filter from scrat
 
    Or
 
-   Hover over the filter you want to modify and click the **Edit** icon ![](assets/edit-icon.png). 
+   Hover over the filter that you want to modify and click the **Edit** icon ![](assets/edit-icon.png). 
    
    The builder for customizing the filter launches.
 
@@ -382,7 +382,7 @@ Regardless of the method you use to create filters, creating a filter from scrat
 
      Fields associated with the object of your filter are listed in the **Start typing field name** box. 
    
-   * Click **AND** or **OR** when adding a new filter rule.  
+   * Click **AND** or **OR** when adding a filter rule.  
      When adding filter rules, use the filter modifiers to establish the condition of your filter. For more information about filter modifiers, see [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
      >[!NOTE]
@@ -409,11 +409,11 @@ Regardless of the method you use to create filters, creating a filter from scrat
 
    For more information about creating a filter using the text mode interface, see [Edit a filter using text mode](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md). 
 
-1. Click **Save Filter** to create a new filter or replace the selected one with your changes.
+1. Click **Save Filter** to create a filter or replace the selected one with your changes.
    
    Or
    
-   Click **Save as New Filter** to create a new filter from the selected one. 
+   Click **Save as New Filter** to create a filter from the selected one. 
    
    The new filter displays in the list of filters and it is automatically applied to the list or report you selected.
 
