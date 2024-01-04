@@ -55,19 +55,21 @@ You can proof and approve documents linked to an external cloud provider the sam
 
 ## Access requirements
 
-You must have the following:
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p> Any</p> </td> 
+   <td role="rowheader">Adobe Workfront plan*</td>
+   <td> <p> Any</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront licenses*</td> 
-   <td> <p>Request or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td>
+   <td><p>New: Contributor or higher</p>
+    <p>or</p>
+    <p>Current: Request or higher</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
