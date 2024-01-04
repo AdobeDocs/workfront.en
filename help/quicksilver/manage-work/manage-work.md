@@ -22,7 +22,7 @@ Additionally, you can use the Gantt Chart to define a timeline of your work or d
 This section contains the following subsections:
 
 * [Projects: article index](../manage-work/projects/projects-overview.md) 
-* [Tasks](../manage-work/tasks/tasks-overview.md) 
+* [Tasks: article index](../manage-work/tasks/tasks-overview.md) 
 * [Issues](../manage-work/issues/issues-overview.md) 
 * [The Gantt Chart](../manage-work/gantt-chart/the-gantt-chart.md) 
 * [Portfolio Management](../manage-work/portfolios/portfolio-management-overview.md) 
