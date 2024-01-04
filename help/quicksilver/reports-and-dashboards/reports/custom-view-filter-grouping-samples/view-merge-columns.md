@@ -26,8 +26,19 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Request to modify a view </p>
-   <p>Plan to modify a report</p> </td> 
+   <td> <p> Current: 
+   <ul>
+   <li>Request to modify a view</li> 
+   <li>Plan to modify a report</li>
+   </ul>
+     </p>
+     <p> New: 
+   <ul>
+   <li>Contributor to modify a view</li> 
+   <li>Standard to modify a report</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
