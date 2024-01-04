@@ -84,11 +84,12 @@ Some rows contain information labeled "New" and "Current." This is because Workf
    <p>Articles that describe procedures performed inside these additional products list the required product here.</p>
    <ul>
    <li>Adobe Experience Manager Assets or Assets Essentials </li>
-   <li>Workfront Fusion</li>
-   <li>Workfront Goals</li>
-   <li>Workfront Scenario Planner</li>
+   <li>Workfront Fusion *</li>
+   <li>Workfront Goals *</li>
+   <li>Workfront Scenario Planner *</li>
    </ul>
-   <p>To find out if your organization has purchased one of these additional products, contact your Workfront administrator.</p></td> 
+   <p>* Included with Workfront Ultimate plan
+   <p>To find out if your organization has purchased one of these additional products, or if your organization is on the Workfront Ultimate plan, contact your Workfront administrator.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license</td> 
