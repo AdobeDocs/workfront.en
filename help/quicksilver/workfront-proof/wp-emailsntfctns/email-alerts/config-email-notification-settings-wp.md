@@ -29,10 +29,10 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">Product</td> 
    <td>Workfront Proof Standalone</td> 
   </tr> 
-
 </table>
+
 Email notifications for reviewers can be set on the New proof page, [!UICONTROL New version] page, and managed in the [!UICONTROL Workflow] section of the [!UICONTROL Proof details] page. For more information, see [Generate Proofs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
-=======
+
 * The New proof page
 * The [!UICONTROL New version] page
 * The [!UICONTROL Workflow] section of the [!UICONTROL Proof details] page. 
