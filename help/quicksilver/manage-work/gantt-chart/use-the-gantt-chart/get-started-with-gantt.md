@@ -9,7 +9,9 @@ exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
 ---
 # Get started with the [!UICONTROL Gantt Chart]
 
-The Gantt charts in Adobe Workfront provide a visual representation of the timeline of a list of tasks or projects. 
+<!-- Audited: 01/2024 -->
+
+The Gantt charts in Adobe Workfront provide a visual representation of the timeline of a list of tasks or projects.
 
 In [!DNL Adobe Workfront], there are two [!UICONTROL Gantt Charts] with similar functionality:
 
@@ -29,7 +31,7 @@ Although they look and feel similar, the functionality of each one is different.
 * You can configure what information displays on both the task list [!UICONTROL Gantt Chart] and the project list [!UICONTROL Gantt Chart].
 * You cannot configure the colors or the fonts in which the [!UICONTROL Gantt chart] information is displayed.
 * When information is updated from tasks, it is automatically reflected in both the task list [!UICONTROL Gantt Chart] and the project list [!UICONTROL Gantt Chart].
-* When information is updated from the template tasks, it is automatically reflected in the template task list [!UICONTROL Gantt Chart]. 
+* When information is updated from template tasks, it is automatically reflected in the template task list [!UICONTROL Gantt Chart]. 
 
 ## Access the [!UICONTROL Gantt Chart]
 
@@ -38,9 +40,6 @@ The [!UICONTROL Gantt] charts in [!DNL Workfront]  provide a visual representati
 You can view the task list [!UICONTROL Gantt Chart] directly from the task list on a project or from a task report. 
 
 You can view the project list [!UICONTROL Gantt Chart] in a project list or a project report.
-
-* [Task list [!UICONTROL Gantt Chart]](#task-list-gantt-chart)
-* [Project list [!UICONTROL Gantt Chart]](#project-list-gantt-chart)
 
 ### Task list [!UICONTROL Gantt Chart] {#task-list-gantt-chart}
 
