@@ -37,6 +37,7 @@ exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
 > * Home
 > * Summary panel in lists
 > * Summary panel in timesheets 
+> * Summary panel in the Workload Balancer
 
 When someone replies to a comment or a system update on a work object, their reply appears in the communication thread in the Updates section for the object. 
 

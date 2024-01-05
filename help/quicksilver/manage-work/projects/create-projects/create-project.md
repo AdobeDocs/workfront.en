@@ -151,6 +151,11 @@ Consider the following:
 
 ## Create a project from scratch
 
+>[!NOTE]
+>
+>If you are creating a project using a template, we recommend that you also see the article [Create a project using a template](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
+
+
 1. Do one of the following:
 
    * Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner. Click **Projects**, then expand **New Project**.

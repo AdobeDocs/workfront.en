@@ -10,6 +10,8 @@ exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
 ---
 # Wildcard filter variables overview
 
+<!-- Audited: 12/2023 -->
+
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>(NOTE: This article is linked to the training self-serve promted articles for user-based and date-based widlcards (how-to articles). This serves as the "overview/ reference" article for those articles. Consider renaming this when that is allowed.) </p>
@@ -30,7 +32,7 @@ You can use filter variables—also known as wildcards—when building the follo
 <table>
     <tr>
         <td>Filters in lists, reports, and the Resource Planner</td>
-        <td>For information about Workfront filters, see the article <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md">Filters overview in Adobe Workfront</a>.
+        <td>For information about Workfront filters, see the article <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md">Filters overview</a>.
 </td>
     </tr>
     <tr>

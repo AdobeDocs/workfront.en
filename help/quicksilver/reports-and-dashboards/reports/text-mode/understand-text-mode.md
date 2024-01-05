@@ -9,6 +9,8 @@ exl-id: 8be8cbd0-da1b-4e90-a52e-dc352f646d18
 ---
 # Text Mode overview
 
+<!--Audited: 12/2023-->
+
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the UI (for the areas mentioned in the comments below and the new NWE filters as well))</p>
 -->
@@ -341,7 +343,7 @@ We recommend that you build as much of the filter of the report as possible in s
 -->
 
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about building filters, see <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filters overview in Adobe Workfront</a>.</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information about building filters, see <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md" class="MCXref xref">Filters overview</a>.</p>
 -->
 
 <!--

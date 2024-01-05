@@ -51,7 +51,7 @@ To understand predecessor relationships, you must understand:
 
 * **Lags:** You can built lags in your dependencies which create a delay that must occur after the completion of a predecessor task and before the successor task can begin. Lags impact the timeline of the project.
 
-  To understand lag types, see [Overview of Lag Types](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+  To understand lag types, see [Lag Types overview](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
 ## Create predecessor relationships
 

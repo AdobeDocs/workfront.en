@@ -10,6 +10,8 @@ exl-id: f9b8b721-d4ba-4ed5-b7a4-ad3610cbc18e
 ---
 # Get started with boards: article index
 
+<!-- Audited: 12/2023 -->
+
 This section contains the following articles:
 
 * [Adobe Workfront Boards video demonstrations](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)

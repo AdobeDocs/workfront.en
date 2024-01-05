@@ -11,6 +11,8 @@ exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
 ---
 # Configure system-wide project preferences
 
+<!--Audited: 12/2023-->
+
 As an [!DNL Adobe Workfront] administrator, you can configure the default preferences for all projects created throughout the system. These preferences impact project, task, and issue behavior.
 
 >[!NOTE]

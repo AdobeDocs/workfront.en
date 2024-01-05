@@ -140,6 +140,20 @@ To manage a timeline view:
     
     Records display in the Compact view by default. 
 
+1. Do the following to quickly find records that match a keyword:
+
+    1. Click the **Search** icon ![](assets/search-icon.png) and start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the record with the correct match is highlighted.
+
+        ![](assets/search-box-and-results-timeline-view.png)
+
+        You can use any word or special character that is visible on the screen.
+
+        You cannot use keywords that are associated with fields that do not display in the timeline view.
+
+    1. Press Enter on your keyboard to go to the next found field.
+    1. (Optional) If there is more than one match, click the up and down arrows to the right of the search keyword to find all the matches in the table.
+    1. Click the **x** icon in the search box to clear the search keyword.
+
 1. Update the following view elements as described in the subsections below:
     * [Filters](#add-filters)
     * [Grouping](#add-grouping)

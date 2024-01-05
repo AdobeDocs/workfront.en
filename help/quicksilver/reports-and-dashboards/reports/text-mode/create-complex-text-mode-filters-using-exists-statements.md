@@ -137,7 +137,7 @@ To create a filter that spans over multiple levels in the object hierarchy:
 
 1. Create a filter for the Original Object.  
    For example, create an Issue filter.  
-   For information about creating filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   For information about creating filters, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Click **Switch to Text Mode**.
 1. Paste the following formula example to the text mode interface of the new filter and replace the suggested text with the correct objects and fields:  
@@ -181,7 +181,7 @@ To create a filter that references missing objects:
 
 1. Create a filter for the Original Object.  
    For example, create a Parameter filter.  
-   For information about creating filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   For information about creating filters, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Click **Switch to Text Mode**.
 1. (Conditional) If you are filtering for objects that are missing, paste the following formula example to the text mode interface of the new filter and replace the suggested text with the correct objects and fields:
@@ -212,7 +212,7 @@ Using the text mode interface, you can build a filter for a list of issues to di
 To filter issues by the Portfolio Owner Name:
 
 1. Create an Issue filter.  
-   For information about creating filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   For information about creating filters, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Click **Switch to Text Mode**.
 1. Refer to the following generic code:
@@ -251,7 +251,7 @@ Using the text mode interface, you can build a filter to view Custom Fields (Par
 To filter for Custom Fields that are not associated with a Custom Form:
 
 1. Create a Parameter or a Custom Field filter.  
-   For information about creating filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   For information about creating filters, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Click **Switch to Text Mode**.
 1. Refer to the following generic code:
@@ -285,7 +285,7 @@ Using the text mode interface, you can build a filter to view Users who did not 
 To filter for users who did not log time during last week:
 
 1. Create a User filter.  
-   For information about creating filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   For information about creating filters, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Click **Switch to Text Mode**.
 1. Refer to the following generic code:
@@ -329,7 +329,7 @@ For example, you can filter a list of tasks to display only tasks that meet the 
 To filter tasks by the Portfolio Owner Name and Portfolio Alignment Scorecard ID:
 
 1. Create a Task filter.  
-   For information about creating filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   For information about creating filters, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Click **Switch to Text Mode**.
 1. Paste the following code in the **Set Filter Rules for your Report** area:  

@@ -15,11 +15,13 @@ feature-set: Workfront
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
     * 2024 Q1 Release {#release-24-q1}
       * [2024 Q1 Release overview](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
-      * [First Quarter 2024 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md)
-      * [First Quarter 2024 Document management enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md)
+      * [2024 Q1 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md)
+      * [2024 Q1 Document management enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md)
+      * [2024 Q1 Boards enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-boards-enhancements.md)
+      * [2024 Q1 Home enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md)
       * [2024 Q1 Integration enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md)
-      * [First Quarter 2024 Update stream and notification enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md)
-      * [First Quarter 2024 Home enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md)
+      * [2024 Q1 Project enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md)
+      * [2024 Q1 Update stream and notification enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md)
     * 2023 Q4 Release {#release-23-q4}
       * [2023 Q4 Release overview](product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)
       * [2023 Q4 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-admin-enhancements.md)
@@ -472,7 +474,7 @@ feature-set: Workfront
       * [Access to objects and areas by new licenses](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
       * [Functionality available for each object type for new access levels](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
       * [Disable the auto-upgrade option for non-paid users on the new licensing plan](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
-      * [Access levels Requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
+      * [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
     * How access levels work {#legacy-access-levels}
       * [How access levels work](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
       * [Access overview](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
@@ -531,6 +533,7 @@ feature-set: Workfront
       * [Customize the left panel](administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md)
       * [Customize the Details view](administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md)
       * [Customize Home and Summary](administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+      * [Customize new Home](administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
       * [Customize pinned pages](administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
       * [Customize Filters, Views, Groupings](administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
       * [Customize user interface terminology](administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)
@@ -1256,7 +1259,7 @@ feature-set: Workfront
       * [Calculation example - Calculate EAC as a roll up from tasks](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)
       * [Calculation example - calculate EAC at the Project Level](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-at-project-level-example.md)
   * Tasks {#tasks}
-    * [Tasks](manage-work/tasks/tasks-overview.md)
+    * [Tasks: article index](manage-work/tasks/tasks-overview.md)
     * Task information {#task-information}
       * [Task information](manage-work/tasks/task-information/task-information.md)
       * [Tasks overview](manage-work/tasks/task-information/tasks-overview.md)
@@ -1342,7 +1345,7 @@ feature-set: Workfront
       * [Create cross-project predecessors](manage-work/tasks/use-prdcssrs/cross-project-predecessors.md)
       * [Overview of task dependency types](manage-work/tasks/use-prdcssrs/task-dependency-types.md)
       * [Enforce predecessors](manage-work/tasks/use-prdcssrs/enforced-predecessors.md)
-      * [Overview of Lag Types](manage-work/tasks/use-prdcssrs/lag-types.md)
+      * [Lag Types overview](manage-work/tasks/use-prdcssrs/lag-types.md)
       * [Task dependency loop overview](manage-work/tasks/use-prdcssrs/dependency-loop-overview.md)
     * Tips, tricks, and troubleshooting for tasks {#tips-tricks-and-troubleshooting-for-tasks}
       * [Tips, tricks, and troubleshooting for tasks](manage-work/tasks/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-tasks.md)
@@ -1470,7 +1473,7 @@ feature-set: Workfront
     * [Tips, Tricks, and Troubleshooting for Teams and Groups](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
     * [Username Already in Use](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * Reporting {#reporting}
-  * [Reporting](reports-and-dashboards/reports-and-dashboards-overview.md)
+  * [Reports and Dashboards: article index](reports-and-dashboards/reports-and-dashboards-overview.md)
   * Reporting Canvas {#reporting-canvas}
     * [Reporting Canvas](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
     * Manage reports {#manage-reports}
@@ -1503,7 +1506,7 @@ feature-set: Workfront
     * Reporting elements {#report-elements}
       * [Reporting elements overview](reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
       * [Reporting elements: filters, views, and groupings](reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
-      * [Filters overview in Adobe Workfront](reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+      * [Filters overview](reports-and-dashboards/reports/reporting-elements/filters-overview.md)
       * [Create or edit filters in Adobe Workfront](reports-and-dashboards/reports/reporting-elements/create-filters.md)
       * [Filter and condition modifiers](reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
       * [Views overview in Adobe Workfront](reports-and-dashboards/reports/reporting-elements/views-overview.md)
@@ -2213,6 +2216,7 @@ feature-set: Workfront
     * [Microsoft Word Templates modules](workfront-fusion/apps-and-their-modules/microsoft-word-templates-modules.md)
     * [MIME modules](workfront-fusion/apps-and-their-modules/mime.md)
     * [NetSuite modules](workfront-fusion/apps-and-their-modules/netsuite.md)
+    * [[!DNL OpenAI(ChatGPT & DALL-E)] modules](workfront-fusion/apps-and-their-modules/openai-chatgpt-modules.md)
     * [Qualtrics modules](workfront-fusion/apps-and-their-modules/qualtrics-modules.md)
     * [Quickbase modules](workfront-fusion/apps-and-their-modules/quickbase-modules.md)
     * [Salesforce modules](workfront-fusion/apps-and-their-modules/salesforce-modules.md)

@@ -1,12 +1,12 @@
 ---
-title: Adobe Maestro information
+title: "Adobe Maestro information: article index"
 description: As a marketing operations leader, you can use Adobe Maestro to organize work across the marketing lifecycle for all your teams. The articles in this section describe how you can configure Maestro and how you can start using its capabilities as part of your campaign management operations.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
 ---
-# Adobe Maestro information
+# Adobe Maestro information: article index
 
 <!--
 title: Adobe Maestro 
@@ -53,6 +53,7 @@ Access the following articles for an overview of Adobe Maestro:
 * [View a video demonstration of Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}
 * [Adobe Maestro overview](maestro-overview.md): A high-level overview of Adobe Maestro, including the terminology and concepts that are unique to this solution. We recommend that you start your journey with Maestro here. 
 * [Adobe Maestro release activity](../maestro/release-activity.md): A list of all the features that have been released since the launch of the Maestro closed beta program, on May 22, 2023 with exact release dates and a short overview of each feature.
+* [Adobe Maestro modules for Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
 
 ## Maestro architecture and functionality
 

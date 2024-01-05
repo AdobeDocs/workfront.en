@@ -191,19 +191,19 @@ You can add up to 500 fields (or columns) in a table view.
 
 1. Do the following to quickly find records that match a keyword:
 
-    1. Click the **search** icon ![](assets/search-icon.png) and start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the field with the correct match is highlighted. 
+    1. Click the **Search** icon ![](assets/search-icon.png) and start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the field with the correct match is highlighted. 
+
+        ![](assets/search-box-with-results-blue-outline-table-view.png)
 
         You can use any word or special character that is visible on the screen. 
     
         You cannot use keywords that are associated with fields that are hidden in the table view. 
 
-        Pressing Enter on your keyboard takes you to the next found field. 
-
-        ![](assets/search-box-with-results-blue-outline-table-view.png)
+    1. Press Enter on your keyboard to go to the next found field. 
 
     1. (Optional) If there is more than one match, click the up and down arrows to the right of the search keyword to find all the matches in the table. 
 
-    1. Click the **X** icon in the search box to clear the search keyword. 
+    1. Click the **x** icon in the search box to clear the search keyword. 
    
 
 ### Add rows (or records) {#add-rows}

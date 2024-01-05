@@ -57,7 +57,7 @@ See [Documents](/help/quicksilver/documents/documents-overview.md).
 
 To display existing information in an easy-to-read format and share it with all stakeholders, use reports and dashboards. 
 
-See [Reports and Dashboards](/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md). 
+See [Reports and Dashboards: article index](/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md). 
 
 #### Text mode reporting
 
