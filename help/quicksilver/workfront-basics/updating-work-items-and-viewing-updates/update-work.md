@@ -107,7 +107,6 @@ For information about commenting on cards in the Boards area, see [Add an ad hoc
 
 ## Access requirements
 
-
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
