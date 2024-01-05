@@ -1,5 +1,5 @@
 ---
-title: Access levels requirements
+title: Access requirements in Workfront documentation
 content-type: reference
 product-area: system-administration
 keywords: access,level,system,administrator,planner,worker,reviewer,requestor,external,user
@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 ---
-# Access levels Requirements in Workfront documentation
+# Access requirements in Workfront documentation
 
 Workfront documentation how-to articles contain a table that explains the access and permissions requirements needed for that procedure. This Access requirements table allows you to understand whether you can perform a certain action in Workfront, or why you might not be able to. This article explains each element of the Access requirements table, and provides troubleshooting tips and links to more in-depth information.
 
