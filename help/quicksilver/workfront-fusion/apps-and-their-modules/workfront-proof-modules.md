@@ -347,7 +347,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Method]</td> 
-   <td>Set the action for the API call. For available actions, see the <a href="http://api.proofhq.com/">Proof API documentation</a>.</td> 
+   <td>Set the action for the API call. For available actions, see the <a href="https://api.proofhq.com/">Proof API documentation</a>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Body (XML)]</td> 
