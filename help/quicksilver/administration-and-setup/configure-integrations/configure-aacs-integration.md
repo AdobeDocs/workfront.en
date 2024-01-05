@@ -79,7 +79,8 @@ Before you begin,
 
 ## Set up the integration information
 
-1. Click the **[!UICONTROL Main Menu]** icon  in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Setup]** .
+{{step-1-to-setup}}
+
 1. Select **[!UICONTROL Documents]** in the left panel, then select **[!UICONTROL [!DNL Experience Manager] Integration]**.
 
     >[!NOTE]

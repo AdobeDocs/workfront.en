@@ -34,7 +34,8 @@ You must have the following access to perform the steps in this article:
 
 ## Create a new board
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
+{{step1-to-boards}}
+
 1. Click **[!UICONTROL Add board]**.
 
 1. Select a template for the board.
@@ -80,7 +81,8 @@ You must have the following access to perform the steps in this article:
 
 ## Edit an existing board
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
+{{step1-to-boards}}
+
 1. On the dashboard, select the board to open.
 1. Edit the board as needed. You can click on the board name to rename it.
 

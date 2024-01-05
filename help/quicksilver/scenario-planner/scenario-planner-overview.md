@@ -10,6 +10,8 @@ exl-id: ba3b3525-cba8-44fe-856d-8ba50cd3b524
 ---
 # The [!DNL Scenario Planner] overview
 
+<!-- Audited: 1/2024 -->
+
 The [!DNL Scenario Planner] requires a separate license in addition to the [!DNL Adobe Workfront] license.
 For information about the access needed to use the [!DNL Workfront Scenario Planner], see [Access needed to use the [!DNL Scenario Planner]](access-needed-to-use-sp.md). 
 

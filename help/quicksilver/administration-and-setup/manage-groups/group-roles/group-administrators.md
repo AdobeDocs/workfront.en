@@ -63,10 +63,6 @@ For a group administrator who needs to assign timesheet profiles to users in the
 
 As a group administrator, you can carry out the tasks below to manage the groups that you oversee. Some of these are the same as abilities afforded to a Workfront administrator.
 
-* [Manage group members](#manage-group-members) 
-* [Manage group objects](#manage-group-objects) 
-* [Manage group preferences and tools](#manage-group-preferences-and-tools)
-
 ### Manage group members {#manage-group-members}
 
 * Create, edit and delete subgroups within the groups and subgroups you manage. For instructions, see [Create a subgroup](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md).
