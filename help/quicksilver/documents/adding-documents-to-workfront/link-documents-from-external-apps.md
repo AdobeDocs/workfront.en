@@ -2,12 +2,14 @@
 product-area: documents
 navigation-topic: add-documents-to-workfront
 title: Link documents from external applications
-description: You can link documents and folders to Adobe Workfront.
+description: You can link documents and folders to Adobe Workfront from external sources.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
 ---
 # Link documents from external applications
+
+<!-- Audited: 01/2024 -->
 
 You can link documents and folders to Adobe Workfront from the following sources:
 
@@ -30,7 +32,7 @@ You can link documents and folders to Adobe Workfront from the following sources
   </tr> 
   <tr> 
    <td role="rowheader">Workfront Proof </td> 
-   <td>You can make proofs that were originally created within Workfront Proof available within Workfront. A Pro Workfront Plan or higher is required to use this feature. For more information about the various plans available, see <a href="https://www.workfront.com/plans">Workfront Plans</a>.</td> 
+   <td>You can make proofs that were originally created within Workfront Proof available within Workfront. For the current licenses, a Pro Workfront Plan or higher is required to use this feature. For the new licenses, all plans include this feature. For more information about the various plans available, see <a href="https://www.workfront.com/plans">Workfront Plans</a>.</td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td role="rowheader">Experience Manager Assets Essentials </td> 
@@ -42,7 +44,7 @@ You can link documents and folders to Adobe Workfront from the following sources
   </tr> 
   <tr> 
    <td role="rowheader">Other document providers (through custom document integrations)</td> 
-   <td> <p class="workfront_plans">A Pro Workfront Plan or higher is required to use this feature. For more information about the various plans available, see <a href="https://www.workfront.com/plans">Workfront Plans</a>.</p> </td> 
+   <td> <p class="workfront_plans">For the current licenses, a Pro Workfront Plan or higher is required to use this feature. For the new licenses, all plans include this feature. For more information about the various plans available, see <a href="https://www.workfront.com/plans">Workfront Plans</a>.</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -53,28 +55,30 @@ You can proof and approve documents linked to an external cloud provider the sam
 
 ## Access requirements
 
-You must have the following:
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p> Any</p> </td> 
+   <td role="rowheader">Adobe Workfront plan</td>
+   <td> <p> Any</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront licenses*</td> 
-   <td> <p>Request or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td>
+   <td><p>New: Contributor or higher</p>
+    <p>or</p>
+    <p>Current: Request or higher</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Documents</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Document storage
 
@@ -88,12 +92,6 @@ The following exceptions apply:
 ## Link a document from an external application to Workfront
 
 You can link existing documents with an external cloud provider. This includes any shared documents.
-
-* [Prerequisites](#prerequisites) 
-* [Link an external document to Workfront](#link-an-external-document-to-workfront) 
-* [Add a new version of a linked document](#add-a-new-version-of-a-linked-document) 
-* [Link Workfront Proof documents](#link-workfront-proof-documents) 
-* [Create a Google document from within Workfront](#create-a-google-document-from-within-workfront)
 
 ### Prerequisites {#prerequisites}
 
@@ -162,7 +160,7 @@ You can add a new version of a document linked to Workfront from an external app
 
    You need to do this only once.
 
-1. In the search box of the **Link External Files and Folders** box that appears, type the name of the item you want to search for, then press **Enter** to see all results from the external application, regardless of which folder they are storied in.
+1. In the search box of the **Link External Files and Folders** box that appears, type the name of the item you want to search for, then press **Enter** to see all results from the external application, regardless of which folder they are stored in.
 
    Or
 
@@ -184,7 +182,7 @@ You can add a new version of a document linked to Workfront from an external app
    >
    >For documents that are linked to Box, the link to the document in Box does not display until you refresh the page.
 
-For information about adding new version of a document you have uploaded to Workfront from your file system, see [Add documents to Adobe Workfront from your file system](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#adding-new-versions-of-documents) in [Add documents to Adobe Workfront from your file system](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+For information about adding new version of a document you have uploaded to Workfront from your file system, see [Add documents to Adobe Workfront](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md#add-documents-to-workfront) in [Add documents to Adobe Workfront from your file system](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
 ### Link Workfront Proof documents {#link-workfront-proof-documents}
 
@@ -199,7 +197,7 @@ You can link only those proofs for which you have View access in Workfront Proof
    >
    >The options in this menu may vary depending on what third party providers are configured in your environment.
 
-1. In the **Link** proofs **from** Workfront Proof box that appears, begin typing the name of the proof you want to make available in Workfront.
+1. In the **Link proofs from Workfront Proof** box that appears, begin typing the name of the proof you want to make available in Workfront.
 
    The list is filtered as you type.
 
@@ -216,18 +214,16 @@ You can link only those proofs for which you have View access in Workfront Proof
 You can create a new Google document from within Workfront. You cannot create new documents from within Workfront for other cloud providers.
 
 1. Go to the **Documents** area in Workfront where you want the document.
-1. Click **Add New** > **Google File**, then select the type of Google document you want to create.  
+1. Click **Add New** > **Google File**, then select the type of Google document you want to create.
+1. If the **Add Google Drive Account** box appears, click **Authorize Google Drive**.
 
-1. Select the type of Google Doc that you want to create.
-1. If the **Add Google Drive Account** box appears, click **Authorize Googe Drive**.
-
-   A Google Document is added to the **Documents** tab.
+   A Google document is added to the **Documents** tab.
 
    >[!NOTE]
    >
    > My Drive and Shared with Me display two different results. If you are unable to locate a file in My Drive, check in the Shared with Me folder.
 
-## Update and link a document from Workfront to an external cloud provider
+## Upload and link a document from Workfront to an external cloud provider
 
 You can upload and link a document from Workfront to an external cloud provider. This moves storage of the document from Workfront to the external cloud provider. When the document is changed in the external application, it updates automatically in Workfront.
 
@@ -250,11 +246,7 @@ Users without Workfront access can see the document in the external application 
 
 ## Link folders
 
-When you link a folder between Workfront and an external cloud provider, the folder and all of its contents are linked. If users without Workfront access add, remove, and modify files from the external document application, their changes are synchronized to Workfront. The following sections describe how to link folders and subfolders:
-
-* [Folder access rights](#folder-access-rights) 
-* [Link one or more external folders](#link-one-or-more-external-folders) 
-* [Add subfolders to a linked folder](#add-subfolders-to-a-linked-folder)
+When you link a folder between Workfront and an external cloud provider, the folder and all of its contents are linked. If users without Workfront access add, remove, and modify files from the external document application, their changes are synchronized to Workfront.
 
 ### Folder access rights {#folder-access-rights}
 
@@ -324,8 +316,6 @@ When you add a document to a linked folder via Workfront, it is automatically ad
 
 1. Select the linked folder where you want the document, click **Add New > Document**, then browse to the document and add it to the folder.
 
-   
-
    Or
 
    In the **Documents** area where you want the document, drag the document into a linked folder.
@@ -334,10 +324,11 @@ When you add a document to a linked folder via Workfront, it is automatically ad
 
 >[!NOTE]
 >
-> * The document options are not available while the document is in the process of moving. After the document is moved to Experience Manager Assets, is no longer visible in the document list in Workfront.
+> * The document options are not available while the document is in the process of moving.
 >
-> * Any actions or edits you make on the document while it is moving will not appear on the document in Experience Manager Assets, and will therefore be lost.
-
+> * After a document is moved to Experience Manager Assets, is no longer visible in the document list in Workfront.
+>
+> * Any actions or edits you make on a document while it is moving will not appear on the document in Experience Manager Assets, and will therefore be lost.
 
 ## Delete a linked document or folder
 
@@ -356,4 +347,4 @@ If you want the name to match in Workfront and in the external application, you 
 
 >[!IMPORTANT]
 >
->Do not rename a document in Workfront that is linked to Dropbox; doing so renders the file in Workfront inaccessible. Instead, rename the file in Dropbox, then re-synchronize the file, as described in [Link documents from external applications](#synchronizing-changes-made-on-a-linked-document).
+>Do not rename a document in Workfront that is linked to Dropbox; doing so renders the file in Workfront inaccessible. Instead, rename the file in Dropbox, then re-synchronize the file.

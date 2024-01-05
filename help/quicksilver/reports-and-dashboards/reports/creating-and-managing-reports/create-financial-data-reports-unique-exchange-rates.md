@@ -114,7 +114,7 @@ To display two projects with custom currencies in a report:
 
 1. In the **Filters** tab, add a filter for **Project Name** and select the two projects with the different currencies.
 
-   For information on how to create a filter, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   For information on how to create a filter, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Click **Save + Close**.
 
