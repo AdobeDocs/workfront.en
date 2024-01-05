@@ -9,6 +9,8 @@ exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
 ---
 # Create project baselines
 
+<!-- Audited: 12/2023 -->
+
 A baseline is a project snapshot that represents key pieces of information included in the initial project plan or at any given time during the life of the project.
 
 You can use baseline to compare those pieces of information from the current plan to the original plan or any other point in time, to identify problem tasks, scope creep, and other trends over time.
@@ -54,32 +56,33 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+    <td><p>New: Standard</p>
+        <p>or</p>
+        <p>Current: Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to projects, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Projects</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to the project or higher to view baselines</p> <p>Manage permissions to the project to create baselines</p> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View permissions to the project or higher to view baselines</p> <p>Manage permissions to the project to create baselines</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Considerations for working with baselines
 
-* You can capture a snapshot of the progress on a project multiple times during the lifetime of the project, creating multiple baselines. 
-* You can view the information included in the baselines of a project by creating a baseline or by building a Baseline report. 
-* When you create a baseline, the task information is also captured on the baseline tasks of that baseline. 
+* You can capture a snapshot of the progress on a project multiple times during the lifetime of the project, creating multiple baselines.
+* You can view the information included in the baselines of a project by creating a baseline or by building a Baseline report.
+* When you create a baseline, the task information is also captured on the baseline tasks of that baseline.
 * You can view the information of the baseline tasks by building a Baseline Task report.
 
 >[!IMPORTANT]
@@ -109,11 +112,11 @@ To create a baseline:
 
    Click **Show More**, then click **Baselines**.
 
-   ![](assets/nwe-baselines-section-on-project-with-header-350x78.png)
+   ![Baselines section on project](assets/baselines-section-on-project-with-header.png)
 
 1. Click **New Baseline.**
 1. Specify the name for the baseline.
-1. (Optional) If this is the first baseline, you may want to choose it as the default. 
+1. (Optional) If this is the first baseline, you may want to choose it as the default.
 1. Click **Save**.
 
    By default, the following information displays about the baseline you created:
@@ -130,7 +133,7 @@ To create a baseline:
      >
      >You cannot view information from any two baselines at the same time in the same view or report. You can only view information from a given baseline and the Default baseline in the same report. You can modify which baseline you consider to be the Default baseline any time during the life of the project.
 
-1. (Optional) Click the drop-down arrow next to the View, then **Customize View** to add fields to your view and compare additional information between baselines.
+1. (Optional) Click the **View** button, then create a new view or edit the current view to add fields to the view and compare additional information between baselines. For information, see [Create or edit views in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## Create a Baseline or a Baseline Task report
 
@@ -142,6 +145,6 @@ To view baseline information, you can also create a Baseline or Baseline Task re
 
 For information about creating a report, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-We recommend that you add a Project Name grouping to your Baseline or Baseline report to make it easier to read.
+We recommend that you add a Project Name grouping to your Baseline or Baseline Task report to make it easier to read.
 
 For information about creating a grouping, see [Create groupings in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).

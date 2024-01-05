@@ -2,120 +2,122 @@
 content-type: overview
 navigation-topic: use-the-gantt-chart
 title: Get started with the [!UICONTROL Gantt] Chart
-description: Overview information about the project and task Gantt charts in Adobe Workfront.
+description: The Gantt charts in Adobe Workfront provide a visual representation of the timeline of a list of tasks or projects. 
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
 ---
 # Get started with the [!UICONTROL Gantt Chart]
 
-In [!DNL Adobe Workfront], there are two [!UICONTROL Gantt charts] with similar functionality:
+<!-- Audited: 01/2024 -->
 
-* The task list [!UICONTROL Gantt Chart]: displays information about tasks at the project level and is editable.
-* The project list [!UICONTROL Gantt Chart]: displays information about projects and is not editable.
+The Gantt charts in Adobe Workfront provide a visual representation of the timeline of a list of tasks or projects.
+
+In [!DNL Adobe Workfront], there are two [!UICONTROL Gantt Charts] with similar functionality:
+
+* **The task list [!UICONTROL Gantt Chart]**: displays information about tasks and their timeline at the project level. A similar [!UICONTROL Gantt Chart] displays information about template tasks at the template level.
+* **The project list [!UICONTROL Gantt Chart]**: displays information about projects and their timeline. 
 
 Although they look and feel similar, the functionality of each one is different.
 
+## Considerations about the Gantt Chart
+
+* You can edit information in the following [!UICONTROL Gantt Chart]:
+   * A task list
+* You cannot edit information in the following [!UICONTROL Gantt Charts]:
+   * A template task list
+   * A project list
+* There is no [!UICONTROL Gantt Chart] option for a list of templates.
+* You can configure what information displays on both the task list [!UICONTROL Gantt Chart] and the project list [!UICONTROL Gantt Chart].
+* You cannot configure the colors or the fonts in which the [!UICONTROL Gantt chart] information is displayed.
+* When information is updated from tasks, it is automatically reflected in both the task list [!UICONTROL Gantt Chart] and the project list [!UICONTROL Gantt Chart].
+* When information is updated from template tasks, it is automatically reflected in the template task list [!UICONTROL Gantt Chart]. 
+
 ## Access the [!UICONTROL Gantt Chart]
 
-The [!UICONTROL Gantt] charts in [!DNL Workfrontprovide] a visual representation of a list of tasks or projects. You can view the task list [!UICONTROL Gantt Chart] directly from the task list on a project or from a task report. You can view the project list [!UICONTROL Gantt Chart] in a project list or a project report.
+The [!UICONTROL Gantt] charts in [!DNL Workfront]  provide a visual representation of a list of tasks or projects. 
 
-* [Task list [!UICONTROL Gantt Chart]](#task-list-gantt-chart)
-* [Project list [!UICONTROL Gantt Chart]](#project-list-gantt-chart)
+You can view the task list [!UICONTROL Gantt Chart] directly from the task list on a project or from a task report. 
+
+You can view the project list [!UICONTROL Gantt Chart] in a project list or a project report.
 
 ### Task list [!UICONTROL Gantt Chart] {#task-list-gantt-chart}
 
-The task list [!UICONTROL Gantt Chart] is accessible in the following areas:
+<!--The task list [!UICONTROL Gantt Chart] is accessible in the following areas:
 
-* Within a Project
+* In a Project
 
-   * [!UICONTROL Tasks] area
-   * [!UICONTROL Subtasks] area
+   * [!UICONTROL Tasks] section
+   * [!UICONTROL Subtasks] section of a task
 
-* Within a Template
+* In a [!UICONTROL Template]
 
-To access the task list [!UICONTROL Gantt Chart], navigate to any of the areas mentioned above and click the [!UICONTROL Gantt Chart] icon.
+* In a [!UICONTROL Task] report-->
 
-![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+To access the task list [!UICONTROL Gantt Chart] of a project or a template:
+
+1. Go to any of the following areas: 
+
+   * A project, then click [!UICONTROL **Tasks**] in the left panel.
+   * A template, then click [!UICONTROL **Template Tasks**] in the left panel
+   * A task or template task, then click [!UICONTROL **Subtasks**] in the left panel.
+   * A task report
+
+1. Click the [!UICONTROL **Gantt**] icon ![](assets/gantt-icon-nwe.png) at the top of the task list. 
+
+   ![](assets/task-list-gantt.png)
+
+   The task list [!UICONTROL Gantt Chart] opens to the right of the task list. 
+
+1. To configure what information you want to display in the task [!UICONTROL Gantt] chart, click the [!UICONTROL **Settings**] icon, then enable any of the following options: 
+
+   * [!UICONTROL Actual Dates]
+   * [!UICONTROL Assignments]
+   * [!UICONTROL Baseline]
+   * [!UICONTROL Commit Date]
+   * [!UICONTROL % Complete]
+   * [!UICONTROL Critical Path]
+   * [!UICONTROL Milestone Diamonds]
+   * [!UICONTROL Milestone Lines]
+   * [!UICONTROL Predecessors]
+   * [!UICONTROL Progress Status]
+   * [!UICONTROL Projected Dates]
+   
+1. Start editing the tasks as described in the following articles:
+
+   * [Configure how information displays on the Gantt Chart](../use-the-gantt-chart/configure-info-on-gantt-chart.md)
+   * [Update information in the task list Gantt Chart](../use-the-gantt-chart/update-info-task-list-gantt.md)
 
 ### Project list [!UICONTROL Gantt Chart] {#project-list-gantt-chart}
 
-The project list [!UICONTROL Gantt Chart] is accessible in the following areas:
+<!--The project list [!UICONTROL Gantt Chart] is accessible in the following areas:
 
-* Within the [!UICONTROL Projects] area
-* Within a Portfolio
+* In the [!UICONTROL Projects] area
+* In the [!UICONTROL Projects] section of a [!UICONTROL Portfolio]
+* In the [!UICONTROL Projects] section of a [!UICONTROL Program]
+* In a [!UICONTROL Project] report-->
 
-   * [!UICONTROL Projects] area
+To access the project list [!UICONTROL Gantt Chart]:
 
-* Within a Project Report
+1. Go to any of the following areas: 
 
-   * Any Project or Task Report
+   * The [!UICONTROL **Projects**] area
+   * The [!UICONTROL **Projects**] section of a [!UICONTROL Portfolio]
+   * The [!UICONTROL **Projects**] section of a [!UICONTROL Program]
+   * A [!UICONTROL **Project**] report
 
-* Within a Program
+1. Click the [!UICONTROL **Gantt**] icon at the top of the project list.
 
-   * In the [!UICONTROL Projects] area
+   ![](assets/project-list-gantt.png)
 
-To access the [!UICONTROL project list Gantt Chart], navigate to any of the areas mentioned above and click the [!UICONTROL Gantt Chart] icon.
+   The project list [!UICONTROL Gantt Chart] opens. 
 
-![](assets/qs-gantt-icon-on-task-list-highlighted-350x199.png)
+1. To configure what information you want to display in the project [!UICONTROL Gantt] chart, click the [!UICONTROL **Settings**] icon, then enable any of the following options: 
 
-## Configure how information displays on the [!UICONTROL Gantt Chart]
-
-You can configure what information displays on both the task list [!UICONTROL Gantt Chart] and the project list [!UICONTROL Gantt Chart].\
-You cannot configure the colors or the fonts in which the [!UICONTROL Gantt chart] information is displayed.
-
-* [Task list [!UICONTROL Gantt Chart]](#task-list-gantt-chart)
-* [Project list [!UICONTROL Gantt Chart]](#project-list-gantt-chart)
-
-### Task list [!UICONTROL Gantt Chart] {#task-list-gantt-chart-1}
-
-The following display options are available in the task list [!UICONTROL Gantt Chart]:
-
-* [!UICONTROL Actual Dates]
-* [!UICONTROL Assignments]
-* [!UICONTROL Baseline]
-* [!UICONTROL Commit Date]
-* [!UICONTROL % Complete]
-* [!UICONTROL Critical Path]
-* [!UICONTROL Milestone Diamonds]
-* [!UICONTROL Milestone Lines]
-* [!UICONTROL Predecessors]
-* [!UICONTROL Progress Status]
-* [!UICONTROL Projected dates]
-
-For detailed information about the display options listed above, see [Configure how information displays on the [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
-
-### Project list [!UICONTROL Gantt Chart] {#project-list-gantt-chart-1}
-
-The following display options are available in the project list [!UICONTROL Gantt Chart]:
-
-* [!UICONTROL Actual Dates]
-* [!UICONTROL % Complete]
-* [!UICONTROL Milestone Diamonds]
-* [!UICONTROL Milestone Lines]
-* [!UICONTROL Predecessors]
-* [!UICONTROL Progress Status]
-* [!UICONTROL Projected Dates]
-
-For information about the display options listed above, see [Configure how information displays on the [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/configure-info-on-gantt-chart.md).
-
-## Update the [!UICONTROL Gantt Chart]
-
-When information is updated from the task list, it is automatically reflected in both the task list [!UICONTROL Gantt Chart] and the project list [!UICONTROL Gantt Chart].
-
-* [Task list [!UICONTROL Gantt Chart]](#task-list-gantt-chart)
-* [Project list [!UICONTROL Gantt Chart]](#project-list-gantt-chart)
-
-### Task list [!UICONTROL Gantt Chart] {#task-list-gantt-chart-2}
-
-In a project, you can update the task list [!UICONTROL Gantt Chart] directly from the [!UICONTROL Gantt chart] or from the task list. For more information, see [Update information in the task list [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/update-info-task-list-gantt.md).
-
-In a template, the task list [!UICONTROL Gantt Chart] reflects updates made in the template's task list. This [!UICONTROL Gantt chart] is not editable.
-
-### Project list [!UICONTROL Gantt Chart] {#project-list-gantt-chart-2}
-
-The [!UICONTROL project list Gantt Chart] reflects updates made in each project's task list. This [!UICONTROL Gantt chart] is not editable.
-
-## View information on the [!UICONTROL Gantt Chart]
-
-The task list [!UICONTROL Gantt Chart] and project list [!UICONTROL Gantt Chart] display information about tasks and projects. For more information, see [View information in the [!UICONTROL Gantt Chart]](../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
+   * [!UICONTROL Actual Dates]
+   * [!UICONTROL % Complete]
+   * [!UICONTROL Milestone Diamonds]
+   * [!UICONTROL Milestone Lines]
+   * [!UICONTROL Predecessors]
+   * [!UICONTROL Progress Status]
+   * [!UICONTROL Projected Dates]

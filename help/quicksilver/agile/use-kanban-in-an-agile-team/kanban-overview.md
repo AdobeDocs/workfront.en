@@ -10,7 +10,11 @@ exl-id: d7daa6c1-dae2-4e5c-a765-6a6ebdfaa331
 ---
 # Kanban overview
 
+<!-- Audited: 01/2024 -->
+
 The following sections enable you to better understand how the [!UICONTROL Kanban] board functions.
+
+For a description of the K[!UICONTROL anban] methodology, see [Create an agile team](/help/quicksilver/agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
 If you are interested in migrating from an agile team [!UICONTROL Kanban] board to [!DNL Workfront] [!UICONTROL Boards], see [Migrate agile team [!UICONTROL Kanban] cards to [!DNL Workfront] boards](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md).
 
@@ -24,7 +28,7 @@ The [!UICONTROL Kanban] board consists of the following elements:
 
 For more information, see [Update the status of stories on the [!UICONTROL Kanban] board](../../agile/use-kanban-in-an-agile-team/update-the-status-of-stories.md).
 
-Story statuses can be customized for the project by modifying the agile view, as described in the section [[!UICONTROL Create or customize an Agile view]](../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in [Views overview in [!DNL Adobe Workfront]](../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Story statuses can be customized for the project by modifying the agile view, as described in the section [[!UICONTROL Create or customize an Agile view]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) in [Create or edit views in [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 >[!NOTE]
 >

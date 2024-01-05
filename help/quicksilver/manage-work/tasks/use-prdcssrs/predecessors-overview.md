@@ -3,28 +3,30 @@ content-type: overview
 product-area: projects
 navigation-topic: use-predecessors
 title: Overview of task predecessors
-description: A predecessor is the task another task (called a successor or dependent task) depends on. Adobe Workfront supports five types of predecessor dependencies.
+description: A predecessor is the task which another task (called a successor or dependent task) depends on. Adobe Workfront supports five types of predecessor dependencies.
 author: Alina
 feature: Work Management
 exl-id: b2020a50-0921-4ed2-8a34-1a0411992b99
 ---
 # Overview of task predecessors
 
+<!--Audited: 12/2023-->
+
 <!-- 
 
 CONTEXT SENSITIVE HELP article. DO NOT CHANGE THE NAME OF THE ARTICLE/ DO NOT MOVE OR DELETE! --> 
 
-A predecessor is the task another task (called a successor or dependent task) depends on. Adobe Workfront supports five types of predecessor dependencies. To understand predecessor dependencies, see [Overview of task dependency types](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+A predecessor is the task which another task (called a successor or dependent task) depends on. Adobe Workfront supports five types of predecessor dependencies. To understand predecessor dependencies, see [Overview of task dependency types](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
 ## Predecessors overview
 
 Understanding predecessor functionality is important for understanding of the timelines in your projects.
 
-Predecessor relationships between tasks exist both within a single project and across multiple projects.
+Task predecessor relationships exist both between tasks within a single project and between tasks from different projects.
 
-In the case of multi-project dependency, you can establish cross-project predecessors.
+In the case of multi-project dependency, you can establish cross-project predecessors between tasks from two different projects.
 
-Whether the predecessor and successor tasks belong to the same project or to two different projects, the dependencies and the timelines are calculated in the same way.
+Whether the predecessor and successor tasks belong to the same project or to two different projects, the dependencies and the timelines of each project are calculated in the same way.
 
 When it comes to predecessors, the project timeline is impacted by the following:
 
@@ -32,20 +34,24 @@ When it comes to predecessors, the project timeline is impacted by the following
 * Lag value and type  
   For more information on both dependency and lags, see [Examples of predecessor values in a task list](#examples-of-predecessor-values-in-a-task-list).
 
-For example, if task A is a predecessor to task B in a finish-start relationship, and task B has a task constraint of As Soon As Possible, then Workfront assigns task B a planned start date immediately following the planned completion date of task A, regardless of whether the predecessor is enforced or not.
+  For example, if task A is a predecessor to task B in a finish-start relationship, and task B has a task constraint of As Soon As Possible, then Workfront assigns task B a planned start date immediately following the planned completion date of task A, regardless of whether the predecessor is enforced or not.
 
 To understand predecessor relationships, you must understand:
 
 * **Dependency Types:** Predecessors are linked by various dependency types. For more information on dependency types, see [Overview of task dependency types](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-* **Enforcing a predecessor:** When enforcing a predecessor, the successor task cannot start until the predecessor completes. The successor task shows as starting immediately after the predecessor is finished.
+* **Enforcing a predecessor:** When enforcing a predecessor, the successor task can absolutely not start until the predecessor completes. The successor task shows as starting immediately after the predecessor is finished.
 
-  Workfront does not allow it to be marked as In Progress or Complete until the predecessor is complete. Workfront does, however, allow hours to be reported on the task.   
+  When the predecessor is not completed (or started) and it is not enforced, the successor task can start but the project timeline is still impacted by the dates of both the predecessor and the successor tasks. 
+
+  With an enforced predecessor, Workfront does not allow the successor task to be marked as In Progress or Complete until the predecessor is complete. 
+  
+  Workfront does, however, allow hours to be reported on the task.   
   For more information on enforcing predecessors, see [Enforce predecessors](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
 * **Lags:** You can built lags in your dependencies which create a delay that must occur after the completion of a predecessor task and before the successor task can begin. Lags impact the timeline of the project.
 
-  To understand lag types, see [Overview of Lag Types](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+  To understand lag types, see [Lag Types overview](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
 ## Create predecessor relationships
 
@@ -98,9 +104,9 @@ When you view predecessors in a list of tasks, you might see any of the followin
 
   >[!NOTE]
   >
-  >The enforced value (**e**) must be added to the Lag, not to the predecessor.
+  >You must add the enforced value (**e**) to the Lag, and not to the predecessor.
 
-* **4515:2** The predecessor task number is 2. - This is a Finish to Start, non-enforced dependency with the predecessor in the project with reference number **4515**; the predecessor task number is **2**.
+* **4515:2** The predecessor task number is 2. - This is a Finish to Start, non-enforced dependency with the predecessor in the project with reference number **4515**.
 
 ## View predecessor information
 

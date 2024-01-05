@@ -8,6 +8,7 @@ title: Apps and their modules
 description: Adobe Workfront Fusion currently offers dedicated connectors for the apps on this list. If the app you want to work with is not on this list, you can connect to it using the HTTP, SOAP, or JSON modules.
 author: Becky
 feature: Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
 ---
 # Apps and their modules
@@ -32,6 +33,7 @@ This section contains the following articles:
 * [[!DNL Adobe Creative Cloud Libraries] modules](../../workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md) 
 * [[!DNL Adobe Experience Manager Assets] modules](../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
 * [[!DNL Adobe Journey Optimizer] modules](../../workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md) 
+* [Adobe Maestro modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
 * [[!DNL Adobe PDF Services] modules](../../workfront-fusion/apps-and-their-modules/pdf-modules.md) 
 * [[!DNL Adobe Target] modules](../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md) 
 * [[!DNL Airtable] modules](../../workfront-fusion/apps-and-their-modules/airtable-modules.md) 
@@ -84,9 +86,8 @@ This section contains the following articles:
 * [[!UICONTROL HTTP] modules](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md) 
 * [[!DNL HubSpot CRM] modules](../../workfront-fusion/apps-and-their-modules/hubspot-crm-modules.md) 
 * [Image modules](../../workfront-fusion/apps-and-their-modules/image-module.md) 
-* [[!DNL Intacct] modules](../../workfront-fusion/apps-and-their-modules/intacct-modules.md)
 
-  <!--
+<!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/iso-modules.md" class="MCXref xref" xrefformat="{para}">ISO modules</a> </li>
   -->
 

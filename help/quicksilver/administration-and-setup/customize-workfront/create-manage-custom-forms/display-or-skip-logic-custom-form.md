@@ -5,13 +5,17 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: You can decide which sections of a custom form should be displayed or skipped based on the choices that a user makes when filling it out.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c687c4a8-a99d-4ac0-b785-5bfe503a7e2c
 ---
 # Add display logic and skip logic to a custom form with the legacy form builder
 
 You can decide which sections of a custom form should be displayed or skipped based on the choices that a user makes when filling it out.
+
+>[!NOTE]
+>
+>Logic only applies within one form and can't be based on selections from a different form.
 
 ## Access requirements
 

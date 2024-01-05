@@ -8,8 +8,8 @@ title: Adobe Workfront Fusion in the Adobe Admin Console
 description: Delete this text and replace it with your own content.
 author: Becky
 feature: Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 92185eff-ca16-4d2a-acc6-a0d271203232
-hidefromtoc: true
 ---
 # [!DNL Adobe Workfront Fusion ]in the [!DNL Adobe Admin Console]
 

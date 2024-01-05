@@ -51,6 +51,8 @@ For more information see [MariaDB modules](../../../workfront-fusion/apps-and-th
 
 For more information, see [Marketo modules](../../../workfront-fusion/apps-and-their-modules/marketo-modules.md).
 
+<!--
+
 ## Intacct connector and modules now available
 
 You can now use Workfront Fusion 2.0 to connect to your Intacct account. With the Intacct modules, you can:
@@ -59,3 +61,5 @@ You can now use Workfront Fusion 2.0 to connect to your Intacct account. With th
 * Perform a custom API call.
 
 For more information see [Intacct modules](../../../workfront-fusion/apps-and-their-modules/intacct-modules.md).
+
+-->

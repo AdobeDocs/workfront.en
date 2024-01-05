@@ -11,14 +11,22 @@ exl-id: 37fecce9-c1b8-474b-abc2-09398bfcc629
 ---
 # [!DNL Adobe Workfront Fusion] licenses
 
-[!DNL Adobe Workfront Fusion] offers two different licenses that determine the functionality you are able to access. Your organization chose one of these licenses when it purchased [!DNL Workfront Fusion].
+[!DNL Workfront Fusion] has two licensing models, a new operations-based model, and a legacy connector-based model. 
+
+## Operations-based licensing model (New)
+
+The new [!DNL Workfront Fusion] licensing model is based on the number of operations your organization uses. In this model, all organizations have access to the same functionality.
+
+For information on what counts as an operation under the new licensing model, see [Operations in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/operations-in-workfront-fusion.md).
+
+## Connector-based licensing model (Legacy)
+
+In the [!DNL Adobe Workfront Fusion] legacy licensing model, [!DNL Fusion] offers two different licenses that determine the functionality you are able to access. Your organization chose one of these licenses when it purchased [!DNL Workfront Fusion].
 
 * [[!DNL Workfront Fusion for Work Automation]](#workfront-fusion-for-work-automation)
 * [[!DNL Workfront Fusion for Work Automation and Integration]](#workfront-fusion-for-work-automation-and-integration)
 
->[!NOTE]
->
->To find out what type of [!DNL Workfront Fusion] license your organization has, contact your [!DNL Workfront Fusion] administrator.
+To find out what type of [!DNL Workfront Fusion] license your organization has, contact your [!DNL Workfront Fusion] administrator.
 
 ## [!DNL Workfront Fusion for Work Automation] 
 

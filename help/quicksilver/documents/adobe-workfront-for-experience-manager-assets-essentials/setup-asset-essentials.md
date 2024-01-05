@@ -2,7 +2,7 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Configure the Experience Manager Assets Essentials integration
-description: Connect your work with your content in Experience Manager Assets Essentials - EDIT ME.
+description: Connect your work with your content in Experience Manager Assets Essentials.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: abaa76e2-bbf1-47d0-8bdc-4e950df4f7ea
@@ -15,7 +15,9 @@ Connect your work with your content in Experience Manager Assets Essentials​:
 * Link assets from Experience Manager Assets Essentials to your projects and tasks in Workfront​
 * Facilitate versioning workflows for assets pushed to Experience Manager Assets Essentials
 
-You can also connect several Experience Manager Assets repositories to one Workfront environment, or several Workfront environments to one Experience Manager Assets repository across Organization IDs. Follow the configuration instructions in this article for each integration you'd like to set up. 
+>[!NOTE]
+>
+>You can also connect several Experience Manager Assets repositories to one Workfront environment, or several Workfront environments to one Experience Manager Assets repository across Organization IDs. Follow the configuration instructions in this article for each integration you'd like to set up. 
 
 ## Access requirements
 

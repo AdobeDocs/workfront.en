@@ -148,7 +148,7 @@ To create a filter in the Resource Planner:
 1. (Optional) Select the filter and condition modifiers for the filter. The available modifiers are described in [Filter and condition modifiers](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    You can use user-based or date-based wildcards to filter for information associated with the logged-in user.   
-   For information about supported wildcards in filters, see [Wildcard filter variables](../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   For information about supported wildcards in filters, see [Wildcard filter variables overview](../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 1. Click **Save**to save the filter rule.
 1. (Optional) Click **Add Filter Rule** to add a new rule for another object or field.

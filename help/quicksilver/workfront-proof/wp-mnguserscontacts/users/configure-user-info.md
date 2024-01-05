@@ -53,7 +53,7 @@ exl-id: ae8d3a96-ebf1-48ee-a7b7-50d69bffbd36
          When this option is selected, **Subscriber must click a link in an email to access a proof** is also available. Select this option to require the external reviewer to click a link within the email to access the proof.
          This option is enabled by default if the **Public sharing** option is selected.
 
-      * **Default role for new guest reviewers:** Select a default proof role for guest reviewers. Options are the same as those in **Default proof role.**
+      * **Default role for new guest reviewers:** Select a default proof role for guest reviewers. Options are the same as those in **Default proof role**, with the exception of Moderator and Author.
 
    * In the **[!UICONTROL Default email alert settings]** section:
 

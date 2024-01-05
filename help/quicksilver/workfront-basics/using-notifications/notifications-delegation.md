@@ -11,7 +11,7 @@ exl-id: bd329c5a-4440-4bb7-96f1-30e83c213851
 
 The following notifications let you know about task and issue delegations you made or others made for you in [!DNL Adobe Workfront].
 
-For information about configuring which notifications you receive, see [Activate or deactivate your own event notifications](activate-or-deactivate-your-own-event-notifications.md).
+For information about configuring which notifications you receive, see [Modify your own email notifications](activate-or-deactivate-your-own-event-notifications.md).
 
 See also [Event notifications](event-notifications.md).
 

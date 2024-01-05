@@ -8,7 +8,8 @@ navigation-topic: apps-and-their-modules
 title: Airtable modules
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 author: Becky
-exl-id: 5d061b23-0a39-44e6-ac9b-0ef5ac7e9ab4
+feature: Workfront Fusion
+exl-id: 1d78e0db-9a77-437d-a72f-88fb256981c0
 ---
 # Airtable modules
 

@@ -58,9 +58,11 @@ For information about how to create an email template, see [Configure email temp
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. Click **Email** > **Notifications**.
+1. Click **Email** > **Notifications** > **Reminder Notifications**.
 
-1. Click the **Reminder Notifications** tab, then click **New Reminder Notification**.
+   ![](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
+   
+1. Click **New Reminder Notification**.
 
 1. In the drop-down list, click the object type you want to associate with the reminder notification.
 
@@ -101,13 +103,13 @@ For information about how to create an email template, see [Configure email temp
       <td role="rowheader">Criteria</td> 
       <td> <p>Select the criteria to qualify the reminder notification to be scheduled. Reminder notifications are not scheduled unless the criteria selection is met.</p> <p>The following criteria options are available, depending on the object type that you selected in Step 4:</p> 
        <ul> 
-        <li><strong>Incomplete in Current Projects:</strong> (Available for task and issue reminders) The reminder notification is scheduled to be sent only when the object status that the reminder notification is associated with is not Complete and the project status is Current.</li> 
-        <li><strong>All in Current Projects:</strong>(Available for task and issue reminders) The reminder notification is scheduled to be sent regardless of the object status and only when the project status that the reminder notification is associated with is Current.</li> 
-        <li><strong>Incomplete Projects:</strong> (Available for project reminders) The reminder notification is scheduled to be sent when the project status is anything but Complete.</li> 
-        <li><strong>Complete Projects:</strong> (Available for project reminders) The reminder notification is scheduled to be sent when the project status is Complete.</li> 
-        <li><strong>Open Timesheets:</strong> (Available for timesheet reminders) The reminder notification is scheduled to be sent when the timesheet status is Open.</li> 
-        <li><strong>Submitted Timesheets:</strong> (Available for timesheet reminders) The reminder notification is scheduled to be sent when the timesheet status is Submitted.</li> 
-        <li><strong>Open Timesheet or Less than 40 Hours per Week:</strong> (Available for timesheet reminders) The reminder notification is scheduled to be sent when the timesheet status is Open or when the timesheet has less than 40 hours logged.</li> 
+        <li><strong>Incomplete in Current Projects:</strong> <i>(Available for task and issue reminders)</i> The reminder notification is scheduled to be sent only when the object status that the reminder notification is associated with is not Complete and the project status is Current.</li> 
+        <li><strong>All in Current Projects:</strong> <i>(Available for task and issue reminders)</i> The reminder notification is scheduled to be sent regardless of the object status and only when the project status that the reminder notification is associated with is Current.</li> 
+        <li><strong>Incomplete Projects:</strong> <i>(Available for project reminders)</i> The reminder notification is scheduled to be sent when the project status is anything but Complete.</li> 
+        <li><strong>All Projects:</strong> <i>(Available for project reminders)</i> The reminder notification is scheduled to be sent regardless of the project status.</li> 
+        <li><strong>Open Timesheets:</strong> <i>(Available for timesheet reminders)</i> The reminder notification is scheduled to be sent when the timesheet status is Open.</li> 
+        <li><strong>Submitted Timesheets:</strong> <i>(Available for timesheet reminders)</i> The reminder notification is scheduled to be sent when the timesheet status is Submitted.</li> 
+        <li><strong>Open Timesheet or Less than 40 Hours per Week:</strong> <i>(Available for timesheet reminders)</i> The reminder notification is scheduled to be sent when the timesheet status is Open or when the timesheet has less than 40 hours logged.</li> 
         <li><strong>Email Template:</strong> From the drop-down, select an email template to attach to your reminder.<br>For information on how to build an email template, refer to <a href="../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md" class="MCXref xref">Configure email templates</a>.</li> 
        </ul> </td> 
      </tr> 

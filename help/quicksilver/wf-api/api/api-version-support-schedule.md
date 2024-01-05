@@ -5,6 +5,7 @@ title: API versioning and support schedule
 description: API versioning and support schedule
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
 ---
 # API versioning and support schedule
@@ -12,6 +13,8 @@ exl-id: b072704c-a34c-4a17-aca3-ab93a016dfc8
  
 
 Adobe Workfront regularly releases new API versions, usually twice a year. API versions are supported for 3 years after release. API versions older than 3 years are no longer supported.
+
+For more information on identifying and using API versions, see [Specify an API Version in your integrations](/help/quicksilver/wf-api/api/specify-api-version-integrations.md).
 
 The following table shows the release and support schedule for the Workfront API. 
 
@@ -27,9 +30,15 @@ The following table shows the release and support schedule for the Workfront API
   </tr> 
  </thead> 
  <tbody> 
-   <td>14</td> 
+ <tr>
+   <td>17</td> 
+   <td> <p>October 12 2023</p> </td> 
+   <td> <p>**during 2026</p> <p>(with the 26.10 release)</p> </td> 
+  </tr> 
+ <tr>
+   <td>16</td> 
    <td> <p>April 2023</p> <p>(with the 23.2 release)</p> </td> 
-   <td> <p>**during 2026</p> <p>(with the 26.2 release)</p> </td> 
+   <td> <p>**during 2026</p> <p>(with the 26.4 release)</p> </td> 
   </tr> 
   <tr> 
    <td>15</td> 

@@ -5,19 +5,21 @@ content-type: reference
 product-area: system-administration
 keywords: license,type
 navigation-topic: access-levels
-description: Your organization purchased a certain number of licenses when it acquired Adobe Workfront. As a Workfront administrator, you give one of 4 types of paid Workfront licenses to each user when you assign the user an access level.
-author: Courtney
+description: Your organization purchased a certain number of licenses when it acquired Adobe Workfront. As a Workfront administrator, you give one of five types of Workfront licenses to each user when you assign the user an access level.
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f30e2d8-f5c3-4811-b780-49a2b0d058e7
 ---
 # Licenses overview
 
-Your organization purchased a certain number of licenses when it acquired Adobe Workfront. As a Workfront administrator, you give one of 4 types of paid Workfront licenses to each user when you assign the user an access level.
+<!-- Audited: 12/2023 -->
+
+Your organization purchased a certain number of licenses when it acquired Adobe Workfront. As a Workfront administrator, you give one of five types of Workfront licenses to each user when you assign the user an access level.
 
 ## How licenses and access levels are tied together
 
-The 4 types of paid Workfront licenses allow different levels of access to Workfront. Each access level is attached to one of these licenses.
+The five types of Workfront licenses allow different levels of access to Workfront. Each access level is attached to one of these licenses.
 
 As a Workfront administrator, instead of assigning a license to a user, you assign them the access level attached to that license.
 
@@ -28,7 +30,8 @@ This table and diagram show the main levels of access to Workfront:
 |Plan|System Administrator, Planner|
 |Work|Worker|
 |Review|Reviewer|
-|External*|External User|
+|Request|Requestor|
+|External|External User|
 
 >[!NOTE]
 >

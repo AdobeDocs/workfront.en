@@ -62,7 +62,7 @@ The functionality has changed around editing user email notification settings in
 
 Prior to this change, the email notification settings you selected were saved, and all the other unchanged notification settings were deselected when you saved your changes.&nbsp;
 
-For more information, see the "Modifying User Notification Settings in Bulk" in [Activate or deactivate your own event notifications](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+For more information, see the "Modifying User Notification Settings in Bulk" in [Modify your own email notifications](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Updated&nbsp;Look and Feel of Several Email Notifications
 

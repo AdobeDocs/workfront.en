@@ -77,7 +77,7 @@ You must have the following access to perform the steps in this article:
       * [!UICONTROL Planning]
       * [!UICONTROL Approved]
       * [!UICONTROL Current]
-   * **[!UICONTROL Requested]**: Includes projects associated with the selected portfolio with a status of **[!UICONTROL Requested]**.\
+   * **[!UICONTROL Requested]**: Includes projects associated with the selected portfolio with a status of **[!UICONTROL Requested]**.
 
       For information about reviewing Requested projects, see [Review Requested Projects](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md).
 
@@ -87,10 +87,10 @@ You must have the following access to perform the steps in this article:
       >
       >To see only specific projects, consider creating a project filter in the **[!UICONTROL Filter]** drop-down menu at the top of the list of projects to decrease the number of projects displayed.
 
-      For more information about creating filters, see [Filters overview in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+      For more information about creating filters, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 
-1. Click **[!UICONTROL Programs]**&#x200B;in the left panel to create Programs within the portfolio or manage existing ones.\
+1. Click **[!UICONTROL Programs]** in the left panel to create Programs within the portfolio or manage existing ones.\
    For information about programs, see the [Create and manage programs](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md) section.
 
 1. (Optional) Expand the **[!UICONTROL Portfolio Details]** area in the left panel, then click **[!UICONTROL Overview]** or **[!UICONTROL Custom Forms]** to edit information about the portfolio.
@@ -106,7 +106,7 @@ You must have the following access to perform the steps in this article:
    For information about using the Portfolio Optimizer, see the [Manage projects in the Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md) section. 
 
 1. (Optional) Click **Documents** in the left panel to attach documents to the portfolio.
-1. (Optional)  Click **[!UICONTROL Updates]** in the left panel to add comments to the update stream of the portfolio.
+1. (Optional)  Click **[!UICONTROL Updates]** in the left panel to add comments to the update stream of the portfolio. For information, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 1. (Optional) Click the **[!UICONTROL More] menu** ![](assets/qs-more-icon-on-an-object.png) to do one of the following:
 
    * Deactivate the portfolio. When a portfolio is deactivated, you can no longer associate it with projects at the project level.

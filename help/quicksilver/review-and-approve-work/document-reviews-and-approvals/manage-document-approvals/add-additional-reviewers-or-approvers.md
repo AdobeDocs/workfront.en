@@ -4,9 +4,9 @@ navigation-topic: approvals
 title: Add additional approvers or reviewers to a document
 description: You can add additional approvers or reviewers to a document that already has pending approvals.
 author: Nolan
-feature: Work Management
+feature: Work Management, Digital Content and Documents
+exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
 ---
-
 # Add additional approvers or reviewers to a document
 
 You can add additional approvers or reviewers to a document that already has pending approvals.

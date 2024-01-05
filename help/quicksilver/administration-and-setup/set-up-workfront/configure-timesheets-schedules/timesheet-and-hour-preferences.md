@@ -15,6 +15,17 @@ exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
 
 As an [!DNL Adobe Workfront] administrator, you can specify preferences for timesheets and hours in [!DNL Workfront] in order to define what items the timesheets can pre-populate with and what items users can log time to.
 
+>[!IMPORTANT]
+>
+>In addition to the items that pre-populate a timesheet according to the conditions described in this article, the following items also display on timesheets by default:
+>* Items for which you logged time during the time frame of the timesheet
+>* Items that are pinned to the timesheet
+>* Items that you search for and manually add to the timesheet. Manually added items are pinned by default. 
+>
+>For more information, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md). 
+
+
+
 Any changes you make to timesheets impact all timesheets that are created in the future.
 
 ## Access requirements
@@ -60,7 +71,8 @@ If you still don't have access, ask your [!DNL Workfront] administrator if they 
        <ul> 
         <li>Any projects, tasks, and issues where they have access to log time</li> 
         <li>Their timesheets as General Time</li> 
-       </ul> <p>This is useful when users plan to be away from the office and want to log that time beforehand.</p> <p><b>NOTE</b>: You cannot prevent users from logging time on tasks or issues that are closed or canceled. You can only prevent users from logging time on complete or dead projects. We recommend that you use filters in lists of tasks and issues to exclude the ones that have been completed or canceled from being visible to users.</p> </td> 
+       </ul> <p>This is useful when users plan to be away from the office and want to log that time beforehand.</p> <p><b>NOTE</b>:</p> 
+       <p>You cannot prevent users from logging time on tasks or issues that are closed or canceled. You can only prevent users from logging time on complete or dead projects. We recommend that you use filters in lists of tasks and issues to exclude the ones that have been completed or canceled from being visible to users.</p> </td> 
      </tr>
 
    <tr> 

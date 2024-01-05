@@ -4,10 +4,13 @@ navigation-topic: manage-projects
 title: Edit projects
 description: You can edit a project in Adobe Workfront as often as needed. Ideally, you should edit a project when the project is in the Planning status.
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 ---
 # Edit projects
+
+<!--Audited: 01/2024-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
@@ -23,12 +26,12 @@ exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 </div>
 -->
 
-You can edit a project in Adobe Workfront as often as needed. We recommend that you edit projects minimally after their status changes to Current, to avoid confusion by sending out notifications about the changes to the entire project team. Ideally, you should edit a project when the project is in the Planning status. For information about the project team, see [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+You can edit a project in Adobe Workfront as often as needed. We recommend that you edit projects minimally after their status changes to Current, to avoid confusion by sending out notifications about the changes to the entire project team. 
+
+Ideally, you should edit a project when the project is in the Planning status. For information about the project team, see [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Access requirements
 
-<!--drafted - replace table at P&P:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -39,51 +42,19 @@ You can edit a project in Adobe Workfront as often as needed. We recommend that 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td><p>Current license: Standard </p> 
+   <td><p>New: Standard </p> 
    Or
-   <p>Legacy license: Plan </p> </td> 
+   <p>Current: Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to projects, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td> <p>Edit access to Projects</p> <p>If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to projects, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
    <td> 
-    <ul> 
-     <li> <p>Contribute permissions to a project to edit it in the Project Details area </p> </li> 
-     <li> <p>Manage permissions to a project to edit it in the Edit Project box</p> </li> 
-    </ul> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-You must have the following access to perform the steps in this article:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to projects, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> 
-    <ul> 
-     <li> <p>Contribute permissions to a project to edit it in the Project Details area </p> </li> 
-     <li> <p>Manage permissions to a project to edit it in the Edit Project box</p> </li> 
-    </ul> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+     <p>Manage permissions to a project </p> 
+     <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -96,7 +67,7 @@ There are some limitations that might prevent you from editing projects.
 
 Consider the following when editing projects:
 
-* You cannot edit projects that are in an Approval Process, except for logging time. 
+* You cannot edit projects that are in an Approval Process, except for logging time and changing the Status. 
 * You can attach documents or templates to a project that has a status of Complete, Dead, or is in Pending Approval only if your Workfront administrator or a group administrator enabled this functionality in the Project Preferences area. For information about setting project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md). 
 * You can only edit the following information on a project in a Dead or Complete status:
 
@@ -107,20 +78,25 @@ Consider the following when editing projects:
 
 By editing a project you can modify information and settings for the project, as well as tasks and issues on the project.
 
-Some settings mentioned in this article might be modified from their default status by their state in the template from which the project was created. For information about editing templates, see [Edit project templates](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+Some settings mentioned in this article might be modified from their default status by their state in the template from which the project was created. 
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Projects**. 
+For information about editing templates, see [Edit project templates](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+
+For information about creating a project from a template, see [Create a project using a template](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md). 
+
+{{step1-to-projects}}
+
 1. (Optional) Click **Projects I'm On** or **Projects I Own** in the upper-right corner to display projects where you are the owner or projects where you are part of the project team.
 
    ![](assets/projects-on-my-own-buttons-350x302.png)
-
-1. Click the name of the project you want to edit to open the project page.
 
    >[!NOTE]
    >
    >If you are a group administrator, you can see and edit your group's projects in the Groups area as well as in the Projects area. For more information, see [Create and modify a group's projects](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-1. (Optional) To edit limited information about a project, click **Project Details** in the left panel.
+1. Click the name of the project you want to edit to open the project page.
+
+1. (Optional) To edit limited information about a project, click **Project Details** in the left panel. If you want to edit all information about the project, proceed to Step 5. <!--accurate?!-->
 
    ![](assets/nwe-project-details-expanded-350x298.png)
 
@@ -130,7 +106,7 @@ Some settings mentioned in this article might be modified from their default sta
 
    To edit information in the Details section, do the following:
 
-   1. (Optional) Click the **Collapse All** icon in the upper-right corner to collapse all areas. 
+   1. (Optional) Click the **Collapse All** icon ![](assets/collapse-icon.png)  in the upper-right corner to collapse all areas. 
    1. (Optional and conditional) When an area is collapsed, click the **right-pointing arrow** ![](assets/right-pointing-arrow.png) next to each area to expand the area you want to edit. 
    1. For more information about editing information in the Project Details tab, see the following articles:
 
@@ -155,7 +131,9 @@ Some settings mentioned in this article might be modified from their default sta
 
    Or
 
-   From a list of projects, select a project, then click the **Edit** icon ![](assets/edit-icon.png) at the top of the list.
+   From a list of projects, select one or multiple projects, then click the **Edit** icon ![](assets/edit-icon.png) at the top of the list.
+
+   For more information about editing projects in bulk, see the section [Edit projects in bulk](#edit-projects-in-bulk) in this article. 
 
    The **Edit Project** box opens.
 
@@ -169,7 +147,7 @@ Some settings mentioned in this article might be modified from their default sta
    >
    >Depending on how your Workfront administrator or Group administrator modified your Layout Template, the areas in the left panel of the Edit Project box or any fields listed in these areas might be rearranged or not display. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. (Conditional) If you clicked the **More** menu and then **Edit**, consider updating information in any of the following areas listed in the left panel:
+1. (Conditional) If you clicked the **More** menu and then **Edit**, update information in any of the following areas listed in the left panel:
 
    * [Project Name](#project-name) 
    * [Overview](#overview) 
@@ -204,103 +182,113 @@ Some settings mentioned in this article might be modified from their default sta
 
 1. Update the following information about the project:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader"><strong>Description</strong> </td> 
-      <td> <p>Add additional information about the project.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Status</strong> </td> 
-      <td> <p>Select the status of the project. You cannot mark a project Complete before all tasks and issues complete. For information about project statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref">Access the list of system project statuses</a></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Priority</strong> </td> 
-      <td> <p> <p>This is just a visual flag for you which allows you to prioritize your projects.</p> <p>Depending on the Project Preferences selected by your Workfront administrator, the names of priorities might be different for you. For more information about editing priorities, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Create and customize priorities</a></p> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>URL</strong> </td> 
-      <td> <p>Specify a web link that relates to information about this project.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Condition Type</strong> </td> 
-      <td> <p>Select between the following Condition Types: 
-       <ul> 
-       <li><strong>Manual:</strong> The project owner sets the condition on the project manually.</li> 
-       <li><strong>Progress Status:</strong> Workfront automatically sets the condition based on the Progress Status of tasks on the Critical Path. For more information about understanding Progress Status, see <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Task Progress Status overview</a>.</li> 
-       </ul><p>Your Workfront administrator<span> or a group administrator</span> selects the default for how the projects' condition is calculated for your system <span>or your group</span>. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>. </p></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Condition</strong> </td> 
-      <td> <p> <p>(Displays only after you select <strong>Manual</strong> for the <strong>Condition Type</strong>): Select a Condition to indicate how the project is going. </p> <p>For information how project Conditions can be set automatically or manually, see <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Overview of Project Condition and Condition Type</a></p> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Schedule Mode</strong> </td> 
-      <td> <p>Specify whether the project is scheduled from the Start Date, or from the Completion Date. This selection determines the planned dates of the tasks on the project. 
-       <ul> 
-       <li><strong>Start Date</strong>: The first task of the project has the same Planned Start Date as the project by default. For information about the task Planned Start Date, see <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Overview of the task Planned Start Date</a>. The project timeline calculates from the Start Date and the Completion Date of the project is calculated by the system, based on the duration of all the tasks. </li> 
-       <li><strong>Completion Date</strong>: The last task of the project has the same Planned Completion Date as the project. The project timeline calculates from the Completion Date and the Start Date of the project is calculated by the system, by subtracting the duration of all the tasks from the Completion Date of the project. </li> 
-       </ul><p>Your Workfront administrator<span> or a group administrator</span> selects the default Schedule Mode setting for your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Planned Start Date and time</strong> </td> 
-      <td> <p> <p>Specify the date when you select <strong>Schedule From Start Date</strong>. <br></p> <p>This is a read-only field when you select <strong>Schedule from Completion Date</strong>.<br></p> </p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Planned Completion Date and time</strong> </td> 
-      <td> <p>Specify the date when you select <strong>Schedule from Completion Date</strong>. </p> <p>This is a read-only field when you select <strong>Schedule from Start Date</strong>.<br></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Portfolio</strong></td> 
-      <td>Indicate a Portfolio that the project belongs to. You must create a Portfolio first, before it appears in the drop-down list. Only active portfolios can be associated with a project. For more information about creating portfolios, see <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Create a portfolio </a>.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Program</strong></td> 
-      <td> <p>If you selected a Portfolio for the project, specify a Program for the project. Some Portfolios might not have Programs. You must create a Program first, before it appears in this drop-down list. Only active programs can be associated with a project. </p> <p>For more information about creating programs, see <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Create a program</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Group</strong></td> 
-      <td> <p> <p>Specify the name of the group associated with the project. </p>This is a required field. You cannot have a project which is not associated with a group. </p> <p>You can make sure you are selecting the right group by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> By default, one of the following groups is automatically associated with a project when it is created, unless you specify a different group:</p> 
-       <ul> 
-       <li> <p><span>When the project is created from the Projects area, the Home Group of the project creator is associated with the project.</span> </p> <p>This is also true when the project is created from the Projects  section  in a portfolio or program.</p> </li> 
-       <li> <p>When the project is created from a group's main page in the Setup area, that group is associated with the project.</p> </li> 
-       </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
-       <p><b>NOTES</b></p>
-      
-      <ul>
-      <li><p>If the project, or its tasks or issues are associated with a group-level custom Status, changing the Group of the project might cause the Status of the project, tasks, or issues to change to match the new group.</p></li>
-      <li><p>If the project, or its tasks or issues are already associated with a group-level approval process using group-level custom statuses, changing the group might create a conflict between the approval statuses of the previous group and those existing at the system level.</p>
-      <p>Consider removing the group-level approval processes on the project, or its tasks or issues before updating the group.</p>
-      <p>For information about creating group-level approval processes, see <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Group-level approval processes</a>.</p>
-      <p>For information about creating a group-level custom status, see <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Create or edit a group status</a></p></li></ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Company</strong> </td> 
-      <td> <p>Specify a company associated with the project. You must create a company before you can associate it with a project. Only active companies can be associated with a project. For information about creating companies, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">Create and edit companies</a>.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Project Owner</strong> </td> 
-      <td> <p>Start typing the name of a user to add them to the project, then select it when it displays in the list. The user is added to the project team and is automatically given Manage permissions to the project. The user who is designated as the Project Owner must be a Workfront active user.</p>
-      </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Project Sponsor</strong> </td> 
-      <td> <p>Start typing the name of a user to add them to the project, then select it when it displays in the list. The user is added to the project team and is automatically given View permissions to the project. The user who is designated as the Project Sponsor must be a Workfront active user.<br></p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Resource Manager</strong> </td> 
-      <td> <p> Start typing the names of users to add them to the project, then select them when they display in the list. The users are added to the project team and are automatically given Manage permissions to the project and can assign resources to the tasks and issues on the project. Users maintain Manage permissions on the project even when they are removed from the Resource Manager field. You can specify more than one Resource Manager.<br></p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+      <table style="table-layout:auto"> 
+      <col> 
+      <col> 
+      <tbody> 
+      <tr> 
+         <td role="rowheader"><strong>Description</strong> </td> 
+         <td> <p>Add additional information about the project.</p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Status</strong> </td> 
+         <td> <p>Select the status of the project. You cannot mark a project Complete before all tasks and issues complete. For information about project statuses, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref">Access the list of system project statuses</a></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Priority</strong> </td> 
+         <td> <p> <p>This is just a visual flag for you which allows you to prioritize your projects.</p> <p>Depending on the Project Preferences selected by your Workfront administrator, the names of priorities might be different for you. For more information about editing priorities, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Create and customize priorities</a></p> </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>URL</strong> </td> 
+         <td> <p>Specify a web link that relates to information about this project.</p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Condition Type</strong> </td> 
+         <td> <p>Select between the following Condition Types: 
+         <ul> 
+         <li><strong>Manual:</strong> The project owner sets the condition on the project manually.</li> 
+         <li><strong>Progress Status:</strong> Workfront automatically sets the condition based on the Progress Status of tasks on the Critical Path. For more information about understanding Progress Status, see <a href="../../../manage-work/tasks/task-information/task-progress-status.md" class="MCXref xref">Task Progress Status overview</a>.</li> 
+         </ul><p>Your Workfront administrator<span> or a group administrator</span> selects the default for how the projects' condition is calculated for your system <span>or your group</span>. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>. </p></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Condition</strong> </td> 
+         <td> <p> <p>(Displays only after you select <strong>Manual</strong> for the <strong>Condition Type</strong>): Select a Condition to indicate how the project is going. </p> <p>For information how project Conditions can be set automatically or manually, see <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref">Overview of Project Condition and Condition Type</a></p> </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Schedule Mode</strong> </td> 
+         <td> <p>Specify whether the project is scheduled from the Start Date, or from the Completion Date. This selection determines the planned dates of the tasks on the project. 
+         <ul> 
+         <li><strong>Start Date</strong>: The first task of the project has the same Planned Start Date as the project by default. For information about the task Planned Start Date, see <a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Overview of the task Planned Start Date</a>. The project timeline calculates from the Start Date and the Completion Date of the project is calculated by the system, based on the duration of all the tasks. </li> 
+         <li><strong>Completion Date</strong>: The last task of the project has the same Planned Completion Date as the project. The project timeline calculates from the Completion Date and the Start Date of the project is calculated by the system, by subtracting the duration of all the tasks from the Completion Date of the project. </li> 
+         </ul><p>Your Workfront administrator<span> or a group administrator</span> selects the default Schedule Mode setting for your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</p></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Planned Start Date and time</strong> </td> 
+         <td> <p> <p>Specify the date when you select <strong>Schedule From Start Date</strong>. <br></p> <p>This is a read-only field when you select <strong>Schedule from Completion Date</strong>.<br></p> </p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Planned Completion Date and time</strong> </td> 
+         <td> <p>Specify the date when you select <strong>Schedule from Completion Date</strong>. </p> <p>This is a read-only field when you select <strong>Schedule from Start Date</strong>.<br></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Portfolio</strong></td> 
+         <td>Indicate a Portfolio that the project belongs to. You must create a Portfolio first, before it appears in the drop-down list. Only active portfolios can be associated with a project. For more information about creating portfolios, see <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Create a portfolio </a>.</td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Program</strong></td> 
+         <td> <p>If you selected a Portfolio for the project, specify a Program for the project. Some Portfolios might not have Programs. You must create a Program first, before it appears in this drop-down list. Only active programs can be associated with a project. </p> <p>For more information about creating programs, see <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Create a program</a>.</p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Group</strong></td> 
+         <td> <p> <p>Specify the name of the group associated with the project. </p>This is a required field. You cannot have a project which is not associated with a group. </p> <p>You can make sure you are selecting the right group by hovering over it and clicking the information icon <img src="assets/info-icon.png"> that displays next to it. This displays a tooltip listing information about the group, such as the hierarchy of groups above it and its administrators.</p> By default, one of the following groups is automatically associated with a project when it is created, unless you specify a different group:</p> 
+         <ul> 
+         <li> <p><span>When the project is created from the Projects area, the Home Group of the project creator is associated with the project.</span> </p> <p>This is also true when the project is created from the Projects  section  in a portfolio or program.</p> </li> 
+         <li> <p>When the project is created from a group's main page in the Setup area, that group is associated with the project.</p> </li> 
+         </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
+         <p><b>NOTES</b></p>
+         
+         <ul>
+         <li><p>If the project, or its tasks or issues are associated with a group-level custom Status, changing the Group of the project might cause the Status of the project, tasks, or issues to change to match the new group.</p></li>
+         <li><p>If the project, or its tasks or issues are already associated with a group-level approval process using group-level custom statuses, changing the group might create a conflict between the approval statuses of the previous group and those existing at the system level.</p>
+         <p>Consider removing the group-level approval processes on the project, or its tasks or issues before updating the group.</p>
+         <p>For information about creating group-level approval processes, see <a href="../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-groups-approval-processes.md" class="MCXref xref">Group-level approval processes</a>.</p>
+         <p>For information about creating a group-level custom status, see <a href="../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md" class="MCXref xref">Create or edit a group status</a></p></li></ul> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Company</strong> </td> 
+         <td> <p>Specify a company associated with the project. You must create a company before you can associate it with a project. Only active companies can be associated with a project. For information about creating companies, see <a href="../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md" class="MCXref xref">Create and edit companies</a>.</p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Project Owner</strong> </td> 
+         <td> <p>Start typing the name of a user to add them to the project, then select it when it displays in the list. The user is added to the project team and is automatically given Manage permissions to the project. The user who is designated as the Project Owner must be a Workfront active user.</p>
+         </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Project Sponsor</strong> </td> 
+         <td> <p>Start typing the name of a user to add them to the project, then select it when it displays in the list. The user is added to the project team and is automatically given View permissions to the project. The user who is designated as the Project Sponsor must be a Workfront active user.<br></p> </td> 
+      </tr> 
+      <tr> 
+         <td role="rowheader"><strong>Resource Manager</strong> </td> 
+         <td> <p> Start typing the names of users to add them to the project, then select them when they display in the list. The users are added to the project team and are automatically given Manage permissions to the project and can assign resources to the tasks and issues on the project. Users maintain Manage permissions on the project even when they are removed from the Resource Manager field. You can specify more than one Resource Manager.<br></p> </td> 
+      </tr> 
 
-   >[!TIP]
-   >
-   >When updating the Project Owner, Project Sponsor, and Resource Manager fields, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.
+   <tr> 
+         <td role="rowheader"><strong>Converted Issue Originator</strong> </td> 
+         <td> <p> By default, this field is auto-populated with the name of the user who created the issue which the project was converted from. You can update this name with any other user's name in Workfront. <br></p> </td> 
+      </tr> 
 
-1. (Optional) Continue editing the following sections, depending on the information you want to modify. 
+      </tbody> 
+      </table>
+
+      >[!TIP]
+      >
+      >When updating the Project Owner, Project Sponsor, and Resource Manager fields, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. 
+      >
+      >Users must be associated with at least one job role to view it as you add them.
+      >
+      >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md). 
+
+1. (Optional) Continue editing the following sections, depending on the information you want to modify
 
    Or
 
@@ -326,8 +314,7 @@ For information about custom form access, see the following articles:
 * [Share a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
 * [Add a section break to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md) 
 
-To edit information on custom forms:
-
+To edit information on custom forms when editing a project:
 
 1. Begin editing your project as described above.
 1. Click **Custom Forms** in the left panel.
@@ -381,7 +368,7 @@ To edit fields in the Finance area:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Budget</strong> </td> 
-      <td> <p>Specify a Budget for the project.<br></p> </td> 
+      <td> Specify a Budget for the project. </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Performance Index Method</strong> </td> 
@@ -450,7 +437,7 @@ To edit fields in the Finance area:
        <td> <p>Controls how the parent tasks are marked as Complete. Select from the following options: 
        <ul> 
        <li><strong>Automatic</strong>: The parent tasks are marked Complete and they update their percent complete automatically, as the children tasks are completed and the percent complete of the children is updated. </li> 
-       <li><strong>Manual</strong>: You have to manually update the percent complete and the status of the parent tasks, independently of what changes are made to the children tasks.</li> 
+       <li><strong>Manual</strong>: You have to manually update the percent complete and the status of the parent tasks, independently of what changes are made to the children tasks. This allows you to mark a parent task completed even when the subtasks are incomplete. </li> 
        </ul></p> </td> 
        </tr> 
        <tr> 
@@ -505,7 +492,9 @@ To edit fields in the Finance area:
        <td> <p> <p>Select from the following options:</p> 
        <ul> 
        <li> <p>Select <strong>No</strong> to make all project-specific hour types available on the project. (This is the default selection)</p> <p>Or</p> </li> 
-       <li>Select <strong>Yes</strong> to make only a subset of the project-specific hour types available on the project, then select the hour types you want to make available. (Hold the Shift key to select multiple hour types.)</li> 
+       <li>Select <strong>Yes</strong> to make only a subset of the project-specific hour types available on the project, then select the hour types you want to make available from the <b>Hour Types</b> field.</li> 
+       <p><b>TIP</b></p>
+       <p>The <b>Hour Types</b> field is not editable when you select <b>No</b>.</p> 
        <p>If you select this option, only the hour types you select are made available to select when logging hours on the project (or on tasks and issues within the project). You must select at least one hour type; if you select this option and you do not select any hour types, all hour types are made available on the project.</p> </ul>
        
       <p>The same hour type selections must be made at the individual user level in order for the user to see these hour type options on the project. For more information about defining hour types at the user level, see <a href="../../../timesheets/create-and-manage-timesheets/log-time.md" class="MCXref xref">Log time</a>. </p> </p> </td> 
@@ -551,7 +540,7 @@ For information about how these settings affect creating new tasks, see the sect
 
 1. In the **Task Default Approval Process** box, select the task Approval Process you want to associate with all new tasks when you add them to the project.
 
-   Your Workfront administrator (or a user with administrative access to Approval processes) must create a system-level approval process for a task before you can associate it with a project. Only active approval processes display in the list. For information about creating Approval Processes, see [Create an approval process for work items](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md). For information about how changes to the group of the project or changes in the approval process affect approval settings, see [How group and approval process changes affect assigned approval processes](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
+   Your Workfront administrator (or a user with administrative access to Approval processes) must create a system-level or group-level approval process for a task before you can associate it with a project. Only active approval processes display in the list. For information about creating Approval Processes, see [Create an approval process for work items](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md). For information about how changes to the group of the project or changes in the approval process affect approval settings, see [How group and approval process changes affect assigned approval processes](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md).
 
    When bulk-editing projects, the following scenarios exist:
 
@@ -647,11 +636,11 @@ For information about how these settings affect creating new tasks, see the sect
       <td><p>Select from <strong>View</strong>, <strong>Contribute</strong>, or <strong>Manage</strong> access to the request. When the project is also a request queue and a user submits a request to the project, they are granted this access to the request they submitted. For information about setting up a project as a request queue, see <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Create a Request Queue</a>.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader"><strong>People from the same company will inherit the same permissions for all requests</strong></td> 
+      <td role="rowheader"><strong>People from the same company will inherit the same permissions for all requests.</strong></td> 
       <td><p>Select this field if you want people from the same company to have the same access to all the requests on the project, whether they submitted them or not.<br></p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>When someone is given access to this project: Give them access to ...</strong></td> 
+      <td role="rowheader"><strong>When someone is given access to this project: Indicate the default access for ...</strong></td> 
       <td><p>Select the access options that you want users to have on the project, if the project is shared with them. Select the specific options for their access if they are designated as <strong>Viewers</strong>, <strong>Contributors</strong>, or <strong>Managers</strong> when sharing the project with them. </p><p>The <strong>Delete</strong> access in the <strong>Manage</strong> permission level determines whether users can&nbsp;delete the project itself. Users with <strong>Manage</strong> access to the project can delete tasks and issues within the project regardless of whether this option is selected, if they have <strong>Manage</strong> permissions to the tasks and issues.&nbsp;</p></td> 
      </tr> 
     </tbody> 
@@ -670,6 +659,7 @@ Your system or group administrator can customize the fields you see in the proje
 The following fields are included in the project header, by default.
 
 * Project name
+* Percent Complete
 * Project Owner
 * Planned Completion Date and time
 
@@ -724,8 +714,8 @@ Consider the following when editing projects in bulk:
 
 To edit projects in bulk: 
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
-1. Click **Projects**.
+{{step1-to-projects}}
+
 1. Select several projects in the list.
 1. Click the **Edit** icon ![](assets/edit-icon.png) at the top of the list. 
 The **Edit Projects** dialog box opens. 

@@ -9,6 +9,10 @@ exl-id: 5975d773-eae6-44ae-8296-2013504da3a8
 ---
 # Submit [!DNL Adobe Workfront] requests from [!DNL Microsoft] Teams
 
+>[!NOTE]
+>
+>The Adobe Workfront for Microsoft Teams integration is currently supported only for the classic Microsoft Teams experience.
+
 After your team owner installs [!DNL Adobe Workfront for Microsoft Teams], you can submit [!DNL Workfront] requests from your [!DNL Microsoft Teams] account. To do so, you must have a Workfront account with access to submit requests. For information about installing [!DNL Workfront for Microsoft Teams], see [Installing [!DNL Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 >[!NOTE]

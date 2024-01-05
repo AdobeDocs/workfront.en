@@ -7,6 +7,7 @@ title: Diagnostics
 description: You can use Diagnostics to manually trigger automated processes, such as time-based scripts, recalculations, and email notifications.
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: a87d5416-d73f-411c-988a-9dedb933ccd5
 ---
 # Diagnostics

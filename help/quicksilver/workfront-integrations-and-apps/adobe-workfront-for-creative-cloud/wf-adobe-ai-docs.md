@@ -46,7 +46,7 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-* You must install the [!DNL Adobe Workfront for design and video] plugin before you can upload documents from [!DNL Illustrator].
+* You must install [!DNL Adobe Workfront for design and video] before you can upload documents from [!DNL Illustrator].
 
   For instructions, see [Install [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
 
@@ -67,3 +67,12 @@ You must have the following access to perform the steps in this article:
     ![](assets/file-export-settings.png)
 1. Click **[!UICONTROL Upload]**.
    The document appears in the [!UICONTROL Documents] area in the plugin and the desktop app.
+   
+>[!NOTE]
+>
+>If the document exports as a text document, you may need to reset your preferences in [!DNL Adobe Illustrator].
+>
+>1. In [!DNL Illustrator], click the **[!UICONTROL Edit]** tab and select **[!UICONTROL Preferences]**.
+>1. Select **[!UICONTROL General]**.
+>1. Click **[!UICONTROL Reset Preferences]**. 
+>1. Close and restart [!DNL Illustrator].

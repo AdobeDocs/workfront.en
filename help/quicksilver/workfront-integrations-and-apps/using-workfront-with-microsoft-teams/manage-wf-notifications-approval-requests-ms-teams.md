@@ -9,6 +9,10 @@ exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
 ---
 # Manage [!DNL Adobe Workfront] notifications in [!DNL Microsoft Teams]
 
+>[!NOTE]
+>
+>The Adobe Workfront for Microsoft Teams integration is currently supported only for the classic Microsoft Teams experience.
+
 You can receive notifications from [!DNL Adobe Workfront] about items you need to approve, assignments you've been given, or comments and changes to items you're associated with.
 
 These notifications contain [!DNL Workfront] actions that you can take within [!DNL Microsoft Teams] without navigating away from [!DNL Microsoft Teams] to accomplish them. 
@@ -45,7 +49,7 @@ You can receive [!DNL Workfront] notifications in [!DNL Microsoft Teams] if the 
 
 * A team owner has installed and configured [!DNL Workfront for Microsoft Teams] for your team.
 * You are logged into [!DNL Workfront] from [!DNL Microsoft Teams].
-* You have enabled instant notifications in [!DNL Workfront]. For information on enabling instant notifications, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* You have enabled instant notifications in [!DNL Workfront]. For information on enabling instant notifications, see [Modify your own email notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 For information about installing [!DNL Workfront for Microsoft Teams] and logging in to [!DNL Workfront from Microsoft Teams], see [Install [!DNL Adobe Workfront for Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 

@@ -14,7 +14,7 @@ exl-id: 814c285e-c106-458a-a0b1-760677634f4f
 
 In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Microsoft Office 365 Calendar], as well as connect it to multiple third-party applications and services.
 
-In order to use [!DNL Office 365 Calendar] with [!DNL Adobe Workfront Fusion], it is necessary to have an [!DNL Office 365 Excel] account. You can create one at [www.office.com](http://www.office.com/).
+In order to use [!DNL Office 365 Calendar] with [!DNL Adobe Workfront Fusion], it is necessary to have an [!DNL Office 365 Excel] account. You can create one at [www.office.com](https://www.office.com/).
 
 For instructions about connecting your Office 365 account to [!DNL Workfront Fusion], see [Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
@@ -38,11 +38,19 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p> </td> 
+   <td>
+   <p>Current license requirement: No [!DNL Workfront Fusion] license requirement.</p>
+   <p>Or</p>
+   <p>Legacy license requirement: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
+   <td>
+   <p>Current product requirement: If you have the [!UICONTROL Select] or [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article. [!DNL Workfront Fusion] is included in the [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Or</p>
+   <p>Legacy product requirement: Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>

@@ -9,9 +9,9 @@ exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
 ---
 # Create or edit a board
 
-From the [!UICONTROL boards] dashboard, you can create a new board or edit an existing board.
+<!-- Audited: 12/2023 -->
 
-To add a board to a workstream, see [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+From the [!UICONTROL boards] dashboard, you can create a new board or edit an existing board.
 
 ## Access requirements
 
@@ -25,6 +25,13 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
+    <tr> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New: Contributor or higher </p>
+ <p>or</p> 
+<p>Current: [!UICONTROL Request] or higher </p> 
+</td> 
+  </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
    <td> <p>[!UICONTROL Request] or higher</p> </td> 
@@ -36,8 +43,8 @@ You must have the following access to perform the steps in this article:
 
 ## Create a new board
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
-1. To create a standalone board, click **[!UICONTROL Add board]** in the [!UICONTROL Boards] area. To add a board to a workstream, see [Manage workstreams](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+{{step1-to-boards}}
+1. Click **[!UICONTROL Add board]**.
 
 1. Select a template for the board.
 
@@ -46,7 +53,7 @@ You must have the following access to perform the steps in this article:
    | Basic board | Three default columns are provided on the board. You can add new columns and rename or delete the default columns. <p>Three default columns are provided on the board. You can add new columns and rename or delete the default columns. |
    | Kanban board | The following columns are provided on the board: Backlog, New, In Progress, Complete, and On Hold. You can add new columns and rename or delete the default columns.<p>To use the backlog, you must set up filters for the intake column. For information, see [Add an intake column to a board](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md). <p>To review the default policies for each column, click the [!UICONTROL **More** menu] on a column and select [!UICONTROL **Edit**]. You can change any of these pre-set policies. For information, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
    | Retrospective board | The following columns are provided on the board: What went well? What could be improved? Who should we celebrate? What can we do to move faster? You can add new columns and rename or delete the default columns. <p>No column policies are applied. |
-   | Dynamic board | The following columns are provided on the board: Unselected, New, In Progress, On Hold, and Complete. You can add new columns and rename or delete the default columns. (The Unselected column can be renamed but not deleted. This column holds all cards with a status that doesn't match any of the other column statuses.) <p>The default column policies assign cards to columns based on their status. For information, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). <p>**NOTE:** The dynamic board is available only through the early feature opt-in for Workfront Boards. |
+   | Dynamic board | The following columns are provided on the board: Unselected, New, In Progress, On Hold, and Complete. You can add new columns and rename or delete the default columns. (The Unselected column can be renamed but not deleted. This column holds all cards with a status that doesn't match any of the other column statuses.) <p>The default column policies assign cards to columns based on their status. For information, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). |
 
 1. For a dynamic board only, follow the setup wizard steps:
 
@@ -57,11 +64,13 @@ You must have the following access to perform the steps in this article:
 
       The [!UICONTROL **Cards being added**] counter shows how many cards will be on the board. For example, if you select a project with 100 tasks and issues, the counter shows 100. If you add a user assignment and that person is assigned to 5 tasks on the project, the counter shows 5.
 
-   1. (Optional) Select [!UICONTROL **Include completed work**] to include completed cards on the board.
+   1. (Optional) Select [!UICONTROL **Include completed work as archived cards**] to bring completed tasks and issues onto the board as archived cards.
    
       >[!NOTE]
       >
-      >If this option is not selected, when cards in other statuses are marked complete, they will "fall off" the board and no longer be displayed.
+      >By default, archived cards are not displayed on the board. To display archived cards, you must turn on a configuration setting and then filter the board to show archived cards. For details, see [Customize which fields are displayed on a card](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md) and [Filter and search in a board](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+      >
+      >If this option is not selected, completed cards at the time of board creation do not appear on the board. Cards later marked as complete remain on the board in the Complete column and are not archived unless you set up card falloff. For more information, see [Configure card falloff](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).
 
    1. (Optional) Click [!UICONTROL **Use advanced filters**] to display additional filter options.
 
@@ -82,7 +91,7 @@ You must have the following access to perform the steps in this article:
 
 ## Edit an existing board
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
+{{step1-to-boards}}
 1. On the dashboard, select the board to open.
 1. Edit the board as needed. You can click on the board name to rename it.
 

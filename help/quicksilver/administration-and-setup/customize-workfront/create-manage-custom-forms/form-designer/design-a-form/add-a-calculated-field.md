@@ -5,7 +5,7 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: You can add a calculated custom field that uses existing data to generate new data when the custom form is attached to an object.
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
 ---
@@ -248,7 +248,7 @@ To reuse an existing calculated custom field:
          >
          >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
 
-         For more information about variables like `$$OBJCODE,` see [Wildcard filter variables](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+         For more information about variables like `$$OBJCODE,` see [Wildcard filter variables overview](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
          **Automatic updates of calculated custom fields**
 
@@ -275,7 +275,7 @@ To reuse an existing calculated custom field:
       >
       >You can do any of the following to get help with your calculation:
       > 
-      >* Hover over an expression in your calculation to see a description, an example showing how it can be used, and a "Learn More" link to more information in the article [Calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+      >* Hover over an expression in your calculation to see a description, an example showing how it can be used, and a "Learn More" link to more information in the article [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
       >  ![](assets/hover-expression-help-text.jpg)
       >* Use the color coding to identify the components you have added. Expressions display in blue and fields display in green.
       >  ![](assets/colors-fields-expressions.jpg)

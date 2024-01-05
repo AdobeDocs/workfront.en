@@ -8,130 +8,134 @@ author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 ---
+
 # Updates section overview
 
-<!--take "Beta" references out when we remove the beta-->
+<!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>
+<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
 
->[!NOTE]
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
+
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> 
+
+
+>[!IMPORTANT]
 >
 >We are currently redesigning the commenting experience in Adobe Workfront.
 >
->For more information about the new commenting experience, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+>Depending on what objects you access the commenting experience for, you might see the following functionality for the Updates section:
+>* The new experience
+>* The legacy experience
+>* The new and the legacy experience
 >
->You can access the new experience for the following objects:
-> * Issues, <span class="preview">projects, tasks, and documents</span>.
+>This article contains information about the new and the legacy versions of the Updates section.
 >
->     This is available when you enable the commenting Beta experience.
+>For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
->     This functionality is available only for the Updates section, and it is not available for the following areas:
+>The new commenting experience is available only for the Updates section of Workfront objects, and it is not available when you access the objects from the following areas:
 >
->     * Home
->     * Summary panel in lists
->     * Summary panel in timesheets
->
-> * Goals
->
->   The new commenting experience is the default for goals. You must have an additional license to access Workfront Goals. For more information, see [Requirements to uses Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
->
->    For information about commenting on goals, see [Manage goal comments in Adobe    Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md).
+> * Home
+> * Summary panel in lists
+> * Summary panel in timesheets 
+> * Summary panel in the Workload Balancer
 
-The Updates section of an object displays comments that users make on the object or system updates that track changes to the object.
-
-## Overview of the Updates section
-
-The information in the Updates section is organized differently, depending on which environment you access it from. 
-
-### Overview of the current Updates section 
-
-The Updates section of an object shows up to 200 of the most recent updates made within the past 90 days. 
-
-![](assets/updates-tab-before-unified-experience-for-issues.png)
-
-The current Updates section shows the following information:
-
-* Comments made by users and replies to those comments. 
-* System updates which are informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your objects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-
-The Updates section displays for the following objects:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li>Documents</li> 
-     <li>Goals</li> 
-     <li>Issues</li> 
-     <li>Iterations</li> 
-     <li>Projects</li> 
-     <li>Programs</li> 
-     <li>Portfolios</li> 
-    </ul> </td> 
-   <td> 
-    <ul> 
-     <li>Stories</li> 
-     <li>Tasks</li> 
-     <li>Templates</li> 
-     <li>Template Tasks</li> 
-     <li>Timesheets</li> 
-     <li>Users</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Overview of the Updates section in the Beta commenting experience
-
-![](assets/updates-tab-after-unified-experience-for-issues.png)
-
-The Updates section displays information in the following tabs in the new commenting experience: 
-
-* **Comments**: Displays comments made by users and replies to those comments. For information about updating objects in the new commenting experience, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
-* **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your objects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-
-Currently, you can add comments and reply to updates using the Beta commenting experience on the following objects:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> 
-    <ul> 
-     <li><p>Goals</p>
-     <p>This is the default experience for goals</p>
-     </li> 
-     <li><span class="preview">Projects</span></li>
-     </ul> </td> 
-   <td> 
-    <ul> 
-     <li>Issues</li> 
-     <li><span class="preview">Tasks</span></li>
-     <li><span class="preview">Documents</span></li>
-     </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-## Updates that also appear on higher-rank objects
-
-Comments or replies made to updates on certain objects also appear on the Updates section of higher-ranked objects.
-
-For example, when you add an update to a task, the update appears on the Updates section for the task and on the Updates section for the project containing the task.
+<!-- with October 26 release: add somewhere this:
 
 >[!NOTE]
 >
->When enabling the new commenting Beta experience, comments display on the following higher-ranking objects: 
+>Iterations display the legacy commenting experience.-->
+
+
+## Overview of the Updates section
+
+The Updates section of an object shows system updates, and up to 200 of the most recent updates users made within the past 90 days. 
+
+  <span class="preview">![](assets/updates-tab-after-unified-experience-for-issues.png)</span>
+
+Depending on what objects you access the commenting experience for, you might find the following experience for the Updates section:
+
+* Both the new and legacy commenting experience for the following objects: 
+
+  * Project
+  * Task (this includes Stories)
+  * Issue
+  * Document
+
+    >[!TIP]
+    >
+    >Use the New commenting option to display the new commenting experience (when you enable it) or the legacy commenting experience (when you disable it). The new commenting experience is the default. For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+
+* Only the new commenting experience for the objects listed below. There is no option to enable the legacy commenting experience for these objects:   
+
+  * Goal
+
+    >[!NOTE]
+    >
+    >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md). 
+
+  * Card on a board
+  * Team
+  * Template
+  * Template Task
+  * Timesheet
+  * Program
+  * Portfolio
+  * User
+
+* Only the legacy commenting experience for the following objects:
+
+  * Iterations
+
+    There is no option to enable the new commenting experience for iterations. 
+
+### Overview of the Updates section in the new commenting experience
+
+<span class="preview">![](assets/updates-tab-after-unified-experience-for-tasks.png)</span>
+
+>[!NOTE]
 >
->* Issues
->* <span class="preview">Projects</span>
->* <span class="preview">Tasks</span>
->
->For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+>The new commenting experience is not available for iterations.
+
+
+* The Updates section displays information in the following tabs in the new commenting experience: 
+
+
+  * **Comments**: Displays comments made by users and replies to those comments. Use the Comments tab to add new comments or reply to existing ones. For information about updating objects in the new commenting experience, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
+  * **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, changes in status, name, or custom fields are captured with system updates. Your Workfront or group administrator can enable system updates for your objects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+* The following objects don't have a System Activity tab:
+
+  * Team
+  * Template
+  * Template Task
+  * Ad-hoc Card
+
+    
+### Overview of the legacy Updates section 
+
+<!--when we remove legacy, make this section an "Iterations-only" section-->
+
+![](assets/updates-tab-before-unified-experience-for-tasks.png)
+
+The legacy Updates section shows the following information:
+
+* **User updates**: Comments made by users and replies to those comments. 
+* **System updates**: Informational messages that Workfront creates to record certain events on an objects. For example, you can capture changes in status, name, or custom fields with system updates. Your Workfront or group administrator can enable system updates for your objects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+
+The following objects don't record system updates:
+
+* Team
+* Template
+* Template Task
+* Iterations
+
+
+## Updates that also appear on higher-rank objects
+
+Comments, replies, or system updates of certain objects also appear on the Updates section of higher-ranked objects.
+
+For example, when you add an update to a task, the update appears on the Updates section for the task and on the Updates section for the project containing the task.
 
 The following table shows the objects whose comments also display on their higher-ranking objects: 
 
@@ -171,7 +175,10 @@ The following table shows the objects whose comments also display on their highe
   </tr> 
   <tr> 
    <td>Timesheet</td> 
-   <td>User, Team</td> 
+   <td><p>User, Team</p>
+   <p><b>NOTE</b></p>
+   <p>Timesheet comments display in the Updates section of the user who makes the comment and the Updates section of their Home Team.</p>
+   </td> 
   </tr> 
   <tr> 
    <td>Template Task</td> 
@@ -187,19 +194,24 @@ The following table shows the objects whose comments also display on their highe
   </tr> 
 
 <tr> 
-   <td>Goals</td> 
-   <td>Result, Activity</td> 
+   <td>Result</td> 
+   <td>Goal</td> 
+  </tr> 
+  <tr> 
+   <td>Activity</td> 
+   <td>Goal</td> 
   </tr> 
  </tbody> 
 </table>
-
+ 
 >[!NOTE]
 >
 >Replies added to system updates do not roll up to the parent object. Only direct replies on a child object and replies added to existing updates roll up to parent objects.
 >
 >For information about the object hierarchy in Adobe Workfront, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
-> It is not possible to reply to system updates in the new commenting Beta experience. For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+> It is not possible to reply to system updates in the new commenting experience. For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
 
 ## Limitations of the Updates section
 
@@ -207,22 +219,38 @@ There are some limitations in the Updates section of a team and when entering up
 
 ### Limitations for users and teams
 
-You cannot make updates on teams. The Updates section for teams is populated by updates entered on the following objects:
+Consider the following when viewing updates for users and teams: 
 
-* Users
-* Timesheets
-* Stories
-* Iterations
+* You cannot add new comments in the Updates section of a team. 
 
-On the Updates section for users and teams, you can view the updates that have been entered in the past 90 days.
+* You can add a reply to an update you view on a team. The reply displays in the team's Updates section as well as the Updates section of the object it belongs to. 
 
-If you want to see all the updates made on a user or a team, beyond the 90-day limit, you can build a report for notes. The report should not have a time filter that displays all updates made for users or teams. For more information, see [Create a custom report](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+* The Updates section for teams is populated by updates entered on the following objects:
+
+  * Users
+  * Timesheets*
+  * Stories
+  * Iterations*
+
+  *These are not available for the new commenting experience. 
+
+* On the Updates section for users and teams, you can view the updates that have been entered in the past 90 days.
+
+  If you want to see all the updates made on a user or a team, beyond the 90-day limit, you can build a report for notes. The report should not have a time filter that displays all updates made for users or teams. For more information, see [Create a custom report](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ### Limitations when entering comments on behalf of another user
 
-Adobe Workfront administrators and group administrators can log in as other users and perform actions in Workfront such as entering comments. (For information, see [Log in as another user](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).) Any comments made on behalf of another user are indicated on the comment.
+Adobe Workfront administrators and group administrators can log in as other users and perform actions in Workfront such as entering comments. 
 
-A group administrator can comment on behalf of another person but cannot delete that comment. Only an Adobe Workfront administrator can delete a comment that they made on behalf of another user.
+For information, see [Log in as another user](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
+
+Considering the following when logging in as another user and adding comments:
+
+* Any comments made on behalf of another user are indicated on the comment.
+
+* A group administrator can comment on behalf of another person but cannot delete that comment. Only an Adobe Workfront administrator can delete a comment that they made on behalf of another user.
+
+* A Workfront or group administrator can only edit a comment they added on behalf of another user only when they log out as the user and log back in as themselves. They cannot delete a comment on behalf of another user. 
 
 ## View system updates on work items with the Journal Entry report
 

@@ -8,6 +8,7 @@ description: The Workfront administrator grants groups the access to the Workfro
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 23f9f91c-0d6e-4203-ab31-75fec73f9201
 ---
 # Group roles

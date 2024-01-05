@@ -77,7 +77,7 @@ When you schedule a report for delivery in the Preview environment, the followin
 
 Whether a delivered report is produced or not in the Custom Refresh Sandbox depends on whether the Receive emails from this test environment setting is enabled or not.
 
-For information about enabling emails from the Preview environment see the section [View and modify your email notification settings](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) in the article [Activate or deactivate your own event notifications](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+For information about enabling emails from the Preview environment see the section [View and modify your email notification settings](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view) in the article [Modify your own email notifications](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 

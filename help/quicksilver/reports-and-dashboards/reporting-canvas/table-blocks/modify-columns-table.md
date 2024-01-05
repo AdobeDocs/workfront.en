@@ -1,11 +1,10 @@
 ---
 title: Configure a table column in Reporting Canvas
 description: Configure a table column in Reporting Canvas
-author: Nolan
-feature: Reports and Dashboards
+hidefromtoc: yes
+hide: yes
 exl-id: ce33888f-344d-4f69-b527-9679340d134b
 ---
-
 # Configure a table column in Reporting Canvas
 
 The columns in a table can be configured for display. You can modify the following aspects of a column:
@@ -19,7 +18,7 @@ The columns in a table can be configured for display. You can modify the followi
 
 ## Prerequisites
 
-Before you begin, you must enroll in the Reporting Canvas beta. For more information, see [Reporting Canvas beta: overview](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Before you begin, you must enroll in the Reporting Canvas beta. For more information, see [Reporting Canvas beta: overview](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Modify columns in a table
 

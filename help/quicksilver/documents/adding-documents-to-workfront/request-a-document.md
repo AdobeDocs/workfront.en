@@ -59,11 +59,9 @@ You must have the following:
 
    When you make a request to a user, a placeholder is added in the documents area. You can remind the user or cancel the request from this placeholder. The user receives a Workfront notification and an email about the request.
 
-   The user receives an email notification if this preference is enabled, as well as an in-app notification. For more information on email notifications, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   The user receives an email notification if this preference is enabled, as well as an in-app notification. For more information on email notifications, see [Modify your own email notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
    You can click the link found in the email notification, and then upload the document. Or you can click the in-app notification. Each option routes you to the user profile page where you can upload the requested document.
-
-   You can also reply directly to the email and attach the requested documents (if you are configured to support email responses). To configure email responses, see .
 
 1. After you upload the document, the person who requested it can access the document in their personal **Documents**&nbsp;area.
 

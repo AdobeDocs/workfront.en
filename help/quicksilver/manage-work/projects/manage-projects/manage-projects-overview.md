@@ -2,13 +2,14 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: Manage projects
+title: "Manage projects: article index"
 description: Find out information about managing projects in the following articles.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: a63ec4e0-ba39-42c1-8061-c29350ef4bbb
 ---
-# Manage projects
+# Manage projects: article index
 
 This section contains the following articles:
 

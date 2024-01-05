@@ -29,7 +29,7 @@ This article contains general information about the impact of modifying task ass
 * For information about modifying assignments on multiple tasks in the Scheduling area, see "Modify multiple users assignments to tasks in the Scheduling areas".
 * For information about assigning tasks using the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-Some information in this article also applies to assignments to issues. For more information about assigning issues, and additional considerations, see [Modify issue assignments overview](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+Some information in this article also applies to assignments to issues. For more information about assigning issues, and additional considerations, see [Overview of modifying issue assignments](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 ## When to modify user assignments on tasks
 

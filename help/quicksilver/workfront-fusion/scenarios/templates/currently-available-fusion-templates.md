@@ -14,19 +14,47 @@ The following public templates are currently available in Adobe Workfront Fusion
 
 Your team or organization may have other team-created templates available. 
 
-To view available templates, click the **Templates** icon ![](assets/fusion-template-icon.png) in the side navigation menu.
+To view available templates, click the **Templates** icon ![](assets/fusion-template-icon.png) in the side navigation menu in Fusion.
 
 ## Workfront templates
 
 These templates automate Workfront processes and workflows.
 
+### Workfront - Project Creation from CSV
+
+This automation creates new projects in Workfront based off Name, Portfolio, Status, Planned Start Date, and Template details that you specify in a CSV.
+
+### Workfront - Cleanup Requests with no new notes in past 30 days
+
+Use this template to enforce a 30 day note update on your requests. Requests not updated in 30 days get their status changed and closed at 60 days.
+
+### Workfront - Change project Status to Complete at 100% complete.
+
+This automation updates projects to Complete status that have all tasks at 1005 complete. Projects with open issues or open tasks or project approvals will receive an update, and when resolved, the projects will move to Complete status.
+
+### Workfront - Warn and attempt to close stale projects
+
+Use this scenario to help automate the warning on and closure of projects that meet your organization's stale project policy.
+
+### Workfront - Copy new notes and replies from source issue/request to already converted project or task
+
+Use this template to copy notes and replies from an issue or request to an already converted project or task.
+
 ### Workfront - Copy Program Custom Forms and Field Data to Associated New Projects
 
 This automation watches for new projects in programs with custom forms. It then adds those program custom forms and fields to the new projects.
 
+### Workfront - Copy Portfolio Custom Forms and Field Data to Associated New Projects
+
+This automation watches for new projects in portfolios with custom forms. It then adds those portfolio custom forms and fields to the new projects.
+
 ### Workfront - Convert approved issue to project
 
 This template converts Issues to Projects. You can modify it to meet your organization's standards.
+
+### [!BADGE New!]{type=Informative} Workfront - Copy documents from issues/requests to already converted projects or tasks
+
+This flexible scenario copies documents from issues or requests to previously converted projects or tasks.
 
 ### Tailored Notification Based on Field Change
 
@@ -72,9 +100,46 @@ These templates retrieve information from a web service, and bring that informat
 >
 > You must have a Workfront Fusion for Work Automation and Integration license to use templates in this section.
 
+### Establishing Connection using JWT (JSON Web Token)
+
+Establish JWT Authorization for a client API.
+
 ### APILayer > Workfront - Daily Exchange Rate Update (EUR)
 
 This template creates a scenario that automates the updating of an exchange rate at a set point in time. This scenario pulls the rate of Euros (EUR) to US Dollars (USD) from an APIlayers.com API and updates the rate in Workfront.
+
+## Workfront-Marketo templates
+
+These templates support Workfront-Marketo integration. 
+
+>[!NOTE]
+>
+> You must have a Workfront Fusion for Work Automation and Integration license to use templates in this section.
+
+### Approve your Marketo Engage email draft with Workfront approval workflows
+
+This is part of the Review and Approve integration between Workfront and Marketo Engage. This template detects if an email Proof in Workfront has been approved, and then updates the corresponding email in Marketo Engage as approved.
+
+### Intake marketing campaign requests in Workfront and automate the creation of campaigns in Marketo Engage
+
+This scenario provides a programmatic way to create email and webinar campaigns in Marketo Engage from a request made in Workfront. By using automation to create, organize, and configure campaigns, teams are able to improve efficiency.
+
+### Review an email proof of your Marketo Engage email draft in Workfront
+
+This template detects if a Workfront task has been set to a ready for review status, and then exports the email draft from Marketo Engage to save it as a Proof in Workfront.
+
+## Workfront-SharePoint templates
+
+These templates connect Workfront and SharePoint. 
+
+>[!NOTE]
+>
+> You must have a Workfront Fusion for Work Automation and Integration license to use templates in this section.
+
+### Watch SharePoint Folder Changes
+
+This template allows you to see if there is a change in a SharePoint folder.
+
 
 ## Workfront-Anaplan templates
 
@@ -101,3 +166,6 @@ For more information on the Workfront-Anaplan integration, see [Adobe Workfront 
 
 * [Create an [!DNL Anaplan] list item from an [!DNL Adobe Workfront] campaign request](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
 * [Apply an [!DNL Anaplan] budget allocation to an [!DNL Adobe Workfront] campaign request or campaign project](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+
+
+<!--[!BADGE New!]{type=Informative} -->

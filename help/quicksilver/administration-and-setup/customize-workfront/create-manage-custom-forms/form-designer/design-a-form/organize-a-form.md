@@ -5,7 +5,7 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: You can organize a custom form with the Form Designer.
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
 ---
@@ -28,9 +28,9 @@ You must have the following to perform the steps in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td>
-   <p>Current plan: Standard</p>
+   <p>New plan: Standard</p>
    <p>or</p>
-   <p>Legacy plan: Plan</p></td> 
+   <p>Current plan: Plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Access level configurations*</td> 
@@ -81,7 +81,8 @@ For information about custom fields and widgets in custom forms, see [Design a f
       <td role="rowheader"> <p>Grant access</p> </td> 
       <td> <p> Select the permissions that users need on an object where the custom form is attached in order to view this section and edit its field values. 
        <p>The following permissions are available under <b>Users with this access to the object can view field values</b>:</p> 
-         <ul>  
+         <ul>
+          <li><strong>View</strong>: View permissions to the object</li>
           <li><p><b>Limited Edit</b>: (Available only if the object is a project, task, issue, or user):</p> 
           <p>Allows users to contribute to the object if it's a project, task, or issue.</p>
           <p>Allows users  to edit the profile or own the profile permission to the object if it's a user.</p></li> 

@@ -19,7 +19,7 @@ You can use the quick filter in a list of objects to help you locate only items 
 >You can find items that contain a search word using quick filters, whether that item has been physically displayed on your screen or will display after you have scrolled to the bottom of the page. When you use your browser's search capabilities, you can only find items that are physically displayed on the screen. If your list has multiple pages, quick filters do not find items that are on pages that do not display.
 
 If you want to save a quick filter, we recommend that you build a permanent filter for your list instead.\
-For information about how to build filters in [!DNL Adobe Workfront], see the article [Filters overview in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+For information about how to build filters in [!DNL Adobe Workfront], see the article [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 The quick filter is currently available in the following areas
 

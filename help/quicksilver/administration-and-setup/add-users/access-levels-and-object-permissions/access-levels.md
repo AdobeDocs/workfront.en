@@ -7,6 +7,7 @@ description: As an Adobe Workfront administrator, you can grant users access to 
 author: Courtney
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 14cf53be-e8b5-4508-b0df-c024f1e4f3a7
 ---
 # How access levels work
@@ -25,3 +26,4 @@ As an Adobe Workfront administrator, you can grant users access to view or edit 
 
 * For information about how to create access levels, see [Configure access to Adobe Workfront](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md).
 * For information about how users can share objects with each other, granting View and Edit permissions on those objects, see [Grant and request permissions to objects](../../../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md).
+* For information about the Access requirements table found in documentation articles, see [Access levels Requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).

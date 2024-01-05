@@ -5,7 +5,7 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: In a custom form, you can build a calculated custom field that generates calculations. To do this, you create a statement that uses data expressions and the names of existing fields, which can be custom fields, calculated custom data fields, and built-in Workfront fields. This statement calculates the data you enter and displays the result in the new calculated custom field.
 author: Caroline
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
 ---
@@ -116,7 +116,7 @@ You can use both built-in Workfront fields and custom fields that you already cr
    >
    >In this example, `SUB` is the expression, and the referenced fields are `actualRevenue` and `actualCost`.
 
-   A calculation usually starts with an expression, followed by parentheses containing the fields you want to reference when the custom form is attached to an object. For information about the expressions that are available, see [Calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   A calculation usually starts with an expression, followed by parentheses containing the fields you want to reference when the custom form is attached to an object. For information about the expressions that are available, see [Overview of calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
    Each field must be surrounded with curly brackets, as explained in the section [Syntax required in calculated custom fields](#syntax-required-in-calculated-custom-fields) in this article. When you start typing the name of a field, the system makes suggestions and you can select one to insert it into your calculation.
 
@@ -132,7 +132,7 @@ You can use both built-in Workfront fields and custom fields that you already cr
    >
    >You can do any of the following to get help with your calculation:
    > 
-   >* Hover over an expression in your calculation to see a description, an example showing how it can be used, and a "Learn More" link to more information in the article [Calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   >* Hover over an expression in your calculation to see a description, an example showing how it can be used, and a "Learn More" link to more information in the article [Overview of calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
    >  ![](assets/hover-expression-help-text.jpg)
    >* Use the color coding to identify the components you have added. Expressions display in blue and fields display in green.
    >  ![](assets/colors-fields-expressions.jpg)
@@ -276,7 +276,7 @@ When this occurs, you can do one of the following:
 >
 >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
 
-For more information about variables like `$$OBJCODE,` see [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+For more information about variables like `$$OBJCODE,` see [Wildcard filter variables overview](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Automatic updates of calculated custom fields
 

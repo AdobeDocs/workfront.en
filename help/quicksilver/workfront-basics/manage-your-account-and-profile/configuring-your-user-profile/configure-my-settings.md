@@ -190,8 +190,7 @@ The following grid shows what sections in the [!UICONTROL My Settings] area are 
 
 ## Configuring the [!UICONTROL My Settings] area 
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click your user name next to your profile picture.
-
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click your user name next to your profile picture. Or (if available), click your profile picture in the top navigation area, then click **[!UICONTROL Workfront Profile]**.
 1. Click the **[!UICONTROL More]** menu ![](assets/more-icon.png), then click **[!UICONTROL Edit]**.
 
 1. Depending on your access level, you can update the following sections:
@@ -351,7 +350,7 @@ You can change any of the following in this sub-section:
 
 ### [!UICONTROL Notifications]
 
-Specify what notifications you would like to receive from [!DNL Workfront]. For more information about configuring notifications, see [Activate or deactivate your own event notifications](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Specify what notifications you would like to receive from [!DNL Workfront]. For more information about configuring notifications, see [Modify your own email notifications](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ### [!UICONTROL Access]
 

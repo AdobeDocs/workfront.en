@@ -5,6 +5,8 @@ title: Overview of converting issues in Adobe Workfront
 description: If more work needs to be done to complete an issue after the issue is submitted, you can convert the issue to a project or to a task.
 author: Alina
 feature: Work Management
+topic: Collaboration
+role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
 ---
 # Overview of converting issues in Adobe Workfront
@@ -25,7 +27,11 @@ For information about converting issues to projects, see [Convert an issue to a 
    * During conversion, you might be asked whether you want to keep the issue and its resolution tied to the project or task you are creating.
    * If you keep the issue, the status and percent complete of the project or task automatically update the status and the percent complete of the issue when any changes occur on the project, task, or the issue or when the Workfront recalculates the timeline.
 
-* When converting an issue to a project using a template, most information from the template transfers to the new project. However, some information from the issue can also transfer to the new project.&nbsp;For more information, see the [Overview of project fields when converting an issue to a project using a template](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) section in this article. 
+* When converting an issue to a task or a project, the issue is removed from the Home area of the user assigned to the issue.
+
+* When converting an issue, the permissions to the original issues are not transferred to the converted object (task or project).
+
+* When converting an issue to a project using a template, most information from the template transfers to the new project. However, some information from the issue can also transfer to the new project. For more information, see the [Overview of project fields when converting an issue to a project using a template](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) section in this article. 
 * While converting an issue, not all documents or their information are moved to the new object that the issue is converted to. The following items are included when you convert an issue that has documents or document links attached:
 
    * Document
@@ -100,11 +106,16 @@ The following table lists project information and whether it transfers from the 
   </tr> 
   <tr> 
    <td>Group</td> 
-   <td>Transfers from the template.&nbsp;If there is no Group on the template, it is set to the Group of the project that the issue belongs to.</td> 
+   <td><p> The following scenarios exist:</p>
+     <ul><li>If a group is specified during the conversion, that becomes the group of the project</li>
+     <li>If you convert to a project using a template, and there is a group on the template, and during the conversion you do not specify a group, then the group of the template becomes the group of the new project</li>
+      <li> If there is no group on the template and you do not specify a group during the conversion, then the group of the original issue's project becomes the group of the new project</li> </ul>
+      </td> 
   </tr> 
   <tr> 
-   <td>Company</td> 
-   <td>Transfers from the template.&nbsp;Otherwise, this field is empty.</td> 
+   <td>Company</td>    
+   <td>  Transfers from the template. Otherwise, this field is empty.</td>
+     
   </tr> 
   <tr> 
    <td>Project Owner</td> 

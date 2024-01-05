@@ -9,6 +9,10 @@ exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
 ---
 # Make smart assignments
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>   
+  
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> 
+
 You can use smart assignments to identify who the best user is to complete the work. Smart assignments are suggestions for users that Adobe Workfront presents to you when you assign work items to resources based on an algorithm that determines the most appropriate resource for the job. For information about smart assignments, see [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Access requirements
@@ -25,7 +29,9 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Work or higher</p> </td> 
+   <td> <p>New: Standard</p>
+      Or
+      <p>Current: Work or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -46,24 +52,31 @@ You must have the following access to perform the steps in this article:
 
 Smart assignments are available in most locations where you can make assignments in Workfront.
 
-1. Go to an the following areas the click the **Assignments** or **Assign this to** field: &nbsp;&nbsp;
+1. Go to an the following areas the click the **Assignments** or **Assign this to** field: 
 
    * A task or issue list or report 
    * A task or issue header
    * The task or issue Summary panel
    * The Assignments field for an item listed in the Home area
-   * A task or issue in the Scheduling or Schedule areas
    * A task or issue in the Workload Balancer
 
-1. Place your cursor in the assignment field, and wait for two seconds. The ******Suggested Assignments** list displays.
+1. Place your cursor in the assignment field, and wait for two seconds. 
+   
+   <span class="preview">The **Suggested Assignments** list displays.</span> <!--check the casing for "assignments" should be lower case in task lists??-->
+   
+      >[!TIP]
+      >
+      >   The list header displays **Here are a few recommendations** instead of **Suggested Assignments** in an issue list.
 
-   ![](assets/smart-assignments-task-header-nwe-350x302.png)
+     ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
    Users displayed in this list are the smart assignment suggestions for the task or the issue.
 
    For more information about where the smart assignments display, see the "Locate smart assignment suggestions" section in the article [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md) . 
 
-1. Select the user in the recommendations list by clicking their name. Clicking **Assign to me** assigns the work item to yourself.
+1. Select the user in the recommendations list by clicking their name. 
+
+1. (Optional) Click **Assign to me** to assign the work item to yourself.
 
    >[!TIP]
    >

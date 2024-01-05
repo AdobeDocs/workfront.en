@@ -5,6 +5,7 @@ title: What's New in API Version 8
 description: This is a list of resources that are new to API Version 9. For a list of updates that have been made to the resources of version 8 please visit Updates to API Version 8
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 90fefaa6-d387-4cdb-8aea-9a939fe2ac26
 ---
 # What's New in API Version 8

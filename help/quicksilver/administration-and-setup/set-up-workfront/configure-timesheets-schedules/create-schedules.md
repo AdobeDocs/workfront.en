@@ -28,6 +28,8 @@ Group administrators can also create schedules that are associated with the grou
 
 For information about using schedules to help users collaborate in [!DNL Workfront] across time zones, see [Working across time zones](../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md).
 
+For information about how schedules are used in resource planning, see [Schedules overview](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) and [Resource Planner overview](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
+
 ## Access requirements
 
 You must have the following access to perform the steps in this article:

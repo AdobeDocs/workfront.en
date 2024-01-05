@@ -45,9 +45,11 @@ You must have the following access to perform the steps in this article:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
-1. In the panel on the left, click **Email** > **Notifications**.
+1. In the panel on the left, click **Email** > **Notifications**> **Email Templates**.
 
-1. Click the **Email Templates** tab, then click **New Email Template**.  
+  ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
+  
+1. Click **New Email Template**.  
 
 1. In the **New Email Template** box that appears, specify the following information:
 
@@ -56,24 +58,25 @@ You must have the following access to perform the steps in this article:
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Email template</td> 
+      <td role="rowheader">Name</td> 
       <td>Title of the email template (required).</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Description</td> 
-      <td>Description of the template.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Object type</td> 
       <td>Specify the object type that you want to associate the template with (required, by default it will be set to 'Issue').</td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Description</td> 
+      <td>Description of the template.</td> 
      </tr> 
+      
      <tr> 
       <td role="rowheader">Subject </td> 
       <td>Subject that is displayed when the email message is sent (required).</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> </td> 
-      <td> <p>Content that is displayed when the email message is sent.</p> <p>You can use HTML formatting for the email content, as described in <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">Add HTML formatting to an email template</a> in this article.</p> </td> 
+      <td role="rowheader">Body </td> 
+      <td> <p>Content displayed when the email message is sent.</p> <p>You can use HTML formatting for the email content, as described in <a href="#add-html-formatting-to-an-email-template" class="MCXref xref">Add HTML formatting to an email template</a> in this article.</p> </td> 
      </tr> 
     </tbody> 
    </table>

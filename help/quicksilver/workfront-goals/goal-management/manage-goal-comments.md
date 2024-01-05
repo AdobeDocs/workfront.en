@@ -9,9 +9,18 @@ exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
 ---
 # Manage goal comments in Adobe Workfront Goals
 
-<!--consider retiring this article when goals and all objects are in parity - after the new commenting experience goes to production GA-->
+<!--consider retiring this article when goals and all objects are in parity and we remove the legacy commenting from the system. From then on, there is just ONE way to comment and that will be documented in the Update Work article-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
+<!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
+
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> 
+
+<!--
+After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
+-->
 
 You can add comments to all goals you can view in Adobe Workfront Goals.
 
@@ -114,16 +123,25 @@ You must have the following before you can start:
 
 * A Layout Template that includes the Goals area in the Main Menu.
 
-## Locate the Updates section
+## Manage goal comments
 
 You can add comments to goals in the Updates section of a goal's page.
 
 You can reply to or like a comment that you or others added in this area. 
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) > **Goals** in the upper-right corner. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **Goals**. 
 This opens the goal list. 
 1. Locate the goal you want to add comments to, then click its name to open the goal page. 
 1. Click  **Updates** in the left panel. 
+1. <span class="preview">(Optional) To locate an existing comment, start typing a keyword <!--or a user's name--> in the **Search** box in the upper-right corner of the **Comments** tab. </span>
+
+   <span class="preview">![](assets/search-field-in-updates-tab-goals.png)</span>
+
+   <span class="preview">The keyword <!--or user--> you searched for is highlighted and the comments that contain it display at the top of the Updates section. </span>
+   
+   For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
+
+1. Click the **x** icon in the search field to clear the search results and return to the complete up.
 1. Click the **Comments** tab in the upper-left corner of the Updates area.
 1. Start entering a comment in the **New comment** box. 
    
@@ -133,6 +151,9 @@ This opens the goal list.
    >
    >Navigating away from the Updates section before you finish typing and submitting a comment keeps the comment on the page in draft mode even after you log off and log back on. Any images that are added to the comment are also saved in the draft. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.
 
+1. (Optional) To undo or redo a change, use the following shortcut keys:
+      * CTRL + Z (⌘+z for Mac) to undo a change 
+      * CTRL + Y (⌘+y for Mac) to redo a change 
 1. (Optional) To add rich-text formatting to your update, a hyperlink, or an image, use any options on the Rich Text toolbar or the icons adjacent to it. For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 1. (Optional) In the **Tag people or teams** area, start typing the name or the email of a user, or a team that you would like to include in this comment, then select it when it displays in the list. 
 1. Select the **Private to my company** toggle to make the comment visible only to people in your company. 
@@ -145,11 +166,9 @@ This opens the goal list.
 
       >[!TIP]
       >
-      >If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. 
+      >If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments, as well as a blue notification at the bottom of the screen indicating the number of new comments. 
       >
       >The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
-      >
-      >The "New" indicator displays only when both the user that entered a new update as well as the user who is currently entering an update are using the new commenting experience. 
       >![](assets/real-time-new-red-indicator-unified-commenting.png)
       
 1. (Optional) To edit a comment, click the **More** menu ![](assets/more-icon.png) to the right of the Like icon, then click **Edit**. 
@@ -172,7 +191,7 @@ This opens the goal list.
          For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 
 1. (Optional) Click the **More** menu ![](assets/more-icon.png) to the right of a comment, then click **Delete** to delete a comment you added. For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-9 above. <!--insure this stays accurate-->
+1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-9 above. For more information about replying to updates, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md). <!--insure this stays accurate-->
 1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Updates section, click **View** inside the blue **new comments banner** at the bottom of the screen  to display these comments.
    
    ![](assets/blue-new-comments-banner-with-view-button.png)

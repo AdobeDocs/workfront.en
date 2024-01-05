@@ -33,7 +33,7 @@ Event notification emails can be configured at the following levels listed below
 
    [!DNL Workfront] administrators and users with access to edit other users can also activate and deactivate notifications in the profile of individual users.
 
-   For more information, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   For more information, see [Modify your own email notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
    >[!NOTE]
    >

@@ -2,13 +2,14 @@
 product-area: projects;agile-and-teams
 navigation-topic: manage-projects
 title: Manage a project in the Agile View
-description: Required plans, license types, and access Adobe Workfront Plan Team, Pro, Business, or Enterprise Workfront License Type Review, Work, or Plan Permissions in the access model Edit access and ability to create reports, dashboards, and calendars
-author: Alina
+description: You can leverage agile functionality for your project without the administrative challenges that typically accompany agile practices (such as managing a team backlog or creating iterations).
+author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
 ---
 # Manage a project in the Agile View
 
+<!--
 Required plans, license types, and access
 
 <table style="table-layout:auto"> 
@@ -22,26 +23,18 @@ Required plans, license types, and access
   <tr> 
    <td> <p>Workfront License Type</p> </td> 
    <td> <p>Review, Work, or Plan </p> </td> 
-  </tr> <!--
+  </tr> 
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td> <p>Permissions in the access model</p> </td> 
     <td> <li>Edit access and ability to create reports, dashboards, and calendars</li> </td> 
    </tr>
-  --> 
  </tbody> 
 </table>
-
-You can leverage agile functionality for your project 
-
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-(such as story boards and burndown charts)
-</MadCap:conditionalText>
 -->
 
-&nbsp;without the administrative challenges&nbsp;that typically accompany agile practices (such as managing a team backlog or creating iterations).
+You can leverage agile functionality for your project without the administrative challenges that typically accompany agile practices (such as managing a team backlog or creating iterations).
 
-If you want to work in an agile environment that uses&nbsp;a team backlog and allows you to create iterations from tasks on the backlog, follow the instructions in [Work in an agile environment](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
+If you want to work in an agile environment that uses a team backlog and allows you to create iterations from tasks on the backlog, follow the instructions in [Work in an agile environment](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
 
 ## Access requirements
 
@@ -79,6 +72,10 @@ You must have the following access to perform the steps in this article:
 
 ## Understand Agile projects
 
+>[!NOTE]
+>
+>This section only applies to the legacy Agile view, not to the board view of a project.
+
 * [Agile functionality in a project](#agile-functionality-in-a-project) 
 * [Differences when using the Agile view on a project versus on an iteration](#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration)
 
@@ -94,7 +91,7 @@ The following agile functionality is available when managing a project in an agi
 
 There are some differences when using agile views on a project versus working in a pure agile environment (with backlogs and iterations). For more information, see [Differences when using the Agile view on a project versus on an iteration](#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration) in this article.
 
-### Differences when using the Agile view&nbsp;on&nbsp;a project versus on an iteration {#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration}
+### Differences when using the Agile view on a project versus on an iteration {#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration}
 
 * [Tasks and subtasks follow different display rules on the Story Board](#tasks-and-subtasks-follow-different-display-rules-on-the-story-board) 
 * [Backlogs and iterations are not used](#backlogs-and-iterations-are-not-used) 
@@ -132,9 +129,9 @@ When viewing a project in an agile view, the following agile components are not 
 
 #### Task order is maintained in the Agile view and cannot be reordered {#task-order-is-maintained-in-the-agile-view-and-cannot-be-reordered}
 
-The order in which&nbsp;tasks appear in a project is maintained when you view the project in an agile story board.
+The order in which tasks appear in a project is maintained when you view the project in an agile story board.
 
-You cannot reaorder tasks in the project when viewing the project in an agile view. Because modifying the task order can&nbsp;affect other tasks that might have dependencies, you must view the project in a standard&nbsp;view in order to modify task order.
+You cannot reorder tasks in the project when viewing the project in an agile view. Because modifying the task order can affect other tasks that might have dependencies, you must view the project in a standard view in order to modify task order.
 
 #### Tasks are measured only in Planned Hours {#tasks-are-measured-only-in-planned-hours}
 
@@ -146,7 +143,7 @@ In an iteration, tasks (stories) can be measured in hours or points.
 
 Because agile teams complete the work on iterations that are assigned to them, agile teams are not used when viewing a project in an agile view.
 
-Instead, any users on the project essentially become&nbsp;the agile team for that project.
+Instead, any users on the project essentially become the agile team for that project.
 
 #### Each user on the project can view the project in a different Agile view {#each-user-on-the-project-can-view-the-project-in-a-different-agile-view}
 
@@ -154,40 +151,65 @@ Unlike an agile iteration, users on a project can customize the agile view for t
 
 In an agile iteration, the information that is available on the agile story board (such as status columns that are available) is determined on the team level.
 
-For information about how to customize an agile view, see&nbsp; [Create or customize an Agile view](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in&nbsp; [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).&nbsp;
+For information about how to customize an agile view, see [Create or customize an Agile view](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## View a project in the Agile view
 
-1. Go to the project you want to view in an agile view.
-1. Click the **Agile** icon.  
-   ![Agile icon](assets/agile-icon-nwe.png)  
-   The project is displayed in the default agile view.   
-   If you previously viewed the project in a custom agile view, the project is displayed in that&nbsp;view rather than in the default agile view.  
+1. Go to the project you want to view in an agile view, on either the task list or the issue list.
+1. Click the **Board** icon ![Board icon](assets/board-icon-for-agile-view.png).
 
-1. (Optional) If you have&nbsp;created a custom&nbsp;agile view, or if another user has created a custom&nbsp;agile view and shared it with you, you can view&nbsp;it instead of the default agile view.   
-   Click the **View** drop-down menu, then click&nbsp;the custom agile view you want to view.  
+   The board view of the project displays by default.
+
+   ![Board view of project](assets/project-agile-board-view.png)
+
+   <!--(Legacy agile view only) If you previously viewed the project in a custom agile view, the project is displayed in that view rather than in the default agile view.-->
+
+1. (Optional) Click **Configure** to set options for the columns and cards.
+
+   For more information, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md) and [Customize which fields are displayed on a card](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md). Note that you can't define column policies on the board view of a project.
+
+1. (Optional) Click **Use legacy agile** to use the legacy agile view instead of the board view.
+
+1. (Optional – legacy agile view only) If you have created a custom agile view, or if another user has created a custom agile view and shared it with you, you can view it instead of the default agile view.
+
+   Click the **View** drop-down menu, then click the custom agile view you want to view.  
   
-   The custom agile view is used the next time you click the **Agile** icon.  
-   For information about how to create a new agile view, see [Create and customize Agile views](#create-and-customize-agile-views).  
-   The project is displayed in the custom&nbsp;agile view.
+   The custom agile view is used the next time you click the **Agile** icon.
 
-1. (Conditional) If tasks in your project are using statuses other than "New," "In Progress," or "Complete" (the default statuses for the Agile view), you must add the additional statuses to the agile view for any tasks in those statuses to be displayed.  
-   If tasks are in a status that is not displayed on the agile story board, the task itself is not displayed on the agile story board&nbsp;(however,&nbsp;the Percent Complete of these tasks still&nbsp;contribute to the Percent Complete of any parent tasks and the Percent Complete of the overall project).  
-   To add statuses to the agile view, either create a new agile view or customize an existing agile view, as described in&nbsp;the "Create or customize an Agile view" section in&nbsp;the article [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   For information about how to create a new agile view, see [Create and customize Agile views](#create-and-customize-agile-views).
 
-1. (Optional) To return to the list view, click the **List** icon.  
-   ![](assets/list-icon.png)
+   The project is displayed in the custom agile view.
+
+1. (Conditional – legacy agile view only) If tasks in your project are using statuses other than "New," "In Progress," or "Complete" (the default statuses for the Agile view), you must add the additional statuses to the agile view for any tasks in those statuses to be displayed.
+
+   If tasks are in a status that is not displayed on the agile story board, the task itself is not displayed on the agile story board (however, the Percent Complete of these tasks still contribute to the Percent Complete of any parent tasks and the Percent Complete of the overall project).
+
+   To add statuses to the agile view, either create a new agile view or customize an existing agile view, as described in the "Create or customize an Agile view" section in the article [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
+1. (Optional) To return to the list view, click the **List** icon.
 
 ## Create and customize Agile views {#create-and-customize-agile-views}
 
+>[!NOTE]
+>
+>This section only applies to the legacy Agile view, not to the board view of a project.
+
 As with standard views in Workfront, you can customize existing agile Views or create new agile Views from scratch. Unlike standard views, you cannot create new agile Views based on existing agile Views.
 
-For more information about creating and customizing agile views, see &nbsp;the "Create or customize an Agile view" section in&nbsp;the article [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).&nbsp;
+For more information about creating and customizing agile views, see the [Create or customize an Agile view](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) section in the article [Create or edit views in in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## Share an existing Agile view
+
+>[!NOTE]
+>
+>This section only applies to the legacy Agile view, not to the board view of a project.
 
 For information about how to share an agile view, see [Share a filter, view, or grouping](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 ## Remove an existing Agile view
 
-For information about how to delete a view, see the "Remove a view" section in the article [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).&nbsp;
+>[!NOTE]
+>
+>This section only applies to the legacy Agile view, not to the board view of a project.
+
+For information about how to delete a view, see the "Remove a view" section in the article [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
