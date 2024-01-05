@@ -11,6 +11,8 @@ exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
 
 <!--Audited: 12/2023-->
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 The new Home experience in Adobe Workfront aims to improve the current Home experience while providing a more flexible way for you to focus on the right work.
 
 The new Home is a powerful new feature for managing your work. You can customize this flexible space to highlight the work that is most important to you and streamline your task, issue, request, and approval management.
@@ -50,6 +52,9 @@ Below are the ten widgets currently available to choose from, as well as a summa
 
 * **All approvals**\
     Displays all approvals for your organization in a table with customizable columns, as well as a search bar that allows you to search for specific approvals.
+
+* <span class="preview">**Pending approvals**</span>\
+    <span class="preview">Displays approvals assigned to a document on a project you own. Here, you can view approval status and remind users about incomplete reviews and approvals. <span style="color: #ff0000;">This feature is part of a phased release and is currently only available for specific customers.</span></span>
 
 * **Mentions**\
     Displays recent comment threads from across Workfront, similarly to the My Updates page. You can use the reply button to compose a reply within the widget. This widget also shows comments made on tasks and issues that you are assigned to, that you assigned to another user, that you own, that you are primary contact on, or that you created—as long as the task or issue has been updated in the last 30 days.
