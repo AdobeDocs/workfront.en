@@ -32,7 +32,7 @@ You can use filter variables—also known as wildcards—when building the follo
 <table>
     <tr>
         <td>Filters in lists, reports, and the Resource Planner</td>
-        <td>For information about Workfront filters, see the article <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md">Filters overview in Adobe Workfront</a>.
+        <td>For information about Workfront filters, see the article <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md">Filters overview</a>.
 </td>
     </tr>
     <tr>

@@ -77,7 +77,7 @@ When I run a report that has a chart, I see the error message "Whoa there... Thi
 
 This error means that your chart contains up to 618 distinct results—for example, more than 618 bars in a bar chart. To resolve the display issue, you need to refine the results by modifying your current filter and grouping selections.
 
-For information on modifying filters and groupings, see the articles [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) and [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+For information on modifying filters and groupings, see the articles [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) and [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 ## Why do I see my tasks (or issues) when I access the same report (or calendar) as my coworker and they see their tasks instead?
 
