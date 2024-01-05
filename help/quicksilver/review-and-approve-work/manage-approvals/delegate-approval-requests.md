@@ -11,6 +11,14 @@ exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
 
 You can temporarily delegate the work you are assigned to while you are out of the office. You can delegate task and issue assignments or you can delegate approval requests. This article describes how to delegate approval requests. For information about delegating task and issue assignments, see [Manage task and issue delegation](../../manage-work/delegate-work/how-to-delegate-work.md).
 
+You can delegate the following types of approvals, regardless of how&nbsp;the approval was assigned to you (whether assigned directly to you, to a team you are a member of, or to your job role):
+
+* Project approvals
+* Task approvals
+* Issue approvals
+
+You cannot delegate timesheet, document, or proof approvals.
+
 >[!NOTE]
 >
 >To ensure that no inconsistencies occur with the dates that you schedule for your approvals to be delegated, we recommend that your user profile's time zone matches that of your schedule. For more information, see the following articles: 
@@ -77,7 +85,7 @@ You can delegate the following types of approvals, regardless of how&nbsp;the ap
 * Task approvals
 * Issue approvals
 
-You cannot delegate timesheet and document approvals.&nbsp;
+You cannot delegate timesheet, document, or proof approvals.
 
 Consider the following when delegating approvals:
 
