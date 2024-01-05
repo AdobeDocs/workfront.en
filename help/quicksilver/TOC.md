@@ -2216,6 +2216,7 @@ feature-set: Workfront
     * [Microsoft Word Templates modules](workfront-fusion/apps-and-their-modules/microsoft-word-templates-modules.md)
     * [MIME modules](workfront-fusion/apps-and-their-modules/mime.md)
     * [NetSuite modules](workfront-fusion/apps-and-their-modules/netsuite.md)
+    * [[!DNL OpenAI(ChatGPT & DALL-E)] modules](workfront-fusion/apps-and-their-modules/openai-chatgpt-modules.md)
     * [Qualtrics modules](workfront-fusion/apps-and-their-modules/qualtrics-modules.md)
     * [Quickbase modules](workfront-fusion/apps-and-their-modules/quickbase-modules.md)
     * [Salesforce modules](workfront-fusion/apps-and-their-modules/salesforce-modules.md)
