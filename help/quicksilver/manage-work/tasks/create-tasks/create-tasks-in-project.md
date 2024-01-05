@@ -10,11 +10,13 @@ exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
 ---
 # Create tasks in a project
 
-You can create tasks in a project only after you created the project.
+<!-- Audited: 1/2024 -->
+
+You can create tasks in a project only after you create the project.
 
 For example, after creating a project, you might want to add tasks and modify them to organize the project plan. For more information about creating a project, see [Create a project](../../../manage-work/projects/create-projects/create-project.md).
 
-For information about creating personal tasks that are not in a project, see the "Create a personal task" section in the article [Create work items from the Home area](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+For information about creating personal tasks that are not in a project, see the [Create a personal task](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) section in the article [Create work items from the Home area](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 This article describes how you create tasks from scratch. You can also create tasks in the following ways:
 
@@ -23,8 +25,6 @@ This article describes how you create tasks from scratch. You can also create ta
 
 ## Access requirements
 
-<!--drafted for P&P - replace the table:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -35,9 +35,9 @@ This article describes how you create tasks from scratch. You can also create ta
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Adobe Workfront license*</p> </td> 
-   <td><p>Current license: Standard</p> 
+   <td><p>Current: Work or higher</p> 
    Or
-   <p>Legacy license: Work or higher</p> </td> 
+   <p>New: Standard</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -49,31 +49,7 @@ This article describes how you create tasks from scratch. You can also create ta
   </tr> 
  </tbody> 
 </table>
--->
-You must have the following access to perform the steps in this article:
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p role="rowheader">Adobe Workfront license*</p> </td> 
-   <td> <p>Work or higher</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions to the project with ability to Add Tasks or higher</p> <p>When you create a task you automatically receive Manage permissions to the task</p> <p> For information about task permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Share a task </a>. </p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
@@ -92,8 +68,8 @@ You must have the following access to perform the steps in this article:
 
 1. Create a new task by doing one of the following:
 
-   * Click **New Task** at the top of the task list
-   * Click **Add More Tasks** at the bottom of the task list
+   * Click **New Task** at the top of the task list.
+   * Click **Add More Tasks** at the bottom of the task list.
 
    ![](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
 

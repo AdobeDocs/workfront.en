@@ -29,9 +29,6 @@ Requires iOS 7.0 or later. Android 4.0 and up. Compatible with iPhone, iPad, and
 >
 >The Workfront Proof mobile app is no longer supported and is available as-is.  Any issues in the app will not be fixed.
 
-
-Download our [!DNL Workfront Proof] Mobile App directly from the [Apple App Store](https://itunes.apple.com/us/app/workfront-proof/id1030372728?mt=8) or the [Google Play Store](https://play.google.com/store/apps/details?id=com.proofhq.tabletapp).
-
 For iOS devices, make sure to uninstall the previous [!DNL Workfront Proof] app for iOS devices before installing the new app.
 
 The [!DNL Workfront Proof] app automatically detects what type of device you are using. If you would like to use the app on your tablet, see [[!DNL Workfront Proof] mobile app for tablets](../../../workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md).
