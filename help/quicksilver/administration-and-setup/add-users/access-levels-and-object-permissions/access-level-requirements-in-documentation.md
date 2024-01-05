@@ -8,8 +8,6 @@ description: Workfront documentation how-to articles contain a table that explai
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: yes
-hidefromtoc: yes
 ---
 # Access levels Requirements in Workfront documentation
 
@@ -44,7 +42,7 @@ Some rows contain information labeled "New" and "Current." This is because Workf
    <ul>
    <li>New: <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md" class="MCXref xref">New licenses overview</a></li>
    <li>Current: <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Licenses overview</a></li></ul></li>
-   <li>If you have the correct access level and still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.
+   <li>If you have the correct access level and still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">Create or modify custom access levels</a>.
    </ul>
       </p> </td> 
   </tr> 
@@ -69,27 +67,20 @@ Some rows contain information labeled "New" and "Current." This is because Workf
    <li>New: <a href="/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md" class="MCXref xref">New access levels overview</a></li>
    <li>Current: <a href="/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md" class="MCXref xref">Access levels overview</a></li></ul></li>
     <li>To find out the details of your access level, contact your Workfront administrator</li>
-    <li>If you are a Workfront administrator, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Configure access to Adobe Workfront</a> to learn more about granting access to specific objects in the access level.</li>  
-   <li>If you have the correct access level and still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</li>
+    <li>If you are a Workfront administrator, see <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/configure-access.md" class="MCXref xref">Configure access to Adobe Workfront</a> to learn more about granting access to specific objects in the access level.</li>  
+   <li>If you have the correct access level and still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</li>
     </td>
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
    <td><p>Object permissions refer to the access you have to individual Workfront objects when you create them or when they are shared with you. For example, you must have View access to a specific project to view the project, even if your access level allows you to view projects. This section of the Access requirement table describes any specific object permissions you need to perform the action in the article.</p>
-   <p>For information on requesting additional access to an object, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects</a>.</p></td> 
+   <p>For information on requesting additional access to an object, see <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects</a>.</p><p>For information on sharing an object, see <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/share-an-object.md" class="MCXref xref">Share an object</a>.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Product</td> 
-   <td>Workfront offers some products that can be purchased in addition to Workfront.
-   <p>Articles that describe procedures performed inside these additional products list the required product here.</p>
-   <ul>
-   <li>Adobe Experience Manager Assets or Assets Essentials </li>
-   <li>Workfront Fusion *</li>
-   <li>Workfront Goals *</li>
-   <li>Workfront Scenario Planner *</li>
-   </ul>
-   <p>* Included with Workfront Ultimate plan
-   <p>To find out if your organization has purchased one of these additional products, or if your organization is on the Workfront Ultimate plan, contact your Workfront administrator.</p></td> 
+   <td role="rowheader">Layout template</td> 
+   <td><p>Layout templates control what you can see in your Main Menu, and are configured by your Workfront administrator. This line notes any specific areas of Workfront that must be included in your Main Menu to perform the action.</p><p>In general, if an article instructs you to click on an area in the Main Menu, and that area is not visible in your Main Menu, contact your Workfront administrator to determine if that area can be made available to you.</p><p>
+   For information on how a Workfront Administrator can configure the Main Menu, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md" class="MCXref xref">Customize the Main Menu using a layout template</a>.</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion license</td> 
