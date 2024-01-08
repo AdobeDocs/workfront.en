@@ -23,6 +23,8 @@ recommendations: noDisplay, noCatalog
 
 <!--will they add a way to create fields elsewhere than in a table?! - how will that change the structure of this article? -->
 
+<!--Do we need this for FORMULAS: when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula - not sure is needed??-->
+
 # Create fields
 
 >[!IMPORTANT]
@@ -191,6 +193,7 @@ After permssions - replace the table with:
     * [Percentage](#percentage)
     * [Currency](#currency)
     * [Checkbox](#checkbox) 
+    <!--* [Formula](#formula)-->
     * [People](#people)
     * [Created by](#created-by)
     * [Created date](#created-date)
@@ -399,6 +402,35 @@ You can use the Checkbox field type to add a single checkbox option to a record.
 
     The new checkbox field is added as a column to the record type and its values can be associated with records.   
 
+<!--
+
+### Formula
+
+Formula fields generate a new value using existing values from other fields in a record type and a function that indicates how the existing values should be calculated.
+
+For more information, see [Formula fields overview](/help/quicksilver/maestro/fields/formula-fields.md)
+ 
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Formula** field type.
+ 
+    ![](assets/new-formula-field-with-list-of-expressions.png)
+
+1. Add the following information in the **New field** tab:
+
+   * **Name**: Enter a name for the new field.
+   * **Description**: Add information about the new field.
+   * **Formula**: Start typing at least one character to access an expression, then select it when it displays in the list. 
+  
+1. Click the selected expression to reveal the definition and view its formatting. 
+
+   ![](assets/description-of-formula-expression.png)
+
+1. Add field names as they display in Maestro interface to reference them in a formula. 
+
+1. Click **Create**.
+
+     The new formula field is added as a column to the record type and its values can be associated with records.
+
+-->
 ### People
 
 You can use the People field type to add a user <!--, job role, or team--> to a record. This is a type-ahead field, and you can add only users<!--, roles, or teams--> that already exist in Workfront.

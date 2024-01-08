@@ -271,7 +271,7 @@ The following table shows the limits for how many objects you can create in Maes
 
 Your organization must enroll in the Adobe Maestro closed beta program before you can access Maestro. Contact your account representative for information about enrolling in the beta program. 
 
-For more information about granting access to and enabling others to use Maestro, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md). 
+For more information about granting access to and enabling others to use Maestro, see [Access overview](/help/quicksilver/maestro/access/access-overview.md). 
 
 ## Locate Maestro
 

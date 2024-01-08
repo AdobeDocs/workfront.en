@@ -42,12 +42,13 @@ You can share the following objects in Maestro:
 
    * New pricing model: Standard license 
    * Current pricing model: Work or higher license 
-* System administrators can access and share workspaces that other users created. 
+* System administrators can manage and share workspaces that other users created. 
 * If you are not a System Administrator, you can contribute to workspaces created by others if they are shared with you. 
 * You cannot share workspaces in bulk. 
 * You can share a workspace with the following entities:
     * Users
     * Groups
+* Other users, including System Administrators, can only access views they created or that have been shared with them. 
 
 ## Sharing permissions for Maestro objects
 
@@ -214,15 +215,40 @@ The following table illustrates the level of permissions that you can select whe
    </td>
   </tr>
   <tr>
-   <td><strong>Create/delete</strong>
+   <tr>
+   <td><strong>Create</strong>
    </td>
-   <td rowspan="3" ><strong>View</strong>
+   <td rowspan="5" ><strong>View</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Delete</strong>
    </td>
    <td>✓
    </td>
    <td>✓
    </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Share</strong>
+   </td>
    <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
    </td>
    <td>
    </td>
@@ -234,7 +260,7 @@ The following table illustrates the level of permissions that you can select whe
    </td>
    <td>✓
    </td>
-   <td>✓
+   <td>
    </td>
    <td>
    </td>
@@ -246,7 +272,7 @@ The following table illustrates the level of permissions that you can select whe
    </td>
    <td>✓
    </td>
-   <td>✓
+   <td>
    </td>
    <td>✓
    </td>
@@ -297,104 +323,9 @@ The following table illustrates the level of permissions that you can select whe
 
 *Record types, records, and fields inherit permissions from the Workspace. 
 
-<!--
+For general information about access in Maestro, see [Overview of sharing permissions in Adobe Maestro](../access/sharing-permissions-overview.md).
 
+For information about sharing workspaces, see [Share a workspace](/help/quicksilver/maestro/access/share-workspaces.md).
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
- <tr> 
-   <td role="rowheader"><p><b>Permission level</b></p></td> 
-   <td> <p><b>Actions you can perform</b></p> 
-    </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>View</p></td> 
-   <td> 
-    <ul> 
-     <li>View the workspace</li> 
-     <li>View all record types in the workspace</li> 
-     <li>View all the records in a record type</li> 
-     <li>View all the fields in a record type</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Contribute</p></td> 
-   <td>  
-    <ul> 
-     <li>All the actions included with the View permission</li> 
-     <li>Add records</li>
-     <li>Create records</li> 
-     <li>Delete records</li>  
-     <li>Edit records</li>
-     <li>Edit field settings</li>
-     </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Manage</p></td> 
-   <td> 
-    <ul> 
-     <li>All the actions included with the View and Contribute permissions</li> 
-     <li>Edit record types</li> 
-     <li>Create record types</li> 
-     <li>Delete record types</li> 
-     <li>Add fields</li> 
-     <li>Delete fields</li> 
-     <li>Add new connections between record types</li> 
-     <li>Share the workspace with users and groups</li> 
-     </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Workfront administrators</p></td> 
-   <td> <p>This is not a Maestro permission.</p>
-   <p> All Workfront administrators can do the following: </p>
-   <ul><li>Create workspaces</li>
-    <li> Manage eisting workspaces, even if they have not created them themselves. </li> 
-    <li>Manage all information in a workspace (record types, records, fields)
-    </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-<!-- the following sections are hidden in the links below - ensure they are visible-->
-
-## Share a workspace
-
-For information about sharing a Maestro workspace, see [Grant access to Adobe Maestro](../access/grant-access.md). 
-
-## Remove permissions to a workspace
-
-For information about sharing a Maestro workspace, see [Grant access to Adobe Maestro](../access/grant-access.md). 
-
-<!--This is currently not possible: ## Request permissions to objects -->
-
-
-
-<!--
-Replace the Sharing permissions information above with this, when we release permissions: 
-
-You can create Maestro workspaces, record types, records, fields, and views when the Workfront administrator makes the Maestro area available in your Main Menu through your layout template. 
-
-You can share the following objects in Maestro:
-
-* Workspaces
-
-   When sharing workspaces, users also gain the same permissions to record types, records, and fields in the workspace. 
-* Views
-
-
-
-Consider the following when sharing permissions to Maestro objects: 
-
-* You can share only workspaces and views in Maestro. After someone shares a workspace with you, you can view record types, records, and fields in the workspace. 
-(***********CHECK THIS: * Sharing a workspace does not share record views. You must share the views separately from the record type page.*************** )
-* All users can create workspaces in Maestro. 
-* All Workfront administrators have access to edit or delete eisting workspaces and views, even the ones they did not create. 
-* All other users that are not System Administrators can only view and manage workspaces and views that they create or workspaces and views that they have Manage permissions to. 
-
-For information about sharing the Maestro area with users or sharing permissions to Maestro workspaces, see the following articles:
-
-   * [Overview of sharing permissions in Adobe Maestro](../access/sharing-permissions-overview.md)
-   * [Grant access to Adobe Maestro](../access/grant-access.md) -->
+For information about sharing views, see [Share a view](/help/quicksilver/maestro/access/share-views.md)
+ 

@@ -40,7 +40,7 @@ This article describes how you can edit the settings for Maestro fields. For inf
 
 ## Considerations about editing field information
 
-* You can edit fields that you created or fields created by other users. <!--this will change with access levels/ permissions-->
+* You can edit fields that you created or fields created by other users. <!--this will change with access levels/ permissions - take out, it's in the table!-->
 * You can edit a field in the record type table. 
 * You cannot edit the Field type, after the field is saved.
 * You cannot deselect the Allow negative numbers setting that was previously selected, for a Number, Percentage, or Currency field if there are already negative values stored on the records it is attached to. 

@@ -102,8 +102,11 @@ After permssions - replace the table with:
   </tr>
   
   <tr>
-   <td role="rowheader"><p>Access level</p></td>
+   <td role="rowheader"><p>Access level*</p></td>
    <td> <p>System Administrator</p>  
+   <p>The following license types:</p>
+   <ul><li>New: Standard</li>
+   <li>Current: Worker or higher </li></ul>
 </td>
   </tr>
 <tr>
@@ -115,7 +118,9 @@ After permssions - replace the table with:
  </tbody>
 </table>
 
+For more information, see [Access requirements in Workfront documentation](/help/quicksilver\administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 -->
+
 
 
 
