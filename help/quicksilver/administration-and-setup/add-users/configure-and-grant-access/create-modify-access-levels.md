@@ -1,5 +1,5 @@
 ---
-title: Create or modify custom access levels
+title: Create and modify custom access levels
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: configure-access-to-workfront

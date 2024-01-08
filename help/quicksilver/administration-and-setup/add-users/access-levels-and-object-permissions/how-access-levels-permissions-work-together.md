@@ -62,7 +62,7 @@ In a custom access level, you can configure the settings for these objects and a
 >
 >We strongly recommend that you leave the built-in access levels unchanged so that you can refer to them after you set up your users. To customize an access level, copy the default access level and modify the copy. (You can do this for every access level except for System Administrator and External User.)
 
-For a detailed explanation of each of the default access levels, see [Built-in access levels in Adobe Workfront](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
+For a detailed explanation of each of the default access levels, see [Built-in access levels](../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
 
 For instructions on assigning an access level to a user, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
