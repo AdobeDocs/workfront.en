@@ -431,6 +431,7 @@ For more information, see [Formula fields overview](/help/quicksilver/maestro/fi
      The new formula field is added as a column to the record type and its values can be associated with records.
 
 -->
+
 ### People
 
 You can use the People field type to add a user <!--, job role, or team--> to a record. This is a type-ahead field, and you can add only users<!--, roles, or teams--> that already exist in Workfront.

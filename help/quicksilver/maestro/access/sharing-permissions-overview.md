@@ -56,10 +56,8 @@ The following table illustrates the level of permissions that you can select whe
 
 <table>
   <tr>
-   <td colspan="6" >
+   
 <h3><strong>Permissions and access for Maestro</strong></h3>
-
-
    </td>
   </tr>
   <tr>
