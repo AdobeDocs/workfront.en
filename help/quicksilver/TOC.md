@@ -139,6 +139,7 @@ feature-set: Workfront
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Workfront Fusion release activity: Week of November 27, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-30.md)
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+       [Workfront Fusion release activity: Week of January 1, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-1-4.md)
       * [Workfront Fusion release activity: Week of November 13, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-14.md)
       * [Workfront Fusion release activity: Week of October 30, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-10-26.md)
       * [Workfront Fusion release activity: Week of September 1, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-9-1.md)
@@ -474,7 +475,7 @@ feature-set: Workfront
       * [Access to objects and areas by new licenses](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
       * [Functionality available for each object type for new access levels](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
       * [Disable the auto-upgrade option for non-paid users on the new licensing plan](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
-      * [Access levels Requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
+      * [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
     * How access levels work {#legacy-access-levels}
       * [How access levels work](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
       * [Access overview](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
@@ -545,7 +546,7 @@ feature-set: Workfront
       * [Copy a layout template](administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
       * [Delete the Classic layout templates using an API call](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
     * Custom forms {#custom-forms}
-      * [Custom forms](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
+      * [Custom forms: article index](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
       * [Custom forms overview](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
       * Legacy custom form builder {#custom-form-builder}
         * Use the custom form builder {#use-the-custom-form-builder}
@@ -2216,6 +2217,7 @@ feature-set: Workfront
     * [Microsoft Word Templates modules](workfront-fusion/apps-and-their-modules/microsoft-word-templates-modules.md)
     * [MIME modules](workfront-fusion/apps-and-their-modules/mime.md)
     * [NetSuite modules](workfront-fusion/apps-and-their-modules/netsuite.md)
+    * [[!DNL OpenAI(ChatGPT & DALL-E)] modules](workfront-fusion/apps-and-their-modules/openai-chatgpt-modules.md)
     * [Qualtrics modules](workfront-fusion/apps-and-their-modules/qualtrics-modules.md)
     * [Quickbase modules](workfront-fusion/apps-and-their-modules/quickbase-modules.md)
     * [Salesforce modules](workfront-fusion/apps-and-their-modules/salesforce-modules.md)
