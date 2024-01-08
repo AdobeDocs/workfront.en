@@ -35,7 +35,7 @@ This table and diagram show the main levels of access to Workfront:
 
 >[!NOTE]
 >
->The External license is not a paid license. It is designed primarily for sharing documents with collaborators who don't use Workfront. For more information, see [Built-in access levels in Adobe Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
+>The External license is not a paid license. It is designed primarily for sharing documents with collaborators who don't use Workfront. For more information, see [Built-in access levels](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
 
 ## How a license defines an access level
 

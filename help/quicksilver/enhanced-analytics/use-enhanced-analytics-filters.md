@@ -28,14 +28,14 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td>
       <p>New: Any</p>
       <p>or</p>
       <p>Current: Business or higher</p></td> 
   </tr>
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td>
       <p>New: Light or higher</p>
       <p>or</p>
@@ -43,17 +43,17 @@ You must have the following access to perform the steps in this article:
    </td> 
   </tr>
   <tr> 
-   <td>Access level* </td> 
-   <td> <p>View access to Projects</p> <p>You must also have View access to Tasks, Portfolios, and Users to see specific project field filter options.</p> <p>Note: If restrictions are selected in the Set additional restrictions section of the Edit Access Level dialog, you may not see all information in the filters or on the Enhanced analytics page after the filter is applied. For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td>Access level configurations</td> 
+   <td> <p>View access to Projects</p> <p>You must also have View access to Tasks, Portfolios, and Users to see specific project field filter options.</p> <p>Note: If restrictions are selected in the <strong>Set additional restrictions</strong> section of the Edit Access Level dialog, you may not see all information in the filters or on the Enhanced analytics page after the filter is applied.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Object permissions </p> </td> 
-   <td> <p>View</p> <p>For information on requesting additional access, see <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Prerequisites
 
