@@ -39,24 +39,24 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
    <td> <p>New: Standard (to configure your personal time off)</p>
         <p>or</p>
         <p>Current: Work or higher (to configure your personal time off)</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader">Access level configurations</td> 
    <td>[!UICONTROL Manager] with [!UICONTROL Edit User] access (to make changes to the time off calendar of other users)<br>
    <strong>NOTE:</strong> If a manager edits another user's personal time off calendar, all entries are shown in the user's time zone and not the manager's time zone.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Configure personal time off in [!DNL Workfront]
 
