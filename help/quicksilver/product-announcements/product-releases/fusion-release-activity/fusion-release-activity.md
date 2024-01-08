@@ -15,6 +15,12 @@ Adobe Workfront Fusion connects your apps and web services seamlessly so that yo
 
 For information about how to use Workfront Fusion, see [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
 
+## Fusion releases in 2024
+
+### January 2024
+
+* [Workfront Fusion release activity: Week of January 1, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-1-4.md)
+
 ## Fusion releases in 2023
 
 ### November 2023

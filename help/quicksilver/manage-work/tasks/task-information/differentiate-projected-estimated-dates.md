@@ -10,28 +10,26 @@ exl-id: 7cc68fc4-5f79-4ce6-a404-737ea8959ec3
 ---
 # Differentiate between Projected and Estimated Dates
 
-There are several types of dates that show the timeline of tasks between when they can start and when they can complete.&nbsp;
-
-The following are some dates that display the timeline of tasks:
+There are several types of dates that show the timeline of tasks between when they can start and when they can complete. The following are some dates that display the timeline of tasks:
 
 * Planned Start and Planned Completion Dates
 * Projected Start and Projected Completion Dates
 * Estimated Start and Estimated Due Dates
 * Actual&nbsp;Start and Actual Completion Dates
 
-This article describes the differences between the Estimated and the Projected Dates for projects. When the task is first created, the Planned, Projected, and Estimated Dates should typically match. Some exceptions exist.&nbsp;
+This article describes the differences between the Estimated and the Projected Dates for projects. 
+
+When the task is first created, the Planned, Projected, and Estimated Dates should typically match. Some exceptions exist.&nbsp;
 
 For more information on the project, task, and issue dates in&nbsp;Adobe Workfront, see [Overview of the Project, Task, and Issue dates in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
 
 ## Overview of Planned Dates
 
-The Planned Dates are the dates that the Project Owner defines as the start and the end dates of the tasks.&nbsp;
-
-You or the Project Owner can manually modify the Planned Dates on a task.
+The Planned Dates are the dates that the Project Owner defines as the start and the end dates of the tasks. You or the Project Owner can manually modify the Planned Dates on a task.
 
 ## Overview of Actual Dates
 
-When a task is first created, it has no Actual Dates, because it has not started nor completed yet.
+When a task is first created, it has no Actual Dates because it has not started nor completed yet.
 
 ## Overview of Projected and&nbsp;Estimated Dates
 
@@ -62,8 +60,6 @@ The Estimated Completion Date is calculated based on the current progress of the
 
 If the task is 50% completed today, the Estimated Completion Date is on September 25 (it should be completed after 2 days which is half of the Duration of the task).
 
-* [Understand when Projected Dates update on tasks](#understand-when-projected-dates-update-on-tasks) 
-* [Understand when the Estimated Dates update on tasks](#understand-when-the-estimated-dates-update-on-tasks)
 
 ### Understand when Projected Dates update on tasks {#understand-when-projected-dates-update-on-tasks}
 
@@ -111,11 +107,11 @@ In comparison with the scenarios described above for the Projected Dates, the Es
 
 The following are some examples of what can influence the real timeline of a task:&nbsp;
 
-* task progress in relation to the Planned Dates and to the current day
-* percent complete of the task so far
-* predecessor relationship
-* predecessor progress
-* user allocation
+* Task progress in relation to the Planned Dates and to the current day
+* Percent complete of the task so far
+* Predecessor relationship
+* Predecessor progress
+* User allocation
 
   >[!NOTE]
   >
