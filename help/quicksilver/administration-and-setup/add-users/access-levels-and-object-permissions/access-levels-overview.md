@@ -44,7 +44,7 @@ For information on topics related to access levels, see the following articles:
   </tr> 
   <tr> 
    <td><strong>Built-in access levels</strong></td> 
-   <td> <p>For more information about the 6 built-in access levels shown in the image above, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Built-in access levels in Adobe Workfront</a>.</p> </td> 
+   <td> <p>For more information about the 6 built-in access levels shown in the image above, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Built-in access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Assigning access levels</strong></td> 

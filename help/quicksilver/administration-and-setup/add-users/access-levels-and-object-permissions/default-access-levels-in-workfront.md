@@ -4,20 +4,20 @@ content-type: reference
 product-area: system-administration
 keywords: access,model,funnel,diagram,levels,permissions
 navigation-topic: access-levels
-title: Built-in access levels in Adobe Workfront
+title: Built-in access levels
 description: Each of the six current built-in access levels is designed for a particular type of user, including System Administrator, Planner, Worker, Reviewer, Requestor, and External User. These access levels let you control what users can edit and view in the system. If you need a custom access level, you can copy a built-in access level and modify it according to the amount of access you want it to allow for the various Workfront object types.
-author: Becky
+author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
 ---
-# Built-in access levels in Adobe Workfront
+# Built-in access levels
 
 <!--Audited: 01/2024-->
 
 >[!NOTE]
 >
->This article describes the current built-in access levels in Adobe Workfront. For information about the new built-in access levels, see [New access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md). 
+>This article describes the current built-in access levels in Adobe Workfront. For information about the new built-in access levels, see [New access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md).
 
 
 Each of the six current built-in access levels is designed for a particular type of user. These access levels let you control what users can edit and view in the system. 
@@ -52,10 +52,9 @@ If you need a custom Planner, Worker, Requester, or Reviewer access level, you c
 
 >[!TIP]
 >
->You cannot modify the System Administrator or the External User access levels. 
+>You cannot modify the System Administrator or the External User access levels.
 
-
-For information on creating a custom access level or modifying one of the built-in access levels, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+For information on creating a custom access level or modifying one of the built-in access levels, see [Create and modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 >[!IMPORTANT]
 >
@@ -81,7 +80,7 @@ Also attached to the Plan license, the Planner access level is designed for:
 * Anyone who is responsible for planning, creating, and managing tasks, projects, portfolios, and programs
 * Anyone who is responsible for assigning work (tasks and issues) to other users
 * Users who build reports and who approve timesheets, work items, and documents
-* Users who need access to all areas in the  Main Menu ![](assets/main-menu-icon.png)
+* Users who need access to all areas in the  Main Menu ![](assets/main-menu-icon.png) or the Main Menu ![](assets/lines-main-menu.png), if available
 
 You can create a custom version of the Planner built-in access level and determine the amount of access it allows for the various Workfront object types. For more information, see [Create and modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
 
@@ -109,7 +108,7 @@ The following are the highest access settings available for objects in the Plann
 
 ## Worker access level
 
-Attached to the Work license, The Worker access level is designed for users who perform the work in Workfront. They do not plan the work; they complete it.
+Attached to the Work license, the Worker access level is designed for users who perform the work in Workfront. They do not plan the work; they complete it.
 
 Users with this access level:
 
@@ -137,7 +136,7 @@ The following are the highest access settings available for objects in the Worke
 | Users |&nbsp; |&nbsp; |✓ |
 | Teams |&nbsp; |&nbsp; |✓ (Limited access)|
 | Templates |✓ |&nbsp; |&nbsp; |
-| Financial Data |&nbsp; |✓ (The default setting is No Access. The View setting allows the user to view only the Finance  area &nbsp; in  Project Details.) |&nbsp; |
+| Financial Data |&nbsp; |✓ (The default setting is No Access. The View setting allows the user to view only the Finance  area &nbsp; in Project Details.) |&nbsp; |
 | Resource Management |&nbsp; |✓ |&nbsp; |
 | Scenario Planner  |&nbsp; |&nbsp; |✓ (The default setting is No Access.) |
 | Workfront Goals  |&nbsp; |&nbsp; |✓ (The default setting is No Access.) |
@@ -153,7 +152,7 @@ For example, a stakeholder with this access level could log in to Workfront to p
 Users with the Reviewer access level:
 
 * Cannot be assigned work items or approve timesheets
-* Can access the Requests and Documents areas in the Main Menu ![](assets/main-menu-icon.png) or the Main Menu ![](assets/lines-main-menu.png), if available.
+* Can access the Requests and Documents areas in the Main Menu ![](assets/main-menu-icon.png) or the Main Menu ![](assets/lines-main-menu.png), if available
 * Have limited ability to create objects—they can't create projects, portfolios, programs, or reports.
 
 You can create a custom version of the Reviewer built-in access level and determine the amount of access it allows for the various Workfront object types. For more information, see [Create and modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
@@ -315,8 +314,8 @@ Workfront users can assign tasks to external users even though external users ca
 Users with the External User access level:
 
 * Can view only documents and calendar reports that are shared with them
-* See the users who share documents and calendar reports with them
-* Approve the documents that are shared with them
+* Can see the users who share documents and calendar reports with them
+* Can approve the documents that are shared with them
 
 You cannot modify this access level.
 
