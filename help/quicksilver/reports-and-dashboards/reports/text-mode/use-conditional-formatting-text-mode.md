@@ -266,6 +266,7 @@ styledef.case.0.comparison.trueproperty.0.name= [format option]
 styledef.case.0.comparison.trueproperty.0.value= [format style]
 
 ```
+
 >[!NOTE]
 >
 >The `styledef.case.0.comparison.icon` line is always false unless working with icons.
