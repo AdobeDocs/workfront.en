@@ -148,8 +148,8 @@ After permssions - replace the table with:
 * Formula fields reference fields that belong to the same record type. You cannot reference fields from other record types when creating a formula field. <!--is this still accurate??-->
 * You cannot change the Field type of a Formula field after you saved it. 
 * You can update the calculation of a formula field after you save it, and the results of the calculation update automatically for all the records of the same type. 
-* You cannot use lookup fields from linked record types. 
 * You must add the fields you reference in formulas as they display in the Maestro interface. 
+* Using lookup fields from linked record types in a formula will be available at a later date. 
 
 ## Supported formulas
 

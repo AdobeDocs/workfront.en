@@ -1,6 +1,6 @@
 ---
 title: Overview of sharing permissions in Adobe Maestro
-description: You can share or remove permissions to an Adobe Maestro workspace you created. 
+description: You can share or remove permissions to an Adobe Maestro workspace or view.   
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -24,7 +24,15 @@ el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 >
 >For information, see [Adobe Maestro overview](../maestro-overview.md). 
 
-You can share or remove permissions to an Adobe Maestro workspace you created. 
+You can share or remove permissions to an Adobe Maestro workspace or view.  
+
+This article describes the permission levels for Maestro objects. 
+
+For information about how to share workspaces or views, see the following articles: 
+
+* [Share a workspace](/help/quicksilver/maestro/access/share-workspaces.md)
+
+* [Share a view](/help/quicksilver/maestro/access/share-views.md)
 
 ## Objects you can share in Adobe Maestro
 
@@ -42,6 +50,8 @@ You can share the following objects in Maestro:
 
    * New pricing model: Standard license 
    * Current pricing model: Work or higher license 
+
+    For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
 * System administrators can manage and share workspaces that other users created. 
 * If you are not a System Administrator, you can contribute to workspaces created by others if they are shared with you. 
 * You cannot share workspaces in bulk. 
@@ -52,8 +62,67 @@ You can share the following objects in Maestro:
 
 ## Sharing permissions for Maestro objects
 
-The following table illustrates the level of permissions that you can select when sharing a Maestro workspace or view: 
+The tables in the following sections illustrate the level of permissions that you can select when sharing a Maestro workspace or view and what functionality each level allows.
 
+### Workspace permissions
+
+|        | Manage | Contribute | View  |
+|--------|--------|------------|-------|
+| Edit | ✓      |            |       |
+| Share  | ✓      |            |       |
+| Delete   | ✓      |            |       |
+| View   | ✓      | ✓          | ✓     |
+
+### Record Type permissions
+
+Record Type permissions are inherited when you grant permissions to the workspace.
+
+|        | Manage | Contribute | View  |
+|--------|--------|------------|-------|
+| Create | ✓      |            |       |
+| Delete | ✓      |            |       |
+| Edit   | ✓      |            |       |
+| View   | ✓      | ✓          | ✓     |
+
+### Record permissions
+
+Record permissions are inherited when you grant permissions to the workspace.
+
+|        | Manage | Contribute | View  |
+|--------|--------|------------|-------|
+| Create | ✓      |            |       |
+| Delete | ✓      |     ✓       |       |
+| Edit   | ✓      |    ✓        |       |
+| View   | ✓      | ✓          | ✓     |
+
+### Field permissions
+
+Field permissions are inherited when you grant permissions to the workspace.
+The following permissions refer to the fields themselves and not to the values associated with each field. To edit field values you must have permissions to edit records. 
+
+|        | Manage | Contribute | View  |
+|--------|--------|------------|-------|
+| Create | ✓      |            |       |
+| Delete | ✓      |            |       |
+| Edit   | ✓      |            |       |
+| View   | ✓      | ✓          | ✓     |
+
+
+### View permissions
+
+You must grant separate permissions to record views. Granting permissions to the workspace does not grant permissions to the record views in the workspace. 
+
+|        | Manage | View  |
+|--------|--------|-------|
+| Edit   | ✓      |       |
+| Delete | ✓      |       |
+| View   | ✓      | ✓     |
+| Apply  | ✓      | ✓     |
+
+
+
+
+<!--
 <table>
   <tr>
    
@@ -319,11 +388,7 @@ The following table illustrates the level of permissions that you can select whe
 
 </table>
 
-*Record types, records, and fields inherit permissions from the Workspace. 
+*Record types, records, and fields inherit permissions from the Workspace. -->
 
-For general information about access in Maestro, see [Overview of sharing permissions in Adobe Maestro](../access/sharing-permissions-overview.md).
 
-For information about sharing workspaces, see [Share a workspace](/help/quicksilver/maestro/access/share-workspaces.md).
-
-For information about sharing views, see [Share a view](/help/quicksilver/maestro/access/share-views.md)
  
