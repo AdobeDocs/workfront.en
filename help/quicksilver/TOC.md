@@ -2017,11 +2017,14 @@ feature-set: Workfront
     * [Fields overview](maestro/fields/fields-overview.md)
     * [Create fields](maestro/fields/create-fields.md)
     * [Edit fields](maestro/fields/edit-fields.md)
-    * [Delete fields](maestro/fields/delete-fields.md)    
+    * [Delete fields](maestro/fields/delete-fields.md) 
+    * [Formula fields overview](maestro/fields/formula-fields.md)   
   * Adobe Maestro access {#adobe-maestro-access}
     * [Access information](maestro/access/access-information.md)
     * [Access overview](maestro/access/access-overview.md)
-    * [Grant access to Adobe Maestro](maestro/access/grant-access.md)
+    * [Overview of sharing permissions in Adobe Maestro](maestro/access/sharing-permissions-overview.md)
+    * [Share a workspace](maestro/access/share-workspaces.md)
+    * [Share a view](maestro/access/share-views.md)
   * Adobe Maestro records {#adobe-maestro-records}
     * [Records: article index](maestro/records/records-information.md) 
     * [Create records](maestro/records/create-records.md)

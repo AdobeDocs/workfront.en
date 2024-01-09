@@ -95,7 +95,7 @@ Consider the following:
 
 When you apply a special view to a report, the special view displays in of the Details tab of the report in Workfront.
 
-When you schedule the delivery of a report that has a special view, the default Details tab is delivered in the attachment of the sent email, instead of the special view.
+When you schedule the delivery of a report that has a special view, the Details tab is delivered in the attachment of the sent email, instead of the special view.
 
 The following are considered special views:
 
