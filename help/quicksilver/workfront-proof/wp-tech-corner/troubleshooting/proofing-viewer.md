@@ -48,16 +48,16 @@ For example, in Chrome:
 Once your have the latest browser version installed, try to re-open your proof and see if the issue is resolved.
 
 <!--
+
 ## Ensure Your Local [!DNL Flash] Storage is Available
 
 Our [!DNL Workfront Proof] Viewer is based on Flash, and we store some data about the proofs (i.e., comments, proof tiles, [!DNL Workfront Proof] Viewer settings) on your computer using [!DNL Flash Player]. If the [!DNL Workfront Proof] Viewer opens, but there is no content inside you will want to make sure that the Flash Storage is available on your machine and that [!DNL Workfront Proof] is allowed to use it.
 
 If there is some storage allocated, but you're working with the bigger proofs with multiple pages and comments try to increase the [!DNL Flash] Storage and re-load your proof.
 
-Please see [Problems With Viewing Proofs - [!DNL Flash] Shared Objects Explained](../../../workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md) for the detailed instructions.
 -->
 
-## Identify where the problem is
+## Identify Where the Problem Is
 
 * Are the proofs opening in a different browser?
 * If you're using one browser on a daily basis and you're having trouble with viewing the proofs there, try to open the same proof in a different browser on your computer. To do this, simply copy the proof link from the URL bar of your main browser and paste it into a different browser. If the proof opens there, review your main browser configuration, plugins, and extensions as these may be interfering.
