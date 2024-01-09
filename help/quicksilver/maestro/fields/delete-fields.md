@@ -40,7 +40,7 @@ You can delete Maestro fields that are no longer relevant.
 ## Considerations about deleting Maestro fields:
 
 * You can delete a field only in the record type table view.
-* You can delete fields that you created or fields created by other users or by the system. <!--this will change with access levels/ permissions-->
+* You can delete fields that you created or fields created by other users or by the system. <!--this will change to: take this out with permissions - it's in the table! -->
 * You cannot delete the primary field of a record. 
 * Any information stored in the field is deleted and cannot be recovered. 
 * When you delete a linked record field, all the linked lookup fields are also deleted from the record type you link from. The linked record fields of the record types you link to are not deleted. 
@@ -85,7 +85,7 @@ You must have the following access to perform the steps in this article:
   </tr>
 <tr>
    <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -132,7 +132,7 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>
