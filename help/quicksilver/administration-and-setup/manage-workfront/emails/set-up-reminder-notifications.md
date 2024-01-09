@@ -8,7 +8,9 @@ exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
 ---
 # Set up reminder notifications
 
-Reminder notifications send emails to recipients based on specified criteria. As an Adobe Workfront administrator or a user with a Planner access level and administrative access to reminder notifications, you can manually associate reminder notifications with your work items, such as projects, tasks, issues, and timesheets. 
+<!-- Audited: 1/2024 -->
+
+Reminder notifications send emails to recipients based on specified criteria. You can manually associate reminder notifications with your work items, such as projects, tasks, issues, and timesheets. 
 
 <!--
 DRAFTED IN FLARE:
@@ -33,7 +35,10 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td>Plan</td> 
+   <td> <p>New: Standard </p>
+ <p>or</p> 
+<p>Current: Plan</p> 
+</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -46,7 +51,7 @@ You must have the following access to perform the steps in this article:
 
 ## Customize the reminder email
 
-You can customize the reminder notification with a custom email that includes a custom email subject and body. The email body can contain custom HTML.
+You can customize the subject, body, and HTML in the reminder notification email. 
 
 Or, you can use the default email included with the reminder notification. The default email uses the reminder notification name as the email subject and the object name in the email body, including the event that triggered the notification.
 
@@ -56,7 +61,7 @@ For information about how to create an email template, see [Configure email temp
 
 ## Create a reminder notification
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **Email** > **Notifications** > **Reminder Notifications**.
 
@@ -138,10 +143,12 @@ For instance, if a reminder is set to trigger an hour after the Planned Completi
 
 To cause a reminder notification to trigger manually:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **System** > **Diagnostics** in the lower left corner of Workfront. 
 
 1. Click **Send Reminder Notifications** and wait for the confirmation at the top of the screen that they have been sent.
 
    The users designated in the reminder notification receive an email.
+
+![](assets/reminder-test.png)

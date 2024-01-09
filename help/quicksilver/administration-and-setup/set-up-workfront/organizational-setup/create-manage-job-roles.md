@@ -11,6 +11,8 @@ exl-id: 664fb2fe-ff7e-4807-9a43-b37e7d5d57eb
 ---
 # Create and manage job roles
 
+<!-- Audited: 1/2024 -->
+
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
 As an [!DNL Adobe Workfront] administrator or a user with administrative access to Job Roles, you can create job roles which can be assigned to users and delete default job roles that are not relevant to your organization. For information about administrative access in [!DNL Workfront], see [Grant users administrative access to certain areas](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
@@ -29,7 +31,9 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td>
+   <p>New: Standard</p>
+   <p>Current: [!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -42,7 +46,9 @@ You must have the following:
 
 ## Create a job role
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+To create a job role:
+
+{{step-1-to-setup}}
 
 1. In the left panel, click&#x200B; **[!UICONTROL Job Roles].**
 1. Click **[!UICONTROL New Job Role].**
