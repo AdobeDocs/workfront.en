@@ -57,9 +57,9 @@ If there is some storage allocated, but you're working with the bigger proofs wi
 Please see [Problems With Viewing Proofs - [!DNL Flash] Shared Objects Explained](../../../workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md) for the detailed instructions.
 -->
 
-## Identify Where the Problem Is
+## Identify where the problem is
 
-* Are the proofs opening in a different browser? 
+* Are the proofs opening in a different browser?
 * If you're using one browser on a daily basis and you're having trouble with viewing the proofs there, try to open the same proof in a different browser on your computer. To do this, simply copy the proof link from the URL bar of your main browser and paste it into a different browser. If the proof opens there, review your main browser configuration, plugins, and extensions as these may be interfering.
 * We do not have any preferred browser, but if you're having any performance issues in your current browser, we would advise switching to a different one.
 * Are the proofs opening on a different machine in your location?
@@ -76,15 +76,15 @@ Please see [Problems With Viewing Proofs - [!DNL Flash] Shared Objects Explained
 
 ## Review plugins
 
-If your browser and [!DNL Flash Player] plugin is up-to-date and your network is not blocking the connections to [!DNL Workfront Proof] there may be something in your browser that is affecting viewing the proofs. Nowadays there are multiple plugins and extensions available in your browser and some of them interfere or are in conflict with the others.
+If your browser is up-to-date and your network is not blocking the connections to [!DNL Workfront Proof], there may be something in your browser that is affecting viewing the proofs. There are often multiple plugins and extensions available in your browser, and some of them could interfere or be in conflict with the others.
 
-The best practice is to remove all the unknown add-ons and keep only the ones that you use and that you trust. Each browser should give you options to check/modify/delete the plugins and extensions. Our [!DNL Workfront Proof] Viewer is based on [!DNL Flash] and we use JavaScript to load the viewer so you will want to especially review the plugins that could affect these.
+The best practice is to remove all the unknown add-ons and keep only the ones that you use and that you trust. Each browser should give you options to check/modify/delete the plugins and extensions. We use JavaScript to load the [!DNL Workfront Proof] viewer so you will want to especially review the plugins that could affect that.
 
-If there is any particular add-on interfering with loading the proofs you can try checking the details in the browser's console.
+If there is any particular add-on interfering with loading the proofs, you can try checking the details in the browser's console.
 
 ![Browser console](assets/proofview-4.png)
 
-In most of the newer browsers there are some additional Developers tools available and they can be used for more advanced troubleshooting.
+In most of the newer browsers there are some additional Developers tools available, and they can be used for more advanced troubleshooting.
 
 If you're having troubles with viewing the proofs:
 
@@ -95,8 +95,8 @@ If you're having troubles with viewing the proofs:
 
 ## Check mixed content settings
 
-All of the connections to [!DNL Workfront Proof] are over HTTPS. However, in the [!DNL Workfront Proof] Viewer we load the tiles over HTTP and the data is secured with the tokens. This creates Mixed Content that some of the browsers or security solutions may be blocking (by default or as per manual configuration).
+All of the connections to [!DNL Workfront Proof] are over HTTPS. However, in the [!DNL Workfront Proof] Viewer we load the tiles over HTTP and the data is secured with the tokens. This creates Mixed Content that some of the browsers or security solutions may be blocking (by default or by manual configuration).
 
-If this is the reason why the proofs are not opening on your computer (you should be able to see the relevant alerts in the browser's console) authorize such connections for [!DNL Workfront Proof] or amend your settings to allow passive mixed content on your machine. The mixed content may be blocked by your browser, AV software, network configuration etc - to determine the exact cause please get in touch with your IT team/network administrators. They should also be able to help with enabling the mixed content on your machine.
+If this is the reason why the proofs are not opening on your computer (you should be able to see the relevant alerts in the browser's console), authorize such connections for [!DNL Workfront Proof] or amend your settings to allow passive mixed content on your machine. The mixed content may be blocked by your browser, AV software, or network configuration to determine the exact cause. You should get in touch with your IT team/network administrators. They should also be able to help with enabling the mixed content on your machine.
 
 
