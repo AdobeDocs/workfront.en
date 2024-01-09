@@ -7,6 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
 ---
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--should this move to the Access folder when we have sharing for ALL the objects???-->
 
 # Share records
 
@@ -152,9 +153,9 @@ After permissions - replace the table with - below
 
 ## Share record links from the record type table view
 
-1. Click the **Main Menu** ![](assets/main-menu-workfront.png) in the upper-right corner, or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available, then click **Maestro**. 
+{#step1-to-maestro}
 
-    The workspace that you accessed last opens. 
+   The workspace that you accessed last opens. 
 1. Click a record type card. 
 
     The record type page opens. 

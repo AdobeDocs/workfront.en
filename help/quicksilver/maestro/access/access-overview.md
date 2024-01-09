@@ -96,13 +96,13 @@ You must have the following settings to use Adobe Maestro:
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement*</p></td>
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
 <p>Your organization must be enrolled in the Adobe Maestro closed beta program. </p>
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront plan*</p></td>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
    <td>
 <p>Any</p>
    </td>
@@ -139,16 +139,9 @@ You must have the following settings to use Adobe Maestro:
  </tbody>
 </table>
 
-*To find out your Workfront plan, license, or access level, contact your Workfront administrator. 
+*For more information about the new and current pricing models, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
 
 -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
-
 
 ## Share the Maestro area in the Main Menu with others
 
@@ -185,6 +178,6 @@ All users that have Maestro enabled in their environment can view, edit, and del
 <!--
 Take out the text above and replace with this: 
 
-For more information, see [Access overview](/help/quicksilver/maestro/access/access-overview.md)-->
+For more information, see [Sharing permissions overview in Adobe Maestro](/help/quicksilver/maestro/access/sharing-permissions-overview.md).-->
 
 

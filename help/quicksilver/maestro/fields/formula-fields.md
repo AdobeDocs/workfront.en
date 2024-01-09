@@ -153,7 +153,7 @@ After permssions - replace the table with:
 
 ## Supported formulas
 
-We support all formulas from the Workfront calculated fields. For more information, see [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Maestro formula fields support all expressions from the Workfront calculated fields. For more information, see [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 In addition, we support the following expressions for Maestro formula fields:
 
@@ -173,15 +173,22 @@ In addition, we support the following expressions for Maestro formula fields:
    <td><strong>ARRAYJOIN</strong> </td> 
    <td> <p>Returns concatenated string by delimiter.</p> <p>The expression is formatted as follows:
    
-      ARRAYJOIN(delimiter,array)
+   <code>ARRAYJOIN(delimiter,array)</code>
    </p>
    </td></tr>
 
    <tr> 
    <td><strong>ARRAYUNIQUE</strong> </td> 
    <td> <p>Returns array with unique values.</p> <p>The expression is formatted as follows:
+
+   <code>ARRAYUNIQUE(array)</code>
+   </p>
+   </td></tr>
+     <tr> 
+   <td><strong>ID</strong> </td> 
+   <td> <p>Returns the ID of a record.</p> <p>The expression is formatted as follows:
    
-      ARRAYUNIQUE(array)
+   <code>{ID}</code>
    </p>
    </td></tr>
   
@@ -189,7 +196,7 @@ In addition, we support the following expressions for Maestro formula fields:
    <td><strong>SETTIMEZONE</strong> </td> 
    <td> <p>Sets the timezone of a date and time to a specific timezone.</p> <p>The expression is formatted as follows:
    
-      SETTIMEZONE(date,'America/Los_Angeles')
+   <code>SETTIMEZONE(date,'America/Los_Angeles')</code>
    </p>
    </td></tr>
    
@@ -197,9 +204,9 @@ In addition, we support the following expressions for Maestro formula fields:
    <td><strong>WEEKOFYEAR</strong> </td> 
    <td> <p>Returns the week number in a year. Optionally, you can indicate which day the week starts on (use 1 for Sunday, or 2 for Monday). If ommitted, weeks start on Sunday, by default.</p> <p>The expression is formatted as follows:
    
-      WEEKOFYEAR(date,2)
+   <code>WEEKOFYEAR(date,2)</code>
       or
-      WEEKOFYEAR(date)
+   <code>WEEKOFYEAR(date)</code>
    </p>
    </td></tr>
    

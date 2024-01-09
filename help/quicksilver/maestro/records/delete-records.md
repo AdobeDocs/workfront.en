@@ -187,3 +187,8 @@ You can delete a record from the following areas:
     ![](assets/contextual-menu-for-record-row.png)
 
     The record is deleted and cannot be recovered.
+
+<!--1. (Optional) Use the following keyboard shortcuts to undo or redo deleting a record:
+
+   * **Undo**: CTRL/CMD + Z
+   * **Redo**: CTRL/CMD + Shift + Z-->

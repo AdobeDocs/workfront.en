@@ -12,7 +12,7 @@ For a list of all changes available at this point in the First Quarter 2024 rele
 
 ## AI-driven smart assignments
 
-We have changed the algorithm that Workfront uses to calculate and suggest smart assignments for tasks. The new algorithm applies everywhere in Workfront where you assign a task (task lists, the Assignments area in the task header, Home, and the Summary panel).  
+We have changed the algorithm that Workfront uses to calculate and suggest smart assignments for tasks. The new algorithm applies in the following areas in Workfront where you assign a task: task lists, the Assignments area in the task header, Home, and the Summary panel. 
 
 Now, the algorithm looks at the following information when it suggests smart assignments:  
 
