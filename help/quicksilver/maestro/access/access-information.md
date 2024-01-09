@@ -23,4 +23,11 @@ As a Workfront administrator, you must give access to your users to use Maestro.
 The following articles contain information about what access your users need to use Maestro: 
 
 * [Access overview](../access/access-overview.md)
-* [Grant access to Adobe Maestro](../access/grant-access.md)
+
+<!--make the following live with permissions release: 
+
+* [Overview of sharing permissions in Adobe Maestro](/help/quicksilver/maestro/access/sharing-permissions-overview.md)
+* [Share a workspace](/help/quicksilver/maestro/access/share-workspaces.md)
+* [Share a view](/help/quicksilver/maestro/access/share-views.md)
+
+-->

@@ -201,6 +201,25 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                  </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">New Pending approvals widget available</a></p><p><span style="color: #ff0000;"> New in Preview!</span></p><p>To make it easier for you to see the status of approvals and reviews on projects you own, we've added a new Pending Approvals widget to Home. </p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: January 3, 2023</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 24.1 release</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 24.1 release</p>
+                            </li>
+                        </ul>
+                        <p><span style="color: #ff0000;">This feature is part of a phased release and is currently only available for specific customers.</span></p>
+                    </td>
+                </tr>
+                 <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Administrator controls for new Home using layout templates</a></p><p>Administrators can now customize new Home for users using layout templates. Customization options include selecting mandatory widgets and their position, choosing a background, and widget-specific options for choosing available filters and groups (and setting defaults).</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>

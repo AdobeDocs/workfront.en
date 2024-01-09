@@ -139,6 +139,7 @@ feature-set: Workfront
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Workfront Fusion release activity: Week of November 27, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-30.md)
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+       [Workfront Fusion release activity: Week of January 1, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-1-4.md)
       * [Workfront Fusion release activity: Week of November 13, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-14.md)
       * [Workfront Fusion release activity: Week of October 30, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-10-26.md)
       * [Workfront Fusion release activity: Week of September 1, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-9-1.md)
@@ -2016,11 +2017,14 @@ feature-set: Workfront
     * [Fields overview](maestro/fields/fields-overview.md)
     * [Create fields](maestro/fields/create-fields.md)
     * [Edit fields](maestro/fields/edit-fields.md)
-    * [Delete fields](maestro/fields/delete-fields.md)    
+    * [Delete fields](maestro/fields/delete-fields.md) 
+    * [Formula fields overview](maestro/fields/formula-fields.md)   
   * Adobe Maestro access {#adobe-maestro-access}
     * [Access information](maestro/access/access-information.md)
     * [Access overview](maestro/access/access-overview.md)
-    * [Grant access to Adobe Maestro](maestro/access/grant-access.md)
+    * [Overview of sharing permissions in Adobe Maestro](maestro/access/sharing-permissions-overview.md)
+    * [Share a workspace](maestro/access/share-workspaces.md)
+    * [Share a view](maestro/access/share-views.md)
   * Adobe Maestro records {#adobe-maestro-records}
     * [Records: article index](maestro/records/records-information.md) 
     * [Create records](maestro/records/create-records.md)
