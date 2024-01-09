@@ -109,8 +109,6 @@ To share a view with others:
 
 {{step1-to-maestro}}
 
-{{step1-to-maestro}}
-
 1. Open the workspace whose view you want to share, then click a Record Type card. 
 
    This opens the record type page.
