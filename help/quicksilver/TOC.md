@@ -2547,7 +2547,6 @@ feature-set: Workfront
       * [Troubleshooting - corrupted interface font in proofing viewer on Mac](workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
       * [Understand How Cache and Cookies Affect Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
       * [Speed issues in Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
-      * [Problems With Viewing Proofs - Flash Shared Objects Explained](workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md)
       * [Troubleshooting - Workfront Proof proofing viewer](workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
   * Workfront Proof integrations {#wf-proof-integrations}
     * [Workfront Proof integrations](workfront-proof/wp-integrations/wp-integrations.md)

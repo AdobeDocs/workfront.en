@@ -51,8 +51,6 @@ Our [!DNL Workfront Proof] Viewer is based on Flash, and we store some data abou
 
 If there is some storage allocated, but you're working with the bigger proofs with multiple pages and comments try to increase the [!DNL Flash] Storage and re-load your proof.
 
-Please see our [Problems With Viewing Proofs - [!DNL Flash] Shared Objects Explained](../../../workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md) for the detailed instructions.
-
 ## Identify Where the Problem Is
 
 * Are the proofs opening in a different browser? 
