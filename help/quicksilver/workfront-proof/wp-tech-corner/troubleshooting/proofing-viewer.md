@@ -45,11 +45,15 @@ Please see in Chrome:
 
 Once your have the latest [!DNL Flash Player] plugin and browser version installed try to re-open your proof and see if the issue is resolved.
 
+<!--
+
 ## Ensure Your Local [!DNL Flash] Storage is Available
 
 Our [!DNL Workfront Proof] Viewer is based on Flash, and we store some data about the proofs (i.e., comments, proof tiles, [!DNL Workfront Proof] Viewer settings) on your computer using [!DNL Flash Player]. If the [!DNL Workfront Proof] Viewer opens, but there is no content inside you will want to make sure that the Flash Storage is available on your machine and that [!DNL Workfront Proof] is allowed to use it.
 
 If there is some storage allocated, but you're working with the bigger proofs with multiple pages and comments try to increase the [!DNL Flash] Storage and re-load your proof.
+
+-->
 
 ## Identify Where the Problem Is
 
