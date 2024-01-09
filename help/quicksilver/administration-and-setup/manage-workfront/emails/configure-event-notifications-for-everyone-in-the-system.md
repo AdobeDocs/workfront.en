@@ -8,6 +8,8 @@ exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
 ---
 # Configure event notifications for everyone in the system
 
+<!-- Audited: 1/2024 -->
+
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS-->
 
 Event notifications trigger emails to users when a certain event occurs. As an Adobe Workfront administrator or a user with a Planner access level, you can configure an event notification for all users in the system. Configuration of an event notification consists of activating or deactivating it.
@@ -54,7 +56,7 @@ You must have the following access to perform the steps in this article:
 
 ## Configure event notifications for all users
 
-You must enable notifications in the Setup area of Workfront before users can enable or disable them in their profiles.
+You must enable notifications in the Setup area of Workfront before users can enable or disable them in their individual profiles.
 
 >[!TIP]
 >
@@ -68,7 +70,7 @@ You must enable notifications in the Setup area of Workfront before users can en
    
 
 1. Make sure the **Event Notifications** tab is open.
-1. Click the switch to the left of the event name to turn it on or off.
+1. Toggle the switch to the left of the event name to turn it on or off.
 
    To see the default notification status for an event, see [Event notifications](../../../workfront-basics/using-notifications/event-notifications.md).
 
