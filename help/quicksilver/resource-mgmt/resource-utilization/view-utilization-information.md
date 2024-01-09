@@ -2,18 +2,20 @@
 product-area: resource-management
 navigation-topic: resource-utilization
 title: View resource utilization information
-description: You can view the utilization of your resources using the Utilization report.
+description: You can view the utilization of your resources in the Utilization report.
 author: Alina, Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
 ---
 # View resource utilization information
 
+<!-- Audited: 01/2024 -->
+
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;this is linked to the UI from the Utilization report. ALWAYS keep this information. DO NOT DELETE!!)</p>
 -->
 
-You can view the utilization of your resources using the Utilization report.
+You can view the utilization of your resources in the Utilization report.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
