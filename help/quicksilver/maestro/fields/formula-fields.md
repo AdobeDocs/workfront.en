@@ -5,9 +5,12 @@ hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
 ---
+
+# Formula fields overview
+
 <!--update the metadata with real information when making this available in TOC and in the left nav - below-->
 
-<!--**********ADD TO TOC************>
+<!--**********ADD TO miniTOC************>
 
 <!---
 title: Formula fields
@@ -20,7 +23,7 @@ role: User, Administrator (************is this right???************)
 recommendations: noDisplay, noCatalog
 --->
 
-# Formula fields overview
+<!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
 
 >[!IMPORTANT]
 >
@@ -75,7 +78,7 @@ You must have the following access to perform the steps in this article:
   </tr>
 <tr>
    <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -126,7 +129,7 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -145,11 +148,64 @@ After permssions - replace the table with:
 * Formula fields reference fields that belong to the same record type. You cannot reference fields from other record types when creating a formula field. <!--is this still accurate??-->
 * You cannot change the Field type of a Formula field after you saved it. 
 * You can update the calculation of a formula field after you save it, and the results of the calculation update automatically for all the records of the same type. 
+* You must add the fields you reference in formulas as they display in the Maestro interface. 
+* Using lookup fields from linked record types in a formula will be available at a later date. 
+
+## Supported formulas
+
+We support all formulas from the Workfront calculated fields. For more information, see [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+In addition, we support the following expressions for Maestro formula fields:
 
 
-<!--
-## The syntax of Maestro formula fields
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>Expression</th> 
+   <th>Explanation and example</th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  
+  <tr> 
+   <td><strong>ARRAYJOIN</strong> </td> 
+   <td> <p>Returns concatenated string by delimiter.</p> <p>The expression is formatted as follows:
+   
+      ARRAYJOIN(delimiter,array)
+   </p>
+   </td></tr>
 
-## Functions supported in Maestro formula fields - I think this should be its own article, but link from here. 
+   <tr> 
+   <td><strong>ARRAYUNIQUE</strong> </td> 
+   <td> <p>Returns array with unique values.</p> <p>The expression is formatted as follows:
+   
+      ARRAYUNIQUE(array)
+   </p>
+   </td></tr>
+  
+  <tr> 
+   <td><strong>SETTIMEZONE</strong> </td> 
+   <td> <p>Sets the timezone of a date and time to a specific timezone.</p> <p>The expression is formatted as follows:
+   
+      SETTIMEZONE(date,'America/Los_Angeles')
+   </p>
+   </td></tr>
+   
+   <tr> 
+   <td><strong>WEEKOFYEAR</strong> </td> 
+   <td> <p>Returns the week number in a year. Optionally, you can indicate which day the week starts on (use 1 for Sunday, or 2 for Monday). If ommitted, weeks start on Sunday, by default.</p> <p>The expression is formatted as follows:
+   
+      WEEKOFYEAR(date,2)
+      or
+      WEEKOFYEAR(date)
+   </p>
+   </td></tr>
+   
+   </table>
 
--->
+
+
+
+

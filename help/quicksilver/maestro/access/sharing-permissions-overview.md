@@ -1,20 +1,18 @@
 ---
 title: Overview of sharing permissions in Adobe Maestro
-description: You can share or remove permissions to a Adobe Maestro workspace you created. Only Workfront administrators can create and share workspaces.
+description: You can share or remove permissions to an Adobe Maestro workspace or view.   
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
+el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 ---
 <!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Maestro. This article describes the levels of access that users could have to Adobe Maestro. -->
 
-<!--over time, this article should look like this one does: https://experienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
+<!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
 
 <!-- *********add to TOC****************-->
 
 # Overview of sharing permissions in Adobe Maestro
-
-You can share or remove permissions to a Adobe Maestro workspace you created. Only Workfront administrators can create and share workspaces. 
 
 >[!IMPORTANT]
 >
@@ -26,92 +24,371 @@ You can share or remove permissions to a Adobe Maestro workspace you created. On
 >
 >For information, see [Adobe Maestro overview](../maestro-overview.md). 
 
+You can share or remove permissions to an Adobe Maestro workspace or view.  
+
+This article describes the permission levels for Maestro objects. 
+
+For information about how to share workspaces or views, see the following articles: 
+
+* [Share a workspace](/help/quicksilver/maestro/access/share-workspaces.md)
+
+* [Share a view](/help/quicksilver/maestro/access/share-views.md)
+
 ## Objects you can share in Adobe Maestro
 
 You can share the following objects in Maestro: 
 
 * Workspaces
 
-    When you share a workspace, all record types, records, and fields associated with the workspaces are also shared. 
+    When you share a workspace, all record types, records, and fields associated with the workspaces are also shared. Views are not shared. 
+
+* Views
 
 ## Considerations about sharing objects in Maestro
 
-* Only Workfront administrators can share a workspace. 
-* All Workfront administrators can access and share workspaces that other users created. 
+* You must have the following license to create workspaces in Maestro:
+
+   * New pricing model: Standard license 
+   * Current pricing model: Work or higher license 
+
+    For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
+* System administrators can manage and share workspaces that other users created. 
+* If you are not a System Administrator, you can contribute to workspaces created by others if they are shared with you. 
 * You cannot share workspaces in bulk. 
 * You can share a workspace with the following entities:
     * Users
     * Groups
+* Other users, including System Administrators, can only access views they created or that have been shared with them. 
 
 ## Sharing permissions for Maestro objects
 
-The following table illustrates the level of permissions that you can select when sharing a Maestro workspace: 
+The tables in the following sections illustrate the level of permissions that you can select when sharing a Maestro workspace or view and what functionality each level allows.
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
- <tr> 
-   <td role="rowheader"><p><b>Permission level</b></p></td> 
-   <td> <p><b>Actions you can perform</b></p> 
-    </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>View</p></td> 
-   <td> 
-    <ul> 
-     <li>View the workspace</li> 
-     <li>View all record types in the workspace</li> 
-     <li>View all the records in a record type</li> 
-     <li>View all the fields in a record type</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Contribute</p></td> 
-   <td>  
-    <ul> 
-     <li>All the actions included with the View permission</li> 
-     <li>Add records</li>
-     <li>Create records</li> 
-     <li>Delete records</li>  
-     <li>Edit records</li>
-     <li>Edit field settings</li>
-     </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Manage</p></td> 
-   <td> 
-    <ul> 
-     <li>All the actions included with the View and Contribute permissions</li> 
-     <li>Edit record types</li> 
-     <li>Create record types</li> 
-     <li>Delete record types</li> 
-     <li>Add fields</li> 
-     <li>Delete fields</li> 
-     <li>Add new connections between record types</li> 
-     <li>Share the workspace with users and groups</li> 
-     </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><p>Workfront administrators</p></td> 
-   <td> <p>This is not a Maestro permission.</p>
-   <p> All Workfront administrators can do the following: </p>
-   <ul><li>Create workspaces</li>
-    <li> Manage existing workspaces, even if they have not created them themselves. </li> 
-    <li>Manage all information in a workspace (record types, records, fields)
-    </td> 
-  </tr> 
- </tbody> 
+### Workspace permissions
+
+|        | Manage | Contribute | View  |
+|--------|--------|------------|-------|
+| Edit | ✓      |            |       |
+| Share  | ✓      |            |       |
+| Delete   | ✓      |            |       |
+| View   | ✓      | ✓          | ✓     |
+
+### Record Type permissions
+
+Record Type permissions are inherited when you grant permissions to the workspace.
+
+|        | Manage | Contribute | View  |
+|--------|--------|------------|-------|
+| Create | ✓      |            |       |
+| Delete | ✓      |            |       |
+| Edit   | ✓      |            |       |
+| View   | ✓      | ✓          | ✓     |
+
+### Record permissions
+
+Record permissions are inherited when you grant permissions to the workspace.
+
+|        | Manage | Contribute | View  |
+|--------|--------|------------|-------|
+| Create | ✓      |            |       |
+| Delete | ✓      |     ✓       |       |
+| Edit   | ✓      |    ✓        |       |
+| View   | ✓      | ✓          | ✓     |
+
+### Field permissions
+
+Field permissions are inherited when you grant permissions to the workspace.
+The following permissions refer to the fields themselves and not to the values associated with each field. To edit field values you must have permissions to edit records. 
+
+|        | Manage | Contribute | View  |
+|--------|--------|------------|-------|
+| Create | ✓      |            |       |
+| Delete | ✓      |            |       |
+| Edit   | ✓      |            |       |
+| View   | ✓      | ✓          | ✓     |
+
+
+### View permissions
+
+You must grant separate permissions to record views. Granting permissions to the workspace does not grant permissions to the record views in the workspace. 
+
+|        | Manage | View  |
+|--------|--------|-------|
+| Edit   | ✓      |       |
+| Delete | ✓      |       |
+| View   | ✓      | ✓     |
+| Apply  | ✓      | ✓     |
+
+
+
+
+<!--
+<table>
+  <tr>
+   
+
+   </td>
+  </tr>
+  <tr>
+   <td>
+   </td>
+   <td>
+   </td>
+   <td><p><b>New: Standard license</b></p> <p><b>Current: Worker or higher license</b></p></strong>
+   </td>
+   <td><strong>Manage permissions</strong>
+   </td>
+   <td><strong>Contribute permissions</strong>
+   </td>
+   <td><strong>View permissions</strong>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Create</strong>
+   </td>
+   <td rowspan="5" ><strong>Workspace</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Delete</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Share</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Edit</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Create/delete</strong>
+   </td>
+   <td rowspan="3" ><strong>Record Type*</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Edit</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Create/delete</strong>
+   </td>
+   <td rowspan="3" ><strong>Record*</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Edit</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+  </tr>
+  <tr>
+   <tr>
+   <td><strong>Create</strong>
+   </td>
+   <td rowspan="5" ><strong>View</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Delete</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Share</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Edit</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>✓
+   </td>
+  </tr>
+
+<tr>
+   <td><strong>Create/delete</strong>
+   </td>
+   <td rowspan="3" ><strong>Fields*</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>Edit</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>
+   </td>
+   <td>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>View</strong>
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+   <td>✓
+   </td>
+  </tr>
+
+
+
 </table>
 
-<!-- the following sections are hidden in the links below - ensure they are visible-->
+*Record types, records, and fields inherit permissions from the Workspace. -->
 
-## Share a workspace
 
-For information about sharing a Maestro workspace, see [Grant access to Adobe Maestro](../access/grant-access.md). 
-
-## Remove permissions to a workspace
-
-For information about sharing a Maestro workspace, see [Grant access to Adobe Maestro](../access/grant-access.md). 
-
-<!--This is currently not possible: ## Request permissions to objects -->
+ 

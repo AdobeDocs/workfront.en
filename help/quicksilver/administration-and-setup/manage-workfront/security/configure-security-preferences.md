@@ -89,7 +89,7 @@ You must have the following access to perform the steps in this article:
         <li>Document request<br></li>
         <li>Document approval</li>
         <li>Calendar</li>
-       </ul><p>This option is enabled by default.</p> <p><b>Important</b>: The External User access level is unavailable in your Workfront instance if this option is disabled. For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Built-in access levels in Workfront</a>.</p> </td> 
+       </ul><p>This option is enabled by default.</p> <p><b>Important</b>: The External User access level is unavailable in your Workfront instance if this option is disabled. For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Built-in access levels</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Require external users to register with a password</td> 

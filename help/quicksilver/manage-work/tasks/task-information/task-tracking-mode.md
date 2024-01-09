@@ -10,9 +10,11 @@ exl-id: 397b5593-ac01-40cf-b683-fcf671a53d26
 ---
 # Task Tracking Mode overview
 
+<!-- Audited: 01/2024 -->
+
 You can adjust the Tracking Mode setting of a task when creating or editing a task to control how and when the Progress Status indicators of a task display. Adobe Workfront displays Progress Status flags when you configure certain settings for tracking progress on tasks.
 
-For more information about Progress Status of tasks, see [Task Progress Status overview](../../../manage-work/tasks/task-information/task-progress-status.md).
+For more information about the Progress Status of tasks, see [Task Progress Status overview](../../../manage-work/tasks/task-information/task-progress-status.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -46,7 +48,7 @@ When this option is selected, Workfront uses the task's Percent Complete and Act
 
 ### Assume On Time {#assume-on-time}
 
-Workfront assumes a task will be completed on time regardless of the current completion status. If it does not, then Workfront automatically assumes a Planned Completion Date of the next working day. You must still indicate when the task completes. Use this option when users will not be regularly updating their tasks.
+Workfront assumes a task will be completed on time regardless of the current completion status. If the task does not complete on time (on the Planned Completion Date), then Workfront automatically assumes a Planned Completion Date of the next working day. You must still indicate when the task completes. Use this option when users will not be regularly updating their tasks.
 
 ### Ignore Late Warnings {#ignore-late-warnings}
 
@@ -65,8 +67,8 @@ The following exceptions exist:
 >
 >Selecting to have tasks auto complete marks the task Complete when the project time is recalculated. If the Update Type of the project is set to Automatic or Automatic and On Change, the project timeline is calculated daily. For information about timeline recalculations on projects, see [Recalculate project timelines](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md). 
 >
->The time of the Actual Completion Date is midnight of the day when the timeline is automatically calculated. The time used to generate this time stamp is your system's Time&Zone as defined by your Workfront administrator in the Customer Info section of Setup. For information about setting your system's Time Zone, see [Configure basic information for your system](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+>The time of the Actual Completion Date is midnight of the day when the timeline is automatically calculated. The time used to generate this time stamp is your system's time zone as defined by your Workfront administrator in the Customer Info section of Setup. For information about setting your system's time zone, see [Configure basic information for your system](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 ### Predecessor {#predecessor}
 
-Workfront estimates the Projected Completion Date of a task according to its predecessor relationship. The Progress Status of a task is determined based on this estimation. For example, Task B has a Duration of 1 Day and is scheduled to complete two days after its predecessor, Task A, which should take five days. A user then updates Task B to 50% complete, but the predecessor, Task A, has not yet started. Workfront chedules the dependent Task B for completion six days after the start date of the predecessor task, allowing 5 days for Task A and 1 day for Task B.
+Workfront estimates the Projected Completion Date of a task according to its predecessor relationship. The Progress Status of a task is determined based on this estimation. For example, Task B has a Duration of 1 Day and is scheduled to complete two days after its predecessor, Task A, which should take five days. A user then updates Task B to 50% complete, but the predecessor, Task A, has not yet started. Workfront schedules the dependent Task B for completion six days after the start date of the predecessor task, allowing 5 days for Task A and 1 day for Task B.

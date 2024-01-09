@@ -40,7 +40,7 @@ This article describes how you can edit the settings for Maestro fields. For inf
 
 ## Considerations about editing field information
 
-* You can edit fields that you created or fields created by other users. <!--this will change with access levels/ permissions-->
+* You can edit fields that you created or fields created by other users. <!--this will change with access levels/ permissions - take out, it's in the table!-->
 * You can edit a field in the record type table. 
 * You cannot edit the Field type, after the field is saved.
 * You cannot deselect the Allow negative numbers setting that was previously selected, for a Number, Percentage, or Currency field if there are already negative values stored on the records it is attached to. 
@@ -88,7 +88,7 @@ You must have the following access to perform the steps in this article:
   </tr>
 <tr>
    <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -135,7 +135,7 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>
