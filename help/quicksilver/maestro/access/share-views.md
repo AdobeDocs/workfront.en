@@ -77,14 +77,14 @@ You can share views you created or views you have Manage permissions to.
 
 >[!NOTE]
 >
->System Administrators cannot view or share views they did not create themselves. 
+>System Administrators cannot view or share views they did not create themselves. They can only view or share views that are shared with them. 
 
 
-To share a workspace with others: 
+To share a view with others: 
 
 {{step1-to-maestro}}
 
-1. Open the workspace you want to share, then click a Record Type card. 
+1. Open the workspace whose view you want to share, then click a Record Type card. 
 
    This opens the record type page.
 
@@ -92,7 +92,7 @@ To share a workspace with others:
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
-1. In the **Grant workspace access to** field, start typing the name of a user or a group, then click it when it displays in the list. 
+1. In the **Grant view access to** field, start typing the name of a user or a group, then click it when it displays in the list. 
 
     ![](assets/sharing-a-view-ui-with-groups.png)
 
@@ -111,13 +111,13 @@ To share a workspace with others:
 
 {{step1-to-maestro}}
 
-1. Open the workspace you want to share, then click a Record Type card. 
+1. Open the workspace whose view you want to share, then click a Record Type card. 
 
    This opens the record type page.
 
 1. From the view drop-down menu, hover over the view you want to share and click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Share**. 
 
-1. Find the user or group that you want to remove, then click **Remove**. 
+1. Find the user or group that you want to remove, then click **Remove** in the permissions drop-down menu to the right of the user's or group's name. 
 
 1. Click **Save**.
 
