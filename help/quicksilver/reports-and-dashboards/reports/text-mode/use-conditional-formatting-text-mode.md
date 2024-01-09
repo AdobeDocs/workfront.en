@@ -254,7 +254,8 @@ A specific text mode statement must be applied when incorporating color or forma
 
 Insert the following code in any column where you want to add conditional formatting to:
 
-`styledef.case.0.comparison.leftmethod= [field name]
+```
+styledef.case.0.comparison.leftmethod= [field name]
 styledef.case.0.comparison.lefttext= [field name]
 styledef.case.0.comparison.righttext= [field value]
 styledef.case.0.comparison.operator= [qualifier]
@@ -262,8 +263,9 @@ styledef.case.0.comparison.operatortype= [data type]
 styledef.case.0.comparison.icon=false
 styledef.case.0.comparison.truetext= 
 styledef.case.0.comparison.trueproperty.0.name= [format option]
-styledef.case.0.comparison.trueproperty.0.value= [format style]`
+styledef.case.0.comparison.trueproperty.0.value= [format style]
 
+```
 >[!NOTE]
 >
 >The `styledef.case.0.comparison.icon` line is always false unless working with icons.
@@ -274,7 +276,8 @@ styledef.case.0.comparison.trueproperty.0.value= [format style]`
 
 For example, if we wanted to show the Company Name in green text on a project report, you can use the following code:
 
-`styledef.case.0.comparison.leftmethod=company:name
+```
+styledef.case.0.comparison.leftmethod=company:name
 styledef.case.0.comparison.lefttext=company:name ;
 styledef.case.0.comparison.righttext= 
 styledef.case.0.comparison.operator=notblank
@@ -282,8 +285,9 @@ styledef.case.0.comparison.operatortype=string
 styledef.case.0.comparison.icon=false
 styledef.case.0.comparison.truetext=
 styledef.case.0.comparison.trueproperty.0.name=textcolor
-styledef.case.0.comparison.trueproperty.0.value=03a219`
+styledef.case.0.comparison.trueproperty.0.value=03a219
 
+```
 
 >[!NOTE]
 >
@@ -298,9 +302,11 @@ Whether Text Color, Alignment, Font Style, or Background Color are applied to a 
 
 The following lines must be modified to reflect the corresponding formatting needed for the column:
 
-`styledef.case.0.comparison.trueproperty.0.name= [format option]
-styledef.case.0.comparison.trueproperty.0.value= [format style]`
+```
+styledef.case.0.comparison.trueproperty.0.name= [format option]
+styledef.case.0.comparison.trueproperty.0.value= [format style]
 
+```
 
 Use the following tables to identify which lines must be modified and what values you should specify to define the format style of your column:
 
@@ -351,7 +357,8 @@ You can apply more than one formatting style to a statement. The core statement 
 
 For example, using the earlier statement to include Company Name in green bolded text. The statement would be written using the following code:
 
-`styledef.case.0.comparison.leftmethod=company:name
+```
+styledef.case.0.comparison.leftmethod=company:name
 styledef.case.0.comparison.lefttext=company:name
 styledef.case.0.comparison.righttext=
 styledef.case.0.comparison.operator=notblank
@@ -361,8 +368,9 @@ styledef.case.0.comparison.truetext=
 styledef.case.0.comparison.trueproperty.0.name=textcolor
 styledef.case.0.comparison.trueproperty.0.value=03a219
 styledef.case.0.comparison.trueproperty.1.name=fontstyle
-styledef.case.0.comparison.trueproperty.1.value=bold`
+styledef.case.0.comparison.trueproperty.1.value=bold
 
+```
 
 >[!NOTE]
 >
@@ -374,7 +382,8 @@ If you want to replace the default values that populate in a column with a value
 
 For example, on a project report, set the Planned Start Date column value to not display the planned start date for the project, but rather the text 'Not Today.' Use the following code for the Planned Start Date column:
 
-`case.0.comparison.leftmethod=plannedStartDate
+```
+case.0.comparison.leftmethod=plannedStartDate
 case.0.comparison.lefttext=plannedStartDate
 case.0.comparison.righttext=2013-04-10T10:45:00:000
 case.0.comparison.operator=ne
@@ -387,8 +396,9 @@ styledef.case.0.comparison.righttext=2013-04-10T10:45:00:000
 styledef.case.0.comparison.operator=ne
 styledef.case.0.comparison.operatortype=date&
 styledef.case.0.comparison.icon=false
-styledef.case.0.comparison.truetext=not today`
+styledef.case.0.comparison.truetext=not today
 
+```
 
 >[!NOTE]
 >
@@ -403,7 +413,8 @@ styledef.case.0.comparison.truetext=not today`
 If you would like to apply a condition to the entire row, use the following code with your column code:
 
 
-`styledef.case.0.comparison.icon=false
+```
+styledef.case.0.comparison.icon=false
 styledef.case.0.comparison.isrowcase=true
 styledef.case.0.comparison.leftmethod= [field name]
 styledef.case.0.comparison.lefttext= [field name]
@@ -423,34 +434,39 @@ row.0.styledef.case.0.comparison.operatortype= [data type]
 row.0.styledef.case.0.comparison.righttext= [field value]
 row.0.styledef.case.0.comparison.trueproperty.0.name= [format option]
 row.0.styledef.case.0.comparison.trueproperty.0.value= [format style]
-row.0.styledef.case.0.comparison.truetext=`
+row.0.styledef.case.0.comparison.truetext=
 
+```
 
 
 #### Apply images {#apply-images}
 
 Similarly to formatting with text, images can be used to display information in reports. Workfront has a number of built-in images to convey visual information in a report setting. To use images in the conditional formatting setting the following statement is needed:
 
-`image.case.0.comparison.leftmethod= [field name]
+```
+image.case.0.comparison.leftmethod= [field name]
 image.case.0.comparison.lefttext= [field name]
 image.case.0.comparison.righttext= [field value]
 image.case.0.comparison.operator= [qualifier]
 image.case.0.comparison.operatortype= [data type]
 image.case.0.comparison.icon=true
-image.case.0.comparison.truetext=`
+image.case.0.comparison.truetext=
 
+```
 
 For example, on a project report, you want to build a column where you would show a frown face for every Planned Completion Date that does not equal to today's date. Use the following text mode code to add the icon to your column:
 
 
-`image.case.0.comparison.leftmethod=plannedCompletionDate
+```
+image.case.0.comparison.leftmethod=plannedCompletionDate
 image.case.0.comparison.lefttext=plannedCompletionDate
 image.case.0.comparison.righttext=2013-04-10T13:00:00:000 
 image.case.0.comparison.operator=ne 
 image.case.0.comparison.operatortype=date
 image.case.0.comparison.icon=true
-image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif`
+image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif
 
+```
 
 >[!NOTE]
 >
@@ -508,9 +524,11 @@ Consider the following when adding aggregators to a column in Text Mode:
 * You can add an aggregator to a column that displays a calculation. The aggregated value displays in the grouping of the view or report. For more information, see [Grouping: display the result of aggregating multiple calculated values in a grouping](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
 * The lines of code for the definition of the column must be identical to the lines of code introducing the aggregator and preceded by "aggregator." For example, if you have a column where you display Planned Hours on a project, the text mode of the main lines of the column is:
   
- ` valuefield=workRequired
-  valueformat=compound`
-  
+```
+  valuefield=workRequired
+  valueformat=compound
+
+```  
   
   When you want to aggregate the values of all the lines in the grouping of the view, we can add the following code to add the aggregator values: 
   
