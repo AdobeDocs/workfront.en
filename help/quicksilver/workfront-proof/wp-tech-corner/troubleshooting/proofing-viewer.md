@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
 title: Troubleshooting - [!DNL Workfront Proof] proofing viewer
-description: If your proof content is not loading and you can only see an empty proofing viewer, it's most likely because something is blocking this action locally. Try the possible solutions below.
+description: If your proof content is not loading and you can only see an empty proofing viewer, it's most likely because something is blocking this action locally.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ce463565-d21e-4dbc-8de8-78bcbf16fb2c
@@ -43,7 +43,7 @@ In your browser, go to [!UICONTROL Menu] and locate the [!UICONTROL About] optio
 
 For example, in Chrome:
 
-![Chrome browser version](assets/proofview-3-350x206.png)
+![Chrome browser version](assets/proofview-3.png)
 
 Once your have the latest browser version installed, try to re-open your proof and see if the issue is resolved.
 
@@ -82,7 +82,7 @@ The best practice is to remove all the unknown add-ons and keep only the ones th
 
 If there is any particular add-on interfering with loading the proofs you can try checking the details in the browser's console.
 
-![ProofView_4.png](assets/proofview-4-350x57.png)
+![Browser console](assets/proofview-4.png)
 
 In most of the newer browsers there are some additional Developers tools available and they can be used for more advanced troubleshooting.
 

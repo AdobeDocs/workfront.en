@@ -48,7 +48,7 @@ When this option is selected, Workfront uses the task's Percent Complete and Act
 
 ### Assume On Time {#assume-on-time}
 
-Workfront assumes a task will be completed on time regardless of the current completion status. If it does not, then Workfront automatically assumes a Planned Completion Date of the next working day. You must still indicate when the task completes. Use this option when users will not be regularly updating their tasks.
+Workfront assumes a task will be completed on time regardless of the current completion status. If the task does not complete on time (on the Planned Completion Date), then Workfront automatically assumes a Planned Completion Date of the next working day. You must still indicate when the task completes. Use this option when users will not be regularly updating their tasks.
 
 ### Ignore Late Warnings {#ignore-late-warnings}
 
