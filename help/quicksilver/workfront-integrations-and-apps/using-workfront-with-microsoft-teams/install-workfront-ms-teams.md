@@ -9,6 +9,8 @@ exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
 ---
 # Install [!DNL Adobe Workfront] for Microsoft Teams
 
+<!-- Audited: 1/2024 -->
+
 >[!IMPORTANT]
 >
 >The Adobe Workfront for Microsoft Teams integration is currently supported only for the classic Microsoft Teams experience.
