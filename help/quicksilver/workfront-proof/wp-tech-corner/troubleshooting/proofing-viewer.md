@@ -57,9 +57,9 @@ If there is some storage allocated, but you're working with the bigger proofs wi
 Please see [Problems With Viewing Proofs - [!DNL Flash] Shared Objects Explained](../../../workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md) for the detailed instructions.
 -->
 
-## Identify Where the Problem Is
+## Identify where the problem is
 
-* Are the proofs opening in a different browser? 
+* Are the proofs opening in a different browser?
 * If you're using one browser on a daily basis and you're having trouble with viewing the proofs there, try to open the same proof in a different browser on your computer. To do this, simply copy the proof link from the URL bar of your main browser and paste it into a different browser. If the proof opens there, review your main browser configuration, plugins, and extensions as these may be interfering.
 * We do not have any preferred browser, but if you're having any performance issues in your current browser, we would advise switching to a different one.
 * Are the proofs opening on a different machine in your location?
