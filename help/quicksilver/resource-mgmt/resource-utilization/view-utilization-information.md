@@ -40,40 +40,40 @@ You must have the following to access the Utilization report:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Pro or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td><p>New: Any</p>
+       <p>Or</p>
+       <p>Current: Pro or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>New: Standard</p>
+       <p>Or</p>
+       <p>Current: Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader">Access level configurations</td> 
    <td> <p>View or higher access to the following:</p> 
     <ul> 
      <li> <p>Resource Management </p> </li> 
      <li> <p>Projects</p> </li> 
      <li> <p>Portfolios</p> </li> 
      <li> <p>Programs</p> </li> 
-     <li> <p>Financial Data if you want to view information by Cost</p> </li> 
-    </ul> <p><b>NOTE</b>
-    
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+     <li> <p>Financial Data, if you want to view information by Cost</p> </li> 
+    </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View access to projects, portfolios, and programs to access the Utilization  section in the  Resourcing area</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-highloighted-350x145.png" style="width: 350;height: 145;"> </p> <p>Manage access to the project to access the Utilization  section of a project</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-on-project-highloighted-350x289.png" style="width: 350;height: 289;"> </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View access to projects, portfolios, and programs to access the Utilization  section in the  Resourcing area</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-highloighted-350x145.png" style="width: 350;height: 145;"> </p> <p>Manage access to a project to access the Utilization section of the project</p> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/nwe-utilization-section-on-project-highloighted-350x289.png" style="width: 350;height: 289;"> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">You must have View access to the projects you want to view utilization information for as described in this section. If you are still unable to access this information, contact your Workfront administrator. (NOTE:&nbsp;replaced with above table)</p>
 -->
-
-The following sections describe how to view and use utilization information.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -98,22 +98,17 @@ The following sections describe how to view and use utilization information.
 
 ## Overview of the Utilization report {#overview-of-the-utilization-report}
 
-Using the Utilization report you can view the progress, cost, or revenue of a project, program, or portfolio in a single report. You can also compare revenue against cost.
+The Utilization report allows you to view the progress, cost, or revenue of a project, program, or portfolio in a single report. You can also compare revenue against cost.
 
 You can view the Utilization report in the Resourcing area to display utilization across multiple projects, or you can view it at the level of one project, to display utilization for the individual resources (job roles and users) associated with that project.
 
 For information about accessing and using the Utilization report, see the [Track progress, cost, and revenue with the Utilization report](#track-progress-cost-and-revenue-with-the-utilization-report) section in this article.
 
-* [Track hours (progress)](#track-hours-progress) 
-* [Track cost](#track-cost) 
-* [Track revenue](#track-revenue) 
-* [Compare Revenue against Planned and Actual Costs](#compare-revenue-against-planned-and-actual-costs)
-
 ### Track hours (progress) {#track-hours-progress}
 
 You can track progress by viewing how the budgeted and planned hours compare to the actual hours.
 
-When tracking the progress of a project, program, or portfolio, progress against both tasks and issues are included in the Utilization report.
+When tracking the progress of a project, program, or portfolio, progress against both tasks and issues is included in the Utilization report.
 
 The following information is available in the Utilization report when tracking Hours: 
 
@@ -129,9 +124,10 @@ The following information is available in the Utilization report when tracking H
  <tbody> 
   <tr> 
    <td scope="col"><strong>Budgeted Hours</strong> </td> 
-   <td scope="col"> <p>The total budgeted hours on the included projects. You can view the total budgeted hours for the overall life of the included projects, or you can view total budgeted hours only for the specified date range (you can specify an individual week or month). </p> <p>Budgeted Hours are populated from information available in the new Resource Budgeting area of the Business Case or the Resource Planner<em>.</em></p> <p>Budgeted Hours appear on the Utilization report in any of the following rows:</p> 
+   <td scope="col"> <p>The total budgeted hours on the included projects. You can view the total budgeted hours for the overall life of the included projects, or you can view total budgeted hours only for the specified date range (you can specify an individual week or month). </p> <p>Budgeted Hours are populated from information available in the Resource Budgeting area of the Business Case or the Resource Planner<em>.</em></p> <p>Budgeted Hours appear on the Utilization report in any of the following rows:</p> 
     <ul> 
-     <li> Budgeted hours are summarized by job role and by individual user in the Utilization report, as follows:<br><strong>Individual User:</strong> Budgeted Hours are summarized for each user in the utilization report. These Budgeted Hours are associated with the tasks and issues that the user is assigned to on the included projects. (You can expand the row of the corresponding job role to view a list of users with that job role.)<br><strong>Job Role:</strong> Budgeted Hours are summarized by job role in the utilization report.<br>Budgeted Hours appear in a particular job role as a result of any of the following scenarios: 
+     <li> Budgeted hours are summarized by job role and by individual user in the Utilization report, as follows:<br><strong>Individual User:</strong> Budgeted Hours are summarized for each user in the utilization report. These Budgeted Hours are associated with the tasks and issues that the user is assigned to on the included projects. (You can expand the row of the corresponding job role to view a list of users with that job role.)<br><strong>Job Role:</strong> Budgeted Hours are summarized by job role in the utilization report.<br>Budgeted Hours appear in a particular job role as a result of any of the following scenarios:
+     <ul>
      <li>The job role is defined as the primary job role of the user who is assigned to the task or issue where the Budgeted Hours are associated. </li> 
        <li>When you view utilization information for a single project, the job role of the user assigned the hours is used whether there is no assignment on the task or issue, another user is assigned with no job role assignment, another user is assigned with a different job role, or another team is assigned.</li> 
        <li>When you view utilization information for several projects, programs, or portfolios, the job role of the user assigned the hours is used only when the role is assigned on a task or issue in a project. </li> 
@@ -200,7 +196,7 @@ Planned Hours appear on the Utilization report in any of the following rows:
 </li>  
 </ul>
  
-<li><strong>Unallocated Hours</strong>: Planned Hours are displayed in the utilization report in the Unallocated Hours section when Planned Hours are associated with a task or issue and there is no user or role assigned to the task or issue.This section appears only when there are hours on the project that match this description and when viewing the Utilization report for a single project. <br>For more information about planned hours, see <a href="../../manage-work/tasks/task-information/planned-hours.md">Planned Hours overview</a>.
+<li><strong>Unallocated Hours</strong>: Planned Hours are displayed in the utilization report in the Unallocated Hours section when Planned Hours are associated with a task or issue and there is no user or role assigned to the task or issue. This section appears only when there are hours on the project that match this description and when viewing the Utilization report for a single project. <br>For more information about planned hours, see <a href="../../manage-work/tasks/task-information/planned-hours.md">Planned Hours overview</a>.
 </li> 
 </ul>
 </li> 
@@ -208,15 +204,15 @@ Planned Hours appear on the Utilization report in any of the following rows:
   </tr> 
   <tr> 
    <td><strong>Actual Hours</strong> </td> 
-   <td> <p> The total hours logged on the tasks, issues, <span>and on the project</span> for the included projects. You can view the total actual hours for the overall life of the included projects, or you can view the total actual hours only for the specified date range (you can specify an individual week or month). </p> <p>Warning: The utilization report includes hours logged to the project, children tasks, issues, and parent tasks that have at least one assignment. It does not include hours logged to parent tasks without assignments. We recommend that you do not use parent tasks as working tasks and assign only children tasks to your resources. </p> <p>Actual Hours appear on the utilization report in any of the following rows:</p> 
+   <td> <p> The total hours logged on the tasks, issues, <span>and on the project</span> for the included projects. You can view the total actual hours for the overall life of the included projects, or you can view the total actual hours only for the specified date range (you can specify an individual week or month). </p> <p><strong>Warning:</strong> The utilization report includes hours logged to the project, children tasks, issues, and parent tasks that have at least one assignment. It does not include hours logged to parent tasks without assignments. We recommend that you do not use parent tasks as working tasks and assign only children tasks to your resources. </p> <p>Actual Hours appear on the utilization report in any of the following rows:</p> 
     <ul> 
      <li> Actual Hours are summarized by job role and by individual user in the utilization report of a project, as follows:<br><strong>Individual User:</strong> Actual Hours are displayed in the utilization report in the row of the user who logged the hours. (You can expand the row of the corresponding job role to view a list of users with that job role who have logged hours.)<br><strong>Job Role:</strong> Actual Hours logged by users associated with those roles are summarized in the utilization report in the row of the corresponding job role.<br>Actual Hours appear in a particular job role as a result of any of the following scenarios: 
       <ul> 
-       <li>The job role is defined as the primary job role of the user who logged the hours.</li> 
+       <li>The job role is defined as the primary job role of the user who logged the hours</li> 
        <li>There is no assignment on the task or issue</li> 
        <li>Another user is assigned with no job role assignment</li> 
        <li>Another user is assigned with a different job role</li> 
-       <li> <p>A team is assigned.</p> </li> 
+       <li> <p>A team is assigned</p> </li> 
       </ul></li>  
      <p>If the user logging the hours does not have a job role assocaited with their profile, the job role used for the Utilization report is the job role assigned to the task or issue where hours are logged or the job role associated with the Primary Owner of the task or issue. </p> 
      <li><strong>Other Hours:</strong> Actual Hours are displayed in the utilization report in the Other Hours section, in the row of the user who logged in the hours.<br>Hours appear in this section when the user who logged the hours does not have a job role defined in the system.<br>This section appears only when there are hours on the project that match this description. </li> 
