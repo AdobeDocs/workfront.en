@@ -277,6 +277,7 @@ See also [Notifications: Communication](../../../workfront-basics/using-notifica
   <tr> 
    <th>Object Type</th> 
    <th>Event</th> 
+   <th>Recipient</th> 
    <th>Description</th> 
    <th> Default state</th> 
   </tr> 
@@ -284,31 +285,36 @@ See also [Notifications: Communication](../../../workfront-basics/using-notifica
  <tbody> 
   <tr> 
    <td> <p>Document</p> </td> 
-   <td> <p>Comment on Document to Document Owner</p> </td> 
+   <td> <p>Comment on Document</p> </td> 
+   <td> <p>Document Owner</p> </td> 
    <td> <p>A comment is added on my document.</p> <p>The owner of a document in Workfront receives an email notification when a comment is posted on the document, unless the user who posted the comment is also the document owner.</p> <p>Any users who are directly included in the comment also receive an email notification.</p> <p>A notification is sent only if the project status is Current. </p> <p>The subject of the instant notification email is: <em>Comment on &lt;Request Name&gt; on &lt;Project Name&gt; (ref# &lt;Request Reference Number&gt;)</em></p> <p> The subject of the daily digest notification is:<em> Digest of Communication &lt;Date of daily digest&gt;</em></p> </td> 
    <td> <p>Active </p> </td> 
   </tr> 
   <tr> 
    <td> <p>Note</p> </td> 
-   <td> <p>Request Note Add to Issue Primary Contact</p> </td> 
+   <td> <p>Request Note Add</p> </td> 
+   <td> <p>Issue Primary Contact</p> </td> 
    <td> <p>When a comment is posted on a request, email the issue primary contact.</p> <p>The primary contact for an issue receives an email notification when a comment is posted on a request, unless the user who posted the comment is also the primary contact for the issue.</p> <p>Any users who are directly included on the comment also receive an email notification.</p> <p>A notification is sent only if the project status is Current.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>User</p> </td> 
-   <td>Directed Update to User</td> 
+   <td>Directed Update</td> 
+   <td>User</td> 
    <td> <p>Someone includes me on a directed update.</p> <p>A directed update is when a user specifically includes another user in an update, as described in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tag others on updates</a>.</p> <p>In this case, the user who is included in the directed update receives an email notification about the update.</p> <p>The email notification is sent only if the user has access rights to the object and if they keep it enabled in their profile.  </p> <p>This event notification is activated by default and cannot be deactivated.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Team</p> </td> 
-   <td> <p>Directed Update to Team</p> </td> 
+   <td> <p>Directed Update</p> </td> 
+   <td> <p>Team members</p> </td> 
    <td> <p>Someone includes my team on a directed update.</p> <p>A directed update is when a user specifically includes another user in an update, as described in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tag others on updates</a>.</p> <p>In this case, any member of the team that is included in the directed update receives an email notification about the update.</p> <p>The email notification is sent only to users who have access rights to the object of the update.</p> <p>If the user sending the directed update is a member of the team being included, the user sending the update does not receive an email notification.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Note</p> </td> 
-   <td> <p>Work Item Comment to Thread Participants</p> </td> 
+   <td> <p>Work Item Comment</p> </td> 
+   <td> <p>Thread Participants</p> </td> 
    <td> <p>Someone comments on a thread I'm in.</p> <p>Participants in the thread and users who are included in a direct message receive an email notification when a user makes a comment in the thread.</p> <p>Users must have View access to receive a notification.</p> <p>The following users do not receive a notification:</p> 
     <ul> 
      <li> <p>Teams that are included in a direct message</p> </li> 
@@ -319,13 +325,15 @@ See also [Notifications: Communication](../../../workfront-basics/using-notifica
   </tr> 
   <tr> 
    <td> <p>Note</p> </td> 
-   <td> <p>Work Item Comment to Work Item Assignee</p> </td> 
+   <td> <p>Work Item Comment</p> </td> 
+   <td> <p>Work Item Assignee</p> </td> 
    <td> <p>Someone comments on one of my work items.</p> <p>The assignee of the work item receives an email notification any time a user adds an update to a work item, unless the user who adds the update is also the assignee.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Note</p> </td> 
-   <td> <p>Work Request Reply To Work Requester</p> </td> 
+   <td> <p>Work Request Reply</p> </td> 
+   <td> <p> Work Requestor</p> </td> 
    <td> <p>Someone replies to my request.</p> <p>After a user submits a request and another user replies to that request, the user who submitted the request receives an email notification.</p> <p>An email notification is not sent if:</p> 
     <ul> 
      <li> <p>The user who replies is the same user who made the request</p> </li> 
@@ -353,6 +361,7 @@ See also [Notifications: Approval information](../../../workfront-basics/using-n
   <tr> 
    <th>Object Type</th> 
    <th>Event</th> 
+   <th>Recipient</th> 
    <th>Description</th> 
    <th> Default state</th> 
   </tr> 
@@ -360,37 +369,43 @@ See also [Notifications: Approval information](../../../workfront-basics/using-n
  <tbody> 
   <tr> 
    <td> <p>User</p> </td> 
-   <td> <p>Approval Delegation to Another User</p> </td> 
+   <td> <p>Approval Delegation</p> </td> 
+   <td> <p>User</p> </td> 
    <td> <p>I'm delegated as an approver.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
    <td> <p>Delegated Issue Approval Status Change</p> </td> 
+   <td> <p>User that delegated the approval</p> </td> 
    <td> <p>A delegated issue approval request is completed. </p> <p>When you delegate an issue approval to someone else, you receive an email notification when they finish that approval (whether they approve or reject the issue approval). </p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Project</p> </td> 
    <td> <p>Delegated Project Approval Status Change</p> </td> 
+   <td> <p>User that delegated the approval</p> </td> 
    <td> <p>A delegated project approval request is completed.</p> <p>When you delegate a project approval to someone else, you receive an email notification when they finish that approval (whether they approve or reject the project approval).</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Task</p> </td> 
    <td> <p>Delegated Task Approval Status Change</p> </td> 
+   <td> <p>User that delegated the approval</p> </td> 
    <td> <p>A delegated task approval status is completed.</p> <p>When you delegate a task approval to someone else, you receive an email notification when they finish that approval (whether they approve or reject the task approval).</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Document</p> </td> 
    <td> <p>Document Approval Cancel to Approver</p> </td> 
+   <td> <p>User that delegated the approval</p> </td> 
    <td> <p>A document approval request is canceled.</p> <p>The Document Approver of the document receives an email notification when the document approval request is canceled.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Timesheet</p> </td> 
-   <td> <p>Timesheet Approval to User</p> </td> 
+   <td> <p>Timesheet Approval</p> </td> 
+   <td> <p>User that timesheet belongs to</p> </td> 
    <td> <p>My timesheet is approved.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
@@ -410,6 +425,7 @@ See also [Notifications: Information about work assigned to me](../../../workfro
   <tr> 
    <th>Object Type</th> 
    <th>Event</th> 
+   <th>Recipient</th> 
    <th>Description</th> 
    <th> Default state</th> 
   </tr> 
@@ -417,73 +433,85 @@ See also [Notifications: Information about work assigned to me](../../../workfro
  <tbody> 
   <tr data-mc-conditions=""> 
    <td>Task</td> 
-   <td>All Predecessor Task Completion to Task Dependents on Assigned Team</td> 
+   <td>All Predecessor Task Completion</td> 
+   <td>Members of the team assigned to dependent tasks</td> 
    <td> <p>All predecessors of the team's tasks are completed.</p> <p>The task assignees (all members of the team) receive an email notification.</p> <p>Users with a Review license do not receive a notification.</p> </td> 
    <td>Inactive</td> 
   </tr> 
   <tr> 
    <td> <p>Task</p> </td> 
-   <td> <p>All Predecessor Task Completion to Task Dependents</p> </td> 
+   <td> <p>All Predecessor Task Completion</p> </td> 
+   <td> <p>User assigned to dependent tasks</p> </td> 
    <td> <p>All predecessors of my tasks are completed.</p> <p>The task assignee receives an email notification.</p> <p>Users with a Review license do not receive a notification.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
-   <td> <p>Approval decision to Issue assigned to</p> </td> 
+   <td> <p>Approval decision</p> </td> 
+   <td> <p>User that the issue is assigned to</p> </td> 
    <td> <p>An issue I resolve is approved or rejected.</p> <p>The assignee of an issue receives an email notification when an approval decision is made (approved or rejected).</p> <p>Users with a Review license do not receive a notification.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Task</p> </td> 
-   <td> <p>Approval decision to Task Assigned To</p> </td> 
+   <td> <p>Approval decision</p> </td> 
+   <td> <p>User that the task is assigned to</p> </td> 
    <td> <p>A task I complete is approved or rejected.</p> <p>The task assignee receives an email notification when the task is approved or rejected.</p> <p>A notification is sent only if the project status is Current.</p> <p>Users with a Review license do not receive a notification.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
-   <td> <p>Issue Completion to Issue Assigned To</p> </td> 
+   <td> <p>Issue Completion</p> </td> 
+   <td> <p>User that the issue is assigned to</p> </td> 
    <td> <p>An issue I'm assigned to is completed.</p> <p>A notification is sent only if the project status is Current or Planning.</p> <p>Users with a Review license do not receive a notification.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
    <td> <p>Issue Planned Completion Date changed</p> </td> 
+   <td> <p>User that the issue is assigned to</p> </td> 
    <td> <p>The due date changes on an issue I'm assigned to.</p> <p>The issue assignee receives an email notification when the Planned Completion Date changes, unless the user who changed the Planned Completion Date is also the assignee.</p> <p>A notification is sent only if the project status is anything other than Planning.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
-   <td> <p>Issue Status Change to Issue Assigned To</p> </td> 
+   <td> <p>Issue Status Change</p> </td> 
+   <td> <p>User that the issue is assigned to</p> </td> 
    <td> <p>The status changes on one of my work items.</p> <p>The assignee of the issue receives an email notification when the status changes, unless the user who changed the status is also the assignee.</p> <p>A notification is sent only if the project status is Current.</p> <p>Users with a Review license do not receive a notification.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Document</p> </td> 
-   <td> <p>Request Document Add to Issue Assigned To</p> </td> 
+   <td> <p>Request Document Add</p> </td> 
+   <td> <p>User that the issue is assigned to</p> </td> 
    <td> <p>Documents are uploaded or changed on requests I'm assigned to.</p> <p>The issue assignee receives an email notification when documents are uploaded or changed on an issue they added.</p> <p>An email notification is not sent if the user who entered the issue is the issue assignee.</p> <p>A notification is sent only if the project status is Current and if the project has the "Publish as Help Request Queue" enabled on the Queue Setup tab.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Task</p> </td> 
-   <td> <p>Task Completion to Task Assigned To</p> </td> 
+   <td> <p>Task Completion</p> </td> 
+   <td> <p>User that the task is assigned to</p> </td> 
    <td> <p>A task I'm assigned to is completed.</p> <p>The Task Assignee receives an email notification when the task is completed. Notifications are not sent when a personal task is completed.</p> <p>A notification is sent only if the project status is Current.</p> <p>Users with a Review or Requestor license do not receive a notification.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Task</p> </td> 
-   <td> <p>Task Completion to Task Dependents</p> </td> 
+   <td> <p>Task Completion</p> </td> 
+   <td> <p>User assigned to dependent task</p> </td> 
    <td> <p>A predecessor of one of my tasks is completed.</p> <p>The task assignee receives an email notification when one of their task's predecessors has been completed.</p> <p>Users with a Review license do not receive a notification.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Task</p> </td> 
    <td> <p>Task Planned Completion Date Changed</p> </td> 
+   <td> <p>User that the task is assigned to</p> </td> 
    <td> <p>The due date changes on a task I'm assigned to.</p> <p>The Task Assignee receives an email notification when the Planned Completion Date of the task changes, unless the user who changed the Planned Completion Date is also the Task Assignee.</p> <p>A notification is sent only if the project status is anything other than Planning.</p> <p>No notification is sent regarding personal tasks.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Task</p> </td> 
-   <td> <p>Task Status Change to Task Assigned To</p> </td> 
+   <td> <p>Task Status Change</p> </td> 
+   <td> <p>User that the task is assigned to</p> </td> 
    <td> <p>The status changes on a task I'm assigned to.</p> <p>The Task Assignee receives an email notification when the status of the task changes, unless the user who changed the status is also the assignee.</p> <p>A notification is sent only if the project status is Current.</p> <p>Users with a Review license do not receive a notification. </p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
