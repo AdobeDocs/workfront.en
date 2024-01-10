@@ -11,6 +11,16 @@ This page describes all integration enhancements made with the First Quarter 202
 
 For a list of all changes available at this point in the First Quarter 2024 release cycle, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
+## Mapping metadata in Experience Manager Assets Essentials now uses `xcm:keywords` instead of `dc:subject`
+
+We've updated the Experience Manager Assets Essentials integration to match the experience in the Experience Manager Assets as a Cloud Service integration. Now, when mapping multiple single-line text fields to a single field in Experience Manager Assets, both services use the `xcm:keywords` field.
+
+Previously, these fields would be mapped to the `dc:subject` field in Experience Manager Assets Essentials. The Experience Manager Assets as a Cloud Service functionality is unchanged.
+
+Any Experience Manager Assets Essentials metadata currently mapped to `dc:subject` must be remapped to `xcm:keywords`.
+
+For information on mapping metadata to Experience Manager Assets Essentials, see [AEM Keyword](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md#aem-keyword).
+
 ## Typeahead fields now available in Adobe Experience Manager Integration
 
 To make it easier to link fields between Workfront and Adobe Experience Manager, we've added support for typeahead fields in the metadata mapping. Now, you can map typeahead fields to corresponding fields in Adobe Experience Manager.
