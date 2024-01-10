@@ -641,7 +641,7 @@ feature-set: Workfront
       * [Emails](administration-and-setup/manage-workfront/emails/emails.md)
       * [Email Notifications](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
       * [Configure event notifications](administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
-      * [Available event notification](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
+      * [Available event notificationa](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
       * [Unlock event notifications for all groups](administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
       * [Event notification subject lines](administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
       * [Modify users' email notification settings](administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
