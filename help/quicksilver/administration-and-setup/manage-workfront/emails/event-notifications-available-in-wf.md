@@ -3,13 +3,15 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: Event notifications available in Adobe Workfront
-description: Event notifications are emails triggered by various types of events on objects such as projects, tasks, and issues, as explained in Event notifications.
-author: Lisa, Caroline
+description: Event notifications are emails triggered by various types of events on objects such as projects, tasks, and issues. This article lists and describes the available types of event notifications.
+author: Lisa, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
 ---
 # Event notifications available in Adobe Workfront
+
+<!-- Audited: 1/2024 -->
 
 Event notifications are emails triggered by various types of events on objects such as projects, tasks, and issues, as explained in [Event notifications](../../../workfront-basics/using-notifications/event-notifications.md).
 
@@ -31,10 +33,12 @@ See also [Notifications: Action needed](../../../workfront-basics/using-notifica
  <col> 
  <col> 
  <col> 
+ <col> 
  <thead> 
   <tr> 
    <th>Object Type</th> 
    <th>Event</th> 
+   <th>Recipient</th> 
    <th>Description</th> 
    <th>Default state</th> 
   </tr> 
@@ -42,97 +46,113 @@ See also [Notifications: Action needed](../../../workfront-basics/using-notifica
  <tbody> 
   <tr> 
    <td> <p>User</p> </td> 
-   <td> <p>Access Request to User</p> </td> 
+   <td> <p>Access Request</p> </td> 
+   <td> <p>User</p> </td> 
    <td> <p>Someone requests access from me.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Document</p> <p> </p> </td> 
-   <td> <p>Document Request Add to Requestee</p> </td> 
-   <td> <p>Request me to upload document(s).</p> <p>The Document Requestee receives an email notification when they get a request to upload a document.</p> </td> 
+   <td> <p>Document Request Add</p> </td> 
+   <td> <p>User that document is requested from</p> </td> 
+   <td> <p>Someone requested that I upload document(s).</p> <p>The Document Requestee receives an email notification when they get a request to upload a document.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Document</p> </td> 
-   <td> <p>Document pending approval to approvers</p> </td> 
+   <td> <p>Document pending approval</p> </td> 
+   <td> <p>Approvers</p> </td> 
    <td> <p>I need to approve a document.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
-   <td> <p>Issue Assignment to Issue Assigned To</p> </td> 
+   <td> <p>Issue Assignment</p> </td> 
+   <td> <p>User that issue is assigned to</p> </td> 
    <td> <p>I'm assigned to an issue.</p> <p>The issue assignee receives an email notification only if the status of the project is Current and the status of the issue is not Closed or something that equates with Closed.</p> <p>Users with a Review or Request license do not receive a notification.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
-   <td> <p>Issue Pending Approval to Approvers</p> </td> 
+   <td> <p>Issue Pending Approval</p> </td> 
+   <td> <p>Approvers</p> </td> 
    <td> <p>I need to approve an issue.</p> <p>Which users receive an email notification for this event depends on whether the "Approver not required to be on the project team (for approval processes that include a role)" setting is enabled (as described in <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configure global approval settings</a>). </p> <p>If this option is enabled</strong>, an email notification is sent to all users in the system with the "Approver" Job Role.</p> <p>If this option is disabled</strong>, only project team members with the "Approver" Job Role receive an email notification.</p> <p>A notification is sent if the project is in the Planning or Current status. </p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
-   <td> <p>Issue Pending Approval to Delegated Approver</p> </td> 
+   <td> <p>Issue Pending Approval</p> </td> 
+   <td> <p>Delegated Approver</p> </td> 
    <td> <p>I need to review an issue approval I"ve been delegated.</p> <p>When someone delegates an issue approval to another user, that user is notified. </p> <p>A notification is sent only when the project is in the Current status.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Project</p> </td> 
-   <td> <p>Project Pending Approval to Approvers</p> </td> 
+   <td> <p>Project Pending Approval</p> </td> 
+   <td> <p>Approvers</p> </td> 
    <td> <p>I need to approve a project.</p> <p>Which users receive an email notification for this event depends on whether the "Approver not required to be on the project team (for approval processes that include a job role)" setting is enabled (as described in <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configure global approval settings</a>).</p> <p>If this option is enabled</strong>, an email notification is sent to all users in the system with the "Approver" Job Role.</p> <p>If this option is disabled</strong>, only project team members with the "Approver" Job Role receive an email notification.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td>Project</td> 
-   <td>Project Pending Approval to Delegated Approver</td> 
+   <td>Project Pending Approval</td> 
+   <td>Delegated Approver</td> 
    <td> <p>I need to review a project approval I've been delegated.</p> </td> 
    <td> Active</td> 
   </tr> 
   <tr> 
    <td> <p>Task</p> </td> 
-   <td> <p>Task Assignment to Task Assigned To</p> </td> 
+   <td> <p>Task Assignment</p> </td> 
+   <td> <p>User that task is assigned to</p> </td> 
    <td> <p>I'm set as the primary assignee of a task.</p> <p>The Task Assignee receives an email notification if they are made the primary assignee of the task, unless the assignee is the user who made the assignment.</p> <p>A notification is sent if the project status is Current and the task is not marked Complete.</p> <p>Users with a Review license do not receive a notification.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Task</p> </td> 
-   <td> <p>Task Pending Approval to Approvers</p> </td> 
+   <td> <p>Task Pending Approval</p> </td> 
+   <td> <p>Approvers</p> </td> 
    <td> <p>I need to approve a task.</p> <p>Which users receive an email notification for this event depends on whether the "Approver not required to be on the project team (for approval processes that include a role)" setting is enabled (as described in <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/establish-approval-settings.md" class="MCXref xref">Configure global approval settings</a>). </p> <p>If this option is enabled</strong>, an email notification is sent to all users in the system with the "Approver" Job Role.</p> <p>If this option is disabled</strong>, only project team members with the "Approver" Job Role receive an email notification.</p> <p>A notification is sent only if the project status is Current at the time of the request.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Task</p> </td> 
-   <td> <p>Task Pending Approval to Delegated Approver</p> </td> 
+   <td> <p>Task Pending Approval</p> </td> 
+   <td> <p>Delegated Approver</p> </td> 
    <td> <p>I need to review a task approval I've been delegated.</p> <p>When someone delegates an issue approval to another user, that user is notified. </p> <p>A notification is sent only if the project status is Current at the time of the request.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Timesheet</p> </td> 
-   <td> <p>Timesheet Re-opened to User</p> </td> 
+   <td> <p>Timesheet Re-opened</p> </td> 
+   <td> <p>User that timesheet belongs to</p> </td> 
    <td> <p>My timesheet is re-opened.</p> <p>The Timesheet Owner receives an email notification when the timesheet is re-opened, unless the user who re-opened the timesheet is also the owner of the timesheet.</p> <p>An email notification is sent only if the timesheet status is Open.</p> <p>Users with a Review license do not receive a notification.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Timesheet</p> </td> 
-   <td> <p>Timesheet Rejection to User</p> </td> 
+   <td> <p>Timesheet Rejection</p> </td> 
+   <td> <p>User that timesheet belongs to</p> </td> 
    <td> <p>My timesheet is rejected.</p> <p>The Timesheet Owner receives an email notification when the timesheet is rejected, unless the user who rejected the timesheet is also the owner.</p> <p>An email notification is sent only if the timesheet status is Rejected.</p> <p>Users with a Review license do not receive a notification.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Timesheet</p> </td> 
-   <td> <p>Timesheet Submission to Approver</p> </td> 
+   <td> <p>Timesheet Submission</p> </td> 
+   <td> <p>Approver</p> </td> 
    <td> <p>I need to approve a timesheet.</p> <p>The Timesheet Approver receives an email notification when a timesheet that they need to approve is submitted, unless the user who submitted the timesheet is also the Timesheet Approver.</p> <p>A notification is sent only if the status of the timesheet is Submitted.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Assignment</p> </td> 
-   <td> <p>Work Item Request to Team</p> </td> 
+   <td> <p>Work Item Request</p> </td> 
+   <td> <p>Members of the team that the item is requested for</p> </td> 
    <td> <p>My team gets a new work request.</p> <p>Team Members receive an email notification when the team receives a new work request. (The user who submitted the request does not receive a notification if they are a member of the team.)</p> <p>A notification is sent only if the project status is Current at the time the Work Request is made and the Work Request status is New.</p> <p>Users with a Review license do not receive a notification.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Assignment</p> </td> 
-   <td> <p>Work Item Request to Work Item Assignee</p> </td> 
+   <td> <p>Work Item Request</p> </td> 
+   <td> <p>User that work item is requested for</p> </td> 
    <td> <p>I get a new work request.</p> <p>The assignee of the work item receives an email notification, unless the user making the request is also the assignee. </p> <p>A notification is not sent if the task status is Complete or the issue status is Closed.</p> <p>A notification is sent only if the project status is Current at the time of the request.</p> <p>Users with a Review license do not receive a notification.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
@@ -148,10 +168,12 @@ See also [Notifications: Requests I have made](../../../workfront-basics/using-n
  <col> 
  <col> 
  <col> 
+ <col> 
  <thead> 
   <tr> 
    <th>Object Type</th> 
    <th>Event</th> 
+   <th>Recipient</th> 
    <th>Description</th> 
    <th> Default state</th> 
   </tr> 
@@ -159,67 +181,78 @@ See also [Notifications: Requests I have made](../../../workfront-basics/using-n
  <tbody> 
   <tr> 
    <td> <p>Document</p> </td> 
-   <td> <p>Document Approval Status Change to Requestor</p> </td> 
+   <td> <p>Document Approval Status Change</p> </td> 
+   <td> <p>Requestor</p> </td> 
    <td> <p>A document approval request is completed.</p> <p>The Document Requestor receives an email notification when the document approval request is completed.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Document</p> </td> 
-   <td> <p>Document Request Complete to Requestor</p> </td> 
+   <td> <p>Document Request Complete</p> </td> 
+   <td> <p>Requestor</p> </td> 
    <td> <p>A document upload request is fulfilled.</p> <p>The Document Requestor receives an email notification when a request to upload a document is fulfilled.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
-   <td> <p>Issue Add to Issue Primary Contact</p> </td> 
+   <td> <p>Issue Add</p> </td> 
+   <td> <p>Issue Primary Contact</p> </td> 
    <td> <p>I add an issue to a project.</p> <p>The primary contact on an issue receives a notification when they add an issue in a project.</p> <p>A notification is sent only if the project status is Current or Planning.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td>Issue</td> 
-   <td>Issue Assignment to Issue Primary Contact</td> 
+   <td>Issue Assignment</td> 
+   <td>Issue Primary Contact</td> 
    <td> <p>Someone is assigned to an issue for which I'm the primary contact.</p> <p>The primary contact on an issue receives a notification when the issue is assigned to a user. </p> <p>A notification is sent only if the project status is Current or Planning.</p> </td> 
    <td> Inactive</td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
-   <td> <p>Issue Completion to Issue Primary Contact</p> </td> 
+   <td> <p>Issue Completion</p> </td> 
+   <td> <p>Issue Primary Contact</p> </td> 
    <td> <p>An issue for which I'm the primary contact is completed.</p> <p>A notification is sent only if the project status is Current or Planning.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Project</p> </td> 
-   <td> <p>Project Status Change to Entered By</p> </td> 
+   <td> <p>Project Status Change</p> </td> 
+   <td> <p>User that created project (Entered By)</p> </td> 
    <td> <p>The status changes on a project I created.</p> <p>The user who created the project receives an email notification when the project status changes.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
-   <td> <p>Request Add to Issue Primary Contact</p> </td> 
+   <td> <p>Request Add</p> </td> 
+   <td> <p>Issue Primary Contact</p> </td> 
    <td> <p>I submit a request (confirmation).</p> <p>The Primary Contact on the issue receives an email notification when they submit an issue.</p> <p>A notification is sent only if the project status is Current and if the project is using a "Is Help Desk" View.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
-   <td> <p>Request Assignment to Issue Primary Contact</p> </td> 
+   <td> <p>Request Assignment</p> </td> 
+   <td> <p>Issue Primary Contact</p> </td> 
    <td> <p>Someone is assigned to my request.</p> <p>The primary contact of the issue receives an email notification when a user is assigned to the issue, unless the primary contact and the assigned user are the same user.</p> <p>A notification is sent only if the project status is Current and if the project is using a "Is Help Desk" View.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
-   <td> <p>Request Closed to Issue Primary Contact</p> </td> 
+   <td> <p>Request Closed</p> </td> 
+   <td> <p>Issue Primary Contact</p> </td> 
    <td> <p>My request is closed (confirmation).</p> <p>The issue's primary contact receives an email notification when the request is closed.</p> <p>A notification is sent only if the project status is Current and if the project is using a "Is Help Desk" View.</p> <p>If the notifications for "issue completion" are enabled, they will always trigger instead of the "Request closed to Issue Primary Contact." If you want this notification to trigger, you must deactivate the "issue completion" notifications.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Document</p> </td> 
-   <td> <p>Request Document Add to Issue Primary Contact</p> </td> 
+   <td> <p>Request Document Add</p> </td> 
+   <td> <p>Issue Primary Contact</p> </td> 
    <td> <p>A document is changed or uploaded on an issue for which I am the primary contact.</p> <p>The issue's primary contact receives an email notification when a document is uploaded or changed on the issue, unless the user who uploaded or changed the document is also the primary contact.</p> <p>A notification is sent only if the project status is Current and if the project has the "Publish as Help Request Queue" enabled on the Queue Setup tab.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
-   <td> <p>Request Status Change to Issue Primary Contact</p> </td> 
+   <td> <p>Request Status Change</p> </td> 
+   <td> <p>Issue Primary Contact</p> </td> 
    <td> <p>The status changes on my request.</p> <p>The primary contact of the issue receives an email notification when the issue status changes, unless the user who changed the status is also the primary contact.</p> <p>A notification is sent only if the project status is Current and the project is using a "Is Help Desk" View.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
