@@ -96,6 +96,10 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
     </tbody> 
    </table>
 
+>[!IMPORTANT]
+>
+>If you set a default filter or grouping for a specific widget using a layout template, it may not take effect immediately due to existing user preferences. To apply the new filter or grouping immediately, either you or the user may need to reset their user preferences by appending "/resetUser" to the end of their URL.
+
 1. Continue customizing the layout template.
 
    Or
