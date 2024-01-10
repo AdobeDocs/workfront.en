@@ -4,16 +4,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: You can create or edit new custom form.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
 ---
 # Create or edit a custom form with the legacy form builder
 
+<!--Audited: 01/2024-->
+
 You can create or edit new custom form. Both tasks are explained in this article.
 
 For information about creating a new custom form from an existing one, see [Copy a custom form to create a new one with the legacy form builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
+
+This article describes how you can create a custom form using the legacy form builder. For information about creating a custom form using the form designer see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Access requirements
 
@@ -29,39 +33,43 @@ You must have the following to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td>Plan</td> 
+   <td><p>New: Standard</p>
+   <p>Current: Plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Administrative access to custom forms</p> <p>For information about how Workfront administrators grants this access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
+   <td> <p>Administrative access to custom forms</p> <p>For information about how Workfront administrators grant this access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator. For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
 
 ## Start creating a custom form
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{#step-1-to-setup}}
 
 1. Click **Custom Forms** in the left panel.
 
-   In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it.
+   Custom forms display in a list. You can review all custom forms and custom fields that have been created for your organization. You can also see who created each form, the objects associated with it, and whether it is active.
 
 1. Click **New Custom Form.**
 1. Select at least one object type that you want to associate with the custom form, then click **Continue**.
 
    ![](assets/choose-object-type.jpg)
 
-1. On the **Form Settings** tab that opens, type a **Form Title** and an optional **Description** for the custom form.
+1. On the **Form settings** tab that opens, type a **Form Title** and an optional **Description** for the custom form.
 
-1. (Optional) If you want to add more object types to the form so that it can be attached to more objects, click the plus sign after Object Types, then select the object type you want in the menu that displays.
+1. (Optional) If you want to add more object types to the form so that it can be attached to more objects, click the **plus** sign after **Object Types**, then select the object type you want in the menu that displays.
 
-   You can repeat this to add as many object types as you want.You can also click the X on an object type to delete it from the form.
+   You can repeat this to add as many object types as you want.
+
+1. (Optional) Click the **X** on an object type to delete it from the form.
 
    For information about deleting object types from a custom form you have already saved, see [Delete object types on a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
 
-1. Click **Done**.
+1. Click **Done** in the lower-left corner of the screen.
 
    >[!TIP]
    >
@@ -90,11 +98,11 @@ You can edit a custom form any time after it has been created.
 >
 >In general, we recommend minimizing the number of times you edit a custom form that is already in use. There is no notification system to alert people who use the custom form about your changes.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{#step-1-to-setup}}
 
 1. Click **Custom Forms** in the left panel.
 
-   In the view that appears, you can review all custom forms that have been created for your organization. You can also see who created each form, which object type it works with, and whether it is active.
+   Custom forms display in a list. You can review all custom forms and custom fields that have been created for your organization. You can also see who created each form, the objects associated with it, and whether it is active.
 
 1. Select the custom form you want to edit, then click **Edit**.
 1. (Optional) To change the title and description of the custom form, click the **Form Settings** tab, then type a **Form Title** and **Description**.
