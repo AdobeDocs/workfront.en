@@ -113,6 +113,7 @@ This section contains the following articles:
 * [[!DNL Microsoft Word Template] modules](../../workfront-fusion/apps-and-their-modules/microsoft-word-templates-modules.md) 
 * [[!UICONTROL MIME] modules](../../workfront-fusion/apps-and-their-modules/mime.md) 
 * [[!DNL NetSuite] modules](../../workfront-fusion/apps-and-their-modules/netsuite.md) 
+* [[!DNL OpenAI(ChatGPT & DALL-E)] modules](../../workfront-fusion/apps-and-their-modules/openai-chatgpt-modules.md) 
 * [[!DNL Qualtrics] modules](../../workfront-fusion/apps-and-their-modules/qualtrics-modules.md) 
 * [[!DNL Quickbase] modules](../../workfront-fusion/apps-and-their-modules/quickbase-modules.md) 
 * [[!DNL Salesforce] modules](../../workfront-fusion/apps-and-their-modules/salesforce-modules.md) 

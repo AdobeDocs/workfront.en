@@ -4,15 +4,19 @@ content-type: overview
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
 title: Blueprints overview
-description: Blueprints provide basic building blocks to help you create a work management system that grows with you.
-author: Lisa
+description: Blueprints are sets of Workfront objects that address common use cases in Workfront. You can download and install a blueprint, and then configure the objects for your specific use case. 
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
 ---
 # Blueprints overview
 
+<!--Audited: 01/2024-->
+
 Blueprints are sets of Workfront objects that address common use cases in Workfront. You can download and install a blueprint, and then configure the objects for your specific use case. 
+
+![](assets/blueprints-main-page-catalog.png)
 
 >[!INFO]
 >
@@ -26,7 +30,7 @@ Blueprints are sets of Workfront objects that address common use cases in Workfr
 >
 >   This blueprint contains a template to organize new employee onboarding activities. Using this template allows IT teams to operate efficiently, leading to a positive new employee experience and faster track to productivity.
 >
->* **Inherited Instance Basics Checklist**
+>* **Inherited Instance Basics | Checklist**
 >
 >    This blueprint contains a project template (or checklist) that you can review with a short list of questions, resources, and links for a clear understanding of how your Workfront instance has been configured. Use this when you recently inherited a Workfront instance and need guidance on where to start.
 >
@@ -37,9 +41,9 @@ Blueprints provide basic building blocks to help you create a work management sy
 
 Each blueprint is targeted to a department and specific maturity level to help you implement proven best practices in your system faster. The maturity levels detailed below are indicated in the blueprint catalog card and details.
 
-**[!UICONTROL Managed]:** Managed project templates help support the adoption of a new business process before activities and deliverables are fully accepted as a standard procedure. They contain tasks to ensure each step of the new process is being followed.
+* **[!UICONTROL Managed]:** Managed project templates help support the adoption of a new business process before activities and deliverables are fully accepted as a standard procedure. They contain tasks to ensure each step of the new process is being followed.
 
-**[!UICONTROL Integrated]:** Integrated project templates assume that business functions are supported through a standard operating procedure. Contributors to the process know the steps and tasks they need to complete to follow the process. The project templates to support this process contain fewer tasks to track only milestones and other key deliverables necessary for reporting purposes.
+* **[!UICONTROL Integrated]:** Integrated project templates assume that business functions are supported through a standard operating procedure. Contributors to the process know the steps and tasks they need to complete to follow the process. The project templates to support this process contain fewer tasks to track only milestones and other key deliverables necessary for reporting purposes.
 
 ## Find the right blueprint
 
@@ -51,9 +55,9 @@ The blueprint type shows what's included in the blueprint. The type is listed on
 
 The following types of blueprints are available:
 
-* Project templates: Includes standard objects associated with a project template (tasks, issues, roles, and teams), and some preferences related to those objects. For more information, see [Configure a blueprint](../../administration-and-setup/blueprints/configure-template-package.md).
-* Organizational structures: Includes objects associated with the structure of an organization (companies, groups, roles, and teams). For more information, see [Configure a blueprint](../../administration-and-setup/blueprints/configure-template-package.md).
-* Dashboards: Includes one or more dashboards for a specific use case, such as implementation services.
+* **Project templates**: Includes standard objects associated with a project template (tasks, issues, roles, and teams), and some preferences related to those objects. For more information, see [Configure a blueprint](../../administration-and-setup/blueprints/configure-template-package.md).
+* **Organizational structures**: Includes objects associated with the structure of an organization (companies, groups, roles, and teams). For more information, see [Configure a blueprint](../../administration-and-setup/blueprints/configure-template-package.md).
+* **Dashboards**: Includes one or more dashboards for a specific use case, such as implementation services.
 <!--
 * Request queues: Includes one or more projects configured as request queues.
 * Custom forms: Includes custom forms attached to another object type, such as a project or portfolio.
@@ -64,7 +68,7 @@ To review the current blueprints, see [List of available blueprints](/help/quick
 
 ### View details
 
-Each blueprint contains a details page. From this page, you can:
+Each blueprint contains a Details page. From this page, you can:
 
 * View a summary of the workflow content
 * Read a brief summary of the blueprint
@@ -76,7 +80,7 @@ Each blueprint contains a details page. From this page, you can:
 
 ## Install a blueprint
 
-The system administrator can install directly in the production environment or in sandbox environments. To learn more, see [Install a blueprint](../../administration-and-setup/blueprints/blueprints-install.md) or [Configure a blueprint](../../administration-and-setup/blueprints/configure-template-package.md).
+A Workfront administrator can install a blueprint directly in any environments (Production, Preview, or Sandbox environments). To learn more, see [Install a blueprint](../../administration-and-setup/blueprints/blueprints-install.md) or [Configure a blueprint](../../administration-and-setup/blueprints/configure-template-package.md).
 
 After installation, you might be unsure about the best next actions to take. For information, see [Actions to take after installing a blueprint](../../administration-and-setup/blueprints/best-next-actions-after-install.md).
 

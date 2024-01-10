@@ -20,7 +20,7 @@ exl-id: f9c782b7-23dc-4fde-83e1-b7ef71a3b741
 
 This section contains the following subsections:
 
-* [Getting started with [!DNL Workfront Proof]](../workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md) 
+* [Getting started with [!DNL Workfront Proof]: article index](../workfront-proof/wp-getstarted/getting-started-with-workfront-proof.md) 
 * [Work with proofs and files in [!DNL Workfront Proof]](../workfront-proof/wp-work-proofsfiles/wp-work-proofs-files.md) 
 * [[!DNL Workfront Proof] account administration](../workfront-proof/wp-acct-admin/wp-account-admin.md) 
 * [[!DNL Workfront Proof] Billing Settings](../workfront-proof/wp-billingsettings/wp-billing-settings.md) 

@@ -139,6 +139,7 @@ feature-set: Workfront
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Workfront Fusion release activity: Week of November 27, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-30.md)
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+       [Workfront Fusion release activity: Week of January 1, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-1-4.md)
       * [Workfront Fusion release activity: Week of November 13, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-14.md)
       * [Workfront Fusion release activity: Week of October 30, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-10-26.md)
       * [Workfront Fusion release activity: Week of September 1, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-9-1.md)
@@ -474,7 +475,7 @@ feature-set: Workfront
       * [Access to objects and areas by new licenses](administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
       * [Functionality available for each object type for new access levels](administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
       * [Disable the auto-upgrade option for non-paid users on the new licensing plan](administration-and-setup/add-users/how-access-levels-work/disable-auto-upgrade.md)
-      * [Access levels Requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
+      * [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
     * How access levels work {#legacy-access-levels}
       * [How access levels work](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md)
       * [Access overview](administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
@@ -545,7 +546,7 @@ feature-set: Workfront
       * [Copy a layout template](administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)
       * [Delete the Classic layout templates using an API call](administration-and-setup/customize-workfront/use-layout-templates/delete-classic-layout-templates.md)
     * Custom forms {#custom-forms}
-      * [Custom forms](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
+      * [Custom forms: article index](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
       * [Custom forms overview](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
       * Legacy custom form builder {#custom-form-builder}
         * Use the custom form builder {#use-the-custom-form-builder}
@@ -1259,7 +1260,7 @@ feature-set: Workfront
       * [Calculation example - Calculate EAC as a roll up from tasks](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-by-rolling-up-from-tasks-example.md)
       * [Calculation example - calculate EAC at the Project Level](manage-work/projects/tips-tricks-and-troubleshooting/calculate-eac-at-project-level-example.md)
   * Tasks {#tasks}
-    * [Tasks](manage-work/tasks/tasks-overview.md)
+    * [Tasks: article index](manage-work/tasks/tasks-overview.md)
     * Task information {#task-information}
       * [Task information](manage-work/tasks/task-information/task-information.md)
       * [Tasks overview](manage-work/tasks/task-information/tasks-overview.md)
@@ -1473,7 +1474,7 @@ feature-set: Workfront
     * [Tips, Tricks, and Troubleshooting for Teams and Groups](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
     * [Username Already in Use](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * Reporting {#reporting}
-  * [Reporting](reports-and-dashboards/reports-and-dashboards-overview.md)
+  * [Reports and Dashboards: article index](reports-and-dashboards/reports-and-dashboards-overview.md)
   * Reporting Canvas {#reporting-canvas}
     * [Reporting Canvas](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
     * Manage reports {#manage-reports}
@@ -1506,7 +1507,7 @@ feature-set: Workfront
     * Reporting elements {#report-elements}
       * [Reporting elements overview](reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
       * [Reporting elements: filters, views, and groupings](reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
-      * [Filters overview in Adobe Workfront](reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+      * [Filters overview](reports-and-dashboards/reports/reporting-elements/filters-overview.md)
       * [Create or edit filters in Adobe Workfront](reports-and-dashboards/reports/reporting-elements/create-filters.md)
       * [Filter and condition modifiers](reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md)
       * [Views overview in Adobe Workfront](reports-and-dashboards/reports/reporting-elements/views-overview.md)
@@ -2016,11 +2017,14 @@ feature-set: Workfront
     * [Fields overview](maestro/fields/fields-overview.md)
     * [Create fields](maestro/fields/create-fields.md)
     * [Edit fields](maestro/fields/edit-fields.md)
-    * [Delete fields](maestro/fields/delete-fields.md)    
+    * [Delete fields](maestro/fields/delete-fields.md) 
+    * [Formula fields overview](maestro/fields/formula-fields.md)   
   * Adobe Maestro access {#adobe-maestro-access}
     * [Access information](maestro/access/access-information.md)
     * [Access overview](maestro/access/access-overview.md)
-    * [Grant access to Adobe Maestro](maestro/access/grant-access.md)
+    * [Overview of sharing permissions in Adobe Maestro](maestro/access/sharing-permissions-overview.md)
+    * [Share a workspace](maestro/access/share-workspaces.md)
+    * [Share a view](maestro/access/share-views.md)
   * Adobe Maestro records {#adobe-maestro-records}
     * [Records: article index](maestro/records/records-information.md) 
     * [Create records](maestro/records/create-records.md)
@@ -2216,6 +2220,7 @@ feature-set: Workfront
     * [Microsoft Word Templates modules](workfront-fusion/apps-and-their-modules/microsoft-word-templates-modules.md)
     * [MIME modules](workfront-fusion/apps-and-their-modules/mime.md)
     * [NetSuite modules](workfront-fusion/apps-and-their-modules/netsuite.md)
+    * [[!DNL OpenAI(ChatGPT & DALL-E)] modules](workfront-fusion/apps-and-their-modules/openai-chatgpt-modules.md)
     * [Qualtrics modules](workfront-fusion/apps-and-their-modules/qualtrics-modules.md)
     * [Quickbase modules](workfront-fusion/apps-and-their-modules/quickbase-modules.md)
     * [Salesforce modules](workfront-fusion/apps-and-their-modules/salesforce-modules.md)
@@ -2546,7 +2551,6 @@ feature-set: Workfront
       * [Troubleshooting - corrupted interface font in proofing viewer on Mac](workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
       * [Understand How Cache and Cookies Affect Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
       * [Speed issues in Workfront Proof](workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
-      * [Problems With Viewing Proofs - Flash Shared Objects Explained](workfront-proof/wp-tech-corner/troubleshooting/view-proof-flash-shared-object.md)
       * [Troubleshooting - Workfront Proof proofing viewer](workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
   * Workfront Proof integrations {#wf-proof-integrations}
     * [Workfront Proof integrations](workfront-proof/wp-integrations/wp-integrations.md)

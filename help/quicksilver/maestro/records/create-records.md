@@ -77,7 +77,7 @@ You must have the following access to perform the steps in this article:
   </tr>
 <tr>
    <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -125,7 +125,7 @@ After permssions - replace the table with:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -154,8 +154,9 @@ After permssions - replace the table with:
 
 You can create records in the table view of a record type page. 
 
-1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner, or the **Main Menu** icon ![](assets/main-menu-shell.png) in the upper-left corner, if available, then click **Maestro** ![](assets/maestro-icon.png). 
-    The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture/create-workspaces.md).
+{#step1-to-maestro}
+  
+  The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture/create-workspaces.md).
 1. Click a record type card. For information about creating a record type, see [Create record types](../architecture/create-record-types.md). 
 
     The record type page opens in the view that you last accessed. By default, a record type page opens in the table view. 
@@ -180,6 +181,11 @@ You can create records in the table view of a record type page.
     >  * Fields that refer to other record types or calculated fields are read-only fields. 
 
 1. Continue adding information on each row, then click **Enter** on your keyboard to save your changes. 
+
+<!--1. (Optional) Use the following keyboard shortcuts to undo or redo adding new records: 
+
+    * **Undo**: CTRL/CMD + Z
+    * **Redo**: CTRL/CMD + Shift + Z-->
 
 ## Create records by connecting them from another application
 

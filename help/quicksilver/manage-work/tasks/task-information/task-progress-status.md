@@ -10,6 +10,8 @@ exl-id: 38e5f89e-bdfa-433c-9371-3c3003ada3a3
 ---
 # Task Progress Status overview
 
+<!-- Audited: 1/2024 -->
+
 Adobe Workfront determines the Progress Status of a task by looking at the progression of the task across its timeline. You can configure Workfront to determine the Condition of a project based on the value of the Progress Status of the tasks. For more information about configuring the Condition of the project, see the article [Overview of Project Condition and Condition Type](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
 ## Criteria that determine the Progress Status of tasks

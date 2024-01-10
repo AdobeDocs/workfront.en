@@ -9,6 +9,8 @@ exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
 ---
 # Overview of common uses for Text Mode
 
+<!-- Audited: 1/2024 -->
+
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***This is linked to Understanding Text Mode (article), and the TOC article for examples of various reporting elements)</p>
 -->

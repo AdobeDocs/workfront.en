@@ -15,7 +15,7 @@ exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
 
 The filter and condition modifiers allow you to build filters and establish conditions for formatting your report results.
 
-For more information about building filters, see the article [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+For more information about building filters, see the article [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 For more information about using conditional formatting in Views, see the article [Use conditional formatting in views](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 

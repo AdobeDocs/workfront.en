@@ -31,7 +31,7 @@ To make the review and approval process more transparent, we've added the status
 
 For information on specific statuses, see [Document approval status](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
-## Mark a review as complete
+## Complete my review
 
 >[!NOTE]
 >

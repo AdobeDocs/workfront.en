@@ -11,7 +11,11 @@ This page describes all home enhancements made with the First Quarter 2024 relea
 
 For a list of all changes available at this point in the First Quarter 2024 release cycle, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
-<!--
+## New Pending approvals widget available
+
+To make it easier for you to see the status of approvals and reviews on projects you own, we've added a new Pending Approvals widget to Home. Here, you can see a list of users assigned to approve or review documents on projects you own, see the status of their review or approval, and remind reviewers and approvers to complete their review or approval.
+
+For more information on Home widgets, see [Get started with the new Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Administrator controls for new Home using layout templates
 
@@ -20,8 +24,6 @@ Administrators can now customize new Home for users using layout templates. Cust
 Note that administrator layout template choices override individual users' customization; i.e., when changes to a layout template are saved, users on that layout template will have their new Home page changed to match the layout template and their existing widget selections will pushed to the bottom of the page. While widgets selected by the administrator may be repositioned by a user, they cannot be removed.
 
 For more information, see [Customize new Home using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
-
--->
 
 ## My Work quick action buttons changed to only display on mouseover
 

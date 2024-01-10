@@ -2,8 +2,8 @@
 product-area: projects;agile-and-teams
 navigation-topic: manage-projects
 title: Manage a project in the Agile View
-description: Required plans, license types, and access Adobe Workfront Plan Team, Pro, Business, or Enterprise Workfront License Type Review, Work, or Plan Permissions in the access model Edit access and ability to create reports, dashboards, and calendars
-author: Alina
+description: You can leverage agile functionality for your project without the administrative challenges that typically accompany agile practices (such as managing a team backlog or creating iterations).
+author: Alina and Lisa
 feature: Work Management
 exl-id: fc633fd6-35b4-4949-8045-22c775002436
 ---
@@ -196,7 +196,7 @@ For information about how to customize an agile view, see [Create or customize a
 
 As with standard views in Workfront, you can customize existing agile Views or create new agile Views from scratch. Unlike standard views, you cannot create new agile Views based on existing agile Views.
 
-For more information about creating and customizing agile views, see the "Create or customize an Agile view" section in the article [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+For more information about creating and customizing agile views, see the [Create or customize an Agile view](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) section in the article [Create or edit views in in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## Share an existing Agile view
 

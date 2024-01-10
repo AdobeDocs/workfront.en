@@ -7,6 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
 ---
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--should this move to the Access folder when we have sharing for ALL the objects???-->
 
 # Share records
 
@@ -77,7 +78,7 @@ You must have the following access to perform the steps in this article:
   </tr>
 <tr>
    <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -125,7 +126,7 @@ After permissions - replace the table with - below
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -152,9 +153,9 @@ After permissions - replace the table with - below
 
 ## Share record links from the record type table view
 
-1. Click the **Main Menu** ![](assets/main-menu-workfront.png) in the upper-right corner, or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available, then click **Maestro**. 
+{#step1-to-maestro}
 
-    The workspace that you accessed last opens. 
+   The workspace that you accessed last opens. 
 1. Click a record type card. 
 
     The record type page opens. 

@@ -10,6 +10,8 @@ exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
 ---
 # "IF" statements overview
 
+<!-- Audited: 1/2024 -->
+
 You can use "IF" statements in general programming languages. In Adobe Workfront, "IF" statements allow you to compare, format, and string together fields of data for both reporting and custom data purposes. Also, thinking mathematically about "IF" statements leads to a better conceptual understanding since variables for expressions are commonly used.
 
 ## Recommendations for "IF" statements
@@ -38,10 +40,10 @@ Consider the following before creating an "IF" statement:
 You can build "IF" statements in Workfront using the following format:  
 <pre>IF(Condition,True Expression,False Expression)</pre>The components of an "IF" statement are: 
 
-* **IF**= This is the Workfront calculated data expression for "function." Similar to the SUM and PROD expressions, this first tells the system to understand the function as an "IF" statement. Always use capital letters for "IF" in this statement.  
+* **IF** = This is the Workfront calculated data expression for "function." Similar to the SUM and PROD expressions, this first tells the system to understand the function as an "IF" statement. Always use capital letters for "IF" in this statement.  
   For a list of all calculated data expressions, see [Overview of calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-* **Condition**= This is the condition that the Workfront variable must meet and it is the foundation for this equation. Everything that can be later specified in the equation depends on the condition. You can use a number of references, comparisons or mathematical expressions to start an equation. Some examples of conditions are:
+* **Condition** = This is the condition that the Workfront variable must meet and it is the foundation for this equation. Everything that can be later specified in the equation depends on the condition. You can use a number of references, comparisons or mathematical expressions to start an equation. Some examples of conditions are:
 
    * A date is greater than another date on a specified object.
    * A status equals one of the available statuses on a specified object.
@@ -49,9 +51,9 @@ You can build "IF" statements in Workfront using the following format:
 
 * **Condition Operator** = this is the operator that helps you build the condition of your "IF" statement. For example, "is equal to" or "is greater than" are condition operators. For a list of condition operators that you can use in statements, see [Condition operators in calculated custom expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md). 
 
-* **True****Expression**= This is the "True" variable, which tells the equation which indicator to display once the criteria of the condition are met (true indicators).
+* **True****Expression** = This is the "True" variable, which tells the equation which indicator to display once the criteria of the condition are met (true indicators).
 
-* **False Expression**= This is the "False" variable, which tells the equation which indicator to display when the criteria of the condition are not met (false indicators).
+* **False Expression** = This is the "False" variable, which tells the equation which indicator to display when the criteria of the condition are not met (false indicators).
 
 In the following example, the original statement format is used to write a simple data expression for an "IF" statement. The expression compares two different date fields in Workfront followed by a True/False result as a data string:
 

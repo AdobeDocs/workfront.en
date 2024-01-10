@@ -20,42 +20,99 @@ exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
 
 This article lists the features that have been released after the launch of the Maestro closed beta program, on May 22, 2023. 
 
-The released features are listed in the order of their release, with the most recent first. Customers who are participating in the Maestro closed beta program can access all features in their Preview and Production environments. 
+The released features are listed in the order of their release, with the most recent first. Customers who are participating in the Maestro closed beta program can access all features in their Production environments. 
+
+<!--
+>[!IMPORTANT]
+>
+>Between May 2023 and December 2023, all features in this article were released to both the Preview and Production environment. The Maestro capabilities have  temporarily been removed from the Preview and Sandbox environment since January 2024. All features released after this date are currently available in Production. 
+-->
+
+This article lists the features and patches that have been released after the launch of the Maestro closed beta program, on May 22, 2023. 
+
+The features are released weekly and are listed in the order of their release, with the most recent first. Customers who are participating in the Maestro closed beta program can access all features in their Preview and Production environments.
 
 >[!IMPORTANT]
 >
 >The documentation referenced in the sections below will be available some time after the features are released to Production. 
 
-This section lists the features and patches that have been released after the launch of the Maestro closed beta program, on May 22, 2023. 
+<!--## Week of January 15, 2024
 
-The features are released weekly and are listed in the order of their release, with the most recent first. Customers who are participating in the Maestro closed beta program can access all features in their Preview and Production environments.
+### Maestro capabilities are removed from the Preview and Sandbox environments 
 
-<!--
-## Week of November 27, 2023
+Preview and sandbox: <***Date here****> 
 
-### Maestro permissions for users and groups
+The Maestro area and all the capabilities have been temporarily removed from the Preview and Sandbox environments. Maestro will be added to these environments at a later date which we will communicate in the near future.  
 
-Production: November 28, 2023
+(************ALSO SEE IMPORTANT NOTE ABOVE IN THE MAIN INTRO AREA - UNHIDE IT************)
 
->[!IMPORTANT]
->
->This functionality is not yet available in Preview.
+### Maestro permissions for workspaces and views
 
-You can now share a workspace with users and groups. You can set their permissions to different levels, depending on what information they need to view or edit in a Maestro workspace. After you share permissions to a workspace, users have permissions to the record types, records, and fields in that space.
+Production: <****date here****>
+
+Preview: To be determined
+
+You can now share a workspace or a view with users and groups. You can set their permissions to different levels, depending on what information they need to view or edit. 
+
+When you share a workspace, users have permissions to the record types, records, and fields in that space.
+
+When you share a workspace, users don't receive sharing permissions on the views associated with the record types of the workspace. You must grant separate permissions to views. 
 
 The following are the permissions levels for Maestro workspaces:  
 
-* None: Users cannot access any workspaces in Maestro, even if the Maestro area is shared with them through a layout template. 
-
 * View: Users can view workspaces that are shared with them. They can also view record types, and records from the shared workspace. 
 
-* Contribute: Users can create, edit, or delete records in the workspace that is shared with them.  They cannot create or edit record types or workspaces ones shared with them.  
+* Contribute: Users can create, edit, or delete records in the workspace that is shared with them.  They cannot create or edit record types or workspaces that are shared with them.  
 
-* Manage: Users can create, edit, and delete record types, records, and fields in workspaces that are shared with them. They cannot create workspaces.  
+* Manage: Users can create, edit, and delete workspaces, record types, records, and fields in workspaces that are shared with them.   
 
-Only Workfront administrators can create, edit, or delete workspaces and all information associated with them.  
+The following are the permissions levels for record type views:
 
-For more information, see [Grant access to Adobe Maestro](../maestro/access/grant-access.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md). -->
+* View: Users can select the view from the View drop-down menu of a record type.
+* Manage: Users can edit, share, and delete the view. 
+
+For more information, see [Access overview](/help/quicksilver/maestro/access/access-overview.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md).
+
+### New Formula field type (title) 
+
+Production: <*******date**********> 
+
+Preview: To be determined 
+
+You can now add a Formula type field to a record type.  
+
+Formula fields generate a new value using existing values from other fields in a record type and a function that indicates how the existing values should be calculated. 
+
+You cannot use lookup fields from linked record types in a formula calculation.  
+
+For information, see [Formula fields overview](/help/quicksilver/maestro/fields/formula-fields.md).  
+
+### Undo/ Redo actions when managing records in the table view
+
+Production: <****Date******>
+Preview: To be determined
+
+You can now undo or redo your changes when performing the following actions in the table view:  
+
+* Copy/ paste data 
+* Edit record 
+* Add record 
+* Delete record 
+
+You can use the following keystrokes to undo or redo actions: 
+
+* Undo: CTRL + Z 
+* Redo: CTRL + Shift+Z 
+
+For more information, see the following articles:  
+
+* Edit records (/help/quicksilver/maestro/records/edit-records.md) 
+
+* Delete  records (/help/quicksilver/maestro/records/delete-records.md) 
+
+* Create records (/help/quicksilver/maestro/records/create-records.md) 
+
+-->
 
 ## Week of December 25, 2023
 

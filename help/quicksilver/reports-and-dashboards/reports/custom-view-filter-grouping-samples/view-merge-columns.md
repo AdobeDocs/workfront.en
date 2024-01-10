@@ -10,6 +10,8 @@ exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
 ---
 # View: merge information from multiple columns in one shared column
 
+<!-- Audited: 1/2024 -->
+
 You can merge the information that displays in multiple separate columns and display it in one shared column.
 
 ## Access requirements
@@ -26,8 +28,19 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Request to modify a view </p>
-   <p>Plan to modify a report</p> </td> 
+   <td> <p> Current: 
+   <ul>
+   <li>Request to modify a view</li> 
+   <li>Plan to modify a report</li>
+   </ul>
+     </p>
+     <p> New: 
+   <ul>
+   <li>Contributor to modify a view</li> 
+   <li>Standard to modify a report</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -71,7 +84,7 @@ You can merge the data from multiple separate columns to display it in one colum
 >
 >This approach is recommended when you merge two columns that can never show a value for the same record at the same time. For example, in a Work Item report, the Issue Name and Task Name columns can be merged without a line break between them because a Work Item can never have an Issue Name and a Task name at the same time. A Work Item can be either an Issue or a Task in Workfront.
 
-To do this:
+To merge data from two columns without a line break:
 
 1. Using text mode for a view, add the following text to the first column you want to merge:
 
