@@ -1,12 +1,12 @@
 ---
-user-type: admin
+user-type: Admin
 content-type: reference
 product-area: system-administration;workfront-integrations
 navigation-topic: adobe-admin-console
 title: Understanding the Workfront Migration to the Adobe Admin Console
 description: Understanding Workfront Product and User Migration to the Adobe Admin Console
 author: Becky
-feature: System Setup and administration
+feature: System Setup and Administration
 role: administrator
 exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
 ---
