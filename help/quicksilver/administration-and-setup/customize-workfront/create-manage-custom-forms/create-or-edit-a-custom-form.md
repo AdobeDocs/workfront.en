@@ -48,7 +48,7 @@ You must have the following to perform the steps in this article:
 
 ## Start creating a custom form
 
-{{#step-1-to-setup}}
+{{step-1-to-setup}}
 
 1. Click **Custom Forms** in the left panel.
 
@@ -98,7 +98,7 @@ You can edit a custom form any time after it has been created.
 >
 >In general, we recommend minimizing the number of times you edit a custom form that is already in use. There is no notification system to alert people who use the custom form about your changes.
 
-{{#step-1-to-setup}}
+{{step-1-to-setup}}
 
 1. Click **Custom Forms** in the left panel.
 
