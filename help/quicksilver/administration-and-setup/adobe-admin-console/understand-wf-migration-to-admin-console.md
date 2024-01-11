@@ -30,10 +30,6 @@ As part of the migration, your user management will move from within the Workfro
 
 * **There is no change to how you manage all other functionality** within the Workfront application itself, including management of features, user roles, workspaces, functionality, and behavior. 
 
->[!NOTE]
->
-> A user may be a Workfront System administrator, Product Profile administrator (Workfront System administrator), and an Adobe Admin Console System administrator, or none of the above 
-
 ## Migration Journey Timeline 
 
 Adobe will migrate your Workfront instance to the Adobe Admin Console first, then migrate all existing users with verified email addresses. If you are a System administrator or Workfront Product Profile administrator (Workfront System administrator), you'll receive emails guiding you through the migration journey. Here's a timeline of what you can expect:  
