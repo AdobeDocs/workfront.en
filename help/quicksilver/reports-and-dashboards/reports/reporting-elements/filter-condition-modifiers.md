@@ -9,6 +9,8 @@ exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
 ---
 # Filter and condition modifiers
 
+<!-- Audited: 1/2024 -->
+
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: This is temporary - Lilit is fixing this in a future story: NOTE If the field you are filtering for has multiple options, this filters out the results that contain only the choice you specify. If the field contains additional options including the one specified, those results are not filtered from the report. See this document and search for "not equal" for the link to the req doc: https://docs.google.com/document/d/1WA0zZ_wws-2qb908i53BFQ8zDwL3nPJHyIybtJvvnqU/edit) </p>
 -->
@@ -21,9 +23,11 @@ For more information about using conditional formatting in Views, see the articl
 
 ## Filter and condition modifiers
 
-For a list of built-in time frame modifiers, see the article [Filter reports by time frames](../../../reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md).
+Some modifiers are built-in and you can choose them from a drop-down menu inside your filter or conditional formatting statement. Other modifiers can only be used in text mode filters. 
 
-Some modifiers are built-in and you can choose them from a drop-down menu inside your filter or conditional formatting statement. Other modifiers can only be used in text mode filters. For more information about understanding text mode, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+For more information about understanding text mode, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+
+For a list of built-in time frame modifiers, see the article [Filter reports by time frames](../../../reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md).
 
 You can use the following condition modifiers in filters and conditional formatting statements:
 
@@ -42,7 +46,7 @@ You can use the following condition modifiers in filters and conditional formatt
   <tr valign="top"> 
    <td> <p><strong>Is Blank</strong> </p> </td> 
    <td> <p><strong>blank</strong> </p> </td> 
-   <td> <p>The field exists for the object but the field has not yet been given a value.</p> </td> 
+   <td> <p>The field exists for the object but the field does not currently have a value.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p><strong>Is Not Blank</strong> </p> </td> 
@@ -62,7 +66,7 @@ You can use the following condition modifiers in filters and conditional formatt
   <tr valign="top"> 
    <td> <p><strong>Contains</strong> </p> </td> 
    <td> <p><strong>cicontains</strong> </p> </td> 
-   <td> <p>(Case insensitive) This is the case insensitive version of <strong>contains</strong>. For example: "cicontains inf" captures any value that contains either "Inf" or "inf".</p> <p> <p>Note: Adobe Workfront searches for the exact word or phrase that you are specifying for each filter statement. For example, if you are searching for any project that contains the phrase "new project" in the name, Workfront does not display projects that have just "new" or just "project", or "new main project" in the name. The filter finds only projects with the exact phrase "new project" in the name.</p> </p> </td> 
+   <td> <p>This is the case insensitive version of <strong>contains</strong>. For example: "cicontains inf" captures any value that contains either "Inf" or "inf".</p> <p> <p>Note: Adobe Workfront searches for the exact word or phrase that you are specifying for each filter statement. For example, if you are searching for any project that contains the phrase "new project" in the name, Workfront does not display projects that have just "new" or just "project", or "new main project" in the name. The filter finds only projects with the exact phrase "new project" in the name.</p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> </p> </td> 
