@@ -10,10 +10,6 @@ exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-<!--see the separate article I wrote to have the PMs vet it for this: https://adobe-my.sharepoint.com/personal/alinaw_adobe_com/_layouts/15/doc.aspx?sourcedoc={79f94807-3d73-4015-afc0-5c016fc63cfc}&action=edit-->
-
-<!--all the links are hidden for now, so I can share this with customer zero. Activate the links before making this public. -->
-
 <!-- remove the references to closed beta from the entire article-->
 
 <!--update the video in the IMPORTANT below, when we have something better, especially after Open Beta - remove it-->
@@ -76,8 +72,8 @@ The following table illustrates the main features that will be available in Maes
 |     Connect Maestro records to Adobe Experience Manager assets                                  |      ✓                         |                                  |                 | 
 |     Record details page                            |   ✓                           |                                  |                  |
 |     Update the layout of the record Details page              |                               |   ✓                              |                  |
-|  Share workspaces | |✓ |  |
-|  Share views | |✓ |  |
+|  Share workspaces | ✓| |  |
+|  Share views |✓ | |  |
 |     Submit requests                                |                               |                                  |   ✓              |
 |     Creative brief                                 |                               |                                  |   ✓              |
 |     Customize the color and icon of a record                                 |      ✓                         |                                  |                 |
@@ -86,15 +82,11 @@ The following table illustrates the main features that will be available in Maes
 |     Maestro Modules for Adobe Workfront Fusion                                 |      ✓                         |                                  |                 | 
 |     Copy and paste information from one field to another                                  |      ✓                         |                                  |                 | 
 
-## Access required to use Maestro during the closed beta program
+## Enable Maestro for the users in your Workfront instance
 
->[!IMPORTANT]
->
->Currently, there are no access levels or permissions associated with users or the information in Maestro. All users can view, edit, and delete all the information any other user adds to Maestro. 
+Your organization must enroll in the Adobe Maestro closed beta program before you can access Maestro. Contact your account representative for information about enrolling in the beta program. 
 
-For more information about the access required to use Maestro, see [Adobe Maestro access overview](../maestro/access/access-overview.md). 
-
-<!--take the IMPORTANT note out when we release permissions; keep the link to the Access article-->
+For more information about granting access to and enabling others to use Maestro, see [Access overview](/help/quicksilver/maestro/access/access-overview.md). 
 
 ## Maestro terminology
 
@@ -179,7 +171,7 @@ The following are the main Maestro objects and concepts:
 
     * Maestro fields are fully customizable and are accessible only in Maestro. You cannot access Maestro fields from Workfront. 
 
-    For more information, see [Create fields](../maestro/fields/create-fields.md)
+    For more information, see [Create fields](../maestro/fields/create-fields.md).
     
     A new operational record type is associated with the following predefined fields, by default: 
 
@@ -201,7 +193,8 @@ The following are the main Maestro objects and concepts:
     * Number 
     * Percentage 
     * Currency
-    * Checkbox  
+    * Checkbox 
+    * Formula 
     * People
     * Created by
     * Created date
@@ -266,12 +259,6 @@ The following table shows the limits for how many objects you can create in Maes
 |     Size of file that you can import through the API for a record type table  |   1.5MB                                                                                                         |
 |     The rate at which API requests can be made                                    |   200 requests per minute                                                                                       |
 | Size of CSV of Excel file you can import in a table | 5MB |
-
-## Enable Maestro for the users in your Workfront instance
-
-Your organization must enroll in the Adobe Maestro closed beta program before you can access Maestro. Contact your account representative for information about enrolling in the beta program. 
-
-For more information about granting access to and enabling others to use Maestro, see [Access overview](/help/quicksilver/maestro/access/access-overview.md). 
 
 ## Locate Maestro
 
