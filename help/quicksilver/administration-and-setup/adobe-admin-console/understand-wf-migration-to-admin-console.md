@@ -14,9 +14,7 @@ exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
 
 Adobe is changing how you manage your Adobe Workfront users, bringing increased productivity to you and your organization. As part of this change, Adobe is migrating your Workfront instance and users to the Adobe Admin Console. This is a necessary migration, and will not affect any reporting, approval paths, content, or assets. It will impact how you manage user access and how your users sign in.  
 
- 
-
-To learn how you can use the Adobe Admin Console to manage your Adobe entitlements across your entire organization, see [Manage users in the Adobe Admin Console](/help/quicksilver/administratoristration-and-setup/add-users/create-and-manage-users/administrator-console.md).  
+To learn how you can use the Adobe Admin Console to manage your Adobe entitlements across your entire organization, see [Manage users in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).  
 
 ## What is Changing? 
 
