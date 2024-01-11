@@ -10,8 +10,10 @@ exl-id: 23372e16-3933-445d-977c-901f52299cb2
 ---
 # Plan a project overview
 
+<!--Audited: 01/2024-->
+
 <!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
+< see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
 -->
 
 A project is a large work item in Adobe Workfront. You can break down a project into tasks which are smaller work items, like tasks. Tasks can be assigned to users or teams who can be responsible for their completion. When all users complete their tasks, the project also becomes complete.
@@ -52,7 +54,7 @@ You can schedule a project from a Start Date, or you can schedule it from the Co
 
 ### Define the project Schedule {#define-the-project-schedule}
 
-You must determine a schedule and associate it with the project, as well as with the users who are responsible for completing the tasks on the project. 
+You must determine a schedule and associate it with the project, and with the users who are responsible for completing the tasks on the project. 
 
 Consider defining the following on a Schedule:
 
@@ -98,7 +100,7 @@ Consider the following when building the timeline of the project:
 
   For example, you might have a project to build an apartment building. One of your objectives includes the plumbing and another is laying the foundation. One of your plumbing tasks is to hook up to the main city water line and this must be done before laying the foundation. However, most of your other plumbing tasks cannot be done until after the foundation is laid. In this case, you should consider using predecessors to understand when one objective can start after its prerequisite has finished.
 
-  When you use parent tasks to organize objectives, you can create one task for each major objective, and add sub-tasks when you get to the stage of breaking major objectives into individual tasks. This keeps the tasks that are part of the objective organized within the project. 
+  When you use parent tasks to organize objectives, you can create one task for each major objective, and add subtasks when you get to the stage of breaking major objectives into individual tasks. This keeps the tasks that are part of the objective organized within the project. 
 
   For more information about task predecessors, see [Overview of task predecessors](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
@@ -112,7 +114,7 @@ Consider the following when building the timeline of the project:
 
 ## Define tasks {#define-tasks}
 
-As you are defining the objectives of your project and the tasks associated with them you are creating the project timeline. 
+As you define the objectives of your project and the tasks associated with them, you are creating the project timeline. 
 
 You can create tasks on a project in the following ways:
 

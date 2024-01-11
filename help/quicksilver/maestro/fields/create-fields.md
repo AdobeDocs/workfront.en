@@ -9,7 +9,7 @@ exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 <!---
-title: Formula fields
+title: Create fields
 description: In Adobe Maestro, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with Maestro records.
 hidefromtoc: yes
 hide: yes
@@ -57,48 +57,6 @@ You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto">
  <col>
- <tbody>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader">Access level</td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
-
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
  </col>
  <col>
  </col>
@@ -106,7 +64,7 @@ After permssions - replace the table with:
     <tr>
 <tr>
 <td>
-   <p> Adobe product</p> </td>
+   <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -129,8 +87,15 @@ After permssions - replace the table with:
   </tr>
   
   <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
+   <td role="rowheader"><p>Access level configurations</p></td>
+   <td> <p>There are no access level control for Maestro</p>  
+</td>
+  </tr>
+
+  <tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
 <tr>
@@ -138,17 +103,9 @@ After permssions - replace the table with:
    <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
+
  </tbody>
 </table>
-
--->
-
 
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
@@ -193,7 +150,7 @@ After permssions - replace the table with:
     * [Percentage](#percentage)
     * [Currency](#currency)
     * [Checkbox](#checkbox) 
-    <!--* [Formula](#formula)-->
+    * [Formula](#formula)
     * [People](#people)
     * [Created by](#created-by)
     * [Created date](#created-date)
@@ -402,13 +359,11 @@ You can use the Checkbox field type to add a single checkbox option to a record.
 
     The new checkbox field is added as a column to the record type and its values can be associated with records.   
 
-<!--
-
 ### Formula
 
 Formula fields generate a new value using existing values from other fields in a record type and a function that indicates how the existing values should be calculated.
 
-For more information, see [Formula fields overview](/help/quicksilver/maestro/fields/formula-fields.md)
+For more information, see [Formula fields overview](/help/quicksilver/maestro/fields/formula-fields.md).
  
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Formula** field type.
  
@@ -424,13 +379,14 @@ For more information, see [Formula fields overview](/help/quicksilver/maestro/fi
 
    ![](assets/description-of-formula-expression.png)
 
+   For more information about what expressions are supported, see [Formula fields overview](/help/quicksilver/maestro/fields/formula-fields.md)
+
 1. Add field names as they display in Maestro interface to reference them in a formula. 
 
 1. Click **Create**.
 
      The new formula field is added as a column to the record type and its values can be associated with records.
 
--->
 
 ### People
 

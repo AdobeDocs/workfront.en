@@ -7,7 +7,7 @@ exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
 ---
 # First Quarter 2024 release overview
 
-This page provides information about functionality that is included in the First Quarter 2024 release scheduled for January 2024. 
+This page provides information about functionality that is included in the First Quarter 2024 release scheduled for the week of January 15, 2024.
 
 The enhancements on this page are available in the Preview environment. This page will be updated with additional enhancements as the First Quarter 2024 release nears its planned Production release.
 
@@ -54,7 +54,7 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Proof/document decisions now available for the previous 12 months</a><span style="color: #ff0000;"> New in Preview!</span></p><p>The Users Decisions reports for both new and legacy license types now display the number of decisions for the current month as well as the previous 12 months.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Proof/document decisions now available for the previous 12 months</a></p><p>The Users Decisions reports for both new and legacy license types now display the number of decisions for the current month as well as the previous 12 months.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -123,6 +123,7 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                         </p>
                     </td>
                  </tr>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Updated statuses for document approvals</a></p><p>To make document approval status more clear, we've updated available document status approvals. Now, the approval status accounts for reviewers marking their review complete, as well as cases where there are only reviewers but not approvers.</p>
@@ -201,7 +202,7 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">New Pending approvals widget available</a></p><p><span style="color: #ff0000;"> New in Preview!</span></p><p>To make it easier for you to see the status of approvals and reviews on projects you own, we've added a new Pending Approvals widget to Home. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">New Pending approvals widget available</a></p><p>To make it easier for you to see the status of approvals and reviews on projects you own, we've added a new Pending Approvals widget to Home. </p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -270,6 +271,23 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                         </p>
                     </td>
                  </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Mapping metadata in Experience Manager Assets Essentials now uses <code>xcm:keywords</code> instead of <code>dc:subject</code></a></p><p>[!BADGE In production ]{type=Informative}</p><p>We've updated the Experience Manager Assets Essentials integration to match the experience in the Experience Manager Assets as a Cloud Service integration. Now, when mapping multiple single-line text fields to a single field in Experience Manager Assets, both services use the <code>xcm:keywords</code> field.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: January 10, 2023</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: January 10, 2023</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: January 10, 2023</p>
+                            </li>
+                        </ul>
+                    </td>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Typeahead fields now available in Adobe Experience Manager Integration</a></p><p>[!BADGE In production ]{type=Informative}</p><p>To make it easier to link fields between Workfront and Adobe Experience Manager, we've added support for typeahead fields in the metadata mapping. Now, you can map typeahead fields to corresponding fields in Adobe Experience Manager.</p>
@@ -333,7 +351,7 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                                 <p>Production for fast release: With the 24.1 release</p>
                             </li>
                             <li>
-                                <p>Production for quarterly release: With the 24.1 release</p>
+                                <p>Production for all customers: With the 24.4 release (April 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -359,7 +377,7 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Drag and drop image in a comment in the Updates section</a><span style="color: #ff0000;"> New in Preview!</span></p><p>To enhance the content of your comments, you can now quickly drag and drop an image in a comment or reply in the Updates section of an object.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Drag and drop image in a comment in the Updates section</a></p><p>To enhance the content of your comments, you can now quickly drag and drop an image in a comment or reply in the Updates section of an object.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
