@@ -1,49 +1,49 @@
 ---
-user-type: administrator
+user-type: admin
 content-type: reference
-product-area: system-administratoristration;workfront-integrations
-navigation-topic: adobe-administrator-console
-title: Understanding the Workfront Migration to the Adobe administrator Console
-description: Understanding Workfront Product and User Migration to the Adobe administrator Console
+product-area: system-administration;workfront-integrations
+navigation-topic: adobe-admin-console
+title: Understanding the Workfront Migration to the Adobe Admin Console
+description: Understanding Workfront Product and User Migration to the Adobe Admin Console
 author: Becky
-feature: System Setup and administratoristration
+feature: System Setup and administration
 role: administrator
 exl-id: 54d855e6-c387-458c-9cd3-f32318c8ae02
 ---
-# Understanding the Workfront Migration to the Adobe administrator Console  
+# Understanding the Workfront Migration to the Adobe Admin Console  
 
-Adobe is changing how you manage your Adobe Workfront users, bringing increased productivity to you and your organization. As part of this change, Adobe is migrating your Workfront instance and users to the Adobe administrator Console. This is a necessary migration, and will not affect any reporting, approval paths, content, or assets. It will impact how you manage user access and how your users sign in.  
+Adobe is changing how you manage your Adobe Workfront users, bringing increased productivity to you and your organization. As part of this change, Adobe is migrating your Workfront instance and users to the Adobe Admin Console. This is a necessary migration, and will not affect any reporting, approval paths, content, or assets. It will impact how you manage user access and how your users sign in.  
 
  
 
-To learn how you can use the Adobe administrator Console to manage your Adobe entitlements across your entire organization, see [Manage users in the Adobe administrator Console](/help/quicksilver/administratoristration-and-setup/add-users/create-and-manage-users/administrator-console.md).  
+To learn how you can use the Adobe Admin Console to manage your Adobe entitlements across your entire organization, see [Manage users in the Adobe Admin Console](/help/quicksilver/administratoristration-and-setup/add-users/create-and-manage-users/administrator-console.md).  
 
 ## What is Changing? 
 
-As part of the migration, your user management will move from within the Workfront application to the Adobe administrator Console with the following administrative roles:  
+As part of the migration, your user management will move from within the Workfront application to the Adobe Admin Console with the following administrative roles:  
 
 * **System administrators** are super users with privileges of all administrators. They assign all administrative roles, and manage users for the entire organization for all products.  
 
 * **Product Profile administrators (Workfront system administrators)** manage which users in the organization get access to Workfront.  
 
-* **Users will sign in with Adobe Identity.** After Adobe migrates existing users to the Adobe administrator Console, users will sign in to their Workfront instances using their new Adobe Identity – either an Adobe ID or Adobe Federated ID (SSO). 
+* **Users will sign in with Adobe Identity.** After Adobe migrates existing users to the Adobe Admin Console, users will sign in to their Workfront instances using their new Adobe Identity – either an Adobe ID or Adobe Federated ID (SSO). 
 
 * **There is no change to how you manage all other functionality** within the Workfront application itself, including management of features, user roles, workspaces, functionality, and behavior. 
 
 >[!NOTE]
 >
-> A user may be a Workfront System administrator, Product Profile administrator (Workfront System administrator), and an Adobe administrator Console System administrator, or none of the above 
+> A user may be a Workfront System administrator, Product Profile administrator (Workfront System administrator), and an Adobe Admin Console System administrator, or none of the above 
 
 ## Migration Journey Timeline 
 
-Adobe will migrate your Workfront instance to the Adobe administrator Console first, then migrate all existing users with verified email addresses. If you are a System administrator or Workfront Product Profile administrator (Workfront System administrator), you'll receive emails guiding you through the migration journey. Here's a timeline of what you can expect:  
+Adobe will migrate your Workfront instance to the Adobe Admin Console first, then migrate all existing users with verified email addresses. If you are a System administrator or Workfront Product Profile administrator (Workfront System administrator), you'll receive emails guiding you through the migration journey. Here's a timeline of what you can expect:  
 
-### Workfront Migration to Adobe administrator Console Complete 
+### Workfront Migration to Adobe Admin Console Complete 
 
- System administrators will receive an email when Workfront migration to Adobe administrator Console is complete. At this time, System administrators may need to complete some required steps **before user migration starts**, to minimize impact to Workfront users.  
+ System administrators will receive an email when Workfront migration to Adobe Admin Console is complete. At this time, System administrators may need to complete some required steps **before user migration starts**, to minimize impact to Workfront users.  
 
-* **If your Workfront users currently log in with SSO**, you must set up SSO on the Adobe administrator Console so your users can continue logging in with SSO. If your Workfront users do not currently use SSO, but you would like to set it up on Adobe administrator Console, you can do so at this point in the migration journey. 
-* **If you already manage other Adobe products in your Adobe administrator Console**, Adobe may seek your consent to automatically migrate users to your existing console. Click the **Get Started** button in the email to navigate to the consent page. 
+* **If your Workfront users currently log in with SSO**, you must set up SSO on the Adobe Admin Console so your users can continue logging in with SSO. If your Workfront users do not currently use SSO, but you would like to set it up on Adobe Admin Console, you can do so at this point in the migration journey. 
+* **If you already manage other Adobe products in your Adobe Admin Console**, Adobe may seek your consent to automatically migrate users to your existing console. Click the **Get Started** button in the email to navigate to the consent page. 
 
  There is no change to user management at this time. Workfront administrators will continue to manage users in Workfront, and users will continue to log in with their Workfront ID or SSO until user migration is complete. 
 
@@ -88,7 +88,7 @@ As a Workfront Product Profile administrator (Workfront System administrator), a
 
 ### User Migration Complete 
 
-Adobe will notify all System administrators and Product Profile administrators (Workfront System administrators) via email after all administrators and users are migrated. At this time, all Workfront users for that instance will sign in to Workfront using Adobe Identity. Workfront System administrators and Product Profile administrators (Workfront System administrators) may manage user access within the Adobe administrator Console. If customers are not using a form of directory synchronization within the administrator Console, they may continue to manage access to Workfront within the Workfront Application.  
+Adobe will notify all System administrators and Product Profile administrators (Workfront System administrators) via email after all administrators and users are migrated. At this time, all Workfront users for that instance will sign in to Workfront using Adobe Identity. Workfront System administrators and Product Profile administrators (Workfront System administrators) may manage user access within the Adobe Admin Console. If customers are not using a form of directory synchronization within the administrator Console, they may continue to manage access to Workfront within the Workfront Application.  
 
 ## Get Support 
 
