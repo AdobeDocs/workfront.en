@@ -383,6 +383,11 @@ For more information, see [Formula fields overview](/help/quicksilver/maestro/fi
 
 1. Add field names as they display in Maestro interface to reference them in a formula. 
 
+    >[!NOTE]
+    >
+    >    You cannot add fields from linked records in a formula. This functionality will be released at a later date. For more information about new releases, see [Adobe Maestro release actovity](/help/quicksilver/maestro/release-activity.md). 
+
+
 1. Click **Create**.
 
      The new formula field is added as a column to the record type and its values can be associated with records.

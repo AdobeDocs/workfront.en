@@ -189,10 +189,6 @@ With this improvement, notice the following:
 
     * Formula
 
-        >[!NOTE]
-        >
-        >Formula-type fields will be released at a later date.
-
 * The primary field of a table view is always frozen and cannot be moved, unless you set another field as a primary field.  
 
 * You can change the primary field from a non-primary column header.  

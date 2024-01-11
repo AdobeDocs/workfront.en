@@ -206,8 +206,6 @@ You can add up to 500 fields (or columns) in a table view.
     >       * Number
     >       * Formula
     >
-    >         Formula fields will be released at a later date. 
-    >
     >   * The primary field is always frozen and cannot be moved. You can select another field to replace a primary field, if you need to move it to another position. 
     >
     >   * Changing the primary field in your table view affects the view for all other users who choose it.
