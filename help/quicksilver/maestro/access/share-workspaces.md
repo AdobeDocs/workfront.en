@@ -7,8 +7,6 @@ recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 ---
 
-<!--*****************ADD TO TOC AND MINITOC WHEN RELEASING*********************-->
-
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
 # Share a workspace
@@ -62,7 +60,7 @@ You must have the following access to perform the steps in this article:
   </tr>
 
   <tr>
-   <td role="rowheader"><p>Object permissions</p></td>
+   <td role="rowheader"><p>Permissions</p></td>
    <td> <p>Manage permissions to a workspace</p>  
 </td>
   </tr>

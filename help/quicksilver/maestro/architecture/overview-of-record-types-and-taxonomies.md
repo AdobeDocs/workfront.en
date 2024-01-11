@@ -33,7 +33,7 @@ In Maestro, you can create custom record types that meet your organization's nee
     * [Operational Record Type](#operational-record-type): A record type that represents strategic plans, initiatives, or planned work. For example, Campaign, Activity, Tactic, Opportunity can be operational record types. 
     * [Taxonomy](#taxonomy): Record types that capture attributes about an operational record type. For example, Region, Address, Audience can be taxonomies. 
 
-* When you create a record type, everyone in your organization can view, edit, or delete it. <!--this will change with access levels and permissions-->
+* When you create a record type, only you and those you give permissions to access the workspace can view the record type. 
 * You must create a workspace before you can create record types for the workspace.  
 * You can have a combined total of 1,000 operational record types and taxonomies in one workspace. This includes record types or taxonomies that you create from scratch or that you import from other systems. 
 
