@@ -536,6 +536,7 @@ See also [Notifications: Information about projects I'm on](../../../workfront-b
   <tr> 
    <th>Object Type</th> 
    <th>Event</th> 
+   <th>Recipient</th> 
    <th>Description</th> 
    <th> Default state</th> 
   </tr> 
@@ -543,61 +544,71 @@ See also [Notifications: Information about projects I'm on](../../../workfront-b
  <tbody> 
   <tr> 
    <td> <p>Project</p> </td> 
-   <td> <p>Current Project Status Change to Project Team</p> </td> 
+   <td> <p>Current Project Status</p> </td> 
+   <td> <p>Members of project team</p> </td> 
    <td> <p>A project I'm on becomes active.</p> <p>Users on the project receive an email notification when the project becomes active.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Document</p> </td> 
-   <td> <p>Document Add to Project Team</p> </td> 
+   <td> <p>Document Add</p> </td> 
+   <td> <p>Members of project team</p> </td> 
    <td> <p>A document is added to a project I'm on.</p> <p>Users on the project team receive an email notification when a document is added to the project, except for the user who added the document.</p> <p>A notification is sent only if the project status is Current and the document is not Private. </p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
-   <td> <p>Issue Add to Project Team</p> </td> 
+   <td> <p>Issue Add</p> </td> 
+   <td> <p>Members of project team</p> </td> 
    <td> <p>An issue is added to a project I'm on.</p> <p>Users in a project receive an email notification when an issue is added to the project.</p> <p>A notification is sent only if the project status is Current.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
-   <td> <p>Issue Completion to Project Team</p> </td> 
+   <td> <p>Issue Completion</p> </td> 
+   <td> <p>Members of project team</p> </td> 
    <td> <p>An issue is completed on a project I'm on.</p> <p>Any user on the project receives a notification.</p> <p>A notification is sent only if the project status is Current or Planning.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Task</p> </td> 
-   <td> <p>Milestone Task Completion to Project Team</p> </td> 
+   <td> <p>Milestone Task Completion</p> </td> 
+   <td> <p>Members of project team</p> </td> 
    <td> <p>A milestone task is completed on a project I'm on.</p> <p>All users on the Project Team receive a notification when a milestone task is completed. </p> <p>A notification is sent only if the project status is Current or Planning.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Project</p> </td> 
-   <td> <p>Project Completion to Project Team</p> </td> 
+   <td> <p>Project Completion</p> </td> 
+   <td> <p>Members of project team</p> </td> 
    <td> <p>A project I'm on is completed.</p> <p>Users on a project team receive an email notification when the project status is Complete.</p> <p>Tip: If projects are completed regularly, enabling this option can create a lot of email for users who have a limited number of tasks on many projects. </p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Project</p> </td> 
-   <td> <p>Project Status Change to Project Team</p> </td> 
+   <td> <p>Project Status Change</p> </td> 
+   <td> <p>Members of project team</p> </td> 
    <td> <p>The status changes on a project I'm on.</p> <p>Users on the Project Team receive an email notification when the status of the project changes. </p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Project User</p> </td> 
-   <td> <p>Project User Add to Project User</p> </td> 
+   <td> <p>Project User Add</p> </td> 
+   <td> <p>Members of project team</p> </td> 
    <td> <p>I'm added to a project.</p> <p>The user who was added to the project receives an email notification when they are added, unless the user was self-added to the project.</p> <p>A notification is sent only if the project status is Current.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Task</p> </td> 
-   <td> <p>Task Completion to Project Team</p> </td> 
+   <td> <p>Task Completion</p> </td> 
+   <td> <p>Members of project team</p> </td> 
    <td> <p>A task is completed on a project I'm on.</p> <p>Members of the project team receive an email notification.</p> <p>A notification is sent only if the project status is Current.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
-   <td> <p>Unassigned Issue Added to Project Team</p> </td> 
+   <td> <p>Unassigned Issue Added</p> </td> 
+   <td> <p>Members of project team</p> </td> 
    <td> <p>An unassigned issue is added to a project I'm on.</p> <p>Users on a project receive an email notification when an unassigned issue is added to the project.</p> <p>A notification is sent only if the project status is Current.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
@@ -617,6 +628,7 @@ See also [Notifications: Information about projects I own](../../../workfront-ba
   <tr> 
    <th>Object Type</th> 
    <th>Event</th> 
+   <th>Recipient</th> 
    <th>Description</th> 
    <th> Default state</th> 
   </tr> 
@@ -624,67 +636,78 @@ See also [Notifications: Information about projects I own](../../../workfront-ba
  <tbody> 
   <tr> 
    <td> <p>Document</p> </td> 
-   <td> <p>Document Add to Project Owner</p> </td> 
+   <td> <p>Document Add</p> </td> 
+   <td> <p>Project Owner</p> </td> 
    <td> <p>A document is added to a project I own.</p> <p>The Project Owner receives an email notification when a document is added to the project, unless the user who added the document is also the Project Owner.</p> <p>A notification is sent only if the project status is Current and the document is not Private.</p> <p>Users with a Review license do not receive a notification.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
-   <td> <p>Issue Add to Project Owner</p> </td> 
+   <td> <p>Issue Add</p> </td> 
+   <td> <p>Project Owner</p> </td> 
    <td> <p>An issue is added to a project I own.</p> <p>The Project Owner receives an email notification when an issue is added to the project.</p> <p>A notification is sent only if the project status is Current or Planning.</p> <p>Users with a Review license do not receive a notification.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
-   <td> <p>Issue Commit Date Change to Project Owner</p> </td> 
+   <td> <p>Issue Commit Date Change</p> </td> 
+   <td> <p>Project Owner</p> </td> 
    <td> <p>The commit date changes for an issue on one of my projects.</p> <p>The Project Owner receives an email notification when the Commit Date changes for an issue on the project, unless the user who changes the Commit Date is the same user as the Project Owner.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
-   <td> <p>Issue Completion to Project Owner</p> </td> 
+   <td> <p>Issue Completion</p> </td> 
+   <td> <p>Project Owner</p> </td> 
    <td> <p>An issue is completed on a project I own.</p> <p>The project owner receives an email notification.</p> <p>A notification is sent only if the project status is Current or Planning.</p> <p>Users with a Review license do not receive a notification.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Task</p> </td> 
-   <td> <p>Milestone Task Completion to Project Owner</p> </td> 
+   <td> <p>Milestone Task Completion</p> </td> 
+   <td> <p>Project Owner</p> </td> 
    <td> <p>A milestone task is completed on a project I own.</p> <p>A notification is sent only if the project status is Current or Planning.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Project</p> </td> 
-   <td> <p>Project Owner Assignment to Project Owner</p> </td> 
+   <td> <p>Project Owner Assignment</p> </td> 
+   <td> <p>Project Owner</p> </td> 
    <td> <p>I'm set as the owner of a new project.</p> <p>When a user is assigned as the owner of a project, that user receives an email notification.</p> <p>If the project owner is the same user who made the assignment, an email notification is not sent</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Project</p> </td> 
-   <td> <p>Project Progress Change to Project Owner</p> </td> 
+   <td> <p>Project Progress Change</p> </td> 
+   <td> <p>Project Owner</p> </td> 
    <td> <p>A project I own gets behind.</p> <p>The project owner receives an email notification when the project is behind schedule.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Task</p> </td> 
-   <td> <p>Task Commit Date Change to Project Owner</p> </td> 
+   <td> <p>Task Commit Date Change</p> </td> 
+   <td> <p>Project Owner</p> </td> 
    <td> <p>The commit date changes for a task on one of my projects.</p> <p>The Project Owner receives an email notification when the Commit Date changes for a task on the project, unless the user who changed the Commit Date is also the Project Owner.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Task</p> </td> 
-   <td> <p>Task Completion to Project Owner</p> </td> 
+   <td> <p>Task Completion</p> </td> 
+   <td> <p>Project Owner</p> </td> 
    <td> <p>A task is completed on a project I own.</p> <p>The project owner receives a notification. </p> <p>A notification is sent only if the project status is Current.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Task</p> </td> 
-   <td> <p>Task Progress Change to Project Owner</p> </td> 
+   <td> <p>Task Progress Change</p> </td> 
+   <td> <p>Project Owner</p> </td> 
    <td> <p>A task on a project I own gets behind.</p> <p>The Project Owner receives an email notification when a task on the project gets behind schedule.</p> <p>A notification is sent only if the project status is Current.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
-   <td> <p>Unassigned Issue Add to Project Owner</p> </td> 
+   <td> <p>Unassigned Issue Add</p> </td> 
+   <td> <p>Project Owner</p> </td> 
    <td> <p>An unassigned issue is added to a project I own.</p> <p>The Project Owner receives an email notification when an unassigned issue is added to the project.</p> <p>A notification is sent only if the project status is Current or Planning.</p> <p>Users with a Review license do not receive a notification.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
@@ -704,6 +727,7 @@ See also [Notifications: Information about projects I sponsor](../../../workfron
   <tr> 
    <th>Object Type</th> 
    <th>Event</th> 
+   <th>Recipient</th> 
    <th>Description</th> 
    <th> Default state</th> 
   </tr> 
@@ -711,55 +735,64 @@ See also [Notifications: Information about projects I sponsor](../../../workfron
  <tbody> 
   <tr> 
    <td> <p>Document</p> </td> 
-   <td> <p>Document Add to Project Sponsor</p> </td> 
+   <td> <p>Document Add</p> </td> 
+   <td> <p>Project Sponsor</p> </td> 
    <td> <p>A document is added to a project I sponsor.</p> <p>The Project Sponsor receives an email notification when a document is added to the project, unless the document is added by the Project Sponsor.</p> <p>A notification is sent only if the project status is Current and if the document is not Private.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
-   <td> <p>Issue Add to Project Sponsor</p> </td> 
+   <td> <p>Issue Add</p> </td> 
+   <td> <p>Project Sponsor</p> </td> 
    <td> <p>An issue is added to a project I sponsor.</p> <p>The Project Sponsor receives an email notification when an issue is added to the project.</p> <p>A notification is sent only if the project status is Current or Planning.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
-   <td> <p>Issue Completion to Project Sponsor</p> </td> 
+   <td> <p>Issue Completion</p> </td> 
+   <td> <p>Project Sponsor</p> </td> 
    <td> <p>An issue is completed on a project I sponsor.</p> <p>The project sponsor receives an email notification.</p> <p>A notification is sent only if the project status is Current or Planning.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Task</p> </td> 
-   <td> <p>Milestone Task Completion to Project Sponsor</p> </td> 
+   <td> <p>Milestone Task Completion</p> </td> 
+   <td> <p>Project Sponsor</p> </td> 
    <td> <p>A milestone task is completed on a project I sponsor.</p> <p>The Project Sponsor receives an email notification when a milestone task is completed on a project they sponsor.</p> <p>A notification is sent only if the project status is Current or Planning.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Project</p> </td> 
-   <td> <p>Project Progress Change to Project Sponsor</p> </td> 
+   <td> <p>Project Progress Change</p> </td> 
+   <td> <p>Project Sponsor</p> </td> 
    <td> <p>A project I sponsor gets behind.</p> <p>The Project Sponsor receives an email notification when the project gets behind schedule.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Project</p> </td> 
-   <td> <p>Project Sponsor Assignment to Project Sponsor</p> </td> 
+   <td> <p>Project Sponsor Assignment</p> </td> 
+   <td> <p>Project Sponsor</p> </td> 
    <td> <p>I'm set as the sponsor of a project.</p> <p>The project sponsor receives an email notification when they are set as the sponsor of a project.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Task</p> </td> 
-   <td> <p>Task Completion to Project Sponsor</p> </td> 
+   <td> <p>Task Completion</p> </td> 
+   <td> <p>Project Sponsor</p> </td> 
    <td> <p>A task is completed on a project I sponsor.</p> <p>The project sponsor receives an email notification.</p> <p>A notification is sent only if the project status is Current.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Task</p> </td> 
-   <td> <p>Task Progress Change to Project Sponsor</p> </td> 
+   <td> <p>Task Progress Change</p> </td> 
+   <td> <p>Project Sponsor</p> </td> 
    <td> <p>A task on a project I sponsor gets behind.</p> <p>The Project Sponsor receives an email notification when a task on the project gets behind schedule.</p> <p>A notification is sent only if the project status is Current.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
-   <td> <p>Unassigned Issue Add to Project Sponsor</p> </td> 
+   <td> <p>Unassigned Issue Add</p> </td> 
+   <td> <p>Project Sponsor</p> </td> 
    <td> <p>An unassigned issue is added to a project I sponsor.</p> <p>The Project Sponsor receives an email notification when an unassigned issue is added to the project.</p> <p>A notification is sent only if the project status is Current or Planning.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
@@ -779,6 +812,7 @@ See also [Notifications: Miscellaneous information](../../../workfront-basics/us
   <tr> 
    <th>Object Type</th> 
    <th>Event</th> 
+   <th>Recipient</th> 
    <th>Description</th> 
    <th> Default state</th> 
   </tr> 
@@ -787,67 +821,78 @@ See also [Notifications: Miscellaneous information](../../../workfront-basics/us
   <tr> 
    <td>Announcement</td> 
    <td> <p>Announcement was added</p> </td> 
+   <td> <p></p> </td> 
    <td> <p>A message is sent to the Announcement Center.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Document</p> </td> 
-   <td> <p>Document Request Cancel to Requestee</p> </td> 
+   <td> <p>Document Request Cancel</p> </td> 
+   <td> <p>User that document is requested from</p> </td> 
    <td> <p>Cancel a document upload request from me.</p> <p>The Document Requestee receives an email notification when a document request is canceled.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> <p>Error Notification</p> </td> 
+   <td> <p></p> </td> 
    <td> <p>An error was found that needs your attention.</p> <p>An email notification is generated after Workfront tries and fails to connect to a POP account. After 25 tries, Workfront disables the connection to the POP account in order to preserve resources and it sends out a notification. </p> <p>The email notification is sent to the Project Owner, if the POP email is associated with a request queue, or to the Workfront administrators, if the POP account is associated with the "Incoming Mail" feature in Email Setup.
    </p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
-   <td> <p>Issue Assignment to Resource Owner</p> </td> 
+   <td> <p>Issue Assignment</p> </td> 
+   <td> <p>Resource Owner</p> </td> 
    <td> <p>An issue assignment change affects one of my people.</p> <p>The Issue Assignee Manager receives an email notification when a change affects a user they manage.</p> <p>A notification is sent only if the project status is Current or Planning.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>User</p> </td> 
-   <td> <p>New User to User</p> </td> 
+   <td> <p>New User</p> </td> 
+   <td> <p>User</p> </td> 
    <td> <p>When a new user is created in Workfront, email the user.</p> <p>After the new user is created, the user receives an email invitation, notifying them that a Workfront account has been created and prompting them to set their password.</p> <p>When creating a new user, users can select the option "Send an invite email to this person" (as described in <a href="../../../administration-and-setup/add-users/create-and-manage-users/add-users.md" class="MCXref xref">Add users</a><span style="font-weight: 400;">). However, when the "New User to User" option is enabled globally, all new users receive the email invitation regardless of whether the "Send an invite email to this person" option is selected.</span></p> </td> 
    <td> Inactive </td> 
   </tr> 
   <tr> 
    <td> <p>Team</p> </td> 
-   <td> <p>Object Share to Team</p> </td> 
+   <td> <p>Object Share</p> </td> 
+   <td> <p>Members of team that object was shared with</p> </td> 
    <td> <p>Someone shares an object with my team.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>User</p> </td> 
-   <td> <p>Object Share to User</p> </td> 
+   <td> <p>Object Share</p> </td> 
+   <td> <p>User that object was shared with</p> </td> 
    <td> <p>Someone shares an object with me.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Project User</p> </td> 
-   <td> <p>Project User Add to Resource Owner</p> </td> 
+   <td> <p>Project User Add</p> </td> 
+   <td> <p>Resource Owner</p> </td> 
    <td> <p>One of my people is added to a project.</p> <p>A manager receives an email notification when one of his or her direct reports is added to a project.</p> <p>Users with a Review license do not receive a notification.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Project</p> </td> 
    <td> <p>Project added to a portfolio or program</p> </td> 
+   <td> <p>Portfolio or Program Owner</p> </td> 
    <td> <p>Someone adds a project to a portfolio or program I own.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Task</p> </td> 
-   <td> <p>Task Assignment to Resource Owner</p> </td> 
+   <td> <p>Task Assignment</p> </td> 
+   <td> <p>Resource Owner</p> </td> 
    <td> <p>A task assignment change affects one of my people.</p> <p>The Task Assignee's Manager receives an email notification.</p> <p>A notification is sent only if the project status is Current.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> Project <br>Task <br>Issue</td> 
-   <td>New Update to Subscriber </td> 
+   <td>New Update</td> 
+   <td>Subscriber </td> 
    <td> <p class="p1"><span class="s1 wysiwyg-font-size-medium">An email is sent when an update is made to a task, issue, or project that I am subscribed to.</span> </p> </td> 
    <td>Active</td> 
   </tr> 
@@ -866,9 +911,9 @@ See also [Notifications: Miscellaneous information](../../../workfront-basics/us
 
 See also [Notifications: Delegation](../../../workfront-basics/using-notifications/notifications-delegation.md).
 
-| Object Type      | Event                                       | Description                                                  | Default state |
-|------------------|---------------------------------------------|--------------------------------------------------------------|---------------|
-| Tasks and issues | Task and issue delegation to assignee       | I delegate my tasks and issues (confirmation)                | Active        |
-| Tasks and issues | Stop task and issue delegation to assignee  | I stop the delegation of my tasks and issues (confirmation)  | Active        |
-| Tasks and issues | Task and issue delegation to delegate       | Someone delegates their tasks and issues to me               | Active        |
-| Tasks and issues | Stop tasks and issue delegation to delegate | Someone stops the delegation of their tasks and issues to me | Active        |
+| Object Type      | Event                        | Recipient               | Description                                                  | Default state |
+|------------------|------|---------------------------------------------|--------------------------------------------------------------|---------------|
+| Tasks and issues | Task and issue delegation |Assignee       | I delegate my tasks and issues (confirmation)                | Active        |
+| Tasks and issues | Stop task and issue delegation | Assignee  | I stop the delegation of my tasks and issues (confirmation)  | Active        |
+| Tasks and issues | Task and issue delegation | Delegate       | Someone delegates their tasks and issues to me               | Active        |
+| Tasks and issues | Stop tasks and issue delegation | Delegate | Someone stops the delegation of their tasks and issues to me | Active        |
