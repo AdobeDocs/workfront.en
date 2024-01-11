@@ -28,49 +28,6 @@ You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto">
  <col>
- <tbody>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader">Access level</td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
-
-
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
  </col>
  <col>
  </col>
@@ -94,15 +51,23 @@ After permssions - replace the table with:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td role="rowheader"><p>Adobe Workfront license</p>
+   </td>
    <td>
    <p>Any</p> 
   </td>
   </tr>
   
   <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
+   <td role="rowheader"><p>Access level configurations</p></td>
+   <td> <p>There are no access level controls for Maestro </p>  
+</td>
+  </tr>
+
+  <tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
 <tr>
@@ -110,16 +75,10 @@ After permssions - replace the table with:
    <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
+
  </tbody>
 </table>
 
--->
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -150,9 +109,10 @@ You can delete a record from the following areas:
 
 ### Delete a record from the record's Details page
 
-1. Click the **Main Menu** ![](assets/main-menu-workfront.png) in the upper-right corner, or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available, then click Maestro. 
+{{step1-to-maestro}}
 
-    The workspace that you access last opens. 
+   The workspace that you access last opens. 
+
 1. Click a record type. 
 
     The record type page opens. 
@@ -173,9 +133,10 @@ You can delete a record from the following areas:
 
 ### Delete a record from the record type table view
 
-1. Click the **Main Menu** ![](assets/main-menu-workfront.png) in the upper-right corner, or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available, then click **Maestro**. 
+{{step1-to-maestro}}
 
-    The workspace that you accessed last opens. 
+  The workspace that you accessed last opens. 
+
 1. Click a record type. 
 
     The record type page opens. 
@@ -188,7 +149,7 @@ You can delete a record from the following areas:
 
     The record is deleted and cannot be recovered.
 
-<!--1. (Optional) Use the following keyboard shortcuts to undo or redo deleting a record:
+1. (Optional) Use the following keyboard shortcuts to undo or redo deleting a record:
 
    * **Undo**: CTRL/CMD + Z
-   * **Redo**: CTRL/CMD + Shift + Z-->
+   * **Redo**: CTRL/CMD + Shift + Z
