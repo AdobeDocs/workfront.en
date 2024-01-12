@@ -9,9 +9,12 @@ exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
 ---
 # Install [!DNL Adobe Workfront] for Microsoft Teams
 
->[!NOTE]
+<!-- Audited: 1/2024 -->
+
+>[!IMPORTANT]
 >
 >The Adobe Workfront for Microsoft Teams integration is currently supported only for the classic Microsoft Teams experience.
+
 
 The [!DNL Adobe Workfront for Microsoft Teams] app allows you to perform basic actions in [!DNL Workfront] without leaving your [!DNL Microsoft Teams] chat channels.
 
@@ -29,17 +32,18 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td><p>New: Standard</p>
+    <p>Current: [!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Prerequisites
 
@@ -48,9 +52,6 @@ You must be a team owner in [!DNL Microsoft Teams] to install [!DNL Workfront] f
 ## Install [!DNL Workfront for Microsoft Teams]
 
 As a team owner in [!DNL Microsoft Teams], you can install the [!DNL Workfront for Microsoft Teams] app for each of your teams either from the [!DNL Microsoft] Store or from a file provided by [!DNL Workfront].
-
-* [Install [!DNL Workfront for Microsoft Teams] from the Microsoft Store](#install-workfront-for-microsoft-teams-from-the-microsoft-store)
-* [Install [!DNL Workfront for Microsoft Teams] from a private file](#install-workfront-for-microsoft-teams-from-a-private-file)
 
 ### Install [!DNL Workfront for Microsoft Teams] from the [!DNL Microsoft] Store 
 

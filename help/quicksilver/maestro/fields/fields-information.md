@@ -38,4 +38,4 @@ The articles in the following sections describe how you can create and configure
 * [Create fields](../fields/create-fields.md)
 * [Edit fields](../fields/edit-fields.md)
 * [Delete fields](../fields/delete-fields.md)
-<!--* [Formula fields](../fields/formula-fields.md)-->
+* [Formula fields](../fields/formula-fields.md)

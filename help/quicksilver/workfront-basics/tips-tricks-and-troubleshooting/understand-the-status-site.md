@@ -7,6 +7,8 @@ exl-id: 2d8509b4-b0fc-435c-8c2f-3154fe152e7a
 ---
 # The [!DNL Adobe Workfront] Status site
 
+<!-- Audited: 1/2024 -->
+
 ## Overview of the Status site
 
 You can view the health of the [!DNL Workfront] platform, including incidents, scheduled maintenance windows, and the current status of all [!DNL Workfront] clusters by accessing the [!DNL Workfront Status] site. 
@@ -22,11 +24,7 @@ You have access to the following information on the Status site:
 
 You can view status updates on the [!DNL Adobe] Status site.
 
-1. Go to [[!DNL https://one.workfront.com]](https://one.workfront.com/), then click **[!UICONTROL Status]** in the **[!UICONTROL Support]** section, in the lower-right corner of the page.
-
-   Or
-
-   Type [status.adobe.com](https://status.adobe.com/) in your browser to access the Status site.
+1. Type [status.adobe.com](https://status.adobe.com/) in your browser to access the Status site.
 
 1. Select **[!UICONTROL Experience Cloud]**.
 1. Scroll down and select **[!UICONTROL Adobe Workfront]** from the list of solutions.
@@ -37,6 +35,7 @@ To subscribe to the Status site or to manage your subscription after you have al
 
 1. Go to [status.adobe.com](https://status.adobe.com/).
 1. In the status bar, select **[!UICONTROL Manage subscriptions]**.
+   ![](assets/manage-subs.png)
 1. If you have an existing account, log in to the account; otherwise, create a new account.
 1. Click the **[!UICONTROL Create subscriptions]** button.
 1. Select **[!UICONTROL Adobe Workfront]** under the **[!UICONTROL Experience Cloud]** header, then click **[!UICONTROL Continue]**.
@@ -44,10 +43,6 @@ To subscribe to the Status site or to manage your subscription after you have al
 1. Click **[!UICONTROL Done]** to confirm your subscription.
 
 ## Understand named vulnerabilities
-
-* [What is a named vulnerability?](#what-is-a-named-vulnerability)
-* [How do I view named vulnerabilities identified by [!DNL Workfront?]](#how-do-i-view-named-vulnerabilities-identified-by-workfront)
-* [Why is this important?](#why-is-this-important)
 
 ### What is a named vulnerability? {#what-is-a-named-vulnerability}
 

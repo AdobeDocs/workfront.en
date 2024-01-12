@@ -4,6 +4,7 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Add a section break to a custom form with the legacy form builder
 description: You can group the custom fields and widgets in a custom form into sections with headings. This is useful for presenting an organized experience to users who will fill out the form. Also, if you need to limit access to certain custom fields and widgets to certain users, you can place them in a section and then grant access to the section to only those users.
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
@@ -77,12 +78,12 @@ You must have the following to perform the steps in this article:
       <td>Type text if you want to explain to users what the section is for. This displays below the section's label on the custom form.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Add Logic</td> 
-      <td>Use display logic to specify whether the section should display on the form, based on selections users make in multi-choice custom fields when they fill out the form. For more information, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Add display logic and skip logic to a custom form</a>.</td> 
+      <td role="rowheader"><p>Add Logic</p></td> 
+      <td><p>Use display logic to specify whether the section should display on the form, based on selections users make in multi-choice custom fields when they fill out the form.</p><p><strong>NOTE:</strong> If all of the individual fields under a section break have display logic applied to them and they are all hidden as a result of the logic, the entire section will be hidden on the custom form. This will happen even if display logic is not applied to the section break.</p><p>For more information, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Add display logic and skip logic to a custom form</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Grant access</p> </td> 
-      <td> <p> Select the permissions that users need on an object where the custom form is attached in order to view this section and edit its field values. 
+      <td> <p> Select the permissions that users need on an object where the custom form is attached in order to view this section and edit its field values.
        <p>The following permissions are available under <b>Users with this access to the object can view field values</b>:</p> 
          <ul>
           <li><strong>View</strong>: View permissions to the object</li>

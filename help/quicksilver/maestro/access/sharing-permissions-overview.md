@@ -10,8 +10,6 @@ el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
 
-<!-- *********add to TOC****************-->
-
 # Overview of sharing permissions in Adobe Maestro
 
 >[!IMPORTANT]
@@ -30,9 +28,9 @@ This article describes the permission levels for Maestro objects.
 
 For information about how to share workspaces or views, see the following articles: 
 
-* [Share a workspace](/help/quicksilver/maestro/access/share-workspaces.md)
+* [Share workspaces](/help/quicksilver/maestro/access/share-workspaces.md)
 
-* [Share a view](/help/quicksilver/maestro/access/share-views.md)
+* [Share views](/help/quicksilver/maestro/access/share-views.md)
 
 ## Objects you can share in Adobe Maestro
 
@@ -49,7 +47,7 @@ You can share the following objects in Maestro:
 * You must have the following license to create workspaces in Maestro:
 
    * New pricing model: Standard license 
-   * Current pricing model: Work or higher license 
+   * Current pricing model: Plan license. 
 
     For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
 * System administrators can manage and share workspaces that other users created. 
@@ -121,274 +119,6 @@ You must grant separate permissions to record views. Granting permissions to the
 
 
 
-
-<!--
-<table>
-  <tr>
-   
-
-   </td>
-  </tr>
-  <tr>
-   <td>
-   </td>
-   <td>
-   </td>
-   <td><p><b>New: Standard license</b></p> <p><b>Current: Worker or higher license</b></p></strong>
-   </td>
-   <td><strong>Manage permissions</strong>
-   </td>
-   <td><strong>Contribute permissions</strong>
-   </td>
-   <td><strong>View permissions</strong>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Create</strong>
-   </td>
-   <td rowspan="5" ><strong>Workspace</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Delete</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Share</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Edit</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>View</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Create/delete</strong>
-   </td>
-   <td rowspan="3" ><strong>Record Type*</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Edit</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>View</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Create/delete</strong>
-   </td>
-   <td rowspan="3" ><strong>Record*</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Edit</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>View</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-  </tr>
-  <tr>
-   <tr>
-   <td><strong>Create</strong>
-   </td>
-   <td rowspan="5" ><strong>View</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Delete</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Share</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Edit</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>View</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>
-   </td>
-   <td>✓
-   </td>
-  </tr>
-
-<tr>
-   <td><strong>Create/delete</strong>
-   </td>
-   <td rowspan="3" ><strong>Fields*</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Edit</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>
-   </td>
-   <td>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>View</strong>
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-   <td>✓
-   </td>
-  </tr>
-
-
-
-</table>
-
-*Record types, records, and fields inherit permissions from the Workspace. -->
 
 
  
