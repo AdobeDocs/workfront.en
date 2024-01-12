@@ -273,7 +273,7 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Mapping metadata in Experience Manager Assets Essentials now uses <code>xcm:keywords</code> instead of <code>dc:subject</code></a></p><p>[!BADGE In production ]{type=Informative}</p><p>We've updated the Experience Manager Assets Essentials integration to match the experience in the Experience Manager Assets as a Cloud Service integration. Now, when mapping multiple single-line text fields to a single field in Experience Manager Assets, both services use the <code>xcm:keywords</code> field.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Mapping metadata in Experience Manager Assets Essentials now uses <code>xcm:keywords</code> instead of <code>dc:subject</code></a></p><p>[!BADGE In production ]{type=Informative}</p><p>We've updated the Experience Manager Assets Essentials integration to match the experience in the Experience Manager Assets as a Cloud Service integration. Now, when mapping multiple single-line text fields to a single field in Experience Manager Assets, both services use the <code>xcm:keywords</code> field.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
