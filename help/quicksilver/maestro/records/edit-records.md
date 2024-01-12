@@ -173,5 +173,5 @@ The workspace that you access last opens.
     
 1. (Optional) Use the following keyboard shortcuts to undo or redo editing or copying and pasting record information: 
 
-    * **Undo**: CTRL/CMD + Z
-    * **Redo**: CTRL/CMD + Shift + Z
+    * CTRL + Z (⌘ + Z for Mac) to undo a change 
+    * CTRL + Shift + Z (⌘ + Shift + Z for Mac) to redo a change 

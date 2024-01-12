@@ -85,12 +85,6 @@ You must have the following access to perform the steps in this article:
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>--> 
-
 ## Considerations about deleting records
 
 * You can delete records that you or another user created. 
@@ -151,5 +145,5 @@ You can delete a record from the following areas:
 
 1. (Optional) Use the following keyboard shortcuts to undo or redo deleting a record:
 
-   * **Undo**: CTRL/CMD + Z
-   * **Redo**: CTRL/CMD + Shift + Z
+    * CTRL + Z (⌘ + Z for Mac) to undo a change 
+    * CTRL + Shift + Z (⌘ + Shift + Z for Mac) to redo a change 
