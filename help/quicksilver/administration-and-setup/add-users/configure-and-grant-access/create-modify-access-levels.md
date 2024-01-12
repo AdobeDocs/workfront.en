@@ -49,6 +49,8 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 ## Create or edit a custom access level
 
 {{step-1-to-setup}}
