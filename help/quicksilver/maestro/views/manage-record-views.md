@@ -42,55 +42,6 @@ You must have the following access to perform the steps in this article:
     <tr>
 <tr>
 <td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader">Access level</td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
-
-
-<!--
-When we release permissions to views:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
    <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
@@ -114,13 +65,13 @@ When we release permissions to views:
   </tr>
   
   <tr>
-   <td role="rowheader">Access level configurations</td>
-   <td> <p>There are no access controls for Maestro objects</p>  
+   <td role="rowheader">Access level configuration</td>
+   <td> <p>There are no access level controls for Maestro</p>  
 </td>
   </tr>
 
   <tr>
-   <td role="rowheader"><p>Object permissions</p></td>
+   <td role="rowheader"><p>Permissions</p></td>
    <td> <p>Manage permissions to the view</p>  
 </td>
   </tr>
@@ -133,16 +84,12 @@ When we release permissions to views:
  </tbody>
 </table>
 
--->
-
-
 ## Considerations when working with Maestro views
 
 * Views in Maestro are record type-specific. You cannot apply the same view to two different record types. 
-* Views that you create are visible to everyone who accesses the Maestro area. <!-- edit this when we have permissions and the views will be shared only to be visible by others-->
-<!-- this is not yet possible: * You can share views with others if you want them to also apply them to the same record types.-->
+* Views that you create are visible only to you and users who you share the views with. 
 * Building views for operational record types is identical to building views for taxonomy record types. 
-* When you modify or delete a view, it is modified and deleted for all users who can access the Maestro area. 
+* When you modify or delete a view, it is modified and deleted for all users who have permissions to the view. 
 * The following elements are unique to each view in Maestro:
 
     * Filter
@@ -157,14 +104,13 @@ When we release permissions to views:
     >
     > Because Maestro is currently in a beta state, some view elements might not be available to both views.
 
-
 This article describes the following information about Maestro views:
 
 * [Create and edit a view](#create-or-edit-record-views) 
 * [Delete a view](#delete-views)
 <!--* [Duplicate a view](#duplicate-views)-->
 <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
-<!--* [Share a view](#share-views) - not possible yet-->
+* [Share a view](#share-a-view)
 
 ## Similarities and differences between the table and timeline views
 
@@ -194,8 +140,10 @@ The following table shows the similarities and differences between the table and
 
 ## Create or edit views {#create-or-edit-views}
 
-1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner, or the **Main Menu** icon ![](assets/main-menu-shell.png) in the upper-left corner, if available, then click **Maestro** ![](assets/maestro-icon.png). 
-    The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture/create-workspaces.md).
+{{step1-to-maestro}} 
+    
+    
+The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture/create-workspaces.md).
 1. Click a record type card. For information about creating a record type, see [Create record types](../architecture/create-record-types.md). 
 
     By default, all the records of the selected type display in the table view. 
@@ -243,6 +191,11 @@ The workspace you last accessed opens by default. For information about creating
 1. Click **Delete** to confirm. <!--ensure there is not another saving step here?!-->
     
     The view is deleted for all users who can access the Maestro area and it cannot be recovered. 
+
+## Share a view
+
+For information about sharing views, see [Share views](/help/quicksilver/maestro/access/share-views.md). 
+
 
 <!--not possible yet - August 30, 2023: 
 

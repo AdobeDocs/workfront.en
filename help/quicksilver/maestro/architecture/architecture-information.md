@@ -8,7 +8,7 @@ exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
 ---
 <!--
 ---
-title: Architecture information
+title: "Architecture: article index"
 description: The following articles describe how you can configure the architecture of Adobe Maestro. As part of this configuration, you learn how you create workspaces, record types, and custom fields to map out the workflows you want to manage in Adobe Maestro. 
 hidefromtoc: yes
 author: Alina
@@ -18,7 +18,7 @@ hide: yes
 ---
 -->
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Architecture: article index
 
@@ -49,5 +49,6 @@ The articles in the following sections describe how you can configure the Maestr
 * [Connect record types](../architecture/connect-record-types.md)
 * [Example of connecting record types and records](../architecture/example-connect-record-types-and-records.md)
 * [Delete workspaces](../architecture/delete-workspaces.md)
+* [Edit workspaces](/help/quicksilver/maestro/architecture/edit-workspaces.md)
 * [Delete record types](../architecture/delete-record-types.md)
 

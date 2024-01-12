@@ -75,7 +75,17 @@ The task smart assignments calculation works in two phases.
 
 #### First phase of smart assignment calculation for tasks 
 
-In the first phase of calculating smart assignments, Workfront calculates a similarity score for every assignment. The calculation for the similarity score and the order in which the assignments are listed take into account the following:  
+In the first phase of calculating smart assignments, Workfront calculates a similarity score for every assignment. 
+
+>[!NOTE]
+>
+>The first phase of the smart assignments calculation does not apply to the following task areas:
+>
+>* Bulk Assignments in the Workload Balancer.
+>* Connected cards on boards.
+
+
+The calculation for the similarity score and the order in which the assignments are listed take into account the following:  
 
 * A score of 100% is given to an existing assignment where the task, project, and portfolio names are identical to the task you're trying to assign. The project and portfolio names of the task of an existing assignment must also match the project and portfolio of the task you are trying to assign.   
 
@@ -109,7 +119,7 @@ For more information, see the section [Smart assignments criteria for tasks and 
 
 >[!NOTE]
 >
-><span class="preview">The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. for information, see the section [First phase of smart assignment calculation for tasks](#first-phase-of-smart-assignment-calculation-for-tasks) in this article. The following criteria always applies for issues, by default. </span>
+><span class="preview">The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. For information, see the section [First phase of smart assignment calculation for tasks](#first-phase-of-smart-assignment-calculation-for-tasks) in this article. The following criteria always applies for issues, by default. </span>
 
 Users are recommended in the smart assignments drop-down list based on a combination of the following criteria (listed in order from most important to least important): 
 

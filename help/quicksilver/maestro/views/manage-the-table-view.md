@@ -40,48 +40,6 @@ You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto">
  <col>
- <tbody>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader">Access level</td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
-
-<!--
-When we release permissions to views:
-
-<table style="table-layout:auto">
- <col>
  </col>
  <col>
  </col>
@@ -112,13 +70,13 @@ When we release permissions to views:
   </tr>
   
   <tr>
-   <td role="rowheader">Access level configurations</td>
-   <td> <p>There are no access controls for Maestro objects</p>  
+   <td role="rowheader">Access level configuration</td>
+   <td> <p>There are no access level controls for Maestro </p>  
 </td>
   </tr>
 
   <tr>
-   <td role="rowheader"><p>Object permissions</p></td>
+   <td role="rowheader"><p>Permissions</p></td>
    <td> <p>Manage permissions to the view</p>  
 </td>
   </tr>
@@ -130,9 +88,6 @@ When we release permissions to views:
   </tr>
  </tbody>
 </table>
-
--->
-
 
 ## Manage a table view {#manage-a-table-view}
 
@@ -206,8 +161,6 @@ You can add up to 500 fields (or columns) in a table view.
     >       * Number
     >       * Formula
     >
-    >         Formula fields will be released at a later date. 
-    >
     >   * The primary field is always frozen and cannot be moved. You can select another field to replace a primary field, if you need to move it to another position. 
     >
     >   * Changing the primary field in your table view affects the view for all other users who choose it.
@@ -261,7 +214,7 @@ You can have up to 10,000 records (or rows) for a record type in Maestro.
 1. Go to a record type page and select a **Table** view from the view drop-down menu.
 1. Start adding records (or rows), as described in the article [Create records](../records/create-records.md). 
 
-    The records you add in the table view are saved immediately and are visible to all users who access Maestro. <!--this will change with permissions-->
+    The records you add in the table view are saved immediately and are visible to all users who have View or higher permissions to the workspace. 
 
 1. (Optional) Select one or multiple records in a row, then drag and drop the **handle** icon ![](assets/handle-icon.png) to the left of the record name to reorder the rows. 
 
