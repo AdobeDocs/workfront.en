@@ -7,7 +7,7 @@ exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
 ---
 # First Quarter 2024 release overview
 
-This page provides information about functionality that is included in the First Quarter 2024 release scheduled for January 2024. 
+This page provides information about functionality that is included in the First Quarter 2024 release scheduled for the week of January 15, 2024.
 
 The enhancements on this page are available in the Preview environment. This page will be updated with additional enhancements as the First Quarter 2024 release nears its planned Production release.
 
@@ -54,7 +54,7 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Proof/document decisions now available for the previous 12 months</a><span style="color: #ff0000;"> New in Preview!</span></p><p>The Users Decisions reports for both new and legacy license types now display the number of decisions for the current month as well as the previous 12 months.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Proof/document decisions now available for the previous 12 months</a></p><p>The Users Decisions reports for both new and legacy license types now display the number of decisions for the current month as well as the previous 12 months.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -202,7 +202,7 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">New Pending approvals widget available</a></p><p><span style="color: #ff0000;"> New in Preview!</span></p><p>To make it easier for you to see the status of approvals and reviews on projects you own, we've added a new Pending Approvals widget to Home. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">New Pending approvals widget available</a></p><p>To make it easier for you to see the status of approvals and reviews on projects you own, we've added a new Pending Approvals widget to Home. </p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -351,7 +351,7 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                                 <p>Production for fast release: With the 24.1 release</p>
                             </li>
                             <li>
-                                <p>Production for quarterly release: With the 24.1 release</p>
+                                <p>Production for all customers: With the 24.4 release (April 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -377,7 +377,7 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Drag and drop image in a comment in the Updates section</a><span style="color: #ff0000;"> New in Preview!</span></p><p>To enhance the content of your comments, you can now quickly drag and drop an image in a comment or reply in the Updates section of an object.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Drag and drop image in a comment in the Updates section</a></p><p>To enhance the content of your comments, you can now quickly drag and drop an image in a comment or reply in the Updates section of an object.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>

@@ -40,48 +40,6 @@ You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto">
  <col>
- <tbody>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader">Access level</td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
-
-<!--
-When we release permissions to views:
-
-<table style="table-layout:auto">
- <col>
  </col>
  <col>
  </col>
@@ -112,13 +70,13 @@ When we release permissions to views:
   </tr>
   
   <tr>
-   <td role="rowheader">Access level configurations</td>
-   <td> <p>There are no access controls for Maestro objects</p>  
+   <td role="rowheader">Access level configuration</td>
+   <td> <p>There are no access level controls for Maestro </p>  
 </td>
   </tr>
 
   <tr>
-   <td role="rowheader"><p>Object permissions</p></td>
+   <td role="rowheader"><p>Permissions</p></td>
    <td> <p>Manage permissions to the view</p>  
 </td>
   </tr>
@@ -130,8 +88,6 @@ When we release permissions to views:
   </tr>
  </tbody>
 </table>
-
--->
 
 
 ## Manage a timeline view {#manage-a-timeline-view}
