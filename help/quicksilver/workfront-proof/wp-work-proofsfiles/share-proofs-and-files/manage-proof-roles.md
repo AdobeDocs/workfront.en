@@ -3,12 +3,14 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
 title: Manage Proof Roles in [!DNL Workfront Proof]
-description: Proof roles enable you to grant permissions to users who are limited by the permission profile that is configured on their user profile. (For more information about permission profiles, see Proof Permissions Profiles in [!DNL Workfront Proof].)
+description: Proof roles enable you to grant permissions to users who are limited by the permission profile that is configured on their user profile.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b371cc20-4226-49ce-96c6-9815b2e84713
 ---
 # Manage Proof Roles in [!DNL Workfront Proof]
+
+<!-- Audited: 01/2024 -->
 
 >[!IMPORTANT]
 >
@@ -134,7 +136,7 @@ For more information, see [Share Folders in [!DNL Workfront Proof]](../../../wor
 
 >[!NOTE]
 >
->This role can only be assigned to users of [!DNL Workfront Proof]
+>This role can only be assigned to users of [!DNL Workfront Proof].
 
 ### Moderator {#moderator}
 
@@ -171,10 +173,6 @@ This role allows the person to manage and moderate the proof comments, giving th
 
 You can assign proof roles when creating new proofs, creating new versions of existing proofs, or on existing proofs.
 
-* [New Proofs](#new-proofs)
-* [New Versions](#new-versions)
-* [Existing Proofs](#existing-proofs)
-
 ### New Proofs {#new-proofs}
 
 Proof roles can be assigned to reviewers on the [!UICONTROL New proof] page during the proof creation process (1).
@@ -183,7 +181,7 @@ Proof roles can be assigned to reviewers on the [!UICONTROL New proof] page duri
 
 ### New Versions {#new-versions}
 
-When creating a New version of a proof, the reviewers from the previous version will automatically be shown (with the same role as the previous version).
+When creating a new version of a proof, the reviewers from the previous version will automatically be shown (with the same role as the previous version).
 
 You can edit the proof roles applied to reviewers when creating the new version (1).
 
@@ -191,7 +189,7 @@ You can edit the proof roles applied to reviewers when creating the new version 
 
 ### Existing Proofs {#existing-proofs}
 
-If you want to change a person's role on an existing proof, you can do so on the [!UICONTROL Proof details] page by inline editing their role in the workflow section (1):
+If you want to change a person's role on an existing proof, you can do so on the [!UICONTROL Proof details] page by inline editing their role in the workflow section (1).
 
 ![Proof_Roles_-_Proof_Details_page_2.png](assets/proof-roles---proof-details-page-2-350x131.png)
 
@@ -214,9 +212,6 @@ For more information, see [Personal settings in [!DNL Workfront Proof]](../../..
 ## Creators and Owners
 
 Creators and Owners have full edit rights on the proof.
-
-* [Creators](#creators)
-* [Owners](#owners)
 
 ### Creators {#creators}
 
@@ -243,9 +238,9 @@ The ability to change the Owner of a proof is particularly useful from a workflo
 
 To change the Owner of the proof via the [!UICONTROL Proof details] page:
 
-* Click on the Actions menu next to the name of the person you would like to make the Owner 
-* Select [!UICONTROL Make owner] from the drop-down menu. 
-* Alternatively, you can click into the [!UICONTROL Owner] field next to the proof image and choose the new Owner from the drop-down displayed.
+* Click on the Actions menu next to the name of the person you would like to make the Owner.
+* Select [!UICONTROL **Make owner**] from the drop-down menu.
+* Alternatively, you can click into the [!UICONTROL **Owner**] field next to the proof image and choose the new Owner from the drop-down displayed.
 
 Once this is done, the word "Owner" will be displayed next to that person's name.
 
@@ -257,8 +252,5 @@ Once this is done, the word "Owner" will be displayed next to that person's name
 >* There are no custom fields on the [!UICONTROL New proof] page.
 >* The proof has not been assigned to a folder.
 >* No tags have been applied to the proof.
->
-
-
 
 To temporarily delegate proof ownership within [!DNL Workfront Proof], see [Designating Temporary Proof Owners in [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md).
