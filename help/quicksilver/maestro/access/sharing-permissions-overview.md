@@ -28,9 +28,9 @@ This article describes the permission levels for Maestro objects.
 
 For information about how to share workspaces or views, see the following articles: 
 
-* [Share a workspace](/help/quicksilver/maestro/access/share-workspaces.md)
+* [Share workspaces](/help/quicksilver/maestro/access/share-workspaces.md)
 
-* [Share a view](/help/quicksilver/maestro/access/share-views.md)
+* [Share views](/help/quicksilver/maestro/access/share-views.md)
 
 ## Objects you can share in Adobe Maestro
 
@@ -47,7 +47,7 @@ You can share the following objects in Maestro:
 * You must have the following license to create workspaces in Maestro:
 
    * New pricing model: Standard license 
-   * Current pricing model: Work or higher license 
+   * Current pricing model: Plan license. 
 
     For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
 * System administrators can manage and share workspaces that other users created. 

@@ -194,7 +194,7 @@ The workspace you last accessed opens by default. For information about creating
 
 ## Share a view
 
-For information about sharing views, see [Share a view](/help/quicksilver/maestro/access/share-views.md). 
+For information about sharing views, see [Share views](/help/quicksilver/maestro/access/share-views.md). 
 
 
 <!--not possible yet - August 30, 2023: 

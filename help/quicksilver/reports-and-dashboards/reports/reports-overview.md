@@ -21,7 +21,7 @@ This section contains the following subsections:
 * [Custom view, filter, and grouping samples: article index](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md) 
 * [Text Mode resources: article index](../../reports-and-dashboards/reports/text-mode/text-mode-resources.md) 
 * [Report usage overview](../../reports-and-dashboards/reports/report-usage/report-usage-overview.md) 
-* [Calendars](../../reports-and-dashboards/reports/calendars/calendars.md) 
+* [Calendars: article index](../../reports-and-dashboards/reports/calendars/calendars.md) 
 * [Tips, tricks, and troubleshooting for reports](../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)
 
 <!--outdated: For in-depth training on reports, see  [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program).-->

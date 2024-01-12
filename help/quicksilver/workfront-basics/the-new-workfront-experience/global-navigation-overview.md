@@ -87,7 +87,7 @@ Each icon takes you to a different area of the new [!DNL Adobe Workfront] experi
      <li>[!UICONTROL Projects]: <a href="../../manage-work/projects/projects-overview.md" class="MCXref xref">Projects: article index</a></li> 
      <li>[!UICONTROL Reports]: <a href="../../reports-and-dashboards/reports/reports-overview.md" class="MCXref xref">Reports</a></li> 
      <li>[!UICONTROL Dashboards]: <a href="../../reports-and-dashboards/dashboards/dashboards-overview.md" class="MCXref xref">Dashboards</a></li> 
-     <li>[!UICONTROL Calendars]: <a href="../../reports-and-dashboards/reports/calendars/calendars.md" class="MCXref xref">Calendars</a></li> 
+     <li>[!UICONTROL Calendars]: <a href="../../reports-and-dashboards/reports/calendars/calendars.md" class="MCXref xref">Calendars: article index</a></li> 
      <li>[!UICONTROL Resourcing]: <a href="../../resource-mgmt/resource-mgmt-overview/resource-management-overview.md" class="MCXref xref">Resource Management </a></li> 
      <li>[!UICONTROL Teams]: <a href="../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md" class="MCXref xref">Create and manage teams</a></li> 
      <li>[!UICONTROL Users]: <a href="../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md" class="MCXref xref">Create and manage users</a></li> 

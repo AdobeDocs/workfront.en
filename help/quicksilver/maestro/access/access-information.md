@@ -24,7 +24,7 @@ The following articles contain information about what access your users need to 
 
 * [Access overview](../access/access-overview.md)
 * [Overview of sharing permissions in Adobe Maestro](/help/quicksilver/maestro/access/sharing-permissions-overview.md)
-* [Share a workspace](/help/quicksilver/maestro/access/share-workspaces.md)
-* [Share a view](/help/quicksilver/maestro/access/share-views.md)
+* [Share workspaces](/help/quicksilver/maestro/access/share-workspaces.md)
+* [Share views](/help/quicksilver/maestro/access/share-views.md)
 
 

@@ -49,5 +49,6 @@ The articles in the following sections describe how you can configure the Maestr
 * [Connect record types](../architecture/connect-record-types.md)
 * [Example of connecting record types and records](../architecture/example-connect-record-types-and-records.md)
 * [Delete workspaces](../architecture/delete-workspaces.md)
+* [Edit workspaces](/help/quicksilver/maestro/architecture/edit-workspaces.md)
 * [Delete record types](../architecture/delete-record-types.md)
 

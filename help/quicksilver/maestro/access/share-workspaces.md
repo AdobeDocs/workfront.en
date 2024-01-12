@@ -1,5 +1,5 @@
 ---
-title: Share a workspace
+title: Share workspaces
 description: You can share a workspace with others to ensure collaboration when working in Adobe Workfront Maestro. 
 hidefromtoc: yes
 hide: yes
@@ -9,7 +9,7 @@ exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
-# Share a workspace
+# Share workspaces
 
 You can share a workspace with others to ensure collaboration when working in Adobe Workfront Maestro. 
 
