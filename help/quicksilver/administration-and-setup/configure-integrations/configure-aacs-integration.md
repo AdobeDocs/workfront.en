@@ -34,13 +34,13 @@ You must have the following:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] plan*</strong>
+   <td><strong>[!DNL Adobe Workfront] plan</strong>
    </td>
    <td>Any
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] licenses*</strong>
+   <td><strong>[!DNL Adobe Workfront] licenses</strong>
    </td>
    <td>Current: [!UICONTROL Plan] <br>
    New: [!UICONTROL Standard]
@@ -61,13 +61,12 @@ You must have the following:
   <tr>
    <td>Access level configurations*
    </td>
-   <td>You must be a [!DNL Workfront] administrator. For information on [!DNL Workfront] administrators, see <strong>Grant a user full administrative access</strong>.
+   <td>You must be a [!DNL Workfront] administrator.
    </td>
   </tr>
 </table>
 
-
-*To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Prerequisites
