@@ -66,37 +66,37 @@ You can use the following condition modifiers in filters and conditional formatt
   <tr valign="top"> 
    <td> <p><strong>Contains</strong> </p> </td> 
    <td> <p><strong>cicontains</strong> </p> </td> 
-   <td> <p>This is the case insensitive version of <strong>contains</strong>. For example: "cicontains inf" captures any value that contains either "Inf" or "inf".</p> <p> <p>Note: Adobe Workfront searches for the exact word or phrase that you are specifying for each filter statement. For example, if you are searching for any project that contains the phrase "new project" in the name, Workfront does not display projects that have just "new" or just "project", or "new main project" in the name. The filter finds only projects with the exact phrase "new project" in the name.</p> </p> </td> 
+   <td> <p>This is the <i>case insensitive</i> version of <strong>contains</strong>. For example: <code>cicontains inf</code> captures any value that contains either <code>Inf</code> or <code>inf</code>.</p> <p> <p>Note: Adobe Workfront searches for the exact word or phrase that you are specifying for each filter statement. For example, if you are searching for any project that contains the phrase <code>new project</code> in the name, Workfront does not display projects that have just <code>new</code> or just <code>project</code>, or <code>new main project</code> in the name. The filter finds only projects with the exact phrase <code>new project</code> in the name.</p> </p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>cieq</strong> </p> </td> 
-   <td> <p>(Case insensitive) This is the case insensitive option of <strong>eq</strong>. It only returns an exact match of the searched value.</p> <p>For example, when searching for a task with a specific name, "task name cieq test" finds tasks where the name is "Test", "TEST", or "Test", but it does not find a task with the name "test 123."</p> <p>This modifier can only be used in text mode filters. For more information about text mode in filters, see <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edit a filter using text mode</a>.</p> </td> 
+   <td> <p>This is the <i>case insensitive</i> option of <strong>eq</strong>. It only returns an exact match of the searched value.</p> <p>For example, when searching for a task with a specific name, <code>task name cieq test</code> finds tasks where the name is <code>Test</code>, <code>TEST</code>, or <code>Test</code>, but it does not find a task with the name <code>test 123.</code></p> <p>This modifier can only be used in text mode filters. For more information about text mode in filters, see <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edit a filter using text mode</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>ciin</strong> </p> </td> 
-   <td> <p>(Case insensitive) This is the case insensitive version of <strong>in</strong>.</p> <p>This modifier can only be used in text mode filters. For more information about text mode in filters, see <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edit a filter using text mode</a>.</p> </td> 
+   <td> <p> This is the <i>case insensitive</i> version of <strong>in</strong>.</p> <p>This modifier can only be used in text mode filters. For more information about text mode in filters, see <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edit a filter using text mode</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>cilike</strong> </p> </td> 
-   <td> <p>This is the case insensitive version of <strong>like</strong>. For example: "cilike %Current% %Dead%" returns any notes that contain "Current to Dead" or "current to dead".</p> <p>This modifier can only be used in text mode filters. For more information about text mode in filters, see <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edit a filter using text mode</a>.</p> </td> 
+   <td> <p>This is the <i>case insensitive</i> version of <strong>like</strong>. For example: <code>cilike %Current% %Dead%</code> returns any notes that contain <code>Current to Dead</code> or <code>current to dead</code>.</p> <p>This modifier can only be used in text mode filters. For more information about text mode in filters, see <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edit a filter using text mode</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>cinotin</strong> </p> </td> 
-   <td> <p>(Case insensitive) This is the case insensitive version of <strong>notin</strong>.</p> <p>This modifier can only be used in text mode filters. For more information about creating filters using text mode, see <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edit a filter using text mode</a>.</p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td>&nbsp;</td> 
-   <td> <p><strong>contains</strong> </p> </td> 
-   <td> <p>(Case sensitive) Searches for the specified text throughout an entire text string.</p> <p>For example, using "contains Inf" captures anything with "Inf" in it, such as the word "Infinity."</p> <p>This modifier can only be used in text mode filters.For more information about text mode in filters, see <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edit a filter using text mode</a>.</p> </td> 
+   <td> <p>This is the <i>case insensitive</i> version of <strong>notin</strong>.</p> <p>This modifier can only be used in text mode filters. For more information about creating filters using text mode, see <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edit a filter using text mode</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> <p><strong>Does Not Contain</strong> </p> </td> 
    <td> <p><strong>cinotcontains</strong> </p> </td> 
-   <td> <p>(Case insensitive) It filters for items that are missing the value specified.</p> <p>For example, "does not contain inf" captures anything without "Inf" or "inf" in the name.</p> <p>Note: <span>If the field you are filtering for has multiple options, this filters out the results that contain both the choice you specify, as well as the choice you specify and any additional choices.</span> </p> </td> 
+   <td> <p>This is the <i>case insensitive</i> version of <strong>notcontains</strong>.</p><p>This modifier filters for items that are missing the value specified.</p> <p>For example, <code>does not contain inf</code> captures anything without <code>Inf</code> or <code>inf</code> in the name.</p> <p>Note: <span>If the field you are filtering for has multiple options, this filters out the results that contain both the choice you specify, as well as the choice you specify and any additional choices.</span> </p> </td> 
+  </tr> 
+  <tr valign="top"> 
+   <td>&nbsp;</td> 
+   <td> <p><strong>contains</strong> </p> </td> 
+   <td> <p> Searches for the specified <i>case sensitive</i> text throughout an entire text string.</p> <p>For example, using <code>contains Inf</code> captures anything with <code>Inf</code> in it, such as the word <code>Infinity.</code></p> <p>This modifier can only be used in text mode filters.For more information about text mode in filters, see <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edit a filter using text mode</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td><strong>Does Not Exist</strong> </td> 
@@ -110,7 +110,7 @@ You can use the following condition modifiers in filters and conditional formatt
   <tr valign="top"> 
    <td> <p> </p> <p> </p> <p> </p> <p><strong>Equal</strong> </p> </td> 
    <td> <p><strong>in</strong> </p> </td> 
-   <td> <p>(Case sensitive) This modifier allows you to create a comma-separated list of variables to compare to a single attribute evaluated in a filter. The entire list is treated as an OR statement and returns any results that meet the criteria of one or more of the variables.</p> <p>For example, when searching for projects, using "in CUR, PLN, CPL" returns all projects that are in the Current, OR Planning, OR Complete status.</p> <p>The built-in modifier <strong>Equal</strong> corresponds to the text mode modifier of <strong>in</strong>. This means that you can choose Equal with multiple values for the field.</p> <p>For example, you are able to choose a "Status equals Current, Planning, Dead" in a project report and you can view projects in any of these statuses.</p> </td> 
+   <td> <p>This modifier allows you to create a comma-separated list of <i>case sensitive</i> variables to compare to a single attribute evaluated in a filter. The entire list is treated as an OR statement and returns any results that meet the criteria of one or more of the variables.</p> <p>For example, when searching for projects, using <code>in CUR, PLN, CPL</code> returns all projects that are in the Current, OR Planning, OR Complete status.</p> <p>The built-in modifier <strong>Equal</strong> corresponds to the text mode modifier of <strong>in</strong>. This means that you can choose Equal with multiple values for the field.</p> <p>For example, you are able to choose a "Status equals Current, Planning, Dead" in a project report and you can view projects in any of these statuses.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td> </td> 
