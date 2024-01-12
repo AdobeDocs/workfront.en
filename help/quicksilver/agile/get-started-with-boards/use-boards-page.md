@@ -9,6 +9,8 @@ exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
 ---
 # Use the boards dashboard
 
+<!-- Audited: 1/2024 -->
+
 >[!IMPORTANT]
 >
 >Workstreams are only available to a specific group of customers.
@@ -39,25 +41,30 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Request] or higher</p> </td> 
+   <td> 
+   <p>New: [!UICONTROL Contributor] or higher</p> 
+   <p>or</p>
+   <p>Current: [!UICONTROL Request] or higher</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## Filter boards and workstreams {#filter-boards}
 
 You can filter the boards dashboard to show active, archived, or all boards or workstreams.
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Boards]**.
 1. Click [!UICONTROL **Filter**] in the Boards area or the Workstreams area, and select **[!UICONTROL All]**, **[!UICONTROL Active]**, or **[!UICONTROL Archived]**.
 
    When a filter other than the default is applied on the dashboard, an indicator is displayed on the filter icon ![Filter applied to dashboard](assets/boards-filterapplied-30x30.png).
 
 ## Sort boards
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Boards]**.
 1. To sort the list of boards, click [!UICONTROL **Sort**]. The default sort option for the page is by **[!UICONTROL Date modified]**. You can also sort the page by board **[!UICONTROL Name]**.
 
    Select **[!UICONTROL Reverse order]** to sort the boards in reverse order of date modified or name. When the arrow on the sort icon points up, reverse order is applied. When the arrow points down, the standard order is applied.
@@ -68,7 +75,7 @@ You can filter the boards dashboard to show active, archived, or all boards or w
 
 You can search in the Boards area for a specific board, or search in the Workstreams area for a specific workstream.
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Boards]**.
 1. Click [!UICONTROL **Search**] and type a search term. Then, press Enter.
 
    All boards or workstreams that contain the search term in the title are displayed.
@@ -87,7 +94,7 @@ Archiving a board or a workstream sends it to the archive and you can restore it
 >
 >When you archive a workstream, all of its boards are archived.
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Boards]**.
 1. Click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) on the board or workstream, and select **[!UICONTROL Archive]**.
 
     On a workstream, the menu is on the right, next to the [!UICONTROL **View workstream**] button.
@@ -108,7 +115,7 @@ Deleting a workstream also deletes all of the boards in the workstream.
 >
 >You can only delete boards and workstreams that you created, not boards and workstreams that you were added to.
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Boards]**.
 1. Click the **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) on the board or workstream, and select **[!UICONTROL Delete]**.
 
    On a workstream, the menu is on the right, next to the [!UICONTROL **View workstream**] button.

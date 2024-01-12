@@ -639,7 +639,7 @@ feature-set: Workfront
       * [Hide reports](administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md)
     * Emails {#emails}
       * [Emails](administration-and-setup/manage-workfront/emails/emails.md)
-      * [Email Notifications](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
+      * [Email Notifications: article index](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
       * [Configure event notifications](administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
       * [Available event notificationa](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
       * [Unlock event notifications for all groups](administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
@@ -688,8 +688,8 @@ feature-set: Workfront
   * Manage groups {#manage-groups}
     * [Manage groups](administration-and-setup/manage-groups/manage-groups.md)
     * Groups {#groups}
-      * [Groups overview](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
-      * [Groups](administration-and-setup/manage-groups/groups-overview/groups.md)
+      * [Groups: article index](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
+      * [Groups overview](administration-and-setup/manage-groups/groups-overview/groups.md)
       * [Subgroups overview](administration-and-setup/manage-groups/groups-overview/subgroups.md)
       * [Home Groups overview](administration-and-setup/manage-groups/groups-overview/home-groups.md)
     * Create and manage groups {#create-manage-groups}
