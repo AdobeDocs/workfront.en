@@ -34,7 +34,7 @@ The features are released weekly and are listed in the order of their release, w
 >
 >The documentation referenced in the sections below will be available some time after the features are released to Production. 
 
-## Week of January 15, 2024
+## Week of January 8, 2024
 
 ### Maestro capabilities are removed from the Preview and Sandbox environments 
 

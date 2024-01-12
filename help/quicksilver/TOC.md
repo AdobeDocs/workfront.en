@@ -1654,7 +1654,7 @@ feature-set: Workfront
       * [Understand how to organize reports on a dashboard](reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)
       * [View report usage](reports-and-dashboards/reports/report-usage/view-report-usage.md)
     * Calendars {#calendars}
-      * [Calendars](reports-and-dashboards/reports/calendars/calendars.md)
+      * [Calendars: article index](reports-and-dashboards/reports/calendars/calendars.md)
       * [Calendar reports overview](reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
       * [Use custom date fields in a calendar report](reports-and-dashboards/reports/calendars/use-custom-dates.md)
       * [Use Planned Dates in a calendar report](reports-and-dashboards/reports/calendars/use-planned-dates.md)
@@ -2009,6 +2009,7 @@ feature-set: Workfront
     * [Connect record types](maestro/architecture/connect-record-types.md)
     * [Edit record types](maestro/architecture/edit-record-types.md)
     * [Delete workspaces](maestro/architecture/delete-workspaces.md)
+    * [Edit workspaces](maestro/architecture/edit-workspaces.md)
     * [Delete record types](maestro/architecture/delete-record-types.md)
     * [Example of connecting record types and records](maestro/architecture/example-connect-record-types-and-records.md)
     * [List of workspace templates](maestro/architecture/workspace-templates.md)
@@ -2023,8 +2024,8 @@ feature-set: Workfront
     * [Access information](maestro/access/access-information.md)
     * [Access overview](maestro/access/access-overview.md)
     * [Overview of sharing permissions in Adobe Maestro](maestro/access/sharing-permissions-overview.md)
-    * [Share a workspace](maestro/access/share-workspaces.md)
-    * [Share a view](maestro/access/share-views.md)
+    * [Share workspaces](maestro/access/share-workspaces.md)
+    * [Share views](maestro/access/share-views.md)
   * Adobe Maestro records {#adobe-maestro-records}
     * [Records: article index](maestro/records/records-information.md) 
     * [Create records](maestro/records/create-records.md)
