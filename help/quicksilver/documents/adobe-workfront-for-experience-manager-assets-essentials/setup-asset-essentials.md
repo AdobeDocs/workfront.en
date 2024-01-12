@@ -107,7 +107,7 @@ Before you begin, you must
 
 ## Supported Workfront and Experience Manager Assets fields
 
-**AEM Keyword**
+### AEM Keyword
 
 You can map any Workfront supported field to a keyword in Experience Manager Assets Essentials. 
 
