@@ -3,7 +3,7 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Filter information in the Workload Balancer
 description: To efficiently find work items and to focus on the users or items you manage, we strongly recommend that you use filters in the Workload Balancer.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
 ---
