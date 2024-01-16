@@ -27,35 +27,6 @@ For more information about the type of hours you can log in Workfront, see [Mana
 
 ## Access requirements
 
-<!--drafted for P&P - replace the table:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Light or higher</p>
-   <p>Legacy license: 
-   <ul><li>Review or higher to log General Hours in a timesheet</li>
-   <li>Work or higher to log hours on a project, task, or issue</li></ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to the type of work item you log time for </p> <p>For example, you need Edit access to Issues, to log time for issues</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute or higher permissions on the work item you log time for that includes permissions to Log Hours</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 You must have the following access to perform the steps in this article and log Project Specific hours:
 
 <table style="table-layout:auto"> 
@@ -63,30 +34,29 @@ You must have the following access to perform the steps in this article and log 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>New:<ul><li>Light or higher to log General Hours in a timesheet</li></p>
-   <li> Standard or higher to log hours on a project, task, or issue</li></ul></p>
-   <p>or</p>
-   <p>Current:<ul><li>Review or higher to log General Hours in a timesheet</li></p>
-   <li> Work or higher to log hours on a project, task, or issue</li></ul></p>
-   </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Light or higher</p>
+   <p>Current: 
+   <ul><li>Review or higher to log General Hours in a timesheet</li>
+   <li>Work or higher to log hours on a project, task, or issue</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to the type of work item you log time for </p> <p>For example, you need Edit access to Issues, to log time for issues</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to the type of work item you log time for </p> <p>For example, you need Edit access to Issues, to log time for issues</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute or higher permissions on the work item you log time for that includes permissions to Log Hours.</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Contribute or higher permissions on the work item you log time for that includes permissions to Log Hours</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## Considerations when logging time in Workfront
 
