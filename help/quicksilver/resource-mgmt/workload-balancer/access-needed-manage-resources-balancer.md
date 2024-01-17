@@ -2,8 +2,8 @@
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Access needed to manage resources in the Workload Balancer
-description: Without correct access or permissions, you may not be able to view or manage your work assignments in the Workload Balancerr.
-author: Alina
+description: Without correct access or permissions, you may not be able to view or manage your work assignments in the Workload Balancer.
+author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
 ---
