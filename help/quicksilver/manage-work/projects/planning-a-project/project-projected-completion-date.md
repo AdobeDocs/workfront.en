@@ -16,73 +16,44 @@ The following sections describe how the Projected Completion Date is determined 
 
 ## Access requirements
 
-<!--drafted for P&P:
+You must have the following access to perform the steps in this article:
+
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> 
-   <p>For current licenses: 
+   <p>New: 
    <ul><li><p>Contributor or higher to view the Projected Completion Date in a report</p></li> <li><p>A Standard license to create a report</p></li> </ul>
    
-   <p>For legacy licenses: 
+   <p>Current: 
    <ul><li><p>Review or higher to view the Projected Completion Date in a report</p></li> 
    <li><p>A Plan license to create a report</p> </li></ul>
       </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects</p> <p>You must have Edit access to Reports, Dashboards, Calendars to create a report</p> <p>You must have Edit access to Filters, Views, Groupings to create a report or modify a list view</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to Projects</p> <p>You must have Edit access to Reports, Dashboards, Calendars to create a report</p> <p>You must have Edit access to Filters, Views, Groupings to create a report or modify a list view</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to a project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-You must have the following access to perform the steps in this article:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Review or higher to view the Projected Completion Date in a report</p> <p>A Plan license to create a report</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects</p> <p>You must have Edit access to Reports, Dashboards, Calendars to create a report</p> <p>You must have Edit access to Filters, Views, Groupings to create a report or modify a list view</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to a project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View or higher permissions to a project</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## How Adobe Workfront determines the Projected Completion Date
 
-The Projected Completion Date is a calculated field, and cannot be manually changed.
+The Projected Completion Date is a calculated field and cannot be manually changed.
 
 The criteria used to determine&nbsp;the Projected Completion Date differs, depending on the object you are viewing:
 
@@ -116,27 +87,23 @@ The criteria used to determine&nbsp;the Projected Completion Date differs, depen
 
 ## View the Projected Completion Date
 
-You can view the Projected Completion Date of projects, tasks, and issues in reports. You can view the Projected Completion Date of projects and tasks in other areas of Workfront.&nbsp;
-
-* [View the Projected Completion Date of a project](#view-the-projected-completion-date-of-a-project) 
-* [View the Projected Completion Date of a task](#view-the-projected-completion-date-of-a-task) 
-* [View the Projected Completion Date of an issue](#view-the-projected-completion-date-of-an-issue)
+You can view the Projected Completion Date of projects, tasks, and issues in reports. You can view the Projected Completion Date of projects and tasks in other areas of Workfront.
 
 ### View the Projected Completion Date of a&nbsp;project {#view-the-projected-completion-date-of-a-project}
 
 1. Go to the project where you want to view the Projected Completion Date.
 1. Click **Project Details** in the left panel. 
-1. Locate the **Projected Completion Date** field in the **Overview** section.
+1. Locate the **Projected Completion Date** field in the **Overview** > **Project dates** section.
 
 ### View the Projected Completion Date of a&nbsp;task {#view-the-projected-completion-date-of-a-task}
 
 1. Go to the task where you want to view the Projected Completion Date.
 1. Click **Task Details** in the left panel.
-1. Locate the **Projected Completion Date** field in the **Overview** section.
+1. Locate the **Projected Completion Date** field in the **Overview** > **Task dates and constraint** section.
 
 ### View the Projected Completion Date of an&nbsp;issue {#view-the-projected-completion-date-of-an-issue}
 
-You can view the Projected Completion Date for issues only in an issue report or list view.&nbsp;Creating a list view is similar to creating the view in a report.
+You can view the Projected Completion Date for issues only in an issue report or list view. Creating a list view is similar to creating the view in a report.
 
 To create an issue report that includes the Projected Completion Date:
 
