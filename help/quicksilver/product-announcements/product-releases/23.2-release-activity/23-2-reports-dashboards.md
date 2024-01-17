@@ -4,6 +4,7 @@ description: 23.2 Reports and Dashboards enhancements
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 2b5785e4-2fc3-4b93-9fdf-9638282c732d
 ---
 # 23.2 Reports and Dashboards enhancements

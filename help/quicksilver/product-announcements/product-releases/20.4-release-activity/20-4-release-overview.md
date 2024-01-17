@@ -5,6 +5,7 @@ title: 20.4 release overview
 description: The 20.4 release was made available in the Production environment the week of November 9, 2020. For specific release dates and times for each cluster, see the Workfront Status Site.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
 ---
 # 20.4 release overview

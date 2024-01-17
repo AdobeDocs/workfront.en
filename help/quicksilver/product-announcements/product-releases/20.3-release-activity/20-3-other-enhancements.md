@@ -5,6 +5,7 @@ title: 20.3 other enhancements
 description: This page describes all other enhancements made with the 20.3 release to the Production environment. These enhancements were made available in the Production environment the week of August 10, 2020.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 6fef7261-114f-4c26-861e-61a4acb22d40
 ---
 # 20.3 other enhancements

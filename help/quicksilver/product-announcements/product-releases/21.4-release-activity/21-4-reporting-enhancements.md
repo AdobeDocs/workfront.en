@@ -4,6 +4,7 @@ description: 21.4 Reporting enhancements
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: db33cee1-45d3-4641-9afa-790de92654c5
 ---
 # 21.4 Reporting enhancements

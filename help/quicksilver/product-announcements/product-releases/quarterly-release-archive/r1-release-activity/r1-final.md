@@ -5,6 +5,7 @@ title: R1 Final
 description: 2018.3 Release Activity
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 38974e97-dea3-4c9e-bc32-bd55665370c7
 ---
 # R1 Final
