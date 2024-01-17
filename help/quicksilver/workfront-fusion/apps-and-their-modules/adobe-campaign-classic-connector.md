@@ -56,8 +56,55 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 ## Connect [!DNL Adobe Campaign Classic] to [!DNL Adobe Workfront Fusion]
 
 1. In any [!DNL Adobe Campaign Classic] module, click **[!UICONTROL Add]** next to the [!UICONTROL Connection] field.
-1. Enter the base URL that you use to connect to your [!DNL Adobe Campaign Classic] instance.
-1. Enter your Username and Password.
+1. Fill in the following fields:
+   <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+          <td role="rowheader">[!UICONTROL Connection type]</td>
+          <td>
+            <p>Select whether you are creating a .</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Connection name]</td>
+          <td>
+            <p>Enter a name for this connection.</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Base URL]</td>
+          <td>Enter the base URL that you use to connect to your [!DNL Adobe Campaign Classic] instance.</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Username]</td>
+          <td>If you are creating a basic connection, enter your Adobe Campaign username.</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Password]</td>
+          <td>If you are creating a basic connection, enter your Adobe Campaign password.</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Client ID]</td>
+          <td>If you are creating a server-to-server connection, enter your [!DNL Adobe] [!UICONTROL Client ID]. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Client Secret]</td>
+          <td>If you are creating a server-to-server connection, enter your [!DNL Adobe] [!UICONTROL Client Secret]. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Environment]</td>
+          <td>Select whether you are connection to a Production or Non-production environment.
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Type]</td>
+          <td>Select whether you are connecting to a service account or a personal account.
+        </tr>
+   </tbody>
+    </table>
 1. Click **[!UICONTROL Continue]** to create the connection and go back to the module.
 
 ## [!DNL Adobe Campaign Classic] modules and their fields
