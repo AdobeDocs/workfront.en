@@ -2,8 +2,9 @@
 product-area: projects
 navigation-topic: use-the-home-area
 title: Create work items from the Home area
-description: Create work items from the Home area
-author: Lisa
+description: You can create work items from the [!UICONTROL Home] area. You can create personal tasks for yourself, request work from other users, or add tasks to specific projects.
+
+author: Nolan
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
 ---
