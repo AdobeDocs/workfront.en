@@ -129,15 +129,13 @@ The following table shows the similarities and differences between the table and
 | Copy rows from an external list and paste them in a table             | ✓          |               |
 | Display records in a timeline                                            |            | ✓             |
 | Filter records                                       | ✓          | ✓             |
-| Group records                                      |           | ✓             |
+| Group records                                      |      ✓     | ✓             |
 | Sort records                                       | ✓          |              |
 | Color-code records                     |           | ✓              |
 | Color-code groupings                     |           | ✓              |
-| Search records                     |  ✓         | ✓              |
-
-<!--| Sort groupings                                                        | ✓          | ✓             |-->
- <!--| Display a limited number of fields as columns, by default                      | ✓          |               |-->
-
+| Search for specific records                     |  ✓         | ✓              |
+| Share view                     |  ✓         | ✓              |
+| Open the record's Details page from the view                    |  ✓         | ✓              |
 ## Create or edit views {#create-or-edit-views}
 
 {{step1-to-maestro}} 
@@ -165,15 +163,11 @@ The workspace you last accessed opens by default. For information about creating
     By default, Maestro names the view "Table < number >" or "Timeline < number >". The number is an automatically generated increment. 
 
 1. (Optional) To rename a view after it is created, click the view drop-down menu, then click the **More** menu ![](assets/more-menu.png) > **Rename** to update the view name. <!--ensure there is not another saving step here?!-->
-1. (Optional) To manage a view, see the following articles for more information: 
+1. (Optional) To manage a specific type of view, see the following articles: 
 
     * [Manage the table view](../views/manage-the-table-view.md)
     * [Manage the timeline view](../views/manage-the-timeline-view.md)
 
-
-<!--# Add a view as a favorite - this is not possible yet-->
-
-<!-- ## Share views - not possible yet-->
 
 ## Delete views
 
@@ -196,6 +190,7 @@ The workspace you last accessed opens by default. For information about creating
 
 For information about sharing views, see [Share views](/help/quicksilver/maestro/access/share-views.md). 
 
+<!--## Add a view as a favorite - this is not possible yet-->
 
 <!--not possible yet - August 30, 2023: 
 
