@@ -177,7 +177,7 @@ As part of assigning work to users, you can modify user allocations in the Workl
 
 1. In the **Assigned Work** area, find the user that you want to manually modify the allocation for, and click the right-pointing arrow to the left of the user name to expand the user.
 
-   ![Expand user](assets/wb-highlight%20-on-name-caret.png)
+   ![Expand user](assets/wb-highlight-on-name-caret2.png)
 
 1. Click the right-pointing arrow to the left of the project name to expand the project and display the work items that the user is assigned to.
 
