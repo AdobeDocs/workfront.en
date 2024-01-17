@@ -19,7 +19,7 @@ exl-id: 99fac041-a235-4991-b826-d19944164bc9
 >
 >Contact your account representative for more information about joining the beta program for Maestro.
 >
->For information, see [Adobe Maestro overview](../maestro-overview.md).
+>For information, see [Adobe Maestro overview](/help/quicksilver/maestro/maestro-overview.md). 
 
 There are license and sharing permission restrictions to use Adobe Maestro capabilities. 
 

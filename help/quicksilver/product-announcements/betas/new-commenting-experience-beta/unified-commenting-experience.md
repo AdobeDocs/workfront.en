@@ -11,9 +11,9 @@ exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
 # New commenting experience
 
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.  </span>  
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.  </span>  
 
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>-->
 
 <!--
 
@@ -396,7 +396,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -411,7 +411,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> 
    </td>
-   <td> <span class="preview">✓</span>
+   <td> ✓
    </td>
    <td> 
    </td>
@@ -426,7 +426,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> ✓
    </td>
-   <td> <span class="preview">✓</span>
+   <td> ✓
    </td>
    <td> 
    </td>
