@@ -136,6 +136,7 @@ The following table shows the similarities and differences between the table and
 | Search for specific records                     |  ✓         | ✓              |
 | Share view                     |  ✓         | ✓              |
 | Open the record's Details page from the view                    |  ✓         | ✓              |
+
 ## Create or edit views {#create-or-edit-views}
 
 {{step1-to-maestro}} 
