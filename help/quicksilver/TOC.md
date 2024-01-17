@@ -639,9 +639,9 @@ feature-set: Workfront
       * [Hide reports](administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md)
     * Emails {#emails}
       * [Emails](administration-and-setup/manage-workfront/emails/emails.md)
-      * [Email Notifications](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
+      * [Email Notifications: article index](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
       * [Configure event notifications](administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
-      * [Available event notification](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
+      * [Available event notificationa](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
       * [Unlock event notifications for all groups](administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
       * [Event notification subject lines](administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
       * [Modify users' email notification settings](administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
@@ -688,8 +688,8 @@ feature-set: Workfront
   * Manage groups {#manage-groups}
     * [Manage groups](administration-and-setup/manage-groups/manage-groups.md)
     * Groups {#groups}
-      * [Groups overview](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
-      * [Groups](administration-and-setup/manage-groups/groups-overview/groups.md)
+      * [Groups: article index](administration-and-setup/manage-groups/groups-overview/groups-overview.md)
+      * [Groups overview](administration-and-setup/manage-groups/groups-overview/groups.md)
       * [Subgroups overview](administration-and-setup/manage-groups/groups-overview/subgroups.md)
       * [Home Groups overview](administration-and-setup/manage-groups/groups-overview/home-groups.md)
     * Create and manage groups {#create-manage-groups}
@@ -775,7 +775,7 @@ feature-set: Workfront
   * Administration in the Adobe Admin Console {#admin-in-admin-console}
     * [Workfront Administration in the Adobe Admin Console](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
     * [Prepare for the Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)    
-    * [Understanding Workfront Product and User Migration to the Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)    
+    * [Understanding the Workfront Migration to the Adobe Admin Console](administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)    
   * Tips, tricks, and troubleshooting for administration and setup {#admin-setup-tips}
     * [Tips, tricks, and troubleshooting](administration-and-setup/tips-tricks-and-troubleshooting/ttt-admin-setup.md)
     * [Group admins must have higher access than those they manage](administration-and-setup/tips-tricks-and-troubleshooting/group-admin-access-level.md)
@@ -1654,7 +1654,7 @@ feature-set: Workfront
       * [Understand how to organize reports on a dashboard](reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)
       * [View report usage](reports-and-dashboards/reports/report-usage/view-report-usage.md)
     * Calendars {#calendars}
-      * [Calendars](reports-and-dashboards/reports/calendars/calendars.md)
+      * [Calendars: article index](reports-and-dashboards/reports/calendars/calendars.md)
       * [Calendar reports overview](reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
       * [Use custom date fields in a calendar report](reports-and-dashboards/reports/calendars/use-custom-dates.md)
       * [Use Planned Dates in a calendar report](reports-and-dashboards/reports/calendars/use-planned-dates.md)
@@ -2009,6 +2009,7 @@ feature-set: Workfront
     * [Connect record types](maestro/architecture/connect-record-types.md)
     * [Edit record types](maestro/architecture/edit-record-types.md)
     * [Delete workspaces](maestro/architecture/delete-workspaces.md)
+    * [Edit workspaces](maestro/architecture/edit-workspaces.md)
     * [Delete record types](maestro/architecture/delete-record-types.md)
     * [Example of connecting record types and records](maestro/architecture/example-connect-record-types-and-records.md)
     * [List of workspace templates](maestro/architecture/workspace-templates.md)
@@ -2023,8 +2024,8 @@ feature-set: Workfront
     * [Access information](maestro/access/access-information.md)
     * [Access overview](maestro/access/access-overview.md)
     * [Overview of sharing permissions in Adobe Maestro](maestro/access/sharing-permissions-overview.md)
-    * [Share a workspace](maestro/access/share-workspaces.md)
-    * [Share a view](maestro/access/share-views.md)
+    * [Share workspaces](maestro/access/share-workspaces.md)
+    * [Share views](maestro/access/share-views.md)
   * Adobe Maestro records {#adobe-maestro-records}
     * [Records: article index](maestro/records/records-information.md) 
     * [Create records](maestro/records/create-records.md)

@@ -1,5 +1,5 @@
 ---
-title: Share a view
+title: Share views
 description: You can share a view with others to ensure collaboration when working in Adobe Workfront Maestro. 
 hidefromtoc: yes
 hide: yes
@@ -10,7 +10,7 @@ recommendations: noDisplay, noCatalog
 
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
-# Share a view
+# Share views
 
 You can share a view with others to ensure collaboration when working in Adobe Workfront Maestro. 
 
@@ -106,8 +106,6 @@ To share a view with others:
 
 ## Remove permissions to a view
 
-
-{{step1-to-maestro}}
 
 {{step1-to-maestro}}
 

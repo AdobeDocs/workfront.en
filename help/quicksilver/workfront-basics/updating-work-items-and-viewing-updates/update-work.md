@@ -11,11 +11,11 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 
 <!-- Audited: 1/2024 -->
 
-<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
+<!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> 
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
 <!--
 After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
@@ -118,31 +118,28 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront license</strong></td> 
    <td> 
    <p>Current: Request or higher for issues and documents; Review or higher for all other objects</p>
    <p>New: Contributor or higher for issues and documents: Light or higher for all other objects</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>View or Edit access for the object the update is on</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader"><strong>Access level configurations</strong></td> 
+   <td> <p>View or Edit access for the object the update is on</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>View access to the object</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View access to the object</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Add an update to a work item
 
@@ -377,10 +374,8 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
 
 1. (Optional) To attach an image to your update, do one of the following: 
 
-   * <span class="preview">Save the image on our computer, then drag and drop it in the New comment area.</span>
-   <span class="preview">This is not available in the Production environment for the new commenting experience. Dragging and dropping an image in a comment is available in the legacy commenting experience in Production. </span>
-     
-   * <span class="preview">Copy a screenshot from your computer, then paste it in the comment </span> 
+   * Save the image on our computer, then drag and drop it in the New comment area.
+   * Copy a screenshot from your computer, then paste it in the comment. This is not available in the legacy commenting experience.  
    * Click the **Add image** icon ![](assets/add-image-mountain-with-plus-icon.png) and browse to the image on your computer. 
 
    
@@ -389,7 +384,7 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
    >* Your Workfront administrator must enable adding images in the Update Feeds Preferences section of the Workfront Interface area before you can see the Image or the Add attachment icons. For information, see [Configure preferences for user updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md). 
    >* The maximum image file size is 7 MB. Supported image file types are .jpg, .gif, and .png.
    >* Images are accessible from the Updates section on an object and they are also available in the Documents area under the Main Menu. 
-   >* <span class="preview">You can paste the image by right-clicking in the new comment, or by pressing CTRL + V for Windows (or CMD + V for Mac) on your keyboard.</span> 
+   >* You can paste the image by right-clicking in the new comment, or by pressing CTRL + V for Windows (or ⌘ + V for Mac) on your keyboard.
    >* You can send an update with an image and no text.
    >* When you delete a comment that contains an image, the following scenarios exist depending on which experience you choose: 
    >
@@ -401,12 +396,10 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
 
 1. (Optional) To view an image in the existing update do one of the following:
 
-   * Click the **Preview** icon <span class="preview">![](assets/previewimageicon-31x31.png)</span> on the image thumbnail to open the full-size image in a new browser tab.
+   * Click the **Preview** icon ![](assets/previewimageicon-31x31.png) on the image thumbnail to open the full-size image in a new browser tab.
    * Click the **Download** icon ![](assets/downloadimageicon.png) on the image thumbnail to download the image.
   
 1. Click **Submit** to add your comment. 
-
-<div class="preview">
 
 ## Search for an update
 
@@ -419,7 +412,11 @@ You can search for a comment or a reply in the Updates section of an object.
 1. Go to the **Updates** section of an object.
 1. Start typing a keyword <!--or a user's name --> in the **Search** box in the upper-right corner of the **Comments** tab. 
 
-    <!--Add this tip when it'll be possible: You can search for users who have been tagged or for comment owners.-->
+      <!--Add this tip or note instead of the note below - when it'll be possible: You can search for users who have been tagged or for comment owners.-->
+
+      >[!NOTE]
+      >
+      >   You can search only for words that belong to the text of a comment or reply. You cannot search for names of users or teams tagged in an update.    
 
       ![](assets/search-field-in-updates-tab.png)
 
@@ -428,8 +425,6 @@ You can search for a comment or a reply in the Updates section of an object.
       Workfront searches the entire update stream of the object, outside the comments that are visible on the screen. 
 
 1. Click the **x** icon in the search field to clear the search results and return to all comments.
-
-</div>
 
 <!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 

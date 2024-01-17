@@ -30,48 +30,6 @@ You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto">
  <col>
- <tbody>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader">Access level</td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
-
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
  </col>
  <col>
  </col>
@@ -79,7 +37,7 @@ After permssions - replace the table with:
     <tr>
 <tr>
 <td>
-   <p> Adobe product</p> </td>
+   <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -95,20 +53,25 @@ After permssions - replace the table with:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>Any</p> 
+   <p>New: Standard</p>
+   <p>Current: Plan</p> 
   </td>
   </tr>
   
   <tr>
-   <td role="rowheader"><p>Access level*</p></td>
-   <td> <p>System Administrator</p>  
-   <p>The following license types:</p>
-   <ul><li>New: Standard</li>
-   <li>Current: Worker or higher </li></ul>
+   <td role="rowheader"><p>Access level configuration</p></td>
+   <td> <p>There are no access level controls for Maestro</p>
 </td>
   </tr>
+
+<tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>You receive Manage permissions to the workspaces you create. </p>  
+</td>
+  </tr>
+
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
    <td> <p>You must add the Maestro area to your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
@@ -118,11 +81,7 @@ After permssions - replace the table with:
  </tbody>
 </table>
 
-For more information, see [Access requirements in Workfront documentation](/help/quicksilver\administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
--->
-
-
-
+For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -139,19 +98,21 @@ For more information, see [Access requirements in Workfront documentation](/help
 
 * You can create workspaces for specific organizational units within your organization, to match the unique way each unit works. 
 * The record types and taxonomies that a workspace contains should reflect the work lifecycle of an organizational unit. 
-* When you create a workspace, everyone in your organization can view, edit, or delete it.  <!--this will change with access levels and permissions-->
+* When you create a workspace, only you have the permission to access and manage your workspace. You must share it with other users in order for them to collaborate with you in the same space. For information, see [Share a workspace](/help/quicksilver/maestro/access/share-workspaces.md). 
 * You can have a maximum of 1,000 workspaces in your organization. 
 * Workspaces contain record types that are unique to each workspace. <!--this might change-->
 
 ## Create a workspace
 
-1. (Conditional) If you don't have any workspaces in your system, click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available, then click **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
-    Or, from an existing workspace, click the downward-pointing to the right of the workspace name, then click **Create workspace**. 
+1. (Conditional) If you don't have any workspaces in your environment, click **Create workspace**
 
-    ![](assets/workspace-drop-down-right-menu.png)
+   Or, from an existing workspace, click the downward-pointing to the right of the workspace name, then click **Create workspace**. 
 
-    This opens the Workspaces area of Maestro. 
+   ![](assets/workspace-drop-down-right-menu.png)
+
+   This opens the Workspaces area of Maestro. 
 1. (Optional and conditional) Click **Preview** inside any of the following predefined workspace templates:
 
     * Marketing management

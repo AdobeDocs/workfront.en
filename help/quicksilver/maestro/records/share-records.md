@@ -7,6 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
 ---
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--should this move to the Access folder when we have sharing for ALL the objects???-->
 
 # Share records
 
@@ -28,64 +29,13 @@ You can share a Maestro record in the following ways:
 
 * Copy a link to the record's Details page when viewing records in the record type's table view.   
 
-<!-- Update with this when we release permissions: 
-
-* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Grant access to Adobe Maestro](../access/grant-access.md).
--->
+* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Share a workspace](/help/quicksilver/maestro/access/share-workspaces.md).
 
 This article describes how you can copy a link to a record's Details page from the table view of a record type. 
-
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
 
 ## Access requirements
 
 You must have the following access to perform the steps in this article: 
-
-<table style="table-layout:auto">
- <col>
- <tbody>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader">Access level</td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
-
-<!--
-After permissions - replace the table with - below
-****AND - see more above, another bullet point to update when permissions are released****
 
 <table style="table-layout:auto">
  <col>
@@ -96,7 +46,7 @@ After permissions - replace the table with - below
     <tr>
 <tr>
 <td>
-   <p> Adobe product</p> </td>
+   <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -119,8 +69,15 @@ After permissions - replace the table with - below
   </tr>
   
   <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
+   <td role="rowheader"><p>Access level configuration</p></td>
+   <td> <p>There are no access level controls for Maestro</p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>View or higher permissions to a workspace to share a record using a link </p>
+   <p>Manage permissions to a workspace to share records while sharing the workspace the record belongs to </p>
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
 <tr>
@@ -128,16 +85,14 @@ After permissions - replace the table with - below
    <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
+
  </tbody>
 </table>
 
--->
+
+
+
+
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -152,9 +107,9 @@ After permissions - replace the table with - below
 
 ## Share record links from the record type table view
 
-1. Click the **Main Menu** ![](assets/main-menu-workfront.png) in the upper-right corner, or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available, then click **Maestro**. 
+{#step1-to-maestro}
 
-    The workspace that you accessed last opens. 
+   The workspace that you accessed last opens. 
 1. Click a record type card. 
 
     The record type page opens. 
@@ -179,3 +134,7 @@ After permissions - replace the table with - below
 
 
     <!--add there when it will be available: if they have access to this record-->
+
+## Share all records in a workspace by sharing the workspace
+
+You can share all records in a workspace when you share the workspace with others. For more information, see [Share a workspace](/help/quicksilver/maestro/access/share-workspaces.md). 

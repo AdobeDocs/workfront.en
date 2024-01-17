@@ -28,7 +28,7 @@ role: User
 >
 >Contact your account representative for more information about joining the beta program for Maestro.
 >
->For information, see [Adobe Maestro overview](../maestro-overview.md).
+>For information, see [Adobe Maestro overview](/help/quicksilver/maestro/maestro-overview.md). 
 
 You can display records in a timeline view, when accessing the record type page in Adobe Maestro. 
 
@@ -37,48 +37,6 @@ For information about Maestro views, see [Manage record views in Adobe Maestro](
 ## Access requirements
 
 You must have the following access to perform the steps in this article: 
-
-<table style="table-layout:auto">
- <col>
- <tbody>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader">Access level</td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
-
-<!--
-When we release permissions to views:
 
 <table style="table-layout:auto">
  <col>
@@ -112,13 +70,13 @@ When we release permissions to views:
   </tr>
   
   <tr>
-   <td role="rowheader">Access level configurations</td>
-   <td> <p>There are no access controls for Maestro objects</p>  
+   <td role="rowheader">Access level configuration</td>
+   <td> <p>There are no access level controls for Maestro </p>  
 </td>
   </tr>
 
   <tr>
-   <td role="rowheader"><p>Object permissions</p></td>
+   <td role="rowheader"><p>Permissions</p></td>
    <td> <p>Manage permissions to the view</p>  
 </td>
   </tr>
@@ -130,8 +88,6 @@ When we release permissions to views:
   </tr>
  </tbody>
 </table>
-
--->
 
 
 ## Manage a timeline view {#manage-a-timeline-view}
@@ -167,7 +123,12 @@ To manage a timeline view:
 
     ![](assets/timeline-view-example.png)
 
-    The records associated with the record type you selected display as bars in a timeline and are sorted in chronological order, by default.
+    The records associated with the record type you selected display as bars in a timeline and are sorted in chronological order of their Start Date, by default. 
+
+    >[!TIP]
+    >
+    >    The sorting of the records in the timeline is not visible in the Compact view.
+
 
 1. Do one of the following to navigate through the timeline:
 
@@ -203,8 +164,8 @@ To manage a timeline view:
 1. Update the following view elements as described in the subsections below:
     * [Filters](#add-filters)
     * [Grouping](#add-grouping)
-    <!--* [Sort](#add-sort) not sure if this is present in timeline views?!; also check the anchor and make sure it's correct-->
     * [Settings](#edit-the-timeline-view-settings)
+    <!--* [Sort](#add-sort) not sure if this is present in timeline views?!; also check the anchor and make sure it's correct-->
 
 ### Add filters
 

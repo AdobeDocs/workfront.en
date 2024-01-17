@@ -26,7 +26,7 @@ The following areas are included in the default layout of a [!UICONTROL Worker]:
 
 * **[!UICONTROL Dashboards]**: Dashboards that are shared with you display here. For information, see [Dashboards](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
-* **[!UICONTROL Calendars]**: Calendars that are shared with you display here. For information, see [Calendars](../../../reports-and-dashboards/reports/calendars/calendars.md).
+* **[!UICONTROL Calendars]**: Calendars that are shared with you display here. For information, see [Calendars: article index](../../../reports-and-dashboards/reports/calendars/calendars.md).
 
 * **[!UICONTROL Teams]**: Tasks and issues assigned to your teams display in this area. As a Worker, you are the only [!DNL Workfront] user who sees the [!UICONTROL Teams] area by default.
 

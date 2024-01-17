@@ -12,7 +12,7 @@ exl-id: c65cf8ab-e37f-42a4-9a81-70962629e9ba
 
 <!-- Audited: 01/2024 -->
 
-A calendar report is actually a dynamic report that provides a visual representation of your work. You can display date information in a calendar report for the following objects:
+A calendar report is a dynamic report that provides a visual representation of your work. You can display date information in a calendar report for the following objects:
 
 * Tasks
 * Issues

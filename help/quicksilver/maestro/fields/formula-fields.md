@@ -10,10 +10,8 @@ recommendations: noDisplay, noCatalog
 
 <!--update the metadata with real information when making this available in TOC and in the left nav - below-->
 
-<!--**********ADD TO miniTOC************>
-
 <!---
-title: Formula fields
+title: Formula fields overview
 description: In Adobe Maestro, you can create formula fields that use functions and existing  fields to calculate a new custom value. 
 hidefromtoc: yes
 hide: yes
@@ -47,52 +45,6 @@ You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto">
  <col>
- <tbody>
-<td>
-   <p> Adobe product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader">Access level</td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!--
-After permssions - replace the table with: 
-
-<table style="table-layout:auto">
- <col>
  </col>
  <col>
  </col>
@@ -100,7 +52,7 @@ After permssions - replace the table with:
     <tr>
 <tr>
 <td>
-   <p> Adobe product</p> </td>
+   <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -123,13 +75,8 @@ After permssions - replace the table with:
   </tr>
   
   <tr>
-   <td role="rowheader"><p>Access level</p></td>
-   <td> <p>Any</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
+   <td role="rowheader"><p>Access level configuration</p></td>
+   <td> <p>There are no access controls for Maestro</p>  
 </td>
   </tr>
 <tr>
@@ -138,10 +85,19 @@ After permssions - replace the table with:
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
+</td>
+  </tr>
+
  </tbody>
 </table>
 
--->
+<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
+<p>Current plan: Prime and Ultimate</p>
+<p>Legacy plan: Enterprise</p>-->
+
 
 ## Considerations about formula fields
 
@@ -153,10 +109,9 @@ After permssions - replace the table with:
 
 ## Supported formulas
 
-We support all formulas from the Workfront calculated fields. For more information, see [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Maestro formula fields support all expressions from the Workfront calculated fields. For more information, see [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 In addition, we support the following expressions for Maestro formula fields:
-
 
 <table style="table-layout:auto"> 
  <col> 
@@ -173,15 +128,22 @@ In addition, we support the following expressions for Maestro formula fields:
    <td><strong>ARRAYJOIN</strong> </td> 
    <td> <p>Returns concatenated string by delimiter.</p> <p>The expression is formatted as follows:
    
-      ARRAYJOIN(delimiter,array)
+   <code>ARRAYJOIN(delimiter,array)</code>
    </p>
    </td></tr>
 
    <tr> 
    <td><strong>ARRAYUNIQUE</strong> </td> 
    <td> <p>Returns array with unique values.</p> <p>The expression is formatted as follows:
+
+   <code>ARRAYUNIQUE(array)</code>
+   </p>
+   </td></tr>
+     <tr> 
+   <td><strong>ID</strong> </td> 
+   <td> <p>Returns the ID of a record.</p> <p>The expression is formatted as follows:
    
-      ARRAYUNIQUE(array)
+   <code>{ID}</code>
    </p>
    </td></tr>
   
@@ -189,7 +151,7 @@ In addition, we support the following expressions for Maestro formula fields:
    <td><strong>SETTIMEZONE</strong> </td> 
    <td> <p>Sets the timezone of a date and time to a specific timezone.</p> <p>The expression is formatted as follows:
    
-      SETTIMEZONE(date,'America/Los_Angeles')
+   <code>SETTIMEZONE(date,'America/Los_Angeles')</code>
    </p>
    </td></tr>
    
@@ -197,9 +159,9 @@ In addition, we support the following expressions for Maestro formula fields:
    <td><strong>WEEKOFYEAR</strong> </td> 
    <td> <p>Returns the week number in a year. Optionally, you can indicate which day the week starts on (use 1 for Sunday, or 2 for Monday). If ommitted, weeks start on Sunday, by default.</p> <p>The expression is formatted as follows:
    
-      WEEKOFYEAR(date,2)
+   <code>WEEKOFYEAR(date,2)</code>
       or
-      WEEKOFYEAR(date)
+   <code>WEEKOFYEAR(date)</code>
    </p>
    </td></tr>
    

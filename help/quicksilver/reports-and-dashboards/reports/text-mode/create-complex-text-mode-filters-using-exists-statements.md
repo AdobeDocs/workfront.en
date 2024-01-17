@@ -2,12 +2,14 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Create complex Text Mode filters using EXISTS statements
-description: Create complex Text Mode filters using EXISTS statements
+description: You can create complex Text Mode filters using EXISTS statements. This article requires a thorough understanding of the Adobe Workfront API and of the text mode reporting interface.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 106f7c9d-46cc-46c5-ae34-93fd13a36c14
 ---
 # Create complex Text Mode filters using EXISTS statements
+
+<!-- Audited: 01/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: do not EVER&nbsp;delete this article as long as Text Mode still exists in the system.&nbsp;Google ordered this article to be written and we wrote it with the help of consultants, so the use case is very complex and very hard to understand without this. It is also very much used by many customers)</p>
@@ -28,15 +30,15 @@ All objects are linked to other objects in the Workfront database.
 
 Understanding the hierarchy and interdependency of objects helps you find out what objects can be referenced in reports.
 
-For information about what objects are in Workfront and about their hierarchy and interdependency, see [Understand objects in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+For information about what objects are in Workfront and about their hierarchy and interdependency, see [Adobe Workfront objects overview](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 When building filters, you can reference other objects that are connected to the object of the filter within up to 2 levels of relationship using the standard reporting interface.
 
 For example, you can reference the Portfolio ID in an issue filter to display only issues on projects associated with a certain portfolio using the standard interface. In this case, the portfolio is 2 levels away from issues.
 
-However, you cannot reference the Portfolio Owner in an issue filter using the standard interface to display only issues from projects associated with portfolios where the owner is a specific user. You must use text mode to access the Portfolio Owner Name field which is three levels away from issues.
+However, you cannot reference the Portfolio Owner in an issue filter using the standard interface to display only issues from projects associated with portfolios where the owner is a specific user. You must use text mode to access the Portfolio Owner Name field, which is three levels away from issues.
 
-![issue_to_portfolio_owner_sraight_line_icons.PNG](assets/issue-to-portfolio-owner-sraight-line-icons-350x83.png)
+![Issue to portfolio owner icons](assets/issue-to-portfolio-owner-sraight-line-icons-350x83.png)
 
 For a complete list of objects in Workfront, see the [API Explorer](../../../wf-api/general/api-explorer.md).
 
@@ -44,7 +46,7 @@ For information about how to navigate the API Explorer and find objects, see [Us
 
 When building filters, you must build complex statements in the text-mode interface to reference these types of objects.
 
-For information about building complex filters, see the [Overview of Complex Text-Mode Filters that Use EXISTS Statements](#overview-of-complex-text-mode-filters-that-use-exists-statements) section.
+For information about building complex filters, see the [Overview of complex text mode filters that Use EXISTS statements](#overview-of-complex-text-mode-filters-that-use-exists-statements) section of this article.
 
 ## Overview of complex text mode filters that use EXISTS statements {#overview-of-complex-text-mode-filters-that-use-exists-statements}
 
@@ -75,7 +77,7 @@ Consider the following rules when using EXISTS statements in a filter:
   For information about the API Explorer, see the [API Explorer](../../../wf-api/general/api-explorer.md).
 
 * When a Linking Object is missing because the Original and the Target Objects are connected to each other directly, you can use the Object Code of the Target Object instead of the Linking Object.  
-* You can refer to multiple fields (Target Fields) on the same object (Target Object) in which case you must connect the lines that are referring to the fields by AND.  
+* You can refer to multiple fields (Target Fields) on the same object (Target Object), in which case you must connect the lines that are referring to the fields by AND.  
   For an example of filtering for more than one field that belongs to the Target Object, see the [Example 4: Filter by multiple fields: tasks by Portfolio Owner Name and Portfolio Alignment Scorecard ID](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id) section in this article.
 
 * The only modifier supported for an EXISTS statement is NOTEXISTS.
@@ -89,25 +91,27 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>New: Standard</p>
+       <p>Or</p>
+       <p>Current: Plan</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to edit filters in a report</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars to edit filters in a report</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report to edit filters in a report</p> <p>Manage permissions to a filter to edit it</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions to a report to edit filters in a report</p> <p>Manage permissions to a filter to edit it</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Create complex text mode filters that span multiple levels in the object hierarchy
 
@@ -125,9 +129,12 @@ To create a filter that spans over multiple levels in the object hierarchy:
 
 1. Identify the object of your filter. We refer to this object as the Original Object.  
    For example, Issue.
+
 1. Identify the field that you want to filter by. We refer to this object as the Target Field that belongs to a Target Object.  
-   For example, the ownerID field (Target Field) which belongs to Portfolio (Target Object).
-1. (Conditional) If the Original Object (Issue) and the Target Field (ownerID) are not directly connected to each other, you must find a third object, a Linking Object (Project) that connects them. The Linking Object must have at least one field that is referenced from the Fields or References tabs of the Original Object (Linking Field displayed on the Original Object) and it must also have a Linking Field to the Target Object displayed in the Fields or References tabs of the Linking Object. The Linking Field to the Target Object which displays on the Linking Object (or the Linking Field displayed on the Linking Object) must match the Target Field.  
+   For example, the ownerID field (Target Field), which belongs to Portfolio (Target Object).
+
+1. (Conditional) If the Original Object (Issue) and the Target Field (ownerID) are not directly connected to each other, you must find a third object, a Linking Object (Project) that connects them. The Linking Object must have at least one field that is referenced from the Fields or References tabs of the Original Object (Linking Field displayed on the Original Object), and it must also have a Linking Field to the Target Object displayed in the Fields or References tabs of the Linking Object. The Linking Field to the Target Object that displays on the Linking Object (or the Linking Field displayed on the Linking Object) must match the Target Field.
+
    For example, (Project) ID (Linking Field displayed on the Original Object) is referenced from Issues (Original Object). (Portfolio) ownerID (Linking Field to the Target Object) is displayed in the Fields tab of the Project (Linking Object). Portfolio ownerID is also a field on the Target Object (Portfolio). The Linking Field on the Linking Object matches the Target Field.  
    ![portfolio_id_in_the_project_api_object.PNG](assets/portfolio-id-in-the-project-api-object-350x88.png)  
 
@@ -140,13 +147,13 @@ To create a filter that spans over multiple levels in the object hierarchy:
    For information about creating filters, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Click **Switch to Text Mode**.
-1. Paste the following formula example to the text mode interface of the new filter and replace the suggested text with the correct objects and fields:  
+1. Paste the following formula example in the text mode interface of the new filter and replace the example text with the correct objects and fields:  
 
-   ```
-   EXISTS:A:$$OBJCODE=<Object code of the Linking Object>
-   EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>
-   EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>
-   ```
+   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
+
+   `EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>`
+
+   `EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
 
    For an example using the fields we have identified above, see the [Example 1: Filter for issues by Portfolio Owner Name](#example-1-filter-for-issues-by-portfolio-owner-name) section in this article.
 
@@ -171,10 +178,14 @@ To create a filter that references missing objects:
 
 1. Identify the object of your filter. We refer to this object as the Original Object.  
    For example, Parameter or Custom Field.
+
 1. Identify the field that you want to filter by. We refer to this object as the Target Field that belongs to a Target Object.  
-   For example, the categoryID field (Target Field) which belongs to Category (Target Object).
-1. Because the Original Object (Parameter) and the Target Field (categoryID) are not directly connected to each other, you must find a third object, a Linking Object (a Category Parameter) that connects them. The Linking Object must have at least one field that is referenced from the Fields or References tabs of the Original Object (Linking Field displayed on the Original Object) and it must also have a Linking Field to the Target Object displayed in the Fields or References tabs of the Linking Object. The Linking Field to the Target Object which displays on the Linking Object (or the Linking Field displayed on the Linking Object) must match the Target Field.  
-   For example, the ID of the Category Parameter (Linking Field displayed on the Original Object) is referenced from Parameter(Original Object). parameterID (Linking Field to the Target Object) is displayed in the Fields tab of the Category Parameter (Linking Object). The Linking Field to the Target Object which displays on the Linking Object matches the Target Field.
+   For example, the categoryID field (Target Field), which belongs to Category (Target Object).
+
+1. Because the Original Object (Parameter) and the Target Field (categoryID) are not directly connected to each other, you must find a third object, a Linking Object (a Category Parameter) that connects them. The Linking Object must have at least one field that is referenced from the Fields or References tabs of the Original Object (Linking Field displayed on the Original Object), and it must also have a Linking Field to the Target Object displayed in the Fields or References tabs of the Linking Object. The Linking Field to the Target Object that displays on the Linking Object (or the Linking Field displayed on the Linking Object) must match the Target Field.
+
+   For example, the ID of the Category Parameter (Linking Field displayed on the Original Object) is referenced from Parameter (Original Object). parameterID (Linking Field to the Target Object) is displayed in the Fields tab of the Category Parameter (Linking Object). The Linking Field to the Target Object that displays on the Linking Object matches the Target Field.
+
 1. Using the API Explorer, identify the **Object Code** of the Linking Object (Category Parameter).  
    For example, the Object Code for Category Parameter is CTGYPA.  
    ![category_parameter_objcode_in_api.PNG](assets/category-parameter-objcode-in-api-350x79.png)
@@ -184,15 +195,11 @@ To create a filter that references missing objects:
    For information about creating filters, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Click **Switch to Text Mode**.
-1. (Conditional) If you are filtering for objects that are missing, paste the following formula example to the text mode interface of the new filter and replace the suggested text with the correct objects and fields:
+1. (Conditional) If you are filtering for objects that are missing, paste the following formula example to the text mode interface of the new filter and replace the example text with the correct objects and fields:
 
-   ```
-   EXISTS:A:$$OBJCODE=<Object code of the Linking Object><br>
-   ```
+   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
-   ```
-   EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS
-   ```
+   `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
    For an example of reporting on Custom Fields that are not associated with Custom Forms, see the [Example 2: Filter for missing objects: custom fields that do not appear in any custom forms](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) section in this article.
 
@@ -200,10 +207,7 @@ To create a filter that references missing objects:
 
 ## Examples of text mode filters that span multiple levels in the object hierarchy
 
-* [Example 1: Filter for issues by Portfolio Owner Name](#example-1-filter-for-issues-by-portfolio-owner-name) 
-* [Example 2: Filter for missing objects: custom fields that do not appear in any custom forms](#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms) 
-* [Example 3: Filter for missing objects: users who did not log time for a certain period of time](#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time) 
-* [Example 4: Filter by multiple fields: tasks by Portfolio Owner Name and Portfolio Alignment Scorecard ID](#example-4-filter-by-multiple-fields-tasks-by-portfolio-owner-name-and-portfolio-alignment-scorecard-id)
+Use these examples to build text mode filters with EXISTS statements.
 
 ### Example 1: Filter for issues by Portfolio Owner Name {#example-1-filter-for-issues-by-portfolio-owner-name}
 
@@ -217,16 +221,17 @@ To filter issues by the Portfolio Owner Name:
 1. Click **Switch to Text Mode**.
 1. Refer to the following generic code:
 
-   ```
-   EXISTS:A:$$OBJCODE=<Object code of the Linking Object><br>
-   ```
+   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
-   ```
-   EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>
-   ```
+   `EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
 
-1. Paste the following code in the **Set Filter Rules for your Report** area to replace the generic code above:  
-   <pre>EXISTS:A:$$OBJCODE=PROJ<br>EXISTS:A:ID=FIELD:projectID<br>EXISTS:A:portfolio:ownerID=4d94d7da001699b19edf50de15682221</pre>
+1. Paste the following code in the **Set Filter Rules for your Report** area to replace the generic code above:
+
+   `EXISTS:A:$$OBJCODE=PROJ`
+
+   `EXISTS:A:ID=FIELD:projectID`
+
+   `EXISTS:A:portfolio:ownerID=4d94d7da001699b19edf50de15682221`
 
    >[!NOTE]
    >
@@ -242,11 +247,11 @@ To filter issues by the Portfolio Owner Name:
 
 ### Example 2: Filter for missing objects: custom fields that do not appear in any custom forms {#example-2-filter-for-missing-objects-custom-fields-that-do-not-appear-in-any-custom-forms}
 
-Using the text mode interface, you can build a filter to view Custom Fields (Parameters) that are not associated with Custom Forms (Categories). This filter links Parameters to Categories, which are connected through another object, Category Parameter. Because the two fields are not directly connected to one another and because you are filtering for missing information you must use an EXISTS statement.
+Using the text mode interface, you can build a filter to view Custom Fields (Parameters) that are not associated with Custom Forms (Categories). This filter links Parameters to Categories, which are connected through another object, Category Parameter. Because the two fields are not directly connected to one another and because you are filtering for missing information, you must use an EXISTS statement.
 
 >[!IMPORTANT]
 >
->A Parameter is a field as it exists in the Field Library referenced in a Custom Form. A Category Parameter is the version of a field that appears on a specific form. For example, if the same field appears on 5 forms there will be 1 Parameter and 5 Category Parameters in the Workfront Database.
+>A Parameter is a field as it exists in the Field Library referenced in a Custom Form. A Category Parameter is the version of a field that appears on a specific form. For example, if the same field appears on 5 forms, there will be 1 Parameter and 5 Category Parameters in the Workfront database.
 
 To filter for Custom Fields that are not associated with a Custom Form:
 
@@ -256,16 +261,17 @@ To filter for Custom Fields that are not associated with a Custom Form:
 1. Click **Switch to Text Mode**.
 1. Refer to the following generic code:
 
-   ```
-   EXISTS:A:$$OBJCODE=<Object code of the Linking Object>
-   ```
+   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
-   ```
-   EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS
-   ```
+   `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
-1. Paste the following code in the **Set Filter Rules for your Report** area to replace the generic code above:  
-   <pre>EXISTS:A:$$OBJCODE=CTGYPA<br>EXISTS:A:parameterID=FIELD:ID<br>EXISTS:A:$$EXISTSMOD=NOTEXISTS</pre>
+1. Paste the following code in the **Set Filter Rules for your Report** area to replace the generic code above:
+
+   `EXISTS:A:$$OBJCODE=CTGYPA`
+   
+   `EXISTS:A:parameterID=FIELD:ID`
+   
+   `EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
    >[!NOTE]
    >
@@ -273,14 +279,14 @@ To filter for Custom Fields that are not associated with a Custom Form:
    >* The Target Object is Category.
    >* The Linking Object is Category Parameter.
    >* The Object code of the Linking Object is CTGYPA.
-   >* The Linking Field to the Target Object is parameterID because parameterID exists in both the Linking Object Table and Target Object Table.
+   >* The Linking Field to the Target Object is parameterID, because parameterID exists in both the Linking Object Table and Target Object Table.
    >* The Linking Field displayed on the Original Object is ID (of the Category Parameter).
 
 1. Click **Save Filter**.
 
 ### Example 3: Filter for missing objects: users who did not log time for a certain period of time {#example-3-filter-for-missing-objects-users-who-did-not-log-time-for-a-certain-period-of-time}
 
-Using the text mode interface, you can build a filter to view Users who did not log time for a certain time period. This filter links Users to Hours, which are connected to one another directly. However, you must use an EXISTS statement and the text mode interface to be able to filter for missing information.information.
+Using the text mode interface, you can build a filter to view users who did not log time for a certain time period. This filter links Users to Hours, which are connected to one another directly. However, you must use an EXISTS statement and the text mode interface to be able to filter for missing information.
 
 To filter for users who did not log time during last week:
 
@@ -290,19 +296,13 @@ To filter for users who did not log time during last week:
 1. Click **Switch to Text Mode**.
 1. Refer to the following generic code:
 
-   ```
-   EXISTS:A:$$OBJCODE=<Object code of the Linking Object><br>
-   ```
+   `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
-   ```
-   EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS
-   ```
+   `EXISTS:A:<Linking Field displayed on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
 1. Paste the following code in the **Set Filter Rules for your Report** area to replace the generic code above:
 
-   ```
-   EXISTS:A:$$OBJCODE=HOUR<br>EXISTS:A:ownerID=FIELD:ID<br>EXISTS:A:entryDate=$$TODAYb-1w<br>EXISTS:A:entryDate_Range=$$TODAYe-1w<br>EXISTS:A:entryDate_Mod=between<br>EXISTS:A:$$EXISTSMOD=NOTEXISTS
-   ```
+   `EXISTS:A:$$OBJCODE=HOUR<br>EXISTS:A:ownerID=FIELD:ID<br>EXISTS:A:entryDate=$$TODAYb-1w<br>EXISTS:A:entryDate_Range=$$TODAYe-1w<br>EXISTS:A:entryDate_Mod=between<br>EXISTS:A:$$EXISTSMOD=NOTEXISTS`
 
    >[!NOTE]
    >
@@ -311,7 +311,7 @@ To filter for users who did not log time during last week:
    >* You do not need a Linking Object in this example because Users and Hours are directly connected in the Workfront database.
    >* Because there is no Linking Object, you must use the Object Code of the Target Object: HOUR.
    >* The Linking Field to the Target Object is ownerID (which displays on the Original Object; the Linking Object is missing).
-   >* The Linking Field displayed on the Original Object is ID (of the Hour) (which displays on the Target Object; the Linking Object is missing.)
+   >* The Linking Field displayed on the Original Object is ID (of the Hour) (that displays on the Target Object; the Linking Object is missing).
    >* The EXISTS:A:entryDate statement refers to fields that define the Target Object (Hour) and uses the same syntax as in a regular filter statement. This ensures that you display only those users who did not log time for a specific period of time, in this case, the previous week.
    >* The NOTEXISTS modifier indicates that we are looking for items (Hours) that do not exist for the object of the report (Users).
 
@@ -332,8 +332,15 @@ To filter tasks by the Portfolio Owner Name and Portfolio Alignment Scorecard ID
    For information about creating filters, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Click **Switch to Text Mode**.
-1. Paste the following code in the **Set Filter Rules for your Report** area:  
-   <pre>EXISTS:A:$$OBJCODE=PROJ<br>EXISTS:A:ID=FIELD:projectID<br>EXISTS:A:portfolio:ownerID=4d80ce5200000528787d57807732a33f<br>AND:A:EXISTS:A:$$EXISTSMOD=NOTEXISTS<br>AND:A:EXISTS:A:$$OBJCODE=PROJ<br>AND:A:EXISTS:A:ID=FIELD:projectID<br>AND:A:EXISTS:A:portfolio:alignmentScoreCardID=4da387b00001cbc732bb259355c33dad</pre>
+1. Paste the following code in the **Set Filter Rules for your Report** area:
+
+   `EXISTS:A:$$OBJCODE=PROJ`
+   `EXISTS:A:ID=FIELD:projectID`
+   `EXISTS:A:portfolio:ownerID=4d80ce5200000528787d57807732a33f`
+   `AND:A:EXISTS:A:$$EXISTSMOD=NOTEXISTS`
+   `AND:A:EXISTS:A:$$OBJCODE=PROJ`
+   `AND:A:EXISTS:A:ID=FIELD:projectID`
+   `AND:A:EXISTS:A:portfolio:alignmentScoreCardID=4da387b00001cbc732bb259355c33dad`
 
    >[!NOTE]
    >

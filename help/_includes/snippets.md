@@ -312,6 +312,10 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Resourcing]**.
 
+## Step 1 - Getting to the Utilization report - {#step1-to-utilization-report}
+
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Resourcing]**, then [!UICONTROL **Utilization**] in the left panel.
+
 <!-- Review and approve work -->
 
 <!-- Scenario Planner -->

@@ -7,11 +7,9 @@ exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
 ---
 # First Quarter 2024 release overview
 
-This page provides information about functionality that is included in the First Quarter 2024 release scheduled for January 2024. 
+This page provides information about functionality that is included in the First Quarter 2024 release. These enhancements are planned to become available in the Production environment for all customers with the 24.1 release on January 18 and 19, 2024.
 
-The enhancements on this page are available in the Preview environment. This page will be updated with additional enhancements as the First Quarter 2024 release nears its planned Production release.
-
-The 24.1 release webinar will be held on January 11, 2024. You can [register for the webinar here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
+The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
 
 <span class="preview">Off-cycle features (those releasing to Production prior to the First Quarter 2024 release date) are highlighted in yellow.</span>
 
@@ -54,7 +52,7 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Proof/document decisions now available for the previous 12 months</a><span style="color: #ff0000;"> New in Preview!</span></p><p>The Users Decisions reports for both new and legacy license types now display the number of decisions for the current month as well as the previous 12 months.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Proof/document decisions now available for the previous 12 months</a></p><p>The Users Decisions reports for both new and legacy license types now display the number of decisions for the current month as well as the previous 12 months.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -123,6 +121,7 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                         </p>
                     </td>
                  </tr>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Updated statuses for document approvals</a></p><p>To make document approval status more clear, we've updated available document status approvals. Now, the approval status accounts for reviewers marking their review complete, as well as cases where there are only reviewers but not approvers.</p>
@@ -201,7 +200,7 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">New Pending approvals widget available</a></p><p><span style="color: #ff0000;"> New in Preview!</span></p><p>To make it easier for you to see the status of approvals and reviews on projects you own, we've added a new Pending Approvals widget to Home. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">New Pending approvals widget available</a></p><p>To make it easier for you to see the status of approvals and reviews on projects you own, we've added a new Pending Approvals widget to Home. </p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -270,6 +269,23 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                         </p>
                     </td>
                  </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Mapping metadata in Experience Manager Assets Essentials now uses <code>xcm:keywords</code> instead of <code>dc:subject</code></a></p><p>[!BADGE In production ]{type=Informative}</p><p>We've updated the Experience Manager Assets Essentials integration to match the experience in the Experience Manager Assets as a Cloud Service integration. Now, when mapping multiple single-line text fields to a single field in Experience Manager Assets, both services use the <code>xcm:keywords</code> field.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: January 10, 2023</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: January 10, 2023</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: January 10, 2023</p>
+                            </li>
+                        </ul>
+                    </td>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Typeahead fields now available in Adobe Experience Manager Integration</a></p><p>[!BADGE In production ]{type=Informative}</p><p>To make it easier to link fields between Workfront and Adobe Experience Manager, we've added support for typeahead fields in the metadata mapping. Now, you can map typeahead fields to corresponding fields in Adobe Experience Manager.</p>
@@ -322,18 +338,19 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">AI-driven smart assignments</a></p><p>We have changed the algorithm that Workfront uses to calculate and suggest smart assignments for tasks. The new algorithm applies everywhere in Workfront where you assign a task (task lists, the Assignments area in the task header, Home, and the Summary panel).</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">AI-driven smart assignments</a></p><p>We have changed the algorithm that Workfront uses to calculate and suggest smart assignments for tasks. The new algorithm applies in the following areas in Workfront where you assign a task: task lists, the Assignments area in the task header, Home, and the Summary panel.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
                                 <p>Preview release: December 21, 2023</p>
+                                <p>NOTE: This feature will remain in Preview until the 24.4 release.</p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 24.1 release</p>
+                                <p>Production for fast release: With the 24.2 release (February 2024)</p>
                             </li>
                             <li>
-                                <p>Production for quarterly release: With the 24.1 release</p>
+                                <p>Production for all customers: With the 24.4 release (April 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -359,7 +376,7 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Drag and drop image in a comment in the Updates section</a><span style="color: #ff0000;"> New in Preview!</span></p><p>To enhance the content of your comments, you can now quickly drag and drop an image in a comment or reply in the Updates section of an object.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Drag and drop image in a comment in the Updates section</a></p><p>To enhance the content of your comments, you can now quickly drag and drop an image in a comment or reply in the Updates section of an object.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -447,11 +464,11 @@ There are no Workfront Proof updates at this point in the release. This area wil
 
 There are no Workfront Goals updates at this point in the release. This area will be updated when updates are available.
 
-### API version 16
+### API version 17
 
-For API version 16, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
+For API version 17, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
 
-For information on what's new and updated, see [What's new in API version 16](/help/quicksilver/wf-api/api/new-api-version-16.md).
+For information on what's new and updated, see [What's new in API version 17](/help/quicksilver/wf-api/api/new-api-version-17.md).
 
 For information on API versions, see [API versioning and support schedule](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 

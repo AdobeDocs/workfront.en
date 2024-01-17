@@ -10,10 +10,6 @@ exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-<!--see the separate article I wrote to have the PMs vet it for this: https://adobe-my.sharepoint.com/personal/alinaw_adobe_com/_layouts/15/doc.aspx?sourcedoc={79f94807-3d73-4015-afc0-5c016fc63cfc}&action=edit-->
-
-<!--all the links are hidden for now, so I can share this with customer zero. Activate the links before making this public. -->
-
 <!-- remove the references to closed beta from the entire article-->
 
 <!--update the video in the IMPORTANT below, when we have something better, especially after Open Beta - remove it-->
@@ -46,9 +42,11 @@ The following are some of the main capabilities of Maestro:
 * Fully customize your workflows, from deciding what object types (or record types) your organization uses to configuring how these objects link to one another.  
 * Link to object types from other systems, creating a coherent framework for all your processes.  
 
-## Features currently available in Maestro
+## Currently available Maestro features
 
 The following table illustrates the main features that will be available in Maestro, and a timeline of their availability. The list does not include all features.  
+
+For information about new features and when they are released, see [Maestro release activity](/help/quicksilver/maestro/release-activity.md). 
 
 |       Feature                                      |     Available now  |     Available soon   |     In research  |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -76,8 +74,8 @@ The following table illustrates the main features that will be available in Maes
 |     Connect Maestro records to Adobe Experience Manager assets                                  |      ✓                         |                                  |                 | 
 |     Record details page                            |   ✓                           |                                  |                  |
 |     Update the layout of the record Details page              |                               |   ✓                              |                  |
-|  Share workspaces | |✓ |  |
-|  Share views | |✓ |  |
+|  Share workspaces | ✓| |  |
+|  Share views |✓ | |  |
 |     Submit requests                                |                               |                                  |   ✓              |
 |     Creative brief                                 |                               |                                  |   ✓              |
 |     Customize the color and icon of a record                                 |      ✓                         |                                  |                 |
@@ -86,15 +84,11 @@ The following table illustrates the main features that will be available in Maes
 |     Maestro Modules for Adobe Workfront Fusion                                 |      ✓                         |                                  |                 | 
 |     Copy and paste information from one field to another                                  |      ✓                         |                                  |                 | 
 
-## Access required to use Maestro during the closed beta program
+## Enable Maestro for the users in your Workfront instance
 
->[!IMPORTANT]
->
->Currently, there are no access levels or permissions associated with users or the information in Maestro. All users can view, edit, and delete all the information any other user adds to Maestro. 
+Your organization must enroll in the Adobe Maestro closed beta program before you can access Maestro. Contact your account representative for information about enrolling in the beta program. 
 
-For more information about the access required to use Maestro, see [Adobe Maestro access overview](../maestro/access/access-overview.md). 
-
-<!--take the IMPORTANT note out when we release permissions; keep the link to the Access article-->
+For more information about granting access to and enabling others to use Maestro, see [Access overview](/help/quicksilver/maestro/access/access-overview.md). 
 
 ## Maestro terminology
 
@@ -179,7 +173,7 @@ The following are the main Maestro objects and concepts:
 
     * Maestro fields are fully customizable and are accessible only in Maestro. You cannot access Maestro fields from Workfront. 
 
-    For more information, see [Create fields](../maestro/fields/create-fields.md)
+    For more information, see [Create fields](../maestro/fields/create-fields.md).
     
     A new operational record type is associated with the following predefined fields, by default: 
 
@@ -201,7 +195,8 @@ The following are the main Maestro objects and concepts:
     * Number 
     * Percentage 
     * Currency
-    * Checkbox  
+    * Checkbox 
+    * Formula 
     * People
     * Created by
     * Created date
@@ -222,6 +217,8 @@ The following are the main Maestro objects and concepts:
     After you establish a connection between the record types, you can connect individual records of those types to one another. The connection between the records displays as a linked record field. 
 
 * **Linked fields** (or lookup fields): After establishing the connection between two record types and you link individual records together, you can reference the linked records' fields on the record you are connecting from.
+
+    For example, if you connect a Maestro campaign with a Workfront project, you can display the Project Owner field of connected projects on the Maestro campaign records. 
 
     ![](assets/add-lookup-fields-modal.png)
 
@@ -267,15 +264,9 @@ The following table shows the limits for how many objects you can create in Maes
 |     The rate at which API requests can be made                                    |   200 requests per minute                                                                                       |
 | Size of CSV of Excel file you can import in a table | 5MB |
 
-## Enable Maestro for the users in your Workfront instance
-
-Your organization must enroll in the Adobe Maestro closed beta program before you can access Maestro. Contact your account representative for information about enrolling in the beta program. 
-
-For more information about granting access to and enabling others to use Maestro, see [Access overview](/help/quicksilver/maestro/access/access-overview.md). 
-
 ## Locate Maestro
 
-Ensure that your organization has received access to Maestro and that your system or group administrator has added the Maestro area to your Main Menu.  
+Ensure that your organization has received access to Maestro and that your system or group administrator has added the Maestro area to your Main Menu. For information, see [Access overview](/help/quicksilver/maestro/access/access-overview.md) .
 
 To locate Maestro:  
 
