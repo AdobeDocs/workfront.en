@@ -122,13 +122,13 @@ Consider the following when locating daily, weekly or monthly allocations for ta
 
 * If a task or issue completed before the Planned Completion Date, the number of allocated hours for the remaining days is struck through and does not count towards the user's overall allocation. This displays only when both the Show allocations icon and the Show Projected Dates setting are enabled. For more information about enabling settings in the Workload Balancer, see [Navigate the Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-  ![](assets/allocations-struck-through-highlighted-350x39.png)
+  ![Allocated hours struck through](assets/allocations-struck-through-highlighted.png)
 
 * When a user is overallocated, their allocated hours display with a red background in the user field.
 * When the user is underallocated or allocated an equal amount of hours to their scheduled available time, the hours display with a blue background. 
 * You can display the users' allocation in a chart view in the user line. For information about enabling the chart view for user allocations, see the "Navigate the Workload Balancer" section in the article [Navigate the Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-  ![](assets/user-allocation-chart-350x237.png)
+  ![User allocation chart](assets/user-allocation-chart.png)
 
 ### Criteria that reset user allocations {#criteria-that-reset-user-allocations}
 
@@ -177,7 +177,7 @@ As part of assigning work to users, you can modify user allocations in the Workl
 
 1. In the **Assigned Work** area, find the user that you want to manually modify the allocation for, and click the right-pointing arrow to the left of the user name to expand the user.
 
-   ![](assets/wb-highlight-on-name-caret-350x106.png)
+   ![Expand user](assets/wb-highlight%20-on-name-caret.png)
 
 1. Click the right-pointing arrow to the left of the project name to expand the project and display the work items that the user is assigned to.
 
@@ -185,7 +185,7 @@ As part of assigning work to users, you can modify user allocations in the Workl
    >
    >You can modify user allocations only for tasks and issues. You cannot modify user allocations for projects.
 
-1. (Optional) Click the **Show allocations icon** ![](assets/show-allocations-icon-small.png) to display allocations for all work items.
+1. (Optional) Click the **Show allocations** icon ![](assets/show-allocations-icon-small.png) to display allocations for all work items.
 
    The name of the tasks and of the projects is replaced with the allocation of the user for the task or the project. 
 
@@ -216,7 +216,7 @@ As part of assigning work to users, you can modify user allocations in the Workl
    
    The allocation boxes become editable. 
 
-1. Click inside the box of each daily, weekly, or monthly allocation to manually update the amount of hours or the percentage value for which you want the user to be allocated each day, week, or month then click the **Save** icon ![](assets/checkmark-icon.png).
+1. Click inside the box of each daily, weekly, or monthly allocation to manually update the amount of hours or the percentage value for which you want the user to be allocated each day, week, or month, then click the **Save** icon ![](assets/checkmark-icon.png).
 
    >[!TIP]
    >
@@ -228,20 +228,20 @@ As part of assigning work to users, you can modify user allocations in the Workl
 
    >[!TIP]
    >
-   >If a task or issue completed before the Planned Completion Date, the number of allocated hours for the remaining days is struck through and does not count towards the user's overall allocation. This displays only when both the Show allocations icon and the Show Projected Dates setting are enabled.
+   >If a task or issue completed before the Planned Completion Date, the number of allocated hours for the remaining days is struck through and does not count towards the user's overall allocation. This displays only when both the **Show allocations** icon and the **Show Projected Dates** setting are enabled.
 
    The following scenarios exist:
 
    * For tasks with Duration Types that are not Simple or for issues, the total of the allocations must match the task Planned Hours before you can click the check mark icon. 
-   * For tasks with a Simple Duration Type the total of the allocations can be higher or lower than the Planned Hours and you can click the check mark icon even if they don't match. This also updates the amount of Planned Hours for the task. You must have the correct permissions and access to update Planned Hours on tasks from the Workload Balancer.
+   * For tasks with a Simple Duration Type, the total of the allocations can be higher or lower than the Planned Hours and you can click the check mark icon even if they don't match. This also updates the amount of Planned Hours for the task. You must have the correct permissions and access to update Planned Hours on tasks from the Workload Balancer.
 
      >[!TIP]
      >
      >A lock icon displays to the right of the task name as you start adjusting your allocations to indicate that the task has a Simple Duration Type.
 
-     ![](assets/lock-icon-on-simple-task-in-the-balancer-350x119.png)
+     ![Lock icon](assets/lock-icon-on-simple-task-in-the-balancer.png)
 
-   For more information about the conditions that need to be met to update Planned Hours in the Workload Balancer, see the following section in this article: [Update task Planned Hours when managing user allocations](#update-task-planned-hours-when-managing-user-allocations). For information about task Duration Types, see [Overview of Task Duration and Duration Type](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   For more information about the conditions that need to be met to update Planned Hours in the Workload Balancer, see the [Update task Planned Hours when managing user allocations](#update-task-planned-hours-when-managing-user-allocations) section in this article. For information about task Duration Types, see [Overview of Task Duration and Duration Type](../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
 1. (Conditional) If the task is assigned to more than one user, repeat these steps for each user assigned to the task to update the allocations for each user.
 
@@ -271,10 +271,7 @@ This is possible when the following conditions exist:
    * Manage permissions to the tasks.
    * Update Planned Hours in the Workload Balancer access in the Resource Management area of your Access Level.
 
-  For more information about the access needed to use the Workload Balancer, see the following section in this article: [Access requirements](#access-requirements). 
+  For more information about the access needed to use the Workload Balancer, see the [Access requirements](#access-requirements) section in this article.
 
 * The task has a Duration Type of Simple.
 
-  <!--
-  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;the statement above might include other duration types in the future)</p>
-  -->
