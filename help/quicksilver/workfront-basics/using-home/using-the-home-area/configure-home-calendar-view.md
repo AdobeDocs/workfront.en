@@ -3,7 +3,7 @@ product-area: calendars;setup
 navigation-topic: use-the-home-area
 title: Configure your Home Calendar view settings
 description: You can configure the Home Calendar settings to integrate with a web-based version of Outlook and help you track your workload against your available work hours.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 2acd930b-5923-452e-9d8d-a6121d8d37ac
 ---

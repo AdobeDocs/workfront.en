@@ -10,6 +10,8 @@ exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
 ---
 # Get started with dashboards
 
+<!-- Audited: 1/2024 -->
+
 The purpose of a dashboard is to provide quick access to information that comes from multiple reports. First, you can gather information in reports and you can then place multiple reports on dashboards to make the information easier to access.
 
 ## Access requirements
@@ -23,25 +25,25 @@ You must have the following:
  </col> 
  <tbody> 
   <tr> 
-   <td> <p><strong>Adobe Workfront plan*</strong></p> </td> 
+   <td> <p><strong>Adobe Workfront plan</strong></p> </td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Adobe Workfront license*</strong></p> </td> 
-   <td> <p>Review or higher</p> </td> 
+   <td> <p><strong>Adobe Workfront license</strong></p> </td> 
+   <td> <p>New: Contributor or higher</p><p>Or</p><p>Current: Review or higher</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Access level*</strong> </td> 
-   <td> <p>View or higher access to Reports, Dashboards, and Calendars</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td><strong>Access level</strong> </td> 
+   <td> <p>View or higher access to Reports, Dashboards, and Calendars</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>View permissions to the dashboard</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.<br>For more information on permissions for dashboards, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md" class="MCXref xref">Share reports, dashboards, and calendars </a>.</p> </td> 
+   <td> <p>View permissions to the dashboard</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Objects that you can add to a dashboard
 
@@ -74,12 +76,12 @@ You can share a dashboard with users in the following ways:
 * Print a hard copy of them to share with users.  
   For more information about printing dashboards, see [Print a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md).
 
-* Export them as a .pdf file so you can email them to users.  
-  For more information about exporting a dashboard to a .pdf file, see [Export a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
+* Export them as a PDF file so you can email them to users.  
+  For more information about exporting a dashboard to a PDF file, see [Export a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md).
 
 When you share a dashboard with users, all the reports, calendars, and external pages that are on the dashboard are also shared with the same users by default.
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >If a user is deleted, any dashboards they have created are no longer accessible. To learn more, see [Delete users](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
@@ -87,14 +89,14 @@ When you share a dashboard with users, all the reports, calendars, and external 
 
 You can display a dashboard in the following ways:
 
-* Access the section that it is placed on and the dashboard placed on the section displays.  
+* Access the custom section where the dashboard is placed.  
   For more information on placing dashboards on custom sections, see [Left navigation in Adobe Workfront](../../../workfront-basics/the-new-workfront-experience/simplified-left-navigation.md).
 
-* Search for and manually access it when you find it.
+* Search for and manually access the dashboard.
 
 ## Access a dashboard
 
-1. Click the **Main Menu** ![](assets/main-menu-icon.png), then click **Dashboards**.
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Dashboards**.
 1. Hover over the left sidebar, then select any of the following:
 
    * **My Dashboards**: Dashboards you have built are listed here.
@@ -104,7 +106,7 @@ You can display a dashboard in the following ways:
      >If you don't have Edit access to Reports, Dashboards, and Calendars in your access level, you cannot create dashboards. In this case, the My Dashboards list is empty.
 
    * **Shared Dashboards**: Dashboards that are created by other users and shared with you are listed here.
-   * **All Dashboards**: Both your and other users' dashboards that are shared with you are listed here.
+   * **All Dashboards**: Both your dashboards and dashboards that other users have shared with you are listed here.
 
    ![Dashboards area](assets/dashboards-area.png)
 
