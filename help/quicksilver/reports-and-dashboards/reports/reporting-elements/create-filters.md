@@ -49,11 +49,11 @@ You must have the following access to perform the steps in this article:
 
    To edit a filter in a report, you must have the following license:
 
-   <p>New: Plan</p> 
+   <p>New: Standard</p> 
    
    Or
    
-   <p>Current: Standard</p>
+   <p>Current: Plan</p>
 
    </td> 
   </tr> 

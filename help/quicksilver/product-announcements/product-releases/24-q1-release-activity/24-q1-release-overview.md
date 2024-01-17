@@ -7,11 +7,9 @@ exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
 ---
 # First Quarter 2024 release overview
 
-This page provides information about functionality that is included in the First Quarter 2024 release scheduled for the week of January 15, 2024.
+This page provides information about functionality that is included in the First Quarter 2024 release. These enhancements are planned to become available in the Production environment for all customers with the 24.1 release on January 18 and 19, 2024.
 
-The enhancements on this page are available in the Preview environment. This page will be updated with additional enhancements as the First Quarter 2024 release nears its planned Production release.
-
-The 24.1 release webinar will be held on January 11, 2024. You can [register for the webinar here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
+The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).
 
 <span class="preview">Off-cycle features (those releasing to Production prior to the First Quarter 2024 release date) are highlighted in yellow.</span>
 
@@ -346,9 +344,10 @@ The 24.1 release webinar will be held on January 11, 2024. You can [register for
                         <ul>
                             <li>
                                 <p>Preview release: December 21, 2023</p>
+                                <p>NOTE: This feature will remain in Preview until the 24.4 release.</p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 24.1 release</p>
+                                <p>Production for fast release: With the 24.2 release (February 2024)</p>
                             </li>
                             <li>
                                 <p>Production for all customers: With the 24.4 release (April 2024)</p>
