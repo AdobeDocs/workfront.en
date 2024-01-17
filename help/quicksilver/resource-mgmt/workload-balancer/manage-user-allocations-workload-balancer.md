@@ -9,6 +9,8 @@ exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
 ---
 # Manage user allocations in the Workload Balancer
 
+<!-- Audited: 01/2024 -->
+
 {{highlighted-preview}}
 
 As a Resource Manager, you can assign work to users and manage their daily, weekly, or monthly allocations from the Workload Balancer to ensure they are allocated an amount of hours that fits in their available schedules.
