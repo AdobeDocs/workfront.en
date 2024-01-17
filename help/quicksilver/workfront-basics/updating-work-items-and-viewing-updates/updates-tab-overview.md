@@ -11,13 +11,11 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 
 # Updates section overview
 
-<!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
+<!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
 
-<!--take "legacy" and "new commenting" references out when we remove the legacy - Jan 2024???-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
-
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> 
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
 
 >[!IMPORTANT]
@@ -40,18 +38,11 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 > * Summary panel in timesheets 
 > * Summary panel in the Workload Balancer
 
-<!-- with October 26 release: add somewhere this:
-
->[!NOTE]
->
->Iterations display the legacy commenting experience.-->
-
-
 ## Overview of the Updates section
 
 The Updates section of an object shows system updates, and up to 200 of the most recent updates users made within the past 90 days. 
 
-  <span class="preview">![](assets/updates-tab-after-unified-experience-for-issues.png)</span>
+  ![](assets/updates-tab-after-unified-experience-for-issues.png)
 
 Depending on what objects you access the commenting experience for, you might find the following experience for the Updates section:
 
@@ -91,7 +82,7 @@ Depending on what objects you access the commenting experience for, you might fi
 
 ### Overview of the Updates section in the new commenting experience
 
-<span class="preview">![](assets/updates-tab-after-unified-experience-for-tasks.png)</span>
+![](assets/updates-tab-after-unified-experience-for-tasks.png)
 
 >[!NOTE]
 >
@@ -244,7 +235,7 @@ Adobe Workfront administrators and group administrators can log in as other user
 
 For information, see [Log in as another user](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-Considering the following when logging in as another user and adding comments:
+Consider the following when logging in as another user and adding comments:
 
 * Any comments made on behalf of another user are indicated on the comment.
 
