@@ -3,8 +3,7 @@ title: 22.1 Proofing enhancements
 description: 22.1 Proofing enhancements
 author: Luke
 draft: Probably
-feature: Product Announcements, Workfront Proof
-recommendations: noDisplay, noCatalog, Digital Content and Documents
+feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: c76c2dba-1497-414a-8979-712f093efd73
 ---
