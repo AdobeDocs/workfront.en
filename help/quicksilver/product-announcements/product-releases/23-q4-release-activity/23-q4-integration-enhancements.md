@@ -3,6 +3,7 @@ title: Fourth Quarter 2023 Integration enhancements
 description: Fourth Quarter 2023 Integration enhancements
 author: Lisa
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 0e8952db-5103-4730-860b-e3d6088497ec
 ---
 # Fourth Quarter 2023 Integration enhancements

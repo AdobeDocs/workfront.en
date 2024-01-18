@@ -7,6 +7,7 @@ title: 'Workfront Fusion release activity: Week of September 19, 2022'
 description: This page describes all enhancements made in Adobe Workfront Fusion the week of September 19, 2022.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 hidefromtoc: yes
 exl-id: 3c6d000d-dfeb-4b4a-91bf-7ea346c1ce70
 ---

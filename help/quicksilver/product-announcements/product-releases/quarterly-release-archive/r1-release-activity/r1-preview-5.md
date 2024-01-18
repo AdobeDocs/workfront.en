@@ -5,6 +5,7 @@ title: R1 Preview 5
 description: This page describes all changes available in the Preview environment with the R1 Preview 5 release. The functionality on this page was made available in the Preview environment on March 16, 2017.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4fba14b5-6c5a-4b03-99a7-f0e6f75807c3
 ---
 # R1 Preview 5

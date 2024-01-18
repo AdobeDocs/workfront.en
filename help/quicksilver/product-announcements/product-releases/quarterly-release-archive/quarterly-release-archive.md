@@ -5,6 +5,7 @@ title: Quarterly release archive
 description: Quarterly release archive
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 159a5bd0-e0f4-4670-8143-dfc24a7caf81
 ---
 # Quarterly release archive

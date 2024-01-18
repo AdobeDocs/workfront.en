@@ -3,6 +3,7 @@ title: First Quarter 2024 release overview
 description: First Quarter 2024 release overview
 author: Becky
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
 ---
 # First Quarter 2024 release overview

@@ -4,6 +4,7 @@ description: 22.4 release overview
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 04b09d8f-71bf-4c5b-b2f3-09c714740969
 ---
 # 22.4 Release overview

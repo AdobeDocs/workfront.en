@@ -3,6 +3,7 @@ title: Fourth Quarter 2023 release overview
 description: Fourth Quarter 2023 release overview
 author: Becky
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 6c14bd61-60b1-49aa-84bd-d494a226d70e
 ---
 # Fourth Quarter 2023 release overview

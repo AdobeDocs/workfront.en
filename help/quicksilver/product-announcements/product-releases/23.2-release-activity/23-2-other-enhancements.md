@@ -4,6 +4,7 @@ description: 23.2 Other enhancements
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 565c365b-d611-4a9a-80a9-bfb7a5b0f319
 ---
 # 23.2 Other enhancements

@@ -5,6 +5,7 @@ title: 20.3 Analytics enhancements
 description: This page describes all analytics enhancements made with the 20.3 release to the Production environment. These enhancements were made available in the Production environment the week of August 10, 2020.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: ca388df9-234f-4115-b399-f3f0a379f3d8
 ---
 # 20.3 Analytics enhancements

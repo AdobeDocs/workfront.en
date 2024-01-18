@@ -6,6 +6,7 @@ title: Adobe Workfront release schedule and process
 description: The Preview environment is updated once a week with new features. These features are communicated in the release notes for the upcoming quarterly release.
 author: Alina
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4cc72e55-8105-420a-9609-e965222399e3
 ---
 # Adobe Workfront release schedule and process
