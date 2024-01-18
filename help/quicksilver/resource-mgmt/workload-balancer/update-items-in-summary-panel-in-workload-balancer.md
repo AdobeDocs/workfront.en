@@ -3,7 +3,7 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Update work items in the Workload Balancer using the Summary 
 description: You can open the Summary panel in the Workload Balancer to update work items in the Assigned and Unassigned Work areas. 
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
 ---

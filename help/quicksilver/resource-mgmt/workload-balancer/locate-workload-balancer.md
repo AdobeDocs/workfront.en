@@ -4,7 +4,7 @@ keywords: working,team,staffing,resources
 navigation-topic: the-workload-balancer
 title: Locate the Workload Balancer
 description: You can use the Workload Balancer to schedule resources for work or review their availability and current allocations.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
 ---
@@ -16,7 +16,7 @@ You can use the Workload Balancer to schedule resources for work or review their
 You can access the Workload Balancer in the following ways:
 
 * From several areas predefined by Adobe Workfront 
-* By adding it to a custom  section
+* By adding it to a custom section
 
 This article describes the areas where you can access the Workload Balancer. 
 

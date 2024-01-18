@@ -4,6 +4,7 @@ description: resource management updates during the 22.3 release timeframe
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4be185e7-12b1-49af-973e-c6eb3e134d38
 ---
 # 22.3 Resource Management enhancements

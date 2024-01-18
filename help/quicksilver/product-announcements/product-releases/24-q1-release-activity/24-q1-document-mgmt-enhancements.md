@@ -3,6 +3,7 @@ title: First Quarter 2024 Document management enhancements
 description: First Quarter 2024 Document management enhancements
 author: Lisa
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 94fb579a-b5a8-42f1-b98f-05c5ac31d29a
 ---
 # First Quarter 2024 Document management enhancements

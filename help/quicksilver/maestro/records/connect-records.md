@@ -16,7 +16,7 @@ hidefromtoc: yes
 hide: yes
 ---
 -->
-<!--udpate the metadata with real information when making this available in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--if you change steps here, also update steps in the "Connect records" article-->
 

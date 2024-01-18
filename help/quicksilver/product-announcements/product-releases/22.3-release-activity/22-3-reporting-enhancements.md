@@ -4,6 +4,7 @@ description: reporting updates during the 22.3 release timeframe
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: d6dba849-6915-4c2c-b378-a8d3daa8a0d5
 ---
 # 22.3 Reporting enhancements

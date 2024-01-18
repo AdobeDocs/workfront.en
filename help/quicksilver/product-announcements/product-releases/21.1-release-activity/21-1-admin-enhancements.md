@@ -6,6 +6,7 @@ title: 21.1 Administrator enhancements
 description: This page describes all Administrator enhancements made with the 21.1 release to the Preview environment. These enhancements will be made available in the Production environment the week of February 15, 2021.
 author: Luke
 feature: Product Announcements, System Setup and Administration
+recommendations: noDisplay, noCatalog
 exl-id: 4048f8b5-70e2-4d63-ae64-a4fbf91a57df
 ---
 # 21.1 Administrator enhancements

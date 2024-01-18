@@ -5,6 +5,7 @@ title: R1 release activity overview
 description: This page provides information about the functionality included in the R1 release.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 134e4d1a-0acf-4ecb-b409-23f26b68c3f6
 ---
 # R1 release activity overview

@@ -28,7 +28,7 @@ role: User
 >
 >Contact your account representative for more information about joining the beta program for Maestro.
 >
->For information, see [Adobe Maestro overview](../maestro-overview.md).
+>For information, see [Adobe Maestro overview](/help/quicksilver/maestro/maestro-overview.md). 
 
 You can display records in a timeline view, when accessing the record type page in Adobe Maestro. 
 
@@ -123,7 +123,12 @@ To manage a timeline view:
 
     ![](assets/timeline-view-example.png)
 
-    The records associated with the record type you selected display as bars in a timeline and are sorted in chronological order, by default.
+    The records associated with the record type you selected display as bars in a timeline and are sorted in chronological order of their Start Date, by default. 
+
+    >[!TIP]
+    >
+    >    The sorting of the records in the timeline is not visible in the Compact view.
+
 
 1. Do one of the following to navigate through the timeline:
 
@@ -159,8 +164,8 @@ To manage a timeline view:
 1. Update the following view elements as described in the subsections below:
     * [Filters](#add-filters)
     * [Grouping](#add-grouping)
-    <!--* [Sort](#add-sort) not sure if this is present in timeline views?!; also check the anchor and make sure it's correct-->
     * [Settings](#edit-the-timeline-view-settings)
+    <!--* [Sort](#add-sort) not sure if this is present in timeline views?!; also check the anchor and make sure it's correct-->
 
 ### Add filters
 

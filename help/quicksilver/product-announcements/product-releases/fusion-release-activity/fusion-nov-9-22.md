@@ -7,6 +7,7 @@ title: 'Workfront Fusion release activity: Week of November 7, 2022'
 description: This page describes all enhancements made in Adobe Workfront Fusion the week of November 7, 2022.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 hidefromtoc: yes
 exl-id: 802db851-39bb-4f40-8a66-ecb8c8b3ced6
 ---

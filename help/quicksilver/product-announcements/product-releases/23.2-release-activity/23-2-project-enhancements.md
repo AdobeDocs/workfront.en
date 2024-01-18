@@ -4,6 +4,7 @@ description: 23.2 Project enhancements
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 02eb390b-b733-4080-86cb-ed28c99cf2b4
 ---
 # 23.2 Project enhancements

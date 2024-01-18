@@ -198,7 +198,7 @@ You can add up to 500 fields (or columns) in a table view.
     
         You cannot use keywords that are associated with fields that are hidden in the table view. 
 
-    1. Press Enter on your keyboard to go to the next found field. 
+    1. Press **Enter** on your keyboard to go to the next found field. 
 
     1. (Optional) If there is more than one match, click the up and down arrows to the right of the search keyword to find all the matches in the table. 
 
@@ -273,7 +273,7 @@ To add a filter to a table view:
         </thead>
         <tbody>
         <tr>
-            <td>Single-line, paragraph </td>
+            <td>Single-line, Paragraph, Formula </td>
             <td><p>Contains</p>
             <p>Does not contain</p>
             <p>Is</p>
@@ -290,7 +290,7 @@ To add a filter to a table view:
             <p>Is not empty</p></td>
         </tr>
         <tr>
-            <td>Multi-select</td>
+            <td>Multi-select, People</td>
             <td><p>Has any of</p>
             <p>Has all of</p>
             <p>Is exactly</p>
@@ -299,7 +299,7 @@ To add a filter to a table view:
             <p>Is not empty</p></td>
         </tr>
         <tr>
-            <td>Numeric, percentage, currency</td>
+            <td>Number, Percentage, Currency</td>
             <td><p>=</p>
             <p>≠</p>
             <p> < </p>

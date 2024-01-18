@@ -3,6 +3,7 @@ title: Look and feel updates during the 23.3 release time frame
 description: Look and feel updates during the 23.3 release time frame
 author: Courtney
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 86287956-445b-4d1c-9f62-1d5c8d58ee89
 ---
 # Look and feel updates during the 23.3 release time frame

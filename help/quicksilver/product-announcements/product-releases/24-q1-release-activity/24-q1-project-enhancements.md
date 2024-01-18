@@ -3,6 +3,7 @@ title: First Quarter 2024 Project enhancements
 description: FFirst Quarter 2024 Project enhancements
 author: Nolan
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 ---
 # First Quarter 2024 Project enhancements
 

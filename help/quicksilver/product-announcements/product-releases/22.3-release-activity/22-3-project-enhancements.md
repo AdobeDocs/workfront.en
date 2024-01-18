@@ -4,6 +4,7 @@ description: project updates during the 22.3 release timeframe
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 1235ad4a-72dd-45c5-8513-d073b3e9a2da
 ---
 # 22.3 Project enhancements

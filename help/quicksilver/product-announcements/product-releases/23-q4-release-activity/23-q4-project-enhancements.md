@@ -3,6 +3,7 @@ title: Fourth Quarter 2023 Project enhancements
 description: Fourth Quarter 2023 Project enhancements
 author: Lisa
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: c1484bec-e38a-44a2-aa0c-ec92ad10185d
 ---
 # Fourth Quarter 2023 Project enhancements

@@ -20,6 +20,20 @@ In order to participate in this Alpha release, please ensure you have been added
 
 ## Latest release
 
+## Alpha Release 6 - Jan. 2024
+
+In this 6th Alpha release we have:
+
+* Improved the experience of adding participants with a new pop-up to help prevent adding people accidentally and having them be notified
+* Added a new "Pending Approvals" widget that shows all outstanding approvals for projects you own, including the ability to see all those who are on the approval, their status, and the ability to remind anyone who hasn't made a decision yet
+* Added a new "Complete my review" action for all Reviewers which they can use to indicate that they are done with their step
+
+Check out the full video walk-through below:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3426860/)
+
+## _Past releases_
+
 ### Alpha Release 5 - Sep. 2023
 
 In this 5th Alpha release we have:
@@ -30,11 +44,7 @@ In this 5th Alpha release we have:
 * Added the ability to add external approvers
 * Improved the view for external approvers to preview, download, and comment on a document
 
-Check out the full video walk-through below:
-
->[!VIDEO](https://video.tv.adobe.com/v/3424613/)
-
-## _Past releases_
+Watch the [video walk-through](https://video.tv.adobe.com/v/3424613/){target=_blank}.
 
 ### Alpha Release 4 - May 2023
 
@@ -42,15 +52,13 @@ In this 4th Alpha release, prior to launching to production for only to a select
 
 We are excited for this milestone and look forward to much more to come!
 
-Check out the full video walk-through below:
-
-Watch the [video walk-through](https://video.tv.adobe.com/v/3420094/){target=_blank}
+Watch the [video walk-through](https://video.tv.adobe.com/v/3420094/){target=_blank}.
 
 ### Alpha Release 3 - Mar. 2023
 
 In this 3rd Alpha release, we have incorporated your feedback by introducing success messages that display upon completing actions like adding or removing approvers and reviewers. Additionally, this release offers enhanced visibility of pending approvals, which can now be viewed on the Home and My Updates pages, enabling users to easily approve documents directly from these pages.
 
-Watch the [video walk-through](https://video.tv.adobe.com/v/3417854/){target=_blank}
+Watch the [video walk-through](https://video.tv.adobe.com/v/3417854/){target=_blank}.
 
 ### Alpha Release 2 - Jan. 2023
 

@@ -12,6 +12,8 @@ exl-id: 1353ab04-7de7-4d30-a092-27807c950777
 ---
 # Groups overview
 
+<!-- Audited: 01/2024 -->
+
 A Workfront administrator can create groups of users that coincide with your departmental structure. Groups are similar to but distinct from teams and companies.
 
 The Workfront administrator grants groups the access to the Workfront areas where they need to work and communicate. Each group can then keep their Workfront information such as users, templates, and custom forms, and projects separate from those of other departments.
@@ -22,7 +24,7 @@ You can create up to 14 levels of subgroups under one group. For more informatio
 
 ## Using groups to organize users
 
-As a Workfront administrator or group administrator, you can associate users with groups and subgroups. If you make a group public, users with a Planner license can associate users with it. For more information about group administrators and public groups, see [Create a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+As a Workfront administrator or group administrator, you can associate users with groups and subgroups. If you make a group public, users with a Standard (new) or Plan (current) license can associate users with it. For more information about group administrators and public groups, see [Create a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
 When you create a user, we recommend that you add that user to the appropriate Home Group and other groups that the user should work in. A user can have only one Home Group, but can be in multiple other groups.
 

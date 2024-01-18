@@ -6,6 +6,7 @@ title: 21.2 Mobile enhancements
 description: This page describes all Mobile enhancements made with the 21.2 release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the 21.2 release, see 21.2 Release overview.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 5ec5f0bd-6234-488b-bd3a-f14400b08cab
 ---
 # 21.2 Mobile enhancements

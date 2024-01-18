@@ -4,6 +4,7 @@ description: 22.2 Home enhancements
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 18ff9c45-f8f0-467c-b232-91e863f16cb8
 ---
 # 22.2 Home enhancements

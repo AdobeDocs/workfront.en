@@ -174,7 +174,7 @@ For more detail about the information in this table, see [Access requirements in
      </tr> 
      <tr> 
       <td role="rowheader">View only companies, groups &amp; teams they belong to</td> 
-      <td>Allows users to view and share items only with companies, groups, and teams they belong to.</td> 
+      <td>Allows users to view and share items only with companies, groups, and teams they belong to.<p><strong>NOTE</strong>: Users with Requestor licenses cannot view companies they do not belong to, even if this option is selected.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Never allow visibility of Planned Hours or Actual Hours</td> 

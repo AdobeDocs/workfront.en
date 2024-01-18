@@ -8,6 +8,7 @@ title: 'Workfront Fusion release activity: Week of November 30, 2020'
 description: This page describes all enhancements made in Adobe Workfront Fusion the week of November 30, 2020.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 9621683b-735d-40a6-8d7c-b5bd167cbdd2
 hidefromtoc: yes
 ---

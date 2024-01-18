@@ -4,6 +4,7 @@ description: 20.4 Mobile and integration enhancements
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: b7f986a6-a876-4e0d-84e5-237ec8fcf590
 ---
 # 20.4 Mobile and integration enhancements
@@ -50,8 +51,8 @@ For more information, see
 
 While in the mobile app, you can ask the virtual assistant to help you with commands by saying:
 
-* “What can I do?”
-* “Help me with commands.”
+* "What can I do?"
+* "Help me with commands."
 
 These commands display a list of the different things you can ask the assistant about.
 
