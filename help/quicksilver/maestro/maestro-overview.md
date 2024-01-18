@@ -42,9 +42,11 @@ The following are some of the main capabilities of Maestro:
 * Fully customize your workflows, from deciding what object types (or record types) your organization uses to configuring how these objects link to one another.  
 * Link to object types from other systems, creating a coherent framework for all your processes.  
 
-## Features currently available in Maestro
+## Currently available Maestro features
 
 The following table illustrates the main features that will be available in Maestro, and a timeline of their availability. The list does not include all features.  
+
+For information about new features and when they are released, see [Maestro release activity](/help/quicksilver/maestro/release-activity.md). 
 
 |       Feature                                      |     Available now  |     Available soon   |     In research  |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -216,6 +218,8 @@ The following are the main Maestro objects and concepts:
 
 * **Linked fields** (or lookup fields): After establishing the connection between two record types and you link individual records together, you can reference the linked records' fields on the record you are connecting from.
 
+    For example, if you connect a Maestro campaign with a Workfront project, you can display the Project Owner field of connected projects on the Maestro campaign records. 
+
     ![](assets/add-lookup-fields-modal.png)
 
     For information about linking record types, records, and creating linked fields, see the following articles:
@@ -262,7 +266,7 @@ The following table shows the limits for how many objects you can create in Maes
 
 ## Locate Maestro
 
-Ensure that your organization has received access to Maestro and that your system or group administrator has added the Maestro area to your Main Menu.  
+Ensure that your organization has received access to Maestro and that your system or group administrator has added the Maestro area to your Main Menu. For information, see [Access overview](/help/quicksilver/maestro/access/access-overview.md) .
 
 To locate Maestro:  
 

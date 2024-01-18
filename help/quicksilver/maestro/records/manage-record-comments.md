@@ -10,9 +10,9 @@ recommendations: noDisplay, noCatalog
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> 
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
 You can collaborate on Adobe Maestro records, by adding comments or replies in the Comments area of a record.
 
@@ -138,9 +138,9 @@ You must have the following access to perform the steps in this article:
       >
       >Comments from the current year do not display the year in the date stamp. Hovering over a timestamp displays the full date, including the year.
 
-1. <span class="preview">(Optional and conditional) To search for an existing comment, start typing a keyword in the search box in the upper-right corner of the **Comments** area.</span>     
+1. (Optional and conditional) To search for an existing comment, start typing a keyword in the search box in the upper-right corner of the **Comments** area.     
 
-   <span class="preview">![](assets/search-box-for-comments-area.png)</span>
+   ![](assets/search-box-for-comments-area.png)
      
 1. (Optional) Click **Reply** or start typing a comment in the **Add reply ...** area, to reply to an existing comment, then follow steps 4-8 above. <!--(**************accurate??***********)-->  
 
