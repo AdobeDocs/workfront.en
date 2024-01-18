@@ -20,7 +20,7 @@ You must have the following access to create and manage portfolios:
 
 * [!UICONTROL Edit] access to Portfolios in your access level to create and manage Portfolios
 * [!UICONTROL Manage] permissions on a Portfolio to be able to edit it
-* [!UICONTROL View] permissions on a Portfolio to be able to see it.
+* [!UICONTROL View] permissions on a Portfolio to be able to see it
 
 For information about access to Portfolios, see [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).\
 For information about permissions to Portfolios, see [Share a portfolio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
