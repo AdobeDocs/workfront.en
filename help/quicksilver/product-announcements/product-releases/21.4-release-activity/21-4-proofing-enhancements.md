@@ -4,6 +4,7 @@ description: 21.4 Proofing enhancements
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: a8141c36-3e57-47df-8f27-9166fbdf1358
 ---
 # 21.4 Proofing enhancements

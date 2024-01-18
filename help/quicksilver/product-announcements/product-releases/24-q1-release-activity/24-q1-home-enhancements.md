@@ -3,6 +3,7 @@ title: First Quarter 2024 Home enhancements
 description: First Quarter 2024 Home enhancements
 author: Nolan
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 30867b75-ec33-486e-acfa-b8bab6ccf23c
 ---
 # First Quarter 2024 Home enhancements

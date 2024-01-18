@@ -6,6 +6,7 @@ title: 21.1 Integration enhancements
 description: This page describes all Integration enhancements made with the 21.1 release to the Preview environment. These enhancements will be made available in the Production environment the week of February 15, 2021.
 author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 0cd407f6-2593-4de8-9456-c26ba231e482
 ---
 # 21.1 Integration enhancements

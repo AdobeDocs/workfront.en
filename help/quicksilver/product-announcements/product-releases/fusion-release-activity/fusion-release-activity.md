@@ -7,6 +7,7 @@ title: Adobe Workfront Fusion release activity overview
 description: Adobe Workfront Fusion connects your apps and web services seamlessly so that you can concentrate on new tasks rather than repeating the same tasks again and again.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
 ---
 # Adobe Workfront Fusion release activity overview

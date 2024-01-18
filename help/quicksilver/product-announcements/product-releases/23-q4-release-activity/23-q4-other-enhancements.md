@@ -3,6 +3,7 @@ title: Fourth Quarter 2023 Other enhancements
 description: Fourth Quarter 2023 Other enhancements
 author: Lisa
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: ebea1a04-8a08-40d3-a096-c0dc8f917c36
 ---
 # Fourth Quarter 2023 Other enhancements

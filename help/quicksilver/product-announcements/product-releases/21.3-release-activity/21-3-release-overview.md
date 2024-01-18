@@ -6,6 +6,7 @@ title: 21.3 Release overview
 description: This page provides information about functionality for both Adobe Workfront Classic and the new Adobe Workfront experience that is included in the 21.3 release to help you unlock productivity and collaboration . [Marketing one-liner for the release]
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: f441a887-0670-4d55-8c60-cbe96aaf8379
 ---
 # 21.3 Release overview

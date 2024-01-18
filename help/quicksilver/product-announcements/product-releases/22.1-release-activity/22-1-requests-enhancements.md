@@ -4,6 +4,7 @@ description: 22.1 Requests enhancements
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: be6da26d-1d80-4946-8222-cd164b2b633f
 ---
 # 22.1 Requests enhancements

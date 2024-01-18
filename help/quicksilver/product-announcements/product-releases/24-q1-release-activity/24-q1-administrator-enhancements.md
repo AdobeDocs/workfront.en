@@ -3,6 +3,7 @@ title: First Quarter 2024 Administrator enhancements
 description: First Quarter 2024 Administrator enhancements
 author: Lisa
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 ---
 # First Quarter 2024 Administrator enhancements
 

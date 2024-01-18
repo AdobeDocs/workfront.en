@@ -4,6 +4,7 @@ description: 21.3 Project enhancements
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 1df4ccdb-5b74-414c-a622-b0a5ed30a8c4
 ---
 # 21.3 Project enhancements

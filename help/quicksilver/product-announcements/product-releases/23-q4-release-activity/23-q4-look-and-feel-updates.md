@@ -4,6 +4,7 @@ description: Look-and-feel updates during the Fourth Quarter 2023 release time f
 author: Lisa
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: c18a5ff5-ac84-43a3-8980-ddadea3c2677
 ---
 # Look-and-feel updates during the Fourth Quarter 2023 release timeframe

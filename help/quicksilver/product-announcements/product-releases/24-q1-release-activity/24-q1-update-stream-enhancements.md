@@ -3,6 +3,7 @@ title: First Quarter 2024 Update stream and notification enhancements
 description: First Quarter 2024 Update stream and notification enhancements
 author: Lisa
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 837b5a23-162d-4862-b6fd-be3048ab0269
 ---
 # First Quarter 2024 Update stream and notification enhancements
