@@ -19,46 +19,6 @@ The Adobe Workfront administrator can create custom Conditions for your environm
 
 ## Access requirements {#access-requirements}
 
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> 
-   
-   For the current licenses:
-   <ul><li><p>Standard for tasks</p></li>
-   <li><p>Contributor or higher for issues</p></li></ul>
-
-
-   For legacy licenses:
-   <ul><li><p>Work or higher for tasks</p></li>
-   <li><p>Request or higher for issues</p></li></ul>
-    </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to projects</p> <p>Edit access to tasks and issues </p> <p><b>NOTE</b> 
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions on tasks and issues to view their Condition</p>
-   <p>Manage permissions on tasks and issues to update the Condition</p>
-    <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -66,31 +26,37 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Work or higher for tasks</p>
-   <p>Request or higher for issues</p>
+   <td> 
+   
+   For the new licenses:
+   <ul><li><p>Standard for tasks</p></li>
+   <li><p>Contributor or higher for issues</p></li></ul>
+
+
+   For current licenses:
+   <ul><li><p>Work or higher for tasks</p></li>
+   <li><p>Request or higher for issues</p></li></ul>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to projects</p> <p>Edit access to tasks and issues </p> <p><b>NOTE</b> 
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>View or higher access to projects</p> <p>Edit access to tasks and issues </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
    <td> <p>View or higher permissions on tasks and issues to view their Condition</p>
    <p>Manage permissions on tasks and issues to update the Condition</p>
-    <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator. For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 ## Locate the Condition of tasks and issues
 
@@ -98,7 +64,7 @@ Conditions display as a flag associated with tasks or issues. They can also be a
 
 You can locate the Condition of tasks and issues in the following areas: 
 
-* Task and issue Updates area, inside of an update, when you are assigned to the task or issue.
+* Task and issue Updates area, inside of an update, when you are assigned to the task or issue. This is not supported in the new commenting experience. For information, see [New commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 * Reports and lists when you display the Condition field in a View or Grouping. 
 
 >[!NOTE]
@@ -121,30 +87,29 @@ For information about setting the Work On It button to a Start Task or Start Iss
 
 You must be assigned to a task or the issue or have Manage permissions to it to be able to set the Condition on it.
 
+You can manually update the Condition of a task or issue in a task or issue report or list when  you display the Condition field in the view. 
+
+
+<!--old Condition update - in the commenting stream: 
 Updating the Condition of a task or issue differs depending on whether you are assigned to it or not:
 
-* You can update the Condition in the Updates tab or in a list of tasks or issues if you are assigned to them.
-* You can update the Condition only in a list of tasks or issues if you are not assigned to them, but have Manage permissions to them. In this case, you cannot update the Condition in the Update tab of the task or issue.
+* If you are using the legacy commenting experience, you can update the Condition in the Updates tab or in a list of tasks or issues if you are assigned to them. This is not supported in the new commenting experience. For information, see [New commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+* You can update the Condition in a list of tasks or issues if you are not assigned to them, only if you have Manage permissions to them. In this case, you cannot update the Condition in the Update tab of the task or issue. -->
 
-To manually set the Condition of a task or an issue:
+To manually update the Condition of a task or an issue:
 
-1. Go to a task or issue assigned to you for which you want to set the Condition.
+1. Go to a list of tasks or issues that you have Manage permissions to. Ensure the **Condition** field is visible in the list's view. 
 
-   Or
+1. Update the **Condition** of the issue or task inline, by double-clicking the existing condition and selecting a new value from the drop-down menu. 
 
-   Go to a list of tasks or issues that you have Manage permissions to, but are not assigned to you. 
-
-1. Change the Condition of the issue or task as follows:
-
-   * If you are assigned to the task or issue and have Manage permissions to it, on the **Updates** tab, click **Start a new update**, select the **Condition** that best reflects how the task is going, type your reason for changing the Condition in the **Start a new update** area (optional) , then click **Update**.
-
-     ![](assets/change-condition-update-comment-350x141.png)
+    ![](assets/condition-drop-down-values-in-task-list.png)
 
      >[!NOTE]
      >
      >Conditions can be customized for your environment, so you may find more than three options for Condition in your environment. The names of the Conditions might be different than the ones listed above. For information about customizing Conditions in Workfront, see [Create or edit a custom condition](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
-     For information about the additional functionality that is available when updating a work item, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+1. Press **Enter** on your keyboard, or click outside the Condition field to save the new task or issue Condition. 
 
      <!--   
      <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><p>(NOTE: drafted because I can't do this anymore)</p><p>If you have Manage permissions to the task or issue but are not assigned to it, perhaps as a project manager, add the <strong>Condition</strong> column to any view you use in a task or issue list, then set the <strong>Condition</strong> in inline edit and press Enter.</p><p><img src="assets/change-condition-in-list-view-350x142.png" style="width: 350;height: 142;"></p><p>For information about adding a column to a view, see <a href="../../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Views overview in Adobe Workfront</a>.</p></li>   
