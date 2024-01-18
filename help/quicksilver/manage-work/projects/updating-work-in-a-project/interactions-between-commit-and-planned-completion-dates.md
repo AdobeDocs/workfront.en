@@ -43,15 +43,15 @@ When the project owner creates and assigns a task or an issue, the task or issue
 * A Planned Completion Date
 * No Commit Date
 
-The assignee working on the task or issue can manually update the Commit Date or automatically update it by accepting to work on it.&nbsp;This is a visual way to indicate to the project owner when it would be realistic for them to complete the task or the issue.
+The assignee working on the task or issue can manually update the Commit Date or automatically update it by accepting to work on it. This is a visual way to indicate to the project owner when it would be realistic for them to complete the task or the issue.
 
 >[!TIP]
 >
 >Only the assignee can update the Commit Date of a task or issue.
 
-The assignee changing the Commit Date does not automatically change the Planned Completion Date.&nbsp;The reverse is also true: changing the Planned Completion Date will not change the Commit Date.
+The assignee changing the Commit Date does not automatically change the Planned Completion Date. The reverse is also true: changing the Planned Completion Date will not change the Commit Date.
 
-When the Commit Date changes to a date later than the Planned Completion Date, the Project&nbsp;Owner gets notified that this change occurred and it could impact the timeline of the project.
+When the Commit Date changes to a date later than the Planned Completion Date, the Project Owner gets notified that this change occurred and it could impact the timeline of the project, if the Project Owner uses the legacy commenting experience. This functionality is not supported in the new commenting experience. For more information, see [New commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 
 If the Commit Date offered by the assignee is acceptable to the project owner, they must manually update the Planned Completion Date on the task or issue. For more information, see the following articles:
 

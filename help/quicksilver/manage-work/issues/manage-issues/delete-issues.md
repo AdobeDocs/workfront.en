@@ -9,6 +9,8 @@ exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
 ---
 # Delete issues
 
+<!--Audited: 01/2024-->
+
 You can delete issues or requests in Adobe Workfront if you have the correct access and permissions to do so.
 
 >[!TIP]
@@ -24,25 +26,27 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Request or higher</p> <p>Review or higher license to delete issues in the Issues section of a project.</p> </td> 
+   <td> <p>New: Contributor or higher</p>
+   <p>Current: Request or higher</p>
+ </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configuration*</td> 
-   <td> <p>Edit access to Issues</p> <p>View or higher access to Projects and Tasks</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to issues in your Access Level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td role="rowheader">Access level configuration</td> 
+   <td> <p>Edit access to Issues</p> <p>View or higher access to Projects and Tasks</p>  <p>For information about access to issues in your Access Level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Grant access to issues</a>.  </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions on the issue</p> <p>Contribute or higher permissions on the project or task</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions on the issue</p> <p>Contribute or higher permissions on the project or task</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator. For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 ## Considerations for deleting issues
 
@@ -108,19 +112,19 @@ Depending on how your Workfront or group administrator configures the Project, T
 
 ### Delete a single issue {#delete-a-single-issue}
 
-1. Click the **Main** menu. 
-1. Click **Projects**.  
+{{step1-to-projects}} 
+
 1. Click the project name that contains the issue you want to delete.
 1. Click **Issues** in the left panel.
 
    ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. Click the name of the issue you want to delete.
-1. Click the **More** menu.
+1. Click the **More** menu to the right of the issue name.
 
    ![](assets/qs-issue-more-menu-highlighted-350x469.png)
 
-1. Click **Delete**. 
+1. Click **Delete Issue**. 
 1. If the deletion is allowed, click **Yes, Delete it**.  
    
    Your Workfront administrator might not allow the deletion of issues where hours are logged.  

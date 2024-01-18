@@ -84,8 +84,6 @@ You can convert an issue to a blank project or convert an issue to a project usi
 
       * Click the name of an issue, then click the [!UICONTROL **More**] menu ![](assets/more-icon.png) to the right of the issue name
 
-        ![](assets/issue-more-menu-expanded-with-convert-to-project-options-nwe-350x213.png)
-
         Or
       
       * Select the issue in the list of issues, in a report, or dashboard, click the **More** menu ![](assets/more-icon.png) at the top of the list, then click **Convert to project from Template** and start typing the name of a template in the **Search Template** box, then click the name of the template when it displays in the list. Continue with Step 3.       
