@@ -55,6 +55,12 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 ## Connect [!DNL Adobe Campaign Classic] to [!DNL Adobe Workfront Fusion]
 
+>[!IMPORTANT]
+>
+>We highly recommend creating a server-to-server connection. Adobe Campaign has updated their API to accept only server-to-server connections. If you are connecting to Campaign version 8 or higher, you **must** create a server-to-server connection. 
+>
+>For more information about Campaign's new connection requirements, see [Migration of Campaign technical operators to Adobe Developer Console](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/ims-migration.html) in the Campaign documentation.
+
 1. In any [!DNL Adobe Campaign Classic] module, click **[!UICONTROL Add]** next to the [!UICONTROL Connection] field.
 1. Fill in the following fields:
    <table style="table-layout:auto"> 
@@ -66,7 +72,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
         <tr>
           <td role="rowheader">[!UICONTROL Connection type]</td>
           <td>
-            <p>Select whether you are creating a .</p>
+            <p>Select whether you are creating a basic connection or a server-to-server connection.</p>
           </td>
         </tr>
         <tr>
