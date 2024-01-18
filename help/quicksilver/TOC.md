@@ -1328,7 +1328,7 @@ feature-set: Workfront
       * [Task Constraint overview: As Late As Possible](manage-work/tasks/task-constraints/as-late-as-possible.md)
       * [Update the Task Constraint of a task](manage-work/tasks/task-constraints/update-task-constraint-of-task.md)
     * Task Duration and Duration Types {#task-duration-and-duration-types}
-      * [Task Duration and Duration Types](manage-work/tasks/taskdurtn/task-duration-duration-type.md)
+      * [Task Duration and Duration Types: article index](manage-work/tasks/taskdurtn/task-duration-duration-type.md)
       * [Overview of Task Duration and Duration Type](manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
       * [Duration Type overview: Calculated Assignment](manage-work/tasks/taskdurtn/calculated-assignment.md)
       * [Duration Type overview: Effort Driven](manage-work/tasks/taskdurtn/effort-driven.md)
