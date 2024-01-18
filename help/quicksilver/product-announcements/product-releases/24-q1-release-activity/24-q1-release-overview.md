@@ -30,8 +30,11 @@ The 24.1 release webinar was on January 11, 2024. You can [register for the webi
 ## Adobe Workfront enhancements
 
 * [Administrator enhancements](#administrator-enhancements)
+* [Boards enhancements](#boards-enhancements)
 * [Document management enhancements](#document-management-enhancements)
+* [Home enhancements](#home-enhancements)
 * [Integration enhancements](#integration-enhancements)
+* [Project enhancements](#project-enhancements)
 * [Update stream and notification enhancements](#update-stream-and-notification-enhancements)
 
 ### Administrator enhancements
@@ -200,7 +203,7 @@ The 24.1 release webinar was on January 11, 2024. You can [register for the webi
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">New Pending approvals widget available</a></p><p>To make it easier for you to see the status of approvals and reviews on projects you own, we've added a new Pending Approvals widget to Home. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">New Pending approvals widget available</a></p><p>To make it easier for you to see the status of approvals and reviews on projects you own, we've added a new Pending Approvals widget to Home.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -219,7 +222,7 @@ The 24.1 release webinar was on January 11, 2024. You can [register for the webi
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Administrator controls for new Home using layout templates</a></p><p>Administrators can now customize new Home for users using layout templates. Customization options include selecting mandatory widgets and their position, choosing a background, and widget-specific options for choosing available filters and groups (and setting defaults).</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Administrator controls for new Home using layout templates</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Administrators can now customize new Home for users using layout templates. Customization options include selecting mandatory widgets and their position, choosing a background, and widget-specific options for choosing available filters and groups (and setting defaults).</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
