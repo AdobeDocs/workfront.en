@@ -9,9 +9,6 @@ exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
 ---
 # Document approval status
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
-
 You can find a document's approval status in the header of the document. 
 
 The following statuses are available:
