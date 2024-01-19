@@ -4,7 +4,7 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Edit user profiles in bulk
 description: As an Adobe Workfront administrator, you can edit user accounts in bulk.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
@@ -72,7 +72,7 @@ You must have the following to perform the steps in this article:
        <ul> 
         <li><b>Time Zone:</b> The users' time zone.</li> 
         <li><b>Locale</b>: The users' preferred locale. This affects the format of numbers and dates in the emails that come from Workfront.</li> 
-        <li><b>Show percent complete on update status</b>: Check this option if you want to display a percent complete bar inside the update stream of tasks for all users.</li> 
+        <li><b>Show percent complete on update status</b>:   Check this option if you want to display a percent complete bar inside the Update area of all users' tasks, when using the legacy commenting experience. For information, see <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">New commenting experience</a>.</li> 
         <li><b>Send work I assign to myself to my Working On tab</b>: Check this option if you want everything that the users assign to themselves to appear directly on their Working On tab. The default is to list everything assigned to a user on their Work Request tab.</li> 
        </ul> </td> 
      </tr> 
