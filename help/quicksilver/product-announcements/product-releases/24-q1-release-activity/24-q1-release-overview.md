@@ -128,7 +128,7 @@ The 24.1 release webinar was on January 11, 2024. You can [register for the webi
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Updated statuses for document approvals</a></p><p>To make document approval status more clear, we've updated available document status approvals. Now, the approval status accounts for reviewers marking their review complete, as well as cases where there are only reviewers but not approvers.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Updated statuses for document approvals</a></p><p>[!BADGE In production ]{type=Informative}</p><p>To make document approval status more clear, we've updated available document status approvals. Now, the approval status accounts for reviewers marking their review complete, as well as cases where there are only reviewers but not approvers.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -147,7 +147,7 @@ The 24.1 release webinar was on January 11, 2024. You can [register for the webi
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Mark a review as complete</a></p><p>To make it more clear when a document has been reviewed and is ready for the next approval stage, we've created a new <strong>Complete my review</strong> button.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Mark a review as complete</a></p><p>[!BADGE In production ]{type=Informative}</p><p>To make it more clear when a document has been reviewed and is ready for the next approval stage, we've created a new <strong>Complete my review</strong> button.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -166,7 +166,7 @@ The 24.1 release webinar was on January 11, 2024. You can [register for the webi
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Document review and approval status displays in document header</a></p><p>To make the review and approval process more transparent, we've added the status to the header of the Document Details page.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Document review and approval status displays in document header</a></p><p>[!BADGE In production ]{type=Informative}</p><p>To make the review and approval process more transparent, we've added the status to the header of the Document Details page.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -204,7 +204,7 @@ The 24.1 release webinar was on January 11, 2024. You can [register for the webi
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">New Pending approvals widget available</a></p><p>To make it easier for you to see the status of approvals and reviews on projects you own, we've added a new Pending Approvals widget to Home.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">New Pending approvals widget available</a></p><p>[!BADGE In production ]{type=Informative}</p><p>To make it easier for you to see the status of approvals and reviews on projects you own, we've added a new Pending Approvals widget to Home.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
