@@ -9,40 +9,11 @@ exl-id: 6e09dfcf-dceb-4f33-9592-0769283369c7
 ---
 # Update issue status
 
+<!--Audited: 01/2024-->
+
 You can update the status of an issue to inform others about where the issue is and how it is progressing.
 
 ## Access requirements
-
-<!--drafted for P&P;
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Contributor or higher</p>
-   Or
-   <p>Legacy license: Request or higher</p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Issues</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the issue</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
 
 You must have the following access to perform the steps in this article:
 
@@ -51,27 +22,28 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Request or higher</p> </td> 
+   <td> <p>New license: Contributor or higher</p>
+   Or
+   <p>Current license: Request or higher</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Issues</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Issues</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the issue</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions to the issue</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 ## Issue statuses
 
@@ -97,6 +69,44 @@ You can manually update issue statuses or you can let Workfront automatically up
 
 ## Manually update issue status
 
+You can update the issue status in the following areas of Workfront:
+
+* The issue header on the task page.
+* The Edit issue box, when editing an issue.
+* The Details section on the issue page. 
+* In an issue list or report, when the Status field is visible in the view. 
+* In the Summary panel of the issue. 
+
+To manually update the issue status in the issue header: 
+
+1. Go to an issue for which you want to update the status.
+1. Click the **Status** field in the issue header and select a new status. 
+1. To provide a visual indication of issue completion, drag or double-click the bubble under **Percent Complete** in the header of the issue
+
+   Or
+
+   Click inside the bubble in the header of the issue to enter a percentage.
+
+   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
+
+1. (Optional) Do any of the following to provide additional information about the update:
+
+   * To add a note about the update, go to the **Updates** section and click **New comment**, then type a note.
+
+     ![](assets/nwe-issue-update-stream-message-box-350x125.png)
+
+   * To notify certain users about the update, type their names in the **Tag people or teams** field that appears when you type a comment. For more information, see [Tag others on updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md). 
+   * To update the Commit Date of the issue, click **Issue Details**, then edit the **Commit Date** field. For information, see [Edit issues](/help/quicksilver/manage-work/issues/manage-issues/edit-issues.md).  
+
+
+   >[!IMPORTANT]
+   >
+   >  Only issue assignees can update the Commit Date. 
+
+
+
+<!--Old instructions, in old commenting: 
+
 When you are updating an issue status, you can also add an explanation about the new status and change other issue information such as the commit date.
 
 1. Go to an issue that you are assigned to for which you want to update the status.
@@ -112,20 +122,7 @@ When you are updating an issue status, you can also add an explanation about the
 
    ![](assets/nwe-updatetaskpercentinheader-350x54.png)
 
-1. (Optional) Do any of the following to provide additional information about the update, then click **Update** or, if the issue has a status that equates with Complete, click **Done:**
-
-   * To add a note about the update, go to the **Updates** section and click **Start a new update**, then type your note.
-
-     ![](assets/nwe-issue-update-stream-message-box-350x125.png)
-
-   * To notify certain users about the update, type their names in the **Notify** box that appears when you type a note about the update. For more information, see [Tag others on updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md). 
-   * To update the condition of the issue, click **Condition**, then select the condition that best reflects the current condition of the issue. Select from the following options:
-
-      * Going Smoothly
-      * Some Concerns
-      * Major Roadblocks
-
-   * To update the Commit Date of the issue, expand the **Commit Date** drop-down calendar, and select a new date.
+-->
 
 ## Automatically update issue status
 
@@ -141,9 +138,9 @@ Workfront automatically updates the existing status of an issue to a different s
  <col> 
  <tbody> 
   <tr> 
-   <td>Action</td> 
-   <td>Original Status</td> 
-   <td>New Status</td> 
+   <td><b>Action</b></td> 
+   <td><b>Original Status</b></td> 
+   <td><b>New Status</b></td> 
   </tr> 
   <tr> 
    <td>Update the issue percent complete to 100%</td> 

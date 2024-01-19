@@ -9,40 +9,11 @@ exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
 ---
 # View and update Percent Complete for tasks
 
+<!--Audited:01/2024-->
+
 You can update the percent complete of a task to indicate the progress that you have made on the task towards completing it. 
 
 ## Access Requirements
-
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
 
 You must have the following access to manually update tasks: 
 
@@ -51,27 +22,28 @@ You must have the following access to manually update tasks:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Work or higher</p> </td> 
+   <td> <p>New license: Standard</p> 
+   Or
+   <p>Current license: Work or higher</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions to the task</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator. For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 
 ## Areas where you can update the percent complete of a task
@@ -83,6 +55,7 @@ You can update the percent complete for a task in any of the following areas:
 
 * **In the Milestone view**: You can update the percent complete of a task when using the Milestone view on a project list or a project report. For more information, see [Use the Milestone view](../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
+<!--only in legacy commenting: 
 * **As you update the task**:  You can update the percent complete option of a task when adding an update to the task.
 
   >[!IMPORTANT]
@@ -91,7 +64,7 @@ You can update the percent complete for a task in any of the following areas:
   >To enable the percent complete update bar for tasks, do the following:   
   >
   >1. Go to the **Main** menu>your name>**More** icon next to your name >**Edit** > select **Show percent complete on update status**.   
-  >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >
+  >![](assets/show-percent-complete-toggle-in-user-profile-350x243.png)  >-->
 
 * **In the task header**: You can update the percent complete of a task in the task header. For information, see [Edit tasks](../../tasks/manage-tasks/edit-tasks.md).
 
@@ -119,7 +92,7 @@ You can update the percent complete for a task in any of the following areas:
     
     Or
 
-    Click and drag the **Percent Complete** bar to the necessary number to indicate how much of the task you completed.
+    Click and drag the **Percent Complete** bar to the necessary number to indicate how much of the task you completed, when available.
 
     >[!NOTE]
     >
@@ -127,4 +100,6 @@ You can update the percent complete for a task in any of the following areas:
 
 
 1. Press Enter in your keyboard to save the percent complete. 
+
+  The Percent Complete of the project is also automatically updated. 
 

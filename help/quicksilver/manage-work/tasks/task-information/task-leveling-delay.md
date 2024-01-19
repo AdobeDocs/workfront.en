@@ -49,8 +49,6 @@ You must have the following access to perform the steps in this article:
 1. Go to a task for which you want to add a Leveling Delay.
 1. Click the **More icon** to the right of the task name, then click **Edit**.
 
-   ![](assets/qs-task-edit-icon-highlighted-350x154.png)
-
 1. Click **Settings**.
 
    ![](assets/leveling-delay-edit-task-nwe-350x345.png)
