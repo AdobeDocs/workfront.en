@@ -65,6 +65,7 @@ The Milestone view is available on project lists and project reports. This view 
 >[!NOTE]
 >
 >The Milestone view is not available in the following areas:
+>
 >* Timesheets, in the project list when adding a project.
 
 
