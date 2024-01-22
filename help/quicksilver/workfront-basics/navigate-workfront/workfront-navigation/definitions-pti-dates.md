@@ -106,8 +106,6 @@ The [!UICONTROL Commit Date] is the date by which an user assigned to task or an
 >
 >Changing the [!UICONTROL Commit Date] affects the [!UICONTROL Projected Completion Date] but not the [!UICONTROL Planned Completion Date] of a task or an issue. The project manager can use the changes an assignee makes on the [!UICONTROL Commit Date] to update the [!UICONTROL Planned Completion Date] of a task or an issue.
 
-![](assets/commit-date-on-task-details-highlighted-nwe-350x193.png)
-
 ## [!UICONTROL Projected Start Date]
 
 The [!UICONTROL Projected Start Date] is a real-time date of when the project, task, or issue and takes into account all the delays. This is a more accurate Start Date for the project, task, or issue than the [!UICONTROL Planned Start Date]. The [!UICONTROL Planned Start Date] does not take into account delays or past dates.
