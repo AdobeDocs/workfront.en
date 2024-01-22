@@ -876,7 +876,7 @@ feature-set: Workfront
     * [Export custom forms and object details](workfront-basics/work-with-custom-forms/export-custom-forms-details.md)
     * [Manage custom forms attached to objects](workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
   * Use notifications {#use-notifications}
-    * [Use notifications](workfront-basics/using-notifications/use-notifications.md)
+    * [Use notifications: article index](workfront-basics/using-notifications/use-notifications.md)
     * [Notifications overview](workfront-basics/using-notifications/wf-notifications.md)
     * [Modify your own email notifications](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
     * [Subscribe to items in Adobe Workfront](workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
