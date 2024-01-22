@@ -332,24 +332,18 @@ For general information about using the Home area, see the following sections:
 
 #### Log time on a work item from the new Home area
 
+You can log time to any objects in any of the widgets using the Summary panel. For information, see the [Summary panel](#summary-panel) section in this article. 
+
+Additionally, to log time for an item in the My Work widget:
+
 1. Got to the **Home** area. 
-1. Add any of the following widgets: 
+1. Add the **My Work** widget to your Home. 
+1. Select a task, issue, or request in a list, then click **Work On It**
+1. Hover over the task or issue you want to log time for, then click the **Log Time** icon ![](assets/log-time-icon-in-new-home.png) to the right of the task information.
 
-   * My Tasks
-   * My Issues
-   * My Work
-   * My Requests
-1. Select a task, issue, or request in a list, then click **Summary**
+   ![](assets/log-time-ui-for-task-from-new-home.png)
 
-   Or
-
-   Click the **Summary** icon ![](assets/open-summary-icon-in-home.png) from a task or an issue in the My Work widget. 
-
-   The Summary panel opens to the right. 
-
-   ![](assets/log-time-new-home-my-work-widget.png)
-1. Continue logging time in the Summary panel, as described in [Summary overview](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
-
+1. Click **Log time**.
 
 #### Log time on a work item from the legacy Home area
 
