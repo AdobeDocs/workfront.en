@@ -72,7 +72,7 @@ The best way to learn how to add display and skip logic to a custom form is thro
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
 
-1. In the left panel, click **Custom Forms** ![](assets/custom-forms-icon.png). 
+1. In the left panel, click **Custom Forms**. 
 
 1. Create the sample custom form:
 
