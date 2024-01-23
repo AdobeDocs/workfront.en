@@ -3,11 +3,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Use the Milestone view
 description: You can apply the Milestone view to a project list or report.
-author: Alina
+author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
 ---
 # Use the Milestone view
+
+<!-- Audited: 1/2024 -->
 
 You can apply the Milestone view to a project list or report.
 
