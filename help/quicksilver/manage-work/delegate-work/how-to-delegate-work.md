@@ -9,15 +9,18 @@ exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
 ---
 # Manage task and issue delegation
 
+<!-- Audited: 1/2024 -->
+
+
 <!--
 <NOTE: 
 <you might need to change the tile to Delegate PTI, etc, when that functionality is added. Named it this so it will not conflict with the TOC article for Delegate section which was also "Delegate work"
-I wrote thhis as a "Manage..." article and I did not add three separate articles, to match what we have for delegating approval requests)
+I wrote this as a "Manage..." article and I did not add three separate articles, to match what we have for delegating approval requests)
 -->
 
 You can temporarily delegate the work you are assigned to while you are out of the office.
 
-You can delegate task and issue assignments or you can delegate approvals. This article describes how to delegate task and issue assignments.
+You can delegate task and issue assignments, or you can delegate approvals. This article describes how to delegate task and issue assignments.
 
 For general information about delegating work, see [Delegate work overview](../../manage-work/delegate-work/delegate-work-overview.md).
 
@@ -29,10 +32,10 @@ For general information about delegating work, see [Delegate work overview](../.
 >* The permissions must work within their access levels, and sometimes their access levels might be lower than yours.
 >
 >   
->   For example, if a user has only View access to tasks in their access level and you have Manage permissions on the tasks you delegate to them, they receive Manage permissions to the tasks you delegate to them. However, they will not be able to perform the same actions as you on the delegated tasks. They must request Edit access to Tasks from the system administrator to be able to update tasks in your absence.
+>   For example, if a user has only View access to tasks in their access level and you have Manage permissions on the tasks you delegate to them, they receive Manage permissions to the tasks you delegate to them. However, they will not be able to perform the same actions as you on the delegated tasks. To be able to update tasks in your absence,they must request Edit access to Tasks from the system administrator.
 >
 >   
->   For information on how a  can modify your access level, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+>   For information on how a system administrator can modify your access level, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 >
 >* For items that are assigned after the delegation already started, it can take up to one hour after the item was assigned for [!DNL Workfront] to share the newly-assigned items with the delegate.
 
@@ -49,11 +52,11 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>Review or higher</p>
+   <td> <p>New: Contributor or higher</p><p>Or</p><p>Current: Review or higher</p>
 
 >[!NOTE]
 >
->Although you can be assigned to work when you have a Request license, you cannot delegate your work to others. [!DNL Workfront] does not recommend assigning work to Review or Request users.
+>Although you can be assigned to work when you have a Request license, you cannot delegate your work to others. [!DNL Workfront] does not recommend assigning work to Review, Request, or Contributor users.
 
 </tr> 
   <tr> 
