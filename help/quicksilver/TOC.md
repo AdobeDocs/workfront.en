@@ -1313,7 +1313,7 @@ feature-set: Workfront
       * [Associate milestones with tasks](manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)
       * [Convert a task to a project](manage-work/tasks/manage-tasks/convert-task-to-project.md)
     * Task Constraints {#task-constraints}
-      * [Task Constraints](manage-work/tasks/task-constraints/task-constraints.md)
+      * [Task Constraints: article index](manage-work/tasks/task-constraints/task-constraints.md)
       * [Task Constraint overview](manage-work/tasks/task-constraints/task-constraint-overview.md)
       * [Task Constraint overview: Start No Later Than](manage-work/tasks/task-constraints/start-no-later-than.md)
       * [Task Constraint overview: Start No Earlier Than](manage-work/tasks/task-constraints/start-no-earlier-than.md)

@@ -47,11 +47,11 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
    <td> <p>New: Contributor or higher</p><p>Or</p><p>Current: Review or higher</p>
 
 >[!NOTE]
@@ -60,19 +60,19 @@ You must have the following access to perform the steps in this article:
 
 </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to Tasks and Issues 
-     If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref"> Create or modify custom access levels</a>.</p> </td> 
+     </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
    <td> <p>View or higher permissions to the tasks or issues that you are assigned to</p> 
-    <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+    </td> 
   </tr> 
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--note from the table for Object permissions:
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project&nbsp;Owner (NOTE:&nbsp;you cannot delegate projects yet)</p>
@@ -90,7 +90,7 @@ Before you can perform the activities described in this article, you must ensure
 
 Before delegating work to others, we recommend that you reach out to them and inform them that they will be designated as delegates on your work items. Ask for their verbal approval before delegating work to ensure they have the time necessary to complete the work while you are out of the office.
 
-For general information about delegating tasks and issues, see [Delegate tasks and issues overview](delegate-work.md).
+For general information about delegating tasks and issues, see [Delegate tasks and issues overview](/help/quicksilver/manage-work/delegate-work/delegate-work-overview.md).
 
 To delegate your tasks and issues to others:
 
@@ -100,9 +100,9 @@ To delegate your tasks and issues to others:
 
 1. In the [!UICONTROL **Delegate tasks and issues**] tab, update the following:
 
-   * [!UICONTROL **Delegate your tasks and issues to**]: Start typing the name of a user that you want your tasks and issues to be delegated to, then select it when it displays in the list. You can only select one user.\
+   * [!UICONTROL **Delegate your tasks and issues to**]: Start typing the name of a user that you want your tasks and issues to be delegated to, then select it when it displays in the list. You can only select one user.
 
-      The user that you select as a delegate receives the same  permissions as your permissions on the tasks and issues you delegate to them. For more information, see [Delegate task and issue overview](delegate-work-overview.md).
+      The user that you select as a delegate receives the same  permissions as your permissions on the tasks and issues you delegate to them. 
 
    * [!UICONTROL **Start date**]: Select a date from the calendar when the delegation of your work items should start.
 
@@ -116,7 +116,7 @@ To delegate your tasks and issues to others:
 
       >[!TIP]
       >
-      >Not selecting an End date enables the delegation only for the current day.
+      >If you leave the End date field empty, and the No end date option is not selected, the delegation is set only for the current day.
 
       ![](assets/delegate-box-expanded-in-home.png)
 
@@ -126,14 +126,14 @@ To delegate your tasks and issues to others:
 
    * Your work is delegated to the specified user. Any incomplete tasks or issues that have dates within the time frame you selected (including newly assigned ones, after the delegation was enabled) are delegated.
 
-   >[!TIP]
-   >
-   >   Completed work items that have dates within the time frame of the delegation are not delegated.
+      >[!TIP]
+      >
+      >   Completed work items that have dates within the time frame of the delegation are not delegated.
 
 
    * You receive a message in the upper-right corner of the screen to confirm that you have enabled the delegation of your work to another user. The name of the delegate user displays in the confirmation message.
 
-   * An indication that your tasks and issues are delegated to other users displays in most areas where you can see assignments in [!DNL Workfront]. For more information about what areas do not include delegates' names, see [Delegate task and issue overview](delegate-work-overview.md).
+   * An indication that your tasks and issues are delegated to other users displays in most areas where you can see assignments in [!DNL Workfront]. For more information about what areas do not include delegates' names, see [Delegate work overview](delegate-work-overview.md).
 
    * The [!UICONTROL **Delegate**] button in the [!UICONTROL Home] area changes to [!UICONTROL **Edit delegation**] to indicate that there is a delegation in place.
    <!--
@@ -149,9 +149,6 @@ To delegate your tasks and issues to others:
    * The user you selected as your delegate receives an email about the delegation, if their event notifications are enabled.
 
       For information about enabling personal email notifications, see [Modify your own email notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
-
-
-
 
 ## Edit or stop delegation
 
@@ -199,9 +196,9 @@ You can access the [!UICONTROL Assignments] box in the following areas:
 
 * The task or issue header
 
-   ![](assets/assignments-and-delegates-panel-in-task-header.png)
-
    The [!UICONTROL Assignments] field in the task or issue header changes to [!UICONTROL Assignments and delegations].
+
+   ![](assets/assignments-and-delegates-panel-in-task-header.png)
 
 * The [!UICONTROL Workload Balancer] when manually assigning tasks or issues
 
