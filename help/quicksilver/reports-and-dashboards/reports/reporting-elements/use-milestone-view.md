@@ -50,7 +50,8 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Switch to the Milestone view {#switch-to-the-milestone-view}
 
-1. Go to the list of projects or to the project report that contains the milestones you want to view.
+{{step1-to-projects}}
+
 1. Click the **View** drop-down menu, then click **Milestone**.
 
    The list or report displays in a Milestone view.
@@ -160,7 +161,8 @@ Any changes you make to these options apply only to you; other users are not aff
 
 To configure whether project status icons and completion percentage of projects display:
 
-1. Go to the list of projects or to the project report that contains the milestones you want to view.
+{{step1-to-projects}}
+
 1. Click the **View** drop-down menu, then click **Milestone**.  
    If you are viewing a list of projects inside a Portfolio or a Program, select the **Milestone** subtab.  
 
@@ -190,7 +192,8 @@ You can adjust the Percent Complete for tasks in the Milestone view. You cannot 
 
 To adjust the percent complete for a task in the Milestone view:
 
-1. Go to the list of projects or to the project report that contains the milestones you want to view.
+{{step1-to-projects}}
+
 1. Click the **View** drop-down menu, then click **Milestone**.  
 
 1. (Conditional) If completion percentages are not current displaying in the Milestone view, click **Options** in the upper-right corner of the Milestone view, then ensure that **Percent Complete** is enabled.
