@@ -11,8 +11,6 @@ exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
 
 <!-- Audited: 01/2024 -->
 
-{{highlighted-preview}}
-
 As a Resource Manager, you can assign work to users and manage their daily, weekly, or monthly allocations from the Workload Balancer to ensure they are allocated an amount of hours that fits in their available schedules.
 
 ## Access requirements {#access-requirements}
@@ -249,7 +247,7 @@ As part of assigning work to users, you can modify user allocations in the Workl
 
 >[!TIP]
 >
-><span class="preview">A pencil icon displays to the right of the work item name to indicate that it was manually adjusted.</span>
+>A pencil icon displays to the right of the work item name to indicate that it was manually adjusted.
 
 ![Manually adjusted hours icon](assets/icon-for-manually-adjusted-hours.png)
 
