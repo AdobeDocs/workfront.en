@@ -78,61 +78,62 @@ You must have the following to share objects:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Understand standard&nbsp;sharing rules
+## Understand standard sharing rules
 
-The following standard sharing rules take effect&nbsp;automatically, as they are set up as default options in your Workfront system.&nbsp;
+The following standard sharing rules take effect automatically, as they are set up as default options in your Workfront system. 
 
-* Users assigned to a task or an issue have Contribute access on it.&nbsp;
-* Project, Portfolio, and Program managers have&nbsp;Manage&nbsp;access on the objects they own.
-* Users included in a&nbsp;conversation have&nbsp;View access on the object where the conversation happens.
+* Users assigned to a task or an issue have Contribute access on it. 
+* Project, Portfolio, and Program managers have Manage access on the objects they own.
+* Users included in a conversation have View access on the object where the conversation happens.
 * Users assigned as approvers have View access on the object waiting to be approved.
-* When sharing&nbsp;a&nbsp;dashboard, all reports on the dashboard are also&nbsp;shared with the same access to the same users.&nbsp;
+* When sharing a dashboard, all reports on the dashboard are also shared with the same access to the same users. 
 * Object owners are unable to extend access to an object beyond their access on that object as defined by the administrator.
 
-## Request&nbsp;access
+## Request access
 
 You can request initial access to objects that you do not currently have access to, or you can request additional access to objects that you have only limited access to.
 
 * [Request initial access](#request-initial-access) 
 * [Request additional access](#request-additional-access)
 
-### Request initial&nbsp;access&nbsp; {#request-initial-access}
+### Request initial access  {#request-initial-access}
 
-If you do not already have access to an object&nbsp;and you navigate to that object from a link,&nbsp;a screen is displayed informing you that you do not&nbsp;have access to view the information. &nbsp;
+If you do not already have access to an object and you navigate to that object from a link, a screen is displayed informing you that you do not have access to view the information.  
 
 To request initial access to an object:
 
 1. Click **Request Access**.  
    The **Request Access** dialog box is displayed.  
 
-1. (Conditional) If more than one user has the appropriate access to grant you additional access, a drop-down arrow is displayed next to the name of the user.&nbsp;
+1. (Conditional) If more than one user has the appropriate access to grant you additional access, a drop-down arrow is displayed next to the name of the user. 
 1. Select the user from the drop-down list who you want to receive your access request.  
    Only 10 users are displayed in the drop-down list. The list is sorted alphabetically.  
-   For more information on the order of the users listed in this&nbsp;drop-down menu, see&nbsp; [Hierarchy of the "Request Access" and "Request More Access" drop-down menus](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
+   For more information on the order of the users listed in this drop-down menu, see  [Hierarchy of the "Request Access" and "Request More Access" drop-down menus](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
 
 1. From the drop-down list, select the type of access that you are requesting.
 1. (Optional) In the **P.S.** field, specify a note to the user regarding why you need additional access.
 
    ![](assets/request-access-dialog-350x314.png)
 
-If you do not have access level rights to an object&nbsp;and you try to access that object from a link,&nbsp;a screen is displayed informing you&nbsp;to contact the Workfront administrator.&nbsp;
+If you do not have access level rights to an object and you try to access that object from a link, a screen is displayed informing you to contact the Workfront administrator. 
 
-For example,&nbsp;if you do not&nbsp;have portfolio&nbsp;access, but you were&nbsp;given a link to a portfolio, you&nbsp;would see the following&nbsp;message:  
+For example, if you do not have portfolio access, but you were given a link to a portfolio, you would see the following message:  
 ![](assets/permission-request-initial2-350x96.png)
 
-### Request additional&nbsp;access {#request-additional-access}
+### Request additional access {#request-additional-access}
 
 To request additional access to an object that you already have limited access to:
 
 1. Go to the object for which you want to request additional access.
 
-1. Click the **More** menu inline with the project name, then click **Request More Access**.  
+1. Click the **More** menu to the right of the project name, then click **Request More Access**.  
+
    ![](assets/request-access-in-project-350x201.png)  
 
 1. (Conditional) If more than one user has the appropriate access to grant you additional access, a drop-down arrow is displayed next to the name of the user.
 1. Select the user from the drop-down list who you want to receive your access request.  
    Only 10 users are displayed in the drop-down list. The list is sorted alphabetically.  
-   For more information on the order of the users listed in this&nbsp;drop-down menu, see&nbsp; [Hierarchy of the "Request Access" and "Request More Access" drop-down menus](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
+   For more information on the order of the users listed in this drop-down menu, see  [Hierarchy of the "Request Access" and "Request More Access" drop-down menus](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
 
 1. From the drop-down list, select the level of access that you are requesting.
 1. (Optional) In the **P.S.** field, specify a note regarding why you need additional access.
@@ -144,19 +145,19 @@ To request additional access to an object that you already have limited access t
 * [Understand the hierarchy of users listed in the Request Access and Request More Access drop-down menus](#understand-the-hierarchy-of-users-listed-in-the-request-access-and-request-more-access-drop-down-menus) 
 * [Understand the owner of an object](#understand-the-owner-of-an-object)
 
-### Understand the hierarchy of users listed in the Request Access and&nbsp;Request More Access drop-down menus {#understand-the-hierarchy-of-users-listed-in-the-request-access-and-request-more-access-drop-down-menus}
+### Understand the hierarchy of users listed in the Request Access and Request More Access drop-down menus {#understand-the-hierarchy-of-users-listed-in-the-request-access-and-request-more-access-drop-down-menus}
 
-When populating the "Request Access" or "Request More Access" lists on objects, Workfront selects a&nbsp;list of up to ten users that fulfill various roles in the sharing of the object as described below. These users can grant access to the object to the user requesting it.  
+When populating the "Request Access" or "Request More Access" lists on objects, Workfront selects a list of up to ten users that fulfill various roles in the sharing of the object as described below. These users can grant access to the object to the user requesting it.  
 The resulting list is then is sorted by their name in ascending alphabetical order.   
-Workfront displays up to 10 users in the "Request Access" and the "Request More Access" lists.&nbsp;
+Workfront displays up to 10 users in the "Request Access" and the "Request More Access" lists. 
 
-The order of the users in the "Request Access" or "Request More Access" drop-down menus is dictated by the following rules:&nbsp;
+The order of the users in the "Request Access" or "Request More Access" drop-down menus is dictated by the following rules: 
 
-* The first user&nbsp;in the list is the object "owner", as described in [Understand the owner of an object](#understand-the-owner-of-an-object).&nbsp;
-* Then the list is populated with users with whom the object&nbsp;is shared individually. They are listed in alphabetical order.
+* The first user in the list is the object "owner", as described in [Understand the owner of an object](#understand-the-owner-of-an-object). 
+* Then the list is populated with users with whom the object is shared individually. They are listed in alphabetical order.
 * Then the list is further populated with users who get the required access through sharing with their teams, groups, or companies. They are listed in alphabetical order.
-* If the list is empty, the Workfront administrators are added so that there is always someone to request access from. They are listed in alphabetical order.&nbsp;
-* Each of the users in the list must have the requested access to the object and access to share the object.&nbsp;
+* If the list is empty, the Workfront administrators are added so that there is always someone to request access from. They are listed in alphabetical order. 
+* Each of the users in the list must have the requested access to the object and access to share the object. 
 
 ### Understand the owner of an object {#understand-the-owner-of-an-object}
 
@@ -174,15 +175,15 @@ The owner of an object is defined as follows:
  <tbody> 
   <tr> 
    <td>Projects</td> 
-   <td>The owner is&nbsp;the Project Owner&nbsp;or, if it is missing or they don't have the necessary&nbsp;access, the owner of the parent portfolio.&nbsp;<p>They might not be the same person as the project creator. </p></td> 
+   <td>The owner is the Project Owner or, if it is missing or they don't have the necessary access, the owner of the parent portfolio. <p>They might not be the same person as the project creator. </p></td> 
   </tr> 
   <tr> 
    <td>Tasks</td> 
-   <td>The owner is the Primary Assignee or, if it is missing or they don't have the necessary&nbsp;access, the owner of project on which the task resides, as defined above.&nbsp;<p>They might not be the same person as the task creator. </p></td> 
+   <td>The owner is the Primary Assignee or, if it is missing or they don't have the necessary access, the owner of project on which the task resides, as defined above. <p>They might not be the same person as the task creator. </p></td> 
   </tr> 
   <tr> 
    <td>Issues</td> 
-   <td> <p>The owner is the Primary Contact of the issue or, if it is missing or they don't have necessary&nbsp;access, the owner of&nbsp;the project on which the issue resides, as defined above. </p> <p>They might not be the same person as the issue creator. </p> </td> 
+   <td> <p>The owner is the Primary Contact of the issue or, if it is missing or they don't have necessary access, the owner of the project on which the issue resides, as defined above. </p> <p>They might not be the same person as the issue creator. </p> </td> 
   </tr> 
   <tr> 
    <td>Portfolios</td> 
@@ -190,15 +191,15 @@ The owner of an object is defined as follows:
   </tr> 
   <tr> 
    <td>Documents</td> 
-   <td>The owner is the Owner of the document (the user who uploaded the document) or, if it is missing or they don't have necessary&nbsp;access, the owner of the object on which the document resides.</td> 
+   <td>The owner is the Owner of the document (the user who uploaded the document) or, if it is missing or they don't have necessary access, the owner of the object on which the document resides.</td> 
   </tr> 
   <tr> 
    <td>Reports and dashboards</td> 
-   <td>The owner is the creator or the report or the dashboard.&nbsp;</td> 
+   <td>The owner is the creator or the report or the dashboard. </td> 
   </tr> 
   <tr> 
    <td>Calendars</td> 
-   <td>The owner is the creator of the calendar.&nbsp;All users have a calendar assigned to them by default.&nbsp;They are considered the owner of that calendar. </td> 
+   <td>The owner is the creator of the calendar. All users have a calendar assigned to them by default. They are considered the owner of that calendar. </td> 
   </tr> 
   <tr> 
    <td>Filters, views, and groupings</td> 
@@ -215,4 +216,4 @@ The owner of an object is defined as follows:
  </tbody> 
 </table>
 
-&nbsp;
+ 

@@ -10,7 +10,7 @@ exl-id: bce89abe-ec37-4705-a88f-de62c8b27f49
 ---
 # Schedule a scenario in [!DNL Adobe Workfront Fusion]
 
-By default, a scenario runs every 15 minutes. You can change this by defining when and how often an activated scenario runs.
+By default, a scenario runs every 15 minutes. You can change this by defining when and how often an activated scenario runs. Fusion scenarios can be scheduled to run as often as every 5 minutes.
 
 ## Access requirements
 

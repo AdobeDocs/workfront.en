@@ -9,12 +9,22 @@ recommendations: noDisplay, noCatalog
 # Manage record comments
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--update the system updates articles when we release to open beta - check the long commenting stream article list and see articles that document where in the system we have system updates; "Maestro records" should be there-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
 You can collaborate on Adobe Maestro records, by adding comments or replies in the Comments area of a record.
+
+<!--replace first paragraph with this and update the Description in the metadata: 
+You can collaborate on Adobe Maestro records, by adding comments or replies in the right panel of a record. You can also view other changes made to the record in this area.
+
+The right panel of a record displays the following sections:
+
+* Comments: Users can add comments and reply to existing ones.
+* History: When you make a change to a record, Maestro records the change in this section. 
+-->
 
 ## Considerations about commenting on a record
 
@@ -161,3 +171,18 @@ You must have the following access to perform the steps in this article:
     For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 1. (Optional) Click the **More** icon ![](assets/more-menu.png) in the upper-right corner of the comment, then click **Delete** to delete the comment. 
 
+<!--
+## History section overview
+
+*********also update the screen shot above for the Comments section ******
+
+You can refer to the History section in the right panel of a record to view changes made to the record. 
+
+![](assets/history-area-in-comments.png)
+
+Maestro records the following information in the History section: 
+
+* Any field changes
+* The full name of the user who made the change
+* A date and time stamp of when the change occurred. 
+-->
