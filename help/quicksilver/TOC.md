@@ -1064,7 +1064,7 @@ feature-set: Workfront
     * [Tips, tricks, and troubleshooting for agile](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
     * [Custom statuses not showing up on the agile story board](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
 * Documents {#documents}
-  * [Documents](documents/documents-overview.md)
+  * [Documents: article index](documents/documents-overview.md)
   * Add new documents to Adobe Workfront {#add-new-documents-to-workfront}
     * [Add new documents to Adobe Workfront](documents/adding-documents-to-workfront/add-new-documents--to-workfront.md)
     * [Add documents to Adobe Workfront from your file system](documents/adding-documents-to-workfront/add-documents-from-file-system.md)
