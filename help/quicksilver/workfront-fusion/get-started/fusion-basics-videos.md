@@ -6,7 +6,6 @@ title: Fusion Basics videos
 description: Fusion Basics videos
 author: Becky
 feature: Workfront Fusion
-exl-id: 643bb1d5-d7bc-402b-8ed1-9ca9a30e4560
 ---
 # Adobe Workfront Fusion video overviews
 
