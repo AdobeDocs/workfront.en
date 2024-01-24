@@ -9,11 +9,18 @@ exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
 ---
 # Make smart assignments
 
+<!--update "Results" to "Other assignments" with Prod-->
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>   
   
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> 
 
-You can use smart assignments to identify who the best user is to complete the work. Smart assignments are suggestions for users that Adobe Workfront presents to you when you assign work items to resources based on an algorithm that determines the most appropriate resource for the job. For information about smart assignments, see [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+You can use smart assignments to identify who the best user is to complete the work. 
+
+Smart assignments are suggestions for users that Adobe Workfront presents to you when you assign work items to resources based on an algorithm that determines the most appropriate resource for the job.
+
+<span class="preview">There are two separate algorithms in Workfront for tasks and issues. </span>
+For information about smart assignments, see [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Access requirements
 
@@ -70,9 +77,16 @@ Smart assignments are available in most locations where you can make assignments
 
      ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
-   Users displayed in this list are the smart assignment suggestions for the task or the issue.
+   For issues, the smart assignment suggestions display in  the **Suggested assignments** area.
+   
+   For tasks, the smart assignments display in the following sections, depending on which phase of the algorithm's calculation identified the assignments: 
 
-   For more information about where the smart assignments display, see the "Locate smart assignment suggestions" section in the article [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md) . 
+   * **Suggested assignments**: Assignments identified in the first phase of the task smart assignment's algorithm calculation. 
+   * <span class="preview">**Results**: Assignments identified in the second phase of the task smart assignment's algorithm calculation. This section is not available for issues. </span> <!--replace this with the new UI: "Other assignments"-->
+
+   ![](assets/smart-assignments-task-list.png)
+   
+   For more information, see [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md) . 
 
 1. Select the user in the recommendations list by clicking their name. 
 

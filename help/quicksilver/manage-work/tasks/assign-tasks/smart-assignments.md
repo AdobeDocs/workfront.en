@@ -45,9 +45,13 @@ You can view smart assignments in the following areas where you can assign tasks
 
     <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
-* A task or issue header in the Assignments field
+* <span class="preview">A task header in the Assignments field</span>
 
-  ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+
+* An issue header in the Assignments field
+
+  ![](assets/smart-assignments-issue-header.png)
 
 * The task or issue Summary panel in the Assignments area
 
@@ -64,14 +68,17 @@ You can view smart assignments in the following areas where you can assign tasks
 
 ## Smart assignments criteria
 
-
 <div class="preview">
 
 Smart assignments work differently for tasks than for issues.  
 
 ### Smart assignments criteria for tasks
 
-The task smart assignments calculation works in two phases.   
+The task smart assignments calculation works in two phases which use two different algorithms.
+
+Depending on which algorithm finds the smart assignment, the assignments are listed under two separate sections in the Assignments field. For information, see [Make smart assignments](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md). 
+
+![](assets/smart-assignments-task-list.png)
 
 #### First phase of smart assignment calculation for tasks 
 
@@ -105,6 +112,8 @@ The calculation for the similarity score and the order in which the assignments 
 
   For example, if Rick was assigned to a similar task earlier today and Jennifer was assigned to a similar task two days ago, Rick displays first.  
 
+* Assignments identified in this phase are listed in the **Suggested assignments** section of the Assignments field. 
+
 * If there are no matches using this calculation, the second phase of smart assignments starts which is calculated using a different algorithm.  
 
 #### Second phase of smart assignment calculation for tasks
@@ -113,6 +122,8 @@ If the first step of task smart assignments has found no matches, Workfront calc
 
 For more information, see the section [Smart assignments criteria for tasks and issues](#smart-assignments-criteria-for-tasks-and-issues) in this article. 
 
+Assignments identified in this phase are listed in the **Results** section of the Assignments field. <!--update this to "Other assignments"-->
+
 ### Smart assignments criteria for tasks and issues 
 
 </div> 
@@ -120,6 +131,8 @@ For more information, see the section [Smart assignments criteria for tasks and 
 >[!NOTE]
 >
 ><span class="preview">The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. For information, see the section [First phase of smart assignment calculation for tasks](#first-phase-of-smart-assignment-calculation-for-tasks) in this article. The following criteria always applies for issues, by default. </span>
+
+![](assets/smart-assignments-issue-header.png)
 
 Users are recommended in the smart assignments drop-down list based on a combination of the following criteria (listed in order from most important to least important): 
 
