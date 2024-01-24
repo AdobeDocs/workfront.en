@@ -17,6 +17,10 @@ The data store modules enable you to add, replace, update, retrieve, delete, sea
 
 For information on creating, editing, and troubleshooting data stores, see [Data Stores in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
 
+For a video introduction to data stores in Workfront Fusion, see:
+
+* [Data Stores](https://video.tv.adobe.com/v/3427029/){target=_blank}
+
 ## Access requirements
 
 You must have the following access to use the functionality in this article:
