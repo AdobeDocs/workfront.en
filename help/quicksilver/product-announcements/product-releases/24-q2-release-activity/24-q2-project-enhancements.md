@@ -1,15 +1,15 @@
 ---
-title: First Quarter 2024 Project enhancements
-description: FFirst Quarter 2024 Project enhancements
-author: Nolan
+title: Second Quarter 2024 Project enhancements
+description: Second Quarter 2024 Project enhancements
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 ---
-# First Quarter 2024 Project enhancements
+# Second Quarter 2024 Project enhancements
 
-This page describes all project enhancements made with the First Quarter 2024 release to the Preview environment. These enhancements will be made available in the Production environment with the First Quarter 2024 release.
+This page describes all project enhancements made with the Second Quarter 2024 release to the Preview environment. These enhancements will be made available in the Production environment as noted.
 
-For a list of all changes available at this point in the First Quarter 2024 release cycle, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+For a list of all changes available at this point in the Second Quarter 2024 release cycle, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
 ## More relevant smart assignments
 
