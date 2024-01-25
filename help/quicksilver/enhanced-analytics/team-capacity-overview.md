@@ -10,38 +10,47 @@ exl-id: cfeb1a87-01be-4088-9e33-53a97e3871ad
 ---
 # View the Team capacity visualization in Enhanced analytics
 
+<!-- Audited: 01/2024 -->
+
 The Team capacity visualization shows the total amount of capacity a home team has, whether they are overallocated or underallocated, and how dynamic the capacity is over time.
 
-![](assets/team-capacity-350x110.png)
+![Team capacity](assets/team-capacity.png)
 
 ## Access requirements
 
-You must have the following:
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a>*</td> 
-   <td> <p>Business or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>
+      <p>New: Any</p>
+      <p>or</p>
+      <p>Current: Business or higher</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>*</td> 
-   <td> <p>Review or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront licenses overview</td>
+   <td>
+      <p>New: Light or higher</p>
+      <p>or</p>
+      <p>Current: Review or higher</p>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access to Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level.<br>For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td>View access to Projects</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View</p> <p>For information on requesting additional access, see <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td>View </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Prerequisites
 
@@ -53,15 +62,15 @@ The Team capacity visualization displays the volume of work assigned to the home
 
 * **Burnout**: When the darker blue fill color is above the dotted line, the home team has more work hours assigned to them than they can complete in the number of hours the team is available to work. This indicates that the team is overallocated and may be approaching burnout.
 
-  ![](assets/team-capacity-over-capacity.png)
+  ![Over capacity](assets/team-capacity-over-capacity.png)
 
 * **Unchallenged**: When the darker blue fill color is below the dotted line, the home team has more hours available to work than the amount of work assigned to them. This indicates that the team is underallocated and may be unchallenged.
 
-  ![](assets/team-capacity-under-capacity.png)
+  ![Under capacity](assets/team-capacity-under-capacity.png)
 
 * **Balance**: When the lighter or more transparent blue fill color is just above, just below, or at the dotted line, the home team has an amount of work hours assigned to them that they should be able to complete within their available work hours. This indicates that the team's workload is more balanced.
 
-  ![](assets/team-capacity-at-capacity.png)
+  ![At capacity](assets/team-capacity-at-capacity.png)
 
 Hovering over any point on the visualization shows the following details for a given day:
 
@@ -80,14 +89,15 @@ To learn how to get the best data for this visualization, see [Enhanced analytic
 
 ## View the Team capacity visualization
 
-1. Click the Main Menu icon ![](assets/main-menu-icon-16x12.png), then select **Analytics**.
+{{step1-to-analytics}}
+
 1. In the left panel, select **People**.
 
-   ![](assets/people-area-cropped-qs-350x276.png)
+   ![Select People](assets/people-area-cropped-qs-350x276.png)
 
 1. (Optional) To use a different date range, select new start and end dates from the date range filter.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Date range filter](assets/filters-select-date-range-350x344.png)
 
    For information on using the date range filter, see [Apply filters in Enhanced analytics](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -107,14 +117,14 @@ To learn how to get the best data for this visualization, see [Enhanced analytic
 
    All other visualizations update to the same date range and a timeframe filter is created.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![Timeframe filter](assets/timeframe-filter-350x220.png)
 
 1. Hover over a point on the graphed line to see the scheduled hours and planned hours for the given date, as well as the capacity percentage and whether the home team was over, under, or at capacity at the time.
 
-   ![](assets/team-capacity-capacity-pop-up-350x351.png)
+   ![Team capacity pop-up](assets/team-capacity-capacity-pop-up-350x351.png)
 
-1. (Optional) To export the visualization data, click the **Export icon** ![](assets/export.png) in the top-right corner of the visualization, then select the export format:
+1. (Optional) To export the visualization data, click the **Export** icon ![Export icon](assets/export.png) in the top-right corner of the visualization, then select the export format:
 
-   * **Chart (PNG)** 
-   * **Data Table (XSLX)**
+   * Chart (PNG)
+   * Data Table (XSLX)
 
