@@ -246,7 +246,16 @@ The followings workflows are available in the Adobe Experience Manager integrati
 
 ### Create Adobe Experience Manager linked folders
 
+1. Toggle the **[!UICONTROL Create Linked folder]** on.
+1. Choose a folder path to indicate where you want all linked folders associated with this integration. 
+   ![Linked folder navigation](assets/select-folder-aem-integration.png)
+1. Enable the **[!UICONTROL Append Portfolio and Program Names]** option to automatically include Portfolio and Program names at the end of the linked folder's name.
+1. Click **[!UICONTROL Save]** or move on to the [Publish assets that are sent to Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) section in this article.
+
+In the Preview Sandbox environment
+
 <div class="preview">
+
 1. Toggle the **[!UICONTROL Create Linked folder]** on.
 1. Enter a name for the linked folder that you are creating. If you are creating a folder tree, this is the name of the root folder.
 1. (Conditional) Enable the **Default folder tree** option if you want this linked folder to be the default folder for projects created with templates that use this integration.
@@ -266,6 +275,7 @@ The followings workflows are available in the Adobe Experience Manager integrati
    1. To delete a folder, select the folder and click the **Delete Folder** icon ![Delete folder](assets/delete-folder.png).
 1. (Conditional) To add another folder tree, click + Add folder tree and follow the steps in Step 5.
 1. Click **[!UICONTROL Save]** or move on to the [Publish assets that are sent to Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) section in this article.
+
 </div>
 
 ### Publish assets that are sent to Adobe Experience Manager Assets
