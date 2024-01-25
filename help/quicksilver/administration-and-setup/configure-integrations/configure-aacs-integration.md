@@ -11,6 +11,8 @@ exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
 
 <!-- Audited: 1/2024 -->
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 >[!IMPORTANT]
 >
 >This functionality is available only to organization that have been onboarded to the [!DNL Adobe Admin Console].
@@ -244,11 +246,27 @@ The followings workflows are available in the Adobe Experience Manager integrati
 
 ### Create Adobe Experience Manager linked folders
 
+<div class="preview">
 1. Toggle the **[!UICONTROL Create Linked folder]** on.
-1. Choose a folder path to indicate where you want all linked folders associated with this integration. 
-   ![Linked folder navigation](assets/select-folder-aem-integration.png)
-1. Enable the **[!UICONTROL Append Portfolio and Program Names]** option to automatically include Portfolio and Program names at the end of the linked folder's name.
+1. Enter a name for the linked folder that you are creating. If you are creating a folder tree, this is the name of the root folder.
+1. (Conditional) Enable the **Default folder tree** option if you want this linked folder to be the default folder for projects created with templates that use this integration.
+1. Choose a folder path to indicate where you want all linked folders associated with this integration.
+1. (Conditional) To add a folder tree (nested folders) to this integration, do the following:
+
+   1. Click the **Add folder** icon ![Add folder](assets/add-folder-aem.png).
+   1. In the Name type field, select how you want to name the folder:
+
+      * **Name**: Type in a name for the folder.
+      * **Object data**: Select the source for the folder name, such as Project name.
+      * **Custom form data**: Select the custom form data to use as the folder name.
+
+   1. To add a nested folder to the folder tree, click the three-dot menu next to the folder you want to create a nested folder in and select **Add Folder**. Fill in the fields as described in Step the previous step.
+   1. To link a folder to Workfront, select the folder and click the **Make linked folder**   icon ![Link folder](assets/link-folder.png).
+   1. (Optional) To edit a folder, select the folder and click the **Edit Folder** icon ![Edit icon](assets/edit-icon.png).
+   1. To delete a folder, select the folder and click the **Delete Folder** icon ![Delete folder](assets/delete-folder.png).
+1. (Conditional) To add another folder tree, click + Add folder tree and follow the steps in Step 5.
 1. Click **[!UICONTROL Save]** or move on to the [Publish assets that are sent to Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) section in this article.
+</div>
 
 ### Publish assets that are sent to Adobe Experience Manager Assets
 
