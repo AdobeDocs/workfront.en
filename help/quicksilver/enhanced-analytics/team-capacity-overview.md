@@ -32,7 +32,7 @@ You must have the following access to perform the steps in this article:
       <p>Current: Business or higher</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront licenses overview</td>
+   <td role="rowheader">Adobe Workfront license</td>
    <td>
       <p>New: Light or higher</p>
       <p>or</p>
