@@ -15,6 +15,10 @@ exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
 
 With the [!DNL Adobe Experience Manager Assets] connector for [!DNL Adobe Workfront Fusion], you can start a scenario based on events in your [!DNL Adobe Experience Manager Assets] account, create, upload, and update assets, and copy or move folders and assets.
 
+For an introduction to the Adobe Experience Manager Assets connector, see:
+
+* [Adobe Experience Manager Assets](https://video.tv.adobe.com/v/3427034/){target=_blank}
+
 ## Access requirements
 
 You must have the following access to use the functionality in this article:
