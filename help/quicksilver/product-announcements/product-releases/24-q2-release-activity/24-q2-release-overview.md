@@ -21,7 +21,7 @@ This page provides information about functionality that is included in the Secon
 >
 >|Monthly release|Quarterly release|
 >|----|----|
->|<ul><li>24.2 (February 15, 2024)</li><li>24.3 (March, 14 2024)</li><li>24.4 (April, 11 2024)</li></ul>| <ul><li>24.4 (April 2024)</li></ul>|
+>|<ul><li>24.2 (February 15, 2024)</li><li>24.3 (March 14, 2024)</li><li>24.4 (April 11, 2024)</li></ul>| <ul><li>24.4 (April 2024)</li></ul>|
 >
 >For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -99,7 +99,6 @@ For more information, see [Add display logic and skip logic with the form design
                         <ul>
                             <li>
                                 <p>Preview release: December 21, 2023</p>
-                                <p>NOTE: This feature will remain in Preview until the 24.4 release.</p>
                             </li>
                             <li>
                                 <p>Production for fast release: With the 24.2 release (February 15, 2024)</p>
