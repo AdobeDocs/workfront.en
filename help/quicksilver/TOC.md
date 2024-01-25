@@ -2034,6 +2034,7 @@ feature-set: Workfront
     * [Delete records](maestro/records/delete-records.md)
     * [Share records](maestro/records/share-records.md)
     * [Manage record comments](maestro/records/manage-record-comments.md)
+    * [History section overview](maestro/records/history-section-overview.md)
   * Adobe Maestro views {#adobe-maestro-views}
     * [Views: article index](maestro/views/views-information.md)
     * [Manage record views](maestro/views/manage-record-views.md)
