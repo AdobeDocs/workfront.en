@@ -1,6 +1,6 @@
 ---
 title: Second Quarter 2024 release overview
-description: Second Quarter 2024 release overview
+description: This page provides information about functionality that is included in the Second Quarter 2024 release. These enhancements are planned to become available in the Production environment throughout the quarter.
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -27,9 +27,10 @@ This page provides information about functionality that is included in the Secon
 
 ## Adobe Workfront enhancements
 
-* [Administrator enhancements](#administrator-enhancements)
+<!-- * [Administrator enhancements](#administrator-enhancements)-->
 * [Project enhancements](#project-enhancements)
 
+<!--
 ### Administrator enhancements
 
 <table>
@@ -72,6 +73,8 @@ For more information, see [Add display logic and skip logic with the form design
             </tbody>
         </table>
 
+    -->
+
 ### Project enhancements
 
 <table>
@@ -99,7 +102,7 @@ For more information, see [Add display logic and skip logic with the form design
                                 <p>NOTE: This feature will remain in Preview until the 24.4 release.</p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 24.2 release (February 2024)</p>
+                                <p>Production for fast release: With the 24.2 release (February 15, 2024)</p>
                             </li>
                             <li>
                                 <p>Production for all customers: With the 24.4 release (April 2024)</p>
