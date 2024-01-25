@@ -54,7 +54,7 @@ Maestro records the following information in the new History section:
 
 * A date and time stamp of when the change occurred. 
 
- For more information, see [Manage record comments](/help/quicksilver/maestro/records/manage-record-comments.md). 
+ For more information, see [History section overview](/help/quicksilver/maestro/records/history-section-overview.md). 
 
 ### New label for new record link 
 
