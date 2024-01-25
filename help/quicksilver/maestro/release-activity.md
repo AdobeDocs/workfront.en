@@ -34,28 +34,35 @@ The features are released weekly and are listed in the order of their release, w
 >
 >The documentation referenced in the sections below will be available some time after the features are released to Production. 
 
-<!--
 ## Week of January 22, 2024
 
-### New History section displays system activity for Maestro records (title) 
+### New History section displays system activity for Maestro records
 
-Production: < date > 
+Production: January 25, 2024 
 
 Preview: To be determined 
 
-We have introduced a new section in the right panel of a record where you can review changes made to the record.  
+To improve auditing capabilities, we have introduced a new section in the right panel of a record where you can review changes made to the record recorded by the system. 
 
 Maestro records the following information in the new History section:  
 
 * Any field changes 
 
+* The old and the new values of fields, when the values change
+
 * The full name of the user who made the change 
 
 * A date and time stamp of when the change occurred. 
 
- For more information, see [Manage record comments](/help/quicksilver/maestro/records/manage-record-comments.md) 
+ For more information, see [Manage record comments](/help/quicksilver/maestro/records/manage-record-comments.md). 
 
--->
+### New label for new record link 
+
+Production: January 25, 2024 
+
+Preview: To be determined 
+
+To create consistency when creating records, we have relabeled the + New link for creating records to "+ New record".  Prior to this update, the link contained the name of the record type. The new link is now available when creating operational and taxonomy records. For information, see [Create records](/help/quicksilver/maestro/records/create-records.md).  
 
 ## Week of January 8, 2024
 
