@@ -32,7 +32,7 @@ You must have the following access to use the functionality described in this ar
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <pAny<p></td> 
+   <td> <p>Any</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license</td> 
