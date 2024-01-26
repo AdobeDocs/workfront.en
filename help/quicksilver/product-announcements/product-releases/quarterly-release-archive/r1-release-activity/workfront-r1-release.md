@@ -36,7 +36,7 @@ For more information see:&nbsp; [R1 Preview 3](../../../../product-announcements
 
 ![](assets/mceclip1-350x169.png)   
 **Terminology and Notification Customization** 
-Make Workfront more relevant to your team by leveraging the custom terminology feature to change terms like “Portfolio” or “Project” to fit your preferred lingo regardless of industry. Additionally, each user can now customize the types of notifications they receive by regulating their digest frequency.
+Make Workfront more relevant to your team by leveraging the custom terminology feature to change terms like "Portfolio" or "Project" to fit your preferred lingo regardless of industry. Additionally, each user can now customize the types of notifications they receive by regulating their digest frequency.
 
 For more information see:&nbsp; [R1 Preview 3](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
 
@@ -88,8 +88,6 @@ Workfront is an Enterprise Work Management solution that allows modern knowledge
 
 **FIND OUT MORE**
 
-* Download the R1 Datasheet here:&nbsp; [https://resources.workfront.com/data-sheets/r1-release-datasheet](https://resources.workfront.com/data-sheets/r1-release-datasheet)
-* Download the R1 Release FAQ here: [https://resources.workfront.com/data-sheets/r1-faq-for-customers](https://resources.workfront.com/data-sheets/r1-faq-for-customers)
 * For a complete list of improvements available in R1: [R1 release activity overview](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md)
 
 Workfront. Because Work Matters.

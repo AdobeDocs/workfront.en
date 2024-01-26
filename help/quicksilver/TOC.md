@@ -13,6 +13,9 @@ feature-set: Workfront
     * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
+    * 2024 Q2 Release {#release-24-q2}
+      * [2024 Q2 Release Overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
+      * [2024 Q2 Project enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md)
     * 2024 Q1 Release {#release-24-q1}
       * [2024 Q1 Release overview](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
       * [2024 Q1 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md)
@@ -2034,6 +2037,7 @@ feature-set: Workfront
     * [Delete records](maestro/records/delete-records.md)
     * [Share records](maestro/records/share-records.md)
     * [Manage record comments](maestro/records/manage-record-comments.md)
+    * [History section overview](maestro/records/history-section-overview.md)
   * Adobe Maestro views {#adobe-maestro-views}
     * [Views: article index](maestro/views/views-information.md)
     * [Manage record views](maestro/views/manage-record-views.md)
@@ -2051,6 +2055,7 @@ feature-set: Workfront
     * [IP Addresses for accessing Adobe Workfront Fusion](workfront-fusion/get-started/ip-addresses-for-fusion.md)
     * [Adobe Workfront Fusion licenses](workfront-fusion/get-started/license-automation-vs-integration.md)
     * [Operations in [!DNL Adobe Workfront Fusion]](workfront-fusion/get-started/operations-in-workfront-fusion.md)
+    * [Adobe Workfront Fusion video overviews](/help/quicksilver/workfront-fusion/get-started/fusion-basics-videos.md)
   * Adobe Workfront Fusion basics {#workfront-fusion-basics}
     * [Adobe Workfront Fusion basics](workfront-fusion/workfront-fusion-basics/workfront-fusion-basics.md)
     * [Change profile settings in Adobe Workfront Fusion](workfront-fusion/workfront-fusion-basics/change-profile-settings.md)

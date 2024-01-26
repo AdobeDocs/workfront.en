@@ -9,49 +9,13 @@ exl-id: 8e191b5e-31df-4291-8b9d-9ca69be27561
 ---
 # Remove permissions from objects
 
-You can remove other users' permissions on objects that you have access to Share. Removing permissions from objects is identical for all objects that can be shared.&nbsp;
+<!--Audited: 01/2024-->
 
-Similar considerations as for sharing objects apply for removing permissions from objects.&nbsp;For more information, see the section [Considerations about sharing objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#consider) in the article [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
+You can remove other users' permissions on objects that you have access to Share. Removing permissions from objects is identical for all objects that can be shared.
+
+Similar considerations as for sharing objects apply for removing permissions from objects. For more information, see the section [Considerations about sharing objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#consider) in the article [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
 
 ## Access requirements
-
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Workfront license*</td> 
-   <td> <p>Current license: Contributor or higher</p>
-   Or  
-   <p>Legacy license: Request or higher</p>
-   <p><b>NOTE</b></p>
-
-   <p>Some objects require a higher access than Request. </p>
-   
-   <p>For example, for the current license, a Contributor can share issues, but only Standard-license users can share a project.</p>
-   
-   <p>For the legacy license, a Requestor can share issues, but only Workers or Planners can share a project.</p> 
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access or higher to the objects you want to share</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions or higher to the objects you want to share</p> <p>Manage permissions to remove inherited permissions on objects</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
 
 You must have the following to share objects:
 
@@ -60,60 +24,77 @@ You must have the following to share objects:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Workfront license*</td> 
-   <td> <p>Request or higher</p>
+   <td> <p>New  license: Contributor or higher</p>
+   Or  
+   <p>Current license: Request or higher</p>
    <p><b>NOTE</b></p>
 
-   Some objects require a higher access than Request. For example, a Requestor can share issues, but only Workers or Planners can share a project. 
+   <p>Some objects require a higher access than Request. </p>
    
+   <p>For example, for the new license, a Contributor can share issues, but only Standard-license users can share a project.</p>
+   
+   <p>For the current license, a Requestor can share issues, but only Workers or Planners can share a project.</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access or higher to the objects you want to share</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>View access or higher to the objects you want to share</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions or higher to the objects you want to share</p> <p>Manage permissions to remove inherited permissions on objects</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View permissions or higher to the objects you want to share</p> <p>Manage permissions to remove inherited permissions on objects</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 ## Remove entities from the sharing list of an object {#remove-entities-from-the-sharing-list-of-an-object}
 
-You can remove entities (users, job roles, teams, groups, companies) from the sharing list of an object.&nbsp;This removes their permissions to the object.
+You can remove entities (users, job roles, teams, groups, companies) from the sharing list of an object. This removes their permissions to the object.
 
-1. Go to the object you want to share.
+1. Go to the object you want to remove permissions from.
 
    For information about which objects can be shared, see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. Click the **More** icon ![](assets/more-icon.png)next to the object name, then click&nbsp;**Sharing** or**Share.**
+1. (Conditional) For programs, portfolios, and documents, do the following:
+   
+   1. Click the **More** icon ![](assets/more-icon.png)next to the object name, then click **Sharing** or **Share.**
 
-   ![](assets/share-a-document-350x160.png)
+      ![](assets/share-a-document-350x160.png)
 
-1. Click the **x** next to the name of a user, team, group, company, job role to remove them in the object access box.
+   1. Click the **x** next to the name of a user, team, group, company, job role to remove them in the object access box.
 
-   ![](assets/remove-permissions-on-project-nwe-350x479.png)
+      ![](assets/remove-permissions-on-portfolio.png)
 
-1. In the `<User Name>`'s Workfront access will be removed from this drop-down menu, select whether you want their access to be removed just from the object you have selected, or from all children objects associated with it.  
+   1. In the **< User Name >'s Workfront access will be removed from this** drop-down menu, select whether you want their access to be removed just from the object you have selected, or from all children objects associated with it. 
+
+1. (Conditional) For projects, tasks, and issues, do the following:
+
+   1. Click **Share** to the right of the object's name. 
+
+      ![](assets/new-share-button.png)
+   1. Find the user, role, team, group, or company you want to remove from the object.
+   1. Click **Remove**. 
+   In the **Remove < User Name > from** drop-down menu, select whether you want their access to be removed just from the object you have selected, or from all children objects associated with it. 
+
+      ![](assets/remove-permissions-on-project-nwe-350x479.png)
+
    The following scenarios exist:
 
-   * If you remove the entity only from the object, that entity loses their permissions on the object, and their inherited permissions to the children objects. If they were previously granted permissions to the children items individually, they retain the same permissions on all children objects associated with it when you select this option.&nbsp;
-   * If you remove the entity from the object and all the children objects, that entity loses their permissions to the object as well as all children objects, even when they were previously given individual permission on each child object.&nbsp;
+      * If you remove the entity only from the object, that entity loses their permissions on the object, and their inherited permissions to the children objects. If they were previously granted permissions to the children items individually, they retain the same permissions on all children objects associated with it when you select this option.
+      * If you remove the entity from the object and all the children objects, that entity loses their permissions to the object as well as all children objects, even when they were previously given individual permission on each child object.
 
 1. Click **Save**.
 
 ## Remove permissions from several objects in bulk
 
-You can remove entities (users, job roles, teams, groups, companies) from several objects at a time when you bulk select them in a list.&nbsp;
+You can remove entities (users, job roles, teams, groups, companies) from several objects at a time when you bulk select them in a list.
 
 >[!NOTE]
 >
