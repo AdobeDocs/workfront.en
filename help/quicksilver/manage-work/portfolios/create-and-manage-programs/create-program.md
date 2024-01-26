@@ -23,6 +23,7 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+
    <td> <p>New: Any</p><p>Or</p><p>Current: [!UICONTROL Business] or higher</p> </td> 
   </tr> 
   <tr> 
@@ -173,7 +174,7 @@ The following information displays in the header of a program:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Planned Completion Date]</td> 
-   <td>You cannot edit the Planned Completion Date of the program in the header.  </td> 
+   <td>You cannot edit the Planned Completion Date of the program in the header. This information is updated from the projects in the program. The Planned Completion Date of the latest project in the program becomes the Planned Completion date of the program.  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Active Projects Condition]</td> 

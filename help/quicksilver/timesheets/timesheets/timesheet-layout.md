@@ -115,9 +115,9 @@ You can log multiple hour entries for the same work item for different hour type
 
 ![Updates area in the left timesheet panel](assets/timesheet-updates-section-unshimmed-redesign.png)
 
-You can make comments on a timesheet to communicate with your timesheet approvers or other users in the Updates section in the left panel.
+You can make comments on a timesheet to communicate with your timesheet approvers or other users in the Updates section in the left panel of the timesheet.
 
-Any comments made on the timesheet display in this area, at the bottom of the timesheet. This area displays under the timesheet and above the timesheet's footer. For more information, see [View and manage comments on a timesheet](../create-and-manage-timesheets/view-and-manage-comments-timesheets.md).
+Any comments made on the timesheet display in this area.
 
 ## Summary panel
 
