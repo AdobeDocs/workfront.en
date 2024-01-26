@@ -1067,7 +1067,7 @@ feature-set: Workfront
     * [Tips, tricks, and troubleshooting for agile](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
     * [Custom statuses not showing up on the agile story board](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
 * Documents {#documents}
-  * [Documents](documents/documents-overview.md)
+  * [Documents: article index](documents/documents-overview.md)
   * Add new documents to Adobe Workfront {#add-new-documents-to-workfront}
     * [Add new documents to Adobe Workfront](documents/adding-documents-to-workfront/add-new-documents--to-workfront.md)
     * [Add documents to Adobe Workfront from your file system](documents/adding-documents-to-workfront/add-documents-from-file-system.md)
@@ -1316,7 +1316,7 @@ feature-set: Workfront
       * [Associate milestones with tasks](manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)
       * [Convert a task to a project](manage-work/tasks/manage-tasks/convert-task-to-project.md)
     * Task Constraints {#task-constraints}
-      * [Task Constraints](manage-work/tasks/task-constraints/task-constraints.md)
+      * [Task Constraints: article index](manage-work/tasks/task-constraints/task-constraints.md)
       * [Task Constraint overview](manage-work/tasks/task-constraints/task-constraint-overview.md)
       * [Task Constraint overview: Start No Later Than](manage-work/tasks/task-constraints/start-no-later-than.md)
       * [Task Constraint overview: Start No Earlier Than](manage-work/tasks/task-constraints/start-no-earlier-than.md)
