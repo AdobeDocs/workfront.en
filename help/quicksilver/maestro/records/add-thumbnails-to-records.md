@@ -4,7 +4,6 @@ description: You can edit record information in Adobe Maestro and associate each
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 ---
 <!--update the metadata with real information-->
 
