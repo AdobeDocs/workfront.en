@@ -4,12 +4,14 @@ product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Create a scorecard
 description: A scorecard measures how well a project aligns with the previously established criteria of a portfolio. A scorecard often reflects an organization's mission, values, and strategic goals.Portfolio managers usually define the scorecard questions and answers to ensure they are meaningful and valuable during project prioritization and selection. An [!DNL Adobe Workfront] administrator builds the scorecards based on the recommendations from portfolio managers.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 89c9b450-72a6-4b72-98d1-22956696543a
 ---
 # Create a scorecard
+
+<!--Audited: 01/2024-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -28,21 +30,27 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>[!UICONTROL Business] or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td> <p>Current: [!UICONTROL Business] or higher</p> 
+   Or
+   <p>New: [!UICONTROL Prime] or higher</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td><p>Current:[!UICONTROL Plan]</p>
+   Or
+   <p>New: [!UICONTROL Standard]</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Create a scorecard
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Click **[!UICONTROL Scorecards]**, then click **[!UICONTROL New Scorecard]** to create a new scorecard and launch the scorecard builder.
+1. Click **[!UICONTROL Scorecards]**, then click **[!UICONTROL New Scorecard]** to launch the scorecard builder and create a scorecard.
 
 1. Specify a **[!UICONTROL Scorecard Name]** and a **[!UICONTROL Description]**.
 
@@ -80,14 +88,14 @@ You must have the following to perform the steps in this article:
    >
    >You can reorder the questions in your scorecard by dragging and dropping the questions in the correct order.
 
-1. Click **[!UICONTROL Save]** when you are finished entering your data.
+1. Click **[!UICONTROL Save]** when you are finished entering all information.
+
+   These creates the scorecard and project managers can now attach it to their project business case. 
 
 ## Apply a scorecard to a project
 
 A user with [!UICONTROL manage] permissions to a project can apply a scorecard to a project, after the scorecard has been created by the [!DNL Workfront] administrator.
 
 A scorecard is added to a project as part of creating a business case for the project. For more information about adding a scorecard to a project, see [Apply a scorecard to a project and generate an Alignment Score](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
-
-For more information about creating scorecards, see [Create a scorecard](#create-a-scorecard).
 
 For more information about project permissions, see [Share a project in [!DNL Adobe Workfront]](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
