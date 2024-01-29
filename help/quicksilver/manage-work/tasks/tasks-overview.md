@@ -20,6 +20,6 @@ Tasks are smaller work items in Adobe Workfront that contribute to the completio
 * [Assign tasks](../../manage-work/tasks/assign-tasks/assign-tasks-1.md) 
 * [Manage tasks](../../manage-work/tasks/manage-tasks/manage-tasks.md) 
 * [Task Constraints](../../manage-work/tasks/task-constraints/task-constraints.md) 
-* [Task Duration and Duration Types](../../manage-work/tasks/taskdurtn/task-duration-duration-type.md) 
+* [Task Duration and Duration Types: article index](../../manage-work/tasks/taskdurtn/task-duration-duration-type.md) 
 * [Use task predecessors](../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md) 
 * [Tips, tricks, and troubleshooting for tasks](../../manage-work/tasks/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-tasks.md)
