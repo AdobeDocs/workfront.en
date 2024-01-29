@@ -4,6 +4,7 @@ description: 21.4 Resource Management enhancements
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: c978e88b-ee07-4af9-b5df-cb62dab4b3ac
 ---
 # 21.4 Resource Management enhancements

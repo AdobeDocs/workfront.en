@@ -5,6 +5,7 @@ title: Product releases
 description: Following are links to the release notes for current and past releases.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 505a9602-580c-4932-a85c-6c9a7c8af457
 ---
 # Product releases
@@ -26,8 +27,9 @@ For information on helping your organization adjust smoothly to new releases, se
   <tr data-mc-conditions=""> 
    <td> <p>Releases in 2024</p> 
     <ul> 
-    <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md" class="MCXref xref" xrefformat="{para}">First Quarter 2024 release overview</a> </p> 
-   <td> <ul>    <li> <p><a href="../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion release activity</a> </p> </li> </ul>   </td> 
+    <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md" class="MCXref xref" xrefformat="{para}">First Quarter 2024 release overview</a> </p> </li>
+      <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md" class="MCXref xref" xrefformat="{para}">Second Quarter 2024 release overview</a> </p> </li>
+   <td> <ul>    <li> <p><a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md" class="MCXref xref" xrefformat="{para}">Adobe Workfront Fusion release activity</a> </p> </li> </ul>   </td> 
   <tr data-mc-conditions=""> 
    <td> <p>Releases in 2023</p> 
     <ul> 

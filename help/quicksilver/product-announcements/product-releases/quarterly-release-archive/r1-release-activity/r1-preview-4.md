@@ -5,6 +5,7 @@ title: R1 Preview 4
 description: This page describes all changes available in the Preview environment with the R1.4 release. The functionality on this page was made available in the Preview environment on February 15, 2017.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 2945e058-74dd-4cc3-9d6c-e5618ee7041c
 ---
 # R1 Preview 4

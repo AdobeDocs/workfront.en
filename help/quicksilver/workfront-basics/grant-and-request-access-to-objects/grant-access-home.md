@@ -87,18 +87,35 @@ You must have the following access to perform the steps in this article:
    >* Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
    >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
 
-1. In the **Work List**, select the access request you want to manage.  
+1. (Conditional) From the legacy Home area, do the following: 
+   
+   1. In the **Work List**, select the access request you want to manage in the **Approvals** section.  
+
    ![Screen_Shot_2018-07-02_at_11.35.29_AM.png](assets/screen-shot-2018-07-02-at-11.35.29-am-350x242.png)
 
-1. In the upper-right corner, click the grant access button.  
-   Depending on the type of access requested, the button name changes.&nbsp;For example, if the requestor asks for View access, the button says&nbsp;**Grant View Access**.  
+   The request displays on the right of the Work List. 
+
+   1. In the upper-right corner, click the grant access button.  
+   Depending on the type of access requested, the button name changes. For example, if the requestor asks for View access, the button says **Grant View Access**.  
    ![Grant_Access_2.png](assets/grant-access-2-350x98.png)
 
-1. (Optional) To grant a different level of access than requested, click the arrow next to the grant access button and select the new access.  
+   1. (Optional) To grant a different level of access than requested, click the arrow next to the grant access button and select the new access, then click **Grant < Permission level > Access >**.  
    A message appears confirming access was granted.  
-   OR  
-   Click **Ignore** to deny access.  
+   
+   1. (Optional) Click **Ignore** to deny access.  
    A message appears confirming access was ignored.
+
+1. (Conditional) From the new Home area, do the following:
+
+   1. Go to the **Awaiting my approval** widget and find the request for more access, then click **Grant access**. 
+
+      ![](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
+
+   1. (Optional) To grant a different level of access than requested, click the drop-down menu to the left of Grant access button and select the new access, then click **Grant access**.  
+
+      The access request is granted and it disappears from the list of approval requests. 
+   
+   1. (Optional) Click **Ignore** to deny access. The access request is not granted and the request disappears from the list of approval requests.  
 
 ## Configure Email Notifications for Requests
 

@@ -10,6 +10,7 @@ exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
 ---
 # New commenting experience
 
+<!--take out legacy, preview, prod references from below-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.  </span>  
 
@@ -50,13 +51,15 @@ Among the improvements included in the new commenting experience are the followi
 * Real-time indicator when new comments are added to an object
 * Editing comments after submitting them
 
-The following features have been removed from the new experience:
+The following features have been removed or will be deprecated from the new experience:
 
 * Comment on a system update
-* Ability to edit status, condition, commit date while commenting
+* Ability to edit status, condition, commit date, and percent complete while commenting on tasks and issues
 * Edit custom form
 * The "on behalf of < user name >" information when a Workfront or group administrator logs in as another user and adds a comment on their behalf was originally removed. It has been reinstated on October 19, 2023.
 * The "Ask for approval" option when you tag people while adding a comment to a document. 
+* The "Show percent complete on update status" setting when editing a user's profile box will be removed. The functionality of updating the percent complete of a task or issue has been removed. 
+* The notification for the Project Owner in the Updates area that the assignee of a task or issue edited the commit date <!--ensure this is correct when re remove the legacy and leave only new commenting-->
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
 

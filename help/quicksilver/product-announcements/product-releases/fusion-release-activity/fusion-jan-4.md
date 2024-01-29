@@ -7,6 +7,7 @@ title: 'Workfront Fusion release activity: Week of January 4, 2021'
 description: This page describes all enhancements made in Adobe Workfront Fusion the week of January 4, 2021.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 64502a4c-afe9-4bc8-985c-d4ce879233a2
 hidefromtoc: yes
 ---

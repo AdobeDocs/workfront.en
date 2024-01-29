@@ -9,7 +9,7 @@ exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 <!---
-title: Formula fields
+title: Edit foelds
 description: In Adobe Maestro, you can edit the field settings for fields that are already created.
 hidefromtoc: yes
 hide: yes

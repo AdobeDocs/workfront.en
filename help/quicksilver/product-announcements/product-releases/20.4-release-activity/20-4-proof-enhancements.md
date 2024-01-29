@@ -4,6 +4,7 @@ description: 20.4 Proof enhancements
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Proof
+recommendations: noDisplay, noCatalog
 exl-id: 0469ac71-66d1-4651-918a-99f2b6038b7c
 ---
 # 20.4 Proof enhancements

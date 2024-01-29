@@ -93,11 +93,10 @@ To create an issue on a task or a project:
 1. (Optional) If you want to log the issue for a task, go to the **Tasks** area, then click the name of a task. 
 1. Click the **Issues** section.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
-
+   
 1. Click **New Issue**.
 
-   ![](assets/qs-issue-list-on-project-with-new-issue-button-highlighted-350x270.png)
+  
 
 1. (Conditional) If the project creator created Queue Topics or Topic Groups on the project they are added to the new issue form. Specify the **Topic Group** or the **Queue Topic** of your new issue. Topic Groups and Queue Topics have names customized to your environment.  
    For more information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
@@ -149,9 +148,9 @@ To create an issue on a task or a project:
 1. (Optional) If you want to log the issue for a task, go to the **Tasks** area, then click the name of a task. 
 1. Click the **Issues** section.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
+   The list of project issues displays
 
-1. Click **New Issue**.
+1. Click **New Issue** at the top of the issue list.
    The New issue box displays.
 
       ![](assets/new-issue-box-matches-new-request-ui.png)
@@ -213,8 +212,8 @@ To create issues inline:
 
 1. Go to a project where you want to create the issue. 
 1. (Optional) If you want to log the issue for a task, go to the **Tasks** section, then click the name of a task. 
-1. Click the **Issues** section.  
-1. Click **Add More Issues**.
+1. Click the **Issues** section in the left panel.  
+1. Click **Add More Issues** at the bottom of the issue list.
 
    A new line is created in the list of issues on the Issues section.
 

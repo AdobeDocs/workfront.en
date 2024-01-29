@@ -3,6 +3,7 @@ title: 23.3 release overview
 description: 23.3 release overview
 author: Becky
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 441d84d6-6c40-4a03-967e-836cf78c8fc1
 ---
 # 23.3 release overview

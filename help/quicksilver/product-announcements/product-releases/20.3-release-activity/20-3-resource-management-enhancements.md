@@ -5,6 +5,7 @@ title: 20.3 Resource Management enhancements
 description: This page describes all Resource Management enhancements made with the 20.3 release to the Production environment. These enhancements were made available in the Production environment the week of August 10, 2020.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: a2c34117-e03c-4394-9b81-7c18433531d1
 ---
 # 20.3 Resource Management enhancements

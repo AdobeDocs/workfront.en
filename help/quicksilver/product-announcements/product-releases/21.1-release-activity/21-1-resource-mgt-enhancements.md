@@ -6,6 +6,7 @@ title: 21.1 Resource Management enhancements
 description: This page describes all Resource Management enhancements made with the 21.1 release to the Preview environment. These enhancements will be made available in the Production environment the week of February 15, 2021.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: f9a55491-c80d-4057-9a72-bcdc09256e23
 ---
 # 21.1 Resource Management enhancements

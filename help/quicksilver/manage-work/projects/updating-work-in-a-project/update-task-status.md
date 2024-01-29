@@ -17,37 +17,6 @@ You can manually update task statuses or you can let Workfront automatically upd
 
 ## Access requirements
 
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
 You must have the following access to manually update tasks: 
 
 <table style="table-layout:auto"> 
@@ -55,27 +24,28 @@ You must have the following access to manually update tasks:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Work or higher</p> </td> 
+   <td> <p>New: Standard</p> 
+   Or
+   <p>Current: Work or higher</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the task</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions to the task</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 ## Considerations about updating the Status of tasks
 
@@ -88,7 +58,41 @@ You must have the following access to manually update tasks:
 
 ## Manually update task status
 
-When you are updating a task status, you can also type an explanation about the new status and change other task information such as the due date.
+You can update the task status in the following areas of Workfront:
+
+* The task header on the task page.
+* The Edit task box, when editing a task.
+* The Task Details section on the task page. 
+* In a task list or report, when the Status field is visible in the view. 
+* In the Summary panel of the task. 
+
+To manually update the task status in the task header: 
+
+1. Go to an task for which you want to update the status.
+1. Click the **Status** field in the task header and select a new status. 
+1. To provide a visual indication of task completion, drag or double-click the bubble under **Percent Complete** in the header of the task
+
+   Or
+
+   Click inside the bubble in the header of the task to enter a percentage.
+
+   ![](assets/percent-complete-status-widgets-task-header.png)
+
+1. (Optional) Do any of the following to provide additional information about the update:
+
+   * To add a note about the update, go to the **Updates** section and click **New comment**, then type a note.
+
+     ![](assets/add-update-to-task.png)
+
+   * To notify certain users about the update, type their names in the **Tag people or teams** field that appears when you type a comment. For more information, see [Tag others on updates](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   * To update the Commit Date of the task, click **Task Details**, then edit the **Commit Date** field. For information, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).   
+
+
+   >[!IMPORTANT]
+   >
+   >  Only task assignees can update the Commit Date.
+
+<!--old functionality in old commenting: 
 
 1. Go to a task that you are assigned to for which you want to update the status.
 1. Click the **Status** field in the task header and select a new status. 
@@ -101,7 +105,7 @@ When you are updating a task status, you can also type an explanation about the 
    
    * To update the Commit Date of the task, expand the **Commit Date** drop-down calendar, and select a new Commit Date. 
    * To provide a visual indication of task completion, drag the bubble under Percent Complete or double-click it to enter a percent value.   
-     ![](assets/drag-the-progress-bar-350x155.png)
+     ![](assets/drag-the-progress-bar-350x155.png)-->
 
 ## Automatically update task status
 
@@ -117,9 +121,9 @@ Workfront automatically updates the existing status of a task to a different sta
  <col> 
  <tbody> 
   <tr> 
-   <td>Action</td> 
-   <td>Original Status</td> 
-   <td>New Status</td> 
+   <td><b>Action</b></td> 
+   <td><b>Original Status</b></td> 
+   <td><b>New Status</b></td> 
   </tr> 
   <tr> 
    <td>Update the task percent complete to 100%</td> 

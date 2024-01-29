@@ -129,7 +129,7 @@ In addition to copying tasks in a list of tasks, you can also copy a task after 
 
 1. Find a task in your Workfront system by searching for it.
 1. Click the name of the task to open it. 
-1. Click the **More** drop-down menu ![](assets/qs-more-menu.png) next to the name of the task, then click **Copy** **to**.
+1. Click the **More** drop-down menu ![](assets/qs-more-menu.png) next to the name of the task, then click **Copy to**.
 
    ![](assets/taskcopy-to-at-the-task-level-nwe-350x200.png)
 

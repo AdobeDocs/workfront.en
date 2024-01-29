@@ -334,7 +334,9 @@ You can change any of the following in this sub-section:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Show percent complete on update status]</strong> </td> 
-   <td>Select this check box to display a percent bar in the [!UICONTROL update status] field of tasks, so you can update the percent complete of a task as you are entering a task update.</td> 
+   <td>Check this option if you want to display a percent complete bar inside the Updates area of your tasks, when using the legacy commenting experience. For information, see <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">New commenting experience</a>.
+  
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Send work assigned to myself to my Working On tab]</strong> </td> 

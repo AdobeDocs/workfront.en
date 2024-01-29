@@ -4,6 +4,7 @@ description: 21.3 Administrator enhancements
 author: Luke
 draft: Probably
 feature: Product Announcements, System Setup and Administration
+recommendations: noDisplay, noCatalog
 exl-id: 18f8f5ac-48a3-45fe-9bf0-12b4b402f85f
 ---
 # 21.3 Administrator enhancements

@@ -4,6 +4,7 @@ description: Look-and-feel updates during the 22.3 release timeframe
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 7f85bc50-52c7-4fe8-9f0f-489eaf19b441
 ---
 # Look-and-feel updates during the 22.3 release timeframe

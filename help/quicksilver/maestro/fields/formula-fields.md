@@ -141,7 +141,7 @@ In addition, we support the following expressions for Maestro formula fields:
    </td></tr>
      <tr> 
    <td><strong>ID</strong> </td> 
-   <td> <p>Returns the ID of a record.</p> <p>The expression is formatted as follows:
+   <td> <p>Returns the ID of a record. Each record has a unique ID.</p> <p>The expression is formatted as follows:
    
    <code>{ID}</code>
    </p>

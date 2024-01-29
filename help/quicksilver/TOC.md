@@ -13,6 +13,9 @@ feature-set: Workfront
     * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
+    * 2024 Q2 Release {#release-24-q2}
+      * [2024 Q2 Release Overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
+      * [2024 Q2 Project enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md)
     * 2024 Q1 Release {#release-24-q1}
       * [2024 Q1 Release overview](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
       * [2024 Q1 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md)
@@ -876,7 +879,7 @@ feature-set: Workfront
     * [Export custom forms and object details](workfront-basics/work-with-custom-forms/export-custom-forms-details.md)
     * [Manage custom forms attached to objects](workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
   * Use notifications {#use-notifications}
-    * [Use notifications](workfront-basics/using-notifications/use-notifications.md)
+    * [Use notifications: article index](workfront-basics/using-notifications/use-notifications.md)
     * [Notifications overview](workfront-basics/using-notifications/wf-notifications.md)
     * [Modify your own email notifications](workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
     * [Subscribe to items in Adobe Workfront](workfront-basics/using-notifications/subscribe-to-items-in-workfront.md)
@@ -1064,7 +1067,7 @@ feature-set: Workfront
     * [Tips, tricks, and troubleshooting for agile](agile/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-agile.md)
     * [Custom statuses not showing up on the agile story board](agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
 * Documents {#documents}
-  * [Documents](documents/documents-overview.md)
+  * [Documents: article index](documents/documents-overview.md)
   * Add new documents to Adobe Workfront {#add-new-documents-to-workfront}
     * [Add new documents to Adobe Workfront](documents/adding-documents-to-workfront/add-new-documents--to-workfront.md)
     * [Add documents to Adobe Workfront from your file system](documents/adding-documents-to-workfront/add-documents-from-file-system.md)
@@ -1313,7 +1316,7 @@ feature-set: Workfront
       * [Associate milestones with tasks](manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)
       * [Convert a task to a project](manage-work/tasks/manage-tasks/convert-task-to-project.md)
     * Task Constraints {#task-constraints}
-      * [Task Constraints](manage-work/tasks/task-constraints/task-constraints.md)
+      * [Task Constraints: article index](manage-work/tasks/task-constraints/task-constraints.md)
       * [Task Constraint overview](manage-work/tasks/task-constraints/task-constraint-overview.md)
       * [Task Constraint overview: Start No Later Than](manage-work/tasks/task-constraints/start-no-later-than.md)
       * [Task Constraint overview: Start No Earlier Than](manage-work/tasks/task-constraints/start-no-earlier-than.md)
@@ -2034,6 +2037,7 @@ feature-set: Workfront
     * [Delete records](maestro/records/delete-records.md)
     * [Share records](maestro/records/share-records.md)
     * [Manage record comments](maestro/records/manage-record-comments.md)
+    * [History section overview](maestro/records/history-section-overview.md)
   * Adobe Maestro views {#adobe-maestro-views}
     * [Views: article index](maestro/views/views-information.md)
     * [Manage record views](maestro/views/manage-record-views.md)
@@ -2051,6 +2055,7 @@ feature-set: Workfront
     * [IP Addresses for accessing Adobe Workfront Fusion](workfront-fusion/get-started/ip-addresses-for-fusion.md)
     * [Adobe Workfront Fusion licenses](workfront-fusion/get-started/license-automation-vs-integration.md)
     * [Operations in [!DNL Adobe Workfront Fusion]](workfront-fusion/get-started/operations-in-workfront-fusion.md)
+    * [Adobe Workfront Fusion video overviews](/help/quicksilver/workfront-fusion/get-started/fusion-basics-videos.md)
   * Adobe Workfront Fusion basics {#workfront-fusion-basics}
     * [Adobe Workfront Fusion basics](workfront-fusion/workfront-fusion-basics/workfront-fusion-basics.md)
     * [Change profile settings in Adobe Workfront Fusion](workfront-fusion/workfront-fusion-basics/change-profile-settings.md)

@@ -3,6 +3,7 @@ title: First Quarter 2024 release overview
 description: First Quarter 2024 release overview
 author: Becky
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 2ad9e170-9e63-472a-8476-13f81b7abff3
 ---
 # First Quarter 2024 release overview
@@ -30,8 +31,11 @@ The 24.1 release webinar was on January 11, 2024. You can [register for the webi
 ## Adobe Workfront enhancements
 
 * [Administrator enhancements](#administrator-enhancements)
+* [Boards enhancements](#boards-enhancements)
 * [Document management enhancements](#document-management-enhancements)
+* [Home enhancements](#home-enhancements)
 * [Integration enhancements](#integration-enhancements)
+* [Project enhancements](#project-enhancements)
 * [Update stream and notification enhancements](#update-stream-and-notification-enhancements)
 
 ### Administrator enhancements
@@ -52,7 +56,7 @@ The 24.1 release webinar was on January 11, 2024. You can [register for the webi
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Proof/document decisions now available for the previous 12 months</a></p><p>The Users Decisions reports for both new and legacy license types now display the number of decisions for the current month as well as the previous 12 months.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Proof/document decisions now available for the previous 12 months</a></p><p>[!BADGE In production ]{type=Informative}</p><p>The Users Decisions reports for both new and legacy license types now display the number of decisions for the current month as well as the previous 12 months.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -124,7 +128,7 @@ The 24.1 release webinar was on January 11, 2024. You can [register for the webi
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Updated statuses for document approvals</a></p><p>To make document approval status more clear, we've updated available document status approvals. Now, the approval status accounts for reviewers marking their review complete, as well as cases where there are only reviewers but not approvers.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Updated statuses for document approvals</a></p><p>[!BADGE In production ]{type=Informative}</p><p>To make document approval status more clear, we've updated available document status approvals. Now, the approval status accounts for reviewers marking their review complete, as well as cases where there are only reviewers but not approvers.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -143,7 +147,7 @@ The 24.1 release webinar was on January 11, 2024. You can [register for the webi
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Mark a review as complete</a></p><p>To make it more clear when a document has been reviewed and is ready for the next approval stage, we've created a new <strong>Complete my review</strong> button.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Mark a review as complete</a></p><p>[!BADGE In production ]{type=Informative}</p><p>To make it more clear when a document has been reviewed and is ready for the next approval stage, we've created a new <strong>Complete my review</strong> button.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -162,7 +166,7 @@ The 24.1 release webinar was on January 11, 2024. You can [register for the webi
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Document review and approval status displays in document header</a></p><p>To make the review and approval process more transparent, we've added the status to the header of the Document Details page.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Document review and approval status displays in document header</a></p><p>[!BADGE In production ]{type=Informative}</p><p>To make the review and approval process more transparent, we've added the status to the header of the Document Details page.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -200,7 +204,7 @@ The 24.1 release webinar was on January 11, 2024. You can [register for the webi
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">New Pending approvals widget available</a></p><p>To make it easier for you to see the status of approvals and reviews on projects you own, we've added a new Pending Approvals widget to Home. </p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">New Pending approvals widget available</a></p><p>[!BADGE In production ]{type=Informative}</p><p>To make it easier for you to see the status of approvals and reviews on projects you own, we've added a new Pending Approvals widget to Home.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -219,7 +223,7 @@ The 24.1 release webinar was on January 11, 2024. You can [register for the webi
                 </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Administrator controls for new Home using layout templates</a></p><p>Administrators can now customize new Home for users using layout templates. Customization options include selecting mandatory widgets and their position, choosing a background, and widget-specific options for choosing available filters and groups (and setting defaults).</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Administrator controls for new Home using layout templates</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Administrators can now customize new Home for users using layout templates. Customization options include selecting mandatory widgets and their position, choosing a background, and widget-specific options for choosing available filters and groups (and setting defaults).</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -338,7 +342,7 @@ The 24.1 release webinar was on January 11, 2024. You can [register for the webi
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">AI-driven smart assignments</a></p><p>We have changed the algorithm that Workfront uses to calculate and suggest smart assignments for tasks. The new algorithm applies in the following areas in Workfront where you assign a task: task lists, the Assignments area in the task header, Home, and the Summary panel.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">More relevant smart assignments</a></p><p>We have changed the algorithm that Workfront uses to calculate and suggest smart assignments for tasks. The new algorithm applies in the following areas in Workfront where you assign a task: task lists, the Assignments area in the task header, Home, and the Summary panel.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -376,7 +380,7 @@ The 24.1 release webinar was on January 11, 2024. You can [register for the webi
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Drag and drop image in a comment in the Updates section</a></p><p>To enhance the content of your comments, you can now quickly drag and drop an image in a comment or reply in the Updates section of an object.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Drag and drop image in a comment in the Updates section</a></p><p>[!BADGE In production ]{type=Informative}</p><p>To enhance the content of your comments, you can now quickly drag and drop an image in a comment or reply in the Updates section of an object.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -409,7 +413,7 @@ The 24.1 release webinar was on January 11, 2024. You can [register for the webi
                     </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Search for a comment or user in the Updates section</a></p><p>To quickly find information in the Updates section of an object, you can now search for a keyword from a comment or for any user associated with a comment.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Search for a comment or user in the Updates section</a></p><p>[!BADGE In production ]{type=Informative}</p><p>To quickly find information in the Updates section of an object, you can now search for a keyword from a comment or for any user associated with a comment.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -427,7 +431,7 @@ The 24.1 release webinar was on January 11, 2024. You can [register for the webi
                     </tr>
                     <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Copy and paste an image in a comment in the Updates section</a></p><p>To provide context to the content of a message, you can now quickly attach images to your comments by copying them from your computer and pasting them in a new update or reply.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Copy and paste an image in a comment in the Updates section</a></p><p>[!BADGE In production ]{type=Informative}</p><p>To provide context to the content of a message, you can now quickly attach images to your comments by copying them from your computer and pasting them in a new update or reply.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>

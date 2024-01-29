@@ -41,6 +41,15 @@ Add the following IP addresses to your allowlist to enable [!DNL Workfront Fusio
      <li>44.241.82.96</li> 
     </ul> </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] on the Microsoft Azure cluster</td> 
+   <td> 
+    <ul> 
+     <li>20.36.133.48/28</li> 
+     <li>20.81.156.240/28</li> 
+     <li>172.172.84.48/28</li> 
+    </ul> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -57,6 +66,10 @@ Also, if your organization uses outbound network filtering, add the following do
   <tr> 
    <td role="rowheader"> <p>[!DNL Adobe Workfront] US Datacenter</p> </td> 
    <td> <p>hook.app.workfrontfusion.com </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!DNL Adobe Workfront Fusion] on the Microsoft Azure cluster</p> </td> 
+   <td> <p>hook.app-az.workfrontfusion.com </p> </td> 
   </tr> 
  </tbody> 
 </table>

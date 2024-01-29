@@ -88,7 +88,7 @@ You can manually indicate when work completes on a task or an issue, or the [!UI
 * The project, task, or issue status changes to [!UICONTROL Complete], [!UICONTROL Closed], or [!UICONTROL Resolved].
 * The task or project percent complete is 100%.
 
-The [!UICONTROL Actual Completion Date] of a project coincides with the date when the first task on the project completes.
+The [!UICONTROL Actual Completion Date] of a project coincides with the date when you completed the last task on the project.
 
 >[!TIP]
 >
@@ -106,10 +106,6 @@ The [!UICONTROL Commit Date] is the date by which an user assigned to task or an
 >
 >Changing the [!UICONTROL Commit Date] affects the [!UICONTROL Projected Completion Date] but not the [!UICONTROL Planned Completion Date] of a task or an issue. The project manager can use the changes an assignee makes on the [!UICONTROL Commit Date] to update the [!UICONTROL Planned Completion Date] of a task or an issue.
 
-![](assets/commit-date-on-task-details-highlighted-nwe-350x193.png)
-
-![](assets/commit-date-in-updates-stream-on-task-nwe-350x344.png)
-
 ## [!UICONTROL Projected Start Date]
 
 The [!UICONTROL Projected Start Date] is a real-time date of when the project, task, or issue and takes into account all the delays. This is a more accurate Start Date for the project, task, or issue than the [!UICONTROL Planned Start Date]. The [!UICONTROL Planned Start Date] does not take into account delays or past dates.
@@ -126,7 +122,7 @@ For more information, see [Overview of the project [!UICONTROL Projected Start D
 
 ![](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
 
-## P[!UICONTROL rojected Completion Date]
+## [!UICONTROL Projected Completion Date]
 
 The [!UICONTROL Projected Completion Date] is a real-time, calculated indicator of when the project, task, or issue will be completed. When the project, task, or issue is marked as Completed, the [!UICONTROL Projected Completion Date] changes to the date of the [!UICONTROL Actual Completion Date].
 
@@ -140,24 +136,28 @@ For more information, see [Overview of the [!UICONTROL Projected Completion Date
 
 When you log time for projects, tasks, and issues to indicate how much actual time (in hours) you spend working on the project, task, or issue, the time you log becomes the [!UICONTROL Actual Hours] of the project, task, or issue.
 
-The date for which you log the time is the [!UICONTROL Hour Entry Date] field on the hour entry.
+The date for which you log the time is the [!UICONTROL Hour Entry Date] field on the hour entry. Some hour lists and reports display the Hour Entry Date as Date. 
 
 >[!TIP]
 >
 >The [!UICONTROL Hour Entry Date] is different than the [!UICONTROL Entry Date] in that it is not the date when the hour log was created, but rather the date to which you want to hours associated.
 
-You can log time in the [!UICONTROL project], [!UICONTROL task], or [!UICONTROL issue Updates] section or in the [!UICONTROL Hours] section . When logging time in the [!UICONTROL Hours] section , you can manually specify the Hour Entry Date and the user the hours belong to.
+You can log and view time in the following areas of Workfront: 
 
-For more information, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).
+* Log and view time in the [!UICONTROL project], [!UICONTROL task], or [!UICONTROL issue Updates] section or in the [!UICONTROL Hours] section. When logging time in the [!UICONTROL Hours] section , you can manually specify the Hour Entry Date and the user the hours belong to.
 
->[!TIP]
->
->We recommend logging time on working tasks and issues, rather than parent tasks or projects. Time logged on the working tasks rolls up to the parent tasks and the project as [!UICONTROL Actual Hours] for the parent tasks and the project. Time logged on issues rolls up to the project as [!UICONTROL Actual Hours] for the project.
+    ![](assets/log-time-box-task-hours-section-nwe-350x500.png)
 
-![](assets/log-time-box-task-hours-section-nwe-350x500.png)
+    For more information, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-![](assets/log-time-in-update-stream-task-nwe-350x185.png)
+    >[!TIP]
+    >
+    >We recommend logging time on working tasks and issues, rather than parent tasks or projects. Time logged on the working tasks rolls up to the parent tasks and the project as [!UICONTROL Actual Hours] for the parent tasks and the project. Time logged on issues rolls up to the project as [!UICONTROL Actual Hours] for the project.
 
-You can view the [!UICONTROL Hour Entry Dates] in hour reports and lists.
+* Log time in the update stream of a task or issue. 
 
-![](assets/hour-entry-date-in-view-nwe-350x173.png)
+    ![](assets/log-time-in-update-stream-task-nwe-350x185.png)
+
+* View the [!UICONTROL Hour Entry Dates] in hour reports and lists.
+
+    ![](assets/hour-entry-date-in-view-nwe-350x173.png)
