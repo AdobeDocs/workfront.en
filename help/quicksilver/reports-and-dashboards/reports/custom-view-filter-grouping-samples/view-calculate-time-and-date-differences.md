@@ -107,13 +107,18 @@ For example, you can calculate the difference between the Planned Completion Dat
    * To display the difference between the Planned Completion Date of the project and that of the task:
 
      ```   
-      displayname=Project Planned Completion - Task Planned Completion (Days)<br>textmode=true<br>valueexpression=ROUND(DATEDIFF({project}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>valueformat=HTML
+      displayname=Project Planned Completion - Task Planned Completion (Days)
+      textmode=true
+      valueexpression=ROUND(DATEDIFF({project}.{plannedCompletionDate},{plannedCompletionDate}),2)
+      valueformat=HTML
      ```
 
    * To display the difference between the Planned Completion Date of the parent task and that of the task:
 
      ```   
-      valueexpression=ROUND(DATEDIFF({parent}.{plannedCompletionDate},{plannedCompletionDate}),2)<br>textmode=true<br>valueformat=HTML<br>displayname=Parent Planned Completion - Planned Completion (Days)
+      valueexpression=ROUND(DATEDIFF({parent}.{plannedCompletionDate},{plannedCompletionDate}),2)
+      textmode=true<br>valueformat=HTML
+      displayname=Parent Planned Completion - Planned Completion (Days)
      ```
 
 1. Click **Save**, then **Save View**.
