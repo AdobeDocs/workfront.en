@@ -10,7 +10,11 @@ exl-id: 5bb45ef6-9e49-4063-8e53-c9f3bc994870
 ---
 # View the Resource capacity visualization in Enhanced analytics
 
+<!--Audited: 01/2024-->
+
 You can assess whether a team is over, under, or at capacity when viewing the Enhanced analytics resource capacity visualization chart in Adobe Workfront. 
+
+The teams illustrated in the resource visualization refers to the home team of users assigned to the work during the specified period of time. 
 
 ## Access requirements
 
@@ -50,9 +54,9 @@ You must have the following:
 
 For prerequisites to using Enhanced Analytics, see the "Prerequisites" section in [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## Understand the Resource capacity chart
+## Understand the Resource capacity visualization
 
-The Resource capacity chart shows whether a team is over, under, or at capacity. This calculation is based on:
+The Resource capacity visualization shows whether a team is over, under, or at capacity. This calculation is based on:
 
 * **Available capacity**: The total amount of hours a home team has available to work in the filtered period of time
 
@@ -84,24 +88,25 @@ On the Resource capacity visualization, you can see the following details:
 
   ![](assets/resource-capacity-under-capacity.png)
 
-Hovering over a row shows the exact number of hours for planned capacity and available capacity, as well as the number of hours the home team is over or under capacity.
+Hovering over a team's row shows the exact number of hours for planned capacity and available capacity, as well as the number of hours the home team is over or under capacity.
 
 Seeing this information helps you determine:
 
-* If the home team was overallocated or underallocated.
-* What the largest projects were that the home team was focused on.
-* Which home teams are available for work.
+* If the team is overallocated or underallocated.
+* What the largest projects are that the home team is focused on.
+* Which teams are available for work.
 
 To learn how to get the best data for this visualization, see [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## View the Resource capacity visualization
 
-1. Click the Main Menu icon ![](assets/main-menu-icon-16x12.png), then select **Analytics**.
+{{step1-to-analytics}}
+
 1. In the left panel, select **People**.
 
    ![](assets/people-area-cropped-qs-350x276.png)
 
-1. (Optional) To use a different date range, select new start and end dates from the date range filter.
+1. (Optional) To use a different date range, select new start and end dates from the date range filter in the upper-right corner of the chart.
 
    ![](assets/filters-select-date-range-350x344.png)
 
@@ -119,11 +124,19 @@ To learn how to get the best data for this visualization, see [Enhanced analytic
 
    ![](assets/timeframe-filter-350x220.png)
 
-1. Hover over the home team line to see how many hours are still available to be scheduled, the amount of hours planned for the home team to complete, and the total number of hours worked, which is labeled as over, under, or at capacity.
+1. Hover over the home team line to view the following:
+
+   * How many hours are still available to be scheduled
+   * The amount of hours planned for the home team to complete
+   * The total number of hours worked. The total number of hours worked could have the following labels:
+      
+      * Over
+      * Under
+      * At capacity.
 
    ![](assets/resource-capacity-capacity-pop-up-350x213.png)
 
-1. (Optional) To export the visualization data, click the **Export icon** ![](assets/export.png) in the top-right corner of the visualization, then select the export format:
+1. (Optional) To export the visualization data, click the **Export icon** ![](assets/export.png) in the upper-right corner of the visualization, then select the export format:
 
    * **Chart (PNG)** 
    * **Data Table (XSLX)**
