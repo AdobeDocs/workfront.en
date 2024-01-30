@@ -12,15 +12,7 @@ el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 
 # Overview of sharing permissions in Adobe Maestro
 
->[!IMPORTANT]
->
->The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
->
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. Ypu must be a Workfront customer to have access to Maestro.
->
->Contact your account representative for more information about joining the beta program for Maestro.
->
->For information, see [Adobe Maestro overview](../maestro-overview.md). 
+{{maestro-important-intro}}
 
 You can share or remove permissions to an Adobe Maestro workspace or view.  
 
