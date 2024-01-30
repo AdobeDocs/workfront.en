@@ -49,6 +49,7 @@ You can share the following objects in Maestro:
     * Users
     * Groups
 * Other users, including System Administrators, can only access views they created or that have been shared with them. 
+* You can share a link to a workspace or a view from a record type page with others. Users who receive the link must be active users and log in to Workfront to be able to access the workspace or the record type page displayed in the selected view. 
 
 ## Sharing permissions for Maestro objects
 
