@@ -10,16 +10,14 @@ exl-id: 9ef52be8-48d0-4f83-a214-dd32e794c73e
 ---
 # View the Project activity visualization in Enhanced analytics
 
+<!-- Audited: 12/2023 -->
+
 The Project activity visualization shows an aggregate view of activities on the project level—the activities of each person assigned to the project—that happened during a specific time frame. You can narrow your focus to understand the activities within a project, or you can compare project activities against other projects in Adobe Workfront.
 
 >[!NOTE]
 >
 >The Activity by team visualization behaves similarly to this visualization, but the Activity by team visualization shows home team activity for all projects.  
 >For information on the Activity by team visualization, see [View the Activity by team visualization in Enhanced analytics](../enhanced-analytics/activity-by-team-overview.md).
-
-<!--WRITER bad link; there is no Activity by Team.png
-[![](assets/project-activity-350x114.png)](../Resources/Images/Analytics/Activity by Team.png)
--->
 
 ## Access requirements
 
@@ -30,25 +28,29 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront plan</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Workfront plan</a></td> 
    <td> <p>Business or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>*</td> 
-   <td> <p>Review or higher</p> </td> 
+   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a></td> 
+   <td>   <p>New:</p> 
+   <ul><li>Light or Higher</li></ul>
+   <p>Current:</p>
+   <ul><li>Review or Higher</li></ul>
+ </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access to Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level.<br>For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>View access to Projects</p> <!--<p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level.<br>For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p>--> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View</p> <p>For information on requesting additional access, see <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View</p> <!--<p>For information on requesting additional access, see <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p>--> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Prerequisites
 
