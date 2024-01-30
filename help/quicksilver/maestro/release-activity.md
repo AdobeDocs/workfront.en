@@ -34,6 +34,18 @@ The features are released weekly and are listed in the order of their release, w
 >
 >The documentation referenced in the sections below will be available some time after the features are released to Production. 
 
+<!--
+## Week of January 29, 2024
+
+### Add thumbnails to records 
+
+Production: < date > 
+
+Preview: To be determined  
+
+You can now add individual thumbnails to each record to distinguish them in  a view. You can add image files that you have previously saved on your computer as thumbnails. For more information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).  
+-->
+
 ## Week of January 22, 2024
 
 ### New History section displays system activity for Maestro records
@@ -54,7 +66,7 @@ Maestro records the following information in the new History section:
 
 * A date and time stamp of when the change occurred. 
 
- For more information, see [Manage record comments](/help/quicksilver/maestro/records/manage-record-comments.md). 
+ For more information, see [History section overview](/help/quicksilver/maestro/records/history-section-overview.md). 
 
 ### New label for new record link 
 

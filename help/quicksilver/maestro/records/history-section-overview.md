@@ -66,7 +66,6 @@ You can review the changes made to record fields in the History section of the r
 
     * Multi-select
     * Linked record fields
-    * Linked (lookup) fields
     * People
  
     If the change only added values to the field, the old value does not display and only the new field value displays.  
@@ -74,5 +73,14 @@ You can review the changes made to record fields in the History section of the r
 * Checkbox-type fields never display the old value in strikethrough format. If the field is edited, only the current state at the moment the change was made displays. 
 
     For more information about Maestro fields, see [Create fields](/help/quicksilver/maestro/fields/create-fields.md). 
+
+* Changes to fields of the following types do not display in the History section: 
+
+    * Linked (lookup) fields
+    * Formula
+    * Created by
+    * Created on date
+    * Last modified by
+    * Last modified date
 
 * If a field is removed from the system, the updates made on that field remain in the History section. There is no indication that the field was removed in the History section of a record. 
