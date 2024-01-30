@@ -38,7 +38,7 @@ You must have the following to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td><p>Current:[!UICONTROL Plan]</p>
+   <td><p>Current: [!UICONTROL Plan]</p>
    Or
    <p>New: [!UICONTROL Standard]</p>
    </td> 

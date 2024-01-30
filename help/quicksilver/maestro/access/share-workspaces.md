@@ -11,6 +11,8 @@ exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 
 # Share workspaces
 
+{{maestro-important-intro}}
+
 You can share a workspace with others to ensure collaboration when working in Adobe Workfront Maestro. 
 
 >[!NOTE]
@@ -98,6 +100,8 @@ To share a workspace with others:
     * Manage
 
         For information about permission levels and what actions users can perform for each level, see [Overview of sharing permissions in Adobe Maestro](../access/sharing-permissions-overview.md).
+1. Click **Copy link** to copy a link to the workspace to your clipboard. 
+1. Share the copied link with others. Users who receive the link must be active users and log in to Workfront to be able to access the workspace. 
 1. Click **Save**.
 
 
