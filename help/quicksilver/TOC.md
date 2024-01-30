@@ -1331,7 +1331,7 @@ feature-set: Workfront
       * [Task Constraint overview: As Late As Possible](manage-work/tasks/task-constraints/as-late-as-possible.md)
       * [Update the Task Constraint of a task](manage-work/tasks/task-constraints/update-task-constraint-of-task.md)
     * Task Duration and Duration Types {#task-duration-and-duration-types}
-      * [Task Duration and Duration Types](manage-work/tasks/taskdurtn/task-duration-duration-type.md)
+      * [Task Duration and Duration Types: article index](manage-work/tasks/taskdurtn/task-duration-duration-type.md)
       * [Overview of Task Duration and Duration Type](manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
       * [Duration Type overview: Calculated Assignment](manage-work/tasks/taskdurtn/calculated-assignment.md)
       * [Duration Type overview: Effort Driven](manage-work/tasks/taskdurtn/effort-driven.md)
@@ -2038,6 +2038,7 @@ feature-set: Workfront
     * [Share records](maestro/records/share-records.md)
     * [Manage record comments](maestro/records/manage-record-comments.md)
     * [History section overview](maestro/records/history-section-overview.md)
+    * [Add thumbnails to records](maestro/records/add-thumbnails-to-records.md)
   * Adobe Maestro views {#adobe-maestro-views}
     * [Views: article index](maestro/views/views-information.md)
     * [Manage record views](maestro/views/manage-record-views.md)
@@ -2314,7 +2315,7 @@ feature-set: Workfront
     * [View additional information about Adobe Workfront for Outlook and log out](workfront-integrations-and-apps/using-workfront-with-outlook/view-additional-infor-wf-outlook-and-log-out.md)
     * [Enable Outlook for Office for use with Adobe Workfront and SAML 2.0](workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)
   * Adobe Workfront for Microsoft Teams {#workfront-for-microsoft-teams}
-    * [Adobe Workfront for Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
+    * [[!DNL Adobe Workfront for Microsoft Teams]: article index](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
     * [Adobe Workfronts for Microsoft Teams Overview](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
     * [Install Adobe Workfront for Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md)
     * [Access Adobe Workfront from Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/access-workfront-from-ms-teams.md)

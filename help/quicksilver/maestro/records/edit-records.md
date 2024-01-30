@@ -101,7 +101,7 @@ You must have the following access to perform the steps in this article:
 You can edit a record from the following areas:
 
 * [From the Details page of a record](#edit-a-record-from-the-records-details-page)
-* [From the table view of a record type](#edit-a-record-from-the-record-type-table-view) 
+* [From the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type)
 
 ### Edit a record from the record's Details page
 
@@ -175,3 +175,5 @@ The workspace that you access last opens.
 
     * CTRL + Z (⌘ + Z for Mac) to undo a change 
     * CTRL + Shift + Z (⌘ + Shift + Z for Mac) to redo a change 
+<!--
+1. (Optional) Add a thumbnail to a record. For information, see [Add a thumbnail to a record](/help/quicksilver/maestro/records/add-thumbnail-to-a-record.md). -->

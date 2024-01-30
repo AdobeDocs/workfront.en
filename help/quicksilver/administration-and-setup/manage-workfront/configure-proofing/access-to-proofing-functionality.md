@@ -20,7 +20,7 @@ There are currently three plan options for Proofing in Workfront:
 
 * **New Workfront plans**: Proofing is automatically included for all licenses in the new Workfront plans.
 * **Current Workfront Pro+ Plans**: Proofing is automatically included for Work and Plan licenses if you have the pro, business or enterprise Workfront plans. 
-* **Workfront Premium Legacy plans**: This option is for legacy Workfront Plans—Select, Enterprise, Premium. Proofing is not automatically included with licenses in this plan. You must grant proofing access to specific users in their user profile.
+* **Legacy Workfront Premium plans**: This option is for legacy Workfront Plans—Select, Enterprise, Premium. Proofing is not automatically included with licenses in this plan. You must grant proofing access to specific users in their user profile.
 
   If you are a Workfront administrator, you can check and see which plan your instance is on by going to Setup > System > Licenses.
 
