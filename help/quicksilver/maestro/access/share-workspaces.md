@@ -69,7 +69,7 @@ You must have the following access to perform the steps in this article:
 
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area to your layout template. </p>  
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Maestro area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/maestro/access/access-overview.md">Access overview</a>. </p> 
 </td>
   </tr>
  </tbody>

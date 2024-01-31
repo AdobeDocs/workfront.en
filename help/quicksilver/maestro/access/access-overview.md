@@ -68,8 +68,7 @@ You must have the following settings to use Adobe Maestro:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your system administrator must add the Maestro area in the Main Menu to your layout template.</p> 
-   <p>For information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Customize the Main Menu using a layout template</a>. </p>  
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Maestro area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/maestro/access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
  </tbody>
