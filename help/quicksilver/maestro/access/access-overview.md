@@ -11,15 +11,7 @@ exl-id: 99fac041-a235-4991-b826-d19944164bc9
 
 # Access overview
 
->[!IMPORTANT]
->
->The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
->
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to have access to Maestro. 
->
->Contact your account representative for more information about joining the beta program for Maestro.
->
->For information, see [Adobe Maestro overview](/help/quicksilver/maestro/maestro-overview.md). 
+{{maestro-important-intro}}
 
 There are license and sharing permission restrictions to use Adobe Maestro capabilities. 
 

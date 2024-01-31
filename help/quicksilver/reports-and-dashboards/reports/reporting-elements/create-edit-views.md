@@ -132,7 +132,7 @@ You can create a new standard view, or you can customize an existing standard vi
 
 ### Create or customize an Agile view {#create-or-customize-an-agile-view}
 
-You can create a new Agile view or customize an existing Agile view that you previously created.
+You can create an Agile view or customize an existing Agile view that you previously created.
 
 >[!IMPORTANT]
 >

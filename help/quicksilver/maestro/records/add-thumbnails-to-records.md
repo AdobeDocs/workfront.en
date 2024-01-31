@@ -68,8 +68,8 @@ You must have the following access to perform the steps in this article:
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace </p>  
-   <p>View or higher permissions to the table view </p> 
+   <td> <p>Contribute or higher permissions to a workspace </p>  
+   <p>Contribute or higher permissions to the table view </p> 
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>

@@ -242,6 +242,18 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Maestro]**.
 
+## Maestro important intro - {#maestro-important-intro}
+
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
+>
+>Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use Maestro capabilities.
+>
+>Contact your account representative for more information about joining the beta program for Maestro.
+>
+>For more information about Maestro, see [Adobe Maestro overview](/help/quicksilver/maestro/maestro-overview.md). 
+
 <!-- Manage Work -->
 
 ## Step 1 - Getting to Portfolios - {#step1-to-portfolios}

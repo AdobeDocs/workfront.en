@@ -12,6 +12,8 @@ recommendations: noDisplay, noCatalog
 
 # Share views
 
+{{maestro-important-intro}}
+
 You can share a view with others to ensure collaboration when working in Adobe Workfront Maestro. 
 
 Granting permissions to a workspace does not give other users permissions to the views on the record type pages. You must grant permissions to individual views in a record type page to share them with other users. 
@@ -101,6 +103,8 @@ To share a view with others:
     * Manage
 
         For information about permission levels and what actions users can perform for each level, see [Overview of sharing permissions in Adobe Maestro](../access/sharing-permissions-overview.md).
+1. Click **Copy link** to copy a link to the view to your clipboard. 
+1. Share the copied link with others. Users who receive the link must be active users and log in to Workfront to be able to access the record type page and display it in the selected view. 
 1. Click **Save**.
 
 

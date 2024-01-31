@@ -9,29 +9,6 @@ exl-id: fc633fd6-35b4-4949-8045-22c775002436
 ---
 # Manage a project in the Agile View
 
-<!--
-Required plans, license types, and access
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td> <p><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront Plan</a> </p> </td> 
-   <td> <p>Team, Pro, Business, or Enterprise </p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>Workfront License Type</p> </td> 
-   <td> <p>Review, Work, or Plan </p> </td> 
-  </tr> 
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td> <p>Permissions in the access model</p> </td> 
-    <td> <li>Edit access and ability to create reports, dashboards, and calendars</li> </td> 
-   </tr>
- </tbody> 
-</table>
--->
-
 You can leverage agile functionality for your project without the administrative challenges that typically accompany agile practices (such as managing a team backlog or creating iterations).
 
 If you want to work in an agile environment that uses a team backlog and allows you to create iterations from tasks on the backlog, follow the instructions in [Work in an agile environment](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
@@ -45,30 +22,31 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Review or higher</p> </td> 
+   <td> <p>Current: Review or higher</p> 
+   <p>New: Contributor or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader">Access level configuration</td> 
    <td> <p>Edit access to the following areas:</p> 
     <ul> 
      <li> <p>Projects</p> </li> 
      <li> <p>Reports, Dashboards, Calendars</p> </li> 
      <li> <p>Filters, Views,&nbsp;Groupings</p> </li> 
-    </ul> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+    </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View permissions to the project</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator. For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 ## Understand Agile projects
 
@@ -105,7 +83,9 @@ There are some differences when using agile views on a project versus working in
 * Tasks that have neither a parent task nor a subtask are always displayed as a single story card on the story board.   
   For example, these tasks appear as follows in the project list view:   
   
-  ![Agile project list - tasks with no parent or subtasks](assets/agile-project-single-list-nwe.png) These tasks appear as follows in the project agile view:   
+  ![Agile project list - tasks with no parent or subtasks](assets/agile-project-single-list-nwe.png) 
+  
+  These tasks appear as follows in the project agile view:   
   
   ![Project agile view - tasks with no parent or subtasks](assets/agile-project-singlecard-nwe.png)
 
@@ -156,7 +136,7 @@ For information about how to customize an agile view, see [Create or customize a
 ## View a project in the Agile view
 
 1. Go to the project you want to view in an agile view, on either the task list or the issue list.
-1. Click the **Board** icon ![Board icon](assets/board-icon-for-agile-view.png).
+1. Click the **Board view** icon ![Board icon](assets/board-icon-for-agile-view.png).
 
    The board view of the project displays by default.
 
@@ -204,7 +184,9 @@ For more information about creating and customizing agile views, see the [Create
 >
 >This section only applies to the legacy Agile view, not to the board view of a project.
 
-For information about how to share an agile view, see [Share a filter, view, or grouping](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+You can share an Agile view you created or have permissions to in the same way you share any other view, or filter or grouping. 
+
+For more information, see [Share a filter, view, or grouping](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
 
 ## Remove an existing Agile view
 
@@ -212,4 +194,6 @@ For information about how to share an agile view, see [Share a filter, view, or 
 >
 >This section only applies to the legacy Agile view, not to the board view of a project.
 
-For information about how to delete a view, see the "Remove a view" section in the article [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+You can remove an Agile view in the same way you remove any other view, or filter or grouping. 
+
+For more information, see the [Remove filters, views, and groupings](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md). 
