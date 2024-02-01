@@ -3,13 +3,15 @@ content-type: reference;overview
 product-area: reporting
 navigation-topic: reports-and-dashboards
 title: Reports
-description: Review these areas to get an understanding of how to use reporting in Adobe Workfront.
+description: Review these areas to learn about reporting in Adobe Workfront.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b7117ff8-5353-4766-b982-ba624a484ad1
 ---
-# Reports
+# Reports: article index
+
+<!-- Audited: 1/2024 -->
 
 This section contains the following subsections:
 
@@ -23,5 +25,3 @@ This section contains the following subsections:
 * [Report usage overview](../../reports-and-dashboards/reports/report-usage/report-usage-overview.md) 
 * [Calendars: article index](../../reports-and-dashboards/reports/calendars/calendars.md) 
 * [Tips, tricks, and troubleshooting for reports](../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)
-
-<!--outdated: For in-depth training on reports, see  [Basic Report Creation Program for the new Workfront experience](https://one.workfront.com/s/basic-report-creation-program).-->

@@ -6,7 +6,7 @@ product-area: system-administration
 keywords: access,model,funnel,diagram,levels,permissions
 navigation-topic: access-levels
 description: The Adobe Workfront administrator determines what access level each user should have. That access level defines what users can see and do with object types and areas in the system.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
@@ -15,9 +15,8 @@ exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
 
 The Adobe Workfront administrator determines what access level each user should have. That access level defines what users can see and do with object types and areas in the system.
 
-Also, users gain access to individual objects when other users share and grant certain permissions on those objects.
+Users also gain access to individual objects when other users share and grant certain permissions on those objects.
 
-So, the activities a user can do with an object are defined by a combination of their access level and the permissions given to them for that project.
 
 ![](assets/security-model-hierachy.png)
 

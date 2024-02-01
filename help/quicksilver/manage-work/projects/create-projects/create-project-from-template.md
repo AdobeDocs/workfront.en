@@ -2,14 +2,16 @@
 product-area: projects;templates
 navigation-topic: create-projects
 title: Create a project using a template
-description: You can use templates as a framework to create projects. If you have projects that repeat often, using templates for the general timeline of the new project saves you from having to build the same projects repeatedly.
+description: You can use templates as a framework to create projects in Adobe Workfront. If you have projects that repeat often, using templates for the general timeline of the new project saves you from having to build the same projects repeatedly.
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
 ---
 # Create a project using a template
 
-You can use templates as a framework to create projects. If you have projects that repeat often, using templates for the general timeline of the new project saves you from having to build the same projects repeatedly.
+<!-- Audited: 01/2024 -->
+
+You can use templates as a framework to create projects in Adobe Workfront. If you have projects that repeat often, using templates for the general timeline of the new project saves you from having to build the same projects repeatedly.
 
 Templates provide you with a way to capture repeatable processes, information, and settings associated with your projects. The information associated with a template is transferred to the project. This includes tasks, assignments, durations, documents, financial details, risks, and custom forms.
 
@@ -17,11 +19,11 @@ Templates provide you with a way to capture repeatable processes, information, a
 >
 >Workfront defines the Group and Status of the new project as follows:
 >
->* The default status of a new project created from a template corresponds with the status defined by your Workfront administrator in the main Project Preferences area or by a group administrator (or Workfront administrator) in the Project Preferences area for a group. For information about configuring project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) or [Configure project preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md). 
+>* The default status of a new project created from a template corresponds with the status defined by your Workfront administrator in the main Project Preferences area, or by a group administrator (or Workfront administrator) in the Project Preferences area for a group. For information about configuring project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) or [Configure project preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md). 
 >
 >* The Group of the new project is the Group of the template. If the template is not associated with a Group, then the Group of the project is the Home Group of the user who creates the project.
 >
->* The statuses available for a new project match the statuses of the Group of the project which is either the Group of the template, or the Home Group of the user who creates the project. 
+>* The statuses available for a new project match the statuses of the Group of the project, which is either the Group of the template, or the Home Group of the user who creates the project. 
 
 You have the following options for creating a project from a template:
 
@@ -73,27 +75,27 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront licenses overview*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Workfront license</td> 
+   <td> <p>New: Standard</p>
+        <p>or</p>
+        <p>Current: Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to Projects and to Templates</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to projects, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Projects and to Templates</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to a template</p> <p>When you create a project, you automatically receive Manage permissions to the project </p> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View permissions to a template</p> <p>When you create a project, you automatically receive Manage permissions to the project.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Create a project from a template in the Projects area
 
@@ -101,7 +103,7 @@ You can create a project from the Projects area in the Main Menu , or from the P
 
 1. Do one of the following:
 
-   * Click the **Main Menu** ![](assets/main-menu-icon.png), click **Projects**, then expand **New Project**. 
+   * Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner. Click **Projects**, then expand **New Project**. 
    * Go to a portfolio, then expand **New Project**.
 
      >[!TIP]
@@ -124,11 +126,11 @@ You can create a project from the Projects area in the Main Menu , or from the P
    <p>(this, above, is hyperlinked to the classic version of this article; the Milestone View steps are similar to creating a project in Classic than to the way you do it in NWE)</p>
    -->
 
-   ![](assets/new-project-dropdown-nwe-350x358.png)
+   ![New Project options](assets/new-project-dropdown.png)
 
-1. Click the name of a template in the **Favorite templates** list
+1. Click the name of a template in the **Favorite templates** list.
 
-   ![](assets/new-project-from-template-dropdown-with-template-favorites-nwe-350x235.png)
+   ![Select a favorite template](assets/new-project-from-template-dropdown-with-template-favorites.png)
 
    Or
 
@@ -136,17 +138,17 @@ You can create a project from the Projects area in the Main Menu , or from the P
 
    1. Select **New Project from Template**.
    1. In the **Search Templates** field, start typing the name of a template and click it when it displays in the list.
-   1. Review template details on the right.
+   1. Review the template details on the right.
    
       The template details include the following:
 
       * Template duration
       * Template owner
-      * The number of top-level tasks which includes the names of the top three tasks
+      * The number of top-level tasks, which includes the names of the top three tasks
       * The number of all tasks in the template
       * The names of the template custom forms
 
-   1. (Optional)&nbsp;Hover over the name of a template name and click the **Favorites** **icon** ![](assets/favorites-icon-small.png) to mark it as a favorite for future use.
+   1. (Optional) Hover over the name of a template name in the left pane and click the **Favorites** **icon** ![](assets/favorites-icon-small.png) to mark it as a favorite for future use.
 
       Or
 
@@ -158,19 +160,19 @@ You can create a project from the Projects area in the Main Menu , or from the P
 
    1. Click **Use template** when you have selected a template.
 
-   ![](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
+      ![Template details](assets/new-project-from-template-small-box-with-template-details-panel.png)
 
-   >[!NOTE]
-   >
-   >If you have the Milestone View applied to the list of projects, click the name of a template in the **New from Template section**. 
-   >
-   >
-   >![](assets/create-project-from-template-box-from-milestone-view-nwe-350x275.png)   >
-   >
+      >[!NOTE]
+      >
+      >If you have the Milestone View applied to the list of projects, click the name of a template in the **New from Template section**.
+      >
+      >
+      >![Milestone view of creating a project from a template](assets/create-project-from-template-box-from-milestone-view-nwe-350x275.png)
+      >
 
-1. The **New Project** box opens.
+   The **New Project** box opens.
 
-   ![](assets/new-project-from-template-box-with-all-sections-on-left-panel-nwe-350x282.png)
+   ![New Project box](assets/new-project-from-template-box.png)
 
 1. If a field is already populated in the template, the field is pre-populated in the **New Project** box. You can edit the pre-populated values to better match your project. For more information, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 1. Click **Create Project**.
@@ -181,23 +183,21 @@ You can create a project from the Projects area in the Main Menu , or from the P
 
 Instead of starting in the Projects area, you can create a project from a template by starting with the template.
 
-&nbsp;
-
-1. From the **Main Menu**, click **Templates**.
+{{step1-to-templates}}
 
 1. Click the name of a template you want to use.
-1. Click the **More** menu ![](assets/more-icon.png), then click **Create Project.**
+1. Click the **More** menu ![](assets/more-icon.png), then click **Create Project**.
 
-   ![Create project from template](assets/project-sharing-on-template-nwe-2022-350x172.png)
+   ![Create project from template](assets/project-sharing-on-template.png)
 
    The **New Project** box opens.
 
-1. Specify a name for the project, then review each section and make any necessary changes.
+1. Enter a name for the project, then review each section and make any necessary changes.
 
-   ![](assets/new-project-from-template-box-with-all-sections-on-left-panel-nwe-350x282.png)
+   ![New Project box](assets/new-project-from-template-box.png)
 
    If a field is already populated in the template, the field is pre-populated in the **New Project** box. You can edit the pre-populated values to better match your project. For more information, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. Click **Create Project.**
+1. Click **Create Project**.
 
    All details defined in the template associate automatically with the newly created project if you didn't change them in the previous step.

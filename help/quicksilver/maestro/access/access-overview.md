@@ -11,15 +11,7 @@ exl-id: 99fac041-a235-4991-b826-d19944164bc9
 
 # Access overview
 
->[!IMPORTANT]
->
->The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
->
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to have access to Maestro. 
->
->Contact your account representative for more information about joining the beta program for Maestro.
->
->For information, see [Adobe Maestro overview](/help/quicksilver/maestro/maestro-overview.md). 
+{{maestro-important-intro}}
 
 There are license and sharing permission restrictions to use Adobe Maestro capabilities. 
 
@@ -76,8 +68,7 @@ You must have the following settings to use Adobe Maestro:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your system administrator must add the Maestro area in the Main Menu to your layout template.</p> 
-   <p>For information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Customize the Main Menu using a layout template</a>. </p>  
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Maestro area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/maestro/access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
  </tbody>

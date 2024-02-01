@@ -1,6 +1,6 @@
 ---
 title: Create records
-description: In Adobe Maestro, a record is an instance of a record type. You must create record types before you can create individual records.
+description: In Adobe Maestro, a record is an instance of a record type. You must create record types before you can create individual records. Creating taxonomy records is identical to creating operational records. 
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -27,7 +27,7 @@ You can have the following types of records:
 * **Operational records**: They represent work-related objects. For example, for an operational record called "Campaign", you can have named records like "Monthly Newsletter" or "Summer Sale."
 * **Taxonomy records**: They represent attributes that can be associated with operational records. For example, for a taxonomy record type called "Channel", you can have named taxonomies like "Email", "Social Media", or "Advertising". 
 
-Creating operational records is identical to creating taxonomy records, or taxonomies. 
+Creating operational records is identical to creating taxonomy records. 
 
 You can create records in Maestro by doing one of the following:
 
@@ -104,6 +104,8 @@ You must have the following access to perform the steps in this article:
 
 You can create records in the table view of a record type page. 
 
+For information about editing record information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
+
 {#step1-to-maestro}
   
   The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture/create-workspaces.md).
@@ -114,7 +116,7 @@ You can create records in the table view of a record type page.
 
 1. (Conditional) If the record type page does not open in the table view, click the **View** drop-down menu, and select either an existing **Table view** ![](assets/table-view-icon.png) or click **Create view > Table** to create a table view. 
 
-1. To add new records, click **New < Record type name >** in the last row of the table 
+1. To add new records, click **New record** in the last row of the table 
 
     Or 
 

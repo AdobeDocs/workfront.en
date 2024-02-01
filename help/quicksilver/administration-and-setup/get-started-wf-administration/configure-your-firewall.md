@@ -11,6 +11,8 @@ exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
 ---
 # Configure your firewall's allowlist
 
+<!-- Audited: 12/2023 -->
+
 >[!IMPORTANT]
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.

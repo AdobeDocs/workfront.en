@@ -66,6 +66,12 @@ This option determines how [!DNL Adobe Workfront Fusion] proceeds if an error oc
 
 This option determines how [!DNL Workfront Fusion] proceeds if an error occurs and the execution of a scenario is moved to the [View and resolve incomplete executions in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md). If the [!UICONTROL Sequential processing] option is enabled, Workfront Fusion stops processing the task sequence altogether until all incomplete executions are resolved. If the [!UICONTROL Sequential processing] option is disabled, the scenario continues to run according to its schedule, accompanied by repeated attempts to rerun the incomplete executions.
 
+>[!NOTE]
+>
+>Sequential processing may cause a delay in the execution of a scenario. If there are incomplete executions still in the queue when an instant scenario triggers or a scheduled scenario is set to execute, that scenario will execute after all of the executions before it in the queue are complete.
+>
+>If the use case for your scenarios does not require sequential processing, we recommend disabling the sequential processing option.
+
 For more information on scheduling, see [Schedule a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).
 
 ## Data is confidential

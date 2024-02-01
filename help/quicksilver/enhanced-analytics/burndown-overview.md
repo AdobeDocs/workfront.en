@@ -45,7 +45,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View</p> </td> 
+   <td> <p>View</p> </td>
   </tr> 
  </tbody> 
 </table>
@@ -54,7 +54,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Prerequisites
 
-For prerequisites to using Enhanced Analytics, see the "Prerequisites" section in [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md#prerequisites).
+For prerequisites to using Enhanced Analytics, see the "Prerequisites" section in [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## Understand the Burndown visualization
 
@@ -146,7 +146,7 @@ To learn how to get the best data for this visualization, see [Enhanced analytic
    >If the actual velocity is a flat line that runs along the x axis (inline with 0 hours or 0 days) of the visualization, this means that no planned hours—or days—were added to the project.  
    >If the actual velocity is a flat line above the x axis (inline with a number of hours or number of days) that never goes down, this means that no tasks were completed within the filtered time period.
 
-1. (Optional) To export the visualization data, click the **Export** icon ![Export icon](assets/export.png)in the top-right corner of the visualization, and select the export format:
+1. (Optional) To export the visualization data, click the **Export** icon ![Export icon](assets/export.png) in the top-right corner of the visualization, and select the export format:
 
    * Chart (PNG)
    * Data Table (XSLX)
