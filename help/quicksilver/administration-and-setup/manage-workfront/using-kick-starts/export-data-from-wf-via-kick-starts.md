@@ -12,6 +12,8 @@ exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
 ---
 # Export data from Adobe Workfront via Kick-Starts
 
+<!-- Audited: 2/2024 -->
+
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
@@ -34,14 +36,20 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td>Plan</td> 
+   <td>
+   <p>New: Standard</p>
+   Or
+   <p>Current: Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a Workfront administrator.</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Advantages and disadvantages of using kick-starts to export data
 
@@ -89,7 +97,7 @@ The following limitations exist when exporting data via kick-starts (data is exp
 
 ## Export data via kick-starts
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **System** > **Kick-Starts,** then click **Export Data.**
 
