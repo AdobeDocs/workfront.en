@@ -80,6 +80,7 @@ For information about new features and when they are released, see [Maestro rele
 |     Creative brief                                 |                               |                                  |   ✓              |
 |     Customize the color and icon of a record                                 |      ✓                         |                                  |                 |
 |     Add comments to records                                 | ✓                              |                                  |                 |
+|     View history of changes on a record                                 | ✓                              |                                  |                 |
 |     Rich Text formatting for Paragraph fields                                 |      ✓                         |                                  |                 | 
 |     Maestro Modules for Adobe Workfront Fusion                                 |      ✓                         |                                  |                 | 
 |     Copy and paste information from one field to another                                  |      ✓                         |                                  |                 | 

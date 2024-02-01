@@ -10,13 +10,20 @@ exl-id: b340501e-1190-415e-aa96-5aad177c4b7b
 ---
 # Portfolio overview in [!DNL Adobe Workfront]
 
+<!-- Audited: 1/2024 -->
+
 A Portfolio is a collection of projects that have unifying characteristics. Those projects usually compete for the same resources, budget, or time slot. You can divide Portfolios into Programs and associate the projects with the Programs before they are added to a Portfolio.
 
 You can use Portfolios and Programs to organize projects. Through organizing projects, you can compare similar projects and determine where resources will be best spent.
 
 ## Access needed to create portfolios
 
-You must have [!UICONTROL Edit] access to Portfolios in your access level to create and manage Portfolios, and you must have [!UICONTROL Manage] permissions on a Portfolio to be able to edit it. You must have [!UICONTROL View] permissions on a Portfolio to be able to see it.\
+You must have the following access to create and manage portfolios:
+
+* [!UICONTROL Edit] access to Portfolios in your access level to create and manage Portfolios
+* [!UICONTROL Manage] permissions on a Portfolio to be able to edit it
+* [!UICONTROL View] permissions on a Portfolio to be able to see it
+
 For information about access to Portfolios, see [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).\
 For information about permissions to Portfolios, see [Share a portfolio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
 

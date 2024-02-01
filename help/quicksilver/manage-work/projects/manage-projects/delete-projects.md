@@ -2,78 +2,51 @@
 title: Delete projects
 product-area: projects
 navigation-topic: manage-projects
-description: You can delete a project if the project and its data are no longer needed.
+description: You can delete a project if the project and its data are no longer needed. As an alternative to deleting a project, we recommend editing the project and changing the status to Complete or Dead. This removes all current tasks related to the project from a user's task list, but saves all data associated with the project.
 author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
+recommendations: noDisplay, noCatalog
 ---
 # Delete projects
+
+<!--Audited: 01/2024-->
 
 You can delete a project if the project and its data are no longer needed.
 
 As an alternative to deleting a project, we recommend editing the project and changing the status to Complete or Dead. This removes all current tasks related to the project from a user's task list, but saves all data associated with the project.
 
+You can delete a project in a project list or at the project level.
+
 ## Access requirements
 
-<!-- drafted for P&P:
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront plan*</p> </td> 
+   <td> <p>Adobe Workfront plan</p> </td> 
    <td>Any</td> 
   </tr> 
   <tr> 
    <td> <p>Adobe Workfront license*</p> </td> 
-   <td> <p>Current license: Standard </p> 
+   <td> <p>Current license: Plan </p> 
    Or
-   <p>Legacy license: Plan </p>
+   <p>New license: Standard </p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Access level configurations*</strong> </td> 
-   <td> <p>Edit access to Projects with ability to Create <span>and Delete</span> projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td>Access level configuration</td> 
+   <td> <p>Edit access to Projects with ability to Create and Delete projects</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>Edit access to Projects, Tasks, Issues with ability to Delete projects, tasks, and issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-
-You must have the following to perform the steps in this article:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects, Tasks, Issues with ability to Delete projects, tasks, and issues</p> <p><b>NOTE</b></p> 
-   
-   <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the project, tasks and issues on the project with ability to Delete the project, tasks, and issues. </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>Edit access to Projects, Tasks, Issues with ability to Delete projects, tasks, and issues</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
-You can delete a project in a project list or at the project level.
+*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 ## Understand the process of deleting projects
 
@@ -119,7 +92,7 @@ You can delete a project in a project list or at the project level.
 
       You cannot delete a project that has Billing Records with a status of Billed. For more information, see [Create billing records](../../projects/project-finances/create-billing-records.md). 
 
-* Depending on how your Workfront administrator configures the Project, Task, or Issue Deletion Preferences in the Timesheet & Hour Preferences of your Workfront instance, hours logged for the tasks, issues, or the project are handled in one of the following ways when deleting the project:
+* Depending on how your Workfront administrator configures the Project, Task, or Issue Deletion Preferences in the Timesheet & Hours Preferences of your Workfront instance, hours logged for the tasks, issues, or the project are handled in one of the following ways when deleting the project:
 
    * The hours stay on the timesheet as general time. 
    * The hours are deleted and will be restored if the project is ever restored.
@@ -132,7 +105,7 @@ You can delete a project in a project list or at the project level.
    * If the project you delete is linked to the only published initiative from a plan, the indication that the plan has been published is also removed. 
    * If you recover a deleted project, the project is recovered, but its link to the initiative is not restored and the Scenario Planner area no longer displays in Project Details.
 
-     The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
+     The Scenario Planner requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
 
      For information about projects linked to initiatives in the Scenario Planner, see [Update or create projects by publishing initiatives in the Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
 
@@ -160,7 +133,7 @@ You can delete projects from a list of projects.
 ## Delete a project at the project level
 
 1. Go to the project you want to delete. 
-1. Click the **More** icon ![](assets/qs-more-menu.png), then click **Delete Project**. 
+1. Click the **More** icon ![](assets/qs-more-menu.png) to the right of the project name, then click **Delete Project**. 
 
     ![](assets/more-icon-expanded-delete-project-highlighted.png)
 

@@ -10,6 +10,8 @@ exl-id: 28eb1967-390b-4500-abfc-8ed68ff14a16
 ---
 # Groups vs. teams in [!DNL Adobe Workfront]
 
+<!-- Audited: 12/2023 -->
+
 Groups and teams are collections of users in [!DNL Adobe Workfront].
 
 Although you can designate just one Home Group and one Home Team per user, each user can belong to an unlimited number of teams or groups. However, to avoid confusion, we recommend that each user belong to a limited number of teams and groups.

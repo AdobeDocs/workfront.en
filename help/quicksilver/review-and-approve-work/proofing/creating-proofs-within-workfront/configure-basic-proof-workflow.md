@@ -9,6 +9,8 @@ exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
 ---
 # Create an advanced proof with a Basic workflow
 
+<!-- Audited: 1/2024 -->
+
 With a basic workflow, you can several reviewers to a proof, but they are not organized into stages. All of the reviewers you add can access the proof immediately after you create it.
 
 ## Access requirements

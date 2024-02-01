@@ -9,6 +9,8 @@ exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
 ---
 # Create a proof for a document
 
+<!-- Audited: 1/2024 -->
+
 You can generate a proof for a document at the time you are uploading it to Workfront.
 
 You can also generate a proof for a document already uploaded in Adobe Workfront or for a new version of a proof already in Workfront.

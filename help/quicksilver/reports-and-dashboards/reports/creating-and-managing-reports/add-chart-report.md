@@ -9,13 +9,20 @@ exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
 ---
 # Add a chart to a report
 
+<!--Audited: 01/2024-->
+
 You can enhance your reports by adding a chart. You can add charts to existing reports or to reports that you are creating.
 
-Before you add a chart to a report, you should create a View and a Grouping for the report. Most charts cannot be added unless the information is grouped in the report. The only chart that can be added without a grouping is a gauge chart.  
-For information about how to create a View, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).  
+Before you add a chart to a report, you should create a View and a Grouping for the report. 
+
+You cannot add charts to most reports unless you first group the information in the report. The only chart that can be added without a grouping is a gauge chart.  
+
+For information about views, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).  
+
 For more information about groupings, see [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-If your report displays too many items, a chart is not created. In this case, you must also add a Filter to the report to reduce the number of results in your report.  
+If your report displays too many items, a chart is not created. In this case, you must also add a Filter to the report to reduce the number of results in your report. 
+
 For more information about filters, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Access requirements
@@ -27,33 +34,36 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Current: Plan </p>
+   Or
+   <p>New: Standard</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configuration</td> 
+   <td> <p>Edit access to Reports, Dashboards, Calendars</p> <p>Edit access to Filters, Views, Groupings</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions to a report</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator. For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 ## Add a chart to a report
 
 1. Go to an existing report or create a new report. For more information about creating a new report, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 1. (Conditional) If you went to an existing report, click **Report Actions** > **Edit**.
 
-1. Ensure that the **Columns (View)** tab has been updated to meet the needs of the report.  
-   For information about how to create or modify the View for the report, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+1. Ensure that the **Columns (View)** tab has been updated to display the information you want to chart in the report.
+
+   For information about how to create or modify the View for the report, see [Create or edit views in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 1. Click the **Groupings** tab and add a grouping.
 
@@ -61,15 +71,15 @@ You must have the following access to perform the steps in this article:
    >
    >* You can only add a chart to a report when the report results are grouped. 
    >* Text-mode groupings are not supported in charts. For more information about text-mode groupings, see [Edit text mode in a grouping](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md). 
-   >* If you add a single grouping that represents one metric, all charts but a pie chart display each result in the grouping as the same color. 
+   >* If you add a single grouping that represents one metric, all charts except a pie chart display each result in the grouping as the same color. 
 
-   For more information about groupings, see [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   For more information about creating groupings, see [Create groupings in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md). 
 
 1. Select the **Chart** tab.
 1. Click a chart type to select it.  
    ![](assets/qs-report-builder-chart-350x265.png)
 
-1. You can add the following types of charts to an Adobe Workfront report:
+1. Select from the following types of charts:
 
    * [Column chart](#column-chart) 
    * [Bar chart](#bar-chart) 
@@ -94,12 +104,13 @@ To add a **Column** chart to your report:
 1. (Optional) **Group Columns**: Select this option to define how you want the columns to be grouped.  
    Select from the following options:
 
-   * Click one of the following options to select how the grouped columns are going to display:  
-     **- Side by side** 
-     **- Stacked** 
-     **- Stacked to 100%**
+   * Click one of the following options to select how the grouped columns are going to display: 
+
+      * **Side by side** 
+      * **Stacked** 
+      * **Stacked to 100%**
    
-   * Select the Grouping that you want to include in the chart.
+   * Select the Grouping that you want to include in the chart from the **Group Data by** drop-down menu.
    * (Optional) Select **Custom Colors** to customize the colors of the columns.  
      For more information about customizing chart colors, see [Customize chart colors](#customize-chart-colors).
 
@@ -123,15 +134,16 @@ To add a **Bar** chart to your report:
    For more information about customizing chart colors, see [Customize chart colors](#customize-chart-colors).
 
 1. (Optional) Select **Show in 3D** to display the chart in a 3-dimensional view.
-1. (Optional) Group Bars**: Select this option to define how you want the bars to be grouped.  
+1. (Optional) Select **Group Bars** to define how you want the bars to be grouped.  
    Select from the following options:
 
-   * Click one of the following options to select how the grouped bars are going to display:  
-     **- Side by side** 
-     **- Stacked** 
-     **- Stacked to 100%**
+   * Click one of the following options to select how the grouped bars are going to display: 
+
+      * **Side by side** 
+      * **Stacked** 
+      * **Stacked to 100%**
    
-   * Select the Grouping that you want to include in the chart.
+   * Select how you want to group the information in the chart from the **Group Data by** drop-down menu.
    * (Optional) Select **Custom Colors** to customize the colors of your columns.  
      For more information about customizing chart colors, see [Customize chart colors](#customize-chart-colors).
 
