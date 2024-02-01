@@ -167,4 +167,4 @@ The workspace that you access last opens.
 
     * CTRL + Z (⌘ + Z for Mac) to undo a change 
     * CTRL + Shift + Z (⌘ + Shift + Z for Mac) to redo a change 
-1. (Optional) Add a thumbnail to a record. For information, see [Add a thumbnail to a record](/help/quicksilver/maestro/records/add-thumbnail-to-a-record.md).
+1. (Optional) Add a thumbnail to a record. For information, see [Add a thumbnail to a record](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
