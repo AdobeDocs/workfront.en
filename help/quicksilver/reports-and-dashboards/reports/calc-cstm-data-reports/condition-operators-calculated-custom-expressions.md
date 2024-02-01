@@ -10,9 +10,9 @@ exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
 ---
 # Condition operators in calculated custom fields
 
-You can use condition operators or modifiers when building calculated custom data in Adobe Workfront when using text mode.
+<!-- Audited: 2/2024 -->
 
-For information about using text mode in Workfront, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+You can use condition operators or modifiers when building calculated custom data in Adobe Workfront when using text mode. For information about using text mode in Workfront, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 Condition operators or modifiers help build a condition statement by connecting existing Workfront fields in statements and generating a new field. The most common use of condition operators is to build the condition of an "IF" statement.
 
