@@ -21,7 +21,7 @@ exl-id: fd45e1bc-9a35-4960-a73a-ff845216afe4
 >
 >The new [!DNL SharePoint] integration was released to production with the 22.3 release (July 2022.) Although your users can still access documents linked through the legacy [!DNL SharePoint] integration, they must use the new [!DNL SharePoint] integration to link documents from SharePoint.
 >
->* The new SharePoint integration does not require configuration by an administrator, and can be set up by individual users. However, to ensure a smooth transition to the new SharePoint integration, a Workfront administrator must make some small settings changes in the Workfront Setup area.
+>* The new SharePoint integration may not require configuration by an administrator, and may be set up by individual users. However, to ensure a smooth transition to the new SharePoint integration, a Workfront administrator must make some small settings changes in the Workfront Setup area.
 >
 >    For information and instructions, see [Configure the legacy SharePoint integration for continued access to documents](#configure-the-legacy-sharepoint-integration-for-continued-access-to-documents) in this article.
 >    
@@ -66,13 +66,15 @@ You must have any necessary access or permissions in [!DNL SharePoint] to modify
 
 Individual users can link documents through the new [!DNL SharePoint] integration. The integration does not require administrator configuration. Instead, the user logs onto their [!DNL Microsoft] account when linking a document, which enables the integration to access documents available in the user's [!DNL SharePoint].
 
-The first time a user connects the [!DNL Workfront] [!DNL SharePoint] integration to their [!DNL SharePoint] account, they will see and agree to all of the permissions that [!DNL Workfront] uses when interacting with their [!UICONTROL SharePoint] account. Read permissions allow [!DNL Workfront] to see and access files on [!DNL SharePoint], and write permissions allow the user to upload files to [!DNL SharePoint].
+The first time a user connects the [!DNL Workfront] [!DNL SharePoint] integration to their [!DNL SharePoint] account, they will either see and agree to all of the permissions that [!DNL Workfront] uses when interacting with their [!UICONTROL SharePoint] account, or be able to request permissions from their Microsoft administrator. Read permissions allow [!DNL Workfront] to see and access files on [!DNL SharePoint], and write permissions allow the user to upload files to [!DNL SharePoint].
 
 ![Sharepoint permissions](assets/sharepoint-permissions.png)
 
 For instructions on linking documents through the new [!DNL SharePoint] integration, see [Link an external document to [!DNL Workfront]](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#link-an-external-document-to-workfront)
 
 >[!NOTE]
+>
+>* Depending on the organization's Microsoft configuration, users may see an "Approval required" page instead of a "Permissions requested" page. In this case, the users can use this page to request that the organization's Microsoft administrator grant permissions to the Sharepoint integration. 
 >
 >* A [!DNL SharePoint] integration can connect to a single [!DNL SharePoint] instance. Therefore, a user can set up an integration for one [!DNL SharePoint], but cannot set up an integration to a second [!DNL SharePoint], even if they have permissions to and documents on the second [!DNL SharePoint].
 >
@@ -107,7 +109,13 @@ To send a document to SharePoint:
 
 ### Access and permissions
 
-The first time a user adds a document to [!DNL Workfront] from [!DNL SharePoint], they are directed to a screen that requests the following permissions:
+The first time a user adds a document to [!DNL Workfront] from [!DNL SharePoint], they are directed to the Permissions requested page, where they can grant permissions to their SharePoint integration.
+
+>[!NOTE]
+>
+>Depending on the organization's Microsoft configuration, users may see an "Approval required" page instead of a "Permissions requested" page. In this case, the users can use this page to request that the organization's Microsoft administrator grant permissions to the Sharepoint integration. 
+
+The following permissions are requested:
 
 | Access | Reason |
 |---|---|
