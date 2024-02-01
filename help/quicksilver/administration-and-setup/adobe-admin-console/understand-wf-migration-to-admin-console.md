@@ -66,7 +66,7 @@ As a Workfront Product Profile administrator (Workfront System administrator), a
 
 ### What to Expect on Migration Day 
 
-* **User migration will start at midnight of the customer's hosting Workfront Datacenter. ** 
+* **User migration will start at midnight of the customer's hosting Workfront Datacenter.** 
 
 * **Adobe will automatically migrate Workfront administrators first.** When Workfront administrators are migrated to Adobe Identity, they will be assigned the Adobe Product Profile administrator (Workfront System administrator) role. Existing roles a user may have prior to migration will not be impacted.  
 
