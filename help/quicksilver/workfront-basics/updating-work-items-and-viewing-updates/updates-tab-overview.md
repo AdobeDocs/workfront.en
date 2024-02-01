@@ -11,6 +11,8 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 
 # Updates section overview
 
+<!-- Audited: 1/2024 -->
+
 <!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>

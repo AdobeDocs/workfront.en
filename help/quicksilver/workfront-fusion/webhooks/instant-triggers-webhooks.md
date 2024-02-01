@@ -16,6 +16,11 @@ Many services provide webhooks to deliver instant notifications whenever a certa
 
 If the service does not provide webhooks, you need to use polling triggers to periodically poll the service.
 
+For a video introduction to webhooks in Workfront Fusion, see:
+
+* [Intro to Webhooks](https://video.tv.adobe.com/v/3427025/){target=_blank}
+* [Intermediate Webhooks](https://video.tv.adobe.com/v/3427030/){target=_blank}
+
 ## Access requirements
 
 You must have the following access to use the functionality in this article:

@@ -14,6 +14,10 @@ exl-id: 3c8adcd9-fb5f-400d-9edd-6d9fc30cc728
 
 In an Adobe Workfront Fusion scenario, you can automate workflows that use [!DNL Salesforce], as well as connect it to to multiple third-party applications and services.
 
+For a video introduction to the Salesforce connector, see:
+
+* [Salesforce](https://video.tv.adobe.com/v/3427027/){target=_blank}
+
 If you need instructions on creating a scenario, see [Create a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).

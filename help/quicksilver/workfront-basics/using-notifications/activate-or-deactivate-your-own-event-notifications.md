@@ -10,6 +10,8 @@ exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
 ---
 # Modify your own email notifications
 
+<!-- Audited: 1/2024 -->
+
 Your Adobe [!DNL Workfront] administrator configures which email notifications users receive when events occur in Workfront (as described in [[!UICONTROL Configure event] notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)).
 
 Your group administrator can also configure which notifications are activated for you and the users in your [!UICONTROL Home Group]. If your [!UICONTROL Home Group] is a subgroup, you receive the notifications activated for the top-level group above your group.
@@ -35,17 +37,21 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Request] or higher</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license</strong></td> 
+   <td>  <p>New:</p> 
+   <ul><li>Contributor or Higher</li></ul>
+   <p>Current:</p>
+   <ul><li>Request or Higher</li></ul>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## View and modify your email notification settings
 
