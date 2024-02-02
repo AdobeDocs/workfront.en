@@ -20,15 +20,7 @@ role: User
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
->[!IMPORTANT]
->
->The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
->
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use Maestro capabilities.
->
->Contact your account representative for more information about joining the beta program for Maestro.
->
->For information, see [Adobe Maestro overview](/help/quicksilver/maestro/maestro-overview.md). 
+{{maestro-important-intro}}
 
 You can display records in a timeline view, when accessing the record type page in Adobe Maestro. 
 
@@ -259,6 +251,12 @@ Update the timeline view settings to indicate what and how information displays 
 1. Click **Bar style** in the left panel, to indicate what fields you want to display on the record bars. 
 
     The Name field is selected by default. <!--adjust this when the primary field is released??-->
+
+1. (Optional and conditional) If you added thumbnails to records, select the Thumbnail option to display the image associated with records in their record bar. 
+
+    >[!NOTE]
+    >
+    >    You must first add thumbnails in the table view before you can display them in the timeline view. For more information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md). 
 
 1. Click **Add field** to add up to 4 fields to the record bars.
 1. Click inside the **Search fields** box, and click the field you want to add. 

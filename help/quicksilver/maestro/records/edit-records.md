@@ -10,15 +10,7 @@ exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 
 # Edit records
 
->[!IMPORTANT]
->
->The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
->
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use Maestro capabilities.
->
->Contact your account representative for more information about joining the beta program for Maestro.
->
->For information, see [Adobe Maestro overview](../maestro-overview.md).
+{{maestro-important-intro}}
 
 You can edit record information in Adobe Maestro. You must create record types before you can start creating and editing records. 
 For information, see [Create record types](../architecture/create-record-types.md).
@@ -175,5 +167,4 @@ The workspace that you access last opens.
 
     * CTRL + Z (⌘ + Z for Mac) to undo a change 
     * CTRL + Shift + Z (⌘ + Shift + Z for Mac) to redo a change 
-<!--
-1. (Optional) Add a thumbnail to a record. For information, see [Add a thumbnail to a record](/help/quicksilver/maestro/records/add-thumbnail-to-a-record.md). -->
+1. (Optional) Add a thumbnail to a record. For information, see [Add a thumbnail to a record](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).

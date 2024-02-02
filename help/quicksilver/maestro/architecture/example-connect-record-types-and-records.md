@@ -8,15 +8,7 @@ exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
 ---
 # Example of connecting record types and records
 
->[!IMPORTANT]
->
->The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
->
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use Maestro capabilities. 
->
->Contact your account representative for more information about joining the beta program for Maestro.
->
->For information, see [Adobe Maestro overview](../maestro-overview.md).
+{{maestro-important-intro}}
 
 This article describes an example of the following:
 
@@ -179,7 +171,7 @@ To do this:
 
       Or
 
-      Click the **More** menu to the right of a Workfront project,then click **View**. 
+      Click the **More** menu to the right of a Workfront project, then click **View**. 
 
       ![](assets/workfront-object-more-menu-in-table-with-go-to-source-link.png)
 

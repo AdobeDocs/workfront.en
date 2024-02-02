@@ -8,6 +8,8 @@ recommendations: noDisplay, noCatalog
 
 # History section overview
 
+{{maestro-important-intro}}
+
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--update the system updates articles when we release to open beta - check the long commenting stream article list and see articles that document where in the system we have system updates; "Maestro records" should be there-->
