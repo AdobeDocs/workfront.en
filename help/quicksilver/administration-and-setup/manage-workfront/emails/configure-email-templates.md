@@ -224,7 +224,7 @@ A Project You Manage Has Become Late
 
 This produces an email similar to the following: 
 
-![](assets/screen-shot-2016-09-16-at-3.52.54-pm-350x103.png)
+![](assets/project-became-late-email.png)
 
 #### Task or Issue About to Start reminder {#task-or-issue-about-to-start-reminder-example}
 

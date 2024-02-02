@@ -11,15 +11,7 @@ exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
 
 # Share records
 
->[!IMPORTANT]
->
->The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
->
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use Maestro capabilities. 
->
->Contact your account representative for more information about joining the beta program for Maestro.
->
->For information, see [Adobe Maestro overview](../maestro-overview.md).
+{{maestro-important-intro}}
 
 To collaborate with other users, you can share records with others. 
 

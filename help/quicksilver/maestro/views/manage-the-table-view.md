@@ -20,15 +20,7 @@ hide: yes
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
->[!IMPORTANT]
->
->The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
->
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use Maestro capabilities.
->
->Contact your account representative for more information about joining the beta program for Maestro.
->
->For information, see [Adobe Maestro overview](../maestro-overview.md).
+{{maestro-important-intro}}
 
 You can display records and their fields in a table view, when accessing the record type page in Adobe Maestro. 
 
@@ -216,8 +208,9 @@ You can have up to 10,000 records (or rows) for a record type in Maestro.
 
     The records you add in the table view are saved immediately and are visible to all users who have View or higher permissions to the workspace. 
 
-    <!--1. (Optional) Add a thumbnail to each record, then click **Fields** in the upper-right corner of the table, and select the toggle for the Thumbnail field to display it to the left of the primary field. It is deselected by default. 
-        For information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnail-to-a-record.md). -->
+1. (Optional) Add a thumbnail to each record, then click **Fields** in the upper-right corner of the table, and select the toggle for the Thumbnail field to display it to the left of the primary field. It is deselected by default. 
+    
+    For information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 1. (Optional) Select one or multiple records in a row, then drag and drop the **handle** icon ![](assets/handle-icon.png) to the left of the record name to reorder the rows. 
 
