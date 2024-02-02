@@ -11,6 +11,8 @@ exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
 ---
 # Create and manage Automated Workflow templates
 
+<!-- Audited: 2/2024 -->
+
 As an Adobe Workfront administrator, if your organization's content review process is often repeated or content is often reviewed by the same people, you can create Automated Workflow templates that contain those reviewers with proof roles and notification settings that you specify. An Automated Workflow template can be simple with just one or two reviewers or complex with many stages and dependencies.
 
 Automated Workflow templates make it easy to create a proof with an Automated Workflow. When a user creates a proof, they simply choose the template they need.
