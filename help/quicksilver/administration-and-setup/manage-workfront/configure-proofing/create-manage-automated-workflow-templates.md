@@ -34,16 +34,16 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>New: Any</p><p>Current: Pro or Higher</p><p>Legacy: Premium or Select</p> <p>For more information about proofing access with the different plans, see <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> <p>New: Standard</p><p>Current: Work or Plan</p> <p>Legacy: Any (You must have proofing enabled for the user)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>You must have Administrator selected in your Proof Permission Profile. For more information, see <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md" class="MCXref xref">Configure a user's proofing access</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must have Administrator selected in your Proof Permission Profile. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -127,11 +127,7 @@ For more detail about the information in this table, see [Access requirements in
      </tr> 
      <tr> 
       <td role="rowheader">Private stage</td> 
-      <td>Hides comments and decisions from to people who are not added to the stage or who are not Workfront administrators<!--
-        DRAFTED IN FLARE:
-         Supervisors and above
-        
-       -->. For more information, see <a href="../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Automated Workflow overview</a>.</td> 
+      <td>Hides comments and decisions from to people who are not added to the stage or who are not Workfront administrators. For more information, see <a href="../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Automated Workflow overview</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Do not allow this stage to be deleted</td> 
@@ -140,7 +136,7 @@ For more detail about the information in this table, see [Access requirements in
     </tbody> 
    </table>
 
-1. If the proofs that will use this template are always sent to the same people in the stage, add them here so that users don't have to add them every time they create a proof..
+1. If the proofs that will use this template are always sent to the same people in the stage, add them here so that users don't have to add them every time they create a proof.
 
    Choose each person's **Role** on the proofs that will use this template and the **Email alerts** you want the user to receive when working on proofs that use this template.
 
@@ -168,7 +164,8 @@ For more detail about the information in this table, see [Access requirements in
 
 As a Workfront Proof administrator, you can modify an Automated Workflow template. Your changes are saved automatically as you make them.
 
-1. From Workfront, click the Main Menu ![](assets/main-menu-icon.png), then click Proofing ![](assets/proofing-in-main-menu.png) to access Workfront Proof. 
+{{step1-to-proofing}}
+
 1. Click **Workflows** in the left panel.
 1. In the **Workflow templates** list that appears, click the template you want to modify.
 1. In the **Details** section, specify the following information:
@@ -255,7 +252,8 @@ As a Workfront administrator, you can view and manage all of the Automated Workf
 
 To create an Automated Workflow template group:
 
-1. From Workfront, click the Main Menu ![](assets/main-menu-icon.png), then click Proofing ![](assets/proofing-in-main-menu.png) to access Workfront Proof. 
+{{step1-to-proofing}}
+
 1. Click **Workflows** in the left panel.
 1. On the **Workflow** tab, click **New** > **New template group**.
 1. Type a descriptive name for the new template group, then press **Enter**.
@@ -264,7 +262,7 @@ You can move the templates between groups by dragging and dropping.
 
 ## Manage Automated Workflow templates
 
-1. From Workfront, click the Main Menu ![](assets/main-menu-icon.png), then click Proofing ![](assets/proofing-in-main-menu.png) to access Workfront Proof. 
+{{step1-to-proofing}}
 
 1. In the left panel in Workfront Proof, click **Workflows**.
 1. On the **Workflows** page that appears, do any of the following:
