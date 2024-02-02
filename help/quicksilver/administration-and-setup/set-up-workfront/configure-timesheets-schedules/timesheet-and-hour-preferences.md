@@ -25,7 +25,7 @@ As an [!DNL Adobe Workfront] administrator, you can specify preferences for time
 >* Items that are pinned to the timesheet
 >* Items that you search for and manually add to the timesheet. Manually added items are pinned, by default. 
 >
->For more information, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md). 
+>For more information, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md) and [Timesheet overview](/help/quicksilver/timesheets/timesheets/timesheets-overview.md). 
 
 
 
