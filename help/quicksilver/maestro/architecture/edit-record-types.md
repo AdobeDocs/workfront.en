@@ -22,15 +22,7 @@ hide: yes
 
 # Edit record types
 
->[!IMPORTANT]
->
->The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
->
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use Maestro capabilities.
->
->Contact your account representative for more information about joining the beta program for Maestro.
->
->For information, see [Adobe Maestro overview](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Record types are the object types of Adobe Maestro. You can edit the appearance of record types that you or anyone else created. For information about creating Maestro record types, see [Create record types](../architecture/create-record-types.md). 
 
