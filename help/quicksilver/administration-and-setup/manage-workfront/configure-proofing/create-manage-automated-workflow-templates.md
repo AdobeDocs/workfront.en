@@ -52,7 +52,8 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Create an Automated Workflow template
 
-1. From Workfront, click the Main Menu ![](assets/main-menu-icon.png), then click Proofing ![](assets/proofing-in-main-menu.png) to access Workfront Proof. 
+{{step1-to-proofing}}
+
 1. Click **Workflows** in the left panel.
 1. On the **Workflow** tab, click **New** > **New template**.
 
@@ -80,10 +81,9 @@ For more detail about the information in this table, see [Access requirements in
      </tr> 
      <tr> 
       <td role="rowheader">Allow</td> 
-      <td> <p>You can select the stage activities you want available to the person creates proofs using the template.</p> <!--
-        <p><b>WARNING</b>: If you don't select the options Add a stage and Add people to stages, neither the template owner nor the owner of any proof using this template will be able to add a stage or share the proof. <!--
-          <span data-mc-conditions="QuicksilverOrClassic.Draft mode">Test this. Andrzej thinks it's wrong info or a bug.</span>
-         --></p>
+      <td> <p>You can select the stage activities you want available to the person creates proofs using the template.</p> 
+      <p><b>WARNING</b>: If you don't select the options Add a stage and Add people to stages, neither the template owner nor the owner of any proof using this template will be able to add a stage or share the proof. 
+      </p>
       </td> 
      </tr> 
     </tbody> 
