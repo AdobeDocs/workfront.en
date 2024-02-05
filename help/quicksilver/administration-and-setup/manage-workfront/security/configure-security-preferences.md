@@ -75,7 +75,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Enable the use of session information when creating External Page URLs</td> 
-      <td> <p>Allows users to use the Session ID information of a site when adding an External Page to a Dashboard.</p> <p>For more information about adding External Pages to a Dashboard, see <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Embed an external web page in a dashboard</a>.</p> </td> 
+      <td> <p>Allows users to use the Session ID information of a site when adding an External Page to a Dashboard.</p> <p>This option is insecure and off by default. It is recommended to use OAuth for integrations instead. <link to oauth></p> <p>For more information about adding External Pages to a Dashboard, see <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Embed an external web page in a dashboard</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Let people use Workfront's mobile applications and the <strong>Workfront</strong> Outlook Add-In</td> 
