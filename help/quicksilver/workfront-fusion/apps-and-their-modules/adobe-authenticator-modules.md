@@ -73,6 +73,12 @@ An Adobe Authenticator connection connects to a single project on the Adobe Deve
 
 You can create separate connections to separate projects, but you cannot use a connection to access an API that is not on the project specified in that connection.
 
+>[!IMPORTANT]
+>
+>With the Adobe Authenticator connector, you have the choice between making an OAuth Server-to-server connection, or a Service Account (JWT) connection. Adobe has deprecated JWT credentials, which will stop working after January 1, 2025. **Therefore, we highly recommend creating OAuth connections.**
+>
+>For more information on these types of connections, see [Server to Server authentication](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/) in the Adobe documentation
+
 To create a connection:
 
 1. In any Adobe Authenticator module, click **Add** next to the Connection field.
