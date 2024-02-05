@@ -120,7 +120,8 @@ You can use both built-in Workfront fields and custom fields that you already cr
      <tr> 
       <td role="rowheader">Format</td> 
       <td> <p>The format in which you want the results of the field to be stored and displayed.</p> <p>If you plan to use the field in mathematical calculations, always use a <strong>Number</strong> or a <strong>Currency</strong> format. When you select Number or Currency, the system automatically truncates numbers that start with 0.</p> 
-      <p><b>IMPORTANT</b>: <p>Before you choose a format, consider the correct format for the new field. The format field cannot be edited after the custom form is saved. And selecting the wrong format could impact future calculations and aggregate values in report and list groupings.</p> </td> 
+      <p><b>IMPORTANT</b>: <p>Before you choose a format, consider the correct format for the new field. The format field cannot be edited after the custom form is saved. And selecting the wrong format could impact future calculations and aggregate values in report and list groupings.</p>
+      <p><strong>NOTE:</strong> Fields with a Currency format should not include quotation marks. (For example, use 800.00 and not "800.00.") This can have an unexpected consequence due to nuances with language formatting for currency types.</p></td> 
      </tr> 
     </tbody> 
    </table>

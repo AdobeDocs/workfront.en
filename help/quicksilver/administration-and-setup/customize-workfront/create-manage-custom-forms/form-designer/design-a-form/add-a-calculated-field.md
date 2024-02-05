@@ -4,7 +4,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: You can add a calculated custom field that uses existing data to generate new data when the custom form is attached to an object.
-author: Courtney
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
@@ -151,7 +151,8 @@ To reuse an existing calculated custom field:
      <tr> 
       <td role="rowheader">Format</td> 
       <td> <p>The format in which you want the results of the field to be stored and displayed.</p> <p>If the field will be used in mathematical calculations, always use a <strong>Number</strong> or a <strong>Currency</strong> format. When you select Number or Currency, the system automatically truncates numbers that start with 0.</p> 
-      <p><b>IMPORTANT</b>: Before you choose a format, consider the correct format for the new field. The format field cannot be edited after the custom form is saved. And selecting the wrong format could impact future calculations and aggregate values in report and list groupings.</p> </td> 
+      <p><b>IMPORTANT</b>: Before you choose a format, consider the correct format for the new field. The format field cannot be edited after the custom form is saved. And selecting the wrong format could impact future calculations and aggregate values in report and list groupings.</p>
+      <p><strong>NOTE:</strong> Fields with a Currency format should not include quotation marks. (For example, use 800.00 and not "800.00.") This can have an unexpected consequence due to nuances with language formatting for currency types.</p></td>
      </tr> 
     </tbody> 
    </table>
