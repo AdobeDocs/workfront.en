@@ -76,11 +76,145 @@ You can create separate connections to separate projects, but you cannot use a c
 To create a connection:
 
 1. In any Adobe Authenticator module, click **Add** next to the Connection field.
-1.
+1. Fill in the following fields:
+
+   <table style="table-layout:auto"> 
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+    </col>
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+    </col>
+    <tbody>
+      <tr>
+        <td role="rowheader">[!UICONTROL Connection type]</td>
+        <td>
+          <p>Select whether you want to create an OAuth Server-to-Server connection, or a service account (JWT) connection.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Connection name]</td>
+        <td>
+          <p>Enter a name for this connection.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Client ID]</td>
+        <td>Enter your [!DNL Adobe] Client ID. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Client Secret]</td>
+        <td>Enter your [!DNL Adobe] Client Secret. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Scopes]</td>
+        <td>If you have selected an OAuth connection, enter the scopes needed for this connection.</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Technical account ID]</td>
+        <td>Enter your [!DNL Adobe] Technical account ID. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Organization ID]</td>
+        <td>If you have selected a JWT connection, enter your [!DNL Adobe] Organization ID. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Meta Scopes]</td>
+        <td>If you have selected a JWT connection, enter the meta scopes needed for this connection. </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Private key]</td>
+        <td>
+          <p>If you have selected a JWT connection, enter the private key that was generated when your credentials were created in the [!DNL Adobe Developer Console]. </p>
+          <p>To extract your private key or certificate:</p>
+          <ol>
+            <li value="1">
+              <p>Click <b>[!UICONTROL Extract]</b>.</p>
+            </li>
+            <li value="2">
+              <p>Select the type of file you are extracting.</p>
+            </li>
+            <li value="3">
+              <p>Select the file that contains the private key or certificate.</p>
+            </li>
+            <li value="4">
+              <p>Enter the password for the file.</p>
+            </li>
+            <li value="5">
+              <p>Click <b>[!UICONTROL Save]</b> to extract the file and return to the connection setup.</p>
+            </li>
+          </ol>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Environment]</td>
+        <td>Select whether you are connecting to a production or non-production environment.</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Type]</td>
+        <td>Select whether you are connecting to a service account or a personal account.</td>
+      </tr>
+    </tbody>
+    </table>
+
+1. Click **[!UICONTROL Continue]** to save the connection and return to the module.
 
 ## Module
 
-You have to make a project on developer. You can add the APIs you want to use to the project.
+### Make a custom API call
 
-You have to put the entire address
+This action module allows you to make a call to any Adobe API.
+
+>[!TIP]
+>
+>You must enter the entire URL for the API you want to connect to. This module does not accept relative URLs.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+     <td role="rowheader">[!UICONTROL Connection]</td>
+     <td>For instructions on creating a connection to the Adobe Authenticator module, see <a href="#create-a-connection" class="MCXref xref" >Create a connection</a> in this article.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL URL]</p>
+      </td>
+      <td>
+        <p>Enter the entire URL of the API point you want to connect to.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Method]</p>
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Headers]</td>
+      <td>
+        <p>Add the headers of the request in the form of a standard JSON object.</p>
+        <p>For example, <code>{"Content-type":"application/json"}</code></p>
+        <p>Workfront Fusion adds authorization headers automatically.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Query String]  </td>
+      <td>
+        <p>Enter the request query string.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Body]</td>
+   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+     <div class="example" data-mc-autonum="<b>Example: </b>"> 
+      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
+     </div> </p> </td>     </tr>
+     <tr>
+      <td role="rowheader">[!UICONTROL Limit]  </td>
+      <td>
+        <p>Enter the maximum number of results that you want the module to return in one execution cycle.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
