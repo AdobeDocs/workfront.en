@@ -24,7 +24,7 @@ Creating operational records is identical to creating taxonomy records.
 You can create records in Maestro by doing one of the following:
 
 * Manually create them for Maestro record types
-* Connect them to Maestro records from third-party applications. 
+* Connect them to Maestro records from other applications. 
 * Create records by copying and pasting information from an external list. 
 
 This article describes how you can create Maestro records. For information about managing records in the table or timeline views, see the following articles:
@@ -133,23 +133,22 @@ For information about editing record information, see [Edit records](/help/quick
 
 ## Create records by connecting them from another application
 
-You can import records from other applications by linking them to Maestro linked records. This creates a Maestro record type for the third-party application connected object. Records you connect to the original Maestro records display in the third-party application connected object Maestro record type table view. 
+You can import records from other applications by linking them to Maestro linked records. This creates a Maestro record type for the other application's connected object. 
 
 1. Create a Maestro record type, as described in the [Create record types](../architecture/create-record-types.md).
 
 1. Create Maestro records for the record type you created in the previous step. For information, see the section [Create records by manually adding them to a record type](#create-records-by-manually-adding-them-to-a-record-type) in this article. 
 
-1. Create a connection to an object type from a third-party application for the Maestro record type you created. For information, see [Connect record types](../architecture/connect-record-types.md).
+1. Create a connection to an object type from another application for the Maestro record type you created. For information, see [Connect record types](../architecture/connect-record-types.md).
 
-1. Add records from the third-party application to the Maestro records you created above using the linked record field you created in the previous step. For information, see [Connect records](../records/connect-records.md). 
+1. Add records from another application to the Maestro records you created above using the linked record field you created in the previous step. For information, see [Connect records](../records/connect-records.md). 
 
     The following items are created in Maestro:
 
-    * A read-only Maestro record type that refers to the third-party record type you linked to in the connected record field. 
+    * A read-only Maestro record type that refers to the other application's record type you linked to in the connected record field. 
 
-      For example, if you connect a Maestro record type to Workfront projects, a read-only record type named "Workfront projects" is created in the same workspace. 
-    * Read-only records in the third-party record type page. The records imported from the third-party application remain read-only and can only be updated in their original application. 
-
+      For example, if you connect a Maestro record type to Workfront project, a read-only record type named "Workfront project" is created in the same workspace. You can access the read-only Workfront record types from the table view of the Maestro records you're linking from. 
+   
 ## Create records by copying and pasting information from an external list
 
 1. In Maestro, start creating records in the Table view, as described in the section [Create records by manually adding them to a record type](#create-records-by-manually-adding-them-to-a-record-type) in this article. 
@@ -172,7 +171,7 @@ You can import records from other applications by linking them to Maestro linked
     >
     > Ensure you have the desired fields already created in Maestro and that the information in your sheet displays in the correct format that matches that of each field in Maestro.
 
-1. From the third-party application, select several rows and columns, then paste the information in the record type table view, starting with the first new record. 
+1. From another application, select several rows and columns, then paste the information in the record type table view, starting with the first new record. 
 
     The following information is imported in Maestro:
     
