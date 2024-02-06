@@ -257,7 +257,7 @@ The following table shows the limits for how many objects you can create in Maes
 |       Maestro object                                                          |                                                        Limit                                                    |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 |     Number of Workspaces for one Workfront instance                                      |   1,000                                                                                                         |
-|     Number of Record Types for one workspace                                            |   1,000 (this includes taxonomies for the workspace, or objects that you import from third-party applications)  |
+|     Number of Record Types for one workspace                                            |   1,000 (this includes taxonomies for the workspace, or objects that you import from other applications)  |
 |     Number of records for one record type                                               |   10,000                                                                                                        |
 |     Number of fields for one record type or taxonomy                            |   500                                                                                                           |
 |     Number of characters for a text field                                                               |   1,000 characters                                                                                              |
