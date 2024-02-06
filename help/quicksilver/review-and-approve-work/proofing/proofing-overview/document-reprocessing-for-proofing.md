@@ -26,7 +26,7 @@ All font text is extracted in its layer as long as you include the correct file 
 * Because PDF files are the most standardized and reliable, we recommend converting documents to this format&nbsp;before uploading them.
 * Use the latest possible version of your software to create your original documents.
 * If you are not sure which settings to use when saving or exporting your documents in the application where you created them, use the default settings.&nbsp;
-* Make sure to embed all the fonts you use in a document inside it. If you use custom fonts, your document will display those fonts only on machines where they are installed.
+* Make sure to embed all the fonts you use in a document inside it. If you use custom fonts, your document will display those fonts only on machines where they are installed. However, because custom fonts are not included in the proof system, it is not able to use custom fonts when generating the file, even when embedded.
 * If possible, place all text elements in the top layers of your design. This should ensure that your text is extracted and selectable in the Text annotation tool.
 * Place all of your document's images and elements inside it. If you link them from the outside sources, such as another file on your computer, they won't display in the proof you create.
 * Create your document&nbsp;using the standards recommended for its type and optimize it before uploading it. This will ensure that the document will open successfully in the proofing viewer, as well as in all other applications and platforms.
