@@ -22,7 +22,7 @@ Maybe more (conflicts, installation separate from creation, etc.)
 
 Copy included objects from API article
 
-Add a list of possible statuses: build etc.
+Add a list of possible statuses: build etc. Table in other article under [Update specific properties of a package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md#update-specific-properties-of-a-package)
 
 Sections or possibly articles: 
 
@@ -31,7 +31,7 @@ Sections or possibly articles:
 1. Go to the environment that you want to create the package in. This is the environment that you are copying objects **from**.
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
 1. Select **System** in the left navigation, then select **Environment Promotion**.
-1. Click **Create Package**. <!--Can you edit existing packages?-->
+1. Click **Create Package**.
 
    The New Promotion Package page opens.
 
@@ -51,7 +51,7 @@ Sections or possibly articles:
 
    Click **Save and Extract** to save and assemble the package.
 
-## Edit or build an existing package
+## Edit or assemble an existing package
 
 1. Go to the environment that you want to create the package in. This is the environment that you are copying objects **from**.
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
