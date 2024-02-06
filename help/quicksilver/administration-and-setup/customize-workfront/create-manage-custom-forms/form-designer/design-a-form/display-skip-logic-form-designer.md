@@ -112,6 +112,10 @@ Display logic defines which custom fields appear on the form when the user selec
 
    The display logic icons are added to the target field and the defining field in the form designer.
 
+>[!NOTE]
+>
+>Display logic is currently not available when you preview your form in the form designer.
+
 ## Add skip logic to a custom form
 
 Skip logic defines custom form fields that are skipped when the user selects a specific value in a multiple choice field. Skipped fields are hidden on the form. The logic is applied to the defining field where the selection is made, not to the fields that are skipped.
@@ -142,3 +146,6 @@ Skip logic defines custom form fields that are skipped when the user selects a s
 
    The skip logic icons are added to the target field and the defining field in the form designer.
 
+>[!NOTE]
+>
+>Skip logic is currently not available when you preview your form in the form designer.
