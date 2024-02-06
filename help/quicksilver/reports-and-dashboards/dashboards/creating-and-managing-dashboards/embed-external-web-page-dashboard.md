@@ -125,6 +125,11 @@ For information on creating dashboards, see [Create a dashboard](../../../report
      For more information about system security preferences, see [Configure system security preferences](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).  
      ![external_page_with_session_id_example.png](assets/external-page-with-session-id-example-350x134.png)
 
+      >[!WARNING]
+      >
+      >Using the SessionID is insecure and not recommended.
+      >
+
    * **Height**: Type a number greater than 0 to define the space that the external page occupies on the dashboard. The default height is 500. 
 
 1. Click **Save**.  
