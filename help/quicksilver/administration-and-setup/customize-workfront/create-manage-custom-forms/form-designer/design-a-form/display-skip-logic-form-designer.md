@@ -46,17 +46,20 @@ You must have the following to perform the steps in this article:
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Display/Skip logic icons
+## Display and skip logic icons
 
-You can view existing display/skip logic on all custom forms. Icons on a field in the form designer indicate that logic is applied to the field.
+Custom forms display icons to indicate which logic is applied to certain fields. Icons on a field in the form designer indicate that logic is applied to the field.
 
-   The ![Display logic for target field](assets/display-logic-bottom-left.png) icon on the bottom left means that the field is the target field for display logic (if a specific selection is made on the form, then this field is displayed). The ![Define display logic icon](assets/display-logic-bottom-right.png) icon on the bottom right means that the field is used to define display logic (a specific selection or value on this field displays the target field).
-
-   The ![Skip logic for target field](assets/skip-logic-bottom-left.png) icon on the bottom left means that the field is the target field for skip logic (if a specific selection is made on the form, then the form skips ahead to this field and fields in between are hidden). The ![Define skip logic icon](assets/skip-logic-bottom-right.png) icon on the bottom right means that the field is used to define skip logic (a specific selection or value on this field skips other fields and goes directly to the target field).
+   | Icon | Location on field in form designer | Definition |
+   |--- |--- |--- |
+   | ![Display logic for target field](assets/display-logic-bottom-left.png) | Bottom left | The field is the target field for display logic. If a specific selection is made on the form, then this field is displayed. |
+   | ![Define display logic icon](assets/display-logic-bottom-right.png) | Bottom right | The field defines display logic. A specific selection or value on this field displays the target field. |
+   | ![Skip logic for target field](assets/skip-logic-bottom-left.png) | Bottom left | The field is the target field for skip logic. If a specific selection is made on the form, then the form skips ahead to this field and fields in between are hidden. |
+   | ![Define skip logic icon](assets/skip-logic-bottom-right.png) | Bottom right | The field defines skip logic. A specific selection or value on this field skips other fields and goes directly to the target field. |
 
    ![Logic icons](assets/logic-icons-3.png)
 
-Selecting a field with logic applied displays the existing logic rules in the field settings.
+Select a field with logic applied to display the existing logic rules in the field settings.
 
    ![Logic rules](assets/form-designer-view-only-logic.png)
 
@@ -81,7 +84,7 @@ For information about custom fields and widgets in custom forms, see [Design a f
 
 ## Add display logic to a custom form
 
-Display logic defines custom fields that appear on the form only when the user selects a specific value in a multiple choice field. The logic is added to the target field, which is only displayed when the value is selected.
+Display logic defines which custom fields appear on the form when the user selects a specific value in a multiple choice field. The logic is added to the target field, which is only displayed when the value is selected.
 
 {{step-1-to-setup}}
 
@@ -91,7 +94,10 @@ Display logic defines custom fields that appear on the form only when the user s
 1. Select the target field and click **Add Logic** on the lower left of the screen.
 1. Select the **Display Logic** tab.
 1. Click **Add Display Rule** on the logic builder.
-1. Follow the prompts on the builder to create the logic statement.
+
+   ![Display logic builder](assets/custom-form-logic-builder-display-blank.png)
+
+1. Follow the steps below in the builder to create the logic statement.
 
    1. The first option is to choose the defining field. This is the field with the selection value that displays the target. It must be a multiple choice field.
    1. The second option is to choose the selection value. Only the values already defined for that field are available.
@@ -104,11 +110,11 @@ Display logic defines custom fields that appear on the form only when the user s
 
 1. Click **Save** when you are finished building the logic statement.
 
-   The display logic icons are added to the target field and the defining field.
+   The display logic icons are added to the target field and the defining field in the form designer.
 
 ## Add skip logic to a custom form
 
-Skip logic functions similarly to display logic, but acts as the inverse: instead of making specific custom fields appear based on specific selections, you determine which fields should be skipped, based on users' selections. Skipped fields are hidden on the form. The logic is applied to the defining field where the selection is made, not to the fields that are skipped.
+Skip logic defines custom form fields that are skipped when the user selects a specific value in a multiple choice field. Skipped fields are hidden on the form. The logic is applied to the defining field where the selection is made, not to the fields that are skipped.
 
 {{step-1-to-setup}}
 
@@ -117,8 +123,11 @@ Skip logic functions similarly to display logic, but acts as the inverse: instea
 1. Add fields to the form as needed. The defining field for skip logic must be a multiple choice field (radio button, dropdown, or check box).
 1. Select the defining field and click **Add Logic** on the lower left of the screen.
 1. Select the **Skip Logic** tab.
-1. Click **Add Rule** on the logic builder.
-1. Follow the prompts on the builder to create the logic statement.
+1. Click **Add Skip Rule** on the logic builder.
+
+   ![Skip logic builder](assets/custom-form-logic-builder-skip-blank.png)
+
+1. Follow the steps below in the builder to create the logic statement.
 
    1. The defining field is shown on the builder. It is the field you selected to apply the skip logic to.
    1. The first option is to choose the selection value. Only the values already defined for the field are available.
@@ -131,5 +140,5 @@ Skip logic functions similarly to display logic, but acts as the inverse: instea
 
 1. Click **Save** when you are finished building the logic statement.
 
-   The skip logic icons are added to the target field and the defining field.
+   The skip logic icons are added to the target field and the defining field in the form designer.
 
