@@ -62,9 +62,9 @@ Production: February 1, 2024
 
 Preview: To be determined
 
-To avoid confusion and simplify your workflow, we have removed the record type cards created as a result of connecting Maestro records with objects from third-party applications from a workspace. <!---Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
+To avoid confusion and simplify the management of workspaces, we have removed the auto-generated, ready-only record type cards for connected non-Maestro objects from a workspace.
+<!-- Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
 
- 
 For more information, see [Connect records](/help/quicksilver/maestro/records/connect-records.md).   
 
 ## Week of January 22, 2024
