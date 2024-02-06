@@ -152,6 +152,10 @@ To add a **Bar** chart to your report:
 
 1. Click **Save + Close** to save the chart and the report.
 
+>[!IMPORTANT]
+>
+>Limit bar charts to 23 or fewer bars, as bar charts that include more than 23 bars will not properly display all bar labels.
+
 ### Pie chart {#pie-chart}
 
 To add a **Pie** chart to your report:
