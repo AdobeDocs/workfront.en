@@ -111,14 +111,7 @@ Share a filter using the standard builder interface:
 
    The Filter sharing box displays.
 
-1. Enable the **View system-wide** setting. This gives anyone in Workfront permission to view the filter.
-   
-   >[!IMPORTANT]
-   >
-   >Use this setting with caution. Adding many filters for all users will clutter the filter experience and make filters harder to find.
-   
-   Or
-   Start typing the names of users, teams, roles, groups, or companies that you want to share with in the **Give access to** field.
+1. Start typing the names of users, teams, roles, groups, or companies that you want to share with in the **Give access to** field.
 
    ![Filter sharing box](assets/new-filters-share-filter.png)
 
