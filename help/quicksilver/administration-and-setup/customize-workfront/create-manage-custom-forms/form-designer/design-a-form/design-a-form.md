@@ -192,8 +192,8 @@ To add a text field:
     <td>Format</td>
     <td><p>Select the type of data that will be captured in the custom field.</p> <p><b>NOTE</b>:   
     <ul> 
-    <li>This field cannot be edited after the form is saved. If you intend to use your field in mathematical calculations, ensure that you select a Number or Currency format.<br></li> 
-    <li>When you select Number or Currency, the system automatically truncates numbers that start with 0.</li> 
+    <li>This field cannot be edited after the form is saved. If you intend to use your field in mathematical calculations, ensure that you select a Number or Currency format.</li> 
+    <li>When you select Number or Currency, the system automatically truncates numbers that start with 0.</li>
      </ul></p></td> </td>
     <td><ul>
     <li>Single line text</li>
@@ -310,7 +310,7 @@ To add radio buttons and checkboxes:
     <td> <p>Select the type of data that will be captured in the custom field.</p> <p><b>NOTE</b>:   
      <ul> 
     <li>This field cannot be edited after the form is saved. If you intend to use your field in mathematical calculations, ensure that you select a Number or Currency format.<br></li> 
-    <li>When you select Number or Currency, the system automatically truncates numbers that start with 0.</li> 
+    <li>When you select Number or Currency, the system automatically truncates numbers that start with 0.</li>
      </ul></p></td> 
      <td><ul>
     <li>Radio buttons</li>
