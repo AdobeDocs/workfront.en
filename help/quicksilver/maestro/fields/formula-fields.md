@@ -23,15 +23,7 @@ recommendations: noDisplay, noCatalog
 
 <!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
 
->[!IMPORTANT]
->
->The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
->
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use Maestro capabilities. 
->
->Contact your account representative for more information about joining the beta program for Maestro.
->
->For information, see [Adobe Maestro overview](../maestro-overview.md). 
+{{maestro-important-intro}}
 
 You can create custom fields in Adobe Maestro by referring to existing fields and connecting them by a formula. You can do this by creating a custom Formula-type field. 
 

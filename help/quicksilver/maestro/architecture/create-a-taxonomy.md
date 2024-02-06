@@ -10,17 +10,9 @@ exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
 
 # Create taxonomy record types
 
->[!IMPORTANT]
->
->The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
->
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use Maestro capabilities.
->
->Contact your account representative for more information about joining the beta program for Maestro.
->
->For information, see [Adobe Maestro overview](../maestro-overview.md).
+{{maestro-important-intro}}
 
-Taxonomies are record types that capture attributes about operational record types in Adobe Maestro. 
+Taxonomy record types capture attributes about operational record types in Adobe Maestro. 
 
 For example, Campaign can be an operational record type. The following are taxonomies which capture attributes about the Campaign record type: Region, Audience, Country. 
 
@@ -93,19 +85,14 @@ You must have the following access to perform the steps in this article:
 
 ## Considerations about creating taxonomies
 
-* You must create a workspace before you can create taxonomies in the workspace. 
+* You must create a workspace before you can create taxonomy record types in the workspace. 
 
   For information about workspaces, see [Create workspaces](../architecture/create-workspaces.md).  
 * You can create a taxonomy record type by doing one of the following:
    * Create them automatically when you create a workspace using a template. For information, see [Create workspaces](../architecture/create-workspaces.md).
-   * Create them manually, from scratch.  
-   * Create them manually, by pasting information from an external list. 
+   * Create them manually, from scratch.   
 
-  <!--this is not possible yet:
-  * You can taxonomies to a workspace by doing one of the following:
-    * Create a connection to object types from other systems, when adding fields to a taxnomy record type. This creates a read-only record type in Maestro.  - update this sentence when you can connect taxonomies as well as operational records to a third-party system.-->
-
-* All newly created taxonomies come with the following fields: 
+* All newly created taxonomy  record types come with the following fields: 
 
     * Name <!--if there won't be any more fields, consider rephrasing this-->
 
@@ -113,11 +100,11 @@ You must have the following access to perform the steps in this article:
 
   >[!NOTE]
   >
-  >    Taxonomies created when using a workspace template have additional fields. 
+  >    Taxonomy record types created when using a workspace template have additional fields. 
 
-## Create a taxonomy
+## Create a taxonomy record type
 
-Creating taxonomies is similar to creating an operational record type from scratch or from a workspace template. 
+Creating taxonomy record types is similar to creating operational record types from scratch or from a workspace template. 
 
 For information, see the section "Create a record type from scratch" in the article [Create record types](../architecture/create-record-types.md). 
 

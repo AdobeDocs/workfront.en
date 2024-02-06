@@ -8,15 +8,7 @@ exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
 ---
 # Adobe Maestro release activity 
 
->[!IMPORTANT]
->
->The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
->
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use Maestro capabilities. 
->
->Contact your account representative for more information about joining the beta program for Maestro.
->
->For information, see [Adobe Maestro overview](../maestro/maestro-overview.md).
+{{maestro-important-intro}}
 
 This article lists the features that have been released after the launch of the Maestro closed beta program, on May 22, 2023. 
 
@@ -34,17 +26,46 @@ The features are released weekly and are listed in the order of their release, w
 >
 >The documentation referenced in the sections below will be available some time after the features are released to Production. 
 
-<!--
+
 ## Week of January 29, 2024
+
+### Improved sharing of views and workspaces 
+
+Production: January 30, 2024
+
+Preview: To be determined 
+
+We have improved the sharing experience for workspaces and views with the following enhancements: 
+
+* To add clarity around what each permission level allows a user to do, we have added details for every level of permissions when sharing a workspace and a view.
+
+* You can now copy a link to a workspace or view and share it with others. Users must have at least View permissions to the workspace or to the view to be able to access them from the copied link. 
+
+For more information, see the following articles: 
+
+* [Share workspaces](/help/quicksilver/maestro/access/share-workspaces.md) 
+* [Share views](/help/quicksilver/maestro/access/share-views.md)
 
 ### Add thumbnails to records 
 
-Production: < date > 
+Production: February 1, 2024
 
 Preview: To be determined  
 
-You can now add individual thumbnails to each record to distinguish them in  a view. You can add image files that you have previously saved on your computer as thumbnails. For more information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).  
--->
+You can now add individual thumbnails to each record to distinguish them in a view. In the table view, you can add image files that you have previously saved on your computer as thumbnails. The thumbnails can be unique to each record and display in both the table and the timeline views of the record type page. 
+
+For more information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).  
+
+### Remove connected record type cards
+
+Production: February 1, 2024
+
+Preview: To be determined
+
+To avoid confusion and simplify the management of workspaces, we have removed the auto-generated, ready-only record type cards for connected non-Maestro objects from a workspace.
+<!-- Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
+
+For more information, see [Connect records](/help/quicksilver/maestro/records/connect-records.md).   
 
 ## Week of January 22, 2024
 
