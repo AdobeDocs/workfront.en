@@ -2027,6 +2027,7 @@ feature-set: Workfront
     * [Access information](maestro/access/access-information.md)
     * [Access overview](maestro/access/access-overview.md)
     * [Overview of sharing permissions in Adobe Maestro](maestro/access/sharing-permissions-overview.md)
+    * [License type overview in Adobe Maestro](maestro/access/license-type-overview.md)
     * [Share workspaces](maestro/access/share-workspaces.md)
     * [Share views](maestro/access/share-views.md)
   * Adobe Maestro records {#adobe-maestro-records}
