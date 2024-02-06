@@ -15,15 +15,6 @@ exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
 ---
 # Move objects from one [!DNL Workfront] environment to another
 
-<!-- 
-TO DO
-
-Overview of value
-Check for any code changes
-Fix {}
-Add to tocs
--->
-
 ## Access requirements
 
 You must have the following:
