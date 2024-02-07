@@ -29,3 +29,17 @@ Each card displays the object and its <!--fields? properties? sub-objects>-->. Y
 * Overwrite existing
 * Do not use
 
+You can revert to the default mapping by clicking **Reset to default mapping**.
+
+If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
+If you select Create new, you will need to change the value <!--of what?-->
+
+## Collisions
+
+A collision occurs when <!--???-->.
+
+In Workfront, a potential collision is barked with a blue dot. You can select 
+
+You can select whether to show all package contents, or collisions only.
+
+
