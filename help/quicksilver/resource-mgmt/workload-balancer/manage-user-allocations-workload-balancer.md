@@ -11,6 +11,14 @@ exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
 
 <!-- Audited: 01/2024 -->
 
+<!--
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+-->
+
 As a Resource Manager, you can assign work to users and manage their daily, weekly, or monthly allocations from the Workload Balancer to ensure they are allocated an amount of hours that fits in their available schedules.
 
 ## Access requirements {#access-requirements}
@@ -247,7 +255,7 @@ As part of assigning work to users, you can modify user allocations in the Workl
 
 >[!TIP]
 >
->A pencil icon displays to the right of the work item name to indicate that it was manually adjusted.
+><span class="preview">A pencil icon displays to the right of the work item name to indicate that it was manually adjusted.</span>
 
 ![Manually adjusted hours icon](assets/icon-for-manually-adjusted-hours.png)
 
