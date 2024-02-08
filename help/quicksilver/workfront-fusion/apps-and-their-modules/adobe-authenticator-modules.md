@@ -15,7 +15,7 @@ The Adobe Authenticator module allows you to connect to any Adobe API, using a s
 
 The advantage over the HTTP modules is that you can create a connection, as in a dedicated app.
 
-To see a list of available Adobe APIs, see X. You may be able to use only the APIs to which you are assigned.
+To see a list of available Adobe APIs, see [Adobe APIs](https://developer.adobe.com/apis). You may be able to use only the APIs to which you are assigned.
 
 ## Access requirements
 
