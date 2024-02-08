@@ -120,7 +120,7 @@ This page provides information about functionality that is included in the Secon
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the Second Quarter 2024 timeframe</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Second Quarter 2024 timeframe. Review the individual release notes for specific release dates.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the Second Quarter 2024 timeframe</a></p><p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Second Quarter 2024 timeframe. Review the individual release notes for specific release dates.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
