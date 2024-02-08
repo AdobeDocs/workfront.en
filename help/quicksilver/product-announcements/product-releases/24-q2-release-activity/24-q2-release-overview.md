@@ -27,10 +27,9 @@ This page provides information about functionality that is included in the Secon
 
 ## Adobe Workfront enhancements
 
-<!-- * [Administrator enhancements](#administrator-enhancements)-->
+* [Administrator enhancements](#administrator-enhancements)
 * [Project enhancements](#project-enhancements)
 
-<!--
 ### Administrator enhancements
 
 <table>
@@ -50,30 +49,21 @@ This page provides information about functionality that is included in the Secon
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Skip logic and display logic are now available in the form designer beta</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>You can now edit existing display and skip logic and add new logic to custom forms in the form designer beta. An easy-to-use logic builder helps you define which fields to display or skip based on selections in the form.
-
-Icons on a field in the form designer canvas indicate that logic is configured on that field, or that the field is used in logic rules configured on other fields.
-
-For more information, see [Add display logic and skip logic with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).</p>
+                        <p>You can now edit existing display and skip logic and add new logic to custom forms in the form designer beta. An easy-to-use logic builder helps you define which fields to display or skip based on selections in the form.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: January 25, 2024<br /></p>
+                                <p>Preview release: February 8, 2024<br /></p>
                             </li>
                             <li>
-                                <p>Fast release to Production: With the 24.2 release (February 15, 2024)</p>
-                            </li>
-                            <li>
-                                <p>Quarterly release to Production: With the 24.4 release April 2024</p>
+                                <p><span class="preview">Production for all customers: With the 24.2 release (February 15, 2024)</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
             </tbody>
         </table>
-
-    -->
 
 ### Project enhancements
 
@@ -104,13 +94,49 @@ For more information, see [Add display logic and skip logic with the form design
                                 <p>Production for fast release: With the 24.2 release (February 15, 2024)</p>
                             </li>
                             <li>
-                                <p>Production for all customers: With the 24.4 release (April 2024)</p>
+                                <p>Production for quarterly release: With the 24.4 release (April 2024)</p>
                             </li>
                         </ul>
                     </td>
                     </tr>
            </tbody>
         </table>
+
+### Other enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the Second Quarter 2024 timeframe</a></p><p>[!BADGE In production ]{type=Informative}</p><p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Second Quarter 2024 timeframe. Review the individual release notes for specific release dates.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: Throughout the Second Quarter 2024 release timeframe</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release: Review the release notes for specific dates</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+           </tbody>
+        </table>   
+           </tbody>
+        </table>   
 
 ## Announcements
 
