@@ -101,7 +101,63 @@ The following limitations exist when exporting data via kick-starts (data is exp
 
 1. Click **System** > **Kick-Starts,** then click **Export Data.**
 
-1. Select the object you want to export.
+1. Select the object you want to export. By default, the following objects are displayed under **What to include**:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <col> 
+    <thead> 
+     <tr> 
+      <th> <p><strong>Object</strong> </p> </th> 
+      <th> <p><strong>Exported Sheets of the Excel File</strong> </p> </th> 
+      <th> <p> <strong>Export Format</strong></p> </th> 
+     </tr> 
+    </thead> 
+    <tbody> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Dashboard</p> <p>&nbsp;</p> <p>&nbsp;</p> </td> 
+      <td scope="col" valign="top"> <p>Parameter<br>Parameter Option<br>Parameter Group<br>Category Parameter<br>Category<br>Report<br>Portal Tab Section<br>Dashboard<br>Preferences</p> </td> 
+      <td scope="col" valign="top">&nbsp;ZIP</td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Report</p> <p>&nbsp;</p> <p>&nbsp;</p> </td> 
+      <td scope="col" valign="top">Parameter<br>Parameter Option<br>Parameter Group<br>Category Parameter<br>Category<br>Report<br>Preferences</td> 
+      <td scope="col" valign="top">&nbsp;ZIP </td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Approval</p> </td> 
+      <td scope="col" valign="top"> <p>Step Approver<br>Approval Step<br>Approval<br>Approval Process<br>Preferences</p> </td> 
+      <td scope="col" valign="top"> <p>&nbsp;Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Custom Data</p> </td> 
+      <td scope="col" valign="top"> <p>Parameter<br>Parameter Option<br>Parameter Group<br>Category Parameter<br>Category<br>Preferences</p> </td> 
+      <td scope="col" valign="top"> <p>&nbsp;Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Expense Type</p> </td> 
+      <td valign="top"> <p>Expense Type<br>Preferences</p> </td> 
+      <td scope="col" valign="top"> <p>Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td valign="top"> <p>Hour Type</p> </td> 
+      <td valign="top"> <p>Hour Type<br>Preferences</p> </td> 
+      <td scope="col" valign="top"> <p>Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td valign="top"> <p>Team</p> </td> 
+      <td valign="top"> Team Member<br>Team<br>Preferences </td> 
+      <td scope="col" valign="top"> <p>&nbsp;Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td valign="top"> <p>User</p> </td> 
+      <td valign="top"> <p>User<br>Preferences</p> </td> 
+      <td valign="top"> <p>&nbsp;Excel</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
 1. Click **More Options** to see the full list of objects.
 
    All of the objects listed here can be used to also import data into Workfront.
@@ -274,117 +330,7 @@ The following limitations exist when exporting data via kick-starts (data is exp
 
    You can export multiple objects at one time.
 
-   By default, the following objects are displayed under the **What to include** label (prior to clicking **More Options**):
-
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <col> 
-    <thead> 
-     <tr> 
-      <th> <p><strong>Object</strong> </p> </th> 
-      <th> <p><strong>Exported Sheets of the Excel File</strong> </p> </th> 
-      <th> <p> <strong>Export Format</strong></p> </th> 
-     </tr> 
-    </thead> 
-    <tbody> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Dashboard</p> <p>&nbsp;</p> <p>&nbsp;</p> </td> 
-      <td scope="col" valign="top"> <p>Parameter<br>Parameter Option<br>Parameter Group<br>Category Parameter<br>Category<br>Report<br>Portal Tab Section<br>Dashboard<br>Preferences</p> </td> 
-      <td scope="col" valign="top">&nbsp;ZIP</td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Report</p> <p>&nbsp;</p> <p>&nbsp;</p> </td> 
-      <td scope="col" valign="top">Parameter<br>Parameter Option<br>Parameter Group<br>Category Parameter<br>Category<br>Report<br>Preferences</td> 
-      <td scope="col" valign="top">&nbsp;ZIP </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Approval</p> </td> 
-      <td scope="col" valign="top"> <p>Step Approver<br>Approval Step<br>Approval<br>Approval Process<br>Preferences</p> </td> 
-      <td scope="col" valign="top"> <p>&nbsp;Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Custom Data</p> </td> 
-      <td scope="col" valign="top"> <p>Parameter<br>Parameter Option<br>Parameter Group<br>Category Parameter<br>Category<br>Preferences</p> </td> 
-      <td scope="col" valign="top"> <p>&nbsp;Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Expense Type</p> </td> 
-      <td valign="top"> <p>Expense Type<br>Preferences</p> </td> 
-      <td scope="col" valign="top"> <p>Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>Hour Type</p> </td> 
-      <td valign="top"> <p>Hour Type<br>Preferences</p> </td> 
-      <td scope="col" valign="top"> <p>Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>Team</p> </td> 
-      <td valign="top"> Team Member<br>Team<br>Preferences </td> 
-      <td scope="col" valign="top"> <p>&nbsp;Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>User</p> </td> 
-      <td valign="top"> <p>User<br>Preferences</p> </td> 
-      <td valign="top"> <p>&nbsp;Excel</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
-
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <col> 
-    <thead> 
-     <tr> 
-      <th> <p><strong></strong> </p> </th> 
-      <th> <p><strong>Exported Sheets of the Excel File</strong> </p> </th> 
-      <th> <p>&nbsp;<strong>Export Format</strong></p> </th> 
-     </tr> 
-    </thead> 
-    <tbody> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Dashboard</p> <p>&nbsp;</p> <p>&nbsp;</p> </td> 
-      <td scope="col" valign="top"> <p>Parameter<br>Parameter Option<br>Parameter Group<br>Category Parameter<br>Category<br>Report<br>Portal Tab Section<br>Dashboard<br>Preferences</p> </td> 
-      <td scope="col" valign="top">&nbsp;ZIP</td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Report</p> <p>&nbsp;</p> <p>&nbsp;</p> </td> 
-      <td scope="col" valign="top">Parameter<br>Parameter Option<br>Parameter Group<br>Category Parameter<br>Category<br>Report<br>Preferences</td> 
-      <td scope="col" valign="top">&nbsp;ZIP </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Approval</p> </td> 
-      <td scope="col" valign="top"> <p>Step Approver<br>Approval Step<br>Approval<br>Approval Process<br>Preferences</p> </td> 
-      <td scope="col" valign="top"> <p>&nbsp;Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Custom Data</p> </td> 
-      <td scope="col" valign="top"> <p>Parameter<br>Parameter Option<br>Parameter Group<br>Category Parameter<br>Category<br>Preferences</p> </td> 
-      <td scope="col" valign="top"> <p>&nbsp;Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Expense Type</p> </td> 
-      <td valign="top"> <p>Expense Type<br>Preferences</p> </td> 
-      <td scope="col" valign="top"> <p>Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>Hour Type</p> </td> 
-      <td valign="top"> <p>Hour Type<br>Preferences</p> </td> 
-      <td scope="col" valign="top"> <p>Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>Team</p> </td> 
-      <td valign="top"> Team Member<br>Team<br>Preferences </td> 
-      <td scope="col" valign="top"> <p>&nbsp;Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>User</p> </td> 
-      <td valign="top"> <p>User<br>Preferences</p> </td> 
-      <td valign="top"> <p>Excel</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
+   
 
 1. (Recommended) Analyze the exported data to ensure that all the information you expect to see was exported. 
 
