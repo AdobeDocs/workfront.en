@@ -69,7 +69,7 @@ The following table illustrates some of the similarities and differences between
 | They represent attributes about work-related objects        |                         |           ✓          |
 | You can create from scratch                                 |            ✓            |           ✓          |
 | You can create by importing an Excel or CSV file            |            ✓            |                      |
-| You can connect the record type to an object from a third-party application |            ✓            |                      |
+| You can connect the record type to an object from another application|            ✓            |                      |
 | You can connect to other Maestro record types               |            ✓            |                    |
 | You can view their associated records in a table view       |            ✓            |           ✓          |
 | You can view their associated records in a timeline view    |            ✓            |           ✓          |

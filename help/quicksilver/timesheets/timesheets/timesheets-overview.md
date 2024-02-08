@@ -66,6 +66,6 @@ To access a timesheet:
 
 1. Click the **Date Range** of a timesheet to open it. 
   
-    Each timesheet displays all tasks, issues, and projects that you have logged time for. A timesheet also displays  up to 45 tasks, issues, or projects that are assigned to you with dates within the timesheet's time frame, but for which you might not have logged time yet.
+    Each timesheet displays all tasks, issues, and projects that you have logged time for. A timesheet also displays  up to 45 tasks and issues that are assigned to you with dates within the timesheet's time frame, but for which you might not have logged time yet. The 45 most recently updated items are selected to display in the timesheet. 
     
     For more information, see [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md). 
