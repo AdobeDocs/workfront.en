@@ -59,22 +59,29 @@ We have updated the look-and-feel of the Rich Text toolbar when you edit a Parag
 
 For information, see  [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
 
-<!--
 ### Improved experience when editing Single-select, Multi-select, People fields, and when adding connected objects
 
 Production: February 8, 2024 
 
 Preview: To be determined 
 
-We have redesigned and improved the experience of adding options for Single-select, Multi-select, or People fields, and when adding connected objects to a record. With the new improvement, a smaller, more responsive box displays.  
+We have redesigned and improved the experience of adding options or objects for the following field types:
+
+* Single-select
+* Multi-select
+* People
+* Connected record fields (when connecting Maestro record types or Workfront objects)
+
+With the new improvement, a smaller, more responsive box displays first.  
  
-For connected fields, you have the option of adding your objects by searching for them in the smaller box, or accessing the larger Connected objects box to view more information in addition to the objects' names.  
+For connected fields, you can add them doing one of the following:
+
+* Add objects to the connected field by searching and selecting them from a list in the table view, while inline editing the field
+* Click to open the larger Connect objects box, where you can view all item names in addition to more information about the items. 
 
 The improvements are now available when updating fields in the table view of a record type.  
 
 For more information, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). 
-
--->
 
 ## Week of January 29, 2024
 
