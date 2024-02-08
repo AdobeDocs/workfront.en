@@ -227,6 +227,10 @@ You can create a new Google document from within Workfront. You cannot create ne
 
 You can upload and link a document from Workfront to an external cloud provider. This moves storage of the document from Workfront to the external cloud provider. When the document is changed in the external application, it updates automatically in Workfront.
 
+>[!NOTE]
+>
+>Sending an asset to an external document provider creates a new version of the asset.
+
 Users without Workfront access can see the document in the external application if they have access to the application.
 
 1. Select a document that is uploaded in Workfront.

@@ -9,15 +9,7 @@ recommendations: noDisplay, noCatalog
 
 # Add thumbnails to records
 
->[!IMPORTANT]
->
->The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
->
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use Maestro capabilities.
->
->Contact your account representative for more information about joining the beta program for Maestro.
->
->For information, see [Adobe Maestro overview](../maestro-overview.md).
+{{maestro-important-intro}}
 
 You can associate records with unique thumbnails in Adobe Maestro, to make them easily recognizable. 
 
@@ -68,21 +60,19 @@ You must have the following access to perform the steps in this article:
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace </p>  
-   <p>View or higher permissions to the table view </p> 
+   <td> <p>Contribute or higher permissions to a workspace </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
+   <td>  <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Maestro area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/maestro/access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 
  </tbody>
 </table>
 
- 
 ## Considerations about record thumbnails
 
 To visually distinguish between records in a table view,  you can associate a unique thumbnail image with each record. 
@@ -90,14 +80,14 @@ To visually distinguish between records in a table view,  you can associate a un
 Consider the following: 
 
 * You can add only image files as thumbnails.
+   <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * You can add a thumbnail image to individual records in the table view. 
+* Thumbnails belong to the record information and they display in views where records display. For example, thumbnails display alongside record information in the following areas:
+
+   * The primary field of a record in the table view
+   * The record bar in the timeline view. 
 * You cannot add record thumbnails from the record's Details page or in the timeline view. 
-* The thumbnail image always displays to the left of the primary field of each record, regardless of what the field type is. 
-
-   Fields that are single-line text, numbers, or formulas can be designated as primary fields. 
-   For more information, see [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md). 
-
-<!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
+* Thumbnails do not display in the record's Details page. 
 
 ## Add a thumbnail to a record
 
@@ -127,10 +117,11 @@ Consider the following:
 1. (Optional) Use the sizing tool to crop and resize the image.
 1. Click **Use image** to add the image as a thumbnail. 
    This closes the **Record thumbnail** box.
-1. Click Fields in the upper-right corner of the table view. 
+1. (Conditional) If you have at least Contribute permissions to the table view, click **Fields** in the upper-right corner of the table view. 
 1. Select the **Thumbnail** toggle to display the thumbnail. This is deselected by default. 
 
    ![](assets/thumbnail-toggle-in-fields-menu-deselected.png)
 
    The thumbnail displays to the left of the primary field value. 
+1. (Optional and conditional) If you do not have Contribute or higher permissions to the view, select a new view from the **View** drop-down menu, or create a view. 
 1. (Optional) To remove the thumbnail, hover over the primary field and click the **More** menu ![](assets/more-menu.png)> **Thumbnail** > the **Remove** icon ![](assets/remove-image-icon.png), then click **Save changes**. 

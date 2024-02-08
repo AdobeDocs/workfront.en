@@ -8,15 +8,7 @@ exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
 ---
 # Adobe Maestro release activity 
 
->[!IMPORTANT]
->
->The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
->
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use Maestro capabilities. 
->
->Contact your account representative for more information about joining the beta program for Maestro.
->
->For information, see [Adobe Maestro overview](../maestro/maestro-overview.md).
+{{maestro-important-intro}}
 
 This article lists the features that have been released after the launch of the Maestro closed beta program, on May 22, 2023. 
 
@@ -34,17 +26,102 @@ The features are released weekly and are listed in the order of their release, w
 >
 >The documentation referenced in the sections below will be available some time after the features are released to Production. 
 
-<!--
+## Week of February 5, 2024
+
+### Modify permissions based on license types
+
+Production: February 6, 2024 
+
+Preview: To be determined 
+
+We have modified permissions levels to take into account users' license types. Prior to this enhancement, there were no differences in workspace permissions based on the license types of the users.  
+
+The following permissions now work in conjunction with the user's license type:  
+
+* Users with a Plan license (or Standard license, in the new license model) can create and manage workspaces, record types, and records. 
+
+* Users with a Work license (or Light, in the new license model) can view and contribute to a workspace shared with them, as well as the record types and records of that workspace.  The Work- (or Light-) license users can also create, edit, and delete records in workspaces where they have Contribute access. 
+
+* Users with a Review or Requestor license (or Contributor, in the new license model) can only view the workspaces shared with them, as well as the record types and records of those workspaces. They cannot create, edit, or delete record types or records.  
+
+For information about the new license model, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
+For information about the connection between license type and permissions in Maestro, see [License type overview in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).  
+
+
+### New look-and-feel of the Rich-Text toolbar for record fields
+
+Production: February 7, 2024 
+
+Preview: To be determined 
+
+We have updated the look-and-feel of the Rich Text toolbar when you edit a Paragraph-type field.
+
+For information, see  [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
+
+### Improved experience when editing Single-select, Multi-select, People fields, and when adding connected objects
+
+Production: February 8, 2024 
+
+Preview: To be determined 
+
+We have redesigned and improved the experience of adding options or objects for the following field types:
+
+* Single-select
+* Multi-select
+* People
+* Connected record fields (when connecting Maestro record types or Workfront objects)
+
+With the new improvement, a smaller, more responsive box displays first.  
+ 
+For connected fields, you can add them doing one of the following:
+
+* Add objects to the connected field by searching and selecting them from a list in the table view, while inline editing the field
+* Click to open the larger Connect objects box, where you can view all item names in addition to more information about the items. 
+
+The improvements are now available when updating fields in the table view of a record type.  
+
+For more information, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). 
+
 ## Week of January 29, 2024
+
+### Improved sharing of views and workspaces 
+
+Production: January 30, 2024
+
+Preview: To be determined 
+
+We have improved the sharing experience for workspaces and views with the following enhancements: 
+
+* To add clarity around what each permission level allows a user to do, we have added details for every level of permissions when sharing a workspace and a view.
+
+* You can now copy a link to a workspace or view and share it with others. Users must have at least View permissions to the workspace or to the view to be able to access them from the copied link. 
+
+For more information, see the following articles: 
+
+* [Share workspaces](/help/quicksilver/maestro/access/share-workspaces.md) 
+* [Share views](/help/quicksilver/maestro/access/share-views.md)
 
 ### Add thumbnails to records 
 
-Production: < date > 
+Production: February 1, 2024
 
 Preview: To be determined  
 
-You can now add individual thumbnails to each record to distinguish them in  a view. You can add image files that you have previously saved on your computer as thumbnails. For more information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).  
--->
+You can now add individual thumbnails to each record to distinguish them in a view. In the table view, you can add image files that you have previously saved on your computer as thumbnails. The thumbnails can be unique to each record and display in both the table and the timeline views of the record type page. 
+
+For more information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).  
+
+### Remove connected record type cards
+
+Production: February 1, 2024
+
+Preview: To be determined
+
+To avoid confusion and simplify the management of workspaces, we have removed the auto-generated, ready-only record type cards for connected non-Maestro objects from a workspace.
+<!-- Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
+
+For more information, see [Connect records](/help/quicksilver/maestro/records/connect-records.md).   
 
 ## Week of January 22, 2024
 

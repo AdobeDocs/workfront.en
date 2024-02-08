@@ -3,8 +3,8 @@ title: Design a form with the form designer
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: You can design a custom form with the form designer.
-author: Courtney
+description: You can design a custom form with the form designer. You can attach custom forms to different Workfront objects to capture data about those objects.
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
@@ -22,28 +22,28 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront plan</p> </td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td>
-   <p>New plan: Standard</p>
+   <p>New: Standard</p>
    <p>or</p>
-   <p>Current plan: Plan</p></td> 
+   <p>Current: Plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Administrative access to custom forms</p> <p>For information about how Workfront administrators grants this access, see <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Administrative access to custom forms</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Start designing a custom form
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **Custom Forms** in the left panel.
 
@@ -192,8 +192,8 @@ To add a text field:
     <td>Format</td>
     <td><p>Select the type of data that will be captured in the custom field.</p> <p><b>NOTE</b>:   
     <ul> 
-    <li>This field cannot be edited after the form is saved. If you intend to use your field in mathematical calculations, ensure that you select a Number or Currency format.<br></li> 
-    <li>When you select Number or Currency, the system automatically truncates numbers that start with 0.</li> 
+    <li>This field cannot be edited after the form is saved. If you intend to use your field in mathematical calculations, ensure that you select a Number or Currency format.</li> 
+    <li>When you select Number or Currency, the system automatically truncates numbers that start with 0.</li>
      </ul></p></td> </td>
     <td><ul>
     <li>Single line text</li>
@@ -310,7 +310,7 @@ To add radio buttons and checkboxes:
     <td> <p>Select the type of data that will be captured in the custom field.</p> <p><b>NOTE</b>:   
      <ul> 
     <li>This field cannot be edited after the form is saved. If you intend to use your field in mathematical calculations, ensure that you select a Number or Currency format.<br></li> 
-    <li>When you select Number or Currency, the system automatically truncates numbers that start with 0.</li> 
+    <li>When you select Number or Currency, the system automatically truncates numbers that start with 0.</li>
      </ul></p></td> 
      <td><ul>
     <li>Radio buttons</li>
@@ -492,11 +492,11 @@ To add typeahead date fields:
 
 ### Add external lookup fields
 
-An external lookup field calls an external API and returns values as options in a dropdown field. Users who work with the object the custom form is attached to can select one or more of these options from the dropdown.
+An external lookup field calls an external API and returns values as options in a dropdown field. Users who work with the object the custom form is attached to can select one or more of these options from the dropdown. The external lookup field is also available in lists and reports.
 
 >[!NOTE]
 >
->External lookup functionality is not available on Document objects.
+>External lookup functionality is not available on Document or User objects.
 
 To add an external lookup:
 
@@ -534,9 +534,13 @@ To add an external lookup:
      <tr> 
       <td role="rowheader">Base API URL</td> 
       <td><p>Type or paste the URL for the API.</p><p>The API URL must return a JSON content of the options that you would like to show in the dropdown. You can use the JSON Path field to select the specific values from the returned JSON to be dropdown options.</p><p>When entering the API URL, you can optionally pass the following values in the URL:</p>
-      <ul><li>$$QUERY - This represents the search text that the end user types in the field and allows you to implement query filtering for your end users. (The user will search for the value in the dropdown.)</li>
-      <li>$$HOST - This represents the current Workfront host and can be used to make /search API calls to the Workfront API. When this wildcard is used, the authentication is handled and users don't need to send authentication headers. (For example, users can search tasks using the base URL "$$HOST/attask/api/task/search" and it will allow searching tasks and selecting values from a returned list of tasks.)</li>
-      <li>{fieldName} - Where fieldName is any custom or native field in Workfront. This way you can implement cascading dropdown option filters, when you pass the value of an already selected field to the External Lookup field to filter down options. (For example, the Region field already exists on the form and you are narrowing a list of countries from the API to those that are in a specific region.)</li>
+      <ul>
+      <li>$$HOST - This represents the current Workfront host and can be used to make /search API calls to the Workfront API. When this wildcard is used, the authentication is handled and users don't need to send authentication headers. (For example, users can search tasks using the base URL <code>$$HOST/attask/api/task/search</code> and it will allow searching tasks and selecting values from a returned list of tasks.)</li>
+      <li><p>$$QUERY - This represents the search text that the end user types in the field and allows you to implement query filtering for your end users. (The user will search for the value in the dropdown.)</p>
+      <p>If the API you are referencing allows it, you can also include modifiers in your search query to identify how the search should work. For example, you can use the following as the Base API URL to allow people to search for any Workfront projects that contain specific text: <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>Learn more about the Workfront search modifiers in <a href="/help/quicksilver/wf-api/general/api-basics.md">API Basics</a>.</p>
+      <p><strong>NOTE:</strong> If you are not using $$QUERY and the user types text in the search box, it will narrow down the choices you already have. However, if you use $$QUERY and the user types anything, a new network call to your API is performed. Therefore, if you have more than 2000 values in your API, and the API supports querying, you can utilize $$QUERY to not only search from the existing 2000 values, but from the original API with the narrowed down options.</p></li>
+      <li><p>{fieldName} - Where fieldName is any custom or native field in Workfront. This way you can implement cascading dropdown option filters, when you pass the value of an already selected field to the External Lookup field to filter down options. (For example, the Region field already exists on the form and you are narrowing a list of countries from the API to those that are in a specific region.)</p>
+      <p>For an external lookup field that has a dependency on other fields (using the {fieldName} syntax), the options returned from the API are limited to those that match any strings or values entered in the other fields. (This functionality is not supported in lists and reports.)</p></li>
       <li>{referenceObject}.{fieldName} – Where the field is part of an object. This syntax is similar to custom expressions. (For example, portfolioID={project}.{portfolioID})</li></ul>
       <p><strong>NOTE:</strong> Review the documentation for the API you are working with for the specific queries you can define.</p></td>
      </tr>
@@ -584,12 +588,11 @@ To add an external lookup:
 >
 >The following items are technical limitations of the call to the external API:
 >
->* Maximum number of options: 200 (only the first 200 options from the returned JSON are displayed)
+>* Maximum number of options: 2000 (only the first 2000 unique options from the returned JSON are displayed)
 >* Timeout: 3 seconds
 >* Number of retries: 3
 >* Wait duration between retries: 500ms
 >* Expected response statuses: 2xx
->* Users can see the selected value (and edit the value) in Workfront lists and reports, but will not see the dropdown with options coming from the external API.
 
 ### Add images, PDFs, and videos
 
@@ -674,7 +677,7 @@ The Workfront Mobile app -->
 
     Click **Save and Close**. 
 
-#### **Add a video widget to a custom form from the Documents area**{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
+#### Add a video widget to a custom form from the Documents area{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
 
 >[!IMPORTANT]
 >

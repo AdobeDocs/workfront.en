@@ -6,11 +6,11 @@ hide: yes
 recommendations: noDisplay, noCatalog
 ---
 
-<!--*****************ADD TO TOC AND MINITOC WHEN RELEASING*********************-->
-
 <!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
 
 # Share views
+
+{{maestro-important-intro}}
 
 You can share a view with others to ensure collaboration when working in Adobe Workfront Maestro. 
 
@@ -65,7 +65,7 @@ You must have the following access to perform the steps in this article:
 
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area to your layout template. </p>  
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Maestro area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/maestro/access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -101,11 +101,11 @@ To share a view with others:
     * Manage
 
         For information about permission levels and what actions users can perform for each level, see [Overview of sharing permissions in Adobe Maestro](../access/sharing-permissions-overview.md).
+1. Click **Copy link** to copy a link to the view to your clipboard. 
+1. Share the copied link with others. Users who receive the link must be active users and log in to Workfront to be able to access the record type page and display it in the selected view. 
 1. Click **Save**.
 
-
 ## Remove permissions to a view
-
 
 {{step1-to-maestro}}
 

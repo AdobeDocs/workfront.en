@@ -10,15 +10,7 @@ exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
 
 # Overview of record types and taxonomies
 
->[!IMPORTANT]
->
->The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
->
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use Maestro capabilities.
->
->Contact your account representative for more information about joining the beta program for Maestro.
->
->For information, see [Adobe Maestro overview](../maestro-overview.md).
+{{maestro-important-intro}}
 
 Unlike Workfront where the object types are predefined, in Adobe Maestro, you can create your own object types. For example, in Workfront the object types of Program, Portfolio, Project, Task, or Issue are already created. 
 
@@ -77,7 +69,7 @@ The following table illustrates some of the similarities and differences between
 | They represent attributes about work-related objects        |                         |           ✓          |
 | You can create from scratch                                 |            ✓            |           ✓          |
 | You can create by importing an Excel or CSV file            |            ✓            |                      |
-| You can connect the record type to an object from a third-party application |            ✓            |                      |
+| You can connect the record type to an object from another application|            ✓            |                      |
 | You can connect to other Maestro record types               |            ✓            |                    |
 | You can view their associated records in a table view       |            ✓            |           ✓          |
 | You can view their associated records in a timeline view    |            ✓            |           ✓          |

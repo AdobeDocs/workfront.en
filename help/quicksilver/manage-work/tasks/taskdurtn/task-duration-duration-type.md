@@ -2,16 +2,18 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: Task Duration and Duration Types
+title: "Task Duration and Duration Types: article index"
 description: The Duration Type of a task identifies the relationship between the number of resources assigned to a task, the total effort, and the total Duration of the task. Learn about task Duration and Duration Type in the following articles. 
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: df6cd9bc-e34f-4e84-8a1b-484a6bffe53c
 ---
-# Task Duration and Duration Types
+# Task Duration and Duration Types: article index
 
-This section contains the following articles:
+<!-- Audited: 1/2024 -->
+
+This index contains links to the following articles:
 
 * [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md) 
 * [Update the Duration Type of a task](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md) 

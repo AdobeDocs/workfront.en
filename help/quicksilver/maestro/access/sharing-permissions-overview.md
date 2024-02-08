@@ -12,15 +12,7 @@ el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 
 # Overview of sharing permissions in Adobe Maestro
 
->[!IMPORTANT]
->
->The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
->
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. Ypu must be a Workfront customer to have access to Maestro.
->
->Contact your account representative for more information about joining the beta program for Maestro.
->
->For information, see [Adobe Maestro overview](../maestro-overview.md). 
+{{maestro-important-intro}}
 
 You can share or remove permissions to an Adobe Maestro workspace or view.  
 
@@ -44,12 +36,9 @@ You can share the following objects in Maestro:
 
 ## Considerations about sharing objects in Maestro
 
-* You must have the following license to create workspaces in Maestro:
+* Your Adobe Workfront license type works in conjunction with your Maestro permissions to give you access to view, contribute, or manage Maestro objects.
 
-   * New pricing model: Standard license 
-   * Current pricing model: Plan license. 
-
-    For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
+    For information about how license types affect permission levels for Maestro objects, see [License type overview in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
 * System administrators can manage and share workspaces that other users created. 
 * If you are not a System Administrator, you can contribute to workspaces created by others if they are shared with you. 
 * You cannot share workspaces in bulk. 
@@ -57,10 +46,18 @@ You can share the following objects in Maestro:
     * Users
     * Groups
 * Other users, including System Administrators, can only access views they created or that have been shared with them. 
+* You can share a link to a workspace or to a view from a record type page with others. Users who receive the link must be active users and log in to Workfront to be able to access the workspace or the record type page displayed in the selected view. 
 
 ## Sharing permissions for Maestro objects
 
 The tables in the following sections illustrate the level of permissions that you can select when sharing a Maestro workspace or view and what functionality each level allows.
+
+>[!IMPORTANT]
+>
+>Not all users can have the permissions levels described below. Users' individual license determines which level of permissions they can receive for Maestro objects. 
+>
+>For information, see [License type overview in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+
 
 ### Workspace permissions
 

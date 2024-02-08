@@ -10,18 +10,15 @@ exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 
 # Edit records
 
->[!IMPORTANT]
->
->The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
->
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use Maestro capabilities.
->
->Contact your account representative for more information about joining the beta program for Maestro.
->
->For information, see [Adobe Maestro overview](../maestro-overview.md).
+{{maestro-important-intro}}
 
-You can edit record information in Adobe Maestro. You must create record types before you can start creating and editing records. 
+You can edit record information in Adobe Maestro by editing the values of the fields associated with the records. 
+
+You must create record types before you can start creating and editing records. 
+
 For information, see [Create record types](../architecture/create-record-types.md).
+
+For information about creating records, see [Create records](/help/quicksilver/maestro/records/create-records.md). 
 
 <!-- mention in here that the fields in the Details view are the same as the ones in the table view -- this article is linked from the Manage record views one to refer to this info-->
 
@@ -54,9 +51,11 @@ You must have the following access to perform the steps in this article:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>Any</p> 
+   <p>New: Light or higher</p>
+   Or
+   <p>Current: Work or higher</p> 
   </td>
   </tr>
   
@@ -80,21 +79,20 @@ You must have the following access to perform the steps in this article:
  </tbody>
 </table>
 
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
 ## Considerations about editing records
 
-* You can edit records that you or another user created. <!--will change with access levels-->
-* You cannot edit fields that are linked from other records or fields that contain calculations. 
+* You can edit records that you created or records created by others, if you were given permissions to the workspace. 
+* You can edit record fields from the Details page of a record or from the table view of a record type.
+* You cannot edit record information from the timeline view. 
+* The following types of fields are automatically updated, and you cannot edit their values manually: 
+    * Linked fields from other records
+    * Formula-type fields
+    * System fields (Created by, Created date, Last modified by, Last modified date) 
 * If the records you display are linked to other records, the new information of the records that you are editing reflects on the linked records. 
 * You cannot edit records in bulk. <!--this will probably change-->
 * URLs are recognized as links in single-line text field types only when they start with the following: http://, https://, ftp://, or www. . 
-* You can use the following Rich Text formatting options when editing a Paragraph-type field:
-
-    * Bold
-    * Italic
-    * Underline 
-    * Add a link
-    * Add a bulleted list
-    * Add a numbered list
 
 ## Edit records
 
@@ -112,8 +110,8 @@ The workspace that you access last opens.
 1. (Optional) Click the downward-pointing arrow to the right of the workspace name to select the workspace whose records you want to update. 
 1. Do one of the following:
 
-    * From a Table view, click the name of a record. 
-    * From the Table view, hover over the name of a record, then click the **More** menu ![](assets/more-menu.png), then click **View**
+    * From a **Table** view, click the name of a record. 
+    * From the **Table** view, hover over the name of a record, then click the **More** menu ![](assets/more-menu.png), then click **View**
 
         ![](assets/contextual-menu-for-record-row.png)
     * From a Timeline view, click a record bar. 
@@ -146,7 +144,6 @@ The workspace that you access last opens.
 1. Click inside the row of a record to start editing information about the record inline.
 
     ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
-1. Press **Enter** on your keyboard or click outside of a row to save your changes. The changes are saved automatically. A Saved indicator displays briefly in the upper-right corner of the table view to show that the changes were saved. 
 
     >[!NOTE]
     >
@@ -155,13 +152,33 @@ The workspace that you access last opens.
     >  * Linked fields that are created by connecting record types. For more information, see [Connect record types](../architecture/connect-record-types.md).
     >  * Fields of the following types: Created by, Created date, Last modified by, Last Modified date
 
+1. (Optional and conditional) When you edit a Paragraph-type field, use the following **Rich Text** formatting options: 
 
-1. (Optional) Copy one or multiple existing values of a field, then paste them into a field of the same type on another record, then click **Enter** on your keyboard to save your changes. 
+    * Bold
+    * Italic
+    * Underline 
+    * Add a link
+    * Add a bulleted list
+    * Add a numbered list
+
+    ![](assets/rich-text-toolbar-on-paragraph-field.png)
+
+1. (Optional) Double-click a connected record field to add connected records or objects to another record. For more information, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). 
+1. Press **Enter** on your keyboard or click outside of a row to save your changes. The changes are saved automatically. A **Saved** indicator displays briefly in the upper-right corner of the table view to show that the changes were saved. 
+
+1. (Optional) To copy and paste information from one field to another, do one of the following:
+
+    * Copy one or multiple existing values of a field, then paste them into a field of the same type on another record
+    * Click the column header of a column to select it and copy it, then click the column header of another column and paste the contents of the copied column. The columns must contain similar field types. 
+    * With your Shift key pressed, click to select several rows in a table, copy the information in the selected rows, then click a different row and paste the selected information in the new row and the following rows after that. 
 
     >[!NOTE]
     >
     >Consider the following:   
     >
+    >* Use the following keyboard shortcuts for copying and pasting information:
+    >   * Copy: CTRL + C (⌘ + C for Mac)
+    >   * Paste: CTRL + V (⌘ + V for Mac) 
     >* You cannot copy information from another source, other than a Maestro field of the same type as the field you paste the information in.  
     >
     >* You cannot copy and paste field values in the Details area of a record. This functionality is supported only in the table view of a record type.  
@@ -175,5 +192,9 @@ The workspace that you access last opens.
 
     * CTRL + Z (⌘ + Z for Mac) to undo a change 
     * CTRL + Shift + Z (⌘ + Shift + Z for Mac) to redo a change 
-<!--
-1. (Optional) Add a thumbnail to a record. For information, see [Add a thumbnail to a record](/help/quicksilver/maestro/records/add-thumbnail-to-a-record.md). -->
+
+    >[!TIP]
+    >
+    >    You can use the keyboard shortcuts multiple times in a row to undo multiple changes.
+
+1. (Optional) Add a thumbnail to a record. For information, see [Add a thumbnail to a record](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
