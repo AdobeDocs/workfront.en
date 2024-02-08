@@ -1,17 +1,19 @@
 ---
-title: Create and manage users
+title: "Create and manage users: article index"
 user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: add-users-to-workfront
 description: You can add users in Adobe Workfront by creating individual users from scratch or by copy existing users.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 014cb6de-fb96-44df-a29c-b210afe9c55c
 ---
-# Create and manage users
+# Create and manage users: article index
+
+<!-- Audited: 2/2024 -->
 
 This section contains the following articles:
 
