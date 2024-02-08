@@ -48,7 +48,7 @@ For information about the new license model, see [Access requirements in Workfro
 
 For information about the connection between license type and permissions in Maestro, see [License type overview in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).  
 
-<!--
+
 ### New look-and-feel of the Rich-Text toolbar for record fields
 
 Production: February 7, 2024 
@@ -59,6 +59,7 @@ We have updated the look-and-feel of the Rich Text toolbar when you edit a Parag
 
 For information, see  [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
 
+<!--
 ### Improved experience when editing Single-select, Multi-select, People fields, and when adding connected objects
 
 Production: February 8, 2024 
