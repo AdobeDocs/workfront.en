@@ -68,7 +68,7 @@ For more detail about the information in this table, see [Access requirements in
 
 * [[!UICONTROL Access]](#access)
 
-  ### [!UICONTROL New Task Defaults] {#new-task-defaults}
+### [!UICONTROL New Task Defaults] {#new-task-defaults}
 
   <table style="table-layout:auto"> 
   <col> 
@@ -93,7 +93,7 @@ For more detail about the information in this table, see [Access requirements in
   </tbody> 
   </table>
 
-  ### Issues {#issues}
+### Issues {#issues}
 
   <table style="table-layout:auto"> 
   <col> 
@@ -136,7 +136,7 @@ For more detail about the information in this table, see [Access requirements in
   </tbody> 
   </table>
 
-  ### [!UICONTROL Deletion] {#deletion}
+### [!UICONTROL Deletion] {#deletion}
 
   **[!UICONTROL Allow users to delete tasks & issues with logged hours]**: Lets you determine whether you allow the deletion of tasks or issues where hours are logged. This option is selected by default.
 
@@ -152,7 +152,7 @@ For more detail about the information in this table, see [Access requirements in
 
   * When you deselect this option, you receive a prohibitive warning when you delete a task or issue with logged hours, or when you delete a project with hours logged for its tasks or issues. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be deleted. The tasks, issues , or projects that have hours logged for tasks and issues cannot be deleted.
 
-  ### [!UICONTROL Actual Dates] {#actual-dates}
+### [!UICONTROL Actual Dates] {#actual-dates}
 
   <table style="table-layout:auto"> 
   <col> 
@@ -177,7 +177,7 @@ For more detail about the information in this table, see [Access requirements in
   </tbody> 
   </table>
 
-  ### Delegation
+### Delegation
 
   Enabling the **[!UICONTROL Allow users to delegate their tasks & issues]** setting allows all users in  to temporarily delegate their work to others.
 
@@ -220,7 +220,7 @@ I have not had a chance to follow up with customers to verify if this is still a
 </note>
 -->
 
-  ### [!UICONTROL Access] {#access}
+### [!UICONTROL Access] {#access}
 
   <table style="table-layout:auto"> 
   <col> 
