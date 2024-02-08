@@ -13,6 +13,8 @@ exl-id: 014cb6de-fb96-44df-a29c-b210afe9c55c
 ---
 # Create and manage users: article index
 
+<!-- Audited: 2/2024 -->
+
 This section contains the following articles:
 
 * [Add users](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md) 
