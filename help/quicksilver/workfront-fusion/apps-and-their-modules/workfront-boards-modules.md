@@ -62,6 +62,12 @@ Adobe Workfront Boards modules and their fields
 
 You must have configured a board in Adobe Workfront before you can connect to it.
 
+## Create a connection to Workfront Boards
+
+>[!NOTE]
+>
+>You can use a Workfront connection to connect to Workfront Boards, or you can create a separate Workfront Boards connection.
+
 ## Adobe Workfront Boards modules and their fields
 
 When you configure Workfront Boards modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional Workfront Boards fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
@@ -70,3 +76,84 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
+### Cards
+
+#### Read card
+
+This action module retrieves information about a specific card.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+   <td> <p></p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Card ID]</td> 
+   <td>Enter or map the ID of the card you want to read.<p>You can find the card ID in the URL when viewing the card in Workfront.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Boards
+
+#### Create a board
+
+This action module creates a board.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+   <td> <p></p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Card ID]</td> 
+   <td>Enter or map a name for the new board.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Other
+
+#### Make a custom API call
+
+
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">URL</td> 
+   <td> <p>Enter a path relative to<code> https://&lt;WORKFRONT_DOMAIN&gt;/boards-service/</code>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Method]</td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
+   <td> <p>Add the headers of the request in the form of a standard JSON object. This determines the content type of the request.</p> <p>For example,<code> {"Content-type":"application/json"}</code></p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Query String]</td> 
+   <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{"name":"something-urgent"}</code></p>  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
+   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+     <div class="example" data-mc-autonum="<b>Example: </b>"> 
+      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
+     </div> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
