@@ -13,15 +13,11 @@ exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
 
 >[!IMPORTANT]
 >
->The procedure described on this page applies to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
+>If your organization has been onboarded to the Adobe Admin Console, you must create system administrators through the Adobe Admin Console.
+>
+>For instructions on creating system administrators in the Adobe Admin Console, see [Manage users in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
 >Group administrators in organizations that have been onboarded to the Adobe Admin Console can use this procedure to create users and submit the user for admin approval. 
->
->For instructions on adding a user in the Adobe Admin Console:
->
->* See [Create users in Workfront with the Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md#create)
->* See the section "Add users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)
->* Contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
