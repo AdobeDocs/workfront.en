@@ -101,7 +101,7 @@ This action module retrieves information about a specific card.
 
 #### Create a board
 
-This action module creates a board.
+This action module creates a basic board in Workfront.
 
 <table style="table-layout:auto">
  <col> 
