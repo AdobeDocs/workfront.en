@@ -13,12 +13,18 @@ exl-id: a84a5a8d-7c2a-4b51-a614-91a6dc9aa4ed
 
 If your organization has been onboarded to the Adobe Business Platform, your users use the Adobe Business Platform to access Adobe Workfront. This means that:
 
-* User management is largely done through the Adobe Admin Console
+* System administrators are created through the Adobe Admin Console
 * Single Sign-On (SSO) is handled through the Adobe Business Platform rather than through Workfront
 
-As an Adobe Workfront administrator, your administration responsibilities and procedures differ based on whether your organization has been onboarded to the Adobe Business Platform. This article lists the procedures that must be handled differently, and links to instructions for both Workfront and the Adobe Admin Console.
+As an Adobe Workfront administrator, your administration responsibilities and procedures differ based on whether your organization has been onboarded to the Adobe Business Platform. This article lists the procedures that are handled differently, and links to instructions for both Workfront and the Adobe Admin Console.
 
 ## Users
+
+
+
+>[!NOTE]
+>
+>We recommend adding non-system administrator users directly in Workfront. It is possible to add users in the Adobe Admin Console, but adding them in Workfront allows you to set their access level while creating them, which can save you time.
 
 <table style="table-layout:auto"> 
  <col> 
