@@ -91,6 +91,12 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Create a Completion
 
+>[!IMPORTANT]
+>
+>This module has been deprecated.
+
+<!--
+
 This action module creates a completion for the provided prompt or chat.
 
 <table style="table-layout:auto"> 
@@ -105,16 +111,18 @@ This action module creates a completion for the provided prompt or chat.
    <td role="rowheader">[!UICONTROL Model]</td> 
    <td> Enter or map the ID of the model to use. You can use the Get models module to see all of your available models. </td> 
   </tr> 
-  <!--<tr> 
+ <tr> 
    <td role="rowheader">[!UICONTROL Temperature]</td> 
    <td> This value must be between 0 and 2, and determines the randomness of the output. Higher values produce output that is more random, while lower values produce more focused output. </td> 
-  </tr> -->
+  </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Advanced settings]</td> 
    <td> <p>For information about the optional advanced settings in this module, see the information about creating completions in the <a href="https://platform.openai.com/docs/api-reference/completions/create" class="MCXref xref">OpenAI API documentation</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+-->
 
 ### Create a Moderation
 
