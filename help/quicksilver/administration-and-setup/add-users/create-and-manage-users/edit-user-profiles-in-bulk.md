@@ -11,6 +11,8 @@ exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
 ---
 # Edit user profiles in bulk
 
+<!--
+
 >[!IMPORTANT]
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
@@ -18,6 +20,7 @@ exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
 >For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Bulk Upload Users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+-->
 
 You can edit user accounts in bulk. When bulk editing users, only the fields you specifically select are updated with the same information for all users selected. All other fields that you leave unselected stay the same for each individual user, even if they are different for each user.
 
