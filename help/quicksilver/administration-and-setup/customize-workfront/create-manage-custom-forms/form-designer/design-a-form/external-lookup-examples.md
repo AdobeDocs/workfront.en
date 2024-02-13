@@ -57,6 +57,12 @@ This example shows how to call the Workfront API and bring data from the existin
 
    ![Setup of API call to Workfront in custom form](assets/external-lookup-to-workfront.png)
 
+   When the custom form is added to a Workfront object (in this example, a project), it looks similar to this.
+
+   ![Custom form with external lookup field](assets/external-lookup-project-status-example1.png)
+
+   ![External lookup options based on status](assets/external-lookup-project-status-example2.png)
+
 ## Set up an External Lookup field for a public API
 
 You can use the External Lookup to call an external, public API and retrieve data.
@@ -109,4 +115,10 @@ This example shows how to call an API of countries (such as <https://api.first.o
 1. Click **Apply**.
 
    ![Setup of API call to public API in custom form](assets/external-lookup-to-api-for-countries.png)
+
+   When the custom form is added to a Workfront object (in this example, a project), it looks similar to this.
+
+   ![Custom form with external lookup field](assets/external-lookup-countries-example1.png)
+
+   ![External lookup options for a country based on region](assets/external-lookup-countries-example2.png)
 
