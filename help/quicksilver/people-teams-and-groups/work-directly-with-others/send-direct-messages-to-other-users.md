@@ -10,7 +10,7 @@ exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
 ---
 # Send direct messages to other users
 
-[!DNL Adobe Workfront] enables you to quickly and easily send messages that are unrelated to any work item directly to other [!DNL Workfront] users. Messages sent as described in this section appear in the [!UICONTROL Updates] tab on the user's home page and are visible to all users. For additional information on updates, see [Update work items and view updates](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
+[!DNL Adobe Workfront] enables you to quickly and easily send messages that are unrelated to any work item directly to other [!DNL Workfront] users. Messages sent as described in this section appear in the [!UICONTROL Updates] tab on the user's home page and are visible to all users. For additional information on updates, see [Update work items and view updates: article index](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
 The user you are sending the message to receives the following types of notifications when you send a message as described in this section:
 

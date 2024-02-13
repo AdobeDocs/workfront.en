@@ -71,25 +71,25 @@ There are some differences when using agile views on a project versus working in
 
 ### Differences when using the Agile view on a project versus on an iteration {#differences-when-using-the-agile-view-on-a-project-versus-on-an-iteration}
 
-* [Tasks and subtasks follow different display rules on the Story Board](#tasks-and-subtasks-follow-different-display-rules-on-the-story-board) 
-* [Backlogs and iterations are not used](#backlogs-and-iterations-are-not-used) 
+* [Tasks and subtasks follow different display rules in a project Agile view and on the story board of an iteration](#tasks-and-subtasks-follow-different-display-rules-on-the-story-board) 
+* [Backlogs and iterations are not used in the Agile view](#backlogs-and-iterations-are-not-used) 
 * [Task order is maintained in the Agile view and cannot be reordered](#task-order-is-maintained-in-the-agile-view-and-cannot-be-reordered) 
-* [Tasks are measured only in Planned Hours](#tasks-are-measured-only-in-planned-hours) 
-* [The Agile Team is not used](#the-agile-team-is-not-used) 
+* [Tasks are measured only in Planned Hours on a project list](#tasks-are-measured-only-in-planned-hours) 
+* [The Agile Team is not used in an Agile view](#the-agile-team-is-not-used) 
 * [Each user on the project can view the project in a different Agile view](#each-user-on-the-project-can-view-the-project-in-a-different-agile-view)
 
-#### Tasks and subtasks follow different display rules on the Story Board {#tasks-and-subtasks-follow-different-display-rules-on-the-story-board}
+#### Tasks and subtasks follow different display rules in a project Agile view and on the story board of an iteration {#tasks-and-subtasks-follow-different-display-rules-on-the-story-board}
 
-* Tasks that have neither a parent task nor a subtask are always displayed as a single story card on the story board.   
-  For example, these tasks appear as follows in the project list view:   
+* Tasks that have neither a parent task nor a subtask are always displayed as a single story card on the story board of the Agile view.   
+  For example, these tasks appear as follows in the project list view: 
   
   ![Agile project list - tasks with no parent or subtasks](assets/agile-project-single-list-nwe.png) 
   
-  These tasks appear as follows in the project agile view:   
+  These tasks appear as follows in the project agile view:
   
   ![Project agile view - tasks with no parent or subtasks](assets/agile-project-singlecard-nwe.png)
 
-* Parent tasks that have subtasks are always displayed in the **Stories** column of the story board. Subtasks are displayed in the swimlane of the parent task.   
+* Parent tasks that have subtasks are always displayed in the **Stories** column of the story board of the Agile view. Subtasks are displayed in the swimlane of the parent task.   
   For example, these tasks appear as follows in the project list view:   
   
   ![Agile project list - tasks with parents and subtasks](assets/agile-project-parent-list-nwe.png)  
@@ -98,9 +98,9 @@ There are some differences when using agile views on a project versus working in
   ![Agile project view - tasks with parents and subtasks](assets/agile-project-parent-nwe.png)
 
 * Second-level subtasks (subtasks of subtasks) are displayed as a hanging gray card off the immediate parent task.
-* Third-level subtasks (subtasks of subtasks of subtasks) are never displayed on the story board.
+* Third-level subtasks (subtasks of subtasks of subtasks) are never displayed on the Agile view.
 
-#### Backlogs and iterations are not used {#backlogs-and-iterations-are-not-used}
+#### Backlogs and iterations are not used in the Agile view {#backlogs-and-iterations-are-not-used}
 
 When viewing a project in an agile view, the following agile components are not used:
 
@@ -113,13 +113,13 @@ The order in which tasks appear in a project is maintained when you view the pro
 
 You cannot reorder tasks in the project when viewing the project in an agile view. Because modifying the task order can affect other tasks that might have dependencies, you must view the project in a standard view in order to modify task order.
 
-#### Tasks are measured only in Planned Hours {#tasks-are-measured-only-in-planned-hours}
+#### Tasks are measured only in Planned Hours on a project list {#tasks-are-measured-only-in-planned-hours}
 
 Tasks on a project are always measured in Planned Hours.
 
 In an iteration, tasks (stories) can be measured in hours or points.
 
-#### The Agile Team is not used {#the-agile-team-is-not-used}
+#### The Agile Team is not used in an Agile view {#the-agile-team-is-not-used}
 
 Because agile teams complete the work on iterations that are assigned to them, agile teams are not used when viewing a project in an agile view.
 
@@ -131,7 +131,7 @@ Unlike an agile iteration, users on a project can customize the agile view for t
 
 In an agile iteration, the information that is available on the agile story board (such as status columns that are available) is determined on the team level.
 
-For information about how to customize an agile view, see [Create or customize an Agile view](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md#customizing-an-agile-view) in [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+For information about how to customize an agile view, see [Create or customize an Agile view](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) in [Create or edit views in in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
 ## View a project in the Agile view
 
