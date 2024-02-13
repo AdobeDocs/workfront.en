@@ -11,21 +11,23 @@ exl-id: a84a5a8d-7c2a-4b51-a614-91a6dc9aa4ed
 ---
 # Platform-based administration differences (Adobe Workfront/Adobe Business Platform)
 
+As an Adobe Workfront administrator, your administration responsibilities and procedures may differ based on whether your organization has been onboarded to the Adobe Business Platform. This article lists the procedures that are handled differently, and links to instructions for both Workfront and the Adobe Admin Console.
+
 If your organization has been onboarded to the Adobe Business Platform, your users use the Adobe Business Platform to access Adobe Workfront. This means that:
 
 * System administrators are created through the Adobe Admin Console
-* Single Sign-On (SSO) is handled through the Adobe Business Platform rather than through Workfront
+* Renewing an SAML certificate is handled through the Adobe Admin Console.
+* Single Sign-On (SSO) is handled through the Adobe Business Platform instead of through Workfront
 
-As an Adobe Workfront administrator, your administration responsibilities and procedures differ based on whether your organization has been onboarded to the Adobe Business Platform. This article lists the procedures that are handled differently, and links to instructions for both Workfront and the Adobe Admin Console.
-
-## Users
-
-
+## Create Workfront system administrators in the Adobe Admin Console
 
 >[!NOTE]
 >
 >We recommend adding non-system administrator users directly in Workfront. It is possible to add users in the Adobe Admin Console, but adding them in Workfront allows you to set their access level while creating them, which can save you time.
 
+For instruction on creating Workfront system administrators, see [Manage system administrators in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+
+<!--
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -37,7 +39,7 @@ As an Adobe Workfront administrator, your administration responsibilities and pr
    <th>For instructions in the Adobe Admin console, see</th> 
   </tr> 
  </thead> 
- <tbody> <!--
+ <tbody> 
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">View information about access levels and licenses for your users</td> 
     <td> 
@@ -49,7 +51,6 @@ As an Adobe Workfront administrator, your administration responsibilities and pr
       <li> <p>The section "View user list" in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
      </ul> </td> 
    </tr>
-  --> 
   <tr> 
    <td role="rowheader">Grant a user admin access</td> 
    <td> 
@@ -72,7 +73,7 @@ As an Adobe Workfront administrator, your administration responsibilities and pr
      <li> <p><a href="../../administration-and-setup/add-users/create-and-manage-users/admin-console.md" class="MCXref xref">Manage users in the Adobe Admin Console</a> </p> </li> 
      <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
     </ul> </td> 
-  </tr> <!--
+  </tr> 
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Add a user to Adobe Workfront Fusion</td> 
     <td> 
@@ -85,7 +86,6 @@ As an Adobe Workfront administrator, your administration responsibilities and pr
       <li> <p>The section "Add users" in in <a href="https://helpx.adobe.com/enterprise/using/manage-users-individually.html">Manage users individually</a></p> </li> 
      </ul> </td> 
    </tr>
-  --> 
   <tr> 
    <td role="rowheader">Deactivate a user</td> 
    <td> 
@@ -151,6 +151,14 @@ As an Adobe Workfront administrator, your administration responsibilities and pr
    <td>Not available</td> 
   </tr> 
   <tr> 
+    --> 
+
+## Renew the SAML certificate
+
+For instructions on renewing the SAML certificate on the Adobe Admin Console, see the section "The digital signature in the SAML response did not validate..." in [Troubleshooting Federated ID](https://helpx.adobe.com/enterprise/kb/tshoot-fed-id.html)
+
+<!--
+
    <td role="rowheader">Renew SAML certificate</td> 
    <td> 
     <ul> 
@@ -163,6 +171,8 @@ As an Adobe Workfront administrator, your administration responsibilities and pr
   </tr> 
  </tbody> 
 </table>
+
+-->
 
 ## SSO (Single Sign-On)
 

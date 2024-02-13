@@ -15,7 +15,7 @@ exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
 >
 >If your organization has been onboarded to the Adobe Admin Console, you must create system administrators through the Adobe Admin Console.
 >
->For instructions on creating system administrators in the Adobe Admin Console, see [Manage users in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+>For instructions on creating system administrators in the Adobe Admin Console, see [Manage system administrators in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
 >Group administrators in organizations that have been onboarded to the Adobe Admin Console can use this procedure to create users and submit the user for admin approval. 
 >
