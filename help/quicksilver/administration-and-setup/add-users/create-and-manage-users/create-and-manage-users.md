@@ -32,4 +32,4 @@ This section contains the following articles:
 * [Audit logs](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md) 
 * [View and export audit logs](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md) 
 * [View user login information](../../../administration-and-setup/add-users/create-and-manage-users/view-user-login-info.md) 
-* [Manage users in the Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)
+* [Manage system administrators in the Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md)
