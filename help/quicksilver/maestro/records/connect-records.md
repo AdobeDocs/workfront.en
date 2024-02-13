@@ -157,15 +157,19 @@ You must have the following access to perform the steps in this article:
 1. Click the card of a record type to open the record type page. 
 1. Select a **Table** view from the **View** drop-down menu in the upper-right corner of the record type page. 
 1. (Optional) Add records to the record type that you selected by adding a new row to the table. For information, see [Create records](../../maestro/records/create-records.md). 
-1. From a record listed in the table view, go to the linked record column and click inside the linked record field, then click the **+** icon. 
+1. (Conditional) After you connected the selected record type with another record type, go to  the linked record column and double-click the cell corresponding to the record that you want to link with other records.
+
+    ![](assets/connect-other-records-smaller-box-in-table-view.png)
+
+1. Do one of the following:
+
+    * Click a connected record's name from the list to add it to the selected record. The record is added automatically.
+    * Start typing the name of a record and click it when it displays in the list. The record is added automatically. 
+    * Click **See all** to display all records. 
+
+1. (Conditional) If you clicked **Select all** in the previous step, the **Connect objects** box displays. 
 
     ![](assets/connected-objects-table-for-records.png)
-
-    >[!TIP]
-    >
-    >    You can open a record's Details page, find the linked record field and click the **+** icon in the field to add records from the connected record or object type. 
-
-    The **Connect objects** box displays. 
 
 1. Start typing the name of a record in the search box, then select it when it displays in the list
 
@@ -173,10 +177,14 @@ You must have the following access to perform the steps in this article:
 
     Select the name of one or multiple records in the box, then click **Connect objects** in the upper-right corner of the Connect objects box. 
 
+    >[!TIP]
+    >
+    >    You can open a record's Details page, find the linked record field and click the **+** icon in the field to add records from the connected record or object type. 
+
     The following are added:
 
     * The linked records display in the linked record field of the record that you selected in step 6. <!--accurate?--> 
-    * The linked fields are populated with the information from the linked records. 
+    * The linked fields are populated with the information from the linked records, if you added linked lookup fields when you connected the record types. 
     
     Updating the linked records updates the linked fields for the records that you are linking from automatically. You cannot manually edit linked fields. 
         
@@ -215,17 +223,19 @@ After you created a connection between a Maestro record type and a Workfront obj
 1. Select a **Table** view from the **View** drop-down menu.
 
 1. Click **New record**  to add individual records to the record type that you selected. For information, see [Create records](../../maestro/records/create-records.md). 
-1. (Conditional) If you connected the selected record type with a Workfront object, go to  the linked object column and hover over the cell corresponding to the record that you want to link with objects from Workfront, then click the **+** icon. 
+1. (Conditional) After you connected the selected record type with a Workfront object type, go to  the linked object column and double-click the cell corresponding to the record that you want to link with objects from Workfront.
 
-    The **Connect objects** box displays. 
+    ![](assets/connect-projects-smaller-box-in-table-view.png)
+
+1. Do one of the following:
+
+    * Click an object from the list to add it to the selected record. Objects are listed alphabetically. The object is added automatically.
+    * Start typing the name of an object and click it when it displays in the list. The object is added automatically. 
+    * Click **See all** to display all objects you have at least permissions to view.
+
+1. (Conditional) If you clicked **See all** in the previous step, the **Connect objects** box displays. 
 
     ![](assets/connect-objects-box-to-select-projects.png)
-
-    >[!TIP]
-    >
-    >    You can open a record's Details page, find the linked record field and click the **+** icon in the field to add objects from the connected object type.
-
-    For more information about connecting record types with objects from another application, see [Connect record types](../architecture/connect-record-types.md). 
 
 1. Start typing the name of a Workfront object in the search box, then select it when it displays in the list
 
@@ -243,6 +253,12 @@ After you created a connection between a Maestro record type and a Workfront obj
 
     * The selected Workfront objects are added to the linked record field. 
     * If you added them when you connected the record type with Workfront, the linked fields (or the lookup fields) of the Workfront objects are automatically populated with information from Workfront. 
+
+    >[!TIP]
+    >
+    >You can open a record's Details page, find the linked record field and click the **+** icon in the field to add objects from the connected object type.
+
+    For more information about connecting record types with objects from another application, see [Connect record types](../architecture/connect-record-types.md).
      
 1. (Optional) Click the name of a Workfront object connected to a Maestro record either in the linked field of a table view or from the linked field of the **Details** page of the Maestro record.
 
@@ -292,7 +308,7 @@ After you create a connection between a Maestro record type and Adobe Experience
 1. Select a **Table** view from the **View** drop-down menu in the upper-right corner of the record type page.
 
 1. (Optional) Click **New record** to add new records to the record type that you selected. For information, see [Create records](../../maestro/records/create-records.md). 
-1. (Conditional) If you connected the selected record type with Experience Manager Assets, go to the linked object column and hover over the cell corresponding to the record that you want to link with other objects from Experience Manager, then click the **+** icon. 
+1. (Conditional) After you connected the selected record type with Experience Manager Assets, go to the linked object column and hover over the cell corresponding to the record that you want to link with other objects from Experience Manager, then click the **+** icon. 
 
     >[!TIP]
     >

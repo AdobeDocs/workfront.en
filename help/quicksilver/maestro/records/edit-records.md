@@ -162,6 +162,8 @@ The workspace that you access last opens.
     * Add a numbered list
 
     ![](assets/rich-text-toolbar-on-paragraph-field.png)
+
+1. (Optional) Double-click a connected record field to add connected records or objects to another record. For more information, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). 
 1. Press **Enter** on your keyboard or click outside of a row to save your changes. The changes are saved automatically. A **Saved** indicator displays briefly in the upper-right corner of the table view to show that the changes were saved. 
 
 1. (Optional) To copy and paste information from one field to another, do one of the following:

@@ -16,6 +16,8 @@ feature-set: Workfront
     * 2024 Q2 Release {#release-24-q2}
       * [2024 Q2 Release Overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
       * [2024 Q2 Project enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md)
+      * [2024 Q2 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md)
+      * [Look-and-feel updates during the 2024 Q2 release timeframe](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md)
     * 2024 Q1 Release {#release-24-q1}
       * [2024 Q1 Release overview](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
       * [2024 Q1 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md)
@@ -455,7 +457,7 @@ feature-set: Workfront
   * User management {#add-users}
     * [User management: article index](administration-and-setup/add-users/add-users.md)
     * Create and manage users {#create-manage-users}
-      * [Manage users](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
+      * [Create and anage users: article index](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
       * [Add users](administration-and-setup/add-users/create-and-manage-users/add-users.md)
       * [Import users](administration-and-setup/add-users/create-and-manage-users/import-users.md)
       * [Edit a user's profile](administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
@@ -577,6 +579,7 @@ feature-set: Workfront
           * [Design a form from a copy with the form designer](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
           * [Add calculated fields with the form designer](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
           * [Add display logic and skip logic with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
+          * [Examples of the External Lookup field in a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
           * [Organize and preview a form with the form designer](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
         * Manage a form {#manage-a-form}
           * [Manage a form](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/manage-a-form-toc.md)
@@ -865,7 +868,7 @@ feature-set: Workfront
       * [View the Home Calendar](workfront-basics/using-home/using-the-home-area/view-home-calendar.md)
       * [Use the My Updates area](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
   * Update work items and view updates {#update-work-items-view-updates}
-    * [Update work items and view updates](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
+    * [Update work items and view updates: article index](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
     * [Updates section overview](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
     * [Update work](workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
     * [Character limits in fields](workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
