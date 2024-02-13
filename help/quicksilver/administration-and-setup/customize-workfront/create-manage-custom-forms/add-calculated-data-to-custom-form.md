@@ -325,4 +325,4 @@ Calculated custom fields on an object recalculate automatically when the followi
 
    >[!NOTE]
    >
-   ><div>In a custom form attached to an object, date and time statements in calculated custom fields are calculated and saved according to the Coordinated Universal Time (UTC), not according to the time zone configurations set for your organization's instance and your user profile. Calculations in a custom form generate based on each users' individual time zones.</div>
+   >In a custom form attached to an object, date and time statements in calculated custom fields are calculated and saved according to the Coordinated Universal Time (UTC), not according to the time zone configurations set for your organization's instance and your user profile. However, calculations in a custom form are displayed based on each user's individual time zone.
