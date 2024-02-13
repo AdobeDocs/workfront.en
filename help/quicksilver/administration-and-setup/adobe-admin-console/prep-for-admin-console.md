@@ -77,8 +77,8 @@ To ensure that your organization can migrate to the Adobe Admin Console, you mus
    >
    >This step is optional, but highly recommended, because other forms of API authentication and authorization will be deprecated in the future.
 
-After your Adobe Admin Console is configured with Workfront, you can use it to manage your users.
+After your Adobe Admin Console is configured with Workfront, you can use it to create your Workfront system administrators.
 
-For more information, see [Manage users in the Adobe Admin Console](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+For more information, see [Manage system administrators in the Adobe Admin Console](../../administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
 For a list of other actions that are different based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
