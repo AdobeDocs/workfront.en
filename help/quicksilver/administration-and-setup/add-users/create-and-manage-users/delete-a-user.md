@@ -26,6 +26,7 @@ When a user leaves your organization, you can remove that user from Adobe Workfr
 >  For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 >
 -->
+
 ## Access requirements
 
 You must have the following to perform the steps in this article:
