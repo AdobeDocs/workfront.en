@@ -57,7 +57,11 @@ You can view smart assignments in the following areas where you can assign tasks
 
   ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
 
-* The Assignments field for an item listed in the Home area in the Assignments area, when you open a task or issue
+* <span class="preview">The Assignments field in the New Task box, when adding a task to a project</span>
+
+  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+
+* The Assignments field for an item listed in the Home area, when you open a task or issue
 
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 
@@ -122,7 +126,7 @@ If the first step of task smart assignments has found no matches, Workfront calc
 
 For more information, see the section [Smart assignments criteria for tasks and issues](#smart-assignments-criteria-for-tasks-and-issues) in this article. 
 
-Assignments identified in this phase are listed in the **Results** section of the Assignments field. <!--update this to "Other assignments"-->
+Assignments identified in this phase are listed in the **Other assignments** section of the Assignments field for tasks. <!--update this to "Other assignments"-->
 
 ### Smart assignments criteria for tasks and issues 
 
