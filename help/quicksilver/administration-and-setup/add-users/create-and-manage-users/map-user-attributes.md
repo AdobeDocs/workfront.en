@@ -103,7 +103,7 @@ To determine whether your organization is on the Adobe unified experience, exami
      </tr> 
      <tr> 
       <td role="rowheader">Directory Attribute</td> 
-      <td>Type the SSO attribute label you want to use./td> 
+      <td>Type the SSO attribute label you want to use.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Default Value</td> 
