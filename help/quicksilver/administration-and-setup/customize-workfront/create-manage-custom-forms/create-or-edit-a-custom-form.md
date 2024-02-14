@@ -13,6 +13,8 @@ exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
 
 <!--Audited: 01/2024-->
 
+{{highlighted-preview}}
+
 You can create or edit new custom form. Both tasks are explained in this article.
 
 For information about creating a new custom form from an existing one, see [Copy a custom form to create a new one with the legacy form builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
@@ -28,23 +30,23 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront plan</p> </td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td><p>New: Standard</p>
+   <p>or</p>
    <p>Current: Plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Administrative access to custom forms</p> <p>For information about how Workfront administrators grant this access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Administrative access to custom forms</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator. For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Start creating a custom form
 
@@ -104,7 +106,7 @@ You can edit a custom form any time after it has been created.
 
    Custom forms display in a list. You can review all custom forms and custom fields that have been created for your organization. You can also see who created each form, the objects associated with it, and whether it is active.
 
-1. Select the custom form you want to edit, then click **Edit**.
+1. Select the custom form you want to edit, then click **Edit** <span class="preview">or ![Edit icon](assets/edit-icon.png).</span>
 1. (Optional) To change the title and description of the custom form, click the **Form Settings** tab, then type a **Form Title** and **Description**.
 
 1. (Optional) If you want to add more object types to the form so that it can be attached to more objects, click the plus sign + after **Object Types**, then select the type you want in the menu that displays.

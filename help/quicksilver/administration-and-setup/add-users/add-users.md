@@ -19,7 +19,7 @@ You can create and manager users in Workfront.
 
 This index contains links to the following subsections about user management:
 
-* [Create and manage users](../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md) 
+* [Create and manage users: article index](../../administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md) 
 * [How new access levels work](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-levels-toc.md)
 * [How access levels work](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md) 
 * [Configure access to Adobe Workfront](../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md) 

@@ -26,6 +26,62 @@ The features are released weekly and are listed in the order of their release, w
 >
 >The documentation referenced in the sections below will be available some time after the features are released to Production. 
 
+## Week of February 5, 2024
+
+### Modify permissions based on license types
+
+Production: February 6, 2024 
+
+Preview: To be determined 
+
+We have modified permissions levels to take into account users' license types. Prior to this enhancement, there were no differences in workspace permissions based on the license types of the users.  
+
+The following permissions now work in conjunction with the user's license type:  
+
+* Users with a Plan license (or Standard license, in the new license model) can create and manage workspaces, record types, and records. 
+
+* Users with a Work license (or Light, in the new license model) can view and contribute to a workspace shared with them, as well as the record types and records of that workspace.  The Work- (or Light-) license users can also create, edit, and delete records in workspaces where they have Contribute access. 
+
+* Users with a Review or Requestor license (or Contributor, in the new license model) can only view the workspaces shared with them, as well as the record types and records of those workspaces. They cannot create, edit, or delete record types or records.  
+
+For information about the new license model, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
+For information about the connection between license type and permissions in Maestro, see [License type overview in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).  
+
+
+### New look-and-feel of the Rich-Text toolbar for record fields
+
+Production: February 7, 2024 
+
+Preview: To be determined 
+
+We have updated the look-and-feel of the Rich Text toolbar when you edit a Paragraph-type field.
+
+For information, see  [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
+
+### Improved experience when editing Single-select, Multi-select, People fields, and when adding connected objects
+
+Production: February 8, 2024 
+
+Preview: To be determined 
+
+We have redesigned and improved the experience of adding options or objects for the following field types:
+
+* Single-select
+* Multi-select
+* People
+* Connected record fields (when connecting Maestro record types or Workfront objects)
+
+With the new improvement, a smaller, more responsive box displays first.  
+ 
+For connected fields, you can add them doing one of the following:
+
+* Add objects to the connected field by searching and selecting them from a list in the table view, while inline editing the field
+* Click to open the larger Connect objects box, where you can view all item names in addition to more information about the items. 
+
+The improvements are now available when updating fields in the table view of a record type.  
+
+For more information, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). 
 
 ## Week of January 29, 2024
 
@@ -62,7 +118,8 @@ Production: February 1, 2024
 
 Preview: To be determined
 
-To avoid confusion and simplify your workflow, we have removed the record type cards created as a result of connecting Maestro records with objects from third-party applications from a workspace. <!-- Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
+To avoid confusion and simplify the management of workspaces, we have removed the auto-generated, ready-only record type cards for connected non-Maestro objects from a workspace.
+<!-- Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
 
 For more information, see [Connect records](/help/quicksilver/maestro/records/connect-records.md).   
 

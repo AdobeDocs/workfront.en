@@ -120,7 +120,8 @@ You can use both built-in Workfront fields and custom fields that you already cr
      <tr> 
       <td role="rowheader">Format</td> 
       <td> <p>The format in which you want the results of the field to be stored and displayed.</p> <p>If you plan to use the field in mathematical calculations, always use a <strong>Number</strong> or a <strong>Currency</strong> format. When you select Number or Currency, the system automatically truncates numbers that start with 0.</p> 
-      <p><b>IMPORTANT</b>: <p>Before you choose a format, consider the correct format for the new field. The format field cannot be edited after the custom form is saved. And selecting the wrong format could impact future calculations and aggregate values in report and list groupings.</p> </td> 
+      <p><b>IMPORTANT</b>: <p>Before you choose a format, consider the correct format for the new field. The format field cannot be edited after the custom form is saved. And selecting the wrong format could impact future calculations and aggregate values in report and list groupings.</p>
+      <p><strong>NOTE:</strong> Calculated fields with a Currency format should not include quotation marks. (For example, use 800.00 and not "800.00.") Using quotation marks can cause unexpected consequences due to nuances with language formatting for currency types.</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -324,4 +325,4 @@ Calculated custom fields on an object recalculate automatically when the followi
 
    >[!NOTE]
    >
-   ><div>In a custom form attached to an object, date and time statements in calculated custom fields are calculated and saved according to the Coordinated Universal Time (UTC), not according to the time zone configurations set for your organization's instance and your user profile. Calculations in a custom form generate based on each users' individual time zones.</div>
+   >In a custom form attached to an object, date and time statements in calculated custom fields are calculated and saved according to the Coordinated Universal Time (UTC), not according to the time zone configurations set for your organization's instance and your user profile. However, calculations in a custom form are displayed based on each user's individual time zone.

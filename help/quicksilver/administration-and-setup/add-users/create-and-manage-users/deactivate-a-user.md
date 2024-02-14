@@ -11,6 +11,8 @@ exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
 ---
 # Deactivate or reactivate a user
 
+<!--
+
 >[!IMPORTANT]
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
@@ -18,6 +20,8 @@ exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
 >For instructions on deactivating a user in the Adobe Admin Console, see the section "Remove users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+
+-->
 
 Your users might leave the organization and you might need to remove them from Adobe Workfront. They should not remain active in the system because this would create confusion for other users when adding them to updates or assigning them work. When you deactivate a user, other users no longer see their name when they search for people in the system.
 

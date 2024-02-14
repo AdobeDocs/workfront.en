@@ -16,6 +16,8 @@ feature-set: Workfront
     * 2024 Q2 Release {#release-24-q2}
       * [2024 Q2 Release Overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
       * [2024 Q2 Project enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md)
+      * [2024 Q2 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md)
+      * [Look-and-feel updates during the 2024 Q2 release timeframe](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md)
     * 2024 Q1 Release {#release-24-q1}
       * [2024 Q1 Release overview](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
       * [2024 Q1 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-administrator-enhancements.md)
@@ -140,6 +142,7 @@ feature-set: Workfront
       * [21.1 Mobile enhancements](product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md)
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
+      * [Workfront Fusion release activity: Week of February 5, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-2-5.md)
       * [Workfront Fusion release activity: Week of November 27, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-30.md)
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
        [Workfront Fusion release activity: Week of January 1, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-1-4.md)
@@ -454,7 +457,7 @@ feature-set: Workfront
   * User management {#add-users}
     * [User management: article index](administration-and-setup/add-users/add-users.md)
     * Create and manage users {#create-manage-users}
-      * [Manage users](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
+      * [Create and anage users: article index](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
       * [Add users](administration-and-setup/add-users/create-and-manage-users/add-users.md)
       * [Import users](administration-and-setup/add-users/create-and-manage-users/import-users.md)
       * [Edit a user's profile](administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
@@ -575,6 +578,8 @@ feature-set: Workfront
           * [Design a form with the form designer](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
           * [Design a form from a copy with the form designer](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
           * [Add calculated fields with the form designer](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
+          * [Add display logic and skip logic with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
+          * [Examples of the External Lookup field in a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
           * [Organize and preview a form with the form designer](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
         * Manage a form {#manage-a-form}
           * [Manage a form](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/manage-a-form-toc.md)
@@ -863,7 +868,7 @@ feature-set: Workfront
       * [View the Home Calendar](workfront-basics/using-home/using-the-home-area/view-home-calendar.md)
       * [Use the My Updates area](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
   * Update work items and view updates {#update-work-items-view-updates}
-    * [Update work items and view updates](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
+    * [Update work items and view updates: article index](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
     * [Updates section overview](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
     * [Update work](workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
     * [Character limits in fields](workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
@@ -2027,6 +2032,7 @@ feature-set: Workfront
     * [Access information](maestro/access/access-information.md)
     * [Access overview](maestro/access/access-overview.md)
     * [Overview of sharing permissions in Adobe Maestro](maestro/access/sharing-permissions-overview.md)
+    * [License type overview in Adobe Maestro](maestro/access/license-type-overview.md)
     * [Share workspaces](maestro/access/share-workspaces.md)
     * [Share views](maestro/access/share-views.md)
   * Adobe Maestro records {#adobe-maestro-records}
@@ -2158,6 +2164,7 @@ feature-set: Workfront
     * [Apps and their modules](workfront-fusion/apps-and-their-modules/apps-and-their-modules.md)
     * [Adobe Workfront modules](workfront-fusion/apps-and-their-modules/workfront-modules.md)
     * [Workfront Proof modules](workfront-fusion/apps-and-their-modules/workfront-proof-modules.md)
+    * [Adobe Authenticator module](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md)
     * [Adobe Acrobat Sign modules](workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
     * [Adobe Creative Cloud Libraries modules](workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)
     * [Adobe Campaign Classic modules](workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)
