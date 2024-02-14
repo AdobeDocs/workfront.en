@@ -108,7 +108,7 @@ For more detail about the information in this table, see [Access requirements in
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader"[!UICONTROL >When converting an issue to a task]</td> 
+    <td role="rowheader">[!UICONTROL When converting an issue to a task]</td> 
     <td> <p>The settings in this section determine what happens during the conversion process from issue to task:</p> 
       <ul> 
       <li> <p><strong>[!UICONTROL Keep the original issue and tie its resolution to the task]</strong>: When you are converting the issue, it remains visible as an issue until the task is complete. The status of the issue automatically changes to [!UICONTROL Closed] when the task completes. When this is deselected, the issue is deleted.</p> <p><b>NOTE</b>:  <p>Users without access or permissions to delete issues will not be able to delete the issue as they are converting it, regardless of the status of this setting. For information about access and permissions to issues, see:</p> 
