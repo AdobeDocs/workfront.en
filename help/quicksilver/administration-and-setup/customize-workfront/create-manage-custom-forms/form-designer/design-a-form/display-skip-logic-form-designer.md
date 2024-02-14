@@ -10,8 +10,6 @@ role: Admin
 ---
 # Add display logic and skip logic with the form designer
 
-{{highlighted-preview-article-level}}
-
 You can decide which sections of a custom form should be displayed or skipped based on the choices that a user makes when filling it out.
 
 >[!NOTE]
