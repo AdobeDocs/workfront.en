@@ -1719,7 +1719,7 @@ feature-set: Workfront
     * [Resource Management](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
     * [Get started with Resource Management](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
   * Resource Planning in Adobe Workfront {#resource-planning-in-adobe-workfront}
-    * [Resource Planning in Adobe Workfront](resource-mgmt/resource-planning/resource-planning-overview.md)
+    * [Resource Planning: article index](resource-mgmt/resource-planning/resource-planning-overview.md)
     * Resource Pools {#resource-pools}
       * [Resource Pools](resource-mgmt/resource-planning/resource-pools/resource-pools.md)
       * [Resource pools overview](resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
