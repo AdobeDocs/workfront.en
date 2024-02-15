@@ -49,7 +49,7 @@ recommendations: noDisplay, noCatalog
 1. To view the contents, including all objects and their sub-objects, click **Contents**.
 1. To view previous installations and installation attempts of this package, click **Deployments**.
 1. To edit the package, click **Edit Package** at the upper-right of the screen.
-1. To extract the package, click **Deploy Package** at the upper-right of the screen.
-<!--Find out what deploy means-->
+<!--1. To extract the package, click **Deploy Package** at the upper-right of the screen.
+Find out what deploy means-->
 
 
