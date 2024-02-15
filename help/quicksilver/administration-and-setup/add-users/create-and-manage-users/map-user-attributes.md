@@ -132,6 +132,12 @@ To determine whether your organization is on the Adobe unified experience, exami
 
 1. Select the **Adobe** tab.
 
+1. (Optional and conditional) If your organization had attribute mapping configured in the classic experience and you want to copy that attribute mapping to the Adobe unified experience, click **Migrate Mappings**. You can then discard, delete, or edit these mappings.
+
+   >[!NOTE]
+   >
+   >We recommend migrating mappings the first time you configure mappings in the Adobe unified experience. There is no harm in migrating them again later, but migrating them more than once is unnecessary.
+
 1. To create a new attribute mapping, click **Add Mapping**.
 
 1. Click the arrow next to the Workfront field name and select the [!DNL Workfront] field that you want to map to. 
