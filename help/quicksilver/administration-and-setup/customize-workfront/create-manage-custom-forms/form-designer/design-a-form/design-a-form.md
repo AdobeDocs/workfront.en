@@ -194,6 +194,7 @@ To add a text field:
     <ul> 
     <li>This field cannot be edited after the form is saved. If you intend to use your field in mathematical calculations, ensure that you select a Number or Currency format.</li> 
     <li>When you select Number or Currency, the system automatically truncates numbers that start with 0.</li>
+    <li>The character limit for Number fields is 16. You can also use a Text field to enter numbers and avoid the limit.</li>
      </ul></p></td> </td>
     <td><ul>
     <li>Single line text</li>
@@ -311,6 +312,7 @@ To add radio buttons and checkboxes:
      <ul> 
     <li>This field cannot be edited after the form is saved. If you intend to use your field in mathematical calculations, ensure that you select a Number or Currency format.<br></li> 
     <li>When you select Number or Currency, the system automatically truncates numbers that start with 0.</li>
+    <li>The character limit for Number fields is 16. You can also use a Text field to enter numbers and avoid the limit.</li>
      </ul></p></td> 
      <td><ul>
     <li>Radio buttons</li>
@@ -531,7 +533,9 @@ To add an external lookup:
       <td><p>Select the type of data that will be captured in the custom field.</p>
       <p><strong>NOTE:</strong></p>
       <ul><li>You can change the format type after the form is saved, with one limitation: All existing values on objects must be able to be converted to the new type. (For example, if the format type is Text, and an object is storing the value "abc," you cannot convert the field and will get an error that the system cannot convert "abc" to number/currency.) If you intend to use your field in mathematical calculations, ensure that you select a Number or Currency format.</li>
-      <li>When you select Number or Currency, the system automatically truncates numbers that start with 0.</li></ul></td>
+      <li>When you select Number or Currency, the system automatically truncates numbers that start with 0.</li>
+      <li>The character limit for Number fields is 16. You can also use a Text field to enter numbers and avoid the limit.</li>
+      </ul></td>
      </tr> 
      <tr> 
       <td role="rowheader">Base API URL</td> 
