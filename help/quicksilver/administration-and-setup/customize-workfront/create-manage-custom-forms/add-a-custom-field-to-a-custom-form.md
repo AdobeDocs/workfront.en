@@ -4,7 +4,7 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Add a custom field to a custom form with the legacy form builder
 description: When you are working on a custom form, you can create a new custom field and add it to a custom form. You can also add a custom field that was already added to another custom form.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
@@ -158,6 +158,8 @@ You must have the following to perform the steps in this article:
       
       <p><strong>Example:</strong> If you save a numeric value for a field with Text format on at least one object and later change the format to Number or Currency, you will not encounter an error. </p>
       <p>However, if you save an alphanumeric value in a field with Text format on at least one object and then try to change the format to Number or Currency, you will encounter an error because the saved alphanumeric value is not compatible with the Number or Currency formats. </p>
+      
+      <p><strong>Note:</strong> The character limit for Number fields is 16. You can also use a Text field to enter numbers and avoid the limit.</p>
       
       </td> 
      </tr> 
