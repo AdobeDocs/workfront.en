@@ -3,16 +3,16 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-title: Map user attributes and auto-provision new users
-description: Using single sign-on (SSO), you can pass attributes from your identity provider's Active Directory to your Adobe Workfront users. You can also add new users to Workfront using the Auto-Provision option (also called Just In Time Provisioning or JIT).
+title: Map user attributes
+description: Using single sign-on (SSO), you can pass attributes from your identity provider's Active Directory to your Adobe Workfront users. 
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
 ---
-# Map user attributes and auto-provision new users
+# Map user attributes
 
-Using single sign-on (SSO), you can pass attributes from your identity provider's Active Directory to your Adobe Workfront users. You can also add new users to Workfront using the Auto-Provision option (also called Just In Time Provisioning or JIT).
+Using single sign-on (SSO), you can pass attributes from your identity provider's Active Directory to your Adobe Workfront users. 
 
 ## Access requirements
 
@@ -43,9 +43,8 @@ Keep the following in mind when mapping attributes:
 
 * Always test in a Preview sandbox or a Customer Refresh (CR) sandbox.
 * Test with both administrator and non-administrator accounts to confirm that you are mapping attributes correctly.
-* Attributes are mapped every time a user signs into Workfront via SSO, not just during Auto-Provisioning.
 
-## Map user attributes and auto-provision new users
+## Map user attributes for your organization
 
 The procedure for mapping attributes differs depending on whether your organization is on the Adobe unified experience.
 
@@ -54,7 +53,7 @@ To determine whether your organization is on the Adobe unified experience, exami
 |URL|Adobe Experience|
 |---|---|
 |(CompanyName).my.workfront.com|Classic experience|
-|experience.adobe.com|Unified experience
+|experience.adobe.com|Adobe unified experience |
 
 * [Map user attributes in the classic experience](#map-user-attributes-in-the-classic-experience)
 * [Map user attributes in the Adobe unified experience](#map-user-attributes-in-the-adobe-unified-experience)
@@ -70,10 +69,6 @@ To determine whether your organization is on the Adobe unified experience, exami
 1. Click **Map User Attributes**.
 
    ![](assets/map-user-attributes.png)
-
-1. (Optional) If you want Workfront to create new users from your Active Directory automatically, click **Auto-Provision User**.
-
-   This feature requires attribute mapping.
 
 1. In the row of options that appears, map the attributes you need for your Workfront users.
 
