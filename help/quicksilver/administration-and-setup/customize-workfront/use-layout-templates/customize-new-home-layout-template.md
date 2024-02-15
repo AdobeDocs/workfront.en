@@ -85,11 +85,11 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
         <li>My tasks</li>
         <li>My issues</li>
       </ul>
-      <p>Once you have selected the widget you would like to edit, available options will display on the right. Currently, these options are <b>Filters</b> and <b>Groups</b>. You can:</p>
+      <p>Once you have selected the widget you would like to edit, available options will display on the right. These options include <b>Filters</b>, <b>Columns</b>, and <b>Groups</b>. You can:</p>
       <ul>
-        <li><b>Select which Filters or Groups will be available to users:</b><p>Check the box next to all options in the list you would like users to be able to use. Unchecked options will not appear for users.</li></p>
+        <li><b>Select which Filters, Columns, or Groups will be available to users:</b><p>Check the box next to all options in the list you would like users to be able to use. Unchecked options will not appear for users.</li></p>
         <li><b>Set a default Filter or Group for the widget:</b><p>Hover your mouse over an option and a button will appear that allows you to set that option as the default for users. The current default will have a blue Default badge to its right.</li></p>
-        <li><b>Add an existing Filter or Group to the list of available options:</b><p>Click the plus sign button at the bottom of each list to add an option to that list. Note that only existing Filters or Groups can be added in this way.</li></p>
+        <li><b>Add an existing Filter, Column, or Group to the list of available options:</b><p>Click the plus sign button at the bottom of each list to add an option to that list. Note that only existing Filters, Fields (for Columns), or Groups can be added in this way.</li></p>
       </ul>
       </td> 
      </tr>
