@@ -48,6 +48,9 @@ Keep the following in mind when mapping attributes:
 
 * Always test in a Preview sandbox or a Customer Refresh (CR) sandbox.
 * Test with both administrator and non-administrator accounts to confirm that you are mapping attributes correctly.
+* Attributes that are mapped are applied each time a user signs in via single-sign on.
+
+   Example: if you are mapping "last name" and update their name in Workfront without updating the value in their Identity Provider, then the last name will get overwritten to match the value of whatever is in the Identity Provider the next time the user signs in.
 
 ## Map user attributes for your organization
 
@@ -83,12 +86,6 @@ To determine whether your organization is on the Adobe unified experience, exami
 
    >[!IMPORTANT]
    >
-   >The following attributes are required for each user:
-   >      
-   >* First Name
-   >* Last Name
-   >* Email Address
-   >      
    >We do not recommend mapping Access Levels in the Attribute Mappings. If you do, be careful when you are setting the default value to make sure that you don't remove Admin Access inadvertently.
 
    The following table explains the fields you can use to map attributes:
