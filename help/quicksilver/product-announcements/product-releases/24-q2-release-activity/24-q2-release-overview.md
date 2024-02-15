@@ -65,6 +65,43 @@ This page provides information about functionality that is included in the Secon
             </tbody>
         </table>
 
+### Home enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Column options added to Administrator controls for new Home using layout templates</a></p><p>Administrators can now customize which columns are available for users in specific new Home widgets using layout templates. Options include hiding or displaying default columns and adding existing fields as new columns.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: January 2, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 24.2 release (February 15, 2024)</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 24.4 release (April 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
 ### Project enhancements
 
 <table>
@@ -83,6 +120,24 @@ This page provides information about functionality that is included in the Secon
                  </tr>
                  <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">More relevant assignments added to the New Task workflow</a><span style="color: #ff0000;"> New in Preview!</span></p><p>We have added the same functionality for more relevant smart assignments to the Assignments field in the New Task box when adding a task to a project and in a project task list.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: February 13, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 24.3 release (March 2024)</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 24.4 release (April 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">More relevant smart assignments</a></p><p>We have changed the algorithm that Workfront uses to calculate and suggest smart assignments for tasks. The new algorithm applies in the following areas in Workfront where you assign a task: task lists, the Assignments area in the task header, Home, and the Summary panel.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -91,7 +146,7 @@ This page provides information about functionality that is included in the Secon
                                 <p>Preview release: December 21, 2023</p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 24.2 release (February 15, 2024)</p>
+                                <p>Production for fast release: With the 24.3 release (March, 2024)</p>
                             </li>
                             <li>
                                 <p>Production for quarterly release: With the 24.4 release (April 2024)</p>
