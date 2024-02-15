@@ -5,12 +5,14 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Map user attributes
 description: Using single sign-on (SSO), you can pass attributes from your identity provider's Active Directory to your Adobe Workfront users. 
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
 ---
 # Map user attributes
+
+<!--Audited 2/2024-->
 
 Using single sign-on (SSO), you can pass attributes from your identity provider's Active Directory to your Adobe Workfront users. 
 
@@ -28,14 +30,17 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td>Plan</td> 
+   <td><p>New: Standard</p><p>Or</p><p>Current: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a Workfront administrator.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## Tips for mapping attributes
 
@@ -139,7 +144,7 @@ To determine whether your organization is on the Adobe unified experience, exami
    >
    >The operators `Is Truthy` and `Is Falsy` do not require values.
 
-1. Select whether you want to apply the value of a field in your identity manager to the Workfront field, or if you want to apply a specific constant value.
+1. Select whether you want to apply the value of an attribute in your identity manager to the Workfront field, or if you want to apply a specific constant value.
 
 1. Enter the name of the identity manager field that you want to apply, or enter the text of the constant value you want to apply.
 
@@ -151,6 +156,7 @@ To determine whether your organization is on the Adobe unified experience, exami
    > * To create a rule in the middle of the list, click the three-dot menu next to the rule that you want to be above or below the new rule, and select **Add Rule Above** or **Add Rule Below**.
 
 1. To delete a rule, click the three-dot menu next to the rule you want to delete, and select **Delete**.
+1. To delete a mapping, click the **Delete** icon that is on the card for that mapping.
 
 1. To save, scroll to the top of the page and click **Save**.
 
