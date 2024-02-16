@@ -11,7 +11,7 @@ exl-id: fc85b4c2-4a76-4226-9120-11635b03aa4e
 
 This page describes all Administrator enhancements made with the 21.4 release to the Preview environment. These enhancements will be made available in the Production environment the week of October 4, 2021.
 
-For a list of all changes available with the 21.4 release, see [21.4 Release overview](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
+For a list of all changes available with the 21.4 release, see [21.4 Release overview](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## For administrators: See which groups are associated with an approval process
 
