@@ -560,7 +560,7 @@ feature-set: Workfront
           * [Use the legacy custom form builder](administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
           * [Create or edit a custom form with the legacy builder](administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
           * [Copy a custom form to create a new one with the legacy builder](administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
-          * [Add a custom field](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
+          * [Add a custom field with the legacy builder](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
           * [Add an image or other asset widget to a custom form with the legacy builder](administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
           * [Add a section break with the legacy builder](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
           * [Add calculated data with the legacy builder](administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
