@@ -11,7 +11,7 @@ exl-id: c978e88b-ee07-4af9-b5df-cb62dab4b3ac
 
 This page describes all Resource Management enhancements made with the 21.4 release to the Preview environment. These enhancements will be made available in the Production environment the week of October 4, 2021.
 
-For a list of all changes available with the 21.4 release, see [21.4 Release overview](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
+For a list of all changes available with the 21.4 release, see [21.4 Release overview](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Make fast assignments in the Workload Balancer
 
