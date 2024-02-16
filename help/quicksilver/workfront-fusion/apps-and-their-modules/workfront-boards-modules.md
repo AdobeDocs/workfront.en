@@ -68,6 +68,52 @@ You must have configured a board in Adobe Workfront before you can connect to it
 >
 >You can use a Workfront connection to connect to Workfront Boards, or you can create a separate Workfront Boards connection.
 
+To create a Workfront Boards connection:
+
+1. In any [!DNL Adobe Workfront Boards] module, click **[!UICONTROL Add]** next to the Connection box.
+
+1. Fill in the following fields:
+
+   <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+          <td role="rowheader">[!UICONTROL Connection name]</td>
+          <td>
+            <p>Enter a name for this connection.</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Environment]</td>
+          <td>Select whether you are connecting to a production or non-production environment.</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Type]</td>
+          <td>Select whether you care connecting to a service account or a personal account.</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Client ID]<p>(Optional)</p></td>
+          <td>Enter your [!DNL Adobe] [!UICONTROL Client ID]. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].</td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Client Secret]<p>(Optional)</p></td>
+          <td>Enter your [!DNL Adobe] [!UICONTROL Client Secret]. This can be found in the [!UICONTROL Credentials details] section of the [!DNL Adobe Developer Console].
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Authentication URL]<p>(Optional)</p></td>
+          <td>Enter the URL that your instance of Workfront will use to authenticate this connection. <p>The default value is <code>https://oauth.my.workfront.com/integrations/oauth2</code>.</p>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Host prefix]</td>
+          <td>Enter your host prefix.<p>The default value is <code>origin-</code>.</p>
+        </tr>
+      </tbody>
+    </table>
+1. Click **[!UICONTROL Continue]** to save the connection and return to the module.
+
 ## Adobe Workfront Boards modules and their fields
 
 When you configure Workfront Boards modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional Workfront Boards fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
@@ -75,6 +121,48 @@ When you configure Workfront Boards modules, [!DNL Workfront Fusion] displays th
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
+
+### Watch
+
+#### Watch events
+
+This trigger module starts a scenario when an event occurs on a board.
+
+1. Click **[!UICONTROL Add]** to the right of the **Webhook** box.
+
+1. Configure the webhook in the **[!UICONTROL Add a hook]** box that displays.
+
+   When you are configuring this module, the following fields display.
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td>[!UICONTROL Webhook name]</td> 
+      <td>(Optional) Type a new name for the webhook</td> 
+     </tr> 
+     <tr> 
+      <td>[!UICONTROL Connection]</td> 
+      <td> <p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Create a connection to Workfront Boards</a> in this article.</p> </td> 
+     </tr> 
+     <tr> 
+      <td>[!UICONTROL Object type]</td> 
+      <td>Select the type of [!DNL Workfront] object that you want the module to watch.</td> 
+     </tr> 
+     <tr> 
+      <td> <p>[!UICONTROL Objects to watch]</p> </td> 
+      <td> Select whether you want to trigger a scenario when there is a new object, an updated object, a new or updated object, or a deleted object. </td> 
+     </tr> 
+     <tr data-mc-conditions=""> 
+      <td>Exclude events made by this connection</td> 
+      <td>Enable this option to exclude events created or updated using the same connector that this trigger module uses. This can prevent situations where a scenario might trigger itself, causing it to repeat in an endless loop.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+After the webhook is created, you can view the address of the endpoint that events are sent to.
+
 
 ### Cards
 
@@ -88,7 +176,7 @@ This action module retrieves information about a specific card.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p></p> </td> 
+      <td> <p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Create a connection to Workfront Boards</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
@@ -109,7 +197,7 @@ This action module creates a basic board in Workfront.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p></p> </td> 
+      <td> <p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Create a connection to Workfront Boards</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
@@ -130,7 +218,7 @@ This action module creates a basic board in Workfront.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p></p> </td> 
+      <td> <p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Create a connection to Workfront Boards</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
