@@ -672,7 +672,7 @@ feature-set: Workfront
       * [Manage API keys](administration-and-setup/manage-workfront/security/manage-api-keys.md)
       * [Privacy policy](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
       * [Enhanced Authentication overview](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
-      * [Update SAML 2.0 metadata in your IDP when using enhanced authentication](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth-.md)
+      * [Update SAML 2.0 metadata in your IDP when using enhanced authentication](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
     * Exchange rates {#exchange-rates}
       * [Exchange rates](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
       * [Set up exchange rates](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
@@ -1043,7 +1043,7 @@ feature-set: Workfront
       * [Iteration completion status overview](agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
       * [Resize and collapse the burndown chart](agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
       * [Synchronize data in the burndown chart](agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
-      * [Use an alternate team schedule for burndown charts](agile/use-scrum-in-an-agile-team/burndown/use-alt--team-schedule-burndown-charts.md)
+      * [Use an alternate team schedule for burndown charts](agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)
     * Iterations {#iterations}
       * [Iterations](agile/use-scrum-in-an-agile-team/iterations/iterations.md)
       * [Iterations overview](agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
@@ -1075,7 +1075,7 @@ feature-set: Workfront
 * Documents {#documents}
   * [Documents: article index](documents/documents-overview.md)
   * Add new documents to Adobe Workfront {#add-new-documents-to-workfront}
-    * [Add new documents to Adobe Workfront](documents/adding-documents-to-workfront/add-new-documents--to-workfront.md)
+    * [Add new documents to Adobe Workfront](documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
     * [Add documents to Adobe Workfront from your file system](documents/adding-documents-to-workfront/add-documents-from-file-system.md)
     * [Link documents from external applications](documents/adding-documents-to-workfront/link-documents-from-external-apps.md)
     * [Remove links between Adobe Workfront and external document storage providers](documents/adding-documents-to-workfront/remove-links-between-wf-and-doc-apps.md)
@@ -1107,7 +1107,7 @@ feature-set: Workfront
     * [Enabling Adobe Workfront DAM](documents/workfront-dam-within-workfront/enable-wf-dam.md)
     * [Managing Documents with Adobe Workfront DAM](documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md)
     * [Adobe Workfront licensing role types vs. Adobe Workfront DAM role types](documents/workfront-dam-within-workfront/difference-between-wf-dam-role-types.md)
-    * [Access Help for Adobe Workfront DAM](documents/workfront-dam-within-workfront/access-help--workfront-dam.md)
+    * [Access Help for Adobe Workfront DAM](documents/workfront-dam-within-workfront/access-help-workfront-dam.md)
   * Workfront and Experience Manager Assets Integrations {#wf-aem-integrations}
     * [Workfront and Experience Manager Assets Integrations](documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
     * Workfront for Experience Manager enhanced connector {#wf-aem-enhanced-connector}
@@ -1809,11 +1809,11 @@ feature-set: Workfront
       * [Proof progress and status overview](review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)
       * [Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview](review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
     * Create proofs {#create-proofs}
-      * [Create proofs](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md)
+      * [Create proofs](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
       * [Configure personal proofing defaults](review-and-approve-work/proofing/creating-proofs-within-workfront/set-proof-defaults.md)
       * [Create a multi-page proof](review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
       * [Create an interactive proof for a website or other web content](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)
-      * [Create a proof for interactive content in a ZIP file](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md)
+      * [Create a proof for interactive content in a ZIP file](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md)
       * [Create a static proof for a website or other web content](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md)
       * [Create a proof for a document](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md)
       * [Create an advanced proof with a Basic workflow](review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
@@ -2085,7 +2085,7 @@ feature-set: Workfront
     * [Connect Adobe Workfront Fusion to a web service that uses API token authorization](workfront-fusion/connections/connect-wf-web-service-uses-api-token-auth.md)
     * [Connect Adobe Workfront Fusion to Google Services with updated security measures](workfront-fusion/connections/connect-to-google-with-new-security-measures.md)
     * [Connect Adobe Workfront Fusion to Google Services using a custom OAuth client](workfront-fusion/connections/connect-fusion-to-google-using-oauth.md)
-    * [Call the MS Graph REST API via the Adobe Workfront Fusion HTTP > Make an OAuth 2.0 request module](workfront-fusion/connections/call-the-ms-graph-rest-api-.md)
+    * [Call the MS Graph REST API via the Adobe Workfront Fusion HTTP > Make an OAuth 2.0 request module](workfront-fusion/connections/call-the-ms-graph-rest-api.md)
     * [Keys in Adobe Workfront Fusion](workfront-fusion/connections/keys.md)
     * [Receive a webhook from a web service](workfront-fusion/connections/receive-a-webhook-from-a-web-service.md)
   * Errors in Adobe Workfront Fusion {#errors-in-fusion}

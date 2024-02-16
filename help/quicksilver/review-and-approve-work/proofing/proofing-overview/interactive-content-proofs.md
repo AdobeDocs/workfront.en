@@ -64,7 +64,7 @@ When you bundle interactive content in a ZIP file for proofing, make sure that i
 
 After you prepare your ZIP bundle file, create an interactive proof.
 
-For more information, see [Create a proof for interactive content in a ZIP file](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md).
+For more information, see [Create a proof for interactive content in a ZIP file](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
 
 Or, if you are using Workfront Proof, see the section [Generate a proof for interactive content](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md#generate-a-proof-for-interactive-content) in the article [Generate Proofs in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
 
