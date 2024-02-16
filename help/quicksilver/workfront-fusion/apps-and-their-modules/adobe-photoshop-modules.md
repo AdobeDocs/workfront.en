@@ -308,6 +308,12 @@ This action module executes Depth Blur on the selected file.
       </td>
     </tr>
     <tr>
+      <td role="rowheader">[!UICONTROL Overwrite]</td>
+      <td>
+        <p>Select whether the newly edited file will overwrite any output file that already exists.</p>
+      </td>
+    </tr>
+    <tr>
       <td role="rowheader">
         <p>[!UICONTROL Compression]</p>
       </td>
@@ -317,6 +323,91 @@ This action module executes Depth Blur on the selected file.
 </table>
 
 #### Execute Photoshop Actions
+
+This action module executes a Photoshop action on the selected image.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Photoshop], see <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Create a connection to [!DNL Adobe Photoshop]</a> in this article.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Input file storage]</td>
+      <td>
+        <p>Select the file service where the file you want to edit is stored.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Input file URL]</p>
+      </td>
+   <td> Enter or map the URL or path of the file that you want to edit. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Actions file storage]</td>
+      <td>
+        <p>Select the file service where actions file is stored.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Actions file URL]</p>
+      </td>
+   <td> Enter or map the URL or path of the actions file. </td> 
+    </tr>
+     <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Action name]</p>
+      </td>
+   <td> If you only want to execute a particular action, you may specify which action to play from the ActionSet. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Font / Pattern / Brush storage]</td>
+      <td>
+        <p>Select the file service where the file you want to use is stored.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Font / Pattern / Brush file URL]</p>
+      </td>
+   <td> Enter or map the URL or path of the file that you want to use. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Output file storage]</td>
+      <td>
+        <p>Select the file service where the you want the edited file to be stored.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Output file URL]</p>
+      </td>
+   <td> Enter or map the URL or path of where the edited file will be stored. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Output file type]</p>
+      </td>
+   <td> Select the file type for the edited file. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Overwrite]</td>
+      <td>
+        <p>Select whether the newly edited file will overwrite any output file that already exists.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Compression]</p>
+      </td>
+   <td> Select the compression level for the output file. </td> 
+    </tr>
+  </tbody>
+</table>
 
 #### Execute Product Crop
 
