@@ -672,7 +672,7 @@ feature-set: Workfront
       * [Manage API keys](administration-and-setup/manage-workfront/security/manage-api-keys.md)
       * [Privacy policy](administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)
       * [Enhanced Authentication overview](administration-and-setup/manage-workfront/security/get-started-enhanced-authentication.md)
-      * [Update SAML 2.0 metadata in your IDP when using enhanced authentication](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth-.md)
+      * [Update SAML 2.0 metadata in your IDP when using enhanced authentication](administration-and-setup/add-users/single-sign-on/update-saml-2-metadata-ip-eauth.md)
     * Exchange rates {#exchange-rates}
       * [Exchange rates](administration-and-setup/manage-workfront/exchange-rates/exchange-rates.md)
       * [Set up exchange rates](administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md)
@@ -1813,7 +1813,7 @@ feature-set: Workfront
       * [Configure personal proofing defaults](review-and-approve-work/proofing/creating-proofs-within-workfront/set-proof-defaults.md)
       * [Create a multi-page proof](review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
       * [Create an interactive proof for a website or other web content](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)
-      * [Create a proof for interactive content in a ZIP file](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md)
+      * [Create a proof for interactive content in a ZIP file](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md)
       * [Create a static proof for a website or other web content](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md)
       * [Create a proof for a document](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md)
       * [Create an advanced proof with a Basic workflow](review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
@@ -2085,7 +2085,7 @@ feature-set: Workfront
     * [Connect Adobe Workfront Fusion to a web service that uses API token authorization](workfront-fusion/connections/connect-wf-web-service-uses-api-token-auth.md)
     * [Connect Adobe Workfront Fusion to Google Services with updated security measures](workfront-fusion/connections/connect-to-google-with-new-security-measures.md)
     * [Connect Adobe Workfront Fusion to Google Services using a custom OAuth client](workfront-fusion/connections/connect-fusion-to-google-using-oauth.md)
-    * [Call the MS Graph REST API via the Adobe Workfront Fusion HTTP > Make an OAuth 2.0 request module](workfront-fusion/connections/call-the-ms-graph-rest-api-.md)
+    * [Call the MS Graph REST API via the Adobe Workfront Fusion HTTP > Make an OAuth 2.0 request module](workfront-fusion/connections/call-the-ms-graph-rest-api.md)
     * [Keys in Adobe Workfront Fusion](workfront-fusion/connections/keys.md)
     * [Receive a webhook from a web service](workfront-fusion/connections/receive-a-webhook-from-a-web-service.md)
   * Errors in Adobe Workfront Fusion {#errors-in-fusion}
