@@ -166,6 +166,10 @@ After the webhook is created, you can view the address of the endpoint that even
 
 ### Cards
 
+#### Add checklist item
+
+#### Attach record
+
 #### Read card
 
 This action module retrieves information about a specific card.
