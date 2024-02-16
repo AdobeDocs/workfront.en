@@ -11,6 +11,8 @@ exl-id: 3579ae0f-1d2e-4ff5-bbdf-58fdd20d01d7
 ---
 # Add a custom field to a custom form with the legacy form builder
 
+<!-- Audited: 02/2024 -->
+
 When you are working on a custom form, you can create a new custom field and add it to a custom form.
 
 You can also add a custom field that was already added to another custom form. For instructions, see [Reuse a custom field or widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
@@ -30,30 +32,33 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront plan</p> </td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>
+   <p>New: Standard</p>
+   <p>or</p>
+   <p>Current: Plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Administrative access to custom forms</p> <p>For information about how Workfront administrators grants this access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td>Administrative access to custom forms </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Add a custom field to a custom form
+## Add a custom field to a custom form {#add-custom-field-to-custom-form}
 
 1. Begin creating or editing a custom form, as described in [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-1. Open the **Add a field** tab.
+1. Select the **Add a field** tab.
 
-   ![](assets/add-a-field.jpg)
+   ![Add a field tab](assets/add-a-field.jpg)
 
-1. With **New Field** ![](assets/new-field.jpg) selected, select one of the field types listed below:
+1. With **New Field** ![New Field icon](assets/new-field.jpg) selected, select one of these field types:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -71,7 +76,7 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Text Field with Formatting</td> 
-      <td>Allows users to type multiple lines of text in the field and format the text with bold, italics, underline, bullets, numbering, hyperlinks, and block quotes. This is available in Home, the Updates area, lists, and the Details area for Workfront objects. A character limit of 15,000 allows for plenty of text and formatting.</p> <p>For information about accessing this field through the API, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Rich text field storage in the API</a>.</p> <p><b>NOTE</b>:  Text fields with formatting are not available for Workfront mobile apps (available in coming releases). </p> </td> 
+      <td>Allows users to type multiple lines of text in the field and format the text with bold, italics, underline, bullets, numbering, hyperlinks, and block quotes. This is available in Home, the Updates area, lists, and the Details area for Workfront objects. A character limit of 15,000 allows for plenty of text and formatting.</p> <p>For information about accessing this field through the API, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Rich text field storage in the API</a>.</p> <p><b>NOTE</b>:  Text fields with formatting are not available for Workfront mobile apps. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Dropdown</td> 
@@ -144,7 +149,7 @@ You must have the following to perform the steps in this article:
       <li>Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the custom field where it might now be referenced in other areas of Workfront. <p>For example, if you add the custom field to a report and later change its name, Workfront doesn't recognize it in the report and it will stop functioning correctly there unless you re-add it to the report using the new name.</p> </li>
       <li> <p>We recommend that you do not type a name that is already used for built-in Workfront fields.</p> </li>
       <li><p>We recommend that you do not use the period/dot character in the custom field name, to prevent errors when using the field in different areas of Workfront.</p></li>
-      </ul> <p>Each custom field name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form. For more information, see <a href="#Add" class="MCXref xref">Add a custom field to a custom form</a> in this article.</p> </td>
+      </ul> <p>Each custom field name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form. For more information, see <a href="#add-a-custom-field-to-a-custom-form">Add a custom field to a custom form</a> in this article.</p> </td>
      </tr> 
      <tr> 
       <td role="rowheader">Instructions</td> 
@@ -190,7 +195,8 @@ You must have the following to perform the steps in this article:
         <li>They belong to a group or groups that you specify</li> 
         <li>They are associated with a role or job title you specify</li> 
         <li>They belong to the same group as the person using the field</li> 
-       </ul> <p>You must define the filter for the object type you selected using Text Mode syntax. For information about creating a filter using Text Mode, see the section <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md#editing2" class="MCXref xref">Edit text mode in a filter</a> in the article <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md" class="MCXref xref">Text Mode overview</a>. </p> <p><b>NOTE</b>:   
+       </ul> <p>You must define the filter for the object type you selected using Text Mode syntax. For information about creating a filter using Text Mode, see <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edit a filter using text mode</a>.</p>
+       <p><b>NOTE</b>:   
         <ul> 
          <li>If you are editing an existing custom form, adding a filter to a Typeahead field does not remove any objects (outside the scope of the filter) that users have already added using the field.</li> 
          <li>This filter is not available on mobile devices. If you use the filter for a Typeahead field, the field will appear on users' mobile devices unaffected by the filter.</li> 
@@ -214,15 +220,15 @@ You must have the following to perform the steps in this article:
       <p><b>NOTE</b>: This option is not available for the following:</p> 
       <ul> 
       <li>Custom forms associated with the following object types: Expense, Company, Iteration, Billing Record, and Group.</li> 
-      <li>The following field types: Calculated , Descriptive Text , and Section Break</li> 
+      <li>The following field types: Calculated, Descriptive Text, and Section Break</li> 
       </ul>
       <p><b>IMPORTANT</b>:  Selecting or deselecting an object type here affects all custom forms that are associated with the selected object type and that contain this field. For example, if you deselect an object type here and save the custom form, the field's value changes are no longer tracked for that object type in any custom form that contains the field.</p>
        <p>After you select an object type here for a field and save the custom form, the field displays on the Custom Fields tab in the Update Feeds area in Setup.</p> 
        <p>Conversely, if this field is deleted in the Update Feeds area in Setup, the object type for this setting is deselected on all custom forms that are associated with the object type and that contain this field.</p> 
-       <p>For more information, see the section <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#adding-fields-to-the-update-feeds" class="MCXref xref">Add fields you want Workfront to track</a> in the article <a href="../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md" class="MCXref xref">Configure system updates</a>.</p> </td> 
+       <p>For more information, see the section <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md#add-fields-you-want-workfront-to-track">Add fields you want Workfront to track</a> in the article <a href="/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md">Configure system updates</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Add Logic</td> 
+      <td role="rowheader">Add Logic</td>
       <td>Specify which fields should appear on the form, based on selections users make in existing fields. For more information, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Add display logic and skip logic to a custom form</a>.</td> 
      </tr> 
      <tr> 
@@ -263,11 +269,11 @@ You must have the following to perform the steps in this article:
    >* If you change to Radio Buttons, Workfront retains any multi-select values that a user may have entered in the field until the user changes and saves data in any part of the form. At this point, any values that were selected using the multi-select-type field are replaced by the selected Radio Button value.
    >* If you change to a single-select Dropdown, Workfront retains any multi-select values that a user may have entered in the field until the user changes and saves the values in the field. At this point, any values that were selected using the multi-select-type field are replaced by the selected Dropdown value.
 
-1. (Optional) Repeat steps 2-6 to add other custom fields.
+1. (Optional) Repeat steps 3-5 to add more custom fields.
 
    Or
 
-   Add fields that have already been created for your organization, as explained in [Reuse a custom field or widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md#add).
+   Add fields that have already been created for your organization, as explained in [Reuse a custom field or widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
 
    >[!NOTE]
    >
