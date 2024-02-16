@@ -61,15 +61,15 @@ You must have the following access to use the functionality in this article:
 
 Before you can use the [!DNL Adobe Photoshop] connector, you must ensure that the following prerequisites are met:
 
-*   You must have an active [!DNL Adobe Photoshop] account.
+* You must have an active [!DNL Adobe Photoshop] account.
 
 ## Create a connection to [!DNL Adobe Photoshop]
 
 To create a connection for your [!DNL Adobe Photoshop] modules:
 
-1.  Click **[!UICONTROL Add]** next to the Connection box.
+1. Click **[!UICONTROL Add]** next to the Connection box.
     
-2.  Fill in the following fields:
+2. Fill in the following fields:
     
   <table style="table-layout:auto"> 
     <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
@@ -126,7 +126,7 @@ To create a connection for your [!DNL Adobe Photoshop] modules:
     </tbody>
   </table>
     
-1.  Click **[!UICONTROL Continue]** to save the connection and return to the module.
+1. Click **[!UICONTROL Continue]** to save the connection and return to the module.
     
 ## [!DNL Adobe Photoshop] modules and their fields
 
