@@ -48,16 +48,19 @@ This page provides information about functionality that is included in the Secon
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Skip logic and display logic are now available in the form designer beta</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Skip logic and display logic are now available in the form designer beta</a></p>
                         <p>You can now edit existing display and skip logic and add new logic to custom forms in the form designer beta. An easy-to-use logic builder helps you define which fields to display or skip based on selections in the form.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: February 8, 2024<br /></p>
+                                <p>Preview release: February 8, 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Production for all customers: With the 24.2 release (February 15, 2024)</span></p>
+                                <p>Production for fast release: With the 24.2 release (February 15, 2024)</p>
+                            </li>
+                            <li>
+                                <p>Production for all customers: TBD</p>
                             </li>
                         </ul>
                     </td>
