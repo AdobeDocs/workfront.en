@@ -285,7 +285,7 @@ feature-set: Workfront
         * [2020.1 Resource Management enhancements](product-announcements/product-releases/2020.1-release-activity/2020-1-resource-management-enhancements.md)
         * [Other Workfront Classic features released to Production prior to the 2020.1 release](product-announcements/product-releases/2020.1-release-activity/prior-to-2020-1.md)
       * 2019.4 release {#release-19-4}
-        * [2019.4 release overview](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md)
+        * [2019.4 release overview](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md)
         * [2019.4 List enhancements](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-list-enhancements.md)
         * [2019.4 Mobile enhancements](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-mobile-enhancements.md)
         * [2019.4 other enhancements](product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-other-enhancements.md)
