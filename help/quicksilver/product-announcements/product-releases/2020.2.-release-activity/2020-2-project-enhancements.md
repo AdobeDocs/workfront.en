@@ -12,7 +12,7 @@ exl-id: 150bc838-d6a5-445a-af77-62c4ed74dd1b
 
 This page describes all Project enhancements made with the 2020.2 release to the Production environment. These enhancements were made available in the Production environment the week of May 11, 2020.
 
-For a list of all changes available with the 2020.2 release, see [2020.2 release overview](../../../product-announcements/product-releases/2020.2.-release-activity/2020.2-release-overview.md).
+For a list of all changes available with the 2020.2 release, see [2020.2 release overview](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
 
 ## For Workfront administrators: New failsafe when the project status for new projects is hidden or unlocked
 
