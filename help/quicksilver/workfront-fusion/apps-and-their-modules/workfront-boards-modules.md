@@ -193,7 +193,32 @@ This action module retrieves information about a specific card.
 
 This action module updates information for a card you specify.
 
-
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>You can use an existing Workfront connection to connect to Workfront Boards, or you can use a specific Workfront Boards connection. </p><p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Create a connection to Workfront Boards</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Card ID]</td> 
+   <td>Enter or map the ID of the card you want to update.<p>You can find the card ID in the URL when viewing the card in Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Board ID]</td> 
+   <td>Enter or map the ID of the board that contains the card you want to update.<p>You can find the card ID in the URL when viewing the card in Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Name]</td> 
+   <td>Enter or map a new name for the card.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Card ID]</td> 
+   <td>Enter or map a new description for the card/\.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
 
 ### Boards
 
