@@ -144,7 +144,7 @@ This trigger module starts a scenario when an event occurs on a board.
      </tr> 
      <tr> 
       <td>[!UICONTROL Connection]</td> 
-      <td> <p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Create a connection to Workfront Boards</a> in this article.</p> </td> 
+      <td> <p>You can use an existing Workfront connection to connect to Workfront Boards, or you can use a specific Workfront Boards connection. </p><p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Create a connection to Workfront Boards</a> in this article.</p> </td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Object type]</td> 
@@ -170,7 +170,7 @@ After the webhook is created, you can view the address of the endpoint that even
 
 #### Attach record
 
-#### Read card
+#### Read a card
 
 This action module retrieves information about a specific card.
 
@@ -180,7 +180,7 @@ This action module retrieves information about a specific card.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Create a connection to Workfront Boards</a> in this article.</p> </td> 
+      <td> <p>You can use an existing Workfront connection to connect to Workfront Boards, or you can use a specific Workfront Boards connection. </p><p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Create a connection to Workfront Boards</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
@@ -188,6 +188,12 @@ This action module retrieves information about a specific card.
   </tr> 
  </tbody> 
 </table>
+
+#### Update a card
+
+This action module updates information for a card you specify.
+
+
 
 ### Boards
 
@@ -201,7 +207,7 @@ This action module creates a basic board in Workfront.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Create a connection to Workfront Boards</a> in this article.</p> </td> 
+      <td> <p>You can use an existing Workfront connection to connect to Workfront Boards, or you can use a specific Workfront Boards connection. </p><p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Create a connection to Workfront Boards</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
@@ -222,7 +228,7 @@ This action module creates a basic board in Workfront.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-      <td> <p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Create a connection to Workfront Boards</a> in this article.</p> </td> 
+      <td> <p>You can use an existing Workfront connection to connect to Workfront Boards, or you can use a specific Workfront Boards connection. </p><p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Create a connection to Workfront Boards</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
