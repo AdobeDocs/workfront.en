@@ -14,7 +14,7 @@ exl-id: 159a5bd0-e0f4-4670-8143-dfc24a7caf81
 * [20.3 release overview](/help/quicksilver/product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md)
 * [2020.2 release overview](/help/quicksilver/product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md)
 * [2020.1 release overview](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md)
-* [2019.4 release overview](../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md) 
+* [2019.4 release overview](../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md) 
 * [2019.3 release activity overview](../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md) 
 * [2019.2 release activity overview](../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md) 
 * [2019.1 release activity overview](../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md) 
