@@ -16,7 +16,7 @@ exl-id: 77de46a0-cf3c-4226-ad03-08f30420724b
 
 This page describes all List enhancements made with the 2019.4 release. These enhancements will be made available in the Production environment the week of November 11, 2019.
 
-For a list of all changes made in 2019.4, see [2019.4 release overview](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md).
+For a list of all changes made in 2019.4, see [2019.4 release overview](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 

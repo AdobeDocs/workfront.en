@@ -12,7 +12,7 @@ exl-id: ed7488f1-2076-4160-97f3-a3da25cccd0f
 
 This page describes various enhancements made with the 2019.4 release. It will be made available in the Production environment the week of November 11, 2019.
 
-For a list of all changes made in 2019.4, see [2019.4 release overview](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md).
+For a list of all changes made in 2019.4, see [2019.4 release overview](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 
