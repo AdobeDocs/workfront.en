@@ -13,7 +13,7 @@ exl-id: 4ad56965-b17c-43b3-bc12-8fead52fda3d
 
 This page describes all mobile changes enhancements made with the 2019.4 release. It will be made available in the Production environment the week of November 11, 2019.
 
-For a list of all changes made in 2019.4, see [2019.4 release overview](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md).
+For a list of all changes made in 2019.4, see [2019.4 release overview](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,7 +30,7 @@ For a list of all changes made in 2019.4, see [2019.4 release overview](../../..
      </ul> 
      <p><strong>Estimated Production release:</strong> </p> 
      <ul> 
-      <li> <p>November 2019 with the 2019.4 release</p> <p>For more information about the 2019.4 release, see <a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">2019.4 release overview</a></p> </li> 
+      <li> <p>November 2019 with the 2019.4 release</p> <p>For more information about the 2019.4 release, see <a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">2019.4 release overview</a></p> </li> 
      </ul> 
     </div></td> 
   </tr> 
@@ -43,7 +43,7 @@ For a list of all changes made in 2019.4, see [2019.4 release overview](../../..
      </ul> 
      <p><strong>Estimated Production release:</strong> </p> 
      <ul> 
-      <li> <p>November 2019 with the 2019.4 release</p> <p>For more information about the 2019.4 release, see <a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">2019.4 release overview</a></p> </li> 
+      <li> <p>November 2019 with the 2019.4 release</p> <p>For more information about the 2019.4 release, see <a href="../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md" class="MCXref xref" xrefformat="{para}">2019.4 release overview</a></p> </li> 
      </ul> 
     </div></td> 
   </tr> 

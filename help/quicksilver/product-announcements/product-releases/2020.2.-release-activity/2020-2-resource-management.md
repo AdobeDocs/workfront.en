@@ -12,7 +12,7 @@ exl-id: 00cc1205-5d58-485b-8076-e177f1d931f9
 
 This page describes all Resource Management enhancements made with the 2020.2 release to the Production environment. These enhancements were made available in the Production environment the week of May 11, 2020.
 
-For a list of all changes available with the 2020.2 release, see [2020.2 release overview](../../../product-announcements/product-releases/2020.2.-release-activity/2020.2-release-overview.md).
+For a list of all changes available with the 2020.2 release, see [2020.2 release overview](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
 
 People are a Tier 1 asset. With the Workload Balancer, you can protect them from burnout and empower them to do their best work, while aligning them to key company strategies. Introducing a reimagined scheduling experience that allows you to visualize and manage people's workloads and demand in the same view. The user interface provides clear visual mapping of over and underutilization and is transparent to all stakeholders. People managers can use that information as an input and from the same screen rebalance the effort through the timeline, which is then reflected in the rest of the Workfront platform.
 

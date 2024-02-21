@@ -12,7 +12,7 @@ exl-id: 46ed705e-b966-4ae9-a602-a5a73a3de3aa
 
 This page describes all other enhancements made with the 2020.2 release to the Production environment. These enhancements were made available in the Production environment the week of May 11, 2020.
 
-For a list of all changes available with the 2020.2 release, see [2020.2 release overview](../../../product-announcements/product-releases/2020.2.-release-activity/2020.2-release-overview.md).
+For a list of all changes available with the 2020.2 release, see [2020.2 release overview](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
 
 ## For Workfront administrators: Newer Layout Templates created in Workfront Classic now available in the new Workfront experience
 

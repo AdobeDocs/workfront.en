@@ -12,7 +12,7 @@ exl-id: d45f28f5-509f-4cd8-b2f4-90b867ae573e
 
 This page describes all Resource Management enhancements made with the 2019.4 release. It will be made available in the Production environment the week of November 11, 2019.
 
-For a list of all changes made in 2019.4, see [2019.4 release overview](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019.4-release-activity-overview.md).
+For a list of all changes made in 2019.4, see [2019.4 release overview](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 
