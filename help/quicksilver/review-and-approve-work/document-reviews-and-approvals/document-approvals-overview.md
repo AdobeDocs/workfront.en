@@ -45,6 +45,6 @@ If you would like to have New Document Approvals enabled in you production envir
 
 ## Using New Document Approvals
 
-For users looking to create or manage document approvals, see the articles listed in [Manage document approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
+For users looking to create or manage document approvals, see the articles listed in [Approve documents: article index](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
 
-For users looking to review or approve documents for which they have received a request, see the articles listed in [Review and approve documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md).
+For users looking to review or approve documents for which they have received a request, see the articles listed in [Review documents: article index](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
