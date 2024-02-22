@@ -458,7 +458,7 @@ feature-set: Workfront
   * User management {#add-users}
     * [User management: article index](administration-and-setup/add-users/add-users.md)
     * Create and manage users {#create-manage-users}
-      * [Create and anage users: article index](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
+      * [Create and manage users: article index](administration-and-setup/add-users/create-and-manage-users/create-and-manage-users.md)
       * [Add users](administration-and-setup/add-users/create-and-manage-users/add-users.md)
       * [Import users](administration-and-setup/add-users/create-and-manage-users/import-users.md)
       * [Edit a user's profile](administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
