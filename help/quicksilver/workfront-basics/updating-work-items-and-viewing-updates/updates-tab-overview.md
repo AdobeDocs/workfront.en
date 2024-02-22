@@ -36,7 +36,6 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 >The new commenting experience is available only for the Updates section of Workfront objects, and it is not available when you access the objects from the following areas:
 >
 > * Home
-> * Summary panel in lists
 > * Summary panel in timesheets 
 > * Summary panel in the Workload Balancer
 
@@ -44,7 +43,7 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 
 The Updates section of an object shows system updates, and up to 200 of the most recent updates users made within the past 90 days. 
 
-  ![](assets/updates-tab-after-unified-experience-for-issues.png)
+  ![Updates section](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
 
 Depending on what objects you access the commenting experience for, you might find the following experience for the Updates section:
 
@@ -80,11 +79,11 @@ Depending on what objects you access the commenting experience for, you might fi
 
   * Iterations
 
-    There is no option to enable the new commenting experience for iterations. 
+    There is no option to enable the new commenting experience for iterations.
 
 ### Overview of the Updates section in the new commenting experience
 
-![](assets/updates-tab-after-unified-experience-for-tasks.png)
+![Updates section](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
 >[!NOTE]
 >
@@ -94,8 +93,9 @@ Depending on what objects you access the commenting experience for, you might fi
 * The Updates section displays information in the following tabs in the new commenting experience: 
 
 
-  * **Comments**: Displays comments made by users and replies to those comments. Use the Comments tab to add new comments or reply to existing ones. For information about updating objects in the new commenting experience, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
+  * **Comments**: Displays comments made by users and replies to those comments. Use the Comments tab to add new comments or reply to existing ones. For information about updating objects in the new commenting experience, see [Update work](../updating-work-items-and-viewing-updates/update-work.md).
   * **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, changes in status, name, or custom fields are captured with system updates. Your Workfront or group administrator can enable system updates for your objects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+  * **All (read-only)**: Displays both user comments and system activity comments in one place. This is a view-only tab. You cannot reply to comments or tag other users in existing comments in the All tab. To reply to a specific comment, use the link from the All tab to the Comments tab. For information about updating objects in the new commenting experience, see [Update work](../updating-work-items-and-viewing-updates/update-work.md).
 
 * The following objects don't have a System Activity tab:
 
