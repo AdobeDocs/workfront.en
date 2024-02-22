@@ -269,6 +269,11 @@ In the Preview Sandbox environment
       * **Object data**: Select the source for the folder name, such as Project name.
       * **Custom form data**: Select the custom form data to use as the folder name.
 
+      >[!NOTE]
+      >
+      >* Folder names must be fewer than 100 characters.
+      >* The following characters will be removed from folder names:
+
    1. To add a nested folder to the folder tree, click the three-dot menu next to the folder you want to create a nested folder in and select **Add Folder**. Fill in the fields as described in Step the previous step.
    1. To link a folder to Workfront, select the folder and click the **Make linked folder**   icon ![Link folder](assets/link-folder.png).
    1. (Optional) To edit a folder, select the folder and click the **Edit Folder** icon ![Edit icon](assets/edit-icon.png).
