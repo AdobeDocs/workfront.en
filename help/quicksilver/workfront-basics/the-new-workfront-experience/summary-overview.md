@@ -3,6 +3,7 @@ content-type: overview
 title: Summary overview
 description: ou can use the Summary panel to review and update work item information directly from a list of tasks issues, documents, or from other areas of [!DNL Adobe Workfront] that display tasks and issues.
 feature: Get Started with Workfront
+author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
 ---
 # [!UICONTROL Summary] overview
@@ -110,7 +111,7 @@ You must have the following access to perform the steps in this article:
    >
    >You can only select one task or one issue at a time to view their details in the [!UICONTROL Summary] panel.
 
-   ![Summary panel](assets/summary-panel-for-task.png)
+   ![Summary panel](assets/summary-panel-for-task-new-comments.png)
 
 1. (Optional) To close the [!UICONTROL Summary] panel, do one of the following:
 
@@ -130,19 +131,19 @@ You must have the following access to perform the steps in this article:
 
 Use the progress bar at the top of the [!UICONTROL Summary] to update the percent complete for the task or issue that you've selected. Enter a number or drag the bar to the correct percentage.
 
-![](assets/summary-overview-percent-complete-350x395.png)
+![Percent complete in Summary panel](assets/summary-overview-percent-complete.png)
 
 ## [!UICONTROL Updates]
 
 Use the [!UICONTROL Updates] section of the [!UICONTROL Summary] to view recent updates and make updates on the task or issue you selected. Click **[!UICONTROL See all]** to go directly to the [!UICONTROL Updates] tab on the task.
 
-![](assets/summary-updates-with-block-quote-350x290.png)
+![Updates section in Summary panel](assets/summary-updates-section.png)
 
 ## [!UICONTROL Documents]
 
 Use the [!UICONTROL Documents] section of the [!UICONTROL Summary] to see documents attached to the task or issue you selected. Click the thumbnail to open a document preview. To go directly to the [!UICONTROL Documents] tab on the task or issue, click the **[!UICONTROL Documents]** title.
 
-![](assets/summary-overview-documents-350x84.png)
+![Documents section in Summary panel](assets/summary-documents-section.png)
 
 ## [!UICONTROL Details]
 
@@ -152,7 +153,7 @@ Use the [!UICONTROL Details] section of the [!UICONTROL Summary] to view high-le
 >
 >The fields that appear in this section are the same fields that appear in the right panel in Home. You can customize these fields [Customize [!UICONTROL Home] and [!UICONTROL Summary] using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
-![](assets/summary-overview-details-new-350x278.png)
+![Details section in Summary panel](assets/summary-details-section.png)
 
 ## [!UICONTROL Subtasks]
 
@@ -160,7 +161,7 @@ This section is only available for tasks. Use the [!UICONTROL Subtasks] section 
 
 If you have not added any subtasks to the task, click **[!UICONTROL Add one here]** to go directly to the [!UICONTROL Subtasks] tab on the task.
 
-![](assets/summary-overview-subtasks-350x140.png)
+![Subtasks section in Summary panel](assets/summary-subtasks-section.png)
 
 ## [!UICONTROL Hours]
 
@@ -170,7 +171,7 @@ The hour count in the [!UICONTROL Summary] displays the hours you log. Other use
 
 If there are no planned [!UICONTROL hours] on the task or issue and you have logged time, the hours bar displays red.
 
-![](assets/summary-overview-hours-350x96.png)
+![Hours section in Summary panel](assets/summary-hours-section.png)
 
 ## Approvals
 
@@ -178,4 +179,4 @@ Use the [!UICONTROL Approvals] section of the [!UICONTROL Summary] to view appro
 
 To go directly to the [!UICONTROL Approvals] tab on the task or issue, click the **[!UICONTROL Approvals]** title.
 
-![](assets/summary-overview-approvals-350x122.png)
+![Approvals section in Summary panel](assets/summary-approvals-section.png)
