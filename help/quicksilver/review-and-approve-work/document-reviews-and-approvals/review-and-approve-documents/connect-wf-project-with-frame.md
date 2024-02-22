@@ -51,13 +51,14 @@ For more detail about the information in this table, see [Access requirements in
 
 {{step1-to-projects}}
 
-1. Create a new project from scratch or a template. For information on how to create a project, see []. 
+1. Create a new project from scratch or a template. For information on how to create a project, see [Create a project](/help/quicksilver/manage-work/projects/create-projects/create-project.md). 
 
 1. In the left panel, find **Project Details**. 
 
 1. Find the **Group** field on the right side of the screen, and remove the Default group.  
 
 1. In the drop-down menu, find the desired group. Groups connected with Frame.io display the Frame.io icon.
+![](assets/add-frame-group.png)
 
 1. Make any other project configuration changes. 
 
@@ -69,9 +70,9 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Create the tasks you need to populate in Frame.io 
 
-1. Select the tasks you need, then click Edit. 
+1. Select the tasks you need, then click **Edit**. 
 
-1. Scroll to the Custom Forms section, and find the Frame.io integration form.  
+1. Scroll to the **Custom Forms** section, and find the Frame.io integration form.  
 
     >[!IMPORTANT]
     >
@@ -92,4 +93,4 @@ The project is still not connected, you must continue to the next section to fin
 
 1. Change the status from **Planning** to **Current**. This finishes the integration and generates the project, tasks, and any documents in Frame.io. 
 
-The frame icon next to the project name turns purple signaling the integration was successful. 
+The frame icon next to the project name turns purple signaling the integration was successful.
