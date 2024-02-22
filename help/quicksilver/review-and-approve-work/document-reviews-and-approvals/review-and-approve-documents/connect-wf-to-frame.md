@@ -14,6 +14,10 @@ Workfront uses Frame.io teams to start the integration
 
 We are actively improving this feature.
 
+>[!IMPORTANT]
+>
+>The content of this article refers to updated document approval functionality that is only available for specific accounts. For information on standard approval processes, see the articles listed in [Work approvals](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
