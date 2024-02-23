@@ -5,6 +5,7 @@ title: 20.4 release overview
 description: The 20.4 release was made available in the Production environment the week of November 9, 2020. For specific release dates and times for each cluster, see the Workfront Status Site.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 7cf7f6ed-fe85-4c86-bb4b-dd93197338cf
 ---
 # 20.4 release overview
@@ -283,7 +284,7 @@ This page provides information about functionality for both Adobe Workfront Clas
 
 ## Workfront Scenario Planner enhancements
 
-Most new features coming to Workfront Scenario Planner release with the 20.4 release. For information about these new features now available in Preview, see [Workfront Scenario Planner with the 20.4 release - October 14, 2020](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-20.4.md).
+Most new features coming to Workfront Scenario Planner release with the 20.4 release. For information about these new features now available in Preview, see [Workfront Scenario Planner with the 20.4 release - October 14, 2020](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-4.md).
 
 ## Workfront Goals enhancements
 

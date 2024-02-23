@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: work-with-proofs-and-files
 title: Automated Workflow in [!DNL Workfront Proof]
-description: This section contains the following articles - EDIT ME.
+description: Learn about automated workflows in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog

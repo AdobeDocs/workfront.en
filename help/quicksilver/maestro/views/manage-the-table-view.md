@@ -20,15 +20,7 @@ hide: yes
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
->[!IMPORTANT]
->
->The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
->
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
->
->Contact your account representative for more information about joining the beta program for Maestro.
->
->For information, see [Adobe Maestro overview](../maestro-overview.md).
+{{maestro-important-intro}}
 
 You can display records and their fields in a table view, when accessing the record type page in Adobe Maestro. 
 
@@ -40,9 +32,14 @@ You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> Adobe product</p> </td>
+   <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -65,28 +62,24 @@ You must have the following access to perform the steps in this article:
   </tr>
   
   <tr>
-   <td role="rowheader">Access level</td>
-   <td> <p>Any</p>  
+   <td role="rowheader">Access level configuration</td>
+   <td> <p>There are no access level controls for Maestro </p>  
 </td>
   </tr>
+
+  <tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to the view</p>  
+</td>
+  </tr>
+
 <tr>
    <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
  </tbody>
 </table>
-
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>--> 
 
 ## Manage a table view {#manage-a-table-view}
 
@@ -112,17 +105,17 @@ To manage a table view:
 
 The column headers of a Maestro table view display fields associated with the records in the view. The same fields displayed in the table view also display in the Details section of a Maestro record. For more information, see [Edit records](../records/edit-records.md). 
 
-<!-- this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default. -->
+<!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
 Adding columns to a view is identical to adding fields to a record type.  
 
 You can add up to 500 fields (or columns) in a table view. 
 
 1. Go to a record type page and select a **Table** view from the view drop-down menu.
-1. Start adding fields (or columns), as described in the article [Create fields](../architecture-and-fields/create-fields.md). 
+1. Start adding fields (or columns), as described in the article [Create fields](../fields/create-fields.md). 
 
     The columns you add are visible to all users who access the record type and are added as new fields on the Details page of the records of the selected record type.
-
+   
 1. Do one of the following to reorder columns in the table:
 
     * Grab the column header and drag and drop it in the desired position. The column you moved briefly displays with a blue background until you make other adjustments to the table. 
@@ -131,15 +124,44 @@ You can add up to 500 fields (or columns) in a table view.
 
         ![](assets/fields-setting-table-view-toolbar-expanded.png)
 
-    >[!TIP]
+
+        >[!TIP]
+        >
+        >* The Name field is always the first field in the table view, by default. This is considered a primary field. 
+        >
+        >* You cannot move the Name field to another position, unless you designate another field as the primary field. For more information, continue with Step 4. <!--accurate?-->
+        >
+        >* You cannot hide or delete a primary field. 
+        >
+        >* The primary field is frozen and is not part of the horizontal scroll.
+ 
+    * Replace the field in the first column with another field by changing the primary field. For more information, continue to step 4. <!--accurate?-->
+
+1. (Optional) Hover over a field name in the column header of any field that does not display in the first column of the table, click the downward-pointing arrow to the right of the field name, then click **Set as primary field**. 
+    
+    ![](assets/set-as-primary-field-option-table-view.png)
+
+1. Click **Set field** to confirm. 
+
+    The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves to the second column.
+
+    >[!NOTE]
     >
-    >* The Name field is always the first field in the table view.
+    >   * Only fields of the following types can be primary fields: 
     >
-    >* You cannot move the Name field to another position.
+    >       * Single-line text
+    >       * Number
+    >       * Formula
     >
-    >* You cannot hide the Name field. 
+    >   * The primary field is always frozen and cannot be moved. You can select another field to replace a primary field, if you need to move it to another position. 
     >
-    >* The Name field is frozen and is not part of the horizontal scroll.
+    >   * Changing the primary field in your table view affects the view for all other users who choose it.
+    >
+    >   * Changing the primary field in a table view affects all your table views. 
+    >
+    >   * You cannot delete or hide a primary field. 
+    >
+    >   * The value listed in the primary field is always hyperlinked to the record's Details page.
 
 1. Click and drag the column separation lines and drop them in the desired spot to increase the width of the columns. 
 
@@ -162,17 +184,19 @@ You can add up to 500 fields (or columns) in a table view.
 
 1. Do the following to quickly find records that match a keyword:
 
-    1. Click the **search** icon ![](assets/search-icon.png) and start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the field with the correct match is highlighted in blue. 
+    1. Click the **Search** icon ![](assets/search-icon.png) and start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the field with the correct match is highlighted. 
+
+        ![](assets/search-box-with-results-blue-outline-table-view.png)
 
         You can use any word or special character that is visible on the screen. 
     
         You cannot use keywords that are associated with fields that are hidden in the table view. 
 
-        ![](assets/search-box-with-results-blue-outline-table-view.png)
+    1. Press **Enter** on your keyboard to go to the next found field. 
 
     1. (Optional) If there is more than one match, click the up and down arrows to the right of the search keyword to find all the matches in the table. 
 
-    1. Click the **X** icon in the search box to clear the search keyword. 
+    1. Click the **x** icon in the search box to clear the search keyword. 
    
 
 ### Add rows (or records) {#add-rows}
@@ -184,7 +208,11 @@ You can have up to 10,000 records (or rows) for a record type in Maestro.
 1. Go to a record type page and select a **Table** view from the view drop-down menu.
 1. Start adding records (or rows), as described in the article [Create records](../records/create-records.md). 
 
-    The records you add in the table view are saved immediately and are visible to all users who access Maestro. <!--this will change with permissions-->
+    The records you add in the table view are saved immediately and are visible to all users who have View or higher permissions to the workspace. 
+
+1. (Optional) Add a thumbnail to each record, and click **Fields** in the upper-right corner of the table, then select the toggle for the **Thumbnail** field to display it to the left of the primary field. It is deselected by default. 
+    
+    For information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
 1. (Optional) Select one or multiple records in a row, then drag and drop the **handle** icon ![](assets/handle-icon.png) to the left of the record name to reorder the rows. 
 
@@ -192,16 +220,16 @@ You can have up to 10,000 records (or rows) for a record type in Maestro.
     >
     >You cannot reorder rows if you apply at least one sort to the table view. 
 
-<!-- this is not possible right now:
+    <!-- this is not possible right now:
 
-1. To reorder the rows, click the row header, drag and drop it in the desired location. 
+    1. To reorder the rows, click the row header, drag and drop it in the desired location. 
 
-    The changes you make to the row order are permanent and visible to all users who access the record type
--->
+        The changes you make to the row order are permanent and visible to all users who access the record type
+    -->
+
+<!-- this section below links from the timeline view; consider splitting them if they become different-->
 
 ### Add filters {#add-filters}
-
-<!-- this section links from the timeline view; consider splitting them if they become different-->
 
 Filters help you reduce the amount of information displayed on the screen.
 
@@ -232,7 +260,7 @@ To add a filter to a table view:
 
         >[!TIP]
         >
-        > You cannot select linked fields. For information, see [Create fields](../architecture-and-fields/create-fields.md). 
+        > You cannot select linked fields. For information, see [Create fields](../fields/create-fields.md).
 
         <table>
         <thead>
@@ -243,7 +271,7 @@ To add a filter to a table view:
         </thead>
         <tbody>
         <tr>
-            <td>Single-line, paragraph </td>
+            <td>Single-line, Paragraph, Formula </td>
             <td><p>Contains</p>
             <p>Does not contain</p>
             <p>Is</p>
@@ -260,7 +288,7 @@ To add a filter to a table view:
             <p>Is not empty</p></td>
         </tr>
         <tr>
-            <td>Multi-select</td>
+            <td>Multi-select, People</td>
             <td><p>Has any of</p>
             <p>Has all of</p>
             <p>Is exactly</p>
@@ -269,7 +297,7 @@ To add a filter to a table view:
             <p>Is not empty</p></td>
         </tr>
         <tr>
-            <td>Numeric, percentage, currency</td>
+            <td>Number, Percentage, Currency</td>
             <td><p>=</p>
             <p>≠</p>
             <p> < </p>
@@ -313,45 +341,55 @@ To add a filter to a table view:
     
 1. (Optional) Click **Filters**, then click the **x** icon to remove a filter. <!--right now you cannot "clear all" for filters, but this might come later-->
 
-<!-- this is not available yet
-
 ### Add groupings {#add-groupings}
 
-*******************this section might link in the future from the timeline view; right now it's only documented there; also, check the steps below because this was not released to the table when they were written*****************
+<!--this section exists in the timeline view too, but the display is slightly different, so I kept both steps; consider updating both sections if any updates to groupings are introduced-->
 
 You can group records by similar information when applying  a grouping to a view.
 
-You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type. 
+Adding groupings in the table view is similar to adding groupings to the timeline view. 
 
 Consider the following:
 
-* You can apply 3 levels of grouping in a Maestro view. The records are grouped in the order of groupings that you select. (***************check on this; this might be true for timeline, but not for table??? One dev said in a demo that there are unlimited groupings in a table - check *********************)
-* You can apply up to 4 levels of grouping when using the API. 
+* You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type.
+* You can apply 3 levels of grouping in a Maestro view. The records are grouped in the order of groupings that you select. 
+<!--* You can apply up to 4 levels of grouping when using the API. --checking on this one for now-->
+* The groupings are unique to the view that you select. Two table views of the same record type can have different groupings applied to them. Two users looking at the same table view see the same grouping that is currently applied. 
+* You cannot name the groupings you build for a table view.
+* Removing groupings removes them from anyone accessing the same record type as you and who displays the same view as you do. 
+* You can edit records listed under a grouping. 
+<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
+<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
 To add a grouping:
 
-1. Create a view, as described in [Create or edit record views](#create-or-edit-record-views). 
-1. (Conditional) To apply a grouping in the table view, do the following:
-    
-    1. ***************start adding steps for building a grouping - see if there it a global setting or just per column; also, see if the steps are different for a table vs a timeline view?!**********************
-1. (Conditional) To apply a grouping in the timeline view, do the following:
+1. Create a timeline view for a record type, as described in the article [Manage record views](../views/manage-record-views.md). 
+1. Click **Grouping** in the upper-right corner of the timeline view.
 
-    1. Go to a timeline view, then click **Group**. ************************did they rename this to "Grouping"?!****************************
-        ******************insert screen shot***********
-    1. Click one of the 5 suggested fields, or click **Choose a different field** to display all fields, then click one when it displays in the list. 
-    
-        >[!TIP]
-        >
-        > You cannot select linked fields. For information, see [Create fields](../architecture-and-fields/create-fields.md).  
-    The grouping is applied automatically to the timeline and records display inside the grouping box.    <********************ensure this is correct functionality here*************
-    
-    1. (Optional) Click **Add grouping** to add up to 3 groupings. 
+    ![](assets/grouping-ui-table-view.png)
 
-        The number of groupings applied displays to the left of the Grouping icon in the upper-right corner of the toolbar. **********ensure this says "grouping" and not "group"*****************
-    
-    1. (Optional) Click **Clear all** to remove all groupings.  
+1. Click one of the suggested fields, or click **Choose a different field**, search for a different field, then click it when it displays in the list. 
 
---> 
+    >[!TIP]
+    >
+    >You cannot select linked fields. 
+
+    The grouping is applied automatically to the table and records display under the grouping separation line
+    
+1. (Optional) Repeat the above steps to add up to 3 groupings. 
+
+    The number of fields selected for the grouping displays next to the Grouping icon. 
+
+    ![](assets/grouping-applied-in-table-view.png)
+
+1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping
+
+    Or
+
+    Click **Clear all** to remove all fields.  
+
+1. Click outside the **Group records by** box to close it. 
+1. (Optional) Click **+ New < Record type name >** at the end of any grouping to add new records, then refresh your page to add the new record to the appropriate grouping. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
 ### Add a sort {#sort-information} 
 
@@ -396,7 +434,7 @@ To sort <!--ungrouped (add this when sorting for groupings will be available--> 
 
     >[!TIP]
     >
-    > You cannot select linked fields. For information, see [Create fields](../architecture-and-fields/create-fields.md). 
+    > You cannot select linked fields. For information, see [Create fields](../fields/create-fields.md). 
 
 1. (Optional) In the **Sort records by** box, click the **x** icon to the right of a sorting field to remove the sort
 

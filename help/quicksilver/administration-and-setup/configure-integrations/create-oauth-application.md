@@ -4,6 +4,7 @@ user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: As an [!DNL Adobe Workfront] administrator, you can create OAuth2 applications for your instance of [!DNL Workfront], which allow other applications to access Workfront. Your users can then give permission to those other applications to access their Workfront data. In this way, you can integrate Workfront with applications of your choice, including your own in-house applications.
+author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: e13c7dda-8945-47ad-b6d3-4d6a62b368f5
@@ -32,11 +33,13 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td><p>New: [!UICONTROL Standard]</p>
+   Or
+   <p>Current:[!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -49,7 +52,7 @@ You must have the following access to perform the steps in this article:
 
 ## OAuth2 overview
 
-Imagine that an application needs to pull some specific information from [!DNL Workfront]. An application that requests information is called a client. For this example, the client name is ClientApp. ClientApp needs access to a particular user's information, and therefore needs to access [!DNL Workfront] as that user. If your user gives ClientApp their username and password, ClientApp could access all of the data that the user can access. This is a security risk, because ClientApp only needs a small, specific set of information.
+Imagine that an application must pull some specific information from [!DNL Workfront]. An application that requests information is called a client. For this example, the client name is ClientApp. ClientApp needs access to a particular user's information, and therefore must access [!DNL Workfront] as that user. If your user gives ClientApp their username and password, ClientApp could access all of the data that the user can access. This is a security risk, because ClientApp only needs a small, specific set of information.
 
 When you create an OAuth2 app for ClientApp, you are essentially telling [!DNL Workfront] that ClientApp is allowed to access [!DNL Workfront], but only if the user whose account ClientApp is accessing gives permission for the access.
 
@@ -106,7 +109,7 @@ When creating an OAuth2 application, choose the type of application that best me
 
 >[!NOTE]
 >
->You can have up to ten OAuth2 Applications total at a time.
+>You can have up to a total of ten OAuth2 Applications at one time.
 
 * [Create an OAuth2 application using server authentication (JWT flow)](#create-an-oauth2-application-using-server-authentication-jwt-flow)
 * [Create an OAuth2 application using user credentials (Authorization code flow)](#create-an-oauth2-application-using-user-credentials-authorization-code-flow)
@@ -114,11 +117,12 @@ When creating an OAuth2 application, choose the type of application that best me
 
 ### Create an OAuth2 application using server authentication (JWT flow) {#create-an-oauth2-application-using-server-authentication-jwt-flow}
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. In the left navigation panel, click **[!UICONTROL System]**, then select **[!UICONTROL OAuth Applications]**.
+1. In the left navigation panel, click **[!UICONTROL System]**, then select **[!UICONTROL OAuth2 Applications]**.
 1. Click **[!UICONTROL Create app integration]**.
-1. In the window that appears, select **[!UICONTROL Server Authentication]**.
+   The **New OAuth2 application** box displays.
+1. In the **New OAuth2 application** box, select **[!UICONTROL Machine to Machine Application]**.
 1. Enter a name for the new application, such as "[!DNL Workfront] for ClientApp."
 1. Click **[!UICONTROL Create]**.
 1. Fill in the fields for the new app.
@@ -133,7 +137,7 @@ When creating an OAuth2 application, choose the type of application that best me
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Client secret]</td> 
-      <td> <p>This field is automatically generated</p> <p><b>IMPORTANT</b>:  <p>Copy the contents of this field to another secure file before you close this page. You will not be able to see this secret key again.</p> <p>If you lose this key, delete it and create a new Client Secret.</p> 
+      <td> <p>This field is automatically generated</p> <p><b>IMPORTANT</b>:  <p>Copy the contents of this field to another secure file before you close this page. You will not be able to see this secret key again.</p> <p>If you lose this key, delete it and create a Client Secret.</p> 
         <ol> 
          <li value="1"> <p>Click the <b>[!UICONTROL Delete]</b> icon <img src="assets/delete.png"> to delete the current Client Secret.</p> </li> 
          <li value="2"> <p>Click <b>[!UICONTROL Add client secret]</b> to generate a new Client Secret.</p> </li> 
@@ -164,10 +168,13 @@ For instructions on configuring and using the OAuth2 application with user crede
 
 ### Create an OAuth2 application using user credentials (Authorization code flow) {#create-an-oauth2-application-using-user-credentials-authorization-code-flow}
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
-1. In the left navigation panel, click **[!UICONTROL System]**, then select **[!UICONTROL OAuth Applications]**.
+{{step-1-to-setup}}
+
+1. In the left navigation panel, click **[!UICONTROL System]**, then select **[!UICONTROL OAuth2 Applications]**.
 1. Click **[!UICONTROL Create app integration]**.
-1. In the window that apears, select **[!UICONTROL User Authentication]**.
+
+   The **New OAuth2 application** displays.
+1. In the **New OAuth2 application** box, select **[!UICONTROL Web Application]**.
 1. Enter a name for the new OAuth2 application, such as "[!DNL Workfront] for ClientApp."
 1. Click **[!UICONTROL Create]**.
 1. Fill in the fields for the new app.
@@ -182,7 +189,7 @@ For instructions on configuring and using the OAuth2 application with user crede
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Client secret]</td> 
-      <td> <p>This field is automatically generated</p> <p><b>IMPORTANT</b>:  <p>Copy the contents of this field to another secure file before you close this page. You will not be able to see this secret key again.</p> <p>If you lose this key, delete it and create a new Client Secret.</p> 
+      <td> <p>This field is automatically generated</p> <p><b>IMPORTANT</b>:  <p>Copy the contents of this field to another secure file before you close this page. You will not be able to see this secret key again.</p> <p>If you lose this key, delete it and create a Client Secret.</p> 
         <ol> 
          <li value="1"> <p>Click the <b>[!UICONTROL Delete]</b> icon <img src="assets/delete.png"> to delete the current Client Secret.</p> </li> 
          <li value="2"> <p>Click <b>[!UICONTROL Add client secret]</b> to generate a new Client Secret.</p> </li> 
@@ -198,7 +205,7 @@ For instructions on configuring and using the OAuth2 application with user crede
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Absolute refresh token expiration]</td> 
-      <td> <p>Select the amount of time you wish a refresh token to exist before it expires. When it expires, your users must log in to the integration again. Select "[!UICONTROL No expiration]" if you do not want the refresh token to expire.</p> </td> 
+      <td> <p>Select the amount of time that you wish a refresh token to exist before it expires. When it expires, your users must log in to the integration again. Select "[!UICONTROL No expiration]" if you do not want the refresh token to expire.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Inactivity refresh token expiration</td> 
@@ -229,10 +236,13 @@ For instructions on configuring and using the OAuth2 application with user crede
 
 ### Create an OAuth2 single-page web application using PKCE {#create-an-oauth2-single-page-web-application-using-pkce}
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
-1. In the left navigation panel, click **[!UICONTROL System]**, then select **[!UICONTROL OAuth Applications]**.
+{{step-1-to-setup}}
+
+1. In the left navigation panel, click **[!UICONTROL System]**, then select **[!UICONTROL OAuth2 Applications]**.
 1. Click **[!UICONTROL Create app integration]**.
-1. In the window that apears, select **[!UICONTROL Single-page web application]**.
+
+   The **New OAuth2 application** box displays.
+1. In the **New OAuth2 application** box, select **[!UICONTROL Single Page Web Application]**.
 1. Enter a name for the new [!UICONTROL OAuth2] application, such as "[!DNL Workfront] for ClientApp."
 1. Click **[!UICONTROL Create]**.
 1. Fill in the fields for the new app.
@@ -250,15 +260,15 @@ For instructions on configuring and using the OAuth2 application with user crede
       <td>Users will be redirected to this path after they have authenticated with Workfront.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL Refresh token rotation]</td> 
+      <td role="rowheader">[!UICONTROL Rotate refresh token every time it is used]</td> 
       <td>Enable this option to issue a new refresh token whenever the refresh token is used. Your application must store the new refresh token after every refresh.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL Absolute refresh token expiration]</td> 
+      <td role="rowheader">[!UICONTROL Absolute expiration]</td> 
       <td> <p>Select the amount of time you wish a refresh token to exist before it expires. When it expires, your users must log in to the integration again. Select "[!UICONTROL No expiration]" if you do not want the refresh token to expire.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL Inactivity refresh token expiration]</td> 
+      <td role="rowheader">[!UICONTROL Inactivity expiration]</td> 
       <td> <p>Select the amount of time after which, if the user has not been active in your system, their refresh token expires. </p> <p>For example, if the inactivity refresh token expiration is 6 months, and the user does not log in for six months, the refresh token expires even though the absolute refresh token expiration may be set for longer.</p> </td> 
      </tr> 
      <tr> 
@@ -274,11 +284,25 @@ For instructions on configuring and using the OAuth2 application with user crede
       <td>Enter a description for the integration.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL App Description URL]</td> 
-      <td>This can be a link to an "About us" page or a page with more information about the integration.</td> 
+      <td role="rowheader">[!UICONTROL Developer name]</td> 
+      <td>This is the name of the developer who is setting up the OAuth2 application.</td> 
      </tr> 
+   <tr> 
+      <td role="rowheader">[!UICONTROL Developer email address]</td> 
+      <td>This is the email address of the developer who is setting up the OAuth2 application.</td> 
+     </tr> 
+   <tr> 
+      <td role="rowheader">[!UICONTROL Privacy policy URL]</td> 
+      <td>This is the link to where your organization stores the privacy policy.</td> 
+     </tr> 
+
+
     </tbody> 
    </table>
+
+   <!-- removed this from the table, and added "Developer name" and following rows:
+   [!UICONTROL App Description URL]</td> 
+      <td>This can be a link to an "About us" page or a page with more information about the integration.> -->
 
 1. Click **[!UICONTROL Save]**.
 

@@ -128,7 +128,7 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
        <ul>
         <li>Planned Completion Date</li>
         <li>Commit Date</li>
-        <li><p>Submitted Date</p></li>
+        <li>Submitted Date</li>
        </ul><p><b>NOTE</b>:  When this option is enabled, work items that become past due are moved to the Late grouping in the Home Work List based on date only, not time.</p></td> 
      </tr> 
     </tbody> 

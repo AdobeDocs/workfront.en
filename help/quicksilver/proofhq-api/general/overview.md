@@ -4,6 +4,7 @@ description: Overview
 author: Becky
 draft: Probably
 feature: Workfront API, Workfront Proof
+role: Developer
 exl-id: 882b657a-1bde-4efd-93e8-1de80c065b2d
 ---
 # Overview
@@ -18,7 +19,7 @@ The public interface is SOAP 1.1 compliant with WSDL support.&nbsp;All requests 
 
 ## API versioning
 
-In order to preserve compatibility with existing client&nbsp;integration's&nbsp;we have introduced API versioning as from our 12.1 release. Please see the&nbsp; [API updates](http://api.proofhq.com/new-updates) page for more information. If a method or parameter has no version information it means that you'll find this as part of our standard API, please see the "Getting started with the API" section below.
+In order to preserve compatibility with existing client&nbsp;integration's&nbsp;we have introduced API versioning as from our 12.1 release. Please see the&nbsp; [API updates](https://api.proofhq.com/new-updates.html) page for more information. If a method or parameter has no version information it means that you'll find this as part of our standard API, please see the "Getting started with the API" section below.
 
 ## Getting started with the API
 
@@ -42,11 +43,8 @@ All requests use the following envelope, header and body format:
 <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:proofhqapi">`
    <soapenv:Header/>
    <soapenv:Body>
-	   ... API function and data inserted here ...
-	</soapenv:Body>
-	</soapenv:Envelope>
+       ... API function and data inserted here ...
+    </soapenv:Body>
+    </soapenv:Envelope>
 ```
 
-## FAQ's
-
-For a collection of frequently asked questions, please visit [this](http://api.proofhq.com/faqs) page.

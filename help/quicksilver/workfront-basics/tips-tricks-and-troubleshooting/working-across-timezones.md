@@ -94,7 +94,7 @@ You can help users working more easily across several time zones in several ways
 
 You can use a series of calculated custom fields on a custom form to display the current time for users in your organization, like a row of airport clocks displaying the time in multiple cities. You could create a field for each of the time zones where your users work, each calculating the time for its time zone.
 
-For more information, see [Add calculated data to a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md), as well as the section [Date & time calculated custom fields](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) in the article [Calculated data expressions](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+For more information, see [Add calculated data to a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md), as well as the section [Date & time calculated custom fields](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) in the article [Overview of calculated data expressions](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 ### Use text fields instead of date fields in a custom form {#use-text-fields-instead-of-date-fields-in-a-custom-form}
 

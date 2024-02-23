@@ -4,6 +4,7 @@ description: 23.2 Mobile enhancements
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 08cb5991-ba8e-4444-ab95-b6b85420c4a2
 ---
 # 23.2 Mobile enhancements

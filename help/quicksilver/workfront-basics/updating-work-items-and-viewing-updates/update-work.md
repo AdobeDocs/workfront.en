@@ -9,16 +9,17 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 ---
 # Update work
 
+<!-- Audited: 1/2024 -->
 
+<!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
 
-<!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
+
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
 <!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
+After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>  
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
-
-<span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
-
 -->
 
 >[!IMPORTANT]
@@ -32,11 +33,12 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 >
 >For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
->The new commenting experience is available only for the Updates section of Workfront objects, and it is not available when you access the objects from the following areas:
+>The new commenting experience is available only for the Updates section of Workfront objects, and it is not available when you access updates from the following areas:
 >
 > * Home
 > * Summary panel in lists
 > * Summary panel in timesheets 
+> * Summary panel in the Workload Balancer
 
 <!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
@@ -76,7 +78,7 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 
 * You can add comments to Workfront objects from other applications that are integrated with Workfront or from the Workfront mobile app. 
 
-   Not all applications that are integrated with Workfront have the capability of adding comments to Workfront objects. 
+   Not all applications that are integrated with Workfront can add comments to Workfront objects. 
    
    Not all features that are available in the Updates section of an object in Workfront are available in other applications, when accessing Workfront objects from the application. For example, Rich Text capabilities or making a comment private to someone's Company might not be available when adding comments to a Workfront object from a third-party application. 
 
@@ -95,48 +97,18 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 
    * From a Workfront object, in the Updates  section  
    * From the Home area (for tasks and issues)
-   * From the Summary panel in a list of objects or from a timesheet (for tasks and issues)
+   * From the Summary panel in a list of objects, a timesheet, or from the Workload Balancer (for tasks and issues)
 
-The information on this page describes how you can comment on Workfront objects and how you update projects, tasks, and issues. 
+The information on this page describes how you can comment on Workfront objects and how you update projects, tasks, and issues while adding comments to them.
 
-For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). You must have an additional license to access Workfront Goals. 
+<!--take this out (below) when we remove legacy out of the application-->
+
+For information about commenting on goals, see [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). You must have an additional license to access Workfront Goals.
 
 For information about commenting on cards in the Boards area, see [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md).
 
 ## Access requirements
 
-<!--
-drafted for P&P release:
-<table style="table-layout:auto"> 
- <col> 
- </col> 
- <col> 
- </col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>Current license: Contributor or higher for issues and documents: Light or higher for all other objects</p> 
-   Or
-   <p>Legacy  license: Request or higher for issues and documents; Review or higher for all other objects</p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>View or Edit access for the object the update is on</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>View access to the object</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -146,44 +118,60 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>Request or higher for issues and documents; Review or higher for all other objects</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront license</strong></td> 
+   <td> 
+   <p>Current: Request or higher for issues and documents; Review or higher for all other objects</p>
+   <p>New: Contributor or higher for issues and documents: Light or higher for all other objects</p> 
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>View or Edit access for the object the update is on</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader"><strong>Access level configurations</strong></td> 
+   <td> <p>View or Edit access for the object the update is on</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>View access to the object</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View access to the object</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Add an update to a work item
+
+Adding an update to a work item differs depending on what version of the Updates section you use.  
+
+You can add updates to the following objects: 
+
+* Projects
+* Tasks
+* Issues
+* Programs
+* Portfolios
+* Templates
+* Template tasks
+* Users
+* Timesheets
+* Teams
+* Goals
+* Cards in the Boards area
+* Iterations
+
+### Add an update to a work item in the legacy Updates section
 
 >[!IMPORTANT]
 >
 >The information on this page describes how you update projects, tasks, and issues.
 
-
-Adding an update to a work item differs depending on what version of the Updates section you use.  
-
-### Add an update to a work item in the legacy Updates section
-
 1. Go to the work item for which you want to provide an update (such as a project, task, or issue).
 1. Click the **Updates** section.
 1. (Conditional) If it is enabled, click the **New commenting** option in the upper-right corner of the Updates section to disable it and enable the legacy commenting experience.
 1. Click **Start a new update,** then type your update.  
-1. (Optional) Use Rich Text, or add emojis, links, or images to your update, to enhance your content. For more information, see the [Use Rich Text in a Workfront update](#use-rich-text-in-a-workfront-update) section in this article.
+1. (Optional) Use the options in the Rich Text toolbar to format your text, add emojis, links, or images to your update, to enhance your content. For more information, see the [Use Rich Text in a Workfront update](#use-rich-text-in-a-workfront-update) section in this article.
 1. (Optional) Update any of the following information about the work item:
 
    <table style="table-layout:auto"> 
@@ -227,7 +215,7 @@ Adding an update to a work item differs depending on what version of the Updates
 
    >[!NOTE]
    >
-   >A small pop-up window will appear for seven seconds after clicking **Update**, allowing you to undo the update and return to the editing pane before the update is posted. The update will be posted if you dismiss the undo pop-up, wait for it to disappear, or navigate away from the page. 
+   >A small pop-up window will appear for seven seconds after clicking **Update**, allowing you to undo the update and return to the editing pane before the update is posted. The update is posted if you dismiss the undo pop-up, wait for it to disappear, or navigate away from the page. 
    >
    >If your Workfront administrator selects the "Never allow users to delete comments" setting in your access level, you cannot undo a comment. For more information, see [Create and modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -252,11 +240,11 @@ Adding an update to a work item differs depending on what version of the Updates
       * CTRL + Z (⌘+z for Mac) to undo a change 
       * CTRL + Y (⌘+y for Mac) to redo a change 
 1. (Optional) In the **Tag people or teams** area, start typing the name or the email of a user, or a team that you would like to include in this comment, then select it when it displays in the list. 
-1. (Optional) Use Rich Text, or add emojis, links, or images to your update, to enhance your content. For more information, see the [Use Rich Text in a Workfront update](#use-rich-text-in-a-workfront-update) section in this article. 
+1. (Optional) Use the options in the Rich Text toolbar to format your text, add emojis, links, or images to your update, to enhance your content. For more information, see the [Use Rich Text in a Workfront update](#use-rich-text-in-a-workfront-update) section in this article. 
 
       >[!TIP]
       >
-      >If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments. 
+      >If another user submits a comment to the same item you are updating, there is a red line with a "New" indicator to inform you of the newer comments. 
       >
       >The indicator displays only after the comment was submitted on the item, and not when the comment is still composed. 
       >
@@ -268,7 +256,7 @@ Adding an update to a work item differs depending on what version of the Updates
 
    >[!IMPORTANT]
    >
-   >You can edit your comment only within 15 from submitting it.  
+   >You can edit your comment only within 15 minutes from submitting it.  
 
 1. Edit the information in the comment, add or remove images or remove any of the tagged users. An "Edited" indicator is added to the left of the date stamp that displays when the comment was entered.
    
@@ -283,7 +271,7 @@ Adding an update to a work item differs depending on what version of the Updates
    >
    >* An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.
    >* The date stamp next to the comment is the date of the original comment, not the date of the last edit. 
-   >* When you post a comment on behalf of another user (when logging in as another user as a Workfront or group administrator), you cannot edit the comment if you are logged in as the other user. You can edit the comment only after you log out as the user and log back in as yourself.  
+   >* When you add a comment on behalf of another user (when logging in as another user as a Workfront or group administrator), you cannot edit the comment if you are logged in as the other user. You can edit the comment only after you log out as the user and log back in as yourself.  
      
 
 1. (Optional) Click **Reply** or start typing a comment in the **Add reply ...** area, to reply to an existing comment, then follow the steps 4-8 above. <!--(**************insure this stays accurate***********)--> For information about replying to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).  
@@ -384,13 +372,19 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
    1. Under **Text to display**, type or paste the link text.
    1. Click **Save**.
 
-1. (Optional) To attach an image to your update, click the **Add image** icon ![](assets/add-image-mountain-with-plus-icon.png) and browse to the image on your computer, when using the new commenting experience. 
+1. (Optional) To attach an image to your update, do one of the following: 
 
+   * Save the image on our computer, then drag and drop it in the New comment area.
+   * Copy a screenshot from your computer, then paste it in the comment. This is not available in the legacy commenting experience.  
+   * Click the **Add image** icon ![](assets/add-image-mountain-with-plus-icon.png) and browse to the image on your computer. 
+
+   
    >[!NOTE]
    >
    >* Your Workfront administrator must enable adding images in the Update Feeds Preferences section of the Workfront Interface area before you can see the Image or the Add attachment icons. For information, see [Configure preferences for user updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md). 
    >* The maximum image file size is 7 MB. Supported image file types are .jpg, .gif, and .png.
-   >* Images are accessible from the Updates section on an object and they are also available in the Documents area. 
+   >* Images are accessible from the Updates section on an object and they are also available in the Documents area under the Main Menu. 
+   >* You can paste the image by right-clicking in the new comment, or by pressing CTRL + V for Windows (or ⌘ + V for Mac) on your keyboard.
    >* You can send an update with an image and no text.
    >* When you delete a comment that contains an image, the following scenarios exist depending on which experience you choose: 
    >
@@ -399,64 +393,46 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
    >* When someone deletes an image attached to a comment from the Documents area, it is also removed from the comment. 
 
    <!--remove the statement above about legacy, when we remove the legacy environment.-->
+
+1. (Optional) To view an image in the existing update do one of the following:
+
+   * Click the **Preview** icon ![](assets/previewimageicon-31x31.png) on the image thumbnail to open the full-size image in a new browser tab.
+   * Click the **Download** icon ![](assets/downloadimageicon.png) on the image thumbnail to download the image.
   
 1. Click **Submit** to add your comment. 
 
+## Search for an update
+
+>[!NOTE]
+>
+>This functionality is available only for the Comments tab in the new comment experience. This is not available for the System Activity tab of the Updates section. 
+
+You can search for a comment or a reply in the Updates section of an object. 
+
+1. Go to the **Updates** section of an object.
+1. Start typing a keyword <!--or a user's name --> in the **Search** box in the upper-right corner of the **Comments** tab. 
+
+      <!--Add this tip or note instead of the note below - when it'll be possible: You can search for users who have been tagged or for comment owners.-->
+
+      >[!NOTE]
+      >
+      >   You can search only for words that belong to the text of a comment or reply. You cannot search for names of users or teams tagged in an update.    
+
+      ![](assets/search-field-in-updates-tab.png)
+
+      The keyword <!--or user--> you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
+   
+      Workfront searches the entire update stream of the object, outside the comments that are visible on the screen. 
+
+1. Click the **x** icon in the search field to clear the search results and return to all comments.
+
+<!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 
 ## Copy update information
 
 There are several ways you can copy an update. After copying a link, you can share the link with others to direct them to the update.
 
 Copying an update differs depending on which commenting experience you use. 
-
-### Copy an update in the legacy commenting experience
-
-<!--remove legacy when removed from the UI-->
-
-* [Copy the update](#copy-the-update) 
-* [Copy the thread link](#copy-the-thread-link) 
-* [Copy the update link](#copy-the-update-link)
-* [Quote Reply](#quote-reply)
-
-#### Copy the update {#copy-the-update}
-
-This option copies the text from a specific update to the clipboard.
-
-1. Go to the update or reply you want to copy.
-1. Click the **More** menu, then click **Copy body text**.
-
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
-
-#### Copy the thread link {#copy-the-thread-link}
-
-This option copies the full thread link to the clipboard so you can share the thread with other users.
-
-1. Go to the update thread you want to copy.
-
-1. Click the **More** menu, then click **Copy thread link**.
-
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
-
-#### Copy the update link {#copy-the-update-link}
-
-This option copies a specific update link to the clipboard. When you share the update link, the user who follows it sees a border around the update.
-
-1. Go to the update or reply you want to copy.
-1. Click the **More** menu next to the individual update, then click **Copy update link**.
-
-   ![](assets/copy-update-link-old-ui.png)
-
-
-#### Quote Reply  
-
-The Quote Reply option copies the original comment to a new reply as a block quote. 
-
-1. Go to the update or reply you want to copy.
-1. Click the **More** menu, then click **Quote Reply**.
-
-   A new comment box opens and the quoted reply is included in the new comment and marked as a block quote.
-
-1. Continue adding your update and click **Reply** to add the comment.
 
 ### Copy an update in the new commenting experience   
 
@@ -480,6 +456,14 @@ The Copy link option copies the comment or thread link to the clipboard so you c
 
 1. Click the **More** menu, then click **Copy link**.
 
+1. Paste the link you copied in the previous step in an email or another application to share it with others. The shared link opens the comment you shared the link from. 
+
+   >[!TIP]
+   >
+   >When you share the link of a conversation on a child object from a higher-ranking object, the link opens the thread in the higher-ranking object's Updates area. 
+   >
+   >For example, if you copy the link of a task comment from the project's Updates area, the comment opens the project page.
+
 #### Copy body text
 
 The Copy body text option copies the text from a specific update to the clipboard.
@@ -501,6 +485,64 @@ The Quote reply option copies the original comment to a new reply as a block quo
    <!--ensure the screen shot above is correct - missing he block quote icon in rich text -->
 
 1. Continue adding your update and click **Submit** to add the comment.
+
+### Copy an update in the legacy commenting experience
+
+<!--remove legacy when removed from the UI-->
+
+* [Copy the update](#copy-the-update) 
+* [Copy the thread link](#copy-the-thread-link) 
+* [Copy the update link](#copy-the-update-link)
+* [Quote Reply](#quote-reply)
+
+   >[!TIP]
+   >
+   >When you copy and share the link of a conversation on a child object from a higher-ranking object, the link opens the thread in the child object's Updates area. 
+   >
+   >For example, if you copy the link of a task comment from the project's Updates area, the comment opens the task page.
+
+#### Copy the update {#copy-the-update}
+
+This option copies the text from a specific update to the clipboard.
+
+1. Go to the update or reply you want to copy.
+1. Click the **More** menu, then click **Copy body text**.
+
+   ![](assets/update-stream-comment-menu-marked-350x152.png)
+
+#### Copy the thread link {#copy-the-thread-link}
+
+This option copies the full thread link to the clipboard so you can share the thread with other users.
+
+1. Go to the update thread you want to copy.
+
+1. Click the **More** menu, then click **Copy thread link**.
+
+   ![](assets/update-stream-comment-menu-marked-350x152.png) 
+
+1. Paste the link you copied in the previous step in an email or another application to share it with others. The shared link opens the comment you shared the link from. 
+
+#### Copy the update link {#copy-the-update-link}
+
+This option copies a specific update link to the clipboard. When you share the update link, the user who follows it sees a border around the update.
+
+1. Go to the update or reply you want to copy.
+1. Click the **More** menu next to the individual update, then click **Copy update link**.
+
+   ![](assets/copy-update-link-old-ui.png)
+
+1. Paste the link you copied in the previous step in an email or another application to share it with others. The shared link opens the comment you shared the link from. 
+
+#### Quote Reply  
+
+The Quote Reply option copies the original comment to a new reply as a block quote. 
+
+1. Go to the update or reply you want to copy.
+1. Click the **More** menu, then click **Quote Reply**.
+
+   A new comment box opens and the quoted reply is included in the new comment and marked as a block quote.
+
+1. Continue adding your update and click **Reply** to add the comment.
 
 ## Delete an update or reply
 

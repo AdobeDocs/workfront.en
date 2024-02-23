@@ -50,7 +50,7 @@ Your Adobe Workfront administrator has configured your system so that you review
 
   >[!NOTE]
   >
-  >Your Workfront administrator can configure custom devices for users in your organization, as described in Configuring Custom Devices for Interactive Proofs in the article .
+  >Your Workfront administrator can configure custom devices for users in your organization, as described in [Configuring Custom Devices for Proofs](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md#configure-custom-devices-for-proofs) in the article [Configure proof settings for your organization](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-proofing-organization.md).
 
 ## View a proof with a preset device or resolution setting
 

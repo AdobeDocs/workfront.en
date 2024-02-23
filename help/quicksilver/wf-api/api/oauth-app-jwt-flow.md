@@ -5,6 +5,7 @@ title: Using JWT flow for custom OAuth 2 applications
 description: Using JWT flow for custom OAuth 2 applications
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 4bd56fe6-1f36-4c36-82cd-96de748ad680
 ---
 # Configure and use your organization's custom OAuth 2 applications using JWT flow

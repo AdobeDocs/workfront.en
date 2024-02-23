@@ -64,7 +64,7 @@ You must have the following access to perform the steps in this article:
 
    For information about available options, see one of the following articles:
 
-   * [Filters overview in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 
+   * [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 
    * [Views overview in [!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md) 
    * [Groupings overview in [!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
@@ -132,6 +132,6 @@ These steps explain how to make filters, views, and groupings available from the
 1. Select one or more items in the list, then click the **[!UICONTROL Delete]** icon ![Delete icon](assets/delete.png).
 1. See one of the following articles for detailed information about configuring a filter, view, or grouping.
 
-   * [Filters overview in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 
-   * [Views overview in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md) 
+   * [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 
+   * [Views overview in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
    * [Groupings overview in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)

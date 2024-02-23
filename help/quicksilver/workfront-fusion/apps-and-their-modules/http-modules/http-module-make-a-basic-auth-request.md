@@ -14,6 +14,12 @@ exl-id: df8b53de-1af2-4026-b7dd-ff5133b4aac2
 
 This [!DNL Adobe Workfront Fusion] module enables you to configure an HTTP request with HTTP basic authorization and submit it to a server. The received HTTP response is then contained in the output bundle.
 
+>[!NOTE]
+>
+>If you are connecting to an Adobe product that does not currently have a dedicated connector, we recommend using the Adobe Authenticator module.
+>
+>For more information, see [Adobe Authenticator module](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
+
 ## Access requirements
 
 You must have the following access to use the functionality in this article:

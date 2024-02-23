@@ -30,27 +30,27 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>New: Standard </p><p>Current: Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
    <td> <p>Edit access to Tasks and Projects</p> <p><b>NOTE</b> 
    
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the tasks and the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions to the tasks and the project</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator. For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 ## Create a predecessor
 
@@ -63,6 +63,22 @@ You must have the following access to perform the steps in this article:
 1. Select the task that you want to designate as the dependent task. 
 1. Click inside the **Predecessors** column.
 1. Type the task number that you want to designate as the predecessor of the selected task, then press **Enter**.
+
+   >[!TIP]
+   >
+   >To add a cross-project predecessor, do the following:
+   >
+   >1. Click the **Plan Mode** icon and choose **Autosave**. 
+   >
+   >1. Type the Reference Number of the project of the predecessor followed by colon and the number of the task. For example, type: 765021:12. This indicates that the Reference Number of the predecessor's project is 765021 and the predecessor is task number 12 on the project. 
+   >
+   >1. Add the dependency type for this predecessor. For more information, see [Create cross-project predecessors](/help/quicksilver/manage-work/tasks/use-prdcssrs/cross-project-predecessors.md). 
+   >
+   >Press **Enter**.
+   >
+   >**IMPORTANT**
+   >
+   >You cannot add cross-project predecessor when the task list displays in Manual save mode. 
 
    The predecessor icon turns green when the predecessor task is marked complete. This signals that the dependent task is ready for work.
 

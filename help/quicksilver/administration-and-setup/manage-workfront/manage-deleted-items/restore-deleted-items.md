@@ -5,10 +5,13 @@ navigation-topic: manage-deleted-items
 title: Restore deleted items
 description: If you are a Workfront administrator, you can restore projects, tasks, issues, documents, and templates in Adobe Workfront if they have been deleted in the past 30 days. After 30 days, these items are permanently deleted and cannot be restored. When you restore an object, all of its child objects and fields are also restored. For example, if you restore a project, all tasks, issues, documents, hours, notes, assignments, and custom data in the project are also restored.items
 feature: System Setup and Administration
+author: Lisa
 role: Admin
 exl-id: e5b63652-ce16-44a9-a806-a41f19970ee1
 ---
 # Restore deleted items
+
+<!--Audited: 12/2023-->
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -25,7 +28,7 @@ A group administrator can also restore these objects for a group they manage.
 >* If you delete a report, dashboard, user, group, team, or iteration, it can't be restored.
 >* In a group, when someone other than the group administrator uploads a document directly to the Documents area of an object, only a Workfront administrator can restore the document.
 >
->* If you move a task or an issue and choose not to also move the documents attached to the task or the issue, the documents are deleted and placed in the Recycle Bin for 30 days. An administrator can restore them and they will be reattached to the moved task or issue. If the task or the issue have been deleted since they were moved, the documents will be restored in the Documents area of the user page of the administrator who restores them. 
+>* If you move a task or an issue and choose not to also move the documents attached to the task or the issue, the documents are deleted and placed in the Recycle Bin for 30 days. An administrator can restore them and they are reattached to the moved task or issue. If the task or the issue has been deleted since it was moved, the documents are restored in the Documents area of the user page of the administrator who restores them. 
 
 ## Access requirements
 
@@ -41,7 +44,9 @@ You must have the following to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td>Plan</td> 
+   <td><p>New: Standard</p>
+   or
+   <p>Current: Plan</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -120,14 +125,14 @@ When you restore a project, task, or issue, the following associated information
 
   For more information about how a Workfront administrator or group administrator configures issues to match the resolving object when converted, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) and [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
-  For more information about converting issues, see, [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
+  For more information about converting issues, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 ## Restore items
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **Recycle Bin** > **Recently Deleted**.
-1. Click the **Projects**, **Tasks**, **Issues**, or **Documents** tab, depending on the type of item you want to restore.
+1. Click the **Projects**, **Tasks**, **Issues**, **Templates**, or **Documents** tab, depending on the type of item you want to restore.
 
    Items are sorted by the **Deletion Date** column by default.
 
@@ -140,24 +145,24 @@ When you restore a project, task, or issue, the following associated information
 1. Click **Restore** to restore the selected items to their original location.
 1. (Optional) To quickly view the restored item, follow the steps in [View restored item](../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
 
-   For more information about what happens after you restore an item, see [What happens after you restore items](#what-happens-after-you-restore-items) in this article.
+   For more information about what happens after you restore an item, see the section [What happens after you restore items](#what-happens-after-you-restore-items) in this article.
 
 ## What happens after you restore items {#what-happens-after-you-restore-items}
 
-* When you restore tasks and subtasks, they appear in the order they had prior to being deleted.
+* When you restore tasks and subtasks, they display in the order they had before being deleted.
 
   However, if the order of other tasks changes while the task is deleted, the task might be restored to the bottom of the list of tasks or subtasks.
 
 * After you restore an item:
 
-   * A message displays to lets you know whether you were successful.
+   * A message displays to let you know whether you were successful.
 
      You also receive an email notification. If you restored multiple items, the email lists them.
    
    * A comment displays in the Updates area of the project, task, or issue and in that of the parent object.
 
-     This does not happen when you restore a document.
+     This does not happen when you restore a document or a template.
 
 ## Restored proofs
 
-At this time, when someone restores a document that has a proof, the Proofing Activities page for the proof might display the name of the first active Workfront administrator listed for your organization's instance (in order of profile ID) instead of actual person who restored the proof.
+When someone restores a document that has a proof, the Proofing Activities page for the proof might display the name of the first active Workfront administrator listed for your organization's instance (in order of profile ID) instead of actual person who restored the proof.

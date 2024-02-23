@@ -5,6 +5,7 @@ title: API basics
 description: API basics
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: d8c27915-8e1b-4804-9ef8-3a2efd57caac
 ---
 
@@ -88,7 +89,7 @@ Authentication is performed by passing in a session ID which can be given using 
 
 #### Request Header Authentication
 
-The preferred method of authentication is to pass a request header named SessionID containing the session token. This has the advantage of being safe against [Cross-site Request Forgery (CSRF)](http://en.wikipedia.org/wiki/Cross-site_request_forgery) attacks and not interfering with the URI for caching purposes.
+The preferred method of authentication is to pass a request header named SessionID containing the session token. This has the advantage of being safe against [Cross-site Request Forgery (CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) attacks and not interfering with the URI for caching purposes.
 
 The following is an example of a request header:
 
@@ -354,11 +355,11 @@ You can retrieve custom data fields using the prefix "DE:". For instance, to req
 Some object types have named searches that are commonly executed and are available by appending the name of the query to the end of the object type URI. For example, the following request retrieves the work items (tasks and issues) to which the user is currently assigned:
 <pre>/attask/api/v15.0/work/myWork</pre>Named queries support requesting the fields parameter to retrieve additional fields. Some named queries accept additional filters as well. For a list of allowable named queries an object, see the Action tab for the object in the&nbsp; [API Explorer](../../wf-api/general/api-explorer.md).
 
-#### Using the Count Filter
+#### Using `Count`
 
-You can specify the number of results you want to be returned by a given search. This allows the server to process the request more quickly and saves bandwidth. For example, the request
+You can use `count` to return the number of results that match your query. This can be useful when you don't need the data in the results. By returning only the count, the server can process the request more quickly and save bandwidth. For example, the request
 <pre>GET /attask/api/v15.0/project/count?status=CUR</pre>returns the number of results in the following format:
-<pre>{<br>&nbsp;&nbsp;&nbsp;&nbsp;"count": 3 <br>}</pre>This result is a much smaller download than if the full objects are sent. The filter syntax is identical to the search command.
+<pre>{<br>&nbsp;&nbsp;&nbsp;&nbsp;"count": 3 <br>}</pre>Returning a count is a much smaller data transfer than if the full objects are returned. The syntax is identical to the search command.
 
 ### Requesting a Report
 

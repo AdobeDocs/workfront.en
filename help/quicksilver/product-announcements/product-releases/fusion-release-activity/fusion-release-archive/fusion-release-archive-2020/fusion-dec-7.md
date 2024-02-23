@@ -7,6 +7,7 @@ title: 'Workfront Fusion release activity: Week of December 7, 2020'
 description: This page describes all enhancements made in Adobe Workfront Fusion the week of December 7, 2020.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: fb8275b5-ef37-48cc-bde1-cfd0e065a896
 hidefromtoc: yes
 ---

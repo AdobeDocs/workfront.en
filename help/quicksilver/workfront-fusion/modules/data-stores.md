@@ -25,6 +25,10 @@ The data store modules enable you to take the following actions on records in yo
 
 For information on using data store modules, see [[!UICONTROL Data store] modules](../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
 
+For a video introduction to data stores in Workfront Fusion, see:
+
+* [Data Stores](https://video.tv.adobe.com/v/3427029/){target=_blank}
+
 ## Access requirements
 
 You must have the following access to use the functionality in this article:

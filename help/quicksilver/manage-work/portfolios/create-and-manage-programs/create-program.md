@@ -9,6 +9,8 @@ exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
 ---
 # Create a program
 
+<!-- Audited: 1/2024 -->
+
 A program represents a collection of projects that share a common strategy, objective, or goal that transcends project boundaries. Programs cannot exist outside of a portfolio.
 
 ## Access requirements
@@ -20,29 +22,31 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Business] or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+
+   <td> <p>New: Any</p><p>Or</p><p>Current: [!UICONTROL Business] or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>New: [!UICONTROL Standard] </p><p>Or </p><p>Current: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>[!UICONTROL Edit] access to Portfolios and Programs </p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Portfolios and Programs </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>After you create a program, you have [!UICONTROL Manage] permissions to it, by default</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>After you create a program, you have [!UICONTROL Manage] permissions to it, by default.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## Create a program
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner.
 
 1. Do one of the following.
 
@@ -55,12 +59,12 @@ You must have the following access to perform the steps in this article:
       1. Click **[!UICONTROL Save]**.
    * Create a program from the [!UICONTROL Portfolios] area:
 
-      1. Click **[!UICONTROL Portfolios]** in the [!UICONTROL Main Menu], then click a portfolio.
+      1. Click **[!UICONTROL Portfolios]** in the [!UICONTROL Main Menu], then open a portfolio.
       1. In the left panel, click **[!UICONTROL Programs]**.
       1. Click the **[!UICONTROL New Program]** drop-down menu, then **[!UICONTROL New Program]**.
 
 
-1. Specify the name for the Program in the **[!UICONTROL Untitled Program]** field.
+1. (Conditional) If you have created the program from a portfolio, specify the name for the Program in the **[!UICONTROL Untitled Program]** field.
 
    The name can contain up to 255 characters.
 
@@ -72,7 +76,8 @@ You must have the following access to perform the steps in this article:
 
 1. Click **[!UICONTROL Program Details]** in the left panel.
 1. Double-click any field to update the information in the **[!UICONTROL Overview]** area.
-1. Specify the following information:
+
+You can specify the following information:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -108,7 +113,8 @@ You must have the following access to perform the steps in this article:
    >
    >You must have program custom forms already created before you can attach them to programs.
 
-1. (Optional) Double-click any field to update information on the custom form.
+1. (Optional and conditional) If you are adding a custom form, click any field on the custom form to update information in that field.
+1. Click **[!UICONTROL Save Changes]**.
 1. Click **[!UICONTROL Projects]** in the left panel, then **[!UICONTROL Add Projects]** to add projects to the program.
 
    For information about adding projects to programs, see [Add a project to a program](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
@@ -120,7 +126,7 @@ You must have the following access to perform the steps in this article:
 
 ## Program header overview
 
-You can find limited information about the program in its header.
+You can find some information about the program in its header.
 
 The following information displays in the header of a program:
 
@@ -130,7 +136,7 @@ The following information displays in the header of a program:
  <tbody> 
   <tr> 
    <td role="rowheader">Header Information</td> 
-   <td> <p><strong>Notes</strong> </p> </td> 
+   <td> <strong>Notes</strong> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Breadcrumb with the name of the portfolio</td> 
@@ -142,7 +148,7 @@ The following information displays in the header of a program:
   </tr> 
   <tr> 
    <td role="rowheader">Name of the object type and activation status</td> 
-   <td>The word "Program" displays in a green outline when you view a program. The word "[!UICONTROL Deactivated]" displays next to it and the outline is gray if the program is not marked as [!UICONTROL Active]. </td> 
+   <td>The word "Program" displays with an orange icon when you view a program. The word "[!UICONTROL Deactivated]" displays next to it and the outline is gray if the program is not marked as [!UICONTROL Active]. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">The actions area of the program </td> 
@@ -160,7 +166,7 @@ The following information displays in the header of a program:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
-   <td> <p>You cannot edit the [!UICONTROL Percent Complete] of the program in the header. This information is updated from the projects in the program. By default, the percent complete of the program is an average of the percent complete values of the projects in a [!UICONTROL Current] and [!UICONTROL Approved] status that belong to the program.</p> </td> 
+   <td> <p>You cannot edit the [!UICONTROL Percent Complete] of the program in the header. This information is updated from the projects in the program. By default, the percent complete of the program is an average of the percent complete values of the projects in a [!UICONTROL Current] or [!UICONTROL Approved] status that belong to the program.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Program Manager]</td> 
@@ -168,7 +174,7 @@ The following information displays in the header of a program:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Planned Completion Date]</td> 
-   <td>You cannot edit the percent complete of the program in the header. The percent complete of the program is an average of the percent complete of the projects in the header. The projects represented here are projects with a status of [!UICONTROL Current] and [!UICONTROL Approved]. </td> 
+   <td>You cannot edit the Planned Completion Date of the program in the header. This information is updated from the projects in the program. The Planned Completion Date of the latest project in the program becomes the Planned Completion date of the program.  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Active Projects Condition]</td> 

@@ -20,15 +20,7 @@ role: User
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
->[!IMPORTANT]
->
->The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
->
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
->
->Contact your account representative for more information about joining the beta program for Maestro.
->
->For information, see [Adobe Maestro overview](../maestro-overview.md).
+{{maestro-important-intro}}
 
 You can display records in a timeline view, when accessing the record type page in Adobe Maestro. 
 
@@ -40,9 +32,14 @@ You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> Adobe product</p> </td>
+   <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -65,28 +62,25 @@ You must have the following access to perform the steps in this article:
   </tr>
   
   <tr>
-   <td role="rowheader">Access level</td>
-   <td> <p>Any</p>  
+   <td role="rowheader">Access level configuration</td>
+   <td> <p>There are no access level controls for Maestro </p>  
 </td>
   </tr>
+
+  <tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to the view</p>  
+</td>
+  </tr>
+
 <tr>
    <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
  </tbody>
 </table>
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>-->
 
 ## Manage a timeline view {#manage-a-timeline-view}
 
@@ -114,8 +108,6 @@ Consider the following:
      * Edit record information
 --> 
 
-When creating a timeline view, all records of the selected record type display in a timeline as bars, by default.  
-
 To manage a timeline view: 
 
 1. Go to the record type page for which you want to view the timeline. 
@@ -123,7 +115,12 @@ To manage a timeline view:
 
     ![](assets/timeline-view-example.png)
 
-    The records associated with the record type you selected display in a chronological timeline, as bars. 
+    The records associated with the record type you selected display as bars in a timeline and are sorted in chronological order of their Start Date, by default. 
+
+    >[!TIP]
+    >
+    >    The sorting of the records in the timeline is not visible in the Compact view.
+
 
 1. Do one of the following to navigate through the timeline:
 
@@ -142,11 +139,25 @@ To manage a timeline view:
     
     Records display in the Compact view by default. 
 
+1. Do the following to quickly find records that match a keyword:
+
+    1. Click the **Search** icon ![](assets/search-icon.png) and start typing a keyword associated with any field of a record that displays on the screen. The number of correct matches displays next to the search item and the record with the correct match is highlighted.
+
+        ![](assets/search-box-and-results-timeline-view.png)
+
+        You can use any word or special character that is visible on the screen.
+
+        You cannot use keywords that are associated with fields that do not display in the timeline view.
+
+    1. Press Enter on your keyboard to go to the next found field.
+    1. (Optional) If there is more than one match, click the up and down arrows to the right of the search keyword to find all the matches in the table.
+    1. Click the **x** icon in the search box to clear the search keyword.
+
 1. Update the following view elements as described in the subsections below:
     * [Filters](#add-filters)
     * [Grouping](#add-grouping)
-    <!--* [Sort](#add-sort) not sure if this is present in timeline views?!; also check the anchor and make sure it's correct-->
     * [Settings](#edit-the-timeline-view-settings)
+    <!--* [Sort](#add-sort) not sure if this is present in timeline views?!; also check the anchor and make sure it's correct-->
 
 ### Add filters
 
@@ -170,26 +181,22 @@ Consider the following when working with filters in the timeline view:
 
 ### Add grouping
 
-<!-- if groupings are identical between the table and the timeline, consider replacing this section with this: 
-
-Adding groupings in the timeline view is identical to adding filters in the table view. 
-
-For more information, see the "Add groupings" section in the article [Manage the table view](../views/manage-the-table-view.md). BUT: you would need to create this section for the Table view and move the steps below (and maybe edit them) to the Manage the table view article, in this case. OR ... link from that section to this article?! -->
+<!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
 
 You can group records by similar information when applying  a grouping to a view.
 
+Adding groupings in the timeline view is similar to adding groupings to the table view. 
+
 Consider the following when working with groupings in the timeline view:
 
-<!--not yet: * You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type. -->
+* You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type.
 * You can apply 3 levels of grouping in a Maestro view. The records are grouped in the order of groupings that you select. 
 * You can apply up to 4 levels of grouping when using the API. 
 * The groupings are unique to the view that you select. Two timeline views of the same record type can have different groupings applied to them. Two users looking at the same timeline view see the same grouping that is currently applied. 
-
 * You cannot name the groupings you build for a timeline view.
-
 * Removing groupings removes them from anyone accessing the same record type as you and who displays the same view as you do. 
 
-To add a grouping:
+To add a grouping in the timeline view:
 
 1. Create a timeline view for a record type, as described in the article [Manage record views](../views/manage-record-views.md). 
 1. Click **Grouping** in the upper-right corner of the timeline view.
@@ -212,13 +219,14 @@ To add a grouping:
 
     ![](assets/grouping-applied-in-timeline-view.png)
 
-1. (Optional) Click the **x** icon to the right of a field selected for the grouping to remove the grouping
+1. (Optional) Inside the **Group records by** box, click the **x** icon to the right of a field selected for the grouping to remove the grouping
 
     Or
 
     Click **Clear all** to remove all fields.  
 
 1. Click outside the **Group records by** box to close it. 
+1. (Optional) Click **Settings**, then **Color** to color-code groupings. For more information, see the [Edit the timeline view settings](#edit-the-timeline-view-settings) section in this article. 
 
 <!-- 
 
@@ -243,6 +251,12 @@ Update the timeline view settings to indicate what and how information displays 
 1. Click **Bar style** in the left panel, to indicate what fields you want to display on the record bars. 
 
     The Name field is selected by default. <!--adjust this when the primary field is released??-->
+
+1. (Optional and conditional) If you added thumbnails to records, select the Thumbnail option to display the image associated with records in their record bar. 
+
+    >[!NOTE]
+    >
+    >    You must first add thumbnails in the table view before you can display them in the timeline view. For more information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md). 
 
 1. Click **Add field** to add up to 4 fields to the record bars.
 1. Click inside the **Search fields** box, and click the field you want to add. 

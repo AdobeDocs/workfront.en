@@ -5,6 +5,7 @@ title: Duplicates returned during a large paginated search
 description: Duplicates returned during a large paginated search
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 0359d6ba-b219-4d11-9f6f-cec2ff9ee058
 ---
 

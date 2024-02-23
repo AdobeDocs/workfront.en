@@ -57,7 +57,7 @@ You must have the following access to perform the steps in this article:
    * **[!UICONTROL All]**: Includes all portfolios for which you have at least access to View.\
 
       For more information about access to Portfolios, see [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).\
-      For more information about permissions to Portfolios, see  [Share a portfolio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+      For more information about permissions to Portfolios, see  [Share a portfolio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
       To add new portfolios, see [Create a portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
@@ -87,7 +87,7 @@ You must have the following access to perform the steps in this article:
       >
       >To see only specific projects, consider creating a project filter in the **[!UICONTROL Filter]** drop-down menu at the top of the list of projects to decrease the number of projects displayed.
 
-      For more information about creating filters, see [Filters overview in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+      For more information about creating filters, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 
 1. Click **[!UICONTROL Programs]** in the left panel to create Programs within the portfolio or manage existing ones.\

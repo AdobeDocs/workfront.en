@@ -20,5 +20,5 @@ This section contains the following articles:
 * [Create cross-project predecessors](../../../manage-work/tasks/use-prdcssrs/cross-project-predecessors.md) 
 * [Overview of task dependency types](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md) 
 * [Enforce predecessors](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md) 
-* [Overview of Lag Types](../../../manage-work/tasks/use-prdcssrs/lag-types.md) 
+* [Lag Types overview](../../../manage-work/tasks/use-prdcssrs/lag-types.md) 
 * [Task dependency loop overview](../../../manage-work/tasks/use-prdcssrs/dependency-loop-overview.md)

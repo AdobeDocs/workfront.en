@@ -2,14 +2,16 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: Custom View, Filter, and Grouping samples
-description: Custom View, Filter, and Grouping samplesTOC-proper article". I did not see much value in organizing this by objects.)"
-author: Lisa and Nolan
+title: "Custom view, filter, and grouping samples: article index"
+description: This section provides examples of custom views, filters, and groupings that you can use in your Adobe Workfront account.
+author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: beac1ea6-a983-4d12-8972-91150914f731
 ---
-# Custom View, Filter, and Grouping samples
+# Custom view, filter, and grouping samples: article index
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this used to be the content of this article but when I did the reorg of text mode for Kyna, Luke asked me to make this article a "TOC-proper article". I did not see much value in organizing this by objects.) </p>

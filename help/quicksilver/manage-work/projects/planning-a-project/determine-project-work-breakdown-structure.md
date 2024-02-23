@@ -102,13 +102,13 @@ In the beginning of a fiscal year or quarter, you may want to manage your resour
 For information about planning the use of your resources at a higher level, see the article [Get started with Resource Planning](../../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
 When you manage your resources in the context of building the Work Breakdown Structure of one project, and ensuring that each task is assigned to the correct resource, you are ready to schedule your resources for the work that needs to be done.   
-For information about scheduling your resources, see the articles in the [The Workload Balancer](../../../resource-mgmt/workload-balancer/workload-balancer.md) section.
+For information about scheduling your resources, see the articles in the [The Workload Balancer: article index](../../../resource-mgmt/workload-balancer/workload-balancer.md) section.
 
 ## Estimate project finances
 
 Workfront will calculate the planned costs for each task and the overall costs for a project. Planned costs for a task include all expenses of the task plus the cost of the employee or role assigned to the task. Hourly rates for the task, role, and employee are assigned during task, role, and user creation.
 
-For information about project finances, see the section [Project finances](../../../manage-work/projects/project-finances/project-finances-overview.md) .
+For information about project finances, see the section [Project finances: article index](../../../manage-work/projects/project-finances/project-finances-overview.md).
 
 ## Determine approval points for the project
 

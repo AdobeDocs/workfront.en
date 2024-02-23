@@ -6,6 +6,7 @@ title: Search via Document Webhooks
 description: Search via Document Webhooks
 author: Becky
 feature: Workfront API, Digital Content and Documents
+role: Developer
 exl-id: 8a3bf0c4-4a20-4311-8c05-15f4ef3a1d42
 ---
 # Search via Document Webhooks
@@ -42,7 +43,7 @@ GET /search
   </tr> 
   <tr> 
    <td>offset</td> 
-   <td>&nbsp;The page offset, used in conjunction with ‘max'.</td> 
+   <td>&nbsp;The page offset, used in conjunction with 'max'.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -51,7 +52,7 @@ GET /search
 
 ## Response
 
-JSON containing a list of metadata for files and folders matching the query. What constitutes a “match” is determined by the webhook provider. Ideally, it should do a full-text search. Doing a filename-based search also works.
+JSON containing a list of metadata for files and folders matching the query. What constitutes a "match" is determined by the webhook provider. Ideally, it should do a full-text search. Doing a filename-based search also works.
 
 **Example:** 
 

@@ -9,6 +9,8 @@ exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
 ---
 # Delete and deactivate portfolios
 
+<!--Audited: 01/2024-->
+
 Portfolios are collections of projects or programs in [!DNL Adobe Workfront]. You can delete or deactivate a portfolio if you find that it's irrelevant for your system.
 
 We recommend deactivating a portfolio that no longer needs to be associated with future projects instead of deleting it, to keep the historic information on the projects that are currently associated with the portfolio and its programs.
@@ -27,11 +29,12 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td> <p>New: [!UICONTROL Standard] </p>
+   <p>Current: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>[!UICONTROL Edit] access to Projects and Portfolios</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>[!UICONTROL Edit] access to Projects and Portfolios</p> <p><b>NOTE</b></p> <p> If you don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -68,7 +71,7 @@ When you deactivate a portfolio, you can still access it from the [!UICONTROL Po
 
 1. Click **[!UICONTROL Portfolios]** .
 1. Click the name of the portfolio.
-1. Click the More menu ![](assets/more-icon.png) to the right of the portfolio name, then click **[!UICONTROL Deactivate Portfolio]**.
+1. Click the **More** menu ![](assets/more-icon.png) to the right of the portfolio name, then click **[!UICONTROL Deactivate Portfolio]**.
 
 ## Delete a portfolio
 

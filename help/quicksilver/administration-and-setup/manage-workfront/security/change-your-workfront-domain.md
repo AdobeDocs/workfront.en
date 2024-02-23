@@ -44,7 +44,7 @@ You must have the following access to perform the steps in this article:
 
 ## Request a domain change
 
-1. Click the **Support** tab on the Workfront One page, then start creating a support case.
+1. Begin creating a support ticket on Experience League.
 1. In the **Description** box, include the new new domain you want, as well as the timeframe when you want the new domain to go live.
 1. Finish filling out the boxes for the support case, then click **Submit**.
 

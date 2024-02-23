@@ -11,7 +11,14 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 
 # Updates section overview
 
-<!--take "legacy" and "new commnenting" references out when we remove the legacy - Jan 2024???-->
+<!-- Audited: 1/2024 -->
+
+<!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
+
+<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
+
 
 >[!IMPORTANT]
 >
@@ -29,21 +36,14 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 >The new commenting experience is available only for the Updates section of Workfront objects, and it is not available when you access the objects from the following areas:
 >
 > * Home
-> * Summary panel in lists
 > * Summary panel in timesheets 
-
-<!-- with October 26 release: add somewhere this:
-
->[!NOTE]
->
->Iterations display the legacy commenting experience.-->
-
+> * Summary panel in the Workload Balancer
 
 ## Overview of the Updates section
 
 The Updates section of an object shows system updates, and up to 200 of the most recent updates users made within the past 90 days. 
 
-  ![](assets/updates-tab-after-unified-experience-for-issues.png)
+  ![Updates section](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
 
 Depending on what objects you access the commenting experience for, you might find the following experience for the Updates section:
 
@@ -79,11 +79,11 @@ Depending on what objects you access the commenting experience for, you might fi
 
   * Iterations
 
-    There is no option to enable the new commenting experience for iterations. 
+    There is no option to enable the new commenting experience for iterations.
 
 ### Overview of the Updates section in the new commenting experience
 
-![](assets/updates-tab-after-unified-experience-for-tasks.png)
+![Updates section](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
 >[!NOTE]
 >
@@ -93,8 +93,9 @@ Depending on what objects you access the commenting experience for, you might fi
 * The Updates section displays information in the following tabs in the new commenting experience: 
 
 
-  * **Comments**: Displays comments made by users and replies to those comments. Use the Comments tab to add new comments or reply to existing ones. For information about updating objects in the new commenting experience, see [Update work](../updating-work-items-and-viewing-updates/update-work.md). 
+  * **Comments**: Displays comments made by users and replies to those comments. Use the Comments tab to add new comments or reply to existing ones. For information about updating objects in the new commenting experience, see [Update work](../updating-work-items-and-viewing-updates/update-work.md).
   * **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, changes in status, name, or custom fields are captured with system updates. Your Workfront or group administrator can enable system updates for your objects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+  * **All (read-only)**: Displays both user comments and system activity comments in one place. This is a view-only tab. You cannot reply to comments or tag other users in existing comments in the All tab. To reply to a specific comment, use the link from the All tab to the Comments tab. For information about updating objects in the new commenting experience, see [Update work](../updating-work-items-and-viewing-updates/update-work.md).
 
 * The following objects don't have a System Activity tab:
 
@@ -166,8 +167,11 @@ The following table shows the objects whose comments also display on their highe
    <td>Team</td> 
   </tr> 
   <tr> 
-   <td>Timesheet*</td> 
-   <td>User, Team</td> 
+   <td>Timesheet</td> 
+   <td><p>User, Team</p>
+   <p><b>NOTE</b></p>
+   <p>Timesheet comments display in the Updates section of the user who makes the comment and the Updates section of their Home Team.</p>
+   </td> 
   </tr> 
   <tr> 
    <td>Template Task</td> 
@@ -178,7 +182,7 @@ The following table shows the objects whose comments also display on their highe
    <td>Iteration, Team</td> 
   </tr> 
   <tr> 
-   <td>Iteration*</td> 
+   <td>Iteration</td> 
    <td>Team</td> 
   </tr> 
 
@@ -192,10 +196,7 @@ The following table shows the objects whose comments also display on their highe
   </tr> 
  </tbody> 
 </table>
-* These are not available for the new commenting experience.
-
-<br>
-
+ 
 >[!NOTE]
 >
 >Replies added to system updates do not roll up to the parent object. Only direct replies on a child object and replies added to existing updates roll up to parent objects.
@@ -204,7 +205,6 @@ The following table shows the objects whose comments also display on their highe
 >
 > It is not possible to reply to system updates in the new commenting experience. For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
-</br>
 
 ## Limitations of the Updates section
 
@@ -237,7 +237,7 @@ Adobe Workfront administrators and group administrators can log in as other user
 
 For information, see [Log in as another user](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-Considering the following when logging in as another user and adding comments:
+Consider the following when logging in as another user and adding comments:
 
 * Any comments made on behalf of another user are indicated on the comment.
 

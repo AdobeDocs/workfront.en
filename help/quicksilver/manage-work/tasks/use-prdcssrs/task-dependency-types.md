@@ -10,6 +10,8 @@ exl-id: 30d1c60d-0632-4a32-b7e7-a9f8e81bf727
 ---
 # Overview of task dependency types
 
+<!-- Audited: 12/2023 -->
+
 Dependency Types refer to the predecessor relationships between tasks. They define when the dependent task can start or finish based on the start or finish of its predecessor.
 
 >[!IMPORTANT]
@@ -27,3 +29,8 @@ The following are the Workfront Dependency Types:
 * **Start-Start (ss)**: The predecessor task must start before the dependent task can start. You cannot start the dependent task unless the predecessor has at least started. 
 * **Start-Finish (sf)**: The predecessor task must start before the dependent task can finish. You can start the dependent task before the predecessor starts, but you cannot finish it unless the predecessor started. 
 * **Scheduled-Start (sd)**: This schedules a task as Finish-Start, but actual enforcement type is a Finish-Finish. When you use this, the dependent task is scheduled to start after the predecessor task is completed. However, the enforcement makes it so the dependent task can start anytime, but cannot finish until the predecessor task is finished.
+
+>[!NOTE]
+>
+>The abbreviations for the Dependency Types are used in task lists to define predecessor relationships. For more information, see [Examples of predecessor values in a task list](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md#examples-of-predecessor-values-in-a-task-list) in [Overview of task predecessors](/help/quicksilver/manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+

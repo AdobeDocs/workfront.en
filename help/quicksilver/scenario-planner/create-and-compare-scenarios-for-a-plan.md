@@ -61,7 +61,7 @@ A scenario is a copy of a plan. You can create as many scenarios as you need. Ho
 
    ![](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
 
-   This creates a new scenario with the same information as the copied scenario. It is automatically named "[!UICONTROL Scenario 2]" if it's the second scenario of your plan, "[!UICONTROL Scenario 3]" if it's the third, and so on. You cannot rename your scenarios. 
+   This creates a new scenario with the same information as the copied scenario. It is automatically named "[!UICONTROL Scenario 2]" if it's the second scenario of your plan, "[!UICONTROL Scenario 3]" if it's the third, and so on. You cannot rename your scenarios. There is not a limit to the number of copies you can make.
 
    <!--
    <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">

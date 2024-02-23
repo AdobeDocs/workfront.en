@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: workflow-examples
 title: Internal Then External Review in [!DNL Workfront Proof]
-description: If your organization completes internal reviews before sharing proofs with clients, we suggest two ways you can use [!DNL Workfront Proof] to enhance your workflow - EDIT ME.
+description: Learn how to use Workfront Proof for reviews outside of your organization. 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c54246e9-edb8-4d98-81e1-faf7ee75f81e

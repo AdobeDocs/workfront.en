@@ -4,6 +4,7 @@ description: Workfront Fusion release activity:&nbsp;Week of January 3, 2022
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: af3aaeac-38da-4ca3-86b5-aea27cb49bf4
 hidefromtoc: yes
 ---

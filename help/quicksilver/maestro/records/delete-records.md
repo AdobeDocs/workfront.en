@@ -6,18 +6,11 @@ hide: yes
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
 ---
-<!--udpate the metadata with real information when making this available in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Delete records
 
->[!IMPORTANT]
->The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
->
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
->
->Contact your account representative for more information about joining the beta program for Maestro.
->
->For information, see [Adobe Maestro overview](../maestro-overview.md).
+{{maestro-important-intro}}
 
 You can delete records that are no longer relevant in Adobe Maestro. 
 
@@ -27,9 +20,14 @@ You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> Adobe product</p> </td>
+   <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
@@ -45,35 +43,39 @@ You must have the following access to perform the steps in this article:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td role="rowheader"><p>Adobe Workfront license</p>
+   </td>
    <td>
    <p>Any</p> 
   </td>
   </tr>
   
   <tr>
-   <td role="rowheader">Access level</td>
-   <td> <p>Any</p>  
+   <td role="rowheader"><p>Access level configurations</p></td>
+   <td> <p>There are no access level controls for Maestro </p>  
+</td>
+  </tr>
+
+  <tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
 <tr>
-   <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
+
  </tbody>
 </table>
+
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>--> 
 
 ## Considerations about deleting records
 
@@ -82,6 +84,7 @@ You must have the following access to perform the steps in this article:
 * If the deleted records are linked to other records, the linked records are not deleted, but the information from the deleted record is also deleted. 
 * You cannot delete records in bulk. <!--this will probably change-->
 * You cannot delete records from the timeline view. 
+* You cannot delete a record type linked from another application. For example, if you link a Maestro record to a Workfront object, you cannot delete the Workfront object from the Workfront object record page. 
 
 ## Delete records
 
@@ -92,9 +95,10 @@ You can delete a record from the following areas:
 
 ### Delete a record from the record's Details page
 
-1. Click the **Main Menu** ![](assets/main-menu-workfront.png) in the upper-right corner, or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available, then click Maestro. 
+{{step1-to-maestro}}
 
-    The workspace that you access last opens. 
+   The workspace that you access last opens. 
+
 1. Click a record type. 
 
     The record type page opens. 
@@ -115,9 +119,10 @@ You can delete a record from the following areas:
 
 ### Delete a record from the record type table view
 
-1. Click the **Main Menu** ![](assets/main-menu-workfront.png) in the upper-right corner, or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available, then click **Maestro**. 
+{{step1-to-maestro}}
 
-    The workspace that you accessed last opens. 
+  The workspace that you accessed last opens. 
+
 1. Click a record type. 
 
     The record type page opens. 
@@ -129,3 +134,8 @@ You can delete a record from the following areas:
     ![](assets/contextual-menu-for-record-row.png)
 
     The record is deleted and cannot be recovered.
+
+1. (Optional) Use the following keyboard shortcuts to undo or redo deleting a record:
+
+    * CTRL + Z (⌘ + Z for Mac) to undo a change 
+    * CTRL + Shift + Z (⌘ + Shift + Z for Mac) to redo a change 

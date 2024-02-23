@@ -89,6 +89,10 @@ When you configure [!DNL Workfront] modules, [!DNL Workfront Fusion] displays th
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
+>[!NOTE]
+>
+>If you do not see the most up-to-date fields in a Workfront module, this may be because of caching issues. Wait one hour and try again.
+
 ![](assets/map-toggle-350x74.png)
 
 * [Triggers](#triggers) 
@@ -432,7 +436,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -550,7 +554,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Action]</td> 
-   <td> <p>Select the action you want the module to perform.</p> <p>You may need to fill out additional fields, depending on the [!UICONTROL Record Type] and [!UICONTROL Action] you choose. Some combinations of these two settings may require only a record ID, while others (such as Project for the <strong>[!UICONTROL Record Type]</strong> and [!UICONTROL Attach Template] for the <strong>[!UICONTROL Action]</strong>) require additional information (such as an Object ID and a Template ID).</p> <p>For details about individual fields, see the <a href="http://developer.workfront.com/">Workfront developer documentation</a>. </p> 
+   <td> <p>Select the action you want the module to perform.</p> <p>You may need to fill out additional fields, depending on the [!UICONTROL Record Type] and [!UICONTROL Action] you choose. Some combinations of these two settings may require only a record ID, while others (such as Project for the <strong>[!UICONTROL Record Type]</strong> and [!UICONTROL Attach Template] for the <strong>[!UICONTROL Action]</strong>) require additional information (such as an Object ID and a Template ID).</p> <p>For details about individual fields, see the <a href="http://developer.workfront.com/">Workfront developer documentation</a>. <p><strong>Note</strong>: The developer documentation site includes information only through API version 14, but still contains valuable information for API calls. </p> 
     <ol> 
      <li value="1"> <p>Select the record type from the left navigation on the [!DNL Workfront] developer documentation page. The following types have their own pages:</p> 
       <ul> 

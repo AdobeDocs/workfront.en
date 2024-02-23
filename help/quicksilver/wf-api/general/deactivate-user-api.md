@@ -6,6 +6,7 @@ title: Deactivate a User via the API
 description: Deactivate a User via the API
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 45b06cce-4622-4739-b9f3-2edb9101c099
 ---
 

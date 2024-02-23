@@ -9,11 +9,14 @@ exl-id: 7c14702e-ac55-4266-88a7-f31618f84218
 ---
 # Overview of sharing permissions on objects
 
+<!-- Audited: 12/2023 -->
+
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Redundancy here with the article Permissions for shared objects?</p>
 -->
+When sharing an object with someone in the system, you can grant the recipient any of the following permissions: view, contribute, and manage.
 
-You do not have to be an Adobe Workfront administrator to share permissions on objects that you have access to, but permissions on objects work within the access levels set by the Workfront administrator.
+You do not have to be an Adobe Workfront administrator to share permissions on objects that you have access to, but your permissions on objects work within the access levels set by the Workfront administrator.
 
 You can share or remove permissions to an object you created or an object that was shared with you. When you are not the creator of the object, you must have Share access on the object that you want to share in your access level in addition to Share permissions on the object. For information about access levels, see [New access levels overview](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-level-overview.md) or [Access levels overview](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
@@ -29,7 +32,7 @@ You can share the following objects in Workfront with other users:
 
 * **Templates**: For more information, see [Share project templates](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-* **Portfolios**: For more information, see [Share a portfolio](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+* **Portfolios**: For more information, see [Share a portfolio](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
 * **Programs**: For information, see [Share a program](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md) .
 
@@ -41,7 +44,7 @@ You can share the following objects in Workfront with other users:
 
 * **Document Folders**: For information, see [Share a document folder](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
 
-* **Proofs**: For information, see [Share a Proof in Workfront Proof](../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md). 
+* **Proofs**: For information, see [Share a Proof within Workfront](/help/quicksilver/review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md). 
 
 * **Reports, dashboards, and calendars**: For information, see [Share reports, dashboards, and calendars](../../workfront-basics/grant-and-request-access-to-objects/permissions-reports-dashboards-calendars.md).&nbsp;Additionally, see the following articles:
 
@@ -65,7 +68,9 @@ You can share the following objects in Workfront with other users:
 
   For example, if you have Contribute permissions on the object, you cannot grant another user Manage permissions on that object.
 
-* You cannot share an object with a permission level higher than the access level of a user. For example, if a user has View access to Projects in their access level, you cannot give them Manage permissions on a project. 
+* You cannot share an object with a permission level higher than the access level of a user. 
+
+  For example, if a user has View access to Projects in their access level, you cannot give them Manage permissions on a project. 
 * A user with permissions to at least View an object can share that object with someone else.
 * You can share objects with active users, job roles, teams, groups, or companies.
 
@@ -81,7 +86,7 @@ You can share the following objects in Workfront with other users:
 
 ## Share limitations
 
-You can share an object with up to 100 entities (users, teams, groups, job roles, companies). We recommend that you share objects with groups, teams, or companies rather than with individual users, to avoid this limitation.
+You can share an object with up to 100 entities (users, teams, groups, job roles, companies). We recommend that you share objects with groups, teams, or companies rather than with individual users to avoid this limitation.
 
 ## Share permissions for objects
 
@@ -92,20 +97,19 @@ The following table illustrates the level of permissions that you can select whe
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">View</td> 
+   <td role="rowheader"><strong>View</strong></td> 
    <td> <p>You can perform the following actions on the object:</p> 
     <ul> 
-     <li>View the object</li> 
-     <li>Add documents to the object</li> 
-     <li>View Finance information about the object</li> 
+     <li><p>View the object</p></li> 
+     <li><p>Add documents to the object</p></li> 
+     <li><p>View Finance information about the object</p></li> 
      <li> <p>Share the object<br></p> <p>When you share the object, you can grant other users the same permission level you have only on the object, not a higher level.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Contribute</td> 
+   <td role="rowheader"><strong>Contribute</strong></td> 
    <td> <p>You can perform the following actions on the object:</p> 
     <ul> 
-     <li>View it</li> 
      <li>All the actions included with the View permission.</li> 
      <li>Add Expenses to it</li> 
      <li>Add issues to it (if it is a task or a project)</li> 
@@ -116,30 +120,26 @@ The following table illustrates the level of permissions that you can select whe
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Manage</td> 
+   <td role="rowheader"><strong>Manage</strong></td> 
    <td> <p>You can perform the following actions on the object:</p> 
     <ul> 
-     <li>View it</li> 
      <li>All the actions included with the View and Contribute permissions</li> 
      <li>Delete it</li> 
      <li>Manage Finance information in it</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Make this public to external users</td> 
+   <td role="rowheader"><strong>Make this public to external users</strong></td> 
    <td> <p>Anyone without a Workfront account can view the object by clicking a link to it. This is not available for all objects.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Make this visible system-wide</td> 
+   <td role="rowheader"><strong>Make this visible system-wide</strong></td> 
    <td> <p>The object can be found in searches and viewed by anyone with a Workfront account.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Understand inherited permissions and the hierarchy of objects
-
-* [Permissions inherited from parent objects](#permissions-inherited-from-parent-objects) 
-* [Permissions acquired through organizational memberships](#permissions-acquired-through-organizational-memberships)&nbsp;
 
 ### Permissions inherited from parent objects {#permissions-inherited-from-parent-objects}
 
@@ -149,7 +149,7 @@ For example, if you give a user Contribute permissions to a project, the user ha
 
 Continuing with the example above, you cannot restrict permissions to child objects. If you do not want the user to have Contribute permissions to child objects associated with the project, you must manually remove the Inherited Permissions from the objects and then adjust the permissions for the individual user, including any Advanced Settings.&nbsp;
 
-For more information about the hierarchy and interdependency of objects in Workfront, see the section [Interdependency and hierarchy of objects](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) in the article [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+For more information about the hierarchy and interdependency of objects in Workfront, see the section [Interdependency and hierarchy of objects](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#interdependency-and-hierarchy-of-objects) in the article [Adobe Workfront objects overview](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 >[!NOTE]
 >

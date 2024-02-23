@@ -10,6 +10,8 @@ exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
 ---
 # Adobe Workfront Goals overview
 
+<!-- Audited: 1/2024 -->
+
 <!--drafted for P&P new model: the note at the top will need to be replaced with this:
 
 Your organization must have the following to use the functionality described in this article:
@@ -36,17 +38,19 @@ For additional information about access to Workfront Goals, see [Requirements to
 >
 >Your organization must have the following to use the functionality described in this article:
 >
->* A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
->* An Adobe Workfront Goals license in addition to a Workfront license.
+>* New:
+>   * Ultimate, or
+>   * Select or Prime, and an Adobe Goals license in addition to a Workfront license
+>* Current: An Adobe Goals license in addition to a Workfront license 
 >
 >Contact your Workfront account manager to learn about a Workfront Goals license.
-
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 
 Workfront Goals helps you define, communicate, and achieve strategic outcomes by connecting strategy to work execution and delivery. You can focus everyone's efforts on what truly matters, make progress measurable, and enable teams to accomplish amazing results. People can do their best work knowing their contributions have a meaningful impact.
 
-Workfront Goals is an add-on module for the core Workfront work management platform. It is intended to work together with Workfront with which it shares many of the setup elements and configuration entities, such as users, teams, groups, and projects.
+Workfront Goals is an add-on module for the core Workfront work management platform. It is intended to work together with Workfront, with which it shares many of the setup elements and configuration entities, such as users, teams, groups, and projects.
 
 For more information about best practices for using Workfront Goals, see [Get started with Adobe Workfront Goals](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
 
@@ -71,7 +75,7 @@ The following functionality is currently included with Workfront Goals:
 
   For information about associating projects with goals, see [Add projects to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
-* Update goals, results, and activities to keep your goals on track towards being completing. 
+* Update goals, results, and activities to keep your goals on track towards completion. 
 
   For information about updating goal progress, see [Update goal progress in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 

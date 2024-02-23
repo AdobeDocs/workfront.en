@@ -18,4 +18,4 @@ This section contains the following articles:
 * [Enabling Adobe Workfront DAM](../../documents/workfront-dam-within-workfront/enable-wf-dam.md) 
 * [Managing Documents with Adobe Workfront DAM](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md) 
 * [Adobe Workfront licensing role types vs. Adobe Workfront DAM role types](../../documents/workfront-dam-within-workfront/difference-between-wf-dam-role-types.md) 
-* [Access Help for Adobe Workfront DAM](../../documents/workfront-dam-within-workfront/access-help--workfront-dam.md)
+* [Access Help for Adobe Workfront DAM](../../documents/workfront-dam-within-workfront/access-help-workfront-dam.md)

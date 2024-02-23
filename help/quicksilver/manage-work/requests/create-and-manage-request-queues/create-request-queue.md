@@ -2,14 +2,17 @@
 product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Create a Request Queue
-description: You can set up a Request Queue where users can enter occasional requests that are not planned work on a project.
+description: You can set up a Request Queue where users can enter occasional requests that are not planned work on a project. For example, a help desk request queue can be set up to capture all user requests that come to an IT department.
 author: Alina
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 385420aa-0962-4b67-9d0d-b153dcf302cf
 ---
+
 # Create a Request Queue
+
+<!--Audited: 12/2023-->
 
 <!--
 <THIS IS CONNECTED TO THE PRODUCT IN BLUEPRINTS. DO NOT MOVE/ CHANGE URL>
@@ -20,8 +23,6 @@ You can set up a Request Queue where users can enter occasional requests that ar
 This article describes how you can create a request queue where users can submit requests. For information about how to submit a new request to a request queue, see [Copy and submit requests](../create-requests/copy-and-submit-requests.md). 
 
 ## Access requirements
-
-<!--drafted for P&P: replace the table below with this:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,9 +35,9 @@ This article describes how you can create a request queue where users can submit
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> 
-   <p>Current license: Stadard </p>
+   <p>New license: Standard </p>
    Or
-   <p>Legacy license: Plan </p> </td> 
+   <p>Current license: Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
@@ -52,8 +53,9 @@ This article describes how you can create a request queue where users can submit
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator
--->
 
+
+<!--old access levels: 
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -81,7 +83,8 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator
+*To find out what plan, license type, or access you have, contact your Workfront administrator
+-->
 
 ## Request queues overview
 

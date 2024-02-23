@@ -16,7 +16,7 @@ exl-id: d2962100-3a64-47a9-a67c-5ebf6a594711
 * [Replacement of Flash-based tools in Adobe Workfront](replace-flash-tools.md) 
 * [New Adobe Workfront managed system to replace POP&nbsp;email for Request Queues with 21.1](pop-removal-request-queue.md) 
 * [New Adobe Workfront managed system to replace POP email for Request Queues with 21.1](pop-removal-request-queue.md)
-* [New IP addresses for Adobe Workfront email with the 21.1 release](new-email-ip-21.1.md)
+* [New IP addresses for Adobe Workfront email with the 21.1 release](new-email-ip-21-1.md)
 * [Email Spoofing & POP Reply](email-spoofing-pop-reply-message.md)
 * [Customers on Clusters 1, 2, and 3 must update any allowlist IP blocks to prevent the blocking of Adobe Workfront services](clusters-1-3-update-whitelist.md)
 * [Remove custom SMTP as an outgoing email option](remove-custom-smtp.md)

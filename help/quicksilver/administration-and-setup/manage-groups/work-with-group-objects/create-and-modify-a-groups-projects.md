@@ -65,7 +65,7 @@ You must have the following to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader"> <p>Work with a project</p> </td> 
-      <td> <p>Select the project, then use the toolbar buttons to edit <img src="assets/edit-icon.png">, share <img src="assets/share-icon.png">, or delete it <img src="assets/delete.png">.</p> <p>For more information about these activities, see <a href="../../../manage-work/projects/manage-projects/manage-projects-overview.md" class="MCXref xref">Manage projects</a>.</p> </td> 
+      <td> <p>Select the project, then use the toolbar buttons to edit <img src="assets/edit-icon.png">, share <img src="assets/share-icon.png">, or delete it <img src="assets/delete.png">.</p> <p>For more information about these activities, see <a href="../../../manage-work/projects/manage-projects/manage-projects-overview.md" class="MCXref xref">Manage projects: article index</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Create a new project for the group</p> </td> 

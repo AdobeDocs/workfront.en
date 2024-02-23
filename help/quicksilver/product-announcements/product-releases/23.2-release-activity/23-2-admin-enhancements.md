@@ -4,6 +4,7 @@ description: 23.2 Administrator enhancements
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
 ---
 # 23.2 Administrator enhancements

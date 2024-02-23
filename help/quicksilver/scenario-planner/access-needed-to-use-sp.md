@@ -49,7 +49,7 @@ You must ensure that the following conditions are all met before you can access 
 
 -->
 
-* Your organization must purchase a [!DNL Workfront] [!UICONTROL Business] or higher [!DNL Workfront] plan. For information about the [!DNL Workfront] plans, see [Workfront Plans](http://workfront.com/plans).
+* Your organization must purchase a [!DNL Workfront] [!UICONTROL Business] or higher [!DNL Workfront] plan. For information about the [!DNL Workfront] plans, see [Workfront Plans](https://workfront.com/plans).
 * Your organization must purchase a [!DNL Workfront Scenario Planner] license, in addition to a [!DNL Workfront] license. Contact your [!DNL Workfront] Account Representative to learn about [!DNL Workfront Scenario Planner] licenses. 
 
 <!--drafted for P&P: 

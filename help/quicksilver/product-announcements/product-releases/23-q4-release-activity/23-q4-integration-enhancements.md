@@ -3,6 +3,7 @@ title: Fourth Quarter 2023 Integration enhancements
 description: Fourth Quarter 2023 Integration enhancements
 author: Lisa
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 0e8952db-5103-4730-860b-e3d6088497ec
 ---
 # Fourth Quarter 2023 Integration enhancements
@@ -22,10 +23,6 @@ We've made some changes to the way you send documents to your SharePoint (GraphA
 For more information, see [Link documents through the new SharePoint integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-sharepoint-integration.md#link-documents-through-the-new-sharepoint-integration).
 
 ## Upgrades to drag-and-drop for document integrations
-
->[!NOTE]
->
->This feature has not yet been released to Production environments.
 
 We've made some enhancements to the user experience when dragging and dropping a file into a linked folder.
 

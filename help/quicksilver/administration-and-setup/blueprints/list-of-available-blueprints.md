@@ -124,6 +124,10 @@ This blueprint contains a single dashboard to assist system administrators in ma
 
 This blueprint contains a single dashboard with 21 reports to help you measure the Value of Workfront. These reports help you translate the benefits of Centralizing Work and Managing Work Processes into measurable values that you can track over time to drive better outcomes.
 
+[!BADGE New!]{type=Informative} **Value Realization | Deliver Client-facing Services Dashboard**
+
+This blueprint contains a single dashboard with 8 reports to help you realize the benefits of Workfront. These reports are designed to help you translate your client-facing services into measurable value that you can track over time to drive better outcomes.
+
 [!BADGE New!]{type=Informative} **Value Realization | Review and Approve Dashboard**
 
 This blueprint contains a single dashboard with 7 reports to help you realize the Value of Workfront. These reports help you translate the values of Reviewing & Approving work into measurable benefits that you can track over time to drive better outcomes.

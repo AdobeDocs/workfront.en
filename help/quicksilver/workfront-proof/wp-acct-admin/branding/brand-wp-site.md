@@ -129,4 +129,4 @@ To set up email branding:
 
 If you create a proof via the [!DNL Workfront Proof] API, you can suppress buttons and links and create your own custom links.
 
-See [[!DNL Workfront Proof] API](http://api.proofhq.com/) for more information.
+See [[!DNL Workfront Proof] API](https://api.proofhq.com/) for more information.

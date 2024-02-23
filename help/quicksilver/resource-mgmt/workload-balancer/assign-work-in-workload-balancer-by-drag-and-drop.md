@@ -3,7 +3,7 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Assign work in the Workload Balancer by dragging and dropping
 description: You can assign work items using the Adobe Workfront Workload Balancer by dragging and dropping work items to the correct users.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
 ---

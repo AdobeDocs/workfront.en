@@ -3,10 +3,13 @@ product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Configure the [!UICONTROL Experience Manager Assets as a Cloud Service] integration
 description: You can connect your work with your content in [!DNL Experience Manager Assets].
+author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
 ---
 # Configure the [!UICONTROL Experience Manager Assets as a Cloud Service] integration
+
+<!-- Audited: 1/2024 -->
 
 >[!IMPORTANT]
 >
@@ -31,15 +34,16 @@ You must have the following:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] plan*</strong>
+   <td><strong>[!DNL Adobe Workfront] plan</strong>
    </td>
    <td>Any
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] licenses*</strong>
+   <td><strong>[!DNL Adobe Workfront] licenses</strong>
    </td>
-   <td>[!UICONTROL Plan]
+   <td>Current: [!UICONTROL Plan] <br>
+   New: [!UICONTROL Standard]
    </td>
   </tr>
   <tr>
@@ -57,25 +61,25 @@ You must have the following:
   <tr>
    <td>Access level configurations*
    </td>
-   <td>You must be a [!DNL Workfront] administrator. For information on [!DNL Workfront] administrators, see <strong>Grant a user full administrative access</strong>.
+   <td>You must be a [!DNL Workfront] administrator.
    </td>
   </tr>
 </table>
 
-
-*To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Prerequisites
 
 Before you begin,
 
-* You must have [!DNL Workfront] and [!DNL Adobe Experience Manager Assets] associated with an Organization ID in the [!DNL Adobe Admin Consol]e. For more information see, [Platform-based administration differences ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+* You must have [!DNL Workfront] and [!DNL Adobe Experience Manager Assets] associated with an Organization ID in the [!DNL Adobe Admin Console]. For more information see, [Platform-based administration differences ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 
 ## Set up the integration information
 
-1. Click the **[!UICONTROL Main Menu]** icon  in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Setup]** .
+{{step-1-to-setup}}
+
 1. Select **[!UICONTROL Documents]** in the left panel, then select **[!UICONTROL [!DNL Experience Manager] Integration]**.
 
     >[!NOTE]
@@ -225,9 +229,7 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 >Users must have write access in [!DNL Experience Manager] for assets living in the object in order for the metadata to sync when it's updated.
 
 1. Enable the **[!UICONTROL Sync object metadata]** field.
-1. Click **Save** or move on to the [Set up workflows (Optional)](#set-up-workflows-optional) section in this article.
-
-<!--Courtney start here-->
+1. Click **Save** or move on to the [Set up workflows (Optional)](#set-up-workflows-optional) section in this article.-->
 
 ## Set up workflows (Optional)
 
@@ -235,15 +237,25 @@ A workflow is a set of actions that connect Workfront to Adobe Experience Manage
 
 The default workflow values that you set in the integration can be overridden at the Project Template and Project levels.
 
-### Set up a workflow for the creation of Adobe Experience Manager linked folders
+The followings workflows are available in the Adobe Experience Manager integration:
+
+* [Create Adobe Experience Manager linked folders](#create-adobe-experience-manager-linked-folders)
+* [Publish assets that are sent to Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
+
+### Create Adobe Experience Manager linked folders
 
 1. Toggle the **[!UICONTROL Create Linked folder]** on.
 1. Choose a folder path to indicate where you want all linked folders associated with this integration. 
    ![Linked folder navigation](assets/select-folder-aem-integration.png)
-1. Enable the **Append Portfolio and Program Names** option to automatically include Portfolio and Program names at the end of the linked folder's name.
-1. Click **Save** or move on to the [Set up linked folders (Optional)](#set-up-linked-folders-optional) section in this article.
+1. Enable the **[!UICONTROL Append Portfolio and Program Names]** option to automatically include Portfolio and Program names at the end of the linked folder's name.
+1. Click **[!UICONTROL Save]** or move on to the [Publish assets that are sent to Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) section in this article.
 
-<!--Courtney end here-->
+### Publish assets that are sent to Adobe Experience Manager Assets
+
+1. Toggle on **[!UICONTROL Publish assets automatically]**.
+1. Check the box next to the location where you want to publish assets sent to Adobe Experience Manager assets. You may enable either or both options. 
+1. (Conditional) If you have enabled the Brand Portal option, Select the Brand Portal where you want to publish assets.
+1. Click **[!UICONTROL Save]** or move on to the [Set up linked folders (Optional)](#set-up-linked-folders-optional) section in this article.
 
 ## Set up linked folders (Optional)
 

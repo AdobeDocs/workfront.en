@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: create-projects
 title: Create a project
-description: A project is a large unit of work in Adobe Workfront. You can create projects from scratch, use a template, or by converting issues or tasks to projects. 
+description: A project is a large unit of work in Adobe Workfront. You can create projects from scratch, use a template, or convert issues or tasks to projects.
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
@@ -12,6 +12,8 @@ exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:this is linked from the UI from the Projects global nav section in classic. Do not change/ remove)</p>
 -->
+
+<!-- Audited: 12/2023 -->
 
 Projects represent a large amount of work that needs to be done in Adobe Workfront.
 
@@ -56,31 +58,31 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Standard</p>
+        <p>or</p>
+        <p>Current: Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to projects, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Projects</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>When you create a project you automatically receive Manage permissions to the project </p> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>When you create a project, you automatically receive Manage permissions to the project.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Ways to create projects
 
-You can create a project in Workfront by using one of the following methods:
+You can create a project in Workfront using one of the following methods:
 
 * Create a project from scratch without using a template. This article describes how to create a project from scratch. 
 
@@ -97,15 +99,15 @@ You can create a project in Workfront by using one of the following methods:
 
   As a Workfront administrator, you can import projects using a kick-start.
 
-  For information about importing data using kick-starts in Workfront, see [Import data into Adobe Workfront using a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md) .
+  For information about importing data using kick-starts in Workfront, see [Import data into Adobe Workfront using a Kick-Start template](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-  For information about importing projects using kick-starts, see [Kick-Starts scenario: simple project and task import preparation](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md) .
+  For information about importing projects using kick-starts, see [Kick-Starts scenario: simple project and task import preparation](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
 * Publish an initiative from a scenario in the Adobe Workfront Scenario Planner. The Scenario Planner requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md). For information about creating projects from publishing initiatives, see  [Update or create projects by publishing initiatives in the Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
 
 ## Prerequisites
 
-Before you begin you must ensure that
+Before you begin, you must ensure that:
 
 * Your system or group administrator enabled the "Allow users to create projects without using a template" preference in the Setup area. 
   
@@ -113,17 +115,17 @@ Before you begin you must ensure that
 
 ## New project default settings
 
-When you create a project, Workfront applies a set of default settings to it. For example, the Status, Group, or Schedule Mode are preset when you create a project.
+When you create a project, Workfront applies a set of default settings to it. For example, the Status, Group, and Schedule Mode are preset when you create a project.
 
 Consider the following:
 
-* As a Workfront administrator or a group administrator, you can configure the default settings for a new project when configuring Project Preferences for your Workfront instance or for a group.
+* As a Workfront administrator or a group administrator, you can configure the default settings for a new project when configuring Project Preferences for your entire Workfront instance or for a group.
 * Workfront applies the settings of the group, if there are any, before it applies those set by the Workfront administrator. 
-* The default Status of a new project corresponds with the status defined by your Workfront administrator in the main Project Preferences area or by a group administrator (or Workfront administrator) in the Project Preferences area for a group. 
+* The default status of a new project corresponds with the status defined by your Workfront administrator in the main Project Preferences area or by a group administrator (or Workfront administrator) in the Project Preferences area for a group. 
 
   >[!NOTE]
   >
-  >We recommend that the default status for a new project is Planning. As you are making changes to the new project, this ensures that notifications do not trigger to the users assigned to the project.
+  >We recommend that the default status for a new project is Planning. As you are making changes to the new project, this ensures that notifications are not sent to the users assigned to the project.
   >
   >For more information about setting up the default status and other default settings for a new project, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) or [Configure project preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 
@@ -141,50 +143,42 @@ Consider the following:
 
   * If you create a project by converting an issue, the group of a new project is the Group of the issue's existing project. If the user converting the issue does not have access to the issue's project or if the issue's project does not have a Group, the Group of the new project is the Home Group of the user converting the issue. 
     
-    The new project's statuses match the group statuses of the group associated with the project which is either the Group of the original project or the Home Group of the user converting the issue. 
+    The new project's statuses match the group statuses of the group associated with the project, which is either the Group of the original project or the Home Group of the user converting the issue. 
 
     If you are using a template when you're creating the project by converting the issue, refer to the second scenario above to understand which Group and which Status Workfront applies to the new project. 
 
 ## Create a project from scratch
 
+>[!NOTE]
+>
+>If you are creating a project using a template, we recommend that you also see the article [Create a project using a template](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md).
+
+
 1. Do one of the following:
 
-   * Click the **Main Menu** ![](assets/main-menu-icon.png), click **Projects**, then expand **New Project**. 
+   * Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner. Click **Projects**, then expand **New Project**.
    * Go to a portfolio, then expand **New Project**.
-
-     >[!TIP]
-     >
-     >When you create a project using a template from a portfolio, the Portfolio field of the new project updates to display the portfolio you chose to create the project from. This overwrites the Portfolio field on the template, if it is specified.
-
    * Go to a program, then expand **New Project**.
-
-     >[!TIP]
-     >
-     >When you create a project using a template from a program, the Program field of the new projects updates to display the Program you chose to create the project from. The Portfolio field of the template updates to display the portfolio of the program you chose to create the project from. This overwrites the Program and Portfolio fields on the template, if they are specified.
-
    * If you are a group administrator, you can also create a project in the Projects section of a group you manage. For more information, see [Create and modify a group's projects](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-     >[!TIP]
-     >
-     >When you create a project using a template from a group, the group you create the project from displays in the Group field of the new project only when the Group field of the template is not specified. If the template Group field is specified, the Group field of the new project is that of the template.
+   ![New Project menu](assets/new-project-dropdown-nwe-350x358.png)
 
-   ![](assets/new-project-dropdown-nwe-350x358.png)
+1. Click **New Project** in the menu to create a project from scratch.
+1. Type a name for your project. Press Enter to save the name.
 
-1. Click **New Project** if you want to create a project from scratch.
-1. Enter a name for your project. Press Enter to save the name.
-
-   ![](assets/untitled-project-rename-new-project-nwe-350x127.png)
+   ![Enter a name for the project](assets/rename-untitled-project.png)
 
    The header of the project page displays a quick overview of the current health and progress of a project. The information in the project header changes as the project information is updated.
 
-1. Click **Start Adding** **Tasks**.
+1. Click **Start Adding Tasks**.
 
    Or
 
-   Click **New Task** to add tasks to the project and assign resources to them.   
+   Click **New Task** to add tasks to the project and assign resources to them.
+
    For more information about adding tasks to a project, see [Create tasks in a project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-1. Edit the project details, by clicking the**More menu** and then **Edit** ![](assets/qs-edit-icon.png) next to the name of the project.
+1. Edit the project details by clicking the **More** menu and then **Edit** ![](assets/qs-edit-icon.png) next to the name of the project.
 
    The **Edit Project** dialog box opens.
 

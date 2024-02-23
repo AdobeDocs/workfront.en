@@ -70,23 +70,23 @@ To show comments on a timesheet:
 
 ### Comment on the overall timesheet {#comment-on-the-overall-timesheet}
 
-You can make general comments about the timesheet.
+You can make general comments about the timesheet. Commenting on the overall timesheet is similar to commenting on other objects. 
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner or Workfront, if available.
 
 1. Click **Timesheets**.
 1. Go to the timesheet where you want to make a comment.
-1. Click **Updates** in the left panel, ensure the **Comments** tab is selected, and start entering an update in the **New comment** box.
+1. Click **Updates** in the left panel, then click the **Comments** tab.
+1. Start adding new comments or reply to existing ones, as described in [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Optional) Add people or teams in the **Tag people or teams** field to include others in your update. For more information, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-1. (Optional) Add Rich Text formatting to your comment. For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Optional) Select the **Private to my company** option if you want only people from your company to view the update.
 1. Type your comment, then click **Submit**.
 
-   Your comment displays in the [!UICONTROL Updates] section of the timesheet.
+   Your comment displays in the [!UICONTROL Updates] section of the timesheet, in the Comemnts tab.
 
 1. (Optional) Click the **System Activity** tab to review system-generated updates.
 
-   For more information, see the "Enable or disable system updates" section in the article [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+   For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 
 ### Comment on an individual hour entry in a timesheet {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
