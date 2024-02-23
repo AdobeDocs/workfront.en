@@ -147,8 +147,12 @@ Use the progress bar at the top of the [!UICONTROL Summary] to update the percen
 
 Use the [!UICONTROL Updates] section of the [!UICONTROL Summary] to view recent updates and make updates on the task or issue you selected. Click **[!UICONTROL See all]** to go directly to the [!UICONTROL Updates] tab on the task.
 
-<span class="preview">Example of Updates in the Preview environment:</span>
-<span class="preview">![Updates section in Summary panel](assets/summary-updates-section.png)</span>
+<div class="preview">
+
+Example of Updates in the Preview environment:
+![Updates section in Summary panel](assets/summary-updates-section.png)
+
+</div>
 
 Example of Updates in the Production environment:
 ![Updates section in Summary panel](assets/summary-updates-with-block-quote-350x290.png)
