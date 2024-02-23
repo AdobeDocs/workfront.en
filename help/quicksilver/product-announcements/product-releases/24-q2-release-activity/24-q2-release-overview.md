@@ -48,7 +48,7 @@ This page provides information about functionality that is included in the Secon
                         </p>
                     </td>
                 </tr>
-                <!--<tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Attribute mapping now available for organizations that have migrated to Adobe IMS</a></p>
                         <p>[!BADGE In production ]{type=Informative}</p><p>Workfront system administrators can now set up user attribute mapping for organization that have migrated to Adobe IMS. This allows user information to pass into Workfront from the organization's SSO (Single Sign-on) provider, so that the user's data does not have to be entered into both Workfront and the SSO provider.</p>
@@ -63,7 +63,7 @@ This page provides information about functionality that is included in the Secon
                             </li>
                         </ul>
                     </td>
-                </tr>-->                
+                </tr>                
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Skip logic and display logic are now available in the form designer beta</a></p>
