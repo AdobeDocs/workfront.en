@@ -2,14 +2,14 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: Event notifications available in Adobe Workfront
+title: Event notification types
 description: Event notifications are emails triggered by various types of events on objects such as projects, tasks, and issues. This article lists and describes the available types of event notifications.
 author: Lisa, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: de7a995d-ff1e-4631-91f7-4dc895a87c94
 ---
-# Event notifications available in Adobe Workfront
+# Event notification types
 
 <!-- Audited: 1/2024 -->
 
@@ -69,7 +69,7 @@ See also [Notifications: Action needed](../../../workfront-basics/using-notifica
    <td> <p>Issue</p> </td> 
    <td> <p>Issue Assignment</p> </td> 
    <td> <p>User that issue is assigned to</p> </td> 
-   <td> <p>I'm assigned to an issue.</p> <p>The issue assignee receives an email notification only if the status of the project is Current and the status of the issue is not Closed or something that equates with Closed.</p> <p>Users with a Review or Request license do not receive a notification.</p> </td> 
+   <td> <p>I'm assigned to an issue.</p> <p>The issue assignee receives an email notification only if the status of the project is Current and the status of the issue is not Closed or something that equates with Closed.</p> <p>Users with a Light, Contributor, Review or Request license do not receive a notification.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
@@ -104,7 +104,7 @@ See also [Notifications: Action needed](../../../workfront-basics/using-notifica
    <td> <p>Task</p> </td> 
    <td> <p>Task Assignment</p> </td> 
    <td> <p>User that task is assigned to</p> </td> 
-   <td> <p>I'm set as the primary assignee of a task.</p> <p>The Task Assignee receives an email notification if they are made the primary assignee of the task, unless the assignee is the user who made the assignment.</p> <p>A notification is sent if the project status is Current and the task is not marked Complete.</p> <p>Users with a Review license do not receive a notification.</p> </td> 
+   <td> <p>I'm set as the primary assignee of a task.</p> <p>The Task Assignee receives an email notification if they are made the primary assignee of the task, unless the assignee is the user who made the assignment.</p> <p>A notification is sent if the project status is Current and the task is not marked Complete.</p> <p>Users with a Light or Review license do not receive a notification.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
@@ -125,14 +125,14 @@ See also [Notifications: Action needed](../../../workfront-basics/using-notifica
    <td> <p>Timesheet</p> </td> 
    <td> <p>Timesheet Re-opened</p> </td> 
    <td> <p>User that timesheet belongs to</p> </td> 
-   <td> <p>My timesheet is re-opened.</p> <p>The Timesheet Owner receives an email notification when the timesheet is re-opened, unless the user who re-opened the timesheet is also the owner of the timesheet.</p> <p>An email notification is sent only if the timesheet status is Open.</p> <p>Users with a Review license do not receive a notification.</p> </td> 
+   <td> <p>My timesheet is re-opened.</p> <p>The Timesheet Owner receives an email notification when the timesheet is re-opened, unless the user who re-opened the timesheet is also the owner of the timesheet.</p> <p>An email notification is sent only if the timesheet status is Open.</p> <p>Users with a Light or Review license do not receive a notification.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Timesheet</p> </td> 
    <td> <p>Timesheet Rejection</p> </td> 
    <td> <p>User that timesheet belongs to</p> </td> 
-   <td> <p>My timesheet is rejected.</p> <p>The Timesheet Owner receives an email notification when the timesheet is rejected, unless the user who rejected the timesheet is also the owner.</p> <p>An email notification is sent only if the timesheet status is Rejected.</p> <p>Users with a Review license do not receive a notification.</p> </td> 
+   <td> <p>My timesheet is rejected.</p> <p>The Timesheet Owner receives an email notification when the timesheet is rejected, unless the user who rejected the timesheet is also the owner.</p> <p>An email notification is sent only if the timesheet status is Rejected.</p> <p>Users with a Light or Review license do not receive a notification.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
@@ -146,14 +146,14 @@ See also [Notifications: Action needed](../../../workfront-basics/using-notifica
    <td> <p>Assignment</p> </td> 
    <td> <p>Work Item Request</p> </td> 
    <td> <p>Members of the team that the item is requested for</p> </td> 
-   <td> <p>My team gets a new work request.</p> <p>Team Members receive an email notification when the team receives a new work request. (The user who submitted the request does not receive a notification if they are a member of the team.)</p> <p>A notification is sent only if the project status is Current at the time the Work Request is made and the Work Request status is New.</p> <p>Users with a Review license do not receive a notification.</p> </td> 
+   <td> <p>My team gets a new work request.</p> <p>Team Members receive an email notification when the team receives a new work request. (The user who submitted the request does not receive a notification if they are a member of the team.)</p> <p>A notification is sent only if the project status is Current at the time the Work Request is made and the Work Request status is New.</p> <p>Users with a Light or Review license do not receive a notification.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Assignment</p> </td> 
    <td> <p>Work Item Request</p> </td> 
    <td> <p>User that work item is requested for</p> </td> 
-   <td> <p>I get a new work request.</p> <p>The assignee of the work item receives an email notification, unless the user making the request is also the assignee. </p> <p>A notification is not sent if the task status is Complete or the issue status is Closed.</p> <p>A notification is sent only if the project status is Current at the time of the request.</p> <p>Users with a Review license do not receive a notification.</p> </td> 
+   <td> <p>I get a new work request.</p> <p>The assignee of the work item receives an email notification, unless the user making the request is also the assignee. </p> <p>A notification is not sent if the task status is Complete or the issue status is Closed.</p> <p>A notification is sent only if the project status is Current at the time of the request.</p> <p>Users with a Light or Review license do not receive a notification.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
  </tbody> 
@@ -435,35 +435,35 @@ See also [Notifications: Information about work assigned to me](../../../workfro
    <td>Task</td> 
    <td>All Predecessor Task Completion</td> 
    <td>Members of the team assigned to dependent tasks</td> 
-   <td> <p>All predecessors of the team's tasks are completed.</p> <p>The task assignees (all members of the team) receive an email notification.</p> <p>Users with a Review license do not receive a notification.</p> </td> 
+   <td> <p>All predecessors of the team's tasks are completed.</p> <p>The task assignees (all members of the team) receive an email notification.</p> <p>Users with a Light or Review license do not receive a notification.</p> </td> 
    <td>Inactive</td> 
   </tr> 
   <tr> 
    <td> <p>Task</p> </td> 
    <td> <p>All Predecessor Task Completion</p> </td> 
    <td> <p>User assigned to dependent tasks</p> </td> 
-   <td> <p>All predecessors of my tasks are completed.</p> <p>The task assignee receives an email notification.</p> <p>Users with a Review license do not receive a notification.</p> </td> 
+   <td> <p>All predecessors of my tasks are completed.</p> <p>The task assignee receives an email notification.</p> <p>Users with a Light or Review license do not receive a notification.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
    <td> <p>Approval decision</p> </td> 
    <td> <p>User that the issue is assigned to</p> </td> 
-   <td> <p>An issue I resolve is approved or rejected.</p> <p>The assignee of an issue receives an email notification when an approval decision is made (approved or rejected).</p> <p>Users with a Review license do not receive a notification.</p> </td> 
+   <td> <p>An issue I resolve is approved or rejected.</p> <p>The assignee of an issue receives an email notification when an approval decision is made (approved or rejected).</p> <p>Users with a Light or Review license do not receive a notification.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Task</p> </td> 
    <td> <p>Approval decision</p> </td> 
    <td> <p>User that the task is assigned to</p> </td> 
-   <td> <p>A task I complete is approved or rejected.</p> <p>The task assignee receives an email notification when the task is approved or rejected.</p> <p>A notification is sent only if the project status is Current.</p> <p>Users with a Review license do not receive a notification.</p> </td> 
+   <td> <p>A task I complete is approved or rejected.</p> <p>The task assignee receives an email notification when the task is approved or rejected.</p> <p>A notification is sent only if the project status is Current.</p> <p>Users with a Light or Review license do not receive a notification.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
    <td> <p>Issue Completion</p> </td> 
    <td> <p>User that the issue is assigned to</p> </td> 
-   <td> <p>An issue I'm assigned to is completed.</p> <p>A notification is sent only if the project status is Current or Planning.</p> <p>Users with a Review license do not receive a notification.</p> </td> 
+   <td> <p>An issue I'm assigned to is completed.</p> <p>A notification is sent only if the project status is Current or Planning.</p> <p>Users with a Light or Review license do not receive a notification.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
@@ -477,7 +477,7 @@ See also [Notifications: Information about work assigned to me](../../../workfro
    <td> <p>Issue</p> </td> 
    <td> <p>Issue Status Change</p> </td> 
    <td> <p>User that the issue is assigned to</p> </td> 
-   <td> <p>The status changes on one of my work items.</p> <p>The assignee of the issue receives an email notification when the status changes, unless the user who changed the status is also the assignee.</p> <p>A notification is sent only if the project status is Current.</p> <p>Users with a Review license do not receive a notification.</p> </td> 
+   <td> <p>The status changes on one of my work items.</p> <p>The assignee of the issue receives an email notification when the status changes, unless the user who changed the status is also the assignee.</p> <p>A notification is sent only if the project status is Current.</p> <p>Users with a Light or Review license do not receive a notification.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
@@ -491,14 +491,14 @@ See also [Notifications: Information about work assigned to me](../../../workfro
    <td> <p>Task</p> </td> 
    <td> <p>Task Completion</p> </td> 
    <td> <p>User that the task is assigned to</p> </td> 
-   <td> <p>A task I'm assigned to is completed.</p> <p>The Task Assignee receives an email notification when the task is completed. Notifications are not sent when a personal task is completed.</p> <p>A notification is sent only if the project status is Current.</p> <p>Users with a Review or Requestor license do not receive a notification.</p> </td> 
+   <td> <p>A task I'm assigned to is completed.</p> <p>The Task Assignee receives an email notification when the task is completed. Notifications are not sent when a personal task is completed.</p> <p>A notification is sent only if the project status is Current.</p> <p>Users with a Light, Contributor, Review, or Requestor license do not receive a notification.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Task</p> </td> 
    <td> <p>Task Completion</p> </td> 
    <td> <p>User assigned to dependent task</p> </td> 
-   <td> <p>A predecessor of one of my tasks is completed.</p> <p>The task assignee receives an email notification when one of their task's predecessors has been completed.</p> <p>Users with a Review license do not receive a notification.</p> </td> 
+   <td> <p>A predecessor of one of my tasks is completed.</p> <p>The task assignee receives an email notification when one of their task's predecessors has been completed.</p> <p>Users with a Light or Review license do not receive a notification.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
@@ -512,7 +512,7 @@ See also [Notifications: Information about work assigned to me](../../../workfro
    <td> <p>Task</p> </td> 
    <td> <p>Task Status Change</p> </td> 
    <td> <p>User that the task is assigned to</p> </td> 
-   <td> <p>The status changes on a task I'm assigned to.</p> <p>The Task Assignee receives an email notification when the status of the task changes, unless the user who changed the status is also the assignee.</p> <p>A notification is sent only if the project status is Current.</p> <p>Users with a Review license do not receive a notification. </p> </td> 
+   <td> <p>The status changes on a task I'm assigned to.</p> <p>The Task Assignee receives an email notification when the status of the task changes, unless the user who changed the status is also the assignee.</p> <p>A notification is sent only if the project status is Current.</p> <p>Users with a Light or Review license do not receive a notification. </p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
  </tbody> 
@@ -638,14 +638,14 @@ See also [Notifications: Information about projects I own](../../../workfront-ba
    <td> <p>Document</p> </td> 
    <td> <p>Document Add</p> </td> 
    <td> <p>Project Owner</p> </td> 
-   <td> <p>A document is added to a project I own.</p> <p>The Project Owner receives an email notification when a document is added to the project, unless the user who added the document is also the Project Owner.</p> <p>A notification is sent only if the project status is Current and the document is not Private.</p> <p>Users with a Review license do not receive a notification.</p> </td> 
+   <td> <p>A document is added to a project I own.</p> <p>The Project Owner receives an email notification when a document is added to the project, unless the user who added the document is also the Project Owner.</p> <p>A notification is sent only if the project status is Current and the document is not Private.</p> <p>Users with a Light or Review license do not receive a notification.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
    <td> <p>Issue Add</p> </td> 
    <td> <p>Project Owner</p> </td> 
-   <td> <p>An issue is added to a project I own.</p> <p>The Project Owner receives an email notification when an issue is added to the project.</p> <p>A notification is sent only if the project status is Current or Planning.</p> <p>Users with a Review license do not receive a notification.</p> </td> 
+   <td> <p>An issue is added to a project I own.</p> <p>The Project Owner receives an email notification when an issue is added to the project.</p> <p>A notification is sent only if the project status is Current or Planning.</p> <p>Users with a Light or Review license do not receive a notification.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
@@ -659,7 +659,7 @@ See also [Notifications: Information about projects I own](../../../workfront-ba
    <td> <p>Issue</p> </td> 
    <td> <p>Issue Completion</p> </td> 
    <td> <p>Project Owner</p> </td> 
-   <td> <p>An issue is completed on a project I own.</p> <p>The project owner receives an email notification.</p> <p>A notification is sent only if the project status is Current or Planning.</p> <p>Users with a Review license do not receive a notification.</p> </td> 
+   <td> <p>An issue is completed on a project I own.</p> <p>The project owner receives an email notification.</p> <p>A notification is sent only if the project status is Current or Planning.</p> <p>Users with a Light or Review license do not receive a notification.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
@@ -708,7 +708,7 @@ See also [Notifications: Information about projects I own](../../../workfront-ba
    <td> <p>Issue</p> </td> 
    <td> <p>Unassigned Issue Add</p> </td> 
    <td> <p>Project Owner</p> </td> 
-   <td> <p>An unassigned issue is added to a project I own.</p> <p>The Project Owner receives an email notification when an unassigned issue is added to the project.</p> <p>A notification is sent only if the project status is Current or Planning.</p> <p>Users with a Review license do not receive a notification.</p> </td> 
+   <td> <p>An unassigned issue is added to a project I own.</p> <p>The Project Owner receives an email notification when an unassigned issue is added to the project.</p> <p>A notification is sent only if the project status is Current or Planning.</p> <p>Users with a Light or Review license do not receive a notification.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
  </tbody> 
@@ -872,7 +872,7 @@ See also [Notifications: Miscellaneous information](../../../workfront-basics/us
    <td> <p>Project User</p> </td> 
    <td> <p>Project User Add</p> </td> 
    <td> <p>Resource Owner</p> </td> 
-   <td> <p>One of my people is added to a project.</p> <p>A manager receives an email notification when one of his or her direct reports is added to a project.</p> <p>Users with a Review license do not receive a notification.</p> </td> 
+   <td> <p>One of my people is added to a project.</p> <p>A manager receives an email notification when one of his or her direct reports is added to a project.</p> <p>Users with a Light or Review license do not receive a notification.</p> </td> 
    <td> <p>Inactive</p> </td> 
   </tr> 
   <tr> 
