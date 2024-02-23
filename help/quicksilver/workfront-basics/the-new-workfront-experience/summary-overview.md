@@ -8,6 +8,8 @@ exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
 ---
 # [!UICONTROL Summary] overview
 
+{{highlighted-preview}}
+
 You can use the [!UICONTROL Summary] panel to review and update work item information directly from a list of tasks issues, documents, or from other areas of [!DNL Adobe Workfront] that display tasks and issues.
 
 The following table displays the areas where you can locate and use the [!UICONTROL Summary] panel:
@@ -111,7 +113,15 @@ You must have the following access to perform the steps in this article:
    >
    >You can only select one task or one issue at a time to view their details in the [!UICONTROL Summary] panel.
 
+   <div class="preview">
+
+   Example of the Summary panel in the Preview environment:
    ![Summary panel](assets/summary-panel-for-task-new-comments.png)
+
+   </div>
+
+   Example of the Summary panel in the Production environment:
+   ![Summary panel](assets/summary-panel-for-task.png)
 
 1. (Optional) To close the [!UICONTROL Summary] panel, do one of the following:
 
@@ -137,7 +147,15 @@ Use the progress bar at the top of the [!UICONTROL Summary] to update the percen
 
 Use the [!UICONTROL Updates] section of the [!UICONTROL Summary] to view recent updates and make updates on the task or issue you selected. Click **[!UICONTROL See all]** to go directly to the [!UICONTROL Updates] tab on the task.
 
+<div class="preview">
+
+Example of Updates in the Preview environment:
 ![Updates section in Summary panel](assets/summary-updates-section.png)
+
+</div>
+
+Example of Updates in the Production environment:
+![Updates section in Summary panel](assets/summary-updates-with-block-quote-350x290.png)
 
 ## [!UICONTROL Documents]
 
