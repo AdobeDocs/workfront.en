@@ -30,7 +30,7 @@ This page provides information about functionality that is included in the Secon
 * [Administrator enhancements](#administrator-enhancements)
 * [Home enhancements](#home-enhancements)
 * [Project enhancements](#project-enhancements)
-* [Update stream and notification enhancements](#)
+* [Update stream and notification enhancements](#update-stream-and-notification-enhancements)
 * [Other enhancements](#other-enhancements)
 
 ### Administrator enhancements
