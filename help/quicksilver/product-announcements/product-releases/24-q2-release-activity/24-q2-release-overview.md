@@ -30,6 +30,7 @@ This page provides information about functionality that is included in the Secon
 * [Administrator enhancements](#administrator-enhancements)
 * [Home enhancements](#home-enhancements)
 * [Project enhancements](#project-enhancements)
+* [Update stream and notification enhancements](#)
 * [Other enhancements](#other-enhancements)
 
 ### Administrator enhancements
@@ -178,7 +179,7 @@ This page provides information about functionality that is included in the Secon
            </tbody>
         </table>
 
-### Other enhancements
+### Update stream and notification enhancements
 
 <table>
             <col style="width: 50%;" />
@@ -196,7 +197,7 @@ This page provides information about functionality that is included in the Secon
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">New update stream tab to capture both comments and system activity entries</a><span style="color: #ff0000;"> New in Preview!</span></p><p>To give you a chronologically cohesive view of both comments and system activity logs, we are introducing a third tab to the Updates area of all objects. The "All" tab captures both user comments and system activity comments in one cohesive stream.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">New update stream tab to capture both comments and system activity entries</a><span style="color: #ff0000;"> New in Preview!</span></p><p>To give you a chronologically cohesive view of both comments and system activity logs, we are introducing a third tab to the Updates area of all objects. The "All" tab captures both user comments and system activity comments in one cohesive stream.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -214,7 +215,7 @@ This page provides information about functionality that is included in the Secon
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-other-enhancements.md" class="MCXref xref" xrefformat="{para}">New commenting stream now available in the Summary panel</a><span style="color: #ff0000;"> New in Preview!</span></p><p>We have now added the new commenting functionality to the Summary panel for task and issue lists.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">New commenting stream now available in the Summary panel</a><span style="color: #ff0000;"> New in Preview!</span></p><p>We have now added the new commenting functionality to the Summary panel for task and issue lists.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -228,6 +229,25 @@ This page provides information about functionality that is included in the Secon
                                 <p>Production for quarterly release: With the 24.4 release (April 2024)</p>
                             </li>
                         </ul>
+                    </td>
+                </tr>           
+           </tbody>
+</table>   
+
+### Other enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
                     </td>
                 </tr>
                 <tr>
