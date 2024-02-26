@@ -26,14 +26,14 @@ You must have the following access to perform the steps in this article:
  <col> 
  <col> 
  <tbody> 
-  <tr> 
+ <!-- <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td> <p>Standard</p> </td> 
-  </tr> 
+  </tr> -->
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
    <td> <p>You must be a Workfront administrator.</p> </td> 
@@ -66,5 +66,6 @@ To connect a Workfront group to a Frame.io Team:
 ![](assets/connect-frame-group.png)
 1. Enter the API developer token.
 1. Click **Initiate Connection**.
+1. (Conditional) Select a Frame.io account.
 
 Workfront projects can now be connected to Frame.io. For more information, see [Connect a Workfront project to a Frame.io project](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-wf-project-with-frame.md).

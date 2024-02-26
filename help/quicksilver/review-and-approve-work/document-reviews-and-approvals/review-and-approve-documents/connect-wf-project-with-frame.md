@@ -10,7 +10,7 @@ feature: Work Management, Digital Content and Documents
 
 # Connect a Workfront project to a Frame.io project
 
-intro
+You can connect a Workfornt project to a Frame.io project to streamlight the review and approval process between the two applications. We are actively improving this feature.
 
 >[!IMPORTANT]
 >
@@ -24,14 +24,14 @@ You must have the following access to perform the steps in this article:
  <col> 
  <col> 
  <tbody> 
-  <tr> 
+<!--  <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td> <p>Standard</p> </td> 
-  </tr> 
+  </tr> -->
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
    <td> <p>You must be a Workfront administrator.</p> </td> 
@@ -72,6 +72,11 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Add a task and set the integration status to Active 
 
+>[!NOTE]
+>
+>Subtasks are not currenly supported.
+
+
 1. Create the tasks you need to populate in Frame.io 
 
 1. Select the tasks you need, then click **Edit**. 
@@ -87,7 +92,12 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Click **Save Changes**. A Frame.io icon displays next to the project name. 
 
-1. Assign users to tasks. 
+1. Assign users to teams tasks. 
+
+>[!NOTE]
+>
+>Users or teams added to the tasks are also added to the Frame.io project. 
+
 
 1. Upload any documents or creative briefs in the Project Documents area. 
 
@@ -95,6 +105,6 @@ The project is still not connected, you must continue to the next section to fin
 
 ## Enable the project in Frame.io 
 
-1. Change the status from **Planning** to **Current**. This finishes the integration and generates the project, tasks, and any documents in Frame.io. 
+1. Change the status from **Planning** to **Current** or a custom status that equals current. This finishes the integration and generates the project, tasks, and any documents in Frame.io. 
 
 The frame icon next to the project name turns purple signaling the integration was successful.

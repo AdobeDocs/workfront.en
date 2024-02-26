@@ -1,14 +1,14 @@
 ---
 product-area: projects
 navigation-topic: approvals
-title: Add a Frame.io asset to a connected project 
+title: Add a Frame.io asset to a connected Workfront project 
 description: 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 
 ---
 
-# Add a Frame.io asset to a connected project 
+# Add a Frame.io asset to a connected Workfornt project 
 
 intro
 
@@ -24,14 +24,14 @@ You must have the following access to perform the steps in this article:
  <col> 
  <col> 
  <tbody> 
-  <tr> 
+  <!-- <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td> <p>Standard</p> </td> 
-  </tr> 
+  </tr> -->
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
    <td> <p>You must be a Workfront administrator.</p> </td> 
@@ -50,9 +50,10 @@ For more detail about the information in this table, see [Access requirements in
 ## Prerequisites
 
 * You must have a Workfront group connected to a Frame.io team. For more info, see [Connect a Workfront group to a Frame.io team](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-wf-to-frame.md).
-* You must have a Workfront project connected to a Frame.io project. For more information, see [Connect a Workfront project to a Frame.io project](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-wf-project-with-frame.md). 
+* You must have a Workfront project connected to a Frame.io project and be added as a user to a frame-enabled task. For more information, see [Connect a Workfront project to a Frame.io project](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-wf-project-with-frame.md). 
 
-## Add a Frame.io asset to a connected project 
+
+## Add a Frame.io asset to a connected Workfront project 
 
 1. In Frame.io, find the project connected to Workfront.
 
@@ -70,4 +71,4 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Click **Submit**. 
 
-The asset will appear in the location chosen, and the task status updates accordingly. 
+The asset appears in the location chosen, and the task status updates accordingly. 

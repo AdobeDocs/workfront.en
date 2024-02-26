@@ -1785,6 +1785,9 @@ feature-set: Workfront
     * Review documents {#review-and-approve-documents}
       * [Review documents: article index](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
       * [Review a document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
+      * [Connect a Workfront Group to a Frame.io Team](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-wf-to-frame.md)
+      * [Connect a Workfront project to a Frame.io project](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-wf-project-with-frame.md)
+      * [Add a Frame.io asset to a connected Workfront project](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
     * [Approve documents]{#approve-documents}
         * [Approve documents: article index](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
         * [Create a document approval](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
