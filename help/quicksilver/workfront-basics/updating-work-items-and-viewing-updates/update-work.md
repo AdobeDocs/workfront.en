@@ -41,7 +41,7 @@ After the monthly releases to Production, the same features are also available i
 > * Summary panel in lists
 > * Summary panel in timesheets 
 > * Summary panel in the Workload Balancer
-
+>
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment.</span>
 
 <!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
