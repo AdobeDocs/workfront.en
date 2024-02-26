@@ -273,11 +273,6 @@ Open the Workfront.xlsx file you just downloaded. Go to the PROJ Project sheet.
 
 ![](assets/im2-350x14.png)   
 Unless you have already created projects in Workfront, it should be empty.  
-![](assets/im3-350x37.png)
-
->[!NOTE]
->
->Consider using the spreadsheet's Freeze Panes tool and/ or hiding or removing unneeded columns to make the sheet easier to use. However, be careful not to remove any required columns or columns to use later.
 
 ![](assets/im10-350x42.png)
 
