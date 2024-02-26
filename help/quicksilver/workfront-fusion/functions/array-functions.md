@@ -208,7 +208,7 @@ Enter one of the following values for the `mode` parameter.
 
 ## toArray
 
-This function converts a collection into an array of key-value collections.
+This function converts a collection into an array of key-value pairs.
 
 >[!INFO]
 >
@@ -222,6 +222,6 @@ This function converts a collection into an array of key-value collections.
 >
 >`toArray({ key1: "value1", key2: "value2:})`
 >
->Returns the array of key-value collections
+>Returns the array of key-value pairs
 >
 >`[{ key1: "value1"}, { key2: "value2"}]`
