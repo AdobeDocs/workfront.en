@@ -2054,6 +2054,7 @@ feature-set: Workfront
     * [Manage the timeline view](maestro/views/manage-the-timeline-view.md)
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
   * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
+  * [ Fusion access table template](/help/quicksilver/workfront-fusion/fusion-access-table-template.md)
   * Get started with Adobe Workfront Fusion {#get-started-with-workfront-fusion}
     * [Get started with Adobe Workfront Fusion](workfront-fusion/get-started/get-started.md)
     * [Adobe Workfront Fusion overview](workfront-fusion/get-started/workfront-fusion-overview.md)
