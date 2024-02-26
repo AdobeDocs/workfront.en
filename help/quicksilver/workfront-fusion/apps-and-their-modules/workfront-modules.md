@@ -66,14 +66,64 @@ The [!DNL Workfront] connector uses OAuth 2.0 to connect to [!DNL Workfront].
 
 You can create a connection to your [!DNL Workfront] account directly from inside a [!DNL Workfront Fusion] module.
 
-1. In any [!DNL Workfront] app module, click **[!UICONTROL Add]** next to the [!UICONTROL Connection] box.
-1. Enter the name of your instance into the URL. Example: `https://<your instance>.my.workfront.com`.
+1. In any Adobe Authenticator module, click **Add** next to the Connection field.
+1. Fill in the following fields:
+
+   <table style="table-layout:auto"> 
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+    </col>
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+    </col>
+    <tbody>
+      <tr>
+        <td role="rowheader">[!UICONTROL Connection name]</td>
+        <td>
+          <p>Enter a name for the new connection.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Environment]</td>
+        <td>
+          <p>Select whether are connecting to a production or non-production environment.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Connection type]</td>
+        <td>
+          <p>Select whether you are connecting to a service account or a personal account.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Client ID]</td>
+        <td>Enter your [!DNL Workfront] Client ID. This can be found in the OAuth2 Applications area of the Setup area in Workfront. Open the specific application you are connecting to to see the Client ID.</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Client Secret]</td>
+        <td>Enter your [!DNL Workfront] Client ID. This can be found in the OAuth2 Applications area of the Setup area in Workfront. Open the specific application you are connecting to to see the Client ID.</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Authentication URL]</td>
+        <td>This can remain the default value, or you can enter the URL of your Workfront instance, followed by <code>/integrations/oauth2</code>. <p>Example: <code>https://mydomain.my.workfront.com/integrations/oauth2</code></p></td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Host prefix]</td>
+        <td>In most cases, this value should be <code>origin</code>.
+      </tr>
+    </tbody>
+    </table>
+
+1. Click **[!UICONTROL Continue]** to save the connection and return to the module.
+
+
+
+
+<!--1. Enter the name of your instance into the URL. Example: `https://<your instance>.my.workfront.com`.
 1. Click **[!UICONTROL Next]**.
 1. Click **[!UICONTROL SAML log in]** to create the connection and go back to the module.
 
    Or
 
-   Enter your Username and Password, then click **[!UICONTROL Log in]** to create the connection and go back to the module.
+   Enter your Username and Password, then click **[!UICONTROL Log in]** to create the connection and go back to the module.-->
 
    >[!NOTE]
    >
