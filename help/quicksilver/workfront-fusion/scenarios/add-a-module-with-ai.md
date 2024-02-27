@@ -22,7 +22,7 @@ As with anything generated from AI, we recommend that you double check and test 
    Right click on a black area of the scenario editor, then select **Generate with AI**.
 1. Enter a text prompt into the box. 
 
-   For tips on prompts, see [] in this article.
+   For tips on prompts, see [Tips for creating text prompts](#tips-for-creating-text-prompts) in this article.
 
 1. (Conditional) If the module is not attached to your scenario, drag it into place.
 
@@ -33,7 +33,7 @@ We recommend testing the module to ensure that it is performing as intended.
 
 ## Tips for creating text prompts
 
-Text prompts should include the following information:
+Text prompts should include the following information at a minimum:
 
 * The application that you are connecting to
 * The action that you want to perform
