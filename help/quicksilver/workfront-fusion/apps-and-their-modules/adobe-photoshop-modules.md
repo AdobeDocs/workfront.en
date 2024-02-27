@@ -139,6 +139,14 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Actions
 
+* [Create a new PSD](#create-a-new-psd)
+* [Edit text layers](#edit-text-layers)
+* [Execute Depth Blur](#execute-depth-blur)
+* [Execute Photoshop actions](#execute-photoshop-actions)
+* [Execute Product Crop](#execute-product-crop)
+* [Get layer info](#get-layer-info)
+* [Make a custom API call](#make-a-custom-api-call)
+
 #### Create a new PSD
 
 #### Edit text layers
