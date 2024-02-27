@@ -69,37 +69,37 @@ To create a connection for your [!DNL Adobe Photoshop] modules:
 
 1. Click **[!UICONTROL Add]** next to the Connection box.
     
-2. Fill in the following fields:
+1. Fill in the following fields:
     
-  <table style="table-layout:auto"> 
-    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
-    </col>
-    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
-    </col>
-    <tbody>
-      <tr>
+    <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
         <td role="rowheader">[!UICONTROL Connection name]</td>
         <td>
           <p>Enter a name for this connection.</p>
         </td>
-      </tr>
-      <tr>
+        </tr>
+        <tr>
         <td role="rowheader">[!UICONTROL Client ID]</td>
         <td>Enter your [!UICONTROL Adobe] [!UICONTROL Client ID]. This can be found in the [!UICONTROL Credentials] details section of the [!DNL Adobe Developer Console]</td>
-      </tr>
-      <tr>
+        </tr>
+        <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
         <td>Enter your [!DNL Adobe] [!UICONTROL Client Secret]. This can be found in the [!UICONTROL Credentials] details section of the [!DNL Adobe Developer Console]</td>
-      </tr>
-      <tr>
+        </tr>
+        <tr>
         <td role="rowheader">[!UICONTROL Technical account ID]</td>
         <td>Enter your [!DNL Adobe] [!UICONTROL Technical account ID]. This can be found in the [!UICONTROL Credentials] details section of the [!DNL Adobe Developer Console]</td>
-      </tr>
-      <tr>
+        </tr>
+        <tr>
         <td role="rowheader">[!UICONTROL Organization ID]</td>
         <td>Enter your [!DNL Adobe] [!UICONTROL Organization ID]. This can be found in the [!UICONTROL Credentials] details section of the [!DNL Adobe Developer Console]</td>
-      </tr>
-      <tr>
+        </tr>
+        <tr>
         <td role="rowheader">[!UICONTROL Private key]</td>
         <td>
           <p>Enter the private key that was generated when your credentials were created in the [!DNL Adobe Developer Console]. </p>
@@ -122,9 +122,9 @@ To create a connection for your [!DNL Adobe Photoshop] modules:
             </li>
           </ol>
         </td>
-      </tr>
-    </tbody>
-  </table>
+        </tr>
+      </tbody>
+    </table>
     
 1. Click **[!UICONTROL Continue]** to save the connection and return to the module.
     
