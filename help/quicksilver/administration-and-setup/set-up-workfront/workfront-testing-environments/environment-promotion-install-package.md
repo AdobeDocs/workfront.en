@@ -38,7 +38,7 @@ If you select Create new, you will need to change the value <!--of what?-->
 
 A collision occurs when <!--???-->.
 
-In Workfront, a potential collision is barked with a blue dot. You can select 
+In Workfront, a potential collision is marked with a blue dot. You can select 
 
 You can select whether to show all package contents, or collisions only.
 
