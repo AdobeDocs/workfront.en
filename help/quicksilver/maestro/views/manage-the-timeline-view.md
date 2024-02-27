@@ -201,21 +201,17 @@ To add a grouping in the timeline view:
 1. Create a timeline view for a record type, as described in the article [Manage record views](../views/manage-record-views.md). 
 1. Click **Grouping** in the upper-right corner of the timeline view.
 
-    ![](assets/grouping-ui-timeline-view.png)
+    ![](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. Click one of the suggested fields, or click **Choose a different field**, search for a different field, then click it when it displays in the list. 
-
-    >[!TIP]
-    >
-    >You cannot select linked fields. 
 
     The grouping is applied automatically to the timeline and records display inside the grouping box. 
 
     <!-- add a step that you can rearrange the groupings here, when this will be possible-->
     
-1. (Optional) Repeat the above steps to add up to 3 groupings. 
+1. (Optional) Repeat the above steps to add up to 3 groupings.
 
-    The number of fields selected for the grouping displays next to the Grouping icon. 
+    The number of fields selected for the grouping displays next to the Grouping icon.
 
     ![](assets/grouping-applied-in-timeline-view.png)
 
