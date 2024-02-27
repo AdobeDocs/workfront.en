@@ -10,7 +10,7 @@ feature: Work Management, Digital Content and Documents
 
 # Connect a Workfront Group to a Frame.io Team
 
-Workfront uses Frame.io teams to start the integration  
+Workfront uses Frame.io teams to start the integration process.
 
 We are actively improving this feature.
 
@@ -52,7 +52,7 @@ For more detail about the information in this table, see [Access requirements in
 ## Prerequisites
 
 * Create a Frame.io team to map to a Workfront group.
-* Find the API developer token for the team.
+* Find the API developer token for the team. For more information, see [Developer tokens](https://developer.frame.io/docs/getting-started/authentication#developer-tokens) on the Frame.io developer site.
 
 ## Connect a Workfront Group to a Frame.io Team
 
@@ -68,4 +68,4 @@ To connect a Workfront group to a Frame.io Team:
 1. Click **Initiate Connection**.
 1. (Conditional) Select a Frame.io account.
 
-Workfront projects can now be connected to Frame.io. For more information, see [Connect a Workfront project to a Frame.io project](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-wf-project-with-frame.md).
+Workfront projects can now be connected to Frame.io for the review process. For more information, see [Connect a Workfront project to a Frame.io project](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-wf-project-with-frame.md).
