@@ -26,7 +26,7 @@ When a filter, view, or grouping is shared with you, you can apply that filter, 
 
 For information about how to create a filter, view, or grouping, see the following articles:
 
-* [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 
+* [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 
 * [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md) 
 * [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
@@ -111,14 +111,7 @@ Share a filter using the standard builder interface:
 
    The Filter sharing box displays.
 
-1. Enable the **View system-wide** setting. This gives anyone in Workfront permission to view the filter.
-   
-   >[!IMPORTANT]
-   >
-   >Use this setting with caution. Adding many filters for all users will clutter the filter experience and make filters harder to find.
-   
-   Or
-   Start typing the names of users, teams, roles, groups, or companies that you want to share with in the **Give access to** field.
+1. Start typing the names of users, teams, roles, groups, or companies that you want to share with in the **Give access to** field.
 
    ![Filter sharing box](assets/new-filters-share-filter.png)
 

@@ -4,12 +4,14 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Configure sharing for custom fields and widgets with the legacy form builder
 description: By default, when you add a new custom field or widget to a custom form, anyone in the system with access to custom forms can edit the properties for that item, such as its label and name. You can change this by controlling who it can be shared with.
-author: Caroline
-feature: System Setup and Administration
+author: Lisa
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: ae774e73-9798-40d1-a96d-a4511f729e7f
 ---
 # Configure sharing for custom fields and widgets with the legacy form builder
+
+{{highlighted-preview}}
 
 By default, when you add a new custom field or widget to a custom form, anyone in the system with access to custom forms can edit the properties for that item, such as its label and name. You can change this by controlling who it can be shared with.
 
@@ -24,35 +26,38 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront plan</p> </td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>
+   <p>New: Standard</p>
+   <p>or</p>
+   <p>Current: Plan</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Administrative access to custom forms</p> <p>For information about how Workfront administrators grants this access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Administrative access to custom forms</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Configure sharing for a custom field or widget
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left panel, click **Custom Forms**.
 1. If you are configuring sharing for a custom field or widget in your organization's Workfront instance, do the following:
 
-   1. Click the **Fields** tab.
-   1. Select the item you want to configure sharing for, then click **Share**.
+   1. Click **Fields** to open the Fields area.
+   1. Select the item you want to configure sharing for, then click **Share** <span class="preview">or ![Share icon](assets/share-icon.png).</span>
 
    Or, if you are configuring sharing for a custom field or widget in an existing custom form, do the following:
 
-   1. Select the custom form, then click **Edit**.
+   1. Select the custom form, then click **Edit** <span class="preview">or ![Edit icon](assets/edit-icon.png).</span>
    1. In the form editing area on the right, select the item you want to configure sharing for.
    1. In the left panel, click **Share field**.
 

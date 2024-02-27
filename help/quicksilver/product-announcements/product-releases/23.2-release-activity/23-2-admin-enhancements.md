@@ -4,6 +4,7 @@ description: 23.2 Administrator enhancements
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 46da311a-0e22-4def-9df8-e30b142c815d
 ---
 # 23.2 Administrator enhancements
@@ -23,10 +24,6 @@ For more information on this functionality in Experience Manager Assets as a Clo
 For more information on this functionality in Experience Manager Assets Essentials, [Configure the Experience Manager Assets Essentials integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 ## Create custom forms with the new form designer beta
-
->[!IMPORTANT]
->
->The form designer beta was temporarily disabled on May 24, 2023. You can use the legacy form builder to create and edit your custom forms. See [Create or edit a custom form with the legacy form builder](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md).
 
 Now available in a public beta, the new form designer has a new canvas-style workspace that allows you to view the fields, canvas, and field settings all at the same time.
 

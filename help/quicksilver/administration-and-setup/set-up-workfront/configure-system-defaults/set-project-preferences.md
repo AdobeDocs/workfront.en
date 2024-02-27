@@ -4,12 +4,14 @@ product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: Configure system-wide project preferences
 description: As an [!DNL Adobe Workfront] administrator, you can configure the default preferences for all projects created throughout the system. These preferences impact project, task, and issue behavior.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
 ---
 # Configure system-wide project preferences
+
+<!--Audited: 12/2023-->
 
 As an [!DNL Adobe Workfront] administrator, you can configure the default preferences for all projects created throughout the system. These preferences impact project, task, and issue behavior.
 
@@ -26,28 +28,31 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader"><p>[!DNL Adobe Workfront] plan</p></td> 
    <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td><p>New: [!UICONTROL Standard]</p>
+   Or
+   <p>Current: [!UICONTROL Plan]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a [!DNL Workfront] administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>[!UICONTROL System Administrator]</p> <p><b>NOTE</b>:</p><p>If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Configure project preferences for the entire organization
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left panel, click **[!UICONTROL Project Preferences]** > **[!UICONTROL Projects]**.
 
-1. On the page that appears, continue with one of the 4 sections listed below to configure preferences for [!UICONTROL Project Status], [!UICONTROL Timelines], [!UICONTROL Business Cases], and [!UICONTROL Life after Death].
-1. If you want all groups throughout the organization to use the same project preferences, make sure each preference is locked ![](assets/lock-toggle-button.png) (this is the default).
+1. On the **Project Preferences** page, continue with one of the 4 sections listed below to configure preferences for [!UICONTROL Project Status], [!UICONTROL Timelines], [!UICONTROL Business Cases], and [!UICONTROL Life after Death].
+1. If you want all groups throughout the organization to use the same project preferences, ensure that each preference is locked ![](assets/lock-toggle-button.png) (this is the default).
 
    >[!IMPORTANT]
    >
@@ -83,7 +88,7 @@ Configure any of the following preferences for newly created projects throughout
          </ul>
         <p>This preference is enabled by default. </p> 
         <p><b>NOTE</b></p>
-        <p> A group administrator can change this preference for a group. When a user belongs to multiple groups with different preferences, the user will be allowed to create a project without a template if their Home Group has this preference enabled.</p> 
+        <p> A group administrator can change this preference for a group. When a user belongs to multiple groups with different preferences, the user can create a project without a template if their Home Group has this preference enabled.</p> 
         </td> 
   </tr>
   <tr> 
@@ -106,7 +111,7 @@ Configure any of the following preferences for newly created projects throughout
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Automatically set the project's Condition based on the Progress Status]</td> 
-   <td> <p>This preference allows users to set the [!UICONTROL Condition] of a project manually ([!UICONTROL On Target], [!UICONTROL At Risk], [!UICONTROL In Trouble]) or have [!DNL Workfront] set the [!UICONTROL Condition] (Progress Status) automatically based on the project's progression on the timeline. For more information about the Condition of projects, see <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Overview of Project Condition and Condition Type</a>.</p> </td> 
+   <td> <p>This preference allows users to set the [!UICONTROL Condition] of a project manually to ([!UICONTROL On Target], [!UICONTROL At Risk], [!UICONTROL In Trouble]) or to have [!DNL Workfront] set the [!UICONTROL Condition] (Progress Status) automatically based on the project's progression on the timeline. For more information about the Condition of projects, see <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Overview of Project Condition and Condition Type</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Create baselines automatically]</p> </td> 
@@ -124,7 +129,7 @@ Configure any of the following preferences for newly created projects throughout
    <td role="rowheader"> <p>[!UICONTROL Estimate at Completion ]</p> </td> 
    <td> <p>Determine which data [!DNL Workfront] uses to calculate the [!UICONTROL Estimate at Completion] (EAC) which represents the projected total cost of a project.</p> 
     <ul> 
-     <li><strong>[!UICONTROL Calculate at project level]</strong>:EAC for the parent task and project are determined by entering [!UICONTROL Actual Hours] or [!UICONTROL Actual Labor Cost] in the EAC Formulas. This calculation includes [!UICONTROL Actual Hours] or [!UICONTROL Costs and Expenses] added directly to the parent task or project.</li> 
+     <li><strong>[!UICONTROL Calculate at project level]</strong>: EAC for the parent task and project are determined by entering [!UICONTROL Actual Hours] or [!UICONTROL Actual Labor Cost] in the EAC Formulas. This calculation includes [!UICONTROL Actual Hours] or [!UICONTROL Costs and Expenses] added directly to the parent task or project.</li> 
      <li> <p><strong>[!UICONTROL Roll up from tasks/subtasks]</strong>: EAC for the parent task and project are determined by summing up the EAC for each child task. This calculation excludes [!UICONTROL Actual Hours] or [!UICONTROL Actual Costs and Expenses] added directly to the parent task or project.</p> <p>The project manager can modify this setting at the project level, using the [!UICONTROL Finance] area in [!UICONTROL Project Details].For more information, see <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">Manage information in the project [!UICONTROL Finance] area</a>.</p> </li> 
     </ul> <p>For more information on how the EAC calculates, see <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">Calculate [!UICONTROL Estimate At Completion] (EAC)</a>.</p> </td> 
   </tr> 
@@ -151,7 +156,7 @@ Configure any of the following preferences for newly created projects throughout
    <td role="rowheader">[!UICONTROL User Time Off]</td> 
    <td> <p>Determine whether the time off of the Primary Assignee of a task adjusts the planned dates for that task on a project.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Consider user time off in task durations]</strong>: Any time off scheduled for a task's Primary Assignee adjusts the task's planned dates if the time off occurs during the task's duration. This is the default setting. </p> <p>For example, if a task with a Constraint of [!UICONTROL As Soon As Possible] is scheduled to start on June 1 and complete on June 3, and the Primary Assignee has June 2 marked for Time-off, the task's planned dates adjust to June 1 through June 4.</p> <p><b>IMPORTANT</b>: The Duration of the task does not change when you select this setting. Only the planned dates change, depending on the Task Constraint.</p> </li> 
+     <li> <p><strong>[!UICONTROL Consider user time off in task durations]</strong>: Any time off scheduled for a task's Primary Assignee adjusts the task's planned dates if the time off occurs during the task's duration. This is the default setting. </p> <p>For example, if a task with a Constraint of [!UICONTROL As Soon As Possible] is scheduled to start on June 1 and complete on June 3, and the Primary Assignee has June 2 marked for Time-off, the task's planned dates adjust to June 1 through June 4.</p> <p><b>IMPORTANT</b>:</p> <p>The Duration of the task does not change when you select this setting. Only the planned dates change, depending on the Task Constraint.</p> </li> 
      <li><strong>[!UICONTROL Ignore user time off in task durations]</strong>: The planned dates of each task on a project remain as originally planned, even if the Primary Assignee of a task has time off during its duration.</li> 
     </ul> <p>Consider the following when selecting options for this setting:</p> 
     <ul> 
@@ -166,7 +171,7 @@ Configure any of the following preferences for newly created projects throughout
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Project timelines will be automatically re-calculated]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Project timelines are automatically re-calculated]</p> </td> 
    <td> <p>Determine when the timeline of a project is recalculated. For information about recalculating the project timeline, see <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Recalculate project timelines</a>.</p> <p>The following options are enabled by default. You can select one or more of the following settings:</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Every night]</strong>: Select this to recalculate project timelines every night. Any changes you make to the project that might affect the timeline are not immediately visible. [!DNL Workfront​​​] recalculates timelines at night only for projects where both of the following conditions are met:</p> <p> 
@@ -179,14 +184,14 @@ Configure any of the following preferences for newly created projects throughout
         <li>Change Only</li>
         <li>Automatic Only</li> 
       </ul>       
-    <b>TIP</b>
+    <b>TIP:</b>
     <p>Projects that have an Update Type of Manual Only are not affected by this setting.</p>
     <li> <p><strong>When a project's scope changes</strong>: Select this to recalculate project timelines immediately as a project scope change occurs. For information about what constitutes a project scope change, see <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Recalculate project timelines</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL When multiple users are assigned to a task use the schedule of the]</p> </td> 
-   <td> <p>If a project does not have a schedule assigned or if the users assigned to its tasks do not have a Schedule assigned to them, [!DNL Workfront] uses the system default schedule to calculate the timeline of the tasks.</p> <p>If you assign multiple users to the same task in a project has an assigned schedule—and the users assigned to the tasks also have a schedule assigned to them—[!UICONTROL Workfront] uses the following schedules:</p> 
+   <td> <p>If a project does not have a schedule assigned or if the users assigned to its tasks do not have a Schedule assigned to them, [!DNL Workfront] uses the system default schedule to calculate the timeline of the tasks.</p> <p>If you assign multiple users to the same task in a project and the project has an assigned schedule and the users assigned to the tasks also have a schedule assigned to them, [!UICONTROL Workfront] uses the following schedules:</p> 
     <ul> 
      <li><strong>[!UICONTROL Primary Assignment]</strong>: [!DNL Workfront] uses the schedule of the Primary Assignment on the task to calculate timelines.</li> 
      <li><strong>[!UICONTROL Project]</strong>: [!DNL Workfront] uses the schedule of the project to calculate the timeline of each task.</li> 
@@ -199,19 +204,19 @@ Configure any of the following preferences for newly created projects throughout
      <li><strong>[!UICONTROL Typical hours per work day]</strong>: Set the number of hours in a typical workday for the users who will be working on projects. The default is 8 hours.</li> 
     </ul> 
     <ul> 
-     <li><strong>[!UICONTROL Typical work days per week]</strong>: Set the standard workweek for the users who will be working on projects. The default is 5 days.</li> 
-    </ul> <p>These 2 options convert days to hours, or weeks to days.</p> <p>For example, if you have a task with 8 Planned Hours and the duration is calculated based on Planned Hours, [!DNL Workfront] converts those hours into days in order to show the Duration as days.</p> <p>From the Typical [!UICONTROL work days per week] field, [!DNL Workfront] calculates the Full Time Equivalent (FTE) value for your system. This is what [!DNL Workfront] uses when calculating allocations for users.</p> <p>These values are used when you are planning projects timelines, budgeting for resources, or logging time against projects. </p> <p>They are not used when you are establishing timesheets for users in the system, as described in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">[!UICONTROL Configure] timesheet and hour preferences</a>.</p> <p><b>NOTE</b>: [!DNL Workfront] administrators cannot unlock [!UICONTROL Timeline Calculations] preferences.</p> </td> 
+     <li><strong>[!UICONTROL Typical work days per week]</strong>: Set the standard workweek for the users who are working on projects. The default is 5 days.</li> 
+    </ul> <p>These 2 options convert days to hours, or weeks to days.</p> <p>For example, if you have a task with 8 Planned Hours and the duration is calculated based on Planned Hours, [!DNL Workfront] converts those hours into days in order to show the Duration as days.</p> <p>From the Typical [!UICONTROL work days per week] field, [!DNL Workfront] calculates the Full Time Equivalent (FTE) value for your system. This is what [!DNL Workfront] uses when calculating allocations for users.</p> <p>These values are used when you are planning projects timelines, budgeting for resources, or logging time against projects. </p> <p>They are not used when you are establishing timesheets for users in the system, as described in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">[!UICONTROL Configure] timesheet and hour preferences</a>.</p> <p><b>NOTE</b>:</p> <p>[!DNL Workfront] administrators cannot unlock [!UICONTROL Timeline Calculations] preferences.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL Custom Quarters]</p> </td> 
-   <td> <p>Configure custom yearly quarters for the users who will be working on projects. Custom quarters are usually quarters that do not match the traditional breakdown of quarters during a calendar year. You can add multiple custom quarters. For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Enable custom quarters for projects</a>.</p>  <p><b>NOTE</b>: [!DNL Workfront] administrators cannot unlock [!UICONTROL Custom Quarters] preferences.</p> </td> 
+   <td> <p>Configure custom yearly quarters for the users who will be working on projects. Custom quarters are usually quarters that do not match the traditional breakdown of quarters during a calendar year. You can add multiple custom quarters. For more information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Enable custom quarters for projects</a>.</p>  <p><b>NOTE</b>: </p><p>[!DNL Workfront] administrators cannot unlock [!UICONTROL Custom Quarters] preferences.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### [!UICONTROL Business Cases] {#business-cases}
 
-You can create a Business Case for newly created projects throughout the system to submit project requests. You can define preferences to determine which areas are visible on the **[!UICONTROL Business Case]** form. We recommend that you enable these options so that other tools, such as the [!UICONTROL Portfolio Optimizer], update properly. For more information about what each field displays, see [Define a Business Case](../../../manage-work/projects/define-a-business-case/define-business-case.md).
+You can create a Business Case for newly created projects throughout the system to submit project requests. You can define preferences to determine which areas are visible on the **[!UICONTROL Business Case]** form. We recommend that you enable these options so that other tools, such as the [!UICONTROL Portfolio Optimizer], update properly. For more information about what each field displays, see [Define a Business Case: article index](../../../manage-work/projects/define-a-business-case/define-business-case.md).
 
 After the [!DNL Workfront] administrator enables the sections on the [!UICONTROL Business Case], a Project Owner can then create a Business Case at the project level. For information about creating a Business Case, see [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 

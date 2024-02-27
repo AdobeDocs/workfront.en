@@ -6,12 +6,14 @@ keywords: user,schedule
 navigation-topic: configure-timesheets-and-schedules
 title: Schedules overview
 description: You can define your work week by using schedules. You can associate a schedule with a user or a project. This allows [!DNL Adobe Workfront] to calculate timelines and user availability. For instructions, see Create a schedule.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
 ---
 # Schedules overview
+
+<!-- Audited: 1/2024 -->
 
 You can define your work week using schedules and associate a schedule with a user or a project. This allows [!DNL Adobe Workfront] to calculate timelines and user availability. For instructions, see [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
@@ -19,9 +21,7 @@ Consider the following when working with schedules in Workfront:
 
 * The [!DNL Workfront] administrator identifies the hours of operation for the organization in a schedule.
 
-   Similarly, a group administrator can identify the hours of operation of a schedule administered by a group they manage.
-
-   For more information about group administrators, see [Group administrators](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+   Similarly, a group administrator can identify the hours of operation of a schedule administered by a group they manage. For more information about group administrators, see [Group administrators](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
 
    For example, a schedule can be defined as: Monday through Friday, 8 AM to 5 PM, with an hour break for lunch.
 
@@ -57,7 +57,7 @@ The order in which the schedules are used by the system when more than one exist
 
 * When a user is assigned to a task, [!DNL Workfront] uses the user's schedule for calculating the timeline of the task. This also includes the personal time of the user. The schedule of the project is ignored.
 
-   For more information about personal time, see [Configure personal time off in [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+   For more information about personal time, see [Configure personal time off](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
 * When multiple users are assigned to a task, and the users have different schedules during the time frame of the task, [!DNL Workfront] uses either one of the following schedules, as defined in the [!UICONTROL Project Preferences] area of [!UICONTROL Setup]:
 

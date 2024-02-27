@@ -91,9 +91,7 @@ Refer to the following table to understand each&nbsp;default priority label and 
 ## Update the Priority of an issue {#update-the-priority-of-an-issue}
 
 1. Go to the issue whose priority you want to modify.
-1. Click&nbsp;**Issue Details** in the left panel.
-
-   ![](assets/nwe-issue-details-left-panel-highlighted-350x207.png)
+1. Click **Issue Details** in the left panel.
 
    The **Overview** section should display by default.  
 
@@ -105,4 +103,4 @@ Refer to the following table to understand each&nbsp;default priority label and 
 
    Depending on how your Workfront administrator configured Priorities in your system, the options might vary.
 
-1. Click&nbsp;**Save Changes**.
+1. Click **Save Changes**.

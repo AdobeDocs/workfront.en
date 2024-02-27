@@ -9,6 +9,8 @@ exl-id: 2e912e32-7924-418d-9d55-ce3c09f67d3e
 ---
 # Create or edit filters in Adobe Workfront
 
+<!--Audited: 12/2023-->
+
 You can limit the amount of information you display on the screen in a list of items with a filter. You can define certain criteria based on particular pieces of information about an object and only display the objects that meet those criteria.
 
 You can apply the following types of filters in Adobe Workfront:
@@ -17,11 +19,11 @@ You can apply the following types of filters in Adobe Workfront:
 
   For information about quick filters, see [Apply the quick filter to a list](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
-* Permanent filters that you can save and use numerous time on multiple lists and reports. This article describes how to create a permanent filter or edit an existing one in a list or report.
+* Permanent filters that you can save and use numerous times on multiple lists and reports. This article describes how to create a permanent filter or edit an existing one in a list or report.
 
 * Filters in other areas of Workfront, outside of lists and reports.
 
-  For a list of all filters in Workfront and the areas where you can apply them, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  For a list of all filters in Workfront and the areas where you can apply them, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Access requirements
 
@@ -37,11 +39,33 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>Request or higher</p> </td> 
+   <td> <p>New: Contributor or higher</p> 
+   
+   Or
+
+   <p>Current: Request or higher</p>
+
+   <p><b>NOTE:</b></p>
+
+   To edit a filter in a report, you must have the following license:
+
+   <p>New: Standard</p> 
+   
+   Or
+   
+   <p>Current: Plan</p>
+
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>Edit access to Filters, Views, and Groupings</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <ul><li><p>Edit access to Filters, Views, and Groupings</p></li></ul>
+    <p><b>NOTE:</b></p>
+   To edit a filter in a report, you must have the following access level configuration, in addition to Edit access to Filters, Views, and Groupings:
+
+   <ul><li><p>Edit access to Reports, Dashboards, and Calendars</p></li></ul>   
+   
+   <p><b>NOTE:</b></p> <p> If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
@@ -87,7 +111,7 @@ You can create filters using the types of filter builders described in the table
 <ul>
 <li> <p>The Projects list in the Scenario Planner</p> <p>The Scenario Planner requires an additional license. For information about the Workfront Scenario Planner, see <a href="../../../scenario-planner/scenario-planner-overview.md">The Scenario Planner overview</a>. </p> </li>
 </ul>
-<p>NOTE: Standard builders for filters are not available in reports.
+<p><b>NOTE:</b></p> <p>Standard builders for filters are not available in reports.
 </td>
 </tr>
 <tr>
@@ -121,24 +145,24 @@ Consider the following when creating filters using the different interfaces:
   >
   >1. Use the standard builder to create a filter that has the following syntax:
   >
-  >   `(A OR B) AND C`
+  >      `(A OR B) AND C`
   >
-  >1. Switch to the legacy builder and edit the filter using the syntax of the legacy builder as described in the [Create or edit a filter in the legacy builder](#create-filter-in-legacy-builder) section in this article. The syntax for the legacy builder displays the filter statements as follows:
+  >1. Switch to the legacy builder and edit the filter using the syntax of the legacy builder as described in the section [Create or edit a filter in the legacy builder](#create-filter-in-legacy-builder) in this article. The syntax for the legacy builder displays the filter statements as follows:
   >
-  >   `A AND C`
-  >   `OR`
-  >   `B AND C`
+  >      `A AND C`
+  >      `OR`
+  >      `B AND C`
   >
   >1. Make a change to the filter in the legacy interface.
   >1. Switch back to the standard builder. The filter statement displays according to the logic supported in the legacy builder, as described above.
   >
-  >   The filter displays in the standard builder interface as follows:
+  >      The filter displays in the standard builder interface as follows:
   >  
-  >   `A AND C`
-  >   `OR`
-  >   `B AND C`
+  >      `A AND C`
+  >      `OR`
+  >      `B AND C`
   > 
-  >   This happens because the filter was modified in the legacy interface.
+  >      This happens because the filter was modified in the legacy interface.
 
 ## Create or edit a filter in the standard builder
 
@@ -172,7 +196,7 @@ Create a filter using the standard builder interface:
    </tr>
    <tr>
    <td role="rowheader"><strong>System defaults</strong></td>
-   <td>Workfront system default filters, as well as filters that the Workfront administrator added to your list of filters, either at the system level or in your layout template.</td>
+   <td>Workfront system default filters, and filters that the Workfront administrator added to your list of filters, either at the system level or in your layout template.</td>
    </tr>
    <tr>
    <td role="rowheader"><strong>Shared with me</strong></td>
@@ -211,9 +235,9 @@ Create a filter using the standard builder interface:
 
    ![Include if all or any or true drop-down menu](assets/new-filters-all-or-any-are-true-drop-down-menu-nwe.png)
 
-   For more information about filter operators, see [Filters overview in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   For more information about filter operators, see [Filters overview](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-1. Click the field drop-down menu to view a list of recently used fields, and suggested fields to filter by. The suggested fields are currently displayed in the list you are filtering.
+1. Click the field drop-down menu to view a list of recently used fields, and suggested fields to filter by. The suggested fields are currently displayed in the list that you are filtering.
 
    You can also select **Browse fields** to view a list of all fields you can filter by. The fields in the advanced search are grouped by object category.
 
@@ -227,20 +251,20 @@ Create a filter using the standard builder interface:
    >
    >As you build the filter, the results appear immediately in the list. If the filter panel covers the list, you can close it to see the display. The information you entered remains in the builder when you open the panel again.
 
-1. Start typing the value of a field you want to filter by. For example, start typing the name of an issue, if you want to filter by `Issue:Name`. Select the value when it displays in the list.
+1. Start typing the value of a field that you want to filter by. For example, start typing the name of an issue, if you want to filter by `Issue:Name`. Select the value when it displays in the list.
 
    >[!TIP]
    >
    >Depending on what modifier you selected, you can select multiple values.
 
-1. Click **Add filter** to select another field and add a new filtering criteria to the filter statement.
+1. Click **Add filter** to select another field add a filtering criteria to the filter statement.
 1. (Optional) Click the **Delete** icon ![Delete icon](assets/delete.png) to remove existing filter statements.
 
    Or
    
    Click **Clear all** to clear all filtering criteria.
 
-1. (Optional) Click **Add filter group** to add another set of filtering criteria. The default operator between the sets is AND. Click the operator to change it to OR.
+1. (Optional) Click **Add filter group** to add another set of filtering criteria. The default operator between the sets is **AND**. Click the operator to change it to **OR**.
 
    >[!TIP]
    >
@@ -264,7 +288,7 @@ Create a filter using the standard builder interface:
 
    >[!TIP]
    >
-   >We recommend building as much of the filter as possible using the standard builder interface and only using text mode when you must make modifications to the filter that are only supported in text mode.
+   >We recommend building as much of the filter as possible using the standard builder interface and only using text mode when you must modify the filters that are only supported in text mode.
 
    For more information about creating a filter using the text mode interface, see [Edit a filter using text mode](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
@@ -276,7 +300,7 @@ Create a filter using the standard builder interface:
 
 1. (Optional) Click **Apply** to apply the filter to the list and see the results.
 
-   If the filter produces no results, the list will be empty.
+   If the filter produces no results, the list is empty.
 
 1. Click **Save as new** to save the filter for future use.
 
@@ -286,7 +310,7 @@ Create a filter using the standard builder interface:
 
    >[!TIP]
    >
-   >Be sure to name the filter so that you can find it later. If you do not name the filter, it will be called Untitled Filter in the system.
+   >Be sure to name the filter so that you can find it later. If you do not name the filter, it is called Untitled Filter in the system.
 
 1. Select an icon for the new filter from the **Icon** drop-down menu.
 
@@ -299,17 +323,17 @@ Create a filter using the standard builder interface:
    >Clicking **Cancel** at any time takes you back to the filter building area.
 
 1. Click **Save**. The filter is saved in the Saved list and is applied to the list of items.
-1. (Optional) To move a filter to the Favorited list, hover over any filter in the filter drawer and click the Favorite icon ![Favorite icon](assets/favorites-icon-small.png).
+1. (Optional) To move a filter to the Favorited list, hover over any filter in the filter drawer and click the **Favorite** icon ![Favorite icon](assets/favorites-icon-small.png).
 
    Or
    
    Hover over any filter in the filter drawer, click the More menu ![More menu](assets/more-icon-spectrum.png), and click **Favorite**.
 
-1. (Optional) Click the **Stack filters** button to activate stacked filters. This option allows you to apply more than one saved filter. The filter rules are applied in the order you select them.
+1. (Optional) Click the **Stack filters** button to activate stacked filters. This option allows you to apply more than one saved filter. The filter rules are applied in the order that you select them.
 
    >[!TIP]
    >
-   >There is no limit to the number of filters you can select.
+   >There is no limit to the number of filters that you can select.
    >
    >When you select multiple filters, all of their conditions must be met simultaneously to display matching results.
 
@@ -347,7 +371,7 @@ Regardless of the method you use to create filters, creating a filter from scrat
 
    Or
 
-   Hover over the filter you want to modify and click the **Edit** icon ![](assets/edit-icon.png). 
+   Hover over the filter that you want to modify and click the **Edit** icon ![](assets/edit-icon.png). 
    
    The builder for customizing the filter launches.
 
@@ -358,7 +382,7 @@ Regardless of the method you use to create filters, creating a filter from scrat
 
      Fields associated with the object of your filter are listed in the **Start typing field name** box. 
    
-   * Click **AND** or **OR** when adding a new filter rule.  
+   * Click **AND** or **OR** when adding a filter rule.  
      When adding filter rules, use the filter modifiers to establish the condition of your filter. For more information about filter modifiers, see [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
      >[!NOTE]
@@ -385,11 +409,11 @@ Regardless of the method you use to create filters, creating a filter from scrat
 
    For more information about creating a filter using the text mode interface, see [Edit a filter using text mode](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md). 
 
-1. Click **Save Filter** to create a new filter or replace the selected one with your changes.
+1. Click **Save Filter** to create a filter or replace the selected one with your changes.
    
    Or
    
-   Click **Save as New Filter** to create a new filter from the selected one. 
+   Click **Save as New Filter** to create a filter from the selected one. 
    
    The new filter displays in the list of filters and it is automatically applied to the list or report you selected.
 

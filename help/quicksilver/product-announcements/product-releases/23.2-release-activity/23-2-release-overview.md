@@ -4,6 +4,7 @@ description: 23.2 release overview
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
 ---
 # 23.2 Release overview
@@ -83,7 +84,7 @@ In lieu of a release webinar, we invite you to register for Adobe Summit to watc
                             </li>
                             <li>
                                  <p>Production release: With the 23.2 release<br />
-                                 <span style="color: #ff0000;">The form designer beta was temporarily disabled in Preview and Production on May 24, 2023.</span></p>
+                                 <span style="color: #ff0000;">The form designer beta was temporarily disabled in Preview and Production from May 24 to July 21, 2023.</span></p>
                             </li>
                         </ul>
                     </td>

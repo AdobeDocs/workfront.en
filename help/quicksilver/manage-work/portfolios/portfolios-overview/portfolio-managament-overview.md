@@ -9,6 +9,8 @@ exl-id: 26fb28ce-0957-4db6-a275-174b1d149180
 ---
 # Portfolio Management overview
 
+<!--Audited: 12/2023-->
+
 ## Overview of Project Portfolio Management (PPM)
 
 Portfolio or Project Portfolio Management (PPM) is the process of prioritizing and managing a list of projects in order to achieve specific business objectives. Thus, a portfolio is a collection of projects with common business goals. The result of an effective PPM methodology allows executives to:
@@ -49,7 +51,7 @@ For more information about creating a business case and a project request, see [
 
 ### Project Review {#project-review}
 
-After you submit the project request, the Portfolio Manager or an executive team reviews it, and decides whether to approve them. If they are approved, they will be selected for a company Project Portfolio.
+After you submit the project request, the Portfolio Manager or an executive team reviews it, and decides whether to approve the project. If they approve the project, the project is selected for a company Project Portfolio.
 
 For more information about portfolios, see [Portfolio overview in [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)For more information about approving a Business Case, see [Approve a Business Case](../../../manage-work/projects/define-a-business-case/approve-business-case.md).
 
@@ -61,17 +63,17 @@ For more information about portfolio optimization, see [Optimize projects in the
 
 ### Resource Planning {#resource-planning}
 
-Along with optimizing the performance of the portfolio and prioritizing the project, the Resource Manager ensures that proper resources are allocated to the projects. They assess the availability and allocation of the resources using the Resource Management tools available in [!DNL Workfront].
+Along with optimizing the performance of the portfolio and prioritizing the projects, the Resource Manager ensures that proper resources are allocated to the projects. They assess the availability and allocation of the resources using the Resource Management tools available in [!DNL Workfront].
 
-Depending on the availability of the resources, the Portfolio Manager might need to re-prioritize the projects. 
+Depending on the availability of the resources, the Portfolio Manager might need to reprioritize the projects. 
 
 For more information about Resource Management, see the [Manage resources](../../../resource-mgmt/manage-resources.md) section.
 
 ### Project Execution {#project-execution}
 
-After receiving the project approval from the Portfolio Manager and the validation of the resources from the Resource Manager, as the Project Owner, you can place the project in the status of [!UICONTROL Current] and your users can start the work to complete the project. It is recommended to capture a baseline of the project in this phase, to have a reference point for the project, in its original state.
+After receiving the project approval from the Portfolio Manager and the validation of the resources from the Resource Manager, as the Project Owner, you can place the project in the status of [!UICONTROL Current] and your users can start the work to complete the project. We recommend that you capture a baseline of the project in this phase, to have a reference point for the project, in its original state.
 
-For more information about managing projects in [!DNL Workfront], see [Manage projects](../../../manage-work/projects/manage-projects/manage-projects-overview.md).\
+For more information about managing projects in [!DNL Workfront], see [Manage projects: article index](../../../manage-work/projects/manage-projects/manage-projects-overview.md).\
 For more information about creating baselines on projects, see [Create project baselines](../../../manage-work/projects/create-projects/create-baselines.md).
 
 ### Project Postmortem {#project-postmortem}

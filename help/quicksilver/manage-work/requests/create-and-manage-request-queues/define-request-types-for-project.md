@@ -9,9 +9,9 @@ exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
 ---
 # Define Request Types for a project
 
-You can organize the kind&nbsp;of issues or requests that are logged in Adobe Workfront by Request Types.
+You can organize the kind of issues or requests that are logged in Adobe Workfront by Request Types.
 
-This organization is useful for reporting reasons and for helping users understand what kind&nbsp;of unexpected work&nbsp;might occur during the lifetime of a project.
+This organization is useful for reporting reasons and for helping users understand what kind of unexpected work might occur during the lifetime of a project.
 
 ## Access requirements
 
@@ -26,12 +26,14 @@ You must have the following access to perform the steps in this article:
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="https://one.workfront.com/s/document-item?bundleId=the-new-workfront-experience&amp;topicId=Content%2FAdministration_and_Setup%2FAdd_users%2FAccess_levels_and_object_permissions%2Fwf-licenses.html&amp;_LANG=en" target="_blank">Adobe Workfront license</a>*</td> 
+   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md">Licenses overview</a>*</td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
+   
+   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -40,11 +42,11 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator. 
 
 ## Prerequisites
 
-Before you begin, you must
+Before you begin, you must do the following: 
 
 * Have or create a project
 
@@ -52,9 +54,9 @@ Before you begin, you must
 
 ## Considerations about Request Types
 
-* You can specify the&nbsp;type of issues or requests that can be logged on a project when you configure the **Queue Details**&nbsp;area for the project.
-* You don't have to enable the project to be a request queue to be able to define Request&nbsp;Types for a project. Any issues logged for a project can be labeled with a different Request&nbsp;Type. 
-* If you add Queue Topics to your project, you must define Request&nbsp;Types on each queue topic to display it when adding a new issue or request. For more information, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+* You can specify the type of issues or requests that can be logged on a project when you configure the **Queue Details** area for the project.
+* You don't have to enable the project to be a request queue to be able to define Request Types for a project. Any issues logged for a project can be labeled with a different Request Type. 
+* If you add Queue Topics to your project, you must define Request Types on each queue topic to display it when adding a new issue or request. For more information, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
 ## Define the issue or request types for a project
 

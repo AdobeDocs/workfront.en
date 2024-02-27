@@ -1,12 +1,8 @@
 ---
-content-type: overview;reference
-product-previous: workfront-proof
-product-area: documents
-navigation-topic: workfront-proof-mobile-apps
 title: Workfront Proof mobile app
-description: Download the [!DNL Workfront Proof] app from the Apple App Store or Google Store to be productive wherever you are. The [!DNL Workfront Proof] app has the following features on the iPhone and iPod Touch - EDIT ME.
-author: Courtney
-feature: Workfront Proof, Digital Content and Documents
+description: Learn about the Workfront Proof mobile app.
+hide: true
+hidefromtoc: true
 exl-id: 865019d7-55b4-4d53-93aa-1370d153916e
 ---
 # Workfront Proof mobile app
@@ -32,9 +28,6 @@ Requires iOS 7.0 or later. Android 4.0 and up. Compatible with iPhone, iPad, and
 >[!IMPORTANT]
 >
 >The Workfront Proof mobile app is no longer supported and is available as-is.  Any issues in the app will not be fixed.
-
-
-Download our [!DNL Workfront Proof] Mobile App directly from the [Apple App Store](https://itunes.apple.com/us/app/workfront-proof/id1030372728?mt=8) or the [Google Play Store](https://play.google.com/store/apps/details?id=com.proofhq.tabletapp).
 
 For iOS devices, make sure to uninstall the previous [!DNL Workfront Proof] app for iOS devices before installing the new app.
 

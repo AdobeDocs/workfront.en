@@ -212,7 +212,7 @@ Configure any of the following preferences for newly created projects associated
 
 ### Business Cases {#business-cases}
 
-You can create a Business Case for newly created projects associated with the group to submit project requests. You can define preferences to determine which areas are visible on the **Business Case** form. We recommend that you enable these options so that other tools, such as the Portfolio Optimizer, update properly. For more information about what each field displays, see [Define a Business Case](../../../manage-work/projects/define-a-business-case/define-business-case.md).
+You can create a Business Case for newly created projects associated with the group to submit project requests. You can define preferences to determine which areas are visible on the **Business Case** form. We recommend that you enable these options so that other tools, such as the Portfolio Optimizer, update properly. For more information about what each field displays, see [Define a Business Case: article index](../../../manage-work/projects/define-a-business-case/define-business-case.md).
 
 After the Workfront administrator enables the sections on the Business Case, a Project Owner can then create a Business Case at the project level. For information about creating a Business Case, see [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 

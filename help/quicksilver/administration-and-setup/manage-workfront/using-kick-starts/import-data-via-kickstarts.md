@@ -5,12 +5,14 @@ keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
 title: Import data into Adobe Workfront using a Kick-Start template
 description: Kick-Starts are specially formatted Excel workbooks that you can populate with data you want to import into Workfront. Adobe Workfront provides a Kick-Start template you can use to do this, as explained in Kick-Starts data importer.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
 ---
 # Import data into Adobe Workfront using a Kick-Start template
+
+<!--Audited: 12/2023-->
 
 Kick-Starts are specially formatted Excel workbooks that you can populate with data you want to import into Workfront. Adobe Workfront provides a Kick-Start template you can use to do this, as explained in [Kick-Starts data importer](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-data-importer.md).
 
@@ -36,36 +38,44 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td>Plan</td> 
+   <td>
+   <p> New: Standard</p>
+   or
+   <p>Current: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td>You must be a Workfront administrator. </td> 
   </tr> 
  </tbody> 
 </table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Limitations
 
 You can import large numbers of objects into Workfront using a Kick-Start template. However, consider the following limitations:
 
-* Importing data this way doesn't update information on records that already exist in Workfront
-* You can import only new records and their information
+* Importing data this way doesn't update information on records that already exist in Workfront. 
+* You can import only new records and their information.  
 * Import no more than 2,000 records at a time to ensure that the import does not time out
 
 ## Export a Kick-Start template as a spreadsheet file
 
-When you export a Kick-Start template you receive a blank Excel spreadsheet workbook. In subsequent procedures in this article, you will populate the workbook with your information and then import it back into Workfront.
+When you export a Kick-Start template you receive a blank Excel spreadsheet workbook. After the spreadsheet downloads to your computer, you can use it to populate it with your information and then import it back into Workfront.
 
 To export a Kick-Start template:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
+{{step-1-to-setup}}
 
-1. Click **System** > **Export Data (Kick-Starts)**.
+<!--
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  -->
 
-1. Click **More Options**, then select the types of information that you want to include.
+1. Click **System** > **Import Data (Kick-Starts)**.
 
-   Each option that you select represents a collection of multiple tabs in the exported spreadsheet. For example, if you select the Report option, all the necessary objects for creating a report will be included in the spreadsheet (views, filters, groupings, reports).
+1. Select the types of information that you want to include.
+
+   Each option that you select represents a collection of multiple tabs in the exported spreadsheet. For example, if you select the **Report** option, all the necessary objects for creating a report will be included in the spreadsheet (views, filters, groupings, reports).
 
    You can use all of the object types listed below to import data into Workfront. (The only exception is the Access Levels option. The Access Levels data sheet in an export is provided for reference purposes—it allows you to assign an access level to a new user account by ID.)
 
@@ -86,22 +96,22 @@ To export a Kick-Start template:
      <tr> 
       <td scope="col"> <p>Dashboard</p> <p>All dashboards in the system are available to export. You can select up to 100 specific dashboards in a single export.</p> </td> 
       <td scope="col">Exports as ZIP file</td> 
-      <td scope="col"> <p>Parameter</p> <p>Parameter Option</p> <p>Parameter Group</p> <p>Category Parameter</p> <p>Category</p> <p>Report</p> <p>Portal Tab Section</p> <p>Dashboard</p> <p>Preferences</p> </td> 
+      <td scope="col"> <p>Parameter</p> <p>Descriptive Text</p><p>Parameter Option</p> <p>Parameter Group</p> <p>Category Parameter</p> <p>Category</p> <p>Report</p> <p>Portal Tab Section</p> <p>Dashboard</p> <p>Preferences</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>Report</p> <p>All reports in the system are available to export. You can select up to 100 specific reports in a single export.</p> </td> 
       <td scope="col">Exports as ZIP file </td> 
-      <td scope="col"> <p scope="col">Parameter</p> <p scope="col">Parameter Option</p> <p scope="col">Parameter Group</p> <p scope="col">Category Parameter</p> <p scope="col">Category</p> <p scope="col">Report</p> <p scope="col">Preferences</p> </td> 
+      <td scope="col"> <p scope="col">Parameter</p> <p scope="col">Descriptive Text</p> <p scope="col">Parameter Option</p> <p scope="col">Parameter Group</p> <p scope="col">Category Parameter</p> <p scope="col">Category</p> <p scope="col">Report</p> <p scope="col">Preferences</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>Approval</p> </td> 
       <td scope="col"> <p>Exports as Excel file</p> </td> 
-      <td scope="col"> <p>Step Approver</p> <p>Approval Step</p> <p>Approval</p> <p>Approval Process</p> <p>Preferences</p> </td> 
+      <td scope="col"> <p>Stage Approver</p> <p>Approval Stage</p> <p>Approval</p> <p>Approval Process</p> <p>Preferences</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>Custom Data</p> </td> 
       <td scope="col"> <p>Exports as Excel file</p> </td> 
-      <td scope="col"> <p>Parameter</p> <p>Parameter Option</p> <p>Parameter Group</p> <p>Category Parameter</p> <p>Category</p> <p>Preferences</p> </td> 
+      <td scope="col"> <p>Parameter</p> <p>Descriptive Text</p>  <p>Parameter Option</p> <p>Parameter Group</p> <p>Category Parameter</p> <p>Category</p> <p>Preferences</p> </td> 
      </tr> 
      <tr> 
       <td scope="col"> <p>Expense Type</p> </td> 
@@ -182,12 +192,14 @@ To export a Kick-Start template:
       <td>Job Role</td> 
       <td>Exports as Excel file</td> 
       <td> <p> Job role</p> <p>Preferences </p> </td> 
-     </tr> 
+     </tr>
+
      <tr> 
       <td>Milestone Path</td> 
       <td> Exports as Excel file</td> 
       <td> <p> Milestone</p> <p>Milestone Path</p> <p>Preferences </p> </td> 
-     </tr> 
+     </tr>
+
      <tr> 
       <td>Note</td> 
       <td>Exports as Excel file</td> 
@@ -209,11 +221,6 @@ To export a Kick-Start template:
       <td> <p> Resource Estimate</p> <p>Preferences </p> </td> 
      </tr> 
      <tr> 
-      <td>Resource Pool</td> 
-      <td>Exports as Excel file</td> 
-      <td> <p> Resource Pool</p> <p>Preferences </p> </td> 
-     </tr> 
-     <tr> 
       <td>Risk</td> 
       <td>Exports as Excel file</td> 
       <td> <p> Risk</p> <p>Preferences </p> </td> 
@@ -226,7 +233,7 @@ To export a Kick-Start template:
      <tr> 
       <td>Scorecard</td> 
       <td>Exports as Excel file</td> 
-      <td> <p>Scorecard Questions</p> <p>Scorecard Option</p> <p>Scorecard</p> <p>Preferences </p> </td> 
+      <td> <p>Scorecard Question</p> <p>Scorecard Option</p> <p>Scorecard</p> <p>Preferences </p> </td> 
      </tr> 
      <tr> 
       <td>Task</td> 
@@ -262,17 +269,17 @@ To export a Kick-Start template:
    </table>
 
 1. Click **Download**.
-1. Continue with [Populate the spreadsheet template with your data](#populate-the-spreadsheet-template-with-your-data) to populate the template with your information.
+1. Continue with [Populate the spreadsheet template with your data](#populate-the-spreadsheet-template-with-your-data) to populate the blank template spreadsheet with your information.
 
 ## Populate the spreadsheet template with your data {#populate-the-spreadsheet-template-with-your-data}
 
-* [About the tabs (data sheets) included in the spreadsheet](#about-the-tabs-data-sheets-included-in-the-spreadsheet) 
+* [Overview of the tabs (data sheets) included in the spreadsheet](#overview-of-the-tabs-data-sheets-included-in-the-spreadsheet)
 * [Import a record](#import-a-record) 
 * [Include dates](#include-dates) 
 * [Use wildcards](#use-wildcards) 
 * [Attribute name substitution for IDs](#attribute-name-substitution-for-ids)
 
-### About the tabs (data sheets) included in the spreadsheet {#about-the-tabs-data-sheets-included-in-the-spreadsheet}
+### Overview of the tabs (data sheets) included in the spreadsheet 
 
 >[!TIP]
 >
@@ -286,41 +293,60 @@ When you open one of these tabs, row 2 displays the fields for each object that 
 >
 >To avoid errors, make sure of the following:
 >
->* Do not delete or modify these fields in any way. For example, don't change their order or their names.
->* Populate every field with a column header displayed in bold. These represent required fields.
+>* Do not delete the empty first row of a kick-start spreadsheet.
+>* Do not delete, modify, or rearrange these fields (column headers) in any way. For example, don't change their order or their names.
+>* Add values to every field that displays in bold in the column header. These represent required fields.
 >
->  However, if a required field contains a default value set in the system preferences, you don't have to populate it. 
+>     However, if a required field contains a default value set in the system preferences, you don't have to populate it. 
 >
->  For example, on the **PROJ Project** tab, the **setCondition** and **setConditionType** fields can be left empty, but the **setGroupID** and **setName** columns cannot.
+>     For example, on the **PROJ Project** tab, the **setCondition** and **setConditionType** fields can be left empty, but the **setGroupID** and **setName** columns cannot.
 >
+>* Certain fields, including **setResourceRevenue** and **setEnteredByID**, are automatically generated by the system. If you enter data for these fields in the spreadsheet, the kick-start process will override it when you upload the spreadsheet.
 
 ### Import a record  {#import-a-record}
 
 Each row of the sheet corresponds to a unique object.
 
-1. Complete the cell in the **isNew** column:
+1. Add information in the **isNew** column:
 
-   * If the object you are importing is new, type **TRUE** to import the data in the row.
-   * If the object is already in Workfront, type **FALSE** to ignore the row.
+   * If the object you are importing is new, type **TRUE** to import the data in the row. This value is case sensitive and it must always be in all-upper case letters
+   * If the object is already in Workfront, type **FALSE** in the **isNew** column to ignore the row. This value is case sensitive and it must always be in all-upper case letters
 
-1. Complete the cell in the **ID** column in one of the following ways:
+     * Records that already exist in Workfront are not updated.
+     * If you downloaded a template with data from Workfront, existing objects are already marked with **FALSE**.
+     * If you downloaded a blank template, you do not need to add new rows for existing objects.
 
-   * If the object you are importing is new (and you typed**TRUE** in the **isNew** column), specify any number for the ID. This number must be unique in the spreadsheet.
+1. Add information in the **ID** column in one of the following ways:
+
+   * If the object you are importing is new (and you typed **TRUE** in the **isNew** column), type any number for the ID. This number must be unique in the spreadsheet. For example, if you import three objects, you can give them the ID of 1, 2, 3 respectively. 
    
-   * If the object you are importing already exists in the Workfront system (and you typed**FALSE** in the **isNew** column), the ID must be the alpha-numeric GUID that exists in Workfront for that object.
+   * If the object already exists in Workfront (and **FALSE** is in the **isNew** column), and you are importing new information about existing objects, the ID must be the alpha-numeric GUID that exists in Workfront for that object. 
+
+   >[!TIP]
+   >
+   > To find out the unique GUID of an object in Workfront, you can create a report for that object and add the ID column to the report. The value for each object in that column is the objects's GUID. 
+
+     * Records that already exist in Workfront are not updated.
+     * If you downloaded a template with data, existing objects already contain the GUID as the ID.
+     * You can import a new object based on an existing object by changing **FALSE** to **TRUE** in the **isNew** column, changing the ID, and making the necessary data adjustments before importing.
+
+      ![Sample ID for a Group](assets/kick-start-group-example.png)
    
+   * When you import a project, you must indicate a Group ID.
+   
+      * If the group already exists in Workfront, you must add its unique ID to the **setGroupID** field for the project.
+      * If the group does not exist in Workfront, you can add the **GROUP Group** sheet to your import file, set the **isNew** field to **TRUE** on the Group sheet, and indicate a numeric ID for the new group in the **ID** column. The **setGroupID** field for the new project must match the numeric **ID** for the new group.
+
      **Example:** For a project, the value displayed in the **setGroupID** column must one of the following:
 
       * The GUID for an existing Group in your Workfront instance
       * The value (number) in the ID column on the **GROUP Group** sheet if you are creating a new Group during the import
 
-        ![](assets/verysimplekickstartprojectimport-350x31.png)
-
 1. Input values for the required fields and any other fields you want to populate during the import.
 1. (Optional) To add custom data:
 
    * Create a new column for each custom field that you want to include in the import process. 
-   * Name each new column for its corresponding custom field as follows: **DE:[Name of Custom Field as Appears in Workfront]**.
+   * Name each new column for its corresponding custom field as follows: **DE:[Name of the custom field as it appears in Workfront]**. For example, you can create the following custom field: "DE: Departments". 
    * In the column **setCategoryID**, type the GUID of the existing custom form on which this custom field resides. This field is required when importing custom data.
    * If you need to add multiple data values in the custom field, (such as radio buttons, check boxes, or lists) use the vertical bar custom data delimiter "|" listed in the Preferences tab to separate the values.
 
@@ -332,13 +358,17 @@ Workfront can process most date formats. However, you must ensure that the date 
 
 >[!TIP]
 >
->Most people find it easiest to use the MM/DD/YYYY format (for example: 07/10/2022).
+>The most popular format is the MM/DD/YYYY format.
+>
+>For example: 07/10/2023. 
 
-Workfront also accepts time values as part of the date (for example: 07/10/2022 01:30 or 07/10/2022 1:00 PM).
+Workfront also accepts time values as part of the date. 
+
+For example: 07/10/2022 01:30 or 07/10/2022 1:00 PM.
 
 If you omit a time in the date, Workfront does one of the following:
 
-* Assumes 12:00 AM. In order to see the date result you expect, the system timezone must match your time zone.
+* Assumes that the time is 12:00 AM. In order to see the date result you expect, the system timezone must match your time zone.
 * If it is on an object that is associated with a schedule, the time defers to the earliest time that the schedule allows. 
 
 >[!NOTE]
@@ -386,19 +416,19 @@ Though it is a best practice to use IDs whenever possible, sometimes it's inconv
 
 **Examples:** 
 
-* **(project import)**
+* **Project import**
 
   When importing projects, set the **setGroupID** of the projects by going to the **GROUP Group** sheet, making note of the respective Group IDs, and pasting them in the correct cells (**setGroupID** column) on the **PROJ Project** sheet.
 
   This is feasible when working with only a few groups and projects, but if you are working with several of each, it's not practical.
 
-  To do the Attribute Name Substitution for the example described above, you change the **setGroupID** column header to **#setGroupID GROUP****name**. You can then reference each project's group by name.
+  To do the Attribute Name Substitution for the example described above, you change the **setGroupID** column header to **#setGroupID GROUP name**. You can then reference each project's group by name.
 
   >[!NOTE]
   >
   >The option to use Attribute Name Substitution is limited to references for existing records only. You cannot use name substitution for objects you are creating in the same import.
 
-* **(user import)**
+* **User import**
 
   When importing users, fill in the **setRoleID** from a list of roles on the **ROLE Role** tab.
 
@@ -414,35 +444,42 @@ Though it is a best practice to use IDs whenever possible, sometimes it's inconv
 
      For role assignments to new role records, input the ID you assigned on the ROLE Role sheet in the setRoleID.
 
-     ![](assets/setroleid-350x66.png)
+     ![Role ID for users](assets/set-role-id.png)
 
 ## Import the spreadsheet data into Workfront
 
-After you populate the Excel template with your data, you can upload it's data into Workfront.
+After you populate the Excel template with your data, you can upload its data into Workfront.
 
 The Kick-Start import supports the following file types:
 
-* XML-based Excel (&#42;.xlsx)
-* Legacy Excel (&#42;.xls)
-* Zipped (&#42;ZIP) xlsx or xls file
+* Excel (.xls or .xlsx)
+* Zipped (.ZIP) file (that contains only .xlsx or .xls files)
 
    >[!NOTE]
    >
-   >You must use a ZIP file when importing Excel spreadsheets that reference reports; documents; avatars; or view, filter, or grouping property files. When using a zipped import file, the &#42;ZIP file must have the same name as the &#42;.xlsx or &#42;.xls file, and all contents must be at the same file structure level (no folders).
-
+   >You must use a .ZIP file when importing Excel spreadsheets that reference the following objects: 
+   >
+   >* Reports
+   >* Documents
+   >* Avatars
+   >* View, filter, or grouping property files
+   >
+   >When using a zipped import file, the .ZIP file must have the same name as the .xlsx or .xls file, and all files must be at the same structure level (no folders).
 
 To import the template spreadsheet data into Workfront:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
+<!--1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).-->
 
-1. Click **System** >**Import Data (Kick-Starts)**.
+{{step-1-to-setup}}
+
+1. Click **System** > **Import Data (Kick-Starts)**.
 
 1. In the **Upload data with Kick-Start spreadsheet** section, click **Choose File**, then browse to and select the populated spreadsheet.
 
 1. Click **Upload.**
 
-   If the Excel file takes longer than 5 minutes to upload to Workfront, the application times out and the file cannot be uploaded.
+   If the Excel file takes longer than 5 minutes to upload to Workfront, the application times out and Workfront cannot upload the file.
 
-   Try importing your data in smaller batches of objects.  
+   Try importing your data in smaller batches of objects.
 
 1. (Conditional) If you are using Workfront Fusion, you can now turn on your FLOs or scenarios.

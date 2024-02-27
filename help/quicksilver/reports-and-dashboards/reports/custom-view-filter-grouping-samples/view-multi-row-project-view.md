@@ -3,7 +3,7 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'View: multi-row project View'
-description: In this project view you can - EDIT ME.
+description: Learn about the multi-row project view in reports.
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 3c6028c0-2c9f-4f86-aa6c-bf089844bac8

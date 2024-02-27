@@ -9,6 +9,8 @@ exl-id: 81512837-1ec4-4dbc-ace4-bdf08fe667ce
 ---
 # Overview of common uses for Text Mode
 
+<!-- Audited: 1/2024 -->
+
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***This is linked to Understanding Text Mode (article), and the TOC article for examples of various reporting elements)</p>
 -->
@@ -17,8 +19,10 @@ You can expand your reporting capabilities by using text mode in reports and rep
 
 This article outlines just a few common examples of where you would most likely need to use text mode to expand reporting or calculated custom fields capabilities in Adobe Workfront. For a more expansive list of examples, see:
 
-* [Custom View, Filter, and Grouping samples](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md) 
+* [Custom view, filter, and grouping samples: article index](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md) 
 * [Calculated custom data in reports](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
+
+For more information about creating reports using text mode, including classes, videos, and tutorials, see the Learn section on the Adobe Experience League site. 
 
 <!--this link is outdated: 
 
@@ -167,7 +171,7 @@ If you still don't have access, ask your Workfront administrator if they set add
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: see new article: /Content/Reports and Dashboards/Reports/Custom View Filter Grouping Samples/column-calculation-between-two-fields.htm)</p>
 <p>For example, if you want to find out the number of week days that elapsed between two dates, you can use text mode syntax and data expressions to calculate this difference.<br>For example, we want to calculate the week day difference between the Planned Completion Date and the Actual Completion Date of a task.<br>To do this, you can add a new column to a task view, and <strong>Switch to Text Mode</strong>. In the <strong>Click to edit text</strong> dialog box, paste the following text: </p>
 <pre>displayname=Week Day Difference<br>textmode=true<br>valueexpression=WEEKDAYDIFF({plannedCompletionDate},{actualCompletionDate})<br>valueformat=HTML</pre>
-<p>You can use any other two dates in this calculation (Actual Start, Actual Completion, Projected Start, Projected Completion, etc).<br>For more information about calculated data expressions, see <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md" class="MCXref xref">Calculated data expressions</a>.</p>
+<p>You can use any other two dates in this calculation (Actual Start, Actual Completion, Projected Start, Projected Completion, etc).<br>For more information about calculated data expressions, see <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md" class="MCXref xref">Overview of calculated data expressions</a>.</p>
 <p><strong>Edit the width of a column permanently</strong></p> 
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: see new article: /Content/Reports and Dashboards/Reports/Custom View Filter Grouping Samples/column-edit-column-width-permanently.htm) </p>
 <p>You can permanently change the width of a column by using these lines in the text mode of the column:</p>

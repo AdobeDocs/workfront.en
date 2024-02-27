@@ -67,7 +67,7 @@ Combining multiple files into a single proof is a feature available on [!UICONTR
 
 Yes, you can create proofs from websites and other web content. When you add a URL to create a proof, you can specify whether you want a static proof or an interactive proof:
 
-* In an interactive proof, reviewers can navigate and interact as they normally would with the website or other web content such as ads with streaming video or audio, [!DNL Flash] elements in an ad, HTML animations, and interactive banners. For more information, see [Create a proof for interactive content in a ZIP file](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md).
+* In an interactive proof, reviewers can navigate and interact as they normally would with the website or other web content such as ads with streaming video or audio, [!DNL Flash] elements in an ad, HTML animations, and interactive banners. For more information, see [Create a proof for interactive content in a ZIP file](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
 * For a static proof, [!DNL Workfront] takes a set a screenshots of the pages and subpages you specify. Hyperlinks are live in the proof, so you can test whether or not they lead to the correct destination. For more information, see [Create a static proof for a website or other web content](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md).
 
 You can add multiple URLs at once if you separate them with a space. Note that combining is only available on [!UICONTROL Enterprise] and [!UICONTROL Unlimited] edition plans.

@@ -4,6 +4,7 @@ description: 22.4 Agile enhancements
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 5d954537-5ee4-43b5-b1ab-d62433496e35
 ---
 # 22.4 Agile enhancements

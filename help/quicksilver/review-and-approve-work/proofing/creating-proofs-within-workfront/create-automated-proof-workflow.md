@@ -9,6 +9,8 @@ exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
 ---
 # Create an advanced proof with an Automated workflow
 
+<!-- Audited: 2/2024 -->
+
 An Automated Workflow makes it easier to manage the review process if your process is complex, or if you send content for review to the same people regularly. The proof moves from stage to stage and Adobe Workfront notifies each user when it is their turn to review it. For more information about Automated workflows, see [Automated Workflow overview](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 ## Access requirements
@@ -20,25 +22,25 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Higher</p> <p>For more information about proofing access with the different plans, see <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>New: Any</p><p>Current plan: Pro or Higher</p><p>Legacy plan: Select or Higher</p> <p>For more information about proofing access with the different plans, see <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current plan: Work or Plan</p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Standard</p><p>Current plan: Work or Plan</p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof Permission Profile </td> 
    <td>Manager or higher</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Documents</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, role, or Proof Permission Profile you have, contact your Workfront or Workfront Proof administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Create an advanced proof with an Automated workflow
 
@@ -58,9 +60,9 @@ You must have the following access to perform the steps in this article:
    >
    >Consider the following when you use an Automated Workflow template:
    >   
-   >* An Automated Workflow template's settings determine&nbsp;what you can do with the Automated Workflow for a proof. For example, if the Add a stage button disabled in the template, it is not visible as you work with the Automated Workflow settings for the proof. 
+   >* An Automated Workflow template's settings determine what you can do with the Automated Workflow for a proof. For example, if the Add a stage button disabled in the template, it is not visible as you work with the Automated Workflow settings for the proof. 
    >* When a person is added to a sage in an Automated Workflow template, but also already present as a reviewer on the proof, applying the template removes the reviewer from the stage. If you don't add another reviewer to the stage, a message will prompt you to add one. 
-   >* Your ability to modify an Automated Workflow template depends on the template settings configured by the Workfront administrator, as described in . If the ability to modify the template is disabled, only the owner of the template can modify&nbsp;it.
+   >* Your ability to modify an Automated Workflow template depends on the template settings configured by the Workfront administrator, as described in . If the ability to modify the template is disabled, only the owner of the template can modify it.
 
 1. Configure the first stage of the Automated Workflow:
 
@@ -74,10 +76,9 @@ You must have the following access to perform the steps in this article:
       >* You can add external users to a stage with an email address.
       >* After you add a user to a stage, you can configure settings for that user on the proof.
       >* You can drag users directly to another stage, or you can drag users to a stage on the **Stages** diagram. To select multiple users, press Shift+Ctrl (on Windows) or Shift+Command (on Mac).
-      >* You&nbsp;can add a reviewer to a proof only once, which means that you cannot add the same person to more than one stage on the proof.
+      >* You can add a reviewer to a proof only once, which means that you cannot add the same person to more than one stage on the proof.
       >* Reviewers who are not added to a private stage cannot see that stage on the proof or comments made in that stage.
-      >* By default, adding a user&nbsp;to a stage grants&nbsp;that user access to view the proof from the moment the proof is created.  
-      >   Your Workfront administrator can restrict users from accessing the proof until the workflow enters the stage where the user was added.
+      >* By default, adding a user to a stage grants that user access to view the proof from the moment the proof is created. Your Workfront administrator can restrict users from accessing the proof until the workflow enters the stage where the user was added.
 
    1. Click **Stage settings**.
    1. Click an **Activate stage** option to indicate how you want the stage to activate.
@@ -106,11 +107,11 @@ You must have the following access to perform the steps in this article:
         </tr>
         <tr>
          <td role="rowheader">Transfer primary decision rights to</td>
-         <td><p>Select the Primary decision maker on the stage (available only after you add&nbsp;at least one person to the stage who has a Proof role of Approver or higher). If you select a Primary decision maker, the <strong>Only one decision required</strong> option is disabled on this stage.</p></td>
+         <td><p>Select the Primary decision maker on the stage (available only after you add at least one person to the stage who has a Proof role of Approver or higher). If you select a Primary decision maker, the <strong>Only one decision required</strong> option is disabled on this stage.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Require only one decision for this stage</td>
-         <td>Ends the entire review process when one of the decision makers makes a decision.<p>This option is not available if you designated a user in the&nbsp;<strong>Primary decision maker</strong>drop-down menu.</p></td>
+         <td>Ends the entire review process when one of the decision makers makes a decision.<p>This option is not available if you designated a user in the <strong>Primary decision maker</strong>drop-down menu.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Make this stage private</td>
@@ -144,7 +145,7 @@ You must have the following access to perform the steps in this article:
 
 ## Configure email settings for the proof {#configure-email-settings-for-the-proof}
 
-1. In the **Email notification** section, select whether to send email notifications and a custom message to&nbsp;the users you selected in [Create an advanced proof with an Automated workflow](#workflow) earlier in this article:
+1. In the **Email notification** section, select whether to send email notifications and a custom message to the users you selected in [Create an advanced proof with an Automated workflow](#workflow) earlier in this article:
 
       <table>
       <tbody>
@@ -174,7 +175,7 @@ You must have the following access to perform the steps in this article:
       <td role="rowheader">Require login - proof can only be shared with other users</td> 
       <td>When this option is disabled (default), anyone with the URL is able to view the proof. <br>When this option is selected:
        <ul>
-        <li>Only Workfront Proof&nbsp;users are able to view the proof.</li>
+        <li>Only Workfront Proof users are able to view the proof.</li>
         <li>Users cannot sign in to the proof unless they have been added to the proof.</li>
         <li>Subscriptions cannot be enabled.</li>
        </ul></td> 
@@ -185,7 +186,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Require decisions to be electronically signed</td> 
-      <td>Users are required to specify their user name and password at the time that they make a decision on&nbsp;a proof.</td> 
+      <td>Users are required to specify their user name and password at the time that they make a decision on a proof.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Lock proof when all required decisions are made</td> 
@@ -203,11 +204,11 @@ You must have the following access to perform the steps in this article:
       <td role="rowheader">Subscribe to proof via public URL or embed code</td> 
       <td>When this option is selected, people who have not been added explicitly to the proof can subscribe to the proof. The person subscribing to the proof is granted the role and email that you define in the following settings:
        <ul>
-        <li><strong>Subscriber role:</strong>&nbsp;The default proof role that is&nbsp;assigned to all reviewers that subscribe to the proof.&nbsp;</li>
-        <li><strong>Email alert settings for subscribers:</strong>&nbsp;The default email alert that is assigned to all reviewers that subscribe to the proof.</li>
+        <li><strong>Subscriber role:</strong> The default proof role that is assigned to all reviewers that subscribe to the proof.</li>
+        <li><strong>Email alert settings for subscribers:</strong> The default email alert that is assigned to all reviewers that subscribe to the proof.</li>
        </ul><p>
         <ul>
-         <li><strong>Proof access via email link required for:</strong>&nbsp;Configure whether the subscriber receives an email with a link to the proof. You can select <strong>No email</strong> (email link is not required to access the proof), <strong>Proof notification email only</strong> (subscriber receives a link to the proof via email without any verification), or <strong>Validation and proof notification emails</strong> (subscriber receives a link to the proof via email and must click the link to access a proof, the purpose of this option is to ensure that the person has entered a correct email address to which they have access).</li>
+         <li><strong>Proof access via email link required for:</strong> Configure whether the subscriber receives an email with a link to the proof. You can select <strong>No email</strong> (email link is not required to access the proof), <strong>Proof notification email only</strong> (subscriber receives a link to the proof via email without any verification), or <strong>Validation and proof notification emails</strong> (subscriber receives a link to the proof via email and must click the link to access a proof, the purpose of this option is to ensure that the person has entered a correct email address to which they have access).</li>
         </ul><p><strong>Note:</strong> If the proofs have Automated Workflow attached all subscriptions will generate confirmation emails to the proof Owners, so they could decide which stage the person should be added to.<br></p></p></td> 
      </tr> 
     </tbody> 
@@ -215,7 +216,7 @@ You must have the following access to perform the steps in this article:
 
 1. Click **Create Proof**.
 
-   Workfront&nbsp;begins generating a proof of the selected documents or websites. Depending on the file size and type, the lag time on a document upload can vary. Be patient as bigger files take longer to generate. You can navigate away from the page and Workfront continues to generate your file. The maximum file upload size is 4GB.
+   Workfront begins generating a proof of the selected documents or websites. Depending on the file size and type, the lag time on a document upload can vary. Be patient as bigger files take longer to generate. You can navigate away from the page and Workfront continues to generate your file. The maximum file upload size is 4GB.
 
 1. After the proof is generated, click **Open proof** to launch the proofing viewer.
 

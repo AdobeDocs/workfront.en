@@ -9,7 +9,7 @@ feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
 ---
-# Configure system security preferences
+# Configure system preferences
 
 <!--
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.</p>
@@ -17,14 +17,14 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 
 {{important-admin-console-onboard}}
 
-As an Adobe Workfront administrator, you can configure security preferences for your Workfront system:
+As an Adobe Workfront administrator, you can configure preferences for your Workfront system:
 
 * Access to Workfront from mobile apps and other integrated applications
 * Rules for embedding Workfront in an iframe
 
 Changes that you make in the system preferences impact all users in your system, and their experience in Workfront.
 
-We recommend that you configure your system security preferences during the Workfront implementation and only occasionally revisit them after that.
+We recommend that you configure your system preferences during the Workfront implementation and only occasionally revisit them after that.
 
 ## Access requirements
 
@@ -49,18 +49,22 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-## Configure your system security preferences
+## Configure your system preferences
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
 1. In the left panel, click **System** > **Preferences**.  
 
-1. In the **Security** section, select any of the following fields to establish the security settings for your organization:
+1. Select any of the following fields to establish the settings for your organization:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
+     <tr> 
+      <td role="rowheader"> <p>Enable fast review process</p> </td> 
+      <td>Lets you enable monthly Workfront releases for your organization instead of quarterly releases.</p><p>For more information about the fast release process, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md" class="MCXref xref">Enable or disable fast releases for your organization</a>.</p></td> 
+     </tr> 
      <tr> 
       <td role="rowheader"> <p>Allow embedding of <strong>Workfront</strong> in an iframe</p> </td> 
       <td>Lets you embed Workfront in an iframe.<p>This option is disabled by default.</p><p><b>IMPORTANT</b>: Displaying a web-based application in an iframe makes the application susceptible to a click-jacking security vulnerability.</p></td> 
@@ -71,7 +75,7 @@ You must have the following access to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Enable the use of session information when creating External Page URLs</td> 
-      <td> <p>Allows users to use the Session ID information of a site when adding an External Page to a Dashboard.</p> <p>For more information about adding External Pages to a Dashboard, see <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Embed an external web page in a dashboard</a>.</p> </td> 
+      <td> <p>Allows users to use the Session ID information of a site when adding an External Page to a Dashboard.</p> <p>This option is insecure and off by default. It is recommended to use OAuth for integrations instead.</p> <p>For more information about adding External Pages to a Dashboard, see <a href="../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md" class="MCXref xref">Embed an external web page in a dashboard</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Let people use Workfront's mobile applications and the <strong>Workfront</strong> Outlook Add-In</td> 
@@ -85,7 +89,7 @@ You must have the following access to perform the steps in this article:
         <li>Document request<br></li>
         <li>Document approval</li>
         <li>Calendar</li>
-       </ul><p>This option is enabled by default.</p> <p><b>Important</b>: The External User access level is unavailable in your Workfront instance if this option is disabled. For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Built-in access levels in Workfront</a>.</p> </td> 
+       </ul><p>This option is enabled by default.</p> <p><b>Important</b>: The External User access level is unavailable in your Workfront instance if this option is disabled. For more information, see <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md" class="MCXref xref">Built-in access levels</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Require external users to register with a password</td> 
@@ -98,6 +102,10 @@ You must have the following access to perform the steps in this article:
      <tr> 
       <td role="rowheader">Automatically log mobile users out after </td> 
       <td>Lets you specify when a user is logged out of the Workfront application, after a period of inactivity. By default, users are logged out after 7 days of inactivity. <p>This option also affects Workfront customers who are using a single sign-on solution.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Users in the system will default to seeing the New Home experience </td> 
+      <td>Lets you specify whether users will see the New Home experience by default. When enabled, users will see the New Home experience by default, but can still opt to enable or disable New Home on an individual basis. When disabled, users will not see the banner that allows them to switch to New Home—however, they can still navigate to their New Home page by manually entering <code>/home/workspaces</code> at the end of their instance URL. This setting is enabled by default.</td> 
      </tr> 
     </tbody> 
    </table>

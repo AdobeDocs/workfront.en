@@ -1,12 +1,13 @@
 ---
-title: Tips, tricks, and troubleshooting for projects
+title: "Tips, tricks, and troubleshooting for projects: article index"
 description: Tips, tricks, and troubleshooting for projects
 author: Alina
 draft: Probably
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: dd849f4e-aa48-4e27-80b7-af321f730708
 ---
-# Tips, tricks, and troubleshooting for projects
+# Tips, tricks, and troubleshooting for projects: article index
 
 This section contains the following articles:
 

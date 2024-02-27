@@ -2,20 +2,19 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: View and manage locked scenarios in [!DNL Adobe Workfront Fusion]
-description: View and manage locked scenarios in [!DNL Adobe Workfront Fusion]
+title: Manage locked scenarios in [!DNL Adobe Workfront Fusion]
+description: Manage locked scenarios in [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
-exl-id: 014434dc-7548-42d1-bacd-89ddf627b647
+exl-id: 5fccf336-d904-43fe-ad4a-c3ce76dbcad0
 ---
 # Manage locked scenarios in [!DNL Adobe Workfront Fusion]
 
-In some cases, a scenario might be temporarily locked by the [!DNL Workfront Fusion] engineering team because the scenario is causing performance or other issues. Locked executions will be automatically unlocked within 2-4 hours. You can also unlock scenarios manually.
+In some cases, a scenario might be temporarily locked in [!DNL Workfront Fusion]. Locked executions will be automatically unlocked within 2-4 hours. You can also unlock scenarios manually.
 
 >[!IMPORTANT]
 >
 >Unlocking a scenario manually can cause errors in a scenario's executions. 
-
 
 ## Access requirements
 
@@ -48,9 +47,21 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
+## Understanding locked scenarios
+
+Scenarios may be locked for a number of reasons. 
+
+Workfront Fusion does not support parallel processing of scheduled scenarios. These scenarios are locked at the beginning of the scenario execution and unlocked when it completes. If the execution is interrupted, the scenario may not unlock. This may occur when a user manually force-stops the scenario, or when there is a system issue.
+
+In addition, the Workfront Fusion engineering team may lock a scenario because it is causing performance or other issues.
+
+Regardless of the cause of a locked scenario, the scenario will unlock automatically 2-4 hours after it is locked.
+
 ## Unlock a locked scenario
 
 Locked scenarios will unlock 2-4 hours from the time they were locked. You can unlock a scenario manually before it is scheduled to unlock automatically. 
+
+Unlocking a scenario manually can cause errors in a scenario's executions. We recommend manually unlocking scenarios only when a scenario is locked due to running and stopping executions as part of designing the scenario. In other circumstances, we recommend that you wait for the scenario to be unlocked automatically.
 
 >[!IMPORTANT]
 >

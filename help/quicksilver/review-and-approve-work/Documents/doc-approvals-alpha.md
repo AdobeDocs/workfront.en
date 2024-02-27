@@ -4,9 +4,10 @@ navigation-topic: approvals
 title: Alpha Program – Document Approvals
 description: We are excited to announce the launch of our Alpha program for document approvals. Here you will find information about the latest Alpha release along with a brief video walkthrough to get you started.
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 hide: yes
 hidefromtoc: yes
+recommendations: noDisplay, noCatalog
 exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
 ---
 # Alpha Program – Document Approvals
@@ -19,15 +20,45 @@ In order to participate in this Alpha release, please ensure you have been added
 
 ## Latest release
 
+## Alpha Release 6 - Jan. 2024
+
+In this 6th Alpha release we have:
+
+* Improved the experience of adding participants with a new pop-up to help prevent adding people accidentally and having them be notified
+* Added a new "Pending Approvals" widget that shows all outstanding approvals for projects you own, including the ability to see all those who are on the approval, their status, and the ability to remind anyone who hasn't made a decision yet
+* Added a new "Complete my review" action for all Reviewers which they can use to indicate that they are done with their step
+
+Check out the full video walk-through below:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3426860/)
+
+## _Past releases_
+
+### Alpha Release 5 - Sep. 2023
+
+In this 5th Alpha release we have:
+
+* Improved the list displaying approvers and reviewers
+* Added the ability to remind approvers who haven't made an approval decision yet
+* Added the ability to view individual team members in the approval list
+* Added the ability to add external approvers
+* Improved the view for external approvers to preview, download, and comment on a document
+
+Watch the [video walk-through](https://video.tv.adobe.com/v/3424613/){target=_blank}.
+
+### Alpha Release 4 - May 2023
+
+In this 4th Alpha release, prior to launching to production for only to a select group of customers, we've incorporated notifications into the Workfront header, update stream, and email. Please note that email notifications are exclusive to the production environment and are not visible in your preview environment. <!--If you're interested in having this release implemented in your production environment on June 14th, please reach out to me directly at jbarron@adobe.com.-->
+
+We are excited for this milestone and look forward to much more to come!
+
+Watch the [video walk-through](https://video.tv.adobe.com/v/3420094/){target=_blank}.
+
 ### Alpha Release 3 - Mar. 2023
 
 In this 3rd Alpha release, we have incorporated your feedback by introducing success messages that display upon completing actions like adding or removing approvers and reviewers. Additionally, this release offers enhanced visibility of pending approvals, which can now be viewed on the Home and My Updates pages, enabling users to easily approve documents directly from these pages.
 
-Check out the full video walk-through below:
-
->[!VIDEO](https://video.tv.adobe.com/v/3417854/)
-
-## _Past releases_
+Watch the [video walk-through](https://video.tv.adobe.com/v/3417854/){target=_blank}.
 
 ### Alpha Release 2 - Jan. 2023
 

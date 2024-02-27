@@ -1,12 +1,10 @@
 ---
 title: Filter a table in Reporting Canvas
 description: Filter a table in Reporting Canvas
-author: Nolan
-draft: Probably
-feature: Reports and Dashboards
+hidefromtoc: yes
+hide: yes
 exl-id: 1838b142-d845-4795-b27f-80bfba18e9d4
 ---
-
 # Filter a table in Reporting Canvas
 
 After you add a table block to a report, you can set up filters to limit the information that displays in the table.
@@ -38,7 +36,7 @@ Or you could display only projects that have an assigned project owner, which wo
 
 ## Prerequisites
 
-Before you begin, you must enroll in the Reporting Canvas beta. For more information, see [Reporting Canvas beta: overview](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Before you begin, you must enroll in the Reporting Canvas beta. For more information, see [Reporting Canvas beta: overview](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Configure filter rules for a table
 

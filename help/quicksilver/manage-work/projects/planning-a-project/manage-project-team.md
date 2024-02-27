@@ -4,7 +4,8 @@ navigation-topic: plan-a-project
 title: Manage the Project Team
 description: The Project Team consists of users who are associated with the project. The members of the Project Team display in the People section of the project.
 author: Alina
-feature: Work Management
+feature: Work Management, Projects
+role: User
 exl-id: 6e8036fc-feda-4277-9502-0b973028fccb
 ---
 # Manage the Project Team
@@ -102,7 +103,7 @@ Users are also automatically added to the project team when they are assigned to
 
 If users that don't fulfill any role on the project want to be notified about certain updates or changes during the life of the project, you can manually add them to the project team. 
 
- For more information about what notifications can be enabled for users on the project team, see [Event notifications available in Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md). 
+ For more information about what notifications can be enabled for users on the project team, see [Event notification types](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md). 
 
  <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
@@ -130,6 +131,8 @@ If users that don't fulfill any role on the project want to be notified about ce
    >
    >* You cannot add users by adding their teams, groups, companies, or job roles.
    >* As you add the users, notice the avatar, the user's Primary Role, and their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.
+   >
+   >  You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
 1. Click **Add**.

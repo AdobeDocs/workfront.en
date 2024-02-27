@@ -5,6 +5,7 @@ title: R1 Preview 4
 description: This page describes all changes available in the Preview environment with the R1.4 release. The functionality on this page was made available in the Preview environment on February 15, 2017.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 2945e058-74dd-4cc3-9d6c-e5618ee7041c
 ---
 # R1 Preview 4
@@ -60,7 +61,7 @@ For more information about scheduling users for deactivation, see [Deactivate or
 
 The Daily Digest delivery option is now available in&nbsp;the "Action Needed" area of your Notifications settings.
 
-For more information, see [Activate or deactivate your own event notifications](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+For more information, see [Modify your own email notifications](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Remember to update the email address associated with your account to be able to test this functionality. This is required because the Preview Sandbox clears the email addresses on all users.
 

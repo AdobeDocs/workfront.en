@@ -1,9 +1,8 @@
 ---
 title: Export a report in Reporting Canvas
 description: Export a report in Reporting Canvas
-author: Nolan
-draft: Probably
-feature: Reports and Dashboards
+hidefromtoc: yes
+hide: yes
 exl-id: bd9e2e6f-338e-4cfc-aee5-6de6ecff4f09
 ---
 # Export a report in Reporting Canvas
@@ -17,7 +16,7 @@ You can export an entire report—or a specific block—into a file format to fi
 
 ## Prerequisites
 
-Before you begin, you must enroll in the Reporting Canvas beta. For more information, see [Reporting Canvas beta: overview](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Before you begin, you must enroll in the Reporting Canvas beta. For more information, see [Reporting Canvas beta: overview](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Export a report
 

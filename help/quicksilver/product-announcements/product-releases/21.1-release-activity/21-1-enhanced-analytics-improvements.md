@@ -6,6 +6,7 @@ title: 21.1 Enhanced analytics improvements
 description: This page describes all Project Management enhancements made with the 21.1 release to the Preview environment. These enhancements will be made available in the Production environment the week of February 15, 2021.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 886fe974-7813-425c-b5cf-f6bca21a888b
 ---
 # 21.1 Enhanced analytics improvements

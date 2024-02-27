@@ -17,7 +17,7 @@ For information about associating users with Cost per Hour rates, see the articl
 
 >[!NOTE]
 >
->The Overtime field that you can add to a Timesheet view in a list or a report displays the information found in the Overtime field of the timesheet. This information is updated manually by a user with access to modify the timesheet. For more information about the Overtime field in a timesheet, see the article [Understand the Timesheet layout](../../../timesheets/timesheets/timesheet-layout.md).
+>The Overtime field that you can add to a Timesheet view in a list or a report displays the information found in the Overtime field of the timesheet. This information is updated manually by a user with access to modify the timesheet. For more information about the Overtime field in a timesheet, see the article [Timesheet layout overview](../../../timesheets/timesheets/timesheet-layout.md).
 
 ## Access requirements
 

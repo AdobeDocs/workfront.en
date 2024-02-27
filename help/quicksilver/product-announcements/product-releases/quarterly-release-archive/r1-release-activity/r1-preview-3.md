@@ -5,6 +5,7 @@ title: R1 Preview 3
 description: This page describes all changes available in the Preview environment with the R1.3 release. The functionality on this page was made available in the Preview environment on February 1, 2017.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: d1502a17-b131-4d29-9b0c-03ad44be4ba6
 ---
 # R1 Preview 3
@@ -138,7 +139,7 @@ The following fields were removed from Workfront and can no longer be included i
 
 The Daily Digest delivery option has been added to the "Requests I Have Made" area of your Notifications settings.
 
-For more information, see [Activate or deactivate your own event notifications](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+For more information, see [Modify your own email notifications](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Remember to update the email address associated with your account to be able to test this functionality. This is required because the Preview Sandbox clears the email addresses on all users.
 

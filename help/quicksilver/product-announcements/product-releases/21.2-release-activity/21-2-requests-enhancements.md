@@ -6,6 +6,7 @@ title: 21.2 Requests enhancements
 description: This page describes all Requests enhancements made with the 21.2 release to the Preview environment. These enhancements will be made available in the Production environment the week of May 10, 2021. For a list of all changes available with the 21.2 release, see 21.2 Release overview.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: af9c801f-ae40-439a-8749-ae8d178040ae
 ---
 # 21.2 Requests enhancements

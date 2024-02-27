@@ -2,12 +2,14 @@
 product-area: documents
 navigation-topic: create-proofs-within-workfront
 title: Create a proof for a document
-description: You can generate a proof for a document at the time you are uploading it to Workfront.
+description: You can generate a proof for a document at the time you are uploading it to Workfront. You can also generate a proof for a document already uploaded in Adobe Workfront or for a new version of a proof already in Workfront.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
 ---
 # Create a proof for a document
+
+<!-- Audited: 1/2024 -->
 
 You can generate a proof for a document at the time you are uploading it to Workfront.
 
@@ -26,12 +28,16 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> 
+   <p>New: Any </p>
+   <p>Current: Pro or Higher</p> <p>Legacy plan: Select or Premium</p> <p>For more information about proofing access with the different plans, see <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current plan: Work or Plan</p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> 
+   <p>New: Standard</p>
+   <p>Current : Work or Plan</p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof Permission Profile </td> 
@@ -39,19 +45,19 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Documents</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, role, or Proof Permission Profile you have, contact your Workfront or Workfront Proof administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Upload a document and create a proof
 
 1. Go to the project, task, or issue where you want to create a new proof.
-1. Click the **Documents**&nbsp;tab.
+1. Click the **Documents** tab.
 1. Click Documents ![](assets/document-icon.png) in the left panel.
-1. Click&nbsp;**Add New**, then click **Proof** in the menu that appears.
+1. Click **Add New**, then click **Proof** in the menu that appears.
 
    >[!TIP]
    >
@@ -65,9 +71,9 @@ You must have the following access to perform the steps in this article:
 ## Upload a document and create a new version of a proof
 
 1. Go to the project, task, or issue where you want to create a new version of an existing proof.
-1. Click the **Documents**&nbsp;tab.
+1. Click the **Documents** tab.
 1. Select the document where you want to add a new version. 
-1. Click **Add New** > **Version**&nbsp;> **Proof**.
+1. Click **Add New** > **Version** > **Proof**.
 1. In the **New Proof Version** page that appears, you can
 
    * [Create an advanced proof with a Basic workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md) 

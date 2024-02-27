@@ -79,7 +79,7 @@ To run a report with the access rights of another user:
 >
 >Entering a user other than the logged-in user for the **Run this report with the Access Rights of:** field impacts the information displayed in the report if the report contains a filter that uses a wildcard referring to the logged-in user. The report displays according to the value specified in the **Run this report with the Access Rights of:** field rather than what is defined in the wildcard filter.  
 >
->For more information about wildcards for user fields, see the "User-based variables" section in [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+>For more information about wildcards for user fields, see the "User-based variables" section in [Wildcard filter variables overview](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Deliver a report with the access rights of another user
 

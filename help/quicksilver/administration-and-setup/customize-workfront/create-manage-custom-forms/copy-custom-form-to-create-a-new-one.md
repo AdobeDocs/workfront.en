@@ -5,12 +5,14 @@ keywords: create,custom,form,copy,base,another
 navigation-topic: create-and-manage-custom-forms
 title: Copy a custom form to create a new one with the legacy builder
 description: You can create a new custom form that is based on an existing one.
-author: Caroline
-feature: System Setup and Administration
+author: Lisa
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 946a726e-af88-413c-abe3-55fbc7486380
 ---
 # Copy a custom form to create a new one with the legacy builder
+
+{{highlighted-preview}}
 
 You can create a new custom form that is based on an existing one.
 
@@ -23,28 +25,31 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront plan</p> </td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>
+   <p>New: Standard</p>
+   <p>or</p>
+   <p>Current: Plan</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Administrative access to custom forms</p> <p>For information about how Workfront administrators grants this access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Administrative access to custom forms</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Copy a custom form to create a new one
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **Custom Forms.**
-1. Select the custom form that you want to use as the basis for a new custom form, then click **Copy**.
+1. Select the custom form that you want to use as the basis for a new custom form, then click **Copy** <span class="preview">or ![Copy icon](assets/copy-icon.png).</span>
 1. In the **Custom Form Copy** box that appears, type the following information:
 
    <table style="table-layout:auto"> 

@@ -6,6 +6,7 @@ title: Adobe Workfront Scenario Planner
 description: A list of articles that describe functionality about the Workfront Scenario Planner.
 author: Alina
 feature: Workfront Scenario Planner
+recommendations: noDisplay, noCatalog
 exl-id: 3d942ea6-6860-4463-b610-8c120a109071
 ---
 # [!DNL Adobe Workfront Scenario Planner]
@@ -31,6 +32,6 @@ This section contains the following articles:
 * [Update or create projects by publishing initiatives in the [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md) 
 * [Overview of reconciling resource allocations between projects and initiatives](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md) 
 * [Show role allocation for projects and initiatives in the task list](../scenario-planner/show-role-allocation-task-list-nwe.md) 
-* [Show role allocation for projects and initiatives in the [!DNL Workload Balancer]](../scenario-planner/show-role-allocation-workload-balancer.md)
+* [Show role allocation for projects and initiatives in the [!UICONTROL Workload Balancer]](../scenario-planner/show-role-allocation-workload-balancer.md)
 
 &nbsp;

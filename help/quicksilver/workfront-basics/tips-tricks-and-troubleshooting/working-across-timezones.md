@@ -87,14 +87,14 @@ You can help users working more easily across several time zones in several ways
 
    For instructions on assigning a schedule to a project or a user, see [Create a schedule](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-   For information about how the time zone configured in your schedule affects the distribution of [!UICONTROL Planned Hours] in the [!DNL Workload Balancer], see [Manage user allocations in the [!DNL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+   For information about how the time zone configured in your schedule affects the distribution of [!UICONTROL Planned Hours] in the [!UICONTROL Workload Balancer], see [Manage user allocations in the [!UICONTROL Workload Balancer]](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 
 ### Use calculated time fields in a custom form {#use-calculated-time-fields-in-a-custom-form}
 
 You can use a series of calculated custom fields on a custom form to display the current time for users in your organization, like a row of airport clocks displaying the time in multiple cities. You could create a field for each of the time zones where your users work, each calculating the time for its time zone.
 
-For more information, see [Add calculated data to a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md), as well as the section [Date & time calculated custom fields](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) in the article [Calculated data expressions](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+For more information, see [Add calculated data to a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md), as well as the section [Date & time calculated custom fields](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) in the article [Overview of calculated data expressions](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 ### Use text fields instead of date fields in a custom form {#use-text-fields-instead-of-date-fields-in-a-custom-form}
 

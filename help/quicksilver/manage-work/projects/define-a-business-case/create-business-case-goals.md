@@ -71,10 +71,10 @@ You must have the following access to perform the steps in this article:
 
    ![](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
 
-1. In the **Goals** section, click&nbsp;**Edit Goals**.
+1. In the **Goals** section, click **Edit Goals**.
 
 1. Specify your goals.
-   &nbsp;In the&nbsp;**Importance** drop-down menu, select the level of importance:
+   In the **Importance** drop-down menu, select the level of importance:
 
    * Highest
    * High

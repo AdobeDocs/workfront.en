@@ -5,10 +5,11 @@ title: API error message 400 Bad Request
 description: API error message 400 Bad Request
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: ab7c76a9-16ce-41f9-b7af-5943eb2dfdff
 ---
 
-# API Error: “The remote server returned an error (400) Bad Request”
+# API Error: "The remote server returned an error (400) Bad Request"
 
 ## Problem
 

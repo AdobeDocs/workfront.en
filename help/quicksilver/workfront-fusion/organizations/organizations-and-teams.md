@@ -27,11 +27,19 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration,</p>  </td> 
+   <td>
+   <p>Current license requirement: No [!DNL Workfront Fusion] license requirement.</p>
+   <p>Or</p>
+   <p>Legacy license requirement: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration],  [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
+   <td>
+   <p>Current product requirement: If you have the [!UICONTROL Select] or [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article. [!DNL Workfront Fusion] is included in the [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Or</p>
+   <p>Legacy product requirement: Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</p>
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Access level configurations*</td> 
@@ -50,12 +58,11 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 ## Organizations
 
-[!DNL Workfront Fusion] users belong to an organization. Your [!DNL Fusion] license determines how many active scenarios and connectors are available in your organization.
-
-[!DNL Fusion] licensing determines the number of active scenarios and active apps that are available to an organization. [!DNL Fusion] displays the current "Active scenarios" and "Active apps" count on the organization dashboard.
+[!DNL Workfront Fusion] users belong to an organization.
 
 * [Organization roles](#organization-roles)
 * [Inviting users to an organization](#inviting-users-to-an-organization)
+* [Switch between organizations](#switch-between-organizations)
 
 ### Organization roles
 
@@ -66,6 +73,8 @@ A user has one of the following roles in an organization:
 * **[!UICONTROL Member]**: Members are able to use [!DNL Workfront Fusion] but unable to make organizational changes.
 * **[!UICONTROL Accountant]**: An accountant role only allows users to see license information on the organization dashboard.
 * **[!UICONTROL App Developer]**: Functionality for this role is currently unavailable, and will be made available in the near future. We do not recommend assigning users to this role at this time.
+
+For information on specific actions available to users in each organization role, see [Organization and team roles](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
 
 ### Inviting users to an organization
 
@@ -85,8 +94,6 @@ To invite a user to join an organization:
 
 [!DNL Fusion] sends an email with an invitation to the specific organization and an [!UICONTROL Accept The Role] button.
 
-![](assets/accept-the-role.png)
-
 When the recipient clicks the button, they are redirected to the invitation page, where they can accept the invitation.
 
 The invitation will expire in a day.
@@ -94,6 +101,12 @@ The invitation will expire in a day.
 >[!NOTE]
 >
 >If the user is new to [!DNL Fusion], [!DNL Fusion] automatically creates an account for them and sends an email with a temporary password, directing the new user to log in and change their password.
+
+### Switch between organizations
+
+You may be part of more than one organization in Fusion. Resources are not shared between organizations.
+
+You can switch organizations within the Adobe Unified Experience by clicking the organization name in the upper-right corner and selecting the new organization from the dropdown. Only organizations that have a Fusion account will appear in the dropdown, even if you are a member of other organizations in Adobe.
 
 ## Teams
 
@@ -128,6 +141,8 @@ A user has one of the following roles in each of their teams:
 * **[!UICONTROL Team Operator]**: The [!UICONTROL operator] role allows users to see execution data and change the "Active" status of scenarios.
 * **[!UICONTROL Team Restricted Member]**: Functionality for this role is currently unavailable, and will be made available in the near future. We do not recommend assigning users to this role at this time.
 
+For information on specific actions available to users in each team role, see [Organization and team roles](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+
 ### Team Management
 
 * [Create a team](#create-a-team)
@@ -145,6 +160,12 @@ To create a team:
 1. Enter a name for the new team, and click **Add**.
 
 #### Set Team Notification Options
+
+>[!NOTE] 
+>
+>If you access [!DNL Fusion] through the [!DNL Adobe Experience Cloud], your notifications are handled in the [!DNL Experience Cloud] notification center.
+>
+>For more information, see [Access your notifications](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) in [[!DNL Adobe Unified Experience] for [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md)
 
 Email notification options are set on the team level.
 
@@ -173,6 +194,14 @@ Email notification options are set on the team level.
 </table>
 
 Changes to notification options save automatically
+
+#### Switch between teams
+
+You may be part of more than one team in Fusion. Since teams do not share resources, you may need to switch teams to access specific scenarios or other resources.
+
+If your organization is not on the Adobe Unified Experience, you can switch teams by clicking the team name in the left navigation, then selecting a team from the dropdown.
+
+If your team is on the Adobe Unified Experience, you can select a new team by clicking on the team name in the header, then selecting a team from the dropdown. This option is available from all pages that are specific to a certain team, such as a scenario page or the Connections page.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <img src="assets/organization-add-team-350x181.png" style="width: 350;height: 181;"> </p>

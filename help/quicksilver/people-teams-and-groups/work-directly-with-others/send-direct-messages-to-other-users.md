@@ -10,14 +10,14 @@ exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
 ---
 # Send direct messages to other users
 
-[!DNL Adobe Workfront] enables you to quickly and easily send messages that are unrelated to any work item directly to other [!DNL Workfront] users. Messages sent as described in this section appear in the [!UICONTROL Updates] tab on the user's home page and are visible to all users. For additional information on updates, see [Update work items and view updates](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
+[!DNL Adobe Workfront] enables you to quickly and easily send messages that are unrelated to any work item directly to other [!DNL Workfront] users. Messages sent as described in this section appear in the [!UICONTROL Updates] tab on the user's home page and are visible to all users. For additional information on updates, see [Update work items and view updates: article index](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
 The user you are sending the message to receives the following types of notifications when you send a message as described in this section:
 
 * An in-app notification, as described in [View and manage in-app notifications](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md)
 * An email notification
 
-  This depends on the types of email notifications the user is configured to receive. For more information, see [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md), [View and configure event notifications for a group](../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md), and [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+  This depends on the types of email notifications the user is configured to receive. For more information, see [Configure event notifications for everyone in the system](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md), [View and configure event notifications for a group](../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md), and [Modify your own email notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Access requirements
 

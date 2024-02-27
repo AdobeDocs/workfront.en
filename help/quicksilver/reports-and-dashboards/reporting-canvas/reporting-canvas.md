@@ -1,11 +1,9 @@
 ---
-content-type: overview;reference
-product-area: reporting
-navigation-topic: reports-and-dashboards
 title: Reporting Canvas
-description: This section contains the following articles - EDIT ME.
-author: Nolan
-feature: Reports and Dashboards
+description: Learn about Reporting Canvas
+hidefromtoc: yes
+hide: yes
+recommendations: noDisplay, noCatalog
 exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
 ---
 # Reporting Canvas

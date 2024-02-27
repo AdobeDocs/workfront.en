@@ -6,6 +6,7 @@ title: Scrum in an agile team
 description: Review these articles to learn more about using Scrum in an agile team.
 author: Lisa
 feature: Agile
+recommendations: noDisplay, noCatalog
 exl-id: 25141131-0092-48a8-ae8b-f75fc3b6fb41
 ---
 # Scrum in an agile team

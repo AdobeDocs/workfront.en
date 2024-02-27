@@ -5,6 +5,8 @@ title: Edit issues
 description: You can edit information on issues that you have created, or that other users have created if they shared the issues with you.
 author: Alina
 feature: Work Management
+topic: Collaboration
+role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
 ---
 # Edit issues
@@ -37,7 +39,13 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions to an issue to edit it in the Issue Details area </p> <p>Manage permissions to an issue to edit it in the Edit Issue box</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Contribute permissions to an issue to edit the following fields in the Details area: </p>
+   <ul>
+   <li>Description</li>
+   <li>Status</li>
+   <li>Severity</li>
+   </ul>
+   <p>Manage permissions to an issue to edit all the fields in the Details area or in the Edit Issue box</p> <p> For information about granting permissions to issues, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Share an issue </a></p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,8 +71,6 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
    ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. (Optional) To edit limited information about an issue, click **Issue Details** in the left panel.
-
-   ![](assets/qs-issue-details-icon-highlighted-and-expanded-on-issue-350x206.png)
 
    >[!NOTE]
    >
@@ -114,6 +120,8 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
    >[!NOTE]
    >
    >Depending on how your Workfront administrator sets up our Layout Template, the fields in the Edit Issue box might be different in your environment. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >
+   >Most fields listed in the sections below are also accessible from the New Issue box, when you create an issue. The sections under which the fields are located do  not match the New Issue box. For information about creating issues, see [Create issues](../../issues/manage-issues/create-issues.md). 
 
 ### Issue Name {#issue-name}
 
@@ -191,7 +199,8 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
       
       <b>TIP</b>
 
-      When adding a Primary Contact user, notice the avatar, the user's Primary Role, and their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.
+      <p>When adding a Primary Contact user, notice the avatar, the user's Primary Role, and their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.</p>
+      <p> You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md">Grant access to users</a>.</p>
 
       
       </td> 

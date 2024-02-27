@@ -2,17 +2,18 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: Task Constraints
+title: "Task Constraints: article index"
 description: Task Constraints determine when a task should start and end on a project. You can use several Task Constraints to indicate when a task should start and end. For information about all Task Constraints in Workfront, see the following articles.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 2e37b051-00ff-4784-bd8b-1897bb4ac80b
 ---
-# Task Constraints
+# Task Constraints: article index
+
+<!-- Audited: 1/2024 -->
 
 Task Constraints determine when a task should start and end on a project. You can use several Task Constraints to indicate when a task should start and end. For information about all Task Constraints in Workfront, see the following articles:
-
-This section contains the following articles:
 
 * [Task Constraint overview](../../../manage-work/tasks/task-constraints/task-constraint-overview.md) 
 * [Update the Task Constraint of a task](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md) 

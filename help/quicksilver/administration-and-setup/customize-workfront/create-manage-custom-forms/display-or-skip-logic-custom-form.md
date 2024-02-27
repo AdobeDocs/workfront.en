@@ -4,14 +4,18 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: You can decide which sections of a custom form should be displayed or skipped based on the choices that a user makes when filling it out.
-author: Caroline
-feature: System Setup and Administration
+author: Lisa
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c687c4a8-a99d-4ac0-b785-5bfe503a7e2c
 ---
 # Add display logic and skip logic to a custom form with the legacy form builder
 
 You can decide which sections of a custom form should be displayed or skipped based on the choices that a user makes when filling it out.
+
+>[!NOTE]
+>
+>Logic only applies within one form and can't be based on selections from a different form.
 
 ## Access requirements
 
@@ -40,38 +44,35 @@ You must have the following to perform the steps in this article:
 
 ## Considerations for using display logic and skip logic
 
-* To add display logic on a custom field, widget, or section break, at least one multiple choice field (radio buttons, dropdown, or checkboxes) must be positioned prior to it on the form.
+* To add display logic on a custom field, widget, or section break, at least one multiple choice field (radio buttons, dropdown, or check boxes) must be positioned prior to it on the form.
 
   For information about custom fields and widgets in custom forms, see [Add a custom field to a custom form with the legacy form builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) and [Add or edit an asset widget in a custom form with the legacy form builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
-* You cannot add skip logic to a widget or section break. You can add it only to a multiple choice field (radio buttons, dropdown, or checkboxes).   
+* You cannot add skip logic to a widget or section break. You can add it only to a multiple choice field (radio buttons, dropdown, or check boxes).   
 
-* You can add both display logic and skip logic to a custom field all of the following is true about the custom field:
+* You can add both display logic and skip logic to a custom field if all of the following is true about the custom field:
 
-   * It is a multiple choice field (radio buttons, dropdown, or checkboxes)
+   * It is a multiple choice field (radio buttons, dropdown, or check boxes)
    * It is preceded by a multiple choice field
    * It is followed by another custom field
 
 * When copying forms with display logic or skip logic, the logic is copied to the new custom form.
-* Keep the following in mind when you create a display logic rule for a custom form
+* When editing objects in bulk, all custom fields display in the Edit objects box, including the fields that are skipped or hidden.
+* Keep the following in mind when you create a display logic rule for a custom form:
 
    * Custom fields not included in a display logic statement show on a custom form, by default. 
    * You can create multi-field display logic statements.
-
-* When editing objects in bulk, all custom fields display in the Edit objects box, including the fields that are skipped or hidden.    
+   * If all of the fields under a section break have display logic applied to them and they are all hidden as a result of the logic, the entire section will be hidden on the custom form.
 
 ## Create a sample custom form that has display and skip logic
 
 The best way to learn how to add display and skip logic to a custom form is through the practical example explained in the two following sections:
 
-* [Display logic](#display-logic) 
-* [Skip logic](#skip-logic)
-
 ### Display logic {#display-logic}
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
 
-1. In the left panel, click **Custom Forms** ![](assets/custom-forms-icon.png). 
+1. In the left panel, click **Custom Forms**. 
 
 1. Create the sample custom form:
 

@@ -4,9 +4,10 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: workfront-proof-navigation-topic
 title: Workfront Proof Billing Settings
-description: This section contains the following subsections - EDIT ME.
+description: Learn more about Workfront Proof billing.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 02c9cb75-2610-44a4-a78c-9f9b187cf8e7
 ---
 # [!DNL Workfront Proof] Billing Settings

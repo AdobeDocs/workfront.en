@@ -5,6 +5,7 @@ title: R1 Preview 5
 description: This page describes all changes available in the Preview environment with the R1 Preview 5 release. The functionality on this page was made available in the Preview environment on March 16, 2017.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4fba14b5-6c5a-4b03-99a7-f0e6f75807c3
 ---
 # R1 Preview 5
@@ -81,18 +82,18 @@ For more information about event notifications, see&nbsp; [Configure event notif
 
 The following&nbsp;options are now available within instant email notifications. These options are available only for instant notifications that also have a daily digest counterpart:
 
-* “Add This to a Daily Digest”
-* “Stop Emails of this Type”
+* "Add This to a Daily Digest"
+* "Stop Emails of this Type"
 
 Now, when you receive an instant email notification, you can either add that notification to a daily digest notification, or you can&nbsp;completely unsubscribe from that notification.
 
 These options are available within the email notification. For more information about receiving email notifications, see [Adobe Workfront notifications](../../../../workfront-basics/using-notifications/wf-notifications.md)
 
-## Various Email Notifications Moved from the ‘Action Needed' Section to Other Project-Related Sections
+## Various Email Notifications Moved from the 'Action Needed' Section to Other Project-Related Sections
 
-Several notifications have been moved from the “Action Needed” section of the user profile page to other sections, as follows:
+Several notifications have been moved from the "Action Needed" section of the user profile page to other sections, as follows:
 
-For more information about configuring email notifications, see [Activate or deactivate your own event notifications](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
+For more information about configuring email notifications, see [Modify your own email notifications](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -164,14 +165,14 @@ For more information about configuring email notifications, see [Activate or dea
 
 The following changes were added to support the future Resource Planning functionality:
 
-* The current “Resource Planning” tab has been renamed to “Legacy Resource Planning” in the People area.&nbsp;
-* A new “Resource Planning” tab has been introduced in the People area where the new functionality will be developed.  
+* The current "Resource Planning" tab has been renamed to "Legacy Resource Planning" in the People area.&nbsp;
+* A new "Resource Planning" tab has been introduced in the People area where the new functionality will be developed.  
   For more information about the new Resource Planning tab, see [Get started with Resource Planning](../../../../resource-mgmt/resource-planning/get-started-resource-planning.md)&nbsp;
 
-* The current “Resource Pool” object has been renamed to “Legacy Resource Pool.”  
+* The current "Resource Pool" object has been renamed to "Legacy Resource Pool."  
   For more information about creating the new user-based Resource Pools, see [Resource pools overview](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
 
-* A new “Resource Pool” object has been created to support the new (user-based) Resource Pools.
+* A new "Resource Pool" object has been created to support the new (user-based) Resource Pools.
 
   >[!NOTE]
   >
@@ -179,7 +180,7 @@ The following changes were added to support the future Resource Planning functio
   >   
   >   
   >   * If you are currently running reports on the existing Legacy Resource Pools, the existing reports will not change. 
-  >   * If you want to create a new report for the existing (job role-based) Legacy Resource Pools, you will need to select “Legacy Resource Pools” as your object for the report. 
-  >   * If you want to create a new report for the new (user-based) Resource Pools, you will need to select “Resource Pools” as your object for the report.
+  >   * If you want to create a new report for the existing (job role-based) Legacy Resource Pools, you will need to select "Legacy Resource Pools" as your object for the report. 
+  >   * If you want to create a new report for the new (user-based) Resource Pools, you will need to select "Resource Pools" as your object for the report.
   >   
   >

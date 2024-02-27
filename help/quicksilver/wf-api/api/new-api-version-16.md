@@ -5,11 +5,12 @@ title: What's new in API version 16
 description: Adobe Workfront released API version 16 on April 6, 2022. API version 16 features the following changes from version 15.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: a3d8534b-fe6e-4782-baab-7c94555ea40c
 ---
 # What's new in API version 16
 
-Adobe Workfront released API version 16 on April 6, 2022. API version 16 features the following changes from version 15.
+Adobe Workfront released API version 16 on April 6, 2023. API version 16 features the following changes from version 15.
 
 ## Added resources
 
@@ -21,7 +22,7 @@ No resources were removed for API version 16
 
 ## Modified resources
 
-* <!--[AccessLevel (ACSLVL)](#accesslevel-acslvl)-->
+<!--* [AccessLevel (ACSLVL)](#accesslevel-acslvl)-->
 * [Approval (APPROVAL)](#approval-approval)
 * [CustomerPreferences (CUSTPR)](#customerpreferences-custpr)
 * [ExternalSection (EXTSEC)](#externalsection-extsec)
@@ -181,7 +182,7 @@ A CustomerPreferences object represents the set of preferences that a customer h
           <li>
             <p><b>getIsAutoUpgradeDisabled</b>
             </p>
-            <p>This action returns a boolean that describes whether the customer has disabled the option to auto-upgrade Contributer license holders.</p>
+            <p>This action returns a boolean that describes whether the customer has disabled the option to auto-upgrade Contributor license holders.</p>
          </li>
         </ul>
       </td>

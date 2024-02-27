@@ -10,9 +10,9 @@ exl-id: ce98ca39-cb86-4ef7-b75c-29ceb916e885
 ---
 # Condition operators in calculated custom fields
 
-You can use condition operators or modifiers when building calculated custom data in Adobe Workfront when using text mode.
+<!-- Audited: 2/2024 -->
 
-For information about using text mode in&nbsp;Workfront, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+You can use condition operators or modifiers when building calculated custom data in Adobe Workfront when using text mode. For information about using text mode in Workfront, see [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 Condition operators or modifiers help build a condition statement by connecting existing Workfront fields in statements and generating a new field. The most common use of condition operators is to build the condition of an "IF" statement.
 
@@ -49,27 +49,27 @@ You can use the following condition modifiers in Workfront:
   <tr> 
    <td>Equal</td> 
    <td>= </td> 
-   <td> <p>Use this operator to indicate that the condition is fulfilled when the first field of your statement is equal to the second field.</p> <p>For example, use the following statement in a calculated custom field to build an "IF" statement that compares the Planned Completion Date to the Projected Completion Date of a task: </p><pre>IF({projectedCompletionDate}={plannedCompletionDate},"On Track","Off Track")</pre> </td> 
+   <td> <p>Use this operator to indicate that the condition is fulfilled when the first field of your statement is equal to the second field.</p> <p>For example, use the following statement in a calculated custom field to build an "IF" statement that compares the Planned Completion Date to the Projected Completion Date of a task: </p><p><code>IF({projectedCompletionDate}={plannedCompletionDate},"On Track","Off Track")</code></p> </td> 
   </tr> 
   <tr> 
    <td>Greater than </td> 
    <td>&gt; </td> 
-   <td>Use this operator to indicate that the condition is fulfilled when the first field of your statement is greater than the second field. <p>For example, use the following statement in a calculated custom field to build an "IF" statement that compares the Planned Completion Date to the Projected Completion Date of a task: </p><pre>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"Late","")</pre></td> 
+   <td>Use this operator to indicate that the condition is fulfilled when the first field of your statement is greater than the second field. <p>For example, use the following statement in a calculated custom field to build an "IF" statement that compares the Planned Completion Date to the Projected Completion Date of a task: </p><p><code>IF({projectedCompletionDate}&gt;{plannedCompletionDate},"Late","")</code></p></td> 
   </tr> 
   <tr> 
    <td>Greater than or equal to </td> 
    <td>&gt;= </td> 
-   <td>Use this operator to indicate that the condition is fulfilled when the first field of your statement is either greater than or equal to the second field. <p>For example, use the following statement in a calculated custom field to build an "IF" statement that compares the Planned Completion Date to the Projected Completion Date of a task: </p><pre>IF({projectedCompletionDate}&gt;={plannedCompletionDate},"Late","Early")</pre></td> 
+   <td>Use this operator to indicate that the condition is fulfilled when the first field of your statement is either greater than or equal to the second field. <p>For example, use the following statement in a calculated custom field to build an "IF" statement that compares the Planned Completion Date to the Projected Completion Date of a task: </p><p><code>IF({projectedCompletionDate}&gt;={plannedCompletionDate},"Late","Early")</code></p></td> 
   </tr> 
   <tr> 
    <td>Lesser than </td> 
    <td>&lt; </td> 
-   <td>Use this operator to indicate that the condition is fulfilled when&nbsp; the first field of your statement is lesser than the second field. <p>For example, use the following statement in a calculated custom field to build an "IF" statement that compares the Planned Completion Date to the Projected Completion Date of a task: </p><pre>IF({projectedCompletionDate}&lt;{plannedCompletionDate},"Early","")</pre></td> 
+   <td>Use this operator to indicate that the condition is fulfilled when&nbsp; the first field of your statement is lesser than the second field. <p>For example, use the following statement in a calculated custom field to build an "IF" statement that compares the Planned Completion Date to the Projected Completion Date of a task: </p><p><code>IF({projectedCompletionDate}&lt;{plannedCompletionDate},"Early","")</code></p></td> 
   </tr> 
   <tr> 
    <td>Lesser than or equal to </td> 
    <td>&lt;= </td> 
-   <td>Use this operator to indicate that the condition is fulfilled when&nbsp; the first field of your statement is lesser than or equal to the second field. <p>For example, use the following statement in a calculated custom field to build an "IF" statement that compares the Planned Completion Date to the Projected Completion Date of a task: </p><pre>IF({projectedCompletionDate}&lt;={plannedCompletionDate},"Early","Late")</pre></td> 
+   <td>Use this operator to indicate that the condition is fulfilled when&nbsp; the first field of your statement is lesser than or equal to the second field. <p>For example, use the following statement in a calculated custom field to build an "IF" statement that compares the Planned Completion Date to the Projected Completion Date of a task: </p><p><code>IF({projectedCompletionDate}&lt;={plannedCompletionDate},"Early","Late")</code></p></td> 
   </tr> 
   <tr> 
    <td>Does not </td> 
@@ -84,17 +84,17 @@ You can use the following condition modifiers in Workfront:
      <li>IN </li> 
      <li>IFIN </li> 
      <li>ISBLANK </li> 
-    </ul> <p>For information about these data expressions and for a complete list, see <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md" class="MCXref xref">Calculated data expressions</a>. </p> </td> 
+    </ul> <p>For information about these data expressions and for a complete list, see <a href="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md" class="MCXref xref">Overview of calculated data expressions</a>. </p> </td> 
   </tr> 
   <tr> 
    <td>Or </td> 
    <td>|| </td> 
-   <td> <p>Use this operator to indicate that the condition is fulfilled when the expression&nbsp; finds either the first or the second value of your statement. </p> <p>For example, use the following statement in a calculated custom field to build an "IF" statement that marks projects in either the Current or Planning statuses as "Active": </p><pre>IF({status}="PLN"||{status}="CUR","Active","Not Active")</pre> </td> 
+   <td> <p>Use this operator to indicate that the condition is fulfilled when the expression&nbsp; finds either the first or the second value of your statement. </p> <p>For example, use the following statement in a calculated custom field to build an "IF" statement that marks projects in either the Current or Planning statuses as "Active": </p><p><code>IF({status}="PLN"||{status}="CUR","Active","Not Active")</code></p> </td> 
   </tr> 
   <tr> 
    <td>&nbsp;And </td> 
    <td>&amp;&amp; </td> 
-   <td> <p>Use this operator to indicate that the condition is fulfilled when the expression&nbsp; finds an item that fulfills two conditions at the same time. </p> <p>For example, use the following statement in a calculated custom field to build an "IF" statement that finds projects that are in Current status and have a Condition of At Risk and marks them as "Mediation Needed." </p><pre>IF({status}="CUR"&&{condition}="AR","Mediation Needed",""))</pre> </td> 
+   <td> <p>Use this operator to indicate that the condition is fulfilled when the expression&nbsp; finds an item that fulfills two conditions at the same time. </p> <p>For example, use the following statement in a calculated custom field to build an "IF" statement that finds projects that are in Current status and have a Condition of At Risk and marks them as "Mediation Needed." </p><p><code>IF({status}="CUR"&&{condition}="AR","Mediation Needed","")</code></p> </td> 
   </tr> 
  </tbody> 
 </table>

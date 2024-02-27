@@ -8,6 +8,7 @@ description: Adobe Workfront logs the activity taking place on certain objects i
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: b43b8583-41cb-4a96-8e61-77208eaa219a
 ---
 # System-tracked updates feeds

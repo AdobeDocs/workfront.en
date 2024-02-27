@@ -6,6 +6,7 @@ title: Get document content via Webhooks
 description: Returns the raw bytes for a document
 author: Becky
 feature: Workfront API, Digital Content and Documents
+role: Developer
 exl-id: 0f0b5af7-f276-4856-852c-e976fa491f83
 ---
 # Get document content via Webhooks
@@ -39,4 +40,4 @@ GET /download
 
 The raw bytes of the document.
 
-**Example:**:&nbsp; [https://www.acme.com/api/download?id=123456](https://www.acme.com/api/download?id=123456)
+**Example**:&nbsp; `https://www.acme.com/api/download?id=123456`

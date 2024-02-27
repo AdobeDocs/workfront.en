@@ -13,12 +13,12 @@ You can include multiple statements when you create a filter in lists and report
 
 For information about creating filters, see the following articles:
 
-* [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 
+* [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) 
 * [Edit a filter using text mode](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
 
 ## Text Mode filter operators
 
-For information about Adobe Workfront filter operators in the standard filter interface, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+For information about Adobe Workfront filter operators in the standard filter interface, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 Workfront has 2 filter operators that connect each filter statement:
 

@@ -7,6 +7,7 @@ title: Manage Adobe Workfront
 description: As a Workfront administrator, you can configure proofing Workfront functionality, reports, emails, security, exchange rates, deleted items, diagnostics.
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 94f3e03f-ea62-47cd-858c-600ea72ac529
 ---
 # Manage Adobe Workfront

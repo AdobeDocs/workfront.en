@@ -8,6 +8,7 @@ description: As an group administrator of a subgroup, you can create, move, view
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 76bbd4c5-a859-4641-aed5-d55e88a66069
 ---
 # Create and manage subgroups

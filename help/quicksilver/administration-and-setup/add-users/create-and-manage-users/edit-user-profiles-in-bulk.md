@@ -4,12 +4,14 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Edit user profiles in bulk
 description: As an Adobe Workfront administrator, you can edit user accounts in bulk.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
 ---
 # Edit user profiles in bulk
+
+<!--
 
 >[!IMPORTANT]
 >
@@ -18,6 +20,7 @@ exl-id: cb709b2f-659e-4110-81ac-a1ef967d534c
 >For instructions on editing a user's profile in the Adobe Admin Console, see the section "Edit user details" in the article [Bulk Upload Users](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) or contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+-->
 
 You can edit user accounts in bulk. When bulk editing users, only the fields you specifically select are updated with the same information for all users selected. All other fields that you leave unselected stay the same for each individual user, even if they are different for each user.
 
@@ -72,7 +75,7 @@ You must have the following to perform the steps in this article:
        <ul> 
         <li><b>Time Zone:</b> The users' time zone.</li> 
         <li><b>Locale</b>: The users' preferred locale. This affects the format of numbers and dates in the emails that come from Workfront.</li> 
-        <li><b>Show percent complete on update status</b>: Check this option if you want to display a percent complete bar inside the update stream of tasks for all users.</li> 
+        <li><b>Show percent complete on update status</b>:   Check this option if you want to display a percent complete bar inside the Update area of all users' tasks, when using the legacy commenting experience. For information, see <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">New commenting experience</a>.</li> 
         <li><b>Send work I assign to myself to my Working On tab</b>: Check this option if you want everything that the users assign to themselves to appear directly on their Working On tab. The default is to list everything assigned to a user on their Work Request tab.</li> 
        </ul> </td> 
      </tr> 

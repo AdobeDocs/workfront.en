@@ -1,11 +1,10 @@
 ---
 title: Add or edit a visualization block in Reporting Canvas
 description: Add or edit a visualization block in Reporting Canvas
-author: Nolan
-feature: Reports and Dashboards
+hidefromtoc: yes
+hide: yes
 exl-id: 14750eb1-d0a3-42ea-bd2e-100b633322ff
 ---
-
 # Add or edit a visualization block in Reporting Canvas
 
 A visualization can help you tell a story with your data by highlighting important information in an easy-to-understand way.
@@ -19,7 +18,7 @@ You can add the following types of visualizations to a report:
 
 ## Prerequisites
 
-Before you begin, you must enroll in the Reporting Canvas beta. For more information, see [Reporting Canvas beta: overview](/help/quicksilver/product-announcements/betas/reporting-canvas-beta/reporting-canvas-beta-overview.md).
+Before you begin, you must enroll in the Reporting Canvas beta. For more information, see [Reporting Canvas beta: overview](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
 ## Add or edit a visualization block
 

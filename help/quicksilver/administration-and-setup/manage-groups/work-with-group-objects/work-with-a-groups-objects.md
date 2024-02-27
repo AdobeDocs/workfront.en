@@ -8,6 +8,7 @@ description: When new objects are added to the Groups page, don't forget to upda
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: d2f9494a-170d-4600-a282-69ad14a0cf6f
 ---
 # Work with a group's objects

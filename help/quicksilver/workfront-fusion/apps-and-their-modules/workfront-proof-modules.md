@@ -40,11 +40,19 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>  <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p></td> 
+   <td>
+   <p>Current license requirement: No [!DNL Workfront Fusion] license requirement.</p>
+   <p>Or</p>
+   <p>Legacy license requirement: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration],  [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
+   <td>
+   <p>Current product requirement: If you have the [!UICONTROL Select] or [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article. [!DNL Workfront Fusion] is included in the [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Or</p>
+   <p>Legacy product requirement: Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -52,6 +60,58 @@ You must have the following access to use the functionality in this article:
 To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+## Connect [!DNL Workfront Proof] to [!DNL Workfront Fusion] 
+
+You can create a connection to your [!DNL Workfront Proof] account directly from inside a [!DNL Workfront Fusion] module.
+
+1. In any [!DNL Workfront Fusion] module, click [!UICONTROL **Add**] next to the [!UICONTROL Connection] field
+
+2. Fill in the following fields:
+
+   <table style="table-layout:auto"> 
+        <col/>
+        <col/>
+        <tbody>
+            <tr>
+                <td role="rowheader">
+                    <p role="rowheader">[!UICONTROL Connection name]</p>
+                </td>
+                <td>Enter a name for the connection</td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[!UICONTROL connections.environmentType]</td>
+                <td>Select whether this is a Production environment, or a non-production environment such as Preview or Sandbox.</td>
+            </tr>
+            <tr>
+                <td role="rowheader">[!UICONTROL connections.authenticationType]</td>
+                <td>Select whether this is a Service account or a Personal account.</td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[!UICONTROL Email / Username]</td>
+                <td>Enter username for your [!DNL Workfront Proof] account.</td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[!UICONTROL Password]</td>
+                <td>Enter the password for your [!DNL Workfront Proof] account.</td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[!UICONTROL Tenant ID]</td>
+                <td><strong>Note</strong>: Customers that do not use BYOK must leave this field blank. <p>Enter the Tenant ID for this account. If you need help finding your Tenant ID, contact Workfront Customer Support.</p></td>
+            </tr>
+            <tr>
+                <td role="rowheader">[!UICONTROL Domain Extension]</td>
+                <td>Enter the extension for the URL you use to access your account. <p>Example: <code>com</code> or <code>eu</code></p></td>
+            </tr>
+            <tr>
+                <td  role="rowheader">[!UICONTROL Production, Preview, or Custom Environment]</td>
+                <td>Select a connection to a production, preview, or a custom environment.</td>
+            </tr>
+        </tbody>
+    </table>
+
+
+3. Click [!UICONTROL **Continue**] to save the connection and return to the module
 
 ## [!DNL Workfront Proof] modules and their fields
 
@@ -296,7 +356,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Resolution ID]</td> 
-   <td>Enter the ID of the resolution you want to use for your proof. For a list of resolution IDs, see the [!DNL Workfront Proof] <a href="http://api.proofhq.com/home/objects/soapworkflowproofobject">API documentation</a>.</td> 
+   <td>Enter the ID of the resolution you want to use for your proof. For a list of resolution IDs, see the [!DNL Workfront Proof] <a href="https://api.proofhq.com/home/objects/soapworkflowproofobject.html">API documentation</a>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL SWF]</td> 
@@ -339,7 +399,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Method]</td> 
-   <td>Set the action for the API call. For available actions, see the <a href="http://api.proofhq.com/">Proof API documentation</a>.</td> 
+   <td>Set the action for the API call. For available actions, see the <a href="https://api.proofhq.com/">Proof API documentation</a>.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Body (XML)]</td> 

@@ -11,6 +11,8 @@ exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
 ---
 # Configure your firewall's allowlist
 
+<!-- Audited: 12/2023 -->
+
 >[!IMPORTANT]
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
@@ -18,6 +20,10 @@ exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
 >To configure your allowlist if your organization has been onboarded to the Adobe Admin Console, see [Domains to be allowed for Adobe Apps and Services](https://helpx.adobe.com/enterprise/kb/network-endpoints.html).
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+
+>[!NOTE]
+>
+>The way an organization configures its allowlist is unique to each organization. Work with your IT team to identify your organization's procedure and implement these additions.
 
 If your firewall or mail server is configured to allow access to only certain vendors, you must add certain IP addresses to its allowlist. This opens communication between your environment and the Adobe Workfront servers and allows the following processes:
 
@@ -41,9 +47,21 @@ If your organization has the Enterprise plan, you can also configure two Workfro
 * **Email allowlist**: Lets you control where users can email data stored in Workfront. For more information, see [Configure your email allowlist](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md).
 * **IP allowlist**: Limits access to Workfront to 45 IP addresses or IP address ranges that you specify, providing an additional layer of security for the Workfront application. For more information, see [Restrict access to Adobe Workfront by IP address](../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md).
 
-## IP addresses to add to the allowlist
+## Locate your Workfront cluster
 
-The IP addresses that you must add to your allowlist on your firewall depend on the cluster where your Production environment runs. You can find out which cluster this is by viewing Setup > System > Custom Info. For more information, see the section [Configure Basic Info](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md#configuring-basic-info) in the article [Configure basic information for your system](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+The IP addresses that you must add to your allowlist on your firewall depend on the cluster where your Production environment runs. 
+
+To locate your organization's cluster:
+
+1. As a Workfront administrator, click the **Main Menu** icon ![Main Menu](assets/main-menu-icon.png), then click **Setup**.
+1. In the left navigation, click **System**, then select **Customer Info**.
+1. Locate the **Cluster Setup** field at the upper-right corner of the page. Your organization's cluster is listed here.
+
+   CL01 refers to Cluster 1, CL02 is Cluster 2, and so on.
+
+For more information, see the section [View your organization's cluster and Workfront plan](../../administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan) in the article [Firewall overview](../../administration-and-setup/get-started-wf-administration/firewall-overview.md).
+
+## IP addresses to add to the allowlist
 
 >[!IMPORTANT]
 >
@@ -100,7 +118,7 @@ If your Production environment is on Cluster 1, 2, 3, 5, or 7 you must allow the
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
      <li>54.71.252.65</li> 
-    </ul> <p>For information about the following IP addresses, see <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21.1.md" class="MCXref xref">New IP addresses for Adobe Workfront email with the 21.1 release</a></p> 
+    </ul> <p>For information about the following IP addresses, see <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref">New IP addresses for Adobe Workfront email with the 21.1 release</a></p> 
     <ul> 
      <li>23.251.237.107</li> 
      <li>23.251.237.108</li> 
@@ -134,7 +152,7 @@ If your Production environment is on Cluster 4, add the following IP addresses f
 * 54.220.93.204
 * 34.254.76.122
 
-For information about the following IP addresses, see [New IP addresses for Adobe Workfront email with the 21.1 release](../../product-announcements/announcements/announcement-archive/new-email-ip-21.1.md)
+For information about the following IP addresses, see [New IP addresses for Adobe Workfront email with the 21.1 release](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
 
 * 23.251.239.98
 * 23.251.239.99

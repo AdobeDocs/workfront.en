@@ -72,24 +72,16 @@ You must have the following access to perform the steps in this article:
    >
    >You can use similar code for other objects by doing adjusting the following:
    >
-   >   
-   >   
-   >   * Replace the **valuefield** line of the code with **valueexpression** and keep the same name included in curly brackets after the equal sign.
-   >   
-   >   
+   >* Replace the **valuefield** line of the code with **valueexpression** and keep the same name included in curly brackets after the equal sign.
+   >* Eliminate all the lines that start with `link.` from the original text of the column. For example, eliminate all the following lines:
    >
-   >   
-   >   
-   >   * Eliminate all the lines that start with    >   
-   >   
-   >     ```   >   
-   >     link.
-   >     ```   >   
-   >   
-   >     from the original text of the column. For example, eliminate all the following lines:
-   >     <pre>link.linkproperty.0.name=ID</pre><pre>link.linkproperty.0.valuefield=ID</pre><pre>link.linkproperty.0.valueformat=string</pre><pre>link.lookup=link.view</pre><pre>link.value=val(objCode)</pre>
-   >   
-   >   
+   >  ```
+   >  link.linkproperty.0.name=ID
+   >  link.linkproperty.0.valuefield=ID
+   >  link.linkproperty.0.valueformat=string
+   >  link.lookup=link.view
+   >  link.value=val(objCode)
+   >  ```
    >
 
 1. Click **Save**, then **Save View**.

@@ -25,6 +25,10 @@ The data store modules enable you to take the following actions on records in yo
 
 For information on using data store modules, see [[!UICONTROL Data store] modules](../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
 
+For a video introduction to data stores in Workfront Fusion, see:
+
+* [Data Stores](https://video.tv.adobe.com/v/3427029/){target=_blank}
+
 ## Access requirements
 
 You must have the following access to use the functionality in this article:
@@ -43,11 +47,19 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>  </td> 
+   <td>
+   <p>Current license requirement: No [!DNL Workfront Fusion] license requirement.</p>
+   <p>Or</p>
+   <p>Legacy license requirement: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
+   <td>
+   <p>Current product requirement: If you have the [!UICONTROL Select] or [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article. [!DNL Workfront Fusion] is included in the [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Or</p>
+   <p>Legacy product requirement: Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -97,7 +109,7 @@ Before you can use a data store in a module, you must create the data store in [
      </tr> 
      <tr> 
       <td> <p>[!UICONTROL Data storage size in MB]</p> </td> 
-      <td> <p>Allocate the size for the data store from your total internal data storage.</p> <p>Note: The reserved amount can be changed at any time.</p>  </td> 
+      <td> <p>Allocate the size for the data store from your total internal data storage.</p> <p> The default value is 10 MB. If you have less than 10 MB of unallocated Data Store space from your 500 MB allotment, the default size is the amount of unallocated storage.  <p>Note: The reserved amount can be changed at any time.</p>  </td> 
      </tr> 
     </tbody> 
    </table>
@@ -170,9 +182,9 @@ The properties of a data store include the data structure that the data store us
 ### Edit the contents of a data store 
 
 1. Click the **[!UICONTROL Data Store]** icon ![](assets/data-store-icon.png) in the left navigation panel to open the [!UICONTROL Data Store] area.
-1. Click **[!UICONTROL Browse]** ![](assets/browse-data-store.png) next to the data store that you want to edit.
+1. Click **[!UICONTROL Browse]**  next to the data store that you want to edit.
 1. (Optional) Reorder columns by dragging them to the desired location.
-1. (Optional) [!UICONTROL Edit] a single cell by clicking the **[!UICONTROL Edit]** icon ![](assets/data-store-edit.png)in that cell, then entering the desired value.
+1. (Optional) [!UICONTROL Edit] a single cell by clicking the **[!UICONTROL Edit]** icon in that cell, then entering the desired value.
 1. (Optional) Add a new item to the data store by clicking **[!UICONTROL Add]**, then entering the information for the new item.
 1. Click **[!UICONTROL Save]**.
 

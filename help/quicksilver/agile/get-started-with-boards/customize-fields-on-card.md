@@ -16,6 +16,8 @@ By default, all available fields are displayed on a card, both in the the full v
 
 If a field contains a value and you disable the field, the value is retained if you enable the field again later.
 
+Sections (which appear as the left navigation options on the card details) are also available to display and hide.
+
 You can also display custom fields that were previously created. You can't design and create new custom fields within a board.
 
 >[!NOTE]
@@ -52,20 +54,18 @@ You must have the following access to perform the steps in this article:
 1. Click [!UICONTROL **Configure**] on the right of the board to open the Configure panel.
 1. Expand [!UICONTROL **Cards**].
 
-   Most fields are enabled by default.
+   Most fields and sections are enabled by default.
 
-1. Turn off a field to disable it in both card views.
-1. Click the Hide icon ![Hide icon](assets/eye-hide-icon.png) next to a field to hide it on the condensed view.
-1. To display all of the fields in both views, click [!UICONTROL **Restore all fields to default**].
+1. Turn off a field or section to disable it in both card views.
+1. Click the Hide icon ![Hide icon](assets/eye-hide-icon.png) next to a field or section to hide it on the condensed view.
+1. To display all of the fields and sections in both views, click [!UICONTROL **Restore all fields to default**].
 1. Click [!UICONTROL **Hide configure**] to close the Configure panel.
 
 ## Add custom fields to cards
 
 Custom fields are available on connected cards. They are only visible on the full card view, not the condensed view on the board.
 
->[!NOTE]
->
->When you add a custom field to your cards, the data on the card is read-only.
+The data on custom fields is editable on the card, though certain custom elements might only be available to edit on the original field and not on the card.
 
 1. Access a board and click [!UICONTROL **Configure**] to open the Configure panel.
 1. Expand [!UICONTROL **Cards**].
@@ -88,3 +88,23 @@ Custom fields are available on connected cards. They are only visible on the ful
    ![Custom field value and label](assets/save-custom-field-value-label.png)
 
    The custom field is added to the list of available fields and is enabled by default. You can disable the custom field following the steps in the [Configure cards](customize-fields-on-card.md#configure-cards) section above, edit the field, or delete it from all cards.
+
+>[!NOTE]
+>
+>If you later rename the custom field in Workfront, you must edit the field label on the Configure panel to match, or the field will not display on the cards.
+
+## Display or hide archived cards
+
+You must turn on a configuration setting to display archived cards on a board.
+
+1. Access a board and click [!UICONTROL **Configure**] to open the Configure panel.
+1. Expand [!UICONTROL **Cards**].
+1. Turn on [!UICONTROL **Display archived cards on the board**].
+
+   Now, you can filter the board to show any cards that have been archived. For details, see [Filter and search in a board](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
+
+1. Click [!UICONTROL **Hide configure**] to close the Configure panel.
+
+## Configure card falloff
+
+To automatically remove cards from the board after a period of time, see [Configure card falloff](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md).

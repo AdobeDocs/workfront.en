@@ -38,11 +38,19 @@ You must have the following access to use the functionality in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>  <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p></td> 
+   <td>
+   <p>Current license requirement: No [!DNL Workfront Fusion] license requirement.</p>
+   <p>Or</p>
+   <p>Legacy license requirement: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration],  [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td> 
+   <td>
+   <p>Current product requirement: If you have the [!UICONTROL Select] or [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article. [!DNL Workfront Fusion] is included in the [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Or</p>
+   <p>Legacy product requirement: Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,14 +66,64 @@ The [!DNL Workfront] connector uses OAuth 2.0 to connect to [!DNL Workfront].
 
 You can create a connection to your [!DNL Workfront] account directly from inside a [!DNL Workfront Fusion] module.
 
-1. In any [!DNL Workfront] app module, click **[!UICONTROL Add]** next to the [!UICONTROL Connection] box.
-1. Enter the name of your instance into the URL. Example: `https://<your instance>.my.workfront.com`.
+1. In any Adobe Authenticator module, click **Add** next to the Connection field.
+1. Fill in the following fields:
+
+   <table style="table-layout:auto"> 
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+    </col>
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+    </col>
+    <tbody>
+      <tr>
+        <td role="rowheader">[!UICONTROL Connection name]</td>
+        <td>
+          <p>Enter a name for the new connection.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Environment]</td>
+        <td>
+          <p>Select whether are connecting to a production or non-production environment.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Connection type]</td>
+        <td>
+          <p>Select whether you are connecting to a service account or a personal account.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Client ID]</td>
+        <td>Enter your [!DNL Workfront] Client ID. This can be found in the OAuth2 Applications area of the Setup area in Workfront. Open the specific application you are connecting to to see the Client ID.</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Client Secret]</td>
+        <td>Enter your [!DNL Workfront] Client ID. This can be found in the OAuth2 Applications area of the Setup area in Workfront. Open the specific application you are connecting to to see the Client ID.</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Authentication URL]</td>
+        <td>This can remain the default value, or you can enter the URL of your Workfront instance, followed by <code>/integrations/oauth2</code>. <p>Example: <code>https://mydomain.my.workfront.com/integrations/oauth2</code></p></td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Host prefix]</td>
+        <td>In most cases, this value should be <code>origin</code>.
+      </tr>
+    </tbody>
+    </table>
+
+1. Click **[!UICONTROL Continue]** to save the connection and return to the module.
+
+
+
+
+<!--1. Enter the name of your instance into the URL. Example: `https://<your instance>.my.workfront.com`.
 1. Click **[!UICONTROL Next]**.
 1. Click **[!UICONTROL SAML log in]** to create the connection and go back to the module.
 
    Or
 
-   Enter your Username and Password, then click **[!UICONTROL Log in]** to create the connection and go back to the module.
+   Enter your Username and Password, then click **[!UICONTROL Log in]** to create the connection and go back to the module.-->
 
    >[!NOTE]
    >
@@ -80,6 +138,10 @@ You can create a connection to your [!DNL Workfront] account directly from insid
 When you configure [!DNL Workfront] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Workfront] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+
+>[!NOTE]
+>
+>If you do not see the most up-to-date fields in a Workfront module, this may be because of caching issues. Wait one hour and try again.
 
 ![](assets/map-toggle-350x74.png)
 
@@ -424,7 +486,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -483,6 +545,14 @@ When you are configuring this module, the following fields display.
 
 See a list of the [!DNL Workfront] object types for which you can use this module in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
 
+>[!NOTE]
+>
+>We recommend the following scenario configuration to avoid the possibility of records not being deleted due to asynchronous operations.
+>
+>1. Delete the record synchronously.
+>1. Add error handling to the Delete Record module to Ignore the error caused by the 40 second timeout. 
+
+
 +++
 
 +++ **[!UICONTROL Download Document]**
@@ -534,7 +604,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Action]</td> 
-   <td> <p>Select the action you want the module to perform.</p> <p>You may need to fill out additional fields, depending on the [!UICONTROL Record Type] and [!UICONTROL Action] you choose. Some combinations of these two settings may require only a record ID, while others (such as Project for the <strong>[!UICONTROL Record Type]</strong> and [!UICONTROL Attach Template] for the <strong>[!UICONTROL Action]</strong>) require additional information (such as an Object ID and a Template ID).</p> <p>For details about individual fields, see the <a href="http://developer.workfront.com/">Workfront developer documentation</a>. </p> 
+   <td> <p>Select the action you want the module to perform.</p> <p>You may need to fill out additional fields, depending on the [!UICONTROL Record Type] and [!UICONTROL Action] you choose. Some combinations of these two settings may require only a record ID, while others (such as Project for the <strong>[!UICONTROL Record Type]</strong> and [!UICONTROL Attach Template] for the <strong>[!UICONTROL Action]</strong>) require additional information (such as an Object ID and a Template ID).</p> <p>For details about individual fields, see the <a href="http://developer.workfront.com/">Workfront developer documentation</a>. <p><strong>Note</strong>: The developer documentation site includes information only through API version 14, but still contains valuable information for API calls. </p> 
     <ol> 
      <li value="1"> <p>Select the record type from the left navigation on the [!DNL Workfront] developer documentation page. The following types have their own pages:</p> 
       <ul> 
@@ -977,6 +1047,12 @@ See a list of the [!DNL Workfront] object types for which you can use this modul
    <td> </td> 
    <td>✓</td> 
    <td> </td> 
+  </tr> 
+  <tr> 
+   <td>Proof Approval</td> 
+   <td> </td> 
+   <td> </td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Reserved Time* </td> 
@@ -1661,7 +1737,7 @@ By using event subscription filters, Fusion users can create event subscriptions
 
 This is different from setting up a filter in the [!DNL Workfront Fusion] scenario. Without an event subscription filter, your webhook receives all events related to the object type you select. Most of these events would be irrelevant to the scenario, and must be filtered out before the scenario can continue.
 
-The following operators are avaialble in the Workfront > Watch events filter:
+The following operators are available in the Workfront > Watch events filter:
 
 * Equals
 * Not equals
@@ -1671,13 +1747,13 @@ The following operators are avaialble in the Workfront > Watch events filter:
 * Less than or equal to
 * Contains
 * Exists
+    * This operator does not require a value, and the value field is absent.
 * Does not exist
+    * This operator does not require a value, and the value field is absent.
 * Changed
-
->[!NOTE]
->
-> * The `Exists`, `Does not exist`, and `Changed` operators do not require a value, and the value field is absent from these options.
-> * The `Changed` operator ignores the State field.
+    * This operator does not require a value, and the value field is absent.
+    * This operator ignores the State field.
+    * When using `Changed`, select **Updated Events Only** in the **Record Origin** field. 
 
 >[!IMPORTANT]
 >
@@ -1708,3 +1784,4 @@ For more information on event subscriptions, see [FAQs - Event Subscriptions](..
 For more information on webhooks, see [Instant triggers (webhooks) in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)
 
 For more information on filters in scenarios, see [Add a filter to a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md).
+ 

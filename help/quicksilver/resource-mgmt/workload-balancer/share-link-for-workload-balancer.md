@@ -3,7 +3,7 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Share the Workload Balancer with a link
 description: You can share the Workload Balancer with other users who might not have the Resourcing area available to them. For information about using the Workload Balancer, see Navigate the Workload Balancer.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
 ---

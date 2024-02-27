@@ -4,6 +4,7 @@ description: 20.4 Other enhancements
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: bd8fcafc-00cc-4025-b2d3-e3a6f12e40fc
 ---
 # 20.4 Other enhancements
@@ -36,7 +37,7 @@ To improve the readability and overall experience, the following email templates
 * A Dependent Task You're Assigned to Is Now Ready to Start
 * Team Email Notification with Predecessor Complete
 
-To enable email for testing purposes in your Preview environment, see the Managing emails in preview section in [Activate or deactivate your own event notifications](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+To enable email for testing purposes in your Preview environment, see the Managing emails in preview section in [Modify your own email notifications](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## New email notifications for teams
 

@@ -7,6 +7,7 @@ description: As an Adobe Workfront administrator, you can grant users access to 
 author: Courtney
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 05f575d0-bf42-430b-8648-dbdd9297ca08
 ---
 # How new access levels work

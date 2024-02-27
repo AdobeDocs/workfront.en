@@ -4,9 +4,10 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-administration
 title: Manage security
-description: This section contains the Articles regarding mamaging security in [!DNL Workfront Proof].
+description: This section contains the Articles regarding managing security in [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 4db4c3b4-14fa-4222-ad52-d29a3ffc9736
 ---
 # Manage security

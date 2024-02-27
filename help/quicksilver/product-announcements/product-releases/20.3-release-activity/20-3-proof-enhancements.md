@@ -5,13 +5,14 @@ title: 20.3 Proof enhancements
 description: This page describes all proof enhancements made with the 20.3 release to the Production environment. These enhancements were made available in the Production environment the week of August 10, 2020.
 author: Luke
 feature: Product Announcements, Workfront Proof
+recommendations: noDisplay, noCatalog
 exl-id: d719c8e8-be72-42ca-80e4-83a1237c299f
 ---
 # 20.3 Proof enhancements
 
 This page describes all proof enhancements made with the 20.3 release to the Production environment. These enhancements were made available in the Production environment the week of August 10, 2020.
 
-For a list of all changes available with the 20.3 release, see [20.3 release overview](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
+For a list of all changes available with the 20.3 release, see [20.3 release overview](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Improved visibility between the Updates tab and Proof comments
 

@@ -6,8 +6,9 @@ product-area: system-administration
 navigation-topic: customize-workfront
 description: You can manage existing custom forms with the Form Designer.
 author: Courtney
-feature: System Setup and Administration
+feature: System Setup and Administration, Custom Forms
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 7b85533f-84a9-4289-8d13-a4af99f7e433
 ---
 # Manage a form

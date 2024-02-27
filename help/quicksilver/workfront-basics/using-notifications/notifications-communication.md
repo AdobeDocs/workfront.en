@@ -2,14 +2,14 @@
 content-type: reference
 navigation-topic: notifications
 title: 'Notifications: Communication'
-description: The following notifications alert you about communication, such as an update comment, happening on a work item you are involved with. For information about configuring which notifications you receive, see Activate or deactivate your own event notifications.
+description: The following notifications alert you about communication, such as an update comment, happening on a work item you are involved with. For information about configuring which notifications you receive, see Modify your own email notifications.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 473e1760-f85a-4622-beff-9431046d655e
 ---
 # Notifications: Communication
 
-The following notifications alert you about communication, such as an update comment, happening on a work item you are involved with. For information about configuring which notifications you receive, see [Activate or deactivate your own event notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+The following notifications alert you about communication, such as an update comment, happening on a work item you are involved with. For information about configuring which notifications you receive, see [Modify your own email notifications](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 >[!NOTE]
 >

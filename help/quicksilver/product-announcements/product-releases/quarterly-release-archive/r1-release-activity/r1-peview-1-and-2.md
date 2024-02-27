@@ -5,6 +5,7 @@ title: R1 Preview 1 and 2
 description: This page describes all changes available in the Preview environment with the R1.1 and R1.2 releases. The functionality on this page was made available in the Preview environment on January 19, 2017.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 65219cf1-809f-4d8e-a858-01f7881064d7
 ---
 # R1 Preview 1 and 2
@@ -62,7 +63,7 @@ The functionality has changed around editing user email notification settings in
 
 Prior to this change, the email notification settings you selected were saved, and all the other unchanged notification settings were deselected when you saved your changes.&nbsp;
 
-For more information, see the "Modifying User Notification Settings in Bulk" in [Activate or deactivate your own event notifications](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+For more information, see the "Modifying User Notification Settings in Bulk" in [Modify your own email notifications](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Updated&nbsp;Look and Feel of Several Email Notifications
 

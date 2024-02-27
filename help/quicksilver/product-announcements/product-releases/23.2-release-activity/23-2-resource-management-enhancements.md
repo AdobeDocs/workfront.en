@@ -4,6 +4,7 @@ description: 23.2 Resource management enhancements
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: b225ae19-eee7-4329-a42d-2a2bf9adad01
 ---
 # 23.2 Resource management enhancements

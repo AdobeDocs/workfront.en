@@ -5,6 +5,7 @@ navigation-topic: boards
 title: Use groups on a board
 description: You can group cards on a board by assignee or by tag. When you select an option to group by, the cards appear in a swimlane format.
 author: Lisa
+feature: Agile
 exl-id: 6f57a20e-0e47-4457-8605-9bce55c013ec
 ---
 # Use groups on a board
@@ -13,7 +14,7 @@ You can group cards on a board by assignee or by tag. When you select an option 
 
 >[!NOTE]
 >
->Any cards in the intake column are not included in a group. For information on the intake column, see [Add an intake column to a board](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+>Any cards in the intake column are not included in a group, and the intake column is hidden when a group is applied. For information on the intake column, see [Add an intake column to a board](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## Access requirements
 

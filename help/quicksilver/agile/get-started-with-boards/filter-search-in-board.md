@@ -18,11 +18,13 @@ You can filter a board to display:
 * Archived cards
 * Cards connected to a specific project
 
+Sorting the board sorts all of the cards in the columns. You can't sort a single column, and the backlog or intake column is not sorted.
+
 Searching also helps you locate a specific card on the board.
 
-When filters are applied, an indicator is displayed on the board ![Filter applied to board](assets/boards-filterapplied-30x30.png). Click **[!UICONTROL Clear All]** to remove all filters from the board, and click **[!UICONTROL Hide filters]** to close the filter panel.
+When filters are applied, an indicator is displayed on the board ![Filter applied to board](assets/boards-filterapplied-30x30.png). Click **[!UICONTROL Clear All]** to remove all filters from the board, and click the collapse icon to close the filter panel.
 
-![Filter panel](assets/boards-all-filters-collapsed-1022.png)
+![Filter panel](assets/boards-all-filters-collapsed-0823.png)
 
 ## Access requirements
 
@@ -83,11 +85,18 @@ You must have the following access to perform the steps in this article:
 By default, only active cards are displayed on a board. You can filter the board to also display any archived cards.
 
 1. Access the board.
+1. Click [!UICONTROL **Configure**] on the right of the board to open the Configure panel.
+1. Expand [!UICONTROL **Cards**].
+1. Turn on [!UICONTROL **Display archived cards on the board**].
 1. Click [!UICONTROL **Filter**], expand the [!UICONTROL Archived Cards] section, and select **[!UICONTROL Archived cards]** to display any archived cards.
 
    The filter shows the number of archived cards.
 
-   ![Filter archived cards](assets/boards-filter-by-archived-cards_0822.png)
+   ![Filter archived cards](assets/filter-by-archived-cards.png)
+
+   >[!NOTE]
+   >
+   >The [!UICONTROL Archived Cards] section is not available in the filter if you have not turned on the configuration setting to display archived cards. For more information, see [Customize which fields are displayed on a card](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
 1. Select **[!UICONTROL Archived cards]** again to clear the option and display only active cards.
 
@@ -99,6 +108,25 @@ By default, only active cards are displayed on a board. You can filter the board
    You can also display cards that are not connected to a project.
 
    ![Filter by connection](assets/boards-filter-by-connection.png)
+
+## Sort on a board
+
+When you select an option to sort by, all columns are sorted. You can't sort a single column, and the backlog or intake column is not sorted.
+
+1. Access the board.
+1. Click [!UICONTROL **Sort by**] and select [!UICONTROL **Name**], [!UICONTROL **Due date**], [!UICONTROL **Estimation**], [!UICONTROL **Status**], or [!UICONTROL **Connection**].
+
+   Connection (project name) applies to connected cards only, and the other options will sort both connected and ad hoc cards in the columns.
+
+   The "user order" option returns the cards to the order they were manually set, before any other sort options were applied. This is the default sort for the columns.
+
+1. Select [!UICONTROL **Reverse order**] to sort the columns in reverse order of the sort option.
+
+   The arrow on the sort icon indicates whether the columns are sorted in ascending or descending order.
+
+   When a sort other than the default is applied, an indicator is displayed on the sort icon ![Sort applied](assets/sort-applied-boards.png).
+
+   ![Sort by columns on a board](assets/sort-by-columns-in-board.png)
 
 ## Search in a board
 

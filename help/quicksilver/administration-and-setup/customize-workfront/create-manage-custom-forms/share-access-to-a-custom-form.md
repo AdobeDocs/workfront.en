@@ -4,12 +4,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: You can configure access for a custom form to control who—person, role, group, team, company—can view, share, and edit it.
-author: Caroline
-feature: System Setup and Administration
+author: Lisa
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
 ---
 # Share a custom form
+
+{{highlighted-preview}}
 
 You can configure access for a custom form to control who—person, role, group, team, company—can view, share, and edit it.
 
@@ -22,21 +24,24 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront plan</p> </td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>
+   <p>New: Standard</p>
+   <p>or</p>
+   <p>Current: Plan</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Administrative access to custom forms</p> <p>For information about how Workfront administrators grant this access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref" data-mc-variable-override="">Grant users administrative access to certain areas</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Administrative access to custom forms</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Access to custom forms {#access-to-custom-forms}
 
@@ -51,10 +56,10 @@ However, on an object where the custom form is not already attached, a user (eve
 
 Rather than leaving a custom form in the default sharing state (described in [Access to custom forms](#access-to-custom-forms) in this article), you can configure specific levels of access to the form for certain users, job roles, groups, teams, and companies.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left panel, click **Custom Forms**.
-1. Select the custom form, then click **Share**.
+1. Select the custom form, then click **Share** <span class="preview">or ![Share icon](assets/share-icon.png).</span>
 1. In the box that displays, under **Give custom form access to**, start typing the name of the user, team, job role, group, or company you want to share the custom form with, then press **Enter** when the name displays.
 1. To adjust access for the user, team, job role, group, or company you just added, click the drop-down menu to the right of the name, then configure one of the following available options and any of its advanced settings:
 
@@ -100,10 +105,10 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
 
 ## Remove access to a custom form
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left panel, click **Custom Forms**.
-1. Select the custom form, then click **Share**.
+1. Select the custom form, then click **Share** <span class="preview">or ![Share icon](assets/share-icon.png).</span>
 1. In the box that displays, click the X to the right of the name of the user, team, role, group, or company whom you no longer want to have special access to the form.
 1. (Optional) Repeat the previous step to for other names you want to remove.
 1. Click **Save**.

@@ -4,6 +4,7 @@ description: 22.3 Administrator enhancements
 author: Luke
 draft: No
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4607703a-d70e-432c-9fa2-bd43af5a870e
 ---
 # 22.3 Administrator enhancements

@@ -1,16 +1,15 @@
 ---
 title: Copy and submit requests
-description: Copy and submit requests
+description: When you submit similar requests frequently you can copy an existing submitted request. In this case, you can copy an existing request, make minimal changes to it, and resubmit it as a new request.
 author: Alina
-draft: Probably
 feature: Work Management
+role: User
+topic: Collaboration
 exl-id: 3d7581d0-e99c-4204-b1e5-04fde72251bb
 ---
 # Copy and submit requests
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;this is NWE only - hard code it in classic articles!)</p>
--->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>-->
 
 When you submit similar requests frequently you can copy an existing submitted request. In this case, you can copy an existing request, make minimal changes to it, and resubmit it as a new request.
 
@@ -63,7 +62,7 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">Access level configurations*</td> 
    <td> <p>Edit access to Issues</p> <p><b>NOTE</b> 
    
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -81,7 +80,7 @@ You must have a request that you or someone in your organization previously subm
 ## Considerations about copying and submitting requests as new
 
 * You can only copy and submit submitted requests. You cannot copy drafted requests.
-* You can copy and submit requests you originally submitted, or requests that others submitted and you have access to at least&nbsp;View.
+* You can copy and submit requests you originally submitted, or requests that others submitted and you have access to at least View.
 * You always have access to copy and submit a copy of your own requests, unless someone removed your permissions to them.
 * The access to copy and submit requests originally submitted by others might be granted automatically to people in the same company when the creator of the request queue enables the **People from the same company will inherit the same permissions for all requests** in the Queue Details or Edit Project areas. Disabling this setting allows only the original requestor to view their own requests.
 
@@ -115,10 +114,20 @@ You must have a request that you or someone in your organization previously subm
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Requests**.
 1. (Conditional) If the Submitted section does not display by default, click **Submitted** in the left panel.
+
+   >[!TIP]
+   >
+   >   Your Workfront or group administrator might customize your layout template and remove areas from the Main menu or from the left panel in your environment. In this case, they might not be available to you. 
+
 1. Locate the request that you want to copy and submit as new, and do one of the following:
 
-   * Select it, then click the **Copy and submit as new** icon ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in the upper-left corner of the Submitted requests list.
-   * Click the **More** menu ![](assets/more-icon.png) to the right of the request name, then click&nbsp;**Copy and submit as new**
+   * Select it, then click **Copy** ![](assets/copy-and-submit-as-new-requests-area-nwe.png) in the upper-left corner of the Submitted requests list. 
+
+   >[!TIP]
+   >
+   > If you did not select a request first, the Copy icon is dimmed. 
+
+   * Click the **More** menu ![](assets/more-icon.png) to the right of the request name, then click **Copy and submit as new** 
 
      Or
 
@@ -208,7 +217,7 @@ You must have a request that you or someone in your organization previously subm
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Status</strong> </td> 
-      <td>The default status of a new request is "New." Your Workfront administrator might have changed the name of this&nbsp;status. You can also change the status to something else from this drop-down menu.</td> 
+      <td>The default status of a new request is "New." Your Workfront administrator might have changed the name of this status. You can also change the status to something else from this drop-down menu.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Documents</strong> </td> 

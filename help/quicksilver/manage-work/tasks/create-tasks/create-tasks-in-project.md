@@ -4,68 +4,44 @@ navigation-topic: create-tasks
 title: Create tasks in a project
 description: You can create tasks in a project only after you created the project.
 author: Alina
-feature: Work Management
+feature: Work Management, Tasks
+role: User
 exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
 ---
 # Create tasks in a project
 
-You can create tasks in a project only after you created the project.
+<!-- Audited: 1/2024 -->
+
+You can create tasks in a project only after you create the project.
 
 For example, after creating a project, you might want to add tasks and modify them to organize the project plan. For more information about creating a project, see [Create a project](../../../manage-work/projects/create-projects/create-project.md).
 
-For information about creating personal tasks that are not in a project, see the "Create a personal task" section in the article [Create work items from the Home area](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+For information about creating personal tasks that are not in a project, see the [Create a personal task](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) section in the article [Create work items from the Home area](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
 This article describes how you create tasks from scratch. You can also create tasks in the following ways:
 
-* By copying or duplicating existing tasks.&nbsp;For information, see [Copy and duplicate tasks](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
-* By moving tasks from one project to another.&nbsp;For information, see [Move tasks](../../../manage-work/tasks/manage-tasks/move-tasks.md).
+* By copying or duplicating existing tasks. For information, see [Copy and duplicate tasks](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+* By moving tasks from one project to another. For information, see [Move tasks](../../../manage-work/tasks/manage-tasks/move-tasks.md).
 
 ## Access requirements
 
-<!--drafted for P&P - replace the table:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p role="rowheader">Adobe Workfront license*</p> </td> 
-   <td><p>Current license: Standard</p> 
+   <td role="rowheader"> <p role="rowheader">Adobe Workfront license</p> </td> 
+   <td><p>Current: Work or higher</p> 
    Or
-   <p>Legacy license: Work or higher</p> </td> 
+   <p>New: Standard</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions to the project with ability to Add Tasks or higher</p> <p>When you create a task you automatically receive Manage permissions to the task</p> <p> For information about task permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Share a task </a>. </p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
-You must have the following access to perform the steps in this article:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p role="rowheader">Adobe Workfront license*</p> </td> 
-   <td> <p>Work or higher</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td> <p>Edit access to Tasks and Projects</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -74,7 +50,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Create tasks in a project
 
@@ -83,7 +59,7 @@ You must have the following access to perform the steps in this article:
 1. (Conditional) If you are currently viewing the task list in an agile view, click the **List View** icon ![](assets/list-view-in-agile-view-for-tasks.png) in the upper-right corner to display the task list. 
 1. (Optional) Click the **Plan Mode** icon ![](assets/nwe-plan-mode-icon-task-list.png) and select **Manual Save**, then select either **Standard** or **Timeline Planning**. This disables the **Autosave** option which is enabled by default.
 
-   ![](assets/nwe-autosave-off-manual-highlighted-350x58.png)
+   ![Select Manual Save](assets/manual-save-option.png)
 
    >[!TIP]
    >
@@ -91,8 +67,8 @@ You must have the following access to perform the steps in this article:
 
 1. Create a new task by doing one of the following:
 
-   * Click **New Task** at the top of the task list
-   * Click **Add More Tasks** at the bottom of the task list
+   * Click **New Task** at the top of the task list.
+   * Click **Add More Tasks** at the bottom of the task list.
 
    ![](assets/qs-new-task-or-add-task-buttons-in-list-highlighted-350x242.png)
 
@@ -121,7 +97,7 @@ You must have the following access to perform the steps in this article:
       * Task Name
       * Overview
       * Assignments
-      * Custom&nbsp;Forms
+      * Custom Forms
       * Finance
       * Settings
 

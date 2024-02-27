@@ -4,6 +4,7 @@ description: 23.1 Project and Resource Management enhancements
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 180c73c6-f426-49b9-99a4-86b1c817bcef
 ---
 # 23.1 Project and Resource Management enhancements

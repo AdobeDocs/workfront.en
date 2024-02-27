@@ -8,6 +8,7 @@ description: You can integrate Workfront with your existing corporate SSO soluti
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 1ae65deb-bc02-4fdc-b229-30603b33fe7e
 ---
 # Single sign-on in Adobe Workfront

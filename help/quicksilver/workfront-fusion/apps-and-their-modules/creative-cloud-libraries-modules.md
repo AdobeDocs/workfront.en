@@ -7,6 +7,7 @@ navigation-topic: apps-and-their-modules
 title: Adobe Creative Cloud Libraries modules
 description: With the [!DNL Adobe Workfront Fusion Adobe Creative Cloud] Libraries modules, you can start a scenario when an element or library is created or updated. You can also upload, retrieve, archive, or list elements, or make a call to the [!DNL Adobe Creative Cloud Libraries] API.
 author: Becky
+feature: Workfront Fusion
 exl-id: 8affa34b-803d-48a5-a986-9fbe0cb8c8f5
 ---
 # Adobe Creative Cloud Libraries Modules
@@ -39,13 +40,19 @@ You must have the following access to use the functionality in this article:
     </tr>
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td>
-      <td >
-        <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration]</p>
-      </td>
+      <td>
+   <p>Current license requirement: No [!DNL Workfront Fusion] license requirement.</p>
+   <p>Or</p>
+   <p>Legacy license requirement: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
+   </td>
     </tr>
     <tr>
       <td role="rowheader">Product</td>
-      <td>Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</td>
+      <td>
+   <p>Current product requirement: If you have the [!UICONTROL Select] or [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article. [!DNL Workfront Fusion] is included in the [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
+   <p>Or</p>
+   <p>Legacy product requirement: Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</p>
+   </td>
     </tr>
   </tbody>
 </table>

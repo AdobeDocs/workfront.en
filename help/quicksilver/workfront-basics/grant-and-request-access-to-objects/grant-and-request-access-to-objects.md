@@ -6,6 +6,7 @@ title: Grant and request permissions to objects
 description: Review these articles to learn how to grant and request permission to objects in Workfront.
 author: Alina
 feature: Get Started with Workfront
+recommendations: noDisplay, noCatalog
 exl-id: b7b3de2c-8537-49c5-8674-a7a0f3691db3
 ---
 # Grant and request permissions to objects
@@ -24,7 +25,7 @@ This section contains the following articles about how you can grant and request
 * [Share a template](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md) 
 * [Share project templates](../../manage-work/projects/create-and-manage-templates/share-project-template.md) 
 * [Share financial permissions on an object](../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md) 
-* [Share a portfolio](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md) 
+* [Share a portfolio](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md) 
 * [Share a program](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md) 
 * [Share a document](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md) 
 * [Share a document folder](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md) 

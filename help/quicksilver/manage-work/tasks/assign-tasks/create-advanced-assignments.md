@@ -4,10 +4,13 @@ navigation-topic: assign-tasks
 title: Create advanced assignments
 description: You can manage task or issue assignments by using Advanced Assignments.
 author: Alina
-feature: Work Management
+feature: Work Management, Resource Management
+role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 ---
 # Create advanced assignments
+
+{{highlighted-preview}}
 
 You can manage task or issue assignments by using Advanced Assignments.
 
@@ -17,6 +20,7 @@ You can adjust the following assignment information when making advanced assignm
 * Adjust and redistribute the number of hours each assignee is allocated.
 * Determine which user should be designated as the owner or the Primary assignee of the task or issue.
 * Specify which role each user is fulfilling when working on the task or issue.
+* <span class="preview">Override the billing rate for a job role.</span>
 
 >[!NOTE]
 >
@@ -72,7 +76,7 @@ You must have the following access to perform the steps in this article:
    >[!TIP]
    >
    >You can make advanced assignments directly on the task or issue list if there are two or more people assigned. Click inside the **Assignments** field on the same line as the task or issue, then click the **People icon** to open the Advanced Assignments window. Skip to step 5 to continue creating advanced assignments.  
-   >![](assets/nwe-advanced-assignments-350x55.png)   >
+   >![](assets/nwe-advanced-assignments-350x55.png)
    >
 
 1. Click **Assign to** in the **Assignments** field in the header of the task or issue
@@ -98,7 +102,12 @@ You must have the following access to perform the steps in this article:
    >* You can assign multiple users, job roles, or teams. You can assign only active users, job roles, and teams.
    >
    >
-   >* When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. Users must be associated with at least one job role to view it as you add them.
+   >* When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. 
+   >Users must be associated with at least one job role to view it as you add them.
+   >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md). 
+   >
+   >
+   >* <span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to override the rate at the assignment level. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
    >
    >
    >* If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following: 
@@ -138,6 +147,14 @@ You must have the following access to perform the steps in this article:
 
      ![](assets/advanced-assignments-box-select-a-role-350x243.png)
 
+   <div class="preview">
+
+   * **Location**: The location comes from the rate card, if a rate card attached to the project uses locations with the job roles. The location can't be changed. 
+
+   * **Billing Rates**: The billing rate for a user comes from the system rate for the user or their associated job role. The billing rate for a job role comes from the system rate or from the rate card, if a rate card is attached to the project. Existing billing rates are not displayed in this field. Click in the field to change the billing rate for this specific task assignment.
+
+   </div>
+
    * **Duration Type**: This is only available for tasks. Click the name of the Duration Type and select a Duration Type from the drop-down menu. For information about Duration Types, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
    
    * **Duration:** You can update this field for a task when you have Manage permissions to the task.
@@ -146,6 +163,16 @@ You must have the following access to perform the steps in this article:
    
    * **Planned Hours**: When the Duration Type is Calculated Assignment or Simple, update the number of Planned Hours. The allocation percentages or the hours for each resource are distributed evenly as a result. Workfront calculates the Planned Hours when the Duration Type is Calculated Work or Effort Driven. For more information, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
+     Sample image in the Production environment:
+
      ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
+     
+     <div class="preview">
+
+     Sample image in the Preview environment:
+     
+     ![Advanced Assignments](assets/advanced-assignments-location-billing-rates.png)
+
+     </div>
 
 1. Click **Save**.

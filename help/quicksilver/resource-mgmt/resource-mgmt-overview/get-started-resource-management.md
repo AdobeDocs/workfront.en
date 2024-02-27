@@ -10,6 +10,8 @@ exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
 ---
 # Get started with Resource Management
 
+<!-- Audited: 12/2023 -->
+
 <!--
 <p>(NOTE: DO NOT DELETE THIS ARTICLE. MANY ARTICLES MENTIONING RES MANAGEMENT ARE AND STILL SHOULD / WILL BE LINKED TO IT.) </p>
 <p>(NOTE: Alina: ***As functionality is removed from Legacy and added to Res Planning - this will be continually updated: remove the Legacy Res Planning when that functionality is removed from the system.) </p>
@@ -28,7 +30,7 @@ Workfront has several sets of tools used to manage resources. Each tool has an i
 
    * **The Resource Planner**: You can use the Resource Planner in the first stage of resource management to budget project time for your resources according to their scheduled availability. During the planning of resources phase, you can organize users in resource pools and assign multiple resource pools to a project.
    
-      For more information about Resource Planning, see the section [Resource Planning in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md).
+      For more information about Resource Planning, see [Resource Planning in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
    * **The Scenario Planner**: This is a higher-level planning of resources that allows you to manage them across multiple initiatives that can span over a one, three, or five year plan and include multiple projects. You can use the best scenario for making the most out of their availability and your budget.
 
@@ -42,7 +44,7 @@ Workfront has several sets of tools used to manage resources. Each tool has an i
 
   * **The Workload Balancer**: This belongs to a lower-level stage of resource management, where you can assign your resources to the actual work (tasks and issues) that they must complete, based on the amount of hours needed to complete them and their availability. Using the Workload Balancer you can assign users to actual work that is currently unassigned or assigned to job roles.
 
-     For information about the Workfront Balancer, see the section [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md). 
+     For information about the Workfront Balancer, see [The Workload Balancer: article index](../../resource-mgmt/workload-balancer/workload-balancer.md). 
   
 <!--
 
@@ -112,12 +114,12 @@ The process of managing resources in Workfront includes the following stages:
 
    * [Resource Planning in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [Adobe Workfront Scenario Planner](../../scenario-planner/scenario-planning.md)
-   * [The Workload Balancer](../../resource-mgmt/workload-balancer/workload-balancer.md)
+   * [The Workload Balancer: article index](../../resource-mgmt/workload-balancer/workload-balancer.md)
 
 <!--
 * **Resource scheduling**: After generally planning for resources to use on your projects at a high level, you can start assigning work items (tasks and issues) to users based on their job roles using the Workload Balancer.
 
-  For more information, see [Overview of the Workload Balancer](../workload-balancer/overview-workload-balancer.md). 
+  For more information, see [Workload Balancer overview](../workload-balancer/overview-workload-balancer.md). 
 -->
 
 * **Analysis**: As a resource manager, Project Owner, or people manager, review the Utilization Report to understand how the budgeted and planned allocations of your resources compare to the actual ones. Review information by hours, cost, or revenue. For information about the Utilization report, see [View resource utilization information](../../resource-mgmt/resource-utilization/view-utilization-information.md).
@@ -159,9 +161,9 @@ You must meet a set of requirements before you can efficiently use the resource 
 
 For information about what the requirements are for each resource management tool in Workfront see the following:
 
-* The section "Prerequisites for working in the Resource Planner" in the article [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+* The section [Prerequisites for working in the Resource Planner](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner) in the article [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 <!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
-* The section "Best practices for using the Workload Balancer" in the article [Overview of the Workload Balancer](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+* The section [Best practices for using the Workload Balancer](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) in the article [Workload Balancer overview](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 * [Access needed to budget resources in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [Access needed to manage resources in the Workload Balancer](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
 

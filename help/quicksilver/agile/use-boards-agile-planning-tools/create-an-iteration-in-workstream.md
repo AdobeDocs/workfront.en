@@ -10,6 +10,10 @@ exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
 ---
 # Create an iteration in a workstream
 
+>[!IMPORTANT]
+>
+>Workstreams are only available to a specific group of customers.
+
 An iteration is a set amount of time reserved for completing work. Some agile teams may refer to an iteration as a sprint.
 
 ## Access requirements
@@ -77,12 +81,34 @@ You must have the following access to perform the steps in this article:
    * On the Card List tab, in the iteration view, click the [!UICONTROL **Iteration details**] icon ![Iteration details](assets/iteration-details-button.png).
    * On the iteration board, click the [!UICONTROL **Iteration details**] icon ![Iteration details](assets/iteration-details-button.png) in the metrics area on the top right.
 
-1. Edit the iteration as needed, and click [!UICONTROL **Save**].
+1. In the [!UICONTROL Iteration Configuration] panel, edit the iteration as needed.
+1. To change the iteration name, expand [!UICONTROL **Iteration details**].
 
-   Once an iteration has started, you can only change the iteration name.
+   Once an iteration has started, you can only change the iteration name and not the dates or iteration length.
+
+<!--   
+
+1. <span class="preview">To add goals to the iteration, expand [!UICONTROL **Goals**].</span>
+1. <span class="preview">Click [!UICONTROL **Add goal**], and type the goal name.</span>
+
+   <span class="preview">As goals are completed during the iteration, you can select the check box to mark them complete, or click the **Delete** icon ![Delete icon](assets/delete.png) to delete a goal. The metrics area on the top right of the iteration shows how many goals exist and how many have been completed.</span>
+
+<div class="preview">
+
+## Assign cards to the next iteration
+
+Use the [!UICONTROL Next Iteration] column to move cards from the current iteration to the next iteration, without sending them to the backlog first.
+
+1. Move a card to the [!UICONTROL **Next Iteration**] column, or add a new card directly in the column.
+1. Access the next iteration by clicking the [!UICONTROL **Next Iteration**] column title, or by clicking the up-pointing arrow next to the iteration name on the top of the screen.
+
+   The cards that you marked to come over to the next iteration are placed in the columns that correspond with their status.
+
+</div>
+-->
 
 ## Delete an iteration
 
 1. Click the [!UICONTROL **Card List**] tab on the workstream and open the iteration view.
-1. Click the **Delete** icon next to the iteration.
+1. Click the **Delete** icon ![Delete icon](assets/delete.png) next to the iteration.
 1. Click [!UICONTROL **Delete iteration**] on the confirmation message.

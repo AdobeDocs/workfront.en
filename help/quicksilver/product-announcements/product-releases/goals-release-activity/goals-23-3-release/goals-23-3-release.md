@@ -6,7 +6,7 @@ title: Adobe Workfront Goals with the 23.3 release
 description: This page provides information about functionality for Adobe Workfront Goals in the new Adobe Workfront experience that is releasing to the Production environment with the 23.3 release.
 author: Courtney
 feature: Product Announcements, Workfront Goals
-exl-id: 21ee2e02-8c24-4931-9cf4-630668c47b01
+exl-id: 1fa39be8-c949-4fe5-b62e-94375a80713b
 ---
 # Adobe Workfront Goals with the 23.3 release
 
@@ -31,7 +31,7 @@ For a list of all changes available for all areas of Workfront at this point in 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-3-release/goals-23-3-may-5.md">Updates section enhancements</a></p>
-                        <p>Enhancements to the Updates section of goals are being made available within the 23.3 release timeframe. These enhancements will be made available in the Production environment shortly after releasing to Preview.</p>
+                        <p>Enhancements to the Updates section of goals are being made available within the 23.3 release timeframe, at the same time as the updates that are being released to the new commenting beta experience. These enhancements will be made available in the Production environment shortly after releasing to Preview.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                      <p>

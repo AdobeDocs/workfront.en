@@ -10,13 +10,16 @@ exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
 ---
 # Supported proofing file types and size limits overview
 
-You can share and review various types of files with your reviewers, even if they do not have the software used to create the files (such as Photoshop or Illustrator) installed on their machines. We support static, video, audio, web captures, and interactive file types up to 4 GB in size.
+<!--Audited: 12/2023-->
+
+You can share and review various types of files with your reviewers, even if they do not have the software used to create the files (such as Photoshop or Illustrator) installed on their machines. We support static, video, audio, web capture, and interactive file types up to 4 GB in size.
 
 ## File size limits
 
 Workfront has the following limits:
 
 * Files must be less than 4 GB per file.
+* Microsoft Word (DOC, DOCX) and PowerPoint (PPT, PPTX) files must be less than 512 MB. (This also applies to unarchiving proofs of these file types created before the size limit was implemented.)
 * XLS and XLSX files must be less than 100 MB.
 * Files attached to comments on proofs must be less than 30 MB.
 * PNGs must have a height and width less than 65535px.
@@ -25,9 +28,21 @@ Workfront has the following limits:
 
 >[!NOTE]
 >
->Larger files take more time to upload, and if your connection is not stable, the action may be terminated/broken.
+>Larger files take more time to upload, and if your connection is not stable, the action may be terminated or broken.
 
 ## Static files
+
+>[!IMPORTANT]
+> We no longer support the following static file types:
+>
+> * DOT - Microsoft Word Document Template 
+> * DOTX - Microsoft Word Document Template
+> * POT - Microsoft PowerPoint Template
+> * POTX - Microsoft PowerPoint Template
+> * PPS - Microsoft PowerPoint Slideshow
+> * PPSX - Microsoft PowerPoint Slideshow
+> * XLT - Microsoft Excel Template 
+> * XLTX - Microsoft Excel Template
 
 * ABC - LEAD Advanced Bitonal Compression
 * ABIC - Adaptive Bi-level Image Compression
@@ -69,7 +84,7 @@ Workfront has the following limits:
 * FLC - Flic Animation
 * FPX - Kodak FlashPix
 * GBR - Gerber GIF - CompuServe
-* GIF -&nbsp;Graphics Interchange Format (animated GIF in the new Workfront Proof Viewer only)
+* GIF - Graphics Interchange Format (animated GIF in the new Workfront Proof Viewer only)
 * GIF HDP - Windows HD Photo
 * ICO - Windows Icon
 * IFF - Interchange File Format
@@ -149,13 +164,27 @@ Workfront has the following limits:
 
 ## Static files - Text tool
 
+>[!IMPORTANT]
+> We no longer support the following static file types for the text tool:
+>
+> * DOT - Microsoft Word Document Template 
+> * DOTX - Microsoft Word Document Template
+> * POT - Microsoft PowerPoint Template
+> * POTX - Microsoft PowerPoint Template
+> * PPS - Microsoft PowerPoint Slideshow
+> * PPSX - Microsoft PowerPoint Slideshow
+> * XLT - Microsoft Excel Template 
+> * XLTX - Microsoft Excel Template
+
+>[!WARNING]
+> We temporarily do not support the following static file type due to a security issue:
+>
+> * EPS - Encapsulated PostScript
+
 * AI -&nbsp;Adobe Illustrator Artwork 
 * AIT - Adobe Illustrator Template 
 * DOC -&nbsp;Microsoft Word Document
 * DOCX - Microsoft Word Document
-* DOT - Microsoft Word Document Template 
-* DOTX - Microsoft Word Document Template&nbsp; 
-* EPS - Encapsulated PostScript 
 * PDF -&nbsp;Adobe Portable Document File 
 * PPT- PowerPoint Presentation 
 * PPTX - PowerPoint Presentation 2007 PS - PostScript File 
@@ -163,8 +192,7 @@ Workfront has the following limits:
 * RTF - Rich Text
 * XLS - Microsoft Excel Spreadsheet
 * XLSX - Microsoft Excel Spreadsheet 2007
-* XLT&nbsp;- Microsoft Excel Template 
-* XLTX&nbsp;- Microsoft Excel Template
+
 
 ## Video files
 

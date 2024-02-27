@@ -3,14 +3,18 @@ title: View the Resource capacity visualization in Enhanced analytics
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: The Resource capacity visualization shows whether a team is over, under, or at capacity. This calculation is based on - EDIT ME.
+description: You can assess whether a team is over, under, or at capacity when viewing the Enhanced analytics resource capacity visualization chart in Adobe Workfront.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5bb45ef6-9e49-4063-8e53-c9f3bc994870
 ---
 # View the Resource capacity visualization in Enhanced analytics
 
-The Resource capacity visualization shows whether a team is over, under, or at capacity. 
+<!--Audited: 01/2024-->
+
+You can assess whether a team is over, under, or at capacity when viewing the Enhanced analytics resource capacity visualization chart in Adobe Workfront. 
+
+The teams illustrated in the resource visualization refers to the home team of users assigned to the work during the specified period of time. 
 
 ## Access requirements
 
@@ -21,25 +25,30 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront plan</a>*</td> 
-   <td> <p>Business or higher</p> </td> 
+   <td>Adobe Workfront plan</a>*</td> 
+   <td> <p>Current: Business or higher</p>
+   Or
+   <p>New: Any</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>*</td> 
-   <td> <p>Review or higher</p> </td> 
+   <td>Adobe Workfront license*</td> 
+   <td> <p>Current: Review or higher</p>
+   Or
+   <p>New: Standard</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access to Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level.<br>For information on how a Workfront administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configuration</td> 
+   <td> <p>View access to Projects</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View</p> <p>For information on requesting additional access, see <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View permission on a project</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 ## Prerequisites
 
@@ -79,24 +88,25 @@ On the Resource capacity visualization, you can see the following details:
 
   ![](assets/resource-capacity-under-capacity.png)
 
-Hovering over a row shows the exact number of hours for planned capacity and available capacity, as well as the number of hours the home team is over or under capacity.
+Hovering over a team's row shows the exact number of hours for planned capacity and available capacity, as well as the number of hours the home team is over or under capacity.
 
 Seeing this information helps you determine:
 
-* If the home team was overallocated or underallocated.
-* What the largest projects were that the home team was focused on.
-* Which home teams are available for work.
+* If the team is overallocated or underallocated.
+* What the largest projects are that the home team is focused on.
+* Which teams are available for work.
 
 To learn how to get the best data for this visualization, see [Enhanced analytics overview](../enhanced-analytics/enhanced-analytics-overview.md).
 
 ## View the Resource capacity visualization
 
-1. Click the Main Menu icon ![](assets/main-menu-icon-16x12.png), then select **Analytics**.
+{{step1-to-analytics}}
+
 1. In the left panel, select **People**.
 
    ![](assets/people-area-cropped-qs-350x276.png)
 
-1. (Optional) To use a different date range, select new start and end dates from the date range filter.
+1. (Optional) To use a different date range, select new start and end dates from the date range filter in the upper-right corner of the chart.
 
    ![](assets/filters-select-date-range-350x344.png)
 
@@ -114,11 +124,19 @@ To learn how to get the best data for this visualization, see [Enhanced analytic
 
    ![](assets/timeframe-filter-350x220.png)
 
-1. Hover over the home team line to see how many hours are still available to be scheduled, the amount of hours planned for the home team to complete, and the total number of hours worked, which is labeled as over, under, or at capacity.
+1. Hover over the home team line to view the following:
+
+   * How many hours are still available to be scheduled
+   * The amount of hours planned for the home team to complete
+   * The total number of hours worked. The total number of hours worked could have the following labels:
+      
+      * Over
+      * Under
+      * At capacity.
 
    ![](assets/resource-capacity-capacity-pop-up-350x213.png)
 
-1. (Optional) To export the visualization data, click the **Export icon** ![](assets/export.png) in the top-right corner of the visualization, then select the export format:
+1. (Optional) To export the visualization data, click the **Export icon** ![](assets/export.png) in the upper-right corner of the visualization, then select the export format:
 
    * **Chart (PNG)** 
    * **Data Table (XSLX)**

@@ -4,12 +4,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: When the work defined in a work item becomes too large, you can convert it to a larger work item.
-author: Caroline
-feature: System Setup and Administration
+author: Lisa
+feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
 ---
 # Transfer custom form data when converting an object
+
+{{highlighted-preview}}
 
 Depending on the business needs of your organization, the work defined in a task or an issue might become too large to manage within the task or the issue. In this case, you can convert them to a larger work item:
 
@@ -29,29 +31,33 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront plan</p> </td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>
+   <p>New: Standard</p>
+   <p>or</p>
+   <p>Current: Plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Administrative access to custom forms</p> <p>For information about how Workfront administrators grants this access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Administrative access to custom forms</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## First: Add additonal objects to the custom form
+## First: Add additional objects to the custom form
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **Custom Forms**.
-1. Find the form you need, then click **Edit**.
-1. At the top of the form, add the object you plan to convert the task or issue to. 
+1. Find the form you need, then click **Edit** <span class="preview">or ![Edit icon](assets/edit-icon.png).</span>
+1. At the top of the form, add the object you plan to convert the task or issue to.
+
    >[!INFO]
    >
    >**Example**: If you want to transfer the custom form data to a project, select Project.

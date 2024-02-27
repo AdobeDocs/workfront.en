@@ -77,7 +77,7 @@ Consider the following about a group that you deactivate by disabling the Is Act
 
 * When you go to the Groups area in Setup, you can see only active groups in the list because Active is the default filter ![](assets/filter-nwepng.png) for it. If you want to see all of the groups you manage, including the inactive ones, you can use the All filter. Or use the Inactive filter to list only the inactive ones.
 
-  For more information about filters in lists, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  For more information about filters in lists, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 * Deactivating a group does not change the following:
 

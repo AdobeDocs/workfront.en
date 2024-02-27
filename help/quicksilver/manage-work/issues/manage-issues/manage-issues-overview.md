@@ -6,6 +6,7 @@ title: Manage issues
 description: The following articles contain information about managing issues.
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 12fa2d34-a7b4-47ba-825c-a00fb5f71efd
 ---
 # Manage issues
@@ -13,7 +14,7 @@ exl-id: 12fa2d34-a7b4-47ba-825c-a00fb5f71efd
 This section contains the following articles:
 
 * [Create issues](../../../manage-work/issues/manage-issues/create-issues.md) 
-* [Modify issue assignments overview](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md) 
+* [Overview of modifying issue assignments](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md) 
 * [Assign issues](../../../manage-work/issues/manage-issues/assign-issues.md) 
 * [View issues](../../../manage-work/issues/manage-issues/view-issues.md) 
 * [Edit issues](../../../manage-work/issues/manage-issues/edit-issues.md) 
