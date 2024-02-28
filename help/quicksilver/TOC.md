@@ -934,8 +934,9 @@ feature-set: Workfront
       * [Manage your Adobe Workfront account](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
       * [Log in to Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)
       * [Log out of Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
-      * [Receive email invitations and create a password for Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
       * [Reset a user's password with Enhanced Authentication](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)
+      * [Receive email invitations and create a password for Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
+      * [Create an account in [!DNL Adobe Workfront] as an external user](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
       * [Reset your password](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
   * Mobile Apps {#mobile-apps}
     * [Mobile Apps](workfront-basics/mobile-apps/mobile-apps.md)
@@ -1721,7 +1722,7 @@ feature-set: Workfront
     * [Resource Management](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
     * [Get started with Resource Management](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
   * Resource Planning in Adobe Workfront {#resource-planning-in-adobe-workfront}
-    * [Resource Planning in Adobe Workfront](resource-mgmt/resource-planning/resource-planning-overview.md)
+    * [Resource Planning: article index](resource-mgmt/resource-planning/resource-planning-overview.md)
     * Resource Pools {#resource-pools}
       * [Resource Pools](resource-mgmt/resource-planning/resource-pools/resource-pools.md)
       * [Resource pools overview](resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
@@ -2151,6 +2152,7 @@ feature-set: Workfront
     * [Activate or deactivate a scenario in Adobe Workfront Fusion](workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
     * [Add a filter to a scenario in Adobe Workfront Fusion](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
     * [Debug scenarios with the Adobe Workfront Fusion DevTool](workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
+    * [Generate a module using AI](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
     * Adobe Workfront Fusion scenario templates {#fusion-scenario-templates}
       * [Scenario Templates](workfront-fusion/scenarios/templates/fusion-templates.md)
       * [Create new templates in Adobe Workfront Fusion](workfront-fusion/scenarios/templates/create-new-fusion-templates.md)

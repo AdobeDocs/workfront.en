@@ -79,7 +79,7 @@ It also indicates which actions Workfront administrators can disable or enable u
 | Attach a custom form           | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Edit custom fields             | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Create an approval process     | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Approve a task                 | ✓        | ✓      | &nbsp;      | &nbsp;        |
+| Approve a task                 | ✓        | ✓      | ✓           | &nbsp;        |
 | Edit finances                  | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Add/edit expenses              | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | View finance                   | ✓        | ✓      | &nbsp;      | &nbsp;        |
