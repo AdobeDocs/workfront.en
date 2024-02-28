@@ -10,7 +10,7 @@ feature: Work Management, Digital Content and Documents
 
 # Add a Frame.io asset to a connected Workfront project 
 
-Creatives can add assets that need to be reviewed to Frame.io and send them to Workfront to connect the two systems. 
+Creatives can add assets that need to be reviewed to Frame.io and send them to Workfront for formal review and approval. 
 
 >[!IMPORTANT]
 >
@@ -33,8 +33,9 @@ You must have the following access to perform the steps in this article:
    <td> <p>Standard</p> </td> 
   </tr> -->
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>You must be a Workfront administrator.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a project collaborator in Frame.io. For more information, see <a href="https://support.frame.io/en/articles/11125-i-ve-been-invited-to-collaborate-on-a-project">I've been invited to collaborate on a Project</a>
+ on the Frame.io help site.</p> </td> 
   </tr> 
    <tr>
    <td>Product
@@ -65,7 +66,7 @@ For more information, see [Connect Workfront and Frame.io.](/help/quicksilver/re
 
     >[!NOTE]
     >
-    >You must have a Team license to review in Frame.io.
+    >You must have a Team Member license to review in Frame.io.
 
 1. Click the three-dot menu on the asset, then click **Add to Workfront**.
 
