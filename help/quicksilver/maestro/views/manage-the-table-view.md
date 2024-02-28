@@ -402,7 +402,9 @@ Consider the following when sorting records in the table view:
 
 * The sorting you create is preserved when you navigate away.
 
-* You can sort by as many fields as you see displayed in the table view of a record type. 
+* You can sort by as many fields as you see displayed in the table view of a record type.
+
+* Linked fields are sortable only if they allow single values, or if they allow multi-select values with the summarization option selected (sum, average, max, min).
 
 * Removing sorting criteria removes them from anyone accessing the same record type as you and uses the same view as you use.
 
