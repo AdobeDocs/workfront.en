@@ -21,7 +21,7 @@ Ensure you do the following as you finalize planning for your projects in Adobe 
 
   For information, see the following articles:
 
-   * [Resource Planning in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md) 
+   * [Resource Planning:article index](../../../resource-mgmt/resource-planning/resource-planning-overview.md) 
    * [Get started with the Scenario Planner](../../../scenario-planner/get-started-with-scenario-planning.md)
 
 * Schedule your resources or assign them to tasks and issues. When you assign your resources to tasks and issues you can actually associate users, teams, or roles to specific work items making them responsible for completing these items. For information, see [Workload Balancer overview](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md). 
