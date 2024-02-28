@@ -9,7 +9,7 @@ exl-id: 3a75c78d-faed-41cd-a0a4-59504bb981af
 ---
 # Remove users from projects
 
-You can remove users from a project when they are no longer involved in completing work on the project. Removing users from projects has implications on task and issue assignments, as well as on project roles. Removed users stop receiving notifications intended for the Project Team. For more information about notifications for the project teams, see [Event notifications available in Adobe Workfront](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+You can remove users from a project when they are no longer involved in completing work on the project. Removing users from projects has implications on task and issue assignments, as well as on project roles. Removed users stop receiving notifications intended for the Project Team. For more information about notifications for the project teams, see [Event notification types](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 The users associated with a project are listed in the People area of a project. They represent the Project Team. For more information about the Project Team, see [Project Team overview](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 

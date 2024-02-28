@@ -77,7 +77,7 @@ The following circumstances do require extra steps in creating a connection:
 
 * Connecting to the [!DNL Microsoft Graph API] using an [!UICONTROL HTTP] module
 
-   For instructions, see [Call the [!DNL MS Graph REST API] via the [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] module](../../workfront-fusion/connections/call-the-ms-graph-rest-api-.md).
+   For instructions, see [Call the [!DNL MS Graph REST API] via the [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] module](../../workfront-fusion/connections/call-the-ms-graph-rest-api.md).
 
 ## Connect to a [!DNL Google] app or web service
 

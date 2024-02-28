@@ -56,11 +56,11 @@ For more detail about the information in this table, see [Access requirements in
 
 1. On the page that appears, continue with one of the 5 sections listed below to configure settings for [!UICONTROL New Task Defaults], [!UICONTROL Issues], [!UICONTROL Deletion], [!UICONTROL Actual Dates], and [!UICONTROL Access]:
 
-* [[!UICONTROL New Task Defaults]](#new-task-defaults)
-* [[!UICONTROL Issues]](#issues)
-* [[!UICONTROL Deletion]](#deletion)
-* [[!UICONTROL Actual Dates]](#actual-dates)
-* [[!UICONTROL Delegation]](#delegation)
+    * [[!UICONTROL New Task Defaults]](#new-task-defaults)
+    * [[!UICONTROL Issues]](#issues)
+    * [[!UICONTROL Deletion]](#deletion)
+    * [[!UICONTROL Actual Dates]](#actual-dates)
+    * [[!UICONTROL Delegation]](#delegation)
 
    <!--
   <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
@@ -70,7 +70,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ### [!UICONTROL New Task Defaults] {#new-task-defaults}
 
-  <table style="table-layout:auto"> 
+<table style="table-layout:auto"> 
   <col> 
   <col> 
   <tbody> 
@@ -91,11 +91,11 @@ For more detail about the information in this table, see [Access requirements in
     <td> <p>Calculates planned and actual cost estimates for a task. When set to <strong>[!UICONTROL No Cost]</strong>, the hours planned and the actual hours recorded do not generate a planned or an actual cost estimate for the task, and the work on the task does not contribute to project-level costs.</p> </td> 
     </tr> 
   </tbody> 
-  </table>
+</table>
 
 ### Issues {#issues}
 
-  <table style="table-layout:auto"> 
+<table style="table-layout:auto"> 
   <col> 
   <col> 
   <tbody> 
@@ -138,23 +138,23 @@ For more detail about the information in this table, see [Access requirements in
 
 ### [!UICONTROL Deletion] {#deletion}
 
-  **[!UICONTROL Allow users to delete tasks & issues with logged hours]**: Lets you determine whether you allow the deletion of tasks or issues where hours are logged. This option is selected by default.
+**[!UICONTROL Allow users to delete tasks & issues with logged hours]**: Lets you determine whether you allow the deletion of tasks or issues where hours are logged. This option is selected by default.
 
   >[!TIP]
   >
   >This setting also applies to deleting projects that have tasks or issues with hours logged on them. This setting does not apply to deleting projects where time is logged directly for the project.
 
-  * When it is selected, you receive an informational warning when you delete a task or issue. The warning reminds you that if the task or issue has logged hours, they will either be moved to the project or deleted. You can configure whether the hours are deleted or moved to the project in the [!UICONTROL Timesheet & Hours Preferences] area of the [!UICONTROL Setup]. After you confirm that you have seen the warning, the task or issue is deleted. For more information about configuring Timesheet & Hours Preferences, see [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+* When it is selected, you receive an informational warning when you delete a task or issue. The warning reminds you that if the task or issue has logged hours, they will either be moved to the project or deleted. You can configure whether the hours are deleted or moved to the project in the [!UICONTROL Timesheet & Hours Preferences] area of the [!UICONTROL Setup]. After you confirm that you have seen the warning, the task or issue is deleted. For more information about configuring Timesheet & Hours Preferences, see [Configure timesheet and hour preferences](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
     >[!TIP]
     >
     >When you delete a project with tasks and issues that have logged hours, the logged hours are either deleted or they are preserved according to the settings in the [!UICONTROL Timesheet & Hours Preferences] area of [!UICONTROL Setup]. The warning message does not display when deleting a project.
 
-  * When you deselect this option, you receive a prohibitive warning when you delete a task or issue with logged hours, or when you delete a project with hours logged for its tasks or issues. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be deleted. The tasks, issues , or projects that have hours logged for tasks and issues cannot be deleted.
+* When you deselect this option, you receive a prohibitive warning when you delete a task or issue with logged hours, or when you delete a project with hours logged for its tasks or issues. The warning specifies that the administrator does not allow for tasks or issues with logged hours to be deleted. The tasks, issues , or projects that have hours logged for tasks and issues cannot be deleted.
 
 ### [!UICONTROL Actual Dates] {#actual-dates}
 
-  <table style="table-layout:auto"> 
+<table style="table-layout:auto"> 
   <col> 
   <col> 
   <tbody> 
@@ -175,23 +175,23 @@ For more detail about the information in this table, see [Access requirements in
       </ul> </td> 
     </tr> 
   </tbody> 
-  </table>
+</table>
 
 ### Delegation
 
-  Enabling the **[!UICONTROL Allow users to delegate their tasks & issues]** setting allows all users in  to temporarily delegate their work to others.
+Enabling the **[!UICONTROL Allow users to delegate their tasks & issues]** setting allows all users in  to temporarily delegate their work to others.
 
-  When this setting is enabled, users can see the following:
+When this setting is enabled, users can see the following:
 
-  * The [!UICONTROL Delegate] link in their [!UICONTROL Home] area. They can delegate approvals, or task and issue assignments from here.
-  * An indication that a task or issue is delegated to another user in the [!UICONTROL Assignments and delegations] area in the task or issue header.
+* The [!UICONTROL Delegate] link in their [!UICONTROL Home] area. They can delegate approvals, or task and issue assignments from here.
+* An indication that a task or issue is delegated to another user in the [!UICONTROL Assignments and delegations] area in the task or issue header.
 
   If you disable the [!UICONTROL Allow users to delegate their tasks & issues] setting, the delegations that are currently scheduled will stop and the users delegated will receive an email notification that the delegation was stopped.
 
-  For information about delegating work to others, see the following articles:
+For information about delegating work to others, see the following articles:
 
-  * [Delegate work overview](../../../manage-work/delegate-work/delegate-work-overview.md)
-  * [Manage task and issue delegation](../../../manage-work/delegate-work/how-to-delegate-work.md)
+* [Delegate work overview](../../../manage-work/delegate-work/delegate-work-overview.md)
+* [Manage task and issue delegation](../../../manage-work/delegate-work/how-to-delegate-work.md)
 
 <!--
 <p><strong>Work On It</strong></p>
@@ -222,7 +222,7 @@ I have not had a chance to follow up with customers to verify if this is still a
 
 ### [!UICONTROL Access] {#access}
 
-  <table style="table-layout:auto"> 
+<table style="table-layout:auto"> 
   <col> 
   <col> 
   <tbody> 
@@ -251,7 +251,7 @@ I have not had a chance to follow up with customers to verify if this is still a
       </ul> </td> 
     </tr> 
   </tbody> 
-  </table>
+</table>
 
 1. Click **[!UICONTROL Save]**.
 

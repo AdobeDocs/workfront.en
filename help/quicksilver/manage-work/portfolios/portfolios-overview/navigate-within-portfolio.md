@@ -57,7 +57,7 @@ You must have the following access to perform the steps in this article:
    * **[!UICONTROL All]**: Includes all portfolios for which you have at least access to View.\
 
       For more information about access to Portfolios, see [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).\
-      For more information about permissions to Portfolios, see  [Share a portfolio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+      For more information about permissions to Portfolios, see  [Share a portfolio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
       To add new portfolios, see [Create a portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 

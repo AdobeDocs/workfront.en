@@ -279,7 +279,7 @@ To request an approval on a document from an Adobe application:
 
 ## Generate a proof from Illustrator or InDesign {#generate-a-proof-from-illustrator-or-indesign}
 
-If your organization uses Automated Workflow templates, you can generate a proof for a document you create in an Adobe application without leaving the application. For information about creating proofs, see [Create proofs](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md). For information about Automated Workflow templates, see [Automated Workflow templates](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate) in [Automated Workflow overview](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+If your organization uses Automated Workflow templates, you can generate a proof for a document you create in an Adobe application without leaving the application. For information about creating proofs, see [Create proofs](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md). For information about Automated Workflow templates, see [Automated Workflow templates](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate) in [Automated Workflow overview](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
 1. Open one of the supported Adobe applications.
 1. If the Workfront extension is not displayed, click **Window** > **Extensions** > Workfront.
