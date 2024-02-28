@@ -81,6 +81,7 @@ You can configure the following integrations for managing documents:
     * [!UICONTROL Google Drive]
 
       <!--Quip-->
+      
    >[!TIP]
    >
    >You can proof and approve documents linked from an external cloud provider the same way you proof and approve documents uploaded directly to [!DNL Workfront].

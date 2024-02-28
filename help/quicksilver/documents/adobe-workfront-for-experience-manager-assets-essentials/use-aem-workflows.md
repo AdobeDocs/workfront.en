@@ -132,7 +132,13 @@ All workflow values can be found in:
    >
    >If these areas are not visible, your Workfront administrator has not enabled Workflows for your organization.
 
+
+
 #### Linked folders
+
+>[!NOTE]
+>
+>Because linked folders are created when the project is created, editing the linked folder workflow on an existing project is ineffective. Editing these values when creating a project functions as expected.
 
 To edit the workflow for linked folders:
 
@@ -150,34 +156,13 @@ In the Preview Sandbox environment:
 
 <div class="preview">
 
-1. Toggle the **[!UICONTROL Create Linked folder]** on or off as desired. If you toggle it on, you can then configure the following steps.
-1. Enter a name for the linked folder that you are creating. If you are creating a folder tree, this is the name of the root folder.
-1. (Conditional) Enable the **Default folder tree** option if you want this linked folder to be the default folder for projects created with templates that use this integration.
-1. Choose a folder path to indicate where you want all linked folders associated with this integration.
-1. (Conditional) To add a folder tree (nested folders) to this integration, do the following:
+1. Toggle the **[!UICONTROL Create Linked folder]** on or off as desired. If you toggle it on, you can then edit the linked folder configuration.
 
-   1. Click the **Add folder** icon ![Add folder](assets/add-folder-aem.png).
-   1. In the Name type field, select how you want to name the folder:
+   For details on the linked folder configuration, see [Create Adobe Experience Manager linked folders](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders) in the article [Configure the [!UICONTROL Experience Manager Assets as a Cloud Service] integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 
-      * **Name**: Type in a name for the folder.
-      * **Object data**: Select the source for the folder name, such as Project name.
-      * **Custom form data**: Select the custom form data to use as the folder name.
+1. (Optional) If you want the folder tree to be built only if certain values are present on a custom form attached to the project, click the **Apply filter** for that folder tree, then select the custom form that contains the field, the field, and the field value. If the field on the custom form attached to the new project contains the chosen value, the folder tree will be created.
 
-      >[!NOTE]
-      >
-      >* Folder names must be fewer than 100 characters.
-      >* The following characters will be removed from folder names:
-
-   1. To add a nested folder to the folder tree, click the three-dot menu next to the folder you want to create a nested folder in and select **Add Folder**. Fill in the fields as described in Step the previous step.
-   1. To link a folder to Workfront, select the folder and click the **Make linked folder**   icon ![Link folder](assets/link-folder.png).
-   1. (Optional) To edit a folder, select the folder and click the **Edit Folder** icon ![Edit icon](assets/edit-icon.png).
-   1. (Optional) To delete a folder, select the folder and click the **Delete Folder** icon ![Delete folder](assets/delete-folder.png).
-1. (Conditional) To add another folder tree, click + Add folder tree and follow the steps in Step 5.
-
-   >[!NOTE]
-   >
-   >This integration will create no more than 100 folders, regardless of how many folder trees are created. For example, an integration with 4 folder trees can create up to 100 folders, not 400 folders.
-1. Click **[!UICONTROL Save]**, or move on to the [Publish assets that are sent to Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) section in this article.
+1. Click **[!UICONTROL Save]**.
 
 </div>
 
@@ -188,10 +173,4 @@ To edit the workflow for publishing assets:
 
 1. Toggle **Publish assets automatically** on or off as desired.
 1. (Conditional) If you are enabling publishing, select whether you want to publish  to the publish service, the brand portal, or both.
-1. Click **[!UICONTROL Save]** if you are using the [!UICONTROL Create Project] or [!UICONTROL Edit project] window.
-    
-   Or
-
-   If you are in the [!DNL Adobe Experience Manager area], your changes save automatically. <!--Do they though?-->
-
-
+1. Click **[!UICONTROL Save]**.
