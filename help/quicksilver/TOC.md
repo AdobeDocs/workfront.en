@@ -2152,6 +2152,7 @@ feature-set: Workfront
     * [Activate or deactivate a scenario in Adobe Workfront Fusion](workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
     * [Add a filter to a scenario in Adobe Workfront Fusion](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
     * [Debug scenarios with the Adobe Workfront Fusion DevTool](workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
+    * [Generate a module using AI](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
     * Adobe Workfront Fusion scenario templates {#fusion-scenario-templates}
       * [Scenario Templates](workfront-fusion/scenarios/templates/fusion-templates.md)
       * [Create new templates in Adobe Workfront Fusion](workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
