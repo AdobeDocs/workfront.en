@@ -9,6 +9,8 @@ exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
 ---
 # Tag others on updates
 
+{{highlighted-preview}}
+
 <!--take new commenting and legacy commenting out when we remove the legacy commenting and the new one is the only experience-->
 
 <!--
@@ -36,6 +38,8 @@ exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
 > * Summary panel in lists
 > * Summary panel in timesheets 
 > * Summary panel in the Workload Balancer
+>
+><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment.</span>
 
 You can tag users when making an update to an object if you want to draw their attention to an object they might otherwise not follow. 
 
@@ -121,6 +125,14 @@ You can also remove users who are tagged by mistake when you edit or reply to a 
    > 
    >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md). 
 
+      <div class="preview">   
+
+      Example of tagging in the Preview environment:
+      ![Tag a user](assets/tag-others-unified-commenting-with-all-tab.png)
+
+      </div>
+
+      Example of tagging in the Production environment:
       ![](assets/tag-others-unified-commenting.png)
 
 1. (Optional) To make the update private, enable **Private to my company** in the lower-right corner of the update box. This makes the update visible just to users in your company. The **Private to my company** option is available only when a Company is specified in your Workfront profile. 

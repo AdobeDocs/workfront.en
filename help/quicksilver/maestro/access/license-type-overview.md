@@ -37,8 +37,8 @@ The following table describes the relationship between the license type of a use
 | License type                                   | Permissions allowed to Maestro objects                                                                                                                                             |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |New: Standard <br> or <br>Current: Plan                    | Users can create and manage workspaces, record types, and records.                                                                                                                       |
-| New: Light <br> or <br>Current: Work and Review                      | Users can contribute and view a workspace shared with them, as well as the record types and records from that workspace.  Users can create, edit, delete records in the workspaces where they have Contribute permissions.            |
-| New: Contributor <br> or <br>Current: Requestor | Users can view the workspaces shared with them, as well as the record types and records of those workspaces. Users cannot create, edit, or delete record types or records. |
+| New: Light <br> or <br>Current: Work                      | Users can contribute and view a workspace shared with them, as well as the record types and records from that workspace.  Users can create, edit, delete records in the workspaces where they have Contribute permissions.            |
+| New: Contributor <br> or <br>Current: Reviewer or Requestor | Users can view the workspaces shared with them, as well as the record types and records of those workspaces. Users cannot create, edit, or delete record types or records. |
 
 
 

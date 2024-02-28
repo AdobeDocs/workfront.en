@@ -9,6 +9,8 @@ exl-id: fc633fd6-35b4-4949-8045-22c775002436
 ---
 # Manage a project in the Agile View
 
+<!-- Audited: 2/2024 -->
+
 You can leverage agile functionality for your project without the administrative challenges that typically accompany agile practices (such as managing a team backlog or creating iterations).
 
 If you want to work in an agile environment that uses a team backlog and allows you to create iterations from tasks on the backlog, follow the instructions in [Work in an agile environment](../../../agile/work-in-an-agile-environment/work-in-an-agile-environment.md).
@@ -26,7 +28,7 @@ You must have the following access to perform the steps in this article:
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> <p>Current: Review or higher</p> 
    <p>New: Contributor or higher</p> </td> 
   </tr> 
@@ -46,7 +48,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator. For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 ## Understand Agile projects
 
@@ -156,7 +158,7 @@ For information about how to customize an agile view, see [Create or customize a
   
    The custom agile view is used the next time you click the **Agile** icon.
 
-   For information about how to create a new agile view, see [Create and customize Agile views](#create-and-customize-agile-views).
+   For information about how to create a new agile view, see [Create and customize Agile views](#create-and-customize-agile-views), below.
 
    The project is displayed in the custom agile view.
 
@@ -164,7 +166,7 @@ For information about how to customize an agile view, see [Create or customize a
 
    If tasks are in a status that is not displayed on the agile story board, the task itself is not displayed on the agile story board (however, the Percent Complete of these tasks still contribute to the Percent Complete of any parent tasks and the Percent Complete of the overall project).
 
-   To add statuses to the agile view, either create a new agile view or customize an existing agile view, as described in the "Create or customize an Agile view" section in the article [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   To add statuses to the agile view, either create a new agile view or customize an existing agile view, as described in [Create and customize Agile views](#create-and-customize-agile-views), below.
 
 1. (Optional) To return to the list view, click the **List** icon.
 
@@ -174,7 +176,7 @@ For information about how to customize an agile view, see [Create or customize a
 >
 >This section only applies to the legacy Agile view, not to the board view of a project.
 
-As with standard views in Workfront, you can customize existing agile Views or create new agile Views from scratch. Unlike standard views, you cannot create new agile Views based on existing agile Views.
+As with standard views in Workfront, you can customize existing agile Views or create new agile views from scratch. Unlike standard views, you cannot create new agile Views based on existing agile views.
 
 For more information about creating and customizing agile views, see the [Create or customize an Agile view](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md#create-or-customize-an-agile-view) section in the article [Create or edit views in in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
