@@ -13,6 +13,25 @@ You can use AI to enter a text prompt describing what you need a module to do. F
 
 As with anything generated from AI, we recommend that you double check and test the generated module to ensure that it is performing as intended.
 
+## Currently supported AI module applications
+
+The Fusion AI can currently generate modules that connect to the following applciations:
+
+* Adobe Maestro
+* Adobe Analytics
+* Adobe PDF Services
+* Adobe Marketo
+* Adobe Frame.io
+* Dropbox
+* NetSuite
+* Google Calendar
+* Atlassian Jira
+* GitLab
+* Spotify
+* Bitbucket
+* OpenAI
+* Slack
+
 ## Generate a module
 
 1. Add a module and select **Generate with AI** from the list of applications.
@@ -44,9 +63,9 @@ Text prompts should include the following information at a minimum:
 >
 >   This includes the application `Google Calendar` and the action `Retrieve a list of my calendars`.
 >
->* `Retrieve popular videos from YouTube`
+>* `Retrieve popular songs from Spotify`
 >
->   This includes the application `YouTube` and the action `Retrieve popular videos`.
+>   This includes the application `Spotify` and the action `Retrieve popular songs`.
 
 Consider the following when creating text prompts:
 
