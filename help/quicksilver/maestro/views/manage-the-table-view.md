@@ -24,7 +24,7 @@ hide: yes
 
 You can display records and their fields in a table view, when accessing the record type page in Adobe Maestro. 
 
-For information about Maestro views and how to manage them, see [Manage record views](../views/manage-record-views.md). 
+For information about Maestro views and how to manage them, see [Manage record views](../views/manage-record-views.md).
 
 ## Access requirements
 
@@ -256,11 +256,7 @@ To add a filter to a table view:
 
     * Select an option (or a filter modifier) to define what kind of condition the field must meet
 
-        The table below displays the available modifiers for each type of field. 
-
-        >[!TIP]
-        >
-        > You cannot select linked fields. For information, see [Create fields](../fields/create-fields.md).
+        The table below displays the available modifiers for each type of field.
 
         <table>
         <thead>
@@ -328,7 +324,7 @@ To add a filter to a table view:
 
      ![](assets/filter-ui-table-view.png)
 
-    There is no limit to how many filtering conditions you can add.    
+    There is no limit to how many filtering conditions you can add.
 
 1. (Optional) Click **Add condition** to add another filtering option and repeat the above steps. The number of filters applied displays to the left of the Filters icon. 
 1. Click the following operators to indicate how the filter conditions are joined and should be applied:
@@ -364,17 +360,13 @@ Consider the following:
 To add a grouping:
 
 1. Create a timeline view for a record type, as described in the article [Manage record views](../views/manage-record-views.md). 
-1. Click **Grouping** in the upper-right corner of the timeline view.
+1. Click **Grouping** in the upper-right corner of the table view.
 
-    ![](assets/grouping-ui-table-view.png)
+    ![](assets/grouping-ui-table-view-with-linked-fields.png)
 
-1. Click one of the suggested fields, or click **Choose a different field**, search for a different field, then click it when it displays in the list. 
+1. Click one of the suggested fields, or click **Choose a different field**, search for a different field, then click it when it displays in the list.
 
-    >[!TIP]
-    >
-    >You cannot select linked fields. 
-
-    The grouping is applied automatically to the table and records display under the grouping separation line
+    The grouping is applied automatically to the table and records display under the grouping separation line.
     
 1. (Optional) Repeat the above steps to add up to 3 groupings. 
 
@@ -421,7 +413,8 @@ To sort <!--ungrouped (add this when sorting for groupings will be available--> 
     
     Or
 
-    Hover over the name of a column in the table view, click the downward-pointing arrow to the right of the column header name, then click **Sort by this field**. The field is added as a sorting selection in the Sort icon in the upper-right corner of the table view. 
+    Hover over the name of a column in the table view, click the downward-pointing arrow to the right of the column header name, then click **Sort by this field**. The field is added as a sorting selection in the Sort icon in the upper-right corner of the table view.
+
 1. In the **Sort records by** box, click one of the suggested fields, or click **Choose a different field** and search for a different field, then click it when it displays in the list. 
 
     The sorting is applied automatically to the table view and records display sorted by your selected criteria. 
@@ -430,11 +423,7 @@ To sort <!--ungrouped (add this when sorting for groupings will be available--> 
     
 1. (Optional) Repeat the above steps to sort by additional fields.  
 
-    The number of fields that you are sorting by displays to the left of the Sort icon in the upper-right corner of the toolbar. You can choose only fields that display in the columns of the table view. 
-
-    >[!TIP]
-    >
-    > You cannot select linked fields. For information, see [Create fields](../fields/create-fields.md). 
+    The number of fields that you are sorting by displays to the left of the Sort icon in the upper-right corner of the toolbar. You can choose only fields that display in the columns of the table view.
 
 1. (Optional) In the **Sort records by** box, click the **x** icon to the right of a sorting field to remove the sort
 

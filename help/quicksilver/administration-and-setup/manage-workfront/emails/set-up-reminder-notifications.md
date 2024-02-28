@@ -1,7 +1,7 @@
 ---
 title: Set up reminder notifications
 description: Set up reminder notifications
-author: Alina, Lisa
+author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67

@@ -4,7 +4,7 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: Unlock or lock configuration of event notifications for all groups
 description: If you are an Adobe Workfront administrator, you can unlock or re-lock the ability for group administrators to configure an event notification for top-level groups they manage. Configuration of an event notification consists of activating or deactivating it.
-author: Lisa, Caroline
+author: Lisa, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 056d76c1-7e9b-49b9-974a-75765e53b7fd
