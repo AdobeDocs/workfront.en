@@ -9,6 +9,8 @@ exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
 ---
 # Manage goal comments in Adobe Workfront Goals
 
+{{highlighted-preview}}
+
 <!--Audited: 01/2024-->
 
 <!--consider retiring this article when goals and all objects are in parity and we remove the legacy commenting from the system. From then on, there is just ONE way to comment and that will be documented in the Update Work article-->
@@ -92,7 +94,15 @@ This opens the goal list.
 1. Locate the goal you want to add comments to, then click its name to open the goal page. 
 1. Click  **Updates** in the left panel. 
 1. (Optional) To locate an existing comment, start typing a keyword <!--or a user's name--> in the **Search** box in the upper-right corner of the **Comments** tab. 
+   
+   <div class="preview">
 
+   Example in the Preview environment:
+   ![Search for comment](assets/search-for-update-goals-2.png)
+
+   </div>
+
+   Example in the Production environment:
    ![](assets/search-field-in-updates-tab-goals.png)
 
    The keyword <!--or user--> you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
@@ -101,15 +111,22 @@ This opens the goal list.
 
       >[!NOTE]
       >
-      >   You must search for a word included in a comment or reply. You cannot search for a tagged user or team. 
-
+      >You must search for a word included in a comment or reply. You cannot search for a tagged user or team.
    
-   For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
+   For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. Click the **x** icon in the search field to clear the search results and return to the complete up.
+1. Click the **x** icon in the search field to clear the search results and return to the complete update.
 1. Click the **Comments** tab in the upper-left corner of the Updates area.
-1. Start entering a comment in the **New comment** box. 
+1. Start entering a comment in the **New comment** box.
    
+   <div class="preview">
+
+   Example new comment box in the Preview environment:
+   ![New comment box](assets/comment-box-all-tabs.png)
+
+   </div>
+   
+   Example new comment box in the Production environment:
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
@@ -134,7 +151,7 @@ This opens the goal list.
       >If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments, as well as a blue notification at the bottom of the screen indicating the number of new comments. 
       >
       >The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
-      >![](assets/real-time-new-red-indicator-unified-commenting.png)
+      >![](assets/real-time-new-red-indicator-unified-commenting-copy.png)
       
 1. (Optional) To edit a comment, click the **More** menu ![](assets/more-icon.png) to the right of the Like icon, then click **Edit**. 
 1. Edit the information in the comment, add or remove images, or remove any of the tagged users. 
@@ -166,4 +183,6 @@ This opens the goal list.
 1. (Optional) Click the **Like** icon![](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes.
 
 1. (Optional) Click the **System Activity** tab to view updates logged by the system. When a goal is updated, Workfront generates a note about that update that and displays it in the System Activity tab. Workfront also records a system update when a result, activity, or project is added to the goal or when it is updated. <!--ensure the casing on the tab has not changed-->
+
+1. <span class="preview">(Optional) Click the **All** tab to view both user comments and system activity comments in one place. To reply to a comment in the All tab, click **Reply in Comments** to open the comment in the Comments tab. You cannot reply in the All tab.</span>
 

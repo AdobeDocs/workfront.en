@@ -67,7 +67,7 @@ The burndown chart contains the following visual indicators:
 
 The default schedule defined in [!DNL Workfront] affects the burndown&nbsp;chart&nbsp;by excluding days off (weekends and holidays) from the burndown. The burndown chart uses the&nbsp;default schedule to define working days (as described in&nbsp; [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)).
 
-Agile teams can incorporate team-specific non-working days by defining&nbsp;an alternate schedule (as described in the article [Use an alternate team schedule for burndown charts](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt--team-schedule-burndown-charts.md)). This alternate schedule is then reflected in the burndown chart of any iteration assigned to the team. The alternate schedule affects only the burndown chart.
+Agile teams can incorporate team-specific non-working days by defining&nbsp;an alternate schedule (as described in the article [Use an alternate team schedule for burndown charts](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)). This alternate schedule is then reflected in the burndown chart of any iteration assigned to the team. The alternate schedule affects only the burndown chart.
 
 Days off are reflected in the burndown chart only if:
 

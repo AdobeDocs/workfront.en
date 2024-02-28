@@ -9,6 +9,8 @@ exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
 ---
 # Update work items in the Workload Balancer using the Summary
 
+{{highlighted-preview}}
+
 You can use the Summary panel of a task or an issue to update important information for that item. in the Workload Balancer.
 
 The Summary panel is available for tasks and issuesin both the Assigned and Unassigned Work areas of the Workload Balancer.
@@ -62,11 +64,11 @@ You must have the following:
 
    Go to the **Assigned Work** area, expand a user, and find a work item.
 
-1. Click the bar of a task or issue to open the Summary panel on the right
+1. Click the bar of a task or issue to open the Summary panel on the right.
 
    Or
 
-   Click **Open Summary** icon ![](assets/summary-panel-icon.png), then click the bar of a task or issue to open the Summary panel
+   Click **Open Summary** icon ![](assets/summary-panel-icon.png), then click the bar of a task or issue to open the Summary panel.
 
    Or
 
@@ -74,7 +76,15 @@ You must have the following:
 
    The Summary panel opens on the right.
 
-   ![](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
+   <div class="preview">
+
+   Example of the Summary panel in the Preview environment:
+   ![Summary panel](assets/summary-panel-task-wb-new-comments.png)
+
+   </div>
+   
+   Example of the Summary panel in the Production environment:
+   ![Summary panel](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
 
 1. Modify a number of fields for the work item, enter an update, or you navigate from here to other areas of Workfront to add documents or other information to the work item.
 

@@ -32,7 +32,7 @@ You can share the following objects in Workfront with other users:
 
 * **Templates**: For more information, see [Share project templates](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-* **Portfolios**: For more information, see [Share a portfolio](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+* **Portfolios**: For more information, see [Share a portfolio](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
 * **Programs**: For information, see [Share a program](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md) .
 

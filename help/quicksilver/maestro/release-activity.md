@@ -24,7 +24,19 @@ The features are released weekly and are listed in the order of their release, w
 
 >[!IMPORTANT]
 >
->The documentation referenced in the sections below will be available some time after the features are released to Production. 
+>The documentation referenced in the sections below will be available some time after the features are released to Production.
+
+## Week of February 26, 2024
+
+### Filter, sort, and group by connected records or lookup fields
+
+Production: February 28, 2024
+
+Preview: To be determined
+
+You can now filter, sort, and group by connected records or their lookup fields. This enhancement will help you efficiently organize and visualize your data in both table and timeline views.
+
+For information, see [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md) and [Manage the timeline view](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
 
 ## Week of February 5, 2024
 
@@ -118,7 +130,7 @@ Production: February 1, 2024
 
 Preview: To be determined
 
-To avoid confusion and simplify the management of workspaces, we have removed the auto-generated, ready-only record type cards for connected non-Maestro objects from a workspace.
+To avoid confusion and simplify the management of workspaces, we have removed the auto-generated, read-only record type cards for connected non-Maestro objects from a workspace.
 <!-- Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
 
 For more information, see [Connect records](/help/quicksilver/maestro/records/connect-records.md).   

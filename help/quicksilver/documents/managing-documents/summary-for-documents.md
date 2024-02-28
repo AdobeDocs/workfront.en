@@ -10,6 +10,8 @@ exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
 ---
 # Summary for documents overview
 
+{{highlighted-preview}}
+
 The Summary allows you to interact with important information directly from the documents list.
 
 ## Access requirements
@@ -77,6 +79,14 @@ Use the Custom Forms section to add, edit, or view any custom forms associated w
 
 Use the Updates section to read an update someone made on the document or proof. The summary shows the first 2 comments made. For more information on updates, see [Comment on a proof](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
+<div class="preview">
+
+Example of Updates in the Preview environment:
+![Updates section in Summary panel](assets/summary-updates-section-new-comments.png)
+
+</div>
+
+Example of Updates in the Production environment:
 ![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## Approvals
