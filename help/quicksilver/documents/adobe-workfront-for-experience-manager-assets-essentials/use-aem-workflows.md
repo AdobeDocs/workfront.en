@@ -103,7 +103,9 @@ You can add a workflow when creating a project, or add a workflow to an existing
 
 ### Add a workflow to an existing project
 
-In the production environment:
+>[!NOTE]
+>
+>Workflows that run when a project is created (such as linked folder creation) do not run when the template is attached to an existing project. They only run when a project is created from a template.
 
 1. Begin adding a template to the project.
 
@@ -113,6 +115,36 @@ In the production environment:
 1. (Optional) Edit any workflow values for the project, as described in [Edit workflow values in a project](#edit-workflow-values-in-a-project).
 
    Only workflows that have been activated in the Experience Manager area of Setup are available in templates or projects.
+
+
+
+### Edit workflow values in a project
+
+You can edit workflow values on the project level. Project-level workflow values override values set on the project template, which override the default values set in the Adobe Experience Manager Assets integration.
+
+All workflow values can be found in:
+
+* The Workflows section of the Create project or Edit project window.
+* The Adobe Experience Manager section of the left navigation.
+
+
+   >[!NOTE]
+   >
+   >If these areas are not visible, your Workfront administrator has not enabled Workflows for your organization.
+
+#### Linked folders
+
+To edit the workflow for linked folders:
+
+In the production environment:
+
+1. Toggle **[!UICONTROL Create Linked folder]** on or off as desired.
+1. (Conditional) If you are enabling linked folders, choose a folder path to indicate where you want all linked folders associated with this integration. 
+1. Click **[!UICONTROL Save]** if you are using the [!UICONTROL Create Project] or [!UICONTROL Edit project] window.
+    
+   Or
+
+   If you are in the [!DNL Adobe Experience Manager area], your changes save automatically. <!--Do they though?-->
 
 In the Preview Sandbox environment:
 
@@ -148,32 +180,6 @@ In the Preview Sandbox environment:
 1. Click **[!UICONTROL Save]**, or move on to the [Publish assets that are sent to Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) section in this article.
 
 </div>
-
-### Edit workflow values in a project
-
-You can edit workflow values on the project level. Project-level workflow values override values set on the project template, which override the default values set in the Adobe Experience Manager Assets integration.
-
-All workflow values can be found in:
-
-* The Workflows section of the Create project or Edit project window.
-* The Adobe Experience Manager section of the left navigation.
-
-
-   >[!NOTE]
-   >
-   >If these areas are not visible, your Workfront administrator has not enabled Workflows for your organization.
-
-#### Linked folders
-
-To edit the workflow for linked folders:
-
-1. Toggle **[!UICONTROL Create Linked folder]** on or off as desired.
-1. (Conditional) If you are enabling linked folders, choose a folder path to indicate where you want all linked folders associated with this integration. 
-1. Click **[!UICONTROL Save]** if you are using the [!UICONTROL Create Project] or [!UICONTROL Edit project] window.
-    
-   Or
-
-   If you are in the [!DNL Adobe Experience Manager area], your changes save automatically. <!--Do they though?-->
 
 
 #### Publishing assets
