@@ -4,7 +4,7 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: Set up automatic reminders
 description: Set up automatic reminders
-author: Lisa, Caroline
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
