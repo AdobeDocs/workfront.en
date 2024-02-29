@@ -194,14 +194,34 @@ Enter one of the following values for the `mode` parameter.
   >yourArray = [3,4,5,6,7]
   >```
   >
-  >*  `arrayDifference [myArray, yourArray, classic]`
+  >* `arrayDifference [myArray, yourArray, classic]`
   >
   >    Returns `[1,2]`
   >
-  >*  `arrayDifference [yourArray, myArray, classic]`
+  >* `arrayDifference [yourArray, myArray, classic]`
   >
   >    Returns `[6,7]`
   >
-  >*  `arrayDifference [myArray, yourArray, symmetric]`
+  >* `arrayDifference [myArray, yourArray, symmetric]`
   >
   >    Returns `[1,2,6,7]`
+
+## toArray
+
+This function converts a collection into an array of key-value pairs.
+
+>[!INFO]
+>
+>**Examples:**
+>
+>Given the collection 
+>
+>`{ key1: "value1", key2: "value2:}`
+>
+>The function
+>
+>`toArray({ key1: "value1", key2: "value2:})`
+>
+>Returns the array of key-value pairs
+>
+>`[{ key1: "value1"}, { key2: "value2"}]`
