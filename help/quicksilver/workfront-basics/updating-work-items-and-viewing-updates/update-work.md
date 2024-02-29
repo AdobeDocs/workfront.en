@@ -309,6 +309,7 @@ You can add updates to the following objects:
    >
    >The names of the first two tagged entities display next to their avatars. If more than two entities are tagged only the name of the first one and the number of additional entities display.
    
+1. <span class="preview"> (Optional) Click a commenter's name to see their name, role, and email address in an information box. Click the commenter's name again in the information box to open their user profile.</span>
 1. (Optional) Click the **System Activity** tab to view updates logged by the system. When the object or any of its children are updated, Workfront generates a note about that update and displays it in the System Activity tab. 
 
    For more information, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md).

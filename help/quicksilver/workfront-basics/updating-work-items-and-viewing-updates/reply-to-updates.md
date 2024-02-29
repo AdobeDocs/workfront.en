@@ -95,12 +95,12 @@ For information about what features are available in the new commenting experien
 1. Go to the object to which you want to add a reply.
 1. Click **Updates**, then click the **Comments** tab for the object and find the comment or reply to which you want to reply.
 
->[!NOTE]
->
-><span class="preview">To reply to a comment in the All tab, click **Reply in Comments** to open the comment in the Comments tab. You cannot reply in the All tab.</span>
+   >[!NOTE]
+   >
+   ><span class="preview">To reply to a comment in the All tab, click **Reply in Comments** to open the comment in the Comments tab. You cannot reply in the All tab.</span>
 
 1. (Optional) To include text from a previous update in your reply, click the **More** menu in the upper-right corner of the comment you want to reply to, then click **Quote reply**. Text from the previous update appears in the input area, marked with a vertical gray line.
-1. Click **Reply**. 
+1. Click **Reply**.
 
    ![](assets/reply-to-update-empty-box.png)
 
