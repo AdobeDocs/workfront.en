@@ -155,6 +155,8 @@ You can also remove users who are tagged by mistake when you edit or reply to a 
 
    ![](assets/members-icons-expanded-unshimmed.png)
 
+   <span class="preview">When you are tagged in the comment text, your user name is highlighted in those comments.</span>
+
    For information about the additional functionality that is available when updating a work item, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 1. (Optional) Click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the comment, then click **Edit**. Remove any of the tagged users, then click **Submit**. You can edit a comment only within 15 minutes after you have entered it. You can only edit the comments you added.
