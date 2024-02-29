@@ -1722,7 +1722,7 @@ feature-set: Workfront
     * [Resource Management](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
     * [Get started with Resource Management](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
   * Resource Planning in Adobe Workfront {#resource-planning-in-adobe-workfront}
-    * [Resource Planning in Adobe Workfront](resource-mgmt/resource-planning/resource-planning-overview.md)
+    * [Resource Planning: article index](resource-mgmt/resource-planning/resource-planning-overview.md)
     * Resource Pools {#resource-pools}
       * [Resource Pools](resource-mgmt/resource-planning/resource-pools/resource-pools.md)
       * [Resource pools overview](resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
@@ -1782,19 +1782,21 @@ feature-set: Workfront
     * [Delegate approval request](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
     * [Associate a new or existing approval process with work](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
     * [Recall submitted approvals](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
-  * Document reviews and approvals {#document-reviews-and-approvals}
-    * [Document reviews and approvals](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
+  * Document review and approval {#document-reviews-and-approvals}
+    * [Document review and approval](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
     * [Document approvals overview](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
-    * Manage document approvals {#manage-document-approvals}
-      * [Manage document approvals](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
-      * [Create a document approval](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
-      * [Add additional reviewers or approvers to a document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
-      * [Remove approvers or reviewers from a document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
-      * [Document approval status](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-    * Review and approve documents {#review-and-approve-documents}
-      * [Review and approve documents](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md)
+    * Review documents {#review-and-approve-documents}
+      * [Review documents: article index](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
       * [Review a document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
-      * [Approve a document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
+      * [Connect Workfront and Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
+      * [Add a Frame.io asset to a connected Workfront project](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
+    * [Approve documents]{#approve-documents}
+        * [Approve documents: article index](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
+        * [Create a document approval](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+        * [Add additional reviewers or approvers to a document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
+        * [Remove approvers or reviewers from a document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+        * [Document approval status](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
+        * [Approve a document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
   * Proofing {#proofing}
     * [Proofing: article index](review-and-approve-work/proofing/proofing.md)
     * Proofing overview {#proofing-overview}
@@ -2152,6 +2154,7 @@ feature-set: Workfront
     * [Activate or deactivate a scenario in Adobe Workfront Fusion](workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
     * [Add a filter to a scenario in Adobe Workfront Fusion](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
     * [Debug scenarios with the Adobe Workfront Fusion DevTool](workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
+    * [Generate a module using AI](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
     * Adobe Workfront Fusion scenario templates {#fusion-scenario-templates}
       * [Scenario Templates](workfront-fusion/scenarios/templates/fusion-templates.md)
       * [Create new templates in Adobe Workfront Fusion](workfront-fusion/scenarios/templates/create-new-fusion-templates.md)

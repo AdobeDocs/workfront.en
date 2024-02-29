@@ -195,7 +195,7 @@ The module returns any standard fields associated with the record, along with an
      </tr> 
      <tr data-mc-conditions=""> 
       <td>Exclude events made by this connection</td> 
-      <td>Enable this option to exclude events created or updated using the same connector that this trigger module uses. This can prevent situations where a scenario might trigger itself, causing it to repeat in an endless loop.</td> 
+      <td>Enable this option to exclude events created or updated using the same connector that this trigger module uses. This can prevent situations where a scenario might trigger itself, causing it to repeat in an endless loop.<p><b>NOTE</b>The Assignment record type does not include this option.</p></td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Record Origin]</td> 

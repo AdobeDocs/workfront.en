@@ -51,7 +51,7 @@ For information about replacement tools, see [Legacy Flash-based tools and their
    * Capacity Planner
    * Resource Estimates
    * Resource Grid  
-     For more information, see [Resource Planning in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md).
+     For more information, see [Resource Planning: article index](../../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
 * The Legacy Resource Estimates area in the Business Case of a project
 
