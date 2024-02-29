@@ -2012,8 +2012,8 @@ feature-set: Workfront
     * [Enable Adobe Workfront Goals notifications](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
 * Adobe Maestro {#adobe-maestro}
   * [Adobe Maestro information](maestro/maestro-information.md)
-  * [Adobe Maestro overview](maestro/maestro-overview.md)
-  * [Adobe Maestro release activity](maestro/release-activity.md)
+  * [Adobe Workfront planning capabilities overview](maestro/maestro-overview.md)
+  * [Adobe Workfront planning capabilities release activity](maestro/release-activity.md)
   * Adobe Maestro architecture {#adobe-maestro-architecture}
     * [Architecture: article index](maestro/architecture/architecture-information.md)
     * [Create workspaces](maestro/architecture/create-workspaces.md)

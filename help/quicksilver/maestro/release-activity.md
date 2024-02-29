@@ -1,26 +1,26 @@
 ---
-title: Adobe Maestro release activity
-description: Adobe Maestro is currently available to select Workfront customers. Review this article often to learn about the features recently released for Adobe Maestro. 
+title: Adobe Workfront planning capabilities release activity
+description: Adobe Workfront planning capabilities are currently available to select Workfront customers. Review this article often to learn about the features recently released for the planning capabilities. 
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
 ---
-# Adobe Maestro release activity 
+# Adobe Workfront planning capabilities release activity 
 
 {{maestro-important-intro}}
 
-This article lists the features that have been released after the launch of the Maestro closed beta program, on May 22, 2023. 
+This article lists the features that have been released after the launch of the Adobe Workfront planning capabilities closed beta program, on May 22, 2023.
 
-The released features are listed in the order of their release, with the most recent first. Customers who are participating in the Maestro closed beta program can access all features in their Production environments. 
+The released features are listed in the order of their release, with the most recent first. Customers who are participating in the planning capabilities closed beta program can access all features in their Production environments. 
 
 >[!IMPORTANT]
 >
->Between May 2023 and December 2023, all features in this article were released to both the Preview and Production environment. The Maestro capabilities have temporarily been removed from the Preview and Sandbox environments since January 2024. All features released after this date are currently available in Production. 
+>Between May 2023 and December 2023, all features in this article were released to both the Preview and Production environment. The planning capabilities have temporarily been removed from the Preview and Sandbox environments since January 2024. All features released after this date are currently available in Production. 
 
-This article lists the features and patches that have been released after the launch of the Maestro closed beta program, on May 22, 2023. 
+This article lists the features and patches that have been released after the launch of the Adobe Workfront planning capabilities closed beta program, on May 22, 2023. 
 
-The features are released weekly and are listed in the order of their release, with the most recent first. Customers who are participating in the Maestro closed beta program can access all features in their Preview and Production environments.
+The features are released weekly and are listed in the order of their release, with the most recent first. Customers who are participating in the planning capabilities closed beta program can access all features in their Preview and Production environments.
 
 >[!IMPORTANT]
 >

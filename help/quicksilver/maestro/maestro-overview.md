@@ -1,12 +1,12 @@
 ---
-title: Adobe Maestro overview
-description: Adobe Maestro is a new offering from Adobe Workfront. You can create fully-customizable workspaces to define workflows that meet the needs of each organizational unit in your enterprise.
+title: Adobe Workfront planning capabilities overview
+description: Adobe Workfront planning capabilities are a new offering from Adobe Workfront. You can create fully-customizable workspaces to define workflows that meet the needs of each organizational unit in your enterprise.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 ---
-# Adobe Maestro overview
+# Adobe Workfront planning capabilities overview
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -16,12 +16,12 @@ exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 
 >[!IMPORTANT]
 >
->The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
+>The information in this article refers to Adobe Workfront planning capabilities, a new offering from Adobe Workfront. 
 >
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use Maestro capabilities.
+>Currently, the planning capabilities are part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use these capabilities.
 >
->Contact your account representative for more information about joining the beta program for Maestro.
->[View a video demonstration of Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}
+>Contact your account representative for more information about joining the beta program for the planning capabilities.
+>[View a video demonstration of Adobe Workfront planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}
 
 ## Introduction to Adobe Maestro
 

@@ -246,13 +246,13 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 
 >[!IMPORTANT]
 >
->The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
+>The information in this article refers to Adobe Workfront planning capabilities, a new offering from Adobe Workfront.
 >
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use Maestro capabilities.
+>Currently, the planning capabilities are part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use these capabilities.
 >
->Contact your account representative for more information about joining the beta program for Maestro.
+>Contact your account representative for more information about joining the beta program for the planning capabilities.
 >
->For more information about Maestro, see [Adobe Maestro overview](/help/quicksilver/maestro/maestro-overview.md). 
+>For more information about planning capabilities, see [Adobe Workfront planning capabilities overview](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 
