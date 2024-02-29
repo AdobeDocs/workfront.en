@@ -11,6 +11,10 @@ feature: Workfront Fusion
 
 <!--DO NOT DELETE - linked through CSH-->
 
+>[!IMPORTANT]
+>
+>Because this feature is still in the early stages of development, it is available only to internal Workfront users.
+
 You can use AI to enter a text prompt describing what you need a module to do. Fusion will then generate an HTTP module that will connect to the correct endpoint of the desired API.
 
 As with anything generated from AI, we recommend that you double check and test the generated module to ensure that it is performing as intended.
