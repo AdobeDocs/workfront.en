@@ -50,7 +50,7 @@ For more information about designating timesheet approvers, see the section [Cre
 
 You can approve any timesheets that have been submitted where you have been designated as an approver. When a timesheet is submitted for approval, the timesheet is listed in the **Approvals**&nbsp;area on your **Home** &nbsp;page. For more information, see [Approving work](../../review-and-approve-work/manage-approvals/approving-work.md).
 
-If the Workfront administrator has&nbsp;enabled the Timesheet Approval to User and the Timesheet Rejection to User event handlers, you are notified after the timesheet is approved or rejected. For information about enabling event notifications, see [Event notifications available in Adobe Workfront](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+If the Workfront administrator has&nbsp;enabled the Timesheet Approval to User and the Timesheet Rejection to User event handlers, you are notified after the timesheet is approved or rejected. For information about enabling event notifications, see [Event notification types](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 To approve a timesheet:
 

@@ -28,7 +28,10 @@ This page provides information about functionality that is included in the Secon
 ## Adobe Workfront enhancements
 
 * [Administrator enhancements](#administrator-enhancements)
+* [Home enhancements](#home-enhancements)
 * [Project enhancements](#project-enhancements)
+* [Update stream and notification enhancements](#update-stream-and-notification-enhancements)
+* [Other enhancements](#other-enhancements)
 
 ### Administrator enhancements
 
@@ -48,6 +51,22 @@ This page provides information about functionality that is included in the Secon
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Attribute mapping now available for organizations that have migrated to Adobe IMS</a></p>
+                        <p>[!BADGE In production ]{type=Informative}</p><p>Workfront system administrators can now set up user attribute mapping for organization that have migrated to Adobe IMS. This allows user information to pass into Workfront from the organization's SSO (Single Sign-on) provider, so that the user's data does not have to be entered into both Workfront and the SSO provider.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: February 22, 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release for all customers: February 22, 2024</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Skip logic and display logic are now available in the form designer beta</a></p>
                         <p>You can now edit existing display and skip logic and add new logic to custom forms in the form designer beta. An easy-to-use logic builder helps you define which fields to display or skip based on selections in the form.</p>
                     </td>
@@ -60,7 +79,7 @@ This page provides information about functionality that is included in the Secon
                                 <p>Production for fast release: With the 24.2 release (February 15, 2024)</p>
                             </li>
                             <li>
-                                <p>Production for all customers: TBD</p>
+                                <p>Production for quarterly release: TBD</p>
                             </li>
                         </ul>
                     </td>
@@ -156,9 +175,64 @@ This page provides information about functionality that is included in the Secon
                             </li>
                         </ul>
                     </td>
-                    </tr>
+                 </tr>
            </tbody>
         </table>
+
+### Update stream and notification enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">New update stream tab to capture both comments and system activity entries</a><span style="color: #ff0000;"> New in Preview!</span></p><p>To give you a chronologically cohesive view of both comments and system activity logs, we are introducing a third tab to the Updates area of all objects. The "All" tab captures both user comments and system activity comments in one cohesive stream.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: February 22, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 24.3 release (March, 2024)</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 24.4 release (April 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">New commenting stream now available in the Summary panel</a><span style="color: #ff0000;"> New in Preview!</span></p><p>We have now added the new commenting functionality to the Summary panel for task and issue lists.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: February 22, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 24.3 release (March, 2024)</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 24.4 release (April 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>           
+           </tbody>
+</table>   
 
 ### Other enhancements
 

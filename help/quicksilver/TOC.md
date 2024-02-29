@@ -15,9 +15,10 @@ feature-set: Workfront
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
     * 2024 Q2 Release {#release-24-q2}
       * [2024 Q2 Release Overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
-      * [2024 Q2 Project enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md)
       * [2024 Q2 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md)
       * [2024 Q2 Home enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md)
+      * [2024 Q2 Project enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md)
+      * [2024 Q2 Update stream enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md)
       * [Look-and-feel updates during the 2024 Q2 release timeframe](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md)
     * 2024 Q1 Release {#release-24-q1}
       * [2024 Q1 Release overview](product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
@@ -651,7 +652,7 @@ feature-set: Workfront
       * [Emails](administration-and-setup/manage-workfront/emails/emails.md)
       * [Email Notifications: article index](administration-and-setup/manage-workfront/emails/email-notifications-page.md)
       * [Configure event notifications](administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md)
-      * [Available event notificationa](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
+      * [Event notification types](administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md)
       * [Unlock event notifications for all groups](administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md)
       * [Event notification subject lines](administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md)
       * [Modify users' email notification settings](administration-and-setup/manage-workfront/emails/modify-email-notification-settings-user-profiles.md)
@@ -934,8 +935,9 @@ feature-set: Workfront
       * [Manage your Adobe Workfront account](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/manage-workfront-account.md)
       * [Log in to Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md)
       * [Log out of Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-out-of-workfront.md)
-      * [Receive email invitations and create a password for Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
       * [Reset a user's password with Enhanced Authentication](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-user-password-eauth.md)
+      * [Receive email invitations and create a password for Adobe Workfront](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/receive-email-invitations.md)
+      * [Create an account in [!DNL Adobe Workfront] as an external user](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/create-account-external-user.md)
       * [Reset your password](workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/reset-your-password.md)
   * Mobile Apps {#mobile-apps}
     * [Mobile Apps](workfront-basics/mobile-apps/mobile-apps.md)
@@ -1721,7 +1723,7 @@ feature-set: Workfront
     * [Resource Management](resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
     * [Get started with Resource Management](resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
   * Resource Planning in Adobe Workfront {#resource-planning-in-adobe-workfront}
-    * [Resource Planning in Adobe Workfront](resource-mgmt/resource-planning/resource-planning-overview.md)
+    * [Resource Planning: article index](resource-mgmt/resource-planning/resource-planning-overview.md)
     * Resource Pools {#resource-pools}
       * [Resource Pools](resource-mgmt/resource-planning/resource-pools/resource-pools.md)
       * [Resource pools overview](resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
@@ -1781,19 +1783,21 @@ feature-set: Workfront
     * [Delegate approval request](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
     * [Associate a new or existing approval process with work](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
     * [Recall submitted approvals](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
-  * Document reviews and approvals {#document-reviews-and-approvals}
-    * [Document reviews and approvals](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
+  * Document review and approval {#document-reviews-and-approvals}
+    * [Document review and approval](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
     * [Document approvals overview](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
-    * Manage document approvals {#manage-document-approvals}
-      * [Manage document approvals](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/manage-document-approvals.md)
-      * [Create a document approval](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
-      * [Add additional reviewers or approvers to a document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
-      * [Remove approvers or reviewers from a document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
-      * [Document approval status](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-    * Review and approve documents {#review-and-approve-documents}
-      * [Review and approve documents](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-and-approve-documents.md)
+    * Review documents {#review-and-approve-documents}
+      * [Review documents: article index](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
       * [Review a document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
-      * [Approve a document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
+      * [Connect Workfront and Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
+      * [Add a Frame.io asset to a connected Workfront project](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
+    * [Approve documents]{#approve-documents}
+        * [Approve documents: article index](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
+        * [Create a document approval](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+        * [Add additional reviewers or approvers to a document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
+        * [Remove approvers or reviewers from a document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+        * [Document approval status](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
+        * [Approve a document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
   * Proofing {#proofing}
     * [Proofing: article index](review-and-approve-work/proofing/proofing.md)
     * Proofing overview {#proofing-overview}
@@ -2054,6 +2058,7 @@ feature-set: Workfront
     * [Manage the timeline view](maestro/views/manage-the-timeline-view.md)
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
   * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
+  * [ Fusion access table template](/help/quicksilver/workfront-fusion/fusion-access-table-template.md)
   * Get started with Adobe Workfront Fusion {#get-started-with-workfront-fusion}
     * [Get started with Adobe Workfront Fusion](workfront-fusion/get-started/get-started.md)
     * [Adobe Workfront Fusion overview](workfront-fusion/get-started/workfront-fusion-overview.md)
@@ -2150,6 +2155,7 @@ feature-set: Workfront
     * [Activate or deactivate a scenario in Adobe Workfront Fusion](workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
     * [Add a filter to a scenario in Adobe Workfront Fusion](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
     * [Debug scenarios with the Adobe Workfront Fusion DevTool](workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
+    * [Generate a module using AI](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
     * Adobe Workfront Fusion scenario templates {#fusion-scenario-templates}
       * [Scenario Templates](workfront-fusion/scenarios/templates/fusion-templates.md)
       * [Create new templates in Adobe Workfront Fusion](workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
