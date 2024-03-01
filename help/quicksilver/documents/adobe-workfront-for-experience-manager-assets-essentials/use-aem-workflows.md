@@ -161,6 +161,15 @@ In the Preview Sandbox environment:
    For details on the linked folder configuration, see [Create Adobe Experience Manager linked folders](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders) in the article [Configure the [!UICONTROL Experience Manager Assets as a Cloud Service] integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 
 1. (Optional) If you want the folder tree to be built only if certain values are present on a custom form attached to the project, click the **Apply filter** for that folder tree, then select the custom form that contains the field, the field, and the field value. If the field on the custom form attached to the new project contains the chosen value, the folder tree will be created.
+1. (Optional) When configuring folder names, you can select from the following options:
+
+   * **Name**: Type in a name for the folder. 
+
+   * **Object data**: Select the source for the folder name, such as Project name. 
+
+   * **Custom form data**: Select the custom form data to use as the folder name. 
+
+      Using custom form data for folder names is available only at the template level, and cannot be configured at the integration level.
 
 1. Click **[!UICONTROL Save]**.
 
