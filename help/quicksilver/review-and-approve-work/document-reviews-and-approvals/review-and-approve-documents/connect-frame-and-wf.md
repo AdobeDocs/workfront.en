@@ -5,7 +5,6 @@ title: Connect Workfront and Frame.io
 description: Workfront uses Frame.io in the review and approval process to meet people where they want to work. The project management and approval process is managed in Workfront, and the review process is done in Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-
 ---
 
 # Connect Workfront and Frame.io
@@ -15,9 +14,7 @@ Workfront uses Frame.io in the review and approval process to meet people where 
 * [Connect a Workfront Group to a Frame.io Team](#connect-a-workfront-group-to-a-frameio-team)
 * [Create a Workfront project and add a connected group ](#create-a-workfront-project-and-add-a-connected-group)
 
->[!IMPORTANT]
->
->The content of this article refers to updated document approval functionality that is only available for specific accounts. For information on standard approval processes, see the articles listed in [Work approvals](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+The content of this article refers to updated document approval functionality that is only available for specific accounts. For information on standard approval processes, see the articles listed in [Work approvals](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Access requirements
 
@@ -109,3 +106,9 @@ The project is still not connected, you must continue to the next section to fin
 1. Change the status from **Planning** to **Current** or a custom status that equals current. This finishes the integration and generates the project, tasks, and any documents in Frame.io. 
 
 The Frame.io icon next to the project name turns purple signaling the integration was successful. Users receive an email inviting them to the Frame.io project.
+
+>[!IMPORTANT]
+>
+>Once the project is connected for Frame.io, changes made to the project group are not reflected in Frame.io.
+
+
