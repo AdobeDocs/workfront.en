@@ -59,7 +59,14 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 ## Prerequisites
 
-To use [!DNL Dropbox] modules, you must have a [!DNL Dropbox] account.
+* To use [!DNL Dropbox] modules, you must have a [!DNL Dropbox] account.
+
+>[!IMPORTANT]
+>
+>Dropbox must approve applications with more than 50 users. 
+>
+>For more information, search for "Production approval" in the Dropbox developer guide.
+
 
 ## [!DNL Dropbox] modules and their fields
 
