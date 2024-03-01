@@ -11,7 +11,9 @@ role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: f8961140-948f-4bea-956b-a8126008b8cb
 ---
-# Layout templates
+# Layout templates: article index
+
+<!-- Audited: 2/2024 -->
 
 This section contains the following articles:
 
