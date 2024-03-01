@@ -2,7 +2,7 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Update your work in Adobe Photoshop
-description: You can update your work in the following areas - EDIT ME.
+description: You can update your work wioth the Adobe Workfront plugin.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c

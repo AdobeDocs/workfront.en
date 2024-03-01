@@ -2,15 +2,15 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: Plan a project
+title: "Plan a project: article index"
 description: The following articles contain information about projects, the Project Team, and how to plan a project. 
 author: Alina
 feature: Work Management
 exl-id: 67fddb92-4b8a-4628-9b50-a10a806e49d1
 ---
-# Plan a project
+# Plan a project: article index
 
-For information about project information, the Project&nbsp;Team, and how to plan a project, see the following articles:
+For information about project information, the Project Team, and how to plan a project, see the following articles:
 
 * [Plan a project overview](../../../manage-work/projects/planning-a-project/plan-project.md) 
 * [Determine Work Breakdown Structure in a project](../../../manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md) 

@@ -4,6 +4,7 @@ description: Migrate from the legacy or enhanced connectors
 author: Courtney
 draft: Probably
 feature: Digital Content and Documents, Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: fe407134-1265-4c84-aac7-10a303afe0fb
 ---
 # Migrate from the legacy or enhanced connectors

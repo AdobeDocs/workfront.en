@@ -4,6 +4,7 @@ description: 21.3 Other enhancements
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 82f51b74-4743-497c-87c6-6258aa7b02bf
 ---
 # 21.3 Other enhancements

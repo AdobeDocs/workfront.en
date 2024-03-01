@@ -9,7 +9,7 @@ description: Every user must have an access level in order to log in and work in
 author: Courtney
 feature: System Setup and Administration
 role: Admin
-exl-id: 1ff727f1-bc26-4ffe-a510-615bebfe5b96
+exl-id: 58c76187-fc74-4ab4-80e8-c3e296a84f27
 ---
 # Disable the auto-upgrade option for non-paid users on the new licensing plan 
 
@@ -20,7 +20,6 @@ You can disable the auto-upgrade option from the setup area. To learn more about
 >[!IMPORTANT]
 >
 >Once disabled, any non-paid user who goes over their allotted number of decisions will not be upgraded automatically.
-
 
 ## Access requirements
 
@@ -36,9 +35,9 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td>Current plan: Standard
+   <td>New plan: Standard
    <p>or</p>
-   <p>Legacy plan: Plan</p></td> 
+   <p>Current plan: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -51,6 +50,6 @@ You must have the following access to perform the steps in this article:
 
 {{step-1-to-setup}}
 
-1.  Scroll down to [!UICONTROL **Preferences**].
+1. Expand [!UICONTROL **System**] in the left navigation, then click [!UICONTROL **Preferences**].
 1. In the [!UICONTROL **General Preferences**] section, check the [!UICONTROL **Disable auto-upgrade within Access Levels**] box.
 1. Click [!UICONTROL **Save**].

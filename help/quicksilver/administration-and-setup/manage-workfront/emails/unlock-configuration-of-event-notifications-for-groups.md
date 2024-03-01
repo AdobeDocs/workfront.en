@@ -4,7 +4,7 @@ product-area: system-administration
 navigation-topic: emails-administration
 title: Unlock or lock configuration of event notifications for all groups
 description: If you are an Adobe Workfront administrator, you can unlock or re-lock the ability for group administrators to configure an event notification for top-level groups they manage. Configuration of an event notification consists of activating or deactivating it.
-author: Lisa, Caroline
+author: Lisa, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 056d76c1-7e9b-49b9-974a-75765e53b7fd
@@ -57,11 +57,11 @@ You must have the following access to perform the steps in this article:
 1. Click **Email** > **Notifications**.
 
 1. Make sure the **Event Notifications** tab is open.
-1. Click the icon to the right of the notification to switch it to the unlocked ![](assets/lock-toggle-button.png) or locked ![](assets/unlock-toggle-button.png) position.
+1. Click the icon to the right of the notification to switch it to the locked ![Lock icon](assets/lock-toggle-button.png) or unlocked ![Unlock icon](assets/unlock-toggle-button.png) position.
 
    Or
 
-   If you want to unlock or lock multiple notifications all at once, select them, then click the Unlock ![](assets/unlock-icon-toolbar.png) or Lock ![](assets/lock-icon-locked-qs.png) button that displays in the toolbar above the list.
+   If you want to unlock or lock multiple notifications all at once, select them, then click the Unlock ![Unlock icon](assets/unlock-icon-toolbar.png) or Lock ![Lock icon](assets/lock-icon-locked-qs.png) button that displays in the toolbar above the list.
 
 1. Click **Save**.
 1. (Optional) If you want to configure the event notification for a top-level group instead of leaving this task to the group's administrator, you can do one of the following:

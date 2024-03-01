@@ -4,6 +4,7 @@ description: 22.4 Project enhancements
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 41372dd8-5002-4f8b-a5ac-a577c8b05d11
 ---
 # 22.4 Project enhancements
@@ -121,6 +122,6 @@ With this Public Beta Users are given the opportunity to submit feedback directl
 
 We want to deliver value to you iteratively so we will continue to deliver as the new experiences and other areas are ready. Stay tuned for more exciting updates.
 
-For more information, see [Filters overview in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md) and [Create or edit filters in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+For more information, see [Filters overview](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md) and [Create or edit filters in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 [View a video demonstration of this feature.](https://video.tv.adobe.com/v/3412391/)

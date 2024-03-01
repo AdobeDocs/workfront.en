@@ -7,6 +7,7 @@ title: Connections in Adobe Workfront Fusion
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 author: Becky
 feature: Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 7fc257ea-0c17-4bf5-aa07-e81f6f2d756c
 ---
 # Connections in Adobe Workfront Fusion
@@ -25,6 +26,6 @@ This section contains the following articles:
 * [Connect [!DNL Adobe Workfront Fusion] to a web service that uses API token authorization](../../workfront-fusion/connections/connect-wf-web-service-uses-api-token-auth.md)
 * [Connect [!DNL Adobe Workfront Fusion] to [!DNL Google Services] with updated security measures](../../workfront-fusion/connections/connect-to-google-with-new-security-measures.md)
 * [Connect [!DNL Adobe Workfront Fusion] to [!DNL Google Services] using a custom OAuth client](../../workfront-fusion/connections/connect-fusion-to-google-using-oauth.md)
-* [Call the [!DNL MS Graph REST API] via the [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] module](../../workfront-fusion/connections/call-the-ms-graph-rest-api-.md)
+* [Call the [!DNL MS Graph REST API] via the [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] module](../../workfront-fusion/connections/call-the-ms-graph-rest-api.md)
 * [Keys in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/connections/keys.md)
 * [Receive a webhook from a web service](../../workfront-fusion/connections/receive-a-webhook-from-a-web-service.md)

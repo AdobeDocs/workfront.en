@@ -3,8 +3,8 @@ title: Add or edit a web content block in Reporting Canvas
 description: Web content blocks allow you to display information from external websites directly within your report.
 hidefromtoc: yes
 hide: yes
+exl-id: 29f0c2e1-1644-4989-81b1-c6db6bfec905
 ---
-
 # Add or edit a web content block in Reporting Canvas
 
 Web content blocks allow you to display information from external websites directly within your report.

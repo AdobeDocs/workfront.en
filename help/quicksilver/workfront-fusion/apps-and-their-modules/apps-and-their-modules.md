@@ -8,6 +8,7 @@ title: Apps and their modules
 description: Adobe Workfront Fusion currently offers dedicated connectors for the apps on this list. If the app you want to work with is not on this list, you can connect to it using the HTTP, SOAP, or JSON modules.
 author: Becky
 feature: Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
 ---
 # Apps and their modules
@@ -28,10 +29,12 @@ This section contains the following articles:
 * [[!DNL Adobe Workfront] modules](../../workfront-fusion/apps-and-their-modules/workfront-modules.md) 
 * [[!DNL Workfront Proof] modules](../../workfront-fusion/apps-and-their-modules/workfront-proof-modules.md) 
 * [[!DNL Adobe Acrobat Sign] modules](../../workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
+* [Adobe Authenticator module](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md)
 * [[!DNL Adobe Campaign Classic] modules](../../workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md) 
 * [[!DNL Adobe Creative Cloud Libraries] modules](../../workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md) 
 * [[!DNL Adobe Experience Manager Assets] modules](../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
 * [[!DNL Adobe Journey Optimizer] modules](../../workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md) 
+* [Adobe Maestro modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
 * [[!DNL Adobe PDF Services] modules](../../workfront-fusion/apps-and-their-modules/pdf-modules.md) 
 * [[!DNL Adobe Photoshop] modules](../../workfront-fusion/apps-and-their-modules/adobe-photoshop-modules.md) 
 * [[!DNL Adobe Target] modules](../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md) 
@@ -112,6 +115,7 @@ This section contains the following articles:
 * [[!DNL Microsoft Word Template] modules](../../workfront-fusion/apps-and-their-modules/microsoft-word-templates-modules.md) 
 * [[!UICONTROL MIME] modules](../../workfront-fusion/apps-and-their-modules/mime.md) 
 * [[!DNL NetSuite] modules](../../workfront-fusion/apps-and-their-modules/netsuite.md) 
+* [[!DNL OpenAI(ChatGPT & DALL-E)] modules](../../workfront-fusion/apps-and-their-modules/openai-chatgpt-modules.md) 
 * [[!DNL Qualtrics] modules](../../workfront-fusion/apps-and-their-modules/qualtrics-modules.md) 
 * [[!DNL Quickbase] modules](../../workfront-fusion/apps-and-their-modules/quickbase-modules.md) 
 * [[!DNL Salesforce] modules](../../workfront-fusion/apps-and-their-modules/salesforce-modules.md) 

@@ -81,6 +81,12 @@ You can temporarily modify the width and order of columns in a list without edit
 Consider the following when temporarily resizing and ordering columns:
 
 * When resizing columns, the new column sizes are stored in your browser's local storage, and are saved by default. Using a different browser or clearing your cache or browsing data results in column sizes being reverted to the default. Refreshing your page keeps the changes you make to the width of the columns.
+
+>[!NOTE]
+> 
+>Column widths are limited by the size of the browser window; if the page is refreshed, columns will be reduced in width until all columns can fit in the window without horizontally scrolling. To force a column to remain wider than the browser will fit, you must set the column's width in text mode as described in [Modify width and order of columns permanently](#modify-width-and-order-of-columns-permanently) and avoid manually adjusting any column widths by dragging their borders.
+>
+
 * When reordering columns, the order you choose is maintained only until you navigate away from the list, or you refresh the browser page. After navigating away from the list or refreshing the browser page, columns return to their default order.
 * For optimal performance, the columns you are reordering should not have more than 100 items in the list.
 * When you resize columns, your changes apply only to the view you are currently using and are visible only to you. Sharing a view with another user does not share the column sizes that you have defined.

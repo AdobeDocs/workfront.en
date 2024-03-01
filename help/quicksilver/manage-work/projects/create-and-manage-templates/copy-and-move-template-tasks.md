@@ -44,18 +44,37 @@ You must have the following access to perform the steps in this article:
 
 ## Considerations for copying or moving template tasks
 
-Consider the following when copying a template task:
+Consider the following when copying template tasks:
 
-* Milestones are not transferred to the copied or moved template task.
+* The following information does not transfer to the copied task: 
 
-* You can copy a template task in the following areas of the Adobe Workfront web application:
+   * Milestones
 
-    * At the template task level, from the **More icon** ![](assets/more-icon.png) to the right of the template task name.
+* You have a chance to select to copy some items associated with the template task to the copied task during the copying process. However, by default, the following objects do not transfer to the copied task:
 
-    * In a template task list. 
-* You can copy or move template tasks one at a time, or by selecting multiple template tasks. 
+   * User comments
+
+* Custom forms are copied with the template task when you copy a template task. The information in the custom fields transfers to the new template task only when you select to copy Custom Data. 
+
+* The following items transfer to the copied template task by default:
+
+   * Subtasks
+
+Consider the following when moving template tasks: 
+
+* The following information transfers to the moved task, by default:
+
+   * Custom forms and custom field information
+   * Subtasks
+   * User comments
+
+* The following information does not transfer to the moved task: 
+
+   * Milestones.
 
 ## Copy template tasks 
+
+You can copy a single template task or you can copy several template tasks in bulk. 
 
 1. Go to the template that contains the template task or template tasks that you want to copy.
 1. Click **Template Tasks** in the left panel. 
@@ -153,7 +172,6 @@ Consider the following when copying a template task:
     </tbody> 
    </table>
 
-(ASKING ABOUT THE LAST ROW: TEMPLATE TASK DOESN'T SEEM TO HAVE "SHARING")
 
 1. (Optional) Click **Select Parent** in the left panel, then select the template task in the destination template that you want to become the parent of the copied template task.
 
@@ -179,8 +197,7 @@ Consider the following when copying a template task:
 
 ## Move template tasks 
 
-In addition to copying template tasks, you can also move a template task either to another template task in the same template or to another template. 
-
+You can move a template task either to another template task in the same template or to another template. You can move one template task or multiple template tasks, in bulk.
 
 1. Go to the template that contains the template task or template tasks that you want to move.
 1. Click **Template Tasks** in the left panel. 
@@ -288,7 +305,6 @@ In addition to copying template tasks, you can also move a template task either 
     </tbody> 
    </table>
 
-(ASKING ABOUT THE LAST ROW: TEMPLATE TASK DOESN'T SEEM TO HAVE "SHARING")
 
 1. (Optional) Click **Select Parent** in the left panel, then select the template task in the destination template that you want to become the parent of the moved template task.
 

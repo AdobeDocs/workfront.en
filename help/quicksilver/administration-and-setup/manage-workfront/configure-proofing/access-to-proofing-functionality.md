@@ -16,10 +16,11 @@ The proofing functionality available to your users depends on which Workfront pl
 
 ## Proofing in Workfront
 
-There are currently two plan options for Proofing in Workfront:
+There are currently three plan options for Proofing in Workfront:
 
-* **Workfront Pro+ Plans**: This option is for all of the current Workfront Plans—Pro, Business, and Enterprise. Proofing is automatically included for Work and Plan licenses if you have the pro, business or enterprise Workfront plans. 
-* **Workfront Premium Legacy plans**: This option is for legacy Workfront Plans—Select, Enterprise, Premium. Proofing is not automatically included with licenses in this plan. You must grant proofing access to specific users in their user profile.
+* **New Workfront plans**: Proofing is automatically included for all licenses in the new Workfront plans.
+* **Current Workfront Pro+ Plans**: Proofing is automatically included for Work and Plan licenses if you have the pro, business or enterprise Workfront plans. 
+* **Legacy Workfront Premium plans**: This option is for legacy Workfront Plans—Select, Enterprise, Premium. Proofing is not automatically included with licenses in this plan. You must grant proofing access to specific users in their user profile.
 
   If you are a Workfront administrator, you can check and see which plan your instance is on by going to Setup > System > Licenses.
 
@@ -27,7 +28,7 @@ There are currently two plan options for Proofing in Workfront:
 
 For information about granting and revoking a user's access to create and view proofs in Workfront, see [Configure a user's proofing access](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
 
-* Generate static or interactive proofs on external-facing URLs and documents. For more information, see [Create proofs](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md).
+* Generate static or interactive proofs on external-facing URLs and documents. For more information, see [Create proofs](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).
 * Include Automated Workflows on proofs. For more information, see [Automated Workflow overview](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 * Set access and subscriptions settings on proofs. For more information, see [Configure access and subscription settings for a proof](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md).
 * Assign custom proof permission profiles when enabling proofing capabilities for a user in Workfront. For more information, see [Enable and disable proofing for a user (legacy plans only)](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md#enabling-and-disabling-proofing-for-a-user) in [Configure a user's proofing access](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).

@@ -5,6 +5,7 @@ title: Uploading files via the API
 description: Uploading files via the API
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 4e0b73b6-0d6d-4971-a87a-dfec85fb031a
 ---
 # Uploading files via the API

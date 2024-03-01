@@ -3,8 +3,8 @@ title: Add or edit a table block in Reporting Canvas
 description: Add or edit a table block in Reporting Canvas
 hidefromtoc: yes
 hide: yes
+exl-id: d706659c-457f-4da0-a6e7-03ea29cab700
 ---
-
 # Add or edit a table block in Reporting Canvas
 
 A table displays field information in columns that can be filtered, grouped, and sorted.

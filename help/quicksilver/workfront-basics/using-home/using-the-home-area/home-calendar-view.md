@@ -3,8 +3,8 @@ content-type: overview
 product-area: calendars
 navigation-topic: use-the-home-area
 title: Home Calendar view
-description: Updated for QS except for section about expanding a work item in the list--this isn't working yet in QS.
-author: Lisa
+description: The [!UICONTROL Home Calendar] view in the [!UICONTROL Home] area allows you to view and manage your work week and work assignments on a personal work calendar visible only to you. You can use it to schedule when you want to do your work. And you can integrate it with outside calendars such as a [!UICONTROL Microsoft Outlook] calendar. 
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 174bf68f-bbb7-4777-aeeb-53a0b3a8b1f7
 ---

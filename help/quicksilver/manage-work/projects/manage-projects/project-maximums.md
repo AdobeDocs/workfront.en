@@ -24,7 +24,9 @@ The following objects associated with projects have the following limits:
    
    <b>IMPORTANT</b>
 
-   For projects where tasks have a lot of dependencies, we recommend that the number of tasks in the projects should be much lower than the maximum allowed of 5,000 tasks. 
+   For projects where tasks have a lot of dependencies, a performance degradation might occur in calculating the timeline or when working in the project. 
+   
+   For this reason, we recommend that the number of tasks in projects with complex dependencies should be much lower than the maximum allowed of 5,000 tasks. 
    
    Some examples of task dependencies that might influence or prevent recalculating the project's timeline are:
 

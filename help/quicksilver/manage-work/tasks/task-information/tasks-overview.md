@@ -10,9 +10,12 @@ exl-id: 060918b2-8c3f-4f85-a8ac-bcd36141d071
 ---
 # Tasks overview
 
+<!-- Audited: 01/2024 -->
+
 A task is a work item inside of a project. It represents a finite amount of work smaller than the project.
 
-Tasks can be assigned to users to be completed. When all the tasks in a project are completed, the project Status can be marked Complete.  
+Tasks can be assigned to users to be completed. When all the tasks in a project are completed, the project Status can be marked Complete.
+
 For more information about projects in Adobe Workfront, see [Create a project](../../../manage-work/projects/create-projects/create-project.md).
 
 The following are types of tasks in a project:
@@ -33,15 +36,15 @@ For more information about the Summary Completion Mode of projects, see [Edit pr
 
 ## Overview of Subtasks or children tasks
 
-Subtasks or children tasks are tasks listed under a parent task. They typically influence the update and the resolution of the parent task.
+Subtasks or children tasks are tasks listed under a parent task. They typically influence the updating and the resolution of the parent task.
 
-For more information about parent tasks, see [Overview of Parent tasks](#overview-of-parent-tasks).
+For more information about parent tasks, see [Overview of Parent tasks](#overview-of-parent-tasks) in this article.
 
 For more information about creating a child task, see [Create tasks in a project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
 ## Overview of top-level tasks
 
-Top-level tasks are a type of working tasks which can either be a parent or a stand-alone task with no parent nor children. You can update and complete top-level tasks without influencing the update or resolution of other tasks.
+Top-level tasks are a type of working tasks, which can either be a parent or a stand-alone task with no parent nor children. You can update and complete top-level tasks without influencing the update or resolution of other tasks.
 
 ## Overview of working tasks
 

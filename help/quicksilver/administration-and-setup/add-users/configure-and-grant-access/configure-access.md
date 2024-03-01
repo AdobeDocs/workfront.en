@@ -8,6 +8,7 @@ description: As an Adobe Workfront administrator, can grant users access to view
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 150a7e52-d379-4909-b7e3-df8a0b0289d1
 ---
 # Configure access to Adobe Workfront

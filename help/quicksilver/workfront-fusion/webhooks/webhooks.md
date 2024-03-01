@@ -7,6 +7,7 @@ title: Webhooks in Adobe Workfront Fusion
 description: Learn more about webhooks in Adobe Workfront Fusion
 author: Becky
 feature: Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 54d74cd4-8513-45aa-8ac4-0a746d472f0f
 ---
 # Webhooks in [!DNL Adobe Workfront Fusion]

@@ -3,8 +3,8 @@ title: Configure a KPI visualization in Reporting Canvas
 description: Configure a KPI visualization in Reporting Canvas
 hidefromtoc: yes
 hide: yes
+exl-id: 38beccf6-d7bc-478f-8bba-56607d315e6f
 ---
-
 # Configure a KPI visualization in Reporting Canvas
 
 A Key Performance Indicator (KPI) visualization can help you convey the current performance of your organization at a glance.

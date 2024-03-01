@@ -6,6 +6,7 @@ title: Issue information
 description: Issues are work items that represent unexpected or unplanned work on a project. The following articles contain information about issues. 
 author: Alina
 feature: Work Management
+recommendations: noDisplay, noCatalog
 exl-id: 95ea93d7-6cc3-4aaa-a8f7-8a59dda6b5f1
 ---
 # Issue information

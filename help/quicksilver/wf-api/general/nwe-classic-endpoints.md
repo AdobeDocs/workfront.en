@@ -3,6 +3,7 @@ title: nwe-classic-endpoints
 description: nwe-classic-endpoints
 author: Becky
 draft: Probably
+role: Developer
 ---
 # nwe-classic-endpoints
 

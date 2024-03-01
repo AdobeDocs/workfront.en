@@ -4,6 +4,7 @@ description: 20.4 Project management enhancements
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
 ---
 # 20.4 Project management enhancements

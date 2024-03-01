@@ -3,7 +3,7 @@ content-type: reference
 product-area: documents
 navigation-topic: proofing-overview
 title: Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview
-description: Adobe Workfront provides two different proofing viewers - EDIT ME.
+description: Learn the differences between the desktop and web proofing viewers.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 72ce147b-29c9-4c3b-a03c-2da0758bc178

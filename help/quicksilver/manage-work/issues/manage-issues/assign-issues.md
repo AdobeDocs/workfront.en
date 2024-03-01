@@ -10,7 +10,7 @@ exl-id: e2dce29e-7370-4580-8326-99c4437998bf
 ---
 # Assign issues
 
-You can assign issues to users, roles, and teams to indicate who is responsible for completing the issues. For general information about assigning issues, see [Modify issue assignments overview](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+You can assign issues to users, roles, and teams to indicate who is responsible for completing the issues. For general information about assigning issues, see [Overview of modifying issue assignments](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!TIP]
 >
@@ -23,7 +23,7 @@ You can assign issues to users, roles, and teams to indicate who is responsible 
 
 In addition to this article, we recommend that you read the following articles for more information about assigning issues:
 
-* [Modify issue assignments overview](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md) 
+* [Overview of modifying issue assignments](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md) 
 * [Edit issues](../../../manage-work/issues/manage-issues/edit-issues.md) 
 * [Modify user assignments for multiple issues in a list](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md) 
 * [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md) 
@@ -115,8 +115,8 @@ Consider the following when assigning multiple resources to a work item:
      ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
 
    * (Conditional) Click one of the names in the **Suggested Assignments** list 
-   * Click**Assign to me** to assign it to yourself
-   * Click **Advanced**
+   * Click **Assign to me** to assign it to yourself
+   * Click **Advanced**.
 
      Creating advanced assignments is similar for tasks and issues. For information about how to make advanced assignments, see [Create advanced assignments](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 

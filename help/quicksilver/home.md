@@ -57,19 +57,19 @@ See [Documents](/help/quicksilver/documents/documents-overview.md).
 
 To display existing information in an easy-to-read format and share it with all stakeholders, use reports and dashboards. 
 
-See [Reports and Dashboards](/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md). 
+See [Reports and Dashboards: article index](/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md). 
 
 #### Text mode reporting
 
 If you can't figure out how to create the report you need in Workfront, the solution you're looking for might be found using Text Mode. 
 
-See [Text Mode resources](/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md).
+See [Text Mode resources: article index](/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md).
 
 ### The Workload Balancer
 
 Use the Workload Balancer as an alternative to scheduling resources in Workfront.
 
-See [The Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
+See [The Workload Balancer: article index](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md).
 
 ### Adobe Workfront Goals
 

@@ -10,6 +10,10 @@ exl-id: 2976f7e8-be84-4d27-9d70-8430392d5331
 ---
 # Use the card list
 
+>[!IMPORTANT]
+>
+>Workstreams are not available for all customers.
+
 You can create a card list on a workstream and add the cards to iterations.
 
 The card list can function as a backlog of work for the workstream.

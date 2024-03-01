@@ -2,7 +2,7 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Create a custom report
-description: Understanding how to create reports helps you provide access to the information your organization needs within Adobe Workfront. You can use any of the built-in reports available in Workfront, or you can build your own reports from scratch.
+description: You can provide access to the information your organization needs within Adobe Workfront by creating reports. You can use any of the built-in reports available in Workfront, or you can build your custom reports from scratch.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
@@ -10,11 +10,13 @@ exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
 
 # Create a custom report
 
-Understanding how to create reports helps you provide access to the information your organization needs within Adobe Workfront. You can use any of the built-in reports available in Workfront, or you can build your own reports from scratch.
+<!--Audited: 12/2023-->
 
-For more information on built-in reports, see [Use Adobe Workfront built-in reports](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md). 
+You can provide access to the information your organization needs in Adobe Workfront by creating reports. You can use any of the built-in reports available in Workfront, or you can build your custom reports from scratch.
 
-For information on creating a report by copying it, see [Create a copy of a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+For more information about built-in reports, see [Use Adobe Workfront built-in reports](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md). 
+
+For information about creating a report by copying it, see [Create a copy of a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 For more information about creating and managing reports, including classes, videos, and tutorials, see the Learn section on the Adobe Experience League site. 
 
@@ -32,15 +34,18 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>New: Standard </p>
+   or
+   <p>Current: Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Reports, Dashboards, Calendars</p> <p>Edit access to Filters, Views, Groupings</p> <p><b>NOTE</b></p>
+   <p> If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>You will obtain manage permissions to the report you create</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>You obtain Manage permissions to the reports you create.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -49,9 +54,8 @@ You must have the following access to perform the steps in this article:
 
 ## Create a report {#create-a-report}
 
-To watch a video of how to create a report, see this [Create a custom report](#Walk-thr) below.
+{{step1-to-reports}}
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner, then click **Reports**.
 1. Click **New Report**, then select the object type that you want for the report.
 
    The report builder loads.
@@ -102,17 +106,17 @@ To watch a video of how to create a report, see this [Create a custom report](#W
 
 1. Start creating a report as described in the [Create a report](#create-a-report) section in this article.
 1. In the report builder, select the **Columns (View)** tab to identify the columns to appear in the report.
-1. (Optional) Click **Apply an Existing View** to use an existing view.
+1. (Optional) Click **Apply an Existing View** and click the name of a view in the drop-down menu to use an existing view.
 
-   For more information about creating a new view, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   For more information about creating a view, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+
+1. (Optional) To remove an existing column, click the column that you want to remove, then click the **x** next to the current name in the column header.
 
 1. To add a new column, click **Add Column**.
 
    Or
 
-   To change an existing column, select the column that you want to change, then click the (x) next to the current name.
-
-1. Begin typing the field that you want to add. If the field is available, it populates for each object where it can be associated. Click the name of the field to add it to the column.
+   To change an existing column, click the column, click the **Remove** icon ![](assets/x-icon-circled.png) to the left of the current field in the **Show in this column field** box in the upper-left corner of the report builder, and start typing a new field, then click it when it displays in the list.
 
    For more information about the fields you see in the columns, see [Glossary of Adobe Workfront terminology](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
@@ -143,7 +147,7 @@ To watch a video of how to create a report, see this [Create a custom report](#W
    >
    >The following exceptions apply for parent objects (for example, parent tasks) when you are aggregating values for the following fields in groupings:
    >
-   >* All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents. 
+   >* All the number and currency fields except Actual Hours (for example, Planned or Actual Labor Cost, Planned or Actual Expense Cost, Planned or Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents. 
    >* Actual Hours aggregate the values for the main parent and the standalone tasks; they do not aggregate the numbers for the parents of parent tasks or the children tasks. 
    >* Custom data fields for number and currency values aggregate all tasks: parents, children, parents of parents, and standalone tasks. 
 
@@ -186,7 +190,8 @@ To watch a video of how to create a report, see this [Create a custom report](#W
 
    Or
 
-   Choose **Apply an Existing Grouping** to select an existing grouping
+   Choose **Apply an Existing Grouping** to select an existing grouping when it displays in the list. 
+
    ![](assets/nwe-add-grouping-350x230.png)
 
 1. Start typing the field that you want to add as a grouping. If the field is available, it populates for each object where it can be associated. Click the name of the field to add it to that grouping.
@@ -203,7 +208,7 @@ To watch a video of how to create a report, see this [Create a custom report](#W
    >* When you manually adjust groupings when viewing a list, Workfront remembers your manual preference until you log out. When you log back in, the list displays according to this setting.
    >* The results of a grouping always display expanded after accessing them from a chart element.
 
-1. (Optional) You can choose to build a matrix grouping, to show your results in a grid format.
+1. (Optional) Click **Switch to Matrix Grouping**, to build a matrix grouping and display your results in a grid format.
 
    For more information about building a matrix report, see [Create a matrix report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
@@ -224,7 +229,7 @@ To watch a video of how to create a report, see this [Create a custom report](#W
 1. If you clicked **Add a Filter Rule**, start typing the field that you want to add as a filter. If the field is available, it populates for each object where it can be associated. Click the name of the field to add it to that filter.  
    Use filter modifiers to build your filter. For more information about filter modifiers, see [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
-   For more information about creating new filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   For more information about creating new filters, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Optional) You can choose to build a filter in text mode by clicking **Switch to Text Mode**.
 

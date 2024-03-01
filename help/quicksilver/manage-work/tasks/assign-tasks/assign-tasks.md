@@ -12,10 +12,6 @@ exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
 
 {{highlighted-preview}}
 
->[!IMPORTANT]
->
->The assignment rate override feature was temporarily disabled in Preview on June 30, 2023.
-
 You can assign tasks to users, job roles, or teams to indicate who is responsible for completing the tasks. You can assign a task to more than one resource at a time.
 
 >[!TIP]

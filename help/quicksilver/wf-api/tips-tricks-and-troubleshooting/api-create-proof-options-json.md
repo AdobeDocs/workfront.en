@@ -5,6 +5,7 @@ title: Add advanced proofing options with Adobe Workfront API
 description: Add advanced proofing options with Adobe Workfront API
 author: Becky
 feature: Workfront API, Workfront Proof
+role: Developer
 exl-id: 5fcdf07e-d077-4d6a-bc3f-973983877c7c
 ---
 

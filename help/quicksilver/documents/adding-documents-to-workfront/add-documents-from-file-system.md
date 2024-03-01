@@ -2,20 +2,18 @@
 product-area: documents
 navigation-topic: add-documents-to-workfront
 title: Add documents to Adobe Workfront from your file system
-description: You can add documents to projects, tasks, or issues in the following areas in Adobe Workfront - EDIT ME.
+description: You can add documents to projects, tasks, or issues in multiple areas in Adobe Workfront.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
 ---
 # Add documents to Adobe Workfront from your file system
 
-{{preview-and-fast-release}}
-
 You can add documents to projects, tasks, or issues in the following areas in Adobe Workfront:
 
 * The global Documents area 
 * The Documents area for a Workfront object
-* <span class="preview">A connected card on a Workfront board</span>
+* A connected card on a Workfront board
 
 You can also upload new versions of documents and add links to documents from third-party cloud vendors, such as Google Drive, Dropbox, and Microsoft OneDrive. For information about adding new versions of documents, see [Upload a new version of a document](../../documents/managing-documents/upload-new-document-version.md). For information about adding documents from third-party cloud vendors, see [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
@@ -61,7 +59,7 @@ To add a document:
 1. Go to the project, task, or issue where you want to add a new document.
 1. Click the **Documents** tab, then click the **Add New** drop-down menu.
 
-   ![](assets/add-new-350x138.png)
+   ![](assets/add-new-doc.png)
 
 1. Depending on the type of document you want to add, do any of the following: 
 
@@ -94,7 +92,7 @@ To add a document:
         <li value="1">From the <strong>Add New</strong> drop-down menu, select <strong>Request a Document</strong>.</li> 
         <li value="2">In the <strong>Who are you requesting it from</strong> box, type the name of the user from whom you are requesting the document.</li> 
         <li value="3">In the <strong>Tell them what you're requesting</strong> box, type the name of the document.</li> 
-        <li value="4"> <p>Click <strong>Send Request</strong>.</p> <p>Your request displays on your Documents tab.</p> <p> <img src="assets/request-a-document-350x110.png" style="width: 350;height: 110;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> <p>For more information about requesting documents, see <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Request a Document</a>.</p> </li> 
+        <li value="4"> <p>Click <strong>Send Request</strong>.</p> <p>Your request displays on your Documents tab.</p> <p>For more information about requesting documents, see <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Request a Document</a>.</p> </li> 
        </ol> </td> 
      </tr> 
     </tbody> 

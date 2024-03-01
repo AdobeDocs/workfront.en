@@ -178,9 +178,9 @@ This function converts a text string to a date, according to the format and time
 >
 >    Returns 2016-12-28T16:03:06.000Z
 >
->*   `parseDate(1482940986;X)`
+>* `parseDate(1482940986;X)`
 >
->  Returns 2016-12-28T16:03:06.000Z
+>   Returns 2016-12-28T16:03:06.000Z
 
 ## [!UICONTROL addDays (date; number)] {#adddays-date-number}
 
@@ -190,7 +190,7 @@ Returns a new date as a result of adding a given number of days to a date. To su
 >
 >**Examples:**
 >
->*  `addDays(2016-12-08T15:55:57.536Z;2)`
+>* `addDays(2016-12-08T15:55:57.536Z;2)`
 >
 >    Returns 2016-12-10T15:55:57.536Z
 >

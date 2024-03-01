@@ -17,7 +17,7 @@ The purpose of the dashboard is to provide quick access to information. You can 
 
 * Calendars
 
-  For more information about creating calendars, see [Calendars](../../../reports-and-dashboards/reports/calendars/calendars.md).
+  For more information about creating calendars, see [Calendars: article index](../../../reports-and-dashboards/reports/calendars/calendars.md).
 
 * External pages
 

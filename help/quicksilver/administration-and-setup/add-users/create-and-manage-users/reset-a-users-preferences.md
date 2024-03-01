@@ -4,12 +4,14 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: As an Adobe Workfront administrator, you can reset or remove the user preference settings for any user in the Workfront system. Individual users can also reset their own user preference settings.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: abe026d0-3584-49f3-a6db-ef88b3aab186
 ---
 # Reset a user's preferences
+
+<!-- Audited: 12/2023 -->
 
 As an Adobe Workfront administrator, you can reset or remove the user preference settings for any user in the Workfront system.
 
@@ -29,14 +31,18 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td>Plan</td> 
+   <td><p>New: Standard</p>
+       <p>or</p>
+       <p>Current: Plan</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a Workfront administrator.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## About affected settings
 
@@ -54,15 +60,15 @@ When you reset user preferences, some preferences are reverted to the system def
  <tbody> 
   <tr> 
    <td>Views</td> 
-   <td> <p> Reverted to the system default</p> <p>Existing Views are not deleted. You can select them again.</p> </td> 
+   <td> <p> Reverted to the system default</p> <p>Existing views are not deleted. You can select them again.</p> </td> 
   </tr> 
   <tr> 
    <td>Filters</td> 
-   <td> <p>Reverted to the system default</p> <p>Existing Filters are not deleted. You can select them again.</p> </td> 
+   <td> <p>Reverted to the system default</p> <p>Existing filters are not deleted. You can select them again.</p> </td> 
   </tr> 
   <tr> 
    <td>Groupings</td> 
-   <td> <p>Reverted to the system default</p> <p>Existing Groupings are not deleted. You can select them again.</p> </td> 
+   <td> <p>Reverted to the system default</p> <p>Existing groupings are not deleted. You can select them again.</p> </td> 
   </tr> 
   <tr> 
    <td>Recent Items list</td> 
@@ -74,7 +80,7 @@ When you reset user preferences, some preferences are reverted to the system def
   </tr> 
   <tr> 
    <td>User Preferences</td> 
-   <td> <p>Reverted to the system default</p> <p>Email notifications revert to the system defaults</p> </td> 
+   <td> <p>Reverted to the system default</p> <p>Email notifications revert to the system defaults. The default notifications are listed in <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">Event notifications available in Adobe Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>User-Defined Custom Tabs</td> 
@@ -82,14 +88,14 @@ When you reset user preferences, some preferences are reverted to the system def
   </tr> 
   <tr> 
    <td>User-Defined Global Navigation Options</td> 
-   <td>Set back to layout template definition or system default if no layout template is assigned.</td> 
+   <td>Set back to layout template definition, or system default if no layout template is assigned.</td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Reset user preferences
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Select **Log In As**.
 1. Begin typing the name of the user whose preferences you want to reset, then click the name when it appears in the drop-down list.
@@ -100,9 +106,7 @@ When you reset user preferences, some preferences are reverted to the system def
    >
    >This is case sensitive. The U must be capitalized, and the remaining characters must be lowercase. For example:
    >
-   >```
-   >https://company_domain.my.workfront.com/resetUser
-   >```
+   >`https://company_domain.my.workfront.com/resetUser`
 
 1. Press **Enter**.
 1. To reset all user preferences, select **Reset**.

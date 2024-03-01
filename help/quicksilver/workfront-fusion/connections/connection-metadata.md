@@ -7,6 +7,7 @@ title: Connection metadata in Adobe Workfront Fusion
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 author: Becky
 feature: Workfront Fusion
+exl-id: af260c63-3385-4d5c-abc2-d5c23175be40
 ---
 # Connection metadata in Adobe Workfront Fusion
 
@@ -34,7 +35,4 @@ Fusion connections can be used for both service accounts and personal accounts. 
 
  Please note that type, like other connection metadata, is used for informational purposes only. Users are still responsible for accurately setting this attribute manually. 
 
-For more information on authentication types, please see [Authentication](https://developer.adobe.com/developer-console/docs/guides/authentication/) in Adobe's Authentication guide. 
-
-
- 
+For more information on authentication types, please see [Authentication](https://developer.adobe.com/developer-console/docs/guides/authentication/) in Adobe's Authentication guide.

@@ -11,7 +11,7 @@ exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
 ---
 # Create issues
 
-<!--remove Preview and Prod references when this comes to Prod-->
+<!--
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>
 
@@ -19,7 +19,7 @@ exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
 
 <span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](../../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md). </span> 
 
-
+-->
 
 While working on a project, you might discover that unexpected events arise. You can log those unexpected events as issues for a particular project or of a task. Users with the appropriate access can view and monitor the status of issues as the project or the task progresses to completion, eliminating the need for lengthy email chains or status meetings. Unlike tasks, which are planned events, issues represent unplanned work items in Adobe Workfront.
 
@@ -81,6 +81,8 @@ For information about creating issues by submitting them to a request queue, see
 
 After you have defined the fields of a new issue form on your project, you can start creating issues.
 
+<!-- OLD UI: redesigned on Oct 26, 2023:
+
 Creating issues differs depending on which environment you choose to create the issue. 
 
 ### Create issues on a task or project using the New Issue button in the Production environment
@@ -91,11 +93,10 @@ To create an issue on a task or a project:
 1. (Optional) If you want to log the issue for a task, go to the **Tasks** area, then click the name of a task. 
 1. Click the **Issues** section.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
-
+   
 1. Click **New Issue**.
 
-   ![](assets/qs-issue-list-on-project-with-new-issue-button-highlighted-350x270.png)
+  
 
 1. (Conditional) If the project creator created Queue Topics or Topic Groups on the project they are added to the new issue form. Specify the **Topic Group** or the **Queue Topic** of your new issue. Topic Groups and Queue Topics have names customized to your environment.  
    For more information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
@@ -138,11 +139,8 @@ To create an issue on a task or a project:
 
 Issues can be assigned to multiple users, job roles or to a team. For more information about assigning and managing requests, see [Manage work and team requests](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
-<!--When this is coming to Production, remove the "Production" section above and replace it with the following content: -->
-
-<div class="preview">
-
-### Create issues on a task or project using the New Issue button in the Preview environment
+<!--When this is coming to Production, remove the "Production" section above and replace it with the following content:
+-->
 
 To create an issue on a task or a project:
 
@@ -150,9 +148,9 @@ To create an issue on a task or a project:
 1. (Optional) If you want to log the issue for a task, go to the **Tasks** area, then click the name of a task. 
 1. Click the **Issues** section.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x216.png)
+   The list of project issues displays
 
-1. Click **New Issue**.
+1. Click **New Issue** at the top of the issue list.
    The New issue box displays.
 
       ![](assets/new-issue-box-matches-new-request-ui.png)
@@ -196,7 +194,6 @@ To create an issue on a task or a project:
 
    Issues can be assigned to multiple users, job roles or to a team. For more information about assigning and managing requests, see [Manage work and team requests](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
-</div>
 
 ## Create issues on a task or project inline
 
@@ -215,8 +212,8 @@ To create issues inline:
 
 1. Go to a project where you want to create the issue. 
 1. (Optional) If you want to log the issue for a task, go to the **Tasks** section, then click the name of a task. 
-1. Click the **Issues** section.  
-1. Click **Add More Issues**.
+1. Click the **Issues** section in the left panel.  
+1. Click **Add More Issues** at the bottom of the issue list.
 
    A new line is created in the list of issues on the Issues section.
 

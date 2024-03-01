@@ -4,9 +4,10 @@ product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: basics-workfront-proof
 title: Personal settings in [!DNL Workfront Proof]
-description: This section contains the following articles - EDIT ME.
+description: Learn about personal settings in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 6d19a4f9-04f6-4965-9651-4763892955fd
 ---
 # Personal settings in [!DNL Workfront Proof]

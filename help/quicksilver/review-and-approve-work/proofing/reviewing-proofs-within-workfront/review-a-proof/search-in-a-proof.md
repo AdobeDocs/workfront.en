@@ -2,7 +2,7 @@
 product-area: documents
 navigation-topic: review-a-proof
 title: Search content within a proof
-description: You can quickly locate text in a proof created for the following types of documents - EDIT ME.
+description: Learn to quickly locate text in a proof.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03f07011-b17b-41ea-b99e-4535f2d143ff

@@ -7,6 +7,7 @@ description: Rate cards allow you to define multiple billing rates per role, bas
 author: Lisa
 feature: System Setup and Administration
 role: Admin
+exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
 ---
 # Manage rate cards
 
@@ -28,8 +29,10 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td><p>Legacy plan: [!UICONTROL Plan]</p>
-       <p>Current plan: [!UICONTROL Standard]</p></td> 
+   <td><p>New plan: [!UICONTROL Standard] </p>
+       <p>or</p> 
+       <p>Current plan: [!UICONTROL Plan] </p>
+   </td>    
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 

@@ -4,12 +4,20 @@ navigation-topic: approvals
 title: Delegate approval request
 description: Delegating approval requests allows you to assign another user to approve your requests for a period of time, for example, if you will be out of the office on vacation.
 author: Courtney
-feature: Work Management
+feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
 ---
 # Delegate approval request
 
 You can temporarily delegate the work you are assigned to while you are out of the office. You can delegate task and issue assignments or you can delegate approval requests. This article describes how to delegate approval requests. For information about delegating task and issue assignments, see [Manage task and issue delegation](../../manage-work/delegate-work/how-to-delegate-work.md).
+
+You can delegate the following types of approvals, regardless of how&nbsp;the approval was assigned to you (whether assigned directly to you, to a team you are a member of, or to your job role):
+
+* Project approvals
+* Task approvals
+* Issue approvals
+
+You cannot delegate timesheet, document, or proof approvals.
 
 >[!NOTE]
 >
@@ -77,7 +85,7 @@ You can delegate the following types of approvals, regardless of how&nbsp;the ap
 * Task approvals
 * Issue approvals
 
-You cannot delegate timesheet and document approvals.&nbsp;
+You cannot delegate timesheet, document, or proof approvals.
 
 Consider the following when delegating approvals:
 

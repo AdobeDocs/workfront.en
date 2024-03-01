@@ -189,6 +189,4 @@ To understand what template is applied to a project:
 
    ![](assets/nwe-template-info-on-project-350x356.png)
 
-&nbsp;
 
-&nbsp;

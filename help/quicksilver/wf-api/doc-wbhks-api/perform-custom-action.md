@@ -6,16 +6,17 @@ title: Perform a custom action
 description: Perform a custom action
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: a18b6b97-ee1e-4ad2-a4e1-00a644a0f4f2
 ---
 
 # Perform a custom action (not yet implemented)
 
-This endpoint allows an Adobe Workfront user (or an automated workflow event) to perform an action in the external system. The /customAction endpoint accepts a “name” parameter, which allows the webhook provider to implement multiple custom operations.
+This endpoint allows an Adobe Workfront user (or an automated workflow event) to perform an action in the external system. The /customAction endpoint accepts a "name" parameter, which allows the webhook provider to implement multiple custom operations.
 
 The webhook provider registers custom actions with Workfront by including the actions in the /serviceInfo response under customActions. Workfront loads this list when setting up or refreshing the webhook provider under Setup > Documents > Custom Integrations.
 
-Users can trigger the custom action by selecting the section under “Document Actions”
+Users can trigger the custom action by selecting the section under "Document Actions"
 
 **URL**
 
@@ -52,7 +53,7 @@ GET /customAction
 
 ## Response
 
-A JSON string indicating success or failure, as specified in the Error Handling section below. On failure (i.e. status = “failure”), Workfront will display the provided error message to the user.
+A JSON string indicating success or failure, as specified in the Error Handling section below. On failure (i.e. status = "failure"), Workfront will display the provided error message to the user.
 
 **Example:**
 
@@ -64,6 +65,6 @@ response
 
 ```
 {
-status: “success”
+status: "success"
 }
 ```

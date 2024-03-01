@@ -4,9 +4,10 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: work-with-proofs-and-files
 title: Organize your work
-description: This section contains the following articles - EDIT ME.
+description: Organize your work in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 2064baa7-598c-4e42-a4f3-211198fb065f
 ---
 # Organize your work

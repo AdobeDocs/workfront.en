@@ -13,7 +13,7 @@ exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
 
 Filters and prompts are similar in the sense that they both restrict the amount of information which you display in a report.
 
-You build a filter when you want the information displayed in the report to be filtered by the same criteria every time you run the report. Filters are built one time and they are hard coded in the report. For more information about building filters, see the article [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+You build a filter when you want the information displayed in the report to be filtered by the same criteria every time you run the report. Filters are built one time and they are hard coded in the report. For more information about building filters, see the article [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 Prompts are open filters that can be customized and applied differently every time you run a report.
 

@@ -4,9 +4,10 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: emails-and-notifications-workfront-proof
 title: Avoid spam filters
-description: This section contains the following articles - EDIT ME.
+description: Learn how to avoid spam filters in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 4b01bb97-33ae-4034-b087-a37feef4b4d9
 ---
 # Avoid spam filters

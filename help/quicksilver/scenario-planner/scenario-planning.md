@@ -6,6 +6,7 @@ title: Adobe Workfront Scenario Planner
 description: A list of articles that describe functionality about the Workfront Scenario Planner.
 author: Alina
 feature: Workfront Scenario Planner
+recommendations: noDisplay, noCatalog
 exl-id: 3d942ea6-6860-4463-b610-8c120a109071
 ---
 # [!DNL Adobe Workfront Scenario Planner]

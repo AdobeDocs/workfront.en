@@ -1,9 +1,10 @@
 ---
 title: <!-- add release --> release overview
 description: <!-- add release --> release overview
-author: Luke
+author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 ---
 
 # <!-- add release --> release overview
@@ -212,6 +213,11 @@ New in preview, prod, and coming soon text
 Badge for available in Fast Release
 
 [!BADGE In production for Fast Release ]{type=Positive}
+
+
+Badge for in production for everyone
+
+[!BADGE In production ]{type=Informative}
 
 
 Test for boards early access stuff

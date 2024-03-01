@@ -42,16 +42,116 @@ You must have the following access to perform the steps in this article:
 
 ## Considerations for converting tasks to projects
 
+* You can convert a task to a blank project or to a project using a template. 
 * The original task is deleted.
-* Task approvals are deleted.
 * All sub-tasks, issues and notes roll up to the new project.
 * Documents, document versions, and proofs are moved to the new project.
 * Status and percent complete of all sub-tasks and issues are preserved.
 * Shared users of the task become shared users on the project.
 * The project start date is set to the start date of the task.
-* If the task status is 'New' the project status is set to 'Planning.'
-* If the task status is 'In Progress' the project status is set to 'Current.'
-* If the task status is 'Complete' the project status is set to 'Complete.'
+* The following table lists project information and whether it transfers from the template or from the task: 
+
+  <table style="table-layout:auto"> 
+  <col> 
+  <col> 
+  <tbody> 
+    <tr> 
+    <td>Description</td> 
+    <td> <p>The Description of the task transfers to the new project. </p> <p> If there is no description on the task, the Description from the template transfers to the project. </p> <p>If the Description field is empty both for the task and for the template, the field is empty on the project. </p> </td> 
+    </tr> 
+    <tr> 
+    <td>Status</td> 
+    <td> Default status selected for the group on the template. If the template is not associated with the group, the project status is set to the default status set by the Workfront administrator in the Project Preferences area of Setup. For information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md">Configure system-wide project preferences</a>
+
+    The following scenarios exist for updating the Status of the project: 
+    <ul>
+    <li> If the task status is 'New' the project status is set to 'Planning.'</li>
+    <li> If the task status is 'In Progress' the project status is set to 'Current.'</li>
+    <li> If the task status is 'Complete' the project status is set to 'Complete.'</li></ul>
+    
+    </td> 
+    </tr> 
+    <tr> 
+    <td>Priority</td> 
+    <td>Transfers from the task to the project, or it transfers from the template, if you use one in the conversion. </td> 
+    </tr> 
+    <tr> 
+    <td>URL</td> 
+    <td> <p>The URL from the task transfers to the new project. </p> <p> If there is no URL specified on the task, the URL from the template transfers to the project. </p> <p>If the URL field is empty both for the issue and for the template, the field is empty on the project. </p> </td> 
+    </tr> 
+    <tr> 
+    <td>Project Condition Type</td> 
+    <td>Transfers from the template.</td> 
+    </tr> 
+    <tr> 
+    <td>Project Condition</td> 
+    <td>Matches the system-level default preference as determined by the Workfront administrator in the Setup area. For information, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md">Set a custom condition as the default for projects</a>
+    </td> 
+    </tr> 
+    <tr> 
+    <td>Schedule From</td> 
+    <td>Transfers from the template.</td> 
+    </tr> 
+    <tr> 
+    <td>Project dates</td> 
+    <td> 
+      <ul> 
+      <li> <p><b>Planned Start Date</b>: The closest working time based on the template schedule's working time should be preselected, according to the timezone of the template's schedule. This field is disabled if the Schedule From field is set to From Completion. </p> </li> 
+      <li> <p><b>Planned Completion Date</b>: The closest working time based on the template schedule's working time should be preselected, according to the timezone of the template's schedule. This field is disabled if the Schedule From field is set to From Start. </p> </li> 
+      </ul> </td> 
+    </tr> 
+    <tr> 
+    <td>Portfolio</td> 
+    <td>Transfers from the template. Otherwise, this field is empty.</td> 
+    </tr> 
+    <tr> 
+    <td>Program</td> 
+    <td>Transfers from the template. Otherwise, this field is empty.</td> 
+    </tr> 
+    <tr> 
+    <td>Group</td> 
+    <td><p> The following scenarios exist:</p>
+      <ul><li>If a group is specified during the conversion, that becomes the group of the project</li>
+      <li>If you convert to a project using a template, and there is a group on the template, and during the conversion you do not specify a group, then the group of the template becomes the group of the new project</li>
+      <li> If there is no group on the template and you do not specify a group during the conversion, then the group of the original issue's project becomes the group of the new project</li> </ul>
+        </td> 
+    </tr> 
+    <tr> 
+    <td>Company</td>    
+    <td>  Transfers from the template. Otherwise, this field is empty.</td>
+      
+    </tr> 
+    <tr> 
+    <td>Project Owner</td> 
+    <td>Transfers from the Template Owner field on the template. Otherwise, it is set to the logged-in user who is performing the conversion. </td> 
+    </tr> 
+    <tr> 
+    <td>Project Sponsor</td> 
+    <td>Transfers from the Template Sponsor field on the template. Otherwise, this field is empty.</td> 
+    </tr> 
+    <tr> 
+    <td>Resource Manager</td> 
+    <td>Transfers from the template. Otherwise, this field is empty.</td> 
+    </tr> 
+    <tr> 
+    <td>Task Settings</td> 
+    <td>Transfer from the template.</td> 
+    </tr> 
+    <tr> 
+    <td>Issue Settings</td> 
+    <td>Transfer from the template. </td> 
+    </tr> 
+    <tr> 
+    <td>Access</td> 
+    <td> <p>Transfers from the Access section on the template. </p> </td> 
+    </tr> 
+    <tr> 
+    <td>Approvals</td> 
+    <td>Transfer from the template. The approvals associated with the task are removed during the conversion. </td> 
+    </tr> 
+  </tbody> 
+  </table>
+
 
 ## Convert a task to a project
 

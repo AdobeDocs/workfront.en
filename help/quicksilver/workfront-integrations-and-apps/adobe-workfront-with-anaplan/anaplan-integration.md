@@ -4,6 +4,7 @@ description: Adobe Workfront with Anaplan
 author: Becky
 draft: Probably
 feature: Workfront Integrations and Apps, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: c78d1276-6545-44f0-8ec9-62cfe1b66e35
 ---
 # [!DNL Adobe Workfront] with [!DNL Anaplan]

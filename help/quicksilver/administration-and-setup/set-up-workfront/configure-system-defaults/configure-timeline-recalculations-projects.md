@@ -44,13 +44,13 @@ You must have the following to perform the steps in this article:
 
 As an [!DNL Adobe Workfront] administrator, you can configure when [!DNL Workfront] automatically recalculates project timelines. [!DNL Workfront] can recalculate project timelines either every night or when the project scope changes, or both.
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner, or the [!UICONTROL **Main Menu**] icon ![](assets/lines-main-menu.png) in the upper-left corner of [!DNL Workfront], if available, then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
 
 1. Click **[!UICONTROL Project Preferences]** > **[!UICONTROL Projects].**
 
 1. In the **[!UICONTROL Timelines]** section, enable or disable one or both of the settings below. By default, both settings are enabled.
 
-   * **Every night:** [!DNL Workfront&#x200B;&#x200B;&#x200B;] recalculates timelines at night only for projects that have a status of [!UICONTROL Current] and were updated in the past three months.
+   * **Every night:** [!DNL Workfront​​​] recalculates timelines once every 24 hours, at night, only for projects that have a status of [!UICONTROL Current] and that were updated in the past three months. Depending on the system load and other factors, the recalculation time might be delayed by more than 24 hours.
 
       In this case, [!DNL Workfront] recalculates the timeline for all projects that have an [!UICONTROL Update Type] of [!UICONTROL Automatic] or [!UICONTROL Automatic and On Change].
 

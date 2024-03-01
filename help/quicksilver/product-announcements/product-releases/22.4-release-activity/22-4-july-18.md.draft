@@ -4,6 +4,7 @@ description: 22.4 release activity Week of July 18, 2022
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 71128984-5476-4f58-9f4f-a11702e1100d
 ---
 
@@ -86,5 +87,5 @@ With this Public Beta Users are given the opportunity to submit feedback directl
 
 We want to deliver value to you iteratively so we will continue to deliver as the new experiences and other areas are ready. Stay tuned for more exciting updates.
 
-For more information, see [Filters overview in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md) and [Create or edit filters in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+For more information, see [Filters overview](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md) and [Create or edit filters in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
