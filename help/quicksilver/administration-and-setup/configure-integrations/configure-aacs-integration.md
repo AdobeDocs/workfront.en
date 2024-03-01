@@ -258,12 +258,12 @@ In the Preview Sandbox environment
 
 1. Toggle the **[!UICONTROL Create Linked folder]** on.
 1. Enter a name for the linked folder that you are creating. 
-1. (Conditional) Enable the **Default folder tree** option if you want this linked folder to be the default folder for projects created with templates that use this integration. You can select one or more default folders.
+1. (Conditional) Enable the **Default folder tree** option if you want this linked folder to be the default folder for projects created with templates that use this integration. You can select one or more default folders. 
 1. Choose a folder path to indicate where you want all linked folders associated with this integration.
 1. (Conditional) To add a folder tree (nested folders) to this integration, do the following:
 
    1. Click the **Add folder** icon ![Add folder](assets/add-folder-aem.png).
-   1. In the Name type field, select how you want to name the folder:
+   1. In the **Name type** field, select how you want to name the folder:
 
       * **Name**: Type in a name for the folder.
       * **Object data**: Select the source for the folder name, such as Project name.
@@ -279,13 +279,13 @@ In the Preview Sandbox environment
    1. To link a folder to Workfront, select the folder and click the **Make linked folder**   icon ![Link folder](assets/link-folder.png).
    1. (Optional) To edit a folder, select the folder and click the **Edit Folder** icon ![Edit icon](assets/edit-icon.png).
    1. (Optional) To delete a folder, select the folder and click the **Delete Folder** icon ![Delete folder](assets/delete-folder.png).
-1. (Conditional) To add another folder tree, click + Add folder tree and follow the steps in Step 5.
+1. (Conditional) To add another folder tree, click **+ Add folder tree** and follow the steps in Step 5.
 
 1. Click **[!UICONTROL Save]**, or move on to the [Publish assets that are sent to Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) section in this article.
 
 >[!NOTE]
 >
->* This integration will create no more than 100 folders, regardless of how many folder trees are created. For example, an integration with 4 folder trees can create up to 100 folders, not 400 folders
+>* This integration will create no more than 100 folders, regardless of how many folder trees are created. For example, an integration with 4 folder trees can create up to 100 folders, not 400 folders.
 >* The first folder in folder tree is automatically marked as linked to Workfront. If you do not want this folder linked, you can unlink it.
 >* If no folder tree is provided, the root folder becomes the linked folder.
 
