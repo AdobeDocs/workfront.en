@@ -51,7 +51,7 @@ For more details about the information in this table, see [Access requirements i
 ## Prerequisites
 
 * You must have a Workfront group connected to a Frame.io team. 
-* You must have a Workfront project connected to a Frame.io project and be added as a user to a frame-enabled task. 
+* You must have a Workfront project connected to a Frame.io project and be added as a user to a Workfront task enabled for Frame.io.
 
 For more information, see [Connect Workfront and Frame.io.](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
 
@@ -78,4 +78,4 @@ For more information, see [Connect Workfront and Frame.io.](/help/quicksilver/re
 
 The asset appears in the location chosen, and the task status updates accordingly.
 
-You can kick off the review and approval process by following the steps outlined in the article [Create a document approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+You can start the review and approval process by following the steps outlined in the article [Create a document approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
