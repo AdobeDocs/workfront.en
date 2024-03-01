@@ -171,6 +171,8 @@ In the Preview Sandbox environment:
 
       Using custom form data for folder names is available only at the template level, and cannot be configured at the integration level.
 
+      If a folder name is set to custom data that does not exist on the custom for attached to the project, a random ID will be assigned as the folder name.
+
 1. Click **[!UICONTROL Save]**.
 
 </div>
