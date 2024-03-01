@@ -11,6 +11,24 @@ This page describes all administrator enhancements made with the Second Quarter 
 
 For a list of all changes available at this point in the Second Quarter 2024 release cycle, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
+## Workfront native fields are available in the form designer beta
+
+>[!NOTE]
+>
+>Preview release: February 29, 2024; Production for fast release: With the 24.3 release (March 14, 2024); Production for all customers: 24.4 (April 2024)
+
+Fields native to Workfront are now available for you to add to your custom forms. This new field type allows you to organize and present data to your users in a logical way, without having to re-create existing data in custom fields.
+
+After you select Native Field in the custom forms field list to add the field to the form designer, you can select any native field for the form's objects. For example, if the Object Types list at the top of the form designer shows Project, you will be able to select native fields for projects but not fields that are specific to tasks.
+
+When the custom form is attached to an object, the field is populated from the object data. For example, the Description field on a custom form attached to a project will pull in the project description. (The field may show "N/A" if no data is available.)
+
+Native fields used in custom forms become available in the field library in the designer for re-use, They are also visible in the Setup > Custom Forms > Fields area so that you can see which forms they are used in.
+
+This feature is available only in the form designer beta, not in the legacy form builder.
+
+The Experience League articles for this feature will be updated by March 7.
+
 ## Attribute mapping now available for organizations that have migrated to Adobe IMS
 
 >[!NOTE]

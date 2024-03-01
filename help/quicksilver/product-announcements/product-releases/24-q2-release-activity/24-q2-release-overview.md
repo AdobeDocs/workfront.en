@@ -51,6 +51,25 @@ This page provides information about functionality that is included in the Secon
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront native fields are available in the form designer beta</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>Fields native to Workfront are now available for you to add to your custom forms. This new field type allows you to organize and present data to your users in a logical way, without having to re-create existing data in custom fields.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: February 29, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 24.3 release (March 14, 2024)</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 24.4 release (April 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Attribute mapping now available for organizations that have migrated to Adobe IMS</a></p>
                         <p>[!BADGE In production ]{type=Informative}</p><p>Workfront system administrators can now set up user attribute mapping for organization that have migrated to Adobe IMS. This allows user information to pass into Workfront from the organization's SSO (Single Sign-on) provider, so that the user's data does not have to be entered into both Workfront and the SSO provider.</p>
                     </td>
@@ -67,7 +86,7 @@ This page provides information about functionality that is included in the Secon
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Skip logic and display logic are now available in the form designer beta</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Skip logic and display logic are now available in the form designer beta</a></p><p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>You can now edit existing display and skip logic and add new logic to custom forms in the form designer beta. An easy-to-use logic builder helps you define which fields to display or skip based on selections in the form.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -105,7 +124,7 @@ This page provides information about functionality that is included in the Secon
                  </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Column options added to Administrator controls for new Home using layout templates</a></p><p>Administrators can now customize which columns are available for users in specific new Home widgets using layout templates. Options include hiding or displaying default columns and adding existing fields as new columns.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Column options added to Administrator controls for new Home using layout templates</a></p><p>[!BADGE In production for Fast Release ]{type=Positive}</p><p>Administrators can now customize which columns are available for users in specific new Home widgets using layout templates. Options include hiding or displaying default columns and adding existing fields as new columns.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -142,7 +161,7 @@ This page provides information about functionality that is included in the Secon
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">More relevant assignments added to the New Task workflow</a><span style="color: #ff0000;"> New in Preview!</span></p><p>We have added the same functionality for more relevant smart assignments to the Assignments field in the New Task box when adding a task to a project and in a project task list.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">More relevant assignments added to the New Task workflow</a></p><p>We have added the same functionality for more relevant smart assignments to the Assignments field in the New Task box when adding a task to a project and in a project task list.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -197,7 +216,33 @@ This page provides information about functionality that is included in the Secon
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">New update stream tab to capture both comments and system activity entries</a><span style="color: #ff0000;"> New in Preview!</span></p><p>To give you a chronologically cohesive view of both comments and system activity logs, we are introducing a third tab to the Updates area of all objects. The "All" tab captures both user comments and system activity comments in one cohesive stream.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Additional commenter information available in the new commenting experience</a><span style="color: #ff0000;"> New in Preview!</span></p><p>We have made the following enhancements in the new commenting experience:</p>
+                        <ul>
+                            <li>
+                                <p>You can click a commenter's name to see their name, role, and email address in an information box. This information can help you identify the correct user, if you have more than one user with the same name. When you click the commenter's name in the information box, their user profile opens.</p>
+                            </li>
+                            <li>
+                                <p>Your user name is highlighted in comments that you are tagged on, when you are mentioned in the comment text.</p>
+                            </li>
+                        </ul>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: February 29, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 24.3 release (March 14, 2024)</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 24.4 release (April 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>  
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">New update stream tab to capture both comments and system activity entries</a></p><p>To give you a chronologically cohesive view of both comments and system activity logs, we are introducing a third tab to the Updates area of all objects. The "All" tab captures both user comments and system activity comments in one cohesive stream.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -215,7 +260,7 @@ This page provides information about functionality that is included in the Secon
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">New commenting stream now available in the Summary panel</a><span style="color: #ff0000;"> New in Preview!</span></p><p>We have now added the new commenting functionality to the Summary panel for task and issue lists.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">New commenting stream now available in the Summary panel</a></p><p>We have now added the new commenting functionality to the Summary panel for task and issue lists.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
