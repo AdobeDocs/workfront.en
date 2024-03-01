@@ -12,6 +12,8 @@ exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
 ---
 # Access to objects and areas by new licenses
 
+<!-- Audited: 2/2024 -->
+
 The table below tells you the highest level of access (Edit or View) that each of the Adobe Workfront licenses allow for the objects and areas in Workfront.
 
 * **View**: The user can review and share items.
