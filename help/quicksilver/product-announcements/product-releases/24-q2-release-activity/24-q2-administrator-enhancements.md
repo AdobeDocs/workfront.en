@@ -11,6 +11,16 @@ This page describes all administrator enhancements made with the Second Quarter 
 
 For a list of all changes available at this point in the Second Quarter 2024 release cycle, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
+## JumpSeat integration now available for new package types
+
+>[!NOTE]
+>
+>Preview release: February 26, 2024; Production for fast release: With the 24.3 release (March 14, 2024); Production for all customers: 24.4 (April 2024)
+
+The existing JumpSeat integration is now available to accounts using one of the new package types (i.e., Select, Prime, or Ultimate). You must still have an active JumpSeat subscription to enable the integration.
+
+For more information on the JumpSeat integration, see [Configure the JumpSeat integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md).
+
 ## Workfront native fields are available in the form designer beta
 
 >[!NOTE]
