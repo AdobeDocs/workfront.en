@@ -34,6 +34,16 @@ We have made the following enhancements in the new commenting experience:
 
 For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
+## System Activity tab on the new commenting experience supports read-only comments
+
+>[!NOTE]
+>
+>Preview release: February 22, 2024; Production for fast release: With the 24.3 release (March 14, 2024); Production for all customers: With the 24.4 release (April 2024)
+
+Comments made on the system activity records in the legacy commenting experience are now populated on the System Activity tab in the new commenting experience as read-only. You cannot reply to system activity records in the new commenting experience.
+
+For more information, see [Updates section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
 ## New update stream tab to capture both comments and system activity entries
 
 >[!NOTE]
