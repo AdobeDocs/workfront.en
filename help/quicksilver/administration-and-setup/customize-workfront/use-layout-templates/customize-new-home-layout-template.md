@@ -74,7 +74,12 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
       <p>Select which widgets will be present in users' workspaces, their position, and choose a background. Note that while users cannot remove the selected widgets, they can move and resize them freely as well as add additional widgets.</p>
       <p>This tab essentially functions as a small new Home workspace; as such, it can be customized according to the steps described in <a href="/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Add, edit, or remove widgets in new Home</a>. Select widgets and arrange the workspace as you would like it to appear for users.</p>
       <p>To change the background, follow the steps under <b>Background customization</b> in <a href="/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md" class="MCXref xref">Get started with New Home</a>.</p>
-      </td> 
+      <p>
+  >[!NOTE]
+  >
+  >Only moving or resizing widgets in the Layout Template will not trigger users' new Home pages to update their layout. However, adding or removing a widget will trigger an update to users' pages.
+  </p>
+     </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Widget settings</td> 
@@ -87,18 +92,22 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
       </ul>
       <p>Once you have selected the widget you would like to edit, available options will display on the right. These options include <b>Filters</b>, <b>Columns</b>, and <b>Groups</b>. You can:</p>
       <ul>
-        <li><b>Select which Filters, Columns, or Groups will be available to users:</b><p>Check the box next to all options in the list you would like users to be able to use. Unchecked options will not appear for users.</li></p>
-        <li><b>Set a default Filter or Group for the widget:</b><p>Hover your mouse over an option and a button will appear that allows you to set that option as the default for users. The current default will have a blue Default badge to its right.</li></p>
-        <li><b>Add an existing Filter, Column, or Group to the list of available options:</b><p>Click the plus sign button at the bottom of each list to add an option to that list. Note that only existing Filters, Fields (for Columns), or Groups can be added in this way.</li></p>
+        <li><p><b>Select which Filters, Columns, or Groups will be available to users:</b></p>
+        <p>Check the box next to all options in the list you would like users to be able to use. Unchecked options will not appear for users.</li></p>
+        <li><p><b>Set a default Filter or Group for the widget:</b></p>
+        <p>Hover your mouse over an option and a button will appear that allows you to set that option as the default for users. The current default will have a blue Default badge to its right.</li></p>
+        <li><p><b>Add an existing Filter, Column, or Group to the list of available options:</b></p>
+        <p>Click the plus sign button at the bottom of each list to add an option to that list. Note that only existing Filters, Fields (for Columns), or Groups can be added in this way.</li></p>
+      <p>
+  >[!NOTE]
+  >
+  >If you set a default filter or grouping for a specific widget using a layout template, it may not take effect immediately due to existing user preferences. To apply the new filter or grouping immediately, either you or the user may need to reset their user preferences by appending "/resetUser" to the end of their URL.
+  </p>
       </ul>
       </td> 
      </tr>
     </tbody> 
    </table>
-
->[!IMPORTANT]
->
->If you set a default filter or grouping for a specific widget using a layout template, it may not take effect immediately due to existing user preferences. To apply the new filter or grouping immediately, either you or the user may need to reset their user preferences by appending "/resetUser" to the end of their URL.
 
 1. Continue customizing the layout template.
 

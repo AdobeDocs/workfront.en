@@ -11,6 +11,16 @@ This page describes all Update stream and notification enhancements made with th
 
 For a list of all changes available at this point in the Second Quarter 2024 release cycle, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
+## New commenting stream now available in quick actions for new Home widgets
+
+>[!NOTE]
+>
+>Preview release: March 1, 2024; Production for fast release: With the 24.3 release (March 14, 2024); Production for all customers: With the 24.4 release (April 2024)
+
+We have now added the new commenting functionality to the **Add new update** quick action button in the My Work, My Projects, My Tasks, and My Issues widgets in new Home.
+
+For more information, see [Get started with the new Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+
 ## Additional commenter information available in the new commenting experience
 
 >[!NOTE]
@@ -28,7 +38,7 @@ For more information, see [Update work](/help/quicksilver/workfront-basics/updat
 
 >[!NOTE]
 >
->Preview release: February 22, 2024; Production for fast release: With the 24.3 release (March 2024); Production for all customers: With the 24.4 release (April 2024)
+>Preview release: February 22, 2024; Production for fast release: With the 24.3 release (March 14, 2024); Production for all customers: With the 24.4 release (April 2024)
 
 To give you a chronologically cohesive view of both comments and system activity logs, we are introducing a third tab to the Updates area of all objects. The "All" tab captures both user comments and system activity comments in one cohesive stream.
 
