@@ -1,15 +1,15 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Create a document approval
+title: Create a document review or approval request
 description: You can request approval from other users for a document in Adobe Workfront.
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 ---
-# Create a document approval request
+# Create a document review or approval request
 
-
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
 You can request approval from other users or teams for a document in Adobe Workfront, or request they review a document without needing to approve it.
 
@@ -46,19 +46,27 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Create a document approval from the document page
+## Create a document review or approval request from the document page
 
-1. Go to the document page by clicking on the name of the document, then select the version of the document you would like to create an approval for in the version dropdown. The latest version will be selected by default.
+1. Hover over the document, then click Document Details.
+   ![](assets/doc-details.png)
 
-1. Select **Approvals** in the left pane.
 
-1. <span class="preview">(Optional) Set a deadline for the approval.</span>
+1. Near the document name, select the version of the document you would like to create an approval for in the version dropdown. The latest version will be selected by default.
 
-1. To add an approver, ensure that the **Approver** checkbox is checked then begin typing in the **Add approvers or reviewers** text box. You can add Workfront users or teams by name. If you would like to add a reviewer instead, simply uncheck the **Approver** checkbox before typing.
+1. Click **Approvals** in the left pane.
+
+1. <span class="preview">(Optional) Set a deadline for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified deadline.</span>
+
+1. To add an approver, click the **Approver** and and begin typing in a user or team name. 
+
+1. To add a reviewer, click the **Reviewer** checkbox and begin typing in a user or team name. 
+
+   ![](assets/add-approver-and-deadline.png)
 
 1. Repeat the previous step to add additional approvers or reviewers.
 
-## Create a document approval from the Document Summary pane
+## Create a document review or approval request from the Document Summary pane
 
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
 
@@ -66,7 +74,17 @@ You must have the following access to perform the steps in this article:
 
 1. Select the version of the document you would like to create an approval for in the version dropdown. The latest version will be selected by default.
 
-1. Scroll down to the **Approvals** section in the Document Summary pane. To add an approver, ensure that the **Approver** checkbox is checked then begin typing in the **Reviewers** text box. You can add Workfront users or teams by name. If you would like to add a reviewer instead, simply uncheck the **Approver** checkbox before typing.
+1. Scroll down to the **Approvals** section in the Document Summary pane, then click **Add**.
+
+  ![](assets/doc-summary-add-approvers.png)
+
+1. <span class="preview">(Optional) Set a deadline for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified deadline.</span>
+
+1. To add an approver, click the **Approver** and and begin typing in a user or team name. 
+
+1. To add a reviewer, click the **Reviewer** checkbox and begin typing in a user or team name. 
+
+   ![](assets/add-approver-and-deadline.png)
 
 1. Repeat the previous step to add additional approvers or reviewers.
 

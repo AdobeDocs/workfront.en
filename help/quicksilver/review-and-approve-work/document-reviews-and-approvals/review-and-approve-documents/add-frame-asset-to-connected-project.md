@@ -78,4 +78,4 @@ For more information, see [Connect Workfront and Frame.io.](/help/quicksilver/re
 
 The asset appears in the location chosen, and the task status updates accordingly.
 
-You can start the review and approval process by following the steps outlined in the article [Create a document approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+You can start the review and approval process by following the steps outlined in the article [Create a document review or approval request](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
