@@ -31,3 +31,4 @@ The following articles describe how you can create and manage record views in Ad
 * [Manage record views](../views/manage-record-views.md)
 * [Manage the table view](../views/manage-the-table-view.md)
 * [Manage the timeline view](../views/manage-the-timeline-view.md)
+<!--* [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md)-->
