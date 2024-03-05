@@ -15,9 +15,9 @@ For a list of all changes available at this point in the Second Quarter 2024 rel
 
 >[!NOTE]
 >
->Preview release: February 29, 2024; Production for fast release: With the 24.3 release (March 14, 2024); Production for all customers: 24.4 (April 2024)
+>Preview release: February 26, 2024; Production for fast release: With the 24.3 release (March 14, 2024); Production for all customers: 24.4 (April 2024)
 
-The existing JumpSeat integration is now available to accounts using the new package types (i.e., Select, Prime, and Ultimate). You must still have an active JumpSeat subscription to enable the integration.
+The existing JumpSeat integration is now available to accounts using one of the new package types (i.e., Select, Prime, or Ultimate). You must still have an active JumpSeat subscription to enable the integration.
 
 For more information on the JumpSeat integration, see [Configure the JumpSeat integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-jumpseat.md).
 

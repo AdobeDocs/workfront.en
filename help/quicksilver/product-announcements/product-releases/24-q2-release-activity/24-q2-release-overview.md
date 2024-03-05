@@ -52,12 +52,12 @@ This page provides information about functionality that is included in the Secon
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">JumpSeat integration now available for new package types</a><span style="color: #ff0000;"> New in Preview!</span></p>
-                        <p>The existing JumpSeat integration is now available to accounts using the new package types (i.e., Select, Prime, and Ultimate). You must still have an active JumpSeat subscription to enable the integration.</p>
+                        <p>The existing JumpSeat integration is now available to accounts using one of the new package types (i.e., Select, Prime, or Ultimate). You must still have an active JumpSeat subscription to enable the integration.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: February 29, 2024</p>
+                                <p>Preview release: February 26, 2024</p>
                             </li>
                             <li>
                                 <p>Production for fast release: With the 24.3 release (March 14, 2024)</p>
