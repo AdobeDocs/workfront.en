@@ -12,6 +12,8 @@ exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
 ---
 # System-tracked updates
 
+{{highlighted-preview}}
+
 <!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
 
 [!DNL Adobe Workfront] captures the activity taking place on certain objects by logging status information in the object's [!UICONTROL Updates] area.
@@ -84,11 +86,12 @@ Your [!DNL Workfront] license determines whether system updates display by defau
 
       For more information about the new commenting experience, see [New commenting experience](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
+   * <span class="preview">When using the new commenting experience, users cannot add a comment to a system update. However, any replies made to system activity records in the legacy commenting experience are populated on the System Activity tab as read-only in the new commenting experience.</span>
    * When using the legacy commenting experience, the system and user updates display in one continuous feed. 
 
    * When using the legacy commenting experience, users can view system updates by default or they can choose to not display them. Disabling system updates is not possible when using the new commenting experience. 
 
-      For information about disabling the display of system updates, see the section [Enable or disable system updates](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) in the article [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+      For information about disabling the display of system updates, see the section [Enable or disable system updates](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) in the article [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).  
 
 * Workfront records system-tracked updates for the following objects but there is no option to disable displaying them: 
 
