@@ -37,7 +37,7 @@ Below are the ten widgets currently available to choose from, as well as a summa
     Displays tasks that are assigned to you in a list. You can use  existing filters, views, or groupings to customize the list, or you can create a task directly from the widget. You can also delegate your tasks while you are away from the office. 
 
 * **My issues**\
-    Displays issues that are assigned to you in a list. You can use  existing filters, views, or groupings to customize the list, or you can create an issue directly from the widget.This widget only includes issues whose associated projects are set to Current. You can also delegate your issues while you are away from the office. 
+    Displays issues that are assigned to you in a list. You can use existing filters, views, or groupings to customize the list, or you can create an issue directly from the widget. This widget only includes issues whose associated projects are set to Current. You can also delegate your issues while you are away from the office. 
 
 * **My requests**\
     Displays all requests you have submitted, a filter to only display open requests, and a button that opens the summary pane for a request.
@@ -51,7 +51,7 @@ Below are the ten widgets currently available to choose from, as well as a summa
 * **All approvals**\
     Displays all approvals for your organization in a table with customizable columns, as well as a search bar that allows you to search for specific approvals.
 
-* **Pending approvals**<\
+* **Pending approvals**\
     Displays approvals assigned to a document on a project you own. Here, you can view approval status and remind users about incomplete reviews and approvals. <span style="color: #ff0000;">This feature is part of a phased release and is currently only available for specific customers.</span>
 
 * **Mentions**\

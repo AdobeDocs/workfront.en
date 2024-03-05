@@ -51,6 +51,25 @@ This page provides information about functionality that is included in the Secon
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">JumpSeat integration now available for new package types</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>The existing JumpSeat integration is now available to accounts using one of the new package types (i.e., Select, Prime, or Ultimate). You must still have an active JumpSeat subscription to enable the integration.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: February 26, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 24.3 release (March 14, 2024)</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 24.4 release (April 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront native fields are available in the form designer beta</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>Fields native to Workfront are now available for you to add to your custom forms. This new field type allows you to organize and present data to your users in a logical way, without having to re-create existing data in custom fields.</p>
                     </td>
@@ -216,6 +235,25 @@ This page provides information about functionality that is included in the Secon
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">New commenting stream now available in quick actions for new Home widgets</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>We have now added the new commenting functionality to the <b>Add new update</b> quick action button in the My Work, My Projects, My Tasks, and My Issues widgets in new Home.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: March 1, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 24.3 release (March 14, 2024)</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 24.4 release (April 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>  
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Additional commenter information available in the new commenting experience</a><span style="color: #ff0000;"> New in Preview!</span></p><p>We have made the following enhancements in the new commenting experience:</p>
                         <ul>
                             <li>
@@ -240,6 +278,24 @@ This page provides information about functionality that is included in the Secon
                         </ul>
                     </td>
                 </tr>  
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">System Activity tab on the new commenting experience supports read-only comments</a></p><p>Comments made on the system activity records in the legacy commenting experience are now populated on the System Activity tab in the new commenting experience as read-only. You cannot reply to system activity records in the new commenting experience.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: February 22, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 24.3 release (March, 2024)</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 24.4 release (April 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr> 
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">New update stream tab to capture both comments and system activity entries</a></p><p>To give you a chronologically cohesive view of both comments and system activity logs, we are introducing a third tab to the Updates area of all objects. The "All" tab captures both user comments and system activity comments in one cohesive stream.</p>
