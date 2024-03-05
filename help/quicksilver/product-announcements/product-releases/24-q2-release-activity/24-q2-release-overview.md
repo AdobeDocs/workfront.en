@@ -280,6 +280,24 @@ This page provides information about functionality that is included in the Secon
                 </tr>  
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">System Activity tab on the new commenting experience supports read-only comments</a></p><p>Comments made on the system activity records in the legacy commenting experience are now populated on the System Activity tab in the new commenting experience as read-only. You cannot reply to system activity records in the new commenting experience.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: February 22, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 24.3 release (March, 2024)</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 24.4 release (April 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr> 
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">New update stream tab to capture both comments and system activity entries</a></p><p>To give you a chronologically cohesive view of both comments and system activity logs, we are introducing a third tab to the Updates area of all objects. The "All" tab captures both user comments and system activity comments in one cohesive stream.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
