@@ -2056,6 +2056,7 @@ feature-set: Workfront
     * [Manage record views](maestro/views/manage-record-views.md)
     * [Manage the table view](maestro/views/manage-the-table-view.md)
     * [Manage the timeline view](maestro/views/manage-the-timeline-view.md)
+    * [Manage the calendar view](maestro/views/manage-the-calendar-view.md)
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
   * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
   * [ Fusion access table template](/help/quicksilver/workfront-fusion/fusion-access-table-template.md)
