@@ -9,6 +9,8 @@ exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 ---
 # Create a document approval request
 
+
+
 You can request approval from other users or teams for a document in Adobe Workfront, or request they review a document without needing to approve it.
 
 >[!IMPORTANT]
@@ -50,7 +52,9 @@ You must have the following access to perform the steps in this article:
 
 1. Select **Approvals** in the left pane.
 
-1. To add an approver, ensure that the **Approver** checkbox is checked then begin typing in the **Reviewers** text box. You can add Workfront users or teams by name. If you would like to add a reviewer instead, simply uncheck the **Approver** checkbox before typing.
+1. <span class="preview">(Optional) Set a deadline for the approval.</span>
+
+1. To add an approver, ensure that the **Approver** checkbox is checked then begin typing in the **Add approvers or reviewers** text box. You can add Workfront users or teams by name. If you would like to add a reviewer instead, simply uncheck the **Approver** checkbox before typing.
 
 1. Repeat the previous step to add additional approvers or reviewers.
 
