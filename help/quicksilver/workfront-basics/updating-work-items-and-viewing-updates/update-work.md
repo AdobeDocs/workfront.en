@@ -316,7 +316,7 @@ You can add updates to the following objects:
 
    >[!TIP]
    >
-   >You cannot add a comment to a system update.
+   >You cannot add a comment to a system update. <span class="preview">However, any replies made to system activity records in the legacy commenting experience are populated on the System Activity tab as read-only.</span>
 
 1. <span class="preview">(Optional) Click the **All** tab to view both user comments and system activity comments in one place. This is a view-only tab.</span>
 
