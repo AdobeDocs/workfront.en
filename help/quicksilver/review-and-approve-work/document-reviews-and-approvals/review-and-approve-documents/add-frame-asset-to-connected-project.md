@@ -10,11 +10,11 @@ feature: Work Management, Digital Content and Documents
 
 # Add a Frame.io asset to a connected Workfront project 
 
-Creatives can add assets that need to be reviewed to Frame.io and send them to Workfront for formal review and approval. 
-
 >[!IMPORTANT]
 >
 >The content of this article refers to updated document approval functionality that is only available for specific accounts. For information on standard approval processes, see the articles listed in [Work approvals](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+
+Creatives can add assets that need to be reviewed to Frame.io and send them to Workfront for formal review and approval. 
 
 ## Access requirements
 

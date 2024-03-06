@@ -135,9 +135,28 @@ The following table shows the similarities and differences between the table and
     
     
 The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture/create-workspaces.md).
+
 1. Click a record type card. For information about creating a record type, see [Create record types](../architecture/create-record-types.md). 
 
     By default, all the records of the selected type display in the table view. 
+
+<!--
+    1. Click **+ View** to add a new view. 
+
+    1. Select from the following types of views: 
+
+        * Table
+        * Timeline
+        * Calendar
+
+        >[!TIP]
+        >
+        >When you create a record type, the table view is also created by default. 
+        >
+        >To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
+        >
+        >(*********remove all of the below steps and replace the screen shot when calendar view releases*********)
+    -->
 
 1. Click the **View** drop-down menu, and select either an existing **Table view** ![](assets/table-view-icon.png) or click **Create view > Table** to create a table view
 
@@ -151,15 +170,20 @@ The workspace you last accessed opens by default. For information about creating
     >
     >    To create a timeline view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline option is dimmed.
 
-1. (Optional) Update the name of the view, then click **Create** to save it. 
+1. (Optional) Update the name of the view, then click **Create** to save a table view
+
+    Or click **Next**, when creating a timeline <!--or calendar--> view.
     
     By default, Maestro names the view "Table < number >" or "Timeline < number >". The number is an automatically generated increment. 
 
+1. (Conditional) Select the Start and End dates for the records that will display in the timeline <!--or calendar--> view, then click **Create**.
 1. (Optional) To rename a view after it is created, click the view drop-down menu, then click the **More** menu ![](assets/more-menu.png) > **Rename** to update the view name. <!--ensure there is not another saving step here?!-->
+<!--1. (Optional) To rename a view after it is created, double-click the view name and start typing the new name, or click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Rename**.-->
 1. (Optional) To manage a specific type of view, see the following articles: 
 
     * [Manage the table view](../views/manage-the-table-view.md)
     * [Manage the timeline view](../views/manage-the-timeline-view.md)
+    <!--* [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md)-->
 
 
 ## Delete views
@@ -174,6 +198,7 @@ The workspace you last accessed opens by default. For information about creating
 
     By default, all the records of the selected type display in the table view. 
 
+<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions below but keep the last step***********)-->
 1. Click the view drop-down menu, hover over one of the views in the list, then click the **More** menu ![](assets/more-menu.png) > **Delete**. 
 1. Click **Delete** to confirm. <!--ensure there is not another saving step here?!-->
     
