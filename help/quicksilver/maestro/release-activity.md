@@ -26,8 +26,23 @@ The features are released weekly and are listed in the order of their release, w
 >
 >The documentation referenced in the sections below will be available some time after the features are released to Production.
 
-<!--
 ## Week of March 4, 2024
+
+### At-a-glance record details display in the table view
+
+Production: March 7, 2024
+
+Preview: To be determined 
+
+To make it easier to view additional information about records when using the table view, we have introduced a new panel that displays a quick view of the record's details. The following is some of the information included in this panel: 
+
+* relevant record details at a glance 
+
+* ability to modify record information 
+
+* a link to open the record's Details page 
+
+For more information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
 
 ### Change row height in the table view
 
@@ -77,8 +92,6 @@ Preview: To be determined
 You can now display records in a calendar view. You must have at least two date fields on a record type to be able to create the calendar view.  
 
 For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). 
-
--->
 
 ## Week of February 26, 2024
 
