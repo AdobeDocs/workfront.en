@@ -60,7 +60,7 @@ For more information, see [Updates section overview](/help/quicksilver/workfront
 
 >[!NOTE]
 >
->Preview release: February 22, 2024; Production for fast release: With the 24.3 release (March 2024); Production for all customers: With the 24.4 release (April 2024)
+>Preview release: February 22, 2024; Production for fast release: With the 24.3 release (March 14, 2024); Production for all customers: With the 24.4 release (April 2024)
 
 We have now added the new commenting functionality to the Summary panel for task and issue lists.
 

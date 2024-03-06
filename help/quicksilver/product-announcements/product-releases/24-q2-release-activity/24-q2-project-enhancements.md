@@ -16,7 +16,7 @@ For a list of all changes available at this point in the Second Quarter 2024 rel
 
 >[!NOTE]
 >
->Preview release: February 13, 2024; Production for fast release: With the 24.3 release (March 2024); Production for all customers: With the 24.4 release (April 2024)
+>Preview release: February 13, 2024; Production for fast release: With the 24.3 release (March 14, 2024); Production for all customers: With the 24.4 release (April 2024)
 
 We have added the same functionality for more relevant smart assignments to the Assignments field in the following areas:  
 
@@ -30,7 +30,7 @@ For more information, see [Smart assignments overview](/help/quicksilver/manage-
 
 >[!NOTE]
 >
->Preview release: December 21, 2023; Production for fast release: With the 24.3 release (March, 2024); Production for all customers: With the 24.4 release (April 2024)
+>Preview release: December 21, 2023; Production for fast release: With the 24.3 release (March 14, 2024); Production for all customers: With the 24.4 release (April 2024)
 
 We have changed the algorithm that Workfront uses to calculate and suggest smart assignments for tasks. The new algorithm applies in the following areas in Workfront where you assign a task: task lists, the Assignments area in the task header, Home, and the Summary panel. 
 
