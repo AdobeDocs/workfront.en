@@ -9,12 +9,16 @@ feature: Work Management, Digital Content and Documents
 
 # Connect Workfront and Frame.io
 
+>[!IMPORTANT]
+>
+>The content of this article refers to updated document approval functionality that is only available for specific accounts. For information on standard approval processes, see the articles listed in [Work approvals](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+
 Workfront uses Frame.io in the review and approval process to meet people where they want to work. The project management and approval process is managed in Workfront, and the review process is completed in Frame.io. You must complete all of the following sections to successfully set up the integration:
 
 * [Connect a Workfront Group to a Frame.io Team](#connect-a-workfront-group-to-a-frameio-team)
 * [Create a Workfront project and add a connected group ](#create-a-workfront-project-and-add-a-connected-group)
 
-The content of this article refers to updated document approval functionality that is only available for specific accounts. For information on standard approval processes, see the articles listed in [Work approvals](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+
 
 ## Access requirements
 
