@@ -28,22 +28,6 @@ The features are released weekly and are listed in the order of their release, w
 
 ## Week of March 4, 2024
 
-### At-a-glance record details display in the table view
-
-Production: March 7, 2024
-
-Preview: To be determined 
-
-To make it easier to view additional information about records when using the table view, we have introduced a new panel that displays a quick view of the record's details. The following is some of the information included in this panel: 
-
-* relevant record details at a glance 
-
-* ability to modify record information 
-
-* a link to open the record's Details page 
-
-For more information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
-
 ### Change row height in the table view
 
 Production: March 7, 2024 
@@ -60,9 +44,28 @@ You can update the row height to one of the following sizes:
 
 For more information, see [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md). 
 
+<!--
+## Week of March 11, 2024
+
+### At-a-glance record details display in the table view
+
+Production: March 14, 2024
+
+Preview: To be determined 
+
+To make it easier to view additional information about records when using the table view, we have introduced a new panel that displays a quick view of the record's details. The following is some of the information included in this panel: 
+
+* relevant record details at a glance 
+
+* ability to modify record information 
+
+* a link to open the record's Details page 
+
+For more information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
+
 ### New tabbed design for record views 
 
-Production: March 7, 2024 
+Production: March 14, 2024 
 
 Preview: To be determined 
 
@@ -74,7 +77,7 @@ For more information, see [Manage record views](/help/quicksilver/maestro/views/
 
 ### Dynamic design of a record view
 
-Production: March 7, 2024
+Production: March 14, 2024
 Preview: To be determined 
 
 We have updated the look and feel of the views in the record type page. The new views are dynamically responsive and quickly adjust to the size of your screen. The toolbar option labels are hidden to make the toolbar easier to use on smaller screens.  
@@ -85,13 +88,35 @@ For more information, see the following articles:
 
 ### New calendar view for records
 
-Production: March 7, 2024 
+Production: March 14, 2024 
 
 Preview: To be determined 
 
 You can now display records in a calendar view. You must have at least two date fields on a record type to be able to create the calendar view.  
 
 For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). 
+
+### Allow System Administrators to manage all shared views 
+
+Production: < date > 
+
+Preview: To be determined 
+
+To be consistent with all other areas of the system and to be able to maintain and control any view available to you as a System Administrator, you now have Manage permissions to any view shared with you in Maestro. Prior to this enhancement, view creators could have given you permissions to View or Manage the view. Now, if the view is shared with you and you are a System Administrator, you will have Manage permissions to the view, by default.  
+
+For more information, see [Share views](/help/quicksilver/maestro/access/share-views.md). 
+
+### Unauthorized page when sharing a view without permissions
+
+ Production: < date > 
+
+Preview: To be determined 
+
+ When a user receives a link to a record type and they have access to the workspace but not to the view shared in the link, a page notifying them that they are not authorized to see the record type displays.  
+
+ For more information, see [Share views](/help/quicksilver/maestro/access/share-views.md). 
+
+-->
 
 ## Week of February 26, 2024
 
