@@ -64,7 +64,7 @@ For more detail about the information in this table, see [Access requirements in
 
       >[!NOTE]
       >
-      >The card limit for dynamic boards is 1,000 tasks and 1,000 issues, for a total of 2,000 cards. High numbers of cards on the board can affect the board performance.
+      >The card limit for dynamic boards is 700 tasks and 700 issues, for a total of 1,400 cards. High numbers of cards on the board can affect the board performance.
 
    1. (Optional) Select [!UICONTROL **Do not archive completed cards**] to bring completed tasks and issues onto the board as visible cards in the Completed column. When this option is not selected, completed cards at the time of board creation are brought onto the board as archived cards.
    
