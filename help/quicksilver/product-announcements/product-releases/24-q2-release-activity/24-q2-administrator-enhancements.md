@@ -37,7 +37,9 @@ Native fields used in custom forms become available in the field library in the 
 
 This feature is available only in the form designer beta, not in the legacy form builder.
 
-The Experience League articles for this feature will be updated by March 7.
+For more information, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3427702/){target=_blank}
 
 ## Attribute mapping now available for organizations that have migrated to Adobe IMS
 
@@ -49,7 +51,7 @@ Workfront system administrators can now set up user attribute mapping for organi
 
 Previously, this functionality was only available to organizations that had not yet been onboarded to Adobe IMS.
 
-For instructions on configuring attribute mapping, see **Map user attributes in the Adobe unified experience** in the article [Map user attributes and auto-provision new users](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md).
+For instructions on configuring attribute mapping, see [Map user attributes in the Adobe unified experience](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/map-user-attributes.md#map-user-attributes-in-the-adobe-unified-experience) in the article **Map user attributes and auto-provision new users**.
 
 ## Skip logic and display logic are now available in the form designer beta
 
