@@ -93,6 +93,11 @@ To manage a table view:
 
     ![](assets/table-view-example.png)
 
+1. (Optional) Click **Row height**, then select from the following options to modify the height of the table rows: 
+    * Short
+    * Medium
+    * Tall 
+
 1. Update the following view elements as described in the subsections below:
     * [Columns (or fields)](#add-columns-or-fields)
     * [Rows (or records)](#add-rows-or-records)
