@@ -35,7 +35,7 @@ The table below tells you the highest level of access (Edit or View) that each o
         <td>Projects</td>
         <td>Edit</td>
         <td>View</td>
-        <td>View (only the Details page)</td>
+        <td>View</td>
         <td>No Access</td>
     </tr>
     <tr>
