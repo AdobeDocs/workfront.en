@@ -375,7 +375,7 @@ This page provides information about functionality that is included in the Secon
 
 ### Workfront Fusion enhancements
 
-There are no Workfront Fusion updates at this point in the release. This area will be updated when updates are available.
+New features in Workfront Fusion are available in Production at a cadence outside of the First Quarter 2023 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Workfront Scenario Planner enhancements
 
