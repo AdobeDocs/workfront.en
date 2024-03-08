@@ -112,7 +112,7 @@ This action module retrieves a Lightroom server version ID, proving whether the 
 
 ### Assets
 
-#### Create an original file
+#### Create an asset original file
 
 This action module creates and uploads an original file for an asset.
 
@@ -196,13 +196,99 @@ This action module creates a new asset with initial metadata and import informat
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Content type]</td>
+      <td role="rowheader">[!UICONTROL Datetime user updated]</td>
       <td>
-        <p>Select the content type for the new file.</p>
+        <p>Enter or map a date with the format <code>YYYY-MM-DDT00:00:00-00:00</code>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Date captured]</td>
+      <td>
+        <p>Enter or map a date with the format <code>YYYY-MM-DDT00:00:00-00:00</code>.</p>
       </td>
     </tr>
   </tbody>
 </table>
+
+#### Create an asset external XMP develop setting file
+
+This action module supports two workflows. The first workflow is to upload the external XMP develop settings file for the asset. The second workflow is to create an external XMP develop settings file by copying from another asset's external xmp develop setting file. 
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Lightroom], see <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Create a connection to [!DNL Adobe Lightroom]</a> in this article.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Length of content in bytes]</td>
+      <td>
+        <p>Enter or map the length of the content in bytes.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Upload new or copy XMP/develop file]</td>
+      <td>
+        <p>Select whether you are uploading a new file, or copying a file from an existing asset.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Catalog ID]</td>
+      <td>
+        <p>Enter or map the ID of the catalog that the asset belongs to.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Asset ID]</td>
+      <td>
+        <p>Enter or map the ID of the asset that you want to upload or copy a file to.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Link to XMP/develop file]</td>
+      <td>
+        <p>Enter or map a link to the file you want to upload or copy.</p><p>This file must be JSON if copying a file, or XML if uploading a file.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+Generate renditions for an original file
+
+Get a catalog asset
+
+Get the latest asset external XMP develop setting file
+
+Get the latest asset rendition
+
+Retrieve assets
+
+### Albums
+
+Add assets to album
+
+Create album
+
+Delete album
+
+Get album
+
+List assets of an album
+
+Retrieve albums
+
+Update album
+
+
+
+
+
+
+
+
+
 
 
 
