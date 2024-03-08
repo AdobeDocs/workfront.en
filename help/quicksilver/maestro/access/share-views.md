@@ -109,9 +109,7 @@ To share a view with others:
 
 {{step1-to-maestro}}
 
-1. Open the workspace whose view you want to share, then click a record type card. 
-
-   This opens the record type page.
+1. Open the workspace whose view you want to share, then click a record type card.  This opens the record type page.
 
 1. From the view drop-down menu, hover over the view you want to share and click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Share**. 
 
