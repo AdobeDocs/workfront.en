@@ -247,7 +247,11 @@ The following are the main planning capabilities objects and concepts:
 
         ![](assets/grouping-applied-in-timeline-view.png)
 
-    For more information, see [Manage record views](../maestro/views/manage-record-views.md).
+    <!--* **Calendar view**: Displays records that have at least two Date-type fields in a calendar format. 
+    ![](assets/calendar-view-example.png)-->
+
+
+For more information, see [Manage record views](../maestro/views/manage-record-views.md).
 
 
 ## Adobe Workfront planning capabilities object limitations

@@ -1,6 +1,6 @@
 ---
 title: Manage record views
-description: You can display records in a table or a timeline view when using Adobe Maestro.
+description: You can display records in a table, timeline, or calendar view when using the Adobe Workfront planning capabilities.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -12,14 +12,19 @@ exl-id: 77342724-0182-4134-903b-4428d54cdceb
 
 {{maestro-important-intro}}
 
-After selecting a record type in Adobe Maestro, you can display all the records of that type in the following views: 
+After selecting a record type in the Adobe Workfront planning capabilities area, you can display all the records of that type in the following views: 
 
 * Table
     
     For more information, see [Manage the table view](../views/manage-the-table-view.md). 
+
 * Timeline
 
     For more information, see [Manage the timeline view](../views/manage-the-timeline-view.md). 
+
+<!--* Calendar 
+
+    For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). -->
 
 ## Access requirements
 
@@ -40,7 +45,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront planning capabilities closed beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -58,7 +63,7 @@ You must have the following access to perform the steps in this article:
   
   <tr>
    <td role="rowheader">Access level configuration</td>
-   <td> <p>There are no access level controls for Maestro</p>  
+   <td> <p>There are no access level controls for Workfront planning capabilities</p>  
 </td>
   </tr>
 
@@ -76,13 +81,13 @@ You must have the following access to perform the steps in this article:
  </tbody>
 </table>
 
-## Considerations when working with Maestro views
+## Considerations when working with record views
 
-* Views in Maestro are record type-specific. You cannot apply the same view to two different record types. 
+* Views in the Workfront planning capabilities area are record type-specific. You cannot apply the same view to two different record types. 
 * Views that you create are visible only to you and users who you share the views with. 
 * Building views for operational record types is identical to building views for taxonomy record types. 
 * When you modify or delete a view, it is modified and deleted for all users who have permissions to the view. 
-* The following elements are unique to each view in Maestro:
+* The following elements are unique to each record view:
 
     * Filter
     * Grouping
@@ -94,7 +99,7 @@ You must have the following access to perform the steps in this article:
 
     >[!NOTE]
     >
-    > Because Maestro is currently in a beta state, some view elements might not be available to both views.
+    > Because the Adobe Workfront planning capabilities are currently in a beta state, some view elements might not be available to all views.
 
 This article describes the following information about Maestro views:
 
@@ -105,6 +110,8 @@ This article describes the following information about Maestro views:
 * [Share a view](#share-a-view)
 
 ## Similarities and differences between the table and timeline views
+
+<!-- should we include Calendar here or remove this section???-->
 
 The following table shows the similarities and differences between the table and timeline views in Maestro: 
 
@@ -174,7 +181,7 @@ The workspace you last accessed opens by default. For information about creating
 
     Or click **Next**, when creating a timeline <!--or calendar--> view.
     
-    By default, Maestro names the view "Table < number >" or "Timeline < number >". The number is an automatically generated increment. 
+    By default, Workfront names the view "Table < number >" or "Timeline < number >", <!--or "Calendar < number >"-->. The number is an automatically generated increment. 
 
 1. (Conditional) Select the Start and End dates for the records that will display in the timeline <!--or calendar--> view, then click **Create**.
 1. (Optional) To rename a view after it is created, click the view drop-down menu, then click the **More** menu ![](assets/more-menu.png) > **Rename** to update the view name. <!--ensure there is not another saving step here?!-->
@@ -202,7 +209,7 @@ The workspace you last accessed opens by default. For information about creating
 1. Click the view drop-down menu, hover over one of the views in the list, then click the **More** menu ![](assets/more-menu.png) > **Delete**. 
 1. Click **Delete** to confirm. <!--ensure there is not another saving step here?!-->
     
-    The view is deleted for all users who can access the Maestro area and it cannot be recovered. 
+    The view is deleted for all users who can access the records area and it cannot be recovered. 
 
 ## Share a view
 
