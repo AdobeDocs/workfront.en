@@ -163,7 +163,46 @@ This action module creates and uploads an original file for an asset.
 This action module creates a new asset with initial metadata and import information.
 
 
-
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Lightroom], see <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Create a connection to [!DNL Adobe Lightroom]</a> in this article.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Catalog ID]</td>
+      <td>
+        <p>Enter or map the ID of the catalog where the asset will be created.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Asset ID]</td>
+      <td>
+        <p>Enter or map the ID of the new asset.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Asset type]</td>
+      <td>
+        <p>Select whether the asset is an image or a video.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Datetime user created]</td>
+      <td>
+        <p>Enter or map a date with the format <code>YYYY-MM-DDT00:00:00-00:00</code>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Content type]</td>
+      <td>
+        <p>Select the content type for the new file.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
 
