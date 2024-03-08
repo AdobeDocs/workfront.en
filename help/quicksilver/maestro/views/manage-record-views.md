@@ -124,8 +124,8 @@ The following table shows the similarities and differences between the table, ti
 | Add records as new rows in the view                                               | ✓          |               |        |
 | Add fields as new columns in the view                                               | ✓          |               |         |
 | Copy rows from an external list and paste them in a table             | ✓          |               |          |
-| Display records in a timeline                                            |            | ✓             |             |            |          |✓             | ✓|
-| Filter records                                       
+| Display records in a timeline        |            |      ✓        |             | 
+| Filter records            |     ✓     |✓             |           |
 | Display records on a calendar                               |           |              |        ✓|
 | Group records                                      |      ✓     | ✓             |
 | Sort records                                       | ✓          |              |
