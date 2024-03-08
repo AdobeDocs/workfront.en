@@ -107,15 +107,9 @@ To share a view with others:
 
 ## Remove permissions to a view
 
-{{step1-to-maestro}}
-
-
-1. Open the workspace whose view you want to share, then click a record type card.  This opens the record type page.
-
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Maestro]**.
+1. Open the workspace whose view you want to share, then click a record type card. This opens the record type page.
 1. From the view drop-down menu, hover over the view you want to share and click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Share**. 
-
 1. Find the user or group that you want to remove, then click **Remove** in the permissions drop-down menu to the right of the user's or group's name. 
-
 1. Click **Save**.
-
-    The user or the users that belong to the group removed no longer have access to the view. 
+   The user or the users that belong to the group removed no longer have access to the view. 
