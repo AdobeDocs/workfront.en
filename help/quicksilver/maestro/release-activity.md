@@ -44,6 +44,16 @@ You can update the row height to one of the following sizes:
 
 For more information, see [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md). 
 
+### New calendar view for records
+
+Production: March 7, 2024 
+
+Preview: To be determined 
+
+You can now display records in a calendar view. You must have at least two date fields on a record type to be able to create the calendar view.  
+
+For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). 
+
 <!--
 ## Week of March 11, 2024
 
@@ -85,16 +95,6 @@ We have updated the look and feel of the views in the record type page. The new 
 For more information, see the following articles: 
 * [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md) 
 * [Manage the timeline view](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
-
-### New calendar view for records
-
-Production: March 14, 2024 
-
-Preview: To be determined 
-
-You can now display records in a calendar view. You must have at least two date fields on a record type to be able to create the calendar view.  
-
-For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). 
 
 ### Allow System Administrators to manage all shared views 
 

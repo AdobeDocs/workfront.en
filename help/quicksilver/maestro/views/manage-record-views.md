@@ -22,9 +22,9 @@ After selecting a record type in the Adobe Workfront planning capabilities area,
 
     For more information, see [Manage the timeline view](../views/manage-the-timeline-view.md). 
 
-<!--* Calendar 
+* Calendar 
 
-    For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). -->
+    For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
 ## Access requirements
 
@@ -101,7 +101,7 @@ You must have the following access to perform the steps in this article:
     >
     > Because the Adobe Workfront planning capabilities are currently in a beta state, some view elements might not be available to all views.
 
-This article describes the following information about Maestro views:
+This article describes the following information about record views:
 
 * [Create and edit a view](#create-or-edit-record-views) 
 * [Delete a view](#delete-views)
@@ -109,32 +109,32 @@ This article describes the following information about Maestro views:
 <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 * [Share a view](#share-a-view)
 
-## Similarities and differences between the table and timeline views
+## Similarities and differences between record views
 
-<!-- should we include Calendar here or remove this section???-->
-
-The following table shows the similarities and differences between the table and timeline views in Maestro: 
+The following table shows the similarities and differences between the table, timeline, and calendar views: 
 
 <!--some of these are NOT available right now; if you make this public, comment out the ones not there-->
 
-| Feature                                                               | Table view | Timeline view |
-|-----------------------------------------------------------------------|------------|---------------|
-| Display records in a list or table                                    | ✓          |              | 
-| Display all fields as columns in the table, by default |     ✓       |              |
-| Hide or show fields (or columns)       | ✓          |               |
-| Edit field values for each record                           | ✓          |               |
-| Add records as new rows in the view                                               | ✓          |               |
-| Add fields as new columns in the view                                               | ✓          |               |
-| Copy rows from an external list and paste them in a table             | ✓          |               |
-| Display records in a timeline                                            |            | ✓             |
-| Filter records                                       | ✓          | ✓             |
+| Feature                                                               | Table view | Timeline view | Calendar view|
+|-----------------------------------------------------------------------|------------|---------------|--------------|
+| Display records in a list or table                                    |    ✓          |              | |
+| Display all fields as columns in the table, by default |     ✓       |              |    |
+| Hide or show fields (or columns)       | ✓          |               |    |
+| Edit field values for each record                           | ✓          |               |             |
+| Add records as new rows in the view                                               | ✓          |               |        |
+| Add fields as new columns in the view                                               | ✓          |               |         |
+| Copy rows from an external list and paste them in a table             | ✓          |               |          |
+| Display records in a timeline        |            |      ✓        |             | 
+| Filter records            |     ✓     |✓             |           |
+| Display records on a calendar                               |           |              |        ✓|
 | Group records                                      |      ✓     | ✓             |
 | Sort records                                       | ✓          |              |
-| Color-code records                     |           | ✓              |
+| Color-code records                     |           | ✓              |          ✓     |
 | Color-code groupings                     |           | ✓              |
 | Search for specific records                     |  ✓         | ✓              |
-| Share view                     |  ✓         | ✓              |
-| Open the record's Details page from the view                    |  ✓         | ✓              |
+| Share view                     |  ✓         | ✓              |       ✓     |
+| Open the record's Details page from the view                    |  ✓         | ✓              |    |
+
 
 ## Create or edit views {#create-or-edit-views}
 
@@ -148,49 +148,62 @@ The workspace you last accessed opens by default. For information about creating
     By default, all the records of the selected type display in the table view. 
 
 <!--
-    1. Click **+ View** to add a new view. 
+1. Click **+ View** to add a new view. 
+1. Select from the following types of views: 
 
-    1. Select from the following types of views: 
+    * Table
+    * Timeline
+    * Calendar
 
-        * Table
-        * Timeline
-        * Calendar
-
-        >[!TIP]
-        >
-        >When you create a record type, the table view is also created by default. 
-        >
-        >To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
-        >
-        >(*********remove all of the below steps and replace the screen shot when calendar view releases*********)
-    -->
+>[!TIP]
+>
+>When you create a record type, the table view is also created by default. 
+>
+>To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
+>
+>(*********remove the step below and replace the screen shot when calendar view releases*********)
+-->
 
 1. Click the **View** drop-down menu, and select either an existing **Table view** ![](assets/table-view-icon.png) or click **Create view > Table** to create a table view
 
     Or
     
-    Select an existing **Timeline view** ![](assets/timeline-view-icon.png) view or click **Create view > Timeline** to create a timeline view.
+    Select an existing **Timeline view** ![](assets/timeline-view-icon.png) or click **Create view > Timeline** to create a timeline view.
+
+    Or 
+
+    Select an existing **Calendar view** ![](assets/calendar-view-icon.png) or click **Create View > Calendar** to create a calendar view. 
 
     ![](assets/view-types-drop-down-from-record-type-list.png)
 
     >[!NOTE]
     >
-    >    To create a timeline view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline option is dimmed.
+    >    To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline or the Calendar options are dimmed.
 
-1. (Optional) Update the name of the view, then click **Create** to save a table view
-
-    Or click **Next**, when creating a timeline <!--or calendar--> view.
+1. (Conditional) Click **Next**, when creating a timeline or calendar view.
     
-    By default, Workfront names the view "Table < number >" or "Timeline < number >", <!--or "Calendar < number >"-->. The number is an automatically generated increment. 
+    By default, Workfront gives the view one of the following names: 
+    
+    * `Table < number >`    
+    * `Timeline < number >`
+    * `Calendar < number >`
+    
+    The number is an automatically generated increment. 
 
-1. (Conditional) Select the Start and End dates for the records that will display in the timeline <!--or calendar--> view, then click **Create**.
+1. (Conditional) Select the **Start** and **End dates** for the records that will display in the timeline or calendar view.
+1. Click **Create**.
+
+    <!--add for view redesign: The view displays as a new tab. Views display in the chronological order from when they were created or shared with you. -->
+<!--1. (Optional) Click the **More** menu ![](assets/more-caret-down-icon-views.png) next to the last view to view all views for the selected record type. 
+
+    Additional views display under the **More** menu after the last view tab. The number next to the **More** menu shows the number of additional views. -->
 1. (Optional) To rename a view after it is created, click the view drop-down menu, then click the **More** menu ![](assets/more-menu.png) > **Rename** to update the view name. <!--ensure there is not another saving step here?!-->
 <!--1. (Optional) To rename a view after it is created, double-click the view name and start typing the new name, or click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Rename**.-->
 1. (Optional) To manage a specific type of view, see the following articles: 
 
     * [Manage the table view](../views/manage-the-table-view.md)
     * [Manage the timeline view](../views/manage-the-timeline-view.md)
-    <!--* [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md)-->
+    * [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md)
 
 
 ## Delete views
@@ -205,7 +218,7 @@ The workspace you last accessed opens by default. For information about creating
 
     By default, all the records of the selected type display in the table view. 
 
-<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions below but keep the last step***********)-->
+<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions in the point below but keep the last step***********)-->
 1. Click the view drop-down menu, hover over one of the views in the list, then click the **More** menu ![](assets/more-menu.png) > **Delete**. 
 1. Click **Delete** to confirm. <!--ensure there is not another saving step here?!-->
     
