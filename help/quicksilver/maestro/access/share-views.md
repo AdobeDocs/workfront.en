@@ -6,7 +6,7 @@ hide: yes
 recommendations: noDisplay, noCatalog
 ---
 
-<!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
+<!--update the metadata and description when we turn this article live-->
 
 # Share views
 
@@ -77,10 +77,9 @@ You can share views you created or views you have Manage permissions to.
 
 >[!NOTE]
 >
->System Administrators cannot view or share views they did not create themselves. They can only access or share views that are shared with them. <!--System administrators can have only Manage permissions to a view.-- >
+>System Administrators cannot view or share views they did not create themselves. They can only access or share views that are shared with them. 
 
-
-To share a view with others: 
+<!--for above note: System administrators can have only Manage permissions to a view.-->
 
 {{step1-to-maestro}}
 
@@ -103,4 +102,4 @@ To share a view with others:
         For information about permission levels and what actions users can perform for each level, see [Overview of sharing permissions in Adobe Maestro](../access/sharing-permissions-overview.md).
 1. Click **Copy link** to copy a link to the view to your clipboard. 
 1. Share the copied link with others. Users who receive the link must be active users and log in to Workfront to be able to access the record type page and display it in the selected view. 
-1. Click **Save**. 
+1. Click **Save**.
