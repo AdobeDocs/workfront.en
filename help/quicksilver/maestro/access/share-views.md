@@ -103,14 +103,4 @@ To share a view with others:
         For information about permission levels and what actions users can perform for each level, see [Overview of sharing permissions in Adobe Maestro](../access/sharing-permissions-overview.md).
 1. Click **Copy link** to copy a link to the view to your clipboard. 
 1. Share the copied link with others. Users who receive the link must be active users and log in to Workfront to be able to access the record type page and display it in the selected view. 
-1. Click **Save**.
-
-<!--
-## Remove permissions to a view
-{{step1-to-maestro}}
-1. Open the workspace whose view you want to share, then click a record type card. This opens the record type page.
-1. From the view drop-down menu, hover over the view you want to share and click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Share**.
-1. Find the user or group what you want to remove, then click **Remove** in the permissions drop-down menu to the right of the user's or group's name. 
 1. Click **Save**. 
-   The user or the users that belong to the group removed no longer have access to the view. There is no notificaiton for the users that that have been removed from accessing the view.
--->   
