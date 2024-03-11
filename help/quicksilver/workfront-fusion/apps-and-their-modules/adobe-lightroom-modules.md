@@ -128,7 +128,7 @@ This action module creates and uploads an original file for an asset.
     <tr>
       <td role="rowheader">[!UICONTROL Catalog ID]</td>
       <td>
-        <p>Enter or map the ID of the catalog that the asset belongs to.</p>
+        <p>Enter or map the ID of the catalog that contains the asset.</p>
       </td>
     </tr>
     <tr>
@@ -237,7 +237,7 @@ This action module supports two workflows. The first workflow is to upload the e
     <tr>
       <td role="rowheader">[!UICONTROL Catalog ID]</td>
       <td>
-        <p>Enter or map the ID of the catalog that the asset belongs to.</p>
+        <p>Enter or map the ID of the catalog that contains the asset.</p>
       </td>
     </tr>
     <tr>
@@ -255,11 +255,99 @@ This action module supports two workflows. The first workflow is to upload the e
   </tbody>
 </table>
 
-Generate renditions for an original file
+#### Generate renditions for an original file
 
-Get a catalog asset
+This action module asynchronously generate renditions for an original file.
 
-Get the latest asset external XMP develop setting file
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Lightroom], see <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Create a connection to [!DNL Adobe Lightroom]</a> in this article.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Rendition Type(s) (semi-colon separated)]</td>
+      <td>
+        <p>Enter the rendition type for the rendition you want to create. If entering more than one type, separate them with a semicolon (;). <p>Possible types:</p><ul><li><code>fullsize</code></li><li><code>2560</code></li></ul></p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Length of content in bytes]</td>
+      <td>
+        <p>Enter or map the length of the content in bytes.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Catalog ID]</td>
+      <td>
+        <p>Enter or map the ID of the catalog that contains the asset.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Asset ID]</td>
+      <td>
+        <p>Enter or map the ID of the asset that you want to create a rendition of a file for.</p>
+      </td>
+    </tr>
+  </tbody>
+</table> 
+
+#### Get a catalog asset
+
+This action module retrieves information about a single asset in a catalog. The catalog must be owned by the user whose credentials are represented in the connection used in this module.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Lightroom], see <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Create a connection to [!DNL Adobe Lightroom]</a> in this article.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Catalog ID]</td>
+      <td>
+        <p>Enter or map the ID of the catalog that contains the asset.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Asset ID]</td>
+      <td>
+        <p>Enter or map the ID of the asset that you want to retrieve information for.</p>
+      </td>
+    </tr>
+  </tbody>
+</table> 
+
+
+#### Get the latest asset external XMP develop setting file
+
+This action module retrieves the most recent asset external XMP setting file.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Lightroom], see <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Create a connection to [!DNL Adobe Lightroom]</a> in this article.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Catalog ID]</td>
+      <td>
+        <p>Enter or map the ID of the catalog that contains the asset.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Asset ID]</td>
+      <td>
+        <p>Enter or map the ID of the asset associated with the XMP develop setting file.</p>
+      </td>
+    </tr>
+  </tbody>
+</table> 
 
 Get the latest asset rendition
 
