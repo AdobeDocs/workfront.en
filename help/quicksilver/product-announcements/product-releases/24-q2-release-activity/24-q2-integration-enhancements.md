@@ -4,7 +4,6 @@ description: Second Quarter 2024 Integration enhancements
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-exl-id: 0d581f3c-2aaf-4ac1-97a5-df1b01627080
 ---
 # Second Quarter 2024 Integration enhancements
 
