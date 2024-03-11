@@ -162,6 +162,40 @@ This page provides information about functionality that is included in the Secon
            </tbody>
         </table>
 
+### Integration enhancements
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 50%;" />
+    <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Enhancements to automated folder creation workflow in the Adobe Experience Manager integration</a></p><span style="color: #ff0000;"> New in Preview!</span><p>WTo ensure that your Adobe Experience Manager folders more accurately reflect your needs, we've added nested folder trees to the Adobe Experience Manager linked folders workflow.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: March 11, 2024</p>
+                            </li>
+                             <li> <p><span class="preview">Quarterly release to Production: March 14, 2024</span></p>
+                             </li>
+                        </ul>
+                    </td>
+                 </tr>          
+            </tbody>
+</table>
+
+
 ### Project enhancements
 
 <table>
