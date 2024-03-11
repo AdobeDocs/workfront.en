@@ -349,9 +349,71 @@ This action module retrieves the most recent asset external XMP setting file.
   </tbody>
 </table> 
 
-Get the latest asset rendition
+#### Get the latest asset rendition
 
-Retrieve assets
+This action module retrieves the latest asset rendition of the specified type.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Lightroom], see <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Create a connection to [!DNL Adobe Lightroom]</a> in this article.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Catalog ID]</td>
+      <td>
+        <p>Enter or map the ID of the catalog that contains the asset.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Asset ID]</td>
+      <td>
+        <p>Enter or map the ID of the asset associated with the XMP develop setting file.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Rendition type]</td>
+      <td>
+        <p>Select the type of rendition that you want to retrieve.</p>
+      </td>
+    </tr>
+  </tbody>
+</table> 
+
+#### Retrieve assets
+
+This action module retrieves assets owned by the by the user whose credentials are represented in the connection used in this module.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Lightroom], see <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Create a connection to [!DNL Adobe Lightroom]</a> in this article.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Catalog ID]</td>
+      <td>
+        <p>Enter or map the ID of the catalog that contains the asset.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL ]</td>
+      <td>
+        <p></p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL ]</td>
+      <td>
+        <p></p>
+      </td>
+    </tr>
+  </tbody>
+</table> 
 
 ### Albums
 
