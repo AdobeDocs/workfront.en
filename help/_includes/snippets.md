@@ -242,6 +242,18 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Maestro]**.
 
+## Maestro important intro - {#maestro-important-intro}
+
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront planning capabilities, a new offering from Adobe Workfront.
+>
+>Currently, the planning capabilities are part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use these capabilities.
+>
+>Contact your account representative for more information about joining the beta program for the planning capabilities.
+>
+>For more information about planning capabilities, see [Adobe Workfront planning capabilities overview](/help/quicksilver/maestro/maestro-overview.md).
+
 <!-- Manage Work -->
 
 ## Step 1 - Getting to Portfolios - {#step1-to-portfolios}
@@ -288,7 +300,7 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 
 ## Latest DPV Version {#latest-version}
 
-**Latest version**: 2.1.24 as of 5/15/2023
+**Latest version**: 2.1.34 as of 3/06/2024
 
 <!-- Release -->
 

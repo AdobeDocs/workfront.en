@@ -8,7 +8,9 @@ feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
 ---
-# Use the [!DNL Adobe Workfront] mobile app
+# Use the [!DNL Adobe Workfront] mobile app: article index
+
+<!-- Audited: 2/2024 -->
 
 Accelerate engagement and streamline work for teams and individuals in your organization through [!DNL Adobe Workfront's] mobile app, available on any iOS or Android device. With the app, you can:
 
@@ -32,7 +34,7 @@ In the mobile app, you can complete work items and view information like you do 
 
 >[!NOTE]
 >
->The [!DNL Adobe Workfront] mobile app is replacing the [!DNL Workfront Proof] app, which is no longer supported and will be removed entirely with the 23.10 release in October. [!DNL Workfront] customers should now use the [!DNL Adobe Workfront] mobile app for conducting proof reviews and approvals.
+>The [!DNL Adobe Workfront] mobile app has replaced the [!DNL Workfront Proof] app. [!DNL Workfront] customers should now use the [!DNL Adobe Workfront] mobile app for conducting proof reviews and approvals.
 
 For more information on the [!DNL Adobe Workfront] mobile app, review the following articles:
 

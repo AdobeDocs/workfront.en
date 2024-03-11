@@ -58,7 +58,7 @@ For information about what users in each access level can do with portfolios, se
 
 ## Access to shared portfolios
 
-As the owner or creator of an portfolio, you can share with other users by granting them permissions to it, as explained in [Share a portfolio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+As the owner or creator of an portfolio, you can share with other users by granting them permissions to it, as explained in [Share a portfolio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -74,4 +74,4 @@ When you share any object with another user, the recipient's rights on it are de
 * The permissions that you grant to your recipient for the object
 * The recipient's access level settings for the object's type
 
-For information about permissions users can grant on a portfolio when sharing it, see [Share a portfolio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+For information about permissions users can grant on a portfolio when sharing it, see [Share a portfolio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).

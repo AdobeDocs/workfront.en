@@ -56,7 +56,7 @@ The Custom Refresh Sandbox contains your actual production data, and it does not
 >[!NOTE]
 >
 >* You cannot schedule a refresh for the current day. For example, if today is June 1, the earliest day when you can schedule a refresh is June 2.
->* The scheduled refresh occurs at 12:00 AM on the given date, based on the timezone of the user that submitted the request.
+>* The scheduled refresh occurs sometime during the night, based on the user's cluster (US clusters refresh during night in the US). The specific time is unpredictable due to other customers in the queue and how much data is refreshed. If the queue has many large customers, your refresh may not run until later that day, or the next day.
 >* Your Custom Refresh Sandbox always has the same product features as your production environment. However, when you refresh your Custom Refresh Sandbox, it preserves branding only for the login screen background color. The login screen and navigation bar logos are reset to [!DNL Workfront] defaults, and any branding images you modified prior to the refresh do not display.
 >
 

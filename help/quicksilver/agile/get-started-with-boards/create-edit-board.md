@@ -62,6 +62,10 @@ For more detail about the information in this table, see [Access requirements in
 
       The [!UICONTROL **Cards being added**] counter shows how many cards will be on the board. For example, if you select a project with 100 tasks and issues, the counter shows 100. If you add a user assignment and that person is assigned to 5 tasks on the project, the counter shows 5.
 
+      >[!NOTE]
+      >
+      >The card limit for dynamic boards is 700 tasks and 700 issues, for a total of 1,400 cards. High numbers of cards on the board can affect the board performance.
+
    1. (Optional) Select [!UICONTROL **Do not archive completed cards**] to bring completed tasks and issues onto the board as visible cards in the Completed column. When this option is not selected, completed cards at the time of board creation are brought onto the board as archived cards.
    
       >[!NOTE]

@@ -9,6 +9,8 @@ exl-id: fdcad9c6-5508-476a-bfb8-2fe3bfbb007b
 ---
 # Interactive content proofs overview
 
+<!-- Audited: 01/2024 -->
+
 Interactive content provides multiple methods of engaging viewers. Agencies can measure the success of their campaigns using analytics gathered from responses to this content.
 
 Examples of interactive content include:
@@ -19,8 +21,6 @@ Examples of interactive content include:
 * HTML5 animations
 * Microsites
 * Interactive emails
-
-This article provides the following about proofing interactive content:
 
 ## About creating proofs for interactive content
 
@@ -46,7 +46,7 @@ When you bundle interactive content in a ZIP file for proofing, make sure that i
 * Interactive content should include the main file (index.html, index.htm). If this&nbsp;file is not placed in the root location, the tool automatically searches the folder to find it.&nbsp;The main file does not need to be named&nbsp;index.html/index.htm, however, there can be only one .html/.htm file placed in the main location.
 * The file must contain at least one static file webpage.
 * The maximum bundle size is 500 MB.
-* In the case of .zip files created in iOS, the tool automatically identifies the folder where the content is located
+* In the case of .zip files created in iOS, the tool automatically identifies the folder where the content is located.
 * Interactive projects are supported only as .zip archives. Standard .zip file submissions will fail.
 * The website must be secure (HTTPS).
 
@@ -64,9 +64,9 @@ When you bundle interactive content in a ZIP file for proofing, make sure that i
 
 After you prepare your ZIP bundle file, create an interactive proof.
 
-For more information, see [Create a proof for interactive content in a ZIP file](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md).
+For more information, see [Create a proof for interactive content in a ZIP file](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
 
-Or, if you are using Workfront Proof, see the section [Generate a proof for interactive content](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md#generati) in the article [Generate Proofs in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
+Or, if you are using Workfront Proof, see the section [Generate a proof for interactive content](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md#generate-a-proof-for-interactive-content) in the article [Generate Proofs in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).
 
 ## About reviewing interactive proofs
 

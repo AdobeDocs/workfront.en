@@ -9,6 +9,8 @@ exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
 ---
 # Canvas Dashboards Overview
 
+<!-- Audited: 12/2023 -->
+
 Canvas Dashboards, a feature currently in development for Dashboards, offers a new option for building effective dashboards in Workfront. Canvas Dashboards will allow Reporting Canvas visualizations to be easily included with existing reports, providing increased flexibility as well as new layout options.
 
 This feature is in development, and does not yet support:
@@ -33,7 +35,7 @@ A new Canvas Dashboards option on the left panel of the existing dashboards land
 
 1. Click on the **Customize what users see** dropdown menu, then click **Dashboards**.
 
-1. In the **Left panel** list that appears below, click the ![](assets/delete-secondary-nav-item.png) icon next to **Canvas Dashboards**. The icon will change to ![](assets/add-secondary-nav-item.png) to show that it is now visible in the Dahboards left panel.
+1. In the **Left panel** list that appears below, click the ![](assets/delete-secondary-nav-item.png) icon next to **Canvas Dashboards**. The icon will change to ![](assets/add-secondary-nav-item.png) to show that it is now visible in the Dashboards left panel.
 
 1. Click **Save** at the bottom of the screen.
 

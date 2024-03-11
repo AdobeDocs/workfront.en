@@ -4,24 +4,22 @@ product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Add users
 description: As a Workfront administrator or a user with full administrative access, you can add users in Workfront.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
 ---
 # Add users
 
+<!--Audited 2/2024-->
+
 >[!IMPORTANT]
 >
->The procedure described on this page applies to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
+>If your organization has been onboarded to the Adobe Admin Console, you must create system administrators through the Adobe Admin Console.
+>
+>For instructions on creating system administrators in the Adobe Admin Console, see [Manage system administrators in the Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
 >Group administrators in organizations that have been onboarded to the Adobe Admin Console can use this procedure to create users and submit the user for admin approval. 
->
->For instructions on adding a user in the Adobe Admin Console:
->
->* See [Create users in Workfront with the Adobe Admin Console](../../../administration-and-setup/add-users/create-and-manage-users/admin-console.md#create)
->* See the section "Add users" in the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html)
->* Contact your Adobe Admin Console Administrator.
 >
 >For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
@@ -48,7 +46,7 @@ You must have the following to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td>Plan</td> 
+   <td><p>New: Standard</p><p>Or</p><p>Current: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -60,6 +58,8 @@ You must have the following to perform the steps in this article:
   </tr> 
  </tbody> 
 </table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Prerequisites
 
@@ -87,7 +87,7 @@ Before you add a user, gather the information about the user listed below and de
 
 ## Create a user from scratch
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Users** ![](assets/users-icon-in-main-menu.png). 
 
 1. Click **New User > New User** to add a user who has not yet been added to Workfront.
 
@@ -108,21 +108,17 @@ Before you add a user, gather the information about the user listed below and de
  
    >[!NOTE]
    >
-   >If your Workfront administrator enabled an SSO integration with Workfront, then the Only Allow &lt;SSO Configuration&gt; Authentication field is hidden if you disable the email invitation. The Federation ID or &lt;SSO Configuration&gt; Username field remains visible.
- 
-   >[!NOTE]
+   >* If your Workfront administrator enabled an SSO integration with Workfront, then the Only Allow &lt;SSO Configuration&gt; Authentication field is hidden if you disable the email invitation. The Federation ID or &lt;SSO Configuration&gt; Username field remains visible.
    >
-   >If your organization has been onboarded to the Admin Console and you add a user through Workfront, you do not have the option to send an email invitation.
+   >* If your organization has been onboarded to the Admin Console and you add a user through Workfront, you do not have the option to send an email invitation.
    >
-   >New Adobe users are added to the Admin Console, and the Admin Console delivers an email to invite them to complete the registration process. All users must complete the registration process to access any Adobe system.
-   >
-   >For existing Adobe users, the user may or may not receive an email about Workfront being available. This is a preference controlled by the Adobe administrator for the product.
+   >   For existing Adobe users, the user may or may not receive an email about Workfront being available. This is a preference controlled by the Adobe administrator for the product.
 
-1. Click **Add This User**.
+1. Click **Add This Person**.
 
    Or
 
-   Click **Add Person User & Start Another** to save the new user and add another one.
+   Click **Add Person & Start Another** to save the new user and add another one.
 
    >[!NOTE]
    >
@@ -143,17 +139,17 @@ You can create a user by copying an existing user.
 
 To create new user by copying an existing one:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Users** ![](assets/users-icon-in-main-menu.png). 
 1. Select the user that you want to copy, then click the Copy icon ![](assets/copy-icon.png).
-1. In the **New User** box that displays, edit the fields available for the new user.
+1. In the **Copy User** box that displays, edit the fields available for the new user.
 
    For information about all fields associated with a user, see [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-1. Click **Add This User**.        
+1. Click **Add This Person**.        
 
    Or
 
-   Click **Add Person User & Start Another** to save the new user and add another one.
+   Click **Add Person & Start Another** to save the new user and add another one.
 
 This creates a new account in Workfront for the user.
 
@@ -162,7 +158,5 @@ If you selected the option to send an invitation to the user, they should receiv
 >[!NOTE]
 >
 >If your organization has been onboarded to the Admin Console and you add a user through Workfront, you do not have the option to send an email invitation.
->
->New Adobe users are added to the Admin Console, and the Admin Console delivers an email to invite them to complete the registration process. All users must complete the registration process to access any Adobe system.
 >
 >For existing Adobe users, the user may or may not receive an email about Workfront being available. This is a preference controlled by the Adobe administrator for the product.

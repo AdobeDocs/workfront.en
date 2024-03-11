@@ -3,13 +3,15 @@ title: Design a form with the form designer
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: You can design a custom form with the form designer.
-author: Courtney
+description: You can design a custom form with the form designer. You can attach custom forms to different Workfront objects to capture data about those objects.
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 ---
 # Design a form with the form designer
+
+{{highlighted-preview}}
 
 You can design a custom form with the form designer. You can attach custom forms to different Workfront objects to capture data about those objects.
 
@@ -22,28 +24,28 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront plan</p> </td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td>
-   <p>New plan: Standard</p>
+   <p>New: Standard</p>
    <p>or</p>
-   <p>Current plan: Plan</p></td> 
+   <p>Current: Plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Administrative access to custom forms</p> <p>For information about how Workfront administrators grants this access, see <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Administrative access to custom forms</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Start designing a custom form
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **Custom Forms** in the left panel.
 
@@ -74,7 +76,9 @@ You must have the following to perform the steps in this article:
     * [Add calculated fields](#add-calculated-fields)
     * [Add radio buttons, checkbox group, and dropdowns](#add-radio-buttons-checkboxes-and-dropdowns)
     * [Add typeahead and date fields](#add-typeahead-and-date-fields)
+    * [Add external lookup fields](#add-external-lookup-fields)
     * [Add images, PDFs, and Videos](#add-images-pdfs-and-videos)
+    * [Add Workfront native fields](#add-workfront-native-fields)
     * [Add Adobe XD files](#add-adobe-xd-files)
 
 ## Add new or existing fields to your custom form
@@ -192,8 +196,9 @@ To add a text field:
     <td>Format</td>
     <td><p>Select the type of data that will be captured in the custom field.</p> <p><b>NOTE</b>:   
     <ul> 
-    <li>This field cannot be edited after the form is saved. If you intend to use your field in mathematical calculations, ensure that you select a Number or Currency format.<br></li> 
-    <li>When you select Number or Currency, the system automatically truncates numbers that start with 0.</li> 
+    <li>This field cannot be edited after the form is saved. If you intend to use your field in mathematical calculations, ensure that you select a Number or Currency format.</li> 
+    <li>When you select Number or Currency, the system automatically truncates numbers that start with 0.</li>
+    <li>The character limit for Number fields is 16. You can also use a Text field to enter numbers and avoid the limit.</li>
      </ul></p></td> </td>
     <td><ul>
     <li>Single line text</li>
@@ -310,7 +315,8 @@ To add radio buttons and checkboxes:
     <td> <p>Select the type of data that will be captured in the custom field.</p> <p><b>NOTE</b>:   
      <ul> 
     <li>This field cannot be edited after the form is saved. If you intend to use your field in mathematical calculations, ensure that you select a Number or Currency format.<br></li> 
-    <li>When you select Number or Currency, the system automatically truncates numbers that start with 0.</li> 
+    <li>When you select Number or Currency, the system automatically truncates numbers that start with 0.</li>
+    <li>The character limit for Number fields is 16. You can also use a Text field to enter numbers and avoid the limit.</li>
      </ul></p></td> 
      <td><ul>
     <li>Radio buttons</li>
@@ -492,11 +498,15 @@ To add typeahead date fields:
 
 ### Add external lookup fields
 
-An external lookup field calls an external API and returns values as options in a dropdown field. Users who work with the object the custom form is attached to can select one or more of these options from the dropdown.
+An external lookup field calls an external API and returns values as options in a dropdown field. Users who work with the object the custom form is attached to can select one or more of these options from the dropdown. The external lookup field is also available in lists and reports.
+
+For examples of using the External Lookup field to call the same instance of Workfront or a public API, see [Examples of the External Lookup field in a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
 
 >[!NOTE]
 >
->External lookup functionality is not available on Document objects.
+>External lookup functionality is not available on Document or User objects.
+>
+>External lookup fields from custom forms are currently not supported in dashboards. You cannot edit the field value inline, and it may not display properly in a dashboard.
 
 To add an external lookup:
 
@@ -529,14 +539,20 @@ To add an external lookup:
       <td><p>Select the type of data that will be captured in the custom field.</p>
       <p><strong>NOTE:</strong></p>
       <ul><li>You can change the format type after the form is saved, with one limitation: All existing values on objects must be able to be converted to the new type. (For example, if the format type is Text, and an object is storing the value "abc," you cannot convert the field and will get an error that the system cannot convert "abc" to number/currency.) If you intend to use your field in mathematical calculations, ensure that you select a Number or Currency format.</li>
-      <li>When you select Number or Currency, the system automatically truncates numbers that start with 0.</li></ul></td>
+      <li>When you select Number or Currency, the system automatically truncates numbers that start with 0.</li>
+      <li>The character limit for Number fields is 16. You can also use a Text field to enter numbers and avoid the limit.</li>
+      </ul></td>
      </tr> 
      <tr> 
       <td role="rowheader">Base API URL</td> 
       <td><p>Type or paste the URL for the API.</p><p>The API URL must return a JSON content of the options that you would like to show in the dropdown. You can use the JSON Path field to select the specific values from the returned JSON to be dropdown options.</p><p>When entering the API URL, you can optionally pass the following values in the URL:</p>
-      <ul><li>$$QUERY - This represents the search text that the end user types in the field and allows you to implement query filtering for your end users. (The user will search for the value in the dropdown.)</li>
-      <li>$$HOST - This represents the current Workfront host and can be used to make /search API calls to the Workfront API. When this wildcard is used, the authentication is handled and users don't need to send authentication headers. (For example, users can search tasks using the base URL "$$HOST/attask/api/task/search" and it will allow searching tasks and selecting values from a returned list of tasks.)</li>
-      <li>{fieldName} - Where fieldName is any custom or native field in Workfront. This way you can implement cascading dropdown option filters, when you pass the value of an already selected field to the External Lookup field to filter down options. (For example, the Region field already exists on the form and you are narrowing a list of countries from the API to those that are in a specific region.)</li>
+      <ul>
+      <li>$$HOST - This represents the current Workfront host and can be used to make /search API calls to the Workfront API. When this wildcard is used, the authentication is handled and users don't need to send authentication headers. (For example, users can search tasks using the base URL <code>$$HOST/attask/api/task/search</code> and it will allow searching tasks and selecting values from a returned list of tasks.)</li>
+      <li><p>$$QUERY - This represents the search text that the end user types in the field and allows you to implement query filtering for your end users. (The user will search for the value in the dropdown.)</p>
+      <p>If the API you are referencing allows it, you can also include modifiers in your search query to identify how the search should work. For example, you can use the following as the Base API URL to allow people to search for any Workfront projects that contain specific text: <code>$$HOST/attask/api/v15.0/proj/search?name=$$QUERY&name_Mod=contains</code>.</p><p>Learn more about the Workfront search modifiers in <a href="/help/quicksilver/wf-api/general/api-basics.md">API Basics</a>.</p>
+      <p><strong>NOTE:</strong> If you are not using $$QUERY and the user types text in the search box, it will narrow down the choices you already have. However, if you use $$QUERY and the user types anything, a new network call to your API is performed. Therefore, if you have more than 2000 values in your API, and the API supports querying, you can utilize $$QUERY to not only search from the existing 2000 values, but from the original API with the narrowed down options.</p></li>
+      <li><p>{fieldName} - Where fieldName is any custom or native field in Workfront. This way you can implement cascading dropdown option filters, when you pass the value of an already selected field to the External Lookup field to filter down options. (For example, the Region field already exists on the form and you are narrowing a list of countries from the API to those that are in a specific region.)</p>
+      <p>For an external lookup field that has a dependency on other fields (using the {fieldName} syntax), the options returned from the API are limited to those that match any strings or values entered in the other fields. (This functionality is not supported in lists and reports.)</p></li>
       <li>{referenceObject}.{fieldName} – Where the field is part of an object. This syntax is similar to custom expressions. (For example, portfolioID={project}.{portfolioID})</li></ul>
       <p><strong>NOTE:</strong> Review the documentation for the API you are working with for the specific queries you can define.</p></td>
      </tr>
@@ -584,12 +600,11 @@ To add an external lookup:
 >
 >The following items are technical limitations of the call to the external API:
 >
->* Maximum number of options: 200 (only the first 200 options from the returned JSON are displayed)
+>* Maximum number of options: 2000 (only the first 2000 unique options from the returned JSON are displayed)
 >* Timeout: 3 seconds
 >* Number of retries: 3
 >* Wait duration between retries: 500ms
 >* Expected response statuses: 2xx
->* Users can see the selected value (and edit the value) in Workfront lists and reports, but will not see the dropdown with options coming from the external API.
 
 ### Add images, PDFs, and videos
 
@@ -635,7 +650,7 @@ The Workfront Mobile app -->
      </tr> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td> <p>(Required) This name is how the system identifies the widget.</p> <p>When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p> <p><b>IMPORTANT</b>: Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in widget. If you do, the system will no longer recognize the widget where it might now be referenced in other areas of Workfront. </p> <p>Each widget name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form. </p> </td> 
+      <td> <p>(Required) This name is how the system identifies the widget.</p> <p>When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p> <p><b>IMPORTANT</b>: Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the widget where it might now be referenced in other areas of Workfront. </p> <p>Each widget name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -674,7 +689,7 @@ The Workfront Mobile app -->
 
     Click **Save and Close**. 
 
-#### **Add a video widget to a custom form from the Documents area**{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
+#### Add a video widget to a custom form from the Documents area{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
 
 >[!IMPORTANT]
 >
@@ -688,7 +703,56 @@ The Workfront Mobile app -->
 
     or
 
-    Click **Save and Close**. 
+    Click **Save and Close**.
+
+<div class="preview">
+
+### Add Workfront native fields
+
+You can add Workfront native fields to your custom forms. When the custom form is attached to an object, the field is populated from the object data. For example, the Description field on a custom form attached to a project will pull in the project description. (The field may show "N/A" if no data is available.)
+
+1. On the left side of the screen, find **Native field** and drag it to a section on the canvas.
+1. On the right side of the screen, configure the options for the custom field:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Label</td> 
+      <td> <p>(Required) Type a descriptive label to display above the field. You can change the label at any time.</p> <p><b>IMPORTANT</b>: Avoid using special characters in this label. They don't display correctly in reports.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Name</td> 
+      <td> <p>(Required) This name is how the system identifies the field.</p><p> When you are configuring the field for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p>
+      <p><b>IMPORTANT</b>:
+      <ul> 
+      <li>Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the field where it might now be referenced in other areas of Workfront.</p> </li>
+      <li> <p>Each field name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form.</p> </li>
+      <li><p>We recommend that you do not use the period/dot character in the custom field name, to prevent errors when using the field in different areas of Workfront.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Instructions</td> 
+      <td> <p>Type any additional information about the field. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Reference Field</td> 
+      <td><p>(Required) Select a Workfront native field.<p><p>Only native fields for the form's objects are available. For example, if the Object Types list at the top of the form designer shows Project, you will be able to select native fields for projects but not fields that are specific to tasks.</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">Size</td> 
+      <td>(Optional) Change the display size of the field as needed.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. To save your changes, click **Apply** and move on to another section to continue building your form.
+
+    or
+
+    Click **Save and Close**.
+
+</div>
 
 ### Add Adobe XD files
 

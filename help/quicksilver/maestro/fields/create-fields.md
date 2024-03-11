@@ -27,15 +27,7 @@ recommendations: noDisplay, noCatalog
 
 # Create fields
 
->[!IMPORTANT]
->
->The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
->
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use Maestro capabilities.
->
->Contact your account representative for more information about joining the beta program for Maestro.
->
->For information, see [Adobe Maestro overview](../maestro-overview.md).
+{{maestro-important-intro}}
 
 In Adobe Maestro, you can create custom fields for operational record types or taxonomies. You can then associate the fields with Maestro records to enhance record information. 
 
@@ -181,7 +173,7 @@ Paragraph fields capture additional alphanumeric information about a record, sim
 >
 >* The content of a paragraph field can have up to 1,000 characters. 
 >
->* You can use Rich Text formatting to enhance the content of paragraph fields when they display in the table view or the Details page of a record.
+>* You can use Rich Text formatting to enhance the content of paragraph fields when they display in the table view or the Details page of a record. For information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
 
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Paragraph** field type.
 
@@ -379,7 +371,9 @@ For more information, see [Formula fields overview](/help/quicksilver/maestro/fi
 
     >[!NOTE]
     >
-    >    You cannot add fields from linked records in a formula. This functionality will be released at a later date. For more information about new releases, see [Adobe Maestro release activity](/help/quicksilver/maestro/release-activity.md). 
+    > * You cannot add Multi-select type fields in a formula.
+    >
+    > * You cannot add fields from linked records in a formula. This functionality will be released at a later date. For more information about new releases, see [Adobe Workfront planning capabilities release activity](/help/quicksilver/maestro/release-activity.md).
 
 
 1. Click **Create**.

@@ -13,7 +13,7 @@ exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>   
   
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> 
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span> 
 
 
 When managing task and issues assignments, you can use smart assignments to identify who the best resource is to complete the work. Smart assignments are suggestions that Adobe Workfront presents to you when you assign work items to resources based on an algorithm that determines the most appropriate resource for the job. Smart assignments can be users, job roles, or teams. 
@@ -57,7 +57,11 @@ You can view smart assignments in the following areas where you can assign tasks
 
   ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
 
-* The Assignments field for an item listed in the Home area in the Assignments area, when you open a task or issue
+* <span class="preview">The Assignments field in the New Task box, when adding a task to a project</span>
+
+  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+
+* The Assignments field for an item listed in the Home area, when you open a task or issue
 
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 
@@ -122,7 +126,7 @@ If the first step of task smart assignments has found no matches, Workfront calc
 
 For more information, see the section [Smart assignments criteria for tasks and issues](#smart-assignments-criteria-for-tasks-and-issues) in this article. 
 
-Assignments identified in this phase are listed in the **Results** section of the Assignments field. <!--update this to "Other assignments"-->
+Assignments identified in this phase are listed in the **Other assignments** section of the Assignments field for tasks. <!--update this to "Other assignments"-->
 
 ### Smart assignments criteria for tasks and issues 
 

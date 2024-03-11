@@ -1,6 +1,6 @@
 ---
 title: Manage the timeline view
-description: You can display records in a timeline view, when accessing the record type page in Adobe Maestro.
+description: You can display records in a timeline view, when accessing the record type page in Adobe Workfront planning capabilities.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -20,19 +20,11 @@ role: User
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
->[!IMPORTANT]
->
->The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
->
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use Maestro capabilities.
->
->Contact your account representative for more information about joining the beta program for Maestro.
->
->For information, see [Adobe Maestro overview](/help/quicksilver/maestro/maestro-overview.md). 
+{{maestro-important-intro}}
 
-You can display records in a timeline view, when accessing the record type page in Adobe Maestro. 
+You can display records in a timeline view, when accessing the record type page in Adobe Workfront planning capabilities. 
 
-For information about Maestro views, see [Manage record views in Adobe Maestro](../views/manage-record-views.md).
+For information about record views, see [Manage record views](../views/manage-record-views.md).
 
 ## Access requirements
 
@@ -53,7 +45,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront planning capabilities closed beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -71,7 +63,7 @@ You must have the following access to perform the steps in this article:
   
   <tr>
    <td role="rowheader">Access level configuration</td>
-   <td> <p>There are no access level controls for Maestro </p>  
+   <td> <p>There are no access level controls for Adobe Workfront planning capabilities </p>  
 </td>
   </tr>
 
@@ -105,17 +97,6 @@ Consider the following:
     * When the Start or the End dates have no value
     * When the Start date is after the End date 
 
-<!--these are NOT available now because there won't be a table for the timeline view for the near future, per Andy: 
-* The records displayed in the timeline view also display in a view-only table to the left of the timeline. 
-* Each row in the table and each bar on the timeline represent the same record. 
-* Each column in the table is a record field. The columns of this table are preconfigured and cannot be customized. 
-* Only a limited number of fields (or columns) display in the timeline view table. 
-* You cannot do the following in a timeline view:
-     * Add rows or records
-     * Add columns or fields
-     * Edit record information
---> 
-
 To manage a timeline view: 
 
 1. Go to the record type page for which you want to view the timeline. 
@@ -134,7 +115,7 @@ To manage a timeline view:
 
     * Click the left and right icons or use the horizontal scroll to move backwards and forwards in the timeline. 
     * Click **Today** to center the timeline to today's date. 
-    * Select one of the following options from the time frame drown-down menu to update the time increments: 
+    * Select one of the following options from the time frame drop-down menu to update the time increments: 
 
         * Year
         * Quarter
@@ -198,7 +179,7 @@ Adding groupings in the timeline view is similar to adding groupings to the tabl
 Consider the following when working with groupings in the timeline view:
 
 * You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type.
-* You can apply 3 levels of grouping in a Maestro view. The records are grouped in the order of groupings that you select. 
+* You can apply 3 levels of grouping in a view. The records are grouped in the order of groupings that you select. 
 * You can apply up to 4 levels of grouping when using the API. 
 * The groupings are unique to the view that you select. Two timeline views of the same record type can have different groupings applied to them. Two users looking at the same timeline view see the same grouping that is currently applied. 
 * You cannot name the groupings you build for a timeline view.
@@ -209,21 +190,19 @@ To add a grouping in the timeline view:
 1. Create a timeline view for a record type, as described in the article [Manage record views](../views/manage-record-views.md). 
 1. Click **Grouping** in the upper-right corner of the timeline view.
 
-    ![](assets/grouping-ui-timeline-view.png)
+    ![](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
 1. Click one of the suggested fields, or click **Choose a different field**, search for a different field, then click it when it displays in the list. 
-
-    >[!TIP]
-    >
-    >You cannot select linked fields. 
 
     The grouping is applied automatically to the timeline and records display inside the grouping box. 
 
     <!-- add a step that you can rearrange the groupings here, when this will be possible-->
     
-1. (Optional) Repeat the above steps to add up to 3 groupings. 
+1. (Optional) Repeat the above steps to add up to 3 groupings.
 
-    The number of fields selected for the grouping displays next to the Grouping icon. 
+    The number of fields selected for the grouping displays next to the Grouping icon.
+
+    <!-- update screen shot with view redesign-->
 
     ![](assets/grouping-applied-in-timeline-view.png)
 
@@ -259,6 +238,12 @@ Update the timeline view settings to indicate what and how information displays 
 1. Click **Bar style** in the left panel, to indicate what fields you want to display on the record bars. 
 
     The Name field is selected by default. <!--adjust this when the primary field is released??-->
+
+1. (Optional and conditional) If you added thumbnails to records, select the Thumbnail option to display the image associated with records in their record bar. 
+
+    >[!NOTE]
+    >
+    >    You must first add thumbnails in the table view before you can display them in the timeline view. For more information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md). 
 
 1. Click **Add field** to add up to 4 fields to the record bars.
 1. Click inside the **Search fields** box, and click the field you want to add. 

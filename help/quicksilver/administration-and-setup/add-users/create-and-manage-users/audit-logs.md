@@ -4,12 +4,14 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: As an Adobe Workfront administrator, you can track user-changes triggered in the system during the past 90 days using audit logs.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6adb4146-42fd-4eda-b46f-c61d7ff71df6
 ---
 # Audit logs
+
+<!--Audited: 01/2024-->
 
 As an Adobe Workfront administrator, you can track user-changes triggered in the system during the past 90 days using the audit logs described below.
 
@@ -24,7 +26,7 @@ The following fields are recorded in every audit log entry:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Date &amp; Time</td> 
+   <td role="rowheader">Date and Time</td> 
    <td>When the action occurred.</td> 
   </tr> 
   <tr> 
@@ -37,7 +39,7 @@ The following fields are recorded in every audit log entry:
   </tr> 
   <tr> 
    <td role="rowheader">Action</td> 
-   <td> Action performed by the user, such as Change, Create, and Delete. </td> 
+   <td> Actions performed by the user, such as Change, Create, and Delete. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object</td> 
@@ -67,7 +69,7 @@ The following fields are recorded in every audit log entry:
 * [Job Roles](#job-roles) 
 * [Login Attempt](#login-attempt) 
 * [Priority](#priority) 
-* [Project Preferences](#project-preferences) 
+* [Project Preference](#project-preference) 
 * [Severity](#severity) 
 * [Status](#status) 
 * [Tasks & Issues Preferences](#tasks-issues-preferences) 
@@ -88,7 +90,7 @@ The system generates an Access Level log entry when a user does one of the follo
      >
      >The system does not record any permission changes to Financial Data or within the following access types: View and Edit.
      >
-     >For example, if a user changes the Planner access type from View to Edit, the system will not display information contained in the Fine-tune your settings drop-down menu.
+     >For example, if a user changes the Planner access type from View to Edit, the system does not display information contained in the Fine-tune your settings drop-down menu.
 
 ### Company {#company}
 
@@ -128,7 +130,7 @@ For more information about configuring job roles, see [Create or edit a custom c
 
 ### Custom Field {#custom-field}
 
-The system generates a Custom Field audit audit log entry when a user does one of the following actions:
+The system generates a Custom Field audit log entry when a user does one of the following actions:
 
 * Creates a custom field
 * Changes a custom field:
@@ -259,7 +261,7 @@ The system generates a Priority audit log entry when a user does one of the foll
 
 For more information about configuring priorities, see [Create and customize priorities](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
-### Project Preferences {#project-preferences}
+### Project Preference {#project-preference}
 
 The system generates a Project Preferences audit log entry when a user does one of the following actions:
 

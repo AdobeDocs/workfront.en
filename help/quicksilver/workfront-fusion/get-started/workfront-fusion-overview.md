@@ -50,14 +50,24 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
+## Workfront Fusion overview
+
 The role of [!DNL Adobe Workfront Fusion] is to automate your processes so that you can concentrate on new tasks rather than repeating the same tasks again and again. It works by linking actions within and between apps and services to create a scenario that transfers and transforms your data automatically. The scenario you create watches for data in an app or service and processes that data to provide the result you want.
 
 A scenario is comprised of a series of modules that indicate how data should be transformed within an app or transferred between apps and web services.
 
 You put modules from various apps and web services into a scenario that executes a task. For example with a [!DNL Workfront Fusion for Work Automation and Integration] license, you can build a scenario that watches for new data in one app or web service, then uses that data in a subsequent module in the scenario to create a certain result, such as the creation of a new record. Once you set up a scenario, [!DNL Workfront Fusion] executes the task for you automatically.
 
-To learn more about available [!DNL Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+>[!NOTE]
+>
+>Workfront Fusion supports only Chrome-based browsers.
 
-To learn more about scenarios, see [Create a practice integration scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-scenario.md).
+## Resources
 
-To learn more about modules, see [Types of modules](../../workfront-fusion/modules/module-types.md).
+As you begin working with Workfront Fusion, you may find the following resources helpful:
+
+* To learn more about available [!DNL Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
+* To learn more about scenarios, see [Create a practice integration scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-scenario.md).
+
+* To learn more about modules, see [Types of modules](../../workfront-fusion/modules/module-types.md).

@@ -4,14 +4,20 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: In a custom form, you can build a calculated custom field that generates calculations. To do this, you create a statement that uses data expressions and the names of existing fields, which can be custom fields, calculated custom data fields, and built-in Workfront fields. This statement calculates the data you enter and displays the result in the new calculated custom field.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 9174c4ef-3beb-4d47-9c5c-363f52105a2c
 ---
 # Add calculated data to a custom form with the legacy form builder
 
+<!--Audited: 01/2024-->
+
 In a custom form, you can add a calculated custom field that uses existing data to generate new data when the custom form is attached to an object. 
+
+To do this, you create a statement that uses data expressions and the names of existing fields, which can be custom fields, calculated custom data fields, and built-in Adobe Workfront fields. 
+
+This statement calculates the data you enter and displays the result in the new calculated custom field.
 
 A calculated custom field can contain:
 
@@ -42,35 +48,39 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront plan</p> </td> 
    <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td>Plan</td> 
+   <td><p>Current: Plan</p>
+   Or
+   <p>New: Standard</p>
+   </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Administrative access to custom forms</p> <p>For information about how Workfront administrators grants this access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>Administrative access to custom forms</p> </p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
+*To find out what plan, license type, or access level configurations you have, contact your Workfront administrator. For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
 
 ## Add a calculated field to a custom form {#add-a-calculated-field-to-a-custom-form}
 
-You can use both built-in Workfront fields and custom fields that you already created.
+You can use both built-in Workfront fields and custom fields that you already created in the expression of a calculated custom field.
 
 >[!IMPORTANT]
 >
->Before you create a new calculated custom field, identify the existing fields that you want to include so that you are sure that the data necessary for the calculation is present in Workfront.
+>Before you create a calculated custom field, identify the existing fields that you want to include so that you are sure that the data necessary for the calculation is present in Workfront.
 
 1. Begin creating or editing a custom form, as described in [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).  
 
 1. On the **Add a Field** tab, click **Calculated**.
 
-   In the display area on the right, the field displays *12345*. This is merely an indicator to remind you that the field is a calculated custom field while you are creating or editing the custom form. When the form is attached to an object and users are filling it out, they see the result of the calculation in the field, never the *12345* indicator.
+   In the display area on the right, the field displays a fill-in value of 12345. This is an indicator to remind you that the field is a calculated custom field while you are creating or editing the custom form. When the form is attached to an object and users are filling it out, they see the result of the calculation in the field, and not the 12345 value.
 
 1. Specify the following information for the calculated field:
 
@@ -82,29 +92,45 @@ You can use both built-in Workfront fields and custom fields that you already cr
     <tbody> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td>Type a label for the field. This is what users will see when they use the custom form. The field <b>Name</b>, which fills in automatically, is referenced by Workfront in reports.</td> 
+      <td>Type a label for the field. This is what users see when they use the custom form. The field <b>Name</b>, which fills in automatically and matches the Label, is referenced by Workfront in reports. This is a required field.</td> 
      </tr> 
-     <tr> 
-      <td role="rowheader" id="instructions">Instructions</td> 
-      <td> By default, the formula you create for the field is stored here. You can add text to provide additional information about the field and the formula in it. This can be useful in two ways: 
-       <ul> 
-        <li> <p>As a reminder of what the formula is and how it works. This is especially helpful if you plan to use this calculated custom field on multiple forms.</p> </li> 
-        <li> <p>As a tooltip users can see when they hover over the field. You add any text here that you want them to see in the tooltip.</p> <p>If you don't want them to see the formula in the tooltip, which might be confusing for them, you can hide it. For instructions, see the table row "Display formula in instructions" in the section <a href="#build-the-calculation-for-your-calculated-custom-field" class="MCXref xref">Build the calculation for your calculated custom field</a> in this article.</p> </li> 
-       </ul> <p>For information about using the same calculated custom field on a new form, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md#using-an-existing-calculated-custom-field-on-a-new-form" class="MCXref xref">Reuse an existing calculated custom field in a custom form</a>.</p> </td> 
+
+   <tr> 
+   <td role="rowheader">Name</td> 
+   <td>By default, the Name of a field is the same as the Label. However, you can modify the Name of a field to be different than the Label of a field. The field <b>Name</b> is referenced by Workfront in reports. This is a required field.</td> 
+   </tr> 
+
+   <tr> 
+     <td role="rowheader" id="instructions">Instructions</td> 
+      <td> <p>Add text to provide additional information about the field and the formula in it.</p>
+      <p>You can also paste here the formula used in the calculation of the custom field. In this case, we recommend that you first update the Calculation of the custom field, and then copy the final expression from the Calculation field and paste it in the Instructions field. </p>
+       
+      
+   This can be useful in the following ways: 
+      <ul> 
+      <li> <p>As a reminder of what the formula is and how it works. This is especially helpful if you plan to use this calculated custom field on multiple forms.</p> </li> 
+       <li> <p>As a tooltip users can see when they hover over the field. You can add any text here that you want them to see in the tooltip.</p> </li> 
+       </ul>
+       <p>If you don't want users to see the formula in the tooltip, which might be confusing for them, do not add it to the Instructions field. Instead, use the "Display formula in instructions" setting to display or hide the formula, as it is further described in this article <a href="#build-the-calculation-for-your-calculated-custom-field">Build the calculation for your calculated custom field</a> in this article.</p> 
+       
+      <p>For information about using the same calculated custom field on a new form, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md#using-an-existing-calculated-custom-field-on-a-new-form" class="MCXref xref">Reuse an existing calculated custom field in a custom form</a>.</p> 
+       
+      </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Format</td> 
-      <td> <p>The format in which you want the results of the field are stored and displayed.</p> <p>If the field will be used in mathematical calculations, always use a <strong>Number</strong> or a <strong>Currency</strong> format. When you select Number or Currency, the system automatically truncates numbers that start with 0.</p> 
-      <p><b>IMPORTANT</b>: Before you choose a format, consider the correct format for the new field. The format field cannot be edited after the custom form is saved. And selecting the wrong format could impact future calculations and aggregate values in report and list groupings.</p> </td> 
+      <td> <p>The format in which you want the results of the field to be stored and displayed.</p> <p>If you plan to use the field in mathematical calculations, always use a <strong>Number</strong> or a <strong>Currency</strong> format. When you select Number or Currency, the system automatically truncates numbers that start with 0.</p> 
+      <p><b>IMPORTANT</b>: <p>Before you choose a format, consider the correct format for the new field. The format field cannot be edited after the custom form is saved. And selecting the wrong format could impact future calculations and aggregate values in report and list groupings.</p>
+      <p><strong>NOTE:</strong> Calculated fields with a Currency format should not include quotation marks. (For example, use 800.00 and not "800.00.") Using quotation marks can cause unexpected consequences due to nuances with language formatting for currency types.</p></td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Continue on to [Build the calculation for your calculated custom field](#build-the-calculation-for-your-calculated-custom-field) in this article.
+1. Continue to update the custom field information, as described in the section [Build the calculation for your calculated custom field](#build-the-calculation-for-your-calculated-custom-field) in this article.
 
 ## Build the calculation for your calculated custom field {#build-the-calculation-for-your-calculated-custom-field}
 
-1. Start creating the calculated custom field, as explained in the section [Add a calculated field to a custom form](#add-a-calculated-field-to-a-custom-form) in this article.
+1. Start creating the calculated custom field, as described in the section [Add a calculated field to a custom form](#add-a-calculated-field-to-a-custom-form) in this article.
 
 1. Click **Maximize** to open the **Calculation Editor** and build your calculation.
 
@@ -118,11 +144,18 @@ You can use both built-in Workfront fields and custom fields that you already cr
 
    A calculation usually starts with an expression, followed by parentheses containing the fields you want to reference when the custom form is attached to an object. For information about the expressions that are available, see [Overview of calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-   Each field must be surrounded with curly brackets, as explained in the section [Syntax required in calculated custom fields](#syntax-required-in-calculated-custom-fields) in this article. When you start typing the name of a field, the system makes suggestions and you can select one to insert it into your calculation.
+   Each field must be surrounded by curly brackets, as explained in the section [Syntax required in calculated custom fields](#syntax-required-in-calculated-custom-fields) in this article. When you start typing the name of a field, the system makes suggestions and you can select one to insert it into your calculation.
 
-   You can reference any type of custom field in a calculation except for two: Text Field with Formatting type and Descriptive Text. For information about the custom field types, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
+   >[!NOTE]
+   >
+   >   You cannot reference fields of the following types in a calculation: 
+   >   
+   >   * Text Field with Formatting
+   >   * Descriptive Text. 
+   >   
+   >   For information about the custom field types, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
 
-1. Click in the large text box, then click **Expressions** and **Fields** that are available to add them to your calculation.
+1. Click in the large text box in the Calculation Editor box, then click either search or expand and click an option from the **Expressions** and **Fields** sections to the right of the text box. This adds them to the calculation. 
 
    You can also start typing an expression or field in the large text box, then select it when it displays. Each item displays with an "F" for field or an "E" for expression.
 
@@ -138,7 +171,7 @@ You can use both built-in Workfront fields and custom fields that you already cr
    >  ![](assets/colors-fields-expressions.jpg)
    >* Find calculation errors, highlighted in pink, as you go. You can hover over a highlighted error to display a brief description of its cause.
    >  ![](assets/error-help.png) 
-   >* In the area below your calculation, preview the results on an existing Workfront object.
+   >* In the **Preview on an existing object** area below your calculation, start typing the name of a Workfront object, select it when it displays in the list. This gives you a preview of what the field will look like when the form is attached to the object.
    ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
    >  ![](assets/preview-calc.jpg)
    >* Reference expressions in a long calculation using the line numbers that display on the left.
@@ -147,7 +180,7 @@ You can use both built-in Workfront fields and custom fields that you already cr
 
     >[!NOTE] 
     >
-    >In the display area on the right, the field displays *12345.* This is merely an indicator to remind you that the field is a calculated custom field while you are creating or editing the custom form. When the form is attached to an object and users are filling it out, they see the result of the calculation in the field, never the *12345* indicator.
+    >In the display area on the right, the field displays a fill-in value of 12345. This is an indicator to remind you that the field is a calculated custom field while you are creating or editing the custom form. When the form is attached to an object and users are filling it out, they see the result of the calculation in the field, and not the 12345 value.
 
 1. (Optional) Use any of the following options to further configure your calculated custom field:
 
@@ -190,29 +223,29 @@ You can use both built-in Workfront fields and custom fields that you already cr
 
 ## Syntax required in calculated custom fields
   
-Each field must use the syntax explained below, with curly brackets around each field name. When you start typing the name of a field, the system makes suggestions and you can select one  to insert it into your calculation. If you enter data in a calculation incorrectly, a warning messages alerts you. You cannot save the form unless you edit your calculation to contain valid fields and a valid calculated expression.
+Each field used in a custom calculated field must use the syntax explained below, with curly brackets around each field name. When you start typing the name of a field, the system makes suggestions and you can select one  to insert it into your calculation. If you enter data in a calculation incorrectly, a warning messages alerts you. You cannot save the form unless you edit your calculation to contain valid fields and a valid calculated expression.
 
 >[!NOTE]
 >
->Currently, the system makes suggestions only when you starting typing the name of a field you want to reference on an object that the custom form will be attached to, not on the object's parent.
+>Currently, the system makes suggestions only when you start typing the name of a field you want to reference on an object that the custom form will be attached to, not on the object's parent.
 
 ### Surround field names with curly brackets
 
-* If you want the calculation to reference a built-in field, the name of the field must be surrounded by curly brackets.
+* If you want the calculation to reference a built-in field, the name of the field must be surrounded by curly brackets and it must be formatted as it appears in the Workfront database. You cannot use the name of the fields as they display in the Workfront interface. 
 
 For example: `{actualRevenue}`
 
-Field names are case-sensitive and must appear in the calculation exactly how they appear in the Workfront system.
+Field names are case-sensitive and must appear in camel case format, as they appear in the Workfront system.
 
-* If you want the calculation to reference a custom field, the name of the field must be surrounded by curly brackets, and preceded by `DE:` within the brackets.
+* If you want the calculation to reference a custom field, the name of the field must be surrounded by curly brackets, and preceded by `DE:` within the brackets. Custom fields are case sensitive and must be formatted as they appear in the Workfront interface. 
 
 For example: `{DE:Profit}`
 
 The system lists all of the custom fields you can choose from when you type `DE:`.  
 
-* If you want the calculation to reference a field that will pull data from  the *parent* object when the custom form is attached to an object, you must precede the field name with the object type of the parent object, also in curly brackets.
+* If you want the calculation to reference a field that will pull data from  the parent object when the custom form is attached to an object, you must precede the field name with the object type of the parent object, also in curly brackets.
 
-  For example, if the custom form is configured to work with tasks, and you want the field to calculate the actual revenue of the parent object when the form is attached to a task, you need to indicate `Project` as the object type of the field: 
+  For example, if the custom form is configured to work with tasks, and you want the field to calculate the actual revenue of the parent object when the form is attached to a task, you need to indicate `project` as the object type of the field: 
   
   `{project}.{actualRevenue}`
   
@@ -220,7 +253,7 @@ The system lists all of the custom fields you can choose from when you type `DE:
   
   `{project}.{DE:profit}`
 
-  If you're not sure what the object type of the parent object will be because the custom for is configured for multiple object types, you can use the wildcard filter variable `$$OBJCODE` to allow the calculation to work for each of the possible types. For more information, see [Calculated custom fields in multi-object custom forms](#calculated-custom-fields-in-multi-object-custom-forms) in this article.
+  If you're not sure what the object type of the parent object will be because the custom form is configured for multiple object types, you can use the wildcard filter variable `$$OBJCODE` to allow the calculation to work for each of the possible types. For more information, see [Calculated custom fields in multi-object custom forms](#calculated-custom-fields-in-multi-object-custom-forms) in this article.
 
 ### Separate items with periods
 
@@ -230,11 +263,16 @@ For example, in a task-type custom form, to display the name of the Portfolio Ow
 
 `{project}.{porfolio}.{owner}`
 
-This would determine the following: From the object of the custom form (a task), you can access the next object related to the task (a project). From there, you can access the next related object to the project (a portfolio), then the next related object to the portfolio (the owner).
+This system retrieves the information in the following steps (in this order):
+
+1. From the object of the custom form (a task), then
+1. Access the parent of the task, or another related object (project), then
+1. Access the parent, or another related object of the project (a portfolio), and then
+1. Access the next related object to the portfolio (the portfolio's owner).
 
 ### Name syntax for referencing a custom field
 
-When you reference another custom field in a calculated custom field, you need to enter the name of the field appears as it displays in the Workfront user interface.
+When you reference another custom field in a calculated custom field, you need to enter the name of the field as it displays in the Workfront interface.
 
 For example, to reference the selected option in a custom field labeled Executive sponsor, you would type the following:
 
@@ -242,12 +280,11 @@ For example, to reference the selected option in a custom field labeled Executiv
 
 >[!NOTE]
 >
->The syntax for a typeahead field is a bit different than it is for other types of fields because you need to add `:name` at the end.
+>The syntax for a Typeahead field is different than it is for other types of fields because you need to add `:name` at the end.
 >
 >For example, to reference the selected option in a custom typeahead field named "Executive sponsor," you would type:
 >
 >`{DE:Executive sponsor:name}`
-
 
 ## Calculated custom fields in multi-object custom forms {#calculated-custom-fields-in-multi-object-custom-forms}
 
@@ -288,4 +325,4 @@ Calculated custom fields on an object recalculate automatically when the followi
 
    >[!NOTE]
    >
-   ><div>In a custom form attached to an object, date and time statements in calculated custom fields are calculated and saved by Coordinated Universal Time (UTC), not by the time zone configurations set for your organization's instance and your user profile. Calculations in a custom form generate based on each users' individual time zones.</div>
+   >In a custom form attached to an object, date and time statements in calculated custom fields are calculated and saved according to the Coordinated Universal Time (UTC), not according to the time zone configurations set for your organization's instance and your user profile. However, calculations in a custom form are displayed based on each user's individual time zone.

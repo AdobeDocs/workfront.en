@@ -22,15 +22,7 @@ hide: yes
 
 # Views: article index
 
->[!IMPORTANT]
->
->The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
->
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use Maestro capabilities.
->
->Contact your account representative for more information about joining the beta program for Maestro.
->
->For information, see [Adobe Maestro overview](../maestro-overview.md).
+{{maestro-important-intro}}
 
 You can display Adobe Maestro records in a table or timeline view. 
 
@@ -39,3 +31,4 @@ The following articles describe how you can create and manage record views in Ad
 * [Manage record views](../views/manage-record-views.md)
 * [Manage the table view](../views/manage-the-table-view.md)
 * [Manage the timeline view](../views/manage-the-timeline-view.md)
+* [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md)

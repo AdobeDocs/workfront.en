@@ -8,15 +8,7 @@ exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
 ---
 # Example of connecting record types and records
 
->[!IMPORTANT]
->
->The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
->
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use Maestro capabilities. 
->
->Contact your account representative for more information about joining the beta program for Maestro.
->
->For information, see [Adobe Maestro overview](../maestro-overview.md).
+{{maestro-important-intro}}
 
 This article describes an example of the following:
 
@@ -39,15 +31,15 @@ You want to create a field on the record type of Campaign where you can show the
 
 To do this:
 
-1. Open the table view for the Campaign record type. 
-1. Click the **+** icon in the upper-right corner of the table view to add a new field, then click **New connection**. 
+1. Open the table view for the Campaign record type in a workspace. 
+1. Click the **+** icon in the upper-right corner of the table view to add a new field, then click **New connection**, then click **Product** in the selected workspace section. 
 1. Add the following information, for example:
 
-    * **Record Type**: Product <!--did they change the casing here?-->
+    * **Record type**: Product <!--did they change the casing here?-->
     * **Name**: Product information. This is the name of the linked record field. 
     * **Description**: These are the Products that I want my Campaigns associated with. 
     * **Allow multiple records**: If you leave this option selected, this allows users to select multiple records when the linked record type field (Product information) displays on the original records (Campaigns). In our case, they will be able to select multiple Products to be connected to one Campaign. 
-    * **Select lookup fields**: If you leave this option selected, the **Add lookup fields** box opens next, to allow you to link Product fields with the Campaign record type. You can skip this step and add Product fields later. 
+    * **Select lookup fields**: If you leave this option selected, the **Add lookup fields** box opens next, to allow you to link Product fields with the Campaign record type. You can click **Skip** to skip this step and add Product fields later. 
 
     ![](assets/new-connection-with-product-record-type.png)
 
@@ -78,16 +70,35 @@ To do this:
     >
     >    Linked record fields are preceded by the relationship icon ![](assets/relationship-field-icon.png). 
 
-1. To populate the **Product information** field, from the **Campaign** record type table view, create a campaign by adding a new row in the Campaign record type page's table. 
-1. Click the **+** icon inside the  **Product information** column of the new campaign. The **Connect objects** box displays. The name of the record type that you are linking to (Product) displays in the upper-left corner of the box.
+1. From the **Campaign** record type table view, create a campaign by adding a new row in the Campaign record type page's table. 
 
-    ![](assets/connect-objects-box-to-select-other-maestro-records-example-for-product-record.png)
+1. Double-click inside the  **Product information** column of the new campaign. 
 
-1. Select the Product records you want to connect with the Campaign records, then click **Connect objects**.
+    ![](assets/connect-other-records-smaller-box-in-table-view.png)
+
+1. Do one of the following:
+
+    * Click a connected product's name from the list to add it to the selected record. The product is added automatically.
+    * Start typing the name of a product and click it when it displays in the list. The product is added automatically. 
+    * Click **See all** to display all products. 
+
+1. (Conditional) If you clicked **Select all** in the previous step, the **Connect objects** box displays. 
+
+    ![](assets/connected-objects-table-for-records.png)
+
+1. Start typing the name of a product in the search box, then select it when it displays in the list
+
+    Or
+
+    Select the Product records you want to connect with the Campaign records, then click **Connect objects**.
+
+    >[!TIP]
+    >
+    >    You can open a Campaign's Details page, find the linked record field and click the **+** icon in the field to add products from the connected Product record type. 
 
     The following columns are populated in the Campaign record type table: 
     * The **Product information** field populates for the Campaign record with the selected Products. 
-    * **The Budget (from Product information)** field populates with the Budget value for each selected Product, or with a total of all budgets of the selected products. 
+    * **The Budget (from Product information)** field populates with the Budget value for each selected Product, or with a total of all budgets of the selected products (if you selected SUM for your aggregator). 
 
     ![](assets/example-product-information-and-budget-relationship-fields-for-campaign-record-table.png)
 
@@ -98,30 +109,30 @@ To do this:
 1. To populate the **Campaign** field from the **Product** table view, repeat steps 5-7 starting from the Product record type table view and selecting campaign information. This will also update the Product information field in the Campaign record type page's table. <!--ensure the step numbers remain correct--> 
 
 
-## Connect a Maestro record type with a Workfront project object type and a record with individual projects
+## Connect a Maestro record type with a Workfront project object type and connect a record with individual projects
 
 For example, you have a record type named Campaign as your original record type. 
 
-You also have projects in Workfront with a field called "Planned revenue." 
+You also have projects in Workfront with a field called "Planned Revenue." 
 
-You want to create a connection field on the record type of Campaign where you can show the values of the Planned Revenue field on the project in Workfront for certain campaigns. 
+You want to create a connection field on the record type of Campaign where you can show the values of the Planned Revenue field of the projects in Workfront that are connected to campaigns in Maestro. 
 
 To do this:
 
 1. Go to a Workspace where you want to connect the Campaign record type with Workfront projects. 
 1. Open the table view for the Campaign record type in the selected workspace.
-1. Click the **+** icon in the upper-right corner of the table view to add a new field, then click **New connection**. 
+1. Click the **+** icon in the upper-right corner of the table view to add a new field, then click **New connection**, then click **Project** in the **Workfront object types** section. 
 1. Add the following information, for example:
 
-    * **Record Type**: Workfront Project (from the Workfront sub-section) <!--did they change the casing here for the field label and did they take "Workfront" out of the name of the object?-->
-    * **Name**: Project information. This is the name of the linked object field. 
-    * **Description**: These are the Projects that I want my Campaigns associated with. 
-    * * **Allow multiple records**: If you leave this option selected, this allows users to select multiple objects when the linked object type field (Project information) displays on the original records (Campaigns).
-     * **Select lookup fields**: If you leave this option selected, the **Add lookup fields** box opens next, to allow you to link Project fields with the Campaign record type. You can skip this step and add Project fields later. 
+    * **Record type**: Workfront Project (from the Workfront sub-section) 
+    * **Name**: Project information. This is an example of what you can name the linked object field. 
+    * **Description**: These are the Projects that I want my Campaigns associated with. This is an example of the description of the conncted record field. 
+    * * **Allow multiple records**: If you leave this option selected, this allows users to select multiple projects when the linked project type field (Project information) displays on the original records (Campaigns).
+    * **Select lookup fields**: If you leave this option selected, the **Add lookup fields** box opens next, to allow you to link Project fields with the Campaign record type. You can click **Skip** to skip this step and add Project fields later. 
 
      ![](assets/new-connection-tab-with-workfront-option.png)
 
-1. (Conditional) If you selected the **Select lookup fields option** in the previous step, from the list of fields associated with the **Project** object type, click the **+** icon for the **Planned Revenue** field, then click **Add fields**. This creates a field called **Planned Revenue (from Project information)**, which is the name of the linked field. Any information from the Project Revenue field will display in this field for the Campaign records.  
+1. (Conditional) If you selected the **Select lookup fields option** in the previous step, from the list of fields associated with the **Project** object type, click the **+** icon for the **Planned Revenue** field, then click **Add fields**. This creates a field called **Planned Revenue (from Project information)**, which is the name of the linked field. Any information from the Project Planned Revenue field will automatically display in this field for the Campaign records.  
 
     >[!TIP]
     >
@@ -142,14 +153,33 @@ To do this:
     >
     >    Linked object fields are preceded by the relationship icon ![](assets/relationship-field-icon.png). 
 
-1. To populate the **Project information** field, from the **Campaign** record type table view, create a campaign by adding a new row in the table. 
-1. Click the **+** icon inside the  **Project information** column of the new campaign. The **Connect objects** box displays. The name of the object type that you are linking to (Workfront Project) displays in the upper-left corner of the box.
+1. From the **Campaign** record type table view, create a campaign by adding a new row in the table. 
 
-    ![](assets/connect-objects-box-to-select-projects.png)
+1. Double-click inside the  **Project information** column of the new campaign. 
 
-1. Select the project or projects you want to connect with the Campaign records, then click **Connect objects**.
+    ![](assets/connect-projects-smaller-box-in-table.png)
 
-    The following are added to the selected workspace: 
+1. Do one of the following:
+
+    * Click a project's name from the list to add it to the selected record. The project is added automatically.
+    * Start typing the name of a project and click it when it displays in the list. The project is added automatically. 
+    * Click **See all** to display all projects. 
+
+1. (Conditional) If you clicked **Select all** in the previous step, the **Connect objects** box displays. 
+
+    ![](assets/connect-projects-larger-box.png)
+
+1. Start typing the name of a project in the search box, then select it when it displays in the list
+
+    Or
+
+    Select the Project records you want to connect with the Campaign records, then click **Connect objects**.
+
+    >[!TIP]
+    >
+    >    You can open a Campaign's Details page, find the linked project field and click the **+** icon in the field to add projects from the connected Product record type. 
+
+    This adds the following to the selected workspace: 
     
     * In the Campaign record type table: 
         * The **Project information** field populates for the Campaign record with the selected projects. 
@@ -161,49 +191,17 @@ To do this:
     >
     >When you do not select an aggregator for the multiple values, and you select multiple objects in the object-linked field, all values display separated by commas. 
 
-    * A read-only Workfront Project record type to the workspace you selected. 
+1. Click the name of a project in the connected record field. 
 
-1. Click the back-pointing arrow to the left of the record name in the header of the page to go to the workspace you are updating. 
-1. Open the **Workfront Project** record type card to open the record type page. 
+    This opens the read-only Maestro project's **Details** page. 
+    Review information about the project. Only selected project fields display in the Details page. 
 
-    Notice the following for the Workfront Project record type page: 
+1. Click **Go to source** in the upper-right corner of the screen to open the project in Workfront, if you have at least View permissions to the project. 
+1. (Optional) Update information about the project in Workfront, if you have permissions to do so. 
 
-    * This is a read-only Maestro record type which you cannot delete or update. 
-    * The projects you selected to connect to campaigns display as separate records in the Workfront Project record type page. The project records are also read-only and their information updates automatically as projects update in Workfront. You must add more projects from the connected Maestro record to view them in the Workfront Project record type. 
-    * The Campaign linked record field is populated with the names of the campaigns that are connected to projects from the Campaign record type page. 
-
-1. (Optional) To open the Workfront project Details page in Maestro, do one of the following:
-
-    * From the record type you linked from (**Campaign**), go to the Workfront project linked record field (**Project information**) and click the name of a Workfront project.
-    * From the **Table** view of the **Workfront Project** record page, click the name of a Workfront project
-
-      Or
-
-      Click the **More** menu to the right of a Workfront project,then click **View**. 
-
-      ![](assets/workfront-object-more-menu-in-table-with-go-to-source-link.png)
-
-    This opens the Maestro Details page of the linked Workfront project. This is a read-only page. 
-
-1. (Optional) To open the linked Workfront project in Workfront, do one of the following:
-
-    * From the **Table** view of the **Workfront Project** page, click the name of a Workfront project, 
-  
-    Or
-
-    Click the **More** menu to the right of the Workfront project name, then click **Go to source**. 
-
-    ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
-
-    This opens the Workfront project page. You can edit information about the Workfront project, if you have permissions to do so. 
-
-1. Click the **Add fields** icon ![](assets/add-fields-icon.png) in the upper-right corner of the Workfront Project record type table to add more project fields to the Workfront Project Maestro record type. 
+1. From the Campaign table view, hover over the **Project information** field header, and click the downward-pointing arrow, then click **Edit lookup fields.**
 1. Click the **+** icon for any project fields you want to add to the Workfront Project Maestro record in the **Unselected fields** section. 
 1. Click the **-** icon for any project fields you want to remove from the Workfront Project Maestro record in the **Selected fields** section.
 1. Click **Save**.
 
-    >[!TIP]
-    >
-    >    The fields you add to the Workfront Project Maestro record are only added on the Workfront Project page and are not added to the Campaign record type page, as linked fields. You must add the project fields from the Project information connected-object field of the Campaign record type to view them for campaigns. 
-
-1. (Optional and conditional) If you selected to display at least two date fields for projects, click the **View** drop-down menu in the Workfront Project record type table, then **Create view** > **Timeline** > **Create** to create a timeline view and display the projects on a timeline.
+    Additional linked fields are added to the Campaign record type. 

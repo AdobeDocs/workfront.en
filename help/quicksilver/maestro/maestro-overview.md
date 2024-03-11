@@ -1,12 +1,12 @@
 ---
-title: Adobe Maestro overview
-description: Adobe Maestro is a new offering from Adobe Workfront. You can create fully-customizable workspaces to define workflows that meet the needs of each organizational unit in your enterprise.
+title: Adobe Workfront planning capabilities overview
+description: Adobe Workfront planning capabilities are a new offering from Adobe Workfront. You can create fully-customizable workspaces to define workflows that meet the needs of each organizational unit in your enterprise.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 ---
-# Adobe Maestro overview
+# Adobe Workfront planning capabilities overview
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -16,16 +16,16 @@ exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 
 >[!IMPORTANT]
 >
->The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
+>The information in this article refers to Adobe Workfront planning capabilities, a new offering from Adobe Workfront. 
 >
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use Maestro capabilities.
+>Currently, the planning capabilities are part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use these capabilities.
 >
->Contact your account representative for more information about joining the beta program for Maestro.
->[View a video demonstration of Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}
+>Contact your account representative for more information about joining the beta program for the planning capabilities.
+>[View a video demonstration of Adobe Workfront planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}
 
-## Introduction to Adobe Maestro
+## Introduction to Adobe Workfront planning capabilities
 
-Adobe Maestro is a new offering from Adobe Workfront. The purpose of Maestro is to unlock comprehensive visibility into the operational details of an organization, and answer critical business questions at each stage of the work management lifecycle. 
+Adobe Workfront planning capabilities is a new offering from Adobe Workfront. The purpose of the planning capabilities is to unlock comprehensive visibility into the operational details of an organization, and answer critical business questions at each stage of the work management lifecycle. 
 
 Teams and leadership need clear answers to questions like:  
 
@@ -36,17 +36,17 @@ Teams and leadership need clear answers to questions like:
 
 To answer these questions, leadership needs a solution that can provide a holistic view of every stage of work from planning to execution, from delivery to measuring the results. Currently, organizations have tools that can cover some parts of the process, but many do not have good connections to all phases of work, nor can they reliably provide results.  
 
-The following are some of the main capabilities of Maestro:
+The following are some of the main capabilities:
 
 * Solve the problem of managing work across all stages and for all the stakeholders that participate in the work process.  
 * Fully customize your workflows, from deciding what object types (or record types) your organization uses to configuring how these objects link to one another.  
 * Link to object types from other systems, creating a coherent framework for all your processes.  
 
-## Currently available Maestro features
+## Currently available Adobe Workfront planning capabilities features
 
-The following table illustrates the main features that will be available in Maestro, and a timeline of their availability. The list does not include all features.  
+The following table illustrates the main features that will be available in the planning capabilities, and a timeline of their availability. The list does not include all features.
 
-For information about new features and when they are released, see [Maestro release activity](/help/quicksilver/maestro/release-activity.md). 
+For information about new features and when they are released, see [Adobe Workfront planning capabilities release activity](/help/quicksilver/maestro/release-activity.md). 
 
 |       Feature                                      |     Available now  |     Available soon   |     In research  |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -67,11 +67,11 @@ For information about new features and when they are released, see [Maestro rele
 |     Sort groupings in the table view                                 |                               |   ✓                              |                  |
 |     Sort groupings in the timeline view                                 |                               |   ✓                              |                  |
 |     Connect workspaces                                |                               |   ✓                              |                  |
-|     Connect Maestro records and taxonomies  |   ✓                            |  
+|     Connect planning capabilities records and taxonomies  |   ✓                            |  
 |   Search for records in the table view    | ✓    |   |
 |   Search for records in the timeline view    | ✓    |   |
-|     Connect Maestro records to Workfront projects, programs, portfolios, companies, groups  |   ✓                            |                                 |                  |
-|     Connect Maestro records to Adobe Experience Manager assets                                  |      ✓                         |                                  |                 | 
+|     Connect planning capabilities records to Workfront projects, programs, portfolios, companies, groups  |   ✓                            |                                 |                  |
+|     Connect planning capabilities records to Adobe Experience Manager assets                                  |      ✓                         |                                  |                 | 
 |     Record details page                            |   ✓                           |                                  |                  |
 |     Update the layout of the record Details page              |                               |   ✓                              |                  |
 |  Share workspaces | ✓| |  |
@@ -80,23 +80,25 @@ For information about new features and when they are released, see [Maestro rele
 |     Creative brief                                 |                               |                                  |   ✓              |
 |     Customize the color and icon of a record                                 |      ✓                         |                                  |                 |
 |     Add comments to records                                 | ✓                              |                                  |                 |
+|     Add thumbnails to records                                 | ✓                              |                                  |                 |
+|     View history of changes on a record                                 | ✓                              |                                  |                 |
 |     Rich Text formatting for Paragraph fields                                 |      ✓                         |                                  |                 | 
-|     Maestro Modules for Adobe Workfront Fusion                                 |      ✓                         |                                  |                 | 
+|     Adobe Workfront planning capabilities modules for Adobe Workfront Fusion                                 |      ✓                         |                                  |                 | 
 |     Copy and paste information from one field to another                                  |      ✓                         |                                  |                 | 
 
-## Enable Maestro for the users in your Workfront instance
+## Enable Adobe Workfront planning capabilities for the users in your Workfront instance
 
-Your organization must enroll in the Adobe Maestro closed beta program before you can access Maestro. Contact your account representative for information about enrolling in the beta program. 
+Your organization must enroll in the Adobe Workfront planning capabilities closed beta program before you can access the planning capabilities. Contact your account representative for information about enrolling in the beta program. 
 
-For more information about granting access to and enabling others to use Maestro, see [Access overview](/help/quicksilver/maestro/access/access-overview.md). 
+For more information about granting access to and enabling others to use the planning capabilities, see [Access overview](/help/quicksilver/maestro/access/access-overview.md). 
 
-## Maestro terminology
+## Adobe Workfront planning capabilities terminology
 
-Although Maestro is part of Workfront, it comes with proprietary concepts and terminology. Ensure you are familiar with the Maestro concepts before embarking on setting up Maestro for your organization. 
+Although the planning capabilities are part of Workfront, it comes with proprietary concepts and terminology. Ensure you are familiar with the planning capabilities concepts before embarking on setting up planning capabilities for your organization. 
 
-The framework for Maestro is fully customizable. You can create all record types, their attributes, and any fields associated with them to suit the exact needs of your organization. 
+The framework for the planning capabilities is fully customizable. You can create all record types, their attributes, and any fields associated with them to suit the exact needs of your organization. 
 
-The following are the main Maestro objects and concepts: 
+The following are the main planning capabilities objects and concepts: 
 
 * **Workspace**: A collection of record types and taxonomies that define the operational lifecycle of a certain organization. A workspace is the work frame of an organizational unit. 
 
@@ -106,17 +108,17 @@ The following are the main Maestro objects and concepts:
     
     For more information, see [Create workspaces](../maestro/architecture/create-workspaces.md). 
 
-* **Record Type**: The Maestro main object type.  
+* **Record Type**: The main planning capabilities object type.  
     
-    Unlike Workfront where the object types are predefined, in Maestro, you can create your own object types.  
+    Unlike Workfront where the object types are predefined, in the planning capabilities, you can create your own object types.  
     
     For example, in Workfront the object types of Program, Portfolio, Project, Task, or Issue are already created.  
     
-    In Maestro, you can create any record types that meet your organization's workflows. Later, you can define how the record types relate to one another or form dependencies. 
+    In the planning capabilities, you can create any record types that meet your organization's workflows. Later, you can define how the record types relate to one another or form dependencies. 
     
     For more information, see [Overview of operational record types and taxonomies](../maestro/architecture/overview-of-record-types-and-taxonomies.md).
 
-    Maestro has the following record types: 
+    The planning capabilities have the following record types: 
 
     * **Operational Record Type**: A record type that represents strategic plans, initiatives, or executed work.  
 
@@ -130,20 +132,20 @@ The following are the main Maestro objects and concepts:
 
         ![](assets/taxonomy-record-type-blank.png)
 
-        Although creating taxonomies is identical with creating operational record types, Maestro distinguishes between an operational record type and a taxonomy record type. The purpose of taxonomies is to enhance operational record types. <!--this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.-->  
+        Although creating taxonomies is identical with creating operational record types, the planning capabilities distinguish between an operational record type and a taxonomy record type. The purpose of taxonomies is to enhance operational record types. <!--this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.-->  
 
         For example, Audience, Region, or Address can be taxonomy-type record types.  
 
        For more information, see [Create taxonomy record types](../maestro/architecture/create-a-taxonomy.md).
 
-* **Record**: An instance of a Maestro record type. A record could refer to an operational record type or to a taxonomy. 
+* **Record**: An instance of a planning capability record type. A record could refer to an operational record type or to a taxonomy.
 
     ![](assets/records-highlighted-in-campaign-record-type-list.png)
     ![](assets/records-highlighted-in-region-taxonomy-type-list.png)
     
     After adding a record type to a workspace, you can start adding records of that type on the record type's page. 
 
-    For example, "Campaign" can be an operational record type and "Summer Campaign for EMEA" is a record of the Campaign record type 
+    For example, "Campaign" can be an operational record type and "Summer Campaign for EMEA" is a record of the Campaign record type
     
     Or 
     
@@ -155,7 +157,7 @@ The following are the main Maestro objects and concepts:
 
     ![](assets/workspaces-page-with-templates-thumbnails.png)
 
-    Maestro comes with a Sales, Marketing, and Product Management workspace template. 
+    Adobe Workfront planning capabilities comes with a Sales, Marketing, and Product Management workspace template. 
     
     For more information, see [Create workspaces](../maestro/architecture/create-workspaces.md).
 
@@ -163,7 +165,7 @@ The following are the main Maestro objects and concepts:
 
     ![](assets/drop-down-list-of-record-fields.png)
 
-    Considerations about Maestro fields:
+    Considerations about planning capability fields:
     
     * The fields you add for a record type automatically become associated with all records of that type and can be used to capture data about those records. 
 
@@ -171,7 +173,7 @@ The following are the main Maestro objects and concepts:
 
     * Fields are unique to a record type and do not transfer from one record type to another. 
 
-    * Maestro fields are fully customizable and are accessible only in Maestro. You cannot access Maestro fields from Workfront. 
+    * Planning capability fields are fully customizable and are accessible only in the planning capabilities. You cannot access planning capability fields from Workfront. 
 
     For more information, see [Create fields](../maestro/fields/create-fields.md).
     
@@ -205,20 +207,20 @@ The following are the main Maestro objects and concepts:
    
 * **Linked record types**, **Linked records**, and **Linked record fields**:  You can create a connection between the following entities:
     
-    * Two Maestro record types
-    * A Maestro record type and a Workfront project, program, portfolio, company, or group object type. 
-    * A Maestro record type and an Adobe Experience Manager asset, folder, or collection. 
+    * Two planning capability record types.
+    * A planning capability record type and a Workfront project, program, portfolio, company, or group object type. 
+    * A planning capability record type and an Adobe Experience Manager asset, folder, or collection. 
 
         You must have an Adobe Experience Manager license to link record types with Experience Manager objects.
 
         ![](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
-    After you establish a connection between the record types, you can connect individual records of those types to one another. The connection between the records displays as a linked record field. 
+    After you establish a connection between the record types, you can connect individual records of those types to one another. The connection between the records displays as a linked record field.
 
 * **Linked fields** (or lookup fields): After establishing the connection between two record types and you link individual records together, you can reference the linked records' fields on the record you are connecting from.
 
-    For example, if you connect a Maestro campaign with a Workfront project, you can display the Project Owner field of connected projects on the Maestro campaign records. 
+    For example, if you connect a planning capability campaign with a Workfront project, you can display the Project Owner field of connected projects on the planning capability campaign records. 
 
     ![](assets/add-lookup-fields-modal.png)
 
@@ -229,7 +231,7 @@ The following are the main Maestro objects and concepts:
 
 <!--not yet:* Fields are reusable across Record Types.  -->
 
-* **Views**: Records display under their respective record type page in different types of views. 
+* **Views**: Records display under their respective record type page in different types of views.
 
     ![](assets/view-types-drop-down-from-record-type-list.png)
 
@@ -245,18 +247,22 @@ The following are the main Maestro objects and concepts:
 
         ![](assets/grouping-applied-in-timeline-view.png)
 
-    For more information, see [Manage record views](../maestro/views/manage-record-views.md).
+    * **Calendar view**: Displays records that have at least two Date-type fields in a calendar format. 
+    ![](assets/calendar-view-example.png)
 
 
-## Maestro object limitations
+For more information, see [Manage record views](../maestro/views/manage-record-views.md).
 
-The following table shows the limits for how many objects you can create in Maestro. The limitations are subject to change as we move into the next phases of Maestro's development.  
 
-|       Maestro object                                                          |                                                        Limit                                                    |
+## Adobe Workfront planning capabilities object limitations
+
+The following table shows the limits for how many objects you can create in the planning capabilities. The limitations are subject to change as we move into the next phases of development.  
+
+|       Adobe Workfront planning capabilities object                                                          |                                                        Limit                                                    |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 |     Number of Workspaces for one Workfront instance                                      |   1,000                                                                                                         |
-|     Number of Record Types for one workspace                                            |   1,000 (this includes taxonomies for the workspace, or objects that you import from third-party applications)  |
-|     Number of records for one record type                                               |   10,000                                                                                                        |
+|     Number of Record Types for one workspace                                            |   1,000 (this includes taxonomies for the workspace, or objects that you import from other applications)  |
+|     Number of records for one record type                                               |   50,000                                                                                                        |
 |     Number of fields for one record type or taxonomy                            |   500                                                                                                           |
 |     Number of characters for a text field                                                               |   1,000 characters                                                                                              |
 |     Size of file that you can paste in a record type table                    |   1MB                                                                                                           |
@@ -264,21 +270,21 @@ The following table shows the limits for how many objects you can create in Maes
 |     The rate at which API requests can be made                                    |   200 requests per minute                                                                                       |
 | Size of CSV of Excel file you can import in a table | 5MB |
 
-## Locate Maestro
+## Locate Adobe Workfront planning capabilities
 
-Ensure that your organization has received access to Maestro and that your system or group administrator has added the Maestro area to your Main Menu. For information, see [Access overview](/help/quicksilver/maestro/access/access-overview.md) .
+Ensure that your organization has received access to the planning capabilities and that your system or group administrator has added the planning capabilities area to your Main Menu. For information, see [Access overview](/help/quicksilver/maestro/access/access-overview.md).
 
-To locate Maestro:  
+To locate the planning capabilities:  
 
 1. Log in to Adobe Workfront. 
 
 1. Click the **Main Menu** ![](assets/main-menu-workfront.png) in the upper-right corner, or click the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it's available. 
 
-1. Click **Maestro** ![](assets/maestro-icon.png). 
+1. Click **Maestro** ![](assets/maestro-icon.png).
 
-    The Maestro Workspaces area opens. 
+    The Workspaces area opens.
 
-1. (Optional and recommended) Continue with some of the following actions, to build your work structure in Maestro: 
+1. (Optional and recommended) Continue with some of the following actions, to build your work structure: 
 
     1. Create a workspace from scratch or using a template. 
 
@@ -287,177 +293,16 @@ To locate Maestro:
     1. Add taxonomies to the new workspaces. 
 
     1. Click the name of a record type to open the record's page. The record page opens in the Table view, by default.
+
+        You can also create a Timeline or a Calendar view. 
     
-    1. Customize the Table view by doing any of the following:
+    1. In the table view, start adding records by adding rows
 
-        * Add more fields to the record type by clicking the **+** icon in the upper right corner. The columns in the view are fields associated with the record type. 
-        * Add records by clicking the **+** icon in the lower-left corner. The rows in the view are unique records of the selected record type. 
-        * Click **Filters** to filter the information you display on the record type page. 
+        Or
 
-    1. Click the name of a record to view more information in the record's Details page. 
+        Start adding record fields by adding columns. 
 
-    1. Create a Timeline view from the **View** drop-down menu in the upper-right corner of the record type page. 
+## Adobe Workfront planning capabilities release activity 
 
-    1. Customize the timeline view by updating Filters, Groupings, or Settings.  
+We are releasing new features to the planning capabilities regularly. For an up-to-date list of released features, see [Adobe Workfront planning capabilities release activity](../maestro/release-activity.md).
 
-## Maestro release activity 
-
-We are releasing new features to Maestro regularly. For an up-to-date list of released features, see [Adobe Maestro release activity](../maestro/release-activity.md). 
-
-<!--moved the contents of this whole section to its own article: release-activity.md, in the same folder
-
-This section lists the features and patches that have been released after the launch of the Maestro closed beta program, on May 22, 2023. 
-
-The features are released weekly and are listed in the order of their release, with the most recent first. Customers who are participating in the Maestro closed beta program can access all features in their Preview and Production environments. 
-
-### Week of September 4, 2023
-
-#### Connect Maestro records with Workfront companies and groups
-
-Preview and production: September 5, 2023  
-
-You can now connect a Maestro record with Workfront companies and groups. You must first create a connection between a Maestro record type and the Workfront companies and groups object types. Then, you can connect a single Maestro record of the selected record type to individual Workfront companies and groups.  
-
-Consider the following:  
-
-* You must create a connection between Maestro record types and Workfront companies and groups for each Workspace.  
-
-* You cannot connect taxonomy record types with Workfront object types. 
-
-* You can connect multiple Maestro records to the same Workfront company or group, and multiple companies or groups to the same Maestro record.  
-
-* You cannot edit companies or groups in Maestro. All company or group changes performed in Workfront are visible in Maestro, when reviewing the Maestro linked records.  
-
-#### URL support for single-line text fields 
-
-Preview and production: September 7, 2023 
-
-For better visibility when working with links in the Table view, we have added support for URLs in single-line text fields. Using URLs to other websites or external drives when updating a single-line text field, now identifies them as links and allows you to click them from the table.  
-
-### Week of August 28, 2023
-
-#### Field visibility menu for the Table View toolbar
-
-Preview and production: August 31, 2023
-
-To display the right information on a given set of records, especially if you intend to share the view with others who need to see some but not all fields of a record type, you can now select which fields (or columns) to display and which to hide in the Table view.  
-
-You can hide or show individual fields, from each header of the field columns, or you can manage all fields of the record type from a setting in the table view toolbar.  
-
-### Week of August 21, 2023
-
-#### Connect Maestro records to programs and portfolios 
-
-Preview and production: August 24, 2023
-
-You can now connect a Maestro record with Workfront programs and portfolios. You must first create a connection between a Maestro record type and a program or portfolio which creates a connected field. Then, you can connect any Maestro records from all other record types within the same workspace to specific programs and portfolios which will create a read-only Workfront Program or Workfront Portfolio record type in the same workspace. Consider the following:
-
-* Workfront connector record types are unique for each workspace. 
-* You can connect multiple Maestro records to the same Workfront program or portfolio, and multiple programs and portfolios to the same Maestro record. 
-* You cannot edit programs and portfolios in Maestro. All program and portfolio changes performed in Workfront are visible in Maestro, when reviewing the linked records. 
-
-#### New sorting functionality for the table view
-
-Preview and production: August 24, 2023
-
-You can now sort records in the table view of a record type page. 
-The following capabilities are now available: 
-
-* Sorting at the table-level, where you can sort by multiple fields at the same time. 
-* Sorting at the column or field-level, where you can sort by an individual field at a time.
-
-#### Improvements to the timeline view: new look-and-feel for groupings and the Compact/ Standard view switch
-
-Preview and production: August 24, 2023
-
-We have introduced the following improvements to the timeline view: 
-
-* You can now display the timeline view in the following modes:
-
-    * Standard: Displays records in separate lines.
-    * Compact: Display the records whose dates don't intersect on the same line. 
-
-* We have changed the look-and-feel of the grouping lines in the timeline view to display above the timeline of the records they contain. Prior to this improvement, the grouping lines displayed across the entire length of the timeline.
-
-### Week of August 14, 2023
-
-#### Reorder columns in the table view
-
-You can now reorder columns in the Maestro table view. Consider the following when reordering columns: 
-
-* The Name field is always the first field in the table view of a record type page 
-
-* You cannot move the Name field to another position 
-
-* The Name field is frozen and is not part of the horizontal scroll. 
-
-#### Horizontal scroll for timeline view
-
-You can now scroll horizontally in the timeline view of a record type. 
-
-### Week of August 7, 2023
-
-#### Import record types from an Excel file 
-
-Preview and production: August 10, 2023
-
-You can now import an Excel file to create record types in a workspace. The sheets of the file become the record types, and the columns of the file become their respective fields.  
-
-#### Improved experience for connecting record types and projects 
-
-Preview and production: August 10, 2023
-
-We have improved the way you connect record types, including connecting to Workfront projects. As part of this improvement, we made the following changes when adding a field for a record type from the table view:  
-
-* Removed the Relationship-type field from the "New field" tab.  
-
-* Add a "New connection" tab where you can directly select the record or object type you want to connect to, eliminating the need for a Relationship-type field. 
-
-### Week of July 10, 2023
-
-#### Update the appearance of a record type
-
-Preview and production: July 13, 2023
-
-You can now select a custom icon for a record type, as well as a custom color for the record type icon.  
-
-#### New Checkbox field type
-
-Preview and production: July 13, 2023 
-
-You can now add a Checkbox field type to Maestro record types. You can use the Checkbox field type to add a single checkbox option to a record. You can use this field to indicate a specific attribute or status for that particular record. For example, you can use it as a flag for tracking completion, approval, or any other binary attribute for each record.  
-
-### Week of June 26, 2023
-
-#### Quick activation of the contextual menu in a table
-
-Preview and production: June 28, 2023
- 
-We have enabled the ability to activate the contextual menu by right-clicking anywhere in a record row, when viewing the records in the table view or a record type. You can now quickly view, delete, or copy a link to the record's Details page when you access the contextual menu from anywhere in the table view of a record type. Prior to this enhancement, the contextual menu was accessible only from the More menu in the Name column of a record.  
-
-### Week of June 19, 2023
-
-#### Record field names are unique
-
-We have introduced a requirement now that the field names of a Maestro record type should have unique names. Fields that belong to different record types do not have to have unique names.  
-
-### Week of June 5, 2023
-
-#### Connect Maestro records with Workfront projects
-
-Preview and production: June 5, 2023
-
-You can now connect a Maestro record with Workfront projects. You must first create a connector Maestro record type to establish the connection between Maestro records and Workfront projects. Then, you can connect any Maestro records from all other record types to the connector record using the Relationship field. Consider the following:
-
-* You must have a connector record type for Workfront for each Workspace. 
-* You can connect multiple Maestro records to the same Workfront project, and multiple projects to the same Maestro record. 
-* You cannot edit projects in Maestro. All project changes performed in Workfront are visible in Maestro, when reviewing the linked records. 
-
-### Week of May 29, 2023
-
-#### Two-date requirement for creating a Timeline view
-
-Preview and production: May 31, 2023  
-
-You must have at least two date fields associated with a record type in order to create a Timeline view. 
--->

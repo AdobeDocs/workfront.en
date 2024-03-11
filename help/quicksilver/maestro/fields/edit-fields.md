@@ -9,7 +9,7 @@ exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 <!---
-title: Formula fields
+title: Edit foelds
 description: In Adobe Maestro, you can edit the field settings for fields that are already created.
 hidefromtoc: yes
 hide: yes
@@ -22,15 +22,7 @@ recommendations: noDisplay, noCatalog
 
 # Edit fields 
 
->[!IMPORTANT]
->
->The information in this article refers to Adobe Maestro which is a new offering from Adobe Workfront. 
->
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use Maestro capabilities.
->
->Contact your account representative for more information about joining the beta program for Maestro.
->
->For information, see [Adobe Maestro overview](../maestro-overview.md).
+{{maestro-important-intro}}
 
 You can edit the field settings for fields that are already created. 
 

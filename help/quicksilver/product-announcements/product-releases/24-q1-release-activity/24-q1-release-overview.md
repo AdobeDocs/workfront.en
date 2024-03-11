@@ -342,7 +342,7 @@ The 24.1 release webinar was on January 11, 2024. You can [register for the webi
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">AI-driven smart assignments</a></p><p>We have changed the algorithm that Workfront uses to calculate and suggest smart assignments for tasks. The new algorithm applies in the following areas in Workfront where you assign a task: task lists, the Assignments area in the task header, Home, and the Summary panel.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-project-enhancements.md" class="MCXref xref" xrefformat="{para}">More relevant smart assignments</a></p><p>We have changed the algorithm that Workfront uses to calculate and suggest smart assignments for tasks. The new algorithm applies in the following areas in Workfront where you assign a task: task lists, the Assignments area in the task header, Home, and the Summary panel.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -351,7 +351,7 @@ The 24.1 release webinar was on January 11, 2024. You can [register for the webi
                                 <p>NOTE: This feature will remain in Preview until the 24.4 release.</p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 24.2 release (February 2024)</p>
+                                <p>Production for fast release: With the 24.3 release (March, 2024)</p>
                             </li>
                             <li>
                                 <p>Production for all customers: With the 24.4 release (April 2024)</p>

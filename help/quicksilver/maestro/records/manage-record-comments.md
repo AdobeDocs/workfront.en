@@ -1,6 +1,6 @@
 ---
 title: Manage record comments 
-description: You can collaborate on Adobe Maestro records, by adding comments or replies in the Comments area of a record.
+description: YYou can collaborate on Adobe Maestro records, by adding comments or replies in the right panel of a record. You can also view other changes made to the record and recorded by the system in this area.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -8,23 +8,27 @@ recommendations: noDisplay, noCatalog
 
 # Manage record comments
 
+{{maestro-important-intro}}
+
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+
 <!--update the system updates articles when we release to open beta - check the long commenting stream article list and see articles that document where in the system we have system updates; "Maestro records" should be there-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
-You can collaborate on Adobe Maestro records, by adding comments or replies in the Comments area of a record.
-
-<!--replace first paragraph with this and update the Description in the metadata: 
-You can collaborate on Adobe Maestro records, by adding comments or replies in the right panel of a record. You can also view other changes made to the record in this area.
+You can collaborate on Adobe Maestro records, by adding comments or replies in the right panel of a record. You can also view other changes made to the record and recorded by the system in this area.
 
 The right panel of a record displays the following sections:
 
-* Comments: Users can add comments and reply to existing ones.
-* History: When you make a change to a record, Maestro records the change in this section. 
--->
+* **Comments**: Displays comments and replies users add to records.
+* **History**: Displays system-recorded changes that users  make to the record fields. For more information, see [History section overview](/help/quicksilver/maestro/records/history-section-overview.md).
+
+>[!TIP]
+>
+>The right panel displays both for operational records as well as taxonomy records.
+
 
 ## Considerations about commenting on a record
 
@@ -42,9 +46,9 @@ The right panel of a record displays the following sections:
 
 * You can tag users to bring their attention to an update. Tagged users do not receive an in-app notification or an email about your update. <!--this might change??-->
    
-* You can add an update to records from the following areas of Maestro:
+* You can add an update to records and review the history of changes from the following areas of Maestro:
 
-   * From the Details page.
+   * From the Details page of a record or taxonomy.
 
    <!--* From the table view.-->
 
@@ -113,6 +117,8 @@ You must have the following access to perform the steps in this article:
 
     The record's **Details** page opens. The Comments area opens by default in the right panel. 
 
+1. (Conditional) If the right panel does not open by default, click the **Show Comments** ![](assets/show-comments-icon.png) icon in the upper-right corner to open the Comments section. 
+
 1. Start entering a comment in the **New comment** box. 
    
    ![](assets/empty-comment-box-on-record.png)
@@ -165,24 +171,16 @@ You must have the following access to perform the steps in this article:
 1. (Optional) Click the **More** icon ![](assets/more-menu.png) in the upper-right corner of the comment and click one of the following options, to copy a information from a comment: 
 
     * **Copy link**: This copies a link to the comment to your clipboard.
-    * **Copy body tex**t: This copies the text of the comment to your clipboard.
+    * **Copy body text**: This copies the text of the comment to your clipboard.
     * **Quote reply**: This copies the content of your comment into a new reply. Images are not included in the copied reply. 
 
     For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 1. (Optional) Click the **More** icon ![](assets/more-menu.png) in the upper-right corner of the comment, then click **Delete** to delete the comment. 
+1. (Optional) Click the **Hide Comments** icon ![](assets/hide-comments-icon.png) to close the right panel. 
 
-<!--
 ## History section overview
 
-*********also update the screen shot above for the Comments section ******
+You can review the changes made to the record in the History section of the right panel of an operational record or taxonomy. 
 
-You can refer to the History section in the right panel of a record to view changes made to the record. 
+For more information, see [History section overview](/help/quicksilver/maestro/records/history-section-overview.md).
 
-![](assets/history-area-in-comments.png)
-
-Maestro records the following information in the History section: 
-
-* Any field changes
-* The full name of the user who made the change
-* A date and time stamp of when the change occurred. 
--->

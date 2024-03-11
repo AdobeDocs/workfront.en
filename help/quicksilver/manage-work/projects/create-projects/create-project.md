@@ -68,7 +68,7 @@ You must have the following access to perform the steps in this article:
         <p>Current: Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level</td> 
+   <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to Projects</p> </td> 
   </tr> 
   <tr> 

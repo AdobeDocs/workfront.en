@@ -31,33 +31,31 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Work] or higher</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license</strong></td> 
+   <td> <p>New: [!UICONTROL Standard]</p><p>Or</p><p>Current: [!UICONTROL Work] or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>[!UICONTROL Worker] or higher</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader"><strong>Access level configurations</strong></td> 
+   <td> <p>New: [!UICONTROL Standard]</p><p>Or</p><p>Current: [!UICONTROL Worker] or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>[!UICONTROL Manage] access to the project the story is on</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage] access to the project the story is on</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Create and manage stories on the backlog
 
 * [Reorder stories](#reorder-stories)
-* [[!UICONTROL Break] down stories](#break-down-stories)
+* [[!UICONTROL Break down] stories](#break-down-stories)
 * [Edit stories](#edit-stories)
-* [Create new stories on the backlog](#create-new-stories-on-the-backlog)
-* [Move stories from the backlog to an iteration or Kanban board](#move-stories-from-the-backlog-to-an-iteration-or-kanban-board)
 
 ### Reorder stories {#reorder-stories}
 
@@ -98,7 +96,7 @@ To break down a story:
 
 ### Edit stories {#edit-stories}
 
-You can edit stories directly from the [!UICONTROL Stories] or [!UICONTROL Issues] tabs on the Backlog as you would edit any tasks or issues within a project in bulk, as described in [Edit tasks in bulk](../../manage-work/tasks/manage-tasks/edit-tasks.md#editing-tasks-in-bulk) in [Edit tasks](../../manage-work/tasks/manage-tasks/edit-tasks.md) and [Edit issues](../../manage-work/issues/manage-issues/edit-issues.md#bulk-editing-issues) in [Edit issues](../../manage-work/issues/manage-issues/edit-issues.md).
+You can edit stories directly from the [!UICONTROL Stories] or [!UICONTROL Issues] tabs on the Backlog as you would edit any tasks or issues within a project in bulk, as described in [Edit tasks in bulk](../../manage-work/tasks/manage-tasks/edit-tasks.md#edit-tasks-in-bulk) in [Edit tasks](../../manage-work/tasks/manage-tasks/edit-tasks.md), and [Edit issues](../../manage-work/issues/manage-issues/edit-issues.md).
 
 ## Create new stories on the backlog {#create-new-stories-on-the-backlog}
 
@@ -113,16 +111,16 @@ When you create a story from the backlog, the story is created as a task or issu
 
 To create a story from the backlog:
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Teams]**.
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Teams]**.
 
-1. (Optional) Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
+1. (Optional) Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu, or search for a team in the search bar and select it when it appears.
 
 1. Select **[!UICONTROL Backlog]** from the left panel.
 1. Do either of the following, depending on whether you want to create a task or an issue:
 
    * **To create a task:** Click **[!UICONTROL Stories]**.
 
-   * **To Create an issue:** Click **[!UICONTROL Issues]**.
+   * **To create an issue:** Click **[!UICONTROL Issues]**.
 
 1. Click **[!UICONTROL New Story]** or **[!UICONTROL New Issue]**.
 
@@ -171,7 +169,7 @@ You can assign a task or issue to an agile team. After it is assigned, the task 
 
 To assign a task or issue to an agile team:
 
-1. Go to the Project that contains the task that you want to re-assign.
+1. Go to the Project that contains the task that you want to assign.
 1. Select the task or issue in the list.
 1. Click **[!UICONTROL Edit]**.
 1. Click **[!UICONTROL Assignments]**.
@@ -181,10 +179,15 @@ To assign a task or issue to an agile team:
 1. Click **[!UICONTROL Save Changes]**.\
    The task or issue is now available on the team backlog.
 
-## Move stories from the backlog to an iteration or + board {#move-stories-from-the-backlog-to-an-iteration-or-kanban-board}
+## Move stories into or out ofthe backlog
 
+ {#move-stories-from-the-backlog-to-an-iteration-or-kanban-board}
+
+* [Move stories from the backlog to an iteration or + board](#move-stories-from-the-backlog-to-an-iteration-or--board)
 * [Move existing stories to the backlog](#move-existing-stories-to-the-backlog)
 * [Export stories from the backlog](#export-stories-from-the-backlog)
+
+### Move stories from the backlog to an iteration or + board
 
 1. Go to the backlog of the agile team.
 1. Select the stories you want to move to an iteration or Kanban board, then click **[!UICONTROL More]** > **[!UICONTROL Move to]**.\

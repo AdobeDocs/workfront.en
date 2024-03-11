@@ -17,7 +17,7 @@ This section contains the following subsections:
 * [Supported languages in Adobe Workfront](../workfront-basics/supported-languages-in-workfront.md) 
 * [Navigate Adobe Workfront: article index](../workfront-basics/navigate-workfront/navigate-workfront.md) 
 * [Home](../workfront-basics/using-home/home.md) 
-* [Update work items and view updates](../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md) 
+* [Update work items and view updates: article index](../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md) 
 * [Work with custom forms](../workfront-basics/work-with-custom-forms/work-with-custom-forms.md) 
 * [Use notifications: article index](../workfront-basics/using-notifications/use-notifications.md) 
 * [Grant and request permissions to objects](../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md) 

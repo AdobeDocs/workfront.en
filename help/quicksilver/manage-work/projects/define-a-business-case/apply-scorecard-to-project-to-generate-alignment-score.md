@@ -8,6 +8,8 @@ exl-id: 21cf5493-147d-4b8d-8b16-2891eb7e0491
 ---
 # Apply a scorecard to a project and generate an Alignment Score
 
+<!-- Audited: 02/2024 -->
+
 You can use a scorecard to measure how well a project aligns with the previously established criteria of a portfolio. A scorecard often reflects the mission, values, and strategic goals of an organization.
 
 For more information about scorecards and how you can create one, see [Create a scorecard](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
@@ -21,40 +23,46 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Business or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>
+   <p>New: Prime or higher</p>
+   <p>or</p>
+   <p>Current: Business or higher</p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>
+   <p>New: Standard</p>
+   <p>or</p>
+   <p>Current: Plan</p></td>  
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p>View or higher access to Portfolios</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Projects</p> <p>View or higher access to Portfolios</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a project</p> <p>View or higher permissions to a portfolio </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td><p>Manage permissions to a project</p> <p>View or higher permissions to a portfolio</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Project scorecards {#project-scorecards}
 
 * [Scorecards overview](#scorecards-overview) 
-* [Project scorecards](#project-scorecards)
+* [Apply a scorecard to a project](#apply-a-scorecard-to-a-project)
 
 ### Scorecards overview {#scorecards-overview}
 
 Typically, a project manager completes the scorecard information to produce an alignment value between 0 and 100 for the project. The value produced is later used when the portfolio manager reviews the projects in the portfolio optimizer to compare them.
 
-For more information about portfolio optimization, see the article [Portfolio Optimizer overview](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+For more information about portfolio optimization, see [Portfolio Optimizer overview](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 ### Apply a scorecard to a project
 
-As user with a Plan license and Manage permissions to a project, you can attach a scorecard to the project.
+As a user with a Standard or Plan license and Manage permissions to a project, you can attach a scorecard to the project.
 
 For more information about project permissions, see [Share a project in Adobe Workfront](../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
@@ -75,9 +83,9 @@ To apply a scorecard to a project:
 
 1. Select a scorecard from the drop-down menu.
 
-   ![new_scorecard.png](assets/new-scorecard-350x149.png)
+   ![New scorecard](assets/new-scorecard.png)
 
-1. Specify an answer for all the questions in the scorecard.
+1. Enter an answer for all the questions in the scorecard.
 
    Workfront applies a score to each question answered and calculates an overall project score based on the individual score of every question.
 
@@ -115,9 +123,7 @@ Scorecards contain questions with answer choices that have been assigned numeric
 
 When the scorecard is completed, Workfront calculates the alignment score of the project as a percentage, using the following formula:
 
-```
-Project Alignment Score = The sum of the question points from the scorecard met at a given time/ The sum of the possible points on the scorecard
-```
+`Project Alignment Score = The sum of the question points from the scorecard met at a given time / The sum of the possible points on the scorecard`
 
 For more information, see [Create a scorecard](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
@@ -127,7 +133,7 @@ The alignment score of the portfolio is an average of the alignment scores of al
 
 When the scorecards of the projects are completed, Workfront uses those values to calculate the alignment score of the portfolio as a percentage, using the following formula:
 
-Portfolio Alignment Score = The sum of the percentages of the project alignment scores/ Number of projects in the portfolio
+`Portfolio Alignment Score = The sum of the percentages of the project alignment scores / Number of projects in the portfolio`
 
 >[!NOTE]
 >
@@ -137,8 +143,8 @@ Portfolio Alignment Score = The sum of the percentages of the project alignment 
 
 You can view the alignment score of a project at the project level, or in the Portfolio Optimizer.
 
-* [View the Alignment Score on a project](#View%20the) 
-* [View the Alignment Scores of the project and of the portfolio in the Portfolio Optimizer](#View%20the2)
+* [View the Alignment Score on a project](#view-the-alignment-score-on-a-project) 
+* [View the Alignment Scores of the project and of the portfolio in the Portfolio Optimizer](#view-the-alignment-scores-of-the-project-and-of-the-portfolio-in-the-portfolio-optimizer)
 
 ### View the Alignment Score on a project
 
@@ -150,7 +156,7 @@ You can view the alignment score of a project at the project level if you have C
 
    The Alignment Score is located in the Business Case Summary, in the **Aligned** value.
 
-   ![alignment_score_on_a_project.png](assets/alignment-score-on-a-project.png)
+   ![Alignment score on a project](assets/alignment-score-on-a-project.png)
 
 ### View the Alignment Scores of the project and of the portfolio in the Portfolio Optimizer
 
@@ -161,28 +167,28 @@ For more information about the information displayed in the Portfolio Optimizer,
 * [Locate the Alignment Score of the project in the Portfolio Optimizer](#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer) 
 * [Locate the Alignment Score of the portfolio in the Portfolio Optimizer](#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer)
 
-  ![](assets/alignment-score-in-portfolio-optimizer-nwe-350x97.png)
+  ![Alignment score in Portfolio Optimizer](assets/alignment-score-in-portfolio-optimizer.png)
 
 #### Locate the Alignment Score of the project in the Portfolio Optimizer {#locate-the-alignment-score-of-the-project-in-the-portfolio-optimizer}
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png), then **Portfolios**. 
+{{step1-to-portfolios}}
 
-1. Click the name of a Portfolio.
+1. Click the name of a portfolio.
 1. Click **Portfolio Optimization** in the left panel.
 
    The Portfolio Optimizer displays. 
 
-1. The alignment score of a project is displayed as a percentage in the **Alignment** column of the Portfolio Optimizer.
+   The alignment score of a project is displayed as a percentage in the **Alignment** column of the Portfolio Optimizer.
 
    This is the alignment score of the project based on the scorecard associated with the project.
 
 #### Locate the Alignment Score of the portfolio in the Portfolio Optimizer  {#locate-the-alignment-score-of-the-portfolio-in-the-portfolio-optimizer}
 
-1. Go to the **Projects** area in the Global Navigation bar.
-1. Select the **Portfolios** tab.
-1. Click the name of a Portfolio.
-1. Select the **Portfolio Optimization** tab.
-1. At the top of the Portfolio Optimizer find the **Aligned** value, as well as the **Alignment** gauge which indicate the alignment score of the portfolio.
+{{step1-to-portfolios}}
+
+1. Click the name of a portfolio.
+1. Click **Portfolio Optimization** in the left panel.
+1. At the top of the Portfolio Optimizer find the **Aligned** value, as well as the **Alignment** gauge, which indicate the alignment score of the portfolio.
 
    This is the alignment score of the portfolio.
 
