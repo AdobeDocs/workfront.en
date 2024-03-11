@@ -38,7 +38,7 @@ You can share the following objects in Maestro:
 
 * Your Adobe Workfront license type works in conjunction with your Maestro permissions to give you access to view, contribute, or manage Maestro objects.
 
-    For information about how license types affect permission levels for Maestro objects, see [License type overview in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+    For information about how license types affect permission levels for Maestro objects, see [License type overview when using the Adobe Workfront planning capabilities ](/help/quicksilver/maestro/access/license-type-overview.md).
 * System administrators can manage and share workspaces that other users created. 
 * If you are not a System Administrator, you can contribute to workspaces created by others if they are shared with you. 
 * You cannot share workspaces in bulk. 
@@ -56,7 +56,7 @@ The tables in the following sections illustrate the level of permissions that yo
 >
 >Not all users can have the permissions levels described below. Users' individual license determines which level of permissions they can receive for Maestro objects. 
 >
->For information, see [License type overview in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+>For information, see [License type overview when using the Adobe Workfront planning capabilities ](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
 ### Workspace permissions

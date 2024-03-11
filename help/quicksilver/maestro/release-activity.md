@@ -140,7 +140,7 @@ Preview: To be determined
 
 We have modified permissions levels to take into account users' license types. Prior to this enhancement, there were no differences in workspace permissions based on the license types of the users.  
 
-The following permissions now work in conjunction with the user's license type:  
+The following are the highest levels of permissions that users can receive based on the user's license type:  
 
 * Users with a Plan license (or Standard license, in the new license model) can create and manage workspaces, record types, and records. 
 
@@ -150,7 +150,7 @@ The following permissions now work in conjunction with the user's license type:
 
 For information about the new license model, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
-For information about the connection between license type and permissions in the planning capabilities, see [License type overview in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).  
+For information about the connection between license type and permissions in the planning capabilities, see [License type overview when using the Adobe Workfront planning capabilities ](/help/quicksilver/maestro/access/license-type-overview.md).  
 
 
 ### New look-and-feel of the Rich-Text toolbar for record fields

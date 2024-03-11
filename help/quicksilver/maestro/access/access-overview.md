@@ -119,6 +119,6 @@ For more information, see [Sharing permissions overview in Adobe Maestro](/help/
 
 Your Adobe Workfront license type works in conjunction with your Maestro permissions to give you access to view, contribute, or manage Maestro objects.
 
-For information about how license types affect permission levels for Maestro objects, see [License type overview in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).
+For information about how license types affect permission levels for Maestro objects, see [License type overview when using the Adobe Workfront planning capabilities ](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
