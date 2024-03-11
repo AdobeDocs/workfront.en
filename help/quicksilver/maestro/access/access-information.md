@@ -18,6 +18,6 @@ The following articles contain information about what access your users need to 
 * [Overview of sharing permissions in Adobe Maestro](/help/quicksilver/maestro/access/sharing-permissions-overview.md)
 * [Share workspaces](/help/quicksilver/maestro/access/share-workspaces.md)
 * [Share views](/help/quicksilver/maestro/access/share-views.md)
-* [License type overview in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md)
+* [License type overview when using the Adobe Workfront planning capabilities ](/help/quicksilver/maestro/access/license-type-overview.md)
 
 
