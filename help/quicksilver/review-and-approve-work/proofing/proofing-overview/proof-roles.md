@@ -69,7 +69,7 @@ Certain proof roles give a reviewer edit rights on the proof (even if their acco
    <td> <p>&nbsp;</p> </td> 
    <td> <p>&nbsp;</p> </td> 
    <td>&nbsp;</td> 
-   <td>✓</td> 
+   <td>&nbsp;</td> 
    <td> <p>&nbsp;</p> </td> 
    <td>✓</td> 
    <td>&nbsp;</td> 
@@ -85,7 +85,7 @@ Certain proof roles give a reviewer edit rights on the proof (even if their acco
    <td> <p>&nbsp;</p> </td> 
    <td> <p>&nbsp;</p> </td> 
    <td>&nbsp;</td> 
-   <td>✓</td> 
+   <td></td> 
    <td> <p>&nbsp;</p> </td> 
    <td>✓</td> 
    <td>&nbsp;</td> 
@@ -101,7 +101,7 @@ Certain proof roles give a reviewer edit rights on the proof (even if their acco
    <td> <p>✓</p> </td> 
    <td> <p>&nbsp;</p> </td> 
    <td>&nbsp;</td> 
-   <td>✓</td> 
+   <td></td> 
    <td> <p>&nbsp;</p> </td> 
    <td>✓</td> 
    <td>&nbsp;</td> 
@@ -117,7 +117,7 @@ Certain proof roles give a reviewer edit rights on the proof (even if their acco
    <td> <p>✓</p> </td> 
    <td> <p>&nbsp;</p> </td> 
    <td>&nbsp;</td> 
-   <td>✓</td> 
+   <td></td> 
    <td> <p>&nbsp;</p> </td> 
    <td>✓</td> 
    <td>&nbsp;</td> 
