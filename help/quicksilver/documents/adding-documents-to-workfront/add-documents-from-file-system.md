@@ -117,4 +117,4 @@ Corrupted files are removed within 24 hours of detection unless you remove it ma
 
 ### File name restrictions {#file-name-restrictions}
 
-Files that are uploaded to Workfront cannot contain certain characters in file names. If a file contains any of the following characters in the file name, the characters are removed from the file name when the file is uploaded: `< > { }`.
+Files that are uploaded to Workfront cannot contain certain characters in file names. If a file contains any of the following characters in the file name, the characters are removed from the file name when the file is uploaded: `! # % * \ | ' " / ? < > { } [ ]`.

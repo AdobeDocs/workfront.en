@@ -9,6 +9,8 @@ exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
 ---
 # Use workflows in the Experience Manager Assets integration
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 A workflow is a set of actions that connect Workfront to Adobe Experience Manager as a Cloud Service. A Workfront administrator can configure workflows in Workfront, then assign them to Project Templates. When a Project is created using a Project Template to which a workflow is assigned, the actions defined in the workflow are triggered. 
 
 >[!NOTE]
@@ -101,6 +103,10 @@ You can add a workflow when creating a project, or add a workflow to an existing
 
 ### Add a workflow to an existing project
 
+>[!NOTE]
+>
+>Workflows that run when a project is created (such as linked folder creation) do not run when the template is attached to an existing project. They only run when a project is created from a template.
+
 1. Begin adding a template to the project.
 
    For instructions, see [Attach a template to a project](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
@@ -109,6 +115,8 @@ You can add a workflow when creating a project, or add a workflow to an existing
 1. (Optional) Edit any workflow values for the project, as described in [Edit workflow values in a project](#edit-workflow-values-in-a-project).
 
    Only workflows that have been activated in the Experience Manager area of Setup are available in templates or projects.
+
+
 
 ### Edit workflow values in a project
 
@@ -124,9 +132,17 @@ All workflow values can be found in:
    >
    >If these areas are not visible, your Workfront administrator has not enabled Workflows for your organization.
 
+
+
 #### Linked folders
 
+>[!NOTE]
+>
+>Because linked folders are created when the project is created, editing the linked folder workflow on an existing project is ineffective. Editing these values when creating a project functions as expected.
+
 To edit the workflow for linked folders:
+
+In the production environment:
 
 1. Toggle **[!UICONTROL Create Linked folder]** on or off as desired.
 1. (Conditional) If you are enabling linked folders, choose a folder path to indicate where you want all linked folders associated with this integration. 
@@ -136,6 +152,31 @@ To edit the workflow for linked folders:
 
    If you are in the [!DNL Adobe Experience Manager area], your changes save automatically. <!--Do they though?-->
 
+In the Preview Sandbox environment:
+
+<div class="preview">
+
+1. Toggle the **[!UICONTROL Create Linked folder]** on or off as desired. If you toggle it on, you can then edit the linked folder configuration.
+
+   For details on the linked folder configuration, see [Create Adobe Experience Manager linked folders](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders) in the article [Configure the [!UICONTROL Experience Manager Assets as a Cloud Service] integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+
+1. (Optional) If you want the folder tree to be built only if certain values are present on a custom form attached to the project, click the **Apply filter** for that folder tree, then select the custom form that contains the field, the field, and the field value. If the field on the custom form attached to the new project contains the chosen value, the folder tree will be created.
+1. (Optional) When configuring folder names, you can select from the following options:
+
+   * **Name**: Type in a name for the folder. 
+
+   * **Object data**: Select the source for the folder name, such as Project name. 
+
+   * **Custom form data**: Select the custom form data to use as the folder name. 
+
+      Using custom form data for folder names is available only at the template level, and cannot be configured at the integration level.
+
+      If a folder name is set to custom data that does not exist on the custom for attached to the project, a random ID will be assigned as the folder name.
+
+1. Click **[!UICONTROL Save]**.
+
+</div>
+
 
 #### Publishing assets
 
@@ -143,10 +184,4 @@ To edit the workflow for publishing assets:
 
 1. Toggle **Publish assets automatically** on or off as desired.
 1. (Conditional) If you are enabling publishing, select whether you want to publish  to the publish service, the brand portal, or both.
-1. Click **[!UICONTROL Save]** if you are using the [!UICONTROL Create Project] or [!UICONTROL Edit project] window.
-    
-   Or
-
-   If you are in the [!DNL Adobe Experience Manager area], your changes save automatically. <!--Do they though?-->
-
-
+1. Click **[!UICONTROL Save]**.
