@@ -564,24 +564,60 @@ This action module creates a new album in Lightroom.
         <p>Enter the API key of the service that is creating the album.</p>
       </td>
     <tr>
-      <td role="rowheader">[]</td>
+      <td role="rowheader">[!UICONTROL Datetime user created]</td>
       <td>
-        <p></p>
+        <p>Enter or map a date with the format <code>YYYY-MM-DDT00:00:00-00:00Z</code>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Datetime user updated]</td>
+      <td>
+        <p>Enter or map a date with the format <code>YYYY-MM-DDT00:00:00-00:00Z</code>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Album name]</td>
+      <td>
+        <p>Enter or map a name for the new album.</p>
       </td>
     <tr>
-      <td role="rowheader">[!UICONTROL ]</td>
+      <td role="rowheader">[!UICONTROL Cover ID]</td>
       <td>
-        <p></p>
+        <p>Enter or map the ID of an asset to use as the cover of this album.</p>
       </td>
     <tr>
-      <td role="rowheader">[!UICONTROL ]</td>
+      <td role="rowheader">[!UICONTROL Remote ID]</td>
       <td>
-        <p></p>
+        <p>Enter an identifier for the asset.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Created date]</td>
+      <td>
+        <p>Enter or map a date with the format <code>YYYY-MM-DDT00:00:00-00:00Z</code>.</p>
       </td>
     <tr>
-      <td role="rowheader">[!UICONTROL]</td>
+      <td role="rowheader">[!UICONTROL Updated date]</td>
       <td>
-        <p></p>
+        <p>Enter or map a date with the format <code>YYYY-MM-DDT00:00:00-00:00Z</code>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Is the album deleted?]</td>
+      <td>
+        <p>Enable this option if the externally affiliated content was deleted.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL URL of location to edit affiliated content]</td>
+      <td>
+        <p>If there is a URL where users can edit content of this album, enter the URL here.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL URL of location to view affiliated content]</td>
+      <td>
+        <p>If there is a URL where users can view content of this album, enter the URL here.</p>
       </td>
     </tr>
   </tbody>
