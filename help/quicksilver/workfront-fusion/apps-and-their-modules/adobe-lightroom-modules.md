@@ -498,17 +498,131 @@ This action module adds one or more assets to the specified album. You can add u
     <tr>
       <td role="rowheader">[!UICONTROL Assets]</td>
       <td>
-        <p>For each asset that you want to add to the album, click <b>Add item</b> and enter the following.</p>
+        <p>For each asset that you want to add to the album, click <b>Add item</b> and enter the following fields.</p>
+      </td>
+    <tr>
+      <td role="rowheader">[!UICONTROL Asset ID]</td>
+      <td>
+        <p>Enter or map the ID of the asset you want to add to the album</p>
+      </td>
+    <tr>
+      <td role="rowheader">[!UICONTROL Is this asset an album cover?]</td>
+      <td>
+        <p>Select whether you want this asset to be displayed as the image that represents the album.</p>
+      </td>
+    <tr>
+      <td role="rowheader">[!UICONTROL Order]</td>
+      <td>
+        <p></p>
+      </td>
+    <tr>
+      <td role="rowheader">[!UICONTROL Metadata]</td>
+      <td>
+        <p>Enter or map any metadata you want to include with the asset. This must be a single text string with a maximum length of 1-24 characters.</p>
+      </td>
+    <tr>
+      <td role="rowheader">[!UICONTROL Remote ID]</td>
+      <td>
+        <p>Enter an identifier for the asset.</p>
       </td>
     </tr>
   </tbody>
 </table> 
 
-Create album
+#### Create an album
 
-Delete album
+This action module creates a new album in Lightroom.
 
-Get album
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Lightroom], see <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Create a connection to [!DNL Adobe Lightroom]</a> in this article.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Catalog ID]</td>
+      <td>
+        <p>Enter or map the ID of the catalog where you want to create an album.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Album ID]</td>
+      <td>
+        <p>Enter or map an ID for the new album.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Subtype]</td>
+      <td>
+        <p>Select the subtype for the album.</p>
+      </td>
+    <tr>
+      <td role="rowheader">[!UICONTROL API key]</td>
+      <td>
+        <p>Enter the API key of the service that is creating the album.</p>
+      </td>
+    <tr>
+      <td role="rowheader">[]</td>
+      <td>
+        <p></p>
+      </td>
+    <tr>
+      <td role="rowheader">[!UICONTROL ]</td>
+      <td>
+        <p></p>
+      </td>
+    <tr>
+      <td role="rowheader">[!UICONTROL ]</td>
+      <td>
+        <p></p>
+      </td>
+    <tr>
+      <td role="rowheader">[!UICONTROL]</td>
+      <td>
+        <p></p>
+      </td>
+    </tr>
+  </tbody>
+</table> 
+
+#### Delete an album
+
+This action module deletes an album.
+
+The deleted album must have been created by the same client app that is now deleting it, and it must be of subtype `project` or `project_set`.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Lightroom], see <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Create a connection to [!DNL Adobe Lightroom]</a> in this article.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Catalog ID]</td>
+      <td>
+        <p>Enter or map the ID of the catalog that contains album you want to delete.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Asset ID]</td>
+      <td>
+        <p>Enter or map the ID of the album you want to delete.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Delete child albums?]</td>
+      <td>
+        <p>Select whether you want to delete child albums of the deleted album.</p>
+      </td>
+    </tr>
+  </tbody>
+</table> 
+
+### Get album
 
 List assets of an album
 
