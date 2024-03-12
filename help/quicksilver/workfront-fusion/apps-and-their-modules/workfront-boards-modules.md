@@ -122,6 +122,8 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
+<!--
+
 ### Watch
 
 #### Watch events
@@ -163,12 +165,40 @@ This trigger module starts a scenario when an event occurs on a board.
 
 After the webhook is created, you can view the address of the endpoint that events are sent to.
 
+-->
 
 ### Cards
 
 #### Add checklist item
 
-#### Attach record
+This action module adds a checklist item to the specified card.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>You can use an existing Workfront connection to connect to Workfront Boards, or you can use a specific Workfront Boards connection. </p><p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Create a connection to Workfront Boards</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Card ID]</td> 
+   <td>Enter or map the ID of the card you want to add a checklist item to.<p>You can find the card ID in the URL when viewing the card in Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Checklist items]</td> 
+   <td>For each checklist item you want to add, click Add item, enter the checklist item's name, and select whether the item has been completed.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Add subtask
+
+
+
+#### Create a card
+
+#### Move a card
 
 #### Read a card
 
@@ -240,6 +270,18 @@ This action module creates a basic board in Workfront.
   </tr> 
  </tbody> 
 </table>
+
+#### Read a board
+
+### Columns
+
+#### Create a column
+
+### Tags
+
+#### Add card tag
+
+#### Create a tag 
 
 ### Other
 
