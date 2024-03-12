@@ -60,6 +60,7 @@ You must have the following access to perform the steps in this article:
   <tr>
    <td role="rowheader"><p>Object permissions</p></td>
    <td> <p>Manage permissions to a view</p>  
+    
 </td>
   </tr>
 
@@ -79,7 +80,7 @@ You can share views you created or views you have Manage permissions to.
 >
 >System Administrators cannot view or share views they did not create themselves. They can only access or share views that are shared with them. 
 
-<!--for above note: System administrators can have only Manage permissions to a view.-->
+<!--for above note - add when this releases: System administrators can have only Manage permissions to a view.-->
 
 {{step1-to-maestro}}
 
@@ -99,7 +100,7 @@ You can share views you created or views you have Manage permissions to.
     * View
     * Manage
 
-        For information about permission levels and what actions users can perform for each level, see [Overview of sharing permissions in Adobe Maestro](../access/sharing-permissions-overview.md).
+        For information about permission levels and what actions users can perform for each level, see [Overview of sharing permissions in Adobe Workfront planning capabilities](../access/sharing-permissions-overview.md).
 1. Click **Copy link** to copy a link to the view to your clipboard. 
 1. Share the copied link with others. Users who receive the link must be active users and log in to Workfront to be able to access the record type page and display it in the selected view. 
 1. Click **Save**.

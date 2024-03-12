@@ -128,6 +128,8 @@ Preview: To be determined
 
 You can now filter, sort, and group by connected records or their lookup fields. This enhancement will help you efficiently organize and visualize your data in both table and timeline views.
 
+You cannot filter, sort, or group by lookup fields that allow connections with multiple records. 
+
 For information, see [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md) and [Manage the timeline view](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
 
 ## Week of February 5, 2024
@@ -290,7 +292,7 @@ The following are the permissions levels for record views:
 * View: Users can select the view from the View drop-down menu of a record type page.
 * Manage: Users can edit, share, and delete the view. 
 
-For more information, see [Access overview](/help/quicksilver/maestro/access/access-overview.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md).
+For more information, see [Access overview](/help/quicksilver/maestro/access/access-overview.md) and [Overview of sharing permissions in Adobe Workfront planning capabilities](../maestro/access/sharing-permissions-overview.md).
 
 ### New Formula field type
 

@@ -27,7 +27,7 @@ A user with a lower-level license type has restricted permissions to objects whe
 >![](assets/permissions-grayed-out-for-requestor-user.png)
 
 
-For information about permissions to objects in Workfront planning capabilities, see [Overview of sharing permissions in Adobe Maestro](/help/quicksilver/maestro/access/sharing-permissions-overview.md). 
+For information about permissions to objects in Workfront planning capabilities, see [Overview of sharing permissions in Adobe Workfront planning capabilities](/help/quicksilver/maestro/access/sharing-permissions-overview.md). 
 
 ## The relationship between Workfront license types and Workfront planning capabilities permissions
 

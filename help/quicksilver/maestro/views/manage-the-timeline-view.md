@@ -168,6 +168,8 @@ Consider the following when working with filters in the timeline view:
 
     For more information, see the "Add filters" section in the article [Manage the table view](../views/manage-the-table-view.md). 
 
+* You can filter by connected record fields or lookup fields, but not for those fields that allow linking to multiple records.
+
 ### Add grouping
 
 <!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
@@ -184,6 +186,7 @@ Consider the following when working with groupings in the timeline view:
 * The groupings are unique to the view that you select. Two timeline views of the same record type can have different groupings applied to them. Two users looking at the same timeline view see the same grouping that is currently applied. 
 * You cannot name the groupings you build for a timeline view.
 * Removing groupings removes them from anyone accessing the same record type as you and who displays the same view as you do. 
+* You can group by connected record fields or lookup fields, but not for those fields that allow linking to multiple records.
 
 To add a grouping in the timeline view:
 
