@@ -413,9 +413,9 @@ This action module retrieves assets owned by the by the user whose credentials a
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Maximum number of returned records]</td>
+      <td role="rowheader">[!UICONTROL Maximum number of returned assets]</td>
       <td>
-        <p>Set the maximum number of rows that [!DNL Workfront Fusion] will return during one execution cycle. This number must be less than or equal to 100.</p>
+        <p>Set the maximum number of assets that [!DNL Workfront Fusion] will return during one execution cycle. This number must be less than or equal to 100.</p>
       </td>
     </tr>
     <tr>
@@ -608,7 +608,7 @@ The deleted album must have been created by the same client app that is now dele
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Asset ID]</td>
+      <td role="rowheader">[!UICONTROL Album ID]</td>
       <td>
         <p>Enter or map the ID of the album you want to delete.</p>
       </td>
@@ -624,11 +624,77 @@ The deleted album must have been created by the same client app that is now dele
 
 ### Get album
 
-List assets of an album
+This action module retrieves the specified album
 
-Retrieve albums
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Lightroom], see <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Create a connection to [!DNL Adobe Lightroom]</a> in this article.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Catalog ID]</td>
+      <td>
+        <p>Enter or map the ID of the catalog that contains album you want to retrieve.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Album ID]</td>
+      <td>
+        <p>Enter or map the ID of the album you want to retrieve.</p>
+      </td>
+    </tr>
+  </tbody>
+</table> 
 
-Update album
+#### List assets of an album
+
+This action module retrieves a list of assets in the specified album.
+
+
+
+#### Retrieve albums
+
+This action module retrieves a list of albums in the specified catalog.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Lightroom], see <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Create a connection to [!DNL Adobe Lightroom]</a> in this article.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Catalog ID]</td>
+      <td>
+        <p>Enter or map the ID of the catalog that contains albums you want to retrieve.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Subtypes]</td>
+      <td>
+        <p>Enter or map the ID of the album you want to retrieve.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Name of album to precede current results]</td>
+      <td>
+        <p>If you are paginating your results, enter or map the name of the last album on the preceding page.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Maximum number of returned albums]</td>
+      <td>
+        <p>Set the maximum number of assets that [!DNL Workfront Fusion] will return during one execution cycle. The default value for this field is 100.This module may return more albums than this limit if multiple albums at the limit boundary have the same <code>name_after</code> value.</p>
+      </td>
+    </tr>
+  </tbody>
+</table> 
+
+#### Update album
 
 
 
