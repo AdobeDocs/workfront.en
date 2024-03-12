@@ -11,6 +11,8 @@ feature: Workfront Fusion, Digital Content and Documents
 ---
 # [!DNL Adobe Lightroom] modules
 
+<!--Add Connection info-->
+
 In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Adobe Lightroom], as well as connect it to multiple third-party applications and services. 
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
@@ -732,9 +734,38 @@ This action module retrieves a list of albums in the specified catalog.
 
 #### Update album
 
+This action module updates the specified album.
 
+The updated album must have been created by the same client app that is now updating it, and it must be of subtype `project` or `project_set`.
 
-
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Lightroom], see <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Create a connection to [!DNL Adobe Lightroom]</a> in this article.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Catalog ID]</td>
+      <td>
+        <p>Enter or map the ID of the catalog that contains album you want to update.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Album ID]</td>
+      <td>
+        <p>Enter or map the ID of the album you want to update.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Other fields</td>
+      <td>
+      <td>For descriptions of other fields in this module, see <a href="#create-an-album" class="MCXref xref" >Create an album</a> in this article.</td>
+      </td>
+    </tr>
+  </tbody>
+</table> 
 
 
 
