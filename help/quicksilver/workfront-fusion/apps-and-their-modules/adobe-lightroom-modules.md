@@ -401,23 +401,108 @@ This action module retrieves assets owned by the by the user whose credentials a
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL ]</td>
+      <td role="rowheader">[!UICONTROL Starting timestamp]</td>
+      <td>
+        <p>Enter or map a timestamp. The module returns records that have been updated after this time stamp.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Return assets captured before]</td>
+      <td>
+        <p>Enter a date with the format <code>YYYY-MM-DDT00:00:00</code>. The module returns results captured before this date.</p><p> This field cannot be used with the field <code>Return assets captured after</code>.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Maximum number of returned records]</td>
+      <td>
+        <p>Set the maximum number of rows that [!DNL Workfront Fusion] will return during one execution cycle. This number must be less than or equal to 100.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL SHA256 Hash value of original file]</td>
       <td>
         <p></p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL ]</td>
+      <td role="rowheader">[!UICONTROL Hide assets that are inside stacks?"]</td>
       <td>
         <p></p>
       </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Asset subtype values]</td>
+      <td>
+        <p></p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Asset IDs]</td>
+      <td>
+        <p>Enter or map up to 100 asset IDs, separated by commas.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Types of assets to exclude]</td>
+      <td>
+        <p>Select if you want to exclude complete or incomplete assets. To include all assets, leave this field blank.</p>
+      </td>
+    <tr>
+      <td role="rowheader">[!UICONTROL Group values]</td>
+      <td>
+        <p></p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Name values]</td>
+      <td>
+        <p></p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Favorite status]</td>
+      <td>
+        <p></p>
+      </td>
+    </tr>
     </tr>
   </tbody>
 </table> 
 
 ### Albums
 
-Add assets to album
+#### Add assets to album
+
+This action module adds one or more assets to the specified album. You can add up to 50 assets in one execution cycle.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Lightroom], see <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" >Create a connection to [!DNL Adobe Lightroom]</a> in this article.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Catalog ID]</td>
+      <td>
+        <p>Enter or map the ID of the catalog that contains the album that you want to add assets to.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Album ID]</td>
+      <td>
+        <p>Enter or map the ID of the album that you want to add assets to.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Assets]</td>
+      <td>
+        <p>For each asset that you want to add to the album, click <b>Add item</b> and enter the following.</p>
+      </td>
+    </tr>
+  </tbody>
+</table> 
 
 Create album
 
