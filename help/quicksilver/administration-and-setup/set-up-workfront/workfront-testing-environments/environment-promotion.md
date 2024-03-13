@@ -19,7 +19,7 @@ The Environment Promotion capability is intended to provide the ability to move 
 
 For instructions on moving object between environments using the Workfront application, see:
 
-* [Create or edit an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-pakcage.md)
+* [Create or edit an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
 * [Install an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
 ## Access requirements
