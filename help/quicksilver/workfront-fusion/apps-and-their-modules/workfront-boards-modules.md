@@ -194,11 +194,63 @@ This action module adds a checklist item to the specified card.
 
 #### Add subtask
 
+This action module adds a subtask to a card in Boards. The card must be a connected card. The subtask is also added to the Workfront task that the card represents.
 
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>You can use an existing Workfront connection to connect to Workfront Boards, or you can use a specific Workfront Boards connection. </p><p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Create a connection to Workfront Boards</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Parent card ID]</td> 
+   <td>Enter or map the ID of the card you want to add a subtask to.<p>You can find the card ID in the URL when viewing the card in Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Board ID]</td> 
+   <td>Enter or map the ID of the board that contains the card you want to add a subtask to.<p>You can find the board ID in the URL when viewing the board in Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Name]</td> 
+   <td>Enter or map a name for the new subtask.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### Create a card
 
+This action module creates a new card on a Workfront board.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>You can use an existing Workfront connection to connect to Workfront Boards, or you can use a specific Workfront Boards connection. </p><p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Create a connection to Workfront Boards</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Board ID]</td> 
+   <td>Enter or map the ID of the board that you want to add a card to.<p>You can find the board ID in the URL when viewing the board in Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL column ID]</td> 
+   <td>Enter or map the ID of the column you want to add a subtask to.<p>You can find the column ID in the URL when viewing the column in Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Name]</td> 
+   <td>Enter or map a name for the new card.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
 #### Move a card
+
+This action module move a card to a different column on the same board.
+
+
 
 #### Read a card
 
