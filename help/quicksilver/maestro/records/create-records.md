@@ -108,6 +108,9 @@ For information about editing record information, see [Edit records](/help/quick
 
 1. (Conditional) If the record type page does not open in the table view, click the **View** drop-down menu, and select either an existing **Table view** ![](assets/table-view-icon.png) or click **Create view > Table** to create a table view. 
 
+<!--Replace the above with this when we release the tabbed views: 
+1. (Conditional) If the record type page does not open in the table view, click the tab of a table view, or click **+ View** to create a table view. -->
+
 1. To add new records, click **New record** in the last row of the table 
 
     Or 
@@ -167,15 +170,15 @@ You can import records from other applications by linking them to existing recor
 
 ## Create records by copying and pasting information from an external list
 
-1. In Maestro, start creating records in the Table view, as described in the section [Create records by manually adding them to a record type](#create-records-by-manually-adding-them-to-a-record-type) in this article. 
+1. Start creating records in the Table view, as described in the section [Create records by manually adding them to a record type](#create-records-by-manually-adding-them-to-a-record-type) in this article. 
 
-    Ensure that the Maestro table view has the columns (or the fields) that you want to populate with the new record information. 
+    Ensure that the table view has the columns (or the fields) that you want to populate with the new record information. 
 
 1. Click **New < Record type name >** in the last row of the table to add as many new rows to the table as you want your new records to be. 
 
     For example, add 10 rows to the table view if you want to paste the information for 10 new records from another application. 
 
-1. In another application, create a list of records that you want to import in Maestro. 
+1. In another application, create a list of records that you want to import. 
     
     For example, you can use an Excel spreadsheet to create your list. 
 
@@ -183,13 +186,13 @@ You can import records from other applications by linking them to existing recor
 
     >[!TIP]
     >
-    > The columns of the list should contain information for the existing fields you have in Maestro. 
+    > The columns of the list should contain information for the existing fields you have in Workfront. 
     >
-    > Ensure you have the desired fields already created in Maestro and that the information in your sheet displays in the correct format that matches that of each field in Maestro.
+    > Ensure you have the desired fields already created in Workfront and that the information in your sheet displays in the correct format that matches that of each field in Workfront.
 
 1. From another application, select several rows and columns, then paste the information in the record type table view, starting with the first new record. 
 
-    The following information is imported in Maestro:
+    The following information is imported in the Workfront planning capabilities area:
     
     * The rows contain the new records
     * The columns populate information for the fields of the records.
