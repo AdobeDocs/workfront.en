@@ -155,14 +155,17 @@ The workspace you last accessed opens by default. For information about creating
     * Timeline
     * Calendar
 
+    A new tab is created with the selected view. 
+
+    Depending on the width of your screen, additional views might display in the **More** menu ![](assets/more-menu.png).   
+-->
+
 >[!TIP]
 >
 >When you create a record type, the table view is also created by default. 
 >
 >To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
 >
->(*********remove the step below and replace the screen shot when calendar view releases*********)
--->
 
 1. Click the **View** drop-down menu, and select either an existing **Table view** ![](assets/table-view-icon.png) or click **Create view > Table** to create a table view
 
@@ -218,7 +221,9 @@ The workspace you last accessed opens by default. For information about creating
 
     By default, all the records of the selected type display in the table view. 
 
-<!--1. Hover over on the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) > **Delete**. (********delete the instructions in the point below but keep the last step***********)-->
+<!--1. Hover over one the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) to the left of the view name, then click **Delete**. (********delete the instructions in the point below but keep the last step***********)
+First, you might need to click **More** to the left of the last tab to find the view you want to delete. -->
+
 1. Click the view drop-down menu, hover over one of the views in the list, then click the **More** menu ![](assets/more-menu.png) > **Delete**. 
 1. Click **Delete** to confirm. <!--ensure there is not another saving step here?!-->
     
