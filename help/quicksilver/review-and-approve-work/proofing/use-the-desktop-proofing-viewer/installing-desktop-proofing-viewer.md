@@ -75,8 +75,8 @@ If your Workfront or Workfront Proof administrator has downloaded the app on you
 
 1. Do one of the following to download the app:
 
-   * In the Production environment, click [Windows Production download for the Desktop Proofing Viewer.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.32.exe)
-   * In the Preview environment, click [Windows Preview download for the Desktop Proofing Viewer](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.32.exe)
+   * In the Production environment, click [Windows Production download for the Desktop Proofing Viewer.](https://assets.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Setup+2.1.34.exe)
+   * In the Preview environment, click [Windows Preview download for the Desktop Proofing Viewer](https://assets.preview.proofhq.com/nativeviewer/desktop_viewer/Workfront+Proof+Preview+Setup+2.1.34.exe)
 
 1. Open the file you have just downloaded to start the installation.
 1. In the installation box that appears, open the file you have just downloaded to start the installation.
