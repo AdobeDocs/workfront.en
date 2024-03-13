@@ -26,18 +26,20 @@ recommendations: noDisplay, noCatalog
 1. in the **Package name** field, enter a name for the package.
 1. In the **Description** field, enter a description for this package. 
 1. To add an object to the package, click **Add Objects** in the left navigation and select the type of object you want to add.
-1. Select one or more objects from the list, or type the name in the search bar and select the object when it appears in the list. 
-1. Click **Add to package**.
+1. Select one or more objects from the list, or type the name in the search bar and select the object when it appears in the list. You can select more than one object in the list.
+1. Click **Add (X Objects)** to add the selected objects to the package.
 
-   The object that you have added appears in the Package Contents area on the right of the page.
+   For example, if you have selected three projects to add to the project, the button says **Add 3 Projects**. 
 
-1. To add another object, repeat steps 7-9.
+   The objects that you have added appears in the Package Contents area on the right of the page.
+
+1. To add another type of object, repeat steps 7-9.
 1. (Optional) To remove an object from the package, hover over the object in the Package Contents area, then click the X next to the object.
 1. After you have added all of the desired objects to the package, click **Save and Close** to save the package without assembling it.
 
    Or
 
-   Click **Save and Extract** to save and assemble the package.
+   Click **Save and Assemble** to save and assemble the package.
 
 ## Edit or assemble an existing package
 
