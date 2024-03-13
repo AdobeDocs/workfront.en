@@ -53,6 +53,6 @@ recommendations: noDisplay, noCatalog
 1. To edit the package, click **Edit Package** at the upper-right of the screen.
 1. To install the package, click **Install ** at the upper-right of the screen.
 
-   FOr instructions on installing a package, see [Install an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
+   For instructions on installing a package, see [Install an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
 
 
