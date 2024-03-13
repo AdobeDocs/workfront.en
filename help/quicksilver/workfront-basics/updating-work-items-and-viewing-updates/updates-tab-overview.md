@@ -42,7 +42,7 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 > * Summary panel in timesheets 
 > * Summary panel in the Workload Balancer
 >
-><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment.</span>
+><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
 
 ## Overview of the Updates section
 
@@ -50,13 +50,9 @@ The Updates section of an object shows system updates, and up to 200 of the most
 
 <div class="preview">
 
-Example of the Updates section in the Preview environment:
-  ![Updates section](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
+![Updates section](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
 
 </div>
-
-Example of the Updates section in the Production environment:
-  ![Updates section](assets/updates-tab-after-unified-experience-for-issues.png)
 
 Depending on what objects you access the commenting experience for, you might find the following experience for the Updates section:
 
@@ -98,13 +94,9 @@ Depending on what objects you access the commenting experience for, you might fi
 
 <div class="preview">
 
-Example of the Updates section in the Preview environment:
 ![Updates section](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
 </div>
-
-Example of the Updates section in the Production environment:
-![Updates section](assets/updates-tab-after-unified-experience-for-tasks.png)
 
 >[!NOTE]
 >

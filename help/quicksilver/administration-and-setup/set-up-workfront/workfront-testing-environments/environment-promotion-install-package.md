@@ -4,7 +4,7 @@ content-type: how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: Install an environment promotion package
-description: The environment promotion capability is intended to provide the ability to move configuration-related objects from one environment to another. Learn how to install an environment promotion package into a new environment.
+description: The environment promotion capability is intended to provide the ability to move configuration-related objects from one environment to another. Learn how to install an environment promotion package into a target environment.
 author: Becky
 feature: System Setup and Administration
 role: Admin
@@ -16,28 +16,32 @@ recommendations: noDisplay, noCatalog
 
 This page is under construction
 
-<!--
+
+
+1. Go to the environment where you want to install the package. This is the environment that you are copying objects **to**.
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
+1. Select **System** in the left navigation, then select **Environment Promotion**.
+1. Select the package from the displayed list.
+1. To install the package, click **Install** at the upper-right of the screen. 
+1. Map each object in the package to the corresponding object in the target environment.
+
+   For more information, see [Mapping](#mapping) in this article
+
 
 ## Mapping
 
-<!--How does one get to the mapping page?--
+Each object type is listed in the left navigation and on a card. The card displays objects of that type and whether those objects exist in the target environment. You can determine how these objects will move to the target environment. 
 
-<!--Also show how to tell you're installing it in the right place (note 3 on slide 3)--
+* Create new: The object is in the target environment
+* Use existing: The object in the package is not installed, and the object that already existed in the target environment is unchanged.
+* Overwrite existing: The object in the package replaces the existing object in the target environment.
+* Do not use:
 
-Each object in the package is shown in the left navigation, and as a card on the page.
-
-Each card displays the object and its <!--fields? properties? sub-objects>--. You can determine how these <!--???--s will move to the new environment. 
-
-* Create new <!--does this mean you can have multiples?--
-* Use existing
-* Overwrite existing
-* Do not use
-
-You can revert to the default mapping by clicking **Reset to default mapping**.
+Default values are `Create new` if the object does not exist in the target environment, and `Use existing` if the object does exist in the target environment. You can revert to the default mapping by clicking **Reset to default mapping**.
 
 If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
-If you select Create new, you will need to change the value <!--of what?--
 
+<!--
 ## Collisions
 
 A collision occurs when <!--???--.
