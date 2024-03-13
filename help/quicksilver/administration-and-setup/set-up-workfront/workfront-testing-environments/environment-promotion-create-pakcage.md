@@ -48,10 +48,11 @@ recommendations: noDisplay, noCatalog
 1. Select **System** in the left navigation, then select **Environment Promotion**.
 1. Select the package from the displayed list.
 1. (Conditional) To see archived (disabled) packages, enable the **Show retired packages** option.
-1. To view the contents, including all objects and their sub-objects, click **Contents**.
+1. To view the contents, including all objects and their sub-objects, click the drop-down arrow next to the object type in the **Contents** section.
 1. To view previous installations and installation attempts of this package, click **Deployments**.
 1. To edit the package, click **Edit Package** at the upper-right of the screen.
-<!--1. To extract the package, click **Deploy Package** at the upper-right of the screen.
-Find out what deploy means-->
+1. To install the package, click **Install ** at the upper-right of the screen.
+
+   FOr instructions on installing a package, see [Install an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
 
 
