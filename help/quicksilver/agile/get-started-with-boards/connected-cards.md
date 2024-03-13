@@ -9,6 +9,8 @@ exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
 ---
 # Use connected cards on boards
 
+<!-- Audited: 2/2024 -->
+
 You can add a card on your board that is connected to existing tasks and issues in [!DNL Workfront].
 
 When any one of the following details is updated for the card in one location, it is automatically updated in the other location:
@@ -33,29 +35,33 @@ You must have the following access to perform the steps in this article:
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Request] or higher</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] license</strong></td> 
+   <td>
+   <p>New: Contributor or higher</p>
+   <p>Or</p>
+   <p>Current: Request or higher</p>
+ </td> 
   </tr> 
   <tr>
-   <td role="rowheader"><strong>Access level configurations*</strong></td>
-   <td><p>[!UICONTROL View] or higher access to tasks and issues</p></td>
+   <td role="rowheader"><strong>Access level configurations</strong></td>
+   <td><p>View or higher access to tasks and issues</p></td>
   </tr>
   <tr>
    <td role="rowheader"><strong>Object permissions</strong></td>
-   <td><p>[!UICONTROL View] or higher permissions to the Workfront task or issue</p></td>
+   <td><p>View or higher permissions to the Workfront task or issue</p></td>
   </tr>
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Add a connected card
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Boards]**.
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Boards]**.
 1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
 1. Click **[!UICONTROL Add card] &gt; [!UICONTROL Connected card]**.
 1. Choose a project, then choose a task or issue to add as a card on the board.

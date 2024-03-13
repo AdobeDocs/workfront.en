@@ -96,7 +96,7 @@ You can create a connection to your [!DNL Workfront Proof] account directly from
                 <td>Enter the password for your [!DNL Workfront Proof] account.</td>
             </tr>
             <tr>
-                <td  role="rowheader">[!UICONTROL Tenant name]</td>
+                <td  role="rowheader">[!UICONTROL Tenant ID]</td>
                 <td><strong>Note</strong>: Customers that do not use BYOK must leave this field blank. <p>Enter the Tenant ID for this account. If you need help finding your Tenant ID, contact Workfront Customer Support.</p></td>
             </tr>
             <tr>

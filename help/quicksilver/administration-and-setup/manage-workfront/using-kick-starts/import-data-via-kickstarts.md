@@ -45,11 +45,12 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>:</p> 
-   <p> If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td>You must be a Workfront administrator. </td> 
   </tr> 
  </tbody> 
 </table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Limitations
 
@@ -191,31 +192,13 @@ To export a Kick-Start template:
       <td>Job Role</td> 
       <td>Exports as Excel file</td> 
       <td> <p> Job role</p> <p>Preferences </p> </td> 
-     </tr> 
-
-      <tr> 
-      <td>Legacy Resource Pool</td> 
-      <td>Exports as Excel file</td> 
-      <td> <p> Legacy Resource Pool</p> <p>Preferences </p> </td> 
      </tr>
 
      <tr> 
       <td>Milestone Path</td> 
       <td> Exports as Excel file</td> 
       <td> <p> Milestone</p> <p>Milestone Path</p> <p>Preferences </p> </td> 
-     </tr> 
-
-      <tr> 
-      <td>Non-labour resource</td> 
-      <td> Exports as Excel file</td> 
-      <td> <p> Non-labour resource</p> <p>Preferences</p></td> 
-     </tr> 
-
-      <tr> 
-      <td>Non-labour resource category</td> 
-      <td> Exports as Excel file</td> 
-      <td> <p> Non-labour resource category</p> <p>Preferences</p></td> 
-     </tr> 
+     </tr>
 
      <tr> 
       <td>Note</td> 
@@ -465,7 +448,7 @@ Though it is a best practice to use IDs whenever possible, sometimes it's inconv
 
 ## Import the spreadsheet data into Workfront
 
-After you populate the Excel template with your data, you can upload it's data into Workfront.
+After you populate the Excel template with your data, you can upload its data into Workfront.
 
 The Kick-Start import supports the following file types:
 
@@ -479,17 +462,17 @@ The Kick-Start import supports the following file types:
    >* Reports
    >* Documents
    >* Avatars
-   >* View, filter, or grouping property files. 
+   >* View, filter, or grouping property files
    >
    >When using a zipped import file, the .ZIP file must have the same name as the .xlsx or .xls file, and all files must be at the same structure level (no folders).
 
 To import the template spreadsheet data into Workfront:
 
-{{step-1-to-setup}}
-
 <!--1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).-->
 
-1. Click **System** >**Import Data (Kick-Starts)**.
+{{step-1-to-setup}}
+
+1. Click **System** > **Import Data (Kick-Starts)**.
 
 1. In the **Upload data with Kick-Start spreadsheet** section, click **Choose File**, then browse to and select the populated spreadsheet.
 

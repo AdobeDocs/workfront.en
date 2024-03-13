@@ -28,7 +28,7 @@ There are currently three plan options for Proofing in Workfront:
 
 For information about granting and revoking a user's access to create and view proofs in Workfront, see [Configure a user's proofing access](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).
 
-* Generate static or interactive proofs on external-facing URLs and documents. For more information, see [Create proofs](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs--in-wf.md).
+* Generate static or interactive proofs on external-facing URLs and documents. For more information, see [Create proofs](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).
 * Include Automated Workflows on proofs. For more information, see [Automated Workflow overview](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 * Set access and subscriptions settings on proofs. For more information, see [Configure access and subscription settings for a proof](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md).
 * Assign custom proof permission profiles when enabling proofing capabilities for a user in Workfront. For more information, see [Enable and disable proofing for a user (legacy plans only)](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md#enabling-and-disabling-proofing-for-a-user) in [Configure a user's proofing access](../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md).

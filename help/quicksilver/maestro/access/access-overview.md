@@ -1,6 +1,6 @@
 ---
 title: Access overview
-description: There are license and sharing permission restrictions to use Adobe Maestro capabilities. 
+description: There are license and sharing permission restrictions to use Adobe Workfront's planning capabilities. 
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -13,11 +13,11 @@ exl-id: 99fac041-a235-4991-b826-d19944164bc9
 
 {{maestro-important-intro}}
 
-There are license and sharing permission restrictions to use Adobe Maestro capabilities. 
+There are license and sharing permission restrictions to use Adobe Workfront planning capabilities. 
 
 ## Access requirements 
 
-You must have the following settings to use Adobe Maestro: 
+You must have the following settings to use the planning capabilities in Adobe Workfront: 
 
 <table style="table-layout:auto">
  <col>
@@ -34,7 +34,7 @@ You must have the following settings to use Adobe Maestro:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. </p>
+<p>Your organization must be enrolled in the Adobe Workfront planning capabilities closed beta program. </p>
    </td>
   </tr>
   <tr>
@@ -47,23 +47,30 @@ You must have the following settings to use Adobe Maestro:
    <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
    <p>Any</p>
-   To create workspaces, users must have the following license: 
-   <ul><li><p>New: Standard</p> </li>
-   <li><p>Current: Worker or higher</p> </li></ul>
+   <p>To create workspaces, you must have the following license:</p>
+   <ul>
+   <li>
+   New: Standard
+   </li>
+   <li>
+   Current: Worker or higher
+   </li>
+   </ul>
   </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls for Maestro objects</p>  
+   <td> <p>There are no access level controls for planning capabilities objects</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Object permissions</p></td>
    <td>
-   <p>Contribute or higher permissions to workspaces and views that you did not create to edit, delete, and share them</p>
-    <p>System Administrators can manage workspaces and views they did not create </p>
-   <p>For information about sharing permissions for Maestro objects, see  
-   <a href="../access/sharing-permissions-overview.md">Overview of sharing permissions in Adobe Maestro</a> 
+   <p>Contribute or higher permissions to workspaces and views that you did not create to edit, delete, and share them, and to create, edit, or delete record types and records.</p>
+    <p>System Administrators can manage workspaces they did not create. </p>
+    <p>System Administrators cannot manage views they did not create. </p>
+   <p>For information about sharing permissions for planning capabilities objects, see  
+   <a href="../access/sharing-permissions-overview.md">Overview of sharing permissions in Adobe Workfront planning capabilities</a> 
   </td>
   </tr>
 <tr>
@@ -81,7 +88,7 @@ You must have the following settings to use Adobe Maestro:
 
 <!--First, contact your account manager to obtain access to the current Maestro closed beta program.--> 
 
-After your organization has been enrolled in the Maestro beta program, you can add the Maestro area to the Main Menu of all users by using a layout template. 
+After your organization has been enrolled in the Workfront planning capabilities beta program, you can add the Maestro area to the Main Menu of all users by using a layout template. 
 
 1. Log in to **Workfront** as a Workfront administrator.  
 
@@ -89,7 +96,7 @@ After your organization has been enrolled in the Maestro beta program, you can a
     
     For information, see [Customize the Main Menu using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-1. Assign the layout template to the users that you want to have access to Maestro. 
+1. Assign the layout template to the users that you want to have access to the Workfront planning capabilities. 
 
     For information, see [Assign users to a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
@@ -99,14 +106,20 @@ After your organization has been enrolled in the Maestro beta program, you can a
 
 ## Grant access 
 
-There are no access controls for Maestro. 
+There are no access controls for the planning capabilities in Workfront. 
 
-Users with any type of license can access Maestro. 
+Users with any type of license can access Workfront planning capabilities. 
+
+For information about granting access in Workfront, see [Create and modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
 
 ## Grant permissions
 
-You must give users who are not System Administrators permissions to workspaces and views you create in order for them to access them. 
+You must give users permissions to workspaces and views you create in order for them to access them. 
 
-For more information, see [Sharing permissions overview in Adobe Maestro](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
+For more information, see [Overview of sharing permissions in Adobe Workfront planning capabilities](/help/quicksilver/maestro/access/sharing-permissions-overview.md).
+
+Your Adobe Workfront license type works in conjunction with your planning capabilities permissions to give you access to view, contribute, or manage planning capabilities objects.
+
+For information about how license types affect permission levels for planning capabilities objects, see [License type overview when using the Adobe Workfront planning capabilities ](/help/quicksilver/maestro/access/license-type-overview.md).
 
 
