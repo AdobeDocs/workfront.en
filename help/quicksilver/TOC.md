@@ -19,6 +19,7 @@ feature-set: Workfront
       * [2024 Q2 Home enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md)
       * [2024 Q2 Integration enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md)
       * [2024 Q2 Project enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md)
+      * [2024 Q2 Resource management enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md)
       * [2024 Q2 Update stream enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md)
       * [Look-and-feel updates during the 2024 Q2 release timeframe](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md)
     * 2024 Q1 Release {#release-24-q1}
@@ -389,6 +390,7 @@ feature-set: Workfront
   * Beta programs {#beta}
     * [Beta programs](product-announcements/betas/betas.md)
     * Canvas Dashboards beta {#canvas-dashboards-beta}
+      * [Canvas Dashboards beta information](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
       * [Reporting Canvas beta overview](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
       * [Canvas Dashboards beta: release activity](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
     * New commenting experience beta {#new-commenting-experience-beta}
