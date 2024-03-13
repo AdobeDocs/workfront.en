@@ -71,7 +71,7 @@ If your Workfront or Workfront Proof administrator has downloaded the app on you
 
 >[!TIP]
 >
->You can use the command line to install the Desktop Proofing Viewer by running `Workfront Proof Setup 2.1.31.exe" /S` 
+>You can use the command line to install the Desktop Proofing Viewer by running `Workfront Proof Setup 2.1.34.exe" /S` 
 
 1. Do one of the following to download the app:
 
