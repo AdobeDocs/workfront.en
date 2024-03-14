@@ -90,7 +90,7 @@ For more information, see [Manage record views](/help/quicksilver/maestro/views/
 Production: March 14, 2024
 Preview: To be determined 
 
-We have updated the look and feel of the views in the record type page. The new views are dynamically responsive and quickly adjust to the size of your screen. The toolbar option labels are hidden to make the toolbar easier to use on smaller screens.  
+We have updated the look and feel of the views in the record type page. The new views are dynamically responsive and quickly adjust to the size of your screen. The toolbar option labels are hidden on smaller screens to make the toolbar easier to use.  
 
 For more information, see the following articles: 
 * [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md) 
@@ -113,6 +113,29 @@ For more information, see [Share views](/help/quicksilver/maestro/access/share-v
 Preview: To be determined 
 
  When a user receives a link to a record type and they have access to the workspace but not to the view shared in the link, a page notifying them that they are not authorized to see the record type displays.  
+
+ For more information, see [Share views](/help/quicksilver/maestro/access/share-views.md). 
+
+
+### New label for System Administrators in sharing dialogs
+
+Production: <date> 
+
+Preview: To be determined 
+
+When sharing a view with a system administrator, you can only grant Manage access to them. Additionally, we now display an "Admin" label next to the system administrator's user name in the sharing dialog box. System administrators who were granted View permissions before this change will now receive Manage permissions to the view.  
+
+For information, see [Share permissions overview](/help/quicksilver/maestro/access/sharing-permissions-overview.md).  
+
+### Unauthorized page when sharing a view without permissions
+
+Production: <date> (Iskuhi said on March 14) 
+
+Preview: To be determined 
+
+ When a user receives a link to a record type and they have access to the workspace but not to the view shared in the link, a page notifying them that they are not authorized to see the record type displays.  
+
+ You must share views in addition to sharing workspaces for others to access the same record type page that you share with a link.
 
  For more information, see [Share views](/help/quicksilver/maestro/access/share-views.md). 
 

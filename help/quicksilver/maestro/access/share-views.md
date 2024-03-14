@@ -101,6 +101,9 @@ You can share views you created or views you have Manage permissions to.
     * Manage
 
         For information about permission levels and what actions users can perform for each level, see [Overview of sharing permissions in Adobe Workfront planning capabilities](../access/sharing-permissions-overview.md).
+
+        <!--System administrators always receive Manage permissions to views shared with them.--> 
+
 1. Click **Copy link** to copy a link to the view to your clipboard. 
 1. Share the copied link with others. Users who receive the link must be active users and log in to Workfront to be able to access the record type page and display it in the selected view. 
 1. Click **Save**.
