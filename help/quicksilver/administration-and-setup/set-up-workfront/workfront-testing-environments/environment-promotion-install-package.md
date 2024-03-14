@@ -14,9 +14,6 @@ recommendations: noDisplay, noCatalog
 ---
 # Install an environment promotion package
 
-This page is under construction
-
-
 
 1. Go to the environment where you want to install the package. This is the environment that you are copying objects **to**.
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
@@ -35,11 +32,11 @@ Each object type is listed in the left navigation and on a card. The card displa
 * Create new: The object is in the target environment
 * Use existing: The object in the package is not installed, and the object that already existed in the target environment is unchanged.
 * Overwrite existing: The object in the package replaces the existing object in the target environment.
-* Do not use:
+* Do not use:If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
 
 Default values are `Create new` if the object does not exist in the target environment, and `Use existing` if the object does exist in the target environment. You can revert to the default mapping by clicking **Reset to default mapping**.
 
-If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
+
 
 <!--
 ## Collisions
