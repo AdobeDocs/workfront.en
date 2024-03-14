@@ -101,15 +101,13 @@ For information about editing record information, see [Edit records](/help/quick
 {#step1-to-maestro}
   
   The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture/create-workspaces.md).
+
 1. Click a record type card. For information about creating a record type, see [Create record types](../architecture/create-record-types.md). 
 
     The record type page opens in the view that you last accessed. By default, a record type page opens in the table view. 
     All the records of the selected type display in the table view. 
 
-1. (Conditional) If the record type page does not open in the table view, click the **View** drop-down menu, and select either an existing **Table view** ![](assets/table-view-icon.png) or click **Create view > Table** to create a table view. 
-
-<!--Replace the above with this when we release the tabbed views: 
-1. (Conditional) If the record type page does not open in the table view, click the tab of a table view, or click **+ View** to create a table view. -->
+1. (Conditional) If the record type page does not open in the table view, click the tab of a table view, or click **+ View** to create a table view. 
 
 1. To add new records, click **New record** in the last row of the table 
 
@@ -129,17 +127,17 @@ For information about editing record information, see [Edit records](/help/quick
 
 1. Continue adding information on each row, then click **Enter** on your keyboard to save your changes.
 
-<!--Or 
+    Or 
     
     Click the new record's name or the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of the record name. The **Details** box opens in the table. 
 
-      >[!TIP]
-      >
-      >    You can access the Details box only from the name field of the record when the Name field is a primary field. 
+    >[!TIP]
+    >
+    >You can access the Details box only from the name field of the record when the Name field is a primary field. 
 
-  1. Start editing the record's information in the Details box. Workfront automatically saves your changes. 
-  1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record on the Details page.
-    -->
+1. Start editing the record's information in the Details box. Workfront automatically saves your changes. 
+1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record on the Details page.
+
 
 1. (Optional) Use the following keyboard shortcuts to undo or redo adding new records: 
 

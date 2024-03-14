@@ -59,6 +59,7 @@ For information about new features and when they are released, see [Adobe Workfr
 |     Link records                                   |   ✓                           |                                  |                  |
 |     View records in a table                        |   ✓                           |                                  |                  |
 |     View records in a timeline                     |   ✓                           |                                  |                  |
+|     View records in a calendar                     |   ✓                           |                                  |                  |
 |     Filter records                                 |   ✓                           |                                  |                  |
 |     Group records in the timeline view             |   ✓                           |                                  |                  |
 |     Group records in the table view                | ✓                              |                                 |                  |
