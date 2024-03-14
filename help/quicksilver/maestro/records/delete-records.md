@@ -133,8 +133,9 @@ You can delete a record from the following areas:
     * Right-click a record row, then click **Delete**. 
     * Click the **More** menu ![](assets/more-menu.png) to the right of the record name, then click **Delete**
 
-    ![](assets/contextual-menu-for-record-row.png)
-    <!--* Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to open the Details box, and click **More** ![](assets/more-menu.png) to the right of the record name, then **Delete**. -->
+        ![](assets/contextual-menu-for-record-row.png)
+    
+    * Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to open the Details box, and click **More** ![](assets/more-menu.png) to the right of the record name, then **Delete**.
 
     The record is deleted and cannot be recovered.
 
