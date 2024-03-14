@@ -17,7 +17,7 @@ exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
 
 The Environment Promotion capability is intended to provide the ability to move configuration-related objects from one environment to another. You can move these objects using the Workfront API as described in this article.
 
-For instructions on moving object between environments using the Workfront application, see:
+For instructions on moving objects between environments using the Workfront application, see:
 
 * [Create or edit an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
 * [Install an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)

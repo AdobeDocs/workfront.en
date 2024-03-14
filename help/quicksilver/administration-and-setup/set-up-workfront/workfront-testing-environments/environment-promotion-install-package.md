@@ -31,7 +31,7 @@ Each object type is listed in the left navigation and on a card. The card displa
 
 * Create new: The object is in the target environment
 * Use existing: The object in the package is not installed, and the object that already existed in the target environment is unchanged.
-* Overwrite existing: The object in the package replaces the existing object in the target environment.
+* Overwrite existing: (Not currently available) The object in the package replaces the existing object in the target environment.
 * Do not use:If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
 
 Default values are `Create new` if the object does not exist in the target environment, and `Use existing` if the object does exist in the target environment. You can revert to the default mapping by clicking **Reset to default mapping**.
@@ -46,5 +46,7 @@ A collision occurs when <!--???--.
 In Workfront, a potential collision is marked with a blue dot. You can select 
 
 You can select whether to show all package contents, or collisions only.
--->
 
+## Comparison tool
+
+-->
