@@ -147,7 +147,6 @@ The workspace you last accessed opens by default. For information about creating
 
     By default, all the records of the selected type display in the table view. 
 
-<!--
 1. Click **+ View** to add a new view. 
 1. Select from the following types of views: 
 
@@ -158,7 +157,7 @@ The workspace you last accessed opens by default. For information about creating
     A new tab is created with the selected view. 
 
     Depending on the width of your screen, additional views might display in the **More** menu ![](assets/more-menu.png).   
--->
+
 
 >[!TIP]
 >
@@ -167,21 +166,11 @@ The workspace you last accessed opens by default. For information about creating
 >To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
 >
 
-1. Click the **View** drop-down menu, and select either an existing **Table view** ![](assets/table-view-icon.png) or click **Create view > Table** to create a table view
+![](assets/view-types-drop-down-from-record-type-list.png)
 
-    Or
-    
-    Select an existing **Timeline view** ![](assets/timeline-view-icon.png) or click **Create view > Timeline** to create a timeline view.
-
-    Or 
-
-    Select an existing **Calendar view** ![](assets/calendar-view-icon.png) or click **Create View > Calendar** to create a calendar view. 
-
-    ![](assets/view-types-drop-down-from-record-type-list.png)
-
-    >[!NOTE]
-    >
-    >    To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline or the Calendar options are dimmed.
+>[!NOTE]
+>
+>    To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline or the Calendar options are dimmed.
 
 1. (Conditional) Click **Next**, when creating a timeline or calendar view.
     
@@ -196,12 +185,16 @@ The workspace you last accessed opens by default. For information about creating
 1. (Conditional) Select the **Start** and **End dates** for the records that will display in the timeline or calendar view.
 1. Click **Create**.
 
-    <!--add for view redesign: The view displays as a new tab. Views display in the chronological order from when they were created or shared with you. -->
-<!--1. (Optional) Click the **More** menu ![](assets/more-caret-down-icon-views.png) next to the last view to view all views for the selected record type. 
+    The view displays as a new tab. Views display in the chronological order from when they were created or shared with you. 
+1. (Optional) Click the **More** menu ![](assets/more-caret-down-icon-views.png) next to the last view to display all views for the selected record type. 
 
-    Additional views display under the **More** menu after the last view tab. The number next to the **More** menu shows the number of additional views. -->
-1. (Optional) To rename a view after it is created, click the view drop-down menu, then click the **More** menu ![](assets/more-menu.png) > **Rename** to update the view name. <!--ensure there is not another saving step here?!-->
-<!--1. (Optional) To rename a view after it is created, double-click the view name and start typing the new name, or click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Rename**.-->
+    Additional views display under the **More** menu after the last view tab. The number next to the **More** menu shows the number of additional views.
+1. (Optional) To rename a view after it is created, click the view drop-down menu, then click the **More** menu ![](assets/more-menu.png) > **Rename** to update the view name
+
+    Or
+
+    Double-click the view name and start typing the new name.  <!--ensure there is not another saving step here?!-->
+
 1. (Optional) To manage a specific type of view, see the following articles: 
 
     * [Manage the table view](../views/manage-the-table-view.md)
@@ -221,10 +214,9 @@ The workspace you last accessed opens by default. For information about creating
 
     By default, all the records of the selected type display in the table view. 
 
-<!--1. Hover over one the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) to the left of the view name, then click **Delete**. (********delete the instructions in the point below but keep the last step***********)
-First, you might need to click **More** to the left of the last tab to find the view you want to delete. -->
+1. Hover over one the of the view's names in the view tab, then click **More** ![](assets/more-menu.png) to the left of the view name, then click **Delete**. 
+First, you might need to click **More** to the left of the last tab to find the view you want to delete.
 
-1. Click the view drop-down menu, hover over one of the views in the list, then click the **More** menu ![](assets/more-menu.png) > **Delete**. 
 1. Click **Delete** to confirm. <!--ensure there is not another saving step here?!-->
     
     The view is deleted for all users who can access the records area and it cannot be recovered. 

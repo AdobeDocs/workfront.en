@@ -11,7 +11,7 @@ exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
 ---
 # Reply to updates
 
-{{highlighted-preview}}
+{{preview-and-fast-release}}
 
 <!--remove legacy and new experience references when we remove the legacy updates in the UI - Jan 2024???-->
 
@@ -41,7 +41,7 @@ exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
 > * Summary panel in timesheets 
 > * Summary panel in the Workload Balancer
 >
-><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
+><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process.</span> 
 
 When someone replies to a comment or a system update on a work object, their reply appears in the communication thread in the Updates section for the object. 
 

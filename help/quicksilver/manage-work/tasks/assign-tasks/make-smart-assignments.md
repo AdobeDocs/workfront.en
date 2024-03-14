@@ -11,9 +11,7 @@ exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
 
 <!--Audited: 02/2024-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>   
-  
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+{{preview-and-fast-release}}
 
 You can use smart assignments to identify who the best user is to complete the work. 
 
