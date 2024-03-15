@@ -11,7 +11,7 @@ feature: Workfront Fusion, Workfront Integrations and Apps
 ---
 # [!DNL Adobe Workfront] Boards modules
 
-![!NOTE]
+>[!NOTE]
 >
 >This connector is currently in Beta.
 
@@ -125,6 +125,12 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
+* [Cards](#cards)
+* [Boards](#boards)
+* [Columns](#columns)
+* [Tags](#tags)
+* [Other](#other)
+
 <!--
 
 ### Watch
@@ -171,6 +177,13 @@ After the webhook is created, you can view the address of the endpoint that even
 -->
 
 ### Cards
+
+* [Add checklist item](#add-checklist-item)
+* [Add subtask](#add-subtask)
+* [Create a card](#create-a-card)
+* [Move a card](#move-a-card)
+* [Read a card](#read-a-card)
+* [Update a card](#update-a-card)
 
 #### Add checklist item
 
@@ -307,6 +320,9 @@ This action module updates information for a card you specify.
 
 ### Boards
 
+* [Create a board](#create-a-board)
+* [Read a board](#read-a-board)
+
 #### Create a board
 
 This action module creates a board in Workfront. You can specify the type of board you want to create.
@@ -376,10 +392,12 @@ This action module creates a new column on the specified board.
 
 ### Tags
 
-#### Add card tag
+* [Add a tag to a card](#add-card-tag)
+* [Create a tag](#create-a-tag)
+
+#### Add a tag to a card
 
 This action module adds a tag to a card.
->>>>>>> Stashed changes
 
 <table style="table-layout:auto">
  <col> 
@@ -436,7 +454,7 @@ This action module creates a new tag and assigns it a color.
 
 #### Make a custom API call
 
-
+This action module makes a custom call to the Workfront Boards API.
 
 <table style="table-layout:auto"> 
  <col> 
