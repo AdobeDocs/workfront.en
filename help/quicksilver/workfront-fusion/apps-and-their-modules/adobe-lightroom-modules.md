@@ -70,7 +70,20 @@ Before you can use the [!DNL Adobe Lightroom] connector, you must ensure that th
 
 ## Adobe Lightroom modules and their fields
 
+When you configure [!DNL Adobe Lightroom] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Adobe Lightroom] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+
+![](assets/map-toggle-350x74.png)
+
+* [Other](#other)
+* [Assets](#assets)
+* [Albums](#albums)
+
 ### Other
+
+* [Health check](#health-check)
+* [Retrieve user catalog metadata](#retrieve-user-catalog-metadata)
 
 #### Health check
 
@@ -113,6 +126,15 @@ This action module retrieves a Lightroom server version ID, proving whether the 
 </table>
 
 ### Assets
+
+* [Create an asset original file](#create-an-asset-external-xmp-develop-setting-file)
+* [Create an asset](#create-an-asset)
+* [Create an asset external XMP develop setting file](#create-an-asset-external-xmp-develop-setting-file)
+* [Generate renditions for an original file](#generate-renditions-for-an-original-file)
+* [Get a catalog asset](#get-a-catalog-asset)
+* [Get the latest asset external XMP develop setting](#get-the-latest-asset-external-xmp-develop-setting-file)
+* [Get the latest asset rendition](#get-the-latest-asset-rendition)
+* [Retrieve assets](#retrieve-assets)
 
 #### Create an asset original file
 
@@ -473,7 +495,15 @@ This action module retrieves assets owned by the by the user whose credentials a
 
 ### Albums
 
-#### Add assets to album
+* [Add assets to an album](#add-assets-to-an-album)
+* [Create an album](#create-an-album)
+* [Delete an album](#delete-an-album)
+* [Get an album](#get-an-album)
+* [List assets of an album](#list-assets-of-an-album)
+* [Retrieve albums](#retrieve-albums)
+* [Update an album](#update-album)
+
+#### Add assets to an album
 
 This action module adds one or more assets to the specified album. You can add up to 50 assets in one execution cycle.
 
@@ -660,7 +690,7 @@ The deleted album must have been created by the same client app that is now dele
   </tbody>
 </table> 
 
-### Get album
+### Get an album
 
 This action module retrieves the specified album
 
