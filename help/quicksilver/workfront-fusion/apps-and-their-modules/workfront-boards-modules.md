@@ -465,23 +465,27 @@ This action module makes a custom call to the Workfront Boards API.
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td> <p>Enter a path relative to<code> https://&lt;WORKFRONT_DOMAIN&gt;/boards-service/</code>.</p> </td> 
+   <td> <p>Enter a path relative to<code> https://&lt;WORKFRONT_DOMAIN&gt;/boards-service/graphql?</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p><p>For most boards calls the method is POST. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>Add the headers of the request in the form of a standard JSON object. This determines the content type of the request.</p> <p>For example,<code> {"Content-type":"application/json"}</code></p>  </td> 
+   <td> <p>Add the headers of the request in the form of a standard JSON object. This determines the content type of the request.</p> <p>For example,<code> { "Content-type":"application/json-stringify()"}</code></p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String]</td> 
-   <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For example: <code>{"name":"something-urgent"}</code></p>  </td> 
+   <td> <p>Add the query for the API call in the form of a standard JSON object.</p> <p>For Workfront Boards, this section is usually left empty.</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+   <td> <p>Add the body content for the API call in the form of a JSON embedded Graphql </p> <p>Example:</p><p>This example updates a column name. You can include the <code>boardId</code> and <code>columnId</code> as GUIDs either hard coded or mapped from a previous module.<p><pre>{
+
+  "query": "mutation { updateColumn(boardId: \"\", columnId: \"\", updateColumnInput: { name: \"\" }) { id name }}"
+
+}</pre><p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
