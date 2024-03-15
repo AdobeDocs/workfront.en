@@ -252,8 +252,8 @@ This action module creates a new card on a Workfront board.
    <td>Enter or map the ID of the board that you want to add a card to.<p>You can find the board ID in the URL when viewing the board in Workfront.</p></td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL column ID]</td> 
-   <td>Enter or map the ID of the column you want to add a subtask to.<p>You can find the column ID in the URL when viewing the column in Workfront.</p></td> 
+   <td>[!UICONTROL Column ID]</td> 
+   <td>Enter or map the ID of the column you want to add a subtask to.<p>You can find the tag ID in the information that is returned from the Read a board module.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Name]</td> 
@@ -348,7 +348,7 @@ This action module creates a board in Workfront. You can specify the type of boa
 
 #### Read a board
 
-This action module returns information about a single board.
+This action module returns information about a single board, such as the board's cards, columns, tags, and members.
 
 <table style="table-layout:auto">
  <col> 
@@ -417,8 +417,7 @@ This action module adds a tag to a card.
   </tr> 
   <tr> 
    <td>[!UICONTROL Tag ID]</td> 
-   <td>Enter or map the ID of the tag you want to add.</td> 
->>>>>>> Stashed changes
+   <td>Enter or map the ID of the tag you want to add.<p>You can find the tag ID in the information that is returned from the Read a board module.</p></td> 
   </tr> 
  </tbody> 
 </table>
