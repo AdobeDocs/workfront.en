@@ -11,13 +11,10 @@ feature: Workfront Fusion, Workfront Integrations and Apps
 ---
 # [!DNL Adobe Workfront] Boards modules
 
-<<<<<<< Updated upstream
-=======
->[!NOTE]
+![!NOTE]
 >
 >This connector is currently in Beta.
 
->>>>>>> Stashed changes
 Adobe Workfront Boards are flexible tools that allow team collaboration by providing access to a shared board that contains columns and cards.
 
 You can use the Adobe Workfront Boards modules to read or update records, make an API call to the Workfront Boards API, or trigger a scenario when an action occurs on a board.
@@ -295,11 +292,7 @@ This action module updates information for a card you specify.
   </tr> 
   <tr> 
    <td>[!UICONTROL Board ID]</td> 
-<<<<<<< Updated upstream
    <td>Enter or map the ID of the board that contains the card you want to update.<p>You can find the card ID in the URL when viewing the card in Workfront.</p></td> 
-=======
-   <td>Enter or map the ID of the board that contains the card you want to update.<p>You can find the board ID in the URL when viewing the board in Workfront.</p></td> 
->>>>>>> Stashed changes
   </tr> 
   <tr> 
    <td>[!UICONTROL Name]</td> 
@@ -316,9 +309,6 @@ This action module updates information for a card you specify.
 
 #### Create a board
 
-<<<<<<< Updated upstream
-This action module creates a basic board in Workfront.
-=======
 This action module creates a board in Workfront. You can specify the type of board you want to create.
 
 <table style="table-layout:auto">
@@ -401,9 +391,6 @@ This action module adds a tag to a card.
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
-<<<<<<< Updated upstream
-   <td>Enter or map a name for the new board.</td> 
-=======
    <td>Enter or map the ID of the card you want to add a tag to.<p>You can find the card ID in the URL when viewing the card in Workfront.</p></td> 
   </tr> 
   <tr> 
@@ -418,20 +405,6 @@ This action module adds a tag to a card.
  </tbody> 
 </table>
 
-<<<<<<< Updated upstream
-#### Read a board
-
-### Columns
-
-#### Create a column
-
-### Tags
-
-#### Add card tag
-
-#### Create a tag 
-
-=======
 #### Create a tag 
 
 This action module creates a new tag and assigns it a color.
@@ -459,7 +432,6 @@ This action module creates a new tag and assigns it a color.
  </tbody> 
 </table>
 
->>>>>>> Stashed changes
 ### Other
 
 #### Make a custom API call
