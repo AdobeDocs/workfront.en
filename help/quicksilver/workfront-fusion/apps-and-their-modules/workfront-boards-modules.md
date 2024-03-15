@@ -266,7 +266,32 @@ This action module creates a new card on a Workfront board.
 
 This action module move a card to a different column on the same board.
 
-
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>You can use an existing Workfront connection to connect to Workfront Boards, or you can use a specific Workfront Boards connection. </p><p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Create a connection to Workfront Boards</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Card ID]</td> 
+   <td>Enter or map the ID of the card you want to move.<p>You can find the card ID in the URL when viewing the card in Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Board ID]</td> 
+   <td>Enter or map the ID of the board that contains the card you want to move.<p>You can find the card ID in the URL when viewing the card in Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Destination column ID]</td> 
+   <td>Enter or map the ID of the column you want to move the card to.<p>You can find the tag ID in the information that is returned from the Read a board module.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL To index]</td> 
+   <td>Enter or map the position that you want the card to have in the new column.<p>The top position in the column in index 0.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### Read a card
 
