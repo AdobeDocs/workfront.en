@@ -11,6 +11,13 @@ feature: Workfront Fusion, Workfront Integrations and Apps
 ---
 # [!DNL Adobe Workfront] Boards modules
 
+<<<<<<< Updated upstream
+=======
+>[!NOTE]
+>
+>This connector is currently in Beta.
+
+>>>>>>> Stashed changes
 Adobe Workfront Boards are flexible tools that allow team collaboration by providing access to a shared board that contains columns and cards.
 
 You can use the Adobe Workfront Boards modules to read or update records, make an API call to the Workfront Boards API, or trigger a scenario when an action occurs on a board.
@@ -288,7 +295,11 @@ This action module updates information for a card you specify.
   </tr> 
   <tr> 
    <td>[!UICONTROL Board ID]</td> 
+<<<<<<< Updated upstream
    <td>Enter or map the ID of the board that contains the card you want to update.<p>You can find the card ID in the URL when viewing the card in Workfront.</p></td> 
+=======
+   <td>Enter or map the ID of the board that contains the card you want to update.<p>You can find the board ID in the URL when viewing the board in Workfront.</p></td> 
+>>>>>>> Stashed changes
   </tr> 
   <tr> 
    <td>[!UICONTROL Name]</td> 
@@ -305,7 +316,80 @@ This action module updates information for a card you specify.
 
 #### Create a board
 
+<<<<<<< Updated upstream
 This action module creates a basic board in Workfront.
+=======
+This action module creates a board in Workfront. You can specify the type of board you want to create.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>You can use an existing Workfront connection to connect to Workfront Boards, or you can use a specific Workfront Boards connection. </p><p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Create a connection to Workfront Boards</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Board name]</td> 
+   <td>Enter or map a name for the new board.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Type]</td> 
+   <td>Select the type of board you want to create.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Read a board
+
+This action module returns information about a single board.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>You can use an existing Workfront connection to connect to Workfront Boards, or you can use a specific Workfront Boards connection. </p><p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Create a connection to Workfront Boards</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Board ID]</td> 
+   <td>Enter or map the ID of the board that you want to retrieve information for.<p>You can find the board ID in the URL when viewing the board in Workfront.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Columns
+
+#### Create a column
+
+This action module creates a new column on the specified board.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>You can use an existing Workfront connection to connect to Workfront Boards, or you can use a specific Workfront Boards connection. </p><p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Create a connection to Workfront Boards</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Board ID]</td> 
+   <td>Enter or map the ID of the board that you want to add a column to.<p>You can find the board ID in the URL when viewing the board in Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Column name]</td> 
+   <td>Enter or map a name for the new column.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Tags
+
+#### Add card tag
+
+This action module adds a tag to a card.
+>>>>>>> Stashed changes
 
 <table style="table-layout:auto">
  <col> 
@@ -317,11 +401,24 @@ This action module creates a basic board in Workfront.
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
+<<<<<<< Updated upstream
    <td>Enter or map a name for the new board.</td> 
+=======
+   <td>Enter or map the ID of the card you want to add a tag to.<p>You can find the card ID in the URL when viewing the card in Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Board ID]</td> 
+   <td>Enter or map the ID of the board that contains the card you want to add a tag to.<p>You can find the board ID in the URL when viewing the board in Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Tag ID]</td> 
+   <td>Enter or map the ID of the tag you want to add.</td> 
+>>>>>>> Stashed changes
   </tr> 
  </tbody> 
 </table>
 
+<<<<<<< Updated upstream
 #### Read a board
 
 ### Columns
@@ -334,6 +431,35 @@ This action module creates a basic board in Workfront.
 
 #### Create a tag 
 
+=======
+#### Create a tag 
+
+This action module creates a new tag and assigns it a color.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>You can use an existing Workfront connection to connect to Workfront Boards, or you can use a specific Workfront Boards connection. </p><p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Create a connection to Workfront Boards</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Board ID]</td> 
+   <td>Enter or map the ID of the board that you want to create a tag for.<p>You can find the board ID in the URL when viewing the board in Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Tag name]</td> 
+   <td>Enter or map the a name for the new tag.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Tag Color]</td> 
+   <td>Select the color for this tag.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+>>>>>>> Stashed changes
 ### Other
 
 #### Make a custom API call
