@@ -6,6 +6,8 @@ title: Generate a module using AI
 description: You can enter a text prompt to create an HTTP module configured to the prompt.
 author: Becky
 feature: Workfront Fusion
+hide: yes
+hidefromtoc: yes
 ---
 # Generate a module using AI 
 

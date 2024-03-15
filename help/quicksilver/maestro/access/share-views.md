@@ -60,6 +60,7 @@ You must have the following access to perform the steps in this article:
   <tr>
    <td role="rowheader"><p>Object permissions</p></td>
    <td> <p>Manage permissions to a view</p>  
+    
 </td>
   </tr>
 
@@ -77,9 +78,9 @@ You can share views you created or views you have Manage permissions to.
 
 >[!NOTE]
 >
->System Administrators cannot view or share views they did not create themselves. They can only access or share views that are shared with them. 
-
-<!--for above note: System administrators can have only Manage permissions to a view.-->
+>System Administrators cannot view or share views they did not create themselves. They can only access or share views that are shared with them.
+>
+>System administrators can have only Manage permissions to a view. 
 
 {{step1-to-maestro}}
 
@@ -87,7 +88,7 @@ You can share views you created or views you have Manage permissions to.
 
    This opens the record type page.
 
-1. From the view drop-down menu <!--tab-->, hover over the view you want to share and click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Share**. 
+1. From the view tab, hover over the view you want to share and click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Share**. 
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
@@ -99,7 +100,20 @@ You can share views you created or views you have Manage permissions to.
     * View
     * Manage
 
-        For information about permission levels and what actions users can perform for each level, see [Overview of sharing permissions in Adobe Maestro](../access/sharing-permissions-overview.md).
+        For information about permission levels and what actions users can perform for each level, see [Overview of sharing permissions in Adobe Workfront planning capabilities](../access/sharing-permissions-overview.md).
+
+        <!--System administrators always receive Manage permissions to views shared with them.--> 
+
 1. Click **Copy link** to copy a link to the view to your clipboard. 
 1. Share the copied link with others. Users who receive the link must be active users and log in to Workfront to be able to access the record type page and display it in the selected view. 
 1. Click **Save**.
+
+## Remove permissions to a view
+
+{{step1-to-maestro}}
+
+1. Open the workspace whose view you want to share, then click a record type card. This opens the record type page.
+1. From the view drop-down menu, hover over the view you want to share and click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Share**.
+1. Find the user or group what you want to remove, then click **Remove** in the permissions drop-down menu to the right of the user's or group's name.
+1. Click **Save**.
+   The user or the users that belong to the group removed no longer have access to the view. There is no notificaiton for the users that that have been removed from accessing the view.

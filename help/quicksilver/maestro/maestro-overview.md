@@ -59,6 +59,7 @@ For information about new features and when they are released, see [Adobe Workfr
 |     Link records                                   |   ✓                           |                                  |                  |
 |     View records in a table                        |   ✓                           |                                  |                  |
 |     View records in a timeline                     |   ✓                           |                                  |                  |
+|     View records in a calendar                     |   ✓                           |                                  |                  |
 |     Filter records                                 |   ✓                           |                                  |                  |
 |     Group records in the timeline view             |   ✓                           |                                  |                  |
 |     Group records in the table view                | ✓                              |                                 |                  |
@@ -209,7 +210,7 @@ The following are the main planning capabilities objects and concepts:
     
     * Two planning capability record types.
     * A planning capability record type and a Workfront project, program, portfolio, company, or group object type. 
-    * A planning capability record type and an Adobe Experience Manager asset, folder, or collection. 
+    * A planning capability record type and an Adobe Experience Manager asset or folder. 
 
         You must have an Adobe Experience Manager license to link record types with Experience Manager objects.
 

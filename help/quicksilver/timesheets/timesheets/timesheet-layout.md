@@ -10,7 +10,7 @@ exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
 ---
 # Timesheet layout overview
 
-{{highlighted-preview}}
+{{preview-and-fast-release}}
 
 <!-- Audited: 12/2023 -->
 
@@ -117,13 +117,9 @@ You can log multiple hour entries for the same work item for different hour type
 
 <div class="preview">
 
-Example in the Preview environment:
 ![Updates area in the left timesheet panel](assets/timesheet-updates-with-all-tab.png)
 
 </div>
-
-Example in the Production environment:
-![Updates area in the left timesheet panel](assets/timesheet-updates-section-unshimmed-redesign.png)
 
 You can make comments on a timesheet to communicate with your timesheet approvers or other users in the Updates section in the left panel of the timesheet.
 
@@ -133,13 +129,9 @@ Any comments made on the timesheet display in this area.
 
 <div class="preview">
 
-Example in the Preview environment:
 ![Summary panel](assets/timesheet-summary-panel-on-updates.png)
 
 </div>
-
-Example in the Production environment:
-![Summary panel](assets/timesheet-summary-panel-for-task-unshimmed-redesign.png)
 
 You can access the Summary panel for tasks or issues displayed in a timesheet. From here, you can comment on tasks and issues, or update their information. For more information, see [Summary overview](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 

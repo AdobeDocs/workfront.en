@@ -26,6 +26,90 @@ The features are released weekly and are listed in the order of their release, w
 >
 >The documentation referenced in the sections below will be available some time after the features are released to Production.
 
+## Week of March 11, 2024
+
+### At-a-glance record details display in the table view
+
+Production: March 14, 2024
+
+Preview: To be determined 
+
+To make it easier to view additional information about records when using the table view, we have introduced a new Details box that displays a quick view of the record's details. The following is some of the information included in this box: 
+
+* Relevant record details at a glance 
+
+* Ability to modify record information 
+
+* A link to open the record's Details page 
+
+For more information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
+
+### New tabbed design for record views 
+
+Production: March 14, 2024 
+
+Preview: To be determined 
+
+For better navigation and ease of use, we have redesigned the display of record views. Now, the views display horizontally, as tabs on the record type page, so you can easily navigate through them. Prior to this enhancement, views displayed in the View drop-down menu.  
+
+Views display chronologically by added date from left to right. Shared  views also display in chronological order of when they were shared.  
+
+For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md).  
+
+### Dynamic design of a record view
+
+Production: March 14, 2024
+Preview: To be determined 
+
+We have updated the look and feel of the views in the record type page. The new views are dynamically responsive and quickly adjust to the size of your screen. The toolbar option labels are hidden on smaller screens to make the toolbar easier to use.  
+
+For more information, see the following articles: 
+* [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md) 
+* [Manage the timeline view](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+
+### Allow System Administrators to manage all shared views 
+
+Production: March 14, 2024
+
+Preview: To be determined 
+
+To be consistent with all other areas of the system and to be able to maintain and control any view available to you as a System Administrator, you now have Manage permissions to any view shared with you in Maestro. Prior to this enhancement, view creators could have given you permissions to View or Manage the view. Now, if the view is shared with you and you are a System Administrator, you will have Manage permissions to the view, by default.  
+
+For more information, see [Share views](/help/quicksilver/maestro/access/share-views.md). 
+
+### Unauthorized page when sharing a view without permissions
+
+ Production: March 14, 2024
+
+Preview: To be determined 
+
+ When a user receives a link to a record type and they have access to the workspace but not to the view shared in the link, a page notifying them that they are not authorized to see the record type displays.  
+
+ For more information, see [Share views](/help/quicksilver/maestro/access/share-views.md). 
+
+
+### New label for System Administrators in sharing dialogs
+
+Production: March 14, 2024
+
+Preview: To be determined 
+
+We now display an "Admin" label next to the system administrator's name in the sharing dialog box when sharing a view or a workspace.  
+
+For information, see [Share permissions overview](/help/quicksilver/maestro/access/sharing-permissions-overview.md).  
+
+### Unauthorized page when sharing a view without permissions
+
+Production: March 14, 2024
+
+Preview: To be determined 
+
+ When a user receives a link to a record type and they have access to the workspace but not to the view shared in the link, a page notifying them that they are not authorized to see the record type displays.  
+
+ You must share views in addition to sharing workspaces for others to access the same record type page that you share with a link.
+
+ For more information, see [Share views](/help/quicksilver/maestro/access/share-views.md). 
+
 ## Week of March 4, 2024
 
 ### Change row height in the table view
@@ -54,70 +138,6 @@ You can now display records in a calendar view. You must have at least two date 
 
 For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). 
 
-<!--
-## Week of March 11, 2024
-
-### At-a-glance record details display in the table view
-
-Production: March 14, 2024
-
-Preview: To be determined 
-
-To make it easier to view additional information about records when using the table view, we have introduced a new panel that displays a quick view of the record's details. The following is some of the information included in this panel: 
-
-* relevant record details at a glance 
-
-* ability to modify record information 
-
-* a link to open the record's Details page 
-
-For more information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
-
-### New tabbed design for record views 
-
-Production: March 14, 2024 
-
-Preview: To be determined 
-
-For better navigation and ease of use, we have redesigned the display of record views. Now, the views display horizontally, as tabs on the record type page, so you can easily navigate through them. Prior to this enhancement, views displayed in the View drop-down menu.  
-
-Views display chronologically by added date from left to right. Shared  views also display in chronological order of when they were shared.  
-
-For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md).  
-
-### Dynamic design of a record view
-
-Production: March 14, 2024
-Preview: To be determined 
-
-We have updated the look and feel of the views in the record type page. The new views are dynamically responsive and quickly adjust to the size of your screen. The toolbar option labels are hidden to make the toolbar easier to use on smaller screens.  
-
-For more information, see the following articles: 
-* [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md) 
-* [Manage the timeline view](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
-
-### Allow System Administrators to manage all shared views 
-
-Production: < date > 
-
-Preview: To be determined 
-
-To be consistent with all other areas of the system and to be able to maintain and control any view available to you as a System Administrator, you now have Manage permissions to any view shared with you in Maestro. Prior to this enhancement, view creators could have given you permissions to View or Manage the view. Now, if the view is shared with you and you are a System Administrator, you will have Manage permissions to the view, by default.  
-
-For more information, see [Share views](/help/quicksilver/maestro/access/share-views.md). 
-
-### Unauthorized page when sharing a view without permissions
-
- Production: < date > 
-
-Preview: To be determined 
-
- When a user receives a link to a record type and they have access to the workspace but not to the view shared in the link, a page notifying them that they are not authorized to see the record type displays.  
-
- For more information, see [Share views](/help/quicksilver/maestro/access/share-views.md). 
-
--->
-
 ## Week of February 26, 2024
 
 ### Filter, sort, and group by connected records or lookup fields
@@ -127,6 +147,8 @@ Production: February 28, 2024
 Preview: To be determined
 
 You can now filter, sort, and group by connected records or their lookup fields. This enhancement will help you efficiently organize and visualize your data in both table and timeline views.
+
+You cannot filter, sort, or group by lookup fields that allow connections with multiple records. 
 
 For information, see [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md) and [Manage the timeline view](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
 
@@ -140,7 +162,7 @@ Preview: To be determined
 
 We have modified permissions levels to take into account users' license types. Prior to this enhancement, there were no differences in workspace permissions based on the license types of the users.  
 
-The following permissions now work in conjunction with the user's license type:  
+The following are the highest levels of permissions that users can receive based on the user's license type:  
 
 * Users with a Plan license (or Standard license, in the new license model) can create and manage workspaces, record types, and records. 
 
@@ -150,7 +172,7 @@ The following permissions now work in conjunction with the user's license type:
 
 For information about the new license model, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
-For information about the connection between license type and permissions in the planning capabilities, see [License type overview in Adobe Maestro](/help/quicksilver/maestro/access/license-type-overview.md).  
+For information about the connection between license type and permissions in the planning capabilities, see [License type overview when using the Adobe Workfront planning capabilities ](/help/quicksilver/maestro/access/license-type-overview.md).  
 
 
 ### New look-and-feel of the Rich-Text toolbar for record fields
@@ -290,7 +312,7 @@ The following are the permissions levels for record views:
 * View: Users can select the view from the View drop-down menu of a record type page.
 * Manage: Users can edit, share, and delete the view. 
 
-For more information, see [Access overview](/help/quicksilver/maestro/access/access-overview.md) and [Overview of sharing permissions in Adobe Maestro](../maestro/access/sharing-permissions-overview.md).
+For more information, see [Access overview](/help/quicksilver/maestro/access/access-overview.md) and [Overview of sharing permissions in Adobe Workfront planning capabilities](../maestro/access/sharing-permissions-overview.md).
 
 ### New Formula field type
 

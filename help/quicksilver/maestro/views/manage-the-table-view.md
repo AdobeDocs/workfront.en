@@ -103,7 +103,7 @@ To manage a table view:
     * [Rows (or records)](#add-rows-or-records)
     * [Filters](#add-filters) 
     * [Grouping](#add-groupings)
-    * [Sort](#sort-information)  
+    * [Sort](#add-a-sort) 
 
 
 ### Add columns (or fields) {#add-columns}
@@ -255,6 +255,8 @@ Consider the following when working with filters in the table view:
 
 * Adding filters to the table view is identical to adding filters to the timeline view. 
 
+* You can filter by connected record fields or lookup fields, but not for those fields that allow linking to multiple records.
+
 To add a filter to a table view: 
 
 1. Create a table view for a record type page, as described in the article [Manage record views](../views/manage-record-views.md). 
@@ -363,6 +365,7 @@ Consider the following:
 * You cannot name the groupings you build for a table view.
 * Removing groupings removes them from anyone accessing the same record type as you and who displays the same view as you do. 
 * You can edit records listed under a grouping. 
+* You can group by connected record fields or lookup fields, but not for those fields that allow linking to multiple records.
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
@@ -416,6 +419,8 @@ Consider the following when sorting records in the table view:
 * Linked fields are sortable only if they allow single values, or if they allow multi-select values with the summarization option selected (sum, average, max, min).
 
 * Removing sorting criteria removes them from anyone accessing the same record type as you and uses the same view as you use.
+
+* You can sort by connected record fields or lookup fields, but not for those fields that allow linking to multiple records.
 
 To sort <!--ungrouped (add this when sorting for groupings will be available--> records, do the following:
 
