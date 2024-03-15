@@ -119,7 +119,9 @@ You can use new or existing fields when designing your custom form.
 * **Paragraph Text Field**: Allows users to type multiple lines of text in the field.
 * **Text Field with Formatting**: Allows users to type multiple lines of text in the field and format the text with bold, italics, underline, bullets, numbering, hyperlinks, and block quotes. A character limit of 15,000 allows for plenty of text and formatting.
 
-    For information about accessing this field through the API, see Rich text field storage in the API.
+    This custom field type is not supported in filters on lists and reports.
+
+    For information about accessing this field through the API, see [Rich text field storage in the API](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
 
     >[!NOTE]
     >
