@@ -66,7 +66,7 @@ You can achieve this in Workfront by configuring the following:
 
 * Develop a process for delivery of services and use Workfront to manage tasks associated with any daily or weekly responsibilities. 
 * Use Resource Management tools to view the allocation of resources to tasks so you can better understand how to improve productivity and quality of delivery.  
-  For more information about Resource Planning, see [Resource Planning in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md)
+  For more information about Resource Planning, see [Resource Planning : article index](../../resource-mgmt/resource-planning/resource-planning-overview.md)
 
 ## Define success criteria
 

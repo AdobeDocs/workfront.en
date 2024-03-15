@@ -11,7 +11,7 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 
 # Updates section overview
 
-{{highlighted-preview}}
+{{preview-and-fast-release}}
 
 <!-- Audited: 1/2024 -->
 
@@ -42,7 +42,7 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 > * Summary panel in timesheets 
 > * Summary panel in the Workload Balancer
 >
-><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment.</span>
+><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process.</span> 
 
 ## Overview of the Updates section
 
@@ -50,13 +50,9 @@ The Updates section of an object shows system updates, and up to 200 of the most
 
 <div class="preview">
 
-Example of the Updates section in the Preview environment:
-  ![Updates section](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
+![Updates section](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
 
 </div>
-
-Example of the Updates section in the Production environment:
-  ![Updates section](assets/updates-tab-after-unified-experience-for-issues.png)
 
 Depending on what objects you access the commenting experience for, you might find the following experience for the Updates section:
 
@@ -98,13 +94,9 @@ Depending on what objects you access the commenting experience for, you might fi
 
 <div class="preview">
 
-Example of the Updates section in the Preview environment:
 ![Updates section](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
 </div>
-
-Example of the Updates section in the Production environment:
-![Updates section](assets/updates-tab-after-unified-experience-for-tasks.png)
 
 >[!NOTE]
 >
@@ -113,15 +105,19 @@ Example of the Updates section in the Production environment:
 * The Updates section displays information in the following tabs in the new commenting experience:
 
   * **Comments**: Displays comments made by users and replies to those comments. Use the Comments tab to add new comments or reply to existing ones. For information about updating objects in the new commenting experience, see [Update work](../updating-work-items-and-viewing-updates/update-work.md).
-  * **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, changes in status, name, or custom fields are captured with system updates. Your Workfront or group administrator can enable system updates for your objects. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+  * **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, changes in status, name, or custom fields are captured with system updates. Your Workfront or group administrator can enable system updates for your objects. <span class="preview">Any replies made to system activity records in the legacy commenting experience are populated on the System Activity tab as read-only.</span> For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
   * <span class="preview">**All (read-only)**: Displays both user comments and system activity comments in one place. This is a view-only tab. You cannot reply to comments or tag other users in existing comments in the All tab. To reply to a specific comment, use the link from the All tab to the Comments tab. For information about updating objects in the new commenting experience, see [Update work](../updating-work-items-and-viewing-updates/update-work.md).</span>
 
-* The following objects don't have a System Activity tab:
+* The following objects don't have a System Activity tab <span class="preview">or an All tab:</span>
 
   * Team
   * Template
   * Template Task
   * Ad-hoc Card
+
+* The following objects don't have an <span class="preview">All tab:</span>
+
+  * Goals
 
     
 ### Overview of the legacy Updates section 

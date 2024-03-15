@@ -104,6 +104,9 @@ If your Production environment is on Cluster 1, 2, 3, 5, or 7 you must allow the
      <li>54.244.142.219</li> 
      <li>52.39.217.230</li> 
      <li>44.241.82.96</li> 
+     <li>54.203.255.135/32</li> 
+     <li>35.155.2.51/32</li> 
+     <li>52.34.192.77/32</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -151,6 +154,9 @@ If your Production environment is on Cluster 4, add the following IP addresses f
 * 52.30.133.50
 * 54.220.93.204
 * 34.254.76.122
+* 34.242.62.80/32
+* 46.51.194.192/32
+* 54.229.129.66/32
 
 For information about the following IP addresses, see [New IP addresses for Adobe Workfront email with the 21.1 release](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
 
