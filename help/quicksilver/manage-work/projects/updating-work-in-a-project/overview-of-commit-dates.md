@@ -10,6 +10,8 @@ exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
 ---
 # Commit Date overview
 
+{{preview-and-fast-release}}
+
 The Commit Date is the date by which an user assigned to task or an issue commits to complete the task or the issue. This is different than the Planned Completion Date, as it is a more realistic estimate of the completion date given only by the user in charge of the work. For information about the Planned Completion Date, see [Overview of the task Planned Completion Date](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
 ## Commit Date overview
@@ -49,7 +51,7 @@ Setting the Commit Date for a task or issue triggers the following changes:
 
 * The Commit Date populates in the Update Stream of the task or issue.
         
-  ![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)
+  <span class="preview">![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)</span>
         
   The change of the Commit Date displays in the Updates area of the task or issue when the Workfront administrator enables this update in the Updates Feeds area in Setup. For information, see [System-tracked updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 

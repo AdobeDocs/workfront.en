@@ -10,6 +10,8 @@ exl-id: d2395569-9fe5-42e7-a392-cff49eb519d9
 ---
 # Project Percent Complete overview
 
+<!-- Audited 01/2024 -->
+
 The Percent Complete value of a project is calculated based on either the Duration or Planned Hours of tasks in the project. Your Adobe Workfront administrator or a group administrator defines which value is taken into account when calculating percent complete in your system when they configure information in the Project Preferences area. 
 
 For information about configuring project preferences, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
@@ -25,10 +27,6 @@ The main tasks are the parent tasks and the standalone tasks which have no child
 >Main tasks are not indented in a project plan.
 
 ## How Workfront calculates Percent Complete
-
-* [Update the Percent Complete on a task](#update-the-percent-complete-on-a-task) 
-* [How Workfront calculates Percent Complete on a parent task](#how-workfront-calculates-percent-complete-on-a-parent-task) 
-* [How Workfront calculates Percent Complete on a project](#how-workfront-calculates-percent-complete-on-a-project)
 
 ### Update the Percent Complete on a task {#update-the-percent-complete-on-a-task}
 

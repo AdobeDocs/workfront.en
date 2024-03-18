@@ -284,7 +284,7 @@ This page provides information about functionality for both Adobe Workfront Clas
 
 ## Workfront Scenario Planner enhancements
 
-Most new features coming to Workfront Scenario Planner release with the 20.4 release. For information about these new features now available in Preview, see [Workfront Scenario Planner with the 20.4 release - October 14, 2020](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-20.4.md).
+Most new features coming to Workfront Scenario Planner release with the 20.4 release. For information about these new features now available in Preview, see [Workfront Scenario Planner with the 20.4 release - October 14, 2020](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-4.md).
 
 ## Workfront Goals enhancements
 

@@ -8,6 +8,8 @@ exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
 ---
 # Working across time zones
 
+<!-- Audited: 2/2024 -->
+
 It can be helpful to understand how [!DNL Adobe Workfront] uses time zones to calculate the following:
 
 * Time fields for objects

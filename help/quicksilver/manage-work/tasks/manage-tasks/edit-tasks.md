@@ -83,6 +83,8 @@ Consider the following when editing tasks:
    * Edit existing expenses
    * Attach a custom form
 
+* Other users must refresh their pages before they can view the updates you make to a task.
+
 ## Edit a task in a list
 
 You can edit task information in a list of tasks, by inline editing fields displayed in the view of the list.

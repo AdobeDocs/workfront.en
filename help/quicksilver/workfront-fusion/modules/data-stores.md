@@ -109,7 +109,7 @@ Before you can use a data store in a module, you must create the data store in [
      </tr> 
      <tr> 
       <td> <p>[!UICONTROL Data storage size in MB]</p> </td> 
-      <td> <p>Allocate the size for the data store from your total internal data storage.</p> <p> The default value is 10 MB. If you have less than 10 MB of unallocated Data Store space from your 500 MB allotment, the default size is the amount of unallocated storage.  <p>Note: The reserved amount can be changed at any time.</p>  </td> 
+      <td> <p>Allocate the size for the data store from your total internal data storage.</p> <p> The default value is 10 MB. If you have less than 10 MB of unallocated Data Store space from your 95 MB allotment, the default size is the amount of unallocated storage.  <p>Note: The reserved amount can be changed at any time.</p>  </td> 
      </tr> 
     </tbody> 
    </table>

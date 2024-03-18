@@ -3,7 +3,7 @@ product-area: projects
 navigation-topic: approvals
 title: Approve a document
 description: If you are assigned as an approver to a document, there are multiple ways you can make your approval decision.
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
 ---

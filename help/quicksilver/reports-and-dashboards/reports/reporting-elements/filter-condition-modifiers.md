@@ -86,7 +86,7 @@ You can use the following condition modifiers in filters and conditional formatt
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>cieq</strong> </p> </td> 
-   <td> <p>This is the <i>case insensitive</i> option of <strong>eq</strong>. It only returns an exact match of the searched value.</p> <p>For example, when searching for a task with a specific name, <code>task name cieq test</code> finds tasks where the name is <code>Test</code>, <code>TEST</code>, or <code>Test</code>, but it does not find a task with the name <code>test 123.</code></p> <p>This modifier can only be used in text mode filters. For more information about text mode in filters, see <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edit a filter using text mode</a>.</p> </td> 
+   <td> <p>This is the <i>case insensitive</i> option of <strong>eq</strong>. It only returns an exact match of the searched value.</p> <p>For example, when searching for a task with a specific name, <code>task name cieq test</code> finds tasks where the name is <code>Test</code>, <code>TEST</code>, or <code>Test</code>, but it does not find a task with the name <code>test 123.</code></p> <p>When searching for a status, the <strong>cieq</strong> modifier is not supported. You should use the case sensitive modifier, <strong>eq</strong>, to search for a status.</p> <p>This modifier can only be used in text mode filters. For more information about text mode in filters, see <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edit a filter using text mode</a>.</p> </td>
   </tr> 
   <tr valign="top"> 
    <td>&nbsp;</td> 

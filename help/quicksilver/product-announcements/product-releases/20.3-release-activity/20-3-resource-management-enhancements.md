@@ -12,7 +12,7 @@ exl-id: a2c34117-e03c-4394-9b81-7c18433531d1
 
 This page describes all Resource Management enhancements made with the 20.3 release to the Production environment. These enhancements were made available in the Production environment the week of August 10, 2020.
 
-For a list of all changes available with the 20.3 release, see [20.3 release overview](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
+For a list of all changes available with the 20.3 release, see [20.3 release overview](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Include hours from issues in the Assigned Work area of the Workload Balancer
 

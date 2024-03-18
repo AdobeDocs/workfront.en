@@ -76,6 +76,8 @@ Consider the following when editing tasks in a list:
 
   For information about configuring when Workfront saves changes you make to tasks in a list, see the [Select a save option when editing tasks in a list](#select-a-save-option-when-editing-tasks-in-a-list) section in this article.
 
+* Other users must refresh their pages before they can view the updates you make to a task. 
+
 ## Select a save option when editing tasks in a list {#select-a-save-option-when-editing-tasks-in-a-list}
 
 You can decide where the changes you make to tasks in a list are saved automatically, as they occur, or if you want to manually save each change.

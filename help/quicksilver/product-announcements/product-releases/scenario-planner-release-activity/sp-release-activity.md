@@ -18,5 +18,5 @@ The following releases were made available for Workfront Scenario Planner:
 * [Adobe Workfront Scenario Planner with the 21.3 release](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md) 
 * [Adobe Workfront Scenario Planner with the 21.2 release](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-2.md) 
 * [Adobe Workfront Scenario Planner with the 21.1 release](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-1.md) 
-* [Workfront Scenario Planner with the 20.4 release - October 14, 2020](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-20.4.md) 
+* [Workfront Scenario Planner with the 20.4 release - October 14, 2020](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-4.md) 
 * [Workfront Scenario Planner with the 20.3 release - August 14, 2020](../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-3.md)

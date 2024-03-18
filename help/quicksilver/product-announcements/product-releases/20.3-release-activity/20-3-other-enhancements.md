@@ -12,7 +12,7 @@ exl-id: 6fef7261-114f-4c26-861e-61a4acb22d40
 
 This page describes all other enhancements made with the 20.3 release to the Production environment. These enhancements were made available in the Production environment the week of August 10, 2020.
 
-For a list of all changes available with the 20.3 release, see [20.3 release overview](../../../product-announcements/product-releases/20.3-release-activity/20.3-release-overview.md).
+For a list of all changes available with the 20.3 release, see [20.3 release overview](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Share a calendar with a private link
 
