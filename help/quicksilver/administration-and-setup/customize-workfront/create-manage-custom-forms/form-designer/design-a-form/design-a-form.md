@@ -409,7 +409,7 @@ To add radio buttons and checkboxes:
 
 +++
 
-To add typeahead date fields:
+To add typeahead and date fields:
 
 1. On the left side of the screen, find one of the following fields and drag it to a section on the canvas.
 
@@ -476,6 +476,25 @@ To add typeahead date fields:
          <td><ul>
     <li>Typeahead</li>
     </ul></td>
+     </tr>
+     <tr>
+      <td role="rowheader">Add Filter</td>
+      <td><p>Add a filter for an object type to limit the objects users can choose when they are using the field. </p> <p>For example, you could limit a field so that user names can be selected only if they meet the following criteria:</p> 
+       <ul> 
+        <li>They belong to a group or groups that you specify</li> 
+        <li>They are associated with a role or job title you specify</li> 
+        <li>They belong to the same group as the person using the field</li> 
+       </ul> <p>You must define the filter for the object type you selected using Text Mode syntax. For information about creating a filter using Text Mode, see <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Edit a filter using text mode</a>.</p>
+       <p><b>NOTE</b>:
+       <ul> 
+        <li>If you are editing an existing custom form, adding a filter to a Typeahead field does not remove any objects (outside the scope of the filter) that users have already added using the field.</li> 
+        <li>This filter is not available on mobile devices. If you use the filter for a Typeahead field, the field will appear on users' mobile devices unaffected by the filter.</li> 
+        </ul></p></td> 
+      <td>
+       <ul>
+       <li>Typeahead</li>
+       </ul>
+      </td>
      </tr>
      <tr> 
       <td role="rowheader">Make a required field</td> 
