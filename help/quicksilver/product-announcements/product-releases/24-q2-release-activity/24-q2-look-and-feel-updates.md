@@ -29,13 +29,5 @@ We have updated the tabs for Forms, Fields, and Sections in the Setup > Custom F
 
 For information, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) and [Create or edit a custom form with the legacy form builder](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
-## Indicator for manually adjusted allocations in the Workload Balancer
 
->[!NOTE]
->
->Preview release: October 12, 2023; Production for fast release: With the 24.2 release (February 15, 2024); Production for quarterly release: With the 24.4 release (April 2024)
-
-To provide more clarity about manual adjustments or contouring in the Workload Balancer, manually adjusted hourly allocations now show a pencil icon.
-
-For more information, see [Manage user allocations in the Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 

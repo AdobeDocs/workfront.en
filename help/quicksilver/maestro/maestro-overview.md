@@ -59,6 +59,7 @@ For information about new features and when they are released, see [Adobe Workfr
 |     Link records                                   |   ✓                           |                                  |                  |
 |     View records in a table                        |   ✓                           |                                  |                  |
 |     View records in a timeline                     |   ✓                           |                                  |                  |
+|     View records in a calendar                     |   ✓                           |                                  |                  |
 |     Filter records                                 |   ✓                           |                                  |                  |
 |     Group records in the timeline view             |   ✓                           |                                  |                  |
 |     Group records in the table view                | ✓                              |                                 |                  |
@@ -209,7 +210,7 @@ The following are the main planning capabilities objects and concepts:
     
     * Two planning capability record types.
     * A planning capability record type and a Workfront project, program, portfolio, company, or group object type. 
-    * A planning capability record type and an Adobe Experience Manager asset, folder, or collection. 
+    * A planning capability record type and an Adobe Experience Manager asset or folder. 
 
         You must have an Adobe Experience Manager license to link record types with Experience Manager objects.
 
@@ -247,7 +248,11 @@ The following are the main planning capabilities objects and concepts:
 
         ![](assets/grouping-applied-in-timeline-view.png)
 
-    For more information, see [Manage record views](../maestro/views/manage-record-views.md).
+    * **Calendar view**: Displays records that have at least two Date-type fields in a calendar format. 
+    ![](assets/calendar-view-example.png)
+
+
+For more information, see [Manage record views](../maestro/views/manage-record-views.md).
 
 
 ## Adobe Workfront planning capabilities object limitations
@@ -289,18 +294,14 @@ To locate the planning capabilities:
     1. Add taxonomies to the new workspaces. 
 
     1. Click the name of a record type to open the record's page. The record page opens in the Table view, by default.
+
+        You can also create a Timeline or a Calendar view. 
     
-    1. Customize the Table view by doing any of the following:
+    1. In the table view, start adding records by adding rows
 
-        * Add more fields to the record type by clicking the **+** icon in the upper right corner. The columns in the view are fields associated with the record type. 
-        * Add records by clicking the **+** icon in the lower-left corner. The rows in the view are unique records of the selected record type. 
-        * Click **Filters** to filter the information you display on the record type page. 
+        Or
 
-    1. Click the name of a record to view more information in the record's Details page. 
-
-    1. Create a Timeline view from the **View** drop-down menu in the upper-right corner of the record type page. 
-
-    1. Customize the timeline view by updating Filters, Groupings, or Settings.  
+        Start adding record fields by adding columns. 
 
 ## Adobe Workfront planning capabilities release activity 
 

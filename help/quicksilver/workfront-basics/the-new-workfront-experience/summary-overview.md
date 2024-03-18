@@ -8,7 +8,7 @@ exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
 ---
 # [!UICONTROL Summary] overview
 
-{{highlighted-preview}}
+{{preview-and-fast-release}}
 
 You can use the [!UICONTROL Summary] panel to review and update work item information directly from a list of tasks issues, documents, or from other areas of [!DNL Adobe Workfront] that display tasks and issues.
 
@@ -115,13 +115,9 @@ You must have the following access to perform the steps in this article:
 
    <div class="preview">
 
-   Example of the Summary panel in the Preview environment:
    ![Summary panel](assets/summary-panel-for-task-new-comments.png)
 
    </div>
-
-   Example of the Summary panel in the Production environment:
-   ![Summary panel](assets/summary-panel-for-task.png)
 
 1. (Optional) To close the [!UICONTROL Summary] panel, do one of the following:
 
@@ -141,7 +137,7 @@ You must have the following access to perform the steps in this article:
 
 Use the progress bar at the top of the [!UICONTROL Summary] to update the percent complete for the task or issue that you've selected. Enter a number or drag the bar to the correct percentage.
 
-![Percent complete in Summary panel](assets/summary-overview-percent-complete.png)
+<span class="preview">![Percent complete in Summary panel](assets/summary-overview-percent-complete.png)</span>
 
 ## [!UICONTROL Updates]
 
@@ -149,13 +145,9 @@ Use the [!UICONTROL Updates] section of the [!UICONTROL Summary] to view recent 
 
 <div class="preview">
 
-Example of Updates in the Preview environment:
 ![Updates section in Summary panel](assets/summary-updates-section.png)
 
 </div>
-
-Example of Updates in the Production environment:
-![Updates section in Summary panel](assets/summary-updates-with-block-quote-350x290.png)
 
 ## [!UICONTROL Documents]
 

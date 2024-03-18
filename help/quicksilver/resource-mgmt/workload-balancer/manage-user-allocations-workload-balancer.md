@@ -79,7 +79,7 @@ The task Planned Hours are distributed equally between all the days within the D
 
 >[!CAUTION]
 >
->The Workload Balancer displays only up to 1000 Planned Hours per work item and up to 1000 days of an item's duration. The allocations in the Workload Balancer display as zero after the 1000 hour or 1000 day limit is reached. We recommend dividing tasks in smaller subtasks to accommodate for a larger number of Planned Hours or for Durations of more than 1000 days.
+>The Workload Balancer displays only up to 1000 Planned Hours per work item per user, and up to 1000 days of an item's duration. The allocations in the Workload Balancer display as zero after the 1000 hour or 1000 day limit is reached. We recommend dividing tasks in smaller subtasks to accommodate a larger number of Planned Hours or for Durations of more than 1000 days.
 
 Consider the following when locating daily, weekly or monthly allocations for tasks or issues in the Workload Balancer:
 

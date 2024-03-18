@@ -23,7 +23,7 @@ hide: yes
 
 You can display records and their fields in a calendar view, from the record type page.
 
-For information about Maestro views and how to manage them, see [Manage record views](../views/manage-record-views.md).
+For information about Adobe Workfront planning capabilities views and how to manage them, see [Manage record views](../views/manage-record-views.md).
 
 ## Access requirements
 
@@ -44,7 +44,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront planning capabilities closed beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -62,7 +62,7 @@ You must have the following access to perform the steps in this article:
   
   <tr>
    <td role="rowheader">Access level configuration</td>
-   <td> <p>There are no access level controls for Maestro </p>  
+   <td> <p>There are no access level controls for Adobe Workfront planning capabilities  </p>  
 </td>
   </tr>
 
@@ -88,11 +88,11 @@ You must have the following access to perform the steps in this article:
 Consider the following: 
 
 * You can create a Calendar view only when you have at least two date fields associated with a record type. When you have one or no date fields associated with a record type, the Calendar view option is dimmed. 
-* The following scenarios:
+* The following scenarios exist:
 
-    * When the Start and End dates have no values the records do not display on the calendar
-    * When the Start or the End dates have no value the record displays as a one-day event
-    * When the Start date is after the End date the record does not display on the calendar.
+    * When both the Start and End dates have no values, the records do not display on the calendar
+    * When the Start or the End dates have no value, the record displays as a one-day event
+    * When the Start date is after the End date, the record does not display on the calendar.
 
 To manage a calendar view: 
 
@@ -101,7 +101,7 @@ To manage a calendar view:
 
     ![](assets/calendar-view-example.png)
 
-    The records associated with the record type you selected display as bars in a calendar.
+    The records associated with the record type you selected display as bars in a calendar. The color of the bars matches the color of the record icon. 
 
 1. Do one of the following to navigate through the calendar:
 

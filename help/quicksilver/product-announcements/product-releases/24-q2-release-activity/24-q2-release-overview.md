@@ -30,6 +30,7 @@ This page provides information about functionality that is included in the Secon
 * [Administrator enhancements](#administrator-enhancements)
 * [Home enhancements](#home-enhancements)
 * [Project enhancements](#project-enhancements)
+* [Resource management enhancements](#resource-management-enhancements)
 * [Update stream and notification enhancements](#update-stream-and-notification-enhancements)
 * [Other enhancements](#other-enhancements)
 
@@ -51,7 +52,23 @@ This page provides information about functionality that is included in the Secon
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">JumpSeat integration now available for new package types</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Companies and users now support advanced custom form fields</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>Advanced custom form features such as External Lookup fields and Workfront native fields are now available when you attach a custom form to a company or a user.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: March 14, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production for customers: With the 24.4 release (April 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">JumpSeat integration now available for new package types</a></p><p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>The existing JumpSeat integration is now available to accounts using one of the new package types (i.e., Select, Prime, or Ultimate). You must still have an active JumpSeat subscription to enable the integration.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -70,7 +87,7 @@ This page provides information about functionality that is included in the Secon
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront native fields are available in the form designer beta</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront native fields are available in the form designer beta</a></p><p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>Fields native to Workfront are now available for you to add to your custom forms. This new field type allows you to organize and present data to your users in a logical way, without having to re-create existing data in custom fields.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -162,6 +179,39 @@ This page provides information about functionality that is included in the Secon
            </tbody>
         </table>
 
+### Integration enhancements
+
+<table>
+    <col style="width: 50%;" />
+    <col style="width: 50%;" />
+    <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Enhancements to automated folder creation workflow in the Adobe Experience Manager integration</a></p><p>[!BADGE In production ]{type=Informative}</p><p>To ensure that your Adobe Experience Manager folders more accurately reflect your needs, we've added nested folder trees to the Adobe Experience Manager linked folders workflow.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: March 11, 2024</p>
+                            </li>
+                             <li> <p><span class="preview">Production release for all customers: March 14, 2024</span></p>
+                             </li>
+                        </ul>
+                    </td>
+                 </tr>          
+            </tbody>
+</table>
+
 ### Project enhancements
 
 <table>
@@ -180,7 +230,8 @@ This page provides information about functionality that is included in the Secon
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">More relevant assignments added to the New Task workflow</a></p><p>We have added the same functionality for more relevant smart assignments to the Assignments field in the New Task box when adding a task to a project and in a project task list.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">More relevant assignments added to the New Task workflow</a></p><p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>We have added the same functionality for more relevant smart assignments to the Assignments field in the New Task box when adding a task to a project and in a project task list.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -198,7 +249,8 @@ This page provides information about functionality that is included in the Secon
                  </tr>
                  <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">More relevant smart assignments</a></p><p>We have changed the algorithm that Workfront uses to calculate and suggest smart assignments for tasks. The new algorithm applies in the following areas in Workfront where you assign a task: task lists, the Assignments area in the task header, Home, and the Summary panel.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">More relevant smart assignments</a></p><p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>We have changed the algorithm that Workfront uses to calculate and suggest smart assignments for tasks. The new algorithm applies in the following areas in Workfront where you assign a task: task lists, the Assignments area in the task header, Home, and the Summary panel.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -207,6 +259,43 @@ This page provides information about functionality that is included in the Secon
                             </li>
                             <li>
                                 <p>Production for fast release: With the 24.3 release (March 14, 2024)</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 24.4 release (April 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+           </tbody>
+        </table>
+
+### Resource management enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                 </tr>
+                 <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Indicator for manually adjusted allocations in the Workload Balancer</a></p><p>[!BADGE In production for Fast Release ]{type=Positive}</p><p>To provide more clarity about manual adjustments or contouring in the Workload Balancer, manually adjusted hourly allocations now show a pencil icon.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: October 12, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 24.2 release (February 15, 2024)</p>
                             </li>
                             <li>
                                 <p>Production for quarterly release: With the 24.4 release (April 2024)</p>
@@ -235,7 +324,7 @@ This page provides information about functionality that is included in the Secon
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">New commenting stream now available in quick actions for new Home widgets</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">New commenting stream now available in quick actions for new Home widgets</a></p><p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>We have now added the new commenting functionality to the "Add new update" quick action button in the My Work, My Projects, My Tasks, and My Issues widgets in new Home.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -254,7 +343,8 @@ This page provides information about functionality that is included in the Secon
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Additional commenter information available in the new commenting experience</a></p><p>We have made the following enhancements in the new commenting experience:</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Additional commenter information available in the new commenting experience</a></p><p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>We have made the following enhancements in the new commenting experience:</p>
                         <ul>
                             <li>
                                 <p>You can click a commenter's name to see their name, role, and email address in an information box. This information can help you identify the correct user, if you have more than one user with the same name. When you click the commenter's name in the information box, their user profile opens.</p>
@@ -280,7 +370,8 @@ This page provides information about functionality that is included in the Secon
                 </tr>  
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">System Activity tab on the new commenting experience supports read-only comments</a></p><p>Comments made on the system activity records in the legacy commenting experience are now populated on the System Activity tab in the new commenting experience as read-only. You cannot reply to system activity records in the new commenting experience.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">System Activity tab on the new commenting experience supports read-only comments</a></p><p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>Comments made on the system activity records in the legacy commenting experience are now populated on the System Activity tab in the new commenting experience as read-only. You cannot reply to system activity records in the new commenting experience.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -298,7 +389,8 @@ This page provides information about functionality that is included in the Secon
                 </tr> 
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">New update stream tab to capture both comments and system activity entries</a></p><p>To give you a chronologically cohesive view of both comments and system activity logs, we are introducing a third tab to the Updates area of all objects. The "All" tab captures both user comments and system activity comments in one cohesive stream.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">New update stream tab to capture both comments and system activity entries</a></p><p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>To give you a chronologically cohesive view of both comments and system activity logs, we are introducing a third tab to the Updates area of all objects. The "All" tab captures both user comments and system activity comments in one cohesive stream.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -316,7 +408,8 @@ This page provides information about functionality that is included in the Secon
                 </tr>                
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">New commenting stream now available in the Summary panel</a></p><p>We have now added the new commenting functionality to the Summary panel for task and issue lists.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">New commenting stream now available in the Summary panel</a></p><p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>We have now added the new commenting functionality to the Summary panel for task and issue lists.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -353,7 +446,8 @@ This page provides information about functionality that is included in the Secon
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the Second Quarter 2024 timeframe</a></p><p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Second Quarter 2024 timeframe. Review the individual release notes for specific release dates.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md" class="MCXref xref" xrefformat="{para}">Look-and-feel updates during the Second Quarter 2024 timeframe</a></p>
+                        <p>Minor updates to the look and feel of various areas of the Adobe Workfront application are being made within the Second Quarter 2024 timeframe. Review the individual release notes for specific release dates.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -375,7 +469,7 @@ This page provides information about functionality that is included in the Secon
 
 ### Workfront Fusion enhancements
 
-There are no Workfront Fusion updates at this point in the release. This area will be updated when updates are available.
+New features in Workfront Fusion are available in Production at a cadence outside of the First Quarter 2023 release schedule. For more information about the latest features, see [Adobe Workfront Fusion release activity](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
 ### Workfront Scenario Planner enhancements
 

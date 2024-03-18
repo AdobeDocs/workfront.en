@@ -17,7 +17,9 @@ feature-set: Workfront
       * [2024 Q2 Release Overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
       * [2024 Q2 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md)
       * [2024 Q2 Home enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md)
+      * [2024 Q2 Integration enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md)
       * [2024 Q2 Project enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md)
+      * [2024 Q2 Resource management enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-resource-mgmt-enhancements.md)
       * [2024 Q2 Update stream enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md)
       * [Look-and-feel updates during the 2024 Q2 release timeframe](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-look-and-feel-updates.md)
     * 2024 Q1 Release {#release-24-q1}
@@ -144,6 +146,7 @@ feature-set: Workfront
       * [21.1 Mobile enhancements](product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md)
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
+      * [Workfront Fusion release activity: Week of March 11, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-3-14)
       * [Workfront Fusion release activity: Week of February 26, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-2-26.md)
       * [Workfront Fusion release activity: Week of February 5, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-2-5.md)
       * [Workfront Fusion release activity: Week of November 27, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-30.md)
@@ -388,6 +391,7 @@ feature-set: Workfront
   * Beta programs {#beta}
     * [Beta programs](product-announcements/betas/betas.md)
     * Canvas Dashboards beta {#canvas-dashboards-beta}
+      * [Canvas Dashboards beta information](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md)
       * [Reporting Canvas beta overview](product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md)
       * [Canvas Dashboards beta: release activity](product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
     * New commenting experience beta {#new-commenting-experience-beta}
@@ -456,7 +460,10 @@ feature-set: Workfront
       * [Testing environments](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-testing-environments.md)
       * [Preview Sandbox environment](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
       * [Custom Refresh Sandbox environment](administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
-      * [Move objects from one [!DNL Workfront] environment to another](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
+      * [Environment promotion overview](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
+      * [Create or edit an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
+      * [Install an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
+      * [Environment promotion using the API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
   * User management {#add-users}
     * [User management: article index](administration-and-setup/add-users/add-users.md)
     * Create and manage users {#create-manage-users}
@@ -2037,8 +2044,8 @@ feature-set: Workfront
   * Adobe Maestro access {#adobe-maestro-access}
     * [Access information](maestro/access/access-information.md)
     * [Access overview](maestro/access/access-overview.md)
-    * [Overview of sharing permissions in Adobe Maestro](maestro/access/sharing-permissions-overview.md)
-    * [License type overview in Adobe Maestro](maestro/access/license-type-overview.md)
+    * [Overview of sharing permissions in Adobe Workfront planning capabilities](maestro/access/sharing-permissions-overview.md)
+    * [License type overview when using the Adobe Workfront planning capabilities ](maestro/access/license-type-overview.md)
     * [Share workspaces](maestro/access/share-workspaces.md)
     * [Share views](maestro/access/share-views.md)
   * Adobe Maestro records {#adobe-maestro-records}
@@ -2173,6 +2180,7 @@ feature-set: Workfront
     * [Apps and their modules](workfront-fusion/apps-and-their-modules/apps-and-their-modules.md)
     * [Adobe Workfront modules](workfront-fusion/apps-and-their-modules/workfront-modules.md)
     * [Workfront Proof modules](workfront-fusion/apps-and-their-modules/workfront-proof-modules.md)
+    * [[!DNL Workfront Boards] modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-boards-modules.md) 
     * [Adobe Authenticator module](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md)
     * [Adobe Acrobat Sign modules](workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
     * [Adobe Creative Cloud Libraries modules](workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)

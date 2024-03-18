@@ -1110,3 +1110,4 @@ To deactivate a template:
 1. (Optional) To activate the template, click the **More** ![](assets/qs-more-icon-on-an-object.png) menu next to the template name, then click **Activate**. 
 
    The template is now active and can be attached to projects or used to create projects. 
+   

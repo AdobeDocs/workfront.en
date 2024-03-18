@@ -11,6 +11,7 @@ exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
 
 <!-- Audited: 1/2024 -->
 
+
 >[!IMPORTANT]
 >
 >This functionality is available only to organization that have been onboarded to the [!DNL Adobe Admin Console].
@@ -235,7 +236,7 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 
 A workflow is a set of actions that connect Workfront to Adobe Experience Manager as a Cloud Service. As a Workfront administrator, you can configure workflows in Workfront, then assign them to Project Templates. When a Project is created using a Project Template to which a workflow is assigned, the actions defined in the workflow are triggered. 
 
-The default workflow values that you set in the integration can be overridden at the Project Template and Project levels.
+Workflows are enabled and configured for the Adobe Experience Manager as a whole. These workflows can then be applied to project templates, and adjusted or customized at the template or project level.
 
 The followings workflows are available in the Adobe Experience Manager integration:
 
@@ -245,10 +246,38 @@ The followings workflows are available in the Adobe Experience Manager integrati
 ### Create Adobe Experience Manager linked folders
 
 1. Toggle the **[!UICONTROL Create Linked folder]** on.
-1. Choose a folder path to indicate where you want all linked folders associated with this integration. 
-   ![Linked folder navigation](assets/select-folder-aem-integration.png)
-1. Enable the **[!UICONTROL Append Portfolio and Program Names]** option to automatically include Portfolio and Program names at the end of the linked folder's name.
-1. Click **[!UICONTROL Save]** or move on to the [Publish assets that are sent to Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) section in this article.
+1. Enter a name for the linked folder that you are creating. 
+1. (Conditional) Enable the **Default folder tree** option if you want this linked folder to be the default folder for projects created with templates that use this integration. You can select one or more default folders. 
+1. Choose a folder path to indicate where you want all linked folders associated with this integration.
+1. (Conditional) To add a folder tree (nested folders) to this integration, do the following:
+
+   1. Click the **Add folder** icon ![Add folder](assets/add-folder-aem.png).
+   1. In the **Name type** field, select how you want to name the folder:
+
+      * **Name**: Type in a name for the folder.
+      * **Object data**: Select the source for the folder name, such as Project name.
+
+      >[!NOTE]
+      >
+      >* Folder names must be fewer than 100 characters.
+      >* The following characters will be removed from folder names:
+      >
+      >   `/`, `:`, `[`, `]`, `|`, `*`
+
+   1. To add a nested folder to the folder tree, click the three-dot menu next to the folder you want to create a nested folder in and select **Add Folder**. Fill in the fields as described in Step the previous step.
+   1. To link a folder to Workfront, select the folder and click the **Make linked folder**   icon ![Link folder](assets/link-folder.png).
+   1. (Optional) To edit a folder, select the folder and click the **Edit Folder** icon ![Edit icon](assets/edit-icon.png).
+   1. (Optional) To delete a folder, select the folder and click the **Delete Folder** icon ![Delete folder](assets/delete-folder.png).
+1. (Conditional) To add another folder tree, click **+ Add folder tree** and follow the steps in Step 5.
+
+1. Click **[!UICONTROL Save]**, or move on to the [Publish assets that are sent to Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) section in this article.
+
+>[!NOTE]
+>
+>* This integration will create no more than 100 folders, regardless of how many folder trees are created. For example, an integration with 4 folder trees can create up to 100 folders, not 400 folders.
+>* The first folder in folder tree is automatically marked as linked to Workfront. If you do not want this folder linked, you can unlink it.
+>* If no folder tree is provided, the root folder becomes the linked folder.
+
 
 ### Publish assets that are sent to Adobe Experience Manager Assets
 

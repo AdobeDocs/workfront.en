@@ -72,7 +72,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Specify a name for the new template in the template header, then press **Enter.**
 1. Click the **Template Tasks** section in the left panel. 
-1. Click**Start Adding Template Tasks**.
+1. Click **Start Adding Template Tasks**.
 
    Or
 

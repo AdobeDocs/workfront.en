@@ -9,7 +9,7 @@ exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
 ---
 # Tag others on updates
 
-{{highlighted-preview}}
+{{preview-and-fast-release}}
 
 <!--take new commenting and legacy commenting out when we remove the legacy commenting and the new one is the only experience-->
 
@@ -39,7 +39,7 @@ exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
 > * Summary panel in timesheets 
 > * Summary panel in the Workload Balancer
 >
-><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment.</span>
+><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process.</span>
 
 You can tag users when making an update to an object if you want to draw their attention to an object they might otherwise not follow. 
 
@@ -127,13 +127,9 @@ You can also remove users who are tagged by mistake when you edit or reply to a 
 
       <div class="preview">   
 
-      Example of tagging in the Preview environment:
       ![Tag a user](assets/tag-others-unified-commenting-with-all-tab.png)
 
       </div>
-
-      Example of tagging in the Production environment:
-      ![](assets/tag-others-unified-commenting.png)
 
 1. (Optional) To make the update private, enable **Private to my company** in the lower-right corner of the update box. This makes the update visible just to users in your company. The **Private to my company** option is available only when a Company is specified in your Workfront profile. 
 
@@ -155,7 +151,7 @@ You can also remove users who are tagged by mistake when you edit or reply to a 
 
    ![](assets/members-icons-expanded-unshimmed.png)
 
-   <span class="preview">When you are tagged in the comment text, your user name is highlighted in those comments.</span>
+   <span class="preview">When you are tagged in the comment text, your name is highlighted in those comments.</span>
 
    For information about the additional functionality that is available when updating a work item, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
