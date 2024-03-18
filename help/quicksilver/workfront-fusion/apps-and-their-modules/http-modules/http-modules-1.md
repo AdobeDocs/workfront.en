@@ -21,6 +21,12 @@ The HTTP app provides various modules for communication based on Hypertext Trans
 
 The right choice of the module depends on the authentication/ authorization mechanism that the resource you want to access employs. 
 
+>[!NOTE]
+>
+>If you are connecting to an Adobe product that does not currently have a dedicated connector, we recommend using the Adobe Authenticator module.
+>
+>For more information, see [Adobe Authenticator module](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
+
 See the following articles for specific module instructions:
 
 * [HTTP >[!UICONTROL Make a request] module](../../../workfront-fusion/apps-and-their-modules/http-modules/http-module-make-a-request.md)

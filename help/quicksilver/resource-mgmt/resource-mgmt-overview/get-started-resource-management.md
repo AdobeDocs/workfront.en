@@ -30,7 +30,7 @@ Workfront has several sets of tools used to manage resources. Each tool has an i
 
    * **The Resource Planner**: You can use the Resource Planner in the first stage of resource management to budget project time for your resources according to their scheduled availability. During the planning of resources phase, you can organize users in resource pools and assign multiple resource pools to a project.
    
-      For more information about Resource Planning, see [Resource Planning in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md).
+      For more information about Resource Planning, see [Resource Planning: article index](../../resource-mgmt/resource-planning/resource-planning-overview.md).
 
    * **The Scenario Planner**: This is a higher-level planning of resources that allows you to manage them across multiple initiatives that can span over a one, three, or five year plan and include multiple projects. You can use the best scenario for making the most out of their availability and your budget.
 
@@ -112,7 +112,7 @@ The process of managing resources in Workfront includes the following stages:
 
   For more information about resource planning and assigning work, see the following sections:
 
-   * [Resource Planning in Adobe Workfront](../../resource-mgmt/resource-planning/resource-planning-overview.md)
+   * [Resource Planning: article index](../../resource-mgmt/resource-planning/resource-planning-overview.md)
    * [Adobe Workfront Scenario Planner](../../scenario-planner/scenario-planning.md)
    * [The Workload Balancer: article index](../../resource-mgmt/workload-balancer/workload-balancer.md)
 

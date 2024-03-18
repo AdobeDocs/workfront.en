@@ -9,6 +9,8 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 ---
 # Update work
 
+{{preview-and-fast-release}}
+
 <!-- Audited: 1/2024 -->
 
 <!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
@@ -39,6 +41,8 @@ After the monthly releases to Production, the same features are also available i
 > * Summary panel in lists
 > * Summary panel in timesheets 
 > * Summary panel in the Workload Balancer
+>
+><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span> 
 
 <!-- with October 26 release: add somewhere this, and decide where we need to keep information about the legacy commenting. Should we create an article about iterations comments like we have for goals and cards?!:
 
@@ -227,11 +231,17 @@ You can add updates to the following objects:
 1. Click  **Updates** in the left panel. 
 1. (Conditional) If the **New commenting** option is disabled, click to enable it. 
 
-   This enables the new commenting experience. The **Comments** tab is selected by default. 
-1. Start entering a comment in the **New comment** box. 
-   
-   ![](assets/comment-box-empty-unshimmed.png)
+   This enables the new commenting experience. The **Comments** tab is selected by default.
 
+1. Start entering a comment in the **New comment** box.
+   
+   <div class="preview">
+
+   ![New comment box](assets/comment-box-all-tabs.png)
+
+   </div>
+
+   
    >[!TIP]
    >
    >Navigating away from the Updates section before you finish typing and submitting a comment keeps the comment on the page in draft mode even after you log off and log back on. Any images that are added to the comment are also saved in the draft. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.
@@ -296,13 +306,20 @@ You can add updates to the following objects:
    >
    >The names of the first two tagged entities display next to their avatars. If more than two entities are tagged only the name of the first one and the number of additional entities display.
    
+1. <span class="preview"> (Optional) Click a commenter's name to see their name, role, and email address in an information box. Click the commenter's name again in the information box to open their user profile.</span>
 1. (Optional) Click the **System Activity** tab to view updates logged by the system. When the object or any of its children are updated, Workfront generates a note about that update and displays it in the System Activity tab. 
 
-   For more information see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md)
+   For more information, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
    >[!TIP]
    >
-   >You cannot add a comment to a system update.
+   >You cannot add a comment to a system update. <span class="preview">However, any replies made to system activity records in the legacy commenting experience are populated on the System Activity tab as read-only.</span>
+
+1. <span class="preview">(Optional) Click the **All** tab to view both user comments and system activity comments in one place. This is a view-only tab.</span>
+
+   >[!TIP]
+   >
+   ><span class="preview">You cannot reply to comments or tag other users in existing comments in the All tab. To reply to a comment in the All tab, click **Reply in Comments** to open the comment in the Comments tab.</span>
 
 ## Use Rich Text in a Workfront update{#use-rich-text-in-a-workfront-update} 
 
@@ -416,9 +433,13 @@ You can search for a comment or a reply in the Updates section of an object.
 
       >[!NOTE]
       >
-      >   You can search only for words that belong to the text of a comment or reply. You cannot search for names of users or teams tagged in an update.    
+      >You can search only for words that belong to the text of a comment or reply. You cannot search for names of users or teams tagged in an update.
 
-      ![](assets/search-field-in-updates-tab.png)
+      <div class="preview">
+
+      ![Search in updates](assets/updates-all-tabs-with-search-field.png)
+
+      </div>
 
       The keyword <!--or user--> you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
    

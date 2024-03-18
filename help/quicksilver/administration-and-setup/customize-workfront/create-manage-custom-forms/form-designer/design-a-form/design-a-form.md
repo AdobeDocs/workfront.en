@@ -3,13 +3,19 @@ title: Design a form with the form designer
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: You can design a custom form with the form designer.
-author: Courtney
+description: You can design a custom form with the form designer. You can attach custom forms to different Workfront objects to capture data about those objects.
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 ---
 # Design a form with the form designer
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 You can design a custom form with the form designer. You can attach custom forms to different Workfront objects to capture data about those objects.
 
@@ -22,28 +28,28 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront plan</p> </td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td>
-   <p>New plan: Standard</p>
+   <p>New: Standard</p>
    <p>or</p>
-   <p>Current plan: Plan</p></td> 
+   <p>Current: Plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Administrative access to custom forms</p> <p>For information about how Workfront administrators grants this access, see <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Administrative access to custom forms</p> </td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Start designing a custom form
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **Custom Forms** in the left panel.
 
@@ -74,7 +80,9 @@ You must have the following to perform the steps in this article:
     * [Add calculated fields](#add-calculated-fields)
     * [Add radio buttons, checkbox group, and dropdowns](#add-radio-buttons-checkboxes-and-dropdowns)
     * [Add typeahead and date fields](#add-typeahead-and-date-fields)
+    * [Add external lookup fields](#add-external-lookup-fields)
     * [Add images, PDFs, and Videos](#add-images-pdfs-and-videos)
+    * [Add Workfront native fields](#add-workfront-native-fields)
     * [Add Adobe XD files](#add-adobe-xd-files)
 
 ## Add new or existing fields to your custom form
@@ -111,7 +119,9 @@ You can use new or existing fields when designing your custom form.
 * **Paragraph Text Field**: Allows users to type multiple lines of text in the field.
 * **Text Field with Formatting**: Allows users to type multiple lines of text in the field and format the text with bold, italics, underline, bullets, numbering, hyperlinks, and block quotes. A character limit of 15,000 allows for plenty of text and formatting.
 
-    For information about accessing this field through the API, see Rich text field storage in the API.
+    This custom field type is not supported in filters on lists and reports.
+
+    For information about accessing this field through the API, see [Rich text field storage in the API](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
 
     >[!NOTE]
     >
@@ -194,6 +204,7 @@ To add a text field:
     <ul> 
     <li>This field cannot be edited after the form is saved. If you intend to use your field in mathematical calculations, ensure that you select a Number or Currency format.</li> 
     <li>When you select Number or Currency, the system automatically truncates numbers that start with 0.</li>
+    <li>The character limit for Number fields is 16. You can also use a Text field to enter numbers and avoid the limit.</li>
      </ul></p></td> </td>
     <td><ul>
     <li>Single line text</li>
@@ -311,6 +322,7 @@ To add radio buttons and checkboxes:
      <ul> 
     <li>This field cannot be edited after the form is saved. If you intend to use your field in mathematical calculations, ensure that you select a Number or Currency format.<br></li> 
     <li>When you select Number or Currency, the system automatically truncates numbers that start with 0.</li>
+    <li>The character limit for Number fields is 16. You can also use a Text field to enter numbers and avoid the limit.</li>
      </ul></p></td> 
      <td><ul>
     <li>Radio buttons</li>
@@ -494,9 +506,13 @@ To add typeahead date fields:
 
 An external lookup field calls an external API and returns values as options in a dropdown field. Users who work with the object the custom form is attached to can select one or more of these options from the dropdown. The external lookup field is also available in lists and reports.
 
+For examples of using the External Lookup field to call the same instance of Workfront or a public API, see [Examples of the External Lookup field in a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
+
 >[!NOTE]
 >
 >External lookup functionality is not available on Document or User objects.
+>
+>External lookup fields from custom forms are currently not supported in dashboards. You cannot edit the field value inline, and it may not display properly in a dashboard.
 
 To add an external lookup:
 
@@ -529,7 +545,9 @@ To add an external lookup:
       <td><p>Select the type of data that will be captured in the custom field.</p>
       <p><strong>NOTE:</strong></p>
       <ul><li>You can change the format type after the form is saved, with one limitation: All existing values on objects must be able to be converted to the new type. (For example, if the format type is Text, and an object is storing the value "abc," you cannot convert the field and will get an error that the system cannot convert "abc" to number/currency.) If you intend to use your field in mathematical calculations, ensure that you select a Number or Currency format.</li>
-      <li>When you select Number or Currency, the system automatically truncates numbers that start with 0.</li></ul></td>
+      <li>When you select Number or Currency, the system automatically truncates numbers that start with 0.</li>
+      <li>The character limit for Number fields is 16. You can also use a Text field to enter numbers and avoid the limit.</li>
+      </ul></td>
      </tr> 
      <tr> 
       <td role="rowheader">Base API URL</td> 
@@ -638,7 +656,7 @@ The Workfront Mobile app -->
      </tr> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td> <p>(Required) This name is how the system identifies the widget.</p> <p>When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p> <p><b>IMPORTANT</b>: Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in widget. If you do, the system will no longer recognize the widget where it might now be referenced in other areas of Workfront. </p> <p>Each widget name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form. </p> </td> 
+      <td> <p>(Required) This name is how the system identifies the widget.</p> <p>When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p> <p><b>IMPORTANT</b>: Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the widget where it might now be referenced in other areas of Workfront. </p> <p>Each widget name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -677,7 +695,7 @@ The Workfront Mobile app -->
 
     Click **Save and Close**. 
 
-#### **Add a video widget to a custom form from the Documents area**{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
+#### Add a video widget to a custom form from the Documents area{#add-a-video-widget-to-a-custom-form-from-the-documents-area}
 
 >[!IMPORTANT]
 >
@@ -691,7 +709,56 @@ The Workfront Mobile app -->
 
     or
 
-    Click **Save and Close**. 
+    Click **Save and Close**.
+
+<div class="preview">
+
+### Add Workfront native fields
+
+You can add Workfront native fields to your custom forms. When the custom form is attached to an object, the field is populated from the object data. For example, the Description field on a custom form attached to a project will pull in the project description. (The field may show "N/A" if no data is available.)
+
+1. On the left side of the screen, find **Native field** and drag it to a section on the canvas.
+1. On the right side of the screen, configure the options for the custom field:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Label</td> 
+      <td> <p>(Required) Type a descriptive label to display above the field. You can change the label at any time.</p> <p><b>IMPORTANT</b>: Avoid using special characters in this label. They don't display correctly in reports.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Name</td> 
+      <td> <p>(Required) This name is how the system identifies the field.</p><p> When you are configuring the field for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p>
+      <p><b>IMPORTANT</b>:
+      <ul> 
+      <li>Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the field where it might now be referenced in other areas of Workfront.</p> </li>
+      <li> <p>Each field name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form.</p> </li>
+      <li><p>We recommend that you do not use the period/dot character in the custom field name, to prevent errors when using the field in different areas of Workfront.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Instructions</td> 
+      <td> <p>Type any additional information about the field. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Reference Field</td> 
+      <td><p>(Required) Select a Workfront native field.<p><p>Only native fields for the form's objects are available. For example, if the Object Types list at the top of the form designer shows Project, you will be able to select native fields for projects but not fields that are specific to tasks.</p></td>
+     </tr>
+     <tr> 
+      <td role="rowheader">Size</td> 
+      <td>(Optional) Change the display size of the field as needed.</td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. To save your changes, click **Apply** and move on to another section to continue building your form.
+
+    or
+
+    Click **Save and Close**.
+
+</div>
 
 ### Add Adobe XD files
 

@@ -71,11 +71,30 @@ To do this:
     >    Linked record fields are preceded by the relationship icon ![](assets/relationship-field-icon.png). 
 
 1. From the **Campaign** record type table view, create a campaign by adding a new row in the Campaign record type page's table. 
-1. Click the **+** icon inside the  **Product information** column of the new campaign. The **Connect objects** box displays. The name of the record type that you are linking to (Product) displays in the upper-left corner of the box.
 
-    ![](assets/connect-objects-box-to-select-other-maestro-records-example-for-product-record.png)
+1. Double-click inside the  **Product information** column of the new campaign. 
 
-1. Select the Product records you want to connect with the Campaign records, then click **Connect objects**.
+    ![](assets/connect-other-records-smaller-box-in-table-view.png)
+
+1. Do one of the following:
+
+    * Click a connected product's name from the list to add it to the selected record. The product is added automatically.
+    * Start typing the name of a product and click it when it displays in the list. The product is added automatically. 
+    * Click **See all** to display all products. 
+
+1. (Conditional) If you clicked **Select all** in the previous step, the **Connect objects** box displays. 
+
+    ![](assets/connected-objects-table-for-records.png)
+
+1. Start typing the name of a product in the search box, then select it when it displays in the list
+
+    Or
+
+    Select the Product records you want to connect with the Campaign records, then click **Connect objects**.
+
+    >[!TIP]
+    >
+    >    You can open a Campaign's Details page, find the linked record field and click the **+** icon in the field to add products from the connected Product record type. 
 
     The following columns are populated in the Campaign record type table: 
     * The **Product information** field populates for the Campaign record with the selected Products. 
@@ -135,13 +154,32 @@ To do this:
     >    Linked object fields are preceded by the relationship icon ![](assets/relationship-field-icon.png). 
 
 1. From the **Campaign** record type table view, create a campaign by adding a new row in the table. 
-1. Click the **+** icon inside the  **Project information** column of the new campaign. The **Connect objects** box displays. The name of the object type that you are linking to (Workfront Project) displays in the upper-left corner of the box.
 
-    ![](assets/connect-objects-box-to-select-projects.png)
+1. Double-click inside the  **Project information** column of the new campaign. 
 
-1. Select the project or projects you want to connect with the Campaign records, then click **Connect objects**.
+    ![](assets/connect-projects-smaller-box-in-table.png)
 
-    The following are added to the selected workspace: 
+1. Do one of the following:
+
+    * Click a project's name from the list to add it to the selected record. The project is added automatically.
+    * Start typing the name of a project and click it when it displays in the list. The project is added automatically. 
+    * Click **See all** to display all projects. 
+
+1. (Conditional) If you clicked **Select all** in the previous step, the **Connect objects** box displays. 
+
+    ![](assets/connect-projects-larger-box.png)
+
+1. Start typing the name of a project in the search box, then select it when it displays in the list
+
+    Or
+
+    Select the Project records you want to connect with the Campaign records, then click **Connect objects**.
+
+    >[!TIP]
+    >
+    >    You can open a Campaign's Details page, find the linked project field and click the **+** icon in the field to add projects from the connected Product record type. 
+
+    This adds the following to the selected workspace: 
     
     * In the Campaign record type table: 
         * The **Project information** field populates for the Campaign record with the selected projects. 
@@ -158,7 +196,7 @@ To do this:
     This opens the read-only Maestro project's **Details** page. 
     Review information about the project. Only selected project fields display in the Details page. 
 
-1. Click Go to source in the upper-right corner of the screen to open the project in Workfront, if you have at least View permissions to the project. 
+1. Click **Go to source** in the upper-right corner of the screen to open the project in Workfront, if you have at least View permissions to the project. 
 1. (Optional) Update information about the project in Workfront, if you have permissions to do so. 
 
 1. From the Campaign table view, hover over the **Project information** field header, and click the downward-pointing arrow, then click **Edit lookup fields.**

@@ -3,13 +3,15 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Reply to updates
 description: When someone adds or replies to an update on a work object, their reply appears in the communication thread in the Updates section for the object. You can add a reply to an update or Like it if you have View access to the object.
-author: Lisa and Alina
+author: Nolan and Alina
 feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
 ---
 # Reply to updates
+
+{{preview-and-fast-release}}
 
 <!--remove legacy and new experience references when we remove the legacy updates in the UI - Jan 2024???-->
 
@@ -38,6 +40,8 @@ exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
 > * Summary panel in lists
 > * Summary panel in timesheets 
 > * Summary panel in the Workload Balancer
+>
+><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process.</span> 
 
 When someone replies to a comment or a system update on a work object, their reply appears in the communication thread in the Updates section for the object. 
 
@@ -89,9 +93,14 @@ Replying to a comment or reply differs depending on which experience and which o
 For information about what features are available in the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 
 1. Go to the object to which you want to add a reply.
-1. Click **Updates**, then click the **Comments** tab for the object and find the comment or reply to which you want to reply.
+1. Click **Updates**, then click the **Comments** tab for the object and find the comment or reply to which you want to reply
+
+   Or
+
+   <span class="preview">Click the **All** tab, then click **Reply in Comments** to open the comment in the Comments tab and reply to it. You cannot reply in the All tab.</span>
+
 1. (Optional) To include text from a previous update in your reply, click the **More** menu in the upper-right corner of the comment you want to reply to, then click **Quote reply**. Text from the previous update appears in the input area, marked with a vertical gray line.
-1. Click **Reply**. 
+1. Click **Reply**.
 
    ![](assets/reply-to-update-empty-box.png)
 

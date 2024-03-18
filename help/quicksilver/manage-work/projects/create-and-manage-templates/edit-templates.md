@@ -9,13 +9,9 @@ exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
 ---
 # Edit project templates
 
-<!--drafted
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
--->
+<!-- Audited: 2/2024 -->
 
-<!--
-<The Resource Pools part also duplicates in the "Working with Resource Pools" article</p>
--->
+<!--The Resource Pools part also duplicates in the "Working with Resource Pools" article-->
 
 You can edit project templates to reflect changes in project processes and settings. After you update and save the changes on a template, the new changes are visible in new projects when the projects are created using the template. The changes you make on the template do not reflect on the project currently using that template.
 
@@ -28,16 +24,20 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront licenses*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront licenses</td> 
+   <td>
+      <p>New: Standard</p>
+      <p>Or</p>
+      <p>Current: Plan</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to Templates</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to templates, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Grant access to templates</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Templates</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -45,12 +45,12 @@ You must have the following access to perform the steps in this article:
     <ul> 
      <li> <p>Contribute permissions to a template to edit it in the Template Details tab</p> </li> 
      <li> <p>Manage permissions to a template to edit it in the Edit Template box</p> </li> 
-    </ul> <p> For information about template permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md" class="MCXref xref">Share a template</a>. </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Edit a template {#edit-a-template}
 
@@ -1110,3 +1110,4 @@ To deactivate a template:
 1. (Optional) To activate the template, click the **More** ![](assets/qs-more-icon-on-an-object.png) menu next to the template name, then click **Activate**. 
 
    The template is now active and can be attached to projects or used to create projects. 
+   

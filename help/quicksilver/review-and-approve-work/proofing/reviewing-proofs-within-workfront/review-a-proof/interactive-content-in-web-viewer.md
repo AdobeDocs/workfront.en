@@ -31,7 +31,7 @@ The Web Proofing Viewer has the following limitations:
 
    For more information, see [About preparing interactive content in a ZIP file for proofing](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md#howtoprepareaninteractiveziparchive) in [Interactive content proofs overview](../../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
-   See also [Create a proof for interactive content in a ZIP file](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content-.md).
+   See also [Create a proof for interactive content in a ZIP file](../../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md).
 
 1. Click **Add comment**.
 

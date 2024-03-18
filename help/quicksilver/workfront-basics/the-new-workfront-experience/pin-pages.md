@@ -3,7 +3,7 @@ navigation-topic: the-new-workfront-experience
 title: Pin pages to customize your workspace
 description: You can pin your most important work [!DNL Adobe Workfront] for increased visibility, better organization, and quicker access. Pinned pages are always accessible from the top of any page in Workfront.
 feature: Get Started with Workfront
-author: Lisa
+author: Nolan
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
 ---
 # Pin pages to customize your workspace

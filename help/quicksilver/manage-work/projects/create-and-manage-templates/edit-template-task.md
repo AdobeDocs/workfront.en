@@ -14,6 +14,13 @@ After creating a template, you can edit information on the template tasks. The i
 
 For information about creating a template, see [Create a project template](../../../manage-work/projects/create-and-manage-templates/create-template.md).
 
+You can edit template task or you can edit template tasks in bulk. 
+
+>[!NOTE]
+>
+>You cannot edit template tasks that belong to different templates in bulk. You can only edit template tasks that belong to the same template. 
+
+
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
@@ -23,25 +30,26 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfrontlicense*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New: Standard </p>
+   <p>Current: Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to Templates</p> <p>Note: If you have the correct access but still can't edit a template task, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Templates</p>  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Object permissions</strong> </td> 
-   <td> <p>Manage permissions for a template. </p> <p>Contribute or higher permissions for the template task.</p> <p>For information about requesting access to objects, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td role="rowheader">Object permissions </td> 
+   <td> <p>Manage permissions for a template. </p> <p>Contribute or higher permissions for the template task.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access level you have, contact your Workfront administrator.
+*To find out what plan, license type, or access level you have, contact your Workfront administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 ## Prerequisites
 
@@ -55,14 +63,14 @@ Before you begin, you must
 
 You can edit a template task using the Edit Template Task or Template Task Details areas. The following steps describe editing a task in the Edit Template Task box.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+{{step1-to-templates}}
 
-1. Click **Templates**.  
 1. Click the name of a template to open it.
 1. Click **Template Tasks** in the left panel. 
 1. Click the name of a template task in the list to open the template task.
-1. (Conditional) To edit limited information about the template task, click **Template Task Details** in the left panel, then go to the areas of the Details section to edit information for each area.
-1. (Optional)&nbsp;Click the **Collapse all** icon ![](assets/collapse-all-icon.png) to collapse all areas. 
+1. (Optional) To edit several template tasks in bulk, select multiple template tasks, then click **Edit** at the top of the template list.
+1. (Conditional) To edit limited information about a template task, click **Template Task Details** in the left panel, then go to the areas of the Details section to edit information for each area.
+1. (Optional) Click the **Collapse all** icon ![](assets/collapse-all-icon.png) to collapse all areas. 
 1. To edit information in the Details section, click the **Edit** icon ![](assets/edit-icon.png), then select from any of the areas below, or click **Edit all** to edit information in all areas:
 
    * Overview
@@ -110,7 +118,7 @@ You can edit a template task using the Edit Template Task or Template Task Detai
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Name</strong> </td> 
-      <td>Specify a name for the template task.</td> 
+      <td>Specify a name for the template task. This field does not display when editing template tasks in bulk.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Description</strong> </td> 
@@ -126,9 +134,9 @@ You can edit a template task using the Edit Template Task or Template Task Detai
        <ul> 
         <li> <p><strong>None</strong> </p> </li> 
         <li> <p><strong>Low</strong> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Normal</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">High</span> </p> </li> 
-        <li> <p style="font-weight: bold;"><span style="font-weight: normal;">Urgent</span> </p> </li> 
+        <li> <p> <b>Normal</b></p> </li> 
+        <li> <p><b>High</b> </p> </li> 
+        <li> <p><b>Urgent</b> </p> </li> 
        </ul> <p>Depending on the Project Preferences selected by your Workfront administrator, the names of priorities might be different for you. For more information about editing priorities, see <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md" class="MCXref xref">Create and customize priorities</a>.</p> </td> 
      </tr> 
      <tr> 
@@ -143,28 +151,13 @@ You can edit a template task using the Edit Template Task or Template Task Detai
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Duration</strong> </td> 
-      <td> <p>Specify the Duration of the future tasks, in minutes, hours, days, weeks, or months. The future task created from this template will have the Duration specified here.</p> <p>By default, Workfront measures Duration in days. This is the amount of time that you allow for the task to remain incomplete, before it must be completed. You cannot specify the Duration of a task when the <strong>Duration Type</strong> of the task is <strong>Simple</strong>, or when the <strong>Task Constraint</strong> is <strong>Fixed Dates</strong>.</p> <p>Important: Duration is typically the amount of time between the Planned Start and the Planned Completion Dates of a template task, and for this reason, it affects the timeline of the template. This determines the timeline of the future project created from the template. </p> </td> 
+      <td> <p>Specify the Duration of the future tasks, in minutes, hours, days, weeks, or months. The future task created from this template will have the Duration specified here.</p> <p>By default, Workfront measures Duration in days. This is the amount of time that you allow for the task to remain incomplete, before it must be completed. You cannot specify the Duration of a task when the <strong>Duration Type</strong> of the task is <strong>Simple</strong>, or when the <strong>Task Constraint</strong> is <strong>Fixed Dates</strong>.</p> <p><b>IMPORTANT</b></p> <p>Duration is typically the amount of time between the Planned Start and the Planned Completion Dates of a template task, and for this reason, it affects the timeline of the template. This determines the timeline of the future project created from the template. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Planned Hours</strong> </td> 
-      <td> <p>Specify the number of Planned Hours for the future task on the project created with this template. This is the amount of actual time it would take the assignees of the task to complete it. You can only specify the number of Planned Hours for a task when the<strong>Duration Type</strong> is set to <strong>Calculated Assignment</strong>. </p> </td> 
+      <td> <p>Specify the number of Planned Hours for the future task on the project created with this template. This is the amount of actual time it would take the assignees of the task to complete it. You can only specify the number of Planned Hours for a task when the <strong>Duration Type</strong> is set to <strong>Calculated Assignment</strong>. </p> </td> 
      </tr> 
-     <tr data-mc-conditions=""> 
-      <td role="rowheader">Work Effort </td> 
-      <td> <p><span>The amount of effort required to complete a task. Your project manager might decide to use this field instead of Planned Hours to estimate the effort needed to complete a task. This field is visible only when the following conditions are met:</span> </p> 
-       <ul> 
-        <li> <p><span>The template task has a Simple Duration&nbsp;Type.</span> </p> <p>Tip: <span>If you update the task Duration&nbsp;Type, this field becomes hidden.</span> </p> </li> 
-        <li><span>Your project manager has enabled the Use Work Effort to calculate Planned Hours field on the template.</span> </li> 
-       </ul> 
-       <div> 
-        <p> Select from the following options:</p> 
-        <ul> 
-         <li>Small</li> 
-         <li>Medium <span style="font-weight: normal;">(this is the default value for a new task)</span></li> 
-         <li>Large</li> 
-        </ul> 
-       </div> <p>For information about using Work Effort instead of Planned Hours to estimate task effort, see <span href="work-effort.md"><a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Work Effort overview</a></span>.</p> </td> 
-     </tr> 
+     
      <tr> 
       <td role="rowheader"><strong>Task Constraint</strong> </td> 
       <td> <p>The task on the project created from this template will have this constraint. Task Constraints identify when a task must be completed. </p> <p>Select from the following options:</p> 
@@ -183,24 +176,24 @@ You can edit a template task using the Edit Template Task or Template Task Detai
        </ul> <p>For more information on Task Constraint, see <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Task Constraint overview</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><span style="font-weight: bold;">Start&nbsp;Day</span><span style="font-weight: normal;">(Optional and conditional)</span> </td> 
+      <td role="rowheader"><span style="font-weight: bold;">Start Day</span><span style="font-weight: normal;"> (Optional and conditional)</span> </td> 
       <td> <p> You can specify the Start Day of a template task only when the Task&nbsp;Constraint is one of the following:</p> 
        <ul> 
         <li>Must Start On</li> 
         <li>Start No&nbsp;Earlier Than</li> 
         <li>Start No Later Than</li> 
         <li>Fixed Dates</li> 
-       </ul> <p>This will correspond to the date within the timeline of the future project when the task will start. For all other constraints,&nbsp;Workfront calculates the Start Day based on predecessor dependency between the tasks. </p> </td> 
+       </ul> <p>This will correspond to the date within the timeline of the future project when the task will start. For all other constraints, Workfront calculates the Start Day based on predecessor dependency between the tasks. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Completion Day</strong><span style="font-weight: normal;"> (Optional and conditional)</span> </td> 
-      <td> <p> You can specify the Completion Day of a template task only when the Task&nbsp;Constraint is one of the following:</p> 
+      <td> <p> You can specify the Completion Day of a template task only when the Task Constraint is one of the following:</p> 
        <ul style="list-style-type: circle;"> 
         <li>Must Finish On</li> 
-        <li>Finish No&nbsp;Earlier Than</li> 
+        <li>Finish No Earlier Than</li> 
         <li>Finish No Later Than</li> 
         <li>Fixed Dates</li> 
-       </ul> <p>This will correspond to the date within the timeline of the future project when the task will complete. For all other constraints,&nbsp;Workfront calculates the Completion Day based on Duration and predecessor dependency. </p> </td> 
+       </ul> <p>This will correspond to the date within the timeline of the future project when the task will complete. For all other constraints, Workfront calculates the Completion Day based on Duration and predecessor dependency. </p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -272,7 +265,7 @@ You can edit a template task using the Edit Template Task or Template Task Detai
     <col> 
     <tbody> 
    <tr> 
-      <td role="rowheader"><strong><p>Milestone</p></strong> </td> 
+      <td role="rowheader"><p><b>Milestone</b></p></strong> </td> 
       <td> <p>Choose a milestone to associate with the selected template task.</p>
       
    <p><b>IMPORTANT</b></p>

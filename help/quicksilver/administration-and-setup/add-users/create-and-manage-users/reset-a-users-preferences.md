@@ -80,7 +80,7 @@ When you reset user preferences, some preferences are reverted to the system def
   </tr> 
   <tr> 
    <td>User Preferences</td> 
-   <td> <p>Reverted to the system default</p> <p>Email notifications revert to the system defaults.</p> </td> 
+   <td> <p>Reverted to the system default</p> <p>Email notifications revert to the system defaults. The default notifications are listed in <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">Event notifications available in Adobe Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>User-Defined Custom Tabs</td> 

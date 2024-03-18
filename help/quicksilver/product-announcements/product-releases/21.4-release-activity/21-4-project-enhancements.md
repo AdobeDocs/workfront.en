@@ -11,7 +11,7 @@ exl-id: 6bcd332e-bd4e-4a74-bae9-9ba507299a51
 
 This page describes all Project enhancements made with the 21.4 release to the Preview environment. These enhancements will be made available in the Production environment the week of October 4, 2021.
 
-For a list of all changes available with the 21.4 release, see [21.4 Release overview](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
+For a list of all changes available with the 21.4 release, see [21.4 Release overview](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Include images in updates
 

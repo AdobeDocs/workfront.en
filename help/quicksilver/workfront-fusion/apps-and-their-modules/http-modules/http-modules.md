@@ -26,6 +26,12 @@ The right choice of the module depends on the authentication/ authorization mech
 * Make a Client Certificate Auth request: for resources employing authorization protocol that requires a client-side certificate.
 * Make an API Key authorization request: for resources employing API Keys for authorization.
 
+>[!NOTE]
+>
+>If you are connecting to an Adobe product that does not currently have a dedicated connector, we recommend using the Adobe Authenticator module.
+>
+>For more information, see [Adobe Authenticator module](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
+
 ## Request modules
 
 See the following articles for specific request module instructions:
