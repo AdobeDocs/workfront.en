@@ -18,7 +18,7 @@ exl-id: 7fc257ea-0c17-4bf5-aa07-e81f6f2d756c
 
 This section contains the following articles:
 
-* [About connecting [!DNL Adobe Workfront Fusion] to an app or service](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
+* [Connections overview](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
 * [Create connections in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/connections/connection-instruction-toc.md)
 * [Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
 * [Connect [!DNL Adobe Workfront Fusion] to any web service](../../workfront-fusion/connections/connect-wf-fusion-to-any-web-service.md)

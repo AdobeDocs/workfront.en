@@ -2,13 +2,13 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
-title: About connecting [!DNL Adobe Workfront Fusion] to an app or service
+title: Connections overview
 description: For most apps, it is necessary to create a connection, through which [!DNL Adobe Workfront Fusion] can communicate with the given third-party service according to the settings of the specific scenario.
 author: Becky
 feature: Workfront Fusion
 exl-id: 2d5cf083-9893-45e8-8f7d-0f8f5a74eef3
 ---
-# About connecting [!DNL Adobe Workfront Fusion] to an app or service
+# Connections overview
 
 For most apps, [!DNL Workfront Fusion] requires a connection, through which it can communicate with the given third-party service according to the settings of the specific scenario.
 
