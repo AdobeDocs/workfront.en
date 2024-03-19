@@ -47,16 +47,15 @@ In the group area, add the frame.io account the projects will be created in
 
 ### Create a project integrated with Frame.io
 
-Project managers and coordinators can create Workfront projects integrated with Frame.io. For more information on created an integrated projects, see [].
-
-When you create an integrated project, you can
+Project managers and coordinators can create Workfront projects integrated with Frame.io. When you create an integrated project, you can
 
 * You can add Frame.io enabled users, desinated by the Workfront administrator, to tasks in Workfront. A folder to represent the task is created automatically inside of Frame.io. Frame.io enabled users are notified by email when a task is assigned to them and they have work to begin.
 
-* Send instructions and materials from Workfront directly to the creative user in Frame.io using a one-way sync folder. Simply drop the documents into the **Share with Frame.io** folder.
+* Send instructions and materials from Workfront directly to the creative user in Frame.io using a one-way sync project folder. Simply drop the documents into the **Share with Frame.io** folder.
 
 * Track the progress of work as creatives mark tasks complete directly inside of Frame.io.
 
+For more information on created an integrated projects, see [].
 
 
 ## Content creation and collaboration in Frame.io
@@ -74,14 +73,16 @@ Versioning?
 
 ## Review and approve assets in Workfront
 
-Once a creative sends a finished asset to Workfront from Frame.io, the project coordinator can kick-off the formal review and approval process in Workfront. All activity is recorded in Workfront. 
+Once a creative sends a finished asset to Workfront from Frame.io, the project coordinator can kick-off the formal review and approval process in Workfront. All review and approval activity is recorded in Workfront. 
 
 ### Launch formal reviews and approvals
 
-You can create one-time review and approvals or you can create resuable approval templates in the Setup area of workfront. 
+You can create one-time review and approvals, or you can create resuable Approval Templates in the Setup area of workfront. 
 
-Reviewers - view, make comments, don't make decisions
-Approvers - make decison
+You have the option to assign reviewers, approvers, or a mix of both:
+
+* Reviewers can comment and markup assets. Once finished, they can mark their review as complete. <!--example of when to add reviewers-->
+* Approvers Can comment, markup assets and must make a decsion.
 
 * **Single-use approvals**
 Set approval deadlines
@@ -121,6 +122,6 @@ Use the native integration to send approved assets to AEM.
 
 ## Example campaign asset approval workflow
 
-intro para
+intro para?
 
-![](assets/example-workflow.png) <!-- probbly need a differnet version of this but add something similar rather than typing all out?-->
+![](assets/example-workflow.png) <!-- probbly need a different version of this but add something similar rather than typing all out?-->
