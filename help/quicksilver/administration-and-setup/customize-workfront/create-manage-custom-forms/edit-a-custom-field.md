@@ -11,7 +11,11 @@ exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
 ---
 # Edit properties of a custom field, section break, or widget in a custom form
 
-{{highlighted-preview}}
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 You can edit the properties of a custom field, section break, or widget that is used in custom form in your Adobe Workfront instance. These include the item's label, name, instructions, and so on.
 
