@@ -55,7 +55,7 @@ For information about new features and when they are released, see [Adobe Workfr
 |     Create taxonomies                              |   ✓                           |                                  |                  |
 |     Create individual, named records and taxonomies|   ✓                           |                                  |                  |
 |     Create record custom fields                    |   ✓                           |                                  |                  |
-|     Import record types and fields using an Excel  or CSV file                              |   ✓                           |                                  |                  |
+|     Import record types and fields using an Excel  or CSV file*                              |   ✓                           |                                  |                  |
 |     Link records                                   |   ✓                           |                                  |                  |
 |     View records in a table                        |   ✓                           |                                  |                  |
 |     View records in a timeline                     |   ✓                           |                                  |                  |
@@ -269,7 +269,12 @@ The following table shows the limits for how many objects you can create in the 
 |     Size of file that you can paste in a record type table                    |   1MB                                                                                                           |
 |     Size of file that you can import through the API for a record type table  |   1.5MB                                                                                                         |
 |     The rate at which API requests can be made                                    |   200 requests per minute                                                                                       |
-| Size of CSV of Excel file you can import in a table | 5MB |
+| Size of CSV of Excel file you can import* | 5MB |
+
+>[!IMPORTANT]
+>
+>*This functionality has been temporarily disabled and it will be available at a later date
+
 
 ## Locate Adobe Workfront planning capabilities
 
