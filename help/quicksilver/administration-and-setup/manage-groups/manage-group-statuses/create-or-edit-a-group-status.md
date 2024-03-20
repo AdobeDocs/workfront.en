@@ -105,7 +105,7 @@ You must have the following to perform the steps in this article:
     <tbody> 
      <tr> 
       <td role="rowheader">Status Name</td> 
-      <td> <p>Type a name for the status. This is a required field.</p> <p>When you create a status name, be aware that others in the system can create a status with the same name. We recommend using a unique name to avoid confusion when selecting statuses in Workfront.</p><p>If duplicate statuses exist, the group administrator should update the names to differentiate between them.</p> </td> 
+      <td> <p>Type a name for the status. This is a required field.</p> <p>When you create a status name, be aware that others in the system can create a status with the same name. We recommend using a unique name to avoid confusion when selecting statuses in Workfront.</p><p>If duplicate statuses exist, the group administrator should update the names to differentiate between them. The only uniqueness indicator in the system is the status Key.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Description</td> 
