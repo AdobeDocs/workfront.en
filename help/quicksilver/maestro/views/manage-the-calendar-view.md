@@ -110,3 +110,32 @@ To manage a calendar view:
     * Select one of the following options from the time frame drown-down menu to update the time increments: 
 
         * Month
+1. Update the following view elements as described in the subsections below:
+    * [Filters](#add-filters)
+    <!--* [Grouping](#add-grouping)-->
+    <!--* [Settings](#edit-the-calendar-view-settings)-->
+    <!--* [Sort](#add-sort) not sure if this is present in calendar views?!; also check the anchor and make sure it's correct-->
+
+### Add filters
+
+You can reduce the amount of information displayed on the screen by using filters.
+
+Consider the following when working with filters in the calendar view: 
+
+<!-- this list is almost identical to the one for the table view - update both-->
+
+* The filters you create for a calendar view work independently from the filters in any other view applied to the same record type. 
+
+* The filters are unique to the view that you select. Two calendar views of the same record type can have different filters applied to them. 
+
+* Two users looking at the same calendar view see the same filter that is currently applied. 
+
+* You cannot name the filters you build for a calendar view.
+
+* Removing filters removes them from anyone accessing the same record type as you and who displays the same view as you do. 
+
+* Adding filters in the calendar view is identical to adding filters in the table view. 
+
+   For more information, see the "Add filters" section in the article [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md). 
+
+* You can filter by connected record fields or lookup fields, but not for those fields that allow linking to multiple records.

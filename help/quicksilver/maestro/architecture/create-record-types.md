@@ -1,6 +1,6 @@
 ---
 title: Create operational record types
-description: Record types are the object types of Adobe Maestro. In Maestro, you can create custom record types which illustrate the work items needed in your organization's lifecycle.
+description: Record types are the object types of Adobe Workfront planning. In Workfront planning, you can create custom record types which illustrate the work items needed in your organization's lifecycle.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -12,14 +12,14 @@ exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
 
 {{maestro-important-intro}}
 
-Record types are the object types of Adobe Maestro. In Maestro, you can create custom record types which illustrate the work-related items needed in your organization's lifecycle. 
+Record types are the object types of Adobe Workfront planning. In Workfront planning, you can create custom record types which illustrate the work-related items needed in your organization's lifecycle. 
 
 Record types can be one of the following:
 
 * **Operational record types**
 * **Taxonomies**
 
-For more information about Maestro record types, see [Overview of record types and taxonomies](../architecture/overview-of-record-types-and-taxonomies.md).
+For more information about record types, see [Overview of record types and taxonomies](../architecture/overview-of-record-types-and-taxonomies.md).
 
 Creating operational record types is similar to creating taxonomy record types. This article describes how you create operational record types. 
 
@@ -39,12 +39,12 @@ You must have the following access to perform the steps in this article:
 <tr>
 <td>
    <p> Product</p> </td>
-   <td>
+   <td> Adobe Workfront
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront planning closed beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -56,13 +56,15 @@ You must have the following access to perform the steps in this article:
   <tr>
    <td role="rowheader"><p>Adobe Workfront license</p></td>
    <td>
-   <p>Any</p> 
+   <p>Current: Plan</p>
+   Or
+   <p>New: Standard </p> 
   </td>
   </tr>
   
   <tr>
    <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access level controls for Maestro</p>  
+   <td> <p>There are no access level controls for Workfront planning</p>  
 </td>
   </tr>
 <tr>
@@ -98,7 +100,12 @@ You must have the following access to perform the steps in this article:
         * When you create a workspace using a template. 
         
             For information, see [Create workspaces](../architecture/create-workspaces.md).
-        * When you import them using an Excel or CSV file. This is not available for taxonomy record types. 
+        * When you import them using an Excel or CSV file. This is not available for taxonomy record types.
+
+            >[!IMPORTANT]
+            >
+            >This functionality has been temporarily disabled since March 21, 2024. It will be enabled at a later date.
+
         <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a Maestro record. This creates a read-only record type in Maestro which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
         For information about connecting objects with Maestro records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
@@ -108,7 +115,7 @@ You must have the following access to perform the steps in this article:
 
 ## Create record types using a workspace template
 
-You can create record types automatically when you create a workspace using a template. Each Maestro template contains sample operational and taxonomy record types. 
+You can create record types automatically when you create a workspace using a Workfront planning template. Each template contains sample operational and taxonomy record types. 
 
 For information about creating workspaces, see [Create workspaces](../architecture/create-workspaces.md).
 
@@ -185,14 +192,19 @@ The last-accessed workspace should open by default.
 
 ## Create record types by importing an Excel or CSV file
 
+>[!IMPORTANT]
+>
+>This functionality has been temporarily disabled since March 21, 2024. It will be enabled at a later date.
+
+
 Consider the following when importing record types using an Excel or CSV file: 
 
-* Each sheet of the Excel file becomes a record type in Maestro. 
+* Each sheet of the Excel file becomes a record type. 
 * The columns of each sheet become the fields associated with each record type. 
 * Fields are unique for their respective record types. 
 * Each row in each sheet becomes a unique record associated with its respective record type. 
 * Each sheet of the Excel file should not exceed the following: 
-    * 10,000 rows
+    * 50,000 rows
     * 500 columns
 * The Excel file should not be larger than 5MB.
 * Empty sheets are not supported. 
@@ -216,7 +228,7 @@ The last-accessed workspace should open by default.
     
     The Preview and edit box displays with the following information: 
 
-    * The names of the sheets or of the future record types display in the left panel. Maestro selects an icon and a color for each new record type by default.
+    * The names of the sheets or of the future record types display in the left panel. Workfront planning selects an icon and a color for each new record type by default.
     * The first sheet or record type is selected and the names of the fields associated with it display as the column headers. The type of each field is selected by default. 
     * Each row represents a new record. Only the first 10 records display in the Preview and edit box. 
 
@@ -237,7 +249,7 @@ The last-accessed workspace should open by default.
 
 1. Click **Import** when you are ready to import your file. 
 
-    The following information imports in to Maestro:
+    The following information imports in to Workfront planning:
 
     * New record types
     * New fields associated with each record type
@@ -245,7 +257,7 @@ The last-accessed workspace should open by default.
 
     You can start managing fields and records on the record types pages. 
     
-    Everyone with access to Maestro can now view and edit the imported record types and their information. <!--this will change with permissions-->
+    Everyone with access to Workfront planning can now view and edit the imported record types and their information. <!--this will change with permissions-->
 
 <!--## Connect record types with object types from another application
 

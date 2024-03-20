@@ -156,9 +156,11 @@ Consider the following when working with filters in the timeline view:
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
-* The filters you create for the timeline view work independently from the filters in the table view when applied to the same record type. 
+* The filters you create for a timeline view work independently from the filters in any other view applied to the same record type. 
 
-* The filters are unique to the view that you select. Two timeline views of the same record type can have different filters applied to them. Two users looking at the same timeline view see the same filter that is currently applied. 
+* The filters are unique to the view that you select. Two timeline views of the same record type can have different filters applied to them. 
+
+* Two users looking at the same timeline view see the same filter that is currently applied. 
 
 * You cannot name the filters you build for a timeline view.
 
