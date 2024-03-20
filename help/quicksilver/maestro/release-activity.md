@@ -26,6 +26,36 @@ The features are released weekly and are listed in the order of their release, w
 >
 >The documentation referenced in the sections below will be available some time after the features are released to Production.
 
+## Week of March 18, 2024
+
+### Filters available in the calendar view
+
+Production: March 19, 2024 
+
+Preview: To be determined 
+
+You can now filter information in the calendar view. For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md).  
+
+### Details box added to the timeline and calendar views 
+
+Production: March 19, 2024 
+
+Preview: To be determined 
+
+You can now access the Details box of a record from the timeline and calendar views. You can edit records in the Details box inside the timeline and calendar views. 
+
+From the Details box, you can open the Details page of the record.  
+
+For more information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md).  
+
+### The record type Excel import is temporarily disabled  
+
+Production: March 21, 2024 
+
+Preview: To be determined 
+
+We are temporarily disabling importing record types using an Excel or CSV file. This functionality will be available at a later date. 
+
 ## Week of March 11, 2024
 
 ### At-a-glance record details display in the table view
