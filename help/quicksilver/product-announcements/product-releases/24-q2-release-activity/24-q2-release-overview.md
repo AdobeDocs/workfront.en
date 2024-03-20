@@ -9,7 +9,12 @@ recommendations: noDisplay, noCatalog
 
 This page provides information about functionality that is included in the Second Quarter 2024 release. These enhancements are planned to become available in the Production environment throughout the quarter.
 
-<!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview). -->
+<!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
+In lieu of a release webinar, we invite you to [register for Adobe Summit](https://summit.adobe.com/na/) to watch the following Workfront sessions:
+
+[The Future of Adobe Workfront](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) on March 26, 2024, to get a sneak peek of the future of strategic planning and workflow. Learn how the Workfront team plans to address business capabilities across the entire marketing lifecycle—all with an AI-first approach to automate work, simplify user experiences, and boost productivity.
+
+[Unveiling Marketing Calendars and Tools for End-to-End Campaign Planning](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) on March 23, 2023, to learn  about new product capabilities designed to enable you organization to manage and visualize end-to-end operational lifecycles.
 
 <span class="preview">Off-cycle features (those releasing to Production prior to the Second Quarter 2024 release date) are highlighted in yellow.</span>
 
