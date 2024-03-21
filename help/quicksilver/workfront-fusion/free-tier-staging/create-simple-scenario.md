@@ -103,22 +103,15 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
       This allows the module to find projects with your chosen words in its name, even if you do not enter the entire name, or enter the name with the incorrect case (such as all caps).
    1. In the last field under [!UICONTROL Search Criteria], enter a word or phrase that you know is in the name of the task you are searching for.
 
-1. In the **[!UICONTROL Outputs]** list, select the fields that you want the issue to output. For this example, select the **[!UICONTROL ID]** and **[!UICONTROL Name]** fields.
+1. In the **[!UICONTROL Outputs]** list, select the fields that you want the module to output. For this example, select the **[!UICONTROL ID]** and **[!UICONTROL Name]** fields.
 
    >[!TIP]
    >
    >You can use **Cmd+F** ([!DNL Mac] OS) or **Ctrl-F** ([!DNL Windows] OS) to find a field quickly.
 
-1. Click **[!UICONTROL OK]**.
+1. Click **[!UICONTROL OK]** to save the module configuration.
 
-   >[!NOTE]
-   >
-   >(Information only) Since this is not a trigger module, you do not choose where to start it. When using a trigger module, you would now select where to start it.
-   >
-   >
-   >For more information, see [Choose where a trigger module starts in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/choose-where-trigger-module-starts.md).
-
-1. Right-click the module, click **[!UICONTROL Rename]**, then type a name the describes what you want the module to do (such as "Search for project)," then click **[!UICONTROL OK]**.
+1. Right-click the module, click **[!UICONTROL Rename]**, then type a name the describes what you want the module to do (such as "Search for task)," then click **[!UICONTROL OK]**.
 
    The name appears just below the module. Below that, [!DNL Workfront Fusion] includes a brief description of the type of action performed by the module.
 
@@ -128,7 +121,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 ## Add and configure the second module
 
-1. Click the partial circle to the right of the of the module to **[!UICONTROL Add another module]**.
+1. Hover over the partial circle to the right of the of the module, then click **[!UICONTROL Add another module]**. <!--becky continue here-->
 1. Select [!DNL Workfront] from the list of applications, then choose the search module **[!UICONTROL Read Related Records]**.
 1. You already created a connection to [!DNL Workfront] for the previous module. You don't need to create it again here, but you must make sure this module is using the same connection as the previous module.\
    In the **[!UICONTROL Connection]** box, select the connection that you created for the previous module.
