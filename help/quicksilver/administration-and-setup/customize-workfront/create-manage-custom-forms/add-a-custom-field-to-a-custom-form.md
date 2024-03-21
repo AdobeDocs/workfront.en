@@ -76,7 +76,7 @@ For more detail about the information in this table, see [Access requirements in
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Text Field with Formatting</td> 
-      <td>Allows users to type multiple lines of text in the field and format the text with bold, italics, underline, bullets, numbering, hyperlinks, and block quotes. This is available in Home, the Updates area, lists, and the Details area for Workfront objects. A character limit of 15,000 allows for plenty of text and formatting.</p> <p>For information about accessing this field through the API, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Rich text field storage in the API</a>.</p> <p><b>NOTE</b>:  Text fields with formatting are not available for Workfront mobile apps. </p> </td> 
+      <td>Allows users to type multiple lines of text in the field and format the text with bold, italics, underline, bullets, numbering, hyperlinks, and block quotes. This is available in Home, the Updates area, lists, and the Details area for Workfront objects. A character limit of 15,000 allows for plenty of text and formatting.</p> <p>This custom field type is not supported in filters on lists and reports.</p> <p>For information about accessing this field through the API, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md" class="MCXref xref">Rich text field storage in the API</a>.</p> <p><b>NOTE</b>:  Text fields with formatting are not available for Workfront mobile apps. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Dropdown</td> 
@@ -219,7 +219,7 @@ For more detail about the information in this table, see [Access requirements in
       <td><p>Click the drop-down list, then select the object types where you want to automatically track the field's value changes.</p> 
       <p><b>NOTE</b>: This option is not available for the following:</p> 
       <ul> 
-      <li>Custom forms associated with the following object types: Expense, Company, Iteration, Billing Record, and Group.</li> 
+      <li>Custom forms associated with the following object types: Expense, Company, Iteration, Billing Record, Document, and Group.</li> 
       <li>The following field types: Calculated, Descriptive Text, and Section Break</li> 
       </ul>
       <p><b>IMPORTANT</b>:  Selecting or deselecting an object type here affects all custom forms that are associated with the selected object type and that contain this field. For example, if you deselect an object type here and save the custom form, the field's value changes are no longer tracked for that object type in any custom form that contains the field.</p>

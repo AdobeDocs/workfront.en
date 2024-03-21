@@ -146,6 +146,7 @@ feature-set: Workfront
       * [21.1 Mobile enhancements](product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md)
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
+      * [Workfront Fusion release activity: Week of March 11, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-3-14.md)
       * [Workfront Fusion release activity: Week of February 26, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-2-26.md)
       * [Workfront Fusion release activity: Week of February 5, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-2-5.md)
       * [Workfront Fusion release activity: Week of November 27, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-30.md)
@@ -2179,6 +2180,7 @@ feature-set: Workfront
     * [Apps and their modules](workfront-fusion/apps-and-their-modules/apps-and-their-modules.md)
     * [Adobe Workfront modules](workfront-fusion/apps-and-their-modules/workfront-modules.md)
     * [Workfront Proof modules](workfront-fusion/apps-and-their-modules/workfront-proof-modules.md)
+    * [[!DNL Workfront Boards] modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-boards-modules.md) 
     * [Adobe Authenticator module](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md)
     * [Adobe Acrobat Sign modules](workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
     * [Adobe Creative Cloud Libraries modules](workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md)
@@ -2186,6 +2188,7 @@ feature-set: Workfront
     * [Adobe Experience Manager Assets modules](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)    
     * [Adobe Experience Manager Forms module](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)    
     * [Adobe Journey Optimizer modules](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
+    * [Adobe Lightroom modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
     * [Adobe Maestro modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
     * [Adobe PDF Services modules](workfront-fusion/apps-and-their-modules/pdf-modules.md)
     * [Adobe Photoshop modules](workfront-fusion/apps-and-their-modules/adobe-photoshop-modules.md)

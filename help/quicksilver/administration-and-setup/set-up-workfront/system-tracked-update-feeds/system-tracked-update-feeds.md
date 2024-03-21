@@ -12,7 +12,7 @@ exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
 ---
 # System-tracked updates
 
-<span class="preview">The information highlighted on this page is available only in the Preview environment.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
+{{preview-and-fast-release}}
 
 <!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
 

@@ -45,7 +45,7 @@ You can share the following objects:
 * You can share a workspace or a view with the following entities:
     * Users
     * Groups
-* Other users, including System Administrators, can only access views they created or that have been shared with them. <!--System administrators can only be given permissions to Manage a view.-->
+* Other users, including System Administrators, can only access views they created or that have been shared with them. System administrators can only be given permissions to Manage a view.
 * You can share a link to a workspace or to a view from a record type page with others. Users who receive the link must be active users and log in to Workfront to be able to access the workspace or the record type page displayed in the selected view. 
 
 ## Sharing permissions for Adobe Workfront planning capabilities objects

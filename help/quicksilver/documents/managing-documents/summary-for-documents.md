@@ -10,7 +10,7 @@ exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
 ---
 # Summary for documents overview
 
-<span class="preview">The information highlighted on this page is available only in the Preview environment.</span> <!--and in the Production environment for customers who have opted for the fast release process. For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).-->
+{{preview-and-fast-release}}
 
 The Summary allows you to interact with important information directly from the documents list.
 

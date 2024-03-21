@@ -84,8 +84,12 @@ You must have the following access to perform the steps in this article:
 ## Considerations about editing records
 
 * You can edit records that you created or records created by others, if you were given permissions to the workspace. 
-* You can edit record fields from the Details page of a record or from the table view of a record type.
-* You cannot edit record information from the timeline view. 
+* You can edit record fields from the following areas:
+
+    * The Details box of a record from a record view.
+    * The Details page of a record. 
+    * Inline, in a table view. 
+
 * The following types of fields are automatically updated, and you cannot edit their values manually: 
     * Linked fields from other records
     * Formula-type fields
@@ -101,7 +105,7 @@ You can edit a record from the following areas:
 * [From the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type)
 * [From the Details page of a record](#edit-a-record-from-the-records-details-page)
 
-### Edit a record from the table view of a record type
+### Edit a record inline in the table view of a record type
 
 {#step1-to-maestro}
 
@@ -111,9 +115,7 @@ You can edit a record from the following areas:
 1. Click a record type card. 
 
     The record type page opens. 
-1. (Conditional) From the **View** drop-down menu in the upper-left corner of the table, select a **Table** view. This should be the default view, unless you viewed the record type in another type of view when you accessed it last. 
-
-<!--replace above with this when we release view redesign: (Conditional) Click the tab of a table view or click **+ View** to create a table view. The table view should be the default view, unless you viewed the record type in another type of view when you accessed it last. -->
+1. (Conditional) Click the tab of a table view or click **+ View** to create a table view. The table view should be the default view, unless you viewed the record type in another type of view when you accessed it last.
 
     The records associated with the selected record type display in the table view. 
 1. Click inside the row of a record to start editing information about the record inline.
@@ -141,15 +143,6 @@ You can edit a record from the following areas:
 1. (Optional) Double-click a connected record field to add connected records or objects to another record. For more information, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). 
 1. Press **Enter** on your keyboard or click outside of a row to save your changes. The changes are saved automatically. A **Saved** indicator displays briefly in the upper-right corner of the table view to show that the changes were saved. 
 
-
-    <!--
-    1. (Optional) Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click a record name. The **Details** box opens in the table. 
-        >[!TIP]
-        >
-        >    You can view the Open details icon to the left of the Name field of a record only when the Name field is a primary field. 
-    1. Start editing the field information in the Details box. Workfront automatically saves your changes. 
-    1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) (*********check the icon; they are changing it***********) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
-    -->
 
 1. (Optional) To copy and paste information from one field to another, do one of the following:
 
@@ -184,32 +177,68 @@ You can edit a record from the following areas:
 
 1. (Optional) Add a thumbnail to a record. For information, see [Add a thumbnail to a record](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
+### Edit a record from the record's Details box in a view
 
-### Edit a record from the record's Details page
-
-<!--You can edit a record from the Details box in a table view, or from the Details page. For information about editing records in the Details box, see the [Edit a record from the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type) section in this article.--> 
+You can edit a record from the Details box of any view. 
 
 {{step1-to-maestro}}
 
 The workspace that you access last opens. 
 
 1. (Optional) Click the downward-pointing arrow to the right of the workspace name to select the workspace whose records you want to update. 
+
+1. Click a record type card. 
+
+    The record type page opens. 
+
+1. From a view of any type, click the name of a record 
+
+    Or 
+    
+    From the table table view, click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click a record name. The **Details** box opens in the view.
+
+    ![](assets/details-box.png) 
+
+    >[!TIP]
+    >
+    >You can view the **Open details** icon to the left of the Name field of a record in a table view only when the Name field is a primary field. 
+
+1. Start editing the field information in the **Details** box. Workfront automatically saves your changes. 
+
+1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the **Details** box to open the record's **Details** page in a new tab. Continue editing the record as described in [Edit a record from the record's Details page](#edit-a-record-from-the-records-details-page) section in this article. 
+
+### Edit a record from the record's Details page
+
+You can edit a record from the Details page. 
+
+{{step1-to-maestro}}
+
+The workspace that you access last opens. 
+
+1. (Optional) Click the downward-pointing arrow to the right of the workspace name to select the workspace whose records you want to update. 
+
+1. Click a record type card. 
+
+    The record type page opens. 
+
 1. Do one of the following:
 
-    * From a **Table** view, click the name of a record. 
+    * From any view, access the Details box, as described in the [Edit a record from the record's Details box in a view](#edit-a-record-from-the-records-details-box-in-a-view)section in this article. Then, click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the **Details** box to open the record's **Details** page in a new tab. 
+
     * From the **Table** view, hover over the name of a record, then click the **More** menu ![](assets/more-menu.png), then click **View**
 
         ![](assets/contextual-menu-for-record-row.png)
-    * From a Timeline view, click a record bar. 
+    
+        The record **Details** page opens.
 
-    The record **Details** page opens.
+        ![](assets/details-page.png)
 
 1. Click the **More** menu ![](assets/more-menu.png) to the right of the record name, then click **Edit**
 
     Or
 
-    Click inside any editable field on the Details page to edit the information. <!--Your changes are saved automatically.-->
+    Click inside any editable field on the Details page to edit the information. 
 
     ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 
-1. Click **Save changes**. <!--Eliminate this step when we release the new Details box in the table with the Details page. Add above that the saves are automatic-->
+1. Click **Save changes**. 

@@ -26,35 +26,36 @@ The features are released weekly and are listed in the order of their release, w
 >
 >The documentation referenced in the sections below will be available some time after the features are released to Production.
 
-## Week of March 4, 2024
+## Week of March 18, 2024
 
-### Change row height in the table view
+### Filters available in the calendar view
 
-Production: March 7, 2024 
-
-Preview: To be determined 
-
-You now have an option to modify the height of a row when displaying records in the table view.
-
-You can update the row height to one of the following sizes:  
-
-* Short 
-* Medium
-* Tall.  
-
-For more information, see [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md). 
-
-### New calendar view for records
-
-Production: March 7, 2024 
+Production: March 19, 2024 
 
 Preview: To be determined 
 
-You can now display records in a calendar view. You must have at least two date fields on a record type to be able to create the calendar view.  
+You can now filter information in the calendar view. For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md).  
 
-For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). 
+### Details box added to the timeline and calendar views 
 
-<!--
+Production: March 19, 2024 
+
+Preview: To be determined 
+
+You can now access the Details box of a record from the timeline and calendar views. You can edit records in the Details box inside the timeline and calendar views. 
+
+From the Details box, you can open the Details page of the record.  
+
+For more information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md).  
+
+### The record type Excel import is temporarily disabled  
+
+Production: March 21, 2024 
+
+Preview: To be determined 
+
+We are temporarily disabling importing record types using an Excel or CSV file. This functionality will be available at a later date. 
+
 ## Week of March 11, 2024
 
 ### At-a-glance record details display in the table view
@@ -63,13 +64,13 @@ Production: March 14, 2024
 
 Preview: To be determined 
 
-To make it easier to view additional information about records when using the table view, we have introduced a new panel that displays a quick view of the record's details. The following is some of the information included in this panel: 
+To make it easier to view additional information about records when using the table view, we have introduced a new Details box that displays a quick view of the record's details. The following is some of the information included in this box: 
 
-* relevant record details at a glance 
+* Relevant record details at a glance 
 
-* ability to modify record information 
+* Ability to modify record information 
 
-* a link to open the record's Details page 
+* A link to open the record's Details page 
 
 For more information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
 
@@ -98,7 +99,7 @@ For more information, see the following articles:
 
 ### Allow System Administrators to manage all shared views 
 
-Production: < date > 
+Production: March 14, 2024
 
 Preview: To be determined 
 
@@ -108,7 +109,7 @@ For more information, see [Share views](/help/quicksilver/maestro/access/share-v
 
 ### Unauthorized page when sharing a view without permissions
 
- Production: < date > 
+ Production: March 14, 2024
 
 Preview: To be determined 
 
@@ -119,17 +120,17 @@ Preview: To be determined
 
 ### New label for System Administrators in sharing dialogs
 
-Production: <date> 
+Production: March 14, 2024
 
 Preview: To be determined 
 
-When sharing a view with a system administrator, you can only grant Manage access to them. Additionally, we now display an "Admin" label next to the system administrator's user name in the sharing dialog box. System administrators who were granted View permissions before this change will now receive Manage permissions to the view.  
+We now display an "Admin" label next to the system administrator's name in the sharing dialog box when sharing a view or a workspace.  
 
 For information, see [Share permissions overview](/help/quicksilver/maestro/access/sharing-permissions-overview.md).  
 
 ### Unauthorized page when sharing a view without permissions
 
-Production: <date> (Iskuhi said on March 14) 
+Production: March 14, 2024
 
 Preview: To be determined 
 
@@ -139,7 +140,33 @@ Preview: To be determined
 
  For more information, see [Share views](/help/quicksilver/maestro/access/share-views.md). 
 
--->
+## Week of March 4, 2024
+
+### Change row height in the table view
+
+Production: March 7, 2024 
+
+Preview: To be determined 
+
+You now have an option to modify the height of a row when displaying records in the table view.
+
+You can update the row height to one of the following sizes:  
+
+* Short 
+* Medium
+* Tall.  
+
+For more information, see [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md). 
+
+### New calendar view for records
+
+Production: March 7, 2024 
+
+Preview: To be determined 
+
+You can now display records in a calendar view. You must have at least two date fields on a record type to be able to create the calendar view.  
+
+For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). 
 
 ## Week of February 26, 2024
 

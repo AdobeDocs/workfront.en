@@ -66,7 +66,7 @@ The [!DNL Workfront] connector uses OAuth 2.0 to connect to [!DNL Workfront].
 
 You can create a connection to your [!DNL Workfront] account directly from inside a [!DNL Workfront Fusion] module.
 
-1. In any Adobe Authenticator module, click **Add** next to the Connection field.
+1. In any Adobe Workfront module, click **Add** next to the Connection field.
 1. Fill in the following fields:
 
    <table style="table-layout:auto"> 
