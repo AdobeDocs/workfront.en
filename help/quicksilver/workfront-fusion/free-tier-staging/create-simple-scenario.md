@@ -7,7 +7,7 @@ description: Learn how to create a simple automation scenario with Adobe Workfro
 author: Becky
 feature: Workfront Fusion
 ---
-# Create a simple scenario in [!DNL Adobe Workfront Fusion]
+# Create a basic scenario in [!DNL Adobe Workfront Fusion]
 
 The role of [!DNL Adobe Workfront Fusion] is to automate your processes so that you can concentrate on new tasks rather than repeating the same tasks again and again. It works by linking actions within and between apps and services to create a scenario that transfers and transforms your data automatically. The scenario you create watches for data in an app or service and processes that data to provide the result you want.
 
@@ -61,7 +61,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 1. In the **Scenarios** area, click **Create a new scenario**.
 
-    To locate the Scenarios area, see <!--navigation article-->
+    <!--To locate the Scenarios area, see navigation article-->
 
    The scenario editor displays, containing an empty module in the center.
 
@@ -91,11 +91,9 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
    You can find **[!UICONTROL Task]** in the list if you start typing the word "[!UICONTROL task]."
 
-   <!--Becky continue editing from here-->
-
 1. In the **[!UICONTROL Result Set]** box, select **[!UICONTROL First Matching Record]**. 
 
-   This sets the module to return only the first record it finds that meets the criteria. For this example, we need only one record returned.
+   This sets the module to return only the first record it finds that meets the criteria. 
 1. In the **[!UICONTROL Search criteria]** area, configure the criteria to return the specific task.
 
    1. In the first box under [!UICONTROL Search Criteria], select the field that you want to include in your search. For this example, select **[!UICONTROL Name]**.
@@ -124,50 +122,54 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 ## Add and configure the second module
 
-1. Hover over the partial circle to the right of the of the module, then click **[!UICONTROL Add another module]**. <!--becky continue here-->
-1. Select [!DNL Workfront] from the list of applications, then choose the search module **[!UICONTROL Read Related Records]**.
-1. You already created a connection to [!DNL Workfront] for the previous module. You don't need to create it again here, but you must make sure this module is using the same connection as the previous module.\
-   In the **[!UICONTROL Connection]** box, select the connection that you created for the previous module.
-1. Click **[!UICONTROL Record type]**, then select **[!UICONTROL Project]**, because we want to read records related to a project.
+1. Hover over the partial circle to the right of the of the module, then click **[!UICONTROL Add another module]**. 
+1. Select [!DNL Adobe Workfront] from the list of applications, then choose the module **[!UICONTROL Misc Action]**.
 
+   The Misc Action module allows you to perform actions in Workfront that do not have a dedicated module. In this example, this module is used to convert the task to a project.
+1. In the [!UICONTROL Connection] field, select  the same Workfront connection that you used in the previous module . 
+1. In the **[!UICONTROL Record type]**field, select **[!UICONTROL Task]**, because the action to perform is related to a task.
+1. In the **[!UICONTROL Action]** field, select **convertToProject**. This is the action that will convert the selected task to a Project.
+1. Click the **[!UICONTROL ID]** field. 
+
+   A panel opens that allows you to select what to use as the ID of the task you want to convert to a project. The panel includes output from any previous modules. Because you selected ID as an output of the previous module, it is now available in the panel.
+
+   This panel is called the mapping panel. For more information on the mapping panel, see [Map information from one module to another](/help/quicksilver/workfront-fusion/mapping/map-information-between-modules.md).
+1. Select **ID** in the mapping panel.
+
+   An ID block appears in the ID field. It shows the number of the module it is mapped from, and the field that is mapped.
+
+   ![Map ID](assets/map-id.png)
+
+1. (Optional) Set yourself as the owner of the newly created project. This is not necessary, but will make it easier for you to find the newly converted project in Workfront.
+
+   In the **Project** section, locate the **Owner ID** field. Begin typing your name in the field, then select it when it appears.
+ 
    >[!TIP]
    >
-   >You can find **[!UICONTROL Project]** in the list if you start typing the word "project."
+   >You can use **Cmd+F** ([!DNL Mac] OS) or **Ctrl-F** ([!DNL Windows] OS) to find a field quickly.
 
-1. Click the **[!UICONTROL Parent Record ID]** field. This field requires the Workfront ID of the project that you want to return tasks from.
+1. Click **[!UICONTROL OK]** to save the module configuration.
 
-   Clicking the field opens the list of variables that you can use in the **[!UICONTROL Parent Record ID]** field to identify the project in Workfront.
+1. Right-click the module, click **[!UICONTROL Rename]**, then type a name the describes what you want the module to do (such as "Convert to project)," then click **[!UICONTROL OK]**.
 
-   ![](assets/list-of-available-variables-wf-350x368.png)
-
-1. Click the variable **[!UICONTROL ID]** to add it to the **[!UICONTROL Parent Record ID]** field. This allows the ID returned from the first module to be used as the identifier for the project that you want to work with in the second module, which ensures that the tasks returned will belong to that project.
-1. In the **[!UICONTROL Collections]** field, select **[!UICONTROL Tasks]**. This indicates that the module is to return tasks associated with the chosen project.
-1. Click **[!UICONTROL OK]**
-
-   Now you have a working scenario.
-
-1. Give the second module a name such as "Return tasks associated with project," then continue with [Test the scenario](#test-the-scenario).
+1. Continue to [Test the scenario](#test-the-scenario).
 
 ## Test the scenario
 
 Before you activate your scenario, it's important to test it by running it at least once and viewing the results. This helps you understand how data flows through the scenario and find any errors.
 
-We chose to have 1 project returned, as well as the tasks associated with that project. If you run the scenario, that is what should happen.
+For this scenario, a successful test would result in locating the task and converting it to a project.
 
 1. Click **[!UICONTROL Run once]** in the lower-left corner of the scenario editor.
 1. After the scenario finishes running, click the bubble above the first module.
 
-   ![](assets/click-bubble.png)
+   ![](/help/quicksilver/workfront-fusion/free-tier-staging/assets/output-bubble.png)
 
-   In the box that appears, you can view information about the bundle of data that the module processed, including the actual data that was pulled from the project that the module returned.
+   In the box that appears, you can view information about the bundle of data that the module processed, including the actual data that was pulled from the task that the module returned.
 
-   ![](assets/execution-inspector-wf-only-first-350x423.png)
+1. Click the execution inspector bubble above the second module to see the input (the task) and the output, which is the newly converted project.
 
-1. Click the execution inspector bubble above the Second module to see the input of information and the output, which is a collection of tasks contained in the project.
-
-   ![](assets/execution-inspector-wf-only-second-350x738.png)
-
-   You can learn more about how to read scenario execution information in the following articles:
+   For more information about the data in the inspection bubbles, see:
 
    * For general information, see [Scenario execution flow in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
    * For information about processed bundles, see [Scenario execution, cycles, and phases in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
@@ -194,11 +196,11 @@ We chose to have 1 project returned, as well as the tasks associated with that p
 >1. Click the **[!UICONTROL Notes]** icon ![](assets/notes-icon-w-dot.png) to view your notes.
 >
 
-
-
 ## Activate the scenario
 
-This example scenario does not have a trigger module. If this were a scenario you would be using for real data it would start with a trigger module, and the last thing you would do is activate it. After you activate a scenario, by default, it runs every 15 minutes. You can change this by defining when and how often you want it to run.
+The last step in creating a scenario is activating it.
+
+Because this scenario is searching for a specific task, there is no need to activate it. Activating a scenario causes it to run on a schedule or when a specific action occurs in an application. After you activate a scenario, by default, it runs every 15 minutes. You can change this by defining when and how often you want it to run.
 
 For more information about activating scenarios, see [Activate or deactivate a scenario in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
 
