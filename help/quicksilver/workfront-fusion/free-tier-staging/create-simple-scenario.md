@@ -86,18 +86,22 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 1. In the [!UICONTROL Record Type] box, select **[!UICONTROL Task]**. This sets the module to search only tasks.
 
-   >[!TIP]
-   >
-   >You can find **[!UICONTROL Task]** in the list if you start typing the word "[!UICONTROL project]."
+   You can find **[!UICONTROL Task]** in the list if you start typing the word "[!UICONTROL task]."
 
    <!--Becky continue editing from here-->
 
-1. In the **[!UICONTROL Result Set]** box, select **[!UICONTROL First Matching Record]**. This sets the module to return only the first record it finds that meets the criteria. For this example, we need only one record returned.
-1. In the **[!UICONTROL Search criteria]** area, we'll set up a filter to return the specific project.
+1. In the **[!UICONTROL Result Set]** box, select **[!UICONTROL First Matching Record]**. 
 
-   1. In the first box under [!UICONTROL Search Criteria], select the field that you want to search the values of. For this example, select **[!UICONTROL Name]**.
-   1. For the operator, select [!UICONTROL Contains (case insensitive)]. This allows the module to find projects with your chosen words in its name, even if you do not enter the entire name, or enter the name with the incorrect case (such as all caps).
-   1. In the last field under [!UICONTROL Search Criteria], enter a word or phrase that you know is in the name of the project you are searching for.
+   This sets the module to return only the first record it finds that meets the criteria. For this example, we need only one record returned.
+1. In the **[!UICONTROL Search criteria]** area, configure the criteria to return the specific task.
+
+   1. In the first box under [!UICONTROL Search Criteria], select the field that you want to include in your search. For this example, select **[!UICONTROL Name]**.
+
+      You can find **[!UICONTROL Name]** in the list if you start typing the word "[!UICONTROL name]."
+   1. For the operator, click the dropdown arrow next to **Exist** and change it to [!UICONTROL **Contains (case insensitive)**]. 
+      
+      This allows the module to find projects with your chosen words in its name, even if you do not enter the entire name, or enter the name with the incorrect case (such as all caps).
+   1. In the last field under [!UICONTROL Search Criteria], enter a word or phrase that you know is in the name of the task you are searching for.
 
 1. In the **[!UICONTROL Outputs]** list, select the fields that you want the issue to output. For this example, select the **[!UICONTROL ID]** and **[!UICONTROL Name]** fields.
 
