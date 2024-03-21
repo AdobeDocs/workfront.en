@@ -84,6 +84,9 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
    The module configuration window opens.
 
+1. In the [!UICONTROL Connection] box, select your Workfront connection. 
+
+   If you do not have a Workfront connection, see [Create a connection to [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/connections/connect-to-fusion-general.md)
 1. In the [!UICONTROL Record Type] box, select **[!UICONTROL Task]**. This sets the module to search only tasks.
 
    You can find **[!UICONTROL Task]** in the list if you start typing the word "[!UICONTROL task]."
