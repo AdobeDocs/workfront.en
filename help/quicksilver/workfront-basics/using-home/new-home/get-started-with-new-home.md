@@ -58,7 +58,7 @@ Below are the ten widgets currently available to choose from, as well as a summa
     Displays recent comment threads from across Workfront, similarly to the My Updates page. You can use the reply button to compose a reply within the widget. This widget also shows comments made on tasks and issues that you are assigned to, that you assigned to another user, that you own, that you are primary contact on, or that you created—as long as the task or issue has been updated in the last 30 days.
 
 * **To-dos**\
-    This unique widget allows you to add text items to a personal checklist that you can freely edit.
+    This unique widget allows you to add items to a personal checklist that you can freely edit. To-dos are tracked as tasks in your personal project, and remain for up to two weeks after completion.
 
     >[!NOTE]
     >
