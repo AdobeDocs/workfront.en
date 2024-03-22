@@ -53,7 +53,7 @@ For more information, see [].
 >
 >We recommend enabling users who regularly work in creative tools and upload assets for review and approval as Frame.io users.
 
-### Create a project integrated with Frame.io
+### Create a project connected with Frame.io
 
 Project coordinators can create Workfront projects connected with Frame.io. When you create an connected project, you can
 
