@@ -41,6 +41,11 @@ recommendations: noDisplay, noCatalog
 
    Click **Save and Assemble** to save and assemble the package.
 
+   >[!NOTE]
+   >
+   >* The Save and Close and Save and Assemble buttons are available if a package has both a name with five or more characters and at least one object added to it.
+   >* You cannot assemble a package that is in an installable status such as Testing or Active.
+
 ## Edit or assemble an existing package
 
 1. Go to the environment that you want to create the package in. This is the environment that you are copying objects **from**.
