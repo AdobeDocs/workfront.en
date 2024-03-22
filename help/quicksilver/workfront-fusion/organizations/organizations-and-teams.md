@@ -163,19 +163,13 @@ To create a team:
 
 >[!NOTE] 
 >
->If you access [!DNL Fusion] through the [!DNL Adobe Experience Cloud], your notifications are handled in the [!DNL Experience Cloud] notification center.
->
->For more information, see [Access your notifications](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) in [[!DNL Adobe Unified Experience] for [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md)
-
-Email notification options are set on the team level.
-
->[!NOTE]
->
 >If your organization has been moved to the Unified Shell, you receive notifications through the Adobe Notifications area. You must use the Unified Shell experience to be able to see notifications in the Adobe Notifications area. 
 >
 >To use the Unified Shell Experience, including the Adobe Notifications area, click the Try New Fusion UI in Unified Experience button near the top of the page. This button is only available if your organization has moved to the Unified Shell.
 >
->For more information on locating notifications in the Unified Shell, see [Access your notifications](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications).
+>For more information, see [Access your notifications](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) in [!DNL Adobe Unified Experience] for [!DNL Workfront Fusion].
+
+Email notification options are set on the team level.
 
 1. In the left navigation panel, click **[!UICONTROL Team]**
 1. Select the **[!UICONTROL Notification Options]** tab.
