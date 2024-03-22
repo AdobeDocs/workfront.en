@@ -11,8 +11,6 @@ feature: Workfront Fusion
 
 The role of [!DNL Adobe Workfront Fusion] is to automate your processes so that you can concentrate on new tasks rather than repeating the same tasks again and again. It works by linking actions within and between apps and services to create a scenario that transfers and transforms your data automatically. The scenario you create watches for data in an app or service and processes that data to provide the result you want.
 
-A scenario is comprised of a series of modules that indicate how data should be transformed within an app or transferred between apps and web services.
-
 This example takes you through the process of creating a scenario that searches for a [!DNL Workfront] task in Workfront and the converts it to a project.
 
 <!--# Access requirements
@@ -140,9 +138,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
    ![Map ID](assets/map-id.png)
 
-1. (Optional) Set yourself as the owner of the newly created project. This is not necessary, but will make it easier for you to find the newly converted project in Workfront.
-
-   In the **Project** section, locate the **Owner ID** field. Begin typing your name in the field, then select it when it appears.
+1. (Optional) In the Project section, locate the Owner ID field and begin typing your name in the field, then select it when it appears. This will set you as the owner of the project, and will make it easier to find in Workfront.
  
    >[!TIP]
    >
@@ -161,13 +157,9 @@ Before you activate your scenario, it's important to test it by running it at le
 For this scenario, a successful test would result in locating the task and converting it to a project.
 
 1. Click **[!UICONTROL Run once]** in the lower-left corner of the scenario editor.
-1. After the scenario finishes running, click the bubble above the first module.
+1. After the scenario finishes running, click the bubble above the first module to can view information about the bundle of data that the module processed, including data pulled from the task that the module returned.
 
-   ![](/help/quicksilver/workfront-fusion/free-tier-staging/assets/output-bubble.png)
-
-   In the box that appears, you can view information about the bundle of data that the module processed, including the actual data that was pulled from the task that the module returned.
-
-1. Click the execution inspector bubble above the second module to see the input (the task) and the output, which is the newly converted project.
+1. Click the execution inspector bubble above the second module to see the input (the task) and the output (the converted project).
 
    For more information about the data in the inspection bubbles, see:
 
