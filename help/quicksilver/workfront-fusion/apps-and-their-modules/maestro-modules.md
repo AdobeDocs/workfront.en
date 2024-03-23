@@ -10,6 +10,7 @@ author: Becky
 feature: Workfront Fusion
 hide: yes
 hidefromtoc: yes
+exl-id: 892fdaf3-935e-4e66-a01c-9e9b6e0daf3e
 ---
 # [!DNL Adobe Maestro] modules
 
@@ -411,4 +412,3 @@ This action module retrieves a list of records based on criteria you specify.
 >[!NOTE]
 >
 >This module is under construction.
-

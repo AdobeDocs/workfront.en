@@ -1,9 +1,10 @@
 ---
 title: Add thumbnails to records
-description: You can edit record information in Adobe Maestro and associate each record with individual thumbnails, to make them easily recognizable. 
+description: You can edit record information in Adobe Maestro and associate each record with individual thumbnails, to make them easily recognizable.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
 ---
 <!--update the metadata with real information-->
 
@@ -124,4 +125,4 @@ Consider the following:
 
    The thumbnail displays to the left of the primary field value. 
 1. (Optional and conditional) If you do not have Contribute or higher permissions to the view, select a new view from the **View** drop-down menu, or create a view. 
-1. (Optional) To remove the thumbnail, hover over the primary field and click the **More** menu ![](assets/more-menu.png)> **Thumbnail** > the **Remove** icon ![](assets/remove-image-icon.png), then click **Save changes**. 
+1. (Optional) To remove the thumbnail, hover over the primary field and click the **More** menu ![](assets/more-menu.png)> **Thumbnail** > the **Remove** icon ![](assets/remove-image-icon.png), then click **Save changes**.

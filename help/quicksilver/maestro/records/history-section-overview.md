@@ -4,8 +4,8 @@ description: You can review changes made to the record and recorded by the syste
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
 ---
-
 # History section overview
 
 {{maestro-important-intro}}
@@ -85,4 +85,4 @@ You can review the changes made to record fields in the History section of the r
     * Last modified by
     * Last modified date
 
-* If a field is removed from the system, the updates made on that field remain in the History section. There is no indication that the field was removed in the History section of a record. 
+* If a field is removed from the system, the updates made on that field remain in the History section. There is no indication that the field was removed in the History section of a record.

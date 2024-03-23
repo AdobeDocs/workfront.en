@@ -1,11 +1,11 @@
 ---
-title: Manage record comments 
+title: Manage record comments
 description: YYou can collaborate on Adobe Maestro records, by adding comments or replies in the right panel of a record. You can also view other changes made to the record and recorded by the system in this area.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
 ---
-
 # Manage record comments
 
 {{maestro-important-intro}}
@@ -183,4 +183,3 @@ You must have the following access to perform the steps in this article:
 You can review the changes made to the record in the History section of the right panel of an operational record or taxonomy. 
 
 For more information, see [History section overview](/help/quicksilver/maestro/records/history-section-overview.md).
-

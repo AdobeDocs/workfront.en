@@ -4,6 +4,7 @@ description: Second Quarter 2024 Update stream and notification enhancements
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
 ---
 # Second Quarter 2024 Update stream and notification enhancements
 
