@@ -11,6 +11,7 @@ role: Admin
 hide: yes
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
+exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
 ---
 # Overview of moving objects between Workfront environments (Environment promotion)
 
@@ -129,5 +130,3 @@ These statuses include the following:
   </tr> 
   </tbody> 
 </table>
-
-

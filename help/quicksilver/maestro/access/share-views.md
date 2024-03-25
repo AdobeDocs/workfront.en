@@ -1,11 +1,11 @@
 ---
 title: Share views
-description: You can share a view with others to ensure collaboration when using the Adobe Workfront planning capabilities. 
+description: You can share a view with others to ensure collaboration when using the Adobe Workfront planning capabilities.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
 ---
-
 <!--update the metadata and description when we turn this article live-->
 
 # Share views

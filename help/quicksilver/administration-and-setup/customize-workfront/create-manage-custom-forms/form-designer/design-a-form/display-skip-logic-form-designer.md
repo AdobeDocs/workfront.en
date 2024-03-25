@@ -7,6 +7,7 @@ description: You can decide which sections of a custom form should be displayed 
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
+exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
 ---
 # Add display logic and skip logic with the form designer
 

@@ -4,6 +4,7 @@ description: Second Quarter 2024 Resource management enhancements
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+exl-id: 12b3c586-5f44-48cf-9451-1ef32118676f
 ---
 # Second Quarter 2024 Resource management enhancements
 

@@ -10,6 +10,7 @@ feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
+exl-id: 511c0831-a23f-4fbd-8c06-e4276c1c140d
 ---
 # Fusion access table template
 

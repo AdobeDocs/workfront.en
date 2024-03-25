@@ -1,11 +1,11 @@
 ---
 title: Formula fields overview
-description: In Adobe Maestro, you can create formula fields that use functions and existing  fields to calculate a new custom value. 
+description: In Adobe Maestro, you can create formula fields that use functions and existing  fields to calculate a new custom value.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: 5027d611-916e-492d-9a44-841bdde11c94
 ---
-
 # Formula fields overview
 
 <!--update the metadata with real information when making this available in TOC and in the left nav - below-->
@@ -158,8 +158,3 @@ In addition, we support the following expressions for Maestro formula fields:
    </td></tr>
    
    </table>
-
-
-
-
-

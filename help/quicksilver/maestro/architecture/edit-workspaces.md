@@ -1,9 +1,10 @@
 ---
 title: Edit workspaces
-description: You can edit the information of an existing workspace, like rename it. 
+description: You can edit the information of an existing workspace, like rename it.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
 ---
 <!--update the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -103,4 +104,4 @@ For more information about access requirements, see [Access requirements in Work
 
 1. (Optional) Click **Share** to share the workspace with others.
 
-    For information, see [Share workspaces](/help/quicksilver/maestro/access/share-workspaces.md). 
+    For information, see [Share workspaces](/help/quicksilver/maestro/access/share-workspaces.md).

@@ -1,10 +1,11 @@
 ---
 title: Overview of sharing permissions in Adobe Workfront planning capabilities
-description: You can share or remove permissions to an Adobe Maestro workspace or view.   
+description: You can share or remove permissions to an Adobe Maestro workspace or view.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
 el-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
+exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 ---
 <!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Maestro. This article describes the levels of access that users could have to Adobe Maestro. -->
 
@@ -113,9 +114,3 @@ You must grant separate permissions to record views. Granting permissions to the
 | Delete | ✓      |       |
 | View   | ✓      | ✓     |
 | Apply  | ✓      | ✓     |
-
-
-
-
-
- 

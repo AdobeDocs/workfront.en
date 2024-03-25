@@ -8,6 +8,7 @@ feature: Reports and Dashboards
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
 ---
 # Canvas Dashboards beta information
 
