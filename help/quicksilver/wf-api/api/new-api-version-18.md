@@ -119,19 +119,284 @@ An AccessLevelPermissions object represents a specific permission to access, cre
 
 If a User does not have access to an object in Workfront that they need, they can request access to that object. The AccessRequest object represents this request.
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>action</b>
+            </p>
+            <p>Added the following possible values:</p>
+            <ul>
+              <li>
+                <p><code>VIEW_COST_RATES</code> (View Cost Rates)</p>
+              </li>
+              <li>
+                <p><code>VIEW_BILLING_RATES</code> (View Billing Rates)</p>
+              </li>
+              <li>
+                <p><code>VIEW_GENERAL_FINANCE</code> (View general finance)</p>
+              </li>
+              <li>
+                <p><code>EDIT_COST_RATES</code> (Edit Cost Rates)</p>
+              </li>
+              <li>
+                <p><code>EDIT_BILLING_RATES</code> (Edit Billing Rates)</p>
+              </li>
+              <li>
+                <p><code>EDIT_GENERAL_FINANCE</code> (Edit General Finance)</p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### AccessRule (ACSRUL)
 
 An AccessRule object represents a rule set in custom access levels that determines how users can share projects they create.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>coreAction</b>
+            </p>
+            <p>Added the following possible values:</p>
+             <ul>
+              <li>
+                <p><code>VIEW_COST_RATES</code> (View Cost Rates)</p>
+              </li>
+              <li>
+                <p><code>VIEW_BILLING_RATES</code> (View Billing Rates)</p>
+              </li>
+              <li>
+                <p><code>VIEW_GENERAL_FINANCE</code> (View general finance)</p>
+              </li>
+              <li>
+                <p><code>EDIT_COST_RATES</code> (Edit Cost Rates)</p>
+              </li>
+              <li>
+                <p><code>EDIT_BILLING_RATES</code> (Edit Billing Rates)</p>
+              </li>
+              <li>
+                <p><code>EDIT_GENERAL_FINANCE</code> (Edit General Finance)</p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p><b>forbiddenActions</b>
+            </p>
+            <p>Added the following possible values:</p>
+            <ul>
+              <li>
+                <p><code>VIEW_COST_RATES</code> (View Cost Rates)</p>
+              </li>
+              <li>
+                <p><code>VIEW_BILLING_RATES</code> (View Billing Rates)</p>
+              </li>
+              <li>
+                <p><code>VIEW_GENERAL_FINANCE</code> (View general finance)</p>
+              </li>
+              <li>
+                <p><code>EDIT_COST_RATES</code> (Edit Cost Rates)</p>
+              </li>
+              <li>
+                <p><code>EDIT_BILLING_RATES</code> (Edit Billing Rates)</p>
+              </li>
+              <li>
+                <p><code>EDIT_GENERAL_FINANCE</code> (Edit General Finance)</p>
+              </li>
+            </ul>
+         </li>
+          <li>
+            <p><b>secondaryActions</b>
+            </p>
+            <p>Added the following possible values:</p>
+            <ul>
+              <li>
+                <p><code>VIEW_COST_RATES</code> (View Cost Rates)</p>
+              </li>
+              <li>
+                <p><code>VIEW_BILLING_RATES</code> (View Billing Rates)</p>
+              </li>
+              <li>
+                <p><code>VIEW_GENERAL_FINANCE</code> (View general finance)</p>
+              </li>
+              <li>
+                <p><code>EDIT_COST_RATES</code> (Edit Cost Rates)</p>
+              </li>
+              <li>
+                <p><code>EDIT_BILLING_RATES</code> (Edit Billing Rates)</p>
+              </li>
+              <li>
+                <p><code>EDIT_GENERAL_FINANCE</code> (Edit General Finance)</p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### Approval (APPROVAL)
 
 A given work item, such as a task, document, or timesheet, may require that a supervisor or other user sign off on the work item. An Approval object represents the action of signing off on a work item.
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p>Added the following fields:
+            </p>
+            <ul>
+              <li>
+                <p><b>actualBillableExpenseCost</b>
+                </p>
+              </li>
+              <li>
+                <p><b>actualNonBillableExpenseCost</b>
+                </p>
+              </li>
+              <li>
+                <p><b>plannedBillableExpenseCost</b>
+                </p>
+              </li>
+              <li>
+                <p><b>plannedNonBillableExpenseCost</b>
+                </p>
+              </li>
+             </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### AwaitingApproval (AWAPVL)
+
+  <tbody>
+    <tr>
+      <td role="rowheader">Operations</td>
+      <td>
+        <ul>
+          <li>
+            <p>Added the following operations:
+            </p>
+            <ul>
+              <li>
+                <p><b>ADD</b>
+                </p>
+              </li>
+              <li>
+                <p><b>DELETE</b>
+                </p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### Baseline (BLIN)
 
+Baselines are snapshots of what the performance of a project looked like at a given moment in time. They store key pieces of information about the project, like key dates, progress, cost and revenue values. 
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p>Added the following fields:
+            </p>
+            <ul>
+              <li>
+                <p><b>actualBillableExpenseCost</b>
+                </p>
+              </li>
+              <li>
+                <p><b>actualNonBillableExpenseCost</b>
+                </p>
+              </li>
+              <li>
+                <p><b>plannedBillableExpenseCost</b>
+                </p>
+              </li>
+              <li>
+                <p><b>plannedNonBillableExpenseCost</b>
+                </p>
+              </li>
+             </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### BaselineTask (BSTSK)
+
+Baselines are snapshots of what the performance of a project looked like at a given moment in time. They store key pieces of information about the project, like key dates, progress, cost and revenue values. When you create a baseline, the task information is also captured on the baseline tasks of that baseline.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p>Added the following fields:
+            </p>
+            <ul>
+              <li>
+                <p><b>actualBillableExpenseCost</b>
+                </p>
+              </li>
+              <li>
+                <p><b>actualNonBillableExpenseCost</b>
+                </p>
+              </li>
+              <li>
+                <p><b>plannedBillableExpenseCost</b>
+                </p>
+              </li>
+              <li>
+                <p><b>plannedNonBillableExpenseCost</b>
+                </p>
+              </li>
+             </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### Category (CTGY)
 
