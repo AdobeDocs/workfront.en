@@ -1,6 +1,6 @@
 ---
 title: Manage the table view
-description: You can display records and their fields in a table view, when accessing the record type page in Adobe Workfront planning capabilities.
+description: You can display records and their fields in a table view, when accessing the record type page in Adobe Workfront planning.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -22,7 +22,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-You can display records and their fields in a table view, when accessing the record type page in Adobe Workfront planning capabilities. 
+You can display records and their fields in a table view, when accessing the record type page in Adobe Workfront planning. 
 
 For information about record views and how to manage them, see [Manage record views](../views/manage-record-views.md).
 
@@ -45,7 +45,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfront planning capabilities closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront planning beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -63,7 +63,7 @@ You must have the following access to perform the steps in this article:
   
   <tr>
    <td role="rowheader">Access level configuration</td>
-   <td> <p>There are no access level controls for Adobe Workfornt planning capabilities </p>  
+   <td> <p>There are no access level controls for Adobe Workfornt planning</p>  
 </td>
   </tr>
 

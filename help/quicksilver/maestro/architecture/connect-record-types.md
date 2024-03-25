@@ -1,6 +1,6 @@
 ---
 title: Connect record types
-description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Maestro record types with object types from other applications to enhance your users' experience and keep their focus in one application.
+description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Adobe Workfront planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -8,7 +8,7 @@ exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 ---
 <!-----
 title: Connect record types
-description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Maestro record types with object types from other applications to enhance your users' experience and keep their focus in one application.
+description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Adobe Workfront planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
 hidefromtoc: yes
 hide: yes
 feature: Work management
@@ -24,17 +24,17 @@ author: Alina
 
 {{maestro-important-intro}}
 
-You can use Adobe Maestro to design fully-customizable workspaces that contain record types needed in your organization. A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Maestro record types with object types from other applications to enhance your users' experience and keep their focus in one application. 
+You can use Adobe Workfront planning to design fully-customizable workspaces that contain record types needed in your organization. A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Workfront planning record types with object types from other applications to enhance your users' experience and keep their focus in one application. 
 
-You can connect Maestro record types to one another or Maestro record types with object types from other applications. 
+You can connect record types to one another or record types with object types from other applications. 
 
-By doing this, you can display fields from the linked record or object type on another Maestro record.  
+By doing this, you can display fields from the linked record or object type on a Workfront planning record.  
 
-This article describes how you can connect two Maestro record types or a Maestro record type with an object from another application. 
+This article describes how you can connect two record types in Workfront planning or a record type with an object from another application. 
 
 After you establish the connection between records or object types, you can connect individual records to one another. 
 
-For information about connecting a Maestro record to an object from another application, see [Connect records](../records/connect-records.md). 
+For information about connecting a Workfront planning record to an object from another application, see [Connect records](../records/connect-records.md). 
 
 For an example of connecting record types, see [Example of connecting record types and records](../architecture/example-connect-record-types-and-records.md). 
 
@@ -55,11 +55,11 @@ You must have the following access to perform the steps in this article:
 <td>
    <p> Product</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>To connect Maestro record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console.</p> </td>
+   <p> Adobe Workfront</p> <p>To connect Adobe Workfront planning record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console.</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront planning closed beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -77,12 +77,12 @@ You must have the following access to perform the steps in this article:
   
   <tr>
    <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access level controls for Maestro</p>  
+   <td> <p>There are no access level controls for Adobe Workfront planning</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -94,7 +94,7 @@ You must have the following access to perform the steps in this article:
  </tbody>
 </table>
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but planing is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -108,16 +108,14 @@ You must have the following access to perform the steps in this article:
 
 ## Considerations about connecting record types
 
-* You can connect the following entities in Maestro:
+* You can connect the following entities in Adobe Workfront planning:
 
-    * Two operational record types
-    * Two taxonomies
-    * An operational record type and a taxonomy
-    * An operational record type or a taxonomy and an object type from another application. 
+    * Two record types
 
-    All operational record types and taxonomies must belong to the same workspace. 
+        The record types must belong to the same workspace. 
+    * A record type and an object type from another application. 
 
-* You can connect the following object types from the following applications with Maestro record types:
+* You can connect the following object types from the following applications with Workfront planning record types:
 
     * Adobe Workfront:
 
@@ -134,7 +132,7 @@ You must have the following access to perform the steps in this article:
 
         >[!IMPORTANT]
         >
-        >You must have an Adobe Experience Manager Assets license, and your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console to connect Maestro records to Adobe Experience Manager Assets.
+        >You must have an Adobe Experience Manager Assets license, and your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console to connect Workfront planning records to Adobe Experience Manager Assets.
         >
         >If you have questions about onboarding to the Adobe Admin Console, see the [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
@@ -148,13 +146,13 @@ You must have the following access to perform the steps in this article:
 
     * **When you connect a record type with an object type from another application**: A linked record field is created on the record type you're connecting from. No linked record field is automatically created on the other application's object type. 
         
-        A new Maestro read-only record type is created for the other application's object only when actual objects are connected to the Maestro records. 
+        A new Workfront planning read-only record type is created for the other application's object only when actual objects are connected to Workfront planning records. 
     
         For more information, see [Connect records](../records/connect-records.md). 
     
-    * **When you add lookup fields of the record or object you connect to**: You can connect fields from the other application's object to the Maestro record type. These are linked or lookup fields. Linked fields automatically display information from connected records or objects when you connect the records or the objects. The linked lookup fields are always read-only and populate automatically with the values of the connected records or objects. 
+    * **When you add lookup fields of the record or object you connect to**: You can connect fields from the other application's object to the Workfront planning record type. These are linked or lookup fields. Linked fields automatically display information from connected records or objects when you connect the records or the objects. The linked lookup fields are always read-only and populate automatically with the values of the connected records or objects. 
 
-        For example, if you connect the "Campaign" Maestro record type with a Workfront project and you select to bring the Planned Completion Date field of the project to the Maestro record, a linked field called Planned Completion Date (from Project) is automatically created for the campaign. You cannot manually edit this linked field. The Planned Completion Date (from Project) field displays the Planned Completion Date of the linked projects.  
+        For example, if you connect the "Campaign" record type with a Workfront project and you select to bring the Planned Completion Date field of the project to the Workfront planning record, a linked field called Planned Completion Date (from Project) is automatically created for the campaign. You cannot manually edit this linked field. The Planned Completion Date (from Project) field displays the Planned Completion Date of the linked projects.  
 
         >[!IMPORTANT]
         >
@@ -180,11 +178,11 @@ You must have the following access to perform the steps in this article:
 
 1. In the **Record type** field, search for a record type, or select one of the following: 
 
-    * Another operational record type or a taxonomy from the section of the workspace you selected
+    * Another record type from the section of the workspace you selected
 
         >[!TIP]
         >
-        >Only record types and taxonomies from the workspace you selected are available to connect to. 
+        >Only record types from the workspace you selected are available to connect to. 
         > 
         >If you don't have other record types in the selected workspace, the workspace section does not display. 
 
@@ -206,7 +204,7 @@ You must have the following access to perform the steps in this article:
      * **Allow multiple records**: Select this option to indicate that you allow that users can add multiple records when the linked record type field displays on the original records. This is selected by default.
      * **Select lookup fields**: Select this option to add fields from the selected record type. The lookup fields are fields associated with the record or object type that you are linking to. Linking them displays information from the record or object you're linking to on the record you are liking from. This is selected by default. 
 
-1. (Conditional and optional) If you selected to connect a Workfront object, select a **Custom form** from the **Link only objects that match these criteria** section. Only objects that have the selected custom forms attached can be linked to the selected Maestro record type. You can select more than one form. 
+1. (Conditional and optional) If you selected to connect a Workfront object, select a **Custom form** from the **Link only objects that match these criteria** section. Only objects that have the selected custom forms attached can be linked to the selected record type. You can select more than one form. 
 
     ![](assets/workfront-project-connection-selection.png)
 
@@ -280,13 +278,13 @@ You must have the following access to perform the steps in this article:
 
         For example, if you linked a Campaign record type with a Program record type and name the Program linked record field "Program information", then select to also display the Program's Budget field in the Campaign's table view, the linked field is automatically named `Budget (from Program information)` in the campaign's table view. 
 
-    * When you link Maestro record types to one another, a linked record field is also added on the record type you are linking to. The name of the linked record field on the linked record type is the name of the record type that you link from. 
+    * When you link record types to one another, a linked record field is also added on the record type you are linking to. The name of the linked record field on the linked record type is the name of the record type that you link from. 
     
         For example, if you link the "Product" record type from the "Campaign" record type and you name the connected field of the Campaign "Linked Product", a "Campaign" linked record field is created for the Product record type. 
 
         >[!TIP]
         >
-        > A linked record field  is not created for objects from another application to the record type you are linking from in Maestro.
+        > A linked record field  is not created for objects from another application to the record type you are linking from in Workfront planning.
 
 1. (Optional and conditional) From either the original record type or the linked record type table view, click the downward-pointing arrow in the header of the linked record fields, then click one of the following:
 
@@ -299,7 +297,7 @@ You must have the following access to perform the steps in this article:
 
     >[!NOTE]
     >
-    > You cannot add lookup fields that belong to Maestro record types that you are linking from to object types from another application.  
+    > You cannot add lookup fields that belong to record types that you are linking from to object types from another application.  
     >
     > For example, you cannot add the lookup field of "Campaign Status" to a Workfront project you are linking to from the campaigns.
     

@@ -1,6 +1,6 @@
 ---
 title: "Fields: article index"
-description: You can add new fields in Adobe Maestro that reflect your organization's lifecycle. Fields are attributes of record types.
+description: You can add new fields in Adobe Workfront planning that reflect your organization's lifecycle. Fields are attributes of record types.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -22,9 +22,9 @@ hide: yes
 
 {{maestro-important-intro}}
 
-As a marketing operations leader, you can use Adobe Maestro to organize work across the marketing lifecycle for all your teams. In Maestro, you can fully customize the architecture of your workflows, including adding custom fields for all the custom record types you create. 
+As a marketing operations leader, you can use Adobe Workfront planning to organize work across the marketing lifecycle for all your teams. In Workfront planning, you can fully customize the architecture of your workflows, including adding custom fields for all the custom record types you create. 
 
-The articles in the following sections describe how you can create and configure Maestro fields: 
+The articles in the following sections describe how you can create and configure Workfront planning fields: 
 
 * [Field overview](../fields/fields-overview.md)
 * [Create fields](../fields/create-fields.md)

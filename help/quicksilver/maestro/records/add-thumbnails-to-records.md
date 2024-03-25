@@ -1,6 +1,6 @@
 ---
 title: Add thumbnails to records
-description: You can edit record information in Adobe Maestro and associate each record with individual thumbnails, to make them easily recognizable.
+description: You can edit record information in Adobe Workfront planning and associate each record with individual thumbnails, to make them easily recognizable.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -12,7 +12,7 @@ exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
 
 {{maestro-important-intro}}
 
-You can associate records with unique thumbnails in Adobe Maestro, to make them easily recognizable. 
+You can associate records with unique thumbnails in Adobe Workfront planning, to make them easily recognizable. 
 
 You must create record types before you can start creating and editing records. 
 For information, see [Create record types](../architecture/create-record-types.md).
@@ -38,7 +38,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront planning beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -56,7 +56,7 @@ You must have the following access to perform the steps in this article:
   
   <tr>
    <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access controls for Maestro </p>  
+   <td> <p>There are no access controls for Workfront planning </p>  
 </td>
   </tr>
 <tr>
@@ -67,7 +67,7 @@ You must have the following access to perform the steps in this article:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td>  <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Maestro area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/maestro/access/access-overview.md">Access overview</a>. </p>  
+   <td>  <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/maestro/access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 

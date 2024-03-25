@@ -240,19 +240,19 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 
 ## Step 1 - Getting to Maestro - {#step1-to-maestro}
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Maestro]**.
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Planning]**.
 
 ## Maestro important intro - {#maestro-important-intro}
 
 >[!IMPORTANT]
 >
->The information in this article refers to Adobe Workfront planning capabilities, a new offering from Adobe Workfront.
+>The information in this article refers to Adobe Workfront planning, a new offering from Adobe Workfront.
 >
->Currently, the planning capabilities are part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use these capabilities.
+>Currently, Workfront planning is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use these capabilities.
 >
->Contact your account representative for more information about joining the beta program for the planning capabilities.
+>Contact your account representative for more information about joining the beta program for Workfront planning.
 >
->For more information about planning capabilities, see [Adobe Workfront planning capabilities overview](/help/quicksilver/maestro/maestro-overview.md).
+>For more information, see [Adobe Workfront planning overview](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 

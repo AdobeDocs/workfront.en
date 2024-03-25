@@ -1,15 +1,15 @@
 ---
 title: Delete record types
-description: You can delete operational record types or taxonomy record types when they are no longer relevant.
+description: You can delete record types when they are no longer relevant.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
 exl-id: 70fd3887-3871-45b5-9c21-f57da63662aa
 ---
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav:
+<!--update the metadata with real information when making this available in TOC and in the left nav:
 ---
 title: Delete record types
-description: You can delete operational record types or taxonomy record types when they are no longer relevant. 
+description: You can delete record types when they are no longer relevant. 
 author: Alina
 feature: Work Management
 topic: Architecture
@@ -23,11 +23,11 @@ hide: yes
 
 {{maestro-important-intro}}
 
-You can delete operational record types or taxonomy record types when they are no longer relevant. 
+You can delete record types when they are no longer relevant. 
 
-For information about record types and taxonomies, see [Overview of record types and taxonomies](../architecture/overview-of-record-types-and-taxonomies.md).
+However, deleting record types also deletes all information associated with the record types. For more information, see the [Considerations when deleting record types](#considerations-when-deleting-record-types) section in this article. 
 
-We recommend recreating the fields and the records associated with the record type or taxonomy that you want to delete on another record type before deleting them.
+For information about record types, see [Overview of record types](../architecture/overview-of-record-types-and-taxonomies.md).
 
 <!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
@@ -50,7 +50,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront planning beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -68,7 +68,7 @@ You must have the following access to perform the steps in this article:
   
   <tr>
    <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access level controls for Maestro</p>  
+   <td> <p>There are no access level controls for Adobe Workfront planning</p>  
 </td>
   </tr>
 
@@ -80,14 +80,14 @@ You must have the following access to perform the steps in this article:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 
  </tbody>
 </table>
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -102,13 +102,17 @@ You must have the following access to perform the steps in this article:
 
 <!--check this and ensure these are still true - some things might change with / after closed beta-->
 
-* You can delete only record types or taxonomies from workspaces where you have Manage permissions to. 
-* Deleting record types removes all the information associated with them, including fields and records of that type. The record type is removed from all users accessing the workspace.
+* You can delete only record types from workspaces to which you have Manage permissions.
+* Deleting record types removes the following information associated with them:
+
+   * All records of that type.
+   * All fields associated with the record type. 
+   * All views (including filters, groupings, and sorting criteria) of the record type.
+* The record type is removed from all users accessing the workspace.
 * You cannot recover deleted record types or their information. 
+* We recommend recreating the fields and the records associated with the record type that you want to delete on another record type before deleting them.
 
 ## Delete record types
-
-Deleting taxonomy record types is identical to deleting operational record types. 
 
 {{step1-to-maestro}}
 
@@ -117,10 +121,10 @@ Deleting taxonomy record types is identical to deleting operational record types
 1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to delete record types for.  
 
     The workspace opens and the record types and taxonomies associated with it display. 
-1. Click the card for the record type or the taxonomy that you want to delete. 
+1. Click the card for the record type that you want to delete. 
 
     This opens the record type's page. 
 1. Click the **More** menu ![](assets/more-menu.png) to the right of the record type name, then click **Delete**. 
 1. Click **Delete** to confirm. 
 
-    The selected record type or taxonomy, along with their fields and associated records, are deleted.
+    The selected record type, along with their fields, associated records, and views are deleted.
