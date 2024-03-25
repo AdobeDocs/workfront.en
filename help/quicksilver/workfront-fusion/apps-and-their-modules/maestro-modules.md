@@ -4,17 +4,17 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
-title: Adobe Maestro modules
-description: With the [!DNL Adobe Maestro] modules, you can start an [!DNL Adobe Workfront Fusion] scenario based on events in your [!DNL Adobe] Maestro account, create, read, or update agreements and other records, search for records using criteria you set, and upload documents.
+title: Adobe Workfront Planning modules
+description: With the [!DNL Adobe Workfront Planning] modules, you can start an [!DNL Adobe Workfront Fusion] scenario based on events in your [!DNL Adobe] Workfront Planning account, create, read, or update agreements and other records, search for records using criteria you set, and upload documents.
 author: Becky
 feature: Workfront Fusion
 hide: yes
 hidefromtoc: yes
 exl-id: 892fdaf3-935e-4e66-a01c-9e9b6e0daf3e
 ---
-# [!DNL Adobe Maestro] modules
+# [!DNL Adobe Workfront Planning] modules
 
-With the [!DNL Adobe Maestro] modules, you can trigger a scenario when events occur in Maestro. You can also create, read, update, and delete records, or perform a custom API call to your [!DNL Adobe Maestro] account.
+With the [!DNL Adobe Workfront Planning] modules, you can trigger a scenario when events occur in Workfront Planning. You can also create, read, update, and delete records, or perform a custom API call to your [!DNL Adobe Workfront Planning] account.
 
 ## Access requirements
 
@@ -55,21 +55,21 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Create a connection to [!DNL Adobe Maestro]
+## Create a connection to [!DNL Adobe Workfront Planning]
 
-You can create a connection to your [!DNL Maestro] account directly from inside a [!DNL Workfront Fusion] module.
+You can create a connection to your [!DNL Workfront Planning] account directly from inside a [!DNL Workfront Fusion] module.
 
-1. In any [!DNL Maestro] app module, click **[!UICONTROL Add]** next to the [!UICONTROL Connection] box.
+1. In any [!DNL Workfront Planning] app module, click **[!UICONTROL Add]** next to the [!UICONTROL Connection] box.
 1. Enter a name for this connection.
 1. Select whether you want to connect to a production environment, or a non-production environment.
 1. Select whether you are connecting to a service account or a personal account.
 1. Click **[!UICONTROL SAML log in]** to create the connection and go back to the module.
 
-## [!DNL Adobe Maestro] modules and their fields
+## [!DNL Adobe Workfront Planning] modules and their fields
 
 ### Watch Events
 
-This trigger module starts a scenario when a record, record type, or workspace is created, updated, or deleted in Maestro.
+This trigger module starts a scenario when a record, record type, or workspace is created, updated, or deleted in Workfront Planning.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -81,7 +81,7 @@ This trigger module starts a scenario when a record, record type, or workspace i
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Maestro], see <a href="#create-a-connection-to-adobe-maestro" class="MCXref xref" >Create a connection to [!DNL Adobe Maestro]</a> in this article.</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Workfront Planning], see <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Create a connection to [!DNL Adobe Workfront Planning]</a> in this article.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Object type]</td>
@@ -102,11 +102,11 @@ This trigger module starts a scenario when a record, record type, or workspace i
 
 ### Delete a record type
 
-This action module deletes a single record type in Maestro by its ID.
+This action module deletes a single record type in Workfront Planning by its ID.
 
 >[!WARNING]
 >
->Deleting a record type in Maestro also deletes all records in the record type table. 
+>Deleting a record type in Workfront Planning also deletes all records in the record type table. 
 
 <table style="table-layout:auto"> 
   <col/>
@@ -114,7 +114,7 @@ This action module deletes a single record type in Maestro by its ID.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Maestro], see <a href="#create-a-connection-to-adobe-maestro" class="MCXref xref" >Create a connection to [!DNL Adobe Maestro]</a> in this article.</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Workfront Planning], see <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Create a connection to [!DNL Adobe Workfront Planning]</a> in this article.</td>
     </tr>
      <tr>
       <td role="rowheader">
@@ -127,7 +127,7 @@ This action module deletes a single record type in Maestro by its ID.
 
 ### Make a custom API call
 
-This module makes a custom API call to the [!DNL Adobe Maestro] API.
+This module makes a custom API call to the [!DNL Adobe Workfront Planning] API.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -135,7 +135,7 @@ This module makes a custom API call to the [!DNL Adobe Maestro] API.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Maestro], see <a href="#create-a-connection-to-adobe-maestro" class="MCXref xref" >Create a connection to [!DNL Adobe Maestro]</a> in this article.</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Workfront Planning], see <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Create a connection to [!DNL Adobe Workfront Planning]</a> in this article.</td>
     </tr>
      <tr>
       <td role="rowheader">
@@ -194,11 +194,11 @@ This module makes a custom API call to the [!DNL Adobe Maestro] API.
 
 ### Delete a field
 
-This action module deletes a single field in Maestro by its ID.
+This action module deletes a single field in Workfront Planning by its ID.
 
 >[!WARNING]
 >
->Deleting a field in Maestro deletes it and any data in it from every object of that record type in Maestro.
+>Deleting a field in Workfront Planning deletes it and any data in it from every object of that record type in Workfront Planning.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -206,7 +206,7 @@ This action module deletes a single field in Maestro by its ID.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Maestro], see <a href="#create-a-connection-to-adobe-maestro" class="MCXref xref" >Create a connection to [!DNL Adobe Maestro]</a> in this article.</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Workfront Planning], see <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Create a connection to [!DNL Adobe Workfront Planning]</a> in this article.</td>
     </tr>
      <tr>
       <td role="rowheader">
@@ -220,7 +220,7 @@ This action module deletes a single field in Maestro by its ID.
 ### Get a field 
 
 
-This action module retrieves a single field in Maestro by its ID.
+This action module retrieves a single field in Workfront Planning by its ID.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -228,7 +228,7 @@ This action module retrieves a single field in Maestro by its ID.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Maestro], see <a href="#create-a-connection-to-adobe-maestro" class="MCXref xref" >Create a connection to [!DNL Adobe Maestro]</a> in this article.</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Workfront Planning], see <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Create a connection to [!DNL Adobe Workfront Planning]</a> in this article.</td>
     </tr>
      <tr>
       <td role="rowheader">
@@ -243,7 +243,7 @@ This action module retrieves a single field in Maestro by its ID.
 
 ### Create a record
 
-This action creates a single record in Maestro.
+This action creates a single record in Workfront Planning.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -251,13 +251,13 @@ This action creates a single record in Maestro.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Maestro], see <a href="#create-a-connection-to-adobe-maestro" class="MCXref xref" >Create a connection to [!DNL Adobe Maestro]</a> in this article.</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Workfront Planning], see <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Create a connection to [!DNL Adobe Workfront Planning]</a> in this article.</td>
     </tr>
      <tr>
       <td role="rowheader">
         <p>[!UICONTROL Record type ID]</p>
       </td>
-      <td>Enter or map the type of record you want to create. Available record types are based on your Maestro account.</td> 
+      <td>Enter or map the type of record you want to create. Available record types are based on your Workfront Planning account.</td> 
       </tr>
      <tr>
       <td role="rowheader">
@@ -271,7 +271,7 @@ This action creates a single record in Maestro.
 
 ### Delete a record
 
-This action module deletes the specified record in Maestro.
+This action module deletes the specified record in Workfront Planning.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -279,7 +279,7 @@ This action module deletes the specified record in Maestro.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Maestro], see <a href="#create-a-connection-to-adobe-maestro" class="MCXref xref" >Create a connection to [!DNL Adobe Maestro]</a> in this article.</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Workfront Planning], see <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Create a connection to [!DNL Adobe Workfront Planning]</a> in this article.</td>
     </tr>
      <tr>
       <td role="rowheader">
@@ -294,7 +294,7 @@ This action module deletes the specified record in Maestro.
 
 ### Get all records
 
-This action module retrieves all records from an [!DNL Adobe Maestro] account.
+This action module retrieves all records from an [!DNL Adobe Workfront Planning] account.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -302,7 +302,7 @@ This action module retrieves all records from an [!DNL Adobe Maestro] account.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Maestro], see <a href="#create-a-connection-to-adobe-maestro" class="MCXref xref" >Create a connection to [!DNL Adobe Maestro]</a> in this article.</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Workfront Planning], see <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Create a connection to [!DNL Adobe Workfront Planning]</a> in this article.</td>
     </tr>
      <tr>
       <td role="rowheader">
@@ -317,7 +317,7 @@ This action module retrieves all records from an [!DNL Adobe Maestro] account.
 
 ### Get a record
 
-This action module retrieves a single record from [!DNL Adobe Maestro], specified by its ID.
+This action module retrieves a single record from [!DNL Adobe Workfront Planning], specified by its ID.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -325,7 +325,7 @@ This action module retrieves a single record from [!DNL Adobe Maestro], specifie
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Maestro], see <a href="#create-a-connection-to-adobe-maestro" class="MCXref xref" >Create a connection to [!DNL Adobe Maestro]</a> in this article.</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Workfront Planning], see <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Create a connection to [!DNL Adobe Workfront Planning]</a> in this article.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Record ID]</td>
@@ -344,7 +344,7 @@ This action module retrieves all records of the specified type.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Maestro], see <a href="#create-a-connection-to-adobe-maestro" class="MCXref xref" >Create a connection to [!DNL Adobe Maestro]</a> in this article.</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Workfront Planning], see <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Create a connection to [!DNL Adobe Workfront Planning]</a> in this article.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Workspace]</td>
@@ -364,7 +364,7 @@ This action module retrieves all records of the specified type.
 
 ### Get record types
 
-This action module retrieves a list of record types in an [!DNL Adobe Maestro] account.
+This action module retrieves a list of record types in an [!DNL Adobe Workfront Planning] account.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -372,14 +372,14 @@ This action module retrieves a list of record types in an [!DNL Adobe Maestro] a
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Maestro], see <a href="#create-a-connection-to-adobe-maestro" class="MCXref xref" >Create a connection to [!DNL Adobe Maestro]</a> in this article.</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Workfront Planning], see <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Create a connection to [!DNL Adobe Workfront Planning]</a> in this article.</td>
     </tr>
   </tbody>
 </table>
 
 ### Update record
 
-This action updates a single record in Maestro.
+This action updates a single record in Workfront Planning.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -387,13 +387,13 @@ This action updates a single record in Maestro.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Maestro], see <a href="#create-a-connection-to-adobe-maestro" class="MCXref xref" >Create a connection to [!DNL Adobe Maestro]</a> in this article.</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Workfront Planning], see <a href="#create-a-connection-to-adobe-workfront planning" class="MCXref xref" >Create a connection to [!DNL Adobe Workfront Planning]</a> in this article.</td>
     </tr>
      <tr>
       <td role="rowheader">
         <p>[!UICONTROL Record ID]</p>
       </td>
-      <td>Enter or map the type of record you want to update . Available record types are based on your Maestro account.</td> 
+      <td>Enter or map the type of record you want to update . Available record types are based on your Workfront Planning account.</td> 
       </tr>
      <tr>
       <td role="rowheader">
