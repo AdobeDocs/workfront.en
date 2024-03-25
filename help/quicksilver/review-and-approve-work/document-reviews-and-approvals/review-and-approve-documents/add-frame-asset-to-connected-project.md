@@ -1,13 +1,12 @@
 ---
 product-area: projects
 navigation-topic: approvals
-title: Add a Frame.io asset to a connected Workfront project 
-description: Creatives can add assets that need to be reviewed to Frame.io and send them to Workfront for formal review and approval. 
+title: Add a Frame.io asset to a connected Workfront project
+description: Creatives can add assets that need to be reviewed to Frame.io and send them to Workfront for formal review and approval.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-
+exl-id: f196e56f-6e67-4d54-b36d-83bb4a3ae681
 ---
-
 # Add a Frame.io asset to a connected Workfront project 
 
 >[!IMPORTANT]

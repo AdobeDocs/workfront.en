@@ -53,6 +53,13 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
+## Prerequisites
+
+You must add the Fusion IP addresses to [!DNL Adobe Campaign].
+
+* For instructions on adding IP addresses to your Campaign allowlist, see [Adding IP addresses to the allowlist](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/ip-range-allow-listing#adding-ip-addresses-allow-list) in the Adobe Campaign documentation.
+* For a list of IP addresses to add to the allowlist, see [IP Addresses for accessing Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/ip-addresses-for-fusion.md).
+
 ## Connect [!DNL Adobe Campaign] to [!DNL Adobe Workfront Fusion]
 
 >[!IMPORTANT]

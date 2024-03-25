@@ -11,6 +11,7 @@ role: Admin
 hide: yes
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
+exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
 ---
 # Create or edit an environment promotion package
 
@@ -59,5 +60,3 @@ recommendations: noDisplay, noCatalog
 1. To install the package, click **Install** at the upper-right of the screen.
 
    For instructions on installing a package, see [Install an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
-
-

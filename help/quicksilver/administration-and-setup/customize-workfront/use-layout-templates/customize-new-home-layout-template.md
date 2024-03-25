@@ -7,6 +7,7 @@ description: You can use a Layout Template to configure what users see when they
 author: Nolan
 feature: System Setup and Administration
 role: Admin
+exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
 ---
 # Customize new Home using a layout template
 
@@ -125,4 +126,3 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
    Or
 
    If you are finished customizing, click **Save** in the bottom-left corner.
-

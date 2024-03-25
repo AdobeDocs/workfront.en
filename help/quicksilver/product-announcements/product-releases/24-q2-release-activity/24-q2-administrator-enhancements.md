@@ -4,6 +4,7 @@ description: Second Quarter 2024 Administrator enhancements
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+exl-id: a297ee8d-d949-45ab-a219-437316fa8fa3
 ---
 # Second Quarter 2024 Administrator enhancements
 

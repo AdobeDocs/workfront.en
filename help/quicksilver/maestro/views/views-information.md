@@ -1,6 +1,6 @@
 ---
 title: "Views: article index"
-description: You can display Adobe Maestro records in a table or timeline view. The following articles describe how you can create and manage Adobe Maestro record views.
+description: You can display Adobe Workfront planning records in a table, timeline, or calendar view. The following articles describe how you can create and manage Adobe Workfront planning record views.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -24,9 +24,9 @@ hide: yes
 
 {{maestro-important-intro}}
 
-You can display Adobe Maestro records in a table or timeline view. 
+You can display Adobe Workfront planning records in a table, timeline, or calendar view. 
 
-The following articles describe how you can create and manage record views in Adobe Maestro:
+The following articles describe how you can create and manage record views in Adobe Workfront planning:
 
 * [Manage record views](../views/manage-record-views.md)
 * [Manage the table view](../views/manage-the-table-view.md)

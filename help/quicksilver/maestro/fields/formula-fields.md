@@ -1,11 +1,11 @@
 ---
 title: Formula fields overview
-description: In Adobe Maestro, you can create formula fields that use functions and existing  fields to calculate a new custom value. 
+description: In Adobe Workfront planning, you can create formula fields that use functions and existing  fields to calculate a new custom value.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: 5027d611-916e-492d-9a44-841bdde11c94
 ---
-
 # Formula fields overview
 
 <!--update the metadata with real information when making this available in TOC and in the left nav - below-->
@@ -25,7 +25,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-You can create custom fields in Adobe Maestro by referring to existing fields and connecting them by a formula. You can do this by creating a custom Formula-type field. 
+You can create custom fields in Adobe Workfront planning by referring to existing fields and connecting them by a formula. You can do this by creating a custom Formula-type field. 
 
 Formula fields generate a new value using existing values from other fields in a record type and a function that indicates how the existing values should be calculated. 
 
@@ -50,7 +50,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront planning beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -68,7 +68,7 @@ You must have the following access to perform the steps in this article:
   
   <tr>
    <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access controls for Maestro</p>  
+   <td> <p>There are no access controls for Workfornt planining</p>  
 </td>
   </tr>
 <tr>
@@ -79,7 +79,7 @@ You must have the following access to perform the steps in this article:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 
@@ -96,14 +96,14 @@ You must have the following access to perform the steps in this article:
 * Formula fields reference fields that belong to the same record type. You cannot reference fields from other record types when creating a formula field. <!--is this still accurate??-->
 * You cannot change the Field type of a Formula field after you saved it. 
 * You can update the calculation of a formula field after you save it, and the results of the calculation update automatically for all the records of the same type. 
-* You must add the fields you reference in formulas as they display in the Maestro interface. 
+* You must add the fields you reference in formulas as they display in the Workfront planning interface. 
 * Using lookup fields from linked record types in a formula will be available at a later date. 
 
 ## Supported formulas
 
-Maestro formula fields support all expressions from the Workfront calculated fields. For more information, see [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Adobe Workfront planning formula fields support all expressions from the Workfront calculated fields. For more information, see [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-In addition, we support the following expressions for Maestro formula fields:
+In addition, we support the following expressions for Workfront planning formula fields:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -158,8 +158,3 @@ In addition, we support the following expressions for Maestro formula fields:
    </td></tr>
    
    </table>
-
-
-
-
-

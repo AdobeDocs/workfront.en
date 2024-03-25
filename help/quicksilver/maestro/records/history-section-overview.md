@@ -1,11 +1,11 @@
 ---
 title: History section overview
-description: You can review changes made to the record and recorded by the system in the right panel of a record in Adobe Maestro.
+description: You can review changes made to the record and recorded by the system in the right panel of a record in Adobe Workfront planning.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
 ---
-
 # History section overview
 
 {{maestro-important-intro}}
@@ -18,11 +18,11 @@ recommendations: noDisplay, noCatalog
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
-You can collaborate on Adobe Maestro records, by adding comments or replies in the right panel of a record. You can also view other changes made to the record and recorded by the system in this area.
+You can collaborate on Adobe Workfront planning records, by adding comments or replies in the right panel of a record. You can also view other changes made to the record and recorded by the system in this area.
 
 The right panel of a record displays the following sections:
 
-* **Comments**: Displays comments and replies users add to records. For more information about managing comments in Maestro records, see [Manage record comments](/help/quicksilver/maestro/records/manage-record-comments.md). 
+* **Comments**: Displays comments and replies users add to records. For more information about managing comments in Workfront planning records, see [Manage record comments](/help/quicksilver/maestro/records/manage-record-comments.md). 
 * **History**: Displays system-recorded changes that users  make to the record fields. 
 
 ## Locate the History section of a record
@@ -40,11 +40,11 @@ The right panel of a record displays the following sections:
 
 ## Considerations about the History section 
 
-You can review the changes made to record fields in the History section of the right panel of an operational record or taxonomy's Details page. 
+You can review the changes made to record fields in the History section of the right panel of a record's Details page. 
 
 ![](assets/history-area-in-comments.png)
 
-* Maestro records the following information in the History section: 
+* Workfront planning records the following information in the History section: 
 
     * Any field changes 
 
@@ -74,7 +74,7 @@ You can review the changes made to record fields in the History section of the r
 
 * Checkbox-type fields never display the old value in strikethrough format. If the field is edited, only the current state at the moment the change was made displays. 
 
-    For more information about Maestro fields, see [Create fields](/help/quicksilver/maestro/fields/create-fields.md). 
+    For more information about Workfront planning fields, see [Create fields](/help/quicksilver/maestro/fields/create-fields.md). 
 
 * Changes to fields of the following types do not display in the History section: 
 
@@ -85,4 +85,4 @@ You can review the changes made to record fields in the History section of the r
     * Last modified by
     * Last modified date
 
-* If a field is removed from the system, the updates made on that field remain in the History section. There is no indication that the field was removed in the History section of a record. 
+* If a field is removed from the system, the updates made on that field remain in the History section. There is no indication that the field was removed in the History section of a record.

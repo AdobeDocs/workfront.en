@@ -4,6 +4,7 @@ description: This page provides information about functionality that is included
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
 ---
 # Second Quarter 2024 release overview
 

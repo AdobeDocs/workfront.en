@@ -4,6 +4,7 @@ description: Second Quarter 2024 Update stream and notification enhancements
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
 ---
 # Second Quarter 2024 Update stream and notification enhancements
 
@@ -46,7 +47,7 @@ Comments made on the system activity records in the legacy commenting experience
 
 For more information, see [Updates section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Discussion of this specific feature starts at 2:00 in the video.)
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Discussion of this specific feature starts at 2:00)
 
 ## New update stream tab to capture both comments and system activity entries
 
@@ -60,7 +61,7 @@ The All tab is a view-only tab. You cannot reply to comments or tag other users 
 
 For more information, see [Updates section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Discussion of this specific feature starts at 0:31 in the video.)
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Discussion of this specific feature starts at 0:31)
 
 ## New commenting stream now available in the Summary panel
 

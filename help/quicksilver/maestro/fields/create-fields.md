@@ -1,6 +1,6 @@
 ---
 title: Create fields
-description: In Adobe Maestro, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with Maestro records.
+description: In Adobe Workfront planning, you can create custom fields for each kind of record type. You can then associate the field with Workfront planning records.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -29,7 +29,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-In Adobe Maestro, you can create custom fields for operational record types or taxonomies. You can then associate the fields with Maestro records to enhance record information. 
+In Adobe Workfront planning, you can create custom fields for record types. You can then associate the fields with Workfront planning records to enhance record information. 
 
 You must create record types before you can create fields to associate with them. For information, see [Create record types](../architecture/create-record-types.md). 
 
@@ -62,7 +62,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront planning beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -80,7 +80,7 @@ You must have the following access to perform the steps in this article:
   
   <tr>
    <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access level control for Maestro</p>  
+   <td> <p>There are no access level control for Workfront planning</p>  
 </td>
   </tr>
 
@@ -92,7 +92,7 @@ You must have the following access to perform the steps in this article:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 
@@ -367,13 +367,13 @@ For more information, see [Formula fields overview](/help/quicksilver/maestro/fi
 
    For more information about what expressions are supported, see [Formula fields overview](/help/quicksilver/maestro/fields/formula-fields.md)
 
-1. Add field names as they display in Maestro interface to reference them in a formula. 
+1. Add field names as they display in Workfront planning interface to reference them in a formula. 
 
     >[!NOTE]
     >
     > * You cannot add Multi-select type fields in a formula.
     >
-    > * You cannot add fields from linked records in a formula. This functionality will be released at a later date. For more information about new releases, see [Adobe Workfront planning capabilities release activity](/help/quicksilver/maestro/release-activity.md).
+    > * You cannot add fields from linked records in a formula. This functionality will be released at a later date. For more information about new releases, see [Adobe Workfront planning release activity](/help/quicksilver/maestro/release-activity.md).
 
 
 1. Click **Create**.
@@ -507,7 +507,7 @@ You can use the Last modified date field type to add the date when a record was 
 
 You can create linked record fields when you add a new connection between two Maestro record types, or a record type and an object types from other applications. 
         
-For information about connecting Maestro record types, see [Connect record types](../architecture/connect-record-types.md)
+For information about connecting Workfront planning record types, see [Connect record types](../architecture/connect-record-types.md)
 
 ## Create fields by importing record types using an Excel and CSV file
 
@@ -515,10 +515,10 @@ For more information, see [Create record types](../architecture/create-record-ty
 
 ## Create fields by creating a record type
 
-When you create a record type, several fields associated with the new record type are also created by default. For more information, see [Create operational record types](../architecture/create-record-types.md). 
+When you create a record type, several fields associated with the new record type are also created by default. For more information, see [Create record types](../architecture/create-record-types.md). 
 
 ## Create fields by creating a workspace from a template
 
-Maestro creates fields for operational record types and taxonomies when you create a workspace from a template. 
+Adobe Workfront planning creates fields for record types when you create a workspace from a template. 
 
-For information, see [Create operational workspaces](../architecture/create-workspaces.md).
+For information, see [Create workspaces](/help/quicksilver/maestro/architecture/create-workspaces.md). 
