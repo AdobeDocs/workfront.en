@@ -1,6 +1,6 @@
 ---
 title: Edit fields
-description: In Adobe Maestro, you can edit the field settings for fields that are already created.
+description: In Adobe Workfront planning, you can edit the field settings for fields that are already created.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -24,11 +24,11 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-You can edit the field settings for fields that are already created. 
+You can edit the field settings for fields that are already created in Adobe Workfront planning. 
 
-For information about creating Adobe Maestro fields, see [Create fields](../fields/create-fields.md).
+For information about creating Adobe Workfront planning fields, see [Create fields](../fields/create-fields.md).
 
-This article describes how you can edit the settings for Maestro fields. For information about editing field values for Maestro records, see [Edit records](/help/quicksilver/maestro/records/edit-records.md).
+This article describes how you can edit the settings for Workfront planning fields. For information about editing field values for records, see [Edit records](/help/quicksilver/maestro/records/edit-records.md).
 
 ## Considerations about editing field information
 
@@ -63,7 +63,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront planning beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -81,7 +81,7 @@ You must have the following access to perform the steps in this article:
   
   <tr>
    <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access controls for Maestro</p>  
+   <td> <p>There are no access controls for Workfront planning</p>  
 </td>
   </tr>
 
@@ -93,7 +93,7 @@ You must have the following access to perform the steps in this article:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 
@@ -107,14 +107,14 @@ You must have the following access to perform the steps in this article:
 
 ## Edit fields
 
-1. Click the **Main Menu** icon ![](assets/main-menu-workfront.png) in the upper-right corner of Workfront, or the **Main menu** icon ![](assets/main-menu-shell.png)  in the upper-left corner, if available, then click **Maestro** ![](assets/maestro-icon.png).
+{{step1-to-maestro}}
 
     The last-accessed workspace should open by default. 
 
 1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to delete record types for.  
 
-    The workspace opens and the record types and taxonomies associated with it display. 
-1. Click the card for the record type or the taxonomy whose fields you want to edit.
+    The workspace opens and the record types associated with it display. 
+1. Click the card for the record type whose fields you want to edit.
 
     This opens the record type's page. 
 1. (Conditional) Select a **Table view** from the **View** drop-down menu in the upper-right corner of the record type page.

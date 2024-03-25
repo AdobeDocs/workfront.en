@@ -63,7 +63,7 @@ You must have the following access to perform the steps in this article:
   
   <tr>
    <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access level controls for Maestro</p>  
+   <td> <p>There are no access level controls for Workfront planning</p>  
 </td>
   </tr>
 
@@ -75,14 +75,14 @@ You must have the following access to perform the steps in this article:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 
  </tbody>
 </table>
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -93,12 +93,12 @@ You must have the following access to perform the steps in this article:
 
    The last-accessed workspace should open by default. 
 
-1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to create record types for.
+1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to edit record types for.
 1. Hover over the card of a record type and click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the record type card, then click **Update appearance**. 
 
     ![](assets/update-appearance-link-from-more-menu-on-record-type-card.png)
 
-1. In the Update record type box, update the following information: 
+1. In the **Update record type** box, update the following information: 
 
     * **Record name**: Edit the record type name, if needed. <!--correct this - I asked Garik to change this field to "Record type name"--> 
     * **Appearance**: Edit the color and shape of the icon associated with the record type. Do the following: 
@@ -107,7 +107,7 @@ You must have the following access to perform the steps in this article:
 
         ![](assets/update-record-type-box.png)
 
-1. Click outside the Update record type box to save your changes. 
+1. Click outside the **Update record type** box to save your changes. 
 1. (Optional) Click the record type card from the workspace area to open the record type's page. 
 1. Click the **More** menu to the right of the record type name, then click **Rename** to rename the record type
 
