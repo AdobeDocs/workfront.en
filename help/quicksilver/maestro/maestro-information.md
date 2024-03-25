@@ -45,7 +45,7 @@ Access the following articles for an overview of the new Workfront planning capa
 <!--* [View a video demonstration of Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 * [Adobe Workfront planning overview](maestro-overview.md): A high-level overview of Adobe Workfront planning, including the terminology and concepts that are unique to this solution. We recommend that you start your journey with Workfront planning here. 
 * [Adobe Workfront planning release activity](../maestro/release-activity.md): A list of all the features that have been released since the launch of the Adobe Workfront planning closed beta program, on May 22, 2023 with exact release dates and a short overview of each feature.
-* [Adobe Maestro modules for Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
+* Adobe Maestro modules for Workfront Fusion
 
 ## Workfront planning architecture and functionality
 
