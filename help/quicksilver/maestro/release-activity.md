@@ -1,12 +1,12 @@
 ---
-title: Adobe Workfront planning capabilities release activity
+title: Adobe Workfront planning release activity
 description: Adobe Workfront planning capabilities are currently available to select Workfront customers. Review this article often to learn about the features recently released for the planning capabilities. 
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
 ---
-# Adobe Workfront planning capabilities release activity 
+# Adobe Workfront planning release activity 
 
 {{maestro-important-intro}}
 
@@ -25,6 +25,46 @@ The features are released weekly and are listed in the order of their release, w
 >[!IMPORTANT]
 >
 >The documentation referenced in the sections below will be available some time after the features are released to Production.
+
+## Week of March 25, 2024
+
+### New flexible record type organization for workspaces
+
+Production: March 25, 2024 
+
+Preview: To be determined 
+
+To create efficiency for you when setting up workspaces, we have modified the way you organize record types in a workspace. Some of the improvements include:  
+
+* Create up to 50 sections of record types in each workspace. Existing Operational Record Types and Taxonomies sections remain in the existing workspaces.  
+
+* Fully customize all new workspaces and their new sections to reflect your processes and organization's needs.  
+
+* Dynamically move record types within a workspace by dragging and dropping them where they need to be, including across different sections.  
+
+For more information, see [Create record types](/help/quicksilver/maestro/architecture/create-record-types.md). 
+
+### Duplicate views 
+
+Production: March 25, 2024 
+
+Preview: To be determined 
+
+To save you time and keep consistency, you can now duplicate an existing view that you have permissions to access.   
+
+Duplicating a view creates an identical view, using the same filters, sorting criteria, and groupings. Duplicating a view does not maintain the permissions of the original view.   
+
+For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md). 
+
+### Renamed the Maestro area in the Main Menu to Planning
+
+Production: March, 28, 2024 
+
+Preview: To be determined 
+
+We have renamed the Maestro area in the Main Menu to Planning.  
+
+For an overview of Adobe Workfront planning, see [Adobe Workfront planning overview](/help/quicksilver/maestro/maestro-overview.md). 
 
 ## Week of March 18, 2024
 
@@ -202,7 +242,7 @@ The following are the highest levels of permissions that users can receive based
 
 For information about the new license model, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
-For information about the connection between license type and permissions in the planning capabilities, see [License type overview when using the Adobe Workfront planning capabilities ](/help/quicksilver/maestro/access/license-type-overview.md).  
+For information about the connection between license type and permissions in the planning capabilities, see [License type overview when using Adobe Workfront planning](/help/quicksilver/maestro/access/license-type-overview.md).  
 
 
 ### New look-and-feel of the Rich-Text toolbar for record fields

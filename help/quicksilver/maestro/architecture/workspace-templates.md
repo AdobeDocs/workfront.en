@@ -31,7 +31,7 @@ This article describes the workspace templates available in Maestro.
 
 ## Considerations about Maestro templates
 
-* Each template comes with a set of operational record types and taxonomies. For information, see [Overview of record types and taxonomies](../architecture/overview-of-record-types-and-taxonomies.md).
+* Each template comes with a set of operational record types and taxonomies. For information, see [Overview of record types](../architecture/overview-of-record-types-and-taxonomies.md).
 * Each operational record type and taxonomy comes with a set of fields. Some of these fields are connections to other Maestro record types. 
 * You can customize any template.
 

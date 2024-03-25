@@ -373,7 +373,7 @@ For more information, see [Formula fields overview](/help/quicksilver/maestro/fi
     >
     > * You cannot add Multi-select type fields in a formula.
     >
-    > * You cannot add fields from linked records in a formula. This functionality will be released at a later date. For more information about new releases, see [Adobe Workfront planning capabilities release activity](/help/quicksilver/maestro/release-activity.md).
+    > * You cannot add fields from linked records in a formula. This functionality will be released at a later date. For more information about new releases, see [Adobe Workfront planning release activity](/help/quicksilver/maestro/release-activity.md).
 
 
 1. Click **Create**.
@@ -515,7 +515,7 @@ For more information, see [Create record types](../architecture/create-record-ty
 
 ## Create fields by creating a record type
 
-When you create a record type, several fields associated with the new record type are also created by default. For more information, see [Create operational record types](../architecture/create-record-types.md). 
+When you create a record type, several fields associated with the new record type are also created by default. For more information, see [Create record types](../architecture/create-record-types.md). 
 
 ## Create fields by creating a workspace from a template
 
