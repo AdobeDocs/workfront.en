@@ -59,7 +59,11 @@ To view license information in your system:
    >
    >Proof licenses are available only to customers who have purchased the paid Workfront Proof add-on in addition to their Workfront license. For information about this add-on, see [Workfront Proof: article index](../../workfront-proof/workfront-proof.md).
 
-1. (Conditional) If you see the message **To set a maximum, you must add a Home Group**, add a Home Groups in your system as explained in the section [Add or remove a Home Group to the Licenses page](#add-or-remove-a-home-group-to-the-licenses-page) in this article.
+1. (Conditional) If you see the message **To set a maximum, you must add a Home Group**, add a Home Group in your system as explained in the section [Add or remove a Home Group to the Licenses page](#add-or-remove-a-home-group-to-the-licenses-page) in this article.
+
+   >[!NOTE]
+   >
+   >For the new plans, the Select plan does not allow administrators to view licenses by Home Group. You can only see the overall number of used licenses. The Prime and Ultimate plans provide the ability to set the maximum count of licenses per Home Group.
 
 ## View information about licenses for Workfront add-ons
 
