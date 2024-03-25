@@ -480,7 +480,7 @@ Now, you can use Adobe Workfront Fusion to connect to the planning capabilities.
 
 * Trigger a scenario when a change is made in the planning capabilities
 
-For more information, see [Adobe Maestro modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md).
+For more information, see [Adobe Maestro modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
 
 ## Week of December 11, 2023
 
