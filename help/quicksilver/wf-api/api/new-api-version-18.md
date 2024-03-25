@@ -1,0 +1,196 @@
+---
+content-type: api
+navigation-topic: api-navigation-topic
+title: What's new in API version 18
+description: Adobe Workfront released API version 18 on April 6, 2022. API version 18 features the following changes from version 15.
+author: Becky
+feature: Workfront API
+role: Developer
+exl-id: a3d8534b-fe6e-4782-baab-7c94555ea40c
+---
+# What's new in API version 18
+
+Adobe Workfront released API version 18 on <!--Date-->. API version 18 features the following changes from version 15.
+
+## Added resources
+
+No resources were added for API version 18.
+
+## Removed resources
+
+No resources were removed for API version 18
+
+## Modified resources
+
+### AccessLevelPermissions (ALVPER)
+
+An AccessLevelPermissions object represents a specific permission to access, create, or modify a Workfront object. These permissions can then be associated with an Access Level.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>coreAction</b>
+            </p>
+            <p>Added the following possible values:</p>
+             <ul>
+              <li>
+                <p><code>VIEW_COST_RATES</code> (View Cost Rates)</p>
+              </li>
+              <li>
+                <p><code>VIEW_BILLING_RATES</code> (View Billing Rates)</p>
+              </li>
+              <li>
+                <p><code>VIEW_GENERAL_FINANCE</code> (View general finance)</p>
+              </li>
+              <li>
+                <p><code>EDIT_COST_RATES</code> (Edit Cost Rates)</p>
+              </li>
+              <li>
+                <p><code>EDIT_BILLING_RATES</code> (Edit Billing Rates)</p>
+              </li>
+              <li>
+                <p><code>EDIT_GENERAL_FINANCE</code> (Edit General Finance)</p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p><b>forbiddenActions</b>
+            </p>
+            <p>Added the following possible values:</p>
+            <ul>
+              <li>
+                <p><code>VIEW_COST_RATES</code> (View Cost Rates)</p>
+              </li>
+              <li>
+                <p><code>VIEW_BILLING_RATES</code> (View Billing Rates)</p>
+              </li>
+              <li>
+                <p><code>VIEW_GENERAL_FINANCE</code> (View general finance)</p>
+              </li>
+              <li>
+                <p><code>EDIT_COST_RATES</code> (Edit Cost Rates)</p>
+              </li>
+              <li>
+                <p><code>EDIT_BILLING_RATES</code> (Edit Billing Rates)</p>
+              </li>
+              <li>
+                <p><code>EDIT_GENERAL_FINANCE</code> (Edit General Finance)</p>
+              </li>
+            </ul>
+         </li>
+          <li>
+            <p><b>secondaryActions</b>
+            </p>
+            <p>Added the following possible values:</p>
+            <ul>
+              <li>
+                <p><code>VIEW_COST_RATES</code> (View Cost Rates)</p>
+              </li>
+              <li>
+                <p><code>VIEW_BILLING_RATES</code> (View Billing Rates)</p>
+              </li>
+              <li>
+                <p><code>VIEW_GENERAL_FINANCE</code> (View general finance)</p>
+              </li>
+              <li>
+                <p><code>EDIT_COST_RATES</code> (Edit Cost Rates)</p>
+              </li>
+              <li>
+                <p><code>EDIT_BILLING_RATES</code> (Edit Billing Rates)</p>
+              </li>
+              <li>
+                <p><code>EDIT_GENERAL_FINANCE</code> (Edit General Finance)</p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+### AccessRequest (ACSREQ)
+
+If a User does not have access to an object in Workfront that they need, they can request access to that object. The AccessRequest object represents this request.
+
+### AccessRule (ACSRUL)
+
+An AccessRule object represents a rule set in custom access levels that determines how users can share projects they create.
+
+### Approval (APPROVAL)
+
+A given work item, such as a task, document, or timesheet, may require that a supervisor or other user sign off on the work item. An Approval object represents the action of signing off on a work item.
+
+### AwaitingApproval (AWAPVL)
+
+### Baseline (BLIN)
+
+### BaselineTask (BSTSK)
+
+### Category (CTGY)
+
+A Category object is a custom form.
+
+### Document (DOCU)
+
+A Document object represents a file (such as written material, images, or other forms of information).
+
+### FinancialData (FINDAT)
+
+### JournalEntry (JRNLE)
+
+The JournalEntry object can be set up to log information about specific object fields any time those fields are modified. When a field is set up to be logged as a part of the Journal Entry object, a corresponding Journal Entry will be created every time that field is modified.
+
+### OpTask (OPTASK)
+
+An OpTask object is commonly known as an Issue. An issue is a work item that usually indicates that there is a problem preventing the completion of a task or project. An Issue can also be a Help Desk request. Change Orders, Requests, and Bugs are also Issues.
+
+### Project (PROJ)
+
+Projects are work items within Workfront, and are a main building block in the way Workfront helps people to do work. A Project object represents a group of tasks with a common, specific goal.
+
+### ProjectUserRole (PTEAM)
+
+### QueueDef (QUED)
+
+A QueueDef object represents a Queue, which is a project that has been published to the Help Desk area to allow users to submit issues to it.
+
+### Rate (RATE)
+
+A Rate object represents a billing rate in Workfront.
+
+### Task (TASK)
+
+A Task object represents a work item that must be performed as a step toward achieving a final goal (completing a Project).
+
+### Template (TMPL)
+
+A Template object represents a pattern for a project. Projects can be created from templates to save time. A template contains a team and tasks, which will be copied to any project created from the template.
+
+### TemplateTask (TTSK)
+
+A TemplateTask object represents a Task that is part of a Template. Template Tasks become Tasks in the Project where the Template is used.
+
+### TemplateUserRole (TTEAM)
+
+### Timesheet (TSHET)
+
+A Timesheet object represents a virtual timecard that allows Users to enter actual hours worked for Tasks, Projects, and overhead Hour Types.
+
+### Update (UPDATE)
+
+Work Items in Workfront can be updated to keep users informed of the current status. An Update object represents one of these updates. Updates can be entered by users or created by the Workfront system.
+
+### UserPrefValue (USERPF)
+
+A UserPrefValue object represent a user preference.
+
+### Work (WORK)
+
+A Work object is a common interface that both Task and OpTask inherit, and shares common code between the two.
