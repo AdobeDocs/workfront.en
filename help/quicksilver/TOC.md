@@ -2017,11 +2017,11 @@ feature-set: Workfront
     * [Customize Adobe Workfront Goals terminology](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
     * [Share a goal in Workfront Goals](workfront-goals/workfront-goals-settings/share-a-goal.md)
     * [Enable Adobe Workfront Goals notifications](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
-* Adobe Maestro {#adobe-maestro}
-  * [Adobe Maestro information](maestro/maestro-information.md)
-  * [Adobe Workfront planning overview](maestro/maestro-overview.md)
-  * [Adobe Workfront planning release activity](maestro/release-activity.md)
-  * Adobe Maestro architecture {#adobe-maestro-architecture}
+* Adobe Workfront Planning {#adobe-workfront-planning}
+  * [Adobe Workfront Planning:article index](maestro/maestro-information.md)
+  * [Adobe Workfront Planning overview](maestro/maestro-overview.md)
+  * [Adobe Workfront Planning release activity](maestro/release-activity.md)
+  * Adobe Workfront Planning architecture {#adobe-workfront-planning-architecture}
     * [Architecture: article index](maestro/architecture/architecture-information.md)
     * [Create workspaces](maestro/architecture/create-workspaces.md)
     * [Overview of record types](maestro/architecture/overview-of-record-types-and-taxonomies.md)
@@ -2034,21 +2034,21 @@ feature-set: Workfront
     * [Delete record types](maestro/architecture/delete-record-types.md)
     * [Example of connecting record types and records](maestro/architecture/example-connect-record-types-and-records.md)
     * [List of workspace templates](maestro/architecture/workspace-templates.md)
-  * Adobe Maestro fields {#adobe-maestro-fields}
+  * Adobe Workfront Planning fields {#adobe-workfront-planning-fields}
     * [Fields: article index](maestro/fields/fields-information.md)
     * [Fields overview](maestro/fields/fields-overview.md)
     * [Create fields](maestro/fields/create-fields.md)
     * [Edit fields](maestro/fields/edit-fields.md)
     * [Delete fields](maestro/fields/delete-fields.md) 
     * [Formula fields overview](maestro/fields/formula-fields.md)   
-  * Adobe Maestro access {#adobe-maestro-access}
-    * [Access information](maestro/access/access-information.md)
+  * Adobe Workfront Planning access {#adobe-workfront-planning-access}
+    * [Access information: article index](maestro/access/access-information.md)
     * [Access overview](maestro/access/access-overview.md)
-    * [Overview of sharing permissions in Adobe Workfront planning capabilities](maestro/access/sharing-permissions-overview.md)
-    * [License type overview when using Adobe Workfront planning](maestro/access/license-type-overview.md)
+    * [Overview of sharing permissions in Adobe Workfront Planning](maestro/access/sharing-permissions-overview.md)
+    * [License type overview when using Adobe Workfront Planning](maestro/access/license-type-overview.md)
     * [Share workspaces](maestro/access/share-workspaces.md)
     * [Share views](maestro/access/share-views.md)
-  * Adobe Maestro records {#adobe-maestro-records}
+  * Adobe Workfront Planning records {#adobe-workfront-planning-records}
     * [Records: article index](maestro/records/records-information.md) 
     * [Create records](maestro/records/create-records.md)
     * [Connect records](maestro/records/connect-records.md)
@@ -2058,7 +2058,7 @@ feature-set: Workfront
     * [Manage record comments](maestro/records/manage-record-comments.md)
     * [History section overview](maestro/records/history-section-overview.md)
     * [Add thumbnails to records](maestro/records/add-thumbnails-to-records.md)
-  * Adobe Maestro views {#adobe-maestro-views}
+  * Adobe Workfront Planning views {#adobe-workfront-planning-views}
     * [Views: article index](maestro/views/views-information.md)
     * [Manage record views](maestro/views/manage-record-views.md)
     * [Manage the table view](maestro/views/manage-the-table-view.md)

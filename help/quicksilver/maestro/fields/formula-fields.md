@@ -1,6 +1,6 @@
 ---
 title: Formula fields overview
-description: In Adobe Workfront planning, you can create formula fields that use functions and existing  fields to calculate a new custom value.
+description: In Adobe Workfront Planning, you can create formula fields that use functions and existing  fields to calculate a new custom value.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -25,7 +25,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-You can create custom fields in Adobe Workfront planning by referring to existing fields and connecting them by a formula. You can do this by creating a custom Formula-type field. 
+You can create custom fields in Adobe Workfront Planning by referring to existing fields and connecting them by a formula. You can do this by creating a custom Formula-type field. 
 
 Formula fields generate a new value using existing values from other fields in a record type and a function that indicates how the existing values should be calculated. 
 
@@ -50,7 +50,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfront planning beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront Planning beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -96,14 +96,14 @@ You must have the following access to perform the steps in this article:
 * Formula fields reference fields that belong to the same record type. You cannot reference fields from other record types when creating a formula field. <!--is this still accurate??-->
 * You cannot change the Field type of a Formula field after you saved it. 
 * You can update the calculation of a formula field after you save it, and the results of the calculation update automatically for all the records of the same type. 
-* You must add the fields you reference in formulas as they display in the Workfront planning interface. 
+* You must add the fields you reference in formulas as they display in the Workfront Planning interface. 
 * Using lookup fields from linked record types in a formula will be available at a later date. 
 
 ## Supported formulas
 
-Adobe Workfront planning formula fields support all expressions from the Workfront calculated fields. For more information, see [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Adobe Workfront Planning formula fields support all expressions from the Workfront calculated fields. For more information, see [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-In addition, we support the following expressions for Workfront planning formula fields:
+In addition, we support the following expressions for Workfront Planning formula fields:
 
 <table style="table-layout:auto"> 
  <col> 

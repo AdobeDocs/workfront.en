@@ -1,6 +1,6 @@
 ---
 title: Create workspaces
-description: A workspace is a collection of record types used by a team and represents the team's work lifecycle. You can fully customize workspaces in Adobe Workfront planning.
+description: A workspace is a collection of record types used by a team and represents the team's work lifecycle. You can fully customize workspaces in Adobe Workfront Planning.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -12,9 +12,9 @@ exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 
 {{maestro-important-intro}}
 
-In Adobe Workfront planning, workspaces are centralized locations for teams to plan work. 
+In Adobe Workfront Planning, workspaces are centralized locations for teams to plan work. 
 
-A workspace is a collection of record types used by a team and represents the team's work lifecycle. You can fully customize workspaces in Adobe Workfront planning.
+A workspace is a collection of record types used by a team and represents the team's work lifecycle. You can fully customize workspaces in Adobe Workfront Planning.
 
 ## Access requirements
 
@@ -55,7 +55,7 @@ You must have the following access to perform the steps in this article:
   
   <tr>
    <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls for Adobe Workfront planning</p>
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>
 </td>
   </tr>
 
@@ -105,7 +105,7 @@ For more information about access requirements, see [Access requirements in Work
 
    ![](assets/workspace-drop-down-right-menu.png)
 
-   This opens the Workspaces area of Workfront planning. 
+   This opens the Workspaces area of Workfront Planning. 
 1. (Optional and conditional) Click **Preview** inside any of the following predefined workspace templates:
 
     * Marketing management
@@ -116,7 +116,7 @@ For more information about access requirements, see [Access requirements in Work
 
     ![](assets/previewing-a-workspace-template.png)
 
-    For information about Workfront planning workspace templates, see [List of workspace templates](../architecture/workspace-templates.md).
+    For information about Workfront Planning workspace templates, see [List of workspace templates](../architecture/workspace-templates.md).
 
 1. Click **Use template** to start creating the workspace from the selected template
 

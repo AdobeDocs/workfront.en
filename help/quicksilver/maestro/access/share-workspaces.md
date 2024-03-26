@@ -1,6 +1,6 @@
 ---
 title: Share workspaces
-description: You can share a workspace with others to ensure collaboration when working in Adobe Workfront planning. 
+description: You can share a workspace with others to ensure collaboration when working in Adobe Workfront Planning. 
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -13,7 +13,7 @@ exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 
 {{maestro-important-intro}}
 
-You can share a workspace with others to ensure collaboration when working in Adobe Workfront planning. 
+You can share a workspace with others to ensure collaboration when working in Adobe Workfront Planning. 
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfront planning closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront Planning closed beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -59,7 +59,7 @@ You must have the following access to perform the steps in this article:
   
   <tr>
    <td role="rowheader"><p>Access level configurations</p></td>
-   <td> There are no access controls for Adobe Workfront planning</p>  
+   <td> There are no access controls for Adobe Workfront Planning</p>  
 </td>
   </tr>
 
@@ -101,7 +101,7 @@ To share a workspace with others:
     * Contribute
     * Manage
 
-        For information about permission levels and what actions users can perform for each level, see [Overview of sharing permissions in Adobe Workfront planning](../access/sharing-permissions-overview.md).
+        For information about permission levels and what actions users can perform for each level, see [Overview of sharing permissions in Adobe Workfront Planning](../access/sharing-permissions-overview.md).
 1. Click **Copy link** to copy a link to the workspace to your clipboard. 
 1. Share the copied link with others. Users who receive the link must be active users and log in to Workfront to be able to access the workspace. 
 1. Click **Save**.

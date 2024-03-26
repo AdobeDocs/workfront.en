@@ -1,6 +1,6 @@
 ---
 title: Manage the table view
-description: You can display records and their fields in a table view, when accessing the record type page in Adobe Workfront planning.
+description: You can display records and their fields in a table view, when accessing the record type page in Adobe Workfront Planning.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -22,7 +22,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-You can display records and their fields in a table view, when accessing the record type page in Adobe Workfront planning. 
+You can display records and their fields in a table view, when accessing the record type page in Adobe Workfront Planning. 
 
 For information about record views and how to manage them, see [Manage record views](../views/manage-record-views.md).
 
@@ -45,7 +45,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfront planning beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront Planning beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -121,7 +121,7 @@ You can add up to 500 fields (or columns) in a table view.
     <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Start adding fields (or columns), as described in the article [Create fields](../fields/create-fields.md). 
 
-    The columns you add are visible to all users who access the record type and are added as new fields on the Details page of the records of the selected record type.
+    The columns you add are visible to all users who access the record type and are added as new fields on the record's page.
    
 1. Do one of the following to reorder columns in the table:
 
@@ -168,7 +168,7 @@ You can add up to 500 fields (or columns) in a table view.
     >
     >   * You cannot delete or hide a primary field. 
     >
-    >   * The value listed in the primary field is always hyperlinked to the record's Details page.
+    >   * The value listed in the primary field is always hyperlinked to the record's page.
 
 1. Click and drag the column separation lines and drop them in the desired spot to increase the width of the columns. 
 

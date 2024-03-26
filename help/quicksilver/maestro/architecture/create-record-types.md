@@ -1,6 +1,6 @@
 ---
 title: Create record types
-description: Record types are the object types of Adobe Workfront planning. In Workfront planning, you can create custom record types which illustrate the work items needed in your organization's lifecycle.
+description: Record types are the object types of Adobe Workfront Planning. In Workfront Planning, you can create custom record types which illustrate the work items needed in your organization's lifecycle.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -12,7 +12,7 @@ exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
 
 {{maestro-important-intro}}
 
-Record types are the object types of Adobe Workfront planning. In Workfront planning, you can create custom record types which illustrate the work-related items needed in your organization's lifecycle. 
+Record types are the object types of Adobe Workfront Planning. In Workfront Planning, you can create custom record types which illustrate the work-related items needed in your organization's lifecycle. 
 Record types can be one of the following:
 
 For more information about record types, see [Overview of record types](../architecture/overview-of-record-types-and-taxonomies.md).
@@ -36,7 +36,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfront planning closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront Planning closed beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -56,7 +56,7 @@ You must have the following access to perform the steps in this article:
   
   <tr>
    <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access level controls for Workfront planning</p>  
+   <td> <p>There are no access level controls for Workfront Planning</p>  
 </td>
   </tr>
 <tr>
@@ -99,7 +99,7 @@ You must have the following access to perform the steps in this article:
             >
             >This functionality has been temporarily disabled since March 21, 2024. It will be enabled at a later date.
 
-        <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront planning which is connected to object types from the original application. 
+        <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront Planning which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
         For information about connecting objects with records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
     * Manually:
@@ -112,7 +112,7 @@ You must have the following access to perform the steps in this article:
 
 ## Create record types using a workspace template
 
-You can create record types automatically when you create a workspace using a Workfront planning template. Each template contains sample record types. 
+You can create record types automatically when you create a workspace using a Workfront Planning template. Each template contains sample record types. 
 
 When you create a workspace from a template, the record types are grouped in the following sections:
 
@@ -227,7 +227,7 @@ The last-accessed workspace should open by default.
     
     The Preview and edit box displays with the following information: 
 
-    * The names of the sheets or of the future record types display in the left panel. Workfront planning selects an icon and a color for each new record type by default.
+    * The names of the sheets or of the future record types display in the left panel. Workfront Planning selects an icon and a color for each new record type by default.
     * The first sheet or record type is selected and the names of the fields associated with it display as the column headers. The type of each field is selected by default. 
     * Each row represents a new record. Only the first 10 records display in the Preview and edit box. 
 
@@ -248,7 +248,7 @@ The last-accessed workspace should open by default.
 
 1. Click **Import** when you are ready to import your file. 
 
-    The following information imports in to Workfront planning:
+    The following information imports in to Workfront Planning:
 
     * New record types
     * New fields associated with each record type
@@ -256,13 +256,13 @@ The last-accessed workspace should open by default.
 
     You can start managing fields and records on the record types pages. 
     
-    Everyone with access to Workfront planning can now view and edit the imported record types and their information. <!--this will change with permissions-->
+    Everyone with access to Workfront Planning can now view and edit the imported record types and their information. <!--this will change with permissions-->
 
 <!--## Connect record types with object types from another application
 
-You can connect a record type and an object type from another application. This creates a read-only record type in Workfront planning that corresponds to the object type in the other application. 
+You can connect a record type and an object type from another application. This creates a read-only record type in Workfront Planning that corresponds to the object type in the other application. 
 
-For example, you can create record types by connecting Workfront planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+For example, you can create record types by connecting Workfront Planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront Planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
     
 You can import the following objects from the following applications: 
 

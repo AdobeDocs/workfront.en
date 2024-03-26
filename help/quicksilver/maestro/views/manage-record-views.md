@@ -1,6 +1,6 @@
 ---
 title: Manage record views
-description: You can display records in a table, timeline, or calendar view when using Adobe Workfront planning.
+description: You can display records in a table, timeline, or calendar view when using Adobe Workfront Planning.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -12,7 +12,7 @@ exl-id: 77342724-0182-4134-903b-4428d54cdceb
 
 {{maestro-important-intro}}
 
-After selecting a record type in Adobe Workfront planning area, you can display all the records of that type in the following views: 
+After selecting a record type in Adobe Workfront Planning area, you can display all the records of that type in the following views: 
 
 * Table
     
@@ -45,7 +45,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfront planning closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront Planning closed beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -63,7 +63,7 @@ You must have the following access to perform the steps in this article:
   
   <tr>
    <td role="rowheader">Access level configuration</td>
-   <td> <p>There are no access level controls for Workfront planning</p>  
+   <td> <p>There are no access level controls for Workfront Planning</p>  
 </td>
   </tr>
 
@@ -83,7 +83,7 @@ You must have the following access to perform the steps in this article:
 
 ## Considerations when working with record views
 
-* Views in Workfront planning are record type-specific. You cannot apply the same view to two different record types. 
+* Views in Workfront Planning are record type-specific. You cannot apply the same view to two different record types. 
 * Views that you create are visible only to you and users who you share the views with. 
 * When you modify or delete a view, it is modified and deleted for all users who have permissions to the view. 
 * The following elements are unique to each record view:
@@ -98,7 +98,7 @@ You must have the following access to perform the steps in this article:
 
     >[!NOTE]
     >
-    > Because Adobe Workfront planning is currently in a beta state, some view elements might not be available to all views.
+    > Because Adobe Workfront Planning is currently in a beta state, some view elements might not be available to all views.
 
 This article describes the following information about record views:
 
@@ -132,7 +132,7 @@ The following table shows the similarities and differences between the table, ti
 | Color-code groupings                     |           | ✓              |
 | Search for specific records                     |  ✓         | ✓              |
 | Share view                     |  ✓         | ✓              |       ✓     |
-| Open the record's Details page from the view                    |  ✓         | ✓              |    |
+| Open the record's page from the view                    |  ✓         | ✓              |    |
 
 
 ## Create or edit views {#create-or-edit-views}

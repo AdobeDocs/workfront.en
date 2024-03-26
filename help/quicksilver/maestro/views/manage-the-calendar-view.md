@@ -24,7 +24,7 @@ hide: yes
 
 You can display records and their fields in a calendar view, from the record type page.
 
-For information about Adobe Workfront planning capabilities views and how to manage them, see [Manage record views](../views/manage-record-views.md).
+For information about Adobe Workfront Planning capabilities views and how to manage them, see [Manage record views](../views/manage-record-views.md).
 
 ## Access requirements
 
@@ -45,7 +45,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfront planning beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront Planning beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -63,7 +63,7 @@ You must have the following access to perform the steps in this article:
   
   <tr>
    <td role="rowheader">Access level configuration</td>
-   <td> <p>There are no access level controls for Adobe Workfront planning</p>  
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
 </td>
   </tr>
 

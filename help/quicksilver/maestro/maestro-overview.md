@@ -1,12 +1,12 @@
 ---
-title: Adobe Workfront planning overview
-description: Adobe Workfront planning is a new offering from Adobe Workfront. You can create fully-customizable workspaces to define workflows that meet the needs of each organizational unit in your enterprise.
+title: Adobe Workfront Planning overview
+description: Adobe Workfront Planning is a new offering from Adobe Workfront. You can create fully-customizable workspaces to define workflows that meet the needs of each organizational unit in your enterprise.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 ---
-# Adobe Workfront planning overview
+# Adobe Workfront Planning overview
 
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -16,17 +16,17 @@ exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 
 >[!IMPORTANT]
 >
->The information in this article refers to Adobe Workfront planning, a new offering from Adobe Workfront. 
+>The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
 >
->Currently, Adobe Workfront planning is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use these capabilities.
+>Currently, Adobe Workfront Planning is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use these capabilities.
 >
->Contact your account representative for more information about joining the beta program for Workfront planning.
+>Contact your account representative for more information about joining the beta program for Workfront Planning.
 
-<!--[View a video demonstration of Adobe Workfront planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
+<!--[View a video demonstration of Adobe Workfront Planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
-## Introduction to Adobe Workfront planning
+## Introduction to Adobe Workfront Planning
 
-Adobe Workfront planning is a new offering from Adobe Workfront. The purpose of Workfront planning is to unlock comprehensive visibility into the operational details of an organization, and answer critical business questions at each stage of the work management lifecycle. 
+Adobe Workfront Planning is a new offering from Adobe Workfront. The purpose of Workfront Planning is to unlock comprehensive visibility into the operational details of an organization, and answer critical business questions at each stage of the work management lifecycle. 
 
 Teams and leadership need clear answers to questions like:  
 
@@ -43,11 +43,11 @@ The following are some of the main capabilities:
 * Fully customize your workflows, from deciding what object types (or record types) your organization uses to configuring how these objects link to one another.  
 * Link to object types from other systems, creating a coherent framework for all your processes.  
 
-## Currently available Adobe Workfront planning features
+## Currently available Adobe Workfront Planning features
 
-The following table illustrates the main features that will be available in Workfront planning, and a timeline of their availability. The list does not include all features.
+The following table illustrates the main features that will be available in Workfront Planning, and a timeline of their availability. The list does not include all features.
 
-For information about new features and when they are released, see [Adobe Workfront planning release activity](/help/quicksilver/maestro/release-activity.md). 
+For information about new features and when they are released, see [Adobe Workfront Planning release activity](/help/quicksilver/maestro/release-activity.md). 
 
 |       Feature                                      |     Available now  |     Available soon   |     In research  |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -69,10 +69,10 @@ For information about new features and when they are released, see [Adobe Workfr
 |     Connect workspaces                                |                               |   ✓                              |                  |
 |   Search for records in the table view    | ✓    |   |
 |   Search for records in the timeline view    | ✓    |   |
-|     Connect Workfront planning records to Workfront projects, programs, portfolios, companies, groups  |   ✓                            |                                 |                  |
-|     Connect Workfront planning records to Adobe Experience Manager assets                                  |      ✓                         |                                  |                 | 
-|     Record Details page                            |   ✓                           |                                  |                  |
-|     Update the layout of the record Details page              |                               |   ✓                              |                  |
+|     Connect Workfront Planning records to Workfront projects, programs, portfolios, companies, groups  |   ✓                            |                                 |                  |
+|     Connect Workfront Planning records to Adobe Experience Manager assets                                  |      ✓                         |                                  |                 | 
+|     Record page with detailed information                            |   ✓                           |                                  |                  |
+|     Update the layout of the record's page              |                               |   ✓                              |                  |
 |  Share workspaces | ✓| |  |
 |  Share views |✓ | |  |
 |  Duplicate views |✓ | |  |
@@ -83,22 +83,22 @@ For information about new features and when they are released, see [Adobe Workfr
 |     Add thumbnails to records                                 | ✓                              |                                  |                 |
 |     View history of changes on a record                                 | ✓                              |                                  |                 |
 |     Rich Text formatting for Paragraph fields                                 |      ✓                         |                                  |                 | 
-|     Adobe Workfront planning modules for Adobe Workfront Fusion                                 |      ✓                         |                                  |                 | 
+|     Adobe Workfront Planning modules for Adobe Workfront Fusion                                 |      ✓                         |                                  |                 | 
 |     Copy and paste information from one field to another                                  |      ✓                         |                                  |                 | 
 
-## Enable Adobe Workfront planning for the users in your Workfront instance
+## Enable Adobe Workfront Planning for the users in your Workfront instance
 
-Your organization must enroll in the Adobe Workfront planning closed beta program before you can access the planning capabilities. Contact your account representative for information about enrolling in the beta program. 
+Your organization must enroll in the Adobe Workfront Planning closed beta program before you can access the planning capabilities. Contact your account representative for information about enrolling in the beta program. 
 
-For more information about granting access to and enabling others to use Workfront planning, see [Access overview](/help/quicksilver/maestro/access/access-overview.md). 
+For more information about granting access to and enabling others to use Workfront Planning, see [Access overview](/help/quicksilver/maestro/access/access-overview.md). 
 
-## Adobe Workfront planning terminology
+## Adobe Workfront Planning terminology
 
-Although Workfront planning is part of Workfront, it comes with proprietary concepts and terminology. Ensure you are familiar with the new concepts before embarking on setting up Workfront planning for your organization. 
+Although Workfront Planning is part of Workfront, it comes with proprietary concepts and terminology. Ensure you are familiar with the new concepts before embarking on setting up Workfront Planning for your organization. 
 
-The framework for Workfront planning is fully customizable. You can create all record types, their attributes, and any fields associated with them to suit the exact needs of your organization. 
+The framework for Workfront Planning is fully customizable. You can create all record types, their attributes, and any fields associated with them to suit the exact needs of your organization. 
 
-The following are the main Workfront planning objects and concepts: 
+The following are the main Workfront Planning objects and concepts: 
 
 * **Workspace**: A collection of record types that define the operational lifecycle of a certain organization. A workspace is the work frame of an organizational unit. 
 
@@ -108,13 +108,13 @@ The following are the main Workfront planning objects and concepts:
     
     For more information, see [Create workspaces](../maestro/architecture/create-workspaces.md). 
 
-* **Record Type**: The object type or Workfront planning.  
+* **Record Type**: The object type or Workfront Planning.  
     
-    Unlike Workfront, where the object types are predefined, in Workfront planning, you can create your own object types.  
+    Unlike Workfront, where the object types are predefined, in Workfront Planning, you can create your own object types.  
     
     For example, in Workfront the object types of Program, Portfolio, Project, Task, or Issue are already created.  
     
-    In Workfront planning, you can create any record types that meet your organization's workflows. Later, you can define how the record types relate to one another or form dependencies. 
+    In Workfront Planning, you can create any record types that meet your organization's workflows. Later, you can define how the record types relate to one another or form dependencies. 
     
     For more information, see [Overview of record types](../maestro/architecture/overview-of-record-types-and-taxonomies.md).
 
@@ -132,7 +132,7 @@ The following are the main Workfront planning objects and concepts:
 
     ![](assets/workspaces-page-with-templates-thumbnails.png)
 
-    Adobe Workfront planning comes with a Sales, Marketing, and Product Management workspace template. 
+    Adobe Workfront Planning comes with a Sales, Marketing, and Product Management workspace template. 
     
     For more information, see [Create workspaces](../maestro/architecture/create-workspaces.md).
 
@@ -144,11 +144,11 @@ The following are the main Workfront planning objects and concepts:
     
     * The fields you add for a record type automatically become associated with all records of that type and can be used to capture data about those records. 
 
-    * Fields display as columns in the Table view applied to a record  type page. They also display in the Details page of the record. 
+    * Fields display as columns in the Table view applied to a record  type page. They also display in the record's page. 
 
     * Fields are unique to a record type and do not transfer from one record type to another. 
 
-    * Fields are fully customizable and are accessible only in Workfront planning. You cannot access Workfront planning fields from Workfront. 
+    * Fields are fully customizable and are accessible only in Workfront Planning. You cannot access Workfront Planning fields from Workfront. 
 
     For more information, see [Create fields](../maestro/fields/create-fields.md).
     
@@ -178,7 +178,7 @@ The following are the main Workfront planning objects and concepts:
     * Last modified by
     * Last modified date
    
-* **Linked record types**, **Linked records**, and **Linked record fields**:  You can create a connection between the following entities in Workfront planning:
+* **Linked record types**, **Linked records**, and **Linked record fields**:  You can create a connection between the following entities in Workfront Planning:
     
     * Two record types.
     * A record type and a Workfront project, program, portfolio, company, or group object type. 
@@ -227,11 +227,11 @@ The following are the main Workfront planning objects and concepts:
 For more information, see [Manage record views](../maestro/views/manage-record-views.md).
 
 
-## Adobe Workfront planning object limitations
+## Adobe Workfront Planning object limitations
 
-The following table shows the limits for how many objects you can create in Workfront planning. The limitations are subject to change as we move into the next phases of development.  
+The following table shows the limits for how many objects you can create in Workfront Planning. The limitations are subject to change as we move into the next phases of development.  
 
-|       Adobe Workfront planning  object                                                          |                                                        Limit                                                    |
+|       Adobe Workfront Planning  object                                                          |                                                        Limit                                                    |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 |     Number of Workspaces for one Workfront instance                                      |   1,000                                                                                                         |
 |     Number of Record Types for one workspace                                            |   1,000 (this includes record types from all sections and those that are created when using a workspace template)  |
@@ -248,11 +248,11 @@ The following table shows the limits for how many objects you can create in Work
 >*This functionality has been temporarily disabled and it will be available at a later date.
 
 
-## Locate Adobe Workfront planning
+## Locate Adobe Workfront Planning
 
-Ensure that your organization has received access to Workfront planning and that your system or group administrator has added the Planning area to your Main Menu. For information, see [Access overview](/help/quicksilver/maestro/access/access-overview.md).
+Ensure that your organization has received access to Workfront Planning and that your system or group administrator has added the Planning area to your Main Menu. For information, see [Access overview](/help/quicksilver/maestro/access/access-overview.md).
 
-To locate Workfront planning:   
+To locate Workfront Planning:   
 
 1. Log in to Adobe Workfront. 
 
@@ -280,9 +280,9 @@ To locate Workfront planning:
 
         Start adding record fields by adding columns. 
 
-## Adobe Workfront planning release activity 
+## Adobe Workfront Planning release activity 
 
-We are releasing new features to Workfront planning regularly. 
+We are releasing new features to Workfront Planning regularly. 
 
-For an up-to-date list of released features, see [Adobe Workfront planning release activity](../maestro/release-activity.md).
+For an up-to-date list of released features, see [Adobe Workfront Planning release activity](../maestro/release-activity.md).
 

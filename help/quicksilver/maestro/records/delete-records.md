@@ -12,7 +12,7 @@ exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
 
 {{maestro-important-intro}}
 
-You can delete records that are no longer relevant in Adobe Workfront planning. 
+You can delete records that are no longer relevant in Adobe Workfront Planning. 
 
 ## Access requirements
 
@@ -33,7 +33,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfront planning beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront Planning beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -52,7 +52,7 @@ You must have the following access to perform the steps in this article:
   
   <tr>
    <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access level controls for Adobe Workfront planning </p>  
+   <td> <p>There are no access level controls for Adobe Workfront Planning </p>  
 </td>
   </tr>
 
@@ -89,10 +89,10 @@ You must have the following access to perform the steps in this article:
 
 You can delete a record from the following areas:
 
-* [From the Details page of a record](#delete-a-record-from-the-records-details-page)
+* [From the record's page](#delete-a-record-from-the-records-page)
 * [From the table view of a record type](#delete-a-record-from-the-record-type-table-view) 
 
-### Delete a record from the record's Details page
+### Delete a record from the record's page
 
 {{step1-to-maestro}}
 
@@ -109,7 +109,7 @@ You can delete a record from the following areas:
         ![](assets/contextual-menu-for-record-row.png)
     * From a Timeline view, click a record bar. 
 
-    The record **Details** page opens.  
+    The record page opens.  
   
 1. Click the **More** menu ![](assets/more-menu.png) to the right of the record name, then click **Delete**, then **Delete** again to confirm. 
 
@@ -135,7 +135,7 @@ You can delete a record from the following areas:
 
         ![](assets/contextual-menu-for-record-row.png)
     
-    * Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to open the Details box, and click **More** ![](assets/more-menu.png) to the right of the record name, then **Delete**.
+    * Click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to open the box with the record's detailed information, and click **More** ![](assets/more-menu.png) to the right of the record name, then **Delete**.
 
     The record is deleted and cannot be recovered.
 
