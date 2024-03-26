@@ -293,6 +293,7 @@ A given work item, such as a task, document, or timesheet, may require that a su
 
 ### AwaitingApproval (AWAPVL)
 
+<table>
   <tbody>
     <tr>
       <td role="rowheader">Operations</td>
@@ -402,19 +403,256 @@ Baselines are snapshots of what the performance of a project looked like at a gi
 
 A Category object is a custom form.
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>catObjCode</b>:
+            </p>
+            <p>Added the following possible values:
+            <ul>
+              <li>
+                <p><code>NLBRCY</code> (Non-Labor Resource Category)
+                </p>
+              </li>
+              <li>
+                <p><code>HOUR</code> (Hour)
+                </p>
+              </li>
+              <li>
+                <p><code>RTCRD</code> (Rate card)
+                </p>
+              </li>
+             </ul>
+             </p>
+          </li>
+          <li>
+            <p><b>objTypes</b>:
+            </p>
+            <p>Added the following possible values:
+            <ul>
+              <li>
+                <p><code>NLBRCY</code> (Non-Labor Resource Category)
+                </p>
+              </li>
+              <li>
+                <p><code>HOUR</code> (Hour)
+                </p>
+              </li>
+              <li>
+                <p><code>RTCRD</code> (Rate card)
+                </p>
+              </li>
+             </ul>
+             </p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### Document (DOCU)
 
 A Document object represents a file (such as written material, images, or other forms of information).
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Actions</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>createLargeDocument</b>:
+            </p>
+            <p>Added the following parameter:
+            <ul>
+              <li>
+                <p><code>documentID</code> 
+                </p>
+              </li>
+             </ul>
+             </p>
+          </li>
+          <li>
+            <p><b>moveToFolder</b>:
+            </p>
+            <p>Added. This new action takes the following parameters:
+            <ul>
+              <li>
+                <p><code>documentIDs</code>
+                </p>
+              </li>
+              <li>
+                <p><code>folderID</code> 
+                </p>
+              </li>
+              <li>
+                <p><code>moveToFolder</code> 
+                </p>
+              </li>
+             </ul>
+             </p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### FinancialData (FINDAT)
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p>Added the following fields:
+            </p>
+            <ul>
+              <li>
+                <p><b>actualBillableExpenseCost</b>
+                </p>
+              </li>
+              <li>
+                <p><b>actualNonBillableExpenseCost</b>
+                </p>
+              </li>
+              <li>
+                <p><b>plannedBillableExpenseCost</b>
+                </p>
+              </li>
+              <li>
+                <p><b>plannedNonBillableExpenseCost</b>
+                </p>
+              </li>
+             </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Default fields</td>
+      <td>
+        <ul>
+          <li>
+            <p>Added the following fields:
+            </p>
+            <ul>
+              <li>
+                <p><b>actualBillableExpenseCost</b>
+                </p>
+              </li>
+              <li>
+                <p><b>actualNonBillableExpenseCost</b>
+                </p>
+              </li>
+              <li>
+                <p><b>plannedBillableExpenseCost</b>
+                </p>
+              </li>
+              <li>
+                <p><b>plannedNonBillableExpenseCost</b>
+                </p>
+              </li>
+             </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### JournalEntry (JRNLE)
 
 The JournalEntry object can be set up to log information about specific object fields any time those fields are modified. When a field is set up to be logged as a part of the Journal Entry object, a corresponding Journal Entry will be created every time that field is modified.
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>changeType</b>
+            </p>
+            <p>Added the following possible values:</p>
+            <ul>
+              <li>
+                <p><code>AAO</code> (enum.actiontypeenum.assetapproval.opened)</p>
+              </li>
+              <li>
+                <p><code>ADM</code> (enum.actiontypeenum.assetapproval.locked.all.decisions.made)</p>
+              </li>
+              <li>
+                <p><code>AUL</code> (enum.actiontypeenum.assetapproval.unlocked.manual)</p>
+              </li>
+              <li>
+                <p><code>ALM</code> (enum.actiontypeenum.assetapproval.locked.manual)</p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### OpTask (OPTASK)
 
 An OpTask object is commonly known as an Issue. An issue is a work item that usually indicates that there is a problem preventing the completion of a task or project. An Issue can also be a Help Desk request. Change Orders, Requests, and Bugs are also Issues.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Actions</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>convertToProject</b>:
+            </p>
+            <p>Added the following fields:
+            <ul>
+              <li>
+                <code>copyCategories</code></li><li><code>copyNativeFields</code>
+                </p>
+              </li>
+             </ul>
+             </p>
+          </li>
+          <li>
+            <p><b>convertToTask</b>:
+            </p>
+            <p>Added the following fields:
+            <ul>
+              <li>
+                <code>copyCategories</code></li><li><code>copyNativeFields</code>
+                </p>
+              </li>
+             </ul>
+             </p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 
 ### Project (PROJ)
 
