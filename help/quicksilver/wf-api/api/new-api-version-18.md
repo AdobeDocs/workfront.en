@@ -653,10 +653,59 @@ An OpTask object is commonly known as an Issue. An issue is a work item that usu
   </tbody>
 </table>
 
-
 ### Project (PROJ)
 
 Projects are work items within Workfront, and are a main building block in the way Workfront helps people to do work. A Project object represents a group of tasks with a common, specific goal.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p>Added the following fields:
+            </p>
+            <ul>
+              <li>
+                <p><b>actualBillableExpenseCost</b>
+                </p>
+              </li>
+              <li>
+                <p><b>actualNonBillableExpenseCost</b>
+                </p>
+              </li>
+              <li>
+                <p><b>plannedBillableExpenseCost</b>
+                </p>
+              </li>
+              <li>
+                <p><b>plannedNonBillableExpenseCost</b>
+                </p>
+              </li>
+             </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Actions</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>createProjectWithOverride</b>
+            </p>
+             <p>Added.
+            </p>
+           </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 
 ### ProjectUserRole (PTEAM)
 
