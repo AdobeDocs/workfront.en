@@ -27,6 +27,7 @@ exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
 This section contains the following articles:
 
 * [[!DNL Adobe Workfront] modules](../../workfront-fusion/apps-and-their-modules/workfront-modules.md) 
+* [Adobe Workfront Planning modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
 * [[!DNL Workfront Proof] modules](../../workfront-fusion/apps-and-their-modules/workfront-proof-modules.md) 
 * [[!DNL Adobe Acrobat Sign] modules](../../workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
 * [Adobe Authenticator module](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md)
@@ -34,7 +35,6 @@ This section contains the following articles:
 * [[!DNL Adobe Creative Cloud Libraries] modules](../../workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md) 
 * [[!DNL Adobe Experience Manager Assets] modules](../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
 * [[!DNL Adobe Journey Optimizer] modules](../../workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md) 
-* [Adobe Maestro modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
 * [[!DNL Adobe PDF Services] modules](../../workfront-fusion/apps-and-their-modules/pdf-modules.md) 
 * [[!DNL Adobe Photoshop] modules](../../workfront-fusion/apps-and-their-modules/adobe-photoshop-modules.md) 
 * [[!DNL Adobe Target] modules](../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md) 
