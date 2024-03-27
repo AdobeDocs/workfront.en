@@ -709,27 +709,314 @@ Projects are work items within Workfront, and are a main building block in the w
 
 ### ProjectUserRole (PTEAM)
 
+<table>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p>Added the following field:
+            </p>
+            <ul>
+              <li>
+                <p><b>ID</b>
+                </p>
+              </li>
+             </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Core fields</td>
+      <td>
+        <ul>
+          <li>
+            <p>Added the following field:
+            </p>
+            <ul>
+              <li>
+                <p><b>ID</b>
+                </p>
+              </li>
+             </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### QueueDef (QUED)
 
 A QueueDef object represents a Queue, which is a project that has been published to the Help Desk area to allow users to submit issues to it.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>requestorCoreAction</b>
+            </p>
+            <p>Added the following possible values:</p>
+             <ul>
+              <li>
+                <p><code>VIEW_COST_RATES</code> (View Cost Rates)</p>
+              </li>
+              <li>
+                <p><code>VIEW_BILLING_RATES</code> (View Billing Rates)</p>
+              </li>
+              <li>
+                <p><code>VIEW_GENERAL_FINANCE</code> (View general finance)</p>
+              </li>
+              <li>
+                <p><code>EDIT_COST_RATES</code> (Edit Cost Rates)</p>
+              </li>
+              <li>
+                <p><code>EDIT_BILLING_RATES</code> (Edit Billing Rates)</p>
+              </li>
+              <li>
+                <p><code>EDIT_GENERAL_FINANCE</code> (Edit General Finance)</p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p><b>requestorForbiddenActions</b>
+            </p>
+            <p>Added the following possible values:</p>
+            <ul>
+              <li>
+                <p><code>VIEW_COST_RATES</code> (View Cost Rates)</p>
+              </li>
+              <li>
+                <p><code>VIEW_BILLING_RATES</code> (View Billing Rates)</p>
+              </li>
+              <li>
+                <p><code>VIEW_GENERAL_FINANCE</code> (View general finance)</p>
+              </li>
+              <li>
+                <p><code>EDIT_COST_RATES</code> (Edit Cost Rates)</p>
+              </li>
+              <li>
+                <p><code>EDIT_BILLING_RATES</code> (Edit Billing Rates)</p>
+              </li>
+              <li>
+                <p><code>EDIT_GENERAL_FINANCE</code> (Edit General Finance)</p>
+              </li>
+            </ul>
+         </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### Rate (RATE)
 
 A Rate object represents a billing rate in Workfront.
 
+<table>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>companyID</b></p><p>Added the following flags:
+            </p>
+            <ul>
+              <li>
+                <p>AUTO_LOAD
+                </p>
+              </li>
+              <li>
+                <p>DYNAMIC
+                </p>
+              </li>
+             </ul>
+          </li>
+          <li>
+          <p><b>displayName</b></p><p>Added.</p>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Core fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>displayName</b>
+            </p><p>Added.</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
 ### Task (TASK)
 
 A Task object represents a work item that must be performed as a step toward achieving a final goal (completing a Project).
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p>Added the following fields:
+            </p>
+            <ul>
+              <li>
+                <p><b>actualBillableExpenseCost</b>
+                </p>
+              </li>
+              <li>
+                <p><b>actualNonBillableExpenseCost</b>
+                </p>
+              </li>
+              <li>
+                <p><b>plannedBillableExpenseCost</b>
+                </p>
+              </li>
+              <li>
+                <p><b>plannedNonBillableExpenseCost</b>
+                </p>
+              </li>
+             </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Actions</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>convertToProject</b>
+            </p>
+             <p>Added the following field:
+             <ul><li><code>copyCategories</code></li></ul>
+            </p>
+           </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### Template (TMPL)
 
 A Template object represents a pattern for a project. Projects can be created from templates to save time. A template contains a team and tasks, which will be copied to any project created from the template.
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p>Added the following fields:
+            </p>
+            <ul>
+              <li>
+                <p><b>plannedBillableExpenseCost</b>
+                </p>
+              </li>
+              <li>
+                <p><b>plannedNonBillableExpenseCost</b>
+                </p>
+              </li>
+             </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
 ### TemplateTask (TTSK)
 
-A TemplateTask object represents a Task that is part of a Template. Template Tasks become Tasks in the Project where the Template is used.
+A TemplateTask object represents a Task that is part of a Template. Template Tasks become Tasks in the Project where the Template is used.<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p>Added the following fields:
+            </p>
+            <ul>
+              <li>
+                <p><b>plannedBillableExpenseCost</b>
+                </p>
+              </li>
+              <li>
+                <p><b>plannedNonBillableExpenseCost</b>
+                </p>
+              </li>
+             </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### TemplateUserRole (TTEAM)
+
+<table>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p>Added the following field:
+            </p>
+            <ul>
+              <li>
+                <p><b>ID</b>
+                </p>
+              </li>
+             </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Core fields</td>
+      <td>
+        <ul>
+          <li>
+            <p>Added the following field:
+            </p>
+            <ul>
+              <li>
+                <p><b>ID</b>
+                </p>
+              </li>
+             </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### Timesheet (TSHET)
 
