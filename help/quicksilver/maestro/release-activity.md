@@ -58,13 +58,23 @@ For more information, see [Manage record views](/help/quicksilver/maestro/views/
 
 ### Renamed the Maestro area in the Main Menu to Planning
 
-Production: March, 28, 2024 
+Production: March, 27, 2024 
 
 Preview: To be determined 
 
 We have renamed the Maestro area in the Main Menu to Planning.  
 
 For an overview of Adobe Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/maestro/maestro-overview.md). 
+
+### New experience when deleting a record type
+
+Production: March 27, 2024 
+
+Preview: To be determined 
+
+We have redesigned the confirmation box when deleting a record type. Deleting a record type is impactful, as it also deletes all the records, their fields, the information in the fields, as well as the views associated with the record type. Deleted record types and their deleted information cannot be recovered.  
+
+For this reason, we wanted to ensure the user's intent is accurate when deleting a record type, so we have introduced an extra step in confirming the deletion. For more information, see [Delete record types](/help/quicksilver/maestro/architecture/delete-record-types.md).  
 
 ## Week of March 18, 2024
 
