@@ -1022,14 +1022,134 @@ A TemplateTask object represents a Task that is part of a Template. Template Tas
 
 A Timesheet object represents a virtual timecard that allows Users to enter actual hours worked for Tasks, Projects, and overhead Hour Types.
 
+<table>
+  <tbody>
+    <tr>
+      <td role="rowheader">Core fields</td>
+      <td>
+        <ul>
+          <li>
+            <p>Removed the following field:
+            </p>
+            <ul>
+              <li>
+                <p><b>objCode</b>
+                </p>
+              </li>
+             </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### Update (UPDATE)
 
 Work Items in Workfront can be updated to keep users informed of the current status. An Update object represents one of these updates. Updates can be entered by users or created by the Workfront system.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>updateType</b>
+            </p>
+            <p>Added the following possible values:</p>
+             <ul>
+              <li>
+                <p><code>assetapprovalsLockedAllDecisionsMade</code></p>
+              </li>
+              <li>
+                <p><code>assetapprovalsUnlockedManual</code></p>
+              </li>
+              <li>
+                <p><code>assetapprovalsLockedManual</code></p>
+              </li>
+              <li>
+                <p><code>assetapprovalOpened</code> </p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Actions</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>recentUpdatesObjIDs</b>
+            </p>
+            <p>Added.</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### UserPrefValue (USERPF)
 
 A UserPrefValue object represent a user preference.
 
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>value</b>
+            </p>
+            <p>Added the validator <code>MAX_LENGTH</code></p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### Work (WORK)
 
 A Work object is a common interface that both Task and OpTask inherit, and shares common code between the two.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p>Added the following fields:
+            </p>
+            <ul>
+              <li>
+                <p><b>actualBillableExpenseCost</b>
+                </p>
+              </li>
+              <li>
+                <p><b>actualNonBillableExpenseCost</b>
+                </p>
+              </li>
+              <li>
+                <p><b>plannedBillableExpenseCost</b>
+                </p>
+              </li>
+              <li>
+                <p><b>plannedNonBillableExpenseCost</b>
+                </p>
+              </li>
+             </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
