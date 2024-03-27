@@ -3,7 +3,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Create a simple scenario in [!DNL Adobe Workfront Fusion]
-description: Learn how to create a simple automation scenario with Adobe Workfront Fusion. Automation scenarios automate Workfront processes, including data manipulation and transformation. This example takes you through the process of creating a scenario that searches for a task and then converts it to a project.
+description: Learn how to create a simple automation scenario with Adobe Workfront Fusion. Automation scenarios automate Workfront processes, including data manipulation and transformation. This example takes you through the process of creating a scenario that searches for a [!DNL Workfront] task in Workfront and the converts it to a project.
 author: Becky
 feature: Workfront Fusion
 ---
@@ -121,13 +121,16 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 ## Add and configure the second module
 
 1. Hover over the partial circle to the right of the of the module, then click **[!UICONTROL Add another module]**. 
-1. Select [!DNL Adobe Workfront] from the list of applications, then choose the module **[!UICONTROL Misc Action]**.
-
-   The Misc Action module allows you to perform actions in Workfront that do not have a dedicated module. In this example, this module is used to convert the task to a project.
+1. Select [!DNL Adobe Workfront] from the list of applications, then choose the module **[!UICONTROL Convert object]**.
 1. In the [!UICONTROL Connection] field, select  the same Workfront connection that you used in the previous module . 
-1. In the **[!UICONTROL Record type]**field, select **[!UICONTROL Task]**, because the action to perform is related to a task.
-1. In the **[!UICONTROL Action]** field, select **convertToProject**. This is the action that will convert the selected task to a Project.
-1. Click the **[!UICONTROL ID]** field. 
+1. In the **[!UICONTROL Record type]** field, select **[!UICONTROL Task]**, because the module will convert a task.
+1. In the **[!UICONTROL Convert to]** field, select **Project**. 
+1. Next to the Task ID field, click the map toggle to enable it. 
+
+   The toggle turns blue when it is enabled. This allows you to map the task ID from the previous module.
+
+   ![Map toggle](assets/map-toggle.png)
+1. Click the **[!UICONTROL Task ID]** field.  
 
    A panel opens that allows you to select what to use as the ID of the task you want to convert to a project. The panel includes output from any previous modules. Because you selected ID as an output of the previous module, it is now available in the panel.
 
@@ -144,6 +147,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
    >
    >You can use **Cmd+F** ([!DNL Mac] OS) or **Ctrl-F** ([!DNL Windows] OS) to find a field quickly.
 
+1. Click the **Template ID** field, begin typing the name of the Workfront template you want to use for this project, then select it when it appears in the list.
 1. Click **[!UICONTROL OK]** to save the module configuration.
 
 1. Right-click the module, click **[!UICONTROL Rename]**, then type a name the describes what you want the module to do (such as "Convert to project)," then click **[!UICONTROL OK]**.
