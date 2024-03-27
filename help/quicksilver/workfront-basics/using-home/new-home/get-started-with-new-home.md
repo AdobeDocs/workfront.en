@@ -49,7 +49,7 @@ Below are the ten widgets currently available to choose from, as well as a summa
     Displays all of your pending assigned or delegated approvals, a button to delegate approvals, and buttons to make approval decisions directly within the widget.
 
 * **All approvals**\
-        Displays 2 charts with information about average approval time and decisions as well as list views of pending and overdue approvals.
+        <span class="preview"> Displays 2 charts with information about average approval time and decisions as well as list views of pending and overdue approvals.</span> <span style="color: #ff0000;">This feature is part of a phased release and is currently only available for specific customers.</span>
 
 * **Pending approvals**\
     Displays approvals assigned to a document on a project you own. Here, you can view approval status and remind users about incomplete reviews and approvals. <span style="color: #ff0000;">This feature is part of a phased release and is currently only available for specific customers.</span>
