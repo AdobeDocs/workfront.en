@@ -2021,13 +2021,13 @@ feature-set: Workfront
     * [Enable Adobe Workfront Goals notifications](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
 * Adobe Maestro {#adobe-maestro}
   * [Adobe Maestro information](maestro/maestro-information.md)
-  * [Adobe Workfront planning capabilities overview](maestro/maestro-overview.md)
-  * [Adobe Workfront planning capabilities release activity](maestro/release-activity.md)
+  * [Adobe Workfront planning overview](maestro/maestro-overview.md)
+  * [Adobe Workfront planning release activity](maestro/release-activity.md)
   * Adobe Maestro architecture {#adobe-maestro-architecture}
     * [Architecture: article index](maestro/architecture/architecture-information.md)
     * [Create workspaces](maestro/architecture/create-workspaces.md)
-    * [Overview of record types and taxonomies](maestro/architecture/overview-of-record-types-and-taxonomies.md)
-    * [Create operational record types](maestro/architecture/create-record-types.md)
+    * [Overview of record types](maestro/architecture/overview-of-record-types-and-taxonomies.md)
+    * [Create record types](maestro/architecture/create-record-types.md)
     * [Create taxonomy record types](maestro/architecture/create-a-taxonomy.md)
     * [Connect record types](maestro/architecture/connect-record-types.md)
     * [Edit record types](maestro/architecture/edit-record-types.md)
@@ -2047,7 +2047,7 @@ feature-set: Workfront
     * [Access information](maestro/access/access-information.md)
     * [Access overview](maestro/access/access-overview.md)
     * [Overview of sharing permissions in Adobe Workfront planning capabilities](maestro/access/sharing-permissions-overview.md)
-    * [License type overview when using the Adobe Workfront planning capabilities ](maestro/access/license-type-overview.md)
+    * [License type overview when using Adobe Workfront planning](maestro/access/license-type-overview.md)
     * [Share workspaces](maestro/access/share-workspaces.md)
     * [Share views](maestro/access/share-views.md)
   * Adobe Maestro records {#adobe-maestro-records}

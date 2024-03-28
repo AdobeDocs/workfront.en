@@ -96,7 +96,14 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
       <p>Once you have selected the widget you would like to edit, available options will display on the right. These options include <b>Filters</b>, <b>Columns</b>, and <b>Groups</b>. You can:</p>
       <ul>
       <li><p><b>Select which Filters, Columns, or Groups will be available to users:</b></p>
-      <p>Check the box next to all options in the list you would like users to be able to use. Unchecked options will not appear for users.</li></p>
+      <p>Check the box next to all options in the list you would like users to be able to use. Unchecked options will not appear for users.</li></p>     
+    <p>
+
+  >[!IMPORTANT]
+  >
+  >Users must have Create access for Views in order to have column configurations apply to to their widgets properly.
+
+  </p>
       <li><p><b>Set a default Filter or Group for the widget:</b></p>
       <p>Hover your mouse over an option and a button will appear that allows you to set that option as the default for users. The current default will have a blue Default badge to its right.</li></p>
       <li><p><b>Add an existing Filter, Column, or Group to the list of available options:</b></p>

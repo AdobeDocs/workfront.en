@@ -1,5 +1,5 @@
 ---
-title: Create operational record types
+title: Create record types
 description: Record types are the object types of Adobe Workfront planning. In Workfront planning, you can create custom record types which illustrate the work items needed in your organization's lifecycle.
 hidefromtoc: yes
 hide: yes
@@ -8,22 +8,14 @@ exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
 ---
 <!--udpate the metadata with real information when making this available in TOC and in the left nav-->
 
-# Create operational record types
+# Create record types
 
 {{maestro-important-intro}}
 
 Record types are the object types of Adobe Workfront planning. In Workfront planning, you can create custom record types which illustrate the work-related items needed in your organization's lifecycle. 
-
 Record types can be one of the following:
 
-* **Operational record types**
-* **Taxonomies**
-
-For more information about record types, see [Overview of record types and taxonomies](../architecture/overview-of-record-types-and-taxonomies.md).
-
-Creating operational record types is similar to creating taxonomy record types. This article describes how you create operational record types. 
-
-For information about creating taxonomies, see [Create taxonomy record types](../architecture/create-a-taxonomy.md). 
+For more information about record types, see [Overview of record types](../architecture/overview-of-record-types-and-taxonomies.md).
 
 ## Access requirements
 
@@ -69,7 +61,7 @@ You must have the following access to perform the steps in this article:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -81,7 +73,7 @@ You must have the following access to perform the steps in this article:
  </tbody>
 </table>
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -100,22 +92,34 @@ You must have the following access to perform the steps in this article:
         * When you create a workspace using a template. 
         
             For information, see [Create workspaces](../architecture/create-workspaces.md).
-        * When you import them using an Excel or CSV file. This is not available for taxonomy record types.
+
+        * When you import them using an Excel or CSV file. 
 
             >[!IMPORTANT]
             >
             >This functionality has been temporarily disabled since March 21, 2024. It will be enabled at a later date.
 
-        <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a Maestro record. This creates a read-only record type in Maestro which is connected to object types from the original application. 
+        <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront planning which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
-        For information about connecting objects with Maestro records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
+        For information about connecting objects with records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
     * Manually:
 
-        * From scratch.    
+        * From scratch.
+
+            This article describes how you create generic record types from scratch in a workspace that you created from scratch.   
+
+* You can move record types within a section and from one section of a workspace to another. You cannot move record types from one workspace to another workspace. 
 
 ## Create record types using a workspace template
 
-You can create record types automatically when you create a workspace using a Workfront planning template. Each template contains sample operational and taxonomy record types. 
+You can create record types automatically when you create a workspace using a Workfront planning template. Each template contains sample record types. 
+
+When you create a workspace from a template, the record types are grouped in the following sections:
+
+* Operational record types
+* Taxonomies
+
+You can manually add record types in both the Operational Record Types and Taxonomies sections. 
 
 For information about creating workspaces, see [Create workspaces](../architecture/create-workspaces.md).
 
@@ -123,9 +127,7 @@ For information about what record types are included with each template, see [Li
 
 ## Create a record type from scratch
 
-This article describes how to create operational record types from scratch. Creating operational record types from scratch is similar to creating taxonomies. 
-
-For more information about taxonomies, see [Create a taxonomy](../architecture/create-a-taxonomy.md).
+This article describes how to create record types from scratch.
 
 {{step1-to-maestro}}
 
@@ -133,7 +135,7 @@ The last-accessed workspace should open by default.
 
 1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to create record types for.
 1. Click **Add record type**. 
-1. (Conditional) If you are creating an operational record type, click **From scratch**. This option is not available when creating taxonomies. 
+1. (Conditional) If you are creating an operational record type, click **From scratch**. 
 
     The Add record type box opens. 
 
@@ -159,14 +161,12 @@ The last-accessed workspace should open by default.
     By default, the following fields display in the table view columns of an operational record type:
 
     * Name
-
-        The Name field is the only field automatically created for taxonomies. 
     * Description
     * Start Date
     * End Date
     * Status
 
-1. (Optional) Update the record type name in he header of the page
+1. (Optional) Update the record type name in the header of the page
 
     Or
 
@@ -189,6 +189,10 @@ The last-accessed workspace should open by default.
       * [Delete record types](../architecture/delete-record-types.md)
       * [Edit record types](../architecture/edit-record-types.md)
       * [Manage record views](../views/manage-record-views.md) 
+
+1. (Optional) From the workspace, click to drag and drop a record type in a desired spot, or to move it to another section. 
+
+    The changes are saved automatically, after you dropped the selected record type card. 
 
 ## Create record types by importing an Excel or CSV file
 
@@ -217,12 +221,7 @@ The last-accessed workspace should open by default.
 
 1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to create record types for.
 1. Click **Add record type**. 
-1. (Conditional) If you are creating an operational record type, click **Excel/CSV**. 
-
-    >[!NOTE]
-    >
-    >    This option is not available when creating taxonomy record types.
-
+1. Click **Excel/CSV**.
 1. Drag and drop an Excel or CSV file previously saved on your computer, or click **Select a CSV or Excel file** to browse for one. 
 1. Click **Review your data**.
     
@@ -261,9 +260,9 @@ The last-accessed workspace should open by default.
 
 <!--## Connect record types with object types from another application
 
-You can connect a Maestro record type and an object type from another application. This creates a read-only record type in Maestro that corresponds to the object type in the other application. 
+You can connect a record type and an object type from another application. This creates a read-only record type in Workfront planning that corresponds to the object type in the other application. 
 
-For example, you can create record types by connecting Maestro record types with Workfront projects. As a result, the Workfront project object type is imported into Maestro as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
+For example, you can create record types by connecting Workfront planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
     
 You can import the following objects from the following applications: 
 

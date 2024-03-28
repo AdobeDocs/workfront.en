@@ -24,7 +24,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-You can connect Adobe Maestro records to one another or to objects from other applications. 
+You can connect Adobe Workfront planning records to one another or to objects from other applications. 
 
 You must first connect two record types to each other, or a record type to an object type from another application. This creates linked record fields. You can then connect records to one another or records to other objects from other applications using the linked record fields. 
 
@@ -36,12 +36,10 @@ For an example of connecting record types, see [Example of connecting record typ
 
 You can connect the following: 
 
-* Maestro operational records 
-* Maestro operational records with taxonomy records
-* Maestro taxonomies
-* Maestro operational records or taxonomies with objects from other applications. 
+* Adobe Workfront planning records
+* Adobe Workfront planning records with objects from other applications. 
 
-  You can connect Maestro records to objects of the types listed below from the following applications:
+  You can connect records to objects of the types listed below from the following applications:
   
   * Adobe Workfront
 
@@ -73,12 +71,12 @@ You must have the following access to perform the steps in this article:
 <td>Product</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>To connect Maestro records with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console.</p>
+   <p>To connect Adobe Workfront planning records with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console.</p>
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront planning closed beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -96,7 +94,7 @@ You must have the following access to perform the steps in this article:
   
   <tr>
    <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls for Maestro</p>  
+   <td> <p>There are no access level controls for Workfront planning</p>  
 </td>
   </tr>
 <tr>
@@ -109,7 +107,7 @@ You must have the following access to perform the steps in this article:
 
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 
@@ -130,14 +128,14 @@ You must have the following access to perform the steps in this article:
 * You can add fields of the linked record types to the table of the record type you are linking from. 
 * You cannot manually update the values of linked fields on the records you are linking from. 
 
-  The values of the linked fields of the linked records populate the Maestro record that you are linking from automatically from the original record or object. 
+  The values of the linked fields of the linked records populate the Workfront planning record that you are linking from automatically from the original record or object. 
 
-* Everyone with access to Maestro and View or higher permissions to the workspace can see the connections that you make between Maestro records or between Maestro records and other applications' objects. They can view connected records and objects regardless of their permissions in the  applications you are connecting to. 
+* Everyone with access to Workfront planning and View or higher permissions to the workspace can see the connections that you make between records or between records and other applications' objects. They can view connected records and objects regardless of their permissions in the  applications you are connecting to. 
 * You can view and edit everyone else's connections, if you have Manage permissions to the workspace where the connected records are. 
-* You can connect one Maestro record to one or multiple objects from another application.
-* To link Maestro records with other records or objects, you must have the following:
+* You can connect one record to one or multiple objects from another application.
+* To link records with other records or objects, you must have the following:
 
-  * At least one Maestro workspace, record type, and record. 
+  * At least one workspace, record type, and record. 
 
       For more information, see the following articles:
 
@@ -147,7 +145,7 @@ You must have the following access to perform the steps in this article:
 
   * Connections between record types, or between record types and objects from other applications. For information, see [Connect record types](../architecture/connect-record-types.md)
   
-### Connect Maestro records
+### Connect Adobe Workfront planning records
 
 {{step1-to-maestro}}
 
@@ -194,7 +192,7 @@ You must have the following access to perform the steps in this article:
       >
       >* If you enabled the **Allow multiple records** setting when you connected the record types, the values of fields for the multiple selected objects are either displayed separated by commas or are aggregated according to the aggregator you chose.
     
-1. (Optional) Close the Maestro record type page and go to the workspace you selected. 
+1. (Optional) Close the record type page and go to the workspace you selected. 
 1. Click the card for the record type that you linked to. 
 
     For example, if you connected the **Campaign** record with the Product record, click the **Product** card. 
@@ -203,15 +201,15 @@ You must have the following access to perform the steps in this article:
   
     Notice that the **Campaign** linked record field displays the names of the campaigns you linked to products in the Product record type page. Updating the Campaign information automatically updates the Campaign linked record field for the Product record type.
 
-### Connect Maestro records to Workfront objects
+### Connect Adobe Workfront planning records to Workfront objects
 
 <!--when we will have more applications to link to from Maestro, change the title to something like: Connect Maestro records to objects from other applications-->
 
-After you created a connection between a Maestro record type and a Workfront object type, you can connect individual Maestro records to objects in Workfront. The Workfront fields you connected are automatically populated on the Maestro records you are linking the objects from.
+After you created a connection between a record type and a Workfront object type, you can connect individual records to objects in Workfront. The Workfront fields you connected are automatically populated on the records you are linking the objects from.
 
 >[!NOTE]
 >
->You cannot connect Workfront objects with Maestro records from Workfront.
+>You cannot connect Workfront objects with Workfront planning records from Workfront.
 
 
 {{step1-to-maestro}}
@@ -260,9 +258,9 @@ After you created a connection between a Maestro record type and a Workfront obj
 
     For more information about connecting record types with objects from another application, see [Connect record types](../architecture/connect-record-types.md).
      
-1. (Optional) Click the name of a Workfront object connected to a Maestro record either in the linked field of a table view or from the linked field of the **Details** page of the Maestro record.
+1. (Optional) Click the name of a Workfront object connected to a Workfront planning record either in the linked field of a table view or from the linked field of the **Details** page of the record.
 
-    This opens the read-only Maestro **Details** page for the linked Workfront object. The fields you selected as lookup fields when you connected the record type with the Workfront object display in the Details page of the Workfront Maestro record. 
+    This opens the read-only Workfront planning **Details** page for the linked Workfront object. The fields you selected as lookup fields when you connected the record type with the Workfront object display in the Details page of the Workfront planning record. 
 
    >[!TIP]
    >
@@ -276,7 +274,7 @@ After you created a connection between a Maestro record type and a Workfront obj
 
     This opens the Workfront object page, if you have at least View permissions to view the object. You can edit information about the Workfront object, if you have permissions to do so. 
 
-1. (Optional) From the table view of the Maestro record type, hover over the column header of the linked Workfront object, and click the drop-down menu, then click **Edit lookup fields**.
+1. (Optional) From the table view of the record type, hover over the column header of the linked Workfront object, and click the drop-down menu, then click **Edit lookup fields**.
 
 1. Add Workfront object fields from the **Unselected fields** area
 
@@ -284,20 +282,20 @@ After you created a connection between a Maestro record type and a Workfront obj
 
     Remove Workfront object fields fro the **Selected fields** area. 
 
-    This adds or removes linked fields from the Maestro records. The information associated with the removed fields remains in Workfront. 
+    This adds or removes linked fields from the Workfront planning records. The information associated with the removed fields remains in Workfront. 
 
 
-### Connect Maestro records to Adobe Experience Manager objects
+### Connect Workfront planning records to Adobe Experience Manager objects
 
 <!--when we will have more applications to link to from Maestro, change the title to something like: Connect Maestro records to objects from other applications-->
 
 >[!IMPORTANT]
 >
->You must have an Adobe Experience Manager Assets license, and your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console to be able to connect Maestro records to Adobe Experience Manager Assets.
+>You must have an Adobe Experience Manager Assets license, and your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console to be able to connect Workfront planning records to Adobe Experience Manager Assets.
 >
 >If you have questions about onboarding to the Adobe Admin Console, see the [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-After you create a connection between a Maestro record type and Adobe Experience Manager Assets, you can connect individual Maestro records to Experience Manager assets. The asset fields you connected from Experience Manager Assets when you created the connection automatically populate on the Maestro record type you linked from.
+After you create a connection between a record type and Adobe Experience Manager Assets, you can connect individual records to Experience Manager assets. The asset fields you connected from Experience Manager Assets when you created the connection automatically populate on the record type you linked from.
 
 {{step1-to-maestro}}
 
@@ -312,7 +310,7 @@ After you create a connection between a Maestro record type and Adobe Experience
 
     >[!TIP]
     >
-    >  You can add click the **+** icon in the linked object field in the Details page of the Maestro record to connect assets to the record.
+    >  You can add click the **+** icon in the linked object field in the Details page of the record to connect assets to the record.
 
     The **Select Assets** box displays. <!--we might change this to Connect assets-->
 
@@ -327,7 +325,7 @@ After you create a connection between a Maestro record type and Adobe Experience
 
     >[!IMPORTANT]
     >
-    > You can connect only assets you have access to view in Experience Manager. Once connected, all Maestro users can view the assets in Maestro, regardless of their access in Experience Manager Assets. 
+    > You can connect only assets you have access to view in Experience Manager. Once connected, all Workfront planning users can view the assets in Workfront planning, regardless of their access in Experience Manager Assets. 
 
 1. Click **Select**. <!-- we might change this to Connect-->
 
@@ -342,7 +340,7 @@ After you create a connection between a Maestro record type and Adobe Experience
       >
       >* If you enabled the Allow multiple records setting, the values of the multiple objects display either separated by commas or aggregated according to the aggregator you chose.
       >
-      >* A linked record field to the Maestro linked records is not created for the linked Experience Manager assets in the Experience Manager Assets application. 
+      >* A linked record field to the Workfront planning linked records is not created for the linked Experience Manager assets in the Experience Manager Assets application. 
      
 1. (Optional) Go to the record type you linked to Experience Manager Assets from and click the name of an asset in the linked record field. The Experience Manager details of the asset display in a pop-up window. <!--update screen shot with hi-rez picture-->
 
@@ -360,11 +358,11 @@ After you create a connection between a Maestro record type and Adobe Experience
     * Date created
     * Date modified 
 
-1. (Optional) To open the Experience Manager assets record Details page in Experience Manager, go to the Maestro record type page of the record you are linking from, click the name of an asset in the linked record field to open the pop-up window, then click the **Open** icon ![](assets/open-asset-icon.png) to open the asset. 
+1. (Optional) To open the Experience Manager assets record Details page in Experience Manager, go to the record type page of the record you are linking from, click the name of an asset in the linked record field to open the pop-up window, then click the **Open** icon ![](assets/open-asset-icon.png) to open the asset. 
 
    This opens the Experience Manager asset in Adobe Experience Manager Assets.  
 
-1. (Optional) From the table view of the Maestro record type, hover over the column header of the linked Experience Manager asset, and click the drop-down menu, then click **Edit lookup fields**.
+1. (Optional) From the table view of the record type, hover over the column header of the linked Experience Manager asset, and click the drop-down menu, then click **Edit lookup fields**.
 
 1. Add Experience Manager Assets object fields from the **Unselected fields** area
 
@@ -372,4 +370,4 @@ After you create a connection between a Maestro record type and Adobe Experience
 
     Remove Workfront object fields fro the **Selected fields** area. 
 
-    This adds or removes linked fields from the Maestro records. The information associated with the removed fields remains in Adobe Experience Assets.
+    This adds or removes linked fields from the records. The information associated with the removed fields remains in Adobe Experience Assets.
