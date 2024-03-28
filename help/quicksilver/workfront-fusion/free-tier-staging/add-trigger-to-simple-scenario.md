@@ -59,3 +59,6 @@ Because the first module has been replaced, the second module must be mapped to 
 
 ## Test and activate
 
+## Resources
+
+For more information on scheduled trigger modules, see [Trigger modules](/help/quicksilver/workfront-fusion/modules/module-types.md#polling-triggers) in the article Module types.
