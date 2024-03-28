@@ -1,6 +1,6 @@
 ---
 title: Delete record types
-description: You can delete record types when they are no longer relevant.
+description: You can delete record types when they are no longer relevant. Deleting record types also deletes all information associated with the record types, like their records, fields, and views.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -120,11 +120,11 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to delete record types for.  
 
-    The workspace opens and the record types and taxonomies associated with it display. 
+    The workspace opens and the record types display. 
 1. Click the card for the record type that you want to delete. 
 
     This opens the record type's page. 
-1. Click the **More** menu ![](assets/more-menu.png) to the right of the record type name, then click **Delete**. 
-1. Click **Delete** to confirm. 
-
-    The selected record type, along with their fields, associated records, and views are deleted.
+1. Click the **More** menu ![](assets/more-menu.png) to the right of the record type name, then click **Delete**. <!--add screen shot when they finalize the UI-->
+1. Type **Delete** in the confirmation box, then click **Permanently delete**.
+   
+   The selected record type, along with their fields, associated records, and views are deleted.
