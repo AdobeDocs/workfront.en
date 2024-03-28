@@ -234,6 +234,7 @@ The following table shows the limits for how many objects you can create in Work
 |       Adobe Workfront Planning  object                                                          |                                                        Limit                                                    |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 |     Number of Workspaces for one Workfront instance                                      |   1,000                                                                                                         |
+|     Number of sections for one workspace                                      |   50                                                                                                         |
 |     Number of Record Types for one workspace                                            |   1,000 (this includes record types from all sections and those that are created when using a workspace template)  |
 |     Number of records for one record type                                               |   50,000                                                                                                        |
 |     Number of fields for one record type or taxonomy                            |   500                                                                                                           |

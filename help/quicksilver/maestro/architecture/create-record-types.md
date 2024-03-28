@@ -107,7 +107,7 @@ You must have the following access to perform the steps in this article:
 
         * From scratch.
 
-            This article describes how you create generic record types from scratch in a workspace that you created from scratch.   
+            This article describes how you create record types from scratch.    
 
 * You can move record types within a section and from one section of a workspace to another. You cannot move record types from one workspace to another workspace. 
 
@@ -128,17 +128,14 @@ For information about what record types are included with each template, see [Li
 
 ## Create a record type from scratch
 
-This article describes how to create record types from scratch.
-
 {{step1-to-maestro}}
 
 The last-accessed workspace should open by default. 
 
 1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to create record types for.
+1. (Optional) Click **Add section** to add a new section to the workspace.
 1. Click **Add record type**. 
-1. (Conditional) If you are creating an operational record type, click **From scratch**. 
-
-    The Add record type box opens. 
+1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. 
 
     ![](assets/add-record-type-box-with-appearance-options.png)
 
@@ -151,13 +148,17 @@ The last-accessed workspace should open by default.
 
 1. Click outside the **Add record type** box to save the record type. 
 
-    The record type card is added to the workspace you selected. 
+    The record type card is added to the section and the workspace you selected. 
     The number of fields that the record type contains displays on the card. 
 1. (Optional) Click the record type card to open the record type page. 
 
     ![](assets/operational-record-type-blank.png)
 
-    The record type page displays in the Table view by default. The columns of the table are fields associated with the new record type. Each row is a unique record that you must add. 
+    The record type page displays in the table view by default. The columns of the table are fields associated with the new record type. Each row is a unique record that you must add. 
+
+    >[!TIP]
+    >
+    >    If you import a record type from an Excel or CSV file, records are also imported.
 
     By default, the following fields display in the table view columns of an operational record type:
 
@@ -178,7 +179,7 @@ The last-accessed workspace should open by default.
 
     For more information about creating fields, see [Create fields](../fields/create-fields.md).
     
-1. (Optional) Click the left-pointing arrow to the left of the record type name to go back to the selected workspace. 
+1. (Optional) Click the left-pointing arrow to the left of the record type name, in the header, to go back to the selected workspace. 
 
     The record type card displays the number of fields and connections the record type contains. 
 
@@ -191,16 +192,15 @@ The last-accessed workspace should open by default.
       * [Edit record types](../architecture/edit-record-types.md)
       * [Manage record views](../views/manage-record-views.md) 
 
-1. (Optional) From the workspace, click to drag and drop a record type in a desired spot, or to move it to another section. 
+1. (Optional) From the workspace, click and hold a record type card to drag and drop the record type in a desired spot, or to move it to another section. 
 
-    The changes are saved automatically, after you dropped the selected record type card. 
+    The changes are saved automatically.
 
 ## Create record types by importing an Excel or CSV file
 
 >[!IMPORTANT]
 >
 >This functionality has been temporarily disabled since March 21, 2024. It will be enabled at a later date.
-
 
 Consider the following when importing record types using an Excel or CSV file: 
 
