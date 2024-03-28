@@ -132,7 +132,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
    ![Map toggle](assets/map-toggle.png)
 1. Click the **[!UICONTROL Task ID]** field.  
 
-   A panel opens that allows you to select what to use as the ID of the task you want to convert to a project. The panel includes output from any previous modules. Because you selected ID as an output of the previous module, it is now available in the panel.
+   A panel opens that allows you to select what to use as the ID of the task you want to convert to a project. Because you enabled mapping, the panel includes output from any previous modules. You selected ID as an output of the previous module, so it is now available in the panel.
 
    This panel is called the mapping panel. For more information on the mapping panel, see [Map information from one module to another](/help/quicksilver/workfront-fusion/mapping/map-information-between-modules.md).
 1. Select **ID** in the mapping panel.
@@ -140,12 +140,6 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
    An ID block appears in the ID field. It shows the number of the module it is mapped from, and the field that is mapped.
 
    ![Map ID](assets/map-id.png)
-
-1. (Optional) In the Project section, locate the Owner ID field and begin typing your name in the field, then select it when it appears. This will set you as the owner of the project, and will make it easier to find in Workfront.
- 
-   >[!TIP]
-   >
-   >You can use **Cmd+F** ([!DNL Mac] OS) or **Ctrl-F** ([!DNL Windows] OS) to find a field quickly.
 
 1. Click the **Template ID** field, begin typing the name of the Workfront template you want to use for this project, then select it when it appears in the list.
 1. Click **[!UICONTROL OK]** to save the module configuration.
@@ -201,3 +195,12 @@ Because this scenario is searching for a specific task, there is no need to acti
 For more information about activating scenarios, see [Activate or deactivate a scenario in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
 
 For information about schedules, see [Schedule a scenario in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).
+
+## Next steps
+
+* Add a trigger module to allow the scenario to periodically look for new requests and convert them to projects.
+* Add a webhook to allow the scenario to execute every time a request is entered.
+* Add a filter to ensure that only certain issues are converted to projects.
+* Add a function that will customize the name of the new project.
+* Add error handling to ensure that the scenario is resilient against errors. 
+
