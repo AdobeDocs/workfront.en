@@ -2,7 +2,7 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
-title: Create a simple scenario in [!DNL Adobe Workfront Fusion]
+title: Create a basic scenario
 description: Learn how to create a simple automation scenario with Adobe Workfront Fusion. Automation scenarios automate Workfront processes, including data manipulation and transformation. This example takes you through the process of creating a scenario that searches for a [!DNL Workfront] task in Workfront and the converts it to a project.
 author: Becky
 feature: Workfront Fusion
@@ -201,6 +201,6 @@ For information about schedules, see [Schedule a scenario in [!UICONTROL Adobe W
 * Add a trigger module to allow the scenario to periodically look for new requests and convert them to projects.
 * Add a webhook to allow the scenario to execute every time a request is entered.
 * Add a filter to ensure that only certain issues are converted to projects.
-* Add a function that will customize the name of the new project.
+* Add a function that customizes the name of the new project.
 * Add error handling to ensure that the scenario is resilient against errors. 
 
