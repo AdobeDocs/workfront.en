@@ -52,7 +52,7 @@ Access the following articles for an overview of the new Workfront Planning:
 
 The following sections contain articles that describe in detail the features currently available for Workfront Planning: 
 
-* [Access: article index](../maestro/access/access-information.md): Information about the access and permissions needed to use Workfront Planning.
+* [Adobe Workfront Planning Access information: article index](../maestro/access/access-information.md): Information about the access and permissions needed to use Workfront Planning.
 * [Architecture: article index](../maestro/architecture/architecture-information.md): In-depth information about the architecture of Workfront Planning, with step-by-step instructions on how you can create and manage workspaces and record types.
 * [Fields: article index](../maestro/fields/fields-information.md): In-depth information and step-by-step instructions on creating custom fields for record types. 
 * [Records: article index](../maestro/records/records-information.md): In-depth information and step-by-step instructions on how you can create and manage records. 

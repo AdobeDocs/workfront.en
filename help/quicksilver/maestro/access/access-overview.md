@@ -34,7 +34,7 @@ You must have the following settings to use Adobe Workfront Planning:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfront Planning closed beta program. </p>
+<p>Your organization must be enrolled in the Adobe Workfront Planning beta program. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +69,7 @@ You must have the following settings to use Adobe Workfront Planning:
    <p>Contribute or higher permissions to workspaces and views that you did not create to edit, delete, and share them, and to create, edit, or delete record types and records.</p>
     <p>System Administrators can manage workspaces they did not create. </p>
     <p>System Administrators cannot manage views they did not create. </p>
-   <p>For information about sharing permissions for planning capabilities objects, see  
+   <p>For information about sharing permissions for Workfront Planning objects, see  
    <a href="../access/sharing-permissions-overview.md">Overview of sharing permissions in Adobe Workfront Planning</a> 
   </td>
   </tr>

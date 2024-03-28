@@ -13,9 +13,11 @@ exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
 
 {{maestro-important-intro}}
 
-Your Adobe Workfront license type works in conjunction with your Adobe Workfront Planning permissions to give you access to view, contribute, or manage workspaces or views. <!--add more objects here when we can grant other object-specific permissions-->
+Your Adobe Workfront license type works in conjunction with your Adobe Workfront Planning permissions to give you access to view, contribute, or manage workspaces. <!--add more objects here when we can grant other object-specific permissions-->
 
-This article describes the types of licenses needed and the access granted to objects based on each license type. 
+Users with all license types can view, create, edit, or manage Workfront Planning views. 
+
+This article describes the types of licenses needed in Workfront, and the permissions granted to objects in Workfront Planning based on each license type. 
 
 A user with a lower-level license type has restricted permissions to objects when using Workfront Planning capabilities. 
 
@@ -32,7 +34,7 @@ For information about permissions to objects in Workfront Planning, see [Overvie
 
 ## The relationship between Workfront license types and Workfront Planning permissions
 
-The following table describes the relationship between the license type of a user and the level of permissions you can grant to them based on that license: 
+The following table describes the relationship between the license type of a user in Adobe Workfront and the level of permissions you can grant to them to Adobe Workfront Planning objects based on that license: 
 
 
 | Adobe Workfront license type                                   | Permissions allowed in Adobe Workfront Planning                                                                                                                                             |

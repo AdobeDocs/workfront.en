@@ -58,6 +58,7 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader"><p>Adobe Workfront license</p></td>
    <td>
    <p>Any</p> 
+   <p>System administrators have access only the views they created or that are shared with them. </p>
   </td>
   </tr>
   
