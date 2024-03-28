@@ -10,58 +10,67 @@ exl-id: e64d9b1e-8576-43db-ac29-0d386a482fbc
 ---
 # Map items using functions in [!DNL Adobe Workfront Fusion]
 
-When you map items, you can use functions to create simple or complex formulas.
+When you map items, you can use functions to create simple or complex formulas. The functions available in [!DNL Adobe Workfront Fusion] are similar to functions in Excel and in some programming languages:
 
-The functions available in [!DNL Adobe Workfront Fusion] are similar to functions in Excel and in some programming languages. They evaluate general logic, math, text, dates, and arrays. They let you perform conditional logic and transformations of item values, such as converting a text to uppercase, trimming text, converting a date into a different format, and more. For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
+* They evaluate general logic, math, text, dates, and arrays. 
+* They let you perform conditional logic and transformations of item values, such as converting a text to uppercase, trimming text, converting a date into a different format, and more. 
 
-## Access requirements
+For more information, see [Map information from one module to another in Adobe Workfront Fusion](../../workfront-fusion/mapping/map-information-between-modules.md).
 
-You must have the following access to use the functionality in this article:
 
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!DNL Pro] or higher</p> </td> 
+## Access requirements 
+
+You must have the following access to use the functionality in this article: 
+
+<table style="table-layout:auto"> 
+
+ <col>  
+ <col>  
+ <tbody>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td>  
+   <td> <p>Any</p> </td>  
+  </tr>  
+  <tr data-mc-conditions="">  
+   <td role="rowheader">[!DNL Adobe Workfront] license</td>  
+   <td> <p>New: [!UICONTROL Standard]</p><p>Or</p><p>Current: [!UICONTROL Work] or higher</p> </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td>  
+   <td> 
+   <p>Current: No [!DNL Workfront Fusion] license requirement.</p> 
+   <p>Or</p> 
+   <p>Legacy: Any </p> 
+   </td>  
+  </tr>  
+  <tr>  
+   <td role="rowheader">Product</td>  
+   <td> 
+   <p>New:</p> <ul><li>[!UICONTROL Select] or [!UICONTROL Prime] [!DNL Workfront] Plan: Your organization must purchase [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] is included.</li></ul> 
+   <p>Or</p> 
+   <p>Current: Your organization must purchase [!DNL Adobe Workfront Fusion].</p> 
+   </td>  
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
-   <td>
-   <p>Current license requirement: No [!DNL Workfront Fusion] license requirement.</p>
-   <p>Or</p>
-   <p>Legacy license requirement: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Product</td> 
-   <td>
-   <p>Current product requirement: If you have the [!UICONTROL Select] or [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article. [!DNL Workfront Fusion] is included in the [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
-   <p>Or</p>
-   <p>Legacy product requirement: Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</p>
-   </td> 
-  </tr> 
- </tbody> 
-</table>
+ </tbody>  
+</table> 
 
-To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
-For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md). 
 
-## Insert functions into fields
+## Mapping tab overview
 
-If you click a field, the [!UICONTROL mapping] panel displays. The mapping panel contains several tabs:
+To open the [!UICONTROL mapping] panel for a field:
+
+1. Click **Scenarios** in the left panel.
+1. Choose a scenario 
+
+![](assets/open-functions-bar.png)
+
+
+### Mapping panel tabs
 
 ![](assets/functions-toolbar-350x189.png)
-
-The first tab ![](assets/toolbar-icon-functions-you-map-from-other-modules.png) (shown upon opening the panel) displays the items that you can map from other modules.
-
-The other tabs contain the following types of functions:
 
 * **General functions** ![](assets/toolbar-icon-general-function.png) - See [General functions in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/general-functions.md) for more information.
 
@@ -75,6 +84,10 @@ The other tabs contain the following types of functions:
     * [Tokens for date and time parsing in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md)
 
 * **Functions for working with arrays** ![](assets/toolbar-icon-functions-for-arrays.png) - See [Array functions in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/array-functions.md) for more information.
+
+* **Map other functions** ![](assets/toolbar-icon-functions-you-map-from-other-modules.png) displays the items that you can map from other modules. This tab is not always available. 
+
+## Insert functions into fields
 
 To insert a function into a field:
 
