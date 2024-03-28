@@ -30,10 +30,32 @@ You must create the scenario described in [Create a basic scenario](/help/quicks
 
 1. Click the blank module, and select **Adobe Workfront** from the list of apps.
 1. Select **Watch Record**.
+1. Make sure that the module uses the same connection as the rest of the modules in the scenario.
+1. In the Filter field, select **New Records Only**.
+1. In the Outputs box, select `ID`, `Name`, and `Project ID`.
+1. Click **OK** to save the module settings.
+   
+   A Choose where to start window appears.
+
+1. Select **From now on**.
 
 ## Schedule the trigger module
 
+1. Click the clock on the Watch Records module.
+
+   The Schedule setting window opens.
+
+1. In the Run scenario field, select **At regular intervals**.  
+
+1. Click **OK**.
+
 ## Update or add the second module
+
+Because the first module has been replaced, the second module must be mapped to the new first module.
+
+1. Open the Convert object module.
+1. In the Issue ID field, delete the black ID block, and map the ID block from the first module.
+1. Click **OK**.
 
 ## Test and activate
 
