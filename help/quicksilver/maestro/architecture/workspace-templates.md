@@ -1,6 +1,6 @@
 ---
 title: List of workspace templates
-description: A workspace is a collection of operational record types and taxonomies used by a team and represents the team's work lifecycle. Maestro comes with a set of templates to get you started with basic record types, taxonomies, and fields when you are building your workspace.
+description: A workspace is a collection of record types used by a team and represents the team's work lifecycle. Adobe Workfront planning comes with a set of templates to get you started with basic record types and fields when you are building your workspace.
 hide: yes
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
@@ -23,17 +23,21 @@ role: User
 
 {{maestro-important-intro}}
 
-In Adobe Maestro, a workspace is a collection of operational record types and taxonomies used by a team and represents the team's work lifecycle. 
+In Adobe Workfront planning, a workspace is a collection of record types used by a team and represents the team's work lifecycle. 
 
-Maestro comes with a set of templates to get you started with basic record types, taxonomies, and fields when you are building your workspace. For information about creating workspaces, see [Create workspaces](../architecture/create-workspaces.md). 
+Workfront planning comes with a set of templates to get you started with basic record types and fields when you are building your workspace. For information about creating workspaces, see [Create workspaces](../architecture/create-workspaces.md). 
 
-This article describes the workspace templates available in Maestro. 
+This article describes the workspace templates available in Adobe Workfront planning. 
 
-## Considerations about Maestro templates
+## Considerations about Adobe Workfront planning templates
 
-* Each template comes with a set of operational record types and taxonomies. For information, see [Overview of record types and taxonomies](../architecture/overview-of-record-types-and-taxonomies.md).
-* Each operational record type and taxonomy comes with a set of fields. Some of these fields are connections to other Maestro record types. 
-* You can customize any template.
+* Each template comes with a set of record types. For information, see [Overview of record types](../architecture/overview-of-record-types-and-taxonomies.md).
+* The record types in each template are organized in the following sections:
+
+    * Operational Record Types
+    * Taxonomies
+* Each record type comes with a set of fields. Some of these fields are connections to other Workfront planning record types. 
+* You can customize any template and add more record types and fields to the existing ones.
 
 <!-- I modeled this article by the "List of available Blueprints" and that articles does not have an Access area
 
@@ -86,9 +90,9 @@ You must have the following:
 
 -->
 
-## Maestro workspace templates 
+## Workfront planning workspace templates 
 
-The following are workspace templates in Maestro and the number of fields they include:
+The following are workspace templates in Workfront planning and the number of fields they include:
 
 * **Marketing management**: You can manage all your marketing campaigns when you use this template. The template comes with the following:
 

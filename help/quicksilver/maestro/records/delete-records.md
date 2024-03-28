@@ -12,7 +12,7 @@ exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
 
 {{maestro-important-intro}}
 
-You can delete records that are no longer relevant in Adobe Workfront planning capabilities. 
+You can delete records that are no longer relevant in Adobe Workfront planning. 
 
 ## Access requirements
 
@@ -33,7 +33,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfront planning capabilities closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront planning beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -52,7 +52,7 @@ You must have the following access to perform the steps in this article:
   
   <tr>
    <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access level controls for Adobe Workfront planning capabilities </p>  
+   <td> <p>There are no access level controls for Adobe Workfront planning </p>  
 </td>
   </tr>
 
@@ -64,7 +64,7 @@ You must have the following access to perform the steps in this article:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 
