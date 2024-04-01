@@ -80,9 +80,7 @@ This option copies the full thread link to the clipboard so you can share the th
 
 1. Go to the update thread you want to copy.
 
-1. Click the **More** menu, then click **Copy thread link**.
-
-   ![](assets/update-stream-comment-menu-marked-350x152.png) 
+1. Click the **More** menu, then click **Copy thread link**. 
 
 1. Paste the link you copied in the previous step in an email or another application to share it with others. The shared link opens the comment you shared the link from. 
 
@@ -92,8 +90,6 @@ This option copies the text from a specific update to the clipboard.
 
 1. Go to the update or reply you want to copy.
 1. Click the **More** menu, then click **Copy body text**.
-
-   ![](assets/update-stream-comment-menu-marked-350x152.png)
 
 ### Quote Reply  
 
