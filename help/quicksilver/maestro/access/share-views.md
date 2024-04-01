@@ -1,6 +1,6 @@
 ---
 title: Share views
-description: You can share a view with others to ensure collaboration when using Adobe Workfront planning.
+description: You can share a view with others to ensure collaboration when using Adobe Workfront Planning.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -12,7 +12,7 @@ exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
 
 {{maestro-important-intro}}
 
-You can share a view with others to ensure collaboration when working with records in Adobe Workfront planning. 
+You can share a view with others to ensure collaboration when working with records in Adobe Workfront Planning. 
 
 Granting permissions to a workspace does not give other users permissions to the views on the record type pages. You must grant permissions to individual views in a record type page to share them with other users. 
 
@@ -35,7 +35,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfront planning closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront Planning closed beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -53,7 +53,7 @@ You must have the following access to perform the steps in this article:
   
   <tr>
    <td role="rowheader"><p>Access level configurations</p></td>
-   <td> There are no access controls for Adobe Workfront planning </p>  
+   <td> There are no access controls for Adobe Workfront Planning </p>  
 </td>
   </tr>
 
@@ -100,7 +100,7 @@ You can share views you created or views you have Manage permissions to.
     * View
     * Manage
 
-        For information about permission levels and what actions users can perform for each level, see [Overview of sharing permissions in Adobe Workfront planning](../access/sharing-permissions-overview.md).
+        For information about permission levels and what actions users can perform for each level, see [Overview of sharing permissions in Adobe Workfront Planning](../access/sharing-permissions-overview.md).
 
         <!--System administrators always receive Manage permissions to views shared with them.--> 
 

@@ -12,7 +12,7 @@ exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
 
 {{maestro-important-intro}}
 
-In Adobe Workfront planning, workspaces are centralized locations for teams to plan work. For more information, see [Create workspaces](../architecture/delete-workspaces.md). 
+In Adobe Workfront Planning, workspaces are centralized locations for teams to plan work. For more information, see [Create workspaces](../architecture/delete-workspaces.md). 
 
 You can delete workspaces that are no longer relevant. 
 
@@ -56,7 +56,7 @@ You must have the following access to perform the steps in this article:
   
   <tr>
    <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls for Adobe Workfront planning</p>  
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
 </td>
   </tr>
 

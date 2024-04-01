@@ -34,6 +34,7 @@ In lieu of a release webinar, we invite you to [register for Adobe Summit](https
 ## Adobe Workfront enhancements
 
 * [Administrator enhancements](#administrator-enhancements)
+* [Document management enhancements](#document-management-enhancements)
 * [Home enhancements](#home-enhancements)
 * [Project enhancements](#project-enhancements)
 * [Resource management enhancements](#resource-management-enhancements)
@@ -58,7 +59,23 @@ In lieu of a release webinar, we invite you to [register for Adobe Summit](https
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Companies and users now support advanced custom form fields</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Display logic and skip logic are now available in the form designer preview mode</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>The beta custom form designer now allows you to test your display logic and skip logic in preview mode. Previously, all fields were displayed in the preview even when logic was applied.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: March 28, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production for customers: With the 24.4 release (April 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Companies and users now support advanced custom form fields</a></p>
                         <p>Advanced custom form features such as External Lookup fields and Workfront native fields are now available when you attach a custom form to a company or a user.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -148,7 +165,7 @@ In lieu of a release webinar, we invite you to [register for Adobe Summit](https
             </tbody>
         </table>
 
-### Home enhancements
+### Document management enhancements
 
 <table>
             <col style="width: 50%;" />
@@ -163,58 +180,80 @@ In lieu of a release webinar, we invite you to [register for Adobe Summit](https
                         <p><span class="bold">Release dates</span>
                         </p>
                     </td>
-                 </tr>
+                </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Column options added to Administrator controls for new Home using layout templates</a></p><p>[!BADGE In production for Fast Release ]{type=Positive}</p><p>Administrators can now customize which columns are available for users in specific new Home widgets using layout templates. Options include hiding or displaying default columns and adding existing fields as new columns.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Add a deadline to a document reviews and approvals</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>You can now specify a deadline for users or teams assigned to review or approve a document. Reviewers and approvers receive email notifications 72 hours and then 24 hours before the specified deadline. The deadline is also reflected in the Approvals widget in the new Home area.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: January 2, 2024</p>
+                                <p>Preview release: March 28, 2024</p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 24.2 release (February 15, 2024)</p>
-                            </li>
-                            <li>
-                                <p>Production for quarterly release: With the 24.4 release (April 2024)</p>
+                                <p>Production for customers: With the 24.4 release (April 2024)</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
-           </tbody>
-        </table>
-
-### Integration enhancements
-
-<table>
-    <col style="width: 50%;" />
-    <col style="width: 50%;" />
-    <tbody>
                 <tr>
                     <td>
-                        <p><span class="bold">Feature</span>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Create and use Approval Templates</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>You can now create Approval Templates in the Setup area to streamline the review and approval process. Approval Templates allow you make the review and approval process more repeatable by
+                        <ul>
+                            <li>
+                                <p>Adding reviewers and approvers</p>
+                            </li>
+                            <li>
+                                <p>Setting a timeframe</p>
+                            </li>
+                        </ul>
                         </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Release dates</span>
-                        </p>
-                    </td>
-                 </tr>
-                 <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Enhancements to automated folder creation workflow in the Adobe Experience Manager integration</a></p><p>[!BADGE In production ]{type=Informative}</p><p>To ensure that your Adobe Experience Manager folders more accurately reflect your needs, we've added nested folder trees to the Adobe Experience Manager linked folders workflow.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: March 11, 2024</p>
+                                <p>Preview release: March 28, 2024</p>
                             </li>
-                             <li> <p><span class="preview">Production release for all customers: March 14, 2024</span></p>
-                             </li>
+                            <li>
+                                <p>Production for customers: With the 24.4 release (April 2024)</p>
+                            </li>
                         </ul>
                     </td>
-                 </tr>          
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">View information about all your approvals in once place</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>To help you manage and analyze your approval requests at a glance, we've added the following key performance indicators to the All Approvals widget:
+                        <ul>
+                            <li>
+                                <p>Approvals by decision</p>
+                            </li>
+                            <li>
+                                <p>Average approval time</p>
+                            </li>
+                            <li>
+                                <p>Pending approvals</p>
+                            </li>
+                            <li>
+                                <p>Overdue approvals</p>
+                            </li>
+                        </ul>
+                        </p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: March 28, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production for customers: With the 24.4 release (April 2024)</p>
+                            </li>
+                        </ul>
+                        <p><span style="color: #ff0000;">This feature is part of a phased release and is currently only available for specific customers.</span></p>
+                    </td>
+                </tr>
             </tbody>
 </table>
 
@@ -332,6 +371,22 @@ In lieu of a release webinar, we invite you to [register for Adobe Summit](https
                         </p>
                     </td>
                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">Access to the legacy commenting area has been removed</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>We have removed the "New commenting" toggle in the Updates area for projects, tasks, issues, and documents. The new commenting is now the default and only option for these objects.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: April 1, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production for all customers: With the 24.4 release (April 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>  
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">New commenting stream now available in quick actions for new Home widgets</a></p><p>[!BADGE In production for Fast Release ]{type=Positive}</p>

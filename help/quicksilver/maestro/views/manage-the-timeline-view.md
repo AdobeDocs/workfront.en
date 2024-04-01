@@ -1,6 +1,6 @@
 ---
 title: Manage the timeline view
-description: You can display records in a timeline view, when accessing the record type page in Adobe Workfront planning.
+description: You can display records in a timeline view, when accessing the record type page in Adobe Workfront Planning.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -22,7 +22,7 @@ role: User
 
 {{maestro-important-intro}}
 
-You can display records in a timeline view, when accessing the record type page in Adobe Workfront planning. 
+You can display records in a timeline view, when accessing the record type page in Adobe Workfront Planning. 
 
 For information about record views, see [Manage record views](../views/manage-record-views.md).
 
@@ -45,7 +45,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfront planning beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront Planning beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -58,12 +58,13 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader"><p>Adobe Workfront license</p></td>
    <td>
    <p>Any</p> 
+   <p>System administrators have access only the views they created or that are shared with them. </p>
   </td>
   </tr>
   
   <tr>
    <td role="rowheader">Access level configuration</td>
-   <td> <p>There are no access level controls for Adobe Workfront planning </p>  
+   <td> <p>There are no access level controls for Adobe Workfront Planning </p>  
 </td>
   </tr>
 

@@ -16,6 +16,7 @@ feature-set: Workfront
     * 2024 Q2 Release {#release-24-q2}
       * [2024 Q2 Release Overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
       * [2024 Q2 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md)
+      * [2024 Q2 Document management enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md)
       * [2024 Q2 Home enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md)
       * [2024 Q2 Integration enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md)
       * [2024 Q2 Project enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md)
@@ -2044,7 +2045,7 @@ feature-set: Workfront
     * [Delete fields](maestro/fields/delete-fields.md) 
     * [Formula fields overview](maestro/fields/formula-fields.md)   
   * Adobe Maestro access {#adobe-maestro-access}
-    * [Access information](maestro/access/access-information.md)
+    * [Adobe Workfront Planning Access information: article index](maestro/access/access-information.md)
     * [Access overview](maestro/access/access-overview.md)
     * [Overview of sharing permissions in Adobe Workfront planning capabilities](maestro/access/sharing-permissions-overview.md)
     * [License type overview when using Adobe Workfront planning](maestro/access/license-type-overview.md)
