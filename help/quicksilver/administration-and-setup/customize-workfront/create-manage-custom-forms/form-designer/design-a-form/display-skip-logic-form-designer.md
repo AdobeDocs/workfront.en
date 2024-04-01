@@ -7,6 +7,7 @@ description: You can decide which sections of a custom form should be displayed 
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
+exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
 ---
 # Add display logic and skip logic with the form designer
 
@@ -118,7 +119,7 @@ Display logic defines which custom fields appear on the form when the user selec
 
 >[!NOTE]
 >
->Display logic is temporarily unavailable when you preview your form in the form designer.
+><span class="preview">Display logic is only available when you preview your form in the form designer in the Preview environment.</span>
 
 ## Add skip logic to a custom form
 
@@ -152,4 +153,4 @@ Skip logic defines custom form fields that are skipped when the user selects a s
 
 >[!NOTE]
 >
->Skip logic is temporarily unavailable when you preview your form in the form designer.
+><span class="preview">Skip logic is only available when you preview your form in the form designer in the Preview environment.</span>

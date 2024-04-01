@@ -13,9 +13,9 @@ exl-id: c2e2901b-0558-4a63-ae3c-4c3a6edf0ff0
 
 You can use the new form designer to design a custom form that users can attach to a Workfront object. Users who work on the object can fill out the custom form to supply information about the object.
 
-The new form designer has a new canvas-style workspace that allows you to view the fields, canvas, and field settings all at the same time. It also allows you to drag-and-drop fields within the sections while designing your form. 
+The new form designer has a new canvas-style workspace that allows you to view the fields, canvas, and field settings all at the same time. It also allows you to drag-and-drop fields within the sections while designing your form.
 
-<!-- add screenshot when field settings empty state is ready -->
+![Sample form designer](assets/form-designer-example.png)
 
 ## How to access the new form designer
 
@@ -35,17 +35,7 @@ With the new form designer, we've added the ability to:
 
     >[!NOTE]
     >
-    >Default section is not visible within objects once the form is attached to the object.
-
-## Functionality coming soon
-
-The following are not currently available in the form designer but will be added soon:
-
-* Filter for typeahead fields
-
->[!IMPORTANT]
->
->The existing configurations for typeahead filters will not be affected when you work with the new form designer.
+    >The Default section is not visible within objects once the form is attached to the object.
 
 ## Functionality removed from the form designer
 
@@ -66,3 +56,4 @@ We've removed the following functionality from inside the form designer:
     >[!NOTE]
     >
     >You can find this in Setup > Interface > Update Feeds
+

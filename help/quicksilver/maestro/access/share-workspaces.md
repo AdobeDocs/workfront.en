@@ -1,19 +1,19 @@
 ---
 title: Share workspaces
-description: You can share a workspace with others to ensure collaboration when working in Adobe Workfront Maestro. 
+description: You can share a workspace with others to ensure collaboration when working in Adobe Workfront Planning. 
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 ---
 
-<!--update the metadata and description when we turn this article live; also, update title after Bob adds Maestro as a product-->
+<!--update the metadata and description when we turn this article live; also, update title after Bob adds Planning as a product ??-->
 
 # Share workspaces
 
 {{maestro-important-intro}}
 
-You can share a workspace with others to ensure collaboration when working in Adobe Workfront Maestro. 
+You can share a workspace with others to ensure collaboration when working in Adobe Workfront Planning. 
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront Planning closed beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -51,13 +51,15 @@ You must have the following access to perform the steps in this article:
   <tr>
    <td role="rowheader"><p>Adobe Workfront license</p></td>
    <td>
-   <p>Any</p> 
+   <p>New: Standard</p>
+   Or
+   <p>Current: Plan </p> 
   </td>
   </tr>
   
   <tr>
    <td role="rowheader"><p>Access level configurations</p></td>
-   <td> There are no access controls for Adobe Maestro</p>  
+   <td> There are no access controls for Adobe Workfront Planning</p>  
 </td>
   </tr>
 
@@ -69,7 +71,7 @@ You must have the following access to perform the steps in this article:
 
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Maestro area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/maestro/access/access-overview.md">Access overview</a>. </p> 
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/maestro/access/access-overview.md">Access overview</a>. </p> 
 </td>
   </tr>
  </tbody>
@@ -99,7 +101,7 @@ To share a workspace with others:
     * Contribute
     * Manage
 
-        For information about permission levels and what actions users can perform for each level, see [Overview of sharing permissions in Adobe Maestro](../access/sharing-permissions-overview.md).
+        For information about permission levels and what actions users can perform for each level, see [Overview of sharing permissions in Adobe Workfront Planning](../access/sharing-permissions-overview.md).
 1. Click **Copy link** to copy a link to the workspace to your clipboard. 
 1. Share the copied link with others. Users who receive the link must be active users and log in to Workfront to be able to access the workspace. 
 1. Click **Save**.

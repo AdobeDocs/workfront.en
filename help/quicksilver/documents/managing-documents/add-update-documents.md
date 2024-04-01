@@ -41,7 +41,7 @@ You must have the following:
 1. Go to the object that contains the document, then select **Documents** in the left panel.
 1. Find the document you need, and do one of the following:
 
-   * Click the document in the list, click the **Open Summary** icon ![](assets/qs-summary-in-new-toolbar-small.png) in the upper-right corner, then click **Start a new update** or click **Reply** to add a reply to an existing comment. For information about the Summary, see [Summary for documents overview](../../documents/managing-documents/summary-for-documents.md).
+   * Click the document in the list, click the **Open Summary** icon ![](assets/qs-summary-in-new-toolbar-small.png) in the upper-right corner, then add a new comment, or click **Reply** to add a reply to an existing comment. For information about the Summary, see [Summary for documents overview](../../documents/managing-documents/summary-for-documents.md).
    * Hover over the document, click **Document Details**, then **Updates** in the left panel. 
       For more information about adding updates to objects, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).  
 

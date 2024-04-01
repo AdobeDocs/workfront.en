@@ -11,6 +11,10 @@ exl-id: 42d5945d-66c5-430b-8a37-dca9c2973716
 
 You can add a report to a new or existing dashboard directly from a report. You can also add an existing report to a dashboard, as described in [Create a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
+>[!NOTE]
+>
+>External lookup fields from custom forms are currently not supported in dashboards. You cannot edit the field value inline, and it may not display properly in a dashboard.
+
 ## Access requirements
 
 You must have the following:

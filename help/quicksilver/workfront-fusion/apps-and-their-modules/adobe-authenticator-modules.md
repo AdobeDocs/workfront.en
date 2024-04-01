@@ -8,6 +8,7 @@ title: Adobe Authenticator module
 description: With the Adobe Authenticator module, you can connect to any Adobe product with an API, using a single connection.
 author: Becky
 feature: Workfront Fusion
+exl-id: 74c943fb-37ad-4d91-8af7-9808ba69992e
 ---
 # Adobe Authenticator modules
 
@@ -223,4 +224,3 @@ This action module allows you to make a call to any Adobe API.
     </tr>
   </tbody>
 </table>
-
