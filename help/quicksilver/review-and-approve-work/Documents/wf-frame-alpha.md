@@ -62,4 +62,6 @@ When a new document version is uploaded, the next round of revision can be kicke
 
 ## Send Feedback
 
-We value your input and believe that your perspective is crucial in helping us create the best product possible. As you have specific feedback on what would be required in order for your company to adopt this solution in Production, please send it to [etienneb@adobe.com](mailto:etienneb@adobe.com).
+We value your input and believe that your perspective is crucial in helping us create the best product possible. 
+
+As you have specific feedback on what would be required in order for your company to adopt this solution in Production, please send it to [etienneb@adobe.com](mailto:etienneb@adobe.com).
