@@ -12,6 +12,16 @@ This page describes all Update stream and notification enhancements made with th
 
 For a list of all changes available at this point in the Second Quarter 2024 release cycle, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
+## Access to the legacy commenting area has been removed 
+
+>[!NOTE]
+>
+>Preview release: April 1, 2024; Production for all customers: With the 24.4 release (April 2024)
+
+We have removed the "New commenting" toggle in the Updates area for projects, tasks, issues, and documents. The new commenting is now the default and only option for these objects. With this change, you are no longer able to revert back to the legacy commenting experience. 
+
+For more information, see [New commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+
 ## New commenting stream now available in quick actions for new Home widgets
 
 >[!NOTE]
