@@ -12,6 +12,16 @@ This page describes all administrator enhancements made with the Second Quarter 
 
 For a list of all changes available at this point in the Second Quarter 2024 release cycle, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
+## Display logic and skip logic are now available in the form designer preview mode
+
+>[!NOTE]
+>
+>Preview release: Mach 28, 2024; Production for all customers: 24.4 (April 2024)
+
+The beta custom form designer now allows you to test your display logic and skip logic in preview mode. Previously, all fields were displayed in the preview even when logic was applied.
+
+For more information on previewing a custom form in the form designer, see [Organize and preview a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
+
 ## Companies and users now support advanced custom form fields
 
 >[!NOTE]
