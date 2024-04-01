@@ -1,6 +1,6 @@
 ---
 title: Create records
-description: In Adobe Maestro, a record is an instance of a record type. You must create record types before you can create individual records. Creating taxonomy records is identical to creating operational records. 
+description: When using Adobe Workfront Planning, a record is an instance of a record type. 
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -12,22 +12,14 @@ exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
 
 {{maestro-important-intro}}
 
-In Adobe Maestro, a record is an instance of a record type. 
+In Adobe Workfront Planning, a record is an instance of a record type. 
 
-You can have the following types of records:
+You can create records by doing one of the following:
 
-* **Operational records**: They represent work-related objects. For example, for an operational record called "Campaign", you can have named records like "Monthly Newsletter" or "Summer Sale."
-* **Taxonomy records**: They represent attributes that can be associated with operational records. For example, for a taxonomy record type called "Channel", you can have named taxonomies like "Email", "Social Media", or "Advertising". 
-
-Creating operational records is identical to creating taxonomy records. 
-
-You can create records in Maestro by doing one of the following:
-
-* Manually create them for Maestro record types
-* Connect them to Maestro records from other applications. 
+* Manually create them for record types
 * Create records by copying and pasting information from an external list. 
 
-This article describes how you can create Maestro records. For information about managing records in the table or timeline views, see the following articles:
+This article describes how you can create records. For information about managing records in the table or timeline views, see the following articles:
 
 * [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md)
 * [Manage the timeline view](/help/quicksilver/maestro/views/manage-the-timeline-view.md)
@@ -51,7 +43,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront Planning beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -69,7 +61,7 @@ You must have the following access to perform the steps in this article:
   
   <tr>
    <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access controls for Maestro </p>  
+   <td> <p>There are no access controls for Adobe Workfront Planning </p>  
 </td>
   </tr>
 <tr>
@@ -80,7 +72,7 @@ You must have the following access to perform the steps in this article:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 
@@ -101,12 +93,13 @@ For information about editing record information, see [Edit records](/help/quick
 {#step1-to-maestro}
   
   The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](../architecture/create-workspaces.md).
+
 1. Click a record type card. For information about creating a record type, see [Create record types](../architecture/create-record-types.md). 
 
     The record type page opens in the view that you last accessed. By default, a record type page opens in the table view. 
     All the records of the selected type display in the table view. 
 
-1. (Conditional) If the record type page does not open in the table view, click the **View** drop-down menu, and select either an existing **Table view** ![](assets/table-view-icon.png) or click **Create view > Table** to create a table view. 
+1. (Conditional) If the record type page does not open in the table view, click the tab of a table view, or click **+ View** to create a table view. 
 
 1. To add new records, click **New record** in the last row of the table 
 
@@ -124,24 +117,38 @@ For information about editing record information, see [Edit records](/help/quick
     >
     >  * Fields that refer to other record types or calculated fields are read-only fields. 
 
-1. Continue adding information on each row, then click **Enter** on your keyboard to save your changes. 
+1. Continue adding information on each row, then click **Enter** on your keyboard to save your changes.
+
+    Or 
+    
+    Click the new record's name or the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of the record name. The box with the record's detailed information opens in the table. 
+
+    >[!TIP]
+    >
+    >You can access the Details box only from the name field of the record when the Name field is a primary field. 
+
+1. Start editing the record's information in the record's box. Workfront automatically saves your changes. 
+1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the record's box to open the record's page in a new tab. Continue editing the record on the record page.
+
 
 1. (Optional) Use the following keyboard shortcuts to undo or redo adding new records: 
 
     * CTRL + Z (⌘ + Z for Mac) to undo a change 
     * CTRL + Shift + Z (⌘ + Shift + Z for Mac) to redo a change
 
+<!-- this is not possible anymore: 
+
 ## Create records by connecting them from another application
 
-You can import records from other applications by linking them to Maestro linked records. This creates a Maestro record type for the other application's connected object. 
+You can import records from other applications by linking them to existing records. This creates a linked record for the other application's connected object. 
 
-1. Create a Maestro record type, as described in the [Create record types](../architecture/create-record-types.md).
+1. Create a record type, as described in the [Create record types](../architecture/create-record-types.md).
 
-1. Create Maestro records for the record type you created in the previous step. For information, see the section [Create records by manually adding them to a record type](#create-records-by-manually-adding-them-to-a-record-type) in this article. 
+1. Create records for the record type you created in the previous step. For information, see the section [Create records by manually adding them to a record type](#create-records-by-manually-adding-them-to-a-record-type) in this article. 
 
-1. Create a connection to an object type from another application for the Maestro record type you created. For information, see [Connect record types](../architecture/connect-record-types.md).
+1. Create a connection to an object type from another application for the record type you created. For information, see [Connect record types](../architecture/connect-record-types.md).
 
-1. Add records from another application to the Maestro records you created above using the linked record field you created in the previous step. For information, see [Connect records](../records/connect-records.md). 
+1. Add objects from another application to the records you created above using the linked record field you created in the previous step. For information, see [Connect records](../records/connect-records.md). 
 
     The following items are created in Maestro:
 
@@ -149,17 +156,19 @@ You can import records from other applications by linking them to Maestro linked
 
       For example, if you connect a Maestro record type to Workfront project, a read-only record type named "Workfront project" is created in the same workspace. You can access the read-only Workfront record types from the table view of the Maestro records you're linking from. 
    
+-->
+
 ## Create records by copying and pasting information from an external list
 
-1. In Maestro, start creating records in the Table view, as described in the section [Create records by manually adding them to a record type](#create-records-by-manually-adding-them-to-a-record-type) in this article. 
+1. Start creating records in the Table view, as described in the section [Create records by manually adding them to a record type](#create-records-by-manually-adding-them-to-a-record-type) in this article. 
 
-    Ensure that the Maestro table view has the columns (or the fields) that you want to populate with the new record information. 
+    Ensure that the table view has the columns (or the fields) that you want to populate with the new record information. 
 
 1. Click **New < Record type name >** in the last row of the table to add as many new rows to the table as you want your new records to be. 
 
     For example, add 10 rows to the table view if you want to paste the information for 10 new records from another application. 
 
-1. In another application, create a list of records that you want to import in Maestro. 
+1. In another application, create a list of records that you want to import. 
     
     For example, you can use an Excel spreadsheet to create your list. 
 
@@ -167,13 +176,13 @@ You can import records from other applications by linking them to Maestro linked
 
     >[!TIP]
     >
-    > The columns of the list should contain information for the existing fields you have in Maestro. 
+    > The columns of the list should contain information for the existing fields you have in Workfront. 
     >
-    > Ensure you have the desired fields already created in Maestro and that the information in your sheet displays in the correct format that matches that of each field in Maestro.
+    > Ensure you have the desired fields already created in Workfront and that the information in your sheet displays in the correct format that matches that of each field in Workfront.
 
 1. From another application, select several rows and columns, then paste the information in the record type table view, starting with the first new record. 
 
-    The following information is imported in Maestro:
+    The following information is imported in the Workfront Planning area:
     
     * The rows contain the new records
     * The columns populate information for the fields of the records.

@@ -6,6 +6,7 @@ title: Fusion Basics videos
 description: Fusion Basics videos
 author: Becky
 feature: Workfront Fusion
+exl-id: 7ba95790-1255-4a3e-ba7b-8dc73001b583
 ---
 # Adobe Workfront Fusion video overviews
 
@@ -25,12 +26,3 @@ These videos are available to help familiarize you with some of the functionalit
 * [Frame.io](https://video.tv.adobe.com/v/3427032/){target=_blank}
 * [Adobe Experience Manager Assets](https://video.tv.adobe.com/v/3427034/){target=_blank}
 * [Salesforce](https://video.tv.adobe.com/v/3427027/){target=_blank}
-
-
-
-
-
-
-
-
-

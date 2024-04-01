@@ -1,6 +1,6 @@
 ---
 title: Field overview
-description: You can add new fields in Adobe Maestro that reflect your organization's lifecycle. Fields are attributes of record types.
+description: You can add new fields in Adobe Workfront Planning that reflect your organization's lifecycle. Fields are attributes of record types.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -22,12 +22,12 @@ hide: yes
 
 {{maestro-important-intro}}
 
-You can add new fields in Adobe Maestro that reflect your organization's lifecycle. Fields are attributes of record types. 
+You can add new fields in Adobe Workfront Planning that reflect your organization's lifecycle. Fields are attributes of record types. 
 
 
-## Considerations about Maestro fields
+## Considerations about Adobe Workfront Planning fields
 
-* You can create fields only from the table view of a record type page. Fields display as columns in the table view. All fields associated with a record type also display in the Details page of each record of that type. 
+* You can create fields only from the table view of a record type page. Fields display as columns in the table view. All fields associated with a record type also display in the record page. 
 
     For information about managing table columns (or record fields), see [Manage the table view](../views/manage-the-table-view.md).
 
@@ -44,48 +44,40 @@ You can add new fields in Adobe Maestro that reflect your organization's lifecyc
 
     * Manually:
 
-        * By adding columns in the table view of a record type page. The columns of the table are the fields associated with the record type. They are the same fields that display on a record's Details page. 
+        * By adding columns in the table view of a record type page. The columns of the table are the fields associated with the record type. They are the same fields that display on a record's page. 
         
-            You cannot create fields from the Details page of a record.
-            
-            This article describes how to manually create fields. 
+            You cannot create fields from the record's page.  
 
-        * By connecting record types. You can create linked record fields when you add a new connection between two Maestro record types, or a record type and an object types from other applications. 
+        * By connecting record types. You can create linked record fields when you add a new connection between two record types, or a record type and an object types from other applications. 
         
            <!--* Importing record types with fields using a CSV or an Excel file. - this is not available yet-->
 
-           For more information about connecting Maestro record types, see [Connect record types](../architecture/connect-record-types.md).  
+           For more information about connecting record types, see [Connect record types](../architecture/connect-record-types.md).  
 
         * By importing record types using an Excel or CSV file. For more information, see [Create record types](../architecture/create-record-types.md). 
 
     * Automatically: 
 
-        * By default every time you create a record type. 
+        The following are standard fields created by default for each new record type:
 
-            The following are standard fields created by default for each new operational record type:
+        * Name
+        * Description
+        * Start Date
+        * End Date
+        * Status. The default values for record statuses are:
+            * Development
+            * Planned
+            * Active
+            * Completed
+            * On Hold
 
-            * Name
-            * Description
-            * Start Date
-            * End Date
-            * Status. The default values for record statuses are:
-                * Development
-                * Planned
-                * Active
-                * Completed
-                * On Hold
+            You can add more values or rename the existing ones. 
 
-                You can add more values or rename the existing ones. 
+        Workfront Planning creates fields for record types when you create a workspace from a template. For information, see [Create workspaces](../architecture/create-workspaces.md). 
 
-            The following are the standard fields created by default for each new taxonomy record type:
+* Workfront Planning fields are not accessible from Workfront. 
 
-            * Name <!--will more be added? If not, consider rephrasing this bullet-->
-
-        * When you create a workspace from a template. Maestro creates fields for operational record types and taxonomies when you create a workspace from a template. For information, see [Create workspaces](../architecture/create-workspaces.md). 
-
-* Maestro fields are not accessible from Workfront. 
-
-* Workfront fields are accessible from Maestro only when you connect Maestro record types with Workfront object types and add linked or lookup fields from Workfront objects. For information, see [Connect record types](../architecture/connect-record-types.md).  
+* Workfront fields are accessible from Workfront Planning only when you connect record types with Workfront object types and add linked or lookup fields from Workfront objects. For information, see [Connect record types](../architecture/connect-record-types.md).  
 
 * You can view and update the settings for the fields that you or any other user created, if you have Manage permissions to the workspace that the field belongs to. 
 
@@ -93,4 +85,4 @@ You can add new fields in Adobe Maestro that reflect your organization's lifecyc
 
 * Field names can have up to 250 characters.
 
-* When deleting an operational record type, taxonomy, or workspace, all fields associated with them and the fields' values are also deleted and cannot be recovered. <!-- this might change with a possible recycle bin solution?!-->
+* When deleting a record type or workspace, all fields associated with them and the fields' values are also deleted and cannot be recovered. <!-- this might change with a possible recycle bin solution?!-->

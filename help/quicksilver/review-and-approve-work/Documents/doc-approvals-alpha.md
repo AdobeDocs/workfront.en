@@ -20,6 +20,20 @@ In order to participate in this Alpha release, please ensure you have been added
 
 ## Latest release
 
+## Alpha Release 7 - Mar. 2024
+
+In this 7th Alpha release we have:
+
+* Added the capability for you to create deadlines for your document approvals.
+* Introduced Approval Templates that can now be created and applied to your approvals to save set up time.
+* Updated the approvals widget to now show multiple key performance indicators with a detailed list for you to drill down further.
+
+Check out the full video walk-through below:
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428023/)
+
+## _Past releases_
+
 ## Alpha Release 6 - Jan. 2024
 
 In this 6th Alpha release we have:
@@ -31,8 +45,6 @@ In this 6th Alpha release we have:
 Check out the full video walk-through below:
 
 >[!VIDEO](https://video.tv.adobe.com/v/3426860/)
-
-## _Past releases_
 
 ### Alpha Release 5 - Sep. 2023
 

@@ -1,6 +1,6 @@
 ---
 title: Create fields
-description: In Adobe Maestro, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with Maestro records.
+description: In Adobe Workfront Planning, you can create custom fields for each kind of record type. You can then associate the field with Workfront Planning records.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -29,7 +29,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-In Adobe Maestro, you can create custom fields for operational record types or taxonomies. You can then associate the fields with Maestro records to enhance record information. 
+In Adobe Workfront Planning, you can create custom fields for record types. You can then associate the fields with Workfront Planning records to enhance record information. 
 
 You must create record types before you can create fields to associate with them. For information, see [Create record types](../architecture/create-record-types.md). 
 
@@ -62,7 +62,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront Planning beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -80,7 +80,7 @@ You must have the following access to perform the steps in this article:
   
   <tr>
    <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access level control for Maestro</p>  
+   <td> <p>There are no access level control for Workfront Planning</p>  
 </td>
   </tr>
 
@@ -92,7 +92,7 @@ You must have the following access to perform the steps in this article:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 
@@ -242,7 +242,7 @@ You can use a date field to capture additional information in date and time form
  
 
 1. Add the following information in the **New field** tab:
-     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+     * **Name**: The name of the field type, as it will appear in a table or the record page. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
      * **Date Format**: The type of date format you want to display in this field. <!--update this casing - submitted bug for it-->
         
@@ -272,7 +272,7 @@ Number field types capture information in a number format.
     ![](assets/number-field-type.png)
 1. Add the following information in the **New field** tab:
 
-    * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. 
+    * **Name**: The name of the field type, as it will appear in a table or the record page. 
     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table. 
     * **Precision**: The number of decimals that you want to record for the field. You can display up to 6 decimals.
     * **Allow negative numbers**: Select this option if you want to allow negative numbers in this field. This option is unselected by default. 
@@ -294,7 +294,7 @@ Percentage field types capture information in a number format followed by a perc
     ![](assets/percentage-field-type.png)
 
 1. Add the following information in the **New field** tab:
-     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. 
+     * **Name**: The name of the field type, as it will appear in a table or the record page. 
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table. 
     * **Precision**: The number of decimals that you want to record for the field. You can display up to 6 decimals.
     * **Allow negative numbers**: Select this option if you want to allow negative percentage values in this field. This option is unselected by default. 
@@ -316,7 +316,7 @@ Currency field types capture information in a number format preceded by a curren
     ![](assets/currency-field-type.png)
 
 1. Add the following information in the **New field** tab:
-     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+     * **Name**: The name of the field type, as it will appear in a table or the record page. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
      * **Currency**: The type of currency you want to display in this field. This is a list of currencies according to the International Organizaton of Standardization (ISO). 
       * **Precision**: The number of decimals that you want to record for the field. You can display up to 6 decimals.
@@ -339,7 +339,7 @@ You can use the Checkbox field type to add a single checkbox option to a record.
     ![](assets/checkbox-field-type.png)
 
 1. Add the following information in the **New field** tab:
-     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
+     * **Name**: The name of the field type, as it will appear in a table or the record page. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
 1. Click **Create**.
 
@@ -367,13 +367,13 @@ For more information, see [Formula fields overview](/help/quicksilver/maestro/fi
 
    For more information about what expressions are supported, see [Formula fields overview](/help/quicksilver/maestro/fields/formula-fields.md)
 
-1. Add field names as they display in Maestro interface to reference them in a formula. 
+1. Add field names as they display in Workfront Planning interface to reference them in a formula. 
 
     >[!NOTE]
     >
     > * You cannot add Multi-select type fields in a formula.
     >
-    > * You cannot add fields from linked records in a formula. This functionality will be released at a later date. For more information about new releases, see [Adobe Workfront planning capabilities release activity](/help/quicksilver/maestro/release-activity.md).
+    > * You cannot add fields from linked records in a formula. This functionality will be released at a later date. For more information about new releases, see [Adobe Workfront Planning release activity](/help/quicksilver/maestro/release-activity.md).
 
 
 1. Click **Create**.
@@ -390,7 +390,7 @@ You can use the People field type to add a user <!--, job role, or team--> to a 
    ![](assets/people-field-type.png)
 
 1. Add the following information in the **New field** tab:
-     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. 
+     * **Name**: The name of the field type, as it will appear in a table or the record page. 
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
      * **Allow multiple values**: Select this option if you want to allow users to add more than one user in this field. This option is unselected by default. 
     
@@ -412,7 +412,7 @@ You can use the Created by field type to add the user who created the record to 
 
 1. Add the following information in the **New field** tab:
 
-     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--this might change and they might prepopulate it with "Created by"-->
+     * **Name**: The name of the field type, as it will appear in a table or the record page. <!--this might change and they might prepopulate it with "Created by"-->
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
     
 1. Click **Create**.
@@ -432,7 +432,7 @@ You can use the Created date field type to add the date when a record was create
 
 1. Add the following information in the **New field** tab:
 
-     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--this might change and they might prepopulate it with "Created date"-->
+     * **Name**: The name of the field type, as it will appear in a table or the record page. <!--this might change and they might prepopulate it with "Created date"-->
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
      * **Date Format**: Select from the following formats:
 
@@ -463,7 +463,7 @@ You can use the Last modified by field type to add the user who last modified th
 
 1. Add the following information in the **New field** tab:
 
-     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--this might change and they might prepopulate it with "Created by"-->
+     * **Name**: The name of the field type, as it will appear in a table or the record page. <!--this might change and they might prepopulate it with "Created by"-->
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
     
 1. Click **Create**.
@@ -483,7 +483,7 @@ You can use the Last modified date field type to add the date when a record was 
 
 1. Add the following information in the **New field** tab:
 
-     * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--this might change and they might prepopulate it with "Created date"-->
+     * **Name**: The name of the field type, as it will appear in a table or the record page. <!--this might change and they might prepopulate it with "Created date"-->
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
      * **Date Format**: Select from the following formats:
 
@@ -507,7 +507,7 @@ You can use the Last modified date field type to add the date when a record was 
 
 You can create linked record fields when you add a new connection between two Maestro record types, or a record type and an object types from other applications. 
         
-For information about connecting Maestro record types, see [Connect record types](../architecture/connect-record-types.md)
+For information about connecting Workfront Planning record types, see [Connect record types](../architecture/connect-record-types.md)
 
 ## Create fields by importing record types using an Excel and CSV file
 
@@ -515,10 +515,10 @@ For more information, see [Create record types](../architecture/create-record-ty
 
 ## Create fields by creating a record type
 
-When you create a record type, several fields associated with the new record type are also created by default. For more information, see [Create operational record types](../architecture/create-record-types.md). 
+When you create a record type, several fields associated with the new record type are also created by default. For more information, see [Create record types](../architecture/create-record-types.md). 
 
 ## Create fields by creating a workspace from a template
 
-Maestro creates fields for operational record types and taxonomies when you create a workspace from a template. 
+Adobe Workfront Planning creates fields for record types when you create a workspace from a template. 
 
-For information, see [Create operational workspaces](../architecture/create-workspaces.md).
+For information, see [Create workspaces](/help/quicksilver/maestro/architecture/create-workspaces.md). 

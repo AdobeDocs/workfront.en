@@ -1,6 +1,6 @@
 ---
 title: "Records: article index"
-description: After you create record types in Adobe Maestro you can create individual records of those types. The following articles describe how you can create and manage records and their information in Adobe Maestro.
+description: After you create record types in Adobe Workfront Planning you can create individual records of those types. The following articles describe how you can create and manage records and their information in Adobe Workfront Planning.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -22,9 +22,9 @@ hide: yes
 
 {{maestro-important-intro}}
 
-After you create record types in Adobe Maestro, you can create individual records of those types. 
+After you create record types in Adobe Workfront Planning, you can create individual records of those types. 
 
-The following articles describe how you can create and manage records and their information in Adobe Maestro:
+The following articles describe how you can create and manage records and their information in Adobe Workfront Planning:
 
 * [Create records](/help/quicksilver/maestro/records/create-records.md)
 * [Edit records](/help/quicksilver/maestro/records/edit-records.md)

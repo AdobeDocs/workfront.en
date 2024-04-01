@@ -41,7 +41,6 @@ You must have the following access to perform the steps in this article:
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-
 ## Tips for mapping attributes
 
 Keep the following in mind when mapping attributes:

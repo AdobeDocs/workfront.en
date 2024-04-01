@@ -38,7 +38,10 @@ Add the following IP addresses to your allowlist to enable [!DNL Workfront Fusio
     <ul> 
      <li>54.244.142.219</li> 
      <li>52.39.217.230</li> 
-     <li>44.241.82.96</li> 
+     <li>44.241.82.96</li>
+     <li>100.20.126.137</li>
+     <li>34.223.32.4</li>
+     <li>52.39.176.220</li>
     </ul> </td> 
   </tr> 
   <tr> 

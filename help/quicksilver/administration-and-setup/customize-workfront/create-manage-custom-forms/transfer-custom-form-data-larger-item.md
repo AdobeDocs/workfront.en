@@ -11,7 +11,11 @@ exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
 ---
 # Transfer custom form data when converting an object
 
-{{highlighted-preview}}
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 Depending on the business needs of your organization, the work defined in a task or an issue might become too large to manage within the task or the issue. In this case, you can convert them to a larger work item:
 

@@ -75,7 +75,7 @@ The third-party application may require configuration. The following table conta
 
 ## Set up Authorization Code Flow
 
-![](assets/oauth-2-authorization-code-flow-350x194.png)
+![](assets/oauth-2-authorization-code-flow.png)
 
 To log your users in with OAuth2, use the following process:
 
