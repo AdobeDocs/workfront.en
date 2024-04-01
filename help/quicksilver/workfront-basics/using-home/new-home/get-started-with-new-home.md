@@ -53,9 +53,6 @@ Below are the ten widgets currently available to choose from, as well as a summa
 * **All approvals**\
         <span class="preview"> Displays 2 charts with information about average approval time and decisions as well as list views of pending and overdue approvals.</span> <span style="color: #ff0000;">This feature is part of a phased release and is currently only available for specific customers.</span>
 
-* **Pending approvals**\
-    Displays approvals assigned to a document on a project you own. Here, you can view approval status and remind users about incomplete reviews and approvals. <span style="color: #ff0000;">This feature is part of a phased release and is currently only available for specific customers.</span>
-
 * **Mentions**\
     Displays recent comment threads from across Workfront, similarly to the My Updates page. You can use the reply button to compose a reply within the widget. This widget also shows comments made on tasks and issues that you are assigned to, that you assigned to another user, that you own, that you are primary contact on, or that you created—as long as the task or issue has been updated in the last 30 days.
 
