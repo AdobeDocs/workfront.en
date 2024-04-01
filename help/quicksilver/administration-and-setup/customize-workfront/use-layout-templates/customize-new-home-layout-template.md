@@ -97,7 +97,7 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
       <ul>
       <li><p><b>Select and order Filters, Columns, or Groups available to users:</b></p>
       <p>Check the box next to all options in the list you would like users to be able to use. Unchecked options will not appear for users. Drag and drop options in the list to set an order.</li></p>
-  <p>
+      <p>
 
   >[!IMPORTANT]
   >
