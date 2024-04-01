@@ -12,6 +12,10 @@ This page describes all document management enhancements made with the Second Qu
 
 For a list of all changes available at this point in the Second Quarter 2024 release cycle, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
+>[!IMPORTANT]
+>
+>The features listed on this page are part of a phased release and are only available for specific customers.
+
 ## Add a deadline to a document reviews and approvals
 
 >[!NOTE]
@@ -42,10 +46,6 @@ You can apply Approval Templates from the Documents area when creating an approv
 >[!NOTE]
 >
 >Preview release: March 28, 2024; Production for all customers: With the 24.4 release (April 2024)
-
->[!IMPORTANT]
->
->This feature is part of a phased release and is currently only available for specific customers.
 
 To help you manage and analyze your approval requests at a glance, we've added the following key performance indicators to the All Approvals widget:
 
