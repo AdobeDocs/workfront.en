@@ -1,6 +1,6 @@
 ---
 title: Create workspaces
-description: A workspace is a collection of record types used by a team and represents the team's work lifecycle. You can fully customize workspaces in Adobe Workfront planning.
+description: A workspace is a collection of record types used by a team and represents the team's work lifecycle. You can fully customize workspaces in Adobe Workfront Planning. Record types are organized by sections in a workspace. 
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -12,9 +12,9 @@ exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 
 {{maestro-important-intro}}
 
-In Adobe Workfront planning, workspaces are centralized locations for teams to plan work. 
+In Adobe Workfront Planning, workspaces are centralized locations for teams to plan work. 
 
-A workspace is a collection of record types used by a team and represents the team's work lifecycle. You can fully customize workspaces in Adobe Workfront planning.
+A workspace is a collection of record types used by a team and represents the team's work lifecycle. You can fully customize workspaces in Adobe Workfront Planning. 
 
 ## Access requirements
 
@@ -55,7 +55,7 @@ You must have the following access to perform the steps in this article:
   
   <tr>
    <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls for Adobe Workfront planning</p>
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>
 </td>
   </tr>
 
@@ -92,8 +92,12 @@ For more information about access requirements, see [Access requirements in Work
 * You can create workspaces for specific organizational units within your organization, to match the unique way each unit works. 
 * The record types that a workspace contains should reflect the work lifecycle of an organizational unit. 
 * When you create a workspace, only you have the permission to access and manage your workspace. You must share it with other users in order for them to collaborate with you in the same space. For information, see [Share a workspace](/help/quicksilver/maestro/access/share-workspaces.md). System administrators can manage all workspaces, even the ones that they did not create. 
-* You can have a maximum of 1,000 workspaces in your organization's Workfront instance. 
-* Workspaces contain record types that are unique to each workspace. <!--this might change-->
+* You can have the following: 
+
+   * Up to 50 sections in one workspace.
+   * Up to a total of 1,000 record types from all sections in one workspace. All record types are unique to each workspace. <!--this might change-->
+   * Up to 1,000 workspaces in your organization's Workfront instance. 
+
 
 ## Create a workspace
 
@@ -105,7 +109,7 @@ For more information about access requirements, see [Access requirements in Work
 
    ![](assets/workspace-drop-down-right-menu.png)
 
-   This opens the Workspaces area of Workfront planning. 
+   This opens the Workspaces area of Workfront Planning. 
 1. (Optional and conditional) Click **Preview** inside any of the following predefined workspace templates:
 
     * Marketing management
@@ -116,7 +120,7 @@ For more information about access requirements, see [Access requirements in Work
 
     ![](assets/previewing-a-workspace-template.png)
 
-    For information about Workfront planning workspace templates, see [List of workspace templates](../architecture/workspace-templates.md).
+    For information about Workfront Planning workspace templates, see [List of workspace templates](../architecture/workspace-templates.md).
 
 1. Click **Use template** to start creating the workspace from the selected template
 
@@ -134,8 +138,6 @@ For more information about access requirements, see [Access requirements in Work
     Or
     
     Click the **More** menu ![](assets/more-menu.png)to the right of the workspace name in the header, then click **Rename**.
-
-1. (Optional and conditional) If the workspace already has sections, click **Add section** to add a new section to a workspace. A section can contain several record types. 
 
 1. (Optional and conditional) If you created the workspace from a template, click inside the name of the **Operational Record Types** or **Taxonomies** sections 
 
@@ -157,8 +159,13 @@ For more information about access requirements, see [Access requirements in Work
    * Click **Add section** at the bottom of the workspace.
    * Hover over the name of a section and click the **More** menu ![](assets/more-menu.png), then click **Add section above** or **Add section below**. 
 
-1. (Optional) Click **Add record type** to add record types to the workspace.
+1. (Optional) Click **Add record type** to add record types to the workspace in any section.
     
    For information, see [Create record types](../architecture/create-record-types.md).
 
+1. (Optional) To delete a section, do the following: 
+   
+   1. Hover over the name of a section, then click the **More** menu ![](assets/more-menu.png), then click **Delete**. <!--add screen shot when UI is final?-->
+   1. Select a new section to move all record types to it, then click **Delete**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
 
+      All record types are moved to the selection section, and the section is deleted. 

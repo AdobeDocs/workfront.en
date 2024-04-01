@@ -1,6 +1,6 @@
 ---
 title: Example of connecting record types and records
-description: This article describes an example of how to create a connection between an Adobe Maestro record type and a Workfront project object type. It also describes how you can connect a Maestro record with to an individual project.
+description: This article describes an example of how to create a connection between an Adobe Workfornt Planning record type and a Workfront project object type. It also describes how you can connect a Workfront Planning record with to an individual project.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -12,22 +12,22 @@ exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
 
 This article describes an example of the following:
 
-* How to create a connection between two Maestro record types and two Maestro records.
+* How to create a connection between two Workfront Planning record types and two records.
 
-* How to create a connection between an Adobe Maestro record type and a Workfront project object type, as well as a connection between a Maestro record and a project.
+* How to create a connection between a Workfront Planning record type and a Workfront project object type, as well as a connection between a record and a project.
 
 For more information, also see the following articles:
 
 * [Connect record types](../architecture/connect-record-types.md)
 * [Connect records](../records/connect-records.md)
 
-## Connect two Maestro record types and records (example)
+## Connect two Workfront Planning record types and records (example)
 
 For example, you have a record type named Campaign as your original record type. 
 
 You also have another record type called Product, which has a currency field called Budget. 
 
-You want to create a field on the record type of Campaign where you can show the values of the Budget field on the record type Product. 
+You want to create a field on the record type of Campaign where you can show the values of the Budget field of the record type Product. 
 
 To do this:
 
@@ -36,9 +36,9 @@ To do this:
 1. Add the following information, for example:
 
     * **Record type**: Product <!--did they change the casing here?-->
-    * **Name**: Product information. This is the name of the linked record field. 
-    * **Description**: These are the Products that I want my Campaigns associated with. 
-    * **Allow multiple records**: If you leave this option selected, this allows users to select multiple records when the linked record type field (Product information) displays on the original records (Campaigns). In our case, they will be able to select multiple Products to be connected to one Campaign. 
+    * **Name**: Give the new field a name. For example, "Product information." This is the name of the linked record field. 
+    * **Description**: Add a description for the new field. For example, "These are the Products that I want my Campaigns associated with." The description of the field displays when hovering over the field in the column header. 
+    * **Allow multiple records**: If you leave this option selected, this allows users to select multiple records when the linked record type field (Product information) displays on the original records (Campaigns). In our case, users can select multiple Products to be connected to one Campaign. 
     * **Select lookup fields**: If you leave this option selected, the **Add lookup fields** box opens next, to allow you to link Product fields with the Campaign record type. You can click **Skip** to skip this step and add Product fields later. 
 
     ![](assets/new-connection-with-product-record-type.png)
@@ -51,16 +51,16 @@ To do this:
     >
     >    If you want to view the Budget of all selected products as one total number, select **SUM** in the drop-down menu to the right of the field name. When users select multiple products in the **Product information** linked record field, the **Budget (from Product information)** field adds all their Budget values together and displays the total. <!-- check the shot below - added a bug with a couple of UI changes here-->
     >
-    > If you select **None**, instead of **SUM**, the individual budgets will display separated by commas.
+    > If you select **None**, instead of **SUM**, the individual budgets of the selected products will display separated by commas.
 
     This generates the following fields: 
     
-    * In the Campaign record table view and in the Details page of a campaign: 
+    * In the Campaign record table view and in the Campaign record page of a campaign: 
 
-        * **Product information** (the linked record field): This will display the name or names of the Products. 
+        * **Product information** (the linked record field): This will display the name or names of the Products when you add them. 
         * **Budget (from Product information)** (the linked field): This will display the Budgets of the Products selected in the Product information field. 
 
-    * In the Product record table view and in the Details page of a product: 
+    * In the Product record table view and in the Product record page of a product: 
 
         * **Campaign**: This indicates that the Product record type is linked from the Campaign record type.
 
@@ -82,7 +82,7 @@ To do this:
     * Start typing the name of a product and click it when it displays in the list. The product is added automatically. 
     * Click **See all** to display all products. 
 
-1. (Conditional) If you clicked **Select all** in the previous step, the **Connect objects** box displays. 
+1. (Conditional) If you clicked **See all** in the previous step, the **Connect objects** box displays. 
 
     ![](assets/connected-objects-table-for-records.png)
 
@@ -94,7 +94,7 @@ To do this:
 
     >[!TIP]
     >
-    >    You can open a Campaign's Details page, find the linked record field and click the **+** icon in the field to add products from the connected Product record type. 
+    >    You can open a Campaign's record page, find the linked record field and click the **+** icon in the field to add products from the connected Product record type. 
 
     The following columns are populated in the Campaign record type table: 
     * The **Product information** field populates for the Campaign record with the selected Products. 
@@ -104,18 +104,18 @@ To do this:
 
     >[!TIP]
     >
-    >When you do not select an aggregator for the multiple values, all values display separated by commas. 
+    >When you do not select an aggregator for the multiple values, all values from the selected Products display separated by commas. 
 
 1. To populate the **Campaign** field from the **Product** table view, repeat steps 5-7 starting from the Product record type table view and selecting campaign information. This will also update the Product information field in the Campaign record type page's table. <!--ensure the step numbers remain correct--> 
 
 
-## Connect a Maestro record type with a Workfront project object type and connect a record with individual projects
+## Connect a Workfront Planning record type with a Workfront project object type and connect a record with individual projects
 
 For example, you have a record type named Campaign as your original record type. 
 
 You also have projects in Workfront with a field called "Planned Revenue." 
 
-You want to create a connection field on the record type of Campaign where you can show the values of the Planned Revenue field of the projects in Workfront that are connected to campaigns in Maestro. 
+You want to create a connection field on the record type of Campaign where you can show the values of the Planned Revenue field of the projects in Workfront that are connected to campaigns in Workfront Planning. 
 
 To do this:
 
@@ -124,10 +124,10 @@ To do this:
 1. Click the **+** icon in the upper-right corner of the table view to add a new field, then click **New connection**, then click **Project** in the **Workfront object types** section. 
 1. Add the following information, for example:
 
-    * **Record type**: Workfront Project (from the Workfront sub-section) 
-    * **Name**: Project information. This is an example of what you can name the linked object field. 
-    * **Description**: These are the Projects that I want my Campaigns associated with. This is an example of the description of the conncted record field. 
-    * * **Allow multiple records**: If you leave this option selected, this allows users to select multiple projects when the linked project type field (Project information) displays on the original records (Campaigns).
+    * **Record type**: Project (from the Workfront sub-section) 
+    * **Name**: Give the new field a name, for example "Project information." 
+    * **Description**: Add a description for the new field. For example, "These are the Projects that I want my Campaigns associated with." The description displays in the table view, as you hover over the field name in the column header. 
+    * * **Allow multiple records**: Leaving this option selected allows users to select multiple projects when the linked project type field (Project information) displays on the original records (Campaigns).
     * **Select lookup fields**: If you leave this option selected, the **Add lookup fields** box opens next, to allow you to link Project fields with the Campaign record type. You can click **Skip** to skip this step and add Project fields later. 
 
      ![](assets/new-connection-tab-with-workfront-option.png)
@@ -144,7 +144,7 @@ To do this:
 
     This generates the following fields: 
     
-    * In the Campaign record table view and in the Details page of a campaign: 
+    * In the Campaign record table view and in the Campaign record page: 
 
         * **Project information** (the linked object field): This will display the name or names of the Projects. 
         * **Planned Revenue (from Project information)** (the linked field): This will display the Planned Revenues of the Projects selected in the Project information field. 
@@ -165,7 +165,7 @@ To do this:
     * Start typing the name of a project and click it when it displays in the list. The project is added automatically. 
     * Click **See all** to display all projects. 
 
-1. (Conditional) If you clicked **Select all** in the previous step, the **Connect objects** box displays. 
+1. (Conditional) If you clicked **See all** in the previous step, the **Connect objects** box displays. 
 
     ![](assets/connect-projects-larger-box.png)
 
@@ -177,7 +177,7 @@ To do this:
 
     >[!TIP]
     >
-    >    You can open a Campaign's Details page, find the linked project field and click the **+** icon in the field to add projects from the connected Product record type. 
+    >    You can open a Campaign's page, find the linked project field and click the **+** icon in the field to add projects from the connected Product record type. 
 
     This adds the following to the selected workspace: 
     
@@ -193,15 +193,15 @@ To do this:
 
 1. Click the name of a project in the connected record field. 
 
-    This opens the read-only Maestro project's **Details** page. 
-    Review information about the project. Only selected project fields display in the Details page. 
+    This opens the read-only Woekfront Planning project's page. 
+    Review information about the project. Only selected project fields display in the record's page. 
 
 1. Click **Go to source** in the upper-right corner of the screen to open the project in Workfront, if you have at least View permissions to the project. 
 1. (Optional) Update information about the project in Workfront, if you have permissions to do so. 
 
-1. From the Campaign table view, hover over the **Project information** field header, and click the downward-pointing arrow, then click **Edit lookup fields.**
-1. Click the **+** icon for any project fields you want to add to the Workfront Project Maestro record in the **Unselected fields** section. 
-1. Click the **-** icon for any project fields you want to remove from the Workfront Project Maestro record in the **Selected fields** section.
+1. (Optional) From the Campaign table view, hover over the **Project information** field header, and click the downward-pointing arrow, then click **Edit lookup fields.**
+1. Click the **+** icon for any project fields you want to add to the Project's Workfront Planning record in the **Unselected fields** section. 
+1. Click the **-** icon for any project fields you want to remove from the Workfront Project Planning record in the **Selected fields** section.
 1. Click **Save**.
 
     Additional linked fields are added to the Campaign record type. 

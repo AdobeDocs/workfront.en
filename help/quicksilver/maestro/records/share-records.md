@@ -1,6 +1,6 @@
 ---
 title: Share records
-description: You can share records with others to increase your collaboration.
+description: You can share records with others to increase collaboration.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -15,15 +15,15 @@ exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
 
 To collaborate with other users, you can share records with others. 
 
-You can share an Adobe Workfront planning record in the following ways: 
+You can share an Adobe Workfront Planning record in the following ways: 
 
-* Copy the link of the Details page of a record from your browser when the page is open. 
+* Copy the link of the record page from your browser when the page is open. 
 
-* Copy a link to the record's Details page when viewing records in the record type's table view.   
+* Copy a link to the record's page when viewing records in the record type's table view.   
 
 * You can share all records in a workspace with other users by sharing the workspace. For more information, see [Share a workspace](/help/quicksilver/maestro/access/share-workspaces.md).
 
-This article describes how you can copy a link to a record's Details page from the table view of a record type. 
+This article describes how you can copy a link to a record's page from the table view of a record type. 
 
 ## Access requirements
 
@@ -44,7 +44,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfront planning closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront Planning closed beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -62,7 +62,7 @@ You must have the following access to perform the steps in this article:
   
   <tr>
    <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls for Workfront planning</p>  
+   <td> <p>There are no access level controls for Workfront Planning</p>  
 </td>
   </tr>
 <tr>
@@ -118,11 +118,11 @@ You must have the following access to perform the steps in this article:
 
     The link is copied to your clipboard. 
 
-1. Paste the link into an email, or chat window, to share with other users. When users receive the link, it opens the Details page of the record. 
+1. Paste the link into an email, or chat window, to share with other users. When users receive the link, it opens the record page. 
 
     >[!TIP]
     >
-    >The fields of the record in the Details page are the same fields available in the Table view of the record. 
+    >The fields in the record page are the same fields available in the Table view of the record. 
 
 
     <!--add there when it will be available: if they have access to this record-->

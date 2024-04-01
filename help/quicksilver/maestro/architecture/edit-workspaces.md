@@ -12,9 +12,9 @@ exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
 
 {{maestro-important-intro}}
 
-In Adobe Workfront planning, workspaces are centralized locations for teams to plan work. 
+In Adobe Workfront Planning, workspaces are centralized locations for teams to plan work. 
 
-A workspace is a collection of record types used by a team and represents the team's work lifecycle. You can fully customize workspaces in Adobe Workfront planning. 
+A workspace is a collection of record types used by a team and represents the team's work lifecycle. You can fully customize workspaces in Adobe Workfront Planning. 
 
 For information about creating workspaces, see [Create workspaces](/help/quicksilver/maestro/architecture/create-workspaces.md). 
 
@@ -37,7 +37,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfront planning closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront Planning closed beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -56,7 +56,7 @@ You must have the following access to perform the steps in this article:
   
   <tr>
    <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls for Workfront planning</p>
+   <td> <p>There are no access level controls for Workfront Planning</p>
 </td>
   </tr>
 
@@ -82,7 +82,7 @@ For more information about access requirements, see [Access requirements in Work
 
 {{step1-to-maestro}}
 
- This opens the Workspaces area of Workfront planning. 
+ This opens the Workspaces area of Workfront Planning. 
     
 1. Click inside the name of the workspace in the header of the new workspace to rename it, then press **Enter**
 

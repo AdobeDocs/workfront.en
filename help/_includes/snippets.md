@@ -246,13 +246,13 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 
 >[!IMPORTANT]
 >
->The information in this article refers to Adobe Workfront planning, a new offering from Adobe Workfront.
+>The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront.
 >
->Currently, Workfront planning is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use these capabilities.
+>Currently, Workfront Planning is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use these capabilities.
 >
->Contact your account representative for more information about joining the beta program for Workfront planning.
+>Contact your account representative for more information about joining the beta program for Workfront Planning.
 >
->For more information, see [Adobe Workfront planning overview](/help/quicksilver/maestro/maestro-overview.md).
+>For more information, see [Adobe Workfront Planning overview](/help/quicksilver/maestro/maestro-overview.md).
 
 <!-- Manage Work -->
 
