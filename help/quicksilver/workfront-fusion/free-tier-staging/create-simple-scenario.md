@@ -198,9 +198,9 @@ For information about schedules, see [Schedule a scenario in [!UICONTROL Adobe W
 
 ## Next steps
 
-* Add a trigger module to allow the scenario to periodically look for new requests and convert them to projects.
+* [Add a trigger module](/help/quicksilver/workfront-fusion/free-tier-staging/add-trigger-to-simple-scenario.md) to allow the scenario to periodically look for new requests and convert them to projects.
 * Add a webhook to allow the scenario to execute every time a request is entered.
-* Add a filter to ensure that only certain issues are converted to projects.
+* Add a filter to ensure that only certain requests are converted to projects.
 * Add a function that customizes the name of the new project.
 * Add error handling to ensure that the scenario is resilient against errors. 
 
