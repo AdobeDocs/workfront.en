@@ -8,7 +8,6 @@ feature: Work Management, Digital Content and Documents
 hide: yes
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
-exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
 ---
 # Alpha Program –  Workfront + Frame.io
 
