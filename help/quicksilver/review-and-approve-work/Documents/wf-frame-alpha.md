@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Alpha Program – Document Approvals
-description: We are excited to announce the launch of our Alpha program for document approvals. Here you will find information about the latest Alpha release along with a brief video walkthrough to get you started.
+title: Alpha Program – Workfront + Frame.io
+description: We are excited to announce the launch of our Alpha program for Workfront + Frame.io. Here you will find information about the latest Alpha release along with a brief video walkthrough to get you started.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 hide: yes
@@ -10,78 +10,57 @@ hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
 ---
-# Alpha Program – Document Approvals
+# Alpha Program –  Workfront + Frame.io
 
-We are excited to announce the launch of our Alpha program for document approvals. Here you will find information about the latest Alpha release along with a brief video walkthrough to get you started.
-
-## Initial set up
-
-In order to participate in this Alpha release, please ensure you have been added to Alpha in Preview by the product team. If not, please contact your Customer Success or Account Manager and request to be added.
+We are excited to announce the launch of our Alpha program for Workfront + Frame.io. Here you will find information about the latest Alpha release along with a brief video walkthrough to get you started.
 
 ## Latest release
 
-## Alpha Release 6 - Jan. 2024
+## Alpha Release 7 - Mar. 2024
 
-In this 6th Alpha release we have:
+In this 7th Alpha release we have:
 
-* Improved the experience of adding participants with a new pop-up to help prevent adding people accidentally and having them be notified
-* Added a new "Pending Approvals" widget that shows all outstanding approvals for projects you own, including the ability to see all those who are on the approval, their status, and the ability to remind anyone who hasn't made a decision yet
-* Added a new "Complete my review" action for all Reviewers which they can use to indicate that they are done with their step
+### Add a deadline to a document reviews and approvals
 
-Check out the full video walk-through below:
+You can now specify a deadline for users or teams assigned to review or approve a document. Reviewers and approvers receive email notifications 72 hours and then 24 hours before the specified deadline. The deadline is also reflected in the Approvals widget in the new Home area.
 
->[!VIDEO](https://video.tv.adobe.com/v/3426860/)
+For more information, see [Create a document review or approval request](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
-## _Past releases_
+### Create and use Approval Templates
 
-### Alpha Release 5 - Sep. 2023
+You can now create Approval Templates in the Setup area to streamline the review and approval process. Approval Templates allow you make the review and approval process more repeatable by 
 
-In this 5th Alpha release we have:
+* Adding reviewers and approvers
+* Setting a timeframe
 
-* Improved the list displaying approvers and reviewers
-* Added the ability to remind approvers who haven't made an approval decision yet
-* Added the ability to view individual team members in the approval list
-* Added the ability to add external approvers
-* Improved the view for external approvers to preview, download, and comment on a document
+You can apply Approval Templates from the Documents area when creating an approval process for a Document. 
 
-Watch the [video walk-through](https://video.tv.adobe.com/v/3424613/){target=_blank}.
+For more information, see [Create an Approval Template](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
-### Alpha Release 4 - May 2023
+### View information about all your approvals in once place
 
-In this 4th Alpha release, prior to launching to production for only to a select group of customers, we've incorporated notifications into the Workfront header, update stream, and email. Please note that email notifications are exclusive to the production environment and are not visible in your preview environment. <!--If you're interested in having this release implemented in your production environment on June 14th, please reach out to me directly at jbarron@adobe.com.-->
+To help you manage and analyze your approval requests at a glance, we've added the following key performance indicators to the All Approvals widget:
 
-We are excited for this milestone and look forward to much more to come!
+* Approvals by decision
+* Average approval timeß
+* Pending approvals
+* Overdue approvals
 
-Watch the [video walk-through](https://video.tv.adobe.com/v/3420094/){target=_blank}.
+You can drill down into the categories listed above for a more detailed view. The All Approvals widget is available in New Home and Canvas Dashboards.
 
-### Alpha Release 3 - Mar. 2023
+For more information, see [Get started with new Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
-In this 3rd Alpha release, we have incorporated your feedback by introducing success messages that display upon completing actions like adding or removing approvers and reviewers. Additionally, this release offers enhanced visibility of pending approvals, which can now be viewed on the Home and My Updates pages, enabling users to easily approve documents directly from these pages.
+### Lock your review & approvals once an overall decision is made
 
-Watch the [video walk-through](https://video.tv.adobe.com/v/3417854/){target=_blank}.
+To ensure compliance and reduce churn in your content sign-off processes, we will now lock any approval on a file once an overall decision has been made. This includes either Approved, Approved with Changes or Needs Work.
 
-### Alpha Release 2 - Jan. 2023
+Once locked, any person either reviewing and/or approving will no longer be able to make any comments, replies, decisions or add drawing markups, ensuring, your review process and associated audit stays unchanged. 
 
-With this Alpha 2 release you are able to add individuals and teams as reviewers or approvers and make approval decisions directly from the document details page.
+When a new document version is uploaded, the next round of revision can be kicked off while keeping previous revisions locked.
 
-Watch the [video walk-through](https://video.tv.adobe.com/v/3413941){target=_blank}.
+>[!VIDEO](https://video.tv.adobe.com/v/3428023/)
 
-### Alpha Release 1 - Nov. 2022
-
-Watch our [video walk-through](https://video.tv.adobe.com/v/3412837){target=_blank} and feel free to follow along if you'd like!
-
-If you'd like to follow along in the video, the following needs to be set up in your Preview environment:
-
-* Add users:
-    * Angela Approver
-    * Andrew Approver
-    * Alice Approver
-    * Rick Reviewer
-    * Rachel Reviewer
- * Add a team called "Dream Team" and include
-    * Andrew Approver
-    * Alice Approver
 
 ## Send Feedback
 
-We value your input and believe that your perspective is crucial in helping us create the best product possible. As you have specific feedback on what would be required in order for your company to adopt this solution in Production, please send it to [jbarron@adobe.com](mailto:jbarron@adobe.com).
+We value your input and believe that your perspective is crucial in helping us create the best product possible. As you have specific feedback on what would be required in order for your company to adopt this solution in Production, please send it to [etienneb@adobe.com](mailto:etienneb@adobe.com).
