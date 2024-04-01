@@ -4,12 +4,23 @@ description: Second Quarter 2024 Update stream and notification enhancements
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+exl-id: 29d8b581-27c9-4215-8147-8044b3e2bc5e
 ---
 # Second Quarter 2024 Update stream and notification enhancements
 
 This page describes all Update stream and notification enhancements made with the Second Quarter 2024 release to the Preview environment. These enhancements will be made available in the Production environment as noted. 
 
 For a list of all changes available at this point in the Second Quarter 2024 release cycle, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+
+## Access to the legacy commenting area has been removed 
+
+>[!NOTE]
+>
+>Preview release: April 1, 2024; Production for all customers: With the 24.4 release (April 2024)
+
+We have removed the "New commenting" toggle in the Updates area for projects, tasks, issues, and documents. The new commenting is now the default and only option for these objects. With this change, you are no longer able to revert back to the legacy commenting experience. 
+
+For more information, see [New commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 ## New commenting stream now available in quick actions for new Home widgets
 
@@ -34,6 +45,8 @@ We have made the following enhancements in the new commenting experience:
 
 For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Discussion of this specific feature starts at 2:47)
+
 ## System Activity tab on the new commenting experience supports read-only comments
 
 >[!NOTE]
@@ -43,6 +56,8 @@ For more information, see [Update work](/help/quicksilver/workfront-basics/updat
 Comments made on the system activity records in the legacy commenting experience are now populated on the System Activity tab in the new commenting experience as read-only. You cannot reply to system activity records in the new commenting experience.
 
 For more information, see [Updates section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Discussion of this specific feature starts at 2:00)
 
 ## New update stream tab to capture both comments and system activity entries
 
@@ -56,6 +71,8 @@ The All tab is a view-only tab. You cannot reply to comments or tag other users 
 
 For more information, see [Updates section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3427992/){target=_blank} (Discussion of this specific feature starts at 0:31)
+
 ## New commenting stream now available in the Summary panel
 
 >[!NOTE]
@@ -65,3 +82,5 @@ For more information, see [Updates section overview](/help/quicksilver/workfront
 We have now added the new commenting functionality to the Summary panel for task and issue lists.
 
 For more information, see [Summary overview](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
+
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3427991/){target=_blank}

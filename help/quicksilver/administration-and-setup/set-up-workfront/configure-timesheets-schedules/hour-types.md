@@ -66,8 +66,8 @@ Workfront comes with a set of built-in hour types. These hour types cannot be ed
 
 The hour types that come with [!DNL Workfront] are:
 
-* **[!UICONTROL Sick Time]**: A general hour type that cannot be associated with hour entries on a project, task, or issue.
-* **[!UICONTROL Vacation Time]**: A general hour type that cannot be associated with hour entries on a project, task, or issue.
+* **[!UICONTROL Sick Time]**: A general hour type that cannot be associated with hour entries on a project, task, or issue. Sick Time hours cannot be counted as revenue. 
+* **[!UICONTROL Vacation Time]**: A general hour type that cannot be associated with hour entries on a project, task, or issue. Vacation Time cannot be counted as revenue. 
 * **[!UICONTROL General Overhead]**: A general hour type that cannot be associated with hour entries on a project, task, or issue. However, it can count as revenue in your project planning process.
 * **[!UICONTROL Project Time]**: A general hour type that can be associated only with hour entries on a project.
 * **[!UICONTROL Task Time]**: A general hour type that can be associated only with hour entries on a task.
@@ -104,7 +104,11 @@ To create new hour types:
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Count As Revenue]</td> 
-      <td>Select this option if you want the hour entry associated with this hour type to affect your revenue calculations.</td> 
+      <td><p>Select this option if you want the hour entry associated with this hour type to affect your revenue calculations.</p>
+      <p>Sick Time and Vacation Time cannot be counted as revenue.</p>
+      <p><b>NOTE</b></p>
+      <p>When general hour types are counted as revenue, the Cost rate associated with the profile of the user logging the time is associated with the hour cost.  
+      </td> 
      </tr> 
     </tbody> 
    </table>

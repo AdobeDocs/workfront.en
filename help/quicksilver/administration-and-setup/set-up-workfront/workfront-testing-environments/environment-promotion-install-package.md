@@ -11,11 +11,9 @@ role: Admin
 hide: yes
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
+exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
 ---
 # Install an environment promotion package
-
-This page is under construction
-
 
 
 1. Go to the environment where you want to install the package. This is the environment that you are copying objects **to**.
@@ -32,14 +30,14 @@ This page is under construction
 
 Each object type is listed in the left navigation and on a card. The card displays objects of that type and whether those objects exist in the target environment. You can determine how these objects will move to the target environment. 
 
-* Create new: The object is in the target environment
+* Create new: Create a new object in the target environment. If the object exists in the target environment, you can create a new object with a new name. If it does not exist in the target environment, you can create the object with a new name or with the name that the object has in the package. 
 * Use existing: The object in the package is not installed, and the object that already existed in the target environment is unchanged.
-* Overwrite existing: The object in the package replaces the existing object in the target environment.
-* Do not use:
+* Overwrite existing: (Not currently available) The object in the package replaces the existing object in the target environment.
+* Do not use: The object in the package is not installed in the target environment. If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
 
 Default values are `Create new` if the object does not exist in the target environment, and `Use existing` if the object does exist in the target environment. You can revert to the default mapping by clicking **Reset to default mapping**.
 
-If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
+
 
 <!--
 ## Collisions
@@ -49,5 +47,7 @@ A collision occurs when <!--???--.
 In Workfront, a potential collision is marked with a blue dot. You can select 
 
 You can select whether to show all package contents, or collisions only.
--->
 
+## Comparison tool
+
+-->

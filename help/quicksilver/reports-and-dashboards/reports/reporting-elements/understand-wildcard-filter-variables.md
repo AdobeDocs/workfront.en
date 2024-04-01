@@ -96,8 +96,8 @@ To indicate various periods of time and various points in time (future or past),
 
 | **Qualifiers** | |
 |---|---|
-| **b** |beginning of the week (Sunday) |
-| **e** |ending of the week (Saturday)  |
+| **b** |beginning of the period (without a specified attribute, defaults to beginning of the week: Sunday) |
+| **e** |ending of the period (without a specified attribute, defaults to end of the week: Saturday)  |
 
 {style="table-layout:auto"}
 
