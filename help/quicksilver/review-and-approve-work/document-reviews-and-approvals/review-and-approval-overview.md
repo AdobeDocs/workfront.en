@@ -71,7 +71,7 @@ For more information, see [].
 
 Creatives can stay in their tools of choice and have the freedom to create, iterate, and conduct peer reviews inside of Frame.io. 
 
-When a creative is added to an integrated project they can do all of the following without leaving Frame.io, 
+When a creative is added to an integrated project, they can do all of the following without leaving Frame.io: 
 
 * Access instructions from the project coordinator
 * Conduct informal peer reviews
