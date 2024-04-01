@@ -1,6 +1,6 @@
 ---
 title: Connect record types
-description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Adobe Workfront planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
+description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Adobe Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -8,7 +8,7 @@ exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 ---
 <!-----
 title: Connect record types
-description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Adobe Workfront planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
+description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Adobe Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
 hidefromtoc: yes
 hide: yes
 feature: Work management
@@ -24,17 +24,17 @@ author: Alina
 
 {{maestro-important-intro}}
 
-You can use Adobe Workfront planning to design fully-customizable workspaces that contain record types needed in your organization. A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Workfront planning record types with object types from other applications to enhance your users' experience and keep their focus in one application. 
+You can use Adobe Workfront Planning to design fully-customizable workspaces that contain record types needed in your organization. A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application. 
 
 You can connect record types to one another or record types with object types from other applications. 
 
-By doing this, you can display fields from the linked record or object type on a Workfront planning record.  
+By doing this, you can display fields from the linked record or object type on a Workfront Planning record.  
 
-This article describes how you can connect two record types in Workfront planning or a record type with an object from another application. 
+This article describes how you can connect two record types in Workfront Planning or a record type with an object from another application. 
 
 After you establish the connection between records or object types, you can connect individual records to one another. 
 
-For information about connecting a Workfront planning record to an object from another application, see [Connect records](../records/connect-records.md). 
+For information about connecting a Workfront Planning record to an object from another application, see [Connect records](../records/connect-records.md). 
 
 For an example of connecting record types, see [Example of connecting record types and records](../architecture/example-connect-record-types-and-records.md). 
 
@@ -55,11 +55,11 @@ You must have the following access to perform the steps in this article:
 <td>
    <p> Product</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>To connect Adobe Workfront planning record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console.</p> </td>
+   <p> Adobe Workfront</p> <p>To connect Adobe Workfront Planning record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console.</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfront planning closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront Planning closed beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -77,7 +77,7 @@ You must have the following access to perform the steps in this article:
   
   <tr>
    <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access level controls for Adobe Workfront planning</p>  
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
 </td>
   </tr>
 <tr>
@@ -108,14 +108,14 @@ You must have the following access to perform the steps in this article:
 
 ## Considerations about connecting record types
 
-* You can connect the following entities in Adobe Workfront planning:
+* You can connect the following entities in Adobe Workfront Planning:
 
     * Two record types
 
         The record types must belong to the same workspace. 
     * A record type and an object type from another application. 
 
-* You can connect the following object types from the following applications with Workfront planning record types:
+* You can connect the following object types from the following applications with Workfront Planning record types:
 
     * Adobe Workfront:
 
@@ -132,7 +132,7 @@ You must have the following access to perform the steps in this article:
 
         >[!IMPORTANT]
         >
-        >You must have an Adobe Experience Manager Assets license, and your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console to connect Workfront planning records to Adobe Experience Manager Assets.
+        >You must have an Adobe Experience Manager Assets license, and your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console to connect Workfront Planning records to Adobe Experience Manager Assets.
         >
         >If you have questions about onboarding to the Adobe Admin Console, see the [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
@@ -146,13 +146,13 @@ You must have the following access to perform the steps in this article:
 
     * **When you connect a record type with an object type from another application**: A linked record field is created on the record type you're connecting from. No linked record field is automatically created on the other application's object type. 
         
-        A new Workfront planning read-only record type is created for the other application's object only when actual objects are connected to Workfront planning records. 
+        A new Workfront Planning read-only record type is created for the other application's object only when actual objects are connected to Workfront Planning records. 
     
         For more information, see [Connect records](../records/connect-records.md). 
     
-    * **When you add lookup fields of the record or object you connect to**: You can connect fields from the other application's object to the Workfront planning record type. These are linked or lookup fields. Linked fields automatically display information from connected records or objects when you connect the records or the objects. The linked lookup fields are always read-only and populate automatically with the values of the connected records or objects. 
+    * **When you add lookup fields of the record or object you connect to**: You can connect fields from the other application's object to the Workfront Planning record type. These are linked or lookup fields. Linked fields automatically display information from connected records or objects when you connect the records or the objects. The linked lookup fields are always read-only and populate automatically with the values of the connected records or objects. 
 
-        For example, if you connect the "Campaign" record type with a Workfront project and you select to bring the Planned Completion Date field of the project to the Workfront planning record, a linked field called Planned Completion Date (from Project) is automatically created for the campaign. You cannot manually edit this linked field. The Planned Completion Date (from Project) field displays the Planned Completion Date of the linked projects.  
+        For example, if you connect the "Campaign" record type with a Workfront project and you select to bring the Planned Completion Date field of the project to the Workfront Planning record, a linked field called Planned Completion Date (from Project) is automatically created for the campaign. You cannot manually edit this linked field. The Planned Completion Date (from Project) field displays the Planned Completion Date of the linked projects.  
 
         >[!IMPORTANT]
         >
@@ -194,7 +194,7 @@ You must have the following access to perform the steps in this article:
 
 1. Update the following information: 
 
-    * **Name**: The name of connected field, as it will appear in the table view or the Details page of the original record type. This creates the linked record column in the table view of the original record type or the linked record field for the original records. 
+    * **Name**: The name of connected field, as it will appear in the table view or the record page of the original record type. This creates the linked record column in the table view of the original record type or the linked record field for the original records. 
 
     >[!TIP]
     >
@@ -284,7 +284,7 @@ You must have the following access to perform the steps in this article:
 
         >[!TIP]
         >
-        > A linked record field  is not created for objects from another application to the record type you are linking from in Workfront planning.
+        > A linked record field  is not created for objects from another application to the record type you are linking from in Workfront Planning.
 
 1. (Optional and conditional) From either the original record type or the linked record type table view, click the downward-pointing arrow in the header of the linked record fields, then click one of the following:
 

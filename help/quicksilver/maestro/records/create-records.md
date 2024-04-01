@@ -1,6 +1,6 @@
 ---
 title: Create records
-description: When using Adobe Workfront planning, a record is an instance of a record type. 
+description: When using Adobe Workfront Planning, a record is an instance of a record type. 
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -12,7 +12,7 @@ exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
 
 {{maestro-important-intro}}
 
-In Adobe Workfront planning, a record is an instance of a record type. 
+In Adobe Workfront Planning, a record is an instance of a record type. 
 
 You can create records by doing one of the following:
 
@@ -43,7 +43,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfront planning beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront Planning beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -61,7 +61,7 @@ You must have the following access to perform the steps in this article:
   
   <tr>
    <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access controls for Adobe Workfront planning </p>  
+   <td> <p>There are no access controls for Adobe Workfront Planning </p>  
 </td>
   </tr>
 <tr>
@@ -121,14 +121,14 @@ For information about editing record information, see [Edit records](/help/quick
 
     Or 
     
-    Click the new record's name or the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of the record name. The **Details** box opens in the table. 
+    Click the new record's name or the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of the record name. The box with the record's detailed information opens in the table. 
 
     >[!TIP]
     >
     >You can access the Details box only from the name field of the record when the Name field is a primary field. 
 
-1. Start editing the record's information in the Details box. Workfront automatically saves your changes. 
-1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the Details box to open the record's **Details** page in a new tab. Continue editing the record on the Details page.
+1. Start editing the record's information in the record's box. Workfront automatically saves your changes. 
+1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the record's box to open the record's page in a new tab. Continue editing the record on the record page.
 
 
 1. (Optional) Use the following keyboard shortcuts to undo or redo adding new records: 
@@ -182,7 +182,7 @@ You can import records from other applications by linking them to existing recor
 
 1. From another application, select several rows and columns, then paste the information in the record type table view, starting with the first new record. 
 
-    The following information is imported in the Workfront planning area:
+    The following information is imported in the Workfront Planning area:
     
     * The rows contain the new records
     * The columns populate information for the fields of the records.

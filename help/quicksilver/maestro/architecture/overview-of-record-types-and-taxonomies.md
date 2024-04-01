@@ -1,6 +1,6 @@
 ---
 title: Overview of record types
-description: Record types are the building blocks of a Adobe Workfront planning workspace.
+description: Record types are the building blocks of a Adobe Workfront Planning workspace.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -12,13 +12,13 @@ exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
 
 {{maestro-important-intro}}
 
-Unlike Workfront where the object types are predefined, in Adobe Workfront planning, you can create your own object types. For example, in Workfront the object types of Program, Portfolio, Project, Task, or Issue are already created. 
+Unlike Workfront where the object types are predefined, in Adobe Workfront Planning, you can create your own object types. For example, in Workfront the object types of Program, Portfolio, Project, Task, or Issue are already created. 
 
-Workfront planning object types are called "record types" and you can create and customize all of them. Record types are the building blocks of a Workfront planning workspace. For information about workspaces, see [Create workspaces](../architecture/create-workspaces.md). 
+Workfront Planning object types are called "record types" and you can create and customize all of them. Record types are the building blocks of a Workfront Planning workspace. For information about workspaces, see [Create workspaces](../architecture/create-workspaces.md). 
     
 ## Record type overview
     
-In Workfront planning, you can create custom record types that meet your organization's needs.
+In Workfront Planning, you can create custom record types that meet your organization's needs.
  
 * When you create a workspace from a template, record types are created in the following workspace sections: 
 

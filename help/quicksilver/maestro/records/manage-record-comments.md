@@ -1,6 +1,6 @@
 ---
 title: Manage record comments
-description: You can collaborate on Adobe Workfront planning records, by adding comments or replies in the right panel of a record. You can also view other changes made to the record and recorded by the system in this area.
+description: You can collaborate on Adobe Workfront Planning records, by adding comments or replies in the right panel of a record. You can also view other changes made to the record and recorded by the system in this area.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -18,7 +18,7 @@ exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
 
 <span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).</span> -->
 
-You can collaborate on Adobe Workfront planning records, by adding comments or replies in the right panel of a record. You can also view other changes made to the record and recorded by the system in this area.
+You can collaborate on Adobe Workfront Planning records, by adding comments or replies in the right panel of a record. You can also view other changes made to the record and recorded by the system in this area.
 
 The right panel of a record displays the following sections:
 
@@ -27,23 +27,23 @@ The right panel of a record displays the following sections:
 
 ## Considerations about commenting on a record
 
-* You can add comments and replies to records in Workfront planning, in the Comments section of a record. 
+* You can add comments and replies to records in Workfront Planning, in the Comments section of a record. 
 
-* Comments added to linked records do not display on the records you are linking from. For example, if you comment on a Workfront planning Product record that is linked to a Campaign record, the comment displays only on the Product record in Workfront planning and not on the Campaign record from which you are linking. 
+* Comments added to linked records do not display on the records you are linking from. For example, if you comment on a Workfront Planning Product record that is linked to a Campaign record, the comment displays only on the Product record in Workfront Planning and not on the Campaign record from which you are linking. 
 
-* You can add comments to Workfront planning records created as a result of a connection between a record and an object from another application. 
+* You can add comments to Workfront Planning records created as a result of a connection between a record and an object from another application. 
    
-   For example, you can comment on the Project Workfront planning record after you connect Workfront projects with Workfront planning records. For more information, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). 
+   For example, you can comment on the Project Workfront Planning record after you connect Workfront projects with Workfront Planning records. For more information, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). 
 
-* Comments added to linked objects in other applications do not display in Workfront planning and comments added to linked objects in Workfront planning do not display in other applications.  
+* Comments added to linked objects in other applications do not display in Workfront Planning and comments added to linked objects in Workfront Planning do not display in other applications.  
    
-   For example, comments added to projects in Workfront do not display on the same project linked to a campaign in Workfront planning, and comments added to the project Workfront planning record don't display in Workfront. 
+   For example, comments added to projects in Workfront do not display on the same project linked to a campaign in Workfront Planning, and comments added to the project Workfront Planning record don't display in Workfront. 
 
 * You can tag users to bring their attention to an update. Tagged users do not receive an in-app notification or an email about your update. <!--this might change??-->
    
-* You can add an update to records and review the history of changes from the following areas of Workfront planning:
+* You can add an update to records and review the history of changes from the following areas of Workfront Planning:
 
-   * From the Details page of a record. 
+   * From the record page. 
 
    <!--* From the table view.-->
 
@@ -66,7 +66,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfront planning beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront Planning beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -84,7 +84,7 @@ You must have the following access to perform the steps in this article:
   
   <tr>
    <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access level controls in Workfront planning. </p>  
+   <td> <p>There are no access level controls in Workfront Planning. </p>  
 </td>
   </tr>
 <tr>
