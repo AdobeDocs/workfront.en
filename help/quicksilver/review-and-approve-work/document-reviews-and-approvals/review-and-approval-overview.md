@@ -5,6 +5,9 @@ title: Asset review and approval overview
 description: Learn more about the formal review and approval process in Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
+hide: yes
+hidefromtoc: yes
+recommendations: noDisplay, noCatalog
 
 ---
 
