@@ -1778,6 +1778,7 @@ feature-set: Workfront
 * Review and approve work {#review-and-approve-work}
   * [Review and approve work](review-and-approve-work/review-and-approve-work.md)
   * [Alpha Program – Document Approvals](review-and-approve-work/Documents/doc-approvals-alpha.md)
+  * [Alpha Program - Workfront + Frame.io](review-and-approve-work/Documents/wf-frame-alpha.md)
   * [Limited document and proof decision for non-paid users overview](review-and-approve-work/proof-doc-decision-limits.md)
   * Work approvals {#work-approvals}
     * [Work approvals](review-and-approve-work/manage-approvals/manage-approvals.md)
