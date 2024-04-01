@@ -736,6 +736,47 @@ The Workfront Mobile app -->
 
 You can add Workfront native fields to your custom forms. When the custom form is attached to an object, the field is populated from the object data. For example, the Description field on a custom form attached to a project will pull in the project description. (The field may show "N/A" if no data is available.)
 
++++ **Expand to see the list of supported native fields**
+
+* Actual Completion Date
+* Actual Duration
+* Actual Hours
+* Actual Start Date
+* Company
+* Condition
+* Condition Type
+* Description
+* Duration
+* Duration Type
+* Duration Unit
+* Entered By
+* Entry Date
+* Group
+* Last Updated By
+* Last Update Date
+* Name
+* Owner
+* Planned Completion Date
+* Planned Duration
+* Planned Hours
+* Planned Start Date
+* Portfolio
+* Priority
+* Program
+* Projected Completion Date
+* Projected Duration Minutes
+* Projected Start Date
+* Reference Number
+* Schedule Mode
+* Severity
+* Sponsor
+* Status
+* Story Points
+* Template
+* URL
+
++++
+
 1. On the left side of the screen, find **Native field** and drag it to a section on the canvas.
 1. On the right side of the screen, configure the options for the custom field:
 
