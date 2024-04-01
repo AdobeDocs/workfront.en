@@ -59,6 +59,14 @@ Because the first module has been replaced, the second module must be mapped to 
 
 ## Test and activate
 
+1. Test the scenario by clicking **Run once** in the lower-left corner of the screen.
+1. Examine the output to ensure that the scenario ran as expected.
+1. When you are satisfied that the scenario is working as expected, click the **Scheduling** toggle in the lower-left of the screen to **On**.
+
+   This activates the scenario. Active scenarios run according to the schedule set in the trigger module.
+
 ## Resources
 
-For more information on scheduled trigger modules, see [Trigger modules](/help/quicksilver/workfront-fusion/modules/module-types.md#polling-triggers) in the article Module types.
+* For more information on scheduled trigger modules, see [Trigger modules](/help/quicksilver/workfront-fusion/modules/module-types.md#polling-triggers) in the article Module types.
+* For more information about activating scenarios, see [Activate or deactivate a scenario in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
+* For information about schedules, see [Schedule a scenario in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).
