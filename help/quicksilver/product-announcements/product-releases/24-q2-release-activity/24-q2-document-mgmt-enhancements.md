@@ -39,7 +39,7 @@ You can now create Approval Templates in the Setup area to streamline the review
 
 You can apply Approval Templates from the Documents area when creating an approval process for a Document. 
 
-<!-- For more information, see [Create an Approval Template](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md). -->
+For more information, see [Create an Approval Template](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
 ## View information about all your approvals in once place
 
