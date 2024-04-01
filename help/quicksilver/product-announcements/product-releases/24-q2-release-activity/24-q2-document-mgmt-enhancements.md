@@ -4,6 +4,7 @@ description: Second Quarter 2024 Document management enhancements
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+exl-id: 9f7873e0-3645-49db-8dec-fb0c6eff3e8d
 ---
 # Second Quarter 2024 Document management enhancements
 
