@@ -3,12 +3,12 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: use-scrum-in-an-agile-team
 title: Manage iteration updates
-description: You can add updates to an iteration to collaborate with others in Adobe Workfront. 
+description: You can add updates to an iteration to collaborate with others in Adobe Workfront.
 author: Alina
 feature: Agile
 recommendations: noDisplay, noCatalog
+exl-id: 68af4128-82a7-41e2-a88a-27c51b4a5cb7
 ---
-
 # Manage iteration updates
 
 You can add updates to an iteration to collaborate with others in Adobe Workfront. 
