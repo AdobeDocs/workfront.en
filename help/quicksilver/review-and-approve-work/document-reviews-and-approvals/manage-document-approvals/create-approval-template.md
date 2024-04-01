@@ -5,8 +5,8 @@ title: Create an Approval Template
 description: You can create Approval Templates to streamline your approval process.
 author: Courtney
 feature: Work Management, Digital Content and Documents
+exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
 ---
-
 # Create an Approval Template
 
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
@@ -59,4 +59,3 @@ For more detail about the information in this table, see [Access requirements in
 
 <!-- Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.
 ![](assets/assign-template.png)-->
-
