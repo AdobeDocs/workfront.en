@@ -16,7 +16,7 @@ We are excited to announce the launch of our Alpha program for Workfront + Frame
 
 ## Latest release
 
-## Alpha Release 7 - Mar. 2024
+## Alpha Release - Mar. 2024
 
 In this 7th Alpha release we have:
 
@@ -42,7 +42,7 @@ For more information, see [Create an Approval Template](/help/quicksilver/review
 To help you manage and analyze your approval requests at a glance, we've added the following key performance indicators to the All Approvals widget:
 
 * Approvals by decision
-* Average approval timeß
+* Average approval time
 * Pending approvals
 * Overdue approvals
 
