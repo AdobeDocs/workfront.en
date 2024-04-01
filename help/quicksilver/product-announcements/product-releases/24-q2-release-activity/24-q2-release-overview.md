@@ -183,7 +183,7 @@ In lieu of a release webinar, we invite you to [register for Adobe Summit](https
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt--enhancements.md" class="MCXref xref" xrefformat="{para}">Add a deadline to a document reviews and approvals</a><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Add a deadline to a document reviews and approvals</a><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>You can now specify a deadline for users or teams assigned to review or approve a document. Reviewers and approvers receive email notifications 72 hours and then 24 hours before the specified deadline. The deadline is also reflected in the Approvals widget in the new Home area.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
