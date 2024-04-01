@@ -10,8 +10,6 @@ exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
 ---
 # Commit Date overview
 
-{{preview-and-fast-release}}
-
 The Commit Date is the date by which an user assigned to task or an issue commits to complete the task or the issue. This is different than the Planned Completion Date, as it is a more realistic estimate of the completion date given only by the user in charge of the work. For information about the Planned Completion Date, see [Overview of the task Planned Completion Date](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
 ## Commit Date overview
@@ -49,11 +47,26 @@ When a task or issue assignee selects a Commit Date that is different than the P
 
 Setting the Commit Date for a task or issue triggers the following changes:
 
-* The Commit Date populates in the Update Stream of the task or issue.
+* The Commit Date change populates in the System Activity and the All tabs of the Update section of the task or the issue.
         
-  <span class="preview">![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)</span>
+  ![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)
         
   The change of the Commit Date displays in the Updates area of the task or issue when the Workfront administrator enables this update in the Updates Feeds area in Setup. For information, see [System-tracked updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+
+  If a Project Owner does not want to accept the change, we recommend that they comment back to the user proposing a new date using the Comments tab in the Updates section, to ask them to change the Commit Date back to the original Planned Date, or select a new date. If a Project Owner accepts the change, they can manually adjust the Planned Completion Date to match the Commit Date offered by the user assigned to the item by editing the task or the issue. 
+  
+  You must have access to manage the task or the issue to edit them. 
+
+<!--this is no longer possible: 
+>[!NOTE]
+>
+>If you want to see how the timeline of the project is affected by accepting to change the Planned Completion Date of the task, click **Project Timeline**. This opens the task list where you can evaluate the date changes and the project timeline.
+>
+>
+>![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)  >
+>
+-->
+
 
 * The Projected Completion Date of the task or issue is set to the same date because the task now has a more accurate indication of when it is likely to be completed.
 
@@ -61,27 +74,10 @@ Setting the Commit Date for a task or issue triggers the following changes:
 
   ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-* If the Project Owner is using the legacy commenting experience, they are notified in the Updates tab of the task whether this change will impact the project timeline and they are given an opportunity to update the Planned Completion Date of the task in the same area.
 
-  This functionality is not supported in the new commenting experience. For information, see [New commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
-
-  >[!TIP]
-  >
-  >  The Project Owner is not given a chance to update the Planned Completion Date of an issue, as issue dates do not impact the project timeline. 
-
-  If a Project Owner does not want to accept the change, we recommend that they comment back to the user proposing a new date to ask them to change the Commit Date back to the original Planned Date, or select a new date. If a Project Owner accepts the change, they can manually adjust the Planned Completion Date to match the Commit Date offered by the user assigned to the item. They can also click **Set planned date to: < date >** in the Updates area which automatically sets the Planned Completion Date to match the new Commit Date. 
   
-  You must have access to manage the task and the project to accept this change.
 
-  >[!NOTE]
-  >
-  >If you want to see how the timeline of the project is affected by accepting to change the Planned Completion Date of the task, click **Project Timeline**. This opens the task list where you can evaluate the date changes and the project timeline.
-  >
-  >
-  >![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)  >
-  >
-
-* The Project Owner is notified in the Notifications area that a task commit date changed. 
+* The Project Owner is notified in the Notifications area that a task or issue commit date changed. 
 
   ![](assets/in-product-notification-commit-date-changed-nwe-350x149.png)
 

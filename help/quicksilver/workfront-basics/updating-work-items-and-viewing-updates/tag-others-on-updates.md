@@ -9,8 +9,6 @@ exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
 ---
 # Tag others on updates
 
-{{preview-and-fast-release}}
-
 <!--take new commenting and legacy commenting out when we remove the legacy commenting and the new one is the only experience-->
 
 <!--
@@ -20,6 +18,13 @@ exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
 
 <span class="preview">For information about the current release schedule, see [Fourth Quarter 2023 release overview](../../product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md)</span> 
 -->
+
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 >[!IMPORTANT]
 >
@@ -32,14 +37,16 @@ exl-id: c4c0d74f-ac50-4fc5-89d6-28f004c25b29
 >
 >For more information about the new commenting experience and its availability, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
->The new commenting experience is available only for the Updates section of Workfront objects, and it is not available when you access the objects from the following areas:
+><Span class="preview"> The legacy commenting experience has been removed from projects, tasks, issues, and documents in the Preview environment. </span>
+>
+>The new commenting experience is available only for the Updates section of Workfront objects, and it is not available when you access updates from the following areas:
 >
 > * Home
 > * Summary panel in lists
 > * Summary panel in timesheets 
 > * Summary panel in the Workload Balancer
 >
-><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process.</span>
+><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span> 
 
 You can tag users when making an update to an object if you want to draw their attention to an object they might otherwise not follow. 
 

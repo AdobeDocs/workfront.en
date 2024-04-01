@@ -8,7 +8,11 @@ exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
 ---
 # [!UICONTROL Summary] overview
 
-{{preview-and-fast-release}}
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 You can use the [!UICONTROL Summary] panel to review and update work item information directly from a list of tasks issues, documents, or from other areas of [!DNL Adobe Workfront] that display tasks and issues.
 
@@ -30,6 +34,9 @@ The following table displays the areas where you can locate and use the [!UICONT
   <tr> 
    <td>Tasks in the [!UICONTROL Unassigned] and [!UICONTROL Assigned] Work areas of the [!UICONTROL Workload Balancer]</td> 
   </tr> 
+   <tr> 
+   <td>Tasks in a [!UICONTROL Timesheet]</td> 
+  </tr> 
   <tr data-mc-conditions=""> 
    <td>Issues</td> 
   </tr> 
@@ -47,6 +54,11 @@ The following table displays the areas where you can locate and use the [!UICONT
   <tr data-mc-conditions=""> 
    <td>Issues in the [!UICONTROL Submitted] section of the [!UICONTROL Requests] area</td> 
   </tr> 
+</tr> 
+   <tr> 
+   <td>Issues in a [!UICONTROL Timesheet]</td> 
+  </tr>
+
   <tr data-mc-conditions=""> 
    <td>Documents</td> 
   </tr> 

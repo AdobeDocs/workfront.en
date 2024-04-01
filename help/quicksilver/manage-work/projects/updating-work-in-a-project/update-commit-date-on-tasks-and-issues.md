@@ -82,8 +82,11 @@ Updating the Commit Date is identical for tasks and issues.
 
      ![](assets/task-projected-completion-date-in-details-highlighted-nwe-350x230.png)
 
-   * If you are using the legacy Updates area, the Project Owner is notified that you have suggested a new Commit Date for the task or issue and can, at this time, update the Planned Completion Date of the task or issue to match the Commit Date you suggested. This functionality is not supported in the new commenting experience. For information, see [The new commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+   * The Project Owner is notified in the in-app notifications that you have suggested a new Commit Date for the task or issue. 
+   * The Project Owner is notified in the Updates section that you have suggested a new Commit Date and they can, at this time, update the Planned Completion Date of the task or issue to match the Commit Date you suggested. This functionality is not supported in the new commenting experience. For information, see [The new commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 
      ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline-highlighted-nwe-350x139.png)
 
      For information about the notifications and updates that are triggered by this change, see the section [Notifications and updates triggered by changing the Commit Date](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md#notifica) in the article [Commit Date overview](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+
+<!--at the Production update stream when removing legacy - replace the last bullet with: The Project Owner is notified in the Systems Activity and the All tabs of the Updates section that you have suggested a new Commit Date. They can then update the Planned Completion Date accordingly by editing the task or the issue.>
