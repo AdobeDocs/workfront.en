@@ -21,7 +21,9 @@ This example modifies the scenario created in [Create a basic scenario](/help/qu
 
 You must create the scenario described in [Create a basic scenario](/help/quicksilver/workfront-fusion/free-tier-staging/create-simple-scenario.md) before following this procedure.
 
-## Add the trigger module
+## Add and configure the trigger module
+
+### Add the trigger module
 
 1. Open the scenario in the scenario editor.
 1. Right click on the first (Search) module and select **Delete module**.
@@ -39,7 +41,7 @@ You must create the scenario described in [Create a basic scenario](/help/quicks
 
 1. Select **From now on**.
 
-## Schedule the trigger module
+### Schedule the trigger module
 
 1. Click the clock on the Watch Records module.
 
@@ -49,7 +51,7 @@ You must create the scenario described in [Create a basic scenario](/help/quicks
 
 1. Click **OK**.
 
-## Update or add the second module
+### Update or add the second module
 
 Because the first module has been replaced, the second module must be mapped to the new first module.
 
@@ -57,7 +59,7 @@ Because the first module has been replaced, the second module must be mapped to 
 1. In the Issue ID field, delete the black ID block, and map the ID block from the first module.
 1. Click **OK**.
 
-## Test and activate
+### Test and activate
 
 1. Test the scenario by clicking **Run once** in the lower-left corner of the screen.
 1. Examine the output to ensure that the scenario ran as expected.
