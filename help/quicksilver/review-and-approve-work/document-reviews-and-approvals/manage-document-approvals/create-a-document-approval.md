@@ -3,7 +3,7 @@ product-area: documents
 navigation-topic: approvals
 title: Create a document approval
 description: You can request approval from other users for a document in Adobe Workfront.
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 ---
