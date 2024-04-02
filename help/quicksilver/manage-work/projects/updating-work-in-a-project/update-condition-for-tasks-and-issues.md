@@ -62,10 +62,7 @@ You must have the following access to perform the steps in this article:
 
 Conditions display as a flag associated with tasks or issues. They can also be associated with a number which can display in reports instead of the label. For more information about associating conditions with numbers, see [Create or edit a custom condition](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md). 
 
-You can locate the Condition of tasks and issues in the following areas: 
-
-* Task and issue Updates area, inside of an update, when you are assigned to the task or issue. This is not supported in the new commenting experience. For information, see [New commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
-* Reports and lists when you display the Condition field in a View or Grouping. 
+You can locate the Condition of tasks and issues in reports and lists when you display the Condition field in a View or Grouping. 
 
 >[!NOTE]
 >

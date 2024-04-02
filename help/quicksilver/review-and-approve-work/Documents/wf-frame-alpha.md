@@ -8,7 +8,7 @@ feature: Work Management, Digital Content and Documents
 hide: yes
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
-exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
+exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
 ---
 # Alpha Program –  Workfront + Frame.io
 
@@ -18,7 +18,7 @@ We are excited to announce the launch of our Alpha program for Workfront + Frame
 
 ## Alpha Release - Mar. 2024
 
-In this 7th Alpha release we have:
+In this Alpha release we have:
 
 ### Add a deadline to a document reviews and approvals
 
@@ -63,4 +63,6 @@ When a new document version is uploaded, the next round of revision can be kicke
 
 ## Send Feedback
 
-We value your input and believe that your perspective is crucial in helping us create the best product possible. As you have specific feedback on what would be required in order for your company to adopt this solution in Production, please send it to [etienneb@adobe.com](mailto:etienneb@adobe.com).
+We value your input and believe that your perspective is crucial in helping us create the best product possible. 
+
+As you have specific feedback on what would be required in order for your company to adopt this solution in Production, please send it to [etienneb@adobe.com](mailto:etienneb@adobe.com).
