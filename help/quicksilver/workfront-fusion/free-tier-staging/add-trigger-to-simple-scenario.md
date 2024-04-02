@@ -11,7 +11,7 @@ feature: Workfront Fusion
 
 Trigger modules are type of module that are placed at the beginning of a scenario. These modules begin a scenario execution when specific criteria when there has been a change in a given service. The change can be a creation of new records, deletion of a records, update of a records, and so on. 
 
-Polling modules check the service at a set time interval and return information about changes that occured during that time interval. If there have been no changes, the trigger does not execute the scenario.
+Polling modules check the service at a set time interval and return information about changes that occurred during that time interval. If there have been no changes, the trigger does not execute the scenario.
 
 In this example, you will add a trigger module that runs every 15 minutes and starts a scenario if any requests have been submitted to a specific queue. The scenario then converts those requests to a project.
 
