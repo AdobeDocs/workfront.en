@@ -10,6 +10,8 @@ exl-id: 2d5cf083-9893-45e8-8f7d-0f8f5a74eef3
 ---
 # Connections overview
 
+<!-- Audited: 3/2024-->
+
 For most apps, [!DNL Workfront Fusion] requires a connection, through which it can communicate with the given third-party service according to the settings of the specific scenario.
 
 For example, if you want to create a scenario that retrieves information from [!DNL Workfront], you must grant access permission for [!DNL Workfront Fusion] to access your [!DNL Workfront] account.

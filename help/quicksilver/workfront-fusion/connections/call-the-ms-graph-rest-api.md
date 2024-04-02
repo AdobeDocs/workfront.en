@@ -7,6 +7,8 @@ exl-id: adae390d-8b9e-4dab-8551-605e50af5a1e
 ---
 # Call the[!UICONTROL  MS Graph REST API] via the [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] module
 
+<!-- Audited: 3/2024-->
+
 Many [!DNL Microsoft] web services are accessed through the [!DNL Microsoft Graph API]. You can create a connection to the [!DNL Microsoft Graph API], by using the [!DNL Workfront Fusion] [!DNL HTTP] > [!UICONTROL Make an OAuth 2.0 request] module.
 
 ## Access requirements
