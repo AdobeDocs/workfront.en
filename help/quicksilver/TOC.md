@@ -1796,6 +1796,7 @@ feature-set: Workfront
   * Document review and approval {#document-reviews-and-approvals}
     * [Document review and approval](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
     * [Document approvals overview](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
+    * [Asset review and approval overview](review-and-approve-work/document-reviews-and-approvals/review-and-approval-overview.md)
     * Review documents {#review-and-approve-documents}
       * [Review documents: article index](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
       * [Review a document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
