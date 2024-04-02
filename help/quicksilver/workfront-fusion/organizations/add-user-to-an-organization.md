@@ -99,8 +99,8 @@ To add a user to the organization:
 >[!NOTE]
 >
 >   
-><p>If you do not see the [!UICONTROL Invite a new user] button, your organization has been onboarded to the [!DNL Adobe Business Platform.] </p>
+>If you do not see the [!UICONTROL Invite a new user] button, your organization has been onboarded to the [!DNL Adobe Business Platform.] 
 >
->   <p>For instructions on adding a user to an organization that has been onboarded to the [!DNL Adobe Business Platform], see <a href="#add-a-user-to-an-organization-that-has-been-onboarded-to-the-adobe-business-platform" class="MCXref xref">Add a user to an organization that has been onboarded to the [!DNL Adobe Business Platform]</a></p>
+>  For instructions on adding a user to an organization that has been onboarded to the [!DNL Adobe Business Platform], see [Add users to [!DNL Adobe Workfront Fusion] through the [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)
   
 The user receives an invitation email where they can accept the invitation.
