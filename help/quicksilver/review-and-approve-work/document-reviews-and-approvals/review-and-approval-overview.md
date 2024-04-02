@@ -8,7 +8,6 @@ feature: Work Management, Digital Content and Documents
 hide: yes
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
-
 ---
 
 # Asset review and approval overview
@@ -128,6 +127,7 @@ Email - deadline emails 72, 24, and on deadline.
 
 Reviewer/approver needs to go through email to get to frame vier
 -->
+
 ### Review and approval assets
 
 Frame.io connected asset stakeholders can review and approve inside the frame viewer with comments syncing to workfront update stream, decisions, ect
