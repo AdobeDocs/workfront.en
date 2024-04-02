@@ -99,7 +99,11 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Create a project from a template in the Projects area
 
-You can create a project from the Projects area in the Main Menu , or from the Projects area of a portfolio or a program.
+You can create a project from the Projects area in the Main Menu, or from the Projects area of a portfolio or a program.
+
+>[!NOTE]
+>
+>Your system or group administrator might modify your interface using a layout template. In this case, some of the names of the sections and areas referred to in the following steps might be different in your instance of Workfront. 
 
 1. Do one of the following:
 
