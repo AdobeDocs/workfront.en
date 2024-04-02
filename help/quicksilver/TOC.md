@@ -1063,6 +1063,7 @@ feature-set: Workfront
       * [Add stories to an existing iteration](agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
       * [View an iteration](agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)
       * [Delete an iteration](agile/use-scrum-in-an-agile-team/iterations/delete-iteration.md)
+      * [Manage iteration updates](agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)
     * Scrum board {#scrum-board}
       * [Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md)
       * [Scrum board overview](agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md)
@@ -1778,6 +1779,7 @@ feature-set: Workfront
 * Review and approve work {#review-and-approve-work}
   * [Review and approve work](review-and-approve-work/review-and-approve-work.md)
   * [Alpha Program – Document Approvals](review-and-approve-work/Documents/doc-approvals-alpha.md)
+  * [Alpha Program - Workfront + Frame.io](review-and-approve-work/Documents/wf-frame-alpha.md)
   * [Limited document and proof decision for non-paid users overview](review-and-approve-work/proof-doc-decision-limits.md)
   * Work approvals {#work-approvals}
     * [Work approvals](review-and-approve-work/manage-approvals/manage-approvals.md)
@@ -1802,7 +1804,7 @@ feature-set: Workfront
       * [Add a Frame.io asset to a connected Workfront project](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
     * Approve documents {#approve-documents}
         * [Approve documents: article index](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
-        * [Create a document approval](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+        * [Create a document review or approval request](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
         * [Add additional reviewers or approvers to a document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
         * [Remove approvers or reviewers from a document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
         * [Create an Approval Template](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
