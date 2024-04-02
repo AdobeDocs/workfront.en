@@ -39,7 +39,7 @@ You must create the scenario described in [Create a basic scenario](/help/quicks
 
 When this scenario converts a request to a project, the project's name is the same as the request. The function here takes that name and capitalizes all of the letters in it. 
 
-1. Click the Name field. 
+1. Click the **Name** field. 
 
    The mapping panel opens.
 1. In the mapping panel, click the **Text and binary functions** icon. ![Text functions icon](/help/quicksilver/workfront-fusion/functions/assets/toolbar-icon-text&binary-functions.png)
@@ -55,7 +55,7 @@ When this scenario converts a request to a project, the project's name is the sa
 
    The name block appears in the function.
 
-   ![Name block in function](assets/map-name.png).
+   ![Name block in function](assets/map-name.png)
 
 1. Click OK to save the module settings.
 
