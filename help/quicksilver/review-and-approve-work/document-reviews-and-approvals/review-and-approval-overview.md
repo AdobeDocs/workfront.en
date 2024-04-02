@@ -14,7 +14,7 @@ exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
 
 The new Asset review and approval workflow is built around a tight integration between Workfront and Frame.io. This integration takes the best of what each product has to offer and combines it to create an experience that allows all personas involved in content creation to work in their tools of choice, while having access to comments, files, and status updates synchronized across both systems in real time.
 
-<!-- link to frame docs-->
+For more information about Frame.io, see [Getting Started with Frame.io](https://support.frame.io/en/collections/49298-getting-started).
 
 ## Work initiation and planning in Workfront
 
@@ -34,9 +34,7 @@ Workfront administrators initate the Workfront and Frame.io integration by addin
 
 For more information, see [].
 
-
 <!-- in procedure article we need to cover how groups work with projects and how the frame account is associated with a group. And that accounts other than the default can be added on a 1:1 basis using the dev token. -->
-
 
 ### Enable Frame.io users
 
@@ -47,13 +45,15 @@ When a user is marked as a Frame.io user in Workfront and is added to a project:
 * They are added as a Collaborator in Frame.io
 * They can send assets from Frame.io to Workfront for formal review and approval
 
+>[!TIP]
+>
+>We recommend enabling users who regularly work in creative tools and upload assets for review and approval as Frame.io users.
+
+
 For more information, see [].
 
 ![](assets/Frame-enabled-user.png)
 
->[!TIP]
->
->We recommend enabling users who regularly work in creative tools and upload assets for review and approval as Frame.io users.
 
 ### Create a project connected with Frame.io
 
@@ -82,20 +82,13 @@ When a creative is added to an integrated project, they can do all of the follow
 <!-- * Notification of decision
 * Upload new versions of connected assets marked as needs more work < will automatically connect>-->
 
+## Initiate formal reviews and approvals in Workfront
 
-## Review and approve assets in Workfront
+Once a creative sends a finished asset to Workfront from Frame.io, the project coordinator can kick-off the formal review and approval process in Workfront. 
 
-Once a creative sends a finished asset to Workfront from Frame.io, the project coordinator can kick-off the formal review and approval process in Workfront. All review and approval activity is recorded in Workfront. 
+Project coordinators can create one-time review and approvals, or they can create resuable Approval Templates in the Setup area of workfront: 
 
-Any comments made in Frame.io are also reflected in the Updates tab in Workfront. Replies made in Workfront are not relfected in Frame.io.
-
-Comments marked Team only will not appear in the Workfront Updates tab.
-
-### Initiate formal reviews and approvals
-
-You can create one-time review and approvals, or you can create resuable Approval Templates in the Setup area of workfront: 
-
-You have the option to assign reviewers, approvers, or a mix of both:
+Project coordinators have the option to assign reviewers, approvers, or a mix of both:
 
 * **Reviewers** can comment and markup assets. Once finished, they can mark their review as complete. <!--example of when to add reviewers-->
 * **Approvers** Can comment, markup assets, and must make a decsion to move the approval process forward. 
@@ -115,6 +108,16 @@ Reviewers and approvers can be added to single-use or approval templates:
 <!-- can set timreframe which calculates deadline once approval is started. >
 
     For more information, see [Create and manage Approval Templates](/)<!--don't forget link-->
+
+## Review and approve assets in Frame.io
+
+Once a creative sends a finished asset to Workfront from Frame.io, the project coordinator can kick-off the formal review and approval process in Workfront. All review and approval activity is recorded in Workfront. 
+
+Any comments made in Frame.io are also reflected in the Updates tab in Workfront. Replies made in Workfront are not relfected in Frame.io.
+
+Comments marked Team only will not appear in the Workfront Updates tab.
+
+
 
 ### Review and approval notifications
 
