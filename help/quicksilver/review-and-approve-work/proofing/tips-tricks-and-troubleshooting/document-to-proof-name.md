@@ -5,8 +5,8 @@ navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
 title: Document name changed after upload and contains an invalid character
 description: Certain documents cannot be converted to proofs.
 author: Courtney
+exl-id: 7771deb5-cf9f-4a32-a444-b701bec1619e
 ---
-
 # Document name changed after upload and contains an invalid character
 
 ## Problem

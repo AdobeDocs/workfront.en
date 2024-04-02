@@ -16,7 +16,7 @@ For a list of all changes available at this point in the Second Quarter 2024 rel
 
 >[!NOTE]
 >
->Preview release: Mach 28, 2024; Production for all customers: 24.4 (April 2024)
+>Preview release: March 28, 2024; Production for all customers: 24.4 (April 2024)
 
 The beta custom form designer now allows you to test your display logic and skip logic in preview mode. Previously, all fields were displayed in the preview even when logic was applied.
 

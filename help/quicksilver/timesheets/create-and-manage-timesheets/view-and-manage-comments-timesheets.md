@@ -84,7 +84,16 @@ You can make general comments about the timesheet. Commenting on the overall tim
 
    Your comment displays in the [!UICONTROL Updates] section of the timesheet, in the Comemnts tab.
 
-1. (Optional) Click the **System Activity** tab to review system-generated updates.
+1. (Optional) Click the **System Activity** tab to review system-generated updates
+
+   Or 
+
+   Click the **All** tab to view system activity and user comments in a chronological order. 
+         
+      >[!TIP]
+      >
+      >   The All tab is a read-only tab and you cannot reply to comments from there. 
+
 
    For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 
@@ -133,7 +142,7 @@ You can comment only on tasks and issues in a timesheet. You cannot comment on p
 1. Click [!UICONTROL **Timesheets**].
 1. Go to the timesheet where you want to make a comment, and click [!UICONTROL **Timesheet**] in the left panel.
 1. Click the row of a task or an issue, then click [!UICONTROL **Open Summary**]. 
-1. Start typing an update in the [!UICONTROL **Updates**] area of the Summary panel, then click [!UICONTROL **Update**].
+1. Start typing an update in the [!UICONTROL **Updates**] area of the Summary panel, then click [!UICONTROL **Submit**].
 The update displays in the Updates section of the task and issue.
 1. (Optional) Click [!UICONTROL **Close Summary**] to close the Summary panel. 
 

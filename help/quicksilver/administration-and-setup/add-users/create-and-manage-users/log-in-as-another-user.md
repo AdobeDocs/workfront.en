@@ -84,7 +84,7 @@ You must have the following to perform the steps in this article:
    >   
    >* You cannot reset the password of a Workfront administrator.  
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
+{{step-1-to-setup}}
 
 1. In the left panel, click **Log in As**.  
 
