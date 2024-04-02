@@ -13,7 +13,7 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 
 <!-- Audited: 1/2024 -->
 
-<!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
+<!--take "legacy" and "new commenting" and "production" or "preview" references out when we remove the legacy - April 2024???-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 
@@ -107,7 +107,7 @@ Depending on what objects you access the commenting experience for, you might fi
 
   * Iterations
 
-    There is no option to enable the new commenting experience for iterations.
+    There is no option to enable the new commenting experience for iterations. For more information, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). 
 
 ### Overview of the Updates section in the new commenting experience
 
