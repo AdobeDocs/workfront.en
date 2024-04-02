@@ -1063,7 +1063,7 @@ feature-set: Workfront
       * [Add stories to an existing iteration](agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
       * [View an iteration](agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)
       * [Delete an iteration](agile/use-scrum-in-an-agile-team/iterations/delete-iteration.md)
-      * [Manage iteration updates](agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)
+      * [Manage iteration comments](agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)
     * Scrum board {#scrum-board}
       * [Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md)
       * [Scrum board overview](agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md)
