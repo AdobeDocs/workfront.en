@@ -18,7 +18,7 @@ We are excited to announce the launch of our Alpha program for Workfront + Frame
 
 ## Alpha Release - Mar. 2024
 
-In this 7th Alpha release we have:
+In this Alpha release we have:
 
 ### Add a deadline to a document reviews and approvals
 
