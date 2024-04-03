@@ -3,7 +3,7 @@ content-type: overview
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: Commit Date overview
-description: The Commit Date is the date by which an user assigned to task or an issue commits to complete the task or the issue. This is different than the Planned Completion Date, as it is a more realistic estimate of the completion date given only by the user in charge of the work. For information about the Planned Completion Date, see Overview of the task Planned Completion Date.
+description: The Commit Date is the date by which an user assigned to task or an issue commits to complete the task or the issue. This is different than the Planned Completion Date, as it is a more realistic estimate of the completion date given by the user who is directly in charge of the work. 
 author: Alina
 feature: Work Management
 exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
