@@ -152,7 +152,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 Before you activate your scenario, it's important to test it by running it at least once and viewing the results. This helps you understand how data flows through the scenario and find any errors.
 
-For this scenario, a successful test would result in locating the task and converting it to a project.
+For this scenario, a successful test would result in locating the new task and converting it to a project.
 
 1. Click **[!UICONTROL Run once]** in the lower-left corner of the scenario editor.
 1. After the scenario finishes running, click the bubble above the first module to can view information about the bundle of data that the module processed, including data pulled from the task that the module returned.
