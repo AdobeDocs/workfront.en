@@ -9,7 +9,7 @@ feature: Workfront Fusion
 ---
 # Add a trigger module to a basic scenario
 
-Trigger modules are type of module that are placed at the beginning of a scenario. These modules begin a scenario execution when specific criteria when there has been a change in a given service. The change can be a creation of new records, deletion of a records, update of a records, and so on. 
+Trigger modules are placed at the beginning of a scenario. These modules begin a scenario execution when specific criteria when there has been a change in a given service. The change can be a creation of new records, deletion of a records, update of a records, and so on. 
 
 Polling modules check the service at a set time interval and return information about changes that occurred during that time interval. If there have been no changes, the trigger does not execute the scenario.
 
@@ -51,21 +51,25 @@ You must create the scenario described in [Create a basic scenario](/help/quicks
 
 1. Click **OK**.
 
-### Update or add the second module
+### Update the second module
 
 Because the first module has been replaced, the second module must be mapped to the new first module.
 
 1. Open the Convert object module.
-1. In the Issue ID field, delete the black ID block, and map the ID block from the first module.
+1. In the Issue ID field, delete the black ID block. The block is black because the module it was mapped from is no longer available.
+1. Select the ID block under the first module (Watch Records) to map it to the second module.
 1. Click **OK**.
 
 ### Test and activate
 
 1. Test the scenario by clicking **Run once** in the lower-left corner of the screen.
+
+   The scenario begins watching for new issues.
+1. Go to the Workfront environment that Fusion is connecting to and add an issue. This will trigger the scenario.
 1. Examine the output to ensure that the scenario ran as expected.
 1. When you are satisfied that the scenario is working as expected, click the **Scheduling** toggle in the lower-left of the screen to **On**.
 
-   This activates the scenario. Active scenarios run according to the schedule set in the trigger module.
+   This activates the scenario. 
 1. In [!DNL Workfront Fusion], click **[!UICONTROL Save]** ![](assets/save-icon.png) near the lower-left corner to save your progress on the scenario.
 
    >[!IMPORTANT]
@@ -74,6 +78,4 @@ Because the first module has been replaced, the second module must be mapped to 
 
 ## Resources
 
-* For more information on scheduled trigger modules, see [Trigger modules](/help/quicksilver/workfront-fusion/modules/module-types.md#polling-triggers) in the article Module types.
-* For more information about activating scenarios, see [Activate or deactivate a scenario in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
-* For information about schedules, see [Schedule a scenario in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).
+* For more information on webhooks, see [Instant triggers (webhooks) in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/webhooks/instant-triggers-webhooks.md).

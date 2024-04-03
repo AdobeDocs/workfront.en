@@ -21,6 +21,11 @@ You must create the scenario described in [Create a basic scenario](/help/quicks
 
 ## Add and configure the webhook
 
+1. Open the Convert object module.
+1. In the Issue ID field, delete the black ID block. The block is black because the module it was mapped from is no longer available.
+1. Select the ID block under the first module (Watch Events) to map it to the second module.
+1. Click **OK**.
+
 ### Add the webhook module
 
 1. Open the scenario in the scenario editor.
@@ -31,5 +36,9 @@ You must create the scenario described in [Create a basic scenario](/help/quicks
 1. Click the blank module, and select **Adobe Workfront** from the list of apps.
 1. Select **Watch Events**.
 1. Click **Add** next to the Webhook field.
+1. in the Record Type field, select **Issue**, so the module will trigger for changes in issues.
+1. In the State field, select **New state**. This is a required field that is used for the filter, which this example does not cover.
+1. In the Record Origin field, select **New Record Only**. This allows the scenario to trigger when an issue is added, not when one is updated or deleted.
+1. Click **Save** to save the module configuration.
 
 
