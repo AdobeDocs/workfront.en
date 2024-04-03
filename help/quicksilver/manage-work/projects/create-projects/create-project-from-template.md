@@ -2,7 +2,7 @@
 product-area: projects;templates
 navigation-topic: create-projects
 title: Create a project using a template
-description: You can use templates as a framework to create projects in Adobe Workfront. If you have projects that repeat often, using templates for the general timeline of the new project saves you from having to build the same projects repeatedly.
+description: You can use templates as a framework to create projects in Adobe Workfront. If you have projects that repeat often, using templates for the new project saves you from having to build the same projects repeatedly.
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0

@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: create-projects
 title: Request a project
-description: You can request for a project to be approved before you start working on it. We recommend building a Business Case for a new project so that you can outline some of the key points you want to achieve by completing it, as well as to present to your management your labor and expense budget. Filling out the Business Case and submitting the project for approval completes the formal request for the project. After submitting the business case for approval the status of the project becomes Requested. 
+description: You can request for a project to be approved before you start working on it. We recommend building a Business Case for a new project so that you can outline some of the key points you want to achieve by completing it, as well as to present to your management team your labor and expense budget. Filling out the Business Case and submitting the project for approval completes the formal request for the project. After submitting the business case for approval the status of the project becomes Requested. 
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397

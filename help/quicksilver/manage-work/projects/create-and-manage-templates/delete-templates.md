@@ -2,7 +2,7 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Delete project templates
-description: We recommend that you deactivate templates that you are no longer using, instead of deleting them so that you can keep historic information about your projects over time. For information about deactivating a template, see Edit project templates.
+description: We recommend that you deactivate templates that you are no longer using, instead of deleting them so that you can keep historic information about your projects over time. 
 author: Alina
 feature: Work Management
 exl-id: 41e0979c-f8ef-4a07-8848-e4ee8cc212c5
