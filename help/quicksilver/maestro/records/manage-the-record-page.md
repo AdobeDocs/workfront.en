@@ -96,7 +96,6 @@ You must have the following access to perform the steps in this article:
 The workspace that you access last opens. 
 
 1. (Optional) Click the downward-pointing arrow to the right of the workspace name to select the workspace whose records you want to update. 
-
 1. Click a record type card. 
 
     The record type page opens. 
