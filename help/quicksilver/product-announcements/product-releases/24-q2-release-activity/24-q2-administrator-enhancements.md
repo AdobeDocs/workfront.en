@@ -16,7 +16,7 @@ For a list of all changes available at this point in the Second Quarter 2024 rel
 
 >[!NOTE]
 >
->Preview release: March 28, 2024; Production for all customers: 24.4 (April 2024)
+>Preview release: March 28, 2024; Production for all customers: 24.4 (April 11, 2024)
 
 The beta custom form designer now allows you to test your display logic and skip logic in preview mode. Previously, all fields were displayed in the preview even when logic was applied.
 
@@ -26,7 +26,7 @@ For more information on previewing a custom form in the form designer, see [Orga
 
 >[!NOTE]
 >
->Preview release: March 14, 2024; Production for all customers: 24.4 (April 2024)
+>Preview release: March 14, 2024; Production for all customers: 24.4 (April 11, 2024)
 
 Advanced custom form features such as External Lookup fields and Workfront native fields are now available when you attach a custom form to a company or a user. The advanced features are available on the Company Details and User Details pages, not on the Edit Company and Edit User dialogs. The custom form must be created in the new form designer to take advantage of these field types.
 
@@ -36,7 +36,7 @@ For more information about custom form fields, see [Design a form with the form 
 
 >[!NOTE]
 >
->Preview release: February 26, 2024; Production for fast release: With the 24.3 release (March 14, 2024); Production for all customers: 24.4 (April 2024)
+>Preview release: February 26, 2024; Production for fast release: With the 24.3 release (March 14, 2024); Production for all customers: 24.4 (April 11, 2024)
 
 The existing JumpSeat integration is now available to accounts using one of the new package types (i.e., Select, Prime, or Ultimate). You must still have an active JumpSeat subscription to enable the integration.
 
@@ -46,7 +46,7 @@ For more information on the JumpSeat integration, see [Configure the JumpSeat in
 
 >[!NOTE]
 >
->Preview release: February 29, 2024; Production for fast release: With the 24.3 release (March 14, 2024); Production for all customers: 24.4 (April 2024)
+>Preview release: February 29, 2024; Production for fast release: With the 24.3 release (March 14, 2024); Production for all customers: 24.4 (April 11, 2024)
 
 Fields native to Workfront are now available for you to add to your custom forms. This new field type allows you to organize and present data to your users in a logical way, without having to re-create existing data in custom fields.
 
