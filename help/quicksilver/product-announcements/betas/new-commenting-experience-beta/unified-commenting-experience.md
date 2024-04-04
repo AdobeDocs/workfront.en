@@ -56,7 +56,7 @@ The following features have been removed or will be deprecated from the new expe
 * Comment on a system update. Comments added to the system updates in the past have been imported as read-only comments in the new System Activity tab. 
 * Ability to edit Status, Condition, Commit Date, and Percent Complete while commenting on tasks and issues. 
 
-  As an alternative, we recommend that you add these fields in the Summary panel of tasks and issues, to easily access them from lists, reports, Home, Workfront Balancer, or a timesheet. 
+  As an alternative, we recommend that you add these fields in the Summary panel of tasks and issues, to easily access them from lists, Home, Workfront Balancer, or a timesheet. 
 * Ability to edit the custom form
 * The "on behalf of < user name >" information when a Workfront or group administrator logs in as another user and adds a comment on their behalf was originally removed. It has been reinstated on October 19, 2023.
 * The "Ask for approval" option when you tag people while adding a comment to a document. 
