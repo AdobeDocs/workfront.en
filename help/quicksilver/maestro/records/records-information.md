@@ -34,3 +34,4 @@ The following articles describe how you can create and manage records and their 
 * [Manage record comments](/help/quicksilver/maestro/records/manage-record-comments.md)
 * [History section overview](/help/quicksilver/maestro/records/history-section-overview.md)
 * [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)
+* [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md)

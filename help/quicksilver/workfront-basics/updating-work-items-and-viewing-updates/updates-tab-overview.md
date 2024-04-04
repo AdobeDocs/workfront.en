@@ -117,7 +117,7 @@ Depending on what objects you access the commenting experience for, you might fi
 
     There is no option to enable the new commenting experience for iterations. For more information, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). 
 
-<!--Info for April 11: reword the section title below to: Overview of the Updates section-->
+<!--Info for April 11: reword the section title below to: Overview of the Updates section; and remove the preview tags-->
 
 ### Overview of the Updates section in the new commenting experience
 
@@ -153,8 +153,6 @@ Depending on what objects you access the commenting experience for, you might fi
 <!-- info for April 11: hide the entire section below: -->
 
 ### Overview of the legacy Updates section 
-
-<!--when we remove legacy, make this section an "Iterations-only" section-->
 
 ![](assets/updates-tab-before-unified-experience-for-tasks.png)
 
