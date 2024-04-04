@@ -13,12 +13,9 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 
 <!-- Audited: 1/2024 -->
 
-<!--take "legacy" and "new commenting" and "production" or "preview" references out when we remove the legacy - April 2024???-->
+<!--info for April 11: take "legacy" and "new commenting" and "production" or "preview" references out when we remove the legacy-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
-
-<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md) ).</span> -->
-
+<!--info for April 11: hide the disclaimer for preview below-->
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
@@ -27,6 +24,8 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 <span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 <!--info for April 11: take out the Important box-->
+
+The Updates section of an object displays comments that users make on the object or system updates that track changes to the object.
 
 >[!IMPORTANT]
 >
@@ -79,7 +78,7 @@ The following objects have an Updates section where you can add comments or revi
 * Iterations
 -->
 
-<!--remove all the information below, all the way down to the following section: -->
+<!--info for April 11: remove all the information below, all the way down to the following section: -->
 
 Depending on what objects you access the commenting experience for, you might find the following experience for the Updates section:
 
@@ -127,7 +126,7 @@ Depending on what objects you access the commenting experience for, you might fi
 
 </div>
 
-<!--info for April 11: remove the NOTE below-->
+<!--info for April 11: remove the NOTE below and any references below to "the new commenting experience". This should be just the ONLY experience. -->
 
 >[!NOTE]
 >
@@ -146,9 +145,23 @@ Depending on what objects you access the commenting experience for, you might fi
   * Template Task
   * Ad-hoc Card
 
+    For more information about updates on cards, see [Add an ad hoc card to a board](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md). 
+
 * The following objects don't have an <span class="preview">All tab:</span>
 
   * Goals
+
+    For more information about updates on goals, see [Manage goal comments](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+
+<!--info for April 11: make the text below live - remove the commented out brackets: 
+
+* The following objects don't have a System Activity or an All tab: 
+
+  * Iterations
+
+    For more information about updates on iterations, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). 
+
+-->
 
 <!-- info for April 11: hide the entire section below: -->
 
@@ -171,9 +184,9 @@ The following objects don't record system updates:
 * Iterations
 
 
-## Updates that also appear on higher-rank objects
+## Updates that also appear on higher-ranking objects
 
-Comments, replies, or system updates of certain objects also appear on the Updates section of higher-ranked objects.
+Comments, replies, or system updates of certain objects also appear on the Updates section of higher-ranking objects.
 
 For example, when you add an update to a task, the update appears on the Updates section for the task and on the Updates section for the project containing the task.
 
@@ -185,7 +198,7 @@ The following table shows the objects whose comments also display on their highe
  <thead> 
   <tr> 
    <th><strong>Object where the original update was added</strong> </th> 
-   <th> <p><strong>Higher-ranked object where the original update also appears</strong> </p> </th> 
+   <th> <p><strong>Higher-ranking objects where the original update also appears</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -244,6 +257,8 @@ The following table shows the objects whose comments also display on their highe
  </tbody> 
 </table>
  
+<!--info for April 11: hide the note below-->
+
 >[!NOTE]
 >
 >Replies added to system updates do not roll up to the parent object. Only direct replies on a child object and replies added to existing updates roll up to parent objects.
@@ -263,16 +278,14 @@ Consider the following when viewing updates for users and teams:
 
 * You cannot add new comments in the Updates section of a team. 
 
-* You can add a reply to an update you view on a team. The reply displays in the team's Updates section as well as the Updates section of the object it belongs to. 
-
 * The Updates section for teams is populated by updates entered on the following objects:
 
   * Users
-  * Timesheets*
   * Stories
-  * Iterations*
+  * Timesheets
+  * Iterations
 
-  *These are not available for the new commenting experience. 
+* You can add a reply to an update you view on a team. The reply displays in the team's Updates section as well as the Updates section of the object it belongs to.
 
 * On the Updates section for users and teams, you can view the updates that have been entered in the past 90 days.
 

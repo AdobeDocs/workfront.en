@@ -22,7 +22,7 @@ The following table displays the areas where you can locate and use the [!UICONT
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>Tasks</td> 
+   <td><b>Tasks</b></td> 
   </tr> 
   <tr> 
    <td> <p>Task lists within a</p> 
@@ -38,7 +38,7 @@ The following table displays the areas where you can locate and use the [!UICONT
    <td>Tasks in a [!UICONTROL Timesheet]</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Issues</td> 
+   <td><b>Issues</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Issue lists within a</p> 
