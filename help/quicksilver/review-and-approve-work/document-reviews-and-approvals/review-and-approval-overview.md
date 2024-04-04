@@ -18,23 +18,11 @@ For more information about Frame.io, see [Getting Started with Frame.io](https:/
 
 ## Work initiation and planning in Workfront
 
-The Workfront admin can do work upfront to support the project coordinator in planning and iniating work inside of workfront. 
-
-The admin is resposible for ---- allowing the project coordiator to -----
-
-The project coordinator begins in Workfront. The project is created, tasks are assigned, intructions are sent.
-
-Project coordinator creates WF project, uses synced project folder to send     information and supporting materials to creatives inside Frame.io 
-
-Set up approval workflow from scratch or via templates 
-
-Assign tasks 
-
-Sets project to Current or equal to create frame project and alert creatives 
+The Workfront administrator enables the integration between Workfront and Frame.io by configuring the default Frame.io account in the Setup area and then designating Frame.io users in Workfront. This allows the coordinator to plan and initiate work using Workfront Projects and formal review and approval. 
 
 ### Configure a default Frame.io account
 
-Workfront administrators initate the Workfront and Frame.io integration by adding a default Frame.io account in the Setup area of Workfront. Once a default Frame.io account is set up, this allows the integration to create connected projects between Workfront and Frame.io. 
+Workfront administrators initiate the Workfront and Frame.io integration by adding a default Frame.io account in the Setup area of Workfront. Once a default Frame.io account is set up, the integration creates connected projects between Workfront and Frame.io. 
 
 For more information, see [].
 
@@ -42,9 +30,9 @@ For more information, see [].
 
 ### Enable Frame.io users
 
-Workfront users who regularly use Frame.io should be marked as a Frame.io users. Workfront administrators can designate Frame.io users in the Workfront User Profile. 
+Workfront users who regularly use Frame.io should be marked as Frame.io users. Workfront administrators can designate Frame.io users in the Workfront User Profile. 
 
-When a user is marked as a Frame.io user in Workfront and is added to a project: 
+When a user is marked as a Frame.io user in Workfront and is added to a project,
 
 * They are added as a Collaborator in Frame.io
 * They can send assets from Frame.io to Workfront for formal review and approval
@@ -61,23 +49,23 @@ For more information, see [].
 
 ### Create a project connected with Frame.io
 
-Project coordinators can create Workfront projects connected with Frame.io. When you create an connected project, you can
+Once the default Frame.io account is added and Frame.io users are designated, project coordinators can create Workfront projects connected with Frame.io. When you create a connected project, you can
 
-* **Assign Frame.io users to tasks**: Frame.io enabled users are notified by email when they are assinged to a task signaling to them there is work to complete. 
+* **Assign Frame.io users to tasks**: Frame.io enabled users are notified by email when they are assinged to a task, signaling there is work to complete. 
 * **Share the project with Frame.io users**: Projects shared with Frame.io enabled users grants them access to the project inside of Frame.io.
 * **Share creative materials with Frame.io**: You can send instructions and materials from Workfront directly to the creative user in Frame.io using a one-way sync project folder. 
 * **Track task progress**: Creatives can send finished assets and mark tasks complete without leaving Frame.io.
 
 For more information, see [].
 
-<!--Preassign approval templates to asks coming in the future-->
+<!--Preassign approval templates to tasks coming in the future-->
 
 
 ## Content creation and collaboration in Frame.io
 
 Creatives can stay in their tools of choice and have the freedom to create, iterate, and conduct peer reviews inside of Frame.io. 
 
-When a creative is added to an integrated project, they can do all of the following without leaving Frame.io: 
+When a creative is added to an connected project, they can do all of the following without leaving Frame.io: 
 
 * Access instructions from the project coordinator
 * Conduct informal peer reviews
@@ -86,7 +74,17 @@ When a creative is added to an integrated project, they can do all of the follow
 <!-- * Notification of decision
 * Upload new versions of connected assets marked as needs more work < will automatically connect>-->
 
-## Initiate formal reviews and approvals in Workfront
+
+## Review and approve assets in Frame.io
+
+Once a creative sends a finished asset to Workfront from Frame.io, the project coordinator can kick-off the formal review and approval process in Workfront. All review and approval activity is recorded in Workfront. 
+
+Any comments made in Frame.io are also reflected in the Updates tab in Workfront. Replies made in Workfront are not relfected in Frame.io.
+
+Comments marked Team only will not appear in the Workfront Updates tab.
+
+
+### Initiate formal reviews and approvals in Workfront
 
 Once a creative sends a finished asset to Workfront from Frame.io, the project coordinator can kick-off the formal review and approval process in Workfront. 
 
@@ -113,50 +111,40 @@ Reviewers and approvers can be added to single-use or approval templates:
 
     For more information, see [Create and manage Approval Templates](/)<!--don't forget link-->
 
-## Review and approve assets in Frame.io
+* Upload an asset from Workfront and send it to frame for review and approval - Coming soon?
 
-Once a creative sends a finished asset to Workfront from Frame.io, the project coordinator can kick-off the formal review and approval process in Workfront. All review and approval activity is recorded in Workfront. 
+### Review and approval assets
 
-Any comments made in Frame.io are also reflected in the Updates tab in Workfront. Replies made in Workfront are not relfected in Frame.io.
+Frame.io connected asset stakeholders can review and approve inside the frame viewer with comments syncing to workfront update stream, decisions, ect
 
-Comments marked Team only will not appear in the Workfront Updates tab.
+<!-- include screenshot from frame.io-->
 
 
+you can access the Frame.io veiewer from whereever you work
 
-### Review and approval notifications
+**Review and approve assets from Frame.io**
+how they are notified
 
-Combine with other sections?
+**Review and approve assets from Workfront**
+how they are notified
 
 Home Awaiting my approval widget
 Email - deadline emails 72, 24, and on deadline.
+
+External WF users will be asked to create a login for frame 
+
+If the asset is not frame connected, they can view thumbnail in WF and use comment stream. review and approval decisons can be made.
 
 <!-- upload assets directly to workfront to be reviewed in Frame.io/ Will have to send manually at first
 
 Reviewer/approver needs to go through email to get to frame vier
 -->
 
-### Review and approval assets
-
-you can access the Frame.io veiewer from whereever you work
-
-Review and approve assets from Frame.io
-how they are notified
-
-Review and approve assets from Workfornt
-how they are notified
-
-Frame.io connected asset stakeholders can review and approve inside the frame viewer with comments syncing to workfront update stream, decisions, ect
-
-<!-- include screenshot from frame.io-->
-
-External WF users will be asked to create a login for frame 
-
-If the asset is not frame connected, they can view thumbnail in WF and use comment stream. review and approval decisons can be made.
 
 ### Track review and approval metrics
 
-Widget in home
-Approval velocity report 
+Widgets in home
+Approval velocity report ?
 
 <!--
 ### Published approved assets to Adobe Experience Manager Assets
@@ -164,8 +152,6 @@ Approval velocity report
 Use the native integration to send approved assets to AEM.
 -->
 
-
-* Upload an asset from Workfront and send it to frame for review and approval - Coming soon?
 
 ## Example campaign asset approval workflow
 
