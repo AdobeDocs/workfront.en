@@ -11,7 +11,7 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 
 <!-- Audited: 1/2024 -->
 
-<!--take "legacy" and "new commenting" references out when we remove the legacy - April 2024???-->
+<!--info for April 11: take "legacy" and "new commenting" references out when we remove the legacy-->
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
@@ -209,7 +209,7 @@ You can add updates to the following objects:
 
 1. To reply to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
 
-<!--info for April 11: reword the title of this section to: Add an update to a work item; take out the step that says you need to enable the "New commenting" toggle (I think it is step 3??)-->
+<!--info for April 11: reword the title of this section to: "Add an update to a work item"; take out the step that says you need to enable the "New commenting" toggle (I think it is step 3??)-->
 
 ### Add an update to a work item using the new commenting experience
 
