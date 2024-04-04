@@ -74,7 +74,7 @@ When a creative is added to a connected project, they can do the following witho
 <!-- * Notification of decision
 * Upload new versions of connected assets marked as needs more work < will automatically connect>-->
 
-For more information about reviewing assets in Frame.io, see []().
+For more information about reviewing assets in Frame.io, see 
 
 ## Review and approve assets
 
@@ -115,12 +115,15 @@ Reviewers and approvers can be added to single-use or approval templates:
 
 * Upload an asset from Workfront and send it to frame for review and approval - Coming soon?
 
-### Approve assets
+### Approve assets in Frame.io
 
 Frame.io connected asset stakeholders can review and approve inside the Frame.io viewer with comments syncing to Workfront update stream, decisions, etc.
 
 <!-- include screenshot from frame.io-->
 
+If you work exclusively in Frame, you can be notified of a request via email. 
+
+If you work exclusively in Workfront, you can use the approval widget in home.
 
 you can access the Frame.io viewer from whenever you work
 
@@ -133,6 +136,7 @@ make a decision - approve, approve with changes, needs work
 how they are notified
 
 Home Awaiting my approval widget
+
 Email - deadline emails 72, 24, and on deadline.
 
 External WF users will be asked to create a login for frame 
