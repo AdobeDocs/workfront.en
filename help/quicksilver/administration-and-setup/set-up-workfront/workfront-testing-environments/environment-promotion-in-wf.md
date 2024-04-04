@@ -41,14 +41,14 @@ The Environment Promotion capability is intended to provide the ability to move 
 
 ### Work objects
 
-| Promotable object | Included promotable sub-objects |
+| Promotable object | Included promotable associated objects |
 | --- | --- |
 | Project (PROJ) | Project<br>Task<br>Assignment<br>Predecessor<br>Company<br>Override Rate<br>Group<br>Role<br>Team<br>Approval Process<br>Approval Path<br>Approval Step<br>Step Approver<br>Schedule<br>Non Work Day<br>Queue Definition<br>Queue Topic Group<br>Queue Topic<br>Routing Rule<br>Milestone Path<br>Milestone<br>Hour Type<br>Resource Pool<br>Category<br>Category Parameter<br>Parameter<br>Parameter Group<br>Parameter Option<br>Category Display Logic | 
 | Template (TMPL) | Template<br>Template Task<br>Template Task Assignment<br>Template Task Predecessor<br>Company<br>Override Rate<br>Group<br>Role<br>Team<br>Approval Process<br>Approval Path<br>Approval Step<br>Step Approver<br>Schedule<br>Non Work Day<br>Queue Definition<br>Queue Topic Group<br>Queue Topic<br>Routing Rule<br>Milestone Path<br>Milestone<br>Hour Type<br>Resource Pool<br>Category<br>Category Parameter<br>Parameter<br>Parameter Group<br>Parameter Option<br>Category Display Logic | 
 
 ### Reporting objects
 
-| Promotable object | Included promotable sub-objects |
+| Promotable object | Included promotable associated objects |
 | --- | --- |
 | Layout Template (UITMPL) | Layout Template<br>Dashboard<br>Calendar<br>Calendar Section<br>External Page<br>Report<br>Filter<br>Grouping<br>View<br>Parameter  | 
 | Dashboard (PTLTAB) | Dashboard<br>Calendar<br>Calendar Section<br>External Page<br>Report<br>Filter<br>Grouping<br>View<br>Parameter  | 
@@ -61,7 +61,7 @@ The Environment Promotion capability is intended to provide the ability to move 
 
 ### Custom data objects
 
-| Promotable object | Included promotable sub-objects |
+| Promotable object | Included promotable associated objects |
 | --- | --- |
 | Category (CTGY) | Category<br>Category Parameter<br>Parameter<br>Parameter Group<br>Parameter Option<br>Category Display Logic<br>Group | 
 | Parameter (PARAM) | Parameter<br>Parameter Option | 
@@ -69,7 +69,7 @@ The Environment Promotion capability is intended to provide the ability to move 
 
 ### Organization objects
 
-| Promotable object | Included promotable sub-objects |
+| Promotable object | Included promotable associated objects |
 | --- | --- |
 | Group (GROUP) | Group <br>Sub-groups (up to 5 levels) *<br>Category<br>Category Parameter<br>Parameter<br>Parameter Group<br>Parameter Option<br>Category Display Logic |
 | Role (ROLE) | Role |
@@ -80,7 +80,7 @@ The Environment Promotion capability is intended to provide the ability to move 
 
 ### Other configuration objects
 
-| Promotable object | Included promotable sub-objects |
+| Promotable object | Included promotable associated objects |
 | --- | --- |
 | Approval Process (ARVPRC) | Approval Process<br>Approval Path<br>Approval Step<br>Step Approver<br>Role<br>Team<br>Group |
 | Schedule (SCHED) | Schedule<br>Non Work Day<br>Group |
