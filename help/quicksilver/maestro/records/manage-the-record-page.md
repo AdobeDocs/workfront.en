@@ -4,6 +4,7 @@ description: You can edit manage the layout of the record box and page in Adobe 
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 ---
 <!--update the metadata with real information when making this avilable in TOC and in the left nav-->
 
@@ -176,5 +177,4 @@ The workspace that you access last opens.
     * Click **Reposition**, and use the **Reposition** tool ![](assets/reposition-tool-icon.png) to center the cover image, then click **Save** when done. 
     * Click **Remove** to remove the cover image. 
 
-    All changes take effect immediately. 
-
+    All changes take effect immediately.
