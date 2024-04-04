@@ -54,12 +54,14 @@ Among the improvements included in the new commenting experience are the followi
 The following features have been removed or will be deprecated from the new experience:
 
 * Comment on a system update. Comments added to the system updates in the past have been imported as read-only comments in the new System Activity tab. 
-* Ability to edit status, condition, commit date, and percent complete while commenting on tasks and issues
+* Ability to edit Status, Condition, Commit Date, and Percent Complete while commenting on tasks and issues. 
+
+  As an alternative, we recommend that you add these fields in the Summary panel of tasks and issues, to easily access them from lists, reports, Home, Workfront Balancer, or a timesheet. 
 * Ability to edit the custom form
 * The "on behalf of < user name >" information when a Workfront or group administrator logs in as another user and adds a comment on their behalf was originally removed. It has been reinstated on October 19, 2023.
 * The "Ask for approval" option when you tag people while adding a comment to a document. 
 * The "Show percent complete on update status" setting when editing a user's profile box will be removed. The functionality of updating the percent complete of a task or issue has been removed. 
-* The ability for the Project Owner to change the Planned Completion Date of a task when the Commit Date is changed from the Updates section. <!--ensure this is correct when re remove the legacy and leave only new commenting-->
+
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
 
@@ -454,7 +456,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Ability to edit status, condition, commit date while commenting 
+   <td>Ability to edit Status, Condition, Commit Date while commenting 
    </td>
    <td>✓ 
    </td>
@@ -493,6 +495,21 @@ The following table illustrates the features that will be available in the new c
    <td>
    </td>
    <td> 
+   </td>
+  </tr>
+
+<tr>
+   <td>Ability for the Project Owner to change the Planned Completion Date of a task when the Commit Date is changed from the Updates section
+   </td>
+   <td> ✓
+   </td>
+   <td> Might be released at a later date
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+   <td> ✓
    </td>
   </tr>
 </table>
