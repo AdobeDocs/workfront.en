@@ -18,6 +18,10 @@ For more information about Frame.io, see [Getting Started with Frame.io](https:/
 
 ## Work initiation and planning in Workfront
 
+The Workfront admin can do work upfront to support the project coordinator in planning and iniating work inside of workfront. 
+
+The admin is resposible for ---- allowing the project coordiator to -----
+
 The project coordinator begins in Workfront. The project is created, tasks are assigned, intructions are sent.
 
 Project coordinator creates WF project, uses synced project folder to send     information and supporting materials to creatives inside Frame.io 
