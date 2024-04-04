@@ -133,6 +133,14 @@ Reviewer/approver needs to go through email to get to frame vier
 
 ### Review and approval assets
 
+you can access the Frame.io veiewer from whereever you work
+
+Review and approve assets from Frame.io
+how they are notified
+
+Review and approve assets from Workfornt
+how they are notified
+
 Frame.io connected asset stakeholders can review and approve inside the frame viewer with comments syncing to workfront update stream, decisions, ect
 
 <!-- include screenshot from frame.io-->
