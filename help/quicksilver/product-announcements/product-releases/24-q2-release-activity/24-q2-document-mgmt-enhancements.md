@@ -20,7 +20,7 @@ For a list of all changes available at this point in the Second Quarter 2024 rel
 
 >[!NOTE]
 >
->Preview release: March 28, 2024; Production for all customers: With the 24.4 release (April 2024)
+>Preview release: March 28, 2024; Production for all customers: With the 24.4 release (April 11, 2024)
 
 You can now specify a deadline for users or teams assigned to review or approve a document. Reviewers and approvers receive email notifications 72 hours and then 24 hours before the specified deadline. The deadline is also reflected in the Approvals widget in the new Home area.
 
@@ -30,7 +30,7 @@ For more information, see [Create a document review or approval request](/help/q
 
 >[!NOTE]
 >
->Preview release: March 28, 2024; Production for all customers: With the 24.4 release (April 2024)
+>Preview release: March 28, 2024; Production for all customers: With the 24.4 release (April 11, 2024)
 
 You can now create Approval Templates in the Setup area to streamline the review and approval process. Approval Templates allow you make the review and approval process more repeatable by 
 
@@ -45,7 +45,7 @@ For more information, see [Create an Approval Template](/help/quicksilver/review
 
 >[!NOTE]
 >
->Preview release: March 28, 2024; Production for all customers: With the 24.4 release (April 2024)
+>Preview release: March 28, 2024; Production for all customers: With the 24.4 release (April 11, 2024)
 
 To help you manage and analyze your approval requests at a glance, we've added the following key performance indicators to the All Approvals widget:
 
