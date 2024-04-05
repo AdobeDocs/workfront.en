@@ -130,6 +130,7 @@ If you see the map button above a field or function, you can use it to set varia
 * [Boards](#boards)
 * [Columns](#columns)
 * [Tags](#tags)
+* [Comments](#comments)
 * [Other](#other)
 
 <!--
@@ -476,6 +477,9 @@ This action module creates a new tag and assigns it a color.
 </table>
 
 ### Comments
+
+* [Create a comment](#create-a-comment)
+* [Read card comments](#read-card-comments)
 
 #### Create a comment
 
