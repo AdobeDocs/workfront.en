@@ -6,8 +6,8 @@ description: Locate your domain for use in the Adobe Workfront API
 author: Becky
 feature: Workfront API
 role: Developer
+exl-id: 8f5b78c9-b84f-4f56-b7cc-ba686fac2da1
 ---
-
 # Domain format for Adobe Workfront API calls
 
 When you make an API call to the Workfront API, you use your organization's domain in the call. The format for this domain URL differs based on whether your organization has been onboarded to the Adobe Unified Shell.
@@ -27,4 +27,3 @@ To locate your domain:
    Your domain is listed on the right of the screen.
 
    ![Domain](assets/domain.png)
-   
