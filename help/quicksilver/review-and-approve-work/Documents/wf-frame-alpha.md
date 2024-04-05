@@ -14,9 +14,21 @@ exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
 
 We are excited to announce the launch of our Alpha program for Workfront + Frame.io. Here you will find information about the latest Alpha release along with a brief video walkthrough to get you started.
 
-## Latest release
+## Alpha Release updates in Frame.io - Mar. 2024
 
-## Alpha Release - Mar. 2024
+In this Alpha release we have:
+
+### Add multiple assets from Frame.io to Workfront
+
+You can now add up to 10 assets from Frame.io to Workfront at once. You can choose to add to Workfront Project Documents or to a specific project task.
+
+### Improved experience when adding a Frame.io asset to Workfront
+
+The menu items for adding an asset to Workfront have been updated making it easier to see tasks assigned to you, task hierarchy and task status.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428213/)
+
+## Alpha Release updates in Workfront - Mar. 2024
 
 In this Alpha release we have:
 
