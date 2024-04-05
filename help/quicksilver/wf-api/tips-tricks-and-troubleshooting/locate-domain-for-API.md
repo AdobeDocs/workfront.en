@@ -6,7 +6,6 @@ description: Locate your domain for use in the Adobe Workfront API
 author: Becky
 feature: Workfront API
 role: Developer
-exl-id: f001adb8-6295-4646-b9f1-78244a8c44a6
 ---
 
 # Domain format for Adobe Workfront API calls
