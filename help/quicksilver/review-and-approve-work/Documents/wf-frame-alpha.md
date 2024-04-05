@@ -70,7 +70,7 @@ Once locked, any person either reviewing and/or approving will no longer be able
 
 When a new document version is uploaded, the next round of revision can be kicked off while keeping previous revisions locked.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428023/)
+>[!VIDEO](https://video.tv.adobe.com/v/3428179/)
 
 
 ## Send Feedback
