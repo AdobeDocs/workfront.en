@@ -260,6 +260,44 @@ In lieu of a release webinar, we invite you to [register for Adobe Summit](https
             </tbody>
 </table>
 
+### Home enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md" class="MCXref xref" xrefformat="{para}">Column options added to Administrator controls for new Home using layout templates</a></p><p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        <p>Administrators can now customize which columns are available for users in specific new Home widgets using layout templates. Options include hiding or displaying default columns and adding existing fields as new columns.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: January 2, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 24.2 release (February 15, 2024)</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 24.4 release (April 11, 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
 ### Project enhancements
 
 <table>
