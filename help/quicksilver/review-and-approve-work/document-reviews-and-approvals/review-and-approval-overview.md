@@ -18,11 +18,12 @@ For more information about Frame.io, see [Getting Started with Frame.io](https:/
 
 ## Work initiation and planning in Workfront
 
-The Workfront administrator enables the integration between Workfront and Frame.io by configuring the default Frame.io account in the Setup area and then designating Frame.io users in Workfront. This allows the coordinator to plan and initiate work using Workfront Projects and formal review and approval. 
+The Workfront administrator enables the integration between Workfront and Frame.io by configuring the default Frame.io account in the Setup area and then designating Frame.io users in Workfront. This allows the coordinator to plan and initiate work using Workfront Projects and formal review and approval workflows. 
 
 ### Configure a default Frame.io account
 
-Workfront administrators initiate the Workfront and Frame.io integration by adding a default Frame.io account in the Setup area of Workfront. Once a default Frame.io account is set up, the integration creates connected projects between Workfront and Frame.io. 
+Workfront administrators initiate the Workfront and Frame.io integration by adding a default Frame.io account in the Setup area of Workfront. Once a default Frame.io account is set up, 
+any projects created in Workfront have a mirror project created in Frame.io.
 
 For more information, see [].
 
@@ -36,11 +37,11 @@ When a user is marked as a Frame.io user in Workfront and is added to a project,
 
 * They are added as a Collaborator in Frame.io
 * They can send assets from Frame.io to Workfront for formal review and approval
+* They can view information in the one-way sync folder from Workfront
 
 >[!TIP]
 >
 >We recommend enabling users who regularly work in creative tools and upload assets for review and approval as Frame.io users.
-
 
 For more information, see [].
 
@@ -65,7 +66,7 @@ For more information, see [].
 
 Creatives can stay in their tools of choice and have the freedom to create, iterate, and conduct peer reviews inside Frame.io. 
 
-When a creative is added to a connected project, they can do the following without leaving Frame.io: 
+When a creative is added to a connected project, they can do the following without leaving Frame.io:
 
 * Access instructions from the project coordinator
 * Conduct informal peer reviews
@@ -90,8 +91,6 @@ Project coordinators have the option to assign reviewers, approvers, or a mix of
 
 * **Reviewers** can comment on and markup assets. Once finished, they can mark their review as complete. <!--example of when to add reviewers-->
 * **Approvers** can comment on markup assets. They must make a decision to move the approval process forward. 
-
-
 
 Any comments made in Frame.io are reflected in the Updates tab in Workfront. Replies made in Workfront are not reflected in Frame.io.
 
