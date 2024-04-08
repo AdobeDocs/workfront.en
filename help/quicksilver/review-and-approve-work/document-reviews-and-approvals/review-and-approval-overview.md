@@ -81,7 +81,7 @@ For more information about reviewing assets in Frame.io, see
 
 Once a creative sends a finished asset to Workfront from Frame.io, the project coordinator can initiate the formal review and approval process in Workfront. 
 
-After the approval is created, users go back to Frame.io to comment on and markup the asset. They can also make a the approval decision in the Frame.io viewer.
+After the approval is created, users go back to Frame.io to comment on and mark up the asset. They can also make a the approval decision in the Frame.io viewer.
 
 ### Initiate formal reviews and approvals in Workfront
 
@@ -91,8 +91,8 @@ Project coordinators can create one-time review and approvals or resuable Approv
 
 Project coordinators have the option to assign reviewers, approvers, or a mix of both:
 
-* **Reviewers** can comment on and markup assets. Once finished, they can mark their review as complete. <!--example of when to add reviewers-->
-* **Approvers** can comment on markup assets. They must make a decision to move the approval process forward. 
+* **Reviewers** can comment on and mark up assets. Once finished, they can mark their review as complete. <!--example of when to add reviewers-->
+* **Approvers** can comment on and mark up assets. They must make a decision to move the approval process forward. 
 
 
 #### Create an review and approval workflow
@@ -129,7 +129,7 @@ Users can access the Frame.io viewer in the following ways:
 
 External Workfornt users will be asked to create a Frame.io login to review and approve assets. 
 
-#### Comment on and markup assets
+#### Comment on and mark up assets
 
 All comments made in the Frame.io viewer are also recorded in the Workfront Update tab. Replies made in Workfront do not appear in Frame.io. Comments marked Team only will not appear in the Workfront Updates tab.
 
