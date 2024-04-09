@@ -11,7 +11,7 @@ feature: Workfront Fusion
 
 The role of [!DNL Adobe Workfront Fusion] is to automate your processes so that you can concentrate on new tasks rather than repeating the same tasks again and again. It works by linking actions within and between apps and services to create a scenario that transfers and transforms your data automatically. The scenario you create watches for data in an app or service and processes that data to provide the result you want.
 
-This example takes you through the process of creating a scenario that searches for an [!DNL Workfront] issue in Workfront and the converts it to a project.
+This example takes you through the process of creating a scenario that searches for an issue in Workfront and the converts it to a project.
 
 <!--# Access requirements
 
