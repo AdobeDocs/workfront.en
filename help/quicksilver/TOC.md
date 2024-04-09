@@ -2636,6 +2636,7 @@ feature-set: Workfront
     * [Configure and use your organization's custom OAuth 2 applications using JWT flow](wf-api/api/oauth-app-jwt-flow.md)
     * [Configure and use your organization's custom OAuth 2 applications using PKCE flow](wf-api/api/oauth-app-pkce-flow.md)    
     * [Deprecation of API-Internal](wf-api/api/deprecation-api-internal.md)
+    * [What's new in API version 18](wf-api/api/new-api-version-18.md)
     * [What's new in API version 17](wf-api/api/new-api-version-17.md)
     * [What's new in API version 16](wf-api/api/new-api-version-16.md)
     * [What's new in API version 15](wf-api/api/new-api-version-15.md)
