@@ -27,3 +27,4 @@ To locate your domain:
    Your domain is listed on the right of the screen.
 
    ![Domain](assets/domain.png)
+
