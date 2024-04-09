@@ -31,7 +31,7 @@ Any use of the API should be tested in the Workfront beta environment prior to b
 
 ## Workfront API URL
 
-For information about the URL that you will use to call the Workfront API, see [Domain format for Adobe Workfront API calls](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-API.md).
+For information about the URL that you will use to call the Workfront API, see [Domain format for Adobe Workfront API calls](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md).
 
 ## REST Basics
 
