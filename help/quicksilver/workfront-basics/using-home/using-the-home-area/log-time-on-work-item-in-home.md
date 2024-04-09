@@ -9,4 +9,4 @@ exl-id: e68f4200-dbcb-4a2f-a2f7-45fb968684cc
 ---
 # Log time on a work item from the [!UICONTROL Home] area
 
-You can log time on any work item in the [!UICONTROL Work List] in the [!UICONTROL Home] area. For information, see the [[!UICONTROL Home]](../../../timesheets/create-and-manage-timesheets/log-time.md#home) section in the article  [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).
+You can log time on any work item in the [!UICONTROL Work List] in the [!UICONTROL Home] area. For information, see  [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).

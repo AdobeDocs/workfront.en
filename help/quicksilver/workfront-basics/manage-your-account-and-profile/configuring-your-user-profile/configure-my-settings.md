@@ -11,6 +11,8 @@ exl-id: 0199bf74-0611-48f0-9c05-da6afac85033
 
 <!-- Audited: 01/2024 -->
 
+{{highlighted-preview}}
+
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Edit the job role FTE percentage allocation blurbs when more functionality is released: now, it says that the % is that of the user's schedule, but it will be either the user's schedule or the system schedule.</p>
 -->
@@ -338,7 +340,7 @@ You can change any of the following in this sub-section:
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Show percent complete on update status]</strong> </td> 
    <td>Select this option if you want to display a percent complete bar inside the Updates area of your tasks, when using the legacy commenting experience. For information, see <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">New commenting experience</a>.
-  
+  <p><span class="preview">This option has been removed from the Preview environment.</span></p> 
    </td> 
   </tr> 
   <tr> 

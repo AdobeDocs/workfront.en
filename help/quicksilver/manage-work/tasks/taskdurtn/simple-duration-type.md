@@ -24,7 +24,13 @@ The following things occur when a task has a Duration Type of Simple:
 
   >[!IMPORTANT]
   >
-  >When you first create a task and assign the Simple Duration&nbsp;Type to it and do not specify a Duration, Workfront calculates the Duration of the task based on the amount of Planned Hours you specify for the task. If you manually modify the Duration of a Simple Duration task, Workfront stops matching the Planned Hours to the Duration because it assumes you want to define them manually yourself.
+  >When you first create a task and assign the Simple Duration Type to it and do not specify a Duration, Workfront calculates the Duration of the task based on the amount of Planned Hours you specify for the task. If you manually modify the Duration of a Simple Duration task, Workfront stops matching the Planned Hours to the Duration because it assumes you want to define them manually yourself.
+  >
+  >Workfront calculates the duration of tasks whose duration has not been manually modified using the following formula:
+  >
+  > `Task Duration = Task Planned Hours / Typical hours per work day`
+  >
+  >Your Workfront administrator defines the `Typical hours per work day` in the Project Preferences area of your instance's Setup. 
 
 * Allocation percent is hidden and allocation hours are available to be edited, instead.
 * All new customers have the system-level Duration Type set to Simple.
