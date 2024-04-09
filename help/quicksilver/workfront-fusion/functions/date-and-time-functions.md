@@ -11,7 +11,7 @@ exl-id: 76c63afc-4bb6-4895-9bba-6b3913ecbcf6
 ---
 # Date and time functions in [!DNL Adobe Workfront Fusion]
 
-## Access requirements 
+### Access requirements 
 
  
 
@@ -54,8 +54,113 @@ For more detail about the information in this table, see [Access requirements in
 
 For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md). 
  
+## Variables
 
-## [!UICONTROL formatDate (date; format; [timezone])]
+### now
+
+### timestamp
+
+## Functions
+
+### [!UICONTROL addSeconds (date; number)]
+
+Returns a new date as a result of adding a given number of seconds to a date. To subtract seconds, enter a negative number.
+
+>[!INFO]
+>
+>**Examples:**
+>
+>* `addSeconds(2016-12-08T15:55:57.536Z;2)`
+>
+>   Returns 2016-12-08T15:55:59.536Z
+>
+>* `addSeconds(2016-12-08T15:55:57.536Z;-2)`
+>
+>   Returns 2016-12-08T15:55:55.536Z
+
+### [!UICONTROL addMinutes (date; number)] {#addminutes-date-number}
+
+Returns a new date as a result of adding a given number of minutes to a date. To subtract minutes, enter a negative number.
+
+>[!INFO]
+>
+>**Examples:**
+>
+>* `addMinutes(2016-12-08T15:55:57.536Z;2)`
+>
+>    Returns 2016-12-08T15:57:57.536Z
+>
+>* `addMinutes(2016-12-08T15:55:57.536Z;-2)`
+>
+>    Returns 2016-12-08T15:53:57.536Z
+
+### [!UICONTROL addHours (date; number)] {#addhours-date-number}
+
+Returns a new date as a result of adding a given number of hours to a date. To subtract hours, enter a negative number.
+
+>[!INFO]
+>
+>**Examples:**
+>
+>* `addHours(2016-12-08T15:55:57.536Z; 2)`
+>
+>    Returns 2016-12-08T17:55:57.536Z
+>
+>* `addHours(2016-12-08T15:55:57.536Z;-2)`
+>
+>    Returns 2016-12-08T13:55:57.536Z
+
+### [!UICONTROL addDays (date; number)] {#adddays-date-number}
+
+Returns a new date as a result of adding a given number of days to a date. To subtract days, enter a negative number.
+
+>[!INFO]
+>
+>**Examples:**
+>
+>* `addDays(2016-12-08T15:55:57.536Z;2)`
+>
+>    Returns 2016-12-10T15:55:57.536Z
+>
+>* `addDays(2016-12-08T15:55:57.536Z;-2)`
+>
+>    Returns 2016-12-6T15:55:57.536Z
+
+### [!UICONTROL addMonths (date; number)] 
+
+Returns a new date as a result of adding a given number of months to a date. To subtract months, enter a negative number.
+
+>[!INFO]
+>
+>**Examples:**
+>
+>* `addMonths(2016-08-08T15:55:57.536Z;2)`
+>
+>    Returns 2016-10-08T15:55:57.536Z
+>
+>* `addMonths(2016-08-08T15:55:57.536Z;-2)`
+>
+>    Returns 2016-06-08T15:55:57.536Z
+
+### [!UICONTROL addYears (date; number)]
+
+Returns a new date as a result of adding a given number of years to a date. To subtract years, enter a negative number.
+
+>[!INFO]
+>
+>**Examples:**
+>
+>* `addYears(2016-08-08T15:55:57.536Z;2)`
+>
+>    Returns 2018-08-08T15:55:57.536Z
+>
+>* `addYears(2016-12-08T15:55:57.536Z; -2)`
+>
+>    Returns 2014-08-08T15:55:57.536Z
+
+<!-- Becky start here-->
+
+### [!UICONTROL formatDate (date; format; [timezone])]
 
 Use this function when you have a Date value, such as `12-10-2021 20:30`, that you want to format as a Text value, such as `Dec 10, 2021 8:30 PM`.
 
@@ -63,7 +168,7 @@ This is useful, for example, when you need to change the date format of one app 
 
 For more information, see [Date](../../workfront-fusion/mapping/item-data-types.md#date) and [Text](../../workfront-fusion/mapping/item-data-types.md#text) in the article [Item data types in Adobe Workfront Fusion](../../workfront-fusion/mapping/item-data-types.md).
 
-### Parameters
+#### Parameters
 
 <table style="table-layout:auto"> 
  <col> 
@@ -97,7 +202,7 @@ For more information, see [Date](../../workfront-fusion/mapping/item-data-types.
 
  If different type is provided, type coercion is applied. For more information, see [Type coercion in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
 
-### Return value and type
+#### Return value and type
 
 The `formatDate` function returns a text representation of the given Date value according to the specified format and timezone. The data type is Text.
 
@@ -123,11 +228,11 @@ The `formatDate` function returns a text representation of the given Date value 
 >
 >    Returns 19.03.2019 15:30
 
-## [!UICONTROL parseDate (text; format; [timezone])]
+### [!UICONTROL parseDate (text; format; [timezone])]
 
 Use this function when you have a Text value representing a date (such as `12-10-2019 20:30` or `Aug 18, 2019 10:00 AM`) and you want to convert (parse) it to a Date value (a binary machine readable representation). For more information, see [Date](../../workfront-fusion/mapping/item-data-types.md#date) and [Text](../../workfront-fusion/mapping/item-data-types.md#text) in the article [Item data types in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
 
-### Parameters
+#### Parameters
 
 The second column indicates the expected type. If different type is provided, type coercion is applied. For more information, see [Type coercion in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
 
@@ -163,7 +268,7 @@ The second column indicates the expected type. If different type is provided, ty
 
  If different type is provided, type coercion is applied. For more information, see [Type coercion in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
 
-### Return value and type
+#### Return value and type
 
 This function converts a text string to a date, according to the format and timezone that you specify. The data type of the value is Date.
 
@@ -187,55 +292,7 @@ This function converts a text string to a date, according to the format and time
 >
 >   Returns 2016-12-28T16:03:06.000Z
 
-## [!UICONTROL addDays (date; number)] {#adddays-date-number}
-
-Returns a new date as a result of adding a given number of days to a date. To subtract days, enter a negative number.
-
->[!INFO]
->
->**Examples:**
->
->* `addDays(2016-12-08T15:55:57.536Z;2)`
->
->    Returns 2016-12-10T15:55:57.536Z
->
->* `addDays(2016-12-08T15:55:57.536Z;-2)`
->
->    Returns 2016-12-6T15:55:57.536Z
-
-## [!UICONTROL addHours (date; number)] {#addhours-date-number}
-
-Returns a new date as a result of adding a given number of hours to a date. To subtract hours, enter a negative number.
-
->[!INFO]
->
->**Examples:**
->
->* `addHours(2016-12-08T15:55:57.536Z; 2)`
->
->    Returns 2016-12-08T17:55:57.536Z
->
->* `addHours(2016-12-08T15:55:57.536Z;-2)`
->
->    Returns 2016-12-08T13:55:57.536Z
-
-## [!UICONTROL addMinutes (date; number)] {#addminutes-date-number}
-
-Returns a new date as a result of adding a given number of minutes to a date. To subtract minutes, enter a negative number.
-
->[!INFO]
->
->**Examples:**
->
->* `addMinutes(2016-12-08T15:55:57.536Z;2)`
->
->    Returns 2016-12-08T15:57:57.536Z
->
->* `addMinutes(2016-12-08T15:55:57.536Z;-2)`
->
->    Returns 2016-12-08T15:53:57.536Z
-
-## [!UICONTROL addMonths (date; number)] {#addseconds-date-number}
+### [!UICONTROL addMonths (date; number)] 
 
 Returns a new date as a result of adding a given number of months to a date. To subtract months, enter a negative number.
 
@@ -251,23 +308,7 @@ Returns a new date as a result of adding a given number of months to a date. To 
 >
 >    Returns 2016-06-08T15:55:57.536Z
 
-## [!UICONTROL addSeconds (date; number)]
-
-Returns a new date as a result of adding a given number of seconds to a date. To subtract seconds, enter a negative number.
-
->[!INFO]
->
->**Examples:**
->
->* `addSeconds(2016-12-08T15:55:57.536Z;2)`
->
->   Returns 2016-12-08T15:55:59.536Z
->
->* `addSeconds(2016-12-08T15:55:57.536Z;-2)`
->
->   Returns 2016-12-08T15:55:55.536Z
-
-## [!UICONTROL addYears (date; number)]
+### [!UICONTROL addYears (date; number)]
 
 Returns a new date as a result of adding a given number of years to a date. To subtract years, enter a negative number.
 
@@ -283,7 +324,7 @@ Returns a new date as a result of adding a given number of years to a date. To s
 >
 >    Returns 2014-08-08T15:55:57.536Z
 
-## [!UICONTROL setSecond (date; number)]
+### [!UICONTROL setSecond (date; number)]
 
 This function returns a new date with the seconds specified in parameters.
 
@@ -303,7 +344,7 @@ If you need to specify a number outside the range, we recommend that you use[!UI
 >
 >    Returns 2015-10-07T11:37:01.138Z
 
-## [!UICONTROL setMinute (date; number)]
+### [!UICONTROL setMinute (date; number)]
 
 This function returns a new date with the minutes specified in parameters.
 
@@ -323,7 +364,7 @@ If you need to specify a number outside the range, we recommend that you use add
 >
 >    Returns 2015-10-07T12:01:39.138Z
 
-## [!UICONTROL setHour (date; number)]
+### [!UICONTROL setHour (date; number)]
 
 This function returns a new date with the hour specified in parameters.
 
@@ -343,7 +384,7 @@ If you need to specify a number outside the range, we recommend that you use add
 >
 >    Returns 2015-08-06T18:36:39.138Z
 
-## [!UICONTROL setDay (date; number/name of the day in English)]
+### [!UICONTROL setDay (date; number/name of the day in English)]
 
 This function returns a new date with the day specified in parameters.
 
@@ -367,7 +408,7 @@ If you need to specify a number outside the range, we recommend that you use add
 >
 >   Returns 2018-06-30T11:36:39.138Z
 
-## [!UICONTROL setDate (date; number)]
+### [!UICONTROL setDate (date; number)]
 
 This function returns a new date with the day of the month specified in parameters.
 
@@ -385,7 +426,7 @@ Specify a number from 1 to 31. If the number is outside of this range, the funct
 >
 >   Returns 2015-09-01T11:36:39.138Z
 
-## [!UICONTROL setMonth (date; number/name of the month in English)]
+### [!UICONTROL setMonth (date; number/name of the month in English)]
 
 This function returns a new date with the month specified in parameters.
 
@@ -407,7 +448,7 @@ Specify a number from 1 to 12. If the number is outside of this range, the funct
 >
 >   Returns 2015-01-07T12:36:39.138Z
 
-## [!UICONTROL setYear (date; number)]
+### [!UICONTROL setYear (date; number)]
 
 Returns a new date with the year specified in parameters.
 
@@ -419,7 +460,7 @@ Returns a new date with the year specified in parameters.
 >
 >   Returns 2017-08-07T11:36:39.138Z
 
-## [!UICONTROL dateDifference (Date1; Date2; Unit)]
+### [!UICONTROL dateDifference (Date1; Date2; Unit)]
 
 Returns a number representing the difference in the two dates, expressed in the specified unit.
 
@@ -453,9 +494,9 @@ If no unit is specified, the function returns the difference in milliseconds.
 >
 >    Returns `1`
 
-## Additional examples
+### Additional examples
 
-### How to calculate n-th day of week in month
+#### How to calculate n-th day of week in month
 
 This section is adapted for [!DNL Workfront Fusion] from the [!DNL Exceljet] web page that explains how to get the nth day of week in a month.
 
@@ -510,12 +551,12 @@ In case you want to calculate only one specific case, for example, every second 
 
 ![](assets/nth-day-variable-value-350x33.png)
 
-### Explanation:
+#### Explanation:
 
 * `setDate(now;1)` returns first of current month 
 * `formatDate(....;E)` returns day of week (1, 2, ... 6)
 
-## How to calculate days between dates
+### How to calculate days between dates
 
 One possibility is to employ the following expression:
 
@@ -531,7 +572,7 @@ One possibility is to employ the following expression:
 >
 >* The `round()` function is used for cases when one of the dates falls within the daylight savings time period and the other does not. In these cases, the difference in hours is one hour less or more. You can divide it by 24 for a non-integer result. You lose an hour-Daylight Savings. Round flattens it so you don't have a percentage
 
-### How to calculate last day/millisecond of month
+#### How to calculate last day/millisecond of month
 
 When you specify a date range, for example in a search module, if the range spans the whole previous month as a closed interval (the interval that includes both its limit points), you need to calculate the last day of the month.
 
