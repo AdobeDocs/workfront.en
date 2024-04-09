@@ -158,172 +158,6 @@ Returns a new date as a result of adding a given number of years to a date. To s
 >
 >    Returns 2014-08-08T15:55:57.536Z
 
-<!-- Becky start here-->
-
-### [!UICONTROL formatDate (date; format; [timezone])]
-
-Use this function when you have a Date value, such as `12-10-2021 20:30`, that you want to format as a Text value, such as `Dec 10, 2021 8:30 PM`.
-
-This is useful, for example, when you need to change the date format of one app or webservice to that of a connected app or web service in the same scenario.
-
-For more information, see [Date](../../workfront-fusion/mapping/item-data-types.md#date) and [Text](../../workfront-fusion/mapping/item-data-types.md#text) in the article [Item data types in Adobe Workfront Fusion](../../workfront-fusion/mapping/item-data-types.md).
-
-#### Parameters
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th>Parameter</th> 
-   <th>Expected data type* </th> 
-   <th>What it does</th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td>[!UICONTROL date] </td> 
-   <td>Date </td> 
-   <td> <p>Converts a Date value to a Text value. </p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL format] </td> 
-   <td>Text </td> 
-   <td> <p>Lets you specify a format using date/time formatting tokens. For more information, see <a href="../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md" class="MCXref xref">Tokens for date and time formatting in [!DNL Adobe Workfront Fusion]</a>.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>DD.MM.YYYY HH:mm</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL timezone] </td> 
-   <td>Text </td> 
-   <td> <p>(Optional) Lets you specify the timezone used for the conversion. </p> <p>For the list of recognized timezones, see the "TZ database name" column in the Wikipedia <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">List of tz database time zones</a>. Only the values listed in this column are recognized by the function as a valid timezone. Any other value is ignored and the Scenarios timezone specified in your Profile is used instead. For more information, see in the article <a href="../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md" class="MCXref xref">Change profile settings in [!DNL Adobe Workfront Fusion]</a>.</p> <p>If you omit this parameter, the Scenarios timezone specified in your Profile settings is applied. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>Europe/Prague</code>, <code>UTC</code></p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
- If different type is provided, type coercion is applied. For more information, see [Type coercion in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
-
-#### Return value and type
-
-The `formatDate` function returns a text representation of the given Date value according to the specified format and timezone. The data type is Text.
-
->[!INFO]
->
->**Examples:** The Scenario and Web timezone were both set to `Europe/Prague` in these examples.
->
->![](assets/date&time-functions-examples-350x61.png)
->
->* `formatDate(1. Date created;MM/DD/YYYY)`
->
->    Returns 10/01/2018
->
->* `formatDate(1. Date created; YYYY-MM-DD hh:mm A)`
->
->   Returns 2018-10-01 09:32 AM
->
->* `formatDate(1. Date created;DD.MM.YYYY HH:mm;UTC)`
->
->    Returns 01.10.2018 07:32
->
->* `formatDate(now;DD.MM.YYYY HH:mm)`
->
->    Returns 19.03.2019 15:30
-
-### [!UICONTROL parseDate (text; format; [timezone])]
-
-Use this function when you have a Text value representing a date (such as `12-10-2019 20:30` or `Aug 18, 2019 10:00 AM`) and you want to convert (parse) it to a Date value (a binary machine readable representation). For more information, see [Date](../../workfront-fusion/mapping/item-data-types.md#date) and [Text](../../workfront-fusion/mapping/item-data-types.md#text) in the article [Item data types in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
-
-#### Parameters
-
-The second column indicates the expected type. If different type is provided, type coercion is applied. For more information, see [Type coercion in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <col> 
- <thead> 
-  <tr> 
-   <th>Parameter</th> 
-   <th>Expected data type* </th> 
-   <th>What it does</th> 
-  </tr> 
- </thead> 
- <tbody> 
-  <tr> 
-   <td>[!UICONTROL text] </td> 
-   <td>Text </td> 
-   <td> <p>Converts a Date value to a Text value. </p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL format] </td> 
-   <td>Text </td> 
-   <td> <p>Lets you specify a format using date/time formatting tokens. For more information, see <a href="../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md" class="MCXref xref">Tokens for date and time formatting in Adobe Workfront Fusion</a>.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>DD.MM.YYYY HH:mm</code> </p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL timezone] </td> 
-   <td>Text </td> 
-   <td> <p>(Optional) Lets you specify the timezone used for the conversion. </p> <p>For the list of recognized timezones, see the "TZ database name" column in the Wikipedia <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">List of tz database time zones</a>. Only the values listed in this column are recognized by the function as a valid timezone. Any other value is ignored and the Scenarios timezone specified in your Profile is used instead. For more information, see in the article <a href="../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md" class="MCXref xref">Change profile settings in Adobe Workfront Fusion</a>.</p> <p>If you omit this parameter, the Scenarios timezone specified in your Profile settings is applied.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>Europe/Prague</code>, <code>UTC</code></p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
- If different type is provided, type coercion is applied. For more information, see [Type coercion in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
-
-#### Return value and type
-
-This function converts a text string to a date, according to the format and timezone that you specify. The data type of the value is Date.
-
->[!INFO]
->
->**Examples:** In the following examples, the returned Date value is expressed according to ISO 8601, but the data type of the result is Date.
->
->* `parseDate(2016-12-28;YYYY-MM-DD)`
->
->    Returns 2016-12-28T00:00:00.000Z
->
->* `parseDate(2016-12-28 16:03;YYYY-MM-DD HH:mm)`
->
->    Returns 2016-12-28T16:03:00.000Z
->
->* `parseDate(2016-12-28 04:03 pm; YYYY-MM-DD hh:mm a)`
->
->    Returns 2016-12-28T16:03:06.000Z
->
->* `parseDate(1482940986;X)`
->
->   Returns 2016-12-28T16:03:06.000Z
-
-### [!UICONTROL addMonths (date; number)] 
-
-Returns a new date as a result of adding a given number of months to a date. To subtract months, enter a negative number.
-
->[!INFO]
->
->**Examples:**
->
->* `addMonths(2016-08-08T15:55:57.536Z;2)`
->
->    Returns 2016-10-08T15:55:57.536Z
->
->* `addMonths(2016-08-08T15:55:57.536Z;-2)`
->
->    Returns 2016-06-08T15:55:57.536Z
-
-### [!UICONTROL addYears (date; number)]
-
-Returns a new date as a result of adding a given number of years to a date. To subtract years, enter a negative number.
-
->[!INFO]
->
->**Examples:**
->
->* `addYears(2016-08-08T15:55:57.536Z;2)`
->
->    Returns 2018-08-08T15:55:57.536Z
->
->* `addYears(2016-12-08T15:55:57.536Z; -2)`
->
->    Returns 2014-08-08T15:55:57.536Z
-
 ### [!UICONTROL setSecond (date; number)]
 
 This function returns a new date with the seconds specified in parameters.
@@ -459,6 +293,138 @@ Returns a new date with the year specified in parameters.
 >* `setYear(2015-08-07T11:36:39.138Z;2017)`
 >
 >   Returns 2017-08-07T11:36:39.138Z
+
+### [!UICONTROL formatDate (date; format; [timezone])]
+
+Use this function when you have a Date value, such as `12-10-2021 20:30`, that you want to format as a Text value, such as `Dec 10, 2021 8:30 PM`.
+
+This is useful, for example, when you need to change the date format of one app or webservice to that of a connected app or web service in the same scenario.
+
+For more information, see [Date](../../workfront-fusion/mapping/item-data-types.md#date) and [Text](../../workfront-fusion/mapping/item-data-types.md#text) in the article [Item data types in Adobe Workfront Fusion](../../workfront-fusion/mapping/item-data-types.md).
+
+#### Parameters
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>Parameter</th> 
+   <th>Expected data type* </th> 
+   <th>What it does</th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL date] </td> 
+   <td>Date </td> 
+   <td> <p>Converts a Date value to a Text value. </p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL format] </td> 
+   <td>Text </td> 
+   <td> <p>Lets you specify a format using date/time formatting tokens. For more information, see <a href="../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md" class="MCXref xref">Tokens for date and time formatting in [!DNL Adobe Workfront Fusion]</a>.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>DD.MM.YYYY HH:mm</code> </p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL timezone] </td> 
+   <td>Text </td> 
+   <td> <p>(Optional) Lets you specify the timezone used for the conversion. </p> <p>For the list of recognized timezones, see the "TZ database name" column in the Wikipedia <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">List of tz database time zones</a>. Only the values listed in this column are recognized by the function as a valid timezone. Any other value is ignored and the Scenarios timezone specified in your Profile is used instead. For more information, see in the article <a href="../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md" class="MCXref xref">Change profile settings in [!DNL Adobe Workfront Fusion]</a>.</p> <p>If you omit this parameter, the Scenarios timezone specified in your Profile settings is applied. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>Europe/Prague</code>, <code>UTC</code></p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+ If different type is provided, type coercion is applied. For more information, see [Type coercion in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
+
+#### Return value and type
+
+The `formatDate` function returns a text representation of the given Date value according to the specified format and timezone. The data type is Text.
+
+>[!INFO]
+>
+>**Examples:** The Scenario and Web timezone were both set to `Europe/Prague` in these examples.
+>
+>![](assets/date&time-functions-examples-350x61.png)
+>
+>* `formatDate(1. Date created;MM/DD/YYYY)`
+>
+>    Returns 10/01/2018
+>
+>* `formatDate(1. Date created; YYYY-MM-DD hh:mm A)`
+>
+>   Returns 2018-10-01 09:32 AM
+>
+>* `formatDate(1. Date created;DD.MM.YYYY HH:mm;UTC)`
+>
+>    Returns 01.10.2018 07:32
+>
+>* `formatDate(now;DD.MM.YYYY HH:mm)`
+>
+>    Returns 19.03.2019 15:30
+
+### [!UICONTROL parseDate (text; format; [timezone])]
+
+Use this function when you have a Text value representing a date (such as `12-10-2019 20:30` or `Aug 18, 2019 10:00 AM`) and you want to convert (parse) it to a Date value (a binary machine readable representation). For more information, see [Date](../../workfront-fusion/mapping/item-data-types.md#date) and [Text](../../workfront-fusion/mapping/item-data-types.md#text) in the article [Item data types in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
+
+#### Parameters
+
+The second column indicates the expected type. If different type is provided, type coercion is applied. For more information, see [Type coercion in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th>Parameter</th> 
+   <th>Expected data type* </th> 
+   <th>What it does</th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL text] </td> 
+   <td>Text </td> 
+   <td> <p>Converts a Date value to a Text value. </p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL format] </td> 
+   <td>Text </td> 
+   <td> <p>Lets you specify a format using date/time formatting tokens. For more information, see <a href="../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md" class="MCXref xref">Tokens for date and time formatting in Adobe Workfront Fusion</a>.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>DD.MM.YYYY HH:mm</code> </p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL timezone] </td> 
+   <td>Text </td> 
+   <td> <p>(Optional) Lets you specify the timezone used for the conversion. </p> <p>For the list of recognized timezones, see the "TZ database name" column in the Wikipedia <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">List of tz database time zones</a>. Only the values listed in this column are recognized by the function as a valid timezone. Any other value is ignored and the Scenarios timezone specified in your Profile is used instead. For more information, see in the article <a href="../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md" class="MCXref xref">Change profile settings in Adobe Workfront Fusion</a>.</p> <p>If you omit this parameter, the Scenarios timezone specified in your Profile settings is applied.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span><code>Europe/Prague</code>, <code>UTC</code></p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+ If different type is provided, type coercion is applied. For more information, see [Type coercion in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
+
+#### Return value and type
+
+This function converts a text string to a date, according to the format and timezone that you specify. The data type of the value is Date.
+
+>[!INFO]
+>
+>**Examples:** In the following examples, the returned Date value is expressed according to ISO 8601, but the data type of the result is Date.
+>
+>* `parseDate(2016-12-28;YYYY-MM-DD)`
+>
+>    Returns 2016-12-28T00:00:00.000Z
+>
+>* `parseDate(2016-12-28 16:03;YYYY-MM-DD HH:mm)`
+>
+>    Returns 2016-12-28T16:03:00.000Z
+>
+>* `parseDate(2016-12-28 04:03 pm; YYYY-MM-DD hh:mm a)`
+>
+>    Returns 2016-12-28T16:03:06.000Z
+>
+>* `parseDate(1482940986;X)`
+>
+>   Returns 2016-12-28T16:03:06.000Z
 
 ### [!UICONTROL dateDifference (Date1; Date2; Unit)]
 
