@@ -6,7 +6,6 @@ description: Adobe Workfront released API version 18 on April 6, 2022. API versi
 author: Becky
 feature: Workfront API
 role: Developer
-exl-id: a3d8534b-fe6e-4782-baab-7c94555ea40c
 ---
 # What's new in API version 18
 
