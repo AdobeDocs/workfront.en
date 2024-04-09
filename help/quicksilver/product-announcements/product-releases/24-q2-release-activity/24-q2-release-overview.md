@@ -298,6 +298,41 @@ In lieu of a release webinar, we invite you to [register for Adobe Summit](https
             </tbody>
         </table>
 
+### Integration enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Enhancements to automated folder creation workflow in the Adobe Experience Manager integration</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <p>To ensure that your Adobe Experience Manager folders more accurately reflect your needs, we've made some updates to the Adobe Experience Manager linked folders workflow.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: March 11, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production for all customers: March 14, 2024</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
 ### Project enhancements
 
 <table>
