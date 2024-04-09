@@ -10,7 +10,7 @@ exl-id: a3d8534b-fe6e-4782-baab-7c94555ea40c
 ---
 # What's new in API version 18
 
-Adobe Workfront released API version 18 on <!--Date-->. API version 18 features the following changes from version 15.
+Adobe Workfront released API version 18 on April 8, 2024. API version 18 features the following changes from version 15.
 
 ## Added resources
 
