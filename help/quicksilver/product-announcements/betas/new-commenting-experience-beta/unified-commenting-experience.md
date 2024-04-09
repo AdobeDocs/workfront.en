@@ -12,9 +12,9 @@ exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
 
 <!--take out legacy, preview, prod references from below-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.  </span>  
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.  </span>  
 
-<span class="preview">For information about the current release schedule, see [First Quarter 2024 release overview](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).</span>-->
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
 <!--
 
@@ -53,13 +53,15 @@ Among the improvements included in the new commenting experience are the followi
 
 The following features have been removed or will be deprecated from the new experience:
 
-* Comment on a system update
-* Ability to edit status, condition, commit date, and percent complete while commenting on tasks and issues
-* Edit custom form
+* Comment on a system update. Comments added to the system updates in the past have been imported as read-only comments in the new System Activity tab. 
+* Ability to edit Status, Condition, Commit Date, and Percent Complete while commenting on tasks and issues. 
+
+  As an alternative, we recommend that you add these fields in the Summary panel of tasks and issues, to easily access them from lists, Home, Workfront Balancer, or a timesheet. 
+* Ability to edit the custom form
 * The "on behalf of < user name >" information when a Workfront or group administrator logs in as another user and adds a comment on their behalf was originally removed. It has been reinstated on October 19, 2023.
 * The "Ask for approval" option when you tag people while adding a comment to a document. 
 * The "Show percent complete on update status" setting when editing a user's profile box will be removed. The functionality of updating the percent complete of a task or issue has been removed. 
-* The notification for the Project Owner in the Updates area that the assignee of a task or issue edited the commit date <!--ensure this is correct when re remove the legacy and leave only new commenting-->
+
 
 <!--removed this note on November 28, 2023, when this limitation was removed: 
 
@@ -454,7 +456,7 @@ The following table illustrates the features that will be available in the new c
    </td>
   </tr>
   <tr>
-   <td>Ability to edit status, condition, commit date while commenting 
+   <td>Ability to edit Status, Condition, Commit Date while commenting 
    </td>
    <td>✓ 
    </td>
@@ -493,6 +495,21 @@ The following table illustrates the features that will be available in the new c
    <td>
    </td>
    <td> 
+   </td>
+  </tr>
+
+<tr>
+   <td>Ability for the Project Owner to change the Planned Completion Date of a task when the Commit Date is changed from the Updates section
+   </td>
+   <td> ✓
+   </td>
+   <td> Might be released at a later date
+   </td>
+   <td> 
+   </td>
+   <td>
+   </td>
+   <td> ✓
    </td>
   </tr>
 </table>
@@ -538,13 +555,23 @@ The following is a planned timeline for the release of the new commenting experi
     >
     >    Iterations will continue to have the legacy commenting experience. The new commenting experience will not be available for iterations. 
 
-* Second quarter of 2024 (April 2024):
+* With the Second Quarter 2024 release (April 11, 2024):
 
     * Remove the option to switch back to the legacy commenting stream and make the new commenting stream the only experience for all objects, with the exception of Iterations. 
 
 ## Locate the new commenting experience
 
-<!--IMPORTANT: when we get rid of the legacy experience, move a version of this to the Update work article or the Update section overview -- to say that the experience is different for all except for iterations-->
+<!--info for April 11: make this commented out text live and hide everything else underneath it, all the way to the end of the article: 
+
+>[!IMPORTANT]
+>
+>The new commenting experience is available in all Workfront environments on all objects with the exception of Iterations. 
+>
+>The legacy commenting experience has been removed from all environments for Projects, Tasks, Issues, and Documents. 
+
+For information about accessing the Updates section of Workfront objects, see [Updates section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+
+-->
 
 The new commenting experience is currently available for all customers and for all environments.
 
@@ -557,25 +584,25 @@ Depending on what objects you access the commenting experience for, you might se
     * Issue
     * Document
 
-    >[!TIP]
-    >
-    >Use the New commenting option to display the new commenting experience (when you enable it) or the legacy commenting experience (when you disable it), as described in this section. The new commenting experience is the default. 
-
-  * Only the new commenting experience for the objects listed below. There is no option to enable the legacy commenting experience for these objects:   
-
-     * Goal
-
       >[!NOTE]
       >
-      >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
-    * Card on a board
-    * Team
-    * Template
-    * Template Task
-    * Timesheet
-    * Program
-    * Portfolio
-    * User
+      ><span class="preview">The legacy commenting experience has been removed from the Preview environment since April 1, 2024. </span>
+
+* Only the new commenting experience for the objects listed below. There is no option to enable the legacy commenting experience for these objects:   
+
+    * Goal
+
+    >[!NOTE]
+    >
+    >You must have an additional license to Adobe Workfront Goals to be able to access this area of Workfront. For more information, see [Requirements to use Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+  * Card on a board
+  * Team
+  * Template
+  * Template Task
+  * Timesheet
+  * Program
+  * Portfolio
+  * User
 
 * Only the legacy commenting experience for the following objects:
 
@@ -613,8 +640,9 @@ The new commenting experience is currently supported for the following objects:
 
 To enable the commenting experience option for projects, tasks, issues, and documents: 
 
-1. Go to an object that you want to activate the new commenting experience for, then click **Updates** in the left panel.
+1. (Conditional) In the Production environment, go to an object that you want to activate the new commenting experience for, then click **Updates** in the left panel.
 1. (Conditional) If it is disabled, enable the **New commenting** option in the upper-right corner of the Updates area to enable it. This should be enabled by default. 
+<span class="preview">The New commenting option has been removed from the Preview environment.</span> 
 
     ![](assets/new-commenting-toggle-off-highlighted.png)
 

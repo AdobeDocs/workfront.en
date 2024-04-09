@@ -15,8 +15,11 @@ exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
 ---
 # Install an environment promotion package
 
+>[!NOTE]
+>
+>To install a package, you must be logged in to the environment where you want to install the package. This This is the environment that you are copying objects **to**.
 
-1. Go to the environment where you want to install the package. This is the environment that you are copying objects **to**.
+1. Go to the environment where you want to install the package. 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
 1. Select **System** in the left navigation, then select **Environment Promotion**.
 1. Select the package from the displayed list.

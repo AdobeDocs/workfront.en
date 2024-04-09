@@ -119,7 +119,7 @@ Display logic defines which custom fields appear on the form when the user selec
 
 >[!NOTE]
 >
->Display logic is temporarily unavailable when you preview your form in the form designer.
+><span class="preview">Display logic is only available when you preview your form in the form designer in the Preview environment.</span>
 
 ## Add skip logic to a custom form
 
@@ -153,4 +153,5 @@ Skip logic defines custom form fields that are skipped when the user selects a s
 
 >[!NOTE]
 >
->Skip logic is temporarily unavailable when you preview your form in the form designer.
+><span class="preview">Skip logic is only available when you preview your form in the form designer in the Preview environment.</span>
+

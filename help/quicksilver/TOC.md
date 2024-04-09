@@ -13,9 +13,13 @@ feature-set: Workfront
     * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
+    * 2024 Q3 Release {#release-24-q3}
+      * [2024 Q3 Release Overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
+      * [Look-and-feel updates during the 2024 Q3 release timeframe](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md)
     * 2024 Q2 Release {#release-24-q2}
       * [2024 Q2 Release Overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
       * [2024 Q2 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-administrator-enhancements.md)
+      * [2024 Q2 Document management enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-document-mgmt-enhancements.md)
       * [2024 Q2 Home enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-home-enhancements.md)
       * [2024 Q2 Integration enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md)
       * [2024 Q2 Project enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md)
@@ -1062,6 +1066,7 @@ feature-set: Workfront
       * [Add stories to an existing iteration](agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
       * [View an iteration](agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)
       * [Delete an iteration](agile/use-scrum-in-an-agile-team/iterations/delete-iteration.md)
+      * [Manage iteration comments](agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)
     * Scrum board {#scrum-board}
       * [Scrum board](agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md)
       * [Scrum board overview](agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md)
@@ -1777,6 +1782,7 @@ feature-set: Workfront
 * Review and approve work {#review-and-approve-work}
   * [Review and approve work](review-and-approve-work/review-and-approve-work.md)
   * [Alpha Program – Document Approvals](review-and-approve-work/Documents/doc-approvals-alpha.md)
+  * [Beta Program - Workfront + Frame.io](review-and-approve-work/Documents/wf-frame-alpha.md)
   * [Limited document and proof decision for non-paid users overview](review-and-approve-work/proof-doc-decision-limits.md)
   * Work approvals {#work-approvals}
     * [Work approvals](review-and-approve-work/manage-approvals/manage-approvals.md)
@@ -1793,6 +1799,7 @@ feature-set: Workfront
   * Document review and approval {#document-reviews-and-approvals}
     * [Document review and approval](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
     * [Document approvals overview](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
+    * [Asset review and approval overview](review-and-approve-work/document-reviews-and-approvals/review-and-approval-overview.md)
     * Review documents {#review-and-approve-documents}
       * [Review documents: article index](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
       * [Review a document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
@@ -1800,9 +1807,10 @@ feature-set: Workfront
       * [Add a Frame.io asset to a connected Workfront project](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
     * Approve documents {#approve-documents}
         * [Approve documents: article index](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
-        * [Create a document approval](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
+        * [Create a document review or approval request](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
         * [Add additional reviewers or approvers to a document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
         * [Remove approvers or reviewers from a document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
+        * [Create an Approval Template](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
         * [Document approval status](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
         * [Approve a document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
   * Proofing {#proofing}
@@ -1916,6 +1924,7 @@ feature-set: Workfront
       * [Edit the Proof Permission Profile field in Bulk](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
       * [Disable sharing proof via public URL or embed code](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
       * [FAQ: proofing within Adobe Workfront - US to EMEA migration](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
+      * [Document name changed after upload and contains an invalid character](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
   * Tips, tricks, and troubleshooting for approvals {#ttt-approvals}
     * [Tips, tricks, and troubleshooting for approvals](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
     * [View the number of proof and document decisions for all users](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
@@ -2019,13 +2028,13 @@ feature-set: Workfront
     * [Enable Adobe Workfront Goals notifications](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
 * Adobe Maestro {#adobe-maestro}
   * [Adobe Maestro information](maestro/maestro-information.md)
-  * [Adobe Workfront planning capabilities overview](maestro/maestro-overview.md)
-  * [Adobe Workfront planning capabilities release activity](maestro/release-activity.md)
+  * [Adobe Workfront planning overview](maestro/maestro-overview.md)
+  * [Adobe Workfront planning release activity](maestro/release-activity.md)
   * Adobe Maestro architecture {#adobe-maestro-architecture}
     * [Architecture: article index](maestro/architecture/architecture-information.md)
     * [Create workspaces](maestro/architecture/create-workspaces.md)
-    * [Overview of record types and taxonomies](maestro/architecture/overview-of-record-types-and-taxonomies.md)
-    * [Create operational record types](maestro/architecture/create-record-types.md)
+    * [Overview of record types](maestro/architecture/overview-of-record-types-and-taxonomies.md)
+    * [Create record types](maestro/architecture/create-record-types.md)
     * [Create taxonomy record types](maestro/architecture/create-a-taxonomy.md)
     * [Connect record types](maestro/architecture/connect-record-types.md)
     * [Edit record types](maestro/architecture/edit-record-types.md)
@@ -2042,10 +2051,10 @@ feature-set: Workfront
     * [Delete fields](maestro/fields/delete-fields.md) 
     * [Formula fields overview](maestro/fields/formula-fields.md)   
   * Adobe Maestro access {#adobe-maestro-access}
-    * [Access information](maestro/access/access-information.md)
+    * [Adobe Workfront Planning Access information: article index](maestro/access/access-information.md)
     * [Access overview](maestro/access/access-overview.md)
     * [Overview of sharing permissions in Adobe Workfront planning capabilities](maestro/access/sharing-permissions-overview.md)
-    * [License type overview when using the Adobe Workfront planning capabilities ](maestro/access/license-type-overview.md)
+    * [License type overview when using Adobe Workfront planning](maestro/access/license-type-overview.md)
     * [Share workspaces](maestro/access/share-workspaces.md)
     * [Share views](maestro/access/share-views.md)
   * Adobe Maestro records {#adobe-maestro-records}
@@ -2058,6 +2067,7 @@ feature-set: Workfront
     * [Manage record comments](maestro/records/manage-record-comments.md)
     * [History section overview](maestro/records/history-section-overview.md)
     * [Add thumbnails to records](maestro/records/add-thumbnails-to-records.md)
+    * [Manage the record page](maestro/records/manage-the-record-page.md)
   * Adobe Maestro views {#adobe-maestro-views}
     * [Views: article index](maestro/views/views-information.md)
     * [Manage record views](maestro/views/manage-record-views.md)
@@ -2683,6 +2693,7 @@ feature-set: Workfront
     * [Category](wf-api/wf-objects/category.md)
   * Tips, tricks, and troubleshooting for Adobe Workfront API {#tips-troubleshooting-apis}
     * [Tips, tricks, and troubleshooting for Adobe Workfront API](wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
+    * [Domain format for Adobe Workfront API calls](wf-api/tips-tricks-and-troubleshooting/locate-domain-for-API.md)
     * [API Error: "The remote server returned an error: (400) Bad Request"](wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
     * [Duplicates returned during a large paginated search](wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
     * [Sorting query results in the API](wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)

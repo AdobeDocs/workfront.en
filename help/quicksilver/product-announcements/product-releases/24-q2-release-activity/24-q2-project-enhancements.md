@@ -17,7 +17,7 @@ For a list of all changes available at this point in the Second Quarter 2024 rel
 
 >[!NOTE]
 >
->Preview release: February 13, 2024; Production for fast release: With the 24.3 release (March 14, 2024); Production for all customers: With the 24.4 release (April 2024).
+>Preview release: February 13, 2024; Production for fast release: With the 24.3 release (March 14, 2024); Production for all customers: With the 24.4 release (April 11, 2024).
 
 <span style="color: #ff0000;">This feature was removed from Production for fast release customers on March 18, 2024.</span>
 
@@ -33,7 +33,7 @@ For more information, see [Smart assignments overview](/help/quicksilver/manage-
 
 >[!NOTE]
 >
->Preview release: December 21, 2023; Production for fast release: With the 24.3 release (March 14, 2024); Production for all customers: With the 24.4 release (April 2024).
+>Preview release: December 21, 2023; Production for fast release: With the 24.3 release (March 14, 2024); Production for all customers: With the 24.4 release (April 11, 2024).
 
 <span style="color: #ff0000;">This feature was removed from Production for fast release customers on March 18, 2024.</span>
 
