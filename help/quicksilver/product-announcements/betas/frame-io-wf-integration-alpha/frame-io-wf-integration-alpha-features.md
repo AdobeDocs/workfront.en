@@ -26,11 +26,11 @@ To learn more about how the beta will function and ways you can participate, see
 
 ## Basic test scenario 
 
-To allow you to easily test the new features of the beta program, we've created a new test Frame.io account and connected it to a new group called `Frame.io alpha testing` in your existing Workfront Preview or Sandbox environment.
+To allow you to easily test the new features of the beta program, we've created a new test Frame.io account and connected it to a new group called `Frame.io testing` in your existing Workfront Preview or Sandbox environment.
 
 To test the functionality, please log in to your Workfront Preview or Sandbox instance and perform the following steps: 
 
-1. **Coordinators:** Within Workfront, create a project with the `Frame.io alpha testing` group assigned as the project group. 
+1. **Coordinators:** Within Workfront, create a project with the `Frame.io testing` group assigned as the project group. 
 
 1. **Coordinators:** Within Workfront, mark the tasks that require creative work as frame-enabled (in task details) and assign your creatives to it (assign yourself as well if you would like to test the whole workflow). 
 
