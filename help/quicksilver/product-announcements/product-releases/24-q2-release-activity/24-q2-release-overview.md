@@ -589,11 +589,11 @@ There are no Workfront Proof updates at this point in the release. This area wil
 
 There are no Workfront Goals updates at this point in the release. This area will be updated when updates are available.
 
-### API version 16
+### API version 18
 
-For API version 16, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
+For API version 18, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
 
-For information on what's new and updated, see [What's new in API version 16](/help/quicksilver/wf-api/api/new-api-version-16.md).
+For information on what's new and updated, see [What's new in API version 18](/help/quicksilver/wf-api/api/new-api-version-18.md).
 
 For information on API versions, see [API versioning and support schedule](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
