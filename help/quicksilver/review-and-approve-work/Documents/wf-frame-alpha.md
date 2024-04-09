@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Alpha Program – Workfront + Frame.io
-description: We are excited to announce the launch of our Alpha program for Workfront + Frame.io. Here you will find information about the latest Alpha release along with a brief video walkthrough to get you started.
+title: Beta Program – Workfront + Frame.io
+description: We are excited to announce the launch of our Beta program for Workfront + Frame.io. Here you will find information about the latest Beta release along with a brief video walkthrough to get you started.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 hide: yes
@@ -10,13 +10,13 @@ hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
 ---
-# Alpha Program –  Workfront + Frame.io
+# Beta Program –  Workfront + Frame.io
 
-We are excited to announce the launch of our Alpha program for Workfront + Frame.io. Here you will find information about the latest Alpha release along with a brief video walkthrough to get you started.
+We are excited to announce the launch of our Beta program for Workfront + Frame.io. Here you will find information about the latest Beta release along with a brief video walkthrough to get you started.
 
-## Alpha Release updates in Frame.io - Mar. 2024
+## Beta Release updates in Frame.io - Mar. 2024
 
-In this Alpha release we have:
+In this Beta release we have:
 
 ### Add multiple assets from Frame.io to Workfront
 
@@ -28,9 +28,9 @@ The menu items for adding an asset to Workfront have been updated making it easi
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428213/)
 
-## Alpha Release updates in Workfront - Mar. 2024
+## Beta Release updates in Workfront - Mar. 2024
 
-In this Alpha release we have:
+In this Beta release we have:
 
 ### Add a deadline to a document reviews and approvals
 
