@@ -13,14 +13,17 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 
 <!--info for April 11: take "legacy" and "new commenting" references out when we remove the legacy-->
 
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 <span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+-->
 
 <!--info for April 11: hide the "Important" box below-->
 
+<!--
 >[!IMPORTANT]
 >
 >We are currently redesigning the commenting experience in Adobe Workfront.
@@ -41,7 +44,8 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 > * Summary panel in timesheets 
 > * Summary panel in the Workload Balancer
 >
-><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span> 
+><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span>
+-->
 
 You can add an update on an Adobe Workfront object to communicate about progress on the object. For more information about what objects you can add updates to in Workfront, see [Update section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
 
@@ -127,9 +131,10 @@ For more detail about the information in this table, see [Access requirements in
 
 <!--info for April 11: hide the section below: add an update to a work item-->
 
+<!--
 ## Add an update to a work item
 
-Adding an update to a work item differs depending on what version of the Updates section you use.  
+Adding an update to a work item differs depending on what version of the Updates section you use.
 
 You can add updates to the following objects: 
 
@@ -146,9 +151,11 @@ You can add updates to the following objects:
 * Goals
 * Cards in the Boards area
 * Iterations
+-->
 
 <!--info for April 11: hide the section below completely:-->
 
+<!--
 ### Add an update to a work item in the legacy Updates section
 
 >[!IMPORTANT]
@@ -208,15 +215,17 @@ You can add updates to the following objects:
    >If your Workfront administrator selects the "Never allow users to delete comments" setting in your access level, you cannot undo a comment. For more information, see [Create and modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 1. To reply to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).
+-->
 
 <!--info for April 11: reword the title of this section to: "Add an update to a work item"; take out the step that says you need to enable the "New commenting" toggle (I think it is step 3??)-->
 
-### Add an update to a work item using the new commenting experience
+## Add an update to a work item <!--using the new commenting experience-->
 
 1. Locate the object you want to update (project, task, or issue), then click its name to open the object's page.
 1. Click  **Updates** in the left panel. 
    The **Comments** tab is selected by default.
 
+<!--
 1. (Conditional) If the **New commenting** option is disabled, click to enable it. 
 
    This enables the new commenting experience. 
@@ -224,16 +233,11 @@ You can add updates to the following objects:
       >[!TIP]
       >
       ><span class="preview">The New commenting option has been removed in the Preview environment.</span>
-
+-->
 
 1. Start entering a comment in the **New comment** box.
-   
-   <div class="preview">
 
    ![New comment box](assets/comment-box-all-tabs.png)
-
-   </div>
-
    
    >[!TIP]
    >
@@ -241,7 +245,8 @@ You can add updates to the following objects:
 
 1. (Optional) To undo or redo a change, use the following shortcut keys:
       * CTRL + Z (⌘+z for Mac) to undo a change 
-      * CTRL + Y (⌘+y for Mac) to redo a change 
+      * CTRL + Y (⌘+y for Mac) to redo a change
+
 1. (Optional) In the **Tag people or teams** area, start typing the name or the email of a user, or a team that you would like to include in this comment, then select it when it displays in the list. 
 1. (Optional) Use the options in the Rich Text toolbar to format your text, add emojis, links, or images to your update, to enhance your content. For more information, see the [Use Rich Text in a Workfront update](#use-rich-text-in-a-workfront-update) section in this article. 
 
@@ -267,24 +272,21 @@ You can add updates to the following objects:
       >
       >Comments from the current year do not display the year in the date stamp. Hovering over a timestamp displays the full date, including the year.
 
-
    ![](assets/edited-tag-on-comment-unified-commenting.png)
 
    >[!TIP]
    >
    >* An email is generated to notify users of your update only when you submit the original update. No email is generated after you edited your update.
    >* The date stamp next to the comment is the date of the original comment, not the date of the last edit. 
-   >* When you add a comment on behalf of another user (when logging in as another user as a Workfront or group administrator), you cannot edit the comment if you are logged in as the other user. You can edit the comment only after you log out as the user and log back in as yourself.  
-     
+   >* When you add a comment on behalf of another user (when logging in as another user as a Workfront or group administrator), you cannot edit the comment if you are logged in as the other user. You can edit the comment only after you log out as the user and log back in as yourself.
 
-1. (Optional) Click **Reply** or start typing a comment in the **Add reply ...** area, to reply to an existing comment, then follow the steps 4-8 above. <!--(**************insure this stays accurate***********)--> For information about replying to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).  
+1. (Optional) Click **Reply** or start typing a comment in the **Add reply ...** area, to reply to an existing comment, then follow the steps 3-7 above. <!--(**************insure this stays accurate***********)--> For information about replying to an update, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md).  
 
 1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Updates section while you were adding your comments, click **View** inside the blue **new comments banner** at the bottom of the screen  to display these comments.
 
    ![](assets/blue-new-comments-banner-with-view-button.png)
 
    Additional comments display at the bottom of the screen.
-  
 
    >[!NOTE] 
    >
@@ -299,23 +301,22 @@ You can add updates to the following objects:
    >
    >The names of the first two tagged entities display next to their avatars. If more than two entities are tagged only the name of the first one and the number of additional entities display.
    
-1. <span class="preview"> (Optional) Click a commenter's name to see their name, role, and email address in an information box. Click the commenter's name again in the information box to open their user profile.</span>
+1. (Optional) Click a commenter's name to see their name, role, and email address in an information box. Click the commenter's name again in the information box to open their user profile.
 1. (Optional) Click the **System Activity** tab to view updates logged by the system. When the object or any of its children are updated, Workfront generates a note about that update and displays it in the System Activity tab. 
 
    For more information, see [Updates section overview](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
    >[!TIP]
    >
-   >You cannot add a comment to a system update. <span class="preview">However, any replies made to system activity records in the legacy commenting experience are populated on the System Activity tab as read-only.</span>
+   >You cannot add a comment to a system update. However, any replies that were made to system activity records in the legacy commenting experience are populated on the System Activity tab as read-only.
 
-1. <span class="preview">(Optional) Click the **All** tab to view both user comments and system activity comments in one place. This is a view-only tab.</span>
+1. (Optional) Click the **All** tab to view both user comments and system activity comments in one place. This is a view-only tab.
 
    >[!TIP]
    >
-   ><span class="preview">You cannot reply to comments or tag other users in existing comments in the All tab. To reply to a comment in the All tab, click **Reply in Comments** to open the comment in the Comments tab.</span>
+   >You cannot reply to comments or tag other users in existing comments in the All tab. To reply to a comment in the All tab, click **Reply in Comments** to open the comment in the Comments tab.
 
-## Use Rich Text in a Workfront update{#use-rich-text-in-a-workfront-update} 
-
+## Use Rich Text in a Workfront update{#use-rich-text-in-a-workfront-update}
 
 You can enhance your updates by using Rich Text, or adding various items to it, like emojis, links, or images. 
 
@@ -332,7 +333,7 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
    | Hyperlink | ![mceclip7.png](assets/mceclip7.png)| <br>To open the Add links box: ⌘+K</br> <br>To paste a link over the selected text: ⌘+V</br>  | <br>To open the Add links box: Ctrl+K</br> <br>To paste a link over the selected text: Ctrl+V</br> |
    | Bulleted List | ![mceclip6.png](assets/mceclip6.png)|⌘+Shift+8 |Ctrl+Shift+8 |
    | Numbered List | ![mceclip5.png](assets/mceclip5.png)|⌘+Shift+7 |Ctrl+Shift+7 |
-   | Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |
+   <!--| Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |-->
    
    <!--remove the last row when we remove legacy from the system-->
 
@@ -348,11 +349,11 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
    >* If your organization uses Workfront with Internet Explorer, any formatted text pasted into an update loses its Rich Text formatting and displays as plain text. You can reformat the text using the attributes on the Rich Text toolbar.
    >* Rich Text formatting is not available for updates made in the Timesheets area or for Note and Last Condition objects viewed in a report.
 
-1. (Optional and conditional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting. This is not available in the new commenting experience. 
+<!--1. (Optional and conditional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting. This is not available in the new commenting experience.-->
 
    <!--remove this picture below and the bullet above when we remove legacy-->
 
-   ![](assets/block-quote-marked-350x144.png)</span>
+   <!--![](assets/block-quote-marked-350x144.png)-->
 
 1. (Optional) Click the **emoji** icon ![](assets/emoji-icon.png) to add emojis to your update. 
 
@@ -378,7 +379,7 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
 1. (Optional) To attach an image to your update, do one of the following: 
 
    * Save the image on our computer, then drag and drop it in the New comment area.
-   * Copy a screenshot from your computer, then paste it in the comment. This is not available in the legacy commenting experience.  
+   * Copy a screenshot from your computer, then paste it in the comment.<!-- This is not available in the legacy commenting experience.-->
    * Click the **Add image** icon ![](assets/add-image-mountain-with-plus-icon.png) and browse to the image on your computer. 
 
    
@@ -389,11 +390,8 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
    >* Images are accessible from the Updates section on an object and they are also available in the Documents area under the Main Menu. 
    >* You can paste the image by right-clicking in the new comment, or by pressing CTRL + V for Windows (or ⌘ + V for Mac) on your keyboard.
    >* You can send an update with an image and no text.
-   >* When you delete a comment that contains an image, the following scenarios exist depending on which experience you choose: 
-   >
-   >     * In the legacy commenting experience, the image remains in the Documents area but is no longer visible in the Updates section. 
-   >     * In the new commenting experience, the image is removed from the Updates section as well as from the Documents area. The image is also deleted from the Documents area when you edit a comment and delete the image. 
-   >* When someone deletes an image attached to a comment from the Documents area, it is also removed from the comment. 
+   >* When you delete a comment that contains an image, the image is removed from the Updates section as well as from the Documents area. The image is also deleted from the Documents area when you edit a comment and delete the image.
+   >* When someone deletes an image attached to a comment from the Documents area, it is also removed from the comment.
 
    <!--remove the statement above about legacy, when we remove the legacy environment.-->
 
@@ -431,13 +429,13 @@ You can search for a comment or a reply in the Updates section of an object.
 
 There are several ways you can copy an update. After copying a link, you can share the link with others to direct them to the update.
 
-Copying an update differs depending on which commenting experience you use. 
+<!--Copying an update differs depending on which commenting experience you use.-->
 
 <!--info for April 11: take the sentence above out and reword the section title below to: Copy an update-->
 
-### Copy an update in the new commenting experience   
+### Copy an update <!--in the new commenting experience-->
 
-For information about what features are available for the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
+<!--For information about what features are available for the new commenting experience and for what objects, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).-->
 
 You can copy information from an existing comment by doing one of the following:
 
@@ -487,6 +485,7 @@ The Quote reply option copies the original comment to a new reply as a block quo
 
 <!--info for April 11: hide the entire section below - notice that there are several sub-sub sections below this main section - hide them all, all the way up to "Delete an update"-->
 
+<!--
 ### Copy an update in the legacy commenting experience
 
 * [Copy the update](#copy-the-update) 
@@ -542,6 +541,7 @@ The Quote Reply option copies the original comment to a new reply as a block quo
    A new comment box opens and the quoted reply is included in the new comment and marked as a block quote.
 
 1. Continue adding your update and click **Reply** to add the comment.
+-->
 
 ## Delete an update or reply
 
