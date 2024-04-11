@@ -1,46 +1,46 @@
 ---
 content-type: reference
 navigation-topic: betas
-title: 'Adobe Workfront and Frame.io native integration alpha: overview'
-description: Information on the Adobe Workfront and Frame.io native integration alpha
+title: 'Adobe Workfront and Frame.io native integration beta: overview'
+description: Information on the Adobe Workfront and Frame.io native integration beta
 author: Nolan
 feature: Product Announcements
 hide: yes
 hidefromtoc: yes
 exl-id: 8c9f26fb-4d61-4743-959d-cfaba1b7b63b
 ---
-# Adobe Workfront and Frame.io native integration alpha: overview
+# Adobe Workfront and Frame.io native integration beta: overview
 
-## The Workfront + Frame.io integration alpha
+## The Workfront + Frame.io integration beta
 
-Welcome to the Workfront + Frame.io integration alpha program! As a part of this alpha, you'll gain early access to our Workfront + Frame.io native integration experience and be able to share your feedback that will ultimately shape the final experience we release to our wider customer base. With this integration, we aim to create a frictionless end-to-end workflow between Workfront and Frame.io with a focus on providing an ideal, unified Review and Approval solution.  
+Welcome to the Workfront + Frame.io integration beta program! As a part of this beta, you'll gain early access to our Workfront + Frame.io native integration experience and be able to share your feedback that will ultimately shape the final experience we release to our wider customer base. With this integration, we aim to create a frictionless end-to-end workflow between Workfront and Frame.io with a focus on providing an ideal, unified Review and Approval solution.  
 
 Get the best of both worlds and see how a streamlined experience between Frame.io and Workfront (including new document approvals) can drive your content lifecycle from work initiation through to sign-off and delivery.  
  
 
-To learn more about the alpha's planned features and how you can test them, see [Adobe Workfront and Frame.io native integration alpha: features](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md).
+To learn more about the beta's planned features and how you can test them, see [Adobe Workfront and Frame.io native integration beta: features](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md).
 
 >[!NOTE]
 >
->In case you came across these pages without your company participating in this alpha program, please make sure to treat the information here with care and reach out to your Workfront or Frame.io administrator for more information.
+>In case you came across these pages without your company participating in this beta program, please make sure to treat the information here with care and reach out to your Workfront or Frame.io administrator for more information.
 
 ## Communication channels
 
-This alpha program provides you with the unique opportunity to test the seamless experience that we aim to build by leveraging the best of both Workfront and Frame.io. Workfront for work planning, monitoring, and managing the review & approval process of requested assets, and Frame.io for creative collaboration and conducting the review and approval. 
+This beta program provides you with the unique opportunity to test the seamless experience that we aim to build by leveraging the best of both Workfront and Frame.io. Workfront for work planning, monitoring, and managing the review & approval process of requested assets, and Frame.io for creative collaboration and conducting the review and approval. 
 
-As part of the alpha program, we're going to work closely together to shape what will become the future unified formal review & approval experience across Adobe.  
+As part of the beta program, we're going to work closely together to shape what will become the future unified formal review & approval experience across Adobe.  
 
 To that end, we've established certain communication channels that will allow us to stay connected, share updates and get your hands-on feedback. Our goal is to understand what capabilities would be required that will allow your company and users to adopt this solution in your Production environment. Please use the following communication channels to share your feedback: 
 
-### Alpha demo & MVP prototype feedback calls (per customer) 
+### beta demo & MVP prototype feedback calls (per customer) 
 
-The Adobe Team is going to set up multiple individual meetings with each alpha customer to present the MVP prototype along with the experience released to your preview/sandbox environment. During these calls you will get the opportunity to provide feedback and let us know your thoughts around the way we envision the future unified review & approval and what is needed to have you adopt this in Production. Please reach out to your group's spokesperson to learn when the next call is scheduled for. The plan is to start with weekly calls until we have captured all your feedback and then move onto a less frequent call cadence. 
+The Adobe Team is going to set up multiple individual meetings with each beta customer to present the MVP prototype along with the experience released to your preview/sandbox environment. During these calls you will get the opportunity to provide feedback and let us know your thoughts around the way we envision the future unified review & approval and what is needed to have you adopt this in Production. Please reach out to your group's spokesperson to learn when the next call is scheduled for. The plan is to start with weekly calls until we have captured all your feedback and then move onto a less frequent call cadence. 
 
 Besides the guided demo/feedback sessions, we encourage you to continue exploring the experience and perform further tests with the various groups and personas involved. Please follow these basic instructions on how to test the solution. 
 
 ### Slack Channel (per customer) 
 
-The Adobe Team is going to set up and invite your alpha testing group to a Slack Workspace. This space is intended to accelerate communication and allow you to easily share and discuss ideas outside the scheduled calls but also submit issues you come across. Please talk to your testing group's spokesperson in case you haven't been invited to this slack workspace. 
+The Adobe Team is going to set up and invite your beta testing group to a Slack Workspace. This space is intended to accelerate communication and allow you to easily share and discuss ideas outside the scheduled calls but also submit issues you come across. Please talk to your testing group's spokesperson in case you haven't been invited to this slack workspace. 
 
 Please read the best practices section on how to best submit ideas and issues 
 
@@ -56,7 +56,7 @@ We value your input and believe that your perspective is crucial in helping us c
 
 Mention it during our regular demo/feedback calls 
 
-Share it on our alpha program slack channel  
+Share it on our beta program slack channel  
 
 Or send it via e-mail to ossmann@adobe.com 
 

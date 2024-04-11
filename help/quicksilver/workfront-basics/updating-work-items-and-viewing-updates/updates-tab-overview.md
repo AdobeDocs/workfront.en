@@ -17,16 +17,19 @@ exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
 
 <!--info for April 11: hide the disclaimer for preview below-->
 
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 <span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+-->
 
 <!--info for April 11: take out the Important box-->
 
 The Updates section of an object displays comments that users make on the object or system updates that track changes to the object.
 
+<!--
 >[!IMPORTANT]
 >
 >We are currently redesigning the commenting experience in Adobe Workfront.
@@ -47,19 +50,16 @@ The Updates section of an object displays comments that users make on the object
 > * Summary panel in timesheets 
 > * Summary panel in the Workload Balancer
 >
-><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process.  
+><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process.
+--> 
 
 ## Overview of the Updates section
 
 The Updates section of an object shows system updates, and up to 200 of the most recent updates users made within the past 90 days.
 
-<div class="preview">
-
 ![Updates section](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
 
-</div>
-
-<!--Info for April 11: Add the following right under the screen shot above:
+<!--Info for April 11: Add the following right under the screen shot above:-->
 
 The following objects have an Updates section where you can add comments or review system updates: 
 
@@ -76,10 +76,10 @@ The following objects have an Updates section where you can add comments or revi
 * Goals
 * Cards in the Boards area
 * Iterations
--->
 
 <!--info for April 11: remove all the information below, all the way down to the following section: -->
 
+<!--
 Depending on what objects you access the commenting experience for, you might find the following experience for the Updates section:
 
 * Both the new and legacy commenting experience for the following objects: 
@@ -115,56 +115,58 @@ Depending on what objects you access the commenting experience for, you might fi
   * Iterations
 
     There is no option to enable the new commenting experience for iterations. For more information, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). 
+-->
 
 <!--Info for April 11: reword the section title below to: Overview of the Updates section; and remove the preview tags-->
 
-### Overview of the Updates section in the new commenting experience
-
-<div class="preview">
+### Overview of the Updates section <!--in the new commenting experience-->
 
 ![Updates section](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
-</div>
-
 <!--info for April 11: remove the NOTE below and any references below to "the new commenting experience". This should be just the ONLY experience. -->
 
+<!--
 >[!NOTE]
 >
 >The new commenting experience is not available for iterations.
+-->
 
-* The Updates section displays information in the following tabs in the new commenting experience:
+* The Updates section displays information in the following tabs<!-- in the new commenting experience-->:
 
-  * **Comments**: Displays comments made by users and replies to those comments. Use the Comments tab to add new comments or reply to existing ones. For information about updating objects in the new commenting experience, see [Update work](../updating-work-items-and-viewing-updates/update-work.md).
-  * **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, changes in status, name, or custom fields are captured with system updates. Your Workfront or group administrator can enable system updates for your objects. <span class="preview">Any replies made to system activity records in the legacy commenting experience are populated on the System Activity tab as read-only.</span> For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-  * <span class="preview">**All (read-only)**: Displays both user comments and system activity comments in one place. This is a view-only tab. You cannot reply to comments or tag other users in existing comments in the All tab. To reply to a specific comment, use the link from the All tab to the Comments tab. For information about updating objects in the new commenting experience, see [Update work](../updating-work-items-and-viewing-updates/update-work.md).</span>
+  * **Comments**: Displays comments made by users and replies to those comments. Use the Comments tab to add new comments or reply to existing ones. For information about updating objects<!-- in the new commenting experience-->, see [Update work](../updating-work-items-and-viewing-updates/update-work.md).
+  * **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, changes in status, name, or custom fields are captured with system updates. Your Workfront or group administrator can enable system updates for your objects. Any replies that were made to system activity records in the legacy commenting experience are populated on the System Activity tab as read-only. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+  * **All (read-only)**: Displays both user comments and system activity comments in one place. This is a view-only tab. You cannot reply to comments or tag other users in existing comments in the All tab. To reply to a specific comment, use the link from the All tab to the Comments tab. For information about updating objects<!-- in the new commenting experience-->, see [Update work](../updating-work-items-and-viewing-updates/update-work.md).
 
-* The following objects don't have a System Activity tab <span class="preview">or an All tab:</span>
+* The following objects don't have a System Activity tab or an All tab:
 
   * Team
   * Template
   * Template Task
   * Ad-hoc Card
+  * Iterations
 
-    For more information about updates on cards, see [Add an ad hoc card to a board](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md). 
+    For more information about updates on cards, see [Add an ad hoc card to a board](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
-* The following objects don't have an <span class="preview">All tab:</span>
+     For more information about updates on iterations, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). 
+
+* The following objects don't have an All tab:
 
   * Goals
 
     For more information about updates on goals, see [Manage goal comments](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
 
 <!--info for April 11: make the text below live - remove the commented out brackets: 
+NOTE FROM LISA: I added this info above, because there was already a list of items without a System Activity or All tab.
 
 * The following objects don't have a System Activity or an All tab: 
 
   * Iterations
 
-    For more information about updates on iterations, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). 
-
--->
+    For more information about updates on iterations, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). -->
 
 <!-- info for April 11: hide the entire section below: -->
 
+<!--
 ### Overview of the legacy Updates section 
 
 ![](assets/updates-tab-before-unified-experience-for-tasks.png)
@@ -180,7 +182,7 @@ The following objects don't record system updates:
 * Template
 * Template Task
 * Iterations
-
+-->
 
 ## Updates that also appear on higher-ranking objects
 
@@ -257,6 +259,7 @@ The following table shows the objects whose comments also display on their highe
  
 <!--info for April 11: hide the note below-->
 
+<!--
 >[!NOTE]
 >
 >Replies added to system updates do not roll up to the parent object. Only direct replies on a child object and replies added to existing updates roll up to parent objects.
@@ -264,6 +267,7 @@ The following table shows the objects whose comments also display on their highe
 >For information about the object hierarchy in Adobe Workfront, see [Understand objects in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 >
 > It is not possible to reply to system updates in the new commenting experience. For more information, see [New commenting experience](../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+-->
 
 
 ## Limitations of the Updates section
