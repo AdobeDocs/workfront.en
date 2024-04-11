@@ -157,7 +157,7 @@ In lieu of a release webinar, we invite you to [register for Adobe Summit](https
                                 <p>Production for fast release: With the 24.2 release (February 15, 2024)</p>
                             </li>
                             <li>
-                                <p>Production for quarterly release: TBD</p>
+                                <p>Production for quarterly release: With the 24.4 release (April 11, 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -365,7 +365,7 @@ In lieu of a release webinar, we invite you to [register for Adobe Summit](https
                                 <p><span style="color: #ff0000;">This feature was removed from Production for fast release customers on March 18, 2024.</span></p>
                             </li>
                             <li>
-                                <p>Production for quarterly release: With the 24.4 release (April 11, 2024)</p>
+                                <p>Production for quarterly release: TBD</p>
                             </li>
                         </ul>
                     </td>
@@ -386,7 +386,7 @@ In lieu of a release webinar, we invite you to [register for Adobe Summit](https
                                 <p><span style="color: #ff0000;">This feature was removed from Production for fast release customers on March 18, 2024.</span></p>
                             </li>
                             <li>
-                                <p>Production for quarterly release: With the 24.4 release (April 11, 2024)</p>
+                                <p>Production for quarterly release: TBD</p>
                             </li>
                         </ul>
                     </td>
