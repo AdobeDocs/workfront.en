@@ -70,3 +70,4 @@ Wokfront Fusion supports only Chrome based browsers.
 ## Retries
 
 When using the Break module and specifying the Retry directive, if a scenario fails consecutively 10 times within a 2-minute timeframe, the scenario will be automatically deactivated.
+ 
