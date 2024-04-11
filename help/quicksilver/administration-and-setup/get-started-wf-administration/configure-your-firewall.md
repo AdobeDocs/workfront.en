@@ -385,6 +385,10 @@ Also, if your organization uses outbound network filtering, add the following do
    <td role="rowheader"> <p>Adobe Workfront US Datacenter</p> </td> 
    <td> <p>hook.app.workfrontfusion.com </p> </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!DNL Adobe Workfront Fusion] on the Microsoft Azure cluster</p> </td> 
+   <td> <p>hook.app-az.workfrontfusion.com </p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
