@@ -14,6 +14,8 @@ exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
 
 We are excited to announce the launch of our Beta program for Workfront + Frame.io. Here you will find information about the latest Beta release along with a brief video walkthrough to get you started.
 
+In order to participate in this Beta, you must be enabled by the product team. Contact your Customer Success or Account Manager and request to be added.
+
 ## Beta Release updates in Frame.io - Mar. 2024
 
 In this Beta release we have:
