@@ -11,6 +11,8 @@ exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
 ---
 # Edit a user's profile
 
+{{highlighted-preview}}
+
 <!--
 
 >[!IMPORTANT]
