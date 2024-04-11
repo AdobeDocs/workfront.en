@@ -11,12 +11,6 @@ exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
 ---
 # Rename a custom form with the form designer
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
-
 You can rename a custom form any time after it has been created with the form designer.
 
 ## Access requirements
@@ -55,7 +49,7 @@ For more detail about the information in this table, see [Access requirements in
 
    In the view that appears, you can review all custom forms that have been created for your organization. You can also see who created each form, which object type it works with, and whether it is active.
 
-1. Select the custom form you want to rename, then click **Edit** <span class="preview">or ![Edit icon](assets/edit-icon2.png).</span>
+1. Select the custom form you want to rename, then click or ![Edit icon](assets/edit-icon2.png).
 1. To change the title, click on the form name.
 1. To change the description, click into the description text box.
 

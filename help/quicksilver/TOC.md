@@ -406,6 +406,8 @@ feature-set: Workfront
     * Workfront and Frame.io integration alpha {#frame-io-wf-integration-alpha}
       * [Adobe Workfront and Frame.io native integration alpha: overview](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
       * [Adobe Workfront and Frame.io native integration alpha: features](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
+    * Workfront data lake beta {#data-lake-beta}
+      * [Workfront data lake beta information](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * Administration and setup {#administration-and-setup}
   * [Administration and setup: article index](administration-and-setup/administration-and-setup.md)
   * Get started with administration {#get-started-administration}
@@ -1729,6 +1731,12 @@ feature-set: Workfront
     * [View the Activity by team visualization in Enhanced analytics](enhanced-analytics/activity-by-team-overview.md)
     * [View the Resource capacity visualization in Enhanced analytics](enhanced-analytics/resource-capacity-overview.md)
     * [View the Team capacity visualization in Enhanced analytics](enhanced-analytics/team-capacity-overview.md)
+  * Workfront data lake {#data-lake}
+    * [Workfront data lake overview](reports-and-dashboards/data-lake/data-lake-overview.md)
+    * [Create a reader account](reports-and-dashboards/data-lake/create-a-reader-account.md)
+    * [Workfront data lake data dictionary](reports-and-dashboards/data-lake/data-dictionary.md)
+    * [Basic Workfront data lake query examples](reports-and-dashboards/data-lake/basic-query-examples.md)
+    * [Share data lake data with business intelligence tools and external data warehouses](reports-and-dashboards/data-lake/share-data-externally.md)
 * Manage resources {#manage-resources}
   * [Manage resources](resource-mgmt/manage-resources.md)
   * Resource Management {#resource-management}
@@ -2637,6 +2645,7 @@ feature-set: Workfront
     * [Configure and use your organization's custom OAuth 2 applications using JWT flow](wf-api/api/oauth-app-jwt-flow.md)
     * [Configure and use your organization's custom OAuth 2 applications using PKCE flow](wf-api/api/oauth-app-pkce-flow.md)    
     * [Deprecation of API-Internal](wf-api/api/deprecation-api-internal.md)
+    * [What's new in API version 18](wf-api/api/new-api-version-18.md)
     * [What's new in API version 17](wf-api/api/new-api-version-17.md)
     * [What's new in API version 16](wf-api/api/new-api-version-16.md)
     * [What's new in API version 15](wf-api/api/new-api-version-15.md)
@@ -2693,7 +2702,7 @@ feature-set: Workfront
     * [Category](wf-api/wf-objects/category.md)
   * Tips, tricks, and troubleshooting for Adobe Workfront API {#tips-troubleshooting-apis}
     * [Tips, tricks, and troubleshooting for Adobe Workfront API](wf-api/tips-tricks-and-troubleshooting/tips-troubleshoot-api.md)
-    * [Domain format for Adobe Workfront API calls](wf-api/tips-tricks-and-troubleshooting/locate-domain-for-API.md)
+    * [Domain format for Adobe Workfront API calls](wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md)
     * [API Error: "The remote server returned an error: (400) Bad Request"](wf-api/tips-tricks-and-troubleshooting/api-error-remote-server.md)
     * [Duplicates returned during a large paginated search](wf-api/tips-tricks-and-troubleshooting/duplicates-paginated-search.md)
     * [Sorting query results in the API](wf-api/tips-tricks-and-troubleshooting/query-sort-api.md)

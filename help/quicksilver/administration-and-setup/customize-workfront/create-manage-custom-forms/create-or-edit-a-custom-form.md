@@ -13,17 +13,11 @@ exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
 
 <!--Audited: 01/2024-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
-
-You can create or edit new custom form. Both tasks are explained in this article.
+You can create a new custom form or edit an existing form. Both tasks are explained in this article.
 
 For information about creating a new custom form from an existing one, see [Copy a custom form to create a new one with the legacy form builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
 
-This article describes how you can create a custom form using the legacy form builder. For information about creating a custom form using the form designer see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+This article describes how you can create a custom form using the legacy form builder. For information about creating a custom form using the form designer, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Access requirements
 
@@ -110,7 +104,7 @@ You can edit a custom form any time after it has been created.
 
    Custom forms display in a list. You can review all custom forms and custom fields that have been created for your organization. You can also see who created each form, the objects associated with it, and whether it is active.
 
-1. Select the custom form you want to edit, then click **Edit** <span class="preview">or ![Edit icon](assets/edit-icon.png).</span>
+1. Select the custom form you want to edit, then click ![Edit icon](assets/edit-icon.png).
 1. (Optional) To change the title and description of the custom form, click the **Form Settings** tab, then type a **Form Title** and **Description**.
 
 1. (Optional) If you want to add more object types to the form so that it can be attached to more objects, click the plus sign + after **Object Types**, then select the type you want in the menu that displays.

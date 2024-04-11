@@ -11,12 +11,6 @@ exl-id: ca6565c4-3d9e-4a11-a7b6-fce701923bf2
 ---
 # Delete object types on a custom form
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
-
 On an existing custom form, you can delete object types that are associated with the form. After you do this, users can no longer attach the form to objects of that type.
 
 ## Access requirements
@@ -62,7 +56,7 @@ A custom form must have at least one object type.
 {{step-1-to-setup}}
 
 1. Click **Custom Forms** in the left panel.
-1. Select the custom form you want to edit, then click **Edit** <span class="preview">or ![Edit icon](assets/edit-icon.png).</span>
+1. Select the custom form you want to edit, then click ![Edit icon](assets/edit-icon.png).
 1. Click the X on any of the **Object Types** that you want to delete from the form, then click **Delete** on the warning message that displays.
 
    ![](assets/click-x-object-types.jpg)
