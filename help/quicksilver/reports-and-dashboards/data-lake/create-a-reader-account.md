@@ -3,12 +3,13 @@ content-type: reference
 product-area: reports and dashboards
 navigation-topic: data lake
 title: Create a  reader (service) account for Snowflake
-description: In order to access the data in the Workfront Data Lake, you must first create a reader account for Snowflake. 
+description: In order to access the data in the Workfront Data Lake, you must first create a reader account for Snowflake.
 author: Nolan
 feature: Reports and Dashboards
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
 ---
 # Create a  reader (service) account for Snowflake
 

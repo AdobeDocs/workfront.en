@@ -9,6 +9,7 @@ feature: Reports and Dashboards
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
 ---
 # Share data lake data with business intelligence tools and external data warehouses
 

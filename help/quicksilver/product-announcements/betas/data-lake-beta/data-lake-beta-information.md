@@ -7,6 +7,7 @@ feature: Reports and Dashboards
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: 2daf7617-5b3e-49f7-b93b-4210b1b2ea49
 ---
 # Workfront data lake beta information
 
@@ -98,4 +99,3 @@ Below are lists of objects currently supported in the beta, objects we plan on a
 
 * Limit available objects during reader account setup.
 * Associate a reader account with a specific group or groups in Workfront to limit visibility of records to only group members.
-

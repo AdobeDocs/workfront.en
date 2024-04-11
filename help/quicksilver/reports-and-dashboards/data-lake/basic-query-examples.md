@@ -9,6 +9,7 @@ feature: Reports and Dashboards
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: f2da081c-bdce-4012-9797-75be317079ef
 ---
 # Basic Workfront data lake query examples
 
