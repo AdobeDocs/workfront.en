@@ -406,6 +406,8 @@ feature-set: Workfront
     * Workfront and Frame.io integration alpha {#frame-io-wf-integration-alpha}
       * [Adobe Workfront and Frame.io native integration alpha: overview](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
       * [Adobe Workfront and Frame.io native integration alpha: features](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
+    * Workfront data lake beta {#data-lake-beta}
+      * [Workfront data lake beta information](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * Administration and setup {#administration-and-setup}
   * [Administration and setup: article index](administration-and-setup/administration-and-setup.md)
   * Get started with administration {#get-started-administration}
@@ -1729,6 +1731,12 @@ feature-set: Workfront
     * [View the Activity by team visualization in Enhanced analytics](enhanced-analytics/activity-by-team-overview.md)
     * [View the Resource capacity visualization in Enhanced analytics](enhanced-analytics/resource-capacity-overview.md)
     * [View the Team capacity visualization in Enhanced analytics](enhanced-analytics/team-capacity-overview.md)
+  * Workfront data lake {#data-lake}
+    * [Workfront data lake overview](reports-and-dashboards/data-lake/data-lake-overview.md)
+    * [Create a reader account](reports-and-dashboards/data-lake/create-a-reader-account.md)
+    * [Workfront data lake data dictionary](reports-and-dashboards/data-lake/data-dictionary.md)
+    * [Basic Workfront data lake query examples](reports-and-dashboards/data-lake/basic-query-examples.md)
+    * [Share data lake data with business intelligence tools and external data warehouses](reports-and-dashboards/data-lake/share-data-externally.md)
 * Manage resources {#manage-resources}
   * [Manage resources](resource-mgmt/manage-resources.md)
   * Resource Management {#resource-management}
@@ -2248,6 +2256,7 @@ feature-set: Workfront
     * [Image modules](workfront-fusion/apps-and-their-modules/image-module.md)
     * [Jira Software modules](workfront-fusion/apps-and-their-modules/jira-software-modules.md)
     * [JSON modules](workfront-fusion/apps-and-their-modules/json-modules.md)
+    * [JWT modules](workfront-fusion/apps-and-their-modules/jwt-modules.md)
     * [MariaDB modules](workfront-fusion/apps-and-their-modules/mariadb-modules.md)
     * [Markdown modules](workfront-fusion/apps-and-their-modules/markdown-modules.md)
     * [Marketo modules](workfront-fusion/apps-and-their-modules/marketo-modules.md)

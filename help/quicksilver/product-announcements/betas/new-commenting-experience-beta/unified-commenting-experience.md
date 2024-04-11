@@ -12,15 +12,13 @@ exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
 
 <!--take out legacy, preview, prod references from below-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.  </span>  
+<!--
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers.</span>
 
 <span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 
-<!--
-
-After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases.
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  -->
+-->
 
 >[!IMPORTANT]
 >
@@ -561,7 +559,7 @@ The following is a planned timeline for the release of the new commenting experi
 
 ## Locate the new commenting experience
 
-<!--info for April 11: make this commented out text live and hide everything else underneath it, all the way to the end of the article: 
+<!--info for April 11: make this commented out text live and hide everything else underneath it, all the way to the end of the article:--> 
 
 >[!IMPORTANT]
 >
@@ -571,7 +569,7 @@ The following is a planned timeline for the release of the new commenting experi
 
 For information about accessing the Updates section of Workfront objects, see [Updates section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
 
--->
+<!--
 
 The new commenting experience is currently available for all customers and for all environments.
 
@@ -610,6 +608,8 @@ Depending on what objects you access the commenting experience for, you might se
     
     There is no option to enable the new commenting experience for iterations. Only the legacy commenting experience is available for iterations. 
 
+-->    
+
 
 <!--before August 17: 
 
@@ -638,6 +638,8 @@ The new commenting experience is currently supported for the following objects:
 * <span class="preview">Enable the legacy commenting experience in the Preview  environment </span>
 -->
 
+<!--
+
 To enable the commenting experience option for projects, tasks, issues, and documents: 
 
 1. (Conditional) In the Production environment, go to an object that you want to activate the new commenting experience for, then click **Updates** in the left panel.
@@ -654,3 +656,4 @@ To enable the commenting experience option for projects, tasks, issues, and docu
 
 1. (Optional) To disable the new commenting experience and return to legacy commenting, deselect the **New commenting** option. 
 
+-->
