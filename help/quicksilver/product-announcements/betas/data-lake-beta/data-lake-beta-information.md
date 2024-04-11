@@ -29,7 +29,7 @@ For information about using the Workfront data lake, see [Workfront data lake ov
 
 To enroll your organization in the beta, please fill out and submit the form at the following link:
 
-[Workfront data lake beta enrollment](adobe.ly/workfrontdatalake)
+[Workfront data lake beta enrollment](https://adobe.ly/workfrontdatalake)
 
 ### Provide feedback
 
