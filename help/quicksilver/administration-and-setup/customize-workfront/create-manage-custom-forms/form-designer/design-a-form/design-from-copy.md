@@ -11,12 +11,6 @@ exl-id: 578a8bd5-d93f-4327-bb4f-2c17b91b170a
 ---
 # Design a form from a copy with the form designer
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
-
 You can design a new custom form that is based on an existing one. You can attach custom forms to different Workfront objects to capture data about those objects.
 
 ## Access requirements
@@ -52,7 +46,7 @@ For more detail about the information in this table, see [Access requirements in
 {{step-1-to-setup}}
 
 1. Click **Custom Forms.**
-1. Select the custom form that you want to use as the basis for a new custom form, then click **Copy** <span class="preview">or ![Copy icon](assets/copy-icon.png).</span>
+1. Select the custom form that you want to use as the basis for a new custom form, then click ![Copy icon](assets/copy-icon.png).
 1. In the **Custom Form Copy** box that appears, type the following information:
 
    <table style="table-layout:auto"> 
@@ -66,20 +60,20 @@ For more detail about the information in this table, see [Access requirements in
      <tr> 
       <td role="rowheader"> <p role="rowheader">Form Types </p> </td> 
       <td> <p>In the <b>Form Type</b> box, select the object types that you want the custom form to work with, and click the X next to any types that you want to remove. Types that are already associated with the form are disabled in the list.</p> 
-      <p><img src="assets/copy-form-obj-types.png"></p> 
+      <p><img src="assets/copy-form-obj-types-040524.png"></p> 
       <p>The form must be associated with at least one object type.</p> 
       </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Click **Copy Form**.
+1. Click **Copy**.
 
    In the original form, if calculated fields reference fields that are incompatible with an object type you add to the new form, a message prompts you to change the calculations in those fields.
 
    Similarly, if an access option for a section break on the original form isn't compatible with an object type you add to the new one, a message prompts you to adjust the option.
 
-1. Select the form that you just copied, then click **Edit** <span class="preview">or ![Edit icon](assets/edit-icon.png).</span>
+1. Select the form that you just copied, then click ![Edit icon](assets/edit-icon.png).
 1. Make any changes to the form, as explained in the following sections of the [Design a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) article:
 
    * [Reuse an existing field or widget already used in another custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
