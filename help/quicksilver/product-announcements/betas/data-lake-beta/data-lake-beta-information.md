@@ -1,7 +1,7 @@
 ---
 navigation-topic: data-lake-beta
 title: Workfront data lake beta information
-description: General information about the Workfront Data Lake beta
+description: General information about the Workfront data lake beta
 author: Nolan
 feature: Reports and Dashboards
 hidefromtoc: yes

@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reports and dashboards
 navigation-topic: data lake
-title: Basic Data Lake query examples
-description: 
+title: Basic data lake query examples
+description: Basic example queries you can use to familiarize yourself with queries.
 author: Nolan
 feature: Reports and Dashboards
 hidefromtoc: yes

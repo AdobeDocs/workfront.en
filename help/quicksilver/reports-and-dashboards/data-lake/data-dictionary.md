@@ -3,7 +3,7 @@ content-type: reference
 product-area: reports and dashboards
 navigation-topic: data lake
 title: Data Lake data dictionary
-description: 
+description: This page contains information about the structure and content of the data in Workfront data lake.
 author: Nolan
 feature: Reports and Dashboards
 hidefromtoc: yes

@@ -3,7 +3,7 @@ content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data lake
 title: Workfront data lake overview
-description: 
+description: An overview of the Workfront data lake capability
 author: Nolan
 feature: Reports and Dashboards
 hidefromtoc: yes
