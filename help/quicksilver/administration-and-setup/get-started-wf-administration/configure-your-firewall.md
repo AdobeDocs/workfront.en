@@ -354,6 +354,18 @@ Add the following IP addresses to your allowlist to enable Workfront Fusion to a
      <li>54.244.142.219</li> 
      <li>52.39.217.230</li> 
      <li>44.241.82.96</li> 
+     <li>100.20.126.137</li>
+     <li>34.223.32.4</li>
+     <li>52.39.176.220</li>
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] on the Microsoft Azure cluster</td> 
+   <td> 
+    <ul> 
+     <li>20.36.133.48/28</li> 
+     <li>20.81.156.240/28</li> 
+     <li>172.172.84.48/28</li> 
     </ul> </td> 
   </tr> 
  </tbody> 

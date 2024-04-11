@@ -55,11 +55,16 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## View [!DNL Workfront Fusion] templates as an administrator
+## View [!DNL Workfront Fusion] templates as a [!DNL Workfront Fusion] administrator
 
 To view a table of all created templates and their statuses:
 
 1. Click **[!UICONTROL Administration]** in the left navigation panel to open the [!UICONTROL Administration] area.
+
+   >[!NOTE]
+   >
+   >The Administration area is visible only to Workfront Fusion administrators.
+   
 1. Click **[!UICONTROL Templates]** in the left navigation panel.
 
 There are three columns related to the templates publication status. A checkmark in a column indicates the following:

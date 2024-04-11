@@ -298,6 +298,41 @@ In lieu of a release webinar, we invite you to [register for Adobe Summit](https
             </tbody>
         </table>
 
+### Integration enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Enhancements to automated folder creation workflow in the Adobe Experience Manager integration</a></p><p>[!BADGE In production ]{type=Informative}</p>
+                        <p>To ensure that your Adobe Experience Manager folders more accurately reflect your needs, we've made some updates to the Adobe Experience Manager linked folders workflow.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: March 11, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production for all customers: March 14, 2024</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+
 ### Project enhancements
 
 <table>
@@ -589,11 +624,11 @@ There are no Workfront Proof updates at this point in the release. This area wil
 
 There are no Workfront Goals updates at this point in the release. This area will be updated when updates are available.
 
-### API version 16
+### API version 18
 
-For API version 16, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
+For API version 18, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
 
-For information on what's new and updated, see [What's new in API version 16](/help/quicksilver/wf-api/api/new-api-version-16.md).
+For information on what's new and updated, see [What's new in API version 18](/help/quicksilver/wf-api/api/new-api-version-18.md).
 
 For information on API versions, see [API versioning and support schedule](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
