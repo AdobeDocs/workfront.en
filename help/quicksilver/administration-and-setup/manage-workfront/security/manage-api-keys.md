@@ -76,7 +76,7 @@ You can generate, reset, or remove the API Key for your administrator user accou
    To generate an API Key: In the **API Key Settings** section, click **Generate API Key**.
 
    Or  
-   To reset an API Key: In the **API Key Settings** section, click **Reset**, then**Reset.**
+   To reset an API Key: In the **API Key Settings** section, click **Reset**, then **Reset.**
 
    Or
 
