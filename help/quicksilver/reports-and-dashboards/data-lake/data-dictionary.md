@@ -35,7 +35,7 @@ The Daily History table offers an abbreviated version of the Event table, in tha
 
 <!-- Custom table -->
 
-## Entity relationship table
+## Terminology table
 
 The following table correlates the object names in Workfront (as well as their names in the interface and API) with their equivalent name in the data lake.
 

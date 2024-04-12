@@ -23,7 +23,7 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Ultimate</td> 
+   <td>TBD</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
@@ -60,7 +60,7 @@ For more detail about the information in this table, see [Access requirements in
 
     ![Reset Snowflake password](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
 
-1. You may now use your username and new password to access your Workfront data lake in Snowflake.
+1. You may now use your username and new password to access your Workfront data lake in Snowflake or the business visualization tool of your choice.
 
 ## Add IPs to the allowlist
 

@@ -11,7 +11,7 @@ exl-id: 5224c12a-7879-491b-87ec-6173bcf9525c
 ---
 # Workfront data lake overview
 
-The Workfront data lake delivers unprecedented access to Workfront data, allowing you to answer business-critical questions and measure the value of your processes. This capability allows enterprise customers to interrogate their data using data visualization tools directly from a Workfront data lake, or to export Workfront data to a customer-owned data warehouses. 
+The Workfront data lake delivers unprecedented access to Workfront data using Snowflake technology, allowing you to answer business-critical questions and measure the value of your processes. This capability allows enterprise customers to interrogate their data using data visualization tools directly from a Workfront data lake, or to export Workfront data to a customer-owned data warehouses.
 
 Subscribers will be able to connect their business intelligence tool of choice (Tableau, Power BI, Domo, Looker, etc.) to the Workfront data lake to create data visualizations with the following types of data:
 
