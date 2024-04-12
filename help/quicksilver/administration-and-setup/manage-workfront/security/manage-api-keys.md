@@ -1,4 +1,4 @@
-****---
+---
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: security
