@@ -24,19 +24,9 @@ exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
 >
 >The information in this article refers to features that have been released to the new commenting experience. 
 >
->The beta program for the new commenting experience started in April 2023 and ended in October 2023. The beta program for the new commenting experience closed with the October 2023 release. 
+>The beta program for the new commenting experience started in April 2023 and ended in October 2023, with the October 2023 release. 
 >
->Starting in October 2023, all new features for the new commenting experience are released to all customers. For more information, see the current Release overview page for each release. 
-
-<!--An update to the commenting experience in Adobe Workfront is currently in development. This update includes a new interface, new features, and improved performance in the Updates section of select objects. 
-
-The new commenting experience will slowly become available for all the objects with an Updates section in Workfront, and later it will expand to other Adobe Experience Cloud applications.-->
-
-<!--For additional resources for the new commenting experience, also see the following articles:
-
-* [New commenting experience release activity](../new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
-* [New commenting experience FAQs](../../betas/new-commenting-experience-beta/new-commenting-faq.md)
--->
+>Since April 11, 2024 all features for the new commenting experience have been available in the Production environment for all customers. 
 
 ## Features
 
@@ -555,19 +545,20 @@ The following is a planned timeline for the release of the new commenting experi
 
 * With the Second Quarter 2024 release (April 11, 2024):
 
-    * Remove the option to switch back to the legacy commenting stream and make the new commenting stream the only experience for all objects, with the exception of Iterations. 
+    Remove the option to switch back to the legacy commenting stream and make the new commenting stream the only experience for all objects, with the exception of Iterations. 
 
 ## Locate the new commenting experience
 
-<!--info for April 11: make this commented out text live and hide everything else underneath it, all the way to the end of the article:--> 
+The new commenting experience is available in the following areas of Workfront:
 
->[!IMPORTANT]
->
->The new commenting experience is available in all Workfront environments on all objects with the exception of Iterations. 
->
->The legacy commenting experience has been removed from all environments for Projects, Tasks, Issues, and Documents. 
+* In the Updates section of all objects with the exception of Iterations.
 
-For information about accessing the Updates section of Workfront objects, see [Updates section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+  For information about accessing the Updates section of Workfront objects, see [Updates section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
+* In the Summary panel of tasks, issues, and documents in all areas where this is available (lists, timesheets, Workload Balancer, and Home). 
+* In the Home area for tasks and issues. 
+
+ 
 
 <!--
 
