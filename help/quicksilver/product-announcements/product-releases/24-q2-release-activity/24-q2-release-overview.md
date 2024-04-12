@@ -17,7 +17,7 @@ In lieu of a release webinar, we invite you to [register for Adobe Summit](https
 
 [Unveiling Marketing Calendars and Tools for End-to-End Campaign Planning](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) on March 28, 2024, to learn about new product capabilities designed to enable you organization to manage and visualize end-to-end operational lifecycles.
 
-You can also [view a PDF file](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352) with highlights of the 24.4 release.
+You can also [view a PDF file](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352){target="_blank"} with highlights of the 24.4 release.
 
 <span class="preview">Off-cycle features (those releasing to Production prior to the Second Quarter 2024 release date) are highlighted in yellow.</span>
 
