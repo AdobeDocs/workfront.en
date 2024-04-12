@@ -95,7 +95,7 @@ The Environment Promotion capability is intended to provide the ability to move 
 
 >[!NOTE]
 >
->Overwriting is currently available for the following objects:
+>Actions (ignore, select existing, and create new) are available on the following objects:
 >
 >* Role
 >* Team
