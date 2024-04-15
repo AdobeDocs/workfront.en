@@ -81,7 +81,13 @@ You must have the following access to perform the steps in this article:
 
 You can tag others on updates in the following ways:
 
-* **Automatically**: When a user starts a thread, adds a comment, or adds a reply, they are automatically tagged and added to the Tag people or teams area of the commenting box. <!--remove the tip below when the new commenting stream is the only stream and the legacy commenting is removed-->
+* **Automatically**: When a user starts a thread, adds a comment, or adds a reply, they are automatically tagged and added to the Tag people or teams area of the commenting box. 
+
+   >[!TIP]
+   >
+   >   Automatically tagging users is not possible when you add a comment on an iteration.  For information, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). \
+   >Automatically tagging users is not possible when you add a comment from other applications.
+
 
 * **Manually**: When you manually add a user to the Tag people area of the commenting box.
 
