@@ -5,36 +5,40 @@ product-area: system-administration
 navigation-topic: system-tracked-update-feeds
 title: System-tracked updates
 description: Adobe Workfront captures the activity taking place on certain objects by logging status information in the object's [!UICONTROL Updates] area.
-author: Lisa
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c88823a7-100b-40dd-b4f1-bead53ae5dc4
 ---
 # System-tracked updates
 
+<!-- Audited: April, 2024-->
+
+<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">For information about the current release, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+<span class="preview">For information about the current release, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>-->
 
-<!--remove new experience and legacy notes when we remove legacy in the UI - Jan 24???-->
+[!DNL Adobe Workfront] captures the activity taking place on certain objects by logging status information in the object's [!UICONTROL Updates] section. 
 
-[!DNL Adobe Workfront] captures the activity taking place on certain objects by logging status information in the object's [!UICONTROL Updates] area.
+For information about the Updates section, see [Updates section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
 
 The [!UICONTROL Updates] area includes the following types of updates:
 
-* **User updates:** Manually entered by users. Also referred to as comments, replies, and notes.
+* **User updates:** Manually entered by users. Also referred to as comments, replies, and notes. User updates display in the Comments and the All tabs of the Updates section of an object. 
 
    For more information about configuring user updates, see [Configure preferences for user updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md).
 
    ![](assets/updates-qs-350x125.png)
 
-* **System updates:** Automatically made by the system. A system update includes a brief note describing what kind of change happened to the item. 
+* **System updates:** Automatically made by the system. A system update includes a brief note describing what kind of change happened to the item. System updates display in the System Activity and the All tabs of the Updates section of an object. 
 
    For more information about system update feeds and how to enable them, see [Configure system updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md). 
 
    ![](assets/system-updates-example-unified-stream.png)
+
 
    <!--
   DRAFTED IN FLARE:
@@ -84,6 +88,13 @@ System-tracked updates are not available for all the objects that have the Updat
 Your [!DNL Workfront] license determines whether system updates display by default in the [!UICONTROL Updates] area of objects. [!DNL Workfront] users with a [!UICONTROL Plan] license have system updates displayed in the [!UICONTROL Updates] area by default. However, users can filter out system updates, as described in the [Enable or disable system updates](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) section in [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). All other [!DNL Workfront] licenses filter system updates by default.
 -->
 
+* User updates display in the Comments tab and system updates display in the System Activity and the All tabs.  
+
+   For a list of objects that do not have the System Activity or the All tabs, see [Update section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+
+* You cannot add a reply to a system update. However, any replies made to system activity records in the legacy commenting experience prior to April 11, 2024, are populated on the System Activity tab as read-only.
+
+<!--
 * The following are differences between the new and the legacy commenting experience: 
 
    * When using the new commenting experience, user updates display in the Comments tab and system updates display in the System Activity <span class="preview">and the All</span> tabs.  
@@ -100,12 +111,7 @@ Your [!DNL Workfront] license determines whether system updates display by defau
       For information about disabling the display of system updates, see the section [Enable or disable system updates](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable) in the article [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).  
 
    * <span class="preview">The legacy commenting experience has been disabled in the Preview environment. For more information, see [Second Quarter 2024 Update stream and notification enhancements](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md).</span>
-
-* Workfront records system-tracked updates for the following objects but there is no option to disable displaying them: 
-
-   * [!UICONTROL Portfolio]
-   * [!UICONTROL Program]
-   * [!UICONTROL Iteration] 
+-->
 
 * [!DNL Workfront] administrators can define what type of changes the system should track in the [!UICONTROL Updates] area. Not all objects that have an [!UICONTROL Updates] area also have configurable [!UICONTROL update] feeds. The following objects have an [!UICONTROL Updates] area that captures system-tracked update feeds, but do not have configurable update feeds:
 
