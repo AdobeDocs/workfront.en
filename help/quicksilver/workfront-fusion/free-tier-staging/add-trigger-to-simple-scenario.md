@@ -62,10 +62,8 @@ Because the first module has been replaced, the second module must be mapped to 
 
 ### Test and activate
 
-1. Test the scenario by clicking **Run once** in the lower-left corner of the screen.
-
-   The scenario begins watching for new issues.
-1. Go to the Workfront environment that Fusion is connecting to and add an issue. This will trigger the scenario.
+1. Go to the Workfront environment that Fusion is connecting to and add an issue. 
+1. Click **[!UICONTROL Run once]** in the lower-left corner of the scenario editor.
 1. Examine the output to ensure that the scenario ran as expected.
 1. When you are satisfied that the scenario is working as expected, click the **Scheduling** toggle in the lower-left of the screen to **On**.
 
