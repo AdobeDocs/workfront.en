@@ -195,7 +195,7 @@ The workspace that you access last opens.
 
     Or 
     
-    From the table table view, click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name. The record's box opens in the view.
+    From the table view, click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name. The record's box opens in the view.
 
     ![](assets/details-box.png) 
 
