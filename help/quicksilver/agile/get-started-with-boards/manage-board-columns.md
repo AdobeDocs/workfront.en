@@ -100,6 +100,8 @@ If you are using the WIP limit on a column, a separate card counter is not added
 >[!NOTE]
 >
 >Dynamic boards always place cards in the column that matches their status, regardless of whether column policies are enabled or disabled. Cards will return to their assigned columns when you refresh the board.
+> 
+>Also, for all board types, if you move a card from one column to another column with the same status, the card will return to the original column when you refresh the board.
 
 1. Access the board.
 1. Click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) on the column, and select **[!UICONTROL Edit]**.
