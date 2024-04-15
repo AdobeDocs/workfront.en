@@ -78,7 +78,7 @@ For instructions on configuring attribute mapping, see [Map user attributes in t
 
 >[!NOTE]
 >
->Preview release: February 8, 2024; Production for fast release: With the 24.2 release (February 15, 2024); Production for all customers: TBD
+>Preview release: February 8, 2024; Production for fast release: With the 24.2 release (February 15, 2024); Production for all customers: 24.4 (April 11, 2024)
 
 You can now edit existing display and skip logic and add new logic to custom forms in the form designer beta. An easy-to-use logic builder helps you define which fields to display or skip based on selections in the form.
 
