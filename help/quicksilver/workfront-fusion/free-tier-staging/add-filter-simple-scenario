@@ -2,8 +2,8 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
-title: Add a webhook to a basic scenario
-description: Webhooks, also known as instant triggers, are a specific kind of trigger module that can start a scenario whenever a change is made, instead of on a given schedule.
+title: Add a filter to a basic scenario
+description: Filters allow you to ensure that your scenario progresses only if certain conditions are met.
 author: Becky
 feature: Workfront Fusion
 ---
@@ -58,7 +58,7 @@ You must create the scenario described in [Create a basic scenario](/help/quicks
 1. When you are satisfied that the scenario is working as expected, click the **Scheduling** toggle in the lower-left of the screen to **On**.
 
    This activates the scenario. 
-1. In [!DNL Workfront Fusion], click **[!UICONTROL Save]** ![](assets/save-icon.png) near the lower-left corner to save your progress on the scenario.
+1. In [!DNL Workfront Fusion], click **[!UICONTROL Save]** near the lower-left corner to save your progress on the scenario.
 
    >[!IMPORTANT]
    >

@@ -68,7 +68,7 @@ Because the first module has been replaced, the second module must be mapped to 
 1. When you are satisfied that the scenario is working as expected, click the **Scheduling** toggle in the lower-left of the screen to **On**.
 
    This activates the scenario. 
-1. In [!DNL Workfront Fusion], click **[!UICONTROL Save]** ![](assets/save-icon.png) near the lower-left corner to save your progress on the scenario.
+1. In [!DNL Workfront Fusion], click **[!UICONTROL Save]** near the lower-left corner to save your progress on the scenario.
 
    >[!IMPORTANT]
    >
