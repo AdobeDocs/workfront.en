@@ -3,7 +3,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Add a webhook to a basic scenario
-description: Learn how to add a trigger module to allow the scenario to periodically look for new requests and convert them to projects.
+description: Webhooks, also known as instant triggers, are a specific kind of trigger module that can start a scenario whenever a change is made, instead of on a given schedule.
 author: Becky
 feature: Workfront Fusion
 ---
