@@ -8,7 +8,7 @@ exl-id: bdcfed70-1999-4c40-a38f-12c762c8c1c4
 ---
 # Second Quarter 2024 release overview
 
-This page provides information about functionality that is included in the Second Quarter 2024 release. These enhancements are planned to become available in the Production environment throughout the quarter.
+This page provides information about functionality that is included in the Second Quarter 2024 release. These enhancements were made available in the Production environment for all customers with the 24.4 release on April 10 and 11, 2024.
 
 <!--The 24.1 release webinar was on January 11, 2024. You can [register for the webinar to view an on-demand recording here](https://webinars.on24.com/adobe_workfront/whatsnewin241?partnerref=releaseoverview).-->
 In lieu of a release webinar, we invite you to [register for Adobe Summit](https://summit.adobe.com/na/) to watch the following Workfront sessions:
@@ -16,6 +16,8 @@ In lieu of a release webinar, we invite you to [register for Adobe Summit](https
 [The Future of Adobe Workfront](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=S302) on March 26, 2024, to get a sneak peek of the future of strategic planning and workflow. Learn how the Workfront team plans to address business capabilities across the entire marketing lifecycle—all with an AI-first approach to automate work, simplify user experiences, and boost productivity.
 
 [Unveiling Marketing Calendars and Tools for End-to-End Campaign Planning](https://reg.adobe.com/flow/adobe/as24/sessions/page/catalog?search=s304) on March 28, 2024, to learn about new product capabilities designed to enable you organization to manage and visualize end-to-end operational lifecycles.
+
+You can also [view a PDF file](https://acrobat.adobe.com/id/urn:aaid:sc:US:1754831a-dbfe-471d-bca7-386264d90352){target="_blank"} with highlights of the 24.4 release.
 
 <span class="preview">Off-cycle features (those releasing to Production prior to the Second Quarter 2024 release date) are highlighted in yellow.</span>
 
@@ -157,7 +159,7 @@ In lieu of a release webinar, we invite you to [register for Adobe Summit](https
                                 <p>Production for fast release: With the 24.2 release (February 15, 2024)</p>
                             </li>
                             <li>
-                                <p>Production for quarterly release: TBD</p>
+                                <p>Production for quarterly release: With the 24.4 release (April 11, 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -365,7 +367,7 @@ In lieu of a release webinar, we invite you to [register for Adobe Summit](https
                                 <p><span style="color: #ff0000;">This feature was removed from Production for fast release customers on March 18, 2024.</span></p>
                             </li>
                             <li>
-                                <p>Production for quarterly release: With the 24.4 release (April 11, 2024)</p>
+                                <p>Production for quarterly release: TBD</p>
                             </li>
                         </ul>
                     </td>
@@ -386,7 +388,7 @@ In lieu of a release webinar, we invite you to [register for Adobe Summit](https
                                 <p><span style="color: #ff0000;">This feature was removed from Production for fast release customers on March 18, 2024.</span></p>
                             </li>
                             <li>
-                                <p>Production for quarterly release: With the 24.4 release (April 11, 2024)</p>
+                                <p>Production for quarterly release: TBD</p>
                             </li>
                         </ul>
                     </td>

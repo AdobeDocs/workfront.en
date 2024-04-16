@@ -11,8 +11,6 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 
 <!-- Audited: 1/2024 -->
 
-<!--info for April 11: take "legacy" and "new commenting" references out when we remove the legacy-->
-
 <!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
@@ -47,21 +45,17 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span>
 -->
 
-You can add an update on an Adobe Workfront object to communicate about progress on the object. For more information about what objects you can add updates to in Workfront, see [Update section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
+You can add an update on an Adobe Workfront object to communicate to others about progress on the object. For more information about what objects you can add updates to in Workfront, see [Update section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
 
 The information in this article describes how you can comment and update information for projects, tasks, and issues. Users who are assigned or subscribed to the object can view your update. You can also tag users to bring their attention to the update. 
 
-Adding comments to other objects is similar to updating projects, tasks, and issues. For additional information about commenting on cards, goals, or iterations, also see the following articles: 
+Adding comments to other objects is similar to updating projects, tasks, and issues. For additional information about commenting on cards and goals, also see the following articles: 
 
 * [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). 
 
    You must have an additional license to access Workfront Goals.
 
 * [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md)
-
-* [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)
-
-
 
 ## Access requirements
 
@@ -122,7 +116,7 @@ For more detail about the information in this table, see [Access requirements in
 
    * From a Workfront object, in the Updates section (for projects, tasks, and issues)  
    * From the Home area (for tasks and issues)
-   * From the Summary panel in the following areas (for tasks and issues):
+   * From the Summary panel in the following areas (for tasks, issues, and documents):
    
       * A list of objects
       * A timesheet
@@ -219,21 +213,23 @@ You can add updates to the following objects:
 
 <!--info for April 11: reword the title of this section to: "Add an update to a work item"; take out the step that says you need to enable the "New commenting" toggle (I think it is step 3??)-->
 
-## Add an update to a work item <!--using the new commenting experience-->
+## Add an update to a work item 
 
-1. Locate the object you want to update (project, task, or issue), then click its name to open the object's page.
+This article describes how you can update project, tasks or issues. Updating most other objects is similar. 
+
+1. Locate the object you want to update, then click its name to open the object's page.
 1. Click  **Updates** in the left panel. 
    The **Comments** tab is selected by default.
 
-<!--
-1. (Conditional) If the **New commenting** option is disabled, click to enable it. 
+   <!--
+   1. (Conditional) If the **New commenting** option is disabled, click to enable it. 
 
-   This enables the new commenting experience. 
+      This enables the new commenting experience. 
 
-      >[!TIP]
-      >
-      ><span class="preview">The New commenting option has been removed in the Preview environment.</span>
--->
+         >[!TIP]
+         >
+         ><span class="preview">The New commenting option has been removed in the Preview environment.</span>
+   -->
 
 1. Start entering a comment in the **New comment** box.
 
@@ -287,10 +283,6 @@ You can add updates to the following objects:
    ![](assets/blue-new-comments-banner-with-view-button.png)
 
    Additional comments display at the bottom of the screen.
-
-   >[!NOTE] 
-   >
-   >   The "new comments" indicator and "View" button display only when both the users that entered the new updates as well as the user currently looking at the Updates section are using the new commenting experience.
    
 1. (Optional) Click the **Like** icon![](assets/like-icon.png). The icon updates with the number of likes.
 1. (Conditional and optional) If you included additional people in your comment, click the number of members included in the update to display a list of entities that the comment you entered is shared with. 
@@ -308,7 +300,7 @@ You can add updates to the following objects:
 
    >[!TIP]
    >
-   >You cannot add a comment to a system update. However, any replies that were made to system activity records in the legacy commenting experience are populated on the System Activity tab as read-only.
+   >You cannot add a comment to a system update. However, any replies that were made to system activity records in the legacy commenting experience were added to the System Activity tab as read-only. The legacy commenting experience has been removed from Workfront on April 11, 2024. 
 
 1. (Optional) Click the **All** tab to view both user comments and system activity comments in one place. This is a view-only tab.
 
@@ -349,11 +341,11 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
    >* If your organization uses Workfront with Internet Explorer, any formatted text pasted into an update loses its Rich Text formatting and displays as plain text. You can reformat the text using the attributes on the Rich Text toolbar.
    >* Rich Text formatting is not available for updates made in the Timesheets area or for Note and Last Condition objects viewed in a report.
 
-<!--1. (Optional and conditional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting. This is not available in the new commenting experience.-->
+   <!--1. (Optional and conditional) If you want to include text from previous updates or from other sources and distinguish it from your own update, you can mark it as a Block Quote. Click the **Block Quote** icon ![](assets/block-quote-small.png) and type the text you want to quote. The quoted text displays marked with a vertical gray line. Click the **Block Quote** icon again to return to normal formatting. This is not available in the new commenting experience.-->
 
-   <!--remove this picture below and the bullet above when we remove legacy-->
+      <!--remove this picture below and the bullet above when we remove legacy-->
 
-   <!--![](assets/block-quote-marked-350x144.png)-->
+      <!--![](assets/block-quote-marked-350x144.png)-->
 
 1. (Optional) Click the **emoji** icon ![](assets/emoji-icon.png) to add emojis to your update. 
 
@@ -425,9 +417,11 @@ You can search for a comment or a reply in the Updates section of an object.
 
 <!-- when we release search to production, check above and make sure you don't have to add that the users tagged/ owners are also searchable-->
 
-## Copy update information
+## Copy updates
 
-There are several ways you can copy an update. After copying a link, you can share the link with others to direct them to the update.
+There are several ways you can copy an update. 
+
+You can copy a link to the update, or copy the content of an update to use it in a new update. 
 
 <!--Copying an update differs depending on which commenting experience you use.-->
 
@@ -441,7 +435,7 @@ You can copy information from an existing comment by doing one of the following:
 
 * [Copy link](#copy-link)
 * [Copy body text](#copy-body-text)
-* [Quote reply](#quote-reply-1)
+* [Quote reply](#quote-reply)
 
 ![](assets/copy-comment-ways-from-more-menu-on-comment.png)
 
@@ -479,7 +473,6 @@ The Quote reply option copies the original comment to a new reply as a block quo
 
    ![](assets/block-quote-highlighted-mid-comment-before-submit.png)
 
-   <!--ensure the screen shot above is correct - missing he block quote icon in rich text -->
 
 1. Continue adding your update and click **Submit** to add the comment.
 
@@ -543,14 +536,14 @@ The Quote Reply option copies the original comment to a new reply as a block quo
 1. Continue adding your update and click **Reply** to add the comment.
 -->
 
-## Delete an update or reply
+## Delete an update or a reply
 
 Depending on the access your Workfront administrator gives you, you might be able to delete updates you added on the Updates tab of an object. For more information, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) in the article [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 No Workfront user (including the Workfront administrator) can delete updates made by another user. However, if a user's access level allows them to delete their own updates, the Workfront administrator can log in as that user and delete updates they made. For more information, see [Create or modify custom access levels](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md#creating-a-new-access-from-scratch) and [Log in as another user](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
 1. Go to the update or reply you want to delete.
-1. Click the **More** menu next to the update or reply you wish to delete, then click **Delete**. <!--October 2023 - replace screen shot here-->
+1. Click the **More** menu next to the update or reply you wish to delete, then click **Delete**. 
 
    ![](assets/update-stream-comment-menu-marked-350x152.png)
 

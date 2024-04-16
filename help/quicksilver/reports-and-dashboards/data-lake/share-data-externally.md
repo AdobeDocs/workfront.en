@@ -6,8 +6,6 @@ title: Sharing data with business intelligence tools and external data warehouse
 description: Workfront data lake allows you to use your organization's Workfront data with popular business intelligence tools or store it in an external data warehouse.
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: yes
-hide: yes
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
 ---

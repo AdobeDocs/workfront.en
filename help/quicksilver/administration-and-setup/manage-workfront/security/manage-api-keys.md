@@ -76,7 +76,7 @@ You can generate, reset, or remove the API Key for your administrator user accou
    To generate an API Key: In the **API Key Settings** section, click **Generate API Key**.
 
    Or  
-   To reset an API Key: In the **API Key Settings** section, click **Reset**, then**Reset.**
+   To reset an API Key: In the **API Key Settings** section, click **Reset**, then **Reset.**
 
    Or
 
@@ -94,12 +94,12 @@ You can generate and manage API Keys for users in roles other than Workfront adm
 
    1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
    
-   1. Expand **System**, then click **Single Sign-on (SSO)**.  
+   1. Expand **System**, then click **Single Sign-on (SSO)**. 
+   1. In the **Type** field, select the type of SSO your organization uses.
+   1. With the type selected, scroll down and clear the **Enable** checkbox. 
       ![](assets/sysadmin-security-sso-disable-31620-350x320.png)  
+   1. Click **Save**.
 
-   1. Disable the checkbox requiring SSO authentication.
-
-      For example, if your organization uses SAML 2.0, disable **Only Allow SAML 2.0 Authentication**.
 
 1. In the address bar of a browser, enter the following API call:
 
@@ -201,6 +201,6 @@ After you have obtained the X.509 certificate from your Certificate Authority, y
 
 Prior to configuring your instance of Workfront to require an X.509 certificate, perform an API request to the `/login` endpoint using valid username and password parameters. You will receive a 200 response that contains a sessionID.
 
-After making the X.509 certificate a requirement via the customer info page in your instance of Workfront, make another login attempt. This time you will receive a 500 error response with the following message: “Untrusted request. Please contact your system administrator and attach certificate."
+After making the X.509 certificate a requirement via the customer info page in your instance of Workfront, make another login attempt. This time you will receive a 500 error response with the following message: "Untrusted request. Please contact your system administrator and attach certificate."
 
 After confirming that the X.509 certificate is required, perform the same login request with an additional parameter for apiCertificate set to the value of your certificate. If this operation was performed correctly you will receive a 200 response that contains a valid sessionID.
