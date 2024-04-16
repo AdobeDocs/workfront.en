@@ -7,6 +7,7 @@ description: An External Lookup field in a custom form calls an external API and
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
+exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
 ---
 # Examples of the External Lookup field in a custom form
 
@@ -121,4 +122,3 @@ This example shows how to call an API of countries (such as <https://api.first.o
    ![Custom form with external lookup field](assets/external-lookup-countries-example1.png)
 
    ![External lookup options for a country based on region](assets/external-lookup-countries-example2.png)
-

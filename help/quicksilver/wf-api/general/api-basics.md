@@ -29,6 +29,10 @@ For production, preview, and test drive environments end user requests have a ma
 
 Any use of the API should be tested in the Workfront beta environment prior to being run in the production environment. If any customer uses the API for a process that Workfront reasonably believes to be burdensome to the on-demand software (i.e., the process causes a materially negative effect on the performance of the software for other customers), Workfront reserves the right to request that the customer discontinues that process. If the customer does not comply and the problem persists, Workfront reserves the right to terminate the process.
 
+## Workfront API URL
+
+For information about the URL that you will use to call the Workfront API, see [Domain format for Adobe Workfront API calls](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md).
+
 ## REST Basics
 
 This section provides a high-level introduction of how to interact with the Workfront REST API for the following REST principles:

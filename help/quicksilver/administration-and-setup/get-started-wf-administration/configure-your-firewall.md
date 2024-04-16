@@ -79,7 +79,6 @@ For more information, see the section [View your organization's cluster and Work
 * [IP addresses to allow for enhanced authentication](#ip-addresses-to-allow-for-enhanced-authentication) 
 * [IP addresses to add for accessing Workfront Fusion](#ip-addresses-to-add-for-accessing-workfront-fusion) 
 * [IP addresses to add for using Workfront for Jira](#ip-addresses-to-add-for-using-workfront-for-jira) 
-* [IP addresses to add for using Workfront Ascent](#ip-addresses-to-add-for-using-workfront-ascent) 
 * [URLs to add for all clusters Workfront](#urls-to-add-for-all-clusters-workfront)
 
 ### IP addresses to allow for Clusters 1, 2, 3, 5, 7, 8 and 9 {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
@@ -355,6 +354,18 @@ Add the following IP addresses to your allowlist to enable Workfront Fusion to a
      <li>54.244.142.219</li> 
      <li>52.39.217.230</li> 
      <li>44.241.82.96</li> 
+     <li>100.20.126.137</li>
+     <li>34.223.32.4</li>
+     <li>52.39.176.220</li>
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] on the Microsoft Azure cluster</td> 
+   <td> 
+    <ul> 
+     <li>20.36.133.48/28</li> 
+     <li>20.81.156.240/28</li> 
+     <li>172.172.84.48/28</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -373,6 +384,10 @@ Also, if your organization uses outbound network filtering, add the following do
   <tr> 
    <td role="rowheader"> <p>Adobe Workfront US Datacenter</p> </td> 
    <td> <p>hook.app.workfrontfusion.com </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!DNL Adobe Workfront Fusion] on the Microsoft Azure cluster</p> </td> 
+   <td> <p>hook.app-az.workfrontfusion.com </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -425,38 +440,6 @@ The jira.workfront.com domain must also be accessible from your corporate server
      <li>35.160.0.242 </li> 
      <li>3.209.27.146</li> 
      <li>18.205.251.4</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### IP addresses to add for using Workfront Ascent {#ip-addresses-to-add-for-using-workfront-ascent}
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">To access Workfront training resources via Workfront Ascent</td> 
-   <td> 
-    <ul> 
-     <li>18.223.140.34</li> 
-     <li>3.13.223.30</li> 
-     <li>3.13.19.112</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">To receive email notifications from Workfront Ascent</td> 
-   <td> 
-    <ul> 
-     <li>23.251.227.75</li> 
-     <li>23.251.227.76</li> 
-     <li>23.251.227.77</li> 
-     <li>23.251.227.78</li> 
-     <li>23.251.227.79</li> 
-     <li>23.251.227.80</li> 
-     <li>23.251.227.81</li> 
-     <li>23.251.227.82</li> 
     </ul> </td> 
   </tr> 
  </tbody> 

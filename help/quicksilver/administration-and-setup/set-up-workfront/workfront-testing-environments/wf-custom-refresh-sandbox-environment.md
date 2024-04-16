@@ -191,6 +191,8 @@ For more information about configuring [!DNL Workfront] with SSO, see [Overview 
 
 ## Intended use and availability
 
-[!DNL Workfront] Custom Refresh Sandbox environments are not intended for performance or load testing. Rather, use these environments to validate feature functionality with your organization's existing workflows.
+* [!DNL Workfront] Custom Refresh Sandbox environments are not intended for performance or load testing. Rather, use these environments to validate feature functionality with your organization's existing workflows.
 
-[!DNL Workfront] Custom Refresh Sandbox environments are intended to be always available. Any outage to a Workfront Custom Refresh Sandbox environment during regular business hours will be a first priority immediately after any Production issues are resolved if any exist. Any outage to a Workfront Custom Refresh Sandbox environment on weekends (Saturdays and Sundays) will be addressed so that the environment is running for business hours on Monday.
+* [!DNL Workfront] Custom Refresh Sandbox environments are intended to be always available. Any outage to a Workfront Custom Refresh Sandbox environment during regular business hours will be a first priority immediately after any Production issues are resolved if any exist. Any outage to a Workfront Custom Refresh Sandbox environment on weekends (Saturdays and Sundays) will be addressed so that the environment is running for business hours on Monday.
+
+* Proofing is not available in the Custom Refresh Sandbox environments.

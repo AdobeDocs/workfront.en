@@ -11,8 +11,6 @@ exl-id: ae774e73-9798-40d1-a96d-a4511f729e7f
 ---
 # Configure sharing for custom fields and widgets with the legacy form builder
 
-{{highlighted-preview}}
-
 By default, when you add a new custom field or widget to a custom form, anyone in the system with access to custom forms can edit the properties for that item, such as its label and name. You can change this by controlling who it can be shared with.
 
 For information about custom fields and widgets in custom forms, see [Add a custom field to a custom form with the legacy form builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) and [Add or edit an asset widget in a custom form with the legacy form builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
@@ -53,11 +51,11 @@ For more detail about the information in this table, see [Access requirements in
 1. If you are configuring sharing for a custom field or widget in your organization's Workfront instance, do the following:
 
    1. Click **Fields** to open the Fields area.
-   1. Select the item you want to configure sharing for, then click **Share** <span class="preview">or ![Share icon](assets/share-icon.png).</span>
+   1. Select the item you want to configure sharing for, then click ![Share icon](assets/share-icon.png).
 
    Or, if you are configuring sharing for a custom field or widget in an existing custom form, do the following:
 
-   1. Select the custom form, then click **Edit** <span class="preview">or ![Edit icon](assets/edit-icon.png).</span>
+   1. Select the custom form, then click ![Edit icon](assets/edit-icon.png).
    1. In the form editing area on the right, select the item you want to configure sharing for.
    1. In the left panel, click **Share field**.
 
@@ -121,7 +119,7 @@ You can find out who has inherited access to a custom field or widget and you ca
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 
 1. In the left panel, click **Custom Forms**.
-1. Click the **Fields** tab, then select the field, image, or access widget.
+1. Click **Fields**, then select the field, image, or access widget.
 1. In the box that displays, click **Inherited Permissions** and view the names that display.
 1. Click **Cancel**.
 
