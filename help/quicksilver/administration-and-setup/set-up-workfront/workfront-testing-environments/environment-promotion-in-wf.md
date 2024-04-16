@@ -93,6 +93,15 @@ The Environment Promotion capability is intended to provide the ability to move 
 
 \* Not currently available 
 
+>[!NOTE]
+>
+>Actions (ignore, select existing, and create new) are available on the following objects:
+>
+>* Role
+>* Team
+>* Company
+>* Group
+
 
 ## Environment promotion statuses
 
@@ -130,3 +139,4 @@ These statuses include the following:
   </tr> 
   </tbody> 
 </table>
+

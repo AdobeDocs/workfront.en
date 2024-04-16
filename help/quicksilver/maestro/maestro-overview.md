@@ -178,7 +178,7 @@ The following are the main Workfront Planning objects and concepts:
     * Last modified by
     * Last modified date
    
-* **Linked record types**, **Linked records**, and **Linked record fields**:  You can create a connection between the following entities in Workfront Planning:
+* **Linked record types**, **Linked records**, and **Linked record fields** or **Connected record types**, **Connected records**, and **Connected fields**:  You can create a connection between the following entities in Workfront Planning:
     
     * Two record types.
     * A record type and a Workfront project, program, portfolio, company, or group object type. 

@@ -86,6 +86,15 @@ You must be assigned to a task or the issue or have Manage permissions to it to 
 
 You can manually update the Condition of a task or issue in a task or issue report or list when  you display the Condition field in the view. 
 
+>[!NOTE]
+>
+>You can ask your system or group administrator to add the Condition field to your Summary panel, to make it easier to update it in various areas of Workfront. 
+>
+>For more information, see the following articles:
+>
+>* [Summary overview](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+>* [Customize Home and Summary using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+
 
 <!--old Condition update - in the commenting stream: 
 Updating the Condition of a task or issue differs depending on whether you are assigned to it or not:

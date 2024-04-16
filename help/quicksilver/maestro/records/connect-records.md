@@ -177,7 +177,9 @@ You must have the following access to perform the steps in this article:
 
     >[!TIP]
     >
-    >    You can open a record's page, find the linked record field and click the **+** icon in the field to add records from the connected record or object type. 
+    >    You can open a record's page, find the linked record field and click **Connect records** in the field to add records from the connected record or object type. 
+    >
+    >![](assets/connect-records-from-record-page-field.png)
 
     The following are added:
 

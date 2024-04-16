@@ -147,8 +147,12 @@ You must have the following before you begin:
    >The first 50 mentions display by default.
 
 1. (Optional) Click **[!UICONTROL Show More Updates]** to view more mentions.
-1. (Optional) Click **[!UICONTROL Reply]** to respond to a comment, enter your response, then click **[!UICONTROL Reply]** again.
+1. (Optional) Click **[!UICONTROL Reply]** to respond to a comment, and do any of the following:
+   * Start typing a reply
+   * Use the Rich Text toolbar to format your text, add links, lists, emojis, quotes, or images to your message
+   * Add users or teams to notify them of your reply.
+      
+      When you are done adding the reply, click **[!UICONTROL Reply]** again.
 
-   For more information about updating items, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-
+      ![](assets/reply-in-the-my-updates-area.png)
 1. (Optional) Click **[!UICONTROL Pin current page]** to pin the [!UICONTROL My Updates] area to your top navigation.
