@@ -176,16 +176,6 @@ Converts all alphabetical characters in a text string to uppercase.
 >
 >Returns: [!UICONTROL HELLO] 
 
-## [!UICONTROL split (text; separator)]
-
-Splits a string into an array of strings by separating the string into substrings.
-
->[!INFO]
->
->**Example:** 
->
->`split( John, George, Paul ; , )`
-
 ## [!UICONTROL substring (text; start;end)]
 
 Returns a portion of a text string between the "start" position and "end" position.
@@ -202,33 +192,51 @@ Returns a portion of a text string between the "start" position and "end" positi
 >
 >   Returns: el
 
-## [!UICONTROL base64 (text)]
+## [!DNL indexOf (string; value; [start])]
 
-Transforms text to base64.
-
->[!INFO]
->
->**Example:** 
->
->`base64( workfront )`
->
->Returns: d29ya2Zyb250==  
-
-## contains (text; search string)
-
-Verifies whether text contains the search string.
+Returns the position of the first occurrence of a specified value in a string. This method returns '-1' if the value that is searched for is not there. The start value indicates where in the string the search should begin.
 
 >[!INFO]
 >
 >**Examples:**
 >
->* `contains( Hello World ; Hello )`
+>* `indexOf( Workfront ; o )`
 >
->   Returns: [!UICONTROL true]
+>   Returns: 1
 >
->* `contains( Hello World ; Bye )`
+>* `indexOf( Workfront ; x )`
 >
->   Returns: [!UICONTROL false]
+>   Returns: -1
+>
+>* `indexOf( Workfront ; o ; 3 )`
+>
+>   Returns: 6
+
+## [!UICONTROL toBinary (value)]
+
+Converts any value to binary data.
+
+You can also specify encoding as a second argument to apply binary conversions from hex or base64 to binary data.
+
+>[!INFO]
+>
+>**Examples:**
+>
+>* `toBinary( Workfront )`
+>
+>   Returns: 57 6f 72 6b 66 72 6f 6e 74
+>
+>* `toBinary( V29ya2Zyb250 ; base64 )`
+>
+>   Returns: 57 6f 72 6b 66 72 6f 6e 74
+
+## [!UICONTROL toString (value)]
+
+Converts any value to a string.
+
+## [!UICONTROL encodeURL (text)]
+
+Encodes special characters in some text to a valid URL address.
 
 ## [!UICONTROL decodeURL (text)]
 
@@ -240,10 +248,6 @@ Decodes special characters in a URL to text.
 >`decodeURL( Automate%20your%20workflow )`
 >
 >Returns: [!UICONTROL Automate your workflow]  
-
-## [!UICONTROL encodeURL (text)]
-
-Encodes special characters in some text to a valid URL address.
 
 ## [!UICONTROL escapeHTML (text)]
 
@@ -269,25 +273,43 @@ Escapes all Markdown tags in text.
 >
 >Returns: `&#35; Header`
 
-## [!DNL indexOf (string; value; [start])]
+## [!UICONTROL stripHTML (text)]
 
-Returns the position of the first occurrence of a specified value in a string. This method returns '-1' if the value that is searched for is not there. The start value indicates where in the string the search should begin.
+Removes all HTML tags from text.
+
+>[!INFO]
+>
+>**Example:** 
+>
+>`stripHTML( <b>Hello</b> )`
+>
+>Returns: Hello
+
+## contains (text; search string)
+
+Verifies whether text contains the search string.
 
 >[!INFO]
 >
 >**Examples:**
 >
->* `indexOf( Workfront ; o )`
+>* `contains( Hello World ; Hello )`
 >
->   Returns: 1
+>   Returns: [!UICONTROL true]
 >
->* `indexOf( Workfront ; x )`
+>* `contains( Hello World ; Bye )`
 >
->   Returns: -1
+>   Returns: [!UICONTROL false]
+
+## [!UICONTROL split (text; separator)]
+
+Splits a string into an array of strings by separating the string into substrings.
+
+>[!INFO]
 >
->* `indexOf( Workfront ; o ; 3 )`
+>**Example:** 
 >
->   Returns: 6
+>`split( John, George, Paul ; , )`
 
 ## [!UICONTROL md5 (text)]
 
@@ -351,36 +373,14 @@ When using "[!UICONTROL binary]" key encoding, a key must be a buffer, not a str
 >
 >Returns: 789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd119b85e1e19db58bb44b234493af35fd431639c0345aadf2cf7ec26e9f4a7fb19 
 
-## [!UICONTROL stripHTML (text)]
+## [!UICONTROL base64 (text)]
 
-Removes all HTML tags from text.
+Transforms text to base64.
 
 >[!INFO]
 >
 >**Example:** 
 >
->`stripHTML( <b>Hello</b> )`
+>`base64( workfront )`
 >
->Returns: Hello
-
-## [!UICONTROL toBinary (value)]
-
-Converts any value to binary data.
-
-You can also specify encoding as a second argument to apply binary conversions from hex or base64 to binary data.
-
->[!INFO]
->
->**Examples:**
->
->* `toBinary( Workfront )`
->
->   Returns: 57 6f 72 6b 66 72 6f 6e 74
->
->* `toBinary( V29ya2Zyb250 ; base64 )`
->
->   Returns: 57 6f 72 6b 66 72 6f 6e 74
-
-## [!UICONTROL toString (value)]
-
-Converts any value to a string.
+>Returns: d29ya2Zyb250==  
