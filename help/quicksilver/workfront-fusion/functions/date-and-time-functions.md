@@ -11,7 +11,7 @@ exl-id: 76c63afc-4bb6-4895-9bba-6b3913ecbcf6
 ---
 # Date and time functions in [!DNL Adobe Workfront Fusion]
 
-### Access requirements 
+## Access requirements 
 
  
 
