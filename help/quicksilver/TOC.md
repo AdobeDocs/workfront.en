@@ -2109,7 +2109,7 @@ feature-set: Workfront
     * [Platform-based administration differences (Adobe Workfront Fusion/Adobe Business Platform)](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md) 
   * Connections in Adobe Workfront Fusion {#connections-in-fusion}
     * [Connections in Adobe Workfront Fusion](workfront-fusion/connections/connections.md)
-    * [About connecting Adobe Workfront Fusion to an app or service](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
+    * [Connections overview](workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md)
     * [Create connections in Adobe Workfront Fusion](workfront-fusion/connections/connection-instruction-toc.md)
     * [Connection metadata](/help/quicksilver/workfront-fusion/connections/connection-metadata.md)
     * [Create a connection to Adobe Workfront Fusion - Basic instructions](workfront-fusion/connections/connect-to-fusion-general.md)

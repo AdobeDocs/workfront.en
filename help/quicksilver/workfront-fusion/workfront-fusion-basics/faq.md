@@ -112,4 +112,4 @@ Data transfer refers to the amount of data transferred through your scenario. Fo
 
 A connection is the link between your [!DNL Workfront Fusion] account and the third-party service you want to use. The connection can be easily created when editing a scenario. To add a connection, click the **[!UICONTROL Add]** button in the module setting and follow the step-by-step instructions.
 
-For more information, see [About connecting [!DNL Adobe Workfront Fusion] to an app or service](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+For more information, see [Connections overview](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).

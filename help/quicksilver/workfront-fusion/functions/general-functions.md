@@ -129,7 +129,7 @@ Omits the given keys of the object and returns the rest.
 >
 >`omit(` User `;` password `)`
 >
->Returns a collection of the user's information, excluding >the password.
+>Returns a collection of the user's information, excluding the password.
 
 ## [!UICONTROL pick(object; key1; [key2; ...])]
 
