@@ -148,9 +148,10 @@ You can edit a record from the following areas:
 
 1. (Optional) To copy and paste information from one field to another, do one of the following:
 
-    * Copy one or multiple existing values of a field, then paste them into a field of the same type on another record
+    * Copy one or multiple existing values of one field, then paste them into a field of the same type on another record
     * Click the column header of a column to select it and copy it, then click the column header of another column and paste the contents of the copied column. The columns must contain similar field types. 
     * With your Shift key pressed, click to select several rows in a table, copy the information in the selected rows, then click a different row and paste the selected information in the new row and the following rows after that. 
+    * Copy the information from one cell, then select multiple cells and paste the same information in multiple cells. You can select multiple cells and paste the same information in multiple cells from adjacent rows and columns. 
 
     >[!NOTE]
     >
@@ -165,7 +166,7 @@ You can edit a record from the following areas:
     >* You cannot copy and paste field values for the following field types:   
     >
     >
-    >    * Linked fields that are created by connecting record types. You can copy and paste linked record fields. For more information, see [Connect record types](../architecture/connect-record-types.md). 
+    >    * Linked fields (or lookup fields) that are created by connecting record types. You can copy and paste linked record fields. For more information, see [Connect record types](../architecture/connect-record-types.md). 
     >    * Fields of the following types: Created by, Created date, Last modified by, Last Modified date 
     
 1. (Optional) Use the following keyboard shortcuts to undo or redo editing or copying and pasting record information: 
@@ -195,7 +196,7 @@ The workspace that you access last opens.
 
     Or 
     
-    From the table table view, click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name. The record's box opens in the view.
+    From the table view, click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name. The record's box opens in the view.
 
     ![](assets/details-box.png) 
 

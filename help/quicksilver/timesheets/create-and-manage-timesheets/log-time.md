@@ -342,7 +342,7 @@ Additionally, to log time for an item in the My Work widget:
 
 1. Got to the **Home** area. 
 1. Add the **My Work** widget to your Home. 
-1. Select a task, issue, or request in a list, then click **Work On It**
+1. (Optional) Select a task, issue, or request in a list, then click **Work On It**
 1. Hover over the task or issue you want to log time for, then click the **Log Time** icon ![](assets/log-time-icon-in-new-home.png) to the right of the task information.
 
    ![](assets/log-time-ui-for-task-from-new-home.png)

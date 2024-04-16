@@ -545,13 +545,13 @@ The following is a planned timeline for the release of the new commenting experi
 
 * With the Second Quarter 2024 release (April 11, 2024):
 
-    Remove the option to switch back to the legacy commenting stream and make the new commenting stream the only experience for all objects, with the exception of Iterations. 
+    Remove the option to switch back to the legacy commenting stream and make the new commenting stream the only experience for all objects.
 
 ## Locate the new commenting experience
 
 The new commenting experience is available in the following areas of Workfront:
 
-* In the Updates section of all objects with the exception of Iterations.
+* In the Updates section of all objects.
 
   For information about accessing the Updates section of Workfront objects, see [Updates section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 

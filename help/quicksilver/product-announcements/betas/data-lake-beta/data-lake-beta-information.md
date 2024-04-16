@@ -4,8 +4,6 @@ title: Workfront data lake beta information
 description: General information about the Workfront data lake beta
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: yes
-hide: yes
 recommendations: noDisplay, noCatalog
 exl-id: 2daf7617-5b3e-49f7-b93b-4210b1b2ea49
 ---

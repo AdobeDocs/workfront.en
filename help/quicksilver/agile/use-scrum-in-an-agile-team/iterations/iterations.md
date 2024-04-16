@@ -19,4 +19,3 @@ The following articles describe how you can use iterations when working in a Scr
 * [Add stories to an existing iteration](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
 * [View an iteration](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)
 * [Delete an iteration](../../../agile/use-scrum-in-an-agile-team/iterations/delete-iteration.md)
-* [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)

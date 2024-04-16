@@ -37,13 +37,13 @@ exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process. </span> 
 -->
 
-When someone replies to a comment or a system update on a work object, their reply appears in the communication thread in the Comments and All tab in the Updates section for the object. 
+When someone replies to a comment or a system update on a work object, their reply appears in the communication thread in the Comments and All tabs in the Updates section for the object. 
 
 >[!IMPORTANT]
 >
 >It is not possible to reply to system updates in the System Activity tab. Any replies to system updates made in the legacy commenting experience prior to April 11, 2024 display as read-only . 
 
-<!--adjust the sentence before the second IMPORTANT and remove this important note when we remove legacy from the system-->
+This article describes how you reply to comments from most objects in Workfront. For differences between the Updates sections of various objects, see [Updates section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md). 
 
 ## Access requirements
 
@@ -79,9 +79,9 @@ You must have the following access to perform the steps in this article:
 
 You can reply to a comment in the thread of an object that you can view, or you can log in as a Workfront or group administrator and reply to a comment on behalf of another user. For more information, see [Log in as another user](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md). 
 
-Replying to a comment or reply differs depending on which experience and which object you select.
-
 ### Reply to a comment 
+
+Reply to a comment in the Updates section of an object is similar for most objects in Workfront.
 
 1. Go to the object to which you want to add a reply.
 1. Click **Updates**, then click the **Comments** tab for the object and find the comment or reply to which you want to reply

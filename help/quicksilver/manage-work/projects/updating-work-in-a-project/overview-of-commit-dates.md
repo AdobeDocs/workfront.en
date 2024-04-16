@@ -58,9 +58,20 @@ Manually setting the Commit Date for a task or issue triggers the following chan
         
   The change of the Commit Date displays in the Updates area of the task or issue when the Workfront administrator enables this update in the Updates Feeds area in Setup. For information, see [System-tracked updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
-  If a Project Owner does not want to accept the change, we recommend that they comment back to the user proposing a new date using the Comments tab in the Updates section, to ask them to change the Commit Date back to the original Planned Date, or select a new date. If a Project Owner accepts the change, they can manually adjust the Planned Completion Date to match the Commit Date offered by the user assigned to the item by editing the task or the issue. 
+  If a Project Owner does not want to accept the change, we recommend that they comment back to the user proposing a new date using the Comments tab in the Updates section, to ask them to change the Commit Date back to the original Planned Date, or select a new date. 
+  
+  If a Project Owner accepts the change, they can manually adjust the Planned Completion Date to match the Commit Date offered by the user assigned to the item by editing the task or the issue. 
   
   You must have access to manage the task or the issue to edit them. 
+
+  >[!TIP]
+  >
+  >You can ask your system or group administrator to add the Commit Date field to your Summary panel, to make it easier to update it in various areas of Workfront where the Summary panel displays. 
+  >
+  >For more information, see the following articles:
+  >
+  >* [Summary overview](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+  >* [Customize Home and Summary using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 <!--this is no longer possible: 
 >[!NOTE]
