@@ -457,7 +457,7 @@ You can also [view a PDF file](https://acrobat.adobe.com/id/urn:aaid:sc:US:17548
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: N/A</p>
+                                <p>Preview release: April 11, 2024</p>
                             </li>
                             <li>
                                 <p>Production for all customers: With the 24.4 release (April 11, 2024)</p>

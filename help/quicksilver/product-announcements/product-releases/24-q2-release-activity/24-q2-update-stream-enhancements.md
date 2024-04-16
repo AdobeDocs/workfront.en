@@ -16,7 +16,7 @@ For a list of all changes available at this point in the Second Quarter 2024 rel
 
 >[!NOTE]
 >
->Preview release: N/A; Production for all customers: With the 24.4 release (April 11, 2024)
+>Preview release: April 11, 2024; Production for all customers: With the 24.4 release (April 11, 2024)
 
 To give you a consistent experience throughout the application, we have added the new commenting experience to iterations. For information, see the [Update section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
