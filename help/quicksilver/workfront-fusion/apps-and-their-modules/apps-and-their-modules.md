@@ -27,7 +27,7 @@ exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
 This section contains the following articles:
 
 * [[!DNL Adobe Workfront] modules](../../workfront-fusion/apps-and-their-modules/workfront-modules.md) 
-* [Adobe Workfront Planning modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md)
+* [Adobe Workfront Planning modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
 * [[!DNL Workfront Proof] modules](../../workfront-fusion/apps-and-their-modules/workfront-proof-modules.md) 
 * [[!DNL Workfront Boards] modules](../../workfront-fusion/apps-and-their-modules/workfront-boards-modules.md) 
 * [[!DNL Adobe Acrobat Sign] modules](../../workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
