@@ -11,8 +11,6 @@ exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
 ---
 # Rename a custom form with the form designer
 
-{{highlighted-preview}}
-
 You can rename a custom form any time after it has been created with the form designer.
 
 ## Access requirements
@@ -51,7 +49,7 @@ For more detail about the information in this table, see [Access requirements in
 
    In the view that appears, you can review all custom forms that have been created for your organization. You can also see who created each form, which object type it works with, and whether it is active.
 
-1. Select the custom form you want to rename, then click **Edit** <span class="preview">or ![Edit icon](assets/edit-icon2.png).</span>
+1. Select the custom form you want to rename, then click ![Edit icon](assets/edit-icon2.png).
 1. To change the title, click on the form name.
 1. To change the description, click into the description text box.
 

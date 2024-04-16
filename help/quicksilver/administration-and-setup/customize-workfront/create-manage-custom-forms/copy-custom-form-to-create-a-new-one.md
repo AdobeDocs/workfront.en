@@ -12,8 +12,6 @@ exl-id: 946a726e-af88-413c-abe3-55fbc7486380
 ---
 # Copy a custom form to create a new one with the legacy builder
 
-{{highlighted-preview}}
-
 You can create a new custom form that is based on an existing one.
 
 ## Access requirements
@@ -49,7 +47,7 @@ For more detail about the information in this table, see [Access requirements in
 {{step-1-to-setup}}
 
 1. Click **Custom Forms.**
-1. Select the custom form that you want to use as the basis for a new custom form, then click **Copy** <span class="preview">or ![Copy icon](assets/copy-icon.png).</span>
+1. Select the custom form that you want to use as the basis for a new custom form, then click ![Copy icon](assets/copy-icon.png).
 1. In the **Custom Form Copy** box that appears, type the following information:
 
    <table style="table-layout:auto"> 
@@ -63,14 +61,14 @@ For more detail about the information in this table, see [Access requirements in
      <tr> 
       <td role="rowheader"> <p role="rowheader">Form Types </p> </td> 
       <td> <p>In the <b>Form Type</b> box, select the object types that you want the custom form to work with, and click the X next to any types that you want to remove. Types that are already associated with the form are disabled in the list.</p> 
-      <p><img src="assets/copy-form-obj-types.png"></p> 
+      <p><img src="assets/copy-form-obj-types-040524.png"></p> 
       <p>The form must be associated with at least one object type.</p> 
       </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Click **Copy Form**.
+1. Click **Copy**.
 
    In the original form, if calculated fields reference fields that are incompatible with an object type you add to the new form, a message prompts you to change the calculations in those fields.
 

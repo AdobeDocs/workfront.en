@@ -30,25 +30,27 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront plan*]</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront plan]</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Request] or higher</p> </td> 
+   <td> <p>New: Contributor or higher</p>
+   Or   
+   <p>Current: [!UICONTROL Request] or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>View access or higher to any objects for which you are tagged in a conversation or need to resolve an approval (Projects, Tasks, Issues, Documents)</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader"><strong>Access level configuration</strong></td> 
+   <td> <p>View access or higher to any objects for which you are tagged in a conversation or need to resolve an approval (Projects, Tasks, Issues, Documents)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>[!UICONTROL View] permissions or higher to projects, tasks, issues, documents where you are tagged in a conversation or need to resolve an approval</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>[!UICONTROL View] permissions or higher to projects, tasks, issues, documents where you are tagged in a conversation or need to resolve an approval</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+*To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 ## Prerequisites
 
@@ -66,7 +68,7 @@ You must have the following before you begin:
 
    The [!UICONTROL My Updates] area opens.
 
-   The approvals and requests for access that are assigned to you are listed in the first half of the page, under My Updates.
+   The approvals and requests for access that are assigned to you are listed in the first half of the page, under **My Updates**.
 
    ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
@@ -122,9 +124,9 @@ You must have the following before you begin:
       >If you do not want to add a comment to your decision, you can click the **[!UICONTROL Approve]**, **[!UICONTROL Reject]**, or **[!UICONTROL Changes]** button and the approval decision is granted immediately.
       >
       >
-      >![](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)      >
-
-      For more information about approving work, see [Approving work](../../../review-and-approve-work/manage-approvals/approving-work.md).
+      >![](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)      
+      >
+      >For more information about approving work, see [Approving work](../../../review-and-approve-work/manage-approvals/approving-work.md).
 
 1. Click **[!UICONTROL Grant access]** to grant the access request submitted to you
 
@@ -145,8 +147,12 @@ You must have the following before you begin:
    >The first 50 mentions display by default.
 
 1. (Optional) Click **[!UICONTROL Show More Updates]** to view more mentions.
-1. (Optional) Click **[!UICONTROL Reply]** to respond to a comment, enter your response, then click **[!UICONTROL Reply]** again.
+1. (Optional) Click **[!UICONTROL Reply]** to respond to a comment, and do any of the following:
+   * Start typing a reply
+   * Use the Rich Text toolbar to format your text, add links, lists, emojis, quotes, or images to your message
+   * Add users or teams to notify them of your reply.
+      
+      When you are done adding the reply, click **[!UICONTROL Reply]** again.
 
-   For more information about updating items, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-
+      ![](assets/reply-in-the-my-updates-area.png)
 1. (Optional) Click **[!UICONTROL Pin current page]** to pin the [!UICONTROL My Updates] area to your top navigation.

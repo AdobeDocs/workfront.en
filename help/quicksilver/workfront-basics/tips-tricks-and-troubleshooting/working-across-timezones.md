@@ -15,6 +15,15 @@ It can be helpful to understand how [!DNL Adobe Workfront] uses time zones to ca
 * Time fields for objects
 * Times in other [!DNL Workfront] areas, such as automated Workfront emails
 
+>[!WARNING]
+>
+>If you cannot find your exact time zone in the list we provide, find the time zone that is closest to yours and update it for your instance. 
+>
+>Also, consider that a similar time zone might not match yours perfectly. 
+>
+>For example, some countries or territories might observe Daylight Saving Time,  but your country might not. You might need to adjust your system's time zones according to these changes, if needed. 
+
+
 ## Time zones in [!DNL Workfront]
 
 Times you see in [!DNL Workfront] are based on time zone configurations for your organization's [!DNL Workfront] instance and for your user profile. If these two time zones are different, you might see time discrepancies in different areas and features you use in [!DNL Workfront].

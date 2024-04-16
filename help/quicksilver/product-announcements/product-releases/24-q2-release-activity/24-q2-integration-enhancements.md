@@ -4,6 +4,7 @@ description: Second Quarter 2024 Integration enhancements
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+exl-id: 6e9b5c5c-562d-4591-a2ab-c8fd9da353fd
 ---
 # Second Quarter 2024 Integration enhancements
 
@@ -28,9 +29,3 @@ Now you can:
 For information on configuring linked folders in the Adobe Experience Manager workflows, see [Create Adobe Experience Manager linked folders](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md#create-adobe-experience-manager-linked-folders).
 
 For information on using the Adobe Experience Manager workflows on projects or project templates, see[Use workflows in the Experience Manager Assets integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
-
-
-
-
-
-

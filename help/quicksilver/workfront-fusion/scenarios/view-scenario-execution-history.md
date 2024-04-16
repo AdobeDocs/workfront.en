@@ -78,6 +78,10 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
    * Size of **[!UICONTROL Data Transfer]**
    * Link to **[!UICONTROL Details]**
 
+>[!NOTE]
+>
+>The scenario history displays a **Processing** badge next to scenarios that have recently executed, while the execution details are written to storage. Processing occurs immediately after the scenario executes. and should last no more than a few minutes. Details of the scenario execution may not be visible while the execution is processing.
+
 ### View scenario execution history on the [!UICONTROL History] tab
 
 The [!UICONTROL History] tab shows more detail than is available on the [!UICONTROL Scenario detail] page. You can also filter and sort the executions on the [!UICONTROL History] tab.
@@ -95,7 +99,9 @@ The [!UICONTROL History] tab shows more detail than is available on the [!UICONT
 
    >[!NOTE]
    >
-   >The [!UICONTROL details] link is visible only if the execution has details available.
+   >* The [!UICONTROL details] link is visible only if the execution has details available.
+   >
+   >* The scenario history displays a **Processing history** badge next to scenarios that have recently executed, while the execution details are written to storage. Processing occurs immediately after the scenario executes. and should last no more than a few minutes. Details of the scenario execution may not be visible while the execution is processing.
 
 ## Filter the scenario execution history
 

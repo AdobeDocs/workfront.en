@@ -11,6 +11,7 @@ role: Admin
 hide: yes
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
+exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
 ---
 # Create or edit an environment promotion package
 
@@ -41,6 +42,11 @@ recommendations: noDisplay, noCatalog
 
    Click **Save and Assemble** to save and assemble the package.
 
+   >[!NOTE]
+   >
+   >* The Save and Close and Save and Assemble buttons are available if a package has both a name with five or more characters and at least one object added to it.
+   >* You cannot assemble a package that is in an installable status such as Testing or Active.
+
 ## Edit or assemble an existing package
 
 1. Go to the environment that you want to create the package in. This is the environment that you are copying objects **from**.
@@ -54,5 +60,3 @@ recommendations: noDisplay, noCatalog
 1. To install the package, click **Install** at the upper-right of the screen.
 
    For instructions on installing a package, see [Install an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
-
-

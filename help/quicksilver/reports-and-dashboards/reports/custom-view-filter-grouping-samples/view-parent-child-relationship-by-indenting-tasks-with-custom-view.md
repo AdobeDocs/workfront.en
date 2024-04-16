@@ -58,9 +58,17 @@ You must have the following access to perform the steps in this article:
 1. Click anywhere in the textbox to edit text, and remove all existing text.
 1. Paste the following text:  
 
-   ```
-   displayname=<br>linkedname=direct<br>namekey=name<br>querysort=name<br>textmode=true<br>valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(" - ",{name}),IF({indent}<3,CONCAT(" - - ",{name}),IF({indent}<4,CONCAT(" - - - ",{name}),CONCAT(" - - - - ",{name})))))<br>valueformat=HTML
-   ```
+   
+```
+   displayname=
+   linkedname=direct
+   namekey=name
+   querysort=name
+   textmode=true
+   valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(" - ",{name}),IF({indent}<3,CONCAT(" - - ",{name}),IF({indent}<4,CONCAT(" - - - ",{name}),CONCAT(" - - - - ",{name})))))
+   valueformat=HTML
+
+``` 
 
 1. Click **Save**.
 1. Click **Save View**.
