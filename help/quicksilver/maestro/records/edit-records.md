@@ -160,7 +160,6 @@ You can edit a record from the following areas:
     >* Use the following keyboard shortcuts for copying and pasting information:
     >   * Copy: CTRL + C (⌘ + C for Mac)
     >   * Paste: CTRL + V (⌘ + V for Mac) 
-    >* You cannot copy information from another source, other than a record field of the same type as the field you paste the information in.  
     >
     >* You cannot copy and paste field values in the record page. This functionality is supported only in the table view of a record type.  
     >* You cannot copy and paste field values for the following field types:   
