@@ -452,7 +452,7 @@ You can also [view a PDF file](https://acrobat.adobe.com/id/urn:aaid:sc:US:17548
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">New commenting experiences added to iterations</a></p><p>[!BADGE In production ]{type=Informative}</p>
-                        <p>To give you a consistent experience throughout the application, we have added the new commenting experience to iterations. For information, see the [Update section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).</p>
+                        <p>To give you a consistent experience throughout the application, we have added the new commenting experience to iterations. </p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
