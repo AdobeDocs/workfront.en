@@ -50,6 +50,53 @@ For more detail about the information in this table, see [Access requirements in
 
 For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
+## [!UICONTROL length (text or buffer)]
+
+Returns the length of text string (number of characters) or binary buffer (buffer size in bytes).
+
+>[!INFO]
+>
+>**Example:** 
+>
+>`length( hello )`  
+>
+>Returns: 5
+
+## [!UICONTROL lower (text)]
+
+Converts all alphabetical characters in a text string to lowercase.
+
+>[!INFO]
+>
+>**Example:** 
+>
+>`lower( Hello )`
+>
+>Returns: hello
+
+## [!UICONTROL capitalize (text)]
+
+Converts the first character in a text string to uppercase.
+
+>[!INFO]
+>
+>**Example:** 
+>
+>`capitalize( workfront )`
+>
+>Returns: [!DNL Workfront]  
+
+## [!UICONTROL startcase (text)]
+
+Capitalizes the first letter of every word and lower cases all other letters.
+
+>[!INFO]
+>
+>**Example:** 
+>`startcase( hello WORLD )`
+>
+>Returns: [!UICONTROL Hello World]
+
 ## [!UICONTROL ascii (text; [remove diacritics])]
 
 Removes all non-ascii characters from a text string.
@@ -66,6 +113,95 @@ Removes all non-ascii characters from a text string.
 >
 >   Returns: [!UICONTROL escrz]
 
+
+
+## [!UICONTROL replace (text;search string; replacement string)]
+
+Replaces the search string with the new string.
+
+>[!INFO]
+>
+>**Example:** 
+>
+>`replace( Hello World ; Hello ; Hi )`
+>
+>Returns: [!UICONTROL Hi World]  
+
+Regular expressions (enclosed in `/.../`) can be used as search string with a combination of flags (such as `g`, `i`, `m`) appended:
+
+>[!INFO]
+>
+>**Example:**  
+>
+>![](assets/replace---1-350x31.png)
+>
+>All of these numbers X X X X are replaced with X  
+
+The replacement string can include the following special replacement patterns:
+
+* `$&` Inserts the matched substring.
+* `$n` Where n is a positive integer less than 100, inserts the nth parenthesized submatch string. This is 1-indexed.
+
+>[!INFO]
+>
+>**Examples:**  
+>
+>![](assets/variable-value-350x63.png)
+>
+>Returns: Phone number `+420777111222`
+>>
+>![](assets/variable-value---2-350x55.png)
+>
+>Returns: Phone number: `+420777111222`
+
+>[!CAUTION]
+>
+>Do not use named capture groups such as `/ is (?<number>\d+)/` in the replacement string argument. Doing so results in an error.
+
+For more information on regular expressions, see [Text parser](../../workfront-fusion/apps-and-their-modules/text-parser.md).
+
+## [!UICONTROL trim (text)]
+
+Removes space characters at the start or end of the text.
+
+## [!UICONTROL upper (text)]
+
+Converts all alphabetical characters in a text string to uppercase.
+
+>[!INFO]
+>
+>**Example:** 
+>
+>`upper( Hello )`
+>
+>Returns: [!UICONTROL HELLO] 
+
+## [!UICONTROL split (text; separator)]
+
+Splits a string into an array of strings by separating the string into substrings.
+
+>[!INFO]
+>
+>**Example:** 
+>
+>`split( John, George, Paul ; , )`
+
+## [!UICONTROL substring (text; start;end)]
+
+Returns a portion of a text string between the "start" position and "end" position.
+
+>[!INFO]
+>
+>**Examples:**
+>
+>* `substring( Hello ; 0 ; 3)`
+>
+>   Returns: Hel
+>
+>* `substring( Hello ; 1 ; 3 )`
+>
+>   Returns: el
+
 ## [!UICONTROL base64 (text)]
 
 Transforms text to base64.
@@ -77,18 +213,6 @@ Transforms text to base64.
 >`base64( workfront )`
 >
 >Returns: d29ya2Zyb250==  
-
-## [!UICONTROL capitalize (text)]
-
-Converts the first character in a text string to uppercase.
-
->[!INFO]
->
->**Example:** 
->
->`capitalize( workfront )`
->
->Returns: [!DNL Workfront]  
 
 ## contains (text; search string)
 
@@ -165,30 +289,6 @@ Returns the position of the first occurrence of a specified value in a string. T
 >
 >   Returns: 6
 
-## [!UICONTROL length (text or buffer)]
-
-Returns the length of text string (number of characters) or binary buffer (buffer size in bytes).
-
->[!INFO]
->
->**Example:** 
->
->`length( hello )`  
->
->Returns: 5
-
-## [!UICONTROL lower (text)]
-
-Converts all alphabetical characters in a text string to lowercase.
-
->[!INFO]
->
->**Example:** 
->
->`lower( Hello )`
->
->Returns: hello
-
 ## [!UICONTROL md5 (text)]
 
 Calculates the md5 hash of a string.
@@ -200,51 +300,6 @@ Calculates the md5 hash of a string.
 >`md5( Workfront )`
 >
 >Returns: `1448bbbeaa7a9b8091d426999f1f666b`
-
-## [!UICONTROL replace (text;search string; replacement string)]
-
-Replaces the search string with the new string.
-
->[!INFO]
->
->**Example:** 
->
->`replace( Hello World ; Hello ; Hi )`
->
->Returns: [!UICONTROL Hi World]  
-
-Regular expressions (enclosed in `/.../`) can be used as search string with a combination of flags (such as `g`, `i`, `m`) appended:
-
->[!INFO]
->
->**Example:**  
->
->![](assets/replace---1-350x31.png)
->
->All of these numbers X X X X are replaced with X  
-
-The replacement string can include the following special replacement patterns:
-
-* `$&` Inserts the matched substring.
-* `$n` Where n is a positive integer less than 100, inserts the nth parenthesized submatch string. This is 1-indexed.
-
->[!INFO]
->
->**Examples:**  
->
->![](assets/variable-value-350x63.png)
->
->Returns: Phone number `+420777111222`
->>
->![](assets/variable-value---2-350x55.png)
->
->Returns: Phone number: `+420777111222`
-
->[!CAUTION]
->
->Do not use named capture groups such as `/ is (?<number>\d+)/` in the replacement string argument. Doing so results in an error.
-
-For more information on regular expressions, see [Text parser](../../workfront-fusion/apps-and-their-modules/text-parser.md).
 
 ## [!UICONTROL sha1 (text; [encoding]; [key])]
 
@@ -294,28 +349,7 @@ When using "[!UICONTROL binary]" key encoding, a key must be a buffer, not a str
 >
 >`sha512(workfront)`
 >
->Returns: 789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd119b85e1e19db58bb44b234493af35fd431639c0345aadf2cf7ec26e9f4a7fb19  
-
-## [!UICONTROL split (text; separator)]
-
-Splits a string into an array of strings by separating the string into substrings.
-
->[!INFO]
->
->**Example:** 
->
->`split( John, George, Paul ; , )`
-
-## [!UICONTROL startcase (text)]
-
-Capitalizes the first letter of every word and lower cases all other letters.
-
->[!INFO]
->
->**Example:** 
->`startcase( hello WORLD )`
->
->Returns: [!UICONTROL Hello World]
+>Returns: 789ae41b9456357e4f27c6a09956a767abbb8d80b206003ffdd1e94dbc687cd119b85e1e19db58bb44b234493af35fd431639c0345aadf2cf7ec26e9f4a7fb19 
 
 ## [!UICONTROL stripHTML (text)]
 
@@ -328,22 +362,6 @@ Removes all HTML tags from text.
 >`stripHTML( <b>Hello</b> )`
 >
 >Returns: Hello
-
-## [!UICONTROL substring (text; start;end)]
-
-Returns a portion of a text string between the "start" position and "end" position.
-
->[!INFO]
->
->**Examples:**
->
->* `substring( Hello ; 0 ; 3)`
->
->   Returns: Hel
->
->* `substring( Hello ; 1 ; 3 )`
->
->   Returns: el
 
 ## [!UICONTROL toBinary (value)]
 
@@ -366,19 +384,3 @@ You can also specify encoding as a second argument to apply binary conversions f
 ## [!UICONTROL toString (value)]
 
 Converts any value to a string.
-
-## [!UICONTROL trim (text)]
-
-Removes space characters at the start or end of the text.
-
-## [!UICONTROL upper (text)]
-
-Converts all alphabetical characters in a text string to uppercase.
-
->[!INFO]
->
->**Example:** 
->
->`upper( Hello )`
->
->Returns: [!UICONTROL HELLO]
