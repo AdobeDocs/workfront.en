@@ -49,17 +49,13 @@ You can add an update on an Adobe Workfront object to communicate to others abou
 
 The information in this article describes how you can comment and update information for projects, tasks, and issues. Users who are assigned or subscribed to the object can view your update. You can also tag users to bring their attention to the update. 
 
-Adding comments to other objects is similar to updating projects, tasks, and issues. For additional information about commenting on cards, goals, or iterations, also see the following articles: 
+Adding comments to other objects is similar to updating projects, tasks, and issues. For additional information about commenting on cards and goals, also see the following articles: 
 
 * [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). 
 
    You must have an additional license to access Workfront Goals.
 
 * [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md)
-
-* [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md)
-
-
 
 ## Access requirements
 

@@ -141,12 +141,10 @@ Depending on what objects you access the commenting experience for, you might fi
   * Template Task
 
 * The following objects don't have a System Activity tab or an All tab, and the experience in the Comments tab differs from that of all other objects:
+  * Iterations
   * Ad-hoc Card
 
     For more information about updates on cards, see [Add an ad hoc card to a board](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
-  * Iterations
-
-    For more information about updates on iterations, see [Manage iteration comments](/help/quicksilver/agile/use-scrum-in-an-agile-team/iterations/manage-iteration-updates.md). 
 
 * The following objects don't have an All tab, and the experience in the Comments tab matches that of most objects:
 
