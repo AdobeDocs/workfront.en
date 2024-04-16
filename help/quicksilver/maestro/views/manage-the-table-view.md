@@ -1,6 +1,6 @@
 ---
 title: Manage the table view
-description: You can display records and their fields in a table view, when accessing the record type page in Adobe Workfront planning capabilities.
+description: You can display records and their fields in a table view, when accessing the record type page in Adobe Workfront Planning.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -22,7 +22,7 @@ hide: yes
 
 {{maestro-important-intro}}
 
-You can display records and their fields in a table view, when accessing the record type page in Adobe Workfront planning capabilities. 
+You can display records and their fields in a table view, when accessing the record type page in Adobe Workfront Planning. 
 
 For information about record views and how to manage them, see [Manage record views](../views/manage-record-views.md).
 
@@ -45,7 +45,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfront planning capabilities closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront Planning beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -58,12 +58,13 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader"><p>Adobe Workfront license</p></td>
    <td>
    <p>Any</p> 
+   <p>System administrators have access only the views they created or that are shared with them. </p>
   </td>
   </tr>
   
   <tr>
    <td role="rowheader">Access level configuration</td>
-   <td> <p>There are no access level controls for Adobe Workfornt planning capabilities </p>  
+   <td> <p>There are no access level controls for Adobe Workfornt planning</p>  
 </td>
   </tr>
 
@@ -103,7 +104,7 @@ To manage a table view:
     * [Rows (or records)](#add-rows-or-records)
     * [Filters](#add-filters) 
     * [Grouping](#add-groupings)
-    * [Sort](#sort-information)  
+    * [Sort](#add-a-sort) 
 
 
 ### Add columns (or fields) {#add-columns}
@@ -121,7 +122,7 @@ You can add up to 500 fields (or columns) in a table view.
     <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Start adding fields (or columns), as described in the article [Create fields](../fields/create-fields.md). 
 
-    The columns you add are visible to all users who access the record type and are added as new fields on the Details page of the records of the selected record type.
+    The columns you add are visible to all users who access the record type and are added as new fields on the record's page.
    
 1. Do one of the following to reorder columns in the table:
 
@@ -168,7 +169,7 @@ You can add up to 500 fields (or columns) in a table view.
     >
     >   * You cannot delete or hide a primary field. 
     >
-    >   * The value listed in the primary field is always hyperlinked to the record's Details page.
+    >   * The value listed in the primary field is always hyperlinked to the record's page.
 
 1. Click and drag the column separation lines and drop them in the desired spot to increase the width of the columns. 
 
@@ -254,6 +255,8 @@ Consider the following when working with filters in the table view:
 * Removing filters removes them from anyone accessing the same record type as you and uses the same view as you use.
 
 * Adding filters to the table view is identical to adding filters to the timeline view. 
+
+* You can filter by connected record fields or lookup fields, but not for those fields that allow linking to multiple records.
 
 To add a filter to a table view: 
 
@@ -363,6 +366,7 @@ Consider the following:
 * You cannot name the groupings you build for a table view.
 * Removing groupings removes them from anyone accessing the same record type as you and who displays the same view as you do. 
 * You can edit records listed under a grouping. 
+* You can group by connected record fields or lookup fields, but not for those fields that allow linking to multiple records.
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
@@ -416,6 +420,8 @@ Consider the following when sorting records in the table view:
 * Linked fields are sortable only if they allow single values, or if they allow multi-select values with the summarization option selected (sum, average, max, min).
 
 * Removing sorting criteria removes them from anyone accessing the same record type as you and uses the same view as you use.
+
+* You can sort by connected record fields or lookup fields, but not for those fields that allow linking to multiple records.
 
 To sort <!--ungrouped (add this when sorting for groupings will be available--> records, do the following:
 

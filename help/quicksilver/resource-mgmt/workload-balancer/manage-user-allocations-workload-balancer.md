@@ -11,12 +11,6 @@ exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
 
 <!-- Audited: 01/2024 -->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
-
 As a Resource Manager, you can assign work to users and manage their daily, weekly, or monthly allocations from the Workload Balancer to ensure they are allocated an amount of hours that fits in their available schedules.
 
 ## Access requirements {#access-requirements}
@@ -79,7 +73,7 @@ The task Planned Hours are distributed equally between all the days within the D
 
 >[!CAUTION]
 >
->The Workload Balancer displays only up to 1000 Planned Hours per work item and up to 1000 days of an item's duration. The allocations in the Workload Balancer display as zero after the 1000 hour or 1000 day limit is reached. We recommend dividing tasks in smaller subtasks to accommodate for a larger number of Planned Hours or for Durations of more than 1000 days.
+>The Workload Balancer displays only up to 1000 Planned Hours per work item per user, and up to 1000 days of an item's duration. The allocations in the Workload Balancer display as zero after the 1000 hour or 1000 day limit is reached. We recommend dividing tasks in smaller subtasks to accommodate a larger number of Planned Hours or for Durations of more than 1000 days.
 
 Consider the following when locating daily, weekly or monthly allocations for tasks or issues in the Workload Balancer:
 
@@ -253,7 +247,7 @@ As part of assigning work to users, you can modify user allocations in the Workl
 
 >[!TIP]
 >
-><span class="preview">A pencil icon displays to the right of the work item name to indicate that it was manually adjusted.</span>
+>A pencil icon displays to the right of the work item name to indicate that it was manually adjusted.
 
 ![Manually adjusted hours icon](assets/icon-for-manually-adjusted-hours.png)
 

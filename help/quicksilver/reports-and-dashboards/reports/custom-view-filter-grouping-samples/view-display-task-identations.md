@@ -55,13 +55,7 @@ You must have the following access to perform the steps in this article:
 
 1. From the new column, click **Switch to Text Mode**.
 1. Hover over the text mode area, and click **Click to edit text**.
-1. Remove the text you find in the 
-
-   ```
-   valuefield=
-   ```
-
-   line and replace it with the following code:
+1. Remove the text you find in the `valuefield=` line and replace it with the following code:
 
    ```
    valueexpression=IF({indent}<1,{name},IF({indent}<2,CONCAT(' - ',{name}),IF({indent}<3,CONCAT(' - - ',{name}),IF({indent}<4,CONCAT(' - - - ',{name}),CONCAT(' - - - - ',{name})))))

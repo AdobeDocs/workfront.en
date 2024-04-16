@@ -1,6 +1,6 @@
 ---
 title: Manage the timeline view
-description: You can display records in a timeline view, when accessing the record type page in Adobe Workfront planning capabilities.
+description: You can display records in a timeline view, when accessing the record type page in Adobe Workfront Planning.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -22,7 +22,7 @@ role: User
 
 {{maestro-important-intro}}
 
-You can display records in a timeline view, when accessing the record type page in Adobe Workfront planning capabilities. 
+You can display records in a timeline view, when accessing the record type page in Adobe Workfront Planning. 
 
 For information about record views, see [Manage record views](../views/manage-record-views.md).
 
@@ -45,7 +45,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfront planning capabilities closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront Planning beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -58,12 +58,13 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader"><p>Adobe Workfront license</p></td>
    <td>
    <p>Any</p> 
+   <p>System administrators have access only the views they created or that are shared with them. </p>
   </td>
   </tr>
   
   <tr>
    <td role="rowheader">Access level configuration</td>
-   <td> <p>There are no access level controls for Adobe Workfront planning capabilities </p>  
+   <td> <p>There are no access level controls for Adobe Workfront Planning </p>  
 </td>
   </tr>
 
@@ -75,7 +76,7 @@ You must have the following access to perform the steps in this article:
 
 <tr>
    <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
+   <td> <p>Your system administrator must add the Planning area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -156,9 +157,11 @@ Consider the following when working with filters in the timeline view:
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
-* The filters you create for the timeline view work independently from the filters in the table view when applied to the same record type. 
+* The filters you create for a timeline view work independently from the filters in any other view applied to the same record type. 
 
-* The filters are unique to the view that you select. Two timeline views of the same record type can have different filters applied to them. Two users looking at the same timeline view see the same filter that is currently applied. 
+* The filters are unique to the view that you select. Two timeline views of the same record type can have different filters applied to them. 
+
+* Two users looking at the same timeline view see the same filter that is currently applied. 
 
 * You cannot name the filters you build for a timeline view.
 
@@ -167,6 +170,8 @@ Consider the following when working with filters in the timeline view:
 * Adding filters in the timeline view is identical to adding filters in the table view. 
 
     For more information, see the "Add filters" section in the article [Manage the table view](../views/manage-the-table-view.md). 
+
+* You can filter by connected record fields or lookup fields, but not for those fields that allow linking to multiple records.
 
 ### Add grouping
 
@@ -184,6 +189,7 @@ Consider the following when working with groupings in the timeline view:
 * The groupings are unique to the view that you select. Two timeline views of the same record type can have different groupings applied to them. Two users looking at the same timeline view see the same grouping that is currently applied. 
 * You cannot name the groupings you build for a timeline view.
 * Removing groupings removes them from anyone accessing the same record type as you and who displays the same view as you do. 
+* You can group by connected record fields or lookup fields, but not for those fields that allow linking to multiple records.
 
 To add a grouping in the timeline view:
 

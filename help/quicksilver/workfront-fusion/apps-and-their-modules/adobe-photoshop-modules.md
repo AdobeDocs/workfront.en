@@ -8,10 +8,11 @@ title: Adobe Photoshop modules
 description: With the Adobe Photoshop modules, you can start an Adobe Workfront Fusion scenario based on events in your Adobe Photoshop account, create, read, or update agreements and other records, search for records using criteria you set, and upload documents.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
+exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
 ---
 # [!DNL Adobe Photoshop] modules
 
-In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Adobe Photoshop], as well as connect it to multiple third-party applications and services. [!DNL Adobe Photoshop] modules allow you to create, read, update, or delete records, list all records of a given type, search records based on criteria you specify, or perform a custom API call to the [!DNL Adobe Photoshop] API.
+In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Adobe Photoshop], as well as connect it to multiple third-party applications and services. 
 
 
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
@@ -529,4 +530,3 @@ This action module makes a custom call to the Photoshop API.
      </div> </p> </td>     </tr>
   </tbody>
 </table>
-

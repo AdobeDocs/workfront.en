@@ -9,8 +9,6 @@ exl-id: 4c1e5ec1-3fd1-4527-ba8a-9db1a2350f69
 ---
 # Use workflows in the Experience Manager Assets integration
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 A workflow is a set of actions that connect Workfront to Adobe Experience Manager as a Cloud Service. A Workfront administrator can configure workflows in Workfront, then assign them to Project Templates. When a Project is created using a Project Template to which a workflow is assigned, the actions defined in the workflow are triggered. 
 
 >[!NOTE]
@@ -124,7 +122,7 @@ You can edit workflow values on the project level. Project-level workflow values
 
 All workflow values can be found in:
 
-* The Workflows section of the Create project or Edit project window.
+* The Workflows or Linked folders section of the Create project or Edit project window.
 * The Adobe Experience Manager section of the left navigation.
 
 
@@ -142,19 +140,6 @@ All workflow values can be found in:
 
 To edit the workflow for linked folders:
 
-In the production environment:
-
-1. Toggle **[!UICONTROL Create Linked folder]** on or off as desired.
-1. (Conditional) If you are enabling linked folders, choose a folder path to indicate where you want all linked folders associated with this integration. 
-1. Click **[!UICONTROL Save]** if you are using the [!UICONTROL Create Project] or [!UICONTROL Edit project] window.
-    
-   Or
-
-   If you are in the [!DNL Adobe Experience Manager area], your changes save automatically. <!--Do they though?-->
-
-In the Preview Sandbox environment:
-
-<div class="preview">
 
 1. Toggle the **[!UICONTROL Create Linked folder]** on or off as desired. If you toggle it on, you can then edit the linked folder configuration.
 
@@ -173,10 +158,8 @@ In the Preview Sandbox environment:
 
       If a folder name is set to custom data that does not exist on the custom for attached to the project, a random ID will be assigned as the folder name.
 
+1. To view the folder tree, click the **Preview** ![Preview icon](assets/preview-icon.png) icon
 1. Click **[!UICONTROL Save]**.
-
-</div>
-
 
 #### Publishing assets
 

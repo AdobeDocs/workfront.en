@@ -1,6 +1,6 @@
 ---
-title: Overview of record types and taxonomies
-description: Record types are the building blocks of a Maestro workspace.
+title: Overview of record types
+description: Record types are the building blocks of a Adobe Workfront Planning workspace.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -8,26 +8,30 @@ exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
 ---
 <!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Overview of record types and taxonomies
+# Overview of record types
 
 {{maestro-important-intro}}
 
-Unlike Workfront where the object types are predefined, in Adobe Maestro, you can create your own object types. For example, in Workfront the object types of Program, Portfolio, Project, Task, or Issue are already created. 
+Unlike Workfront where the object types are predefined, in Adobe Workfront Planning, you can create your own object types. For example, in Workfront the object types of Program, Portfolio, Project, Task, or Issue are already created. 
 
-Maestro object types are called "record types". Record types are the building blocks of a Maestro workspace. For information about workspaces, see [Create workspaces](../architecture/create-workspaces.md). 
+Workfront Planning object types are called "record types" and you can create and customize all of them. Record types are the building blocks of a Workfront Planning workspace. For information about workspaces, see [Create workspaces](../architecture/create-workspaces.md). 
     
 ## Record type overview
     
-In Maestro, you can create custom record types that meet your organization's needs.
+In Workfront Planning, you can create custom record types that meet your organization's needs.
  
-* The following are Maestro record types: 
+* When you create a workspace from a template, record types are created in the following workspace sections: 
 
-    * [Operational Record Type](#operational-record-type): A record type that represents strategic plans, initiatives, or planned work. For example, Campaign, Activity, Tactic, Opportunity can be operational record types. 
-    * [Taxonomy](#taxonomy): Record types that capture attributes about an operational record type. For example, Region, Address, Audience can be taxonomies. 
+    * [Operational Record Types](#operational-record-type): A record type that represents strategic plans, initiatives, or planned work. For example, Campaign, Activity, Tactic, Opportunity can be operational record types. 
+    * [Taxonomies](#taxonomy): Record types that capture attributes about an operational record type. For example, Region, Address, Audience can be taxonomies. 
 
+* When you create a record type in a workspace that you created from scratch, you can place the record type in any section you create in the workspace. 
 * When you create a record type, only you and those you give permissions to access the workspace can view the record type. 
 * You must create a workspace before you can create record types for the workspace.  
-* You can have a combined total of 1,000 operational record types and taxonomies in one workspace. This includes record types or taxonomies that you create from scratch or that you import from other systems. 
+* You can have a total of 1,000 record types in one workspace, regardless of how many sections the workspace has. This includes record types that you create from scratch or that are created when using a template. 
+
+
+<!--
 
 ### Operational Record Type{#operational-record-type}
 
@@ -45,9 +49,9 @@ A taxonomy is a record type that captures attributes about an operational record
 
 For more information about taxonomy record types, see [Create a taxonomy](../architecture/create-a-taxonomy.md). 
 
-Although creating taxonomies is identical to creating operational record types, Maestro distinguishes conceptually between an operational record type and a taxonomy record type. The purpose of taxonomies is to enhance operational record types. Taxonomies should not directly represent work objects.  <!--this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.--> 
+Although creating taxonomies is identical to creating operational record types, Maestro distinguishes conceptually between an operational record type and a taxonomy record type. The purpose of taxonomies is to enhance operational record types. Taxonomies should not directly represent work objects.  (***********this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.***********) 
 
-<!--mimic what you did above for operational record types to say that we can also import taxonomies from other applications too - this will be possible later; for example Team would be a taxonomy record type, etc -->
+(********mimic what you did above for operational record types to say that we can also import taxonomies from other applications too - this will be possible later; for example Team would be a taxonomy record type, etc*************)
 
 For example, Audience, Region, or Address can be taxonomy-type record types.  
 
@@ -73,3 +77,5 @@ The following table illustrates some of the similarities and differences between
 | You can connect to other Maestro record types               |            ✓            |                    |
 | You can view their associated records in a table view       |            ✓            |           ✓          |
 | You can view their associated records in a timeline view    |            ✓            |           ✓          |
+
+-->

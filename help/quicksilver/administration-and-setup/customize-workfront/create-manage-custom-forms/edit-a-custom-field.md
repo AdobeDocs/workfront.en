@@ -11,8 +11,6 @@ exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
 ---
 # Edit properties of a custom field, section break, or widget in a custom form
 
-{{highlighted-preview}}
-
 You can edit the properties of a custom field, section break, or widget that is used in custom form in your Adobe Workfront instance. These include the item's label, name, instructions, and so on.
 
 For information about custom fields and widgets in custom forms, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) and [Add or edit an asset widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
@@ -51,7 +49,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Click **Custom Forms.**
 1. Click **Fields** to open the Fields area.
-1. Select the custom field, section break, or widget, then click **Edit** <span class="preview">or ![Edit icon](assets/edit-icon.png).</span>
+1. Select the custom field, section break, or widget, then click ![Edit icon](assets/edit-icon.png).
 1. In the box that displays, change any of the options available for the item you are editing.
 
    See more information about these options

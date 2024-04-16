@@ -9,6 +9,8 @@ exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
 ---
 # Get started with the new Home
 
+
+
 <!--Audited: 12/2023-->
 
 The new Home experience in Adobe Workfront aims to improve the current Home experience while providing a more flexible way for you to focus on the right work.
@@ -27,8 +29,8 @@ For information on adding, moving, resizing, or deleting widgets, see [Add, edit
 
 Below are the ten widgets currently available to choose from, as well as a summary of the information they display:
 
-* **My work**\
-    A great place to start for managing a variety of work, this widget displays all of your assigned tasks, issues, and requests in one place. You can click the Work On It button to start working on an item. 
+* **My Work**\
+    A great place to start for managing a variety of work, this widget displays all of your assigned tasks, issues, and requests in one place. You can click the Work On It button to start working on an item, or the Done button to mark them complete. You can also update information (Status, Condition, Percent Complete) about tasks and issues, log time, and add updates from the My Work widget. 
 
 * **My projects**\
     Displays projects you own or projects you are on in a list. You can use  existing filters, views, or groupings to customize the list, or you can create a project directly from the widget.
@@ -49,16 +51,13 @@ Below are the ten widgets currently available to choose from, as well as a summa
     Displays all of your pending assigned or delegated approvals, a button to delegate approvals, and buttons to make approval decisions directly within the widget.
 
 * **All approvals**\
-    Displays all approvals for your organization in a table with customizable columns, as well as a search bar that allows you to search for specific approvals.
-
-* **Pending approvals**\
-    Displays approvals assigned to a document on a project you own. Here, you can view approval status and remind users about incomplete reviews and approvals. <span style="color: #ff0000;">This feature is part of a phased release and is currently only available for specific customers.</span>
+        <span class="preview"> Displays 2 charts with information about average approval time and decisions as well as list views of pending and overdue approvals.</span> <span style="color: #ff0000;">This feature is part of a phased release and is currently only available for specific customers.</span>
 
 * **Mentions**\
     Displays recent comment threads from across Workfront, similarly to the My Updates page. You can use the reply button to compose a reply within the widget. This widget also shows comments made on tasks and issues that you are assigned to, that you assigned to another user, that you own, that you are primary contact on, or that you created—as long as the task or issue has been updated in the last 30 days.
 
 * **To-dos**\
-    This unique widget allows you to add text items to a personal checklist that you can freely edit.
+    This unique widget allows you to add items to a personal checklist that you can freely edit. To-dos are tracked as tasks in your personal project, and remain for up to two weeks after completion.
 
     >[!NOTE]
     >

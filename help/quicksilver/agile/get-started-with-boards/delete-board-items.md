@@ -9,7 +9,13 @@ exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
 ---
 # Delete or archive a card from a board
 
-When you delete a card from a board, it is permanently deleted and can't be restored. Archiving a card sends it to the archive and you can restore it to the board later.
+When you delete an ad hoc card from a board, it is permanently deleted and can't be restored. Connected cards can be manually added back to a board after they are deleted.
+
+If you delete a connected card from a dynamic board, it will reappear when you refresh the board because this board type pulls in all tasks and issues from a specific project. To delete the card, you must delete the connected task or issue from the Workfront project.
+
+When you delete a connected card from any other board type that has an intake column, the card will reappear in the intake column when you refresh the board if the connected task or issue is not yet marked complete. For more information on intake columns, see [Add an intake column to a board](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+
+Archiving a card sends it to the archive and you can restore it to the board later.
 
 ## Access requirements
 

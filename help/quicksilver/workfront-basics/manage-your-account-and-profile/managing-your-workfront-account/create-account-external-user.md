@@ -5,6 +5,7 @@ title: Create an account [!DNL Adobe Workfront] as an external user
 description: You may be requested to perform tasks in Workfront even though you are not a member of an organization in Workfront. You can do this work more easily by creating an account in Workfront.
 author: Becky
 feature: Get Started with Workfront
+exl-id: cfe6d7ab-e4c5-41e6-aa93-23133ac543a0
 ---
 # Create an account in [!DNL Adobe Workfront] as an external user
 

@@ -5,8 +5,8 @@ title: Connect Workfront and Frame.io
 description: Workfront uses Frame.io in the review and approval process to meet people where they want to work. The project management and approval process is managed in Workfront, and the review process is done in Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
+exl-id: 8529b4d5-9732-4dd6-bf81-191aea1ed68c
 ---
-
 # Connect Workfront and Frame.io
 
 >[!IMPORTANT]
@@ -115,5 +115,3 @@ The Frame.io icon next to the project name turns purple signaling the integratio
 >[!IMPORTANT]
 >
 >Once the project is connected for Frame.io, changes made to the project group are not reflected in Frame.io.
-
-
