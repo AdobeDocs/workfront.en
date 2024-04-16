@@ -69,10 +69,10 @@ In the Templates area, you can view available templates, the applications they i
    >If you do not see the expected templates under the Team Templates tab, check the left navigation or the header to ensure that you are currently viewing the correct team. 
 1. (Optional) To search for a specific application or name, begin typing in the Search for app or name box, then select the term when it appears in the dropdown.
 1. (Optional) To filter for a specific category of use case, click the category in the By Category section on the right.
-1. (Optional) To view the scenario template's structure, hover over the template' card.
-1. Click on the template that you want to use to create a scenario
+1. (Optional) To view the scenario template's structure, hover over the template's card.
+1. Click on the template that you want to use to create a scenario.
   
-   A template of the diagram displays. 
+   A diagram of the template displays. 
 
 1. To begin creating a scenario from the template, click **Create new scenario from template** in the lower-left corner.
 
