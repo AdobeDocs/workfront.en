@@ -12,6 +12,14 @@ This page describes all Update stream and notification enhancements made with th
 
 For a list of all changes available at this point in the Second Quarter 2024 release cycle, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
+## New commenting experiences added to iterations 
+
+>[!NOTE]
+>
+>Preview release: N/A; Production for all customers: With the 24.4 release (April 11, 2024)
+
+To give you a consistent experience throughout the application, we have added the new commenting experience to iterations. For information, see the [Update section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
 ## Access to the legacy commenting area has been removed 
 
 >[!NOTE]
