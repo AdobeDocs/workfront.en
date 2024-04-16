@@ -58,6 +58,15 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 In the Templates area, you can view available templates, the applications they include, and their structure. You can also search for specific apps or names, and filter bb use case.
 
 1. Click **Templates** ![Template icon](assets/fusion-template-icon.png) in the left navigation.
+1. To view publicly available template, click the Public Templates tab. 
+
+   Or
+   
+   To view templates that are limited to your team, click the Team Templates tab.
+
+   >[!NOTE]
+   >
+   >If you do not see the expected templates under the Team Templates tab, check the left navigation or the header to ensure that you are currently viewing the correct team. 
 1. (Optional) To search for a specific application or name, begin typing in the Search for app or name box, then select the term when it appears in the dropdown.
 1. (Optional) To filter for a specific category of use case, click the category in the By Category section on the right.
 1. (Optional) To view the scenario template's structure, hover over the template' card.
