@@ -166,3 +166,4 @@ If you are a group administrator (or a Workfront administrator), you can create 
    The status is dimmed and no longer visible to all users in that group.
 
 1. Repeat steps 3 through 5 to hide the custom status from any other groups who don't need it.
+
