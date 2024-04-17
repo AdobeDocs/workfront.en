@@ -86,13 +86,13 @@ If AppBuilder is configured properly, you should see "Create project from templa
 Adobe provides an open source CLI that can be used to help create the App Builder applications. Documentation can be found here: [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) as well as Adobe App Builder Instructions [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/getting_started/first_app/).
 
 1. Installation
-    1. To install the tool, (make sure you are on node v18 first) run: `npm install -g @adobe/aio-cli `
+    1. To install the tool, (make sure you are on node v18 first) run: `npm install -g @adobe/aio-cli `.
 
 1. Authenticate in Terminal
-    1. Launch your terminal and log in to AIO with the command: `aio login`
+    1. Launch your terminal and log in to AIO with the command: `aio login`.
 
 1. Initialize Your Application
-    1. Begin setting up your app by running: `aio app init example-app`
+    1. Begin setting up your app by running: `aio app init example-app`.
 
 1. Configuration Selection
     1. Proceed to select your Organization and Project from the provided options.      
@@ -100,7 +100,7 @@ Adobe provides an open source CLI that can be used to help create the App Builde
         ![](assets/select-project.png)
 
 1. Template Selection and Setup
-    1. Browse all available templates, and choose the** @adobe/aem-cf-editor-ui-ext-tpl** template for your project.
+    1. Browse all available templates, and choose the **@adobe/aem-cf-editor-ui-ext-tpl** template for your project.
          ![](assets/search-template.png)
         ![](assets/select-template.png)
 
@@ -113,17 +113,18 @@ Adobe provides an open source CLI that can be used to help create the App Builde
 
 1. Navigate to Your Project Folder
     1. Access the src folder
-    1. Rename the folder aem-cf-editor-1 to workfront-doc-details-1
+    1. Rename the folder `aem-cf-editor-1` to `workfront-doc-details-1`.
 
 1. Modify Configuration Files
     1. Open app.config.yaml
-    1. Update the line from `aem/cf-editor/1` to `workfront/doc-details/1`
-    1. Adjust the include path from `src/aem-cf-editor-1/ext.config.yaml` to `src/workfront-doc-details-1/ext.config.yaml`
+    1. Update the line from `aem/cf-editor/1` to `workfront/doc-details/1`.
+    1. Adjust the include path from `src/aem-cf-editor-1/ext.config.yaml` to `src/workfront-doc-details-1/ext.config.yaml`.
 
 1. Edit the Extension Registration Component
     1. Open `src/workfront-doc-details-1/web-src/src/components/ExtensionRegistration.js`.
     1. In the methods section, add a function `secondaryNav` that contains an asynchronous function `getButtons`.
     1. `getButtons` should receive an object with the following structure: 
+
         ```
             {
             docId: "String",  // Document ID
@@ -169,8 +170,8 @@ Adobe provides an open source CLI that can be used to help create the App Builde
 
 1. Integrate Data Fetching in Your Components
     1. Add a new component to your application's components folder. Within this component, establish a connection to Workfront to retrieve document information and authentication data using the connection established with the host application. Here's an example of how you can structure your component to handle this: 
-        ```
 
+        ```
             import { useEffect, useState } from 'react';
             import { attach } from "@adobe/uix-guest";
             import { extensionId } from "./Constants";
@@ -205,7 +206,6 @@ Adobe provides an open source CLI that can be used to help create the App Builde
             }
 
             export default Review;
-
         ```
 
 ## Configuration for Existing AIO Projects
@@ -233,7 +233,6 @@ Adobe provides an open source CLI that can be used to help create the App Builde
                 }
             }
             }
-
         ```
 
 1. This function returns an array of button objects that will appear in the navigation: 
@@ -249,7 +248,6 @@ Adobe provides an open source CLI that can be used to help create the App Builde
             }
         }
         }
-
     ```    
 
 1. Configure Application Routing
@@ -259,7 +257,6 @@ Adobe provides an open source CLI that can be used to help create the App Builde
             <Route index element={<ExtensionRegistration />} />
             <Route exact path="index.html" element={<ExtensionRegistration />} />
             <Route exact path="review" element={<Review />} />
-
         ```
 
 1. Access Document Details
@@ -342,7 +339,9 @@ In order to have a guest application loaded within Workfront, the application ne
 1. Click **Manage** > **Experience Cloud Applications**. You should see the submitted apps with options to approve/reject. 
 Once approved, the published application extensions should automatically load in your Workfront environment. 
 
-## Additonal Help
+    ![](assets/approve-submission.png)
+
+## Additional Help
 
 Adobe has great documentation on how to get started building apps for AppBuilder and getting them deployed. Here are some helpful links:
 
