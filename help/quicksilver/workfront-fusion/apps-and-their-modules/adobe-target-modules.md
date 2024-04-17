@@ -225,16 +225,16 @@ This action module creates an AB or XT activity, an offer, or an audience.
           <p>For details on fields, see <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/createActivity_4_1">Create AB activity</a> in the Adobe Target API documentation.</p>
         </li>
         <li>
-          <p>[!UICONTROL XT Activity]</p>
+          <b>[!UICONTROL XT Activity]</b>
           <p>Continue to <a href="#xt-activity-fields" class="MCXref xref" >XT Activity fields</a>.</p>
         </li>
         <li>
-          <p>[!UICONTROL Offer]</p>
-          <p>Continue to <a href="#offer-fields" class="MCXref xref" >Offer fields</a>.</p>
+          <b>[!UICONTROL AP Activity]</b>
+          <p>For details on fields, see <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/createActivity_2">Create AP activity</a> in the Adobe Target API documentation.</p>
         </li>
         <li>
-          <p>[!UICONTROL Audience]</p>
-          <p>Continue to <a href="#audience-fields" class="MCXref xref" >Audience fields</a>.</p>
+          <b>[!UICONTROL Response Token]</b>
+          <p>For details on fields, see <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Response-tokens/operation/createResponseToken">Create Response Token</a> in the Adobe Target API documentation.</p>
         </li>
       </ul>
     </td>
@@ -823,7 +823,7 @@ This action module retrieves data for a single Activity, Offer, Audience, Proper
 
 #### [!UICONTROL Update a record]
 
-This action module updates an Activity, Offer, or Audience.
+This action module updates a record in Target.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -837,38 +837,13 @@ This action module updates an Activity, Offer, or Audience.
       <td role="rowheader">[!UICONTROL Record type]</td>
       <td>
         <p>Select the type of record that you want to update.</p>
-        <ul>
-          <li>
-            <p><b>[!UICONTROL AB Activity]</b>
-            </p>
-            <p>See field descriptions in <a href="#ab-activity-fields" class="MCXref xref" >AB Activity fields</a> under <a href="#create-a-record" class="MCXref xref" >Create a record</a>.</p>
-          </li>
-          <li>
-            <p><b>[!UICONTROL XT Activity]</b>
-            </p>
-            <p>See field descriptions in <a href="#xt-activity-fields" class="MCXref xref" >XT Activity fields</a> under <a href="#create-a-record" class="MCXref xref" >Create a record</a>.</p>
-          </li>
-          <li>
-            <p><b>[!UICONTROL Other Activity]</b>
-            </p>
-            <p>Select the field that you want to update a value for, then enter the new value for the field.</p>
-          </li>
-          <li>
-            <p><b>[!UICONTROL Offer]</b>
-            </p>
-            <p>See field descriptions in <a href="#offer-fields" class="MCXref xref" >Offer fields</a> under <a href="#create-a-record" class="MCXref xref" >Create a record</a>.</p>
-          </li>
-          <li>
-            <p><b>[!DNL Audience]</b>
-            </p>
-            <p>See field descriptions in <a href="#audience-fields" class="MCXref xref" >Audience fields</a> under <a href="#create-a-record" class="MCXref xref" >Create a record</a>.</p>
-          </li>
-        </ul>
-      </td>
+       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Record ID]</td>
-      <td>Enter or map the ID of the record you want to update.</td>
+      <td role="rowheader">[!UICONTROL Field names]</td>
+      <td>Select the fields that you want to update. The fields appear below.
+          <p>For details on fields, see <a href="https://developer.adobe.com/target/administer/admin-api/">the Adobe Target API documentation</a>.</p>
+      </td>
     </tr>
   </tbody>
 </table>
@@ -949,7 +924,7 @@ This search module searches for Activities, Offers, or Audiences based on criter
     </td>
   </tr>
   <tr>
-    <td role="rowheader">[!UICONTROL Maximum number of returned results]</td>
+    <td role="rowheader">[!UICONTROL Limit]</td>
     <td>
       <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle. Use this field in combination with the [!UICONTROL Offset] field to paginate the responses.</p>
       <p>For example, to see the third page of responses, when each page has ten responses, set [!UICONTROL Offset] to 20 and [!UICONTROL Maximum number of returned] results to 10.</p>
