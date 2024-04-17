@@ -93,6 +93,8 @@ The Environment Promotion capability is intended to provide the ability to move 
 
 \* Not currently available 
 
+<!-->
+
 >[!NOTE]
 >
 >Actions (ignore, select existing, and create new) are available on the following objects:
@@ -102,6 +104,7 @@ The Environment Promotion capability is intended to provide the ability to move 
 >* Company
 >* Group
 
+-->
 
 ## Environment promotion statuses
 
