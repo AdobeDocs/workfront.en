@@ -371,9 +371,8 @@ For more information, see [Formula fields overview](/help/quicksilver/maestro/fi
 
     >[!NOTE]
     >
-    > * You cannot add Multi-select type fields in a formula.
-    >
-    > * You cannot add fields from linked records in a formula. This functionality will be released at a later date. For more information about new releases, see [Adobe Workfront Planning release activity](/help/quicksilver/maestro/release-activity.md).
+    > You cannot add Multi-select type fields in a formula.
+    
 
 
 1. Click **Create**.
