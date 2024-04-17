@@ -1,16 +1,16 @@
 ---
-title: Second Quarter 2024 Project enhancements
-description: Second Quarter 2024 Project enhancements
+title: Third Quarter 2024 Project enhancements
+description: Third Quarter 2024 Project enhancements
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-exl-id: 0d9b1725-ed90-45a5-b63c-ff6ccbf3ae75
+
 ---
-# Second Quarter 2024 Project enhancements
+# Third Quarter 2024 Project enhancements
 
-This page describes all project enhancements made with the Second Quarter 2024 release to the Preview environment. These enhancements will be made available in the Production environment as noted.
+This page describes all project enhancements made with the Third Quarter 2024 release to the Preview environment. These enhancements will be made available in the Production environment as noted.
 
-For a list of all changes available at this point in the Second Quarter 2024 release cycle, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+For a list of all changes available at this point in the Third Quarter 2024 release cycle, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 
 ## More relevant assignments added to the New Task workflow 
