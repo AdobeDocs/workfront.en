@@ -343,7 +343,9 @@ Once approved, the published application extensions should automatically load in
 
 ## Additional Help
 
-Adobe has great documentation on how to get started building apps for AppBuilder and getting them deployed. Here are some helpful links:
+Adobe has great documentation on how to get started building apps for AppBuilder and getting them deployed. 
+
+Here are some helpful links:
 
 * [https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli](https://developer.adobe.com/app-builder/docs/getting_started/first_app/#4-bootstrapping-new-app-using-the-cli)
 
