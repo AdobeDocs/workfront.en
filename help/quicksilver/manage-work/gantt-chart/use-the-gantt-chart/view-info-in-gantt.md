@@ -144,7 +144,7 @@ Filters and groupings that you apply to the list are reflected on both the Proje
 
 * Filters\
    You can apply a Filter to the list in order to control the information that is displayed in the [!UICONTROL Gantt Chart].\
-   For information about applying a Filter, see  [Filters overview in [!UICONTROL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   For information about applying a Filter, see  [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 * Groupings\
    Groupings that you apply to the list are reflected on the [!UICONTROL Gantt Chart].\

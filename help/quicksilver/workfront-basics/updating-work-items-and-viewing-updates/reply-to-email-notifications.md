@@ -3,26 +3,26 @@ product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Reply to email notifications
 description: You can respond to Workfront email notifications generated from comments made to projects, tasks, issues, and other objects to add replies to the original comments made in the Adobe Workfront application.
-author: Lisa and Alina
+author: Nolan and Alina
 feature: Get Started with Workfront
 exl-id: fea88410-8f37-49d0-9f5d-9fbac4ab5de6
 ---
 # Reply to email notifications
 
+<!-- Audited: April 2024-->
+
 Depending on how your email notifications are configured, you might receive an email notification when an update is made to certain objects to which you have access.
 
 You can reply to an update from an email notification in the following ways:
 
-reply to the original comment.
-
 * Use the Comment button inside the email to navigate back to Workfront and reply to the update in the Updates area.
-* Reply to the email that you receive. Your reply email is added as a Workfront 
+* Reply to the email that you receive. Your reply email is added as a Workfront reply to the original comment.
 
-
-
+<!--
 >[!NOTE]
 >
 >Replying to updates by email is not available for environments on Cluster 6.
+-->
 
 You can respond to Workfront email that is generated from comments made to the following objects:
 
@@ -40,30 +40,31 @@ You can respond to Workfront email that is generated from comments made to the f
 
 You must have the following access to perform the steps in this article:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>Request or higher for issues and documents; Review or higher for all other objects</p> </td> 
+   <td> <p>New: Contributor or higher for issues and documents; Light or higher for all other objects</p>
+   <p>Current: Request or higher for issues and documents; Review or higher for all other objects</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>Requestor or higher for issues and documents; Reviewer or higher for all other objects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader"><strong>Access level configuration</strong></td> 
+   <td> <p>View or higher access to the objects where you want to post the reply</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>View access to the object</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td role="rowheader"><strong>Object permission</strong></td> 
+   <td> <p>View or higher permissions to the objects where you want to post the reply</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 ## Reply to an update from an email notification
 

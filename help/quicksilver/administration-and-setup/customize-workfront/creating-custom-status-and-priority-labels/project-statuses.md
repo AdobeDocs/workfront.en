@@ -59,10 +59,10 @@ For information about editing a system status and creating custom statuses, see 
 
    ![](assets/project-status.png)
 
-   For details about each of the built-in system project statuses, see [System project statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).
+   For details about each of the built-in system project statuses, see [Overview of system project statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).
 
 ## Creating custom project statuses and customize system statuses
 
 As a Workfront administrator you can add system project statuses to Workfront. As a group owner, you can add a custom status specific to one group. For more information about creating custom statuses or editing the system ones, see [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-When you create a custom project status, you must always equate the new status with an existing system status. You must understand the behavior of the system statuses to know which status is appropriate to equate your custom status with. After you have selected your equal status this selection cannot be changed. For more information about the system project statuses, see [System project statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).
+When you create a custom project status, you must always equate the new status with an existing system status. You must understand the behavior of the system statuses to know which status is appropriate to equate your custom status with. After you have selected your equal status this selection cannot be changed. For more information about the system project statuses, see [Overview of system project statuses](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).

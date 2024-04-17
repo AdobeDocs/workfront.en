@@ -9,6 +9,8 @@ exl-id: cac7662f-f2ae-44f0-a0bb-1569c03d172e
 ---
 # Project template overview
 
+<!-- Audited: 12/2023 -->
+
 You can use project templates to capture most of the repeatable processes, information, and settings associated with the projects in your organization.
 
 You can define tasks, queue topics, custom forms, attach documents in your template.

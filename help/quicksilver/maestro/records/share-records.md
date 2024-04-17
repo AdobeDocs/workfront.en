@@ -1,39 +1,29 @@
 ---
 title: Share records
-description: You can share records with others to increase your collaboration.
+description: You can share records with others to increase collaboration.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
 ---
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--should this move to the Access folder when we have sharing for ALL the objects???-->
 
 # Share records
 
->[!IMPORTANT]
->
->The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
->
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
->
->Contact your account representative for more information about joining the beta program for Maestro.
->
->For information, see [Adobe Maestro overview](../maestro-overview.md).
+{{maestro-important-intro}}
 
 To collaborate with other users, you can share records with others. 
 
-You can share a Maestro record in the following ways: 
+You can share an Adobe Workfront Planning record in the following ways: 
 
-* Copy the link of the Details page of a record from your browser when the page is open. 
+* Copy the link of the record page from your browser when the page is open. 
 
-* Copy a link to the record's Details page when viewing records in the record type's table view.   
+* Copy a link to the record's page when viewing records in the record type's table view.   
 
-This article describes how you can copy a link to a record's Details page from the table view of a record type. 
+* You can share all records in a workspace with other users by sharing the workspace. For more information, see [Share a workspace](/help/quicksilver/maestro/access/share-workspaces.md).
 
-<!-- add information about permissions, like:
-- in the table below, you must have at least View permissions to the record
-- the user you're sharing with must have at least View permissions to the record to view it
-- etc - others???-->
+This article describes how you can copy a link to a record's page from the table view of a record type. 
 
 ## Access requirements
 
@@ -41,15 +31,20 @@ You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto">
  <col>
+ </col>
+ <col>
+ </col>
  <tbody>
+    <tr>
+<tr>
 <td>
-   <p> Adobe product</p> </td>
+   <p> Product</p> </td>
    <td>
    <p> Adobe Workfront</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront Planning closed beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -66,17 +61,30 @@ You must have the following access to perform the steps in this article:
   </tr>
   
   <tr>
-   <td role="rowheader">Access level</td>
-   <td> <p>Any</p>  
+   <td role="rowheader"><p>Access level configuration</p></td>
+   <td> <p>There are no access level controls for Workfront Planning</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="../access/grant-access.md">Grant access to Adobe Maestro</a>. </p>  
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>View or higher permissions to a workspace to share a record using a link </p>
+   <p>Manage permissions to a workspace to share records while sharing the workspace the record belongs to </p>
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
+</td>
+  </tr>
+
  </tbody>
 </table>
+
+
+
+
+
 
 <!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -91,9 +99,9 @@ You must have the following access to perform the steps in this article:
 
 ## Share record links from the record type table view
 
-1. Click the **Main Menu** ![](assets/main-menu-workfront.png) in the upper-right corner, <!--or the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it is available,--> then click **Maestro**. 
+{#step1-to-maestro}
 
-    The workspace that you accessed last opens. 
+   The workspace that you accessed last opens. 
 1. Click a record type card. 
 
     The record type page opens. 
@@ -104,17 +112,21 @@ You must have the following access to perform the steps in this article:
 
     Or 
 
-    Hover over a record's name then click the More menu ![](assets/more-menu.png), then click **Copy link**.
+    Hover over a record's name, click the **More** menu ![](assets/more-menu.png), then click **Copy link**.
 
     ![](assets/contextual-menu-for-record-row.png)
 
     The link is copied to your clipboard. 
 
-1. Paste the link into an email, or chat window, to share with other users. When users receive the link, it opens the Details page of the record. 
+1. Paste the link into an email, or chat window, to share with other users. When users receive the link, it opens the record page. 
 
     >[!TIP]
     >
-    >The fields of the record in the Details page are the same fields available in the Table view of the record. 
+    >The fields in the record page are the same fields available in the Table view of the record. 
 
 
     <!--add there when it will be available: if they have access to this record-->
+
+## Share all records in a workspace by sharing the workspace
+
+You can share all records in a workspace when you share the workspace with others. For more information, see [Share a workspace](/help/quicksilver/maestro/access/share-workspaces.md). 

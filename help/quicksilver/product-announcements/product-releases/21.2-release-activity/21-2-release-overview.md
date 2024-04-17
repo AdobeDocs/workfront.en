@@ -6,6 +6,7 @@ title: 21.2 Release overview
 description: The 21.2 release was made available in the Production environment the week of May 10, 2021.
 author: Luke
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 1affe1ae-571e-4026-8ba7-8ce7104e1b89
 ---
 # 21.2 Release overview

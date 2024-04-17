@@ -17,6 +17,10 @@ exl-id: cdf46eb1-46ba-4707-9063-b76899195a2c
 
 Work automation requires rapid processing, so [!DNL Adobe Workfront Fusion] is designed for high performance. Because long-running scenarios can slow down the pace of your work, we've designed [!DNL Workfront Fusion] with performance-preserving guardrails that limit execution time, data size, and other scenario parameters. [!DNL Workfront Fusion] designers should be aware of these guardrails and incorporate them into their design practices.
 
+## Browsers
+
+Wokfront Fusion supports only Chrome based browsers.
+
 ## Scenarios
 
 * The default scenario execution timeout is **40 minutes**. When the execution reaches this timeout, [!DNL Workfront Fusion] interrupts scenario execution after the next cycle or operation, depending on the scenario. This forces the scenario to stop shortly after the 40 minute limit is reached
@@ -58,3 +62,12 @@ Work automation requires rapid processing, so [!DNL Adobe Workfront Fusion] is d
   * The webhook is used only in inactive scenarios, which have been inactive for more than 30 days.
 
 * Deactivated webhooks are deleted and unregistered automatically if they are not connected to any scenarios and have been in deactivated status for over 30 days.
+
+## Execution history
+
+* Execution history logs are limited to a size of **100 MB**. If the execution history exceeds this size, only the first 100 MB will be shown.
+
+## Retries
+
+When using the Break module and specifying the Retry directive, if a scenario fails consecutively 10 times within a 2-minute timeframe, the scenario will be automatically deactivated.
+ 

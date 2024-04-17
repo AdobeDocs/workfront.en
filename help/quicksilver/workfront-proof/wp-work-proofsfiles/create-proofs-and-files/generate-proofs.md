@@ -3,7 +3,7 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: create-proofs-and-files
 title: Generate Proofs in [!DNL Workfront Proof]
-description: Workfront Proof enables you to create proofs from documents or websites, and share those proofs with others. The following steps describe the various configuration options that are available - EDIT ME.
+description: Workfront Proof enables you to create proofs from documents or websites, and share those proofs with others.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 49657851-2948-4d3b-b2ce-c8359eeb315b

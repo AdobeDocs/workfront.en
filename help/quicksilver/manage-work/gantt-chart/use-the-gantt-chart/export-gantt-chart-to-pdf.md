@@ -96,7 +96,7 @@ You must have the following to follow the steps in this article:
 
       >[!NOTE]
       >
-      >If you need to export a [!UICONTROL Gantt chart] that contains more than 500 items, apply a Filter to the list before viewing the [!UICONTROL Gantt chart] so that fewer than 500 items or 250 pages are displayed. For information about how to apply a filter, see  [Filters overview in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+      >If you need to export a [!UICONTROL Gantt chart] that contains more than 500 items, apply a Filter to the list before viewing the [!UICONTROL Gantt chart] so that fewer than 500 items or 250 pages are displayed. For information about how to apply a filter, see  [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
       >
       >
       >You cannot export the entire Gantt chart in the following circumstances: 

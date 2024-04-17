@@ -4,6 +4,7 @@ description: 22.2 Integration enhancements
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
 exl-id: 5e841349-7d76-4ab9-9625-a0c53111bf35
 ---
 # 22.2 Integration enhancements

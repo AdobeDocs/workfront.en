@@ -251,6 +251,7 @@ Attached to the Contributor license, this access level is designed for users who
 * Submit requests
 * Track requests
 * Update and review requests
+* Approve requests
 
 Users with this built-in access level:
 
@@ -270,8 +271,8 @@ The following are the highest access settings available for objects in the Contr
 
 | Workfront object type |No access |View access |Edit access |
 |---|---|---|---|
-| Project |&nbsp; |✓ (Only the Project Details page) |&nbsp; |
-| Task |&nbsp; |✓(Only the Details page) |&nbsp; |
+| Project |&nbsp; |✓ |&nbsp; |
+| Task |&nbsp; |✓ |&nbsp; |
 | Issue |&nbsp; |&nbsp; |✓ |
 | Portfolios |✓ |&nbsp; |&nbsp; |
 | Programs |✓ |&nbsp; |&nbsp; |

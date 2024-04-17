@@ -5,6 +5,7 @@ title: FAQs - Event Subscriptions
 description: FAQs - Event Subscriptions
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
 ---
 # FAQs - Event Subscriptions

@@ -4,6 +4,7 @@ description: Look-and-feel updates during the Fourth Quarter 2023 release time f
 author: Lisa
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: c18a5ff5-ac84-43a3-8980-ddadea3c2677
 ---
 # Look-and-feel updates during the Fourth Quarter 2023 release timeframe
@@ -16,7 +17,7 @@ For a list of all changes available with the Fourth Quarter 2023 release, see [F
 
 >[!NOTE]
 >
->Preview release: November 1, 2023; Production release for all customers: November 1
+>Preview release: November 1, 2023; Production release for all customers: November 1, 2023
 
 The email template for document approval notifications has been updated to better match other Adobe email templates and to improve clarity and usability.
 
@@ -24,7 +25,7 @@ The email template for document approval notifications has been updated to bette
 
 >[!NOTE]
 >
->Preview release: October 12, 2023; Production release for all customers: TBD
+>Preview release: October 12, 2023; Production for fast release: With the 24.2 release (February 15, 2024); Production for quarterly release: With the 24.4 release (April, 2024)
 
 To provide more clarity about manual adjustments or contouring in the Workload Balancer, manually adjusted hourly allocations now show a pencil icon.
 

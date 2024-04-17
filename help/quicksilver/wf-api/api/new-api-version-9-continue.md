@@ -5,6 +5,7 @@ title: What's New in API Version 9 (continued)
 description: This list is the second half of a larger list. The first half can be located at What's New in API Version 9. You will find the list of updates to version 9 at Updates to API Version 9.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 0af97c16-e6a7-4796-92e0-4c2d9751c845
 ---
 # What's New in API Version 9 (continued)

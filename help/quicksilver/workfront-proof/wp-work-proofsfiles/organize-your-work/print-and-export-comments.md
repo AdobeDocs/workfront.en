@@ -3,7 +3,7 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Print and Export Comments in [!DNL Workfront Proof]
-description: The Comments summary can be accessed directly from the following areas - EDIT ME.
+description: The Comments summary can be accessed in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe

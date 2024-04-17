@@ -56,9 +56,9 @@ The following prerequisites are required to configure a project to allow users t
 These conditions must be met, before enabling this feature:
 
 * Users who are emailing issues to this account must be active users with a license for Workfront.  
-* External Users cannot email issues to a request queue because they do not have access to create issues.
 * Users who are emailing issues to this account must have Add Issue permissions on the project. 
-* The emails coming from the email address associated with an active Workfront user are the only emails allowed to send issues to the project. 
+* External Users cannot email issues to a request queue because they do not have access to create issues.
+* Only emails coming from an email address associated with an active Workfront user are allowed to send issues to the project. Emails that are forwarded to an active Workfront user email from an email not associated with a Workfront account are unable to create issues under the project, as the original sender's email address is required to be associated with an active Workfront account. 
 * The project is set up as a Request Queue. 
 * The email account associated with the project is not linked to a Workfront user account.
 

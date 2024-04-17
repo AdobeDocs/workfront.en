@@ -2,14 +2,14 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: create-and-manage-projects
-title: Create projects
+title: "Create projects: article index"
 description: Learn information about creating projects in the following articles.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: a49c9157-05d8-41a6-93c3-068d835b52e3
 ---
-# Create projects
+# Create projects: article index
 
 This section contains the following articles:
 

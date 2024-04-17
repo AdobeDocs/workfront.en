@@ -6,6 +6,7 @@ title: Adobe Workfront proof 23.3 release activity Week of June 5, 2023
 description: This page describes all enhancements made with the 23.3 release for Adobe Workfront Proof to the Preview environment. These enhancements will be made available in the Production environment the week of June 5, 2023.
 author: Nolan
 feature: Product Announcements, Workfront Proof
+recommendations: noDisplay, noCatalog
 exl-id: b52020a5-e58b-48f6-9714-8e2ebe606729
 ---
 # Adobe Workfront Proof 23.3 release activity: Week of June 5, 2023

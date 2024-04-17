@@ -10,6 +10,8 @@ exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
 ---
 # View: merge information from multiple columns in one shared column
 
+<!-- Audited: 1/2024 -->
+
 You can merge the information that displays in multiple separate columns and display it in one shared column.
 
 ## Access requirements
@@ -21,28 +23,37 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Request to modify a view </p>
-   <p>Plan to modify a report</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p> Current: 
+   <ul>
+   <li>Request to modify a view</li> 
+   <li>Plan to modify a report</li>
+   </ul>
+     </p>
+     <p> New: 
+   <ul>
+   <li>Contributor to modify a view</li> 
+   <li>Standard to modify a report</li>
+   </ul>
+     </p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Reports, Dashboards, Calendars to modify a report</p> <p>Edit access to Filters, Views, Groupings to modify a view</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Reports, Dashboards, Calendars to modify a report</p> <p>Edit access to Filters, Views, Groupings to modify a view</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions to a report</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Considerations when sharing or merging columns
 
@@ -71,7 +82,7 @@ You can merge the data from multiple separate columns to display it in one colum
 >
 >This approach is recommended when you merge two columns that can never show a value for the same record at the same time. For example, in a Work Item report, the Issue Name and Task Name columns can be merged without a line break between them because a Work Item can never have an Issue Name and a Task name at the same time. A Work Item can be either an Issue or a Task in Workfront.
 
-To do this:
+To merge data from two columns without a line break:
 
 1. Using text mode for a view, add the following text to the first column you want to merge:
 

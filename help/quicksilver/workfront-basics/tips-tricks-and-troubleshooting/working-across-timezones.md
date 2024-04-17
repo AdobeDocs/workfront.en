@@ -8,10 +8,21 @@ exl-id: b6574165-a6dc-4694-a367-d98927abf1e3
 ---
 # Working across time zones
 
+<!-- Audited: 2/2024 -->
+
 It can be helpful to understand how [!DNL Adobe Workfront] uses time zones to calculate the following:
 
 * Time fields for objects
 * Times in other [!DNL Workfront] areas, such as automated Workfront emails
+
+>[!WARNING]
+>
+>If you cannot find your exact time zone in the list we provide, find the time zone that is closest to yours and update it for your instance. 
+>
+>Also, consider that a similar time zone might not match yours perfectly. 
+>
+>For example, some countries or territories might observe Daylight Saving Time,  but your country might not. You might need to adjust your system's time zones according to these changes, if needed. 
+
 
 ## Time zones in [!DNL Workfront]
 
@@ -94,7 +105,7 @@ You can help users working more easily across several time zones in several ways
 
 You can use a series of calculated custom fields on a custom form to display the current time for users in your organization, like a row of airport clocks displaying the time in multiple cities. You could create a field for each of the time zones where your users work, each calculating the time for its time zone.
 
-For more information, see [Add calculated data to a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md), as well as the section [Date & time calculated custom fields](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) in the article [Calculated data expressions](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+For more information, see [Add calculated data to a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md), as well as the section [Date & time calculated custom fields](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md#date) in the article [Overview of calculated data expressions](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 ### Use text fields instead of date fields in a custom form {#use-text-fields-instead-of-date-fields-in-a-custom-form}
 

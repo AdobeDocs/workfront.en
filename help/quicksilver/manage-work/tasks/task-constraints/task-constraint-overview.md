@@ -10,6 +10,8 @@ exl-id: 91b0844b-95a3-4d18-9fdb-a907dd42e1bf
 ---
 # Task Constraint overview
 
+<!-- Audited: 12/2023 -->
+
 Task constraints determine when a task should start and end on a project.
 
 ## Overview of Task Constraints
@@ -22,7 +24,7 @@ Constraint types that require defined dates impact predecessor relationships.
 
 >[!TIP]
 >
->Consider using a constraint type that does not require specific dates if using predecessor relationships between tasks.
+>Consider using a constraint type that does not require specific dates if you are using predecessor relationships between tasks.
 
 The following table displays each constraint and its abbreviation. Abbreviations are used on task lists and when creating Kick-Start import files. Click the linked title of each task constraint for more information about that type of constraint.
 
@@ -49,7 +51,7 @@ The following table displays each constraint and its abbreviation. Abbreviations
    <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/as-late-as-possible.md" class="MCXref xref">Task Constraint overview: As Late As Possible </a> </p> </td> 
    <td scope="col"> <p>ALAP</p> </td> 
    <td scope="col"> <p>Places the completion time of the task as close to the end of the project as possible.</p> 
-   <p>This is the default constraint when the project Schedule Mode is from Completion Date and the system or group default for the Start Date of a task is Based on the Project Planned Date. </p>
+   <p>This is the default constraint when the project Schedule Mode is from Completion Date and the system or group default for the Start Date of a task is set to Based on the Project Planned Date. </p>
    </td> 
   </tr> 
   <tr> 
@@ -60,7 +62,7 @@ The following table displays each constraint and its abbreviation. Abbreviations
   <tr> 
    <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/latest-available-time.md" class="MCXref xref">Task Constraint overview: Latest Available Time</a> </p> </td> 
    <td scope="col"> <p>LAT</p> </td> 
-   <td scope="col"> <p>Schedule a task to begin at the latest available time after considering predecessor-successor relationships in the project.</p> </td>
+   <td scope="col"> <p>Schedules a task to begin at the latest available time after considering predecessor-successor relationships in the project.</p> </td>
   </tr> 
   <tr> 
    <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-earlier-than.md" class="MCXref xref">Task Constraint overview: Start No Earlier Than</a> </p> </td> 
@@ -72,7 +74,7 @@ The following table displays each constraint and its abbreviation. Abbreviations
    <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-later-than.md" class="MCXref xref">Task Constraint overview: Start No Later Than</a> </p> </td> 
    <td scope="col"> <p>SNLT</p> </td> 
    <td scope="col"> <p>Schedules a task to start prior to the date you specify.</p> 
-   <p>SThis is the default constraint if the project Schedule Mode is from Completion Date and system or group default for the Start Date of a task is Today. 
+   <p>This is the default constraint if the project Schedule Mode is from Completion Date and if the system or group default for the Start Date of a task is set to Today. 
    </td> 
   </tr> 
   <tr> 
@@ -98,16 +100,16 @@ The following table displays each constraint and its abbreviation. Abbreviations
   <tr> 
    <td> <p><a href="../../../manage-work/tasks/task-constraints/fixed-dates.md" class="MCXref xref">Task Constraint overview: Fixed Dates</a> </p> </td> 
    <td> <p>FIXT</p> </td> 
-   <td> <p>Schedules a task to start and end on a specific dates.</p> </td> 
+   <td> <p>Schedules a task to start and end on specific dates.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Overview of default Constraints
+## Overview of default constraints
 
 When you create new tasks, a Task Constraint is automatically selected by Workfront.
 
-Workfront uses two variables to decide what Task Constraint is selected by default for a new task:
+Workfront uses two variables to decide which Task Constraint is selected by default for a new task:
 
 * The **Project Schedule From** field on the project.
 
@@ -115,7 +117,7 @@ Workfront uses two variables to decide what Task Constraint is selected by defau
 
 * The **Start Date** preference configured by your Workfront or group administrator in the **Tasks & Issues** area of **Setup**.
 
-  For information about Tasks & Issues Preferences, see the "New Task Defaults" section in [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  For information about Tasks & Issues Preferences, see the [New Task Defaults](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#new-task-defaults) section in [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 The following table shows the default Task Constraint when choosing different variables for your project and your new tasks:
 

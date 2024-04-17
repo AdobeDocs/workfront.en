@@ -56,7 +56,7 @@ For more information, see:
 
 * [Text Mode overview](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md) 
 * [Text mode syntax overview](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md) 
-* [Custom View, Filter, and Grouping samples](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Custom view, filter, and grouping samples: article index](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Edit text mode in a grouping
 

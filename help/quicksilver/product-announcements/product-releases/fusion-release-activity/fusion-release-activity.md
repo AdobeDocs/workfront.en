@@ -7,6 +7,7 @@ title: Adobe Workfront Fusion release activity overview
 description: Adobe Workfront Fusion connects your apps and web services seamlessly so that you can concentrate on new tasks rather than repeating the same tasks again and again.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
 ---
 # Adobe Workfront Fusion release activity overview
@@ -15,10 +16,37 @@ Adobe Workfront Fusion connects your apps and web services seamlessly so that yo
 
 For information about how to use Workfront Fusion, see [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
 
+## Fusion releases in 2024
+
+### April 2024
+
+* [Workfront Fusion release activity: Week of April 8, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-4-8.md)
+
+
+### March 2024
+
+* [Workfront Fusion release activity: Week of March 11, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-3-14.md)
+
+### February 2024
+
+* [Workfront Fusion release activity: Week of February 26, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-2-26.md)
+* [Workfront Fusion release activity: Week of February 5, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-2-5.md)
+
+### January 2024
+
+* [Workfront Fusion release activity: Week of January 1, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-1-4.md)
+
 ## Fusion releases in 2023
 
-### October 2023
++++**Click to open**
 
+### November 2023
+
+* [Workfront Fusion release activity: Week of November 27, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-30.md)
+* [Workfront Fusion release activity: Week of November 13, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-11-14.md)
+
+
+### October 2023
 
 * [Workfront Fusion release activity: Week of October 30, 2023](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2023-10-26.md)
 
@@ -54,6 +82,8 @@ For information about how to use Workfront Fusion, see [Adobe Workfront Fusion](
 
 * [Workfront Fusion release activity: Week of March 20, 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-3-21.md)
 * [Workfront Fusion release activity: Week of March 6, 2023](../../../product-announcements/product-releases/fusion-release-activity/fusion-2023-3-6.md)
+
++++
 
 ## Fusion releases in 2022
 

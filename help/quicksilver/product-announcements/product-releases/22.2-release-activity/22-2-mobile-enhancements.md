@@ -4,6 +4,7 @@ description: 22.2 Mobile enhancements
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 72761545-9781-4a66-8672-2ff6a15cce9f
 ---
 # 22.2 Mobile enhancements

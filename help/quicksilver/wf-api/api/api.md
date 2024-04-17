@@ -7,6 +7,7 @@ description: Workfront API Articles
 author: Becky
 feature: Workfront API
 recommendations: noDisplay, noCatalog
+role: Developer
 exl-id: 90e00a71-1a3a-4e3f-99d8-47700052a9dc
 ---
 # API
@@ -28,6 +29,7 @@ This section contains the following articles:
 * [Configure and use your organization's custom OAuth 2 applications using authorization code flow](../../wf-api/api/oauth-app-code-token-flow.md)
 * [Configure and use your organization's custom OAuth 2 applications using JWT flow](../../wf-api/api/oauth-app-jwt-flow.md)
 * [Configure and use your organization's custom OAuth 2 applications using PKCE flow](../../wf-api/api/oauth-app-pkce-flow.md)
+* [What's new in API version 18](../../wf-api/api/new-api-version-18.md) 
 * [What's new in API version 17](../../wf-api/api/new-api-version-17.md) 
 * [What's new in API version 16](../../wf-api/api/new-api-version-16.md) 
 * [What's new in API version 15](../../wf-api/api/new-api-version-15.md) 

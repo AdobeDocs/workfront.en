@@ -29,8 +29,10 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td><p>Legacy plan: [!UICONTROL Plan]</p>
-       <p>Current plan: [!UICONTROL Standard]</p></td> 
+   <td><p>New plan: [!UICONTROL Standard] </p>
+       <p>or</p> 
+       <p>Current plan: [!UICONTROL Plan] </p>
+   </td>    
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -48,8 +50,14 @@ You must have the following access to perform the steps in this article:
 {{step-1-to-setup}}
 
 1. In the left panel, click [!UICONTROL **Rate cards**].
-1. Click [!UICONTROL **New rate card**], then type a name for the rate card in the [!UICONTROL **Rate card**] field, to replace "Untitled Rate Card."
-1. On the card screen, click [!UICONTROL **Add job role**].
+1. Click [!UICONTROL **New rate card**], then type a name for the rate card in the [!UICONTROL New rate card] box, to replace "Untitled Rate Card."
+1. (Optional) On the Rate Card Details screen, add a [!UICONTROL **Description**].
+1. (Optional) To attach a custom form to the rate card, click the [!UICONTROL **Add custom form**] field in the upper-right corner and select a custom form from the list that displays.
+
+   For more information on attaching a custom form, see [Add a custom form to an object](/help/quicksilver/workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+
+1. Click [!UICONTROL **Job Roles and Rates**] in the left navigation panel.
+1. On the Rate Card Job Roles and Rates screen, click [!UICONTROL **Add job role**].
 1. In the dialog, select a [!UICONTROL **Job Role**] to define billing rates for.
 
    The Default Billing Rate displays the system-level rate for this job role, if one is defined.
@@ -74,7 +82,7 @@ You must have the following access to perform the steps in this article:
 
 1. Click [!UICONTROL **Save**].
 1. (Optional) To add another billing rate, either for the same job role in another location or for a separate job role, click [!UICONTROL **Add job role**].
-1. (Optional) To edit a billing rate, select the rate in the rate card and click the **Edit** icon.
+1. (Optional) To edit a rate card, click the rate card name in the Rate Cards list in Setup. To edit a billing rate, click [!UICONTROL **Job Roles and Rates**] in the left navigation panel of the rate card. Then, select the rate and click the **Edit** icon ![Edit icon](assets/edit-icon.png).
 
 ## Copy a rate card
 
@@ -82,15 +90,16 @@ You must have the following access to perform the steps in this article:
 
 1. In the left panel, click [!UICONTROL **Rate cards**].
 1. Select the check box next to the rate card in the list and click the **Copy** icon ![Copy icon](assets/copy-icon.png).
+1. Type a name for the rate card in the [!UICONTROL Copy rate card] box, to replace "Untitled Rate Card." Then, click **Save**.
 
-   A duplicate rate card is added. Click the rate card name in the list to change its name.
+   The new rate card is saved. Edit the rate card details, job roles, and rates as needed.
 
 ## Delete an entire rate card
 
 {{step-1-to-setup}}
 
 1. In the left panel, click [!UICONTROL **Rate cards**].
-1. Select the check box next to the rate card in the list click the **Delete** icon ![Delete icon](assets/delete.png).
+1. Select the check box next to the rate card in the list, and click the **Delete** icon ![Delete icon](assets/delete.png).
 
    >[!NOTE]
    >

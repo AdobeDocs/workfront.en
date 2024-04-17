@@ -25,7 +25,7 @@ This section contains the following articles about how you can grant and request
 * [Share a template](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md) 
 * [Share project templates](../../manage-work/projects/create-and-manage-templates/share-project-template.md) 
 * [Share financial permissions on an object](../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md) 
-* [Share a portfolio](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md) 
+* [Share a portfolio](../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md) 
 * [Share a program](../../workfront-basics/grant-and-request-access-to-objects/share-a-program.md) 
 * [Share a document](../../workfront-basics/grant-and-request-access-to-objects/document-permissions.md) 
 * [Share a document folder](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md) 

@@ -3,7 +3,7 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Overview of assigning work in the Workload Balancer
 description: As a resource manager, you can use the Adobe Workfront Workload Balancer to view work items that have not yet been assigned to users as well as assign these items to them.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 98779b67-b975-4501-8426-63e255b1d7df
 ---
@@ -11,7 +11,7 @@ exl-id: 98779b67-b975-4501-8426-63e255b1d7df
 
 As a resource manager, you can use the Adobe Workfront Workload Balancer to view work items that have not yet been assigned to users as well as assign these items to them.
 
-For general information about the Workload Balancer, see [Overview of the Workload Balancer](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+For general information about the Workload Balancer, see [Workload Balancer overview](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
 You can assign work items (tasks and issues) to users in other areas of Workfront. However, by using the Workload Balancer you can easily understand users' availability and clearly see all other items they are assigned to before assigning them more work.
 
@@ -41,7 +41,7 @@ Workfront uses the following information to calculate the capacity of the user i
 
 * The user's time off. This indicates which days the user is planning to take off.
 
-  For more information, see [Configure personal time off in Adobe Workfront](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
+  For more information, see [Configure personal time off](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md).
 
 * The user's Work Time. This indicates the percentage of FTE time that the user is available to perform actual project-related work, not including overhead. Set the Work Time value to  1 to indicate that the user is available for project-related work their entire full-time equivalent.
 

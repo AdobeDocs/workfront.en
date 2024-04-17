@@ -7,6 +7,7 @@ title: 'Workfront Fusion release activity: Week of August 24, 2020'
 description: This page describes all enhancements made in Adobe Workfront Fusion the week of August 17, 2020.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 195fc28b-435c-4c5e-be47-c73dea0499a6
 hidefromtoc: yes
 ---

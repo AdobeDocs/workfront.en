@@ -56,7 +56,7 @@ The Custom Refresh Sandbox contains your actual production data, and it does not
 >[!NOTE]
 >
 >* You cannot schedule a refresh for the current day. For example, if today is June 1, the earliest day when you can schedule a refresh is June 2.
->* The scheduled refresh occurs at 12:00 AM on the given date, based on the timezone of the user that submitted the request.
+>* The scheduled refresh occurs sometime during the night, based on the user's cluster (US clusters refresh during night in the US). The specific time is unpredictable due to other customers in the queue and how much data is refreshed. If the queue has many large customers, your refresh may not run until later that day, or the next day.
 >* Your Custom Refresh Sandbox always has the same product features as your production environment. However, when you refresh your Custom Refresh Sandbox, it preserves branding only for the login screen background color. The login screen and navigation bar logos are reset to [!DNL Workfront] defaults, and any branding images you modified prior to the refresh do not display.
 >
 
@@ -191,6 +191,8 @@ For more information about configuring [!DNL Workfront] with SSO, see [Overview 
 
 ## Intended use and availability
 
-[!DNL Workfront] Custom Refresh Sandbox environments are not intended for performance or load testing. Rather, use these environments to validate feature functionality with your organization's existing workflows.
+* [!DNL Workfront] Custom Refresh Sandbox environments are not intended for performance or load testing. Rather, use these environments to validate feature functionality with your organization's existing workflows.
 
-[!DNL Workfront] Custom Refresh Sandbox environments are intended to be always available. Any outage to a Workfront Custom Refresh Sandbox environment during regular business hours will be a first priority immediately after any Production issues are resolved if any exist. Any outage to a Workfront Custom Refresh Sandbox environment on weekends (Saturdays and Sundays) will be addressed so that the environment is running for business hours on Monday.
+* [!DNL Workfront] Custom Refresh Sandbox environments are intended to be always available. Any outage to a Workfront Custom Refresh Sandbox environment during regular business hours will be a first priority immediately after any Production issues are resolved if any exist. Any outage to a Workfront Custom Refresh Sandbox environment on weekends (Saturdays and Sundays) will be addressed so that the environment is running for business hours on Monday.
+
+* Proofing is not available in the Custom Refresh Sandbox environments.

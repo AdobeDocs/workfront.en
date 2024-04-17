@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: You can organize a custom form with the Form Designer.
-author: Courtney
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
 ---
 # Organize and preview a form with the form designer
 
- You can organize a custom form with the form designer.
+ You can organize a custom form with the form designer, and preview it to verify that it is set up correctly.
 
 ## Access requirements
 
@@ -28,9 +28,9 @@ You must have the following to perform the steps in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td>
-   <p>Current plan: Standard</p>
+   <p>New plan: Standard</p>
    <p>or</p>
-   <p>Legacy plan: Plan</p></td> 
+   <p>Current plan: Plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Access level configurations*</td> 
@@ -164,4 +164,4 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 
 1. Begin creating or editing a custom form and adding fields, as described in [Design a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Click **Preview** in the top-left corner to see how the form will look when being used, then click **End Preview** to return to editing the form.
+1. Click **Preview** in the top-right corner to see how the form will look when being used, then click **End Preview** to return to editing the form.

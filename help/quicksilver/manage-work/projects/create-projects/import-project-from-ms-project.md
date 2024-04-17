@@ -19,8 +19,6 @@ You can import projects from Microsoft Project into Adobe Workfront and manage a
 
 ## Access requirements
 
-drafted for P&P:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -31,9 +29,9 @@ drafted for P&P:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
+   <td> <p>New license: Standard </p> 
    Or
-   <p>Legacy license: Plan </p>
+   <p>Current license: Plan </p>
    </td> 
   </tr> 
   <tr> 
@@ -48,6 +46,10 @@ drafted for P&P:
   </tr> 
  </tbody> 
 </table>
+
+*To find out what plan, license type, or access you have, contact your Workfront administrator.
+
+<!--old permissions model: 
 
 You must have the following access to perform the steps in this article:
 
@@ -76,7 +78,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+-->
 
 ## Create a project from a MS&nbsp;Project
 

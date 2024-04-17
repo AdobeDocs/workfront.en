@@ -6,6 +6,7 @@ title: Adobe Workfront Proof with the 23.3 release
 description: This page provides information about functionality for Adobe Workfront Proof in the new Adobe Workfront experience that is releasing to the Production environment with the 23.3 release.
 author: Nolan
 feature: Product Announcements, Workfront Proof
+recommendations: noDisplay, noCatalog
 exl-id: b4e3f45f-b687-40e5-93f9-a7c3b58d55bd
 ---
 # Adobe Workfront Proof with the 23.3 release

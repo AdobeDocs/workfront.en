@@ -56,12 +56,11 @@ Before you begin, you must:
 
 ## Tie the resolution of an issue to the resolution of a another issue, task, or project
 
-1. Navigate to an issue whose resolution you want to tie to the resolution of another issue or a task or project.
-1. Click the **Issue Details** > **Overview** area.
+1. Navigate to an issue whose resolution you want to tie to the resolution of another issue or to the resolution of a task or project.
+1. Click the **Issue Details** in the left panel, then expand the **Overview** area.
 
    ![](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
-1. Go to the **Overview** area in the **Issue Details** section. 
 1. Click the **Resolved By** field, and select from the following types of resolving objects: 
 
    * **Project**

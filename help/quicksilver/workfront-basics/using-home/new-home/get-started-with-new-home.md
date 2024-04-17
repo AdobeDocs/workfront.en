@@ -1,37 +1,45 @@
 ---
 product-area: home
 navigation-topic: use-the-home-area
-title: Get started with New Home in Adobe Workfront
-description: New Home is a powerful new feature for managing your work.
+title: Get started with new Home
+description: The new Home is a powerful new feature for managing your work. This flexible space can be customized to highlight the work that is most important to you and streamline your task, issue, request, and approval management.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 40bb32f0-acc7-4a22-92b9-bab9dc7c987b
 ---
-# Get started with New Home in Adobe Workfront
+# Get started with the new Home
 
-New Home is a powerful new feature for managing your work. This flexible space can be customized to highlight the work that is most important to you and streamline your task, issue, request, and approval management.
 
-## Customize New Home
 
-New Home is designed to be highly customizable, allowing you to select the widgets that track your most important work, filter the scope of that work based on when it's due, or even add a splash of color.
+<!--Audited: 12/2023-->
+
+The new Home experience in Adobe Workfront aims to improve the current Home experience while providing a more flexible way for you to focus on the right work.
+
+The new Home is a powerful new feature for managing your work. You can customize this flexible space to highlight the work that is most important to you and streamline your task, issue, request, and approval management.
+
+## Customize the new Home
+
+The new Home is designed to be highly customizable, allowing you to select the widgets that track your most important work, filter the scope of that work based on when it's due, and even add a splash of color.
 
 ### Widgets
 
-Widgets are the foundation of New Home. By adding widgets to your Home page, you can choose the type of information that is displayed to best meet your work needs. Some widgets are only available to specific license types, as the objects they track are only available to those licenses. For information on adding, moving, resizing, or deleting widgets, see [Add, edit, or remove widgets in New Home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+Widgets are the foundation of the new Home. By adding widgets to your Home page, you can choose the type of information that displays to best meet your work needs. Some widgets are only available to specific license types, as the objects they track are only available to those licenses. 
+
+For information on adding, moving, resizing, or deleting widgets, see [Add, edit, or remove widgets in New Home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
 
 Below are the ten widgets currently available to choose from, as well as a summary of the information they display:
 
-* **My work**\
-    A great place to start for managing a variety of work, this widget displays all of your assigned tasks, issues, and requests in one place.
+* **My Work**\
+    A great place to start for managing a variety of work, this widget displays all of your assigned tasks, issues, and requests in one place. You can click the Work On It button to start working on an item, or the Done button to mark them complete. You can also update information (Status, Condition, Percent Complete) about tasks and issues, log time, and add updates from the My Work widget. 
 
 * **My projects**\
-    Displays projects that are assigned to you in a table that can be sorted to display only projects you own or all projects you are on; standard filter, view, and grouping options; and a button to directly create a new project.
+    Displays projects you own or projects you are on in a list. You can use  existing filters, views, or groupings to customize the list, or you can create a project directly from the widget.
 
 * **My tasks**\
-    Displays tasks that are assigned to you in a table with customizable filters, views, and groupings, as well as a button to directly create a new task.
+    Displays tasks that are assigned to you in a list. You can use  existing filters, views, or groupings to customize the list, or you can create a task directly from the widget. You can also delegate your tasks while you are away from the office. 
 
 * **My issues**\
-    Displays issues that are assigned to you in a table with customizable filters, views, and groupings, as well as a button to directly create a new issue.
+    Displays issues that are assigned to you in a list. You can use existing filters, views, or groupings to customize the list, or you can create an issue directly from the widget. This widget only includes issues whose associated projects are set to Current. You can also delegate your issues while you are away from the office. 
 
 * **My requests**\
     Displays all requests you have submitted, a filter to only display open requests, and a button that opens the summary pane for a request.
@@ -43,13 +51,13 @@ Below are the ten widgets currently available to choose from, as well as a summa
     Displays all of your pending assigned or delegated approvals, a button to delegate approvals, and buttons to make approval decisions directly within the widget.
 
 * **All approvals**\
-    Displays all approvals for your organization in a table with customizable columns, as well as a search bar that allows you to search for specific approvals.
+        <span class="preview"> Displays 2 charts with information about average approval time and decisions as well as list views of pending and overdue approvals.</span> <span style="color: #ff0000;">This feature is part of a phased release and is currently only available for specific customers.</span>
 
 * **Mentions**\
-    Displays recent comment threads from across Workfront, similarly to the My Updates page, as well as a reply button that allows you to compose a reply within the widget. This widget also shows comments made on tasks and issues that you are assigned to, that you assigned to another user, that you own, that you are primary contact on, or that you created—as long as the task or issue has been updated in the last 30 days.
+    Displays recent comment threads from across Workfront, similarly to the My Updates page. You can use the reply button to compose a reply within the widget. This widget also shows comments made on tasks and issues that you are assigned to, that you assigned to another user, that you own, that you are primary contact on, or that you created—as long as the task or issue has been updated in the last 30 days.
 
 * **To-dos**\
-    This unique widget allows you to add text items to a personal checklist that you can freely edit.
+    This unique widget allows you to add items to a personal checklist that you can freely edit. To-dos are tracked as tasks in your personal project, and remain for up to two weeks after completion.
 
     >[!NOTE]
     >
@@ -59,7 +67,7 @@ By default, the Home page is populated with a few specific widgets based on your
 
 <table border=1 class="inlineTable">
     <tr>
-        <td><b>Current license type</b></td>
+        <td><b>New license type</b></td>
         <td><b>Default widgets</b></td>
     </tr>
     <tr>
@@ -82,7 +90,7 @@ By default, the Home page is populated with a few specific widgets based on your
 
 <table border=1 class="inlineTable">
     <tr>
-        <td><b>Legacy license type</b></td>
+        <td><b>Current license type</b></td>
         <td><b>Default widgets</b></td>
     </tr>
     <tr>
@@ -117,28 +125,35 @@ You can add a bit of personal flare to your Home page by selecting a colorful ba
 
 **To change the color of your Home background:**
 
-1. Navigate to your Home page, either by clicking on the Adobe Workfront icon ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) at the top of your screen if Home is set as your landing page, or by clicking on the main menu icon ![Main Menu Icon](../new-home/assets/main-menu-icon-left-nav.png) then clicking on **Home**.
+1. Go to your Home page, by doing one of the following: 
 
-1. Click on the Customize button  at the top-right corner of the screen.
+    * If Home is set as your landing page, click the **Adobe Workfront** icon ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) in the upper-left corner of your screen.
+    * Click the **Main Menu** icon in the upper-right corner of the screen, or the **Main Menu** icon ![Main Menu Icon](../new-home/assets/main-menu-icon-left-nav.png) in the upper-left corner, if available, then click **Home**.
+
+1. Click **Customize** at the upper-right corner of the screen.
 
     ![Customize Button](../new-home/assets/customize-button.png)
 
-1. In the **Background** section of the **Customize** pane that appears, click on the color you would like to select for your Home background. You can also click **None** to remove the background.
+    The Customize panel opens. 
 
-## Revert to current Home experience
+1. In the **Background** section of the **Customize** panel, click the color you would like to select for your Home background. You can also click **None** to remove the background.
 
-For users that prefer the existing Home experience, New Home can be toggled off.
+## Revert to the current Home experience
 
-**To go back to the current Home experience:**
+If you prefer the existing Home experience, you can toggled off the new Home experience.
 
-1. Navigate to your Home page, either by clicking on the Adobe Workfront icon ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) at the top of your screen if Home is set as your landing page, or by clicking on the main menu icon ![Main Menu Icon](../new-home/assets/main-menu-icon-left-nav.png) then clicking on **Home**.
+To go back to the current Home experience:
+
+1. Go to your Home page, either by clicking the **Adobe Workfront** icon ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) in the upper-left corner of your screen if Home is set as your landing page, or click the **Main Menu** icon in the upper-right corner ![](assets/dots-main-menu.png) or the **Main Menu** icon ![Main Menu Icon](../new-home/assets/main-menu-icon-left-nav.png) in the upper-left corner, if available, then click **Home**.
 
 1. Click on the **Go back to the current Home** button in the bottom-right corner of the page.
 
     ![Go back to current Home button](../new-home/assets/go-back-to-current-home-button.png)
 
-1. In the confirmation window that appears, you can choose to take a brief survey about your experience with New Home or click **Go Back to the current Home** to finalize your decision and revert to the current Home experience.
+    A confirmation window displays. 
+
+1. Take a brief survey about your experience with the new Home or click **Go Back to the current Home** to revert to the current Home experience.
 
 >[!NOTE]
 >
-> System Administrators can disable New Home as the default for their users. For information on changing the default Home experience for users across a system, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+> System Administrators can disable the new Home as the default for their users. For information on changing the default Home experience for users across a system, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).

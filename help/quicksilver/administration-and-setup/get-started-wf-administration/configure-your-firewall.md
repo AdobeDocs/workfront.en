@@ -11,6 +11,8 @@ exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
 ---
 # Configure your firewall's allowlist
 
+<!-- Audited: 12/2023 -->
+
 >[!IMPORTANT]
 >
 >The procedure described on this page applies only to organizations that have not yet been onboarded to the Admin Console. If your organization has been onboarded to the Adobe Admin Console, you must perform this action through the Adobe Admin Console.
@@ -77,7 +79,6 @@ For more information, see the section [View your organization's cluster and Work
 * [IP addresses to allow for enhanced authentication](#ip-addresses-to-allow-for-enhanced-authentication) 
 * [IP addresses to add for accessing Workfront Fusion](#ip-addresses-to-add-for-accessing-workfront-fusion) 
 * [IP addresses to add for using Workfront for Jira](#ip-addresses-to-add-for-using-workfront-for-jira) 
-* [IP addresses to add for using Workfront Ascent](#ip-addresses-to-add-for-using-workfront-ascent) 
 * [URLs to add for all clusters Workfront](#urls-to-add-for-all-clusters-workfront)
 
 ### IP addresses to allow for Clusters 1, 2, 3, 5, 7, 8 and 9 {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
@@ -102,6 +103,9 @@ If your Production environment is on Cluster 1, 2, 3, 5, or 7 you must allow the
      <li>54.244.142.219</li> 
      <li>52.39.217.230</li> 
      <li>44.241.82.96</li> 
+     <li>54.203.255.135/32</li> 
+     <li>35.155.2.51/32</li> 
+     <li>52.34.192.77/32</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -116,7 +120,7 @@ If your Production environment is on Cluster 1, 2, 3, 5, or 7 you must allow the
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
      <li>54.71.252.65</li> 
-    </ul> <p>For information about the following IP addresses, see <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21.1.md" class="MCXref xref">New IP addresses for Adobe Workfront email with the 21.1 release</a></p> 
+    </ul> <p>For information about the following IP addresses, see <a href="../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md" class="MCXref xref">New IP addresses for Adobe Workfront email with the 21.1 release</a></p> 
     <ul> 
      <li>23.251.237.107</li> 
      <li>23.251.237.108</li> 
@@ -149,8 +153,11 @@ If your Production environment is on Cluster 4, add the following IP addresses f
 * 52.30.133.50
 * 54.220.93.204
 * 34.254.76.122
+* 34.242.62.80/32
+* 46.51.194.192/32
+* 54.229.129.66/32
 
-For information about the following IP addresses, see [New IP addresses for Adobe Workfront email with the 21.1 release](../../product-announcements/announcements/announcement-archive/new-email-ip-21.1.md)
+For information about the following IP addresses, see [New IP addresses for Adobe Workfront email with the 21.1 release](../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md)
 
 * 23.251.239.98
 * 23.251.239.99
@@ -347,6 +354,18 @@ Add the following IP addresses to your allowlist to enable Workfront Fusion to a
      <li>54.244.142.219</li> 
      <li>52.39.217.230</li> 
      <li>44.241.82.96</li> 
+     <li>100.20.126.137</li>
+     <li>34.223.32.4</li>
+     <li>52.39.176.220</li>
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] on the Microsoft Azure cluster</td> 
+   <td> 
+    <ul> 
+     <li>20.36.133.48/28</li> 
+     <li>20.81.156.240/28</li> 
+     <li>172.172.84.48/28</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -365,6 +384,10 @@ Also, if your organization uses outbound network filtering, add the following do
   <tr> 
    <td role="rowheader"> <p>Adobe Workfront US Datacenter</p> </td> 
    <td> <p>hook.app.workfrontfusion.com </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!DNL Adobe Workfront Fusion] on the Microsoft Azure cluster</p> </td> 
+   <td> <p>hook.app-az.workfrontfusion.com </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -417,38 +440,6 @@ The jira.workfront.com domain must also be accessible from your corporate server
      <li>35.160.0.242 </li> 
      <li>3.209.27.146</li> 
      <li>18.205.251.4</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### IP addresses to add for using Workfront Ascent {#ip-addresses-to-add-for-using-workfront-ascent}
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">To access Workfront training resources via Workfront Ascent</td> 
-   <td> 
-    <ul> 
-     <li>18.223.140.34</li> 
-     <li>3.13.223.30</li> 
-     <li>3.13.19.112</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">To receive email notifications from Workfront Ascent</td> 
-   <td> 
-    <ul> 
-     <li>23.251.227.75</li> 
-     <li>23.251.227.76</li> 
-     <li>23.251.227.77</li> 
-     <li>23.251.227.78</li> 
-     <li>23.251.227.79</li> 
-     <li>23.251.227.80</li> 
-     <li>23.251.227.81</li> 
-     <li>23.251.227.82</li> 
     </ul> </td> 
   </tr> 
  </tbody> 

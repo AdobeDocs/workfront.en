@@ -1,6 +1,6 @@
 ---
-title: Records information
-description: After you create record types in Adobe Maestro you can create individual records of those types. The following articles describe how you can create and manage records in Adobe Maestro.
+title: "Records: article index"
+description: After you create record types in Adobe Workfront Planning you can create individual records of those types. The following articles describe how you can create and manage records and their information in Adobe Workfront Planning.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -18,24 +18,20 @@ hide: yes
 ---
 -->
 
-# Records information
+# Records: article index
 
->[!IMPORTANT]
->
->The information in this article refers to Adobe Maestro which is a new offering from Adobe. 
->
->Currently, Adobe Maestro is part of a beta program which is open to a limited number of customers. 
->
->Contact your account representative for more information about joining the beta program for Maestro.
->
->For information, see [Adobe Maestro overview](../maestro-overview.md).
+{{maestro-important-intro}}
 
-After you create record types in Adobe Maestro, you can create individual records of those types. 
+After you create record types in Adobe Workfront Planning, you can create individual records of those types. 
 
-The following articles describe how you can create and manage records in Adobe Maestro:
+The following articles describe how you can create and manage records and their information in Adobe Workfront Planning:
 
-* [Create records](../records/create-records.md)
-* [Edit records](../records/edit-records.md)
-* [Delete records](../records/delete-records.md)
-* [Share records](../records/share-records.md)
-* [Connect records](../records/connect-records.md)
+* [Create records](/help/quicksilver/maestro/records/create-records.md)
+* [Edit records](/help/quicksilver/maestro/records/edit-records.md)
+* [Delete records](/help/quicksilver/maestro/records/delete-records.md)
+* [Share records](/help/quicksilver/maestro/records/share-records.md)
+* [Connect records](/help/quicksilver/maestro/records/connect-records.md)
+* [Manage record comments](/help/quicksilver/maestro/records/manage-record-comments.md)
+* [History section overview](/help/quicksilver/maestro/records/history-section-overview.md)
+* [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)
+* [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md)

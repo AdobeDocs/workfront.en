@@ -135,7 +135,7 @@ For this example, we are not using a trigger module. Instead, this scenario begi
    1. Log into [!DNL Workfront].
    1. Examine the access that [!DNL Workfront Fusion] is requesting, then click **[!UICONTROL Allow Access]**.
 
-   If you need help, see [About connecting [!DNL Adobe Workfront Fusion] to an app or service](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+   If you need help, see [Connections overview](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 
 ## Configure the first module
 
@@ -154,7 +154,7 @@ After you connect [!DNL Workfront Fusion] to your [!DNL Workfront] account, you 
    1. For the operator, select [!UICONTROL Contains (case insensitive)]. This allows the module to find projects with your chosen words in its name, even if you do not enter the entire name, or enter the name with the incorrect case (such as all caps).
    1. In the last field under [!UICONTROL Search Criteria], enter a word or phrase that you know is in the name of the project you are searching for.
 
-1. In the **[!UICONTROL Outputs]** list, select the fields that you want the issue to output. For this example, select the **[!UICONTROL ID]** and **[!UICONTROL Name]** fields.
+1. In the **[!UICONTROL Outputs]** list, select the fields that you want the module to output. For this example, select the **[!UICONTROL ID]** and **[!UICONTROL Name]** fields.
 
    >[!TIP]
    >

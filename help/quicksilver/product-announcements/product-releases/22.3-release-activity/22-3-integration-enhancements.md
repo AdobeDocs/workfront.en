@@ -4,6 +4,7 @@ description: 22.3 Integration enhancements
 author: Luke
 draft: No
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: caaef6a2-a554-4a2c-a86d-df3f19a4f40c
 ---
 # 22.3 Integration enhancements

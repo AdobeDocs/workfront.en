@@ -58,7 +58,7 @@ This blueprint contains the configuration of organizational structures to expand
 **[!UICONTROL Information Technology Organization Setup]**
 This blueprint contains the configuration of organizational structures to expand to an Information Technology use case.
 
-[!BADGE New!]{type=Informative} **[!UICONTROL Inherited Instance Basics | Checklist]**
+**[!UICONTROL Inherited Instance Basics | Checklist]**
 This blueprint contains a project template (or checklist) that you can review with a short list of questions, resources, and links for a clear understanding of how your Workfront instance has been configured. Use this when you recently inherited a Workfront instance and need guidance on where to start.
 
 **[!UICONTROL Integrated Campaign Execution]**
@@ -73,7 +73,7 @@ This blueprint contains a template the [!DNL Workfront professional services] or
 **[!UICONTROL New Hire Readiness]**
 This blueprint contains a template the [!DNL Workfront] professional services organization has used for years during implementation engagements with Human Resources teams to prompt HR specialists and hiring managers to complete essential activities to make a new employee's first day remarkable.
 
-[!BADGE New!]{type=Informative} **Offboarding | Departing User Dashboard**
+**Offboarding | Departing User Dashboard**
 
 This blueprint contains a single dashboard with 13 reports to help you find, reassign, or otherwise manage the objects and assignments associated with a user departing Workfront. You could also use these reports for a user moving into a new role or group to reassign their work.
 
@@ -98,7 +98,7 @@ This blueprint contains the configuration of organizational structures to expand
 **[!UICONTROL Recruiting Process Tracking]**
 This blueprint defines a checklist for internal recruiting resources to use to help business stakeholders track the progress of headcount requests. It is designed to support a managed maturity level.
 
-[!BADGE New!]{type=Informative} **Resource Management Preparation**
+**Resource Management Preparation**
 
 Use this Project Template and User Report to ensure you have the correct settings and information necessary to generate accurate Resource Management data.
 
@@ -120,15 +120,20 @@ This blueprint contains a template the [!DNL Workfront] professional services or
 **[!UICONTROL System Administrator Maintenance Dashboard]**
 This blueprint contains a single dashboard to assist system administrators in maintaining and cleaning up the system periodically from miscellaneous clutter that might build up over time.
 
-[!BADGE New!]{type=Informative} **Value Realization | Core Value Dashboard**
+**Value Realization | Core Value Dashboard**
 
 This blueprint contains a single dashboard with 21 reports to help you measure the Value of Workfront. These reports help you translate the benefits of Centralizing Work and Managing Work Processes into measurable values that you can track over time to drive better outcomes.
 
-[!BADGE New!]{type=Informative} **Value Realization | Review and Approve Dashboard**
+**Value Realization | Deliver Client-facing Services Dashboard**
+
+This blueprint contains a single dashboard with 8 reports to help you realize the benefits of Workfront. These reports are designed to help you translate your client-facing services into measurable value that you can track over time to drive better outcomes.
+
+**Value Realization | Review and Approve Dashboard**
 
 This blueprint contains a single dashboard with 7 reports to help you realize the Value of Workfront. These reports help you translate the values of Reviewing & Approving work into measurable benefits that you can track over time to drive better outcomes.
 
 **[!UICONTROL Video Asset Production] (Integrated)**
+
 The [!UICONTROL Video Asset Production] package contains a template that organizes the work process for a standard video production process. The template provides a lean process for original video asset creation for a team that relies on standard operating procedures to define how to do the work and uses the project only to prioritize work and track progress.
 
 **[!UICONTROL Video Asset Production] (Managed)**

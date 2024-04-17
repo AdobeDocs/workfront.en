@@ -9,6 +9,8 @@ exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
 ---
 # View and manage comments on a timesheet
 
+<!-- Audited: April, 2024-->
+
 You can make comments on the following items in a timesheet:
 
 * On the timesheet
@@ -24,25 +26,26 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Review </p> </td> 
+   <td> <p>New: Light or higher </p>
+   <p>Current: Review or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access or higher to Tasks and Issues</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configuration</td> 
+   <td> <p>View access or higher to Tasks and Issues</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions on tasks and issues</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View or higher permissions on tasks and issues</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 ## View hour entry comments on a timesheet {#view-hour-entry-comments-on-a-timesheet}
 
@@ -70,23 +73,32 @@ To show comments on a timesheet:
 
 ### Comment on the overall timesheet {#comment-on-the-overall-timesheet}
 
-You can make general comments about the timesheet.
+You can make general comments about the timesheet. Commenting on the overall timesheet is similar to commenting on other objects. 
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner or Workfront, if available.
 
 1. Click **Timesheets**.
 1. Go to the timesheet where you want to make a comment.
-1. Click **Updates** in the left panel, ensure the **Comments** tab is selected, and start entering an update in the **New comment** box.
+1. Click **Updates** in the left panel, then click the **Comments** tab.
+1. Start adding new comments or reply to existing ones, as described in [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Optional) Add people or teams in the **Tag people or teams** field to include others in your update. For more information, see [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-1. (Optional) Add Rich Text formatting to your comment. For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 1. (Optional) Select the **Private to my company** option if you want only people from your company to view the update.
 1. Type your comment, then click **Submit**.
 
-   Your comment displays in the [!UICONTROL Updates] section of the timesheet.
+   Your comment displays in the [!UICONTROL Updates] section of the timesheet, in the Comemnts tab.
 
-1. (Optional) Click the **System Activity** tab to review system-generated updates.
+1. (Optional) Click the **System Activity** tab to review system-generated updates
 
-   For more information, see the "Enable or disable system updates" section in the article [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+   Or 
+
+   Click the **All** tab to view system activity and user comments in a chronological order. 
+         
+      >[!TIP]
+      >
+      >   The All tab is a read-only tab and you cannot reply to comments from there. 
+
+
+   For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 
 ### Comment on an individual hour entry in a timesheet {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
@@ -133,7 +145,7 @@ You can comment only on tasks and issues in a timesheet. You cannot comment on p
 1. Click [!UICONTROL **Timesheets**].
 1. Go to the timesheet where you want to make a comment, and click [!UICONTROL **Timesheet**] in the left panel.
 1. Click the row of a task or an issue, then click [!UICONTROL **Open Summary**]. 
-1. Start typing an update in the [!UICONTROL **Updates**] area of the Summary panel, then click [!UICONTROL **Update**].
+1. Start typing an update in the [!UICONTROL **Updates**] area of the Summary panel, then click [!UICONTROL **Submit**].
 The update displays in the Updates section of the task and issue.
 1. (Optional) Click [!UICONTROL **Close Summary**] to close the Summary panel. 
 

@@ -3,7 +3,7 @@ product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Filter information in the Workload Balancer
 description: To efficiently find work items and to focus on the users or items you manage, we strongly recommend that you use filters in the Workload Balancer.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
 ---
@@ -15,17 +15,16 @@ exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
 
 As a resource manager, you can use the Workload Balancer to view and manage the workload of your users. For more general information about the Workload Balancer, see the following articles:
 
-* [Overview of the Workload Balancer](../../resource-mgmt/workload-balancer/overview-workload-balancer.md) 
+* [Workload Balancer overview](../../resource-mgmt/workload-balancer/overview-workload-balancer.md) 
 * [Navigate the Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
 
 >[!IMPORTANT]
 >
 >To efficiently find work items and to focus on the users or items you manage, we strongly recommend that you use filters in the Workload Balancer. This allows you to display the correct information before you start managing the assignments of your resources.
 >
->When you save and apply a new filter then navigate away from the Workload Balancer, the filter is preserved even after you log off and log back on. 
+>When you save and apply a new filter, then navigate away from the Workload Balancer, the filter is preserved even after you log off and log back on.
 
-
-This article contains information about filters in the Workload Balancer. For information about filters in Workfront, see [Filters overview in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+This article contains information about filters in the Workload Balancer. For information about filters in Workfront, see [Filters overview](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Access requirements
 
@@ -200,6 +199,10 @@ You can create a filter from scratch or edit one of the predefined filters. For 
       > When you want to display work objects from a specific portfolio, you can apply the following filter: "Portfolio name contains marketing." This displays work items that belong to any portfolio that contains "marketing" in the name.
       >
       >![](assets/portfolio-name-filter-statement-wb-350x262.png)
+
+      >[!NOTE]
+      >
+      >To exclude projects in a status of On Hold, you must apply the following filter: "Project: Status does not equal On Hold." This prevents work items from On Hold projects from displaying in the Workload Balancer.
 
    1. (Optional) Click the **Delete** icon ![](assets/delete.png) to remove a filter criteria.
 

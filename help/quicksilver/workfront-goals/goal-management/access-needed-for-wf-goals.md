@@ -27,6 +27,10 @@ Your Adobe Workfront administrator must ensure all of the following conditions a
 
 * Assign you Layout Template that includes the Goals area in the Main Menu.
 
+  >[!NOTE]
+  >
+  >All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. 
+
   For information see the section [Add Workfront Goals to a layout template](#add-workfront-goals-to-a-layout-template) in this article. 
 
 * If you must modify goals that you did not create yourself, the goal creator must share the goals with you and give you Manage permissions to them.

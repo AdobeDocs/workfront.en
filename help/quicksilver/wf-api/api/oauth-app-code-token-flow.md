@@ -5,6 +5,7 @@ title: Authorization code flow for custom OAuth 2 applications
 description: Authorization code flow for custom OAuth 2 applications
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: a1ab60c4-4255-4d80-87f1-f36d325254c2
 ---
 
@@ -74,7 +75,7 @@ The third-party application may require configuration. The following table conta
 
 ## Set up Authorization Code Flow
 
-![](assets/oauth-2-authorization-code-flow-350x194.png)
+![](assets/oauth-2-authorization-code-flow.png)
 
 To log your users in with OAuth2, use the following process:
 

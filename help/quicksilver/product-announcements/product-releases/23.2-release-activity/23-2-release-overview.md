@@ -4,6 +4,7 @@ description: 23.2 release overview
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: b0e2ce08-d9f7-4fb5-b35c-ba979ab9d03e
 ---
 # 23.2 Release overview

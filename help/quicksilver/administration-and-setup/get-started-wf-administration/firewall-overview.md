@@ -43,11 +43,11 @@ Provide your network administrator with the following information:
  <tbody> 
   <tr> 
    <td role="rowheader">Specific IP addresses and domains to allow</td> 
-   <td> <p>The article <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">Configure your firewall's allowlist</a> contains the list of IP addresses and domains that your organization must add to its allowlist. </p> <p>Your network administrator might not have access to the "Configure your firewall" article. In that case, you must provide it to them. We do not recommend printing a hard (paper) copy. A digital copy allows your network administrator to copy and paste the addresses, which is quicker and more accurate than typing from a hard copy.</p> </td> 
+   <td> <p>The article <a href="../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md" class="MCXref xref">Configure your firewall's allowlist</a> contains the list of IP addresses and domains that your organization must add to its allowlist. </p> <p>Your network administrator might not have access to the "Configure your firewall's allowlist" article. In that case, you must provide it to them. We do not recommend printing a hard (paper) copy. A digital copy allows your network administrator to copy and paste the addresses, which is quicker and more accurate than typing from a hard copy.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Your cluster</td> 
-   <td>To locate your organization's cluster, see <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">View your organization's cluster and Workfront plan</a></td> 
+   <td>To locate your organization's cluster, see <a href="#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref">View your organization's cluster and Workfront plan</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Your Workfront Plan</td> 
@@ -69,7 +69,7 @@ Provide your network administrator with the following information:
    <td role="rowheader">Adobe Workfront integrations</td> 
    <td>Inform your network administrator if you use any of the following:
     <ul>
-     <li><p><p>Workfront for Jira</p></p></li>
+     <li><p>Workfront for Jira</p></li>
      <li><p>Workfront for G Suite</p></li>
      <li><p>Workfront for Microsoft Teams</p></li>
      <li><p>Workfront for Outlook</p></li>
@@ -78,11 +78,10 @@ Provide your network administrator with the following information:
   </tr> 
   <tr> 
    <td role="rowheader">Additional Functionality</td> 
-   <td> <p>Inform your network administrator if you use either of the following:</p> 
+   <td> <p>Inform your network administrator if you use the following:</p> 
     <ul> 
      <li> <p>A Workfront test drive</p> </li> 
-     <li> <p>Workfront Ascent</p> </li> 
-    </ul> </td> 
+    </ul> </td>
   </tr> 
  </tbody> 
 </table>
@@ -93,7 +92,7 @@ Provide your network administrator with the following information:
 
 ### View your organization's cluster and Workfront plan {#view-your-organization-s-cluster-and-workfront-plan}
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
 
 1. Click **System** in the left panel
 1. To view your cluster, Select **Customer Info**.
