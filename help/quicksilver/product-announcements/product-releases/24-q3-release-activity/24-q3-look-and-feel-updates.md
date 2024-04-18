@@ -12,7 +12,17 @@ This page describes minor updates to the look and feel of various areas of the A
 
 For a list of all changes available with the Third Quarter 2024 release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
-## Look-and-feel-updates for exchange rates list
+## Look-and-feel updates for the Groups area
+
+>[!NOTE]
+>
+>Preview release: April 18, 2024; Production for fast release: With the 24.5 release (May 2024); Production for quarterly release: With the 24.7 release (July 2024)
+
+We have updated the main Groups list in the Setup > Groups area to a more modern design that is consistent with other areas of Workfront. All dialogs for groups and subgroups (add, edit, copy, deactivate, delete), whether accessed in the Groups list or the More menu for a specific group or subgroup, also have the updated design.
+
+For information, see [Create a group](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) and [Manage a group](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
+
+## Look-and-feel updates for exchange rates list
 
 >[!NOTE]
 >
@@ -22,7 +32,7 @@ We have updated the Exchange Rates screen to a more modern design that is consis
 
 For information, see [Set up exchange rates](/help/quicksilver/administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
-## Look-and-feel-updates for job role list
+## Look-and-feel updates for job role list
 
 >[!NOTE]
 >
