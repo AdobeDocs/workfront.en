@@ -78,7 +78,8 @@ Be aware of the following when deactivating a user:
 
 * The user won't be able to access the system.
 * The user will be removed from Frame.io review links, assets, projects, and accounts.
-   * Reactivating the user does not automatically readd them to the Frame.io items they were previously associated with. You must reassign the user manually to Workfront projects that require Frame.io collaboration.
+   * Reactivating the user does not automatically add them to the Frame.io items they were previously associated with. You must reassign the user manually to Workfront projects that require Frame.io collaboration.
+   * If you reactivate this user, you must manually add them to previously assigned Frame.io items. For more information, see the section [Asset review and approval impact when you reactivate a user](#asset-review-and-approval-impact-when-you-reactivate-a-user).
 * All data associated with the user will be retained.
 * You can assign a deactivated user's license to another user.
 
@@ -130,6 +131,10 @@ We recommend that you build a report for users that you have scheduled for deact
 1. Select a user, click the More icon ![](assets/more-icon.png), then click **Activate**.
 
 1. Assign a new **Access level**in the drop-down menu, then click **Reactivate**.
+
+### Asset review and approval impact when you reactivate a user
+
+Deactivated users lose access to their assigned Frame.io account as well as assigned projects, assets, and review links. If you choose to reactivate the user, you must manually reassign them. 
 
 ### Proofing impact when you reactivate a user
 
