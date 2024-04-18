@@ -117,6 +117,10 @@ These statuses include the following:
  <col> 
  <tbody> 
   <tr> 
+   <td>UNASSEMBLED</td> 
+   <td><p>This status is automatically assigned, and represents a package that has been saved but not yet assembled. </p><p>This status cannot be set by a customer directly.</p></td> 
+  </tr> 
+  <tr> 
    <td>ASSEMBLING</td> 
    <td><p>This status is automatically assigned while objects are being assembled. </p><p>Assembling refers to the automated process of identifying objects and sub-objects to include in a package, and adding those objects and their data to the package.</p><p>This status cannot be set by a customer directly.</p></td> 
   </tr> 
