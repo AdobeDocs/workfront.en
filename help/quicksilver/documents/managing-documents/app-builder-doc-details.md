@@ -8,8 +8,8 @@ feature: Work Management, Digital Content and Documents
 hide: yes
 hidefromtoc: yes
 recommendations: noDisplay, noCatalog
+exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
 ---
-
 # AppBuilder within Workfront Document Details
 
 You can install AppBuilder within Document Details.
@@ -352,4 +352,3 @@ Here are some helpful links:
 * [https://developer.adobe.com/uix/docs/guides/publication/](https://developer.adobe.com/uix/docs/guides/publication/)
 
 * [https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/extension-development/](https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/extension-development/)
-
