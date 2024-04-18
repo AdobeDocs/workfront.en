@@ -74,6 +74,16 @@ For more information, see [About deactivating Workfront administrators and Plan 
 
 ## Deactivate a user
 
+Be aware of the following when deactivating a user: 
+
+* The user won't be able to access the system.
+* The user will be removed from Frame.io review links, assets, projects, and accounts.
+   * Reactivating the user does not automatically readd them to the Frame.io items they were previously associated with. You must reassign the user manually to Workfront projects that require Frame.io collaboration.
+* All data associated with the user will be retained.
+* You can assign a deactivated user's license to another user.
+
+To deactivate a user:
+
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Users** ![](assets/users-icon-in-main-menu.png). 
 
 1. Select a user, click the **More** icon ![](assets/more-icon.png), then click **Deactivate**.
