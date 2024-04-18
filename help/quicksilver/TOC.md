@@ -1117,6 +1117,7 @@ feature-set: Workfront
     * [Check document storage limits](documents/managing-documents/check-document-storage.md)
     * [Delete Documents](documents/managing-documents/delete-documents.md)
     * [Paste images from the Clipboard](documents/managing-documents/paste-image-clipboard.md)
+    * [AddBuilder within Workfront Document Details](/help/quicksilver/documents/managing-documents/app-builder-doc-details.md)
   * Organize documents {#organize-documents}
     * [Organize documents](documents/organizing-documents/organize-documents.md)
     * [Create document folders](documents/organizing-documents/create-documents-folder.md)
