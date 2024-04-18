@@ -4,6 +4,8 @@ description: Third Quarter 2024 Administrator enhancements
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+hide: yes
+hidefromtoc: yes
 
 ---
 # Third Quarter 2024 Administrator enhancements

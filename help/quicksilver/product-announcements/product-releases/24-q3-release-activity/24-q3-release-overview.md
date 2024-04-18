@@ -28,10 +28,11 @@ This page provides information about functionality that is included in the Third
 
 ## Adobe Workfront enhancements
 
-* [Administrator enhancements](#administrator-enhancements)
+<!--* [Administrator enhancements](#administrator-enhancements)-->
 * [Project enhancements](#project-enhancements)
 * [Other enhancements](#other-enhancements)
 
+<!--
 ### Administrator enhancements
 
 <table>
@@ -70,6 +71,7 @@ This page provides information about functionality that is included in the Third
                  </tr>
            </tbody>
         </table>
+-->
 
 ### Project enhancements
 
