@@ -14,7 +14,8 @@ As an [!DNL Adobe Workfront] administrator, you can view and manage the OAuth2 a
 
 >[!NOTE]
 >
->In the context of OAuth2, "Oauth2 application" refers to this sort of access link between an app and a server such as [!DNL Workfront]. For more information, see [Create OAuth2 applications for [!DNL Workfront] integrations](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+>* In the context of OAuth2, "Oauth2 application" refers to this sort of access link between an app and a server such as [!DNL Workfront]. For more information, see [Create OAuth2 applications for [!DNL Workfront] integrations](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+>* You can have up to a total of ten OAuth2 Applications at one time.
 
 * For information on creating custom OAuth2 applications, see [Create OAuth2 applications for [!DNL Workfront] integrations](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 * For instructions on configuring and using the OAuth2 application with user credentials (authorization code flow), see [Configure and use your organization's custom OAuth 2 applications using authorization code flow](../../wf-api/api/oauth-app-code-token-flow.md).
