@@ -81,6 +81,7 @@ In Workfront Fusion, if you want to create a project that includes Adobe Experie
        "templateID": "Template ID here"
    }
    ```
+   
 1. Replace `Folder tree ID here` with the folder IDs.
 
    To locate folder tree IDs, see [Locate folder tree IDs](#locate-folder-tree-ids) in this article.
