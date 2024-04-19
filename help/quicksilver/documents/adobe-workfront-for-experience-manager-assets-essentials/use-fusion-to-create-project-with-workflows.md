@@ -82,6 +82,38 @@ In Workfront Fusion, if you want to create a project that includes Adobe Experie
 }
 ```
 
+## Locate folder tree IDs
+
+To locate the folder tree IDs:
+
+>[!NOTE]
+>
+>These instructions use the Chrome browser.
+
+1. In Workfront, open the template that you want to use for this project. This template must include the Adobe Experience Manager configuration that you want to use for the project.
+1. Open the developer tools for your browser.
+1. Open the **Network** tab in the developer tools.
+1. In the **Filter** box, enter `object-workflow`.
+1. In the Name column, click on the alphanumeric ID that appears.
+
+   ![Locating folder ID 1](assets/finding-folder-id-1.png)
+
+1. Click the **Preview** tab to the right of the alphanumeric ID.
+1. Open the following collapsed sections:
+   1. `data`
+   1. `data`
+   1. `objectWorkflow`
+   1. `workflows`
+   1. `enhancedLinkedFolderCreationWorkflow`
+   1. `enhancedLinkedFolderCreationWorkflowConfigurations`
+
+    Each folder tree is represented by a number. 0 (zero) represents the first folder in the list, 1 represents the second, and so on. If the template includes only one folder tree, it is number 0.
+
+1. Open the folder tree that you want to use for the new project. Make note of the `_id` field value. If you want to use more than one folder tree, make note of all of the `_id` field values for the folder trees you want to use.
+
+   ![Locating folder ID 2](assets/finding-folder-id-2.png)
+
+   These are the `aemNativeFolderTreeIDs`  values that you will enter into the **Project (Advanced Collection)** field in the **Workfront** > **Misc Actions** Fusion module.
 
 <!--
 Things to mention:
