@@ -71,16 +71,31 @@ In Workfront Fusion, if you want to create a project that includes Adobe Experie
 1. In the **ID** field, enter or map the ID of the issue that you are converting to a project.
 1. Enable **Show advanced settings**.
 1. Scroll to the bottom of the module and locate the **Project (Advanced Collection)** field.
+1. Paste the following text into the **Project (Advanced Collection)** field.
+
+   ```
+   {
+       "aemNativeFolderTreeIDs": ["Folder Tree ID here"],
+       "aemNativeFolderWorkflowEnabled": "true",
+       "name": "New project name here",
+       "templateID": "Template ID here"
+   }
+   ```
+1. Replace `Folder tree ID here` with the folder IDs.
+
+   To locate folder tree IDs, see [Locate folder tree IDs](#locate-folder-tree-ids) in this article.
+
+   To use more than one folder tree, separate IDs with a comma:
+
+   `"aemNativeFolderTreeIDs": ["Folder tree ID here","Second folder tree ID here"],`
+1. Replace `New project name here` with the name that the new project will have.
+1. Replace `Template ID here` with the ID of the template that you are using for the new project.
+
+   You can map the template ID from a previous module (such as a Workfront > Search module) or locate it in the URL of the template's page in Workfront.
+
+1. Click **OK** to save the module configuration.
 
 
-```
-{
-    "aemNativeFolderTreeIDs": "Folder Tree ID here",
-    "aemNativeFolderWorkflowEnabled": "true",
-    "name": "New Project Name Here",
-    "templateID": "Template ID here"
-}
-```
 
 ## Locate folder tree IDs
 
