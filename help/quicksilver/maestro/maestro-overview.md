@@ -178,7 +178,7 @@ The following are the main Workfront Planning objects and concepts:
     * Last modified by
     * Last modified date
    
-* **Linked record types**, **Linked records**, and **Linked record fields**:  You can create a connection between the following entities in Workfront Planning:
+* **Linked record types**, **Linked records**, and **Linked record fields** or **Connected record types**, **Connected records**, and **Connected fields**:  You can create a connection between the following entities in Workfront Planning:
     
     * Two record types.
     * A record type and a Workfront project, program, portfolio, company, or group object type. 
@@ -229,7 +229,9 @@ For more information, see [Manage record views](../maestro/views/manage-record-v
 
 ## Adobe Workfront Planning object limitations
 
-The following table shows the limits for how many objects you can create in Workfront Planning. The limitations are subject to change as we move into the next phases of development.  
+The following table shows the limits for how many objects you can create in Workfront Planning. The limitations are subject to change as we move into the next phases of development. 
+
+<!--consider making the table view a stand-alone article when we go to GA-->
 
 |       Adobe Workfront Planning  object                                                          |                                                        Limit                                                    |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
@@ -243,6 +245,8 @@ The following table shows the limits for how many objects you can create in Work
 |     Size of file that you can import through the API for a record type table  |   1.5MB                                                                                                         |
 |     The rate at which API requests can be made                                    |   200 requests per minute                                                                                       |
 | Size of CSV of Excel file you can import* | 5MB |
+
+<!--add to the table above: Maximum number of views created by one use 100 -->
 
 >[!IMPORTANT]
 >

@@ -97,7 +97,6 @@ You must have the following access to perform the steps in this article:
 * You cannot change the Field type of a Formula field after you saved it. 
 * You can update the calculation of a formula field after you save it, and the results of the calculation update automatically for all the records of the same type. 
 * You must add the fields you reference in formulas as they display in the Workfront Planning interface. 
-* Using lookup fields from linked record types in a formula will be available at a later date. 
 
 ## Supported formulas
 

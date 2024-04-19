@@ -26,6 +26,35 @@ The features are released weekly and are listed in the order of their release, w
 >
 >The documentation referenced in the sections below will be available some time after the features are released to Production.
 
+<!--
+## Week of <date>
+
+### Added a limit of 100 views for a record type
+
+Production: <date> 
+
+Preview: To be determined 
+
+A record type can have only 100 views. Prior to this change, there was no limit for how many views a record type could have.  
+
+For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md). 
+
+-->
+
+## Week of April 8, 2024
+
+### Copy the content of one cell and paste it into multiple selected cell
+
+Production: April 10, 2024
+
+Preview: To be determined 
+
+You can now copy the content of one cell in the table view and paste it in multiple selected cells. You can also copy information from external sources and paste it into the table view cells.  
+
+This functionality is supported for all field types except for calculated fields.  
+
+For more information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
+
 ## Week of April 1, 2024
 
 ### Reorder the fields on record pages
