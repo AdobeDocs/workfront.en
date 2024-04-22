@@ -48,7 +48,6 @@ You must have the following:
 <strong>Note: </strong>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <strong>Create or modify custom access levels</strong>.
    </td>
   </tr>
-r
 </table>
 
 ## Prerequisites
@@ -81,7 +80,7 @@ In Workfront Fusion, if you want to create a project that includes Adobe Experie
        "templateID": "Template ID here"
    }
    ```
-   
+
 1. Replace `Folder tree ID here` with the folder IDs.
 
    To locate folder tree IDs, see [Locate folder tree IDs](#locate-folder-tree-ids) in this article.
