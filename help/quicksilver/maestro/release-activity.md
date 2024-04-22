@@ -43,7 +43,7 @@ For more information, see [Manage record views](/help/quicksilver/maestro/views/
 
 ## Week of April 8, 2024
 
-### Copy the content of one cell and paste it into multiple selected cell
+### Copy the content of one cell and paste it into multiple selected cells
 
 Production: April 10, 2024
 
