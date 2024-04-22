@@ -67,6 +67,7 @@ In Workfront Fusion, if you want to create a project that includes Adobe Experie
 1. Add the **Workfront** > **Misc Action** module to your scenario.
 1. In the **Connection** field, select the Workfront connection that connects to the account this module will use.
 1. In the **Record Type** field, select `Issue`.
+1. In the **Action** field, select `convertToProject`.
 1. In the **ID** field, enter or map the ID of the issue that you are converting to a project.
 1. Enable **Show advanced settings**.
 1. Scroll to the bottom of the module and locate the **Project (Advanced Collection)** field.
@@ -115,7 +116,6 @@ To locate the folder tree IDs:
 
 1. Click the **Preview** tab to the right of the alphanumeric ID.
 1. Open the following collapsed sections:
-   1. `data`
    1. `data`
    1. `objectWorkflow`
    1. `workflows`
