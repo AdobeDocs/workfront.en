@@ -9,12 +9,16 @@ description: In an [!DNL Adobe Workfront Fusion] scenario, you can automate work
 author: Becky
 feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
+hide: yes
+hidefromtoc: yes
 ---
 # [!DNL Adobe Journey Optimizer] Modules
 
+>[!IMPORTANT]
+>
+>This connector has been deprecated.
+
 <!--
-Becky: pull from main, add to TOCs, then push to merge.
--->
 
 In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Adobe Journey Optimizer], as well as connect it to multiple third-party applications and services. [!DNL Adobe Journey Optimizer] modules allow you to create, read, update, or delete records, or perform a custom API call to the [!DNL Adobe Journey Optimizer] API.
 
@@ -644,3 +648,5 @@ This search module lists records of the selected type, returning results based o
      </tr>
   </tbody>
 </table>
+
+-->
