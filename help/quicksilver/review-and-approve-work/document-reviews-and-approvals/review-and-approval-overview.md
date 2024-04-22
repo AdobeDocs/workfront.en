@@ -135,14 +135,13 @@ All comments made in the Frame.io viewer are also recorded in the Workfront Upda
 
 Once all review activity is complete, approvers must make one of the following decisions:
 
-* Approve: This 
-* Approve with changes
-* Needs work
+* Approve: The asset does not need changes and is ready for use.
+* Approve with changes: The asset needs changes and is ready for use once they are made. Additional approval is not required. 
+* Needs work: The asset needs changes and is not ready for use. Once the specified changes are made, the asset must be uploaded as a new version and go through another round approvals. - is the same approval workflow automatically applied? Does the coordinator have to do anything to get the approval going?
 
-Reviewers can mark their review complete inside of the Frame.io viewers. 
+Reviewers can mark their review complete inside of the Frame.io viewer, but this is not required for the asset to move forward in the approval process. - check if this is accurate
 
 <!-- include screenshot from frame.io-->
-
 
 
 <!-- upload assets directly to workfront to be reviewed in Frame.io/ Will have to send manually at first
@@ -153,18 +152,20 @@ Reviewer/approver needs to go through email to get to frame vier
 
 ### Track review and approval metrics
 
-Widgets in home
-Approval velocity report ?
+Project coordinators can monitor progress on all in-fight approvals in the Workfront Home area with the following widgets:
 
-<!--
-### Published approved assets to Adobe Experience Manager Assets
+* **All approvals**\
+        <span class="preview"> Displays 2 charts with information about average approval time and decisions as well as list views of pending and overdue approvals.</span> <span style="color: #ff0000;">This feature is part of a phased release and is currently only available for specific customers.</span>
 
-Use the native integration to send approved assets to AEM.
--->
+* Approval velocity report ?
 
+
+### Send approved assets to Adobe Experience Manager Assets
+
+Use the native integration to send approved assets to Adobe Experience Manager Assets.
+
+^ need more info
 
 ## Example campaign asset approval workflow
 
-intro para?
-
-![](assets/example-workflow.png) <!-- probbly need a different version of this but add something similar rather than typing all out?-->
+![](assets/example-workflow.png) - probably need a different version of this or even a video walkthrough
