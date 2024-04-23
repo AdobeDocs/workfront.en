@@ -1,5 +1,5 @@
 ---
-title: Add thumbnails to records
+title: Add a thumbnail to a record
 description: You can edit record information in Adobe Workfront Planning and associate each record with individual thumbnails, to make them easily recognizable.
 hidefromtoc: yes
 hide: yes
@@ -8,7 +8,7 @@ exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
 ---
 <!--update the metadata with real information-->
 
-# Add thumbnails to records
+# Add a thumbnail to a record
 
 {{maestro-important-intro}}
 
