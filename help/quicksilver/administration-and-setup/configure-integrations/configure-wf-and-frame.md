@@ -33,6 +33,8 @@ To configure a single Frame.kio account with a Workfront group:
 
 Workfront users who regularly use Frame.io should be marked as Frame.io users. Workfront administrators can designate Frame.io users in the Workfront User Profile.
 
+maybe need to be more explicit here saying they get a collaborator license in frame?
+
 >[!TIP]
 >
 >We recommend enabling users who regularly work in creative tools and upload assets for review and approval as Frame.io users.
