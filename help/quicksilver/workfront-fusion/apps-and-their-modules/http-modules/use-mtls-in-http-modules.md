@@ -88,7 +88,7 @@ You can use the following links to download the Workfront Fusion public certific
 
 >[!IMPORTANT]
 >
->* These [!DNL Workfront Fusion] public certificates expire on June 9, 2024. After yours expires you will need to upload a new certificate to the web service. We recommend that you:
+>* These [!DNL Workfront Fusion] public certificates expire on May 7, 2025. After yours expires you will need to upload a new certificate to the web service. We recommend that you:
 >
 >   * Make note of the expiration date and set a reminder for yourself to upload the certificate to your web service.
 >   * Bookmark this page to easily find the new certificates.
