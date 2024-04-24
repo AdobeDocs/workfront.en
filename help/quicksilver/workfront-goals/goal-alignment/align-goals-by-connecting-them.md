@@ -85,12 +85,6 @@ You must have the following:
 
 *For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
-## Prerequisites
-
-You must have the following before you can start:
-
-* A Layout Template that includes the Goals area in the Main Menu.
-
 ## Align goals by connecting them to one another
 
 <!--

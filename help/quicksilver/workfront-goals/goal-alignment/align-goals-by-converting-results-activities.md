@@ -74,7 +74,6 @@ For information about manually aligning two goals, see [Align goals by connectin
 
 You must have the following before you can start:
 
-* A Layout Template that includes the Goals area in the Main Menu.
 * An existing goal with existing results and activities.
 
   For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).

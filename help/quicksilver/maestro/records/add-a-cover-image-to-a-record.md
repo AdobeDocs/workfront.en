@@ -1,20 +1,24 @@
 ---
 title: Add a cover image to a record
-description: You can edit record information in Adobe Workfront Planning and associate each record with a cover image to personalize the record's page.
+description: You can personalize records by adding a cover image to the record page in Adobe Workfront Planning, when editing a record.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
 ---
+
 <!--update the metadata with real information-->
 
 # Add a cover image to a record
 
 {{maestro-important-intro}}
 
-You can edit record information in Adobe Workfront Planning and associate each record with a cover image to personalize the record's page. 
+You can personalize records by adding a cover image to the record page in Adobe Workfront Planning, when editing a record.
+
+For information about editing records, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
 
 You must create record types before you can start creating and editing records. 
+
 For information, see [Create record types](../architecture/create-record-types.md).
 
 ## Access requirements
@@ -76,14 +80,15 @@ You must have the following access to perform the steps in this article:
 
 ## Considerations about record page cover images
 
-You can personalize a record's page by adding a cover image to it. The image is unique to each record, and it does not apply to all records of the same type. 
+You can personalize a record's page by adding a cover image to it. 
 
 Consider the following: 
 
+* A cover image is unique to one record, and it does not apply to all records of the same type. 
 * You can add only image files as cover images.
    <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * You can add a cover image to individual records from the record box in any view, or from the record page. 
-* You cannot add cover images inline from the table view. 
+* You cannot add cover images inline from any record views. 
 
 ## Add a cover image to a record
 
