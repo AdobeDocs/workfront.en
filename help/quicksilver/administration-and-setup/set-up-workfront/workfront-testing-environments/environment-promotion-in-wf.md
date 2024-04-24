@@ -138,7 +138,7 @@ These statuses include the following:
   </tr> 
   <tr> 
    <td>DISABLED</td> 
-   <td><p>This status will be used to hide previously used promotion packages that will not be installed into any environment in the future.</p><p>When a package is in this status, it cannot be installed into any environment.</p><p>When a package status is set to DISABLED, the <code>retiredAt</code> date is automatically set to the current timestamp of the request.</p><p>Using this status is recommended over using the<code>DELETE /package</code> endpoint because it is retrievable and the installation history is retained for any deployments made with this package.</p></td> 
+   <td><p>This status is used to hide previously used promotion packages that will not be installed into any environment in the future.</p><p>When a package is in this status, it cannot be installed into any environment.</p><p>When a package status is set to DISABLED, the <code>retiredAt</code> date is automatically set to the current timestamp of the request.</p><p>Using this status is recommended over using the<code>DELETE /package</code> endpoint because it is retrievable, and the installation history is retained for any deployments made with this package.</p></td> 
   </tr> 
   <tr> 
    <td>ASSEMBLING_FAILED</td> 
