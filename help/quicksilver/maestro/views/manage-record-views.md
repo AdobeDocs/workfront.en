@@ -87,6 +87,7 @@ You must have the following access to perform the steps in this article:
 * Views in Workfront Planning are record type-specific. You cannot apply the same view to two different record types. 
 * Views that you create are visible only to you and users who you share the views with. 
 * When you modify or delete a view, it is modified and deleted for all users who have permissions to the view. 
+<!--* Each user can create a maximum of 100 views. -->
 * The following elements are unique to each record view:
 
     * Filter

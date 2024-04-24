@@ -26,6 +26,53 @@ The features are released weekly and are listed in the order of their release, w
 >
 >The documentation referenced in the sections below will be available some time after the features are released to Production.
 
+<!--
+## Week of <date>
+
+### Added a limit of 100 views for a record type
+
+Production: <date> 
+
+Preview: To be determined 
+
+A record type can have only 100 views. Prior to this change, there was no limit for how many views a record type could have.  
+
+For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md). 
+
+-->
+
+## Week of April 22, 2024
+
+### Updated workflow when editing a workspace or a record type
+
+Production: April 23, 2024
+
+Preview: To be determined 
+
+We have updated the look-and-feel of the Edit workspace and Edit record type boxes.  
+
+When you edit a workspace or a record type, you can now define a name, description, as well as assign a color and an icon to them.  
+
+For more information, see the following articles: 
+
+* [Edit workspaces](/help/quicksilver/maestro/architecture/edit-workspaces.md) 
+
+* [Edit record types](/help/quicksilver/maestro/architecture/edit-record-types.md).
+
+## Week of April 8, 2024
+
+### Copy the content of one cell and paste it into multiple selected cells
+
+Production: April 10, 2024
+
+Preview: To be determined 
+
+You can now copy the content of one cell in the table view and paste it in multiple selected cells. You can also copy information from external sources and paste it into the table view cells.  
+
+This functionality is supported for all field types except for calculated fields.  
+
+For more information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
+
 ## Week of April 1, 2024
 
 ### Reorder the fields on record pages
@@ -339,7 +386,7 @@ Preview: To be determined
 
 You can now add individual thumbnails to each record to distinguish them in a view. In the table view, you can add image files that you have previously saved on your computer as thumbnails. The thumbnails can be unique to each record and display in both the table and the timeline views of the record type page. 
 
-For more information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).  
+For more information, see [Add a thumbnail to a record](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).  
 
 ### Remove connected record type cards
 

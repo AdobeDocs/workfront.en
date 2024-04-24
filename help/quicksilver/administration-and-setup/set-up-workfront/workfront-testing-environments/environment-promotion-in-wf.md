@@ -93,6 +93,8 @@ The Environment Promotion capability is intended to provide the ability to move 
 
 \* Not currently available 
 
+<!--
+
 >[!NOTE]
 >
 >Actions (ignore, select existing, and create new) are available on the following objects:
@@ -102,6 +104,7 @@ The Environment Promotion capability is intended to provide the ability to move 
 >* Company
 >* Group
 
+-->
 
 ## Environment promotion statuses
 
@@ -113,6 +116,10 @@ These statuses include the following:
  <col> 
  <col> 
  <tbody> 
+  <tr> 
+   <td>UNASSEMBLED</td> 
+   <td><p>This status is automatically assigned, and represents a package that has been saved but not yet assembled. </p><p>This status cannot be set by a customer directly.</p></td> 
+  </tr> 
   <tr> 
    <td>ASSEMBLING</td> 
    <td><p>This status is automatically assigned while objects are being assembled. </p><p>Assembling refers to the automated process of identifying objects and sub-objects to include in a package, and adding those objects and their data to the package.</p><p>This status cannot be set by a customer directly.</p></td> 
@@ -139,4 +146,3 @@ These statuses include the following:
   </tr> 
   </tbody> 
 </table>
-
