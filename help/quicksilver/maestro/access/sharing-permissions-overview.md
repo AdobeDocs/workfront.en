@@ -42,10 +42,11 @@ You can share the following objects:
     For information about how license types affect permission levels for Workfront Planning, see [License type overview when using Adobe Workfront Planning](/help/quicksilver/maestro/access/license-type-overview.md).
 * System administrators can manage and share workspaces that other users created. 
 * If you are not a System Administrator, you can contribute to workspaces created by others if they are shared with you. 
-* You cannot share workspaces in bulk. 
+* You cannot share workspaces or views in bulk. 
 * You can share a workspace or a view with the following entities:
     * Users
     * Groups
+<!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
 * Other users, including System Administrators, can only access views they created or that have been shared with them. System administrators can only be given permissions to Manage a view.
 * You can share a link to a workspace or to a view from a record type page with others. Users who receive the link must be active users and log in to Workfront to be able to access the workspace or the record type page displayed in the selected view. 
 
@@ -108,9 +109,28 @@ The following permissions refer to the fields themselves and not to the values a
 
 You must grant separate permissions to record views. Granting permissions to the workspace does not grant permissions to the record views in the workspace. 
 
+<!--You can share views internally or publicly. -->
+
 |        | Manage | View  |
 |--------|--------|-------|
 | Edit   | ✓      |       |
 | Delete | ✓      |       |
+| Share  | ✓       |       |
 | View   | ✓      | ✓     |
 | Apply  | ✓      | ✓     |
+
+<!--Replace the table above with the following when public sharing releases: 
+
+|   Internal sharing     | Manage | View  |
+|--------|--------|-------|
+| Edit   | ✓      |       |
+| Delete | ✓      |       |
+| Share  | ✓       |       |
+| View   | ✓      | ✓     |
+| Apply  | ✓      | ✓     |
+
+|   Public sharing      | View  |
+|--------|-------|
+| View   | ✓     |
+| Apply  | ✓     |
+-->

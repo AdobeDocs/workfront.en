@@ -23,7 +23,9 @@ A user with a lower-level license type has restricted permissions to workspaces 
 
 >[!INFO]
 >
->**EXAMPLE:** Requestors (or Collaborators, according to the new license model) cannot contribute to or manage workspaces and their objects. 
+>**EXAMPLE:** 
+>
+>Requestors (or Collaborators, according to the new license model) cannot contribute to or manage workspaces and their objects. 
 >
 >There is an indication in the sharing box that users cannot be granted permissions to contribute to or manage a workspace when they hold a lower-level license. 
 >
@@ -39,8 +41,10 @@ The table below describes the relationship between the license type of a user in
 Granting a user permissions to a workspace also grants them permissions to record types, records, and fields. 
 
 
-| Adobe Workfront license type                                   | Permissions allowed in Adobe Workfront Planning                                                                                                                                             |
+| Adobe Workfront license type*                                   | Permissions allowed in Adobe Workfront Planning                                                                                                                                             |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |New: Standard <br> or <br>Current: Plan                    | Users can create and manage workspaces, record types, and records.<br> System administrators have Manage permissions to all workspaces, including the ones they did not create.                                                                                                                     |
 | New: Light <br> or <br>Current: Work                      | Users can contribute and view a workspace shared with them, as well as the record types and records from that workspace. <br> Users can create, edit, delete records in the workspaces where they have Contribute permissions.            |
 | New: Contributor <br> or <br>Current: Reviewer or Requestor | Users can view the workspaces shared with them, as well as the record types and records of those workspaces. <br> Users cannot create, edit, or delete record types or records. |
+
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
