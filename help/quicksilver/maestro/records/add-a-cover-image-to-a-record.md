@@ -1,9 +1,10 @@
 ---
 title: Add a cover image to a record
-description: You can edit record information in Adobe Workfront Planning and associate each record with a cover image to personalize the record's page. 
+description: You can edit record information in Adobe Workfront Planning and associate each record with a cover image to personalize the record's page.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
 ---
 <!--update the metadata with real information-->
 
