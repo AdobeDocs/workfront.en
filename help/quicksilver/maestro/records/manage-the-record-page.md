@@ -88,7 +88,7 @@ You must have the following access to perform the steps in this article:
 ## Considerations about editing record pages
 
 * Rearranging fields in the record box or page rearranges the fields for all the records of that type and for all users accessing those records. 
-* Adding a cover image to a record is not part of the overall layout of the record box or page. You can add unique cover images to each record. 
+* Adding a cover image to a record is not part of the overall layout of the record box or page. You can add unique cover images to each record. For information, see [Add a cover image to a record](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
 
 ## Rearrange fields in the record box or page
 
@@ -127,54 +127,3 @@ The workspace that you access last opens.
 
     All changes to the layout of the record box or page save automatically. 
 
-
-## Add a cover image to the record box or page
-
-You can personalize a record by adding a cover image at the top of the record box or page. 
-
-{{step1-to-maestro}}
-
-The workspace that you access last opens. 
-
-1. (Optional) Click the downward-pointing arrow to the right of the workspace name to select the workspace whose records you want to update. 
-
-1. Click a record type card. 
-
-    The record type page opens. 
-
-1. From a view of any type, click the name of a record 
-
-    Or 
-    
-    From the table table view, click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name. 
-    
-    The record's box opens in the view.
-
-    ![](assets/details-box.png) 
-
-    >[!TIP]
-    >
-    >You can view the **Open details** icon to the left of the Name field of a record in a table view only when the Name field is a primary field. 
-
-1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record box to open the record's page in a new tab. 
-
-    The record page opens. 
-
-    ![](assets/details-page.png)
-
-1. In the record box or page, click **Add cover**. <!--check the casing here; I logged a bug for this-->
-    The **Record cover** box opens. 
-
-1. Click **Select to upload** and browse for a picture on your computer to select, add it, then click **Use image**. 
-
-    The image is uploaded at the top of the record box or page and changes are saved automatically. 
-
-    ![](assets/record-page-with-cover-image.png)
-
-1. (Optional) Hover over the image, then click the **More** menu ![](assets/more-menu.png) in the lower-right corner of the cover image, then do one of the following: 
-
-    * Click **Upload** if you want to replace the cover image and repeat Step 6 to upload and save a new image.
-    * Click **Reposition**, and use the **Reposition** tool ![](assets/reposition-tool-icon.png) to center the cover image, then click **Save** when done. 
-    * Click **Remove** to remove the cover image. 
-
-    All changes take effect immediately.
