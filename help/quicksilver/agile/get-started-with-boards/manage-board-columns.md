@@ -97,6 +97,15 @@ If you are using the WIP limit on a column, a separate card counter is not added
 
 ## Define column settings and policies
 
+Column policies include automatically updating field values, and setting a work in progress limit.
+
+The policy for updating the status automatically works for both the card and the column:
+
+* When a card is moved to a column with a policy, the card status is updated to the status defined in the policy. This applies to both ad hoc and connected cards.
+* When an ad hoc or connected card status is updated on the card to match the column status in the policy, or a connected card status is updated elsewhere in Workfront, the card is automatically moved to that column. Also, if a custom status on a card matches the system status assigned to the column, the card is moved to that column.
+
+A card will remain in a column where it is placed if the card status does not match any status set in any existing column policies.
+
 >[!NOTE]
 >
 >Dynamic boards always place cards in the column that matches their status, regardless of whether column policies are enabled or disabled. Cards will return to their assigned columns when you refresh the board.

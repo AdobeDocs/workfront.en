@@ -29,7 +29,7 @@ You can create custom fields in Adobe Workfront Planning by referring to existin
 
 Formula fields generate a new value using existing values from other fields in a record type and a function that indicates how the existing values should be calculated. 
 
-For information, see [Create fields](../fields/create-fields.md). 
+For information, see the "Formula" section in the article [Create fields](../fields/create-fields.md). 
 
 ## Access requirements
 
@@ -97,7 +97,6 @@ You must have the following access to perform the steps in this article:
 * You cannot change the Field type of a Formula field after you saved it. 
 * You can update the calculation of a formula field after you save it, and the results of the calculation update automatically for all the records of the same type. 
 * You must add the fields you reference in formulas as they display in the Workfront Planning interface. 
-* Using lookup fields from linked record types in a formula will be available at a later date. 
 
 ## Supported formulas
 

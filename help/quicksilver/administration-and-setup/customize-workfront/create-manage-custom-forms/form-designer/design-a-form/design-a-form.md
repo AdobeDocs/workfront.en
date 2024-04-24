@@ -538,9 +538,9 @@ For examples of using the External Lookup field to call the same instance of Wor
 
 >[!NOTE]
 >
->External lookup functionality is not available on Document or User objects.
->
->External lookup fields from custom forms are currently not supported in dashboards. You cannot edit the field value inline, and it may not display properly in a dashboard.
+>* External lookup functionality is not available on Document or User objects.
+>* External lookup fields from custom forms are currently not supported in dashboards. You cannot edit the field value inline, and it may not display properly in a dashboard. (External lookup fields are supported in Canvas Dashboards.)
+>* External lookup fields are available in lists, unless the field has a dependency on another field.
 
 To add an external lookup:
 

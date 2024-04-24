@@ -105,6 +105,10 @@ For information about custom fields and widgets in custom forms, see [Design a f
        <li> <p>Associating multiple object types with your form can change the viewing and editing permissions that are available in these steps. For more information, see <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">How multiple object types can affect section break permissions in a custom form</a> in this article.</p> </li> 
         </ul> </p> </td> 
      </tr> 
+     <tr> 
+      <td role="rowheader"><p>Add Logic</p></td> 
+      <td><p>Use display logic to specify whether the section should display on the form, based on selections users make in multi-choice custom fields when they fill out the form.</p><p><strong>NOTE:</strong> If all of the individual fields under a section break have display logic applied to them and they are all hidden as a result of the logic, the entire section will be hidden on the custom form. This will happen even if display logic is not applied to the section break.</p><p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">Add display logic and skip logic with the form designer</a>.</p></td> 
+     </tr> 
     </tbody> 
    </table>
 

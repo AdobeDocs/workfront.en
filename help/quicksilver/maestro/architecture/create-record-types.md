@@ -141,15 +141,17 @@ The last-accessed workspace should open by default.
 
 1. Update the following information:
 
-    * **Record type name**: Replace "Untitled Operational Record Type" with the name of your future record type. 
-    * **Appearance**: Define the color and shape of the icon associated with the record type. Do the following: 
+    * Replace "Untitled Operational Record Type" with the name of your future record type. <!--did they bring back the field label here and did they rename it to "Name"-->
+    * **Description**: Add more information about the record type.  
+    * Select a color and shape for the icon associated with the record type. Do the following: 
         * Select a color to identify your new record type. This is the color of the record type icon. Gray is selected by default.
         * Select an icon from the list, or start typing the name of an icon to describe what it represents, then select it when it displays. This is the icon of the record type. A file icon is selected by default. 
 
-1. Click outside the **Add record type** box to save the record type. 
+1. Click **Create**.
 
     The record type card is added to the section and the workspace you selected. 
     The number of fields that the record type contains displays on the card. 
+1. (Optional) Hover over the record type card, click the **More** icon ![](assets/more-menu.png) in the upper-right corner, then click **Edit** to edit information about the record type. 
 1. (Optional) Click the record type card to open the record type page. 
 
     ![](assets/operational-record-type-blank.png)
@@ -172,7 +174,7 @@ The last-accessed workspace should open by default.
 
     Or
 
-    Click the **More** icon ![](assets/more-menu.png) to the right of the record type name and click **Rename** to rename it. 
+    Click the **More** icon ![](assets/more-menu.png) to the right of the record type name and click **Edit** to rename it or change the information about it. For more information, see [Edit record types](/help/quicksilver/maestro/architecture/edit-record-types.md). 
 
 1. (Optional) Click **+ New record** to add records of the selected record type. For more information, see [Create records](../records/create-records.md). 
 1. (Optional) Click the **+** icon in the upper-right corner of the table to add more fields to the record type. 
