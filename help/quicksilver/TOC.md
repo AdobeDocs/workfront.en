@@ -2077,7 +2077,8 @@ feature-set: Workfront
     * [Share records](maestro/records/share-records.md)
     * [Manage record comments](maestro/records/manage-record-comments.md)
     * [History section overview](maestro/records/history-section-overview.md)
-    * [Add thumbnails to records](maestro/records/add-thumbnails-to-records.md)
+    * [Add a thumbnail to a record](maestro/records/add-thumbnails-to-records.md)
+    * [Add a cover image to a record](maestro/records/add-a-cover-image-to-a-record.md)
     * [Manage the record page](maestro/records/manage-the-record-page.md)
   * Adobe Maestro views {#adobe-maestro-views}
     * [Views: article index](maestro/views/views-information.md)
