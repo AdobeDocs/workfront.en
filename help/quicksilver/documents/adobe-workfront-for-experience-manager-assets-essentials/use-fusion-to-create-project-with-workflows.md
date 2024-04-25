@@ -56,9 +56,9 @@ Before you begin,
 
 * Your Workfront administrator must configure workflows in an Adobe Experience Manager integration. For more information, see [Configure the Experience Manager Assets as a Cloud Service integration](../../administration-and-setup/configure-integrations/configure-aacs-integration.md#set-up-workflows-optional).
 * You must have a project template configured with an Adobe Experience Manager integration linked folder workflow.
+* You must have created an OAuth application in Workfront to configure the connection for this module.
 
-<!--
-* You must create an OAuth2 application in Workfront that -->
+   For instructions, see [Create an OAuth application](#create-an-oauth-application) in this article.
 
 ## Module configuration
 
@@ -66,6 +66,11 @@ In Workfront Fusion, if you want to create a project that includes Adobe Experie
 
 1. Add the **Workfront** > **Misc Action** module to your scenario.
 1. In the **Connection** field, select the Workfront connection that connects to the account this module will use.
+
+   For instructions on creating a connection, see [Connect [!DNL Workfront] to [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) in the article Workfront modules.
+
+   For instructions on creating the Client ID and Client Secret you will need to create a connection, see [Create an OAuth application](#create-an-oauth-application) in this article.
+
 1. In the **Record Type** field, select `Issue`.
 1. In the **Action** field, select `convertToProject`.
 1. In the **ID** field, enter or map the ID of the issue that you are converting to a project.
@@ -95,8 +100,6 @@ In Workfront Fusion, if you want to create a project that includes Adobe Experie
    You can map the template ID from a previous module (such as a Workfront > Search module) or locate it in the URL of the template's page in Workfront.
 
 1. Click **OK** to save the module configuration.
-
-
 
 ## Locate folder tree IDs
 
@@ -130,13 +133,21 @@ To locate the folder tree IDs:
 
    These are the `aemNativeFolderTreeIDs`  values that you will enter into the **Project (Advanced Collection)** field in the **Workfront** > **Misc Actions** Fusion module.
 
-<!--
-Things to mention:
+## Create an OAuth application  
 
-How to configure
-How to find folder path 
-What all to put in the options
--->
+You must set up an OAuth application in Workfront for this module's connection. You only need to do this once for a given Workfront connection in Fusion.
 
+1. In Workfront, begin creating an OAuth application, as described in [Create an OAuth2 application using user credentials (Authorization code flow)](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-application-using-user-credentials-authorization-code-flow) in the article Create OAuth2 applications for [!DNL Workfront] integrations.
+1. Copy the Client ID and Client Secret to a secure location.
+1. In the **Redirect URIs** field, enter the following:
 
+   ```
+   http://app.workfrontfusion.com/oauth/cb/workfront-workfront
+   ```
+
+1. Click **Save**.
+
+You will use this Client ID and Client secret when configuring the module's connection in Fusion.
+
+For instructions on creating a connection, see [Connect [!DNL Workfront] to [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) in the article Workfront modules.
 
