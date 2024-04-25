@@ -1737,9 +1737,9 @@ feature-set: Workfront
   * Workfront data lake {#data-lake}
     * [Workfront data lake overview](reports-and-dashboards/data-lake/data-lake-overview.md)
     * [Create a reader account](reports-and-dashboards/data-lake/create-a-reader-account.md)
+    * [Establish a connection to Workfront data lake](reports-and-dashboards/data-lake/share-data-externally.md)
     * [Workfront data lake data dictionary](reports-and-dashboards/data-lake/data-dictionary.md)
     * [Basic Workfront data lake query examples](reports-and-dashboards/data-lake/basic-query-examples.md)
-    * [Share data lake data with business intelligence tools and external data warehouses](reports-and-dashboards/data-lake/share-data-externally.md)
 * Manage resources {#manage-resources}
   * [Manage resources](resource-mgmt/manage-resources.md)
   * Resource Management {#resource-management}
