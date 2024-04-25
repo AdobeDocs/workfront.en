@@ -44,7 +44,7 @@ To resolve a collision, select an action in the Deployment Action column, or use
 
    You can also choose objects to overwrite even if a collision is not detected.
 
-   FOr details on how overwriting affects parent and child objects, see 
+   For details on how overwriting affects parent and child objects, see [Overwriting parent and child objects](#overwriting-parent-and-child-objects) in this article.
 <!--
 * Do not use: The object in the package is not installed in the target environment. If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
 -->

@@ -1738,9 +1738,9 @@ feature-set: Workfront
   * Workfront data lake {#data-lake}
     * [Workfront data lake overview](reports-and-dashboards/data-lake/data-lake-overview.md)
     * [Create a reader account](reports-and-dashboards/data-lake/create-a-reader-account.md)
+    * [Establish a connection to Workfront data lake](reports-and-dashboards/data-lake/share-data-externally.md)
     * [Workfront data lake data dictionary](reports-and-dashboards/data-lake/data-dictionary.md)
     * [Basic Workfront data lake query examples](reports-and-dashboards/data-lake/basic-query-examples.md)
-    * [Share data lake data with business intelligence tools and external data warehouses](reports-and-dashboards/data-lake/share-data-externally.md)
 * Manage resources {#manage-resources}
   * [Manage resources](resource-mgmt/manage-resources.md)
   * Resource Management {#resource-management}
@@ -2078,7 +2078,8 @@ feature-set: Workfront
     * [Share records](maestro/records/share-records.md)
     * [Manage record comments](maestro/records/manage-record-comments.md)
     * [History section overview](maestro/records/history-section-overview.md)
-    * [Add thumbnails to records](maestro/records/add-thumbnails-to-records.md)
+    * [Add a thumbnail to a record](maestro/records/add-thumbnails-to-records.md)
+    * [Add a cover image to a record](maestro/records/add-a-cover-image-to-a-record.md)
     * [Manage the record page](maestro/records/manage-the-record-page.md)
   * Adobe Maestro views {#adobe-maestro-views}
     * [Views: article index](maestro/views/views-information.md)
