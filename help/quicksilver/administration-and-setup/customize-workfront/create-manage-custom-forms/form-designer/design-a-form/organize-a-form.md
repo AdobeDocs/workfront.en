@@ -170,3 +170,4 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 1. Begin creating or editing a custom form and adding fields, as described in [Design a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Click **Preview** in the top-right corner to see how the form will look when being used, then click **End Preview** to return to editing the form.
+
