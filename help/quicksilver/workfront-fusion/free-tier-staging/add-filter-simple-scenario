@@ -31,7 +31,11 @@ You must create the scenario described in [Create a basic scenario](/help/quicks
 1. In the **Outputs** area, select `Project`. 
    You should now have `ID`, `Name`, and `Project` selected.
 1. Click OK to save the module settings.
-1. In the Workfront account that this scenario connects to, locate the project that represents the request queue. This is the queue where submitted requests will be turned into projects.
+1. Open Workfront. 
+1. In Workfront, locate the project that represents the request queue that the Fusion scenario will be working with. 
+
+   This project must be in the same Workfront account that the Fusion connection is set up for.
+   
 1. Make note of the project ID in the URL.
 
    Example: https://\<MyDomain\>.my.workfront.com/project/\<ProjectID\>/tasks
@@ -39,7 +43,7 @@ You must create the scenario described in [Create a basic scenario](/help/quicks
 ### Add and configure the filter
 
 1. Open the scenario in the scenario editor.
-1. Click the wrench icon ![Wrench icon](assets/wrench-icon.png) between the first and second scenario, and select **Set up a filter**.
+1. Click the wrench icon ![Wrench icon](assets/wrench-icon.png) between the first and second module, and select **Set up a filter**.
 1. In the Label field, enter a label for this filter, such as "Filter for request queue."
 1. In the **Condition** area, in the top field, map the `projectID` from the first module.
 
