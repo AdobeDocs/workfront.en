@@ -103,3 +103,4 @@ For more detail about the information in this table, see [Access requirements in
 1. Click **[!UICONTROL All Boards]** to return to the boards dashboard.
 
    You can also locate the drop-down menu labeled with the name of the current board, and click it to switch to another board.
+
