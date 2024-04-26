@@ -16,7 +16,7 @@ The following articles contain information about features currently in beta:
 * [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
 * [New commenting beta experience](../betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
 * [Form designer overview](../../administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md)
-* [Workfront and Frame.io integration overview](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
+* [Workfront and Frame.io integration](/help/quicksilver/product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
 
 
 <!--
