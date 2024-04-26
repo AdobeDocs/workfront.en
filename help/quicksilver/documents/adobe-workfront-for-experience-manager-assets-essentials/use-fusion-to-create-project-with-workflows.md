@@ -45,7 +45,7 @@ You must have the following:
    <p>You must have write access to the repository in Adobe Experience Manager.</p>
    </li>
    </ul>
-  <b>Workfront Fusion</b>:<p>New:</p>
+   <b>Workfront Fusion</b>:<p>New:</p>
    <ul>
    <li>
    <p>Select or Prime Workfront Plan: Your organization must purchase Adobe Workfront Fusion.</p>
@@ -62,8 +62,8 @@ You must have the following:
    <td><strong>Access level configurations*</strong>
    </td>
    <td>Edit access to Documents
-<p>
-<strong>Note: </strong>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <strong>Create or modify custom access levels</strong>.
+   <p>
+   <strong>Note: </strong>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <strong>Create or modify custom access levels</strong>.
    </td>
   </tr>
 </table>
@@ -168,4 +168,3 @@ You must set up an OAuth application in Workfront for this module's connection. 
 You will use this Client ID and Client secret when configuring the module's connection in Fusion.
 
 For instructions on creating a connection, see [Connect [!DNL Workfront] to [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) in the article Workfront modules.
-
