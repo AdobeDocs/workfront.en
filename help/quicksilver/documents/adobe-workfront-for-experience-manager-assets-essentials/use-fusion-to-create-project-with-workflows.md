@@ -5,6 +5,7 @@ title: Use Workfront Fusion to create a Workfront Project that has Adobe Experie
 description: If you are creating a project through Workfront Fusion and want to include Adobe Experience Manager workflows on the project, you must use a specific Fusion module configuration, described in this article.
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
+exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
 ---
 # Use Workfront Fusion to convert a Workfront issue to a project that includes Adobe Experience Manager workflows
 
@@ -168,7 +169,3 @@ You will use this Client ID and Client secret when configuring the module's conn
 
 For instructions on creating a connection, see [Connect [!DNL Workfront] to [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) in the article Workfront modules.
 
-
-
-
-A
