@@ -11,8 +11,6 @@ exl-id: 4d97badf-b6d0-4e7c-bff8-9ff63e83586b
 ---
 # Delete a custom form
 
-{{highlighted-preview}}
-
 You can delete a custom form from the system.
 
 >[!CAUTION]
@@ -52,5 +50,5 @@ For more detail about the information in this table, see [Access requirements in
 {{step-1-to-setup}}
 
 1. Click **Custom Forms.**
-1. Select the custom form, then click **Delete** <span class="preview">or ![Delete icon](assets/delete-icon.png).</span>
+1. Select the custom form, then click ![Delete icon](assets/delete-icon.png).
 1. If you are sure you want to permanently delete the custom form and all associated data on objects where it was attached, click **Yes, Delete It**.

@@ -66,7 +66,7 @@ The [!DNL Workfront] connector uses OAuth 2.0 to connect to [!DNL Workfront].
 
 You can create a connection to your [!DNL Workfront] account directly from inside a [!DNL Workfront Fusion] module.
 
-1. In any Adobe Authenticator module, click **Add** next to the Connection field.
+1. In any Adobe Workfront module, click **Add** next to the Connection field.
 1. Fill in the following fields:
 
    <table style="table-layout:auto"> 
@@ -808,6 +808,58 @@ When you are configuring this module, the following fields display.
 +++
 
 +++ **[!UICONTROL Search]**
+
+This search module looks for records in an object in [!DNL Workfront] that match the search query you specify.
+
+You can map this information in subsequent modules in the scenario.
+
+When you are configuring this module, the following fields display.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect [!DNL Workfront] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Record Type]</td> 
+   <td> <p>Select the type of [!DNL Workfront] record that you want the module to search for.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Result Set]</td> 
+   <td>Select an option to specify whether you want the module to get the first result that matches your search criteria or all the results that match it.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Maximal]</td> 
+   <td> <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Search criteria fields]</td> 
+   <td> <p>Select the fields that you want to use for your search criteria. These fields will then be available in the Search criteria dropdown.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Search criteria]</td> 
+   <td> <p>Enter the field that you want to search by, the operator you want to use in your query, and the value that you are searching for in the field.</p> <p>Note: Do not use <code>username </code>in your search criteria. Including <code>username </code>in an API query to [!DNL Workfront] logs the user into Workfront, and the search will not be successful.</p> <p>Note: <code>In</code> and <code>NotIn</code>work with arrays. The inputs should be in array format.</p></td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Outputs]</td> 
+   <td> <p>Select the fields that you want to include in the output for this module.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL References]</td> 
+   <td>Select any reference fields that you want to include in the search.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Collections]</td> 
+   <td>Select any collections that you want to add to the search.</td> 
+  </tr> 
+ </tbody> 
+</table>
++++
+
++++ **[!UICONTROL Search (Legacy)]**
 
 This search module looks for records in an object in [!DNL Workfront] that match the search query you specify.
 

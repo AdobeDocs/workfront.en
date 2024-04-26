@@ -47,7 +47,7 @@ Adobe Workfront calculates goal progress automatically, based on the progress of
 
 You must have the following before you can start:
 
-* A Layout Template that includes the Goals area in the Main&nbsp;Menu.
+* A Layout Template that includes the Goals area in the Main Menu.
 
 ## Overview of goal progress and threshold
 

@@ -128,5 +128,9 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
       <td role="rowheader"> <p>[!UICONTROL Stats]</p>  </td> 
       <td>This graph allows you to view the amount of data transfer and operations used throughout the runs of the scenario in a [!UICONTROL line] graph.</td> 
      </tr> 
+     <tr> 
+      <td role="rowheader"> <p>[!UICONTROL Processing banner]</p>  </td> 
+      <td>If your scenario has recently executed, you may see a banner that reads:<p><code>Data is still being processed. Only partial scenario history will show until processing is complete.</code></p>This appears while the execution details are written to storage. Processing occurs immediately after the scenario executes. and should last no more than a few minutes. Details of the scenario execution may not be visible while the execution is processing.</td> 
+     </tr> 
     </tbody> 
    </table>

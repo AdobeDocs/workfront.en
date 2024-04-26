@@ -1,6 +1,6 @@
 ---
 title: Delete fields
-description: In Adobe Maestro, you can delete custom fields that are no longer relevant.
+description: In Adobe Workfront Planning, you can delete custom fields that are no longer relevant.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -23,13 +23,13 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-In Adobe Maestro, you can create custom fields to store information about records. 
+In Adobe Workfront Planning, you can create custom fields to store information about records. 
 
-For information about creating custom fields in Maestro, see [Create fields](../fields/create-fields.md).
+For information about creating custom fields in Workfront Planning, see [Create fields](../fields/create-fields.md).
 
-You can delete Maestro fields that are no longer relevant. 
+You can delete Workfront Planning fields that are no longer relevant. 
 
-## Considerations about deleting Maestro fields:
+## Considerations about deleting Workfront Planning fields:
 
 * You can delete a field only in the record type table view.
 * You cannot delete the primary field of a record. 
@@ -59,7 +59,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront Planning beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -77,12 +77,12 @@ You must have the following access to perform the steps in this article:
   
   <tr>
    <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access level controls for Maestro</p>  
+   <td> <p>There are no access level controls for Workfront Planning</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -107,7 +107,7 @@ You must have the following access to perform the steps in this article:
 
 {{step1-to-maestro}}
     
-   This opens the last-accessed workspace in Maestro. 
+   This opens the last-accessed workspace in Workfront Planning. 
 1. Click the card of a record type whose fields you want to delete. 
 1. (Conditional) Select a **Table view** from the **View** drop-down menu in the upper-right corner of the record type page. 
 1. Find the field that you want to delete in the column headers, and hover over the column header, then click the downward-pointing arrow after the field name. 

@@ -11,7 +11,7 @@ exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
 
 If you are assigned as an approver to a document, there are multiple ways you can make your approval decision.
 
-For information about creating a new document approval, see [Create a document approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+For information about creating a new document approval, see [Create a document review or approval request](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 >[!IMPORTANT]
 >

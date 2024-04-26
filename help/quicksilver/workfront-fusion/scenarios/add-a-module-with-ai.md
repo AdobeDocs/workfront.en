@@ -2,10 +2,13 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Generate a module using AI 
+title: Generate a module using AI
 description: You can enter a text prompt to create an HTTP module configured to the prompt.
 author: Becky
 feature: Workfront Fusion
+hide: yes
+hidefromtoc: yes
+exl-id: 899641a0-a104-4be9-b423-34a32e985b53
 ---
 # Generate a module using AI 
 
@@ -23,6 +26,9 @@ As with anything generated from AI, we recommend that you double check and test 
 
 The Fusion AI can currently generate modules that connect to the following applciations:
 
+* Adobe Firefly
+* Azure OpenAI
+* Microsoft Graph 
 * Adobe Maestro
 * Adobe Analytics
 * Adobe PDF Services
@@ -78,6 +84,3 @@ Consider the following when creating text prompts:
 * Because each Fusion module performs a single action, your text prompt should describe one specific action. 
 * Use direct, simple language.
 * Check and test your module. If it does not perform as expected, refine your prompt and try again.
-
-
-

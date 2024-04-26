@@ -9,8 +9,6 @@ exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
 ---
 # Manage goal comments in Adobe Workfront Goals
 
-{{highlighted-preview}}
-
 <!--Audited: 01/2024-->
 
 <!--consider retiring this article when goals and all objects are in parity and we remove the legacy commenting from the system. From then on, there is just ONE way to comment and that will be documented in the Update Work article-->
@@ -46,11 +44,9 @@ You must have the following access to perform the actions described in this arti
  </td>
  </tr>
  <tr>
- <td role="rowheader">Adobe Workfront license*</td>
+ <td role="rowheader">Adobe Workfront license</td>
  <td>
- <p>New license: Contributor or higher</p>
- Or
- <p>Current license: Request or higher</p> </td>
+ <p>Any</td>
  </tr>
  <tr>
  <td role="rowheader">Product*</td>
@@ -61,7 +57,7 @@ You must have the following access to perform the actions described in this arti
  </tr>
  <tr>
  <td role="rowheader">Access level configuration</td>
- <td> <p>View or higher access to Goals</p> <p><b>NOTE</b><p>If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For more information, see <span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span></td>
+ <td> <p>View or higher access to Goals</p> </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">Object permissions</td>
@@ -72,10 +68,15 @@ You must have the following access to perform the actions described in this arti
  <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
   </div> </td>
  </tr>
+ <tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
+</td>
+  </tr>
 </tbody>
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 ## Prerequisites
 
@@ -95,14 +96,6 @@ This opens the goal list.
 1. Click  **Updates** in the left panel. 
 1. (Optional) To locate an existing comment, start typing a keyword <!--or a user's name--> in the **Search** box in the upper-right corner of the **Comments** tab. 
    
-   <div class="preview">
-
-   Example in the Preview environment:
-   ![Search for comment](assets/search-for-update-goals-2.png)
-
-   </div>
-
-   Example in the Production environment:
    ![](assets/search-field-in-updates-tab-goals.png)
 
    The keyword <!--or user--> you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
@@ -118,15 +111,7 @@ This opens the goal list.
 1. Click the **x** icon in the search field to clear the search results and return to the complete update.
 1. Click the **Comments** tab in the upper-left corner of the Updates area.
 1. Start entering a comment in the **New comment** box.
-   
-   <div class="preview">
-
-   Example new comment box in the Preview environment:
-   ![New comment box](assets/comment-box-all-tabs.png)
-
-   </div>
-   
-   Example new comment box in the Production environment:
+         
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
@@ -184,5 +169,4 @@ This opens the goal list.
 
 1. (Optional) Click the **System Activity** tab to view updates logged by the system. When a goal is updated, Workfront generates a note about that update that and displays it in the System Activity tab. Workfront also records a system update when a result, activity, or project is added to the goal or when it is updated. <!--ensure the casing on the tab has not changed-->
 
-1. <span class="preview">(Optional) Click the **All** tab to view both user comments and system activity comments in one place. To reply to a comment in the All tab, click **Reply in Comments** to open the comment in the Comments tab. You cannot reply in the All tab.</span>
 

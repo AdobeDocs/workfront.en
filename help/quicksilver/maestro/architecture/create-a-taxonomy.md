@@ -1,6 +1,6 @@
 ---
 title: Create taxonomy record types
-description: Taxonomies are a type of reusable record types that captures attributes about an operational record type in Adobe Workfront Maestro.
+description: When you use a template to create a workspace, record types are created in Operational Record Types and the Taxonomies sections. 
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -12,11 +12,16 @@ exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
 
 {{maestro-important-intro}}
 
-Taxonomy record types capture attributes about operational record types in Adobe Maestro. 
+When you use a template to create a workspace, record types are created in the following sections: 
+
+* Operational Record Types
+* Taxonomies
+
+The record types in the Taxonomies section of a workspace capture attributes about record types in the Operational Record Types section of the same workspace.
 
 For example, Campaign can be an operational record type. The following are taxonomies which capture attributes about the Campaign record type: Region, Audience, Country. 
 
-For more information about Maestro record types, see [Overview of record types and taxonomies](../architecture/overview-of-record-types-and-taxonomies.md). 
+For more information about record types, see [Overview of record types](../architecture/overview-of-record-types-and-taxonomies.md). 
 
 ## Access requirements
 
@@ -33,11 +38,11 @@ You must have the following access to perform the steps in this article:
 <td>
    <p> Product</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>To connect Maestro record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console.</p> </td>
+   <p> Adobe Workfront</p> <p>To connect record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console.</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Maestro closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the Adobe Workfront Planning closed beta program. Contact your account representative to inquire about this new offering. </p>
    </td>
   </tr>
   <tr>
@@ -55,12 +60,12 @@ You must have the following access to perform the steps in this article:
   
   <tr>
    <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access level controls for Maestro</p>  
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Maestro area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="../access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
 <tr>
@@ -85,16 +90,20 @@ You must have the following access to perform the steps in this article:
 
 ## Considerations about creating taxonomies
 
-* You must create a workspace before you can create taxonomy record types in the workspace. 
+* You must create a workspace using a template before you can create record types in the  Taxonomies section of the workspace. 
 
   For information about workspaces, see [Create workspaces](../architecture/create-workspaces.md).  
-* You can create a taxonomy record type by doing one of the following:
+* You can create a record type in the Taxonomies section of a workspace by doing one of the following:
    * Create them automatically when you create a workspace using a template. For information, see [Create workspaces](../architecture/create-workspaces.md).
-   * Create them manually, from scratch.   
+   * Create them manually, from scratch, in the Taxonomies section of a workspace.   
 
-* All newly created taxonomy  record types come with the following fields: 
+* All newly created taxonomies have the following fields, by default: 
 
-    * Name <!--if there won't be any more fields, consider rephrasing this-->
+    * Name
+    * Description
+    * Start Date
+    * End Date
+    * Status
 
     Additionally, you can add custom fields to taxonomies. For more information, see [Create fields](../fields/create-fields.md).
 
@@ -104,8 +113,6 @@ You must have the following access to perform the steps in this article:
 
 ## Create a taxonomy record type
 
-Creating taxonomy record types is similar to creating operational record types from scratch or from a workspace template. 
+Creating taxonomy record types is similar to creating record types. 
 
-For information, see the section "Create a record type from scratch" in the article [Create record types](../architecture/create-record-types.md). 
-
-For information about automatically creating taxonomies when creating a workspace from a template, see [Create workspaces](../architecture/create-workspaces.md).
+For information, see [Create record types](../architecture/create-record-types.md). 

@@ -23,6 +23,10 @@ In order to integrate with Workfront and allow your client app to communicate wi
 
 For instructions on creating the OAuth2 application, see [Create an OAuth2 application using user credentials (Authorization code flow)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create3) in [Create OAuth2 applications for Workfront integrations](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
+>[!NOTE]
+>
+>You can have up to a total of ten OAuth2 Applications at one time.
+
 ## Link to the Authorize page for your users
 
 Your users need to log in to authorize this integration in their own account. The page for them to authorize has a specifiic format, described here. Use this information to determine the address of the authorization page for the app, and provide your users with this address or a link to it.
@@ -75,7 +79,7 @@ The third-party application may require configuration. The following table conta
 
 ## Set up Authorization Code Flow
 
-![](assets/oauth-2-authorization-code-flow-350x194.png)
+![](assets/oauth-2-authorization-code-flow.png)
 
 To log your users in with OAuth2, use the following process:
 

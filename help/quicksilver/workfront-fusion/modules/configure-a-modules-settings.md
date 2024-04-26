@@ -65,7 +65,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
    Click the icon of the module in the scenario editor, as described in [Create a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
-1. If required for the module, create a **[!UICONTROL Connection]** to your registered user account for that given service, as described in [About connecting [!DNL Adobe Workfront Fusion] to an app or service](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+1. If required for the module, create a **[!UICONTROL Connection]** to your registered user account for that given service, as described in [Connections overview](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 1. In each field, type the appropriate text.
 
    Or

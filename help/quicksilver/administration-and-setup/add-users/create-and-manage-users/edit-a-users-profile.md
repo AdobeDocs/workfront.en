@@ -108,7 +108,7 @@ You must have the following to perform the steps in this article:
       <p>This option is available only in the Preview and Sandbox environments. Email notifications are enabled in the Production environment by default. </p>
       </li> 
       
-      <li><b>Show percent complete on update status</b>: Check this option if you want to display a percent complete bar inside the Update area of this user's tasks, when using the legacy commenting experience. For information, see <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">New commenting experience</a>.</li> 
+      </li> 
        <li><b>Send work I assign to myself to my Working On tab</b>: Check this option if you want everything that the user assigns to themselves to appear directly on the Working On list in the Home area. The default is to list everything assigned to a user on their Ready to Start or Not Ready lists in the Home area.</li> 
        <li><b>Automatically generate proofs when uploading documents</b>: Check this option if you want the documents that the user uploads to immediately generate a proof. </li>
        </ul> </td> 
@@ -225,7 +225,7 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Custom Forms</td> 
-      <td><p>Associate an existing user custom form with this user. You must create a custom form before you can associate it with a user. Only active custom forms display in the list. Fields you do not have access to edit are not displayed in an individual custom form.</p> <p>For information about creating custom forms, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</p></td> 
+      <td><p>Associate an existing user custom form with this user. You must create a custom form before you can associate it with a user. Only active custom forms display in the list. Fields you do not have access to edit are not displayed in an individual custom form.</p> <p><strong>Note:</strong> Advanced custom form features such as External Lookup fields and Workfront native fields are only available when you open the user record on the details page, not on the Edit User dialog. (From the list of users, click the user name to open the details.)</p> <p>For information about creating custom forms, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Comment</td> 

@@ -11,8 +11,6 @@ exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 ---
 # Design a form with the form designer
 
-{{highlighted-preview}}
-
 You can design a custom form with the form designer. You can attach custom forms to different Workfront objects to capture data about those objects.
 
 ## Access requirements
@@ -115,7 +113,9 @@ You can use new or existing fields when designing your custom form.
 * **Paragraph Text Field**: Allows users to type multiple lines of text in the field.
 * **Text Field with Formatting**: Allows users to type multiple lines of text in the field and format the text with bold, italics, underline, bullets, numbering, hyperlinks, and block quotes. A character limit of 15,000 allows for plenty of text and formatting.
 
-    For information about accessing this field through the API, see Rich text field storage in the API.
+    This custom field type is not supported in filters on lists and reports.
+
+    For information about accessing this field through the API, see [Rich text field storage in the API](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/rich-text-field-storage-in-the-api.md).
 
     >[!NOTE]
     >
@@ -403,7 +403,7 @@ To add radio buttons and checkboxes:
 
 +++
 
-To add typeahead date fields:
+To add typeahead and date fields:
 
 1. On the left side of the screen, find one of the following fields and drag it to a section on the canvas.
 
@@ -471,6 +471,25 @@ To add typeahead date fields:
     <li>Typeahead</li>
     </ul></td>
      </tr>
+     <tr>
+      <td role="rowheader">Add Filter</td>
+      <td><p>Add a filter for an object type to limit the objects users can choose when they are using the field. </p> <p>For example, you could limit a field so that user names can be selected only if they meet the following criteria:</p> 
+       <ul> 
+        <li>They belong to a group or groups that you specify</li> 
+        <li>They are associated with a role or job title you specify</li> 
+        <li>They belong to the same group as the person using the field</li> 
+       </ul> <p>You must define the filter for the object type you selected using Text Mode syntax. For information about creating a filter using Text Mode, see <a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md">Edit a filter using text mode</a>.</p>
+       <p><b>NOTE</b>:
+       <ul> 
+        <li>If you are editing an existing custom form, adding a filter to a Typeahead field does not remove any objects (outside the scope of the filter) that users have already added using the field.</li> 
+        <li>This filter is not available on mobile devices. If you use the filter for a Typeahead field, the field will appear on users' mobile devices unaffected by the filter.</li> 
+        </ul></p></td> 
+      <td>
+       <ul>
+       <li>Typeahead</li>
+       </ul>
+      </td>
+     </tr>
      <tr> 
       <td role="rowheader">Make a required field</td> 
       <td>Select this option if you want the field to be required in order for the user to complete the custom form. </td> 
@@ -504,9 +523,9 @@ For examples of using the External Lookup field to call the same instance of Wor
 
 >[!NOTE]
 >
->External lookup functionality is not available on Document or User objects.
->
->External lookup fields from custom forms are currently not supported in dashboards. You cannot edit the field value inline, and it may not display properly in a dashboard.
+>* External lookup functionality is not available on Document or User objects.
+>* External lookup fields from custom forms are currently not supported in dashboards. You cannot edit the field value inline, and it may not display properly in a dashboard. (External lookup fields are supported in Canvas Dashboards.)
+>* External lookup fields are available in lists, unless the field has a dependency on another field.
 
 To add an external lookup:
 
@@ -705,11 +724,56 @@ The Workfront Mobile app -->
 
     Click **Save and Close**.
 
-<div class="preview">
-
 ### Add Workfront native fields
 
 You can add Workfront native fields to your custom forms. When the custom form is attached to an object, the field is populated from the object data. For example, the Description field on a custom form attached to a project will pull in the project description. (The field may show "N/A" if no data is available.)
+
++++ **Expand to see the list of supported native fields**
+
+This table lists the available native fields for specific Workfront objects in a custom form.
+
+| Field name                 | Project | Task   | Issue  | Template | Template Task | Portfolio | Program | Group |
+|--------------------------- |-------- |------- |------- |--------- |-------------- | --------- |-------- |------ |
+| Actual Completion Date     | ✓       | ✓     | ✓      | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| Actual Duration            | ✓       | &nbsp; | &nbsp; | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| Actual Hours               | ✓       | &nbsp; | ✓      | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| Actual Start Date          | ✓       | ✓      | ✓      | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| Company                    | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| Condition                  | ✓       | ✓      | ✓     | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| Condition Type             | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| Description                | ✓       | ✓      | ✓     | ✓        | ✓             | ✓        | ✓       | ✓     |
+| Duration                   | &nbsp;   | ✓     | &nbsp; | &nbsp;   | ✓             | &nbsp;    | &nbsp;  | &nbsp;|
+| Duration Type              | &nbsp;   | ✓     | &nbsp; | &nbsp;   | ✓             | &nbsp;    | &nbsp;  | &nbsp;|
+| Duration Unit              | &nbsp;   | ✓     | &nbsp; | &nbsp;   | ✓             | &nbsp;    | &nbsp;  | &nbsp;|
+| Entered By                 | ✓       | ✓      | ✓     | ✓        | ✓             | &nbsp;    | &nbsp;  | ✓     |
+| Entry Date                 | ✓       | ✓      | ✓     | ✓        | ✓             | &nbsp;    | &nbsp;  | ✓     |
+| Group                      | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | ✓        | ✓       | &nbsp; |
+| Last Updated By            | ✓       | ✓      | ✓     | ✓        | ✓             | &nbsp;    | &nbsp;  | &nbsp; |
+| Last Update Date           | ✓       | ✓      | ✓     | ✓        | ✓             | &nbsp;    | &nbsp;  | &nbsp; |
+| Name                       | ✓       | ✓      | ✓     | ✓        | ✓             | ✓        | ✓       | ✓     |
+| Owner                      | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | ✓        | ✓       | &nbsp; |
+| Planned Completion Date    | ✓       | ✓      | ✓      | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| Planned Duration           | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| Planned Hours              | ✓       | ✓      | ✓      | &nbsp;   | ✓            | &nbsp;    | &nbsp;  | &nbsp;|
+| Planned Start Date         | ✓       | &nbsp; | &nbsp; | &nbsp;    | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| Portfolio                  | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | ✓       | &nbsp; |
+| Priority                   | ✓       | ✓      | ✓     | ✓        | ✓             | &nbsp;    | &nbsp;  | &nbsp; |
+| Program                    | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| Projected Completion Date  | ✓       | ✓     | &nbsp;  | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| Projected Duration Minutes | &nbsp;   | ✓     | &nbsp; | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| Projected Start Date       | ✓       | ✓     | &nbsp;  | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| Reference Number           | ✓       | ✓      | ✓     | ✓        | ✓             | &nbsp;    | &nbsp;  | &nbsp; |
+| Schedule Mode              | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| Severity                   | &nbsp;   | &nbsp; | ✓     | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| Sponsor                    | ✓       | &nbsp; | &nbsp; | ✓        | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| Status                     | ✓       | ✓     | &nbsp;  | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| Story Points               | &nbsp;   | ✓     | &nbsp; | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| Template                   | ✓       | &nbsp; | &nbsp;  | &nbsp;   | &nbsp;        | &nbsp;    | &nbsp;  | &nbsp;|
+| URL                        | ✓       | ✓     | &nbsp;  | ✓        | ✓             | &nbsp;    | &nbsp;  | &nbsp;|
+
+{style="table-layout:auto"}
+
++++
 
 1. On the left side of the screen, find **Native field** and drag it to a section on the canvas.
 1. On the right side of the screen, configure the options for the custom field:
@@ -751,8 +815,6 @@ You can add Workfront native fields to your custom forms. When the custom form i
     or
 
     Click **Save and Close**.
-
-</div>
 
 ### Add Adobe XD files
 

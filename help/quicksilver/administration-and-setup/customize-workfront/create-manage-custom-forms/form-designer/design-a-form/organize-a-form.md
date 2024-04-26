@@ -4,14 +4,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 description: You can organize a custom form with the Form Designer.
-author: Courtney
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
 ---
 # Organize and preview a form with the form designer
 
- You can organize a custom form with the form designer.
+ You can organize a custom form with the form designer, and preview it to verify that it is set up correctly.
 
 ## Access requirements
 
@@ -102,8 +102,13 @@ For information about custom fields and widgets in custom forms, see [Design a f
        <p><b>NOTE</b>:  
        <ul> 
        <li> <p>Users without the permissions you specify here can't see the custom fields and widgets in the section. </p> <p>This is also true if you display the fields' values in reports or use them in calculated fields in text mode reporting.</p> </li> 
+       <li><p>For request/issue custom forms: If View access is needed to see the fields in the section break, but Admin access is needed to edit the fields, the section and all of its fields will not be visible to non-administrators when they fill out the form. Once the request has been created, then the users with View access can view the fields in the section.</p></li>
        <li> <p>Associating multiple object types with your form can change the viewing and editing permissions that are available in these steps. For more information, see <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">How multiple object types can affect section break permissions in a custom form</a> in this article.</p> </li> 
         </ul> </p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"><p>Add Logic</p></td> 
+      <td><p>Use display logic to specify whether the section should display on the form, based on selections users make in multi-choice custom fields when they fill out the form.</p><p><strong>NOTE:</strong> If all of the individual fields under a section break have display logic applied to them and they are all hidden as a result of the logic, the entire section will be hidden on the custom form. This will happen even if display logic is not applied to the section break.</p><p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md" class="MCXref xref">Add display logic and skip logic with the form designer</a>.</p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -164,4 +169,5 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 
 1. Begin creating or editing a custom form and adding fields, as described in [Design a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. Click **Preview** in the top-left corner to see how the form will look when being used, then click **End Preview** to return to editing the form.
+1. Click **Preview** in the top-right corner to see how the form will look when being used, then click **End Preview** to return to editing the form.
+

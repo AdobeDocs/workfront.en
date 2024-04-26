@@ -10,9 +10,13 @@ exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
 ---
 # Timesheet layout overview
 
-{{highlighted-preview}}
-
 <!-- Audited: 12/2023 -->
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>-->
 
 This article describes the layout of timesheets in Adobe Workfront, allowing you to better understand how to customize and utilize timesheets to record time.
 
@@ -115,15 +119,7 @@ You can log multiple hour entries for the same work item for different hour type
 
 ## Updates area in the left panel
 
-<div class="preview">
-
-Example in the Preview environment:
 ![Updates area in the left timesheet panel](assets/timesheet-updates-with-all-tab.png)
-
-</div>
-
-Example in the Production environment:
-![Updates area in the left timesheet panel](assets/timesheet-updates-section-unshimmed-redesign.png)
 
 You can make comments on a timesheet to communicate with your timesheet approvers or other users in the Updates section in the left panel of the timesheet.
 
@@ -131,15 +127,7 @@ Any comments made on the timesheet display in this area.
 
 ## Summary panel
 
-<div class="preview">
-
-Example in the Preview environment:
 ![Summary panel](assets/timesheet-summary-panel-on-updates.png)
-
-</div>
-
-Example in the Production environment:
-![Summary panel](assets/timesheet-summary-panel-for-task-unshimmed-redesign.png)
 
 You can access the Summary panel for tasks or issues displayed in a timesheet. From here, you can comment on tasks and issues, or update their information. For more information, see [Summary overview](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
