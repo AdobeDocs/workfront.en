@@ -48,14 +48,14 @@ You must have the following:
   <b>Workfront Fusion</b>:<p>New:</p>
    <ul>
    <li>
-   <p>[!UICONTROL Select] or [!UICONTROL Prime] [!DNL Workfront] Plan: Your organization must purchase [!DNL Adobe Workfront Fusion].</p>
+   <p>Select or Prime Workfront Plan: Your organization must purchase Adobe Workfront Fusion.</p>
    </li>
    <li> 
-   <p>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] is included.</p>
+   <p>Ultimate Workfront Plan: Workfront Fusion is included.</p>
    </li>
    </ul>
    <p>Or</p>
-   <p>Current: Your organization must purchase [!DNL Adobe Workfront Fusion].</p>
+   <p>Current: Your organization must purchase Adobe Workfront Fusion.</p>
    </td>
   </tr>
   <tr>
