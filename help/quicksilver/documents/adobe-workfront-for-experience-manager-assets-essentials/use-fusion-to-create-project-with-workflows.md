@@ -36,8 +36,25 @@ You must have the following:
   <tr>
    <td><strong>Product</strong>
    </td>
-   <td><b>Adobe Experience Manager<b>:<ul><li><p>You must have Experience Manager Assets as a Cloud Service or Assets Essentials, and you must be added to the product as a user in the Admin Console.</p></li><li><p>You must have write access to the repository in Adobe Experience Manager.</p></li></ul>
-  <b>Workfront Fusion</b>:<p>New:</p> <ul><li>[!UICONTROL Select] or [!UICONTROL Prime] [!DNL Workfront] Plan: Your organization must purchase [!DNL Adobe Workfront Fusion].</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] is included.</li></ul>   <p>Or</p>
+   <td><b>Adobe Experience Manager<b>:
+   <ul>
+   <li>
+   <p>You must have Experience Manager Assets as a Cloud Service or Assets Essentials, and you must be added to the product as a user in the Admin Console.</p>
+   </li
+   ><li>
+   <p>You must have write access to the repository in Adobe Experience Manager.</p>
+   </li>
+   </ul>
+  <b>Workfront Fusion</b>:<p>New:</p>
+   <ul>
+   <li>
+   <p>[!UICONTROL Select] or [!UICONTROL Prime] [!DNL Workfront] Plan: Your organization must purchase [!DNL Adobe Workfront Fusion].</p>
+   </li>
+   <li> 
+   <p>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] is included.</p>
+   </li>
+   </ul>
+   <p>Or</p>
    <p>Current: Your organization must purchase [!DNL Adobe Workfront Fusion].</p>
    </td>
   </tr>
@@ -151,3 +168,4 @@ You must set up an OAuth application in Workfront for this module's connection. 
 You will use this Client ID and Client secret when configuring the module's connection in Fusion.
 
 For instructions on creating a connection, see [Connect [!DNL Workfront] to [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) in the article Workfront modules.
+
