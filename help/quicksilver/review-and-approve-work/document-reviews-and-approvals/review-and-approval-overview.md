@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Asset review and approval overview
-description: Learn more about the formal review and approval process in Workfront.
+title: Get started with Asset review and approval
+description: Learn more about the formal review and approval process in using Workfront and Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 hide: yes
@@ -10,7 +10,7 @@ hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
 ---
-# Asset review and approval overview
+# Get started with Asset review and approval
 
 The new asset review and approval workflow is built around a tight integration between Workfront and Frame.io. This integration takes the best of what each product has to offer and combines them to create an experience that allows everyone involved in content creation to work in their tools of choice, while having access to comments, files, and status updates--all synchronized across both systems in real time.
 
@@ -20,7 +20,7 @@ For more information about Frame.io, see [Getting Started with Frame.io](https:/
 
 The Workfront administrator enables the integration between Workfront and Frame.io by configuring the default Frame.io account in the Setup area and then designating Frame.io users in Workfront. This allows the coordinator to plan and initiate work using Workfront projects and formal review and approval workflows. 
 
-### Configure the default Frame.io account
+### Configure the default Frame.io account [!BADGE Coming soon]{type=Informative}
 
 Workfront administrators initiate the Workfront and Frame.io integration by adding a default Frame.io account in the Setup area of Workfront. Once the default Frame.io account is set up, 
 any projects created in Workfront have a mirror project created in Frame.io.
@@ -29,7 +29,7 @@ For more information, see [].
 
 <!-- in procedure article we need to cover how groups work with projects and how the frame account is associated with a group. And that accounts other than the default can be added on a 1:1 basis using the dev token. -->
 
-### Enable Frame.io users
+### Enable Frame.io users Available now [!BADGE Available now]{type=Positive}
 
 Workfront users who regularly use Frame.io should be marked as Frame.io users. Workfront administrators can designate Frame.io users in the Workfront User Profile.
 
@@ -48,7 +48,7 @@ For more information, see [].
 ![](assets/Frame-enabled-user.png)
 
 
-### Create a project connected with Frame.io
+### Create a project connected with Frame.io [!BADGE Available now]{type=Positive}
 
 Once the default Frame.io account is added and Frame.io users are designated, project coordinators can create Workfront projects connected with Frame.io. When you create a connected project, you can
 
@@ -68,7 +68,7 @@ Creatives can stay in their tools of choice and have the freedom to create, iter
 
 When a creative is added to a connected project, they can do the following in Frame.io:
 
-* Access instructions from the project coordinator
+<!--* Access instructions from the project coordinator -->
 * Conduct informal peer reviews
 * Send finished assets to Workfront for formal review and approval
 * Change the status of a task or mark it complete 
@@ -83,11 +83,11 @@ Once a creative sends a finished asset to Workfront from Frame.io, the project c
 
 After the approval workflow is created, reviewers and approvers go back to Frame.io to add comments and mark up the asset. They can also make the approval decision in the Frame.io viewer.
 
-### Initiate formal reviews and approvals in Workfront
+### Initiate formal reviews and approvals in Workfront [!BADGE Available now]{type=Positive}
 
 Project coordinators can create one-time review and approvals or resuable approval templates. All review and approval activity in Frame.io is also recorded in Workfront.
 
-#### Add reviewers and approvers
+#### Add reviewers and approvers [!BADGE Available now]{type=Positive}
 
 Project coordinators have the option to assign reviewers, approvers, or a mix of both:
 
@@ -95,7 +95,7 @@ Project coordinators have the option to assign reviewers, approvers, or a mix of
 * **Approvers** can add comments and mark up assets. They must make a decision to move the approval process forward. 
 
 
-#### Create a review and approval workflow
+#### Create a review and approval workflow [!BADGE Available now]{type=Positive}
 
 Reviewers and approvers can be added to a single-use approval workflow or a reusable approval template:
 
@@ -111,11 +111,11 @@ Reviewers and approvers can be added to a single-use approval workflow or a reus
 
 * Upload an asset from Workfront and send it to frame for review and approval - Need more info on this workflow
 
-### Approve assets in Frame.io
+### Approve assets in Frame.io [!BADGE Available now]{type=Positive}
 
 Stakeholders can review and approve connected assets with the Frame.io viewer. 
 
-#### Access the Frame.io viewer 
+#### Access the Frame.io viewer [!BADGE Available now]{type=Positive}
 
 Users can access the Frame.io viewer in the following ways:
 
@@ -127,11 +127,11 @@ Users can access the Frame.io viewer in the following ways:
 >External Workfront users will be asked to create a Frame.io login to review and approve assets. 
 
 
-#### Add comments and mark up assets
+#### Add comments and mark up assets [!BADGE Available now]{type=Positive}
 
 All comments made in the Frame.io viewer are also recorded in the Workfront Updates tab. Replies made in Workfront do not appear in Frame.io. If comments are marked "Team only" in the Frame.io viewer, they will not appear in the Workfront Updates tab.
 
-#### Make a decision
+#### Make a decision [!BADGE Available now]{type=Positive}
 
 Once all review activity is complete, approvers must make one of the following decisions:
 
@@ -152,10 +152,9 @@ Reviewer/approver needs to go through email to get to frame vier
 
 ### Track review and approval metrics
 
-Project coordinators can monitor progress on all in-flight approvals in the Workfront Home area with the following widgets:
+Project coordinators can monitor progress on all in-flight approvals in the Workfront Home area with the following widget:
 
-* **All approvals**\
-        <span class="preview"> Displays 2 charts with information about average approval time and decisions as well as list views of pending and overdue approvals.</span> <span style="color: #ff0000;">This feature is part of a phased release and is currently only available for specific customers.</span>
+* **All approvals**: Displays 2 charts with information about average approval time and decisions as well as list views of pending and overdue approvals.
 
 * Approval velocity report ?
 
