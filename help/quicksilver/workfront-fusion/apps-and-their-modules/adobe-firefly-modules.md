@@ -83,44 +83,20 @@ To create a connection for your [!DNL Adobe Firefly] modules:
         </td>
         </tr>
         <tr>
+        <td role="rowheader">[!UICONTROL Environment]</td>
+        <td>Select whether you are connecting to a production or non-production environment.</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Type]</td>
+        <td>Select whether you are connecting to a service account or a personal account.</td>
+        </tr>
+        <tr>
         <td role="rowheader">[!UICONTROL Client ID]</td>
         <td>Enter your [!UICONTROL Adobe] [!UICONTROL Client ID]. This can be found in the [!UICONTROL Credentials] details section of the [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
         <td>Enter your [!DNL Adobe] [!UICONTROL Client Secret]. This can be found in the [!UICONTROL Credentials] details section of the [!DNL Adobe Developer Console]</td>
-        </tr>
-        <tr>
-        <td role="rowheader">[!UICONTROL Technical account ID]</td>
-        <td>Enter your [!DNL Adobe] [!UICONTROL Technical account ID]. This can be found in the [!UICONTROL Credentials] details section of the [!DNL Adobe Developer Console]</td>
-        </tr>
-        <tr>
-        <td role="rowheader">[!UICONTROL Organization ID]</td>
-        <td>Enter your [!DNL Adobe] [!UICONTROL Organization ID]. This can be found in the [!UICONTROL Credentials] details section of the [!DNL Adobe Developer Console]</td>
-        </tr>
-        <tr>
-        <td role="rowheader">[!UICONTROL Private key]</td>
-        <td>
-          <p>Enter the private key that was generated when your credentials were created in the [!DNL Adobe Developer Console]. </p>
-          <p>To extract your private key or certificate:</p>
-          <ol>
-            <li value="1">
-              <p>Click <b>[!UICONTROL Extract]</b>.</p>
-            </li>
-            <li value="2">
-              <p>Select the type of file you are extracting.</p>
-            </li>
-            <li value="3">
-              <p>Select the file that contains the private key or certificate.</p>
-            </li>
-            <li value="4">
-              <p>Enter the password for the file.</p>
-            </li>
-            <li value="5">
-              <p>Click <b>Save</b> to extract the file and return to th[!UICONTROL ]e connection setup.</p>
-            </li>
-          </ol>
-        </td>
         </tr>
       </tbody>
     </table>
