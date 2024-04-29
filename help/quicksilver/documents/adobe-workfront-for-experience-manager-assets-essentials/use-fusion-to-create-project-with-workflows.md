@@ -41,7 +41,7 @@ You must have the following:
         <p>You must have write access to the repository in Adobe Experience Manager.</p>
        </li>
      </ul>
-     <p><b>Workfront Fusion:</b>
+     <p><b>Workfront Fusion:</b></p>
      <p>New:</p>
      <ul>
        <li>
