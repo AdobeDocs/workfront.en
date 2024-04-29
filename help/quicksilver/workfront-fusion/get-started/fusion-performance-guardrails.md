@@ -67,6 +67,10 @@ Wokfront Fusion supports only Chrome based browsers.
 
 * Execution history logs are limited to a size of **100 MB**. If the execution history exceeds this size, only the first 100 MB will be shown.
 
+## Incomplete executions
+
+Incomplete executions are limited to a total size of **500 MB**. If the 500 MB limit is reached, no more incomplete executions will be stored.
+
 ## Retries
 
 When using the Break module and specifying the Retry directive, if a scenario fails consecutively 10 times within a 2-minute timeframe, the scenario will be automatically deactivated.
