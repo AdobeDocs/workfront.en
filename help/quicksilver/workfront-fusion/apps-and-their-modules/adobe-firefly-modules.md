@@ -133,16 +133,17 @@ This action module expands an image, optionally with content from a prompt you p
    <td>Select the file format that the expanded image will be saved as.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Fields to include in output]</td> 
-   <td>Select the fields that you want to include in the module's output.</td> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
+   <td>   <td> <p>Select a source file from a previous module, or map the source file's Image file name and Image file (data).</p> </td> 
+</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Custom fields to include in output]</td> 
-   <td>For each custom field that you want to include in output, click <b>[!UICONTROL Add]</b> and enter the name of the custom field.</td> 
+   <td role="rowheader">[!UICONTROL Size]</td> 
+   <td>Select the size that you want the expanded image to be.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Maximum number of returned results]</td> 
-   <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td> 
+   <td role="rowheader">[!UICONTROL Seed]</td> 
+   <td>Enter or map an integer. You can use this same seed in another Expand an image module to generate a similar image with different styles. </td> 
   </tr> 
  </tbody> 
 </table>
