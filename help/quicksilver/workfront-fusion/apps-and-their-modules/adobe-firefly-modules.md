@@ -134,7 +134,7 @@ This action module expands an image, optionally with content from a prompt you p
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td>   <td> <p>Select a source file from a previous module, or map the source file's Image file name and Image file (data).</p> </td> 
+   <td>  <p>Select a source file from a previous module, or map the source file's Image file name and Image file (data).</p> </td> 
 </td> 
   </tr> 
   <tr> 
@@ -163,15 +163,15 @@ This action module fills the masked area of an image, optionally with content fr
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Prompt]</td> 
-   <td>Enter or map a prompt for the content with which you want to expand the image. If no prompt is provided, the image will be expanded with content matching the original image.</td> 
+   <td>Enter or map a prompt for the content with which you want to fill the image. If no prompt is provided, the image will be filled with content matching the original image.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Expanded image format]</td> 
-   <td>Select the file format that the expanded image will be saved as.</td> 
+   <td role="rowheader">[!UICONTROL Filled image format]</td> 
+   <td>Select the file format that the filled image will be saved as.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td>   <td> <p>Select a source file from a previous module, or map the source file's Image file name and Image file (data), and Mask file name and Mask file (data). The Mask file represents the custom mask that will be filled with generated content.</p> </td> 
+   <td>  <p>Select a source file from a previous module, or map the source file's Image file name and Image file (data), and Mask file name and Mask file (data). The Mask file represents the custom mask that will be filled with generated content.</p> </td> 
 </td> 
   </tr> 
   <tr> 
@@ -189,6 +189,60 @@ This action module fills the masked area of an image, optionally with content fr
 
 This action module generates and image based on a prompt you provide. You can also provide an optional reference image, and the generated image will match the style of the reference image.
 
-
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Campaign], see <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Create a connection to [!DNL Adobe Firefly]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Prompt]</td> 
+   <td>Enter or map a prompt for the image you want to create. More detail in the prompt will allow you more control over what appears in the image.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Generated image format]</td> 
+   <td>Select the file format that the expanded image will be saved as. If you select default, the file format will be JPEG if no reference image is provided. If a reference image is provided, the file format of the generated image will be the same as the reference image.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
+   <td>  <p>Select a source file from a previous module, or map the source file's Reference image file name and Reference image file (data). The generated image will be created to match the reference image's style.</p> </td> 
+</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Presets]</td> 
+   <td>If you want to use a preset style, click Add item and enter or map the style that you want to use.<p>For a list of preset styles, see <a href="https://developer.adobe.com/firefly-services/docs/firefly-api/guides/concepts/styles/" >Image Model Styles</a> in the Adobe developer documentation.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Negative prompt]</td> 
+   <td>Enter or map the words that you want to avoid in the generated content. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Content class]</td> 
+   <td>Select whether you want the generated image to be more like a photo, or more like created art. <ul><li><b>Photo</b><p>Enter values for the Aperture, Shutter speed (in seconds), and field of view (in millimeters).</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Seed]</td> 
+   <td>Enter or map an integer. You can use this same seed in another Expand an image module to generate a similar image with different styles. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Size]</td> 
+   <td>Select the size that you want the generated image to be.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Strength]</td> 
+   <td>Enter or map an integer that represents the intensity with which the generated image will match the style of the preset style or reference image. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Visual intensity]</td> 
+   <td>Enter or map an integer that represents the overall intensity of the photo's existing visual characteristics. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Locale]</td> 
+   <td>If a locale is provided, the module generates content more relevant to the specified locale. <p>Locale must be provided in ISO 639-1 language code and ISO 3166-1 region.</p><p> Example: <code>en-US</code></p></td> 
+  </tr> 
+ </tbody> 
+</table>
 
 
