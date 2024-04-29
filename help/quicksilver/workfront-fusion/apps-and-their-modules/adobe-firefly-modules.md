@@ -17,6 +17,7 @@ In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that us
 If you need instructions on creating a scenario, see [Create a scenario](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+
 ## Access requirements
 
 You must have the following access to use the functionality in this article:
@@ -110,3 +111,50 @@ When you configure [!DNL Adobe Firefly] modules, [!DNL Workfront Fusion] display
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
+
+### Expand an image
+
+This action module expands an image, optionally with content from a prompt you provide.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Campaign], see <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Create a connection to [!DNL Adobe Firefly]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Prompt]</td> 
+   <td>Enter or map a prompt for the content with which you want to expand the image. If no prompt is provided, the image will be expanded with content matching the original image.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Expanded image format]</td> 
+   <td>Select the file format that the expanded image will be saved as.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Fields to include in output]</td> 
+   <td>Select the fields that you want to include in the module's output.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Custom fields to include in output]</td> 
+   <td>For each custom field that you want to include in output, click <b>[!UICONTROL Add]</b> and enter the name of the custom field.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Maximum number of returned results]</td> 
+   <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
