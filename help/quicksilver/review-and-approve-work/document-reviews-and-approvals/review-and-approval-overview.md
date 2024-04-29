@@ -22,14 +22,13 @@ The Workfront administrator enables the integration between Workfront and Frame.
 
 ### Configure the default Frame.io account [!BADGE Coming soon]{type=Informative}
 
-Workfront administrators initiate the Workfront and Frame.io integration by adding a default Frame.io account in the Setup area of Workfront. Once the default Frame.io account is set up, 
-any projects created in Workfront have a mirror project created in Frame.io.
+Workfront administrators initiate the Workfront and Frame.io integration by adding a default Frame.io account in the Setup area of Workfront. Once the default Frame.io account is set up, any projects created in Workfront have a mirror project created in Frame.io.
 
 For more information, see [].
 
 <!-- in procedure article we need to cover how groups work with projects and how the frame account is associated with a group. And that accounts other than the default can be added on a 1:1 basis using the dev token. -->
 
-### Enable Frame.io users Available now [!BADGE Available now]{type=Positive}
+### Enable Frame.io users Available now
 
 Workfront users who regularly use Frame.io should be marked as Frame.io users. Workfront administrators can designate Frame.io users in the Workfront User Profile.
 
@@ -48,13 +47,13 @@ For more information, see [].
 ![](assets/Frame-enabled-user.png)
 
 
-### Create a project connected with Frame.io [!BADGE Available now]{type=Positive}
+### Create a project connected with Frame.io
 
 Once the default Frame.io account is added and Frame.io users are designated, project coordinators can create Workfront projects connected with Frame.io. When you create a connected project, you can
 
 * **Assign Frame.io users to tasks**: Frame.io enabled users are notified by email when they are assigned to a Workfront task, signaling there is work to complete. 
 * **Share the project with Frame.io users**: When a project is shared with Frame.io enabled users, they have access to the project inside both Workfront and Frame.io.
-* **Share creative materials with Frame.io**: Project coordinators can send instructions and materials from Workfront directly to the creative user in Frame.io using a one-way sync project folder. 
+* **Share creative materials with Frame.io**: Project coordinators can send instructions and materials from Workfront directly to the creative user in Frame.io using a one-way sync project folder. [!BADGE Coming soon]{type=Informative}
 * **Track task progress**: Creatives can send finished assets and mark tasks complete--all without leaving Frame.io.
 
 For more information, see [].
