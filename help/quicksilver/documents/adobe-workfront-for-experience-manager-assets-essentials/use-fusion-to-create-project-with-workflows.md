@@ -22,48 +22,46 @@ You must have the following:
 
 <table>
   <tr>
-   <td><strong>Adobe Workfront plan*</strong>
-   </td>
-   <td>Any
-   </td>
+    <td><strong>Adobe Workfront plan*</strong></td>
+    <td>Any</td>
   </tr>
   <tr>
-   <td><strong>Adobe Workfront licenses*</strong>
-   </td>
-   <td>Request or higher
-   </td>
+   <td><strong>Adobe Workfront licenses*</strong></td>
+   <td>Request or higher</td>
   </tr>
   <tr>
-   <td><strong>Product</strong>
-   </td>
-   <td><b>Adobe Experience Manager<b>:
-   <ul>
-   <li>
-   <p>You must have Experience Manager Assets as a Cloud Service or Assets Essentials, and you must be added to the product as a user in the Admin Console.</p>
-   </li
-   ><li>
-   <p>You must have write access to the repository in Adobe Experience Manager.</p>
-   </li>
-   </ul>
-   <b>Workfront Fusion</b>:<p>New:</p>
-   <ul>
-   <li>
-   <p>Select or Prime Workfront Plan: Your organization must purchase Adobe Workfront Fusion.</p>
-   </li>
-   <li> 
-   <p>Ultimate Workfront Plan: Workfront Fusion is included.</p>
-   </li>
-   </ul>
-   <p>Or</p>
-   <p>Current: Your organization must purchase Adobe Workfront Fusion.</p>
+   <td><strong>Product</strong></td>
+   <td>
+     <p><b>Adobe Experience Manager:</b></p>
+     <ul>
+       <li>
+         <p>You must have Experience Manager Assets as a Cloud Service or Assets Essentials, and you must be added to the product as a user in the Admin Console.</p>
+       </li>
+       <li>
+        <p>You must have write access to the repository in Adobe Experience Manager.</p>
+       </li>
+     </ul>
+     <p><b>Workfront Fusion:</b>
+     <p>New:</p>
+     <ul>
+       <li>
+         <p>Select or Prime Workfront Plan: Your organization must purchase Adobe Workfront Fusion.</p>
+       </li>
+       <li> 
+         <p>Ultimate Workfront Plan: Workfront Fusion is included.</p>
+       </li>
+     </ul>
+     <p>Or</p>
+     <p>Current: Your organization must purchase Adobe Workfront Fusion.</p>
    </td>
   </tr>
   <tr>
    <td><strong>Access level configurations*</strong>
    </td>
    <td>Edit access to Documents
-   <p>
-   <strong>Note: </strong>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <strong>Create or modify custom access levels</strong>.
+     <p>
+       <strong>Note: </strong>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <strong>Create or modify custom access levels</strong>.
+     </p>
    </td>
   </tr>
 </table>
