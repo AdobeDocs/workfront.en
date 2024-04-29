@@ -148,13 +148,46 @@ This action module expands an image, optionally with content from a prompt you p
  </tbody> 
 </table>
 
+## Fill an image
+
+This action module fills the masked area of an image, optionally with content from a prompt you provide.   
 
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Campaign], see <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Create a connection to [!DNL Adobe Firefly]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Prompt]</td> 
+   <td>Enter or map a prompt for the content with which you want to expand the image. If no prompt is provided, the image will be expanded with content matching the original image.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Expanded image format]</td> 
+   <td>Select the file format that the expanded image will be saved as.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
+   <td>   <td> <p>Select a source file from a previous module, or map the source file's Image file name and Image file (data), and Mask file name and Mask file (data). The Mask file represents the custom mask that will be filled with generated content.</p> </td> 
+</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Size]</td> 
+   <td>Select the size that you want the filled image to be.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Seed]</td> 
+   <td>Enter or map an integer. You can use this same seed in another Expand an image module to generate a similar image with different styles. </td> 
+  </tr> 
+ </tbody> 
+</table>
 
+## Generate an image
 
-
-
-
+This action module generates and image based on a prompt you provide. You can also provide an optional reference image, and the generated image will match the style of the reference image.
 
 
 
