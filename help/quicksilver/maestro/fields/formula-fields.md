@@ -25,7 +25,7 @@ recommendations: noDisplay, noCatalog
 
 {{maestro-important-intro}}
 
-You can create custom fields in Adobe Workfront Planning by referring to existing fields and connecting them by a formula. You can do this by creating a custom Formula-type field. 
+You can create custom fields in Adobe Workfront Planning by referring to existing fields and connecting them in a Formula-type field.
 
 Formula fields generate a new value using existing values from other fields in a record type and a function that indicates how the existing values should be calculated. 
 
@@ -94,7 +94,7 @@ You must have the following access to perform the steps in this article:
 ## Considerations about formula fields
 
 * Formula fields reference fields that belong to the same record type. You cannot reference fields from other record types when creating a formula field. <!--is this still accurate??-->
-* You cannot change the Field type of a Formula field after you saved it. 
+* You cannot change the Field type of a Formula field after you save it. 
 * You can update the calculation of a formula field after you save it, and the results of the calculation update automatically for all the records of the same type. 
 * You must add the fields you reference in formulas as they display in the Workfront Planning interface. 
 
@@ -148,7 +148,7 @@ In addition, we support the following expressions for Workfront Planning formula
    
    <tr> 
    <td><strong>WEEKOFYEAR</strong> </td> 
-   <td> <p>Returns the week number in a year. Optionally, you can indicate which day the week starts on (use 1 for Sunday, or 2 for Monday). If ommitted, weeks start on Sunday, by default.</p> <p>The expression is formatted as follows:
+   <td> <p>Returns the week number in a year. Optionally, you can indicate which day the week starts on (use 1 for Sunday, or 2 for Monday). If omitted, weeks start on Sunday, by default.</p> <p>The expression is formatted as follows:
    
    <code>WEEKOFYEAR(date,2)</code>
       or
