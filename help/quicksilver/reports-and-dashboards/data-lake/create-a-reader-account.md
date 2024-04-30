@@ -9,9 +9,11 @@ feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
 ---
-# Create a  reader (service) account for Snowflake
+# Create a reader (service) account for Snowflake
 
-In order to access Workfront data lake data, you must first create a reader account for Snowflake. Additionally, you must add IPs to the allowlist for any external tools you plan on connecting to the data.
+In order to access Workfront data lake data, you must first create a Snowflake reader (or service) account for each new connection. After creating a connection, you can find its associated URL and username by clicking on it on the **Data access** page (**Main menu** > **Setup** > **System** > **Data access**) under the **Existing Connections** tab.
+
+For information on using a newly created connection with an external product, see [Establish a connection to Workfront data lake](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md).
 
 ## Access requirements
 
@@ -62,28 +64,12 @@ For more detail about the information in this table, see [Access requirements in
 
 1. You may now use your username and new password to access your Workfront data lake in Snowflake or the business visualization tool of your choice.
 
-## Add IPs to the allowlist
-
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Setup**.
-
-1. In the left panel, click **System** > **Data Access**.
-
-1. Click on the **Allowed IPs** tab, then click on the **Add an IP Address to your Allowlist** button.
-
-1. Enter a name for the IP address in **IP Address description** and enter the IP address for the tool you would like to use in **IP Address**, then click **Add IP to Allowlist**.
-
-    ![Add IP address](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
-
-## Revoke a reader account or remove an IP address from the allowlist
+## Revoke a reader account
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Setup**.
 
 1. In the left panel, click **System** > **Data Access**.
 
 1. Click on the trashcan icon ![Delete icon](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) to the right of the account you would like to revoke.
-
-    OR
-
-    Click on the **Allowed IPs** tab, then click on the trashcan icon ![Delete icon](/help/quicksilver/reports-and-dashboards/data-lake/assets/delete.png) to the right of the IP address you would like to remove.
 
 1. In the window that appears, check the box to confirm and then click **Delete**.

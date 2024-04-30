@@ -102,6 +102,7 @@ For information about custom fields and widgets in custom forms, see [Design a f
        <p><b>NOTE</b>:  
        <ul> 
        <li> <p>Users without the permissions you specify here can't see the custom fields and widgets in the section. </p> <p>This is also true if you display the fields' values in reports or use them in calculated fields in text mode reporting.</p> </li> 
+       <li><p>For request/issue custom forms: If View access is needed to see the fields in the section break, but Admin access is needed to edit the fields, the section and all of its fields will not be visible to non-administrators when they fill out the form. Once the request has been created, then the users with View access can view the fields in the section.</p></li>
        <li> <p>Associating multiple object types with your form can change the viewing and editing permissions that are available in these steps. For more information, see <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">How multiple object types can affect section break permissions in a custom form</a> in this article.</p> </li> 
         </ul> </p> </td> 
      </tr> 
@@ -169,3 +170,4 @@ Courtney, this is a story that got postponed after I did the work. Slated for so
 1. Begin creating or editing a custom form and adding fields, as described in [Design a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Click **Preview** in the top-right corner to see how the form will look when being used, then click **End Preview** to return to editing the form.
+

@@ -1149,6 +1149,7 @@ feature-set: Workfront
       * [Create a folder linked with Experience Manager Assets or Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
       * [Unlink or delete assets and folders from Experience Manager Assets or Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
       * [Use workflows in the Experience Manager Assets Essentials integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
+      * [Use Workfront Fusion to convert a Workfront issue to a project that includes Adobe Experience Manager workflows](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
       * [Troubleshoot the Adobe Experience Manager Integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md) 
   * Migrate from the legacy or enhanced connectors {#migrate-from-legacy-enhanced-connectors}
     * [Migrate from the legacy or enhanced connectors](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
@@ -1737,9 +1738,9 @@ feature-set: Workfront
   * Workfront data lake {#data-lake}
     * [Workfront data lake overview](reports-and-dashboards/data-lake/data-lake-overview.md)
     * [Create a reader account](reports-and-dashboards/data-lake/create-a-reader-account.md)
+    * [Establish a connection to Workfront data lake](reports-and-dashboards/data-lake/share-data-externally.md)
     * [Workfront data lake data dictionary](reports-and-dashboards/data-lake/data-dictionary.md)
     * [Basic Workfront data lake query examples](reports-and-dashboards/data-lake/basic-query-examples.md)
-    * [Share data lake data with business intelligence tools and external data warehouses](reports-and-dashboards/data-lake/share-data-externally.md)
 * Manage resources {#manage-resources}
   * [Manage resources](resource-mgmt/manage-resources.md)
   * Resource Management {#resource-management}

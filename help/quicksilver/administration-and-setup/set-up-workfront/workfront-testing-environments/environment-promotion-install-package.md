@@ -15,6 +15,14 @@ exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
 ---
 # Install an environment promotion package
 
+After you have created a package, you can install it in a different environment.
+
+## Prerequisites
+
+You must have created a package before you can install it. 
+
+For instructions, see [Create or edit an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md).
+
 >[!NOTE]
 >
 >To install a package, you must be logged in to the environment where you want to install the package. This is the environment that you are copying objects **to**.
@@ -25,7 +33,7 @@ exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
 1. Select the package from the displayed list.
 1. For each object that has a collision, select how to resolve the collision.
 
-   To resolve a collision, click the dropdown arrow next to the object type, and select the action that you want to take.
+   To resolve a collision, click the drop-down arrow next to the object type, and select the action that you want to take.
 
    For more information, see [Collisions](#collisions) in this article
 1. To deploy the package into the new environment, click **Deploy** at the upper-right of the screen. 
@@ -34,7 +42,7 @@ exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
 
 Collisions occur when an object that is part of the installation package has the same name as an object that already exists in the target environment. When this occurs, you can select how to resolve the collision. Collisions are resolved on the object level.
 
-You can view collisions by clicking on the dropdown next to each object type. Collisions are displayed in the Collision column. 
+You can view collisions by clicking on the drop-down next to each object type. Collisions are displayed in the Collision column. 
 
 To resolve a collision, select an action in the Deployment Action column, or use the default action that is already displayed.
 
@@ -44,7 +52,7 @@ To resolve a collision, select an action in the Deployment Action column, or use
 
    You can also choose objects to overwrite even if a collision is not detected.
 
-   FOr details on how overwriting affects parent and child objects, see 
+   For details on how overwriting affects parent and child objects, see [Overwriting parent and child objects](#overwriting-parent-and-child-objects) in this article.
 <!--
 * Do not use: The object in the package is not installed in the target environment. If you select Do not use, an error message will appear detailing how this choice will affect other objects or fields.
 -->

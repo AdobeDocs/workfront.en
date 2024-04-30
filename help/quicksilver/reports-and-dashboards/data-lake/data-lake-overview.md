@@ -24,7 +24,7 @@ Subscribers will be able to connect their business intelligence tool of choice (
 For more information about Workfront data lake, see the following articles:
 
 * [Workfront data lake beta information](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
-* [Create a reader account](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
+* [Create a reader (service) account for Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md)
+* [Establish a connection to Workfront data lake](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 * [Workfront data lake data dictionary](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)
-* [Share data lake data with business intelligence tools and external data warehouses](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 <!-- * [Basic Workfront data lake query examples](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md) -->
