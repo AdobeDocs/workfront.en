@@ -9,7 +9,7 @@ exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
 ---
 # [!DNL Adobe Workfront] objects overview
 
-
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
 <!--Audited: 12/2023-->
 
