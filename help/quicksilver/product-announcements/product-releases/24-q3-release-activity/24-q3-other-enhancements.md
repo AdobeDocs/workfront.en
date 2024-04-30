@@ -19,3 +19,5 @@ When a user does not have access to an object, the user will see "No access" any
 Teams and Users are not included with this change. Users are still be able to view team and user names.
 
 For more information, see the section [Restricted access to objects](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects) in the [!DNL Adobe Workfront] objects overview article. 
+
+
