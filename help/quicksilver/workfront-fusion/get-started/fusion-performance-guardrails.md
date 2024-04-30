@@ -19,7 +19,7 @@ Work automation requires rapid processing, so [!DNL Adobe Workfront Fusion] is d
 
 ## Browsers
 
-* Wokfront Fusion supports only Chrome based browsers.
+* Workfront Fusion supports only Chrome based browsers.
 
 ## Scenarios
 
