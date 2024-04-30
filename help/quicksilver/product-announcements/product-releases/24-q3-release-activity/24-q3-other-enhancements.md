@@ -4,7 +4,7 @@ description: Other enhancements during the Third Quarter 2024 release time frame
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-
+exl-id: 8fde6efe-dcf7-47f0-bf85-c66550191066
 ---
 # Other enhancements during the Third Quarter 2024 release timeframe
 
@@ -18,6 +18,4 @@ When a user does not have access to an object, the user will see "No access" any
 
 Teams and Users are not included with this change. Users are still be able to view team and user names.
 
-For more information, see the section [Restricted access to objects](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects) in the [!DNL Adobe Workfront] objects overview article. 
-
-
+For more information, see the section [Restricted access to objects](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects) in the [!DNL Adobe Workfront] objects overview article.
