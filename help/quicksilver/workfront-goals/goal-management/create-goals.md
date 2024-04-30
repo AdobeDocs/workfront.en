@@ -21,14 +21,19 @@ You must have the following:
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">Adobe Workfront plan</td>
- <td>
- <p>Any</p>
- 
- </td>
- </tr>
- <tr>
+<tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> 
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li>
+  Or
+  <li>An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. </li></ul> </p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
+   </td> 
+  </tr>
+  <tr>
  <td role="rowheader">Adobe Workfront license*</td>
  <td>
  <p>New license: Contributor or higher</p>
@@ -46,7 +51,7 @@ You must have the following:
  <p>Current product requirement: A Workfront plan and an additional license for Adobe Workfront Goals. </p> <p>For information, see <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Requirements to use Workfront Goals</a>. </p> </td>
  </tr>
 <tr>
-<td role="rowheader">Access level*</td>
+<td role="rowheader">Access level</td>
 <td> <p>Edit access to Goals</p> </td>
 </tr>
 <tr data-mc-conditions="">
