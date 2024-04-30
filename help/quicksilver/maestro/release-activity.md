@@ -41,6 +41,63 @@ For more information, see [Manage record views](/help/quicksilver/maestro/views/
 
 -->
 
+<!--
+## Week of April 29, 2029
+
+### Add sections to the record's page 
+
+Production: <date> 
+
+Preview: To be determined 
+
+To better organize information on the record's page for more efficient readability and navigation we have introduced sections to the record's page. The section titles serve as headers that organize the content into distinct categories. The sections can be expanded or collapsed, if needed.  
+
+For information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). 
+
+### Real-time updates for field configuration changes 
+
+Production: <date> 
+
+Preview: To be determined 
+
+If any user changes any field configuration (name, description, list of options etc) in a record type, other users view those changes in real-time. This ensures that everyone views the correct fields and their information at the same time.  
+
+>[!WARNING]
+>
+>When formula expressions change, or options are added or removed from a select-type field, there will be loss of data for the records that already have information stored in the fields whose configuration is modified. 
+>
+>There is no warning or indication that this data loss could happen when you change the configuration of fields. 
+>
+>There is no notification to other users that the field configuration has changed.  
+
+For more information, see [Edit fields](/help/quicksilver/maestro/fields/edit-fields.md).  
+
+### Real-time updates on the record details box and page after editing records in the table view
+
+Production: <date> 
+
+Preview: To be determined.  
+
+When a user updates the information on a record in the table view, other users can view the updated information in the record's details box (inside of a view) or page in real time. This ensures that all users view the updated information at the same time, in sync with when the changes happen.  
+
+For information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
+
+### Enable Workfront Planning notifications  
+
+Production: <date>  
+
+Preview: TBD  
+
+Now, when someone adds you to a comment in the record page, you receive an in-app as well as an email notification about the comment. The following scenario exists:   
+
+* Adobe Unified Experience customers receive both an in-app notification and an email notification. They can manage their notification preferences in the Preferences area of their Adobe Experience Cloud profile. For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).   
+
+* Customers who are not using the Adobe Unified Experience receive only an email notification. They cannot manage their email notifications preferences and will always receive an email when someone adds them to a comment on a record in Workfront Planning.
+
+For information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/maestro/notifications/notifications-information.md). 
+
+-->
+
 ## Week of April 22, 2024
 
 ### Updated workflow when editing a workspace or a record type
