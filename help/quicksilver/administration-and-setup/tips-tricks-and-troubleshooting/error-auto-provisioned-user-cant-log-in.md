@@ -57,3 +57,5 @@ Create a basic access level with a Request license:
 1. Click **[!UICONTROL Save Changes]**.
 
 After you create an access level with a Request license, have the user log in with their SSO credentials.
+
+
