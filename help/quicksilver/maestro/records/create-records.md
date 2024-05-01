@@ -121,14 +121,14 @@ For information about editing record information, see [Edit records](/help/quick
 
     Or 
     
-    Click the new record's name or the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of the record name. The box with the record's detailed information opens in the table. 
+    Click the new record's name or the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of the record name. A preview with the record's detailed information opens in the table. 
 
     >[!TIP]
     >
-    >You can access the Details box only from the name field of the record when the Name field is a primary field. 
+    >You can access the **Open Details** icon only from the name field of the record when the Name field is a primary field. 
 
-1. Start editing the record's information in the record's box. Workfront automatically saves your changes. 
-1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the record's box to open the record's page in a new tab. Continue editing the record on the record page.
+1. Start editing the record's information in the record's preview. Workfront automatically saves your changes. 
+1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the record's preview to open the record's page in a new tab. Continue editing the record on the record page.
 
 
 1. (Optional) Use the following keyboard shortcuts to undo or redo adding new records: 
