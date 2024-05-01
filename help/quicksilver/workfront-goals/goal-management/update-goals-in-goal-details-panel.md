@@ -31,12 +31,18 @@ You must have the following:
 <col>
 </col>
 <tbody>
- <tr>
- <td role="rowheader">Adobe Workfront plan</td>
- <td>
- <p>Any</p> 
- </td>
- </tr>
+ <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> 
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li>
+  Or
+  <li>An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. </li></ul> </p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
+   </td> 
+  </tr>
  <tr>
  <td role="rowheader">Adobe Workfront license*</td>
  <td>
