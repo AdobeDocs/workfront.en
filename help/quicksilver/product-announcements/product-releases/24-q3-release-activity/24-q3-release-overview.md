@@ -22,7 +22,7 @@ This page provides information about functionality that is included in the Third
 >
 >|Monthly release|Quarterly release|
 >|----|----|
->|<ul><li>24.5 (May, 2024)</li><li>24.6 (June, 2024)</li><li>24.7 (July, 2024)</li></ul>| <ul><li>24.7 (July 2024)</li></ul>|
+>|<ul><li>24.5 (May 16, 2024)</li><li>24.6 (June, 2024)</li><li>24.7 (July, 2024)</li></ul>| <ul><li>24.7 (July 2024)</li></ul>|
 >
 >For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -130,7 +130,7 @@ This page provides information about functionality that is included in the Third
             <col style="width: 50%;" />
             <col style="width: 50%;" />
             <tbody>
-            <tr>
+                <tr>
                     <td>
                         <p><span class="bold">Feature</span>
                         </p>
@@ -139,8 +139,8 @@ This page provides information about functionality that is included in the Third
                         <p><span class="bold">Release dates</span>
                         </p>
                     </td>
-                 </tr>
-                 <tr>
+                </tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Improved UI experience for users with limited object access</a></p>
                         <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
@@ -158,26 +158,6 @@ This page provides information about functionality that is included in the Third
                                 <p>Production for quarterly release: With the 24.7 release </p>
                             </li>
                         </ul>
-                    </td>
-                 </tr>
-                <tr>
-                    <td>
-                        <p><span class="bold">Feature</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Release dates</span>
-                        </p>
-                    </td>
-                 </tr>
-                <tr>
-                    <td>
-                        <p><span class="bold">Feature</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Release dates</span>
-                        </p>
                     </td>
                 </tr>
                 <tr>
