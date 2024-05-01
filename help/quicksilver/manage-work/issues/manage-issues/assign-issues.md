@@ -10,6 +10,8 @@ exl-id: e2dce29e-7370-4580-8326-99c4437998bf
 ---
 # Assign issues
 
+{{highlighted-preview}}
+
 You can assign issues to users, roles, and teams to indicate who is responsible for completing the issues. For general information about assigning issues, see [Overview of modifying issue assignments](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!TIP]
@@ -106,13 +108,17 @@ Consider the following when assigning multiple resources to a work item:
 
    Click the name of the current assignments, if the issue is already assigned.
 
-   ![](assets/nwe-assign-to-button-in-header-350x77.png)
+   ![Assign to button](assets/assign-to-button-in-header.png)
 
 1. Do one of the following:
 
    * Start typing the name of a user, role, or team that you want to assign, then click it when it appears on the list.
 
+     Sample image in the Production environment:
      ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
+
+     <span class="preview">Sample image in the Preview environment:</span>
+     ![Assignments search](assets/assignments-expanded-in-task-issue-header.png)
 
    * (Conditional) Click one of the names in the **Suggested Assignments** list 
    * Click **Assign to me** to assign it to yourself
@@ -155,7 +161,11 @@ To assign issues in a list:
 
    * Click inside the **Assignments** field and start typing the name of an active user, job role, or active team that you want to assign to the issue, then click it when it displays in the list.
 
+     Sample image in the Production environment:
      ![](assets/assignments-field-task-list-nwe.png)
+
+     <span class="preview">Sample image in the Preview environment:</span>
+     ![Assignments field](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]
    >
