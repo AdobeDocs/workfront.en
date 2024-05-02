@@ -255,7 +255,7 @@ This action module creates a new card on a Workfront board.
   </tr> 
   <tr> 
    <td>[!UICONTROL Column ID]</td> 
-   <td>Enter or map the ID of the column you want to add a subtask to.<p>You can find the tag ID in the information that is returned from the Read a board module.</p></td> 
+   <td>Enter or map the ID of the column you want to add a subtask to.<p>You can find the column ID in the information that is returned from the Read a board module.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Name]</td> 
@@ -286,7 +286,7 @@ This action module move a card to a different column on the same board.
   </tr> 
   <tr> 
    <td>[!UICONTROL Destination column ID]</td> 
-   <td>Enter or map the ID of the column you want to move the card to.<p>You can find the tag ID in the information that is returned from the Read a board module.</p></td> 
+   <td>Enter or map the ID of the column you want to move the card to.<p>You can find the column ID in the information that is returned from the Read a board module.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL To index]</td> 
@@ -340,7 +340,7 @@ This action module updates information for a card you specify.
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
-   <td>Enter or map a new description for the card/\.</p></td> 
+   <td>Enter or map a new description for the card.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -394,6 +394,10 @@ This action module returns information about a single board, such as the board's
 
 ### Columns
 
+* [Create a column](#create-a-column)
+* [Search for a column](#search-for-a-column)
+* [Update a column](#update-a-column)
+
 #### Create a column
 
 This action module creates a new column on the specified board.
@@ -411,8 +415,62 @@ This action module creates a new column on the specified board.
    <td>Enter or map the ID of the board that you want to add a column to.<p>You can find the board ID in the URL when viewing the board in Workfront.</p></td> 
   </tr> 
   <tr> 
+   <td>[!UICONTROL Column ID]</td> 
+   <td>Enter or map the ID of the column you want to update.<p>You can find the column ID in the information that is returned from the Read a board module.</p></td> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Column name]</td> 
-   <td>Enter or map a name for the new column.</td> 
+   <td>Enter or map a new name for the column.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL WIP Limit]</td> 
+   <td>Enter or map a new WIP limit for the column.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Search for a column
+
+This search module returns information about the column with the specified name.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>You can use an existing Workfront connection to connect to Workfront Boards, or you can use a specific Workfront Boards connection. </p><p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Create a connection to Workfront Boards</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Board ID]</td> 
+   <td>Enter or map the ID of the board that contains the column you want to retrieve.<p>You can find the board ID in the URL when viewing the board in Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Column Name]</td> 
+   <td>Enter or map the name of the column you want to retrieve.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Update a column
+
+This action module updates the name or WIP limit of the specified column.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>You can use an existing Workfront connection to connect to Workfront Boards, or you can use a specific Workfront Boards connection. </p><p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Create a connection to Workfront Boards</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Board ID]</td> 
+   <td>Enter or map the ID of the board that contains the column you want to retrieve.<p>You can find the board ID in the URL when viewing the board in Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Column Name]</td> 
+   <td>Enter or map the name of the column you want to retrieve.</td> 
   </tr> 
  </tbody> 
 </table>

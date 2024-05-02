@@ -49,9 +49,11 @@ For users looking to create or manage document approvals, see the articles liste
 
 For users looking to review or approve documents for which they have received a request, see the articles listed in [Review documents: article index](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
 
-The New Document Approvals are not supported in the current reporting tool. The All Approvals widget availble in new Home and Canvas Dashboards provides the following details about New Document Approvals:
-
-* Approvals by decision
-* Average approval time
-* Pending approvals
-* Overdue approvals
+>[!IMPORTANT]
+>
+>The New Document Approvals are not supported in the current reporting tool. The All Approvals widget available in new Home and Canvas Dashboards provides the following details about New Document Approvals:
+>
+>* Approvals by decision
+>* Average approval time
+>* Pending approvals
+>* Overdue approvals

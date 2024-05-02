@@ -257,6 +257,7 @@ Users with this built-in access level:
 
 * Can make requests and update those requests
 * Can upload and approve documents
+* Can approve projects, tasks, and issues
 * Can review the status of issues they have submitted
 * Can be assigned to work items but can't complete them
 * Can access requests only from the Main Menu. For more information about request queues, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).

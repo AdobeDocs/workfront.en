@@ -17,6 +17,7 @@ feature-set: Workfront
       * [2024 Q3 Release Overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
       * [2024 Q3 Administrator Enhancements](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md)
       * [2024 Q3 Project enhancements](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md)
+      * [Other enhancements during the 2024 Q3 release timeframe](product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md)
       * [Look-and-feel updates during the 2024 Q3 release timeframe](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md)
     * 2024 Q2 Release {#release-24-q2}
       * [2024 Q2 Release Overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
@@ -1149,6 +1150,7 @@ feature-set: Workfront
       * [Create a folder linked with Experience Manager Assets or Assets Essentials](documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
       * [Unlink or delete assets and folders from Experience Manager Assets or Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
       * [Use workflows in the Experience Manager Assets Essentials integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
+      * [Use Workfront Fusion to convert a Workfront issue to a project that includes Adobe Experience Manager workflows](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
       * [Troubleshoot the Adobe Experience Manager Integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md) 
   * Migrate from the legacy or enhanced connectors {#migrate-from-legacy-enhanced-connectors}
     * [Migrate from the legacy or enhanced connectors](documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-from-legacy-enhanced-connectors.md)
@@ -1737,9 +1739,9 @@ feature-set: Workfront
   * Workfront data lake {#data-lake}
     * [Workfront data lake overview](reports-and-dashboards/data-lake/data-lake-overview.md)
     * [Create a reader account](reports-and-dashboards/data-lake/create-a-reader-account.md)
+    * [Establish a connection to Workfront data lake](reports-and-dashboards/data-lake/share-data-externally.md)
     * [Workfront data lake data dictionary](reports-and-dashboards/data-lake/data-dictionary.md)
     * [Basic Workfront data lake query examples](reports-and-dashboards/data-lake/basic-query-examples.md)
-    * [Share data lake data with business intelligence tools and external data warehouses](reports-and-dashboards/data-lake/share-data-externally.md)
 * Manage resources {#manage-resources}
   * [Manage resources](resource-mgmt/manage-resources.md)
   * Resource Management {#resource-management}
@@ -2077,7 +2079,8 @@ feature-set: Workfront
     * [Share records](maestro/records/share-records.md)
     * [Manage record comments](maestro/records/manage-record-comments.md)
     * [History section overview](maestro/records/history-section-overview.md)
-    * [Add thumbnails to records](maestro/records/add-thumbnails-to-records.md)
+    * [Add a thumbnail to a record](maestro/records/add-thumbnails-to-records.md)
+    * [Add a cover image to a record](maestro/records/add-a-cover-image-to-a-record.md)
     * [Manage the record page](maestro/records/manage-the-record-page.md)
   * Adobe Maestro views {#adobe-maestro-views}
     * [Views: article index](maestro/views/views-information.md)

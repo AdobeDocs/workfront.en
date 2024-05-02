@@ -14,7 +14,7 @@ You can optionally add an intake column to your board that automatically pulls i
 
 Only one intake column is permitted on a board, and it always appears as the left-most column.
 
-The intake column is not available on a dynamic board.
+The intake column is not available on a dynamic board. However, you can update the filters that define which cards are brought onto a dynamic board. When you change these filters on a dynamic board, card settings that are not part of the Workfront task or issue (such as tags) are reset.
 
 The intake column is limited to 300 tasks and 300 issues. The default ordering of items in the intake column is as follows:
 
@@ -27,6 +27,10 @@ Issues:
 
 * Primary order: Project name
 * Secondary order: Reference number
+
+>[!IMPORTANT]
+>
+>It is recommended to refresh the board frequently if multiple users are working on the board at the same time. Refreshing the page helps to keep the visual changes on the board up to date and prevents issues such as duplicate cards being moved onto the board from the intake column.
 
 For more information on columns, see [Manage board columns](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md). For information on connected cards, see [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
@@ -152,3 +156,4 @@ The icons on the top right of the intake column show you how many cards are curr
    Click the **[!UICONTROL More]** menu ![More menu icon](assets/more-icon-spectrum.png) on the card, and select **[!UICONTROL Move]**. Then, on the **[!UICONTROL Move Item]** box, choose another column and select **[!UICONTROL Move]**.
 
 1. (Optional) To delete the intake column, click the **[!UICONTROL More]** menu ![More menu icon](assets/more-icon-spectrum.png) and select **[!UICONTROL Delete]**.
+
