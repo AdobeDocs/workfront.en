@@ -177,6 +177,6 @@ Use the native integration to send approved assets to Adobe Experience Manager A
 
 ## Example campaign asset approval workflow
 
-<!-- do we still want something like this?>
+<!-- do we still want something like this?-->
 
 ![](assets/example-workflow.png) - probably need a different version of this or even a video walkthrough
