@@ -90,6 +90,8 @@ You must have the following access to perform the steps in this article:
     * The record's page
     * Inline, in a table view. 
 
+<!--* When a user edits a record in a view, the changes are visible immediately in all views and the record pages to all other users. -->
+
 * The following types of fields are automatically updated, and you cannot edit their values manually: 
     * Linked fields from other records
     * Formula-type fields

@@ -14,6 +14,8 @@ exl-id: 4c88933e-d3da-447e-ab6c-be9261a94a19
 
 When an auto-provisioned user tries to log in for the first time, they receive the following error:
 
+`Expect one user but found 0. ${subdomain} ${lane} ${email}`
+
 ## Problem
 
 The system is not assigning the new user an access level.
@@ -55,3 +57,5 @@ Create a basic access level with a Request license:
 1. Click **[!UICONTROL Save Changes]**.
 
 After you create an access level with a Request license, have the user log in with their SSO credentials.
+
+

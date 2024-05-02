@@ -40,7 +40,7 @@ In order connect your Workfront data lake data with an external product, you mus
 
 1. Click on the **Allowed IPs** tab, then click on the **Add an IP Address to your Allowlist** button.
 
-1. Enter a name for the IP address in **IP Address description** and enter the IP address for the tool you would like to use in **IP Address**, then click **Add IP to Allowlist**.
+1. Enter a name for the IP address in **IP Address description** and enter the IP address (or CIDR block) for the tool you would like to use in **IP Address**, then click **Add IP to Allowlist**.
 
     ![Add IP address](/help/quicksilver/reports-and-dashboards/data-lake/assets/add-IP-allowlist.png) {width="500"}
 
