@@ -37,15 +37,17 @@ Workfront administrators initiate the Workfront and Frame.io integration by addi
 
 Workfront users who regularly use Frame.io should be marked as Frame.io users. Workfront administrators can designate Frame.io users in the Workfront User Profile.
 
+>[!TIP]
+>
+>We recommend enabling users who regularly work in creative tools and upload assets for review and approval as Frame.io users.
+
 When a user is marked as a Frame.io user in Workfront and is added to a project,
 
 * They are added as a Collaborator in Frame.io
 * They can send assets from Frame.io to Workfront for formal review and approval
 * They can view information in the one-way sync folder from Workfront
 
->[!TIP]
->
->We recommend enabling users who regularly work in creative tools and upload assets for review and approval as Frame.io users.
+
 
 For more information, see [].
 
@@ -109,15 +111,16 @@ Reviewers and approvers can be added to a single-use approval workflow or a reus
     Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.
 ![](assets/assign-template.png)
 
-    For more information, see [Create and manage Approval Templates] add link.
+    For more information, see [Create and manage Approval Templates] 
+<!--add link.-->
 
-* Upload an asset from Workfront and send it to frame for review and approval - Need more info on this workflow
+* Upload an asset from Workfront and send it to frame for review and approval <!-- delayed? -Need more info on this workflow -->
 
 ### Approve assets in Frame.io
 
 Stakeholders can review and approve connected assets with the Frame.io viewer. 
 
-![](assets/frame-viewer-and-decision.png)
+For more information on reviewing assets in Frame.io, see <!-- get link from frame team?-->
 
 #### Access the Frame.io viewer
 
@@ -131,6 +134,7 @@ Users can access the Frame.io viewer in the following ways:
 >[!NOTE]
 >
 >External Workfront users are notified via email and will be asked to create a Frame.io login to review and approve assets. 
+<!-- is this right?-->
 
 
 #### Add comments and mark up assets
@@ -143,11 +147,11 @@ Once all review activity is complete, approvers must make one of the following d
 
 * Approve: The asset does not need changes and is ready for use.
 * Approve with changes: The asset needs changes and is ready for use once they are made. Additional approval is not required. 
-* Needs work: The asset needs changes and is not ready for use. Once the specified changes are made, the asset must be uploaded as a new version and go through another round of approvals. - is the same approval workflow automatically applied? Does the coordinator have to do anything to get the approval going?
+* Needs work: The asset needs changes and is not ready for use. Once the specified changes are made, the asset must be uploaded as a new version and go through another round of approvals. <!--is the same approval workflow automatically applied? Does the coordinator have to do anything to get the approval going? -->
 
-Reviewers can mark their review complete inside of the Frame.io viewer, but this is not required for the asset to move forward in the approval process. - check if this is accurate
+Reviewers can mark their review complete inside of the Frame.io viewer, but this is not required for the asset to move forward in the approval process. <!--check if this is accurate -->
 
-<!-- include screenshot from frame.io-->
+![](assets/frame-viewer-and-decision.png)
 
 
 <!-- upload assets directly to workfront to be reviewed in Frame.io/ Will have to send manually at first
@@ -161,16 +165,18 @@ Reviewer/approver needs to go through email to get to frame vier
 Project coordinators can monitor progress on all in-flight approvals in the Workfront Home area with the following widget:
 
 * **All approvals**: Displays 2 charts with information about average approval time and decisions as well as list views of pending and overdue approvals.
+    ![](assets/all-approvals.png)
 
-* Approval velocity report ?
 
+### Send approved assets to Adobe Experience Manager Assets 
 
-### Send approved assets to Adobe Experience Manager Assets
-
+<!-- deprioritized?-->
 Use the native integration to send approved assets to Adobe Experience Manager Assets.
 
 ^ need more info
 
 ## Example campaign asset approval workflow
+
+<!-- do we still want something like this?>
 
 ![](assets/example-workflow.png) - probably need a different version of this or even a video walkthrough
