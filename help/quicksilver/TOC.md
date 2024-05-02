@@ -1506,29 +1506,20 @@ feature-set: Workfront
     * [Username Already in Use](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * Reporting {#reporting}
   * [Reports and Dashboards: article index](reports-and-dashboards/reports-and-dashboards-overview.md)
-  * Reporting Canvas {#reporting-canvas}
-    * [Reporting Canvas](reports-and-dashboards/reporting-canvas/reporting-canvas.md)
-    * Manage reports {#manage-reports}
-      * [Manage Reports overview](reports-and-dashboards/reporting-canvas/manage-reports/manage-reports.md)
-      * [Build a report in Reporting Canvas](reports-and-dashboards/reporting-canvas/manage-reports/build-report.md)
-      * [Export a report in Reporting Canvas](reports-and-dashboards/reporting-canvas/manage-reports/export-report.md)
-    * Table Blocks {#table-blocks}
-      * [Table Blocks](reports-and-dashboards/reporting-canvas/table-blocks/table-blocks.md)
-      * [Add or edit a table block in Reporting Canvas](reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
-      * [Configure a table column in Reporting Canvas](reports-and-dashboards/reporting-canvas/table-blocks/modify-columns-table.md)
-      * [Build a formula field in Reporting Canvas](reports-and-dashboards/reporting-canvas/table-blocks/create-formula-field.md)
-      * [Group table rows in Reporting Canvas](reports-and-dashboards/reporting-canvas/table-blocks/group-rows-in-table.md)
-      * [Filter a table in Reporting Canvas](reports-and-dashboards/reporting-canvas/table-blocks/configure-filter-rules-for-table.md)
-    * Visualization Blocks {#visualization-blocks}
-      * [Visualization Blocks](reports-and-dashboards/reporting-canvas/visualization-blocks/visualization-blocks.md)
-      * [Add or edit a visualization block in Reporting Canvas](reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md)
-      * [Configure a bar visualization in the Reporting Canvas](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md)
-      * [Configure a column visualization in Reporting Canvas](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md)
-      * [Configure pie visualization in Reporting Canvas](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md)
-      * [Configure a KPI visualization in Reporting Canvas](reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md)
-    * Other Blocks {#other-blocks}
-      * [Other Blocks](reports-and-dashboards/reporting-canvas/other-blocks/other-blocks.md)
-      * [Add or edit a web content block in Reporting Canvas](reports-and-dashboards/reporting-canvas/other-blocks/add-or-edt-web-content-block.md)
+  * Canvas Dashboards {#canvas-dashboards}
+    * [Canvas Dashboards](reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)
+    * Manage Canvas Dashboards {#manage-canvas-dashboards}
+      * [Manage Canvas Dashboards](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
+      * [Get started with Canvas Dashboards](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
+      * [Add, remove, or arrange reports in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
+      * [Share a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
+    * Canvas Dashboard report types {#report-types}
+      * [Canvas Dashboard report types overview](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
+      * [Add an existing report to a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
+      * [Build a KPI report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
+      * [Build a chart report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
+      * [Build a table report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
+      * [Add a pending approvals report to a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
   * Reports {#reports}
     * [Reports](reports-and-dashboards/reports/reports-overview.md)
     * Reporting basics {#report-basics}
