@@ -84,7 +84,7 @@ For instructions on uploading the [!DNL Adobe Workfront Fusion] public certifica
 
 You can use the following links to download the Workfront Fusion public certificates:
 
-### Certificates for May 25, 2023 - June 9, 2024
+### Certificates for April 23, 2023-May 7, 2024
 
 >[!IMPORTANT]
 >
