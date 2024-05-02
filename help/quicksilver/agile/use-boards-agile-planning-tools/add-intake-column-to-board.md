@@ -14,7 +14,7 @@ You can optionally add an intake column to your board that automatically pulls i
 
 Only one intake column is permitted on a board, and it always appears as the left-most column.
 
-The intake column is not available on a dynamic board.
+The intake column is not available on a dynamic board. However, you can update the filters that define which cards are brought onto a dynamic board. When you change these filters on a dynamic board, card settings that are not part of the Workfront task or issue (such as tags) are reset.
 
 The intake column is limited to 300 tasks and 300 issues. The default ordering of items in the intake column is as follows:
 
@@ -156,3 +156,4 @@ The icons on the top right of the intake column show you how many cards are curr
    Click the **[!UICONTROL More]** menu ![More menu icon](assets/more-icon-spectrum.png) on the card, and select **[!UICONTROL Move]**. Then, on the **[!UICONTROL Move Item]** box, choose another column and select **[!UICONTROL Move]**.
 
 1. (Optional) To delete the intake column, click the **[!UICONTROL More]** menu ![More menu icon](assets/more-icon-spectrum.png) and select **[!UICONTROL Delete]**.
+
