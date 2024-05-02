@@ -72,7 +72,7 @@ For information about new features and when they are released, see [Adobe Workfr
 |     Connect Workfront Planning records to Workfront projects, programs, portfolios, companies, groups  |   ✓                            |                                 |                  |
 |     Connect Workfront Planning records to Adobe Experience Manager assets                                  |      ✓                         |                                  |                 | 
 |     Record page with detailed information                            |   ✓                           |                                  |                  |
-|     Update the layout of the record's page              |                               |   ✓                              |                  |
+|     Update the layout of the record's page              |    ✓                           |                                 |                  |
 |  Share workspaces | ✓| |  |
 |  Share views |✓ | |  |
 |  Duplicate views |✓ | |  |
