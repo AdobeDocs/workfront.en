@@ -22,11 +22,16 @@ The Workfront administrator enables the integration between Workfront and Frame.
 
 ### Configure the default Frame.io account [!BADGE Coming soon]{type=Informative}
 
+>[!IMPORTANT]
+>
+>This feature is coming soon. For now, Frame.io accounts are added manually by the Workfront team. Contact your Adobe account representative. 
+
+
 Workfront administrators initiate the Workfront and Frame.io integration by adding a default Frame.io account in the Setup area of Workfront. Once the default Frame.io account is set up, any projects created in Workfront have a mirror project created in Frame.io.
 
-For more information, see [].
+<!--For more information, see [].
 
-<!-- in procedure article we need to cover how groups work with projects and how the frame account is associated with a group. And that accounts other than the default can be added on a 1:1 basis using the dev token. -->
+ in procedure article we need to cover how groups work with projects and how the frame account is associated with a group. And that accounts other than the default can be added on a 1:1 basis using the dev token. -->
 
 ### Enable Frame.io users Available now
 
@@ -71,8 +76,7 @@ When a creative is added to a connected project, they can do the following in Fr
 * Conduct informal peer reviews
 * Send finished assets to Workfront for formal review and approval
 * Change the status of a task or mark it complete 
-* Upload new versions to resubmit them for approval
-<!-- * Notification of decision -->
+* Upload new versions and then resubmit them for approval <!--do they have to send to frame.io again?-->
 
 For more information about reviewing assets in Frame.io, see [].
 
@@ -82,11 +86,11 @@ Once a creative sends a finished asset to Workfront from Frame.io, the project c
 
 After the approval workflow is created, reviewers and approvers go back to Frame.io to add comments and mark up the asset. They can also make the approval decision in the Frame.io viewer.
 
-### Initiate formal reviews and approvals in Workfront [!BADGE Available now]{type=Positive}
+### Initiate formal reviews and approvals in Workfront
 
 Project coordinators can create one-time review and approvals or resuable approval templates. All review and approval activity in Frame.io is also recorded in Workfront.
 
-#### Add reviewers and approvers [!BADGE Available now]{type=Positive}
+#### Add reviewers and approvers
 
 Project coordinators have the option to assign reviewers, approvers, or a mix of both:
 
@@ -94,14 +98,13 @@ Project coordinators have the option to assign reviewers, approvers, or a mix of
 * **Approvers** can add comments and mark up assets. They must make a decision to move the approval process forward. 
 
 
-#### Create a review and approval workflow [!BADGE Available now]{type=Positive}
+#### Create a review and approval workflow
 
 Reviewers and approvers can be added to a single-use approval workflow or a reusable approval template:
 
 * **Single-use approvals**: In the project or task where the asset resides, the project coordinator can assign reviewers and approvers and set a completion deadline. Reviewers and approvers are reminded by email 72 and 24 hours before the deadline as well as on the deadline itself.
 
-* **Approval templates**:
-    In the Workfront Setup area, project coordinators can create resuable Approval Templates. Within a template, users can add reviewers and approvers and specify a completion timeframe. When the approval template is applied to an asset, the deadline is calculated from the specified timeframe.
+* **Approval templates**: In the Workfront Setup area, project coordinators can create resuable Approval Templates. Within a template, users can add reviewers and approvers and specify a completion timeframe. When the approval template is applied to an asset, the deadline is calculated from the specified timeframe.
 
     Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.
 ![](assets/assign-template.png)
@@ -110,27 +113,31 @@ Reviewers and approvers can be added to a single-use approval workflow or a reus
 
 * Upload an asset from Workfront and send it to frame for review and approval - Need more info on this workflow
 
-### Approve assets in Frame.io [!BADGE Available now]{type=Positive}
+### Approve assets in Frame.io
 
 Stakeholders can review and approve connected assets with the Frame.io viewer. 
 
-#### Access the Frame.io viewer [!BADGE Available now]{type=Positive}
+![](assets/frame-viewer-and-decision.png)
+
+#### Access the Frame.io viewer
 
 Users can access the Frame.io viewer in the following ways:
 
-* The Awaiting my approval widget in the new Workfront Home area
 * Workfront email notifications
+* The Awaiting my approval widget in the new Workfront Home area
+    ![](assets/awaiting-my-approval.png)
+
 
 >[!NOTE]
 >
->External Workfront users will be asked to create a Frame.io login to review and approve assets. 
+>External Workfront users are notified via email and will be asked to create a Frame.io login to review and approve assets. 
 
 
-#### Add comments and mark up assets [!BADGE Available now]{type=Positive}
+#### Add comments and mark up assets
 
 All comments made in the Frame.io viewer are also recorded in the Workfront Updates tab. Replies made in Workfront do not appear in Frame.io. If comments are marked "Team only" in the Frame.io viewer, they will not appear in the Workfront Updates tab.
 
-#### Make a decision [!BADGE Available now]{type=Positive}
+#### Make a decision
 
 Once all review activity is complete, approvers must make one of the following decisions:
 
