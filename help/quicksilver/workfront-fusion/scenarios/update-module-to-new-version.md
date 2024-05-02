@@ -17,7 +17,7 @@ If you see a green Upgrade module icon on a module in a scenario, Workfront Fusi
 
 You can update the module without creating a new scenario.
 
-1. Click the **Upgrade module** icon ![Upgrade icon](assets/upgrade%20icon.png) on the module you want to upgrade to a new version.
+1. Click the **Upgrade module** icon ![Upgrade icon](assets/upgrade-icon.png) on the module you want to upgrade to a new version.
 1. Click **Show me new modules**.
 1. Select the new module that matches the existing module.
 1. Configure the module with the same settings as the existing module.
