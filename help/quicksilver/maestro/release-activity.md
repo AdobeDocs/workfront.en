@@ -41,8 +41,19 @@ For more information, see [Manage record views](/help/quicksilver/maestro/views/
 
 -->
 
-<!--
 ## Week of April 29, 2029
+
+### Real-time updates on the record details box and page after editing records in the table view
+
+Production: May 2, 2024
+
+Preview: To be determined
+
+When a user updates the information on a record in the table view, other users can view the updated information in the record's details box (inside of a view) or page in real time. This ensures that all users view the updated information at the same time, in sync with when the changes happen.  
+
+For information about editing records, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
+
+<!--
 
 ### Add sections to the record's page 
 
@@ -71,16 +82,6 @@ If any user changes any field configuration (name, description, list of options 
 >There is no notification to other users that the field configuration has changed.  
 
 For more information, see [Edit fields](/help/quicksilver/maestro/fields/edit-fields.md).  
-
-### Real-time updates on the record details box and page after editing records in the table view
-
-Production: <date> 
-
-Preview: To be determined.  
-
-When a user updates the information on a record in the table view, other users can view the updated information in the record's details box (inside of a view) or page in real time. This ensures that all users view the updated information at the same time, in sync with when the changes happen.  
-
-For information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
 
 ### Enable Workfront Planning notifications  
 
@@ -138,7 +139,7 @@ Production: April 4, 2024
 
 Preview: To be determined 
 
-As a Workspace manager, you now can reorder the fields listed in the record page or box. Updating the order of the fields changes the order of fields on all records of the same type, for everyone viewing the record page or the record box.  
+As a Workspace manager, you now can reorder the fields listed in the record page or preview. Updating the order of the fields changes the order of fields on all records of the same type, for everyone viewing the record page or the record preview.  
 
 For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). 
 
@@ -149,7 +150,7 @@ Production: April 4, 2024
 
 Preview: To be determined 
 
-As you manage record pages, you can now add, reposition, and replace a cover image on a record page or box, to enrich the record's presentation and stakeholder engagement. Cover images are visible to all users viewing the records. 
+As you manage record pages, you can now add, reposition, and replace a cover image on a record page or preview, to enrich the record's presentation and stakeholder engagement. Cover images are visible to all users viewing the records. 
 
 For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md).  
 
@@ -213,15 +214,15 @@ Preview: To be determined
 
 You can now filter information in the calendar view. For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md).  
 
-### Box with record details added to the timeline and calendar views 
+### Preview with record details added to the timeline and calendar views 
 
 Production: March 19, 2024 
 
 Preview: To be determined 
 
-You can now access a box with record details from the timeline and calendar views. You can edit records in the record's box inside the timeline and calendar views. 
+You can now access the preview with record details from the timeline and calendar views. You can edit records in the record's preview box inside the timeline and calendar views. 
 
-From the record's box, you can open the record page in a new browser tab. 
+From the record's preview, you can open the record page in a new browser tab. 
 
 For more information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md).  
 
@@ -241,7 +242,7 @@ Production: March 14, 2024
 
 Preview: To be determined 
 
-To make it easier to view additional information about records when using the table view, we have introduced a new Details box that displays a quick view of the record's details. The following is some of the information included in this box: 
+To make it easier to view additional information about records when using the table view, we have introduced a new Details preview that displays a quick view of the record's details. The following is some of the information included in the record preview: 
 
 * Relevant record details at a glance 
 
