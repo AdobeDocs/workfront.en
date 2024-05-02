@@ -2174,6 +2174,7 @@ feature-set: Workfront
     * [View a scenario's execution history in Adobe Workfront Fusion](workfront-fusion/scenarios/view-scenario-execution-history.md)
     * [View and resolve incomplete executions in Adobe Workfront Fusion](workfront-fusion/scenarios/view-and-resolve-incomplete-executions.md)
     * [View and manage locked scenarios in [!DNL Adobe Workfront Fusion]](workfront-fusion/scenarios/view-and-manage-locked-scenarios.md) 
+    * [Update a module to a new verison in an [!DNL Adobe Workfront Fusion] scenario](workfront-fusion/scenarios/update-module-to-new-version.md) 
     * [Schedule a scenario in Adobe Workfront Fusion](workfront-fusion/scenarios/schedule-a-scenario.md)
     * [Activate or deactivate a scenario in Adobe Workfront Fusion](workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
     * [Add a filter to a scenario in Adobe Workfront Fusion](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
