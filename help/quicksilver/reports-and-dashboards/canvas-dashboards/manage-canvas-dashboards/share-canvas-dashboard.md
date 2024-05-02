@@ -5,6 +5,7 @@ title: Share a Canvas Dashboard
 description: You can share a Canvas Dashboard with other Adobe Workfront users so that they can view or edit it.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
 ---
 # Share a Canvas Dashboard
 

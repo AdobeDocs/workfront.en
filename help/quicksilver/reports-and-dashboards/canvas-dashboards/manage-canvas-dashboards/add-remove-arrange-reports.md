@@ -5,6 +5,7 @@ title: Add, remove, or arrange reports in a Canvas Dashboard
 description: Once you have created a Canvas Dashboard, you can add reports to it that will display your Adobe Workfront data in various formats. These reports can be moved and resized on the canvas as you see fit.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: 840f2e1f-592f-44c1-b2e9-7201e424209a
 ---
 # Add, remove, or arrange reports in a Canvas Dashboard
 

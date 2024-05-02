@@ -6,6 +6,7 @@ description: Manage Canvas Dashboards article index
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
+exl-id: 3e36ddc8-2552-4449-9c3a-3720e0af590b
 ---
 # Manage Canvas Dashboards: article index
 

@@ -6,6 +6,7 @@ description: There are a number of different reports you can add to a Canvas Das
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
+exl-id: d593a9d5-6351-48ff-891d-cc1b727188bc
 ---
 # Canvas Dashboard report types overview
 

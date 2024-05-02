@@ -5,6 +5,7 @@ title: Get started with Canvas Dashboards
 description: Basic instructions for using Canvas Dashboards, including how to navigate to your list of Canvas Dashboards as well as how to create and edit them.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: 43456634-f891-4262-93be-bdb9e7d58c77
 ---
 # Get started with canvas dashboards
 

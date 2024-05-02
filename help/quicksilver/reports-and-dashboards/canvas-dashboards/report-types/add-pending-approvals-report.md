@@ -5,6 +5,7 @@ title: Add a pending approvals report to a Canvas Dashboard
 description: A pending approvals report that includes data regarding your pending and past approval decisions can be added to a Canvas Dashboard.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: 8378524a-7139-4842-bd2c-037195e8ddd8
 ---
 # Add a pending approvals report to a Canvas Dashboard
 

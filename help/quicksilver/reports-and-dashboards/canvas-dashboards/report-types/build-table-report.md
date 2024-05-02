@@ -5,6 +5,7 @@ title: Build a table report in a Canvas Dashboard
 description: A table report that displays your data as a configurable table can be added to a Canvas Dashboard.
 author: Nolan
 feature: Reports and Dashboards
+exl-id: a7aa8614-6e80-4fc1-88ff-d952d87ddcbc
 ---
 # Build a table report in a Canvas Dashboard
 
