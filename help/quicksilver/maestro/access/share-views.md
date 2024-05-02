@@ -16,6 +16,8 @@ You can share a view with others to ensure collaboration when working with recor
 
 Granting permissions to a workspace does not give other users permissions to the views on the record type pages. You must grant permissions to individual views in a record type page to share them with other users. 
 
+When you share a view, you give others permissions to access all the elements of the view. For example, when you give them Manage permissions to a view, they can modify the grouping, filter, sort, or bar appearance. 
+
 <!--
 You can share a view with the following entities: 
 
