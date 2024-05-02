@@ -464,6 +464,16 @@ If your organization uses outbound network filtering, add the following domains 
 * mfe.static.workfront.com
 * https://app.pendo.io/
 * https://cdn.pendo.io/
+* *.static.workfront.com 
+
+  This is a static domain that excompasses all of the following domains. You may add the individual domains if you prefer:
+  
+   * mfe.static.workfront.com
+   * mfe-c.static.workfront.com
+   * mfe-preview-c.static.workfront.com
+   * mfe-preview.static.workfront.com
+   * mfe-review.static.workfront.com
+
 
 ## URLs to add for all clusters Workfront {#urls-to-add-for-all-clusters-workfront}
 

@@ -41,9 +41,85 @@ For more information, see [Manage record views](/help/quicksilver/maestro/views/
 
 -->
 
+## Week of April 29, 2029
+
+### Real-time updates on the record details box and page after editing records in the table view
+
+Production: May 2, 2024
+
+Preview: To be determined
+
+When a user updates the information on a record in the table view, other users can view the updated information in the record's details box (inside of a view) or page in real time. This ensures that all users view the updated information at the same time, in sync with when the changes happen.  
+
+For information about editing records, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
+
+<!--
+
+### Add sections to the record's page 
+
+Production: <date> 
+
+Preview: To be determined 
+
+To better organize information on the record's page for more efficient readability and navigation we have introduced sections to the record's page. The section titles serve as headers that organize the content into distinct categories. The sections can be expanded or collapsed, if needed.  
+
+For information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). 
+
+### Real-time updates for field configuration changes 
+
+Production: <date> 
+
+Preview: To be determined 
+
+If any user changes any field configuration (name, description, list of options etc) in a record type, other users view those changes in real-time. This ensures that everyone views the correct fields and their information at the same time.  
+
+>[!WARNING]
+>
+>When formula expressions change, or options are added or removed from a select-type field, there will be loss of data for the records that already have information stored in the fields whose configuration is modified. 
+>
+>There is no warning or indication that this data loss could happen when you change the configuration of fields. 
+>
+>There is no notification to other users that the field configuration has changed.  
+
+For more information, see [Edit fields](/help/quicksilver/maestro/fields/edit-fields.md).  
+
+### Enable Workfront Planning notifications  
+
+Production: <date>  
+
+Preview: TBD  
+
+Now, when someone adds you to a comment in the record page, you receive an in-app as well as an email notification about the comment. The following scenario exists:   
+
+* Adobe Unified Experience customers receive both an in-app notification and an email notification. They can manage their notification preferences in the Preferences area of their Adobe Experience Cloud profile. For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).   
+
+* Customers who are not using the Adobe Unified Experience receive only an email notification. They cannot manage their email notifications preferences and will always receive an email when someone adds them to a comment on a record in Workfront Planning.
+
+For information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/maestro/notifications/notifications-information.md). 
+
+-->
+
+## Week of April 22, 2024
+
+### Updated workflow when editing a workspace or a record type
+
+Production: April 23, 2024
+
+Preview: To be determined 
+
+We have updated the look-and-feel of the Edit workspace and Edit record type boxes.  
+
+When you edit a workspace or a record type, you can now define a name, description, as well as assign a color and an icon to them.  
+
+For more information, see the following articles: 
+
+* [Edit workspaces](/help/quicksilver/maestro/architecture/edit-workspaces.md) 
+
+* [Edit record types](/help/quicksilver/maestro/architecture/edit-record-types.md).
+
 ## Week of April 8, 2024
 
-### Copy the content of one cell and paste it into multiple selected cell
+### Copy the content of one cell and paste it into multiple selected cells
 
 Production: April 10, 2024
 
@@ -63,7 +139,7 @@ Production: April 4, 2024
 
 Preview: To be determined 
 
-As a Workspace manager, you now can reorder the fields listed in the record page or box. Updating the order of the fields changes the order of fields on all records of the same type, for everyone viewing the record page or the record box.  
+As a Workspace manager, you now can reorder the fields listed in the record page or preview. Updating the order of the fields changes the order of fields on all records of the same type, for everyone viewing the record page or the record preview.  
 
 For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). 
 
@@ -74,7 +150,7 @@ Production: April 4, 2024
 
 Preview: To be determined 
 
-As you manage record pages, you can now add, reposition, and replace a cover image on a record page or box, to enrich the record's presentation and stakeholder engagement. Cover images are visible to all users viewing the records. 
+As you manage record pages, you can now add, reposition, and replace a cover image on a record page or preview, to enrich the record's presentation and stakeholder engagement. Cover images are visible to all users viewing the records. 
 
 For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md).  
 
@@ -138,15 +214,15 @@ Preview: To be determined
 
 You can now filter information in the calendar view. For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md).  
 
-### Box with record details added to the timeline and calendar views 
+### Preview with record details added to the timeline and calendar views 
 
 Production: March 19, 2024 
 
 Preview: To be determined 
 
-You can now access a box with record details from the timeline and calendar views. You can edit records in the record's box inside the timeline and calendar views. 
+You can now access the preview with record details from the timeline and calendar views. You can edit records in the record's preview box inside the timeline and calendar views. 
 
-From the record's box, you can open the record page in a new browser tab. 
+From the record's preview, you can open the record page in a new browser tab. 
 
 For more information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md).  
 
@@ -166,7 +242,7 @@ Production: March 14, 2024
 
 Preview: To be determined 
 
-To make it easier to view additional information about records when using the table view, we have introduced a new Details box that displays a quick view of the record's details. The following is some of the information included in this box: 
+To make it easier to view additional information about records when using the table view, we have introduced a new Details preview that displays a quick view of the record's details. The following is some of the information included in the record preview: 
 
 * Relevant record details at a glance 
 
@@ -368,7 +444,7 @@ Preview: To be determined
 
 You can now add individual thumbnails to each record to distinguish them in a view. In the table view, you can add image files that you have previously saved on your computer as thumbnails. The thumbnails can be unique to each record and display in both the table and the timeline views of the record type page. 
 
-For more information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).  
+For more information, see [Add a thumbnail to a record](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).  
 
 ### Remove connected record type cards
 

@@ -36,19 +36,22 @@ You must have the following access to perform the actions described in this arti
 <col>
 </col>
 <tbody>
+ <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> 
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li>
+  Or
+  <li>An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. </li></ul> </p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
+   </td> 
+  </tr>
  <tr>
- <td role="rowheader">Adobe Workfront plan</td>
+ <td role="rowheader">Adobe Workfront license</td>
  <td>
- <p>Any</p>
- 
- </td>
- </tr>
- <tr>
- <td role="rowheader">Adobe Workfront license*</td>
- <td>
- <p>New license: Contributor or higher</p>
- Or
- <p>Current license: Request or higher</p> </td>
+ <p>Any</td>
  </tr>
  <tr>
  <td role="rowheader">Product*</td>
@@ -59,7 +62,7 @@ You must have the following access to perform the actions described in this arti
  </tr>
  <tr>
  <td role="rowheader">Access level configuration</td>
- <td> <p>View or higher access to Goals</p> <p><b>NOTE</b><p>If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For more information, see <span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span></td>
+ <td> <p>View or higher access to Goals</p> </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">Object permissions</td>
@@ -70,10 +73,15 @@ You must have the following access to perform the actions described in this arti
  <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
   </div> </td>
  </tr>
+ <tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
+</td>
+  </tr>
 </tbody>
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 ## Prerequisites
 
