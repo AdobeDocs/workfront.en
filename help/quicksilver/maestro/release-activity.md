@@ -41,8 +41,19 @@ For more information, see [Manage record views](/help/quicksilver/maestro/views/
 
 -->
 
-<!--
 ## Week of April 29, 2029
+
+### Real-time updates on the record details box and page after editing records in the table view
+
+Production: May 2, 2024
+
+Preview: To be determined
+
+When a user updates the information on a record in the table view, other users can view the updated information in the record's details box (inside of a view) or page in real time. This ensures that all users view the updated information at the same time, in sync with when the changes happen.  
+
+For information about editing records, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
+
+<!--
 
 ### Add sections to the record's page 
 
@@ -71,16 +82,6 @@ If any user changes any field configuration (name, description, list of options 
 >There is no notification to other users that the field configuration has changed.  
 
 For more information, see [Edit fields](/help/quicksilver/maestro/fields/edit-fields.md).  
-
-### Real-time updates on the record details box and page after editing records in the table view
-
-Production: <date> 
-
-Preview: To be determined.  
-
-When a user updates the information on a record in the table view, other users can view the updated information in the record's details box (inside of a view) or page in real time. This ensures that all users view the updated information at the same time, in sync with when the changes happen.  
-
-For information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
 
 ### Enable Workfront Planning notifications  
 
