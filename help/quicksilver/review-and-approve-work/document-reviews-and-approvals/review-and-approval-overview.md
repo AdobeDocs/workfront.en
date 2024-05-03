@@ -1,7 +1,7 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Get started with Asset review and approval
+title: Get started with Asset review and approval with Frame.io
 description: Learn more about the formal review and approval process in using Workfront and Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
@@ -10,7 +10,7 @@ hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
 ---
-# Get started with Asset review and approval
+# Get started with Asset review and approval with Frame.io
 
 The new asset review and approval workflow is built around a tight integration between Workfront and Frame.io. This integration takes the best of what each product has to offer and combines them to create an experience that allows everyone involved in content creation to work in their tools of choice, while having access to comments, files, and status updates--all synchronized across both systems in real time.
 
@@ -61,9 +61,7 @@ Once the default Frame.io account is added and Frame.io users are designated, pr
 * **Share creative materials with Frame.io**: Project coordinators can send instructions and materials from Workfront directly to the creative user in Frame.io using a one-way sync project folder. [!BADGE Coming soon]{type=Informative}
 * **Track task progress**: Creatives can send finished assets and mark tasks complete--all without leaving Frame.io.
 
-For more information, see [].
-
-<!--Preassign approval templates to tasks coming in the future-->
+For more information, see [Create a project connected with Frame.io](/help/quicksilver/manage-work/projects/create-projects/create-frame-connected-project.md).
 
 
 ## Content creation and collaboration in Frame.io
@@ -78,7 +76,7 @@ When a creative is added to a connected project, they can do the following in Fr
 * Change the status of a task or mark it complete 
 * Upload new versions and then resubmit them for approval <!--do they have to send to frame.io again?-->
 
-For more information about reviewing assets in Frame.io, see [].
+For more information about reviewing assets in Frame.io, see [].<!-- will ask FIO team if they are creating a specific article for this -->
 
 ## Review and approve assets
 
@@ -90,11 +88,9 @@ After the approval workflow is created, reviewers and approvers go back to Frame
 
 Project coordinators can create one-time review and approvals or resuable approval templates. All review and approval activity in Frame.io is also recorded in Workfront.
 
-#### Add reviewers and approvers
-
 Project coordinators have the option to assign reviewers, approvers, or a mix of both:
 
-* **Reviewers** can add comments and mark up assets. Once finished, they can mark their review as complete. Marking the review as complete is not required for the asset to move forward in the approval process.<!--example of when to add reviewers-->
+* **Reviewers** can add comments and mark up assets. Once finished, they can mark their review as complete. Marking the review as complete is not required for the asset to move forward in the approval process.
 * **Approvers** can add comments and mark up assets. They must make a decision to move the approval process forward. 
 
 
@@ -104,21 +100,20 @@ Reviewers and approvers can be added to a single-use approval workflow or a reus
 
 * **Single-use approvals**: In the project or task where the asset resides, the project coordinator can assign reviewers and approvers and set a completion deadline. Reviewers and approvers are reminded by email 72 and 24 hours before the deadline as well as on the deadline itself.
 
-* **Approval templates**: In the Workfront Setup area, project coordinators can create resuable Approval Templates. Within a template, users can add reviewers and approvers and specify a completion timeframe. When the approval template is applied to an asset, the deadline is calculated from the specified timeframe.
+    For more information, see [Create a document review or approval request](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!--I think this needs to be renamed? -->
+
+* **Approval templates**: In the Workfront Setup area, project coordinators can create resuable Approval Templates. Within a template, users can add reviewers and approvers and specify a completion timeframe. When the approval template is applied to an asset, the deadline is calculated from the specified timeframe. 
 
     Once a template is created, it can be applied to assets sent from Frame.io to begin the formal review and approval process in Workfront.
+
+    For more information, see [Create an Approval Template](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
+
+
+    
 ![](assets/assign-template.png)
 
-    For more information, see [Create and manage Approval Templates] 
-<!--add link.-->
 
-* Upload an asset from Workfront and send it to frame for review and approval <!-- delayed? -Need more info on this workflow -->
-
-### Approve assets in Frame.io
-
-Stakeholders can review and approve connected assets with the Frame.io viewer. 
-
-For more information on reviewing assets in Frame.io, see <!-- get link from frame team?-->
+* Upload an asset from Workfront, and send it to Frame.io for review and approval <!-- delayed? -Need more info on this workflow. Also they connected it and send it for formal review and approval you'll have to attach the approval process? -->
 
 #### Access the Frame.io viewer
 
@@ -128,12 +123,10 @@ Users can access the Frame.io viewer in the following ways:
 * The Awaiting my approval widget in the new Workfront Home area
     ![](assets/awaiting-my-approval.png)
 
-
 >[!NOTE]
 >
 >External Workfront users are notified via email and will be asked to create a Frame.io login to review and approve assets. 
 <!-- is this right?-->
-
 
 #### Add comments and mark up assets
 
@@ -149,6 +142,8 @@ Once all review activity is complete, approvers must make one of the following d
 
 Reviewers can mark their review complete inside of the Frame.io viewer, but this is not required for the asset to move forward in the approval process. <!--check if this is accurate -->
 
+For more information about making a decision, see []. <!--will this be a frame doc or workfront? -->
+
 ![](assets/frame-viewer-and-decision.png)
 
 
@@ -156,7 +151,6 @@ Reviewers can mark their review complete inside of the Frame.io viewer, but this
 
 Reviewer/approver needs to go through email to get to frame vier
 -->
-
 
 ### Track review and approval metrics
 
