@@ -24,9 +24,9 @@ Once a default [!DNL Frame.io] account is set up, any projects created in [!DNL 
 
 ## Configure a single Frame.io account with a Workfront group
 
-You can connect a Workfront group with a Frame.io account that is different from the default account. You can do this on a 1:1 basis.
+You can connect a single Workfront group with a single Frame.io account that is different from the default account.
 
-To configure a single Frame.kio account with a Workfront group:
+To configure a single Frame.io account with a Workfront group:
 
 {{step-1-to-setup}}
 
@@ -42,26 +42,25 @@ To configure a single Frame.kio account with a Workfront group:
 
 Workfront users who regularly use Frame.io should be marked as Frame.io users. Workfront administrators can designate Frame.io users in the Workfront User Profile.
 
-maybe need to be more explicit here saying they get a collaborator license in frame?
-
 >[!TIP]
 >
 >We recommend enabling users who regularly work in creative tools and upload assets for review and approval as Frame.io users.
 
 When a user is marked as a Frame.io user in Workfront and is added to a project,
 
-* They are added as a Collaborator in Frame.io
+* They are added as a Collaborator in Frame.io <!--do we need to be more explicit about a frame license being provisioned for them?>
 * They can send assets from Frame.io to Workfront for formal review and approval
 * They can view information in the one-way sync folder from Workfront
 
 To enable Frame.io users:
 
+{{step-1-to-users}}
 
+1. Select one or more users, then click the **Edit** icon ![](assets/edit-icon.png). 
+1. In the Access section, enable the Add to projects in Frame.io checkbox, then select Yes in the drop-down menu. 
+    ![](assets/add-to-frame-project.png)
 
-1. go to the user profile
-1. 
+    >[!NOTE]
+    >
+    >If this box is unchecked, the user retains access to past assignments and are not assigned moving forward. If the user is deactivated, they lose all access to previous assignments and are removed from the Frame.io account.
 
-If this box is unchecked, they retain past assignments and are not assigned moving forward. If deactivated, they lose all access.
-
-
-![](assets/Frame-enabled-user.png)
