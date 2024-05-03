@@ -45,7 +45,7 @@ When a user is marked as a Frame.io user in Workfront and is added to a project,
 
 * They are added as a Collaborator in Frame.io
 * They can send assets from Frame.io to Workfront for formal review and approval
-* They can view information in the one-way sync folder from Workfront
+* They can view information in the one-way sync folder from Workfront [!BADGE Coming soon]{type=Informative}
 
 For more information, see [Configure the [!DNL Workfront] and [!DNL Frame.io] integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
