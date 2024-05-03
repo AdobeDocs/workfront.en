@@ -53,6 +53,14 @@ When a user updates the information on a record in the table view, other users c
 
 For information about editing records, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
 
+### Real-time updates in the calendar view after editing records
+
+Production: May 3, 2024
+
+Preview: To be determined.  
+
+When a user updates the information on a record, other users can view the updated information in the record's calendar view in real time. This ensures that all users view the updated information at the same time, in sync with when the changes happen. 
+
 <!--
 
 ### Add sections to the record's page 
