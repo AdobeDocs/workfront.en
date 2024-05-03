@@ -14,11 +14,13 @@ role: Admin
 
 The Workfront administrator enables the integration between Workfront and Frame.io by configuring the default Frame.io account in the Setup area and then designating Frame.io users in Workfront. This allows the project coordinator to plan and initiate work using Workfront Projects and formal review and approval workflows. 
 
-## Configure a default [!DNL Frame.io] account
+## Configure a default [!DNL Frame.io] account [!BADGE Coming soon]{type=Informative}
 
 Once a default [!DNL Frame.io] account is set up, any projects created in [!DNL Workfront] have a mirror project created in Frame.io.
 
-<!-- in procedure article we need to cover how groups work with projects and how the frame account is associated with a group. And that accounts other than the default can be added on a 1:1 basis using the dev token. -->
+>[!IMPORTANT]
+>
+>This feature is coming soon. For now, Frame.io accounts are added manually by the Workfront team. Contact your Adobe account representative. 
 
 ## Configure a single Frame.io account with a Workfront group
 
@@ -26,8 +28,15 @@ You can connect a Workfront group with a Frame.io account that is different from
 
 To configure a single Frame.kio account with a Workfront group:
 
-1. go to groups
-1. get dev token
+{{step-1-to-setup}}
+
+1. In the left panel, click **Groups**.
+1. Choose an existing group, or click **Create group**. 
+1. In the left panel, click **Connect to Frame.io**. 
+![](assets/connect-frame-group.png)
+1. Enter the API developer token.
+1. Click **Initiate Connection**.
+1. (Conditional) If you are the administrator of more than one Frame.io account, select the account you want to use. <!--is this accurate-->
 
 ## Enable Frame.io users
 
@@ -45,9 +54,9 @@ When a user is marked as a Frame.io user in Workfront and is added to a project,
 * They can send assets from Frame.io to Workfront for formal review and approval
 * They can view information in the one-way sync folder from Workfront
 
-
-
 To enable Frame.io users:
+
+
 
 1. go to the user profile
 1. 
