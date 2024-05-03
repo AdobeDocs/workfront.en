@@ -70,15 +70,17 @@ For more information about the prerequisites above, see [Configure the [!DNL Wor
 
 When you have a default Frame.io account set up in the Workfront setup area, any project created in Workfront has a mirror project in Frame.io.
 
-If most of your projects have similar tasks and requirements, we recommend creating a project template, so you can do the setup once and then easily create a project time after time. For more information, see [Create a new project template](#create-a-new-project-template) below.
+>[!TIP]
+>
+>If most of your projects have similar tasks and requirements, we recommend creating a project template, so you can do the setup once and then easily create a project time after time. For more information, see [Create a new project template](#create-a-new-project-template) below.
+
 
 
 {{step1-to-projects}}
 
 1. Click **New project**. 
 
-
-    >[!TIP]
+    >[!NOTE]
     >
     >Workfront has robust project management capabilities. For more detailed information on creating and configuring a project, see [Create a project](/help/quicksilver/manage-work/projects/create-projects/create-project.md). 
 
