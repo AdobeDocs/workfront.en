@@ -48,7 +48,7 @@ Workfront users who regularly use Frame.io should be marked as Frame.io users. W
 
 When a user is marked as a Frame.io user in Workfront and is added to a project,
 
-* They are added as a Collaborator in Frame.io <!--do we need to be more explicit about a frame license being provisioned for them?>
+* They are added as a Collaborator in Frame.io <!--do we need to be more explicit about a frame license being provisioned for them?-->
 * They can send assets from Frame.io to Workfront for formal review and approval
 * They can view information in the one-way sync folder from Workfront
 
