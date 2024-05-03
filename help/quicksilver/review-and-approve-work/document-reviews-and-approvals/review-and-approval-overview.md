@@ -29,7 +29,7 @@ The Workfront administrator enables the integration between Workfront and Frame.
 
 Workfront administrators initiate the Workfront and Frame.io integration by adding a default Frame.io account in the Setup area of Workfront. Once the default Frame.io account is set up, any projects created in Workfront have a mirror project created in Frame.io.
 
-<!--For more information, see [].
+<!--For more information, see [Configure the [!DNL Workfront] and [!DNL Frame.io] integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
  in procedure article we need to cover how groups work with projects and how the frame account is associated with a group. And that accounts other than the default can be added on a 1:1 basis using the dev token. -->
 
@@ -47,9 +47,7 @@ When a user is marked as a Frame.io user in Workfront and is added to a project,
 * They can send assets from Frame.io to Workfront for formal review and approval
 * They can view information in the one-way sync folder from Workfront
 
-
-
-For more information, see [].
+For more information, see [Configure the [!DNL Workfront] and [!DNL Frame.io] integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
 ![](assets/Frame-enabled-user.png)
 
