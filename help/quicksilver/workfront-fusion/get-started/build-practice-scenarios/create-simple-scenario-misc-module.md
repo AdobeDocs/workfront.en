@@ -116,7 +116,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
    The name appears just below the module. Below that, [!DNL Workfront Fusion] includes a brief description of the type of action performed by the module.
 
-   ![](assets/module-renamed-wf.png)
+   ![](assets/)
 
 1. Continue with [Add and configure the second module](#add-and-configure-the-second-module).
 

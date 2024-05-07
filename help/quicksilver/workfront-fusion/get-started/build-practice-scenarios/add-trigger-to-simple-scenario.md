@@ -15,11 +15,11 @@ Polling modules check the service at a set time interval and return information 
 
 In this example, you will add a trigger module that runs every 15 minutes and starts a scenario if any requests have been submitted to a specific queue. The scenario then converts those requests to a project.
 
-This example modifies the scenario created in [Create a basic scenario](/help/quicksilver/workfront-fusion/free-tier-staging/create-simple-scenario.md).
+This example modifies the scenario created in [Create a basic scenario](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md).
 
 ## Prerequisites
 
-You must create the scenario described in [Create a basic scenario](/help/quicksilver/workfront-fusion/free-tier-staging/create-simple-scenario.md) before following this procedure.
+You must create the scenario described in [Create a basic scenario](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md) before following this procedure.
 
 ## Add and configure the trigger module
 

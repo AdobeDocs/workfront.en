@@ -13,11 +13,11 @@ Webhooks, also known as instant triggers, are a specific kind of trigger module 
 
 In this example, you will add a webhook to start a scenario as soon as any requests have been submitted to a specific queue. The scenario then converts those requests to a project.
 
-This example modifies the scenario created in [Create a basic scenario](/help/quicksilver/workfront-fusion/free-tier-staging/create-simple-scenario.md).
+This example modifies the scenario created in [Create a basic scenario](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md).
 
 ## Prerequisites
 
-You must create the scenario described in [Create a basic scenario](/help/quicksilver/workfront-fusion/free-tier-staging/create-simple-scenario.md) before following this procedure.
+You must create the scenario described in [Create a basic scenario](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md) before following this procedure.
 
 ## Add and configure the webhook
 

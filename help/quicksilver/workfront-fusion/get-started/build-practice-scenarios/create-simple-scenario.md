@@ -192,13 +192,13 @@ The last step in creating a scenario is activating it.
 
 Because this scenario is searching for a specific task, there is no need to activate it. Activating a scenario causes it to run on a schedule or when a specific action occurs in an application. After you activate a scenario, by default, it runs every 15 minutes. You can change this by defining when and how often you want it to run.
 
-For more information about activating scenarios, see [Activate or deactivate a scenario in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
+For more information about activating scenarios, see [Activate or deactivate a scenario in [!UICONTROL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
 
-For information about schedules, see [Schedule a scenario in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).
+For information about schedules, see [Schedule a scenario in [!UICONTROL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/scenarios/schedule-a-scenario.md).
 
 ## Next steps
 
-* [Add a trigger module](/help/quicksilver/workfront-fusion/free-tier-staging/add-trigger-to-simple-scenario.md) to allow the scenario to periodically look for new requests and convert them to projects.
+* [Add a trigger module](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-trigger-to-simple-scenario.md) to allow the scenario to periodically look for new requests and convert them to projects.
 * Add a webhook to allow the scenario to execute every time a request is entered.
 * Add a filter to ensure that only certain requests are converted to projects.
 * Add a function that customizes the name of the new project.
