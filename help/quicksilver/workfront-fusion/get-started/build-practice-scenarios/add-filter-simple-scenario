@@ -7,7 +7,7 @@ description: Filters allow you to ensure that your scenario progresses only if c
 author: Becky
 feature: Workfront Fusion
 ---
-# Add a filter to a basic scenario
+# Add a filter to a basic scenario  in [!DNL Adobe Workfront Fusion]
 
 Filters allow you to ensure that your scenario progresses only if certain conditions are met. 
 

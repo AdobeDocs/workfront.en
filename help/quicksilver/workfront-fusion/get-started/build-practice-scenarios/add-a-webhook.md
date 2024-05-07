@@ -7,7 +7,7 @@ description: Webhooks, also known as instant triggers, are a specific kind of tr
 author: Becky
 feature: Workfront Fusion
 ---
-# Add a webhook to a basic scenario
+# Add a webhook to a basic scenario in [!DNL Adobe Workfront Fusion]
 
 Webhooks, also known as instant triggers, are a specific kind of trigger module that can start a scenario whenever a change is made, instead of on a given schedule. 
 

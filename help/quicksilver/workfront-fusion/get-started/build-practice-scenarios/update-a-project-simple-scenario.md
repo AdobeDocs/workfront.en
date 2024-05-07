@@ -7,7 +7,7 @@ description: Learn how to add a trigger module to allow the scenario to periodic
 author: Becky
 feature: Workfront Fusion
 ---
-# Use a function to update a project in a simple scenario
+# Use a function to update a project in a simple scenario  in [!DNL Adobe Workfront Fusion]
 
 Updating a Workfront work item is a common use case for Workfront Fusion. In this example, you will use a function to change the name of a project to be in uppercase letters.
 

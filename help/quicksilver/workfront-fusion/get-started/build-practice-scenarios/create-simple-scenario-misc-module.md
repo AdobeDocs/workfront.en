@@ -5,6 +5,8 @@ navigation-topic: get-started-with-workfront-fusion-2-0
 title: Create a simple scenario in [!DNL Adobe Workfront Fusion]
 description: Learn how to create a simple automation scenario with Adobe Workfront Fusion. Automation scenarios automate Workfront processes, including data manipulation and transformation. This example takes you through the process of creating a scenario that searches for an issue and then converts it to a project.
 author: Becky
+hide: yes
+hidefromtoc: yes
 feature: Workfront Fusion
 ---
 # Create a basic scenario in [!DNL Adobe Workfront Fusion]
