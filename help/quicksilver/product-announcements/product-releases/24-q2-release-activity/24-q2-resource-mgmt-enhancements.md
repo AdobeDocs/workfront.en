@@ -4,6 +4,7 @@ description: Second Quarter 2024 Resource management enhancements
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+exl-id: 12b3c586-5f44-48cf-9451-1ef32118676f
 ---
 # Second Quarter 2024 Resource management enhancements
 
@@ -15,7 +16,7 @@ For a list of all changes available at this point in the Second Quarter 2024 rel
 
 >[!NOTE]
 >
->Preview release: October 12, 2023; Production for fast release: With the 24.2 release (February 15, 2024); Production for quarterly release: With the 24.4 release (April 2024)
+>Preview release: October 12, 2023; Production for fast release: With the 24.2 release (February 15, 2024); Production for quarterly release: With the 24.4 release (April 11, 2024)
 
 To provide more clarity about manual adjustments or contouring in the Workload Balancer, manually adjusted hourly allocations now show a pencil icon.
 

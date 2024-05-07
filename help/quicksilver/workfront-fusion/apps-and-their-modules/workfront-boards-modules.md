@@ -8,6 +8,7 @@ title: Adobe Workfront Boards modules
 description: You can use the Adobe Workfront Boards connector to automate your processes within Workfront Boards and connect it to third-party apps and services.
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
+exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
 ---
 # [!DNL Adobe Workfront] Boards modules
 
@@ -129,6 +130,7 @@ If you see the map button above a field or function, you can use it to set varia
 * [Boards](#boards)
 * [Columns](#columns)
 * [Tags](#tags)
+* [Comments](#comments)
 * [Other](#other)
 
 <!--
@@ -253,7 +255,7 @@ This action module creates a new card on a Workfront board.
   </tr> 
   <tr> 
    <td>[!UICONTROL Column ID]</td> 
-   <td>Enter or map the ID of the column you want to add a subtask to.<p>You can find the tag ID in the information that is returned from the Read a board module.</p></td> 
+   <td>Enter or map the ID of the column you want to add a subtask to.<p>You can find the column ID in the information that is returned from the Read a board module.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Name]</td> 
@@ -284,7 +286,7 @@ This action module move a card to a different column on the same board.
   </tr> 
   <tr> 
    <td>[!UICONTROL Destination column ID]</td> 
-   <td>Enter or map the ID of the column you want to move the card to.<p>You can find the tag ID in the information that is returned from the Read a board module.</p></td> 
+   <td>Enter or map the ID of the column you want to move the card to.<p>You can find the column ID in the information that is returned from the Read a board module.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL To index]</td> 
@@ -338,7 +340,7 @@ This action module updates information for a card you specify.
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
-   <td>Enter or map a new description for the card/\.</p></td> 
+   <td>Enter or map a new description for the card.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -392,6 +394,10 @@ This action module returns information about a single board, such as the board's
 
 ### Columns
 
+* [Create a column](#create-a-column)
+* [Search for a column](#search-for-a-column)
+* [Update a column](#update-a-column)
+
 #### Create a column
 
 This action module creates a new column on the specified board.
@@ -409,8 +415,62 @@ This action module creates a new column on the specified board.
    <td>Enter or map the ID of the board that you want to add a column to.<p>You can find the board ID in the URL when viewing the board in Workfront.</p></td> 
   </tr> 
   <tr> 
+   <td>[!UICONTROL Column ID]</td> 
+   <td>Enter or map the ID of the column you want to update.<p>You can find the column ID in the information that is returned from the Read a board module.</p></td> 
+  </tr> 
+  <tr> 
    <td>[!UICONTROL Column name]</td> 
-   <td>Enter or map a name for the new column.</td> 
+   <td>Enter or map a new name for the column.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL WIP Limit]</td> 
+   <td>Enter or map a new WIP limit for the column.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Search for a column
+
+This search module returns information about the column with the specified name.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>You can use an existing Workfront connection to connect to Workfront Boards, or you can use a specific Workfront Boards connection. </p><p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Create a connection to Workfront Boards</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Board ID]</td> 
+   <td>Enter or map the ID of the board that contains the column you want to retrieve.<p>You can find the board ID in the URL when viewing the board in Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Column Name]</td> 
+   <td>Enter or map the name of the column you want to retrieve.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Update a column
+
+This action module updates the name or WIP limit of the specified column.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>You can use an existing Workfront connection to connect to Workfront Boards, or you can use a specific Workfront Boards connection. </p><p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Create a connection to Workfront Boards</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Board ID]</td> 
+   <td>Enter or map the ID of the board that contains the column you want to retrieve.<p>You can find the board ID in the URL when viewing the board in Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Column Name]</td> 
+   <td>Enter or map the name of the column you want to retrieve.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -470,6 +530,57 @@ This action module creates a new tag and assigns it a color.
   <tr> 
    <td>[!UICONTROL Tag Color]</td> 
    <td>Select the color for this tag.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Comments
+
+* [Create a comment](#create-a-comment)
+* [Read card comments](#read-card-comments)
+
+#### Create a comment
+
+This action module created a comment on the specified card.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>You can use an existing Workfront connection to connect to Workfront Boards, or you can use a specific Workfront Boards connection. </p><p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Create a connection to Workfront Boards</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Card ID]</td> 
+   <td>Enter or map the ID of the card you want to add a comment to.<p>You can find the card ID in the URL when viewing the card in Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Comment]</td> 
+   <td>Enter or map the text of the comment that you want to add.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Read card comments
+
+This action module retrieves the comments from the specified card.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+      <td> <p>You can use an existing Workfront connection to connect to Workfront Boards, or you can use a specific Workfront Boards connection. </p><p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Create a connection to Workfront Boards</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Card ID]</td> 
+   <td>Enter or map the ID of the card you want to retrieve the comments for.<p>You can find the card ID in the URL when viewing the card in Workfront.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Limit]</td> 
+   <td>Enter the maximum number of comments that you want the module to return in one execution cycle.</p></td> 
   </tr> 
  </tbody> 
 </table>

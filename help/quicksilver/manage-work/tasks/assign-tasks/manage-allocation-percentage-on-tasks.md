@@ -9,6 +9,8 @@ exl-id: 82238dff-b95e-42e4-8e72-6247934b504d
 ---
 # Manage user or role allocation percentage on tasks
 
+{{highlighted-preview}}
+
 Allocation percentage represents the amount of time an assigned resource is planned to work on a task in a day. It is the percent of a work day (according to the user or project schedule) at which a resource is allocated throughout the duration of the task.
 
 >[!NOTE]
@@ -79,6 +81,10 @@ You must have the following access to perform the steps in this article:
 
    You cannot modify the allocation percentage for a team assigned to a task.
 
+   Sample image in the Production environment:
    ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
+
+   <span class="preview">Sample image in the Preview environment:</span>
+   ![Modify allocation percentage](assets/advanced-assignments-allocation-percentage.png)
 
 1. Click **Save**.

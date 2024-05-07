@@ -22,7 +22,7 @@ TheAdobe [!DNL Workfront] Community is an online group of over 10,000 [!DNL Work
 
 ### Authorized Support Contact {#authorized-support-contact}
 
-If you are an Authorized Support Contact (ASC), you have login credentials for the [!UICONTROL Help Desk], [!UICONTROL Innovation Lab], and [!DNL Workfront] [!UICONTROL Ascent]. You can use the same credentials to log into the [!DNL Workfront] Community. In this case, you will leave the subdomain blank.
+If you are an Authorized Support Contact (ASC), you have login credentials for the [!UICONTROL Help Desk], and [!UICONTROL Innovation Lab]. You can use the same credentials to log into the [!DNL Workfront] Community. In this case, you will leave the subdomain blank.
 
 ![community_4.png](assets/community-4-350x129.png)
 
@@ -37,8 +37,6 @@ If you are not an Authorized Support Contact, you can log in with your regular [
 ### Non-Authorized Support Contact with SSO Login {#non-authorized-support-contact-with-sso-login}
 
 If your company does use SSO, you must reach out to [!DNL Workfront] Customer Support via phone to request an account. If you are unable to submit a ticket or engage in live chat, contact your Authorized [!DNL Workfront] Customer Support contact. 
-
-If you already have an account set up within Ascent Training, you can use those same credentials to access the Community site (leave the subdomain blank in this case).
 
 If you do not remember your password for the Community site, reach out to [!DNL Workfront Customer Support] and they can assist you.
 

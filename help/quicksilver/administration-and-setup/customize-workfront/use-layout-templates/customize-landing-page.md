@@ -19,6 +19,10 @@ For information about layout templates for groups, see [Create and modify a grou
 
 After configuring a layout template, you must assign it to users for changes you made to be visible to others. For information about assigning a layout template to users, see [Assign users to a layout template](../use-layout-templates/assign-users-to-layout-template.md).
 
+>[!NOTE]
+>
+>When Requests is set as the landing page, Contributor or Requestor users assigned to the layout template see the Home page as the landing page instead. Is it recommended to choose a landing page other than Requests for layout templates intended for Contributor or Requestor users.
+
 ## Access requirements
 
 You must have the following access to perform the steps in this article: 
