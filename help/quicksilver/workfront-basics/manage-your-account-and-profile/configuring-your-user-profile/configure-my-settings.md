@@ -335,12 +335,7 @@ You can change any of the following in this sub-section:
    <td role="rowheader"><strong>[!UICONTROL Email Locale]</strong> </td> 
    <td>Specify your preferred language here. This controls the language, date, and number format used in outgoing email messages.</td> 
   </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Show percent complete on update status]</strong> </td> 
-   <td>Select this option if you want to display a percent complete bar inside the Updates area of your tasks, when using the legacy commenting experience. For information, see <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">New commenting experience</a>.
   
-   </td> 
-  </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Send work assigned to myself to my Working On tab]</strong> </td> 
    <td>Select this field to display work you are assigning to yourself directly on your [!UICONTROL Working On] tab instead of the [!UICONTROL Work Requests] tab.</td> 

@@ -1,16 +1,16 @@
 ---
-title: Adobe Workfront planning capabilities release activity
-description: Adobe Workfront planning capabilities are currently available to select Workfront customers. Review this article often to learn about the features recently released for the planning capabilities. 
+title: Adobe Workfront Planning release activity
+description: Adobe Workfront Planning capabilities are currently available to select Workfront customers. Review this article often to learn about the features recently released for the planning capabilities. 
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
 ---
-# Adobe Workfront planning capabilities release activity 
+# Adobe Workfront Planning release activity 
 
 {{maestro-important-intro}}
 
-This article lists the features that have been released after the launch of the Adobe Workfront planning capabilities closed beta program, on May 22, 2023.
+This article lists the features that have been released after the launch of the Adobe Workfront Planning capabilities closed beta program, on May 22, 2023.
 
 The released features are listed in the order of their release, with the most recent first. Customers who are participating in the planning capabilities closed beta program can access all features in their Production environments. 
 
@@ -18,13 +18,229 @@ The released features are listed in the order of their release, with the most re
 >
 >Between May 2023 and December 2023, all features in this article were released to both the Preview and Production environment. The planning capabilities have temporarily been removed from the Preview and Sandbox environments since January 2024. All features released after this date are currently available in Production. 
 
-This article lists the features and patches that have been released after the launch of the Adobe Workfront planning capabilities closed beta program, on May 22, 2023. 
+This article lists the features and patches that have been released after the launch of the Adobe Workfront Planning capabilities closed beta program, on May 22, 2023. 
 
 The features are released weekly and are listed in the order of their release, with the most recent first. Customers who are participating in the planning capabilities closed beta program can access all features in their Preview and Production environments.
 
 >[!IMPORTANT]
 >
 >The documentation referenced in the sections below will be available some time after the features are released to Production.
+
+<!--
+## Week of <date>
+
+### Added a limit of 100 views for a record type
+
+Production: <date> 
+
+Preview: To be determined 
+
+A record type can have only 100 views. Prior to this change, there was no limit for how many views a record type could have.  
+
+For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md). 
+
+-->
+
+## Week of April 29, 2029
+
+### Real-time updates on the record details box and page after editing records in the table view
+
+Production: May 2, 2024
+
+Preview: To be determined
+
+When a user updates the information on a record in the table view, other users can view the updated information in the record's details box (inside of a view) or page in real time. This ensures that all users view the updated information at the same time, in sync with when the changes happen.  
+
+For information about editing records, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
+
+### Real-time updates in the calendar view after editing records
+
+Production: May 3, 2024
+
+Preview: To be determined.  
+
+When a user updates the information on a record, other users can view the updated information in the record's calendar view in real time. This ensures that all users view the updated information at the same time, in sync with when the changes happen. 
+
+<!--
+
+### Add sections to the record's page 
+
+Production: <date> 
+
+Preview: To be determined 
+
+To better organize information on the record's page for more efficient readability and navigation we have introduced sections to the record's page. The section titles serve as headers that organize the content into distinct categories. The sections can be expanded or collapsed, if needed.  
+
+For information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). 
+
+### Real-time updates for field configuration changes 
+
+Production: <date> 
+
+Preview: To be determined 
+
+If any user changes any field configuration (name, description, list of options etc) in a record type, other users view those changes in real-time. This ensures that everyone views the correct fields and their information at the same time.  
+
+>[!WARNING]
+>
+>When formula expressions change, or options are added or removed from a select-type field, there will be loss of data for the records that already have information stored in the fields whose configuration is modified. 
+>
+>There is no warning or indication that this data loss could happen when you change the configuration of fields. 
+>
+>There is no notification to other users that the field configuration has changed.  
+
+For more information, see [Edit fields](/help/quicksilver/maestro/fields/edit-fields.md).  
+
+### Enable Workfront Planning notifications  
+
+Production: <date>  
+
+Preview: TBD  
+
+Now, when someone adds you to a comment in the record page, you receive an in-app as well as an email notification about the comment. The following scenario exists:   
+
+* Adobe Unified Experience customers receive both an in-app notification and an email notification. They can manage their notification preferences in the Preferences area of their Adobe Experience Cloud profile. For more information, see [Account preferences and notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).   
+
+* Customers who are not using the Adobe Unified Experience receive only an email notification. They cannot manage their email notifications preferences and will always receive an email when someone adds them to a comment on a record in Workfront Planning.
+
+For information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/maestro/notifications/notifications-information.md). 
+
+-->
+
+## Week of April 22, 2024
+
+### Updated workflow when editing a workspace or a record type
+
+Production: April 23, 2024
+
+Preview: To be determined 
+
+We have updated the look-and-feel of the Edit workspace and Edit record type boxes.  
+
+When you edit a workspace or a record type, you can now define a name, description, as well as assign a color and an icon to them.  
+
+For more information, see the following articles: 
+
+* [Edit workspaces](/help/quicksilver/maestro/architecture/edit-workspaces.md) 
+
+* [Edit record types](/help/quicksilver/maestro/architecture/edit-record-types.md).
+
+## Week of April 8, 2024
+
+### Copy the content of one cell and paste it into multiple selected cells
+
+Production: April 10, 2024
+
+Preview: To be determined 
+
+You can now copy the content of one cell in the table view and paste it in multiple selected cells. You can also copy information from external sources and paste it into the table view cells.  
+
+This functionality is supported for all field types except for calculated fields.  
+
+For more information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
+
+## Week of April 1, 2024
+
+### Reorder the fields on record pages
+
+Production: April 4, 2024 
+
+Preview: To be determined 
+
+As a Workspace manager, you now can reorder the fields listed in the record page or preview. Updating the order of the fields changes the order of fields on all records of the same type, for everyone viewing the record page or the record preview.  
+
+For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). 
+
+
+### Add cover image to record pages
+
+Production: April 4, 2024 
+
+Preview: To be determined 
+
+As you manage record pages, you can now add, reposition, and replace a cover image on a record page or preview, to enrich the record's presentation and stakeholder engagement. Cover images are visible to all users viewing the records. 
+
+For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md).  
+
+## Week of March 25, 2024
+
+### New flexible record type organization for workspaces
+
+Production: March 25, 2024 
+
+Preview: To be determined 
+
+To create efficiency for you when setting up workspaces, we have modified the way you organize record types in a workspace. Some of the improvements include:  
+
+* Create up to 50 sections of record types in each workspace. Existing Operational Record Types and Taxonomies sections remain in the existing workspaces.  
+
+* Fully customize all new workspaces and their new sections to reflect your processes and organization's needs.  
+
+* Dynamically move record types within a workspace by dragging and dropping them where they need to be, including across different sections.  
+
+For more information, see [Create record types](/help/quicksilver/maestro/architecture/create-record-types.md). 
+
+### Duplicate views 
+
+Production: March 25, 2024 
+
+Preview: To be determined 
+
+To save you time and keep consistency, you can now duplicate an existing view that you have permissions to access.   
+
+Duplicating a view creates an identical view, using the same filters, sorting criteria, and groupings. Duplicating a view does not maintain the permissions of the original view.   
+
+For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md). 
+
+### Renamed the Maestro area in the Main Menu to Planning
+
+Production: March, 27, 2024 
+
+Preview: To be determined 
+
+We have renamed the Maestro area in the Main Menu to Planning.  
+
+For an overview of Adobe Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/maestro/maestro-overview.md). 
+
+### New experience when deleting a record type
+
+Production: March 27, 2024 
+
+Preview: To be determined 
+
+We have redesigned the confirmation box when deleting a record type. Deleting a record type is impactful, as it also deletes all the records, their fields, the information in the fields, as well as the views associated with the record type. Deleted record types and their deleted information cannot be recovered.  
+
+For this reason, we wanted to ensure the user's intent is accurate when deleting a record type, so we have introduced an extra step in confirming the deletion. For more information, see [Delete record types](/help/quicksilver/maestro/architecture/delete-record-types.md).  
+
+## Week of March 18, 2024
+
+### Filters available in the calendar view
+
+Production: March 19, 2024 
+
+Preview: To be determined 
+
+You can now filter information in the calendar view. For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md).  
+
+### Preview with record details added to the timeline and calendar views 
+
+Production: March 19, 2024 
+
+Preview: To be determined 
+
+You can now access the preview with record details from the timeline and calendar views. You can edit records in the record's preview box inside the timeline and calendar views. 
+
+From the record's preview, you can open the record page in a new browser tab. 
+
+For more information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md).  
+
+### The record type Excel import is temporarily disabled  
+
+Production: March 21, 2024 
+
+Preview: To be determined 
+
+We are temporarily disabling importing record types using an Excel or CSV file. This functionality will be available at a later date. 
 
 ## Week of March 11, 2024
 
@@ -34,13 +250,13 @@ Production: March 14, 2024
 
 Preview: To be determined 
 
-To make it easier to view additional information about records when using the table view, we have introduced a new Details box that displays a quick view of the record's details. The following is some of the information included in this box: 
+To make it easier to view additional information about records when using the table view, we have introduced a new Details preview that displays a quick view of the record's details. The following is some of the information included in the record preview: 
 
 * Relevant record details at a glance 
 
 * Ability to modify record information 
 
-* A link to open the record's Details page 
+* A link to open the record's page 
 
 For more information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
 
@@ -172,7 +388,7 @@ The following are the highest levels of permissions that users can receive based
 
 For information about the new license model, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
-For information about the connection between license type and permissions in the planning capabilities, see [License type overview when using the Adobe Workfront planning capabilities ](/help/quicksilver/maestro/access/license-type-overview.md).  
+For information about the connection between license type and permissions in the planning capabilities, see [License type overview when using Adobe Workfront Planning](/help/quicksilver/maestro/access/license-type-overview.md).  
 
 
 ### New look-and-feel of the Rich-Text toolbar for record fields
@@ -236,7 +452,7 @@ Preview: To be determined
 
 You can now add individual thumbnails to each record to distinguish them in a view. In the table view, you can add image files that you have previously saved on your computer as thumbnails. The thumbnails can be unique to each record and display in both the table and the timeline views of the record type page. 
 
-For more information, see [Add thumbnails to records](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).  
+For more information, see [Add a thumbnail to a record](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).  
 
 ### Remove connected record type cards
 
@@ -285,7 +501,7 @@ To create consistency when creating records, we have relabeled the + New link fo
 
 Preview and sandbox: January 11, 2024
 
-The Adobe Workfront planning capabilities have been temporarily removed from the Preview and Sandbox environments. They will be added to these environments at a later date, which we will communicate in the release activity notes.  
+The Adobe Workfront Planning capabilities have been temporarily removed from the Preview and Sandbox environments. They will be added to these environments at a later date, which we will communicate in the release activity notes.  
 
 ### Planning capabilities permissions for workspaces and views
 
@@ -312,7 +528,7 @@ The following are the permissions levels for record views:
 * View: Users can select the view from the View drop-down menu of a record type page.
 * Manage: Users can edit, share, and delete the view. 
 
-For more information, see [Access overview](/help/quicksilver/maestro/access/access-overview.md) and [Overview of sharing permissions in Adobe Workfront planning capabilities](../maestro/access/sharing-permissions-overview.md).
+For more information, see [Access overview](/help/quicksilver/maestro/access/access-overview.md) and [Overview of sharing permissions in Adobe Workfront Planning capabilities](../maestro/access/sharing-permissions-overview.md).
 
 ### New Formula field type
 
@@ -364,7 +580,7 @@ You can now search for a keyword to quickly find a record in the timeline view. 
 
 ## Week of December 18, 2023
 
-### Add comments on records from the Details page
+### Add comments on records from the record's page
 
 Preview and Production for all customers: December 18, 2023 
 
@@ -380,7 +596,7 @@ Preview and Production for all customers: December 18, 2023
 >
 >For more information, see [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
-You can now collaborate with others on individual records by adding comments or replying to others while viewing a record in the Details page.   
+You can now collaborate with others on individual records by adding comments or replying to others while viewing a record's page.   
 
 The commenting experience for planning capabilities records matches the new commenting experience for Workfront objects.   
 
@@ -392,7 +608,7 @@ Production: December 21, 2023
 
 >[!IMPORTANT]
 >
->Your organization must purchase Adobe Workfront Fusion to be able to build connections with Adobe Workfront planning capabilities.
+>Your organization must purchase Adobe Workfront Fusion to be able to build connections with Adobe Workfront Planning capabilities.
 >
 >For information, see [Adobe Workfront Fusion overview](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
 
@@ -410,7 +626,7 @@ Now, you can use Adobe Workfront Fusion to connect to the planning capabilities.
 
 * Trigger a scenario when a change is made in the planning capabilities
 
-For more information, see [Adobe Maestro modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/maestro-modules.md).
+For more information, see [Adobe Maestro modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
 
 ## Week of December 11, 2023
 
@@ -450,11 +666,11 @@ Production release: December 21, 2023
 
 >[!IMPORTANT]
 >
->Your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console to be able to connect Adobe Workfront planning capabilities records to Adobe Experience Manager Assets.
+>Your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console to be able to connect Adobe Workfront Planning capabilities records to Adobe Experience Manager Assets.
 >
 >If you have questions about onboarding to the Adobe Admin Console, see the [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-You can now establish a connection between Adobe Workfront planning capabilities record types and Adobe Experience Manager Assets.  
+You can now establish a connection between Adobe Workfront Planning capabilities record types and Adobe Experience Manager Assets.  
 
 After you establish the connection, the following functionality is available with this update:  
 
@@ -533,7 +749,7 @@ For more information, see [Manage the table view](../maestro/views/manage-the-ta
 
 Preview and Production: October 30, 2023
 
-We have introduced the following field types for Adobe Workfront planning capabilities records:  
+We have introduced the following field types for Adobe Workfront Planning capabilities records:  
 
 * Created by 
 
@@ -555,7 +771,7 @@ You can now open the Workfront object pages from the following areas in the plan
 
 * The read-only linked Workfront object record table view
 
-* The read-only Workfront object record Details page 
+* The read-only Workfront object record page 
 
 For more information, see [Connect records](../maestro/records/connect-records.md). 
 
@@ -587,7 +803,7 @@ You can now add a People-type field to planning capabilities record types. You c
 
 Preview and Production: October 16, 2023
 
-We have added Rich Text format controls for Paragraph-type fields. You can format your paragraph fields using Rich Text either in the Table view of a record type, or in the Details page of a record. For more information, see [Edit records](../maestro/records/edit-records.md). 
+We have added Rich Text format controls for Paragraph-type fields. You can format your paragraph fields using Rich Text either in the Table view of a record type, or in the record page. For more information, see [Edit records](../maestro/records/edit-records.md). 
 
 
 ### Record and grouping color-coding for the Timeline view 
@@ -677,7 +893,7 @@ For more information, see [Manage the table view](../maestro/views/manage-the-ta
 
 ## Week of August 21, 2023
 
-### Connect Adobe Workfront planning capabilities records to programs and portfolios 
+### Connect Adobe Workfront Planning capabilities records to programs and portfolios 
 
 Preview and Production: August 24, 2023
 
@@ -764,7 +980,7 @@ You can now add a Checkbox field type to planning capability record types. You c
 
 Preview and Production: June 28, 2023
  
-We have enabled the ability to activate the contextual menu by right-clicking anywhere in a record row, when viewing the records in the table view or a record type. You can now quickly view, delete, or copy a link to the record's Details page when you access the contextual menu from anywhere in the table view of a record type. Prior to this enhancement, the contextual menu was accessible only from the More menu in the Name column of a record.  
+We have enabled the ability to activate the contextual menu by right-clicking anywhere in a record row, when viewing the records in the table view or a record type. You can now quickly view, delete, or copy a link to the record's page when you access the contextual menu from anywhere in the table view of a record type. Prior to this enhancement, the contextual menu was accessible only from the More menu in the Name column of a record.  
 
 ## Week of June 19, 2023
 
@@ -774,7 +990,7 @@ We have introduced a requirement now that the field names of a planning capabili
 
 ## Week of June 5, 2023
 
-### Connect Adobe Workfront planning capabilities records with Workfront projects
+### Connect Adobe Workfront Planning capabilities records with Workfront projects
 
 Preview and Production: June 5, 2023
 

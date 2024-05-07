@@ -7,6 +7,7 @@ description: An External Lookup field in a custom form calls an external API and
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
+exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
 ---
 # Examples of the External Lookup field in a custom form
 
@@ -14,7 +15,7 @@ An External Lookup field in a custom form calls an external API and returns valu
 
 This article provides examples of using the External Lookup field to call the same instance of Workfront or a public API. You can also use the External Lookup to communicate with an external system such as Jira, Salesforce, or ServiceNow.
 
-For more information about adding an External Lookup field to a custom form and additional definitions of the external lookup components, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+External Lookup fields are only available in the new form designer, not the legacy form builder. For more information about adding an External Lookup field to a custom form and additional definitions of the external lookup components, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Set up an External Lookup field for the same instance of Workfront
 
@@ -121,4 +122,3 @@ This example shows how to call an API of countries (such as <https://api.first.o
    ![Custom form with external lookup field](assets/external-lookup-countries-example1.png)
 
    ![External lookup options for a country based on region](assets/external-lookup-countries-example2.png)
-

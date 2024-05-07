@@ -70,7 +70,7 @@ For more detail about the information in this table, see [Access requirements in
 1. In the **Tasks** field, begin typing the name of the task that you want to be the predecessor to your current task.
 1. Specify the following information for defining the relationship between the predecessor and dependent task:
 
-   * **Dependency Type:** Select the relationship that you want the predecessor task to have with the dependent task. The default relationship is "Finish-Start," meaning that the predecessor task must finish before the dependent task can start. For more information about the various dependency types, see [Overview of task dependency types](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)
+   * **Dependency Type:** Select the relationship that you want the predecessor task to have with the dependent task. The default relationship is "Finish-Start," meaning that the predecessor task must finish before the dependent task can start. For more information about the various dependency types, see [Overview of task dependency types](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
    
    * **Lag:** Specify the amount of time that must pass after the completion of an enforced predecessor until the dependent task can begin. For more information about the various types of lag, see [Lag Types overview](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
    

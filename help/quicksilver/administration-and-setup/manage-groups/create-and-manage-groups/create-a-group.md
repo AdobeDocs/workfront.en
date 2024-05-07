@@ -5,7 +5,7 @@ keywords: create,group,subgroup,new
 navigation-topic: create-and-manage-groups
 title: Create a group
 description: As an Adobe Workfront administrator, you can create groups to organize users and projects and to assign access rights within Workfront.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4a039619-0943-4b5b-ba7a-1ad9b5c11df0
@@ -82,7 +82,7 @@ You must be a Workfront administrator to create a top-level group.
       <td role="rowheader">Make this group and its subgroups public</td> 
       <td> <p>(Available only if you are viewing Details for a top-level group, not a subgroup.) Enable this option to allow users in the group with edit-user access (who are not administrators of the group) to add this group and its subgroups to the user profile of other users.</p> <p>For a public group, any user (in or out of the group) who has edit-user access can add the group to the profile of other users. They cannot do this for a private group.</p> <p>You can edit this option only on the top parent group in a hierarchy of groups that has more than one level. All subgroups of the parent group inherit its setting.</p> <p><b>NOTE</b>:  
         <ul> 
-         <li>You can't make a subgroup public by itself, but you can make it's top-level parent group public, which also makes all of the parent's subgroups public.</li> 
+         <li>You can't make a subgroup public by itself, but you can make its top-level parent group public, which also makes all of the parent's subgroups public.</li> 
          <li>A subgroup that belongs to a public group is public by default, so any user with edit-user access can add the subgroup to other users, as well.</li> 
         </ul> </p> <p>If you need information about the access needed to edit users, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md" class="MCXref xref">Grant access to users</a>. For information about editing users, see <a href="../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md" class="MCXref xref">Edit a user's profile</a>.</p> </td> 
      </tr> 
@@ -96,12 +96,10 @@ You must be a Workfront administrator to create a top-level group.
      </tr> 
      <tr> 
       <td role="rowheader">Group Members and Group Administrators</td> 
-      <td> 
-       <ul> 
+      <td>
         <p>To add group members, start typing the name of an existing user or group you want to add, then select the name when it appears.</p> 
         <p>Users and groups that you add have access to all objects shared with the group.</p>
-        <p>A top-level group must have at least one group administrator. </p> 
-       </ul> </td> 
+        <p>A top-level group must have at least one group administrator. </p>
      </tr> 
      <tr> 
       <td role="rowheader">Search people and groups in the list</td> 
@@ -171,7 +169,7 @@ To create a new top-level group by copying a group or subgroup:
       <td> 
        <ul> 
         <li> <p>Group members: To add users and groups to the group, start typing the name of an existing user or group you want to add, then select the name when it appears.</p> <p>The users and groups that you add have access to all objects shared with the group.</p> </li> 
-        <li> <p data-mc-conditions="SnippetConditions-wf-groups.copied groups">Group administrators: Any group administrators of the original group are also designated as the group administrators in the copied group. You can assign a group member as an administrator for the group using the drop-down menu to the right of the user's name.</p> <p data-mc-conditions="SnippetConditions-wf-groups.groups">A top-level group must have at least 1 group administrator.</p> </li> 
+        <li> <p>Group administrators: Any group administrators of the original group are also designated as the group administrators in the copied group. You can assign a group member as an administrator for the group using the drop-down menu to the right of the user's name.</p> <p>A top-level group must have at least one group administrator.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
@@ -183,7 +181,7 @@ To create a new top-level group by copying a group or subgroup:
 
    >[!NOTE]
    >
-   >* If the original group has subgroups, the subgroups are added to the new group, and their names are, by default, "The original subgroup name (Copy)".
+   >* If the original group has subgroups, the subgroups are added to the new group, and their names are, by default, "The original subgroup name (Copy)."
    >* You can eliminate any user or subgroup from the original group by clicking the X to the right of the user's or subgroup's name.
 
 1. Click **Create Group**.
