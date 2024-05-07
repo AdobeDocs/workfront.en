@@ -10,7 +10,7 @@ feature: Work Management
 
 # Create a project connected with Frame.io
 
-The Workfront and Frame.io integration allows you to create projects in Workfront that are mirrored in Frame.io providing a seamless review and approval experience. 
+The Workfront and Frame.io integration allows you to create projects in Workfront that are mirrored in Frame.io, providing a seamless review and approval experience. 
 
 When a Workfront project is connected with Frame.io, you can 
 
@@ -59,7 +59,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Prerequisites
 
-* Set up the default Frame.io account in the Workfront setup area
+* Set up the default Frame.io account in the Workfront setup area <!--note about how this is done by WF at first? -->
 * Enable Frame.io users in the Workfornt user profile
 
 For more information about the prerequisites above, see [Configure the [!DNL Workfront] and [!DNL Frame.io] integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
@@ -68,13 +68,13 @@ For more information about the prerequisites above, see [Configure the [!DNL Wor
 
 <!-- is there a way to access the frame connected project from workfront? -->
 
-When you have a default Frame.io account set up in the Workfront setup area, any project created in Workfront has a mirror project in Frame.io.
+When you have a default Frame.io account in the Workfront setup area, any project created in Workfront has a mirror project in Frame.io.
 
 >[!TIP]
 >
->If most of your projects have similar tasks and requirements, we recommend creating a project template, so you can do the setup once and then easily create a project time after time. For more information, see [Create a new project template](#create-a-new-project-template) below.
+>If most of your projects have similar tasks and requirements, we recommend creating a project template, so you can do the set up once and then easily create a project time after time. For more information, see [Create a new project template](#create-a-new-project-template) below.
 
-
+To create a new project:
 
 {{step1-to-projects}}
 
@@ -92,9 +92,6 @@ When you have a default Frame.io account set up in the Workfront setup area, any
 
 
 
-
-
-
 ### Add tasks and assign Frame.io enabled users
 
 1. Click **Start Adding Tasks** and build out the project. 
@@ -103,7 +100,7 @@ When you have a default Frame.io account set up in the Workfront setup area, any
 
     >[!NOTE]
     >
-    > For more detailed information about task configuration, see [Create tasks in a project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+    > For more detailed information about task configuration, see the article [Create tasks in a project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
 
 ### Share creative materials with Frame.io [!BADGE Coming soon]{type=Informative}
