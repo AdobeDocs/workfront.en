@@ -6,6 +6,7 @@ title: Add a trigger module to a basic scenario
 description: Learn how to add a trigger module to allow the scenario to periodically look for new requests and convert them to projects.
 author: Becky
 feature: Workfront Fusion
+exl-id: 067ee6a1-f4c1-4602-ac39-0283255cced8
 ---
 # Add a trigger module to a basic scenario
 
