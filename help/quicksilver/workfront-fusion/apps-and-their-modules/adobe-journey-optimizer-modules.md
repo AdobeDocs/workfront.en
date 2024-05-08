@@ -16,7 +16,9 @@ hidefromtoc: yes
 
 >[!IMPORTANT]
 >
->This connector has been deprecated.
+>This connector has been deprecated because it was based on Adobe Journey Optimizer APIs that are now deprecated.
+>
+>We are currently working on a new connector based on the new Adobe Journey Optimizer API. 
 
 <!--
 
