@@ -1,11 +1,11 @@
 ---
-title: Manage Adobe Workfront Planning notification preferences 
-description: You might be able to manage your notification preferences for Adobe Workfront Planning. This article describes how you can configure your notifications preferences. 
+title: Manage Adobe Workfront Planning notification preferences
+description: You might be able to manage your notification preferences for Adobe Workfront Planning. This article describes how you can configure your notifications preferences.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
 ---
-
 # Manage Adobe Workfront Planning notification preferences 
 
 {{maestro-important-intro}}
@@ -102,4 +102,4 @@ The following scenarios exist:
 
 * Customers who are not on the Adobe Unified Experience receive only an email notification. They cannot manage their email notifications preferences and will always receive an email when someone adds them to a comment on a record in Workfront Planning.   
 
---> 
+-->
