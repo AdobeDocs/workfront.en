@@ -407,9 +407,8 @@ feature-set: Workfront
       * [New commenting experience](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
       * [New commenting experience release activity](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
       * [New commenting experience FAQs](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
-    * Workfront and Frame.io integration alpha {#frame-io-wf-integration-alpha}
-      * [Adobe Workfront and Frame.io native integration alpha: overview](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
-      * [Adobe Workfront and Frame.io native integration alpha: features](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
+    * Workfront and Frame.io integration beta {#frame-io-wf-integration-beta}
+      * [Adobe Workfront and Frame.io native integration beta](review-and-approve-work/Documents/wf-frame-alpha.md)
     * Workfront data lake beta {#data-lake-beta}
       * [Workfront data lake beta information](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * Administration and setup {#administration-and-setup}
@@ -1786,7 +1785,6 @@ feature-set: Workfront
 * Review and approve work {#review-and-approve-work}
   * [Review and approve work](review-and-approve-work/review-and-approve-work.md)
   * [Alpha Program – Document Approvals](review-and-approve-work/Documents/doc-approvals-alpha.md)
-  * [Beta Program - Workfront + Frame.io](review-and-approve-work/Documents/wf-frame-alpha.md)
   * [Limited document and proof decision for non-paid users overview](review-and-approve-work/proof-doc-decision-limits.md)
   * Work approvals {#work-approvals}
     * [Work approvals](review-and-approve-work/manage-approvals/manage-approvals.md)
