@@ -6,6 +6,7 @@ title: Add a filter to a basic scenario
 description: Filters allow you to ensure that your scenario progresses only if certain conditions are met.
 author: Becky
 feature: Workfront Fusion
+exl-id: b43355ed-9329-4080-8e61-7177eb580994
 ---
 # Add a filter to a basic scenario  in [!DNL Adobe Workfront Fusion]
 
@@ -71,4 +72,3 @@ You must create the scenario described in [Create a basic scenario](/help/quicks
 ## Resources
 
 * For more information on filters, see [Add a filter to a scenario](/help/quicksilver/workfront-fusion/scenarios/add-a-filter-to-a-scenario.md).
-

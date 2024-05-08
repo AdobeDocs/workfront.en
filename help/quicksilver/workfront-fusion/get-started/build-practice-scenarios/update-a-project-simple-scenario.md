@@ -6,6 +6,7 @@ title: Add a trigger module to a basic scenario
 description: Learn how to add a trigger module to allow the scenario to periodically look for new requests and convert them to projects.
 author: Becky
 feature: Workfront Fusion
+exl-id: f4588063-024f-4520-986e-45342a6b6777
 ---
 # Use a function to update a project in a simple scenario  in [!DNL Adobe Workfront Fusion]
 
