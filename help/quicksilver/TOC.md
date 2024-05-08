@@ -2096,7 +2096,7 @@ feature-set: Workfront
       * [Create a basic scenario in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md)
       * [Add a trigger module to a basic scenario in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-trigger-to-simple-scenario.md)
       * [Use a function to update a project in a simple scenario in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/update-a-project-simple-scenario.md)
-      * [Add a filter to a basic scenario in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario)
+      * [Add a filter to a basic scenario in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario.md)
       * [Add a webhook to a basic scenario in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)
     * [Create a practice automation scenario in Adobe Workfront Fusion](workfront-fusion/get-started/create-a-practice-automation-scenario.md)
     * [Create a practice integration scenario in Adobe Workfront Fusion](workfront-fusion/get-started/create-a-practice-scenario.md)
