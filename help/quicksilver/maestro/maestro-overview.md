@@ -80,6 +80,8 @@ For information about new features and when they are released, see [Adobe Workfr
 |     Creative brief                                 |                               |                                  |   ✓              |
 |     Customize the color and icon of a record                                 |      ✓                         |                                  |                 |
 |     Add comments to records                                 | ✓                              |                                  |                 |
+|     Receive in-app notifications                                 | ✓                              |                                  |                 |
+|     Receive email notifications                                 | ✓                              |                                  |                 |
 |     Add thumbnails to records                                 | ✓                              |                                  |                 |
 |     View history of changes on a record                                 | ✓                              |                                  |                 |
 |     Rich Text formatting for Paragraph fields                                 |      ✓                         |                                  |                 | 

@@ -2079,6 +2079,11 @@ feature-set: Workfront
     * [Manage the table view](maestro/views/manage-the-table-view.md)
     * [Manage the timeline view](maestro/views/manage-the-timeline-view.md)
     * [Manage the calendar view](maestro/views/manage-the-calendar-view.md)
+  * Adobe Maestro notifications {#adobe-maestro-notifications}
+    * [Adobe Workfront Planning notifications: Article index](maestro/notifications/notifications-information.md)
+    * [Manage Adobe Workfront Planning notification preferences](maestro/notifications/manage-notification-preferences.md)
+    * [Manage Adobe Workfront Planning email notifications](maestro/notifications/manage-planning-email-notifications.md)
+    * [Manage Adobe Workfront Planning in-app notifications](maestro/notifications/manage-planning-in-app-notifications.md)
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
   * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
   * [ Fusion access table template](/help/quicksilver/workfront-fusion/fusion-access-table-template.md)
