@@ -52,10 +52,10 @@ Environment promotion does not support the ability to move transactional objects
 
 | Promotable object | Included promotable linked objects |
 | --- | --- |
-| Layout Template (UITMPL) | Layout Template<br>Dashboard<br>Calendar<br>Calendar Section<br>External Page<br>Report<br>Filter<br>Grouping<br>View<br>Parameter  | 
-| Dashboard (PTLTAB) | Dashboard<br>Calendar<br>Calendar Section<br>External Page<br>Report<br>Filter<br>Grouping<br>View<br>Parameter  | 
-| Calendar (CALEND) | Calendar<br>Calendar Section | 
-| External Page (EXTSEC) | External Page |
+| Layout Template (UITMPL) | Layout Template<br>Dashboard<br>Calendar*<br>Calendar Section*<br>External Page*<br>Report<br>Filter<br>Grouping<br>View<br>Parameter  | 
+| Dashboard (PTLTAB) | Dashboard<br>Calendar*<br>Calendar Section*<br>External Page*<br>Report<br>Filter<br>Grouping<br>View<br>Parameter  | 
+| Calendar* (CALEND) | Calendar*<br>Calendar Section* | 
+| External Page* (EXTSEC) | External Page* |
 | Report (PTLSEC) | Report<br>Filter<br>Grouping<br>View<br>Parameter | 
 | Filter (UIFT) |  Filter<br>Parameter | 
 | Grouping (UIGB) | Grouping<br>Parameter | 
