@@ -1,13 +1,13 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Document approval status
-description: Document approval statuses are listed and explained
+title: Document decision status
+description: Document decision statuses are listed and explained
 author: Becky
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
 ---
-# Document approval status
+# Document decision status
 
 You can view the document's status directly in the document list:
 

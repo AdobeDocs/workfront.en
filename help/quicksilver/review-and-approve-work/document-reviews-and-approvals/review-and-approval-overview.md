@@ -108,12 +108,9 @@ Reviewers and approvers can be added to a single-use approval workflow or a reus
 
     For more information, see [Create an Approval Template](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
 
-
     
 ![](assets/assign-template.png)
 
-
-* Upload an asset from Workfront, and send it to Frame.io for review and approval <!-- delayed? -Need more info on this workflow. Also they connected it and send it for formal review and approval you'll have to attach the approval process? -->
 
 #### Access the Frame.io viewer
 
@@ -125,8 +122,7 @@ Users can access the Frame.io viewer in the following ways:
 
 >[!NOTE]
 >
->External Workfront users are notified via email and will be asked to create a Frame.io login to review and approve assets. 
-<!-- is this right?-->
+>External Workfront users are notified via email and will be asked to create a Frame.io login to review and approve assets.
 
 #### Add comments and mark up assets
 
@@ -142,7 +138,7 @@ Once all review activity is complete, approvers must make one of the following d
 
 Reviewers can mark their review complete inside of the Frame.io viewer, but this is not required for the asset to move forward in the approval process. <!--check if this is accurate -->
 
-For more information about making a decision, see []. <!--will this be a frame doc or workfront? -->
+For more information about decisions in Workfront, see [Document decision status overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md). 
 
 ![](assets/frame-viewer-and-decision.png)
 

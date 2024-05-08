@@ -1816,7 +1816,7 @@ feature-set: Workfront
         * [Add additional reviewers or approvers to a document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
         * [Remove approvers or reviewers from a document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
         * [Create an Approval Template](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-        * [Document approval status](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
+        * [Document decision status](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
         * [Approve a document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/approve-a-document.md)
   * Proofing {#proofing}
     * [Proofing: article index](review-and-approve-work/proofing/proofing.md)
