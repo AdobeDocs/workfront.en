@@ -6,6 +6,7 @@ title: Add a webhook to a basic scenario
 description: Webhooks, also known as instant triggers, are a specific kind of trigger module that can start a scenario whenever a change is made, instead of on a given schedule.
 author: Becky
 feature: Workfront Fusion
+exl-id: 6694b883-6f94-449c-bcfe-5a4053e8655a
 ---
 # Add a webhook to a basic scenario in [!DNL Adobe Workfront Fusion]
 
@@ -40,5 +41,3 @@ You must create the scenario described in [Create a basic scenario](/help/quicks
 1. In the State field, select **New state**. This is a required field that is used for the filter, which this example does not cover.
 1. In the Record Origin field, select **New Record Only**. This allows the scenario to trigger when an issue is added, not when one is updated or deleted.
 1. Click **Save** to save the module configuration.
-
-
