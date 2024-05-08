@@ -1,11 +1,11 @@
 ---
-title: Manage Adobe Workfront Planning email notifications 
-description: When someone tags you in a record comment, you receive an email notification for that tag. 
+title: Manage Adobe Workfront Planning email notifications
+description: When someone tags you in a record comment, you receive an email notification for that tag.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
 ---
-
 # Manage Adobe Workfront Planning email notifications
 
 {{maestro-important-intro}}
