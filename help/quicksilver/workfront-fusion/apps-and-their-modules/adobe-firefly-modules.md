@@ -211,8 +211,13 @@ This action module fills the masked area of an image, optionally with content fr
    <td>Select the file format that the filled image will be saved as.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td>  <p>Select a source file from a previous module, or map the source file's Image file name and Image file (data), and Mask file name and Mask file (data). The Mask file represents the custom mask that will be filled with generated content.</p> </td> 
+   <td role="rowheader">[!UICONTROL Image]</td> 
+   <td>  <p> Click <b>Add an image</b>. Select a source file from a previous module, or map the source file's Image file name and Image data.</p> </td> 
+</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Mask]</td> 
+   <td>  <p> Click <b>Add a mask</b>. Select a source file from a previous module, or map the source file's Mask file name and Mask data. The Mask file represents the custom mask that will be filled with generated content.</p> </td> 
 </td> 
   </tr> 
   <tr> 
