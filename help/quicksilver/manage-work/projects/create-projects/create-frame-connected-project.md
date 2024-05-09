@@ -69,189 +69,128 @@ For more information about the prerequisites above, see [Configure the [!DNL Wor
 
 When building a new template, you can enter the information for all of the tasks and for your future project settings. This information will then transfer to any project that you create from the template.
 
-If you have a default Frame.io account set up in the Workfront setup area, any project created in Workfront has a mirror project in Frame.io.
+We recommend using project templates for creative projects because you can set the project group before the project is created. If you choose to create the project from scratch, it is automatically assocaited with the Default project group and the mirror Frame.io project is created under that default team in frame.io. Updating the group after project creation does not change the Frame.io team. 
 
-We recommend using project templates to create and manage projects connected with Frame.io. When you create a project template, you can specify a specific Workfront group 
+To organize projects by team inside of Frame.io, you have to set the Workfront project group before the project is created. 
 
-To create a project template:
+You can create project templates based on teams so the projects are organized in an effective manner. 
+
+### Create the template and specify the project group
 
 {{step1-to-templates}}
 
-1. Click **New project**. 
+1. Click **New Template**. 
+1. Type a name for your template. Press Enter to save the name.
+1. In the left panel, click **Template Details**.
+1. In the **Template association** section, make sure to specify a group. If you do not add a group, the default project group is added and the project in Frame.io is created under that corresponding frame.io team.
 
-
-    >[!TIP]
-    >
-    >Workfront has robust project management capabilities. For more detailed information on creating and configuring a project template, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md). 
-
-1. Type a name for your project. Press Enter to save the name.
-
-   ![Enter a name for the project](assets/rename-untitled-project.png)
-
-   The header of the project page displays a quick overview of the current health and progress of a project. The information in the project header changes as the project information is updated.
-
-
-## Add tasks and assign Frame.io enabled users
-
-1. Click **Start Adding Tasks** and build out the project. 
-
-1. Assign Frame.io enabled users or teams to the tasks your creative users need access to in Frame.io.
-
-    >[!NOTE]
-    >
-    > For more detailed information about task configuration, see [Create tasks in a project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
-
-
-## Share creative materials with Frame.io [!BADGE Coming soon]{type=Informative}
-
-This folder appears once the template is used to create an acutal project. 
-
-## Create a project from the template
-
-## Configure project details and set the status to current
-
-<!-- normal procedure for templates?-->
-
-1. (Optional) Edit the project details by clicking the **More** menu and then **Edit** ![](assets/qs-edit-icon.png) next to the name of the project.
-
-   The **Edit Project** dialog box opens.
-
-   For more information about editing a project, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
-
-1. After configuring the project settings and adding the tasks, you can change the status of the project to **Current**.
-
-   This indicates that the project is now ready to start and users assigned to the tasks can now start working on them.
-
-
-## Initiate document approvals for connected assets
-
-After the project is created and creatives upload finished assets, you can assign a review and approval workflow to the asset in Workfront. 
-
-For more infomation, see [Create a document review or approval request](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!-- name may need to change -->
-
-## Create a new project
-
-<!-- is there a way to access the frame connected project from workfront? -->
-
-When you have a default Frame.io account in the Workfront setup area, any project created in Workfront has a mirror project in Frame.io.
-
->[!TIP]
->
->If most of your projects have similar tasks and requirements, we recommend creating a project template, so you can do the set up once and then easily create a project time after time. For more information, see [Create a new project template](#create-a-new-project-template) below.
-
-To create a new project:
-
-{{step1-to-projects}}
-
-1. Click **New project**. 
-
-    >[!NOTE]
-    >
-    >Workfront has robust project management capabilities. For more detailed information on creating and configuring a project, see [Create a project](/help/quicksilver/manage-work/projects/create-projects/create-project.md). 
-
-1. Type a name for your project. Press Enter to save the name.
-
-   ![Enter a name for the project](assets/rename-untitled-project.png)
-
-   The header of the project page displays a quick overview of the current health and progress of a project. The information in the project header changes as the project information is updated.
-
-
+Continue to the next section.
 
 ### Add tasks and assign Frame.io enabled users
 
-1. Click **Start Adding Tasks** and build out the project. 
+1. In the left panel, click **Template Tasks**.
+1. Click **Start Adding Template Tasks**.
 
-1. Assign Frame.io enabled users or teams to the tasks your creative users need access to in Frame.io.
+   Or
 
-    >[!NOTE]
-    >
-    > For more detailed information about task configuration, see the article [Create tasks in a project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+   Click **New Template Task** to start adding tasks to your template.
+1. Add a task name.
+1. In the **Assignments** area, assign users or teams. If you assign a Frame.io enabled user, either individually or in a team, they are granted collaborator access to the Frame.io project and notified about the task in the Frame.io project via email. From that email, they can join the Frame.io project and begin work. 
+1. Repeat steps 1 and 2 as needed.
 
+Continue to the next section.
 
-### Share creative materials with Frame.io [!BADGE Coming soon]{type=Informative}
+### Configure additional template details 
 
-1. Go to Project Documents on the left-side 
-1. in the folder, drop the documents
+Workfront has robust project management capabilities. We recommend using the [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md) article to configure the following areas of the template:
 
-## Configure project details and set the status to current
+   * Overview
+   * Finance
+   * Custom Forms
+   * Project Settings
+   * Tasks Settings
+   * Issue Settings
+   * Access
 
-1. (Optional) Edit the project details by clicking the **More** menu and then **Edit** ![](assets/qs-edit-icon.png) next to the name of the project.
+### Create a project from the template
 
-   The **Edit Project** dialog box opens.
+{{step1-to-projects}}
 
-   For more information about editing a project, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
+1. Click **New Project from Template**. 
+1. Using the searchbox, begin typing the name of the template you need. 
+1. Select the template name, then click **Use template**. 
+1. Adjust any project settings as needed, then click **Create project**. 
 
-1. After configuring the project settings and adding the tasks, you can change the status of the project to **Current**.
+1. In the left panel, click **Documents**. 
+1. Use the one-way sync folder to automatically share creative materials with Frame.io. [!BADGE Coming soon]{type=Informative}
 
-   This indicates that the project is now ready to start and users assigned to the tasks can now start working on them.
+   >[!NOTE]
+   >
+   >   This feature is currently in development. To share information with users in Frame.io, upload the files to the Document tab. When the status of the project is set to current, those files automatically push to Frame.io
 
-
-### Initiate document approvals for connected assets
-
+1. In the project header, change the project from Planning to Current. 
 After the project is created and creatives upload finished assets, you can assign a review and approval workflow to the asset in Workfront. 
 
 For more infomation, see [Create a document review or approval request](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!-- name may need to change -->
 
+## Create a new project from scratch
 
-## Create a new project template
+You can create a new project from scratch as needed. The default project group is automatically assigned and cannot be reconfigured in Frame.io after project creation. 
 
-<!-- is there a way to access the frame connected project from workfront? -->
+To create a new project from scratch:
 
-When you have a default Frame.io account set up in the Workfront setup area, any project created in Workfront has a mirror project in Frame.io.
+{{step1-to-projects}}
 
-The steps below outline how to either create a new project or a project template. If your projects have similar requirements, we recommend creating a project template, so you can do the setup once and then easily create a project time after time. 
-
-
-{{step1-to-templates}}
-
-1. Click **New project**. 
-
-
-    >[!TIP]
-    >
-    >Workfront has robust project management capabilities. For more detailed information on creating and configuring a project, see [Create a project](/help/quicksilver/manage-work/projects/create-projects/create-project.md). 
-
+1. Click **New Project**. 
 1. Type a name for your project. Press Enter to save the name.
+ ![Enter a name for the project](assets/rename-untitled-project.png)
+1. In the left panel, click **Project Details**. The Group is automatically set as the Default group, which means the project is associated with the corresponding default Frame.io team. This cannot be changed in Frame.io.
 
-   ![Enter a name for the project](assets/rename-untitled-project.png)
+    To specify a specific group/team, you need to use a template to create the project. See the [Create a project template] section above for details.
 
-   The header of the project page displays a quick overview of the current health and progress of a project. The information in the project header changes as the project information is updated.
+Continue to the next section.
 
+### Add tasks and assign Frame.io enabled users
 
-## Add tasks and assign Frame.io enabled users
+1. In the left panel, click **Tasks**.
+1. Click **Start Adding Tasks**.
 
-1. Click **Start Adding Tasks** and build out the project. 
+   Or
 
-1. Assign Frame.io enabled users or teams to the tasks your creative users need access to in Frame.io.
+   Click **New Task** to start adding tasks to your project.
+1. Add a task name.
+1. In the **Assignments** area, assign users or teams. If you assign a Frame.io enabled user, either individually or in a team, they are granted collaborator access to the Frame.io project and notified about the task in the Frame.io project via email. From that email, they can join the Frame.io project and begin work. 
+1. Repeat steps 1 and 2 as needed.
 
-    >[!NOTE]
-    >
-    > For more detailed information about task configuration, see [Create tasks in a project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+Continue to the next section.
 
+### Upload creative materials
 
-## Share creative materials with Frame.io [!BADGE Coming soon]{type=Informative}
+1. In the left panel, click **Documents**. 
+1. Use the one-way sync folder to automatically share creative materials with Frame.io. [!BADGE Coming soon]{type=Informative}
 
-This folder appears once the template is used to create an acutal project. 
-
-## Create a project from the template
-
-## Configure project details and set the status to current
-
-<!-- normal procedure for templates?-->
-
-1. (Optional) Edit the project details by clicking the **More** menu and then **Edit** ![](assets/qs-edit-icon.png) next to the name of the project.
-
-   The **Edit Project** dialog box opens.
-
-   For more information about editing a project, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
-
-1. After configuring the project settings and adding the tasks, you can change the status of the project to **Current**.
-
-   This indicates that the project is now ready to start and users assigned to the tasks can now start working on them.
+   >[!NOTE]
+   >
+   >   This feature is currently in development. To share information with users in Frame.io, upload the files to the Document tab. When the status of the project is set to current, those files automatically push to Frame.io
 
 
-## Initiate document approvals for connected assets
+### Configure additional project details 
 
+Workfront has robust project management capabilities. We recommend using the [Edit projects](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) article to configure the following areas of the project:
+
+   * Overview
+   * Finance
+   * Custom Forms
+   * Project Settings
+   * Tasks Settings
+   * Issue Settings
+   * Access
+
+### Set the project to current
+
+1. In the project header, change the project from Planning to Current. 
 After the project is created and creatives upload finished assets, you can assign a review and approval workflow to the asset in Workfront. 
+
+After the project is created and creatives upload finished assets, you can assign a review and approval workflow to the asset in Workfront.
 
 For more infomation, see [Create a document review or approval request](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!-- name may need to change -->
