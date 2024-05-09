@@ -27,32 +27,27 @@ When a Workfront project is connected with Frame.io, you can
 
 You must have the following:
 
-<table>
-  <tr>
-   <td><strong>[!DNL Adobe Workfront] plan</strong>
-   </td>
-   <td>Any
-   </td>
-  </tr>
-  <tr>
-   <td><strong>[!DNL Adobe Workfront] licenses</strong>
-   </td>
-   <td> New: [!UICONTROL Standard]
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Product</strong>
-   </td>
-   <td>You must have Frame.io.
-   </td>
-  </tr>
-  <tr>
-   <td><strong>Access level configurations</strong>
-   </td>
-   <td>You must be a [!DNL Workfront] administrator.
-   </td>
-  </tr>
- 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>Standard</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Projects</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>When you create a project, you automatically receive Manage permissions to the project.</p> </td> 
+  </tr> 
+ </tbody> 
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
@@ -60,20 +55,19 @@ For more detail about the information in this table, see [Access requirements in
 ## Prerequisites
 
 * Set up the default Frame.io account in the Workfront setup area <!--note about how this is done by WF at first? -->
-* Enable Frame.io users in the Workfornt user profile
+* Enable Frame.io users in the Workfront user profile
+* Set up appropriate groups to organize your projects 
 
 For more information about the prerequisites above, see [Configure the [!DNL Workfront] and [!DNL Frame.io] integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
 
 ## Create a new project template
 
-When building a new template, you can enter the information for all of the tasks and for your future project settings. This information will then transfer to any project that you create from the template.
+When building a new template, you can enter the information for all tasks and for your future project settings. This information will then transfer to any project that you create from the template.
 
-We recommend using project templates for creative projects because you can set the project group before the project is created. If you choose to create the project from scratch, it is automatically assocaited with the Default project group and the mirror Frame.io project is created under that default team in frame.io. Updating the group after project creation does not change the Frame.io team. 
+Projects in Frame.io are organized by team, and Workfront groups are associated with Frame.io teams. To organize projects by team inside of Frame.io, you have to assign the correct Workfront group to the project before it's created.  
 
-To organize projects by team inside of Frame.io, you have to set the Workfront project group before the project is created. 
-
-You can create project templates based on teams so the projects are organized in an effective manner. 
+If you choose to create the project from scratch, Workfront automatically adds the Default project group and the mirror Frame.io project is created under that default team in frame.io. Updating the group after project creation does not change the Frame.io team. 
 
 ### Create the template and specify the project group
 
@@ -86,14 +80,19 @@ You can create project templates based on teams so the projects are organized in
 
 Continue to the next section.
 
+![](assets/template-group.png)
+
+
+
 ### Add tasks and assign Frame.io enabled users
 
 1. In the left panel, click **Template Tasks**.
-1. Click **Start Adding Template Tasks**.
+1. Click **Start Adding Template Tasks** to quickly add tasks to your template. You can configure additional settings later. 
 
    Or
 
-   Click **New Template Task** to start adding tasks to your template.
+   Click **New Template Task** to add one task at a time and configure additional settings.
+   ![](assets/add-tasks-to-template.png)
 1. Add a task name.
 1. In the **Assignments** area, assign users or teams. If you assign a Frame.io enabled user, either individually or in a team, they are granted collaborator access to the Frame.io project and notified about the task in the Frame.io project via email. From that email, they can join the Frame.io project and begin work. 
 1. Repeat steps 1 and 2 as needed.
@@ -114,50 +113,57 @@ Workfront has robust project management capabilities. We recommend using the [Ed
 
 ### Create a project from the template
 
+Once you create a template, you can use it to create projects. 
+
 {{step1-to-projects}}
 
 1. Click **New Project from Template**. 
-1. Using the searchbox, begin typing the name of the template you need. 
+1. Using the search box, begin typing the name of the template you need. 
 1. Select the template name, then click **Use template**. 
+   ![](assets/find-your-template.png)
 1. Adjust any project settings as needed, then click **Create project**. 
-
 1. In the left panel, click **Documents**. 
 1. Use the one-way sync folder to automatically share creative materials with Frame.io. [!BADGE Coming soon]{type=Informative}
 
    >[!NOTE]
    >
-   >   This feature is currently in development. To share information with users in Frame.io, upload the files to the Document tab. When the status of the project is set to current, those files automatically push to Frame.io
+   >This feature is currently in development. To share information with users in Frame.io, upload the files to the Document tab. When the status of the project is set to current, those files automatically push to Frame.io
 
-1. In the project header, change the project from Planning to Current. 
-After the project is created and creatives upload finished assets, you can assign a review and approval workflow to the asset in Workfront. 
+1. In the project header, change the project from **Planning** to **Current**. 
 
-For more infomation, see [Create a document review or approval request](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!-- name may need to change -->
+After the project is created and creatives upload finished assets, you can assign a review and approval workflow to the asset in Workfront. For more information, see [Create a document review or approval request](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!-- name may need to change -->
 
 ## Create a new project from scratch
 
-You can create a new project from scratch as needed. The default project group is automatically assigned and cannot be reconfigured in Frame.io after project creation. 
+You can create a new project from scratch as needed. 
 
-To create a new project from scratch:
+>[!IMPORTANT]
+>
+>The default project group is automatically assigned and cannot be reconfigured in Frame.io after project creation. 
+>
+>The Group is automatically set as the Default group, which means the project is associated with the corresponding default Frame.io team. This cannot be changed in Frame.io.
+>
+>To specify a specific group/team, you need to use a template to create the project. See the [Create a project template] section above for details.
+
+
+### Create the project
 
 {{step1-to-projects}}
 
 1. Click **New Project**. 
 1. Type a name for your project. Press Enter to save the name.
- ![Enter a name for the project](assets/rename-untitled-project.png)
-1. In the left panel, click **Project Details**. The Group is automatically set as the Default group, which means the project is associated with the corresponding default Frame.io team. This cannot be changed in Frame.io.
-
-    To specify a specific group/team, you need to use a template to create the project. See the [Create a project template] section above for details.
 
 Continue to the next section.
 
 ### Add tasks and assign Frame.io enabled users
 
 1. In the left panel, click **Tasks**.
-1. Click **Start Adding Tasks**.
+1. Click **Start Adding Tasks** to quickly add tasks to your project. You can configure additional settings later. 
 
    Or
 
-   Click **New Task** to start adding tasks to your project.
+   Click **New Task** to add one task at a time and configure additional settings.
+   ![](assets/add-project-tasks.png)
 1. Add a task name.
 1. In the **Assignments** area, assign users or teams. If you assign a Frame.io enabled user, either individually or in a team, they are granted collaborator access to the Frame.io project and notified about the task in the Frame.io project via email. From that email, they can join the Frame.io project and begin work. 
 1. Repeat steps 1 and 2 as needed.
@@ -173,6 +179,7 @@ Continue to the next section.
    >
    >   This feature is currently in development. To share information with users in Frame.io, upload the files to the Document tab. When the status of the project is set to current, those files automatically push to Frame.io
 
+Continue to the next section.
 
 ### Configure additional project details 
 
@@ -193,4 +200,4 @@ After the project is created and creatives upload finished assets, you can assig
 
 After the project is created and creatives upload finished assets, you can assign a review and approval workflow to the asset in Workfront.
 
-For more infomation, see [Create a document review or approval request](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!-- name may need to change -->
+For more information, see [Create a document review or approval request](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!-- name may need to change -->
