@@ -83,7 +83,7 @@ With this integration, our goal is to allow creatives to stay in their tool of c
 
 To allow you to easily test the new features of the beta program, we've created a new test Frame.io account and connected it to a new group called `Frame.io testing` in your existing Workfront Preview or Sandbox environment.
 
-+++Expand to view vasic testing instructions
++++Expand to view basic testing instructions
 
 To test the functionality, please log in to your Workfront Preview or Sandbox instance and perform the following steps: 
 
