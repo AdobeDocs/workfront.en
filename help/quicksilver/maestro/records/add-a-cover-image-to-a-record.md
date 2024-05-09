@@ -87,12 +87,12 @@ Consider the following:
 * A cover image is unique to one record, and it does not apply to all records of the same type. 
 * You can add only image files as cover images.
    <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
-* You can add a cover image to individual records from the record box in any view, or from the record page. 
+* You can add a cover image to individual records from the record preview in any view, or from the record page. 
 * You cannot add cover images inline from any record views. 
 
 ## Add a cover image to a record
 
-You can personalize a record by adding a cover image at the top of the record box or page. 
+You can personalize a record by adding a cover image at the top of the record preview or page. 
 
 {{step1-to-maestro}}
 
@@ -110,7 +110,7 @@ You can personalize a record by adding a cover image at the top of the record bo
     
     From the table table view, click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name. 
     
-    The record's box opens in the view.
+    The record's preview opens in the view.
 
     ![](assets/details-box.png) 
 
@@ -118,18 +118,18 @@ You can personalize a record by adding a cover image at the top of the record bo
     >
     >You can view the **Open details** icon to the left of the Name field of a record in a table view only when the Name field is a primary field. 
 
-1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record box to open the record's page in a new tab. 
+1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record preview to open the record's page in a new tab. 
 
     The record page opens. 
 
     ![](assets/details-page.png)
 
-1. In the record box or page, click **Add cover**. <!--check the casing here; I logged a bug for this-->
+1. In the record preview or page, click **Add cover**. <!--check the casing here; I logged a bug for this-->
     The **Record cover** box opens. 
 
 1. Click **Select to upload** and browse for a picture on your computer to select, add it, then click **Use image**. 
 
-    The image is uploaded at the top of the record box or page and changes are saved automatically. 
+    The image is uploaded at the top of the record preview or page and changes are saved automatically. 
 
     ![](assets/record-page-with-cover-image.png)
 
