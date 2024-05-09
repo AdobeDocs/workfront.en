@@ -64,6 +64,71 @@ For more detail about the information in this table, see [Access requirements in
 
 For more information about the prerequisites above, see [Configure the [!DNL Workfront] and [!DNL Frame.io] integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
+
+## Create a new project template
+
+When building a new template, you can enter the information for all of the tasks and for your future project settings. This information will then transfer to any project that you create from the template.
+
+If you have a default Frame.io account set up in the Workfront setup area, any project created in Workfront has a mirror project in Frame.io.
+
+We recommend using project templates to create and manage projects connected with Frame.io. When you create a project template, you can specify a specific Workfront group 
+
+To create a project template:
+
+{{step1-to-templates}}
+
+1. Click **New project**. 
+
+
+    >[!TIP]
+    >
+    >Workfront has robust project management capabilities. For more detailed information on creating and configuring a project template, see [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md). 
+
+1. Type a name for your project. Press Enter to save the name.
+
+   ![Enter a name for the project](assets/rename-untitled-project.png)
+
+   The header of the project page displays a quick overview of the current health and progress of a project. The information in the project header changes as the project information is updated.
+
+
+## Add tasks and assign Frame.io enabled users
+
+1. Click **Start Adding Tasks** and build out the project. 
+
+1. Assign Frame.io enabled users or teams to the tasks your creative users need access to in Frame.io.
+
+    >[!NOTE]
+    >
+    > For more detailed information about task configuration, see [Create tasks in a project](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+
+
+## Share creative materials with Frame.io [!BADGE Coming soon]{type=Informative}
+
+This folder appears once the template is used to create an acutal project. 
+
+## Create a project from the template
+
+## Configure project details and set the status to current
+
+<!-- normal procedure for templates?-->
+
+1. (Optional) Edit the project details by clicking the **More** menu and then **Edit** ![](assets/qs-edit-icon.png) next to the name of the project.
+
+   The **Edit Project** dialog box opens.
+
+   For more information about editing a project, see [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
+
+1. After configuring the project settings and adding the tasks, you can change the status of the project to **Current**.
+
+   This indicates that the project is now ready to start and users assigned to the tasks can now start working on them.
+
+
+## Initiate document approvals for connected assets
+
+After the project is created and creatives upload finished assets, you can assign a review and approval workflow to the asset in Workfront. 
+
+For more infomation, see [Create a document review or approval request](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!-- name may need to change -->
+
 ## Create a new project
 
 <!-- is there a way to access the frame connected project from workfront? -->
