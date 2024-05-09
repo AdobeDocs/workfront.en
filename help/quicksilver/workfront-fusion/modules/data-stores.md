@@ -70,7 +70,9 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 ## Data space available
 
-If your organization is on the new Workfront plan model (Select, Prime, and Ultimate packages), your organization's plan affects the size and number of data stores available your Fusion instance.
+If your organization is on the new Workfront plan model (Select, Prime, and Ultimate packages), your total data store size is:
+
+<!--If your organization is on the new Workfront plan model (Select, Prime, and Ultimate packages), your organization's plan affects the size and number of data stores available your Fusion instance.
 
 ### Ultimate plan
 
@@ -81,13 +83,15 @@ Fusion instances on the Ultimate package receive:
 
 ### Select and Prime plans
 
-Fusion instances on the Select or Prime packages receive:
+Fusion instances on the Select or Prime packages receive:-->
 
 * 100 MB for the first 500K operations. 
 
 * 10 MB for each additional 100K operations. 
 
-For example, an organization with 600K operations receives 110 MB. 
+   For example, an organization with 600K operations receives 110 MB. 
+
+Your organization can have up to 50 data stores. The combined size of these data stores cannot exceed your organization's total data store size.
 
 ## Create a data store in [!DNL Workfront Fusion]
 
