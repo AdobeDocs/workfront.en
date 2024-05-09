@@ -112,7 +112,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
-#### Make a custom API call
+### Make a custom API call
 
 This action module makes a custom call to the Firefly API.
 
