@@ -2215,6 +2215,7 @@ feature-set: Workfront
     * [Adobe Campaign Classic modules](workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)
     * [Adobe Experience Manager Assets modules](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)    
     * [Adobe Experience Manager Forms module](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)    
+    * [Adobe Firefly modules](workfront-fusion/apps-and-their-modules/adobe-firefly-modules.md)
     * [Adobe Journey Optimizer modules](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
     * [Adobe Lightroom modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
     * [Adobe PDF Services modules](workfront-fusion/apps-and-their-modules/pdf-modules.md)
