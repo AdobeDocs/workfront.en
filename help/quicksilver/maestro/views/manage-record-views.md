@@ -93,6 +93,7 @@ You must have the following access to perform the steps in this article:
     * Filter
     * Grouping
     * Sort
+    * Bar appearance (for the timeline view)
     
     <!-- some of these are not available in all of the views - edit above-->
 

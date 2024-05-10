@@ -86,9 +86,11 @@ You must have the following access to perform the steps in this article:
 * You can edit records that you created or records created by others, if you were given permissions to the workspace. 
 * You can edit record fields from the following areas:
 
-    * The record's box in a record view
+    * The record's preview in a record view
     * The record's page
     * Inline, in a table view. 
+
+* When a user edits a record in a view, the changes are visible immediately in all views and the record pages to all other users.
 
 * The following types of fields are automatically updated, and you cannot edit their values manually: 
     * Linked fields from other records
@@ -105,7 +107,7 @@ You must have the following access to perform the steps in this article:
 You can edit a record from the following areas:
 
 * [From the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type)
-* [From the record's box in a view](#edit-a-record-from-the-records-box-in-a-view)
+* [From the record's preview in a view](#edit-a-record-from-the-records-box-in-a-view)
 * [From the record's page](#edit-a-record-from-the-records-page)
 
 ### Edit a record inline in the table view of a record type
@@ -180,7 +182,7 @@ You can edit a record from the following areas:
 
 1. (Optional) Add a thumbnail to a record. For information, see [Add a thumbnail to a record](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
-### Edit a record from the record's box in a view
+### Edit a record from the record's preview in a view
 
 {{step1-to-maestro}}
 
@@ -196,7 +198,7 @@ You can edit a record from the following areas:
 
     Or 
     
-    From the table view, click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name. The record's box opens in the view.
+    From the table view, click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name. The record's preview opens in the view.
 
     ![](assets/details-box.png) 
 
@@ -204,7 +206,7 @@ You can edit a record from the following areas:
     >
     >You can view the **Open details** icon to the left of the Name field of a record in a table view only when the Name field is a primary field. 
 
-1. Start editing the field information in the record's box.  
+1. Start editing the field information in the record's preview.  
 
     >[!TIP]
     >
@@ -217,7 +219,7 @@ You can edit a record from the following areas:
 
     Workfront automatically saves your changes.
 
-1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record's box to open the record's page in a new tab. Continue editing the record as described in [Edit a record from the record's page](#edit-a-record-from-the-records-page) section in this article. 
+1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record's preview to open the record's page in a new tab. Continue editing the record as described in [Edit a record from the record's page](#edit-a-record-from-the-records-page) section in this article. 
 
 ### Edit a record from the record's page
 
@@ -233,7 +235,7 @@ You can edit a record from the following areas:
 
 1. Do one of the following:
 
-    * From any view, access the record's box, as described in the [Edit a record from the record's box in a view](#edit-a-record-from-the-records-box-in-a-view) section in this article, then click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record box to open the record's page in a new tab. 
+    * From any view, access the record's preview, as described in the [Edit a record from the record's preview in a view](#edit-a-record-from-the-records-preview-in-a-view) section in this article, then click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record preview to open the record's page in a new tab. 
 
     * From the **Table** view, hover over the name of a record, then click the **More** menu ![](assets/more-menu.png), then click **View**
 

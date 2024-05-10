@@ -137,7 +137,8 @@ You can link documents to Workfront from an external application such as Google 
 
    >[!NOTE]
    >
-   >For documents that are linked to Box, the link to the document in Box does not display until you refresh the page.
+   >* If the download URL that is used to link the document exceeds 2048 characters, the file cannot link.  
+   >* For documents that are linked to Box, the link to the document in Box does not display until you refresh the page.
 
 ### Add a new version of a linked document {#add-a-new-version-of-a-linked-document}
 
