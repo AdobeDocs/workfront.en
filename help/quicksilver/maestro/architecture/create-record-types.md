@@ -140,7 +140,7 @@ The last-accessed workspace should open by default.
 
 1. Update the following information:
 
-    * Replace "Untitled Operational Record Type" with the name of your future record type. <!--did they bring back the field label here and did they rename it to "Name"-->
+    * Replace "Untitled record type" with the name of your future record type. <!--did they bring back the field label here and did they rename it to "Name"-->
     * **Description**: Add more information about the record type.  
     * Select a color and shape for the icon associated with the record type. Do the following: 
         * Select a color to identify your new record type. This is the color of the record type icon. Gray is selected by default.
@@ -149,8 +149,11 @@ The last-accessed workspace should open by default.
 1. Click **Create**.
 
     The record type card is added to the section and the workspace you selected. 
-    The number of fields that the record type contains displays on the card. 
-1. (Optional) Hover over the record type card, click the **More** icon ![](assets/more-menu.png) in the upper-right corner, then click **Edit** to edit information about the record type. 
+    The Description of the record type displays on the card. 
+
+    ![](assets/record-type-card-with-description.png)
+
+1. (Optional) Hover over the record type card, click the **More** icon ![](assets/more-menu.png) in the upper-right corner, then click **Edit** to modify information about the record type. 
 1. (Optional) Click the record type card to open the record type page. 
 
     ![](assets/operational-record-type-blank.png)
@@ -182,9 +185,9 @@ The last-accessed workspace should open by default.
     
 1. (Optional) Click the left-pointing arrow to the left of the record type name, in the header, to go back to the selected workspace. 
 
-    The record type card displays the number of fields and connections the record type contains. 
+1. (Optional) From the workspace, click and hold a record type card to drag and drop the record type in a desired spot, or to move it to another section. 
 
-    ![](assets/campaign-card-with-fields-and-connections-highlighted.png)
+    The changes are saved automatically.
 
     For additional information about adding records, deleting or editing record types, or updating the view in the record type page, see the following articles:
 
@@ -192,10 +195,6 @@ The last-accessed workspace should open by default.
       * [Delete record types](../architecture/delete-record-types.md)
       * [Edit record types](../architecture/edit-record-types.md)
       * [Manage record views](../views/manage-record-views.md) 
-
-1. (Optional) From the workspace, click and hold a record type card to drag and drop the record type in a desired spot, or to move it to another section. 
-
-    The changes are saved automatically.
 
 ## Create record types by importing an Excel or CSV file
 
