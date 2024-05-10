@@ -128,9 +128,9 @@ For more information about access requirements, see [Access requirements in Work
 
    For information, see [Delete record types](/help/quicksilver/maestro/architecture/delete-record-types.md).
 
-1. (Optional) Click the name of a view in the view tabs to edit an existing view or click **+ View** to create a view. 
+1. (Optional) Press-click a record type card to drag it and drop it in a new spot. You can drag and drop record types from one workspace section to another. 
 
-    For information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md). 
+   ![](assets/drag-and-drop-record-types-in-a-workspace.png)
 
 1. (Optional) Click **Share** in the upper-right corner of the workspace to share the workspace with others.
 
