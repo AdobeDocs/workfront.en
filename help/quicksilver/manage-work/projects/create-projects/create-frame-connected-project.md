@@ -67,6 +67,8 @@ When building a new template, you can enter the information for all tasks and fo
 
 Projects in Frame.io are organized by team, and Workfront groups are associated with Frame.io teams. To organize projects by team inside of Frame.io, you have to assign the correct Workfront group to the project before it's created.  
 
+We recommend using a project template to create connected projects because you can set the project group before.
+
 If you choose to create the project from scratch, Workfront automatically adds the Default project group and the mirror Frame.io project is created under that default team in frame.io. Updating the group after project creation does not change the Frame.io team. 
 
 ### Create the template and specify the project group
@@ -81,8 +83,6 @@ If you choose to create the project from scratch, Workfront automatically adds t
 Continue to the next section.
 
 ![](assets/template-group.png)
-
-
 
 ### Add tasks and assign Frame.io enabled users
 
@@ -139,12 +139,9 @@ You can create a new project from scratch as needed.
 
 >[!IMPORTANT]
 >
->The default project group is automatically assigned and cannot be reconfigured in Frame.io after project creation. 
+>Projects in Frame.io are organized by team, and Workfront groups are associated with Frame.io teams. To organize projects by team inside of Frame.io, you have to assign the correct Workfront group to the project before it's created.  
 >
->The Group is automatically set as the Default group, which means the project is associated with the corresponding default Frame.io team. This cannot be changed in Frame.io.
->
->To specify a specific group/team, you need to use a template to create the project. See the [Create a project template] section above for details.
-
+>If you choose to create the project from scratch, Workfront automatically adds the Default project group and the mirror Frame.io project is created under that default team in frame.io. Updating the group after project creation does not change the Frame.io team. 
 
 ### Create the project
 
