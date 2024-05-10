@@ -16,7 +16,9 @@ You can edit the layout of the record preview and page in Adobe Workfront Planni
 
 The record preview is a smaller view of the record page that displays in the view of a record type. 
 
-When you change the layout of a record  preview and page, the changes affect the boxes and pages of all records of the same type. 
+When you change the layout of a record  preview and page, the changes affect the preview boxes and details pages of all records of the same type. 
+
+This article describes how you can change the layout and appearance of a record preview box or a record page. For information about editing records, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
 
 You must create record types and records before you can start editing record pages. 
 
