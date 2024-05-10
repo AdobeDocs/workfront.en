@@ -10,8 +10,6 @@ exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
 
 # Glossary of [!DNL Adobe Workfront] terminology
 
-{{highlighted-preview}}
-
 <!--Audited: 12/2023-->
 
 >[!IMPORTANT]
@@ -252,13 +250,13 @@ The following table is a list of commonly used terms in Adobe Workfront:
 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Billable Expense]</td> 
-   <td> <p>An expense that is marked as billable to the customer. This can be either a planned expense or an actual expense.</p> <p><span class="preview">The Billable Planned Expense Cost and Billable Actual Expense Cost fields are available for you to add to views and reports. They do not appear on the project or task details pages.</span></p>
-   <p><span class="preview">You can find these fields in the following types of reports:</span></p>
-   <ul><span class="preview">
+   <td> <p>An expense that is marked as billable to the customer. This can be either a planned expense or an actual expense.</p> <p>The Planned Billable Expense Cost and Actual Billable Expense Cost fields are available for you to add to views and reports. They do not appear on the project or task details pages.</p>
+   <p>You can find these fields in the following types of reports:</p>
+   <ul>
    <li>Baseline</li>
    <li>Template</li>
    <li>Project (Financial Data)</li>
-   </span></ul>
+   </ul>
    <p>For more information about marking an expense as billable, see <a href="/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md">Manage project expenses</a>.</p>
    </td> 
   </tr>
@@ -1317,13 +1315,13 @@ The designated full time equivalency for users. A full-time user should have 100
 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Non-Billable Expense]</td> 
-   <td> <p>An expense that is not marked as billable to the customer. This can be either a planned expense or an actual expense.</p> <p><span class="preview">The Non-Billable Planned Expense Cost and Non-Billable Actual Expense Cost fields are available for you to add to views and reports. They do not appear on the project or task details pages.</span></p>
-   <p><span class="preview">You can find these fields in the following types of reports:</span></p>
-   <ul><span class="preview">
+   <td> <p>An expense that is not marked as billable to the customer. This can be either a planned expense or an actual expense.</p> <p>The Planned Non-Billable Expense Cost and Actual Non-Billable Expense Cost fields are available for you to add to views and reports. They do not appear on the project or task details pages.</p>
+   <p>You can find these fields in the following types of reports:</p>
+   <ul>
    <li>Baseline</li>
    <li>Template</li>
    <li>Project (Financial Data)</li>
-   </span></ul>
+   </ul>
    <p>For more information about marking an expense as billable, see <a href="/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md">Manage project expenses</a>.</p>
    </td> 
   </tr>
