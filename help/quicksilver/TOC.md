@@ -153,6 +153,7 @@ feature-set: Workfront
       * [21.1 Mobile enhancements](product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md)
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
+      * [Workfront Fusion release activity: Week of May 6, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-6.md)
       * [Workfront Fusion release activity: Week of April 8, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-4-8.md)
       * [Workfront Fusion release activity: Week of March 11, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-3-14.md)
       * [Workfront Fusion release activity: Week of February 26, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-2-26.md)
@@ -2053,7 +2054,7 @@ feature-set: Workfront
     * [Delete fields](maestro/fields/delete-fields.md) 
     * [Formula fields overview](maestro/fields/formula-fields.md)   
   * Adobe Maestro access {#adobe-maestro-access}
-    * [Adobe Workfront Planning Access information: article index](maestro/access/access-information.md)
+    * [Adobe Workfront Planning access information: article index](maestro/access/access-information.md)
     * [Access overview](maestro/access/access-overview.md)
     * [Overview of sharing permissions in Adobe Workfront planning capabilities](maestro/access/sharing-permissions-overview.md)
     * [License type overview when using Adobe Workfront planning](maestro/access/license-type-overview.md)
@@ -2214,6 +2215,7 @@ feature-set: Workfront
     * [Adobe Campaign Classic modules](workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)
     * [Adobe Experience Manager Assets modules](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)    
     * [Adobe Experience Manager Forms module](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)    
+    * [Adobe Firefly modules](workfront-fusion/apps-and-their-modules/adobe-firefly-modules.md)
     * [Adobe Journey Optimizer modules](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
     * [Adobe Lightroom modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
     * [Adobe PDF Services modules](workfront-fusion/apps-and-their-modules/pdf-modules.md)
