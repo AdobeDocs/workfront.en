@@ -116,6 +116,8 @@ If you see the map button above a field or function, you can use it to set varia
 
 This action module makes a custom call to the Firefly API.
 
+For specific available APIs, see [Adobe Firefly API](https://developer.adobe.com/firefly-services/docs/firefly-api/) in the Adobe Developer documentation.
+
 <table style="table-layout:auto"> 
   <col/>
   <col/>
