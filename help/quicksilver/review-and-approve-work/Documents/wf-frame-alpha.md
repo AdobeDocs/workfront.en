@@ -19,7 +19,12 @@ Here you will find information about the latest Beta release along with a brief 
 >In order to participate in this Beta, you must be enabled by the product team. Contact your Customer Success or Account Manager and request to be added.
 
 
-## Beta Release updates in Frame.io - Mar. 2024
+## Demo Video
+
+>[!VIDEO](https://video.tv.adobe.com/v/3429092/)
+
+
+## March 2024: Beta Release updates in Frame.io
 
 In this Beta release we have:
 
@@ -33,7 +38,7 @@ The menu items for adding an asset to Workfront have been updated making it easi
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428213/)
 
-## Beta Release updates in Workfront - Mar. 2024
+## March 2024: Beta Release updates in Workfront
 
 In this Beta release we have:
 
@@ -125,11 +130,6 @@ To test the functionality, please log in to your Workfront Preview or Sandbox in
 For participants looking to test additional functionality, we've created a more involved test scenario. A guide for this detailed test scenario can be downloaded here: [WF + Frame.io Detailed Test Scenario Walkthrough](/help/quicksilver/review-and-approve-work/Documents/assets/wf-frame-detailed-walk-through-may-release.pdf).
 +++
 
-<!-- 
-## Demo Video
-
->[!VIDEO](https://video.tv.adobe.com/v/3426406/)
--->
 
 ## Send Feedback
 
