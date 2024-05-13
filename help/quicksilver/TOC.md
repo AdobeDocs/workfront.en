@@ -153,6 +153,7 @@ feature-set: Workfront
       * [21.1 Mobile enhancements](product-announcements/product-releases/21.1-release-activity/21-1-mobile-enhancements.md)
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
+      * [Workfront Fusion release activity: Week of May 6, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-6.md)
       * [Workfront Fusion release activity: Week of April 8, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-4-8.md)
       * [Workfront Fusion release activity: Week of March 11, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-3-14.md)
       * [Workfront Fusion release activity: Week of February 26, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-2-26.md)
@@ -407,9 +408,8 @@ feature-set: Workfront
       * [New commenting experience](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
       * [New commenting experience release activity](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
       * [New commenting experience FAQs](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
-    * Workfront and Frame.io integration alpha {#frame-io-wf-integration-alpha}
-      * [Adobe Workfront and Frame.io native integration alpha: overview](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-overview.md)
-      * [Adobe Workfront and Frame.io native integration alpha: features](product-announcements/betas/frame-io-wf-integration-alpha/frame-io-wf-integration-alpha-features.md)
+    * Workfront and Frame.io integration beta {#frame-io-wf-integration-beta}
+      * [Adobe Workfront and Frame.io native integration beta](review-and-approve-work/Documents/wf-frame-alpha.md)
     * Workfront data lake beta {#data-lake-beta}
       * [Workfront data lake beta information](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * Administration and setup {#administration-and-setup}
@@ -1787,7 +1787,6 @@ feature-set: Workfront
 * Review and approve work {#review-and-approve-work}
   * [Review and approve work](review-and-approve-work/review-and-approve-work.md)
   * [Alpha Program – Document Approvals](review-and-approve-work/Documents/doc-approvals-alpha.md)
-  * [Beta Program - Workfront + Frame.io](review-and-approve-work/Documents/wf-frame-alpha.md)
   * [Limited document and proof decision for non-paid users overview](review-and-approve-work/proof-doc-decision-limits.md)
   * Work approvals {#work-approvals}
     * [Work approvals](review-and-approve-work/manage-approvals/manage-approvals.md)
@@ -2056,7 +2055,7 @@ feature-set: Workfront
     * [Delete fields](maestro/fields/delete-fields.md) 
     * [Formula fields overview](maestro/fields/formula-fields.md)   
   * Adobe Maestro access {#adobe-maestro-access}
-    * [Adobe Workfront Planning Access information: article index](maestro/access/access-information.md)
+    * [Adobe Workfront Planning access information: article index](maestro/access/access-information.md)
     * [Access overview](maestro/access/access-overview.md)
     * [Overview of sharing permissions in Adobe Workfront planning capabilities](maestro/access/sharing-permissions-overview.md)
     * [License type overview when using Adobe Workfront planning](maestro/access/license-type-overview.md)
@@ -2080,6 +2079,11 @@ feature-set: Workfront
     * [Manage the table view](maestro/views/manage-the-table-view.md)
     * [Manage the timeline view](maestro/views/manage-the-timeline-view.md)
     * [Manage the calendar view](maestro/views/manage-the-calendar-view.md)
+  * Adobe Maestro notifications {#adobe-maestro-notifications}
+    * [Adobe Workfront Planning notifications: Article index](maestro/notifications/notifications-information.md)
+    * [Manage Adobe Workfront Planning notification preferences](maestro/notifications/manage-notification-preferences.md)
+    * [Manage Adobe Workfront Planning email notifications](maestro/notifications/manage-planning-email-notifications.md)
+    * [Manage Adobe Workfront Planning in-app notifications](maestro/notifications/manage-planning-in-app-notifications.md)
 * Adobe Workfront Fusion {#adobe-workfront-fusion}
   * [Adobe Workfront Fusion](workfront-fusion/workfront-fusion-2.md)
   * [ Fusion access table template](/help/quicksilver/workfront-fusion/fusion-access-table-template.md)
@@ -2087,6 +2091,13 @@ feature-set: Workfront
     * [Get started with Adobe Workfront Fusion](workfront-fusion/get-started/get-started.md)
     * [Adobe Workfront Fusion overview](workfront-fusion/get-started/workfront-fusion-overview.md)
     * [Basic terms in Adobe Workfront Fusion](workfront-fusion/get-started/basic-terms.md)
+    * Build practice scenarios {#practice-scenarios-in-workfront-fusion}
+      * [Create practice scenarios](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md)
+      * [Create a basic scenario in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md)
+      * [Add a trigger module to a basic scenario in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-trigger-to-simple-scenario.md)
+      * [Use a function to update a project in a simple scenario in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/update-a-project-simple-scenario.md)
+      * [Add a filter to a basic scenario in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-filter-simple-scenario.md)
+      * [Add a webhook to a basic scenario in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)
     * [Create a practice automation scenario in Adobe Workfront Fusion](workfront-fusion/get-started/create-a-practice-automation-scenario.md)
     * [Create a practice integration scenario in Adobe Workfront Fusion](workfront-fusion/get-started/create-a-practice-scenario.md)
     * [Adobe Workfront Fusion performance guardrails](workfront-fusion/get-started/fusion-performance-guardrails.md)
@@ -2205,6 +2216,7 @@ feature-set: Workfront
     * [Adobe Campaign Classic modules](workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md)
     * [Adobe Experience Manager Assets modules](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)    
     * [Adobe Experience Manager Forms module](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)    
+    * [Adobe Firefly modules](workfront-fusion/apps-and-their-modules/adobe-firefly-modules.md)
     * [Adobe Journey Optimizer modules](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
     * [Adobe Lightroom modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
     * [Adobe PDF Services modules](workfront-fusion/apps-and-their-modules/pdf-modules.md)
