@@ -12,8 +12,7 @@ role: Admin
 
 # Configure the [!DNL Workfront] and [!DNL Frame.io] integration
 
-
-The Workfront administrator enables the integration between Workfront and Frame.io by configuring the default Frame.io account in the Setup area and then designating Frame.io users in Workfront. This allows the project coordinator to plan and initiate work using Workfront Projects and formal review and approval workflows. 
+The Workfront administrator enables the integration between Workfront and Frame.io by configuring the default Frame.io account in the Setup area and then designating Frame.io users in Workfront. This allows the project coordinator to plan and initiate work using Workfront projects and review and approval workflows. 
 
 
 ## Access requirements
@@ -38,12 +37,7 @@ You must have the following:
    New: [!UICONTROL Standard]
    </td>
   </tr>
-  <tr>
-   <td><strong>Product</strong>
-   </td>
-   <td>You must have Frame.io.
-   </td>
-  </tr>
+  
   <tr>
    <td><strong>Access level configurations</strong>
    </td>
@@ -62,7 +56,7 @@ Once a default [!DNL Frame.io] account is set up, any projects created in [!DNL 
 
 >[!IMPORTANT]
 >
->This feature is coming soon. For now, Frame.io accounts are added manually by the Workfront team. Contact your Adobe account representative. 
+>This feature is coming soon. For now, Frame.io accounts are added manually by the Workfront team. Contact your Adobe account representative for help. 
 
 ## Configure a single Frame.io account with a Workfront group
 
@@ -78,7 +72,7 @@ To configure a single Frame.io account with a Workfront group:
 ![](assets/connect-frame-group.png)
 1. Enter the API developer token.
 1. Click **Initiate Connection**.
-1. (Conditional) If you are the administrator of more than one Frame.io account, select the account you want to use. <!--is this accurate-->
+1. (Conditional) If you are the administrator of more than one Frame.io account, select the account you want to use.
 
 ## Enable Frame.io users
 
@@ -88,21 +82,21 @@ Workfront users who regularly use Frame.io should be marked as Frame.io users. W
 >
 >We recommend enabling users who regularly work in creative tools and upload assets for review and approval as Frame.io users.
 
-When a user is marked as a Frame.io user in Workfront and is added to a project,
+When a user is marked as a Frame.io user in Workfront and is added to a project:
 
-* They are added as a Collaborator in Frame.io <!--do we need to be more explicit about a frame license being provisioned for them?-->
-* They can send assets from Frame.io to Workfront for formal review and approval
-* They can view information in the one-way sync folder from Workfront
+* They are added as a Collaborator in Frame.io. <!--do we need to be more explicit about a frame license being provisioned for them?-->
+* They can send assets from Frame.io to Workfront for formal review and approval.
+* They can view information in the one-way sync folder from Workfront. [!BADGE Coming soon]{type=Informative}
 
 To enable Frame.io users:
 
 {{step-1-to-users}}
 
 1. Select one or more users, then click the **Edit** icon ![](assets/edit-icon.png). 
-1. In the Access section, enable the Add to projects in Frame.io checkbox, then select Yes in the drop-down menu. 
+1. In the Access section, enable the Add to projects in Frame.io checkbox, then select **Yes** in the drop-down menu. 
     ![](assets/add-to-frame-project.png)
 
     >[!NOTE]
     >
-    >If this box is unchecked, the user retains access to past assignments and are not assigned moving forward. If the user is deactivated, they lose all access to previous assignments and are removed from the Frame.io account.
+    >If this box is unchecked, the user retains access to past assignments and are added to Frame.io projects moving forward.<!-- If the user is deactivated, they lose all access to previous assignments and are removed from the Frame.io account.-->
 

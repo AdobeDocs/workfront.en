@@ -1192,6 +1192,7 @@ feature-set: Workfront
       * [Create a project using a template](manage-work/projects/create-projects/create-project-from-template.md)
       * [Import a project from Microsoft Project](manage-work/projects/create-projects/import-project-from-ms-project.md)
       * [Create project baselines](manage-work/projects/create-projects/create-baselines.md)
+      * [Create a project connected with Frame.io](/manage-work/projects/create-projects/create-frame-connected-project.md)
     * Update work on a project {#update-work-on-a-project}
       * [Update work on a project: article index](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
       * [Apply statuses to work that is associated with a group](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
@@ -1803,6 +1804,7 @@ feature-set: Workfront
   * Document review and approval {#document-reviews-and-approvals}
     * [Document review and approval](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
     * [Document approvals overview](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
+    * [Get started with Asset review and approval with Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/frame-wf-get-started.md)
     * [Asset review and approval overview](review-and-approve-work/document-reviews-and-approvals/review-and-approval-overview.md)
     * Review documents {#review-and-approve-documents}
       * [Review documents: article index](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
