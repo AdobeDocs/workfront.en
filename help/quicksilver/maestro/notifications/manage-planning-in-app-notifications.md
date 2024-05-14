@@ -1,11 +1,11 @@
 ---
-title: Manage Adobe Workfront Planning in-app notifications 
-description: When someone tags you in a record comment, you receive an email notification for that tag. 
+title: Manage Adobe Workfront Planning in-app notifications
+description: When someone tags you in a record comment, you receive an email notification for that tag.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
 ---
-
 # Manage Adobe Workfront Planning in-app notifications
 
 {{maestro-important-intro}}
@@ -88,4 +88,4 @@ You must have the following access to perform the steps in this article:
     The record details page opens in Workfront Planning. You can make updates to the record, or reply to the comment. 
 
 1. (Optional) Click **Mark all as read** to indicate that you have read all notifications.
-1. (Optional) Click **View all** to go to the **Notifications** page in Adobe Experience Cloud. 
+1. (Optional) Click **View all** to go to the **Notifications** page in Adobe Experience Cloud.

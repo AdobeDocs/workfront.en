@@ -247,6 +247,19 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>[!UICONTROL Baseline]</td> 
    <td>A source of data to measure iterations against in an agile environment.</td> 
   </tr> 
+
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Billable Expense]</td> 
+   <td> <p>An expense that is marked as billable to the customer. This can be either a planned expense or an actual expense.</p> <p>The Planned Billable Expense Cost and Actual Billable Expense Cost fields are available for you to add to views and reports. They do not appear on the project or task details pages.</p>
+   <p>You can find these fields in the following types of reports:</p>
+   <ul>
+   <li>Baseline</li>
+   <li>Template</li>
+   <li>Project (Financial Data)</li>
+   </ul>
+   <p>For more information about marking an expense as billable, see <a href="/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md">Manage project expenses</a>.</p>
+   </td> 
+  </tr>
   
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Billing Record]</td> 
@@ -1299,6 +1312,20 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>In a [!UICONTROL Journal Entry] report, this displays the updated value of a field that replaces the [!UICONTROL Old Number Value].
    For more information, see "[!UICONTROL Old Number Value]" in this article.</td> 
   </tr>
+
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Non-Billable Expense]</td> 
+   <td> <p>An expense that is not marked as billable to the customer. This can be either a planned expense or an actual expense.</p> <p>The Planned Non-Billable Expense Cost and Actual Non-Billable Expense Cost fields are available for you to add to views and reports. They do not appear on the project or task details pages.</p>
+   <p>You can find these fields in the following types of reports:</p>
+   <ul>
+   <li>Baseline</li>
+   <li>Template</li>
+   <li>Project (Financial Data)</li>
+   </ul>
+   <p>For more information about marking an expense as billable, see <a href="/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md">Manage project expenses</a>.</p>
+   </td> 
+  </tr>
+
   <tr> 
    <td>[!UICONTROL Non Work Day]</td> 
    <td>A day that is not allocated to the completion of any assignments. This is usually a vacation day, holiday, or weekend. The term display in the API explorer. </td> 

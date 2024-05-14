@@ -63,6 +63,15 @@ The tables in the following sections illustrate the level of permissions that yo
 
 ### Workspace permissions
 
+You must give users permission to workspaces to allow them to have access to the following entities:
+
+* Workspaces
+* Record types
+* Records
+* Fields
+
+The following are the levels of permissions for workspaces: 
+
 |        | Manage | Contribute | View  |
 |--------|--------|------------|-------|
 | Edit | ✓      |            |       |
@@ -74,6 +83,9 @@ The tables in the following sections illustrate the level of permissions that yo
 
 Record Type permissions are inherited when you grant permissions to the workspace.
 
+The following are the levels of permissions for record types: 
+
+
 |        | Manage | Contribute | View  |
 |--------|--------|------------|-------|
 | Create | ✓      |            |       |
@@ -84,6 +96,9 @@ Record Type permissions are inherited when you grant permissions to the workspac
 ### Record permissions
 
 Record permissions are inherited when you grant permissions to the workspace.
+
+The following are the levels of permissions for records: 
+
 
 |        | Manage | Contribute | View  |
 |--------|--------|------------|-------|
@@ -109,7 +124,19 @@ The following permissions refer to the fields themselves and not to the values a
 
 You must grant separate permissions to record views. Granting permissions to the workspace does not grant permissions to the record views in the workspace. 
 
+You must give users permission to  views to allow them to have access to the following view elements:
+
+* Filters
+* Field visibility
+* Sort
+* Grouping
+* Row height
+* Settings
+
+
 <!--You can share views internally or publicly. -->
+
+The following are the levels of permissions for views and view elements: 
 
 |        | Manage | View  |
 |--------|--------|-------|

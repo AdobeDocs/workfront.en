@@ -97,27 +97,31 @@ For information about editing record information, see [Edit records](/help/quick
 1. Click a record type card. For information about creating a record type, see [Create record types](../architecture/create-record-types.md). 
 
     The record type page opens in the view that you last accessed. By default, a record type page opens in the table view. 
-    All the records of the selected type display in the table view. 
+    All the records of the selected type display in the view. 
 
-1. (Conditional) If the record type page does not open in the table view, click the tab of a table view, or click **+ View** to create a table view. 
+1. (Conditional) Depending on which view you display, do one of the following: 
 
-1. To add new records, click **New record** in the last row of the table 
+    * From the table view: 
 
-    Or 
+        * Click **New record** in the last row of the table 
 
-    Click **Shift + Enter** on your keyboard from any column or row of the table. This ads an empty row. 
+        * Click **Shift + Enter** on your keyboard from any column or row of the table. This ads an empty row. 
 
-    ![](assets/adding-a-new-campaign-in-table-row.png)
+        ![](assets/adding-a-new-campaign-in-table-row.png)
 
-1. Start typing information in the new row about the new record. 
+    * From any view: 
+    
+        * Click **New record** in the upper-right corner of the page. The record preview box opens. 
+
+1. Start typing information in the new row about the new record, or in the fields you see in the preview box. 
 
     >[!NOTE]
     >
-    >  * There are no mandatory fields for records. However, we recommend that you add a Name for the record as it is helpful to identify records when linking records to one another. 
+    >  * There are no mandatory fields for records. However, we recommend that you add a Name for the record as it is helpful to identify records by their name when linking records to one another. 
     >
     >  * Fields that refer to other record types or calculated fields are read-only fields. 
 
-1. Continue adding information on each row, then click **Enter** on your keyboard to save your changes.
+1. (Conditional) When adding records in the table, continue adding information on each row, then click **Enter** on your keyboard to save your changes.
 
     Or 
     
@@ -130,8 +134,7 @@ For information about editing record information, see [Edit records](/help/quick
 1. Start editing the record's information in the record's preview. Workfront automatically saves your changes. 
 1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the record's preview to open the record's page in a new tab. Continue editing the record on the record page.
 
-
-1. (Optional) Use the following keyboard shortcuts to undo or redo adding new records: 
+1. (Optional) Use the following keyboard shortcuts to undo or redo adding new records or their information, when adding them in the table view: 
 
     * CTRL + Z (⌘ + Z for Mac) to undo a change 
     * CTRL + Shift + Z (⌘ + Shift + Z for Mac) to redo a change
