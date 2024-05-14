@@ -22,12 +22,11 @@ The Workfront administrator enables the integration between Workfront and Frame.
 
 ### Configure the default Frame.io account [!BADGE Coming soon]{type=Informative}
 
+Workfront administrators initiate the Workfront and Frame.io integration by adding a default Frame.io account in the Setup area of Workfront. Once the default Frame.io account is set up, any projects created in Workfront have a mirror project created in Frame.io.
+
 >[!IMPORTANT]
 >
->This feature is coming soon. For now, Frame.io accounts are added manually by the Workfront team. Contact your Adobe account representative. 
-
-
-Workfront administrators initiate the Workfront and Frame.io integration by adding a default Frame.io account in the Setup area of Workfront. Once the default Frame.io account is set up, any projects created in Workfront have a mirror project created in Frame.io.
+>This feature is coming soon. For now, Frame.io accounts are added manually by the Workfront team. Contact your Adobe account representative for help. 
 
 <!--For more information, see [Configure the [!DNL Workfront] and [!DNL Frame.io] integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
@@ -41,11 +40,11 @@ Workfront users who regularly use Frame.io should be marked as Frame.io users. W
 >
 >We recommend enabling users who regularly work in creative tools and upload assets for review and approval as Frame.io users.
 
-When a user is marked as a Frame.io user in Workfront and is added to a project,
+When a user is marked as a Frame.io user in Workfront and is added to a project:
 
-* They are added as a Collaborator in Frame.io
-* They can send assets from Frame.io to Workfront for formal review and approval
-* They can view information in the one-way sync folder from Workfront [!BADGE Coming soon]{type=Informative}
+* They are added as a Collaborator in Frame.io.
+* They can send assets from Frame.io to Workfront for formal review and approval.
+* They can view information in the one-way sync folder from Workfront. [!BADGE Coming soon]{type=Informative}
 
 For more information, see [Configure the [!DNL Workfront] and [!DNL Frame.io] integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
@@ -76,7 +75,7 @@ When a creative is added to a connected project, they can do the following in Fr
 * Change the status of a task or mark it complete 
 * Upload new versions and then resubmit them for approval <!--do they have to send to frame.io again?-->
 
-For more information about reviewing assets in Frame.io, see [].<!-- will ask FIO team if they are creating a specific article for this -->
+<!--For more information about reviewing assets in Frame.io, see []. will ask FIO team if they are creating a specific article for this -->
 
 ## Review and approve assets
 
@@ -132,11 +131,11 @@ All comments made in the Frame.io viewer are also recorded in the Workfront Upda
 
 Once all review activity is complete, approvers must make one of the following decisions:
 
-* Approve: The asset does not need changes and is ready for use.
-* Approve with changes: The asset needs changes and is ready for use once they are made. Additional approval is not required. 
-* Needs work: The asset needs changes and is not ready for use. Once the specified changes are made, the asset must be uploaded as a new version and go through another round of approvals. <!--is the same approval workflow automatically applied? Does the coordinator have to do anything to get the approval going? -->
+* **Approve**: The asset does not need changes and is ready for use.
+* **Approve with changes**: The asset needs changes and is ready for use once they are made. Additional approval is not required. 
+* **Needs work**: The asset needs changes and is not ready for use. Once the specified changes are made, the asset must be uploaded as a new version and go through another round of approvals. <!--is the same approval workflow automatically applied? Does the coordinator have to do anything to get the approval going? -->
 
-Reviewers can mark their review complete inside of the Frame.io viewer, but this is not required for the asset to move forward in the approval process. <!--check if this is accurate -->
+Reviewers can mark their review complete inside of the Frame.io viewer, but this is not required for the asset to move forward in the approval process. 
 
 For more information about decisions in Workfront, see [Document decision status overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md). 
 
@@ -154,17 +153,3 @@ Project coordinators can monitor progress on all in-flight approvals in the Work
 
 * **All approvals**: Displays 2 charts with information about average approval time and decisions as well as list views of pending and overdue approvals.
     ![](assets/all-approvals.png)
-
-
-### Send approved assets to Adobe Experience Manager Assets 
-
-<!-- deprioritized?-->
-Use the native integration to send approved assets to Adobe Experience Manager Assets.
-
-^ need more info
-
-## Example campaign asset approval workflow
-
-<!-- do we still want something like this?-->
-
-![](assets/example-workflow.png) - probably need a different version of this or even a video walkthrough

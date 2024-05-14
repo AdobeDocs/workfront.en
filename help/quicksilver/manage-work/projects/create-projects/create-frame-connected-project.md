@@ -64,7 +64,11 @@ For more information about the prerequisites above, see [Configure the [!DNL Wor
 
 When building a new template, you can enter the information for all tasks and for your future project settings. This information will then transfer to any project that you create from the template.
 
-Projects in Frame.io are organized by team, and Workfront groups are associated with Frame.io teams. To organize projects by team inside of Frame.io, you have to assign the correct Workfront group to the project before it's created.  
+Projects in Frame.io are organized by team, and 
+
+Workfront groups are associated with Frame.io teams. 
+
+To organize projects by team inside of Frame.io, you have to assign the correct Workfront group to the project before it's created.  
 
 We recommend using a project template to create connected projects because you can set the project group before.
 
