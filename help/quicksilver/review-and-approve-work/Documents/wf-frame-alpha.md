@@ -18,10 +18,32 @@ Here you will find information about the latest Beta release along with a brief 
 >
 >In order to participate in this Beta, you must be enabled by the product team. Contact your Customer Success or Account Manager and request to be added.
 
+## May 2024: Beta release updates in Workfront
 
-## Beta Release updates in Frame.io - Mar. 2024
+This May release includes the following capabilities:  
 
-In this Beta release we have:
+>[!VIDEO](https://video.tv.adobe.com/v/3429129/)
+
+### Workfront projects are automatically synced to Frame.io
+
+Based on your feedback, we've improved the experience and reduced the steps needed to trigger the creation of a connected Frame.io.  Now, when you create a project in Workfront, a corresponding project is automatically created in Frame.io. 
+
+### Improved assignment of creatives to your Frame.io project
+
+You can now easily manage who should have access to the connected Frame.io project. Your creative users can be flagged as "Frame.io enabled" which will automatically grant them access to the connected Frame.io project when assigned to the Workfront project.   
+
+### Frame.io project name gets updated when Workfront project name changes
+
+As part of our efforts to improve the project synchronization between Workfront and Frame.io, Workfront project name updates are now also reflected within Frame.io. 
+
+### Approval status in document list
+
+Easily track the approval status of any file directly from the document list. With a simple click on the overall status, access a detailed breakdown of all participants involved in the approval process, along with their individual statuses. Additionally, streamline your workflow by reminding any outstanding approvers with just one click, ensuring timely responses and efficient document management. 
+
+
+## March 2024: Beta Release updates in Frame.io
+
++++ Expand to view the functionality released in March 2024
 
 ### Add multiple assets from Frame.io to Workfront
 
@@ -33,7 +55,7 @@ The menu items for adding an asset to Workfront have been updated making it easi
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428213/)
 
-## Beta Release updates in Workfront - Mar. 2024
+## March 2024: Beta Release updates in Workfront
 
 In this Beta release we have:
 
@@ -76,6 +98,8 @@ Once locked, any person either reviewing and/or approving will no longer be able
 When a new document version is uploaded, the next round of revision can be kicked off while keeping previous revisions locked.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428179/)
+
++++
 
 ## Feature testing
 
@@ -122,14 +146,12 @@ To test the functionality, please log in to your Workfront Preview or Sandbox in
 
 +++ Expand to view detailed testing instructions
 
-For participants looking to test additional functionality, we've created a more involved test scenario. A guide for this detailed test scenario can be downloaded here: [WF + Frame.io Detailed Test Scenario Walkthrough](/help/quicksilver/review-and-approve-work/Documents/assets/wf-frame-detailed-walk-through-may-release.pdf).
+For participants looking to test additional functionality, we've created a more involved test scenario. A guide for this detailed test scenario can be downloaded here: [WF + Frame.io Detailed Test Scenario Walkthrough](/help/quicksilver/review-and-approve-work/Documents/assets/WF-Frame-Detailed-Walk-Through-May-Release.pdf).
 +++
 
-<!-- 
 ## Demo Video
 
->[!VIDEO](https://video.tv.adobe.com/v/3426406/)
--->
+>[!VIDEO](https://video.tv.adobe.com/v/3429092/)
 
 ## Send Feedback
 
