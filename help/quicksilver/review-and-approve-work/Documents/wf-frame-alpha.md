@@ -18,15 +18,32 @@ Here you will find information about the latest Beta release along with a brief 
 >
 >In order to participate in this Beta, you must be enabled by the product team. Contact your Customer Success or Account Manager and request to be added.
 
+## May 2024: Beta release updates in Workfront
 
-## Demo Video
+This May release includes the following capabilities:  
 
->[!VIDEO](https://video.tv.adobe.com/v/3429092/)
+>[!VIDEO](https://video.tv.adobe.com/v/3429129/)
+
+### Workfront projects are automatically synced to Frame.io
+
+Based on your feedback, we've improved the experience and reduced the steps needed to trigger the creation of a connected Frame.io.  Now, when you create a project in Workfront, a corresponding project is automatically created in Frame.io. 
+
+### Improved assignment of creatives to your Frame.io project
+
+You can now easily manage who should have access to the connected Frame.io project. Your creative users can be flagged as "Frame.io enabled" which will automatically grant them access to the connected Frame.io project when assigned to the Workfront project.   
+
+### Frame.io project name gets updated when Workfront project name changes
+
+As part of our efforts to improve the project synchronization between Workfront and Frame.io, Workfront project name updates are now also reflected within Frame.io. 
+
+### Approval status in document list
+
+Easily track the approval status of any file directly from the document list. With a simple click on the overall status, access a detailed breakdown of all participants involved in the approval process, along with their individual statuses. Additionally, streamline your workflow by reminding any outstanding approvers with just one click, ensuring timely responses and efficient document management. 
 
 
 ## March 2024: Beta Release updates in Frame.io
 
-In this Beta release we have:
++++ Expand to view the functionality released in March 2024
 
 ### Add multiple assets from Frame.io to Workfront
 
@@ -82,6 +99,8 @@ When a new document version is uploaded, the next round of revision can be kicke
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428179/)
 
++++
+
 ## Feature testing
 
 With this integration, our goal is to allow creatives to stay in their tool of choice (CC or Frame.io) to conduct their content creation and peer reviews, while having project managers coordinate the work and initialize and monitor the formal review process from inside Workfront. This can be achieved by utilizing the best of both solutions: Workfront's new document approvals for managing content approvals, in conjunction with the content review capabilities offered by Frame.io. Collectively, the new document approvals and Frame.io are going to form our new end-to-end content review and approval experience. 
@@ -130,6 +149,9 @@ To test the functionality, please log in to your Workfront Preview or Sandbox in
 For participants looking to test additional functionality, we've created a more involved test scenario. A guide for this detailed test scenario can be downloaded here: [WF + Frame.io Detailed Test Scenario Walkthrough](/help/quicksilver/review-and-approve-work/Documents/WF-Frame-Detailed-Walk-Through-May-Release.pdf).
 +++
 
+## Demo Video
+
+>[!VIDEO](https://video.tv.adobe.com/v/3429092/)
 
 ## Send Feedback
 
