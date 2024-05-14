@@ -69,7 +69,6 @@ To configure a single Frame.io account with a Workfront group:
 1. In the left panel, click **Groups**.
 1. Choose an existing group, or click **Create group**. 
 1. In the left panel, click **Connect to Frame.io**. 
-![](assets/connect-frame-group.png)
 1. Enter the API developer token.
 1. Click **Initiate Connection**.
 1. (Conditional) If you are the administrator of more than one Frame.io account, select the account you want to use.

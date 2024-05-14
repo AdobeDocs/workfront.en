@@ -105,13 +105,13 @@ Continue to the next section.
 
 Workfront has robust project management capabilities. We recommend using the [Edit project templates](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md) article to configure the following areas of the template:
 
-   * Overview
-   * Finance
-   * Custom Forms
-   * Project Settings
-   * Tasks Settings
-   * Issue Settings
-   * Access
+* Overview
+* Finance
+* Custom Forms
+* Project Settings
+* Tasks Settings
+* Issue Settings
+* Access
 
 ### Create a project from the template
 
@@ -187,13 +187,13 @@ Continue to the next section.
 
 Workfront has robust project management capabilities. We recommend using the [Edit projects](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md) article to configure the following areas of the project:
 
-   * Overview
-   * Finance
-   * Custom Forms
-   * Project Settings
-   * Tasks Settings
-   * Issue Settings
-   * Access
+* Overview
+* Finance
+* Custom Forms
+* Project Settings
+* Tasks Settings
+* Issue Settings
+* Access
 
 ### Set the project to current
 
