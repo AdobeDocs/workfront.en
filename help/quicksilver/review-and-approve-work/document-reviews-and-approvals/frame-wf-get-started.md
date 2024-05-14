@@ -75,7 +75,7 @@ When a creative is added to a connected project, they can do the following in Fr
 * Change the status of a task or mark it complete 
 * Upload new versions and then resubmit them for approval <!--do they have to send to frame.io again?-->
 
-<!--For more information about reviewing assets in Frame.io, see []. will ask FIO team if they are creating a specific article for this -->
+For more information about Frame.io, see [I've been invited to collaborate on a Project](https://support.frame.io/en/articles/11125-i-ve-been-invited-to-collaborate-on-a-project).
 
 ## Review and approve assets
 
