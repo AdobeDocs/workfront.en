@@ -146,7 +146,7 @@ To test the functionality, please log in to your Workfront Preview or Sandbox in
 
 +++ Expand to view detailed testing instructions
 
-For participants looking to test additional functionality, we've created a more involved test scenario. A guide for this detailed test scenario can be downloaded here: [WF + Frame.io Detailed Test Scenario Walkthrough](/help/quicksilver/review-and-approve-work/Documents/WF-Frame-Detailed-Walk-Through-May-Release.pdf).
+For participants looking to test additional functionality, we've created a more involved test scenario. A guide for this detailed test scenario can be downloaded here: [WF + Frame.io Detailed Test Scenario Walkthrough](/help/quicksilver/review-and-approve-work/Documents/assets/WF-Frame-Detailed-Walk-Through-May-Release.pdf).
 +++
 
 ## Demo Video
