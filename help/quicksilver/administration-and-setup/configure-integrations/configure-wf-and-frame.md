@@ -7,9 +7,8 @@ description: As an [!DNL Adobe Workfront] administrator, you can integrate [!DNL
 author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
-
+exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
 ---
-
 # Configure the [!DNL Workfront] and [!DNL Frame.io] integration
 
 The Workfront administrator enables the integration between Workfront and Frame.io by configuring the default Frame.io account in the Setup area and then designating Frame.io users in Workfront. This allows the project coordinator to plan and initiate work using Workfront projects and review and approval workflows. 
@@ -98,4 +97,3 @@ To enable Frame.io users:
     >[!NOTE]
     >
     >If this box is unchecked, the user retains access to past assignments and are added to Frame.io projects moving forward.<!-- If the user is deactivated, they lose all access to previous assignments and are removed from the Frame.io account.-->
-
