@@ -91,8 +91,7 @@ This page provides information about functionality that is included in the Third
                                 <p>Preview release: February 13, 2024</p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 24.3 release (March 14, 2024)</p>
-                                <p><span style="color: #ff0000;">This feature was removed from Production for fast release customers on March 18, 2024.</span></p>
+                                <p>Production for fast release: With the 24.5 release (May 16, 2024)</p>
                             </li>
                             <li>
                                 <p>Production for quarterly release: TBD</p>
@@ -112,8 +111,7 @@ This page provides information about functionality that is included in the Third
                                 <p>Preview release: December 21, 2023</p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 24.3 release (March 14, 2024)</p>
-                                <p><span style="color: #ff0000;">This feature was removed from Production for fast release customers on March 18, 2024.</span></p>
+                                <p>Production for fast release: With the 24.5 release (May 16, 2024)</p>
                             </li>
                             <li>
                                 <p>Production for quarterly release: TBD</p>
