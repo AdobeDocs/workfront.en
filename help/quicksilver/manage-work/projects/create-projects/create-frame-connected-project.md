@@ -54,9 +54,8 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Prerequisites
 
-* Set up the default Frame.io account in the Workfront setup area <!--note about how this is done by WF at first? -->
+* Set up the default Frame.io account in the Workfront setup area 
 * Enable Frame.io users in the Workfront user profile
-* Set up appropriate groups to organize your projects 
 
 For more information about the prerequisites above, see [Configure the [!DNL Workfront] and [!DNL Frame.io] integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
