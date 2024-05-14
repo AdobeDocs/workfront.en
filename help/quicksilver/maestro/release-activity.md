@@ -78,7 +78,39 @@ If your organization is not in the Adobe Unified Experience, you receive an emai
 
 For more information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/maestro/notifications/notifications-information.md). 
 
+### New warning about object visibility when connecting records 
+
+Production: <date>
+
+Preview: To be determined
+
+When you create connections to object types outside of Workfront Planning, you are now notified that anyone working in the current workspace will have visibility to all the linked objects and their lookup fields, regardless of their permissions and access levels in the other application. 
+
+For example, if you link projects to Workfront Planning campaigns, everyone with access to View the campaign will also have access to view the linked projects and the information from their lookup fields, even when they don't have any permissions to the linked projects, or access to projects, in general. 
+
+For more information, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).  
+
 -->
+
+## Week of May 13, 2024
+
+### Real-time updates in the timeline view after editing records
+
+Production: May 14, 2024 
+
+Preview: To be determined.  
+
+When a user updates the information on a record, other users can view the updated information in the record's timeline view in real time. This ensures that all users view the updated information at the same time, in sync with when the changes happen. 
+
+### Add record from the view header
+
+Production: May 14, 2024
+
+Preview: To be determined
+
+We have added a "New record" button on the header of a record type page. You can now create records from any view. Prior to this enhancement, you could create records only from the table view.  
+
+For more information, see [Create records](/help/quicksilver/maestro/records/create-records.md). 
 
 ## Week of May 6, 2024
 
