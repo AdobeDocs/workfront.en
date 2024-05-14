@@ -64,24 +64,23 @@ For more information about the prerequisites above, see [Configure the [!DNL Wor
 
 When building a new template, you can enter the information for all tasks and for your future project settings. This information will then transfer to any project that you create from the template.
 
-Projects in Frame.io are organized by team, and 
+Projects in Frame.io are organized by teams, which are connected to Workfront groups. We recommend using a project template to create connected projects because you can set the project group before.
 
-Workfront groups are associated with Frame.io teams. 
+If you choose to create the project from scratch, Workfront automatically adds the Default project group and the mirror Frame.io project is created under that default team in Frame.io. 
 
-To organize projects by team inside of Frame.io, you have to assign the correct Workfront group to the project before it's created.  
+>[!NOTE]
+>
+>Updating the group after project creation does not change the Frame.io team. 
 
-We recommend using a project template to create connected projects because you can set the project group before.
-
-If you choose to create the project from scratch, Workfront automatically adds the Default project group and the mirror Frame.io project is created under that default team in frame.io. Updating the group after project creation does not change the Frame.io team. 
 
 ### Create the template and specify the project group
 
 {{step1-to-templates}}
 
 1. Click **New Template**. 
-1. Type a name for your template. Press Enter to save the name.
+1. Type a name for your template, then press **Enter** to save the name.
 1. In the left panel, click **Template Details**.
-1. In the **Template association** section, make sure to specify a group. If you do not add a group, the default project group is added and the project in Frame.io is created under that corresponding frame.io team.
+1. In the **Template association** section, make sure to specify a group. If you do not add a group, the default project group is added and the project in Frame.io is created under the corresponding default team in Frame.io.
 
 Continue to the next section.
 
@@ -130,7 +129,7 @@ Once you create a template, you can use it to create projects.
 
    >[!NOTE]
    >
-   >This feature is currently in development. To share information with users in Frame.io, upload the files to the Document tab. When the status of the project is set to current, those files automatically push to Frame.io
+   >This feature is currently in development. To share information with users in Frame.io, upload the files to the Document tab. When the status of the project is set to Current, those files automatically push to Frame.io.
 
 1. In the project header, change the project from **Planning** to **Current**. 
 
@@ -142,16 +141,19 @@ You can create a new project from scratch as needed.
 
 >[!IMPORTANT]
 >
->Projects in Frame.io are organized by team, and Workfront groups are associated with Frame.io teams. To organize projects by team inside of Frame.io, you have to assign the correct Workfront group to the project before it's created.  
+>* Projects in Frame.io are organized by teams, which are connected to Workfront groups. We recommend using a project template to create connected projects because you can set the project group before.
 >
->If you choose to create the project from scratch, Workfront automatically adds the Default project group and the mirror Frame.io project is created under that default team in frame.io. Updating the group after project creation does not change the Frame.io team. 
+>
+>* If you choose to create the project from scratch, Workfront automatically adds the Default project group and the mirror Frame.io project is created under that default team in Frame.io.
+>
+>Updating the group after project creation does not change the Frame.io team.  
 
 ### Create the project
 
 {{step1-to-projects}}
 
 1. Click **New Project**. 
-1. Type a name for your project. Press Enter to save the name.
+1. Type a name for your project, then press **Enter** to save the name.
 
 Continue to the next section.
 
@@ -177,7 +179,7 @@ Continue to the next section.
 
    >[!NOTE]
    >
-   >   This feature is currently in development. To share information with users in Frame.io, upload the files to the Document tab. When the status of the project is set to current, those files automatically push to Frame.io
+   >This feature is currently in development. To share information with users in Frame.io, upload the files to the Document tab. When the status of the project is set to Current, those files automatically push to Frame.io
 
 Continue to the next section.
 
