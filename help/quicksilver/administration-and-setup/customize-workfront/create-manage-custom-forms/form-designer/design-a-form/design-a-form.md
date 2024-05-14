@@ -641,9 +641,9 @@ The Workfront Mobile app -->
 
  +++ **Expand to see descriptions of available fields**
 
-* **Image**: Allows users to add _____ image files.
+* **Image**: Allows users to add image files.
 * **PDF**: Allows users to add PDFs
-* **Videos**: Allows users to add ____ video files.
+* **Videos**: Allows users to add video files.
 
 +++
 
