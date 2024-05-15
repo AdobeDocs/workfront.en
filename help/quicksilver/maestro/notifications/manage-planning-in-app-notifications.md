@@ -79,7 +79,7 @@ You must have the following access to perform the steps in this article:
 
 ## Manage in-app notifications
 
-1. (Conditional) After someone tags you in a comment on a record, go to in-app **Notifications** icon ![](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud. 
+1. (Conditional) After someone tags you in a comment on a record, go to the in-app **Notifications** icon ![](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud. 
 
     ![](assets/in-app-notification-example.png)
 
