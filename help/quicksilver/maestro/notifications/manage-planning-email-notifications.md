@@ -88,4 +88,4 @@ You must have the following access to perform the steps in this article:
    The record details page opens in Workfront. You can make updates to the record, or reply to the comment. 
 
 1. (Conditional) If available, click **View all notifications**. <!--check with Lilit - do non-IMS users have this button??-->
-    The **Notifications** page opens in Adobe Experience Cloud.
+    The **Notifications** page opens in Adobe Experience Cloud. All notifications from all Adobe Experience Cloud applications display. 

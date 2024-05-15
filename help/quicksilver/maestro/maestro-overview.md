@@ -21,6 +21,8 @@ exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 >Currently, Adobe Workfront Planning is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use these capabilities.
 >
 >Contact your account representative for more information about joining the beta program for Workfront Planning.
+>
+>For a complete list of all sections and articles that document Workfront Planning, see [Adobe Workfront Planning: article index](/help/quicksilver/maestro/maestro-information.md). 
 
 <!--[View a video demonstration of Adobe Workfront Planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 

@@ -214,6 +214,8 @@ You must have the following access to perform the steps in this article:
 
 1. (Conditional) If you selected to connect to Experience Manager Assets, select a repository from the **Experience Manager repository** drop-down menu in the **Link assets from the following repository** section. This is a required field. Only repositories you have access to in Experience Manager Assets display in this field. 
 
+    <!--replace the screen shot below when they fix the permissions info icon bug-->
+    
     ![](assets/aem-assets-connection-selection.png)
 
 1. Click **Create**.
