@@ -527,6 +527,7 @@ You must add the following IP addresses to your allowlist in order to use variou
    <td role="rowheader">Prod-US (Clusters 1, 2, 3, 5, and 7)</td> 
    <td> 
     <ul> 
+    <li>35.84.172.250</li>
      <li>34.213.36.118</li> 
      <li>35.160.0.242</li> 
      <li>3.209.27.146</li> 
@@ -552,6 +553,7 @@ You must add the following IP addresses to your allowlist in order to use variou
    <td role="rowheader">Prod-EU (Cluster 4)</td> 
    <td> 
     <ul> 
+    <li>34.255.252.190</li>
      <li>34.246.27.40</li> 
      <li>52.208.123.166</li> 
      <li>3.121.91.129</li> 
