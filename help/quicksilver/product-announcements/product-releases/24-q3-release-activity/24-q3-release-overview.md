@@ -29,6 +29,7 @@ This page provides information about functionality that is included in the Third
 ## Adobe Workfront enhancements
 
 <!--* [Administrator enhancements](#administrator-enhancements)-->
+* [Financial management enhancements](#financial-management-enhancements)
 * [Project enhancements](#project-enhancements)
 * [Other enhancements](#other-enhancements)
 
@@ -73,13 +74,65 @@ This page provides information about functionality that is included in the Third
         </table>
 -->
 
+### Financial management enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Billable and non-billable expenses fields available for projects and tasks</a></p>
+                        <p>[!BADGE In production ]{type=Informative}</p>
+                        <p>To help you more easily view expense types, expenses have been separated into billable and non-billable expenses on projects and tasks. The following fields are available for you to add to views and reports:</p>
+                        <ul>
+                            <li><p>Planned Billable Expense Cost</p></li>
+                            <li><p>Planned Non-Billable Expense Cost</p></li>
+                            <li><p>Actual Non-Billable Expense Cost</p></li>
+                            <li><p>Actual Non-Billable Expense Cost</p></li>
+                        </ul>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: May 10, 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production for all customers: May 10, 2024</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>             
+           </tbody>
+        </table>
+
 ### Project enhancements
 
 <table>
             <col style="width: 50%;" />
             <col style="width: 50%;" />
             <tbody>
-                 <tr>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">More relevant assignments added to the New Task workflow</a></p>
                         <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
@@ -91,10 +144,7 @@ This page provides information about functionality that is included in the Third
                                 <p>Preview release: February 13, 2024</p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 24.5 release (May 16, 2024)</p>
-                            </li>
-                            <li>
-                                <p>Production for quarterly release: TBD</p>
+                                <p>Production release for all customers: With the 24.7 release (July 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -111,10 +161,7 @@ This page provides information about functionality that is included in the Third
                                 <p>Preview release: December 21, 2023</p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 24.5 release (May 16, 2024)</p>
-                            </li>
-                            <li>
-                                <p>Production for quarterly release: TBD</p>
+                                <p>Production release for all customers: With the 24.7 release (July 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -141,7 +188,7 @@ This page provides information about functionality that is included in the Third
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Improved UI experience for users with limited object access</a></p>
-                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>When a user does not have access to an object, the user will see "No access" anywhere that object name displays in Workfront. This improved experience also applies to the Workfront API.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -176,10 +223,6 @@ This page provides information about functionality that is included in the Third
                 </tr>                
            </tbody>
         </table>   
-           </tbody>
-        </table>   
-
-
 
 ## Announcements
 
