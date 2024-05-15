@@ -89,31 +89,28 @@ You must have the following access to perform the steps in this article:
 
 ## Considerations about editing record pages
 
-* Rearranging fields in the record preview or page rearranges the fields for all the records of that type and for all users accessing those records. 
+* By default, the details and the preview pages of a record display all the fields associated with the record. 
 
-* Display changes that you make in the record preview are immediately visible in the record details page. Changes made in the record page are also visible in the record preview box. 
+* You cannot add new fields for a record in the preview or details page. You must add new fields in the table view to display them in the preview and details pages. 
 
-<!--Replace the first bullet with this when we add sections:
+* You can add sections to a record preview or details page, to organize the information by common criteria and make it easier to find. 
 
 * The following changes affect all the records of the same type and are visible to all users accessing those records: 
 
    * Rearranging fields
    * Adding or removing sections
--->
+
+* Display changes that you make in the record preview are immediately visible in the record details page. Changes made in the record page are also visible in the record preview box. 
 
 * Adding a cover image to a record is not part of the overall layout of the record preview or page. You can add unique cover images to each record. For information, see [Add a cover image to a record](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
 
-<!--
-
 ## Add sections to a record preview or page
-
-You can add sections to a record preview or page, to organize the information by common criteria and make it easier to find. 
 
 Consider the following when adding sections to a record page:
 
-* There is no limit to how many sections you can have on a page (***************IS THIS TRUE???***********)
+* There is no limit to how many sections you can have on a page. 
 * You cannot have an empty section. You must have at least one field in a section. 
-* You can drag and drop fields from one section to another. 
+* You can drag and drop fields from one section to another. For more information, see the section [Rearrange fields in the record preview or details page](#rearrange-fields-in-the-record-preview-or-details-page) in this article. 
 * When you remove all the fields from a section, the section is automatically deleted and cannot be recovered. 
 
 To add a section to a record preview or page: 
@@ -141,15 +138,15 @@ The workspace that you access last opens.
     >
     >You can view the **Open details** icon to the left of the Name field of a record in a table view only when the Name field is a primary field. 
 
-1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) (****************check the icon; they are changing it**********)  in the upper-right corner of the record preview  to open the record's page in a new tab. 
+1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the record preview  to open the record's page in a new tab. 
 
     The record page opens. 
 
     ![](assets/details-page.png)
 
 1. In the record preview or page, hover over the white space to the left of the fields, then click the **Add section** icon ![](assets/add-section-icon.png) to add a section. 
-1. Click inside the section's name and replace **Untitled** with a name, then click Enter. (************has this changed to Untitled section???**********)
-1. Start dragging and dropping fields to the new section, as described in the section [Rearrange fields in the record preview or page](#rearrange-fields-in-the-record-preview-or-page) in this article. 
+1. Click inside the section's name and replace **Untitled section** with a name, then click Enter. The fields displayed under the section are automatically part of the new section. 
+1. Start dragging and dropping fields to the new section, as described in the section [Rearrange fields in the record preview or details page](#rearrange-fields-in-the-record-preview-or-details-page) in this article. 
 
 1. (Optional) Hover over the name of a section and click the **More** menu ![](assets/more-menu.png). 
 
@@ -180,9 +177,7 @@ The workspace that you access last opens.
 
     All changes to sections and field order are saved automatically. 
 
--->
-
-## Rearrange fields in the record preview or page
+## Rearrange fields in the record preview or details page
 
 {{step1-to-maestro}}
 
