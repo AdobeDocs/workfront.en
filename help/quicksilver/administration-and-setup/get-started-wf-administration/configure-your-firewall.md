@@ -185,7 +185,7 @@ If your Production environment is on Cluster 6, add the following IP addresses.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">To use the AWS email service</td> 
+   <td role="rowheader">To use the email service</td> 
    <td> 
     <ul> 
      <li>54.240.60.174</li> 
@@ -196,6 +196,15 @@ If your Production environment is on Cluster 6, add the following IP addresses.
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
      <li>54.71.252.65 </li> 
+    </ul> </td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">To use the Mailgun email service</td> 
+   <td> 
+    <ul> 
+     <li>143.55.228.56 </li> 
+     <li>209.61.151.229</li> 
+     <li>69.72.43.7</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
