@@ -38,14 +38,19 @@ You must consider the following before making changes to a field's configuration
 * You cannot edit a field on the record page or in any other view, outside of the table view. 
 * You cannot edit the Field type, after the field is saved.
 * You cannot deselect the Allow negative numbers setting that was previously selected, for a Number, Percentage, or Currency field if there are already negative values stored on the records it is attached to. 
-
-<!--this is not true yet, but will be with the release of RTBE for field configuration changes: 
-
-* You can edit the configuration of the following fields, after they are saved:
+* You can edit the configuration of the following field elements, after you save the field:
 
     * The Name or the Description of any field
     * The Options of a Single-select or a Multi-select field.
-    * The expression of a Formula field.-->
+    * The expression of a Formula field.
+
+    >[!WARNING]
+    >
+    >When formula expressions change, or options are added or removed from a select-type field, there will be loss of data for the records that already have information stored in the fields whose configuration is modified. 
+    >
+    >There is no warning or indication that this data loss could happen when you change the configuration of fields. 
+    >
+    >There is no notification to other users that the field configuration has changed.
     
 <!--this is not yet true, but it might come later:
 * You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 

@@ -136,11 +136,11 @@ You must have the following access to perform the steps in this article:
    * The values for the Workfront fields connected to the Planning record are also deleted.
 1. Click **Connect** to connect more records. 
 
-   <!--checking with the team on the below note - not sure if if should stay Manage or be changed to Contribute??-->
+   <!--checking with the team on the below note - not sure if if should stay Manage or Contribute - Lilit said Contribute??-->
 
    >[!NOTE]
    >
-   >   The Connect button displays only for the workspaces where you have Manage permissions. 
+   >   The Connect button displays only for the workspaces where you have Contribute permissions. 
 
 1. Click the records you want to connect. The following things occur:
 
