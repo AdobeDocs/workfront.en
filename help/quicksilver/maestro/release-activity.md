@@ -50,24 +50,6 @@ To better organize information on the record's page for more efficient readabili
 
 For information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). 
 
-### Real-time updates for field configuration changes 
-
-Production: <date> 
-
-Preview: To be determined 
-
-If any user changes any field configuration (name, description, list of options etc) in a record type, other users view those changes in real-time. This ensures that everyone views the correct fields and their information at the same time.  
-
->[!WARNING]
->
->When formula expressions change, or options are added or removed from a select-type field, there will be loss of data for the records that already have information stored in the fields whose configuration is modified. 
->
->There is no warning or indication that this data loss could happen when you change the configuration of fields. 
->
->There is no notification to other users that the field configuration has changed.  
-
-For more information, see [Edit fields](/help/quicksilver/maestro/fields/edit-fields.md).  
-
 ### Enable Workfront Planning notifications for customers that are not in the Adobe Unified Experience
 
 Production: <date>  
@@ -135,7 +117,7 @@ For example, if you link projects from Workfront Planning campaigns, everyone wi
 
 For more information, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
 
-## Add sections to the record's preview and details pages
+### Add sections to the record's preview and details pages
 
 Production: May 15, 2024
 
@@ -144,6 +126,24 @@ Preview: To be determined
 To better organize information on the record's page for more efficient readability and navigation, we have introduced sections to the record's page. The section titles serve as headers that organize the fields into distinct categories. The sections are fully customizable and can be expanded or collapsed, if needed.  
 
 For information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). 
+
+### Real-time updates for field configuration changes 
+
+Production: May 16, 2024
+
+Preview: To be determined 
+
+When a user changes any field configuration (name, description, list of options etc) in a record type, other users view those changes in real-time. This ensures that everyone views the correct fields and their information at the same time.  
+
+>[!WARNING]
+>
+>When formula expressions change, or options are added or removed from a select-type field, there will be loss of data for the records that already have information stored in the fields whose configuration is modified. 
+>
+>There is no warning or indication that this data loss could happen when you change the configuration of fields. 
+>
+>There is no notification to other users that the field configuration has changed.  
+
+For more information, see [Edit fields](/help/quicksilver/maestro/fields/edit-fields.md).  
 
 ## Week of May 6, 2024
 
