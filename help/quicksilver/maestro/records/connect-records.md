@@ -211,7 +211,7 @@ After you created a connection between a record type and a Workfront object type
 
 >[!NOTE]
 >
->You cannot connect Workfront objects with Workfront Planning records from Workfront.
+>You cannot connect Workfront object types with Workfront Planning record types from Workfront.
 
 
 {{step1-to-maestro}}

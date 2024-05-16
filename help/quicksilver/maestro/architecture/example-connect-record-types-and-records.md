@@ -111,6 +111,10 @@ To do this:
 
 ## Connect a Workfront Planning record type with a Workfront project object type and connect a record with individual projects
 
+>[!IMPORTANT]
+>
+>    Everyone with View or higher permissions to the workspace can view the information in the linked fields, regardless of their permissions or access level in Workfront.
+
 For example, you have a record type named Campaign as your original record type. 
 
 You also have projects in Workfront with a field called "Planned Revenue." 
