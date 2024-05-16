@@ -534,8 +534,8 @@ feature-set: Workfront
       * [Grant access to Scenario Planner](administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
       * [Grant access to Resource Management](administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
       * [Grant access to Workfront Goals](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
-    * Single sign-on in Adobe Workfront {#sso}
-      * [Single sign-on](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
+    * Single sign-on in Workfront {#sso}
+      * [Single sign-on: article index](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
       * [Overview of single sign-on](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
       * [Update users for single sign-on](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
       * [Configure Workfront with SAML 2.0](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
