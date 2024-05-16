@@ -363,11 +363,7 @@ You can also [view a PDF file](https://acrobat.adobe.com/id/urn:aaid:sc:US:17548
                                 <p>Preview release: February 13, 2024</p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 24.3 release (March 14, 2024)</p>
-                                <p><span style="color: #ff0000;">This feature was removed from Production for fast release customers on March 18, 2024.</span></p>
-                            </li>
-                            <li>
-                                <p>Production for quarterly release: TBD</p>
+                                <p>Production release for all customers: With the 24.7 release (July 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -384,11 +380,7 @@ You can also [view a PDF file](https://acrobat.adobe.com/id/urn:aaid:sc:US:17548
                                 <p>Preview release: December 21, 2023</p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 24.3 release (March 14, 2024)</p>
-                                <p><span style="color: #ff0000;">This feature was removed from Production for fast release customers on March 18, 2024.</span></p>
-                            </li>
-                            <li>
-                                <p>Production for quarterly release: TBD</p>
+                                <p>Production release for all customers: With the 24.7 release (July 2024)</p>
                             </li>
                         </ul>
                     </td>

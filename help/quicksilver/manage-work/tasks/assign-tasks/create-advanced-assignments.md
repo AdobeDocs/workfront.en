@@ -10,7 +10,11 @@ exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 ---
 # Create advanced assignments
 
-{{highlighted-preview}}
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 You can manage task or issue assignments by using Advanced Assignments.
 

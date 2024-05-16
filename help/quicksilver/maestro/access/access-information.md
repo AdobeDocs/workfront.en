@@ -6,7 +6,7 @@ hide: yes
 recommendations: noDisplay, noCatalog
 exl-id: 98ca7d04-35c2-420a-a87c-50c00939853c
 ---
-# Adobe Workfront Planning Access information: article index
+# Adobe Workfront Planning access information: article index
 
 {{maestro-important-intro}}
 

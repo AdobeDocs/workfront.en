@@ -77,7 +77,7 @@ Use the [!UICONTROL Main Menu] icon ![](assets/main-menu-icon-left-nav.png) on t
 
 ## Access your profile and preferences
 
-You can access your profile and preference options by clicking your profile picture in the top navigation area.
+You can access your profile and preference options by clicking the Adobe account menu (your profile picture) in the top navigation area.
 
 ![Profile menu](assets/aec-profile-picture-menu.png)
 

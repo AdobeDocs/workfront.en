@@ -13,7 +13,7 @@ exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***This is a report and it is in the Getting Started/ Updates section because I think it makes more sense to be in this area, where people want to view updates. - added this to this section from Reporting on 7/3/2018 ) </p>
 -->
 
-The Updates area of an object displays a maximum number of 200 updates by default.&nbsp;To see all the updates that any of the users have entered for an object, you can create a Note report that displays all the updates.
+The Updates area of an object displays a maximum number of 200 updates by default. To see all the updates that any of the users have entered for an object, you can create a Note report that displays all the updates.
 
 >[!NOTE]
 >
@@ -30,29 +30,31 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>Plan</p> </td> 
+   <td> <p>New: Standard </p>
+   <p>Current: Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Access level configurations*</strong></td> 
+   <td role="rowheader"><strong>Access level configurations</strong></td> 
    <td> <p>Edit access to:</p> 
     <ul> 
      <li> <p>Create Reports, Dashboards, and Calendars</p> </li> 
      <li> <p>Create Filters, Views, and Groupings</p> </li> 
-    </ul> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level.<br>For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+    </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>View</p> <p>Note: If you do not have View permission or higher to an object, information for that object does not display in the report.</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View</p> <p><b>NOTE</b></p>
+   <p>If you do not have View permission or higher to an object, information for that object does not display in the report.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For information, see [Access requirements in Adobe Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 ## Create a Note report
 
@@ -70,9 +72,16 @@ For example, to create a Note report for all the notes on a project:
 1. (Optional) Click **Groupings**, then **Add Grouping** to group by the **Project Name**, if you are reporting on multiple projects at the same time.  
    This ensures that the notes are grouped by their respective projects, making the report easier to read.&nbsp;
 
-1. (Optional) Click **Filters,** then&nbsp;**Add a Filter Rule** to filter for just one project, or specific projects.
+1. (Optional) Click **Filters,** then **Add a Filter Rule**.
+1. Add a filter for **Note** > **Note Text** > **Is Not Blank**.
 
-1. (Conditional and optional) Set the **Project Name** as&nbsp;**Equal** to the project name of the project you want to view updates for.&nbsp;&nbsp;  
+   ![](assets/note-note-text-not-blank-filter.png)
 
+   >[!TIP]
+   >
+   >   If a project field was updated but no note was added at the time of the update, the **Note Text** of the update displays as **(No text added to update)**.
+
+
+1. (Optional) Add another filter for **Project** > **Name** > **Equals to** and add one or several project names for which you want to view notes. 
 1. Click **Save + Close**.  
    All the updates entered on the project by all users with permissions to at least View the project are displayed in the report.

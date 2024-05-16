@@ -21,6 +21,8 @@ exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 >Currently, Adobe Workfront Planning is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use these capabilities.
 >
 >Contact your account representative for more information about joining the beta program for Workfront Planning.
+>
+>For a complete list of all sections and articles that document Workfront Planning, see [Adobe Workfront Planning: article index](/help/quicksilver/maestro/maestro-information.md). 
 
 <!--[View a video demonstration of Adobe Workfront Planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
@@ -72,7 +74,7 @@ For information about new features and when they are released, see [Adobe Workfr
 |     Connect Workfront Planning records to Workfront projects, programs, portfolios, companies, groups  |   ✓                            |                                 |                  |
 |     Connect Workfront Planning records to Adobe Experience Manager assets                                  |      ✓                         |                                  |                 | 
 |     Record page with detailed information                            |   ✓                           |                                  |                  |
-|     Update the layout of the record's page              |                               |   ✓                              |                  |
+|     Update the layout of the record's page              |    ✓                           |                                 |                  |
 |  Share workspaces | ✓| |  |
 |  Share views |✓ | |  |
 |  Duplicate views |✓ | |  |
@@ -80,6 +82,8 @@ For information about new features and when they are released, see [Adobe Workfr
 |     Creative brief                                 |                               |                                  |   ✓              |
 |     Customize the color and icon of a record                                 |      ✓                         |                                  |                 |
 |     Add comments to records                                 | ✓                              |                                  |                 |
+|     Receive in-app notifications                                 | ✓                              |                                  |                 |
+|     Receive email notifications                                 | ✓                              |                                  |                 |
 |     Add thumbnails to records                                 | ✓                              |                                  |                 |
 |     View history of changes on a record                                 | ✓                              |                                  |                 |
 |     Rich Text formatting for Paragraph fields                                 |      ✓                         |                                  |                 | 

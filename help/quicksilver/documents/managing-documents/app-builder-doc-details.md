@@ -352,3 +352,13 @@ Here are some helpful links:
 * [https://developer.adobe.com/uix/docs/guides/publication/](https://developer.adobe.com/uix/docs/guides/publication/)
 
 * [https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/extension-development/](https://developer.adobe.com/uix/docs/services/aem-cf-console-admin/extension-development/)
+
+## Local Development
+
+While developing your App Builder application for Workfront, you might find the need to test your app within Workfront without publishing it. Fortunately, we have a solution for this.
+
+Within your App Builder app, you can initiate `aio app run` for local development. This will provide you with a URL, typically something like `https://localhost:9080`. Alternatively, you can execute `aio app deploy` to obtain a static Adobe domain. Make sure to note these URLs for future use.
+
+Next, navigate to the specific doc details page you wish to develop against in your browser. Open the developer tools and access the Local Storage for either workfront.com or workfront.adobe.com. Here, you need to add an entry. Use `appBuilderDocDetailsOverride` as the key and the previously noted app builder URL as the value.
+
+Upon reloading your page, you'll notice the buttons from your App Builder application appearing. Clicking these buttons will allow you to view your app in action.

@@ -23,9 +23,26 @@ You must have created a package before you can install it.
 
 For instructions, see [Create or edit an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md).
 
+## Package status for installation
+
+A package must be in ACTIVE status to be installed in your production environment.
+
+We recommend moving the package to TESTING status and installing in another sandbox to test the package.  If this test is successful, with no errors, move the package to ACTIVE to install it in your production environment.  
+
+To edit a package's status: 
+
+1. Select the package as described in  [Edit or assemble an existing package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md#create-or-edit-an-environment-promotion-package) in the article Create and edit environment promotion packages.
+1. Click **Edit Package**.
+1. Click **Status**.
+1. Select the desired status from the drop-down menu.
+
+For more information on statuses, see [Environment Promotion Statuses](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) in the article Overview of moving objects between Workfront environments.
+
+## Install a package
+
 >[!NOTE]
 >
->To install a package, you must be logged in to the environment where you want to install the package. This is the environment that you are copying objects **to**.
+>* To install a package, you must be logged in to the environment where you want to install the package. This is the environment that you are copying objects **to**.
 
 1. Go to the environment where you want to install the package. 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).

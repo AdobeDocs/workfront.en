@@ -209,8 +209,8 @@ The following are the highest access settings available for objects in the Light
   </tr> 
   <tr> 
    <td>Financial data</td> 
-   <td>✓</td> 
-   <td> <p>&nbsp;</p> </td> 
+   <td></td> 
+   <td> <p>✓</p> </td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 

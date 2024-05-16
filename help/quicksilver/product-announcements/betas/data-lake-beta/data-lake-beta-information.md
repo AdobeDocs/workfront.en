@@ -16,7 +16,7 @@ For information about using the Workfront data lake, see [Workfront data lake ov
 **Beta schedule:**
 
 * Beta start date - April 15, 2024
-* Planned GA release - TBA
+* Planned release date - TBA
 
 ## Participate in the beta
 
