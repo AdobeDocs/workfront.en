@@ -135,13 +135,16 @@ This page provides information about functionality that is included in the Third
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">More relevant assignments added to the New Task workflow</a></p>
-                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>We have added the same functionality for more relevant smart assignments to the Assignments field in the New Task box when adding a task to a project and in a project task list.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
                                 <p>Preview release: February 13, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 24.5 release (May 16, 2024)</p>
                             </li>
                             <li>
                                 <p>Production release for all customers: With the 24.7 release (July 2024)</p>
@@ -152,13 +155,16 @@ This page provides information about functionality that is included in the Third
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">More relevant smart assignments</a></p>
-                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>We have changed the algorithm that Workfront uses to calculate and suggest smart assignments for tasks. The new algorithm applies in the following areas in Workfront where you assign a task: task lists, the Assignments area in the task header, Home, and the Summary panel.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
                                 <p>Preview release: December 21, 2023</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 24.5 release (May 16, 2024)</p>
                             </li>
                             <li>
                                 <p>Production release for all customers: With the 24.7 release (July 2024)</p>
