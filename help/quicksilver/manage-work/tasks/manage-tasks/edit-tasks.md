@@ -606,12 +606,12 @@ Your system or group administrator can customize the fields you see in the task 
 
 ![](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
 
-The following fields are included in the project header, by default:
+The following fields are included in the task header, by default:
 
 * Task name
 * Percent complete
 * Assignments
-* Planned Completion Date and time
+* Planned Completion Date 
 
   >[!CAUTION]
   >

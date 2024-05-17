@@ -6,7 +6,10 @@ hide: yes
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
 ---
+
 # Adobe Workfront Planning release activity 
+
+<!--this article is linked to the WF Planning landing page - do not change URL or move it-->
 
 {{maestro-important-intro}}
 
