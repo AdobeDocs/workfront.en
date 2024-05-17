@@ -24,6 +24,10 @@ Individual users can also activate and deactivate their individual event notific
 
 The following tables list all of the Adobe Workfront event notifications, a brief description of the event, and whether the event is active or inactive by default.
 
+>[!NOTE]
+>
+>Notifications with a value of "Active" in the Default State column are active for both Instant and Daily notifications by default, unless otherwise noted.
+
 ## Action needed
 
 See also [Notifications: Action needed](../../../workfront-basics/using-notifications/notifications-action-needed.md).
@@ -56,7 +60,7 @@ See also [Notifications: Action needed](../../../workfront-basics/using-notifica
    <td> <p>Document Request Add</p> </td> 
    <td> <p>User that document is requested from</p> </td> 
    <td> <p>Someone requested that I upload document(s).</p> <p>The Document Requestee receives an email notification when they get a request to upload a document.</p> </td> 
-   <td> <p>Active</p> </td> 
+   <td> <p>Active (Instant only)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Document</p> </td> 
@@ -83,7 +87,7 @@ See also [Notifications: Action needed](../../../workfront-basics/using-notifica
    <td> <p>Issue</p> </td> 
    <td> <p>Issue Pending Approval</p> </td> 
    <td> <p>Delegated Approver</p> </td> 
-   <td> <p>I need to review an issue approval I"ve been delegated.</p> <p>When someone delegates an issue approval to another user, that user is notified. </p> <p>A notification is sent only when the project is in the Current status.</p> </td> 
+   <td> <p>I need to review an issue approval I've been delegated.</p> <p>When someone delegates an issue approval to another user, that user is notified. </p> <p>A notification is sent only when the project is in the Current status.</p> </td> 
    <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
@@ -184,14 +188,14 @@ See also [Notifications: Requests I have made](../../../workfront-basics/using-n
    <td> <p>Document Approval Status Change</p> </td> 
    <td> <p>Requestor</p> </td> 
    <td> <p>A document approval request is completed.</p> <p>The Document Requestor receives an email notification when the document approval request is completed.</p> </td> 
-   <td> <p>Active</p> </td> 
+   <td> <p>Active (Instant only)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Document</p> </td> 
    <td> <p>Document Request Complete</p> </td> 
    <td> <p>Requestor</p> </td> 
    <td> <p>A document upload request is fulfilled.</p> <p>The Document Requestor receives an email notification when a request to upload a document is fulfilled.</p> </td> 
-   <td> <p>Active</p> </td> 
+   <td> <p>Active (Instant only)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
@@ -233,28 +237,28 @@ See also [Notifications: Requests I have made](../../../workfront-basics/using-n
    <td> <p>Request Assignment</p> </td> 
    <td> <p>Issue Primary Contact</p> </td> 
    <td> <p>Someone is assigned to my request.</p> <p>The primary contact of the issue receives an email notification when a user is assigned to the issue, unless the primary contact and the assigned user are the same user.</p> <p>A notification is sent only if the project status is Current and if the project is using a "Is Help Desk" View.</p> </td> 
-   <td> <p>Active</p> </td> 
+   <td> <p>Active (Daily only)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
    <td> <p>Request Closed</p> </td> 
    <td> <p>Issue Primary Contact</p> </td> 
    <td> <p>My request is closed (confirmation).</p> <p>The issue's primary contact receives an email notification when the request is closed.</p> <p>A notification is sent only if the project status is Current and if the project is using a "Is Help Desk" View.</p> <p>If the notifications for "issue completion" are enabled, they will always trigger instead of the "Request closed to Issue Primary Contact." If you want this notification to trigger, you must deactivate the "issue completion" notifications.</p> </td> 
-   <td> <p>Active</p> </td> 
+   <td> <p>Active (Instant only)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Document</p> </td> 
    <td> <p>Request Document Add</p> </td> 
    <td> <p>Issue Primary Contact</p> </td> 
    <td> <p>A document is changed or uploaded on an issue for which I am the primary contact.</p> <p>The issue's primary contact receives an email notification when a document is uploaded or changed on the issue, unless the user who uploaded or changed the document is also the primary contact.</p> <p>A notification is sent only if the project status is Current and if the project has the "Publish as Help Request Queue" enabled on the Queue Setup tab.</p> </td> 
-   <td> <p>Active</p> </td> 
+   <td> <p>Active (Daily only)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
    <td> <p>Request Status Change</p> </td> 
    <td> <p>Issue Primary Contact</p> </td> 
    <td> <p>The status changes on my request.</p> <p>The primary contact of the issue receives an email notification when the issue status changes, unless the user who changed the status is also the primary contact.</p> <p>A notification is sent only if the project status is Current and the project is using a "Is Help Desk" View.</p> </td> 
-   <td> <p>Active</p> </td> 
+   <td> <p>Active (Daily only)</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -288,7 +292,7 @@ See also [Notifications: Communication](../../../workfront-basics/using-notifica
    <td> <p>Comment on Document</p> </td> 
    <td> <p>Document Owner</p> </td> 
    <td> <p>A comment is added on my document.</p> <p>The owner of a document in Workfront receives an email notification when a comment is posted on the document, unless the user who posted the comment is also the document owner.</p> <p>Any users who are directly included in the comment also receive an email notification.</p> <p>A notification is sent only if the project status is Current. </p> <p>The subject of the instant notification email is: <em>Comment on &lt;Request Name&gt; on &lt;Project Name&gt; (ref# &lt;Request Reference Number&gt;)</em></p> <p> The subject of the daily digest notification is:<em> Digest of Communication &lt;Date of daily digest&gt;</em></p> </td> 
-   <td> <p>Active </p> </td> 
+   <td> <p>Active</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Note</p> </td> 
@@ -309,7 +313,7 @@ See also [Notifications: Communication](../../../workfront-basics/using-notifica
    <td> <p>Directed Update</p> </td> 
    <td> <p>Team members</p> </td> 
    <td> <p>Someone includes my team on a directed update.</p> <p>A directed update is when a user specifically includes another user in an update, as described in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md" class="MCXref xref">Tag others on updates</a>.</p> <p>In this case, any member of the team that is included in the directed update receives an email notification about the update.</p> <p>The email notification is sent only to users who have access rights to the object of the update.</p> <p>If the user sending the directed update is a member of the team being included, the user sending the update does not receive an email notification.</p> </td> 
-   <td> <p>Active</p> </td> 
+   <td> <p>Active (Daily only)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Note</p> </td> 
@@ -321,14 +325,14 @@ See also [Notifications: Communication](../../../workfront-basics/using-notifica
      <li> <p>The owner of the Note</p> </li> 
      <li> <p>The Primary Contact</p> </li> 
     </ul> </td> 
-   <td> <p>Active</p> </td> 
+   <td> <p>Active (Daily only)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Note</p> </td> 
    <td> <p>Work Item Comment</p> </td> 
    <td> <p>Work Item Assignee</p> </td> 
    <td> <p>Someone comments on one of my work items.</p> <p>The assignee of the work item receives an email notification any time a user adds an update to a work item, unless the user who adds the update is also the assignee.</p> </td> 
-   <td> <p>Active</p> </td> 
+   <td> <p>Active (Daily only)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Note</p> </td> 
@@ -339,7 +343,7 @@ See also [Notifications: Communication](../../../workfront-basics/using-notifica
      <li> <p>The user who replies is the same user who made the request</p> </li> 
      <li> <p>The user does not have access to see the note</p> </li> 
     </ul> </td> 
-   <td> <p>Active</p> </td> 
+   <td> <p>Active (Daily only)</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -372,35 +376,35 @@ See also [Notifications: Approval information](../../../workfront-basics/using-n
    <td> <p>Approval Delegation</p> </td> 
    <td> <p>User</p> </td> 
    <td> <p>I'm delegated as an approver.</p> </td> 
-   <td> <p>Active</p> </td> 
+   <td> <p>Active (Instant only)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
    <td> <p>Delegated Issue Approval Status Change</p> </td> 
    <td> <p>User that delegated the approval</p> </td> 
    <td> <p>A delegated issue approval request is completed. </p> <p>When you delegate an issue approval to someone else, you receive an email notification when they finish that approval (whether they approve or reject the issue approval). </p> </td> 
-   <td> <p>Active</p> </td> 
+   <td> <p>Active (Daily only)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Project</p> </td> 
    <td> <p>Delegated Project Approval Status Change</p> </td> 
    <td> <p>User that delegated the approval</p> </td> 
    <td> <p>A delegated project approval request is completed.</p> <p>When you delegate a project approval to someone else, you receive an email notification when they finish that approval (whether they approve or reject the project approval).</p> </td> 
-   <td> <p>Active</p> </td> 
+   <td> <p>Active (Daily only)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Task</p> </td> 
    <td> <p>Delegated Task Approval Status Change</p> </td> 
    <td> <p>User that delegated the approval</p> </td> 
    <td> <p>A delegated task approval status is completed.</p> <p>When you delegate a task approval to someone else, you receive an email notification when they finish that approval (whether they approve or reject the task approval).</p> </td> 
-   <td> <p>Active</p> </td> 
+   <td> <p>Active (Daily only)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Document</p> </td> 
    <td> <p>Document Approval Cancel to Approver</p> </td> 
    <td> <p>User that delegated the approval</p> </td> 
    <td> <p>A document approval request is canceled.</p> <p>The Document Approver of the document receives an email notification when the document approval request is canceled.</p> </td> 
-   <td> <p>Active</p> </td> 
+   <td> <p>Active (Instant only)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Timesheet</p> </td> 
@@ -478,14 +482,14 @@ See also [Notifications: Information about work assigned to me](../../../workfro
    <td> <p>Issue Status Change</p> </td> 
    <td> <p>User that the issue is assigned to</p> </td> 
    <td> <p>The status changes on one of my work items.</p> <p>The assignee of the issue receives an email notification when the status changes, unless the user who changed the status is also the assignee.</p> <p>A notification is sent only if the project status is Current.</p> <p>Users with a Light or Review license do not receive a notification.</p> </td> 
-   <td> <p>Active</p> </td> 
+   <td> <p>Active (Daily only)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Document</p> </td> 
    <td> <p>Request Document Add</p> </td> 
    <td> <p>User that the issue is assigned to</p> </td> 
    <td> <p>Documents are uploaded or changed on requests I'm assigned to.</p> <p>The issue assignee receives an email notification when documents are uploaded or changed on an issue they added.</p> <p>An email notification is not sent if the user who entered the issue is the issue assignee.</p> <p>A notification is sent only if the project status is Current and if the project has the "Publish as Help Request Queue" enabled on the Queue Setup tab.</p> </td> 
-   <td> <p>Active</p> </td> 
+   <td> <p>Active (Daily only)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Task</p> </td> 
@@ -823,14 +827,14 @@ See also [Notifications: Miscellaneous information](../../../workfront-basics/us
    <td> <p>Announcement was added</p> </td> 
    <td> <p></p> </td> 
    <td> <p>A message is sent to the Announcement Center.</p> </td> 
-   <td> <p>Active</p> </td> 
+   <td> <p>Active (Instant only)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Document</p> </td> 
    <td> <p>Document Request Cancel</p> </td> 
    <td> <p>User that document is requested from</p> </td> 
    <td> <p>Cancel a document upload request from me.</p> <p>The Document Requestee receives an email notification when a document request is canceled.</p> </td> 
-   <td> <p>Active</p> </td> 
+   <td> <p>Active (Instant only)</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -838,7 +842,7 @@ See also [Notifications: Miscellaneous information](../../../workfront-basics/us
    <td> <p></p> </td> 
    <td> <p>An error was found that needs your attention.</p> <p>An email notification is generated after Workfront tries and fails to connect to a POP account. After 25 tries, Workfront disables the connection to the POP account in order to preserve resources and it sends out a notification. </p> <p>The email notification is sent to the Project Owner, if the POP email is associated with a request queue, or to the Workfront administrators, if the POP account is associated with the "Incoming Mail" feature in Email Setup.
    </p> </td> 
-   <td> <p>Active</p> </td> 
+   <td> <p>Active (Instant only)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Issue</p> </td> 
@@ -866,7 +870,7 @@ See also [Notifications: Miscellaneous information](../../../workfront-basics/us
    <td> <p>Object Share</p> </td> 
    <td> <p>User that object was shared with</p> </td> 
    <td> <p>Someone shares an object with me.</p> </td> 
-   <td> <p>Active</p> </td> 
+   <td> <p>Active (Instant only)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Project User</p> </td> 
@@ -880,7 +884,7 @@ See also [Notifications: Miscellaneous information](../../../workfront-basics/us
    <td> <p>Project added to a portfolio or program</p> </td> 
    <td> <p>Portfolio or Program Owner</p> </td> 
    <td> <p>Someone adds a project to a portfolio or program I own.</p> </td> 
-   <td> <p>Active</p> </td> 
+   <td> <p>Active (Instant only)</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Task</p> </td> 
@@ -894,7 +898,7 @@ See also [Notifications: Miscellaneous information](../../../workfront-basics/us
    <td>New Update</td> 
    <td>Subscriber </td> 
    <td> <p class="p1"><span class="s1 wysiwyg-font-size-medium">An email is sent when an update is made to a task, issue, or project that I am subscribed to.</span> </p> </td> 
-   <td>Active</td> 
+   <td>Active (Instant only)</td> 
   </tr> 
  </tbody> 
 </table>
@@ -911,9 +915,9 @@ See also [Notifications: Miscellaneous information](../../../workfront-basics/us
 
 See also [Notifications: Delegation](../../../workfront-basics/using-notifications/notifications-delegation.md).
 
-| Object Type      | Event                        | Recipient               | Description                                                  | Default state |
-|------------------|------|---------------------------------------------|--------------------------------------------------------------|---------------|
-| Tasks and issues | Task and issue delegation |Assignee       | I delegate my tasks and issues (confirmation)                | Active        |
-| Tasks and issues | Stop task and issue delegation | Assignee  | I stop the delegation of my tasks and issues (confirmation)  | Active        |
-| Tasks and issues | Task and issue delegation | Delegate       | Someone delegates their tasks and issues to me               | Active        |
-| Tasks and issues | Stop tasks and issue delegation | Delegate | Someone stops the delegation of their tasks and issues to me | Active        |
+| Object Type      | Event                                      | Recipient | Description                                                  | Default state         |
+|------------------|--------------------------------------------|-----------|--------------------------------------------------------------|-----------------------|
+| Tasks and issues | Task and issue delegation                  | Assignee  | I delegate my tasks and issues (confirmation)                | Active (Instant only) |
+| Tasks and issues | Stop task and issue delegation             | Assignee  | I stop the delegation of my tasks and issues (confirmation)  | Active (Instant only) |
+| Tasks and issues | Task and issue delegation                  | Delegate  | Someone delegates their tasks and issues to me               | Active (Instant only) |
+| Tasks and issues | Stop tasks and issue delegation            | Delegate  | Someone stops the delegation of their tasks and issues to me | Active (Instant only) |
