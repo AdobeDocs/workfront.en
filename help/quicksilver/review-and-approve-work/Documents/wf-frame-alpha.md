@@ -107,47 +107,10 @@ With this integration, our goal is to allow creatives to stay in their tool of c
 
 To allow you to easily test the new features of the beta program, we've created a new test Frame.io account and connected it to a new group called `Frame.io testing` in your existing Workfront Preview or Sandbox environment.
 
-+++Expand to view basic testing instructions
-
-To test the functionality, please log in to your Workfront Preview or Sandbox instance and perform the following steps: 
-
-1. **Coordinators:** Within Workfront, create a project with the `Frame.io testing` group assigned as the project group. 
-
-1. **Coordinators:** Within Workfront, mark the tasks that require creative work as frame-enabled (in task details) and assign your creatives to it (assign yourself as well if you would like to test the whole workflow). 
-
->[!NOTE]
->
->Subtasks cannot be marked as Frame enabled.
->
-
-1. **Coordinators:** Upload your creative brief and change the project status to "Current".
-
-1. **Creatives:** Check your emails for an invite to the newly created Frame.io project 
-
-1. **Creatives:** Click the "Join project" button within the invitation email to join the Frame.io project, review the creative brief within the project and start your content creation within your Creative Cloud tool of choice. 
-
-1. **Creatives:** Upload your created assets to Frame.io and add them to the linked Workfront project by selecting one of the assigned Frame-enabled tasks. Select the option to mark the task as complete. 
-
-1. **Coordinators:** Within Workfront, find the linked Frame.io assets in the frame-enabled task and check that the task's status was changed to "complete".
-
-1. **Coordinators:** Assign reviewers/approvers to the linked Frame.io asset. Assign yourself as an approver as well if you would like to test the entire workflow. (For more information on assigning reviews/approvers, see [Add additional approvers or reviewers to a document](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)). 
-
-1. **Stakeholders:** Within Workfront, view your approval request in Home, Document Details, or in the received email notification. Open the asset in the Frame.io Viewer, leave a comment containing feedback, and make a decision.
-
-1. **Coordinators:** Within Workfront, view the stakeholder created comments within the Updates section of the Frame.io connected document, as well as the decision within the Approval section or document summary pane.
-
-1. **Creatives:** Within Frame.io, notice the overall approval decision made for your assets. 
-
-1. **Creatives:** Within Frame.io, apply the requested changes by adding the updated version to the version stack of the connected asset. 
-
-1. **Coordinators:** Within Workfront, assign approvers/reviewers to the newly uploaded version and monitor the progress until it reaches sign-off. 
-
-+++
-
-+++ Expand to view detailed testing instructions
+### Detailed testing instructions
 
 For participants looking to test additional functionality, we've created a more involved test scenario. A guide for this detailed test scenario can be downloaded here: [WF + Frame.io Detailed Test Scenario Walkthrough](/help/quicksilver/review-and-approve-work/Documents/assets/WF-Frame-Detailed-Walk-Through-May-Release.pdf).
-+++
+
 
 ## Demo Video
 
