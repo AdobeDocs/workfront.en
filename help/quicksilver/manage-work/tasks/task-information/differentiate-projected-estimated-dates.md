@@ -21,7 +21,7 @@ This article describes the differences between the Estimated and the Projected D
 
 When the task is first created, the Planned, Projected, and Estimated Dates should typically match. Some exceptions exist.&nbsp;
 
-For more information on the project, task, and issue dates in&nbsp;Adobe Workfront, see [Overview of the Project, Task, and Issue dates in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
+For more information on the project, task, and issue dates in Adobe Workfront, see [Overview of the Project, Task, and Issue dates in Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md).
 
 ## Overview of Planned Dates
 
