@@ -22,9 +22,10 @@ This section contains the following articles:
 * [View the Project activity visualization in Enhanced analytics](../enhanced-analytics/project-activity-overview.md) 
 * [View the Project treemap visualization in Enhanced analytics](../enhanced-analytics/project-treemap-overview.md) 
 * [View the Activity by team visualization in Enhanced analytics](../enhanced-analytics/activity-by-team-overview.md) 
+<!--
 * [View the Resource capacity visualization in Enhanced analytics](../enhanced-analytics/resource-capacity-overview.md) 
 * [View the Team capacity visualization in Enhanced analytics](../enhanced-analytics/team-capacity-overview.md) 
-<!--* [View Enhanced analytics visualizations by duration](../enhanced-analytics/view-enhanced-analytics-charts-duration.md)-->
+* [View Enhanced analytics visualizations by duration](../enhanced-analytics/view-enhanced-analytics-charts-duration.md)-->
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../enhanced-analytics/trend-views-overview.md" class="MCXref xref" xrefformat="{para}">Trend views overview</a> </li>

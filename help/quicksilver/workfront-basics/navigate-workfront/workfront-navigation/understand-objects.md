@@ -294,11 +294,12 @@ You can report on the following objects when using the report builder in the [!D
 * [!UICONTROL Parameter Group] (or [!UICONTROL Section Break])
 * [!UICONTROL Portfolio]
 * [!UICONTROL Program]
-* [!UICONTROL Project] ([!UICONTROL Financial Data])
+* [!UICONTROL Project (Financial Data)]
+   * Financial information populates in [!UICONTROL Project (Financial Data)] reports only when the data associated with it is less than 5 years old. For example, if a job role was allocated to a task in January 2015 and today is September 2021, a financial filed like the [!UICONTROL Allocation Date] for the job role does not populate in the [!UICONTROL Project (Financial Data)] report.
 
-   >[!NOTE]
+   >[!CAUTION]
    >
-   >Financial information populates in [!UICONTROL Project] ([!UICONTROL Financial Data]) reports only when the data associated with it is less than 5 years old. For example, if a job role was allocated to a task in January 2015 and today is September 2021, a financial filed like the [!UICONTROL Allocation Date] for the job role does not populate in the [!UICONTROL Project (Financial Data)] report.
+   >Running a Project (Financial Data) report performs a recalculation of your financial data, which can overwrite previous financial data and may take a significant amount of time. For more information about the consequences of financial data recalculation, see [Recalculate project finances](/help/quicksilver/manage-work/projects/project-finances/recalculate-project-finances.md).
 
 * [!UICONTROL Proof Approval]
   * Enables you to view various information about the proof approval, including: the proof that was submitted for approval, information about the [!UICONTROL Approver], information about the Requester (if the Requester is a licensed [!DNL Workfront] user), version information, the proof ID, and the proof creation date.\

@@ -534,8 +534,8 @@ feature-set: Workfront
       * [Grant access to Scenario Planner](administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
       * [Grant access to Resource Management](administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
       * [Grant access to Workfront Goals](administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)
-    * Single sign-on in Adobe Workfront {#sso}
-      * [Single sign-on](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
+    * Single sign-on in Workfront {#sso}
+      * [Single sign-on: article index](administration-and-setup/add-users/single-sign-on/single-sign-on.md)
       * [Overview of single sign-on](administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
       * [Update users for single sign-on](administration-and-setup/add-users/single-sign-on/update-users-sso.md)
       * [Configure Workfront with SAML 2.0](administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md)
@@ -867,7 +867,7 @@ feature-set: Workfront
     * [[!DNL Adobe Workfront] objects overview](workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
     * [Understand the navigation for a Work-license user](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
     * [Understand the navigation for a Review-license user](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
-    * [Overview of the Project, Task, and Issue dates in Adobe Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
+    * [Overview of the Project, Task, and Issue dates in Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
   * Home {#home}
     * [Home](workfront-basics/using-home/home.md)
     * New Home {#new-home}
@@ -1729,8 +1729,6 @@ feature-set: Workfront
     * [View the Project activity visualization in Enhanced analytics](enhanced-analytics/project-activity-overview.md)
     * [View the Project treemap visualization in Enhanced analytics](enhanced-analytics/project-treemap-overview.md)
     * [View the Activity by team visualization in Enhanced analytics](enhanced-analytics/activity-by-team-overview.md)
-    * [View the Resource capacity visualization in Enhanced analytics](enhanced-analytics/resource-capacity-overview.md)
-    * [View the Team capacity visualization in Enhanced analytics](enhanced-analytics/team-capacity-overview.md)
   * Workfront data lake {#data-lake}
     * [Workfront data lake overview](reports-and-dashboards/data-lake/data-lake-overview.md)
     * [Create a reader account](reports-and-dashboards/data-lake/create-a-reader-account.md)

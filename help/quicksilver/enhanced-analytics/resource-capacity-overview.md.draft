@@ -6,6 +6,7 @@ navigation-topic: enhanced-analytics-navigation-topic
 description: You can assess whether a team is over, under, or at capacity when viewing the Enhanced analytics resource capacity visualization chart in Adobe Workfront.
 author: Nolan
 feature: Reports and Dashboards
+recommendations: noDisplay, noCatalog
 exl-id: 5bb45ef6-9e49-4063-8e53-c9f3bc994870
 ---
 # View the Resource capacity visualization in Enhanced analytics
