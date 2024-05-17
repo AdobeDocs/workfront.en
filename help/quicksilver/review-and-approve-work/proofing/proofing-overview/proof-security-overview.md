@@ -27,7 +27,7 @@ When login required is enabled, reviewers are required to log in using their ema
 >[!TIP]
 >
 >To streamline the login process, we recommend setting SSO up in Workfront and Workfront proof. For more information on enabling SSO, see >
->* [Single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
+>* [Single sign-on in Workfront: article index](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
 >* [Configure Single Sign-On for Workfront Proof users](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
 >
 
