@@ -26,6 +26,14 @@ After selecting a record type in Adobe Workfront Planning area, you can display 
 
     For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
 
+This article describes the following information about record views:
+
+* [Create and edit a view](#create-or-edit-record-views) 
+* [Delete a view](#delete-views)
+* [Duplicate a view](#duplicate-views)
+<!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
+
+
 ## Access requirements
 
 You must have the following access to perform the steps in this article: 
@@ -87,7 +95,8 @@ You must have the following access to perform the steps in this article:
 * Views in Workfront Planning are record type-specific. You cannot apply the same view to two different record types. 
 * Views that you create are visible only to you and users who you share the views with. 
 * When you modify or delete a view, it is modified and deleted for all users who have permissions to the view. 
-<!--* Each user can create a maximum of 100 views. -->
+* Each user can create a maximum of 100 views. You can display more than 100 views for a record type, but one user can create only 100 views. 
+* You can share views you create with others. For information, see [Share views](/help/quicksilver/maestro/access/share-views.md). 
 * The following elements are unique to each record view:
 
     * Filter
@@ -102,14 +111,6 @@ You must have the following access to perform the steps in this article:
     >[!NOTE]
     >
     > Because Adobe Workfront Planning is currently in a beta state, some view elements might not be available to all views.
-
-This article describes the following information about record views:
-
-* [Create and edit a view](#create-or-edit-record-views) 
-* [Delete a view](#delete-views)
-* [Duplicate a view](#duplicate-views)
-* [Share a view](#share-a-view)
-<!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 ## Similarities and differences between record views
 
@@ -222,10 +223,6 @@ First, you might need to click **More** to the left of the last tab to find the 
 1. Click **Delete** to confirm. <!--ensure there is not another saving step here?!-->
     
     The view is deleted for all users who can access the records area and it cannot be recovered. 
-
-## Share a view
-
-For information about sharing views, see [Share views](/help/quicksilver/maestro/access/share-views.md). 
 
 <!--## Add a view as a favorite - this is not possible yet-->
 

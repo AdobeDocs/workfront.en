@@ -8,7 +8,9 @@ exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 ---
 # Adobe Workfront Planning overview
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--this article is linked to the WF Planning landing page - do not change URL or move it-->
+
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!-- remove the references to closed beta from the entire article-->
 
@@ -249,6 +251,7 @@ The following table shows the limits for how many objects you can create in Work
 |     Size of file that you can import through the API for a record type table  |   1.5MB                                                                                                         |
 |     The rate at which API requests can be made                                    |   200 requests per minute                                                                                       |
 | Size of CSV of Excel file you can import* | 5MB |
+| Number of views one user can create for one record type | 100 |
 
 <!--add to the table above: Maximum number of views created by one use 100 -->
 
