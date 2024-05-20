@@ -23,7 +23,7 @@ These workflows work well in any situation, but they are especially helpful if y
 
 When the designer needs to see comments and decisions made on a proof, he or she can begin the proofing process and receive the proof again when the process is complete. The designer can then begin the process again. 
 
-<!-- ![designers_managers_-_option_A.png](assets/designers-managers---option-a-350x100.png)-->
+![designers_managers_-_option_A.png](assets/designers-managers---option-a)
 
 1. The designer creates a new proof and assigns the project manager as the owner of the project (for more information, see [Generate Proofs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)). As the creator of the proof, the designer can:
 
@@ -39,8 +39,8 @@ When the designer needs to see comments and decisions made on a proof, he or she
 ## When the Designer Doesn't Need to See Proof Comments and Decisions
 
 When it is not necessary for the designer to be involved in the [!DNL Workfront Proof] review process, the project manager can create the proof and add the reviewers. 
-<!--
-![designers_managers_-_option_B.png](assets/designers-managers---option-b-350x100.png) -->
+
+![designers_managers_-_option_B.png](assets/designers-managers---option-b) 
 
 
 1. The designer uploads the file and shares it with the project manager. For more information, see [Upload Files and Web Content to [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) and [Share Files in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md).
