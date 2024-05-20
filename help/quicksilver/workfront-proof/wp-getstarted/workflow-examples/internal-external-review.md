@@ -23,7 +23,7 @@ This option illustrates a workflow where clients can see all internal comments.
 
 The designer shares the proof with the Project Manager (and any other colleagues) first. Colleagues review the proof and, if they approve it, you can use the share function to share the proof with your clients. For more information, see [Share a Proof in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 
-![internal_external_-_option_A.png](assets/internal-external---option-a)
+![internal_external_-_option_A.png](assets/internal_external_-_option_A.png)
 
 1. **Create a new proof** - the designer creates a new proof in [!DNL Workfront Proof] and shares it will internal reviewers. The designer makes the project manager the owner of the proof.
 1. **Internal review** - the Project Manager and other colleagues review the proof.
