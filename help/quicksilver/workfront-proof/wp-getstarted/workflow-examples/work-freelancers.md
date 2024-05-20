@@ -41,7 +41,7 @@ This means that they will have their own dashboard to view all the items they ar
 
 It also means that if the freelancer needs to create new versions of the proof during the review process, you can add them explicitly to the proof as an [!UICONTROL Author], which will allow them to participate in the review process and create new versions as and when required. For more information, see and [Manage Proof Roles in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-![freelancers_-_option_B.png](assets/freelancers---option-b)
+![freelancers_-_option_B.png](assets/freelancers_-_option_B.png)
 
 1. The freelancer logs into their satellite account.
 1. The freelancer uploads the file and shares it with you. See [Upload Files and Web Content to [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) and [Share Files in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-files.md).
@@ -60,7 +60,7 @@ For information about setting up a satellite account for your freelancers, see  
 
 This option is useful if you don't want clients and freelancers to see each other in [!DNL Workfront Proof]. You can give your freelancers access to your [!UICONTROL Dropzone] (available on [!UICONTROL Enterprise] and [!UICONTROL Unlimited] plans only). For more information, see [The [!UICONTROL Dropzone]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/dropzone.md).
 
-![freelancers_-_option_C_-_dropzone.png](assets/freelancers---option-c---dropzone-)
+![freelancers_-_option_C_-_dropzone.png](assets/freelancers_-_option_C_-_dropzone.png)
 
 1. The freelancer goes to your public [!UICONTROL Dropzone] page.
 1. They use the [!UICONTROL Dropzone] to create a new proof in your account.

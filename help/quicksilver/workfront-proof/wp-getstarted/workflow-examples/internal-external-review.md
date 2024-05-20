@@ -43,7 +43,7 @@ You can repeat this process until the proof is approved.
 
 This option illustrates a workflow where the proofing process is managed by the Project Manager who creates any new versions (as required) and shares the proof with the client. The designer does not need to be involved in the review process.)
 
-![internal_external_-_option_B.png](assets/internal-external---option-b.png)
+![internal_external_-_option_B.png](assets/internal_external_-_option_B.png)
 
 1. **Create a new proof** - The designer creates a new proof in [!DNL Workfront Proof] and shares it with internal reviewers. The designer makes the Project Manager the Owner of the proof, or alternatively gives him the role of [!UICONTROL Author] on the proof (see [Manage Proof Roles in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 

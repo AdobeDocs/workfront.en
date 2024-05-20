@@ -17,7 +17,7 @@ exl-id: fcbbd2d2-dc27-4456-901f-5b1a15d023f8
 
 This example explains the basic workflow between a designer or project manager and one or more reviewers, such as a client.
 
-![basic_workflow.png](assets/basic-workflow)
+![basic_workflow.png](assets/basic_workflow.png)
 
 * **Create new proof** - The designer or project manager creates a new proof in [!DNL Workfront Proof] and shares the proof with the client. (See [Generate Proofs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md).)
 
