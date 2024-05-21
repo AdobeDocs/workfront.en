@@ -21,23 +21,33 @@ This page contains information about the structure and content of the data in Wo
 
 There are a number of table types you can utilize to view your Workfront data in a way that provides the most insight.
 
-### Current table
+* **Current table**
 
-The Current table reflects data similarly to how it exists in Workfront, every object and its current state. However, it can be navigated with much lower latency than within Workfront.
+  The Current table reflects data similarly to how it exists in Workfront, every object and its current state. However, it can be navigated with much lower latency than within Workfront.
 
-### Event table
+* **Event table**
 
-The Event table tracks every change record in Workfront: that is, every time an object changes state, a record is created that shows when the change happened, who made the change, and what was changed. Therefore, this table is useful for point-in-time comparisons. This table only includes records from the past three years. 
+  The Event table tracks every change record in Workfront: that is, every time an object changes state, a record is created that shows when the change happened, who made the change, and what was changed. Therefore, this table is useful for point-in-time comparisons. This table only includes records from the past three years. 
 
-### Daily History table
+* **Daily History table**
 
-The Daily History table offers an abbreviated version of the Event table, in that it shows the state of each object on a daily basis rather than when each individual event occurred. As such, this table is useful for trend analysis.
+  The Daily History table offers an abbreviated version of the Event table, in that it shows the state of each object on a daily basis rather than when each individual event occurred. As such, this table is useful for trend analysis.
 
 <!-- Custom table -->
 
+## Entity relationship diagram
+
+Objects in Workfront (and, therefore, in your data lake) are defined not only by their individual values, but by their relationships with other objects. The entity relationship diagram below provides a high-level mapping of object relationships in the Workfront data lake. The diagram can be viewed and downloaded using the following link:
+
+[Workfront data lake entity relationship diagram](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
+
+>[!IMPORTANT]
+>
+>The entity relationship diagram is a work in progress—as such, it is for reference purposes only and is subject to change.
+
 ## Terminology table
 
-The following table correlates the object names in Workfront (as well as their names in the interface and API) with their equivalent name in the data lake.
+The following table correlates object names in Workfront (as well as their names in the interface and API) with their equivalent names in the data lake.
 
 <table>
 <thead>

@@ -9,6 +9,8 @@ exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
 ---
 # [!DNL Adobe Workfront] objects overview
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 <!--Audited: 12/2023-->
 
 <!--
@@ -200,6 +202,18 @@ Not all objects are searchable in [!DNL Workfront]. You can run basic and advanc
 
 For more information about running basic and advanced searches in [!DNL Workfront], see [Search [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
 
+
+## Restricted access to objects
+
+<span class="preview">
+When a user does not have access to an object, the user sees "No access" anywhere that object name displays in Workfront.
+
+Access to objects can be restricted in the access level or in a specific object's permissions. 
+
+This applies to all objects and child objects listed in the [Interdependency and hierarchy of objects](#interdependency-and-hierarchy-of-objects) section in this article. This does not apply to Team and User objects.
+
+</span>
+
 ## Report on objects
 
 Understanding the hierarchy and interdependency of objects is extremely important before you start building reports in [!DNL Workfront]. Reports are object-specific. You must select the correct object for your report before you can display the data that you want.
@@ -280,11 +294,12 @@ You can report on the following objects when using the report builder in the [!D
 * [!UICONTROL Parameter Group] (or [!UICONTROL Section Break])
 * [!UICONTROL Portfolio]
 * [!UICONTROL Program]
-* [!UICONTROL Project] ([!UICONTROL Financial Data])
+* [!UICONTROL Project (Financial Data)]
+   * Financial information populates in [!UICONTROL Project (Financial Data)] reports only when the data associated with it is less than 5 years old. For example, if a job role was allocated to a task in January 2015 and today is September 2021, a financial filed like the [!UICONTROL Allocation Date] for the job role does not populate in the [!UICONTROL Project (Financial Data)] report.
 
-   >[!NOTE]
+   >[!CAUTION]
    >
-   >Financial information populates in [!UICONTROL Project] ([!UICONTROL Financial Data]) reports only when the data associated with it is less than 5 years old. For example, if a job role was allocated to a task in January 2015 and today is September 2021, a financial filed like the [!UICONTROL Allocation Date] for the job role does not populate in the [!UICONTROL Project (Financial Data)] report.
+   >Running a Project (Financial Data) report performs a recalculation of your financial data, which can overwrite previous financial data and may take a significant amount of time. For more information about the consequences of financial data recalculation, see [Recalculate project finances](/help/quicksilver/manage-work/projects/project-finances/recalculate-project-finances.md).
 
 * [!UICONTROL Proof Approval]
   * Enables you to view various information about the proof approval, including: the proof that was submitted for approval, information about the [!UICONTROL Approver], information about the Requester (if the Requester is a licensed [!DNL Workfront] user), version information, the proof ID, and the proof creation date.\

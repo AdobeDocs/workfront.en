@@ -354,7 +354,7 @@ You can also [view a PDF file](https://acrobat.adobe.com/id/urn:aaid:sc:US:17548
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">More relevant assignments added to the New Task workflow</a></p>
-                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>We have added the same functionality for more relevant smart assignments to the Assignments field in the New Task box when adding a task to a project and in a project task list.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -363,11 +363,10 @@ You can also [view a PDF file](https://acrobat.adobe.com/id/urn:aaid:sc:US:17548
                                 <p>Preview release: February 13, 2024</p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 24.3 release (March 14, 2024)</p>
-                                <p><span style="color: #ff0000;">This feature was removed from Production for fast release customers on March 18, 2024.</span></p>
+                                <p>Production for fast release: With the 24.5 release (May 16, 2024)</p>
                             </li>
                             <li>
-                                <p>Production for quarterly release: TBD</p>
+                                <p>Production release for all customers: With the 24.7 release (July 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -375,7 +374,7 @@ You can also [view a PDF file](https://acrobat.adobe.com/id/urn:aaid:sc:US:17548
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">More relevant smart assignments</a></p>
-                        <!-- <p>[!BADGE In production for Fast Release ]{type=Positive}</p> -->
+                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>We have changed the algorithm that Workfront uses to calculate and suggest smart assignments for tasks. The new algorithm applies in the following areas in Workfront where you assign a task: task lists, the Assignments area in the task header, Home, and the Summary panel.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -384,11 +383,10 @@ You can also [view a PDF file](https://acrobat.adobe.com/id/urn:aaid:sc:US:17548
                                 <p>Preview release: December 21, 2023</p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 24.3 release (March 14, 2024)</p>
-                                <p><span style="color: #ff0000;">This feature was removed from Production for fast release customers on March 18, 2024.</span></p>
+                                <p>Production for fast release: With the 24.5 release (May 16, 2024)</p>
                             </li>
                             <li>
-                                <p>Production for quarterly release: TBD</p>
+                                <p>Production release for all customers: With the 24.7 release (July 2024)</p>
                             </li>
                         </ul>
                     </td>

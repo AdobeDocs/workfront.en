@@ -71,7 +71,7 @@ You must have the following access to perform the steps in this article:
 <td>Product</p> </td>
    <td>
    <p> Adobe Workfront</p> 
-   <p>To connect Adobe Workfront Planning records with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console.</p>
+   <p>To connect Adobe Workfront Planning records with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Unified Experience. For information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p>
    </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
@@ -211,7 +211,7 @@ After you created a connection between a record type and a Workfront object type
 
 >[!NOTE]
 >
->You cannot connect Workfront objects with Workfront Planning records from Workfront.
+>You cannot connect Workfront object types with Workfront Planning record types from Workfront.
 
 
 {{step1-to-maestro}}

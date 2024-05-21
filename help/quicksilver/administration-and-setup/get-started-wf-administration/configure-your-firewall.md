@@ -185,7 +185,7 @@ If your Production environment is on Cluster 6, add the following IP addresses.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">To use the AWS email service</td> 
+   <td role="rowheader">To use the email service</td> 
    <td> 
     <ul> 
      <li>54.240.60.174</li> 
@@ -196,6 +196,15 @@ If your Production environment is on Cluster 6, add the following IP addresses.
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
      <li>54.71.252.65 </li> 
+    </ul> </td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">To use the Mailgun email service</td> 
+   <td> 
+    <ul> 
+     <li>143.55.228.56 </li> 
+     <li>209.61.151.229</li> 
+     <li>69.72.43.7</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -518,6 +527,7 @@ You must add the following IP addresses to your allowlist in order to use variou
    <td role="rowheader">Prod-US (Clusters 1, 2, 3, 5, and 7)</td> 
    <td> 
     <ul> 
+    <li>35.84.172.250</li>
      <li>34.213.36.118</li> 
      <li>35.160.0.242</li> 
      <li>3.209.27.146</li> 
@@ -543,6 +553,7 @@ You must add the following IP addresses to your allowlist in order to use variou
    <td role="rowheader">Prod-EU (Cluster 4)</td> 
    <td> 
     <ul> 
+    <li>34.255.252.190</li>
      <li>34.246.27.40</li> 
      <li>52.208.123.166</li> 
      <li>3.121.91.129</li> 
