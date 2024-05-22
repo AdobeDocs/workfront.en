@@ -249,7 +249,7 @@ Update the timeline view settings to indicate what and how information displays 
 
     >[!NOTE]
     >
-    >    You must first add thumbnails in the table view before you can display them in the timeline view. For more information, see [Add a thumbnail to a record](/help/quicksilver/maestro/records/add-thumbnails-to-records.md). 
+    >    You must first add thumbnails in the table view before you can display them in the timeline view. For more information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md). 
 
 1. Click **Add field** to add up to 4 fields to the record bars.
 1. Click inside the **Search fields** box, and click the field you want to add. 

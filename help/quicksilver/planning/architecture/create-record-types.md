@@ -101,7 +101,7 @@ You must have the following access to perform the steps in this article:
 
         <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront Planning which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
-        For information about connecting objects with records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). -->
+        For information about connecting objects with records, see [Connect records](/help/quicksilver/planning/records/connect-records.md). -->
     * Manually:
 
         * From scratch.
@@ -181,7 +181,7 @@ The last-accessed workspace should open by default.
 1. (Optional) Click **+ New record** to add records of the selected record type. For more information, see [Create records](../records/create-records.md). 
 1. (Optional) Click the **+** icon in the upper-right corner of the table to add more fields to the record type. 
 
-    For more information about creating fields, see [Create fields](../fields/create-fields.md).
+    For more information about creating fields, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
     
 1. (Optional) Click the left-pointing arrow to the left of the record type name, in the header, to go back to the selected workspace. 
 

@@ -34,7 +34,7 @@ This article describes how you can connect two record types in Workfront Plannin
 
 After you establish the connection between records or object types, you can connect individual records to one another. 
 
-For information about connecting a Workfront Planning record to an object from another application, see [Connect records](../records/connect-records.md). 
+For information about connecting a Workfront Planning record to an object from another application, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
 
 For an example of connecting record types, see [Example of connecting record types and records](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md). 
 
@@ -137,7 +137,7 @@ You must have the following access to perform the steps in this article:
         >
         >If you have questions about onboarding to the Adobe Admin Console, see the [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-* After you create individual records for a record type, you can select the records you connect to from the linked record type field. For information, see [Connect records](../records/connect-records.md). 
+* After you create individual records for a record type, you can select the records you connect to from the linked record type field. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
 
 * After you connect a record type with another record type or with an object type from another application, the following scenarios exist: 
     
@@ -149,7 +149,7 @@ You must have the following access to perform the steps in this article:
         
         A new Workfront Planning read-only record type is created for the other application's object only when actual objects are connected to Workfront Planning records. 
     
-        For more information, see [Connect records](../records/connect-records.md). 
+        For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
     
     * **When you add lookup fields of the record or object you connect to**: You can connect fields from the other application's object to the Workfront Planning record type. These are linked or lookup fields. Linked fields automatically display information from connected records or objects when you connect the records or the objects. The linked lookup fields are always read-only and populate automatically with the values of the connected records or objects. 
 
@@ -273,7 +273,7 @@ You must have the following access to perform the steps in this article:
 
     The following items are added: 
 
-    * A linked record field on the record type you are linking from. The linked record field will display individual records from the linked record type, after you manually add them. For information about adding records, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). The name of the linked record field is the name you selected in step 6. <!--accurate--> 
+    * A linked record field on the record type you are linking from. The linked record field will display individual records from the linked record type, after you manually add them. For information about adding records, see [Connect records](/help/quicksilver/planning/records/connect-records.md). The name of the linked record field is the name you selected in step 6. <!--accurate--> 
     
     * A linked field (or fields) that display information from the fields of the linked record or object types after you manually add the records or objects in the linked record field. The linked fields are created only when the **Select lookup fields** setting is selected when creating the connection. The linked fields are automatically named according to this pattern: 
 

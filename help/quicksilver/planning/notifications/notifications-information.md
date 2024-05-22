@@ -16,6 +16,6 @@ The type of notifications that you receive depends on whether your company is an
 
 The following articles describe the type of Workfront Planning notifications you may receive and how to manage your preferences: 
 
-* [Manage Adobe Workfront Planning notification preferences](/help/quicksilver/maestro/notifications/manage-notification-preferences.md). 
-* [Manage Adobe Workfront Planning email notifications](/help/quicksilver/maestro/notifications/manage-planning-email-notifications.md)
-* [Manage Adobe Workfront Planning in-app notifications](/help/quicksilver/maestro/notifications/manage-planning-in-app-notifications.md)
+* [Manage Adobe Workfront Planning notification preferences](/help/quicksilver/planning/notifications/manage-notification-preferences.md). 
+* [Manage Adobe Workfront Planning email notifications](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md)
+* [Manage Adobe Workfront Planning in-app notifications](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md)

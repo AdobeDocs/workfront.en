@@ -102,7 +102,7 @@ You must have the following access to perform the steps in this article:
 
 * Display changes that you make in the record preview are immediately visible in the record details page. Changes made in the record page are also visible in the record preview box. 
 
-* Adding a cover image to a record is not part of the overall layout of the record preview or page. You can add unique cover images to each record. For information, see [Add a cover image to a record](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md).
+* Adding a cover image to a record is not part of the overall layout of the record preview or page. You can add unique cover images to each record. For information, see [Add a cover image to a record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
 ## Add sections to a record preview or page
 

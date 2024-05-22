@@ -145,7 +145,7 @@ You can edit a record from the following areas:
 
     ![](assets/rich-text-toolbar-on-paragraph-field.png)
 
-1. (Optional) Double-click a connected record field to add connected records or objects to another record. For more information, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). 
+1. (Optional) Double-click a connected record field to add connected records or objects to another record. For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
 1. Press **Enter** on your keyboard or click outside of a row to save your changes. The changes are saved automatically. A **Saved** indicator displays briefly in the upper-right corner of the table view to show that the changes were saved. 
 
 
@@ -180,7 +180,7 @@ You can edit a record from the following areas:
     >
     >    You can use the keyboard shortcuts multiple times in a row to undo multiple changes.
 
-1. (Optional) Add a thumbnail to a record. For information, see [Add a thumbnail to a record](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+1. (Optional) Add a thumbnail to a record. For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
 ### Edit a record from the record's preview in a view
 
@@ -215,7 +215,7 @@ You can edit a record from the following areas:
     >  * Linked fields that are created by connecting record types. For more information, see [Connect record types](../architecture/connect-record-types.md).
     >  * Fields of the following types: Created by, Created date, Last modified by, Last Modified date, Formula fields.
 
-1. (Optional) Click **Add cover** to add a cover image to the record. For more information, see [Add a cover image to a record](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md). 
+1. (Optional) Click **Add cover** to add a cover image to the record. For more information, see [Add a cover image to a record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md). 
 
     Workfront automatically saves your changes.
 
@@ -254,7 +254,7 @@ You can edit a record from the following areas:
     >  * Linked fields that are created by connecting record types. For more information, see [Connect record types](../architecture/connect-record-types.md).
     >  * Fields of the following types: Created by, Created date, Last modified by, Last Modified date, Formula fields.
 
-1. (Optional) Click **Add cover** to add a cover image to the record. For more information, see [Add a cover image to a record](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md). 
+1. (Optional) Click **Add cover** to add a cover image to the record. For more information, see [Add a cover image to a record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md). 
 
     Workfront automatically saves your changes.
 

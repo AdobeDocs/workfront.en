@@ -92,8 +92,8 @@ You must have the following access to perform the steps in this article:
 
    For information, see the following articles:
 
-   * [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md)
-   * [Connect records](/help/quicksilver/maestro/records/connect-records.md)
+   * [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md)
+   * [Connect records](/help/quicksilver/planning/records/connect-records.md)
 * You can view the Planning section in a Workfront object, even when there are no records associated with the Workfront object.  
 * You can connect Planning records with Workfront objects from Workfront, in the Planning section.
 
@@ -105,7 +105,7 @@ You must have the following access to perform the steps in this article:
 
 1. Click the card of a record type that is connected to a Workfront project, portfolio, or program. 
 1. Choose a table view from the **View** drop-down menu.
-1. (Conditional) Go to the connected record field in the table and add a Workfront object, then click the name of the Workfront object in the field. For information, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). 
+1. (Conditional) Go to the connected record field in the table and add a Workfront object, then click the name of the Workfront object in the field. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
   The objects's page opens in Workfront Planning. 
 1. Click **Go to source**, in the upper-right corner of the screen. 
 

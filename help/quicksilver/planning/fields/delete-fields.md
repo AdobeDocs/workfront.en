@@ -25,7 +25,7 @@ recommendations: noDisplay, noCatalog
 
 In Adobe Workfront Planning, you can create custom fields to store information about records. 
 
-For information about creating custom fields in Workfront Planning, see [Create fields](../fields/create-fields.md).
+For information about creating custom fields in Workfront Planning, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
 
 You can delete Workfront Planning fields that are no longer relevant. 
 

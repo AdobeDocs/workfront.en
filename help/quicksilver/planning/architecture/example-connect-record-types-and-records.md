@@ -18,8 +18,8 @@ This article describes an example of the following:
 
 For more information, also see the following articles:
 
-* [Connect record types](../architecture/connect-record-types.md)
-* [Connect records](../records/connect-records.md)
+* [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md)
+* [Connect records](/help/quicksilver/planning/records/connect-records.md)
 
 ## Connect two Workfront Planning record types and records (example)
 

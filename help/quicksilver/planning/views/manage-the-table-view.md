@@ -120,7 +120,7 @@ You can add up to 500 fields (or columns) in a table view.
 1. Go to a record type page and select a **Table** view from the view drop-down menu.
 
     <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
-1. Start adding fields (or columns), as described in the article [Create fields](../fields/create-fields.md). 
+1. Start adding fields (or columns), as described in the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
 
     The columns you add are visible to all users who access the record type and are added as new fields on the record's page.
    
@@ -222,7 +222,7 @@ You can have up to 50,000 records (or rows) for a record typeS.
 
 1. (Optional) Add a thumbnail to each record, and click **Fields** in the upper-right corner of the table, then select the toggle for the **Thumbnail** field to display it to the left of the primary field. It is deselected by default. 
     
-    For information, see [Add a thumbnail to a record](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
+    For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
 1. (Optional) Select one or multiple records in a row, then drag and drop the **handle** icon ![](assets/handle-icon.png) to the left of the record name to reorder the rows. 
 

@@ -41,7 +41,7 @@ You can create fields in the following ways in Maestro:
 * By creating a record type
 * By creating a workspace from a template
 
-For more information about Maestro fields, see [Field overview](/help/quicksilver/maestro/fields/fields-overview.md).
+For more information about Maestro fields, see [Field overview](/help/quicksilver/planning/fields/fields-overview.md).
 
 ## Access requirements
 
@@ -349,7 +349,7 @@ You can use the Checkbox field type to add a single checkbox option to a record.
 
 Formula fields generate a new value using existing values from other fields in a record type and a function that indicates how the existing values should be calculated.
 
-For more information, see [Formula fields overview](/help/quicksilver/maestro/fields/formula-fields.md).
+For more information, see [Formula fields overview](/help/quicksilver/planning/fields/formula-fields.md).
  
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Formula** field type.
  
@@ -365,7 +365,7 @@ For more information, see [Formula fields overview](/help/quicksilver/maestro/fi
 
    ![](assets/description-of-formula-expression.png)
 
-   For more information about what expressions are supported, see [Formula fields overview](/help/quicksilver/maestro/fields/formula-fields.md)
+   For more information about what expressions are supported, see [Formula fields overview](/help/quicksilver/planning/fields/formula-fields.md).
 
 1. Add field names as they display in Workfront Planning to reference them in a formula. 
 

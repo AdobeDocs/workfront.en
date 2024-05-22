@@ -25,7 +25,7 @@ recommendations: noDisplay, noCatalog
 
 You can edit the field settings for fields that are already created in Adobe Workfront Planning. 
 
-For information about creating Adobe Workfront Planning fields, see [Create fields](../fields/create-fields.md).
+For information about creating Adobe Workfront Planning fields, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
 
 This article describes how you can edit the settings for Workfront Planning fields. For information about editing field values for records, see [Edit records](/help/quicksilver/maestro/records/edit-records.md).
 

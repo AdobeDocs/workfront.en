@@ -33,7 +33,7 @@ The right panel of a record displays the following sections:
 
 * You can add comments to Workfront Planning records created as a result of a connection between a record and an object from another application. 
    
-   For example, you can comment on the Project Workfront Planning record after you connect Workfront projects with Workfront Planning records. For more information, see [Connect records](/help/quicksilver/maestro/records/connect-records.md). 
+   For example, you can comment on the Project Workfront Planning record after you connect Workfront projects with Workfront Planning records. For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
 
 * Comments added to linked objects in other applications do not display in Workfront Planning and comments added to linked objects in Workfront Planning do not display in other applications.  
    
@@ -47,7 +47,7 @@ The right panel of a record displays the following sections:
    * Adobe Unified Experience users receive both an in-app notification and an email notification. 
    * Users who are not in the Adobe Unified Experience receive only an email notification. 
 
-      For information, see [Adobe Workfront Planning notifications: article index](/help/quicksilver/maestro/notifications/notifications-information.md)
+      For information, see [Adobe Workfront Planning notifications: article index](/help/quicksilver/planning/notifications/notifications-information.md)
    
       To determine whether your company is using the Adobe Unified Experience, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
       -->

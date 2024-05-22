@@ -74,7 +74,7 @@ You can review the changes made to record fields in the History section of the r
 
 * Checkbox-type fields never display the old value in strikethrough format. If the field is edited, only the current state at the moment the change was made displays. 
 
-    For more information about Workfront Planning fields, see [Create fields](/help/quicksilver/maestro/fields/create-fields.md). 
+    For more information about Workfront Planning fields, see [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
 
 * Changes to fields of the following types do not display in the History section: 
 

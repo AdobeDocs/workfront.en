@@ -156,7 +156,7 @@ The following are the main Workfront Planning objects and concepts:
 
     * Fields are fully customizable and are accessible only in Workfront Planning. You cannot access Workfront Planning fields from Workfront. 
 
-    For more information, see [Create fields](../maestro/fields/create-fields.md).
+    For more information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
     
     A new record type is associated with the following predefined fields, by default: 
 
@@ -205,8 +205,8 @@ The following are the main Workfront Planning objects and concepts:
 
     For information about linking record types, records, and creating linked fields, see the following articles:
 
-    * [Connect record types](../maestro/architecture/connect-record-types.md)
-    * [Connect records](../maestro/records/connect-records.md)
+    * [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md)
+    * [Connect records](/help/quicksilver/planning/records/connect-records.md)
 
 <!--not yet:* Fields are reusable across Record Types.  -->
 
