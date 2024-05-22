@@ -12,6 +12,68 @@ Use the following Adobe Workfront help articles, and additional resources to lea
 
 The following sections point you to useful links in this guide, arranged by intended audience based on typical job functions:
 
+## What's new
+
+
+>[!BEGINTABS]
+
+>[!TAB Latest release]
+
+* [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
+
+>[!TAB 2024 releases]
+
+* [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
+* [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
+* [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
+* [Adobe Workfront Fusion release activity](../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+
+>[!TAB Announcements]
+
+* [Custom form enhancements](../../product-announcements/announcements/custom-form-enhancements.md)
+* [Maintenance Window FAQ](../../product-announcements/announcements/maintenance-window-faq.md)
+* [Unsubscribe from Announcement Center Messages](unsubscribe-from-ac-messages.md)
+* [Change required for adding proofs to your allowlist](proofhq-domain-change-workfront.md)
+
+>[!TAB Betas]
+
+* [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
+* [New commenting beta experience](../betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
+* [Form designer overview](../../administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md)
+* [Workfront and Frame.io integration](/help/quicksilver/review-and-approve-work/Documents/wf-frame-alpha.md)
+
+
+>[!ENDTABS]
+
+
+## Explore documentation
+
+<table style="border-collapse: collapse; border: none;">
+  <tr>
+    <td>Row 1, Column 1</td>
+    <td>Row 1, Column 2</td>
+    <td>Row 1, Column 3</td>
+    <td>Row 1, Column 4</td>
+  </tr>
+  <tr>
+    <td>Row 2, Column 1</td>
+    <td>Row 2, Column 2</td>
+    <td>Row 2, Column 3</td>
+    <td>Row 2, Column 4</td>
+  </tr>
+  <tr>
+    <td>Row 3, Column 1</td>
+    <td>Row 3, Column 2</td>
+    <td>Row 3, Column 3</td>
+    <td>Row 3, Column 4</td>
+  </tr>
+</table>
+
+## Tips for navigating content in Experience League
+
+
+
+
 ## Administrators
 
 ### Get started for Workfront administrators
