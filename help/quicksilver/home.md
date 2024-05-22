@@ -48,22 +48,26 @@ The following sections point you to useful links in this guide, arranged by inte
 
 ## Explore documentation
 
-<table style="border-collapse: collapse; border: none;">
+<table>
+ 
   <tr>
-    <td>Row 1, Column 1</td>
-    <td>Row 1, Column 2</td>
-    <td>Row 1, Column 3</td>
-    <td>Row 1, Column 4</td>
+    <td style="text-align: center;"><img src="assets/Smock_UserAdmin_18_N.svg" style="width: 100px; height: 100px;"><p><b>Administrators</b></p></td>
+    <td colspan="2" style="text-align: center;"><img src="assets/user.svg" style="width: 100px; height: 100px;"><p><b>Individual contributor</b></p></td>
+    <td style="text-align: center;"><img src="assets/developer.svg" style="width: 100px; height: 100px;"><p><b>Developers</b></p></td>
   </tr>
   <tr>
-    <td>Row 2, Column 1</td>
-    <td>Row 2, Column 2</td>
-    <td>Row 2, Column 3</td>
-    <td>Row 2, Column 4</td>
-  </tr>
-  <tr>
-    <td>Row 3, Column 1</td>
-    <td>Row 3, Column 2</td>
+    <td>
+    <ul>
+    <li>Get started with admin</li>
+    <li>Get started with fusion</li>
+    </ul>
+ </td>
+    <td>
+        <ul>
+        <li>Basics</li>
+        <li>Manage work</li>
+        </ul>
+    </td>
     <td>Row 3, Column 3</td>
     <td>Row 3, Column 4</td>
   </tr>
