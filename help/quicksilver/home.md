@@ -52,13 +52,13 @@ The following sections point you to useful links in this guide, arranged by inte
  
   <tr>
     <td style="text-align: center;"><img src="assets/Smock_UserAdmin_18_N.svg" style="width: 100px; height: 100px;"><p><b>Administrators</b></p></td>
-    <td colspan="2" style="text-align: center;"><img src="assets/user.svg" style="width: 100px; height: 100px;"><p><b>Individual contributor</b></p></td>
+    <td colspan="2" style="text-align: center;"><img src="assets/user.svg" style="width: 100px; height: 100px;"><p><b>End user <!--Individual contributor--></b></p></td>
     <td style="text-align: center;"><img src="assets/developer.svg" style="width: 100px; height: 100px;"><p><b>Developers</b></p></td>
   </tr>
   <tr>
     <td>
     <ul>
-    <li>Get started with admin</li>
+    <li><a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md">Get started with admin and setup</a></li>
     <li>Get started with fusion</li>
     </ul>
  </td>
