@@ -46,7 +46,7 @@ exl-id: 2169dc2e-2135-47e0-a615-3de12cd120a9
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>When adding an app or service to a scenario, most likely you will have to first create a connection between [!DNL Workfront Fusion] and the app or service in order to retrieve or send the selected data. For more information, see <a href="../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md" class="MCXref xref">About connecting [!DNL Adobe Workfront Fusion] to an app or service</a>.</p> </td> 
+   <td> <p>When adding an app or service to a scenario, most likely you will have to first create a connection between [!DNL Workfront Fusion] and the app or service in order to retrieve or send the selected data. For more information, see <a href="../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md" class="MCXref xref">Connections overview</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Cycle</p> </td> 

@@ -21,4 +21,4 @@ For more information about reports and dashboards, see the articles in the follo
 * [Reports](../reports-and-dashboards/reports/reports-overview.md) 
 * [Dashboards](../reports-and-dashboards/dashboards/dashboards-overview.md) 
 * [Enhanced analytics](../enhanced-analytics/enhanced-analytics.md) 
-* [Reporting Canvas](../reports-and-dashboards/reporting-canvas/reporting-canvas.md)
+* [Canvas Dashboards](../reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md)

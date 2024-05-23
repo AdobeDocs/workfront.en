@@ -11,12 +11,6 @@ exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
 ---
 # Share a custom form
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
-
 You can configure access for a custom form to control who—person, role, group, team, company—can view, share, and edit it.
 
 ## Access requirements
@@ -63,7 +57,7 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
 {{step-1-to-setup}}
 
 1. In the left panel, click **Custom Forms**.
-1. Select the custom form, then click **Share** <span class="preview">or ![Share icon](assets/share-icon.png).</span>
+1. Select the custom form, then click ![Share icon](assets/share-icon.png).
 1. In the box that displays, under **Give custom form access to**, start typing the name of the user, team, job role, group, or company you want to share the custom form with, then press **Enter** when the name displays.
 1. To adjust access for the user, team, job role, group, or company you just added, click the drop-down menu to the right of the name, then configure one of the following available options and any of its advanced settings:
 
@@ -112,7 +106,7 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
 {{step-1-to-setup}}
 
 1. In the left panel, click **Custom Forms**.
-1. Select the custom form, then click **Share** <span class="preview">or ![Share icon](assets/share-icon.png).</span>
+1. Select the custom form, then click ![Share icon](assets/share-icon.png).
 1. In the box that displays, click the X to the right of the name of the user, team, role, group, or company whom you no longer want to have special access to the form.
 1. (Optional) Repeat the previous step to for other names you want to remove.
 1. Click **Save**.

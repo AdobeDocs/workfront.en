@@ -29,8 +29,8 @@ For information on adding, moving, resizing, or deleting widgets, see [Add, edit
 
 Below are the ten widgets currently available to choose from, as well as a summary of the information they display:
 
-* **My work**\
-    A great place to start for managing a variety of work, this widget displays all of your assigned tasks, issues, and requests in one place. You can click the Work On It button to start working on an item. 
+* **My Work**\
+    A great place to start for managing a variety of work, this widget displays all of your assigned tasks, issues, and requests in one place. You can click the Work On It button to start working on an item, or the Done button to mark them complete. You can also update information (Status, Condition, Percent Complete) about tasks and issues, log time, and add updates from the My Work widget. 
 
 * **My projects**\
     Displays projects you own or projects you are on in a list. You can use  existing filters, views, or groupings to customize the list, or you can create a project directly from the widget.
@@ -61,7 +61,7 @@ Below are the ten widgets currently available to choose from, as well as a summa
 
     >[!NOTE]
     >
-    >You must have permission to create tasks in order to create to-dos in the To-dos widget.
+    >You must have permission to create tasks in order to create to-dos in the To-dos widget, and only personal tasks that are entered by the current user will appear in the widget.
 
 By default, the Home page is populated with a few specific widgets based on your license type. The tables below outline which widgets users of each license type see when they first navigate to New Home.
 

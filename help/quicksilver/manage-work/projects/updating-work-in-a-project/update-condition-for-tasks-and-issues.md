@@ -62,10 +62,7 @@ You must have the following access to perform the steps in this article:
 
 Conditions display as a flag associated with tasks or issues. They can also be associated with a number which can display in reports instead of the label. For more information about associating conditions with numbers, see [Create or edit a custom condition](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md). 
 
-You can locate the Condition of tasks and issues in the following areas: 
-
-* Task and issue Updates area, inside of an update, when you are assigned to the task or issue. This is not supported in the new commenting experience. For information, see [New commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
-* Reports and lists when you display the Condition field in a View or Grouping. 
+You can locate the Condition of tasks and issues in reports and lists when you display the Condition field in a View or Grouping. 
 
 >[!NOTE]
 >
@@ -88,6 +85,15 @@ For information about setting the Work On It button to a Start Task or Start Iss
 You must be assigned to a task or the issue or have Manage permissions to it to be able to set the Condition on it.
 
 You can manually update the Condition of a task or issue in a task or issue report or list when  you display the Condition field in the view. 
+
+>[!NOTE]
+>
+>You can ask your system or group administrator to add the Condition field to your Summary panel, to make it easier to update it in various areas of Workfront. 
+>
+>For more information, see the following articles:
+>
+>* [Summary overview](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+>* [Customize Home and Summary using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 
 <!--old Condition update - in the commenting stream: 

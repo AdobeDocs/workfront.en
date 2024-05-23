@@ -37,15 +37,14 @@ In Workfront Planning, you can create custom record types that meet your organiz
 
 An operational record type is a Maestro record type that represents work-related objects.  
 
-![](assets/operational-record-type-blank.png)
-
+(***********insert screen shot**************)
 For more information about operational record types including how to create them, see [Create record types](../architecture/create-record-types.md). 
 
 ### Taxonomy{#taxonomy}
 
 A taxonomy is a record type that captures attributes about an operational record type. 
 
-![](assets/taxonomy-record-type-blank.png)
+(**********add screen shot**********)
 
 For more information about taxonomy record types, see [Create a taxonomy](../architecture/create-a-taxonomy.md). 
 

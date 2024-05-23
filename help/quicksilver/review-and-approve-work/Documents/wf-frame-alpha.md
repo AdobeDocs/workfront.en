@@ -1,24 +1,63 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Alpha Program – Workfront + Frame.io
-description: We are excited to announce the launch of our Alpha program for Workfront + Frame.io. Here you will find information about the latest Alpha release along with a brief video walkthrough to get you started.
+title: Beta Program – Workfront + Frame.io
+description: We are excited to announce the launch of our Beta program for Workfront + Frame.io. Here you will find information about the latest Beta release along with a brief video walkthrough to get you started.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: yes
-hidefromtoc: yes
 recommendations: noDisplay, noCatalog
-exl-id: 0ede24f4-4bba-4812-9dd9-e7af77ea5ecc
+exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
 ---
-# Alpha Program –  Workfront + Frame.io
+# Beta Program –  Workfront + Frame.io
 
-We are excited to announce the launch of our Alpha program for Workfront + Frame.io. Here you will find information about the latest Alpha release along with a brief video walkthrough to get you started.
+Welcome to the Workfront + Frame.io integration beta program! As a part of this beta, you'll gain early access to our Workfront + Frame.io native integration experience and be able to share your feedback that will ultimately shape the final experience we release to our wider customer base. With this integration, we aim to create a frictionless end-to-end workflow between Workfront and Frame.io with a focus on providing an ideal, unified Review and Approval solution. 
 
-## Latest release
+Here you will find information about the latest Beta release along with a brief video walkthrough to get you started.
 
-## Alpha Release - Mar. 2024
+>[!NOTE]
+>
+>In order to participate in this Beta, you must be enabled by the product team. Contact your Customer Success or Account Manager and request to be added.
 
-In this 7th Alpha release we have:
+## May 2024: Beta release updates in Workfront
+
+This May release includes the following capabilities:  
+
+>[!VIDEO](https://video.tv.adobe.com/v/3429129/)
+
+### Workfront projects are automatically synced to Frame.io
+
+Based on your feedback, we've improved the experience and reduced the steps needed to trigger the creation of a connected Frame.io.  Now, when you create a project in Workfront, a corresponding project is automatically created in Frame.io. 
+
+### Improved assignment of creatives to your Frame.io project
+
+You can now easily manage who should have access to the connected Frame.io project. Your creative users can be flagged as "Frame.io enabled" which will automatically grant them access to the connected Frame.io project when assigned to the Workfront project.   
+
+### Frame.io project name gets updated when Workfront project name changes
+
+As part of our efforts to improve the project synchronization between Workfront and Frame.io, Workfront project name updates are now also reflected within Frame.io. 
+
+### Approval status in document list
+
+Easily track the approval status of any file directly from the document list. With a simple click on the overall status, access a detailed breakdown of all participants involved in the approval process, along with their individual statuses. Additionally, streamline your workflow by reminding any outstanding approvers with just one click, ensuring timely responses and efficient document management. 
+
+
+## March 2024: Beta Release updates in Frame.io
+
++++ Expand to view the functionality released in March 2024
+
+### Add multiple assets from Frame.io to Workfront
+
+You can now add up to 10 assets from Frame.io to Workfront at once. You can choose to add to Workfront Project Documents or to a specific project task.
+
+### Improved experience when adding a Frame.io asset to Workfront
+
+The menu items for adding an asset to Workfront have been updated making it easier to see tasks assigned to you, task hierarchy and task status.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3428213/)
+
+## March 2024: Beta Release updates in Workfront
+
+In this Beta release we have:
 
 ### Add a deadline to a document reviews and approvals
 
@@ -58,9 +97,27 @@ Once locked, any person either reviewing and/or approving will no longer be able
 
 When a new document version is uploaded, the next round of revision can be kicked off while keeping previous revisions locked.
 
->[!VIDEO](https://video.tv.adobe.com/v/3428023/)
+>[!VIDEO](https://video.tv.adobe.com/v/3428179/)
 
++++
+
+## Feature testing
+
+With this integration, our goal is to allow creatives to stay in their tool of choice (CC or Frame.io) to conduct their content creation and peer reviews, while having project managers coordinate the work and initialize and monitor the formal review process from inside Workfront. This can be achieved by utilizing the best of both solutions: Workfront's new document approvals for managing content approvals, in conjunction with the content review capabilities offered by Frame.io. Collectively, the new document approvals and Frame.io are going to form our new end-to-end content review and approval experience. 
+
+To allow you to easily test the new features of the beta program, we've created a new test Frame.io account and connected it to a new group called `Frame.io testing` in your existing Workfront Preview or Sandbox environment.
+
+### Detailed testing instructions
+
+For participants looking to test additional functionality, we've created a more involved test scenario. A guide for this detailed test scenario can be downloaded here: [WF + Frame.io Detailed Test Scenario Walkthrough](/help/quicksilver/review-and-approve-work/Documents/assets/WF-Frame-Detailed-Walk-Through-May-Release.pdf).
+
+
+## Demo Video
+
+>[!VIDEO](https://video.tv.adobe.com/v/3429092/)
 
 ## Send Feedback
 
-We value your input and believe that your perspective is crucial in helping us create the best product possible. As you have specific feedback on what would be required in order for your company to adopt this solution in Production, please send it to [etienneb@adobe.com](mailto:etienneb@adobe.com).
+We value your input and believe that your perspective is crucial in helping us create the best product possible. 
+
+As you have specific feedback on what would be required in order for your company to adopt this solution in Production, please send it to [etienneb@adobe.com](mailto:etienneb@adobe.com).

@@ -23,31 +23,11 @@ exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
 >
 >The information in this article refers to features that were released during the beta phase for the new commenting experience. 
 >
->The beta program for the new commenting experience started in April 2023 and ended in October 2023.
->
->The features released during the beta period have been made available to all customers starting with the Fourth Quarter release of 2023 (October 2023) when the beta program closed. 
+>The beta program for the new commenting experience started in April 2023 and ended in October 2023, with the October 2023 release.
 > 
-><br>For more information, see the following articles: </br>
+>For more information, see [New commenting experience](../../betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
->* For information about the features that released during the new experience beta period, see [New commenting experience](../../betas/new-commenting-experience-beta/unified-commenting-experience.md). 
->
->* For information about features released for the commenting experience after the new commenting experience beta program closed, see the current Release overview page. 
-
-<!--
- This page contains information about the release timeline for the new commenting experience which is currently ongoing in Adobe Workfront. 
-
-For general information on the new commenting experience, including a list of features that are currently available or in research, see [New commenting experience](../new-commenting-experience-beta/unified-commenting-experience.md). 
-
-
->[!IMPORTANT]
->
->The new commenting experience launched in Beta with the 23.2 release. For information about the original release, see [23.2 Release overview](../../product-releases/23.2-release-activity/23-2-release-overview.md). 
->
->Features that are released to the Workfront objects that support the beta commenting experience are also released to the Updates section of the following objects as the only commenting experience: 
->* Goals
->* Cards in the Boards area. 
-
--->
+>All features included in the new commenting experience have been available to all customers in the Production environment since April 11, 2024. 
 
 ## New commenting experience location and release timeline
 
@@ -63,6 +43,8 @@ For information about the release timeline for the new commenting experience, se
 The features documented in this section are now available to all customers and in all environments. 
 
 The following features were added to the commenting experience during the beta phase, between the 23.2 release (April 6, 2023) and the Fourth Quarter 2023 release (October 26, 2023). 
+
+Features released after the close of the beta program were messaged in the current release pages at the time of their release. 
 
 The following information refers to the release activity on a weekly basis, starting with the most recent update. 
 

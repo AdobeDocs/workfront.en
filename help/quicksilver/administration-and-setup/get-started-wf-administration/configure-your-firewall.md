@@ -79,7 +79,6 @@ For more information, see the section [View your organization's cluster and Work
 * [IP addresses to allow for enhanced authentication](#ip-addresses-to-allow-for-enhanced-authentication) 
 * [IP addresses to add for accessing Workfront Fusion](#ip-addresses-to-add-for-accessing-workfront-fusion) 
 * [IP addresses to add for using Workfront for Jira](#ip-addresses-to-add-for-using-workfront-for-jira) 
-* [IP addresses to add for using Workfront Ascent](#ip-addresses-to-add-for-using-workfront-ascent) 
 * [URLs to add for all clusters Workfront](#urls-to-add-for-all-clusters-workfront)
 
 ### IP addresses to allow for Clusters 1, 2, 3, 5, 7, 8 and 9 {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
@@ -186,7 +185,7 @@ If your Production environment is on Cluster 6, add the following IP addresses.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">To use the AWS email service</td> 
+   <td role="rowheader">To use the email service</td> 
    <td> 
     <ul> 
      <li>54.240.60.174</li> 
@@ -197,6 +196,15 @@ If your Production environment is on Cluster 6, add the following IP addresses.
      <li>52.14.70.114</li> 
      <li>52.15.230.220</li> 
      <li>54.71.252.65 </li> 
+    </ul> </td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">To use the Mailgun email service</td> 
+   <td> 
+    <ul> 
+     <li>143.55.228.56 </li> 
+     <li>209.61.151.229</li> 
+     <li>69.72.43.7</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -355,6 +363,18 @@ Add the following IP addresses to your allowlist to enable Workfront Fusion to a
      <li>54.244.142.219</li> 
      <li>52.39.217.230</li> 
      <li>44.241.82.96</li> 
+     <li>100.20.126.137</li>
+     <li>34.223.32.4</li>
+     <li>52.39.176.220</li>
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] on the Microsoft Azure cluster</td> 
+   <td> 
+    <ul> 
+     <li>20.36.133.48/28</li> 
+     <li>20.81.156.240/28</li> 
+     <li>172.172.84.48/28</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -373,6 +393,10 @@ Also, if your organization uses outbound network filtering, add the following do
   <tr> 
    <td role="rowheader"> <p>Adobe Workfront US Datacenter</p> </td> 
    <td> <p>hook.app.workfrontfusion.com </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!DNL Adobe Workfront Fusion] on the Microsoft Azure cluster</p> </td> 
+   <td> <p>hook.app-az.workfrontfusion.com </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -430,38 +454,6 @@ The jira.workfront.com domain must also be accessible from your corporate server
  </tbody> 
 </table>
 
-### IP addresses to add for using Workfront Ascent {#ip-addresses-to-add-for-using-workfront-ascent}
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">To access Workfront training resources via Workfront Ascent</td> 
-   <td> 
-    <ul> 
-     <li>18.223.140.34</li> 
-     <li>3.13.223.30</li> 
-     <li>3.13.19.112</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">To receive email notifications from Workfront Ascent</td> 
-   <td> 
-    <ul> 
-     <li>23.251.227.75</li> 
-     <li>23.251.227.76</li> 
-     <li>23.251.227.77</li> 
-     <li>23.251.227.78</li> 
-     <li>23.251.227.79</li> 
-     <li>23.251.227.80</li> 
-     <li>23.251.227.81</li> 
-     <li>23.251.227.82</li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
 ## Domains to add for accessing Workfront
 
 If your organization uses outbound network filtering, add the following domains to your allowlist to enable your system to access Workfront.
@@ -481,6 +473,16 @@ If your organization uses outbound network filtering, add the following domains 
 * mfe.static.workfront.com
 * https://app.pendo.io/
 * https://cdn.pendo.io/
+* *.static.workfront.com 
+
+  This is a static domain that excompasses all of the following domains. You may add the individual domains if you prefer:
+  
+   * mfe.static.workfront.com
+   * mfe-c.static.workfront.com
+   * mfe-preview-c.static.workfront.com
+   * mfe-preview.static.workfront.com
+   * mfe-review.static.workfront.com
+
 
 ## URLs to add for all clusters Workfront {#urls-to-add-for-all-clusters-workfront}
 
@@ -525,6 +527,7 @@ You must add the following IP addresses to your allowlist in order to use variou
    <td role="rowheader">Prod-US (Clusters 1, 2, 3, 5, and 7)</td> 
    <td> 
     <ul> 
+    <li>35.84.172.250</li>
      <li>34.213.36.118</li> 
      <li>35.160.0.242</li> 
      <li>3.209.27.146</li> 
@@ -550,6 +553,7 @@ You must add the following IP addresses to your allowlist in order to use variou
    <td role="rowheader">Prod-EU (Cluster 4)</td> 
    <td> 
     <ul> 
+    <li>34.255.252.190</li>
      <li>34.246.27.40</li> 
      <li>52.208.123.166</li> 
      <li>3.121.91.129</li> 

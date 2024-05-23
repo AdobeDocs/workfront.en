@@ -101,15 +101,19 @@ For more information about access requirements, see [Access requirements in Work
 
 ## Create a workspace
 
+You can create a workspace and add record types to it to organize your objects in Workfront Planning. For more informaton about editing a workspace, see [Edit workspaces](/help/quicksilver/maestro/architecture/edit-workspaces.md).
+
 {{step1-to-maestro}}
+
+   This opens the Workspaces area of Workfront Planning.
 
 1. (Conditional) If you don't have any workspaces in your environment, click **Create workspace**
 
-   Or, from an existing workspace, click the downward-pointing to the right of the workspace name, then click **Create workspace**. 
+   Or, from an existing workspace, click the downward-pointing arrow to the right of the workspace name, then click **Create workspace**. 
 
    ![](assets/workspace-drop-down-right-menu.png)
 
-   This opens the Workspaces area of Workfront Planning. 
+    
 1. (Optional and conditional) Click **Preview** inside any of the following predefined workspace templates:
 
     * Marketing management
@@ -130,14 +134,10 @@ For more information about access requirements, see [Access requirements in Work
 
     One for the following types of workspaces is created:
     
-    * An empty workspace where you can start adding record types manually, when you create a workspace from scratch. 
-    * A workspace populated with sample record types which you can further customize, when you use one of the templates. 
+    * An empty workspace named **Untitled workspace** where you can start adding record types manually, when you create a workspace from scratch. 
+    * A workspace named after the template you selected that is populated with sample record types. You can further customize the record types and the workspace.
      
-1. Click inside the name of the workspace in the header of the new workspace to rename it, then press Enter
-
-    Or
-    
-    Click the **More** menu ![](assets/more-menu.png)to the right of the workspace name in the header, then click **Rename**.
+1. Click inside the name of the workspace in the header of the new workspace to rename it, then press Enter. 
 
 1. (Optional and conditional) If you created the workspace from a template, click inside the name of the **Operational Record Types** or **Taxonomies** sections 
 
@@ -147,25 +147,14 @@ For more information about access requirements, see [Access requirements in Work
 
       >[!TIP]
       >
-      >You can rename any section from any workspace, even if you created the section. 
+      >You can rename any section from any workspace, even if you didn't create the section. 
 
-1. (Optional) To change the location of a section, do one of the following:
-
-   * Hover over the name of a section and click the **grab** icon ![](assets/grab-icon.png), then drag and drop it in the right spot. 
-   * Hover over the name of a section and click the **More** menu ![](assets/more-menu.png), then click **Move up** or **Move down**. The section moves up or down inside the workspace. 
-
-1. (Optional) To add a new section, do one of the following:
-
-   * Click **Add section** at the bottom of the workspace.
-   * Hover over the name of a section and click the **More** menu ![](assets/more-menu.png), then click **Add section above** or **Add section below**. 
+   For more information about editing workspaces, including editing workspace sections, see [Edit workspaces](/help/quicksilver/maestro/architecture/edit-workspaces.md). 
 
 1. (Optional) Click **Add record type** to add record types to the workspace in any section.
     
    For information, see [Create record types](../architecture/create-record-types.md).
 
-1. (Optional) To delete a section, do the following: 
-   
-   1. Hover over the name of a section, then click the **More** menu ![](assets/more-menu.png), then click **Delete**. <!--add screen shot when UI is final?-->
-   1. Select a new section to move all record types to it, then click **Delete**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
+   For more information about editing and deleting record types in a workspace, see [Edit workspaces](/help/quicksilver/maestro/architecture/edit-workspaces.md).
 
-      All record types are moved to the selection section, and the section is deleted. 
+

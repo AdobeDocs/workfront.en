@@ -2,12 +2,14 @@
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
 title: Manage board columns
-description: A new board contains three columns by default. You can add more columns, change the order of the columns, rename columns, and delete any columns that you don't need.
+description: A new board contains three columns by default. You can add more columns, change the order of the columns, rename columns, and delete any columns that you don't need. You can also define column policies.
 author: Lisa
 feature: Agile
 exl-id: a736cdfe-5ddc-4bf4-82a1-a78d16c0d70b
 ---
 # Manage board columns
+
+<!-- Audited: 05/2024 -->
 
 A new board contains three columns by default. You can add more columns, change the order of the columns, rename columns, and delete any columns that you don't need.
 
@@ -26,21 +28,24 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Request] or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>New: Contributor or higher </p>
+        <p>or</p> 
+        <p>Current: [!UICONTROL Request] or higher </p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Add a column to a board
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
+{{step1-to-boards}}
+
 1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
 1. Click **[!UICONTROL Add Column]** to the right of the existing columns.
 1. In the new column, type a name and click **[!UICONTROL Add Column]**.
@@ -96,6 +101,21 @@ If you are using the WIP limit on a column, a separate card counter is not added
 1. Click **[!UICONTROL Hide configure]** to close the [!UICONTROL Configure] panel.
 
 ## Define column settings and policies
+
+Column policies include automatically updating field values, and setting a work in progress limit.
+
+The policy for updating the status automatically works for both the card and the column:
+
+* When a card is moved to a column with a policy, the card status is updated to the status defined in the policy. This applies to both ad hoc and connected cards.
+* When an ad hoc or connected card status is updated on the card to match the column status in the policy, or a connected card status is updated elsewhere in Workfront, the card is automatically moved to that column. Also, if a custom status on a card matches the system status assigned to the column, the card is moved to that column.
+
+A card will remain in a column where it is placed if the card status does not match any status set in any existing column policies.
+
+>[!NOTE]
+>
+>Dynamic boards always place cards in the column that matches their status, regardless of whether column policies are enabled or disabled. Cards will return to their assigned columns when you refresh the board.
+> 
+>Also, for all board types, if you move a card from one column to another column with the same status, the card will return to the original column when you refresh the board.
 
 1. Access the board.
 1. Click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) on the column, and select **[!UICONTROL Edit]**.
