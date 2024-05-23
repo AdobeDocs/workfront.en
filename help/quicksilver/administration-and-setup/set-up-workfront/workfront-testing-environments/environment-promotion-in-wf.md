@@ -32,7 +32,7 @@ You can perform this process in Workfront by creating a package of objects to mo
 
 The environment promotion capability is intended to provide the ability to move configuration-related object from one environment to another. These are objects that can be configured, such as projects, teams, or custom forms.
 
-Environment promotion does not support the ability to move transactional objects, (with limited exceptions). Transactional objects cannot be configured. Examples include system activity updates and proof decisions.
+Because environment promotion deals with object configuration, transactional objects (objects that change frequently or that are highly dependent on use case) are not included. Examples of transactional objects include documents, issues, requests, updates, and and proof decisions.
 
 * [Work objects](#work-objects)
 * [Reporting objects](#reporting-objects)
