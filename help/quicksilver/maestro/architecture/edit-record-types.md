@@ -94,28 +94,30 @@ You must have the following access to perform the steps in this article:
    The last-accessed workspace should open by default. 
 
 1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to edit record types for.
-1. Hover over the card of a record type and click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the record type card, then click **Update appearance**. 
+1. Hover over the card of a record type and click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the record type card, then click **Edit**. 
 
-    ![](assets/update-appearance-link-from-more-menu-on-record-type-card.png)
+    ![](assets/more-menu-options-from-record-type-card.png)
 
-1. In the **Update record type** box, update the following information: 
+1. In the **Edit record type** box, update the following information: 
 
-    * **Record name**: Edit the record type name, if needed. <!--correct this - I asked Garik to change this field to "Record type name"--> 
-    * **Appearance**: Edit the color and shape of the icon associated with the record type. Do the following: 
+    * Edit the record type name, if needed. <!--did they add a field label for this? --> 
+    * **Description**: Edit or add a description for the record type with more information about it. 
+    * Edit the color and shape of the icon associated with the record type. Do the following: 
         * Select a color to identify the record type. This is the color of the record type icon. Gray is selected by default.
         * Select an icon from the list, or start typing the name of an icon to describe what it represents, then select it when it displays. This is the icon of the record type. A file icon is selected by default.
 
         ![](assets/update-record-type-box.png)
 
-1. Click outside the **Update record type** box to save your changes. 
+1. Click **Save**.
 1. (Optional) Click the record type card from the workspace area to open the record type's page. 
-1. Click the **More** menu to the right of the record type name, then click **Rename** to rename the record type
+1. Click the **More** menu to the right of the record type name, then click **Edit** to update information about the record type.
 
-    Or
+   >[!TIP]
+   >
+   >   You can rename the record type in the header.  
+
+    ![](assets/more-menu-options-from-record-details-page.png) 
     
-    Rename the record type in the header.  <!--check to see if they renamed this to "Rename" - it kept going back and forth between Rename and Edit-->
+    <!--check this screen shot - not sure this is valid ???-->
 
-    ![](assets/more-menu-options-from-record-details-page.png) <!--check this screen shot - not sure this is valid ???-->
-
-    You can also rename a record type in the header of the record type's page.
 1. (Optional) Expand the downward-pointing arrow to the right of a record type name and select another record type to edit. 

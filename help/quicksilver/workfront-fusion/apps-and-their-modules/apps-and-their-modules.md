@@ -27,6 +27,7 @@ exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
 This section contains the following articles:
 
 * [[!DNL Adobe Workfront] modules](../../workfront-fusion/apps-and-their-modules/workfront-modules.md) 
+* [Adobe Workfront Planning modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
 * [[!DNL Workfront Proof] modules](../../workfront-fusion/apps-and-their-modules/workfront-proof-modules.md) 
 * [[!DNL Workfront Boards] modules](../../workfront-fusion/apps-and-their-modules/workfront-boards-modules.md) 
 * [[!DNL Adobe Acrobat Sign] modules](../../workfront-fusion/apps-and-their-modules/adobe-sign-modules.md)
@@ -34,9 +35,8 @@ This section contains the following articles:
 * [[!DNL Adobe Campaign Classic] modules](../../workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md) 
 * [[!DNL Adobe Creative Cloud Libraries] modules](../../workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md) 
 * [[!DNL Adobe Experience Manager Assets] modules](../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
-* [[!DNL Adobe Journey Optimizer] modules](../../workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md) 
 * [Adobe Lightroom modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
-* [Adobe Maestro modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
+* [Adobe Planning modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
 * [[!DNL Adobe PDF Services] modules](../../workfront-fusion/apps-and-their-modules/pdf-modules.md) 
 * [[!DNL Adobe Photoshop] modules](../../workfront-fusion/apps-and-their-modules/adobe-photoshop-modules.md) 
 * [[!DNL Adobe Target] modules](../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md) 
@@ -47,30 +47,15 @@ This section contains the following articles:
 * [[!DNL AWS S3] modules](../../workfront-fusion/apps-and-their-modules/aws-s3-modules.md) 
 * [[!DNL Azure Active Directory] modules](../../workfront-fusion/apps-and-their-modules/azure-ad-modules.md) 
 * [[!DNL Azure DevOps] modules](../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md)
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/barcodes.md" class="MCXref xref" xrefformat="{para}">Barcodes</a> </li>
-  -->
-
 * [[!DNL Box] modules](../../workfront-fusion/apps-and-their-modules/box-modules.md) 
 * [[!DNL Bynder] modules](../../workfront-fusion/apps-and-their-modules/bynder-modules.md) 
 * [[!DNL CloudConvert] modules](../../workfront-fusion/apps-and-their-modules/cloud-convert-modules.md)
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/converter-modules.md" class="MCXref xref" xrefformat="{para}">Converter</a> (More information coming soon)</li>
-  -->
-
 * [[!UICONTROL CSV]](../../workfront-fusion/apps-and-their-modules/csv.md) 
 * [[!DNL Cvent] modules](../../workfront-fusion/apps-and-their-modules/cvent-modules.md) 
 * [[!DNL Datadog] modules](../../workfront-fusion/apps-and-their-modules/datadog-modules.md) 
 * [Data store modules](../../workfront-fusion/apps-and-their-modules/data-store-modules.md) 
 * [[!DNL DocuSign] modules](../../workfront-fusion/apps-and-their-modules/docusign-modules.md) 
 * [[!DNL Dropbox] modules](../../workfront-fusion/apps-and-their-modules/dropbox-modules.md)
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/egnyte-modules.md" class="MCXref xref" xrefformat="{para}">Egnyte modules</a> </li>
-  -->
-
 * [Email modules](../../workfront-fusion/apps-and-their-modules/email-modules.md) 
 * [[!UICONTROL Encryptor]](../../workfront-fusion/apps-and-their-modules/encryptor-modules.md) 
 * [[!DNL Figma] modules](../../workfront-fusion/apps-and-their-modules/figma-modules.md)
@@ -90,18 +75,9 @@ This section contains the following articles:
 * [[!UICONTROL HTTP] modules](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md) 
 * [[!DNL HubSpot CRM] modules](../../workfront-fusion/apps-and-their-modules/hubspot-crm-modules.md) 
 * [Image modules](../../workfront-fusion/apps-and-their-modules/image-module.md) 
-
-<!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/iso-modules.md" class="MCXref xref" xrefformat="{para}">ISO modules</a> </li>
-  -->
-
 * [[!DNL Jira] Software modules](../../workfront-fusion/apps-and-their-modules/jira-software-modules.md) 
 * [[!UICONTROL JSON] modules](../../workfront-fusion/apps-and-their-modules/json-modules.md)
-
-  <!--
-  <li data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="../../workfront-fusion/apps-and-their-modules/mailchimp-modules.md" class="MCXref xref" xrefformat="{para}">MailChimp modules</a> </li>
-  -->
-
+* [[!UICONTROL JWT] module](../../workfront-fusion/apps-and-their-modules/jwt-modules.md)
 * [[!DNL MariaDB] modules](../../workfront-fusion/apps-and-their-modules/mariadb-modules.md) 
 * [[!UICONTROL Markdown] modules](../../workfront-fusion/apps-and-their-modules/markdown-modules.md) 
 * [[!DNL Marketo] modules](../../workfront-fusion/apps-and-their-modules/marketo-modules.md) 

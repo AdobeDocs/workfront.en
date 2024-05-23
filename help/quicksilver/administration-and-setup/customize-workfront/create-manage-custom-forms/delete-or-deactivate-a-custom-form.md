@@ -11,12 +11,6 @@ exl-id: 4d97badf-b6d0-4e7c-bff8-9ff63e83586b
 ---
 # Delete a custom form
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
-
 You can delete a custom form from the system.
 
 >[!CAUTION]
@@ -56,5 +50,5 @@ For more detail about the information in this table, see [Access requirements in
 {{step-1-to-setup}}
 
 1. Click **Custom Forms.**
-1. Select the custom form, then click **Delete** <span class="preview">or ![Delete icon](assets/delete-icon.png).</span>
+1. Select the custom form, then click ![Delete icon](assets/delete-icon.png).
 1. If you are sure you want to permanently delete the custom form and all associated data on objects where it was attached, click **Yes, Delete It**.

@@ -86,9 +86,11 @@ You must have the following access to perform the steps in this article:
 * You can edit records that you created or records created by others, if you were given permissions to the workspace. 
 * You can edit record fields from the following areas:
 
-    * The record's box in a record view
+    * The record's preview in a record view
     * The record's page
     * Inline, in a table view. 
+
+* When a user edits a record in a view, the changes are visible immediately in all views and the record pages to all other users.
 
 * The following types of fields are automatically updated, and you cannot edit their values manually: 
     * Linked fields from other records
@@ -97,13 +99,15 @@ You must have the following access to perform the steps in this article:
 * If the records you display are linked to other records, the new information of the records that you are editing reflects on the linked records. 
 * You cannot edit records in bulk. <!--this will probably change-->
 * URLs are recognized as links in single-line text field types only when they start with the following: http://, https://, ftp://, or www. . 
+* You can add a cover image to each record. The image is unique for each record, and it does not apply to all records of the same time. 
+* You can edit the order of the fields in a record page and add a cover image for a record. For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md).
 
 ## Edit records
 
 You can edit a record from the following areas:
 
 * [From the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type)
-* [From the record's box in a view](#edit-a-record-from-the-records-box-in-a-view)
+* [From the record's preview in a view](#edit-a-record-from-the-records-box-in-a-view)
 * [From the record's page](#edit-a-record-from-the-records-page)
 
 ### Edit a record inline in the table view of a record type
@@ -123,7 +127,7 @@ You can edit a record from the following areas:
 
     ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 
-    >[!NOTE]
+    >[!TIP]
     >
     >  You cannot edit information for the following fields, as they are read-only and Workfront updates them automatically: 
     >  
@@ -147,9 +151,10 @@ You can edit a record from the following areas:
 
 1. (Optional) To copy and paste information from one field to another, do one of the following:
 
-    * Copy one or multiple existing values of a field, then paste them into a field of the same type on another record
+    * Copy one or multiple existing values of one field, then paste them into a field of the same type on another record
     * Click the column header of a column to select it and copy it, then click the column header of another column and paste the contents of the copied column. The columns must contain similar field types. 
     * With your Shift key pressed, click to select several rows in a table, copy the information in the selected rows, then click a different row and paste the selected information in the new row and the following rows after that. 
+    * Copy the information from one cell, then select multiple cells and paste the same information in multiple cells. You can select multiple cells and paste the same information in multiple cells from adjacent rows and columns. 
 
     >[!NOTE]
     >
@@ -158,13 +163,12 @@ You can edit a record from the following areas:
     >* Use the following keyboard shortcuts for copying and pasting information:
     >   * Copy: CTRL + C (⌘ + C for Mac)
     >   * Paste: CTRL + V (⌘ + V for Mac) 
-    >* You cannot copy information from another source, other than a record field of the same type as the field you paste the information in.  
     >
     >* You cannot copy and paste field values in the record page. This functionality is supported only in the table view of a record type.  
     >* You cannot copy and paste field values for the following field types:   
     >
     >
-    >    * Linked fields that are created by connecting record types. You can copy and paste linked record fields. For more information, see [Connect record types](../architecture/connect-record-types.md). 
+    >    * Linked fields (or lookup fields) that are created by connecting record types. You can copy and paste linked record fields. For more information, see [Connect record types](../architecture/connect-record-types.md). 
     >    * Fields of the following types: Created by, Created date, Last modified by, Last Modified date 
     
 1. (Optional) Use the following keyboard shortcuts to undo or redo editing or copying and pasting record information: 
@@ -178,11 +182,11 @@ You can edit a record from the following areas:
 
 1. (Optional) Add a thumbnail to a record. For information, see [Add a thumbnail to a record](/help/quicksilver/maestro/records/add-thumbnails-to-records.md).
 
-### Edit a record from the record's box in a view
+### Edit a record from the record's preview in a view
 
 {{step1-to-maestro}}
 
-The workspace that you access last opens. 
+   The workspace that you access last opens. 
 
 1. (Optional) Click the downward-pointing arrow to the right of the workspace name to select the workspace whose records you want to update. 
 
@@ -194,7 +198,7 @@ The workspace that you access last opens.
 
     Or 
     
-    From the table table view, click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name, or click a record name. The record's box opens in the view.
+    From the table view, click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name. The record's preview opens in the view.
 
     ![](assets/details-box.png) 
 
@@ -202,15 +206,26 @@ The workspace that you access last opens.
     >
     >You can view the **Open details** icon to the left of the Name field of a record in a table view only when the Name field is a primary field. 
 
-1. Start editing the field information in the record's box. Workfront automatically saves your changes. 
+1. Start editing the field information in the record's preview.  
 
-1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record's box to open the record's page in a new tab. Continue editing the record as described in [Edit a record from the record's page](#edit-a-record-from-the-records-page) section in this article. 
+    >[!TIP]
+    >
+    >  You cannot edit information for the following fields, as they are read-only and Workfront updates them automatically: 
+    >  
+    >  * Linked fields that are created by connecting record types. For more information, see [Connect record types](../architecture/connect-record-types.md).
+    >  * Fields of the following types: Created by, Created date, Last modified by, Last Modified date, Formula fields.
+
+1. (Optional) Click **Add cover** to add a cover image to the record. For more information, see [Add a cover image to a record](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md). 
+
+    Workfront automatically saves your changes.
+
+1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record's preview to open the record's page in a new tab. Continue editing the record as described in [Edit a record from the record's page](#edit-a-record-from-the-records-page) section in this article. 
 
 ### Edit a record from the record's page
 
 {{step1-to-maestro}}
 
-The workspace that you access last opens. 
+   The workspace that you access last opens. 
 
 1. (Optional) Click the downward-pointing arrow to the right of the workspace name to select the workspace whose records you want to update. 
 
@@ -220,7 +235,7 @@ The workspace that you access last opens.
 
 1. Do one of the following:
 
-    * From any view, access the record's box, as described in the [Edit a record from the record's box in a view](#edit-a-record-from-the-records-box-in-a-view) section in this article. Then, click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record box to open the record's page in a new tab. 
+    * From any view, access the record's preview, as described in the [Edit a record from the record's preview in a view](#edit-a-record-from-the-records-preview-in-a-view) section in this article, then click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record preview to open the record's page in a new tab. 
 
     * From the **Table** view, hover over the name of a record, then click the **More** menu ![](assets/more-menu.png), then click **View**
 
@@ -230,12 +245,16 @@ The workspace that you access last opens.
 
         ![](assets/details-page.png)
 
-1. Click the **More** menu ![](assets/more-menu.png) to the right of the record name, then click **Edit**
+1. Click any editable field on the record page to edit it. 
 
-    Or
+    >[!TIP]
+    >
+    >  You cannot edit information for the following fields, as they are read-only and Workfront updates them automatically: 
+    >  
+    >  * Linked fields that are created by connecting record types. For more information, see [Connect record types](../architecture/connect-record-types.md).
+    >  * Fields of the following types: Created by, Created date, Last modified by, Last Modified date, Formula fields.
 
-    Click inside any editable field on the record page to edit the information. 
+1. (Optional) Click **Add cover** to add a cover image to the record. For more information, see [Add a cover image to a record](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md). 
 
-    ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
+    Workfront automatically saves your changes.
 
-1. Click **Save changes**. 

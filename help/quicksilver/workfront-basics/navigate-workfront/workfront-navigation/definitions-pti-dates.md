@@ -1,12 +1,15 @@
 ---
 content-type: reference
 navigation-topic: workfront-navigation
-title: Overview of the Project, Task, and Issue dates in [!DNL Adobe Workfront]
-description: Overview of the Project, Task, and Issue dates in [!DNL Adobe Workfront]
+title: Overview of the Project, Task, and Issue dates in [!DNL Workfront]
+description: This article provides definitions to the most common dates associated with projects, tasks, and issues in [!DNL Adobe Workfront].
 feature: Get Started with Workfront
+author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
 ---
-# Overview of the Project, Task, and Issue dates in [!DNL Adobe Workfront]
+# Overview of the Project, Task, and Issue dates in [!DNL Workfront]
+
+<!-- Audited: 05/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider expanding on this article with ALL dates for PTIs - Hand off dates, Approval Dates, etc) </p>
@@ -29,7 +32,7 @@ Depending on the [!UICONTROL Task Constraint], you might not be able to edit the
 
 For more information, see [Overview of the project [!UICONTROL Planned Start Date]](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
 
-![](assets/planned-start-date-on-edit-task-highlighted-nwe-350x249.png)
+![](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
 
 ![](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
 
@@ -57,7 +60,7 @@ The [!UICONTROL Entry Date] is the date when a project, task, or issue was creat
 
 The [!UICONTROL Entry Date] does not influence the timeline of projects, tasks, or issues, but it is important for tracking and reporting purposes. [!DNL Workfront] automatically generates the [!UICONTROL Entry Date] when the object is created and you cannot manually edit it.
 
-![](assets/entry-date-in-task-details-highlighted-nwe-350x105.png)
+![](assets/entry-date-in-task-details-highlighted-nwe.png)
 
 ## [!UICONTROL Actual Start Date]
 
@@ -83,7 +86,7 @@ For more information, see [Overview of the project [!UICONTROL Actual Start Date
 
 The [!UICONTROL Actual Completion Date] is the date a user actually completes a project, task, or issue. The [!UICONTROL Actual Completion Date] is empty when the project, task, or issue is created.
 
-You can manually indicate when work completes on a task or an issue, or the [!UICONTROL Actual Complete Date] automatically populates when any of the following occur:
+You can manually indicate when work completes on a task or an issue, or the [!UICONTROL Actual Completion Date] automatically populates when any of the following occur:
 
 * The project, task, or issue status changes to [!UICONTROL Complete], [!UICONTROL Closed], or [!UICONTROL Resolved].
 * The task or project percent complete is 100%.
@@ -100,7 +103,7 @@ For more information, see [Overview of the project [!UICONTROL Actual Completion
 
 ## [!UICONTROL Commit Date]
 
-The [!UICONTROL Commit Date] is the date by which an user assigned to task or an issue commits to complete the task or the issue. This is different than the [!UICONTROL Planned Completion Date], as it is a more realistic estimate of the completion date given only by the user in charge of the work. For more information, see [[!UICONTROL Commit Date] overview](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
+The [!UICONTROL Commit Date] is the date by which a user assigned to a task or an issue commits to complete the task or the issue. This is different than the [!UICONTROL Planned Completion Date], as it is a more realistic estimate of the completion date given only by the user in charge of the work. For more information, see [[!UICONTROL Commit Date] overview](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 >[!NOTE]
 >
@@ -108,7 +111,7 @@ The [!UICONTROL Commit Date] is the date by which an user assigned to task or an
 
 ## [!UICONTROL Projected Start Date]
 
-The [!UICONTROL Projected Start Date] is a real-time date of when the project, task, or issue and takes into account all the delays. This is a more accurate Start Date for the project, task, or issue than the [!UICONTROL Planned Start Date]. The [!UICONTROL Planned Start Date] does not take into account delays or past dates.
+The [!UICONTROL Projected Start Date] is a real-time date of when the project, task, or issue begins and takes into account all the delays. This is a more accurate Start Date for the project, task, or issue than the [!UICONTROL Planned Start Date]. The [!UICONTROL Planned Start Date] does not take into account delays or past dates.
 
 When you first plan a project, the [!UICONTROL Planned Start Date] and the [!UICONTROL Projected Start Date] of the tasks and of the project are identical. As delays may happen or tasks might be completed earlier, the [!UICONTROL Projected Start Date] can become different than the [!UICONTROL Planned Start Date]. 
 
@@ -126,7 +129,7 @@ For more information, see [Overview of the project [!UICONTROL Projected Start D
 
 The [!UICONTROL Projected Completion Date] is a real-time, calculated indicator of when the project, task, or issue will be completed. When the project, task, or issue is marked as Completed, the [!UICONTROL Projected Completion Date] changes to the date of the [!UICONTROL Actual Completion Date].
 
-If everything goes smoothly and as planned the [!UICONTROL Projected Completion date] should match the [!UICONTROL Planned Completion Date]. Otherwise due to the delays on the predecessor tasks the [!UICONTROL Projected Completion Date] might become different from the [!UICONTROL Planned Completion Date].
+If everything goes smoothly and as planned, the [!UICONTROL Projected Completion date] should match the [!UICONTROL Planned Completion Date]. Otherwise, due to the delays on the predecessor tasks, the [!UICONTROL Projected Completion Date] might become different from the [!UICONTROL Planned Completion Date].
 
 For more information, see [Overview of the [!UICONTROL Projected Completion Date] for projects, tasks, and issues](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
@@ -140,7 +143,7 @@ The date for which you log the time is the [!UICONTROL Hour Entry Date] field on
 
 >[!TIP]
 >
->The [!UICONTROL Hour Entry Date] is different than the [!UICONTROL Entry Date] in that it is not the date when the hour log was created, but rather the date to which you want to hours associated.
+>The [!UICONTROL Hour Entry Date] is different than the [!UICONTROL Entry Date] in that it is not the date when the hour log was created, but rather the date to which you want the hours associated.
 
 You can log and view time in the following areas of Workfront: 
 

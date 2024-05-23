@@ -20,6 +20,7 @@ This section contains the following articles:
 
 * [[!DNL Adobe Workfront Fusion] overview](../../workfront-fusion/get-started/workfront-fusion-overview.md)
 * [Basic terms in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/basic-terms.md)
+* [Create simple practice scenarios in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md)
 * [Create a practice automation scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-automation-scenario.md)
 * [Create a practice integration scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-scenario.md)
 * [[!DNL Adobe Workfront Fusion] performance guardrails](../../workfront-fusion/get-started/fusion-performance-guardrails.md)

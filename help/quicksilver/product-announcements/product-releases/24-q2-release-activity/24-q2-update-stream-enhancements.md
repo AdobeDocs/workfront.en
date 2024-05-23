@@ -12,13 +12,21 @@ This page describes all Update stream and notification enhancements made with th
 
 For a list of all changes available at this point in the Second Quarter 2024 release cycle, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
+## New commenting experiences added to iterations 
+
+>[!NOTE]
+>
+>Preview release: April 11, 2024; Production for all customers: With the 24.4 release (April 11, 2024)
+
+To give you a consistent experience throughout the application, we have added the new commenting experience to iterations. For information, see the [Update section overview](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+
 ## Access to the legacy commenting area has been removed 
 
 >[!NOTE]
 >
->Preview release: April 1, 2024; Production for all customers: With the 24.4 release (April 2024)
+>Preview release: April 1, 2024; Production for all customers: With the 24.4 release (April 11, 2024)
 
-We have removed the "New commenting" toggle in the Updates area for projects, tasks, issues, and documents. The new commenting is now the default and only option for these objects. With this change, you are no longer able to revert back to the legacy commenting experience. 
+We have removed the "New commenting" toggle in the Updates area for projects, tasks, issues, and documents. The new commenting is now the default and only option for these objects. With this change, you are no longer able to revert back to the legacy commenting experience. Additionally, we have removed the "Show percent complete on update status" setting on a user's profile.
 
 For more information, see [New commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
@@ -26,7 +34,7 @@ For more information, see [New commenting experience](/help/quicksilver/product-
 
 >[!NOTE]
 >
->Preview release: March 1, 2024; Production for fast release: With the 24.3 release (March 14, 2024); Production for all customers: With the 24.4 release (April 2024)
+>Preview release: March 1, 2024; Production for fast release: With the 24.3 release (March 14, 2024); Production for all customers: With the 24.4 release (April 11, 2024)
 
 We have now added the new commenting functionality to the **Add new update** quick action button in the My Work, My Projects, My Tasks, and My Issues widgets in new Home.
 
@@ -36,7 +44,7 @@ For more information, see [Get started with the new Home](/help/quicksilver/work
 
 >[!NOTE]
 >
->Preview release: February 29, 2024; Production for fast release: With the 24.3 release (March 14, 2024); Production for all customers: With the 24.4 release (April 2024)
+>Preview release: February 29, 2024; Production for fast release: With the 24.3 release (March 14, 2024); Production for all customers: With the 24.4 release (April 11, 2024)
 
 We have made the following enhancements in the new commenting experience:
 
@@ -51,7 +59,7 @@ For more information, see [Update work](/help/quicksilver/workfront-basics/updat
 
 >[!NOTE]
 >
->Preview release: February 22, 2024; Production for fast release: With the 24.3 release (March 14, 2024); Production for all customers: With the 24.4 release (April 2024)
+>Preview release: February 22, 2024; Production for fast release: With the 24.3 release (March 14, 2024); Production for all customers: With the 24.4 release (April 11, 2024)
 
 Comments made on the system activity records in the legacy commenting experience are now populated on the System Activity tab in the new commenting experience as read-only. You cannot reply to system activity records in the new commenting experience.
 
@@ -63,7 +71,7 @@ For more information, see [Updates section overview](/help/quicksilver/workfront
 
 >[!NOTE]
 >
->Preview release: February 22, 2024; Production for fast release: With the 24.3 release (March 14, 2024); Production for all customers: With the 24.4 release (April 2024)
+>Preview release: February 22, 2024; Production for fast release: With the 24.3 release (March 14, 2024); Production for all customers: With the 24.4 release (April 11, 2024)
 
 To give you a chronologically cohesive view of both comments and system activity logs, we are introducing a third tab to the Updates area of all objects. The "All" tab captures both user comments and system activity comments in one cohesive stream.
 
@@ -77,7 +85,7 @@ For more information, see [Updates section overview](/help/quicksilver/workfront
 
 >[!NOTE]
 >
->Preview release: February 22, 2024; Production for fast release: With the 24.3 release (March 14, 2024); Production for all customers: With the 24.4 release (April 2024)
+>Preview release: February 22, 2024; Production for fast release: With the 24.3 release (March 14, 2024); Production for all customers: With the 24.4 release (April 11, 2024)
 
 We have now added the new commenting functionality to the Summary panel for task and issue lists.
 

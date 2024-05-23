@@ -54,7 +54,9 @@ When the rate of a user or a role changes during the life of a project, the foll
 
 >[!CAUTION]
 >
->Prior to manually recalculating finances for a given project, you might want to preserve any financial data that has already been calculated at a previous rate. We recommend to use the Recalculate Finance option only when you are sure that you are not making changes to existing information, or only when such changes are desired.
+>Prior to manually recalculating finances for a given project, you may want to preserve any financial data that has already been calculated at a previous rate. We recommend using the Recalculate Finance option only when you are sure that you are not making changes to existing information, or only when such changes are desired.
+>
+>Note that running a Project (Finance Data) report performs a recalculation of your financial data, and as such you should make the same considerations before running the report.
 
 ## Preserve financial data for tasks with existing hours {#preserve-financial-data-for-tasks-with-existing-hours}
 

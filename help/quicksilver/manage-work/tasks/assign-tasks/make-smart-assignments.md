@@ -9,11 +9,11 @@ exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
 ---
 # Make smart assignments
 
-<!--Audited: 02/2024-->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<!-- {{preview-and-fast-release}} -->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-{{highlighted-preview}}
+<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 You can use smart assignments to identify who the best user is to complete the work. 
 
@@ -81,8 +81,8 @@ Smart assignments are available in most locations where you can make assignments
    
    For tasks, the smart assignments display in the following sections, depending on which phase of the algorithm's calculation identified the assignments: 
 
-   * **Suggested assignments**: Assignments identified in the first phase of the task smart assignment's algorithm calculation. 
-   * <span class="preview">**Other assignments**: Assignments identified in the second phase of the task smart assignment's algorithm calculation. This section is not available for issues. </span> <!--replace this with the new UI: "Other assignments"-->
+   * **Suggested assignments**: Assignments identified in the first phase of the task smart assignment's algorithm calculation. <span class="preview">This section is not available for issues.</span>
+   * <span class="preview">**Other assignments** (or **Users and teams**, or **Job roles**): Assignments identified in the second phase of the task smart assignment's algorithm calculation. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
 
    ![](assets/smart-assignments-task-list.png)
    

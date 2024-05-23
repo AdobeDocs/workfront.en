@@ -22,8 +22,8 @@ While most objects displayed in lists or reports are inline editable in [!DNL Ad
    For example, you can edit the status of a task in a Task report, but you cannot edit the name of the project the task is associated with in the same report. You can edit the name of the project only in a Project report.
 * You cannot inline edit fields when the view for a list is not displaying the default currency.\
    For information on displaying the default currency, see the section [Edit reports with unique currencies](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md#editing-reports-with-unique-currencies) in the article [Create financial data reports with unique exchange rates](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
-
 * You cannot edit flags and icons displayed in a list.
+* You cannot inline edit report fields that are sourced from other reports.
 
 ## Access requirements
 

@@ -3,13 +3,20 @@ product-area: workfront-navigation
 navigation-topic: workfront-navigation
 title: Adobe Unified Experience for [!DNL Workfront]
 description: Accessing [!DNL Workfront] through Adobe Experience Cloud gives you a seamless, unified experience for managing all of your Adobe applications.
-author: Lisa
+author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
 ---
 # [!DNL Adobe Unified Experience] for [!DNL Workfront]
 
 Accessing [!DNL Workfront] through [!DNL Adobe Experience Cloud] gives you a seamless, unified experience for managing all of your [!DNL Adobe] applications. Single identity management gives you one place to log in, without multiple URLs or login IDs.
+
+To determine whether your organization is on the Adobe Unified Experience, examine the URL that you use to access Workfront.
+
+| URL | Adobe Experience|
+|------------|------------|
+| (CompanyName).my.workfront.com | Workfront experience |
+| experience.adobe.com | Adobe Unified Experience |
 
 ## Access requirements
 
@@ -70,7 +77,7 @@ Use the [!UICONTROL Main Menu] icon ![](assets/main-menu-icon-left-nav.png) on t
 
 ## Access your profile and preferences
 
-You can access your profile and preference options by clicking your profile picture in the top navigation area.
+You can access your profile and preference options by clicking the Adobe account menu (your profile picture) in the top navigation area.
 
 ![Profile menu](assets/aec-profile-picture-menu.png)
 

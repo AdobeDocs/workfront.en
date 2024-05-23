@@ -84,11 +84,11 @@ For instructions on uploading the [!DNL Adobe Workfront Fusion] public certifica
 
 You can use the following links to download the Workfront Fusion public certificates:
 
-### Certificates for May 25, 2023 - June 9, 2024
+### Certificates for April 23, 2023-May 7, 2024
 
 >[!IMPORTANT]
 >
->* These [!DNL Workfront Fusion] public certificates expire on June 9, 2024. After yours expires you will need to upload a new certificate to the web service. We recommend that you:
+>* These [!DNL Workfront Fusion] public certificates expire on May 7, 2025. After yours expires you will need to upload a new certificate to the web service. We recommend that you:
 >
 >   * Make note of the expiration date and set a reminder for yourself to upload the certificate to your web service.
 >   * Bookmark this page to easily find the new certificates.

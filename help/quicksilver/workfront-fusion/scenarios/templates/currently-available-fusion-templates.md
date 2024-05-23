@@ -52,7 +52,7 @@ This automation watches for new projects in portfolios with custom forms. It the
 
 This template converts Issues to Projects. You can modify it to meet your organization's standards.
 
-### [!BADGE New!]{type=Informative} Workfront - Copy documents from issues/requests to already converted projects or tasks
+### Workfront - Copy documents from issues/requests to already converted projects or tasks
 
 This flexible scenario copies documents from issues or requests to previously converted projects or tasks.
 

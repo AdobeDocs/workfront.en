@@ -4,7 +4,7 @@ product-area: system-administration;projects
 navigation-topic: configure-system-defaults
 title: Lock or unlock project preferences for all groups in the system
 description: Groups in your organization might need a project preference configured differently for their unique workflows. You can unlock the preference for all groups throughout the organization so that they can configure it on their own.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f5a94eaf-ebb8-424b-80ff-ba40cc985a6e
@@ -43,6 +43,8 @@ You must have the following access to perform the steps in this article:
 Locking a project, task, or issue preference that you have configured at the system level ensures that everyone is using the same setting for that preference. Though you can still reconfigure a preference that you lock, group administrators can't reconfigure it for their groups.
 
 Conversely, unlocking a project, task, or issue preference allows group administrators more flexibility to manage the way their groups work with those items. When a preference is unlocked, group administrators can reconfigure it for their groups.
+
+If a field does not have a lock/unlock toggle, then it cannot be unlocked for group administrators to configure settings at the group level. Configuration is only available at the system level.
 
 For instructions on locking or unlocking a system-level project, task, or issue preference, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 

@@ -37,11 +37,11 @@ You can create fields in the following ways in Maestro:
 
 * From scratch
 * By connecting record types
-* By importing record types using an Excel and CSV file
+* By importing record types using an Excel or CSV file
 * By creating a record type
 * By creating a workspace from a template
 
-For more information about Maestro fields, see [Field overview](../fields/fields-overview.md)
+For more information about Maestro fields, see [Field overview](/help/quicksilver/maestro/fields/fields-overview.md).
 
 ## Access requirements
 
@@ -87,7 +87,7 @@ You must have the following access to perform the steps in this article:
   <tr>
    <td role="rowheader"><p>Permissions</p></td>
    <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p>
 </td>
   </tr>
 <tr>
@@ -162,7 +162,7 @@ Single-line text fields capture limited alphanumeric information. For example,  
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column header in a table.
 1. Click **Create**. 
 
-    The new single-line field is added as a column to the record type and its values can be associated with records. 
+    The new single-line field is added as a column to the record type, and its values can be associated with records. 
 
 
 ### Paragraph {#paragraph}
@@ -185,7 +185,7 @@ Paragraph fields capture additional alphanumeric information about a record, sim
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
 1. Click **Create**. 
 
-    The new paragraph field is added as a column to the record type and its values can be associated with records.   
+    The new paragraph field is added as a column to the record type, and its values can be associated with records.   
 
 
 ### Multi-select {#multi-select}
@@ -204,11 +204,11 @@ You can use a multi-select field to capture additional information in any format
 1. Click **Add choice** to add as many choices as needed. There is no limit to how many choices you can add to a multi-select field.
 1. (Optional) Manually drag and drop each choice in the desired order, or select the 
 **Sort choices A-Z** option if you want the choices to be automatically listed in alphabetical order. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
-1. Click the **x** icon to the right of a choice to remove it.
+1. (Optional) To remove a choice, click the **x** icon to the right of it.
 1. Click the color swatch to the left of a choice to expand the color selector and customize the color of each option. 
 1. Click **Create**. 
 
-    The new multi-select field is added as a column to the record type and its values can be associated with records.  
+    The new multi-select field is added as a column to the record type, and its values can be associated with records.  
 
 ### Single-select {#single-select}
 
@@ -226,11 +226,11 @@ Single-select fields capture additional information in any format by selecting o
      
 1. Click **Add choice** to add as many choices as needed. There is no limit to how many choices you can add to a single-select field.     
 1. (Optional) Manually drag and drop each choice in the desired order, or select the **Sort choices A-Z** option if you want the choices to be automatically listed in alphabetical order. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
-1. Click the **x** icon to the right of a choice to remove it.
+1. (Optional) To remove a choice, click the **x** icon to the right of it.
 1. Click the color swatch to the left of a choice to expand the color selector and customize the color of each option. 
 1. Click **Create**. 
 
-    The new single-select field is added as a column to the record type and its values can be associated with records.  
+    The new single-select field is added as a column to the record type, and its values can be associated with records.  
 
 ### Date {#date}
 
@@ -261,7 +261,7 @@ You can use a date field to capture additional information in date and time form
 
 1. Click **Create**. 
 
-    The new date field is added as a column to the record type and its values can be associated with records.  
+    The new date field is added as a column to the record type, and its values can be associated with records.  
 
 ### Number {#number}
 
@@ -274,7 +274,7 @@ Number field types capture information in a number format.
 
     * **Name**: The name of the field type, as it will appear in a table or the record page. 
     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table. 
-    * **Precision**: The number of decimals that you want to record for the field. You can display up to 6 decimals.
+    * **Precision**: The number of decimal places that you want to record for the field. You can display up to 6 decimals.
     * **Allow negative numbers**: Select this option if you want to allow negative numbers in this field. This option is unselected by default. 
     
     >[!NOTE]
@@ -283,7 +283,7 @@ Number field types capture information in a number format.
 
 1. Click **Create**.
 
-    The new number field is added as a column to the record type and its values can be associated with records.    
+    The new number field is added as a column to the record type, and its values can be associated with records.    
 
 ### Percentage {#percentage}
 
@@ -296,7 +296,7 @@ Percentage field types capture information in a number format followed by a perc
 1. Add the following information in the **New field** tab:
      * **Name**: The name of the field type, as it will appear in a table or the record page. 
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table. 
-    * **Precision**: The number of decimals that you want to record for the field. You can display up to 6 decimals.
+    * **Precision**: The number of decimal places that you want to record for the field. You can display up to 6 decimals.
     * **Allow negative numbers**: Select this option if you want to allow negative percentage values in this field. This option is unselected by default. 
 
     >[!NOTE]
@@ -305,7 +305,7 @@ Percentage field types capture information in a number format followed by a perc
 
 1. Click **Create**. 
 
-    The new percentage field is added as a column to the record type and its values can be associated with records.   
+    The new percentage field is added as a column to the record type, and its values can be associated with records.   
 
 ### Currency {#currency}
 
@@ -319,7 +319,7 @@ Currency field types capture information in a number format preceded by a curren
      * **Name**: The name of the field type, as it will appear in a table or the record page. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
      * **Currency**: The type of currency you want to display in this field. This is a list of currencies according to the International Organizaton of Standardization (ISO). 
-      * **Precision**: The number of decimals that you want to record for the field. You can display up to 6 decimals.
+      * **Precision**: The number of decimal places that you want to record for the field. You can display up to 6 decimals.
     * **Allow negative numbers**: Select this option if you want to allow negative currency values in this field. This option is unselected by default. 
 
     >[!NOTE]
@@ -328,7 +328,7 @@ Currency field types capture information in a number format preceded by a curren
 
 1. Click **Create**. 
 
-    The new currency field is added as a column to the record type and its values can be associated with records.   
+    The new currency field is added as a column to the record type, and its values can be associated with records.   
 
 ### Checkbox
 
@@ -343,7 +343,7 @@ You can use the Checkbox field type to add a single checkbox option to a record.
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
 1. Click **Create**.
 
-    The new checkbox field is added as a column to the record type and its values can be associated with records.   
+    The new checkbox field is added as a column to the record type, and its values can be associated with records.   
 
 ### Formula
 
@@ -367,23 +367,22 @@ For more information, see [Formula fields overview](/help/quicksilver/maestro/fi
 
    For more information about what expressions are supported, see [Formula fields overview](/help/quicksilver/maestro/fields/formula-fields.md)
 
-1. Add field names as they display in Workfront Planning interface to reference them in a formula. 
+1. Add field names as they display in Workfront Planning to reference them in a formula. 
 
     >[!NOTE]
     >
-    > * You cannot add Multi-select type fields in a formula.
-    >
-    > * You cannot add fields from linked records in a formula. This functionality will be released at a later date. For more information about new releases, see [Adobe Workfront Planning release activity](/help/quicksilver/maestro/release-activity.md).
+    > You cannot add Multi-select type fields in a formula.
+    
 
 
 1. Click **Create**.
 
-     The new formula field is added as a column to the record type and its values can be associated with records.
+     The new formula field is added as a column to the record type, and its values can be associated with records.
 
 
 ### People
 
-You can use the People field type to add a user <!--, job role, or team--> to a record. This is a type-ahead field, and you can add only users<!--, roles, or teams--> that already exist in Workfront.
+You can use the People field type to add a user <!--, job role, or team--> to a record. This is a type-ahead field, and you can add only users<!--, roles, or teams--> that already exist in your Workfront instance.
  
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **People** field type.
  
@@ -400,7 +399,7 @@ You can use the People field type to add a user <!--, job role, or team--> to a 
     
 1. Click **Create**.
 
-    The new People-type field is added as a column to the record type and its values can be associated with records.   
+    The new People-type field is added as a column to the record type, and its values can be associated with records.   
 
 ### Created by
 
@@ -422,7 +421,7 @@ You can use the Created by field type to add the user who created the record to 
 
 ### Created date
 
-You can use the Created date field type to add the date when a record was created to a record. This is a read-only field, and it automatically populates with the date (and optionally with the time) when the record was created.
+You can use the Created date field type to add the date when the record was created to a record. This is a read-only field, and it automatically populates with the date (and optionally with the time) when the record was created.
  
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Created date** field type.
  
@@ -509,7 +508,7 @@ You can create linked record fields when you add a new connection between two Ma
         
 For information about connecting Workfront Planning record types, see [Connect record types](../architecture/connect-record-types.md)
 
-## Create fields by importing record types using an Excel and CSV file
+## Create fields by importing record types using an Excel or CSV file
 
 For more information, see [Create record types](../architecture/create-record-types.md).
 

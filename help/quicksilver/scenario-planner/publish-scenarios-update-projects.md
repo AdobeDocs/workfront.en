@@ -65,6 +65,7 @@ For additional information about access to the [!DNL Workfront Scenario Planner]
 Before you begin:
 
 * You must create and save a plan before you can publish initiatives from it.
+* The Allow users to create projects without using a template setting must be enabled in your Project Preferences area of the Setup. For information, see [Configure system-wide project preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ## Considerations about publishing initiatives to projects
 
