@@ -33,26 +33,6 @@ The features are released weekly and are listed in the order of their release, w
 
 ## Week of <date>
 
-### Added a limit of 100 views for a record type
-
-Production: <date> 
-
-Preview: To be determined 
-
-A record type can have only 100 views. Prior to this change, there was no limit for how many views a record type could have.  
-
-For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md). 
-
-### Add sections to the record's page 
-
-Production: <date> 
-
-Preview: To be determined 
-
-To better organize information on the record's page for more efficient readability and navigation we have introduced sections to the record's page. The section titles serve as headers that organize the content into distinct categories. The sections can be expanded or collapsed, if needed.  
-
-For information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). 
-
 ### Enable Workfront Planning notifications for customers that are not in the Adobe Unified Experience
 
 Production: <date>  
@@ -63,9 +43,13 @@ If your organization is not in the Adobe Unified Experience, you receive an emai
 
 For more information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/maestro/notifications/notifications-information.md). 
 
-###  New Planning section added to the left panel of a Workfront project, portfolio, and program
+-->
 
-Production: <date> 
+## Week of May 20, 2024
+
+### Connect Workfront Planning records from Workfront objects using the Planning section
+
+Production: May 23, 2024
 
 Preview: To be determined
 
@@ -75,17 +59,11 @@ The following actions are available from the Planning section in Workfront:
 
 * View connected Planning records 
 
-* Connect more records to the Workfront object 
+* Connect Workfront Planning records to the Workfront object 
 
 * Disconnect records  
 
-* Display more information about the connected records in the preview box 
-
-* Open records in the Planning area 
-
 For information, see [Manage records in the Planning section of Adobe Workfront objects](/help/quicksilver/maestro/records/manage-records-in-planning-section.md).  
-
--->
 
 ## Week of May 13, 2024
 

@@ -2076,6 +2076,7 @@ feature-set: Workfront
     * [Add a thumbnail to a record](maestro/records/add-thumbnails-to-records.md)
     * [Add a cover image to a record](maestro/records/add-a-cover-image-to-a-record.md)
     * [Manage the record page](maestro/records/manage-the-record-page.md)
+    * [Manage records in the Planning section of Adobe Workfront objects](maestro/records/manage-records-in-planning-section.md)
   * Adobe Maestro views {#adobe-maestro-views}
     * [Views: article index](maestro/views/views-information.md)
     * [Manage record views](maestro/views/manage-record-views.md)

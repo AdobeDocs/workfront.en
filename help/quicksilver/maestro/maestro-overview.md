@@ -91,7 +91,7 @@ For information about new features and when they are released, see [Adobe Workfr
 |     Rich Text formatting for Paragraph fields                                 |      ✓                         |                                  |                 | 
 |     Adobe Workfront Planning modules for Adobe Workfront Fusion                                 |      ✓                         |                                  |                 | 
 |     Copy and paste information from one field to another                                  |      ✓                         |                                  |                 | 
-
+|     Access Planning records from Workfront objects                                  |      ✓                         |                                  |                 |
 ## Enable Adobe Workfront Planning for the users in your Workfront instance
 
 Your organization must enroll in the Adobe Workfront Planning closed beta program before you can access the planning capabilities. Contact your account representative for information about enrolling in the beta program. 

@@ -119,9 +119,7 @@ You must have the following access to perform the steps in this article:
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## Connect records
-
-### Considerations about connecting records
+## Considerations about connecting records
 
 * After you connect record types, the connected record types display as linked record fields in the table of the record types they are linked from and on the records' pages. 
 * You can browse and add records and objects of the linked record and object types from the linked record fields. 
@@ -144,7 +142,12 @@ You must have the following access to perform the steps in this article:
       * [Create records](../records/create-records.md)
 
   * Connections between record types, or between record types and objects from other applications. For information, see [Connect record types](../architecture/connect-record-types.md)
+* You can connect objects from Workfront to Workfront Planning records in the following areas:
+  * From a Planning record in Workfront Planning. 
+  * From the Planning section of a Workfront object. 
   
+## Connect records from Workfront Planning
+
 ### Connect Adobe Workfront Planning records
 
 {{step1-to-maestro}}
@@ -373,3 +376,13 @@ After you create a connection between a record type and Adobe Experience Manager
     Remove Workfront object fields fro the **Selected fields** area. 
 
     This adds or removes linked fields from the records. The information associated with the removed fields remains in Adobe Experience Assets.
+
+## Connect records from Workfront objects
+
+You must have the following to connect Workfront Planning records from Workfront objects: 
+
+* Connections between record types and Workfornt object types.
+* At least one connection between a record and a Workfront object. 
+* Your Workfront or group administrator must add the Planning section to the Workfront object types that can connect to Planning record types. 
+
+For more information, see [Manage records in the Planning section of Adobe Workfront objects](/help/quicksilver/maestro/records/manage-records-in-planning-section.md).
