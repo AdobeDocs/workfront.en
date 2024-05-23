@@ -40,37 +40,37 @@ This table lists the administration activities available for:
   <tr> 
    <td>Create and edit user profiles</td> 
    <td>✓</td> 
-   <td> <p>✓*</p> </td> 
-   <td> <p>✓*</p> </td> 
+   <td>✓*</td> 
+   <td>✓*</td> 
   </tr> 
   <tr> 
-   <td> <p>Create and manage subgroups</p> </td> 
+   <td>Create and manage subgroups</td>
    <td>✓ </td> 
-   <td> <p>✓***</p> </td> 
+   <td>✓***</td> 
    <td>✓***</td> 
   </tr> 
   <tr> 
-   <td> <p>Configure project, task, and issue preferences at the system level</p> </td> 
+   <td>Configure project, task, and issue preferences at the system level</td> 
    <td>✓</td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td> <p>Activate and deactivate project, task, and issue preferences for groups and subgroups</p> </td> 
+   <td>Activate and deactivate project, task, and issue preferences for groups and subgroups</td> 
    <td>✓***</td> 
-   <td> <p>✓***</p> </td> 
+   <td>✓***</td> 
    <td>✓***</td> 
   </tr> 
   <tr> 
-   <td> <p>Configure timesheet and hour preferences at the system level</p> </td> 
+   <td>Configure timesheet and hour preferences at the system level</td> 
    <td>✓ </td> 
-   <td> <p>&nbsp;</p> </td> 
+   <td>&nbsp;</td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td> <p>Activate and deactivate timesheet and hour preferences for groups and subgroups</p> </td> 
+   <td>Activate and deactivate timesheet and hour preferences for groups and subgroups </td> 
    <td>✓***</td> 
-   <td> <p>✓***</p> </td> 
+   <td>✓***</td> 
    <td>✓***</td> 
   </tr> 
   <tr> 
@@ -86,63 +86,63 @@ This table lists the administration activities available for:
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td> <p>Create and manage custom forms</p> </td> 
+   <td>Create and manage custom forms</td> 
    <td>✓ </td> 
    <td>✓**</td> 
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td> <p>Create and manage layout templates</p> </td> 
+   <td>Create and manage layout templates</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Create and manage approval processes for a group</p> </td> 
+   <td>Create and manage approval processes for a group</td> 
    <td>✓*** </td> 
-   <td> <p>✓***</p> </td> 
+   <td>✓***</td> 
    <td>✓***</td> 
   </tr> 
   <tr> 
-   <td> <p>Create and manage teams</p> </td> 
+   <td>Create and manage teams</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Create and manage exchange rates</p> </td> 
+   <td>Create and manage exchange rates</td> 
    <td>✓ </td> 
    <td>✓**</td> 
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td> <p>Create and manage hour types</p> </td> 
+   <td>Create and manage hour types</td> 
    <td>✓ </td> 
    <td>✓**</td> 
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td> <p>Create and manage milestone paths</p> </td> 
+   <td>Create and manage milestone paths</td> 
    <td>✓ </td> 
    <td>✓**</td> 
    <td>✓**</td> 
   </tr> 
   <tr> 
-   <td> <p>Create and manage schedules</p> </td> 
+   <td>Create and manage schedules</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Create and manage companies</p> </td> 
+   <td>Create and manage companies</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Create and manage timesheet profiles</p> </td> 
+   <td>Create and manage timesheet profiles</td> 
    <td>✓ </td> 
-   <td> <p>✓</p> </td> 
+   <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
@@ -158,13 +158,13 @@ This table lists the administration activities available for:
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td> <p> Create and manage priorities, severities, conditions</p> </td> 
+   <td>Create and manage priorities, severities, conditions</td> 
    <td>✓</td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td> <p>Create and manage risk types</p> </td> 
+   <td>Create and manage risk types</td> 
    <td>✓ </td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
