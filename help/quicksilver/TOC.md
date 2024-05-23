@@ -2197,6 +2197,7 @@ feature-set: Workfront
     * [Generate a module using AI](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
     * Adobe Workfront Fusion scenario templates {#fusion-scenario-templates}
       * [Scenario Templates](workfront-fusion/scenarios/templates/fusion-templates.md)
+      * [[!DNL Fusion] templates overview](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
       * [Create new templates in Adobe Workfront Fusion](workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
       * [Publish and share Adobe Workfront Fusion templates](workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
       * [Create scenarios with Adobe Workfront Fusion templates](workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md)
