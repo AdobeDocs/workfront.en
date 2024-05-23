@@ -6,7 +6,6 @@ title: Adobe Workfront Fusion templates overview
 description: Workfront Fusion templates feature allows you to create and use existing templates as a starting point for your [!DNL Workfront Fusion] scenarios.
 author: Becky
 feature: Workfront Fusion
-exl-id: 3cd7cbc0-ddc5-4437-8672-3c9bea609c9b
 ---
 # [!DNL Adobe Workfront Fusion] templates overview
 
