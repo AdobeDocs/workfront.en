@@ -68,8 +68,8 @@ In the Templates area, you can view available templates, the applications they i
    >
    >If you do not see the expected templates under the Team Templates tab, check the left navigation or the header to ensure that you are currently viewing the correct team. 
 1. (Optional) To search for a specific application or name, begin typing in the Search for app or name box, then select the term when it appears in the dropdown.
-1. (Optional) To filter for a specific category of use case, click the category in the By Category section on the right.
-1. (Optional) To view the scenario template's structure, hover over the template's card.
+1. (Optional and conditional) If you use Fusion on the Adobe Unified Shell, filter for a specific category of use case by clicking the category in the By Category section on the right.
+1. (Optionaland conditional) If you use Fusion on the Adobe Unified Shell, view the scenario template's structure by hovering over the template's card.
 1. Click on the template that you want to use to create a scenario.
   
    A diagram of the template displays. 
