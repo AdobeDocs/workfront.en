@@ -29,7 +29,7 @@ You can add new fields in Adobe Workfront Planning that reflect your organizatio
 
 * You can create fields only from the table view of a record type page. Fields display as columns in the table view. All fields associated with a record type also display in the record page. 
 
-    For information about managing table columns (or record fields), see [Manage the table view](../views/manage-the-table-view.md).
+    For information about managing table columns (or record fields), see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
 
     For information about managing fields, also see the following articles: 
 

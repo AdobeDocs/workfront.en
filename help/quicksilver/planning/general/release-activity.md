@@ -41,7 +41,7 @@ Preview: To be determined
 
 A record type can have only 100 views. Prior to this change, there was no limit for how many views a record type could have.  
 
-For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md). 
+For more information, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
 
 ### Add sections to the record's page 
 
@@ -51,7 +51,7 @@ Preview: To be determined
 
 To better organize information on the record's page for more efficient readability and navigation we have introduced sections to the record's page. The section titles serve as headers that organize the content into distinct categories. The sections can be expanded or collapsed, if needed.  
 
-For information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). 
+For information, see [Manage the record page](/help/quicksilver/planning/records/manage-the-record-page.md). 
 
 ### Enable Workfront Planning notifications for customers that are not in the Adobe Unified Experience
 
@@ -83,7 +83,7 @@ The following actions are available from the Planning section in Workfront:
 
 * Open records in the Planning area 
 
-For information, see [Manage records in the Planning section of Adobe Workfront objects](/help/quicksilver/maestro/records/manage-records-in-planning-section.md).  
+For information, see [Manage records in the Planning section of Adobe Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md).  
 
 -->
 
@@ -128,7 +128,7 @@ Preview: To be determined
 
 To better organize information on the record's page for more efficient readability and navigation, we have introduced sections to the record's page. The section titles serve as headers that organize the fields into distinct categories. The sections are fully customizable and can be expanded or collapsed, if needed.  
 
-For information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). 
+For information, see [Manage the record page](/help/quicksilver/planning/records/manage-the-record-page.md). 
 
 ### Real-time updates for field configuration changes 
 
@@ -185,7 +185,7 @@ Preview: To be determined
 
 When a user updates the information on a record in the table view, other users can view the updated information in the record's details box (inside of a view) or page in real time. This ensures that all users view the updated information at the same time, in sync with when the changes happen.  
 
-For information about editing records, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
+For information about editing records, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
 
 ### Real-time updates in the calendar view after editing records
 
@@ -225,7 +225,7 @@ You can now copy the content of one cell in the table view and paste it in multi
 
 This functionality is supported for all field types except for calculated fields.  
 
-For more information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
+For more information, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
 
 ## Week of April 1, 2024
 
@@ -237,7 +237,7 @@ Preview: To be determined
 
 As a Workspace manager, you now can reorder the fields listed in the record page or preview. Updating the order of the fields changes the order of fields on all records of the same type, for everyone viewing the record page or the record preview.  
 
-For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). 
+For more information, see [Manage the record page](/help/quicksilver/planning/records/manage-the-record-page.md). 
 
 
 ### Add cover image to record pages
@@ -248,7 +248,7 @@ Preview: To be determined
 
 As you manage record pages, you can now add, reposition, and replace a cover image on a record page or preview, to enrich the record's presentation and stakeholder engagement. Cover images are visible to all users viewing the records. 
 
-For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md).  
+For more information, see [Manage the record page](/help/quicksilver/planning/records/manage-the-record-page.md).  
 
 ## Week of March 25, 2024
 
@@ -278,7 +278,7 @@ To save you time and keep consistency, you can now duplicate an existing view th
 
 Duplicating a view creates an identical view, using the same filters, sorting criteria, and groupings. Duplicating a view does not maintain the permissions of the original view.   
 
-For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md). 
+For more information, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
 
 ### Renamed the Maestro area in the Main Menu to Planning
 
@@ -288,7 +288,7 @@ Preview: To be determined
 
 We have renamed the Maestro area in the Main Menu to Planning.  
 
-For an overview of Adobe Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/maestro/general/planning-overview.md). 
+For an overview of Adobe Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md). 
 
 ### New experience when deleting a record type
 
@@ -308,7 +308,7 @@ Production: March 19, 2024
 
 Preview: To be determined 
 
-You can now filter information in the calendar view. For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md).  
+You can now filter information in the calendar view. For more information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md).  
 
 ### Preview with record details added to the timeline and calendar views 
 
@@ -320,7 +320,7 @@ You can now access the preview with record details from the timeline and calenda
 
 From the record's preview, you can open the record page in a new browser tab. 
 
-For more information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md).  
+For more information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).  
 
 ### The record type Excel import is temporarily disabled  
 
@@ -346,7 +346,7 @@ To make it easier to view additional information about records when using the ta
 
 * A link to open the record's page 
 
-For more information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
+For more information, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
 
 ### New tabbed design for record views 
 
@@ -358,7 +358,7 @@ For better navigation and ease of use, we have redesigned the display of record 
 
 Views display chronologically by added date from left to right. Shared  views also display in chronological order of when they were shared.  
 
-For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md).  
+For more information, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).  
 
 ### Dynamic design of a record view
 
@@ -368,8 +368,8 @@ Preview: To be determined
 We have updated the look and feel of the views in the record type page. The new views are dynamically responsive and quickly adjust to the size of your screen. The toolbar option labels are hidden on smaller screens to make the toolbar easier to use.  
 
 For more information, see the following articles: 
-* [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md) 
-* [Manage the timeline view](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+* [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md)
+* [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ### Allow System Administrators to manage all shared views 
 
@@ -430,7 +430,7 @@ You can update the row height to one of the following sizes:
 * Medium
 * Tall.  
 
-For more information, see [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md). 
+For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
 
 ### New calendar view for records
 
@@ -440,7 +440,7 @@ Preview: To be determined
 
 You can now display records in a calendar view. You must have at least two date fields on a record type to be able to create the calendar view.  
 
-For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md). 
+For more information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
 
 ## Week of February 26, 2024
 
@@ -454,7 +454,7 @@ You can now filter, sort, and group by connected records or their lookup fields.
 
 You cannot filter, sort, or group by lookup fields that allow connections with multiple records. 
 
-For information, see [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md) and [Manage the timeline view](/help/quicksilver/maestro/views/manage-the-timeline-view.md).
+For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md) and [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Week of February 5, 2024
 
@@ -487,7 +487,7 @@ Preview: To be determined
 
 We have updated the look-and-feel of the Rich Text toolbar when you edit a Paragraph-type field.
 
-For information, see  [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
+For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
 
 ### Improved experience when editing Single-select, Multi-select, People fields, and when adding connected objects
 
@@ -573,7 +573,7 @@ The following information is recorded in the new History section:
 
 * A date and time stamp of when the change occurred. 
 
- For more information, see [History section overview](/help/quicksilver/maestro/records/history-section-overview.md). 
+ For more information, see [History section overview](/help/quicksilver/planning/records/history-section-overview.md). 
 
 ### New label for new record link 
 
@@ -664,7 +664,7 @@ For more information, see the following articles:
 
 Preview and Production: December 27, 2023 
 
-You can now search for a keyword to quickly find a record in the timeline view. You can use keywords and special characters from any fields that are visible on the screen to find a record. For information, see [Manage the timeline view](../maestro/views/manage-the-timeline-view.md). 
+You can now search for a keyword to quickly find a record in the timeline view. You can use keywords and special characters from any fields that are visible on the screen to find a record. For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md). 
 
 ## Week of December 18, 2023
 
@@ -688,7 +688,7 @@ You can now collaborate with others on individual records by adding comments or 
 
 The commenting experience for planning capabilities records matches the new commenting experience for Workfront objects.   
 
-For more information, see [Manage record comments](/help/quicksilver/maestro/records/manage-record-comments.md).  
+For more information, see [Manage record comments](/help/quicksilver/planning/records/manage-record-comments.md).  
 
 ### Planning capabilities connector (beta) for Adobe Workfront Fusion
 
@@ -744,7 +744,7 @@ With this improvement, notice the following:
 
 * All table views of a record type have the same primary field you select. 
 
-For more information, see [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md).  
+For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).  
 
 ### Connect planning capability records with Adobe Experience Manager Assets 
 
@@ -793,9 +793,9 @@ Consider the following:
 
 * You cannot copy and paste field values for fields that display in the Details area of a record.  
 
-For more information, see [Edit records](../maestro/records/edit-records.md). 
+For more information, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
 
-For information about linked fields, see [Connect record types](../maestro/architecture/connect-record-types.md). 
+For information about linked fields, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
 
 ## Week of November 27, 2023
 
@@ -819,7 +819,7 @@ Consider the following:
 
     * Linked fields created as a result of connecting records  
 
-For more information, see [Edit records](../maestro/records/edit-records.md). 
+For more information, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
 
 ## Week of November 6, 2023
 
@@ -829,7 +829,7 @@ Preview and Production: November 7, 2023
 
 You can now group records in the table view of a record type page. You can group by three unique fields in the planning capability interface<!--checking into this for now: and by four fields when using the API-->.  
 
-For more information, see [Manage the table view](../maestro/views/manage-the-table-view.md). 
+For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
 
 ## Week of October 30, 2023
 
@@ -891,7 +891,7 @@ You can now add a People-type field to planning capabilities record types. You c
 
 Preview and Production: October 16, 2023
 
-We have added Rich Text format controls for Paragraph-type fields. You can format your paragraph fields using Rich Text either in the Table view of a record type, or in the record page. For more information, see [Edit records](../maestro/records/edit-records.md). 
+We have added Rich Text format controls for Paragraph-type fields. You can format your paragraph fields using Rich Text either in the Table view of a record type, or in the record page. For more information, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
 
 
 ### Record and grouping color-coding for the Timeline view 
@@ -920,7 +920,7 @@ The following are options for the colors you can choose to display for record ba
 
 When matching colors to a certain field, you can select only fields with color-coded options.  
 
-For more information, see [Manage the timeline view](../maestro/views/manage-the-timeline-view.md). 
+For more information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md). 
 
 ## Week of October 9, 2023
 
@@ -928,7 +928,7 @@ For more information, see [Manage the timeline view](../maestro/views/manage-the
 
 Preview and Production: October 9, 2023
 
-You can now search for a keyword to quickly find a record in the table view. You can use keywords and special characters from any fields that are visible on the screen to find a record. For information, see [Manage the table view](../maestro/views/manage-the-table-view.md). 
+You can now search for a keyword to quickly find a record in the table view. You can use keywords and special characters from any fields that are visible on the screen to find a record. For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
 
 ## Week of September 18, 2023
 
@@ -936,7 +936,7 @@ You can now search for a keyword to quickly find a record in the table view. You
 
 Preview and Production: September 20, 2023
 
-You can now reorder one or several rows (or records) in the Table view of a record type page. For information, see [Manage the table view](../maestro/views/manage-the-table-view.md). 
+You can now reorder one or several rows (or records) in the Table view of a record type page. For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
 
 ## Week of September 4, 2023
 
@@ -977,7 +977,7 @@ To display the right information on a given set of records, especially if you in
 
 You can hide or show individual fields from each header of the field columns, or you can manage all fields of the record type from a setting in the table view toolbar.  
 
-For more information, see [Manage the table view](../maestro/views/manage-the-table-view.md). 
+For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
 
 ## Week of August 21, 2023
 

@@ -6,7 +6,7 @@ hide: yes
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
 ---
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!---
 title: Create fields
@@ -173,7 +173,7 @@ Paragraph fields capture additional alphanumeric information about a record, sim
 >
 >* The content of a paragraph field can have up to 1,000 characters. 
 >
->* You can use Rich Text formatting to enhance the content of paragraph fields when they display in the table view or the Details page of a record. For information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
+>* You can use Rich Text formatting to enhance the content of paragraph fields when they display in the table view or the Details page of a record. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
 
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Paragraph** field type.
 

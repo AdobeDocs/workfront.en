@@ -194,7 +194,7 @@ The last-accessed workspace should open by default.
       * [Create records](/help/quicksilver/planning/records/create-records.md)
       * [Delete record types](/help/quicksilver/planning/architecture/delete-record-types.md)
       * [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md)
-      * [Manage record views](../views/manage-record-views.md) 
+      * [Manage record views](/help/quicksilver/planning/views/manage-record-views.md) 
 
 ## Create record types by importing an Excel or CSV file
 

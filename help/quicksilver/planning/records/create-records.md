@@ -21,8 +21,8 @@ You can create records by doing one of the following:
 
 This article describes how you can create records. For information about managing records in the table or timeline views, see the following articles:
 
-* [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md)
-* [Manage the timeline view](/help/quicksilver/maestro/views/manage-the-timeline-view.md)
+* [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md)
+* [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md)
 
 ## Access requirements
 
@@ -88,7 +88,7 @@ You must have the following access to perform the steps in this article:
 
 You can create records in the table view of a record type page. 
 
-For information about editing record information, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
+For information about editing record information, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
 
 {#step1-to-maestro}
   

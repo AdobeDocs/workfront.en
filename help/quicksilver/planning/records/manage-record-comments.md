@@ -23,7 +23,7 @@ You can collaborate on Adobe Workfront Planning records, by adding comments or r
 The right panel of a record displays the following sections:
 
 * **Comments**: Displays comments and replies users add to records.
-* **History**: Displays system-recorded changes that users  make to the record fields. For more information, see [History section overview](/help/quicksilver/maestro/records/history-section-overview.md).
+* **History**: Displays system-recorded changes that users  make to the record fields. For more information, see [History section overview](/help/quicksilver/planning/records/history-section-overview.md).
 
 ## Considerations about commenting on a record
 
@@ -190,4 +190,4 @@ You must have the following access to perform the steps in this article:
 
 You can review the changes made to the record in the History section of the right panel of a record. 
 
-For more information, see [History section overview](/help/quicksilver/maestro/records/history-section-overview.md).
+For more information, see [History section overview](/help/quicksilver/planning/records/history-section-overview.md).

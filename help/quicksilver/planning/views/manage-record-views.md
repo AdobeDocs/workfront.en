@@ -16,15 +16,15 @@ After selecting a record type in Adobe Workfront Planning area, you can display 
 
 * Table
     
-    For more information, see [Manage the table view](../views/manage-the-table-view.md). 
+    For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
 
 * Timeline
 
-    For more information, see [Manage the timeline view](../views/manage-the-timeline-view.md). 
+    For more information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md). 
 
 * Calendar 
 
-    For more information, see [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md).
+    For more information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md).
 
 This article describes the following information about record views:
 
@@ -200,9 +200,9 @@ The workspace you last accessed opens by default. For information about creating
 
 1. (Optional) To manage a specific type of view, see the following articles: 
 
-    * [Manage the table view](../views/manage-the-table-view.md)
-    * [Manage the timeline view](../views/manage-the-timeline-view.md)
-    * [Manage the calendar view](/help/quicksilver/maestro/views/manage-the-calendar-view.md)
+    * [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md)
+    * [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md)
+    * [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md)
 
 
 ## Delete views

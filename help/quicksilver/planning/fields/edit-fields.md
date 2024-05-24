@@ -27,7 +27,7 @@ You can edit the field settings for fields that are already created in Adobe Wor
 
 For information about creating Adobe Workfront Planning fields, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
 
-This article describes how you can edit the settings for Workfront Planning fields. For information about editing field values for records, see [Edit records](/help/quicksilver/maestro/records/edit-records.md).
+This article describes how you can edit the settings for Workfront Planning fields. For information about editing field values for records, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
 
 ## Considerations about editing field settings
 

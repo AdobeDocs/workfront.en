@@ -15,7 +15,7 @@ exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
 
 You can personalize records by adding a cover image to the record page in Adobe Workfront Planning, when editing a record.
 
-For information about editing records, see [Edit records](/help/quicksilver/maestro/records/edit-records.md). 
+For information about editing records, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
 
 You must create record types before you can start creating and editing records. 
 

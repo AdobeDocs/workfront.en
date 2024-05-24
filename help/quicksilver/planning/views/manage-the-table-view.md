@@ -24,7 +24,7 @@ hide: yes
 
 You can display records and their fields in a table view, when accessing the record type page in Adobe Workfront Planning. 
 
-For information about record views and how to manage them, see [Manage record views](../views/manage-record-views.md).
+For information about record views and how to manage them, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
 
 ## Access requirements
 
@@ -90,7 +90,7 @@ When creating a table view, all records of the selected type display in a table.
 
 To manage a table view: 
 
-1. Create a table view, as described in the article [Manage record views](../views/manage-record-views.md). 
+1. Create a table view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
 
     ![](assets/table-view-example.png)
 
@@ -109,7 +109,7 @@ To manage a table view:
 
 ### Add columns (or fields) {#add-columns}
 
-The column headers of a table view display fields associated with the records in the view. The same fields displayed in the table view also display in the Details section of a record. For more information, see [Edit records](../records/edit-records.md). 
+The column headers of a table view display fields associated with the records in the view. The same fields displayed in the table view also display in the Details section of a record. For more information, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
 
 <!--this is not available yet:You can display record fields (or columns) in both a table and a timeline view. However, the number of columns displayed in the table of the timeline view is limited and you cannot add columns in addition to those selected by default.-->
 
@@ -260,7 +260,7 @@ Consider the following when working with filters in the table view:
 
 To add a filter to a table view: 
 
-1. Create a table view for a record type page, as described in the article [Manage record views](../views/manage-record-views.md). 
+1. Create a table view for a record type page, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
 1. Select a table view, then click **Filters** in the upper-right corner of the table.    
 1. Click **Add condition** and add the following information: 
 
@@ -372,7 +372,7 @@ Consider the following:
 
 To add a grouping:
 
-1. Create a timeline view for a record type, as described in the article [Manage record views](../views/manage-record-views.md). 
+1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
 1. Click **Grouping** in the upper-right corner of the table view.
 
     ![](assets/grouping-ui-table-view-with-linked-fields.png)
@@ -425,7 +425,7 @@ Consider the following when sorting records in the table view:
 
 To sort <!--ungrouped (add this when sorting for groupings will be available--> records, do the following:
 
-1. Create a table view, as described in the article [Manage record views](../views/manage-record-views.md).
+1. Create a table view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
 1. Click the **Sort** icon ![](assets/sort-icon.png) in the upper-right corner of the table
     
     Or

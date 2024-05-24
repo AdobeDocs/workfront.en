@@ -230,7 +230,7 @@ The following are the main Workfront Planning objects and concepts:
     ![](assets/calendar-view-example.png)
 
 
-For more information, see [Manage record views](../maestro/views/manage-record-views.md).
+For more information, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
 
 
 ## Adobe Workfront Planning object limitations

@@ -24,7 +24,7 @@ hide: yes
 
 You can display records and their fields in a calendar view, from the record type page.
 
-For information about Adobe Workfront Planning capabilities views and how to manage them, see [Manage record views](../views/manage-record-views.md).
+For information about Adobe Workfront Planning capabilities views and how to manage them, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
 
 ## Access requirements
 
@@ -99,7 +99,7 @@ Consider the following:
 To manage a calendar view: 
 
 1. Go to the record type page for which you want to view the calendar. 
-1. Create a calendar view, as described in the article [Manage record views](../views/manage-record-views.md). 
+1. Create a calendar view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
 
     ![](assets/calendar-view-example.png)
 
@@ -138,6 +138,6 @@ Consider the following when working with filters in the calendar view:
 
 * Adding filters in the calendar view is identical to adding filters in the table view. 
 
-   For more information, see the "Add filters" section in the article [Manage the table view](/help/quicksilver/maestro/views/manage-the-table-view.md). 
+   For more information, see the "Add filters" section in the article [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
 
 * You can filter by connected record fields or lookup fields, but not for those fields that allow linking to multiple records.

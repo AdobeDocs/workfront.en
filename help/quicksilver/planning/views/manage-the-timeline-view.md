@@ -24,7 +24,7 @@ role: User
 
 You can display records in a timeline view, when accessing the record type page in Adobe Workfront Planning. 
 
-For information about record views, see [Manage record views](../views/manage-record-views.md).
+For information about record views, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
 
 ## Access requirements
 
@@ -101,7 +101,7 @@ Consider the following:
 To manage a timeline view: 
 
 1. Go to the record type page for which you want to view the timeline. 
-1. Create a timeline view, as described in the article [Manage record views](../views/manage-record-views.md). 
+1. Create a timeline view, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
 
     ![](assets/timeline-view-example.png)
 
@@ -169,7 +169,7 @@ Consider the following when working with filters in the timeline view:
 
 * Adding filters in the timeline view is identical to adding filters in the table view. 
 
-    For more information, see the "Add filters" section in the article [Manage the table view](../views/manage-the-table-view.md). 
+    For more information, see the "Add filters" section in the article Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
 
 * You can filter by connected record fields or lookup fields, but not for those fields that allow linking to multiple records.
 
@@ -193,7 +193,7 @@ Consider the following when working with groupings in the timeline view:
 
 To add a grouping in the timeline view:
 
-1. Create a timeline view for a record type, as described in the article [Manage record views](../views/manage-record-views.md). 
+1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
 1. Click **Grouping** in the upper-right corner of the timeline view.
 
     ![](assets/grouping-ui-timeline-view-with-linked-fields.png)
@@ -233,7 +233,7 @@ this is not possible right now; if this is the same functionality as the table v
 
 Update the timeline view settings to indicate what and how information displays in the timeline section of the view. 
 
-1. Create a timeline view for a record type, as described in the article [Manage record views](../views/manage-record-views.md). 
+1. Create a timeline view for a record type, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
 1. Click **Settings**. 
 1. Click **Date and time** in the left panel, then select a **Start date** and an **End date** to display on the timeline. You can choose the default Start and End dates, or you can choose any date field available. The bars representing the records start on the date that you indicate for the Start date and end on the date corresponding with the End date. 
 

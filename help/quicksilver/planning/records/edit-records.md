@@ -100,7 +100,7 @@ You must have the following access to perform the steps in this article:
 * You cannot edit records in bulk. <!--this will probably change-->
 * URLs are recognized as links in single-line text field types only when they start with the following: http://, https://, ftp://, or www. . 
 * You can add a cover image to each record. The image is unique for each record, and it does not apply to all records of the same time. 
-* You can edit the order of the fields in a record page and add a cover image for a record. For more information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md).
+* You can edit the order of the fields in a record page and add a cover image for a record. For more information, see [Manage the record page](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## Edit records
 

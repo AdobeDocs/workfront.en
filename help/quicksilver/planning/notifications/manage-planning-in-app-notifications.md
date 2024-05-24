@@ -18,7 +18,7 @@ When someone tags you in a record comment, you may receive an in-app notificatio
 >
 >For information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md). 
 
-For information about tagging others in a record comment, see [Manage record comments](/help/quicksilver/maestro/records/manage-record-comments.md). 
+For information about tagging others in a record comment, see [Manage record comments](/help/quicksilver/planning/records/manage-record-comments.md). 
 
 ## Access requirements
 

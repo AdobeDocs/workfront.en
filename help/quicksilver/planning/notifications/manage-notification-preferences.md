@@ -84,7 +84,7 @@ You must have the following access to perform the steps in this article:
 
 For more information about Workfront Planning notifications, also see the following articles: 
     
-* For information about comments on records, see [Manage record comments](/help/quicksilver/maestro/records/manage-record-comments.md). 
+* For information about comments on records, see [Manage record comments](/help/quicksilver/planning/records/manage-record-comments.md). 
 * For information about in-app notifications from Workfront Planning, see [Manage in-app notifications for Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md).
 * For information about email notifications from Workfront Planning, see [Manage email notifications for Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md). 
 
