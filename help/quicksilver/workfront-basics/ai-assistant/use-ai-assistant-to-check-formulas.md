@@ -4,6 +4,8 @@ content-type: reference
 description: 
 author: Becky
 feature: Get Started with Workfront
+hide: yes
+hidefromtoc: yes
 ---
 # Revise calculated field formulas with AI Assistant
 

@@ -4,6 +4,8 @@ content-type: reference
 description: You can control which access levels in your organization have access to AI Assistant.
 author: Becky
 feature: Get Started with Workfront
+hide: yes
+hidefromtoc: yes
 ---
 # Enable or disable AI Assistant
 

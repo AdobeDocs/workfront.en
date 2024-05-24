@@ -4,6 +4,8 @@ content-type: reference
 description: You can quickly summarize work items and documents using the Summarize this functionality.
 author: Becky
 feature: Get Started with Workfront
+hide: yes
+hidefromtoc: yes
 ---
 # Get help from AI Assistant
 
