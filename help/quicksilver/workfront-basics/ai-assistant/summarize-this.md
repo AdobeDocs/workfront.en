@@ -1,17 +1,17 @@
 ---
-title: Summarize using AI
+title: Summarize using AI Assistant
 content-type: reference
 description: You can quickly summarize work items and documents using the Summarize this functionality.
 author: Becky
 feature: Get Started with Workfront
 ---
-# Summarize using AI
+# Summarize using AI Assistant
 
-The Workfront AI Assistant can summarize some objects, giving you a high-level view of the object's intent or details. 
+Workfront's AI Assistant can summarize some objects, giving you a high-level view of the object's intent or details. 
 
-For example, if you ask the Assistant to summarize a project, the Assistant returns brief descriptions of the project's purpose and status, gives examples of tasks that are completed and that are still pending, and provides some additional details and notes.
+For example, if you ask AI Assistant to summarize a project, it returns brief descriptions of the project's purpose and status, gives examples of tasks that are completed and that are still pending, and provides some additional details and notes.
 
-The Assistant can summarize the following objects:
+AI Assistant can summarize the following objects:
 
 * Projects
 * Tasks
@@ -26,7 +26,7 @@ The Assistant can summarize the following objects:
 
 ## Summarize an object
 
-To see an AI summary of an object:
+To see a summary of an object:
 
 1. Navigate to the object for which you want to see a summary. 
 1. Click the **AI Assistant** icon ![AI Assistant icon](assets/ai-assistant-icon.png) near the upper-right corner of the screen.
