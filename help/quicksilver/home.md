@@ -6,11 +6,7 @@ exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
 ---
 # [!DNL Workfront] documentation
 
-Welcome to the Adobe Workfront product and technical documentation home page. Adobe Workfront is a work management application that helps you manage the entire lifecycle of work in one place.
-
-Use the following Adobe Workfront help articles, and additional resources to learn how to implement and effectively use Adobe Workfront in your organization.
-
-The following sections point you to useful links in this guide, arranged by intended audience based on typical job functions:
+Welcome to the Adobe Workfront product and technical documentation home page. Use the following Adobe Workfront links, help articles, and additional resources to learn how to implement and effectively use Adobe Workfront in your organization.
 
 ## What's new
 
@@ -88,14 +84,14 @@ Searching documentation can be more efficient with a few strategic approaches. H
 
 ### Use the Table of Contents and Search bar 
 
-* **Table of Contents**: Start with the table of contents to get an overview of available topics and narrow down to specific topics by expanding sections.
+* **Table of Contents**: Start with the table of contents to get an overview of available topics and narrow down to specific topics by the expanding sections.
 * **Search bar**: Use the search bar to find documentation. Enter specific terms related to your issue or topic. Instead of general terms like "project management," use "project timeline setup" or "task dependencies."
 
 ![](assets/exl-site-nav.png)
 
 ### Explore Learning and Training Sections
 
-* **Training Materials**: Navigate to the [Workfront tutorials](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) page for a library of training videos and articles designed to help you better understand Workfront features and settings. 
+* **Training Materials**: Navigate to the [Workfront tutorials](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) page for a library of training videos and articles designed to help you better understand Workfront features and settings. You can also access paid training materials at [http://learning.adobe.com/](http://learning.adobe.com/).
 * **Courses**: Check for structured learning paths that guide you through using various Workfront features in a logical sequence.
 
 ### Find answers in Community Forums
