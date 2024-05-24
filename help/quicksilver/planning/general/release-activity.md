@@ -105,7 +105,7 @@ Preview: To be determined
 
 We have added a "New record" button on the header of a record type page. You can now create records from any view. Prior to this enhancement, you could create records only from the table view.  
 
-For more information, see [Create records](/help/quicksilver/maestro/records/create-records.md). 
+For more information, see [Create records](/help/quicksilver/planning/records/create-records.md). 
 
 
 ### New warning about object visibility when connecting records 
@@ -581,7 +581,7 @@ Production: January 25, 2024
 
 Preview: To be determined 
 
-To create consistency when creating records, we have relabeled the + New link for creating records to "+ New record".  Prior to this update, the link contained the name of the record type. The new link is now available when creating operational and taxonomy records. For information, see [Create records](/help/quicksilver/maestro/records/create-records.md).  
+To create consistency when creating records, we have relabeled the + New link for creating records to "+ New record".  Prior to this update, the link contained the name of the record type. The new link is now available when creating operational and taxonomy records. For information, see [Create records](/help/quicksilver/planning/records/create-records.md).  
 
 ## Week of January 8, 2024
 
@@ -652,11 +652,11 @@ You can use the following keystrokes to undo or redo actions:
 
 For more information, see the following articles:  
 
-* [Edit records](/help/quicksilver/maestro/records/edit-records.md) 
+* [Edit records](/help/quicksilver/planning/records/edit-records.md) 
 
-* [Delete  records](/help/quicksilver/maestro/records/delete-records.md) 
+* [Delete  records](/help/quicksilver/planning/records/delete-records.md) 
 
-* [Create records](/help/quicksilver/maestro/records/create-records.md) 
+* [Create records](/help/quicksilver/planning/records/create-records.md) 
 
 ## Week of December 25, 2023
 

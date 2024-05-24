@@ -178,7 +178,7 @@ The last-accessed workspace should open by default.
 
     Click the **More** icon ![](assets/more-menu.png) to the right of the record type name and click **Edit** to rename it or change the information about it. For more information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). 
 
-1. (Optional) Click **+ New record** to add records of the selected record type. For more information, see [Create records](../records/create-records.md). 
+1. (Optional) Click **+ New record** to add records of the selected record type. For more information, see [Create records](/help/quicksilver/planning/records/create-records.md). 
 1. (Optional) Click the **+** icon in the upper-right corner of the table to add more fields to the record type. 
 
     For more information about creating fields, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
@@ -191,7 +191,7 @@ The last-accessed workspace should open by default.
 
     For additional information about adding records, deleting or editing record types, or updating the view in the record type page, see the following articles:
 
-      * [Create records](../records/create-records.md)
+      * [Create records](/help/quicksilver/planning/records/create-records.md)
       * [Delete record types](/help/quicksilver/planning/architecture/delete-record-types.md)
       * [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md)
       * [Manage record views](../views/manage-record-views.md) 

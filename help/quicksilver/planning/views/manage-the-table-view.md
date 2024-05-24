@@ -216,7 +216,7 @@ You can have up to 50,000 records (or rows) for a record typeS.
 1. Go to a record type page and select a **Table** view from the view drop-down menu.
 
 <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
-1. Start adding records (or rows), as described in the article [Create records](../records/create-records.md). 
+1. Start adding records (or rows), as described in the article [Create records](/help/quicksilver/planning/records/create-records.md). 
 
     The records you add in the table view are saved immediately and are visible to all users who have View or higher permissions to the workspace. 
 

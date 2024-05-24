@@ -132,7 +132,7 @@ The following are the main Workfront Planning objects and concepts:
 
     For example, "Campaign" can be a record type and "Summer Campaign for EMEA" is a record of the Campaign record type
         
-    For more information, see [Create records](../maestro/records/create-records.md).
+    For more information, see [Create records](/help/quicksilver/planning/records/create-records.md).
 
 * **Workspace template**: You can create a workspace using predefined templates. You can use the predefined record types and fields that come in a template, or you can add your own. 
 
