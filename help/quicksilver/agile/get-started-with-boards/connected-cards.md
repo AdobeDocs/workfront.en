@@ -35,11 +35,11 @@ You must have the following access to perform the steps in this article:
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
    <td>
    <p>New: Contributor or higher</p>
    <p>Or</p>
@@ -47,12 +47,13 @@ You must have the following access to perform the steps in this article:
  </td> 
   </tr> 
   <tr>
-   <td role="rowheader"><strong>Access level configurations</strong></td>
+   <td role="rowheader">Access level configurations</td>
    <td><p>View or higher access to tasks and issues</p></td>
   </tr>
   <tr>
-   <td role="rowheader"><strong>Object permissions</strong></td>
-   <td><p>View or higher permissions to the Workfront task or issue</p></td>
+   <td role="rowheader">Object permissions</td>
+   <td><p>View or higher permissions to the Workfront task or issue</p>
+   <p><strong>Note:</strong> Users with View permissions to a task or issue cannot take any action on cards connected to it, including moving the card to another column on the board. View users can only open the card to see its properties, and open the connected task or issue. To request additional access, open the task or issue and request access there.</td>
   </tr>
  </tbody> 
 </table>
