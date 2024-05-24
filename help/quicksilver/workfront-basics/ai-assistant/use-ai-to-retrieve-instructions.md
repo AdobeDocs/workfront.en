@@ -11,18 +11,11 @@ hidefromtoc: yes
 
 AI Assistant can locate information from Workfront documentation, eliminating the need for you to visit Adobe Experience League to get the help you need. 
 
-For example, if you ask AI Assistant "How do I create a request queue," it returns instructions for creating the requestpulled from the article [Create and manage Request Queues](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+For example, if you ask AI Assistant "How do I create a request queue," it returns instructions for creating the request, pulled from the article [Create and manage Request Queues](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-AI Assistant can summarize the following objects:
+## Get information from AI Assistant
 
-* Projects
-* Tasks
-* Issues
-* Documents
-
-## Summarize an object
-
-To see an AI summary of an object:
+To get information or instructions from the Workfront Documentation using AI Assistant:
 
 1. Click the **AI Assistant** icon ![AI Assistant icon](assets/ai-assistant-icon.png) near the upper-right corner of the screen.
 1. In the AI Assistant panel, Enter your prompt in the text area near the bottom of the panel.
