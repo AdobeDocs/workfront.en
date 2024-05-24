@@ -43,6 +43,22 @@ You must have the following access to perform the steps in this article:
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
+>[!NOTE]
+>
+>The following statements apply to the new plans only.
+>
+>For the Select plan:
+>
+>1. System administrators cannot set limits for Home Groups.
+>2. System administrators can see only the total number of licenses used across all Home Groups.
+>3. Group administrators cannot access the Licenses page at all.
+>
+>For the Prime and Ultimate plans:
+>
+>1. System administrators can add Home Groups to the Licenses page to view the utilization of licenses in those groups, and they can also set license limits.
+>2. Group administrators can access the Licenses page and view the utilization of licenses in the groups they manage that have been added to the Licenses page by system administrators.
+>3. Group administrators cannot view information for other Home Groups or add maximums.
+
 ## View your organization's licenses
 
 The number of licenses in use updates automatically as you assign access levels to users you add to Workfront. For more information, see [Add users](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).

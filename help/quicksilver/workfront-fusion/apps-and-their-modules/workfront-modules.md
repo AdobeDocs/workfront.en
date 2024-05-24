@@ -348,6 +348,14 @@ This action module makes one of the following conversions:
    <td>[!UICONTROL Options]</td> 
    <td> <p>Enable any options you want when converting the object. Options are available depending on which object you are converting to or from.</p> </td> 
   </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Copy native fields]</td> 
+   <td> <p>Enable this option to copy any native fields from the original object to the new object.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Copy custom forms]</td> 
+   <td> <p>Enable this option to copy any native fields from the original object to the new object.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -1232,6 +1240,16 @@ See a list of the [!DNL Workfront] object types for which you can use this modul
    <td>✓</td> 
   </tr> 
   <tr> 
+   <td>Baseline</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> </td> 
+   <td>✓</td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+   <tr> 
    <td>Billing Record</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -1292,6 +1310,16 @@ See a list of the [!DNL Workfront] object types for which you can use this modul
    <td>✓</td> 
   </tr> 
   <tr> 
+   <td>Exchange rate</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> </td> 
+   <td>✓</td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+  <tr> 
    <td>Expense</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -1310,6 +1338,16 @@ See a list of the [!DNL Workfront] object types for which you can use this modul
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
+  </tr> 
+  <tr> 
+   <td>External Document</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Group</td> 
@@ -1516,7 +1554,7 @@ See a list of the [!DNL Workfront] object types for which you can use this modul
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td>✓</td> 
+   <td> </td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
