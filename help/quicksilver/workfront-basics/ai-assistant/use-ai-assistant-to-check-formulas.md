@@ -27,7 +27,7 @@ To revise an invalid calculated field expression:
 1. Copy the invalid expression from the custom form builder, and paste it into the prompt area.
 1. Press **Enter**.
 
-   The AI assistant may take a few moments to generate the revised formula, depending on how large or complex the formula is.
+   AI Assistant may take a few moments to generate the revised formula, depending on how large or complex the formula is.
 1. View the revised formula in the AI Assistant panel.
 1. (Optional) Copy the revised formula from the AI Assistant panel, and paste it into the calculated field in the custom form builder.
 

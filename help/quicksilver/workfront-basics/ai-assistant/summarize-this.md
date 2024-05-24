@@ -34,7 +34,7 @@ To see a summary of an object:
 1. Click the **AI Assistant** icon ![AI Assistant icon](assets/ai-assistant-icon.png) near the upper-right corner of the screen.
 1. In the AI Assistant panel, click **Summarize this**.
 
-   The AI assistant may take a few moments to generate the summary, depending on how large or complex the object is.
+   AI Assistant may take a few moments to generate the summary, depending on how large or complex the object is.
 
 1. View the AI summary in the AI Assistant panel.
 

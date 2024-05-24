@@ -20,7 +20,7 @@ To get information or instructions from the Workfront Documentation using AI Ass
 1. Click the **AI Assistant** icon ![AI Assistant icon](assets/ai-assistant-icon.png) near the upper-right corner of the screen.
 1. In the AI Assistant panel, Enter your prompt in the text area near the bottom of the panel.
 
-   AI assistant may take a few moments to locate the information, depending on how large or complex the prompt is. We recommend simple prompts.
+   AI Assistant may take a few moments to locate the information, depending on how large or complex the prompt is. We recommend simple prompts.
 
 1. View the response in the AI Assistant panel.
 1. (Optional) If the response does not contain the information you need, refine your response and try again.
