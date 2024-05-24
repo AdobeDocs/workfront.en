@@ -63,6 +63,8 @@ The following actions are available from the Planning section in Workfront:
 
 * Disconnect records  
 
+* Open the details preview box or page to view more information about the connected records
+
 For information, see [Manage records in the Planning section of Adobe Workfront objects](/help/quicksilver/maestro/records/manage-records-in-planning-section.md).  
 
 ## Week of May 13, 2024
