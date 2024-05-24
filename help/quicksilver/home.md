@@ -43,7 +43,6 @@ The following sections point you to useful links in this guide, arranged by inte
 
 >[!ENDTABS]
 
-<a href="/URL">Title</a>
 
 ## Explore documentation
 
@@ -83,27 +82,22 @@ The following sections point you to useful links in this guide, arranged by inte
   </tr>
 </table>
 
-## Tips for navigating content in Experience League
+## Tips for finding content in Experience League
 
 Searching documentation can be more efficient with a few strategic approaches. Here are some tips to help you find what you need effectively:
 
-### Use Specific and Relevant Keywords
+### Use the Table of Contents and Search bar 
 
-* **Be Precise**: Enter specific terms related to your issue or topic. Instead of general terms like "project management," use "project timeline setup" or "task dependencies."
-* **Feature Names**: Include the exact names of Workfront features or modules, such as "Workfront Fusion" or "Custom Forms."
+* **Table of Contents**: Start with the table of contents to get an overview of available topics and narrow down to specific topics by expanding sections.
+* **Search bar**: Use the search bar to find documentation. Enter specific terms related to your issue or topic. Instead of general terms like "project management," use "project timeline setup" or "task dependencies."
 
-### Use the Table of Contents and Navigation Menus
-
-* **Table of Contents**: Start with the table of contents to get an overview of available topics and quickly jump to the relevant section.
-* **Navigation Menus**: Use the structured navigation menus to browse through different sections of the documentation, such as Getting Started, Advanced Features, and Troubleshooting.
+![](assets/exl-site-nav.png)
 
 ### Explore Learning and Training Sections
 
-* **Training Materials**: Look for training videos, webinars, and tutorials that often provide practical, step-by-step instructions and may be easier to follow than written documentation.
-* Learning Paths: Check for structured learning paths that guide you through using various Workfront features in a logical sequence.
+* **Training Materials**: Navigate to the [Workfront tutorials](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) page for a library of training videos and articles designed to help you better understand Workfront features and settings. 
+* **Courses**: Check for structured learning paths that guide you through using various Workfront features in a logical sequence.
 
-### Participate in Community Forums
+### Find answers in Community Forums
 
-* **Ask Questions**: If the documentation doesn't answer your question, try posting in the Workfront Community forums where other users and experts can offer assistance.
-
-* **Search Forums**: The forums often have solutions to common problems and practical advice shared by other users.
+* **Ask Questions**: If the documentation doesn't answer your question, try posting in the [Workfront Community forums](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en) where other users and experts can offer assistance.
