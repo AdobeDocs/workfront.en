@@ -18,12 +18,6 @@ AI Assistant can summarize the following objects:
 * Issues
 * Documents
 
->[!NOTE]
->
->AI Assistant summarize functionality is different from the Summary panel. 
->
->For information on the Summary panel in Workfront, see [Summary overview](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
-
 ## Summarize an object
 
 To see an AI summary of an object:
