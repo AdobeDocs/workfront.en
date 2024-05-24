@@ -128,9 +128,9 @@ You must have the following access to perform the steps in this article:
 
    ![](assets/planning-section-on-project.png)
 
-<!--1. Click a record card to display more information about the record. The record preview box displays.
+1. Click a record card to display more information about the record. The record preview box displays.
 1. (Optional) Start modifying fields in the record's preview box. Your changes are saved automatically.
-1. (Optional) Click the **Open in a new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview box to open the record's details page.--> 
+1. (Optional) Click the **Open in a new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview box to open the record's details page.
 1. Hover over a record card, then click the disconnect record icon **-**, then click **Disconnect**. 
    The following things occur: 
    * The record is no longer connected to the Workfront object. 
