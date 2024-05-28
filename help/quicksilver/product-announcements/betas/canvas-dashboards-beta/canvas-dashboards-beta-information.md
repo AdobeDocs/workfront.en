@@ -17,7 +17,7 @@ For a list of all Canvas Dashboards documentation, see [Canvas Dashboards overvi
 
 **Beta schedule:**
 
-* Closed beta start date - May 2, 2024
+* Closed beta start date - TBA
 * Open beta start date - TBA
 * Planned release date - TBA
 
@@ -30,6 +30,10 @@ To enroll in the beta:
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Dashboards**.
 
 1. Click the **Join the Canvas Dashboards beta** beta button in the top-right corner of the page.
+
+   >[!NOTE]
+   >
+   >This button is available only if your organization has been accepted into the closed beta. When the open beta begins, this will be available for all organizations.
 
 1. Read the terms, then click **Accept**. You are now enrolled in the beta; please note, however, that it will take a few minutes for your Workfront data to become fully accessible in Canvas Dashboards. 
 
@@ -57,12 +61,13 @@ Below is a list of the report types currently supported in the beta, as well as 
 
 ### Features in development
 
-* Matrix table reports
+* Date- and user-based wildcards for filters
+* Workfront Planning reports
+* Additional Workfront object types
+* Boards reports
+* Other usability enhancements
 * Worksheets
 * Embedded web content
-* Boards reports
-* Dashboard filters
-* Date- and user-based wildcards for filters
 
 ### Future roadmap features
 
