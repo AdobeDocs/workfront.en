@@ -10,6 +10,8 @@ exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
 ---
 # Commit Date overview
 
+<!--{{highlighted-preview}}-->
+
 The Commit Date is the date by which a user assigned to task or an issue commits to complete the task or the issue. 
 
 This is different than the Planned Completion Date of a task or issue, as it is a more realistic estimate of the completion date given only by the user in charge of the work. 
@@ -41,6 +43,15 @@ Consider the following when working with commit dates:
 >* Any other user with permissions to the task.
 >
 >For more information about the Task Owner, see [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+## Locate the Commit Date of tasks and issues
+
+You can find the Commit Date ot tasks and issues in the following areas of Workfront:
+
+* The Details page
+* The Summary panel, after a Workfront or group administrator adds it to your layout template. For information, see [Customize Home and Summary using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). 
+<!--
+* <span class="preview">The header of a task or issue, after a Workfront or group administrator adds it to your layout template. For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span> -->
 
 ## Notifications and updates triggered by changing the Commit Date {#notifications-and-updates-triggered-by-changing-the-commit-date}
 

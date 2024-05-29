@@ -69,6 +69,9 @@ You must give users permission to workspaces to allow them to have access to the
 * Record types
 * Records
 * Fields
+<!--* Views*
+    
+    *You can allow all users with View or higher permissions to a workspace to also access a view. This is an additional permission that you must enable when sharing a view. For information, see [Share views](/help/quicksilver/maestro/access/share-views.md). -->
 
 The following are the levels of permissions for workspaces: 
 
@@ -140,11 +143,23 @@ The following are the levels of permissions for views and view elements:
 
 |        | Manage | View  |
 |--------|--------|-------|
-| Edit   | ✓      |       |
-| Delete | ✓      |       |
-| Share  | ✓       |       |
-| View   | ✓      | ✓     |
-| Apply  | ✓      | ✓     |
+| Edit   | ✓      |       |                            
+| Delete | ✓      |       |                            
+| Share  | ✓       |       |                           
+| View   | ✓      | ✓     |                         
+| Apply  | ✓      | ✓     |                         
+
+<!--Replace the above with this when global sharing is released: 
+
+|        | Manage | View  |View permissions to a workspace*|
+|--------|--------|-------|------------------------------|
+| Edit   | ✓      |       |                            |
+| Delete | ✓      |       |                            |
+| Share  | ✓       |       |                           |
+| View   | ✓      | ✓     | ✓                         |
+| Apply  | ✓      | ✓     | ✓                          |
+
+*Users must have View or higher permissions on a workspace to gain this view access.-->
 
 <!--Replace the table above with the following when public sharing releases: 
 
