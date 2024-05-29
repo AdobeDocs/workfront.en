@@ -20,6 +20,10 @@ To view available templates, click the **Templates** icon ![](assets/fusion-temp
 
 These templates automate Workfront processes and workflows.
 
+### [!BADGE New! ]{type=Informative} Workfront Boards > Create a standard Checklist based on Boards Column
+
+This Fusion Template creates a standard checklist for all cards that enter a specific column on a specific board on a timed basis.
+
 ### Workfront - Project Creation from CSV
 
 This automation creates new projects in Workfront based off Name, Portfolio, Status, Planned Start Date, and Template details that you specify in a CSV.
