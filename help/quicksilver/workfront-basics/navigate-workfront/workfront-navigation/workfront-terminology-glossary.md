@@ -90,7 +90,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Agile Team]</td> 
-   <td>Differs a from traditional team because they take their prospective work from a backlog and work on it within a set period of time that is called an [!UICONTROL Iteration].</td> 
+   <td>Differs from a traditional team because they take their prospective work from a backlog and work on it within a set period of time that is called an [!UICONTROL Iteration].</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL All My Teams]</td> 

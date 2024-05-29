@@ -22,32 +22,8 @@ For instructions on moving objects between environments using the Workfront appl
 * [Create or edit an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
 * [Install an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
-## Access requirements
 
-You must have the following:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Workfront] plan</td> 
-   <td> <p>Enterprise, Prime, or Ultimate</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p role="rowheader">[!DNL Workfront] license</p> </td> 
-   <td> <p>[!UICONTROL Plan] </p> <p>You must be a [!DNL Workfront] administrator. For information on [!DNL Workfront] administrators, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p role="rowheader">Object permissions</p> </td> 
-   <td> <p>All</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Support package</td> 
-   <td> <p>[!UICONTROL Plus], [!UICONTROL Preferred], or [!UICONTROL Enterprise]</p> <p>The standard support package does not have access to the Custom Refresh Sandbox, but it does have access to the Preview Sandbox.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+<!-- add access req for GA-->
 
 ## Prerequisites
 

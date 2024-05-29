@@ -72,6 +72,13 @@ Before you can use the [!DNL Adobe Target] connector, you must ensure that the f
 
 ## Create a connection to [!DNL Adobe Target]
 
+>[!IMPORTANT]
+>
+>Connections created after June 3, 2024 require an Adobe Target Server-to-server connection. 
+>
+>* Existing Service Account connections will continue to work until January 2025. You must replace your Service Account connections with Adobe Target Server-to-server connections by January 2024.
+>* You must be a developer for your organization to create an Adobe Target Server-to-server connection. The developer role is set in the Adobe Admin Console.
+
 To create a connection for your [!DNL Adobe Target] modules:
 
 1. Click **[!UICONTROL Add]** next to the Connection box.
@@ -88,6 +95,11 @@ To create a connection for your [!DNL Adobe Target] modules:
         <td role="rowheader">[!UICONTROL Connection name]</td>
         <td>
           <p>Enter a name for this connection.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Connection type]</td>
+        <td>Select whether you are creating a Service Account connection or an Adobe Target Server-to-server connection.<p><b>IMPORTANT</b>: Connections created after June 3, 2024 require an Adobe Target Server-to-server connection. Existing Service Account connections will continue to work until January 2025. You must replace your Service Account connections with Adobe Target Server-to-server connections by January 2024.
         </td>
       </tr>
       <tr>
