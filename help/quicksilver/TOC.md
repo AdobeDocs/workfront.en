@@ -891,6 +891,12 @@ feature-set: Workfront
       * [Use the Home Calendar view](workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)
       * [View the Home Calendar](workfront-basics/using-home/using-the-home-area/view-home-calendar.md)
       * [Use the My Updates area](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
+  * AI Assistant {#ai-assistant}
+    * [AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
+    * [Summarize using AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
+    * [Get help from AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)
+    * [Revise calculated field formulas with AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
+    * [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
   * Update work items and view updates {#update-work-items-view-updates}
     * [Update work items and view updates: article index](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
     * [Updates section overview](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
