@@ -21,7 +21,7 @@ For a list of all changes available at this point in the Third Quarter 2024 rele
 
 To make it easier to access, we have added the Condition field to the Task and Issue Details sections. Prior to this enhancement, the Condition field displayed in lists, reports, and in the Summary panel of tasks and issues.  
 
-For more information, see Update Condition for tasks and issues (https://experienceleague.adobe.com/en/docs/workfront/using/manage-work/projects/update-work-on-a-project/update-condition-for-tasks-and-issues#manually-update-the-condition).
+For more information, see [Update Condition for tasks and issues](https://experienceleague.adobe.com/en/docs/workfront/using/manage-work/projects/update-work-on-a-project/update-condition-for-tasks-and-issues#manually-update-the-condition).
 
 ## The Commit Date and Condition fields are now available to add in a task and issue layout template 
 
@@ -31,7 +31,7 @@ For more information, see Update Condition for tasks and issues (https://experie
 
 To make it easier for you to update tasks and issues, we have now added the Commit Date and Condition fields as options to add to task and issue headers in a layout template. Prior to this enhancement, you could not add the Condition and the Commit Date of tasks and issues to the headers.  
 
-For information, see Customize object headers using a layout template (https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/customize/layout-templates/customize-object-headers).
+For information, see [Customize object headers using a layout template](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/customize/layout-templates/customize-object-headers).
 
 ## More relevant smart assignments
 
