@@ -134,6 +134,46 @@ This page provides information about functionality that is included in the Third
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">The Condition field has been added to the Task and Issue Details section</a></p>
+                        <p><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>To make it easier to access, we have added the Condition field to the Task and Issue Details sections. Prior to this enhancement, the Condition field displayed in lists, reports, and in the Summary panel of tasks and issues.  </p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: May 30, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 24.6 release (June 13, 2024)</p>
+                            </li>
+                            <li>
+                                <p>Production release for all customers: With the 24.7 release (July 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">The Commit Date and Condition fields are now available to add in a task and issue layout template</a></p>
+                        <p><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>To make it easier for you to update tasks and issues, we have now added the Commit Date and Condition fields as options to add to task and issue headers in a layout template. Prior to this enhancement, you could not add the Condition and the Commit Date of tasks and issues to the headers.  </p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: May 30, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 24.6 release (June 13, 2024)</p>
+                            </li>
+                            <li>
+                                <p>Production release for all customers: With the 24.7 release (July 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+                   <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">More relevant assignments added to the New Task workflow</a></p>
                         <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>We have added the same functionality for more relevant smart assignments to the Assignments field in the New Task box when adding a task to a project and in a project task list.</p>
