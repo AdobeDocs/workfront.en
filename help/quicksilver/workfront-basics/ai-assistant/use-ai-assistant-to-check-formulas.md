@@ -1,7 +1,7 @@
 ---
 title: Revise calculated field formulas with AI Assistant
 content-type: reference
-description: 
+description: You can use AI Assistant to resolve errors in your invalid custom expressions in calculated fields.
 author: Becky
 feature: Get Started with Workfront
 hide: yes
