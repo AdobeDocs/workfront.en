@@ -104,7 +104,14 @@ You can share views you created or views you have Manage permissions to <!--with
 
    <!--The Internal sharing tab should be selected by default.-->
 
-1. In the **Grant view access to** field, start typing the name of a user or a group, then click it when it displays in the list.  <!--replace screen shot below-->
+<!--   
+1. (Optional) Select from the following options to share the view: 
+
+* **Only invited people can access**: You must specify users or groups that you want to share the view with. This is the default option.
+* **Everyone in the workspace can view**: All users that have View or higher permissions to workspaces can access the view. -->
+
+
+1. In the **Grant view access to** field, start typing the name of a user or a group, then click it when it displays in the list.  <!--***********replace screen shot below when global sharing is released***********-->
 
     ![](assets/sharing-a-view-ui-with-groups.png)
 
