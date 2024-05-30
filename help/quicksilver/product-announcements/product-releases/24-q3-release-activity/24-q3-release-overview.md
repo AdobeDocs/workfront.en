@@ -134,6 +134,26 @@ This page provides information about functionality that is included in the Third
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Edit the task and issue Commit Date and Condition from the header or Details section</a></p>
+                        <p><span style="color: #ff0000;"> New in Preview!</span></p>
+                        <p>To make it easier for you to update tasks and issues, we have now added the Commit Date and Condition fields as options to add to task and issue headers and Details section in a layout template. Users are now able to update these fields from the header or Details section of a page, when they are assigned to the modified layout template.   </p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: May 30, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 24.6 release (June 13, 2024)</p>
+                            </li>
+                            <li>
+                                <p>Production release for all customers: With the 24.7 release (July 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                 </tr>
+                   <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">More relevant assignments added to the New Task workflow</a></p>
                         <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
                         <p>We have added the same functionality for more relevant smart assignments to the Assignments field in the New Task box when adding a task to a project and in a project task list.</p>
