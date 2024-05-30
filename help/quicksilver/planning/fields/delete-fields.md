@@ -21,7 +21,7 @@ recommendations: noDisplay, noCatalog
 
 # Delete fields
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 In Adobe Workfront Planning, you can create custom fields to store information about records. 
 

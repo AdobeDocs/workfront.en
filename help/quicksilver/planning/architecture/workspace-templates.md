@@ -21,7 +21,7 @@ role: User
 
 # List of workspace templates
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 In Adobe Workfront Planning, a workspace is a collection of record types used by a team and represents the team's work lifecycle. 
 

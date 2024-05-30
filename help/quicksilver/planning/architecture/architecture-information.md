@@ -22,7 +22,7 @@ hide: yes
 
 # Architecture: article index
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 As a marketing operations leader, you can use Adobe Workfront Planning to organize work across the marketing lifecycle for all your teams.
 

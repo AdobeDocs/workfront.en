@@ -21,7 +21,7 @@ hide: yes
 
 # Delete record types
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 You can delete record types when they are no longer relevant. 
 

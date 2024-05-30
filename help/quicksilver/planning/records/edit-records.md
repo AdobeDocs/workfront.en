@@ -10,7 +10,7 @@ exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 
 # Edit records
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 You can edit record information in Adobe Workfront Planning by editing the values of the fields associated with the records. 
 

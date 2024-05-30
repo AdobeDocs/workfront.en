@@ -11,7 +11,7 @@ exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 
 # Share workspaces
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 You can share a workspace with others to ensure collaboration when working in Adobe Workfront Planning. 
 

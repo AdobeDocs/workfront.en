@@ -20,7 +20,7 @@ role: User
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 You can display records in a timeline view, when accessing the record type page in Adobe Workfront Planning. 
 

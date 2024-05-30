@@ -27,7 +27,7 @@ recommendations: noDisplay, noCatalog
 
 # Create fields
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 In Adobe Workfront Planning, you can create custom fields for record types. You can then associate the fields with Workfront Planning records to enhance record information. 
 

@@ -10,7 +10,7 @@ exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
 
 # Record types overview
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Unlike Workfront where the object types are predefined, in Adobe Workfront Planning, you can create your own object types. For example, in Workfront the object types of Program, Portfolio, Project, Task, or Issue are already created. 
 

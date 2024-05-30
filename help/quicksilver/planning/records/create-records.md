@@ -10,7 +10,7 @@ exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
 
 # Create records
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 In Adobe Workfront Planning, a record is an instance of a record type. 
 

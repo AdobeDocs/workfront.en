@@ -10,6 +10,8 @@ exl-id: 9c2f5b14-77c5-42fd-83ad-acbe7da801bd
 
 <!--add this to major TOC and Planning article index-->
 
+{{planning-important-intro}}
+
 When someone tags you in a record comment, you may receive an email or an in-app notification for that tag. 
 
 The type of notifications that you receive depends on whether your company is an Adobe Unified Experience customer or not. 

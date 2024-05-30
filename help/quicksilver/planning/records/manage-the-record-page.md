@@ -10,7 +10,7 @@ exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 
 # Manage the record page
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 You can edit the layout of the record preview and page in Adobe Workfront Planning. 
 

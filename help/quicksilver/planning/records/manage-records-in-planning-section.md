@@ -15,7 +15,7 @@ recommendations: noDisplay, noCatalog
 
 # Manage records in the Planning section of Adobe Workfront objects
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 You can display the records connected to Adobe Workfront objects in the Planning section of a Workfront object, in the left panel.
 

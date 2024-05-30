@@ -8,7 +8,7 @@ exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
 ---
 # Manage Adobe Workfront Planning notification preferences 
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 When someone adds you to a comment in the record page, you receive an in-app as well as an email notification about the comment. 
 
