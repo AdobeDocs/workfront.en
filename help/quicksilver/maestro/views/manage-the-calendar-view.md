@@ -20,7 +20,7 @@ hide: yes
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 You can display records and their fields in a calendar view, from the record type page.
 

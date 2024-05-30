@@ -22,7 +22,7 @@ hide: yes
 
 # Connect records 
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 You can connect Adobe Workfront Planning records to one another or to objects from other applications. 
 

@@ -22,7 +22,7 @@ hide: yes
 
 # Views: article index
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 You can display Adobe Workfront Planning records in a table, timeline, or calendar view. 
 

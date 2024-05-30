@@ -13,7 +13,7 @@ exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 
 # Overview of sharing permissions in Adobe Workfront Planning 
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 You can share or remove permissions to a workspace or view in Adobe Workfront Planning.  
 
@@ -69,9 +69,9 @@ You must give users permission to workspaces to allow them to have access to the
 * Record types
 * Records
 * Fields
-<!--* Views*
+* Views*
     
-    *You can allow all users with View or higher permissions to a workspace to also access a view. This is an additional permission that you must enable when sharing a view. For information, see [Share views](/help/quicksilver/maestro/access/share-views.md). -->
+    *You can allow all users with View or higher permissions to a workspace to also access the views in the workspace. This is an additional permission that you must enable when sharing a view. For information, see [Share views](/help/quicksilver/maestro/access/share-views.md).
 
 The following are the levels of permissions for workspaces: 
 
@@ -141,17 +141,7 @@ You must give users permission to  views to allow them to have access to the fol
 
 The following are the levels of permissions for views and view elements: 
 
-|        | Manage | View  |
-|--------|--------|-------|
-| Edit   | ✓      |       |                            
-| Delete | ✓      |       |                            
-| Share  | ✓       |       |                           
-| View   | ✓      | ✓     |                         
-| Apply  | ✓      | ✓     |                         
-
-<!--Replace the above with this when global sharing is released: 
-
-|        | Manage | View  |View permissions to a workspace*|
+|        | Manage (Only invited people can access) | View (Only invited people can access)  |Everyone in the workspace can view*|
 |--------|--------|-------|------------------------------|
 | Edit   | ✓      |       |                            |
 | Delete | ✓      |       |                            |
@@ -159,20 +149,30 @@ The following are the levels of permissions for views and view elements:
 | View   | ✓      | ✓     | ✓                         |
 | Apply  | ✓      | ✓     | ✓                          |
 
-*Users must have View or higher permissions on a workspace to gain this view access.-->
-
+*Users must have View or higher permissions to a workspace to gain this view access.
+            
 <!--Replace the table above with the following when public sharing releases: 
 
-|   Internal sharing     | Manage | View  |
-|--------|--------|-------|
-| Edit   | ✓      |       |
-| Delete | ✓      |       |
-| Share  | ✓       |       |
-| View   | ✓      | ✓     |
-| Apply  | ✓      | ✓     |
+|   Internal sharing     | Manage (Only invited people can access) | View (Only invited people can access)  |Everyone in the workspace can view*|
+|--------|--------|-------|------------------------------|
+| Edit   | ✓      |       |                            |
+| Delete | ✓      |       |                            |
+| Share  | ✓       |       |                           |
+| View   | ✓      | ✓     | ✓                         |
+| Apply  | ✓      | ✓     | ✓                          |
 
 |   Public sharing      | View  |
 |--------|-------|
 | View   | ✓     |
 | Apply  | ✓     |
 -->
+
+
+<!--old view permissions, before sharing View permissions to a view through a workspace:
+|        | Manage | View  |
+|--------|--------|-------|
+| Edit   | ✓      |       |                            
+| Delete | ✓      |       |                            
+| Share  | ✓       |       |                           
+| View   | ✓      | ✓     |                         
+| Apply  | ✓      | ✓     |     -->  

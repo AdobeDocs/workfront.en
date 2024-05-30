@@ -10,7 +10,7 @@ exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
 
 # Add a thumbnail to a record
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 You can associate records with unique thumbnails in Adobe Workfront Planning, to make them easily recognizable. 
 

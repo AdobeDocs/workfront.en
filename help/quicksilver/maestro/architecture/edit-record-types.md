@@ -22,7 +22,7 @@ hide: yes
 
 # Edit record types
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Record types are the object types of Adobe Workfront Planning. You can edit the appearance of record types that you or anyone else created. For information about creating Workfront Planning record types, see [Create record types](../architecture/create-record-types.md). 
 

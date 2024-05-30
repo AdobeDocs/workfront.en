@@ -10,7 +10,7 @@ exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
 
 # Delete records
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 You can delete records that are no longer relevant in Adobe Workfront Planning. 
 

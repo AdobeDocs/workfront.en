@@ -21,7 +21,7 @@ recommendations: noDisplay, noCatalog
 
 # Edit fields 
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 You can edit the field settings for fields that are already created in Adobe Workfront Planning. 
 
