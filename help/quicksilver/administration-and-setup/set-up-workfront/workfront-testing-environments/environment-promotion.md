@@ -503,7 +503,7 @@ For each promotion object, one of the following `actions`  will be set:
   </tr> 
   <tr> 
    <td>OVERWRITING</td> 
-   <td><p>This action will not be automatically set.</p><p>This action provides the ability to update an object that exists in the target environment. It provides an ability to do a manual override of an assigned CREATE or USEEXISTING action before executing the <code>/install</code> call.<ul><li>A user can update an object in the test environment, then use the OVERWRITING action to update that object in the target environment.</p></li><li><p>If the user installs one promotion package initially, and then a new (or updated) package in the future contains changes to objects in the initial package, the user can use OVERWRITING to replace (override) previously installed objects. </p></li><ul></td> 
+   <td><p>This action will not be automatically set.</p><p>This action provides the ability to update an object that exists in the target environment. It provides an ability to do a manual override of an assigned CREATE or USEEXISTING action before executing the <code>/install</code> call.<ul><li>A user can update an object in the test environment, then use the OVERWRITING action to update that object in the target environment.</p></li><li><p>If the user installs one promotion package initially, and then a new (or updated) package in the future contains changes to objects in the initial package, the user can use OVERWRITING to replace (override) previously installed objects. </p><p>For more information on overwriting, see the section [Overwriting](#overwriting) in this article.</li><ul></td> 
   </tr> 
   <tr> 
    <td>IGNORE</td> 
@@ -885,7 +885,209 @@ _Empty_
 }
 ```
 
+## Overwriting
 
+This is a three step process. 
+
+1. Create a translation map (this is analogous to the "prepare installation" phase)
+1. Edit the generated translation map, setting the `action` and `targetId` fields for any object that they want to overwrite. The action should be `OVERWRITING`, and the `targetId` should be the uuid of  the object that should be overwritten
+1. Execute the installation.
+
+* [Step 1 - Create a Translation Map](#step-1---create-a-translation-map)
+* [Step 2 - Modify the Translation Map](#step-2---modify-the-translation-map)
+* [Step 3 - Install](#step-3---install)
+
+### **Step 1 - Create a Translation Map**
+
+#### URL
+
+```
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}/translation-map
+```
+
+#### Body 
+
+None
+
+#### Response
+
+A translation map, with a `202 - OK` status
+
+```json
+{
+    {objcode}: {
+        {object uuid}: {
+            "targetId": {uuid of object in destination},
+            "action": {installation action},
+            "name": {name of the object},
+            "isValid": true
+        },
+        {...more objects}
+    },
+    {...more objcodes}
+}
+```
+
+
+#### Example
+
+```json
+{
+    "UIVW": {
+        "109f611680bb3a2b0c0a8c1f5ec63f6d": {
+            "targetId": "6643a26b0001401ff797ccb318f97aa6",
+            "action": "CREATE",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIGB": {
+        "edb4c6c127d38910e4860eb25569a5cc": {
+            "targetId": "6643a26b000178fb5cc27b74cc1e87ec",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIFT": {
+        "f97b662e229fd09ee595d8d359ec88bd": {
+            "targetId": "6643a26b00015cdd6727b76d6fda1d1d",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "PTLSEC": {
+        "4bb80aa88a96420296a7f47bf866f162": {
+            "targetId": "4bb80aa88a96420296a7f47bf866f162",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "EXTSEC": {
+        "65f8637900015e4dceb6fe079bd5409d": {
+            "targetId": "65f8637900015e4dceb6fe079bd5409d",
+            "action": "USEEXISTING",
+            "name": "Asnyc List",
+            "isValid": true
+        }
+    },
+    "PTLTAB": {
+        "65f8638a00016422a83ddc3508852d0f": {
+            "targetId": "65f8638a00016422a83ddc3508852d0f",
+            "action": "CREATEWITHALTNAME",
+            "name": "Cool 2.0 The Best",
+            "isValid": true
+        }
+    }
+}
+```
+
+### Step 2 - Modify the Translation Map
+
+There is no endpoint for this step. 
+
+1. In the translation map returned in [Step 1 - Create a Translation Map](#step-1---create-a-translation-map), inspect the list of objects that will be installed. 
+1. Update the action field on each object to the desired install action. 
+1. Validate the `targetId` on each object. If the set action is `USEEXISTING` or `OVERWRITING`, the `targetId` should be set to the UUID of the target object in the destination environment. For any other action, the targetId should be an empty string. 
+
+    >[!NOTE] 
+    >
+    >The `targetId` is already populated if a collision was detected.
+
+### **Step 3 - Install**
+
+#### URL
+
+```
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}/install
+```
+
+#### Body
+ 
+This is an object with a single field `translationMap`, which should equal the modified translation map from [Step 2 - Modify the Translation Map](#step-2---modify-the-translation-map).
+
+```json
+{
+    "translationMap": {
+        {objcode}: {
+            {object uuid}: {
+                "targetId": {uuid of object in destination},
+                "action": {installation action},
+                "name": {name of the object},
+                "isValid": true
+            },
+            {...more objects}
+        },
+        {...more objcodes}
+    }
+}
+```
+
+
+#### Example
+
+```json
+{
+    "translationMap": {
+    "UIVW": {
+        "109f611680bb3a2b0c0a8c1f5ec63f6d": {
+            "targetId": "6643a26b0001401ff797ccb318f97aa6",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIGB": {
+        "edb4c6c127d38910e4860eb25569a5cc": {
+            "targetId": "6643a26b000178fb5cc27b74cc1e87ec",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIFT": {
+        "f97b662e229fd09ee595d8d359ec88bd": {
+            "targetId": "6643a26b00015cdd6727b76d6fda1d1d",
+            "action": "OVERWRITING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "PTLSEC": {
+        "4bb80aa88a96420296a7f47bf866f162": {
+            "targetId": "4bb80aa88a96420296a7f47bf866f162",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "EXTSEC": {
+        "65f8637900015e4dceb6fe079bd5409d": {
+            "targetId": "65f8637900015e4dceb6fe079bd5409d",
+            "action": "USEEXISTING",
+            "name": "Asnyc List",
+            "isValid": true
+        }
+    },
+    "PTLTAB": {
+        "65f8638a00016422a83ddc3508852d0f": {
+            "targetId": "65f8638a00016422a83ddc3508852d0f",
+            "action": "CREATEWITHALTNAME",
+            "name": "Cool 2.0 The Best",
+            "isValid": true
+        }
+    }
+}
+}
+```
+
+#### Response
+
+The response includes the `{uuid of the created installation}` and a `202 - ACCEPTED` status.
+
+Example: `b6aa0af8-3520-4b25-aca3-86793dff44a6`
 
 <!--table templates
 
