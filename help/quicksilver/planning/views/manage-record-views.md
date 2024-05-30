@@ -110,7 +110,7 @@ You must have the following access to perform the steps in this article:
 
     >[!NOTE]
     >
-    > Because Adobe Workfront Planning is currently in a beta state, some view elements might not be available to all views.
+    > Some view elements might not be available to all views.
 
 ## Similarities and differences between record views
 

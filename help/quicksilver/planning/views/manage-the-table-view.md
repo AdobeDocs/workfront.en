@@ -10,7 +10,7 @@ exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 
 <!--
 title: Manage the table view
-description: You can display records in a table view when using Adobe Maestro. 
+description: You can display records in a table view when using Adobe Workfront Planning. 
 hidefromtoc: yes
 author: Alina
 feature: Work Management
@@ -76,7 +76,7 @@ You must have the following access to perform the steps in this article:
 
 <tr>
    <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
+   <td> <p>Your system administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
 </td>
   </tr>
  </tbody>

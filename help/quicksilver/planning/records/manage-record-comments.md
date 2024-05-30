@@ -12,7 +12,7 @@ exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-<!--update the system updates articles when we release to open beta - check the long commenting stream article list and see articles that document where in the system we have system updates; "Maestro records" should be there-->
+<!--update the system updates articles when we release to open beta - check the long commenting stream article list and see articles that document where in the system we have system updates; "Workfront Planning records" should be there-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. </span>
 

@@ -100,4 +100,4 @@ This opens the last workspace you accessed.
 
 1. Click **Delete** to confirm.
 
-    The workspace is deleted and cannot be recovered. Any record types, records, fields, and views associated with them are also deleted. <!--ensure this is right after closed beta-->
+    The workspace is deleted and cannot be recovered. Any record types, records, fields, and views associated with them are also deleted. <!--ensure this is right at or before GA-->

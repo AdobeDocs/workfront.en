@@ -12,7 +12,7 @@ exl-id: 5027d611-916e-492d-9a44-841bdde11c94
 
 <!---
 title: Formula fields overview
-description: In Adobe Maestro, you can create formula fields that use functions and existing  fields to calculate a new custom value. 
+description: In Adobe Workfront Planning, you can create formula fields that use functions and existing  fields to calculate a new custom value. 
 hidefromtoc: yes
 hide: yes
 author: Alina

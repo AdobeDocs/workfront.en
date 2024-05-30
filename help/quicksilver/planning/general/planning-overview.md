@@ -26,7 +26,7 @@ exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 >
 >Your account representative would have informed you if you were part of this stage.
 >
->For a complete list of all sections and articles that document Workfront Planning, see [Adobe Workfront Planning: article index](/help/quicksilver/maestro/planning-information.md). 
+>For a complete list of all sections and articles that document Workfront Planning, see [Adobe Workfront Planning: article index](/help/quicksilver/planning/planning-information.md). 
 
 <!--[View a video demonstration of Adobe Workfront Planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
@@ -53,7 +53,7 @@ The following are some of the main capabilities:
 
 The following table illustrates the main features that will be available in Workfront Planning, and a timeline of their availability. The list does not include all features.
 
-For information about new features and when they are released, see [Adobe Workfront Planning release activity](/help/quicksilver/maestro/general/release-activity.md). 
+For information about new features and when they are released, see [Adobe Workfront Planning release activity](/help/quicksilver/planning/general/release-activity.md). 
 
 |       Feature                                      |     Available now  |     Available soon   |     In research  |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -97,7 +97,7 @@ For information about new features and when they are released, see [Adobe Workfr
 
 ## Enable Adobe Workfront Planning for the users in your Workfront instance
 
-Your organization must enroll in the Adobe Workfront Planning program before you can access the planning capabilities. Your account representative should have given you information about enrolling in this program, if you qualify. 
+Your organization must enroll in the Adobe Workfront Planning program before you can access its capabilities. Your account representative should have given you information about enrolling in this program, if you qualify. 
 
 For more information about granting access to and enabling others to use Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md). 
 
@@ -125,7 +125,7 @@ The following are the main Workfront Planning objects and concepts:
     
     In Workfront Planning, you can create any record types that meet your organization's workflows. Later, you can define how the record types relate to one another or form dependencies. 
     
-    For more information, see [Record types overview](/help/quicksilver/maestro/architecture/overview-of-record-types.md).
+    For more information, see [Record types overview](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
 * **Record**: An instance of a record type. 
 
@@ -299,5 +299,5 @@ To locate Workfront Planning:
 
 We are releasing new features to Workfront Planning regularly. 
 
-For an up-to-date list of released features, see [Adobe Workfront Planning release activity](/help/quicksilver/maestro/general/release-activity.md)
+For an up-to-date list of released features, see [Adobe Workfront Planning release activity](/help/quicksilver/planning/general/release-activity.md)
 

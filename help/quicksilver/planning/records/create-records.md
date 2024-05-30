@@ -79,7 +79,7 @@ You must have the following access to perform the steps in this article:
  </tbody>
 </table>
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -90,7 +90,7 @@ You can create records in the table view of a record type page.
 
 For information about editing record information, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
 
-{#step1-to-maestro}
+{{step1-to-planning}}
   
   The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).
 
@@ -153,11 +153,11 @@ You can import records from other applications by linking them to existing recor
 
 1. Add objects from another application to the records you created above using the linked record field you created in the previous step. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
 
-    The following items are created in Maestro:
+    The following items are created in Workfront Planning:
 
-    * A read-only Maestro record type that refers to the other application's record type you linked to in the connected record field. 
+    * A read-only record type that refers to the other application's record type you linked to in the connected record field. 
 
-      For example, if you connect a Maestro record type to Workfront project, a read-only record type named "Workfront project" is created in the same workspace. You can access the read-only Workfront record types from the table view of the Maestro records you're linking from. 
+      For example, if you connect a Planning record type to Workfront project, a read-only record type named "Workfront project" is created in the same workspace. You can access the read-only Workfront record types from the table view of the Planning records you're linking from. 
    
 -->
 

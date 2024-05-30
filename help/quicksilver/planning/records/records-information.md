@@ -9,7 +9,7 @@ exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 <!-- update the metadata with real information when making this available in TOC and in the left nav
 ---
 title: "Records: article index"
-description: The following articles describe how you can create and manage records in Adobe Maestro. 
+description: After you create record types in Adobe Workfront Planning you can create individual records of those types. The following articles describe how you can create and manage records and their information in Adobe Workfront Planning.
 hidefromtoc: yes
 author: Alina
 feature: Work Management
@@ -20,7 +20,7 @@ hide: yes
 
 # Records: article index
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 After you create record types in Adobe Workfront Planning, you can create individual records of those types. 
 

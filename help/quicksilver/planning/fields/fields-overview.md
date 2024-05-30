@@ -10,7 +10,7 @@ exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
 
 <!--
 title: Field overview
-description: You can add new fields in Adobe Maestro that reflect your organization's lifecycle. Fields are attributes of record types. 
+description: You can add new fields in Adobe Workfront Planning that reflect your organization's lifecycle. Fields are attributes of record types. 
 hidefromtoc: yes
 author: Alina
 feature: Work Management (***************WE NEED A NEW ONE HERE***********)

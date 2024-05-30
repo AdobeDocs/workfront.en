@@ -112,7 +112,7 @@ You can edit a record from the following areas:
 
 ### Edit a record inline in the table view of a record type
 
-{#step1-to-maestro}
+{{step1-to-planning}}
 
   The workspace that you accessed last opens. 
 

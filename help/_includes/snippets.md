@@ -236,7 +236,7 @@ You must install the correct plugin for the Adobe Creative Cloud application you
       </tr>
       </table>
 
-<!-- Maestro -->
+<!-- Workfront Planning -->
 
 ## Step 1 - Getting to Maestro - {#step1-to-planning}
 
@@ -254,7 +254,7 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 >
 >Your account representative will inform you if you are part of this stage.
 >
->For more information, see [Adobe Workfront Planning overview](/help/quicksilver/maestro/general/planning-overview.md).
+>For more information, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
 
 <!-- Manage Work -->
 

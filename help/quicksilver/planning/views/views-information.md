@@ -8,8 +8,8 @@ exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
 ---
 <!--
 ---
-title: Views overview
-description: The following articles describe how you can create and manage Adobe Maestro record views.
+title: "Views: article index"
+description: You can display Adobe Workfront Planning records in a table, timeline, or calendar view. The following articles describe how you can create and manage Adobe Workfront Planning record views.
 hidefromtoc: yes
 author: Alina
 feature: Work Management

@@ -45,7 +45,7 @@ Production: May 30, 2024
 
 Preview: To be determined 
 
-Because the impact for deleting a workspace can be significant, we are adding an extra step in confirming the deletion. Users are required to type "delete" before they can complete the deletion of a workspace. For more information, see [Delete workspaces](/help/quicksilver/maestro/architecture/delete-workspaces.md).  
+Because the impact for deleting a workspace can be significant, we are adding an extra step in confirming the deletion. Users are required to type "delete" before they can complete the deletion of a workspace. For more information, see [Delete workspaces](/help/quicksilver/planning/architecture/delete-workspaces.md).  
 
 -->
 
@@ -67,7 +67,7 @@ The UNIQUE operator is available for all field types except the following:
 * People 
 * Checkbox field
 
-For information, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md). 
+For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
 
 ### Share views with all members of a workspace by default
 
@@ -77,7 +77,7 @@ Preview: To be determined
 
 We have now introduced an option where you can quickly give View permissions to a view to all members of a workspace. Prior to this enhancement, only users you specifically shared a view with could access the view. This option is not enabled by default.  
 
-For information, see [Share views](/help/quicksilver/maestro/access/share-views.md). 
+For information, see [Share views](/help/quicksilver/planning/access/share-views.md). 
 
 ### Updated look of the Planning icon in the Main Menu 
 
@@ -85,7 +85,7 @@ Production: May 30, 2024
 
 Preview: To be determined 
 
- We have updated the look of the icon for the Planning area in the Main Menu. For information, see [Adobe Workfront Planning overview](/help/quicksilver/maestro/maestro-overview.md). 
+ We have updated the look of the icon for the Planning area in the Main Menu. For information, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md). 
 
 ### Renaming the Workfront Planning program
 
@@ -148,7 +148,7 @@ When you create connections to object types outside of Workfront Planning, you a
 
 For example, if you link projects from Workfront Planning campaigns, everyone with access to View the campaign will also have access to view the linked projects and the information from their lookup fields, even when they don't have any permissions to the linked projects, or access to projects, in general. You obtain access to Planning records when you receive permissions to workspaces. 
 
-For more information, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
+For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ### Add sections to the record's preview and details pages
 
@@ -176,7 +176,7 @@ When a user changes any field configuration (name, description, list of options 
 >
 >There is no notification to other users that the field configuration has changed.  
 
-For more information, see [Edit fields](/help/quicksilver/maestro/fields/edit-fields.md).  
+For more information, see [Edit fields](/help/quicksilver/planning/fields/edit-fields.md).  
 
 ## Week of May 6, 2024
 
@@ -407,7 +407,7 @@ Production: March 14, 2024
 
 Preview: To be determined 
 
-To be consistent with all other areas of the system and to be able to maintain and control any view available to you as a System Administrator, you now have Manage permissions to any view shared with you in Maestro. Prior to this enhancement, view creators could have given you permissions to View or Manage the view. Now, if the view is shared with you and you are a System Administrator, you will have Manage permissions to the view, by default.  
+To be consistent with all other areas of the system and to be able to maintain and control any view available to you as a System Administrator, you now have Manage permissions to any view shared with you in the record type page. Prior to this enhancement, view creators could have given you permissions to View or Manage the view. Now, if the view is shared with you and you are a System Administrator, you will have Manage permissions to the view, by default.  
 
 For more information, see [Share views](/help/quicksilver/planning/access/share-views.md). 
 
@@ -579,7 +579,7 @@ Production: February 1, 2024
 Preview: To be determined
 
 To avoid confusion and simplify the management of workspaces, we have removed the auto-generated, read-only record type cards for connected external objects from a workspace.
-<!-- Now, when you connect Workfront objects with Maestro records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Maestro. This simplifies the number of objects and places you manage information for your objects.  -->
+<!-- Now, when you connect Workfront objects with Workfront Planning records, for example, you can navigate to Workfront to manage the linked objects. You can no longer find the read-only Workfront object record type page in Planning. This simplifies the number of objects and places you manage information for your objects.  -->
 
 For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).   
 
@@ -744,7 +744,7 @@ Now, you can use Adobe Workfront Fusion to connect to the planning capabilities.
 
 * Trigger a scenario when a change is made in the planning capabilities
 
-For more information, see [Adobe Maestro modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
+For more information, see [Adobe Workfront Planning modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
 
 ## Week of December 11, 2023
 
@@ -797,12 +797,12 @@ After you establish the connection, the following functionality is available wit
 * Planning capability users can view the name of the connected assets, as well as the values of the connected fields in the planning capabilities.
 
 <!--removed per PM, for now: 
-* An Experience Manager Assets record type is automatically created in Maestro after you establish the connection. Connected assets are visible in the Maestro table and timeline views of this new record type.  
+* An Experience Manager Assets record type is automatically created in Planning after you establish the connection. Connected assets are visible in the table and timeline views of this new record type.  
 -->
 
 * You can click the asset name in the table view of the planning capability record from the connected record field, and view a pop-up window with the asset thumbnail and several key fields. From the pop-up window, you can navigate to the asset viewer in Experience Manager and view all the details about it.
 
-For more information, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).  
+For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).  
 
 ## Week of December 4, 2023
 

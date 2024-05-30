@@ -9,8 +9,8 @@ exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 # Manage the timeline view
 
 <!--
-title: Manage the timeline view in Adobe Maestro
-description: You can display records in a timeline view, when accessing the record type page in Adobe Maestro. 
+title: Manage the timeline view 
+description: You can display records in a timeline view, when accessing the record type page in Adobe Workfront Planning. 
 hidefromtoc: yes
 hide: yes
 author: Alina

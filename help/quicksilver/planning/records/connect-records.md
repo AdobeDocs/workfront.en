@@ -9,7 +9,7 @@ exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 <!--when you make this live, update the metadata above to this: 
 ---
 title: Connect records and objects
-description: In addition to connecting Maestro records to one another, you can also connect Maestro records to objects from other applications.  
+description: In addition to connecting records to one another, you can also connect records to objects from other applications.  
 topic: Architecture
 role: User
 hidefromtoc: yes
@@ -114,7 +114,7 @@ You must have the following access to perform the steps in this article:
  </tbody>
 </table>
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -208,7 +208,7 @@ You must have the following access to perform the steps in this article:
 
 ### Connect Adobe Workfront Planning records to Workfront objects
 
-<!--when we will have more applications to link to from Maestro, change the title to something like: Connect Maestro records to objects from other applications-->
+<!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
 
 After you created a connection between a record type and a Workfront object type, you can connect individual records to objects in Workfront. The Workfront fields you connected are automatically populated on the records you are linking the objects from.
 
@@ -292,7 +292,7 @@ After you created a connection between a record type and a Workfront object type
 
 ### Connect Workfront Planning records to Adobe Experience Manager objects
 
-<!--when we will have more applications to link to from Maestro, change the title to something like: Connect Maestro records to objects from other applications-->
+<!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
 
 >[!IMPORTANT]
 >
@@ -385,4 +385,4 @@ You must have the following to connect Workfront Planning records from Workfront
 * At least one connection between a record and a Workfront object. 
 * Your Workfront or group administrator must add the Planning section to the Workfront object types that can connect to Planning record types. 
 
-For more information, see [Manage records in the Planning section of Adobe Workfront objects](/help/quicksilver/maestro/records/manage-records-in-planning-section.md).
+For more information, see [Manage records in the Planning section of Adobe Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

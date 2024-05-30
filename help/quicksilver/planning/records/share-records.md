@@ -86,7 +86,7 @@ You must have the following access to perform the steps in this article:
 
 
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Workfront Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -99,7 +99,7 @@ You must have the following access to perform the steps in this article:
 
 ## Share record links from the record type table view
 
-{#step1-to-maestro}
+{{step1-to-planning}}
 
    The workspace that you accessed last opens. 
 1. Click a record type card. 

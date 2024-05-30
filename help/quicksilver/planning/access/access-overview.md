@@ -86,7 +86,7 @@ You must have the following settings to use Adobe Workfront Planning:
 
 ## Share the Planning area in the Main Menu with others
 
-<!--First, contact your account manager to obtain access to the current Workfront Planning closed beta program.--> 
+<!--First, contact your account manager to obtain access to the current Workfront Planning program.--> 
 
 After your organization has been enrolled in the Workfront Planning program, you can add the Planning area to the Main Menu of all users by using a layout template. 
 
