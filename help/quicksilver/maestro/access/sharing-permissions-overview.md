@@ -175,4 +175,5 @@ The following are the levels of permissions for views and view elements:
 | Delete | ✓      |       |                            
 | Share  | ✓       |       |                           
 | View   | ✓      | ✓     |                         
-| Apply  | ✓      | ✓     |     -->  
+| Apply  | ✓      | ✓     |    
+-->
