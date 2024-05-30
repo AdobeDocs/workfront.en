@@ -114,7 +114,7 @@ You must have the following access to perform the steps in this article:
 
 ### Manage comments on records
 
-{{step1-to-maestro}}
+{{step1-to-planning}}
 
    The last accessed workspace opens by default. 
 1. Choose a table view from the **View** drop-down menu.

@@ -94,7 +94,7 @@ Consider the following:
 
 You can personalize a record by adding a cover image at the top of the record preview or page. 
 
-{{step1-to-maestro}}
+{{step1-to-planning}}
 
    The workspace that you access last opens. 
 

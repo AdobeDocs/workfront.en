@@ -27,7 +27,7 @@ You can delete record types when they are no longer relevant.
 
 However, deleting record types also deletes all information associated with the record types. For more information, see the [Considerations when deleting record types](#considerations-when-deleting-record-types) section in this article. 
 
-For information about record types, see [Record types overview](/help/quicksilver/maestro/architecture/overview-of-record-types.md).
+For information about record types, see [Record types overview](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
 <!-- last sentence might need to be deleted when we can recover or replace deleted record types-->
 
@@ -114,7 +114,7 @@ You must have the following access to perform the steps in this article:
 
 ## Delete record types
 
-{{step1-to-maestro}}
+{{step1-to-planning}}
 
    The last-accessed workspace should open by default. 
 

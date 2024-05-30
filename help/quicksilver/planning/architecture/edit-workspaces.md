@@ -82,7 +82,7 @@ For more information about access requirements, see [Access requirements in Work
 
 ## Edit a workspace
 
-{{step1-to-maestro}}
+{{step1-to-planning}}
 
  This opens the Workspaces area of Workfront Planning. 
     

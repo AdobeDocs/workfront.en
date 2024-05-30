@@ -15,7 +15,7 @@ exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
 
 Record types are the object types of Adobe Workfront Planning. In Workfront Planning, you can create custom record types which illustrate the work-related items needed in your organization's lifecycle. 
 
-For more information about record types, see [Record types overview](/help/quicksilver/maestro/architecture/overview-of-record-types.md).
+For more information about record types, see [Record types overview](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
 ## Access requirements
 
@@ -100,7 +100,7 @@ You must have the following access to perform the steps in this article:
             >This functionality has been temporarily disabled since March 21, 2024. It will be enabled at a later date.
 
         <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront Planning which is connected to object types from the original application. 
-        For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md).
+        For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
         For information about connecting objects with records, see [Connect records](/help/quicksilver/planning/records/connect-records.md). -->
     * Manually:
 
@@ -127,7 +127,7 @@ For information about what record types are included with each template, see [Li
 
 ## Create a record type from scratch
 
-{{step1-to-maestro}}
+{{step1-to-planning}}
 
 The last-accessed workspace should open by default. 
 
@@ -216,7 +216,7 @@ Consider the following when importing record types using an Excel or CSV file:
 
 To import record types using an Excel file: 
 
-{{step1-to-maestro}}
+{{step1-to-planning}}
 
 The last-accessed workspace should open by default. 
 

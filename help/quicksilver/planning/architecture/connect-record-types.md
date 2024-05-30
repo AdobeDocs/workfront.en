@@ -167,7 +167,7 @@ You must have the following access to perform the steps in this article:
 
 <!--when changes here, also update the article for "Connect records"-->
 
-{{step1-to-maestro}}
+{{step1-to-planning}}
 
    The last-accessed workspace should open by default. 
 

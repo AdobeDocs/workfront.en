@@ -105,7 +105,7 @@ You must have the following access to perform the steps in this article:
 
 <!--When they release the sharing of fields between other records, revise this section.  -->
 
-{{step1-to-maestro}}
+{{step1-to-planning}}
     
    This opens the last-accessed workspace in Workfront Planning. 
 1. Click the card of a record type whose fields you want to delete. 

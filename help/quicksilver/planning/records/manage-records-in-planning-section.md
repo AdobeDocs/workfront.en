@@ -101,7 +101,7 @@ You must have the following access to perform the steps in this article:
 
 ## Manage records in the Planning section
 
-{{step1-to-maestro}}
+{{step1-to-planning}}
 
    The last accessed workspace opens by default. 
 

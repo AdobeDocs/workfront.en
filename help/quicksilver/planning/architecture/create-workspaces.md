@@ -103,7 +103,7 @@ For more information about access requirements, see [Access requirements in Work
 
 You can create a workspace and add record types to it to organize your objects in Workfront Planning. For more informaton about editing a workspace, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md).
 
-{{step1-to-maestro}}
+{{step1-to-planning}}
 
    This opens the Workspaces area of Workfront Planning.
 

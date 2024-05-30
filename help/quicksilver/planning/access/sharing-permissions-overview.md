@@ -71,7 +71,7 @@ You must give users permission to workspaces to allow them to have access to the
 * Fields
 * Views*
     
-    *You can allow all users with View or higher permissions to a workspace to also access the views in the workspace. This is an additional permission that you must enable when sharing a view. For information, see [Share views](/help/quicksilver/maestro/access/share-views.md).
+    *You can allow all users with View or higher permissions to a workspace to also access the views in the workspace. This is an additional permission that you must enable when sharing a view. For information, see [Share views](/help/quicksilver/planning/access/share-views.md).
 
 The following are the levels of permissions for workspaces: 
 

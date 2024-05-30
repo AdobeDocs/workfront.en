@@ -86,7 +86,7 @@ The following users can share a workspace with other users:
 
 To share a workspace with others: 
 
-{{step1-to-maestro}}
+{{step1-to-planning}}
 
 1. Open the workspace you want to share, then click **Share** in the upper-right corner of the screen. 
 
@@ -110,7 +110,7 @@ To share a workspace with others:
 ## Remove permissions to a workspace
 
 
-{{step1-to-maestro}}
+{{step1-to-planning}}
 
 1. Open the workspace you want to remove permissions to, then click **Share** in the upper-right corner of the screen. 
 1. Click the drop-down menu to the right of a user or group name, then click **Remove**. 

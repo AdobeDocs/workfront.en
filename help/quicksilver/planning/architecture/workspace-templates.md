@@ -31,7 +31,7 @@ This article describes the workspace templates available in Adobe Workfront Plan
 
 ## Considerations about Adobe Workfront Planning templates
 
-* Each template comes with a set of record types. For information, see [Record types overview](/help/quicksilver/maestro/architecture/overview-of-record-types.md).
+* Each template comes with a set of record types. For information, see [Record types overview](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 * The record types in each template are organized in the following sections:
 
     * Operational Record Types
@@ -78,7 +78,7 @@ You must have the following:
   </tr>
 <tr>
    <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Maestro area in your layout template. </p>  
+   <td> <p>Your system administrator must add the Planning area in your layout template. </p>  
 </td>
   </tr>
  </tbody>

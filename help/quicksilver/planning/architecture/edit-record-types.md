@@ -89,7 +89,7 @@ You must have the following access to perform the steps in this article:
 
 ## Edit record types
 
-{{step1-to-maestro}}
+{{step1-to-planning}}
 
    The last-accessed workspace should open by default. 
 

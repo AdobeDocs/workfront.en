@@ -141,7 +141,7 @@ The following table shows the similarities and differences between the table, ti
 
 ## Create or edit views {#create-or-edit-views}
 
-{{step1-to-maestro}} 
+{{step1-to-planning}} 
     
     
 The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).
@@ -207,7 +207,7 @@ The workspace you last accessed opens by default. For information about creating
 
 ## Delete views
 
-{{step1-to-maestro}}
+{{step1-to-planning}}
 
 The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).
 
@@ -236,7 +236,7 @@ Duplicating a view creates identical copies of an existing view.
 
 The sharing permissions of the original view do not transfer to the duplicated view. 
 
-{{step1-to-maestro}} 
+{{step1-to-planning}} 
 
 The workspace you last accessed opens by default. 
 

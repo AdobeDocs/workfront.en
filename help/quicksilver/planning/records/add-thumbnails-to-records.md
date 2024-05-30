@@ -92,7 +92,7 @@ Consider the following:
 
 ## Add a thumbnail to a record
 
-{{step1-to-maestro}}
+{{step1-to-planning}}
 
 1. Select the workspace for whose records you want to add thumbnails, then click the record type card. 
 
@@ -139,7 +139,7 @@ You can add a thumbnail to a record in the following ways:
 
 ### Upload a thumbnail to a record
 
-{{step1-to-maestro}}
+{{step1-to-planning}}
 
 1. Select the workspace for whose records you want to add thumbnails, then click the record type card. 
 
@@ -174,7 +174,7 @@ You can add a thumbnail to a record in the following ways:
 
 ### Generate a thumbnail for a record
 
-{{step1-to-maestro}}
+{{step1-to-planning}}
 
 1. Select the workspace for whose records you want to add thumbnails, then click the record type card. 
 

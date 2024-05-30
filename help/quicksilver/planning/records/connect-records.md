@@ -150,7 +150,7 @@ You must have the following access to perform the steps in this article:
 
 ### Connect Adobe Workfront Planning records
 
-{{step1-to-maestro}}
+{{step1-to-planning}}
 
   The last-accessed workspace should open by default. 
 
@@ -217,7 +217,7 @@ After you created a connection between a record type and a Workfront object type
 >You cannot connect Workfront object types with Workfront Planning record types from Workfront.
 
 
-{{step1-to-maestro}}
+{{step1-to-planning}}
 
   The last-accessed workspace should open by default. 
 
@@ -302,7 +302,7 @@ After you created a connection between a record type and a Workfront object type
 
 After you create a connection between a record type and Adobe Experience Manager Assets, you can connect individual records to Experience Manager assets. The asset fields you connected from Experience Manager Assets when you created the connection automatically populate on the record type you linked from.
 
-{{step1-to-maestro}}
+{{step1-to-planning}}
 
   The last-accessed workspace should open by default. 
 

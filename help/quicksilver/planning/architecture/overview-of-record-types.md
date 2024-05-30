@@ -37,7 +37,7 @@ For information about creating record types, see [Create record types](/help/qui
 
 ### Operational Record Type{#operational-record-type}
 
-An operational record type is a Maestro record type that represents work-related objects.  
+An operational record type is a Wrorkfront Planning record type that represents work-related objects.  
 
 (***********insert screen shot**************)
 For more information about operational record types including how to create them, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md). 
@@ -48,7 +48,7 @@ A taxonomy is a record type that captures attributes about an operational record
 
 (**********add screen shot**********)
 
-Although creating taxonomies is identical to creating operational record types, Maestro distinguishes conceptually between an operational record type and a taxonomy record type. The purpose of taxonomies is to enhance operational record types. Taxonomies should not directly represent work objects.  (***********this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.***********) 
+Although creating taxonomies is identical to creating operational record types, Workfront Planning distinguishes conceptually between an operational record type and a taxonomy record type. The purpose of taxonomies is to enhance operational record types. Taxonomies should not directly represent work objects.  (***********this is no longer true, but might be later?!: A taxonomy is a record without dates, like a static list of attributes.***********) 
 
 (********mimic what you did above for operational record types to say that we can also import taxonomies from other applications too - this will be possible later; for example Team would be a taxonomy record type, etc*************)
 
@@ -71,7 +71,7 @@ The following table illustrates some of the similarities and differences between
 | You can create from scratch                                 |            ✓            |           ✓          |
 | You can create by importing an Excel or CSV file            |            ✓            |                      |
 | You can connect the record type to an object from another application|            ✓            |                      |
-| You can connect to other Maestro record types               |            ✓            |                    |
+| You can connect to other record types               |            ✓            |                    |
 | You can view their associated records in a table view       |            ✓            |           ✓          |
 | You can view their associated records in a timeline view    |            ✓            |           ✓          |
 

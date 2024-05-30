@@ -115,7 +115,7 @@ Consider the following when adding sections to a record page:
 
 To add a section to a record preview or page: 
 
-{{step1-to-maestro}}
+{{step1-to-planning}}
 
 The workspace that you access last opens. 
 
@@ -179,7 +179,7 @@ The workspace that you access last opens.
 
 ## Rearrange fields in the record preview or details page
 
-{{step1-to-maestro}}
+{{step1-to-planning}}
 
 The workspace that you access last opens. 
 

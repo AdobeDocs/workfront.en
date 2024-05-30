@@ -92,7 +92,7 @@ You can share views you created or views you have Manage permissions to <!--with
 >
 >System administrators can have only Manage permissions to a view. 
 
-{{step1-to-maestro}}
+{{step1-to-planning}}
 
 1. Open the workspace whose view you want to share, then click a record type card. 
 
@@ -138,7 +138,7 @@ Consider the following when publicly sharing a Workfront Planning view:
 
 To share a view publicly in Workfront Planning: 
 
-{{step1-to-maestro}}
+{{step1-to-planning}}
 
 1. Open the workspace whose view you want to share, then click a record type card. 
 
@@ -167,7 +167,7 @@ To share a view publicly in Workfront Planning:
 
 ## Remove permissions to a view
 
-{{step1-to-maestro}}
+{{step1-to-planning}}
 
 1. Open the workspace whose view you want to stop sharing, then click a record type card. This opens the record type page.
 1. Hover over the tab name of the view you want to remove sharing from and click the **More** menu ![](assets/more-menu.png), then click **Share**.
@@ -177,7 +177,7 @@ To share a view publicly in Workfront Planning:
 
 <!--Replace the above instructions with the following when public sharing is released: 
 
-{{step1-to-maestro}}
+{{step1-to-planning}}
 
 1. Open the workspace whose view you want to stop sharing, then click a record type card. This opens the record type page.
 1. Hover over the tab name of the view you want to remove sharing from and click the **More** menu ![](assets/more-menu.png), then click **Share**.

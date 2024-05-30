@@ -27,7 +27,7 @@ The right panel of a record displays the following sections:
 
 ## Locate the History section of a record
 
-{{step1-to-maestro}}
+{{step1-to-planning}}
 
    The last accessed workspace opens by default. 
 

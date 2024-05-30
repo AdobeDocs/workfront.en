@@ -238,7 +238,7 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 
 <!-- Maestro -->
 
-## Step 1 - Getting to Maestro - {#step1-to-maestro}
+## Step 1 - Getting to Maestro - {#step1-to-planning}
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Planning]**.
 

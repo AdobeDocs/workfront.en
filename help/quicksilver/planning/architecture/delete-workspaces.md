@@ -90,7 +90,7 @@ You must have the following access to perform the steps in this article:
 
 ## Delete a workspace
 
-{{step1-to-maestro}}
+{{step1-to-planning}}
 
 This opens the last workspace you accessed. 
 

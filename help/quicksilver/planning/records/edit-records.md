@@ -184,7 +184,7 @@ You can edit a record from the following areas:
 
 ### Edit a record from the record's preview in a view
 
-{{step1-to-maestro}}
+{{step1-to-planning}}
 
    The workspace that you access last opens. 
 
@@ -223,7 +223,7 @@ You can edit a record from the following areas:
 
 ### Edit a record from the record's page
 
-{{step1-to-maestro}}
+{{step1-to-planning}}
 
    The workspace that you access last opens. 
 

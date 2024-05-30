@@ -94,7 +94,7 @@ You can delete a record from the following areas:
 
 ### Delete a record from the record's page
 
-{{step1-to-maestro}}
+{{step1-to-planning}}
 
    The workspace that you access last opens. 
 
@@ -118,7 +118,7 @@ You can delete a record from the following areas:
 
 ### Delete a record from the record type table view
 
-{{step1-to-maestro}}
+{{step1-to-planning}}
 
   The workspace that you accessed last opens. 
 
