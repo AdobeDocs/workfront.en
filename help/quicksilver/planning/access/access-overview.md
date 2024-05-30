@@ -34,7 +34,7 @@ You must have the following settings to use Adobe Workfront Planning:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfront Planning beta program. </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
@@ -88,7 +88,7 @@ You must have the following settings to use Adobe Workfront Planning:
 
 <!--First, contact your account manager to obtain access to the current Workfront Planning closed beta program.--> 
 
-After your organization has been enrolled in the Workfront Planning beta program, you can add the Planning area to the Main Menu of all users by using a layout template. 
+After your organization has been enrolled in the Workfront Planning program, you can add the Planning area to the Main Menu of all users by using a layout template. 
 
 1. Log in to **Workfront** as a Workfront administrator.  
 

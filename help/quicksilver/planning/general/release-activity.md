@@ -85,7 +85,15 @@ Production: May 30, 2024
 
 Preview: To be determined 
 
- We have updated the look of the Planning icon in the Main Menu area. For information, see [Adobe Workfront Planning overview](/help/quicksilver/maestro/maestro-overview.md). 
+ We have updated the look of the icon for the Planning area in the Main Menu. For information, see [Adobe Workfront Planning overview](/help/quicksilver/maestro/maestro-overview.md). 
+
+### Renaming the Workfront Planning program
+
+Starting with May 30, 2024, the Adobe Workfront Planning program is transitioning from the beta phase to an early access stage. You are going to see this change in the terminology of our documentation. 
+
+The early access stage is also limited to a few Workfront customers. 
+
+Your account representative will inform you if you qualify to participate in the early access stage.
 
 ## Week of May 20, 2024
 
