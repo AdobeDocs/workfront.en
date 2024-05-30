@@ -992,7 +992,7 @@ There is no endpoint for this step.
 1. Update the action field on each object to the desired install action. 
 1. Validate the `targetId` on each object. If the set action is `USEEXISTING` or `OVERWRITING`, the `targetId` should be set to the UUID of the target object in the destination environment. For any other action, the targetId should be an empty string. 
 
-    >[!NOTE]: 
+    >[!NOTE] 
     >
     >The `targetId` is already populated if a collision was detected.
 
