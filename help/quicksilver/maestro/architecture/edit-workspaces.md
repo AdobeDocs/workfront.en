@@ -10,7 +10,7 @@ exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
 
 # Edit workspaces
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 In Adobe Workfront Planning, workspaces are centralized locations for teams to plan work. 
 

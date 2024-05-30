@@ -10,7 +10,7 @@ exl-id: 47072433-bb8e-4210-947a-8bfa41ec47a9
 ---
 # Commit Date overview
 
-<!--{{highlighted-preview}}-->
+{{highlighted-preview}}
 
 The Commit Date is the date by which a user assigned to task or an issue commits to complete the task or the issue. 
 
@@ -50,8 +50,7 @@ You can find the Commit Date ot tasks and issues in the following areas of Workf
 
 * The Details page
 * The Summary panel, after a Workfront or group administrator adds it to your layout template. For information, see [Customize Home and Summary using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). 
-<!--
-* <span class="preview">The header of a task or issue, after a Workfront or group administrator adds it to your layout template. For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span> -->
+* <span class="preview">The header of a task or issue, after a Workfront or group administrator adds it to your layout template. For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
 
 ## Notifications and updates triggered by changing the Commit Date {#notifications-and-updates-triggered-by-changing-the-commit-date}
 
@@ -65,7 +64,7 @@ Manually setting the Commit Date for a task or issue triggers the following chan
 
 * The Commit Date change populates in the System Activity and the All tabs of the Update section of the task or the issue.
         
-  ![](assets/update-stream-confirmation-that-commit-date-changed-nwe-350x73.png)
+  ![](assets/project-owner-notification-update-stream-that-commit-date-affects-project-timeline.png)
         
   The change of the Commit Date displays in the Updates area of the task or issue when the Workfront administrator enables this update in the Updates Feeds area in Setup. For information, see [System-tracked updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
@@ -77,12 +76,13 @@ Manually setting the Commit Date for a task or issue triggers the following chan
 
   >[!TIP]
   >
-  >You can ask your system or group administrator to add the Commit Date field to your Summary panel, to make it easier to update it in various areas of Workfront where the Summary panel displays. 
+  >You can ask your system or group administrator to add the Commit Date field to your Summary panel, or header to make it easier to update. 
   >
   >For more information, see the following articles:
   >
   >* [Summary overview](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
-  >* [Customize Home and Summary using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+  >* [Customize Home and Summary using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+  >* [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 <!--this is no longer possible: 
 >[!NOTE]

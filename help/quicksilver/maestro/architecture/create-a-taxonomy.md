@@ -10,7 +10,7 @@ exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
 
 # Create taxonomy record types
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 When you use a template to create a workspace, record types are created in the following sections: 
 

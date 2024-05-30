@@ -11,7 +11,7 @@ exl-id: 99fac041-a235-4991-b826-d19944164bc9
 
 # Access overview
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 There are license and sharing permission restrictions to use Adobe Workfront Planning. 
 
@@ -92,7 +92,7 @@ After your organization has been enrolled in the Workfront Planning beta program
 
 1. Log in to **Workfront** as a Workfront administrator.  
 
-1. Add the **Planning** icon ![](assets/maestro-icon.png) to the **Main Menu** using a **Layout Template**. 
+1. Add the **Planning** icon ![](assets/planning-icon.png) to the **Main Menu** using a **Layout Template**. 
     
     For information, see [Customize the Main Menu using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 

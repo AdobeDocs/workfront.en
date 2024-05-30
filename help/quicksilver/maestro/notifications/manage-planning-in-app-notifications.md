@@ -8,7 +8,7 @@ exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
 ---
 # Manage Adobe Workfront Planning in-app notifications
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 When someone tags you in a record comment, you may receive an in-app notification for that tag. 
 

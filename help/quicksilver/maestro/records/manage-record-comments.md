@@ -8,7 +8,7 @@ exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
 ---
 # Manage record comments
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 

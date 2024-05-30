@@ -10,7 +10,7 @@ exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
 
 # Delete workspaces
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 In Adobe Workfront Planning, workspaces are centralized locations for teams to plan work. For more information, see [Create workspaces](../architecture/delete-workspaces.md). 
 

@@ -10,7 +10,7 @@ exl-id: 77342724-0182-4134-903b-4428d54cdceb
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 After selecting a record type in Adobe Workfront Planning area, you can display all the records of that type in the following views: 
 

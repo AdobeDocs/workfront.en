@@ -23,7 +23,7 @@ recommendations: noDisplay, noCatalog
 
 <!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 You can create custom fields in Adobe Workfront Planning by referring to existing fields and connecting them in a Formula-type field.
 

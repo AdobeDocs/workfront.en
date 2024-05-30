@@ -11,7 +11,7 @@ exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
 
 # Share records
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 To collaborate with other users, you can share records with others. 
 
