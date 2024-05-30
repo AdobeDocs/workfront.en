@@ -95,6 +95,18 @@ The early access stage is also limited to a few Workfront customers.
 
 Your account representative will inform you if you qualify to participate in the early access stage.
 
+### New process for deleting a workspace
+
+Production: May 30, 2024 
+
+Preview: To be determined 
+
+Because the impact for deleting a workspace can be significant, we are adding an extra step in confirming the deletion. Users are now required to type "delete" before they can complete the permanent deletion of a workspace. 
+
+Deleted workspaces and their information cannot be recovered. 
+
+For more information, see [Delete workspaces](/help/quicksilver/maestro/architecture/delete-workspaces.md). 
+
 ## Week of May 20, 2024
 
 ### Connect Workfront Planning records from Workfront objects using the Planning section
