@@ -96,6 +96,8 @@ This opens the last workspace you accessed.
 
 1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to delete. 
 1. Click the **More** menu ![](assets/more-menu.png) next to the workspace name, then click **Delete**.
+<!--1. Type "**delete**" in the space provided, then click **Permanently delete**. **********AND DELETE THE STEP BELPW EXCEPT FOR THE LAST SENTENCE***********-->
+
 1. Click **Delete** to confirm.
 
     The workspace is deleted and cannot be recovered. Any record types, records, fields, and views associated with them are also deleted. <!--ensure this is right after closed beta-->

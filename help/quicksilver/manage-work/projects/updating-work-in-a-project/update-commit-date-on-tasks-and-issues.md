@@ -10,6 +10,8 @@ exl-id: 003c52c7-baf3-4316-bb4b-83b600172d48
 
 # Update Commit Dates on tasks and issues
 
+{{highlighted-preview}}
+
 You can manually update the Commit date of a task or an issue that you are assigned to. For more information about Commit Dates in Adobe Workfront, see [Commit Date overview](../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md).
 
 ## Access requirements
@@ -23,7 +25,7 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
@@ -57,9 +59,18 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-Before you begin, you must be assigned to the task or issue you need to update the Commit Date for.
+Before you can edit the Commit Date of a task or issue, you must be assigned to the task or issue whose Commit Date you need to update. 
 
 ## Update Commit Dates on tasks and issues
+
+
+You can update the Commit Date of a task or issue in the following areas of Workfront:
+
+* The Details section of a task or issue
+<!--
+* <span class="preview">The task or issue header
+   Your Workfront or group administrator must add the Commit Date to the task or issue header of your layout template to view it from the task or issue page. </span>
+   For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). -->
 
 Updating the Commit Date is identical for tasks and issues.
 
@@ -76,6 +87,10 @@ Updating the Commit Date is identical for tasks and issues.
 1. Go to a task or issue that you are assigned to as the **Owner**.
 
    For more information about finding out who the Task Owner for an issue or task is, see the section [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md#assignments) in the article [Edit tasks](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+
+<!--1. <span class="preview">(Conditional and optional) If your Workfront or group administrator added the Commit Date to your task or issue header, click the **Commit Date** field in the header, then select a date from the calendar. If the Commit Date is not in the header, proceed with the following steps. </span>
+
+   <span class="preview">![](assets/commit-date-task-header.png)</span>-->
 
 1. Click **Task Details** or **Issue Details** in the left panel. 
 1. Click **Overview** to expand it.
