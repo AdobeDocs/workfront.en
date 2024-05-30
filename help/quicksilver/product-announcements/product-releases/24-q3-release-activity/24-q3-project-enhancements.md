@@ -13,25 +13,20 @@ This page describes all project enhancements made with the Third Quarter 2024 re
 For a list of all changes available at this point in the Third Quarter 2024 release cycle, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 
-## The Condition field has been added to the Task and Issue Details section 
+## Edit the task and issue Commit Date and Condition from the header or Details section 
 
 >[!NOTE]
 >
 >Preview release: May 30, 2024; Production for fast release: With the 24.6 release (June 13, 2024); Production release for all customers: With the 24.7 release (July 2024).
 
-To make it easier to access, we have added the Condition field to the Task and Issue Details sections. Prior to this enhancement, the Condition field displayed in lists, reports, and in the Summary panel of tasks and issues.  
+To make it easier for you to update tasks and issues, we have now added the Commit Date and Condition fields as options to add to task and issue headers and Details section in a layout template. Users are now able to update these fields from the header or Details section of a page, when they are assigned to the modified layout template. Prior to this enhancement, you could not add the Condition and the Commit Date of tasks and issues when customizing the headers.
 
-For more information, see [Update Condition for tasks and issues](https://experienceleague.adobe.com/en/docs/workfront/using/manage-work/projects/update-work-on-a-project/update-condition-for-tasks-and-issues#manually-update-the-condition).
+For information about updating Commit Date and sCondition, see the following articles:
 
-## The Commit Date and Condition fields are now available to add in a task and issue layout template 
+* [Update Condition for tasks and issues](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
+* [Update Commit Date on tasks and issues](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
->[!NOTE]
->
->Preview release: May 30, 2024; Production for fast release: With the 24.6 release (June 13, 2024); Production release for all customers: With the 24.7 release (July 2024).
-
-To make it easier for you to update tasks and issues, we have now added the Commit Date and Condition fields as options to add to task and issue headers in a layout template. Prior to this enhancement, you could not add the Condition and the Commit Date of tasks and issues to the headers.  
-
-For information, see [Customize object headers using a layout template](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/customize/layout-templates/customize-object-headers).
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3429471/){target=_blank}
 
 ## More relevant smart assignments
 
