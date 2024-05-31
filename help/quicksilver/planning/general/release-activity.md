@@ -105,7 +105,7 @@ Because the impact for deleting a workspace can be significant, we are adding an
 
 Deleted workspaces and their information cannot be recovered. 
 
-For more information, see [Delete workspaces](/help/quicksilver/maestro/architecture/delete-workspaces.md). 
+For more information, see [Delete workspaces](/help/quicksilver/planning/architecture/delete-workspaces.md). 
 
 ## Week of May 20, 2024
 
