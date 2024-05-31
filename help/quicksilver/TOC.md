@@ -2039,11 +2039,13 @@ feature-set: Workfront
     * [Customize Adobe Workfront Goals terminology](workfront-goals/workfront-goals-settings/customize-wf-goals-terminology.md)
     * [Share a goal in Workfront Goals](workfront-goals/workfront-goals-settings/share-a-goal.md)
     * [Enable Adobe Workfront Goals notifications](workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
-* Adobe Maestro {#adobe-maestro}
+* Adobe Workfront Planning {#adobe-workfront-planning}
   * [Adobe Workfront Planning: article index](planning/planning-information.md)
-  * [Adobe Workfront Planning overview](planning/planning-overview.md)
-  * [Adobe Workfront Planning release activity](maestro/release-activity.md)
-  * Adobe Maestro architecture {#adobe-maestro-architecture}
+  * Adobe Workfront Planning general information {#adobe-workfront-planning-general-information}
+    * [Adobe Workfront Planning general information: article index](planning/general/planning-general-article-index.md)
+    * [Adobe Workfront Planning overview](planning/general/planning-overview.md)
+    * [Adobe Workfront Planning release activity](planning/general/release-activity.md)
+  * Adobe Workfront Planning architecture {#adobe-workfront-planning-architecture}
     * [Architecture: article index](maestro/architecture/architecture-information.md)
     * [Create workspaces](maestro/architecture/create-workspaces.md)
     * [Record types overview](maestro/architecture/overview-of-record-types.md)
