@@ -115,13 +115,13 @@ You must have the following access to perform the steps in this article:
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
+>If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
 ## Edit field settings
 
 {{step1-to-planning}}
 
-    The last-accessed workspace should open by default. 
+The last-accessed workspace should open by default. 
 
 1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to delete record types for.  
 
@@ -138,9 +138,7 @@ You must have the following access to perform the steps in this article:
 
     ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
     
-1. Update information about the field and click **Save**.
-
-    <!--insert screen shot when finalized-->
+1. Update information about the field and click **Save**. <!--insert screen shot when finalized-->
 
     >[!TIP]
     >
@@ -148,16 +146,13 @@ You must have the following access to perform the steps in this article:
 
     The field information updates for everyone with access to view the workspace. 
 
-    <!--After the release of the RTBE for field configurations, replace the tip with this:
-
-    >[!TIP]
-    >
-    >* You cannot update the field type after the field is saved.
-    >
-    >* When you modify field configurations (field options or formula expressions), records that already contain information in the modified fields will update their values in real-time. There is no warning and no audit log for the value changes triggered by field configuration changes. All users who view the fields will immediately see the new values with the modifications. 
-    -->
-
-
 1. (Conditional) For linked record fields, click **Edit lookup fields** and add or remove any of the fields from the linked record type.
-  
-    For more information, see [Connect record types](../architecture/connect-record-types.md). 
+
+    For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
+
+<!--After the release of the RTBE for field configurations, replace the tip with this:
+>[!TIP]
+>
+>* You cannot update the field type after the field is saved.
+>
+>* When you modify field configurations (field options or formula expressions), records that already contain information in the modified fields will update their values in real-time. There is no warning and no audit log for the value changes triggered by field configuration changes. All users who view the fields will immediately see the new values with the modifications. -->

@@ -41,7 +41,7 @@ You can create fields in the following ways in Workfront Planning:
 * By creating a record type
 * By creating a workspace from a template
 
-For more information about Maestro fields, see [Field overview](/help/quicksilver/maestro/fields/fields-overview.md).
+For more information about Workfront Planning fields, see [Field overview](/help/quicksilver/planning/fields/fields-overview.md).
 
 ## Access requirements
 
@@ -103,7 +103,7 @@ You must have the following access to perform the steps in this article:
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
+>If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
 ## Create fields from scratch {#create-fields-from-scratch} 
 
@@ -504,9 +504,9 @@ You can use the Last modified date field type to add the date when a record was 
 
 ## Create fields by connecting record types 
 
-You can create linked record fields when you add a new connection between two Maestro record types, or a record type and an object types from other applications. 
+You can create linked record fields when you add a new connection between two record types, or a record type and an object types from other applications. 
         
-For information about connecting Workfront Planning record types, see [Connect record types](../architecture/connect-record-types.md)
+For information about connecting Workfront Planning record types, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md)
 
 ## Create fields by importing record types using an Excel or CSV file
 

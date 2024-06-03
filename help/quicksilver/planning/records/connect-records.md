@@ -30,7 +30,7 @@ You must first connect two record types to each other, or a record type to an ob
 
 Connecting records is similar to connecting records to objects from another application. 
 
-For information about connecting record types to one another or to object types from other applications, see [Connect record types](../architecture/connect-record-types.md). 
+For information about connecting record types to one another or to object types from other applications, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
 
 For an example of connecting record types, see [Example of connecting record types and records](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md).
 
@@ -117,7 +117,7 @@ You must have the following access to perform the steps in this article:
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
+>If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
 ## Considerations about connecting records
 
@@ -141,7 +141,7 @@ You must have the following access to perform the steps in this article:
       * [Create record types](/help/quicksilver/planning/architecture/create-record-types.md)
       * [Create records](/help/quicksilver/planning/records/create-records.md)
 
-  * Connections between record types, or between record types and objects from other applications. For information, see [Connect record types](../architecture/connect-record-types.md)
+  * Connections between record types, or between record types and objects from other applications. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md)
 * You can connect objects from Workfront to Workfront Planning records in the following areas:
   * From a Planning record in Workfront Planning. 
   * From the Planning section of a Workfront object. 
@@ -261,7 +261,7 @@ After you created a connection between a record type and a Workfront object type
     >
     >You can open a record's page, find the linked record field and click the **+** icon in the field to add objects from the connected object type.
 
-    For more information about connecting record types with objects from another application, see [Connect record types](../architecture/connect-record-types.md).
+    For more information about connecting record types with objects from another application, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
      
 1. (Optional) Click the name of a Workfront object connected to a Workfront Planning record either in the linked field of a table view or from the linked field in the record page.
 

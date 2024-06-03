@@ -21,7 +21,7 @@ exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
 >
 >Your account representative will inform you if you are part of this stage.
 >
->For more information, see [Adobe Workfront Planning overview](/help/quicksilver/maestro/maestro-overview.md).
+>For more information, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
 >
 >In some cases, the documentation referenced in the sections below might be available after the features documented are released to Production. 
 

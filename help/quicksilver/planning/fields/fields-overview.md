@@ -52,7 +52,7 @@ You can add new fields in Adobe Workfront Planning that reflect your organizatio
         
            <!--* Importing record types with fields using a CSV or an Excel file. - this is not available yet-->
 
-           For more information about connecting record types, see [Connect record types](../architecture/connect-record-types.md).  
+           For more information about connecting record types, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).  
 
         * By importing record types using an Excel or CSV file. For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md). 
 
@@ -77,7 +77,7 @@ You can add new fields in Adobe Workfront Planning that reflect your organizatio
 
 * Workfront Planning fields are not accessible from Workfront. 
 
-* Workfront fields are accessible from Workfront Planning only when you connect record types with Workfront object types and add linked or lookup fields from Workfront objects. For information, see [Connect record types](../architecture/connect-record-types.md).  
+* Workfront fields are accessible from Workfront Planning only when you connect record types with Workfront object types and add linked or lookup fields from Workfront objects. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).  
 
 * You can view and update the settings for the fields that you or any other user created, if you have Manage permissions to the workspace that the field belongs to. 
 

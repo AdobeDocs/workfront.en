@@ -76,7 +76,7 @@ You must have the following access to perform the steps in this article:
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
+>If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
 <!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
 <p>Current plan: Prime and Ultimate</p>
@@ -275,5 +275,5 @@ You can import the following objects from the following applications:
     * Company
     * Group
 
-For more information, see [Connect record types](../architecture/connect-record-types.md). 
+For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
 -->

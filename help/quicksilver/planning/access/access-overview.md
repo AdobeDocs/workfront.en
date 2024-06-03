@@ -94,11 +94,11 @@ After your organization has been enrolled in the Workfront Planning program, you
 
 1. Add the **Planning** icon ![](assets/planning-icon.png) to the **Main Menu** using a **Layout Template**. 
     
-    For information, see [Customize the Main Menu using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+    For information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 1. Assign the layout template to the users that you want to have access to Workfront Planning. 
 
-    For information, see [Assign users to a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+    For information, see [Assign users to a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
     All users assigned to the template can now access Workfront Planning in their Main Menu. 
     

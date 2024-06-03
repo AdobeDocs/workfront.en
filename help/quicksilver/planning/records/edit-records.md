@@ -131,7 +131,7 @@ You can edit a record from the following areas:
     >
     >  You cannot edit information for the following fields, as they are read-only and Workfront updates them automatically: 
     >  
-    >  * Linked fields that are created by connecting record types. For more information, see [Connect record types](../architecture/connect-record-types.md).
+    >  * Linked fields that are created by connecting record types. For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
     >  * Fields of the following types: Created by, Created date, Last modified by, Last Modified date, Formula fields.
 
 1. (Optional and conditional) When you edit a Paragraph-type field, use the following **Rich Text** formatting options: 
@@ -168,7 +168,7 @@ You can edit a record from the following areas:
     >* You cannot copy and paste field values for the following field types:   
     >
     >
-    >    * Linked fields (or lookup fields) that are created by connecting record types. You can copy and paste linked record fields. For more information, see [Connect record types](../architecture/connect-record-types.md). 
+    >    * Linked fields (or lookup fields) that are created by connecting record types. You can copy and paste linked record fields. For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
     >    * Fields of the following types: Created by, Created date, Last modified by, Last Modified date 
     
 1. (Optional) Use the following keyboard shortcuts to undo or redo editing or copying and pasting record information: 
@@ -212,7 +212,7 @@ You can edit a record from the following areas:
     >
     >  You cannot edit information for the following fields, as they are read-only and Workfront updates them automatically: 
     >  
-    >  * Linked fields that are created by connecting record types. For more information, see [Connect record types](../architecture/connect-record-types.md).
+    >  * Linked fields that are created by connecting record types. For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
     >  * Fields of the following types: Created by, Created date, Last modified by, Last Modified date, Formula fields.
 
 1. (Optional) Click **Add cover** to add a cover image to the record. For more information, see [Add a cover image to a record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md). 
@@ -251,7 +251,7 @@ You can edit a record from the following areas:
     >
     >  You cannot edit information for the following fields, as they are read-only and Workfront updates them automatically: 
     >  
-    >  * Linked fields that are created by connecting record types. For more information, see [Connect record types](../architecture/connect-record-types.md).
+    >  * Linked fields that are created by connecting record types. For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
     >  * Fields of the following types: Created by, Created date, Last modified by, Last Modified date, Formula fields.
 
 1. (Optional) Click **Add cover** to add a cover image to the record. For more information, see [Add a cover image to a record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md). 
