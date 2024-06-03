@@ -10,7 +10,7 @@ exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
 
 <!---
 title: Create fields
-description: In Adobe Workfront Planning, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with Workfront Planning records.
+description: In Adobe Workfront Planning, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with records.
 hidefromtoc: yes
 hide: yes
 author: Alina
@@ -41,7 +41,7 @@ You can create fields in the following ways in Workfront Planning:
 * By creating a record type
 * By creating a workspace from a template
 
-For more information about Workfront Planning fields, see [Field overview](/help/quicksilver/planning/fields/fields-overview.md).
+For more information about Maestro fields, see [Field overview](/help/quicksilver/maestro/fields/fields-overview.md).
 
 ## Access requirements
 
@@ -504,7 +504,7 @@ You can use the Last modified date field type to add the date when a record was 
 
 ## Create fields by connecting record types 
 
-You can create linked record fields when you add a new connection between two Workfront Planning record types, or a record type and an object type from other applications. 
+You can create linked record fields when you add a new connection between two Maestro record types, or a record type and an object types from other applications. 
         
 For information about connecting Workfront Planning record types, see [Connect record types](../architecture/connect-record-types.md)
 

@@ -4,8 +4,8 @@ description: You can display the records connected to Adobe Workfront objects in
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
 ---
-
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--add also Group and Company when they are available-->
@@ -149,5 +149,3 @@ You must have the following access to perform the steps in this article:
    * The values for the Workfront lookup fields connected to the Planning record are populated in Workfront Planning. 
 
 <!--add more steps here for what happens after clicking Connect-->
-
-

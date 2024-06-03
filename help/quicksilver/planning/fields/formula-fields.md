@@ -10,6 +10,8 @@ exl-id: 5027d611-916e-492d-9a44-841bdde11c94
 
 <!--update the metadata with real information when making this available in TOC and in the left nav - below-->
 
+<!--this article is linked to the UI in the formula box, "Learn more..."-->
+
 <!---
 title: Formula fields overview
 description: In Adobe Workfront Planning, you can create formula fields that use functions and existing  fields to calculate a new custom value. 
