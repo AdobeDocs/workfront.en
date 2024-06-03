@@ -24,15 +24,24 @@ hide: yes
 
 <!--remove the video at open beta or before-->
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
+>
+>Currently, Workfront Planning is in an early access stage which is open to a limited number of customers. 
+>
+>You must be a Workfront customer to use these capabilities. 
+>
+>Your account representative will inform you if you are part of this stage.
+>
+>For more information, see [Adobe Workfront Planning overview](/help/quicksilver/maestro/maestro-overview.md).
+>
+>In some cases, the documentation referenced in the sections below might be available after the features documented are released to Production. 
 
 You can use this page as the starting point for all the documentation related to Adobe Workfront Planning.
 
 The articles in the sections listed below describe how you can configure Workfront Planning and start using it.
 
->[!IMPORTANT]
->
->The documentation referenced in the sections below will be available some time after the features are released to Production. 
 
 ## General overview of Adobe Workfront Planning  
 

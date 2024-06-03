@@ -45,9 +45,9 @@ You must have the following:
  <tr>
  <td role="rowheader">Adobe Workfront license*</td>
  <td>
- <p>Current license: Contributor or higher</p>
+ <p>New license: Contributor or higher</p>
  Or
- <p>Legacy license: Request or higher</p> </td>
+ <p>Current license: Request or higher</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Product*</td>

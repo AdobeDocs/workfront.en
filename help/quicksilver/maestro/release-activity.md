@@ -11,19 +11,30 @@ exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
-{{planning-important-intro}}
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
+>
+>Currently, Workfront Planning is in an early access stage which is open to a limited number of customers. 
+>
+>You must be a Workfront customer to use these capabilities. 
+>
+>Your account representative will inform you if you are part of this stage.
+>
+>For more information, see [Adobe Workfront Planning overview](/help/quicksilver/maestro/maestro-overview.md).
+>
+>In some cases, the documentation referenced in the sections below might be available after the features documented are released to Production. 
 
 This article lists the features that have been released after the launch of the Adobe Workfront Planning program, on May 22, 2023.
 
->[!NOTE]
->
->Between May 2023 and December 2023, all features in this article were released to both the Preview and Production environment. Workfront Planning has temporarily been removed from the Preview and Sandbox environments since January 2024. All features released after this date are currently available in Production. 
+The released features are listed in the order of their release, with the most recent first. Customers who are participating in the Workfront Planning program can access all features in their Production environments.
 
-The released features are listed in the order of their release, with the most recent first. Customers who are participating in the Workfront Planning program can access all features in their Production environments. 
+Between May 2023 and December 2023, all features in this article were released to both the Preview and Production environment. 
 
->[!IMPORTANT]
->
->The documentation referenced in the sections below will be available some time after the features are released to Production.
+Workfront Planning has temporarily been removed from the Preview and Sandbox environments since January 2024. All features released after this date are currently available in Production. 
+ 
+
+
 
 <!--
 
