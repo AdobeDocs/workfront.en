@@ -105,11 +105,14 @@ Consider the following when locating daily, weekly or monthly allocations for ta
 
 * Two users in different timezones or schedules in different timezones than those of the assigned users can cause the allocation amounts to appear differently to two users viewing the same work items.
 
-* When a user has scheduled time off, the day or the portion of the day displays in a gray background. If the Workfront administrator enabled the User Time Off setting in the Setup area to take into consideration the user's time off, the allocated hours move to the next available day in the timeline. If the setting is disabled, the allocated hours remain on the day marked for time off and the user displays as overallocated. For more information, see [Configure system-wide project preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* When a user has scheduled time off, the day or the portion of the day displays in a gray background, and an airplane icon indicates time off. If the Workfront administrator enabled the User Time Off setting in the Setup area to take into consideration the user's time off, the allocated hours move to the next available day in the timeline. If the setting is disabled, the allocated hours remain on the day marked for time off and the user displays as overallocated. For more information, see [Configure system-wide project preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   >[!TIP]
   >
   >If the time off was marked after the user was assigned to a work item, you must recalculate the project's timeline to display the moved allocation. For information, see [Recalculate project timelines](../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+
+  * When multiple users are assigned to a task and the primary assignee has scheduled time off, the timeline is shifted (if the dates are not fixed) and the planned hours of all assignees are redistributed across the new duration of the task. If the task has fixed dates, then the timeline is not changed due to time off, and the hours are reallocated among the remaining days.
+  * If allocations are made manually, the planned hours are not reallocated after the time off.
 
 * If there are multiple users assigned to the task, the amount of the Planned Hours is distributed evenly to each user first, then evenly to each day within the Duration of the task. This distribution becomes the allocation of each user to the task.
 
