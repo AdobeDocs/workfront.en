@@ -8,7 +8,7 @@ exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
 ---
 # Example of connecting record types and records
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 This article describes an example of the following:
 

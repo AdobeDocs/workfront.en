@@ -10,7 +10,7 @@ exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
 
 # Delete records
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 You can delete records that are no longer relevant in Adobe Workfront Planning. 
 
@@ -33,7 +33,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfront Planning beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>

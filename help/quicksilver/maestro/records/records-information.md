@@ -20,7 +20,7 @@ hide: yes
 
 # Records: article index
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 After you create record types in Adobe Workfront Planning, you can create individual records of those types. 
 
@@ -36,3 +36,4 @@ The following articles describe how you can create and manage records and their 
 * [Add a thumbnail to a record](/help/quicksilver/maestro/records/add-thumbnails-to-records.md)
 * [Add a cover image to a record](/help/quicksilver/maestro/records/add-a-cover-image-to-a-record.md)
 * [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md)
+* [Manage records in the Planning section of Adobe Workfront objects](/help/quicksilver/maestro/records/manage-records-in-planning-section.md)

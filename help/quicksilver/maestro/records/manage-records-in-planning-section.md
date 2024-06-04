@@ -4,17 +4,18 @@ description: You can display the records connected to Adobe Workfront objects in
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
 ---
-<!--add this to the main TOC and the mini TOC-->
-
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--add also Group and Company when they are available-->
 
+<!-- opening the Details preview and page is not possible yet - hid those steps, but add them when released-->
+
 
 # Manage records in the Planning section of Adobe Workfront objects
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 You can display the records connected to Adobe Workfront objects in the Planning section of a Workfront object, in the left panel.
 
@@ -45,7 +46,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfront Planning beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
@@ -95,7 +96,8 @@ You must have the following access to perform the steps in this article:
    * [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md)
    * [Connect records](/help/quicksilver/maestro/records/connect-records.md)
 * You can view the Planning section in a Workfront object, even when there are no records associated with the Workfront object.  
-* You can connect Planning records with Workfront objects from Workfront, in the Planning section.
+* You can connect Planning records with Workfront objects from Workfront, in the Planning section when there is at least one record connected to the Workfront object.
+* You must have Contribute or higher permissions to a workspace to connect records from the Workfront objects. 
 
 ## Manage records in the Planning section
 
@@ -127,16 +129,14 @@ You must have the following access to perform the steps in this article:
    ![](assets/planning-section-on-project.png)
 
 1. Click a record card to display more information about the record. The record preview box displays.
-1. (Optional) Start modifying fields in the record's preview box. Your changes are saved automatically. 
-1. (Optional) Click the **Open in a new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview box to open the record's details page. 
+1. (Optional) Start modifying fields in the record's preview box. Your changes are saved automatically.
+1. (Optional) Click the **Open in a new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview box to open the record's details page.
 1. Hover over a record card, then click the disconnect record icon **-**, then click **Disconnect**. 
    The following things occur: 
    * The record is no longer connected to the Workfront object. 
    * The Workfront object is also removed from the record's connected field from Workfront Planning. 
-   * The values for the Workfront fields connected to the Planning record are also deleted.
+   * The values for the Workfront lookup fields connected to the Planning record are also deleted.
 1. Click **Connect** to connect more records. 
-
-   <!--checking with the team on the below note - not sure if if should stay Manage or Contribute - Lilit said Contribute??-->
 
    >[!NOTE]
    >
@@ -146,8 +146,6 @@ You must have the following access to perform the steps in this article:
 
    * The records are immediately connected to the Workfront object and they display in the Planning section. 
    * The Workfront object is added to the Workfront Planning record's connected field. 
-   * The values for the Workfront fields connected to the Planning record are populated in Workfront Planning. 
+   * The values for the Workfront lookup fields connected to the Planning record are populated in Workfront Planning. 
 
 <!--add more steps here for what happens after clicking Connect-->
-
-

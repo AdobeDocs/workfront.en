@@ -22,7 +22,7 @@ author: Alina
 
 # Connect record types
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 You can use Adobe Workfront Planning to design fully-customizable workspaces that contain record types needed in your organization. A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application. 
 
@@ -59,7 +59,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfront Planning closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
@@ -254,16 +254,21 @@ You must have the following access to perform the steps in this article:
     * **MIN**: Displays the lowest value from all the values that come from multiple records selected in the linked record field. 
     * **SUM**:  Displays the total of all the values that come from multiple records selected in the linked record field.
     * **AVG**: Displays the average of all the values that come from multiple records selected in the linked record field.
+    * **UNIQUE**: Removes duplicates from the lookup field values and only shows the unique values. This is not available for the following field types:
+        * Paragraph
+        * Checkbox
+        * People
 
     >[!NOTE]
     >
-    >For example, you can link the Product record (linked record) from the Campaign record (original record) and name it "Product field". You can also choose to link the Budget field of the Product record from the Campaign record and call it "Product Budget". If you allowed to select multiple records in the "Product field", you can select Product 1 with a Budget of $120,000 and Product 2 with a Budget of $100,000. You can view the following Budget information in the linked field from the original record, depending on which aggregator you choose: 
+    >For example, you can link the Product record (linked record) from the Campaign record (original record) and name it "Product field". You can also choose to link the Budget field of the Product record from the Campaign record and call it "Product Budget". If you allowed to select multiple records in the "Product field", you can select Product 1 with a Budget of $100,000 and Product 2 with a Budget of $110,000, and Product 3 with a Budget of $100,000. You can view the following Budget information in the linked field from the original record, depending on which aggregator you choose: 
     >
-    >* **None**: $120,000, $100,000
-    >* **MAX**: $120,000
+    >* **None**: $100,000, $110,000, $100,000
+    >* **MAX**: $110,000
     >* **MIN**: $100,000
-    >* **SUM**: $220,000
-    >* **AVG**: $110,000  
+    >* **SUM**: $310,000
+    >* **AVG**: $103,000.33 
+    >* **UNIQUE**: $100,000 
     >
 
 1. (Optional) Use the **search** icon ![](assets/search-icon.png) to search for a field.

@@ -9,49 +9,36 @@ exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
 
 # Adobe Workfront Planning release activity 
 
-<!--this article is linked to the WF Planning landing page - do not change URL or move it-->
-
-{{maestro-important-intro}}
-
-This article lists the features that have been released after the launch of the Adobe Workfront Planning capabilities closed beta program, on May 22, 2023.
-
-The released features are listed in the order of their release, with the most recent first. Customers who are participating in the planning capabilities closed beta program can access all features in their Production environments. 
+<!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
 >[!IMPORTANT]
 >
->Between May 2023 and December 2023, all features in this article were released to both the Preview and Production environment. The planning capabilities have temporarily been removed from the Preview and Sandbox environments since January 2024. All features released after this date are currently available in Production. 
-
-This article lists the features and patches that have been released after the launch of the Adobe Workfront Planning capabilities closed beta program, on May 22, 2023. 
-
-The features are released weekly and are listed in the order of their release, with the most recent first. Customers who are participating in the planning capabilities closed beta program can access all features in their Preview and Production environments.
-
->[!IMPORTANT]
+>The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
 >
->The documentation referenced in the sections below will be available some time after the features are released to Production.
+>Currently, Workfront Planning is in an early access stage which is open to a limited number of customers. 
+>
+>You must be a Workfront customer to use these capabilities. 
+>
+>Your account representative will inform you if you are part of this stage.
+>
+>For more information, see [Adobe Workfront Planning overview](/help/quicksilver/maestro/maestro-overview.md).
+>
+>In some cases, the documentation referenced in the sections below might be available after the features documented are released to Production. 
+
+This article lists the features that have been released after the launch of the Adobe Workfront Planning program, on May 22, 2023.
+
+The released features are listed in the order of their release, with the most recent first. Customers who are participating in the Workfront Planning program can access all features in their Production environments.
+
+Between May 2023 and December 2023, all features in this article were released to both the Preview and Production environment. 
+
+Workfront Planning has temporarily been removed from the Preview and Sandbox environments since January 2024. All features released after this date are currently available in Production. 
+ 
+
+
 
 <!--
 
 ## Week of <date>
-
-### Added a limit of 100 views for a record type
-
-Production: <date> 
-
-Preview: To be determined 
-
-A record type can have only 100 views. Prior to this change, there was no limit for how many views a record type could have.  
-
-For more information, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md). 
-
-### Add sections to the record's page 
-
-Production: <date> 
-
-Preview: To be determined 
-
-To better organize information on the record's page for more efficient readability and navigation we have introduced sections to the record's page. The section titles serve as headers that organize the content into distinct categories. The sections can be expanded or collapsed, if needed.  
-
-For information, see [Manage the record page](/help/quicksilver/maestro/records/manage-the-record-page.md). 
 
 ### Enable Workfront Planning notifications for customers that are not in the Adobe Unified Experience
 
@@ -63,9 +50,79 @@ If your organization is not in the Adobe Unified Experience, you receive an emai
 
 For more information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/maestro/notifications/notifications-information.md). 
 
-###  New Planning section added to the left panel of a Workfront project, portfolio, and program
+### New process for deleting a workspace 
 
-Production: <date> 
+Production: May 30, 2024 
+
+Preview: To be determined 
+
+Because the impact for deleting a workspace can be significant, we are adding an extra step in confirming the deletion. Users are required to type "delete" before they can complete the deletion of a workspace. For more information, see [Delete workspaces](/help/quicksilver/maestro/architecture/delete-workspaces.md).  
+
+-->
+
+## Week of May 27, 2024
+
+### Introducing the UNIQUE rollup operator for lookup fields 
+
+Production: May 27, 2024
+
+Preview: To be determined 
+
+We have added the UNIQUE operator when aggregating lookup field values.  
+
+The UNIQUE operator removes duplicates from lookup field values and only shows a unique value. For example, if you add several connected records and the values of a lookup field are identical between multiple records, Workfront displays only one of the values in the lookup field of the original record. 
+
+The UNIQUE operator is available for all field types except the following:  
+
+* Paragraph 
+* People 
+* Checkbox field
+
+For information, see [Connect record types](/help/quicksilver/maestro/architecture/connect-record-types.md). 
+
+### Share views with all members of a workspace by default
+
+Production: May 30, 2024
+
+Preview: To be determined 
+
+We have now introduced an option where you can quickly give View permissions to a view to all members of a workspace. Prior to this enhancement, only users you specifically shared a view with could access the view. This option is not enabled by default.  
+
+For information, see [Share views](/help/quicksilver/maestro/access/share-views.md). 
+
+### Updated look of the Planning icon in the Main Menu 
+
+Production: May 30, 2024 
+
+Preview: To be determined 
+
+ We have updated the look of the icon for the Planning area in the Main Menu. For information, see [Adobe Workfront Planning overview](/help/quicksilver/maestro/maestro-overview.md). 
+
+### Renaming the Workfront Planning program
+
+Starting with May 30, 2024, the Adobe Workfront Planning program is transitioning from the beta phase to an early access stage. You are going to see this change in the terminology of our documentation. 
+
+The early access stage is also limited to a few Workfront customers. 
+
+Your account representative will inform you if you qualify to participate in the early access stage.
+
+### New process for deleting a workspace
+
+Production: May 30, 2024 
+
+Preview: To be determined 
+
+Because the impact for deleting a workspace can be significant, we are adding an extra step in confirming the deletion. Users are now required to type "delete" before they can complete the permanent deletion of a workspace. 
+
+Deleted workspaces and their information cannot be recovered. 
+
+For more information, see [Delete workspaces](/help/quicksilver/maestro/architecture/delete-workspaces.md). 
+
+## Week of May 20, 2024
+
+### Connect Workfront Planning records from Workfront objects using the Planning section
+
+Production: May 23, 2024
 
 Preview: To be determined
 
@@ -75,17 +132,13 @@ The following actions are available from the Planning section in Workfront:
 
 * View connected Planning records 
 
-* Connect more records to the Workfront object 
+* Connect Workfront Planning records to the Workfront object 
 
 * Disconnect records  
 
-* Display more information about the connected records in the preview box 
-
-* Open records in the Planning area 
+* Open the details preview box or page to view more information about the connected records
 
 For information, see [Manage records in the Planning section of Adobe Workfront objects](/help/quicksilver/maestro/records/manage-records-in-planning-section.md).  
-
--->
 
 ## Week of May 13, 2024
 
@@ -690,7 +743,7 @@ The commenting experience for planning capabilities records matches the new comm
 
 For more information, see [Manage record comments](/help/quicksilver/maestro/records/manage-record-comments.md).  
 
-### Planning capabilities connector (beta) for Adobe Workfront Fusion
+### Workfront Planning connector for Adobe Workfront Fusion
 
 Production: December 21, 2023
 

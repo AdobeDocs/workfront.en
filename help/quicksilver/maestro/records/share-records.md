@@ -11,7 +11,7 @@ exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
 
 # Share records
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 To collaborate with other users, you can share records with others. 
 
@@ -44,7 +44,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfront Planning closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>

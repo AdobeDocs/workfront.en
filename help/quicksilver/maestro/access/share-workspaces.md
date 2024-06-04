@@ -11,7 +11,7 @@ exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 
 # Share workspaces
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 You can share a workspace with others to ensure collaboration when working in Adobe Workfront Planning. 
 
@@ -39,7 +39,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfront Planning closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>

@@ -11,7 +11,7 @@ exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
 
 # License type overview when using Adobe Workfront Planning
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Your Adobe Workfront license type works in conjunction with your Adobe Workfront Planning permissions to give you access to view, contribute, or manage workspaces. <!--add more objects here when we can grant other object-specific permissions-->
 

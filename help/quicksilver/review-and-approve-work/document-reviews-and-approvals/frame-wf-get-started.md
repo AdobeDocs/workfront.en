@@ -5,8 +5,6 @@ title: Get started with Asset review and approval with Frame.io
 description: Learn more about the formal review and approval process in using Workfront and Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
-hide: yes
-hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
 ---

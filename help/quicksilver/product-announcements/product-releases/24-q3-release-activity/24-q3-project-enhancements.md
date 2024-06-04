@@ -13,19 +13,20 @@ This page describes all project enhancements made with the Third Quarter 2024 re
 For a list of all changes available at this point in the Third Quarter 2024 release cycle, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 
-## More relevant assignments added to the New Task workflow 
+## Edit the task and issue Commit Date and Condition from the header or Details section 
 
 >[!NOTE]
 >
->Preview release: February 13, 2024; Production for fast release: With the 24.5 release (May 16, 2024); Production release for all customers: With the 24.7 release (July 2024).
+>Preview release: May 30, 2024; Production for fast release: With the 24.6 release (June 13, 2024); Production release for all customers: With the 24.7 release (July 2024).
 
-We have added the same functionality for more relevant smart assignments to the Assignments field in the following areas:  
+To make it easier for you to update tasks and issues, we have now added the Commit Date and Condition fields as options to add to task and issue headers and Details section in a layout template. Users are now able to update these fields from the header or Details section of a page, when they are assigned to the modified layout template. Prior to this enhancement, you could not add the Condition and the Commit Date of tasks and issues when customizing the headers.
 
-* The New Task box when adding a task to a project 
+For information about updating Commit Date and sCondition, see the following articles:
 
-* In a project task list 
+* [Update Condition for tasks and issues](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
+* [Update Commit Date on tasks and issues](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
-For more information, see [Smart assignments overview](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3429471/){target=_blank}
 
 ## More relevant smart assignments
 

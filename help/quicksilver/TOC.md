@@ -155,6 +155,7 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+      * [Workfront Fusion release activity: Week of May 20, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-20.md)
       * [Workfront Fusion release activity: Week of May 13, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-13.md)
       * [Workfront Fusion release activity: Week of May 6, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-6.md)
       * [Workfront Fusion release activity: Week of April 8, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-4-8.md)
@@ -890,6 +891,12 @@ feature-set: Workfront
       * [Use the Home Calendar view](workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md)
       * [View the Home Calendar](workfront-basics/using-home/using-the-home-area/view-home-calendar.md)
       * [Use the My Updates area](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
+  * AI Assistant {#ai-assistant}
+    * [AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
+    * [Summarize using AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
+    * [Get help from AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)
+    * [Revise calculated field formulas with AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
+    * [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md)
   * Update work items and view updates {#update-work-items-view-updates}
     * [Update work items and view updates: article index](workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md)
     * [Updates section overview](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
@@ -2075,6 +2082,7 @@ feature-set: Workfront
     * [Add a thumbnail to a record](maestro/records/add-thumbnails-to-records.md)
     * [Add a cover image to a record](maestro/records/add-a-cover-image-to-a-record.md)
     * [Manage the record page](maestro/records/manage-the-record-page.md)
+    * [Manage records in the Planning section of Adobe Workfront objects](maestro/records/manage-records-in-planning-section.md)
   * Adobe Maestro views {#adobe-maestro-views}
     * [Views: article index](maestro/views/views-information.md)
     * [Manage record views](maestro/views/manage-record-views.md)
@@ -2196,6 +2204,7 @@ feature-set: Workfront
     * [Generate a module using AI](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
     * Adobe Workfront Fusion scenario templates {#fusion-scenario-templates}
       * [Scenario Templates](workfront-fusion/scenarios/templates/fusion-templates.md)
+      * [[!DNL Fusion] templates overview](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
       * [Create new templates in Adobe Workfront Fusion](workfront-fusion/scenarios/templates/create-new-fusion-templates.md)
       * [Publish and share Adobe Workfront Fusion templates](workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md)
       * [Create scenarios with Adobe Workfront Fusion templates](workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md)
@@ -2731,6 +2740,8 @@ feature-set: Workfront
     * [Overview](proofhq-api/general/overview.md)
     * [Code Samples](proofhq-api/general/code-samples.md)
     * [SOAP API FAQs](proofhq-api/general/soap-api-faqs.md)
+* [Hidden test document](hidden-test.md)
+
 
 <!--
 Moved and commented out sections from line 1477 - I believe the entire section is duped but need to verify

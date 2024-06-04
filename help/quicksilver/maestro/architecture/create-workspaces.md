@@ -10,7 +10,7 @@ exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
 
 # Create workspaces
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 In Adobe Workfront Planning, workspaces are centralized locations for teams to plan work. 
 
@@ -35,7 +35,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfornt planning closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>

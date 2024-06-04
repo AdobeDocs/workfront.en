@@ -11,7 +11,7 @@ exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
 
 # Add a cover image to a record
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 You can personalize records by adding a cover image to the record page in Adobe Workfront Planning, when editing a record.
 
@@ -42,7 +42,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfront Planning beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>

@@ -8,7 +8,7 @@ exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
 ---
 # Manage Adobe Workfront Planning in-app notifications
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 When someone tags you in a record comment, you may receive an in-app notification for that tag. 
 
@@ -40,7 +40,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfront Planning beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
