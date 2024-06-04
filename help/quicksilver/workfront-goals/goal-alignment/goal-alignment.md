@@ -26,7 +26,7 @@ exl-id: b5b0e5b2-1133-443b-8ef1-cbb1ca377fd6
 >      
 >* For the current plan and license structure:     
 >    
->   * A Pro or higher [Adobe Workfront plan]     
+>   * A Pro or higher Adobe Workfront plan
 >   * An Adobe Workfront Goals license in addition to a Workfront license.    
 >    
 >Contact your Workfront account manager to learn about a Workfront Goals license.    

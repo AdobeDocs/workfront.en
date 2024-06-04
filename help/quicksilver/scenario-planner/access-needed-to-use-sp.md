@@ -37,7 +37,7 @@ You must ensure that all the following conditions are met before you can access 
 
     Depending on whether you use the new or the current Workfront plan, your organization must have one of the following:
 
-    * For the current plans, your organization must have one of the following:  
+    * For the new plans, your organization must have one of the following:  
 
       * The [!UICONTROL Ultimate] [!DNL Workfront] plan. The Scenario Planner is included in the Ultimate plan. 
 

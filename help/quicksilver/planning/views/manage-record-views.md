@@ -186,6 +186,11 @@ The workspace you last accessed opens by default. For information about creating
     The number is an automatically generated increment. 
 
 1. (Conditional) Select the **Start** and **End dates** for the records that will display in the timeline or calendar view.
+    
+    >[!TIP]
+    >
+    >    You can select from record date fields, or lookup date fields from connected records or objects. 
+
 1. Click **Create**.
 
     The view displays as a new tab. Views display in the chronological order from when they were created or shared with you. 
