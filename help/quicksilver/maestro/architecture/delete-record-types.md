@@ -21,7 +21,7 @@ hide: yes
 
 # Delete record types
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 You can delete record types when they are no longer relevant. 
 
@@ -50,7 +50,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfront Planning beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>

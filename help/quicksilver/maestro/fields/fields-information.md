@@ -20,7 +20,7 @@ hide: yes
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 As a marketing operations leader, you can use Adobe Workfront Planning to organize work across the marketing lifecycle for all your teams. In Workfront Planning, you can fully customize the architecture of your workflows, including adding custom fields for all the custom record types you create. 
 

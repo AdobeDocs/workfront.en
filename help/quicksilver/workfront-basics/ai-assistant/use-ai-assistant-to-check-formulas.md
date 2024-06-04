@@ -6,6 +6,7 @@ author: Becky
 feature: Get Started with Workfront
 hide: yes
 hidefromtoc: yes
+exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
 ---
 # Revise calculated field formulas with AI Assistant
 
@@ -36,6 +37,3 @@ To revise an invalid calculated field expression:
 >We recommend testing the calculated field to ensure that it retrieves the expected result.
 
 For more information on calculated fields in Workfront, see [Add calculated data to a custom form with the legacy form builder](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
-
-
-

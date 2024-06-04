@@ -8,7 +8,7 @@ exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 ---
 # Adobe Workfront Planning overview
 
-<!--this article is linked to the WF Planning landing page - do not change URL or move it-->
+<!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
@@ -20,9 +20,11 @@ exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 >
 >The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
 >
->Currently, Adobe Workfront Planning is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use these capabilities.
+>Currently, Workfront Planning is in an early access stage which is open to a limited number of customers. 
 >
->Contact your account representative for more information about joining the beta program for Workfront Planning.
+>You must be a Workfront customer to use these capabilities. 
+>
+>Your account representative would have informed you if you were part of this stage.
 >
 >For a complete list of all sections and articles that document Workfront Planning, see [Adobe Workfront Planning: article index](/help/quicksilver/maestro/maestro-information.md). 
 
@@ -95,7 +97,7 @@ For information about new features and when they are released, see [Adobe Workfr
 
 ## Enable Adobe Workfront Planning for the users in your Workfront instance
 
-Your organization must enroll in the Adobe Workfront Planning closed beta program before you can access the planning capabilities. Contact your account representative for information about enrolling in the beta program. 
+Your organization must enroll in the Adobe Workfront Planning program before you can access the planning capabilities. Your account representative should have given you information about enrolling in this program, if you qualify. 
 
 For more information about granting access to and enabling others to use Workfront Planning, see [Access overview](/help/quicksilver/maestro/access/access-overview.md). 
 
@@ -271,7 +273,7 @@ To locate Workfront Planning:
 
 1. Click the **Main Menu** ![](assets/main-menu-workfront.png) in the upper-right corner, or click the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it's available. 
 
-1. Click **Planning** ![](assets/maestro-icon.png).
+1. Click **Planning** ![](assets/planning-icon.png).
 
     The Workspaces area opens.
 

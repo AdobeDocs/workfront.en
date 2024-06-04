@@ -6,6 +6,7 @@ author: Becky
 feature: Get Started with Workfront
 hide: yes
 hidefromtoc: yes
+exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
 ---
 # Summarize using AI Assistant
 
@@ -37,8 +38,3 @@ To see a summary of an object:
    AI Assistant may take a few moments to generate the summary, depending on how large or complex the object is.
 
 1. View the AI summary in the AI Assistant panel.
-
-
-
-
-

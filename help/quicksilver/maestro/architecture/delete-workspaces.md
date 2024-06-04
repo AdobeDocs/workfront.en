@@ -10,7 +10,7 @@ exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
 
 # Delete workspaces
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 In Adobe Workfront Planning, workspaces are centralized locations for teams to plan work. For more information, see [Create workspaces](../architecture/delete-workspaces.md). 
 
@@ -37,7 +37,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfron planning beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
@@ -96,6 +96,9 @@ This opens the last workspace you accessed.
 
 1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to delete. 
 1. Click the **More** menu ![](assets/more-menu.png) next to the workspace name, then click **Delete**.
-1. Click **Delete** to confirm.
+
+   ![](assets/permanently-delete-workspace-confirmation.png)
+   
+1. Type "**delete**" in the space provided, then click **Permanently delete**. 
 
     The workspace is deleted and cannot be recovered. Any record types, records, fields, and views associated with them are also deleted. <!--ensure this is right after closed beta-->

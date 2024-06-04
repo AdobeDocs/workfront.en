@@ -10,7 +10,7 @@ exl-id: e90a3ebe-fc02-4cce-8472-1ca5004ddde8
 
 # Create taxonomy record types
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 When you use a template to create a workspace, record types are created in the following sections: 
 
@@ -42,7 +42,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfront Planning closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>

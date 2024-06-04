@@ -11,7 +11,7 @@ exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
 
 # Create record types
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 Record types are the object types of Adobe Workfront Planning. In Workfront Planning, you can create custom record types which illustrate the work-related items needed in your organization's lifecycle. 
 
@@ -36,7 +36,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfront Planning closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>

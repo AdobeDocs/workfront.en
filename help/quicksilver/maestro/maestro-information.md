@@ -24,15 +24,24 @@ hide: yes
 
 <!--remove the video at open beta or before-->
 
-{{maestro-important-intro}}
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
+>
+>Currently, Workfront Planning is in an early access stage which is open to a limited number of customers. 
+>
+>You must be a Workfront customer to use these capabilities. 
+>
+>Your account representative will inform you if you are part of this stage.
+>
+>For more information, see [Adobe Workfront Planning overview](/help/quicksilver/maestro/maestro-overview.md).
+>
+>In some cases, the documentation referenced in the sections below might be available after the features documented are released to Production. 
 
 You can use this page as the starting point for all the documentation related to Adobe Workfront Planning.
 
 The articles in the sections listed below describe how you can configure Workfront Planning and start using it.
 
->[!IMPORTANT]
->
->The documentation referenced in the sections below will be available some time after the features are released to Production. 
 
 ## General overview of Adobe Workfront Planning  
 
@@ -43,7 +52,7 @@ Access the following articles for an overview of the new Workfront Planning:
 <!--* [View a video demonstration of Adobe Maestro](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 * [Adobe Workfront Planning overview](maestro-overview.md): A high-level overview of Adobe Workfront Planning, including the terminology and concepts that are unique to this solution. We recommend that you start your journey with Workfront Planning here. 
-* [Adobe Workfront Planning release activity](/help/quicksilver/maestro/release-activity.md): A list of all the features that have been released since the launch of the Adobe Workfront Planning closed beta program, on May 22, 2023 with exact release dates and a short overview of each feature.
+* [Adobe Workfront Planning release activity](/help/quicksilver/maestro/release-activity.md): A list of all the features that have been released since the launch of the Adobe Workfront Planning program, on May 22, 2023 with exact release dates and a short overview of each feature.
 * [Adobe Workfront Planning modules for Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
 
 ## Workfront Planning architecture and functionality

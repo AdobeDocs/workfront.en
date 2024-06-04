@@ -10,6 +10,8 @@ exl-id: 5027d611-916e-492d-9a44-841bdde11c94
 
 <!--update the metadata with real information when making this available in TOC and in the left nav - below-->
 
+<!--this article is linked to the UI in the formula box, "Learn more..."-->
+
 <!---
 title: Formula fields overview
 description: In Adobe Maestro, you can create formula fields that use functions and existing  fields to calculate a new custom value. 
@@ -23,7 +25,7 @@ recommendations: noDisplay, noCatalog
 
 <!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 You can create custom fields in Adobe Workfront Planning by referring to existing fields and connecting them in a Formula-type field.
 
@@ -50,7 +52,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfront Planning beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>

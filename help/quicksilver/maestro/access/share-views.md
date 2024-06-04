@@ -10,7 +10,7 @@ exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
 
 # Share views
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 You can share a view with others to ensure collaboration when working with records in Adobe Workfront Planning. 
 
@@ -18,12 +18,12 @@ Granting permissions to a workspace does not give other users permissions to the
 
 When you share a view, you give others permissions to access all the elements of the view. For example, when you give them Manage permissions to a view, they can modify the grouping, filter, sort, or bar appearance. 
 
-<!--
+
 You can share a view with the following entities: 
 
 * Workfront users
 * Workfront groups
-* Publicly, with users outside Workfront
+<!--* Publicly, with users outside Workfront
 -->
 
 ## Access requirements
@@ -45,7 +45,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfront Planning closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
@@ -104,7 +104,12 @@ You can share views you created or views you have Manage permissions to <!--with
 
    <!--The Internal sharing tab should be selected by default.-->
 
-1. In the **Grant view access to** field, start typing the name of a user or a group, then click it when it displays in the list.  <!--replace screen shot below-->
+1. (Optional) Select from the following options to share the view: 
+
+   * **Only invited people can access**: You must specify users or groups that you want to share the view with. This is the default option.
+   * **Everyone in the workspace can view**: All users that have View or higher permissions to workspaces can access the view. 
+
+1. In the **Grant view access to** field, start typing the name of a user or a group, then click it when it displays in the list.  <!--***********replace screen shot below when public sharing is released***********-->
 
     ![](assets/sharing-a-view-ui-with-groups.png)
 

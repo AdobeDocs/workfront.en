@@ -10,7 +10,7 @@ exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
 
 <!---
 title: Create fields
-description: In Adobe Maestro, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with Maestro records.
+description: In Adobe Workfront Planning, you can create custom fields for each kind of operational record type or taxonomy. You can then associate the field with records.
 hidefromtoc: yes
 hide: yes
 author: Alina
@@ -27,13 +27,13 @@ recommendations: noDisplay, noCatalog
 
 # Create fields
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 In Adobe Workfront Planning, you can create custom fields for record types. You can then associate the fields with Workfront Planning records to enhance record information. 
 
 You must create record types before you can create fields to associate with them. For information, see [Create record types](../architecture/create-record-types.md). 
 
-You can create fields in the following ways in Maestro:
+You can create fields in the following ways in Workfront Planning:
 
 * From scratch
 * By connecting record types
@@ -41,7 +41,7 @@ You can create fields in the following ways in Maestro:
 * By creating a record type
 * By creating a workspace from a template
 
-For more information about Maestro fields, see [Field overview](/help/quicksilver/maestro/fields/fields-overview.md).
+For more information about record fields, see [Field overview](/help/quicksilver/maestro/fields/fields-overview.md).
 
 ## Access requirements
 
@@ -62,7 +62,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfront Planning beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
@@ -100,7 +100,7 @@ You must have the following access to perform the steps in this article:
 </table>
 
 
-<!--Maybe enable this at GA - but Maestro is not supposed to have Access controls in the Workfront Access Level: 
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
@@ -504,7 +504,7 @@ You can use the Last modified date field type to add the date when a record was 
 
 ## Create fields by connecting record types 
 
-You can create linked record fields when you add a new connection between two Maestro record types, or a record type and an object types from other applications. 
+You can create linked record fields when you add a new connection between two record types, or a record type and an object types from other applications. 
         
 For information about connecting Workfront Planning record types, see [Connect record types](../architecture/connect-record-types.md)
 

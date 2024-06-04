@@ -20,7 +20,7 @@ hide: yes
 
 # Records: article index
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 After you create record types in Adobe Workfront Planning, you can create individual records of those types. 
 

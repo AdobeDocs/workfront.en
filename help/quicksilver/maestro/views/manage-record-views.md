@@ -10,7 +10,7 @@ exl-id: 77342724-0182-4134-903b-4428d54cdceb
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-{{maestro-important-intro}}
+{{planning-important-intro}}
 
 After selecting a record type in Adobe Workfront Planning area, you can display all the records of that type in the following views: 
 
@@ -53,7 +53,7 @@ You must have the following access to perform the steps in this article:
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
-<p>Your organization must be enrolled in the Adobe Workfront Planning closed beta program. Contact your account representative to inquire about this new offering. </p>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
    </td>
   </tr>
   <tr>
@@ -186,6 +186,11 @@ The workspace you last accessed opens by default. For information about creating
     The number is an automatically generated increment. 
 
 1. (Conditional) Select the **Start** and **End dates** for the records that will display in the timeline or calendar view.
+    
+    >[!TIP]
+    >
+    >    You can select from record date fields, or lookup date fields from connected records or objects. 
+
 1. Click **Create**.
 
     The view displays as a new tab. Views display in the chronological order from when they were created or shared with you. 
