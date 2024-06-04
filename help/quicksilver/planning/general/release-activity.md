@@ -122,7 +122,7 @@ For more information, see [Delete workspaces](/help/quicksilver/planning/archite
 
 You can now set the Start and End Dates of the timeline view to a lookup field from a connected record or object type. 
 
-For more information about creating views, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md). 
+For more information about creating views, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
 
 ## Week of May 20, 2024
 
