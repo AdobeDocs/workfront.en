@@ -11,6 +11,8 @@ exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
 ---
 # Share a custom form
 
+{{highlighted-preview}}
+
 You can configure access for a custom form to control who—person, role, group, team, company—can view, share, and edit it.
 
 ## Access requirements
@@ -101,6 +103,8 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
 
 1. Click **Save**.
 
+<div class="preview">
+
 ## Share a custom form from the form designer
 
 {{step-1-to-setup}}
@@ -140,17 +144,18 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
 
    If you change your mind, you can select **Everyone in the system can view**.
 
-
    >[!NOTE]
    >
    >* When you make a custom form visible system-wide, you allow users only to see and fill it out on objects they are assigned to, not to attach it to other objects. You can grant the ability to attach the custom form to objects using the option "Attach to custom data" explained under step 6.
    >* Most organizations want to ensure that everyone in the system can fill out a custom form when it's attached to objects they work on and view its data in reports. If this is true for your organization, we recommend that you use **Everyone in the system can view**. When the option is configured this way, "Visible System-Wide" displays in the dialog box:
    >   
-   >Image needed
+   >![Share custom form](assets/share-custom-form-in-designer.png)
    >   
    >If you are concerned about a custom form where users might enter sensitive data when it is attached to certain objects, limiting sharing for those *objects* might be better rather than limiting access to the form itself.
 
 1. Click **Save**.
+
+</div>
 
 ## Remove access to a custom form from the list of forms
 
