@@ -11,8 +11,6 @@ exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 ---
 # Design a form with the form designer
 
-{{highlighted-preview}}
-
 You can design a custom form with the form designer. You can attach custom forms to different Workfront objects to capture data about those objects.
 
 ## Access requirements
@@ -244,20 +242,20 @@ To add a calculated field, see [Add calculated fields with the form designer](/h
 
 ### Add radio buttons, checkboxes, and dropdowns
 
- You can add radio buttons, checkboxes, dropdowns, <span class="preview">and multi-select dropdowns</span> to a custom form.
+ You can add radio buttons, checkboxes, dropdowns, and multi-select dropdowns to a custom form.
 
 +++ **Expand to see descriptions of available fields**
 
 * **Radio buttons**: Requires users to select only one choice.
 * **Checkbox Group**: Allows users to select multiple choices.
 * **Dropdown**: Provides a list of dropdown choices.
-* <span class="preview">**Multi-Select Dropdown**: Allows users to select multiple choices from a dropdown list.</span>
+* **Multi-Select Dropdown**: Allows users to select multiple choices from a dropdown list.
 
 +++
 
 >[!NOTE]
 >
->Fields that allow multiple selections, such as the Checkbox Group and <span class="preview">Multi-Select Dropdown</span>, are difficult to chart and group in reports. To allow easier charting and grouping in reports, you can create separate fields for each choice (for example, a single-line text field).
+>Fields that allow multiple selections, such as the Checkbox Group and Multi-Select Dropdown, are difficult to chart and group in reports. To allow easier charting and grouping in reports, you can create separate fields for each choice (for example, a single-line text field).
 
 To add radio buttons, checkboxes, and dropdowns:
 
@@ -266,13 +264,9 @@ To add radio buttons, checkboxes, and dropdowns:
     * Radio buttons
     * Checkbox Group
     * Dropdown
-    * <span class="preview">Multi-Select Dropdown</span>
+    * Multi-Select Dropdown
 
-    <span class="preview">Sample image in the Preview environment:</span>
     ![Drag a field onto the canvas](assets/drag-field-to-section-041524.png)
-
-    Sample image in the Production environment:
-    ![Drag a field onto the canvas](assets/drag-field-to-section.png)
 
 1. On the right side of the screen, configure the options that are available for the type of custom field you are adding:
 
@@ -290,7 +284,7 @@ To add radio buttons, checkboxes, and dropdowns:
     <li>Radio buttons</li>
     <li>Checkbox Group</li>
     <li>Dropdown</li>
-    <li><span class="preview">Multi-Select Dropdown</span></li>
+    <li>Multi-Select Dropdown</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -306,7 +300,7 @@ To add radio buttons, checkboxes, and dropdowns:
     <li>Radio buttons</li>
     <li>Checkbox Group</li>
     <li>Dropdown</li>
-    <li><span class="preview">Multi-Select Dropdown</span></li>
+    <li>Multi-Select Dropdown</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -318,7 +312,7 @@ To add radio buttons, checkboxes, and dropdowns:
     <li>Radio buttons</li>
     <li>Checkbox Group</li>
     <li>Dropdown</li>
-    <li><span class="preview">Multi-Select Dropdown</span></li>
+    <li>Multi-Select Dropdown</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -333,7 +327,7 @@ To add radio buttons, checkboxes, and dropdowns:
     <li>Radio buttons</li>
     <li>Checkbox Group</li>
     <li>Dropdown</li>
-    <li><span class="preview">Multi-Select Dropdown</span></li>
+    <li>Multi-Select Dropdown</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -343,7 +337,7 @@ To add radio buttons, checkboxes, and dropdowns:
     <li>Radio buttons</li>
     <li>Checkbox Group</li>
     <li>Dropdown</li>
-    <li><span class="preview">Multi-Select Dropdown</span></li>
+    <li>Multi-Select Dropdown</li>
     </ul></td>
     </tr> 
      <tr> 
@@ -353,7 +347,7 @@ To add radio buttons, checkboxes, and dropdowns:
     <li>Radio buttons</li>
     <li>Checkbox Group</li>
     <li>Dropdown</li>
-    <li><span class="preview">Multi-Select Dropdown</span></li>
+    <li>Multi-Select Dropdown</li>
     </ul></td>
      </tr> 
     <tr> 
@@ -378,7 +372,7 @@ To add radio buttons, checkboxes, and dropdowns:
     <li>Radio buttons</li>
     <li>Checkbox Group</li>
     <li>Dropdown</li>
-    <li><span class="preview">Multi-Select Dropdown</span></li>
+    <li>Multi-Select Dropdown</li>
     </ul></td>
      </tr> 
     </tbody> 
@@ -890,7 +884,7 @@ This table lists the available native fields for specific Workfront objects in a
 
     or
 
-    Click **Save and Close**. 
+    Click **Save and Close**.
 
 ## Organize and preview a form with the form designer
 
