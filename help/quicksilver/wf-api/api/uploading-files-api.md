@@ -16,7 +16,7 @@ To upload documents, see the instructions for **Uploading Documents** in WorkFro
 
 **When using API tools to upload files, follow these guidelines:**
 
-* Use your API tool option to upload your file. These is often a **Choose File** button on the request screen. 
+* Use your API tool option to upload your file. There is often a **Choose File** button on the request screen. 
 
 * Use the POST HTTP method to make the request to upload the file. 
 
