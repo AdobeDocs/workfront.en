@@ -28,6 +28,6 @@ The articles in the following sections describe how you can create and configure
 
 * [Field overview](/help/quicksilver/planning/fields/fields-overview.md)
 * [Create fields](/help/quicksilver/planning/fields/create-fields.md)
-* [Edit fields](/help/quicksilver/planning/fields/fields/edit-fields.md)
+* [Edit fields](/help/quicksilver/planning/fields/edit-fields.md)
 * [Delete fields](/help/quicksilver/planning/fields/delete-fields.md)
 * [Formula fields](/help/quicksilver/planning/fields/formula-fields.md)
