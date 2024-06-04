@@ -169,7 +169,7 @@ Consider the following when working with filters in the timeline view:
 
 * Adding filters in the timeline view is identical to adding filters in the table view. 
 
-    For more information, see the "Add filters" section in the article Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
+    For more information, see the "Add filters" section in the article [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
 
 * You can filter by connected record fields or lookup fields, but not for those fields that allow linking to multiple records.
 
