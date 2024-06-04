@@ -118,6 +118,12 @@ Deleted workspaces and their information cannot be recovered.
 
 For more information, see [Delete workspaces](/help/quicksilver/maestro/architecture/delete-workspaces.md). 
 
+### Lookup date fields are now available in the timeline view
+
+You can now set the Start and End Dates of the timeline view to a lookup field from a connected record or object type. 
+
+For more information about creating views, see [Manage record views](/help/quicksilver/maestro/views/manage-record-views.md). 
+
 ## Week of May 20, 2024
 
 ### Connect Workfront Planning records from Workfront objects using the Planning section
