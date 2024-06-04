@@ -1,9 +1,10 @@
 ---
-title: "Adobe Workfront Planning general information: article index"
-description: As a marketing operations leader, you can use Adobe Workfront Planning to organize work across the marketing lifecycle for all your teams. The articles in this section describe general concepts about Workfront Planning, best practices about how to implement it, and give you an overview of some of the features currently available. 
+title: 'Adobe Workfront Planning general information: article index'
+description: As a marketing operations leader, you can use Adobe Workfront Planning to organize work across the marketing lifecycle for all your teams. The articles in this section describe general concepts about Workfront Planning, best practices about how to implement it, and give you an overview of some of the features currently available.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: 8c4e4fbb-2f21-43a1-bfb0-d23ac1a33705
 ---
 # Adobe Workfront Planning general information: article index
 
