@@ -10,6 +10,8 @@ role: Admin
 ---
 # Configure sharing for custom fields and widgets with the form designer
 
+{{highlighted-preview-article-level}}
+
 By default, when you add a new custom field or widget to a custom form, anyone in the system with access to custom forms can edit the properties for that item, such as its label and name. You can change this by controlling who it can be shared with.
 
 For information about custom fields and widgets in custom forms, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
@@ -117,15 +119,18 @@ For more detail about the information in this table, see [Access requirements in
     </table> 
 
 1. (Optional) Repeat Steps 5-6 to add other names to the list and configure their options.
-1. (Optional) If you want to limit access to the custom field to those you have specified in the previous steps, click the dropdown arrow under **Who has access**, then select **Only invited people can access**.
+1. (Optional) Choose a system-wide sharing option for the field:
 
-   If you change your mind, you can select **Everyone in the system can view**.
+   * **Everyone in the system can edit** (the default option)
 
-   >[!NOTE]
-   >
-   >When you add a custom field or widget and you don't limit sharing for it, everyone in the system who has access to custom forms can view it and edit its properties.
+     When you add a custom field or widget and you don't limit sharing for it, everyone in the system who has access to custom forms can view it and edit its properties.
 
-IMAGE
+   * **Everyone in the system can view**
+   * **Only invited people can access**
+
+     Limits access to only those you added to the list.
+
+   ![Sharing options](assets/share-field-in-designer.png)
 
 1. Click **Save**.
 
