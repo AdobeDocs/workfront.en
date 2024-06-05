@@ -15,6 +15,12 @@ exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
 ---
 # Create or edit an environment promotion package
 
+You must create a package in the environment that you want to copy objects **from**. For example, if you are configuring a project in your Custom Refresh Sandbox environment and promoting it to your Production environment, you must create the package in your Custom Refresh Sandbox environment.
+
+>[!IMPORTANT]
+>
+>If your Custom Refresh Sandbox is refreshed while you are configuring object for environment promotion, that configuration will be lost in the refresh. We recommend that you do not refresh your Custom Refresh Sandbox unless all outstanding environment promotion objects and packages have been successfully promoted.
+
 ## Create a package
 
 1. Go to the environment that you want to create the package in. This is the environment that you are copying objects **from**.
