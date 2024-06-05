@@ -180,9 +180,13 @@ When you are configuring this module, the following fields display.
    <td role="rowheader">[!UICONTROL Entity Type]</td> 
    <td>Select the type of entity that you want the module to create.</td> 
   </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select Fields to Map]</td> 
+   <td>Select the fields that you want to include values for when the record is created. Available fields depend on the entity type.</td> 
+  </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Property fields]</td> 
-   <td>In these fields, enter the value that you want the work item to have for a given property. Available fields depend on the entity type.</td> 
+   <td> These are the fields that you selected. Enter the value that you want the record to have for a given property. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -315,9 +319,13 @@ When you are configuring this module, the following fields display.
    <td role="rowheader">[!UICONTROL Entity Type]</td> 
    <td>Select the type of entity that you want the module to update.</td> 
   </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select Fields to Map]</td> 
+   <td>Select the fields that you want to include values for when the record is created. Available fields depend on the entity type.</td> 
+  </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Property fields]</td> 
-   <td>In these fields, enter the value that you want the work item to have for a given property. Available fields depend on the entity type.</td> 
+   <td>These are the fields that yous selected. Enter the value that you want the record to have for a given property.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL ID]</td> 
