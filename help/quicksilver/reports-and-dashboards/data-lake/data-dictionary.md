@@ -64,42 +64,42 @@ The following table correlates object names in Workfront (as well as their names
     <td>Assignment</td>
     <td>Assignment</td>
     <td>ASSGN | Assignment</td>
-    <td>ASSIGNMENTS_CURRENT<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ASSIGNMENTS_DAILY_HISTORY<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ASSIGNMENTS_EVENT</td>
+    <td>ASSIGNMENTS_CURRENT<br>ASSIGNMENTS_DAILY_HISTORY<br>ASSIGNMENTS_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>CustomEnum</td>
-    <td>Condition, Priority, Severity,&nbsp;&nbsp;&nbsp;Status</td>
+    <td>Condition, Priority, Severity, Status</td>
     <td>CSTEM | Custom Enum</td>
-    <td>CUSTOMENUMS_CURRENT<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CUSTOMENUMS_DAILY_HISTORY<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CUSTOMENUMS_EVENT</td>
-    <td>The type of record is identified&nbsp;&nbsp;&nbsp;through the `enumClass` property. The following are the expected types:<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CONDITION_OPTASK<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CONDITION_PROJ<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CONDITION_TASK<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRIORITY_OPTASK<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRIORITY_PROJ<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PRIORITY_TASK<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SEVERITY_OPTASK<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;STATUS_OPTASK<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;STATUS_PROJ<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;STATUS_TASK</td>
+    <td>CUSTOMENUMS_CURRENT<br>CUSTOMENUMS_DAILY_HISTORY<br>CUSTOMENUMS_EVENT</td>
+    <td>The type of record is identified through the `enumClass` property. The following are the expected types:<br>CONDITION_OPTASK<br>CONDITION_PROJ<br>CONDITION_TASK<br>PRIORITY_OPTASK<br>PRIORITY_PROJ<br>PRIORITY_TASK<br>SEVERITY_OPTASK<br>STATUS_OPTASK<br>STATUS_PROJ<br>STATUS_TASK</td>
   </tr>
   <tr>
     <td>Document</td>
     <td>Document</td>
     <td>DOCU | Document</td>
-    <td>DOCUMENTS_CURRENT<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DOCUMENTS_DAILY_HISTORY<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DOCUMENTS_EVENT<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DOCUMENTS_CUSTOM_VALUE_CURRENT<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DOCUMENTS_CUSTOM_VALUE_DAILY_HISTORY<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DOCUMENTS_CUSTOM_VALUE_EVENT</td>
+    <td>DOCUMENTS_CURRENT<br>DOCUMENTS_DAILY_HISTORY<br>DOCUMENTS_EVENT<br><br>DOCUMENTS_CUSTOM_VALUE_CURRENT<br>DOCUMENTS_CUSTOM_VALUE_DAILY_HISTORY<br>DOCUMENTS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>DocumentVersion</td>
     <td>Document Version</td>
     <td>DOCV | Document Version</td>
-    <td>DOCUMENTVERSIONS_CURRENT<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DOCUMENTVERSIONS_DAILY_HISTORY<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DOCUMENTVERSIONS_EVENT</td>
+    <td>DOCUMENTVERSIONS_CURRENT<br>DOCUMENTVERSIONS_DAILY_HISTORY<br>DOCUMENTVERSIONS_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>Group</td>
     <td>Group</td>
     <td>GROUP | Group</td>
-    <td>GROUPS_CURRENT<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GROUPS_DAILY_HISTORY<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;GROUPS_EVENT</td>
+    <td>GROUPS_CURRENT<br>GROUPS_DAILY_HISTORY<br>GROUPS_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>Hour</td>
     <td>Hour</td>
     <td>HOUR | Hour</td>
-    <td>HOURS_CURRENT<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOURS_DAILY_HISTORY<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;HOURS_EVENT</td>
+    <td>HOURS_CURRENT<br>HOURS_DAILY_HISTORY<br>HOURS_EVENT</td>
     <td></td>
   </tr>
   <tr>
@@ -113,91 +113,91 @@ The following table correlates object names in Workfront (as well as their names
     <td>Milestone</td>
     <td>Milestone</td>
     <td>MILE | Milestone</td>
-    <td>MILESTONES_CURRENT<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MILESTONES_DAILY_HISTORY<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MILESTONES_EVENT</td>
+    <td>MILESTONES_CURRENT<br>MILESTONES_DAILY_HISTORY<br>MILESTONES_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>MilestonePath</td>
     <td>Milestone Path</td>
     <td>MPATH | Milestone Path</td>
-    <td>MILESTONEPATHS_CURRENT<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MILESTONEPATHS_DAILY_HISTORY<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MILESTONEPATHS_EVENT</td>
+    <td>MILESTONEPATHS_CURRENT<br>MILESTONEPATHS_DAILY_HISTORY<br>MILESTONEPATHS_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>Note</td>
     <td>Note</td>
     <td>NOTE | Note</td>
-    <td>NOTES_CURRENT<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NOTES_DAILY_HISTORY<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NOTES_EVENT</td>
+    <td>NOTES_CURRENT<br>NOTES_DAILY_HISTORY<br>NOTES_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>OpTask</td>
     <td>Issue, Request</td>
     <td>OPTASK | Issue</td>
-    <td>OPTASKS_CURRENT<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OPTASKS_DAILY_HISTORY<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OPTASKS_EVENT<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OPTASKS_CUSTOM_VALUE_CURRENT<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OPTASKS_CUSTOM_VALUE_DAILY_HISTORY<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OPTASKS_CUSTOM_VALUE_EVENT</td>
+    <td>OPTASKS_CURRENT<br>OPTASKS_DAILY_HISTORY<br>OPTASKS_EVENT<br><br>OPTASKS_CUSTOM_VALUE_CURRENT<br>OPTASKS_CUSTOM_VALUE_DAILY_HISTORY<br>OPTASKS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>Portfolio</td>
     <td>Portfolio</td>
     <td>PORT | Portfolio</td>
-    <td>PORTFOLIOS_CURRENT<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PORTFOLIOS_DAILY_HISTORY<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PORTFOLIOS_EVENT<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PORTFOLIOS_CUSTOM_VALUE_CURRENT<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PORTFOLIOS_CUSTOM_VALUE_DAILY_HISTORY<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PORTFOLIOS_CUSTOM_VALUE_EVENT</td>
+    <td>PORTFOLIOS_CURRENT<br>PORTFOLIOS_DAILY_HISTORY<br>PORTFOLIOS_EVENT<br><br>PORTFOLIOS_CUSTOM_VALUE_CURRENT<br>PORTFOLIOS_CUSTOM_VALUE_DAILY_HISTORY<br>PORTFOLIOS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>Program</td>
     <td>Program</td>
     <td>PRGM | Program</td>
-    <td>PROGRAMS_CURRENT<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PROGRAMS_DAILY_HISTORY<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PROGRAMS_EVENT<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PROGRAMS_CUSTOM_VALUE_CURRENT<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PROGRAMS_CUSTOM_VALUE_DAILY_HISTORY<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PROGRAMS_CUSTOM_VALUE_EVENT</td>
+    <td>PROGRAMS_CURRENT<br>PROGRAMS_DAILY_HISTORY<br>PROGRAMS_EVENT<br><br>PROGRAMS_CUSTOM_VALUE_CURRENT<br>PROGRAMS_CUSTOM_VALUE_DAILY_HISTORY<br>PROGRAMS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>Project</td>
     <td>Project</td>
     <td>PROJ | Project</td>
-    <td>PROJECTS_CURRENT<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PROJECTS_DAILY_HISTORY<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PROJECTS_EVENT<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PROJECTS_CUSTOM_VALUE_CURRENT<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PROJECTS_CUSTOM_VALUE_DAILY_HISTORY<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PROJECTS_CUSTOM_VALUE_EVENT</td>
+    <td>PROJECTS_CURRENT<br>PROJECTS_DAILY_HISTORY<br>PROJECTS_EVENT<br><br>PROJECTS_CUSTOM_VALUE_CURRENT<br>PROJECTS_CUSTOM_VALUE_DAILY_HISTORY<br>PROJECTS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>Role</td>
     <td>Job Role</td>
     <td>ROLE | Job Role</td>
-    <td>ROLES_CURRENT<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ROLES_DAILY_HISTORY<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ROLES_EVENT</td>
+    <td>ROLES_CURRENT<br>ROLES_DAILY_HISTORY<br>ROLES_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>Schedule</td>
     <td>Schedule</td>
     <td>SCHED | Schedule</td>
-    <td>SCHEDULES_CURRENT<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SCHEDULES_DAILY_HISTORY<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;SCHEDULES_EVENT</td>
+    <td>SCHEDULES_CURRENT<br>SCHEDULES_DAILY_HISTORY<br>SCHEDULES_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>Task</td>
     <td>Task</td>
     <td>TASK | Task</td>
-    <td>TASKS_CURRENT<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TASKS_DAILY_HISTORY<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TASKS_EVENT<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TASKS_CUSTOM_VALUE_CURRENT<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TASKS_CUSTOM_VALUE_DAILY_HISTORY<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TASKS_CUSTOM_VALUE_EVENT</td>
+    <td>TASKS_CURRENT<br>TASKS_DAILY_HISTORY<br>TASKS_EVENT<br><br>TASKS_CUSTOM_VALUE_CURRENT<br>TASKS_CUSTOM_VALUE_DAILY_HISTORY<br>TASKS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>Team</td>
     <td>Team</td>
     <td>TEAMOB | Team</td>
-    <td>TEAMS_CURRENT<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TEAMS_DAILY_HISTORY<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TEAMS_EVENT</td>
+    <td>TEAMS_CURRENT<br>TEAMS_DAILY_HISTORY<br>TEAMS_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>Timesheet</td>
     <td>Timesheet</td>
     <td>TSHET | Timesheet</td>
-    <td>TIMESHEETS_CURRENT<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TIMESHEETS_DAILY_HISTORY<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;TIMESHEETS_EVENT</td>
+    <td>TIMESHEETS_CURRENT<br>TIMESHEETS_DAILY_HISTORY<br>TIMESHEETS_EVENT</td>
     <td></td>
   </tr>
   <tr>
     <td>User</td>
     <td>User</td>
     <td>USER | User</td>
-    <td>USERS_CURRENT<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USERS_DAILY_HISTORY<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USERS_EVENT<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USERS_CUSTOM_VALUE_CURRENT<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USERS_CUSTOM_VALUE_DAILY_HISTORY<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;USERS_CUSTOM_VALUE_EVENT</td>
+    <td>USERS_CURRENT<br>USERS_DAILY_HISTORY<br>USERS_EVENT<br><br>USERS_CUSTOM_VALUE_CURRENT<br>USERS_CUSTOM_VALUE_DAILY_HISTORY<br>USERS_CUSTOM_VALUE_EVENT</td>
     <td></td>
   </tr>
 </tbody>
