@@ -6,6 +6,7 @@ title: Navigate the new UI in Workfront Fusion
 description: Workfront Fusion has updated its UI for users that do not access Fusion through the Adobe Experience Cloud. Now, their experience more closely matches Fusion on the Adobe Experience Cloud.
 author: Becky
 feature: Workfront Fusion
+exl-id: 2887a0e2-039e-4e29-823d-82809f217045
 ---
 # Navigate the new experience in Workfront Fusion
 
