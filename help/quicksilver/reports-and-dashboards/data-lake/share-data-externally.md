@@ -31,6 +31,9 @@ In order connect your Workfront data lake data with an external product, you mus
 >[!IMPORTANT]
 >
 >Once one entry is added to the IP allowlist, all other IP addresses are no longer permitted. Ensure you have input all required IP addresses—for both the building and reading experiences of your visualization tool—before attempting to use the tool. If not, you may encounter an error regarding invalid credentials.
+>
+>If you don't have any IP addresses included in your allowlist but are still having trouble connecting to a BI tool, check the proxy server configuration for the BI tool.
+
 
 ## Add IPs to the allowlist
 

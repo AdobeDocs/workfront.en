@@ -67,9 +67,13 @@ Accessing the Devtool differs based on whether you are using Fusion in the [!DNL
 * [Access the Devtool in the [!DNL Adobe Unified Experience]](#access-the-devtool-in-the-adobe-unified-experience)
 * [Access the Devtool in the classic [!DNL Fusion] experience](#access-the-devtool-in-the-classic-fusion-experience)
 
-### Access the Devtool in the [!DNL Adobe Unified Experience]
+### Access the Devtool in the [!DNL Adobe Unified Experience] or the new Fusion experience
 
-If you use Fusion in the Adobe Unified Shell, you can access the Dev Tool from the Scenario editor.
+If you use Fusion in the Adobe Unified Shell, or have updated to the new Fusion experience, you can access the Dev Tool from the Scenario editor.
+
+1. Click the **Helper tools** ![Helper tools](assets/debugger-icon.png) icon near the bottom of the screen.
+
+Or: 
 
 1. Go to the Scenario editor for the scenario you want to debug. 
   

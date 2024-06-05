@@ -31,9 +31,9 @@ For information about manually aligning two goals, see [Align goals by connectin
  <tr>
  <td role="rowheader">Adobe Workfront license*</td>
  <td>
- <p>Current license: Contributor or higher</p>
+ <p>New license: Contributor or higher</p>
  Or
- <p>Legacy license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
+ <p>Current license: Request or higher</p> <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Product*</td>
