@@ -17,6 +17,12 @@ exl-id: fe213fe7-5bb8-479c-926b-761cbdd7ba4e
 
 After you have created a package, you can install it in a different environment.
 
+You must install a package in the environment that you want to copy objects **to**. For example, if you are configuring a project in your Custom Refresh Sandbox environment and promoting it to your Production environment, you must install the package in your Production environment.
+
+>[!IMPORTANT]
+>
+>If your Custom Refresh Sandbox is refreshed while you are configuring object for environment promotion, that configuration will be lost in the refresh. We recommend that you do not refresh your Custom Refresh Sandbox unless all outstanding environment promotion objects and packages have been successfully promoted.
+
 ## Prerequisites
 
 You must have created a package before you can install it. 
