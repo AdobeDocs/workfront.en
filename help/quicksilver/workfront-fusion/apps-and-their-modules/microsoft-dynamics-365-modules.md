@@ -69,6 +69,12 @@ To use [!DNL Microsoft Dynamics] 365, you must have a [!DNL Microsoft Dynamics 3
 
 You can create a connection to your [!DNL Microsoft Dynamics 365] account directly from inside an [!DNL Microsoft Dynamics 365] module.
 
+>[!NOTE]
+>
+>Some Microsoft apps use the same connection, which is tied to individual user permissions. Therefore, when creating a connection, the permissions consent screen displays any permissions that were previously granted to this user's connection, in addition to any new permissions needed for the current application. 
+>
+>For example, if a user has "Read table" permissions granted via the Excel connector and then creates a connection in the Outlook connector to read emails, the permissions consent screen will show both the already granted "Read table" permission and the newly required "Write email" permission.
+
 1. In any [!DNL Microsoft Dynamics 365] module, click **[!UICONTROL Add]** next to the [!UICONTROL Connection] field.
 1. Enter a name for the connection.
 1. In the **[!UICONTROL Resource]** field, enter the address of your [!DNL Dynamics 365] account, without `https://`.
