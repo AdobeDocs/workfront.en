@@ -152,8 +152,6 @@ You must have the following access to perform the steps in this article:
 
 {{step1-to-planning}}
 
-  The last-accessed workspace should open by default. 
-
 1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to connect records from.
 1. Click the card of a record type to open the record type page. 
 1. Select a **Table** view from the **View** drop-down menu in the upper-right corner of the record type page. 
@@ -218,8 +216,6 @@ After you created a connection between a record type and a Workfront object type
 
 
 {{step1-to-planning}}
-
-  The last-accessed workspace should open by default. 
 
 1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to connect records from.
 1. Click the card of a record type to open the record type page. 
@@ -303,8 +299,6 @@ After you created a connection between a record type and a Workfront object type
 After you create a connection between a record type and Adobe Experience Manager Assets, you can connect individual records to Experience Manager assets. The asset fields you connected from Experience Manager Assets when you created the connection automatically populate on the record type you linked from.
 
 {{step1-to-planning}}
-
-  The last-accessed workspace should open by default. 
 
 1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to connect records from.
 1. Click the card of a record type to open the record type page. 

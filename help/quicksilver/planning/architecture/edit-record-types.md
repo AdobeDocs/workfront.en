@@ -91,8 +91,6 @@ You must have the following access to perform the steps in this article:
 
 {{step1-to-planning}}
 
-   The last-accessed workspace should open by default. 
-
 1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to edit record types for.
 1. Hover over the card of a record type and click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the record type card, then click **Edit**. 
 
