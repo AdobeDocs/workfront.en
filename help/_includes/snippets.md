@@ -236,9 +236,9 @@ You must install the correct plugin for the Adobe Creative Cloud application you
       </tr>
       </table>
 
-<!-- Maestro -->
+<!-- Workfront Planning -->
 
-## Step 1 - Getting to Maestro - {#step1-to-maestro}
+## Step 1 - Getting to Maestro - {#step1-to-planning}
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Planning]**.
 
@@ -254,7 +254,7 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 >
 >Your account representative will inform you if you are part of this stage.
 >
->For more information, see [Adobe Workfront Planning overview](/help/quicksilver/maestro/maestro-overview.md).
+>For more information, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
 
 <!-- Manage Work -->
 
