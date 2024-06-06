@@ -116,8 +116,6 @@ You must have the following access to perform the steps in this article:
 
 {{step1-to-planning}}
 
-   The last-accessed workspace should open by default. 
-
 1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to delete record types for.  
 
     The workspace opens and the record types display. 
