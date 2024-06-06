@@ -92,6 +92,8 @@ When creating a timeline view, all records of the selected record type display i
 Consider the following: 
 
 * You can create a Timeline view only when you have at least two date fields associated with a record type. When you have one or no date fields associated with a record type, the Timeline view option is dimmed. 
+
+    You can select from record date fields, or lookup date fields from connected record or object types.
 * Depending on the dates associates with the records, some records might not display in the timeline view in the following scenarios:
 
     * When the Start and End dates have no values

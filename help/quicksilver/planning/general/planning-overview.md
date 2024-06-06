@@ -276,24 +276,36 @@ To locate Workfront Planning:
 1. Click **Planning** ![](assets/planning-icon.png).
 
     The Workspaces area opens.
+    
+    <!--replace above with: The Workfront Planning landing page opens. 
+    ![](assets/planning-landing-page-admin.png)
+    1. (Conditional and optional) If you are a Workfront administrator, click one of the following tabs:
+    * **My workspaces**: Displays workspaces you created or workspaces that are shared with you.
+    * **Other workspaces**: Displays all workspaces in the system.
+    Otherwise, all workspaces display in the **Workspaces** area.-->
 
 1. (Optional and recommended) Continue with some of the following actions, to build your work structure: 
 
-    1. Create a workspace from scratch or using a template. 
+    1. Create a workspace from scratch or using a template. For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md). 
 
-    1. Add sections to the new workspace. 
+    1. Add sections to the new workspace. For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md). 
     1. Rename the existing sections in the new workspace. 
-    1. Add record types to the new workspace. 
+    1. Add record types to the new workspace. For information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md). 
 
     1. Click the name of a record type to open the record type's page. The record type page opens in the Table view, by default.
 
-        You can also create a Timeline or a Calendar view. 
+        You can also create a Timeline or a Calendar view. For information, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
     
     1. In the table view, start adding records by adding rows
 
         Or
 
         Start adding record fields by adding columns. 
+
+        For information, see the following articles: 
+
+        * [Create records](/help/quicksilver/planning/records/create-records.md)
+        * [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
 
 ## Adobe Workfront Planning release activity 
 

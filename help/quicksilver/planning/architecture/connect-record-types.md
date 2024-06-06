@@ -167,9 +167,7 @@ You must have the following access to perform the steps in this article:
 
 <!--when changes here, also update the article for "Connect records"-->
 
-{{step1-to-planning}}
-
-   The last-accessed workspace should open by default. 
+{{step1-to-planning}} 
 
 1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to connect record types from.
 1. Click the card of a record type to open the record type page. 
