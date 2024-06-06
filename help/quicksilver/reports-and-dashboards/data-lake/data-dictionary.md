@@ -45,6 +45,15 @@ Objects in Workfront (and, therefore, in your data lake) are defined not only by
 >
 >The entity relationship diagram is a work in progress—as such, it is for reference purposes only and is subject to change.
 
+## Date types
+
+There are a number of date objects that provide information about when specific events occur. 
+
+* `DL_LOAD_TIMESTAMP`: This date is used for internal reference, and reflects when the data was loaded into the Current, Event, or Daily History table. This date should not be used for data analysis, and planned to be removed during the beta phase of Workfront data lake.
+* `CALENDAR_DATE`: This date is present only in the Daily History table. This table provides a record of what the data looked like at 11:59 UTC for each date specified in `CALENDAR_DATE`.
+* `BEGIN_EFFECTIVE_TIMESTAMP`: This date is present in both Event and Daily History tables, and records exactly when a record changed _to_ the value it has in the current row.
+* `END_EFFECTIVE_TIMESTAMP`: This date is present in both Event and Daily History tables, and records exactly when a record changed _from_ the value in the current row to a value in a different row. To allow for between queries on `BEGIN_EFFECTIVE_TIMESTAMP` and `END_EFFECTIVE_TIMESTAMP` this is value is never null, even if there is no new value. In the event a record is still valid (i.e., the value has not changed), `END_EFFECTIVE_TIMESTAMP` will have a value of 2300-01-01.
+
 ## Terminology table
 
 The following table correlates object names in Workfront (as well as their names in the interface and API) with their equivalent names in the data lake.

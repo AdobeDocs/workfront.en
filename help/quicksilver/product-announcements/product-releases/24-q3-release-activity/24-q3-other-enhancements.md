@@ -12,6 +12,14 @@ This page describes enhancements made with the Third Quarter 2024 release to the
 
 For a list of all changes available at this point in the Third Quarter 2024 release cycle, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
+## Help button removed from the main navigation bar
+
+>[!NOTE]
+>
+>Preview release: June 6, 2024; Production for fast release: With the 24.6 release (June 20, 2024); Production for quarterly release: With the 24.7 release (July 2024)
+
+To unify the experience for users not on Unified Shell, the Help button on the main navigation bar has been removed. This button, which is not present for users on Unified Shell, linked to the Workfront documentation and was redundant with a similar Help button available for all users in the Main Menu.
+
 ## Improved UI experience for users with limited object access
 
 When a user does not have access to an object, the user will see "No access" anywhere that object name displays in Workfront. This improved experience also applies to the Workfront API.

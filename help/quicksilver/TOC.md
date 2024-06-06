@@ -18,6 +18,7 @@ feature-set: Workfront
       * [2024 Q3 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md)
       * [2024 Q3 Financial management enhancements](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md)
       * [2024 Q3 Project enhancements](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md)
+      * [2024 Q3 Resource management enhancements](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md)
       * [Other enhancements during the 2024 Q3 release timeframe](product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md)
       * [Look-and-feel updates during the 2024 Q3 release timeframe](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md)
     * 2024 Q2 Release {#release-24-q2}
