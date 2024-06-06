@@ -10,7 +10,6 @@ Welcome to the Adobe Workfront product and technical documentation home page. Us
 
 ## What's new
 
-
 >[!BEGINTABS]
 
 >[!TAB Latest release]
@@ -46,7 +45,7 @@ Welcome to the Adobe Workfront product and technical documentation home page. Us
  
   <tr tr style="border: 0;">
     <td style="text-align: center;"><img src="assets/admin.svg" style="width: 100px; height: 100px;"><p><b>Administrators</b></p></td>
-    <td colspan="2" style="text-align: center;"><img src="assets/user.svg" style="width: 100px; height: 100px;"><p><b>End users <!--Individual contributors--></b></p></td>
+    <td colspan="2" style="text-align: center;"><img src="assets/user.svg" style="width: 100px; height: 100px;"><p><b>Users</b></p></td>
     <td style="text-align: center;"><img src="assets/developer.svg" style="width: 100px; height: 100px;"><p><b>Developers</b></p></td>
   </tr>
   <tr tr style="border: 0;">
@@ -91,8 +90,8 @@ Searching documentation can be more efficient with a few strategic approaches. H
 
 ### Explore Learning and Training Sections
 
-* **Training Materials**: Navigate to the [Workfront tutorials](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home) page for a library of training videos and articles designed to help you better understand Workfront features and settings. You can also access paid training materials at [http://learning.adobe.com/](http://learning.adobe.com/).
-* **Courses**: Check for structured learning paths that guide you through using various Workfront features in a logical sequence.
+* **Training Materials**: Navigate to the [Workfront training](https://experienceleague.adobe.com/en/browse/workfront) page for a library of training videos and articles designed to help you better understand Workfront features and settings. You can also access paid training materials at [learning.adobe.com](http://learning.adobe.com/).
+* **Courses**: Find [structured learning courses](https://experienceleague.adobe.com/home?Solution=Workfront#courses) that guide you through using various Workfront features in a logical sequence.
 
 ### Find answers in Community Forums
 
