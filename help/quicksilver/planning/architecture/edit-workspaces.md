@@ -83,8 +83,6 @@ For more information about access requirements, see [Access requirements in Work
 ## Edit a workspace
 
 {{step1-to-planning}}
-
- This opens the Workspaces area of Workfront Planning. 
     
 1. Click inside the name of the workspace in the header of the new workspace to rename it, then press **Enter**. 
 1. Click the **More** menu ![](assets/more-menu.png)to the right of the workspace name in the header, then click **Edit**.

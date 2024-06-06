@@ -105,7 +105,12 @@ You can create a workspace and add record types to it to organize your objects i
 
 {{step1-to-planning}}
 
-   This opens the Workspaces area of Workfront Planning.
+   <!--replace the snippet with the new snippet with the landing page The Workfront Planning landing page opens. 
+    ![](assets/planning-landing-page-admin.png)
+    1. (Optional) Click the **My workspaces** tab to view workspaces you created
+    Or
+    Click the **Other workspaces** tab to view workspaces shared with you. 
+    -->
 
 1. (Conditional) If you don't have any workspaces in your environment, click **Create workspace**
 
