@@ -609,6 +609,7 @@ feature-set: Workfront
           * [Manage a form](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/manage-a-form-toc.md)
           * [Add or delete object types from an existing custom form with the form designer](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md)
           * [Rename a custom form with the form designer](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/rename-a-custom-form.md)
+          * [Configure sharing for custom fields and widgets with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)
       * Manage custom forms {#manage-custom-forms}
         * [Manage custom forms and fields](administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)
         * [Share a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
