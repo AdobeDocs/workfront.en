@@ -14,14 +14,6 @@ hidefromtoc: yes
 ---
 # [!DNL Adobe Journey Optimizer] Modules
 
->[!IMPORTANT]
->
->This connector has been deprecated because it was based on Adobe Journey Optimizer APIs that are now deprecated.
->
->We are currently working on a new connector based on the new Adobe Journey Optimizer API. 
-
-<!--
-
 In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Adobe Journey Optimizer], as well as connect it to multiple third-party applications and services. [!DNL Adobe Journey Optimizer] modules allow you to create, read, update, or delete records, or perform a custom API call to the [!DNL Adobe Journey Optimizer] API.
 
 
@@ -192,7 +184,7 @@ This action module creates a placement, decision rule, tag, personalized offer, 
         <li><b>[!UICONTROL Tag]</b>: Continue to <a href="#tag-fields" >[!UICONTROL Tag] fields</a>.</li>
         <li><b>[!UICONTROL Collection]</b>: Continue to <a href="#collection-fields" >[!UICONTROL Collection] fields</a>.</li>
         <li><b>[!UICONTROL Fallback offer]</b>: Continue to <a href="#fallback-offer-fields" >[!UICONTROL Fallback offer] fields</a>.</li>
-        <li><b>[!UICONTROL Personalized offer]</b>: Continue to <a href="#personalized-offer-fields" >[!UICONTROL Personalized offer] fields</a>.</li>
+- [ ]         <li><b>[!UICONTROL Personalized offer]</b>: Continue to <a href="#personalized-offer-fields" >[!UICONTROL Personalized offer] fields</a>.</li>
         </ul>
       </td>
     </tr>
@@ -317,14 +309,7 @@ This action module creates a placement, decision rule, tag, personalized offer, 
       <td role="rowheader">
         [!UICONTROL Filter Type]
       </td>
-      <td>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        [!UICONTROL Elements]
-      </td>
-      <td>Select the tags to include in the colelction.
+      <td>Select the tags to include in the collection.
       </td>
     </tr>
   </tbody>
@@ -402,6 +387,11 @@ This action module creates a placement, decision rule, tag, personalized offer, 
       <td>Enter or map the number of times this offer will be presented.
       </td>
     </tr>
+   <tr>
+      <td role="rowheader">[!UICONTROL Tags]</td>
+      <td>Enter or map the the tags for this offer.
+      </td>
+    </tr>
   </tbody>
 </table>
 
@@ -477,7 +467,7 @@ This module makes a custom API call to the [!DNL Adobe Journey Optimizer] API
       <td>
         <p>Add the headers of the request in the form of a standard JSON object.</p>
         <p>For example, <code>{"Content-type":"application/json"}</code></p>
-        <p>Workfront Fusion adds authorization headers and x-api-key headers automatically.</p>
+        <p>Workfront Fusion adds authorization, x-api-key, and x-gw-ims-org-id headers automatically.</p>
       </td>
     </tr>
     <tr>
@@ -499,46 +489,6 @@ This module makes a custom API call to the [!DNL Adobe Journey Optimizer] API
       </td>
     </tr>
   </tbody>
-</table>
-
-#### [!UICONTROL Delete a Record]
-
-This action module deletes a single record in [!DNL Adobe Journey Optimizer].
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-     <td role="rowheader">[!UICONTROL Connection]</td>
-     <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        [!UICONTROL Record Type]
-      </td>
-      <td>
-        Select the type of record that you want to delete
-        <ul>
-        <li>[!UICONTROL Placement]</li>
-        <li>[!UICONTROL Decision rule]</li>
-        <li>[!UICONTROL Decision]</li>
-        <li>[!UICONTROL Tag]</li>
-        <li>[!UICONTROL Collection]</li>
-        <li>[!UICONTROL Fallback offer]</li>
-        <li>[!UICONTROL Personalized offer]</li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Placement]/[!UICONTROL Decision rule]/[!UICONTROL Decision]/[!UICONTROL Tag]/[!UICONTROL Collection]/[!UICONTROL Fallback offer]/[!UICONTROL Personalized offer]
-      </td>
-      <td>
-        Select the record that you want to delete.
-      </td>
-    </tr>
-
-</tbody>
 </table>
 
 #### [!UICONTROL Update a record]
@@ -585,8 +535,8 @@ This action module creates a placement, decision, decision rule, tag, personaliz
       <ol>
       <li>Click <b>[!UICONTROL Add]</b>.</li>
       <li>Select whether you want to add, replace, or remove values.</li>
-      <li>Enter the field that you want to update.</li>
-      <li>Enter the new value for the field.</li>
+      <li>Enter or map the field that you want to update.</li>
+      <li>Enter or map the new value for the field.</li>
       </td>
     </tr>
 
@@ -627,10 +577,18 @@ This search module lists records of the selected type, returning results based o
     </tr>
     <tr>
       <td role="rowheader">
+        <p>[!UICONTROL Query string]</p>
+      </td>
+      <td>
+        <p>Enter a query string for your search.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
         <p>[!UICONTROL Query operator]</p>
       </td>
       <td>
-        <p>Select an operator to apply to parameters in the query</p>
+        <p>Select an operator to apply to parameters in the query.</p>
       </td>
     </tr>
     <tr>
@@ -651,4 +609,4 @@ This search module lists records of the selected type, returning results based o
   </tbody>
 </table>
 
--->
+
