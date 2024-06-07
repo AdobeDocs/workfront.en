@@ -40,7 +40,7 @@ For more information, see [Share a custom form](/help/quicksilver/administration
 
 >[!NOTE]
 >
->Preview release: June 6, 2024; Production for fast release: With the 24.6 release (June 20, 2024); Production for quarterly release: With the 24.7 release (July 2024)
+>Preview release: June 6, 2024; Production release for all customers: With the 24.7 release (July 2024)
 
 You can now add a new custom field or widget directly from the Fields area in Workfront, without opening a custom form to create the field. This allows you to quickly create reusable custom fields.
 
