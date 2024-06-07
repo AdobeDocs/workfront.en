@@ -275,14 +275,15 @@ To locate Workfront Planning:
 
 1. Click **Planning** ![](assets/planning-icon.png).
 
-    The Workspaces area opens.
-    
-    <!--replace above with: The Workfront Planning landing page opens. 
+    The Workfront Planning landing page opens. 
+
     ![](assets/planning-landing-page-admin.png)
+
     1. (Conditional and optional) If you are a Workfront administrator, click one of the following tabs:
-    * **My workspaces**: Displays workspaces you created or workspaces that are shared with you.
-    * **Other workspaces**: Displays all workspaces in the system.
-    Otherwise, all workspaces display in the **Workspaces** area.-->
+    * **My workspaces**: Displays workspaces you created.
+    * **Other workspaces**: Displays all other workspaces in the system, including the ones shared with you.
+
+    For all other users, all workspaces that they created or are shared with them display in the **Workspaces** area.
 
 1. (Optional and recommended) Continue with some of the following actions, to build your work structure: 
 

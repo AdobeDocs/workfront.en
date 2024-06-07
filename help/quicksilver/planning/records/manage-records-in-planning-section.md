@@ -103,7 +103,9 @@ You must have the following access to perform the steps in this article:
 
 {{step1-to-planning}}
 
-   The last accessed workspace opens by default. 
+1. Click the card of a workspace. 
+
+    The workspace opens and the record types display as cards. 
 
 1. Click the card of a record type that is connected to a Workfront project, portfolio, or program. 
 1. Choose a table view from the **View** drop-down menu.

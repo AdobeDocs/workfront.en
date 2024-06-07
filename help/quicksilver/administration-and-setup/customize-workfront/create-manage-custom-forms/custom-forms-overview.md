@@ -72,4 +72,6 @@ Users can attach custom forms to the following object types:
 
 For more information about attaching custom forms to objects, see [Add a custom form to an object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
+For information about what happens to custom forms when an issue is converted to a project, see [Convert an issue to a project](/help/quicksilver/manage-work/issues/convert-issues/convert-issue-to-project.md).
+
 

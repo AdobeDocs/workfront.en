@@ -96,9 +96,11 @@ You can delete a record from the following areas:
 
 {{step1-to-planning}}
 
-   The workspace that you access last opens. 
+1. Click the workspace whose records you want to delete.
 
-1. Click a record type. 
+    The workspace opens and the record types display as cards.
+
+1. Click a record type card. 
 
     The record type page opens. 
 1. Do one of the following:
@@ -120,9 +122,11 @@ You can delete a record from the following areas:
 
 {{step1-to-planning}}
 
-  The workspace that you accessed last opens. 
+1. Click the workspace whose records you want to delete.
 
-1. Click a record type. 
+    The workspace opens and the record types display as cards.
+
+1. Click a record type card. 
 
     The record type page opens. 
 1. (Conditional) From the **View** drop-down menu in the upper-left corner of the table, select a Table view. This should be the default view, unless you viewed the record type in the timeline view when you accessed it last. 

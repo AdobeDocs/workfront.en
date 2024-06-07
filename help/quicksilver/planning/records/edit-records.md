@@ -114,9 +114,9 @@ You can edit a record from the following areas:
 
 {{step1-to-planning}}
 
-  The workspace that you accessed last opens. 
+1. Click the workspace whose records you want to edit
 
-1. (Optional) Click the downward-pointing arrow to the right of the workspace name to select the workspace whose records you want to update. 
+    The workspace opens and the record types display as cards.
 1. Click a record type card. 
 
     The record type page opens. 
@@ -186,9 +186,9 @@ You can edit a record from the following areas:
 
 {{step1-to-planning}}
 
-   The workspace that you access last opens. 
+1. Click the workspace whose records you want to edit
 
-1. (Optional) Click the downward-pointing arrow to the right of the workspace name to select the workspace whose records you want to update. 
+    The workspace opens and the record types display as cards. 
 
 1. Click a record type card. 
 
@@ -225,9 +225,9 @@ You can edit a record from the following areas:
 
 {{step1-to-planning}}
 
-   The workspace that you access last opens. 
+1. Click the workspace whose records you want to edit
 
-1. (Optional) Click the downward-pointing arrow to the right of the workspace name to select the workspace whose records you want to update. 
+    The workspace opens and the record types display as cards. 
 
 1. Click a record type card. 
 

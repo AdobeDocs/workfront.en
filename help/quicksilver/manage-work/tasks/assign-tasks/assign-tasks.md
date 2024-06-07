@@ -162,16 +162,16 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 ## Assign a single task
 
 1. Go to a task that you want to assign.
-1. Click **Assign to** in the **Assignments** field in the header of the task or issue.
+1. Click **Assign to** in the **Assignments** field in the header of the task 
 
    Or
 
    Click the name of the assignments if the task or issue is already assigned.
 
-   Sample image in the Production environment:
+   In the Production environment:
    ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
 
-   <span class="preview">Sample image in the Preview environment:</span>
+   <span class="preview">In the Preview environment:</span>
    ![Assignments](assets/assignments-box-in-task-header.png)
 
 1. Do one of the following:

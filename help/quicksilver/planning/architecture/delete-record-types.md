@@ -116,13 +116,20 @@ You must have the following access to perform the steps in this article:
 
 {{step1-to-planning}}
 
-1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to delete record types for.  
+1. Click the workspace whose record types you want to delete, 
+
+    Or
+
+    From a workspace, expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to delete record types from.
 
     The workspace opens and the record types display. 
-1. Click the card for the record type that you want to delete. 
+1. Do one of the following:
 
-    This opens the record type's page. 
-1. Click the **More** menu ![](assets/more-menu.png) to the right of the record type name, then click **Delete**. <!--add screen shot when they finalize the UI-->
-1. Type **Delete** in the confirmation box, then click **Permanently delete**.
+   * Hover over the record type card, click the More menu, then **Delete**. 
+   * Click the card for the record type that you want to delete, and from the record type page, click the **More** menu ![](assets/more-menu.png) to the right of the record type name, then click **Delete**. 
+
+   ![](assets/permanently-delete-record-type-confirmation.png)
+
+1. Type **delete** in the confirmation box, then click **Permanently delete**. This is not case sensitive. 
    
    The selected record type, along with their fields, associated records, and views are deleted.

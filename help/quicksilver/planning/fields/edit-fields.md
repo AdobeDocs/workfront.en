@@ -121,13 +121,17 @@ You must have the following access to perform the steps in this article:
 
 {{step1-to-planning}}
 
-1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to delete record types for.  
+1. Click the workspace whose record fields you want to edit.
 
-    The workspace opens and the record types associated with it display. 
-1. Click the card for the record type whose fields you want to edit.
+    The workspace opens and all the record types in the workspace display on cards. 
 
-    This opens the record type's page. 
+1. Click the card of a record type. 
+
+   This opens the record type's page. 
+
 1. (Conditional) Click the tab of a **Table view**.
+
+    All existing records associated with the record type display in the rows of the table view.
 1. Hover over the column header of a field you want to edit, then click the downward-pointing arrow after the field name, then click **Edit field**
 
     Or 
@@ -140,7 +144,9 @@ You must have the following access to perform the steps in this article:
 
     >[!TIP]
     >
-    >You cannot update the field type after the field is saved.
+    >* You cannot update the field type after the field is saved.
+    >
+    >* When you modify field configurations (field options or formula expressions), records that already contain information in the modified fields will update their values in real-time. There is no warning and no audit log for the value changes triggered by field configuration changes. All users who view the fields will immediately see the new values with the modifications.
 
     The field information updates for everyone with access to view the workspace. 
 
@@ -148,9 +154,3 @@ You must have the following access to perform the steps in this article:
 
     For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
 
-<!--After the release of the RTBE for field configurations, replace the tip with this:
->[!TIP]
->
->* You cannot update the field type after the field is saved.
->
->* When you modify field configurations (field options or formula expressions), records that already contain information in the modified fields will update their values in real-time. There is no warning and no audit log for the value changes triggered by field configuration changes. All users who view the fields will immediately see the new values with the modifications. -->

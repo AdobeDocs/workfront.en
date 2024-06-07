@@ -105,19 +105,9 @@ You can create a workspace and add record types to it to organize your objects i
 
 {{step1-to-planning}}
 
-   <!--replace the snippet with the new snippet with the landing page The Workfront Planning landing page opens. 
-    ![](assets/planning-landing-page-admin.png)
-    1. (Optional) Click the **My workspaces** tab to view workspaces you created
-    Or
-    Click the **Other workspaces** tab to view workspaces shared with you. 
-    -->
+1. Click **Create workspace**
 
-1. (Conditional) If you don't have any workspaces in your environment, click **Create workspace**
-
-   Or, from an existing workspace, click the downward-pointing arrow to the right of the workspace name, then click **Create workspace**. 
-
-   ![](assets/workspace-drop-down-right-menu.png)
-
+   The Create workspace box displays. You can create a workspace from scratch or create it using one of the available templates.  
     
 1. (Optional and conditional) Click **Preview** inside any of the following predefined workspace templates:
 
@@ -125,17 +115,19 @@ You can create a workspace and add record types to it to organize your objects i
     * Sales management
     * Product management
     
+    The template preview box opens. 
+    
     There is an indication of what operational record types, taxonomies and how many fields are associated with each template.
 
     ![](assets/previewing-a-workspace-template.png)
 
     For information about Workfront Planning workspace templates, see [List of workspace templates](/help/quicksilver/planning/architecture/workspace-templates.md).
 
-1. Click **Use template** to start creating the workspace from the selected template
+1. From the template preview box, click **Use template** to start creating the workspace from the selected template
 
     Or
 
-    Click **Create workspace** to create a workspace from scratch.
+    Click **Back**, then click **Create workspace** to create a workspace from scratch.
 
     One for the following types of workspaces is created:
     
