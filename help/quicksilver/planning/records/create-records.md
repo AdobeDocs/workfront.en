@@ -92,7 +92,9 @@ For information about editing record information, see [Edit records](/help/quick
 
 {{step1-to-planning}}
   
-  The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).
+1. Click the workspace where you want to add records.
+
+    The workspace opens and the record types display as cards.
 
 1. Click a record type card. For information about creating a record type, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md). 
 

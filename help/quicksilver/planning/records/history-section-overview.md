@@ -29,7 +29,12 @@ The right panel of a record displays the following sections:
 
 {{step1-to-planning}}
 
-   The last accessed workspace opens by default. 
+1. Click the card of a workspace. 
+
+    The workspace opens and the record types display on cards. 
+
+1. Click a record type card.
+    The record type page opens and all records of that type display. 
 
 1. Choose a table view from the **View** drop-down menu.
 1. Click the name of a record in the table view. 

@@ -169,7 +169,11 @@ You must have the following access to perform the steps in this article:
 
 {{step1-to-planning}} 
 
-1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to connect record types from.
+1. Click the workspace whose record types you want to connect, 
+
+    Or
+
+    From a workspace, expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to connect record types from.
 1. Click the card of a record type to open the record type page. 
 1. Click the **+** icon in the upper-right corner of the table view, then click the **New connection** tab.
 

@@ -264,9 +264,9 @@ To add a filter to a table view:
 1. Select a table view, then click **Filters** in the upper-right corner of the table.    
 1. Click **Add condition** and add the following information: 
 
-    * Select a field that you want to filter by <!-- the tip below might change-->
+    * **Select a field** that you want to filter by <!-- the tip below might change-->
 
-    * Select an option (or a filter modifier) to define what kind of condition the field must meet
+    * **Select an option** (or a filter modifier) to define what kind of condition the field must meet
 
         The table below displays the available modifiers for each type of field.
 
@@ -381,7 +381,7 @@ To add a grouping:
 
     The grouping is applied automatically to the table and records display under the grouping separation line.
     
-1. (Optional) Repeat the above steps to add up to 3 groupings. 
+1. (Optional) Click **Add condition** and repeat the above steps to add up to 3 groupings. 
 
     The number of fields selected for the grouping displays next to the Grouping icon. 
 
@@ -432,13 +432,13 @@ To sort <!--ungrouped (add this when sorting for groupings will be available--> 
 
     Hover over the name of a column in the table view, click the downward-pointing arrow to the right of the column header name, then click **Sort by this field**. The field is added as a sorting selection in the Sort icon in the upper-right corner of the table view.
 
-1. In the **Sort records by** box, click one of the suggested fields, or click **Choose a different field** and search for a different field, then click it when it displays in the list. 
+1. (Conditional) In the **Sort records by** box, click one of the suggested fields, or click **Choose a different field** and search for a different field, then click it when it displays in the list. 
 
     The sorting is applied automatically to the table view and records display sorted by your selected criteria. 
 
     <!-- add a step that you can rearrange the sorting fields here, when this will be possible-->
     
-1. (Optional) Repeat the above steps to sort by additional fields.  
+1. (Optional) Click **Add condition**, and repeat the above steps to sort by additional fields.  
 
     The number of fields that you are sorting by displays to the left of the Sort icon in the upper-right corner of the toolbar. You can choose only fields that display in the columns of the table view.
 

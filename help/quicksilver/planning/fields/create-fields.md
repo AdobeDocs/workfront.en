@@ -111,9 +111,11 @@ You must have the following access to perform the steps in this article:
 
 {{step1-to-planning}}
 
-  The last-accessed workspace should open by default. 
+1. Click the workspace whose records you want to create fields for.
 
-1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace whose record types you want to create fields for, then click the record type. 
+    The workspace opens and the record types display. 
+
+1. Click the card of a record type. 
 
     All existing records associated with the record type display in the rows of the table view. 
 
@@ -121,9 +123,12 @@ You must have the following access to perform the steps in this article:
     >
     >    If no records display, you might not have any records yet, or you might have a filter applied that limits what you see on the screen.
 
-    All existing fields associated with the record type display in the columns of the table view. <!--caveat this for when we can hide the fields; mention that they can be hidden if they are not visible by default-->
+    All existing fields associated with the record type display in the columns of the table view. 
 
-    
+    >[!TIP]
+    >
+    >    Some fields might be hidden. Click Fields and enable the toggle of the fields you want to view as columns in the table view. 
+   
 1. Click the **+** icon in the upper-right corner of the table view to add new fields.
 1. In the **New field** tab, search for a field type in the **Field type** box, or select from the following field types: 
 

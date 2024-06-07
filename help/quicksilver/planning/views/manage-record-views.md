@@ -144,9 +144,13 @@ The following table shows the similarities and differences between the table, ti
 {{step1-to-planning}} 
     
     
-The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).
+1. Click the card of a workspace. 
 
-1. Click a record type card. For information about creating a record type, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md). 
+    The workspace opens and the record types display as cards. 
+ 
+1. Click a record type card. 
+
+    The record type page opens. 
 
     By default, all the records of the selected type display in the table view. 
 
@@ -212,11 +216,13 @@ The workspace you last accessed opens by default. For information about creating
 
 {{step1-to-planning}}
 
-The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).
+1. Click the card of a workspace. 
 
+    The workspace opens and the record types display as cards. 
+ 
 1. Click a record type card. 
 
-    For information about creating a record type, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md). 
+    The record type page opens.  
 
     By default, all the records of the selected type display in the table view. 
 
@@ -241,12 +247,13 @@ The sharing permissions of the original view do not transfer to the duplicated v
 
 {{step1-to-planning}} 
 
-The workspace you last accessed opens by default. 
+1. Click the card of a workspace. 
 
-For information about creating workspaces, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).
+    The workspace opens and the record types display as cards. 
+ 
+1. Click a record type card. 
 
-1. Click a record type card. For information about creating a record type, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md). 
-
+    The record type page opens. 
     By default, all the records of the type selected display in the table view. 
 
 1. Hover over the tab of the view you want to duplicate, and click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Duplicate**. 
