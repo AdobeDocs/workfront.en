@@ -129,8 +129,6 @@ For information about what record types are included with each template, see [Li
 
 {{step1-to-planning}}
 
-The last-accessed workspace should open by default. 
-
 1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to create record types for.
 1. (Optional) Click **Add section** to add a new section to the workspace.
 1. Click **Add record type**. 
@@ -217,8 +215,6 @@ Consider the following when importing record types using an Excel or CSV file:
 To import record types using an Excel file: 
 
 {{step1-to-planning}}
-
-The last-accessed workspace should open by default. 
 
 1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to create record types for.
 1. Click **Add record type**. 

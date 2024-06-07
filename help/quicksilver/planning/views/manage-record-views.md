@@ -166,14 +166,12 @@ The workspace you last accessed opens by default. For information about creating
 >
 >When you create a record type, the table view is also created by default. 
 >
->To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
+>To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. 
+>
+>Otherwise, the Timeline and the Calendar options are dimmed.
 >
 
 ![](assets/view-types-drop-down-from-record-type-list.png)
-
->[!NOTE]
->
->    To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline or the Calendar options are dimmed.
 
 1. (Conditional) Click **Next**, when creating a timeline or calendar view.
     
@@ -189,7 +187,7 @@ The workspace you last accessed opens by default. For information about creating
     
     >[!TIP]
     >
-    >    You can select from record date fields, or lookup date fields from connected records or objects. 
+    >    You can select from record date fields, or lookup date fields from connected record or object types.
 
 1. Click **Create**.
 

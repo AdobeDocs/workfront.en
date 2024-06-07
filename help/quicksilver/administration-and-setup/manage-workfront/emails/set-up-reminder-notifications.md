@@ -1,6 +1,6 @@
 ---
 title: Set up reminder notifications
-description: Set up reminder notifications
+description: Reminder notifications generate emails that are sent to users based on specified criteria. Reminder notifications remind users of an action the need to take for a task, issue, project, or timesheet. 
 author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
@@ -10,7 +10,11 @@ exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
 
 <!-- Audited: 1/2024 -->
 
-Reminder notifications send emails to recipients based on specified criteria. You can manually associate reminder notifications with your work items, such as projects, tasks, issues, and timesheets. 
+As a Workfront administrator, you can create reminder notifications for users and associate them with objects that you want your users to pay special attention to. 
+
+Reminder notifications generate emails that are sent to users based on specified criteria. Reminder notifications remind users of an action the need to take for a task, issue, project, or timesheet. 
+
+After you create the reminder notifications, users can manually associate them with work items, such as projects, tasks, issues, and timesheets. For information, see [Attach a reminder notification to an object](/help/quicksilver/workfront-basics/using-notifications/attach-reminder-notification-object.md). 
 
 <!--
 DRAFTED IN FLARE:
@@ -30,7 +34,7 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan</td> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
@@ -47,7 +51,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Customize the reminder email
 
@@ -120,7 +124,18 @@ For information about how to create an email template, see [Configure email temp
      </tr> 
      <tr> 
       <td role="rowheader">Recipients</td> 
-      <td>Select the types of users you want to receive the notification. Select from various object stakeholders, such as owner, approver, or assignee.</td> 
+      <td><p>Depending on what object the reminder notification is for, select from the following types of users that you want to receive the notification:</p>
+      <ul>
+      <li>Assigned To</li>
+      <li>Entered By</li>
+      <li>Project Team (all users in the project team receive te reminder)</li>
+      <li>Dependent Task Assignees (users assigned to dependent tasks receive the reminder)</li>
+      <li>Project Owner</li>
+      <li>Assigned To (users assigned to a task or an issue receive the reminder)</li>
+      <li>Timesheet Owner</li>
+      <li>Timesheet Approver</li>
+      <li>Manager of Timesheet Owner</li></ul>
+      </td> 
      </tr> 
     </tbody> 
    </table>

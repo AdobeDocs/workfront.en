@@ -90,6 +90,8 @@ You must have the following access to perform the steps in this article:
 Consider the following: 
 
 * You can create a Calendar view only when you have at least two date fields associated with a record type. When you have one or no date fields associated with a record type, the Calendar view option is dimmed. 
+   
+   You can select from record date fields, or lookup date fields from connected record or object types.
 * The following scenarios exist:
 
     * When both the Start and End dates have no values, the records do not display on the calendar
