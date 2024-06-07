@@ -71,6 +71,96 @@ Before you can use the [!DNL Adobe Journey Optimizer] connector, you must ensure
 
 * You must have an active [!DNL Adobe Journey Optimizer] account.
 
+   
+## [!DNL Adobe Journey Optimizer] modules and their fields
+
+When you configure [!DNL Adobe Journey Optimizer] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Adobe Journey Optimizer] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
+
+If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+
+![](assets/map-toggle-350x74.png)
+
+<!--Config CanDeploy-->
+
+#### Check if configuration can be deployed
+
+This action module verifies whether a capping or throttling configuration can be deployed.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select configuration type]</td> 
+   <td>Select whether you are checking a capping configuration or a throttling configuration.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Configuration ID]</td> 
+   <td>Enter or map the ID of the configuration you want to check.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Config Create
+
+Config Delete
+
+Config Deploy
+
+Config Get
+
+Config List
+
+Config UnDeploy
+
+Config Update
+
+Create new
+
+Delete a record
+
+Fetch a record
+
+List
+
+Patch a record
+
+Update a record
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--
 ## Create a connection to [!DNL Adobe Journey Optimizer]
 
 To create a connection for your [!DNL Adobe Journey Optimizer] modules:
@@ -609,4 +699,4 @@ This search module lists records of the selected type, returning results based o
   </tbody>
 </table>
 
-
+-->
