@@ -107,9 +107,16 @@ You must have the following access to perform the steps in this article:
 
 {{step1-to-planning}}
     
-   This opens the last-accessed workspace in Workfront Planning. 
-1. Click the card of a record type whose fields you want to delete. 
-1. (Conditional) Select a **Table view** from the **View** drop-down menu in the upper-right corner of the record type page. 
+1. Click the workspace whose record fields you want to delete. 
+
+    The workspace opens and the record types display. 
+
+1. Click the card of a record type. 
+
+1. (Conditional) If not already selected, click the tab of a **Table view** on the record type page. 
+
+     All existing records associated with the record type display in the rows of the table view.
+     
 1. Find the field that you want to delete in the column headers, and hover over the column header, then click the downward-pointing arrow after the field name. 
 
    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)

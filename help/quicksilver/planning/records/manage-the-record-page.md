@@ -117,9 +117,10 @@ To add a section to a record preview or page:
 
 {{step1-to-planning}}
 
-The workspace that you access last opens. 
+1. Click the card of a workspace. 
 
-1. (Optional) Click the downward-pointing arrow to the right of the workspace name to select the workspace whose records you want to update. 
+    The workspace opens and the record types display as cards. 
+
 1. Click a record type card. 
 
     The record type page opens. 
@@ -181,9 +182,10 @@ The workspace that you access last opens.
 
 {{step1-to-planning}}
 
-The workspace that you access last opens. 
+1. Click the card of a workspace. 
 
-1. (Optional) Click the downward-pointing arrow to the right of the workspace name to select the workspace whose records you want to update. 
+    The workspace opens and the record types display as cards. 
+ 
 1. Click a record type card. 
 
     The record type page opens. 

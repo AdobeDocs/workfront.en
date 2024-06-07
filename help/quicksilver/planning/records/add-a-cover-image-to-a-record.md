@@ -96,9 +96,13 @@ You can personalize a record by adding a cover image at the top of the record pr
 
 {{step1-to-planning}}
 
-   The workspace that you access last opens. 
+1. Click the workspace whose records you want to personalize,
 
-1. (Optional) Click the downward-pointing arrow to the right of the workspace name to select the workspace whose records you want to update. 
+    Or
+
+    From a workspace, expand the downward-pointing arrow to the right of an existing workspace name and select the workspace whose records you want to personalize. 
+
+    The workspace opens and the record types display.
 
 1. Click a record type card. 
 

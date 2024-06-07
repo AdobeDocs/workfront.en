@@ -129,7 +129,11 @@ For information about what record types are included with each template, see [Li
 
 {{step1-to-planning}}
 
-1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to create record types for.
+1. Click the workspace where you want to create a record type, 
+
+    Or
+
+    From a workspace, expand the downward-pointing arrow to the right of an existing workspace name and select the workspace where you want to create record types.
 1. (Optional) Click **Add section** to add a new section to the workspace.
 1. Click **Add record type**. 
 1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. 
@@ -216,7 +220,11 @@ To import record types using an Excel file:
 
 {{step1-to-planning}}
 
-1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to create record types for.
+1. Click the workspace where you want to create record types, 
+
+    Or
+
+    From a workspace, expand the downward-pointing arrow to the right of an existing workspace name and select the workspace where you want to create record types.
 1. Click **Add record type**. 
 1. Click **Excel/CSV**.
 1. Drag and drop an Excel or CSV file previously saved on your computer, or click **Select a CSV or Excel file** to browse for one. 

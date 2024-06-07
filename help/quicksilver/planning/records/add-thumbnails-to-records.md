@@ -94,7 +94,7 @@ Consider the following:
 
 {{step1-to-planning}}
 
-1. Select the workspace for whose records you want to add thumbnails, then click the record type card. 
+1. Click the workspace for whose records you want to add thumbnails, then click the record type card. 
 
    This opens the record type page. 
 1. Select a table view from the **View** drop-down menu. All records of the type you selected display in a table. 
@@ -141,7 +141,7 @@ You can add a thumbnail to a record in the following ways:
 
 {{step1-to-planning}}
 
-1. Select the workspace for whose records you want to add thumbnails, then click the record type card. 
+1. Click the workspace for whose records you want to add thumbnails, then click the record type card. 
 
    This opens the record type page. 
 1. Select a table view from the **View** drop-down menu. All records of the type you selected display in a table. 
@@ -176,7 +176,7 @@ You can add a thumbnail to a record in the following ways:
 
 {{step1-to-planning}}
 
-1. Select the workspace for whose records you want to add thumbnails, then click the record type card. 
+1. Click the workspace for whose records you want to add thumbnails, then click the record type card. 
 
    This opens the record type page. 
 1. Select a table view from the **View** drop-down menu. All records of the type you selected display in a table. 
