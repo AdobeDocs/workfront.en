@@ -83,7 +83,7 @@ You must have the following to share objects:
 
 ## Share a project, task, or issue from its page
 
-1. Go to the project, task or issue's page you want to share.
+1. Go to the project, task, or issue's page you want to share.
 
    For information about which objects can be shared, see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
@@ -135,7 +135,7 @@ You must have the following to share objects:
 
    All users can see the object based on the permissions that you set.
 
-1. (Optional and conditional) When sharing a project, click the **Gear** icon ![](assets/gear-icon-settings.png), then check th box next to **Set as my project access template** to set the permissions as a template.
+1. (Optional and conditional) When sharing a project, click the **Gear** icon ![](assets/gear-icon-settings.png), then check the box next to **Set as my project access template** to set the permissions as a template.
 
    After you have defined permissions on one project, these same permissions are automatically applied the next time you create a project from scratch.
 
@@ -161,7 +161,7 @@ You must have the following to share objects:
 
 ## Share a document, portfolio, or program from its page
 
-1. Go to the object you want to share.
+1. Go to the document, portfolio, or program's page you want to share.
 
    For information about which objects can be shared, see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 

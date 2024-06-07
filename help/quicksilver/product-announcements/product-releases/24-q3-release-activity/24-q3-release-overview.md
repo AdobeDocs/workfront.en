@@ -22,18 +22,18 @@ This page provides information about functionality that is included in the Third
 >
 >|Monthly release|Quarterly release|
 >|----|----|
->|<ul><li>24.5 (May 16, 2024)</li><li>24.6 (June, 2024)</li><li>24.7 (July, 2024)</li></ul>| <ul><li>24.7 (July 2024)</li></ul>|
+>|<ul><li>24.5 (May 16, 2024)</li><li>24.6 (June 20, 2024)</li><li>24.7 (July, 2024)</li></ul>| <ul><li>24.7 (July 2024)</li></ul>|
 >
 >For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 ## Adobe Workfront enhancements
 
-<!--* [Administrator enhancements](#administrator-enhancements)-->
+* [Administrator enhancements](#administrator-enhancements)
 * [Financial management enhancements](#financial-management-enhancements)
 * [Project enhancements](#project-enhancements)
+* [Resource management enhancements](#resource-management-enhancements)
 * [Other enhancements](#other-enhancements)
 
-<!--
 ### Administrator enhancements
 
 <table>
@@ -49,30 +49,76 @@ This page provides information about functionality that is included in the Third
                         <p><span class="bold">Release dates</span>
                         </p>
                     </td>
-                 </tr>
-                 <tr>
+                </tr>
+                <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Multi-select dropdown field type available on the form designer</a></p>
-                        [!BADGE New in Preview ]{type=Negative}
-                        <p>To help you define dropdown fields more easily, we have added the Multi-Select Dropdown field to the custom form designer. This field type allows users to choose more than one option from a dropdown list.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Move objects between Workfront environments with environment promotion</a></p>
+                        <p>Environment promotion allows you to move objects from one Workfront environment to another, such as from a sandbox environment to a production environment. You can configure and test objects without any risk to your organization's data and records. You can then move those objects to production without having to reconfigure them, saving time and effort.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: April 18, 2024</p>
+                                <p>Production release for all customers: With the 24.6 release (June 20, 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Share custom forms and custom fields in the custom form designer</a></p>
+                        [!BADGE New in Preview ]{type=Negative}
+                        <p>You can now share both custom forms and custom fields within the new form designer. This allows greater collaboration between users on custom forms.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: June 6, 2024</p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 24.5 release (May 2024)</p>
+                                <p>Production release for all customers: TBD</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Add a new custom field from the Fields area</a></p>
+                        [!BADGE New in Preview ]{type=Negative}
+                        <p>You can now add a new custom field or widget directly from the Fields area in Workfront, without opening a custom form to create the field. This allows you to quickly create reusable custom fields.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: June 6, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 24.6 release (June 20, 2024)</p>
                             </li>
                             <li>
                                 <p>Production for quarterly release: With the 24.7 release (July 2024)</p>
                             </li>
                         </ul>
                     </td>
-                 </tr>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Multi-select dropdown field type available on the form designer</a></p>
+                        [!BADGE In production ]{type=Informative}
+                        <p>To help you define dropdown fields more easily, we have added the Multi-Select Dropdown field to the custom form designer. This field type allows users to choose more than one option from a dropdown list.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: June 4, 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production for all customers: June 4, 2024</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
            </tbody>
         </table>
--->
 
 ### Financial management enhancements
 
@@ -135,7 +181,6 @@ This page provides information about functionality that is included in the Third
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Edit the task and issue Commit Date and Condition from the header or Details section</a></p>
-                        <p><span style="color: #ff0000;"> New in Preview!</span></p>
                         <p>To make it easier for you to update tasks and issues, we have now added the Commit Date and Condition fields as options to add to task and issue headers and Details section in a layout template. Users are now able to update these fields from the header or Details section of a page, when they are assigned to the modified layout template.   </p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -195,6 +240,45 @@ This page provides information about functionality that is included in the Third
            </tbody>
         </table>
 
+### Resource management enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Time off now reflected in the Workload Balancer</a></p>
+                        [!BADGE New in Preview ]{type=Negative}
+                        <p>To seamlessly adjust work when the primary assignee on a task has scheduled time off, the Workload Balancer now re-allocates hours to both the primary and the secondary users when the project timeline is recalculated.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: June 6, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 24.6 release (June 20, 2024)</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 24.7 release (July 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>        
+
 ### Other enhancements
 
 <table>
@@ -209,6 +293,26 @@ This page provides information about functionality that is included in the Third
                     <td>
                         <p><span class="bold">Release dates</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Help button removed from the main navigation bar</a></p>
+                        [!BADGE New in Preview ]{type=Negative}
+                        <p>To unify the experience for users not on Unified Shell, the Help button on the main navigation bar has been removed. This button, which is not present for users on Unified Shell, linked to the Workfront documentation and was redundant with a similar Help button available for all users in the Main Menu.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: June 6, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 24.6 release (June 20, 2024)</p>
+                            </li>
+                            <li>
+                                <p>Production for quarterly release: With the 24.7 release (July 2024)</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
