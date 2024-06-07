@@ -92,10 +92,7 @@ This page provides information about functionality that is included in the Third
                                 <p>Preview release: June 6, 2024</p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 24.6 release (June 20, 2024)</p>
-                            </li>
-                            <li>
-                                <p>Production for quarterly release: With the 24.7 release (July 2024)</p>
+                                <p>Production release for all customers: With the 24.7 release (July 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -258,7 +255,7 @@ This page provides information about functionality that is included in the Third
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Time off now reflected in the Workload Balancer</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">Time off now reflected in the Workload Balancer</a></p>
                         [!BADGE New in Preview ]{type=Negative}
                         <p>To seamlessly adjust work when the primary assignee on a task has scheduled time off, the Workload Balancer now re-allocates hours to both the primary and the secondary users when the project timeline is recalculated.</p>
                     </td>
@@ -268,10 +265,7 @@ This page provides information about functionality that is included in the Third
                                 <p>Preview release: June 6, 2024</p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 24.6 release (June 20, 2024)</p>
-                            </li>
-                            <li>
-                                <p>Production for quarterly release: With the 24.7 release (July 2024)</p>
+                                <p>Production release for all customers: With the 24.7 release (July 2024)</p>
                             </li>
                         </ul>
                     </td>
