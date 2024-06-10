@@ -57,17 +57,17 @@ Welcome to the Adobe Workfront product and technical documentation home page. Us
  </td>
     <td>
         <ul>
-        <li><a href="/help/quicksilver/workfront-basics/workfront-basics.md">Adobe Workfront Basics</a></li>
+        <li><a href="/help/quicksilver/workfront-basics/workfront-basics.md">Get started with Workfront</a></li>
         <li><a href="/help/quicksilver/manage-work/manage-work.md">Manage Work</a></li>
-        <li><a href="/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md">Reports and Dashboards</a></li>
-        <li><a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md">Text Mode</a></li>
+        <li><a href="/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md">Get started with Reports and Dashboards</a></li>
+        <li><a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md">Use Text Mode</a></li>
         </ul>
     </td>
     <td><ul>
-        <li><a href="/help/quicksilver/agile/agile-overview.md">Agile Overview</a></li>
-        <li><a href="/help/quicksilver/documents/documents-overview.md">Documents</a></li>
-        <li><a href="/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md">Workload Balancer</a></li>
-        <li><a href="URL">Review and Approval</a></li>
+        <li><a href="/help/quicksilver/agile/agile-overview.md">Get started with Agile</a></li>
+        <li><a href="/help/quicksilver/documents/documents-overview.md">Get started with Documents</a></li>
+        <li><a href="/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md">Get started with the Workload Balancer</a></li>
+        <li><a href="URL">Get started with Review and Approval</a></li>
         </ul></td>
     <td><ul>
         <li><a href="/help/quicksilver/wf-api/general/api-basics.md">API Basics</a></li>
