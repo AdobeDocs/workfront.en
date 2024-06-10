@@ -82,7 +82,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 <!--Config CanDeploy-->
 
-#### Check if configuration can be deployed
+### Check if configuration can be deployed
 
 This action module verifies whether a capping or throttling configuration can be deployed.
 
@@ -105,13 +105,146 @@ This action module verifies whether a capping or throttling configuration can be
  </tbody> 
 </table>
 
-Config Create
+### Create a configuration
 
-Config Delete
+This action module create a capping endpoint or throttling configuration.
 
-Config Deploy
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select configuration type]</td> 
+   <td>Select whether you are checking a capping configuration or a throttling configuration.<ul><li><p><b>Capping</b></p>Continue to <a href="#capping-fields" class="MCXref xref" >Capping fields</a>.</li><li><p><b>Throttling</b></p>Continue to <a href="#throttling-fields" class="MCXref xref" >Throttling fields</a>.</li></ul></td> 
+  </tr> 
+   </tbody> 
+</table>
 
-Config Get
+#### Capping fields
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> <tr> 
+   <td role="rowheader">[!UICONTROL URL]</td> 
+   <td>Enter or map the URL of the endpoint you want to configure.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL IMS organization ID]</td> 
+   <td>Enter or map the Adobe IMS ID of the organization.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Methods]</td> 
+   <td>Select the methods to use in this configuration.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Service]</td> 
+   <td>Select whether you are using an action or a datasource for this configuration.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Maximum HTTP connections]</td> 
+   <td>Enter or map the maximum number of simultaneous connections to this endpoint.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Maximum calls]</td> 
+   <td>Enter or map the maximum number of calls to be performed in the period specified in the Time period field.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Time period (milliseconds)]</td> 
+   <td>Enter or map the number of milliseconds that relates to the Maximum calls field.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Throttling fields
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> <tr> 
+   <td role="rowheader">[!UICONTROL Name]</td> 
+   <td>Enter or map a name for this configuration.</td> 
+<tr> 
+   <td role="rowheader">[!UICONTROL Description]</td> 
+   <td>Enter or map a description for this configuration.</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader">[!UICONTROL URL pattern]</td> 
+   <td>Enter or map the URL for the endpoint you want to throttle.</td> 
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Methods]</td> 
+   <td>Select the methods to use in this configuration.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Max throughput]</td> 
+   <td>Select whether you are using an action or a datasource for this configuration.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Maximum HTTP connections]</td> 
+   <td>Enter or map the maximum number of simultaneous connections to this endpoint.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Maximum calls]</td> 
+   <td>Enter or map the maximum throughput that you want for this endpoint. This value must be between 200 and 5000.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Delete a configuration
+
+This action module deletes a capping endpoint or throttling configuration.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select configuration type]</td> 
+   <td>Select whether you are deleting a capping configuration or a throttling configuration.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Configuration ID]</td> 
+   <td>Enter or map the ID of the configuration you want to delete.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Deploy a configuration
+
+This action module deploys the specified capping or throttling configuration.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select configuration type]</td> 
+   <td>Select whether you are deploying a capping configuration or a throttling configuration.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Configuration ID]</td> 
+   <td>Enter or map the ID of the configuration you want to deploy.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Get a configuration
+
+This action module returns the capping or throttling configuration identified by the specified ID. The latest definition is returned.
 
 Config List
 
