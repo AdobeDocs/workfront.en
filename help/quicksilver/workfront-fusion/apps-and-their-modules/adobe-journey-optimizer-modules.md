@@ -269,6 +269,8 @@ This action module returns the capping or throttling configuration identified by
 
 ### List configurations
 
+This action module lists all capping or throttling configurations.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -425,11 +427,75 @@ This action module creates a new content template or content fragment.
  </tbody> 
 </table>
 
-Delete a record
+### Delete a record
 
-Fetch a record
+This action module deletes a content template or content fragment.
 
-List
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select content type]</td> 
+   <td>Select whether you are deleting a content template or content fragment.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Template/Fragment ID]</td> 
+   <td>Enter or map the ID of the template or fragment you want to delete.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+### Get a record
+
+This action module returns the content template or content fragment identified by the specified ID. 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select content type]</td> 
+   <td>Select whether you are retrieving a content template or content fragment.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Template/Fragment ID]</td> 
+   <td>Enter or map the ID of the template or fragment you want to retrieve.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### List records
+
+This action module lists all capping or throttling configurations.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select content type]</td> 
+   <td>Select whether you are retrieving a content template or content fragment.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Template/Fragment ID]</td> 
+   <td>Enter or map the ID of the template or fragment you want to retrieve.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
 Patch a record
 
