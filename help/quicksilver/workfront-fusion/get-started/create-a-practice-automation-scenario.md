@@ -16,9 +16,7 @@ For instructions on building an integration scenario that connects separate apps
 
 For more information on functionality available with each Workfront Fusion license, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Access requirements 
-
- 
+## Access requirements
 
 You must have the following access to use the functionality in this article: 
 
