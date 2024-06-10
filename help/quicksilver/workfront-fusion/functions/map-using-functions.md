@@ -58,19 +58,20 @@ For more detail about the information in this table, see [Access requirements in
 
 For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md). 
 
+
 ## Mapping tab overview
 
 To open the [!UICONTROL mapping] panel for a field:
 
 1. Click **Scenarios** in the left panel.
-1. Choose a scenario 
+1. Choose a scenario.
 
 ![](assets/open-functions-bar.png)
 
 
 ### Mapping panel tabs
 
-![](assets/functions-toolbar-350x189.png)
+The following are tabs in the mapping panel:
 
 * **General functions** ![](assets/toolbar-icon-general-function.png) - See [General functions in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/general-functions.md) for more information.
 
@@ -78,7 +79,7 @@ To open the [!UICONTROL mapping] panel for a field:
 
 * **Text and binary functions** ![](assets/toolbar-icon-text&binary-functions.png) - See [String functions in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/string-functions.md) for more information.
 
-* **Date and time** ![](assets/toolbar-icon-date&time-functions.png) - See [Date and time functions in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/date-and-time-functions.md) and the articles below for more information.
+* **Date and time** ![](assets/toolbar-icon-date&time-functions.png) - See [Date and time functions in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/date-and-time-functions.md) and the articles below for more information:
 
     * [Tokens for date and time formatting in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
     * [Tokens for date and time parsing in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md)
@@ -86,6 +87,8 @@ To open the [!UICONTROL mapping] panel for a field:
 * **Functions for working with arrays** ![](assets/toolbar-icon-functions-for-arrays.png) - See [Array functions in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/array-functions.md) for more information.
 
 * **Map other functions** ![](assets/toolbar-icon-functions-you-map-from-other-modules.png) displays the items that you can map from other modules. This tab is not always available. 
+
+![](assets/functions-toolbar-350x189.png)
 
 ## Insert functions into fields
 
