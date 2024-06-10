@@ -119,7 +119,7 @@ This action module create a capping endpoint or throttling configuration.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Select configuration type]</td> 
-   <td>Select whether you are checking a capping configuration or a throttling configuration.<ul><li><p><b>Capping</b></p>Continue to <a href="#capping-fields" class="MCXref xref" >Capping fields</a>.</li><li><p><b>Throttling</b></p>Continue to <a href="#throttling-fields" class="MCXref xref" >Throttling fields</a>.</li></ul></td> 
+   <td>Select whether you are creating a capping configuration or a throttling configuration.<ul><li><p><b>Capping</b></p>Continue to <a href="#capping-fields" class="MCXref xref" >Capping fields</a>.</li><li><p><b>Throttling</b></p>Continue to <a href="#throttling-fields" class="MCXref xref" >Throttling fields</a>.</li></ul></td> 
   </tr> 
    </tbody> 
 </table>
@@ -200,6 +200,8 @@ This action module create a capping endpoint or throttling configuration.
 
 This action module deletes a capping endpoint or throttling configuration.
 
+If the configuration has been deployed, it must be undeployed before it can be deleted.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -246,13 +248,106 @@ This action module deploys the specified capping or throttling configuration.
 
 This action module returns the capping or throttling configuration identified by the specified ID. The latest definition is returned.
 
-Config List
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select configuration type]</td> 
+   <td>Select whether you are retrieving a capping configuration or a throttling configuration.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Configuration ID]</td> 
+   <td>Enter or map the ID of the configuration you want to retrieve.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
-Config UnDeploy
+### List configurations
 
-Config Update
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select configuration type]</td> 
+   <td>Select whether you want to list capping configurations or a throttling configurations.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
-Create new
+### Undeploy a configuration
+
+This action module undeploys a capping or throttling configuration. The configuration state is changed back to the state before the deployment (`created` or `updated`).
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select configuration type]</td> 
+   <td>Select whether you are undeploying a capping configuration or a throttling configuration.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Configuration ID]</td> 
+   <td>Enter or map the ID of the configuration you want to undeploy.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Update a configuration
+
+This action module updates the specified capping or throttling configuration.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select configuration type]</td> 
+   <td>Select whether you are updating a capping configuration or a throttling configuration.<ul><li><p><b>Capping</b></p>For fields, see <a href="#capping-fields" class="MCXref xref" >Capping fields</a> in the Create a configuration section of this article.</li><li><p><b>Throttling</b></p>For fields, see <a href="#throttling-fields" class="MCXref xref" >Throttling fields</a> in the Create a configuration section of this article.</li></ul></td> 
+  </tr> 
+  </tbody> 
+</table>
+
+### Create a record
+
+This action module creates a new content template or content fragment.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select content type]</td> 
+   <td>Select whether you are creating a content template or a content fragment.<ul><li><p><b>Content template</b></p>Continue to <a href="#template-fields" class="MCXref xref" >Template fields</a>.</li><li><p><b>Content fragment</b></p>Continue to <a href="#fragment-fields" class="MCXref xref" >Fragment fields</a>..</li></ul></td> 
+  </tr> 
+  </tbody> 
+</table>
+
+#### Template fields
+
+#### Fragment fields
 
 Delete a record
 
