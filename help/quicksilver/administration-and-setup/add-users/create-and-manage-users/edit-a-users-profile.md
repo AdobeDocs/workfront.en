@@ -28,6 +28,8 @@ As an Adobe Workfront administrator, you can create users and manage the profile
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -58,7 +60,10 @@ You must have the following to perform the steps in this article:
   </tr> 
  </tbody> 
 </table> 
+
 *To find out what plan, license type, or access you have, contact your Workfront administrator.
+
++++
 
 ## Edit a user profile
 
