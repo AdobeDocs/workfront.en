@@ -340,14 +340,90 @@ This action module creates a new content template or content fragment.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Select content type]</td> 
-   <td>Select whether you are creating a content template or a content fragment.<ul><li><p><b>Content template</b></p>Continue to <a href="#template-fields" class="MCXref xref" >Template fields</a>.</li><li><p><b>Content fragment</b></p>Continue to <a href="#fragment-fields" class="MCXref xref" >Fragment fields</a>..</li></ul></td> 
+   <td>Select whether you are creating a content template or a content fragment.<ul><li><p><b>Content template</b></p>Continue to <a href="#template-fields" class="MCXref xref" >Template fields</a>.</li><li><p><b>Content fragment</b></p>Continue to <a href="#fragment-fields" class="MCXref xref" >Fragment fields</a>.</li></ul></td> 
   </tr> 
   </tbody> 
 </table>
 
 #### Template fields
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> <tr> 
+   <td role="rowheader">[!UICONTROL Name]</td> 
+   <td>Enter or map a name for this content template.</td> 
+<tr> 
+   <td role="rowheader">[!UICONTROL Description]</td> 
+   <td>Enter or map a description for this content template.</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader">[!UICONTROL Type]</td> 
+   <td>Select the type of template that you want to create.</td> 
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Channels]</td> 
+   <td>Select the channels included in this template.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Content template origin]</td> 
+   <td>Select the source for this template.</td>  
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Metadata]</td> 
+   <td>To include custom properties in the new template, select "Add metadata" and enter or map the metadata's key and value. Repeat for each custom field you want to include.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Email HTML]</td> 
+   <td>Enter or map the HTML of the email included in this template.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Editor context]</td> 
+   <td>To include custom properties in the email, select "Add editor context" and enter or map the context's key and value. Repeat for each custom field you want to include.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
 #### Fragment fields
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> <tr> 
+   <td role="rowheader">[!UICONTROL Name]</td> 
+   <td>Enter or map a name for this content fragment.</td> 
+<tr> 
+   <td role="rowheader">[!UICONTROL Description]</td> 
+   <td>Enter or map a description for this content fragment.</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader">[!UICONTROL Type]</td> 
+   <td>Select the type of template that you want to create.</td> 
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Channels]</td> 
+   <td>Select the channels included in this template.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Content fragment origin]</td> 
+   <td>Select the source for this fragment.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Metadata]</td> 
+   <td>To include custom properties in the new template, select "Add metadata" and enter or map the metadata's key and value. Repeat for each custom field you want to include.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Content]</td> 
+   <td>Enter or map the content of the fragment.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Editor context]</td> 
+   <td>To include custom properties in the email, select "Add editor context" and enter or map the context's key and value. Repeat for each custom field you want to include.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
 Delete a record
 
