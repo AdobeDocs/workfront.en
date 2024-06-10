@@ -26,6 +26,8 @@ Previously, objects would need to be configured in production environments separ
 
 More information and instructions for environment promotion will be available when environment promotion goes live with the 24.6 release.
 
+[View a video demonstration of this feature](https://video.tv.adobe.com/v/3429735/){target=_blank}
+
 ## Share custom forms and custom fields in the custom form designer
 
 >[!NOTE]
