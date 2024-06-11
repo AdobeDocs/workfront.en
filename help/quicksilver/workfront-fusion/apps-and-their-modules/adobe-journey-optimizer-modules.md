@@ -509,7 +509,75 @@ This action module lists all capping or throttling configurations.
  </tbody> 
 </table>
 
-Patch a record
+### Make a custom API call
+
+This action module makes a custom API call to the Adobe Journey Optimizer API.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL URL]</td>
+      <td>
+        <p>Enter a path relative to the base URL.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Method]</p>
+      </td>
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Headers]</td>
+      <td>
+        <p>Add the headers of the request in the form of a standard JSON object.</p>
+        <p>For example, <code>{"Content-type":"application/json"}</code></p>
+        <p>[!DNL Workfront Fusion] adds authorization, <code>x-api-key</code>, and <code>x-gw-ims-org-id</code> headers automatically.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Query String]  </td>
+      <td>
+        <p>Enter the request query string.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Body]</td>
+   <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
+     <div class="example" data-mc-autonum="<b>Example: </b>"> 
+      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
+     </div> </p> </td>     </tr>
+  </tbody>
+</table>
+
+### Patch a record
+
+This action module updates a record using PATCH with JSON pointer format
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select content type]</td> 
+   <td>Select whether you are patching a content template or content fragment.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Template/Fragment ID]</td> 
+   <td>Enter or map the ID of the template or fragment you want to patch.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
 Update a record
 
