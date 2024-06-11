@@ -298,7 +298,7 @@ This page provides information about functionality that is included in the Third
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: June 13, 2024</p>
+                                <p>Preview release: June 11, 2024</p>
                             </li>
                             <li>
                                 <p>Production for specified customers: With the 24.7 release (July 2024)</p>
