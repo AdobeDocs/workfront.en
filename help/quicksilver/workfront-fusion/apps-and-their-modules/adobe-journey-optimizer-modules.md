@@ -576,6 +576,10 @@ This action module updates a record using PATCH with JSON pointer format
    <td role="rowheader">[!UICONTROL Template/Fragment ID]</td> 
    <td>Enter or map the ID of the template or fragment you want to patch.</td> 
   </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Payload data]</td> 
+   <td>To add a record to the payload of this patch: <ol><li>Click <b>Add a record</b>.</li><li>Select the operation: Add, Remove, or Replace.</li><li>In the Path field, select whether you want to patch the name or the description.</li><li> In the From field, enter or map a string that contains a JSON pointer value.</li><li>In the Value field, enter the value to be used in the operation.</li></ol></td> 
+  </tr> 
  </tbody> 
 </table>
 
