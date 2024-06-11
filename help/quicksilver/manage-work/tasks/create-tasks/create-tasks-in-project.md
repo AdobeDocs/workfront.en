@@ -25,6 +25,8 @@ This article describes how you create tasks from scratch. You can also create ta
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -51,6 +53,8 @@ This article describes how you create tasks from scratch. You can also create ta
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Create tasks in a project
 
