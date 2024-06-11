@@ -22,7 +22,7 @@ This page provides information about functionality that is included in the Third
 >
 >|Monthly release|Quarterly release|
 >|----|----|
->|<ul><li>24.5 (May 16, 2024)</li><li>24.6 (June 20, 2024)</li><li>24.7 (July, 2024)</li></ul>| <ul><li>24.7 (July 2024)</li></ul>|
+>|<ul><li>24.5 (May 16, 2024)</li><li>24.6 (June 13, 2024)</li><li>24.7 (July, 2024)</li></ul>| <ul><li>24.7 (July 2024)</li></ul>|
 >
 >For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
@@ -58,7 +58,7 @@ This page provides information about functionality that is included in the Third
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Production release for all customers: With the 24.6 release (June 20, 2024)</p>
+                                <p>Production release for all customers: With the 24.6 release (June 13, 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -291,6 +291,24 @@ This page provides information about functionality that is included in the Third
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience now available for more Workfront organizations</a></p>
+                        [!BADGE New in Preview ]{type=Negative}
+                        <p>To allow organizations access to the benefits of the Adobe Unified Experience, we've begun making it available to existing Workfront customers. </p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: June 13, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production for specified customers: With the 24.7 release (July 2024)</p>
+                            </li>
+                         </ul>
+                         <span style="color: #ff0000;">The Adobe Unified Shell is being made available in a phased rollout. Additional organizations will be onboarded to the Adobe Unified Shell with the 24.10 and 25.1 releases. </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Help button removed from the main navigation bar</a></p>
                         [!BADGE New in Preview ]{type=Negative}
                         <p>To unify the experience for users not on Unified Shell, the Help button on the main navigation bar has been removed. This button, which is not present for users on Unified Shell, linked to the Workfront documentation and was redundant with a similar Help button available for all users in the Main Menu.</p>
@@ -301,7 +319,7 @@ This page provides information about functionality that is included in the Third
                                 <p>Preview release: June 6, 2024</p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 24.6 release (June 20, 2024)</p>
+                                <p>Production for fast release: With the 24.6 release (June 13, 2024)</p>
                             </li>
                             <li>
                                 <p>Production for quarterly release: With the 24.7 release (July 2024)</p>

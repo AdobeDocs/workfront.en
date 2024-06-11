@@ -18,7 +18,7 @@ For a list of all changes available at this point in the Third Quarter 2024 rele
 
 >[!NOTE]
 >
->Environment promotion will be available in sandbox, preview, and production environments with the 24.6 release (June 20, 2024).
+>Environment promotion will be available in sandbox, preview, and production environments with the 24.6 release (June 13, 2024).
 
 Environment promotion allows you to move objects from one Workfront environment to another, such as from a sandbox environment to a production environment. You can configure and test objects without any risk to your organization's data and records. You can then move those objects to production without having to reconfigure them, saving time and effort.
 
