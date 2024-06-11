@@ -319,10 +319,7 @@ This page provides information about functionality that is included in the Third
                                 <p>Preview release: June 6, 2024</p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 24.6 release (June 13, 2024)</p>
-                            </li>
-                            <li>
-                                <p>Production for quarterly release: With the 24.7 release (July 2024)</p>
+                                <p>Production release for all customers: With the 24.7 release (July 2024)</p>
                             </li>
                         </ul>
                     </td>
