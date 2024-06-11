@@ -35,6 +35,7 @@ This section contains the following articles:
 * [[!DNL Adobe Campaign Classic] modules](../../workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md) 
 * [[!DNL Adobe Creative Cloud Libraries] modules](../../workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md) 
 * [[!DNL Adobe Experience Manager Assets] modules](../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
+* [Adobe Journey Optimizer](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
 * [Adobe Lightroom modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
 * [Adobe Planning modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
 * [[!DNL Adobe PDF Services] modules](../../workfront-fusion/apps-and-their-modules/pdf-modules.md) 

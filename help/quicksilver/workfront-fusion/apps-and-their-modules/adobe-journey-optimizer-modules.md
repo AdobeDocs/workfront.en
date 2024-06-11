@@ -71,6 +71,49 @@ Before you can use the [!DNL Adobe Journey Optimizer] connector, you must ensure
 
 * You must have an active [!DNL Adobe Journey Optimizer] account.
 
+## Create a connection to Adobe Journey Optimizer
+
+You can create a connection in any Adobe Journey Optimizer module.
+
+1. Click **[!UICONTROL Add]** next to the Connection box.
+    
+1. Fill in the following fields:
+    
+    <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+        <td role="rowheader">[!UICONTROL Connection name]</td>
+        <td>
+          <p>Enter a name for this connection.</p>
+        </td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Environment]</td>
+        <td>Select whether you are connecting to a production or non-production environment.</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Type]</td>
+        <td>Select whether you are connecting to a service account or a personal account.</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Client ID]</td>
+        <td>Enter your [!UICONTROL Adobe] [!UICONTROL Client ID]. This can be found in the [!UICONTROL Credentials] details section of the [!DNL Adobe Developer Console]</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Client Secret]</td>
+        <td>Enter your [!DNL Adobe] [!UICONTROL Client Secret]. This can be found in the [!UICONTROL Credentials] details section of the [!DNL Adobe Developer Console]</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Organization ID]</td>
+        <td>Enter your [!DNL Adobe] [!UICONTROL Organization ID]. This can be found in the [!UICONTROL Credentials] details section of the [!DNL Adobe Developer Console]</td>
+        </tr>
+      </tbody>
+    </table>
+
    
 ## [!DNL Adobe Journey Optimizer] modules and their fields
 
