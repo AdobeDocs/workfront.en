@@ -12,7 +12,7 @@ exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
 hide: yes
 hidefromtoc: yes
 ---
-# [!DNL Adobe Journey Optimizer] Modules
+# [!DNL Adobe Journey Optimizer] modules
 
 In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!DNL Adobe Journey Optimizer], as well as connect it to multiple third-party applications and services. [!DNL Adobe Journey Optimizer] modules allow you to create, read, update, or delete records, or perform a custom API call to the [!DNL Adobe Journey Optimizer] API.
 
