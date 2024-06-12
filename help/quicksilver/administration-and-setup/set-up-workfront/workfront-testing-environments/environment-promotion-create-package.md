@@ -27,7 +27,7 @@ You must have the following:
   <tr>
    <td><strong>[!DNL Adobe Workfront] plan</strong>
    </td>
-   <td> Your organization must be on the new pricing model, and have a Prime or Ultimate plan.
+   <td> Prime or Ultimate (New plans only)
    </td>
   </tr>
   <tr>
