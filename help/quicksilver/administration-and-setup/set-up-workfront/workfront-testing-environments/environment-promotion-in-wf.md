@@ -8,14 +8,12 @@ description: The Environment Promotion capability is intended to provide the abi
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: yes
-hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
 ---
 # Overview of moving objects between Workfront environments (Environment promotion)
 
-The environment promotion capability is intended to provide the ability to move objects from one Workfront environment to another. For example, you can create a template and configure it in your sandbox environment, knowing that any testing you do will not affect your organization's actual data. After the template is configured and tested, you can move it to your production environment, ready to use.
+The environment promotion capability allows you to move objects from one Workfront environment to another. For example, you can create a template and configure it in your sandbox environment, knowing that any testing you do will not affect your organization's actual data. After the template is configured and tested, you can move it to your production environment, ready to use.
 
 This process is referred to as "environment promotion."
 
