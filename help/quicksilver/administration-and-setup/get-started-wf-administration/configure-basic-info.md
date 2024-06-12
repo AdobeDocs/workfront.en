@@ -19,6 +19,8 @@ As part of configuring your Adobe Workfront system, you can manage details about
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> <col> 
@@ -41,6 +43,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Access Customer Info
 
