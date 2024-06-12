@@ -258,6 +258,8 @@ Consider the following when working with filters in the table view:
 
 * You can filter by connected record fields or lookup fields, but not for those fields that allow linking to multiple records.
 
+* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a filter for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the Project Owner in the filter you are creating for the Activity record type. 
+
 To add a filter to a table view: 
 
 1. Create a table view for a record type page, as described in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
@@ -367,6 +369,7 @@ Consider the following:
 * Removing groupings removes them from anyone accessing the same record type as you and who displays the same view as you do. 
 * You can edit records listed under a grouping. 
 * You can group by connected record fields or lookup fields, but not for those fields that allow linking to multiple records.
+* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a grouping for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the Project Owner in the grouping you are creating for the Activity record type. 
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
@@ -422,6 +425,8 @@ Consider the following when sorting records in the table view:
 * Removing sorting criteria removes them from anyone accessing the same record type as you and uses the same view as you use.
 
 * You can sort by connected record fields or lookup fields, but not for those fields that allow linking to multiple records.
+
+* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a sort for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the Project Owner in the sort you are creating for the Activity record type. 
 
 To sort <!--ungrouped (add this when sorting for groupings will be available--> records, do the following:
 

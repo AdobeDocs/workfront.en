@@ -111,6 +111,7 @@ You must have the following access to perform the steps in this article:
     >[!NOTE]
     >
     > Some view elements might not be available to all views.
+    
 
 ## Similarities and differences between record views
 
