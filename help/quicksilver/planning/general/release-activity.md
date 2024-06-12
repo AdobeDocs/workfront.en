@@ -47,6 +47,30 @@ If your organization is not in the Adobe Unified Experience, you receive an emai
 
 For more information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/planning/notifications/notifications-information.md). -->
 
+## Week of June 10, 2024
+
+### Up to 4-level reference for record lookup fields
+
+Production: June 12, 2024 
+
+Preview: To be determined 
+
+You can now reference fields that are up to 4 levels away from the record when you create one of the following:  
+
+* Filter 
+
+* Sort 
+
+* Grouping 
+
+* Formula field 
+
+For more information, see the following articles: 
+
+* [Create fields](/help/quicksilver/planning/fields/create-fields.md)  
+
+* [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md)  
+
 ## Week of June 3, 2024
 
 ### New landing page for Workfront Planning
