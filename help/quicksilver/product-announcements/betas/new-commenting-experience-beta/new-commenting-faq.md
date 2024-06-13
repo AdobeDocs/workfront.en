@@ -6,6 +6,8 @@ description: This article contains a list of the most commonly-asked questions a
 author: Alina
 feature: Product Announcements
 role: User, Admin
+hide: yes
+hidefromtoc: yes
 exl-id: 5ce15530-0858-44a4-b928-779654310dee
 ---
 # New commenting experience FAQs
