@@ -17,9 +17,9 @@ The new form designer has a new canvas-style workspace that allows you to view t
 
 ![Sample form designer](assets/form-designer-example.png)
 
-## How to access the new form designer
+## How to access the form designer
 
-There is a new button at the top of both the new form designer and the legacy form builder. You can use this button to switch between the legacy builder and the new designer.
+A button at the top of both the new form designer and the legacy form builder allows you to switch between the versions.
 
 ![Switch to new form designer](assets/switch-views.png)
 
@@ -37,23 +37,17 @@ With the new form designer, we've added the ability to:
     >
     >The Default section is not visible within objects once the form is attached to the object.
 
+* **Use an External Lookup field**: This field type calls an external API and returns values as options in a dropdown field.
+
 ## Functionality removed from the form designer
 
 We've removed the following functionality from inside the form designer:
 
-* Form Settings, Form Sharing, Field Sharing tabs
-
-    * Form settings are now available at the top of the canvas
-
-    * Form Sharing main tab and Field Sharing subtab
-
-    >[!NOTE]
-    >
-    >You can control the form and field sharing from Setup > Custom Forms > Forms or Fields area.
+* Form settings are now available at the top of the canvas
 
 * Track field changes in update feeds
 
     >[!NOTE]
     >
-    >You can find this in Setup > Interface > Update Feeds
+    >You can find this option in Setup > Interface > Update Feeds
 
