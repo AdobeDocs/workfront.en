@@ -122,7 +122,7 @@ Consider the following when assigning multiple resources to a work item:
      ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
 
      <span class="preview">Sample image in the Preview environment:</span>
-     ![Assignments search](assets/assignments-expanded-in-task-issue-header.png)
+     <span class="preview">![Assignments search](assets/smart-assignments-issue-header.png)</span>
 
    * (Conditional) Click one of the names in the **Suggested Assignments** list 
    * Click **Assign to me** to assign it to yourself
