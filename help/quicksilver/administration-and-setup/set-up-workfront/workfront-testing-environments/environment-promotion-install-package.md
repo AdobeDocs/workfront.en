@@ -88,9 +88,15 @@ For more information on statuses, see [Environment Promotion Statuses](/help/qui
 
 ## Collisions
 
-Collisions occur when an object that is part of the installation package has the same name as an object that already exists in the target environment. When this occurs, you can select how to resolve the collision. Collisions are resolved on the object level.
+A collision is an object found in the target environment of an installation that matches one of the objects being installed from the source environment. Collisions are detected by comparing the names and IDs of the source objects against objects in the target environment. Collisions are also detected by comparing source objects against records of previously installed objects.
+
+When a collision occurs, you can select how to resolve the collision. Collisions are resolved on the object level.
 
 You can view collisions by clicking on the drop-down next to each object type. Collisions are displayed in the Collision column. 
+
+>[!NOTE]
+>
+>Detected collisions may not be the objects that you want to override or use in your installation. We reccomend validating detected collisions to ensure that the installation targets are correct.
 
 To resolve a collision, select an action in the Deployment Action column, or use the default action that is already displayed.
 
