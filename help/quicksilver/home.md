@@ -28,7 +28,6 @@ Welcome to the Adobe Workfront product and technical documentation home page. Us
 
 * [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
 * [New commenting beta experience](../betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
-* [Form designer overview](../../administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md)
 * [Workfront and Frame.io integration](/help/quicksilver/review-and-approve-work/Documents/wf-frame-alpha.md)
 
 >[!TAB Known Issues]
@@ -58,9 +57,9 @@ Welcome to the Adobe Workfront product and technical documentation home page. Us
     <td>
         <ul>
         <li><a href="/help/quicksilver/workfront-basics/workfront-basics.md">Get started with Workfront</a></li>
-        <li><a href="/help/quicksilver/manage-work/manage-work.md">Manage Work</a></li>
+        <li><a href="/help/quicksilver/manage-work/manage-work.md">Get started managing Work</a></li>
         <li><a href="/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md">Get started with Reports and Dashboards</a></li>
-        <li><a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md">Use Text Mode</a></li>
+        <li><a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md">Get started with Text Mode</a></li>
         </ul>
     </td>
     <td><ul>
