@@ -26,6 +26,8 @@ You can perform this process in Workfront by creating a package of objects to mo
 
 * For instructions on performing this process through the Workfront API, see [Move objects between [!DNL Workfront] environments using the [!DNL Workfront] API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md).
 
+[View a video demonstration of this feature](https://video.tv.adobe.com/v/3429735/){target=_blank}
+
 ## Supported objects for environment promotion
 
 The environment promotion capability is intended to provide the ability to move configuration-related object from one environment to another. These are objects that can be configured, such as projects, teams, or custom forms.
