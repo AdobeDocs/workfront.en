@@ -9,11 +9,11 @@ exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
 ---
 # Make smart assignments
 
-<!--Audited: 02/2024-->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-<!-- {{preview-and-fast-release}} -->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-{{highlighted-preview}}
+<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 You can use smart assignments to identify who the best user is to complete the work. 
 
@@ -68,23 +68,30 @@ Smart assignments are available in most locations where you can make assignments
    * A task or issue in the Workload Balancer
 
 1. Place your cursor in the assignment field, and wait for two seconds. 
-   
-   <span class="preview">The **Suggested Assignments** list displays.</span> <!--check the casing for "assignments" should be lower case in task lists??-->
-   
+
+   <div class="preview">
+   One or several of the following sections with smart assignment suggestions displays: 
+
+   * **Suggested assignments**: Displays for tasks.
+
       >[!TIP]
       >
-      >   The list header displays **Here are a few recommendations** instead of **Suggested Assignments** in an issue list.
-
-     ![](assets/smart-assignments-task-header-nwe-350x302.png)
-
-   For issues, the smart assignment suggestions display in  the **Suggested assignments** area.
+      >   The list header displays **Here are a few recommendations** instead of **Suggested assignments** in the Production environment.
+      >
+   * **Other assignments**: Displays for tasks and issues.
+   * **Users and teams**: Displays for tasks and issues.
+   * **Job roles**: Dispays for tasks and issues. 
+   </div>
    
+   <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+
+     
    For tasks, the smart assignments display in the following sections, depending on which phase of the algorithm's calculation identified the assignments: 
 
-   * **Suggested assignments**: Assignments identified in the first phase of the task smart assignment's algorithm calculation. 
-   * <span class="preview">**Other assignments**: Assignments identified in the second phase of the task smart assignment's algorithm calculation. This section is not available for issues. </span> <!--replace this with the new UI: "Other assignments"-->
+   * **Suggested assignments**: Assignments identified in the first phase of the task smart assignment's algorithm calculation. <span class="preview">This section is not available for issues.</span>
+   * <span class="preview">**Other assignments**, **Users and teams**, or **Job roles**: Assignments identified in the second phase of the task smart assignment's algorithm calculation. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
 
-   ![](assets/smart-assignments-task-list.png)
+   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
    
    For more information, see [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 

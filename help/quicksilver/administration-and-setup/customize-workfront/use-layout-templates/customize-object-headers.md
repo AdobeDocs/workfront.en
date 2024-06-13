@@ -57,7 +57,7 @@ If you still don't have access, ask your Workfront administrator if they set add
 ## Customize object headers
 
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. In the **Customize what users see** drop-down menu, select **Projects**, **Tasks** or **Issues**.
+1. In the **Customize what users see** drop-down menu, select **Projects**, **Tasks**, or **Issues**.
 
     <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 

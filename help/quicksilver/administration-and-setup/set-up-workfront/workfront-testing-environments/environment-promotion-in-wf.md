@@ -8,14 +8,12 @@ description: The Environment Promotion capability is intended to provide the abi
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: yes
-hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
 ---
 # Overview of moving objects between Workfront environments (Environment promotion)
 
-The environment promotion capability is intended to provide the ability to move objects from one Workfront environment to another. For example, you can create a template and configure it in your sandbox environment, knowing that any testing you do will not affect your organization's actual data. After the template is configured and tested, you can move it to your production environment, ready to use.
+The environment promotion capability allows you to move objects from one Workfront environment to another. For example, you can create a template and configure it in your sandbox environment, knowing that any testing you do will not affect your organization's actual data. After the template is configured and tested, you can move it to your production environment, ready to use.
 
 This process is referred to as "environment promotion."
 
@@ -28,9 +26,13 @@ You can perform this process in Workfront by creating a package of objects to mo
 
 * For instructions on performing this process through the Workfront API, see [Move objects between [!DNL Workfront] environments using the [!DNL Workfront] API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md).
 
+[View a video demonstration of this feature](https://video.tv.adobe.com/v/3429735/){target=_blank}
+
 ## Supported objects for environment promotion
 
-The Environment Promotion capability is intended to provide the ability to move configuration-related objects from one environment to another. It does not support the ability to move transactional objects (with limited exceptions).
+The environment promotion capability is intended to provide the ability to move configuration-related object from one environment to another. These are objects that can be configured, such as projects, teams, or custom forms.
+
+Because environment promotion deals with object configuration, transactional objects (objects that change frequently or that are highly dependent on use case) are not included. Examples of transactional objects include documents, issues, requests, updates, and and proof decisions.
 
 * [Work objects](#work-objects)
 * [Reporting objects](#reporting-objects)
@@ -93,6 +95,8 @@ The Environment Promotion capability is intended to provide the ability to move 
 
 \* Not currently available 
 
+<!--
+
 >[!NOTE]
 >
 >Actions (ignore, select existing, and create new) are available on the following objects:
@@ -102,6 +106,7 @@ The Environment Promotion capability is intended to provide the ability to move 
 >* Company
 >* Group
 
+-->
 
 ## Environment promotion statuses
 
@@ -114,12 +119,16 @@ These statuses include the following:
  <col> 
  <tbody> 
   <tr> 
+   <td>UNASSEMBLED</td> 
+   <td><p>This status is automatically assigned, and represents a package that has been saved but not yet assembled. </p><p>This status cannot be set by a user directly.</p></td> 
+  </tr> 
+  <tr> 
    <td>ASSEMBLING</td> 
-   <td><p>This status is automatically assigned while objects are being assembled. </p><p>Assembling refers to the automated process of identifying objects and sub-objects to include in a package, and adding those objects and their data to the package.</p><p>This status cannot be set by a customer directly.</p></td> 
+   <td><p>This status is automatically assigned while objects are being assembled. </p><p>Assembling refers to the automated process of identifying objects and sub-objects to include in a package, and adding those objects and their data to the package.</p><p>This status cannot be set by a user directly.</p></td> 
   </tr> 
   <tr> 
    <td>DRAFT</td> 
-   <td><p>This status is assigned at the conclusion of an assembly process, or when creating an empty promotion package.</p><p>It is possible for a customer to move the promotion package back to this status.</p><p>While in this status, the promotion package cannot be installed in any environment.</p></td> 
+   <td><p>This status is assigned at the conclusion of an assembly process, or when creating an empty promotion package.</p><p>It is possible for a user to move the promotion package back to this status.</p><p>While in this status, the promotion package cannot be installed in any environment.</p></td> 
   </tr> 
   <tr> 
    <td>TESTING</td> 
@@ -131,11 +140,11 @@ These statuses include the following:
   </tr> 
   <tr> 
    <td>DISABLED</td> 
-   <td><p>This status will be used to hide previously used promotion packages that will not be installed into any environment in the future.</p><p>When a package is in this status, it cannot be installed into any environment.</p><p>When a package status is set to DISABLED, the <code>retiredAt</code> date is automatically set to the current timestamp of the request.</p><p>Using this status is recommended over using the<code>DELETE /package</code> endpoint because it is retrievable and the installation history is retained for any deployments made with this package.</p></td> 
+   <td><p>This status is used to hide previously used promotion packages that will not be installed into any environment in the future.</p><p>When a package is in this status, it cannot be installed into any environment.</p><p>When a package status is set to DISABLED, the <code>retiredAt</code> date is automatically set to the current timestamp of the request.</p><p>Using this status is recommended over using the <code>DELETE /package</code> endpoint because it is retrievable, and the installation history is retained for any deployments made with this package.</p></td> 
   </tr> 
   <tr> 
    <td>ASSEMBLING_FAILED</td> 
-   <td><p>The promotion package is automatically put in this status if the ASSEMBLING stage fails.</p><p>To return the package to the ASSEMBLING stage, you must trigger the extraction process again.</p></td> 
+   <td><p>The promotion package is automatically put in this status if the ASSEMBLING stage fails.</p><p>To return the package to the ASSEMBLING stage, you must trigger the assembling process again.</p><p>For details on assembling a package, see the section <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Edit or assemble an existing package</a> in the article Create or edit an environment promotion package.</td> 
   </tr> 
   </tbody> 
 </table>

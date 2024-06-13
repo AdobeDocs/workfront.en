@@ -172,6 +172,7 @@ To learn more about the details of a specific feature within Enhanced analytics,
    <td><a href="../enhanced-analytics/activity-by-team-overview.md" class="MCXref xref">View the Activity by team visualization in Enhanced analytics</a> </td> 
    <td> <p>The <b>Activity by team</b> visualization shows you a heatmap of when users on a home team logged into Workfront, changed the status of a task, and completed a task. Interacting with the visualization allows you to see these details for each individual user. You can also see specific dates for these actions, as well as the number of times each action was completed.</p> </td> 
   </tr> 
+  <!-- Features permanently removed from Workfront
   <tr> 
    <td><a href="../enhanced-analytics/resource-capacity-overview.md" class="MCXref xref">View the Resource capacity visualization in Enhanced analytics</a> </td> 
    <td> <p>The <b>Resource capacity</b> visualization shows you which home teams have the capacity to take on more work and which home teams have more work assigned to them than they can complete. Interacting with the visualization allows you to see more details about work completed and available hours for more work.&nbsp;Selecting a team opens the Team capacity visualization.</p> </td> 
@@ -179,6 +180,6 @@ To learn more about the details of a specific feature within Enhanced analytics,
   <tr> 
    <td><a href="../enhanced-analytics/team-capacity-overview.md" class="MCXref xref">View the Team capacity visualization in Enhanced analytics</a> </td> 
    <td> <p>The <b>Team capacity</b> visualization shows you a percentage of the amount of work a home team has completed out of the amount of work assigned to them. Interacting with the visualization allows you to see scheduled hours and planned hours for a specific date, as well as the capacity percentage and whether the home team was over, under, or at capacity on that day.</p> </td> 
-  </tr> 
+  </tr>--> 
  </tbody> 
 </table>

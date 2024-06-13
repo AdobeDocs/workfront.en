@@ -61,7 +61,7 @@ Below are the ten widgets currently available to choose from, as well as a summa
 
     >[!NOTE]
     >
-    >You must have permission to create tasks in order to create to-dos in the To-dos widget.
+    >You must have permission to create tasks in order to create to-dos in the To-dos widget, and only personal tasks that are entered by the current user will appear in the widget.
 
 By default, the Home page is populated with a few specific widgets based on your license type. The tables below outline which widgets users of each license type see when they first navigate to New Home.
 

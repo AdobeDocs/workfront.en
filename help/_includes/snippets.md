@@ -236,23 +236,34 @@ You must install the correct plugin for the Adobe Creative Cloud application you
       </tr>
       </table>
 
-<!-- Maestro -->
+<!-- Workfront Planning -->
 
-## Step 1 - Getting to Maestro - {#step1-to-maestro}
+## Step 1 - Getting to Maestro - {#step1-to-planning}
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Planning]**.
 
-## Maestro important intro - {#maestro-important-intro}
+   The Workfront Planning landing page opens. 
+    
+1. (Optional and conditional) If you are a Workfront administrator, click the following tabs:
+
+   * **My workspaces**: Displays workspaces you created.
+   * **Other workspaces**: Displays all workspaces in Workfront Planning, including the ones shared with you. 
+
+   For all other users, all workspaces that they created or are shared with them display in the **Workspaces** area.
+ 
+## Workfront Planning important intro - {#planning-important-intro}
 
 >[!IMPORTANT]
 >
->The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront.
+>The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
 >
->Currently, Workfront Planning is part of a beta program which is open to a limited number of customers. You must be a Workfront customer to use these capabilities.
+>Currently, Workfront Planning is in an early access stage which is open to a limited number of customers. 
 >
->Contact your account representative for more information about joining the beta program for Workfront Planning.
+>You must be a Workfront customer to use these capabilities. 
 >
->For more information, see [Adobe Workfront Planning overview](/help/quicksilver/maestro/maestro-overview.md).
+>Your account representative will inform you if you are part of this stage.
+>
+>For more information, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
 
 <!-- Manage Work -->
 
