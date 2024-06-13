@@ -14,7 +14,8 @@ exl-id: 2887a0e2-039e-4e29-823d-82809f217045
 
 >[!IMPORTANT]
 >
->The legacy Fusion experience will be deprecated on August 15, 2024.
+>* The legacy Fusion experience will be deprecated on August 15, 2024.
+>* When loading for the first time, the new Fusion experience may load slowly (30-60 seconds). After the first time, Fusion will load more quickly.
 
 ## Access requirements
 
