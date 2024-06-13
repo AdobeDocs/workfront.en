@@ -8,14 +8,12 @@ description: The Environment Promotion capability is intended to provide the abi
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: yes
-hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
 ---
 # Overview of moving objects between Workfront environments (Environment promotion)
 
-The environment promotion capability is intended to provide the ability to move objects from one Workfront environment to another. For example, you can create a template and configure it in your sandbox environment, knowing that any testing you do will not affect your organization's actual data. After the template is configured and tested, you can move it to your production environment, ready to use.
+The environment promotion capability allows you to move objects from one Workfront environment to another. For example, you can create a template and configure it in your sandbox environment, knowing that any testing you do will not affect your organization's actual data. After the template is configured and tested, you can move it to your production environment, ready to use.
 
 This process is referred to as "environment promotion."
 
@@ -28,11 +26,13 @@ You can perform this process in Workfront by creating a package of objects to mo
 
 * For instructions on performing this process through the Workfront API, see [Move objects between [!DNL Workfront] environments using the [!DNL Workfront] API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md).
 
+[View a video demonstration of this feature](https://video.tv.adobe.com/v/3429735/){target=_blank}
+
 ## Supported objects for environment promotion
 
 The environment promotion capability is intended to provide the ability to move configuration-related object from one environment to another. These are objects that can be configured, such as projects, teams, or custom forms.
 
-Environment promotion does not support the ability to move transactional objects, (with limited exceptions). Transactional objects cannot be configured. Examples include system activity updates and proof decisions.
+Because environment promotion deals with object configuration, transactional objects (objects that change frequently or that are highly dependent on use case) are not included. Examples of transactional objects include documents, issues, requests, updates, and and proof decisions.
 
 * [Work objects](#work-objects)
 * [Reporting objects](#reporting-objects)
