@@ -26,6 +26,11 @@ For more information about environment promotion, see [Overview of moving object
 
 [View a video demonstration of this feature](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
+>[!IMPORTANT]
+>
+>Environment promotion is only available for organizations on the new Prime or Ultimate plans.
+>
+
 ## Share custom forms and custom fields in the custom form designer
 
 >[!NOTE]

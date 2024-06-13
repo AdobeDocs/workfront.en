@@ -10,7 +10,7 @@ exl-id: 372aa2c2-5deb-49da-aadc-6e870bbd083a
 
 This page provides information about functionality that is included in the Third Quarter 2024 release. These enhancements are planned to become available in the Production environment throughout the quarter.
 
-The 24.7 release webinar will be on June 27, 2024. You can [register for the webinar here]( https://webinars.on24.com/adobe_workfront/whatsnewin247?partnerref=releaseoverview).
+The 24.7 release webinar will be on June 27, 2024. You can [register for the webinar here](https://webinars.on24.com/adobe_workfront/whatsnewin247?partnerref=releaseoverview).
 
 <span class="preview">Off-cycle features (those releasing to Production prior to the Third Quarter 2024 release date) are highlighted in yellow.</span>
 
