@@ -27,7 +27,6 @@ Welcome to the Adobe Workfront product and technical documentation home page. Us
 >[!TAB Betas]
 
 * [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
-* [New commenting beta experience](../betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
 * [Workfront and Frame.io integration](/help/quicksilver/review-and-approve-work/Documents/wf-frame-alpha.md)
 
 >[!TAB Known Issues]
@@ -66,7 +65,7 @@ Welcome to the Adobe Workfront product and technical documentation home page. Us
         <li><a href="/help/quicksilver/agile/agile-overview.md">Get started with Agile</a></li>
         <li><a href="/help/quicksilver/documents/documents-overview.md">Get started with Documents</a></li>
         <li><a href="/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md">Get started with the Workload Balancer</a></li>
-        <li><a href="URL">Get started with Review and Approval</a></li>
+        <li><a href="/help/quicksilver/resource-mgmt/workload-balancer/overview-workload-balancer.md">Get started with Review and Approval</a></li>
         </ul></td>
     <td><ul>
         <li><a href="/help/quicksilver/wf-api/general/api-basics.md">API Basics</a></li>
