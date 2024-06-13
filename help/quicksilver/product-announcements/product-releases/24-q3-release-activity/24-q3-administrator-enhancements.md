@@ -22,7 +22,7 @@ Environment promotion allows you to move objects from one Workfront environment 
 
 Previously, objects would need to be configured in production environments separately from sandbox or preview environments.
 
-More information and instructions for environment promotion will be available when environment promotion goes live with the 24.6 release.
+For more information about environment promotion, see [Overview of moving objects between Workfront environments (Environment promotion)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
 
 [View a video demonstration of this feature](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
@@ -30,7 +30,7 @@ More information and instructions for environment promotion will be available wh
 
 >[!NOTE]
 >
->Preview release: June 6, 2024; Production release for all customers: TBD
+>Preview release: June 6, 2024; Production release for all customers: June 13
 
 You can now share both custom forms and custom fields within the new form designer. This allows greater collaboration between users on custom forms.
 
