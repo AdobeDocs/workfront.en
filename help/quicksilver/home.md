@@ -41,12 +41,12 @@ Welcome to the Adobe Workfront product and technical documentation home page. Us
 
 <table>
  
-  <tr tr style="border: 0;">
+  <tr>
     <td style="text-align: center;"><img src="assets/admin.svg" style="width: 80px; height: 80px;"><p><b>Administrators</b></p></td>
     <td colspan="2" style="text-align: center;"><img src="assets/user.svg" style="width: 75px; height: 75px;"><p><b>Users</b></p></td>
     <td style="text-align: center;"><img src="assets/developer.svg" style="width: 80px; height: 80px;"><p><b>Developers</b></p></td>
   </tr>
-  <tr tr style="border: 0;">
+  <tr>
     <td>
     <ul>
     <li><a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md">Get started with Workfront Administration</a></li>
