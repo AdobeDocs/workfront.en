@@ -15,6 +15,8 @@ You can associate milestones with tasks to indicate when you reach important ste
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -42,7 +44,9 @@ You can associate milestones with tasks to indicate when you reach important ste
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+To find out what plan, license type, or access you have, contact your Workfront administrator.
+
++++
 
 ## Prerequisites
 

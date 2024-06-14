@@ -19,6 +19,8 @@ The Milestone view is available when viewing a project list or project report. T
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -49,6 +51,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Switch to the Milestone view {#switch-to-the-milestone-view}
 

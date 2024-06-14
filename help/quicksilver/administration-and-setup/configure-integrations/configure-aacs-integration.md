@@ -31,6 +31,8 @@ You can connect your work with your content in [!DNL Experience Manager Assets]â
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following:
 
 <table>
@@ -68,6 +70,8 @@ You must have the following:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 
 ## Prerequisites

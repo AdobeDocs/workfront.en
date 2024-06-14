@@ -17,6 +17,8 @@ The following sections describe how to update your Security Assertion Markup Lan
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
@@ -37,6 +39,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Use ADFS as your identity provider
 
