@@ -46,7 +46,9 @@ You must have the following:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+To find out what plan, license type, or access you have, contact your Workfront administrator.
+
++++
 
 +++
 
@@ -54,9 +56,11 @@ You must have the following:
 
 You can add new documents to Workfront from the file system on your workstation. You can also link documents from third-party applications such as Google Drive and SharePoint.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->While there is no size limit for document uploads, document downloads are limited to 4GB.
+>* You can upload up to 150 documents at one time.
+>* There is no limit on the file size. 
+>* Document downloads are limited to 4GB.
 
 To add a document:
 
