@@ -7,6 +7,8 @@ author: Alina
 feature: Product Announcements
 role: User, Admin
 recommendations: noDisplay, noCatalog
+hide: yes
+hidefromtoc: yes
 exl-id: 08aea7a6-1ce2-46d9-9807-c94526851655
 ---
 # Information about the new commenting beta experience 

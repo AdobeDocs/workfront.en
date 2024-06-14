@@ -9,8 +9,6 @@ exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
 ---
 # [!DNL Adobe Workfront] objects overview
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 <!--Audited: 12/2023-->
 
 <!--
@@ -205,14 +203,11 @@ For more information about running basic and advanced searches in [!DNL Workfron
 
 ## Restricted access to objects
 
-<span class="preview">
 When a user does not have access to an object, the user sees "No access" anywhere that object name displays in Workfront.
 
 Access to objects can be restricted in the access level or in a specific object's permissions. 
 
 This applies to all objects and child objects listed in the [Interdependency and hierarchy of objects](#interdependency-and-hierarchy-of-objects) section in this article. This does not apply to Team and User objects.
-
-</span>
 
 ## Report on objects
 
