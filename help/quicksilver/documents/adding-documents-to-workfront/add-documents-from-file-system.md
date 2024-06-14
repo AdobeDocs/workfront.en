@@ -54,12 +54,11 @@ To find out what plan, license type, or access you have, contact your Workfront 
 
 You can add new documents to Workfront from the file system on your workstation. You can also link documents from third-party applications such as Google Drive and SharePoint.
 
-Document limitations:
-
-* You can upload 150 documents at one time.
-* There is no limit on the file size. 
-* Document download are limited to 4GB.
-
+>[!IMPORTANT]
+>
+>* You can upload up to 150 documents at one time.
+>* There is no limit on the file size. 
+>* Document downloads are limited to 4GB.
 
 To add a document:
 
