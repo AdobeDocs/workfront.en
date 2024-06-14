@@ -9,7 +9,11 @@ exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
 ---
 # Update Condition for tasks and issues
 
-{{highlighted-preview}}
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 The Condition of a task or issue is a flag placed on it to indicate how it's going. This is different than the Status of the work item, which indicates the current stage of the development of the item.
 
@@ -130,7 +134,7 @@ To manually update the Condition of a task or an issue do one of the following:
 
 1. To update the Condition of a task or issue in the task or issue Details section:
 
-     1. (Conditional) If your Workfront or group administrator added the Condition field to the Details section of a task or issue in your layout template, click **Details** in the left panel, then click the **Condition** field and select from the following options: 
+     1. (Conditional) If your Workfront or group administrator added the Condition field to the Details section of a task or issue in your layout template, click **Details** in the left panel, then click **Task Condition** or **Issue Condition** and select from the following options: 
           * Going Smoothly
           * Some Concerns
           * Major Roadblocks

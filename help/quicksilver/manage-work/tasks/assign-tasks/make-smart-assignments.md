@@ -68,23 +68,30 @@ Smart assignments are available in most locations where you can make assignments
    * A task or issue in the Workload Balancer
 
 1. Place your cursor in the assignment field, and wait for two seconds. 
-   
-   <span class="preview">The **Suggested Assignments** list displays.</span> <!--check the casing for "assignments" should be lower case in task lists??-->
-   
+
+   <div class="preview">
+   One or several of the following sections with smart assignment suggestions displays: 
+
+   * **Suggested assignments**: Displays for tasks.
+
       >[!TIP]
       >
-      >   The list header displays **Here are a few recommendations** instead of **Suggested Assignments** in an issue list.
-
-     ![](assets/smart-assignments-task-header-nwe-350x302.png)
-
-   For issues, the smart assignment suggestions display in  the **Suggested assignments** area.
+      >   The list header displays **Here are a few recommendations** instead of **Suggested assignments** in the Production environment.
+      >
+   * **Other assignments**: Displays for tasks and issues.
+   * **Users and teams**: Displays for tasks and issues.
+   * **Job roles**: Dispays for tasks and issues. 
+   </div>
    
+   <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+
+     
    For tasks, the smart assignments display in the following sections, depending on which phase of the algorithm's calculation identified the assignments: 
 
    * **Suggested assignments**: Assignments identified in the first phase of the task smart assignment's algorithm calculation. <span class="preview">This section is not available for issues.</span>
-   * <span class="preview">**Other assignments** (or **Users and teams**, or **Job roles**): Assignments identified in the second phase of the task smart assignment's algorithm calculation. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
+   * <span class="preview">**Other assignments**, **Users and teams**, or **Job roles**: Assignments identified in the second phase of the task smart assignment's algorithm calculation. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
 
-   ![](assets/smart-assignments-task-list.png)
+   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
    
    For more information, see [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
