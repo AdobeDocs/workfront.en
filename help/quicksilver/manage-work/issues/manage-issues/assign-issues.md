@@ -10,6 +10,8 @@ exl-id: e2dce29e-7370-4580-8326-99c4437998bf
 ---
 # Assign issues
 
+<!--keep the rate card job role information always in yellow till it releases to production - check with Lisa - this might not apply to issues?! -->
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
@@ -124,7 +126,7 @@ Consider the following when assigning multiple resources to a work item:
      <span class="preview">Sample image in the Preview environment:</span>
      <span class="preview">![Assignments search](assets/smart-assignments-issue-header.png)</span>
 
-   * (Conditional) Click one of the names in the **Suggested Assignments** list 
+   * (Conditional) Click one of the names, roles, or teams in the available lists
    * Click **Assign to me** to assign it to yourself
    * Click **Advanced**.
 
@@ -137,10 +139,14 @@ Consider the following when assigning multiple resources to a work item:
       >Users must be associated with at least one job role to view it as you add them.
       >
       >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+      >
+
+      <!-- not sure if this applies to issues; if it does, add this to the TIP above: 
+      ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
 1. Click **Save** to complete assigning the issue. 
-1. (Optional)&nbsp;Click the **X icon** next to the name of the assignments in the Assignments area on the header of the issue to remove an assignment.
+1. (Optional) Click the **X icon** next to the name of the assignments in the Assignments area on the header of the issue to remove an assignment.
 
 ## Assign an issue in a list
 
