@@ -13,6 +13,8 @@ exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
 
 <!--Audited: 12/2023-->
 
+{{form-designer-default}}
+
 You can build a custom form that users can attach to an Adobe Workfront object. Users who work on the object can fill out the custom form to supply information about the object.
 
 For example, you can attach a custom form called "Marketing Content Research" to attach to a project so that users on the project can request marketing content for the project:

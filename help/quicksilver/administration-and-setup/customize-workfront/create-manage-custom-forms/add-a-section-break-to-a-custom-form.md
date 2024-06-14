@@ -11,6 +11,8 @@ exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
 ---
 # Add a section break to a custom form with the legacy form builder
 
+{{form-designer-default}}
+
 You can group the custom fields and widgets in a custom form into sections with headings. This is useful for presenting an organized experience to users who will fill out the form. Also, if you need to limit access to certain custom fields and widgets to certain users, you can place them in a section and then grant access to the section to only those users.
 
 For example, if you need to track sensitive information that only system administrators should be able to view or edit, you can create a section break with Admin Only permissions and place the sensitive fields in that section.

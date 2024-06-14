@@ -54,6 +54,14 @@
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
 
+## Form designer to GA {#form-designer-default}
+
+>[!IMPORTANT]
+>
+>With the 24.7 release, the form designer will be generally available and will become the default experience for creating and editing custom forms in Adobe Workfront. The legacy form builder will no longer be available. We recommend that you switch to the form designer now and take advantage of its features.
+>
+>The legacy form builder was removed from the Preview environment on June 27, 2024, and will be removed from the Production environment with the 24.7 release in July.
+
 
 ## Associate right group with team {#right-group-team}
 
