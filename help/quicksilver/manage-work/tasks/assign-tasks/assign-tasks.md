@@ -48,6 +48,8 @@ In addition to this article, we recommend that you read the following articles f
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 <!--drafted for P&P - replace table below with this:
 
 <table style="table-layout:auto"> 
@@ -108,6 +110,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 *To find out what plan, license type, or access you have, contact your Workfront administrator.
+
++++
 
 ## Considerations for multiple assignments to job roles, teams, and users
 

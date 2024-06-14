@@ -31,6 +31,8 @@ You can also add issues to projects as requests. For information, see [Create an
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -56,7 +58,9 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+To find out what plan, license type, or access you have, contact your Workfront administrator.
+
++++
 
 <!--
 (NOTE: in NWE Requestors CAN see the Issues tab on a project but in classic they cannot! However, even when they DO see it, they cannot enter the issues - logged this issue for it but they might decide not to fix it: https://hub.workfront.com/issue/60181e28000058980cce29597185b2d6/updates?email-source=comm)</p>

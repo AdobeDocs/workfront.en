@@ -22,6 +22,8 @@ This article describes how you can configure the Home Calendar settings and inte
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -45,6 +47,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 *To find out what plan or license type you have, contact your [!DNL Workfront] administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## About integrating [!DNL Microsoft Outlook] calendars
 

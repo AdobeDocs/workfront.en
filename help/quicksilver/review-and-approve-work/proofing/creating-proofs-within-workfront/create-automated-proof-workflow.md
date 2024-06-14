@@ -15,6 +15,8 @@ An Automated Workflow makes it easier to manage the review process if your proce
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -41,6 +43,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Create an advanced proof with an Automated workflow
 
