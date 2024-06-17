@@ -50,8 +50,6 @@ To find out what plan, license type, or access you have, contact your Workfront 
 
 +++
 
-+++
-
 ## Add documents to Workfront
 
 You can add new documents to Workfront from the file system on your workstation. You can also link documents from third-party applications such as Google Drive and SharePoint.
