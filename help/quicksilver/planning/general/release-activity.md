@@ -47,6 +47,86 @@ If your organization is not in the Adobe Unified Experience, you receive an emai
 
 For more information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/planning/notifications/notifications-information.md). -->
 
+## Week of June 17, 2024
+
+### Updated look and feel of the Details page
+
+Production: June 17, 2024 
+
+Preview: To be determined 
+
+We have updated the look and feel of the Details page of records. As part of this update, the field icons have been removed.  
+
+For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
+
+### Updated workspace templates
+
+Production: June 17, 2024 
+
+Preview: To be determined 
+
+We have updated the look and field of the workspace template cards in Workfront Planning.  
+
+This update includes the following improvements: 
+
+* The record types that belong to each template display as cards. 
+
+* We have removed the Marketing management template. We  have added the following templates for Marketing management, and we recommend using the appropriate one depending on the complexity of your workflows:  
+
+    * Basic: Marketing Management 
+    * Advanced: Marketing Management 
+    * Enterprise: Marketing Management 
+
+For information, see the following articles: 
+
+* [List of workspace templates](/help/quicksilver/planning/architecture/workspace-templates.md)  
+
+* [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md)  
+
+### New experience when adding  a thumbnail or a cover image to a record
+
+Production: June 17, 2024 
+
+Preview: To be determined 
+
+We have updated the experience for adding a thumbnail or a cover image to a record from the Details page. The improvements include the following updates:  
+
+* A thumbnail image is randomly assigned to a record when you create it. You can later edit this image.  
+
+* You can add a thumbnail from the Details page. Prior to this enhancement, you could add a thumbnail only from the table view. 
+
+* You can browse a gallery of images to select an image for the cover or for the thumbnail of a record. Prior to this enhancement, you could only upload your own image file.  
+
+For more information, see the following articles: 
+
+* [Add a cover image to a record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) 
+
+* [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md) 
+
+### Update the record title in the Details page
+
+Production: June 17, 2024 
+
+Preview: To be determined 
+
+The title of a record's Details page displays the primary field of a record. Prior to this update, the title of a record's Details page displayed the name of the record. You can edit the title inline, in the Details page, unless the primary field is a formula-type field.   
+
+For more information, see the following articles: 
+
+* [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md) 
+
+* [Edit records](/help/quicksilver/planning/records/edit-records.md) 
+
+### Adding a "Show more/ Show less" link in the connected record fields 
+
+Production: June 17, 2024 
+
+Preview: To be determined 
+
+We have added a "Show more/ Show less" link in a connected record field, when there are records that would otherwise display on more than two rows. 
+
+For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+ 
 ## Week of June 10, 2024
 
 ### Up to 4-level reference for record lookup fields
