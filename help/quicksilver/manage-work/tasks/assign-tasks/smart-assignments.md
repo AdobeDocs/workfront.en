@@ -10,6 +10,8 @@ exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
 ---
 # Smart assignments overview
 
+<!--keep the yellow around the Rate card job roles and the Preview intro for those-->
+
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
@@ -116,7 +118,7 @@ The calculation for the similarity score and the order in which the assignments 
 
   For example, if Rick was assigned to a similar task earlier today and Jennifer was assigned to a similar task two days ago, Rick displays first.  
 
-* Assignments identified in this phase are listed in the    **Suggested assignments**  section of the Assignments field of tasks. 
+* Assignments identified in this phase are listed in the    **Suggested assignments**  section of the Assignments field for tasks. 
 
 * If there are no matches using this calculation, the second phase of smart assignments starts which is calculated using a different algorithm.  
 
@@ -126,7 +128,7 @@ If the first step of task smart assignments has found no matches, Workfront calc
 
 For more information, see the section [Smart assignments criteria for tasks and issues](#smart-assignments-criteria-for-tasks-and-issues) in this article. 
 
-Assignments identified in this phase are listed in the   **Other assignments**, **Users and teams**, or **Job role assignments**  sections of the Assignments field for tasks. 
+Assignments identified in this phase are listed in the **Users and teams**, **Job role assignments**, and **Rate card roles**  sections of the Assignments field. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 ### Smart assignments criteria for tasks and issues 
 
