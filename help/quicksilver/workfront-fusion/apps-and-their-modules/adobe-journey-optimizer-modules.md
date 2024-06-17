@@ -125,7 +125,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 * [Check if configuration can be deployed](#check-if-configuration-can-be-deployed)
 * [Check service health](#check-service-health)
-<!--* [Copy artifacts asynchronously](#copy-artifacts-synchronously)-->
+<!--* [Copy artifacts synchronously](#copy-artifacts-synchronously)-->
 * [Create a configuration](#create-a-configuration)
 * [Create a record](#create-a-record)
 * [Delete a configuration](#delete-a-configuration)
@@ -186,9 +186,13 @@ This action module checks that the service represented by the connection is runn
 
 ### Copy artifacts synchronously
 
+This action module copies artifacts from a source sandbox into a destination sandbox.
+
+
+
 ### Create a configuration
 
-This action module create a capping endpoint or throttling configuration.
+This action module creates a capping endpoint or throttling configuration.
 
 <table style="table-layout:auto"> 
  <col> 
