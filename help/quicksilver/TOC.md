@@ -2085,7 +2085,7 @@ feature-set: Workfront
     * [History section overview](planning/records/history-section-overview.md)
     * [Add a thumbnail to a record](planning/records/add-thumbnails-to-records.md)
     * [Add a cover image to a record](planning/records/add-a-cover-image-to-a-record.md)
-    * [Manage the record page](planning/records/manage-the-record-page.md)
+    * [Manage the record page layout](planning/records/manage-the-record-page.md)
     * [Manage records in the Planning section of Adobe Workfront objects](planning/records/manage-records-in-planning-section.md)
   * Adobe Workfront Planning views {#adobe-workfront-planning-views}
     * [Views: article index](planning/views/views-information.md)

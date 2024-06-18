@@ -48,9 +48,10 @@ You must have the following access to perform the steps in this article:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>Any</p> 
+   <p>Current: Work or higher</p>
+   <p>New: Standard</p>  
   </td>
   </tr>
   
@@ -61,7 +62,7 @@ You must have the following access to perform the steps in this article:
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Contribute or higher permissions to a workspace </p>  
+   <td> <p>Manage permissions to a workspace </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
@@ -74,23 +75,33 @@ You must have the following access to perform the steps in this article:
  </tbody>
 </table>
 
+*For more information, see [Access requirements in Workfornt documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
 ## Considerations about record thumbnails
 
 To visually distinguish between records in a table view,  you can associate a unique thumbnail image with each record. 
 
 Consider the following: 
 
+* A thumbnail is unique to one record, and it does not apply to all records of the same type.
 * You can add only image files as thumbnails.
    <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
-* You can add a thumbnail image to individual records in the table view. 
-* Thumbnails belong to the record information and they display in views where records display. For example, thumbnails display alongside record information in the following areas:
+* You can add a thumbnail image to individual records in the table view or from the record's page or preview box.
+* Workfront automatically uploads a thumbnail image every time you create a record. You can later modify this image. 
+* Thumbnails belong to the record information and they display in areas where records display. For example, thumbnails display alongside record information in the following areas:
 
    * The primary field of a record in the table view
    * The record bar in the timeline view. 
-* You cannot add record thumbnails from the record's page or from another type of view. 
-* Thumbnails do not display on the record's page. 
+   * The record's details preview and page. 
 
 ## Add a thumbnail to a record
+
+You can add a thumbnail in the following ways:
+
+* [Add a thumbnail to a record from the table view](#add-a-thumbnail-to-a-record-from-the-table-view)
+* [Add a thumbnail to a record from the details page](#add-a-thumbnail-to-a-record-from-the-details-page)
+
+### Add a thumbnail to a record from the table view
 
 {{step1-to-planning}}
 
@@ -104,74 +115,85 @@ Consider the following:
 
       >[!TIP]
       >
-      >   The primary field is the field that displays in the first column of a table view. The primary field is always frozen and cannot be hidden or relocated. 
+      >   The primary field is the field that displays in the first column of a table view. The primary field is always frozen and cannot be hidden or relocated. The Thumbnail option is not available in the More menu when the primary field is a formula field. 
 
-   The **Record thumbnail** box opens.
+   The **Upload** tab opens by default in the **Record thumbnail** box.
 
-   ![](assets/record-thumbnail-box-for-upload.png) 
-
-   <!--update screen shot with correct casing-->
-
-1. In the **Upload** tab, drag and drop a file to add as a thumbnail
-   Or
-   Click **Select to upload**, then browse for an image file to add. The file must be saved on your computer. 
-1. (Optional) Use the sizing tool to crop and resize the image.
-1. Click **Use image** to add the image as a thumbnail. 
-   This closes the **Record thumbnail** box.
-1. (Conditional) If you have at least Contribute permissions to the table view, click **Fields** in the upper-right corner of the table view. 
-1. Select the **Thumbnail** toggle to display the thumbnail. This is deselected by default. 
-
-   ![](assets/thumbnail-toggle-in-fields-menu-deselected.png)
-
-   The thumbnail displays to the left of the primary field value. 
-1. (Optional and conditional) If you do not have Contribute or higher permissions to the view, select a new view from the **View** drop-down menu, or create a view. 
-1. (Optional) To remove the thumbnail, hover over the primary field and click the **More** menu ![](assets/more-menu.png)> **Thumbnail** > the **Remove** icon ![](assets/remove-image-icon.png), then click **Save changes**.
+   For more information about uploading the thumbnail, see the section [Add a thumbnail to a record from the details page](#add-a-thumbnail-to-a-record-from-the-details-page) in this article, starting with Step 6. <!--see if this is accurate--> 
 
 <!--
-Replace the section above with the following when we release generate thumbnails:
+   ![](assets/record-thumbnail-box-for-upload.png) 
 
-## Add a thumbnail to a record
+  *****update screen shot with correct casing****
 
-You can add a thumbnail to a record in the following ways:
+1. Drag and drop a file to add as a thumbnail
+   
+   Or
+   
+   Click **Browse images**, then browse for an image file to add. The file must be saved on your computer. 
+1. (Optional) After the image uploads in the **Record thumbnail** box, use the sizing tool to crop and resize the image.
+1. (Optional) Click the **Upload new image** icon ![](assets/upload-new-image-icon.png) to upload another image. 
+1. (Optional) To remove a thumbnail before it is saved, click  **Remove uploaded image** icon ![](assets/remove-image-icon.png) to the right of the image. 
+1. (Optional) Click the **Gallery** tab, then click an image. The gallery of images cannot be modified.
 
-* Upload a file from your computer
-* Generate an image with a prompt
+   ![](assets/record-thumbnail-box-for-gallery.png)
+1. Click **Use image** to add the image as a thumbnail. 
+   This closes the **Record thumbnail** box.
+   The thumbnail displays in areas of Workfront Planning where the record displays. 
 
-### Upload a thumbnail to a record
+   >[!TIP]
+   >
+   >   You must enable the Thumbnail field in the table view to display thumbnails in this view. It is disabled by default.
+
+1. (Optional) To remove the thumbnail after it is saved, hover over the primary field and click the **More** menu ![](assets/more-menu.png)> **Thumbnail** > the **Remove** icon ![](assets/remove-image-icon.png), then click **Save changes**. -->
+
+### Add a thumbnail to a record from the details page
 
 {{step1-to-planning}}
 
 1. Click the workspace for whose records you want to add thumbnails, then click the record type card. 
 
    This opens the record type page. 
-1. Select a table view from the **View** drop-down menu. All records of the type you selected display in a table. 
-1. Hover over the primary field information, click the **More** menu ![](assets/more-menu.png), then click **Thumbnail**. 
+1. From any view, click a record to open it. 
 
-   ![](assets/record-more-menu-expanded.png)
+   The details preview box displays.
+1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner.
 
-      >[!TIP]
-      >
-      >   The primary field is the field that displays in the first column of a table view. The primary field is always frozen and cannot be hidden or relocated. 
+   The record's details page opens. 
+1. Hover over the thumbnail image or icon ![](assets/record-thumbnail-icon-on-details-page.png), then click the **More** menu > **Edit thumbnail**. 
 
-   The **Record thumbnail** box opens.
+   The **Upload** tab opens by default in the **Record thumbnail** box. 
 
    ![](assets/record-thumbnail-box-for-upload.png) 
 
-1. Click the **Upload** tab, and drag and drop a file to add as a thumbnail
+1. Drag and drop a file to add as a thumbnail
+   
    Or
-   Click **Select to upload**, then browse for an image file to add. The file must be saved on your computer. 
-1. (Optional) Use the sizing tool to crop and resize the image.
+   
+   Click **Browse images**, then browse for an image file to add. The file must be saved on your computer. 
+
+1. (Optional) After the image uploads in the **Record thumbnail** box, use the sizing tool to crop and resize the image.
+1. (Optional) Click the **Upload new image** icon ![](assets/upload-new-image-icon.png) to upload another image. 
+1. (Optional) Click the **Gallery** tab, then click an image. The gallery of images cannot be modified. 
+
+   ![](assets/record-thumbnail-box-for-gallery.png)
+
+1. (Optional) To remove the thumbnail before it is saved, click the **Remove** icon ![](assets/remove-image-icon.png) to the right of the image. 
+
 1. Click **Use image** to add the image as a thumbnail. 
    This closes the **Record thumbnail** box.
-1. (Conditional) If you have at least Contribute permissions to the table view, click **Fields** in the upper-right corner of the table view. 
-1. Select the **Thumbnail** toggle to display the thumbnail. This is deselected by default. 
+   The thumbnail displays in areas of Workfront Planning where the record displays. 
 
-   ![](assets/thumbnail-toggle-in-fields-menu-deselected.png)
+   >[!TIP]
+   >
+   >   You must enable the Thumbnail field in the table view to display thumbnails in this view. It is disabled by default.
 
-   The thumbnail displays to the left of the primary field value. 
-1. (Optional and conditional) If you do not have Contribute or higher permissions to the view, select a new view from the **View** drop-down menu, or create a view. 
-1. (Optional) To remove the thumbnail, hover over the primary field and click the **More** menu ![](assets/more-menu.png)> **Thumbnail** > the **Remove** icon ![](assets/remove-image-icon.png), then click **Save changes**.
+1. (Optional) To remove the thumbnail after it is saved, click a record in any view to open the details page, then hover over the thumbnail image and click the **More** menu ![](assets/more-menu.png)> **Remove** icon ![](assets/remove-image-icon.png). The thumbnail image is removed. 
 
+
+
+
+<!--
 ### Generate a thumbnail for a record
 
 {{step1-to-planning}}

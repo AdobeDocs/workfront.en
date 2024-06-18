@@ -83,7 +83,7 @@ For information, see the following articles:
 
 * [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md)  
 
-### New experience when adding  a thumbnail or a cover image to a record
+### New experience when adding a thumbnail or a cover image to a record
 
 Production: June 17, 2024 
 
@@ -91,7 +91,7 @@ Preview: To be determined
 
 We have updated the experience for adding a thumbnail or a cover image to a record from the Details page. The improvements include the following updates:  
 
-* A thumbnail image is randomly assigned to a record when you create it. You can later edit this image.  
+* A thumbnail image and a cover image are randomly assigned to a record when you create it. You can later edit these images.
 
 * You can add a thumbnail from the Details page. Prior to this enhancement, you could add a thumbnail only from the table view. 
 
@@ -123,7 +123,7 @@ Production: June 17, 2024
 
 Preview: To be determined 
 
-We have added a "Show more/ Show less" link in a connected record field, when there are records that would otherwise display on more than two rows. 
+We have added a "Show more/ Show less" link in a connected record field, when there are records that would otherwise display on more than two rows in the Details page of a record. 
 
 For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
  
@@ -163,7 +163,7 @@ We are introducing a new landing page for Workfront Planning, after you click Pl
 
 Some of the information on the landing page includes the following: 
 
-* An area that displays your workspaces and workspaces that are shared with you. The workspace owner is listed on each workspace card.  
+* An area that displays your workspaces and workspaces that are shared with you. The workspace owner displays on each workspace card.  
 
 * If you are a Workfront administrator, the following tabs display: 
 
@@ -318,7 +318,7 @@ Preview: To be determined
 
 To better organize information on the record's page for more efficient readability and navigation, we have introduced sections to the record's page. The section titles serve as headers that organize the fields into distinct categories. The sections are fully customizable and can be expanded or collapsed, if needed.  
 
-For information, see [Manage the record page](/help/quicksilver/planning/records/manage-the-record-page.md). 
+For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md). 
 
 ### Real-time updates for field configuration changes 
 
@@ -427,7 +427,7 @@ Preview: To be determined
 
 As a Workspace manager, you now can reorder the fields listed in the record page or preview. Updating the order of the fields changes the order of fields on all records of the same type, for everyone viewing the record page or the record preview.  
 
-For more information, see [Manage the record page](/help/quicksilver/planning/records/manage-the-record-page.md). 
+For more information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md). 
 
 
 ### Add cover image to record pages
@@ -438,7 +438,7 @@ Preview: To be determined
 
 As you manage record pages, you can now add, reposition, and replace a cover image on a record page or preview, to enrich the record's presentation and stakeholder engagement. Cover images are visible to all users viewing the records. 
 
-For more information, see [Manage the record page](/help/quicksilver/planning/records/manage-the-record-page.md).  
+For more information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).  
 
 ## Week of March 25, 2024
 

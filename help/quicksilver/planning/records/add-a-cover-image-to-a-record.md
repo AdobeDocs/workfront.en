@@ -23,7 +23,7 @@ For information, see [Create record types](/help/quicksilver/planning/architectu
 
 ## Access requirements
 
-<!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding thumbnails-->
+<!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding cover images-->
 
 You must have the following access to perform the steps in this article: 
 
@@ -52,9 +52,10 @@ You must have the following access to perform the steps in this article:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>Any</p> 
+   <p>Current: Work or higher</p>
+   <p>New: Standard</p>  
   </td>
   </tr>
   
@@ -65,7 +66,7 @@ You must have the following access to perform the steps in this article:
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Contribute or higher permissions to a workspace </p>  
+   <td> <p>Manage permissions to a workspace </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
@@ -78,6 +79,8 @@ You must have the following access to perform the steps in this article:
  </tbody>
 </table>
 
+*For more information, see [Access requirements in Workfornt documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
 ## Considerations about record page cover images
 
 You can personalize a record's page by adding a cover image to it. 
@@ -88,7 +91,8 @@ Consider the following:
 * You can add only image files as cover images.
    <!--above: when you know exactly what type of files are allowed, add the exact extensions above-->
 * You can add a cover image to individual records from the record preview in any view, or from the record page. 
-* You cannot add cover images inline from any record views. 
+* You cannot add cover images from a record view. 
+* Workfront automatically uploads a cover image every time you create a record. You can later modify this image.
 
 ## Add a cover image to a record
 
@@ -108,7 +112,7 @@ You can personalize a record by adding a cover image at the top of the record pr
 
     The record type page opens. 
 
-1. From a view of any type, click the name of a record 
+1. From a view of any type, click a record 
 
     Or 
     
@@ -118,20 +122,31 @@ You can personalize a record by adding a cover image at the top of the record pr
 
     ![](assets/details-box.png) 
 
-    >[!TIP]
-    >
-    >You can view the **Open details** icon to the left of the Name field of a record in a table view only when the Name field is a primary field. 
-
 1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record preview to open the record's page in a new tab. 
 
     The record page opens. 
 
     ![](assets/details-page.png)
 
-1. In the record preview or page, click **Add cover**. <!--check the casing here; I logged a bug for this-->
-    The **Record cover** box opens. 
+1. In the record preview or page, click **Add cover** 
 
-1. Click **Select to upload** and browse for a picture on your computer to select, add it, then click **Use image**. 
+    
+    Or
+    
+    Hover over an existing cover image, click the **More** menu ![](assets/more-menu.png) , then click **Upload**. <!--check the casing here; I logged a bug for this-->
+    The **Record cover** box opens in the **Upload** tab. 
+
+    ![](assets/record-cover-box-for-upload.png)
+
+1. Click **Browse images** and browse for a picture on your computer to select and add it. 
+
+1. (Optional) To remove the image before it is saved, click the **Upload new image** icon ![](assets/upload-new-image-icon.png) , and upload a new image.
+
+1. (Optional) Click the **Gallery** tab, then click an image in the gallery of images. The gallery of images cannot be modified.
+
+    ![](assets/record-cover-box-for-gallery.png)
+
+1. Click **Use image**.
 
     The image is uploaded at the top of the record preview or page and changes are saved automatically. 
 
