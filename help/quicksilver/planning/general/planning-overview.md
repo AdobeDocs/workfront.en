@@ -94,6 +94,7 @@ For information about new features and when they are released, see [Adobe Workfr
 |     Adobe Workfront Planning modules for Adobe Workfront Fusion                                 |      ✓                         |                                  |                 | 
 |     Copy and paste information from one field to another                                  |      ✓                         |                                  |                 | 
 |     Access Planning records from Workfront objects                                  |      ✓                         |                                  |                 |
+|     Connect Planning records from Workfront objects                                  |      ✓                         |                                  |                 |
 
 ## Enable Adobe Workfront Planning for the users in your Workfront instance
 
@@ -157,7 +158,7 @@ The following are the main Workfront Planning objects and concepts:
 
     * Fields are unique to a record type and do not transfer from one record type to another. 
 
-    * Fields are fully customizable and are accessible only in Workfront Planning. You cannot access Workfront Planning fields from Workfront. 
+   * Fields are fully customizable and are accessible only in Workfront Planning. You cannot access Workfront Planning fields from Workfront. 
 
     For more information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
     
@@ -202,9 +203,18 @@ The following are the main Workfront Planning objects and concepts:
 
 * **Linked fields** (or lookup fields): After you establish the connection between two record types and you link individual records together, you can reference the linked records' fields on the record you are connecting from.
 
-    For example, if you connect a Campaign record type with a Workfront Project object type, you can display the Project Owner field of connected projects on the campaign records. 
+    For example, if you connect a Campaign record type with a Workfront Project object type, you can display the Budget field of connected projects on the campaign records. 
 
     ![](assets/add-lookup-fields-modal.png)
+
+    >[!TIP]
+    >
+    > You cannot add the following field types as lookup fields:
+    >
+    >    * People
+    >    * Created by
+    >    * Last modified by
+    >    * Workfront typeahead fields (including fields like Project Owner, or Project Sponsor)
 
     For information about linking record types, records, and creating linked fields, see the following articles:
 
@@ -279,7 +289,7 @@ To locate Workfront Planning:
 
     ![](assets/planning-landing-page-admin.png)
 
-    1. (Conditional and optional) If you are a Workfront administrator, click one of the following tabs:
+1. (Conditional and optional) If you are a Workfront administrator, click one of the following tabs:
     * **My workspaces**: Displays workspaces you created.
     * **Other workspaces**: Displays all other workspaces in the system, including the ones shared with you.
 

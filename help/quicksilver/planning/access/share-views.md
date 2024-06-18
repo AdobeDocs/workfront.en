@@ -123,6 +123,11 @@ You can share views you created or views you have Manage permissions to <!--with
 
 1. Click **Copy link** to copy a link to the view to your clipboard. 
 1. Share the copied link with others. Users who receive the link must be active users and log in to Workfront to be able to access the record type page and display it in the selected view. 
+
+   >[!TIP]
+   >
+   >   Shared views have a people icon ![](assets/view-shared-with-others-people-icon.png) next to the view icon. Views without the people icons are views you created. 
+
 1. Click **Save**.
 
 <!--

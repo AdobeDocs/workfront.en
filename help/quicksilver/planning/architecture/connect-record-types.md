@@ -214,7 +214,7 @@ You must have the following access to perform the steps in this article:
         >    * People
         >    * Created by
         >    * Last modified by
-        >    * Workfront typeahead fields
+        >    * Workfront typeahead fields (including fields like Project Owner, or Project Sponsor)
 
 1. (Conditional and optional) If you selected to connect a Workfront object, select a **Custom form** from the **Link only objects that match these criteria** section. Only objects that have the selected custom forms attached can be linked to the selected record type. You can select more than one form. 
 
