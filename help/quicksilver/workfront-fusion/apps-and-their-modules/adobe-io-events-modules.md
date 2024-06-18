@@ -54,9 +54,9 @@ Before you can use the Adobe I/O Events connector, you must ensure that the foll
 
 To create a connection for your Adobe I/O Events modules:
 
-<!--1 Click Add next to the Connection box.
+1. Click Add next to the Connection box.
     
-1 Fill in the following fields:
+1. Fill in the following fields:
     
     <table style="table-layout:auto"> 
     <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
@@ -65,16 +65,20 @@ To create a connection for your Adobe I/O Events modules:
     </col>
     <tbody>
       <tr>
-        <td role="rowheader">Connection type</td>
-        <td>
-          <p>Select whether you want to connect using a service account or using OAuth.</p>
-        </td>
-      </tr>
-      <tr>
         <td role="rowheader">Connection name</td>
         <td>
           <p>Enter a name for this connection.</p>
         </td>
+      </tr>
+      <tr>
+        <td role="rowheader">Type</td>
+        <td>
+          <p>Select whether you want to connect to a service account or a personal account.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">Additional scopes</td>
+        <td>To add any additional scopes, click <b>Add item</b> and enter the scope.</td>
       </tr>
       <tr>
         <td role="rowheader">Client ID</td>
@@ -84,50 +88,31 @@ To create a connection for your Adobe I/O Events modules:
         <td role="rowheader">Client Secret</td>
         <td>Enter your Adobe Client Secret. This can be found in the Credentials details section of the Adobe Developer Console</td>
       </tr>
-      <tr>
-        <td role="rowheader">Technical account ID</td>
-        <td>Enter your Adobe Technical account ID. This can be found in the Credentials details section of the Adobe Developer Console</td>
-      </tr>
-      <tr>
-        <td role="rowheader">Organization ID</td>
-        <td>Enter your Adobe Organization ID. This can be found in the Credentials details section of the Adobe Developer Console</td>
-      </tr>
-      <tr>
-        <td role="rowheader">Private key</td>
-        <td>
-          <p>Enter the private key that was generated when your credentials were created in the Adobe Developer Console. </p>
-          <p>To extract your private key or certificate:</p>
-          <ol>
-            <li value="1">
-              <p>Click <b>Extract</b>.</p>
-            </li>
-            <li value="2">
-              <p>Select the type of file you are extracting.</p>
-            </li>
-            <li value="3">
-              <p>Select the file that contains the private key or certificate.</p>
-            </li>
-            <li value="4">
-              <p>Enter the password for the file.</p>
-            </li>
-            <li value="5">
-              <p>Click <b>Save</b> to extract the file and return to the connection setup.</p>
-            </li>
-          </ol>
-        </td>
       </tr>
         <tr>
-        <td role="rowheader">Consumer Org ID</td>
-        <td>Enter your Consumer Org ID. This can be found in the credential URL of the project: <code>https://developer.adobe.com/console/projects/{consumerOrgId}/ {projectId}/credentials/{credentialId}/details</code></td>
+        <td role="rowheader">Consumer org ID</td>
+        <td>Enter your Consumer org ID. This can be found in the credential URL of the project: <code>https://developer.adobe.com/console/projects/{consumer org ID}/ {project ID}/credentials/{credential ID}/details</code></td>
       </tr>
       <tr>
         <td role="rowheader">Credential ID</td>
-        <td>Enter your Adobe Technical account ID. This can be found in the credential URL of the project: <code>https://developer.adobe.com/console/projects/{consumerOrgId}/ {projectId}/credentials/{credentialId}/details</code></td>
+        <td>Enter your Credential ID. This can be found in the credential URL of the project: <code>https://developer.adobe.com/console/projects/{consumer org ID}/ {project ID}/credentials/{credential ID}/details</code></td>
+      </tr>
+      <tr>
+        <td role="rowheader">IMS organization ID</td>
+        <td>Enter your Adobe Organization ID. This can be found in the Credentials details section of the Adobe Developer Console</td>
+      </tr>
+        <tr>
+        <td role="rowheader">Project ID</td>
+        <td>Enter your project ID. This can be found in the credential URL of the project: <code>https://developer.adobe.com/console/projects/{consumer org ID}/ {project ID}/credentials/{credential ID}/details</code></td>
+      </tr>
+      <tr>
+        <td role="rowheader">Workspace ID</td>
+        <td>Enter your Workspace ID. </td>
       </tr>
     </tbody>
     </table>
     
-1. Click **Continue** to save the connection and return to the module.-->
+1. Click **Continue** to save the connection and return to the module.
 
 ## Adobe I/O Events modules and their fields
 
@@ -304,9 +289,9 @@ This action module makes a custom API call to the [!DNL Adobe I/O Events] API
 
 ### Searches
 
-#### List all events providers
+#### Get provider and event IDs
 
-This search module retrieves all events for a registration from a journal.
+This search module gets the Adobe I/O Events IDs for the specified provider and events.
 
    <table>
      <col/>
@@ -318,40 +303,18 @@ This search module retrieves all events for a registration from a journal.
        </tr>
        <tr>
          <td role="rowheader">
-           [!UICONTROL Registration ID]
+           [!UICONTROL Event provider]
          </td>
          <td>
-           Select the registration that you want to retrieve events for.
+           Select the provider that you want to retrieve the ID for.
         </td>
        </tr>
        <tr>
          <td role="rowheader">
-           [!UICONTROL Maximum number of returned records]
+           [!UICONTROL Event type]
          </td>
          <td>
-              Enter or map the maximum number of records you want the module to return during each scenario execution cycle. 
-         </td>
-       </tr>
-       <tr>
-         <td role="rowheader">
-           [!UICONTROL Since]
-         </td>
-         <td>
-         </td>
-       </tr>
-       <tr>
-         <td role="rowheader">
-           [!UICONTROL Seek]
-         </td>
-         <td>
-         </td>
-       </tr>
-       <tr>
-         <td role="rowheader">
-           [!UICONTROL Latest]
-         </td>
-         <td>
-         Enable this option to return the latest event.
+              Select the events that you want to provide IDs for. Events are available based on the event provider. 
          </td>
        </tr>
      </tbody>
