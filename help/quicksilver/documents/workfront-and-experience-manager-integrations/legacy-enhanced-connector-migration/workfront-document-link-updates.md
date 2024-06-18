@@ -26,7 +26,7 @@ You can use the API to migrate linked folders and documents to Adobe Experience 
 1. Create a new document or document folder link in Workfront, pointing to the resource in its new location via its new external ID.
 
     1. **Documents**: Add a new version of the existing document with the new external document provider.
-    1. **Folders**: Create a new filder in the same place with the same name.
+    1. **Folders**: Create a new folder in the same place with the same name.
 
 >[!CAUTION]
 >
