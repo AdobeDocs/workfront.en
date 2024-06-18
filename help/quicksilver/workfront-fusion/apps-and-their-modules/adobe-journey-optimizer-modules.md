@@ -125,7 +125,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 * [Check if configuration can be deployed](#check-if-configuration-can-be-deployed)
 * [Check service health](#check-service-health)
-<!--* [Copy artifacts synchronously](#copy-artifacts-synchronously)-->
+* [Copy artifacts synchronously](#copy-artifacts-synchronously)
 * [Create a configuration](#create-a-configuration)
 * [Create a record](#create-a-record)
 * [Delete a configuration](#delete-a-configuration)
@@ -532,6 +532,86 @@ This action module deploys the specified capping or throttling configuration.
 </table>
 
 ### Export Artifacts asynchronously
+
+This action module exports artifacts from the specified sandbox.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Name]</td> 
+   <td>Enter or map a name for the export file</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Description]</td> 
+   <td>Enter or map a description for the export file</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Visibility]</td> 
+   <td></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Artifacts]</td> 
+   <td>For each artifact you want to export, click <b>Add artifact</b> and continue to <a href="#artifact-fields" class="MCXref xref" >Artifact fields</a>.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Artifact fields
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID]</td> 
+   <td>Enter or map the ID of the artifact.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Type]</td> 
+   <td>Enter or map the artifact type, such as <code>REGISTRY_SCHEMA<code> or <code>JOURNEY</code>.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Version]</td> 
+   <td>Enter or map the visibility of the artifact. This applies only to Registry objects.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Visibility]</td> 
+   <td>Enter or map the visibility (tenant or global). This applies only to Registry objects.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Found]</td> 
+   <td>Select <b>Yes</b> if this item was found using a GET operation.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Tasks]</td> 
+   <td>For each task you want to add, click <b>Add task</b> and fill in the following:
+   <ul>
+   <li><p><b>Method</b></p></li>
+   <li><p><b>Action</b></p></li>
+   <li><p><b>Using</b></p></li>
+   <li><p><b>With</b></p></li>
+   </ul>
+   </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader">[!UICONTROL Messages]</td> 
+   <td>For each task you want to add, click <b>Add message</b> and fill in the following:
+   <ul>
+   <li><p><b>Status</b></p><p>Enter or map the status that this message represents, such as <code>ERROR</code>.</li>
+   <li><p><b>Attempt</b></p><p>Enter or map the attempt number related to this message. This may be useful if different attempts produce different messages.</p></li>
+   <li><p><b>Message</b></p><p>Enter or map the text of the message.</li>
+   <li><p><b>Object</b></p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 ### Get a configuration
 
