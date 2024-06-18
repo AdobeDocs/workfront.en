@@ -6,8 +6,8 @@ description: When using the Document moveToFolder action, a 422 error is returne
 author: Becky
 feature: Workfront API
 role: Developer
+exl-id: 811efabc-e101-4de5-a800-a1447654dc3e
 ---
-
 # Document moveToFolder action does not work
 
 ## Problem
