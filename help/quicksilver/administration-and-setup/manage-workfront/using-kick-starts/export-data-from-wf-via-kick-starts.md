@@ -324,17 +324,17 @@ The following limitations exist when exporting data via kick-starts (data is exp
 
    The exported kick-start file is downloaded to your computer either as an Excel file, or a . zip file containing multiple Excel and properties files. Each Excel file is a collection of sheets, where each sheet represents a field associated with the object you selected. There is a **Properties** sheet associated with every export.
 
-   The **Dashboard** and **Report** options allow you to select specific dashboards and reports to include in the download. You can export only Dashboards which are shared system-wide.
+   The **Dashboard** and **Report** options allow you to select specific dashboards and reports to include in the download. You can export only Dashboards, which are shared system-wide.
 
    You cannot export matrix reports. For more information about matrix reports, see [Create a matrix report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+
+   Kick-Starts does not support Text Mode filters. For successful exporting, the reporting filters must be switched to Standard Mode.
 
    You can select up to 100 Dashboards and 100 Reports in a single export.
 
    ![](assets/kickstart-export-350x381.png)
 
    You can export multiple objects at one time.
-
-   
 
 1. (Recommended) Analyze the exported data to ensure that all the information you expect to see was exported. 
 
