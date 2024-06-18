@@ -75,7 +75,7 @@ This practice scenario takes you through the process of creating a scenario that
 
 ![](assets/create-practice-scenario-wf-only-350x157.png)
 
-### 1. Choose the apps and name the scenario
+### 1. Create and name the scenario
 
 1. Sign into your [!DNL Workfront Fusion] account.
 1. Click **[!UICONTROL Scenarios]** ![](assets/scenarios-icon.png) in the left panel.
@@ -84,34 +84,17 @@ This practice scenario takes you through the process of creating a scenario that
    >
    >If you do not see the left navigation panel or its icons, click the Menu ![Menu](assets/main-menu-icon-left-nav.png) icon.
 
-  <!--seems like unneeded info since this is a practice scenario? At the top of the main area to the right, you can view **[!UICONTROL All]** scenarios you have built, your **[!UICONTROL Active Scenarios]**, **[!UICONTROL Inactive Scenarios]**, and **[!UICONTROL Concepts]**. Concepts are scenarios that need some more work before [!DNL Workfront Fusion] can classify them as active or inactive. -->
-
-<!--
-   ![](assets/scenarios-left-panel-350x215.png)
--->
-
 1. In the [!UICONTROL **Folders**] panel, click the **[!UICONTROL Add folder]** icon ![](assets/add-folder-icon.png), then type a name like "Practice scenarios" for your first folder.
 
 1. Open the folder, then click **[!UICONTROL Create a new scenario]** in the upper-right corner of the page.
 
-   The landing page that displays lets you pre-load any apps you want to use in the scenario you are going to build. <!--check if this is needed -->
-
-1. For this exercise, search for and select the **[!DNL Workfront]** app.
-1. Click **[!UICONTROL Continue]** in the upper-right corner.
-
-   The scenario editor displays, containing an empty module in the center, the [!DNL Workfront] app you pre-loaded, and some options in the toolbar at the bottom. <!--check if this is needed -->
-
-<!--
-   ![](assets/scenario-editor-350x235.png)
--->
-
-<!--what to do with this?-->
-When you begin creating a new scenario, it's a good idea to start by creating a name for it.
-
 1. Select the **[!UICONTROL New scenario]** placeholder name in the upper-left corner, then type a name such as "Practice scenario 1."
+
+   ![](assets/name-the-scenario.png)
+
 1. Continue with [Add and configure the first module](#add-and-configure-the-first-module) below.
 
-### 2. Add and configure the first module
+### 2. Add and connect the first module
 
 The empty module with a question mark represents the trigger module you need to add. This module will start the scenario each time it runs. The clock icon on the empty module indicates that is a scheduled module.
 
@@ -120,6 +103,8 @@ The empty module with a question mark represents the trigger module you need to 
 This module will contain the data that you want the scenario to watch for.
 
 For this example, we are not using a trigger module. Instead, this scenario begins with a search.
+
+1. For this exercise, select the **[!DNL Adobe Workfront]** app.
 
 1. Click the empty module to choose the app from which you will select a module.
 
