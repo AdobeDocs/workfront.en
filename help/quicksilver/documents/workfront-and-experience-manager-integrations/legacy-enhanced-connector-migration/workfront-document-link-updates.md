@@ -93,11 +93,11 @@ Link **Document Folders (DOCFDR)** from **External Document Provider** of **prov
 
 >[!IMPORTANT]
 >
->For folder links , unlike Document links, you need the 'documentFolderId' of the folder in Workfront you want to place your new link into. This is the same parent folder, most likely, as the linked folder we are copying. 
+>For folder links, unlike Document links, you need the 'documentFolderId' of the folder in Workfront you want to place your new link into. This is the same parent folder, most likely, as the linked folder we are copying. 
 
 >[!CAUTION]
 >
->Folders are not temporally stored. Do not delete the old folers. Disable the custom document integration in the setup area to remove old folers.
+>Folders are not temporally stored. Do not delete the old folders. Disable the custom document integration in the setup area to remove old folders.
 
 
 ```
@@ -154,13 +154,13 @@ API DOCS: (Internal Link Endpoints Not Currently Covered at developer.workfront.
 
 * **Linked Document Folder**: A container for digital assets hosted in an external document storage provider. Workfront will have its own internal "Document Folder ID' for the asset, but the bytes are stored externally. To facilitate this, Workfront also stores an "external document ID" to assist with locating the externally referenced resource within the remote repository or store.
 
-* **External Document ID**: ID assigned when assets are stored outside of workfront. Workfront maps its internal identifier, to the identifier used to locate the asset in the external system, via this "external document identifier" field. Therefore, when linking the document or folder from a new external store, a new external document identifier must be composed, in the appropriate format for the external document provider to identify the document in the new repository or store. 
+* **External Document ID**: ID assigned when assets are stored outside of Workfront. Workfront maps its internal identifier, to the identifier used to locate the asset in the external system, via this "external document identifier" field. Therefore, when linking the document or folder from a new external store, a new external document identifier must be composed, in the appropriate format for the external document provider to identify the document in the new repository or store. 
 
     >[!NOTE]
     >
     > Workfront does not yet have a standard for external document identifiers. A new spec is being used for AEM IDs, but for other IDs, the external document ID may take on different forms depending on the provider type.
 
 
-* **Object Type**: This is an API only term for the purposes of this document. It's a type of generic object within workfront that you wish to interact with. In this cases, you'll interact with documents and folders having the types "DOCU" and "DOCFDR" respectively.
+* **Object Type**: This is an API only term for the purposes of this document. It's a type of generic object within Workfront that you wish to interact with. In this cases, you'll interact with documents and folders having the types "DOCU" and "DOCFDR" respectively.
 
 * **Object ID**: The internal Workfront identifier for the generic object you wish to interact with. You'll interact with documents and folders so this will be either the document ID or document folder ID respectively.
