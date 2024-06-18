@@ -67,16 +67,15 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 ## Create a automation practice scenario
 
-The role of [!DNL Adobe Workfront Fusion] is to automate your processes so that you can concentrate on new tasks rather than repeating the same tasks again and again. It works by linking actions within and between apps and services to create a scenario that transfers and transforms your data automatically. The scenario you create watches for data in an app or service and processes that data to provide the result you want.
+[!DNL Adobe Workfront Fusion] helps you focus on important tasks by automating repetitive ones. It creates scenarios that automatically manage your data across various apps and services.
 
-A scenario is comprised of a series of modules that indicate how data should be transformed within an app or transferred between apps and web services.
-This example takes you through the process of creating a scenario that searches for a [!DNL Workfront] project and returns the tasks in the project.
+Each scenario consists of modules, which guide how data is processed within an app or transferred between different apps and services. For instance, you can create a scenario in Fusion to automatically find a [!DNL Workfront] project and list its tasks. This way, Fusion saves you time and effort by handling routine tasks.
+
+This practice scenario takes you through the process of creating a scenario that searches for a [!DNL Workfront] project and returns the tasks in the project.
 
 ![](assets/create-practice-scenario-wf-only-350x157.png)
 
-Creating a scenario consists of several main tasks:
-
-## Choose the apps and name the scenario
+### 1. Choose the apps and name the scenario
 
 1. Sign into your [!DNL Workfront Fusion] account.
 1. Click **[!UICONTROL Scenarios]** ![](assets/scenarios-icon.png) in the left panel.
@@ -85,35 +84,34 @@ Creating a scenario consists of several main tasks:
    >
    >If you do not see the left navigation panel or its icons, click the Menu ![Menu](assets/main-menu-icon-left-nav.png) icon.
 
-   In the gray [!UICONTROL Folders] panel that displays, you can organize your scenarios into folders.
-
-   At the top of the main area to the right, you can view **[!UICONTROL All]** scenarios you have built, your **[!UICONTROL Active Scenarios]**, **[!UICONTROL Inactive Scenarios]**, and **[!UICONTROL Concepts]**. Concepts are scenarios that need some more work before [!DNL Workfront Fusion] can classify them as active or inactive.
+  <!--seems like unneeded info since this is a practice scenario? At the top of the main area to the right, you can view **[!UICONTROL All]** scenarios you have built, your **[!UICONTROL Active Scenarios]**, **[!UICONTROL Inactive Scenarios]**, and **[!UICONTROL Concepts]**. Concepts are scenarios that need some more work before [!DNL Workfront Fusion] can classify them as active or inactive. -->
 
 <!--
    ![](assets/scenarios-left-panel-350x215.png)
 -->
 
-1. In the [!UICONTROL Folders] panel, click the **[!UICONTROL Add folder]** icon ![](assets/add-folder-icon.png), then type a name like "Practice scenarios" for your first folder.
+1. In the [!UICONTROL **Folders**] panel, click the **[!UICONTROL Add folder]** icon ![](assets/add-folder-icon.png), then type a name like "Practice scenarios" for your first folder.
 
 1. Open the folder, then click **[!UICONTROL Create a new scenario]** in the upper-right corner of the page.
 
-   The landing page that displays lets you pre-load any apps you want to use in the scenario you are going to build.
+   The landing page that displays lets you pre-load any apps you want to use in the scenario you are going to build. <!--check if this is needed -->
 
 1. For this exercise, search for and select the **[!DNL Workfront]** app.
 1. Click **[!UICONTROL Continue]** in the upper-right corner.
 
-   The scenario editor displays, containing an empty module in the center, the [!DNL Workfront] app you pre-loaded, and some options in the toolbar at the bottom.
+   The scenario editor displays, containing an empty module in the center, the [!DNL Workfront] app you pre-loaded, and some options in the toolbar at the bottom. <!--check if this is needed -->
 
 <!--
    ![](assets/scenario-editor-350x235.png)
 -->
 
-   When you begin creating a new scenario, it's a good idea to start by creating a name for it.
+<!--what to do with this?-->
+When you begin creating a new scenario, it's a good idea to start by creating a name for it.
 
 1. Select the **[!UICONTROL New scenario]** placeholder name in the upper-left corner, then type a name such as "Practice scenario 1."
 1. Continue with [Add and configure the first module](#add-and-configure-the-first-module) below.
 
-## Add and configure the first module
+### 2. Add and configure the first module
 
 The empty module with a question mark represents the trigger module you need to add. This module will start the scenario each time it runs. The clock icon on the empty module indicates that is a scheduled module.
 
@@ -148,7 +146,7 @@ For this example, we are not using a trigger module. Instead, this scenario begi
 
    If you need help, see [About connecting [!DNL Adobe Workfront Fusion] to an app or service](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 
-## Configure the first module
+### 3. Configure the first module
 
 After you connect [!DNL Workfront Fusion] to your [!DNL Workfront] account, you can specify a [!DNL Workfront] request queue that you have access to and the data there that you want the first module to process.
 
@@ -188,7 +186,7 @@ After you connect [!DNL Workfront Fusion] to your [!DNL Workfront] account, you 
 
 1. Continue with [Add and configure the second module](#add-and-configure-the-second-module).
 
-## Add and configure the second module
+### 4. Add and configure the second module
 
 1. Click the partial circle to the right of the of the module to **[!UICONTROL Add another module]**.
 1. Select [!DNL Workfront] from the list of applications, then choose the search module **[!UICONTROL Read Related Records]**.
@@ -259,8 +257,6 @@ We chose to have 1 project returned, as well as the tasks associated with that p
 >
 >1. Click the **[!UICONTROL Notes]** icon ![](assets/notes-icon-w-dot.png) to view your notes.
 >
-
-
 
 ## Activate the scenario
 
