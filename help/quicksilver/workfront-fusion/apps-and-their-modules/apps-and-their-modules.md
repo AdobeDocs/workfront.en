@@ -32,7 +32,7 @@ This section contains the following articles:
 * [[!DNL Adobe Campaign Classic] modules](../../workfront-fusion/apps-and-their-modules/adobe-campaign-classic-connector.md) 
 * [[!DNL Adobe Creative Cloud Libraries] modules](../../workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md) 
 * [[!DNL Adobe Experience Manager Assets] modules](../../workfront-fusion/apps-and-their-modules/aem-assets-modules.md)
-* [Adobe I/O Events module](../../workfront-fusion/apps-and-their-modules/adobe-io-events-modules.md) 
+* [Adobe I/O Events modules](../../workfront-fusion/apps-and-their-modules/adobe-io-events-modules.md) 
 * [[!DNL Adobe Journey Optimizer] modules](../../workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md) 
 * [[!DNL Adobe PDF Services] modules](../../workfront-fusion/apps-and-their-modules/pdf-modules.md) 
 * [[!DNL Adobe Target] modules](../../workfront-fusion/apps-and-their-modules/adobe-target-modules.md) 
