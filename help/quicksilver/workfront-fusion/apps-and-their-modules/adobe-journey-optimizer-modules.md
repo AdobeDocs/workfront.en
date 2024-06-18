@@ -131,7 +131,7 @@ If you see the map button above a field or function, you can use it to set varia
 * [Delete a configuration](#delete-a-configuration)
 * [Delete a record](#delete-a-record)
 * [Deploy a configuration](#deploy-a-configuration)
-<!--* [Export artifacts asynchronously](#export-artifacts-asynchronously)-->
+* [Export artifacts asynchronously](#export-artifacts-asynchronously)
 * [Get a configuration](#get-a-configuration)
 * [Get a record](#get-a-record)
 <!--* [Import artifacts asynchronously](#import-artifacts-asynchronously)-->
@@ -662,7 +662,22 @@ This action module returns the content template or content fragment identified b
 
 ### Import Artifacts asynchronously
 
+This action module imports a snapshot containing artifacts.
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Snapshot ID]</td> 
+   <td>Enter or map the ID of the snapshot you want to import.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
 ### List records
 
