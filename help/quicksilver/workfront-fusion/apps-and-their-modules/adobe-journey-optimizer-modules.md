@@ -809,7 +809,67 @@ This action module checks the status of an audience-based batch message.
 
 ### Trigger an audience-based message
 
+This action module triggers the execution of an audience-based message, based on the request and campaign you specify.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Request ID]</td> 
+   <td>Enter or map the ID of the request associated with this message.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Campaign ID]</td> 
+   <td>Enter or map the ID of the campaign associated with this message.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Product]</td> 
+   <td>Enter or map the product associated with this message. This is used for dynamic variable substitution in the message content.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### Trigger a unitary message execution
+
+This action module triggers a unitary message to the recipients you specify.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Request ID]</td> 
+   <td>Enter or map the ID of the request associated with this message.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Campaign ID]</td> 
+   <td>Enter or map the ID of the campaign associated with this message.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Recipients]</td> 
+   <td>For each recipient you want to receive this message, click <b>Add recipient</b> and enter the following:
+   <ul>
+   <li><p><b>Type</b></p>Select <code>aep</code>.</li>
+   <li><p><b>User ID</b></p>Enter or map the recipient's Adobe Experience Platform Profile identifier.</li>
+   <li><p><b>Namespace</b></p>Enter or map the recipient's Adobe Experience Platform Profile namespace.</li>
+   <li><p><b>Email address</b></p></li>
+   <li><p><b>Mobile phone number</b></p></li>
+   <li><p><b>First name</b></p></li>
+   <li><p><b>Last name</b></p></li>
+   <li><p><b>Product</b></p>Enter or map the product associated with this message. This is used for dynamic variable substitution in the message content.</li>
+   </ul></td> 
+  </tr> 
+ </tbody> 
+</table>
 
 ### Undeploy a configuration
 
