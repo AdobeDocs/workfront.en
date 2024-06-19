@@ -210,7 +210,7 @@ This search module retrieves all events for a registration from a journal.
        </tr>
        <tr>
          <td role="rowheader">
-           [!UICONTROL Since]
+           [!UICONTROL Return events that occur after]
          </td>
          <td>
          </td>
@@ -281,9 +281,6 @@ This action module makes a custom API call to the [!DNL Adobe I/O Events] API
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
-     <tr>
-      <td role="rowheader">[!UICONTROL Limit]  </td>
-    </tr>
   </tbody>
 </table>
 
