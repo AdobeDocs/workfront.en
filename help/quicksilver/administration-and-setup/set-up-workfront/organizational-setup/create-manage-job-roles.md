@@ -19,6 +19,8 @@ As an [!DNL Adobe Workfront] administrator or a user with administrative access 
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following:
 
 <table style="table-layout:auto"> 
@@ -43,6 +45,8 @@ You must have the following:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+
++++
 
 ## Create a job role
 

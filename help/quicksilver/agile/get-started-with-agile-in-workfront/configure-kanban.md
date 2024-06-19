@@ -9,6 +9,8 @@ exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
 ---
 # Configure [!UICONTROL Kanban]
 
+<!--Audited: 12/2023-->
+
 You can create an agile team in [!DNL Adobe Workfront] as described in [Create an agile team](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md). While creating an agile team you can choose the methodology that the team uses to complete their work. You can choose from the following options:
 
 * Scrum
@@ -27,7 +29,7 @@ For information about configuring a Scrum team, see [Configure Scrum](../get-sta
 
 ## Access requirements
 
-<!--Audited: 12/2023-->
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -58,6 +60,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 *To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
+
++++
 
 ## Configure whether stories are estimated in points or hours
 

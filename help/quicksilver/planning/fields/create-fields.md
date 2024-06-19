@@ -378,7 +378,7 @@ For more information, see [Formula fields overview](/help/quicksilver/planning/f
     >
     >* You cannot add Multi-select type fields in a formula.
     >
-    >* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a formula field for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the Project Owner in the formula you are creating for the Activity record type. 
+    >* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a formula field for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Budget in the formula you are creating for the Activity record type. 
     
 1. Click **Create**.
 

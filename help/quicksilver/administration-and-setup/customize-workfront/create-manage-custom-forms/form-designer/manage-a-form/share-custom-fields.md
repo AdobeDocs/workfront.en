@@ -7,6 +7,7 @@ description: By default, when you add a new custom field or widget to a custom f
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
+exl-id: 4f591fa3-2cb9-4a22-bfb1-1b50cedfcf3d
 ---
 # Configure sharing for custom fields and widgets with the form designer
 

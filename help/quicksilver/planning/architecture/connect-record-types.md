@@ -207,6 +207,15 @@ You must have the following access to perform the steps in this article:
      * **Allow multiple records**: Select this option to indicate that you allow that users can add multiple records when the linked record type field displays on the original records. This is selected by default.
      * **Select lookup fields**: Select this option to add fields from the selected record type. The lookup fields are fields associated with the record or object type that you are linking to. Linking them displays information from the record or object you're linking to on the record you are liking from. This is selected by default. 
 
+        >[!TIP]
+        >
+        > You cannot add the following field types as lookup fields:
+        >
+        >    * People
+        >    * Created by
+        >    * Last modified by
+        >    * Workfront typeahead fields (including fields like Project Owner, or Project Sponsor)
+
 1. (Conditional and optional) If you selected to connect a Workfront object, select a **Custom form** from the **Link only objects that match these criteria** section. Only objects that have the selected custom forms attached can be linked to the selected record type. You can select more than one form. 
 
     ![](assets/workfront-project-connection-selection.png)

@@ -274,8 +274,14 @@ Update the timeline view settings to indicate what and how information displays 
 
     * **Default (gray)**: The color of the groupings is set to gray. This is the default. 
     * **Field values**: The color of the groupings matches the color of the field you group by. 
-    You can match the color of the groupings only to fields with color-coded options.
     
+        >[!NOTE]
+        >
+        >    * You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
+        >    
+        >    * You cannot match the color to lookup fields from linked record or object types. 
+
+
     For example, multi-select or single-select fields can have color-coded options. 
 
     If you group by fields without color-coded options, the grouping color remains gray.

@@ -43,6 +43,8 @@ For information about creating custom forms for your organization and understand
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -68,6 +70,8 @@ You must have the following to perform the steps in this article:
 </table>
 
 *To find out what plan, license type, or access level configurations you have, contact your Workfront administrator. For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 
 ## Add a calculated field to a custom form {#add-a-calculated-field-to-a-custom-form}
