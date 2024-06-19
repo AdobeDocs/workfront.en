@@ -679,41 +679,6 @@ This action module imports a snapshot containing artifacts.
  </tbody> 
 </table>
 
-### List records
-
-This action module lists all capping or throttling configurations.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Select content type]</td> 
-   <td>Select whether you are retrieving a content template or content fragment.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Order by]</td> 
-   <td>Enter or map the parameter name that you want to sort this list by. Add <code>-</code> or <code>+</code> to sort descending or ascending. If no sign is specified, the list is sorted descending.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Start]</td> 
-   <td>This field is used for pagination. Enter or map the criteria for the next page with respect to the property specified in the Order by field.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Order by]</td> 
-   <td>Enter or map the parameter name that you want to sort this list by. Add <code>-</code> or <code>+</code> to sort descending or ascending. If no sign is specified, the list is sorted descending.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Filter by property]</td> 
-   <td>For each property filter you want to add, click <b>Add item</b> and enter the property's key and value. Records that include the specified value for the property are included in the list.</td> 
-  </tr> 
- </tbody> 
-</table>
-
 ### Make a custom API call
 
 This action module makes a custom API call to the Adobe Journey Optimizer API.
@@ -952,4 +917,39 @@ This action module lists all capping or throttling configurations.
 </table>
 
 
+
+### List records
+
+This action module lists all capping or throttling configurations.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select content type]</td> 
+   <td>Select whether you are retrieving a content template or content fragment.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Order by]</td> 
+   <td>Enter or map the parameter name that you want to sort this list by. Add <code>-</code> or <code>+</code> to sort descending or ascending. If no sign is specified, the list is sorted descending.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Start]</td> 
+   <td>This field is used for pagination. Enter or map the criteria for the next page with respect to the property specified in the Order by field.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Order by]</td> 
+   <td>Enter or map the parameter name that you want to sort this list by. Add <code>-</code> or <code>+</code> to sort descending or ascending. If no sign is specified, the list is sorted descending.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Filter by property]</td> 
+   <td>For each property filter you want to add, click <b>Add item</b> and enter the property's key and value. Records that include the specified value for the property are included in the list.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
