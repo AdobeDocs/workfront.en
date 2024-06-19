@@ -116,7 +116,7 @@ You can personalize a record by adding a cover image at the top of the record pr
 
     Or 
     
-    From the table table view, click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name. 
+    From the table table view, click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) in the first column. 
     
     The record's preview opens in the view.
 

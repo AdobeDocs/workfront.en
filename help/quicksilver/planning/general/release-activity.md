@@ -91,7 +91,7 @@ Preview: To be determined
 
 We have updated the experience for adding a thumbnail or a cover image to a record from the Details page. The improvements include the following updates:  
 
-* A thumbnail image and a cover image are randomly assigned to a record when you create it. You can later edit these images.
+* A thumbnail image and a cover image are automatically assigned to a record when you create it. You can later edit these images.
 
 * You can add a thumbnail from the Details page. Prior to this enhancement, you could add a thumbnail only from the table view. 
 

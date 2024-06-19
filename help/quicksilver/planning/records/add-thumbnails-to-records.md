@@ -160,7 +160,7 @@ You can add a thumbnail in the following ways:
 1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner.
 
    The record's details page opens. 
-1. Hover over the thumbnail image or icon ![](assets/record-thumbnail-icon-on-details-page.png), then click the **More** menu > **Edit thumbnail**. 
+1. Hover over the thumbnail image or icon ![](assets/record-thumbnail-icon-on-details-page.png), then click the **More** menu ![](assets/more-menu.png) > **Edit thumbnail**. 
 
    The **Upload** tab opens by default in the **Record thumbnail** box. 
 
