@@ -145,11 +145,16 @@ You must have the following access to perform the steps in this article:
 
         For example, if you connect the "Campaign" record type with the "Product" record type, a linked record field that you name "Linked Product" is created on the Campaign record type and a linked record type automatically named "Campaign" is created on the Product record type. 
 
-    * **When you connect a record type with an object type from another application**: A linked record field is created on the record type you're connecting from. No linked record field is automatically created on the other application's object type. 
-        
-        A new Workfront Planning read-only record type is created for the other application's object only when actual objects are connected to Workfront Planning records. 
+    * **When you connect a record type with an object type from another application**: 
     
-        For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
+        * A linked record field is created on the record type you're connecting from. No linked record field is automatically created on the other application's object type. 
+        
+        * A new Workfront Planning read-only record type is created for the other application's object only when actual objects are connected to Workfront Planning records.  
+
+            For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
+
+        * Planning records or their fields are not accessible from Workfront.
+        * Planning records and their fields are accessible from Experience Manager Assets when your Workfront administrator configures the metadata mapping through the integration between Workfront and Adobe Experience Manager Assets. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
     
     * **When you add lookup fields of the record or object you connect to**: You can connect fields from the other application's object to the Workfront Planning record type. These are linked or lookup fields. Linked fields automatically display information from connected records or objects when you connect the records or the objects. The linked lookup fields are always read-only and populate automatically with the values of the connected records or objects. 
 
@@ -161,7 +166,8 @@ You must have the following access to perform the steps in this article:
 
 * Linked record fields are preceded by a relationship icon ![](assets/relationship-field-icon.png). 
     
-    Linked fields are preceded by an icon that identifies the field type. For example, icons that indicate that a field is a number, a paragraph, or a date. 
+    Linked fields are preceded by an icon that identifies the field type. For example, linked (or lookup) fields are preceded by icons that indicate that a field is a number, a paragraph, or a date. 
+
 
 ## Connect record types
 
@@ -230,6 +236,21 @@ You must have the following access to perform the steps in this article:
     
     ![](assets/aem-assets-connection-selection.png)
 
+    >[!NOTE]
+    >
+    >Your Workfront administrator can map Workfront Planning fields to Experience Manager Assets fields through the Metadata mapping in Workfront. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en). 
+
+<!-- for when Title is released - ensure that this is valid for linking Planning records and not just AEM assets: 
+
+1. (Conditional) If you selected to connect to Experience Manager Assets or to a Workfront Planning record type, disable the **Title** toggle, if you don't want the title of connected records or assets to display in the linked field. When disabled, only records' thumbnail displays in  the linked fields. The toggle is enabled by default. 
+
+    >[!TIP]
+    >
+    >    When you allow multiple records to be linked, displaying only the thumbnail might save space in smaller areas, like the record views.
+    >
+    >The Title of a record is the primary field of the record. For more information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
+-->
+
 1. Click **Create**.
 
 1. (Conditional) If you selected the **Select lookup field** setting, the **Add lookup fields** box opens. 
@@ -252,6 +273,11 @@ You must have the following access to perform the steps in this article:
 1. (Optional) Click **Skip** and don't add any fields from the linked record or object. The **Name** of the linked record is the only visible field in the original record's table view. 
 
 1. (Optional and conditional) If you select to link a number, currency, percentage, or date-type field, also select an aggregator value. The values for the linked fields display either separated by commas or as a aggregated value according to the aggregator you choose, when users select more than one linked record in the linked record field. 
+
+    >[!IMPORTANT]
+    >
+    >    You must select an aggregator value when adding date fields, if you want the fields to be available to add as Start and End Dates for the timeline and calendar views. 
+
 
     ![](assets/aggregator-drop-down-for-number-linked-field.png)  
 
