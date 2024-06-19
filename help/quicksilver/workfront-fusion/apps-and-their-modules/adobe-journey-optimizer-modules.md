@@ -930,6 +930,7 @@ This action module updates a content template or fragment.
    <td>Select whether you are updating a capping configuration or a throttling configuration.<ul><li><p><b>Template</b></p>For fields, see <a href="#template-fields" class="MCXref xref" >Template fields</a> in the Create a record section of this article.</li><li><p><b>Fragment</b></p>For fields, see <a href="#fragment-fields" class="MCXref xref" >Fragment fields</a> in the Create a record section of this article.</li></ul></td> 
   </tr> 
   </tbody> 
+  </table>
 
 ### List configurations
 
