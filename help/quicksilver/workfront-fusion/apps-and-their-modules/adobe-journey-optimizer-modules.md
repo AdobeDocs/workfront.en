@@ -134,7 +134,7 @@ If you see the map button above a field or function, you can use it to set varia
 * [Export artifacts asynchronously](#export-artifacts-asynchronously)
 * [Get a configuration](#get-a-configuration)
 * [Get a record](#get-a-record)
-<!--* [Import artifacts asynchronously](#import-artifacts-asynchronously)-->
+* [Import artifacts asynchronously](#import-artifacts-asynchronously)
 * [Make a custom API call](#make-a-custom-api-call)
 * [Patch a record](#patch-a-record)
 <!--[Status for audience-based message](#status-for-audience-based-message)-->
@@ -789,6 +789,23 @@ This action module updates a record using PATCH with JSON pointer format
 </table>
 
 ### Status for audience-based message
+
+This action module checks the status of an audience-based batch message.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Message execution ID]</td> 
+   <td>Enter or map the ID of the message execution you want to check.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
 ### Trigger an audience-based message
 
