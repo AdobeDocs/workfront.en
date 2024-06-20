@@ -22,7 +22,7 @@ You cannot manually edit the Actual Completion Date of a project, but you can ma
 
 The Actual Completion Date of a project is set in the following ways:
 
-* By manually updating the project's status: if the Completion Mode of the project is set to Manual and you manually change the status of the project to Complete, this triggers the Actual Completion Date of the project to be updated to the date and time when you change the status. 
+* By manually updating the project's status: if the Completion Mode of the project is set to Manual and you manually change the status of the project to Complete, this triggers the Actual Completion Date of the project to be updated to the date and time of the last completed task. 
 * Automatically, when the last task of the project completes: if the Completion Mode of the project is set to Automatic and you mark the last task as Complete or update the Actual Completion Date of the last task, the project's Actual Completion Date is also updated with that date. 
 
   For information about setting the Completion Mode of a project, see the article [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).

@@ -53,7 +53,11 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Using the [!UICONTROL SOAP] module
+## Limitations of the [!UICONTROL SOAP] module
+
+>[!NOTE]
+>
+>Redirects are disabled during WDSL loading. This is a security feature, but may mean that unverified redirects are blocked when the module is run.
 
 The [!UICONTROL SOAP] module is currently in beta and does not support:
 
@@ -62,7 +66,7 @@ The [!UICONTROL SOAP] module is currently in beta and does not support:
 * Total digits restrictions
 * White space restrictions
 * Multiple parts in input and output messages. Only single part messages are supported
-* Custom XML Schema elements defined with the help of [[!UICONTROL SOAP] Encoding](http://schemas.xmlsoap.org) schemas and elements.
+* Custom XML Schema elements defined with the help of [[!UICONTROL SOAP] Encoding](https://schemas.xmlsoap.org) schemas and elements.
 
 >[!INFO]
 >
@@ -80,8 +84,8 @@ The [!UICONTROL SOAP] module is currently in beta and does not support:
 >   </complexContent>
 ></complexType>
 >```
-
-It includes the `soapenc:Array`, `soapenc:arrayType` and `wsdl:arrayType` references, which are not yet supported in [!UICONTROL Workfront Fusion].
+>
+>This example includes the `soapenc:Array`, `soapenc:arrayType` and `wsdl:arrayType` references, which are not yet supported in [!UICONTROL Workfront Fusion].
 
 ## Workaround
 
@@ -89,7 +93,7 @@ If the [!UICONTROL SOAP] module refuses to process the WSDL file or throws vario
 
 1. In [!DNL Workfront Fusion], create a new scenario.
 1. Insert the **[!UICONTROL HTTP] > [!UICONTROL Make a request]** module in the scenario.
-1. Open the module's configuration and fill in the follwoing fields:
+1. Open the module's configuration and fill in the following fields:
 
    <table style="table-layout:auto"> 
     <col> 

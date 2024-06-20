@@ -5,6 +5,7 @@ title: Rich text fields in the Adobe Workfront API
 description: Rich text fields in the Adobe Workfront API
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 67fc34dc-0722-4419-8254-0371ad5abfc3
 ---
 
@@ -86,8 +87,8 @@ When a custom field with rich-text formatting is submitted, all of the text is s
 
 To save the following values of a rich-text field using the Workfront API:
 <pre>
-		Hello <strong>World</strong>!!!
-		This is my first <strong>Rich Text</strong></pre>
+        Hello <strong>World</strong>!!!
+        This is my first <strong>Rich Text</strong></pre>
 
 1. Construct JSON that represents the value of the rich-text field you are trying to capture by organizing each line of text into a block element, in the array **blocks**
 

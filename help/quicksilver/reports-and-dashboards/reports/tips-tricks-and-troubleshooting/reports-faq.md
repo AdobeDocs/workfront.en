@@ -77,7 +77,7 @@ When I run a report that has a chart, I see the error message "Whoa there... Thi
 
 This error means that your chart contains up to 618 distinct results—for example, more than 618 bars in a bar chart. To resolve the display issue, you need to refine the results by modifying your current filter and grouping selections.
 
-For information on modifying filters and groupings, see the articles [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) and [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+For information on modifying filters and groupings, see the articles [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md) and [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
 ## Why do I see my tasks (or issues) when I access the same report (or calendar) as my coworker and they see their tasks instead?
 
@@ -86,7 +86,7 @@ For information on modifying filters and groupings, see the articles [Filters ov
 The report or calendar might have a wildcard filter variable which points to the user who is logged in. In this case, the report shows information based on the user who is logged in. Adjust the filter to remove the wildcard that points to the logged-in user.  
 ![](assets/qs--user.id-filter-variable-350x79.png)
 
-For a complete list of user-based wildcard filter variables, see [Wildcard filter variables](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+For a complete list of user-based Wildcard filter variables overview, see [Wildcard filter variables overview](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Why does the data in my report seem incomplete?
 

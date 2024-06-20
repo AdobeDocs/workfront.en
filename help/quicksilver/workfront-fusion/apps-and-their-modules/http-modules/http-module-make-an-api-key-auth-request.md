@@ -18,6 +18,12 @@ exl-id: 70bf87c7-6d51-4ef4-9dce-80ad004e613f
 
 This [!DNL Adobe Workfront Fusion] action module sends an HTTPS request to a specified URL that requires an API Key Auth authorization, and processes the response.
 
+>[!NOTE]
+>
+>If you are connecting to an Adobe product that does not currently have a dedicated connector, we recommend using the Adobe Authenticator module.
+>
+>For more information, see [Adobe Authenticator module](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
+
 ## Access requirements
 
 You must have the following access to use the functionality in this article:

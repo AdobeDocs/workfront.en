@@ -3,6 +3,8 @@ title: 23.3 Other enhancements
 description: 23.3 Other enhancements
 author: Lisa
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
+exl-id: 588dc03b-3b39-4640-8a28-023c7f4a1972
 ---
 # 23.3 Other enhancements
 

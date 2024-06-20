@@ -8,6 +8,7 @@ description: You can use two [!DNL Workfront] testing environments that replicat
 author: Caroline
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 3d362be8-89c2-4699-a984-59c9234b4a0c
 ---
 # [!DNL Adobe Workfront] testing environments
@@ -16,3 +17,9 @@ This section contains the following articles:
 
 * [The [!DNL Adobe Workfront] Preview Sandbox Environment](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
 * [The [!DNL Adobe Workfront] Custom Refresh Sandbox environment](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
+* Environment promotion:
+
+   * [Overview of moving objects between Workfront environments (Environment promotion)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
+   * [Create or edit an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
+   * [Install an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
+   * [Move objects between [!DNL Workfront] environments using the [!DNL Workfront] Environment Promotion API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)

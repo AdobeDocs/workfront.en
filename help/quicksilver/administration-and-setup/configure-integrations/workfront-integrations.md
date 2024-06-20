@@ -7,6 +7,7 @@ description: You can integrate Adobe Workfront with third-party applications. In
 author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 50088ae0-8460-4163-acab-ebb711acda5a
 ---
 # Configure integrations
@@ -14,10 +15,11 @@ exl-id: 50088ae0-8460-4163-acab-ebb711acda5a
 This section contains the following articles:
 
 * [[!DNL Adobe Workfront] integrations](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) 
-* [Configure [!DNL Workfront] with [!DNL Adobe Experience Manager] legacy connector](../../administration-and-setup/configure-integrations/configure-workfront-aem.md) 
+* [Configure the [!DNL Workfront] and [!DNL Frame.io] integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md)
 * [Configure the [!DNL Experience Manager Assets as a Cloud Service] integration](../../administration-and-setup/configure-integrations/configure-aacs-integration.md)
 * [Configure the [!DNL Experience Manager Assets Essentials] integration](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
 * [[!DNL Workfront] and [!DNL Experience Manager Assets] Integrations](../../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md) 
+* [Configure [!DNL Workfront] with [!DNL Adobe Experience Manager] legacy connector](../../administration-and-setup/configure-integrations/configure-workfront-aem.md) 
 * [Enable [!UICONTROL Adobe Workfront for Outlook]](../../administration-and-setup/configure-integrations/enable-workfront-for-outlook.md) 
 * [Configure document integrations](../../administration-and-setup/configure-integrations/configure-document-integrations.md) 
 * [Disable document integrations](../../administration-and-setup/configure-integrations/disable-document-integrations.md) 

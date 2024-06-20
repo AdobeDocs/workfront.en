@@ -3,6 +3,8 @@ title: 23.3 Agile enhancements
 description: 23.3 Agile enhancements
 author: Lisa
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
+exl-id: a47d2592-0f00-4bcd-bc8e-75f8e707a573
 ---
 # 23.3 Agile enhancements
 

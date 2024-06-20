@@ -3,6 +3,8 @@ title: 23.3 Integration enhancements
 description: 23.3 Integration enhancements
 author: Lisa
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
+exl-id: d24ddc8a-fe96-4e9b-8186-0b54ab9ab213
 ---
 # 23.3 Integration enhancements
 

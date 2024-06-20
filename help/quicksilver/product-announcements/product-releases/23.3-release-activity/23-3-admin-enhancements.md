@@ -3,6 +3,8 @@ title: 23.3 Administrator enhancements
 description: 23.3 Administrator enhancements
 author: Lisa
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
+exl-id: 5d8a0858-aa4a-4b5f-bbc4-7215e145b59a
 ---
 # 23.3 Administrator enhancements
 

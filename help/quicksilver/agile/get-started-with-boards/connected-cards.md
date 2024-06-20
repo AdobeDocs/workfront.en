@@ -9,7 +9,7 @@ exl-id: c6d979dd-e4a4-48a5-a91b-b31d7ef848d1
 ---
 # Use connected cards on boards
 
-{{preview-and-fast-release}}
+<!-- Audited: 2/2024 -->
 
 You can add a card on your board that is connected to existing tasks and issues in [!DNL Workfront].
 
@@ -21,7 +21,8 @@ When any one of the following details is updated for the card in one location, i
 * [!UICONTROL Status]
 * [!UICONTROL Planned completion date]
 * [!UICONTROL Estimation] / [!UICONTROL Story Points]
-* <span class="preview">[!UICONTROL Documents]</span>
+* [!UICONTROL Subtasks]
+* [!UICONTROL Documents]
 
 >[!NOTE]
 >
@@ -29,34 +30,43 @@ When any one of the following details is updated for the card in one location, i
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Request] or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td>
+   <p>New: Contributor or higher</p>
+   <p>Or</p>
+   <p>Current: Request or higher</p>
+ </td> 
   </tr> 
   <tr>
-   <td role="rowheader"><strong>Access level configurations*</strong></td>
-   <td><p>[!UICONTROL View] or higher access to tasks and issues</p></td>
+   <td role="rowheader">Access level configurations</td>
+   <td><p>View or higher access to tasks and issues</p></td>
   </tr>
   <tr>
-   <td role="rowheader"><strong>Object permissions</strong></td>
-   <td><p>[!UICONTROL View] or higher permissions to the Workfront task or issue</p></td>
+   <td role="rowheader">Object permissions</td>
+   <td><p>View or higher permissions to the Workfront task or issue</p>
+   <p><strong>Note:</strong> Users with View permissions to a task or issue cannot take any action on cards connected to it, including moving the card to another column on the board. View users can only open the card to see its properties, and open the connected task or issue. To request additional access, open the task or issue and request access there.</td>
   </tr>
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Add a connected card
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Boards]**.
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Boards]**.
 1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
 1. Click **[!UICONTROL Add card] &gt; [!UICONTROL Connected card]**.
 1. Choose a project, then choose a task or issue to add as a card on the board.
@@ -128,13 +138,21 @@ You must have the following access to perform the steps in this article:
       <td><p>Any custom fields you add are displayed in this area.</p>
       <p>For more information, see <a href="/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md">Customize which fields are displayed on a card</a>.</p></td>
      </tr>
+     <tr>
+     <tr>
+      <td role="rowheader"><strong>[!UICONTROL Subtask]</strong></td>
+      <td><p>Any existing subtasks for the task appear in this section. Click <strong>[!UICONTROL Add Subtask]</strong> to add a new subtask.</p>
+      <p>The counter at the top of the section shows the number of completed subtasks and the total number of subtasks.</p>
+      <p>For more information about subtasks, see <a href="/help/quicksilver/agile/get-started-with-boards/manage-subtasks-on-boards.md">Manage subtasks on boards</a>.</p></td>
+     </tr>
      <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Checklist]</strong> </td> 
-      <td> <p>Click <strong>[!UICONTROL Add checklist item]</strong>. Then, type the title of the item and press Enter. Another item is automatically added. Continue entering titles to add more items.</p> <p>The counter at the top of the checklist shows the number of completed items and the total number of items.</p> <p>For more information about checklist items, see <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Manage checklist items on cards</a>.</p></td>
+      <td role="rowheader"><strong>[!UICONTROL Checklist]</strong></td>
+      <td><p>Click <strong>[!UICONTROL Add checklist item]</strong>. Then, type the title of the item and press Enter. Another item is automatically added. Continue entering titles to add more items.</p>
+      <p>The counter at the top of the checklist shows the number of completed items and the total number of items.</p> <p>For more information about checklist items, see <a href="/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md">Manage checklist items on cards</a>.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview"><strong>[!UICONTROL Documents]</strong></span></td>
-      <td><span class="preview">For an existing document, hover over the document thumbnail, and click <strong>Preview</strong> to view the file in the browser or <strong>Download</strong> to download the file to your computer. For a new document, see <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">Add documents on cards</a>.</span></td>
+      <td role="rowheader"><strong>[!UICONTROL Documents]</strong></td>
+      <td>For an existing document, hover over the document thumbnail, and click <strong>Preview</strong> to view the file in the browser or <strong>Download</strong> to download the file to your computer. For a new document, see <a href="/help/quicksilver/agile/get-started-with-boards/add-documents-on-cards.md">Add documents on cards</a>.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Hours]</strong></td>

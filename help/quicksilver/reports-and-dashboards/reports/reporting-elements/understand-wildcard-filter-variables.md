@@ -8,7 +8,9 @@ author: Nolan
 feature: Reports and Dashboards
 exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
 ---
-# Wildcard filter variables
+# Wildcard filter variables overview
+
+<!-- Audited: 12/2023 -->
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -21,46 +23,48 @@ exl-id: f99cd99e-c4c1-471d-8428-c680f0e73336
 </div>
 -->
 
-Adobe Workfront supports filter variables or wildcards when building the following elements:
-
-* Filters in lists, reports, and the Resource Planner
-
-  For information about Workfront filters, see the article [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
-
-* Advanced searches
-
-  For information about advanced searches, see the section [Use Advanced Search](../../../workfront-basics/navigate-workfront/search/search-workfront.md#using-advanced-search) in the article [Search Adobe Workfront](../../../workfront-basics/navigate-workfront/search/search-workfront.md).
-
-* Calculated columns in views
-* Conditional formatting in views
-
-  For information about conditional formatting, see the article [Use conditional formatting in views](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
-
-* Calculated custom fields
-
-  >[!NOTE]
-  >
-  >Wildcard filter variables are not supported when referencing nested collections in a calculated column.
-
-  For information about calculated custom fields and columns, see the article [Calculated custom fields vs. calculated columns](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
-
-By using wildcards, you can reference a generic user or date instead of a specific user or date. In this way, the elements you build are dynamic and the results change depending on the context in which they are used.
+Using wildcards, you can reference a generic user or date instead of a specific user or date. In this way, the elements you build are dynamic; the results change depending on the context in which they are used.
 
 For example, filtering for $$USER.homeGroupID in a project report retrieves only projects associated with the Home Group of the user who is logged in.
 
-You can use date-based or user-based filter variables in Workfront.
+You can use filter variables—also known as wildcards—when building the following elements:
+
+<table>
+    <tr>
+        <td>Filters in lists, reports, and the Resource Planner</td>
+        <td>For information about Workfront filters, see the article <a href="../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md">Filters overview</a>.
+</td>
+    </tr>
+    <tr>
+        <td>Advanced searches</td>
+        <td>For information about advanced searches, see the section <a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md#using-advanced-search">Use Advanced Search</a> in the article <a href="../../../workfront-basics/navigate-workfront/search/search-workfront.md">Search Adobe Workfront</a>.
+    </tr>
+    <tr>
+        <td>Calculated columns in views</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>Conditional formatting in views</td>
+        <td>For information about conditional formatting, see the article <a href="../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md">Use conditional formatting in views</a>.
+    </tr>
+    <tr>
+        <td>Calculated custom fields</td>
+        <td>Wildcard filter variables are not supported when referencing nested collections in a calculated column.
+
+  For information about calculated custom fields and columns, see the article <a hreft="../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md">Calculated custom fields vs. calculated columns</a>.
+  </td>
+    </tr>
+</table>
 
 ## Date-based wildcard filter variables
 
-The Workfront date-based wildcard options can be used in combination with any date filter attribute.
-
-For information about adding a date-based wildcard to a report, see the article [Use date-based wildcards to generalize reports](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+Date-based wildcard options can be used in combination with any date filter attribute. For information about adding a date-based wildcard to a report, see the article [Use date-based wildcards to generalize reports](../../../reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
 
 >[!NOTE]
 >
 >If you create a date and time calculation that doesn't include a time portion, or that uses the date wildcards $$TODAY or $$NOW, the system uses the date according to the Coordinated Universal Time (UTC) zone, not according your local timezone. This can cause an unexpected date result.
 
-Choose from the following date-based wildcards:
+You can choose from the following date-based wildcards:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -77,7 +81,7 @@ Choose from the following date-based wildcards:
  </tbody> 
 </table>
 
-To indicate various periods of time and various points in time (future or past), you can combine wildcards with the following:
+To indicate various periods of time and various points in time (future or past), you can combine the wildcards above with the following:
 
 | Attributes |&nbsp; |
 |---|---|
@@ -92,8 +96,8 @@ To indicate various periods of time and various points in time (future or past),
 
 | **Qualifiers** | |
 |---|---|
-| **b** |beginning of the week (Sunday) |
-| **e** |ending of the week (Saturday)  |
+| **b** |beginning of the period (without a specified attribute, defaults to beginning of the week: Sunday) |
+| **e** |ending of the period (without a specified attribute, defaults to end of the week: Saturday)  |
 
 {style="table-layout:auto"}
 
@@ -110,11 +114,11 @@ For example, the wildcard `$$TODAYb+2w` refers to "2 weeks from the beginning of
 
 >[!IMPORTANT]
 >
->If a filter or report contains a user-based wildcard filter variable the results always show information filtered by the user who is currently logged in. When you share such a filter or report with another user, the wildcard retrieves information for the user looking at the report. The two users see different results.
+>If a filter or report contains a user-based wildcard filter variable, the results always show information filtered by the user who is currently logged in. When you share such a filter or report with another user, the wildcard retrieves information for the user looking at the report. The two users see different results.
+>
+>For information about adding a user-based wildcard to a report, see the article [Use user-based wildcards to generalize reports](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
-For information about adding a user-based wildcard to a report, see the article [Use user-based wildcards to generalize reports](../../../reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
-
-Workfront provides the following user-based variables:
+You can choose from the following user-based variables:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -191,13 +195,15 @@ Workfront provides the following user-based variables:
    <td> <p>The $$USER.roleID variable refers to Primary Role of the logged-in user. Using this variable, you can report on tasks or issues assigned to a specific job role.</p> <p>For example, to see all tasks assigned to the Primary Role of the logged-in user, you can use the following filter rule in a task filter:</p> <p><em>Task: Role ID Equals $$USER.roleID.</em> </p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td role="rowheader">$$USER.roleIDs</td> 
+   <td role="rowheader"><p><strong>$$USER.roleIDs</strong></p></td> 
    <td> <p>The $$USER.roleIDs variable refers to all job roles associated with the logged-in user. Using this variable, you can report on tasks or issues assigned to any of the job roles associated with the logged-in user. </p> <p>For example, to see all tasks assigned to any of the roles associated with the logged-in user, you can use the following filter rule in a task filter:</p> <p><i>Task: Role ID Equals $$USERID.roleIDs<br></i> </p> <p>Tip: The <i>Task: Role ID Equals $$USERID.roleIDs</i> filter rule exists in the built-in filters Unassigned Tasks In My&nbsp;Role and Unassigned Issues In My&nbsp;Role. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Object-based wild card filter variables
+## Object-based wildcard filter variables
+
+You can choose from the following object-based wildcards:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -208,8 +214,8 @@ Workfront provides the following user-based variables:
    <td> 
     <div> 
      <p>The $$OBJCODE variable refers to the type of an object. </p> 
-     <p>In a custom form, when the form's selected object types are incompatible with a field referenced in a calculated custom field, you can use this wild card to avoid the workaround of creating duplicate forms for those object types.</p> 
-     <p>In the calculated custom field, you do this by including the wild card in an IF expression so that the calculation can output different values for each of your form's object types. </p> 
+     <p>In a custom form, when the form's selected object types are incompatible with a field referenced in a calculated custom field, you can use this wildcard to avoid the workaround of creating duplicate forms for those object types.</p> 
+     <p>In the calculated custom field, you do this by including the wildcard in an IF expression so that the calculation can output different values for each of your form's object types. </p> 
      <p>For more information and an example, see the section <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat" class="MCXref xref">Calculated custom fields in multi-object custom forms</a> in the article <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md" class="MCXref xref">Add calculated data to a custom form</a>.</p> 
     </div> </td> 
   </tr> 

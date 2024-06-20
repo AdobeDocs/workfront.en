@@ -5,6 +5,7 @@ title: Specify an API Version in your integrations
 description: Specify an API Version in your integrations
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 2971749d-1d34-42a4-9eda-411aa8c3a2ab
 ---
 # Specify an API version in your integrations

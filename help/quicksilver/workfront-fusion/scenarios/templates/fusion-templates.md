@@ -7,6 +7,7 @@ title: Scenario Templates
 description: Adobe Workfront Fusion requires an Adobe Workfront Fusion license in addition to an Adobe Workfront license.
 author: Becky
 feature: Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: 48fc3330-7fe1-4dea-8abe-cfc1139e26cf
 ---
 # Scenario Templates
@@ -19,6 +20,7 @@ exl-id: 48fc3330-7fe1-4dea-8abe-cfc1139e26cf
 
 This section contains the following articles:
 
+* [[!DNL Adobe Workfront Fusion] templates overview](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)
 * [Create new templates in [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/templates/create-new-fusion-templates.md) 
 * [Publish and share [!DNL Adobe Workfront Fusion] templates](../../../workfront-fusion/scenarios/templates/publish-and-share-fusion-templates.md) 
 * [Create scenarios with [!DNL Adobe Workfront Fusion] templates](../../../workfront-fusion/scenarios/templates/create-scenarios-with-fusion-templates.md) 

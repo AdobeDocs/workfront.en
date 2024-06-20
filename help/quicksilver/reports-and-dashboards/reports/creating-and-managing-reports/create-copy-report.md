@@ -98,7 +98,7 @@ If you want to create a copy of a default report, do the following:
 
    * **Columns (View)**: For more information about customizing views, see the article [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
    * **Groupings**: For more information about customizing groupings, see the article [Groupings overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
-   * **Filters**: For more information about customizing filters, see the article [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   * **Filters**: For more information about customizing filters, see the article [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
    * **Chart**: For more information about customizing a report chart, see the article [Add a chart to a report](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
 1. In the upper-right corner, click **Report Settings**.

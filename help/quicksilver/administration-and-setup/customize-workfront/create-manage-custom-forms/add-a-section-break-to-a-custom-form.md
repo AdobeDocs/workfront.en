@@ -4,6 +4,7 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Add a section break to a custom form with the legacy form builder
 description: You can group the custom fields and widgets in a custom form into sections with headings. This is useful for presenting an organized experience to users who will fill out the form. Also, if you need to limit access to certain custom fields and widgets to certain users, you can place them in a section and then grant access to the section to only those users.
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 44a52767-60a7-4aaa-b3b8-6b8fb7da7e72
@@ -28,6 +29,8 @@ For information about custom fields and widgets in custom forms, see [Add a cust
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -35,21 +38,25 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront plan</p> </td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>
+   <p>New: Standard</p>
+   <p>Current: Plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Administrative access to custom forms</p> <p>For information about how Workfront administrators grants this access, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Administrative access to custom forms</p></td> 
   </tr>  
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Create and configure access for a section in a custom form
 
@@ -77,12 +84,12 @@ You must have the following to perform the steps in this article:
       <td>Type text if you want to explain to users what the section is for. This displays below the section's label on the custom form.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Add Logic</td> 
-      <td>Use display logic to specify whether the section should display on the form, based on selections users make in multi-choice custom fields when they fill out the form. For more information, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Add display logic and skip logic to a custom form</a>.</td> 
+      <td role="rowheader"><p>Add Logic</p></td> 
+      <td><p>Use display logic to specify whether the section should display on the form, based on selections users make in multi-choice custom fields when they fill out the form.</p><p><strong>NOTE:</strong> If all of the individual fields under a section break have display logic applied to them and they are all hidden as a result of the logic, the entire section will be hidden on the custom form. This will happen even if display logic is not applied to the section break.</p><p>For more information, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Add display logic and skip logic to a custom form</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Grant access</p> </td> 
-      <td> <p> Select the permissions that users need on an object where the custom form is attached in order to view this section and edit its field values. 
+      <td> <p> Select the permissions that users need on an object where the custom form is attached in order to view this section and edit its field values.
        <p>The following permissions are available under <b>Users with this access to the object can view field values</b>:</p> 
          <ul>
           <li><strong>View</strong>: View permissions to the object</li>
@@ -104,7 +111,8 @@ You must have the following to perform the steps in this article:
        <p>For information about permissions on objects, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md" class="MCXref xref">Overview of sharing permissions on objects</a>.</p> 
        <p><b>NOTE</b>:  
        <ul> 
-       <li> <p>Users without the permissions you specify here can't see the custom fields and widgets in the section. </p> <p>This is also true if you display the fields' values in reports or use them in calculated fields in text mode reporting.</p> </li> 
+       <li> <p>Users without the permissions you specify here can't see the custom fields and widgets in the section. </p> <p>This is also true if you display the fields' values in reports or use them in calculated fields in text mode reporting.</p> </li>
+       <li><p>For request/issue custom forms: If View access is needed to see the fields in the section break, but Admin access is needed to edit the fields, the section and all of its fields will not be visible to non-administrators when they fill out the form. Once the request has been created, then the users with View access can view the fields in the section.</p></li>
        <li> <p>Associating multiple object types with your form can change the viewing and editing permissions that are available in these steps. For more information, see <a href="#how-multiple-object-types-can-affect-section-break-permissions-in-a-custom-form" class="MCXref xref">How multiple object types can affect section break permissions in a custom form</a> in this article.</p> </li> 
         </ul> </p> </td> 
      </tr> 
@@ -213,3 +221,4 @@ In a custom form with a section break configured with the Limited Edit permissio
 >You add the Portfolio object type to the form, which means that the Limited Edit permission option is no longer available for the section break in the form.
 >
 >An on-screen message prompts you to switch to the Edit permission, which is the most similar option to Limited Edit, and compatible with both the Project object type and the Portfolio object type.
+

@@ -37,9 +37,6 @@ The New proof email contains:
 
    * Proof name
    * Version number
-
-      For more information, see .
-
    * List of the reviewers and their progress on the proof
    * A link to share the proof with someone else
 

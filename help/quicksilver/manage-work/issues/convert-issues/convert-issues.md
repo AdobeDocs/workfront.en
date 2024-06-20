@@ -19,7 +19,8 @@ For information about converting issues to projects, see [Convert an issue to a 
 
 ## Considerations when converting issues
 
-* Your Workfront administrator or group administrator has already set the preferences for what happens to an issue, its resolution, and the its Primary&nbsp;Contact's access when it is converted to a project or a task, as outlined in [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* When converting issues to tasks or projects, most information from the issue transfers to the task or project, unless otherwise specified in this article. 
+* Your Workfront administrator or group administrator has already set the preferences for what happens to an issue, its resolution, and the its Primary Contact's access when it is converted to a project or a task, as outlined in [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 * Workfront removes any approvals that are associated with issues during conversion.
 * Workfront overwrites the Resolving Object of the issue when you convert it to a task or an project. The new task or issue becomes the new Resolving Object of the issue after conversion. 
 * Consider the following:
@@ -29,7 +30,9 @@ For information about converting issues to projects, see [Convert an issue to a 
 
 * When converting an issue to a task or a project, the issue is removed from the Home area of the user assigned to the issue.
 
-* When converting an issue to a project using a template, most information from the template transfers to the new project. However, some information from the issue can also transfer to the new project.&nbsp;For more information, see the [Overview of project fields when converting an issue to a project using a template](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) section in this article. 
+* When converting an issue, the permissions to the original issues are not transferred to the converted object (task or project).
+
+* When converting an issue to a project using a template, most information from the template transfers to the new project. However, some information from the issue can also transfer to the new project. For more information, see the [Overview of project fields when converting an issue to a project using a template](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) section in this article. 
 * While converting an issue, not all documents or their information are moved to the new object that the issue is converted to. The following items are included when you convert an issue that has documents or document links attached:
 
    * Document
@@ -64,22 +67,24 @@ The following table lists project information and whether it transfers from the 
   </tr> 
   <tr> 
    <td>Status</td> 
-   <td>Default status selected for the group on the template. If the template is not associated with the group, the project status is set to the default status set by the Workfront administrator in the Project&nbsp;Preferences area of Setup. For information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</td> 
+   <td>Default status selected for the group on the template. If the template is not associated with the group, the project status is set to the default status set by the Workfront administrator in the Project Preferences area of Setup. For information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</td> 
   </tr> 
   <tr> 
    <td>Priority</td> 
-   <td>Transfers from the template. </td> 
+   <td><p>Transfers from the issue.</p>
+   <p>When you use a template for the converted project, you have the option to manually change the Priority. If you choose not to change it, the priority of the issue transfers to the project. 
+    </td> 
   </tr> 
   <tr> 
    <td>URL</td> 
-   <td> <p>The URL&nbsp;from the issue transfers to the new project. </p> <p> If there is no URL specified on the issue, the URL from the template transfers to the project. </p> <p>If the URL&nbsp;field is empty both for the issue and for the template, the field is empty on the project. </p> </td> 
+   <td> <p>The URL from the issue transfers to the new project. </p> <p> If there is no URL specified on the issue, the URL from the template transfers to the project. </p> <p>If the URL field is empty both for the issue and for the template, the field is empty on the project. </p> </td> 
   </tr> 
   <tr> 
-   <td>Project&nbsp;Condition Type</td> 
+   <td>Project Condition Type</td> 
    <td>Transfers from the template.</td> 
   </tr> 
   <tr> 
-   <td>Project&nbsp;Condition</td> 
+   <td>Project Condition</td> 
    <td>Matches the system-level default preference as determined by the Workfront administrator in the Setup area. For information, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">Set a custom condition as the default for projects</a></td> 
   </tr> 
   <tr> 
@@ -90,25 +95,30 @@ The following table lists project information and whether it transfers from the 
    <td>Project dates</td> 
    <td> 
     <ul> 
-     <li> <p><b>Planned Start Date</b>: The closest working time based on the template schedule's working time should be preselected, according to the timezone of the template's schedule. This field is disabled if the Schedule From field is set to From&nbsp;Completion. </p> </li> 
-     <li> <p><b>Planned Completion Date</b>: The closest working time based on the template schedule's working time should be preselected, according to the timezone of the template's schedule. This field is disabled if the Schedule From field is set to From&nbsp;Start. </p> </li> 
+     <li> <p><b>Planned Start Date</b>: The closest working time based on the template schedule's working time should be preselected, according to the timezone of the template's schedule. This field is disabled if the Schedule From field is set to From Completion. </p> </li> 
+     <li> <p><b>Planned Completion Date</b>: The closest working time based on the template schedule's working time should be preselected, according to the timezone of the template's schedule. This field is disabled if the Schedule From field is set to From Start. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Portfolio</td> 
-   <td>Transfers from the template.&nbsp;Otherwise, this field is empty.</td> 
+   <td>Transfers from the template. Otherwise, this field is empty.</td> 
   </tr> 
   <tr> 
    <td>Program</td> 
-   <td>Transfers from the template.&nbsp;Otherwise, this field is empty.</td> 
+   <td>Transfers from the template. Otherwise, this field is empty.</td> 
   </tr> 
   <tr> 
    <td>Group</td> 
-   <td>Transfers from the template.&nbsp;If there is no Group on the template, it is set to the Group of the project that the issue belongs to.</td> 
+   <td><p> The following scenarios exist:</p>
+     <ul><li>If a group is specified during the conversion, that becomes the group of the project</li>
+     <li>If you convert to a project using a template, and there is a group on the template, and during the conversion you do not specify a group, then the group of the template becomes the group of the new project</li>
+      <li> If there is no group on the template and you do not specify a group during the conversion, then the group of the original issue's project becomes the group of the new project</li> </ul>
+      </td> 
   </tr> 
   <tr> 
-   <td>Company</td> 
-   <td>Transfers from the template.&nbsp;Otherwise, this field is empty.</td> 
+   <td>Company</td>    
+   <td>  Transfers from the template. Otherwise, this field is empty.</td>
+     
   </tr> 
   <tr> 
    <td>Project Owner</td> 
@@ -119,7 +129,7 @@ The following table lists project information and whether it transfers from the 
    <td>Transfers from the Template Sponsor field on the template. Otherwise, this field is empty.</td> 
   </tr> 
   <tr> 
-   <td>Resource&nbsp;Manager</td> 
+   <td>Resource Manager</td> 
    <td>Transfers from the template. Otherwise, this field is empty.</td> 
   </tr> 
   <tr> 
@@ -144,13 +154,13 @@ The following table lists project information and whether it transfers from the 
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Convert an issue to a project</h2> 
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;moved to its own article)</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: moved to its own article)</p>
 -->
 <!--
 <ol>
-<li value="1"> Click the <strong>Issues</strong> icon on a project. <p data-mc-conditions="QuicksilverOrClassic.Quicksilver"> <img src="assets/qs-issues-icon-highlighted-on-project.png"> </p> </li>
+<li value="1"> Click the <strong>Issues</strong> icon on a project. </li>
 <li value="2"> <p>Click the issue to be converted to access the issue.</p> </li>
-<li value="3"> <p> Click the <strong>More</strong> menu, then click <strong>Convert to Project</strong>. </p> <p> <img src="assets/qs-issue-more-menu-highlighted-350x469.png" style="width: 350;height: 469;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
+<li value="3"> <p> Click the <strong>More</strong> menu, then click <strong>Convert to Project</strong>. </p>  </li>
 <li value="4"> <p>In the submenu that displays, do one of the following:</p>
 <ul>
 <li>Click <strong>New Project</strong></li>
@@ -189,7 +199,7 @@ The following table lists project information and whether it transfers from the 
 <ol>
 <li value="1"> Click the Issues icon on a project.  </li>
 <li value="2"> <p>Click the issue you want to convert to go to the issue's landing page. </p> </li>
-<li value="3"> <p> Click the <strong>More</strong> menu on the issue, then <strong>Convert to Task</strong>.  </p> <p> <img src="assets/qs-issue-more-menu-highlighted-350x469.png" style="width: 350;height: 469;" data-mc-conditions="QuicksilverOrClassic.Quicksilver"> </p> </li>
+<li value="3"> <p> Click the <strong>More</strong> menu on the issue, then <strong>Convert to Task</strong>.  </p>  </li>
 <li value="4"> <p>Name the task.</p> </li>
 <li value="5"> <p>Identify the project where the task will reside. </p> <p>You can select a different project from the project that the issue is on.</p> </li>
 <li value="6"> <p>In the <strong>Project</strong> box, start typing the name of the project where you want to put the new task, then press <strong>Enter</strong> when it appears.</p> <p>By default, this box the name of the project containing the issue that you are converting.</p> </li>
@@ -221,15 +231,15 @@ The following table lists project information and whether it transfers from the 
 
 You can view the original issue information in project and task lists and reports or in the Project Details area. For information about building reports, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-The following table illustrates which&nbsp;issue fields are visible from the converted projects and tasks. 
+The following table illustrates which issue fields are visible from the converted projects and tasks. 
 
 | Issue fields |Project or task field |Project list or report |Project Details area |Task list or report |Task Details area |
 |---|---|---|---|---|---|
 | Issue Name |Converted Issue Name |✔ |✔ |✔ |✔ |
-| Primary Contact | Converted Issue Originator Name |✔ | `✔`  |✔ |&nbsp; |
-| Entry Date |Converted Issue Entry&nbsp;Date |✔ |&nbsp; |✔ |&nbsp; |
+| Primary Contact | Converted Issue Originator Name |✔ | `✔`  |✔ |  |
+| Entry Date |Converted Issue Entry Date |✔ |  |✔ |  |
 
 
 >[!CAUTION]
 >
->If the Primary&nbsp;Contact of an issue changes or if the issue becomes unlinked from the project or task after the issue has been converted, the Converted Issue Originator Name does not update and it displays the original&nbsp;Primary&nbsp;Contact of the issue at the time the issue was converted.
+>If the Primary Contact of an issue changes or if the issue becomes unlinked from the project or task after the issue has been converted, the Converted Issue Originator Name does not update and it displays the original Primary Contact of the issue at the time the issue was converted.

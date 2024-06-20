@@ -32,6 +32,8 @@ For information about how a Workfront administrator unlocks a timesheet and hour
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -50,6 +52,8 @@ You must have the following to perform the steps in this article:
 </table>
 
 &#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
+
++++
 
 ## Group timesheet and hour preferences
 

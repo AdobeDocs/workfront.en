@@ -10,11 +10,13 @@ exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
 ---
 # Assign tasks
 
-{{highlighted-preview}}
+<!--remove the span class preview from everywhere but the Rate Card roles referencs must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
 
->[!IMPORTANT]
->
->The assignment rate override feature was temporarily disabled in Preview on June 30, 2023.
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 You can assign tasks to users, job roles, or teams to indicate who is responsible for completing the tasks. You can assign a task to more than one resource at a time.
 
@@ -45,6 +47,8 @@ In addition to this article, we recommend that you read the following articles f
 * [Overview of assigning work in the Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <!--drafted for P&P - replace table below with this:
 
@@ -107,6 +111,8 @@ You must have the following access to perform the steps in this article:
 
 *To find out what plan, license type, or access you have, contact your Workfront administrator.
 
++++
+
 ## Considerations for multiple assignments to job roles, teams, and users
 
 Consider the following when assigning multiple resources to a work item:
@@ -162,13 +168,17 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 ## Assign a single task
 
 1. Go to a task that you want to assign.
-1. Click **Assign to** in the **Assignments** field in the header of the task or issue.
+1. Click **Assign to** in the **Assignments** field in the header of the task 
 
    Or
 
    Click the name of the assignments if the task or issue is already assigned.
 
+   In the Production environment:
    ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
+
+   <span class="preview">In the Preview environment:</span>
+   ![Assignments](assets/assignments-box-in-task-header.png)
 
 1. Do one of the following:
 
@@ -181,10 +191,12 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
       >
       >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
       >
-      ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+      ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
       
-   * (Conditional) Click one of the names in the **Suggested assignments** list, if this list displays. For more information, see [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md). 
+   * (Conditional) Click one of the names in the <span class="preview">**Suggested assignments**, **User and teams**, or **Job roles**, or **Rate card roles**</span> lists when they display. For more information, see [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md). 
+
+      You can start typing the name of any user, team, or job role to assign to the task, then select it when it displays in the list. 
    
    * Click **Advanced**
 

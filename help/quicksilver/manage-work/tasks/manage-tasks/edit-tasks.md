@@ -83,6 +83,8 @@ Consider the following when editing tasks:
    * Edit existing expenses
    * Attach a custom form
 
+* Other users must refresh their pages before they can view the updates you make to a task.
+
 ## Edit a task in a list
 
 You can edit task information in a list of tasks, by inline editing fields displayed in the view of the list.
@@ -604,12 +606,12 @@ Your system or group administrator can customize the fields you see in the task 
 
 ![](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
 
-The following fields are included in the project header, by default:
+The following fields are included in the task header, by default:
 
 * Task name
 * Percent complete
 * Assignments
-* Planned Completion Date and time
+* Planned Completion Date 
 
   >[!CAUTION]
   >

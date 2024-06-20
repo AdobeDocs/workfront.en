@@ -5,12 +5,14 @@ keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
 title: Export data from Adobe Workfront via Kick-Starts
 description: As an Adobe Workfront administrator, you can use the Kick-Starts data exporter to export data from Workfront.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
 ---
 # Export data from Adobe Workfront via Kick-Starts
+
+<!-- Audited: 2/2024 -->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">***DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
@@ -21,6 +23,8 @@ As an Adobe Workfront administrator, you can use the Kick-Starts data exporter t
 Exporting data through Kick-Starts is also helpful in understanding what fields are associated with each object, how these fields are coded, as well as how the values of these fields are formatted in the database.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article: 
 
@@ -34,14 +38,22 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td>Plan</td> 
+   <td>
+   <p>New: Standard</p>
+   Or
+   <p>Current: Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>You must be a Workfront administrator.</p></td> 
   </tr> 
  </tbody> 
 </table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Advantages and disadvantages of using kick-starts to export data
 
@@ -89,11 +101,67 @@ The following limitations exist when exporting data via kick-starts (data is exp
 
 ## Export data via kick-starts
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **System** > **Kick-Starts,** then click **Export Data.**
 
-1. Select the object you want to export.
+1. Select the object you want to export. By default, the following objects are displayed under **What to include**:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <col> 
+    <thead> 
+     <tr> 
+      <th> <p><strong>Object</strong> </p> </th> 
+      <th> <p><strong>Exported Sheets of the Excel File</strong> </p> </th> 
+      <th> <p> <strong>Export Format</strong></p> </th> 
+     </tr> 
+    </thead> 
+    <tbody> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Dashboard</p> <p>&nbsp;</p> <p>&nbsp;</p> </td> 
+      <td scope="col" valign="top"> <p>Parameter<br>Parameter Option<br>Parameter Group<br>Category Parameter<br>Category<br>Report<br>Portal Tab Section<br>Dashboard<br>Preferences</p> </td> 
+      <td scope="col" valign="top">&nbsp;ZIP</td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Report</p> <p>&nbsp;</p> <p>&nbsp;</p> </td> 
+      <td scope="col" valign="top">Parameter<br>Parameter Option<br>Parameter Group<br>Category Parameter<br>Category<br>Report<br>Preferences</td> 
+      <td scope="col" valign="top">&nbsp;ZIP </td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Approval</p> </td> 
+      <td scope="col" valign="top"> <p>Step Approver<br>Approval Step<br>Approval<br>Approval Process<br>Preferences</p> </td> 
+      <td scope="col" valign="top"> <p>&nbsp;Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Custom Data</p> </td> 
+      <td scope="col" valign="top"> <p>Parameter<br>Parameter Option<br>Parameter Group<br>Category Parameter<br>Category<br>Preferences</p> </td> 
+      <td scope="col" valign="top"> <p>&nbsp;Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td scope="col" valign="top"> <p>Expense Type</p> </td> 
+      <td valign="top"> <p>Expense Type<br>Preferences</p> </td> 
+      <td scope="col" valign="top"> <p>Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td valign="top"> <p>Hour Type</p> </td> 
+      <td valign="top"> <p>Hour Type<br>Preferences</p> </td> 
+      <td scope="col" valign="top"> <p>Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td valign="top"> <p>Team</p> </td> 
+      <td valign="top"> Team Member<br>Team<br>Preferences </td> 
+      <td scope="col" valign="top"> <p>&nbsp;Excel</p> </td> 
+     </tr> 
+     <tr> 
+      <td valign="top"> <p>User</p> </td> 
+      <td valign="top"> <p>User<br>Preferences</p> </td> 
+      <td valign="top"> <p>&nbsp;Excel</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
 1. Click **More Options** to see the full list of objects.
 
    All of the objects listed here can be used to also import data into Workfront.
@@ -256,127 +324,17 @@ The following limitations exist when exporting data via kick-starts (data is exp
 
    The exported kick-start file is downloaded to your computer either as an Excel file, or a . zip file containing multiple Excel and properties files. Each Excel file is a collection of sheets, where each sheet represents a field associated with the object you selected. There is a **Properties** sheet associated with every export.
 
-   The **Dashboard** and **Report** options allow you to select specific dashboards and reports to include in the download. You can export only Dashboards which are shared system-wide.
+   The **Dashboard** and **Report** options allow you to select specific dashboards and reports to include in the download. You can export only Dashboards, which are shared system-wide.
 
    You cannot export matrix reports. For more information about matrix reports, see [Create a matrix report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+
+   Kick-Starts does not support Text Mode filters. For successful exporting, the reporting filters must be switched to Standard Mode.
 
    You can select up to 100 Dashboards and 100 Reports in a single export.
 
    ![](assets/kickstart-export-350x381.png)
 
    You can export multiple objects at one time.
-
-   By default, the following objects are displayed under the **What to include** label (prior to clicking **More Options**):
-
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <col> 
-    <thead> 
-     <tr> 
-      <th> <p><strong>Object</strong> </p> </th> 
-      <th> <p><strong>Exported Sheets of the Excel File</strong> </p> </th> 
-      <th> <p> <strong>Export Format</strong></p> </th> 
-     </tr> 
-    </thead> 
-    <tbody> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Dashboard</p> <p>&nbsp;</p> <p>&nbsp;</p> </td> 
-      <td scope="col" valign="top"> <p>Parameter<br>Parameter Option<br>Parameter Group<br>Category Parameter<br>Category<br>Report<br>Portal Tab Section<br>Dashboard<br>Preferences</p> </td> 
-      <td scope="col" valign="top">&nbsp;ZIP</td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Report</p> <p>&nbsp;</p> <p>&nbsp;</p> </td> 
-      <td scope="col" valign="top">Parameter<br>Parameter Option<br>Parameter Group<br>Category Parameter<br>Category<br>Report<br>Preferences</td> 
-      <td scope="col" valign="top">&nbsp;ZIP </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Approval</p> </td> 
-      <td scope="col" valign="top"> <p>Step Approver<br>Approval Step<br>Approval<br>Approval Process<br>Preferences</p> </td> 
-      <td scope="col" valign="top"> <p>&nbsp;Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Custom Data</p> </td> 
-      <td scope="col" valign="top"> <p>Parameter<br>Parameter Option<br>Parameter Group<br>Category Parameter<br>Category<br>Preferences</p> </td> 
-      <td scope="col" valign="top"> <p>&nbsp;Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Expense Type</p> </td> 
-      <td valign="top"> <p>Expense Type<br>Preferences</p> </td> 
-      <td scope="col" valign="top"> <p>Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>Hour Type</p> </td> 
-      <td valign="top"> <p>Hour Type<br>Preferences</p> </td> 
-      <td scope="col" valign="top"> <p>Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>Team</p> </td> 
-      <td valign="top"> Team Member<br>Team<br>Preferences </td> 
-      <td scope="col" valign="top"> <p>&nbsp;Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>User</p> </td> 
-      <td valign="top"> <p>User<br>Preferences</p> </td> 
-      <td valign="top"> <p>&nbsp;Excel</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
-
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <col> 
-    <thead> 
-     <tr> 
-      <th> <p><strong></strong> </p> </th> 
-      <th> <p><strong>Exported Sheets of the Excel File</strong> </p> </th> 
-      <th> <p>&nbsp;<strong>Export Format</strong></p> </th> 
-     </tr> 
-    </thead> 
-    <tbody> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Dashboard</p> <p>&nbsp;</p> <p>&nbsp;</p> </td> 
-      <td scope="col" valign="top"> <p>Parameter<br>Parameter Option<br>Parameter Group<br>Category Parameter<br>Category<br>Report<br>Portal Tab Section<br>Dashboard<br>Preferences</p> </td> 
-      <td scope="col" valign="top">&nbsp;ZIP</td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Report</p> <p>&nbsp;</p> <p>&nbsp;</p> </td> 
-      <td scope="col" valign="top">Parameter<br>Parameter Option<br>Parameter Group<br>Category Parameter<br>Category<br>Report<br>Preferences</td> 
-      <td scope="col" valign="top">&nbsp;ZIP </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Approval</p> </td> 
-      <td scope="col" valign="top"> <p>Step Approver<br>Approval Step<br>Approval<br>Approval Process<br>Preferences</p> </td> 
-      <td scope="col" valign="top"> <p>&nbsp;Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Custom Data</p> </td> 
-      <td scope="col" valign="top"> <p>Parameter<br>Parameter Option<br>Parameter Group<br>Category Parameter<br>Category<br>Preferences</p> </td> 
-      <td scope="col" valign="top"> <p>&nbsp;Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td scope="col" valign="top"> <p>Expense Type</p> </td> 
-      <td valign="top"> <p>Expense Type<br>Preferences</p> </td> 
-      <td scope="col" valign="top"> <p>Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>Hour Type</p> </td> 
-      <td valign="top"> <p>Hour Type<br>Preferences</p> </td> 
-      <td scope="col" valign="top"> <p>Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>Team</p> </td> 
-      <td valign="top"> Team Member<br>Team<br>Preferences </td> 
-      <td scope="col" valign="top"> <p>&nbsp;Excel</p> </td> 
-     </tr> 
-     <tr> 
-      <td valign="top"> <p>User</p> </td> 
-      <td valign="top"> <p>User<br>Preferences</p> </td> 
-      <td valign="top"> <p>Excel</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
 
 1. (Recommended) Analyze the exported data to ensure that all the information you expect to see was exported. 
 

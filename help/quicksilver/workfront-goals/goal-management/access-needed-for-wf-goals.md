@@ -15,7 +15,7 @@ Your Adobe Workfront administrator must ensure all of the following conditions a
 <!--drafted for P&P - replace the first bullet with this one when licensing changes: 
 * Your company must purchase the correct Adobe Worfront plan or Adobe Workfront Goal license. For information, see the section [Obtain Workfront Goals organization access](#obtain-workfront-goals-organization-access)in this article.-->
 
-* Your organization must purchase the correct license for Workfront Goals. For information, see the section [Obtain Workfront Goals organization access](#obtain-workfront-goals-organization-access)in this article.
+* Your organization must purchase the correct license for Workfront Goals. For information, see the section [Obtain Workfront Goals organization access](#obtain-workfront-goals-organization-access) in this article.
 
 * Assign you the correct type of Workfront license. For information about assigning license types and access levels, see the section [Update license types and access level settings](#update-license-types-and-access-level-settings) in this article.
 
@@ -27,6 +27,10 @@ Your Adobe Workfront administrator must ensure all of the following conditions a
 
 * Assign you Layout Template that includes the Goals area in the Main Menu.
 
+  >[!NOTE]
+  >
+  >All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. 
+
   For information see the section [Add Workfront Goals to a layout template](#add-workfront-goals-to-a-layout-template) in this article. 
 
 * If you must modify goals that you did not create yourself, the goal creator must share the goals with you and give you Manage permissions to them.
@@ -35,37 +39,36 @@ Your Adobe Workfront administrator must ensure all of the following conditions a
 
 ## Obtain Workfront Goals organization access {#obtain-workfront-goals-organization-access}
 
-<!--drafted for P&P release: 
 
-If your company has a current Workfront plan, you must have one of the following:
+Depending on which Workfront plan your company is currently on, the following scenarios exist: 
 
-* An Ultimate Workfront plan. Workfront Goals are included in this plan. 
-* A Select or higher Workfront plan and a separate Workfront Goals license. -->
+* If your company has a new Workfront plan, you must have one of the following:
 
-<!-- drafted for P&P - add this to the sentence below at release: 
+  * An Ultimate Workfront plan. Workfront Goals are included in this plan. 
+  * A Select or higher Workfront plan and a separate Workfront Goals license.
 
-If your company has a legacy Workfront plan, -->
+* If your company has the current Workfront plan, your organization must purchase an additional license, in addition to the Workfront license, for your users to be able to access Workfront Goals. 
 
-Your organization must purchase an additional license, in addition to the Workfront license, for your users to be able to access Workfront Goals. After your organization purchases the additional license, Workfront enables Workfront Goals for your account. For information about purchasing a license for Workfront Goals contact your Workfront account manager.
+  After your organization purchases the additional license, Workfront enables Workfront Goals for your account. For information about purchasing a license for Workfront Goals contact your Workfront account manager.
+
+For information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 ## Update license types and access level settings  {#update-license-types-and-access-level-settings}
 
-<!--drafted for P&P release: 
-If your company has the current access level model, your Workfront administrator must grant you one of the following Workfront license types to access Workfront Goals: 
+Depending on which Workfront plan your company is currently on, the following scenarios exist: 
 
-* Contributor
-* Light
-* Standard-->
+* If your company has the new access level model, your Workfront administrator must grant you one of the following Workfront license types to access Workfront Goals: 
 
-<!--drafted for P&P release: add this to the first sentence: 
-If your company has the legacy access level model, -->
+  * Contributor
+  * Light
+  * Standard
 
-Your Workfront administrator, must grant you one of the following Workfront license types to access Workfront Goals:
+* If your company has the current access level model, your Workfront administrator, must grant you one of the following Workfront license types to access Workfront Goals:
 
-* Plan
-* Work 
-* Review
-* Request
+  * Plan
+  * Work 
+  * Review
+  * Request
 
 After your Workfront administrator grants you one of these license types, they must also give you access to Goals in your access level. For information about access to Goals, see [Grant access to Adobe Workfront Goals](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 

@@ -9,6 +9,12 @@ exl-id: a12277e8-2c2e-4b53-990f-6ee9a6541492
 ---
 # Access [!DNL Adobe Workfront] from [!DNL Microsoft Teams]
 
+<!--Audited: 01/2024-->
+
+>[!NOTE]
+>
+>The Adobe Workfront for Microsoft Teams integration is currently supported only for the classic Microsoft Teams experience.
+
 You can access [!DNL Adobe Workfront] from [!DNL Microsoft Teams] and perform several actions in [!DNL Workfront] by typing commands in either the [!DNL Workfront] bot channel or any other team channel.
 
 You can do the following in [!DNL Workfront] from [!DNL Microsoft Teams]:
@@ -26,6 +32,8 @@ The commands you use from [!DNL Microsoft Teams] to perform these actions are di
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -38,12 +46,17 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td> <p>New: [!UICONTROL Standard]</p>
+   <p>Current: [!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+*To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+
+*For more information about Workfront access requirements, see [Access requirements overview in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Prerequisites
 
@@ -54,10 +67,12 @@ You can create personal tasks in [!DNL Adobe Workfront] from [!DNL Microsoft Tea
 
 ## Access [!DNL Workfront] from the [!DNL Workfront] bot chat channel
 
+You must be logged in to Workfront. 
+
 1. Open the **[!DNL Workfront]** bot chat channel.
 1. Click the **[!DNL Workfront]** icon underneath the text field to display the search box.
 
-   ![teams_search_box_in_the_bot_channel.PNG](assets/teams-search-box-in-the-bot-channel-350x456.png)
+   ![teams_search_box_in_the_bot_channel.PNG](assets/teams-search-box-in-the-bot-channel-350x456.png) 
 
 1. Start typing the name of a project, task, or issue.
 
@@ -79,6 +94,8 @@ You can create personal tasks in [!DNL Adobe Workfront] from [!DNL Microsoft Tea
 
 ## Access [!DNL Workfront] from a team channel
 
+You must be logged in to Workfront. 
+
 1. Open a team channel and type **@[!DNL Workfront]**, then select **[!DNL Workfront].**
 
 1. Click **[!UICONTROL Search]** to search for a project, task, or issue.
@@ -92,7 +109,7 @@ You can create personal tasks in [!DNL Adobe Workfront] from [!DNL Microsoft Tea
    * **[!DNL Log out]** to log out of Workfront
    * **[!DNL New task]** to create a new personal task
 
-      For information about creating new tasks from [!DNL Microsoft Teams], see [Create [!DNL Adobe Workfront] tasks from [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
+      For information about creating tasks from [!DNL Microsoft Teams], see [Create [!DNL Adobe Workfront] tasks from [!DNL Microsoft Teams]](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/create-workfront-tasks-from-ms-teams.md).
 
    * **[!UICONTROL Help]** to view a list of all available commands.
 

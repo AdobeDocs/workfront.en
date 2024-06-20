@@ -3,11 +3,34 @@ content-type: overview
 title: Summary overview
 description: ou can use the Summary panel to review and update work item information directly from a list of tasks issues, documents, or from other areas of [!DNL Adobe Workfront] that display tasks and issues.
 feature: Get Started with Workfront
+author: Nolan
 exl-id: 5e4026b2-5f2f-45c1-bef1-04e20c62ed8a
 ---
 # [!UICONTROL Summary] overview
 
-You can use the [!UICONTROL Summary] panel to review and update work item information directly from a list of tasks issues, documents, or from other areas of [!DNL Adobe Workfront] that display tasks and issues.
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span> -->
+
+You can use the [!UICONTROL Summary] panel to review and update work item information directly from a list of tasks, issues, documents, or from other areas of [!DNL Adobe Workfront] that display tasks and issues.
+
+Your Workfront or group administrator can modify the areas and the fields that display in the Summary panel. They can add up to 16 fields to the Summary panel. 
+
+>[!IMPORTANT]
+>
+>We recommend that you add fields that you must update frequently to the Summary panel, so you can easily access them and update them without accessing the object's main page. 
+>
+>For example, you can add the following frequently-updated fields to the tasks and issues Summary panels: 
+>
+>* Status
+>* Percent Complete
+>* Commit Date
+>* Planned Completion Date
+>* Condition
+
+
 
 The following table displays the areas where you can locate and use the [!UICONTROL Summary] panel:
 
@@ -15,7 +38,7 @@ The following table displays the areas where you can locate and use the [!UICONT
  <col data-mc-conditions=""> 
  <tbody> 
   <tr> 
-   <td>Tasks</td> 
+   <td><b>Tasks</b></td> 
   </tr> 
   <tr> 
    <td> <p>Task lists within a</p> 
@@ -27,8 +50,11 @@ The following table displays the areas where you can locate and use the [!UICONT
   <tr> 
    <td>Tasks in the [!UICONTROL Unassigned] and [!UICONTROL Assigned] Work areas of the [!UICONTROL Workload Balancer]</td> 
   </tr> 
+   <tr> 
+   <td>Tasks in a [!UICONTROL Timesheet]</td> 
+  </tr> 
   <tr data-mc-conditions=""> 
-   <td>Issues</td> 
+   <td><b>Issues</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Issue lists within a</p> 
@@ -44,8 +70,13 @@ The following table displays the areas where you can locate and use the [!UICONT
   <tr data-mc-conditions=""> 
    <td>Issues in the [!UICONTROL Submitted] section of the [!UICONTROL Requests] area</td> 
   </tr> 
+</tr> 
+   <tr> 
+   <td>Issues in a [!UICONTROL Timesheet]</td> 
+  </tr>
+
   <tr data-mc-conditions=""> 
-   <td>Documents</td> 
+   <td><b>Documents</b></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Documents] area</td> 
@@ -75,25 +106,27 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Request] or higher</p> </td> 
+   <td> <p>New: Contributor or higher</p>
+   Or
+   <p>Current:[!UICONTROL Request] or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>[!UICONTROL View] or higher access to Tasks, Issues, Documents</p> <p>[!UICONTROL View] or higher access to any objects for which you want to view documents' [!UICONTROL Summary]</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader"><strong>Access level configuration</strong></td> 
+   <td> <p>[!UICONTROL View] or higher access to Tasks, Issues, Documents</p> <p>[!UICONTROL View] or higher access to any objects for which you want to view documents [!UICONTROL Summary]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>[!UICONTROL View] or higher permissions to a task, issue, or document</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>[!UICONTROL View] or higher permissions to a task, issue, or document</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+*To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 ## View the [!UICONTROL Summary] panel in a list of tasks or issues
 
@@ -110,7 +143,7 @@ You must have the following access to perform the steps in this article:
    >
    >You can only select one task or one issue at a time to view their details in the [!UICONTROL Summary] panel.
 
-   ![Summary panel](assets/summary-panel-for-task.png)
+   ![Summary panel](assets/summary-panel-for-task-new-comments.png)
 
 1. (Optional) To close the [!UICONTROL Summary] panel, do one of the following:
 
@@ -130,19 +163,19 @@ You must have the following access to perform the steps in this article:
 
 Use the progress bar at the top of the [!UICONTROL Summary] to update the percent complete for the task or issue that you've selected. Enter a number or drag the bar to the correct percentage.
 
-![](assets/summary-overview-percent-complete-350x395.png)
+![Percent complete in Summary panel](assets/summary-overview-percent-complete.png)
 
 ## [!UICONTROL Updates]
 
 Use the [!UICONTROL Updates] section of the [!UICONTROL Summary] to view recent updates and make updates on the task or issue you selected. Click **[!UICONTROL See all]** to go directly to the [!UICONTROL Updates] tab on the task.
 
-![](assets/summary-updates-with-block-quote-350x290.png)
+![Updates section in Summary panel](assets/summary-updates-section.png)
 
 ## [!UICONTROL Documents]
 
 Use the [!UICONTROL Documents] section of the [!UICONTROL Summary] to see documents attached to the task or issue you selected. Click the thumbnail to open a document preview. To go directly to the [!UICONTROL Documents] tab on the task or issue, click the **[!UICONTROL Documents]** title.
 
-![](assets/summary-overview-documents-350x84.png)
+![Documents section in Summary panel](assets/summary-documents-section.png)
 
 ## [!UICONTROL Details]
 
@@ -152,7 +185,7 @@ Use the [!UICONTROL Details] section of the [!UICONTROL Summary] to view high-le
 >
 >The fields that appear in this section are the same fields that appear in the right panel in Home. You can customize these fields [Customize [!UICONTROL Home] and [!UICONTROL Summary] using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
-![](assets/summary-overview-details-new-350x278.png)
+![Details section in Summary panel](assets/summary-details-section.png)
 
 ## [!UICONTROL Subtasks]
 
@@ -160,7 +193,7 @@ This section is only available for tasks. Use the [!UICONTROL Subtasks] section 
 
 If you have not added any subtasks to the task, click **[!UICONTROL Add one here]** to go directly to the [!UICONTROL Subtasks] tab on the task.
 
-![](assets/summary-overview-subtasks-350x140.png)
+![Subtasks section in Summary panel](assets/summary-subtasks-section.png)
 
 ## [!UICONTROL Hours]
 
@@ -170,7 +203,7 @@ The hour count in the [!UICONTROL Summary] displays the hours you log. Other use
 
 If there are no planned [!UICONTROL hours] on the task or issue and you have logged time, the hours bar displays red.
 
-![](assets/summary-overview-hours-350x96.png)
+![Hours section in Summary panel](assets/summary-hours-section.png)
 
 ## Approvals
 
@@ -178,4 +211,4 @@ Use the [!UICONTROL Approvals] section of the [!UICONTROL Summary] to view appro
 
 To go directly to the [!UICONTROL Approvals] tab on the task or issue, click the **[!UICONTROL Approvals]** title.
 
-![](assets/summary-overview-approvals-350x122.png)
+![Approvals section in Summary panel](assets/summary-approvals-section.png)

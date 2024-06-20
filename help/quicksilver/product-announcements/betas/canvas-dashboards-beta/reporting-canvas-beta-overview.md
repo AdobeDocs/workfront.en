@@ -5,8 +5,9 @@ title: 'Reporting Canvas beta: overview'
 description: Information on the beta program for the upcoming Reporting Canvas tool for Adobe Workfront
 author: Nolan
 feature: Product Announcements
-hidefromtoc: true
-exl-id: f68975c2-50a6-4962-80b7-1b482c0bc1d4
+hidefromtoc: yes
+hide: yes
+exl-id: 5767ef7d-1bc3-40d8-abeb-02b15166a0a3
 ---
 # Reporting Canvas beta: overview
 

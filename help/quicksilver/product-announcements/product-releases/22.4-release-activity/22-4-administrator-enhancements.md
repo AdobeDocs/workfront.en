@@ -4,6 +4,7 @@ description: 22.4 Administrator enhancements
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 1e62e7b3-14b6-4669-b3e1-ac6507343479
 ---
 # 22.4 Administrator enhancements

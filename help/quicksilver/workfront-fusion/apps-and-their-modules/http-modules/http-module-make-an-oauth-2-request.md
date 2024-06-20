@@ -27,6 +27,12 @@ Other flows, such as Resource Owner Password Credentials Flow and Client Credent
 
 For more information on OAuth 2.0 authentication, see [The OAuth 2.0 Authorization Framework](https://tools.ietf.org/html/rfc6749).
 
+>[!NOTE]
+>
+>If you are connecting to an Adobe product that does not currently have a dedicated connector, we recommend using the Adobe Authenticator module.
+>
+>For more information, see [Adobe Authenticator module](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
+
 ## Access requirements
 
 You must have the following access to use the functionality in this article:
@@ -277,7 +283,7 @@ The following example shows how to use the [!UICONTROL HTTP] > [!UICONTROL Make 
 
 ### Instructions for connecting to [!DNL Microsoft Graph API] via the [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] module 
 
-For instructions regarding [!DNL Microsoft Graph API], see [Call the [!DNL MS Graph REST API] via the [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] module](../../../workfront-fusion/connections/call-the-ms-graph-rest-api-.md).
+For instructions regarding [!DNL Microsoft Graph API], see [Call the [!DNL MS Graph REST API] via the [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] module](../../../workfront-fusion/connections/call-the-ms-graph-rest-api.md).
 
 ## OAuth 2.0 request module setup 
 

@@ -10,6 +10,8 @@ exl-id: c06666a7-ab78-4311-8fcb-1d1a68034133
 ---
 # Add a custom form to an object
 
+<!--Audited: 12/2023-->
+
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
 You can add an existing custom form to any of the objects listed below. A custom form contains custom fields where you can store information about the object.
@@ -30,6 +32,8 @@ You can add a custom form only to the types of objects for which the form was cr
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the actions described in this article:
 
 <table style="table-layout:auto"> 
@@ -37,29 +41,33 @@ You must have the following access to perform the actions described in this arti
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any </p> </td> 
   </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Request or higher</p> </td> 
-  </tr> 
+<tr> 
+  <td role="rowheader">Adobe Workfront license</td> 
+  <td> <p>New: Contributor or higher </p>
+ <p>or</p> 
+<p>Current: Request or higher </p> 
+</td> 
+ </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to the objects for which you manage custom forms</p> <p><b>NOTE</b></p>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to the objects for which you manage custom forms</p>
+    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the object for which you want to attach a custom form.</p> <p>View or higher permissions to the custom form, with permission to <b>Attach to Custom Data</b> objects (projects, tasks, and issues). For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>.</p> <p>Important: If you do not have a Plan license with administrative access to&nbsp;Custom&nbsp;Forms, you must have specific permissions to at least view the custom form, as described in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>. These permissions must be granted to you even if the form is visible system-wide. </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions to the object for which you want to attach a custom form.</p> <p>View or higher permissions to the custom form, with permission to <b>Attach to Custom Data</b> objects (projects, tasks, and issues). For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>.</p> <p>Important: If you do not have a Plan license with administrative access to&nbsp;Custom&nbsp;Forms, you must have specific permissions to at least view the custom form, as described in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md" class="MCXref xref">Share a custom form</a>. These permissions must be granted to you even if the form is visible system-wide. </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Prerequisite
++++
+
+## Prerequisites
 
 Your Workfront administrator or a user with a Plan license and administrative access to custom forms must create custom forms in your environment before you can add them to objects. For more information, see [Create or edit a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
@@ -98,7 +106,7 @@ You can add a custom form to an object in two ways:
 
 You can add up to 10 custom forms on a given object, allowing you to make fields available to some users and not to others, or allowing you to better meet the form requirements of multiple projects.
 
-**Example:** If an existing project has a custom form already, and more custom fields are needed which exist on another custom form, you can add a second form to the project with the additional fields, rather than add the fields to the existing custom form, if those fields are needed just for this one project.
+**Example:** If an existing project has a custom form already, and more custom fields are needed for this project, which exist on another custom form, you can add a second form to the project with the additional fields, rather than add the fields to the existing custom form.
 
 ## Add a custom form to multiple objects in bulk
 
@@ -117,9 +125,14 @@ drafted for bulk-editing projects. When it releases to Prod for projects, take "
 1. Navigate to a list of objects.
 1. Select multiple objects in the list.  
 
-1. Click the **More** menu ![](assets/more-icon.png), then click the **Edit** icon  ![](assets/edit-icon.png), or just click the **Edit** icon ![](assets/edit-icon.png) at the top of the list.
+1. Click the **More** menu ![](assets/more-icon.png), then click the **Edit** icon  ![](assets/edit-icon.png).
+
+   Or
+
+   Click the **Edit** icon ![](assets/edit-icon.png) at the top of the list.
 1. Click **Custom Forms** in the left panel.
-1. Select the form you want to associate with all the selected objects in the **Make a selection** drop-down menu.
+1. in the **Make a selection** drop-down menu, select the form you want to associate with all the selected objects.
+
    >[!NOTE]
    >
    >If you cannot find the form in the drop-down menu, this means that at least one of the objects has the form already associated with it. Determine which object that is, and eliminate it from your selection, before you can add the form to the remaining objects.

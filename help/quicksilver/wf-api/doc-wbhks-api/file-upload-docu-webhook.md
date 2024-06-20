@@ -6,6 +6,7 @@ title: File upload via Document Webhooks
 description: File upload via Document Webhooks
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 2c5727ee-bf8f-4664-a9b1-c5da356d94f5
 ---
 
@@ -87,7 +88,7 @@ The raw content bytes for the document.
 
 ```
 {
-result: “success”
+result: "success"
 }
 ```
 
@@ -95,7 +96,7 @@ or
 
 ```
 {
-result: “fail”
+result: "fail"
 }
 ```
 

@@ -18,6 +18,12 @@ exl-id: c0b0057f-3db0-4c10-a274-ebaec1a5b87b
 
 This [!DNL Adobe Workfront Fusion] module enables you to configure an HTTP request with HTTP client certificate authorization and submit it to a server. The received HTTP response is then contained in the output bundle.
 
+>[!NOTE]
+>
+>If you are connecting to an Adobe product that does not currently have a dedicated connector, we recommend using the Adobe Authenticator module.
+>
+>For more information, see [Adobe Authenticator module](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-authenticator-modules.md).
+
 ## Access requirements
 
 You must have the following access to use the functionality in this article:

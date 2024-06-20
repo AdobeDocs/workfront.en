@@ -46,4 +46,4 @@ The [!UICONTROL **Projects I'm On**] filter includes projects that contain the u
 
 1. Try using a similar filter, such as [!UICONTROL **Projects I Own**], which only includes projects that are specifically assigned to you.
 
- For more information on using filters in [!DNL Workfront], see [Filters Overview in [!DNL Adobe Workfront]](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+ For more information on using filters in [!DNL Workfront], see [Filters Overview](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md).

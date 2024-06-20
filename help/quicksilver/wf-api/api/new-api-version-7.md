@@ -5,6 +5,7 @@ title: What's New in API Version 7
 description: Collections
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 8c575251-677b-474d-84aa-02b637ef7760
 ---
 # What's New in API Version 7
@@ -215,11 +216,11 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| updateType¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| updateType<sup>1</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹ Changes to possible values&nbsp;
+<sup>1</sup> Changes to possible values&nbsp;
 
 &nbsp;
 
@@ -228,16 +229,16 @@ Changes to existing objects: additions are simply listed, removals have striketh
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
 | approvalCompletionDate |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
-| approvalStartDate¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| approvalStartDate<sup>1</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 | workPerDayList |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp;&nbsp; |
 
 {style="table-layout:auto"}
 
 &nbsp;
 
-### AccessRule¹
+### AccessRule<sup>1</sup>
 
-¹ Flagged as reportable
+<sup>1</sup> Flagged as reportable
 
 &nbsp;
 
@@ -251,7 +252,7 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 &nbsp;&nbsp;
 
-### Approval Path¹
+### Approval Path<sup>1</sup>
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
@@ -261,7 +262,7 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 {style="table-layout:auto"}
 
-¹ Reportable Flag Removed
+<sup>1</sup> Reportable Flag Removed
 
 &nbsp;
 
@@ -275,9 +276,9 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 {style="table-layout:auto"}
 
-¹ Date Validation Added
+<sup>1</sup> Date Validation Added
 
-² Not_Filterable Flag Added
+<sup>2</sup> Not_Filterable Flag Added
 
 &nbsp;
 
@@ -285,13 +286,13 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| &nbsp;workPerDayList |&nbsp; |&nbsp; |&nbsp; |assignUserToRoleOnProjects¹ |&nbsp; |&nbsp; |
-| &nbsp; |&nbsp; |&nbsp; |&nbsp; |swapUsersOnProjects¹ |&nbsp; |&nbsp; |
-| &nbsp; |&nbsp; |&nbsp; |&nbsp; |unassignUserFromProjects¹ |&nbsp; |&nbsp; |
+| &nbsp;workPerDayList |&nbsp; |&nbsp; |&nbsp; |assignUserToRoleOnProjects<sup>1</sup> |&nbsp; |&nbsp; |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |swapUsersOnProjects<sup>1</sup> |&nbsp; |&nbsp; |
+| &nbsp; |&nbsp; |&nbsp; |&nbsp; |unassignUserFromProjects<sup>1</sup> |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹ Added field includeIssues
+<sup>1</sup> Added field includeIssues
 
 &nbsp;
 
@@ -299,11 +300,11 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| bizRuleExclusions¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| bizRuleExclusions<sup>1</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹ Changes to possible values&nbsp;
+<sup>1</sup> Changes to possible values&nbsp;
 
 &nbsp;
 
@@ -346,7 +347,7 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 {style="table-layout:auto"}
 
-¹ Changed PRECISION validator for 8 to 9
+<sup>1</sup> Changed PRECISION validator for 8 to 9
 
 &nbsp;
 
@@ -368,11 +369,11 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| changeType¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| changeType<sup>1</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹ Changes to possible Values
+<sup>1</sup> Changes to possible Values
 
 &nbsp;
 
@@ -448,11 +449,11 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 | Fields |References |Collections |Search |Actions |Queries |Operations |
 |---|---|---|---|---|---|---|
-| workRequired¹ |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
+| workRequired<sup>1</sup> |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |&nbsp; |
 
 {style="table-layout:auto"}
 
-¹ Type Changed from Int to Double&nbsp;
+<sup>1</sup> Type Changed from Int to Double&nbsp;
 
 &nbsp;
 
@@ -559,4 +560,4 @@ Changes to existing objects: additions are simply listed, removals have striketh
 
 {style="table-layout:auto"}
 
-¹ Changes to possible Values
+<sup>1</sup> Changes to possible Values

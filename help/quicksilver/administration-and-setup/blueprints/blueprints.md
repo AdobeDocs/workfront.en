@@ -7,6 +7,7 @@ description: Review these articles to learn how to use Blueprints in Adobe Workf
 author: Lisa
 feature: System Setup and Administration
 role: Admin
+recommendations: noDisplay, noCatalog
 exl-id: 03a23bb6-f30d-4f4d-9e17-069e37ec474a
 ---
 # Blueprints

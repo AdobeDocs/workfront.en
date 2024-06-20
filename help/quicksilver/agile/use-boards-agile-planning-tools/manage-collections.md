@@ -10,6 +10,10 @@ exl-id: c46c42e8-e14d-414d-b883-c4d885338e42
 ---
 # Manage workstreams
 
+>[!IMPORTANT]
+>
+>Workstreams are only available to a specific group of customers.
+
 A workstream is a configurable group of boards and cards for collaborating on work. Workstreams can include different types of boards created from templates and a card list of work items. In a workstream, you can track work in iterations or sprints.
 
 For more information, see [Use the card list](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md) and [Create an iteration in a workstream](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md).
@@ -17,6 +21,8 @@ For more information, see [Use the card list](/help/quicksilver/agile/use-boards
 Workstreams appear on the dashboard along with individual boards you have access to that are not part of a workstream. For information about the boards dashboard, see [Use the boards dashboard](/help/quicksilver/agile/get-started-with-boards/use-boards-page.md). You can click any board name on the dashboard to open it.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -36,6 +42,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Create a workstream
 

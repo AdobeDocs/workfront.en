@@ -1,11 +1,8 @@
 ---
-product-previous: workfront-proof
-product-area: documents
-navigation-topic: mobile-workfront-proof
 title: Workfront Proof mobile apps
-description: This section contains the following articles - EDIT ME.
-author: Courtney
-feature: Workfront Proof, Digital Content and Documents
+description: Learn to use the Workfront Proof mobile app.
+hide: true
+hidefromtoc: true
 exl-id: 8a868212-cf8e-4752-8aa6-ed74f10f5cea
 ---
 # Workfront Proof mobile apps

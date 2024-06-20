@@ -14,7 +14,7 @@ You can group cards on a board by assignee or by tag. When you select an option 
 
 >[!NOTE]
 >
->Any cards in the intake column are not included in a group. For information on the intake column, see [Add an intake column to a board](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+>Any cards in the intake column are not included in a group, and the intake column is hidden when a group is applied. For information on the intake column, see [Add an intake column to a board](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## Access requirements
 

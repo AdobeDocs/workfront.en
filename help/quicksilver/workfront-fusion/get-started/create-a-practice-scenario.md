@@ -147,7 +147,7 @@ This module will contain the data that you want the scenario to watch for.
 1. In the **[!DNL Google Sheets]** box, under **[!UICONTROL Connection]**, click **[!UICONTROL Add]**, then type a name for the connection, such as "Olivia's Google account," then click **[!UICONTROL Continue]**.
 1. Authenticate the connection in the window that displays.
 
-   The process for authenticating a connection can vary a bit between apps. You may need to log in to the app. You will usually need to click an **[!UICONTROL Allow]** button. If you need help, see [About connecting [!DNL Adobe Workfront Fusion] to an app or service](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+   The process for authenticating a connection can vary a bit between apps. You may need to log in to the app. You will usually need to click an **[!UICONTROL Allow]** button. If you need help, see [Connections overview](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 
 ## Configure the first module
 

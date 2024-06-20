@@ -29,7 +29,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects and Financial&nbsp;Data</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects and Financial Data</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -54,7 +54,9 @@ When the rate of a user or a role changes during the life of a project, the foll
 
 >[!CAUTION]
 >
->Prior to manually recalculating finances for a given project, you might want to preserve any financial data that has already been calculated at a previous rate. We recommend to use the Recalculate Finance option only when you are sure that you are not making changes to existing information, or only when such changes are desired.
+>Prior to manually recalculating finances for a given project, you may want to preserve any financial data that has already been calculated at a previous rate. We recommend using the Recalculate Finance option only when you are sure that you are not making changes to existing information, or only when such changes are desired.
+>
+>Note that running a Project (Finance Data) report performs a recalculation of your financial data, and as such you should make the same considerations before running the report.
 
 ## Preserve financial data for tasks with existing hours {#preserve-financial-data-for-tasks-with-existing-hours}
 
@@ -132,9 +134,9 @@ If your rates change during the life of a project and you want your cost and rev
 
 You can recalculate the finances of projects in Workfront from the project page or from a project list or report.
 
-You can recalculate the finances while editing them in bulk. For information, see the [Manually recalculate finances in bulk in the Edit Projects box](#manually-recalculate-finances-in-bulk-in-the-edit-projects-box) section in this article.
+You can recalculate the finances while editing them in bulk. For information, see the [Manually recalculate finances in bulk](#manually-recalculate-finances-in-bulk) section in this article.
 
-1. Go to the project where you want to recalculate finances and click the **More** icon ![](assets/qs-more-icon-on-an-object.png) to the right of the project name
+1. Go to the project where you want to recalculate finances and click the **More** icon ![](assets/qs-more-icon-on-an-object.png) to the right of the project name.
 
    ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
@@ -148,14 +150,14 @@ You can recalculate the finances while editing them in bulk. For information, se
    >
    >Depending on the complexity of your projects, we recommend not to select a large number of projects when recalculating their finances in bulk to ensure optimum performance. Some things that could make a project too complex might be multiple dependencies or assignments or a large number of custom fields.
 
-1. Click&nbsp;**Recalculate Finance**.
+1. Click **Recalculate Finance**.
 
-   All planned costs and revenue on the project are recalculated with any new information.  
+   All planned costs and revenue on the project are recalculated with any new information.
   
-   You should receive a confirmation at the top of the browser that the finances of the project have been recalculated successfully.  
+   You should receive a confirmation at the top of the browser that the finances of the project have been recalculated successfully.
    Existing cost values and some revenue values which have not been locked update to reflect the new rates.
 
-## Manually recalculate finances in bulk in the Edit Projects box {#manually-recalculate-finances-in-bulk-in-the-edit-projects-box}
+## Manually recalculate finances in bulk{#manually-recalculate-finances-in-bulk}
 
 You can manually recalculate the finances of several projects by editing them in bulk. This causes the revenue on the projects to recalculate retroactively.
 
@@ -166,15 +168,19 @@ You can manually recalculate the finances of several projects by editing them in
 To manually recalculate the finances of several projects:
 
 1. Go to a list of projects.
-1. Select several projects in the list, then click **Edit**.
+1. Select several projects in the list, then click the **More** icon ![](assets/qs-more-icon-on-an-object.png) at the top of the list.
+
+   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
    >Depending on the complexity of your projects, we recommend not to select a large number of projects when editing them in bulk to ensure optimum performance. Some things that could make a project too complex might be multiple dependencies or assignments or a large number of custom fields.
 
-1. Click **Settings**, then select **Recalculate Costs And Revenues**.
+1. Click **Recalculate Finance**.
 
-1. Click **Save Changes**.
+   All planned costs and revenue on the selected projects are recalculated with any new information.
+  
+   You should receive a confirmation at the top of the browser that the finances of the projects have been recalculated successfully.
 
 ## Actions that trigger an automatic recalculation of finances
 

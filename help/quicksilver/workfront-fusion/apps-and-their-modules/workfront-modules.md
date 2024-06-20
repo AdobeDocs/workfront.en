@@ -66,14 +66,64 @@ The [!DNL Workfront] connector uses OAuth 2.0 to connect to [!DNL Workfront].
 
 You can create a connection to your [!DNL Workfront] account directly from inside a [!DNL Workfront Fusion] module.
 
-1. In any [!DNL Workfront] app module, click **[!UICONTROL Add]** next to the [!UICONTROL Connection] box.
-1. Enter the name of your instance into the URL. Example: `https://<your instance>.my.workfront.com`.
+1. In any Adobe Workfront module, click **Add** next to the Connection field.
+1. Fill in the following fields:
+
+   <table style="table-layout:auto"> 
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+    </col>
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+    </col>
+    <tbody>
+      <tr>
+        <td role="rowheader">[!UICONTROL Connection name]</td>
+        <td>
+          <p>Enter a name for the new connection.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Environment]</td>
+        <td>
+          <p>Select whether are connecting to a production or non-production environment.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Connection type]</td>
+        <td>
+          <p>Select whether you are connecting to a service account or a personal account.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Client ID]</td>
+        <td>Enter your [!DNL Workfront] Client ID. This can be found in the OAuth2 Applications area of the Setup area in Workfront. Open the specific application you are connecting to to see the Client ID.</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Client Secret]</td>
+        <td>Enter your [!DNL Workfront] Client ID. This can be found in the OAuth2 Applications area of the Setup area in Workfront. Open the specific application you are connecting to to see the Client ID.</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Authentication URL]</td>
+        <td>This can remain the default value, or you can enter the URL of your Workfront instance, followed by <code>/integrations/oauth2</code>. <p>Example: <code>https://mydomain.my.workfront.com/integrations/oauth2</code></p></td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Host prefix]</td>
+        <td>In most cases, this value should be <code>origin</code>.
+      </tr>
+    </tbody>
+    </table>
+
+1. Click **[!UICONTROL Continue]** to save the connection and return to the module.
+
+
+
+
+<!--1. Enter the name of your instance into the URL. Example: `https://<your instance>.my.workfront.com`.
 1. Click **[!UICONTROL Next]**.
 1. Click **[!UICONTROL SAML log in]** to create the connection and go back to the module.
 
    Or
 
-   Enter your Username and Password, then click **[!UICONTROL Log in]** to create the connection and go back to the module.
+   Enter your Username and Password, then click **[!UICONTROL Log in]** to create the connection and go back to the module.-->
 
    >[!NOTE]
    >
@@ -88,6 +138,10 @@ You can create a connection to your [!DNL Workfront] account directly from insid
 When you configure [!DNL Workfront] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Workfront] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.
 
 If you see the map button above a field or function, you can use it to set variables and functions for that field. For more information, see [Map information from one module to another in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+
+>[!NOTE]
+>
+>If you do not see the most up-to-date fields in a Workfront module, this may be because of caching issues. Wait one hour and try again.
 
 ![](assets/map-toggle-350x74.png)
 
@@ -141,7 +195,7 @@ The module returns any standard fields associated with the record, along with an
      </tr> 
      <tr data-mc-conditions=""> 
       <td>Exclude events made by this connection</td> 
-      <td>Enable this option to exclude events created or updated using the same connector that this trigger module uses. This can prevent situations where a scenario might trigger itself, causing it to repeat in an endless loop.</td> 
+      <td>Enable this option to exclude events created or updated using the same connector that this trigger module uses. This can prevent situations where a scenario might trigger itself, causing it to repeat in an endless loop.<p><b>NOTE</b>The Assignment record type does not include this option.</p></td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Record Origin]</td> 
@@ -294,6 +348,14 @@ This action module makes one of the following conversions:
    <td>[!UICONTROL Options]</td> 
    <td> <p>Enable any options you want when converting the object. Options are available depending on which object you are converting to or from.</p> </td> 
   </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Copy native fields]</td> 
+   <td> <p>Enable this option to copy any native fields from the original object to the new object.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Copy custom forms]</td> 
+   <td> <p>Enable this option to copy any native fields from the original object to the new object.</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -432,7 +494,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Select the HTTP request method you need to configure the API call. For more information, see <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP request methods in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -550,7 +612,7 @@ When you are configuring this module, the following fields display.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Action]</td> 
-   <td> <p>Select the action you want the module to perform.</p> <p>You may need to fill out additional fields, depending on the [!UICONTROL Record Type] and [!UICONTROL Action] you choose. Some combinations of these two settings may require only a record ID, while others (such as Project for the <strong>[!UICONTROL Record Type]</strong> and [!UICONTROL Attach Template] for the <strong>[!UICONTROL Action]</strong>) require additional information (such as an Object ID and a Template ID).</p> <p>For details about individual fields, see the <a href="http://developer.workfront.com/">Workfront developer documentation</a>. </p> 
+   <td> <p>Select the action you want the module to perform.</p> <p>You may need to fill out additional fields, depending on the [!UICONTROL Record Type] and [!UICONTROL Action] you choose. Some combinations of these two settings may require only a record ID, while others (such as Project for the <strong>[!UICONTROL Record Type]</strong> and [!UICONTROL Attach Template] for the <strong>[!UICONTROL Action]</strong>) require additional information (such as an Object ID and a Template ID).</p> <p>For details about individual fields, see the <a href="http://developer.workfront.com/">Workfront developer documentation</a>. <p><strong>Note</strong>: The developer documentation site includes information only through API version 14, but still contains valuable information for API calls. </p> 
     <ol> 
      <li value="1"> <p>Select the record type from the left navigation on the [!DNL Workfront] developer documentation page. The following types have their own pages:</p> 
       <ul> 
@@ -754,6 +816,58 @@ When you are configuring this module, the following fields display.
 +++
 
 +++ **[!UICONTROL Search]**
+
+This search module looks for records in an object in [!DNL Workfront] that match the search query you specify.
+
+You can map this information in subsequent modules in the scenario.
+
+When you are configuring this module, the following fields display.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect [!DNL Workfront] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Record Type]</td> 
+   <td> <p>Select the type of [!DNL Workfront] record that you want the module to search for.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Result Set]</td> 
+   <td>Select an option to specify whether you want the module to get the first result that matches your search criteria or all the results that match it.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Maximal]</td> 
+   <td> <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Search criteria fields]</td> 
+   <td> <p>Select the fields that you want to use for your search criteria. These fields will then be available in the Search criteria dropdown.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Search criteria]</td> 
+   <td> <p>Enter the field that you want to search by, the operator you want to use in your query, and the value that you are searching for in the field.</p> <p>Note: Do not use <code>username </code>in your search criteria. Including <code>username </code>in an API query to [!DNL Workfront] logs the user into Workfront, and the search will not be successful.</p> <p>Note: <code>In</code> and <code>NotIn</code>work with arrays. The inputs should be in array format.</p></td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Outputs]</td> 
+   <td> <p>Select the fields that you want to include in the output for this module.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL References]</td> 
+   <td>Select any reference fields that you want to include in the search.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Collections]</td> 
+   <td>Select any collections that you want to add to the search.</td> 
+  </tr> 
+ </tbody> 
+</table>
++++
+
++++ **[!UICONTROL Search (Legacy)]**
 
 This search module looks for records in an object in [!DNL Workfront] that match the search query you specify.
 
@@ -1126,6 +1240,16 @@ See a list of the [!DNL Workfront] object types for which you can use this modul
    <td>✓</td> 
   </tr> 
   <tr> 
+   <td>Baseline</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> </td> 
+   <td>✓</td> 
+   <td> </td> 
+   <td> </td> 
+  </tr> 
+   <tr> 
    <td>Billing Record</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -1179,11 +1303,21 @@ See a list of the [!DNL Workfront] object types for which you can use this modul
    <td>Document Version</td> 
    <td>✓</td> 
    <td>✓</td> 
+   <td> </td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
+  </tr> 
+  <tr> 
+   <td>Exchange rate</td> 
    <td>✓</td> 
+   <td>✓</td> 
+   <td>✓</td> 
+   <td> </td> 
+   <td>✓</td> 
+   <td> </td> 
+   <td> </td> 
   </tr> 
   <tr> 
    <td>Expense</td> 
@@ -1204,6 +1338,16 @@ See a list of the [!DNL Workfront] object types for which you can use this modul
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
+  </tr> 
+  <tr> 
+   <td>External Document</td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td> </td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Group</td> 
@@ -1410,7 +1554,7 @@ See a list of the [!DNL Workfront] object types for which you can use this modul
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td>✓</td> 
+   <td> </td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 

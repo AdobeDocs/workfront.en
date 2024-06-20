@@ -1,6 +1,6 @@
 ---
 title: Report on the Updates area
-description: Report on the Updates area
+description: The Journal Entry report surfaces system updates from the Updates area of projects, tasks, issues, and other objects that were previously only available through the Adobe Workfront API. While this is an advanced report intended for specific use cases, the more digestible format makes it easier for you to report on project activity and system updates within Workfront.
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
@@ -25,6 +25,8 @@ The Journal Entry report can show:
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -32,25 +34,27 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Standard </p><p>Or </p><p>Current: Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to&nbsp;Reports,&nbsp;Dashboards,&nbsp;Calendars</p> <p>Edit access to Filters,&nbsp;Views, Groupings</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to the objects that contain the journal entries you display in the report</p> <p>You will obtain Manage permissions to the report after you create it</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View permissions to the objects that contain the journal entries you display in the report</p> <p>You will obtain Manage permissions to the report after you create it</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisites
 
@@ -62,7 +66,7 @@ Before you can perform the actions described in this article, you must make sure
 
 * Any custom fields that you want to report on have the setting **Display field changes in update feeds** enabled.
 
-  To learn how to enable this setting for a custom field, see the section [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) in the article [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  To learn how to enable this setting for a custom field, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#).
 
 ## Journal Entry report overview
 
@@ -121,7 +125,7 @@ The default view for this report contains the following columns:
  </tbody> 
 </table>
 
-To organize the information in this report, you can use the built-in grouping Project. The Project grouping gives you a primary grouping of Project Name and a secondary grouping of Entry Date. You can apply this existing grouping during report creation, or you can apply it when viewing the report.
+To organize the information in this report, you can use the built-in grouping called Project. The Project grouping gives you a primary grouping of Project Name and a secondary grouping of Entry Date. You can apply this existing grouping during report creation, or you can apply it when viewing the report.
 
 To learn how to set up the views, filters, and groupings you want for your report, see the relevant section:
 
@@ -161,7 +165,7 @@ This information can be used to help with auditing and to illustrate how well yo
 >If you want to compare the difference in days between condition changes, you can use Enhanced analytics.  
 >To learn more about Enhanced analytics, see [Enhanced analytics overview](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Reports**.
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Reports**.
 1. Click **New Report**, then select **Journal Entry**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -244,7 +248,7 @@ This information can be used to help with auditing and to illustrate how well yo
    >
    >To report on condition changes, you can instead add the filter rule **Field Name** > **Equal** > **Condition**.
 
-   For more information on adding filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   For more information on adding filters, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Optional) To narrow the focus of the report and reduce load times, add a prompt.
 
@@ -275,7 +279,7 @@ You can set up the Journal Entry report to show:
 
 To see when a task or issue was deleted:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Reports**.
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Reports**.
 1. Click **New Report**, then select **Journal Entry**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -319,7 +323,7 @@ To see when a task or issue was deleted:
 
    For more information on adding columns, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. In the **Filters** tab, click **Add filter rule**, then add the following:
+1. In the **Filters** tab, click **Add filter rule**, then add the following filters:
 
    * **Change Type** > **Equal** > **Delete**
    * **Project ID** > **Equal** > **`<project>`**
@@ -327,7 +331,7 @@ To see when a task or issue was deleted:
      <!--WRITER check link; this png file has spaces
      [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
 
-   For more information on adding filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   For more information on adding filters, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Optional) To narrow the focus of the report and reduce load times, add a prompt.
 
@@ -359,7 +363,7 @@ You can track important field changes over the course of the project. To do this
 
 To see how custom fields changed over the course of a project's life cycle:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Reports**.
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Reports**.
 1. Click **New Report**, then select **Journal Entry**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -423,7 +427,7 @@ To see how custom fields changed over the course of a project's life cycle:
 
    For more information on adding columns, see [Views overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. In the **Filters** tab, click **Add filter rule**, then add the following:
+1. In the **Filters** tab, click **Add filter rule**, then add the following filters:
 
    * **Journal Entry Field Name** > **Contains** > **DE**
 
@@ -435,7 +439,7 @@ To see how custom fields changed over the course of a project's life cycle:
 
      ![](assets/qs-custom-form-changes-filter-350x92.png)
 
-   For more information on adding filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   For more information on adding filters, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Optional) To narrow the focus of the report and reduce load times, add a prompt.
 
@@ -461,7 +465,7 @@ To see how custom fields changed over the course of a project's life cycle:
 
 You can set up the Journal Entry report to show how often the Planned Completion Date changes over the course of a project's life.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Reports**.
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Reports**.
 1. Click **New Report**, then select **Journal Entry**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -536,7 +540,7 @@ You can set up the Journal Entry report to show how often the Planned Completion
 
    ![](assets/qs-planned-completion-date-change-filter-350x91.png)
 
-   For more information on adding filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   For more information on adding filters, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Optional) To narrow the focus of the report and reduce load times, add a prompt.
 
@@ -562,7 +566,7 @@ You can set up the Journal Entry report to show how often the Planned Completion
 
 You can set up the Journal Entry report to show how many times the project owner—or project manager—changes over the course of a project's life.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Reports**.
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Reports**.
 1. Click **New Report**, then select **Journal Entry**.
 
    ![](assets/nwe-select-journal-entry-350x273.png)
@@ -625,7 +629,7 @@ You can set up the Journal Entry report to show how many times the project owner
 
      ![](assets/qs-owner-changes-filter-350x94.png)
 
-   For more information on adding filters, see [Filters overview in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   For more information on adding filters, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. (Optional) To narrow the focus of the report and reduce load times, add a prompt.
 

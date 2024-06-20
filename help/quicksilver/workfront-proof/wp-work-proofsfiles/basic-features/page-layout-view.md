@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: basic-features-workfront-proof
 title: Page Layout on the Views Tab in Workfront Proof
-description: You can adjust the page layout on the Views tab. The following layout options are available - EDIT ME.
+description: You can adjust the page layout on the Views tab. 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 28aff312-1803-44d4-953c-1298e039edbf

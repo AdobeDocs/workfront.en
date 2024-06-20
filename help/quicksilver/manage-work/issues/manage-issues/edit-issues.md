@@ -72,8 +72,6 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
 1. (Optional) To edit limited information about an issue, click **Issue Details** in the left panel.
 
-   ![](assets/qs-issue-details-icon-highlighted-and-expanded-on-issue-350x206.png)
-
    >[!NOTE]
    >
    >Depending on how your Workfront administrator or Group administrator modified your Layout Template, the fields in the Issue Details area might be rearranged or not display. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).

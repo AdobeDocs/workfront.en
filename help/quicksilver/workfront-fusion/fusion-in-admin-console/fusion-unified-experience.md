@@ -35,9 +35,7 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
    <td>
-   <p>Current license requirement: No [!DNL Workfront Fusion] license requirement.</p>
-   <p>Or</p>
-   <p>Legacy license requirement: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p> 
+   <p>Any</p> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -80,7 +78,7 @@ Once you are logged in to [!DNL Adobe Experience Cloud], you can view all of the
 
 Use the [!UICONTROL Main Menu] icon ![](assets/main-menu-icon-left-nav.png) on the left of the [!DNL Adobe] navigation bar to open the [!UICONTROL Organization] and [!UICONTROL Team] menus. If you are a [!DNL Workfront Fusion] administrator, your [!UICONTROL Administration] menu also appears here.
 
-To switch teams, click on the team name at the top of the page, then select the team. This appears only on pages that are specific to a team, such as a scenario builder or the [!UICONTROL Connections] page. 
+To switch teams, click on the team name at the top of the page, then select the team. The team selector appears only on pages that are specific to a team, such as a scenario builder or the [!UICONTROL Connections] page. 
 
 To switch organizations, click the organization name at the upper-right of your screen, then select the organization.
 
@@ -100,7 +98,14 @@ This menu allows you to:
 
 ## Access your notifications
 
-You can find yourr notifications and announcements in the Notifications area of the Unified Shell.
+You can find your notifications and announcements in the Notifications area of the Unified Shell.
 
 To view your notifications, click the Notifications icon ![Notifications icon](assets/notifications-icon.png) near the upper-right corner of the screen. A red dot on the Notifications icon indicates that you have unread notifications or announcements.
+
+For instructions on configuring your notifications in the Adobe Experience Cloud, see [Notification Configuration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/notifications.html?lang=en#:~:text=You%20can%20customize%20how%20you,how%20you%20receive%20your%20notifications.) in the Adobe documentation.
+
+When configuring, note the following:
+
+* **Alerts** refer to stuck scenarios.
+* **Updates on content** refer to errors and warnings in scenario executions.
 

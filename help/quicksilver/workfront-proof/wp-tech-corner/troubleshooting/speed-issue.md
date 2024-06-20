@@ -21,7 +21,7 @@ Speed problems are generally due to the local ISP connection or local internet a
 
 That said, there are a few steps you can take to check your connection speed which will allow for the root cause of the issues you are experiencing to be determined. All of these steps are equally important for the troubleshooting process and we would encourage you to take the time to gather information on all of the listed steps to ensure the most accurate diagnosis of the problem.
 
-Once you gather all the details, we would recommend that you consult with your local IT department to identify any local issues. If you need further help in the matter, please contact our [Support Team](https://support.workfront.com/hc/en-us/requests/new).
+Once you gather all the details, we would recommend that you consult with your local IT department to identify any local issues.
 
 ## Establish which part of the system is slow
 
@@ -49,7 +49,7 @@ When you are experiencing performance issues it is important to run the tracerou
 
 ## Test connection speed using Speedtest.net
 
-1. Click [here](http://www.speedtest.net/) to access Speedtest.net.
+1. Open a browser and go to Speedtest.net.
 1. Follow the instructions in the Speedtest knowledge base to test the speed of your internet connection.
 1. Copy and paste the results into an email our Support Team.
 
@@ -65,14 +65,6 @@ To check the loading times for a webpage:
 1. Share the results with the Support Team.
 
 Please make sure the screenshot shows all the data—you can expand the console window when taking a screenshot or scroll down in a screencast.
-
-If you don't know how to open the console in your browser, please see these recorded steps:
-
-* [Chrome](http://screencast.com/t/AgQU6JQQ)
-* [Safari](http://screencast.com/t/f31GqQYm0w)
-* [Firefox](http://screencast.com/t/Xg7SscmAi)
-* [Edge](http://www.screencast.com/t/epSwBiaD)
-* [Internet Explorer](http://screencast.com/t/x5Q3eHczbc)
 
 You can also check your browser's documentation for more detailed instructions.
 

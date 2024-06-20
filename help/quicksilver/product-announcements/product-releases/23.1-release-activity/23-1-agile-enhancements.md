@@ -4,6 +4,7 @@ description: 23.1 Agile enhancements
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 4bd041a5-a6e3-4fe3-ae23-45980701e904
 ---
 # 23.1 Agile enhancements

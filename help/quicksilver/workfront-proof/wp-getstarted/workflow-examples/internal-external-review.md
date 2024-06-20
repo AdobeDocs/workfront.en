@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: workflow-examples
 title: Internal Then External Review in [!DNL Workfront Proof]
-description: If your organization completes internal reviews before sharing proofs with clients, we suggest two ways you can use [!DNL Workfront Proof] to enhance your workflow - EDIT ME.
+description: Learn how to use Workfront Proof for reviews outside of your organization. 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c54246e9-edb8-4d98-81e1-faf7ee75f81e
@@ -23,7 +23,7 @@ This option illustrates a workflow where clients can see all internal comments.
 
 The designer shares the proof with the Project Manager (and any other colleagues) first. Colleagues review the proof and, if they approve it, you can use the share function to share the proof with your clients. For more information, see [Share a Proof in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 
-![internal_external_-_option_A.png](assets/internal-external---option-a-350x86.png)
+![internal_external_-_option_A.png](assets/internal_external_-_option_A.png)
 
 1. **Create a new proof** - the designer creates a new proof in [!DNL Workfront Proof] and shares it will internal reviewers. The designer makes the project manager the owner of the proof.
 1. **Internal review** - the Project Manager and other colleagues review the proof.
@@ -43,7 +43,7 @@ You can repeat this process until the proof is approved.
 
 This option illustrates a workflow where the proofing process is managed by the Project Manager who creates any new versions (as required) and shares the proof with the client. The designer does not need to be involved in the review process.)
 
-![internal_external_-_option_B.png](assets/internal-external---option-b-350x86.png)
+![internal_external_-_option_B.png](assets/internal_external_-_option_B.png)
 
 1. **Create a new proof** - The designer creates a new proof in [!DNL Workfront Proof] and shares it with internal reviewers. The designer makes the Project Manager the Owner of the proof, or alternatively gives him the role of [!UICONTROL Author] on the proof (see [Manage Proof Roles in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 

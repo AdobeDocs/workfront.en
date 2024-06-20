@@ -3,10 +3,18 @@ product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Configure the [!UICONTROL Experience Manager Assets as a Cloud Service] integration
 description: You can connect your work with your content in [!DNL Experience Manager Assets].
+author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
 ---
 # Configure the [!UICONTROL Experience Manager Assets as a Cloud Service] integration
+
+<!-- Audited: 1/2024 -->
+
+
+>[!IMPORTANT]
+>
+>This functionality is available only to organization that have been onboarded to the [!DNL Adobe Admin Console].
 
 You can connect your work with your content in [!DNL Experience Manager Assets]â€‹:
 
@@ -19,23 +27,26 @@ You can connect your work with your content in [!DNL Experience Manager Assets]â
 
 >[!NOTE]
 >
->You can also connect several Experience Manager Assets repositories to one Workfront environment, or several Workfront environments to one Experience Manager Assets repository across Organization IDs. Follow the configuration instructions in this article for each integration you'd like to set up. 
+>You can also connect several [!DNL Experience Manager Assets] repositories to one [!UICONTROL Workfront] environment, or several [!DNL Workfront] environments to one [!DNL Experience Manager Assets] repository across Organization IDs. Follow the configuration instructions in this article for each integration you'd like to set up. 
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] plan*</strong>
+   <td><strong>[!DNL Adobe Workfront] plan</strong>
    </td>
    <td>Any
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] licenses*</strong>
+   <td><strong>[!DNL Adobe Workfront] licenses</strong>
    </td>
-   <td>[!UICONTROL Plan]
+   <td>Current: [!UICONTROL Plan] <br>
+   New: [!UICONTROL Standard]
    </td>
   </tr>
   <tr>
@@ -53,25 +64,27 @@ You must have the following:
   <tr>
    <td>Access level configurations*
    </td>
-   <td>You must be a [!DNL Workfront] administrator. For information on [!DNL Workfront] administrators, see <strong>Grant a user full administrative access</strong>.
+   <td>You must be a [!DNL Workfront] administrator.
    </td>
   </tr>
 </table>
 
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator.
++++
 
 
 ## Prerequisites
 
 Before you begin,
 
-* You must have [!DNL Workfront] and [!DNL Adobe Experience Manager Assets] associated with an Organization ID in the [!DNL Adobe Admin Consol]e. For more information see, [Platform-based administration differences ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+* You must have [!DNL Workfront] and [!DNL Adobe Experience Manager Assets] associated with an Organization ID in the [!DNL Adobe Admin Console]. For more information see, [Platform-based administration differences ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](/help/quicksilver/administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 
 ## Set up the integration information
 
-1. Click the **[!UICONTROL Main Menu]** icon  in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Setup]** .
+{{step-1-to-setup}}
+
 1. Select **[!UICONTROL Documents]** in the left panel, then select **[!UICONTROL [!DNL Experience Manager] Integration]**.
 
     >[!NOTE]
@@ -170,7 +183,9 @@ Metadata maps when an asset is pushed from [!DNL Workfront] for the first time. 
 
 To map metadata for assets: 
 
+<!--
 1. Select **[!UICONTROL Assets]** above the metadata table.
+-->
 1. In the **[!UICONTROL [!DNL Workfront] field]** column, choose a built-in or custom Workfront field.
 
     >[!NOTE]
@@ -180,8 +195,10 @@ To map metadata for assets:
 
 1. In the [!DNL Experience Manager Assets] field, search through the pre-populated categories or enter at least two letters in the search field to access additional categories.
 1. Repeat steps 2 and 3 as needed.
-![metadata fields](assets/asset-metadata.png)
-1. Click [!UICONTROL Save] or move on to the [Folders](#folders) section in this article.
+![metadata fields](assets/metadata-no-asset-toggle.png)
+1. Click [!UICONTROL Save] or move on to the [Set up Workflows](#set-up-workflows-optional) section in this article.
+
+<!--
 
 ### Map metadata for folders
 
@@ -191,7 +208,7 @@ When users create a linked folder on a project, the associated project, portfoli
 >
 >This integration does not support custom metadata from [!DNL Adobe Experience Manager].
 
-To map metadata for folders:
+To map metadata for folders: 
 
 1. Select **[!UICONTROL Folders]** above the metadata table.
 1. In the **[!UICONTROL [!DNL Workfront] field]** column, choose a built-in or custom Workfront field.
@@ -217,25 +234,61 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 >Users must have write access in [!DNL Experience Manager] for assets living in the object in order for the metadata to sync when it's updated.
 
 1. Enable the **[!UICONTROL Sync object metadata]** field.
-1. Click **Save** or move on to the [Set up workflows (Optional)](#set-up-workflows-optional) section in this article.
-
-<!--Courtney start here-->
+1. Click **Save** or move on to the [Set up workflows (Optional)](#set-up-workflows-optional) section in this article.-->
 
 ## Set up workflows (Optional)
 
 A workflow is a set of actions that connect Workfront to Adobe Experience Manager as a Cloud Service. As a Workfront administrator, you can configure workflows in Workfront, then assign them to Project Templates. When a Project is created using a Project Template to which a workflow is assigned, the actions defined in the workflow are triggered. 
 
-The default workflow values that you set in the integration can be overridden at the Project Template and Project levels.
+Workflows are enabled and configured for the Adobe Experience Manager as a whole. These workflows can then be applied to project templates, and adjusted or customized at the template or project level.
 
-### Set up a workflow for the creation of Adobe Experience Manager linked folders
+The followings workflows are available in the Adobe Experience Manager integration:
+
+* [Create Adobe Experience Manager linked folders](#create-adobe-experience-manager-linked-folders)
+* [Publish assets that are sent to Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets)
+
+### Create Adobe Experience Manager linked folders
 
 1. Toggle the **[!UICONTROL Create Linked folder]** on.
-1. Choose a folder path to indicate where you want all linked folders associated with this integration. 
-   ![Linked folder navigation](assets/select-folder-aem-integration.png)
-1. Enable the **Append Portfolio and Program Names** option to automatically include Portfolio and Program names at the end of the linked folder's name.
-1. Click **Save** or move on to the [Set up linked folders (Optional)](#set-up-linked-folders-optional) section in this article.
+1. Enter a name for the linked folder that you are creating. 
+1. (Conditional) Enable the **Default folder tree** option if you want this linked folder to be the default folder for projects created with templates that use this integration. You can select one or more default folders. 
+1. Choose a folder path to indicate where you want all linked folders associated with this integration.
+1. (Conditional) To add a folder tree (nested folders) to this integration, do the following:
 
-<!--Courtney end here-->
+   1. Click the **Add folder** icon ![Add folder](assets/add-folder-aem.png).
+   1. In the **Name type** field, select how you want to name the folder:
+
+      * **Name**: Type in a name for the folder.
+      * **Object data**: Select the source for the folder name, such as Project name.
+
+      >[!NOTE]
+      >
+      >* Folder names must be fewer than 100 characters.
+      >* The following characters will be removed from folder names:
+      >
+      >   `/`, `:`, `[`, `]`, `|`, `*`
+
+   1. To add a nested folder to the folder tree, click the three-dot menu next to the folder you want to create a nested folder in and select **Add Folder**. Fill in the fields as described in Step the previous step.
+   1. To link a folder to Workfront, select the folder and click the **Make linked folder**   icon ![Link folder](assets/link-folder.png).
+   1. (Optional) To edit a folder, select the folder and click the **Edit Folder** icon ![Edit icon](assets/edit-icon.png).
+   1. (Optional) To delete a folder, select the folder and click the **Delete Folder** icon ![Delete folder](assets/delete-folder.png).
+1. (Conditional) To add another folder tree, click **+ Add folder tree** and follow the steps in Step 5.
+
+1. Click **[!UICONTROL Save]**, or move on to the [Publish assets that are sent to Adobe Experience Manager Assets](#publish-assets-that-are-sent-to-adobe-experience-manager-assets) section in this article.
+
+>[!NOTE]
+>
+>* This integration will create no more than 100 folders, regardless of how many folder trees are created. For example, an integration with 4 folder trees can create up to 100 folders, not 400 folders.
+>* The first folder in folder tree is automatically marked as linked to Workfront. If you do not want this folder linked, you can unlink it.
+>* If no folder tree is provided, the root folder becomes the linked folder.
+
+
+### Publish assets that are sent to Adobe Experience Manager Assets
+
+1. Toggle on **[!UICONTROL Publish assets automatically]**.
+1. Check the box next to the location where you want to publish assets sent to Adobe Experience Manager assets. You may enable either or both options. 
+1. (Conditional) If you have enabled the Brand Portal option, Select the Brand Portal where you want to publish assets.
+1. Click **[!UICONTROL Save]** or move on to the [Set up linked folders (Optional)](#set-up-linked-folders-optional) section in this article.
 
 ## Set up linked folders (Optional)
 

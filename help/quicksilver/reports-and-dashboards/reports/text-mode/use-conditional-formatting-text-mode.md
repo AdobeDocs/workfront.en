@@ -9,6 +9,8 @@ exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
 ---
 # Use conditional formatting in Text Mode
 
+<!--Audited: 01/2024-->
+
 <!--
 (NOTE: Alina: this article might need to be split in its sections. Tony asked that numbers and dates should be in separate articles (??))
 -->
@@ -20,6 +22,8 @@ For more information about applying conditional formatting to a view, see [Use c
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -27,25 +31,31 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Standard </p> 
+   <p>Or</p>
+   <p>Current: Plan</p> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to Reports, Dashboards, Calendars to edit views in a report</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Filters, Views, Groupings</p> <p>Edit access to Reports, Dashboards, Calendars to edit views in a report</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report to edit views in a report</p> <p>Manage permissions to a view to edit it</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions to a report to edit views in a report</p> <p>Manage permissions to a view to edit it</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 
 ## Conditional formatting in Text Mode
 
@@ -98,13 +108,11 @@ You can customize the following elements of a column when using conditional form
 
 To change the displayed column header, add the following code to your column: `displayname= [Name of column]`. For example, to name a column Project Owner, the text code would look like:
 
-```
-displayname=Project Owner
-```
+`displayname=Project Owner`
 
 #### Format dates {#format-dates}
 
-Dates can be configured to display in a variety of formats.
+Dates can be configured to display in various formats.
 
 For more information, see [Format dates in text mode reports](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md).
 
@@ -260,15 +268,16 @@ styledef.case.0.comparison.icon=false
 styledef.case.0.comparison.truetext= 
 styledef.case.0.comparison.trueproperty.0.name= [format option]
 styledef.case.0.comparison.trueproperty.0.value= [format style]
+
 ```
 
 >[!NOTE]
 >
->The *styledef.case.0.comparison.icon* line is always false unless working with icons.
+>The `styledef.case.0.comparison.icon` line is always false unless working with icons.
 >
->The *styledef.case.0.comparison.truetext* line is always left blank until working with overwriting text.
+>The `styledef.case.0.comparison.truetext` line is always left blank until working with overwriting text.
 >
->The *styledef.case.0.comparison.righttext* line is blank when the qualifier is notblank.
+>The `styledef.case.0.comparison.righttext` line is blank when the qualifier is notblank.
 
 For example, if we wanted to show the Company Name in green text on a project report, you can use the following code:
 
@@ -282,6 +291,7 @@ styledef.case.0.comparison.icon=false
 styledef.case.0.comparison.truetext=
 styledef.case.0.comparison.trueproperty.0.name=textcolor
 styledef.case.0.comparison.trueproperty.0.value=03a219
+
 ```
 
 >[!NOTE]
@@ -300,9 +310,10 @@ The following lines must be modified to reflect the corresponding formatting nee
 ```
 styledef.case.0.comparison.trueproperty.0.name= [format option]
 styledef.case.0.comparison.trueproperty.0.value= [format style]
+
 ```
 
-Use the following tables to identify which lines need to be modified and what values you should specify to define the format style of your column:
+Use the following tables to identify which lines must be modified and what values you should specify to define the format style of your column:
 
 | **Text Color** |**Line: textcolor=** |
 |---|---|
@@ -363,6 +374,7 @@ styledef.case.0.comparison.trueproperty.0.name=textcolor
 styledef.case.0.comparison.trueproperty.0.value=03a219
 styledef.case.0.comparison.trueproperty.1.name=fontstyle
 styledef.case.0.comparison.trueproperty.1.value=bold
+
 ```
 
 >[!NOTE]
@@ -390,11 +402,12 @@ styledef.case.0.comparison.operator=ne
 styledef.case.0.comparison.operatortype=date&
 styledef.case.0.comparison.icon=false
 styledef.case.0.comparison.truetext=not today
+
 ```
 
 >[!NOTE]
 >
->The lines that start with `case.0.` use case comparisons to identifying the use of text. The lines that start with **styledef.case.0.** are early conditional formatting statements where we identify the use of text through the `truetext` expression. Make sure to set `truetext` to a value, rather than leaving it blank.
+>The lines that start with `case.0.` use case comparisons to identifying the use of text. The lines that start with `styledef.case.0.` are early conditional formatting statements where we identify the use of text through the `truetext` expression. Make sure to set `truetext` to a value, rather than leaving it blank.
 
 ![](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png)
 
@@ -404,88 +417,30 @@ styledef.case.0.comparison.truetext=not today
 
 If you would like to apply a condition to the entire row, use the following code with your column code:
 
+
 ```
 styledef.case.0.comparison.icon=false
-```
-
-```
 styledef.case.0.comparison.isrowcase=true
-```
-
-```
 styledef.case.0.comparison.leftmethod= [field name]
-```
-
-```
 styledef.case.0.comparison.lefttext= [field name]
-```
-
-```
 styledef.case.0.comparison.operator= [qualifier]
-```
-
-```
 styledef.case.0.comparison.operatortype= [data type]
-```
-
-```
 styledef.case.0.comparison.righttext= [field value]
-```
-
-```
 styledef.case.0.comparison.trueproperty.0.name= [format option]
-```
-
-```
 styledef.case.0.comparison.trueproperty.0.value= [format style]
-```
-
-```
 styledef.case.0.comparison.truetext=
-```
-
-```
 row.0.styledef.applyallcases=true
-```
-
-```
 row.0.styledef.case.0.comparison.icon=false
-```
-
-```
 row.0.styledef.case.0.comparison.isrowcase=true
-```
-
-```
 row.0.styledef.case.0.comparison.leftmethod= [field name]
-```
-
-```
 row.0.styledef.case.0.comparison.lefttext= [field name]
-```
-
-```
 row.0.styledef.case.0.comparison.operator= [qualifier]
-```
-
-```
 row.0.styledef.case.0.comparison.operatortype= [data type]
-```
-
-```
 row.0.styledef.case.0.comparison.righttext= [field value]
-```
-
-```
 row.0.styledef.case.0.comparison.trueproperty.0.name= [format option]
-```
-
-```
 row.0.styledef.case.0.comparison.trueproperty.0.value= [format style]
-```
-
-```
 row.0.styledef.case.0.comparison.truetext=
+
 ```
 
 
@@ -501,9 +456,11 @@ image.case.0.comparison.operator= [qualifier]
 image.case.0.comparison.operatortype= [data type]
 image.case.0.comparison.icon=true
 image.case.0.comparison.truetext=
+
 ```
 
 For example, on a project report, you want to build a column where you would show a frown face for every Planned Completion Date that does not equal to today's date. Use the following text mode code to add the icon to your column:
+
 
 ```
 image.case.0.comparison.leftmethod=plannedCompletionDate
@@ -513,6 +470,7 @@ image.case.0.comparison.operator=ne
 image.case.0.comparison.operatortype=date
 image.case.0.comparison.icon=true
 image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif
+
 ```
 
 >[!NOTE]
@@ -548,7 +506,7 @@ To use the images available, apply the following code and values:
 
 ### Conditionally format a `valueexpression` {#conditionally-format-a-valueexpression}
 
-To display a calculated value in a column, you can replace the `valuefield` line of code in the column with a `valueexpression`. A calculated value allows you to display a new value for an objects based on the calculation between two existing fields on that same object.
+To display a calculated value in a column, you can replace the `valuefield` line of code in the column with a `valueexpression`. A calculated value allows you to display a new value for an object based on the calculation between two existing fields on that same object.
 
 For more information about how to format the `valueexpression line`, see [Text mode syntax overview](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
@@ -570,10 +528,19 @@ Consider the following when adding aggregators to a column in Text Mode:
 
 * You can add an aggregator to a column that displays a calculation. The aggregated value displays in the grouping of the view or report. For more information, see [Grouping: display the result of aggregating multiple calculated values in a grouping](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
 * The lines of code for the definition of the column must be identical to the lines of code introducing the aggregator and preceded by "aggregator." For example, if you have a column where you display Planned Hours on a project, the text mode of the main lines of the column is:
-
-  ```
+  
+```
   valuefield=workRequired
   valueformat=compound
-  ```
+
+```  
   
-  When you want to aggregate the value of all the lines in the grouping of the view, we can add the following code to add the aggregator values: `aggregator.valuefield=workRequired` (the `aggregator.valuefield` line must be the same as the `valuefield` that describes the column) `aggregator.valueformat=compound` (the `aggregator.valueformat` line must have the same value as the `valueformat` that describes the column) `aggregator.function=SUM` (this is a mandatory line that indicates how you want to aggregate the column, in this case, you want to add all the individual Planned Hours into one number in the grouping line) `aggregator.displayformat=minutesAsHoursString` (because hours are stored in Workfront in minutes, we want to indicate the `displayformat` for hours when they are stored in minutes)
+  When you want to aggregate the values of all the lines in the grouping of the view, we can add the following code to add the aggregator values: 
+  
+  `aggregator.valuefield=workRequired` (the `aggregator.valuefield` line must be the same as the `valuefield` that describes the column) 
+  
+  `aggregator.valueformat=compound` (the `aggregator.valueformat` line must have the same value as the `valueformat` that describes the column) 
+  
+  `aggregator.function=SUM` (this is a mandatory line that indicates how you want to aggregate the column, in this case, you want to add all the individual Planned Hours into one number in the grouping line) 
+  
+  `aggregator.displayformat=minutesAsHoursString` (because hours are stored in Workfront in minutes, we want to indicate the `displayformat` for hours when they are stored in minutes)

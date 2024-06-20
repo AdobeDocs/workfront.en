@@ -20,17 +20,45 @@ To view available templates, click the **Templates** icon ![](assets/fusion-temp
 
 These templates automate Workfront processes and workflows.
 
-### [!BADGE New!]{type=Informative} Workfront - Copy Program Custom Forms and Field Data to Associated New Projects
+### [!BADGE New! ]{type=Informative} Workfront Boards > Create a standard Checklist based on Boards Column
+
+This Fusion Template creates a standard checklist for all cards that enter a specific column on a specific board on a timed basis.
+
+### Workfront - Project Creation from CSV
+
+This automation creates new projects in Workfront based off Name, Portfolio, Status, Planned Start Date, and Template details that you specify in a CSV.
+
+### Workfront - Cleanup Requests with no new notes in past 30 days
+
+Use this template to enforce a 30 day note update on your requests. Requests not updated in 30 days get their status changed and closed at 60 days.
+
+### Workfront - Change project Status to Complete at 100% complete.
+
+This automation updates projects to Complete status that have all tasks at 1005 complete. Projects with open issues or open tasks or project approvals will receive an update, and when resolved, the projects will move to Complete status.
+
+### Workfront - Warn and attempt to close stale projects
+
+Use this scenario to help automate the warning on and closure of projects that meet your organization's stale project policy.
+
+### Workfront - Copy new notes and replies from source issue/request to already converted project or task
+
+Use this template to copy notes and replies from an issue or request to an already converted project or task.
+
+### Workfront - Copy Program Custom Forms and Field Data to Associated New Projects
 
 This automation watches for new projects in programs with custom forms. It then adds those program custom forms and fields to the new projects.
 
-### [!BADGE New!]{type=Informative} Workfront - Copy Portfolio Custom Forms and Field Data to Associated New Projects
+### Workfront - Copy Portfolio Custom Forms and Field Data to Associated New Projects
 
 This automation watches for new projects in portfolios with custom forms. It then adds those portfolio custom forms and fields to the new projects.
 
 ### Workfront - Convert approved issue to project
 
 This template converts Issues to Projects. You can modify it to meet your organization's standards.
+
+### Workfront - Copy documents from issues/requests to already converted projects or tasks
+
+This flexible scenario copies documents from issues or requests to previously converted projects or tasks.
 
 ### Tailored Notification Based on Field Change
 
@@ -52,7 +80,7 @@ This template captures a project baseline upon any project status change noted i
 
 This template captures a project baseline on a weekly basis every Monday at 6am ET on projects filtered by portfolio, and creates an update in the update stream for logging.
 
-### [!BADGE New!]{type=Informative} Find project templates not used in policy time and notify
+### Find project templates not used in policy time and notify
 
 Once a month, review your project templates using your own policy with this easy to manage template that notifies appropriate users on templates in violation of your policy.
 
@@ -75,6 +103,10 @@ These templates retrieve information from a web service, and bring that informat
 >[!NOTE]
 >
 > You must have a Workfront Fusion for Work Automation and Integration license to use templates in this section.
+
+### Establishing Connection using JWT (JSON Web Token)
+
+Establish JWT Authorization for a client API.
 
 ### APILayer > Workfront - Daily Exchange Rate Update (EUR)
 
@@ -99,6 +131,19 @@ This scenario provides a programmatic way to create email and webinar campaigns 
 ### Review an email proof of your Marketo Engage email draft in Workfront
 
 This template detects if a Workfront task has been set to a ready for review status, and then exports the email draft from Marketo Engage to save it as a Proof in Workfront.
+
+## Workfront-SharePoint templates
+
+These templates connect Workfront and SharePoint. 
+
+>[!NOTE]
+>
+> You must have a Workfront Fusion for Work Automation and Integration license to use templates in this section.
+
+### Watch SharePoint Folder Changes
+
+This template allows you to see if there is a change in a SharePoint folder.
+
 
 ## Workfront-Anaplan templates
 
@@ -125,3 +170,6 @@ For more information on the Workfront-Anaplan integration, see [Adobe Workfront 
 
 * [Create an [!DNL Anaplan] list item from an [!DNL Adobe Workfront] campaign request](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
 * [Apply an [!DNL Anaplan] budget allocation to an [!DNL Adobe Workfront] campaign request or campaign project](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+
+
+<!--[!BADGE New!]{type=Informative} -->

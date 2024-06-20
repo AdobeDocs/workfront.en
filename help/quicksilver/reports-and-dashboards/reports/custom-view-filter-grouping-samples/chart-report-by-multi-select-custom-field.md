@@ -127,7 +127,6 @@ To build the calculated custom field that references the multi-select custom fie
    >
    >This option has been eliminated from editing projects in bulk.  You can still recalculate expressions for projects in bulk by clicking the **More** icon ![](assets/more-icon-45x33.png) at the top of a project list, then **Recalculate Expressions**. 
 
-
 1. Go to the report where you want to add the chart for the calculated field that references the multi-select custom field. 
 1. Click **Report Actions**, then **Edit**. 
 

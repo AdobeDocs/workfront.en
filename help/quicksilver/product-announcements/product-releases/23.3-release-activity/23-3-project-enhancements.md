@@ -3,6 +3,8 @@ title: 23.3 Project enhancements
 description: 23.3 Project enhancements
 author: Lisa
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
+exl-id: df24d13e-d9ff-4c04-8669-9e0b6e4f6501
 ---
 # 23.3 Project enhancements
 

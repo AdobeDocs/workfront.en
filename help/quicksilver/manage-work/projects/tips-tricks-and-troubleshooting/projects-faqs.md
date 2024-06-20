@@ -8,7 +8,7 @@ exl-id: be262d72-f4e4-4426-a6bc-23499667fc97
 ---
 # Projects FAQs
 
-The following are frequently asked questions about projects.
+The following are frequently-asked questions about projects.
 
 ## Why is Insert Task Above/ Below missing when I right-click on a task in the task list?
 

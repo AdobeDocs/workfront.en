@@ -3,11 +3,13 @@ product-area: reporting
 navigation-topic: reporting-elements
 title: Use the Milestone view
 description: You can apply the Milestone view to a project list or report.
-author: Alina
+author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
 ---
 # Use the Milestone view
+
+<!-- Audited: 1/2024 -->
 
 You can apply the Milestone view to a project list or report.
 
@@ -16,6 +18,8 @@ Before you can use the milestone view, Milestones need to be configured, Milesto
 The Milestone view is available when viewing a project list or project report. The following sections describe how to view and use the milestone view.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -26,31 +30,34 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td> <p>Work or higher </p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront license</strong></td> 
+   <td> 
+   <p>New: Standard</p>
+   <p>Current: Work or higher </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>View or higher access to&nbsp;Reports,&nbsp;Dashboards, Calendars</p> <p><b>NOTE</b> 
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>View or higher access to&nbsp;Reports,&nbsp;Dashboards, Calendars</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>View permissions to a project report to apply the Milestone view to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View permissions to a project report to apply the Milestone view to a report</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Switch to the Milestone view {#switch-to-the-milestone-view}
 
-1. Go to the list of projects or to the project report that contains the milestones you want to view.
+{{step1-to-projects}}
+
 1. Click the **View** drop-down menu, then click **Milestone**.
 
    The list or report displays in a Milestone view.
@@ -65,6 +72,7 @@ The Milestone view is available on project lists and project reports. This view 
 >[!NOTE]
 >
 >The Milestone view is not available in the following areas:
+>
 >* Timesheets, in the project list when adding a project.
 
 
@@ -159,7 +167,8 @@ Any changes you make to these options apply only to you; other users are not aff
 
 To configure whether project status icons and completion percentage of projects display:
 
-1. Go to the list of projects or to the project report that contains the milestones you want to view.
+{{step1-to-projects}}
+
 1. Click the **View** drop-down menu, then click **Milestone**.  
    If you are viewing a list of projects inside a Portfolio or a Program, select the **Milestone** subtab.  
 
@@ -189,7 +198,8 @@ You can adjust the Percent Complete for tasks in the Milestone view. You cannot 
 
 To adjust the percent complete for a task in the Milestone view:
 
-1. Go to the list of projects or to the project report that contains the milestones you want to view.
+{{step1-to-projects}}
+
 1. Click the **View** drop-down menu, then click **Milestone**.  
 
 1. (Conditional) If completion percentages are not current displaying in the Milestone view, click **Options** in the upper-right corner of the Milestone view, then ensure that **Percent Complete** is enabled.

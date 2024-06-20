@@ -6,6 +6,7 @@ title: Configure your User Profile
 description: Review the articles in this section to learn how to configure your [!DNL Workfront] user profile.
 author: Nolan
 feature: Get Started with Workfront
+recommendations: noDisplay, noCatalog
 exl-id: 1a64a148-529c-4c66-9ee8-fbfa205b0a67
 ---
 # Configure your User Profile

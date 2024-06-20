@@ -1,15 +1,18 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: Navigate [!DNL Adobe Workfront]
-description: Review these articles to get an understanding of how to navigate Workfront and learn Workfront terminology.
+title: "Navigate [!DNL Adobe Workfront]: article index"
+description: Review these articles to get an understanding of how to navigate Adobe Workfront and learn Workfront terminology.
 feature: Get Started with Workfront
 author: Lisa
+recommendations: noDisplay, noCatalog
 exl-id: 2ee82e53-1cc3-4438-a325-8c2c4d4ca1fb
 ---
-# Navigate [!DNL Adobe Workfront]
+# Navigate [!DNL Adobe Workfront]: article index
 
-Review these articles to get an understanding of how to navigate Workfront and learn Workfront terminology.
+<!-- Audited: 12/2023 -->
+
+Review these articles to get an understanding of how to navigate Adobe Workfront and learn Workfront terminology.
 
 This section contains the following subsections and articles:
 
@@ -28,6 +31,6 @@ This section contains the following subsections and articles:
 * [Lists in [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/use-lists/lists.md)
 * [Create custom sections](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md)
 * [Access [!DNL Adobe Workfront] help](../../workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md)
-* [Overview of the Project, Task, and Issue dates in [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
+* [Overview of the Project, Task, and Issue dates in [!DNL Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
 * [Understand the navigation for a [!UICONTROL Work]-license user](../../workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
 * [Understand the navigation for a [!UICONTROL Review]-license user](../../workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)

@@ -5,6 +5,7 @@ title: What's new in API version 13
 description: Adobe Workfront released API version 13 on April 22, 2021. API version 13 features the following changes from version 12.
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: afbc986e-8b5c-40bc-9120-e8d34e0f7004
 ---
 # What's new in API version 13

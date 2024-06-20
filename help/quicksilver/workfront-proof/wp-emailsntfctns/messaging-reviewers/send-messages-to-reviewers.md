@@ -4,9 +4,10 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: emails-and-notifications-workfront-proof
 title: Send messages to reviewers
-description: This section contains the following articles - EDIT ME.
+description: Learn how to send messages to reviewers in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: d2e269a7-de26-40c5-b59c-6fcd64758039
 ---
 # Send messages to reviewers

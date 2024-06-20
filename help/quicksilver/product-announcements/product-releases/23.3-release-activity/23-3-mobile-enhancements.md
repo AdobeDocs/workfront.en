@@ -3,6 +3,8 @@ title: 23.3 Mobile enhancements
 description: 23.3 Mobile enhancements
 author: Lisa
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
+exl-id: bc38191c-3cde-4be4-b6b4-43d3fbd58828
 ---
 # 23.3 Mobile enhancements
 

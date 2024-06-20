@@ -4,6 +4,7 @@ title: Beta programs
 description: Learn about the current beta releases in Adobe Workfront. 
 author: Alina
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: c46e625f-b3d5-4bdd-827b-5b16493cdc6b
 ---
 # Beta programs
@@ -13,8 +14,8 @@ The articles linked from this page describe the current beta programs available 
 The following articles contain information about features currently in beta: 
 
 * [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
-* [New commenting beta experience](../betas/new-commenting-experience-beta/new-commenting-beta-experience-information.md)
 * [Form designer overview](../../administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md)
+* [Workfront and Frame.io integration](/help/quicksilver/review-and-approve-work/Documents/wf-frame-alpha.md)
 
 
 <!--

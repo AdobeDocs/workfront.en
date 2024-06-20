@@ -9,9 +9,13 @@ exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
 ---
 # Create subtasks
 
+<!-- Audited: 1/2024 -->
+
 In Workfront, tasks can have parent-child relationships. Child tasks are called subtasks. You can create subtasks on the tasks list by making a main task a subtask. You can also make a subtask a main task.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -20,30 +24,33 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Work or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> 
+   <p>New: Standard</p>
+   <p>Current: Work or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to tasks, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md" class="MCXref xref">Grant access to tasks</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
+   <td> <p>Edit access to Tasks and Projects</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions to the project and the parent task with ability to Add Tasks or higher</p> <p>You automatically receive Manage permissions to the task after you create it</p> <p> For information about task permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md" class="MCXref xref">Share a task </a>. </p> <p>For information on requesting additional permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Contribute permissions to the project and the parent task with ability to Add Tasks or higher</p> <p>You automatically receive Manage permissions to the task after you create it.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Create subtasks
 
-* [Create subtasks from the task list](#create-subtasks-from-the-task-list) 
-* [Create subtasks from the task Subtasks section](#create-subtasks-from-the-task-subtasks-section)
+You can create subtasks from the task list or the task subtask section.
 
 ### Create subtasks from the task list {#create-subtasks-from-the-task-list}
 
@@ -61,9 +68,9 @@ You must have the following access to perform the steps in this article:
 
    * Drag and drop the task over the task you want to designate as the parent task.
 
-   >[!NOTE]
-   >
-   >You can indent tasks only when the list of tasks is sorted by Task Number and when there are no groupings applied to the task list.
+      >[!NOTE]
+      >
+      >You can indent tasks only when the list of tasks is sorted by Task Number and when there are no groupings applied to the task list.
 
 ### Create subtasks from the task Subtasks section {#create-subtasks-from-the-task-subtasks-section}
 

@@ -4,6 +4,7 @@ description: Look and feel updates during the 23.2 release time frame
 author: Courtney
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: 2120636a-9464-4121-b8ba-f9d0af022b37
 ---
 # Look and feel updates during the 23.2 release time frame

@@ -5,6 +5,7 @@ title: Using JWT flow for custom OAuth 2 applications
 description: Using JWT flow for custom OAuth 2 applications
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 4bd56fe6-1f36-4c36-82cd-96de748ad680
 ---
 # Configure and use your organization's custom OAuth 2 applications using JWT flow
@@ -18,6 +19,10 @@ In order to integrate with Workfront and allow your client app to communicate wi
 ## Create an OAuth2 Application
 
 For instructions on creating the OAuth2 application, see [Create an OAuth2 application using server authentication (JWT flow)](../../administration-and-setup/configure-integrations/create-oauth-application.md#create2) in [Create OAuth2 applications for Workfront integrations](../../administration-and-setup/configure-integrations/create-oauth-application.md)
+
+>[!NOTE]
+>
+>You can have up to a total of ten OAuth2 Applications at one time.
 
 ## Create a Public Key Certificate
 

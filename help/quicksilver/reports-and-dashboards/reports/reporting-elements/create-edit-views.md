@@ -15,6 +15,8 @@ This article describes how to create and edit standard views for lists and repor
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -41,6 +43,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
++++
 
 ## Create or customize a view
 
@@ -132,7 +136,7 @@ You can create a new standard view, or you can customize an existing standard vi
 
 ### Create or customize an Agile view {#create-or-customize-an-agile-view}
 
-You can create a new Agile view or customize an existing Agile view that you previously created.
+You can create an Agile view or customize an existing Agile view that you previously created.
 
 >[!IMPORTANT]
 >

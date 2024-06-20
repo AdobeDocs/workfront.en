@@ -21,6 +21,8 @@ For a list of [!DNL Jira] versions that [!DNL Workfront for Jira] currently supp
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following:
 
 <table style="table-layout:auto"> 
@@ -28,25 +30,31 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL Adobe Workfront] plan</a>*</td> 
-   <td> <p>[!UICONTROL Pro] or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> 
+   <p>New: Any</p>
+   <p>Current: [!UICONTROL Pro] or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe [!DNL Workfront] licenses overview</a>*</td> 
-   <td> <p>[!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Adobe [!DNL Workfront] licenses overview</td> 
+   <td> 
+   <p>New: Standard</p>
+   <p>Current: [!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Jira] access</td> 
    <td> <p>System administrator access</p> <p>Important:  We recommend that you create separate system administrator accounts in [!DNL Jira] and [!DNL Workfront] to dedicate to this integration, rather than using existing ones that might be attached to users.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>You must be a [!DNL Workfront] administrator. For information on [!DNL Workfront] administrators, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td><p>You must be a [!DNL Workfront] administrator.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Install [!DNL Workfront] for [!DNL Jira]
 
@@ -54,7 +62,7 @@ Installing [!DNL Workfront] for [!DNL Jira] OnDemand is identical to installing 
 
 You must be a [!DNL Jira] administrator to install the [!DNL Workfront] add-on.
 
-If you are not a [!DNL Jira] administrator, you can browse for the [!DNL Workfront] add-on and request it to be installed. Your request is sent to the [!DNL Jira] administrator for approval and installation.
+If you are not a [!DNL Jira] administrator, you can browse for the [!DNL Workfront] add-on and request it to be installed. Your request is sent to the [!DNL Jira] administrator for approval and installation. 
 
 For more information about requesting an add-on to be installed on your [!DNL Jira] application, see [Managing user requests for add-ons.](https://confluence.atlassian.com/upm/managing-user-requests-for-add-ons-781394968.html)
 
@@ -66,7 +74,7 @@ To install [!DNL Workfront for Jira]:
 1. Click **[!UICONTROL Get it now]** to install it.
 
    After the installation completes, you can log in to [!DNL Workfront] from [!DNL Jira] and configure your integration.
-[!DNL ]
+
    For more information, see [Configure Adobe Workfront for Jira](../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
 ## Considerations for a [!DNL Jira Server] installation

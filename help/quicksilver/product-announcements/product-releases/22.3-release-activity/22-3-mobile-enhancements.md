@@ -4,6 +4,7 @@ description: mobile updates during the 22.3 release timeframe
 author: Luke
 draft: Probably
 feature: Product Announcements
+recommendations: noDisplay, noCatalog
 exl-id: eb62baf2-109c-4b50-8cd1-415d3c40c7ed
 ---
 # 22.3 Mobile enhancements

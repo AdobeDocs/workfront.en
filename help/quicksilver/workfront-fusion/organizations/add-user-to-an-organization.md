@@ -66,6 +66,8 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 ## Add users to an organization
 
+
+<!--
 <p>The procedure to add a user to your Fusion organization differs based on whether your organization has been onboarded to the Adobe Business Platform. </p>
 <ul>
 <li> <p><a href="#add-a-user-to-an-organization-that-has-been-onboarded-to-the-adobe-business-platform" class="MCXref xref">Add a user to an organization that has been onboarded to the Adobe Business Platform</a> </p> </li>
@@ -84,6 +86,8 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 </div>
 <p><strong>Add a user to an organization that has not been onboarded to the Adobe Business Console</strong></p>
 
+-->
+
 To add users to the organization, you must be an administrator at the organization you want to add users to. For information about roles, see [Organization roles in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/organization-roles.md).
 
 To add a user to the organization:
@@ -95,8 +99,8 @@ To add a user to the organization:
 >[!NOTE]
 >
 >   
-><p>If you do not see the [!UICONTROL Invite a new user] button, your organization has been onboarded to the [!DNL Adobe Business Platform.] </p>
+>If you do not see the [!UICONTROL Invite a new user] button, your organization has been onboarded to the [!DNL Adobe Business Platform.] 
 >
->   <p>For instructions on adding a user to an organization that has been onboarded to the [!DNL Adobe Business Platform], see <a href="#add-a-user-to-an-organization-that-has-been-onboarded-to-the-adobe-business-platform" class="MCXref xref">Add a user to an organization that has been onboarded to the [!DNL Adobe Business Platform]</a></p>
+>  For instructions on adding a user to an organization that has been onboarded to the [!DNL Adobe Business Platform], see [Add users to [!DNL Adobe Workfront Fusion] through the [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)
   
 The user receives an invitation email where they can accept the invitation.

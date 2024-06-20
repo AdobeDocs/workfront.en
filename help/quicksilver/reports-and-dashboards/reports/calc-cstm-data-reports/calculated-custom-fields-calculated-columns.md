@@ -3,24 +3,24 @@ content-type: overview
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
 title: Calculated custom fields vs. calculated columns
-description: To aggregate several fields in Adobe Workfront and display that aggregate value in a new field, you can do the following - EDIT ME.
+description: To aggregate several fields in Adobe Workfront and display that aggregate value in a new field, you can create a calculated custom field in a custom form or a calculated column in a view.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
 ---
 # Calculated custom fields vs. calculated columns
 
-To aggregate several fields in Adobe Workfront and display that aggregate value in a new field, you can do the following:
+To aggregate several fields in Adobe Workfront and display that aggregate value in a new field, you can create the following:
 
-* A calculated custom field in a Custom Form  
-  For more information about adding a calculated custom field to a Custom Form, see the section [Add a calculated field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#creating-calculated-custom-fields) in the article [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+* A calculated custom field in a custom form  
+  For more information about adding a calculated custom field to a custom form, see the section [Add a calculated field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#add-a-calculated-field-to-a-custom-form) in the article [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
-* A calculated column in a View  
-  For more information about using calculations in a View, see the section [Use Text Mode in views](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#using-text-mode-in-views) in the article [Overview of common uses for Text Mode](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+* A calculated column in a view  
+  For more information about using calculations in a view, see the section [Use Text Mode in views](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views) in the article [Overview of common uses for Text Mode](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
-Although you use text mode to build both calculated fields and calculated columns, the syntax for building them differs. Refer to the articles listed above to learn how to build calculated fields and calculated columns. For information about the different syntax used in calculated data expressions such as calculated custom fields and columns, see the section [Syntax of calculated custom fields vs. calculated custom columns](#syntax-of-calculated-custom-fields-vs-calculated-custom-columns-syntax) in this article.
+Although you use text mode to build both calculated fields and calculated columns, the syntax for building them differs. Refer to the articles listed above to learn how to build calculated fields and calculated columns. For information about the different syntax used in calculated data expressions such as calculated custom fields and columns, see the section [Syntax of calculated custom fields vs. calculated custom columns](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md#syntax-of-calculated-custom-fields-vs-calculated-custom-columns) in this article.
 
-You can use the same calculations in both calculated fields as well as a calculated column. However, depending on what your purpose for these calculations is you might want to consider building one versus the other.
+You can use the same calculations in both calculated fields as well as a calculated column. However, depending on what your purpose is for these calculations, you might want to consider building one versus the other.
 
 ## Syntax of calculated custom fields vs. calculated custom columns
 
@@ -30,25 +30,19 @@ For example:
 
 * In a custom field, on a custom form for tasks, you would use the following to generate the name of the parent project of the task where the custom form is attached:
 
-  ```
-  {project}.{name}
-  ```
+  `{project}.{name}`
 
 * In a custom column in a report, you would use the following to add a Project Name custom column on a task report:
 
-  ```
-  valuefield=project:name
-  ```
+  `valuefield=project:name`
 
   Or
 
-  ```
-  valueexpression={project}.{name}
-  ```
+  `valueexpression={project}.{name}`
 
   >[!TIP]
   >
-  >The same syntax applies to all text-mode reporting elements where calculated expressions are used: views, filters, groupings, prompts.
+  >The same syntax applies to all text-mode reporting elements where calculated expressions are used: views, filters, groupings, and prompts.
 
 The differences between the two syntaxes are: 
 
@@ -57,8 +51,8 @@ The differences between the two syntaxes are:
  <col> 
  <tbody> 
   <tr> 
-   <td>Calculated custom field</td> 
-   <td>Calculated custom reporting element</td> 
+   <td><strong>Calculated custom field</strong></td>
+   <td><strong>Calculated custom reporting element</strong></td> 
   </tr> 
   <tr> 
    <td> <p>Use the name of the fields as they appear in the Workfront interface.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Example: </b></span></span>Example of field name used in a calculated custom field: <code>Planned Completion Date</code>.</p> </td> 
@@ -70,7 +64,7 @@ The differences between the two syntaxes are:
   </tr> 
   <tr> 
    <td>Separate the fields by periods</td> 
-   <td> <p>Separate the fields by colons when using them in a <code>valuefield </code>line</p> <p>Separate the fields by periods when using them in a <code>valueexpression </code>line. </p> </td> 
+   <td> <p>Separate the fields by colons when using them in a <code>valuefield</code>line.</p> <p>Separate the fields by periods when using them in a <code>valueexpression</code>line.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -90,7 +84,7 @@ For more information about the syntax you must use in a calculated custom column
 * Bulk editing multiple objects when **Recalculate Custom Expressions** is enabled
 * Editing a custom form when **Update previous calculations** is enabled for the calculated custom field
 
-## When to use Calculated Columns in a View
+## When to use calculated columns in a view
 
 * When you want real-time data to be available on a report.
 
@@ -108,7 +102,7 @@ For more information about the syntax you must use in a calculated custom column
 
 For examples of calculated custom fields, see [Calculated custom data in reports](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md).
 
-For examples of calculated custom columns in views see the following articles:
+For examples of calculated custom columns in views, see the following articles:
 
 * [Overview of common uses for Text Mode](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md) 
-* [Custom View, Filter, and Grouping samples](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Custom view, filter, and grouping samples: article index](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)

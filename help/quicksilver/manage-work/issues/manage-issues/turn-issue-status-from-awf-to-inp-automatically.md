@@ -23,6 +23,12 @@ In order for this automatic status change to occur, the following is required:
 
   ![Queue Details give Contribute Access and Change Status is selected.](assets/queuedetails-contributeaccess-changestatus.png)
 
+  >[!IMPORTANT]
+  >
+  >  When setting up a request queue, you can define the access primary contacts have to the issues they submit. 
+  >
+  >When you deselect the Change Status setting when setting up the request queue, remember that system administrators always have access to change the status of issues, even if the Change Status option is deselected in the request queue settings. 
+
   For more information about Queue Details, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 * The issue must be in Awaiting Feedback status.

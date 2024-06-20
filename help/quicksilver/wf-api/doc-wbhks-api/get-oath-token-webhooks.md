@@ -6,6 +6,7 @@ title: Get OAuth2 Tokens
 description: Get OAuth2 Tokens
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: f3a2630d-d34e-4d36-b2bb-707ba0d3258e
 ---
 
@@ -38,17 +39,17 @@ The URL is configurable and corresponds to the Token Endpoint URL value on the c
   <tr>
    <td>grant_type</td>
    <td>yes</td>
-   <td><p>Values include “authorization_code” or “refresh_token”. The value specified indicates which of the two parameters will be passed to this API call: code or refresh_token.</p></td>
+   <td><p>Values include "authorization_code" or "refresh_token". The value specified indicates which of the two parameters will be passed to this API call: code or refresh_token.</p></td>
   </tr>
   <tr>
    <td>code</td>
    <td>depends</td>
-   <td><p>The authorization code sent to Adobe Workfront just after the user clicks the “Grant” button. This is only required when the grant type is “authorization_code”. The authorization code should be short lived, generally expiring in 10 minutes or less.</p></td>
+   <td><p>The authorization code sent to Adobe Workfront just after the user clicks the "Grant" button. This is only required when the grant type is "authorization_code". The authorization code should be short lived, generally expiring in 10 minutes or less.</p></td>
   </tr>
   <tr>
    <td>refresh_token</td>
    <td>depends</td>
-   <td><p>This is only required when making subsequent calls to retrieve a new access_token, given that the previous access_token as expired. When sending this value set the grant_type parameter to “refresh_token”.</p></td>
+   <td><p>This is only required when making subsequent calls to retrieve a new access_token, given that the previous access_token as expired. When sending this value set the grant_type parameter to "refresh_token".</p></td>
   </tr>
   <tr>
    <td>client_id</td>

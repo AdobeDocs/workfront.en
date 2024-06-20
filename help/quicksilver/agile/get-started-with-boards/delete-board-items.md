@@ -9,7 +9,13 @@ exl-id: 68b7d2e5-92f0-462d-8122-eaecb1e6b87c
 ---
 # Delete or archive a card from a board
 
-When you delete a card from a board, it is permanently deleted and can't be restored. Archiving a card sends it to the archive and you can restore it to the board later.
+When you delete an ad hoc card from a board, it is permanently deleted and can't be restored. Connected cards can be manually added back to a board after they are deleted.
+
+If you delete a connected card from a dynamic board, it will reappear when you refresh the board because this board type pulls in all tasks and issues from a specific project. To delete the card, you must delete the connected task or issue from the Workfront project.
+
+When you delete a connected card from any other board type that has an intake column, the card will reappear in the intake column when you refresh the board if the connected task or issue is not yet marked complete. For more information on intake columns, see [Add an intake column to a board](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+
+Archiving a card sends it to the archive and you can restore it to the board later.
 
 ## Access requirements
 
@@ -55,10 +61,17 @@ You must have the following access to perform the steps in this article:
 By default, only active cards are displayed on a board. You can filter the board to also display any archived cards.
 
 1. Access the board.
-1. Click the filter icon ![Filter](assets/filter-icon-spectrum-25x25.png), expand the [!UICONTROL Archived Cards] section, and select **[!UICONTROL Archived cards]** to display any archived cards.
+1. Click [!UICONTROL **Configure**] on the right of the board to open the Configure panel.
+1. Expand [!UICONTROL **Cards**].
+1. Turn on [!UICONTROL **Display archived cards on the board**].
+1. Click [!UICONTROL **Filter**], expand the [!UICONTROL Archived Cards] section, and select **[!UICONTROL Archived cards]** to display any archived cards.
 
    The filter shows the number of archived cards.
 
-   ![Filter archived cards](assets/boards-filter-by-archived-cards_0822.png)
+   ![Filter archived cards](assets/filter-by-archived-cards.png)
+
+   >[!NOTE]
+   >
+   >The [!UICONTROL Archived Cards] section is not available in the filter if you have not turned on the configuration setting to display archived cards. For more information, see [Customize which fields are displayed on a card](/help/quicksilver/agile/get-started-with-boards/customize-fields-on-card.md).
 
 1. Select **[!UICONTROL Archived cards]** again to clear the option and display only active cards.

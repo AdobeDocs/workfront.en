@@ -7,6 +7,7 @@ title: Partner accounts in [!DNL Workfront Proof]
 description: This section contains the following articles about Partner accounts in [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: 8283908e-1ef1-4914-9b67-b934d2de60ca
 ---
 # Partner accounts in [!DNL Workfront] Proof

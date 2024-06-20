@@ -11,7 +11,9 @@ exl-id: d4f02102-0378-472f-9ebb-753502ec048b
 ---
 # Customize the Main Menu using a layout template
 
-As an Adobe Workfront administrator or a group administrator, you can use a layout template to configure the options users see when they open the Main Menu in Workfront:
+<!--Audited: 01/2024-->
+
+As an Adobe Workfront administrator or a group administrator, you can use a layout template to configure the options users see when they open the Main Menu in Workfront. 
 
 ![Main Menu options](assets/main-menu-with-blueprints-no-branding.png)
 
@@ -27,6 +29,8 @@ After configuring a layout template, you must assign it to users for changes you
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
@@ -38,29 +42,35 @@ You must have the following access to perform the steps in this article:
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront license</strong></td> 
-   <td>Plan</td> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td><p>Current:Plan</p>
+   Or
+   <p>New: Standard</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Access level configurations</strong></td> 
-   <td> <p>To perform these steps at the system level, you need the System Administrator access level.
-To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader"><strong>Access level configuration</strong></td> 
+   <td> <p>To perform these steps at the system level, you need the System Administrator access level.</p>
+    <p>To perform them for a group, you must be a manager of that group.</p> 
+     </td> 
   </tr> 
  </tbody> 
 </table>
 
+*For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
 ## Customize the Main Menu
 
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. Click **Set Main Menu** near the upper-right corner.
+1. Click **Set Main Menu** in the upper-right corner of the template.
 
-   In the Main Menu box that appears, you can see the items that are currently active in the Main Menu for the template, as well as the items that are available to add. The following are all the possible items that can be added:
-
+   The Main Menu box opens and you can see the areas that currently display in the Main Menu for the template, as well as the items that are available to add. The following are all the possible items that you can add:
    * Home
 
      >[!TIP]
      >
-     >By default, Home displays as My Updates for Review-license users, unless they have a layout template associated with their profile that includes the My Updates area in the Main Menu.
+     >By default, Home icon in the Main Menu displays the My Updates area for Review-license users (in the current license plan), unless they have a layout template associated with their profile that includes the My Updates area in the Main Menu, in addition to the Home area.
 
    * Portfolios
    * Programs
@@ -73,14 +83,14 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
 
      >[!NOTE]
      >
-     >The Scenario Planner is available only in the new Adobe Workfront experience and requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
+     >The Scenario Planner requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
 
    * Teams
    * Users
 
      >[!NOTE]
      >
-     >Only users with a Plan license can see Users ![](assets/users-icon-in-main-menu.png) in the Main Menu.
+     >Only users with a Plan license (in the current license model), or the users with a Standard license (in the new license model) can see the Users area ![](assets/users-icon-in-main-menu.png) in the Main Menu.
 
    * Requests
    * Timesheets
@@ -92,7 +102,7 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
 
      >[!NOTE]
      >
-     >This requires an additional license. For information about Workfront Goals, see [Adobe Workfront Goals overview](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     >Goals require an additional license. For information about Workfront Goals, see [Adobe Workfront Goals overview](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
    * My Updates
    * Boards

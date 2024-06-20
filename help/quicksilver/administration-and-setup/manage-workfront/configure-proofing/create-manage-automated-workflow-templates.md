@@ -11,6 +11,8 @@ exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
 ---
 # Create and manage Automated Workflow templates
 
+<!-- Audited: 2/2024 -->
+
 As an Adobe Workfront administrator, if your organization's content review process is often repeated or content is often reviewed by the same people, you can create Automated Workflow templates that contain those reviewers with proof roles and notification settings that you specify. An Automated Workflow template can be simple with just one or two reviewers or complex with many stages and dependencies.
 
 Automated Workflow templates make it easy to create a proof with an Automated Workflow. When a user creates a proof, they simply choose the template they need.
@@ -27,32 +29,37 @@ For information about Automated Workflows, see [Automated Workflow overview](../
 
 ## Access requirements
 
-You must have the following:
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Current plan: Pro or Higher</p> <p>or</p> <p>Legacy plan: Premium or Select</p> <p>For more information about proofing access with the different plans, see <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>New: Any</p><p>Current: Pro or Higher</p><p>Legacy: Premium or Select</p> <p>For more information about proofing access with the different plans, see <a href="../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Access to proofing functionality in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current plan: Work or Plan</p> <p>Legacy plan: Any (You must have proofing enabled for the user)</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Standard</p><p>Current: Work or Plan</p> <p>Legacy: Any (You must have proofing enabled for the user)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>You must have Administrator selected in your Proof Permission Profile. For more information, see <a href="../../../administration-and-setup/manage-workfront/configure-proofing/configure-a-users-proofing-access.md" class="MCXref xref">Configure a user's proofing access</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must have Administrator selected in your Proof Permission Profile. </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Create an Automated Workflow template
 
-1. From Workfront, click the Main Menu ![](assets/main-menu-icon.png), then click Proofing ![](assets/proofing-in-main-menu.png) to access Workfront Proof. 
+{{step1-to-proofing}}
+
 1. Click **Workflows** in the left panel.
 1. On the **Workflow** tab, click **New** > **New template**.
 
@@ -80,10 +87,9 @@ You must have the following:
      </tr> 
      <tr> 
       <td role="rowheader">Allow</td> 
-      <td> <p>You can select the stage activities you want available to the person creates proofs using the template.</p> <!--
-        <p><b>WARNING</b>: If you don't select the options Add a stage and Add people to stages, neither the template owner nor the owner of any proof using this template will be able to add a stage or share the proof. <!--
-          <span data-mc-conditions="QuicksilverOrClassic.Draft mode">Test this. Andrzej thinks it's wrong info or a bug.</span>
-         --></p>
+      <td> <p>You can select the stage activities you want available to the person creates proofs using the template.</p> 
+      <p><b>WARNING</b>: If you don't select the options Add a stage and Add people to stages, neither the template owner nor the owner of any proof using this template will be able to add a stage or share the proof. 
+      </p>
       </td> 
      </tr> 
     </tbody> 
@@ -127,11 +133,7 @@ You must have the following:
      </tr> 
      <tr> 
       <td role="rowheader">Private stage</td> 
-      <td>Hides comments and decisions from to people who are not added to the stage or who are not Workfront administrators<!--
-        DRAFTED IN FLARE:
-         Supervisors and above
-        
-       -->. For more information, see <a href="../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Automated Workflow overview</a>.</td> 
+      <td>Hides comments and decisions from to people who are not added to the stage or who are not Workfront administrators. For more information, see <a href="../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Automated Workflow overview</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Do not allow this stage to be deleted</td> 
@@ -140,7 +142,7 @@ You must have the following:
     </tbody> 
    </table>
 
-1. If the proofs that will use this template are always sent to the same people in the stage, add them here so that users don't have to add them every time they create a proof..
+1. If the proofs that will use this template are always sent to the same people in the stage, add them here so that users don't have to add them every time they create a proof.
 
    Choose each person's **Role** on the proofs that will use this template and the **Email alerts** you want the user to receive when working on proofs that use this template.
 
@@ -168,7 +170,8 @@ You must have the following:
 
 As a Workfront Proof administrator, you can modify an Automated Workflow template. Your changes are saved automatically as you make them.
 
-1. From Workfront, click the Main Menu ![](assets/main-menu-icon.png), then click Proofing ![](assets/proofing-in-main-menu.png) to access Workfront Proof. 
+{{step1-to-proofing}}
+
 1. Click **Workflows** in the left panel.
 1. In the **Workflow templates** list that appears, click the template you want to modify.
 1. In the **Details** section, specify the following information:
@@ -255,7 +258,8 @@ As a Workfront administrator, you can view and manage all of the Automated Workf
 
 To create an Automated Workflow template group:
 
-1. From Workfront, click the Main Menu ![](assets/main-menu-icon.png), then click Proofing ![](assets/proofing-in-main-menu.png) to access Workfront Proof. 
+{{step1-to-proofing}}
+
 1. Click **Workflows** in the left panel.
 1. On the **Workflow** tab, click **New** > **New template group**.
 1. Type a descriptive name for the new template group, then press **Enter**.
@@ -264,7 +268,7 @@ You can move the templates between groups by dragging and dropping.
 
 ## Manage Automated Workflow templates
 
-1. From Workfront, click the Main Menu ![](assets/main-menu-icon.png), then click Proofing ![](assets/proofing-in-main-menu.png) to access Workfront Proof. 
+{{step1-to-proofing}}
 
 1. In the left panel in Workfront Proof, click **Workflows**.
 1. On the **Workflows** page that appears, do any of the following:

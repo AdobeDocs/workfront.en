@@ -7,6 +7,7 @@ title: 'Workfront Fusion release activity: Week of May 3, 2021'
 description: This page describes all enhancements made in Adobe Workfront Fusion the week of May 3, 2021.
 author: Luke
 feature: Product Announcements, Workfront Fusion
+recommendations: noDisplay, noCatalog
 exl-id: af3312c5-3416-4c03-8528-6a2c0240110e
 hidefromtoc: yes
 ---

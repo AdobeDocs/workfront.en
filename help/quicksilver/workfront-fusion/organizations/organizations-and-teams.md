@@ -74,6 +74,8 @@ A user has one of the following roles in an organization:
 * **[!UICONTROL Accountant]**: An accountant role only allows users to see license information on the organization dashboard.
 * **[!UICONTROL App Developer]**: Functionality for this role is currently unavailable, and will be made available in the near future. We do not recommend assigning users to this role at this time.
 
+For information on specific actions available to users in each organization role, see [Organization and team roles](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+
 ### Inviting users to an organization
 
 By default, an organization owner (or authorized user) can invite another person to join their organization.
@@ -139,7 +141,7 @@ A user has one of the following roles in each of their teams:
 * **[!UICONTROL Team Operator]**: The [!UICONTROL operator] role allows users to see execution data and change the "Active" status of scenarios.
 * **[!UICONTROL Team Restricted Member]**: Functionality for this role is currently unavailable, and will be made available in the near future. We do not recommend assigning users to this role at this time.
 
-For information on specific tasks available to team roles, see[Organization and team roles](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
+For information on specific actions available to users in each team role, see [Organization and team roles](/help/quicksilver/workfront-fusion/organizations/organization-roles.md).
 
 ### Team Management
 
@@ -158,6 +160,14 @@ To create a team:
 1. Enter a name for the new team, and click **Add**.
 
 #### Set Team Notification Options
+
+>[!NOTE] 
+>
+>If your organization has been moved to the Unified Shell, you receive notifications through the Adobe Notifications area. You must use the Unified Shell experience to be able to see notifications in the Adobe Notifications area. 
+>
+>To use the Unified Shell Experience, including the Adobe Notifications area, click the Try New Fusion UI in Unified Experience button near the top of the page. This button is only available if your organization has moved to the Unified Shell.
+>
+>For more information, see [Access your notifications](/help/quicksilver/workfront-fusion/fusion-in-admin-console/fusion-unified-experience.md#access-your-notifications) in [!DNL Adobe Unified Experience] for [!DNL Workfront Fusion].
 
 Email notification options are set on the team level.
 

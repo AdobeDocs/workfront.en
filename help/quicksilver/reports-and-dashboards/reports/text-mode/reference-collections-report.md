@@ -15,6 +15,8 @@ For more information about building a report in Workfront, see [Create a custom 
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -41,6 +43,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 To find out what plan, license type, or access you have, contact your Workfront administrator.
+
++++
 
 ## Understand collections
 
@@ -165,7 +169,7 @@ To add a collection column in a report view:
 
    You can replace **valuefield** with **valueexpression**, if you want to create a custom expression in your view.
 
-   For more information about calculated custom expressions, see [Calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   For more information about calculated custom expressions, see [Overview of calculated data expressions](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
    For example, if you want to display a list of the tasks in a project report. This collection uses a `valuefield` line for referencing the names of the tasks.
 

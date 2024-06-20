@@ -4,9 +4,10 @@ product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: manage-your-users-and-contacts
 title: Contacts
-description: This section contains the following articles - EDIT ME.
+description: Learn about contacts in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
+recommendations: noDisplay, noCatalog
 exl-id: a8b70462-28bc-45cc-b19a-cb683172d528
 ---
 # Contacts

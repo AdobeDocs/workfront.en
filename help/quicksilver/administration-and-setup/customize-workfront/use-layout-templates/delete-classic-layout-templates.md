@@ -7,6 +7,7 @@ description: Layout templates from the Classic Workfront experience are not long
 author: Becky
 feature: System Setup and Administration
 role: Admin
+exl-id: c6d33d5d-da93-4aba-8897-f177c1171595
 ---
 # Grant administrative access for a layout template
 
@@ -61,6 +62,3 @@ You can enter API calls into the URL bar of your browser and press enter. The AP
 1. Paste the API call from step 4 into the URL bar of your browser and press Enter.
 
    This deletes the layout template.
-
-
-

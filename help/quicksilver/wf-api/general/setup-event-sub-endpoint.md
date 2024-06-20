@@ -5,6 +5,7 @@ title: Event Subscription delivery requirements
 description: Event Subscription delivery requirements
 author: Becky
 feature: Workfront API
+role: Developer
 exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
 ---
 
