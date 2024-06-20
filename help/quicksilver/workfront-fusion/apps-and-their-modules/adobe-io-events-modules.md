@@ -4,10 +4,11 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 keywords: connector
 navigation-topic: apps-and-their-modules
-title: "Adobe I/O Events modules"
-description: "With the Adobe I/O Events modules, you can start an Adobe Workfront Fusion scenario based on events in your Adobe applications."
+title: Adobe I/O Events modules
+description: With the Adobe I/O Events modules, you can start an Adobe Workfront Fusion scenario based on events in your Adobe applications.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
+exl-id: 18ad8098-9742-44d2-97cd-b0c2b5591538
 ---
 # Adobe I/O Events modules
 
@@ -335,4 +336,3 @@ This trigger module starts a scenario when an event occurs in the chosen Adobe p
 </table>
 
 -->
-
