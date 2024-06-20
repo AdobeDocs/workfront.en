@@ -8,6 +8,8 @@ recommendations: noDisplay, noCatalog
 
 # Adobe Workfront Planning FAQs
 
+{{planning-important-intro}}
+
 <!-- add to TOC and mini TOC-->
 
 This article contains a list of the most commonly-asked questions about Adobe Workfront Planning. 

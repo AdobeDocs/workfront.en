@@ -10,4 +10,6 @@ recommendations: noDisplay, noCatalog
 
 <!-- add to TOC and mini TOC-->
 
+{{planning-important-intro}}
+
 As a marketing operations leader, you can use Adobe Workfront Planning to organize work across the marketing lifecycle for all your teams. These are some best practices that we recommend when starting with Workfront Planning. 
