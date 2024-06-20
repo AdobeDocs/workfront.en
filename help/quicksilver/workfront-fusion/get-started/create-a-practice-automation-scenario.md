@@ -75,6 +75,12 @@ This practice scenario takes you through the process of creating a scenario that
 
 ![](assets/create-practice-scenario-wf-only-350x157.png)
 
+### Before you begin
+
+Create a project with tasks in workfront you can use for this exercise. You do not need to do any additional configuration outside of adding tasks to the project. 
+
+ For information about creating a project in Workfornt, see xxx. 
+
 ### 1. Create and name the scenario
 
 1. Sign into your [!DNL Workfront Fusion] account.
@@ -88,42 +94,23 @@ This practice scenario takes you through the process of creating a scenario that
 
 1. Open the folder, then click **[!UICONTROL Create a new scenario]** in the upper-right corner of the page.
 
+1. For this exercise, select the **[!DNL Adobe Workfront]** app, then click **Search** near the bottom.
+
+
 1. Select the **[!UICONTROL New scenario]** placeholder name in the upper-left corner, then type a name such as "Practice scenario 1."
 
    ![](assets/name-the-scenario.png)
 
-1. Continue with [Add and configure the first module](#add-and-configure-the-first-module) below.
+1. Continue with [Connect the first module](#2-connect-the-first-module) below.
 
-### 2. Add and connect the first module
+### 2. Connect the first module
 
-The empty module with a question mark represents the trigger module you need to add. This module will start the scenario each time it runs. The clock icon on the empty module indicates that is a scheduled module.
-
-![](assets/empty-module.png)
-
-This module will contain the data that you want the scenario to watch for.
-
-For this example, we are not using a trigger module. Instead, this scenario begins with a search.
-
-1. For this exercise, select the **[!DNL Adobe Workfront]** app.
-
-1. Click the empty module to choose the app from which you will select a module.
-
-   The app you pre-loaded earlier displays next to the empty module. You can add any other apps that have modules using the [!UICONTROL Search] box.
-
-   ![](assets/pre-loaded-app-wf-350x172.png)
-
-1. Click **[!DNL Workfront]**.
-
-   The list changes to display all [!DNL Workfront] modules that you can use as a trigger module.
-
-1. Click the Search module **[!UICONTROL Search]**.
-
-   Now you need to establish an authenticated connection to your [!DNL Workfront] account. Every module you add to a scenario must have a connection to its app.
+Now, you need to establish an authenticated connection to your [!DNL Workfront] account. Every module you add to a scenario must have a connection to its app.
 
 1. In the **[!DNL Workfront]** box, under **[!UICONTROL Connection]**, click **[!UICONTROL Add]**, then type a name for the connection, such as "Olivia's Workfront account," then click **[!UICONTROL Continue]**.
 1. Authenticate the connection in the window that displays.
 
-   The process for authenticating a connection can vary a bit between apps. The following process is specific to [!DNL Workfront], but the process is similar to many apps.
+   The process for authenticating a connection can vary a bit between apps. The following process is specific to [!DNL Workfront], but the process is similar to many apps:
 
    1. Enter your [!DNL Workfront] domain, then click **[!UICONTROL Continue]**.
    1. Log into [!DNL Workfront].
@@ -133,7 +120,7 @@ For this example, we are not using a trigger module. Instead, this scenario begi
 
 ### 3. Configure the first module
 
-After you connect [!DNL Workfront Fusion] to your [!DNL Workfront] account, you can specify a [!DNL Workfront] request queue that you have access to and the data there that you want the first module to process.
+After you connect [!DNL Workfront Fusion] to your [!DNL Workfront] account, you can specify a [!DNL Workfront] project that you have access to and the data that you want the first module to process.
 
 1. In the [!UICONTROL Record Type] box, select **[!UICONTROL Project]**. This sets the module to search only projects.
 
@@ -142,9 +129,15 @@ After you connect [!DNL Workfront Fusion] to your [!DNL Workfront] account, you 
    >You can find **[!UICONTROL Project]** in the list if you start typing the word "[!UICONTROL project]."
 
 1. In the **[!UICONTROL Result Set]** box, select **[!UICONTROL First Matching Record]**. This sets the module to return only the first record it finds that meets the criteria. For this example, we need only one record returned.
-1. In the **[!UICONTROL Search criteria]** area, we'll set up a filter to return the specific project.
+1. In the **[!UICONTROL Search criteria]** area, we'll set up a filter to return the specific project:
 
-   1. In the first box under [!UICONTROL Search Criteria], select the field that you want to search the values of. For this example, select **[!UICONTROL Name]**.
+   | Field | Action |
+   |--------|-------------|
+   | Search Criteria | select the field that you want to search the values of. For this example, select **[!UICONTROL Name]**. |
+   | Basic Operators | select [!UICONTROL Contains (case insensitive)] |
+   | Text box | enter a word or phrase that you know is in the name of the project you are searching for. |
+
+   1. In the [!UICONTROL Search Criteria] box, select the field that you want to search the values of. For this example, select **[!UICONTROL Name]**.
    1. For the operator, select [!UICONTROL Contains (case insensitive)]. This allows the module to find projects with your chosen words in its name, even if you do not enter the entire name, or enter the name with the incorrect case (such as all caps).
    1. In the last field under [!UICONTROL Search Criteria], enter a word or phrase that you know is in the name of the project you are searching for.
 
