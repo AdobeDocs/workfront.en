@@ -126,6 +126,30 @@ Preview: To be determined
 We have added a "Show more/ Show less" link in a connected record field, when there are records that would otherwise display on more than two rows in the Details page of a record. 
 
 For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+
+### Auto-populate the Name field with the record name, when connecting record types
+
+Production: June 20, 2024
+
+Preview: To be determined 
+
+When you create a connection between two records or between a record and an object from another application, the Name of the connection field auto-populates with the name of the connected record. Prior to this enhancement, you had to manually add a Name for the connection field. 
+
+For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
+
+### Define how connected records display in connected fields
+
+Production: June 20, 2024 
+
+Preview: To be determined 
+
+You can now decide how connected records display in connected fields. While adding a new connection to a record type, you now have the option to display either the connected record's title and its thumbnail or just the thumbnail.  
+
+A record's title  is either the record's name or any field that is set as the primary field in the record type's table view.  
+
+This enhancement is available for records connected from Workfront Planning and for assets connected from the Adobe Experience Manager.  
+
+For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).  
  
 ## Week of June 10, 2024
 
@@ -558,6 +582,7 @@ Preview: To be determined
 We have updated the look and feel of the views in the record type page. The new views are dynamically responsive and quickly adjust to the size of your screen. The toolbar option labels are hidden on smaller screens to make the toolbar easier to use.  
 
 For more information, see the following articles: 
+
 * [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md)
 * [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 

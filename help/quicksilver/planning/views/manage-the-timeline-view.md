@@ -245,7 +245,7 @@ Update the timeline view settings to indicate what and how information displays 
 
 1. Click **Bar style** in the left panel, to indicate what fields you want to display on the record bars. 
 
-    The Name field is selected by default. <!--adjust this when the primary field is released??-->
+    The primary field (or title) of the record, as defined in the record's table view, is selected by default. <!--adjust this when the primary field is released??-->
 
 1. (Optional and conditional) If you added thumbnails to records, select the Thumbnail option to display the image associated with records in their record bar. 
 

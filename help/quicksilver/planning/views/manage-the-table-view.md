@@ -151,25 +151,7 @@ You can add up to 500 fields (or columns) in a table view.
 
     The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves to the second column.
 
-    >[!NOTE]
-    >
-    >   * Only fields of the following types can be primary fields: 
-    >
-    >       * Single-line text
-    >       * Number
-    >       * Formula
-    >
-    >   * The primary field is always frozen and cannot be moved or hidden. The primary field is frozen and is not part of the horizontal scroll. You can select another field to replace a primary field, if you need to move it to another position. 
-    >
-    >   * Changing the primary field in your table view affects the view for all other users who choose it.
-    >
-    >   * Changing the primary field in a table view affects all your table views. 
-    >
-    >   * You cannot delete or hide a primary field. 
-    >
-    >   * The value listed in the primary field is always hyperlinked to the record's page.
-    >
-    >   * Primary fields become the record's title and display in the record pages in the records' header area, and everywhere where the records display. For example, the record title displays in connected fields and all views.  
+    Primary fields become the record's title and display in the header area of the record's page, and everywhere where the records display. For example, the record title displays in connected fields and all views. For more information about primary fields, see [Primary field overview](/help/quicksilver/planning/fields/primary-field-overview.md). 
 
 1. Click and drag the column separation lines and drop them in the desired spot to increase the width of the columns. 
 

@@ -109,6 +109,7 @@ You can edit a record from the following areas:
 * [From the table view of a record type](#edit-a-record-inline-in-the-table-view-of-a-record-type)
 * [From the record's preview in a view](#edit-a-record-from-the-records-preview-in-a-view)
 * [From the record's page](#edit-a-record-from-the-records-page)
+* [From a Workfront object in the Planning section](#edit-a-record-from-a-workfront-object-in-the-planning-section)
 
 ### Edit a record inline in the table view of a record type
 
@@ -204,7 +205,7 @@ You can edit a record from the following areas:
 
 1. (Optional) Click the **More** menu to the right of the record's title, then click **Rename**. This updates the field that displays as the record's title.
 
-    The record's title is the primary field of the record when viewed in a table view. For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
+    The record's title is the primary field of the record when viewed in a table view. For information, see [Primary field overview](/help/quicksilver/planning/fields/primary-field-overview.md). 
 
 1. Start editing the field information in the record's preview.  
 
@@ -274,3 +275,8 @@ You can edit a record from the following areas:
 
     Workfront automatically saves your changes.
 
+## Edit a record from a Workfront object in the Planning section
+
+After you connect records with Workfront objects, you can edit Workfront Planning records in Workfront from the object's Planning section. 
+
+For more information, see [Manage records in the Planning section of Adobe Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md). 

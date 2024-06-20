@@ -31,3 +31,4 @@ The articles in the following sections describe how you can create and configure
 * [Edit fields](/help/quicksilver/planning/fields/edit-fields.md)
 * [Delete fields](/help/quicksilver/planning/fields/delete-fields.md)
 * [Formula fields](/help/quicksilver/planning/fields/formula-fields.md)
+* [Primary field overview](/help/quicksilver/planning/fields/primary-field-overview.md)
