@@ -11,12 +11,6 @@ exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
 ---
 # Add display logic and skip logic with the form designer
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
-
 You can decide which sections of a custom form should be displayed or skipped based on the choices that a user makes when filling it out.
 
 >[!NOTE]
@@ -117,10 +111,6 @@ Display logic defines which custom fields appear on the form when the user selec
 
    The display logic icons are added to the target field and the defining field in the form designer.
 
->[!NOTE]
->
->Display logic is temporarily unavailable when you preview your form in the form designer.
-
 ## Add skip logic to a custom form
 
 Skip logic defines custom form fields that are skipped when the user selects a specific value in a multiple choice field. Skipped fields are hidden on the form. The logic is applied to the defining field where the selection is made, not to the fields that are skipped.
@@ -151,6 +141,4 @@ Skip logic defines custom form fields that are skipped when the user selects a s
 
    The skip logic icons are added to the target field and the defining field in the form designer.
 
->[!NOTE]
->
->Skip logic is temporarily unavailable when you preview your form in the form designer.
+

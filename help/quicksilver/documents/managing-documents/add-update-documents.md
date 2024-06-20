@@ -9,6 +9,8 @@ exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
 ---
 # Add an update to a document
 
+<!--Audited: April, 2024-->
+
 You can add or reply to updates on a document to communicate with collaborators and create an audit trail. For information about adding updates to work items, see see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Access requirements
@@ -20,21 +22,28 @@ You must have the following:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p> Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront licenses*</td> 
-   <td> <p>Request or higher</p> </td> 
+   <td> <p>New: Contributor or higher</p> 
+   <p>Current: Request or higher</p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access to Documents</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configuration</td> 
+   <td> <p>View access to Documents</p> </td> 
+  </tr> 
+
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View access to the document</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 ## Add or reply to an update for a document
 

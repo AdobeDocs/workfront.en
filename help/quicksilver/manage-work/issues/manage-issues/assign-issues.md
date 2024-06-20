@@ -10,6 +10,14 @@ exl-id: e2dce29e-7370-4580-8326-99c4437998bf
 ---
 # Assign issues
 
+<!--keep the rate card job role information always in yellow till it releases to production - check with Lisa - this might not apply to issues?! -->
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+
 You can assign issues to users, roles, and teams to indicate who is responsible for completing the issues. For general information about assigning issues, see [Overview of modifying issue assignments](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!TIP]
@@ -106,15 +114,19 @@ Consider the following when assigning multiple resources to a work item:
 
    Click the name of the current assignments, if the issue is already assigned.
 
-   ![](assets/nwe-assign-to-button-in-header-350x77.png)
+   ![Assign to button](assets/assign-to-button-in-header.png)
 
 1. Do one of the following:
 
    * Start typing the name of a user, role, or team that you want to assign, then click it when it appears on the list.
 
+     Sample image in the Production environment:
      ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
 
-   * (Conditional) Click one of the names in the **Suggested Assignments** list 
+     <span class="preview">Sample image in the Preview environment:</span>
+     <span class="preview">![Assignments search](assets/smart-assignments-issue-header.png)</span>
+
+   * (Conditional) Click one of the names, roles, or teams in the available lists
    * Click **Assign to me** to assign it to yourself
    * Click **Advanced**.
 
@@ -127,10 +139,14 @@ Consider the following when assigning multiple resources to a work item:
       >Users must be associated with at least one job role to view it as you add them.
       >
       >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+      >
+
+      <!-- not sure if this applies to issues; if it does, add this to the TIP above: 
+      ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
 1. Click **Save** to complete assigning the issue. 
-1. (Optional)&nbsp;Click the **X icon** next to the name of the assignments in the Assignments area on the header of the issue to remove an assignment.
+1. (Optional) Click the **X icon** next to the name of the assignments in the Assignments area on the header of the issue to remove an assignment.
 
 ## Assign an issue in a list
 
@@ -155,7 +171,11 @@ To assign issues in a list:
 
    * Click inside the **Assignments** field and start typing the name of an active user, job role, or active team that you want to assign to the issue, then click it when it displays in the list.
 
+     Sample image in the Production environment:
      ![](assets/assignments-field-task-list-nwe.png)
+
+     <span class="preview">Sample image in the Preview environment:</span>
+     ![Assignments field](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]
    >

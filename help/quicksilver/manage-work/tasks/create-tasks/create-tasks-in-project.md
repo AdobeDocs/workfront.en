@@ -25,6 +25,8 @@ This article describes how you create tasks from scratch. You can also create ta
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -51,6 +53,8 @@ This article describes how you create tasks from scratch. You can also create ta
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Create tasks in a project
 
@@ -114,7 +118,7 @@ For more detail about the information in this table, see [Access requirements in
 
    We recommend using this option especially when adding multiple tasks to the list.
 
-   ![](assets/ctp4-350x26.png)
+   ![](assets/add-more-tasks-inline.png)
 
 1. (Conditional) Do one of the following:
 
@@ -135,7 +139,7 @@ For more detail about the information in this table, see [Access requirements in
 
          This makes the new task a child or subtask of the previous task.
 
-         For more information about children tasks, see [Tasks overview](../../../manage-work/tasks/task-information/tasks-overview.md). 
+         For more information about children tasks, see [Create subtasks](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md). 
       
       1. (Conditional) If you disabled the **Autosave** option after pressing **Add More Tasks**, you may do the following:
 

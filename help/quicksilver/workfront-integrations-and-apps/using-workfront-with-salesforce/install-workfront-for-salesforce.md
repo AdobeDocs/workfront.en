@@ -24,6 +24,8 @@ For a general understanding about what you can expect by installing [!DNL Workfr
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to use the functionality described in this article:
 
 <table style="table-layout:auto"> 
@@ -41,6 +43,8 @@ You must have the following access to use the functionality described in this ar
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisites for Installing and Using [!DNL Workfront for Salesforce] {#prerequisites-for-installing-and-using-workfront-for-salesforce}
 

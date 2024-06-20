@@ -5,14 +5,14 @@ keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
 title: Kick-Starts scenario-simple project and task import preparation
 description: Describes in detail the available settings and controls for a basic Project and Task Import using the Kick Start method.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
 ---
 # Kick-Starts scenario: simple project and task import preparation
 
-Describes in detail the available settings and controls for a basic Project and Task Import using the Kick Start method. 
+Describes in detail the available settings and controls for a basic Project and Task Import using the Kick Start method.
 
 ## Scenario
 
@@ -271,10 +271,10 @@ Go to the Kick-Starts page. Select the Company, Group, Project, Task, and User o
 
 Open the Workfront.xlsx file you just downloaded. Go to the PROJ Project sheet.
 
-![](assets/im2-350x14.png)   
+![](assets/im2.png)
 Unless you have already created projects in Workfront, it should be empty.  
 
-![](assets/im10-350x42.png)
+![](assets/im10.png)
 
 Set the values for the following project fields: 
 
@@ -299,7 +299,7 @@ Set the values for the following project fields:
 * **Set other needed details.** 
   Fill in other details, such as a description or current status, as needed. Look up the Group IDs for each project on the GROUP Group sheet and input them into the setGroupID column for the respective projects. Look up the Company ID for the projects on the CMPY Company sheet and input it into the setCompanyID column. Look up the User ID for each project owner on the USER User sheet and input it into the setOwnerID column. Look up the User ID for each project sponsor on the USER User sheet and input it into the setSponsorID column.
 
-![](assets/im9-350x24.png)
+![](assets/im9.png)
 
 >[!NOTE]
 >
@@ -313,11 +313,11 @@ Open the Workfront.xlsx file you just downloaded. **Go to the TASK Task sheet.**
 
 Unless you have already created tasks in Workfront, this sheet should be empty.
 
-![](assets/im8-350x14.png)
+![](assets/im8.png)
 
-![](assets/im7-350x43.png)
+![](assets/im7.png)
 
-![](assets/im6-350x16.png)
+![](assets/im6.png)
 
 The easiest way to map tasks is one project at a time (especially when the tasks are the same on each project). You can then copy the task plan for the first project and make small adjustments to the task plan for the subsequent projects. The remaining steps will assume you are creating tasks for just the Implement Workfront project. According to the scenario, you will be importing 9 tasks per project, so input TRUE into rows 3 through 11 for the isNew column.
 
@@ -358,7 +358,7 @@ Set the values for the following task fields:
 * Input the whole number representation of the percent complete in the setPercentComplete field for each task. This value should not include the percent symbol (%).
 * Include a description and other details for each Task you are creating, as needed.
 
-  ![](assets/im5-350x35.png)
+  ![](assets/im5.png)
 
 * The setPlannedStartDate and setTaskConstraint columns are not used to build out the timeline of this project because we are relying on predecessor relationships. You can input a date for each task instead. If you do this, be sure you also provide a valid task constraint in the setTaskConstraint column. Review the Task Constraintand related articles for details on valid values for this field.
 

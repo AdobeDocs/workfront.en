@@ -11,15 +11,13 @@ exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
 
 <!-- Audited: 01/2024 -->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
+{{highlighted-preview}}
 
 As a Resource Manager, you can assign work to users and manage their daily, weekly, or monthly allocations from the Workload Balancer to ensure they are allocated an amount of hours that fits in their available schedules.
 
 ## Access requirements {#access-requirements}
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following:
 
@@ -62,6 +60,8 @@ You must have the following:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Understand user allocations
 
@@ -111,11 +111,14 @@ Consider the following when locating daily, weekly or monthly allocations for ta
 
 * Two users in different timezones or schedules in different timezones than those of the assigned users can cause the allocation amounts to appear differently to two users viewing the same work items.
 
-* When a user has scheduled time off, the day or the portion of the day displays in a gray background. If the Workfront administrator enabled the User Time Off setting in the Setup area to take into consideration the user's time off, the allocated hours move to the next available day in the timeline. If the setting is disabled, the allocated hours remain on the day marked for time off and the user displays as overallocated. For more information, see [Configure system-wide project preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* When a user has scheduled time off, the day or the portion of the day displays in a gray background, <span class="preview">and an airplane icon indicates time off</span>. If the Workfront administrator enabled the User Time Off setting in the Setup area to take into consideration the user's time off, the allocated hours move to the next available day in the timeline. If the setting is disabled, the allocated hours remain on the day marked for time off and the user displays as overallocated. For more information, see [Configure system-wide project preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   >[!TIP]
   >
   >If the time off was marked after the user was assigned to a work item, you must recalculate the project's timeline to display the moved allocation. For information, see [Recalculate project timelines](../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+
+  * <span class="preview">When multiple users are assigned to a task and the primary assignee has scheduled time off, the timeline is shifted (if the dates are not fixed) and the planned hours of all assignees are redistributed across the new duration of the task. If the task has fixed dates, then the timeline is not changed due to time off, and the hours are reallocated among the remaining days.</span>
+  * <span class="preview">If allocations are made manually, the planned hours are not reallocated after the time off.</span>
 
 * If there are multiple users assigned to the task, the amount of the Planned Hours is distributed evenly to each user first, then evenly to each day within the Duration of the task. This distribution becomes the allocation of each user to the task.
 
@@ -253,7 +256,7 @@ As part of assigning work to users, you can modify user allocations in the Workl
 
 >[!TIP]
 >
-><span class="preview">A pencil icon displays to the right of the work item name to indicate that it was manually adjusted.</span>
+>A pencil icon displays to the right of the work item name to indicate that it was manually adjusted.
 
 ![Manually adjusted hours icon](assets/icon-for-manually-adjusted-hours.png)
 

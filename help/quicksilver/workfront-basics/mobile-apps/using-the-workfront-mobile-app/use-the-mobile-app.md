@@ -32,9 +32,13 @@ In the mobile app, you can complete work items and view information like you do 
 * Create and process Workfront requests
 * Log time on a timesheet
 
->[!NOTE]
+>[!IMPORTANT]
 >
 >The [!DNL Adobe Workfront] mobile app has replaced the [!DNL Workfront Proof] app. [!DNL Workfront] customers should now use the [!DNL Adobe Workfront] mobile app for conducting proof reviews and approvals.
+
+>[!NOTE]
+>
+>Hyperlinks in text fields are not supported in the Workfront mobile app.
 
 For more information on the [!DNL Adobe Workfront] mobile app, review the following articles:
 

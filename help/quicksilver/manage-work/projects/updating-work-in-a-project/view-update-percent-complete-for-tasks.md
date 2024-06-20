@@ -70,6 +70,19 @@ You can update the percent complete for a task in any of the following areas:
 
   ![](assets/nwe-updatetaskpercentinheader-350x54.png)
 
+* **In the Summary panel of a task**: You can update the percent complete of a task at the top of the Summary panel when viewing the task in the following areas: 
+
+  * Task list or report
+  * Timesheet
+  * Workload Balancer
+
+  ![](assets/update-percent-complete-in-task-summary-highlighted.png)
+  
+  For more information, see [Summary overview](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+
+* **Home**: You can update the percent complete of a task or issue from the Summary panel in the Home area, or from the My Work widget. 
+
+For information, see  [Getting started with the new Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md). 
 
 ## Considerations about updating the percent complete of a task
 
@@ -88,7 +101,13 @@ You can update the percent complete for a task in any of the following areas:
     * A list of projects and apply the Milestone view
     * A task, by accessing the task page
 1. Locate the **Percent Complete** field for the task whose percent complete you want to update. 
-1. Click inside the Percent Complete field and type a number between 0 and 100
+
+    >[!TIP]
+    >
+    >  The Percent Complete field always displays at the top of the Summary panel.
+
+
+1. Click inside the **Percent Complete** field and type a number between 0 and 100
     
     Or
 

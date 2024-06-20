@@ -2,7 +2,7 @@
 product-area: projects;templates
 navigation-topic: create-projects
 title: Create a project using a template
-description: You can use templates as a framework to create projects in Adobe Workfront. If you have projects that repeat often, using templates for the general timeline of the new project saves you from having to build the same projects repeatedly.
+description: You can use templates as a framework to create projects in Adobe Workfront. If you have projects that repeat often, using templates for the new project saves you from having to build the same projects repeatedly.
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
@@ -36,6 +36,8 @@ You have the following options for creating a project from a template:
 * Create a project from a template in the Groups area
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <!--drafted for P&P:
 
@@ -97,9 +99,15 @@ You must have the following access to perform the steps in this article:
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Create a project from a template in the Projects area
 
-You can create a project from the Projects area in the Main Menu , or from the Projects area of a portfolio or a program.
+You can create a project from the Projects area in the Main Menu, or from the Projects area of a portfolio or a program.
+
+>[!NOTE]
+>
+>Your system or group administrator might modify your interface using a layout template. In this case, some of the names of the sections and areas referred to in the following steps might be different in your instance of Workfront. 
 
 1. Do one of the following:
 

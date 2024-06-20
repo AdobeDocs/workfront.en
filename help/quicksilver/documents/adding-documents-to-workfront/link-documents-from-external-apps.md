@@ -55,6 +55,8 @@ You can proof and approve documents linked to an external cloud provider the sam
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -79,6 +81,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Document storage
 
@@ -137,7 +141,8 @@ You can link documents to Workfront from an external application such as Google 
 
    >[!NOTE]
    >
-   >For documents that are linked to Box, the link to the document in Box does not display until you refresh the page.
+   >* If the download URL that is used to link the document exceeds 2048 characters, the file cannot link.  
+   >* For documents that are linked to Box, the link to the document in Box does not display until you refresh the page.
 
 ### Add a new version of a linked document {#add-a-new-version-of-a-linked-document}
 

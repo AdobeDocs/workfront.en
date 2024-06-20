@@ -28,7 +28,9 @@ The Custom Refresh Sandbox is an environment where you can test and work using d
 
 ## Access requirements
 
-You must have the following:
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -48,6 +50,8 @@ You must have the following:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Refreshing the Custom Refresh Sandbox
 

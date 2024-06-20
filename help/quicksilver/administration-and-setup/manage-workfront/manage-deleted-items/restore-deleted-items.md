@@ -32,6 +32,8 @@ A group administrator can also restore these objects for a group they manage.
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -52,6 +54,8 @@ You must have the following to perform the steps in this article:
 </table>
 
 &#42;To find out what plan or license type you have, contact your Workfront administrator.
+
++++
 
 ## Information that is recovered when you restore a project, task, or issue
 

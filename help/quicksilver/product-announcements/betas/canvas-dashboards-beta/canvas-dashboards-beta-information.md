@@ -1,93 +1,75 @@
 ---
-product-area: dashboards
-navigation-topic: creating-and-managing-dashboards
+product-area: Canvas Dashboards
+navigation-topic: canvas-dashboards-beta
 title: Canvas Dashboards beta information
 description: General information about the Canvas Dashboards beta
 author: Nolan
 feature: Reports and Dashboards
-hidefromtoc: yes
-hide: yes
 recommendations: noDisplay, noCatalog
 exl-id: 5fbcd807-e152-4e93-a895-2028ed089f72
 ---
 # Canvas Dashboards beta information
 
-<!--
+Canvas Dashboards is a feature currently in development that allow you to easily visualize your Adobe Workfront data by adding various report types onto a customizable canvas. Please note that while we are grateful for your participation during our beta testing phase, parts of the feature may not be complete or work as intended. Please submit any feedback regarding your experience by following the instructions in the [Provide feedback](#provide-feedback) section below.
 
-Canvas Dashboards, a feature currently in development for Dashboards, offers a new option for building effective dashboards in Workfront. Canvas Dashboards will allow Reporting Canvas visualizations to be easily included with existing reports, providing increased flexibility as well as new layout options.
+For basic information about using Canvas Dashboards, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+For a list of all Canvas Dashboards documentation, see [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
-This feature is in development, and does not yet support:
-* external pages
-* calendar integration
-* prompted reports
-* distribution through layout templates
+**Beta schedule:**
 
-For a complete list of features that have been added to Canvas Dashboards, see [Canvas Dashboards: release activity](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-release-activity.md)
+* Closed beta start date - TBA
+* Open beta start date - TBA
+* Planned release date - TBA
 
-## Access Canvas Dashboards
+## Participate in the beta
 
-A new Canvas Dashboards option on the left panel of the existing dashboards landing page can be enabled to access Canvas Dashboards. This menu option is toggled off by default and must be turned on to gain access. See instructions below for information on enabling the menu option and navigating to it.
+### Enroll
 
-### Add Canvas Dashboards to the Dashboards left panel
+To enroll in the beta:
 
->[!IMPORTANT]
->
->You must have at least View rights for Reports and Dashboards in order to toggle the Canvas Dashboards item in the Layout Template.
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Dashboards**.
 
-1. Begin working on the layout template in which you would like to enable Canvas Dashboards, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+1. Click the **Join the Canvas Dashboards beta** beta button in the top-right corner of the page.
 
-1. Click on the **Customize what users see** dropdown menu, then click **Dashboards**.
+   >[!NOTE]
+   >
+   >This button is available only if your organization has been accepted into the closed beta. When the open beta begins, this will be available for all organizations.
 
-1. In the **Left panel** list that appears below, click the ![](assets/delete-secondary-nav-item.png) icon next to **Canvas Dashboards**. The icon will change to ![](assets/add-secondary-nav-item.png) to show that it is now visible in the Dashboards left panel.
+1. Read the terms, then click **Accept**. You are now enrolled in the beta; please note, however, that it will take a few minutes for your Workfront data to become fully accessible in Canvas Dashboards. 
 
-1. Click **Save** at the bottom of the screen.
+### Provide feedback
 
-### Open Canvas Dashboards
+Feedback is appreciated as we develop this tool over the course of the beta. Please follow the instructions below to share your experience with us.
 
-1. Make sure you have enabled the Canvas Dashboards option in your Layout Template. See **Adding Canvas Dashboards to the Dashboards menu** above for instructions.
-
-1. Click the Main Menu icon ![](assets/main-menu-icon.png), then click **Dashboards**.
+1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Dashboards**.
 
 1. In the left panel, click **Canvas Dashboards**.
 
-## Using Canvas Dashboards
+1. Click the **Send Feedback** button at the bottom-right corner of the page, then enter your feedback in the form that appears and click **Submit**.
 
-### Create a new Canvas Dashboard
+## Planned features
 
-1. Open Canvas Dashboards as described in **Open Canvas Dashboards** above.
+Below is a list of the report types currently supported in the beta, as well as a list of other features that we plan to add to Canvas Dashboards over the course of the beta and beyond.
 
-1. Click **+ New Dashboard**
+### Supported report types
 
-1. Click **Untitled** in the top-left corner to enter a name for the dashboard.
+* Existing reports (reports created using the current reporting tool)
+* Chart reports
+* KPI reports
+* Table reports
+* Pending approvals reports
 
-1. Click **Done** in the top-right corner to save your new dashboard, or begin adding widgets as described in **Add a report to a Canvas Dashboard** below.
+### Features in development
 
-### Add a report to a Canvas Dashboard
+* Date- and user-based wildcards for filters
+* Workfront Planning reports
+* Additional Workfront object types
+* Boards reports
+* Other usability enhancements
+* Worksheets
+* Embedded web content
 
-1. Open Canvas Dashboards as described in **Open Canvas Dashboards** above.
+### Future roadmap features
 
-1. Click on the dashboard to which you would like to add a report from the list of dashboards.
-
-1. Click **Manage Widgets** in the top-right corner, then click **Add Widget**.
-
-1. Hover over the type of report widget you would like to add, then click on the checkbox that appears.
-
-1. When you have selected all of the widgets you would like to add, click **Add** in the top-right corner.
-
-1. The selected widgets will appear on the dashboard. Click **Configuration** in the center of a widget to choose which report it will display.
-
-1. Begin typing in the name of the report you would like to display in the **Find Report** field. When you see the report in the list, click either the **List Report** or **Chart Report** icon next to its name to display the information from that report in your chosen format.
-
->[!WARNING]
-> While adding multiple widgets that display information from the same report is currently possible, we recommend only displaying each report once as it can affect dashboard performance.
-
-### Edit a widget in a Canvas Dashboard
-
-1. Open Canvas Dashboards as described in **Open Canvas Dashboards** above.
-
-1. Click the dashboard that you would like to edit from the list of dashboards.
-
-1. (Optional) To resize a widget, drag and drop the **Resize** icon in the bottom-left corner of the widget to your desired size.
-
-1. (Optional) To reposition a widget, drag the bordering white space of the widget and drag it to your desired relative position on the dashboard.
--->
+* Dashboard-level prompts
+* Currency support

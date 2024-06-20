@@ -26,6 +26,8 @@ For general information about delegating work, see [Delegate work overview](../.
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 >[!IMPORTANT]
 >
 >* The users that you select as delegates receive the same permissions as your permissions on the tasks and issues you delegate to them.
@@ -73,6 +75,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 <!--note from the table for Object permissions:
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project&nbsp;Owner (NOTE:&nbsp;you cannot delegate projects yet)</p>

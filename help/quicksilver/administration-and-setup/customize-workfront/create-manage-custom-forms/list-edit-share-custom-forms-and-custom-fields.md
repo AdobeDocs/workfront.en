@@ -69,7 +69,7 @@ You must have the following to perform the steps in this article:
 
    For information about what you can do when you select an item in the list, see the following articles:
 
-   * [Edit properties of a custom field, section break, or widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md) 
+   * [Add or edit a custom field, section break, or widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md) 
    * [Configure sharing for custom fields and widgets](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md) 
    * [Delete a custom field or widget from the system](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 

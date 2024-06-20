@@ -20,6 +20,10 @@ To view available templates, click the **Templates** icon ![](assets/fusion-temp
 
 These templates automate Workfront processes and workflows.
 
+### [!BADGE New! ]{type=Informative} Workfront Boards > Create a standard Checklist based on Boards Column
+
+This Fusion Template creates a standard checklist for all cards that enter a specific column on a specific board on a timed basis.
+
 ### Workfront - Project Creation from CSV
 
 This automation creates new projects in Workfront based off Name, Portfolio, Status, Planned Start Date, and Template details that you specify in a CSV.
@@ -52,7 +56,7 @@ This automation watches for new projects in portfolios with custom forms. It the
 
 This template converts Issues to Projects. You can modify it to meet your organization's standards.
 
-### [!BADGE New!]{type=Informative} Workfront - Copy documents from issues/requests to already converted projects or tasks
+### Workfront - Copy documents from issues/requests to already converted projects or tasks
 
 This flexible scenario copies documents from issues or requests to previously converted projects or tasks.
 

@@ -129,7 +129,7 @@ For this example, we are not using a trigger module. Instead, this scenario begi
    1. Log into [!DNL Workfront].
    1. Examine the access that [!DNL Workfront Fusion] is requesting, then click **[!UICONTROL Allow Access]**.
 
-   If you need help, see [About connecting [!DNL Adobe Workfront Fusion] to an app or service](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
+   If you need help, see [Connections overview](../../workfront-fusion/connections/about-connecting-wf-fusion-to-app-or-service.md).
 
 ### 3. Configure the first module
 

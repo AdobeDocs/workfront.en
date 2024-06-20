@@ -95,13 +95,13 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
       </ul>
       <p>Once you have selected the widget you would like to edit, available options will display on the right. These options include <b>Filters</b>, <b>Columns</b>, and <b>Groups</b>. You can:</p>
       <ul>
-      <li><p><b>Select which Filters, Columns, or Groups will be available to users:</b></p>
-      <p>Check the box next to all options in the list you would like users to be able to use. Unchecked options will not appear for users.</li></p>     
-    <p>
+      <li><p><b>Select and order Filters, Columns, or Groups available to users:</b></p>
+      <p>Check the box next to all options in the list you would like users to be able to use. Unchecked options will not appear for users. Drag and drop options in the list to set an order.</li></p>
+      <p>
 
   >[!IMPORTANT]
   >
-  >Users must have Create access for Views in order to have column configurations apply to to their widgets properly.
+  >Users must have at least Create access to Views in order for administrator column configuration to properly apply to their new Home pages.
 
   </p>
       <li><p><b>Set a default Filter or Group for the widget:</b></p>

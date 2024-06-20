@@ -10,10 +10,13 @@ exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
 ---
 # Smart assignments overview
 
+<!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
-<!-- {{preview-and-fast-release}} -->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
-{{highlighted-preview}}
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
 
 When managing task and issues assignments, you can use smart assignments to identify who the best resource is to complete the work. Smart assignments are suggestions that Adobe Workfront presents to you when you assign work items to resources based on an algorithm that determines the most appropriate resource for the job. Smart assignments can be users, job roles, or teams. 
 
@@ -62,11 +65,11 @@ You can view smart assignments in the following areas where you can assign tasks
 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
 
-  ![](assets/smart-assignments-in-home-nwe-350x216.png)
+  <span class="preview">![](assets/smart-assignments-in-home-nwe-350x216.png)</span>
 
 * Workload Balancer in the Assigned this to area when you assign a task or issue
 
-  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
+  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
 
 
 ## Smart assignments criteria
@@ -115,7 +118,7 @@ The calculation for the similarity score and the order in which the assignments 
 
   For example, if Rick was assigned to a similar task earlier today and Jennifer was assigned to a similar task two days ago, Rick displays first.  
 
-* Assignments identified in this phase are listed in the **Suggested assignments** section of the Assignments field. 
+* Assignments identified in this phase are listed in the    **Suggested assignments**  section of the Assignments field for tasks. 
 
 * If there are no matches using this calculation, the second phase of smart assignments starts which is calculated using a different algorithm.  
 
@@ -125,7 +128,7 @@ If the first step of task smart assignments has found no matches, Workfront calc
 
 For more information, see the section [Smart assignments criteria for tasks and issues](#smart-assignments-criteria-for-tasks-and-issues) in this article. 
 
-Assignments identified in this phase are listed in the **Other assignments** section of the Assignments field for tasks. <!--update this to "Other assignments"-->
+Assignments identified in this phase are listed in the **Users and teams**, **Job role assignments**, and **Rate card roles**  sections of the Assignments field. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 ### Smart assignments criteria for tasks and issues 
 
@@ -135,7 +138,7 @@ Assignments identified in this phase are listed in the **Other assignments** sec
 >
 ><span class="preview">The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. For information, see the section [First phase of smart assignment calculation for tasks](#first-phase-of-smart-assignment-calculation-for-tasks) in this article. The following criteria always applies for issues, by default. </span>
 
-![](assets/smart-assignments-issue-header.png)
+<span class="preview">![](assets/smart-assignments-issue-header.png)</span>
 
 Users are recommended in the smart assignments drop-down list based on a combination of the following criteria (listed in order from most important to least important): 
 
@@ -151,6 +154,8 @@ Users are recommended in the smart assignments drop-down list based on a combina
 >* If there is no role or team assigned on the task or issue, Workfront displays all the users assigned for the last 30 days, up to 50 users. 
 >
 >* If you have not made any assignments in the past 30 days, only users that belong to either the assigned team or have the role assigned to the work item display in the smart assignments list. 
+
+
 
 <!--the commented out piece in the tip above was live before but I am not totally sure that smart assignments look at your team. I think they look JUST at the team/ role assigned to the work item; see this help site request for more info: https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/62fd222200037eb87572c5b6ad6bf53e/overview -->
 <!--

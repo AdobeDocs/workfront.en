@@ -32,6 +32,8 @@ Ideally, you should edit a project when the project is in the Planning status. F
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -60,6 +62,8 @@ Ideally, you should edit a project when the project is in the Planning status. F
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Limitations for editing projects
 

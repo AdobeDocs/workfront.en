@@ -43,6 +43,10 @@ Before you can implement authorization, you need to register your app in OAuth2 
 
 For instructions on creating the OAuth2 application, see [Create an OAuth2 single-page web application using PKCE ](../../administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-single-page-web-application-using-pkce) in [Create OAuth2 applications for Workfront integrations](../../administration-and-setup/configure-integrations/create-oauth-application.md)
 
+>[!NOTE]
+>
+>You can have up to a total of ten OAuth2 Applications at one time.
+
 
 ## Create the Proof Key for Code Exchange
 

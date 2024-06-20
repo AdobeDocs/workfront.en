@@ -62,6 +62,18 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 In order to use [!DNL Miscrosoft Word Templates] with [!DNL Adobe Workfront Fusion], it is necessary to have an [!DNL Office 365] account. You can create one at www.office.com.
 
+
+
+## Connecting the [!DNL Office] service to [!DNL Workfront Fusion]
+
+For instructions about connecting your [!DNL Office] account to [!UICONTROL Workfront Fusion], see [Create a connection to [!UICONTROL Adobe Workfront Fusion] - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>Some Microsoft apps use the same connection, which is tied to individual user permissions. Therefore, when creating a connection, the permissions consent screen displays any permissions that were previously granted to this user's connection, in addition to any new permissions needed for the current application. 
+>
+>For example, if a user has "Read table" permissions granted via the Excel connector and then creates a connection in the Outlook connector to read emails, the permissions consent screen will show both the already granted "Read table" permission and the newly required "Write email" permission.
+
 ## Using [!DNL Microsoft Word Templates] modules
 
 You can use a [!DNL Microsoft Word Template] module to merge data from multiple web services into a [!DNL Microsoft Word] document.
