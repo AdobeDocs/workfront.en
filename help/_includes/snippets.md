@@ -258,7 +258,7 @@ You must install the correct plugin for the Adobe Creative Cloud application you
    * **My workspaces**: Displays workspaces you created.
    * **Other workspaces**: Displays all workspaces in Workfront Planning, including the ones shared with you. 
 
-   For all other users, all workspaces that they created or are shared with them display in the **Workspaces** area.
+   For all other users, all workspaces you created or are shared with you display in the **Workspaces** area.
  
 ## Workfront Planning important intro - {#planning-important-intro}
 

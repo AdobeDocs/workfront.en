@@ -211,10 +211,10 @@ The following are the main Workfront Planning objects and concepts:
     >
     > You cannot add the following field types as lookup fields:
     >
-    >    * People
-    >    * Created by
-    >    * Last modified by
-    >    * Workfront typeahead fields (including fields like Project Owner, or Project Sponsor)
+    >* People
+    >* Created by
+    >* Last modified by
+    >* Workfront typeahead fields (including fields like Project Owner, or Project Sponsor)
 
     For information about linking record types, records, and creating linked fields, see the following articles:
 

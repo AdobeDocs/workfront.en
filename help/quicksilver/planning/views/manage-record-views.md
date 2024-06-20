@@ -192,7 +192,7 @@ The following table shows the similarities and differences between the table, ti
     
     >[!TIP]
     >
-    >    You can select from record date fields, or lookup date fields from connected record or object types.
+    >    You can select from record date fields, or lookup date fields from connected record or object types. You must use aggregators for date fields (MAX or MIN) when you select lookup fields as Start and End dates for the timeline and calendar views. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
 
 1. Click **Create**.
 
