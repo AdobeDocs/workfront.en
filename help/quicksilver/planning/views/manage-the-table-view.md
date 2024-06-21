@@ -139,9 +139,7 @@ You can add up to 500 fields (or columns) in a table view.
         >
         >* You cannot move the Name field to another position, unless you designate another field as the primary field. For more information, continue with Step 4. <!--accurate?-->
         >
-        >* You cannot hide or delete a primary field. 
         >
-        >* The primary field is frozen and is not part of the horizontal scroll.
  
     * Replace the field in the first column with another field by changing the primary field. For more information, continue to step 4. <!--accurate?-->
 
@@ -153,23 +151,7 @@ You can add up to 500 fields (or columns) in a table view.
 
     The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves to the second column.
 
-    >[!NOTE]
-    >
-    >   * Only fields of the following types can be primary fields: 
-    >
-    >       * Single-line text
-    >       * Number
-    >       * Formula
-    >
-    >   * The primary field is always frozen and cannot be moved. You can select another field to replace a primary field, if you need to move it to another position. 
-    >
-    >   * Changing the primary field in your table view affects the view for all other users who choose it.
-    >
-    >   * Changing the primary field in a table view affects all your table views. 
-    >
-    >   * You cannot delete or hide a primary field. 
-    >
-    >   * The value listed in the primary field is always hyperlinked to the record's page.
+    Primary fields become the record's title and display in the header area of the record's page, and everywhere where the records display. For example, the record title displays in connected fields and all views. For more information about primary fields, see [Primary field overview](/help/quicksilver/planning/fields/primary-field-overview.md). 
 
 1. Click and drag the column separation lines and drop them in the desired spot to increase the width of the columns. 
 
@@ -224,7 +206,7 @@ You can have up to 50,000 records (or rows) for a record typeS.
     
     For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. (Optional) Select one or multiple records in a row, then drag and drop the **handle** icon ![](assets/handle-icon.png) to the left of the record name to reorder the rows. 
+1. (Optional) Select one or multiple records in a row, then drag and drop the **handle** icon ![](assets/handle-icon.png) to the left of the record to reorder the rows. 
 
     >[!NOTE]
     >
@@ -258,7 +240,7 @@ Consider the following when working with filters in the table view:
 
 * You can filter by connected record fields or lookup fields, but not for those fields that allow linking to multiple records.
 
-* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a filter for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the Project Owner in the filter you are creating for the Activity record type. 
+* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a filter for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Budget in the filter you are creating for the Activity record type. 
 
 To add a filter to a table view: 
 
@@ -369,7 +351,7 @@ Consider the following:
 * Removing groupings removes them from anyone accessing the same record type as you and who displays the same view as you do. 
 * You can edit records listed under a grouping. 
 * You can group by connected record fields or lookup fields, but not for those fields that allow linking to multiple records.
-* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a grouping for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the Project Owner in the grouping you are creating for the Activity record type. 
+* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a grouping for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Status in the grouping you are creating for the Activity record type. 
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
@@ -397,7 +379,7 @@ To add a grouping:
     Click **Clear all** to remove all fields.  
 
 1. Click outside the **Group records by** box to close it. 
-1. (Optional) Click **+ New < Record type name >** at the end of any grouping to add new records, then refresh your page to add the new record to the appropriate grouping. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
+1. (Optional) Click **+ New record** at the end of any grouping to add new records, then refresh your page to add the new record to the appropriate grouping. <!--this might need to be changed when they add the Refresh button on the toolbar of the table view-->
 
 ### Add a sort {#sort-information} 
 
@@ -426,7 +408,7 @@ Consider the following when sorting records in the table view:
 
 * You can sort by connected record fields or lookup fields, but not for those fields that allow linking to multiple records.
 
-* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a sort for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the Project Owner in the sort you are creating for the Activity record type. 
+* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a sort for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Status in the sort you are creating for the Activity record type. 
 
 To sort <!--ungrouped (add this when sorting for groupings will be available--> records, do the following:
 

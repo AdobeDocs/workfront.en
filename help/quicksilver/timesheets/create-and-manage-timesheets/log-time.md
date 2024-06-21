@@ -27,6 +27,8 @@ For more information about the type of hours you can log in Workfront, see [Mana
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article and log Project Specific hours:
 
 <table style="table-layout:auto"> 
@@ -61,6 +63,7 @@ You must have the following access to perform the steps in this article and log 
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
 
 ## Considerations when logging time in Workfront
 

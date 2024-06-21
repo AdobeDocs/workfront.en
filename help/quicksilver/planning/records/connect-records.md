@@ -100,7 +100,8 @@ You must have the following access to perform the steps in this article:
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
    <td> <p>Manage permissions to a workspace to connect records </p>  
-   <p>View or higher permissions to a workspace to view all connections to objects and fields from other applications, regardless of your access in other application. </p>
+   <p>View or higher permissions to a workspace to view all connections to objects and fields from other applications, regardless of your access in the other application. </p>
+   <p>View or higher permissions to the objects you want to link from Workfront or Experience Manager Assets. </p>
    <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p>
 </td>
   </tr>
@@ -123,29 +124,42 @@ You must have the following access to perform the steps in this article:
 
 * After you connect record types, the connected record types display as linked record fields in the table of the record types they are linked from and on the records' pages. 
 * You can browse and add records and objects of the linked record and object types from the linked record fields. 
-* You can add fields of the linked record types to the table of the record type you are linking from. 
-* You cannot manually update the values of linked fields on the records you are linking from. 
+* You can add fields (lookup fields) of the linked record types in the table of the record type you are linking from. 
 
-  The values of the linked fields of the linked records populate the Workfront Planning record that you are linking from automatically from the original record or object. 
+    You can add fields (lookup fields) of the record types you are linking from in the table of the record type you are linking to. 
+
+    For example, if you link the record type of Product from the record type of Campaign, you can display Product fields for campaigns, as well as Campaign fields for products. 
+* You cannot manually update the values of lookup fields on the records you are linking from. 
+
+  The values of the lookup fields of the linked records populate the Workfront Planning record that you are linking from automatically from the original record or object. 
 
 * Everyone with access to Workfront Planning and View or higher permissions to the workspace can see the connections that you make between records or between records and other applications' objects. They can view connected records and objects regardless of their permissions in the  applications you are connecting to. 
 * You can view and edit everyone else's connections, if you have Manage permissions to the workspace where the connected records are. 
 * You can connect one record to one or multiple objects from another application.
-* To link records with other records or objects, you must have the following:
 
-  * At least one workspace, record type, and record. 
-
-      For more information, see the following articles:
-
-      * [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md)
-      * [Create record types](/help/quicksilver/planning/architecture/create-record-types.md)
-      * [Create records](/help/quicksilver/planning/records/create-records.md)
-
-  * Connections between record types, or between record types and objects from other applications. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md)
 * You can connect objects from Workfront to Workfront Planning records in the following areas:
   * From a Planning record in Workfront Planning. 
   * From the Planning section of a Workfront object. 
+
+* You can connect Workfront Planning records to Experience Manager Assets in the following areas:
+
+  * From a Planning record in Workfront Planning
   
+
+## Prerequisites for linking records
+
+To link records with other records or objects, you must have the following:
+
+* At least one workspace, record type, and record. 
+
+  For more information, see the following articles:
+
+  * [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md)
+  * [Create record types](/help/quicksilver/planning/architecture/create-record-types.md)
+  * [Create records](/help/quicksilver/planning/records/create-records.md)
+
+* Connections between record types, or between record types and objects from other applications. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
+
 ## Connect records from Workfront Planning
 
 ### Connect Adobe Workfront Planning records
@@ -180,7 +194,7 @@ You must have the following access to perform the steps in this article:
 
     >[!TIP]
     >
-    >    You can open a record's page, find the linked record field and click **Connect records** in the field to add records from the connected record or object type. 
+    >    You can open a record's page, find the linked record field and click the connected field (if there are records already connected), or click **Connect records** (if the field is empty) to add records from the connected record or object type. 
     >
     >![](assets/connect-records-from-record-page-field.png)
 
@@ -301,6 +315,11 @@ After you created a connection between a record type and a Workfront object type
 >If you have questions about onboarding to the Adobe Admin Console, see the [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 After you create a connection between a record type and Adobe Experience Manager Assets, you can connect individual records to Experience Manager assets. The asset fields you connected from Experience Manager Assets when you created the connection automatically populate on the record type you linked from.
+
+>[!NOTE]
+>
+>Planning records and their fields are accessible from Experience Manager Assets when your Workfront administrator configures the metadata mapping through the integration between Workfront and Adobe Experience Manager Assets. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+
 
 {{step1-to-planning}}
 

@@ -156,6 +156,7 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+      * [Workfront Fusion release activity: Week of June 17, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-6-17.md)
       * [Workfront Fusion release activity: Week of June 3, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-6-3.md)
       * [Workfront Fusion release activity: Week of May 20, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-20.md)
       * [Workfront Fusion release activity: Week of May 13, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-5-13.md)
@@ -2067,6 +2068,7 @@ feature-set: Workfront
     * [Edit fields](planning/fields/edit-fields.md)
     * [Delete fields](planning/fields/delete-fields.md) 
     * [Formula fields overview](planning/fields/formula-fields.md)   
+    * [Primary field overview](planning/fields/primary-field-overview.md)
   * Adobe Workfront Planning access {#adobe-workfront-planning-access}
     * [Adobe Workfront Planning access information: article index](planning/access/access-information.md)
     * [Access overview](planning/access/access-overview.md)
@@ -2085,7 +2087,7 @@ feature-set: Workfront
     * [History section overview](planning/records/history-section-overview.md)
     * [Add a thumbnail to a record](planning/records/add-thumbnails-to-records.md)
     * [Add a cover image to a record](planning/records/add-a-cover-image-to-a-record.md)
-    * [Manage the record page](planning/records/manage-the-record-page.md)
+    * [Manage the record page layout](planning/records/manage-the-record-page.md)
     * [Manage records in the Planning section of Adobe Workfront objects](planning/records/manage-records-in-planning-section.md)
   * Adobe Workfront Planning views {#adobe-workfront-planning-views}
     * [Views: article index](planning/views/views-information.md)
@@ -2233,6 +2235,7 @@ feature-set: Workfront
     * [Adobe Experience Manager Assets modules](workfront-fusion/apps-and-their-modules/aem-assets-modules.md)    
     * [Adobe Experience Manager Forms module](workfront-fusion/apps-and-their-modules/aem-forms-modules.md)    
     * [Adobe Firefly modules](workfront-fusion/apps-and-their-modules/adobe-firefly-modules.md)
+    * [Adobe I/O Events modules](workfront-fusion/apps-and-their-modules/adobe-io-events-modules.md)
     * [Adobe Journey Optimizer modules](workfront-fusion/apps-and-their-modules/adobe-journey-optimizer-modules.md)
     * [Adobe Lightroom modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/adobe-lightroom-modules.md)
     * [Adobe PDF Services modules](workfront-fusion/apps-and-their-modules/pdf-modules.md)
@@ -2738,6 +2741,7 @@ feature-set: Workfront
     * [Options configuration for OPTASK copyIssue](wf-api/tips-tricks-and-troubleshooting/copyissue-options.md)
     * [Retrieve currency information for a project when currency is null (not assigned)](wf-api/tips-tricks-and-troubleshooting/retrieve-currency-when-null.md)
     * [Using the API to add a linked folder is not supported](wf-api/tips-tricks-and-troubleshooting/linked-folders-for-docu-not-supported.md)
+    * [Document moveToFolder action does not work](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/error-using-movetofolder.md)
 * ProofHQ API {#proofhqpapi}
   * [ProofHQ API](proofhq-api/proofhq-api.md)
   * General {#general}

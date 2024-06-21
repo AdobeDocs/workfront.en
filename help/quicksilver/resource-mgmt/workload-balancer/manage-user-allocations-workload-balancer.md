@@ -17,6 +17,8 @@ As a Resource Manager, you can assign work to users and manage their daily, week
 
 ## Access requirements {#access-requirements}
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following:
 
 <table style="table-layout:auto"> 
@@ -58,6 +60,8 @@ You must have the following:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Understand user allocations
 

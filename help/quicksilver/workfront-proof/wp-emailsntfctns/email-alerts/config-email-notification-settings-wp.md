@@ -20,17 +20,6 @@ Email notifications inform collaborators about recent activity on proofs, such a
 
 You can set email notifications for reviewers in the following areas: 
 
-## Access requirements
-
-You must have the following access to perform the steps in this article:
-
-<table style="table-layout:auto"> 
-<tr> 
-   <td role="rowheader">Product</td> 
-   <td>Workfront Proof Standalone</td> 
-  </tr> 
-</table>
-
 Email notifications for reviewers can be set on the New proof page, [!UICONTROL New version] page, and managed in the [!UICONTROL Workflow] section of the [!UICONTROL Proof details] page. For more information, see [Generate Proofs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md)
 
 * The New proof page
@@ -57,9 +46,20 @@ Users with [!UICONTROL Administrator] or [!UICONTROL Billing Administrator] prof
 
 For information about profiles, see [Proof Permissions Profiles in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-* [Configure proof defaults in personal settings ([!DNL Workfront Proof] users only)](#configure-proof-defaults-in-personal-settings-workfront-proof-users-only)
-* [Change email alerts for a recipient](#change-email-alerts-for-a-recipient)
-* [Configure proof defaults for a user](#configure-proof-defaults-for-a-user)
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article:
+
+<table style="table-layout:auto"> 
+<tr> 
+   <td role="rowheader">Product</td> 
+   <td>Workfront Proof Standalone</td> 
+  </tr> 
+</table>
+
++++
 
 ## Configure proof defaults in personal settings ([!DNL Workfront Proof] users only) 
 

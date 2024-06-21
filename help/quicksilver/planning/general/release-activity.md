@@ -47,6 +47,110 @@ If your organization is not in the Adobe Unified Experience, you receive an emai
 
 For more information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/planning/notifications/notifications-information.md). -->
 
+## Week of June 17, 2024
+
+### Updated look and feel of the Details page
+
+Production: June 17, 2024 
+
+Preview: To be determined 
+
+We have updated the look and feel of the Details page of records. As part of this update, the field icons have been removed.  
+
+For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
+
+### Updated workspace templates
+
+Production: June 17, 2024 
+
+Preview: To be determined 
+
+We have updated the look and field of the workspace template cards in Workfront Planning.  
+
+This update includes the following improvements: 
+
+* The record types that belong to each template display as cards. 
+
+* We have removed the Marketing management template. We  have added the following templates for Marketing management, and we recommend using the appropriate one depending on the complexity of your workflows:  
+
+    * Basic: Marketing Management 
+    * Advanced: Marketing Management 
+    * Enterprise: Marketing Management 
+
+For information, see the following articles: 
+
+* [List of workspace templates](/help/quicksilver/planning/architecture/workspace-templates.md)  
+
+* [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md)  
+
+### New experience when adding a thumbnail or a cover image to a record
+
+Production: June 17, 2024 
+
+Preview: To be determined 
+
+We have updated the experience for adding a thumbnail or a cover image to a record from the Details page. The improvements include the following updates:  
+
+* A thumbnail image and a cover image are automatically assigned to a record when you create it. You can later edit these images.
+
+* You can add a thumbnail from the Details page. Prior to this enhancement, you could add a thumbnail only from the table view. 
+
+* You can browse a gallery of images to select an image for the cover or for the thumbnail of a record. Prior to this enhancement, you could only upload your own image file.  
+
+For more information, see the following articles: 
+
+* [Add a cover image to a record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) 
+
+* [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md) 
+
+### Update the record title in the Details page
+
+Production: June 17, 2024 
+
+Preview: To be determined 
+
+The title of a record's Details page displays the primary field of a record. Prior to this update, the title of a record's Details page displayed the name of the record. You can edit the title inline, in the Details page, unless the primary field is a formula-type field.   
+
+For more information, see the following articles: 
+
+* [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md) 
+
+* [Edit records](/help/quicksilver/planning/records/edit-records.md) 
+
+### Adding a "Show more/ Show less" link in the connected record fields 
+
+Production: June 17, 2024 
+
+Preview: To be determined 
+
+We have added a "Show more/ Show less" link in a connected record field, when there are records that would otherwise display on more than two rows in the Details page of a record. 
+
+For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+
+### Auto-populate the Name field with the record name, when connecting record types
+
+Production: June 20, 2024
+
+Preview: To be determined 
+
+When you create a connection between two records or between a record and an object from another application, the Name of the connection field auto-populates with the name of the connected record. Prior to this enhancement, you had to manually add a Name for the connection field. 
+
+For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
+
+### Define how connected records display in connected fields
+
+Production: June 20, 2024 
+
+Preview: To be determined 
+
+You can now decide how connected records display in connected fields. While adding a new connection to a record type, you now have the option to display either the connected record's title and its thumbnail or just the thumbnail.  
+
+A record's title  is either the record's name or any field that is set as the primary field in the record type's table view.  
+
+This enhancement is available for records connected from Workfront Planning and for assets connected from the Adobe Experience Manager.  
+
+For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).  
+ 
 ## Week of June 10, 2024
 
 ### Up to 4-level reference for record lookup fields
@@ -83,7 +187,7 @@ We are introducing a new landing page for Workfront Planning, after you click Pl
 
 Some of the information on the landing page includes the following: 
 
-* An area that displays your workspaces and workspaces that are shared with you. The workspace owner is listed on each workspace card.  
+* An area that displays your workspaces and workspaces that are shared with you. The workspace owner displays on each workspace card.  
 
 * If you are a Workfront administrator, the following tabs display: 
 
@@ -238,7 +342,7 @@ Preview: To be determined
 
 To better organize information on the record's page for more efficient readability and navigation, we have introduced sections to the record's page. The section titles serve as headers that organize the fields into distinct categories. The sections are fully customizable and can be expanded or collapsed, if needed.  
 
-For information, see [Manage the record page](/help/quicksilver/planning/records/manage-the-record-page.md). 
+For information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md). 
 
 ### Real-time updates for field configuration changes 
 
@@ -347,7 +451,7 @@ Preview: To be determined
 
 As a Workspace manager, you now can reorder the fields listed in the record page or preview. Updating the order of the fields changes the order of fields on all records of the same type, for everyone viewing the record page or the record preview.  
 
-For more information, see [Manage the record page](/help/quicksilver/planning/records/manage-the-record-page.md). 
+For more information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md). 
 
 
 ### Add cover image to record pages
@@ -358,7 +462,7 @@ Preview: To be determined
 
 As you manage record pages, you can now add, reposition, and replace a cover image on a record page or preview, to enrich the record's presentation and stakeholder engagement. Cover images are visible to all users viewing the records. 
 
-For more information, see [Manage the record page](/help/quicksilver/planning/records/manage-the-record-page.md).  
+For more information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).  
 
 ## Week of March 25, 2024
 
@@ -478,6 +582,7 @@ Preview: To be determined
 We have updated the look and feel of the views in the record type page. The new views are dynamically responsive and quickly adjust to the size of your screen. The toolbar option labels are hidden on smaller screens to make the toolbar easier to use.  
 
 For more information, see the following articles: 
+
 * [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md)
 * [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 

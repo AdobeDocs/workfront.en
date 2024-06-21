@@ -111,7 +111,9 @@ You can create a workspace and add record types to it to organize your objects i
     
 1. (Optional and conditional) Click **Preview** inside any of the following predefined workspace templates:
 
-    * Marketing management
+    * Basic: Marketing Management
+    * Advanced: Marketing Management
+    * Enterprise: Marketing Management
     * Sales management
     * Product management
     
@@ -127,11 +129,11 @@ You can create a workspace and add record types to it to organize your objects i
 
     Or
 
-    Click **Back**, then click **Create workspace** to create a workspace from scratch.
+    Click **Back**, then click **New workspace** to create a workspace from scratch.
 
     One for the following types of workspaces is created:
     
-    * An empty workspace named **Untitled workspace** where you can start adding record types manually, when you create a workspace from scratch. 
+    * An empty workspace named **Untitled Workspace** where you can start adding record types manually, when you create a workspace from scratch. 
     * A workspace named after the template you selected that is populated with sample record types. You can further customize the record types and the workspace.
      
 1. Click inside the name of the workspace in the header of the new workspace to rename it, then press Enter. 

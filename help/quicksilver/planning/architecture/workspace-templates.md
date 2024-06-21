@@ -94,55 +94,81 @@ You must have the following:
 
 The following are workspace templates in Workfront Planning and the number of fields they include:
 
-* **Marketing management**: You can manage all your marketing campaigns when you use this template. The template comes with the following:
+* **Basic: Marketing Management**: Ideal for organizations establishing the basis of a foundational marketing system. The template includes the following record types and number of fields, including fields connected to other record types:
 
-    * Operational record types: 
+    * Operational Record Types: 
     
-        * **Marketing plan**: 7 fields and 5 linked fields
-        * **Campaign**: 9 fields and 7 linked fields
-        * **Program**: 9 fields and 5 linked fields
-        * **Activity**: 6 fields and 5 linked fields
+        * **Campaign**: 15 fields
     * Taxonomies:
-        * **Audience**: 3 fields and 3 linked fields
-        * **Segment**: 5 fields and 1 linked field
-        * **Customer Journey**: 4 fields
-        * **Product Offering**: 3 fields and 1 linked field
-        * **Region**: 1 field
-        * **Tactic**: 1 field
-        * **Channels**: 1 field and 1 linked field
-        * **Business Unit**: 1 field
-        * **Function**: 1 field
 
-* **Sales management**: You can create a comprehensive sales system that streamlines your sales process and enhances efficiency. The template comes with the following: 
+        * **Personas**: 7 fields
+        * **Brands**: 6 fields
+        * **Products**: 5 fields
 
-    * Operational record types:
+* **Advanced: Marketing Management**: Appropriate for teams ready to explore more nuanced marketing strategies. The template includes the following record types and number of fields, including fields connected to other record types:
 
-        * **Opportunity**: 7 fields and 4 linked fields
-        * **Activity**: 4 fields and 5 linked fields
-        * **Campaign**: 5 fields and 3 linked fields
+    * Operational Record Types:
+
+        * **Campaigns**: 14 fields
+        * **Programs**: 23 fields
+        
     * Taxonomies:
-        * **Account**: 4 fields and 3 linked fields
-        * **Lead**: 12 fields and 2 linked fields
-        * **Contact**: 10 fields and 2 linked fields
-        * **Region**: 1 field and 2 linked fields
-        * **Industry**: 1 field
+        * **Regions**: 1 field
+        * **Customer Journey Stages**: 4 fields
+        * **Audiences**: 8 fields 
+        * **Deliverables**: 12 fields
+        * **Brands**: 6 fields
+
+* **Enterprise: Marketing Management**: Designed for large or mature organizations with complex marketing systems. The template includes the following record types and number of fields, including fields connected to other record types:
+
+    * Operational Record Types:
+    
+        * **Campaigns**: 15 fields
+        * **Programs**: 15 fields
+        * **Tactics**: 11 fields
+        * **Activities**: 18 fields
+
+    * Taxonomies: 
+
+        * **Products**: 10 fields
+        * **Deliverables**: 18 fields
+        * **Target Audiences**: 8 fields
+        * **Regions**: 8 fields
+        * **Sub-regions**: 7 fields
+        * **Partners**: 7 fields
+        * **Use Cases**: 7 fields
+        * **Customer Journey Stages**: 3 fields
+
+* **Sales management**: You can create a comprehensive sales system that streamlines your sales process and enhances efficiency. The template includes the following record types and number of fields, including fields connected to other record types:
+
+    * Operational Record Types:
+
+        * **Opportunity**: 11 fields 
+        * **Activity**: 9 fields 
+        * **Campaign**: 8 fields 
+    * Taxonomies:
+        * **Account**: 7 fields 
+        * **Lead**: 14 fields 
+        * **Contact**: 12 fields 
+        * **Region**: 3 fields 
+        * **Industry**: 2 field
         * **Buying Center**: 1 field
         * **Product/ Service**: 1 field
         * **Competition**: 1 field
 
-* **Product management**: You can create an efficient and structured product management process using this template. The template comes with the following: 
+* **Product management**: You can create an efficient and structured product management process using this template. TThe template includes the following record types and number of fields, including fields connected to other record types:
 
-    * Operational record types:
+    * Operational Record Types:
 
-        * **Theme**: 8 fields and 2 linked fields
-        * **Initiative**: 8 fields and 2 linked fields
-        * **Epic**: 9 fields and 3 linked fields
-        * **User Story**: 9 fields and 2 linked fields
+        * **Theme**: 10 fields 
+        * **Initiative**: 10 fields 
+        * **Epic**: 12 fields 
+        * **User Story**: 11 fields 
 
     * Taxonomies: 
 
-        * **Customer**: 6 fields and 1 linked field
-        * **Sprint**: 7 fields and 1 linked field
-        * **Product Team**: 3 fields
-        * **Feature Requests**: 8 fields and 1 linked field
-        * **Industry**: 1 field and 1 linked field
+        * **Customer**: 8 fields 
+        * **Sprint**: 9 fields 
+        * **Product Team**: 4 fields
+        * **Feature Requests**: 9 fields 
+        * **Industry**: 2 fields 

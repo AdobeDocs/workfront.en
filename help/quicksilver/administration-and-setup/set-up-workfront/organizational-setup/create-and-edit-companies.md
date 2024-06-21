@@ -19,6 +19,8 @@ A company is an organizational unit in [!DNL Adobe Workfront] that can represent
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following in order to manage companies in [!DNL Workfront]:
 
 <table style="table-layout:auto"> 
@@ -56,6 +58,8 @@ You must have the following in order to manage companies in [!DNL Workfront]:
 </table>
 
 &#42;To find out what plan, license type, or access level configurations you have, contact your [!DNL Workfront] administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Benefits of adding users to a company {#benefits-of-adding-users-to-a-company}
 

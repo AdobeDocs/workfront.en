@@ -115,11 +115,16 @@ For information about editing record information, see [Edit records](/help/quick
     
         * Click **New record** in the upper-right corner of the page. The record preview box opens. 
 
-1. Start typing information in the new row about the new record, or in the fields you see in the preview box. 
+        Workfront automatically uploads a thumbnail and a cover image to each new record. You can later  modify these images. For information, see the following articles:
+
+        * [Add a cover image to a record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
+        * [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
+
+1. Start typing information about the new record in the fields you see in the preview box. 
 
     >[!NOTE]
     >
-    >  * There are no mandatory fields for records. However, we recommend that you add a Name for the record as it is helpful to identify records by their name when linking records to one another. 
+    >  * There are no mandatory fields for records. However, we recommend that you add information for the primary field of a record, as it is helpful to identify records when linking records to one another. For more information about primary fields, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md) and [Primary field overview](/help/quicksilver/planning/fields/primary-field-overview.md). 
     >
     >  * Fields that refer to other record types or calculated fields are read-only fields. 
 
@@ -134,7 +139,7 @@ For information about editing record information, see [Edit records](/help/quick
     >You can access the **Open Details** icon only from the name field of the record when the Name field is a primary field. 
 
 1. Start editing the record's information in the record's preview. Workfront automatically saves your changes. 
-1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the record's preview to open the record's page in a new tab. Continue editing the record on the record page.
+1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the record's preview to open the record's page in a new tab. Continue editing the record on the record page. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
 
 1. (Optional) Use the following keyboard shortcuts to undo or redo adding new records or their information, when adding them in the table view: 
 

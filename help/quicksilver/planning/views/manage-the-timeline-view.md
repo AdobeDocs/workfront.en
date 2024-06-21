@@ -245,7 +245,7 @@ Update the timeline view settings to indicate what and how information displays 
 
 1. Click **Bar style** in the left panel, to indicate what fields you want to display on the record bars. 
 
-    The Name field is selected by default. <!--adjust this when the primary field is released??-->
+    The primary field (or title) of the record, as defined in the record's table view, is selected by default. <!--adjust this when the primary field is released??-->
 
 1. (Optional and conditional) If you added thumbnails to records, select the Thumbnail option to display the image associated with records in their record bar. 
 
@@ -274,8 +274,14 @@ Update the timeline view settings to indicate what and how information displays 
 
     * **Default (gray)**: The color of the groupings is set to gray. This is the default. 
     * **Field values**: The color of the groupings matches the color of the field you group by. 
-    You can match the color of the groupings only to fields with color-coded options.
     
+        >[!NOTE]
+        >
+        >    * You can match the color only to fields with color-coded options. For example, you can match the color to Status fields, or fields with options associated with colors.
+        >    
+        >    * You cannot match the color to lookup fields from linked record or object types. 
+
+
     For example, multi-select or single-select fields can have color-coded options. 
 
     If you group by fields without color-coded options, the grouping color remains gray.
