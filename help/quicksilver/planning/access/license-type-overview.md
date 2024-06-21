@@ -15,6 +15,8 @@ exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
 
 Your Adobe Workfront license type works in conjunction with your Adobe Workfront Planning permissions to give you access to view, contribute, or manage workspaces. <!--add more objects here when we can grant other object-specific permissions-->
 
+Workfront Planning permissions to record views are independent from Workfront license types. 
+
 Users with all license types can view, create, edit, or manage Workfront Planning views. 
 
 This article describes the types of licenses needed in Workfront, and the permissions granted to workspaces in Workfront Planning based on each license type. 
@@ -27,7 +29,7 @@ A user with a lower-level license type has restricted permissions to workspaces 
 >
 >Requestors (or Collaborators, according to the new license model) cannot contribute to or manage workspaces and their objects. 
 >
->There is an indication in the sharing box that users cannot be granted permissions to contribute to or manage a workspace when they hold a lower-level license. 
+>There is an indication in the sharing box that users cannot be granted permissions to contribute to or manage a workspace when they hold a lower-level license, as these permissions levels are dimmed. 
 >
 >![](assets/permissions-grayed-out-for-requestor-user.png)
 
@@ -41,10 +43,9 @@ The table below describes the relationship between the license type of a user in
 Granting a user permissions to a workspace also grants them permissions to record types, records, and fields. 
 
 
-| Adobe Workfront license type*                                   | Permissions allowed in Adobe Workfront Planning                                                                                                                                             |
+| Adobe Workfront license type*                                   | Highest permissions allowed in Adobe Workfront Planning                                                                                                                                             |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|New: Standard <br> or <br>Current: Plan                    | Users can create and manage workspaces, record types, and records.<br> System administrators have Manage permissions to all workspaces, including the ones they did not create.                                                                                                                     |
-| New: Light <br> or <br>Current: Work                      | Users can contribute and view a workspace shared with them, as well as the record types and records from that workspace. <br> Users can create, edit, delete records in the workspaces where they have Contribute permissions.            |
-| New: Contributor <br> or <br>Current: Reviewer or Requestor | Users can view the workspaces shared with them, as well as the record types and records of those workspaces. <br> Users cannot create, edit, or delete record types or records. |
+|New: Standard <br> or <br>Current: Plan                    | Users can manage workspaces. They can create, edit, or delete workspaces, record types, records, and fields. <br> System administrators have Manage permissions to all workspaces, including the ones they did not create.                                                                                                                     |
+| New: Light, Contributor <br> or <br>Current: Work, Requestor, Reviewer                      | Users can view the workspaces shared with them, as well as the record types, records, and fields of those workspaces. <br> Users cannot create, edit, or delete workspaces, record types, records, or fields.|
 
 *For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
