@@ -235,8 +235,8 @@ This action module fills the masked area of an image, optionally with content fr
    <td>Select the size that you want the filled image to be.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Seed]</td> 
-   <td>Enter or map an integer. You can use this same seed in another Expand an image module to generate a similar image with different styles. </td> 
+   <td role="rowheader">[!UICONTROL Seeds]</td> 
+   <td>For each image that the module will generate, click <b>Add item<b> and enter or map an integer. You can use this same seed in another Expand an image module to generate a similar image with different styles. The number of seeds you add must be equal to the Number of variations field.</td> 
   </tr> 
  </tbody> 
 </table>
