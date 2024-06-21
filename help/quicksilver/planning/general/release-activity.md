@@ -370,7 +370,7 @@ When a user changes any field configuration (name, description, list of options 
 >
 >There is no notification to other users that the field configuration has changed.  
 
-For more information, see [Edit fields](/help/quicksilver/planning/fields/edit-fields.md).  
+For more information, see [Edit field settings](/help/quicksilver/planning/fields/edit-fields.md).  
 
 ## Week of May 6, 2024
 

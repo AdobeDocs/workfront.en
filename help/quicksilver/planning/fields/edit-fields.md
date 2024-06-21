@@ -1,5 +1,5 @@
 ---
-title: Edit fields
+title: Edit field settings
 description: In Adobe Workfront Planning, you can edit the field settings for fields that are already created. This article describes how you can edit the settings for Workfront Planning fields.
 hidefromtoc: yes
 hide: yes
@@ -9,7 +9,7 @@ exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!---
-title: Edit foelds
+title: Edit fields
 description: In Adobe Workfront Planning, you can edit the field settings for fields that are already created.
 hidefromtoc: yes
 hide: yes
@@ -19,7 +19,7 @@ role: User, Administrator (************is this right???************)
 recommendations: noDisplay, noCatalog
 --->
 
-# Edit fields 
+# Edit field settings
 
 {{planning-important-intro}}
 
@@ -28,33 +28,6 @@ You can edit the field settings for fields that are already created in Adobe Wor
 For information about creating Adobe Workfront Planning fields, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
 
 This article describes how you can edit the settings for Workfront Planning fields. For information about editing field values for records, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
-
-## Considerations about editing field settings
-
-You must consider the following before making changes to a field's configuration: 
-
-* You can edit fields that you created or fields created by other users, if you have Manage permissions to the workspace that the fields belong to. 
-* You can edit a field in the record type table. 
-* You cannot edit a field on the record page or in any other view, outside of the table view. 
-* You cannot edit the Field type, after the field is saved.
-* You cannot deselect the Allow negative numbers setting that was previously selected, for a Number, Percentage, or Currency field if there are already negative values stored on the records it is attached to. 
-* You can edit the configuration of the following field elements, after you save the field:
-
-    * The Name or the Description of any field
-    * The Options of a Single-select or a Multi-select field.
-    * The expression of a Formula field.
-
-    >[!WARNING]
-    >
-    >When formula expressions change, or options are added or removed from a select-type field, there will be loss of data for the records that already have information stored in the fields whose configuration is modified. 
-    >
-    >There is no warning or indication that this data loss could happen when you change the configuration of fields. 
-    >
-    >There is no notification to other users that the field configuration has changed.
-    
-<!--this is not yet true, but it might come later:
-* You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
--->
 
 ## Access requirements
 
@@ -85,9 +58,10 @@ You must have the following access to perform the steps in this article:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>Any</p> 
+   <p>New: Standard</p>
+   <p>Current: Plan</p> 
   </td>
   </tr>
   
@@ -112,11 +86,39 @@ You must have the following access to perform the steps in this article:
  </tbody>
 </table>
 
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
+## Considerations about editing field settings
+
+You must consider the following before making changes to a field's configuration: 
+
+* You can edit fields that you created or fields created by other users, if you have Manage permissions to the workspace that the fields belong to. 
+* You can edit a field in the record type table. 
+* You cannot edit a field on the record page or in any other view, outside of the table view. 
+* You cannot edit the Field type, after the field is saved.
+* You cannot deselect the Allow negative numbers setting that was previously selected, for a Number, Percentage, or Currency field if there are already negative values stored on the records it is attached to. 
+* You can edit the configuration of the following field elements, after you save the field:
+
+    * The Name or the Description of any field
+    * The Options of a Single-select or a Multi-select field.
+    * The expression of a Formula field.
+
+    >[!WARNING]
+    >
+    >When formula expressions change, or options are added or removed from a select-type field, there will be loss of data for the records that already have information stored in the fields whose configuration is modified. 
+    >
+    >There is no warning or indication that this data loss could happen when you change the configuration of fields. 
+    >
+    >There is no notification to other users that the field configuration has changed.
+    
+<!--this is not yet true, but it might come later:
+* You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
+-->
 ## Edit field settings
 
 {{step1-to-planning}}

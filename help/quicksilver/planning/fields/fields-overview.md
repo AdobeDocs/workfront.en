@@ -33,7 +33,7 @@ You can add new fields in Adobe Workfront Planning that reflect your organizatio
 
     For information about managing fields, also see the following articles: 
 
-    * [Edit fields](/help/quicksilver/planning/fields/edit-fields.md)
+    * [Edit field settings](/help/quicksilver/planning/fields/edit-fields.md)
     * [Delete fields](/help/quicksilver/planning/fields/delete-fields.md)
     
 * The fields associated with a record type are available to be associated with all the records of that type. <!--will this change and will the fields be available for other record types, too?! Also, the next bullet might need to change too if this one changes -->

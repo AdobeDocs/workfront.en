@@ -2065,7 +2065,7 @@ feature-set: Workfront
     * [Fields: article index](planning/fields/fields-information.md)
     * [Fields overview](planning/fields/fields-overview.md)
     * [Create fields](planning/fields/create-fields.md)
-    * [Edit fields](planning/fields/edit-fields.md)
+    * [Edit field settings](planning/fields/edit-fields.md)
     * [Delete fields](planning/fields/delete-fields.md) 
     * [Formula fields overview](planning/fields/formula-fields.md)   
     * [Primary field overview](planning/fields/primary-field-overview.md)
