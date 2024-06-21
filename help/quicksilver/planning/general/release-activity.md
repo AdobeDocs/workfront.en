@@ -150,6 +150,16 @@ A record's title  is either the record's name or any field that is set as the pr
 This enhancement is available for records connected from Workfront Planning and for assets connected from the Adobe Experience Manager.  
 
 For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).  
+
+### Only Standard or Plan licensed users can have Manage permissions to workspaces (title)  
+
+Production: June 21, 2024 
+
+Preview: To be determined  
+
+We have changed which types of users can have full access to workspaces. Now, only Standard or Plan licensed users can have Manage permissions to workspaces. The access to record types, records, and fields is inherited from a workspace. All other users have view-only access to workspaces and their object types. Prior to this update, Light and Worker-licensed users could receive Contribute permissions to workspaces.    
+
+ For more information, see [License type overview when using Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).   
  
 ## Week of June 10, 2024
 
