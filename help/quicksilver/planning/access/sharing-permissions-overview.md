@@ -43,6 +43,7 @@ You can share a workspace or a view with the following entities:
 * Groups
 
 <!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
+
 ## Considerations about sharing objects in Adobe Workfront Planning
 
 * Your Adobe Workfront license type works in conjunction with your Workfront Planning permissions to give you access to view, contribute, or manage workspaces and their objects.

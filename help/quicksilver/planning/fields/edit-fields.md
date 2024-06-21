@@ -119,6 +119,7 @@ You must consider the following before making changes to a field's configuration
 <!--this is not yet true, but it might come later:
 * You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
 -->
+
 ## Edit field settings
 
 {{step1-to-planning}}
