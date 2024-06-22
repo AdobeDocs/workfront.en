@@ -357,7 +357,7 @@ You can retrieve custom data fields using the prefix "DE:". For instance, to req
 #### Using&nbsp;Named Queries
 
 Some object types have named searches that are commonly executed and are available by appending the name of the query to the end of the object type URI. For example, the following request retrieves the work items (tasks and issues) to which the user is currently assigned:
-<pre>/attask/api/v15.0/work/myWork</pre>Named queries support requesting the fields parameter to retrieve additional fields. Some named queries accept additional filters as well. For a list of allowable named queries an object, see the Action tab for the object in the&nbsp; [API Explorer](../../wf-api/general/api-explorer.md).
+<pre>/attask/api/v15.0/work/myWork</pre>Named queries support requesting the fields parameter to retrieve additional fields. Some named queries accept additional filters as well. For a list of allowable named queries an object, see the Action tab for the object in the&nbsp; [API Explorer](https://developer.adobe.com/workfront/api-explorer/).
 
 #### Using `Count`
 

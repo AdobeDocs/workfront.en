@@ -53,9 +53,9 @@ You must have the following access to perform the steps in this article:
   <tr>
    <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>New: Light or higher</p>
+   <p>New: Standard</p>
    Or
-   <p>Current: Work or higher</p> 
+   <p>Current: Plan</p> 
   </td>
   </tr>
   

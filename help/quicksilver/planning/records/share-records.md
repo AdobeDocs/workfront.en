@@ -129,4 +129,8 @@ You must have the following access to perform the steps in this article:
 
 ## Share all records in a workspace by sharing the workspace
 
-You can share all records in a workspace when you share the workspace with others. For more information, see [Share a workspace](/help/quicksilver/planning/access/share-workspaces.md). 
+You can share all records in a workspace when you share the workspace with others. 
+
+Only users with Manage permissions to a workspace can share it with others. 
+
+For more information, see [Share a workspace](/help/quicksilver/planning/access/share-workspaces.md). 
