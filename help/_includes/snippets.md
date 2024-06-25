@@ -62,7 +62,7 @@
 >
 >For information, see [Design a form with the form designer](help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 >
->The legacy form builder was removed from the Preview environment on June 27, 2024, and will be removed from the Production environment with the 24.7 release in July.
+>The legacy form builder was removed from the Preview environment on June 19, 2024, and will be removed from the Production environment with the 24.7 release in July.
 
 ## Associate right group with team {#right-group-team}
 
