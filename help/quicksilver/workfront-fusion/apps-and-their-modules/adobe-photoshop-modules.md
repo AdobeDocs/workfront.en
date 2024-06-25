@@ -152,7 +152,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 This action module creates a new PSD with optional layers, and generates renditions or saves as a PSD.
 
-For fields related to this module, see [Create a new PSD](https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/documentCreate) in the in the Adobe Photoshop documentation.
+For fields related to this module, see [Create a new PSD](https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/documentCreate) in the Adobe Photoshop documentation.
 
 #### Edit text layers
 

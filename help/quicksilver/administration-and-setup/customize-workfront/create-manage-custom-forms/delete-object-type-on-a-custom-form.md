@@ -11,6 +11,8 @@ exl-id: ca6565c4-3d9e-4a11-a7b6-fce701923bf2
 ---
 # Delete object types on a custom form
 
+{{form-designer-default}}
+
 On an existing custom form, you can delete object types that are associated with the form. After you do this, users can no longer attach the form to objects of that type.
 
 ## Access requirements
