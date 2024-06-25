@@ -123,9 +123,9 @@ Not during the early access stage.
 
 We don't have an ERD at this point, but we do have in-depth documentation that guides you through all the details related to Workfront Planning. For information, see [Adobe Workfront Planning: article index](/help/quicksilver/planning/planning-information.md). 
 
-<!--## How is the pricing for Workfront Planning structured: is it a one-time annual fee? Or do we get charged per user? 
+## How is the pricing for Workfront Planning structured: is it a one-time annual fee? Or do we get charged per user? 
 
-Planning is a paid offering that has a target GA date August 28th, the time at which you will have to purchase Planning in order to be able to enjoy it in Production. Please work with your sales rep to get more details. -->
+Planning is a paid offering that will be available on August 28th, 2024. At that time, you will have to purchase Planning in order to be able to continue using it in Production. Please work with your account manager to get more details.
 
 <!--I think this is available for ALL users once turned on now (June 25, 2024)**********************************
 
