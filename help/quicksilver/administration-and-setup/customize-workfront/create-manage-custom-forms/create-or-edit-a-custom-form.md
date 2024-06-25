@@ -13,6 +13,8 @@ exl-id: 5712e82d-bd1d-4d8a-9a2a-1e19b562b9d1
 
 <!--Audited: 01/2024-->
 
+{{form-designer-default}}
+
 You can create a new custom form or edit an existing form. Both tasks are explained in this article.
 
 For information about creating a new custom form from an existing one, see [Copy a custom form to create a new one with the legacy form builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
