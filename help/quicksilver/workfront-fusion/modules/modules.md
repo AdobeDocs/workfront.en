@@ -17,6 +17,7 @@ This section contains the following articles:
 * [Types of modules](../../workfront-fusion/modules/module-types.md)
 * [Configure a module's settings in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/configure-a-modules-settings.md)
 * [Choose where a trigger module starts in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/choose-where-trigger-module-starts.md)
+* [Instant triggers (webhooks) in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/webhooks/instant-triggers-webhooks.md)
 * [Data Stores in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-stores.md)
 * [Data structures in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/data-structures.md)
 * [Aggregator module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/aggregator-module.md)
