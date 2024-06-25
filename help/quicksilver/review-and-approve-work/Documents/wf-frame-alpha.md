@@ -14,9 +14,10 @@ Welcome to the Workfront + Frame.io integration beta program! As a part of this 
 
 Here you will find information about the latest Beta release along with a brief video walkthrough to get you started.
 
->[!NOTE]
+>[!IMPORTANT]
 >
->In order to participate in this Beta, you must be enabled by the product team. Contact your Customer Success or Account Manager and request to be added.
+>This beta is now closed, and we are no longer accepting new participants.
+
 
 ## May 2024: Beta release updates in Workfront
 

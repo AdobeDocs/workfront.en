@@ -1,12 +1,14 @@
 ---
 title: Add or edit an image or other asset widget in a custom form with the legacy form builder
 description: You can add or edit the properties of any of the following asset widgets such as images, videos, PDF files, and Adobe XD files in a custom form. This is useful when you need to include visual content such as branding images, an instructional video, or an interactive prototype for an app you are designing.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 62a2f9a1-80de-40e7-9d8b-46ed9df083c1
 ---
 # Add or edit an image or other asset widget in a custom form with the legacy form builder
+
+{{form-designer-default}}
 
 You can add or edit the properties of any of the following asset widgets in a custom form:
 

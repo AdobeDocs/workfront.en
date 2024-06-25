@@ -12,6 +12,8 @@ exl-id: 946a726e-af88-413c-abe3-55fbc7486380
 ---
 # Copy a custom form to create a new one with the legacy builder
 
+{{form-designer-default}}
+
 You can create a new custom form that is based on an existing one.
 
 ## Access requirements
