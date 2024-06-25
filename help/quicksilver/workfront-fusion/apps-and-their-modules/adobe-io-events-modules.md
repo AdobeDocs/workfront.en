@@ -108,7 +108,7 @@ To create a connection for your Adobe I/O Events modules:
       </tr>
       <tr>
         <td role="rowheader">Workspace ID</td>
-        <td>Enter your Workspace ID. </td>
+        <td>To view your project's Workspace ID, download your project details from the project overview page in Adobe Developer Console. </td>
       </tr>
     </tbody>
     </table>
