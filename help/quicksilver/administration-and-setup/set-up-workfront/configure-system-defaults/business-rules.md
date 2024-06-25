@@ -73,7 +73,54 @@ For information about date-based wildcards, see [Use date-based wildcards to gen
 
 ## Add a new business rule
 
+{{step-1-to-setup}}
 
+1. Click **Business Rules** in the left panel.
+1. Click **New business rule**.
+1. Select the object type to assign the business rule to, then click **Continue**.
+
+   ![Select an object](assets/object-for-business-rule2.png)
+
+1. Type the **Name** for the business rule.
+1. In the **Is Active** field, select whether the rule should be active when you save it.
+
+   If you select **No**, the rule is saved as inactive, and you can activate it later.
+
+1. Select a **Trigger** for the business rule. The options are:
+
+   * **On object creation:** The rule is applied when a user attempts to create an object.
+   * **On object edit:** The rule is applied when a user attempts to edit an object.
+   * **On object delete:** The rule is applied when a user attempts to delete an object.
+
+1. (Optional) Enter a **Description** of the business rule and what happens when it is applied.
+1. Build the formula in the formula editor, in the center of the business rule dialog.
+
+   The format of a business rule is "IF the defined condition is met, then the user is prevented from the action on the object, and the message is displayed."
+
+   In the formula area, the parts of the business rule you build are the condition, and the message that displays in Workfront when the condition is met.
+
+   * The "object" is the object type you selected when creating the business rule. It is displayed in the heading of the dialog.
+   * The "action" is the trigger you selected for the rule: create, edit, or delete the object.
+   * Because the object and the action are already defined, you do not include them in the formula.
+   * The custom error message is displayed to the user when they trigger the business rule. It should provide clear instructions on what went wrong and how to correct the issue.
+
+   ![Add business rule dialog](assets/add-business-rule-dialog-no-ai-button.png)
+
+   This example is a business rule for expenses. If the current month is June, then users are not permitted to create new expenses, and the message explains this.
+   
+   For more examples of business rules, see [Scenarios for business rules](#scenarios-for-business-rules) in this article.
+
+1. (Optional) Use the formula **Expressions** and **Fields** in the right panel to assist with building the rule.
+    
+    Search for an expression or field to narrow the list of available items.
+
+    The list of available fields is limited to fields related to the object type for the business rule.
+
+1. Click **Save** when you are finished building the business rule.
+
+>[!NOTE]
+>
+>After you add a business rule, you should test it by adding, editing, or deleting the associated object to make sure the rule is applied properly.
 
 ## Activate a business rule
 
