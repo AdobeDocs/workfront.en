@@ -58,7 +58,7 @@
 
 >[!IMPORTANT]
 >
->With the 24.7 release, the form designer will be generally available and will become the default experience for creating and editing custom forms in Adobe Workfront. The legacy form builder will no longer be available. We recommend that you switch to the form designer now and take advantage of its features.
+>With the upcoming release the week of July 15 (the 24.7 release), the form designer will be generally available and will become the default experience for creating and editing custom forms in Adobe Workfront. The legacy form builder will no longer be available. We recommend that you switch to the form designer now and take advantage of its features.
 >
 >For information, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 >
