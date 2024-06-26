@@ -4,12 +4,14 @@ product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Preview and complete a custom form with the legacy form builder
 description: When you are finished building or editing a custom form, you can preview it to see how it will look to users, then save and close it.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 6bf4e7dd-50a6-4a36-947f-326f83aeb8a4
 ---
 # Preview and complete a custom form with the legacy form builder
+
+{{form-designer-default}}
 
 When you are finished building or editing a custom form, you can preview it to see how it will look to users, then save and close it.
 
