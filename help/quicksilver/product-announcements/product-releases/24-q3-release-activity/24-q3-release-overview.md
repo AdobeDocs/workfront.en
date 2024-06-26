@@ -196,7 +196,7 @@ The 24.7 release webinar will be on June 27, 2024. You can [register for the web
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront for Experience Manager Assets and Assets Essentials improvements</a></p>
-                        [!BADGE In production ]{type=Informative}
+                        [!BADGE New in Preview ]{type=Negative}
                         <p>We have made the following improvements for the Workfront for Experience Manager Assets and Assets Essentials integrations:</p>
                         <ul>
                             <li><p>The integration now supports GCP as a cloud service provider. AWS and Azure were previously supported.</p></li>
