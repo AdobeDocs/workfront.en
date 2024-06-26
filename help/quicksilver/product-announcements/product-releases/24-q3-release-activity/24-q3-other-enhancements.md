@@ -17,7 +17,7 @@ For a list of all changes available at this point in the Third Quarter 2024 rele
 >[!NOTE]
 >
 >* The Adobe Unified Shell is being made available in a phased rollout. Additional organizations will be onboarded to the Adobe Unified Shell with the 24.10 and 25.1 releases. 
->* Preview release: June 11, 2024; Production release for specified customers: With the 24.7 release (July 2024)
+>* Preview release: June 20, 2024; Production release for specified customers: With the 24.7 release (July 2024)
 
 To allow organizations access to the benefits of the Adobe Unified Experience, we've begun making it available to existing Workfront customers. 
 
