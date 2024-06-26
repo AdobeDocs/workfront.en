@@ -1,5 +1,5 @@
 ---
-title: Custom forms
+title: "Custom forms: article index"
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -19,8 +19,8 @@ You can build a custom form that users can attach to a Workfront object. Users w
 
 There is no limit to the number of custom forms you can create in your Workfront instance. The limit of custom forms you can attach to an object is 10.
 
-This section contains the following articles:
+This section contains the following articles and subsections:
 
-* [Custom forms overview](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md) 
-* [Legacy custom form builder](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
-* [Form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
+* [Custom forms overview](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
+* [Design a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
+* [Manage custom forms and fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)
