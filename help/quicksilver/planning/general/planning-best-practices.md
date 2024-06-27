@@ -141,7 +141,7 @@ The guidelines are organized depending on the object or the area you are setting
 
 #### How should I label my record types? 
 
-✅ Do create and label record types that represent a single construct or noun, such as "Campaigns" 
+Do create and label record types that represent a single construct or noun, such as "Campaigns" 
 
 :no_entry_sign: Don't create a record type that is better represented as a view-layer - e.g. "Calendar" is a poor choice for a record type, because it is not the record type itself, but a view of records. 
 
@@ -159,21 +159,19 @@ Workflow
 
 Primary field 
 
-✅ Do use unique primary field values to make it easier to find and "pick" those records when making connections. 
+Do use unique primary field values to make it easier to find and "pick" those records when making connections. 
 
 When making a connection, users will search by the values in the Primary field and if they are not unique, users will not know which one to pick. 
 
-🚫 Avoid using non-unique values as the primary field because it can create confusion for users who have to search on the primary field when using the connections picker menu. 
+ Avoid using non-unique values as the primary field because it can create confusion for users who have to search on the primary field when using the connections picker menu. 
 
------------------------------------------------------------------------------------------------------------ 
+
 
 From Chris O'Neal: 
 
 Another do/don't area to think about are use cases that are (or aren't) best uses of Planning. For example, the resource management discussion we had today. 
 
------------------------------------------------------------------------------------------------------------ 
 
- 
 
 Alina's notes: 
 
