@@ -88,7 +88,7 @@ Searching documentation can be more efficient with a few strategic approaches. H
 
 ### Explore Learning and Training Sections
 
-* **Training Materials**: Navigate to the [Workfront training](https://experienceleague.adobe.com/en/browse/workfront) page for a library of training videos and articles designed to help you better understand Workfront features and settings. You can also access paid training materials at [learning.adobe.com](http://learning.adobe.com/).
+* **Training Materials**: Navigate to the [Workfront training](https://experienceleague.adobe.com/en/browse/workfront) page for a library of training videos and articles designed to help you better understand Workfront features and settings. You can also access paid training materials at [learning.adobe.com](https://learning.adobe.com/).
 * **Courses**: Find [structured learning courses](https://experienceleague.adobe.com/home?Solution=Workfront#courses) that guide you through using various Workfront features in a logical sequence.
 
 ### Find answers in Community Forums
