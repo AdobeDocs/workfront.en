@@ -77,6 +77,10 @@ This blueprint contains a template the [!DNL Workfront] professional services or
 
 This blueprint contains a single dashboard with 13 reports to help you find, reassign, or otherwise manage the objects and assignments associated with a user departing Workfront. You could also use these reports for a user moving into a new role or group to reassign their work.
 
+[!BADGE New]{type=negative} **People Manager Dashboard**
+ 
+This blueprint contains a single dashboard with 12 reports to give people managers visibility into their direct reports' work.
+
 **[!UICONTROL Post-Implementation: New Use Case Rollout]**
 This blueprint contains a single template that organizes the work that a [!DNL Workfront] customer will need to complete to manage the expansion to next processes after their initial implementation.
 
@@ -127,6 +131,10 @@ This blueprint contains a single dashboard with 21 reports to help you measure t
 **Value Realization | Deliver Client-facing Services Dashboard**
 
 This blueprint contains a single dashboard with 8 reports to help you realize the benefits of Workfront. These reports are designed to help you translate your client-facing services into measurable value that you can track over time to drive better outcomes.
+
+[!BADGE New]{type=negative} **Value Realization | Govern Compliance Workflows Dashboard**
+
+This blueprint contains a single dashboard with 7 reports to help you realize the value of Workfront. For daily use or in highly regulated industries, these time-saving reports drive accountability and improve outcomes over time by helping to track and govern workflows and compliance needs.
 
 **Value Realization | Review and Approve Dashboard**
 
