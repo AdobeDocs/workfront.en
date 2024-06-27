@@ -18,7 +18,7 @@ For a list of all changes available with the Third Quarter 2024 release, see [Th
 
 >[!NOTE]
 >
->Preview release: April 30, 2024; Production for fast release: With the 24.5 release (May 16, 2024); Production for quarterly release: With the 24.7 release (July 2024)
+>Preview release: April 30, 2024; Production for fast release: With the 24.5 release (May 16, 2024); Production for quarterly release: With the 24.7 release (July 18, 2024)
 
 We have updated the Assignments suggestion list to a more modern design that is consistent across all areas of Workfront. When you add an assignment to a task or issue from the header, list view, or Advanced Assignment screen, the experience is the same. The suggestions are divided into sections to help you quickly find the correct person, team, or job role for the assignment.
 
@@ -28,7 +28,7 @@ For information, see [Assign tasks](/help/quicksilver/manage-work/tasks/assign-t
 
 >[!NOTE]
 >
->Preview release: April 29, 2024; Production for fast release: With the 24.5 release (May 16, 2024); Production for quarterly release: With the 24.7 release (July 2024)
+>Preview release: April 29, 2024; Production for fast release: With the 24.5 release (May 16, 2024); Production for quarterly release: With the 24.7 release (July 18, 2024)
 
 We have updated the Document details > Custom Forms page to a more modern design that is consistent with other areas of Workfront. The page now supports advanced custom form features such as External Lookup fields.
 
@@ -38,7 +38,7 @@ For information, see [Document Details overview](/help/quicksilver/documents/man
 
 >[!NOTE]
 >
->Preview release: April 29, 2024; Production for fast release: With the 24.5 release (May 16, 2024); Production for quarterly release: With the 24.7 release (July 2024)
+>Preview release: April 29, 2024; Production for fast release: With the 24.5 release (May 16, 2024); Production for quarterly release: With the 24.7 release (July 18, 2024)
 
 We have updated the Iteration details > Custom Forms page to a more modern design that is consistent with other areas of Workfront. The page now supports advanced custom form features such as External Lookup fields.
 
@@ -48,7 +48,7 @@ For information, see [Create an agile story in an iteration](/help/quicksilver/a
 
 >[!NOTE]
 >
->Preview release: April 18, 2024; Production for fast release: With the 24.5 release (May 16, 2024); Production for quarterly release: With the 24.7 release (July 2024)
+>Preview release: April 18, 2024; Production for fast release: With the 24.5 release (May 16, 2024); Production for quarterly release: With the 24.7 release (July 18, 2024)
 
 We have updated the main Groups list in the Setup > Groups area to a more modern design that is consistent with other areas of Workfront. All dialogs for groups and subgroups (add, edit, copy, deactivate, delete), whether accessed in the Groups list or the More menu for a specific group or subgroup, also have the updated design.
 
@@ -58,7 +58,7 @@ For information, see [Create a group](/help/quicksilver/administration-and-setup
 
 >[!NOTE]
 >
->Preview release: April 2, 2024; Production for fast release: With the 24.5 release (May 16, 2024); Production for quarterly release: With the 24.7 release (July 2024)
+>Preview release: April 2, 2024; Production for fast release: With the 24.5 release (May 16, 2024); Production for quarterly release: With the 24.7 release (July 18, 2024)
 
 We have updated the Exchange Rates screen to a more modern design that is consistent with other areas of Workfront.
 
@@ -68,7 +68,7 @@ For information, see [Set up exchange rates](/help/quicksilver/administration-an
 
 >[!NOTE]
 >
->Preview release: April 2, 2024; Production for fast release: With the 24.5 release (May 16, 2024); Production for quarterly release: With the 24.7 release (July 2024)
+>Preview release: April 2, 2024; Production for fast release: With the 24.5 release (May 16, 2024); Production for quarterly release: With the 24.7 release (July 18, 2024)
 
 We have updated the Job Roles screen to a more modern design that is consistent with other areas of Workfront.
 
