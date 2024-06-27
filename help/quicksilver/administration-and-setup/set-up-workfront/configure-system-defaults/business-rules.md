@@ -76,13 +76,15 @@ A scenario with nested IF statements is:
 
 Users cannot edit completed projects and cannot edit projects with a Planned Completion Date in March. This formula could be stated as:
 
-`IF(`
-    `{status}="CPL",`
-    `"You cannot edit a completed project",`
-    `IF(`
-        `MONTH({plannedCompletionDate})=3,`
-        `"You cannot edit a project with a planned completion date in March")`
-`)`
+```
+IF(
+    {status}="CPL",
+    "You cannot edit a completed project",
+    IF(
+        MONTH({plannedCompletionDate})=3,
+        "You cannot edit a project with a planned completion date in March")
+)
+```
 
 ## Add a new business rule
 
