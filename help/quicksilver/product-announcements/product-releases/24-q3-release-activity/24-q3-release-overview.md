@@ -51,6 +51,23 @@ The live 24.7 release webinar was cancelled, but you can still [watch a video de
                         </p>
                     </td>
                 </tr>
+                                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Business rules are now available</a></p>
+                        <p>Administrators can now add business rules in the Setup area of Workfront.</p>
+                        <p>A business rule allows you to apply validation to Workfront objects and prevent users from creating, editing, or deleting an object when certain conditions are met. The rules are built using a formula similar to calculated fields in custom forms.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: July 4, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production release for all customers: With the 24.7 release (July 18, 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Custom form designer generally available in Adobe Workfront</a></p>
