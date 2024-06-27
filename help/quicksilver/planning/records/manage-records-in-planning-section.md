@@ -72,7 +72,7 @@ You must have the following access to perform the steps in this article:
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
    <td> <p>In Workfront, View or higher permissions to a project, portfolio, or program</a> </p> 
-   <p>In Workfront Planning, View or higher permissions to a workspace</a> </p>  
+   <p>In Workfront Planning, Contribute or higher permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all Workfront Planning workspaces, including the ones they did not create</p>
 </td>
   </tr>
@@ -97,7 +97,6 @@ You must have the following access to perform the steps in this article:
    * [Connect records](/help/quicksilver/planning/records/connect-records.md)
 * You can view the Planning section in a Workfront object, even when there are no records associated with the Workfront object.  
 * You can connect Planning records with Workfront objects from Workfront, in the Planning section when there is at least one record connected to the Workfront object.
-* You must have Manage permissions to a workspace to connect records from the Workfront objects. 
 
 ## Manage records in the Planning section
 
@@ -108,8 +107,8 @@ You must have the following access to perform the steps in this article:
     The workspace opens and the record types display as cards. 
 
 1. Click the card of a record type that is connected to a Workfront project, portfolio, or program. 
-1. Choose a table view from the **View** drop-down menu.
-1. (Conditional) Go to the connected record field in the table and add a Workfront object, then click the name of the Workfront object in the field. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
+1. Go to a connected record field that has a connection with a Workfront object, either in the table view or from a record's details page. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
+1. Click the name of a Workfront object in the connected record field.
   The objects's page opens in Workfront Planning. 
 1. Click **Go to source**, in the upper-right corner of the screen. 
 
