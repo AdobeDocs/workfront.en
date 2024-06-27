@@ -56,4 +56,4 @@ While in the mobile app, you can ask the virtual assistant to help you with comm
 
 These commands display a list of the different things you can ask the assistant about.
 
-For a list of existing commands, see [Adobe Workfront mobile app virtual assistant](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
+**Note: The mobile Virtual Assistant has been deprecated as of April 2024.**
