@@ -1813,8 +1813,8 @@ feature-set: Workfront
     * [Delegate approval request](review-and-approve-work/manage-approvals/delegate-approval-requests.md)
     * [Associate a new or existing approval process with work](review-and-approve-work/manage-approvals/associate-approval-with-work.md)
     * [Recall submitted approvals](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
-  * Document review and approval {#document-reviews-and-approvals}
-    * [Document review and approval](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
+  * Asset and document review and approval {#document-reviews-and-approvals}
+    * [Asset and document review and approval: article index](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
     * [Document approvals overview](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
     * [Get started with Asset review and approval with Frame.io](review-and-approve-work/document-reviews-and-approvals/frame-wf-get-started.md)
     * Review documents {#review-and-approve-documents}
