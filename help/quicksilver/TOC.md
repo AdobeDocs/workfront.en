@@ -2050,6 +2050,7 @@ feature-set: Workfront
     * [Adobe Workfront Planning general information: article index](planning/general/planning-general-article-index.md)
     * [Adobe Workfront Planning overview](planning/general/planning-overview.md)
     * [Adobe Workfront Planning release activity](planning/general/release-activity.md)
+    * [Adobe Workfront Planning release activity for 2023](planning/general/release-activity-archives-2023.md)
   * Adobe Workfront Planning architecture {#adobe-workfront-planning-architecture}
     * [Architecture: article index](planning/architecture/architecture-information.md)
     * [Create workspaces](planning/architecture/create-workspaces.md)

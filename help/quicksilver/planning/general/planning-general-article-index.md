@@ -14,3 +14,4 @@ Review the following articles:
 
 * [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md)
 * [Adobe Workfront Planning release activity](/help/quicksilver/planning/general/release-activity.md)
+* [Adobe Workfront Planning release activity for 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md)

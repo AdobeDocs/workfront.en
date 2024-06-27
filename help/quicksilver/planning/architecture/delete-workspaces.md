@@ -94,7 +94,7 @@ You must have the following access to perform the steps in this article:
 
 1. Click the workspace you want to delete.
 
-   The worspace page displays. 
+   The workspace page displays. 
 
 1. Click the **More** menu ![](assets/more-menu.png) next to the workspace name, then click **Delete**.
 
