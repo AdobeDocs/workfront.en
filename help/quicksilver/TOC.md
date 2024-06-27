@@ -17,6 +17,7 @@ feature-set: Workfront
       * [2024 Q3 Release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
       * [2024 Q3 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md)
       * [2024 Q3 Financial management enhancements](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md)
+      * [2024 Q3 Integration enhancements](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md)
       * [2024 Q3 Project enhancements](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md)
       * [2024 Q3 Resource management enhancements](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md)
       * [Other enhancements during the 2024 Q3 release timeframe](product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md)
@@ -448,6 +449,7 @@ feature-set: Workfront
       * [Project timeline recalculations](administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md)
       * [Custom quarters for projects](administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md)
       * [Enable or disable fast releases for your organization](administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)
+      * [Create and edit business rules](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md)
       * [Configure locations](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-locations.md)
       * [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)
     * Configure schedules and timesheet preferences {#configure-timesheets-schedules}
@@ -987,7 +989,6 @@ feature-set: Workfront
       * [Comment on proofs in iOS](workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-ios.md)
       * [Adobe Workfront for Mobile Device Management (MDM)](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
       * [Configure Adobe Workfront for MobileIron](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
-      * [Adobe Workfront mobile app virtual assistant](workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)
       * [Approvals in the Adobe Workfront mobile app](workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
     * Use Adobe Workfront View {#use-workfront-view}
       * [Use Adobe Workfront View](workfront-basics/mobile-apps/using-workfront-view/use-workfront-view.md)
