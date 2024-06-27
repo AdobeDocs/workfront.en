@@ -56,5 +56,4 @@ For more information on the [!DNL Adobe Workfront] mobile app, review the follow
 * [Approvals in the [!DNL Adobe Workfront] mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
 * [[!DNL Adobe Workfront] for [!DNL Mobile Device Management] (MDM)](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
 * [Configure [!DNL Adobe Workfront] for [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
-* [[!DNL Adobe Workfront] mobile app virtual assistant](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)
 
