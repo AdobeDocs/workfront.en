@@ -81,28 +81,28 @@ Workfront Planning supports the following search modifiers:
         <td>"New Product Launch"  </td>
     </tr>
     <tr>
-        <td></td>
-        <td><code></code> </td>
-        <td> </td>
-        <td> </td>
+        <td>$greaterThan </td>
+        <td><code>"fieldId": { "$greaterThan": 10 } </code> </td>
+        <td>Returns records whose field value is greater than the filter  </td>
+        <td><ul><li>20</li><li>25</li><ul> </td>
     </tr>
     <tr>
-        <td></td>
-        <td><code></code> </td>
-        <td> </td>
-        <td> </td>
+        <td>$greaterThanOrEqual </td>
+        <td><code>"fieldId": { "$greaterThanOrEqual": 10 } </code> </td>
+        <td>Returns records whose field value is greater than or equal the filter  </td>
+        <td><ul><li>10</li><li>20</li><ul><li>25</li> </td>
     </tr>
     <tr>
-        <td></td>
-        <td><code></code> </td>
-        <td> </td>
-        <td> </td>
+        <td>$lessThan </td>
+        <td><code>"fieldId": { "$lessThan": 10 } </code> </td>
+        <td>Returns records whose field value is less than the filter  </td>
+        <td><ul><li>5</li><li>9</li><ul> </td>
     </tr>
     <tr>
-        <td></td>
-        <td><code></code> </td>
-        <td> </td>
-        <td> </td>
+        <td>$lessThanOrEqual </td>
+        <td><code>"fieldId": { "$lessThanOrEqual": 10 } </code> </td>
+        <td>Returns records whose field value is less than or equal the filter </td>
+        <td><ul><li>5</li><li>9</li><ul><li>10</li> </td>
     </tr>
     <tr>
         <td></td>
@@ -128,99 +128,6 @@ Workfront Planning supports the following search modifiers:
 
 
 
-
-
-$doesNotContain 
-
-"fieldId": { "$doesNotContain": "product" } 
-
-Returns records whose field value does not contain the filter 
-
-"New Launch" 
-
-$is 
-
-"fieldId" : { "$is": "new product launch" } 
-
-"fieldId" : { "new product launch" } 
-
-Returns records whose field value exactly match the filter 
-
-"New Product Launch" 
-
-$isNot 
-
-"fieldId": { "$isNot": "product" } 
-
-Returns records whose field value exactly is not match the filter 
-
-"New Product Launch" 
-
-$isEmpty 
-
-"fieldId": "$isEmpty" 
-
-"fieldId": { "$isEmpty": null } 
-
-Returns records whose field value is empty 
-
-"" 
-
-null 
-
-$isNotEmpty 
-
-"fieldId": "$isNotEmpty" 
-
-"fieldId": { "$isNotEmpty": null } 
-
-Returns records whose field value is not empty 
-
-"New Product Launch" 
-
-$greaterThan 
-
-"fieldId": { "$greaterThan": 10 } 
-
-Returns records whose field value is greater than the filter 
-
-20 
-
-25 
-
-$greaterThanOrEqual 
-
-"fieldId": { "$greaterThanOrEqual": 10 } 
-
-Returns records whose field value is greater than or equal the filter 
-
-10 
-
-20 
-
-25 
-
-$lessThan 
-
-"fieldId": { "$lessThan": 10 } 
-
-Returns records whose field value is less than the filter, ex: 5, 9 
-
-5 
-
-9 
-
-$lessThanOrEqual 
-
-"fieldId": { "$lessThanOrEqual": 10 } 
-
-Returns records whose field value is less than or equal the filter, ex: 5, 9, 10 
-
-5 
-
-9 
-
-10 
 
 $isAfter 
 
