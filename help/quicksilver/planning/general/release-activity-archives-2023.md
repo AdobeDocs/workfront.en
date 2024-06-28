@@ -1,5 +1,5 @@
 ---
-title: Adobe Workfront Planning release activity for 2023
+title: Adobe Workfront Planning release activity archives for 2023
 description: Adobe Workfront Planning capabilities are currently available to select Workfront customers. Review this article often to learn about the features recently released for the planning capabilities. 
 hidefromtoc: yes
 hide: yes
@@ -25,7 +25,7 @@ recommendations: noDisplay, noCatalog
 
 This article lists the features that have been released after the launch of the Adobe Workfront Planning program, on May 22, 2023 for the year 2023.
 
-For information about the features released during 2024, see [Adobe Workfront Planning release activity](/help/quicksilver/planning/general/release-activity.md). 
+For information about the features released during 2024, see [Adobe Workfront Planning current release activity](/help/quicksilver/planning/general/release-activity.md). 
 
 The released features are listed in the order of their release, with the most recent first. Customers who are participating in the Workfront Planning program can access all features in their Production environments.
 
