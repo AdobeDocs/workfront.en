@@ -203,74 +203,56 @@ You can use the fields request parameter to specify a comma-separated list of sp
 
 For example, the request 
 
-  
-
-/attask/api/v15.0/task/search?fields=plannedStartDate,priority 
+`/attask/api/v15.0/task/search?fields=plannedStartDate,priority`
 
 returns a response similar to the following: 
 
   
-
+```
 { 
-
     "priority": 2, 
-
     "name": "first task", 
-
     "ID": "4c7c08fa0000002ff924e298ee148df4", 
-
     "plannedStartDate": "2010-08-30T09:00:00:000-0600" } 
+```
 
- 
-
-Sorting Query Results in the API 
+### Sorting Query Results in the API 
 
 You can sort your results by any field if you append the following to your API call: 
 
- Example  
+<!--Example -->
 
- 
+### Query limits and paginated responses 
 
-Query limits and paginated responses 
+By default, Planning API requests return 500 results, starting from the beginning of the list. To override the default limitation for number of results, you can use "limit" parameter in your requests and set it to a different number, up to 2000 results.  
 
-When working with Planning API, please consider that by default, the API requests return 500 results, starting from the beginning of the list. To override the default limitation for number of results, you can use "limit" parameter in your requests and set it to a different number, up to 2000 results.  
+We recommend that you consider using paginated responses for large datasets by adding "offset" parameter to your requests. Paginated responses allow you to specify the location of the first result that should be returned. 
 
-We recommend that you consider using paginated responses for large datasets by adding "offset" parameter to your requests. Paginated responses allow you to specify the location of the first result that should be returned. For example, if you want to return the results 2001-4000, you can use the following request:  
+For example, if you want to return the results 2001-4000, you can use the following request. This example returns 2000 records that are in active status, starting from the 2001st result: 
 
-  
-
-For example, the below query is for returning 2000 records that are in active status, starting from the 2001st result: 
-
-POST /v1/records/search 
+`POST /v1/records/search `
 
   
 
 Request body: 
 
+```
 { 
-
     "recordTypeId": "recordTypeId", 
-
     "offset": "2001", 
-
     "limit": "2000", 
-
     "filters": [ 
-
         { "status": "active" } 
-
     ] 
-
-} 
+      } 
+```
 
 To make sure your results are properly paginated, use a sorting parameter. This allows the results to be returned in the same order, so that the pagination does not repeat or skip results. For example, to sort using the object ID, use ID_Sort=asc.  
 
- 
-
-Using Count   
+### Using Count   
 
 You can use count to return the number of results that match your query.  
 
-Example  
+<!--Example --> 
 
  
