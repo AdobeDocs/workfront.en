@@ -105,124 +105,66 @@ Workfront Planning supports the following search modifiers:
         <td><ul><li>5</li><li>9</li><ul><li>10</li> </td>
     </tr>
     <tr>
-        <td></td>
-        <td><code></code> </td>
-        <td> </td>
-        <td> </td>
+        <td>$isAfter </td>
+        <td><code>"fieldId": { "$isAfter": "2024-05-14T20:00:00.000Z" } </code> </td>
+        <td>Returns records whose field value is after the filter  </td>
+        <td>"2024-05-15T20:00:00.000Z"  </td>
     </tr>
     <tr>
-        <td></td>
-        <td><code></code> </td>
-        <td> </td>
-        <td> </td>
+        <td>$isBefore </td>
+        <td><code>"fieldId": { "$isBefore": "2024-05-14T20:00:00.000Z" } </code> </td>
+        <td>Returns records whose field value is before the filter </td>
+        <td>"2024-05-12T20:00:00.000Z" </td>
     </tr>
     <tr>
-        <td></td>
-        <td><code></code> </td>
-        <td> </td>
-        <td> </td>
+        <td>$isBetween </td>
+        <td><code>"fieldId": { "$isBetween": ["2024-05-10T20:00:00.000Z", "2024-05-15T20:00:00.000Z"] } </code> </td>
+        <td>Returns records whose field value is between the filter  </td>
+        <td><ul><li>"2024-05-12T20:00:00.000Z" </li><li>"2024-05-14T20:00:00.000Z" </li><ul>  </td>
+    </tr>
+    <tr>
+        <td>$isNotBetween </td>
+        <td><code>"fieldId": { "$isNotBetween": ["2024-05-10T20:00:00.000Z", "2024-05-15T20:00:00.000Z"] } </code> </td>
+        <td>Returns records whose field value is not between the filter  </td>
+        <td><ul><li>"2024-05-09T20:00:00.000Z"  </li><li>"2024-05-17T20:00:00.000Z"  </li><ul>  </td>
+    </tr>
+    <tr>
+        <td>$isAnyOf </td>
+        <td><code>"fieldId": { "$isAnyOf": ["active", "completed"] } </code> </td>
+        <td>Returns records whose field value is any of the filter  </td>
+        <td><ul><li>"active" </li><li>"completed" </li><ul> </td>
+    </tr>
+    <tr>
+        <td>$isNoneOf </td>
+        <td><code>"fieldId": { "$isNoneOf": ["active", "completed"] } </code> </td>
+        <td>Returns records whose field value is none of the filter </td>
+        <td><ul><li>"finished"  </li><li>"fixed"  </li><ul> </td>
+    </tr>
+    <tr>
+        <td>$hasAnyOf </td>
+        <td><code>"fieldId": { "$hasAnyOf": ["active", "completed"] } </code> </td>
+        <td>Returns records whose field value has any of the filter  </td>
+        <td><ul><li>["active", "fixed"]  </li><li>["fixed", "completed", "finished"]  </li><ul> </td>
+    </tr>
+    <tr>
+        <td>$hasAllOf </td>
+        <td><code>"fieldId": { "$hasAllOf": ["active", "completed"] } </code> </td>
+        <td>Returns records whose field value has all of the filter  </td>
+        <td><ul><li>["active", "completed"]   </li><li>["active", "completed", "finished"]   </li><ul> </td>
+    </tr>
+    <tr>
+        <td>$hasNoneOf </td>
+        <td><code>"fieldId": { "$hasNoneOf": ["active", "completed"] } </code> </td>
+        <td>Returns records whose field value has none of the filter </td>
+        <td>["fixed", "finished"]  </td>
+    </tr>
+    <tr>
+        <td>$isExactly </td>
+        <td><code>"fieldId": { "$isExactly": ["active", "completed"] } </code> </td>
+        <td>Returns records whose field value is exactly the filter  </td>
+        <td>["active", "completed"]  </td>
     </tr>
 </table>
- 
-
-
-
-
-
-$isAfter 
-
-"fieldId": { "$isAfter": "2024-05-14T20:00:00.000Z" } 
-
-Returns records whose field value is after the filter 
-
-"2024-05-15T20:00:00.000Z" 
-
-$isBefore 
-
-"fieldId": { "$isBefore": "2024-05-14T20:00:00.000Z" } 
-
-Returns records whose field value is before the filter 
-
-"2024-05-12T20:00:00.000Z" 
-
-$isBetween 
-
-"fieldId": { "$isBetween": ["2024-05-10T20:00:00.000Z", "2024-05-15T20:00:00.000Z"] } 
-
-Returns records whose field value is between the filter 
-
-"2024-05-12T20:00:00.000Z" 
-
-"2024-05-14T20:00:00.000Z" 
-
-$isNotBetween 
-
-"fieldId": { "$isNotBetween": ["2024-05-10T20:00:00.000Z", "2024-05-15T20:00:00.000Z"] } 
-
-Returns records whose field value is not between the filter 
-
-"2024-05-09T20:00:00.000Z" 
-
-"2024-05-17T20:00:00.000Z" 
-
-$isAnyOf 
-
-"fieldId": { "$isAnyOf": ["active", "completed"] } 
-
-Returns records whose field value is any of the filter 
-
-"active" 
-
-"completed" 
-
-$isNoneOf 
-
-"fieldId": { "$isNoneOf": ["active", "completed"] } 
-
-Returns records whose field value is non of the filter 
-
-"finished" 
-
-"fixed" 
-
-$hasAnyOf 
-
-"fieldId": { "$hasAnyOf": ["active", "completed"] } 
-
-Returns records whose field value has any of the filter 
-
-["active", "fixed"] 
-
-["fixed", "completed", "finished"] 
-
-$hasAllOf 
-
-"fieldId": { "$hasAllOf": ["active", "completed"] } 
-
-Returns records whose field value has all of the filter 
-
-["active", "completed"] 
-
-["active", "completed", "finished"] 
-
-$hasNoneOf 
-
-"fieldId": { "$hasNoneOf": ["active", "completed"] } 
-
-Returns records whose field value has none of the filter 
-
-["fixed", "finished"] 
-
-$isExactly 
-
-"fieldId": { "$isExactly": ["active", "completed"] } 
-
-Returns records whose field value is exactly the filter 
-
-["active", "completed"] 
-
- 
-
  
 
 Field Types 
