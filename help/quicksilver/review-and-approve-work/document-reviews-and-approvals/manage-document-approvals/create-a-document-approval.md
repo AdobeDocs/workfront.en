@@ -9,7 +9,7 @@ exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 ---
 # Create a document review or approval request
 
-You can request approval from other users or teams for a document in Adobe Workfront, or request they review a document without needing to approve it.
+cYou can request approval from other users or teams for a document in Adobe Workfront, or request they review a document without needing to approve it.
 
 >[!IMPORTANT]
 >
@@ -28,7 +28,7 @@ You must have the following access to perform the steps in this article:
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront license*</td>  
    <td> <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
