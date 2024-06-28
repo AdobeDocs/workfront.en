@@ -12,33 +12,24 @@ The goal for the Adobe Workfront Planning API is to simplify building integratio
 
 A familiarity with the Workfront Planning schema will assist you in understanding the database relationships that can be utilized to pull data out of Workfront Planning for integration purposes.  
 
- 
+## Workfront Planning API URL 
 
-Workfront Planning API URL 
+For information about the URL that you will use to call the Workfront Planning API, see <!--<Planning API page on developers site>. -->
 
-For information about the URL that you will use to call the Workfront Planning API, see <Planning API page on developers site>. 
-
-    
-
-Operations 
+### Operations 
 
 Objects are manipulated by sending an HTTP request to their unique URI. The operation to be performed is specified by the HTTP method. 
 
 The standard HTTP methods correspond to the following operations: 
 
-GET - Retrieves an object by ID, searches for all objects by a query, runs reports, or executes named queries 
+* **GET** - Retrieves an object by ID, searches for all objects by a query, runs reports, or executes named queries 
+* **POST** - Inserts a new object 
+* **PUT** - Edits an existing object 
+* **DELETE** - Deletes an object 
 
-POST - Inserts a new object 
+For more details and examples of each operation, <!--please reference the API Guide  -->
 
-PUT - Edits an existing object 
-
-DELETE - Deletes an object 
-
-For more details and examples of each operation, please reference the API Guide  
-
-  
-
-Field types and search modifiers used with them 
+### Field types and search modifiers used with them 
 
 You can use modifiers and filters with fields to control what data will be returned in results. Refer to the API Guide for examples.  
 
