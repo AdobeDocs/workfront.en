@@ -39,10 +39,10 @@ Workfront Planning supports the following search modifiers:
 
 <table>
     <tr>
-        <td>Modifier</td>
-        <td>Example</td>
-        <td>Description</td>
-        <td>Possible Values</td>
+        <td><b>Modifier</b></td>
+        <td><b>Example</b></td>
+        <td><b>Description</b></td>
+        <td><b>Possible Values</b></td>
     </tr>
     <tr>
         <td>$contains </td>
