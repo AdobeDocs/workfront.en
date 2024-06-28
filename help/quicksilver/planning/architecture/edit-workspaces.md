@@ -86,7 +86,7 @@ For more information about access requirements, see [Access requirements in Work
     
 1. Click a workspace card to open the workspace. 
 1. Click inside the name of the workspace in the header of the new workspace to rename it, then press **Enter**. 
-1. Click the **More** menu ![](assets/more-menu.png)to the right of the workspace name in the header, then click **Edit**.
+1. Click the **More** menu ![](assets/more-menu.png) to the right of the workspace name in the header, then click **Edit**.
 
    ![](assets/edit-workspace-box.png)
 
