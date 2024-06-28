@@ -129,7 +129,11 @@ You must have the following access to perform the steps in this article:
     >
     >    Some fields might be hidden. Click Fields and enable the toggle of the fields you want to view as columns in the table view. 
    
-1. Click the **+** icon in the upper-right corner of the table view to add new fields.
+1. Click the **+** icon in the upper-right corner of the table view
+
+    Or
+    
+    Hover over the header of any column, click the downward-pointing arrow after the field name, then click **Insert left** or **Insert right** to add the new field.
 1. In the **New field** tab, search for a field type in the **Field type** box, or select from the following field types: 
 
     * [Single-line text](#single-line-text)

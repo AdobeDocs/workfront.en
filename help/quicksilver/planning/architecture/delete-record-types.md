@@ -120,7 +120,7 @@ You must have the following access to perform the steps in this article:
 
     Or
 
-    From a workspace, expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to delete record types from.
+    From a workspace, expand the downward-pointing arrow to the right of an existing workspace name, search for a workspace, then select it when it displays in the list.
 
     The workspace opens and the record types display. 
 1. Do one of the following:
