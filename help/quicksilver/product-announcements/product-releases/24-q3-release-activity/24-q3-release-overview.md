@@ -32,6 +32,7 @@ The live 24.7 release webinar was cancelled, but you can still [watch a video de
 * [Financial management enhancements](#financial-management-enhancements)
 * [Integration enhancements](#integration-enhancements)
 * [Project enhancements](#project-enhancements)
+* [Proofing enhancements](#proofing-enhancements)
 * [Resource management enhancements](#resource-management-enhancements)
 * [Other enhancements](#other-enhancements)
 
@@ -293,6 +294,41 @@ The live 24.7 release webinar was cancelled, but you can still [watch a video de
                         </ul>
                     </td>
                  </tr>
+           </tbody>
+        </table>
+
+### Proofing enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Security updates for the Desktop Proofing Viewer</a></p>
+                        <p>The Workfront Proof Desktop Proofing Viewer 2.1.35 security update provides security bug fixes for vulnerabilities that have been identified in previous releases.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: July, 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production for all customers: July 4, 2024</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>             
            </tbody>
         </table>
 
