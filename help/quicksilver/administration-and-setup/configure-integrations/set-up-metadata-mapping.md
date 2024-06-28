@@ -52,7 +52,7 @@ When a user sends a document from [!DNL Workfront] to a [!DNL Workfront] applica
 
 You can map the same [!DNL Workfront] field to various metadata fields in [!DNL Workfront DAM], but you cannot use a metadata field in either of those applications for multiple [!DNL Workfront] metadata fields.
 
-To configure multiple [!DNL Workfront] fields to export to one metadata field in a [!DNL Workfront] application, first create a calculated custom field in [!DNL Workfront] to display all the individual custom fields of an object. Then, map the calculated [!DNL Workfront] field to a metadata field in the [!DNL Workfront] application. For more information about calculated custom fields, see [Add calculated data to a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+To configure multiple [!DNL Workfront] fields to export to one metadata field in a [!DNL Workfront] application, first create a calculated custom field in [!DNL Workfront] to display all the individual custom fields of an object. Then, map the calculated [!DNL Workfront] field to a metadata field in the [!DNL Workfront] application. For more information about calculated custom fields, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 Before you can map fields for the metadata mapping process, you must enable the application in [!DNL Workfront]. For more information, see [Configure document integrations](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 

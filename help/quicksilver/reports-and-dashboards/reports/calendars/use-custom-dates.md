@@ -48,7 +48,7 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-1. You must have custom date fields and a value within the field available in your [!DNL Workfront] instance. If you don't have a custom form set up with custom dates, follow the instructions in the first two sections in [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. You must have custom date fields and a value within the field available in your [!DNL Workfront] instance. If you don't have a custom form set up with custom dates, follow the instructions in [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 1. Attach the custom form to a project, task, or issue you plan to add to the calendar, and specify a date. For more information, see [Add a custom form to an object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 ## Set up the group of items

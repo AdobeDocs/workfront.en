@@ -38,4 +38,4 @@ In addition, when you open a custom form in the form designer beta that contains
 
 Editing existing logic and adding new logic to a custom form are not yet available in the form designer beta, but are planned for the future.
 
-For more information, see [Form designer overview](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).
+For more information, see [Custom forms overview](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).

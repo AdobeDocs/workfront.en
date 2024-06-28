@@ -58,7 +58,7 @@ You can add the following types of custom fields to a custom form in Workfront:
 
 >[!NOTE]
 >
->To track field changes in update feeds, go to Setup > Interface > Update Feeds.
+>To track field changes in update feeds, go to Setup > Interface > Update Feeds. For more information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 ## Objects where users can attach a custom form
 

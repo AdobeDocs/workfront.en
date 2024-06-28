@@ -1,5 +1,5 @@
 ---
-title: Add calculated fields with the form designer
+title: Add calculated fields to a form
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -9,7 +9,7 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
 ---
-# Add calculated fields with the form designer
+# Add calculated fields to a form
 
 You can add a calculated custom field that uses existing data to generate new data when the custom form is attached to an object. 
 

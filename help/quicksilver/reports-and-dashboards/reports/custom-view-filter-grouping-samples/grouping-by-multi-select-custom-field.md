@@ -66,7 +66,7 @@ You must have the following access to perform the steps in this article:
 To be able to group by a multi-select custom field, you must have the following prerequisites:
 
 * Build the multi-select custom field in a custom form.  
-  For information about building custom forms and adding custom fields to them, see the article [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  For information about building custom forms and adding custom fields to them, see the article [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Attach the custom form to objects.
 * Populate the multi-select custom field with a value on each object.&nbsp;

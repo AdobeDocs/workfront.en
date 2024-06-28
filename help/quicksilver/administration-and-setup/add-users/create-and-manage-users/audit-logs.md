@@ -186,7 +186,7 @@ The system generates a Custom Section audit log entry when a user does one of th
 * Changes the name or description of a custom section
 * Deletes a custom section
 
-For information about custom sections in custom forms, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+For information about custom sections in custom forms, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ### Exchange Rate {#exchange-rate}
 

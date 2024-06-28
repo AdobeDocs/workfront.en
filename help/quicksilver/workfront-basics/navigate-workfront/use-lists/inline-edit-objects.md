@@ -82,8 +82,8 @@ You must have the following access to perform the steps in this article:
 
    >[!NOTE]
    >
-   >If a custom field has been configured to allow formatting, you can bold, italicize, or underline text when inline editing the field in an updated list.\
-   >For information on configuring formatting for a custom field, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).\
+   >If a custom field has been configured to allow formatting, you can bold, italicize, or underline text when inline editing the field in an updated list.
+   >For information on configuring formatting for a custom field, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    >For information on updated lists, see the section "The difference between the updated and the legacy lists" in the article [Get started with lists in [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
 1. Press [!UICONTROL Tab] to move to the next editable cell.
