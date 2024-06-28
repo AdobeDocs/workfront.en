@@ -31,27 +31,104 @@ For more details and examples of each operation, <!--please reference the API Gu
 
 ### Field types and search modifiers used with them 
 
-You can use modifiers and filters with fields to control what data will be returned in results. Refer to the API Guide for examples.  
+You can use modifiers and filters with fields to control what data will be returned in results. <!--Refer to the API Guide for examples.  -->
 
-Using Search Modifiers 
+#### Using Search Modifiers 
 
-Workfront Planning support the following search modifiers: 
+Workfront Planning supports the following search modifiers: 
 
-Modifier 
+<table>
+    <tr>
+        <td>Modifier</td>
+        <td>Example</td>
+        <td>Description</td>
+        <td>Possible Values</td>
+    </tr>
+    <tr>
+        <td>$contains </td>
+        <td><code>"fieldId": { "$contains": "product" } </code> </td>
+        <td>Returns records whose field value contains the filter  </td>
+        <td>"New Product Launch"  </td>
+    </tr>
+    <tr>
+        <td>$doesNotContain</td>
+        <td><code>"fieldId": { "$doesNotContain": "product" } </code> </td>
+        <td>Returns records where the field value does not contain the filter  </td>
+        <td>"New Launch"  </td>
+    </tr>
+    <tr>
+        <td>$is </td>
+        <td><ul><li><code>"fieldId" : { "$is": "new product launch" } </code></li><li><code>"fieldId" : { "new product launch" } </code></li><ul> </td>
+        <td>Returns records whose field value exactly match the filter  </td>
+        <td>"New Product Launch"  </td>
+    </tr>
+    <tr>
+        <td>$isNot </td>
+        <td><code>"fieldId": { "$isNot": "product" } </code> </td>
+        <td>Returns records whose field value exactly is not match the filter  </td>
+        <td>"New Product Launch"  </td>
+    </tr>
+    <tr>
+        <td>$isEmpty </td>
+        <td><ul><li><code>"fieldId": "$isEmpty" </code></li><li><code>"fieldId": { "$isEmpty": null } </code></li><ul> </td>
+        <td>Returns records whose field value is not empty  </td>
+        <td><ul><li>"" </li><li>null </li><ul>  </td>
+    </tr>
+    <tr>
+        <td>$isNotEmpty </td>
+        <td><ul><li><code>"fieldId": "$isNotEmpty"  </code></li><li><code>"fieldId": { "$isNotEmpty": null } </code></li><ul> </td>
+        <td>Returns records whose field value is not empty  </td>
+        <td>"New Product Launch"  </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><code></code> </td>
+        <td> </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><code></code> </td>
+        <td> </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><code></code> </td>
+        <td> </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><code></code> </td>
+        <td> </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><code></code> </td>
+        <td> </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><code></code> </td>
+        <td> </td>
+        <td> </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td><code></code> </td>
+        <td> </td>
+        <td> </td>
+    </tr>
+</table>
+ 
 
-Example 
 
-Description 
 
-Possible Values 
 
-$contains 
 
-"fieldId": { "$contains": "product" } 
-
-Returns records whose field value contains the filter 
-
-"New Product Launch" 
 
 $doesNotContain 
 
