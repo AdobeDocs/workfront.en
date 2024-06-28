@@ -166,102 +166,38 @@ Workfront Planning supports the following search modifiers:
     </tr>
 </table>
  
-
-Field Types 
+#### Field Types 
 
 Below is the list of supported field types and what search modifiers can be used with each of those field types  
 
-Field Type 
+| Field Type | Supported search modifiers |
+|---|---|
+| text |$contains, $doesNotContain, $is, $isNot, $isEmpty, $isNotEmpty |
+| long-text | $contains, $doesNotContain, $is, $isNot, $isEmpty, $isNotEmpty |
+| number | $is, $isNot, $greaterThan, $greaterThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty |
+| percentage | $is, $isNot, $greaterThan, $greaterThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty |
+| currency | $is, $isNot, $greaterThan, $greaterThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty |
+| date | $is, $isNot, $isAfter, $isBefore, $isBetween, $isNotBetween, $isEmpty, $isNotEmpty |
+| single-select | $is, $isNot, $isAnyOf, $isNoneOf, $isEmpty, $isNotEmpty |
+| multi-select | $hasAnyOf, $hasAllOf, $isExactly, $hasNoneOf, $isEmpty, $isNotEmpty |
+| boolean | $is |
+| user | $hasAnyOf, $hasAllOf, $isExactly, $hasNoneOf, $isEmpty, $isNotEmpty |
+| formula | $contains, $doesNotContain, $is, $isNot, $isEmpty, $isNotEmpty |
+| url | $contains, $doesNotContain, $is, $isNot, $isEmpty, $isNotEmpty |
+| created-by | $is, $isNot, $isAnyOf, $isNoneOf |
+| created-at | $is, $isNot, $isAfter, $isBefore, $isBetween, $isNotBetween |
+| updated-by | $is, $isNot, $isAnyOf, $isNoneOf, $isEmpty, $isNotEmpty |
+| updated-at | $is, $isNot, $isAfter, $isBefore, $isBetween, $isNotBetween, $isEmpty, $isNotEmpty |
+| reference | $hasAnyOf, $hasAllOf, $isExactly, $hasNoneOf, $isEmpty, $isNotEmpty |
+| lookup | Depends on the linked field |
 
-Supported search modifiers 
-
-text 
-
-$contains, $doesNotContain, $is, $isNot, $isEmpty, $isNotEmpty 
-
-long-text 
-
-$contains, $doesNotContain, $is, $isNot, $isEmpty, $isNotEmpty 
-
-number 
-
-$is, $isNot, $greaterThan, $greaterThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty 
-
-percentage 
-
-$is, $isNot, $greaterThan, $greaterThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty 
-
-currency 
-
-$is, $isNot, $greaterThan, $greaterThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty 
-
-date 
-
-$is, $isNot, $isAfter, $isBefore, $isBetween, $isNotBetween, $isEmpty, $isNotEmpty 
-
-single-select 
-
-$is, $isNot, $isAnyOf, $isNoneOf, $isEmpty, $isNotEmpty 
-
-multi-select 
-
-$hasAnyOf, $hasAllOf, $isExactly, $hasNoneOf, $isEmpty, $isNotEmpty 
-
-boolean 
-
-$is 
-
-user 
-
-$hasAnyOf, $hasAllOf, $isExactly, $hasNoneOf, $isEmpty, $isNotEmpty 
-
-formula 
-
-$contains, $doesNotContain, $is, $isNot, $isEmpty, $isNotEmpty 
-
-url 
-
-$contains, $doesNotContain, $is, $isNot, $isEmpty, $isNotEmpty 
-
-created-by 
-
-$is, $isNot, $isAnyOf, $isNoneOf 
-
-created-at 
-
-$is, $isNot, $isAfter, $isBefore, $isBetween, $isNotBetween 
-
-updated-by 
-
-$is, $isNot, $isAnyOf, $isNoneOf, $isEmpty, $isNotEmpty 
-
-updated-at 
-
-$is, $isNot, $isAfter, $isBefore, $isBetween, $isNotBetween, $isEmpty, $isNotEmpty 
-
-reference 
-
-$hasAnyOf, $hasAllOf, $isExactly, $hasNoneOf, $isEmpty, $isNotEmpty 
-
-lookup 
-
-Depends on the linked field 
-
- 
-
- 
-
-Using "And" and "Or" Statements 
+### Using "And" and "Or" Statements 
 
 In the API call you can have filters that based on several criteria combined by $and" and "$or" statements  
 
-Example 
+<!--Example -->
 
- 
-
-Using the Fields Request Parameter 
-
-  
+### Using the Fields Request Parameter 
 
 You can use the fields request parameter to specify a comma-separated list of specific fields that should be returned. These field names are case-sensitive.  
 
