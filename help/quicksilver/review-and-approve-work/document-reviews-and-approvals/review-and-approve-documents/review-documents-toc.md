@@ -2,14 +2,14 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: "Review documents: article index"
+title: "Approve and review documents: article index"
 description: This section contains articles about reviewing documents in Adobe Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: cb4c2496-4219-4e37-9785-a8d224bc3936
 ---
-# Review documents: article index
+# Approve and review documents: article index
 
 >[!IMPORTANT]
 >

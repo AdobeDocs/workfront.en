@@ -14,11 +14,8 @@ exl-id: b4577935-ee03-47b7-a629-2c03e8f42592
 This section contains the following sections:
 
 * [New document approvals overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
-* [Review documents: article index](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
-* [Approve documents: article index](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md) 
+* [Document decision status](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
 * [Get started with Asset review and approval with Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/frame-wf-get-started.md)
+* [Set up and manage asset and document approvals](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+* [Review and approve assets and documents](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
 
-
-
-* [Set up and manage asset and document approvals]
-* [Review and approve assets and documents]

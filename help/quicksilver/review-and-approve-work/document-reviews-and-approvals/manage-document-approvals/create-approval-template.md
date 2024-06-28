@@ -1,13 +1,13 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Create an Approval Template
+title: Create an Approval Template for assets and documents
 description: You can create Approval Templates to streamline your approval process.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
 ---
-# Create an Approval Template
+# Create an Approval Template for assets and documents
 
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 

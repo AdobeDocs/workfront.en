@@ -1,15 +1,15 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Remove approvers or reviewers from a document
+title: Remove approvers or reviewers from an asset or document
 description: You can remove individual approvers or reviewers from a document.
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
 ---
-# Remove approvers or reviewers from a document
+# Remove approvers or reviewers from an asset or document
 
-You can remove individual approvers or reviewers from a document after they have been assigned.
+You can remove individual approvers or reviewers from an asset or document after they have been assigned.
 
 >[!IMPORTANT]
 >
@@ -44,7 +44,7 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Remove approvers or reviewers from the document page
+## Remove approvers or reviewers from the Document Details page
 
 1. Go to the document page by clicking on the name of the document, then select the version of the document you would like to remove an approval for in the version dropdown. The latest version will be selected by default.
 
@@ -58,7 +58,7 @@ You must have the following access to perform the steps in this article:
 
 1. Repeat the previous step to remove any additional approvers or reviewers.
 
-## Remove approvers or reviewers from the Document Summary pane
+## Remove approvers or reviewers from the Document Summary
 
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
 
