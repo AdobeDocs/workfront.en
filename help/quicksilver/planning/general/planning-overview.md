@@ -53,7 +53,7 @@ The following are some of the main capabilities:
 
 The following table illustrates the main features that will be available in Workfront Planning, and a timeline of their availability. The list does not include all features.
 
-For information about new features and when they are released, see [Adobe Workfront Planning release activity](/help/quicksilver/planning/general/release-activity.md). 
+For information about new features and when they are released, see [Adobe Workfront Planning current release activity](/help/quicksilver/planning/general/release-activity.md). 
 
 |       Feature                                      |     Available now  |     Available soon   |     In research  |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -322,5 +322,5 @@ To locate Workfront Planning:
 
 We are releasing new features to Workfront Planning regularly. 
 
-For an up-to-date list of released features, see [Adobe Workfront Planning release activity](/help/quicksilver/planning/general/release-activity.md)
+For an up-to-date list of released features, see [Adobe Workfront Planning current release activity](/help/quicksilver/planning/general/release-activity.md)
 
