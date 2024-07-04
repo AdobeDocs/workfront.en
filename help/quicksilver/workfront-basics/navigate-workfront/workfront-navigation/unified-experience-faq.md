@@ -1,7 +1,7 @@
 ---
 product-area: workfront-navigation
 navigation-topic: workfront-navigation
-title: Adobe Unified Experience for FAQ
+title: Adobe Unified Experience FAQ
 description: A few features are different between [!DNL Workfront] and Adobe Experience Cloud, and you might have some questions as your [!DNL Workfront] instance is migrated to the unified experience.
 author: Nolan
 feature: Get Started with Workfront

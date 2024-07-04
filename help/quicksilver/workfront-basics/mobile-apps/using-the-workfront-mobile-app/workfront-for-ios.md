@@ -186,21 +186,3 @@ The [!UICONTROL Configuration] area allows you to:
 * Log out
 
 ![Configuration area](assets/ios-configuration-area.png)
-
-## Virtual Assistant
-
-The virtual assistant allows you to perform the following tasks via voice command:
-
-* [!UICONTROL Show me]
-* [!UICONTROL Delete]
-* [!UICONTROL Search for]
-* [!UICONTROL Help me with commands]
-
-For more information on the Virtual assistant, see [[!DNL Adobe Workfront] mobile app virtual assistant](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
-
-## [!UICONTROL Pin]
-
-The [!UICONTROL Pin] area allows you to access saved virtual assistant commands as well as pins from your web browser.
-![Pin and save query](assets/pin-and-save-query-adobe-350x285.png)
-
-For more information on the Virtual assistant, see [Adobe Workfront mobile app virtual assistant](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md).
