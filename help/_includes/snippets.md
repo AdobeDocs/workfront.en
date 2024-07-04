@@ -320,7 +320,7 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 
 ## Latest DPV Version {#latest-version}
 
-**Latest version**: 2.1.34 as of 3/06/2024
+**Latest version**: 2.1.35 as of 7/04/2024
 
 <!-- Release -->
 
