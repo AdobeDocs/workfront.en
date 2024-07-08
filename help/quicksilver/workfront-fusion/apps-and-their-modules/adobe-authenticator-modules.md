@@ -152,6 +152,14 @@ To create a connection:
         </td>
       </tr>
       <tr>
+        <td role="rowheader">[!UICONTROL Base URLs]</td>
+        <td>You must add the base URLs that you want this authenticator to allow. When using the Make a custom API call module later in the scenario, you will add a relative path to the chosen URL. By entering URLs here, you can control what the Make a custom API call module can connect to, which increases security.<p>For each base URL that you want to add to the authenticator, click <b>Add item</b> and enter the base URL.</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Authentication URL]</td>
+        <td>Defaults to <code>https://ims-na1.adobelogin.com</code>.</td>
+      </tr>
+      <tr>
         <td role="rowheader">[!UICONTROL Environment]</td>
         <td>Select whether you are connecting to a production or non-production environment.</td>
       </tr>
