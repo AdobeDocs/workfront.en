@@ -7,11 +7,10 @@ description: You can select whether you want to receive new Workfront functional
 author: Lisa
 feature: System Setup and Administration
 role: Admin
-hidefromtoc: yes
-hide: yes
-recommendations: noDisplay, noCatalog
 ---
 # Create and edit business rules
+
+{{highlighted-preview-article-level}}
 
 A business rule allows you to apply validation to Workfront objects and prevent users from creating, editing, or deleting an object when certain conditions are met. Business rules help to improve data quality and operational efficiency by preventing actions that could compromise data integrity.
 
@@ -19,7 +18,7 @@ A single business rule can be assigned to only one object. For example, if you c
 
 Access levels and object sharing have a higher priority than business rules when a user interacts with an object. For example, if a user has an access level or permission that does not allow editing a project, then those would take precedence over a business rule that permits editing a project under certain conditions.
 
-A hierarchy also exists when more than one business rule is applied to an object. For example, you have two business rules. One restricts creating expenses in the month of February. The second prevents editing a project when the project status is Complete. If a user tries to add an expense to a completed project in June, the expense cannot be added because it has triggered the second rule.
+When more than one business rule applies to an object, then the rules are all followed but are not applied in a certain order. For example, you have two business rules. One restricts creating expenses in the month of February. The second prevents editing a project when the project status is Complete. If a user tries to add an expense to a completed project in June, the expense cannot be added because it has triggered the second rule.
 
 Business rules apply to creating, editing, and deleting objects through the API as well as in the Workfront interface.
 
@@ -58,18 +57,36 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Scenarios for business rules
 
-Some simple business rule scenarios are:
+The format of a business rule is "IF the defined condition is met, then the user is prevented from the action on the object, and the message is displayed."
 
-* Users cannot add new expenses during the last week of February. This formula could be stated as: `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
-* Users cannot edit a project that is in Complete status. This formula could be stated as: `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
-
-The syntax for building a business rule is the same as building a calculated field in a custom form. For more information about the syntax, see [Add calculated fields with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+The syntax for the properties and other functions in a business rule is the same as the syntax for a calculated field in a custom form. For more information about the syntax, see [Add calculated fields with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 For information about IF statements, see ["IF" statements overview](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/if-statements-overview.md) and [Condition operators in calculated custom fields](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
 For information about user-based wildcards, see [Use user-based wildcards to generalize reports](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-user-based-wildcards-generalize-reports.md).
 
 For information about date-based wildcards, see [Use date-based wildcards to generalize reports](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-date-based-wildcards-generalize-reports.md).
+
+An API wildcard is also available in business rules. You can use `$$ISAPI` to trigger the rule only in the UI or only in the API.
+
+Some simple business rule scenarios are:
+
+* Users cannot add new expenses during the last week of February. This formula could be stated as: `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
+* Users cannot edit a project that is in Complete status. This formula could be stated as: `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
+
+A scenario with nested IF statements is:
+
+Users cannot edit completed projects and cannot edit projects with a Planned Completion Date in March. This formula could be stated as:
+
+```
+IF(
+    {status}="CPL",
+    "You cannot edit a completed project",
+    IF(
+        MONTH({plannedCompletionDate})=3,
+        "You cannot edit a project with a planned completion date in March")
+)
+```
 
 ## Add a new business rule
 
