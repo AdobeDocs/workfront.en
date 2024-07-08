@@ -294,7 +294,7 @@ For example, to reference the selected option in a custom field labeled Executiv
 
 ## Calculated custom fields in multi-object custom forms {#calculated-custom-fields-in-multi-object-custom-forms}
 
-In a multi-object custom form, the selected object types must be compatible with all fields referenced in the form's calculated custom fields. If there is an incompatibility, a message alerts you to make adjustments.
+In a multi-object custom form, the selected object types must be compatible with all fields referenced in the form's calculated custom fields.
 
 >[!INFO]
 >
@@ -304,11 +304,11 @@ In a multi-object custom form, the selected object types must be compatible with
 >
 >`{assignedTo}.{name}`
 >
->Later, you add the Project object type to the custom form. A warning message tells you that the Project object type is incompatible with the calculated custom field.
+>Later, you add the Project object type to the custom form, but the Project object type is incompatible with the calculated custom field.
 
 When this occurs, you can do one of the following:
 
-* Remove one of the two incompatible items from the custom form—either the object type or the referenced calculated custom field.
+* Remove one of the two incompatible items from the custom form — either the object type or the referenced calculated custom field.
 * Keep both items and use the wildcard filter variable `$$OBJCODE` as a condition in an IF expression to create two different versions of the In Charge field. This allows the field to function successfully, no matter which type of object the form is attached to. 
 
 >[!INFO]
