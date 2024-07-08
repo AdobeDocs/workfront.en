@@ -12,6 +12,22 @@ This page describes all administrator enhancements made with the Third Quarter 2
 
 For a list of all changes available at this point in the Third Quarter 2024 release cycle, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
+## Business rules are now available
+
+>[!NOTE]
+>
+>Preview release: July 4, 2024; Production release for all customers: With the 24.7 release (July 18, 2024).
+
+Administrators can now add business rules in the Setup area of Workfront.
+
+A business rule allows you to apply validation to Workfront objects and prevent users from creating, editing, or deleting an object when certain conditions are met. The rules are built using a formula similar to calculated fields in custom forms.
+
+For more information, see [Create and edit business rules](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+
+>[!IMPORTANT]
+>
+>Business rules are only available for organizations on the new Ultimate plan.
+
 ## Custom form designer generally available in Adobe Workfront
 
 >[!NOTE]
