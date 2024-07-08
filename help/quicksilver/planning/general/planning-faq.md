@@ -32,7 +32,7 @@ The Workfront Planning module is one of three distinct but connected Workfront c
 
 ## When will Workfront Planning be released? 
 
-The latest Workfront Planning release to general availability is planned for August 28, 2024. For up-to-date information about what features are currently releasing, see [Adobe Workfront Planning release activity](/help/quicksilver/planning/general/release-activity.md).  
+The latest Workfront Planning release to general availability is planned for August 28, 2024. For up-to-date information about what features are currently releasing, see [Adobe Workfront Planning current release activity](/help/quicksilver/planning/general/release-activity.md).  
 
 ## What happens after the early stage of Workfront Planning concludes? 
 

@@ -12,9 +12,11 @@ recommendations: noDisplay, noCatalog
 
 >[!IMPORTANT]
 >
->The information in this article refers to Adobe Workfront Planning and to the AI Assistant, which are new offerings from Adobe Workfront. 
+>The information in this article refers to Adobe Workfront Planning and to the Workfront AI Assistant (beta), which are new offerings from Adobe Workfront. 
 >
->Currently, Workfront Planning and the AI Assistant are in an early access stage which is open to a limited number of customers. 
+>Currently, Workfront Planning is in an early access stage, and the Workfront AI Assistant is in a beta phase. 
+>
+>Workfront Planning and the AI Assistant (beta) are open to a limited number of customers. 
 >
 >You must be a Workfront customer to use these capabilities. 
 >
@@ -22,7 +24,7 @@ recommendations: noDisplay, noCatalog
 >
 >For more information, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
 
-You can use the AI assistant to generate, update, or remove records based on the current page context and record structure. 
+You can use the AI Assistant to generate, update, or remove records based on the current page context and record structure. 
 
 The user's commands and the AI's execution of those commands work together to ensure that changes made by the AI are accurately reflected in your environment. 
 
@@ -34,25 +36,27 @@ The user's commands and the AI's execution of those commands work together to en
 
 * The AI Assistant works in the context of each page. The requests you are submitting for the AI Assistant must reference functionality that is available in the page that you have open. 
 
-* The actions performed by the AI Assistant are in the context of your Workfront Planning permissions and your Workfront access level. For information, see the following articles: 
+* The actions performed by the AI Assistant in the Planning area are in the context of your Workfront Planning permissions and your Workfront access level. For information, see the following articles: 
 
     * [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md)
     * [License type overview when using Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md)
 
 * Changes made by the AI Assistant on the user's behalf are tracked in the record's history panel. 
 
-* You can use commands to undo your actions. 
+* You can use commands to undo your actions. For example, you can type "Undo last change" to revert your change. 
 
 ## Functionality currently available for the AI Assistant
 
 Currently, the AI Assistant is available in the Planning area of Workfront for the following pages:
 
+* Workspace page
 * Record type page
 * Record page
 
 You can use the AI Assistant to perform the following actions, at this time:
 
-* Create records. An ID with a link to the new record displays after the record is created.
+* Search for records. You can search by information contained in any record fields. 
+* Create records. An ID with a link to the new record displays after the record is created. You can specify the fields you want to update during the creation process, like dates or description. 
 * Create records based on a document that you upload. Workfront supports the following document formats for the AI Assistant:
 
     .pptx, .pdf, .docx, .xlsx, .ppt, .doc, .txt, and most image formats
@@ -64,7 +68,9 @@ You can use the AI Assistant to perform the following actions, at this time:
 
 1. Log in to Workfront, then go to the **Planning** area. 
 
-1. Click a **workspace card** > **record type card**. 
+1. Click a **workspace card**. 
+
+1. (Optional) Click a **record type card**. 
 
 1. (Optional) Click a **record** to open the record's **Details** page.
 
@@ -78,7 +84,7 @@ You can use the AI Assistant to perform the following actions, at this time:
 
     For example, you may type one of the following:
 
-    * Create a record
+    * Create a campaign with a start date of July 4 and end date of July 30
     * Update the Description field of the Summer Campaign record with date to be determined
     * Delete the last record
     * Restore the record 
