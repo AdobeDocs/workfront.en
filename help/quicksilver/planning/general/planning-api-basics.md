@@ -14,7 +14,7 @@ A familiarity with the Workfront Planning schema will assist you in understandin
 
 ## Workfront Planning API URL 
 
-For information about the URL that you will use to call the Workfront Planning API, see <!--<Planning API page on developers site>. -->
+<!--For more details and examples of each operation, see the [Workfront Planning API developer documentation](https://developer.adobe.com/wf-planning/).-->
 
 ### Operations 
 
@@ -35,7 +35,7 @@ You can use modifiers and filters with fields to control what data will be retur
 
 <!--For examples, see the [Workfront Planning API developer documentation](https://developer.adobe.com/wf-planning/).-->
 
-#### Using Search Modifiers 
+#### Using search modifiers 
 
 Workfront Planning supports the following search modifiers: 
 
@@ -168,7 +168,7 @@ Workfront Planning supports the following search modifiers:
     </tr>
 </table>
  
-#### Field Types 
+#### Field types 
 
 Below is the list of supported field types and what search modifiers can be used with each of those field types  
 
@@ -193,9 +193,9 @@ Below is the list of supported field types and what search modifiers can be used
 | reference | $hasAnyOf, $hasAllOf, $isExactly, $hasNoneOf, $isEmpty, $isNotEmpty |
 | lookup | Depends on the linked field |
 
-### Using "And" and "Or" Statements 
+### Using "And" and "Or" statements 
 
-In the API call you can have filters that based on several criteria combined by $and" and "$or" statements  
+In the API call you can have filters that are based on several criteria combined by $and" and "$or" statements  
 
 ```
 {
@@ -249,7 +249,7 @@ In the API call you can have filters that based on several criteria combined by 
 }
 ```
 
-### Using the Fields Request Parameter 
+### Using the fields request parameter 
 
 You can use the fields request parameter to specify a comma-separated list of specific fields that should be returned. These field names are case-sensitive.  
 
@@ -291,7 +291,7 @@ returns a response similar to the following:
 } 
 ```
 
-### Sorting Query Results in the API 
+### Sorting query results in the API 
 
 You can sort your results by any field if you append the following to your API call: 
 
@@ -321,13 +321,11 @@ Request body:
 }
 ```
 
-<!--Example -->
-
 ### Query limits and paginated responses 
 
-By default, Planning API requests return 500 results, starting from the beginning of the list. To override the default limitation for number of results, you can use "limit" parameter in your requests and set it to a different number, up to 2000 results.  
+By default, Planning API requests return 500 results, starting from the beginning of the list. To override the default limitation for number of results, you can use the `limit` parameter in your requests and set it to a different number, up to 2000 results.  
 
-We recommend that you consider using paginated responses for large datasets by adding "offset" parameter to your requests. Paginated responses allow you to specify the location of the first result that should be returned. 
+We recommend that you consider using paginated responses for large datasets by adding the `offset` parameter to your requests. Paginated responses allow you to specify the location of the first result that should be returned. 
 
 For example, if you want to return the results 2001-4000, you can use the following request. This example returns 2000 records that are in active status, starting from the 2001st result: 
 
