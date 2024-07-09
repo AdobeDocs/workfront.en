@@ -348,7 +348,7 @@ Request body:
 } 
 ```
 
-To make sure your results are properly paginated, use a sorting parameter. This allows the results to be returned in the same order, so that the pagination does not repeat or skip results. For example, to sort using the object ID, use ID_Sort=asc.  
+To make sure your results are properly paginated, use a sorting parameter. This allows the results to be returned in the same order, so that the pagination does not repeat or skip results. For example, to sort using the object ID, use `ID_Sort=asc`.  
 
 
  
