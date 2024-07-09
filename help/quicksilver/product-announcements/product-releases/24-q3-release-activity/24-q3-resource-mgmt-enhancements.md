@@ -16,7 +16,7 @@ For a list of all changes available at this point in the Third Quarter 2024 rele
 
 >[!NOTE]
 >
->Preview release: June 6, 2024; Production release for all customers: With the 24.7 release (July 2024)
+>Preview release: June 6, 2024; Production release for all customers: With the 24.7 release (July 18, 2024)
 
 To seamlessly adjust work when the primary assignee on a task has scheduled time off, the Workload Balancer now re-allocates hours to both the primary and the secondary users when the project timeline is recalculated. (This feature is only available if the Workfront administrator has enabled the User Time Off setting in the Setup area to take into consideration the user's time off.)
 

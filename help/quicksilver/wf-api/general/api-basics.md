@@ -17,7 +17,7 @@ A familiarity with the Workfront schema will assist you in understanding the dat
 
 ## Limits and Guidelines
 
-To ensure consistent Workfront on-demand system performance, each customer is limited to 10 concurrent API threads. The Sandbox environment has the same limit in place, allowing customers and partners to accurately test API calls before releasing code to production.
+To ensure consistent Workfront on-demand system performance, the Workfront API limits concurrent API threads. This guardrail prevents system problems caused by abusive API calls. The Sandbox environment has the same concurrent API thread limit in place, allowing customers and partners to accurately test API calls before releasing code to production.
 
 For production, preview, and test drive environments end user requests have a maximum URI length of 8892 bytes because they're being routed through the Workfront CDN (Akamai). This limit only applies to URIs that are routed through the CDN.
 
@@ -545,3 +545,4 @@ A bulk update statement updates multiple objects at the same time within a singl
 >[!NOTE]
 >
 >Atomic batch operations can only return "success: true" or an error.
+
