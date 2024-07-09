@@ -25,10 +25,10 @@ For information about uploading documents to Workfront, see [Add documents to Ad
 
 The documents area records a count of the following items:
 
-- Workfront folders
-- Files uploaded from the file system
-- Files added to Workfront from integrations
-- Linked Experience Manager Assets
+* Workfront folders
+* Files uploaded from the file system
+* Files added to Workfront from integrations
+* Linked Experience Manager Assets
 
 ## Summary panel
 
