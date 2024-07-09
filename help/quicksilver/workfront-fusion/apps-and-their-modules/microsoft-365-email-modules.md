@@ -10,7 +10,7 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 29b69e8c-a889-441e-a052-287f1db2052d
 ---
-# [!DNL Microsoft Office 365 Email] 
+# [!DNL Microsoft Office 365 Email] modules
 
 In an [!DNL Adobe Workfront Fusion] scenario, you can automate workflows that use [!UICONTROL Microsoft Office 365 Email], as well as connect it to multiple third-party applications and services.
 
