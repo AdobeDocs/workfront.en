@@ -90,14 +90,16 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Message
 
-* [[!UICONTROL Create and Send a Message]](#create-and-send-a-message)
+* [[!UICONTROL Create and Send a Message (legacy)]](#create-and-send-a-message)
 * [[!UICONTROL Delete a Message]](#delete-a-message)
 * [[!UICONTROL Get a message]](#get-a-message)
 * [[!UICONTROL Move a Message]](#move-a-message)
 * [[!UICONTROL Search messages]](#search-messages)
 * [[!UICONTROL Watch Messages]](#watch-messages)
 
-#### [!UICONTROL Create and Send a Message]
+
+
+#### [!UICONTROL Create and Send a Message (legacy)]
 
 Creates and sends an email message.
 
@@ -173,6 +175,88 @@ Creates and sends an email message.
  </tbody> 
 </table>
 
+#### [!UICONTROL Create and Send a Message]
+
+Creates and sends an email message.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Office 365] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Subject]</td> 
+   <td> <p>Enter or map the subject line of the message.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">[!UICONTROL Body Content Type]</td> 
+   <td>Select whether the body content of the message is HTML or Text.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Body content]</td> 
+   <td> <p>Enter or map the message body text of the email.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Importance]</td> 
+   <td> <p>Select the importance of the email</p> 
+    <ul> 
+     <li>[!UICONTROL Low]</li> 
+     <li>[!UICONTROL Normal]</li> 
+     <li>[!UICONTROL High]</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL To Recipients]</p> </td> 
+   <td> <p>Add the email address to which you want to send the messages:</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Enter the name of the contact</p> </li> 
+     <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Enter the email address of the contact.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL CC Recipients]</p> </td> 
+   <td> <p>Add the recipients that you want to receive a copy of the message:</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Enter the name of the contact</p> </li> 
+     <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Enter the email address of the contact.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Bcc Recipients]</p> </td> 
+   <td> <p>Add the recipients that you want to copy on the message, without allowing other recipients to see their names or email addresses:</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Enter the name of the contact</p> </li> 
+     <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Enter the email address of the contact.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Attachments]</p> </td> 
+   <td> <p>Add the attachments to the email:</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL File name]</strong> </p> <p>Enter the file name. Example: <code>sample.doc</code></p> </li> 
+     <li> <p><strong>[!UICONTROL Data]</strong> </p> <p>Enter the file data to the field or map the source of the file.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Internet Message Headers]</td> 
+   <td> <p>Add the message headers for the email.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Name]</strong> </p> <p>Enter the name of the header</p> </li> 
+     <li> <p><strong>[!UICONTROL Email Address]</strong> </p> <p>Enter a value for the header.</p> </li> 
+    </ul> </td> 
+  </tr> 
+   <td role="rowheader">[!UICONTROL From email address]</td> 
+   <td> <p> To use a shared email address, enter the address here. The user whose credentials are used in the connection used for this module must have access to the shared folder.<p>Leave this field blank to use connection owner's own email address.</p></p> </td> 
+  </tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
 #### [!UICONTROL Delete a Message]
 
 Deletes an existing email message.
@@ -188,7 +272,7 @@ Deletes an existing email message.
   <tr> 
    <td role="rowheader">[!UICONTROL From email address]</td> 
    <td> <p> To use a shared email address, enter the address here. The user whose credentials are used in the connection used for this module must have access to the shared folder.<p>Leave this field blank to use connection owner's own email address.</p></p> </td> 
-  <tr> 
+  </tr> 
    <td role="rowheader">[!UICONTROL Message ID]</td> 
    <td> <p> Select or map the ID of the message you want to delete.</p> </td> 
   </tr> 
@@ -207,6 +291,10 @@ Gets the metadata of a specific message
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td> <p>For instructions about connecting your [!DNL Office 365] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL From email address]</td> 
+   <td> <p> To use a shared email address, enter the address here. The user whose credentials are used in the connection used for this module must have access to the shared folder.<p>Leave this field blank to use connection owner's own email address.</p></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Message ID]</td> 
@@ -254,7 +342,11 @@ Searches for messages based on specific criteria.
    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td> <p>For instructions about connecting your [!DNL Office 365] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
   </tr> 
-  <tr> 
+    <tr> 
+   <td role="rowheader">[!UICONTROL From email address]</td> 
+   <td> <p> To use a shared email address, enter the address here. The user whose credentials are used in the connection used for this module must have access to the shared folder.<p>Leave this field blank to use connection owner's own email address.</p></p> </td> 
+  </tr> 
+<tr> 
    <td role="rowheader">[!UICONTROL Mail Folder]</td> 
    <td> <p>Select the folder that contains the messages you want to search.</p> </td> 
   </tr> 
@@ -386,6 +478,10 @@ Creates a new email message.
      <li> <p><strong>[!UICONTROL Data]</strong> </p> <p>Enter the file data to the field or map the source of the file.</p> </li> 
     </ul> </td> 
   </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL From email address]</td> 
+   <td> <p> To use a shared email address, enter the address here. The user whose credentials are used in the connection used for this module must have access to the shared folder.<p>Leave this field blank to use connection owner's own email address.</p></p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -400,6 +496,10 @@ Sends an email message that is currently in draft.
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td> <p>For instructions about connecting your [!DNL Office 365] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL From email address]</td> 
+   <td> <p> To use a shared email address, enter the address here. The user whose credentials are used in the connection used for this module must have access to the shared folder.<p>Leave this field blank to use connection owner's own email address.</p></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Draft Message ID]</td> 
@@ -419,6 +519,10 @@ Updates an existing message.
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
    <td> <p>For instructions about connecting your [!DNL Office 365] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL From email address]</td> 
+   <td> <p> To use a shared email address, enter the address here. The user whose credentials are used in the connection used for this module must have access to the shared folder.<p>Leave this field blank to use connection owner's own email address.</p></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter a message ID]</td> 
@@ -486,31 +590,8 @@ Updates an existing message.
 
 ### Attachment
 
-* [[!UICONTROL List Attachments]](#list-attachments)
 * [[!UICONTROL Download an Attachment]](#download-an-attachment)
-
-#### [!UICONTROL List Attachments]
-
-This module retrieves a list of attachments belonging to the specified message.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>For instructions about connecting your [!DNL Office 365] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Message ID]</td> 
-   <td> <p> Select or map the ID of the message you want to retrieve attachments from.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Enter or map the maximum number of attachments you want the module to return during each scenario execution cycle.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+* [[!UICONTROL List Attachments]](#list-attachments)
 
 #### [!UICONTROL Download an Attachment]
 
@@ -525,6 +606,10 @@ This module downloads the specified attachment.
    <td> <p>For instructions about connecting your [!DNL Office 365] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL From email address]</td> 
+   <td> <p> To use a shared email address, enter the address here. The user whose credentials are used in the connection used for this module must have access to the shared folder.<p>Leave this field blank to use connection owner's own email address.</p></p> </td> 
+  </tr> 
    <td role="rowheader">[!UICONTROL Message ID]</td> 
    <td> <p> Select or map the ID of the message that contains the attachment you want to download.</p> </td> 
   </tr> 
@@ -535,10 +620,64 @@ This module downloads the specified attachment.
  </tbody> 
 </table>
 
+#### [!UICONTROL List Attachments]
+
+This module retrieves a list of attachments belonging to the specified message.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Office 365] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL From email address]</td> 
+   <td> <p> To use a shared email address, enter the address here. The user whose credentials are used in the connection used for this module must have access to the shared folder.<p>Leave this field blank to use connection owner's own email address.</p></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Message ID]</td> 
+   <td> <p> Select or map the ID of the message you want to retrieve attachments from.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Enter or map the maximum number of attachments you want the module to return during each scenario execution cycle.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### Other
 
-* [[!UICONTROL Make an API Call]](#make-an-api-call)
 * [[!UICONTROL Add an Attachment]](#add-an-attachment)
+* [[!UICONTROL Make an API Call]](#make-an-api-call)
+
+#### [!UICONTROL Add an Attachment]
+
+This module adds a large attachment to a message.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Office 365] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL From email address]</td> 
+   <td> <p> To use a shared email address, enter the address here. The user whose credentials are used in the connection used for this module must have access to the shared folder.<p>Leave this field blank to use connection owner's own email address.</p></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Message ID]</td> 
+   <td> <p> Select or map the ID of the message you want to add an attachment to.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
+   <td> <p>Select a file from a previous module, or map the source file's name and data.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL Make an API Call]
 
@@ -574,29 +713,6 @@ This module allows you to perform a custom API call.
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Add an Attachment]
-
-This module adds a large attachment to a message.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>For instructions about connecting your [!DNL Office 365] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Message ID]</td> 
-   <td> <p> Select or map the ID of the message you want to add an attachment to.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td> <p>Select a file from a previous module, or map the source file's name and data.</p> </td> 
   </tr> 
  </tbody> 
 </table>
