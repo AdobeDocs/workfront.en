@@ -90,108 +90,12 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Message
 
-* [[!UICONTROL Watch Messages]](#watch-messages)
-* [[!UICONTROL Search messages]](#search-messages)
-* [[!UICONTROL Get a message]](#get-a-message)
 * [[!UICONTROL Create and Send a Message]](#create-and-send-a-message)
-* [[!UICONTROL Move a Message]](#move-a-message)
 * [[!UICONTROL Delete a Message]](#delete-a-message)
-
-#### [!UICONTROL Watch Messages]
-
-Triggers when a new email message is sent or received.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>For instructions about connecting your [!DNL Office 365] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Watch Messages]</p> </td> 
-   <td> <p>Select the messages you want to watch:</p> 
-    <ul> 
-     <li>[!UICONTROL Only Unread]</li> 
-     <li>[!UICONTROL Only read]</li> 
-     <li>[!UICONTROL All]</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Mail Folder]</td> 
-   <td> <p>Select the folder that contains the messages you want to watch.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Search]</td> 
-   <td>Enter your search query. For information on how to write a search query, see the [!DNL Microsoft] support article <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&amp;rs=en-us&amp;ad=us">Search Mail and People in [!DNL Outlook.com]</a>.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limit] </td> 
-   <td> <p>Enter the maximum number of messages [!DNL Workfront Fusion] should return during one scenario execution cycle.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Search messages]
-
-Searches for messages based on specific criteria.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>For instructions about connecting your [!DNL Office 365] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Mail Folder]</td> 
-   <td> <p>Select the folder that contains the messages you want to search.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Search]</td> 
-   <td>Enter your search query. For information on how to write a search query, see the [!DNL Microsoft] support article <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&amp;rs=en-us&amp;ad=us">Search Mail and People in [!DNL Outlook.com]</a>.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Order by]</td> 
-   <td> <p>Select how you want to order the results:</p> 
-    <ul> 
-     <li>[!UICONTROL Subject (Ascending or descending)]</li> 
-     <li>[!UICONTROL Created Date Time (Ascending or descending)]</li> 
-     <li>[!UICONTROL Last Modified Date Time (Ascending or descending)]</li> 
-     <li>[!UICONTROL Received Date Time (Ascending or descending)]</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Enter the maximum number of messages [!DNL Workfront Fusion] should return during one scenario execution cycle.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Get a message]
-
-Gets the metadata of a specific message
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>For instructions about connecting your [!DNL Office 365] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Message ID]</td> 
-   <td> <p> Select or map the ID of the message you want to retrieve metadata for.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Get MIME contents]</td> 
-   <td>Enable this option to retrieve data about the MIME content of the message. [!UICONTROL MIME] content may include images, audio, video, or other types of files.</td> 
-  </tr> 
- </tbody> 
-</table>
+* [[!UICONTROL Get a message]](#get-a-message)
+* [[!UICONTROL Move a Message]](#move-a-message)
+* [[!UICONTROL Search messages]](#search-messages)
+* [[!UICONTROL Watch Messages]](#watch-messages)
 
 #### [!UICONTROL Create and Send a Message]
 
@@ -269,6 +173,52 @@ Creates and sends an email message.
  </tbody> 
 </table>
 
+#### [!UICONTROL Delete a Message]
+
+Deletes an existing email message.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Office 365] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL From email address]</td> 
+   <td> <p> To use a shared email address, enter the address here. The user whose credentials are used in the connection used for this module must have access to the shared folder.<p>Leave this field blank to use connection owner's own email address.</p></p> </td> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Message ID]</td> 
+   <td> <p> Select or map the ID of the message you want to delete.</p> </td> 
+  </tr> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Get a message]
+
+Gets the metadata of a specific message
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Office 365] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Message ID]</td> 
+   <td> <p> Select or map the ID of the message you want to retrieve metadata for.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Get MIME contents]</td> 
+   <td>Enable this option to retrieve data about the MIME content of the message. [!UICONTROL MIME] content may include images, audio, video, or other types of files.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
 #### [!UICONTROL Move a Message]
 
 Moves an email message to a selected folder in the mailbox.
@@ -292,9 +242,9 @@ Moves an email message to a selected folder in the mailbox.
  </tbody> 
 </table>
 
-#### [!UICONTROL Delete a Message]
+#### [!UICONTROL Search messages]
 
-Deletes an existing email message.
+Searches for messages based on specific criteria.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -305,8 +255,62 @@ Deletes an existing email message.
    <td> <p>For instructions about connecting your [!DNL Office 365] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Message ID]</td> 
-   <td> <p> Select or map the ID of the message you want to delete.</p> </td> 
+   <td role="rowheader">[!UICONTROL Mail Folder]</td> 
+   <td> <p>Select the folder that contains the messages you want to search.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Search]</td> 
+   <td>Enter your search query. For information on how to write a search query, see the [!DNL Microsoft] support article <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&amp;rs=en-us&amp;ad=us">Search Mail and People in [!DNL Outlook.com]</a>.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Order by]</td> 
+   <td> <p>Select how you want to order the results:</p> 
+    <ul> 
+     <li>[!UICONTROL Subject (Ascending or descending)]</li> 
+     <li>[!UICONTROL Created Date Time (Ascending or descending)]</li> 
+     <li>[!UICONTROL Last Modified Date Time (Ascending or descending)]</li> 
+     <li>[!UICONTROL Received Date Time (Ascending or descending)]</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Enter the maximum number of messages [!DNL Workfront Fusion] should return during one scenario execution cycle.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Watch Messages]
+
+Triggers when a new email message is sent or received.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>For instructions about connecting your [!DNL Office 365] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Watch Messages]</p> </td> 
+   <td> <p>Select the messages you want to watch:</p> 
+    <ul> 
+     <li>[!UICONTROL Only Unread]</li> 
+     <li>[!UICONTROL Only read]</li> 
+     <li>[!UICONTROL All]</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Mail Folder]</td> 
+   <td> <p>Select the folder that contains the messages you want to watch.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Search]</td> 
+   <td>Enter your search query. For information on how to write a search query, see the [!DNL Microsoft] support article <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&amp;rs=en-us&amp;ad=us">Search Mail and People in [!DNL Outlook.com]</a>.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit] </td> 
+   <td> <p>Enter the maximum number of messages [!DNL Workfront Fusion] should return during one scenario execution cycle.</p> </td> 
   </tr> 
  </tbody> 
 </table>
