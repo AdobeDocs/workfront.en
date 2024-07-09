@@ -160,5 +160,3 @@ The icons on the top right of the intake column show you how many cards are curr
    Click the **[!UICONTROL More]** menu ![More menu icon](assets/more-icon-spectrum.png) on the card, and select **[!UICONTROL Move]**. Then, on the **[!UICONTROL Move Item]** box, choose another column and select **[!UICONTROL Move]**.
 
 1. (Optional) To delete the intake column, click the **[!UICONTROL More]** menu ![More menu icon](assets/more-icon-spectrum.png) and select **[!UICONTROL Delete]**.
-
-
