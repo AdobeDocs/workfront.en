@@ -157,7 +157,7 @@ To create a connection:
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Authentication URL]</td>
-        <td>Defaults to <code>https://ims-na1.adobelogin.com</code>.</td>
+        <td>Leave this blank to use the standard Adobe IMS authentication URL of <code>https://ims-na1.adobelogin.com</code>. If you do not use Adobe IMS for authentication, enter the URL to use for authentication.</td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Environment]</td>
