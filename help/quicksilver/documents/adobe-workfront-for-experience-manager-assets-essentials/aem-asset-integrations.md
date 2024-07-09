@@ -9,6 +9,8 @@ exl-id: bdcf315c-5710-41dc-8528-0634e89907df
 ---
 # Overview of Adobe Experience Manager Assets integrations
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 <!-- Audited: 12/2023 -->
 
 The integration between Workfront and Experience Manager Assets or Assets Essentials helps organizations improve content velocity and time-to-market by intrinsically connecting work and digital asset management.
@@ -38,6 +40,12 @@ With the native Experience Manager integration, you can
 
 * Adobe Experience Manager Assets as a Cloud Service
 * Adobe Experience Manager Assets Essentials
+
+## Supported cloud service providers
+
+* AWS (Amazon Web Services)
+* Azure
+* <span class="preview">GCP (Google Cloud Platform)</span>
 
 
 ## Get started

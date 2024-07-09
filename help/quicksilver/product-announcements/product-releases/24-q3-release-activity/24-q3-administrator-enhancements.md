@@ -12,6 +12,36 @@ This page describes all administrator enhancements made with the Third Quarter 2
 
 For a list of all changes available at this point in the Third Quarter 2024 release cycle, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
+## Business rules are now available
+
+>[!NOTE]
+>
+>Preview release: July 4, 2024; Production release for all customers: With the 24.7 release (July 18, 2024).
+
+Administrators can now add business rules in the Setup area of Workfront.
+
+A business rule allows you to apply validation to Workfront objects and prevent users from creating, editing, or deleting an object when certain conditions are met. The rules are built using a formula similar to calculated fields in custom forms.
+
+For more information, see [Create and edit business rules](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+
+>[!IMPORTANT]
+>
+>Business rules are only available for organizations on the new Ultimate plan.
+
+## Custom form designer generally available in Adobe Workfront
+
+>[!NOTE]
+>
+>Preview release: June 19, 2024; Production release for all customers: With the 24.7 release (July 18, 2024).
+
+The custom form designer was released to beta in April of 2023 (the 23.2 release), and more features have been added to it since that time, such as External Lookup fields and Workfront native fields. In 2024 the form designer has reached functional parity with the legacy form builder.
+
+With the 24.7 release, the form designer will be generally available and will become the default experience for creating and editing custom forms in Adobe Workfront. When you create a new custom form or open an existing form, you will see the form designer's canvas-style workspace.
+
+After this release, you will no longer have the option to revert back to the legacy form builder.
+
+For details about the form designer and a video demonstration, see the [form designer beta release note](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md).
+
 ## Move objects between Workfront environments with environment promotion
 
 >[!NOTE]
@@ -45,7 +75,7 @@ For more information, see [Share a custom form](/help/quicksilver/administration
 
 >[!NOTE]
 >
->Preview release: June 6, 2024; Production release for all customers: With the 24.7 release (July 2024)
+>Preview release: June 6, 2024; Production release for all customers: With the 24.7 release (July 18, 2024)
 
 You can now add a new custom field or widget directly from the Fields area in Workfront, without opening a custom form to create the field. This allows you to quickly create reusable custom fields.
 
