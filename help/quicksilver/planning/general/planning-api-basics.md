@@ -27,11 +27,13 @@ The standard HTTP methods correspond to the following operations:
 * **PUT** - Edits an existing object 
 * **DELETE** - Deletes an object 
 
-For more details and examples of each operation, <!--please reference the API Guide  -->
+<!--For more details and examples of each operation, see the [Workfront Planning API developer documentation](https://developer.adobe.com/wf-planning/).-->
 
 ### Field types and search modifiers used with them 
 
-You can use modifiers and filters with fields to control what data will be returned in results. <!--Refer to the API Guide for examples.  -->
+You can use modifiers and filters with fields to control what data will be returned in results. 
+
+<!--For examples, see the [Workfront Planning API developer documentation](https://developer.adobe.com/wf-planning/).-->
 
 #### Using Search Modifiers 
 
@@ -195,7 +197,57 @@ Below is the list of supported field types and what search modifiers can be used
 
 In the API call you can have filters that based on several criteria combined by $and" and "$or" statements  
 
-<!--Example -->
+```
+{
+  "recordTypeId": "recordTypeId",
+  "offset": "integer",
+  "limit": "integer",
+  "filters": [
+    {
+      "$or": [
+        {
+          "launch_date": {
+            "$isBetween": [
+              "2024-03-31T20:00:00.000Z",
+              "2024-04-01T20:00:00.000Z"
+            ]
+          }
+        },
+        {
+          "$and": [
+            {
+              "launch_date": {
+                "$isBetween": [
+                  "2024-03-31T20:00:00.000Z",
+                  "2024-04-01T20:00:00.000Z"
+                ]
+              }
+            },
+            {
+              "status": "active"
+            }
+          ]
+        },
+        {
+          "$and": [
+            {
+              "launch_date": {
+                "$isBetween": [
+                  "2024-04-15T00:00:00.000Z",
+                  "2024-04-16T00:00:00.000Z"
+                ]
+              }
+            },
+            {
+              "status": "planned"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+```
 
 ### Using the Fields Request Parameter 
 
@@ -203,7 +255,29 @@ You can use the fields request parameter to specify a comma-separated list of sp
 
 For example, the request 
 
-`/attask/api/v15.0/task/search?fields=plannedStartDate,priority`
+`/attask/api/v15.0/task/search?attributes=plannedStartDate,priority`
+
+```
+{
+    "records": [
+        {
+            "id": "Rc6527ecb35df57c441d92ba00",
+            "createdBy": "61a9cc0500002f9fdaa7a6f824f557e1",
+            "createdAt": null,
+            "updatedBy": null,
+            "updatedAt": null,
+            "customerId": null,
+            "imsOrgId": null,
+            "recordTypeId": null,
+            "data": {
+                "F666c0b58b6fee61a2ea6ea81": [
+                    {
+                        "externalId": null,
+                        "id": "Rc665728ff95730b58bc757b13",
+                        "value": null
+                    },
+....
+```
 
 returns a response similar to the following: 
 
@@ -213,12 +287,39 @@ returns a response similar to the following:
     "priority": 2, 
     "name": "first task", 
     "ID": "4c7c08fa0000002ff924e298ee148df4", 
-    "plannedStartDate": "2010-08-30T09:00:00:000-0600" } 
+    "plannedStartDate": "2010-08-30T09:00:00:000-0600" 
+} 
 ```
 
 ### Sorting Query Results in the API 
 
 You can sort your results by any field if you append the following to your API call: 
+
+
+`/v1/records/search`
+
+Request body:
+
+```
+{
+    "recordTypeId": "Rt6527ecb25df57c441d92b9fa",
+    "filters": [],
+    "sorting": [
+        {
+            "fieldId": "F6527ecb25df57c441d92b9fc",
+            "direction": "asc"
+        },
+        {
+            "fieldId": "F658afcbd4a0273c67c346fd5",
+            "direction": "desc"
+        }
+    ],
+    "limit": 500,
+    "offset": 0,
+    "rowOrderViewId": "V6527ecb75df57c441d92ba03",
+    "groupingFieldIds": []
+}
+```
 
 <!--Example -->
 
@@ -244,7 +345,7 @@ Request body:
     "filters": [ 
         { "status": "active" } 
     ] 
-      } 
+} 
 ```
 
 To make sure your results are properly paginated, use a sorting parameter. This allows the results to be returned in the same order, so that the pagination does not repeat or skip results. For example, to sort using the object ID, use ID_Sort=asc.  
