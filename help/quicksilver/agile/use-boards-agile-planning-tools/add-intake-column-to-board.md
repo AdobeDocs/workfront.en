@@ -161,3 +161,4 @@ The icons on the top right of the intake column show you how many cards are curr
 
 1. (Optional) To delete the intake column, click the **[!UICONTROL More]** menu ![More menu icon](assets/more-icon-spectrum.png) and select **[!UICONTROL Delete]**.
 
+
