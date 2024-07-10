@@ -272,6 +272,7 @@ To reuse an existing calculated custom field:
       If you type an opening parenthesis, the closing parenthesis is added automatically.
 
       +++ **Expand to see helpful tips**
+      
       >[!TIP]
       >
       >You can do any of the following to get help with your calculation:
