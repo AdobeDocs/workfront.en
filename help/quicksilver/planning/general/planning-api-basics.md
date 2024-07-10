@@ -27,7 +27,7 @@ The standard HTTP methods correspond to the following operations:
 * **PUT** - Edits an existing object 
 * **DELETE** - Deletes an object 
 
-<!--For more details and examples of each operation, see the [Workfront Planning API developer documentation](https://developer.adobe.com/wf-planning/).-->
+For more details and examples of each operation, see the [Workfront Planning API developer documentation](https://developer.adobe.com/wf-planning/).
 
 ### Field types and search modifiers used with them 
 
@@ -255,7 +255,7 @@ You can use the fields request parameter to specify a comma-separated list of sp
 
 For example, the request 
 
-`/attask/api/v15.0/task/search?attributes=plannedStartDate,priority`
+`/v1/records/search?attributes=data,createdBy`
 
 ```
 {
@@ -346,7 +346,9 @@ Request body:
 } 
 ```
 
-To make sure your results are properly paginated, use a sorting parameter. This allows the results to be returned in the same order, so that the pagination does not repeat or skip results. For example, to sort using the object ID, use `ID_Sort=asc`.  
+To make sure your results are properly paginated, use a sorting parameter. This allows the results to be returned in the same order, so that the pagination does not repeat or skip results. 
+
+For more information on sorting, see [Sorting query results in the API](#sorting-query-results-in-the-api) in this article.
 
 
  
