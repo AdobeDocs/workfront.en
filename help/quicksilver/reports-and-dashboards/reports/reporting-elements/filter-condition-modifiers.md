@@ -121,16 +121,16 @@ You can use the following condition modifiers in filters and conditional formatt
    <td> <p><strong>Not Equal</strong> </p> </td> 
    <td> <p><strong>notin</strong> </p> </td> 
    <td> <p>This is the <i>case sensitive</i> opposite of <strong>in</strong>. It returns only results not in the specified list.</p> <p>This modifier can only be used in text mode filters. For more information about text mode in filters, see <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edit a filter using text mode</a>.</p> <p>Note: <span>If the field you are filtering for has multiple options, this filters out the results that contain both the choice you specify, as well as the choice you specify and any additional choices.</span> </p> </td> 
-  </tr> 
+  </tr>
+  <tr valign="top"> 
+   <td> <p> </p> </td> 
+   <td> <p><strong>like</strong> </p> </td> 
+   <td> <p>This modifier searches for portions of a <i>case sensitive</i> text string in similar fashion to <strong>contains</strong>. However, <strong>like</strong> provides the ability to insert wild card characters to break up the text.</p> <p>For example, when searching for notes, using <code>like %Current% %Dead%</code> returns any note that contains the phrase "Current to Dead". It does not include any notes that contain "Dead to Current". Each value is searched in the order it is listed. The % represents a wild card to replace characters or segments of text. An underscore can also be used for a single wildcard character, as in <code>like Project_</code> that returns both "Project" and "Projects". If you intend on using a <strong>like</strong> or <strong>clike</strong> modifier in your filtering, we recommend avoiding % or _ characters in custom data field names, parameter option values, or other object names.</p><p>This modifier can only be used in text mode filters. For more information about text mode in filters, see <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edit a filter using text mode</a>.</p> </td> 
+  </tr>  
   <tr valign="top"> 
    <td> <p> </p> </td> 
    <td> <p><strong>cilike</strong> </p> </td> 
    <td> <p>This is the <i>case insensitive</i> version of <strong>like</strong>. For example: <code>cilike %Current% %Dead%</code> returns any notes that contain <code>Current to Dead</code> or <code>current to dead</code>.</p> <p>This modifier can only be used in text mode filters. For more information about text mode in filters, see <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edit a filter using text mode</a>.</p> </td> 
-  </tr> 
-  <tr valign="top"> 
-   <td> <p> </p> </td> 
-   <td> <p><strong>like</strong> </p> </td> 
-   <td> <p>This modifier searches for portions of a <i>case sensitive</i> text string in similar fashion to <strong>contains</strong>. However, <strong>like</strong> provides the ability to insert wild card characters to break up the text.</p> <p>For example, when searching for notes, using <code>like %Current% %Dead%</code> returns any note that contains the phrase "Current to Dead". It does not include any notes that contain "Dead to Current". Each value is searched in the order it is listed. The % represents a wild card to replace characters or segments of text.</p> <p>This modifier can only be used in text mode filters. For more information about text mode in filters, see <a href="../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md" class="MCXref xref">Edit a filter using text mode</a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
    <td><strong>Does Not Exist</strong> </td> 
