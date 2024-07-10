@@ -319,7 +319,7 @@ When this occurs, you can do one of the following:
 >
 >`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
 
-For more information about variables like `$$OBJCODE,` see [Wildcard filter variables overview](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+For more information about variables like `$$OBJCODE,` see [Wildcard filter variables overview](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 ## Automatic updates of calculated custom fields
 
