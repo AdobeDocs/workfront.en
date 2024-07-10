@@ -230,7 +230,7 @@ For more information, see [Create fields](/help/quicksilver/planning/fields/crea
 
 Preview and Production: October 31, 2023
 
-You can now open the Workfront object pages from the following areas in the planning capabilities: 
+You can now open the Workfront object pages from the following areas in Workfront Planning: 
 
 * The read-only linked Workfront object record table view
 
