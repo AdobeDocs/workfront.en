@@ -272,6 +272,7 @@ To reuse an existing calculated custom field:
       If you type an opening parenthesis, the closing parenthesis is added automatically.
 
       +++ **Expand to see helpful tips**
+      
       >[!TIP]
       >
       >You can do any of the following to get help with your calculation:
@@ -316,44 +317,3 @@ To reuse an existing calculated custom field:
     or
 
     Click **Save and Close**.
-
-## Calculated custom fields in multi-object custom forms
-
-In a multi-object custom form, the selected object types must be compatible with all fields referenced in the form's calculated custom fields.
-
->[!INFO]
->
->**Example:**
->
->In a custom form configured to work with the Task object type, you create a calculated custom field named In Charge. You configure it to reference the built-in field so that it can show the name of the primary assignee in charge whenever the form is attached to a task:
->
->`{assignedTo}.{name}`
->
->Later, you add the Project object type to the custom form, but the Project object type is incompatible with the calculated custom field.
-
-When this occurs, you can do one of the following:
-
-* Remove one of the two incompatible items from the custom form—either the object type or the referenced calculated custom field.
-* Keep both items and use the wildcard filter variable `$$OBJCODE` as a condition in an IF expression to create two different versions of the In Charge field. This allows the field to function successfully, no matter which type of object the form is attached to. 
-
->[!INFO]
->
->**Example:** Though there is no Assigned To: Name field in projects, there is a built-in Owner field (which fills in automatically with the name of the person who created the project, unless someone manually changes this).
->
->So, in your custom In Charge field, you could use `$$OBJCODE` as shown below to reference the Owner field when the custom form is attached to a project, and the Assigned To: Name field when the form is attached to a task:
->
->`IF($$OBJCODE="PROJ",{owner}.{name},{assignedTo}.{name})`
-
-For more information about variables like `$$OBJCODE,` see [Wildcard filter variables overview](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
-
-## Automatic updates of calculated custom fields
-
-Calculated custom fields on an object recalculate automatically when the following things happen:
-
-* Something on the object changes, such as a daily timeline calculation.
-* Someone edits another field that is referenced by a calculated custom field on the object.
-* The calculated expression is empty and the field contains a value—this sets the value to null.
-
-   >[!NOTE]
-   >
-   >In a custom form attached to an object, date and time statements in calculated custom fields are calculated and saved according to the Coordinated Universal Time (UTC), not according to the time zone configurations set for your organization's instance and your user profile. However, calculations in a custom form are displayed based on each user's individual time zone.
