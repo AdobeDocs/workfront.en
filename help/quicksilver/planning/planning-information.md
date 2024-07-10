@@ -43,8 +43,12 @@ Access the following articles for an overview of the new Workfront Planning:
 <!--* [View a video demonstration of Adobe Workfront Planning](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 * [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md): A high-level overview of Adobe Workfront Planning, including the terminology and concepts that are unique to this solution. We recommend that you start your journey with Workfront Planning here. 
-* [Adobe Workfront Planning release activity](/help/quicksilver/planning/general/release-activity.md): A list of all the features that have been released since the launch of the Adobe Workfront Planning program, on May 22, 2023 with exact release dates and a short overview of each feature.
-* [Adobe Workfront Planning modules for Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
+* [Adobe Workfront Planning current release activity](/help/quicksilver/planning/general/release-activity.md): A list of all the features that have been released since the launch of the Adobe Workfront Planning program, on May 22, 2023 with exact release dates and a short overview of each feature.
+* [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): With the Workfront AI Assistant for Planning you can search for records, or create, update, and delete records by using commands and letting the assistant do the work for you. 
+
+    The Workfront AI Assistant is currently available to select customers in a beta stage. Contact your account representative to learn if you are eligible to participate to try out this new offering.  
+
+* [Adobe Workfront Planning modules for Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md): With the Adobe Workfront Planning modules, you can trigger a scenario when events occur in Workfront Planning. You can also create, read, update, and delete records, or perform a custom API call to your Adobe Workfront Planning account.
 
 ## Workfront Planning architecture and functionality
 

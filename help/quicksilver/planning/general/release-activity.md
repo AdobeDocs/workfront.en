@@ -1,5 +1,5 @@
 ---
-title: Adobe Workfront Planning release activity
+title: Adobe Workfront Planning current release activity
 description: Adobe Workfront Planning capabilities are currently available to select Workfront customers. Review this article often to learn about the features recently released for the planning capabilities. 
 hidefromtoc: yes
 hide: yes
@@ -7,7 +7,7 @@ recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
 ---
 
-# Adobe Workfront Planning release activity 
+# Adobe Workfront Planning current release activity 
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
@@ -27,7 +27,7 @@ exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
 
 This article lists the features that have been released to Workfront Planing during 2024. 
 
-The Workfront Planning program started since May 22, 2023. For a list of all features released during 2023, see [Adobe Workfront Planning release activity for 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md). 
+The Workfront Planning program started since May 22, 2023. For a list of all features released during 2023, see [Adobe Workfront Planning release activity archives for 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md). 
 
 The released features are listed in the order of their release, with the most recent first. Customers who are participating in the Workfront Planning program can access all features in their Production environments.
 
@@ -48,6 +48,16 @@ If your organization is not in the Adobe Unified Experience, you receive an emai
 For more information, see [Adobe Workfront Planning notifications: Article index](/help/quicksilver/planning/notifications/notifications-information.md). -->
 
 ## Week of June 24, 2024
+
+### Workfront AI Assistant (beta) now available for Workfront Planning
+
+The AI Assistant (beta) is now available for Workfront Planning.  
+
+The AI assistant works in the context of the selected page and with your access and permissions level to perform the following actions: generate, update, remove, or restore records. 
+
+The AI Assistant is currently in a beta phase and it is available to select customers. Contact your account representative to learn if you are eligible to participate in this phase. 
+
+For information, see [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md). 
 
 ### New search box when selecting a workspace or a record type
 
