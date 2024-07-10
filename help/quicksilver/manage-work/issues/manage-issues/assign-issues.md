@@ -12,12 +12,6 @@ exl-id: e2dce29e-7370-4580-8326-99c4437998bf
 
 <!--keep the rate card job role information always in yellow till it releases to production - check with Lisa - this might not apply to issues?! -->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
-
 You can assign issues to users, roles, and teams to indicate who is responsible for completing the issues. For general information about assigning issues, see [Overview of modifying issue assignments](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!TIP]
@@ -41,7 +35,7 @@ In addition to this article, we recommend that you read the following articles f
 
 You can assign an issue to one or multiple resources at the individual issue level, or you can assign multiple resources to multiple issues at one time.
 
-Assigning issues and tasks is similar in&nbsp;Adobe Workfront. For general information about assigning tasks, see [Overview of modifying task assignments](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+Assigning issues and tasks is similar in Adobe Workfront. For general information about assigning tasks, see [Overview of modifying task assignments](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
 ## Access requirements
 
@@ -120,11 +114,7 @@ Consider the following when assigning multiple resources to a work item:
 
    * Start typing the name of a user, role, or team that you want to assign, then click it when it appears on the list.
 
-     Sample image in the Production environment:
-     ![](assets/nwe-assignments-expanded-in-task-header-350x259.png)
-
-     <span class="preview">Sample image in the Preview environment:</span>
-     <span class="preview">![Assignments search](assets/smart-assignments-issue-header.png)</span>
+     ![Assignments search](assets/smart-assignments-issue-header.png)
 
    * (Conditional) Click one of the names, roles, or teams in the available lists
    * Click **Assign to me** to assign it to yourself
@@ -171,10 +161,6 @@ To assign issues in a list:
 
    * Click inside the **Assignments** field and start typing the name of an active user, job role, or active team that you want to assign to the issue, then click it when it displays in the list.
 
-     Sample image in the Production environment:
-     ![](assets/assignments-field-task-list-nwe.png)
-
-     <span class="preview">Sample image in the Preview environment:</span>
      ![Assignments field](assets/assignments-field-task-list-0424.png)
 
    >[!TIP]
