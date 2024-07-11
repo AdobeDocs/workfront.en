@@ -1,20 +1,20 @@
 ---
-product-area: documents
-navigation-topic: approvals
-title: Create a document review or approval request
-description: You can request approval from other users for a document in Adobe Workfront.
-author: Courtney
+content-type: reference
+product-area: projects
+navigation-topic: projects-navigation-topic
+title: "Create a review or approval request for a Frame.io asset"
+description: You can create a review or approval request for Frame.io connected assets. 
 feature: Work Management, Digital Content and Documents
-exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
+recommendations: noDisplay, noCatalog
 ---
-# Create a document review or approval request
 
-cYou can request approval from other users or teams for a document in Adobe Workfront, or request they review a document without needing to approve it.
+# Create a review or approval request for a Frame.io asset
 
 >[!IMPORTANT]
 >
->The content of this article refers to updated document approval functionality that is only available for specific accounts. For information on standard approval processes, see the articles listed in [Work approvals](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>The content of this article refers to updated approval functionality that is only available for specific accounts. For information on standard approval processes, see the articles listed in [Work approvals](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
+<!--
 ## Access requirements
 
 You must have the following access to perform the steps in this article:
@@ -43,36 +43,21 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+-->
 
-## Create a document review or approval request from the document page
+## Create a review or approval request from the Document Summary
 
-1. Hover over the document, then click Document Details.
-   ![](assets/doc-details.png)
+1. Go to the project, task, or issue that contains the Frame.io connected, then select **Documents**.
 
+    >[!TIP]
+    >
+    >Frame.io connected assets have the Frame.io logo next to them.
 
-1. Near the document name, select the version of the document you would like to create an approval for in the version dropdown. The latest version will be selected by default.
+1. Click on the Frame.io connected asset you need to open the Document Summary panel.
 
-1. Click **Approvals** in the left pane.
+1. (Optional) In the **Version** drop-down menu, select the version of the asset you want to create an approval for. The latest version is selected by default.
 
-1. (Optional) Set a deadline for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified deadline.
-
-1. To add an approver, click the **Approver** and and begin typing in a user or team name. 
-
-1. To add a reviewer, click the **Reviewer** checkbox and begin typing in a user or team name. 
-
-   ![](assets/add-approver-and-deadline.png)
-
-1. Repeat the previous step to add additional approvers or reviewers.
-
-## Create a document review or approval request from the Document Summary pane
-
-1. Go to the project, task, or issue that contains the document, then select **Documents**.
-
-1. Click on the document you need and the Document Summary pane for that document will open.
-
-1. Select the version of the document you would like to create an approval for in the version dropdown. The latest version will be selected by default.
-
-1. Scroll down to the **Approvals** section in the Document Summary pane, then click **Add**.
+1. Scroll down to the **Approvals** section, then click **Add**.
 
   ![](assets/doc-summary-add-approvers.png)
 
@@ -85,6 +70,27 @@ You must have the following access to perform the steps in this article:
    ![](assets/add-approver-and-deadline.png)
 
 1. Repeat the previous step to add additional approvers or reviewers.
+
+## Create a review or approval request from the Document Details page
+
+1. Hover over the document, then click **Document Details**.
+   ![](assets/doc-details.png)
+
+1. Near the document name, select the version of the document you would like to create an approval for. The latest version is selected by default.
+
+1. In the left panel, click **Approvals**.
+
+1. (Optional) Set a deadline for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified deadline.
+
+1. To add an approver, click the **Approver** and and begin typing in a user or team name. 
+
+1. To add a reviewer, click the **Reviewer** checkbox and begin typing in a user or team name. 
+
+   ![](assets/add-approver-and-deadline.png)
+
+1. Repeat the previous step to add additional approvers or reviewers.
+
+
 
 <!--
 ## Resubmit an approval on a new version
