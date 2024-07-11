@@ -19,6 +19,7 @@ feature-set: Workfront
       * [2024 Q3 Financial management enhancements](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-financial-mgmt-enhancements.md)
       * [2024 Q3 Integration enhancements](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md)
       * [2024 Q3 Project enhancements](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md)
+      * [2024 Q3 Proofing enhancements](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-proofing-enhancements.md)
       * [2024 Q3 Resource management enhancements](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md)
       * [Other enhancements during the 2024 Q3 release timeframe](product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md)
       * [Look-and-feel updates during the 2024 Q3 release timeframe](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-look-and-feel-updates.md)
@@ -2049,7 +2050,10 @@ feature-set: Workfront
   * Adobe Workfront Planning general information {#adobe-workfront-planning-general-information}
     * [Adobe Workfront Planning general information: article index](planning/general/planning-general-article-index.md)
     * [Adobe Workfront Planning overview](planning/general/planning-overview.md)
-    * [Adobe Workfront Planning release activity](planning/general/release-activity.md)
+    * [Adobe Workfront Planning API basics](planning/general/planning-api-basics.md)
+    * [Adobe Workfront Planning AI Assistant overview](planning/general/planning-ai-assistant-overview.md)
+    * [Adobe Workfront Planning current release activity](planning/general/release-activity.md)
+    * [Adobe Workfront Planning release activity archives for 2023](planning/general/release-activity-archives-2023.md)
   * Adobe Workfront Planning architecture {#adobe-workfront-planning-architecture}
     * [Architecture: article index](planning/architecture/architecture-information.md)
     * [Create workspaces](planning/architecture/create-workspaces.md)

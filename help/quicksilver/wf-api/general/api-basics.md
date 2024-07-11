@@ -545,3 +545,4 @@ A bulk update statement updates multiple objects at the same time within a singl
 >[!NOTE]
 >
 >Atomic batch operations can only return "success: true" or an error.
+
