@@ -22,7 +22,7 @@ Objects are manipulated by sending an HTTP request to their unique URI. The oper
 
 The standard HTTP methods correspond to the following operations: 
 
-* **GET** - Retrieves an object by ID, searches for all objects by a query, runs reports, or executes named queries 
+* **GET** - Retrieves an object by ID, searches for all objects by a query 
 * **POST** - Inserts a new object 
 * **PUT** - Edits an existing object 
 * **DELETE** - Deletes an object 
