@@ -198,10 +198,7 @@ To do this:
 
 1. Click the name of a project in the connected record field. 
 
-    This opens the read-only Workfront Planning project's page. 
-    Review information about the project. Only selected project fields display in the record's page. 
-
-1. Click **Go to source** in the upper-right corner of the screen to open the project in Workfront, if you have at least View permissions to the project. 
+    This opens the project in Workfront, if you have at least View permissions to the project. 
 1. (Optional) Update information about the project in Workfront, if you have permissions to do so. 
 
 1. (Optional) From the Campaign table view, hover over the **Project information** field header, and click the downward-pointing arrow, then click **Edit lookup fields.**
