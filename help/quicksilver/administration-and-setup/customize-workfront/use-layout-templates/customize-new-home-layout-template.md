@@ -126,3 +126,8 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
    Or
 
    If you are finished customizing, click **Save** in the bottom-left corner.
+
+
+>[!NOTE]
+>
+>Administrators customizing their own Layout Template will need to refresh the page in order to see changes.
