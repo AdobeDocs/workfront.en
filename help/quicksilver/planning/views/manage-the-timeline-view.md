@@ -30,60 +30,7 @@ For information about record views, see [Manage record views](/help/quicksilver/
 
 You must have the following access to perform the steps in this article: 
 
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-   <p>System administrators have access only the views they created or that are shared with them. </p>
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader">Access level configuration</td>
-   <td> <p>There are no access level controls for Adobe Workfront Planning </p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to the view</p>  
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
-
-
-<!--Replace above table with this: 
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
 
 <table style="table-layout:auto">
  <col>
@@ -139,7 +86,7 @@ You must have the following access to perform the steps in this article:
  </tbody>
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 ## Manage a timeline view {#manage-a-timeline-view}
@@ -232,7 +179,9 @@ Consider the following when working with filters in the timeline view:
 
     For more information, see the "Add filters" section in the article [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
 
-* You can filter by connected record fields or lookup fields, but not for those fields that allow linking to multiple records.
+* You can filter by connected record fields or lookup fields. 
+* You can filter by lookup fields that display multiple values. 
+
 
 ### Add grouping
 
@@ -246,11 +195,16 @@ Consider the following when working with groupings in the timeline view:
 
 * You can apply groupings both in the table and timeline views. The groupings of the table view are independent from those in the timeline view of the same record type.
 * You can apply 3 levels of grouping in a view. The records are grouped in the order of groupings that you select. 
-* You can apply up to 4 levels of grouping when using the API. 
-* The groupings are unique to the view that you select. Two timeline views of the same record type can have different groupings applied to them. Two users looking at the same timeline view see the same grouping that is currently applied. 
-* You cannot name the groupings you build for a timeline view.
+<!--* You can apply up to 4 levels of grouping when using the API. --checking on this one for now-->
+* The groupings are unique to the view that you select. Two table views of the same record type can have different groupings applied to them. Two users looking at the same table view see the same grouping that is currently applied. 
+* You cannot name the groupings you build for a table view.
 * Removing groupings removes them from anyone accessing the same record type as you and who displays the same view as you do. 
-* You can group by connected record fields or lookup fields, but not for those fields that allow linking to multiple records.
+* You can edit records listed under a grouping.
+* You can group by connected record fields or lookup fields.  
+* When you group by lookup fields with multiple values (that have not been summarized by an aggregator), records are grouped by each unique combination of field values.  
+* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a grouping for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Status in the grouping you are creating for the Activity record type. 
+<!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
+<!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
 To add a grouping in the timeline view:
 

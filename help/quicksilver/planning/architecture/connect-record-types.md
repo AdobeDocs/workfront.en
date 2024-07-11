@@ -266,6 +266,14 @@ You must have the following access to perform the steps in this article:
 
 1. (Optional and conditional) If you select to link a number, currency, percentage, or date-type field, also select an aggregator value to summarize multiple values. The values for the linked fields display either separated by commas or as a summarized value according to the aggregator you choose, when users select more than one linked record in the linked record field. 
 
+    If the lookup field contains multiple values that are not summarized, consider the following when using the field in sorting or grouping in a view:  
+
+    * The sorting is done by the first value 
+
+    * Records are grouped by each unique combination of field values 
+
+    * The timeline view is built based on the first date value. 
+
     >[!IMPORTANT]
     >
     >    You must select an aggregator value when adding lookup date fields, if you want the fields to be available to add as Start and End Dates for the timeline and calendar views. For example, you can select the MAX or the MIN aggregator for a lookup date field. 

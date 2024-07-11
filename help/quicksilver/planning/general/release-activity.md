@@ -33,8 +33,6 @@ The released features are listed in the order of their release, with the most re
 
 Workfront Planning has temporarily been removed from the Preview and Sandbox environments since January 2024. All features documented in this articles are currently available in Production.  
 
-<!--
-
 ## Week of July 8, 2024
 
 ### Open connected object directly in Workfront
@@ -80,7 +78,6 @@ For more information, see the following articles:
 * [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md)
 * [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).
 
--->
 
 ## Week of June 24, 2024
 

@@ -12,7 +12,7 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 <!-- Audited: 1/2024 -->
 
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.  <!--for all customers or in Production for customers who enabled fast releases--> </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>  (*****for all customers or in Production for customers who enabled fast releases-->
 
 <!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
@@ -387,7 +387,7 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
    >
    >**IMPORTANT**
    >
-   ><span class="preview">You cannot add images to goals or ad-hoc cards on boards.</span> 
+   ><!--<span class="preview">You cannot add images to goals or ad-hoc cards on boards.</span> -->
    >
    >* Your Workfront administrator must enable adding images in the Update Feeds Preferences section of the Workfront Interface area before you can see the Image or the Add attachment icons. For information, see [Configure preferences for user updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md). 
    >* The maximum image file size is 7 MB. Supported image file types are .jpg, .gif, and .png.

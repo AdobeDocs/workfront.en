@@ -63,9 +63,9 @@ The tables in the following sections illustrate the level of permissions that yo
 >
 >Not all users can have the permissions levels described below. Users' individual license determines which level of permissions they can receive for Workfront Planning objects. 
 >
->Only Standard (or Plan) license users can have Contribute or Manage permissions to workspaces <!--and Manage permissions to views-->.
+>Only Standard (or Plan) license users can have Contribute or Manage permissions to workspaces and Manage permissions to views.
 > 
-><!--Users with all other license types can have View permissions to workspaces and views.  -->
+>Users with all other license types can have View permissions to workspaces and views. 
 >
 >For information, see [License type overview when using Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 

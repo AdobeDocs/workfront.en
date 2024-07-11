@@ -24,66 +24,9 @@ hide: yes
 
 You can display records and their fields in a calendar view, from the record type page.
 
-For information about Adobe Workfront Planning capabilities views and how to manage them, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
+For information about Adobe Workfront Planning views and how to manage them, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
 
-## Access requirements
-
-You must have the following access to perform the steps in this article: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-   <p>System administrators have access only the views they created or that are shared with them. </p>
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader">Access level configuration</td>
-   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to the view</p>  
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
- </tbody>
-</table>
-
-
-<!--Replace above table with this: 
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
 
 <table style="table-layout:auto">
  <col>
@@ -139,7 +82,7 @@ You must have the following access to perform the steps in this article:
  </tbody>
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Manage a calendar view {#manage-a-calendar-view}
 
@@ -200,4 +143,6 @@ Consider the following when working with filters in the calendar view:
 
    For more information, see the "Add filters" section in the article [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
 
-* You can filter by connected record fields or lookup fields, but not for those fields that allow linking to multiple records.
+* You can filter by connected record fields or lookup fields. 
+
+* You can filter by lookup fields that display multiple values.
