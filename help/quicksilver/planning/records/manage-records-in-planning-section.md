@@ -109,10 +109,8 @@ You must have the following access to perform the steps in this article:
 1. Click the card of a record type that is connected to a Workfront project, portfolio, or program. 
 1. Go to a connected record field that has a connection with a Workfront object, either in the table view or from a record's details page. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
 1. Click the name of a Workfront object in the connected record field.
-  The objects's page opens in Workfront Planning. 
-1. Click **Go to source**, in the upper-right corner of the screen. 
+  The objects's page opens in Workfront.  
 
-   The object's page opens in Workfront. 
 1. Click **Planning** in the left panel. 
 
       >[!NOTE]
