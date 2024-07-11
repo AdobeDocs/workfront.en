@@ -3,7 +3,7 @@ product-area: documents
 navigation-topic: approvals
 title: Remove approvers or reviewers from an asset or document
 description: You can remove individual approvers or reviewers from a document.
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
 ---
