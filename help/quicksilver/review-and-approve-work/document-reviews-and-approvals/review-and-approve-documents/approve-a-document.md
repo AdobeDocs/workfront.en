@@ -1,13 +1,13 @@
 ---
 product-area: projects
 navigation-topic: approvals
-title: Approve a document
+title: Approve a document in Workfront
 description: If you are assigned as an approver to a document, there are multiple ways you can make your approval decision.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
 ---
-# Approve a document
+# Approve a document in Workfront
 
 If you are assigned as an approver to a document, there are multiple ways you can make your approval decision.
 
