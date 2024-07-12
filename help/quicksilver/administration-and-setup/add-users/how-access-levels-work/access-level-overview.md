@@ -275,8 +275,8 @@ The following are the highest access settings available for objects in the Contr
 | Project |&nbsp; |✓ |&nbsp; |
 | Task |&nbsp; |✓ |&nbsp; |
 | Issue |&nbsp; |&nbsp; |✓ |
-| Portfolios |✓ |&nbsp; |&nbsp; |
-| Programs |✓ |&nbsp; |&nbsp; |
+| Portfolios |&nbsp; |✓ |&nbsp; |
+| Programs |&nbsp; |✓ |&nbsp; |
 | Reports (including dashboards and calendar reports) |&nbsp; |✓ (Only the Details tab) |&nbsp; |
 | Filters, views, and groupings |&nbsp; |&nbsp; |✓ |
 | Document |&nbsp; |&nbsp; |✓ |
