@@ -309,3 +309,4 @@ For more information about these and other partner integrations, see the [[!DNL 
 The [!DNL Workfront] API enables you to extend and enhance your [!DNL Workfront] experience by leveraging our public API. You can create your own integrations using our open API. 
 
 For a detailed list of available objects in the [!DNL Workfront] API, see the [!DNL Workfront] [API Explorer](../../wf-api/general/api-explorer.md).
+
