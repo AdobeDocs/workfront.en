@@ -5,14 +5,14 @@ product-area: workfront-integrations;documents
 keywords: connector
 navigation-topic: apps-and-their-modules
 title: Google Docs modules
-description: The Adobe Workfront Fusion [!DNL Google Docs] modules enable you to monitor, create, edit and retrieve documents in your [!DNL Google Docs] and [!DNL Google Docs] (for [!DNL G Suite] users).
+description: The Adobe Workfront Fusion [!DNL Google Docs] modules enable you to monitor, create, edit and retrieve documents in your [!DNL Google Docs] and [!DNL Google Docs] (for [!DNL Google Workspace] users).
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: fbe7d628-d833-43ce-83b8-8e4e6a812fd1
 ---
 # [!DNL Google Docs] modules
 
-The [!DNL Adobe Workfront Fusion] [!DNL Google Docs] modules enable you to monitor, create, edit and retrieve documents in your [!DNL Google Docs] and [!DNL Google Docs] (for [!DNL G Suite] users).
+The [!DNL Adobe Workfront Fusion] [!DNL Google Docs] modules enable you to monitor, create, edit and retrieve documents in your [!DNL Google Docs] and [!DNL Google Docs] (for [!DNL Google Workspace] users).
 
 In order to use [!DNL Google Docs] with [!DNL Adobe Workfront Fusion], it is necessary to have a [!DNL Google] account. If you don't have a [!DNL Google] account yet, you can create one at the [!DNL Google] Account help page.
 
@@ -107,7 +107,7 @@ This trigger module returns document details when a new document is created or m
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>Select the folder you want to watch for created or modified documents.</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>Select the folder you want to watch for created or modified documents.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong> (available for [!DNL G Suite] users only)</p> <p>Select whether you want to [!UICONTROL Use Domain Admin Access]. Selecting [!UICONTROL Yes] issues the request as a domain administrator, and all shared drives in which the requester is an administrator are returned.</p> <p>Select the shared drive you want to watch.</p> <p>Note: If you have selected the [!DNL Google Shared Drive] option in this field and you are not a [!DNL G Suite] user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong> (available for [!DNL Google Workspace] users only)</p> <p>Select whether you want to [!UICONTROL Use Domain Admin Access]. Selecting [!UICONTROL Yes] issues the request as a domain administrator, and all shared drives in which the requester is an administrator are returned.</p> <p>Select the shared drive you want to watch.</p> <p>Note: If you have selected the [!DNL Google Shared Drive] option in this field and you are not a [!DNL Google Workspace] user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -135,7 +135,7 @@ This action module retrieves a list of documents from the selected folder.
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>Select the folder you want to list documents from.</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>Select the folder you want to list documents from.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong> (available for [!DNL G Suite] users only)</p> <p>Select whether you want to [!UICONTROL Use Domain Admin Access]. Selecting [!UICONTROL Yes] issues the request as a domain administrator, and all shared drives in which the requester is an administrator are returned.</p> <p>Select the shared drive you want to list documents from.</p> <p>Note: If you have selected the [!DNL Google Docs] option in this field and you are not a [!DNL G Suite] user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong> (available for [!DNL Google Workspace] users only)</p> <p>Select whether you want to [!UICONTROL Use Domain Admin Access]. Selecting [!UICONTROL Yes] issues the request as a domain administrator, and all shared drives in which the requester is an administrator are returned.</p> <p>Select the shared drive you want to list documents from.</p> <p>Note: If you have selected the [!DNL Google Docs] option in this field and you are not a [!DNL Google Workspace] user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -169,7 +169,7 @@ You may need to extend your permissions.
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>Select the folder that contains the document you want to retrieve.</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>Select the folder that contains the document you want to retrieve.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong> (available for [!DNL G Suite] users only)</p> <p>Select whether you want to [!UICONTROL Use Domain Admin Access]. Selecting [!UICONTROL Yes] issues the request as a domain administrator, and all shared drives in which the requester is an administrator are returned.</p> <p>Select the shared drive that contains the document you want to retrieve.</p> <p>Note: If you have selected the [!DNL Google Docs] option in this field and you are not a [!DNL G Suite] user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong> (available for [!DNL Google Workspace] users only)</p> <p>Select whether you want to [!UICONTROL Use Domain Admin Access]. Selecting [!UICONTROL Yes] issues the request as a domain administrator, and all shared drives in which the requester is an administrator are returned.</p> <p>Select the shared drive that contains the document you want to retrieve.</p> <p>Note: If you have selected the [!DNL Google Docs] option in this field and you are not a [!DNL Google Workspace] user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -210,7 +210,7 @@ This action module allows you to create a new document in the selected folder.
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>Select the folder where you want to create a document.</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>Select the folder where you want to create a document.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong> (available for [!DNL G Suite] users only)</p> <p>Select whether you want to [!UICONTROL Use Domain Admin Access]. Selecting [!UICONTROL Yes] issues the request as a domain administrator, and all shared drives in which the requester is an administrator are returned.</p> <p>Select the shared drive where you want to create a document.</p> <p>Note: If you have selected the [!DNL Google Docs] option in this field and you are not a [!DNL G Suite] user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong> (available for [!DNL Google Workspace] users only)</p> <p>Select whether you want to [!UICONTROL Use Domain Admin Access]. Selecting [!UICONTROL Yes] issues the request as a domain administrator, and all shared drives in which the requester is an administrator are returned.</p> <p>Select the shared drive where you want to create a document.</p> <p>Note: If you have selected the [!DNL Google Docs] option in this field and you are not a [!DNL Google Workspace] user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -250,7 +250,7 @@ This action module creates a copy of an existing template document and replaces 
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>Select the folder where your template is located.</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>Select the folder where your template is located.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong> (available for [!DNL G Suite] users only)</p> <p>Select whether you want to [!UICONTROL Use Domain Admin Access]. Selecting [!UICONTROL Yes] issues the request as a domain administrator, and all shared drives in which the requester is an administrator are returned.</p> <p>Select the shared drive where your template is located.</p> <p>Note: If you have selected the [!DNL Google Docs] option in this field and you are not a [!DNL G Suite] user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong> (available for [!DNL Google Workspace] users only)</p> <p>Select whether you want to [!UICONTROL Use Domain Admin Access]. Selecting [!UICONTROL Yes] issues the request as a domain administrator, and all shared drives in which the requester is an administrator are returned.</p> <p>Select the shared drive where your template is located.</p> <p>Note: If you have selected the [!DNL Google Docs] option in this field and you are not a [!DNL Google Workspace] user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -280,7 +280,7 @@ This action module creates a copy of an existing template document and replaces 
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>Select the folder where you want the document to be created.</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>Select the folder where you want the document to be created.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong> (available for [!DNL G Suite] users only)</p> <p>Select whether you want to [!UICONTROL Use Domain Admin Access]. Selecting [!UICONTROL Yes] issues the request as a domain administrator, and all shared drives in which the requester is an administrator are returned.</p> <p>Select the shared drive where you want the document to be created.</p> <p>Note: If you have selected the [!DNL Google Docs] option in this field and you are not a [!DNL G Suite] user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong> (available for [!DNL Google Workspace] users only)</p> <p>Select whether you want to [!UICONTROL Use Domain Admin Access]. Selecting [!UICONTROL Yes] issues the request as a domain administrator, and all shared drives in which the requester is an administrator are returned.</p> <p>Select the shared drive where you want the document to be created.</p> <p>Note: If you have selected the [!DNL Google Docs] option in this field and you are not a [!DNL Google Workspace] user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -312,7 +312,7 @@ This action module appends or inserts a new paragraph to an existing document.
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>Select the folder where the document you want to add a paragraph to is located, then select the document.</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>Select the folder where the document you want to add a paragraph to is located, then select the document.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong> (available for [!DNL G Suite] users only)</p> <p>Select whether you want to [!UICONTROL Use Domain Admin Access]. Selecting [!UICONTROL Yes] issues the request as a domain administrator, and all shared drives in which the requester is an administrator are returned.</p> <p>Select the shared drive where the document you want to add a paragraph to is located, then select the document.</p> <p>Note: If you have selected the [!DNL Google Docs] option in this field and you are not a [!DNL G Suite] user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong> (available for [!DNL Google Workspace] users only)</p> <p>Select whether you want to [!UICONTROL Use Domain Admin Access]. Selecting [!UICONTROL Yes] issues the request as a domain administrator, and all shared drives in which the requester is an administrator are returned.</p> <p>Select the shared drive where the document you want to add a paragraph to is located, then select the document.</p> <p>Note: If you have selected the [!DNL Google Docs] option in this field and you are not a [!DNL Google Workspace] user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -367,7 +367,7 @@ This action module inserts an image from the URL to the document.
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>Select the folder where the document you want to add an image to is located, then select the document.</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>Select the folder where the document you want to add an image to is located, then select the document.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong> (available for [!DNL G Suite] users only)</p> <p>Select whether you want to [!UICONTROL Use Domain Admin Access]. Selecting [!UICONTROL Yes] issues the request as a domain administrator, and all shared drives in which the requester is an administrator are returned.</p> <p>Select the shared drive where the document you want to add an image to is located, then select the document.</p> <p>Note: If you have selected the [!DNL Google Docs] option in this field and you are not a [!DNL G Suite] user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong> (available for [!DNL Google Workspace] users only)</p> <p>Select whether you want to [!UICONTROL Use Domain Admin Access]. Selecting [!UICONTROL Yes] issues the request as a domain administrator, and all shared drives in which the requester is an administrator are returned.</p> <p>Select the shared drive where the document you want to add an image to is located, then select the document.</p> <p>Note: If you have selected the [!DNL Google Docs] option in this field and you are not a [!DNL Google Workspace] user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -422,7 +422,7 @@ This action module replaces an existing image. The aspect ratio of the original 
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>Select the folder where the document you want to replace an image is located, then select the document.</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>Select the folder where the document you want to replace an image is located, then select the document.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong> (available for [!DNL G Suite] users only)</p> <p>Select whether you want to [!UICONTROL Use Domain Admin Access]. Selecting [!UICONTROL Yes] issues the request as a domain administrator, and all shared drives in which the requester is an administrator are returned.</p> <p>Select the shared drive where the document you want to replace an image is located, then select the document.</p> <p>Note: If you have selected the [!DNL Google Docs] option in this field and you are not a [!DNL G Suite] user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong> (available for [!DNL Google Workspace] users only)</p> <p>Select whether you want to [!UICONTROL Use Domain Admin Access]. Selecting [!UICONTROL Yes] issues the request as a domain administrator, and all shared drives in which the requester is an administrator are returned.</p> <p>Select the shared drive where the document you want to replace an image is located, then select the document.</p> <p>Note: If you have selected the [!DNL Google Docs] option in this field and you are not a [!DNL Google Workspace] user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -458,7 +458,7 @@ This action module replaces text in a document.
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>Select the folder where the document you want to add text to is located, then select the document.</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>Select the folder where the document you want to add text to is located, then select the document.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong> (available for [!DNL G Suite] users only)</p> <p>Select whether you want to [!UICONTROL Use Domain Admin Access]. Selecting [!UICONTROL Yes] issues the request as a domain administrator, and all shared drives in which the requester is an administrator are returned.</p> <p>Select the shared drive where the document you want to add text to is located, then select the document.</p> <p>Note: If you have selected the [!DNL Google Docs] option in this field and you are not a [!DNL G Suite] user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong> (available for [!DNL Google Workspace] users only)</p> <p>Select whether you want to [!UICONTROL Use Domain Admin Access]. Selecting [!UICONTROL Yes] issues the request as a domain administrator, and all shared drives in which the requester is an administrator are returned.</p> <p>Select the shared drive where the document you want to add text to is located, then select the document.</p> <p>Note: If you have selected the [!DNL Google Docs] option in this field and you are not a [!DNL Google Workspace] user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -490,7 +490,7 @@ This action module converts and downloads the selected document.
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>Select the folder where the document you want to download is located, then select the document.</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>Select the folder where the document you want to download is located, then select the document.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong> (available for [!DNL G Suite] users only)</p> <p>Select whether you want to [!UICONTROL Use Domain Admin Access]. Selecting [!UICONTROL Yes] issues the request as a domain administrator, and all shared drives in which the requester is an administrator are returned.</p> <p>Select the shared drive where the document you want to download is located, then select the document.</p> <p>Note: If you have selected the [!DNL Google Docs] option in this field and you are not a [!DNL G Suite] user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong> (available for [!DNL Google Workspace] users only)</p> <p>Select whether you want to [!UICONTROL Use Domain Admin Access]. Selecting [!UICONTROL Yes] issues the request as a domain administrator, and all shared drives in which the requester is an administrator are returned.</p> <p>Select the shared drive where the document you want to download is located, then select the document.</p> <p>Note: If you have selected the [!DNL Google Docs] option in this field and you are not a [!DNL Google Workspace] user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -518,7 +518,7 @@ This action module deletes a document.
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>Select the folder where the document you want to delete is located, then select the document.</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>Select the folder where the document you want to delete is located, then select the document.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong> (available for [!DNL G Suite] users only)</p> <p>Select whether you want to [!UICONTROL Use Domain Admin Access]. Selecting [!UICONTROL Yes] issues the request as a domain administrator, and all shared drives in which the requester is an administrator are returned.</p> <p>Select the shared drive where the document you want to delete is located, then select the document.</p> <p>Note: If you have selected the [!DNL Google Docs] option in this field and you are not a [!DNL G Suite] user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong> (available for [!DNL Google Workspace] users only)</p> <p>Select whether you want to [!UICONTROL Use Domain Admin Access]. Selecting [!UICONTROL Yes] issues the request as a domain administrator, and all shared drives in which the requester is an administrator are returned.</p> <p>Select the shared drive where the document you want to delete is located, then select the document.</p> <p>Note: If you have selected the [!DNL Google Docs] option in this field and you are not a [!DNL Google Workspace] user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -617,7 +617,7 @@ This action module finds all links in the document and makes them clickable.
     <ul> 
      <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>Select the folder where the document you want to make links clickable in is located, then select the document.</p> </li> 
      <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>Select the folder where the document you want to make links clickable in is located, then select the document.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong> (available for [!DNL G Suite] users only)</p> <p>Select whether you want to [!UICONTROL Use Domain Admin Access]. Selecting [!UICONTROL Yes] issues the request as a domain administrator, and all shared drives in which the requester is an administrator are returned.</p> <p>Select the shared drive where the document you want to make links clickable in is located, then select the document.</p> <p>Note: If you have selected the [!DNL Google Docs] option in this field and you are not a [!DNL G Suite] user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Shared Drive]</strong> (available for [!DNL Google Workspace] users only)</p> <p>Select whether you want to [!UICONTROL Use Domain Admin Access]. Selecting [!UICONTROL Yes] issues the request as a domain administrator, and all shared drives in which the requester is an administrator are returned.</p> <p>Select the shared drive where the document you want to make links clickable in is located, then select the document.</p> <p>Note: If you have selected the [!DNL Google Docs] option in this field and you are not a [!DNL Google Workspace] user, the error <code>[400] Invalid Value</code> is returned.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

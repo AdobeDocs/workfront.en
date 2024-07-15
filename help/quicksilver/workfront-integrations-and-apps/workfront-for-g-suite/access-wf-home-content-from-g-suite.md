@@ -2,19 +2,19 @@
 product-area: workfront-integrations
 keywords: google,doc,document,sheet,slide
 navigation-topic: workfront-for-g-suite
-title: Access [!DNL Adobe Workfront] Home content from G Suite
-description: You can access your [!DNL Adobe Workfront] Home content, including all tasks, issues, approvals, and access requests assigned to you, without leaving G Suite.
+title: Access [!DNL Adobe Workfront] Home content from Google Workspace
+description: You can access your [!DNL Adobe Workfront] Home content, including all tasks, issues, approvals, and access requests assigned to you, without leaving Google Workspace.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: da2ecaf1-5cfb-470e-90a1-fbb386db8670
 ---
-# Access [!DNL Adobe Workfront] [!UICONTROL Home] content from [!DNL G Suite]
+# Access [!DNL Adobe Workfront] [!UICONTROL Home] content from [!DNL Google Workspace]
 
 >[!NOTE]
 >
 >The most recent version of the Adobe Workfront plugin for Google was released on June 26, 2023. 
 
-You can access your [!DNL Adobe Workfront] [!UICONTROL Home] content, including all tasks, issues, approvals, and access requests assigned to you, without leaving G Suite.
+You can access your [!DNL Adobe Workfront] [!UICONTROL Home] content, including all tasks, issues, approvals, and access requests assigned to you, without leaving Google Workspace.
 
 ## Access requirements
 
@@ -39,16 +39,16 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-Before you can access [!UICONTROL Home] content from [!DNL G Suite], you must
+Before you can access [!UICONTROL Home] content from [!DNL Google Workspace], you must
 
-* Install [!DNL Workfront for G suite]\
-   For instructions, see [Install [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* Install [!DNL Workfront for Google Workspace]\
+   For instructions, see [Install [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Access [!DNL Workfront] [!UICONTROL Home] from [!DNL G Suite]
+## Access [!DNL Workfront] [!UICONTROL Home] from [!DNL Google Workspace]
 
 1. Make sure you are logged in to [!DNL Workfront].
-1. If the [!UICONTROL Workfront for G Suite] panel is not displayed, click the [!DNL Workfront] icon ![](assets/wf-lion-icon.png) in the [!DNL G Suite] add-ons sidebar at the far-right of the page.
-1. If you see a left arrow at the top of [!DNL Workfront] for [!DNL G Suite], click the arrow to go to the [!UICONTROL Home] area.
+1. If the [!UICONTROL Workfront for Google Workspace] panel is not displayed, click the [!DNL Workfront] icon ![](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page.
+1. If you see a left arrow at the top of [!DNL Workfront] for [!DNL Google Workspace], click the arrow to go to the [!UICONTROL Home] area.
 
 1. In the **[!UICONTROL Sort by]** area, click the expand arrow ![](assets/dropdown-arrow.png), then click an option to specify how you want to group your work items so you can find the one you want.
 

@@ -115,23 +115,23 @@ We understand that the available built-in (native) integrations might not meet a
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL G Suite]</p> <p> <img src="assets/gsuite.png" style="max-width: 80px;"> </p> </td> 
+   <td> <p>[!DNL Google Workspace]</p> <p> <img src="assets/gsuite.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>Add a [!DNL G-Suite] email to a project or task </li> 
+     <li>Add a [!DNL Google Workspace] email to a project or task </li> 
      <li>View and manage [!DNL Workfront] notifications in [!DNL Gmail]</li> 
      <li>Submit requests via [!DNL Gmail] </li> 
-    </ul> <p>For more information, see <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md" class="MCXref xref">[!DNL Adobe Workfront for G Suite]</a>.</p> </td> 
+    </ul> <p>For more information, see <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md" class="MCXref xref">[!DNL Adobe Workfront for Google Workspace]</a>.</p> </td> 
    <td> 
     <ul> 
-     <li>[!DNL G Suite] users must have a [!DNL Workfront] license </li> 
+     <li>[!DNL Google Workspace] users must have a [!DNL Workfront] license </li> 
      <li>[!DNL Workfront] view and work sharing permissions must be set per access level </li> 
      <li> User must have a POP enabled email account </li> 
      <li>[!DNL Workfront] request settings must include POP settings </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>[!DNL G Suite] administrator</li> 
+     <li>[!DNL Google Workspace] administrator</li> 
      <li>[!DNL Workfront] administrator </li> 
     </ul> </td> 
   </tr> 
@@ -309,3 +309,4 @@ For more information about these and other partner integrations, see the [[!DNL 
 The [!DNL Workfront] API enables you to extend and enhance your [!DNL Workfront] experience by leveraging our public API. You can create your own integrations using our open API. 
 
 For a detailed list of available objects in the [!DNL Workfront] API, see the [!DNL Workfront] [API Explorer](../../wf-api/general/api-explorer.md).
+
