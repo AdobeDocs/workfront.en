@@ -121,7 +121,7 @@ We understand that the available built-in (native) integrations might not meet a
      <li>Add a [!DNL Google Workspace] email to a project or task </li> 
      <li>View and manage [!DNL Workfront] notifications in [!DNL Gmail]</li> 
      <li>Submit requests via [!DNL Gmail] </li> 
-    </ul> <p>For more information, see <a href="../../workfront-integrations-and-apps/workfront-for-Google Workspace/workfront-for-gsuite.md" class="MCXref xref">[!DNL Adobe Workfront for Google Workspace]</a>.</p> </td> 
+    </ul> <p>For more information, see <a href="../../workfront-integrations-and-apps/workfront-for-G-suite/workfront-for-g-suite.md" class="MCXref xref">[!DNL Adobe Workfront for Google Workspace]</a>.</p> </td> 
    <td> 
     <ul> 
      <li>[!DNL Google Workspace] users must have a [!DNL Workfront] license </li> 
