@@ -1957,7 +1957,7 @@ feature-set: Workfront
   * Create and manage timesheets {#create-and-manage-timesheets-in-adobe-workfront}
     * [Create and manage timesheets: article index](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
     * [Create, edit, and assign timesheet profiles](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
-    * [Define hour types and availability for timesheets](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
+    * [Define hour types and availability](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
     * [Create a single-use timesheet](timesheets/create-and-manage-timesheets/create-tmshts.md)
     * [Edit timesheet information](timesheets/create-and-manage-timesheets/edit-timesheets.md)
     * [Log time](timesheets/create-and-manage-timesheets/log-time.md)

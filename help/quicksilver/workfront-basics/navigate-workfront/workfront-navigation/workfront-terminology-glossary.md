@@ -1792,10 +1792,21 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>[!UICONTROL Rejection Issue]</td> 
    <td>In a project or a task report, this is the issue that is created when the approval for the project or the task is rejected. For information about rejection issues, see the article <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Create an approval process for work items</a>. </td> 
   </tr> 
-  <tr> 
+  
+<tr>
+  <td>Relationship types</td>
+  <td><p>Workfront objects are always connected to each other using one of the following relationship types:</p> 
+  
+  <ul><li> <b>One to many</b>: In this relationship, one object can be connected to multiple other objects of different types. For example one project can have multiple tasks. The Project-Tasks relationship is a one to many relationship. You cannot display this relationship in a report using the Standard interface. You must use text mode reporting to view one to many relationships.</li>
+  <li><b>One to one</b>: In this relationship, one object can only be connected to one other object of a different type. For example, a project can only have one Group. The Project-Group relationship is a one to one relationship. You can display one to one relationships between objects in a Standard report.</li>
+  <li><b>Many to one</b>: In this relationship, multiple objects can be connected to only one other objects of a different type. For example multiple tasks can be connected to the same project. The Tasks-Project relationship is a many to one relationship. You can display many to one relationships between objects in a Standard report. </li>
+  <li><b>Many to many</b>: In this relationship, multiple objects of the same type can be connected to multiple objects of a different type. For example, several users can belong to multiple Other Teams, and the teams can belong to several users. You cannot display this relationship in a report using the Standard interface. You must use text mode reporting to view many to many relationships. </li> </ul>
+  </td></tr>
+<tr> 
    <td>[!UICONTROL Remaining Risk Cost]</td> 
    <td> <p>A project field that shows the difference between the [!UICONTROL Planned Risk Cost] of a project and the total of all [!UICONTROL Actual Costs] of all risks on the project. </p> <p>The [!UICONTROL Remaining Risk Cost] for a project is calculated using on the following formula:</p> <p><code>[!UICONTROL Remaining Risk Cost] = Project [!UICONTROL Planned Risk Cost] - SUM([!UICONTROL Actual Cost] for all risks)</code> </p> </td> 
   </tr> 
+
   <tr> 
    <td>[!UICONTROL Replanning]</td> 
    <td>Changing the dates of a project to repair or overcome problems. For example, a project that has been on hold for several months would need to be replanned to reflect accurate dates. This is a manual operation of adjusting either the dates of the project or those of the tasks. </td> 
@@ -1914,9 +1925,10 @@ The designated full time equivalency for users. A full-time user should have 100
     <ul> 
      <li> <p>[!UICONTROL Actual Cost]: a field on a risk that shows the actual cost for the risk that has occurred. In addition to reports and lists, you can locate it in the [!UICONTROL Edit Risk] box when editing or creating a risk. </p> <p>For project, task, or issue costs, see "[!UICONTROL Actual Cost]" in this article. </p> </li> 
      <li> <p>[!UICONTROL Planned Risk Cost]: a field on the project that shows a total of all [!UICONTROL Potential Risk Costs] for the project. See also "[!UICONTROL Planned Risk Cost]" in this article. </p> <p>For information about Potential Risk Cost, see <a href="../../../manage-work/projects/project-finances/potential-risk-cost.md" class="MCXref xref">Calculate Potential Risk Cost </a>. </p> </li> 
-     <li> <p>[!UICONTROL Remaining Risk Cost]: a field on the project that displays the difference between the total of the [!UICONTROL Actual Costs] of all risks and the [!UICONTROL Planned Risk Cost]. See also "Remaining Risk Cost" in this article. </p> </li> 
+     <li> <p>[!UICONTROL Remaining Risk Cost]: a field on the project that displays the difference between the total of the [!UICONTROL Actual Costs] of all risks and the [!UICONTROL Planned Risk Cost]. See also "Remaining Risk Cost" in this article. </p> </li>
     </ul> </td> 
   </tr> 
+  
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Risk Management]</td> 
    <td>Processes to identify, mitigate, and monitor risk.</td> 
