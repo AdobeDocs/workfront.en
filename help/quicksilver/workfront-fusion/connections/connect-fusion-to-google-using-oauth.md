@@ -67,7 +67,7 @@ To create this connection, you must create and configure a project on Google Clo
 >This procedure is intended for:
 >
 >* Personal use ([!DNL `@gmail.com`] and [!DNL `@googlemail.com`] users)
->* Internal use ([!DNL G Suite] users that prefer to use a custom OAuth client)
+>* Internal use ([!DNL Google Workspace] users that prefer to use a custom OAuth client)
 
 ### Create a project on [!DNL Google Cloud Platform] 
 

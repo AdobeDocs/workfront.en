@@ -2,13 +2,13 @@
 product-area: workfront-integrations;projects
 keywords: google,doc,document,sheet,slide
 navigation-topic: workfront-for-g-suite
-title: Update an [!DNL Adobe Workfront] item from G Suite using email content
+title: Update an [!DNL Adobe Workfront] item from Google Workspace using email content
 description: You can update an existing project, task, or issue with information from a non-Adobe Workfront email.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
 ---
-# Update an [!DNL Adobe Workfront] item from [!DNL G Suite] using email content
+# Update an [!DNL Adobe Workfront] item from [!DNL Google Workspace] using email content
 
 >[!NOTE]
 >
@@ -39,15 +39,15 @@ You must have the following access to perform the steps in this article:
 
 ## Prerequisites
 
-Before you can update a [!DNL Workfront] item using email content from [!DNL G Suite], you must
+Before you can update a [!DNL Workfront] item using email content from [!DNL Google Workspace], you must
 
-* Install [!DNL Workfront for G suite]\
-   For instructions, see [Install [!DNL Adobe Workfront for G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
+* Install [!DNL Workfront for Google Workspace]\
+   For instructions, see [Install [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Update a [!DNL Workfront] item using email content from [!DNL G Suite]
+## Update a [!DNL Workfront] item using email content from [!DNL Google Workspace]
 
-1. If the [!UICONTROL Workfront for G Suite] panel is not displayed, click the Workfront icon ![](assets/wf-lion-icon.png) in the [!DNL G Suite] add-ons sidebar at the far-right of the page.
-1. With the email message open in [!DNL G Suite], click **[!UICONTROL Post as a new update]** in the [!DNL G Suite] panel.
+1. If the [!UICONTROL Workfront for Google Workspace] panel is not displayed, click the Workfront icon ![](assets/wf-lion-icon.png) in the [!DNL Google Workspace] add-ons sidebar at the far-right of the page.
+1. With the email message open in [!DNL Google Workspace], click **[!UICONTROL Post as a new update]** in the [!DNL Google Workspace] panel.
 1. Under **[!UICONTROL Type]**, click the drop-down arrow, then click the type of object where you want to add the update.
 1. Click the **[!UICONTROL Search for]** option, start typing the name of the object where you want to add the update, then select the item when it appears in the list below.
 
@@ -81,11 +81,11 @@ Before you can update a [!DNL Workfront] item using email content from [!DNL G S
 
 1. Click **[!UICONTROL Update]**.
 
-   When you refresh your browser, a message with a link at the bottom of the [!DNL Workfront for G Suite] panel confirms that you have converted the email to an update:
+   When you refresh your browser, a message with a link at the bottom of the [!DNL Workfront for Google Workspace] panel confirms that you have converted the email to an update:
 
    You can click the link to go to the [!UICONTROL Updates] tab in [!DNL Workfront] for the object you specified in step 4.
 
-   You can repeat these steps to convert the same email to updates, task, and issues (see [Create an Adobe Workfront issue in [!DNL G Suite] using email content](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)). When you refresh your browser or return to the email at another time, all links you have created for the email are listed at the bottom of the [!UICONTROL Workfront for G Suite] panel.
+   You can repeat these steps to convert the same email to updates, task, and issues (see [Create an Adobe Workfront issue in [!DNL Google Workspace] using email content](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)). When you refresh your browser or return to the email at another time, all links you have created for the email are listed at the bottom of the [!UICONTROL Workfront for Google Workspace] panel.
 
 1. (Optional) Continue to work with the update in the [!DNL Workfront] add-on panel by doing any of the following:
 
