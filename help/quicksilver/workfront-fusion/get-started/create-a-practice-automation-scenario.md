@@ -133,13 +133,14 @@ After you connect [!DNL Workfront Fusion] to your [!DNL Workfront] account, you 
 
    | Field | Action |
    |--------|-------------|
-   | Search Criteria | select the field that you want to search the values of. For this example, select **[!UICONTROL Name]**. |
-   | Basic Operators | select [!UICONTROL Contains (case insensitive)] |
-   | Text box | enter a word or phrase that you know is in the name of the project you are searching for. |
+   | Search criteria fields | Select the field that you want to search the values of. For this example, select **[!UICONTROL Name]**. |
+   | Search criteria | In the first drop-down menu, select **[!UICONTROL Name]**. |
+   | Basic Operators | In the second drop-down, select [!UICONTROL Contains (case insensitive)]. This allows the module to find projects with your chosen words in its name, even if you do not enter the entire name, or enter the name with the incorrect case (such as all caps). |
+   | Text box | Enter a word or phrase that you know is in the name of the project you are searching for. |
 
-   1. In the [!UICONTROL Search Criteria] box, select the field that you want to search the values of. For this example, select **[!UICONTROL Name]**.
-   1. For the operator, select [!UICONTROL Contains (case insensitive)]. This allows the module to find projects with your chosen words in its name, even if you do not enter the entire name, or enter the name with the incorrect case (such as all caps).
-   1. In the last field under [!UICONTROL Search Criteria], enter a word or phrase that you know is in the name of the project you are searching for.
+   +++ Expand to view an on-screen example.
+   ![](assets/search-name.png)
+   +++
 
 1. In the **[!UICONTROL Outputs]** list, select the fields that you want the module to output. For this example, select the **[!UICONTROL ID]** and **[!UICONTROL Name]** fields.
 
@@ -151,7 +152,7 @@ After you connect [!DNL Workfront Fusion] to your [!DNL Workfront] account, you 
 
    >[!NOTE]
    >
-   >(Information only) Since this is not a trigger module, you do not choose where to start it. When using a trigger module, you would now select where to start it.
+   >Since this is not a trigger module, you do not choose where to start it. When using a trigger module, you would now select where to start it.
    >
    >
    >For more information, see [Choose where a trigger module starts in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/choose-where-trigger-module-starts.md).
@@ -168,8 +169,7 @@ After you connect [!DNL Workfront Fusion] to your [!DNL Workfront] account, you 
 
 1. Click the partial circle to the right of the of the module to **[!UICONTROL Add another module]**.
 1. Select [!DNL Workfront] from the list of applications, then choose the search module **[!UICONTROL Read Related Records]**.
-1. You already created a connection to [!DNL Workfront] for the previous module. You don't need to create it again here, but you must make sure this module is using the same connection as the previous module.\
-   In the **[!UICONTROL Connection]** box, select the connection that you created for the previous module.
+1. In the **[!UICONTROL Connection]** box, select the connection that you created for the previous module. You must make sure this module is using the same connection as the previous module.
 1. Click **[!UICONTROL Record type]**, then select **[!UICONTROL Project]**, because we want to read records related to a project.
 
    >[!TIP]
