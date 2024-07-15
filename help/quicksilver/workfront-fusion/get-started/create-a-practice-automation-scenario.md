@@ -183,7 +183,7 @@ After you connect [!DNL Workfront Fusion] to your [!DNL Workfront] account, you 
    ![](assets/list-of-available-variables-wf-350x368.png)
 
 1. Click the variable **[!UICONTROL ID]** to add it to the **[!UICONTROL Parent Record ID]** field. This allows the ID returned from the first module to be used as the identifier for the project that you want to work with in the second module, which ensures that the tasks returned will belong to that project.
-1. In the **[!UICONTROL Collections]** field, select **[!UICONTROL Tasks]**. This indicates that the module is to return tasks associated with the chosen project.
+1. In the **[!UICONTROL Outputs]** field, select **[!UICONTROL Tasks]**. This indicates that the module is to return tasks associated with the chosen project.
 1. Click **[!UICONTROL OK]**
 
    Now you have a working scenario.
