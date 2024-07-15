@@ -150,10 +150,6 @@ You must have the following access to perform the steps in this article:
     
         * A linked record field is created on the record type you're connecting from. No linked record field is automatically created on the other application's object type. 
         
-        * A new Workfront Planning read-only record type is created for the other application's object only when actual objects are connected to Workfront Planning records.  
-
-            For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
-
         * Planning records fields are not accessible from Workfront objects.
         * Planning record fields are accessible from Experience Manager assets when your Workfront administrator configures the metadata mapping through the integration between Workfront and Adobe Experience Manager Assets. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
     
@@ -268,7 +264,15 @@ You must have the following access to perform the steps in this article:
     
 1. (Optional) Click **Skip** to skip adding fields from the linked record or object type. The **Name** or the **Title** of the linked record is the only visible field in the table view of the record type you connect from. 
 
-1. (Optional and conditional) If you select to link a number, currency, percentage, or date-type field, also select an aggregator value. The values for the linked fields display either separated by commas or as a aggregated value according to the aggregator you choose, when users select more than one linked record in the linked record field. 
+1. (Optional and conditional) If you select to link a number, currency, percentage, or date-type field, also select an aggregator value to summarize multiple values. The values for the linked fields display either separated by commas or as a summarized value according to the aggregator you choose, when users select more than one linked record in the linked record field. 
+
+    If the lookup field contains multiple values that are not summarized, consider the following when using the field in sorting or grouping in a view:  
+
+    * The sorting is done by the first value 
+
+    * Records are grouped by each unique combination of field values 
+
+    * The timeline view is built based on the first date value. 
 
     >[!IMPORTANT]
     >
