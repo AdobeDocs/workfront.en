@@ -86,9 +86,10 @@ You must have the following access to perform the steps in this article:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>Any</p> 
+   <p>New: Standard</p>
+   <p>Current: Plan</p> 
   </td>
   </tr>
   
@@ -114,6 +115,8 @@ You must have the following access to perform the steps in this article:
 
  </tbody>
 </table>
+
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -279,19 +282,13 @@ After you created a connection between a record type and a Workfront object type
      
 1. (Optional) Click the name of a Workfront object connected to a Workfront Planning record either in the linked field of a table view or from the linked field in the record page.
 
-    This opens the read-only Workfront Planning record page for the linked Workfront object. The fields you selected as lookup fields when you connected the record type with the Workfront object display in the Workfront Planning record page. 
+    This opens the Workfront object in Workfront, if you have at least View permissions to the object. 
 
    >[!TIP]
    >
    >* When you enable the Allow multiple records setting, the values of the lookup fields are either displayed separated by commas or are aggregated according to the aggregator you chose.
    >
    >* A linked record field is not created for the linked Workfront objects in Workfront.
-
-1. (Optional) To open the linked Workfront object in Workfront, click **Go to source** in the upper-right corner of the Workfront object's record page. 
-
-    ![](assets/workfront-project-maestro-details-page-with-go-to-source-link.png)
-
-    This opens the Workfront object page, if you have at least View permissions to view the object. You can edit information about the Workfront object, if you have permissions to do so. 
 
 1. (Optional) From the table view of the record type, hover over the column header of the linked Workfront object, and click the drop-down menu, then click **Edit lookup fields**.
 
@@ -382,7 +379,7 @@ After you create a connection between a record type and Adobe Experience Manager
     * Date created
     * Date modified 
 
-1. (Optional) To open the Experience Manager assets record page in Experience Manager, go to the record type page of the record you are linking from, click the name of an asset in the linked record field to open the pop-up window, then click the **Open** icon ![](assets/open-asset-icon.png) to open the asset. 
+1. (Optional) To open the Experience Manager assets record page in Experience Manager, go to the record type page of the record you are linking from, click the name of an asset in the linked record field to open the pop-up window, then click the **Open in AEM** icon ![](assets/open-asset-icon.png) to open the asset. 
 
    This opens the Experience Manager asset in Adobe Experience Manager Assets.  
 

@@ -11,6 +11,8 @@ exl-id: c687c4a8-a99d-4ac0-b785-5bfe503a7e2c
 ---
 # Add display logic and skip logic to a custom form with the legacy form builder
 
+{{form-designer-default}}
+
 You can decide which sections of a custom form should be displayed or skipped based on the choices that a user makes when filling it out.
 
 >[!NOTE]

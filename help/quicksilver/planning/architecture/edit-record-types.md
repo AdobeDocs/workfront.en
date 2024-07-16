@@ -95,7 +95,7 @@ You must have the following access to perform the steps in this article:
 
     Or
 
-    From a workspace, expand the downward-pointing arrow to the right of an existing workspace name and select the workspace whose record types you want to edit.
+    From a workspace, expand the downward-pointing arrow to the right of an existing workspace name, search for a workspace, then select it when it displays in the list.
 
     The workspace opens and the record types display. 
 1. Hover over the card of a record type and click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the record type card, then click **Edit**. 
@@ -124,4 +124,4 @@ You must have the following access to perform the steps in this article:
     
     <!--check this screen shot - not sure this is valid ???-->
 
-1. (Optional) Expand the downward-pointing arrow to the right of a record type name and select another record type to edit. 
+1. (Optional) To edit another record type, expand the downward-pointing arrow to the right of a record type name, search for a record type, then select it when it displays in the list. 

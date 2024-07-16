@@ -1,6 +1,6 @@
 ---
 title: 'Adobe Workfront Planning FAQs'
-description: As a marketing operations leader, you can use Adobe Workfront Planning to organize work across the marketing lifecycle for all your teams. These are some frequently-asked questions about Workfront Planning. 
+description: As a marketing operations leader, you can use Adobe Workfront Planning to organize work across the marketing lifecycle for all your teams. This article contains some of the frequently asked questions about Workfront Planning. 
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -8,11 +8,13 @@ recommendations: noDisplay, noCatalog
 
 # Adobe Workfront Planning FAQs
 
+{{planning-important-intro}}
+
 <!-- add to TOC and mini TOC-->
 
-This article contains a list of the most commonly-asked questions about Adobe Workfront Planning. 
+This article contains a list of the most commonly asked questions about Adobe Workfront Planning. 
 
-For more information about the Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md). 
+For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md). 
 
 ## What is Workfront Planning? 
 
@@ -22,146 +24,171 @@ Formerly called Project Maestro, Workfront Planning is a new capability that ena
 
 The Workfront Planning module is one of three distinct but connected Workfront capabilities that together create a marketing system of record. The three capabilities are:  
 
-* Planning: The new advanced capabilities included in Workfront Planning. 
+* **Planning**: The new advanced capabilities included in Workfront Planning. 
 
-* Workflow: The collaborative work management capabilities that you use today in Workfront (project management, resource management, etc.).  
+* **Workflow**: The collaborative work management capabilities that you use today in Workfront (project management, resource management, etc.)  
 
-* Automation and integration: The comprehensive integration and automation capabilities powered by Workfront Fusion. 
+* **Automation and integration**: The comprehensive integration and automation capabilities powered by Workfront Fusion. 
 
 ## When will Workfront Planning be released? 
 
-The latest planned Workfront Planning  release to the general audience is August 28th, 2024. For up-to-date information about what features are currently released, see [Adobe Workfront Planning release activity](/help/quicksilver/planning/general/release-activity.md).  
+The latest Workfront Planning release to general availability is planned for August 28, 2024. For up-to-date information about what features are currently releasing, see [Adobe Workfront Planning current release activity](/help/quicksilver/planning/general/release-activity.md).  
 
-<!-- To verify this: are we even saying "Beta"? - What happens after the beta program concludes? 
+## What happens after the early stage of Workfront Planning concludes? 
 
-Beta participants that want to leverage Planning in production will be able to purchase it at the GA date. We encourage you to reach out to your sales rep to discuss further details. The environment used for the beta program is not in production and will not be migrated. The data stored in the beta environment will be available until December 2024. -->
-
+Customers who participated in the beta and early stage phases for Workfront Planning will be able to purchase Workfront Planning starting with August 28, 2024. We encourage you to reach out to your account manager to discuss further details.  
  
+## The process of brief creation (AI use of pulling in various documents to dynamically create a brief). Is that part of the beta? 
 
-CUSTOMER QUESTIONS – SESSION #1 6/13 
+This feature will be available soon. 
 
- 
+## Do we have to migrate to IMS? 
 
-The process of the brief creation (AI use of pulling in various documents to dynamically create a brief). Is that part of the beta? 
+Yes. Customers who want to purchase Workfront Planning will have to migrate to the Adobe Unified Experience/ Adobe Business Platform. For more information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md). 
 
-We expect that this feature is being able to be tested. 
+## Can you provide examples of different workspaces? 
 
-Do we have to be migrated to IMS? 
+You can have workspaces at different levels of your organization. Because of the flexibility of the system, having workspaces at various levels can serve multiple purposes at a team or personal level. You can have workspaces built for a team, a department, or a group in your organization. Users might choose to create their own workspace where they can track personal tasks. 
 
-Yes, customers who want to purchase Planning will have to be migrated to the ABP. 
+The primary use case for a workspace is to be a larger, centralized space for an organization. 
 
-Can you provide examples of different workspaces? 
+Workspaces can be shared with groups or individual users. 
 
-You can have workspaces at different levels, and because of the flexibility of the system, that can be really serve multiple purposes at a team and personal level. Primary use case are larger centralized workspaces for organizations. Some specific examples of workspaces are: ….. 
+<!--## Can workspaces share funding accounts? -->
 
-Can workspaces share funding accounts? 
+## Can workspaces talk to each other? Or would information have to be entered in each workspace? 
 
-Can workspaces talk to each other? Or would information have to be entered in each workspace? 
+As of June 2024, workspaces cannot connect to each other. This functionality, however, is planned for a future release. 
 
-In its current state, are there are any soft limits on # of workspaces that can be set-up (ie. performance degrades after this point)? Any hard limits on the # of workspace that can be set-up (ie. the system will not allow more than this #)? 
+## Are there any soft or hard limits on the number of workspaces allowed in one organization? 
 
-Up to 1,000 workspaces in your organization's Workfront instance. Link to docs: https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/create-workspaces 
+You can have up to 1,000 workspaces in your organization's Workfront instance. For more information about limits, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
 
-Can current objects in the system be plugged in or does this have all have to be manually built? 
+## Can current objects in the Workfront system be available in Planning, or does this have to be manually built? 
 
-You can create connections between a Planning record types with WF portfolios, programs, projects, groups and companies. Once you establish a connection, for example with WF projects, you can link for records in the Planning table with WF projects. This means that WF objects will be still created and managed in Workfront, but you can align them with Planning records. You have some documenation here: https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/connect-record-types  and we are also planning to have a feedback session about Connections! 
+You can create connections between a Planning record type and Workfront portfolios, programs, projects, groups, and companies. 
 
-From testing I have noticed if you add lots of records they become hard to distinguish between each other when not in the Table View. Is there a way to make records different colours? It would be good if you could make them configurable by colour, that way they would stand out from each other more in the Timeline and Calendar views. 
+Once you establish a connection, for example with Workfront projects, you can connect records in Planning with Workfront projects. 
 
-Are the people Workfront people or IMS people? 
+This means that you must continue to create and manage Workfront projects in Workfront, but you can align them with Planning records, like campaigns, in Workfront Planning. 
 
-Workfront Instance 
+For more information about connecting record types with Workfront object types, and records with Workfront objects, see the following articles: 
 
-Can these lists be linked to multiple workspaces? 
+* [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md)
+* [Connect records](/help/quicksilver/planning/records/connect-records.md)
 
-We have plans to link record types between Workspaces! Not ready yet. 
+We are also planning to have feedback sessions about connections.  
 
-Are custom fields you add locked to the record type they were created under? 
+## After you add lots of records, they become hard to distinguish between each other when not in the table view. Is there a way to make records display in different colors? 
 
-It isn't allowing me to make a connection with the Start/End Date fields that are default. Should I add a new one if I want to connect to a field that already exists? 
+As of June 2024, records are not configurable by color in any of the available views: table, timeline, or calendar view. However, you can add a thumbnail image to each record which might help identify them easier. 
 
-Any plans for true external lookup style fields as a field type in Planning? 
+## Are the users in Planning coming from Workfront or from the Adobe Admin Console (IMS)? 
 
-Any plans to just have the fields "Created" "Created by" "Modified" and "Modified by" by default in records - seems like a consumption for fields to have to add it if we want to track records? 
+Workfront Planning users are Workfront users. 
 
-Since the module links through to live objects in WF, will they be affected by the Planning beta's activities? 
+## Can the lists for each record type be linked between record types in multiple workspaces? 
 
-Are we going to be getting updates for the changes putting into Fusion or is that something that is managed separately? 
+Connecting record types between different Workspaces will come at a later date. 
 
-Is there plans to integrate with Canvas Dashboards? How to report data? 
+## Are custom fields that you add locked to the record type they were created under? 
 
-Soon available Dashboard Canvas soon will be available to visualize Planning data 
+For now, record fields are unique to the record under which they were created. You can reference fields from other records when you connect record types. You cannot use the same field you created for a record type in another record type, even if they are in the same workspace. You cannot reference fields from records that are not in the same workspace, because you cannot connect record types from different workspaces, for now. 
 
-Will we be able to create workspace templates? 
+<!--## It isn't allowing me to make a connection with the Start/End Date fields that are default. Should I add a new one if I want to connect to a field that already exists? -->
 
-Is this Taxonomy / Record structure ONLY available if you purchase Planning?  A taxonomy structure would be beneficial for standard Workfront users too 
+<!--## Any plans for true external lookup style fields as a field type in Planning? -->
 
-Will admins be able to create our own templates? 
+<!-- ## Any plans to just have the fields "Created" "Created by" "Modified" and "Modified by" by default in records - seems like a consumption for fields to have to add it if we want to track records? -->
 
-Not during the beta. 
+<!--## Since the module links through to live objects in WF, will they be affected by the Planning beta's activities? -->
 
-Do you all have an ERD documented and available to share for the planning model and record types? Not an ERD at this point, but we have granular help articles that guide you through the process of creating and connecting record types: https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/overview-of-record-types https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-planning/adobe-workfront-planning-architecture/connect-record-types 
+<!--## Are we going to be getting updates for the changes putting into Fusion or is that something that is managed separately? -->
 
-So its one time (Annual pricing) to avail PLANNING, and there on we can add as many users as required? or we get charged per User ? 
+## Are there plans to integrate with Canvas Dashboards? How else can we report on Workfront Planning data? 
 
-Planning is a paid offering that has a target GA date August 28th, the time at which you will have to purchase Planning in order to be able to enjoy it in Production. Please work with your sales rep to get more details. 
+We are planning to have Canvas Dashboards available to visualize Planning data soon. 
 
-Is AI Enablement only available to WF System Administrators OR can it be enabled on specific Access Levels OR can it be enabled for ONLY specific users (1 or 2)? 
+<!--## Will we be able to create workspace templates? -->
 
-At first, only Primary System admins have access so they can configure through Access Levles who in their org will get access. After June 21st, we will enable AI to the rest of the org and they will have access or not depending on the configuration defined by the System Admin. 
+<!--## Is this Taxonomy / Record structure ONLY available if you purchase Planning?  A taxonomy structure would be beneficial for standard Workfront users too -->
 
-Where do the FIELDS created here live? Can existing FIELDS be brought in from those we hve created for other objects? Are they separate from other fields created? 
+## Will Workfront administrators be able to create their own templates? 
 
-Currently the fields live within the record type they're created in, but we have a high priority initiative for H2 '24 to bring together the Planning and Workfront fields in a centralized field library. 
+Not during the early access stage. 
 
-Will we be able to create reports based on the records/fields we create in planning? 
+## Do you have an ERD documented and available to share for the Planning model and record types? 
 
-Yes! Coming soon, through Dashbaord Canvas 
+We don't have an ERD at this point, but we do have in-depth documentation that guides you through all the details related to Workfront Planning. For information, see [Adobe Workfront Planning: article index](/help/quicksilver/planning/planning-information.md). 
 
-Will we be able to pull this data using the API as well? 
+## How is the pricing for Workfront Planning structured: is it a one-time annual fee? Or do we get charged per user? 
 
-Yes! We have API already available and Fusion connector. 
+Planning is a paid offering in addition to your Workfront license. Planning will be available for purchase on August 28, 2024. At that time, you will have to purchase Planning to be able to continue using it in Production. Please work with your account manager to get more details.
 
-From a Marketing Workspace - is it best to have one master Workspace to use for a Global Marketing team OR is it best to have individual Workspaces for each Business Line, Country, Brand, etc. i saw that we're able to have up to 1000 Workspaces and potentially connect Workspaces. is it possible to link records btwn workspaces? Use case would be - allow each product their own workspace, but with shared record types. And then would want to see a shared view that combines everything. 
+## Is the AI Assistant only available to Workfront system administrators, or can it be enabled for specific access levels or only for specific users? 
 
-Can we bring in Portfolio and Program to the Campaigns? That in turn brings in projects? 
+The AI Assistant is currently available in beta and it can be enabled for your environment when you make a special request to your account manager. After the request is approved and the AI Assistant (beta) is enabled in your environment, everyone in the environment can use the AI Assistant in all areas of Workfront, including Planning. Workfront administrators must add Planning to all users' layout templates and they can disable the AI Assistant for users, as well, in their access levels. 
 
-Will it be possible to link projects to records in a workspace upon project creation, without having to go to the workspace to link it? 
+## Where do the fields created here live? Can existing fields we have created for other objects be brought in? Are they separate from other fields created elsewhere? 
 
-Currently we have Planning section within projects that display any connection records from Planning record types. You can add or remove records from those connections. We will also soon add the ability to link to records in any other Planning record types, even if that connection currently doesn't have any linked records. 
+Currently the fields live on the record type that they're created from. They are not available for other record types, or for Workfront objects. Workfront fields are not available in Planning, either. We have an initiative on our roadmap to bring together the Planning and Workfront fields in a centralized field library. 
 
-I'm understanding eventually we will be able to intake information/data from someone outside our organization. When will this feature be made available in beta? 
+## Will we be able to create reports based on the records and fields that we create in Planning? 
+
+Yes. Coming soon, we will be able to report on Planning information using Canvas Dashboards. 
+
+## Will we be able to pull Planning data using the API as well? 
+
+Yes. We have a Planning API already available as well as a Fusion connector. For information, see [Adobe Workfront Planning modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md). Documentation for the Workfront Planning API will be available soon. 
+
+<!--From a Marketing Workspace - is it best to have one master Workspace to use for a Global Marketing team OR is it best to have individual Workspaces for each Business Line, Country, Brand, etc. i saw that we're able to have up to 1000 Workspaces and potentially connect Workspaces. is it possible to link records btwn workspaces? Use case would be - allow each product their own workspace, but with shared record types. And then would want to see a shared view that combines everything. -->
+
+## Can we bring in Portfolio and Program to Campaigns? That in turn brings in projects? 
+
+Yes, you can connect Workfront Planning campaigns with Workfront portfolios and programs. However, projects are not added when you connect portfolios and programs. You must connect record types to portfolios, programs, and projects as separate objects. 
+
+## Will it be possible to link projects to records in a workspace upon project creation, without having to go to the workspace to link it? 
+
+Currently we have the Planning section within projects that displays any connected records from the Planning record types connected to project objects. You can add or remove additional records from the Planning section. Soon, we will also add the ability to link to records of any other Planning record types, even when that connection doesn't have any linked records. But you must link the record type to the Workfront object type (project) to connect actual records to projects from Workfront. 
+
+<!--I'm understanding eventually we will be able to intake information/data from someone outside our organization. When will this feature be made available in beta? 
 
 Can the workspace be used for resource and capacity planning by job role across a campaign? 
 
-We will be able to link a Workspace record to start a request? 
+We will be able to link a Workspace record to start a request? -->
 
-OFFICE HOURS 6/18 
+## Can you link dates from connected Workfront data? Is that currently active across all levels (projects, portfolios, program)? 
 
-The ability to link dates to connected Workfront data. Is that currently active across all levels (projects, portfolios, program,…)? 
+Yes, it is possible to connect project, program, or portfolio dates via lookups fields.  
 
-Yes, it is possible to connect projects via lookups fields.  
+<!-- ******************not sure about the answer here: 
 
-How do I know there are public view ready to view? 
+## How do I know there are public view ready to view? 
 
-Public views that are shared are visible  
+Public views that are shared are visible  -->
 
-How do you share a view internally? 
+## How do you share a view internally? 
 
-Every time you create a new workspace do you have to re-share views? 
+For information about sharing views, see [Share views](/help/quicksilver/planning/access/share-views.md). 
 
-Yes, every time you create a new workspace so it is a new record type.. Views are specific to record types, and therefore you will have to re-share. 
+## Every time you create a workspace do you have to re-share views? 
 
-Can thumbnails be from the content? i.e. Set the thumbnail to the .pdf or video. We work with creative people and to have a thumbnail view that is selectable would be a great way to keep teams engaged in those higher-level meetings where they will discuss our Content Map – a link to the content directly would be great too. 
+Yes, every time you create a workspace you also create record types. Views are specific to record types, and therefore you will have to re-share the views. 
 
-Can you customize the permissions beyond what the base is? Currently with other Workfront objects you can customize what contribute/manage/view access can do. 
+Views are shared separately from workspaces. You must share the workspace so users can access the record types, and the views so users can access the records' fields. 
 
-Currently we only have Workspce and View level permissions, but not record type or individual record level permissions.  
+<!--Can thumbnails be from the content? i.e. Set the thumbnail to the .pdf or video. We work with creative people and to have a thumbnail view that is selectable would be a great way to keep teams engaged in those higher-level meetings where they will discuss our Content Map – a link to the content directly would be great too. -->
 
-Are we able to customize Workspace icons similar to how we can customize thumbnails? 
+## Can you customize the permissions beyond what the base is? Currently with other Workfront objects you can customize what Contribute/Manage/View permissions can do. 
 
-Will there be customizable APIs to use our own DAM instead of Adobe's DAM?  
+Not at this time. For information about what each permission allows, see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). 
 
-We have build a public API for Planning and we also have the Fusion connector. The API documentation will be published, and that could be utilized to build connections. 
+Currently we only have workspace- and view-level permissions, but not record type- or individual record-level permissions. Record types and records inherit permissions from the workspace they belong to. 
 
-I see value in Planning (employees using Airtable). Up until now we've been .. curious backend connection after x that will tie back to ~10.47am 
+## Are we able to customize Workspace icons similar to how we can customize thumbnails? 
+
+No. 
+
+## Will there be customizable APIs to use our own DAM instead of Adobe's DAM?  
+
+We have a Planning API already available as well as a Fusion connector. For information, see [Adobe Workfront Planning modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md). Documentation for the Workfront Planning API will be available soon. You can use the API to build custom integrations.

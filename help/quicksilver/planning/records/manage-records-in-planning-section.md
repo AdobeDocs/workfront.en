@@ -72,7 +72,7 @@ You must have the following access to perform the steps in this article:
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
    <td> <p>In Workfront, View or higher permissions to a project, portfolio, or program</a> </p> 
-   <p>In Workfront Planning, View or higher permissions to a workspace</a> </p>  
+   <p>In Workfront Planning, Contribute or higher permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all Workfront Planning workspaces, including the ones they did not create</p>
 </td>
   </tr>
@@ -97,7 +97,6 @@ You must have the following access to perform the steps in this article:
    * [Connect records](/help/quicksilver/planning/records/connect-records.md)
 * You can view the Planning section in a Workfront object, even when there are no records associated with the Workfront object.  
 * You can connect Planning records with Workfront objects from Workfront, in the Planning section when there is at least one record connected to the Workfront object.
-* You must have Contribute or higher permissions to a workspace to connect records from the Workfront objects. 
 
 ## Manage records in the Planning section
 
@@ -108,12 +107,10 @@ You must have the following access to perform the steps in this article:
     The workspace opens and the record types display as cards. 
 
 1. Click the card of a record type that is connected to a Workfront project, portfolio, or program. 
-1. Choose a table view from the **View** drop-down menu.
-1. (Conditional) Go to the connected record field in the table and add a Workfront object, then click the name of the Workfront object in the field. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
-  The objects's page opens in Workfront Planning. 
-1. Click **Go to source**, in the upper-right corner of the screen. 
+1. Go to a connected record field that has a connection with a Workfront object, either in the table view or from a record's details page. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
+1. Click the name of a Workfront object in the connected record field.
+  The objects's page opens in Workfront.  
 
-   The object's page opens in Workfront. 
 1. Click **Planning** in the left panel. 
 
       >[!NOTE]
@@ -132,7 +129,7 @@ You must have the following access to perform the steps in this article:
 
 1. Click a record card to display more information about the record. The record preview box displays.
 1. (Optional) Start modifying fields in the record's preview box. Your changes are saved automatically.
-1. (Optional) Click the **Open in a new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview box to open the record's details page.
+1. (Optional) Click the **Open in a new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview box to open the record's details page. The record's details page opens in Workfront Planning. 
 1. Hover over a record card, then click the disconnect record icon **-**, then click **Disconnect**. 
    The following things occur: 
    * The record is no longer connected to the Workfront object. 
@@ -142,7 +139,7 @@ You must have the following access to perform the steps in this article:
 
    >[!NOTE]
    >
-   >   The Connect button displays only for the workspaces where you have Contribute permissions. 
+   >   The Connect button displays only for the workspaces where you have Contribute permissions. <!--they might replace this with one button at the top of the page. Rephrase-->
 
 1. Click the records you want to connect. The following things occur:
 

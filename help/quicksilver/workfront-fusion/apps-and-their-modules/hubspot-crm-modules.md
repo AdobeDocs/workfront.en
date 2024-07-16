@@ -56,6 +56,10 @@ To use [!DNL HubSpot CRM] modules, you must have a [!DNL HubSpot CRM] account.
 
 For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see [Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
+>[!NOTE]
+>
+>When configuring a connection, select the **HubSpot CRM** connection type. The HubSpot CRM (Deprecated) type supports existing connections, but we do not recommend using it to create new connections.
+
 ## [!DNL HubSpot CRM] modules and their fields
 
 When you configure [!DNL Hubspot CRM] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Hubspot CRM] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.

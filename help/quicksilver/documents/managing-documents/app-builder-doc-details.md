@@ -77,7 +77,7 @@ If AppBuilder is configured properly, you should see "Create project from templa
     >There is an option to add additional workspaces on this step. It was suggested to us that we create a workspace for each developer. This keeps secrets and deployments separate from each other as devs work. You should name the workspace with the name of the developer using it. The AIO cli has options for switching the workspace, which we'll cover later.
 
 
-1. Leave **Include runtime** selected. I don't know why, really, but don't change it!
+1. Leave **Include runtime** selected.
 
 1. Click **Save**.
 

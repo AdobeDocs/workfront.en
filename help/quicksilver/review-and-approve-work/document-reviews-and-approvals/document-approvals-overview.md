@@ -1,15 +1,15 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: New Document Approvals overview
+title: New document approvals overview
 description: You can add additional approvers or reviewers to a document that already has pending approvals.
-author: Nolan
+author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
 ---
-# New Document Approvals overview
+# New document approvals overview
 
-New Document Approvals is a wholistic redesign of the existing approvals process that is currently in development for Adobe Workfront. Currently available in limited release, it is designed to be a practical and effective solution for businesses requiring comprehensive stakeholder engagement and version-specific document approvals. Its thoughtful design and purposeful new features facilitate collaboration, role clarity, and version control in the approval process, enhancing efficiency and accountability.
+New document approvals is a wholistic redesign of the existing approvals process that is currently in development for Adobe Workfront. Currently available in limited release, it is designed to be a practical and effective solution for businesses requiring comprehensive stakeholder engagement and version-specific document approvals. Its thoughtful design and purposeful new features facilitate collaboration, role clarity, and version control in the approval process, enhancing efficiency and accountability.
 
 Continue reading below for more information on planned features and releases for New Document Approvals. 
 
@@ -35,19 +35,15 @@ Continue reading below for more information on planned features and releases for
 
 ## Release plan
 
-We are making New Document Approvals available to users over the course of several releases. In addition to adding new features, we will also expand the number of accounts for which New Document Approvals are available with each release. Account administrators will receive an Announcement Center email informing them of the change prior to being included.
+We are making New Document Approvals available to users over the course of several releases. In addition to adding new features, we will also expand the number of accounts for which New Document Approvals are available with each release.
 
 If you would like to have New Document Approvals enabled in you production environment, please reach out to your Customer Success or Strategic Account Manager.
 
-**Release 1**\
-    Preview: May 31st, 2023\
-    Production: June 14th, 2023
-
 ## Using New Document Approvals
 
-For users looking to create or manage document approvals, see the articles listed in [Approve documents: article index](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md)
+For users looking to create or manage document approvals, see the articles listed in [Set up and manage asset and document approvals: article index](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
 
-For users looking to review or approve documents for which they have received a request, see the articles listed in [Review documents: article index](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
+For users looking to review or approve documents for which they have received a request, see the articles listed in [Approve and review documents: article index](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md).
 
 >[!IMPORTANT]
 >

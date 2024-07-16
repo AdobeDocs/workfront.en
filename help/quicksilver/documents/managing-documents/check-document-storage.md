@@ -36,8 +36,10 @@ You must have the following:
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 1. In the left panel, click **System** > **Customer Info**.
-1. In the **Basic Info** section, find **Storage Quota**. Here, you can view how much storage you're currently using as well as the total amount storage your Workfront Plan includes.
+1. In the **Basic Info** section, find **Storage Quota**. Here, you can view how much storage you're currently using as well as the total amount storage your Workfront Plan includes. 
+
+The storage quota is refreshed daily to show the most up-to-date count.
 
    >[!NOTE]
    >
-   >This limit does not apply to documents you link to&nbsp;Workfront from any other third-party service provider (SharePoint, Google Drive, Webdam, Box, Dropbox, any other Document Asset Management provider).
+   >This limit does not apply to documents you link to Workfront from any other third-party service provider (SharePoint, Google Drive, Webdam, Box, Dropbox, any other Document Asset Management provider).
