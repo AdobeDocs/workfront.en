@@ -60,7 +60,7 @@ As the scenario begins, the first module responds to an event it has been set to
 
 If the bundles process correctly throughout all of the modules, the scenario is marked as a success in the scenario detail area, as explained in [Scenario details in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-detail.md).
 
-* For more information on setting up a scenario, see [Basic scenario settings in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/basic-scenario-settings.md).
+* For more information on setting up a scenario, see [The scenario editor in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md).
 * For more information on activating a scenario, see [Activate or deactivate a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md).
 * For more information on scheduling a scenario, see [Schedule a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).
 * For more information on modules, see [Types of modules](../../workfront-fusion/modules/module-types.md).
