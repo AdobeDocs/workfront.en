@@ -65,7 +65,6 @@ Rollback is a top priority, and is currently in development. We expect to releas
 
 
 * "Use existing" is essentially the same as "skipping" or ignoring the deployment, because it just maps over to the existing object in the target environment, and does not make any changes.
-* We may introduce functionality in the future to selectively skip object creation but
-* To skip objects, We recommend removing
+* To skip objects, we recommend removing
 any objects that you don't want to install from the promotion package, or from the source environment directly. After removing the objects, reassemble the package.
 
