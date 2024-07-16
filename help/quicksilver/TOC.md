@@ -1957,7 +1957,7 @@ feature-set: Workfront
   * Create and manage timesheets {#create-and-manage-timesheets-in-adobe-workfront}
     * [Create and manage timesheets: article index](timesheets/create-and-manage-timesheets/create-and-manage-timesheets.md)
     * [Create, edit, and assign timesheet profiles](timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
-    * [Define hour types and availability for timesheets](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
+    * [Define hour types and availability](timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
     * [Create a single-use timesheet](timesheets/create-and-manage-timesheets/create-tmshts.md)
     * [Edit timesheet information](timesheets/create-and-manage-timesheets/edit-timesheets.md)
     * [Log time](timesheets/create-and-manage-timesheets/log-time.md)
@@ -2383,7 +2383,7 @@ feature-set: Workfront
     * [Turn Google Workspace emails into Adobe Workfront objects and updates](workfront-integrations-and-apps/workfront-for-g-suite/turn-gsuite-emails-into-wf-objects-and-updates.md)
     * [Create an Adobe Workfront task in Google Workspace using email content](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-task-in-gsuite-using-email-content.md)
     * [Create an Adobe Workfront issue in Google Workspace using email content](workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
-    * [Update an Adobe Workfront item from Google Workspace using email content](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
+    * [Update an Adobe Workfront item from G Suite using email content](workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
   * Adobe Workfront for Outlook {#workfront-for-outlook}
     * [Adobe Workfront for Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/workfront-for-outlook.md)
     * [Set up Adobe Workfront for Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
