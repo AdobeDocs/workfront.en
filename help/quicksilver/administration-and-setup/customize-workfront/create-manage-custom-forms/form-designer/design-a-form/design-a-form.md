@@ -72,7 +72,7 @@ For more detail about the information in this table, see [Access requirements in
     * [Reuse an existing field or widget already used in another custom form](#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
     * [Add text fields](#add-text-fields)
     * [Add calculated fields](#add-calculated-fields)
-    * [Add radio buttons, checkbox group, and dropdowns](#add-radio-buttons-checkboxes-and-dropdowns)
+    * [Add radio buttons, checkbox groups, and dropdowns](#add-radio-buttons-checkboxes-and-dropdowns)
     * [Add typeahead and date fields](#add-typeahead-and-date-fields)
     * [Add external lookup fields](#add-external-lookup-fields)
     * [Add images, PDFs, and Videos](#add-images-pdfs-and-videos)
@@ -240,9 +240,9 @@ To add a text field:
 
 To add a calculated field, see [Add calculated fields with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-### Add radio buttons, checkboxes, and dropdowns
+### Add radio buttons, checkbox groups, and dropdowns
 
- You can add radio buttons, checkboxes, dropdowns, and multi-select dropdowns to a custom form.
+ You can add radio buttons, checkbox groups, dropdowns, and multi-select dropdowns to a custom form.
 
 +++ **Expand to see descriptions of available fields**
 
@@ -257,7 +257,7 @@ To add a calculated field, see [Add calculated fields with the form designer](/h
 >
 >Fields that allow multiple selections, such as the Checkbox Group and Multi-Select Dropdown, are difficult to chart and group in reports. To allow easier charting and grouping in reports, you can create separate fields for each choice (for example, a single-line text field).
 
-To add radio buttons, checkboxes, and dropdowns:
+To add radio buttons, checkbox groups, and dropdowns:
 
 1. On the left side of the screen, find one of the following fields and drag it to a section on the canvas.
 
@@ -534,6 +534,7 @@ For examples of using the External Lookup field to call the same instance of Wor
 >
 >* External lookup functionality is not currently supported on Document custom forms.
 >* External lookup fields from custom forms are currently not supported in dashboards. You cannot edit the field value inline, and it may not display properly in a dashboard. (External lookup fields are supported in Canvas Dashboards.)
+>* External lookup fields are not supported in the Outlook plug-in.
 >* External lookup fields are available in lists, unless the field has a dependency on another field.
 
 To add an external lookup:

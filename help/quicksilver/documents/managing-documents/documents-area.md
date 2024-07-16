@@ -16,11 +16,19 @@ In the Documents area, you can organize, manage, and view metadata for documents
 
 There are two types of Documents areas. Features and functionality are the same for both:
 
-* **Documents area in a project, task, or issue:** Lists all documents that you have access to for a particular project, task, or issue. To access this area, click **Documents** ![](assets/document-icon-12x14.png) in the left panel while viewing a project, task, or issue.
+* **Documents area in a program, portfolio, project, task, or issue:** Lists all documents that you have access to for a particular project, task, or issue. To access this area, click **Documents** ![](assets/document-icon-12x14.png) in the left panel while viewing a project, task, or issue.
 
 * **Global Documents area:** Lists all documents that you have access to&nbsp;in Workfront. To access this area, click **Documents** ![](assets/document-icon.png) in the Main Menu ![](assets/main-menu-icon.png).
 
 For information about uploading documents to Workfront, see [Add documents to Adobe Workfront from your file system](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
+
+
+The documents area records a count of the following items:
+
+* Workfront folders
+* Files uploaded from the file system
+* Files added to Workfront from integrations
+* Linked Experience Manager Assets
 
 ## Summary panel
 

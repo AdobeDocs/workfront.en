@@ -39,6 +39,12 @@ With the native Experience Manager integration, you can
 * Adobe Experience Manager Assets as a Cloud Service
 * Adobe Experience Manager Assets Essentials
 
+## Supported cloud service providers
+
+* AWS (Amazon Web Services)
+* Azure
+* GCP (Google Cloud Platform)
+
 
 ## Get started
 

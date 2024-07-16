@@ -10,7 +10,41 @@ exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
 ---
 # Enable or disable AI Assistant
 
+>[!IMPORTANT]
+>
+>Currently, AI Assistant is available to a limited number of Workfront and Workfront Planning customers. 
+>
+>* Workfront: AI Assistant beta
+>* Workfront Planning: Early access
+>
+>Your account representative can inform you if you are part either of these groups.
+
 As a Workfront Administrator, you can control which users in your organization have AI Assistant enabled. This is managed through access levels.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>New: Standard</p>
+       <p>or</p>
+       <p>Current: Plan</p></td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+## Enable or disable AI Assistant in Workfront
 
 AI Assistant is enabled by default. 
 

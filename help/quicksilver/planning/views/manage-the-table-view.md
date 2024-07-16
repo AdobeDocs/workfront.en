@@ -30,6 +30,8 @@ For information about record views and how to manage them, see [Manage record vi
 
 You must have the following access to perform the steps in this article: 
 
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -55,32 +57,36 @@ You must have the following access to perform the steps in this article:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>Any</p> 
-   <p>System administrators have access only the views they created or that are shared with them. </p>
+   <p>New: Standard</p>
+   Or
+   <p>Current: Plan </p> 
   </td>
   </tr>
   
   <tr>
-   <td role="rowheader">Access level configuration</td>
-   <td> <p>There are no access level controls for Adobe Workfornt planning</p>  
+   <td role="rowheader"><p>Access level configurations</p></td>
+   <td> There are no access controls for Adobe Workfront Planning</p>  
 </td>
   </tr>
 
   <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to the view</p>  
+   <td> <p>Manage permissions to a view</p>  
+   <p>View permissions to a view to temporarily change the view settings</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Manage a table view {#manage-a-table-view}
 
@@ -151,25 +157,7 @@ You can add up to 500 fields (or columns) in a table view.
 
     The field becomes a primary field which means it displays as the first column of the table view. The previous primary field moves to the second column.
 
-    >[!NOTE]
-    >
-    >   * Only fields of the following types can be primary fields: 
-    >
-    >       * Single-line text
-    >       * Number
-    >       * Formula
-    >
-    >   * The primary field is always frozen and cannot be moved or hidden. The primary field is frozen and is not part of the horizontal scroll. You can select another field to replace a primary field, if you need to move it to another position. 
-    >
-    >   * Changing the primary field in your table view affects the view for all other users who choose it.
-    >
-    >   * Changing the primary field in a table view affects all your table views. 
-    >
-    >   * You cannot delete or hide a primary field. 
-    >
-    >   * The value listed in the primary field is always hyperlinked to the record's page.
-    >
-    >   * Primary fields become the record's title and display in the record pages in the records' header area, and everywhere where the records display. For example, the record title displays in connected fields and all views.  
+    Primary fields become the record's title and display in the header area of the record's page, and everywhere where the records display. For example, the record title displays in connected fields and all views. For more information about primary fields, see [Primary field overview](/help/quicksilver/planning/fields/primary-field-overview.md). 
 
 1. Click and drag the column separation lines and drop them in the desired spot to increase the width of the columns. 
 
@@ -256,7 +244,9 @@ Consider the following when working with filters in the table view:
 
 * Adding filters to the table view is identical to adding filters to the timeline view. 
 
-* You can filter by connected record fields or lookup fields, but not for those fields that allow linking to multiple records.
+* You can filter by connected record fields or lookup fields. 
+
+* You can filter by lookup fields that display multiple values. 
 
 * You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a filter for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Budget in the filter you are creating for the Activity record type. 
 
@@ -368,7 +358,8 @@ Consider the following:
 * You cannot name the groupings you build for a table view.
 * Removing groupings removes them from anyone accessing the same record type as you and who displays the same view as you do. 
 * You can edit records listed under a grouping. 
-* You can group by connected record fields or lookup fields, but not for those fields that allow linking to multiple records.
+* You can group by connected record fields or lookup fields. 
+* When you group by lookup fields with multiple values (that have not been summarized by an aggregator), records are grouped by each unique combination of field values.  
 * You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a grouping for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Status in the grouping you are creating for the Activity record type. 
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
@@ -420,11 +411,11 @@ Consider the following when sorting records in the table view:
 
 * You can sort by as many fields as you see displayed in the table view of a record type.
 
-* Linked fields are sortable only if they allow single values, or if they allow multi-select values with the summarization option selected (sum, average, max, min).
+* You cannot sort by connected record fields, but you can sort by lookup fields from connected record types. 
+
+* When you sort by lookup fields with multiple values (that have not been summarized by an aggregator), the first value is used for sorting. 
 
 * Removing sorting criteria removes them from anyone accessing the same record type as you and uses the same view as you use.
-
-* You can sort by connected record fields or lookup fields, but not for those fields that allow linking to multiple records.
 
 * You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a sort for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Status in the sort you are creating for the Activity record type. 
 

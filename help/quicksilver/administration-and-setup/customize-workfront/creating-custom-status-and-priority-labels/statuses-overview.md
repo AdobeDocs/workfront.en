@@ -20,6 +20,17 @@ For example, in this project, the status Planning indicates that the project's m
 
 ![Sample project status](assets/statuses-overview.png)
 
+You must have the following access and permissions to a project, task, or issue to view their status: 
+
+* View or higher access in your access level to Projects, Tasks, and Issues 
+* View or higher permissions on the object
+
+You must have the following access and permissions to a project, task, or issue to manually change their status: 
+
+* Edit access in your access level to Projects, Tasks, and Issues 
+* Contribute or higher permissions on the task or issue
+* Manage permissions on the project. 
+
 Changing the status of a project, task, or issue is usually a manual process. However, there are times when the status of an issue is changed automatically, depending on other factors happening in the system.
 
 Adobe Workfront comes with 9 project statuses, 3 task statuses, and 10 issue statuses. For details about these, see the following articles:

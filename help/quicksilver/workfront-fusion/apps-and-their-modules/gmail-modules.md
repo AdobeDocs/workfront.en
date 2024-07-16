@@ -61,12 +61,12 @@ To use [!DNL Gmail] modules, you must have a [!DNL Gmail] account.
 
 ## Connect [!DNL Gmail] to [!DNL Workfront Fusion] {#connect-gmail-to-workfront-fusion}
 
-* [Connect [!DNL Gmail] to [!DNL Workfront Fusion] using [!DNL G Suite]](#connect-gmail-to-workfront-fusion-usingg-suite)
+* [Connect [!DNL Gmail] to [!DNL Workfront Fusion] using [!DNL Google Workspace]](#connect-gmail-to-workfront-fusion-usingg-suite)
 * [Connect [!DNL Gmail] to [!DNL Workfront Fusion] using [!DNL gmail.com] or [!DNL googlemail].com](#connect-gmail-to-workfront-fusion-using-gmailcom-or-googlemailcom)
 
-### Connect [!DNL Gmail] to [!DNL Workfront Fusion] using[!DNL  G Suite] {#connect-gmail-to-workfront-fusion-using-g-suite}
+### Connect [!DNL Gmail] to [!DNL Workfront Fusion] using[!DNL  Google Workspace] {#connect-gmail-to-workfront-fusion-using-g-suite}
 
-For instructions about connecting your [!DNL G Suite] account to [!UICONTROL Workfront Fusion], see [Connect the module's app or web service to [!DNL Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md#connect) in the article [Create a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+For instructions about connecting your [!DNL Google Workspace] account to [!UICONTROL Workfront Fusion], see [Connect the module's app or web service to [!DNL Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md#connect) in the article [Create a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 ### Connect [!DNL Gmail] to [!DNL Workfront Fusion] using [!DNL gmail.com] or [!DNL googlemail].com {#connect-gmail-to-workfront-fusion-using-gmail-com-or-googlemail-com}
 

@@ -13,6 +13,8 @@ You can send documents from Workfront to Experience Manager Assets or Assets Ess
 
 Assets sent to Experience Manager through this integration have a size limit of **5 GB**.
 
+In the Preview environment, Assets sent to Experience Manager through this integration have a size limit of **30 GB**.
+
 Metadata fields are first mapped when you send an asset from Workfront to Experience Manager Assets or Assets Essentials. Any metadata configured to map for parent objects is sent as well. For more information on configuring metadata mapping, see [Configure the Experience Manager Assets as a Cloud Service integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md) or [Configure the Experience Manager Assets Essentials integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md).
 
 >[!INFO]
@@ -21,7 +23,9 @@ Metadata fields are first mapped when you send an asset from Workfront to Experi
 
 ## Access requirements
 
-You must have the following:
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to complete the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -52,6 +56,8 @@ You must have the following:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
++++
 
 ## Prerequisites
 

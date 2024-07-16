@@ -172,6 +172,10 @@ This action module expands an image, optionally with content from a prompt you p
    <td>Enter or map a prompt for the content with which you want to expand the image. If no prompt is provided, the image will be expanded with content matching the original image.</td> 
   </tr> 
   <tr> 
+   <td role="rowheader">[!UICONTROL Number of variations]</td> 
+   <td>Enter a number between 1-4. The module will generate this number of expanded image variations.</td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">[!UICONTROL Expanded image format]</td> 
    <td>Select the file format that the expanded image will be saved as.</td> 
   </tr> 
@@ -209,6 +213,10 @@ This action module fills the masked area of an image, optionally with content fr
    <td>Enter or map a prompt for the content with which you want to fill the image. If no prompt is provided, the image will be filled with content matching the original image.</td> 
   </tr> 
   <tr> 
+   <td role="rowheader">[!UICONTROL Number of variations]</td> 
+   <td>Enter a number between 1-4. The module will generate this number of filled image variations.</td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">[!UICONTROL Filled image format]</td> 
    <td>Select the file format that the filled image will be saved as.</td> 
   </tr> 
@@ -227,8 +235,8 @@ This action module fills the masked area of an image, optionally with content fr
    <td>Select the size that you want the filled image to be.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Seed]</td> 
-   <td>Enter or map an integer. You can use this same seed in another Expand an image module to generate a similar image with different styles. </td> 
+   <td role="rowheader">[!UICONTROL Seeds]</td> 
+   <td>For each image that the module will generate, click <b>Add item<b> and enter or map an integer. You can use this same seed in another Expand an image module to generate a similar image with different styles. The number of seeds you add must be equal to the Number of variations field.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -248,6 +256,10 @@ This action module generates and image based on a prompt you provide. You can al
   <tr> 
    <td role="rowheader">[!UICONTROL Prompt]</td> 
    <td>Enter or map a prompt for the image you want to create. More detail in the prompt will allow you more control over what appears in the image.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Number of variations]</td> 
+   <td>Enter a number between 1-4. The module will generate this number of image variations.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Generated image format]</td> 

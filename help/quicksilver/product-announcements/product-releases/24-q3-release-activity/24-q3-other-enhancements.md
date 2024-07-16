@@ -12,12 +12,20 @@ This page describes enhancements made with the Third Quarter 2024 release to the
 
 For a list of all changes available at this point in the Third Quarter 2024 release cycle, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
+## Backend change to in-product guides
+
+>[!NOTE]
+>
+>Production for all customers: Incrementally through mid-August 2024
+
+We are implementing a technology change for our in-product guides over the next few weeks. While we've tried to minimize the impact of this transition, some users may encounter guides that they have previously seen.
+
 ## Adobe Unified Experience now available for more Workfront organizations
 
 >[!NOTE]
 >
 >* The Adobe Unified Shell is being made available in a phased rollout. Additional organizations will be onboarded to the Adobe Unified Shell with the 24.10 and 25.1 releases. 
->* Preview release: June 11, 2024; Production release for specified customers: With the 24.7 release (July 2024)
+>* Preview release: June 20, 2024; Production release for specified customers: With the 24.7 release (July 18, 2024)
 
 To allow organizations access to the benefits of the Adobe Unified Experience, we've begun making it available to existing Workfront customers. 
 
@@ -39,7 +47,7 @@ For more information, see [Adobe Unified Experience for Workfront](/help/quicksi
 
 >[!NOTE]
 >
->Preview release: June 6, 2024; Production for all customers: With the 24.7 release (July 2024)
+>Preview release: June 6, 2024; Production for all customers: With the 24.7 release (July 18, 2024)
 
 To unify the experience for users not on Unified Shell, the Help button on the main navigation bar has been removed. This button, which is not present for users on Unified Shell, linked to the Workfront documentation and was redundant with a similar Help button available for all users in the Main Menu.
 

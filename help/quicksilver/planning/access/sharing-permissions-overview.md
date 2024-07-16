@@ -35,20 +35,25 @@ You can share the following objects:
 
 * Views
 
+    You must give users, including system administrators, permissions to access views separately from their permissions to accessing workspaces. For information, see [Share views](/help/quicksilver/planning/access/share-views.md).
+
+You can share a workspace or a view with the following entities:
+
+* Users
+* Groups
+
+<!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
+
 ## Considerations about sharing objects in Adobe Workfront Planning
 
-* Your Adobe Workfront license type works in conjunction with your Workfront Planning permissions to give you access to view, contribute, or manage objects when using Workfront Planning.
+* Your Adobe Workfront license type works in conjunction with your Workfront Planning permissions to give you access to view, contribute, or manage workspaces and their objects.
 
     For information about how license types affect permission levels for Workfront Planning, see [License type overview when using Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
-* System administrators can manage and share workspaces that other users created. 
-* If you are not a System Administrator, you can contribute to workspaces created by others if they are shared with you. 
-* You cannot share workspaces or views in bulk. 
-* You can share a workspace or a view with the following entities:
-    * Users
-    * Groups
-<!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
-* Other users, including System Administrators, can only access views they created or that have been shared with them. System administrators can only be given permissions to Manage a view.
-* You can share a link to a workspace or to a view from a record type page with others. Users who receive the link must be active users and log in to Workfront to be able to access the workspace or the record type page displayed in the selected view. 
+* System administrators can manage all workspaces in the system, including the ones they did not create. 
+* Other users, including System Administrators, can only access views they created or that have been shared with them. System administrators can be given permissions only to Manage a view.
+* You can share a link to a workspace or to a view with others. 
+
+    Users who receive the link must be active users and log in to Workfront to be able to access the workspace or the record type page displayed in the selected view. 
 
 ## Sharing permissions for Adobe Workfront Planning objects
 
@@ -57,6 +62,10 @@ The tables in the following sections illustrate the level of permissions that yo
 >[!IMPORTANT]
 >
 >Not all users can have the permissions levels described below. Users' individual license determines which level of permissions they can receive for Workfront Planning objects. 
+>
+>Only Standard (or Plan) license users can have Contribute or Manage permissions to workspaces and Manage permissions to views.
+> 
+>Users with all other license types can have View permissions to workspaces and views. 
 >
 >For information, see [License type overview when using Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
@@ -69,9 +78,6 @@ You must give users permission to workspaces to allow them to have access to the
 * Record types
 * Records
 * Fields
-* Views*
-    
-    *You can allow all users with View or higher permissions to a workspace to also access the views in the workspace. This is an additional permission that you must enable when sharing a view. For information, see [Share views](/help/quicksilver/planning/access/share-views.md).
 
 The following are the levels of permissions for workspaces: 
 
@@ -147,7 +153,8 @@ The following are the levels of permissions for views and view elements:
 | Delete | ✓      |       |                            |
 | Share  | ✓       |       |                           |
 | View   | ✓      | ✓     | ✓                         |
-| Apply  | ✓      | ✓     | ✓                          |
+| Access the view  | ✓      | ✓     | ✓                          |
+| Apply temporary filters, groupings, sort  | ✓      | ✓     | ✓                          |
 
 *Users must have View or higher permissions to a workspace to gain this view access.
             

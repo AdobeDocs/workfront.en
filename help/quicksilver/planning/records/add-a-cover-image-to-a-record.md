@@ -54,8 +54,8 @@ You must have the following access to perform the steps in this article:
   <tr>
    <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>Current: Work or higher</p>
    <p>New: Standard</p>  
+   <p>Current: Plan</p>   
   </td>
   </tr>
   
@@ -104,7 +104,7 @@ You can personalize a record by adding a cover image at the top of the record pr
 
     Or
 
-    From a workspace, expand the downward-pointing arrow to the right of an existing workspace name and select the workspace whose records you want to personalize. 
+    From a workspace, expand the downward-pointing arrow to the right of an existing workspace name, search for a workspace, then select it when it displays in the list.
 
     The workspace opens and the record types display.
 
