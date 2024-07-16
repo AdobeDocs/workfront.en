@@ -12,10 +12,12 @@ recommendations: noDisplay, noCatalog
 ---
 # Environment promotion troubleshooting
 
-If a package installation stalls after ~10-15 minutes (something is wrong) or if a package installation is failing, startover from the beginning (ie. reassemble the existing package or create a new package). Fixes released will only impact newly assembled packages.
+If your environment promotion package is stalling or failing, try the following:
 
-If a package installation fails, a common root cause is one or more of the objects selected. Address the issue with the object, reassemble the package and reattempt the install.
+* If a package installation stalls after 10-15 minutes, or if a package installation is failing, reassemble the existing package or create a new package.
 
-If still having problems, try replicating the installation in another environment as close as possible including objects and install actions selected.
+* If a package installation fails, there may be an issue with one or more objects. Check the error messages, which identify the object and can help identify the issue. After you address the issue with the object, reassemble the package and reattempt the install.
 
-Check the package contents after the package has been assembled to confirm that it has what you expect.
+* If you are still having problems with an installation, try replicating the installation in a different target environment. Keep as close as possible to the original installation, including objects and install actions selected.
+
+* We recommend always checking the package contents after the package has been assembled to confirm that it contains the objects you expect.
