@@ -59,7 +59,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 +++
 
-## Scenario status
+## Scenario status - Check the scenario status
 
 Scenarios can be active or inactive. You can change the scenario status by clicking the On/Off button in the scenario detail.
 
@@ -68,17 +68,18 @@ See the following articles for more information:
 * [Activate or deactivate a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
 * [Scenario details in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-detail.md).
 
-## Scenario schedule
+## Scenario schedule - change the schedule
 
 Active scenarios are executed according to a schedule. By default, a scenario runs every 15 minutes. You can change this by defining when and how often an activated scenario runs. Fusion scenarios can be scheduled to run as often as every 5 minutes.
 
 For more information see [Schedule a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/schedule-a-scenario.md).
 
-## Scenario name
+## Scenario name - name or rename the scenario
 
 To rename a scenario, open the scenario, click on the scenario's name in the top left corner and edit it. Press Enter or click outside the edited field to save the scenario name.
 
 ## Selecting the first bundle
+
 
 Some trigger modules allow you to select the first bundle from which you want the retrieving of bundles to start.
 
