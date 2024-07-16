@@ -148,6 +148,8 @@ If you see the map button above a field or function, you can use it to set varia
 * [Get layer info](#get-layer-info)
 * [Make a custom API call](#make-a-custom-api-call)
 
+<!--#### Apply PSD edits-->
+
 #### Create a new PSD
 
 This action module creates a new PSD with optional layers, and generates renditions or saves as a PSD.
@@ -288,6 +290,8 @@ This action module executes Depth Blur on the selected file.
     </tr>
   </tbody>
 </table>
+
+<!--#### Execute an action JSON-->
 
 #### Execute Photoshop Actions
 
