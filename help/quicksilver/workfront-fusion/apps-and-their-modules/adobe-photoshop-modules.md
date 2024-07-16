@@ -534,3 +534,123 @@ This action module makes a custom call to the Photoshop API.
      </div> </p> </td>     </tr>
   </tbody>
 </table>
+
+
+<!--
+
+#### Watermark an image
+
+-->
+
+### Uncategorized
+
+
+<!--
+#### Convert image format
+
+-->
+
+<!--
+#### Create a mask
+
+This action module returns a PNG file with a mast applied around the subject.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Photoshop], see <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Create a connection to [!DNL Adobe Photoshop]</a> in this article.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Input file storage]</td>
+      <td>
+        <p>Select the file service where the file you want to crop is stored.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Input file URL]</p>
+      </td>
+   <td> Enter or map the URL or path of the file that you want to crop. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Unit]</p>
+      </td>
+   <td> Select whether you want to describe the height and width adjustment in pixels or as a percent. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Width]</p>
+      </td>
+   <td> Enter or map amount of width padding you want to add. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Height]</p>
+      </td>
+   <td> Enter or map amount of height padding you want to add. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Output file storage]</td>
+      <td>
+        <p>Select the file service where the you want the edited file to be stored.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Output file URL]</p>
+      </td>
+   <td> Enter or map the URL or path of where the edited file will be stored. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Output file type]</p>
+      </td>
+   <td> Select the file type for the edited file. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Overwrite]</td>
+      <td>
+        <p>Select whether the newly edited file will overwrite any output file that already exists.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Compression]</p>
+      </td>
+   <td> Select the compression level for the output file. </td> 
+    </tr>
+  </tbody>
+</table>
+-->
+<!--
+
+#### Remove background
+
+#### Replace a smart object
+
+#### Resize an image
+
+#### Auto color correct an image
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-->
