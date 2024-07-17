@@ -1525,7 +1525,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Completion Date]</td> 
-   <td> <p>You can manually set the [!UICONTROL Planned Completion Date] to a date of your choosing. If you do not set the [!UICONTROL Planned Completion Date], [!DNL Workfront] sets it automatically. When set automatically, the [!UICONTROL Planned Completion Date] is: [!UICONTROL Planned Start Date] + [!UICONTROL Duration]</p> <p>For more information, see the following articles:</p> 
+   <td> <p>You can manually set the [!UICONTROL Planned Completion Date] of a task, project, or issue to a date of your choosing. If you do not set the [!UICONTROL Planned Completion Date], [!DNL Workfront] sets it automatically. When set automatically, the [!UICONTROL Planned Completion Date] is: [!UICONTROL Planned Start Date] + [!UICONTROL Duration]</p> <p>For more information, see the following articles:</p> 
     <ul> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Overview of the task [!UICONTROL Planned Completion Date]</a> </p> </li> 
      <li> <p><a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">Set the project [!UICONTROL Planned Completion Date]</a> </p> </li> 
