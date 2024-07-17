@@ -67,7 +67,6 @@ Based on your feedback, we've introduced the following enhancements to improve y
 
 * Add an Adobe XD file to make a custom form more visual and informative. When the form is attached to an object, users who work with the object can view and interact with the XD file from within the form.
 
-    For more information, see [Add or edit an image or other asset widget in a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 * Use the Quick Filter to easily locate items in the modernized custom forms and fields list. Also enjoy an improved look and feel while managing your forms and fields.
 

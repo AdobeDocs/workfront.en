@@ -51,8 +51,6 @@ For more information, see [Configure a blueprint](../../../administration-and-se
 
 The Custom Forms area has a new look and feel that brings it up to date with many other areas in the new Workfront experience.
 
-For information about creating a custom form, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-
 ## Many enhancements for creating calculated custom fields
 
 Creating calculated custom fields is now much easier with these additions in the new Calculation Editor:

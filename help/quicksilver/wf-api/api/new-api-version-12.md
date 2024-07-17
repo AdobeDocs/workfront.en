@@ -170,8 +170,8 @@ An AccessLevelPermissions object represents a specific permission to access, cre
      <li> <p><strong>coreAction</strong> </p> <p>Added the following possibleValues:</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>A user with an access level that includes this permission can update planned hours in the Workload Balancer.</p> <p>For more information, see <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Update task Planned Hours when managing user allocations</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>A user with an access level that includes this permission can add fields to custom forms.</p> <p>For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>A user with an access level that includes this permission can share a custom field system-wide with Delete access.</p> <p>For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configure sharing for custom fields and widgets</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>A user with an access level that includes this permission can add fields to custom forms.</p> <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">Create or edit a custom form</a>.</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>A user with an access level that includes this permission can share a custom field system-wide with Delete access.</p> </li> 
       </ul> </li> 
      <li> <p><strong>forbiddenActions</strong> </p> <p>Added the following possibleValues:</p> 
       <ul> 
@@ -241,8 +241,8 @@ If a User does not have access to an object in Workfront that they need, they ca
      <li> <p style="font-weight: bold;">action</p> <p>Added the following possibleValues:</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>A user with an access level that includes this permission can update planned hours in the Workload Balancer.</p> <p>For more information, see <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Update task Planned Hours when managing user allocations</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>A user with an access level that includes this permission can add fields to custom forms.</p> <p>For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>A user with an access level that includes this permission can share a custom field system-wide with Delete access.</p> <p>For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configure sharing for custom fields and widgets</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>A user with an access level that includes this permission can add fields to custom forms.</p> <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">Create or edit a custom form</a>.</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>A user with an access level that includes this permission can share a custom field system-wide with Delete access.</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -264,8 +264,8 @@ An AccessRule object represents a rule set in custom access levels that determin
      <li><strong>coreAction</strong> <p>Added the following possibleValues:</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>A user with an access level that includes this permission can update planned hours in the Workload Balancer.</p> <p>For more information, see <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Update task Planned Hours when managing user allocations</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>A user with an access level that includes this permission can add fields to custom forms.</p> <p>For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>A user with an access level that includes this permission can share a custom field system-wide with Delete access.</p> <p>For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configure sharing for custom fields and widgets</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>A user with an access level that includes this permission can add fields to custom forms.</p> <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">Create or edit a custom form</a>.</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>A user with an access level that includes this permission can share a custom field system-wide with Delete access.</p> </li> 
       </ul> </li> 
      <li> <p><strong>forbiddenActions</strong> </p> <p>Added the following possibleValues:</p> 
       <ul> 
@@ -612,7 +612,7 @@ A Parameter object is a custom field.
 
 The Parameter resource added the flag SHARABLE.
 
-For more information on custom fields, see [Create or edit a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) in [Create or edit a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+For more information on custom fields, see [Create or edit a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md) in [Create or edit a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -719,9 +719,8 @@ For more information on Request Queues, see [Create a Request Queue](../../manag
      <li><strong>requestorCoreAction</strong> <p>Added the following possibleValues:</p> 
       <ul> 
        <li> <p>PLANNED_HOURS_CONTOURING </p> <p>A user with an access level that includes this permission can update planned hours in the Workload Balancer.</p> <p>For more information, see <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Update task Planned Hours when managing user allocations</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Manage user allocations in the Workload Balancer</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>A user with an access level that includes this permission can add fields to custom forms.</p> <p>For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#add2" class="MCXref xref"></a> in <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>A user with an access level that includes this permission can share a custom field system-wide with Delete access.</p> <p>For more information, see <a href="../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md" class="MCXref xref">Configure sharing for custom fields and widgets</a></p> </li> 
-      </ul> <li> <p><strong>requestorForbiddenActions</strong> </p> <p>Added the following possibleValues:</p> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>A user with an access level that includes this permission can add fields to custom forms.</p> <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">Create or edit a custom form</a>.</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>A user with an access level that includes this permission can share a custom field system-wide with Delete access.</p> </li>
        <ul> 
         <li> <p>PLANNED_HOURS_CONTOURING </p> </li> 
         <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 

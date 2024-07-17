@@ -51,7 +51,7 @@ You must have the following to perform the steps in this article:
 
    * [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
    * [Share a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md) 
-   * [Copy a custom form to create a new one](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md) 
+   * [Copy a custom form to create a new one](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/list-edit-share-custom-forms-and-custom-fields.md) 
    * [Delete or deactivate a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
 
 1. Click the **Fields** tab.

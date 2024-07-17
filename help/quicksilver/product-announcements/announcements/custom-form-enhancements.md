@@ -32,8 +32,6 @@ Currently, users cannot see the widget in the following areas:​
 * The Edit box for the object, if it doesn't have the new Adobe Workfront experience look and feel (for example, the Edit Expense box)
 * ​The Workfront Mobile app
 
-For more information about adding widgets to custom forms, see [Add or edit an image or other asset widget in a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
-
 ## Associate a custom form with multiple object types
 
 You can associate multiple object types with any new custom form:
@@ -61,8 +59,6 @@ This is especially helpful when you convert an issue or task because you can car
 >[!NOTE]
 >
 >When the conversion takes place, the custom form must already be associated with the object type you are converting to.
-
-For instructions on adding an asset widget to a custom form, see [Add or edit an image or other asset widget in a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 Consider the following when you create or edit a multi-object custom form:
 
