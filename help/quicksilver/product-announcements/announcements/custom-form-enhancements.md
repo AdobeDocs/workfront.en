@@ -119,7 +119,6 @@ When this occurs, you can do one of the following:
 >
 >  If you add an object type in front of a field name, it references to the object's parent object, so you cannot use `{project}.{name}` with a project, but you can use it with a task.
 
-For instructions on adding a calculated custom field to a custom form, see [Add calculated data to a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 For more information about variables like `$$OBJCODE`, see [Wildcard filter variables overview](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 

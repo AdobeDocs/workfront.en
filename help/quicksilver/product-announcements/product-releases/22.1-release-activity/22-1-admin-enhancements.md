@@ -65,8 +65,6 @@ Creating calculated custom fields is now much easier with these additions in the
 
 Also, in the customizable "Instructions" hover text for a calculated custom field, you can display or hide the field's formula. This is useful if you think that the users who will fill out the custom form won't need that information.
 
-For more information about creating a calculated custom field, see [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
-
 ## View audit log information about statuses and companies
 
 Now you can more easily troubleshoot incidents involving statuses and companies by viewing information about them in the Audit Logs area in Setup.
@@ -102,8 +100,6 @@ For more information, see [Manage company memberships](../../../administration-a
 
 We're continuing to make it easier to create a calculated field in a custom form. Now, when you click Maximize to open the new Calculation Editor, you can find and select the expressions and fields you need.
 
-For more information, see [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
-
 ## Groups can configure their own timesheet and hour preferences
 
 >[!NOTE]
@@ -138,8 +134,6 @@ For more information, see [Delete a group](../../../administration-and-setup/man
 ## Larger area for creating calculated fields
 
 Now it's easier to build complex calculated fields in a custom form. Click the new Maximize button to open a large editing window for building your calculation. When you are finished, click Minimize to continue working on your custom form.
-
-For more information, see [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Add custom forms to groups
 
