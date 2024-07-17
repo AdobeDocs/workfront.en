@@ -2204,7 +2204,6 @@ feature-set: Workfront
     * [Adobe Workfront Fusion scenario overview](workfront-fusion/scenarios/scenario-overview.md)
     * [Create a scenario in Adobe Workfront Fusion](workfront-fusion/scenarios/create-a-scenario.md)
     * [The scenario editor in Adobe Workfront Fusion](workfront-fusion/scenarios/scenario-editor.md)
-    * [Basic scenario settings in Adobe Workfront Fusion](workfront-fusion/scenarios/basic-scenario-settings.md)
     * [The scenario settings panel in Adobe Workfront Fusion](workfront-fusion/scenarios/scenario-settings-panel.md)
     * [Scenario details in Adobe Workfront Fusion](workfront-fusion/scenarios/scenario-detail.md)
     * [Scenario execution flow in Adobe Workfront Fusion](workfront-fusion/scenarios/scenario-execution-flow.md)
