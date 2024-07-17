@@ -112,7 +112,7 @@ You can log time to the following items in the timesheet:
 
 To log time on a timesheet: 
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner.
+{{step1-click-main-menu}}
 
 1. Click [!UICONTROL **Timesheets**]. Your current timesheet displays by default. 
    ![Timesheet](assets/timesheet-redesigned-nwe.png)
