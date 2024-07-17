@@ -81,6 +81,7 @@ The following sections contain articles that describe in detail the features cur
     * Create, edit, and delete records
     * Connect records
     * Add a cover image or a thumbnail to a record 
+    * Manage the layout of a record page
     * Record comments and History section
     * Share records
     * Workfront Planning section for Workfront objects

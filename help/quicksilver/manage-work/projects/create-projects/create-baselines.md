@@ -51,8 +51,6 @@ drafted for P&P:
 </table>
 -->
 
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -62,7 +60,7 @@ You must have the following access to perform the steps in this article:
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
     <td><p>New: Standard</p>
         <p>or</p>
         <p>Current: Plan </p> </td> 
@@ -78,7 +76,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -109,7 +107,7 @@ You can create a baseline in the following ways:
 
 To create a baseline:
 
-1. Navigate to a project. 
+1. Go to a project. 
 1. In the left panel, click **Baselines**.
 
    Or

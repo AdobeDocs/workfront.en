@@ -281,13 +281,18 @@ To locate Workfront Planning:
 
 1. Log in to Adobe Workfront. 
 
-1. Click the **Main Menu** ![](assets/main-menu-workfront.png) in the upper-right corner, or click the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it's available. 
+{{step1-click-main-menu}}
 
 1. Click **Planning** ![](assets/planning-icon.png).
 
     The Workfront Planning landing page opens. 
 
     ![](assets/planning-landing-page-admin.png)
+
+    >[!TIP]
+    >
+    >    Your Workfront administrator can add the Planning area to the Select landing page option in your layout template, so you can open Planning as soon as you log in to Workfront. For information, see [Customize the landing page using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md). 
+
 
 1. (Conditional and optional) If you are a Workfront administrator, click one of the following tabs:
     * **My workspaces**: Displays workspaces you created.
