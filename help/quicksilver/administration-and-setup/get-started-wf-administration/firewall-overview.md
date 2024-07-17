@@ -103,6 +103,6 @@ Provide your network administrator with the following information:
 
 1. To view your Workfront plan, select **Licenses**.
 
-   Your plan displays near the bottom of the page.
+   Your plan displays near the upper-right corner of the page.
 
    ![](assets/locate-plan.png)
