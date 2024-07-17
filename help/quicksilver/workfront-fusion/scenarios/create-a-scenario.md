@@ -22,38 +22,49 @@ For a practice exercise that walks you through creating an integration scenario 
 
 ## Access requirements
 
-You must have the following access to use the functionality in this article:
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to use the functionality in this article: 
 
 <table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!DNL Pro] or higher</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] license**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p><p>[!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>    </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Product</td> 
-   <td>
-   <p>Current product requirement: If you have the [!UICONTROL Select] or [!UICONTROL Prime] [!DNL Adobe Workfront] Plan, your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article. [!DNL Workfront Fusion] is included in the [!UICONTROL Ultimate] [!DNL Workfront] plan.</p>
-   <p>Or</p>
-   <p>Legacy product requirement: Your organization must purchase [!DNL Adobe Workfront Fusion] as well as [!DNL Adobe Workfront] to use functionality described in this article.</p>
-   </td> 
-  </tr> 
- </tbody> 
-</table>
+  <tbody>  
+    <tr>  
+      <td>Adobe Workfront plan</td>  
+      <td>Any</td>  
+    </tr>  
+    <tr>  
+      <td>Adobe Workfront license</td>  
+      <td>
+        New: Standard<br>
+        Or<br>
+        Current: Work or higher
+      </td>  
+    </tr>  
+    <tr>  
+      <td>Adobe Workfront Fusion license</td>  
+      <td> 
+        Current: No Workfront Fusion license requirement.<br>
+        Or<br>
+        Legacy: Any
+      </td>  
+    </tr>  
+    <tr>  
+      <td>Product</td>  
+      <td> 
+        New: Select or Prime Workfront Plan: Your organization must purchase Adobe Workfront Fusion.<br>
+        Ultimate Workfront Plan: Workfront Fusion is included.<br>
+        Or<br>
+        Current: Your organization must purchase Adobe Workfront Fusion.
+      </td>  
+    </tr> 
+  </tbody>  
+</table> 
 
-To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
-For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md). 
+
++++
 
 ## Begin creating a scenario
 

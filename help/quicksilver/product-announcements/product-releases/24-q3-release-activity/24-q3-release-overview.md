@@ -403,6 +403,19 @@ The live 24.7 release webinar was cancelled, but you can still [watch a video de
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Backend change to in-product guides</a></p>
+                        <p>We are implementing a technology change for our in-product guides over the next few weeks. While we've tried to minimize the impact of this transition, some users may encounter guides that they have previously seen.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Production for all customers: Incrementally through mid-August 2024</p>
+                            </li>
+                         </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience now available for more Workfront organizations</a></p>
                         <p>To allow organizations access to the benefits of the Adobe Unified Experience, we've begun making it available to existing Workfront customers. </p>
                     </td>

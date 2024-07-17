@@ -70,7 +70,7 @@ Provide your network administrator with the following information:
    <td>Inform your network administrator if you use any of the following:
     <ul>
      <li><p>Workfront for Jira</p></li>
-     <li><p>Workfront for G Suite</p></li>
+     <li><p>Workfront for Google Workspace</p></li>
      <li><p>Workfront for Microsoft Teams</p></li>
      <li><p>Workfront for Outlook</p></li>
      <li><p>Workfront for Salesforce</p></li>
@@ -103,6 +103,6 @@ Provide your network administrator with the following information:
 
 1. To view your Workfront plan, select **Licenses**.
 
-   Your plan displays near the bottom of the page.
+   Your plan displays near the upper-right corner of the page.
 
    ![](assets/locate-plan.png)

@@ -10,9 +10,11 @@ exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
 ---
 # Edit tasks
 
+<!--Audited: 07/2024-->
+
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
-<p>(NOTE: some information in this area is repeated in the following articles. If you need to update a fied, update it in both:</p>
+<p>(NOTE: some information in this area is repeated in the following articles. If you need to update a field, update it in both:</p>
 <p>** Task finances in details</p>
 <p>** Task information in overview)</p>
 </div>
@@ -30,18 +32,17 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Work or higher</p> </td> 
+   <td> <p>New: Standard</p>
+   <p>Current: Work or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to Tasks and Projects</p> <p><b>NOTE</b> 
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Tasks and Projects</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -57,12 +58,12 @@ You must have the following access to perform the steps in this article:
     </ul> 
     <ul> 
      <li> <p>Contribute or higher permissions to the project</p> </li> 
-    </ul> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+    </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 ## Limitations for editing tasks
 
@@ -99,11 +100,11 @@ You can edit a task in a list using the Summary panel. For information about edi
 
 You can edit a task using the Edit Task or Task Details areas. The following steps describe editing a task in the Edit Task box.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+{{step1-click-main-menu}}
 
 1. Click **Projects**, then click the name of a project to open it.
 1. Click **Tasks** in the left panel. 
-1. Click the task you want to edit.
+1. Click the task that you want to edit.
 1. (Conditional) To edit limited information about a task, click **Task Details** in the left panel.
 
    ![](assets/nwe-task-details-expanded-350x273.png)
@@ -158,7 +159,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 
    >[!IMPORTANT]
    >
-   >You must have Manage permissions to the task in order to see the Edit option.
+   >You must have Manage permissions to the task to see the Edit option.
 
    All task fields are available in the Edit Task box and are grouped by the areas listed in the left panel.
 
@@ -177,7 +178,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 
    >[!NOTE]
    >
-   >Depending on how your Workfront administrator or Group administrator sets up our Layout Template, the fields in the Edit Task box might be rearranged or not display. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Depending on how your Workfront administrator or Group administrator sets up your Layout Template, the fields in the Edit Task box might be rearranged or not display. For information, see [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
 ### Task Name {#task-name}
 
@@ -188,7 +189,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
 
 1. Update the name of the task.  
 
-1. Click&nbsp;**Save** or continue with the following sections.
+1. Click **Save** or continue with the following sections.
 
 ### Overview {#overview}
 
@@ -212,13 +213,13 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
      </tr> 
      <tr> 
       <td role="rowheader">Status</td> 
-      <td> <p>Select the status of the task which indicates what stage of development the task is in.</p> <p><b>TIP</b> 
+      <td> <p>Select the status of the task that indicates what stage of development the task is in.</p> <p><b>TIP</b> 
       
       You can update the task Status in the task header. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Priority</td> 
-      <td> <p>This is a visual flag for you which allows you to prioritize your tasks. </p> <p>Select from the following options: </p> 
+      <td> <p>This is a visual flag for you that allows you to prioritize your tasks. </p> <p>Select from the following options: </p> 
        <ul> 
       <li> <p> None</p> </li> 
       <li> <p> Low </p> </li> 
@@ -228,7 +229,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
        </ul> <p>Depending on the Project Preferences selected by your Workfront administrator, the names of priorities might be different for you. For information about task priorities, see <a href="../../../manage-work/tasks/task-information/task-priority.md" class="MCXref xref">Update Task Priority</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td colspan="2" role="rowheader"><span style="font-weight: bold;">Task&nbsp;dates and constraints section</span> </td> 
+      <td colspan="2" role="rowheader"><span style="font-weight: bold;">Task dates and constraints section</span> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Task Constraint</td> 
@@ -252,7 +253,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
      </tr> 
      <tr> 
       <td role="rowheader">Commit Date and time</td> 
-      <td> <p>This is the date by which the user assigned to the task commits to have it completed. This can be different than the Planned Completion Date. Only assignees can edit this field. For information about Commit Dates in Workfront, see <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Commit Date overview</a>. </p> </td> 
+      <td> <p>This is the date by which the user assigned to the task commits to have it completed. This can be different from the Planned Completion Date. Only assignees can edit this field. For information about Commit Dates in Workfront, see <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Commit Date overview</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Planned Start Date and time</td> 
@@ -265,16 +266,16 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
      </tr> 
      <tr> 
       <td role="rowheader">Planned Completion Date and time</td> 
-      <td> <p>The anticipated completion date as shown when the task is planned. The planned completion date can be set by a number of factors:</p> 
+      <td> <p>The anticipated completion date as shown when the task is planned. Workfront sets the Planned Completion Date using some of the following factors:</p> 
        <ul> 
-      <li>The planned completion date is calculated from the planned start date by adding the Duration of the task to the planned start date. When the project manager or Workfront specifies the Duration of the task, this triggers an update to the planned completion date. If the planned date changes, it will often be because the Duration of the has been updated.</li> 
+      <li>The planned completion date is calculated from the planned start date by adding the Duration of the task to the planned start date. When the project manager or Workfront specifies the Duration of the task, this triggers an update to the planned completion date. If the planned date changes, it will often be because the Duration of the task has been updated.</li> 
       <li>The project manager or the task owner can manually set the planned completion date when the task constraint is either Fixed Dates or Must Finish On. For more information about task constraints, see <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Task Constraint overview</a>.</li> 
       <li>If the Duration Type of the task changes, and the number of resources on the tasks changes at the same time, the planned completion date will change, as well. For more information about duration types, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Actual Start Date and time</td> 
-      <td> <p>Specify an Actual Start Date for the task. The default is typically automatically populated when you change the status of the task to In Progress. The actual start date can also be manually modified by the project manager, or the task owner. </p> </td> 
+      <td> <p>Specify an Actual Start Date for the task. The default is typically populated automatically when you change the status of the task to In Progress. The actual start date can also be manually modified by the project manager, or the task owner. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Actual Completion Date and time</td> 
@@ -289,9 +290,9 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
        
       <p>The amount of effort required to complete the task. Your project manager might decide to use this field instead of Planned Hours to estimate the effort needed to complete a task. This field is visible only when the following conditions are met:</p> 
       <ul> 
-      <li> <p>The task has a Simple Duration&nbsp;Type. </p> <p><b>TIP</b> 
+      <li> <p>The task has a Simple Duration Type. </p> <p><b>TIP</b> 
       
-      If you change the task Duration&nbsp;Type, this field becomes dimmed. </p> </li> 
+      If you change the task Duration Type, this field becomes dimmed. </p> </li> 
       <li>Your project manager has enabled the Use Work Effort to automatically calculate task Planned Hours field on the project. </li> 
       </ul> 
       <p>Select from the following options:</p> 
@@ -302,7 +303,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
       </ul> 
       <p><b>NOTE</b>
         
-      Updating the amount of effort could update the task Planned Hours. The update is immediate if the project Update Type is Automatic. When the project Update Type is Manual you must recalculate timeline to see the updated Planned Hours. </p> 
+      Updating the amount of effort could update the task Planned Hours. The update is immediate if the project Update Type is Automatic. When the project Update Type is Manual you must recalculate the timeline to see the updated Planned Hours. </p> 
       
       <p>For information about using Work Effort instead of Planned Hours to estimate task effort, see <a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Work Effort overview</a>. </p> 
     </td> 
@@ -348,7 +349,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
       <li> <p>The number of resources assigned to a task </p> </li> 
       <li> <p>The total effort required to complete the task </p> </li> 
       <li> <p> The total duration of the task. </p> </li> 
-       </ul> <p>Your Workfront administrator <span> or a group administrator</span> selects the default Duration Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>. </p> <p>Duration Types enable you to set consistent resource assignments based on the needs of the task. For more information about the Duration Type of a task, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>. </p> <p>Select from the following options: </p> 
+       </ul> <p>Your Workfront administrator or a group administrator selects the default Duration Type setting for the tasks in your system or your group. For information about setting project defaults, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>. </p> <p>Duration Types enable you to set consistent resource assignments based on the needs of the task. For more information about the Duration Type of a task, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>. </p> <p>Select from the following options: </p> 
        <ul> 
       <li> <p>Calculated Assignment </p> </li> 
       <li> <p> Calculated Work </p> </li> 
@@ -395,7 +396,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
       <td>H</td> 
       </tr> 
       <tr> 
-      <td>Days.&nbsp;This is the default. </td> 
+      <td>Days. This is the default. </td> 
       <td>D</td> 
       </tr> 
       <tr> 
@@ -439,7 +440,7 @@ You can edit a task using the Edit Task or Task Details areas. The following ste
    </tr> 
    <tr> 
    <td role="rowheader">Planned Hours</td> 
-   <td> <p>Specify the amount of Planned Hours for the task, in hours. This is the amount of actual time it would take the assignees of the task to complete it. You can only specify the amount of Planned Hours for a task when the Duration Type is set to Calculated Assignment. For more information about duration types, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p> 
+   <td> <p>Specify the number of Planned Hours for the task, in hours. This is the amount of actual time that it would take the assignees of the task to complete it. You can only specify the number of Planned Hours for a task when the Duration Type is set to Calculated Assignment. For more information about duration types, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p> 
    <b>NOTE</b>
    <p>
    When creating recurring tasks, the Planned Hours are those of each occurrence. The Planned Hours of the parent tasks are the total of all Planned Hours from all the occurrences. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>.
@@ -478,9 +479,9 @@ You can define default custom forms to be automatically attached to tasks when t
 
 1. Click **Add custom form** and select the custom form or forms that you want to associate with the task. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list.
 
-   For more information about building custom forms, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).You can add up to ten custom forms to a task.
+   For more information about building custom forms, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).You can add up to ten custom forms to a task
 
-1. (Conditional) If you attached a custom form to the task, edit any fields on the form. You must specify all required fields before you can save the task.
+1. (Conditional) If you attached a custom form to the task, edit any fields on the form. You must specify all the required fields before you can save the task.
 
    >[!NOTE]
    >
@@ -533,7 +534,7 @@ You can define default custom forms to be automatically attached to tasks when t
 
 ### Settings {#settings}
 
-1. Begin editing your task as described in the [Edit tasks](#Edit2) section&nbsp;in this article. 
+1. Begin editing your task as described in the [Edit tasks](#Edit2) section in this article. 
 1. Click **Settings** in the left panel.
 
    ![](assets/nwe-settings-section-edit-task-box-350x304.png)
@@ -561,7 +562,7 @@ You can define default custom forms to be automatically attached to tasks when t
      </tr> 
      <tr> 
       <td role="rowheader">Leveling Delay</td> 
-      <td> <p>Specify the Leveling Delay, in hours. </p> <p> For more information about leveling delays, see <a href="../../../manage-work/tasks/task-information/task-leveling-delay.md" class="MCXref xref">Update task Leveling Delay</a>. </p> </td> 
+      <td> <p>Specify the Leveling Delay in hours. </p> <p> For more information about leveling delays, see <a href="../../../manage-work/tasks/task-information/task-leveling-delay.md" class="MCXref xref">Update task Leveling Delay</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Approval process</td> 
@@ -624,4 +625,4 @@ The following fields are included in the task header, by default:
 
 You can edit tasks in bulk in a list and update all their information at the same time when you select to automatically save the changes you are making to tasks in the list.
 
-For information about saving tasks in bulk , see the "Edit tasks in bulk" section in the article [Edit tasks in a list](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+For information about saving tasks in bulk, see the "Edit tasks in bulk" section in the article [Edit tasks in a list](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).

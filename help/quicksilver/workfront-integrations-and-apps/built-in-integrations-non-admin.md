@@ -58,7 +58,7 @@ The following built-in integrations are currently available in Workfront.
    <td role="rowheader"> <p>G Suite</p> <p> <img src="assets/gsuite.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>Add a G-Suite email to a project or task </li> 
+     <li>Add a Google Workspace email to a project or task </li> 
      <li>View and manage [!DNL Workfront] notifications in Gmail</li> 
      <li>Submit requests via Gmail </li> 
     </ul> </td> 
