@@ -22,5 +22,5 @@ There is no limit to the number of custom forms you can create in your Workfront
 This section contains the following articles and subsections:
 
 * [Custom forms overview](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
-* [Design a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
+* [Design a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
 * [Manage custom forms and fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)

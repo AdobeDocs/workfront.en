@@ -80,8 +80,6 @@ In a custom form associated with object types from both of these groups, the sys
 
 When you associate an object type that uses different permission options than the other object types already on a custom form, a message displays and allows you to switch to the common set of permission options will be used for the form. This change will apply to all fields, even if they are not under a section break.
 
-For more information, see [Add a section break to a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
-
 ### Calculated custom field compatibility
 
 In a multi-object custom form, if a calculated field references fields that are available for use with all of the form's associated object types (such as {name}, {description}, and {entryDate}, which are available for multiple object types), the data calculates correctly, no matter which object you attach it to.
