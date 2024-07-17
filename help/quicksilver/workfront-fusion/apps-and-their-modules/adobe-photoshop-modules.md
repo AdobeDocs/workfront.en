@@ -19,6 +19,8 @@ If you need instructions on creating a scenario, see [Create a scenario](../../w
 
 For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
++++**Expand to view access requirements for the functionality in this article.**
+
 ## Access requirements
 
 You must have the following access to use the functionality in this article:
@@ -57,6 +59,8 @@ You must have the following access to use the functionality in this article:
 &#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 &#42;&#42;For information on [!DNL Adobe Workfront Fusion] licenses, see [!DNL [Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+
++++
 
 ## Prerequisites
 
@@ -550,7 +554,7 @@ This action module makes a custom call to the Photoshop API.
 
 -->
 
-<!--
+
 #### Create a mask
 
 This action module returns a PNG file with a mast applied around the subject.
@@ -564,68 +568,74 @@ This action module returns a PNG file with a mast applied around the subject.
       <td>For instructions on creating a connection to [!DNL Adobe Photoshop], see <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Create a connection to [!DNL Adobe Photoshop]</a> in this article.</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Input file storage]</td>
+      <td role="rowheader">[!UICONTROL (Input) Storage]</td>
       <td>
-        <p>Select the file service where the file you want to crop is stored.</p>
+        <p>Select the file service where the file you want to create a mask from is stored.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL Input file URL]</p>
+        <p>[!UICONTROL (Input) File location]</p>
       </td>
-   <td> Enter or map the URL or path of the file that you want to crop. </td> 
+   <td> Enter or map the URL or path of the file that you want to create a mask from. </td> 
     </tr>
     <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Unit]</p>
-      </td>
-   <td> Select whether you want to describe the height and width adjustment in pixels or as a percent. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Width]</p>
-      </td>
-   <td> Enter or map amount of width padding you want to add. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Height]</p>
-      </td>
-   <td> Enter or map amount of height padding you want to add. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Output file storage]</td>
+      <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>Select the file service where the you want the edited file to be stored.</p>
+        <p>Select the file service where the you want the mask file to be stored.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL Output file URL]</p>
+        <p>[!UICONTROL (Output) File location]</p>
       </td>
-   <td> Enter or map the URL or path of where the edited file will be stored. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Output file type]</p>
-      </td>
-   <td> Select the file type for the edited file. </td> 
+   <td> Enter or map the URL or path of where the mask file will be stored. </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Overwrite]</td>
       <td>
-        <p>Select whether the newly edited file will overwrite any output file that already exists.</p>
+        <p>Select whether the newly edited file will overwrite any output file that already exists. This applies only to files in Adobe storage.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL Compression]</p>
+        <p>[!UICONTROL Color space]</p>
       </td>
-   <td> Select the compression level for the output file. </td> 
+   <td>Select whether the output image uses RGB or RGBA color. </td> 
     </tr>
-  </tbody>
+     <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Mask format]</p>
+      </td>
+   <td>Select whether the mask should be soft (feathered) or binary. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Optimize]</p>
+      </td>
+   <td>Select Performance to optimize for speed, or Batch to allow wait time. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Post process]</p>
+      </td>
+   <td></td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Version]</p>
+      </td>
+   <td>Default is 4.0</td> 
+    </tr> 
+        <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Maximum number of returned results]</p>
+      </td>
+   <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td> 
+    </tr>
+    </tbody>
 </table>
--->
+
 <!--
 
 #### Remove background
