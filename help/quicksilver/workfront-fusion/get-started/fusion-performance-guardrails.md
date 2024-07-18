@@ -66,6 +66,7 @@ Work automation requires rapid processing, so [!DNL Adobe Workfront Fusion] is d
 ## Execution history
 
 * Execution history logs are limited to a size of **100 MB**. If the execution history exceeds this size, only the first 100 MB will be shown.
+* If a scenario has multiple concurrent executions. only 5 executions display in the Executions area of the scenario details page. This is true even when more than 5 executions are running.
 
 ## Incomplete executions
 
