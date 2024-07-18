@@ -127,7 +127,7 @@ Only users with a Standard license can have full access to portfolios.
 | Delete                   | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
 | Share                    | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
 | Share system-wide        | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| View                     | ✓&#42;   | ✓&#42; | &nbsp;      | &nbsp;        |
+| View                     | ✓&#42;   | ✓&#42; | ✓&#42;      | &nbsp;        |
 | Edit details             | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Attach custom forms      | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Edit custom fields       | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
@@ -151,7 +151,7 @@ Only users with a Standard license can have full access to programs.
 | Delete                       | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
 | Share                        | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
 | Share system-wide            | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| View                         | ✓&#42;   | ✓&#42; | &nbsp;      | &nbsp;        |
+| View                         | ✓&#42;   | ✓&#42; | ✓&#42;      | &nbsp;        |
 | Edit details                 | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Attach custom forms          | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Edit custom fields           | ✓        | &nbsp; | &nbsp;      | &nbsp;        |

@@ -275,8 +275,8 @@ The following are the highest access settings available for objects in the Contr
 | Project |&nbsp; |✓ |&nbsp; |
 | Task |&nbsp; |✓ |&nbsp; |
 | Issue |&nbsp; |&nbsp; |✓ |
-| Portfolios |✓ |&nbsp; |&nbsp; |
-| Programs |✓ |&nbsp; |&nbsp; |
+| Portfolios |&nbsp; |✓ |&nbsp; |
+| Programs |&nbsp; |✓ |&nbsp; |
 | Reports (including dashboards and calendar reports) |&nbsp; |✓ (Only the Details tab) |&nbsp; |
 | Filters, views, and groupings |&nbsp; |&nbsp; |✓ |
 | Document |&nbsp; |&nbsp; |✓ |
@@ -291,6 +291,13 @@ The following are the highest access settings available for objects in the Contr
 | Goals  |&nbsp; |&nbsp; |✓ |
 
 {style="table-layout:auto"}
+
+>[!IMPORTANT]
+>
+>Starting with the 24.7 release, Contributors have View access to Programs and Portfolios by default. 
+>
+>&nbsp;
+>Contributors onboarded before the 24.7 release will continue to have No access to Programs and Portfolios by default. You can update their access to view manually if needed.
 
 ### External User access level
 
