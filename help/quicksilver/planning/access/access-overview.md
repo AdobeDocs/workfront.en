@@ -17,7 +17,7 @@ There are license and sharing permission restrictions to use Adobe Workfront Pla
 
 ## Access requirements 
 
-You must have the following settings to use Adobe Workfront Planning: 
++++ Expand to view access requirements for the functionality in this article. 
 
 <table style="table-layout:auto">
  <col>
@@ -82,6 +82,8 @@ You must have the following settings to use Adobe Workfront Planning:
 </table>
 
 *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
+
++++
 
 
 ## Share the Planning area in the Main Menu with others

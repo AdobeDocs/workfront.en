@@ -64,6 +64,7 @@ For more information about access to the [!DNL Scenario Planner] for various lic
 
 ## Considerations about plan sharing
 
+* All users, including system administrators, have access only to plans that they created. 
 * You can share a single plan, or you can share multiple plans, in bulk.
 * You cannot view plans that you did not create or that are not shared with you.
 * You can only share a plan with other users. You cannot share plans with groups, teams, or companies.

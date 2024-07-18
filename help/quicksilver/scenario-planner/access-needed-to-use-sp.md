@@ -10,24 +10,15 @@ exl-id: d7f3c7fa-81aa-40c9-b506-fe1fe346e9ea
 ---
 # Access needed to use the [!DNL Scenario Planner]
 
-The [!DNL Scenario Planner] requires an additional license. For information about the [!DNL Workfront Scenario Planner], see [The [!DNL Scenario Planner] overview](../scenario-planner/scenario-planner-overview.md).
+<!--Audited: 04/2024-->
+
+The [!DNL Scenario Planner] has additional license requirements. For information about the [!DNL Workfront Scenario Planner], see [The [!DNL Scenario Planner] overview](../scenario-planner/scenario-planner-overview.md).
 
 <!--
 might need to add information about the permissions to plans/ initiatives if those will be coming later?
 -->
 
 Without correct access or permissions, you may not be able to view the [!UICONTROL Scenarios] area of[!DNL  Adobe Workfront] nor manage plans or initiatives for your organization. Managing plans and initiatives includes creating, editing, and deleting them.
-
->[!IMPORTANT]
->
->When accessing [!UICONTROL Scenarios], you can only view and manage plans that you created. If you want to allow other users to view or manage the plans you created, you must do the following: 
->
->* Send a link to your plan to other users
->* Share the plan with other users 
->
->  For information about sharing a plan, see [Share a plan in the [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md). 
->
->When a user is deactivated, their plans have no owner and cannot be accessed unless previously shared with a link.
 
 ## Access needed to view and use the [!DNL Adobe Workfront Scenario Planner]
 
@@ -37,15 +28,9 @@ You must ensure that all the following conditions are met before you can access 
 
     Depending on whether you use the new or the current Workfront plan, your organization must have one of the following:
 
-    * For the new plans, your organization must have one of the following:  
+    * For the new plans, your organization must have the  [!UICONTROL Ultimate] [!DNL Workfront] plan. The Scenario Planner is included only in the [!UICONTROL Ultimate] plan. 
 
-      * The [!UICONTROL Ultimate] [!DNL Workfront] plan. The Scenario Planner is included in the Ultimate plan. 
-
-        Or
-    
-      * The [!UICONTROL Select] or [!UICONTROL Prime] [!DNL Workfront] plan, in addition to purchasing a separate [!DNL Scenario Planner] license.
-
-    * For the current Workfront plans, your organizaion must have both of the following: 
+    * For the current Workfront plans, your organization must have both of the following: 
 
       * Your organization must purchase a [!DNL Workfront] [!UICONTROL Business] or higher [!DNL Workfront] plan. For information about the [!DNL Workfront] plans, see [Workfront Plans](https://workfront.com/plans).
       
@@ -127,7 +112,20 @@ Your [!DNL Workfront] administrator must assign you the following access so you 
 
 Access Levels work together with permissions in [!DNL Workfront] to give you visibility into plans and initiatives that you did not create. In addition to having the correct access level to access the [!DNL Scenario Planner], you must also have the correct permissions to the plan that you want to view or manage, if you are not the creator of those plans.
 
-By default, you have access only to plans that you created. To view plans that other users created they must share their plans with you. For information about sharing plans, see [Share a plan in the [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md).
+All users, including system administrators, have access only to plans that they created. 
 
-If a user shares a link to a plan without also sharing the plan, you can request permissions to the plan. For information about requesting permissions to plans, see [Request access to a plan in the [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md). 
+To view plans that other users created they must share their plans with you in the following ways: 
+
+  * Share the plan with you
+  
+    For information about sharing plans, see [Share a plan in the [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md).
+
+  * Send a link to a plan they created
+  
+    If a user shares a link to a plan without also sharing the plan, you can request permissions to the plan. For information about requesting permissions to plans, see [Request access to a plan in the [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md). 
+
+>[!NOTE]
+>
+>When a user is deactivated, their plans have no owner and cannot be accessed unless previously shared with a link.
  
+
