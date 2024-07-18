@@ -18,6 +18,8 @@ A workflow is a set of actions that connect Workfront to Adobe Experience Manage
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following:
 
 <table>
@@ -56,6 +58,8 @@ For information on requesting additional access, see <strong>Request access to o
    </td>
   </tr>
 </table>
+
++++
 
 ## Prerequisites
 
@@ -139,7 +143,6 @@ All workflow values can be found in:
 >Because linked folders are created when the project is created, editing the linked folder workflow on an existing project is ineffective. Editing these values when creating a project functions as expected.
 
 To edit the workflow for linked folders:
-
 
 1. Toggle the **[!UICONTROL Create Linked folder]** on or off as desired. If you toggle it on, you can then edit the linked folder configuration.
 
