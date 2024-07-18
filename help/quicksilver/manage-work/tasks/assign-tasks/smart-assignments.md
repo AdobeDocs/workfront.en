@@ -43,13 +43,13 @@ You can view smart assignments in the following areas where you can assign tasks
 
   ![](assets/smart-assignments-issue-list.png)
 
- * <span class="preview">A task list or report in the Assignments column </span>
+ * A task list or report in the Assignments column
 
-    <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+    ![](assets/smart-assignments-task-list.png)
 
-* <span class="preview">A task header in the Assignments field</span>
+* A task header in the Assignments field
 
-  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+  ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * An issue header in the Assignments field
 
@@ -57,24 +57,24 @@ You can view smart assignments in the following areas where you can assign tasks
 
 * The task or issue Summary panel in the Assignments area
 
-  ![](assets/smart-assignments-summary-panel-nwe-350x332.png)
+  ![](assets/issue-assignments-summary-panel.png)
 
-* <span class="preview">The Assignments field in the New Task box, when adding a task to a project</span>
+* The Assignments field in the New Task box, when adding a task to a project
 
-  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+  ![](assets/smart-assignments-new-task-modal.png)
 
+<!--this is not possible in the new home  - we have Summary there: 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
 
-  <span class="preview">![](assets/smart-assignments-in-home-nwe-350x216.png)</span>
+  ![](assets/smart-assignments-in-home-nwe-350x216.png)
+-->
 
 * Workload Balancer in the Assigned this to area when you assign a task or issue
 
-  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
+  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## Smart assignments criteria
-
-<div class="preview">
 
 Smart assignments work differently for tasks than for issues.  
 
@@ -128,17 +128,16 @@ If the first step of task smart assignments has found no matches, Workfront calc
 
 For more information, see the section [Smart assignments criteria for tasks and issues](#smart-assignments-criteria-for-tasks-and-issues) in this article. 
 
-Assignments identified in this phase are listed in the **Users and teams**, **Job role assignments**, and **Rate card roles**  sections of the Assignments field. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
+Assignments identified in this phase are listed in the **Users and teams**, **Job role assignments**, and <span class="preview">**Rate card roles**</span>  sections of the Assignments field. <span class="preview">For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md)</span>. <!--keep the rate cards roles in yellow after the release of assignments to Prod-->
 
 ### Smart assignments criteria for tasks and issues 
 
-</div> 
 
 >[!NOTE]
 >
-><span class="preview">The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. For information, see the section [First phase of smart assignment calculation for tasks](#first-phase-of-smart-assignment-calculation-for-tasks) in this article. The following criteria always applies for issues, by default. </span>
+>The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. For information, see the section [First phase of smart assignment calculation for tasks](#first-phase-of-smart-assignment-calculation-for-tasks) in this article. The following criteria always applies for issues, by default. 
 
-<span class="preview">![](assets/smart-assignments-issue-header.png)</span>
+![](assets/smart-assignments-issue-header.png)
 
 Users are recommended in the smart assignments drop-down list based on a combination of the following criteria (listed in order from most important to least important): 
 
