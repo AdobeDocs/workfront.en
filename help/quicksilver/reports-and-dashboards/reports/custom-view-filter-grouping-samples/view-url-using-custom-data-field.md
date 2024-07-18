@@ -54,7 +54,7 @@ You must have the following access to perform the steps in this article:
 
 ## Create the "Custom URL" calculated custom field
 
-For information about creating a calculated custom field, see the article [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+For information about creating a calculated custom field, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 If you have access to create a custom form, you can create a calculated custom field for tasks called "Custom URL." This field links directly to the **Overview** subtab within the **Task Details** tab.
 

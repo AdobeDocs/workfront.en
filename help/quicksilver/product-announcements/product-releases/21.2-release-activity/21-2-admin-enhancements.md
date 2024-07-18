@@ -168,5 +168,3 @@ For more information, see the following articles:
 
 When users type in Custom Form fields that allow formatting, they can now organize the text using bullets, numbering, hyperlinks, and block quotes, in addition to bold, italics, and underline.
 
-For more information, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-

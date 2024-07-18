@@ -173,9 +173,9 @@ To populate the Excel spreadsheet with information for the new custom fields:
 
     * The **`setName`** and the **`setValue`** columns usually contain the same information and they should reflect the names desired in the Workfront interface for your new field. 
     
-    The value of a field is the name which appears in reports, for example, whereas the name displays in the custom forms attached to objects. 
+    The value of a field is the name which appears in reports, for example, whereas the name displays in the custom forms attached to objects.
     
-    For more information, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
+    For more information, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
     ![](assets/parameter-sheet-filled-out-kick-starts.png)
 
@@ -196,7 +196,7 @@ To populate the Excel spreadsheet with information for the new custom fields:
 
     * **`setParameterID`** = the options corresponding to the _Brand_ custom field  have a **`setParameterID`** of 1, and the options corresponding to the _Media_ have a **`setParameterID`**of 2. The `PARAM` and `POPT` sheets cross-reference each other to indicate which options belong to which custom field.  
     * **`setDisplayOrder`**=  the display order column indicates the order in which the options will display in your custom field. You can start with 1 and continue in ascending order for all the options, regardless of which fields they will belong to. The important thing here is to have unique numbers for each option.  
-    * The **`setLabel`** and the `**setValue`** columns usually contain the same information and they should reflect the names desired in the Workfront UI. The value of an option is the name that displays in reports, for example, whereas the label displays in the custom forms when attached to an object. For more information, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).  
+    * The **`setLabel`** and the `**setValue`** columns usually contain the same information and they should reflect the names desired in the Workfront UI. The value of an option is the name that displays in reports, for example, whereas the label displays in the custom forms when attached to an object. For more information, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).  
     * **`setIsHidden`** = enter `TRUE` if you want any of the options to be hidden.  
 
     ![](assets/parameter-option-sheet-filled-out-kick-starts.png)
@@ -259,7 +259,7 @@ After performing the steps described in the previous sections, continue with the
     >The new forms and the fields you imported are not yet connected. The form is imported with no custom fields. You must manually add the fields to the new custom form or to another existing custom form.   
 
     
-    For information about adding fields to custom forms, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md). 
+    For information about adding fields to custom forms, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. (Conditional) If the import was not successful, you receive an error message with what the problem is. Try to identify the field, the sheet, and the row number in which the problem was encountered and correct the information in the Excel file, then try importing the file one more time.
 
