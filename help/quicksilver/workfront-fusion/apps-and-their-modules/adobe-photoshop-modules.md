@@ -807,7 +807,13 @@ This action module replaces a Smart Object within a PSD layer, and generates new
       </td>
    <td>For each layer you want to add to the Smart Object, click Add item and Enter the object's name or ID, the file service where the Smart Object is stored, and the the URL or path of the layer.<p>For descriptions of the advances settings in this area, see <a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/photoshop_replaceSmartObject/">Replace a Smart Object</a> in the Photoshop API documentation </td> 
     </tr>
-  <!--  <tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Outputs]</td>
+      <td>
+        <p>For each new rendition you want the module to produce, click Add item and fill in the following fields. You can have a maximum of 25 output files.</p>
+      </td>
+    </tr>
+    <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
         <p>Select the file service where the you want the new file to be stored.</p>
@@ -820,47 +826,23 @@ This action module replaces a Smart Object within a PSD layer, and generates new
    <td> Enter or map the URL or path of where the new file will be stored. </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Overwrite]</td>
+      <td role="rowheader">
+        <p>[!UICONTROL (Output) Width]</p>
+      </td>
+   <td> The width, in pixels, of the output file. The module will preserve the original aspect ratio. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (Output) Overwrite]</td>
       <td>
         <p>Select whether the newly edited file will overwrite any output file that already exists. This applies only to files in Adobe storage.</p>
       </td>
     </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Color space]</p>
-      </td>
-   <td>Select whether the output image uses RGB or RGBA color. </td> 
-    </tr>
-     <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Mask format]</p>
-      </td>
-   <td>Select whether the edges of the image should be soft (feathered) or binary. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Optimize]</p>
-      </td>
-   <td>Select Performance to optimize for speed, or Batch to allow wait time. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Post process]</p>
-      </td>
-   <td></td> 
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Version]</p>
-      </td>
-   <td>Default is 4.0</td> 
-    </tr> 
         <tr>
       <td role="rowheader">
         <p>[!UICONTROL Maximum number of returned results]</p>
       </td>
    <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td> 
-    </tr>-->
+    </tr>
     </tbody>
 </table>
 
