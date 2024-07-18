@@ -318,13 +318,13 @@ You can edit an issue using the Edit Issue or Issue Details areas. The following
 
    ![](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
 
-1. In the **Add custom form** field, select the custom form or forms that you want to associate with the issue. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list. For more information about building custom forms, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). You can add up to ten custom forms to an issue. 
+1. In the **Add custom form** field, select the custom form or forms that you want to associate with the issue. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list. For more information about building custom forms, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). You can add up to ten custom forms to an issue. 
 
 1. (Conditional) If you attached a custom form to the issue, edit any fields on the form. You must specify all required fields before you can save the issue.
 
    >[!NOTE]
    >
-   >Depending on how your Workfront Administrator set the permissions for the sections in your custom form, not everyone can view or edit the same fields on a given custom form. The permissions to edit fields within a section of a custom form depend on the permissions you have on the issue itself. For information about setting permissions on sections of a custom form, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). For information about setting issue permissions, see [Share an issue](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
+   >Depending on how your Workfront Administrator set the permissions for the sections in your custom form, not everyone can view or edit the same fields on a given custom form. The permissions to edit fields within a section of a custom form depend on the permissions you have on the issue itself. For information about setting permissions on sections of a custom form, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). For information about setting issue permissions, see [Share an issue](../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md).
 
 1. Click **Save** or continue editing the following section.
 

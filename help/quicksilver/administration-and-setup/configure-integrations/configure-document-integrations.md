@@ -210,7 +210,7 @@ Information is mapped one-way only, from [!DNL Workfront] to [!DNL Workfront DAM
 You can map the same [!DNL Workfront] field to various [!DNL Workfront DAM] fields, but you cannot use the same [!DNL Workfront DAM] field for multiple [!DNL Workfront] fields.
 
 If you must configure multiple [!DNL Workfront] fields to export to one [!DNL Workfront DAM] field, first create a calculated custom field in [!DNL Workfront] to display all the individual custom fields of an object. Then, map the calculated [!DNL Workfront] field to one [!DNL Workfront DAM] field.\
-For more information about calculated custom fields, see [Add calculated data to a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+For more information about calculated custom fields, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 The mapping affects all the documents uploaded by any user from [!DNL Workfront] to [!UICONTROL Workfront] DAM.
 

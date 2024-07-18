@@ -65,7 +65,7 @@ For more detail about the information in this table, see [Access requirements in
    >
    >Deleting a custom form also deletes all custom data on the objects associated with the form. The deleted data cannot be recovered. Consider deactivating a custom form instead—when deactivate a custom form you no longer use, you retain all of the associated historical data.
    >
-   >For more information, see [Delete object types on a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
+   >For more information, see [Add or delete object types from an existing custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md) and [Deactivate or reactivate a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md).
 
 
 1. Next, you can start adding fields to your custom form. See the following sections:
@@ -534,6 +534,7 @@ For examples of using the External Lookup field to call the same instance of Wor
 >
 >* External lookup functionality is not currently supported on Document custom forms.
 >* External lookup fields from custom forms are currently not supported in dashboards. You cannot edit the field value inline, and it may not display properly in a dashboard. (External lookup fields are supported in Canvas Dashboards.)
+>* External lookup fields are not supported in the Outlook plug-in.
 >* External lookup fields are available in lists, unless the field has a dependency on another field.
 
 To add an external lookup:

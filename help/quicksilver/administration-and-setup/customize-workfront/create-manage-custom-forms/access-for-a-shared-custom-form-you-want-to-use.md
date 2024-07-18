@@ -3,18 +3,18 @@ user-type: administrator
 product-area: system-administration
 keywords: access,shared,custom,form
 navigation-topic: create-and-manage-custom-forms
-title: Access for a shared custom field you want to use
+title: Access to a shared custom field
 description: When someone shares a custom field with View or Manage access, they can configure several other settings to further define that access. If you are a recipient of the field, those settings impact what you can do with the field. You might see the following when you view the field.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 36172f4c-fe10-49d2-b10b-abb0cfce62c1
 ---
-# Access for a shared custom field you want to use
+# Access to a shared custom field
 
 When someone shares a custom field with View or Manage access, they can configure several other settings to further define that access. If you are a recipient of the field, those settings impact what you can do with the field. You might see the following when you view the field.
 
-For more information about how users configure sharing settings when sharing a custom form, see [Configure sharing for custom fields and widgets](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
+For more information about how users configure sharing settings when sharing a custom form, see [Configure sharing for custom fields and widgets in a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md).
 
 <table style="table-layout:auto"> 
  <col> 

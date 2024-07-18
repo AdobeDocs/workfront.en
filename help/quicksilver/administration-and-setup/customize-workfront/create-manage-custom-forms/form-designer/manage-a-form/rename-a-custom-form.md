@@ -1,5 +1,5 @@
 ---
-title: Rename a custom form with the form designer
+title: Rename a custom form
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -9,7 +9,7 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8c49c2c8-4056-46a2-9ede-efb91ff237e5
 ---
-# Rename a custom form with the form designer
+# Rename a custom form
 
 You can rename a custom form any time after it has been created with the form designer.
 

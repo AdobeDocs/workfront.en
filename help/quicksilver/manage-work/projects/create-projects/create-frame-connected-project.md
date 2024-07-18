@@ -20,9 +20,11 @@ When a Workfront project is connected with Frame.io, you can
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article. 
+
 >[!IMPORTANT]
 >
->This functionality is available only to organization that have been onboarded to the [!DNL Adobe Admin Console].
+>This functionality is available only to organizations that have been onboarded to the [!DNL Adobe Admin Console].
 
 You must have the following:
 
@@ -50,6 +52,8 @@ You must have the following:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisites
 

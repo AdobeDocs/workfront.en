@@ -10,7 +10,7 @@ exl-id: eaafe79b-bdbc-4fb9-b449-23e5a4bc455a
 
 You can add a custom view in the Custom Forms area that shows which reports are using a particular custom field or widget. This is useful when you need to edit or delete the field or widget, because it might already be implemented in one or more reports. It's important to assess whether those reports will need adjustments in order to keep working properly.
 
-For information about custom fields and widgets in custom forms, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) and [Add or edit an asset widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+For information about custom fields and widgets in custom forms, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Access requirements
 

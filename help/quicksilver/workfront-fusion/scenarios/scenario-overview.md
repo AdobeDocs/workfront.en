@@ -30,8 +30,7 @@ A scenario is comprised of a series of modules that indicate how data should be 
 >This functionality is available for the following licenses:
 >
 >* [!UICONTROL [!DNL Workfront Fusion] for Work Automation] 
->* [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] 
->
+>* [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration]
 
 [!DNL Workfront Fusion] enables you to automate simple or complex workflows within [!DNL Workfront], saving time and ensuring that the process is executed consistently.
 

@@ -52,9 +52,9 @@ You can use text mode when you want to achieve the following in&nbsp;Workfront:
 
 You can use text mode to add a calculated custom field to a Custom Form.
 
-For more information about adding a calculated custom field to a Custom Form, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+For more information about adding a calculated custom field to a Custom Form, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-For more information about creating a calculated custom field in text mode, see [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+For more information about creating a calculated custom field in text mode, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 For example, you can add a calculated custom field that shows a time and date stamp of the moment when an item was marked as In Progress. You can use this calculation for other statuses.
 

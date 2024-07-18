@@ -68,8 +68,6 @@ For more information, see [Tag others on updates](/help/quicksilver/workfront-ba
 
 To prepare for future enhancements that will help you add calculations to custom forms, we have standardized the syntax for referenced fields that you add to a calculation. It's easy to use this new syntax because the system enters it for you when you start typing the name of a field and then select it.
 
-For more information, see the section "Build the calculation for your calculated custom field" in the [article Add calculated data to a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
-
 ## Keep accurate information when two users with a common role are involved in an approval process
 
 To ensure accuracy of your data for approving work, we have made a change in the way approval information is recorded on an item when a multi-role approval process is associated with the item.

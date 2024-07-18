@@ -216,7 +216,6 @@ You can choose from the following object-based wildcards:
      <p>The $$OBJCODE variable refers to the type of an object. </p> 
      <p>In a custom form, when the form's selected object types are incompatible with a field referenced in a calculated custom field, you can use this wildcard to avoid the workaround of creating duplicate forms for those object types.</p> 
      <p>In the calculated custom field, you do this by including the wildcard in an IF expression so that the calculation can output different values for each of your form's object types. </p> 
-     <p>For more information and an example, see the section <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat" class="MCXref xref">Calculated custom fields in multi-object custom forms</a> in the article <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md" class="MCXref xref">Add calculated data to a custom form</a>.</p> 
     </div> </td> 
   </tr> 
  </tbody> 

@@ -517,7 +517,7 @@ You must have either of the following access or permissions in order to attach a
 
 All users can see custom forms that have been associated with their profiles.
 
-Your [!DNL Workfront] administrator must configure custom forms for the user object in order for you to be able to attach a custom form to your user profile. For more information about creating custom forms, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Your [!DNL Workfront] administrator must configure custom forms for the user object in order for you to be able to attach a custom form to your user profile. For more information about creating custom forms, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ### [!UICONTROL Comment]
 

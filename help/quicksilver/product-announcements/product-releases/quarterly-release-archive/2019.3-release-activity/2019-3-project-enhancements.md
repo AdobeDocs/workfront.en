@@ -24,8 +24,6 @@ Or, if you have created a Single Line Text Field, you can change it to a Paragra
 
 Previously, to change the display type of a custom field, you had to create a new field and delete the old one. This required transferring data, which was often time consuming.
 
-For more information, see [Create or edit a custom form](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) in the article [Create or edit a custom form](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
-
 >[!NOTE]
 >
 >Preview availability:&nbsp;August 9, 2019
@@ -180,8 +178,6 @@ For information about time off, see [Configure personal time off](../../../../wo
 We have created a new field type in the custom form builder called Typeahead. This field allows you to add fields that represent objects to your custom forms. Currently, the User object is enabled with Typeahead, and other objects are coming in the future.
 
 Previously, administrators had to manually maintain users as individual options in custom form drop-down menus.
-
-For more information, see [Create or edit a custom form](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 
 >[!NOTE]
 >
