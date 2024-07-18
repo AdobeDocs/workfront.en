@@ -19,6 +19,8 @@ For information about adding a new version of a document linked to Workfront fro
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following:
 
 <table style="table-layout:auto"> 
@@ -47,6 +49,8 @@ You must have the following:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
++++
 
 ## Use drag-and-drop to add a new version
 
