@@ -292,6 +292,13 @@ The following are the highest access settings available for objects in the Contr
 
 {style="table-layout:auto"}
 
+>[!IMPORTANT]
+>
+>Starting with the 24.7 release, Contributors have View access to Programs and Portfolios by default. 
+>
+>&nbsp;
+>Contributors onboarded before the 24.7 release will continue to have No access to Programs and Portfolios by default. You can update their access to view manually if needed.
+
 ### External User access level
 
 This access level is not attached to a paid Workfront license. It is the most restrictive access level, designed primarily for collaborators like external consultants who don't log into Workfront, but need to review, download, or view documents occasionally.
