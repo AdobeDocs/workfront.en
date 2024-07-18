@@ -48,8 +48,6 @@ For more information, see the following articles:
 
 We are continuing to help you make custom forms more visual and informative with new asset widgets you can add, such as images and videos. Now you can add a link to a PDF file to a custom form. When the form is attached to an object, users who work with the object can view and interact with the PDF from within the form.
 
-For more information, see [Add or edit an image or other asset widget in a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
-
 ## Custom form field calculation editor displays error information
 
 >[!NOTE]
@@ -57,8 +55,6 @@ For more information, see [Add or edit an image or other asset widget in a custo
 >This feature is temporarily unavailable. This page will be updated when the feature is available.
 
 Editing calculations for custom fields is now easier with helpful error information indicated directly in the calculation. While you are creating a calculated field in a custom form, errors are highlighted in pink. When you hover over the highlighted portion, a tooltip displays to describe what the problem is.
-
-For more information, see [Add calculated data to a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
 
 ## Project header customization
 
@@ -105,6 +101,4 @@ For more information, see [Deactivate or reactivate a group](/help/quicksilver/a
 Now you can provide a new mode of information, visual interest, and creativity to a custom form by adding a video. When the form is attached to an object, users who work with the object can play the video any time.
 
 Previously, you could add only text-based fields and images to a custom form.
-
-For more information, see [Add or edit an image or video asset widget in a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 

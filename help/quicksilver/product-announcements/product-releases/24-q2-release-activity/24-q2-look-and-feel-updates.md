@@ -28,4 +28,4 @@ The email templates for adding an approver to an asset and for adding a user to 
 
 We have updated the tabs for Forms, Fields, and Sections in the Setup > Custom Forms area to a more modern design that is consistent with other areas of Workfront. You now access the three areas from the left navigation menu. Filters, views, and groupings are still available for the lists. The updated design applies to custom forms, fields, and sections created in both the new form designer and the legacy form builder.
 
-For information, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) and [Create or edit a custom form with the legacy form builder](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+For information, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

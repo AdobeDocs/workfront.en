@@ -177,7 +177,7 @@ You can create a filter from scratch or edit one of the predefined filters. For 
 
       >[!IMPORTANT]
       >
-      >When referencing custom fields, you must type the field name and not the field label. The field label displays on a custom form attached to an object. For information about the difference between the label and the name of a custom field, see [Create or edit a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+      >When referencing custom fields, you must type the field name and not the field label. The field label displays on a custom form attached to an object. For information about the difference between the label and the name of a custom field, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
    1. (Conditional) If you clicked **Browse fields**, type the name of a field in the **Search** field and select it when it displays in the list.
 

@@ -52,7 +52,7 @@ Because environment promotion deals with object configuration, transactional obj
 
 | Promotable object | Included promotable linked objects |
 | --- | --- |
-| Layout Template (UITMPL) | Layout Template<br>Dashboard<br>Calendar<br>Calendar Section<br>External Page<br>Report<br>Filter<br>Grouping<br>View<br>Parameter  | 
+| Layout Template (UITMPL) | Layout Template<br>Dashboard<br>Calendar<br>Calendar Section<br>External Page<br>Report<br>Filter<br>Grouping<br>View<br>Parameter<br>Group  | 
 | Dashboard (PTLTAB) | Dashboard<br>Calendar<br>Calendar Section<br>External Page<br>Report<br>Filter<br>Grouping<br>View<br>Parameter  | 
 | Calendar (CALEND) | Calendar<br>Calendar Section | 
 | External Page (EXTSEC) | External Page |

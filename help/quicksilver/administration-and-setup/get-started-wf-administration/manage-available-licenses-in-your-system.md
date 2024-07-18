@@ -38,7 +38,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> </td> 
+   <td> <p>You must be a system administrator or a group administrator. The group administrator has a limited view of license information.</p> </td> 
   </tr> 
  </tbody> 
 </table>

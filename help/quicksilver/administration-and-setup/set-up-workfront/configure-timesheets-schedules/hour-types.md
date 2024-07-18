@@ -29,7 +29,7 @@ There are two sets of hour types:
    * Task Time
    * Issue Time
 
-   The [!DNL Workfront] administrator determines which project-specific hour types are made available, as described in [Define hour types and availability for timesheets](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+   The [!DNL Workfront] administrator determines which project-specific hour types are made available, as described in [Define hour types and availability](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    >[!NOTE]
    >
@@ -75,7 +75,7 @@ The hour types that come with [!DNL Workfront] are:
 
 ## Create hour types
 
-As a [!DNL Workfront] administrator, you can create new hour types for your organization on both system and project levels. After you create hour types on the system and project levels, users can define which hour types are available for specific projects and users. For more information, see the [Define hour types and availability for timesheets](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
+As a [!DNL Workfront] administrator, you can create new hour types for your organization on both system and project levels. After you create hour types on the system and project levels, users can define which hour types are available for specific projects and users. For more information, see the [Define hour types and availability](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
 
 To create new hour types:
 

@@ -12,6 +12,14 @@ This page describes enhancements made with the Third Quarter 2024 release to the
 
 For a list of all changes available at this point in the Third Quarter 2024 release cycle, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
+## Backend change to in-product guides
+
+>[!NOTE]
+>
+>Production for all customers: Incrementally through mid-August 2024
+
+We are implementing a technology change for our in-product guides over the next few weeks. While we've tried to minimize the impact of this transition, some users may encounter guides that they have previously seen.
+
 ## Adobe Unified Experience now available for more Workfront organizations
 
 >[!NOTE]

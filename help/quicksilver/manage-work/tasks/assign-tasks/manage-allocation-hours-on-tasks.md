@@ -9,12 +9,6 @@ exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
 ---
 # Manage user and role allocation hours on tasks
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
-
 When assigning users or roles to a task, they are allocated to work a certain number of hours to complete the task. You can manually modify the amount of hours that each user or job role is allocated when they are assigned to a task, when the task&nbsp;Duration&nbsp;Type is Simple.
 
 ## Access requirements
@@ -76,10 +70,6 @@ You must have the following access to perform the steps in this article:
 1. Ensure that the **Duration Type** of the task is **Simple**.
 1. Modify the **Allocations** for each task assignee. These are overall allocations for each assignment to this task, for the entire duration of the task. This might also update the overall Planned Hours of the task.
 
-   Sample image in the Production environment:
-   ![](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)
-
-   <span class="preview">Sample image in the Preview environment:</span>
    ![Modify allocations](assets/advanced-assignments-duration-type-allocations.png)
 
 1. Click **Save**.
