@@ -10,15 +10,6 @@ exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 ---
 # Create advanced assignments
 
-<!--Audited: 07/2024-->
-
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>-->
-
 You can manage task or issue assignments by using Advanced Assignments.
 
 You can adjust the following assignment information when making advanced assignments:
@@ -152,7 +143,7 @@ In addition, you can make advanced assignments in the following areas of Workfro
      >
 
    * **Assignee's Role:** Select the role the user should use when fulfilling this assignment.  The Primary Role of the user displays by default. Click in the Assignee's Role box to select another role.  When you assign the task or the issue to a role first, and then add a user who can fulfill that role as a second assignment, the list of suggested users is filtered for the users who can fulfill the roles already assigned to the task and issue.
-     
+
      ![Assignee's Role](assets/advanced-assignments-select-role.png)
 
    <!--<div class="preview">
@@ -171,6 +162,5 @@ In addition, you can make advanced assignments in the following areas of Workfro
    
    * **Planned Hours**: When the Duration Type is Calculated Assignment or Simple, update the number of Planned Hours. The allocation percentages or the hours for each resource are distributed evenly as a result. Workfront calculates the Planned Hours when the Duration Type is Calculated Work or Effort Driven. For more information, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
-      ![Advanced Assignments](assets/advanced-assignments-duration-type-allocations.png)
 
 1. Click **Save**.

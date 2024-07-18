@@ -67,7 +67,7 @@ You must have the following in [!DNL Workfront] to use this scenario:
    | [!UICONTROL Last Transmission Date] | Date |
    | [!UICONTROL Integration Notes] | Paragraph Text Field |
 
-   For information on creating custom forms, see [Create or edit a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+   For information on creating custom forms, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Expected [!DNL Anaplan] Configuration
 

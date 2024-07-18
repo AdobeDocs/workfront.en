@@ -52,7 +52,6 @@ For a list of all changes made in 2019.4, see [2019.4 release overview](../../..
      <strong>Additional object types available for Typeahead fields in a custom form</strong> 
      <p>Now, when you are creating a Typeahead custom field, you can associate the following object types with the field: User, Company, Group, Job Role, Portfolio, Program, Project, and Template.</p> 
      <p>Previously, you could associate only the User object type with a Typeahead custom field.</p> 
-     <p>For more information, see the section <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">Create or edit a custom form</a> in the article <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">Create or edit a custom form</a>.</p> 
     </div> </td> 
   </tr> 
   <tr> 
@@ -69,7 +68,6 @@ For a list of all changes made in 2019.4, see [2019.4 release overview](../../..
      <p>For example, if you have created a Checkboxes field, you can change it to a Dropdown field or a Radio Buttons field. These three field display types are interchangeable.</p> 
      <p>Or, if you have created a Single Line Text Field, you can change it to a Paragraph Text field. These two field display types are interchangeable.</p> 
      <p>Previously, to change the display type of a custom field, you had to create a new field and delete the old one. This required transferring data, which was often time consuming.</p> 
-     <p>For more information, see <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">Create or edit a custom form</a> in the article <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">Create or edit a custom form</a></p> 
     </div> </td> 
   </tr> 
   <tr> 

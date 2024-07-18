@@ -100,7 +100,7 @@ Consider the following when requesting a project through a Business Case:
 
    Custom Forms must be created before they can be attached to projects.
 
-   For more information about Custom Forms, see the article [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   For more information about Custom Forms, see the article [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Click&nbsp;**Submit**.
 

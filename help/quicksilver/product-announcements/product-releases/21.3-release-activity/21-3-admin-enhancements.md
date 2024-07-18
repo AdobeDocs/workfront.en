@@ -42,8 +42,3 @@ For more information, see [Manage group statuses](../../../administration-and-se
 ## New for administrators: Create a billing record custom form
 
 Now you can improve how users capture billing information by creating a billing record custom form. Users can attach the custom form to a billing record, fill it out, and run reports that include the information in the form.
-
-For information about creating custom forms, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-
-For information about attaching a billing record custom form to a project, see [Add a custom form to an object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
-

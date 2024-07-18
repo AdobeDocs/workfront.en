@@ -32,7 +32,6 @@ The multiple-choice field types are Dropdown, Checkboxes, and Radio Buttons.
   This would be especially useful if you add a lot of other fields about logos, website updates, and brochures that this user doesn't need to see.
   You can apply a skip logic rule only to a custom field, not to a widget or section.
 
-For information about custom fields and widgets in custom forms, see [Add a custom field to a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) and [Add or edit an asset widget in a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## Access requirements
 

@@ -80,7 +80,7 @@ You cannot build a chart in a report by referencing a multi-select custom field.
 To build a calculated field that references a multi-select custom field, you must have the following prerequisites:
 
 * A multi-select custom field in a custom form.  
-  For information about building custom forms and adding custom fields to them, see the article [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  For information about building custom forms and adding custom fields to them, see the article [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * A custom form with the multi-select custom field attached to objects.
 * Values for the multi-select custom field for each object.
@@ -89,7 +89,7 @@ To build the calculated custom field that references the multi-select custom fie
 
 1. Create a custom form, or edit an existing one.  
 
-   For information about creating custom forms, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   For information about creating custom forms, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Select the object or objects that you plan to use with the custom form. 
 1. Click **Add a Field**, then **Calculated** to add the multi-select custom field to the form.

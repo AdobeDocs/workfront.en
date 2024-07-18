@@ -66,8 +66,6 @@ Before you can perform the actions described in this article, you must make sure
 
 * Any custom fields that you want to report on have the setting **Display field changes in update feeds** enabled.
 
-  To learn how to enable this setting for a custom field, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#).
-
 ## Journal Entry report overview
 
 Because the Journal Entry report queries system updates, it can return a significant number of results. For this reason, we recommend that you filter to specific objects—such as projects, programs, portfolios, groups, and so forth—when creating the report.

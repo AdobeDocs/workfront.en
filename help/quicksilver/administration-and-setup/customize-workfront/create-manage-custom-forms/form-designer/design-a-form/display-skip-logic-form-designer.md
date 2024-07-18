@@ -1,5 +1,5 @@
 ---
-title: Add display logic and skip logic with the form designer
+title: Add display logic and skip logic to a form
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -9,7 +9,7 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
 ---
-# Add display logic and skip logic with the form designer
+# Add display logic and skip logic to a form
 
 You can decide which sections of a custom form should be displayed or skipped based on the choices that a user makes when filling it out.
 

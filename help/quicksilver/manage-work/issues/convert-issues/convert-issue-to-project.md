@@ -123,7 +123,7 @@ You can convert an issue to a blank project.
       >[!TIP]
       >
       >* If a multi-object custom form attached to the issue is configured for use with both issues and projects, all information saved in the form is retained when you make the conversion if the fields exist both on the issue as well as the project's custom forms.
-      >* If a multi-object custom form with a calculated field is attached to the issue as well as to the project, the issue and the project must be compatible with all fields referenced in the form's calculated custom fields. If there is an incompatibility, a message alerts you to make adjustments. For more information, see the "Calculated custom fields in multi-object custom forms" section in the [Add calculated data to a custom form with the legacy form builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md). 
+      >* If a multi-object custom form with a calculated field is attached to the issue as well as to the project, the issue and the project must be compatible with all fields referenced in the form's calculated custom fields. If there is an incompatibility, a message alerts you to make adjustments. For more information, see the "Calculated custom fields in multi-object custom forms" section in the [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md). 
 
 1. Click [!UICONTROL **Convert to project**].
 
@@ -231,7 +231,7 @@ You can convert an issue to a project using a template.
         >[!TIP]
         >
         >* If a multi-object custom form attached to the issue is configured for use with both issues and projects, all information saved in the form is retained when you make the conversion if the fields exist both on the issue as well as the project's custom forms.
-        >* If a multi-object custom form with a calculated field is attached to the issue as well as to the project, the issue and the project must be compatible with all fields referenced in the form's calculated custom fields. If there is an incompatibility, a message alerts you to make adjustments. For more information, see the "Calculated custom fields in multi-object custom forms" section in the [Add calculated data to a custom form with the legacy form builder](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md). 
+        >* If a multi-object custom form with a calculated field is attached to the issue as well as to the project, the issue and the project must be compatible with all fields referenced in the form's calculated custom fields. If there is an incompatibility, a message alerts you to make adjustments. For more information, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md). 
         >* If a custom form attached to the template contains a custom field also found in a custom form attached to the issue, the field value from the issue is used for the new project. However, if the custom field is blank on the issue, the value from the template is used.
 
 1. (Optional) Set any further project details ​(project owner, project dates) and tasks as necessary.

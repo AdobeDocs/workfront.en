@@ -512,7 +512,7 @@ For more information about how to format the `valueexpression line`, see [Text m
 
 You cannot conditionally format a column which contains a `valueexpression` line of code. Instead, you can add a Calculated Custom Field to a Custom Form and associate it with the objects you are displaying in the report. Then, you can conditionally format the columns displaying this field.
 
-For more information about Calculated Custom Fields, see [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+For more information about Calculated Custom Fields, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 ## Add an aggregator value in a Text Mode column
 

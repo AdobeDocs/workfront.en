@@ -40,8 +40,6 @@ The mobile app now supports the following objects in custom form typeahead field
 * Team
 * Template
 
-For more information, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-
 ## Save requests as drafts in the Workfront mobile app
 
 >[!NOTE]

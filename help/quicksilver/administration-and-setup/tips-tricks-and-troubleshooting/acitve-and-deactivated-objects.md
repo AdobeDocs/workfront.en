@@ -76,7 +76,7 @@ A custom form must be active in order to appear on the [!UICONTROL Custom Form] 
 
 You can make a custom form active while editing the custom form.
 
-For information about editing custom forms and for a list of objects that you can associate them with, see [Create or edit a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+For information about editing custom forms and for a list of objects that you can associate them with, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Companies
 
