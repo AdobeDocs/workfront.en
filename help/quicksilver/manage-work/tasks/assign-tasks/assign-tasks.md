@@ -12,7 +12,7 @@ exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
 
 <!--Audited: 07/2024-->
 
-<!--remove the span class preview from everywhere but the Rate Card roles referencs must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
+<!--remove the span class preview from everywhere but the Rate Card roles references must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
@@ -140,12 +140,8 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 
    Or
 
-   Click the name of the assignments if the task or issue is already assigned.
+   Click the name of the assignments if the task is already assigned.
 
-   In the Production environment:
-   ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
-
-   <span class="preview">In the Preview environment:</span>
    ![Assignments](assets/assignments-box-in-task-header.png)
 
 1. Do one of the following:
@@ -162,7 +158,7 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
       ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
       
-   * (Conditional) Click one of the names in the <span class="preview">**Suggested assignments**, **User and teams**, or **Job roles**, or **Rate card roles**</span> lists when they display. For more information, see [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md). 
+   * (Conditional) Click one of the names in the **Suggested assignments**, **User and teams**, or **Job roles**, or <span class="preview">**Rate card roles**</span> lists when they display. For more information, see [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md). 
 
       You can start typing the name of any user, team, or job role to assign to the task, then select it when it displays in the list. 
    
@@ -209,7 +205,7 @@ To assign tasks in a list:
       >
       >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
       >
-      ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+      ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select a Job role to use the default billing rate for the assignment, or select a Rate Card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
 1. (Conditional) When visible in the **Assignments** field, click the **People** icon  in the upper-right corner of the assignments box to open the **Advanced Assignments** box and create advanced assignments.
