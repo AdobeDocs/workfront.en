@@ -2,14 +2,14 @@
 content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
-title: Review proofs within Adobe Workfront
+title: "Review proofs within Adobe Workfront: article index"
 description: Learn how to review proofs in Workfront.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: cf62d4ef-1244-4038-a56d-4a325140f93a
 ---
-# Review proofs within Adobe Workfront
+# Review proofs within Adobe Workfront: article index
 
 This section contains the following articles:
 
