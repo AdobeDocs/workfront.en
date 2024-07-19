@@ -21,6 +21,8 @@ When you move a document, any of the following will also move with the document:
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following:
 
 <table style="table-layout:auto"> 
@@ -48,6 +50,8 @@ You must have the following:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
++++
+
 ## Move a document
 
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
@@ -60,4 +64,4 @@ You must have the following:
 
 1. Click **Finish**.
 
-You can also move a document from the Document Details page. For more information, see in the article .
+You can also move a document from the Document Details page. 

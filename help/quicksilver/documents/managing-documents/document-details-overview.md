@@ -14,7 +14,7 @@ The Document Details page lets you view, communicate about, and manage the prope
 
 ## Open the Document Details page
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Documents**.
+{{step1-to-documents}}
 
 1. Hover over the document, then click **Document Details**.
 

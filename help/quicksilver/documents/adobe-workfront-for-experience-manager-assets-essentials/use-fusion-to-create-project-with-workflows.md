@@ -18,6 +18,8 @@ If you are creating a project through Workfront Fusion and want to include Adobe
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following:
 
 <table>
@@ -65,6 +67,8 @@ You must have the following:
    </td>
   </tr>
 </table>
+
++++
 
 ## Prerequisites
 
