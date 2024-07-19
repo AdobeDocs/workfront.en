@@ -10,13 +10,13 @@ exl-id: df2b895b-8bc1-4a55-b0d7-8a06db420315
 ---
 # Plans overview in the [!DNL Scenario Planner]
 
-The [!DNL Scenario Planner] requires a separate license in addition to the [!DNL Adobe Workfront] license. For information about the [!DNL Workfront Scenario Planner], see [The [!DNL Scenario Planner] overview](../scenario-planner/scenario-planner-overview.md).
-
 As a business manager, you can use the [!DNL Adobe Workfront Scenario Planner] to outline the strategy for your organization's near and long-term future by outlining its one-, three-, or five-year plans.
 
 ## Access requirements
 
-To use the [!DNL Adobe Workfront Scenario Planner] you must have the following access:
+For information about access requirements to access the Scenario Planner, see [Access needed to use the Scenario Planner](/help/quicksilver/scenario-planner/access-needed-to-use-sp.md). 
+
+<!--To use the [!DNL Adobe Workfront Scenario Planner] you must have the following access:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -40,16 +40,16 @@ To use the [!DNL Adobe Workfront Scenario Planner] you must have the following a
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Object permissions</p> </td> 
-   <td> <p>[!UICONTROL View] permissions or higher for a plan<!--
+   <td> <p>[!UICONTROL View] permissions or higher for a plan***************
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
         (NOTE: this might change if they have permissions for initiatives/ scenarios, etc) 
       </MadCap:conditionalText>
-     --></p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
+     ***************</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
-
 *To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+--> 
 
 ## Plans overview
 

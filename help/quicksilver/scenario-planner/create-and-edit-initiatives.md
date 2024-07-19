@@ -9,6 +9,8 @@ exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
 ---
 # Create and edit initiatives in the [!DNL Scenario Planner]
 
+<!--Audited: 07/2024-->
+
 When using the [!UICONTROL Adobe Workfront Scenario Planner], you can create initiatives in a plan that you created or that was shared with you. By creating initiatives you can show how smaller organizational units contribute to the completion of the plan. For example, if your organization has a plan for the next three years to expand into a new market, you can create initiatives within this plan for each department to estimate each department's need for people and budget to accomplish this plan.
 
 ## Access requirements
@@ -31,13 +33,13 @@ When using the [!UICONTROL Adobe Workfront Scenario Planner], you can create ini
    <p>Current: [!UICONTROL Review] or higher</p> </td> 
   </tr> 
   <tr> 
-   <td>Product </td> 
+   <td>Product*</td> 
    <td> 
    <p>For the current Workfront plans: </p>
    <p>You must purchase an additional license for the [!DNL Adobe Workfront Scenario Planner] to access functionality described in this article.</p> <p>For information about access and permissions for the [!DNL Workfront Scenario Planner], see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Access level configurations </td> 
+   <td>Access level </td> 
    <td> <p>[!UICONTROL Edit] access to the [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
