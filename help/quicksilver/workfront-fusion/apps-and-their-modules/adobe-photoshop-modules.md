@@ -539,12 +539,106 @@ This action module makes a custom call to the Photoshop API.
   </tbody>
 </table>
 
-
-<!--
-
 #### Watermark an image
 
--->
+This action module adds a watermark to the selected image.
+
+
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Photoshop], see <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Create a connection to [!DNL Adobe Photoshop]</a> in this article.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (Base / Input) Storage]</td>
+      <td>
+        <p>Select the file service where the file you want to add a watermark to is stored.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Base / Input) File location]</p>
+      </td>
+   <td> Enter or map the URL or path of the file that you want to add a watermark to. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (Watermark / Input) Storage]</td>
+      <td>
+        <p>Select the file service where the watermark you want to add is stored.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (Watermark / Input) Storage]</td>
+      <td>
+        <p>Select the file service where the watermark you want to add is stored.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Watermark / Bounds) Height]</p>
+      </td>
+   <td>Enter or map the desired height of the watermark in pixels.</td> 
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Watermark / Bounds) Width]</p>
+      </td>
+   <td> Enter or map the desired width of the watermark in pixels. </td> 
+    </tr>  
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Watermark / Bounds) Left]</p>
+      </td>
+   <td> Enter or map the distance in pixels from the left side of the image that the watermark should be.</td> 
+    </tr>  
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Watermark / Bounds) Top]</p>
+      </td>
+   <td> Enter or map the distance in pixels from the top of the image that the watermark should be.</td> 
+    </tr>  
+    </tr>  
+    <tr>
+      <td role="rowheader">[!UICONTROL (Output) Storage]</td>
+      <td>
+        <p>Select the file service where the you want the watermarked file to be stored.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Output) File location]</p>
+      </td>
+   <td> Enter or map the URL or path of where the watermarked file will be stored. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Output) Type]</p>
+      </td>
+   <td>Select the file type that you want to convert the file to. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Output) Width]</p>
+      </td>
+   <td> The width, in pixels, of the output file. The module will preserve the original aspect ratio. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (Output) Overwrite]</td>
+      <td>
+        <p>Select whether the newly edited file will overwrite any output file that already exists. This applies only to files in Adobe storage.</p>
+      </td>
+    </tr>
+        <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Maximum number of returned results]</p>
+      </td>
+   <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td> 
+    </tr>
+    </tbody>
+</table>
 
 ### Uncategorized
 
