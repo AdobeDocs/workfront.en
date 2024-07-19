@@ -88,6 +88,12 @@ You must have the following access to perform the steps in this article:
 
 *For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
+## Edit records using the table view
+
+You can edit record information only in the table view. 
+
+For more information about editing records in the table view, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
+
 ## Manage a table view {#manage-a-table-view}
 
 <!--insert screen shot of table view-->

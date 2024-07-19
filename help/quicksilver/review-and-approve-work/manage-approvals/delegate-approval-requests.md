@@ -29,6 +29,8 @@ You cannot delegate timesheet, document, or proof approvals.
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -48,7 +50,9 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your Workfront administrator.
+To find out what plan or license type you have, contact your Workfront administrator.
+
++++
 
 ## Understand user access for delegated approvals
 
@@ -73,9 +77,7 @@ After the approval delegation stops or is canceled, the user designated as the a
 
 ## Delegate approval requests in the Home area
 
-* [Delegate your approvals to another user](#delegate-your-approvals-to-another-user) 
-* [Update or stop an approval delegation](#update-or-stop-an-approval-delegation) 
-* [View delegated approvals](#view-delegated-approvals)
+You can delegate approval requests from the Home area.
 
 ### Delegate your approvals to another user {#delegate-your-approvals-to-another-user}
 
