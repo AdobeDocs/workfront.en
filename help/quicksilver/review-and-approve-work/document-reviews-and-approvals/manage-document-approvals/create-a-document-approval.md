@@ -17,6 +17,9 @@ cYou can request approval from other users or teams for a document in Adobe Work
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -43,6 +46,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
++++
 
 ## Create a document review or approval request from the document page
 
