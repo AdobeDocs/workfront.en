@@ -7,7 +7,7 @@ description: This section contains articles about managing asset and document ap
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
-exl-id: e582cab1-cbfb-4bd3-81cc-176be4a56885
+exl-id: 242910b9-f251-49c3-a6ad-de3039bdd2f5
 ---
 # Set up and manage asset and document approvals: article index
 

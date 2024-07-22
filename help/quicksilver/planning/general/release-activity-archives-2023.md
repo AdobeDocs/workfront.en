@@ -4,7 +4,7 @@ description: Adobe Workfront Planning capabilities are currently available to se
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
-exl-id: 94d6f589-9f93-4e55-9ed8-e71eadfc3017
+exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
 ---
 # Adobe Workfront Planning release activity archives for 2023
 
