@@ -1310,7 +1310,7 @@ feature-set: Workfront
       * [Set Tracking Mode for tasks](manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)
       * [Update task Leveling Delay](manage-work/tasks/task-information/task-leveling-delay.md)
       * [Update task Cost Type](manage-work/tasks/task-information/update-task-cost-type.md)
-      * [Differentiate between Projected and Estimated Dates](manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
+      * [Overview of Projected and Estimated Dates](manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
       * [Overview of task Original Duration and Original Planned Hours](manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
       * [Difference between Planned Duration and Duration for tasks](manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
     * Create tasks {#create-tasks}

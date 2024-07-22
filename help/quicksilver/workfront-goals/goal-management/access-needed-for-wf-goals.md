@@ -42,10 +42,7 @@ Your Adobe Workfront administrator must ensure all of the following conditions a
 
 Depending on which Workfront plan your company is currently on, the following scenarios exist: 
 
-* If your company has a new Workfront plan, you must have one of the following:
-
-  * An Ultimate Workfront plan. Workfront Goals are included in this plan. 
-  * A Select or higher Workfront plan and a separate Workfront Goals license.
+* If your company has a new Workfront plan, you must have an Ultimate Workfront plan. Workfront Goals are included only in this plan. 
 
 * If your company has the current Workfront plan, your organization must purchase an additional license, in addition to the Workfront license, for your users to be able to access Workfront Goals. 
 

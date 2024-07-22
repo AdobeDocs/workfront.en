@@ -9,10 +9,6 @@ exl-id: 82cd9641-1213-436c-935a-2f04a0425e9c
 ---
 # Overview of reconciling resource allocations between projects and initiatives
 
->[!IMPORTANT]
->
->Your organization must purchase an additional license for the [!DNL Adobe Workfront Scenario Planner] so that you can view initiative information on a project. For information about obtaining the [!DNL Workfront Scenario Planner], see [Access needed to use the Scenario Planner](../scenario-planner/access-needed-to-use-sp.md) .
-
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: two more articles were added to split content from here according to where the reconciling can happen) </p>
 -->

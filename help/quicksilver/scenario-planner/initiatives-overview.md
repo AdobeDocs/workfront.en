@@ -10,7 +10,6 @@ exl-id: d67f51e5-7c5c-436b-b0c3-e5afbd7cebca
 ---
 # Initiatives overview in the [!DNL Scenario Planner]
 
-The [!DNL Scenario Planner] is available only in the new [!DNL Adobe Workfront] experience and requires an additional license. For information about the [!DNL Workfront Scenario Planner], see [The [!DNL Scenario Planner] overview](../scenario-planner/scenario-planner-overview.md). 
 As a business manager, you can create initiatives for plans in the [!DNL Adobe Workfront Scenario Planner]. For information about creating plans, see the article [Create and edit plans in the [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md).
 
 ## Initiatives overview
