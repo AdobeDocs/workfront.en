@@ -7,6 +7,7 @@ description: You can select whether you want to receive new Workfront functional
 author: Lisa
 feature: System Setup and Administration
 role: Admin
+exl-id: 68db0e24-d61c-4b0f-b063-adb226ff421f
 ---
 # Create and edit business rules
 

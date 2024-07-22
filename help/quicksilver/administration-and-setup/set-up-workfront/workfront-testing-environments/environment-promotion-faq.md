@@ -9,6 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
+exl-id: b5e18afb-a45e-4a02-b7c2-ac0a012847d3
 ---
 # Environment promotion FAQ
 
@@ -67,4 +68,3 @@ Rollback is a top priority, and is currently in development. We expect to releas
 * "Use existing" is the same as "skipping" or ignoring the deployment, because it maps to the existing object in the target environment, and does not make any changes.
 * To skip objects, we recommend removing
 any objects that you don't want to install from the promotion package, or from the source environment directly. After removing the objects, reassemble the package.
-
