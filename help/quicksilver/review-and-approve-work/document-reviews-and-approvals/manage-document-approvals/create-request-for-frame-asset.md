@@ -49,9 +49,9 @@ You must have the following access to perform the steps in this article:
 
 1. Go to the project, task, or issue that contains the Frame.io connected, then select **Documents**.
 
-    >[!TIP]
-    >
-    >Frame.io connected assets have the Frame.io logo next to them.
+   >[!TIP]
+   >
+   >Frame.io connected assets have the Frame.io logo next to them.
 
 1. Click on the Frame.io connected asset you need to open the Document Summary panel.
 
@@ -59,7 +59,7 @@ You must have the following access to perform the steps in this article:
 
 1. Scroll down to the **Approvals** section, then click **Add**.
 
-  ![](assets/doc-summary-add-approvers.png)
+   ![](assets/doc-summary-add-approvers.png)
 
 1. (Optional) Set a deadline for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified deadline.
 
