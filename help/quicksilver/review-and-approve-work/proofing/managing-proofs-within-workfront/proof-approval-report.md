@@ -46,7 +46,8 @@ You must have the following:
 
 ## Use the proof approval report
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Reports**. 
+{{step1-to-reports}}
+
 1. Click **New Report**, then scroll to select **Proof Approval**.
 
    ![](assets/proof-approval-report.png)
