@@ -116,13 +116,13 @@ All users, including system administrators, have access only to plans that they 
 
 To view plans that other users created they must share their plans with you in the following ways: 
 
-  * Share the plan with you
+* Share the plan with you
   
-    For information about sharing plans, see [Share a plan in the [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md).
+  For information about sharing plans, see [Share a plan in the [!DNL Scenario Planner]](../scenario-planner/share-a-plan.md).
 
-  * Send a link to a plan they created
+* Send a link to a plan they created
   
-    If a user shares a link to a plan without also sharing the plan, you can request permissions to the plan. For information about requesting permissions to plans, see [Request access to a plan in the [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md). 
+  If a user shares a link to a plan without also sharing the plan, you can request permissions to the plan. For information about requesting permissions to plans, see [Request access to a plan in the [!DNL Scenario Planner]](../scenario-planner/request-access-to-plan.md). 
 
 >[!NOTE]
 >
