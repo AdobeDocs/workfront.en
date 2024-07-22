@@ -128,22 +128,32 @@ If you see the map button above a field or function, you can use it to set varia
 * [Check the status for audience-based message](#status-for-audience-based-message)
 * [Copy artifacts synchronously](#copy-artifacts-synchronously)
 * [Create a configuration](#create-a-configuration)
+<!--* Create a package-->
 * [Create a record](#create-a-record)
 * [Delete a configuration](#delete-a-configuration)
+<!--Delete a package-->
 * [Delete a record](#delete-a-record)
 * [Deploy a configuration](#deploy-a-configuration)
 * [Export artifacts asynchronously](#export-artifacts-asynchronously)
 * [Get a configuration](#get-a-configuration)
 * [Get a record](#get-a-record)
+<!--Import a package-->
 * [Import artifacts asynchronously](#import-artifacts-asynchronously)
+<!--List all dependent objects-->
+<!--List export and import jobs-->
+<!--Look up a package-->
 * [Make a custom API call](#make-a-custom-api-call)
 * [Patch a record](#patch-a-record)
-* [Trigger an audience-based message](#trigger-an-audience-based-message)
+<!--Publish a package-->
+<!--Submit an import-->
 * [Trigger a unitary message execution](#trigger-a-unitary-message-execution)
+* [Trigger an audience-based message](#trigger-an-audience-based-message)
 * [Undeploy a configuration](#undeploy-a-configuration)
 * [Update a configuration](#update-a-configuration)
+<!--Update a package-->
 * [Update a record](#update-a-record)
 * [List configurations](#list-configurations)
+<!--List packages-->
 * [List records](#list-records)
 
 ### Check if configuration can be deployed
