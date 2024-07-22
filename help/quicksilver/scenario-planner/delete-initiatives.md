@@ -90,9 +90,9 @@ You can delete one initiative at a time, or you can delete multiple initiatives 
 
 ### Delete initiatives in bulk {#delete-initiatives-in-bulk}
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then click [!UICONTROL Scenarios].
+{{step1-to-scenario-planner}}
 
-   A list of plans displays. 
+  A list of plans displays. 
 
 1. Click the name of a plan to open it, then locate the initiative you want to delete.
 1. Select the boxes to the left of the initiatives that you want to delete, then click **[!UICONTROL Delete]** from the menu that appears at the bottom of the plan, then click **[!UICONTROL Yes, delete them]**.
