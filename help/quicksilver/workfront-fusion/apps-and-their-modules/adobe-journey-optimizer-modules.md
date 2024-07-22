@@ -125,6 +125,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 * [Check if configuration can be deployed](#check-if-configuration-can-be-deployed)
 * [Check service health](#check-service-health)
+* [Check the status for audience-based message](#status-for-audience-based-message)
 * [Copy artifacts synchronously](#copy-artifacts-synchronously)
 * [Create a configuration](#create-a-configuration)
 * [Create a record](#create-a-record)
@@ -137,9 +138,8 @@ If you see the map button above a field or function, you can use it to set varia
 * [Import artifacts asynchronously](#import-artifacts-asynchronously)
 * [Make a custom API call](#make-a-custom-api-call)
 * [Patch a record](#patch-a-record)
-<!--[Status for audience-based message](#status-for-audience-based-message)-->
-<!--* [Trigger an audience-based message](#trigger-an-audience-based-message)-->
-<!--* [Trigger a unitary message execution](#trigger-a-unitary-message-execution)-->
+* [Trigger an audience-based message](#trigger-an-audience-based-message)
+* [Trigger a unitary message execution](#trigger-a-unitary-message-execution)
 * [Undeploy a configuration](#undeploy-a-configuration)
 * [Update a configuration](#update-a-configuration)
 * [Update a record](#update-a-record)
@@ -180,6 +180,27 @@ This action module checks that the service represented by the connection is runn
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
    <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+### Check the status for audience-based message
+
+This action module checks the status of an audience-based batch message.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Message execution ID]</td> 
+   <td>Enter or map the ID of the message execution you want to check.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -749,25 +770,6 @@ This action module updates a record using PATCH with JSON pointer format
   <tr> 
    <td role="rowheader">[!UICONTROL Payload data]</td> 
    <td>To add a record to the payload of this patch: <ol><li>Click <b>Add a record</b>.</li><li>Select the operation: Add, Remove, or Replace.</li><li>In the Path field, select whether you want to patch the name or the description.</li><li> In the From field, enter or map a string that contains a JSON pointer value.</li><li>In the Value field, enter the value to be used in the operation.</li></ol></td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Status for audience-based message
-
-This action module checks the status of an audience-based batch message.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Message execution ID]</td> 
-   <td>Enter or map the ID of the message execution you want to check.</td> 
   </tr> 
  </tbody> 
 </table>
