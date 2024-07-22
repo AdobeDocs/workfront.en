@@ -422,7 +422,117 @@ This action module executes Depth Blur on the selected file.
   </tbody>
 </table>
 
-<!--#### Execute an action JSON-->
+#### Execute an action JSON
+
+This action module executes Photoshop actions using JSON commands.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Photoshop], see <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Create a connection to [!DNL Adobe Photoshop]</a> in this article.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (Input) Storage]</td>
+      <td>
+        <p>Select the file service where the file you want to edit is stored.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Input) File location]</p>
+      </td>
+   <td> Enter or map the URL or path of the file that you want to edit. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Action JSON]</td>
+      <td>
+        <p>Enter the JSON command for the action you want to take.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Fonts / Patterns / Brushes / Additional images]</td>
+      <td>
+        <p>For each font, pattern, brush, or additional image that you want to use in this action, click Add item and enter the item's storage and file location.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Font / Pattern / Brush file URL]</p>
+      </td>
+   <td> Enter or map the URL or path of the file that you want to use. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Outputs file storage]</td>
+      <td>
+        <p>Select the file service where the you want the edited file to be stored.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Output file URL]</p>
+      </td>
+   <td> Enter or map the URL or path of where the edited file will be stored. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Output file type]</p>
+      </td>
+   <td> Select the file type for the edited file. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Overwrite]</td>
+      <td>
+        <p>Select whether the newly edited file will overwrite any output file that already exists.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Compression]</p>
+      </td>
+   <td> Select the compression level for the output file. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Outputs]</td>
+      <td>
+        <p>For each converted file you want to create, click Add item and enter the storage, location, and type as listed in this table.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (Output) Storage]</td>
+      <td>
+        <p>Select the file service where the you want the new file to be stored.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Output) File location]</p>
+      </td>
+   <td> Enter or map the URL or path of where the new file will be stored. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Output) Type]</p>
+      </td>
+   <td>Select the file type that you want to convert the file to. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (Output) Overwrite]</td>
+      <td>
+        <p>Select whether the newly edited file will overwrite any output file that already exists. This applies only to files in Adobe storage.</p>
+      </td>
+    </tr>
+        <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Maximum number of returned results]</p>
+      </td>
+   <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td> 
+    </tr>
+      </tbody>
+</table>
+
 
 #### Execute Photoshop Actions
 
@@ -1069,7 +1179,68 @@ This action module replaces a Smart Object within a PSD layer, and generates new
 
 This action resizes an image, using the same aspect ratio.
 
-<!--
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Photoshop], see <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Create a connection to [!DNL Adobe Photoshop]</a> in this article.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Storage]</td>
+      <td>
+        <p>Select the file service where the file you want to resize is stored.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL File location]</p>
+      </td>
+   <td> Enter or map the URL or path of the file that you want to resize. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Outputs]</td>
+      <td>
+        <p>For each converted file you want to create, click Add item and enter the storage, location, and other options as listed in this table.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Type]</p>
+      </td>
+   <td>Select the file type that you want to convert the file to. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Width]</p>
+      </td>
+   <td>Enter a number that represents the width, in pixels, of the resized image. Aspect ratio will be preserved.</td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Max width]</p>
+      </td>
+   <td>When width is 0, Max with can be provided to get the size. Max width takes precedence with it is smaller than the document width.</td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Overwrite]</td>
+      <td>
+        <p>Select whether the newly edited file will overwrite any output file that already exists. This applies only to files in Adobe storage.</p>
+      </td>
+    </tr>
+        <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Trim to canvas]</p>
+      </td>
+   <td>Select Yes to trim the renditions to Canvas size, or No to make the renditions Layer Size.</td> 
+    </tr>
+    </tbody>
+</table>
+
+#### Auto color correct an image
+
+This action module auto color corrects the specified image.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -1082,20 +1253,14 @@ This action resizes an image, using the same aspect ratio.
     <tr>
       <td role="rowheader">[!UICONTROL (Input) Storage]</td>
       <td>
-        <p>Select the file service where the file you want to remove the background from is stored.</p>
+        <p>Select the file service where the file you want to color correct is stored.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Input) File location]</p>
       </td>
-   <td> Enter or map the URL or path of the file that you want to remove the background from. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Outputs]</td>
-      <td>
-        <p>For each converted file you want to create, click Add item and enter the storage, location, and type as listed in this table.</p>
-      </td>
+   <td> Enter or map the URL or path of the file that you want to color correct. </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
@@ -1129,10 +1294,6 @@ This action resizes an image, using the same aspect ratio.
     </tr>
     </tbody>
 </table>
--->
-
-<!--
-#### Auto color correct an image
 
 
 
@@ -1147,8 +1308,3 @@ This action resizes an image, using the same aspect ratio.
 
 
 
-
-
-
-
--->
