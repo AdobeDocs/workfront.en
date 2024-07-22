@@ -11,6 +11,8 @@ exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
 ---
 # Create a milestone path
 
+<!--Audited: 07/2024-->
+
 <!--
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
@@ -56,7 +58,7 @@ For more information on how you can associate a milestone path with a project an
 
 ## Create a milestone path
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **Processes** > **Milestone Paths**.
 1. Click **New Milestone Path.**
