@@ -10,24 +10,19 @@ exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
 ---
 # Goal alignment overview in Adobe Workfront Goals
 
->[!NOTE]
+>[!IMPORTANT]
 >
->Your organization must have the following to use the functionality described in this article:    
-> 
->* For the new plan and license structure:    
+>Your organization must have the following to use the functionality described in this article:
+>
+>* For the new plan and license structure:
+>
+>   * The Ultimate Workfront plan 
 >    
->   * An Ultimate plan     
->        
->     Or    
->        
->   * An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. 
->       For more information, see [Adobe Workfront pricing and packaging](https://www.workfront.com/plans).   
->      
->* For the current plan and license structure:     
->    
->   * A Pro or higher [Adobe Workfront plan]     
->   * An Adobe Workfront Goals license in addition to a Workfront license.    
->    
+>* For the current plan and license structure: 
+>
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
+>
 >Contact your Workfront account manager to learn about a Workfront Goals license.    
 > 
 >For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   
