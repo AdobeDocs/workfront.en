@@ -2,12 +2,12 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: "Create a review or approval request for a Frame.io asset"
-description: You can create a review or approval request for Frame.io connected assets. 
+title: Create a review or approval request for a Frame.io asset
+description: You can create a review or approval request for Frame.io connected assets.
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
+exl-id: d80d7ea1-698a-4b78-bf65-bad6bbdfc423
 ---
-
 # Create a review or approval request for a Frame.io asset
 
 >[!IMPORTANT]

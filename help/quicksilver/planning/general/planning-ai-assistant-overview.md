@@ -1,11 +1,11 @@
 ---
-title: 'Adobe Workfront Planning AI Assistant overview'
-description: You can use the AI assistant to generate, update, or remove records based on the current page context and record structure. The user's commands and the AI's execution of those commands work together to ensure that changes made by the AI are accurately reflected in your environment. 
+title: Adobe Workfront Planning AI Assistant overview
+description: You can use the AI assistant to generate, update, or remove records based on the current page context and record structure. The user's commands and the AI's execution of those commands work together to ensure that changes made by the AI are accurately reflected in your environment.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
 ---
-
 # Adobe Workfront Planning AI Assistant overview
 
 <!-- update TOC and miniTOC when making this live-->
@@ -91,4 +91,4 @@ You can use the AI Assistant to perform the following actions, at this time:
 
     A visual indicator displays while the AI Assistant processes commands, setting expectations for response time.
     
-    After receiving a successful response, follow the links provided or notice the changes on the left. 
+    After receiving a successful response, follow the links provided or notice the changes on the left.
