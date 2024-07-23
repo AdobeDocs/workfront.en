@@ -23,7 +23,7 @@ For example, you can attach a custom form called "Marketing Content Research" to
 
 ## How to create a custom form
 
-The form designer has a canvas-style workspace that allows you to view the fields, canvas, and field settings all at the same time. It also allows you to drag and drop fields within the sections while designing your form.
+The form designer has a canvas-style workspace that allows you to view the fields, canvas, and field settings all at the same time. It also allows you to drag and drop fields within the sections while designing your form. You can resize the right side of the screen to provide more room for the field options.
 
 For more information, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
