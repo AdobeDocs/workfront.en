@@ -94,7 +94,7 @@ You can configure the following integrations for managing documents:
 
    For the current plans, a [!UICONTROL Pro] [!DNL Workfront] Plan or higher is required to use this feature. For the new plans, this feature is available with all plans. For more information about the various plans available, see [Workfront Plans](https://www.workfront.com/plans).
 
-In addition, you can enhance your [!DNL Workfront] document experience with a native Digital Asset Management (DAM) system, or with third-party DAM integrations. Administrators must enable these features in order for users to link the service to their [!DNL Workfront] account. For more information about Workfront DAM, see [Managing Documents with [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
+In addition, you can enhance your [!DNL Workfront] document experience with a third-party DAM integrations. Administrators must enable these features in order for users to link the service to their [!DNL Workfront] account.
 
 ## Configure integrations to manage documents
 
@@ -191,8 +191,6 @@ After the custom document integration is built, you can make it available to use
 1. Click **[!UICONTROL Save]** to create the integration.
 
 ## Use document integrations
-
-For information about how users can use [!DNL Workfront DAM], see [Managing Documents with [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
 
 For information about how users can use proofing, see [Create proofs](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).
 
