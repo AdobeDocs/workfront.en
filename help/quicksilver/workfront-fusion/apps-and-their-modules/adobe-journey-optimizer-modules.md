@@ -128,7 +128,7 @@ If you see the map button above a field or function, you can use it to set varia
 * [Check the status for audience-based message](#status-for-audience-based-message)
 * [Copy artifacts synchronously](#copy-artifacts-synchronously)
 * [Create a configuration](#create-a-configuration)
-<!--* Create a package-->
+* [Create a package](#create-a-package)
 * [Create a record](#create-a-record)
 * [Delete a configuration](#delete-a-configuration)
 <!--Delete a package-->
@@ -392,6 +392,45 @@ This action module creates a capping endpoint or throttling configuration.
  </tbody> 
 </table>
 
+### Create a package
+
+This action module creates a multi-artifact package.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Name]</td> 
+   <td>Enter or map a name for the package.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Description]</td> 
+   <td>Enter or map a description of the package.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Expiration date]</td> 
+   <td>Enter or map the timestamp that defines the expiration date for package. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Package type]</td> 
+   <td>Select the type of package you want to create.<ul><li><p><b>Full</b></p>The package will include all artifacts</p></li><li><p><b>Partial</b></p><p>The package will include only artifacts you add. </p></li><ul></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Artifacts]</td> 
+   <td>If you are creating a partial package, for each artifact you want to add, click <b>Add artifact</b> and specify the artifact's ID, type, and title. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source Sandbox]</td> 
+   <td>Enter or map the Name an IMS Org ID of the sandbox that contains the items you want the package to contain.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### Create a record
 
 This action module creates a new content template or content fragment.
@@ -511,6 +550,25 @@ If the configuration has been deployed, it must be undeployed before it can be d
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Configuration ID]</td> 
+   <td>Enter or map the ID of the configuration you want to delete.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Delete a package
+
+This action module deletes a multi-artifact package.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Package ID]</td> 
    <td>Enter or map the ID of the configuration you want to delete.</td> 
   </tr> 
  </tbody> 
