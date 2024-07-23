@@ -131,13 +131,13 @@ If you see the map button above a field or function, you can use it to set varia
 * [Create a package](#create-a-package)
 * [Create a record](#create-a-record)
 * [Delete a configuration](#delete-a-configuration)
-<!--Delete a package-->
+* [Delete a package](#delete-a-package)
 * [Delete a record](#delete-a-record)
 * [Deploy a configuration](#deploy-a-configuration)
 * [Export artifacts asynchronously](#export-artifacts-asynchronously)
 * [Get a configuration](#get-a-configuration)
 * [Get a record](#get-a-record)
-<!--Import a package-->
+* [Import a package](#import-a-package)
 * [Import artifacts asynchronously](#import-artifacts-asynchronously)
 <!--List all dependent objects-->
 <!--List export and import jobs-->
@@ -745,6 +745,31 @@ This action module returns the content template or content fragment identified b
   <tr> 
    <td role="rowheader">[!UICONTROL Template/Fragment ID]</td> 
    <td>Enter or map the ID of the template or fragment you want to retrieve.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Import a package
+
+This action module fetches the conflicting objects in the specified target sandbox. Conflicting objects represent similar objects that are already present in the target sandbox.
+
+You must publish a package before you can import it.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Package ID]</td> 
+   <td>Enter or map the ID of the configuration you want to delete.</td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">[!UICONTROL Target sandbox]</td> 
+   <td>Enter or map the name of the sandbox where you want to import the package.</td> 
   </tr> 
  </tbody> 
 </table>
