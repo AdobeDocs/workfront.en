@@ -272,6 +272,7 @@ The live 24.7 release webinar was cancelled, but you can still [watch a video de
                                 <p>Production release for all customers: With the 24.7 release (July 18, 2024)</p>
                             </li>
                         </ul>
+                        <p><span class="preview">This feature has been temporarily removed from Production for customers that are not on the fast release schedule.</span></p>
                     </td>
                  </tr>
                    <tr>
@@ -292,6 +293,7 @@ The live 24.7 release webinar was cancelled, but you can still [watch a video de
                                 <p>Production release for all customers: With the 24.7 release (July 18, 2024)</p>
                             </li>
                         </ul>
+                        <p><span class="preview">This feature has been temporarily removed from Production for customers that are not on the fast release schedule.</span></
                     </td>
                  </tr>
                  <tr>
