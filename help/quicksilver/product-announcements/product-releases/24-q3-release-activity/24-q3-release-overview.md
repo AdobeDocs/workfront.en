@@ -52,7 +52,7 @@ The live 24.7 release webinar was cancelled, but you can still [watch a video de
                         </p>
                     </td>
                 </tr>
-                                <tr>
+                <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Business rules are now available</a></p>
                         [!BADGE In production ]{type=Informative}
@@ -68,6 +68,7 @@ The live 24.7 release webinar was cancelled, but you can still [watch a video de
                                 <p>Production release for all customers: With the 24.7 release (July 18, 2024)</p>
                             </li>
                         </ul>
+                        <p><i>Only available for organizations on the new Ultimate plan.</i></p>
                     </td>
                 </tr>
                 <tr>
@@ -272,13 +273,12 @@ The live 24.7 release webinar was cancelled, but you can still [watch a video de
                                 <p>Production release for all customers: With the 24.7 release (July 18, 2024)</p>
                             </li>
                         </ul>
-                        <p><span class="preview">This feature has been temporarily removed from Production for customers that are not on the fast release schedule.</span></p>
                     </td>
                  </tr>
                    <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">More relevant assignments added to the New Task workflow</a></p>
-                        [!BADGE In production ]{type=Informative}
+                        [!BADGE In production for Fast Release ]{type=Positive}
                         <p>We have added the same functionality for more relevant smart assignments to the Assignments field in the New Task box when adding a task to a project and in a project task list.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -290,16 +290,15 @@ The live 24.7 release webinar was cancelled, but you can still [watch a video de
                                 <p>Production for fast release: With the 24.5 release (May 16, 2024)</p>
                             </li>
                             <li>
-                                <p>Production release for all customers: With the 24.7 release (July 18, 2024)</p>
+                                <p>Production release for all customers: With the 24.10 release (October 2024)</p>
                             </li>
                         </ul>
-                        <p><span class="preview">This feature has been temporarily removed from Production for customers that are not on the fast release schedule.</span></
                     </td>
                  </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">More relevant smart assignments</a></p>
-                        [!BADGE In production ]{type=Informative}
+                        [!BADGE In production for Fast Release ]{type=Positive}
                         <p>We have changed the algorithm that Workfront uses to calculate and suggest smart assignments for tasks. The new algorithm applies in the following areas in Workfront where you assign a task: task lists, the Assignments area in the task header, Home, and the Summary panel.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -311,7 +310,7 @@ The live 24.7 release webinar was cancelled, but you can still [watch a video de
                                 <p>Production for fast release: With the 24.5 release (May 16, 2024)</p>
                             </li>
                             <li>
-                                <p>Production release for all customers: With the 24.7 release (July 18, 2024)</p>
+                                <p>Production release for all customers: With the 24.10 release (October 2024)</p>
                             </li>
                         </ul>
                     </td>
