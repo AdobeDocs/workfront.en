@@ -71,8 +71,8 @@ When assigning users to work, their availability according to their schedules af
 </ul>
 <p><strong>How removing assignees affects task hours and allocation percentages</strong></p>
 <p>(NOTE: move to the new article: /Content/Manage work/Tasks/Assign tasks/modify-task-assignments-overview.htm) </p>
-<p>Removing users can affect task hours and allocation percentages. The effect that removing a user has on the task depends on the Duration Type that was selected for the task. For information about Duration&nbsp;Type, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p>
-<p>When you delete a user from a task with the following Duration&nbsp;Types:</p>
+<p>Removing users can affect task hours and allocation percentages. The effect that removing a user has on the task depends on the Duration Type that was selected for the task. For information about Duration Type, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p>
+<p>When you delete a user from a task with the following Duration Types:</p>
 <ul>
 <li> <p><strong>Simple:</strong> The planned hours assigned to that user are subtracted from the task's total planned hours.</p> <note type="important">
 <span class="s1">This could negatively affect your project plan because it changes the total planned hours for the task and the project.</span>
@@ -152,7 +152,7 @@ When assigning users to work, their availability according to their schedules af
 
       1. Click **Remove All Existing Assignees**, then click **Yes, Delete All Assignees**.
 
-         This removes not only common assignees (assignees that are displayed in the edit&nbsp;dialog box), but also all assignees on all the selected tasks.
+         This removes not only common assignees (assignees that are displayed in the edit dialog box), but also all assignees on all the selected tasks.
 
       Removing users from tasks can affect task hours and allocation percentages.
       
@@ -164,7 +164,7 @@ When assigning users to work, their availability according to their schedules af
 
      >[!NOTE]
      >
-     >This option can be modified only if the Duration Type is the same across all tasks that are being edited. When the Duration Type is Calculated Work or Effort Driven you can update the Allocation %. When the Duration&nbsp;Type is Simple you can update the Hours. For information about Duration&nbsp;Type, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+     >This option can be modified only if the Duration Type is the same across all tasks that are being edited. When the Duration Type is Calculated Work or Effort Driven you can update the Allocation %. When the Duration Type is Simple you can update the Hours. For information about Duration Type, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
      >
      >
      >If the field is blank, this means that the value is different across tasks; however, you are still able to modify it.
