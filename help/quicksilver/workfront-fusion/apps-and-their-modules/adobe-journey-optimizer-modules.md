@@ -793,6 +793,33 @@ This action module imports a snapshot containing artifacts.
  </tbody> 
 </table>
 
+### List all dependent objects
+
+This action module lists all dependent objects for objects in the specified package
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Package objects]</td> 
+   <td>For each object in the package that you want to return dependent object for, click <b>Add object</b> and enter the object's name and type.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Package ID]</td> 
+   <td>Enter or map the ID of the configuration you want to delete.</td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">[!UICONTROL Target sandbox]</td> 
+   <td>Enter or map the name of the sandbox where you want to import the package.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### Make a custom API call
 
 This action module makes a custom API call to the Adobe Journey Optimizer API.
