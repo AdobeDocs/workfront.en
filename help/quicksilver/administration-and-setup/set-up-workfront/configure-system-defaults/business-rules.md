@@ -7,10 +7,9 @@ description: You can select whether you want to receive new Workfront functional
 author: Lisa
 feature: System Setup and Administration
 role: Admin
+exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
 ---
 # Create and edit business rules
-
-{{highlighted-preview-article-level}}
 
 A business rule allows you to apply validation to Workfront objects and prevent users from creating, editing, or deleting an object when certain conditions are met. Business rules help to improve data quality and operational efficiency by preventing actions that could compromise data integrity.
 
@@ -71,7 +70,7 @@ An API wildcard is also available in business rules. You can use `$$ISAPI` to tr
 
 Some simple business rule scenarios are:
 
-* Users cannot add new expenses during the last week of February. This formula could be stated as: `IF(AND(MONTH($$TODAY) = 2, DAYOFMONTH($$TODAY) >= 22), "You cannot add new expenses during the last week of February.")`
+* Users cannot add new expenses during the last week of February. This formula could be stated as: `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
 * Users cannot edit a project that is in Complete status. This formula could be stated as: `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
 
 A scenario with nested IF statements is:

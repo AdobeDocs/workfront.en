@@ -13,6 +13,8 @@ While there are no restrictions on the types and sizes of individual files that 
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following:
 
 <table style="table-layout:auto"> 
@@ -32,9 +34,12 @@ You must have the following:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
++++
+
 ## Check document storage
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. In the left panel, click **System** > **Customer Info**.
 1. In the **Basic Info** section, find **Storage Quota**. Here, you can view how much storage you're currently using as well as the total amount storage your Workfront Plan includes. 
 

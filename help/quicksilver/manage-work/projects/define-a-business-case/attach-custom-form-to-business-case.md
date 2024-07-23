@@ -10,7 +10,7 @@ exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
 
 Custom Forms are used to collect information that is not displayed in existing Adobe Workfront fields.&nbsp;
 
-For more information about creating Custom Forms, see the article [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+For more information about creating Custom Forms, see the article [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Access requirements
 

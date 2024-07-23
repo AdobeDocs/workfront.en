@@ -68,7 +68,7 @@ You must have the following access to perform the steps in this article:
    * **Billable:** Select this option&nbsp;if you want to&nbsp;bill this expense. Categorizing an expense as billable is important when creating billing records.
    * **Reimbursable:** Select this option&nbsp;if the expense needs to be reimbursed. You can then mark the expense as reimbursed after the expense has been reimbursed.
 
-1. Select a **Custom Form** and specify any additional information required. You must create a custom form before you can associate it with an expense. Only active custom forms display in the list. For information about creating custom forms, see the article [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+1. Select a **Custom Form** and specify any additional information required. You must create a custom form before you can associate it with an expense. Only active custom forms display in the list. For information about creating custom forms, see the article [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Click **Save Changes**.
 

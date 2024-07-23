@@ -65,7 +65,7 @@ For more detail about the information in this table, see [Access requirements in
    >
    >Deleting a custom form also deletes all custom data on the objects associated with the form. The deleted data cannot be recovered. Consider deactivating a custom form instead—when deactivate a custom form you no longer use, you retain all of the associated historical data.
    >
-   >For more information, see [Delete object types on a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md).
+   >For more information, see [Add or delete object types from an existing custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md) and [Deactivate or reactivate a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md).
 
 
 1. Next, you can start adding fields to your custom form. See the following sections:

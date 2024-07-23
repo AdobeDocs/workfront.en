@@ -2,14 +2,14 @@
 content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
-title: Use the Desktop Proofing Viewer
+title: "Use the Desktop Proofing Viewer: article index"
 description: Install the Desktop Proofing Viewer
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 9451302a-9add-4958-91e9-8d4de6add139
 ---
-# Use the Desktop Proofing Viewer
+# Use the Desktop Proofing Viewer: article index
 
 * [Install the Desktop Proofing Viewer](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md) 
 * [Update the Desktop Proofing Viewer](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md) 

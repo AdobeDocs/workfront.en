@@ -2,12 +2,12 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: "Create a review or approval request for a Frame.io asset"
-description: You can create a review or approval request for Frame.io connected assets. 
+title: Create a review or approval request for a Frame.io asset
+description: You can create a review or approval request for Frame.io connected assets.
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
+exl-id: d80d7ea1-698a-4b78-bf65-bad6bbdfc423
 ---
-
 # Create a review or approval request for a Frame.io asset
 
 >[!IMPORTANT]
@@ -49,9 +49,9 @@ You must have the following access to perform the steps in this article:
 
 1. Go to the project, task, or issue that contains the Frame.io connected, then select **Documents**.
 
-    >[!TIP]
-    >
-    >Frame.io connected assets have the Frame.io logo next to them.
+   >[!TIP]
+   >
+   >Frame.io connected assets have the Frame.io logo next to them.
 
 1. Click on the Frame.io connected asset you need to open the Document Summary panel.
 
@@ -59,7 +59,7 @@ You must have the following access to perform the steps in this article:
 
 1. Scroll down to the **Approvals** section, then click **Add**.
 
-  ![](assets/doc-summary-add-approvers.png)
+   ![](assets/doc-summary-add-approvers.png)
 
 1. (Optional) Set a deadline for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified deadline.
 

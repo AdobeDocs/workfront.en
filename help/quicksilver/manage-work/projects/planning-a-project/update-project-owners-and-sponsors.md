@@ -7,7 +7,10 @@ author: Alina
 feature: Work Management
 exl-id: 10421cab-237a-49a5-bb5b-5be510dc4c46
 ---
+
 # Update project owners and sponsors
+
+<!--Audited: 07/2024-->
 
 When you create a project in Adobe Workfront, you are automatically set as the Project  Owner of the project. You can update this field with another user. You can also update the Project Sponsor field of a project.
 
@@ -54,34 +57,35 @@ For information about projects owners and sponsors, see [Overview of project own
 </table>
 -->
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td><p>New: Standard</p> 
+   <p>Current: Plan </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Projects</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Edit permissions to a project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Edit permissions to a project</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Update the Project Owner of a project
 
@@ -99,7 +103,7 @@ When you add a user as the Project Owner of a project, Workfront automatically g
 
    The Project Owner updates in the project header and in the Project  Details area.
 
-![](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
+   ![](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
 
 ## Update the Project Sponsor of a project
 

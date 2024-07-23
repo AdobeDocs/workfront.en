@@ -1,5 +1,5 @@
 ---
-title: Organize and preview a form with the Form Designer
+title: Organize and preview a form
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -9,7 +9,7 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
 ---
-# Organize and preview a form with the form designer
+# Organize and preview a form
 
  You can organize a custom form with the form designer, and preview it to verify that it is set up correctly.
 
@@ -73,10 +73,6 @@ For information about custom fields and widgets in custom forms, see [Design a f
       <td role="rowheader">Description</td> 
       <td>Type text if you want to explain to users what the section is for. This displays below the section's label on the custom form.</td> 
      </tr> 
-     <!--<tr> 
-      <td role="rowheader">Add Logic</td> 
-      <td>Use display logic to specify whether the section should display on the form, based on selections users make in multi-choice custom fields when they fill out the form. For more information, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md" class="MCXref xref">Add display logic and skip logic to a custom form</a>.</td> 
-     </tr> -->
      <tr> 
       <td role="rowheader"> <p>Grant access</p> </td> 
       <td> <p> Select the permissions that users need on an object where the custom form is attached in order to view this section and edit its field values. 
@@ -142,15 +138,6 @@ In a custom form with a section break configured with the Limited Edit permissio
 1. Begin creating or editing a custom form, as described in [Design a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. To position custom fields and widgets on the same row, drag one next to the other until a line appears between them.
-
-<!--
-Courtney, this is a story that got postponed after I did the work. Slated for some time in 22.4 (https://hub.workfront.adobe.com/task/6220d425000140d7f7d3ea68cc9529c8/documents)
-   You can drag multiple items. Press the following keys while you select the items, then drag the items together to the new row:
-   * Mac: Command+Shift [Courtney, double-check these commands]
-   * Windows: Ctrl+Shift
-
-   When you drop the custom field or widget, a gray box displays around the two items to indicate that they share a row.
--->
 
    >[!NOTE]
    >

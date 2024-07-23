@@ -2,14 +2,14 @@
 content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
-title: Proofing overview
+title: "Proofing overview: article index"
 description: Proof Permission Profile overview
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: d15819af-7860-489c-b722-0dbaf6d71e69
 ---
-# Proofing overview
+# Proofing overview: article index
 
 * [Proof Permission Profile overview](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md) 
 * [Proof Roles overview](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md) 

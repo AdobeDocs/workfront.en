@@ -9,8 +9,6 @@ exl-id: c18d6c6d-1a09-47c5-af4e-027f7cc48cd7
 ---
 # Create an Approval Template for assets and documents
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
 In the Workfront Setup area, users with a Standard license can create resuable Approval Templates. Once created, Approval Templates can be applied to assets in the Documents area of a project, task, or issue. 
 
 >[!IMPORTANT]
@@ -18,6 +16,8 @@ In the Workfront Setup area, users with a Standard license can create resuable A
 >The content of this article refers to updated document approval functionality that is only available for specific accounts. For information on standard approval processes, see the articles listed in [Work approvals](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -40,6 +40,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Create an Approval Template
 

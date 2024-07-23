@@ -15,6 +15,8 @@ You can create a folder linked with Experience Manager Assets or Assets Essentia
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following:
 
 <table>
@@ -53,6 +55,7 @@ You must have the following:
 
 *To find out what plan, license type, or access you have, contact your Workfront administrator.
 
++++
 
 ## Prerequisites
 
@@ -68,8 +71,6 @@ The linked folder is created in the location specified by the Workfront administ
 The name for the linked folder is automatically created based on the Portfolio, Program, Project its associated with and can't be changed. If project is not associated with a Portfolio or Program, the linked folder will display the project name and creation date.
 
 To create a linked folder:
-
-
 
 1. Go to the Project where you want the folder.
 1. Select **Add New**, then go to the Experience manager integration your administrator set up.

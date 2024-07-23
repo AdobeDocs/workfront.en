@@ -2,60 +2,68 @@
 product-area: resource-management
 navigation-topic: the-workload-balancer
 title: Assign work in bulk using the Workload Balancer
-description: You can manually assign work items to users using the Adobe Workfront Workload Balancer.
+description: You can assign resources to multiple tasks and issues in bulk using the Adobe Workfront Workload Balancer.
 author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
 ---
 # Assign work in bulk using the Workload Balancer
 
+<!--Audited: 07/2024-->
+
 <!--drafted
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
 -->
 
-You can manually assign work items to users using the Adobe Workfront Workload Balancer.
+You can assign resources to multiple tasks and issues in bulk using the Adobe Workfront Workload Balancer.
 
 For general information about assigning work to users using the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, when using the Workload Balancer in the Resourcing area</p>
-   <p>Work, when using the Workload Balancer of a team or project</p>
+   <td> 
+   <p>New: Standard</p>
+   <p>Current:</p>
+   <ul>
+   <li><p>Plan, when using the Workload Balancer in the Resourcing area</p></li>
+   <li><p>Work, when using the Workload Balancer of a team or project</p></li></ul>
 
  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level*</td> 
+   <td role="rowheader">Access level</td> 
    <td> <p>Edit access to the following:</p> 
     <ul> 
      <li> <p>Resource Management</p> </li> 
      <li> <p>Projects</p> </li> 
      <li> <p>Tasks</p> </li> 
      <li> <p>Issues</p> </li> 
-    </ul> <p><b>NOTE</b>
-
-If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+    </ul> 
+    
+ </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions or higher to the projects, tasks, and issues that include Make Assignments</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Contribute permissions or higher to the projects, tasks, and issues that include Make Assignments</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considerations for making bulk assignments in the Workload Balancer
 
@@ -71,7 +79,7 @@ If you still don't have access, ask your Workfront administrator if they set add
 
 * You are responsible for making user assignments on several new projects. The projects were originally created from templates and job roles are already assigned to the various tasks within the projects. You want to assign a specific user, Jackie Simms, to all tasks that are currently assigned to a job role. You can use the Assign function to assign these tasks to Jackie Simms.
 * 45 tasks across 3 different projects are assigned to Jackie Simms. Jackie leaves the organization, and now you need to reassign her tasks to another user. You can use the Replace function to assign these tasks to the new person. 
-* 10 tasks across 2 different projects are assigned to another user, Rick Kuvec. You realize that Rick was assigned to these tasks in error, but you are not sure who the they need to be assigned to at this time. You need to unassign Rick to all the tasks at the same time. You can use the Unassign function to remove Rick from these tasks.
+* 10 tasks across 2 different projects are assigned to another user, Rick Kuvec. You realize that Rick was assigned to these tasks in error, but you are not sure who they need to be assigned to at this time. You need to unassign Rick to all the tasks at the same time. You can use the Unassign function to remove Rick from these tasks.
 
 ## Assign work in bulk in the Workload Balancer
 
@@ -165,7 +173,7 @@ To assign a user to work items previously assigned to job roles:
 
 1. Click **Assign**.
 
-   The specified roles are replaced with the users you selected.
+   The specified roles are replaced with the users that you selected.
 
    You receive a confirmation about how many work items have had the selected role replaced with the selected user.
 
@@ -189,13 +197,13 @@ To replace a user with another user:
 
    ![](assets/bulk-assignments-workload-balancer-replace-selected-350x345.png)
 
-1. In the **User to assign** field, click the drop-down arrow to choose from a list of suggested users or to type another user name. Users listed in the list by default match the criteria for Smart Assignments.&nbsp;For more information, see [Smart assignments overview](../../manage-work/tasks/assign-tasks/smart-assignments.md).
+1. In the **User to assign** field, click the drop-down arrow to choose from a list of suggested users or to type another user name. Users listed in the list by default match the criteria for Smart Assignments. For more information, see [Smart assignments overview](../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
    Workfront displays a note about the number of items where the currently assigned user will replace the second user and which roles they will replace.
 
    ![](assets/bulk-replace-user-confirmation-before-replacing-nwe-350x49.png)
 
-1. Click&nbsp;**Replace**.
+1. Click **Replace**.
 
    The first user selected is replaced by the second user in all work items from the selected project.
 
@@ -207,7 +215,7 @@ You can unassign a user from all work items that the user is assigned to in the 
 
 When you unassign a user from all their assignments using Bulk Assignments in the Workload Balancer, the following things occur:
 
-* The specified user is removed from all the work items they are assigned to.
+* The specified user is removed from all the work items that they are assigned to.
 * If the unassigned user is associated with job roles, the job roles remain assigned to the work items when the user is removed.
 
 * If the specified user is assigned to work items that are completed, the user remains assigned to those work items.
@@ -229,4 +237,4 @@ To unassign a user from work items in the selected projects or for the selected 
 1. Click **Unassign**.  
    You receive a confirmation about the number of work items where the specified user was removed.
 
-&nbsp;
+ 

@@ -10,22 +10,20 @@ exl-id: bc0451ba-d729-4e8a-bde3-a2609c667d50
 ---
 # Adobe Workfront Goals overview
 
-Your organization must have the following to use the functionality described in this article:
-
-* For the new plan and license structure:
-
-  * An Ultimate plan 
-    
-    Or
-    
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. For information, see [Adobe Workfront plan](https://www.workfront.com/plans). 
-    
-* For the current plan and license structure: 
-
-  * A Pro or higher 
-  * An Adobe Workfront Goals license in addition to a Workfront license.
-
-Contact your Workfront account manager to learn about a Workfront Goals license.
+>[!IMPORTANT]
+>
+>Your organization must have the following to use the functionality described in this article:
+>
+>* For the new plan and license structure:
+>
+>   * The Ultimate Workfront plan 
+>    
+>* For the current plan and license structure: 
+>
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
+>
+>Contact your Workfront account manager to learn about a Workfront Goals license.
 
 
 Workfront Goals helps you define, communicate, and achieve strategic outcomes by connecting strategy to work execution and delivery. You can focus everyone's efforts on what truly matters, make progress measurable, and enable teams to accomplish amazing results. People can do their best work knowing their contributions have a meaningful impact.
