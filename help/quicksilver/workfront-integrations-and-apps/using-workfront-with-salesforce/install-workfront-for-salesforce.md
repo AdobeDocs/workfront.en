@@ -189,5 +189,41 @@ To install the app before it's available:
 
    The [!DNL Workfront] app is now installed on your [!DNL Salesforce] instance, and the **[!DNL Workfront]** component is now added to your environment.
 
-   [!UICONTROL Salesforce] users can use the [!DNL Workfront] app once you add the [!DNL Workfront] section to their [!UICONTROL Opportunity] or [!UICONTROL Account] page layouts.\
+      [!UICONTROL Salesforce] users can use the [!DNL Workfront] app once you add the [!DNL Workfront] section to their [!UICONTROL Opportunity] or [!UICONTROL Account] page layouts.\
    For information about configuring the [!DNL Workfront] section for users, see [Configure the [!DNL Adobe Workfront] section for [!DNL Salesforce] users](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md). 
+
+## Configure permissions for the Workfront for Salesforce integration
+
+### Permissions for `workfront_business`
+
+1. Navigate to **Setup** > **Security** > **Trusted URLs**.
+1. Select `workfront_business` from the list.
+1. Click **Edit**. 
+1. Under CSP Directives check the following options:
+
+   * connect-src (scripts)
+   * font-src (fonts)
+   * frame-src (iframe content)
+   * img-src (images)
+   * media-src (audio and video)
+   * style-src (stylesheets)
+
+1. Click **Save**. 
+
+
+### Permissions for workfront_session
+
+1. Navigate to **Setup** > **Security** > **Trusted URLs**.
+1. Select `workfront_session` from the list.
+1. Click **Edit**.
+1. Under CSP Directives check the following options:
+
+   * connect-src (scripts)
+   * font-src (fonts)
+   * frame-src (iframe content)
+   * img-src (images)
+   * media-src (audio and video)
+   * style-src (stylesheets)
+
+1. Click **Save**. 
+

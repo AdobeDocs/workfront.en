@@ -1,11 +1,11 @@
 ---
-title: 'Adobe Workfront Planning API basics'
-description: The goal for the Adobe Workfront Planning API is to simplify building integrations with Planning by introducing a REST-ful architecture that operates over HTTP. This document assumes you are familiar with REST and JSON responses and describes the approach taken by the Planning API.  
+title: Adobe Workfront Planning API basics
+description: The goal for the Adobe Workfront Planning API is to simplify building integrations with Planning by introducing a REST-ful architecture that operates over HTTP. This document assumes you are familiar with REST and JSON responses and describes the approach taken by the Planning API.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: afb58d04-fa75-4eb7-9c19-2a8c1748fbc2
 ---
-
 # Adobe Workfront Planning API basics
 
 The goal for the Adobe Workfront Planning API is to simplify building integrations with Planning by introducing a REST-ful architecture that operates over HTTP. This document assumes you are familiar with REST and JSON responses and describes the approach taken by the Planning API.  
@@ -349,6 +349,3 @@ Request body:
 To make sure your results are properly paginated, use a sorting parameter. This allows the results to be returned in the same order, so that the pagination does not repeat or skip results. 
 
 For more information on sorting, see [Sorting query results in the API](#sorting-query-results-in-the-api) in this article.
-
-
- 

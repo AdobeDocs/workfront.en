@@ -10,22 +10,22 @@ exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
 ---
 # Get started with results and activities in Adobe Workfront Goals
 
-Your organization must have the following to use the functionality described in this article:
-
-* For the new plan and license structure:
-
-  * An Ultimate plan 
-    
-    Or
-    
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. For information, see [Adobe Workfront plan](https://www.workfront.com/plans). 
-    
-* For the current plan and license structure: 
-
-  * A Pro or higher 
-  * An Adobe Workfront Goals license in addition to a Workfront license.
-
-Contact your Workfront account manager to learn about a Workfront Goals license.
+>[!IMPORTANT]
+>
+>Your organization must have the following to use the functionality described in this article:
+>
+>* For the new plan and license structure:
+>
+>   * The Ultimate Workfront plan 
+>    
+>* For the current plan and license structure: 
+>
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
+>
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
+> 
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   
 
 When you create a goal, the goal has a status of Draft. For information about creating goals, see [Create goals in Adobe Workfront Goals](../../workfront-goals/goal-management/create-goals.md).
 

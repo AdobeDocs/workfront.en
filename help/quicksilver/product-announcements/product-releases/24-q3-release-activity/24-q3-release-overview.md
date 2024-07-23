@@ -55,7 +55,7 @@ The live 24.7 release webinar was cancelled, but you can still [watch a video de
                                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Business rules are now available</a></p>
-                        [!BADGE New in Preview ]{type=Negative}
+                        [!BADGE In production ]{type=Informative}
                         <p>Administrators can now add business rules in the Setup area of Workfront.</p>
                         <p>A business rule allows you to apply validation to Workfront objects and prevent users from creating, editing, or deleting an object when certain conditions are met. The rules are built using a formula similar to calculated fields in custom forms.</p>
                     </td>
@@ -73,6 +73,7 @@ The live 24.7 release webinar was cancelled, but you can still [watch a video de
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Custom form designer generally available in Adobe Workfront</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>With the 24.7 release, the form designer will be generally available and will become the default experience for creating and editing custom forms in Adobe Workfront. When you create a new custom form or open an existing form, you will see the form designer's canvas-style workspace.</p>
                         <p>After this release, you will no longer have the option to revert back to the legacy form builder.</p>
                     </td>
@@ -121,6 +122,7 @@ The live 24.7 release webinar was cancelled, but you can still [watch a video de
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md">Add a new custom field from the Fields area</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>You can now add a new custom field or widget directly from the Fields area in Workfront, without opening a custom form to create the field. This allows you to quickly create reusable custom fields.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -215,7 +217,7 @@ The live 24.7 release webinar was cancelled, but you can still [watch a video de
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront for Experience Manager Assets and Assets Essentials improvements</a></p>
-                        [!BADGE New in Preview ]{type=Negative}
+                        [!BADGE In production ]{type=Informative}
                         <p>We have made the following improvements for the Workfront for Experience Manager Assets and Assets Essentials integrations:</p>
                         <ul>
                             <li><p>The integration now supports GCP as a cloud service provider. AWS and Azure were previously supported.</p></li>
@@ -255,7 +257,7 @@ The live 24.7 release webinar was cancelled, but you can still [watch a video de
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">Edit the task and issue Commit Date and Condition from the header or Details section</a></p>
-                        [!BADGE In production for Fast Release ]{type=Positive}
+                        [!BADGE In production ]{type=Informative}
                         <p>To make it easier for you to update tasks and issues, we have now added the Commit Date and Condition fields as options to add to task and issue headers and Details section in a layout template. Users are now able to update these fields from the header or Details section of a page, when they are assigned to the modified layout template.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -270,12 +272,13 @@ The live 24.7 release webinar was cancelled, but you can still [watch a video de
                                 <p>Production release for all customers: With the 24.7 release (July 18, 2024)</p>
                             </li>
                         </ul>
+                        <p><span class="preview">This feature has been temporarily removed from Production for customers that are not on the fast release schedule.</span></p>
                     </td>
                  </tr>
                    <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">More relevant assignments added to the New Task workflow</a></p>
-                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        [!BADGE In production ]{type=Informative}
                         <p>We have added the same functionality for more relevant smart assignments to the Assignments field in the New Task box when adding a task to a project and in a project task list.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -290,12 +293,13 @@ The live 24.7 release webinar was cancelled, but you can still [watch a video de
                                 <p>Production release for all customers: With the 24.7 release (July 18, 2024)</p>
                             </li>
                         </ul>
+                        <p><span class="preview">This feature has been temporarily removed from Production for customers that are not on the fast release schedule.</span></
                     </td>
                  </tr>
                  <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-project-enhancements.md" class="MCXref xref" xrefformat="{para}">More relevant smart assignments</a></p>
-                        <p>[!BADGE In production for Fast Release ]{type=Positive}</p>
+                        [!BADGE In production ]{type=Informative}
                         <p>We have changed the algorithm that Workfront uses to calculate and suggest smart assignments for tasks. The new algorithm applies in the following areas in Workfront where you assign a task: task lists, the Assignments area in the task header, Home, and the Summary panel.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -334,12 +338,13 @@ The live 24.7 release webinar was cancelled, but you can still [watch a video de
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Security updates for the Desktop Proofing Viewer</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>The Workfront Proof Desktop Proofing Viewer 2.1.35 security update provides security bug fixes for vulnerabilities that have been identified in previous releases.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: July, 2024</p>
+                                <p>Preview release: July 4, 2024</p>
                             </li>
                             <li>
                                 <p><span class="preview">Production for all customers: July 4, 2024</span></p>
@@ -369,6 +374,7 @@ The live 24.7 release webinar was cancelled, but you can still [watch a video de
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-resource-mgmt-enhancements.md">Time off now reflected in the Workload Balancer</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>To seamlessly adjust work when the primary assignee on a task has scheduled time off, the Workload Balancer now re-allocates hours to both the primary and the secondary users when the project timeline is recalculated.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -417,6 +423,7 @@ The live 24.7 release webinar was cancelled, but you can still [watch a video de
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe Unified Experience now available for more Workfront organizations</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>To allow organizations access to the benefits of the Adobe Unified Experience, we've begun making it available to existing Workfront customers. </p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -434,6 +441,7 @@ The live 24.7 release webinar was cancelled, but you can still [watch a video de
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Help button removed from the main navigation bar</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>To unify the experience for users not on Unified Shell, the Help button on the main navigation bar has been removed. This button, which is not present for users on Unified Shell, linked to the Workfront documentation and was redundant with a similar Help button available for all users in the Main Menu.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -450,7 +458,7 @@ The live 24.7 release webinar was cancelled, but you can still [watch a video de
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Improved UI experience for users with limited object access</a></p>
-                        [!BADGE In production for Fast Release ]{type=Positive}
+                        [!BADGE In production ]{type=Informative}
                         <p>When a user does not have access to an object, the user will see "No access" anywhere that object name displays in Workfront. This improved experience also applies to the Workfront API.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>

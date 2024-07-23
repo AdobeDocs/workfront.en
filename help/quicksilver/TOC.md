@@ -13,6 +13,9 @@ feature-set: Workfront
     * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
+    * 2024 Q4 Release {#release-24-q4}
+      * [2024 Q4 Release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
+      * [Look-and-feel updates during the 2024 Q4 release timeframe](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-look-and-feel-updates.md)
     * 2024 Q3 Release {#release-24-q3}
       * [2024 Q3 Release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
       * [2024 Q3 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md)
@@ -158,6 +161,7 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+      * [Workfront Fusion release activity: Week of July 22, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-7-22.md)
       * [Workfront Fusion release activity: Week of July 8, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-7-11.md) 
       * [Workfront Fusion release activity: Week of June 17, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-6-17.md)
       * [Workfront Fusion release activity: Week of June 3, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-6-3.md)
@@ -1310,7 +1314,7 @@ feature-set: Workfront
       * [Set Tracking Mode for tasks](manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)
       * [Update task Leveling Delay](manage-work/tasks/task-information/task-leveling-delay.md)
       * [Update task Cost Type](manage-work/tasks/task-information/update-task-cost-type.md)
-      * [Differentiate between Projected and Estimated Dates](manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
+      * [Overview of Projected and Estimated Dates](manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
       * [Overview of task Original Duration and Original Planned Hours](manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
       * [Difference between Planned Duration and Duration for tasks](manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
     * Create tasks {#create-tasks}

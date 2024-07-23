@@ -4,6 +4,7 @@ description: Third Quarter 2024 Integration enhancements
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+exl-id: 94c2cfdb-2e32-4782-9d23-0c19b9078d45
 ---
 # Third Quarter 2024 Integration enhancements
 
