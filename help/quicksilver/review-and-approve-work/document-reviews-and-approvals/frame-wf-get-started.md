@@ -1,14 +1,14 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Get started with Asset review and approval with Frame.io
+title: Get started with asset review and approval with Frame.io
 description: Learn more about the formal review and approval process in using Workfront and Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
 ---
-# Get started with Asset review and approval with Frame.io
+# Get started with asset review and approval with Frame.io
 
 The new asset review and approval workflow is built around a tight integration between Workfront and Frame.io. This integration takes the best of what each product has to offer and combines them to create an experience that allows everyone involved in content creation to work in their tools of choice, while having access to comments, files, and status updates--all synchronized across both systems in real time.
 
