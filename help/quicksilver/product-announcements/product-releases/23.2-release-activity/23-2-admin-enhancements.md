@@ -35,7 +35,7 @@ With the new form designer, we've added the ability to
 
 * **Change the size for Descriptive text**: You can now assign small, medium, or large sizes to Descriptive text fields. You can also use them on the same row with other fields. <span style="color: #ff0000;"> Changing the size for the descriptive text has been delayed temporarily but is coming soon.</span></li> 
 
-For more information, see [Form designer overview](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md).
+For more information, see [Custom forms overview](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
 
 [View a video demonstration of this feature](https://video.tv.adobe.com/v/3416586/){target=_blank}
 

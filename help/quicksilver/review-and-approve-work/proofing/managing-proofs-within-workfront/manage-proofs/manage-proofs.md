@@ -2,14 +2,14 @@
 content-type: reference
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: Manage proofs
+title: "Manage proofs: article index"
 description: Edit proof settings
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: ed1719ff-27e3-4fc0-b5bf-b3f20ffe98f0
 ---
-# Manage proofs
+# Manage proofs: article index
 
 * [Edit proof settings](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md) 
 * [Print a proof summary within Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md) 

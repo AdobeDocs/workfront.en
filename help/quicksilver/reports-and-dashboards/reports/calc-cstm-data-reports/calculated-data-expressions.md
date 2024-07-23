@@ -18,7 +18,7 @@ You can use calculated data expressions in:
 
 * A calculated custom field on a custom form
 
-  For more information about creating calculated custom fields on custom forms in Workfront, see [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+  For more information about creating calculated custom fields on custom forms in Workfront, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 * A calculated custom column in a report or list, when you use text mode
 

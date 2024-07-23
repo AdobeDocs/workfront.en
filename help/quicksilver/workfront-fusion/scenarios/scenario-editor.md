@@ -160,5 +160,43 @@ The following actions are available in the Scenario editor:
      <td>For information, see For more information, see <a href="../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md" class="MCXref xref">Debug scenarios with the [!DNL Adobe Workfront Fusion] Devtool</a>.
 </td> 
    </tr> 
+<tr>
+<td>Check the scenario's status</td>
+<td>Scenarios can be active or inactive. You can change the scenario status by clicking the On/Off button in the scenario detail.
+
+See the following articles for more information:
+<ul>
+<li><a href="../../workfront-fusion/scenarios/activate-or-inactivate-scenario.md">Activate or deactivate a scenario in Adobe Workfront Fusion</a></li>
+<li><a href="../../workfront-fusion/scenarios/scenario-detail.md">Scenario details in Adobe Workfront Fusion</a></li>
+</ul>
+</td>
+</tr>
+<tr>
+<td>Change the scenario's schedule</td>
+<td>Active scenarios are executed according to a schedule. By default, a scenario runs every 15 minutes. You can change this by defining when and how often an activated scenario runs. Fusion scenarios can be scheduled to run as often as every 5 minutes.
+
+For more information see <a href="../../workfront-fusion/scenarios/schedule-a-scenario.md">Schedule a scenario in Adobe Workfront Fusion</a>.
+</td>
+</tr>
+<tr>
+<td>Rename the scenario</td>
+<td>To rename a scenario, open the scenario, click on the scenario's name in the top left corner and edit it. Press Enter or click outside the edited field to save the scenario name.</td>
+</tr>
+<tr>
+<td>Select the first bundle</td>
+<td>Some trigger modules allow you to select the first bundle from which you want the retrieving of bundles to start.
+
+For more information, see <a href="../../workfront-fusion/modules/choose-where-trigger-module-starts.md">Choose where a trigger module starts in Adobe Workfront Fusion</a>.</td>
+</tr>
+<tr>
+<td>Set the number of returned bundles</td>
+<td>Modules, by default, always return two bundles only. This can be changed in the module settings in the field [!UICONTROL Maximum number of returned bundles].</td>
+</tr>
+<tr>
+<td>Configure advanced scenario settings</td>
+<td>[!DNL Adobe Workfront Fusion] gives you the possibility to configure a number of other advanced settings.
+
+For more information, see <a href="../../workfront-fusion/scenarios/scenario-settings-panel.md">The scenario settings panel in Adobe Workfront Fusion</a>.</td>
+</tr>
 </tbody>
 </table>

@@ -32,6 +32,8 @@ For information about creating a global approval process, see [Create an approva
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -57,7 +59,9 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+To find out what plan, license type, or access you have, contact your Workfront administrator.
+
++++
 
 ## Considerations about associating approval processes with work items
 
@@ -74,7 +78,7 @@ In addition to the considerations described below, we recommend that you revisit
 * You must create the project, task, issue, template, or template task before the approval process can be associated with them.
 * When you attach an approval process to an item for a status that has passed and in which the item currently is, the approval process will not be triggered and no notifications are sent to the approvers.
 
-  **Example:** If a task is in the status of&nbsp;Complete and you attach an approval process associated with the&nbsp;Complete status, the approval does not trigger. 
+  **Example:** If a task is in the status of Complete and you attach an approval process associated with the Complete status, the approval does not trigger. 
 
 * When you attach an approval process to the first status of an item (by using a template for tasks and projects, using the Queue Setup settings for issues, or defining the Task Settings of a project for new tasks), the approval processes are bypassed if the submitted approval is recalled. In this case, the approvers do not receive any notifications.
 
@@ -82,7 +86,7 @@ In addition to the considerations described below, we recommend that you revisit
 
   >[!TIP]
   >
-  >The first status for a task or issue is New. The first status for a project is the status selected by your Workfront administrator in the Project&nbsp;Preferences in your system. For information, see [Configure system-wide project preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  >The first status for a task or issue is New. The first status for a project is the status selected by your Workfront administrator in the Project Preferences in your system. For information, see [Configure system-wide project preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 * The association of approval processes with an object is not recorded in the Updates area for the object.
 * You cannot associate an approval process with a parent task.

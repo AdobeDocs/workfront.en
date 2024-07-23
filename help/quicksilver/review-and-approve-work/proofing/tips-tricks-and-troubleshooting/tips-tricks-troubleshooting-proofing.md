@@ -1,5 +1,5 @@
 ---
-title: Tips, tricks, and troubleshooting for Proofing within Adobe Workfront
+title: "Tips, tricks, and troubleshooting for Proofing within Adobe Workfront: article index"
 description: Tips, tricks, and troubleshooting for Proofing within Adobe Workfront
 author: Courtney
 draft: Probably
@@ -7,7 +7,7 @@ feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 83e2f884-b396-444e-9533-864fd78880f2
 ---
-# Tips, tricks, and troubleshooting for Proofing within Adobe Workfront
+# Tips, tricks, and troubleshooting for Proofing within Adobe Workfront: article index
 
 This section contains the following articles:
 

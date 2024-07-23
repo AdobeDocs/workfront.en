@@ -13,6 +13,9 @@ feature-set: Workfront
     * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
+    * 2024 Q4 Release {#release-24-q4}
+      * [2024 Q4 Release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
+      * [Look-and-feel updates during the 2024 Q4 release timeframe](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-look-and-feel-updates.md)
     * 2024 Q3 Release {#release-24-q3}
       * [2024 Q3 Release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
       * [2024 Q3 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-administrator-enhancements.md)
@@ -485,6 +488,9 @@ feature-set: Workfront
       * [Create or edit an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
       * [Install an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
       * [Environment promotion using the API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
+      * [Environment promotion FAQ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
+      * [Environment promotion troubleshooting](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
+
   * User management {#add-users}
     * [User management: article index](administration-and-setup/add-users/add-users.md)
     * Create and manage users {#create-manage-users}
@@ -585,42 +591,21 @@ feature-set: Workfront
     * Custom forms {#custom-forms}
       * [Custom forms: article index](administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md)
       * [Custom forms overview](administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
-      * Legacy custom form builder {#custom-form-builder}
-        * Use the custom form builder {#use-the-custom-form-builder}
-          * [Use the legacy custom form builder](administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
-          * [Create or edit a custom form with the legacy builder](administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
-          * [Copy a custom form to create a new one with the legacy builder](administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md)
-          * [Add a custom field with the legacy builder](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md)
-          * [Add an image or other asset widget to a custom form with the legacy builder](administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md)
-          * [Add a section break with the legacy builder](administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md)
-          * [Add calculated data with the legacy builder](administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md)
-          * [Reuse an existing calculated custom field with the legacy builder](administration-and-setup/customize-workfront/create-manage-custom-forms/use-existing-calc-field-new-custom-form.md)
-          * [Position custom fields and widgets with the legacy builder](administration-and-setup/customize-workfront/create-manage-custom-forms/position-fields-in-a-custom-form.md)
-          * [Sharing for custom fields and widgets with the legacy builder](administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md)
-          * [Reuse a custom field or widget with the legacy builder](administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md)
-          * [Add display logic and skip logic with the legacy builder](administration-and-setup/customize-workfront/create-manage-custom-forms/display-or-skip-logic-custom-form.md)
-          * [Preview and complete a custom form with the legacy builder](administration-and-setup/customize-workfront/create-manage-custom-forms/preview-and-complete-a-custom-form.md)
-          * [Delete object types on a custom form with the legacy builder](administration-and-setup/customize-workfront/create-manage-custom-forms/delete-object-type-on-a-custom-form.md)
-      * Form designer {#form-designer}
-        * [Form designer](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
-        * [Form designer overview](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-overview.md)
-        * Design a custom form {#design-a-form}
-          * [Design a form](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
-          * [Design a form with the form designer](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
-          * [Design a form from a copy with the form designer](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
-          * [Add calculated fields with the form designer](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
-          * [Add display logic and skip logic with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
-          * [Examples of the External Lookup field in a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
-          * [Organize and preview a form with the form designer](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
-        * Manage a form {#manage-a-form}
-          * [Manage a form](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/manage-a-form-toc.md)
-          * [Add or delete object types from an existing custom form with the form designer](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md)
-          * [Rename a custom form with the form designer](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/rename-a-custom-form.md)
-          * [Configure sharing for custom fields and widgets with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)
+      * Design a custom form {#design-a-form}
+        * [Design a form: article index](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
+        * [Design a form with the form designer](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+        * [Design a form from a copy](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
+        * [Add calculated fields to a form](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
+        * [Add display logic and skip logic to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
+        * [Examples of the External Lookup field in a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
+        * [Organize and preview a form](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
       * Manage custom forms {#manage-custom-forms}
-        * [Manage custom forms and fields](administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)
+        * [Manage custom forms and fields: article index](administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)
+        * [Add or delete object types from an existing custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/add-or-remove-objects-from-a-form.md)
+        * [Rename a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/rename-a-custom-form.md)
+        * [Configure sharing for custom fields and widgets in a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)
         * [Share a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-        * [Access to custom fields](administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
+        * [Access to a shared custom field](administration-and-setup/customize-workfront/create-manage-custom-forms/access-for-a-shared-custom-form-you-want-to-use.md)
         * [Deactivate or reactivate a custom form](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/activate-deactivate-form.md)
         * [Reference custom forms in reports](administration-and-setup/customize-workfront/create-manage-custom-forms/reference-custom-forms-in-report.md)
         * [View reports that use a custom field or widget](administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md)
@@ -1329,7 +1314,7 @@ feature-set: Workfront
       * [Set Tracking Mode for tasks](manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)
       * [Update task Leveling Delay](manage-work/tasks/task-information/task-leveling-delay.md)
       * [Update task Cost Type](manage-work/tasks/task-information/update-task-cost-type.md)
-      * [Differentiate between Projected and Estimated Dates](manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
+      * [Overview of Projected and Estimated Dates](manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
       * [Overview of task Original Duration and Original Planned Hours](manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
       * [Difference between Planned Duration and Duration for tasks](manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
     * Create tasks {#create-tasks}
@@ -1836,7 +1821,7 @@ feature-set: Workfront
   * Proofing {#proofing}
     * [Proofing: article index](review-and-approve-work/proofing/proofing.md)
     * Proofing overview {#proofing-overview}
-      * [Proofing overview](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
+      * [Proofing overview: article index](review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
       * [Proof Permission Profile overview](review-and-approve-work/proofing/proofing-overview/permission-profiles.md)
       * [Proof Roles overview](review-and-approve-work/proofing/proofing-overview/proof-roles.md)
       * [Automated Workflow overview](review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
@@ -1849,7 +1834,7 @@ feature-set: Workfront
       * [Proof progress and status overview](review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)
       * [Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview](review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)
     * Create proofs {#create-proofs}
-      * [Create proofs](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
+      * [Create proofs: article index](review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
       * [Configure personal proofing defaults](review-and-approve-work/proofing/creating-proofs-within-workfront/set-proof-defaults.md)
       * [Create a multi-page proof](review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
       * [Create an interactive proof for a website or other web content](review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)
@@ -1859,9 +1844,9 @@ feature-set: Workfront
       * [Create an advanced proof with a Basic workflow](review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
       * [Create an advanced proof with an Automated workflow](review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
     * Manage proofs in Adobe Workfront {#manage-proofs-in-workfront}
-      * [Manage proofs within Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
+      * [Manage proofs within Adobe Workfront: article index](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
       * Manage proofs {#manage-proofs}
-        * [Manage proofs](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
+        * [Manage proofs: article index](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs/manage-proofs.md)
         * [Edit proof settings](review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-settings.md)
         * [Print a proof summary within Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/print-proof-summary-in-wf.md)
         * [Delete a proof](review-and-approve-work/proofing/managing-proofs-within-workfront/remove-archiveg-proof.md)
@@ -1870,27 +1855,27 @@ feature-set: Workfront
         * [Use the proof approval report](review-and-approve-work/proofing/managing-proofs-within-workfront/proof-approval-report.md)
         * [Access Workfront Proof from Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md)
       * Manage proof versions {#manage-proof-versions}
-        * [Manage proof versions](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
+        * [Manage proof versions: article index](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/manage-proof-versions.md)
         * [Create a new version of a proof](review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
         * [View proof versions](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-proof-versions.md)
         * [View and manage proof version details](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-version-details.md)
         * [Download proof versions](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/download-versions.md)
       * Manage proof reviewers {#manage-proof-reviewers}
-        * [Manage proof reviewers](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
+        * [Manage proof reviewers: article index](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-reviewers/manage-proof-reviewers.md)
         * [Configure access and subscription settings for a proof](review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
         * [Share a proof within Adobe Workfront](review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
         * [Send email messages to reviewers on a proof](review-and-approve-work/proofing/managing-proofs-within-workfront/send-email-messages-to-users-proof.md)
       * Manage proof notifications {#manage-proof-notifications}
-        * [Manage proof notifications](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
+        * [Manage proof notifications: article index](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-notifications/manage-proof-notifications.md)
         * [Manage notifications for proof comments and decisions](review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
       * Manage proof deadlines {#manage-proof-deadlines}
-        * [Manage proof deadlines](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
+        * [Manage proof deadlines: article index](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/manage-proof-deadlines.md)
         * [Set a deadline for an existing basic proof](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-deadline-basic-proof.md)
         * [Add, edit, or delete a deadline for a stage](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/add-edit-delete-deadline.md)
         * [Set individual reviewer deadlines](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/set-individual-deadlines.md)
         * [Remove individual reviewer deadlines](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-deadlines/remove-individual-deadlines.md)
       * Manage automated proofs {#manage-automated-proofs}
-        * [Manage automated proofs](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)
+        * [Manage automated proofs: article index](review-and-approve-work/proofing/managing-proofs-within-workfront/manage-automated-proofs/manage-automated-proofs.md)
         * [View Automated Workflow stages on a proof](review-and-approve-work/proofing/managing-proofs-within-workfront/view-aw-stages-proof.md)
         * [View active stages on a proof](review-and-approve-work/proofing/managing-proofs-within-workfront/view-active-stages-proof.md)
         * [Create or edit an Automated Workflow for an existing proof](review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
@@ -1898,16 +1883,16 @@ feature-set: Workfront
         * [Convert a basic workflow to an Automated Workflow on a proof](review-and-approve-work/proofing/managing-proofs-within-workfront/convert-basic-automatic-workflow.md)
         * [Add stages and users to an Automated Workflow on a proof](review-and-approve-work/proofing/managing-proofs-within-workfront/add-stages-users-to-automated-workflow-proof.md)
     * Use the Desktop Proofing Viewer {#use-the-desktop-proofing-viewer}
-      * [Use the Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/use-desktop-proofing-viewer.md)
+      * [Use the Desktop Proofing Viewer: article index](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/use-desktop-proofing-viewer.md)
       * [Install the Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md)
       * [Update the Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md)
       * [Open proofs in the Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/open-proofs-in-dpv.md)
       * [Review non-interactive content in the Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/review-non-interactive-content-in-desktop-proofing-viewer.md)
       * [FAQ - Desktop Proofing Viewer](review-and-approve-work/proofing/use-the-desktop-proofing-viewer/faq-desktop-proofing-viewer.md)
     * Review proofs in Adobe Workfront {#review-proofs-in-workfront}
-      * [Review proofs within Adobe Workfront](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
+      * [Review proofs within Adobe Workfront: article index](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
       * Review a proof {#review-a-proof}
-        * [Review a proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
+        * [Review a proof: article index](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-a-proof.md)
         * [View content in a proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md)
         * [Measure an area within a proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md)
         * [Change the unit of measurement of the timeline in a video proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/change-unit-of-measurement-video.md)
@@ -1924,7 +1909,7 @@ feature-set: Workfront
         * [Change interactive proof resolution in the proofing viewer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
         * [Configure proofing viewer settings](review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
       * Comment on a proof {#comment-on-a-proof}
-        * [Comment on proofs](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
+        * [Comment on proofs: article index](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md)
         * [Comment on a proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md)
         * [View and reply to proof comments](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md)
         * [Search, filter, and sort proof comments](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/search-filter-sort-comments.md)
@@ -1934,12 +1919,12 @@ feature-set: Workfront
         * [Use actions on proof comments](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md)
         * [Tag users to share a proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md)
       * Make a decision on a proof {#make-decision-on-proof}
-        * [Make a decision on a proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
+        * [Make a decision on a proof: article index](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decision-on-proof.md)
         * [Approve a proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/approve-proof.md)
         * [Make a decision on a proof in the proofing viewer](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
         * [Change an existing decision on a proof](review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/change-existing-decision.md)
     * Tips, tricks, and troubleshooting for proofing in Adobe Workfront {#ttt-proofing-in-workfront}
-      * [Tips, tricks, and troubleshooting for Proofing within Adobe Workfront](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)
+      * [Tips, tricks, and troubleshooting for Proofing within Adobe Workfront: article index](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)
       * [List users with a proofing license in Adobe Workfront](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/report-which-users-have-proofing-license-in-wf.md)
       * [Edit the Proof Permission Profile field in Bulk](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/edit-proof-profile-bulk.md)
       * [Disable sharing proof via public URL or embed code](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/disable-public-proofs.md)
@@ -1947,7 +1932,7 @@ feature-set: Workfront
       * [Document name changed after upload and contains an invalid character](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
       * [Proof a PowerPoint with an embedded video](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
   * Tips, tricks, and troubleshooting for approvals {#ttt-approvals}
-    * [Tips, tricks, and troubleshooting for approvals](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
+    * [Tips, tricks, and troubleshooting for approvals: article index](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
     * [View the number of proof and document decisions for all users](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
 * Timesheets {#timesheets}
   * [Timesheets: article index](timesheets/timesheets-all.md)
@@ -2202,7 +2187,6 @@ feature-set: Workfront
     * [Adobe Workfront Fusion scenario overview](workfront-fusion/scenarios/scenario-overview.md)
     * [Create a scenario in Adobe Workfront Fusion](workfront-fusion/scenarios/create-a-scenario.md)
     * [The scenario editor in Adobe Workfront Fusion](workfront-fusion/scenarios/scenario-editor.md)
-    * [Basic scenario settings in Adobe Workfront Fusion](workfront-fusion/scenarios/basic-scenario-settings.md)
     * [The scenario settings panel in Adobe Workfront Fusion](workfront-fusion/scenarios/scenario-settings-panel.md)
     * [Scenario details in Adobe Workfront Fusion](workfront-fusion/scenarios/scenario-detail.md)
     * [Scenario execution flow in Adobe Workfront Fusion](workfront-fusion/scenarios/scenario-execution-flow.md)

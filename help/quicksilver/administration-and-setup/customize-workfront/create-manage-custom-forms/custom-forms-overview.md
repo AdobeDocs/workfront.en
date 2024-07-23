@@ -23,28 +23,31 @@ For example, you can attach a custom form called "Marketing Content Research" to
 
 ## How to create a custom form
 
-There are two options to create a custom form in [!DNL Workfront]. You can use the Legacy custom form builder or the new form designer:
+The form designer has a canvas-style workspace that allows you to view the fields, canvas, and field settings all at the same time. It also allows you to drag and drop fields within the sections while designing your form.
 
-* [Legacy custom form builder](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/use-the-custom-form-builder.md)
-* [Form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/form-designer-toc.md)
+For more information, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+![Sample form designer](assets/form-designer-example.png)
 
 ## Custom fields and widgets
 
-Workfront provides many built-in fields for each object type. 
+Workfront provides many built-in fields for each object type.
 
 In a custom form, you can create additional fields that prompt users for information that is unique to their workflows. These custom fields are the building blocks of a custom form.
 
 You can add the following types of custom fields to a custom form in Workfront:
 
-* Single Line Text Field, or Single line text in the form designer
-* Paragraph Text Field, or Paragraph text in the form designer
-* Text Field with Formatting, or Text with formatting in the form designer
+* Single line text
+* Paragraph text
+* Text with formatting
 * Dropdown
-* External Lookup - only available in the form designer
+* Multi-Select Dropdown
+* External Lookup
+* Native Field
 * Typeahead
 * Calculated
-* Date, or Date Field in the form designer
-* Checkboxes
+* Date Field
+* Checkbox Group
 * Radio Buttons
 * Descriptive Text
 * Section Break
@@ -52,6 +55,10 @@ You can add the following types of custom fields to a custom form in Workfront:
 * Image
 * PDF
 * Video
+
+>[!NOTE]
+>
+>To track field changes in update feeds, go to Setup > Interface > Update Feeds. For more information, see [Configure system updates](/help/quicksilver/administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
 
 ## Objects where users can attach a custom form
 
@@ -75,5 +82,4 @@ Users can attach custom forms to the following object types:
 For more information about attaching custom forms to objects, see [Add a custom form to an object](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
 For information about what happens to custom forms when converting an object, see [Transfer custom form data when converting an object](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
-
 

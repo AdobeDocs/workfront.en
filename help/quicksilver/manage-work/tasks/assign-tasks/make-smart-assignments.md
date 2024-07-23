@@ -9,6 +9,8 @@ exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
 ---
 # Make smart assignments
 
+<!--Audited: 07/2024-->
+
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
@@ -21,13 +23,13 @@ You can use smart assignments to identify who the best user is to complete the w
 
 Smart assignments are suggestions for users, roles, or teams that Adobe Workfront presents to you when you assign work items to resources. Workfront bases its suggestions on an algorithm that determines the most appropriate resource for the job.
 
-<span class="preview">There are two separate algorithms in Workfront that calculate smart assignments that work differently for tasks and for issues. </span>
+There are two separate algorithms in Workfront that calculate smart assignments that work differently for tasks and for issues. 
 
 For more information about the criteria used in determining smart assignments, see [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -54,7 +56,9 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
+
++++
 
 ## Make smart assignments
 
@@ -65,37 +69,27 @@ Smart assignments are available in most locations where you can make assignments
    * A task or issue list or report 
    * A task or issue header
    * The task or issue Summary panel
-   * <span class="preview">A New Task or New Issue box, as you add a new task or issue to a project</span>
+   * A New Task or New Issue box, as you add a new task or issue to a project
    * The Assignments field for an item listed in the Home area
    * A task or issue in the Workload Balancer
 
 1. Place your cursor in the Assignments field, and wait for two seconds. 
 
-   <div class="preview">
-   One or several of the following sections with smart assignment suggestions displays: 
+   For issues, the smart assignments display in the following sections: 
 
-   * **Suggested assignments**: Displays for tasks. <!--remove the note when we go to production with smarter assignments-->
-
-      >[!TIP]
-      >
-      >   The list header displays **Here are a few recommendations** instead of **Suggested assignments** in the Production environment.
-      >
-   * **Users and teams**: Displays for tasks and issues.
-   * **Job roles**: Dispays for tasks and issues. 
-   * **Rate card job roles**: Displays for tasks. For more information, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).<!--check later with Lisa to see if this also came to issues?! - and always keep this in yellow-->
-   </div>
-   
-   <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
-
+      * **Users and teams**
+      * **Job roles**
      
+      ![](assets/smart-assignments-issue-header.png)
+
    For tasks, the smart assignments display in the following sections, depending on which phase of the algorithm's calculation identified the assignments: 
 
-   * **Suggested assignments**: Assignments identified in the first phase of the task smart assignment's algorithm calculation. <span class="preview">This section is not available for issues.</span>
-   * <span class="preview">**Users and teams**, **Job roles**, or **Rate card job roles**: Assignments identified in the second phase of the task smart assignment's algorithm calculation. <!--no longer valid: This section is not available for issues. --></span> <!--replace this with the new UI: "Other assignments"-->
+      * **Suggested assignments**: Displays assignments identified in the first phase of the task smart assignment algorithm. 
+      * **Users and teams**, **Job roles**, or <span class="preview">**Rate card job roles**</span>: Assignments identified in the second phase of the task smart assignment's algorithm calculation.
 
-   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+      ![](assets/smart-assignments-task-list.png)
    
-   For more information, see [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
+      For more information, see [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
 1. Select the user in the recommendations list by clicking their name. 
 

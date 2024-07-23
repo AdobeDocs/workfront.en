@@ -88,8 +88,6 @@ You can now control who has access to a custom form by granting access to indivi
 
 Prior to this change,&nbsp;you could grant access only to groups.
 
-For more information, see [Create or edit a custom form](../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
-
 ## Integration with Adobe Creative Cloud
 
 **Add-On available for download: April 2016**

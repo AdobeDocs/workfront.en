@@ -9,11 +9,13 @@ exl-id: 5d970af6-5996-4781-9b97-de02063dc32c
 ---
 # Update Condition for tasks and issues
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+<!--Audited: 07/2024-->
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>-->
 
 The Condition of a task or issue is a flag placed on it to indicate how it's going. This is different than the Status of the work item, which indicates the current stage of the development of the item.
 
@@ -23,7 +25,7 @@ The Condition values that we refer to in this article are available in Workfront
 
 ## Access requirements {#access-requirements}
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,13 +38,10 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
    <td> 
-   
-   For the new licenses:
+   New:
    <ul><li><p>Standard for tasks</p></li>
    <li><p>Contributor or higher for issues</p></li></ul>
-
-
-   For current licenses:
+   Current:
    <ul><li><p>Work or higher for tasks</p></li>
    <li><p>Request or higher for issues</p></li></ul>
     </td> 
@@ -60,7 +59,9 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator. For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Prerequisites
 
@@ -72,9 +73,9 @@ Conditions display as a flag associated with tasks or issues. They can also be a
 
 You can locate the Condition of tasks and issues in the following areas of Workfront:
 
-* <span class="preview">The Details page, after a Workfront or group administrator adds it to your layout template. For information, see [Customize the Details view using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). </span>
+* The Details page, after a Workfront or group administrator adds it to your layout template. For information, see [Customize the Details view using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md). 
 
-* <span class="preview">The header of a task or issue, after a Workfront or group administrator adds it to your layout template. For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). </span>
+* The header of a task or issue, after a Workfront or group administrator adds it to your layout template. For information, see [Customize object headers using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md). 
 
 * The Summary panel, after a Workfront or group administrator adds it to your layout template. For information, see [Customize Home and Summary using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md). 
 
@@ -104,7 +105,7 @@ You can manually update the Condition of a task or issue in a task or issue repo
 
 >[!NOTE]
 >
->You can ask your system or group administrator to add the Condition field to your Summary panel, to make it easier to update it in various areas of Workfront. 
+>You can ask your system or group administrator to add the Condition field to your Summary panel, or the task or issue header or Details pages. 
 >
 >For more information, see the following articles:
 >
@@ -118,37 +119,33 @@ Updating the Condition of a task or issue differs depending on whether you are a
 * If you are using the legacy commenting experience, you can update the Condition in the Updates tab or in a list of tasks or issues if you are assigned to them. This is not supported in the new commenting experience. For information, see [New commenting experience](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 * You can update the Condition in a list of tasks or issues if you are not assigned to them, only if you have Manage permissions to them. In this case, you cannot update the Condition in the Update tab of the task or issue. -->
 
-To manually update the Condition of a task or an issue do one of the following:
+You can manually update the Condition of tasks and issues in various areas of Workfront. The following sections describe how you can manually update the Condition of tasks and issues. 
 
-<div class="preview">
+### Update the Condition of a task or issue in the task or issue header
 
-1. To update the Condition of a task or issue in the task or issue header:
+1. (Conditional) If your Workfront or group administrator added the Condition field to the task or issue header of your layout template, click the **Condition** field in the header and select from the following options: 
+     * Going Smoothly
+     * Some Concerns
+     * Major Roadblocks
 
-     1. (Conditional) If your Workfront or group administrator added the Condition field to the task or issue header of your layout template, click the **Condition** field in the header and select from the following options: 
-          * Going Smoothly
-          * Some Concerns
-          * Major Roadblocks
+     ![](assets/condition-in-task-header.png)
+1. Click Enter to save the Condition. 
 
-          ![](assets/condition-in-task-header.png)
-     1. Click Enter to save the Condition. 
+### Update the Condition of a task or issue in the task or issue Details section
 
-1. To update the Condition of a task or issue in the task or issue Details section:
-
-     1. (Conditional) If your Workfront or group administrator added the Condition field to the Details section of a task or issue in your layout template, click **Details** in the left panel, then click **Task Condition** or **Issue Condition** and select from the following options: 
-          * Going Smoothly
-          * Some Concerns
-          * Major Roadblocks
+1. (Conditional) If your Workfront or group administrator added the Condition field to the Details section of a task or issue in your layout template, click **Details** in the left panel, then click **Task Condition** or **Issue Condition** and select from the following options: 
+     * Going Smoothly
+     * Some Concerns
+     * Major Roadblocks
 1. Click **Save Changes**. The Condition of the task or issue is updated. 
 
-</div>
-
-To update the Condition of a task or issue in a report or list: 
+### Update the Condition of a task or issue in a report or list
 
 1. Go to a list of tasks or issues that you have Manage permissions to. Ensure the **Condition** field is visible in the list's view. 
 
 1. Update the **Condition** of the issue or task inline, by double-clicking the existing condition and selecting a new value from the drop-down menu. 
 
-    ![](assets/condition-drop-down-values-in-task-list.png)
+     ![](assets/condition-drop-down-values-in-task-list.png)
 
      >[!NOTE]
      >

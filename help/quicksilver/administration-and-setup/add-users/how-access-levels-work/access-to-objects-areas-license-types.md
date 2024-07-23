@@ -56,14 +56,14 @@ The table below tells you the highest level of access (Edit or View) that each o
         <td>Portfolios</td>
         <td>Edit</td>
         <td>View</td>
-        <td>No Access</td>
+        <td>View</td>
         <td>No Access</td>
     </tr>
     <tr>
         <td>Programs</td>
         <td>Edit</td>
         <td>View</td>
-        <td>No Access</td>
+        <td>View</td>
         <td>No Access</td>
     </tr>
     <tr>

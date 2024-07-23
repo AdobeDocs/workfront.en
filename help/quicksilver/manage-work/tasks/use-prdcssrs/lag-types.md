@@ -20,38 +20,6 @@ The Planned, Projected, and Estimated dates of the successor tasks are calculate
 
 +++ Expand to view access requirements for the functionality in this article.
 
-<!--drafted - replace table at P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard </p> 
-   Or
-   <p>Legacy license: Plan </p>
-   </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Projects</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to the tasks and the project</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
--->
-
-You must have the following access to perform the steps in this article:
-
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -61,13 +29,13 @@ You must have the following access to perform the steps in this article:
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
    <td><p>New: Standard</p>
        <p>or</p>
        <p>Current: Plan </p> </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td role="rowheader">Access level</td> 
    <td> <p>Edit access to Tasks and Projects</p> </td> 
   </tr> 
   <tr> 
@@ -77,60 +45,9 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-## Indicate Lag and Lag Types on tasks
-
-You can indicate lag types on tasks when you define their predecessor relationships.
-
-### Indicate Lag Types in the Predecessors section of a task {#indicate-lag-types-in-the-predecessors-section-of-a-task}
-
-1. Go to a task for which you want to define the predecessor and the Lag Type. 
-1. Click **Predecessors** in the left panel. You might have to click **Show More**, and then **Predecessors**. 
-1. Click **Add Predecessor**.
-1. (Optional) If you want to add a cross-project predecessor, replace the **Parent Project** name with another project.
-1. Start typing the name of the predecessor task, then select it when it appears in the list. 
-1. Select the **Dependency Type**.
-
-   For more information about predecessor Dependency Types, see [Overview of task dependency types](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
-
-1. Specify a **Lag** amount using a numeric value. You can specify negative numbers to indicate a negative lag. 
-1. Select from the following options to identify the type of lag you would like to indicate for your predecessor:
-
-   * **Days**
-   * **Calendar Days**
-   * **Percent**
-   * **Day of the Week**
-   * **Day of the Week (Non-Zero)**
-
-     For more information about these Lag Types and how they are calculated, see the section [Lag Types](#lag-types) in this article.
-
-1. Click **Save**.
-
-### Indicate Lag Types in a task list  {#indicate-lag-types-in-a-task-list}
-
-1. Go to a task list, and select the **Standard** view.
-
-1. Click inside the **Predecessors** column corresponding to the task for which you want to specify a predecessor and a lag amount. 
-1. Enter the following with no spaces:
-
-   * the number of the task you want to indicate as the predecessor of the task selected
-   * the abbreviation for the dependency type you want to indicate between the tasks
-
-     For more information about the abbreviations for Dependency Types, see [Overview of task dependency types](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
-   
-   * either a **+** for a positive lag or a **-** for a negative lag
-   
-   * the amount of the lag
-   * the abbreviation for the Lag Type you want to use
-
-     For more information about the abbreviations for Lag Types, see the section [Lag Types](#lag-types) in this article.
-
-   For example, to indicate that a task has a predecessor and a positive lag of 2 days, you would enter `1fs+2d` in the Predecessors column.
-
-1. Press Enter on your keyboard to save the changes to your task.
 
 ## Lag Types {#lag-types}
 
@@ -211,3 +128,54 @@ Consider the following rules when using negative lags:
 
    * Set a Finish-Finish predecessor relationship between tasks.
    * The Duration of the successor task should equal or exceed the intended number of lag days between tasks.
+
+## Indicate Lag and Lag Types on tasks
+
+You can indicate lag types on tasks when you define their predecessor relationships.
+
+### Indicate Lag Types in the Predecessors section of a task {#indicate-lag-types-in-the-predecessors-section-of-a-task}
+
+1. Go to a task for which you want to define the predecessor and the Lag Type. 
+1. Click **Predecessors** in the left panel. You might have to click **Show More**, and then **Predecessors**. 
+1. Click **Add Predecessor**.
+1. (Optional) If you want to add a cross-project predecessor, replace the **Parent Project** name with another project.
+1. Start typing the name of the predecessor task, then select it when it appears in the list. 
+1. Select the **Dependency Type**.
+
+   For more information about predecessor Dependency Types, see [Overview of task dependency types](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+
+1. Specify a **Lag** amount using a numeric value. You can specify negative numbers to indicate a negative lag. 
+1. Select from the following options to identify the type of lag you would like to indicate for your predecessor:
+
+   * **Days**
+   * **Calendar Days**
+   * **Percent**
+   * **Day of the Week**
+   * **Day of the Week (Non-Zero)**
+
+     For more information about these Lag Types and how they are calculated, see the section [Lag Types](#lag-types) in this article.
+
+1. Click **Save**.
+
+### Indicate Lag Types in a task list  {#indicate-lag-types-in-a-task-list}
+
+1. Go to a task list, and select the **Standard** view.
+
+1. Click inside the **Predecessors** column corresponding to the task for which you want to specify a predecessor and a lag amount. 
+1. Enter the following with no spaces:
+
+   * the number of the task you want to indicate as the predecessor of the task selected
+   * the abbreviation for the dependency type you want to indicate between the tasks
+
+     For more information about the abbreviations for Dependency Types, see [Overview of task dependency types](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+   
+   * either a **+** for a positive lag or a **-** for a negative lag
+   
+   * the amount of the lag
+   * the abbreviation for the Lag Type you want to use
+
+     For more information about the abbreviations for Lag Types, see the section [Lag Types](#lag-types) in this article.
+
+   For example, to indicate that a task has a predecessor and a positive lag of 2 days, you would enter `1fs+2d` in the Predecessors column.
+
+1. Press Enter on your keyboard to save the changes to your task.
