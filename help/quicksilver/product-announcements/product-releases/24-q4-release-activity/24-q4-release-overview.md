@@ -4,6 +4,7 @@ description: This page provides information about functionality that is included
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+exl-id: d8bf7402-7e8c-4c8e-b8b9-68543671449d
 ---
 # Fourth Quarter 2024 release overview
 
