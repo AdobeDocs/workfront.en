@@ -23,6 +23,8 @@ For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](..
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to use the functionality in this article:
 
 <table>
@@ -64,6 +66,8 @@ You must have the following access to use the functionality in this article:
 To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+
++++
 
 ## Prerequisites
 
@@ -141,11 +145,11 @@ If you see the map button above a field or function, you can use it to set varia
 * [Import artifacts asynchronously](#import-artifacts-asynchronously)
 * [List all dependent objects](#list-all-dependent-objects)
 * [List export and import jobs](#list-import-and-export-jobs)
-<!--Look up a package-->
+* [Look up a package]
 * [Make a custom API call](#make-a-custom-api-call)
 * [Patch a record](#patch-a-record)
-<!--Publish a package-->
-<!--Submit an import-->
+* [Publish a package](#publish-a-package      )
+* [Submit an import](#submit-an-import)
 * [Trigger a unitary message execution](#trigger-a-unitary-message-execution)
 * [Trigger an audience-based message](#trigger-an-audience-based-message)
 * [Undeploy a configuration](#undeploy-a-configuration)
@@ -330,7 +334,7 @@ This action module creates a capping endpoint or throttling configuration.
    <td>Enter or map the URL of the endpoint you want to configure.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL IMS organization ID]</td> 
+   <td role="rowheader">[!UICONTROL IMS Org ID]</td> 
    <td>Enter or map the Adobe IMS ID of the organization.</td> 
   </tr> 
   <tr> 
@@ -426,7 +430,7 @@ This action module creates a multi-artifact package.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source Sandbox]</td> 
-   <td>Enter or map the Name an IMS Org ID of the sandbox that contains the items you want the package to contain.</td> 
+   <td>Enter or map the Name and IMS Org ID of the sandbox that contains the items you want the package to contain.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -820,9 +824,9 @@ This search module lists all dependent objects for objects in the specified pack
  </tbody> 
 </table>
 
-### List import and export jobs
+### List export and import jobs
 
-This search module lists current import and export job. You can use query parameters to filter the list.
+This search module lists current export and import job. You can use query parameters to filter the list.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -834,11 +838,15 @@ This search module lists current import and export job. You can use query parame
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Start]</td> 
-   <td>For each object in the package that you want to return dependent object for, click <b>Add object</b> and enter the object's name and type.</td> 
+   <td></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximum number of returned results]</td> 
       <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Order by]</td> 
+      <td>Select whether to order results by created date or modified date.</td>
   </tr> 
     <tr> 
    <td role="rowheader">[!UICONTROL Query parameter]</td> 
@@ -936,6 +944,72 @@ This action module updates a record using PATCH with JSON pointer format
   <tr> 
    <td role="rowheader">[!UICONTROL Payload data]</td> 
    <td>To add a record to the payload of this patch: <ol><li>Click <b>Add a record</b>.</li><li>Select the operation: Add, Remove, or Replace.</li><li>In the Path field, select whether you want to patch the name or the description.</li><li> In the From field, enter or map a string that contains a JSON pointer value.</li><li>In the Value field, enter the value to be used in the operation.</li></ol></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Publish a package
+
+You must publish a package before you can import it.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Package ID]</td> 
+   <td>Enter or map the ID of the package you want to publish.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Submit an import
+
+This action module submits an import for a package after you have reviewed conflicts and provided substitutions. The result is provided as a payload, which starts the import job for the destination sandbox as specified in the payload.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Package ID]</td> 
+   <td>Enter or map the ID of the package you want to publish.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Name]</td> 
+   <td>Enter or map a name for the import job.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Description]</td> 
+   <td>Enter or map a description of the import job</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL (Destination sandbox) Name]</td> 
+   <td>Enter or map the name of the sandbox that you are submitting the import to.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL (Destination sandbox) IMS Org ID]</td> 
+   <td>Enter or map the Adobe IMS Org ID for the sandbox that you are submitting the import to.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL (Source sandbox) ID]</td> 
+   <td>Enter or map the ID of the sandbox that contains the package you want to publish.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL (Source sandbox) Type]</td> 
+   <td></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL (Source sandbox) Link]</td> 
+   <td>Enter or map the link for the package you want to publish.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -1046,6 +1120,16 @@ This action module updates the specified capping or throttling configuration.
   </tbody> 
 </table>
 
+<!--
+
+### Update a package
+
+This action module adds or deletes artifacts from a package, or updates package metadata.
+
+-->
+
+
+
 ### Update a record
 
 This action module updates a content template or fragment.
@@ -1084,11 +1168,40 @@ This action module lists all capping or throttling configurations.
  </tbody> 
 </table>
 
+### List packages
 
+This search module lists all packages in your organization. You can use query parameters to filter the list.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Start]</td> 
+   <td></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Maximum number of returned results]</td> 
+      <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Order by]</td> 
+      <td>Select whether to order results by created date or modified date.</td>
+  </tr> 
+    <tr> 
+   <td role="rowheader">[!UICONTROL Query parameter]</td> 
+   <td>For each query parameter that you want to filter by, click Add query parameter, then select the field and operator, and enter the field value for the filter.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
 ### List records
 
-This action module lists all capping or throttling configurations.
+This search module lists all capping or throttling configurations.
 
 <table style="table-layout:auto"> 
  <col> 
