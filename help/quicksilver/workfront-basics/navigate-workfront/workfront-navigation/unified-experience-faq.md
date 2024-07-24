@@ -26,6 +26,7 @@ This table describes some features that differ between the two experiences.
 | An "organization switcher" allows you to move between [!DNL Workfront] organizations and environments | The "organization switcher" is not available |
 | Navigation includes a top level navigation area for [!DNL Adobe] products, [!DNL Adobe] notifications, help, and your user profile, in addition to the [!DNL Workfront] navigation bar | Navigation includes the [!DNL Workfront] navigation bar only |
 | Help is accessible via the [!UICONTROL Main Menu] and top navigation area | Help is accessible via the [!UICONTROL Main Menu] and [!DNL Workfront] navigation bar |
+| The proofing viewer opens in a new tab | The proofing viewer opens inside Workfront |
 
 {style="table-layout:auto"}
 
