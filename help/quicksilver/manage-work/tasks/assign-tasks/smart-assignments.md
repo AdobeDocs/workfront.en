@@ -10,13 +10,15 @@ exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
 ---
 # Smart assignments overview
 
+<!--Audited: 07/2024-->
+
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">For information about the current release, see [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).</span>
+<span class="preview">For information about the current release, see [Fourth Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 When managing task and issues assignments, you can use smart assignments to identify who the best resource is to complete the work. Smart assignments are suggestions that Adobe Workfront presents to you when you assign work items to resources based on an algorithm that determines the most appropriate resource for the job. Smart assignments can be users, job roles, or teams. 
 
@@ -30,10 +32,10 @@ This article contains general information about smart assignments. For informati
 
 Consider the following when working with smart assignments:
 
-* The algorithm works independently for tasks and issues. This means that the list of suggested users for issues might differ from the list of suggested users for a task because Workfront builds the lists according to criteria pertaining to issues and tasks separately. 
-* Smart assignments do not recommend job roles or teams. Instead, they are suggestions of users who are best fit to complete a task or an issue. 
-* The suggested assignments are always active users. 
-* The user listed first should be the best match for the task.
+* <span class="preview">The algorithm works independently for tasks and issues. This means that the list of suggested users for issues might differ from the list of suggested users for a task because Workfront builds the lists according to criteria pertaining to issues and tasks separately. </span>
+<!--not sure this is accurate: * Smart assignments do not recommend job roles or teams. Instead, they are suggestions of users who are best fit to complete a task or an issue. -->
+* The suggested assignments are always active users, job roles, or teams. 
+* The resource listed first should be the best match for the task.
 
 ## Locate smart assignment suggestions
 
@@ -45,11 +47,11 @@ You can view smart assignments in the following areas where you can assign tasks
 
  * A task list or report in the Assignments column
 
-    ![](assets/smart-assignments-task-list.png)
+    <span class="preview">![](assets/smart-assignments-task-list.png)</span>
 
 * A task header in the Assignments field
 
-  ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
 
 * An issue header in the Assignments field
 
@@ -61,7 +63,7 @@ You can view smart assignments in the following areas where you can assign tasks
 
 * The Assignments field in the New Task box, when adding a task to a project
 
-  ![](assets/smart-assignments-new-task-modal.png)
+  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
 
 <!--this is not possible in the new home  - we have Summary there: 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
@@ -71,7 +73,7 @@ You can view smart assignments in the following areas where you can assign tasks
 
 * Workload Balancer in the Assigned this to area when you assign a task or issue
 
-  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
+  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
 
 
 ## Smart assignments criteria
@@ -80,11 +82,13 @@ Smart assignments work differently for tasks than for issues.
 
 ### Smart assignments criteria for tasks
 
-The task smart assignments calculation works in two phases which use two different algorithms.
+The task smart assignments calculation works in <span class="preview">two phases which use two different algorithms.</span>
 
-Depending on which algorithm finds the smart assignment, the assignments are listed under two separate sections in the Assignments field. For information, see [Make smart assignments](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md). 
+<span class="preview">Depending on which algorithm finds the smart assignment, the assignments are listed under two separate sections in the Assignments field.</span> For information, see [Make smart assignments](/help/quicksilver/manage-work/tasks/assign-tasks/make-smart-assignments.md). 
 
 ![](assets/smart-assignments-task-list.png)
+
+<div class="preview">
 
 #### First phase of smart assignment calculation for tasks 
 
@@ -121,6 +125,8 @@ The calculation for the similarity score and the order in which the assignments 
 * Assignments identified in this phase are listed in the    **Suggested assignments**  section of the Assignments field for tasks. 
 
 * If there are no matches using this calculation, the second phase of smart assignments starts which is calculated using a different algorithm.  
+
+</div>
 
 #### Second phase of smart assignment calculation for tasks
 
