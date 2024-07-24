@@ -811,11 +811,11 @@ This search module lists all dependent objects for objects in the specified pack
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Package ID]</td> 
-   <td>Enter or map the ID of the package you want to import.</td> 
+   <td>Enter or map the ID of the package you want to list dependent object for.</td> 
   </tr> 
     <tr> 
    <td role="rowheader">[!UICONTROL Target sandbox]</td> 
-   <td>Enter or map the name of the sandbox where you want to import the package.</td> 
+   <td>Enter or map the name of the sandbox that contains the package you want to list dependent objects for.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -850,6 +850,21 @@ This search module lists current import and export job. You can use query parame
 ### Look up a package
 
 This action module retrieves details of the specified package.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Package ID]</td> 
+   <td>Enter or map the ID of the package you want to return details for.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
 ### Make a custom API call
 
