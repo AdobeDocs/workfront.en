@@ -19,12 +19,6 @@ exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. Also linked to other articles: Creating and Managing Groups, etc.</p>
 -->
 
->[!IMPORTANT]
->
->The procedure described on this page applies only to organizations that have not yet been onboarded to the Adobe Admin Console. If your organization has been onboarded to the Adobe Admin Console, this action is not available.
->
->For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
-
 As the Adobe Workfront administrator, sometimes you might need to access Workfront on behalf of another user.
 
 Or, as a group administrator, you might need to access Workfront on behalf of a user who is a member of a group you manage.
