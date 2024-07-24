@@ -145,20 +145,21 @@ If you see the map button above a field or function, you can use it to set varia
 * [Import artifacts asynchronously](#import-artifacts-asynchronously)
 * [List all dependent objects](#list-all-dependent-objects)
 * [List export and import jobs](#list-import-and-export-jobs)
-* [Look up a package]
+* [Look up a package](#look-up-a-package)
 * [Make a custom API call](#make-a-custom-api-call)
 * [Patch a record](#patch-a-record)
-* [Publish a package](#publish-a-package      )
+* [Publish a package](#publish-a-package)
 * [Submit an import](#submit-an-import)
 * [Trigger a unitary message execution](#trigger-a-unitary-message-execution)
 * [Trigger an audience-based message](#trigger-an-audience-based-message)
 * [Undeploy a configuration](#undeploy-a-configuration)
 * [Update a configuration](#update-a-configuration)
-<!--Update a package-->
+* [Update a package](#update-a-package)
 * [Update a record](#update-a-record)
 * [List configurations](#list-configurations)
-<!--List packages-->
+* [List packages](#list-packages)
 * [List records](#list-records)
+
 
 ### Check if configuration can be deployed
 
@@ -197,8 +198,6 @@ This action module checks that the service represented by the connection is runn
   </tr> 
  </tbody> 
 </table>
-
-
 
 ### Check the status for audience-based message
 
@@ -815,7 +814,7 @@ This search module lists all dependent objects for objects in the specified pack
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Package ID]</td> 
-   <td>Enter or map the ID of the package you want to list dependent object for.</td> 
+   <td>Enter or map the ID of the package you want to list dependent objects for.</td> 
   </tr> 
     <tr> 
    <td role="rowheader">[!UICONTROL Target sandbox]</td> 
@@ -850,7 +849,7 @@ This search module lists current export and import job. You can use query parame
   </tr> 
     <tr> 
    <td role="rowheader">[!UICONTROL Query parameter]</td> 
-   <td>For each query parameter that you want to filter by, click Add query parameter, then select the field and operator, and enter the field value for the filter.</td> 
+   <td>For each query parameter that you want to filter by, click <b>Add query parameter</b>, then select the field and operator, and enter the field value for the filter.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -1120,13 +1119,24 @@ This action module updates the specified capping or throttling configuration.
   </tbody> 
 </table>
 
-<!--
-
 ### Update a package
 
 This action module adds or deletes artifacts from a package, or updates package metadata.
 
--->
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select action]</td> 
+   <td>Select the action you want to take.<ul><li><p><b>Add artifact</b></p><p>For each artifact you want to add, click <b>Add artifact</b> and specify the artifact's ID, type, and title, then enter or map the expiration date for the package. </p></li><li><p><b>Delete artifact</b></p><p>For each artifact you want to delete, click <b>Add artifact</b> and specify the artifact's ID, type, and title. </p></li><li><p><b>Update metadata</b></p><p>Enter new values for the name, description, or source sandbox's name or IMS Org ID.</p></li></ul></td> 
+  </tr> 
+ </tbody> 
+</table>
 
 
 
@@ -1194,7 +1204,7 @@ This search module lists all packages in your organization. You can use query pa
   </tr> 
     <tr> 
    <td role="rowheader">[!UICONTROL Query parameter]</td> 
-   <td>For each query parameter that you want to filter by, click Add query parameter, then select the field and operator, and enter the field value for the filter.</td> 
+   <td>For each query parameter that you want to filter by, click <b>Add query parameter</b>, then select the field and operator, and enter the field value for the filter.</td> 
   </tr> 
  </tbody> 
 </table>
