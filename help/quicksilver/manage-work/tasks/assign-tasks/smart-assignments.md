@@ -45,13 +45,13 @@ You can view smart assignments in the following areas where you can assign tasks
 
   ![](assets/smart-assignments-issue-list.png)
 
- * A task list or report in the Assignments column
+ * <span class="preview">A task list or report in the Assignments column</span>
 
-    <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+    ![](assets/smart-assignments-task-list.png)
 
-* A task header in the Assignments field
+* <span class="preview">A task header in the Assignments field</span>
 
-  <span class="preview">![](assets/smart-assignments-task-header-nwe-350x302.png)</span>
+  ![](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * An issue header in the Assignments field
 
@@ -61,9 +61,9 @@ You can view smart assignments in the following areas where you can assign tasks
 
   ![](assets/issue-assignments-summary-panel.png)
 
-* The Assignments field in the New Task box, when adding a task to a project
+* <span class="preview">The Assignments field in the New Task box, when adding a task to a project</span>
 
-  <span class="preview">![](assets/smart-assignments-new-task-modal.png)</span>
+  ![](assets/smart-assignments-new-task-modal.png)
 
 <!--this is not possible in the new home  - we have Summary there: 
 * The Assignments field for an item listed in the Home area, when you open a task or issue
@@ -71,9 +71,9 @@ You can view smart assignments in the following areas where you can assign tasks
   ![](assets/smart-assignments-in-home-nwe-350x216.png)
 -->
 
-* Workload Balancer in the Assigned this to area when you assign a task or issue
+* <span class="preview">Workload Balancer in the Assigned this to area when you assign a task or issue</span>
 
-  <span class="preview">![](assets/smart-assignments-workload-balancer-bulk-assignments.png)</span>
+  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 
 ## Smart assignments criteria
