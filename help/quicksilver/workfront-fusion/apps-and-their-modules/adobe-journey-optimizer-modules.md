@@ -139,8 +139,8 @@ If you see the map button above a field or function, you can use it to set varia
 * [Get a record](#get-a-record)
 * [Import a package](#import-a-package)
 * [Import artifacts asynchronously](#import-artifacts-asynchronously)
-<!--List all dependent objects-->
-<!--List export and import jobs-->
+* [List all dependent objects](#list-all-dependent-objects)
+* [List export and import jobs](#list-import-and-export-jobs)
 <!--Look up a package-->
 * [Make a custom API call](#make-a-custom-api-call)
 * [Patch a record](#patch-a-record)
@@ -569,7 +569,7 @@ This action module deletes a multi-artifact package.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Package ID]</td> 
-   <td>Enter or map the ID of the configuration you want to delete.</td> 
+   <td>Enter or map the ID of the package you want to delete.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -765,7 +765,7 @@ You must publish a package before you can import it.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Package ID]</td> 
-   <td>Enter or map the ID of the configuration you want to delete.</td> 
+   <td>Enter or map the ID of the package you want to import.</td> 
   </tr> 
     <tr> 
    <td role="rowheader">[!UICONTROL Target sandbox]</td> 
@@ -795,7 +795,7 @@ This action module imports a snapshot containing artifacts.
 
 ### List all dependent objects
 
-This action module lists all dependent objects for objects in the specified package
+This search module lists all dependent objects for objects in the specified package
 
 <table style="table-layout:auto"> 
  <col> 
@@ -811,7 +811,7 @@ This action module lists all dependent objects for objects in the specified pack
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Package ID]</td> 
-   <td>Enter or map the ID of the configuration you want to delete.</td> 
+   <td>Enter or map the ID of the package you want to import.</td> 
   </tr> 
     <tr> 
    <td role="rowheader">[!UICONTROL Target sandbox]</td> 
@@ -819,6 +819,37 @@ This action module lists all dependent objects for objects in the specified pack
   </tr> 
  </tbody> 
 </table>
+
+### List import and export jobs
+
+This search module lists current import and export job. You can use query parameters to filter the list.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Start]</td> 
+   <td>For each object in the package that you want to return dependent object for, click <b>Add object</b> and enter the object's name and type.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Maximum number of returned results]</td> 
+      <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td>
+  </tr> 
+    <tr> 
+   <td role="rowheader">[!UICONTROL Query parameter]</td> 
+   <td>For each query parameter that you want to filter by, click Add query parameter, then select the field and operator, and enter the field value for the filter.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Look up a package
+
+This action module retrieves details of the specified package.
 
 ### Make a custom API call
 
