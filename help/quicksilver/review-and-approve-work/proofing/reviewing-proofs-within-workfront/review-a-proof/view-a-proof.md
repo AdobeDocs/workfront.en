@@ -11,6 +11,8 @@ exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -37,6 +39,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan, role, or Proof Permission Profile you have, contact your Workfront or Workfront Proof administrator.
+
++++
 
 ## Change the view of your proof
 
