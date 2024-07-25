@@ -204,6 +204,25 @@ This action module checks that the service represented by the connection is runn
 
 This action module checks the dependencies for package artifacts. This allows you to check whether you have permissions to import package artifacts.
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Package ID]</td> 
+   <td>Enter or map the ID of the package you want to check permissions for.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Target sandbox]</td> 
+   <td>Enter or map the name of the sandbox that you want to import the package into.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### Check the status for audience-based message
 
 This action module checks the status of an audience-based batch message.
