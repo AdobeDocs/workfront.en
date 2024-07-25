@@ -31,7 +31,7 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;Resource Management that includes access to Manage Resource Pools</p> <p>Edit access to Users, Projects, and Templates</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td> <p>Edit access to Resource Management that includes access to Manage Resource Pools</p> <p>Edit access to Users, Projects, and Templates</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Object permissions</td> 
@@ -44,12 +44,8 @@ You must have the following:
 
 ## Create a Resource Pool {#create-a-resource-pool}
 
-1. Log in as a user who has access to edit Resource Pools.  
-   For more information, see [Create a Resource Pool](#create-a-resource-pool).
+{{step1-to-resourcing}}
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
-
-1. Click **Resourcing**. 
 1. Click **Resource Pools** in the left panel.   
    
    <span class="preview">Sample image in the Preview environment:</span>
@@ -88,8 +84,6 @@ You must have the following:
    </table>
 
 1. (Optional) Use the **Undo** link to remove the users added through a group, team, company or job role.
-
-   <span class="preview">This link is not available in the Preview environment.</span>
 
    >[!NOTE]
    >
