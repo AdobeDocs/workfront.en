@@ -10,6 +10,14 @@ exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 ---
 # Create advanced assignments
 
+<!-- Audited: 07/2024-->
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release, see [Fourth Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
+
 You can manage task or issue assignments by using Advanced Assignments.
 
 You can adjust the following assignment information when making advanced assignments:
@@ -86,7 +94,7 @@ In addition, you can make advanced assignments in the following areas of Workfro
 
 1. Click **Advanced**.
 
-   ![Click Advanced](assets/assignments-box-in-task-header.png)
+   <span class="preview">![Click Advanced](assets/assignments-box-in-task-header.png)</span>
 
 1. In the **Search people, role and teams** field, start typing the name of a user, role, or team then click the name when it appears in the drop-down list.
 
@@ -132,15 +140,10 @@ In addition, you can make advanced assignments in the following areas of Workfro
      -->
 
      >[!TIP]
-     >
-     >
-     >   
      >   
      >   * After you manually modify assignment allocations on tasks, the Planned Hours of the tasks might update accordingly. For more information, see the section "Update task Planned Hours when managing user allocations" in the article [Planned Hours overview](../../../manage-work/tasks/task-information/planned-hours.md).
      >   * You cannot manually modify assignment allocations on issues. 
      >   * You cannot manually modify allocations for teams assigned to tasks.
-     >   
-     >
 
    * **Assignee's Role:** Select the role the user should use when fulfilling this assignment.  The Primary Role of the user displays by default. Click in the Assignee's Role box to select another role.  When you assign the task or the issue to a role first, and then add a user who can fulfill that role as a second assignment, the list of suggested users is filtered for the users who can fulfill the roles already assigned to the task and issue.
 
