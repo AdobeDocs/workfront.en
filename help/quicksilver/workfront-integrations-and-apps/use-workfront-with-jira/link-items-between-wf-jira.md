@@ -136,12 +136,16 @@ To manually link [!DNL Jira] issues to [!DNL Workfront] items:
 
    From the [!UICONTROL Details] area, copy the **[!UICONTROL Reference Number]** of the item in Workfront.
 
+   >[!IMPORTANT]
+   >
+   >If your organization has been onboarded to the Adobe Unified Experience, you must use the **Reference Number** for linking Workfront items to Jira. (The URL option is available but it will return an error if you use it.) For information about the Unified Experience, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+
    >[!NOTE]
    >
    >You must have a [!DNL Workfront] license to log in to [!DNL Workfront]. Otherwise, a [!DNL Workfront] user must supply this information to you.
 
 1. In [!DNL Jira], navigate to an issue that you want to manually link to the [!DNL Workfront] item.
-1. In the [!DNL Workfront] right panel, paste the **URL** or the **[!UICONTROL Reference Number]** of the [!DNL Workfront] item which you want to link to it.
+1. In the [!DNL Workfront] right panel, paste the **URL** or the **[!UICONTROL Reference Number]** of the [!DNL Workfront] item that you want to link to it.
 
 1. Click **[!UICONTROL Link]**.
 
