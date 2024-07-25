@@ -19,9 +19,9 @@ If you need instructions on creating a scenario, see [Create a scenario](../../w
 
 For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
-+++**Expand to view access requirements for the functionality in this article.**
-
 ## Access requirements
+
++++**Expand to view access requirements for the functionality in this article.**
 
 You must have the following access to use the functionality in this article:
 
