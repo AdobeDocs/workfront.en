@@ -129,6 +129,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 * [Check if configuration can be deployed](#check-if-configuration-can-be-deployed)
 * [Check service health](#check-service-health)
+* [Check the import dependencies](#check-the-import-dependencies)
 * [Check the status for audience-based message](#status-for-audience-based-message)
 * [Copy artifacts synchronously](#copy-artifacts-synchronously)
 * [Create a configuration](#create-a-configuration)
@@ -198,6 +199,10 @@ This action module checks that the service represented by the connection is runn
   </tr> 
  </tbody> 
 </table>
+
+### Check the import dependencies
+
+This action module checks the dependencies for package artifacts. This allows you to check whether you have permissions to import package artifacts.
 
 ### Check the status for audience-based message
 
