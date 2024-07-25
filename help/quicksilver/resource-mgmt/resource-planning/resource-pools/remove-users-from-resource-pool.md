@@ -19,6 +19,8 @@ For more information about resource pools, see [Resource pools overview](../../.
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following:
 
 <table style="table-layout:auto"> 
@@ -46,6 +48,8 @@ You must have the following:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
++++
 
 ## Remove users from a Resource Pool
 

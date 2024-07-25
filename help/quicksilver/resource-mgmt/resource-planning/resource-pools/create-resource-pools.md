@@ -15,6 +15,8 @@ Resource pools are collections of users that help you manage resources easier in
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following:
 
 <table style="table-layout:auto"> 
@@ -41,6 +43,8 @@ You must have the following:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
++++
 
 ## Create a Resource Pool {#create-a-resource-pool}
 
