@@ -581,10 +581,215 @@ This action module submits an import for a package after you have reviewed confl
 
 ### Artifact management
 
+* [Copy artifacts synchronously](#copy-artifacts-synchronously)
+* [Export artifacts asynchronously](#export-artifacts-asynchronously)
+* [Import artifacts asynchronously](#import-artifacts-asynchronously)
+
+#### Copy artifacts synchronously
+
+This action module copies artifacts from a source sandbox into a destination sandbox.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Name]</td> 
+   <td>Enter or map a name for the new file</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Description]</td> 
+   <td>Enter or map a description for the new file</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Visibility]</td> 
+   <td></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Destination sandbox]</td> 
+   <td></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Artifacts]</td> 
+   <td>For each artifact you want to copy, click <b>Add artifact</b> and continue to <a href="#artifact-fields" class="MCXref xref" >Artifact fields</a>.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Export Artifacts asynchronously
+
+This action module exports artifacts from the specified sandbox.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Name]</td> 
+   <td>Enter or map a name for the export file</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Description]</td> 
+   <td>Enter or map a description for the export file</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Visibility]</td> 
+   <td></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Artifacts]</td> 
+   <td>For each artifact you want to export, click <b>Add artifact</b> and continue to <a href="#artifact-fields" class="MCXref xref" >Artifact fields</a>.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Import Artifacts asynchronously
+
+This action module imports a snapshot containing artifacts.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Snapshot ID]</td> 
+   <td>Enter or map the ID of the snapshot you want to import.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
 
 
 ### Record management
 
+* [Create a record](#create-a-record)
+* [Update a record](#update-a-record)
+* [Delete a record](#delete-a-record)
+* [Patch a record](#patch-a-record)
+* [Get a record](#get-a-record)
+
+#### Create a record
+
+This action module creates a new content template or content fragment.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select content type]</td> 
+   <td>Select whether you are creating a content template or a content fragment.<ul><li><p><b>Content template</b></p>Continue to <a href="#template-fields" class="MCXref xref" >Template fields</a>.</li><li><p><b>Content fragment</b></p>Continue to <a href="#fragment-fields" class="MCXref xref" >Fragment fields</a>.</li></ul></td> 
+  </tr> 
+  </tbody> 
+</table>
+
+#### Update a record
+
+This action module updates a content template or fragment.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select content type]</td> 
+   <td>Select whether you are updating a capping configuration or a throttling configuration.<ul><li><p><b>Template</b></p>For fields, see <a href="#template-fields" class="MCXref xref" >Template fields</a> in the Create a record section of this article.</li><li><p><b>Fragment</b></p>For fields, see <a href="#fragment-fields" class="MCXref xref" >Fragment fields</a> in the Create a record section of this article.</li></ul></td> 
+  </tr> 
+  </tbody> 
+  </table>
+
+#### Delete a record
+
+This action module deletes a content template or content fragment.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select content type]</td> 
+   <td>Select whether you are deleting a content template or content fragment.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Template/Fragment ID]</td> 
+   <td>Enter or map the ID of the template or fragment you want to delete.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Patch a record
+
+This action module updates a record using PATCH with JSON pointer format
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select content type]</td> 
+   <td>Select whether you are patching a content template or content fragment.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Template/Fragment ID]</td> 
+   <td>Enter or map the ID of the template or fragment you want to patch.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Payload data]</td> 
+   <td>To add a record to the payload of this patch: <ol><li>Click <b>Add a record</b>.</li><li>Select the operation: Add, Remove, or Replace.</li><li>In the Path field, select whether you want to patch the name or the description.</li><li> In the From field, enter or map a string that contains a JSON pointer value.</li><li>In the Value field, enter the value to be used in the operation.</li></ol></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Get a record
+
+This action module returns the content template or content fragment identified by the specified ID. 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select content type]</td> 
+   <td>Select whether you are retrieving a content template or content fragment.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Template/Fragment ID]</td> 
+   <td>Enter or map the ID of the template or fragment you want to retrieve.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
 
 ### Message management
@@ -703,41 +908,6 @@ This action module checks the status of an audience-based batch message.
  </tbody> 
 </table>
 
-### Copy artifacts synchronously
-
-This action module copies artifacts from a source sandbox into a destination sandbox.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Name]</td> 
-   <td>Enter or map a name for the new file</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Description]</td> 
-   <td>Enter or map a description for the new file</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Visibility]</td> 
-   <td></td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Destination sandbox]</td> 
-   <td></td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Artifacts]</td> 
-   <td>For each artifact you want to copy, click <b>Add artifact</b> and continue to <a href="#artifact-fields" class="MCXref xref" >Artifact fields</a>.</td> 
-  </tr> 
- </tbody> 
-</table>
-
 #### Artifact fields
 
 <table style="table-layout:auto"> 
@@ -787,25 +957,6 @@ This action module copies artifacts from a source sandbox into a destination san
    </td> 
   </tr> 
  </tbody> 
-</table>
-
-### Create a record
-
-This action module creates a new content template or content fragment.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Select content type]</td> 
-   <td>Select whether you are creating a content template or a content fragment.<ul><li><p><b>Content template</b></p>Continue to <a href="#template-fields" class="MCXref xref" >Template fields</a>.</li><li><p><b>Content fragment</b></p>Continue to <a href="#fragment-fields" class="MCXref xref" >Fragment fields</a>.</li></ul></td> 
-  </tr> 
-  </tbody> 
 </table>
 
 #### Template fields
@@ -888,60 +1039,6 @@ This action module creates a new content template or content fragment.
  </tbody> 
 </table>
 
-### Delete a record
-
-This action module deletes a content template or content fragment.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Select content type]</td> 
-   <td>Select whether you are deleting a content template or content fragment.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Template/Fragment ID]</td> 
-   <td>Enter or map the ID of the template or fragment you want to delete.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Export Artifacts asynchronously
-
-This action module exports artifacts from the specified sandbox.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Name]</td> 
-   <td>Enter or map a name for the export file</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Description]</td> 
-   <td>Enter or map a description for the export file</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Visibility]</td> 
-   <td></td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Artifacts]</td> 
-   <td>For each artifact you want to export, click <b>Add artifact</b> and continue to <a href="#artifact-fields" class="MCXref xref" >Artifact fields</a>.</td> 
-  </tr> 
- </tbody> 
-</table>
-
 #### Artifact fields
 
 <table style="table-layout:auto"> 
@@ -993,48 +1090,6 @@ This action module exports artifacts from the specified sandbox.
  </tbody> 
 </table>
 
-
-### Get a record
-
-This action module returns the content template or content fragment identified by the specified ID. 
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Select content type]</td> 
-   <td>Select whether you are retrieving a content template or content fragment.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Template/Fragment ID]</td> 
-   <td>Enter or map the ID of the template or fragment you want to retrieve.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Import Artifacts asynchronously
-
-This action module imports a snapshot containing artifacts.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Snapshot ID]</td> 
-   <td>Enter or map the ID of the snapshot you want to import.</td> 
-  </tr> 
- </tbody> 
-</table>
 
 ### List all dependent objects
 
@@ -1141,33 +1196,6 @@ This action module makes a custom API call to the Adobe Journey Optimizer API.
   </tbody>
 </table>
 
-### Patch a record
-
-This action module updates a record using PATCH with JSON pointer format
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Select content type]</td> 
-   <td>Select whether you are patching a content template or content fragment.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Template/Fragment ID]</td> 
-   <td>Enter or map the ID of the template or fragment you want to patch.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Payload data]</td> 
-   <td>To add a record to the payload of this patch: <ol><li>Click <b>Add a record</b>.</li><li>Select the operation: Add, Remove, or Replace.</li><li>In the Path field, select whether you want to patch the name or the description.</li><li> In the From field, enter or map a string that contains a JSON pointer value.</li><li>In the Value field, enter the value to be used in the operation.</li></ol></td> 
-  </tr> 
- </tbody> 
-</table>
-
 ### Trigger an audience-based message
 
 This action module triggers the execution of an audience-based message, based on the request and campaign you specify.
@@ -1233,25 +1261,6 @@ This action module triggers a unitary message to the recipients you specify.
 </table>
 
 
-
-### Update a record
-
-This action module updates a content template or fragment.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Select content type]</td> 
-   <td>Select whether you are updating a capping configuration or a throttling configuration.<ul><li><p><b>Template</b></p>For fields, see <a href="#template-fields" class="MCXref xref" >Template fields</a> in the Create a record section of this article.</li><li><p><b>Fragment</b></p>For fields, see <a href="#fragment-fields" class="MCXref xref" >Fragment fields</a> in the Create a record section of this article.</li></ul></td> 
-  </tr> 
-  </tbody> 
-  </table>
 
 ### List configurations
 
