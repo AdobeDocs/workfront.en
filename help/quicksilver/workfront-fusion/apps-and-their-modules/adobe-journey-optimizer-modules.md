@@ -127,6 +127,294 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
+* [Configuration management](#configuration-management)
+* [Package management](#package-management)
+* [Artifact management](#artifact-management)
+* [Record management](#record-management)
+* [Message management](#message-management)
+* [Health and status checks](#health-and-status-checks)
+* [Searches](#searches)
+* [Other](#other)
+
+
+
+
+### Configuration management
+
+* Create a configuration
+* Deploy a configuration
+* Update a configuration
+* Undeploy a configuration
+* Check if configuration can be deployed
+* Delete a configuration
+* Get a configuration
+
+
+
+#### Create a configuration
+
+This action module creates a capping endpoint or throttling configuration.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select configuration type]</td> 
+   <td>Select whether you are creating a capping configuration or a throttling configuration.<ul><li><p><b>Capping</b></p>Continue to <a href="#capping-fields" class="MCXref xref" >Capping fields</a>.</li><li><p><b>Throttling</b></p>Continue to <a href="#throttling-fields" class="MCXref xref" >Throttling fields</a>.</li></ul></td> 
+  </tr> 
+   </tbody> 
+</table>
+
+##### Capping fields
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> <tr> 
+   <td role="rowheader">[!UICONTROL URL]</td> 
+   <td>Enter or map the URL of the endpoint you want to configure.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL IMS Org ID]</td> 
+   <td>Enter or map the Adobe IMS ID of the organization.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Methods]</td> 
+   <td>Select the methods to use in this configuration.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Service]</td> 
+   <td>Select whether you are using an action or a datasource for this configuration.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Maximum HTTP connections]</td> 
+   <td>Enter or map the maximum number of simultaneous connections to this endpoint.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Maximum calls]</td> 
+   <td>Enter or map the maximum number of calls to be performed in the period specified in the Time period field.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Time period (milliseconds)]</td> 
+   <td>Enter or map the number of milliseconds that relates to the Maximum calls field.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+##### Throttling fields
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> <tr> 
+   <td role="rowheader">[!UICONTROL Name]</td> 
+   <td>Enter or map a name for this configuration.</td> 
+<tr> 
+   <td role="rowheader">[!UICONTROL Description]</td> 
+   <td>Enter or map a description for this configuration.</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader">[!UICONTROL URL pattern]</td> 
+   <td>Enter or map the URL for the endpoint you want to throttle.</td> 
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Methods]</td> 
+   <td>Select the methods to use in this configuration.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Max throughput]</td> 
+   <td>Select whether you are using an action or a datasource for this configuration.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Maximum HTTP connections]</td> 
+   <td>Enter or map the maximum number of simultaneous connections to this endpoint.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Maximum calls]</td> 
+   <td>Enter or map the maximum throughput that you want for this endpoint. This value must be between 200 and 5000.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Deploy a configuration
+
+This action module deploys the specified capping or throttling configuration.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select configuration type]</td> 
+   <td>Select whether you are deploying a capping configuration or a throttling configuration.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Configuration ID]</td> 
+   <td>Enter or map the ID of the configuration you want to deploy.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Update a configuration
+
+This action module updates the specified capping or throttling configuration.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select configuration type]</td> 
+   <td>Select whether you are updating a capping configuration or a throttling configuration.<ul><li><p><b>Capping</b></p>For fields, see <a href="#capping-fields" class="MCXref xref" >Capping fields</a> in the Create a configuration section of this article.</li><li><p><b>Throttling</b></p>For fields, see <a href="#throttling-fields" class="MCXref xref" >Throttling fields</a> in the Create a configuration section of this article.</li></ul></td> 
+  </tr> 
+  </tbody> 
+</table>
+
+#### Undeploy a configuration
+
+This action module undeploys a capping or throttling configuration. The configuration state is changed back to the state before the deployment (`created` or `updated`).
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select configuration type]</td> 
+   <td>Select whether you are undeploying a capping configuration or a throttling configuration.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Configuration ID]</td> 
+   <td>Enter or map the ID of the configuration you want to undeploy.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Check if configuration can be deployed
+
+This action module verifies whether a capping or throttling configuration can be deployed.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select configuration type]</td> 
+   <td>Select whether you are checking a capping configuration or a throttling configuration.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Configuration ID]</td> 
+   <td>Enter or map the ID of the configuration you want to check.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Delete a configuration
+
+This action module deletes a capping endpoint or throttling configuration.
+
+If the configuration has been deployed, it must be undeployed before it can be deleted.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select configuration type]</td> 
+   <td>Select whether you are deleting a capping configuration or a throttling configuration.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Configuration ID]</td> 
+   <td>Enter or map the ID of the configuration you want to delete.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Get a configuration
+
+This action module returns the capping or throttling configuration identified by the specified ID. The latest definition is returned.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select configuration type]</td> 
+   <td>Select whether you are retrieving a capping configuration or a throttling configuration.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Configuration ID]</td> 
+   <td>Enter or map the ID of the configuration you want to retrieve.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+
+### Package management
+
+
+
+### Artifact management
+
+
+
+### Record management
+
+
+
+### Message management
+
+
+
+### Health and status checks
+
+
+
+### Searches
+
+
+
+### Other
+
+
+
+
+
+
+
+<!--
+
 * [Check if configuration can be deployed](#check-if-configuration-can-be-deployed)
 * [Check service health](#check-service-health)
 * [Check the import dependencies](#check-the-import-dependencies)
@@ -161,29 +449,8 @@ If you see the map button above a field or function, you can use it to set varia
 * [List packages](#list-packages)
 * [List records](#list-records)
 
+-->
 
-### Check if configuration can be deployed
-
-This action module verifies whether a capping or throttling configuration can be deployed.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Select configuration type]</td> 
-   <td>Select whether you are checking a capping configuration or a throttling configuration.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Configuration ID]</td> 
-   <td>Enter or map the ID of the configuration you want to check.</td> 
-  </tr> 
- </tbody> 
-</table>
 
 ### Check service health
 
@@ -328,97 +595,6 @@ This action module copies artifacts from a source sandbox into a destination san
  </tbody> 
 </table>
 
-### Create a configuration
-
-This action module creates a capping endpoint or throttling configuration.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Select configuration type]</td> 
-   <td>Select whether you are creating a capping configuration or a throttling configuration.<ul><li><p><b>Capping</b></p>Continue to <a href="#capping-fields" class="MCXref xref" >Capping fields</a>.</li><li><p><b>Throttling</b></p>Continue to <a href="#throttling-fields" class="MCXref xref" >Throttling fields</a>.</li></ul></td> 
-  </tr> 
-   </tbody> 
-</table>
-
-#### Capping fields
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> <tr> 
-   <td role="rowheader">[!UICONTROL URL]</td> 
-   <td>Enter or map the URL of the endpoint you want to configure.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL IMS Org ID]</td> 
-   <td>Enter or map the Adobe IMS ID of the organization.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Methods]</td> 
-   <td>Select the methods to use in this configuration.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Service]</td> 
-   <td>Select whether you are using an action or a datasource for this configuration.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Maximum HTTP connections]</td> 
-   <td>Enter or map the maximum number of simultaneous connections to this endpoint.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Maximum calls]</td> 
-   <td>Enter or map the maximum number of calls to be performed in the period specified in the Time period field.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Time period (milliseconds)]</td> 
-   <td>Enter or map the number of milliseconds that relates to the Maximum calls field.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### Throttling fields
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> <tr> 
-   <td role="rowheader">[!UICONTROL Name]</td> 
-   <td>Enter or map a name for this configuration.</td> 
-<tr> 
-   <td role="rowheader">[!UICONTROL Description]</td> 
-   <td>Enter or map a description for this configuration.</td> 
-  </tr> 
-<tr> 
-   <td role="rowheader">[!UICONTROL URL pattern]</td> 
-   <td>Enter or map the URL for the endpoint you want to throttle.</td> 
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Methods]</td> 
-   <td>Select the methods to use in this configuration.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Max throughput]</td> 
-   <td>Select whether you are using an action or a datasource for this configuration.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Maximum HTTP connections]</td> 
-   <td>Enter or map the maximum number of simultaneous connections to this endpoint.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Maximum calls]</td> 
-   <td>Enter or map the maximum throughput that you want for this endpoint. This value must be between 200 and 5000.</td> 
-  </tr> 
- </tbody> 
-</table>
-
 ### Create a package
 
 This action module creates a multi-artifact package.
@@ -557,31 +733,6 @@ This action module creates a new content template or content fragment.
  </tbody> 
 </table>
 
-### Delete a configuration
-
-This action module deletes a capping endpoint or throttling configuration.
-
-If the configuration has been deployed, it must be undeployed before it can be deleted.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Select configuration type]</td> 
-   <td>Select whether you are deleting a capping configuration or a throttling configuration.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Configuration ID]</td> 
-   <td>Enter or map the ID of the configuration you want to delete.</td> 
-  </tr> 
- </tbody> 
-</table>
-
 ### Delete a package
 
 This action module deletes a multi-artifact package.
@@ -620,29 +771,6 @@ This action module deletes a content template or content fragment.
   <tr> 
    <td role="rowheader">[!UICONTROL Template/Fragment ID]</td> 
    <td>Enter or map the ID of the template or fragment you want to delete.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Deploy a configuration
-
-This action module deploys the specified capping or throttling configuration.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Select configuration type]</td> 
-   <td>Select whether you are deploying a capping configuration or a throttling configuration.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Configuration ID]</td> 
-   <td>Enter or map the ID of the configuration you want to deploy.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -725,29 +853,6 @@ This action module exports artifacts from the specified sandbox.
    <li><p><b>Object</b></p></li>
    </ul>
    </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Get a configuration
-
-This action module returns the capping or throttling configuration identified by the specified ID. The latest definition is returned.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Select configuration type]</td> 
-   <td>Select whether you are retrieving a capping configuration or a throttling configuration.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Configuration ID]</td> 
-   <td>Enter or map the ID of the configuration you want to retrieve.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -1099,48 +1204,6 @@ This action module triggers a unitary message to the recipients you specify.
    </ul></td> 
   </tr> 
  </tbody> 
-</table>
-
-### Undeploy a configuration
-
-This action module undeploys a capping or throttling configuration. The configuration state is changed back to the state before the deployment (`created` or `updated`).
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Select configuration type]</td> 
-   <td>Select whether you are undeploying a capping configuration or a throttling configuration.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Configuration ID]</td> 
-   <td>Enter or map the ID of the configuration you want to undeploy.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Update a configuration
-
-This action module updates the specified capping or throttling configuration.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Select configuration type]</td> 
-   <td>Select whether you are updating a capping configuration or a throttling configuration.<ul><li><p><b>Capping</b></p>For fields, see <a href="#capping-fields" class="MCXref xref" >Capping fields</a> in the Create a configuration section of this article.</li><li><p><b>Throttling</b></p>For fields, see <a href="#throttling-fields" class="MCXref xref" >Throttling fields</a> in the Create a configuration section of this article.</li></ul></td> 
-  </tr> 
-  </tbody> 
 </table>
 
 ### Update a package
