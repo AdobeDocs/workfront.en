@@ -95,6 +95,11 @@ The following table lists the fields available for event subscription resources:
   <tr> 
    <td> </td> 
    <td> </td> 
+   <td> parameterValues </td> 
+  </tr> 
+  <tr> 
+   <td> </td> 
+   <td> </td> 
    <td> projectedAvgWorkPerDay </td> 
   </tr> 
   <tr> 
