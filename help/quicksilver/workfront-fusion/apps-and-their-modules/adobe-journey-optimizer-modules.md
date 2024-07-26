@@ -620,6 +620,57 @@ This action module copies artifacts from a source sandbox into a destination san
  </tbody> 
 </table>
 
+##### Artifact fields
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID]</td> 
+   <td>Enter or map the ID of the artifact.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Type]</td> 
+   <td>Enter or map the artifact type, such as <code>REGISTRY_SCHEMA<code> or <code>JOURNEY</code>.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Version]</td> 
+   <td>Enter or map the visibility of the artifact. This applies only to Registry objects.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Visibility]</td> 
+   <td>Enter or map the visibility (tenant or global). This applies only to Registry objects.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Found]</td> 
+   <td>Select <b>Yes</b> if this item was found using a GET operation.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Tasks]</td> 
+   <td>For each task you want to add, click <b>Add task</b> and fill in the following:
+   <ul>
+   <li><p><b>Method</b></p></li>
+   <li><p><b>Action</b></p></li>
+   <li><p><b>Using</b></p></li>
+   <li><p><b>With</b></p></li>
+   </ul>
+   </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader">[!UICONTROL Messages]</td> 
+   <td>For each task you want to add, click <b>Add message</b> and fill in the following:
+   <ul>
+   <li><p><b>Status</b></p><p>Enter or map the status that this message represents, such as <code>ERROR</code>.</li>
+   <li><p><b>Attempt</b></p><p>Enter or map the attempt number related to this message. This may be useful if different attempts produce different messages.</p></li>
+   <li><p><b>Message</b></p><p>Enter or map the text of the message.</li>
+   <li><p><b>Object</b></p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 #### Export Artifacts asynchronously
 
 This action module exports artifacts from the specified sandbox.
@@ -650,6 +701,59 @@ This action module exports artifacts from the specified sandbox.
   </tr> 
  </tbody> 
 </table>
+
+##### Artifact fields
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID]</td> 
+   <td>Enter or map the ID of the artifact.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Type]</td> 
+   <td>Enter or map the artifact type, such as <code>REGISTRY_SCHEMA<code> or <code>JOURNEY</code>.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Version]</td> 
+   <td>Enter or map the visibility of the artifact. This applies only to Registry objects.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Visibility]</td> 
+   <td>Enter or map the visibility (tenant or global). This applies only to Registry objects.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Found]</td> 
+   <td>Select <b>Yes</b> if this item was found using a GET operation.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Tasks]</td> 
+   <td>For each task you want to add, click <b>Add task</b> and fill in the following:
+   <ul>
+   <li><p><b>Method</b></p></li>
+   <li><p><b>Action</b></p></li>
+   <li><p><b>Using</b></p></li>
+   <li><p><b>With</b></p></li>
+   </ul>
+   </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader">[!UICONTROL Messages]</td> 
+   <td>For each task you want to add, click <b>Add message</b> and fill in the following:
+   <ul>
+   <li><p><b>Status</b></p><p>Enter or map the status that this message represents, such as <code>ERROR</code>.</li>
+   <li><p><b>Attempt</b></p><p>Enter or map the attempt number related to this message. This may be useful if different attempts produce different messages.</p></li>
+   <li><p><b>Message</b></p><p>Enter or map the text of the message.</li>
+   <li><p><b>Object</b></p></li>
+   </ul>
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
 
 #### Import Artifacts asynchronously
 
@@ -697,6 +801,86 @@ This action module creates a new content template or content fragment.
    <td>Select whether you are creating a content template or a content fragment.<ul><li><p><b>Content template</b></p>Continue to <a href="#template-fields" class="MCXref xref" >Template fields</a>.</li><li><p><b>Content fragment</b></p>Continue to <a href="#fragment-fields" class="MCXref xref" >Fragment fields</a>.</li></ul></td> 
   </tr> 
   </tbody> 
+</table>
+
+##### Template fields
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> <tr> 
+   <td role="rowheader">[!UICONTROL Name]</td> 
+   <td>Enter or map a name for this content template.</td> 
+<tr> 
+   <td role="rowheader">[!UICONTROL Description]</td> 
+   <td>Enter or map a description for this content template.</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader">[!UICONTROL Type]</td> 
+   <td>Select the type of template that you want to create.</td> 
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Channels]</td> 
+   <td>Select the channels included in this template.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Content template origin]</td> 
+   <td>Select the source for this template.</td>  
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Metadata]</td> 
+   <td>To include custom properties in the new template, select "Add metadata" and enter or map the metadata's key and value. Repeat for each custom field you want to include.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Email HTML]</td> 
+   <td>Enter or map the HTML of the email included in this template.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Editor context]</td> 
+   <td>To include custom properties in the email, select "Add editor context" and enter or map the context's key and value. Repeat for each custom field you want to include.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+##### Fragment fields
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> <tr> 
+   <td role="rowheader">[!UICONTROL Name]</td> 
+   <td>Enter or map a name for this content fragment.</td> 
+<tr> 
+   <td role="rowheader">[!UICONTROL Description]</td> 
+   <td>Enter or map a description for this content fragment.</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader">[!UICONTROL Type]</td> 
+   <td>Select the type of template that you want to create.</td> 
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Channels]</td> 
+   <td>Select the channels included in this template.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Content fragment origin]</td> 
+   <td>Select the source for this fragment.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Metadata]</td> 
+   <td>To include custom properties in the new template, select "Add metadata" and enter or map the metadata's key and value. Repeat for each custom field you want to include.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Content]</td> 
+   <td>Enter or map the content of the fragment.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Editor context]</td> 
+   <td>To include custom properties in the email, select "Add editor context" and enter or map the context's key and value. Repeat for each custom field you want to include.</td> 
+  </tr> 
+ </tbody> 
 </table>
 
 #### Update a record
@@ -794,64 +978,101 @@ This action module returns the content template or content fragment identified b
 
 ### Message management
 
+* [Trigger a unitary message execution](#trigger-a-unitary-message-execution)
+* [Trigger an audience-based message](#trigger-an-audience-based-message)
+* [Check the status of an audience-based message](#check-the-status-for-audience-based-message)
 
+
+
+#### Trigger a unitary message execution
+
+This action module triggers a unitary message to the recipients you specify.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Request ID]</td> 
+   <td>Enter or map the ID of the request associated with this message.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Campaign ID]</td> 
+   <td>Enter or map the ID of the campaign associated with this message.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Recipients]</td> 
+   <td>For each recipient you want to receive this message, click <b>Add recipient</b> and enter the following:
+   <ul>
+   <li><p><b>Type</b></p>Select <code>aep</code>.</li>
+   <li><p><b>User ID</b></p>Enter or map the recipient's Adobe Experience Platform Profile identifier.</li>
+   <li><p><b>Namespace</b></p>Enter or map the recipient's Adobe Experience Platform Profile namespace.</li>
+   <li><p><b>Email address</b></p></li>
+   <li><p><b>Mobile phone number</b></p></li>
+   <li><p><b>First name</b></p></li>
+   <li><p><b>Last name</b></p></li>
+   <li><p><b>Product</b></p>Enter or map the product associated with this message. This is used for dynamic variable substitution in the message content.</li>
+   </ul></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Trigger an audience-based message
+
+This action module triggers the execution of an audience-based message, based on the request and campaign you specify.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Request ID]</td> 
+   <td>Enter or map the ID of the request associated with this message.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Campaign ID]</td> 
+   <td>Enter or map the ID of the campaign associated with this message.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Product]</td> 
+   <td>Enter or map the product associated with this message. This is used for dynamic variable substitution in the message content.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Check the status for audience-based message
+
+This action module checks the status of an audience-based batch message.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Message execution ID]</td> 
+   <td>Enter or map the ID of the message execution you want to check.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
 ### Health and status checks
 
-
-
-### Searches
-
-
-
-### Other
-
-
-
-
-
-
-
-<!--
-
-* [Check if configuration can be deployed](#check-if-configuration-can-be-deployed)
 * [Check service health](#check-service-health)
 * [Check the import dependencies](#check-the-import-dependencies)
-* [Check the status for audience-based message](#status-for-audience-based-message)
-* [Copy artifacts synchronously](#copy-artifacts-synchronously)
-* [Create a configuration](#create-a-configuration)
-* [Create a package](#create-a-package)
-* [Create a record](#create-a-record)
-* [Delete a configuration](#delete-a-configuration)
-* [Delete a package](#delete-a-package)
-* [Delete a record](#delete-a-record)
-* [Deploy a configuration](#deploy-a-configuration)
-* [Export artifacts asynchronously](#export-artifacts-asynchronously)
-* [Get a configuration](#get-a-configuration)
-* [Get a record](#get-a-record)
-* [Import a package](#import-a-package)
-* [Import artifacts asynchronously](#import-artifacts-asynchronously)
-* [List all dependent objects](#list-all-dependent-objects)
-* [List export and import jobs](#list-import-and-export-jobs)
-* [Look up a package](#look-up-a-package)
-* [Make a custom API call](#make-a-custom-api-call)
-* [Patch a record](#patch-a-record)
-* [Publish a package](#publish-a-package)
-* [Submit an import](#submit-an-import)
-* [Trigger a unitary message execution](#trigger-a-unitary-message-execution)
-* [Trigger an audience-based message](#trigger-an-audience-based-message)
-* [Undeploy a configuration](#undeploy-a-configuration)
-* [Update a configuration](#update-a-configuration)
-* [Update a package](#update-a-package)
-* [Update a record](#update-a-record)
-* [List configurations](#list-configurations)
-* [List packages](#list-packages)
-* [List records](#list-records)
 
--->
-
-
-### Check service health
+#### Check service health
 
 This action module checks that the service represented by the connection is running.
 
@@ -866,7 +1087,7 @@ This action module checks that the service represented by the connection is runn
  </tbody> 
 </table>
 
-### Check the import dependencies
+#### Check the import dependencies
 
 This action module checks the dependencies for package artifacts. This allows you to check whether you have permissions to import package artifacts.
 
@@ -889,209 +1110,15 @@ This action module checks the dependencies for package artifacts. This allows yo
  </tbody> 
 </table>
 
-### Check the status for audience-based message
+### Searches
 
-This action module checks the status of an audience-based batch message.
+* [List all dependent objects](#list-all-dependent-objects)
+* [List configurations](#list-configurations)
+* [List export and import jobs](#list-export-and-import-jobs)
+* [List packages](#list-packages)
+* [List records](#list-records)
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Message execution ID]</td> 
-   <td>Enter or map the ID of the message execution you want to check.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### Artifact fields
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL ID]</td> 
-   <td>Enter or map the ID of the artifact.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Type]</td> 
-   <td>Enter or map the artifact type, such as <code>REGISTRY_SCHEMA<code> or <code>JOURNEY</code>.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Version]</td> 
-   <td>Enter or map the visibility of the artifact. This applies only to Registry objects.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Visibility]</td> 
-   <td>Enter or map the visibility (tenant or global). This applies only to Registry objects.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Found]</td> 
-   <td>Select <b>Yes</b> if this item was found using a GET operation.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Tasks]</td> 
-   <td>For each task you want to add, click <b>Add task</b> and fill in the following:
-   <ul>
-   <li><p><b>Method</b></p></li>
-   <li><p><b>Action</b></p></li>
-   <li><p><b>Using</b></p></li>
-   <li><p><b>With</b></p></li>
-   </ul>
-   </td> 
-  </tr> 
-   <tr> 
-   <td role="rowheader">[!UICONTROL Messages]</td> 
-   <td>For each task you want to add, click <b>Add message</b> and fill in the following:
-   <ul>
-   <li><p><b>Status</b></p><p>Enter or map the status that this message represents, such as <code>ERROR</code>.</li>
-   <li><p><b>Attempt</b></p><p>Enter or map the attempt number related to this message. This may be useful if different attempts produce different messages.</p></li>
-   <li><p><b>Message</b></p><p>Enter or map the text of the message.</li>
-   <li><p><b>Object</b></p></li>
-   </ul>
-   </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### Template fields
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> <tr> 
-   <td role="rowheader">[!UICONTROL Name]</td> 
-   <td>Enter or map a name for this content template.</td> 
-<tr> 
-   <td role="rowheader">[!UICONTROL Description]</td> 
-   <td>Enter or map a description for this content template.</td> 
-  </tr> 
-<tr> 
-   <td role="rowheader">[!UICONTROL Type]</td> 
-   <td>Select the type of template that you want to create.</td> 
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Channels]</td> 
-   <td>Select the channels included in this template.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Content template origin]</td> 
-   <td>Select the source for this template.</td>  
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Metadata]</td> 
-   <td>To include custom properties in the new template, select "Add metadata" and enter or map the metadata's key and value. Repeat for each custom field you want to include.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Email HTML]</td> 
-   <td>Enter or map the HTML of the email included in this template.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Editor context]</td> 
-   <td>To include custom properties in the email, select "Add editor context" and enter or map the context's key and value. Repeat for each custom field you want to include.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### Fragment fields
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> <tr> 
-   <td role="rowheader">[!UICONTROL Name]</td> 
-   <td>Enter or map a name for this content fragment.</td> 
-<tr> 
-   <td role="rowheader">[!UICONTROL Description]</td> 
-   <td>Enter or map a description for this content fragment.</td> 
-  </tr> 
-<tr> 
-   <td role="rowheader">[!UICONTROL Type]</td> 
-   <td>Select the type of template that you want to create.</td> 
-  </tr> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Channels]</td> 
-   <td>Select the channels included in this template.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Content fragment origin]</td> 
-   <td>Select the source for this fragment.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Metadata]</td> 
-   <td>To include custom properties in the new template, select "Add metadata" and enter or map the metadata's key and value. Repeat for each custom field you want to include.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Content]</td> 
-   <td>Enter or map the content of the fragment.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Editor context]</td> 
-   <td>To include custom properties in the email, select "Add editor context" and enter or map the context's key and value. Repeat for each custom field you want to include.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### Artifact fields
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL ID]</td> 
-   <td>Enter or map the ID of the artifact.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Type]</td> 
-   <td>Enter or map the artifact type, such as <code>REGISTRY_SCHEMA<code> or <code>JOURNEY</code>.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Version]</td> 
-   <td>Enter or map the visibility of the artifact. This applies only to Registry objects.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Visibility]</td> 
-   <td>Enter or map the visibility (tenant or global). This applies only to Registry objects.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Found]</td> 
-   <td>Select <b>Yes</b> if this item was found using a GET operation.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Tasks]</td> 
-   <td>For each task you want to add, click <b>Add task</b> and fill in the following:
-   <ul>
-   <li><p><b>Method</b></p></li>
-   <li><p><b>Action</b></p></li>
-   <li><p><b>Using</b></p></li>
-   <li><p><b>With</b></p></li>
-   </ul>
-   </td> 
-  </tr> 
-   <tr> 
-   <td role="rowheader">[!UICONTROL Messages]</td> 
-   <td>For each task you want to add, click <b>Add message</b> and fill in the following:
-   <ul>
-   <li><p><b>Status</b></p><p>Enter or map the status that this message represents, such as <code>ERROR</code>.</li>
-   <li><p><b>Attempt</b></p><p>Enter or map the attempt number related to this message. This may be useful if different attempts produce different messages.</p></li>
-   <li><p><b>Message</b></p><p>Enter or map the text of the message.</li>
-   <li><p><b>Object</b></p></li>
-   </ul>
-   </td> 
-  </tr> 
- </tbody> 
-</table>
-
-
-### List all dependent objects
+#### List all dependent objects
 
 This search module lists all dependent objects for objects in the specified package
 
@@ -1118,7 +1145,26 @@ This search module lists all dependent objects for objects in the specified pack
  </tbody> 
 </table>
 
-### List export and import jobs
+#### List configurations
+
+This action module lists all capping or throttling configurations.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select configuration type]</td> 
+   <td>Select whether you want to list capping configurations or a throttling configurations.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### List export and import jobs
 
 This search module lists current export and import job. You can use query parameters to filter the list.
 
@@ -1149,7 +1195,79 @@ This search module lists current export and import job. You can use query parame
  </tbody> 
 </table>
 
-### Make a custom API call
+
+
+#### List packages
+
+This search module lists all packages in your organization. You can use query parameters to filter the list.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Start]</td> 
+   <td></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Maximum number of returned results]</td> 
+      <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Order by]</td> 
+      <td>Select whether to order results by created date or modified date.</td>
+  </tr> 
+    <tr> 
+   <td role="rowheader">[!UICONTROL Query parameter]</td> 
+   <td>For each query parameter that you want to filter by, click <b>Add query parameter</b>, then select the field and operator, and enter the field value for the filter.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### List records
+
+This search module lists all capping or throttling configurations.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select content type]</td> 
+   <td>Select whether you are retrieving a content template or content fragment.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Order by]</td> 
+   <td>Enter or map the parameter name that you want to sort this list by. Add <code>-</code> or <code>+</code> to sort descending or ascending. If no sign is specified, the list is sorted descending.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Start]</td> 
+   <td>This field is used for pagination. Enter or map the criteria for the next page with respect to the property specified in the Order by field.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Order by]</td> 
+   <td>Enter or map the parameter name that you want to sort this list by. Add <code>-</code> or <code>+</code> to sort descending or ascending. If no sign is specified, the list is sorted descending.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Filter by property]</td> 
+   <td>For each property filter you want to add, click <b>Add item</b> and enter the property's key and value. Records that include the specified value for the property are included in the list.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+### Other
+
+
+#### Make a custom API call
 
 This action module makes a custom API call to the Adobe Journey Optimizer API.
 
@@ -1196,154 +1314,46 @@ This action module makes a custom API call to the Adobe Journey Optimizer API.
   </tbody>
 </table>
 
-### Trigger an audience-based message
-
-This action module triggers the execution of an audience-based message, based on the request and campaign you specify.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Request ID]</td> 
-   <td>Enter or map the ID of the request associated with this message.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Campaign ID]</td> 
-   <td>Enter or map the ID of the campaign associated with this message.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Product]</td> 
-   <td>Enter or map the product associated with this message. This is used for dynamic variable substitution in the message content.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Trigger a unitary message execution
-
-This action module triggers a unitary message to the recipients you specify.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Request ID]</td> 
-   <td>Enter or map the ID of the request associated with this message.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Campaign ID]</td> 
-   <td>Enter or map the ID of the campaign associated with this message.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Recipients]</td> 
-   <td>For each recipient you want to receive this message, click <b>Add recipient</b> and enter the following:
-   <ul>
-   <li><p><b>Type</b></p>Select <code>aep</code>.</li>
-   <li><p><b>User ID</b></p>Enter or map the recipient's Adobe Experience Platform Profile identifier.</li>
-   <li><p><b>Namespace</b></p>Enter or map the recipient's Adobe Experience Platform Profile namespace.</li>
-   <li><p><b>Email address</b></p></li>
-   <li><p><b>Mobile phone number</b></p></li>
-   <li><p><b>First name</b></p></li>
-   <li><p><b>Last name</b></p></li>
-   <li><p><b>Product</b></p>Enter or map the product associated with this message. This is used for dynamic variable substitution in the message content.</li>
-   </ul></td> 
-  </tr> 
- </tbody> 
-</table>
 
 
 
-### List configurations
 
-This action module lists all capping or throttling configurations.
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Select configuration type]</td> 
-   <td>Select whether you want to list capping configurations or a throttling configurations.</td> 
-  </tr> 
- </tbody> 
-</table>
 
-### List packages
+<!--
 
-This search module lists all packages in your organization. You can use query parameters to filter the list.
+* [Check if configuration can be deployed](#check-if-configuration-can-be-deployed)
+* [Check service health](#check-service-health)
+* [Check the import dependencies](#check-the-import-dependencies)
+* [Check the status for audience-based message](#status-for-audience-based-message)
+* [Copy artifacts synchronously](#copy-artifacts-synchronously)
+* [Create a configuration](#create-a-configuration)
+* [Create a package](#create-a-package)
+* [Create a record](#create-a-record)
+* [Delete a configuration](#delete-a-configuration)
+* [Delete a package](#delete-a-package)
+* [Delete a record](#delete-a-record)
+* [Deploy a configuration](#deploy-a-configuration)
+* [Export artifacts asynchronously](#export-artifacts-asynchronously)
+* [Get a configuration](#get-a-configuration)
+* [Get a record](#get-a-record)
+* [Import a package](#import-a-package)
+* [Import artifacts asynchronously](#import-artifacts-asynchronously)
+* [List all dependent objects](#list-all-dependent-objects)
+* [List export and import jobs](#list-import-and-export-jobs)
+* [Look up a package](#look-up-a-package)
+* [Make a custom API call](#make-a-custom-api-call)
+* [Patch a record](#patch-a-record)
+* [Publish a package](#publish-a-package)
+* [Submit an import](#submit-an-import)
+* [Trigger a unitary message execution](#trigger-a-unitary-message-execution)
+* [Trigger an audience-based message](#trigger-an-audience-based-message)
+* [Undeploy a configuration](#undeploy-a-configuration)
+* [Update a configuration](#update-a-configuration)
+* [Update a package](#update-a-package)
+* [Update a record](#update-a-record)
+* [List configurations](#list-configurations)
+* [List packages](#list-packages)
+* [List records](#list-records)
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Start]</td> 
-   <td></td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Maximum number of returned results]</td> 
-      <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td>
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Order by]</td> 
-      <td>Select whether to order results by created date or modified date.</td>
-  </tr> 
-    <tr> 
-   <td role="rowheader">[!UICONTROL Query parameter]</td> 
-   <td>For each query parameter that you want to filter by, click <b>Add query parameter</b>, then select the field and operator, and enter the field value for the filter.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-### List records
-
-This search module lists all capping or throttling configurations.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Select content type]</td> 
-   <td>Select whether you are retrieving a content template or content fragment.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Order by]</td> 
-   <td>Enter or map the parameter name that you want to sort this list by. Add <code>-</code> or <code>+</code> to sort descending or ascending. If no sign is specified, the list is sorted descending.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Start]</td> 
-   <td>This field is used for pagination. Enter or map the criteria for the next page with respect to the property specified in the Order by field.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Order by]</td> 
-   <td>Enter or map the parameter name that you want to sort this list by. Add <code>-</code> or <code>+</code> to sort descending or ascending. If no sign is specified, the list is sorted descending.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Filter by property]</td> 
-   <td>For each property filter you want to add, click <b>Add item</b> and enter the property's key and value. Records that include the specified value for the property are included in the list.</td> 
-  </tr> 
- </tbody> 
-</table>
-
+-->
