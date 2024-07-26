@@ -532,7 +532,6 @@ For examples of using the External Lookup field to call the same instance of Wor
 
 >[!NOTE]
 >
->* External lookup functionality is not currently supported on Document custom forms.
 >* External lookup fields from custom forms are currently not supported in dashboards. You cannot edit the field value inline, and it may not display properly in a dashboard. (External lookup fields are supported in Canvas Dashboards.)
 >* External lookup fields are not supported in the Outlook plug-in.
 >* External lookup fields are available in lists, unless the field has a dependency on another field.
