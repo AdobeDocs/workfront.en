@@ -141,15 +141,13 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### Configuration management
 
-* Create a configuration
-* Deploy a configuration
-* Update a configuration
-* Undeploy a configuration
-* Check if configuration can be deployed
-* Delete a configuration
-* Get a configuration
-
-
+* [Create a configuration](#create-a-configuration)
+* [Deploy a configuration](#deploy-a-configuration)
+* [Update a configuration](#update-a-configuration)
+* [Undeploy a configuration](#undeploy-a-configuration)
+* [Check if configuration can be deployed](#check-if-configuration-can-be-deployed)
+* [Delete a configuration](#delete-a-configuration)
+* [Get a configuration](#get-a-configuration)
 
 #### Create a configuration
 
@@ -307,7 +305,7 @@ This action module undeploys a capping or throttling configuration. The configur
  </tbody> 
 </table>
 
-### Check if configuration can be deployed
+#### Check if configuration can be deployed
 
 This action module verifies whether a capping or throttling configuration can be deployed.
 
@@ -330,7 +328,7 @@ This action module verifies whether a capping or throttling configuration can be
  </tbody> 
 </table>
 
-### Delete a configuration
+#### Delete a configuration
 
 This action module deletes a capping endpoint or throttling configuration.
 
@@ -355,7 +353,7 @@ If the configuration has been deployed, it must be undeployed before it can be d
  </tbody> 
 </table>
 
-### Get a configuration
+#### Get a configuration
 
 This action module returns the capping or throttling configuration identified by the specified ID. The latest definition is returned.
 
@@ -383,6 +381,202 @@ This action module returns the capping or throttling configuration identified by
 
 ### Package management
 
+* [Create a package](#create-a-package)
+* [Update a package](#update-a-package)
+* [Delete a package](#delete-a-package)
+* [Look up a package](#look-up-a-package)
+* [Import a package](#import-a-package)
+* [Publish a package](#publish-a-package)
+* [Submit an import](#submit-an-import )
+
+
+
+#### Create a package
+
+This action module creates a multi-artifact package.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Name]</td> 
+   <td>Enter or map a name for the package.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Description]</td> 
+   <td>Enter or map a description of the package.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Expiration date]</td> 
+   <td>Enter or map the timestamp that defines the expiration date for package. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Package type]</td> 
+   <td>Select the type of package you want to create.<ul><li><p><b>Full</b></p>The package will include all artifacts</p></li><li><p><b>Partial</b></p><p>The package will include only artifacts you add. </p></li><ul></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Artifacts]</td> 
+   <td>If you are creating a partial package, for each artifact you want to add, click <b>Add artifact</b> and specify the artifact's ID, type, and title. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source Sandbox]</td> 
+   <td>Enter or map the Name and IMS Org ID of the sandbox that contains the items you want the package to contain.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Update a package
+
+This action module adds or deletes artifacts from a package, or updates package metadata.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select action]</td> 
+   <td>Select the action you want to take.<ul><li><p><b>Add artifact</b></p><p>For each artifact you want to add, click <b>Add artifact</b> and specify the artifact's ID, type, and title, then enter or map the expiration date for the package. </p></li><li><p><b>Delete artifact</b></p><p>For each artifact you want to delete, click <b>Add artifact</b> and specify the artifact's ID, type, and title. </p></li><li><p><b>Update metadata</b></p><p>Enter new values for the name, description, or source sandbox's name or IMS Org ID.</p></li></ul></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Delete a package
+
+This action module deletes a multi-artifact package.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Package ID]</td> 
+   <td>Enter or map the ID of the package you want to delete.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Look up a package
+
+This action module retrieves details of the specified package.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Package ID]</td> 
+   <td>Enter or map the ID of the package you want to return details for.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Import a package
+
+This action module fetches the conflicting objects in the specified target sandbox. Conflicting objects represent similar objects that are already present in the target sandbox.
+
+You must publish a package before you can import it.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Package ID]</td> 
+   <td>Enter or map the ID of the package you want to import.</td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">[!UICONTROL Target sandbox]</td> 
+   <td>Enter or map the name of the sandbox where you want to import the package.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Publish a package
+
+You must publish a package before you can import it.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Package ID]</td> 
+   <td>Enter or map the ID of the package you want to publish.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Submit an import
+
+This action module submits an import for a package after you have reviewed conflicts and provided substitutions. The result is provided as a payload, which starts the import job for the destination sandbox as specified in the payload.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Package ID]</td> 
+   <td>Enter or map the ID of the package you want to publish.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Name]</td> 
+   <td>Enter or map a name for the import job.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Description]</td> 
+   <td>Enter or map a description of the import job</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL (Destination sandbox) Name]</td> 
+   <td>Enter or map the name of the sandbox that you are submitting the import to.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL (Destination sandbox) IMS Org ID]</td> 
+   <td>Enter or map the Adobe IMS Org ID for the sandbox that you are submitting the import to.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL (Source sandbox) ID]</td> 
+   <td>Enter or map the ID of the sandbox that contains the package you want to publish.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL (Source sandbox) Type]</td> 
+   <td></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL (Source sandbox) Link]</td> 
+   <td>Enter or map the link for the package you want to publish.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
 
 ### Artifact management
@@ -595,45 +789,6 @@ This action module copies artifacts from a source sandbox into a destination san
  </tbody> 
 </table>
 
-### Create a package
-
-This action module creates a multi-artifact package.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Name]</td> 
-   <td>Enter or map a name for the package.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Description]</td> 
-   <td>Enter or map a description of the package.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Expiration date]</td> 
-   <td>Enter or map the timestamp that defines the expiration date for package. </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Package type]</td> 
-   <td>Select the type of package you want to create.<ul><li><p><b>Full</b></p>The package will include all artifacts</p></li><li><p><b>Partial</b></p><p>The package will include only artifacts you add. </p></li><ul></td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Artifacts]</td> 
-   <td>If you are creating a partial package, for each artifact you want to add, click <b>Add artifact</b> and specify the artifact's ID, type, and title. </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Source Sandbox]</td> 
-   <td>Enter or map the Name and IMS Org ID of the sandbox that contains the items you want the package to contain.</td> 
-  </tr> 
- </tbody> 
-</table>
-
 ### Create a record
 
 This action module creates a new content template or content fragment.
@@ -729,25 +884,6 @@ This action module creates a new content template or content fragment.
   <tr> 
    <td role="rowheader">[!UICONTROL Editor context]</td> 
    <td>To include custom properties in the email, select "Add editor context" and enter or map the context's key and value. Repeat for each custom field you want to include.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Delete a package
-
-This action module deletes a multi-artifact package.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Package ID]</td> 
-   <td>Enter or map the ID of the package you want to delete.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -881,31 +1017,6 @@ This action module returns the content template or content fragment identified b
  </tbody> 
 </table>
 
-### Import a package
-
-This action module fetches the conflicting objects in the specified target sandbox. Conflicting objects represent similar objects that are already present in the target sandbox.
-
-You must publish a package before you can import it.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Package ID]</td> 
-   <td>Enter or map the ID of the package you want to import.</td> 
-  </tr> 
-    <tr> 
-   <td role="rowheader">[!UICONTROL Target sandbox]</td> 
-   <td>Enter or map the name of the sandbox where you want to import the package.</td> 
-  </tr> 
- </tbody> 
-</table>
-
 ### Import Artifacts asynchronously
 
 This action module imports a snapshot containing artifacts.
@@ -979,25 +1090,6 @@ This search module lists current export and import job. You can use query parame
     <tr> 
    <td role="rowheader">[!UICONTROL Query parameter]</td> 
    <td>For each query parameter that you want to filter by, click <b>Add query parameter</b>, then select the field and operator, and enter the field value for the filter.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Look up a package
-
-This action module retrieves details of the specified package.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Package ID]</td> 
-   <td>Enter or map the ID of the package you want to return details for.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -1076,72 +1168,6 @@ This action module updates a record using PATCH with JSON pointer format
  </tbody> 
 </table>
 
-### Publish a package
-
-You must publish a package before you can import it.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Package ID]</td> 
-   <td>Enter or map the ID of the package you want to publish.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Submit an import
-
-This action module submits an import for a package after you have reviewed conflicts and provided substitutions. The result is provided as a payload, which starts the import job for the destination sandbox as specified in the payload.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Package ID]</td> 
-   <td>Enter or map the ID of the package you want to publish.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Name]</td> 
-   <td>Enter or map a name for the import job.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Description]</td> 
-   <td>Enter or map a description of the import job</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL (Destination sandbox) Name]</td> 
-   <td>Enter or map the name of the sandbox that you are submitting the import to.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL (Destination sandbox) IMS Org ID]</td> 
-   <td>Enter or map the Adobe IMS Org ID for the sandbox that you are submitting the import to.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL (Source sandbox) ID]</td> 
-   <td>Enter or map the ID of the sandbox that contains the package you want to publish.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL (Source sandbox) Type]</td> 
-   <td></td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL (Source sandbox) Link]</td> 
-   <td>Enter or map the link for the package you want to publish.</td> 
-  </tr> 
- </tbody> 
-</table>
-
 ### Trigger an audience-based message
 
 This action module triggers the execution of an audience-based message, based on the request and campaign you specify.
@@ -1202,25 +1228,6 @@ This action module triggers a unitary message to the recipients you specify.
    <li><p><b>Last name</b></p></li>
    <li><p><b>Product</b></p>Enter or map the product associated with this message. This is used for dynamic variable substitution in the message content.</li>
    </ul></td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Update a package
-
-This action module adds or deletes artifacts from a package, or updates package metadata.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Select action]</td> 
-   <td>Select the action you want to take.<ul><li><p><b>Add artifact</b></p><p>For each artifact you want to add, click <b>Add artifact</b> and specify the artifact's ID, type, and title, then enter or map the expiration date for the package. </p></li><li><p><b>Delete artifact</b></p><p>For each artifact you want to delete, click <b>Add artifact</b> and specify the artifact's ID, type, and title. </p></li><li><p><b>Update metadata</b></p><p>Enter new values for the name, description, or source sandbox's name or IMS Org ID.</p></li></ul></td> 
   </tr> 
  </tbody> 
 </table>
