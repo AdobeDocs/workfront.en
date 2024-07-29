@@ -145,7 +145,7 @@ Your users are assigned to teams when you create them. If an existing user needs
 
 Adding a user to a team is handled from the page for that team.
 
-2. Go to the team you want to add the user to by selecting **Organizations** in the left panel, clicking the **Teams** tab on the organization page, and selecting the team.
+1. Go to the team you want to add the user to by selecting **Organizations** in the left panel, clicking the **Teams** tab on the organization page, and selecting the team.
 
    Or
 
