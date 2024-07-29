@@ -91,12 +91,12 @@ The following table lists the fields available for event subscription resources:
    <td> </td> 
    <td> </td> 
    <td> opTaskID </td> 
-  </tr> 
+  </tr><!-- 
   <tr> 
    <td> </td> 
    <td> </td> 
    <td> parameterValues </td> 
-  </tr> 
+  </tr> -->
   <tr> 
    <td> </td> 
    <td> </td> 
