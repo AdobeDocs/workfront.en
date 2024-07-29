@@ -23,6 +23,7 @@ Welcome to the Adobe Workfront product and technical documentation home page. Us
 * [First Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
 * [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
 * [Third Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
+* [Fourth Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
 * [Adobe Workfront Fusion release activity](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
 
 >[!TAB Betas]

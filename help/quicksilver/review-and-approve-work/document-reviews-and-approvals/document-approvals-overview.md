@@ -17,7 +17,7 @@ New document approvals is a wholistic redesign of the existing approvals process
 
 ## Key differences from Proofing and legacy document approvals
 
-**Proofing**
+**Differences from Proofing**
 
 * Docuemnt approval decision buttons are not available in the proofing viewer. Decisions can be made in the document Summary, Workfront Home widgets, or on the Document Details page. 
 * Document approval participants display in the document Summary, not the proofing workflow tab.
@@ -28,13 +28,17 @@ New document approvals is a wholistic redesign of the existing approvals process
     * Pending approvals
     * Overdue approvals
 
-**Legacy document approvals**
+**Differences from Legacy document approvals**
 
-* You can add reviewers in addition to approvers. 
-* You can designate an entire Workfront team as either reviewers or approvers.
-* You can set a deadline for the review or approval.
-* You can create and resuse approval templates.
-* You can view multiple key performance indicators for your approvals in Workfront Home widgets.
+With new document approvals, you can
+
+* Add reviewers in addition to approvers
+* Designate an entire Workfront team as either reviewers or approvers
+* Set a deadline for the review or approval
+* Create and resuse approval templates
+* Utilize new versions for 
+* View multiple key performance indicators for your approvals in Workfront Home widgets
+* Use Canvas Dashboards to view reporting details about new document approvals
 
 ## Using New Document Approvals
 
