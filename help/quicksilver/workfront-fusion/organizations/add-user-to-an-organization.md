@@ -8,7 +8,7 @@ author: Becky
 feature: Workfront Fusion
 exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
 ---
-# Add a user to an organization in Adobe Workfront Fusion
+# Add a user to an organization or team in Adobe Workfront Fusion
 
 >[!IMPORTANT]
 >
@@ -94,13 +94,65 @@ To add a user to the organization:
 
 1. Navigate to **[!UICONTROL Organizations]** in the menu and select the organization you want to add a user to.
 1. Open the **[!UICONTROL Users]** tab in your Dashboard.
-1. Click **[!UICONTROL Invite a new user]**, fill out the form (Email, Message, Role), and send the invitation by clicking **[!UICONTROL Send]**.
+1. Click **[!UICONTROL Invite a new user]**.and send the invitation by clicking **[!UICONTROL Send]**.
  
->[!NOTE]
->
->   
->If you do not see the [!UICONTROL Invite a new user] button, your organization has been onboarded to the [!DNL Adobe Business Platform.] 
->
->  For instructions on adding a user to an organization that has been onboarded to the [!DNL Adobe Business Platform], see [Add users to [!DNL Adobe Workfront Fusion] through the [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)
+   >[!NOTE]
+   >
+   >   
+   >If you do not see the [!UICONTROL Invite a new user] button, your organization has been onboarded to the [!DNL Adobe Business Platform.] 
+   >
+   >  For instructions on adding a user to an organization that has been onboarded to the [!DNL Adobe Business Platform], see [Add users to [!DNL Adobe Workfront Fusion] through the [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)
+
+1. Fill out the form. 
+   
+   <table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Email address]</td>
+      <td>
+        Enter the user's email address
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Name]</td>
+      <td>
+        <p>Enter the user's full name</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Role] </td>
+      <td>Select the user's role. For explanation of roles, see <a href="/help/quicksilver/workfront-fusion/organizations/organization-roles.md">Organization and team roles.</a></p>
+   </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Teams</td>
+      <td>Select all of the teams that you want the user to be a member of.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">Note</td>
+      <td>Enter a note for the user. This note will appear in the user's invitation email.</td>
+    </tr>
+  </tbody>
+</table>
   
 The user receives an invitation email where they can accept the invitation.
+
+## Add a user to a team
+
+Your users are assigned to teams when you create them. If an existing user needs to be added to a team, you can add them on the team's Users page.
+
+Adding a user to a team is handled from the page for that team.
+
+2. Go to the team you want to add the user to by selecting **Organizations** in the left panel, clicking the **Teams** tab on the organization page, and selecting the team.
+
+   Or
+
+   If you are on the page for another team, click the team dropdown at the top of the page.
+
+1. On the Team's page (with the team name at the top of the page), select the **Users** tab.
+1. Locate the user on the page. Users in your organization appear on this page even if they are not a member of the team.
+1. Click **None** to the right of the user's name, then select the role you want them to have on the team.
+
+The user is added to the team.
