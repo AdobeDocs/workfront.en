@@ -42,13 +42,29 @@ The Approval Path Start Date is the date when the project Status changed to "Pen
 
 ## Budgeted Completion Date
 
+This is a deprecated field. Any information that this field might display is related to a feature that Workfront has removed. This field cannot be updated.
+
+This field is still visible in project and tasks reports and lists.
+
 ## Converted Issue Entry Date
+
+The date when the issue that was converted to the project was created. 
 
 ## Due On
 
+The same date as the project's Planned Completion Date. This is the date by which the projects is expected to be completed. 
+
+For information, see the [Planned Completion Date](#planned-completion-date) section in this article. 
+
 ## Duration
 
+The window of time allocated for the completion of a project, as determined by the number of days between the Planned Start and the Planned Completion.
+
+For projects, the Duration is a calculation performed by Workfront and it represents the difference in days between the Planned Start of the earliest task and the Planned Completion of the latest task on the project.
+
 ## Entry Date
+
+The date when the project was created. For information, see [Create a project](/help/quicksilver/manage-work/projects/create-projects/create-project.md). 
 
 ## Estimated Due Date
 
@@ -65,6 +81,10 @@ The Approval Path Start Date is the date when the project Status changed to "Pen
 ## Last Update Date
 
 ## Planned Completion Date
+
+The same date as the project's Due On date. This is the date by which the projects is expected to be completed. The Planned Start and the Planned Completion Dates of a project rely on the dates of the tasks on the project. The Planned Completion Date of the project usually matches the Planned Completion Date of the last task on the project. 
+
+For more information, see [Set the project Planned Completion Date](/help/quicksilver/manage-work/projects/planning-a-project/project-planned-completion-date.md). 
 
 ## Planned Date Alignment
 
