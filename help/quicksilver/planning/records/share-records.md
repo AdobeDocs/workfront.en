@@ -27,7 +27,7 @@ This article describes how you can copy a link to a record's page from the table
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
++++ Expand to view access requirements for Workfront Planning. 
 
 <table style="table-layout:auto">
  <col>
@@ -81,9 +81,7 @@ You must have the following access to perform the steps in this article:
  </tbody>
 </table>
 
-
-
-
++++
 
 
 <!--Maybe enable this at GA - but Workfront Planning is not supposed to have Access controls in the Workfront Access Level: 
