@@ -2103,6 +2103,7 @@ feature-set: Workfront
       * [Add a webhook to a basic scenario in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/add-a-webhook.md)
     * [Create a practice automation scenario in Adobe Workfront Fusion](workfront-fusion/get-started/create-a-practice-automation-scenario.md)
     * [Create a practice integration scenario in Adobe Workfront Fusion](workfront-fusion/get-started/create-a-practice-scenario.md)
+    * [AI Assistant in Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/fusion-ai-assistant.md)
     * [Adobe Workfront Fusion performance guardrails](workfront-fusion/get-started/fusion-performance-guardrails.md)
     * [IP Addresses for accessing Adobe Workfront Fusion](workfront-fusion/get-started/ip-addresses-for-fusion.md)
     * [Adobe Workfront Fusion licenses](workfront-fusion/get-started/license-automation-vs-integration.md)
