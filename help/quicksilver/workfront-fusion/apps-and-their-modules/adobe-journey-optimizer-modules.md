@@ -129,7 +129,6 @@ If you see the map button above a field or function, you can use it to set varia
 
 * [Configuration management](#configuration-management)
 * [Package management](#package-management)
-* [Artifact management](#artifact-management)
 * [Record management](#record-management)
 * [Message management](#message-management)
 * [Health and status checks](#health-and-status-checks)
@@ -579,6 +578,8 @@ This action module submits an import for a package after you have reviewed confl
 </table>
 
 
+<!--
+
 ### Artifact management
 
 * [Copy artifacts synchronously](#copy-artifacts-synchronously)
@@ -774,7 +775,7 @@ This action module imports a snapshot containing artifacts.
  </tbody> 
 </table>
 
-
+-->
 
 ### Record management
 
