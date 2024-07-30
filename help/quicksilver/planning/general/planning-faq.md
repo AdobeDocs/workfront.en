@@ -139,7 +139,12 @@ Yes. Coming soon, we will be able to report on Planning information using Canvas
 
 ## Will we be able to pull Planning data using the API as well? 
 
-Yes. We have a Planning API already available as well as a Fusion connector. For information, see [Adobe Workfront Planning modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md). Documentation for the Workfront Planning API will be available soon. 
+Yes. We have a Planning API already available as well as a Fusion connector. 
+
+For information, see the following articles:
+
+* [Adobe Workfront Planning modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
+* [Adobe Workfront Planning API basics](/help/quicksilver/planning/general/planning-api-basics.md)
 
 <!--From a Marketing Workspace - is it best to have one master Workspace to use for a Global Marketing team OR is it best to have individual Workspaces for each Business Line, Country, Brand, etc. i saw that we're able to have up to 1000 Workspaces and potentially connect Workspaces. is it possible to link records btwn workspaces? Use case would be - allow each product their own workspace, but with shared record types. And then would want to see a shared view that combines everything. -->
 
@@ -191,4 +196,9 @@ No.
 
 ## Will there be customizable APIs to use our own DAM instead of Adobe's DAM?  
 
-We have a Planning API already available as well as a Fusion connector. For information, see [Adobe Workfront Planning modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md). Documentation for the Workfront Planning API will be available soon. You can use the API to build custom integrations.
+Yes. The Workfront Planning public API is available, as well as a Fusion connector. You can use the API to build custom integrations.
+
+For information, see the following articles:
+
+* [Adobe Workfront Planning modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md)
+* [Adobe Workfront Planning API basics](/help/quicksilver/planning/general/planning-api-basics.md)

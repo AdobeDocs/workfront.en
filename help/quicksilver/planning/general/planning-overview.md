@@ -95,7 +95,7 @@ For information about new features and when they are released, see [Adobe Workfr
 |     Copy and paste information from one field to another                                  |      ✓                         |                                  |                 | 
 |     Access Planning records from Workfront objects                                  |      ✓                         |                                  |                 |
 |     Connect Planning records from Workfront objects                                  |      ✓                         |                                  |                 |
-
+|     Workfront Planning public API                                 |      ✓                         |                                  |                 |
 ## Enable Adobe Workfront Planning for the users in your Workfront instance
 
 Your organization must enroll in the Adobe Workfront Planning program before you can access its capabilities. Your account representative should have given you information about enrolling in this program, if you qualify. 

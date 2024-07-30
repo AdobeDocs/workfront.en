@@ -136,8 +136,6 @@ You can share views you created or views you have Manage permissions to <!--with
    >
    >   Views shared with you have a people indicator ![](assets/view-shared-with-others-people-icon.png) next to the view icon. Views without the people indicator are views you created. 
 
-
-
 <!--
 ## Share permissions to a view publicly
 

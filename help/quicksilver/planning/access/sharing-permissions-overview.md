@@ -35,14 +35,14 @@ You can share the following objects:
 
 * Views
 
-    You must give users, including system administrators, permissions to access views separately from their permissions to accessing workspaces. For information, see [Share views](/help/quicksilver/planning/access/share-views.md).
+    * You must give users, including system administrators, permissions to access views separately from their permissions to accessing workspaces. For information, see [Share views](/help/quicksilver/planning/access/share-views.md).
+    <!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
+     <!--move the link above to the end of this section-->
 
 You can share a workspace or a view with the following entities:
 
 * Users
 * Groups
-
-<!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
 
 ## Considerations about sharing objects in Adobe Workfront Planning
 
@@ -54,6 +54,14 @@ You can share a workspace or a view with the following entities:
 * You can share a link to a workspace or to a view with others. 
 
     Users who receive the link must be active users and log in to Workfront to be able to access the workspace or the record type page displayed in the selected view. 
+
+    <!--Replace the text from "users who receive ..." with the following when public sharing of views releases:
+    The following scenarios exist:
+        * Users who receive the link to a workspace must be active users and log in to Workfront to be able to access the workspace.
+        * Users who receive the link to a view can access the view in the following ways: 
+        
+            * Must be active users and log in to Workfront
+            * Can be external users to Workfront and access the view from a publicly shared link, without logging in to Workfront. -->
 
 ## Sharing permissions for Adobe Workfront Planning objects
 
