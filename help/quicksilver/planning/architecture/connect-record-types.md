@@ -41,7 +41,7 @@ For an example of connecting record types and records, see [Example of connectin
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
++++ Expand to view access requirements for Workfront Planning. 
 
 <table style="table-layout:auto">
  <col>
@@ -96,6 +96,8 @@ You must have the following access to perform the steps in this article:
 
 *For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
++++
+
 <!--Maybe enable this at GA - but planing is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -109,6 +111,8 @@ You must have the following access to perform the steps in this article:
 
 
 ## Considerations about connecting record types
+
+<!--move this to the Connect record types overview article (new)-->
 
 * You can connect the following entities in Adobe Workfront Planning:
 
