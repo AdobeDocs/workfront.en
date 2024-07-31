@@ -15,11 +15,13 @@ An External Lookup field in a custom form calls an external API and returns valu
 
 This article provides examples of using the External Lookup field to call the same instance of Workfront or a public API. You can also use the External Lookup to communicate with an external system such as Jira, Salesforce, or ServiceNow.
 
-External Lookup fields are only available in the new form designer, not the legacy form builder. For more information about adding an External Lookup field to a custom form and additional definitions of the external lookup components, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+For more information about adding an External Lookup field to a custom form and additional definitions of the external lookup components, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Set up an External Lookup field for the same instance of Workfront
 
 You can use the External Lookup to bring data from your Workfront instance into the custom form.
+
+### Use native Workfront field values in the External Lookup
 
 This example shows how to call the Workfront API and bring data from the existing "Status Query" field into your External Lookup field.
 
@@ -63,6 +65,43 @@ This example shows how to call the Workfront API and bring data from the existin
    ![Custom form with external lookup field](assets/external-lookup-project-status-example1.png)
 
    ![External lookup options based on status](assets/external-lookup-project-status-example2.png)
+
+### Use custom field values in the External Lookup
+
+This example shows you to call the Workfront API and bring data from a custom field into your External Lookup field. The example custom field is called "Custom Colors."
+
+1. Open the custom form.
+1. On the left side of the screen, find **External lookup** and drag it to a section on the canvas.
+1. Enter the **Label** and **Name** for the field.
+1. Select the **Format** for the field.
+1. Enter the API URL call in the **Base API URL** field.
+
+   **Example**
+   `$$HOST/attask/api/v18.0/PORT/search?ID={portfolioID}&fields=parameterValues`
+
+1. Review the **Dependencies** for the fields that this lookup field is referencing in the API.
+
+   A dependency field can be any custom or native field existing in the object's details page.
+
+1. Select the **HTTP Method**.
+
+   This will mostly likely be **Get**.
+
+1. Enter the **JSON Path** to get the results from your API call.
+   
+   **Example**
+   `$.data[*].parameterValues.["DE:Combo Colors"]`
+
+   * "parameterValues" refers to any custom field in Workfront for the object you're on.
+   * For this example, "DE:Combo Colors" is the specific custom field containing the values you want to retrieve.
+
+   >[!NOTE]
+   >
+   >**Header** information is not required for a call to the same Workfront instance.
+
+1. Click **Apply**.
+
+   When the custom form is added to a Workfront object, all of the values in the "Combo Colors" field appear in the External Lookup field dropdown.
 
 ## Set up an External Lookup field for a public API
 
