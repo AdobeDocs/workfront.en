@@ -21,7 +21,7 @@ For information, see [Create record types](/help/quicksilver/planning/architectu
 
 <!--************double-check permissions here - asking Isk and Lilit what permissions users need for adding thumbnails-->
 
-You must have the following access to perform the steps in this article: 
++++ Expand to view access requirements for Workfront Planning. 
 
 <table style="table-layout:auto">
  <col>
@@ -77,6 +77,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 *For more information, see [Access requirements in Workfornt documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Considerations about record thumbnails
 

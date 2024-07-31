@@ -28,7 +28,7 @@ You can share a view with the following entities:
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
++++ Expand to view access requirements for Workfront Planning. 
 
 <!--at GA the plan below will change to Prime, Select and Ultimate only-->
 
@@ -87,7 +87,7 @@ You must have the following access to perform the steps in this article:
 
 *For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-
++++
 
 ## Share permissions to a view <!--internally-->
 
@@ -135,8 +135,6 @@ You can share views you created or views you have Manage permissions to <!--with
    >[!TIP]
    >
    >   Views shared with you have a people indicator ![](assets/view-shared-with-others-people-icon.png) next to the view icon. Views without the people indicator are views you created. 
-
-
 
 <!--
 ## Share permissions to a view publicly

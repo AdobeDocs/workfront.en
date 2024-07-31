@@ -33,6 +33,39 @@ The released features are listed in the order of their release, with the most re
 
 Workfront Planning has temporarily been removed from the Preview and Sandbox environments since January 2024. All features documented in this articles are currently available in Production.  
 
+## Week of July 29, 2024
+
+### The Adobe Workfront Planning public API is now available
+
+Production: July 30, 2024
+
+Preview: To be determined 
+
+The Adobe Workfront Planning public API is now available. 
+
+For information, see [Adobe Workfront Planning API basics](/help/quicksilver/planning/general/planning-api-basics.md). 
+
+<!--
+### Share Workfront Planning views publicly
+
+(***************ensure this is available for *********ALL************** the views and not just the table---***********)
+
+Production: July 31, 2024 
+
+Preview: To be determined 
+
+To work seamlessly with external stakeholders, you can now share record views with others from outside your organization. You can share a public link to the view you want others to have access to.  
+
+The following capabilities are included with this update: 
+
+* Share the view of a record type page with a public link that would expire on a specific date. 
+
+* The shared link is accessible by anyone outside of your company for a limited time, indicated by the expiration date. There is no login required to view the shared view.  
+
+* People that access the view from the public link cannot create other views, edit the shared view, or add, delete, or edit record information.  
+
+For more information, see [Share views](/help/quicksilver/planning/access/share-views.md). -->
+
 ## Week of July 8, 2024
 
 ### Open connected object directly in Workfront
