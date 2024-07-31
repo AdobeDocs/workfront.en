@@ -16,8 +16,9 @@ In Adobe Workfront Planning, a record is an instance of a record type.
 
 You can create records by doing one of the following:
 
-* Manually create them for record types
-* Create records by copying and pasting information from an external list. 
+* Add them from the record type page
+* Copy and paste a list of records from an external list
+<!--* Duplicate them-->
 
 This article describes how you can create records. For information about managing records in the table or timeline views, see the following articles:
 
@@ -89,7 +90,7 @@ This article describes how you can create records. For information about managin
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/planning/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-## Create records by manually adding them to a record type <!--in a record type table (I don't think you can create them elsewhere right now)-->
+## Create records by adding them to a record type <!--in a record type table (I don't think you can create them elsewhere right now)-->
 
 You can create records in the table view of a record type page. 
 
@@ -173,7 +174,7 @@ You can import records from other applications by linking them to existing recor
    
 -->
 
-## Create records by copying and pasting information from an external list
+## Create records by copying and pasting them from an external list
 
 1. Start creating records in the Table view, as described in the section [Create records by manually adding them to a record type](#create-records-by-manually-adding-them-to-a-record-type) in this article. 
 
@@ -201,3 +202,8 @@ You can import records from other applications by linking them to existing recor
     
     * The rows contain the new records
     * The columns populate information for the fields of the records.
+
+
+<!--## Create records by duplicating them
+
+For information about duplicating records, see [Duplicate records](/help/quicksilver/planning/records/copy-or-duplicate-records.md). -->

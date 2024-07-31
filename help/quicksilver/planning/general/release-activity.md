@@ -50,7 +50,7 @@ For information, see [Adobe Workfront Planning API basics](/help/quicksilver/pla
 
 (***************ensure this is available for *********ALL************** the views and not just the table---***********)
 
-Production: July 31, 2024 
+Production: <date>
 
 Preview: To be determined 
 
@@ -64,7 +64,28 @@ The following capabilities are included with this update:
 
 * People that access the view from the public link cannot create other views, edit the shared view, or add, delete, or edit record information.  
 
-For more information, see [Share views](/help/quicksilver/planning/access/share-views.md). -->
+For more information, see [Share views](/help/quicksilver/planning/access/share-views.md). 
+
+### Insert and duplicate records in the table view
+
+Production: <date> 
+Preview: To be determined 
+
+We have introduced the following capabilities when working with records in the table view: 
+
+* Duplicate records: you can quickly create a record by duplicating an existing one.  An identical record is created. This capability is available only in the table view. 
+
+* You can insert a new record above or below an existing record in the table view. Prior to this enhancement, you you only add records at the bottom of the table view. 
+
+You can perform the new capabilities from the following areas: 
+
+* The More menu of a record 
+
+* The new action toolbar which has been added to the bottom of the table view 
+
+For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md).  
+
+-->
 
 ## Week of July 8, 2024
 
