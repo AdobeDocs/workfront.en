@@ -19,7 +19,7 @@ For example, if you ask AI Assistant "How do I create a request queue," it retur
 To get information or instructions from the Workfront Documentation using AI Assistant:
 
 1. Click the **AI Assistant** icon ![AI Assistant icon](assets/ai-assistant-icon.png) near the upper-right corner of the screen.
-1. In the AI Assistant panel, Enter your prompt in the text area near the bottom of the panel.
+1. In the AI Assistant panel, enter your prompt in the text area near the bottom of the panel.
 
    AI Assistant may take a few moments to locate the information, depending on how large or complex the prompt is. We recommend simple prompts.
 
