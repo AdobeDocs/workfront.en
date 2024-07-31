@@ -69,7 +69,7 @@ To remove a user from a Resource Pool:
    Start typing the name of a company, job role, team, or group, if you want to remove all the users associated with those entities.
 
    <span class="preview">Sample image in the Preview environment:<span>
-   <span class="preview">![Search in Resource Pool](assets/users-in-resource-pool.png)<span>
+   <span class="preview">![Remove users from Resource Pool](assets/remove-users-from-resource-pool.png)<span>
 
    Sample image in the Production environment: 
    ![Search in Resource Pool](assets/search-inside-new-resource-pool-350x314.png)
