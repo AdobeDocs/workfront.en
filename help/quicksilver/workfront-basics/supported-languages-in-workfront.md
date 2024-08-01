@@ -9,7 +9,7 @@ exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
 ---
 # Supported languages in Adobe Workfront
 
-You can change the language in which you display Adobe Workfront and emails coming from Workfront, by adjusting the language preferences on your browser and your default Email Locale within Workfront.
+You can change the language in which you display Adobe Workfront and emails coming from Workfront, by adjusting the language preferences on your browser (if not on IMS) or your Adobe Experience Cloud profile language preferences (if on IMS) and your default Email Locale within Workfront.
 
 Workfront terminology is updated for the supported languages with every Workfront update.
 
