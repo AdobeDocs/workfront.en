@@ -33,24 +33,12 @@ The released features are listed in the order of their release, with the most re
 
 Workfront Planning has temporarily been removed from the Preview and Sandbox environments since January 2024. All features documented in this articles are currently available in Production.  
 
-## Week of July 29, 2024
-
-### The Adobe Workfront Planning public API is now available
-
-Production: July 30, 2024
-
-Preview: To be determined 
-
-The Adobe Workfront Planning public API is now available. 
-
-For information, see [Adobe Workfront Planning API basics](/help/quicksilver/planning/general/planning-api-basics.md). 
-
 <!--
 ### Share Workfront Planning views publicly
 
 (***************ensure this is available for *********ALL************** the views and not just the table---***********)
 
-Production: July 31, 2024 
+Production: <date>
 
 Preview: To be determined 
 
@@ -65,6 +53,38 @@ The following capabilities are included with this update:
 * People that access the view from the public link cannot create other views, edit the shared view, or add, delete, or edit record information.  
 
 For more information, see [Share views](/help/quicksilver/planning/access/share-views.md). -->
+
+## Week of July 29, 2024
+
+### The Adobe Workfront Planning public API is now available
+
+Production: July 30, 2024
+
+Preview: To be determined 
+
+The Adobe Workfront Planning public API is now available. 
+
+For information, see [Adobe Workfront Planning API basics](/help/quicksilver/planning/general/planning-api-basics.md). 
+
+### Insert and duplicate records in the table view
+
+Production: August 1, 2024
+Preview: To be determined 
+
+We have introduced the following capabilities when working with records in the table view: 
+
+* Duplicate records: you can quickly create a record by duplicating an existing one.  An identical record is created. This capability is available only in the table view. 
+
+* You can insert a new record above or below an existing record in the table view. Prior to this enhancement, you you only add records at the bottom of the table view. 
+
+You can perform the new capabilities from the following areas: 
+
+* The More menu of a record 
+
+* The new toolbar which has been added to the bottom of the record page in the table view 
+
+For information, see [Create records](/help/quicksilver/planning/records/create-records.md) 
+
 
 ## Week of July 8, 2024
 

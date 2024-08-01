@@ -87,14 +87,14 @@ You must have the following:
     </tbody>
    </table>
 
-1. (Optional) Use the **Undo** link to remove the users added through a group, team, company or job role. <span class="preview">(The Undo function is temporarily unavailable in the Preview environment.)</span>
+1. (Optional) Use the **Undo** link to remove the users added through a group, team, company or job role.
 
    >[!NOTE]
    >
    >There is no limit to how many users you can have in a Resource Pool. However, we recommend not adding too many users to a Resource Pool, as Resource Management could become a challenge otherwise. The list of users only shows the first 2,000 users in the Resource Pool, and they are listed alphabetically.
 
    <span class="preview">Sample image in the Preview environment:</span>
-   <span class="preview">![Users added to Resource Pool](assets/users-in-resource-pool.png)</span>
+   <span class="preview">![Users added to Resource Pool](assets/users-in-resource-pool2.png)</span>
 
    Sample image in the Production environment:
    ![Users added to Resource Pool](assets/resource-pools-new---undo-button-for-teams-groups-etc-350x113.png)
