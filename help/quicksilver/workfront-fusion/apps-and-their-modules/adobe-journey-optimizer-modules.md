@@ -131,7 +131,7 @@ If you see the map button above a field or function, you can use it to set varia
 * [Package management](#package-management)
 * [Record management](#record-management)
 * [Message management](#message-management)
-* [Health and status checks](#health-and-status-checks)
+* [Status checks](#status-checks)
 * [Searches](#searches)
 * [Other](#other)
 
@@ -1068,10 +1068,13 @@ This action module checks the status of an audience-based batch message.
  </tbody> 
 </table>
 
-### Health and status checks
+### Status checks
 
-* [Check service health](#check-service-health)
+<!--* [Check service health](#check-service-health)-->
 * [Check the import dependencies](#check-the-import-dependencies)
+* [Check the status of an import job](#check-the-status-of-an-import-job)
+
+<!--
 
 #### Check service health
 
@@ -1087,6 +1090,8 @@ This action module checks that the service represented by the connection is runn
   </tr> 
  </tbody> 
 </table>
+
+-->
 
 #### Check the import dependencies
 
@@ -1107,6 +1112,25 @@ This action module checks the dependencies for package artifacts. This allows yo
   <tr> 
    <td role="rowheader">[!UICONTROL Target sandbox]</td> 
    <td>Enter or map the name of the sandbox that you want to import the package into.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Check the status of an import job
+
+This action module checks whether an import job was a success or failure.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>For instructions on creating a connection to [!DNL Adobe Journey Optimizer], see <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" >Create a connection to [!DNL Adobe Journey Optimizer]</a> in this article.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Job ID]</td> 
+   <td>Enter or map the ID of the job that you want to retrieve data for.</td> 
   </tr> 
  </tbody> 
 </table>
