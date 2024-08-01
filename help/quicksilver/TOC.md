@@ -2069,6 +2069,7 @@ feature-set: Workfront
     * [Edit records](planning/records/edit-records.md)
     * [Delete records](planning/records/delete-records.md)
     * [Share records](planning/records/share-records.md)
+    * [Duplicate records](planning/records/copy-or-duplicate-records.md)
     * [Manage record comments](planning/records/manage-record-comments.md)
     * [History section overview](planning/records/history-section-overview.md)
     * [Add a thumbnail to a record](planning/records/add-thumbnails-to-records.md)

@@ -129,9 +129,8 @@ Adding columns to a view is identical to adding fields to a record type.
 
 You can add up to 500 fields (or columns) in a table view. 
 
-1. Go to a record type page and select a **Table** view from the view drop-down menu.
+1. Go to a record type page and click a table view tab, or click **+ View** to add a new view, then choose **Table**. 
 
-    <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Start adding fields (or columns), as described in the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
 
     The columns you add are visible to all users who access the record type and are added as new fields on the record's page.
@@ -207,9 +206,8 @@ The rows of a table view display individual records of the selected record type.
 
 You can have up to 50,000 records (or rows) for a record typeS. 
 
-1. Go to a record type page and select a **Table** view from the view drop-down menu.
+1. Go to a record type page and click a table view tab, or click **+ View** to add a new view, then choose **Table**. 
 
-<!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Start adding records (or rows), as described in the article [Create records](/help/quicksilver/planning/records/create-records.md). 
 
     The records you add in the table view are saved immediately and are visible to all users who have View or higher permissions to the workspace. 
@@ -223,13 +221,8 @@ You can have up to 50,000 records (or rows) for a record typeS.
     >[!NOTE]
     >
     >You cannot reorder rows if you apply at least one sort to the table view. 
-
-    <!-- this is not possible right now:
-
-    1. To reorder the rows, click the row header, drag and drop it in the desired location. 
-
-        The changes you make to the row order are permanent and visible to all users who access the record type
-    -->
+    >
+    >The changes you make to the row order are visible to all users who access the record type
 
 <!-- this section below links from the timeline view; consider splitting them if they become different-->
 
@@ -238,6 +231,7 @@ You can have up to 50,000 records (or rows) for a record typeS.
 Filters help you reduce the amount of information displayed on the screen.
 
 Consider the following when working with filters in the table view: 
+
 <!-- this list is almost identical to the one for the table view - update both-->
 
 * The filters you create for the table view work independently from the filters in the timeline view when applied to the same record type. 
