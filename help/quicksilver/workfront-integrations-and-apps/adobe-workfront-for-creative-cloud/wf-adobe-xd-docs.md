@@ -14,6 +14,8 @@ You can upload your artboards as documents for a quick review and approval or si
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -44,6 +46,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+
++++
 
 ## Prerequisites
 
