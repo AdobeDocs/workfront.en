@@ -63,6 +63,18 @@ To use [!DNL Microsoft OneDrive for Business] with [!DNL Adobe Workfront Fusion]
 
 For instructions about connecting your [!DNL OneDrive for Business] account to [!DNL Workfront Fusion], see [Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
 
+
+
+## Connecting the [!DNL Microsoft OneDrive for Business] service to [!DNL Workfront Fusion]
+
+For instructions about connecting your [!DNL Microsoft OneDrive for Business] account to [!UICONTROL Workfront Fusion], see [Create a connection to [!UICONTROL Adobe Workfront Fusion] - Basic instructions](../../workfront-fusion/connections/connect-to-fusion-general.md)
+
+>[!NOTE]
+>
+>Some Microsoft apps use the same connection, which is tied to individual user permissions. Therefore, when creating a connection, the permissions consent screen displays any permissions that were previously granted to this user's connection, in addition to any new permissions needed for the current application. 
+>
+>For example, if a user has "Read table" permissions granted via the Excel connector and then creates a connection in the Outlook connector to read emails, the permissions consent screen will show both the already granted "Read table" permission and the newly required "Write email" permission.
+
 ## [!DNL Microsoft OneDrive for Business] modules and their fields
 
 When you configure [!DNL Microsoft OneDrive for Business] modules, [!DNL Workfront Fusion] displays the fields listed below. Along with these, additional [!DNL Microsoft OneDrive for Business] fields might display, depending on factors such as your access level in the app or service. A bolded title in a module indicates a required field.

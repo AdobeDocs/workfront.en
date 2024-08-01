@@ -17,7 +17,9 @@ There are license and sharing permission restrictions to use Adobe Workfront Pla
 
 ## Access requirements 
 
-You must have the following settings to use Adobe Workfront Planning: 
+<!--update the Workfront plan below at GA to Ultimate and it is not available in the current plans-->
+
++++ Expand to view access requirements for Workfront Planning. 
 
 <table style="table-layout:auto">
  <col>
@@ -46,14 +48,14 @@ You must have the following settings to use Adobe Workfront Planning:
   <tr>
    <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>Any</p>
+   <p>Any, to view Workfront planning information</p>
    <p>To create workspaces, you must have the following license:</p>
    <ul>
    <li>
    New: Standard
    </li>
    <li>
-   Current: Worker or higher
+   Current: Plan
    </li>
    </ul>
   </td>
@@ -83,6 +85,8 @@ You must have the following settings to use Adobe Workfront Planning:
 
 *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
 
++++
+
 
 ## Share the Planning area in the Main Menu with others
 
@@ -110,7 +114,7 @@ There are no access controls for Workfront Planning.
 
 Users with any type of license can access Workfront Planning. 
 
-For information about granting access in Workfront, see [Create and modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
+<!--For information about granting access in Workfront, see [Create and modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
 ## Grant permissions
 

@@ -13,6 +13,8 @@ You can preview a&nbsp;document from the Documents area. This is especially usef
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following:
 
 <table style="table-layout:auto"> 
@@ -41,6 +43,8 @@ You must have the following:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
++++
 
 ## Preview a document
 

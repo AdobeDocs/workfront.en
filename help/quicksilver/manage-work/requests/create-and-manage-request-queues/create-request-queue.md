@@ -24,6 +24,8 @@ This article describes how you can create a request queue where users can submit
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -52,7 +54,9 @@ This article describes how you can create a request queue where users can submit
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator
+&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
++++
 
 
 <!--old access levels: 

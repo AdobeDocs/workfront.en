@@ -17,6 +17,8 @@ Creatives can add assets that need to be reviewed to Frame.io and send them to W
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -47,13 +49,11 @@ You must have the following access to perform the steps in this article:
 
 For more details about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Prerequisites
 
-* You must have a Workfront group connected to a Frame.io team. 
-* You must have a Workfront project connected to a Frame.io project and be added as a user to a Workfront task enabled for Frame.io.
-
-For more information, see [Connect Workfront and Frame.io.](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/connect-frame-and-wf.md)
-
+* You must configure the Workfront and Frame.io integration. For more information, see [Configure the Workfront and Frame.io integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
 ## Add a Frame.io asset to a connected Workfront project 
 

@@ -11,10 +11,10 @@ exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
 
 <!-- Audited: 1/2024 -->
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span>  (*****for all customers or in Production for customers who enabled fast releases-->
+
+<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 <span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 -->
@@ -55,9 +55,15 @@ Adding comments to other objects is similar to updating projects, tasks, and iss
 
    You must have an additional license to access Workfront Goals.
 
-* [Add an ad hoc card to a board](../../agile/get-started-with-boards/add-card-to-board.md)
+* [Add an ad hoc card to a board](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)
+
+* [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)
+
+<!--Add a bullet for record comments when Planning is in GA: help/quicksilver/planning/records/manage-record-comments.md-->
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -90,6 +96,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considerations about updating work
 
@@ -325,6 +333,7 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
    | Hyperlink | ![mceclip7.png](assets/mceclip7.png)| <br>To open the Add links box: ⌘+K</br> <br>To paste a link over the selected text: ⌘+V</br>  | <br>To open the Add links box: Ctrl+K</br> <br>To paste a link over the selected text: Ctrl+V</br> |
    | Bulleted List | ![mceclip6.png](assets/mceclip6.png)|⌘+Shift+8 |Ctrl+Shift+8 |
    | Numbered List | ![mceclip5.png](assets/mceclip5.png)|⌘+Shift+7 |Ctrl+Shift+7 |
+   
    <!--| Block Quote | ![](assets/block-quote-icon-large.png)|⌘+Shift+9 |<br>Ctrl+Shift+9</br> <br>This is not available in the new commenting experience. </br> |-->
    
    <!--remove the last row when we remove legacy from the system-->
@@ -376,6 +385,10 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
 
    
    >[!NOTE]
+   >
+   >**IMPORTANT**
+   >
+   ><!--<span class="preview">You cannot add images to goals or ad-hoc cards on boards.</span> -->
    >
    >* Your Workfront administrator must enable adding images in the Update Feeds Preferences section of the Workfront Interface area before you can see the Image or the Add attachment icons. For information, see [Configure preferences for user updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md). 
    >* The maximum image file size is 7 MB. Supported image file types are .jpg, .gif, and .png.

@@ -2,22 +2,20 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: Document review and approval
+title: "Asset and document review and approval: article index"
 description: This section contains articles about document approvals in Adobe Workfront.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: b4577935-ee03-47b7-a629-2c03e8f42592
 ---
-# Document review and approval
-
->[!IMPORTANT]
->
->The content of this article refers to updated document approval functionality that is only available for specific accounts. For information on standard approval processes, see the articles listed in [Work approvals](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+# Asset and document review and approval: article index
 
 This section contains the following sections:
 
-* [Document approvals overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
-* [Review documents: article index](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
-* [Approve documents: article index](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/approve-documents-toc.md) 
-* [Get started with Asset review and approval with Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/frame-wf-get-started.md)
+* [New document approvals overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
+* [Document decision status](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
+* [Get started with asset review and approval with Frame.io](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/frame-wf-get-started.md)
+* [Set up and manage asset and document approvals: article index](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
+* [Review and approve assets and documents: article index](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
+

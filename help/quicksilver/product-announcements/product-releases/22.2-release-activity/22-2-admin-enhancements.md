@@ -27,13 +27,11 @@ Previously you could configure a custom form to work with only one object type.
 
 This functionality works with all custom forms created previously in your Workfront system. For example, if you already have a custom form that was created for the Task object type, you can now configure the form to work with other object types as well, such as Project and Issue.
 
-For more information, see the section [Start creating a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start) in the article [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-
 >[!NOTE]
 >
->* At the time of our initial Preview release of this functionality, we temporarily disabled the ability to copy a multi-object custom form. That ability was enabled on March 24. For information about copying a custom form, see [Copy a custom form to create a new one](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md).
->* In a calculated custom field, some fields that you reference might not be compatible with object types that are configured for the form. Our solution is a wild card that will allow the calculation to output different values, depending on the object that the form is attached to. We added the wild card on March 24. For information on how to use it, see the section [Calculated custom fields in multi-object custom forms](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#calculat) in the article [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
->* For section breaks in custom forms, we've created a set of common viewing and editing permissions that work for all object types that you can configure for a form. In one scenario, we found that one of these permissions, Limited Edit, might cause errors on a form. This was fixed on March 24. For more information about section breaks, see [Add a section break to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
+>* At the time of our initial Preview release of this functionality, we temporarily disabled the ability to copy a multi-object custom form. That ability was enabled on March 24.
+>* In a calculated custom field, some fields that you reference might not be compatible with object types that are configured for the form. Our solution is a wild card that will allow the calculation to output different values, depending on the object that the form is attached to. We added the wild card on March 24.
+>* For section breaks in custom forms, we've created a set of common viewing and editing permissions that work for all object types that you can configure for a form. In one scenario, we found that one of these permissions, Limited Edit, might cause errors on a form. This was fixed on March 24.
 >
 
 ## Blueprints catalog is available to all users, and administrators can allow requests
@@ -54,7 +52,6 @@ Previously, custom forms were completely text based.
 >
 >In the new Adobe Workfront experience areas that haven't been modernized yet, such as the box that displays when you bulk-edit items, custom form images do not display. They will display as we continue to update those areas.
 
-For more information, see [Add or edit an asset widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
 
 ## New default access level configurations
 

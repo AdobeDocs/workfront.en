@@ -33,7 +33,7 @@ For information about record types, see [Record types overview](/help/quicksilve
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
++++ Expand to view access requirements for Workfront Planning. 
 
 <table style="table-layout:auto">
  <col>
@@ -60,9 +60,10 @@ You must have the following access to perform the steps in this article:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>Any</p> 
+   <p>New: Standard</p>
+   <p>Current: Plan</p> 
   </td>
   </tr>
   
@@ -86,6 +87,10 @@ You must have the following access to perform the steps in this article:
 
  </tbody>
 </table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -116,15 +121,20 @@ You must have the following access to perform the steps in this article:
 
 {{step1-to-planning}}
 
-   The last-accessed workspace should open by default. 
+1. Click the workspace whose record types you want to delete, 
 
-1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to delete record types for.  
+    Or
+
+    From a workspace, expand the downward-pointing arrow to the right of an existing workspace name, search for a workspace, then select it when it displays in the list.
 
     The workspace opens and the record types display. 
-1. Click the card for the record type that you want to delete. 
+1. Do one of the following:
 
-    This opens the record type's page. 
-1. Click the **More** menu ![](assets/more-menu.png) to the right of the record type name, then click **Delete**. <!--add screen shot when they finalize the UI-->
-1. Type **Delete** in the confirmation box, then click **Permanently delete**.
+   * Hover over the record type card, click the More menu, then **Delete**. 
+   * Click the card for the record type that you want to delete, and from the record type page, click the **More** menu ![](assets/more-menu.png) to the right of the record type name, then click **Delete**. 
+
+   ![](assets/permanently-delete-record-type-confirmation.png)
+
+1. Type **delete** in the confirmation box, then click **Permanently delete**. This is not case sensitive. 
    
    The selected record type, along with their fields, associated records, and views are deleted.

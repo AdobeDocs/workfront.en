@@ -1,13 +1,13 @@
 ---
 product-area: projects
 navigation-topic: approvals
-title: Review a document
+title: Review a document in Workfront
 description: As a reviewer, you can preview a document that has been submitted to you for review.
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
 ---
-# Review a document
+# Review a document in Workfront
 
 As a reviewer, you can view a document that has been submitted to you for review. Unlike an approval, you do not make a decision. Instead, you confirm that you have reviewed the asset.
 
@@ -16,6 +16,8 @@ As a reviewer, you can view a document that has been submitted to you for review
 >The content of this article refers to updated document approval functionality that is only available for specific accounts. For information on standard approval processes, see the articles listed in [Work approvals](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -43,6 +45,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
++++
 
 <!--
 ## Review a document from Home

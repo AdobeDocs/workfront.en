@@ -1,13 +1,13 @@
 ---
 product-area: projects
 navigation-topic: approvals
-title: Approve a document
+title: Approve a document in Workfront
 description: If you are assigned as an approver to a document, there are multiple ways you can make your approval decision.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
 ---
-# Approve a document
+# Approve a document in Workfront
 
 If you are assigned as an approver to a document, there are multiple ways you can make your approval decision.
 
@@ -18,6 +18,8 @@ For information about creating a new document approval, see [Create a document r
 >The content of this article refers to updated document approval functionality that is only available for specific accounts. For information on standard approval processes, see the articles listed in [Work approvals](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -45,6 +47,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
++++
 
 ## Approve a document from Home
 

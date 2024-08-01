@@ -99,7 +99,7 @@ Consider the following when planning to use billing records:
 
 1. (Optional) Under **Custom Forms**, select a billing records custom form that you want to add to the billing record.
 
-   You (or another user with access to custom forms) must create a billing records custom form before you can select it here. Only active custom forms display in the list. For information about creating custom forms, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+   You (or another user with access to custom forms) must create a billing records custom form before you can select it here. Only active custom forms display in the list. For information about creating custom forms, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
    You can repeat this step to add other custom forms that you need for the billing record.
 

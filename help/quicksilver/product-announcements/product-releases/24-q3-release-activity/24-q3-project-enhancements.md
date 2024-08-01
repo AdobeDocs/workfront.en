@@ -17,22 +17,36 @@ For a list of all changes available at this point in the Third Quarter 2024 rele
 
 >[!NOTE]
 >
->Preview release: May 30, 2024; Production for fast release: With the 24.6 release (June 13, 2024); Production release for all customers: With the 24.7 release (July 2024).
+>Preview release: May 30, 2024; Production for fast release: With the 24.6 release (June 13, 2024); Production release for all customers: With the 24.7 release (July 18, 2024).
 
 To make it easier for you to update tasks and issues, we have now added the Commit Date and Condition fields as options to add to task and issue headers and Details section in a layout template. Users are now able to update these fields from the header or Details section of a page, when they are assigned to the modified layout template. Prior to this enhancement, you could not add the Condition and the Commit Date of tasks and issues when customizing the headers.
 
-For information about updating Commit Date and sCondition, see the following articles:
+For information about updating Commit Date and Condition, see the following articles:
 
 * [Update Condition for tasks and issues](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
 * [Update Commit Date on tasks and issues](/help/quicksilver/manage-work/projects/updating-work-in-a-project/update-commit-date-on-tasks-and-issues.md).
 
 [View a video demonstration of this feature.](https://video.tv.adobe.com/v/3429471/){target=_blank}
 
+## More relevant assignments added to the New Task workflow 
+
+>[!NOTE]
+>
+>Preview release: February 13, 2024; Production for fast release: With the 24.5 release (May 16, 2024); Production release for all customers: With the 24.10 release (October 2024).
+
+We have added the same functionality for more relevant smart assignments to the Assignments field in the following areas:  
+
+* The New Task box when adding a task to a project 
+
+* In a project task list 
+
+For more information, see [Smart assignments overview](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+
 ## More relevant smart assignments
 
 >[!NOTE]
 >
->Preview release: December 21, 2023; Production for fast release: With the 24.5 release (May 16, 2024); Production release for all customers: With the 24.7 release (July 2024).
+>Preview release: December 21, 2023; Production for fast release: With the 24.5 release (May 16, 2024); Production release for all customers: With the 24.10 release (October 2024).
 
 We have changed the algorithm that Workfront uses to calculate and suggest smart assignments for tasks. The new algorithm applies in the following areas in Workfront where you assign a task: task lists, the Assignments area in the task header, Home, and the Summary panel. 
 

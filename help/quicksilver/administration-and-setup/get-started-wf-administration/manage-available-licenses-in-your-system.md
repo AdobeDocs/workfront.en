@@ -17,6 +17,8 @@ As an Adobe Workfront administrator, you can access information about your Workf
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto">
@@ -36,7 +38,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> </td> 
+   <td> <p>You must be a system administrator or a group administrator. The group administrator has a limited view of license information.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,6 +60,8 @@ For more detail about the information in this table, see [Access requirements in
 >1. System administrators can add Home Groups to the Licenses page to view the utilization of licenses in those groups, and they can also set license limits.
 >2. Group administrators can access the Licenses page and view the utilization of licenses in the groups they manage that have been added to the Licenses page by system administrators.
 >3. Group administrators cannot view information for other Home Groups or add maximums.
+
++++
 
 ## View your organization's licenses
 

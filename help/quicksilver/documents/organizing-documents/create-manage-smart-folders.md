@@ -15,6 +15,8 @@ Two smart folders are available to you by default the first time you access the 
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -37,6 +39,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+
++++
 
 ## Display Smart Folders&nbsp;
 
@@ -82,7 +86,7 @@ You can display folders in thumbnail, standard, or list view. To change the view
 
 1. Make your changes, then click **Save Folder**.
 
-## Delete a Smart Folder&nbsp;
+## Delete a Smart Folder
 
 1. Go to the **Documents**&nbsp;area that contains the smart folder that you want to delete.
 1. In the **Folders** column, click the drop-down arrow next to the smart folder that you want to delete.

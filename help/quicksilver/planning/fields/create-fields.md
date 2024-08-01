@@ -45,7 +45,7 @@ For more information about Workfront Planning fields, see [Field overview](/help
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
++++ Expand to view access requirements for Workfront Planning. 
 
 <table style="table-layout:auto">
  <col>
@@ -72,9 +72,10 @@ You must have the following access to perform the steps in this article:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>Any</p> 
+   <p>New: Standard</p> 
+   <p>Current: Plan</p>
   </td>
   </tr>
   
@@ -99,6 +100,9 @@ You must have the following access to perform the steps in this article:
  </tbody>
 </table>
 
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -111,9 +115,11 @@ You must have the following access to perform the steps in this article:
 
 {{step1-to-planning}}
 
-  The last-accessed workspace should open by default. 
+1. Click the workspace whose records you want to create fields for.
 
-1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace whose record types you want to create fields for, then click the record type. 
+    The workspace opens and the record types display. 
+
+1. Click the card of a record type. 
 
     All existing records associated with the record type display in the rows of the table view. 
 
@@ -121,10 +127,17 @@ You must have the following access to perform the steps in this article:
     >
     >    If no records display, you might not have any records yet, or you might have a filter applied that limits what you see on the screen.
 
-    All existing fields associated with the record type display in the columns of the table view. <!--caveat this for when we can hide the fields; mention that they can be hidden if they are not visible by default-->
+    All existing fields associated with the record type display in the columns of the table view. 
 
+    >[!TIP]
+    >
+    >    Some fields might be hidden. Click Fields and enable the toggle of the fields you want to view as columns in the table view. 
+   
+1. Click the **+** icon in the upper-right corner of the table view
+
+    Or
     
-1. Click the **+** icon in the upper-right corner of the table view to add new fields.
+    Hover over the header of any column, click the downward-pointing arrow after the field name, then click **Insert left** or **Insert right** to add the new field.
 1. In the **New field** tab, search for a field type in the **Field type** box, or select from the following field types: 
 
     * [Single-line text](#single-line-text)
@@ -371,10 +384,10 @@ For more information, see [Formula fields overview](/help/quicksilver/planning/f
 
     >[!NOTE]
     >
-    > You cannot add Multi-select type fields in a formula.
+    >* You cannot add Multi-select type fields in a formula.
+    >
+    >* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a formula field for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Budget in the formula you are creating for the Activity record type. 
     
-
-
 1. Click **Create**.
 
      The new formula field is added as a column to the record type, and its values can be associated with records.

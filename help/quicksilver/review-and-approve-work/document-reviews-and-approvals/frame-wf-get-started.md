@@ -1,14 +1,14 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Get started with Asset review and approval with Frame.io
+title: Get started with asset review and approval with Frame.io
 description: Learn more about the formal review and approval process in using Workfront and Frame.io.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
 ---
-# Get started with Asset review and approval with Frame.io
+# Get started with asset review and approval with Frame.io
 
 The new asset review and approval workflow is built around a tight integration between Workfront and Frame.io. This integration takes the best of what each product has to offer and combines them to create an experience that allows everyone involved in content creation to work in their tools of choice, while having access to comments, files, and status updates--all synchronized across both systems in real time.
 
@@ -97,7 +97,7 @@ Reviewers and approvers can be added to a single-use approval workflow or a reus
 
 * **Single-use approvals**: In the project or task where the asset resides, the project coordinator can assign reviewers and approvers and set a completion deadline. Reviewers and approvers are reminded by email 72 and 24 hours before the deadline as well as on the deadline itself.
 
-    For more information, see [Create a document review or approval request](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md). <!--I think this needs to be renamed? -->
+    For more information, see * [Create a review or approval request for a Frame.io asset](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-request-for-frame-asset.md).
 
 * **Approval templates**: In the Workfront Setup area, project coordinators can create resuable Approval Templates. Within a template, users can add reviewers and approvers and specify a completion timeframe. When the approval template is applied to an asset, the deadline is calculated from the specified timeframe. 
 

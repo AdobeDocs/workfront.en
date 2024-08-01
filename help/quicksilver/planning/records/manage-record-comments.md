@@ -25,41 +25,9 @@ The right panel of a record displays the following sections:
 * **Comments**: Displays comments and replies users add to records.
 * **History**: Displays system-recorded changes that users  make to the record fields. For more information, see [History section overview](/help/quicksilver/planning/records/history-section-overview.md).
 
-## Considerations about commenting on a record
-
-* You can add comments and replies to records in Workfront Planning, in the Comments section of a record. 
-
-* Comments added to linked records do not display on the records you are linking from. For example, if you comment on a Workfront Planning Product record that is linked to a Campaign record, the comment displays only on the Product record in Workfront Planning and not on the Campaign record from which you are linking. 
-
-* You can add comments to Workfront Planning records created as a result of a connection between a record and an object from another application. 
-   
-   For example, you can comment on the Project Workfront Planning record after you connect Workfront projects with Workfront Planning records. For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
-
-* Comments added to linked objects in other applications do not display in Workfront Planning and comments added to linked objects in Workfront Planning do not display in other applications.  
-   
-   For example, comments added to projects in Workfront do not display on the same project linked to a campaign in Workfront Planning, and comments added to the project Workfront Planning record don't display in Workfront. 
-
-* You can tag users to bring their attention to an update. Tagged users do not receive an in-app notification or an email about your update. <!--this might change??-->
-
-<!--replace the bullet above with this: * You can tag users to bring their attention to an update. Tagged users receive an in-app notification or an email notification about your update. 
-   The following scenario exists:   
-
-   * Adobe Unified Experience users receive both an in-app notification and an email notification. 
-   * Users who are not in the Adobe Unified Experience receive only an email notification. 
-
-      For information, see [Adobe Workfront Planning notifications: article index](/help/quicksilver/planning/notifications/notifications-information.md)
-   
-      To determine whether your company is using the Adobe Unified Experience, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
-      -->
-
-* You can add an update to records and review the history of changes from the following areas of Workfront Planning:
-
-   * From the record details page. 
-   * From a view, in the record details box.
-
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
++++ Expand to view access requirements for Workfront Planning. 
 
 <table style="table-layout:auto">
  <col>
@@ -112,11 +80,51 @@ You must have the following access to perform the steps in this article:
  </tbody>
 </table>
 
++++
+
+## Considerations about commenting on a record
+
+* You can add comments and replies to records in Workfront Planning, in the Comments section of a record. 
+
+* Comments added to linked records do not display on the records you are linking from. For example, if you comment on a Workfront Planning Product record that is linked to a Campaign record, the comment displays only on the Product record in Workfront Planning and not on the Campaign record from which you are linking. 
+
+* You can add comments to Workfront Planning records created as a result of a connection between a record and an object from another application. 
+   
+   For example, you can comment on the Project Workfront Planning record after you connect Workfront projects with Workfront Planning records. For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
+
+* Comments added to linked objects in other applications do not display in Workfront Planning and comments added to linked objects in Workfront Planning do not display in other applications.  
+   
+   For example, comments added to projects in Workfront do not display on the same project linked to a campaign in Workfront Planning, and comments added to the project Workfront Planning record don't display in Workfront. 
+
+* You can tag users to bring their attention to an update. Tagged users do not receive an in-app notification or an email about your update. <!--this might change??-->
+
+<!--replace the bullet above with this: * You can tag users to bring their attention to an update. Tagged users receive an in-app notification or an email notification about your update. 
+   The following scenario exists:   
+
+   * Adobe Unified Experience users receive both an in-app notification and an email notification. 
+   * Users who are not in the Adobe Unified Experience receive only an email notification. 
+
+      For information, see [Adobe Workfront Planning notifications: article index](/help/quicksilver/planning/notifications/notifications-information.md)
+   
+      To determine whether your company is using the Adobe Unified Experience, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+      -->
+
+* You can add an update to records and review the history of changes from the following areas of Workfront Planning:
+
+   * From the record details page. 
+   * From a view, in the record details box.
+
 ### Manage comments on records
 
 {{step1-to-planning}}
 
-   The last accessed workspace opens by default. 
+1. Click the card of a workspace. 
+
+    The workspace opens and the record types display on cards. 
+
+1. Click a record type card.
+    The record type page opens and all records of that type display. 
+     
 1. Choose a table view from the **View** drop-down menu.
 1. Click the name of a record in the table view. 
 

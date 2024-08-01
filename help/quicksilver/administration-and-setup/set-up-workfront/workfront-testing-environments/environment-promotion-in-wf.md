@@ -8,14 +8,12 @@ description: The Environment Promotion capability is intended to provide the abi
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: yes
-hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
 ---
 # Overview of moving objects between Workfront environments (Environment promotion)
 
-The environment promotion capability is intended to provide the ability to move objects from one Workfront environment to another. For example, you can create a template and configure it in your sandbox environment, knowing that any testing you do will not affect your organization's actual data. After the template is configured and tested, you can move it to your production environment, ready to use.
+The environment promotion capability allows you to move objects from one Workfront environment to another. For example, you can create a template and configure it in your sandbox environment, knowing that any testing you do will not affect your organization's actual data. After the template is configured and tested, you can move it to your production environment, ready to use.
 
 This process is referred to as "environment promotion."
 
@@ -27,6 +25,8 @@ You can perform this process in Workfront by creating a package of objects to mo
    * [Install an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
 * For instructions on performing this process through the Workfront API, see [Move objects between [!DNL Workfront] environments using the [!DNL Workfront] API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md).
+
+[View a video demonstration of this feature](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
 ## Supported objects for environment promotion
 
@@ -52,7 +52,7 @@ Because environment promotion deals with object configuration, transactional obj
 
 | Promotable object | Included promotable linked objects |
 | --- | --- |
-| Layout Template (UITMPL) | Layout Template<br>Dashboard<br>Calendar<br>Calendar Section<br>External Page<br>Report<br>Filter<br>Grouping<br>View<br>Parameter  | 
+| Layout Template (UITMPL) | Layout Template<br>Dashboard<br>Calendar<br>Calendar Section<br>External Page<br>Report<br>Filter<br>Grouping<br>View<br>Parameter<br>Group  | 
 | Dashboard (PTLTAB) | Dashboard<br>Calendar<br>Calendar Section<br>External Page<br>Report<br>Filter<br>Grouping<br>View<br>Parameter  | 
 | Calendar (CALEND) | Calendar<br>Calendar Section | 
 | External Page (EXTSEC) | External Page |

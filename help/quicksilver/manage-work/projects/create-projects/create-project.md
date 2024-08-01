@@ -50,6 +50,7 @@ Projects represent a large amount of work that needs to be done in Adobe Workfro
 </table>
 
 -->
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -62,7 +63,7 @@ You must have the following access to perform the steps in this article:
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>New: Standard</p>
         <p>or</p>
         <p>Current: Plan </p> </td> 
@@ -78,7 +79,9 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ways to create projects
 

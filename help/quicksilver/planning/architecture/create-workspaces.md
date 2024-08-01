@@ -18,7 +18,7 @@ A workspace is a collection of record types used by a team and represents the te
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
++++ Expand to view access requirements for Workfront Planning. 
 
 <table style="table-layout:auto">
  <col>
@@ -76,6 +76,8 @@ You must have the following access to perform the steps in this article:
 
 For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
++++
+
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -105,20 +107,19 @@ You can create a workspace and add record types to it to organize your objects i
 
 {{step1-to-planning}}
 
-   This opens the Workspaces area of Workfront Planning.
+1. Click **Create workspace**
 
-1. (Conditional) If you don't have any workspaces in your environment, click **Create workspace**
-
-   Or, from an existing workspace, click the downward-pointing arrow to the right of the workspace name, then click **Create workspace**. 
-
-   ![](assets/workspace-drop-down-right-menu.png)
-
+   The Create workspace box displays. You can create a workspace from scratch or create it using one of the available templates.  
     
 1. (Optional and conditional) Click **Preview** inside any of the following predefined workspace templates:
 
-    * Marketing management
+    * Basic: Marketing Management
+    * Advanced: Marketing Management
+    * Enterprise: Marketing Management
     * Sales management
     * Product management
+    
+    The template preview box opens. 
     
     There is an indication of what operational record types, taxonomies and how many fields are associated with each template.
 
@@ -126,15 +127,15 @@ You can create a workspace and add record types to it to organize your objects i
 
     For information about Workfront Planning workspace templates, see [List of workspace templates](/help/quicksilver/planning/architecture/workspace-templates.md).
 
-1. Click **Use template** to start creating the workspace from the selected template
+1. From the template preview box, click **Use template** to start creating the workspace from the selected template
 
     Or
 
-    Click **Create workspace** to create a workspace from scratch.
+    Click **Back**, then click **New workspace** to create a workspace from scratch.
 
     One for the following types of workspaces is created:
     
-    * An empty workspace named **Untitled workspace** where you can start adding record types manually, when you create a workspace from scratch. 
+    * An empty workspace named **Untitled Workspace** where you can start adding record types manually, when you create a workspace from scratch. 
     * A workspace named after the template you selected that is populated with sample record types. You can further customize the record types and the workspace.
      
 1. Click inside the name of the workspace in the header of the new workspace to rename it, then press Enter. 

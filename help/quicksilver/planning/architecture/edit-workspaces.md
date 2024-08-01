@@ -22,7 +22,7 @@ All changes you make to a workspace are visible to all those who have at least V
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
++++ Expand to view access requirements for Workfront Planning. 
 
 <table style="table-layout:auto">
  <col>
@@ -79,15 +79,15 @@ You must have the following access to perform the steps in this article:
 
 For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
++++ 
 
 ## Edit a workspace
 
 {{step1-to-planning}}
-
- This opens the Workspaces area of Workfront Planning. 
     
+1. Click a workspace card to open the workspace. 
 1. Click inside the name of the workspace in the header of the new workspace to rename it, then press **Enter**. 
-1. Click the **More** menu ![](assets/more-menu.png)to the right of the workspace name in the header, then click **Edit**.
+1. Click the **More** menu ![](assets/more-menu.png) to the right of the workspace name in the header, then click **Edit**.
 
    ![](assets/edit-workspace-box.png)
 
@@ -126,7 +126,7 @@ For more information about access requirements, see [Access requirements in Work
 
 1. (Optional) Hover over a record type card, click the **More** menu ![](assets/more-menu.png) in the upper-right corner, then click **Delete** to delete a record type. 
 
-   For information, see [Delete record types](/help/quicksilver/planning/architecture/delete-record-types.md)).
+   For information, see [Delete record types](/help/quicksilver/planning/architecture/delete-record-types.md).
 
 1. (Optional) Press-click a record type card to drag it and drop it in a new spot. You can drag and drop record types from one workspace section to another. 
 

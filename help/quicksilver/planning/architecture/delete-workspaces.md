@@ -20,7 +20,7 @@ We recommend recreating some or all of the record types, records, fields, and vi
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
++++ Expand to view access requirements for Workfront Planning. 
 
 <table style="table-layout:auto">
  <col>
@@ -78,6 +78,8 @@ You must have the following access to perform the steps in this article:
 
 *For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
++++
+
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
@@ -92,13 +94,14 @@ You must have the following access to perform the steps in this article:
 
 {{step1-to-planning}}
 
-This opens the last workspace you accessed. 
+1. Click the workspace you want to delete.
 
-1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to delete. 
+   The workspace page displays. 
+
 1. Click the **More** menu ![](assets/more-menu.png) next to the workspace name, then click **Delete**.
 
    ![](assets/permanently-delete-workspace-confirmation.png)
    
-1. Type "**delete**" in the space provided, then click **Permanently delete**. 
+1. Type "**delete**" in the space provided, then click **Permanently delete**. This is not case sensitive. 
 
     The workspace is deleted and cannot be recovered. Any record types, records, fields, and views associated with them are also deleted. <!--ensure this is right at or before GA-->

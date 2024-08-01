@@ -19,7 +19,7 @@ For more information about record types, see [Record types overview](/help/quick
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
++++ Expand to view access requirements for Workfront Planning.  
 
 <table style="table-layout:auto">
  <col>
@@ -46,7 +46,7 @@ You must have the following access to perform the steps in this article:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
    <p>Current: Plan</p>
    Or
@@ -72,6 +72,9 @@ You must have the following access to perform the steps in this article:
   </tr>
  </tbody>
 </table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
++++
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -129,9 +132,11 @@ For information about what record types are included with each template, see [Li
 
 {{step1-to-planning}}
 
-The last-accessed workspace should open by default. 
+1. Click the workspace where you want to create a record type, 
 
-1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to create record types for.
+    Or
+
+    From a workspace, expand the downward-pointing arrow to the right of an existing workspace name, search for a workspace, then select it when it displays in the list.
 1. (Optional) Click **Add section** to add a new section to the workspace.
 1. Click **Add record type**. 
 1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. 
@@ -218,9 +223,11 @@ To import record types using an Excel file:
 
 {{step1-to-planning}}
 
-The last-accessed workspace should open by default. 
+1. Click the workspace where you want to create record types, 
 
-1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to create record types for.
+    Or
+
+    From a workspace, expand the downward-pointing arrow to the right of an existing workspace name, search for a workspace, then select it when it displays in the list.
 1. Click **Add record type**. 
 1. Click **Excel/CSV**.
 1. Drag and drop an Excel or CSV file previously saved on your computer, or click **Select a CSV or Excel file** to browse for one. 

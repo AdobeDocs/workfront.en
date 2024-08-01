@@ -1,5 +1,5 @@
 ---
-title: Manage the record page
+title: Manage the record page layout
 description: You can edit the layout of the record preview and page in Adobe Workfront Planning.
 hidefromtoc: yes
 hide: yes
@@ -8,7 +8,7 @@ exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 ---
 <!--update the metadata with real information when making this avilable in TOC and in the left nav-->
 
-# Manage the record page
+# Manage the record page layout
 
 {{planning-important-intro}}
 
@@ -30,7 +30,7 @@ For information, see the following articles:
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
++++ Expand to view access requirements for Workfront Planning. 
 
 <table style="table-layout:auto">
  <col>
@@ -59,9 +59,9 @@ You must have the following access to perform the steps in this article:
   <tr>
    <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>New: Light or higher</p>
+   <p>New: Standard</p>
    Or
-   <p>Current: Work or higher</p> 
+   <p>Current: Plan</p> 
   </td>
   </tr>
   
@@ -72,7 +72,7 @@ You must have the following access to perform the steps in this article:
   </tr>
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage or higher permissions to a workspace</a> </p>  
+   <td> <p>Manage permissions to a workspace</a> </p>  
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
@@ -86,6 +86,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 *For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Considerations about editing record pages
 
@@ -102,7 +104,7 @@ You must have the following access to perform the steps in this article:
 
 * Display changes that you make in the record preview are immediately visible in the record details page. Changes made in the record page are also visible in the record preview box. 
 
-* Adding a cover image to a record is not part of the overall layout of the record preview or page. You can add unique cover images to each record. For information, see [Add a cover image to a record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
+* Adding a cover image or a thumbnail to a record is not part of the overall layout of the record preview or page. You can add unique cover images or thumbnails to each record. For information, see [Add a cover image to a record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md) and [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md). 
 
 ## Add sections to a record preview or page
 
@@ -117,9 +119,10 @@ To add a section to a record preview or page:
 
 {{step1-to-planning}}
 
-The workspace that you access last opens. 
+1. Click the card of a workspace. 
 
-1. (Optional) Click the downward-pointing arrow to the right of the workspace name to select the workspace whose records you want to update. 
+    The workspace opens and the record types display as cards. 
+
 1. Click a record type card. 
 
     The record type page opens. 
@@ -128,15 +131,11 @@ The workspace that you access last opens.
 
     Or 
     
-    From the table table view, click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name. 
+    From the table table view, click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) in the first column. 
     
     The record's preview opens in the view.
 
-    ![](assets/details-box.png) 
-
-    >[!TIP]
-    >
-    >You can view the **Open details** icon to the left of the Name field of a record in a table view only when the Name field is a primary field. 
+    ![](assets/details-box.png)  
 
 1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the record preview  to open the record's page in a new tab. 
 
@@ -181,9 +180,10 @@ The workspace that you access last opens.
 
 {{step1-to-planning}}
 
-The workspace that you access last opens. 
+1. Click the card of a workspace. 
 
-1. (Optional) Click the downward-pointing arrow to the right of the workspace name to select the workspace whose records you want to update. 
+    The workspace opens and the record types display as cards. 
+ 
 1. Click a record type card. 
 
     The record type page opens. 
@@ -192,15 +192,11 @@ The workspace that you access last opens.
 
     Or 
     
-    From the table table view, click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name. 
+    From the table table view, click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) in the first column. 
     
     The record's preview opens in the view.
 
     ![](assets/details-box.png) 
-
-    >[!TIP]
-    >
-    >You can view the **Open details** icon to the left of the Name field of a record in a table view only when the Name field is a primary field. 
 
 1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record preview to open the record's page in a new tab. 
 

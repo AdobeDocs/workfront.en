@@ -1,5 +1,5 @@
 ---
-title: Edit fields
+title: Edit field settings
 description: In Adobe Workfront Planning, you can edit the field settings for fields that are already created. This article describes how you can edit the settings for Workfront Planning fields.
 hidefromtoc: yes
 hide: yes
@@ -9,7 +9,7 @@ exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!---
-title: Edit foelds
+title: Edit fields
 description: In Adobe Workfront Planning, you can edit the field settings for fields that are already created.
 hidefromtoc: yes
 hide: yes
@@ -19,7 +19,7 @@ role: User, Administrator (************is this right???************)
 recommendations: noDisplay, noCatalog
 --->
 
-# Edit fields 
+# Edit field settings
 
 {{planning-important-intro}}
 
@@ -28,6 +28,72 @@ You can edit the field settings for fields that are already created in Adobe Wor
 For information about creating Adobe Workfront Planning fields, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
 
 This article describes how you can edit the settings for Workfront Planning fields. For information about editing field values for records, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
+
+## Access requirements
+
++++ Expand to view access requirements for Workfront Planning. 
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Product</p> </td>
+   <td>
+   <p> Adobe Workfront</p> </td>
+  </tr>  
+ <td role="rowheader"><p>Adobe Workfront agreement</p></td>
+   <td>
+<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront plan</p></td>
+   <td>
+<p>Any</p>
+   </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
+   <td>
+   <p>New: Standard</p>
+   <p>Current: Plan</p> 
+  </td>
+  </tr>
+  
+  <tr>
+   <td role="rowheader"><p>Access level configuration</p></td>
+   <td> <p>There are no access controls for Workfront Planning</p>  
+</td>
+  </tr>
+
+  <tr>
+   <td role="rowheader"><p>Permissions</p></td>
+   <td> <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
+</td>
+  </tr>
+
+ </tbody>
+</table>
+
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
+
+<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
+>[!NOTE]
+>
+>If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
 ## Considerations about editing field settings
 
@@ -56,80 +122,21 @@ You must consider the following before making changes to a field's configuration
 * You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
 -->
 
-## Access requirements
-
-You must have the following access to perform the steps in this article: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
-   <td>
-   <p>Any</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access controls for Workfront Planning</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
 ## Edit field settings
 
 {{step1-to-planning}}
 
-The last-accessed workspace should open by default. 
+1. Click the workspace whose record fields you want to edit.
 
-1. (Optional) Expand the downward-pointing arrow to the right of an existing workspace name and select the workspace that you want to delete record types for.  
+    The workspace opens and all the record types in the workspace display on cards. 
 
-    The workspace opens and the record types associated with it display. 
-1. Click the card for the record type whose fields you want to edit.
+1. Click the card of a record type. 
 
-    This opens the record type's page. 
+   This opens the record type's page. 
+
 1. (Conditional) Click the tab of a **Table view**.
+
+    All existing records associated with the record type display in the rows of the table view.
 1. Hover over the column header of a field you want to edit, then click the downward-pointing arrow after the field name, then click **Edit field**
 
     Or 
@@ -142,7 +149,9 @@ The last-accessed workspace should open by default.
 
     >[!TIP]
     >
-    >You cannot update the field type after the field is saved.
+    >* You cannot update the field type after the field is saved.
+    >
+    >* When you modify field configurations (field options or formula expressions), records that already contain information in the modified fields will update their values in real-time. There is no warning and no audit log for the value changes triggered by field configuration changes. All users who view the fields will immediately see the new values with the modifications.
 
     The field information updates for everyone with access to view the workspace. 
 
@@ -150,9 +159,3 @@ The last-accessed workspace should open by default.
 
     For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
 
-<!--After the release of the RTBE for field configurations, replace the tip with this:
->[!TIP]
->
->* You cannot update the field type after the field is saved.
->
->* When you modify field configurations (field options or formula expressions), records that already contain information in the modified fields will update their values in real-time. There is no warning and no audit log for the value changes triggered by field configuration changes. All users who view the fields will immediately see the new values with the modifications. -->

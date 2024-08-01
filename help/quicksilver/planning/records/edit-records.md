@@ -24,7 +24,7 @@ For information about creating records, see [Create records](/help/quicksilver/p
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
++++ Expand to view access requirements for Workfront Planning. 
 
 <table style="table-layout:auto">
  <col>
@@ -53,9 +53,9 @@ You must have the following access to perform the steps in this article:
   <tr>
    <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>New: Light or higher</p>
+   <p>New: Standard</p>
    Or
-   <p>Current: Work or higher</p> 
+   <p>Current: Plan</p> 
   </td>
   </tr>
   
@@ -81,6 +81,8 @@ You must have the following access to perform the steps in this article:
 
 *For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
++++
+
 ## Considerations about editing records
 
 * You can edit records that you created or records created by others, if you were given permissions to the workspace. 
@@ -100,23 +102,24 @@ You must have the following access to perform the steps in this article:
 * You cannot edit records in bulk. <!--this will probably change-->
 * URLs are recognized as links in single-line text field types only when they start with the following: http://, https://, ftp://, or www. . 
 * You can add a cover image to each record. The image is unique for each record, and it does not apply to all records of the same time. 
-* You can edit the order of the fields in a record page and add a cover image for a record. For more information, see [Manage the record page](/help/quicksilver/planning/records/manage-the-record-page.md).
+* You can edit the order of the fields in a record page and add a cover image for a record. For more information, see [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## Edit records
 
 You can edit a record from the following areas:
 
-* [From the table view of a record type](#edit-a-record-from-the-table-view-of-a-record-type)
-* [From the record's preview in a view](#edit-a-record-from-the-records-box-in-a-view)
+* [From the table view of a record type](#edit-a-record-inline-in-the-table-view-of-a-record-type)
+* [From the record's preview in a view](#edit-a-record-from-the-records-preview-in-a-view)
 * [From the record's page](#edit-a-record-from-the-records-page)
+* [From a Workfront object in the Planning section](#edit-a-record-from-a-workfront-object-in-the-planning-section)
 
 ### Edit a record inline in the table view of a record type
 
 {{step1-to-planning}}
 
-  The workspace that you accessed last opens. 
+1. Click the workspace whose records you want to edit
 
-1. (Optional) Click the downward-pointing arrow to the right of the workspace name to select the workspace whose records you want to update. 
+    The workspace opens and the record types display as cards.
 1. Click a record type card. 
 
     The record type page opens. 
@@ -155,6 +158,9 @@ You can edit a record from the following areas:
     * Click the column header of a column to select it and copy it, then click the column header of another column and paste the contents of the copied column. The columns must contain similar field types. 
     * With your Shift key pressed, click to select several rows in a table, copy the information in the selected rows, then click a different row and paste the selected information in the new row and the following rows after that. 
     * Copy the information from one cell, then select multiple cells and paste the same information in multiple cells. You can select multiple cells and paste the same information in multiple cells from adjacent rows and columns. 
+    * Select the lower-right corner of an existing cell that contains the information you want to copy, then drag and drop it across the adjacent cells where you want to paste the same information. All cells must contain the same type of information. 
+
+        ![](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
     >[!NOTE]
     >
@@ -186,25 +192,25 @@ You can edit a record from the following areas:
 
 {{step1-to-planning}}
 
-   The workspace that you access last opens. 
+1. Click the workspace whose records you want to edit
 
-1. (Optional) Click the downward-pointing arrow to the right of the workspace name to select the workspace whose records you want to update. 
+    The workspace opens and the record types display as cards. 
 
 1. Click a record type card. 
 
     The record type page opens. 
 
-1. From a view of any type, click the name of a record 
+1. From a view of any type, click the record 
 
     Or 
     
-    From the table view, click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) to the left of a record name. The record's preview opens in the view.
+    From the table view, click the **Open details** icon ![](assets/open-details-icon-in-table-name-field.png) in the first column. The record's preview opens in the view.
 
     ![](assets/details-box.png) 
 
-    >[!TIP]
-    >
-    >You can view the **Open details** icon to the left of the Name field of a record in a table view only when the Name field is a primary field. 
+1. (Optional) Click the **More** menu to the right of the record's title, then click **Rename**. This updates the field that displays as the record's title.
+
+    The record's title is the primary field of the record when viewed in a table view. For information, see [Primary field overview](/help/quicksilver/planning/fields/primary-field-overview.md). 
 
 1. Start editing the field information in the record's preview.  
 
@@ -212,10 +218,12 @@ You can edit a record from the following areas:
     >
     >  You cannot edit information for the following fields, as they are read-only and Workfront updates them automatically: 
     >  
-    >  * Linked fields that are created by connecting record types. For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
+    >  * Lookup fields from other records that are created by connecting record types. For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
     >  * Fields of the following types: Created by, Created date, Last modified by, Last Modified date, Formula fields.
 
 1. (Optional) Click **Add cover** to add a cover image to the record. For more information, see [Add a cover image to a record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md). 
+
+1. (Optional) Hover over the thumbnail icon, then click **More** ![](assets/more-menu.png) > **Edit thumbnail** to add a thumbnail image. For information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md). 
 
     Workfront automatically saves your changes.
 
@@ -225,9 +233,9 @@ You can edit a record from the following areas:
 
 {{step1-to-planning}}
 
-   The workspace that you access last opens. 
+1. Click the workspace whose records you want to edit
 
-1. (Optional) Click the downward-pointing arrow to the right of the workspace name to select the workspace whose records you want to update. 
+    The workspace opens and the record types display as cards. 
 
 1. Click a record type card. 
 
@@ -245,6 +253,10 @@ You can edit a record from the following areas:
 
         ![](assets/details-page.png)
 
+1. (Optional) Click the **More** menu to the right of the record's title, then click **Rename**. This updates the field that displays as the record's title.
+
+    The record's title is the primary field of the record when viewed in a table view. For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
+    
 1. Click any editable field on the record page to edit it. 
 
     >[!TIP]
@@ -254,7 +266,22 @@ You can edit a record from the following areas:
     >  * Linked fields that are created by connecting record types. For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
     >  * Fields of the following types: Created by, Created date, Last modified by, Last Modified date, Formula fields.
 
-1. (Optional) Click **Add cover** to add a cover image to the record. For more information, see [Add a cover image to a record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md). 
+1. (Optional) Click **Add cover** to add a cover image to the record
+    
+    Or
+    
+    Hover over the existing cover image, then click the **More** menu ![](assets/more-menu.png) > **Upload** to add a new cover image for the record. 
+    
+    For more information, see [Add a cover image to a record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md). 
+
+1. (Optional) Hover over an existing thumbnail, or the **thumbnail icon** ![](assets/record-thumbnail-icon-on-details-page.png), then click the **More** menu ![](assets/more-menu.png) > **Edit thumbnail** to add a thumbnail for the record. 
+
+    For more information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
     Workfront automatically saves your changes.
 
+## Edit a record from a Workfront object in the Planning section
+
+After you connect records with Workfront objects, you can edit Workfront Planning records in Workfront from the object's Planning section. 
+
+For more information, see [Manage records in the Planning section of Adobe Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md). 

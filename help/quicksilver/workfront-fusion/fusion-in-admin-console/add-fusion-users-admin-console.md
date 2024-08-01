@@ -138,6 +138,6 @@ For instructions, see [View or edit user roles](../organizations/manage-fusion-u
     
 ## Assign an existing user in the [!DNL Adobe Admin Console] to [!DNL Workfront Fusion]
 
-1.  Begin editing the user as described in the "Edit user details" section of the article [Manage users individually](https://helpx.adobe.com/enterprise/using/manage-users-individually.html) in the [!DNL Adobe Admin Console] documentation.
-    
-1.  Add **[!DNL Adobe Workfront Fusion]** to the products assigned to the user.
+You can add an existing user to a team in Fusion. This is handled inside Fusion.
+
+For instructions, see [Add a user to a team](/help/quicksilver/workfront-fusion/organizations/add-user-to-an-organization.md#add-a-user-to-a-team) in the article Add a user to an organization or team in Adobe Workfront Fusion.

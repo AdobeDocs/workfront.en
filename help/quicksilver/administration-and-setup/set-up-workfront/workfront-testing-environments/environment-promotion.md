@@ -8,14 +8,12 @@ description: The Environment Promotion capability is intended to provide the abi
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: yes
-hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
 ---
 # Move objects between [!DNL Workfront] environments using the [!DNL Workfront] Environment Promotion API
 
-The Environment Promotion capability is intended to provide the ability to move configuration-related objects from one environment to another. You can move these objects using the Workfront API as described in this article.
+The Environment Promotion capability allows you  to move configuration-related objects from one environment to another. You can move these objects using the Workfront API as described in this article.
 
 For instructions on moving objects between environments using the Workfront application, see:
 
@@ -23,7 +21,32 @@ For instructions on moving objects between environments using the Workfront appl
 * [Install an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
 
-<!-- add access req for GA-->
+## Access requirements
+
+You must have the following:
+
+<table>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] plan</strong>
+   </td>
+   <td> Prime or Ultimate (New plans only)
+   </td>
+  </tr>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] licenses</strong>
+   </td>
+   <td> [!UICONTROL Standard]
+   </td>
+  </tr>
+   <tr>
+   <td>Access level configurations
+   </td>
+   <td>You must be a [!DNL Workfront] administrator.
+   </td>
+  </tr>
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 ## Prerequisites
 

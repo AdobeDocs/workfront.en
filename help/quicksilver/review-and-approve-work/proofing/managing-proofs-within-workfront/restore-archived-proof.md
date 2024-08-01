@@ -9,9 +9,11 @@ exl-id: ac4ce52a-ef63-43a8-9f2d-95f0cdb56f53
 ---
 # Restore an archived proof
 
-A proof is automatically archived when it is not opened for 60 consecutive days. Archived proofs still display in the Document list the same way as it did&nbsp;prior to the proof being archived.
+A proof is automatically archived when it is not opened for 60 consecutive days. Archived proofs still display in the Document list the same way as it did prior to the proof being archived.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -32,6 +34,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan or proof access you have, contact your Workfront or Workfront Proof administrator.
+
++++
 
 ## Restore an archived proof
 

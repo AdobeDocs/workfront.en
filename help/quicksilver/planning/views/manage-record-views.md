@@ -38,6 +38,8 @@ This article describes the following information about record views:
 
 You must have the following access to perform the steps in this article: 
 
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -63,32 +65,37 @@ You must have the following access to perform the steps in this article:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>Any</p> 
-   <p>System administrators have access only the views they created or that are shared with them. </p>
+   <p>New: Standard</p>
+   Or
+   <p>Current: Plan </p> 
   </td>
   </tr>
   
   <tr>
-   <td role="rowheader">Access level configuration</td>
-   <td> <p>There are no access level controls for Workfront Planning</p>  
+   <td role="rowheader"><p>Access level configurations</p></td>
+   <td> There are no access controls for Adobe Workfront Planning</p>  
 </td>
   </tr>
 
   <tr>
    <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to the view</p>  
+   <td> <p>Manage permissions to a view</p>  
+   <p>View permissions to a view to temporarily change the view settings</p>
 </td>
   </tr>
 
 <tr>
-   <td role="rowheader">Layout template</td>
-   <td> <p>Your system administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
 
 ## Considerations when working with record views
 
@@ -111,6 +118,7 @@ You must have the following access to perform the steps in this article:
     >[!NOTE]
     >
     > Some view elements might not be available to all views.
+    
 
 ## Similarities and differences between record views
 
@@ -144,9 +152,13 @@ The following table shows the similarities and differences between the table, ti
 {{step1-to-planning}} 
     
     
-The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).
+1. Click the card of a workspace. 
 
-1. Click a record type card. For information about creating a record type, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md). 
+    The workspace opens and the record types display as cards. 
+ 
+1. Click a record type card. 
+
+    The record type page opens. 
 
     By default, all the records of the selected type display in the table view. 
 
@@ -166,14 +178,12 @@ The workspace you last accessed opens by default. For information about creating
 >
 >When you create a record type, the table view is also created by default. 
 >
->To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline and the Calendar options are dimmed.
+>To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. 
+>
+>Otherwise, the Timeline and the Calendar options are dimmed.
 >
 
 ![](assets/view-types-drop-down-from-record-type-list.png)
-
->[!NOTE]
->
->    To create a timeline or a calendar view, the record type you build the view for must have at least two date fields. Otherwise, the Timeline or the Calendar options are dimmed.
 
 1. (Conditional) Click **Next**, when creating a timeline or calendar view.
     
@@ -189,7 +199,7 @@ The workspace you last accessed opens by default. For information about creating
     
     >[!TIP]
     >
-    >    You can select from record date fields, or lookup date fields from connected records or objects. 
+    >    You can select from record date fields, or lookup date fields from connected record or object types. You must use aggregators for date fields (MAX or MIN) when you select lookup fields as Start and End dates for the timeline and calendar views. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
 
 1. Click **Create**.
 
@@ -214,11 +224,13 @@ The workspace you last accessed opens by default. For information about creating
 
 {{step1-to-planning}}
 
-The workspace you last accessed opens by default. For information about creating workspaces, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).
+1. Click the card of a workspace. 
 
+    The workspace opens and the record types display as cards. 
+ 
 1. Click a record type card. 
 
-    For information about creating a record type, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md). 
+    The record type page opens.  
 
     By default, all the records of the selected type display in the table view. 
 
@@ -243,12 +255,13 @@ The sharing permissions of the original view do not transfer to the duplicated v
 
 {{step1-to-planning}} 
 
-The workspace you last accessed opens by default. 
+1. Click the card of a workspace. 
 
-For information about creating workspaces, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).
+    The workspace opens and the record types display as cards. 
+ 
+1. Click a record type card. 
 
-1. Click a record type card. For information about creating a record type, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md). 
-
+    The record type page opens. 
     By default, all the records of the type selected display in the table view. 
 
 1. Hover over the tab of the view you want to duplicate, and click the **More** menu ![](assets/more-menu.png) to the right of the view name, then click **Duplicate**. 

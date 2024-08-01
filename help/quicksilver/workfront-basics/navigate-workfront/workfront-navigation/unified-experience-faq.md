@@ -1,7 +1,7 @@
 ---
 product-area: workfront-navigation
 navigation-topic: workfront-navigation
-title: Adobe Unified Experience for FAQ
+title: Adobe Unified Experience FAQ
 description: A few features are different between [!DNL Workfront] and Adobe Experience Cloud, and you might have some questions as your [!DNL Workfront] instance is migrated to the unified experience.
 author: Nolan
 feature: Get Started with Workfront
@@ -26,6 +26,7 @@ This table describes some features that differ between the two experiences.
 | An "organization switcher" allows you to move between [!DNL Workfront] organizations and environments | The "organization switcher" is not available |
 | Navigation includes a top level navigation area for [!DNL Adobe] products, [!DNL Adobe] notifications, help, and your user profile, in addition to the [!DNL Workfront] navigation bar | Navigation includes the [!DNL Workfront] navigation bar only |
 | Help is accessible via the [!UICONTROL Main Menu] and top navigation area | Help is accessible via the [!UICONTROL Main Menu] and [!DNL Workfront] navigation bar |
+| The proofing viewer opens in a new tab | The proofing viewer opens inside Workfront |
 
 {style="table-layout:auto"}
 

@@ -30,6 +30,8 @@ When any one of the following details is updated for the card in one location, i
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -59,6 +61,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Add a connected card
 
@@ -156,8 +160,8 @@ For more detail about the information in this table, see [Access requirements in
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Comments]</strong></td>
-      <td><p>Click in the <strong>[!UICONTROL New comment]</strong> field and type your comment. Use the formatting tools to format the text, and click the <strong>Add attachment</strong> icon <img src="assets/attachment-icon.png" alt="Attachment icon"> to attach a file to the comment. To tag a person or team, use the search box at the bottom of the commenting area. The user does not have to be a member on the board. Tagged users on connected cards will receive email notifications.</p><p>Click <strong>[!UICONTROL Submit]</strong> to add the comment to the card.</p>
-      <p><strong>NOTE:</strong> The commenting area on cards uses the new Adobe Workfront commenting experience. For more information, see <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Update work</a>.</p></td>
+      <td><p>Click in the <strong>[!UICONTROL New comment]</strong> field and type your comment. Use the formatting tools to format the text. To tag a person or team, use the search box at the bottom of the commenting area. The user does not have to be a member on the board. Tagged users on connected cards will receive email notifications.</p><p>Click <strong>[!UICONTROL Submit]</strong> to add the comment to the card.</p>
+      <p>For more information on commenting, see <a href="/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md">Update work</a>.</p></td>
      </tr>
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL System activity]</strong></td> 

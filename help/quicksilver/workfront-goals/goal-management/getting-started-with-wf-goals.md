@@ -8,25 +8,22 @@ exl-id: 9daa074e-94ce-4825-a058-722e53dbce51
 ---
 # Get started with Adobe Workfront Goals
 
-Your organization must have the following to use the functionality described in this article:
-
-* For the new plan and license structure:
-
-  * An Ultimate plan 
-    
-    Or
-    
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. For more information, see [Adobe Workfront plan](https://www.workfront.com/plans). 
-
-* For the current plan and license structure: 
-
-  * A Pro or higher 
-  * An Adobe Workfront Goals license in addition to a Workfront license.
-
-
-Contact your Workfront account manager to learn about a Workfront Goals license.
-
-For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>[!IMPORTANT]
+>
+>Your organization must have the following to use the functionality described in this article:
+>
+>* For the new plan and license structure:
+>
+>   * The Ultimate Workfront plan 
+>    
+>* For the current plan and license structure: 
+>
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
+>
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
+> 
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   
 
 Every organization needs to set and communicate clear goals to keep their teams productive, focused, and engaged. Truly knowing how work is aligned to strategy is key to success. Yet, without a system of record that connects your strategy and goals with the work in the organization, attaining alignment can be really difficult.
 

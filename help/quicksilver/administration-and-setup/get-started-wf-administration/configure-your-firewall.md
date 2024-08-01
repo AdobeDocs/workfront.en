@@ -67,7 +67,7 @@ For more information, see the section [View your organization's cluster and Work
 >
 >Some Workfront integrations do not work when the allowlist is enabled because they can't be configured with a static IP address. To use the following integrations, you must disable the allowlist.
 >
->* Workfront for G Suite 
+>* Workfront for Google Workspace 
 >* Workfront for Outlook 
 >* Workfront for Salesforce
 

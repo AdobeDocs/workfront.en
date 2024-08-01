@@ -9,15 +9,16 @@ exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 ---
 # Create a document review or approval request
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
-You can request approval from other users or teams for a document in Adobe Workfront, or request they review a document without needing to approve it.
+cYou can request approval from other users or teams for a document in Adobe Workfront, or request they review a document without needing to approve it.
 
 >[!IMPORTANT]
 >
 >The content of this article refers to updated document approval functionality that is only available for specific accounts. For information on standard approval processes, see the articles listed in [Work approvals](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
+
 
 You must have the following access to perform the steps in this article:
 
@@ -30,7 +31,7 @@ You must have the following access to perform the steps in this article:
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront license*</td>  
    <td> <p>Review or higher</p> </td> 
   </tr> 
   <tr> 
@@ -46,6 +47,8 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
++++
+
 ## Create a document review or approval request from the document page
 
 1. Hover over the document, then click Document Details.
@@ -56,7 +59,7 @@ You must have the following access to perform the steps in this article:
 
 1. Click **Approvals** in the left pane.
 
-1. <span class="preview">(Optional) Set a deadline for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified deadline.</span>
+1. (Optional) Set a deadline for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified deadline.
 
 1. To add an approver, click the **Approver** and and begin typing in a user or team name. 
 
@@ -78,7 +81,7 @@ You must have the following access to perform the steps in this article:
 
   ![](assets/doc-summary-add-approvers.png)
 
-1. <span class="preview">(Optional) Set a deadline for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified deadline.</span>
+1. (Optional) Set a deadline for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified deadline.
 
 1. To add an approver, click the **Approver** and and begin typing in a user or team name. 
 

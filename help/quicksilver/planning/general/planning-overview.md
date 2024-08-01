@@ -53,7 +53,7 @@ The following are some of the main capabilities:
 
 The following table illustrates the main features that will be available in Workfront Planning, and a timeline of their availability. The list does not include all features.
 
-For information about new features and when they are released, see [Adobe Workfront Planning release activity](/help/quicksilver/planning/general/release-activity.md). 
+For information about new features and when they are released, see [Adobe Workfront Planning current release activity](/help/quicksilver/planning/general/release-activity.md). 
 
 |       Feature                                      |     Available now  |     Available soon   |     In research  |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -94,6 +94,8 @@ For information about new features and when they are released, see [Adobe Workfr
 |     Adobe Workfront Planning modules for Adobe Workfront Fusion                                 |      ✓                         |                                  |                 | 
 |     Copy and paste information from one field to another                                  |      ✓                         |                                  |                 | 
 |     Access Planning records from Workfront objects                                  |      ✓                         |                                  |                 |
+|     Connect Planning records from Workfront objects                                  |      ✓                         |                                  |                 |
+|     Workfront Planning public API                                 |      ✓                         |                                  |                 |
 
 ## Enable Adobe Workfront Planning for the users in your Workfront instance
 
@@ -157,7 +159,7 @@ The following are the main Workfront Planning objects and concepts:
 
     * Fields are unique to a record type and do not transfer from one record type to another. 
 
-    * Fields are fully customizable and are accessible only in Workfront Planning. You cannot access Workfront Planning fields from Workfront. 
+   * Fields are fully customizable and are accessible only in Workfront Planning. You cannot access Workfront Planning fields from Workfront. 
 
     For more information, see [Create fields](/help/quicksilver/planning/fields/create-fields.md).
     
@@ -202,9 +204,18 @@ The following are the main Workfront Planning objects and concepts:
 
 * **Linked fields** (or lookup fields): After you establish the connection between two record types and you link individual records together, you can reference the linked records' fields on the record you are connecting from.
 
-    For example, if you connect a Campaign record type with a Workfront Project object type, you can display the Project Owner field of connected projects on the campaign records. 
+    For example, if you connect a Campaign record type with a Workfront Project object type, you can display the Budget field of connected projects on the campaign records. 
 
     ![](assets/add-lookup-fields-modal.png)
+
+    >[!TIP]
+    >
+    > You cannot add the following field types as lookup fields:
+    >
+    >* People
+    >* Created by
+    >* Last modified by
+    >* Workfront typeahead fields (including fields like Project Owner, or Project Sponsor)
 
     For information about linking record types, records, and creating linked fields, see the following articles:
 
@@ -271,23 +282,36 @@ To locate Workfront Planning:
 
 1. Log in to Adobe Workfront. 
 
-1. Click the **Main Menu** ![](assets/main-menu-workfront.png) in the upper-right corner, or click the **Main Menu** ![](assets/main-menu-shell.png) in the upper-left corner, if it's available. 
+{{step1-click-main-menu}}
 
 1. Click **Planning** ![](assets/planning-icon.png).
 
-    The Workspaces area opens.
+    The Workfront Planning landing page opens. 
+
+    ![](assets/planning-landing-page-admin.png)
+
+    >[!TIP]
+    >
+    >    Your Workfront administrator can add the Planning area to the Select landing page option in your layout template, so you can open Planning as soon as you log in to Workfront. For information, see [Customize the landing page using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md). 
+
+
+1. (Conditional and optional) If you are a Workfront administrator, click one of the following tabs:
+    * **My workspaces**: Displays workspaces you created.
+    * **Other workspaces**: Displays all other workspaces in the system, including the ones shared with you.
+
+    For all other users, all workspaces that they created or are shared with them display in the **Workspaces** area.
 
 1. (Optional and recommended) Continue with some of the following actions, to build your work structure: 
 
-    1. Create a workspace from scratch or using a template. 
+    1. Create a workspace from scratch or using a template. For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md). 
 
-    1. Add sections to the new workspace. 
+    1. Add sections to the new workspace. For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md). 
     1. Rename the existing sections in the new workspace. 
-    1. Add record types to the new workspace. 
+    1. Add record types to the new workspace. For information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md). 
 
     1. Click the name of a record type to open the record type's page. The record type page opens in the Table view, by default.
 
-        You can also create a Timeline or a Calendar view. 
+        You can also create a Timeline or a Calendar view. For information, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
     
     1. In the table view, start adding records by adding rows
 
@@ -295,9 +319,14 @@ To locate Workfront Planning:
 
         Start adding record fields by adding columns. 
 
+        For information, see the following articles: 
+
+        * [Create records](/help/quicksilver/planning/records/create-records.md)
+        * [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
+
 ## Adobe Workfront Planning release activity 
 
 We are releasing new features to Workfront Planning regularly. 
 
-For an up-to-date list of released features, see [Adobe Workfront Planning release activity](/help/quicksilver/planning/general/release-activity.md)
+For an up-to-date list of released features, see [Adobe Workfront Planning current release activity](/help/quicksilver/planning/general/release-activity.md)
 

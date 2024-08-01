@@ -17,6 +17,8 @@ We recommend deactivating a portfolio that no longer needs to be associated with
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -45,6 +47,8 @@ You must have the following access to perform the steps in this article:
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Overview of deleting and deactivating portfolios
 
 Consider the following when deciding whether to delete or deactivate portfolios:
@@ -67,14 +71,16 @@ When you deactivate a portfolio, you can still access it from the [!UICONTROL Po
 >
 >Depending on how your [!DNL Workfront] or group administrator configures your layout template, the [!UICONTROL Portfolios] area might not display in the [!UICONTROL Main Menu]. For more information, see [Customize the Main Menu using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner.
+{{step1-click-main-menu}}
+
 1. Click **[!UICONTROL Portfolios]** .
 1. Click the name of the portfolio.
 1. Click the **More** menu ![](assets/more-icon.png) to the right of the portfolio name, then click **[!UICONTROL Deactivate Portfolio]**.
 
 ## Delete a portfolio
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner.
+{{step1-click-main-menu}}
+
 1. Click **[!UICONTROL Portfolios]** .
 1. Select the portfolio, then click **[!UICONTROL Delete]**&#x200B;the [!UICONTROL Delete] icon ![](assets/delete.png).
-1. In the box that appears, click **[!UICONTROL Yes, Delete It]** to confirm.
+1. Click **[!UICONTROL Yes, Delete It]** to confirm.

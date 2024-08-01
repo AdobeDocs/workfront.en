@@ -28,7 +28,9 @@ You can share a view with the following entities:
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
++++ Expand to view access requirements for Workfront Planning. 
+
+<!--at GA the plan below will change to Prime, Select and Ultimate only-->
 
 <table style="table-layout:auto">
  <col>
@@ -55,32 +57,37 @@ You must have the following access to perform the steps in this article:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>Any</p> 
+   <p>New: Standard</p>
+   Or
+   <p>Current: Plan </p> 
   </td>
   </tr>
   
   <tr>
    <td role="rowheader"><p>Access level configurations</p></td>
-   <td> There are no access controls for Adobe Workfront Planning </p>  
+   <td> There are no access controls for Adobe Workfront Planning</p>  
 </td>
   </tr>
 
   <tr>
-   <td role="rowheader"><p>Object permissions</p></td>
+   <td role="rowheader"><p>Permissions</p></td>
    <td> <p>Manage permissions to a view</p>  
-    
 </td>
   </tr>
 
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p> 
 </td>
   </tr>
  </tbody>
 </table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Share permissions to a view <!--internally-->
 
@@ -124,6 +131,10 @@ You can share views you created or views you have Manage permissions to <!--with
 1. Click **Copy link** to copy a link to the view to your clipboard. 
 1. Share the copied link with others. Users who receive the link must be active users and log in to Workfront to be able to access the record type page and display it in the selected view. 
 1. Click **Save**.
+
+   >[!TIP]
+   >
+   >   Views shared with you have a people indicator ![](assets/view-shared-with-others-people-icon.png) next to the view icon. Views without the people indicator are views you created. 
 
 <!--
 ## Share permissions to a view publicly

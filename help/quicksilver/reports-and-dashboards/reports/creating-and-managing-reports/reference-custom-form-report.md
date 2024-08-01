@@ -46,7 +46,7 @@ You must have the following access to perform the steps in this article:
 
 The custom form must exist before you can reference it in a report.
 
-For more information on creating custom forms, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+For more information on creating custom forms, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Reference the content of custom forms
 
@@ -55,7 +55,7 @@ You can reference fields within custom forms. After a custom form is applied to 
 >[!NOTE]
 >
 >For fields that have multiple options, all options are available in the Filters and Prompts of the report, including those which are hidden.   
->For more information about hiding choices from a custom field with multiple options, see the article [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+>For more information about hiding choices from a custom field with multiple options, see the article [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 When creating the report, simply use the object type of the form as the field source, and use the name of the custom field as the field name.
 

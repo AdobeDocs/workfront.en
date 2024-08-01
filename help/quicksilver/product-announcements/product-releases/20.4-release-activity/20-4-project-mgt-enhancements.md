@@ -21,8 +21,6 @@ Up until now, when you created a custom field, it was editable by everyone in th
 
 Also, to make this experience familiar for you, we've designed the user interface for this capability to be similar to other object areas sharing throughout Workfront.
 
-For more information, see [Configure sharing for custom fields and widgets](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md).
-
 ## New for administrators: Standardized Custom Form sharing
 
 We have standardized sharing for Custom Forms so you can use the same Workfront object sharing process you already know. And the new sharing experience gives you greater control over who can edit, delete, and use Custom Forms you create. You can limit sharing for a Custom Form to certain users, roles, teams, groups, and companies. And you can determine whether those recipients can view or manage the Custom Form.

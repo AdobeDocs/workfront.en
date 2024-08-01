@@ -17,7 +17,7 @@ A familiarity with the Workfront schema will assist you in understanding the dat
 
 ## Limits and Guidelines
 
-To ensure consistent Workfront on-demand system performance, each customer is limited to 10 concurrent API threads. The Sandbox environment has the same limit in place, allowing customers and partners to accurately test API calls before releasing code to production.
+To ensure consistent Workfront on-demand system performance, the Workfront API limits concurrent API threads. This guardrail prevents system problems caused by abusive API calls. The Sandbox environment has the same concurrent API thread limit in place, allowing customers and partners to accurately test API calls before releasing code to production.
 
 For production, preview, and test drive environments end user requests have a maximum URI length of 8892 bytes because they're being routed through the Workfront CDN (Akamai). This limit only applies to URIs that are routed through the CDN.
 
@@ -357,7 +357,7 @@ You can retrieve custom data fields using the prefix "DE:". For instance, to req
 #### Using&nbsp;Named Queries
 
 Some object types have named searches that are commonly executed and are available by appending the name of the query to the end of the object type URI. For example, the following request retrieves the work items (tasks and issues) to which the user is currently assigned:
-<pre>/attask/api/v15.0/work/myWork</pre>Named queries support requesting the fields parameter to retrieve additional fields. Some named queries accept additional filters as well. For a list of allowable named queries an object, see the Action tab for the object in the&nbsp; [API Explorer](../../wf-api/general/api-explorer.md).
+<pre>/attask/api/v15.0/work/myWork</pre>Named queries support requesting the fields parameter to retrieve additional fields. Some named queries accept additional filters as well. For a list of allowable named queries an object, see the Action tab for the object in the&nbsp; [API Explorer](https://developer.adobe.com/workfront/api-explorer/).
 
 #### Using `Count`
 
@@ -545,3 +545,4 @@ A bulk update statement updates multiple objects at the same time within a singl
 >[!NOTE]
 >
 >Atomic batch operations can only return "success: true" or an error.
+

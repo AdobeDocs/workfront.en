@@ -54,6 +54,13 @@
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
 
+## Form designer to GA {#form-designer-default}
+
+>[!IMPORTANT]
+>
+>The legacy form builder is no longer available as of the 24.7 release on July 18, 2024. The form designer is now the default experience for creating and editing custom forms in Adobe Workfront.
+>
+>For information, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Associate right group with team {#right-group-team}
 
@@ -242,6 +249,15 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Planning]**.
 
+   The Workfront Planning landing page opens. 
+    
+1. (Optional and conditional) If you are a Workfront administrator, click the following tabs:
+
+   * **My workspaces**: Displays workspaces you created.
+   * **Other workspaces**: Displays all workspaces in Workfront Planning, including the ones shared with you. 
+
+   For all other users, all workspaces you created or are shared with you display in the **Workspaces** area.
+ 
 ## Workfront Planning important intro - {#planning-important-intro}
 
 >[!IMPORTANT]
@@ -302,7 +318,7 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 
 ## Latest DPV Version {#latest-version}
 
-**Latest version**: 2.1.34 as of 3/06/2024
+**Latest version**: 2.1.35 as of 7/04/2024
 
 <!-- Release -->
 

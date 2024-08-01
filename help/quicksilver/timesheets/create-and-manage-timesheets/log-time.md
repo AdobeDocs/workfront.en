@@ -27,6 +27,8 @@ For more information about the type of hours you can log in Workfront, see [Mana
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article and log Project Specific hours:
 
 <table style="table-layout:auto"> 
@@ -61,6 +63,7 @@ You must have the following access to perform the steps in this article and log 
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
 
 ## Considerations when logging time in Workfront
 
@@ -109,7 +112,7 @@ You can log time to the following items in the timesheet:
 
 To log time on a timesheet: 
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner.
+{{step1-click-main-menu}}
 
 1. Click [!UICONTROL **Timesheets**]. Your current timesheet displays by default. 
    ![Timesheet](assets/timesheet-redesigned-nwe.png)
@@ -192,7 +195,7 @@ To log time on a timesheet:
    >   * Ctrl + Option + + for Windows computers 
    >   * Cmd + Option + + for Mac computers
    
-   Hour types are available depending on what has been defined at the system, project, and user levels, as described in [Define hour types and availability for timesheets](define-hour-types-and-availability.md).
+   Hour types are available depending on what has been defined at the system, project, and user levels, as described in [Define hour types and availability](define-hour-types-and-availability.md).
 
    The hour type cannot be changed after a timesheet is closed.
 
@@ -359,7 +362,7 @@ Additionally, to log time for an item in the My Work widget:
    ![](assets/log-time-home-350x181.png)  
 
 1. In the **Enter Hours** drop-down menu, select the appropriate hour type.  
-   Hour types are available depending on what has been defined at the system, project, and user levels, as described in [Define hour types and availability for timesheets](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+   Hour types are available depending on what has been defined at the system, project, and user levels, as described in [Define hour types and availability](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 1. (Conditional) If your Workfront or group administrator has enabled the **Assign job roles to hour entries manually** setting, select a job role from the drop-down menu. The role specified when you are assigned to the work item displays by default. If you are not assigned a role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 1. Specify the time you want to log, then click **Log Time**.
 
@@ -402,7 +405,7 @@ To log time in the Updates section of a project, task, or issue:
 
    * **Hour Type**: Select an Hour Type from the drop-down menu, if it is different from the one displayed by default.
 
-     Depending on what hour types are configured in your system, the options here might vary. For more information about configuring hour types, see [Define hour types and availability for timesheets](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+     Depending on what hour types are configured in your system, the options here might vary. For more information about configuring hour types, see [Define hour types and availability](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    * **Job Role**: (Conditional) If your Workfront or group administrator has enabled the **Assign job roles to hour entries manually** setting, select a **Job Role** from the drop-down menu. The Role specified when you are assigned to the object displays by default. If you are not assigned a Role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -439,7 +442,7 @@ To log time in the Hours section of a project, task, or issue:
    
    * **Hour Type**: Select an Hour Type from the drop-down menu, if it is different from the one displayed by default.
 
-     Depending on what hour types are configured in your system, the options here might vary. For more information about configuring hour types, see [Define hour types and availability for timesheets](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+     Depending on what hour types are configured in your system, the options here might vary. For more information about configuring hour types, see [Define hour types and availability](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    * **Job Role**: (Conditional) If your Workfront or group administrator has enabled the **Assign job roles to hour entries manually** setting, select a **Job Role** from the drop-down menu. The Role specified when you are assigned to the object displays by default. If you are not assigned a Role on the object, your Primary Role displays as the default. For more information on this setting, see the article [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
@@ -464,3 +467,36 @@ For more information, see [Use connected cards on boards](/help/quicksilver/agil
 
 You can log time from the Workfront mobile app.
 For more information, see [Adobe Workfront for Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) or [Adobe Workfront for iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).
+
+## Edit logged hours in lists and reports
+
+You can edit logged hours in the following areas:
+
+* All areas where you added the hours, including open timesheets
+* Hour lists and reports.
+
+You can edit the following elements of an hour entry when you edit an hour entry in a list or report:
+
+* Number of hours
+* Hour Type
+* Job role associated with the hour entry
+
+Depending on what type of hour entries you edit, the following fields are available for editing: 
+
+* When you edit project-specific hours:
+
+   * You can edit the number of hours.  
+   * You can change the Hour Type only to project-specific types.
+   * You can change the hour Job role assignment only if it was enabled in Setup. For information, see [Configure timesheet and hour preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) 
+
+* When you edit general hours: 
+
+   * You can edit the number of hours. 
+   * You can change the Hour Type only to general types. 
+   * You cannot change the hour Job role assignment, because general hours cannot be associated with roles. 
+
+* When you edit a mix of general and project-specific hours, in bulk: 
+
+   * You can edit the number of hours.
+   * You cannot change the Hour Type, because general hour types cannot be changed to project-specific types and project-specific hour types cannot be changed to general types. 
+   * You cannot change the Job role assignment, because general hours cannot be associated with roles. 

@@ -9,7 +9,16 @@ exl-id: f44e191c-edce-4387-8ab0-7a014d094a29
 ---
 # View content in a proof
 
+You can use the proofing viewer to view and markup files in Workfront.
+
+>[!NOTE]
+>
+>If your Workfront instance is on the Unified Experience, the proofing viewer opens in a new tab.
+
+
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -38,12 +47,14 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, role, or Proof Permission Profile you have, contact your Workfront or Workfront Proof administrator.
 
++++
+
 ## Change the view of your proof
 
 You can view a static proof that contains multiple pages in a single view, in a continues view, or in a magazine view.
 
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
-1. Find the proof you need, then click **Open proof**.
+1. Find the proof you need, then click **Open proof**. 
 
 1. In the upper-left area of the proofing viewer, locate the viewing options.   
    ![changing_the_view.png](assets/changing-the-view-350x213.png)

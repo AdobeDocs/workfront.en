@@ -25,6 +25,8 @@ The Journal Entry report can show:
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -52,17 +54,15 @@ You must have the following access to perform the steps in this article:
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Prerequisites
 
 Before you can perform the actions described in this article, you must make sure of the following:
 
-* Any fields that you want to report on are tracked in Workfront. You can only report on data from the Updates area that is tracked.
+* Any fields (including custom fields) that you want to report on are tracked in Workfront. You can only report on data from the Updates area that is tracked.
 
   To learn how to add fields that you want Workfront to track, see [Configure system updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-
-* Any custom fields that you want to report on have the setting **Display field changes in update feeds** enabled.
-
-  To learn how to enable this setting for a custom field, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#).
 
 ## Journal Entry report overview
 

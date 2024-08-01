@@ -12,12 +12,16 @@ exl-id: ba3b3525-cba8-44fe-856d-8ba50cd3b524
 
 <!-- Audited: 1/2024 -->
 
-The [!DNL Scenario Planner] requires a separate license in addition to the [!DNL Adobe Workfront] license.
-For information about the access needed to use the [!DNL Workfront Scenario Planner], see [Access needed to use the [!DNL Scenario Planner]](access-needed-to-use-sp.md). 
+The purpose of the [!DNL Workfront Scenario Planner] is to drive speed to execution for your organization-level plans and help you make crucial decisions that drive delivery of predictable, desired outcomes for your business.
+
+You must have the following [!DNL Workfront] plan to access the [!DNL Workfront Scenario Planner]:
+
+* For the new Workfront plan: An [!UICONTROL Ultimate] plan.
+* For the current [!DNL Workfront] plan: you must have a Business or higher plan, in addition to purchasing a [!DNL Scenario Planner] license. 
+
+For more information about the access needed to use the [!DNL Workfront Scenario Planner], see [Access needed to use the [!DNL Scenario Planner]](access-needed-to-use-sp.md). 
 
 ## [!DNL Scenario Planner] overview
-
-The purpose of the [!DNL Workfront Scenario Planner] is to drive speed to execution for your organization-level plans and help you make crucial decisions that drive delivery of predictable, desired outcomes for your business.
 
 Using the [!DNL Workfront Scenario Planner], you can build enterprise-level plans that outline your company's overall strategic outcomes. You can define several initiatives for a plan and place them in various scenarios to find the optimal solution for executing the plan.
 

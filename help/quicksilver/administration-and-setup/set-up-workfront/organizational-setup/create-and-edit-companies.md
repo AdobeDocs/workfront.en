@@ -19,6 +19,8 @@ A company is an organizational unit in [!DNL Adobe Workfront] that can represent
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following in order to manage companies in [!DNL Workfront]:
 
 <table style="table-layout:auto"> 
@@ -56,6 +58,8 @@ You must have the following in order to manage companies in [!DNL Workfront]:
 </table>
 
 &#42;To find out what plan, license type, or access level configurations you have, contact your [!DNL Workfront] administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Benefits of adding users to a company {#benefits-of-adding-users-to-a-company}
 
@@ -111,7 +115,7 @@ To add or edit a company:
      </tr>
      <tr> 
       <td role="rowheader">[!UICONTROL Custom Forms] section</td> 
-      <td> <p>If there are fields that you want to add to your company that are not available in [!DNL Workfront], you can build a custom form and associate it with your company. </p> <p>You can attach this form to your company by selecting it from the drop-down menu. Only active custom forms are listed in the menu.</p> <p><strong>Note:</strong> Advanced custom form features such as External Lookup fields and Workfront native fields are only available when you open the company record on the details page, not on the Edit Company dialog. (From the list of companies, click the company name to open the details.)</p> <p> For information about creating custom forms, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>. </p> </td>
+      <td> <p>If there are fields that you want to add to your company that are not available in [!DNL Workfront], you can build a custom form and associate it with your company. </p> <p>You can attach this form to your company by selecting it from the drop-down menu. Only active custom forms are listed in the menu.</p> <p><strong>Note:</strong> Advanced custom form features such as External Lookup fields and Workfront native fields are only available when you open the company record on the details page, not on the Edit Company dialog. (From the list of companies, click the company name to open the details.)</p> <p> For information about creating custom forms, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Design a form with the form designer</a>. </p> </td>
      </tr> 
     </tbody> 
    </table>

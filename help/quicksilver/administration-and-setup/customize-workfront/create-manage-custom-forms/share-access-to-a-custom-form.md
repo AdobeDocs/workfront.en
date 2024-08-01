@@ -11,8 +11,6 @@ exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
 ---
 # Share a custom form
 
-{{highlighted-preview}}
-
 You can configure access for a custom form to control who—person, role, group, team, company—can view, share, and edit it.
 
 ## Access requirements
@@ -103,8 +101,6 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
 
 1. Click **Save**.
 
-<div class="preview">
-
 ## Share a custom form from the form designer
 
 {{step-1-to-setup}}
@@ -154,8 +150,6 @@ Rather than leaving a custom form in the default sharing state (described in [Ac
    >If you are concerned about a custom form where users might enter sensitive data when it is attached to certain objects, limiting sharing for those *objects* might be better rather than limiting access to the form itself.
 
 1. Click **Save**.
-
-</div>
 
 ## Remove access to a custom form from the list of forms
 

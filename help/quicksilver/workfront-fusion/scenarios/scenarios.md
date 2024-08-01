@@ -21,7 +21,6 @@ This section contains the following articles:
 * [[!DNL Adobe Workfront Fusion] overview](../../workfront-fusion/scenarios/scenario-overview.md)
 * [Create a scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md)
 * [The scenario editor in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-editor.md)
-* [Basic scenario settings in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/basic-scenario-settings.md)
 * [The scenario settings panel in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-settings-panel.md)
 * [Scenario details in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-detail.md)
 * [Scenario execution flow in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md)

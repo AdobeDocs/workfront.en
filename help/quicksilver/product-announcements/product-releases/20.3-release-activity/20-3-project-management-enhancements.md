@@ -24,8 +24,6 @@ Now, when the system administrator creates custom forms fields that are configur
 
 Note that this functionality is available only in the updated lists. For more information about updated lists, see [Get started with lists in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-For information about how a Workfront administrator creates text fields with formatting, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-
 ## Updated look and feel of several global headers
 
 >[!NOTE]
@@ -107,5 +105,4 @@ To give you more flexibility in labeling and relabeling Custom Form fields, you 
 
 In the past, the label was both displayed above the field for users and used by the system to identify the field. So changing the label for users made the field malfunction wherever it was used because the system could no longer identify it.
 
-For more information, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 

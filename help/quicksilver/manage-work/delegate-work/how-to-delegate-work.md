@@ -3,7 +3,7 @@ filename: how-to-delegate-work
 navigation-topic: delegate-work
 title: Delegate tasks and issues
 description: You can temporarily delegate the work you are assigned to while you are out of the office. This article describes how to delegate task and issue assignments.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
 ---
@@ -25,6 +25,8 @@ You can delegate task and issue assignments, or you can delegate approvals. This
 For general information about delegating work, see [Delegate work overview](../../manage-work/delegate-work/delegate-work-overview.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 >[!IMPORTANT]
 >
@@ -73,6 +75,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 <!--note from the table for Object permissions:
      <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Contribute or higher permissions to the projects where you are designated as the Project&nbsp;Owner (NOTE:&nbsp;you cannot delegate projects yet)</p>

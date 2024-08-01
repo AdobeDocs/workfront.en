@@ -13,7 +13,7 @@ exl-id: 605d47e4-fcb7-4635-a4c9-bbb34e1f73b1
 This section contains the following articles:
 
 * [Create, edit, and assign timesheet profiles](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md) 
-* [Define hour types and availability for timesheets](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md) 
+* [Define hour types and availability](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md) 
 * [Create a single-use timesheet](../../timesheets/create-and-manage-timesheets/create-tmshts.md) 
 * [Edit timesheet information](../../timesheets/create-and-manage-timesheets/edit-timesheets.md) 
 * [Log time](../../timesheets/create-and-manage-timesheets/log-time.md) 
