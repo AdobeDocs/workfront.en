@@ -18,7 +18,7 @@ You can create records by doing one of the following:
 
 * Add them from the record type page
 * Copy and paste a list of records from an external list
-<!--* Duplicate them-->
+* Duplicate them
 
 This article describes how you can create records. For information about managing records in the table or timeline views, see the following articles:
 
@@ -113,7 +113,8 @@ For information about editing record information, see [Edit records](/help/quick
 
         * Click **New record** in the last row of the table 
 
-        * Click **Shift + Enter** on your keyboard from any column or row of the table. This ads an empty row. 
+        * Click **Shift + Enter** on your keyboard from any column or row of the table. This adds an empty row under the record you start from. 
+        * Hover over a record's primary field, click the **More** menu ![](assets/more-menu.png) to the right of the field, then click **Insert record above** or **Insert record below**. 
 
         ![](assets/adding-a-new-campaign-in-table-row.png)
 
@@ -204,6 +205,6 @@ You can import records from other applications by linking them to existing recor
     * The columns populate information for the fields of the records.
 
 
-<!--## Create records by duplicating them
+## Create records by duplicating them
 
-For information about duplicating records, see [Duplicate records](/help/quicksilver/planning/records/copy-or-duplicate-records.md). -->
+For information about duplicating records, see [Duplicate records](/help/quicksilver/planning/records/copy-or-duplicate-records.md).

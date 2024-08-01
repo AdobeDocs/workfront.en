@@ -9,7 +9,6 @@ recommendations: noDisplay, noCatalog
 # Duplicate records
 
 <!--update the metadata after GA-->
-<!--add to TOC and miniTOC-->
 
 {{planning-important-intro}}
 
@@ -102,7 +101,7 @@ You can create records in the table view of a record type page by duplicating an
 
         ![](assets/more-menu-from-record-in-table-view.png)
 
-    * Select a record, then click the **Duplicate** icon ![](assets/duplicate-icon-white-and-blue.png) in the toolbar to the bottom of the table view. 
+    * Select a record, then click the **Duplicate** icon ![](assets/duplicate-icon-white-and-blue.png) in the toolbar to the bottom of the page. 
 
         ![](assets/duplicate-icon-in-toolbar-in-table-view.png)
 
