@@ -87,7 +87,7 @@ You must have the following:
     </tbody>
    </table>
 
-1. (Optional) Use the **Undo** link to remove the users added through a group, team, company or job role.
+1. (Optional) Use the **Undo** link to remove the users added through a group, team, company or job role. <span class="preview">(The Undo function is temporarily unavailable in the Preview environment.)</span>
 
    >[!NOTE]
    >
