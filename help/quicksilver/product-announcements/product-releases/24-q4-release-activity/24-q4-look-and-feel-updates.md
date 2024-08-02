@@ -22,6 +22,16 @@ The Delete user and Deactivate user confirmation messages that users see when de
 
 For information on deleting and deactivating users, see [Delete users](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/delete-a-user.md) and [Deactivate or reactivate a user](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 
+## Look-and-feel updates for the Resource Pools page
+
+>[!NOTE]
+>
+>Preview release: August 1, 2024; Production for fast release: With the 24.8 release (August 2024); Production for quarterly release: With the 24.10 release (October 2024)
+
+We have updated the Resource Pools page with a more modern design that is consistent with other areas of Workfront.
+
+For information, see [Create resource pools](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
+
 ## Look-and-feel update for Delete Task message
 
 >[!NOTE]
@@ -31,17 +41,6 @@ For information on deleting and deactivating users, see [Delete users](/help/qui
 The Delete Task confirmation message that users see when deleting a task has been updated to a more modern design that is consistent with other areas of Workfront.
 
 For information on deleting a task, see [Delete tasks](/help/quicksilver/manage-work/tasks/manage-tasks/delete-tasks.md).
-
-
-## Look-and-feel updates for the Resource Pools page
-
->[!NOTE]
->
->Preview release: July 25, 2024; Production for fast release: With the 24.8 release (August 2024); Production for quarterly release: With the 24.10 release (October 2024)
-
-We have updated the Resource Pools page with a more modern design that is consistent with other areas of Workfront.
-
-For information, see [Create resource pools](/help/quicksilver/resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
 
 ## Look-and-feel updates for the Notifications page
 
