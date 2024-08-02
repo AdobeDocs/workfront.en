@@ -33,12 +33,9 @@ The released features are listed in the order of their release, with the most re
 
 Workfront Planning has temporarily been removed from the Preview and Sandbox environments since January 2024. All features documented in this articles are currently available in Production.  
 
-<!--
 ### Share Workfront Planning views publicly
 
-(***************ensure this is available for *********ALL************** the views and not just the table---***********)
-
-Production: <date>
+Production: August 2, 2024
 
 Preview: To be determined 
 
@@ -52,7 +49,7 @@ The following capabilities are included with this update:
 
 * People that access the view from the public link cannot create other views, edit the shared view, or add, delete, or edit record information.  
 
-For more information, see [Share views](/help/quicksilver/planning/access/share-views.md). -->
+For more information, see [Share views](/help/quicksilver/planning/access/share-views.md). 
 
 ## Week of July 29, 2024
 
