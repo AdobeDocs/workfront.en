@@ -118,7 +118,7 @@ The following are the levels of permissions for records:
 
 |        | Manage | Contribute | View  |
 |--------|--------|------------|-------|
-| Create | ✓      |            |       |
+| Create | ✓      |     ✓       |       |
 | Delete | ✓      |     ✓       |       |
 | Edit   | ✓      |    ✓        |       |
 | View   | ✓      | ✓          | ✓     |
