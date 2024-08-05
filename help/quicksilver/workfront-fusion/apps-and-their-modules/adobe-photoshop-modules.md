@@ -257,7 +257,7 @@ This action module applies a variety of document and layer level edits.
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>Select the file service where the you want the new file to be stored.</p>
+        <p>Select the file service where the you want the new file to be stored.</p><p>Selecting Fusion internal storage makes the file available for later modules, but does not make the file available outside of the scenario.</p>
       </td>
     </tr>
     <tr>
@@ -316,7 +316,7 @@ This action module auto color corrects the specified image.
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>Select the file service where the you want the new file to be stored.</p>
+        <p>Select the file service where the you want the new file to be stored.</p><p>Selecting Fusion internal storage makes the file available for later modules, but does not make the file available outside of the scenario.</p>
       </td>
     </tr>
     <tr>
@@ -380,7 +380,7 @@ This action module converts a file to JPEG, PNG, PSD or TIFF.
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>Select the file service where the you want the new file to be stored.</p>
+        <p>Select the file service where the you want the new file to be stored.</p><p>Selecting Fusion internal storage makes the file available for later modules, but does not make the file available outside of the scenario.</p>
       </td>
     </tr>
     <tr>
@@ -439,7 +439,7 @@ This action module returns a PNG file with a mast applied around the subject.
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>Select the file service where the you want the mask file to be stored.</p>
+        <p>Select the file service where the you want the mask file to be stored.</p><p>Selecting Fusion internal storage makes the file available for later modules, but does not make the file available outside of the scenario.</p>
       </td>
     </tr>
     <tr>
@@ -618,7 +618,7 @@ This action module executes Photoshop actions using JSON commands.
     <tr>
       <td role="rowheader">[!UICONTROL Outputs file storage]</td>
       <td>
-        <p>Select the file service where the you want the edited file to be stored.</p>
+        <p>Select the file service where the you want the edited file to be stored.</p><p>Selecting Fusion internal storage makes the file available for later modules, but does not make the file available outside of the scenario.</p>
       </td>
     </tr>
     <tr>
@@ -1016,14 +1016,14 @@ This action module identifies the main subject of your image and removes the bac
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>Select the file service where the you want the new file to be stored. This is only necessary if you have not chosen Fusion internal storage for the output storage.</p>
+        <p>Select the file service where the you want the new file to be stored.</p><p>Selecting Fusion internal storage makes the file available for later modules, but does not make the file available outside of the scenario.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Output) File location]</p>
       </td>
-   <td> Enter or map the URL or path of where the new file will be stored. </td> 
+   <td> Enter or map the URL or path of where the new file will be stored.  This is only necessary if you have not chosen Fusion internal storage for the output storage.</td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Overwrite]</td>
@@ -1111,14 +1111,14 @@ This action module replaces a Smart Object within a PSD layer, and generates new
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>Select the file service where the you want the new file to be stored. This is only necessary if you have not chosen Fusion internal storage for the output storage.</p>
+        <p>Select the file service where the you want the new file to be stored.</p><p>Selecting Fusion internal storage makes the file available for later modules, but does not make the file available outside of the scenario.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Output) File location]</p>
       </td>
-   <td> Enter or map the URL or path of where the new file will be stored. </td> 
+   <td> Enter or map the URL or path of where the new file will be stored.  This is only necessary if you have not chosen Fusion internal storage for the output storage.</td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -1158,7 +1158,7 @@ This action resizes an image, using the same aspect ratio.
     <tr>
       <td role="rowheader">[!UICONTROL Storage]</td>
       <td>
-        <p>Select the file service where the file you want to resize is stored.</p>
+        <p>Select the file service where the file you want to resize is stored.</p><p>Selecting Fusion internal storage makes the file available for later modules, but does not make the file available outside of the scenario.</p>
       </td>
     </tr>
     <tr>
@@ -1268,7 +1268,7 @@ This action module adds a watermark to the selected image.
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>Select the file service where the you want the watermarked file to be stored.</p>
+        <p>Select the file service where the you want the watermarked file to be stored.</p><p>Selecting Fusion internal storage makes the file available for later modules, but does not make the file available outside of the scenario.</p>
       </td>
     </tr>
     <tr>
