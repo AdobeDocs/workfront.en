@@ -4,7 +4,7 @@ navigation-topic: get-started-with-workfront
 title: Supported languages in Adobe Workfront
 description: You can change the language in which you display Adobe Workfront and emails coming from Workfront, by adjusting the language preferences on your browser and your default Email Locale within Workfront.
 feature: Get Started with Workfront
-author: Caroline
+author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
 ---
 # Supported languages in Adobe Workfront
@@ -110,7 +110,7 @@ The browser language must be changed on an individual user basis.
 
 See the "Help" menu for your browser for specific information about how to change the language of your browser.
 
-## Change the Adobe Experience Cloud language
+### Change the Adobe Experience Cloud language
 
 If your organization is on IMS, your Adobe Experience Cloud profile language determines the language that displays in Workfront. 
 
@@ -143,6 +143,10 @@ To change the default Workfront Email Locale:
 ### Change the User Email Locale {#change-the-user-locale}
 
 When changing your User Email Locale, you modify the language, date, and number format used in your outgoing messages. These settings override the system settings selected in the Customer Info area of Setup.
+
+>[!NOTE]
+>
+>When your organization is on the Adobe Unified Experience, language preferences are stored in your Adobe profile and the email locale is not used. See [Change the Adobe Experience Cloud language](#change-the-adobe-experience-cloud-language) in this article.
 
 To change your User Email Locale:
 
