@@ -3,17 +3,13 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: business rules
 title: Create and edit business rules
-description: You can select whether you want to receive new Workfront functionality on a monthly or quarterly basis.
+description: A business rule allows you to apply validation to Workfront objects and prevent users from creating, editing, or deleting an object when certain conditions are met. Business rules help to improve data quality and operational efficiency by preventing actions that could compromise data integrity.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
 ---
 # Create and edit business rules
-
->[!IMPORTANT]
->
->Business rules are temporarily unavailable.
 
 A business rule allows you to apply validation to Workfront objects and prevent users from creating, editing, or deleting an object when certain conditions are met. Business rules help to improve data quality and operational efficiency by preventing actions that could compromise data integrity.
 

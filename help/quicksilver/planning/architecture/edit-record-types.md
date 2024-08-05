@@ -125,8 +125,8 @@ Record types are the object types of Adobe Workfront Planning. You can edit the 
    >
    >   You can rename the record type in the header.  
 
-    ![](assets/more-menu-options-from-record-details-page.png) 
-    
+    ![](assets/more-menu-options-from-record-type-page.png)
+   
     <!--check this screen shot - not sure this is valid ???-->
 
 1. (Optional) To edit another record type, expand the downward-pointing arrow to the right of a record type name, search for a record type, then select it when it displays in the list. 
