@@ -33,7 +33,7 @@ As a Workfront Administrator, you can control which users in your organization h
    <td role="rowheader">Adobe Workfront license</td> 
    <td><p>New: Standard</p>
        <p>or</p>
-       <p>Current: Plan</p></td>
+       <p>Current: Not available</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
