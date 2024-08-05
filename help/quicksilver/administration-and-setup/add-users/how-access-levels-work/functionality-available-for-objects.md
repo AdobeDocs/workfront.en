@@ -36,7 +36,7 @@ It also indicates which actions Workfront administrators can disable or enable u
 | Add document                 | ✓        | ✓      | &nbsp;      | &nbsp;        |
 | Add issue                    | ✓        | ✓      | &nbsp;      | &nbsp;        |
 | Add tasks                    | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Give updates/comments        | ✓        | ✓      | &nbsp;      | &nbsp;        |
+| Give updates/comments        | ✓        | ✓      | ✓      | &nbsp;        |
 | Change status                | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Log hours                    | ✓        | ✓      | &nbsp;      | &nbsp;        |
 | Edit assignments             | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
@@ -83,7 +83,7 @@ It also indicates which actions Workfront administrators can disable or enable u
 | Edit finances                  | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Add/edit expenses              | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | View finance                   | ✓        | ✓      | &nbsp;      | &nbsp;        |
-| Add updates/comments           | ✓        | ✓      | &nbsp;      | &nbsp;        |
+| Add updates/comments           | ✓        | ✓      | ✓      | &nbsp;        |
 
 {style="table-layout:auto"}
 
