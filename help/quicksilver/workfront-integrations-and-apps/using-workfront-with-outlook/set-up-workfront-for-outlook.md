@@ -134,12 +134,11 @@ You can get the Workfront add-in for Outlook from the [Microsoft store](https://
 ## Log in to [!DNL Workfront] from [!DNL Outlook]
 
 1. In [!DNL Outlook], select an email message, then click the **[!DNL Workfront]** icon in the email header.
-1. Follow the prompts to log in to [!DNL Workfront] using Enhanced Authentication, OAuth 2.0, or your Security Assertion Markup Language (SAML) URL.
-
-   Before users can log in to the [!DNL Workfront] add-in using SAML, a [!DNL Workfront] administrator must first enable [!DNL Office 365] add-ins to authenticate using a SAML 2.0 solution. For more information, see the section [Configure [!DNL Adobe Workfront] with SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md#enable-saml-with-office-365) in the article [Configure [!DNL Adobe Workfront] with SAML 2.0](../../administration-and-setup/add-users/single-sign-on/configure-workfront-saml-2.md).
+1. On the login page, click **Log in to Workfront**.
+1. Follow the prompts to log in to [!DNL Workfront] using OAuth 2.0.
 
    >[!NOTE]
    >
-   >* When you are prompted to enter the domain of your [!DNL Workfront] account, type it using this format: *yourCompany'sDomain.my.workfront.com*. Your company's domain is usually the name of your company.
-   >* Enhanced Authentication is not available until a [!DNL Workfront] administrator enables it for this integration.
+   >* Uf you are prompted to enter the domain of your [!DNL Workfront] account, type it using this format: *yourCompany'sDomain.my.workfront.com*. Your company's domain is usually the name of your company.
+
 
