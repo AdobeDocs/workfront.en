@@ -47,10 +47,6 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Click **Custom Forms** in the left panel.
 
-   <!-- >[!TIP]
-    >
-    >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
-
 1. Click **New Custom Form.**
 1. Select which object types you'd like to attach the custom form to, then click **Continue**.
 
@@ -70,6 +66,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Next, you can start adding fields to your custom form. See the following sections:
     * [Reuse an existing field or widget already used in another custom form](#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
+    * [Notes on field names and labels](#notes-on-field-names-and-labels)
     * [Add text fields](#add-text-fields)
     * [Add calculated fields](#add-calculated-fields)
     * [Add radio buttons, checkbox groups, and dropdowns](#add-radio-buttons-checkboxes-and-dropdowns)
@@ -81,9 +78,9 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Add new or existing fields to your custom form
 
-You can use new or existing fields when designing your custom form. 
+You can use new or existing fields when designing your custom form.
 
-## Reuse an existing field or widget already used in another custom form
+### Reuse an existing field or widget already used in another custom form
 
 1. On the top-left side of the screen, click **Field library**.
 
@@ -102,6 +99,39 @@ You can use new or existing fields when designing your custom form.
     or
 
     Click **Save and Close**. 
+
+### Notes on field names and labels
+
+The **label** is available for most fields. It is a descriptive label that appears above the field or widget on the custom form. You can change the label at any time.
+
+>[!NOTE]
+>
+>Avoid using special characters in this label. They don't display correctly in reports.
+
+A **name** is required for every field. This name is how the system identifies the field. When you are configuring the field or widget for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.
+
+>[!NOTE]
+>
+>Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the custom field where it might now be referenced in other areas of Workfront.
+>For example, if you add the custom field to a report and later change its name, Workfront doesn't recognize it in the report and it will stop functioning correctly there unless you re-add it to the report using the new name.
+>
+>We recommend that you do not type a name that is already used for built-in Workfront fields.
+>
+>We recommend that you do not use the period/dot character in the custom field name, to prevent errors when using the field in different areas of Workfront.
+
+The following special characters are not supported in custom field labels and names.
+
+* \t
+* \n
+* \r
+* \f
+* \[
+* \]
+* (
+* )
+* :
+* \{
+* \}
 
 ### Add text fields
 
@@ -152,7 +182,7 @@ To add a text field:
     <li>Single line text</li>
     <li>Paragraph text</li>
     <li>Text with formatting</li>
-    <li>Descriptive text - Coming soon</li>
+    <li>Descriptive text</li>
     </ul></td>
     </tr>
     <tr>
