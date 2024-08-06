@@ -41,11 +41,8 @@ You must have the following access to perform the steps in this article and log 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>New: 
-   <ul><li>Light or higher to log General Hours in a timesheet</li>
-   <li>Standard to log hours on a project, task, or issue</li></ul> 
-
-
+   <td> <p>New: </p>
+   <p>Light or higher to log hours on a project, task, issue, or General Hours on a timesheet</p>
    <p>Current: 
    <ul><li>Review or higher to log General Hours in a timesheet</li>
    <li>Work or higher to log hours on a project, task, or issue</li></ul> </td> 
@@ -470,6 +467,13 @@ For more information, see [Adobe Workfront for Android](/help/quicksilver/workfr
 
 ## Edit logged hours in lists and reports
 
+>[!CAUTION]
+>
+>* You cannot modify hour entries that belong to a closed timesheet. You must first re-open the timesheet, and then change the hour entry information.
+>* When you change the Hour Type from an type that does not count as revenue to another type that counts as revenue, changes to the project's finances also occur. Changing Hour Types from a type that counts as revenue to a type that does not count as revenue updates the project's finances, as well. 
+>
+>For information, see [Manage hour types](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md). 
+>
 You can edit logged hours in the following areas:
 
 * All areas where you added the hours, including open timesheets
