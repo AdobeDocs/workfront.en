@@ -15,9 +15,9 @@ There are some key differences in the workflow when using new document approvals
 
 * Decision buttons do not appear in viewer 
 
-* Participants are shown in summary, not proofing workflow 
+* Participants are shown in document Summary, not proofing workflow 
 
-* SOC is proofing related and does not reflect the decision
+* SOCD is proofing related and does not reflect the decision status of the document
 
 * Setting to auto add people to proof disabled 
 
@@ -25,8 +25,6 @@ There are some key differences in the workflow when using new document approvals
 
 
 ## Upload a document and create a proof 
-
-To add a document:
 
 1. Go to the project, task, or issue where you want to add a new document.
 1. Click the **Documents** tab, then click the **Add New** drop-down. menu
@@ -37,19 +35,14 @@ Drag and drop the document into the document list.
    >
    >If you have **Automatically generate proofs when uploading documents** enabled in your user profile, the system automatically creates a simple proof.
 
-1. Hover over the document, then click the **Create Proof** link that appears below the document name.
+1. Hover over the document, then click the **Create Proof** link that appears below the document name, and select **Simple Proof**. You need to create a simple proof because you will not use the proofing workflow for approvals. 
 
-  
+## Open doc summary and assign reviewers and approvers 
 
+1. Select the document you uploaded and open the document Summary.
+    ![](assets/open-doc-summary.png)
 
-Open doc summary and assign reviewers and approvers 
-
-Create a new version 
-
-    Add previous reviewers 
-
-    See past versions in summary 
-
+1. Scroll down to the Approvals section, then click **Add**.
  
 
 ## Review the proof and make a decision 
@@ -61,5 +54,13 @@ Make comments
 Make decision 
 
 Close proof > open summary 
+
+
+## Create a new version 
+
+    Add previous reviewers 
+
+    See past versions in summary 
+
 
  
