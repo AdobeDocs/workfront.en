@@ -125,13 +125,13 @@ The following special characters are not supported in custom field labels and na
 * \n
 * \r
 * \f
-* \[
-* \]
+* `[`
+* `]`
 * (
 * )
 * :
-* \{
-* \}
+* `{`
+* `}`
 
 ### Add text fields
 
