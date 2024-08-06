@@ -74,3 +74,7 @@ You must have the following access to perform the steps in this article:
 1. (Optional) If you need the measurement area to be an exact size, type **Selection size** values.
 1. (Optional) If you need to measure a certain percentage within an area, check the calculate percentage box. A new box appears allowing you to adjust it  
    ![](assets/calculate-percentage-350x230.png)
+
+1. Click the **Measure an area** icon at the top of the proofing viewer to dismiss the tool when you are finished.
+
+   ![measurement_tool_button.png](assets/measurement-tool-button-350x128.png)
