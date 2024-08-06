@@ -75,16 +75,16 @@ The following image shows a typical setup of the [!UICONTROL Aggregator] module 
  <tbody> 
   <tr> 
    <td> <p>[!UICONTROL Source Module]</p> </td> 
-   <td> <p>The module from which the bundle aggregation will start. The source module is usually an iterator or a search module that outputs a series of bundles. When you setup the aggregator's source module (and close the aggregator's setup), the route between the source module and the aggregator module are wrapped in a grey area so that you can see clearly the start and the end of the aggregation. 
+   <td> <p>The module where the bundle aggregation starts. The source module is usually an iterator or a search module that outputs a series of bundles.</p><p>When you setup the aggregator's source module (and close the aggregator's setup), the route between the source module and the aggregator module are wrapped in a grey area so that you can see clearly the start and the end of the aggregation. 
    </p> <p>For more information on iterators, see <a href="../../workfront-fusion/modules/iterator-module.md" class="MCXref xref">[!UICONTROL Iterator] module in [!DNL Adobe Workfront Fusion]</a></p> <p>For more information on search modules see search modules in <a href="../../workfront-fusion/modules/module-types.md" class="MCXref xref">Types of modules</a>.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Target structure type]</p> </td> 
-   <td> <p>(Applicable only for the [!UICONTROL Array aggregator] module.) The target structure into which the data shall be aggregated. The default option, [!UICONTROL Custom], enables you to choose items that should be aggregated into the A[!UICONTROL rray aggregator]'s output bundle's <code>Array </code>item:</p> <p> <img src="assets/output-bundle's-array-item-350x213.png" style="width: 350;height: 213;"> </p> <p>Once you connect more modules after the [!UICONTROL Array aggregator] module and get back to the module's setup, the [!UICONTROL Target] structure type dropdown will contain all following modules and their fields that are of type Array of Collections, as shown in the [!UICONTROL Attachments] field of the [!DNL Slack] >[!UICONTROL Create a Message] module:</p> <p> <img src="assets/array-aggregator-slack-350x253.png" style="width: 350;height: 253;"> </p> </td> 
+   <td> <p>(Applicable only for the [!UICONTROL Array aggregator] module.) The target structure where the data is aggregated. The default option, [!UICONTROL Custom], enables you to choose items that should be aggregated into the [!UICONTROL Array aggregator]'s output bundle's <code>Array </code>item:</p> <p> <img src="assets/output-bundle's-array-item-350x213.png" style="width: 350;height: 213;"> </p> <p>Once you connect more modules after the [!UICONTROL Array aggregator] module and get back to the module's setup, the [!UICONTROL Target] structure type drop-down menu will contain all following modules and their fields that are `Array of Collections` type, as shown in the [!UICONTROL Attachments] field of the [!DNL Slack] >[!UICONTROL Create a Message] module:</p> <p> <img src="assets/array-aggregator-slack-350x253.png" style="width: 350;height: 253;"> </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Aggregated fields]</td> 
-   <td>Select the fields that you want to include in the aggregator module output.</td> 
+   <td>The fields that you want to include in the aggregator module output.</td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Group by]</p> </td> 
