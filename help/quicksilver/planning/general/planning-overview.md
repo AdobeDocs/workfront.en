@@ -81,6 +81,7 @@ For information about new features and when they are released, see [Adobe Workfr
 |     Update the layout of the record's page              |    ✓                           |                                 |                  |
 |  Share workspaces | ✓| |  |
 |  Share views |✓ | |  |
+|  Share views publicly with external resources |✓ | |  |
 |  Duplicate views |✓ | |  |
 |     Submit requests                                |                               |                                  |   ✓              |
 |     Creative brief                                 |                               |                                  |   ✓              |

@@ -148,3 +148,11 @@ For information about the maintenance updates made during the Fourth Quarter 202
 ### Training updates
 
 Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the "What's New" section of the [Workfront Tutorials page](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
+
+### Functionality soon to be removed from Workfront
+
+The following functionality is soon to be removed from Workfront:
+
+#### Deprecation of the legacy Home experience with 24.10
+
+We will be officially deprecating the legacy Home experience with the 24.10 release. Users are encouraged to begin using new Home, which will continue to be enhanced with additional features prior to the deprecation. More information about the transition, including what users and administrators can do to prepare, is forthcoming.
