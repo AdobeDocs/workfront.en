@@ -22,7 +22,7 @@ For information about tagging others in a record comment, see [Manage record com
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
++++ Expand to view access requirements for Workfront Planning. 
 
 <table style="table-layout:auto">
  <col>
@@ -76,6 +76,7 @@ You must have the following access to perform the steps in this article:
  </tbody>
 </table>
 
++++
 
 ## Manage email notifications
 

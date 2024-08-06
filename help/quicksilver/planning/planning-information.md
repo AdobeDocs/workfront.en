@@ -52,6 +52,8 @@ Access the following articles for an overview of the new Workfront Planning:
 
 * [Adobe Workfront Planning modules for Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md): With the Adobe Workfront Planning modules, you can trigger a scenario when events occur in Workfront Planning. You can also create, read, update, and delete records, or perform a custom API call to your Adobe Workfront Planning account.
 
+* [Adobe Workfront Planning API basics](/help/quicksilver/planning/general/planning-api-basics.md): The goal for the Adobe Workfront Planning API is to simplify building integrations with Planning by introducing a REST-ful architecture that operates over HTTP.
+
 ## Workfront Planning architecture and functionality
 
 The following sections contain articles that describe in detail the features currently available for Workfront Planning: 
@@ -81,6 +83,7 @@ The following sections contain articles that describe in detail the features cur
     * Create, edit, and delete records
     * Connect records
     * Add a cover image or a thumbnail to a record 
+    * Manage the layout of a record page
     * Record comments and History section
     * Share records
     * Workfront Planning section for Workfront objects

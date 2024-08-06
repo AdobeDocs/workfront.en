@@ -15,6 +15,8 @@ You can add or reply to updates on a document to communicate with collaborators 
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following:
 
 <table style="table-layout:auto"> 
@@ -44,6 +46,8 @@ You must have the following:
 </table>
 
 *To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Add or reply to an update for a document
 

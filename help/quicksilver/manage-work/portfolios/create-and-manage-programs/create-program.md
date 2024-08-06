@@ -26,7 +26,7 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
 
-   <td> <p>New: Any</p><p>Or</p><p>Current: [!UICONTROL Business] or higher</p> </td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license</td> 

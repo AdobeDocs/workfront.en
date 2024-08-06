@@ -2,14 +2,14 @@
 content-type: reference
 product-area: documents
 navigation-topic: review-proofs-within-workfront
-title: Review a proof
+title: "Review a proof: article index"
 description: View content in a proof
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 9fbdf8a3-eebc-4ad3-9ad9-7d8ad782b929
 ---
-# Review a proof
+# Review a proof: article index
 
 * [View content in a proof](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md) 
 * [Measure an area within a proof](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md) 

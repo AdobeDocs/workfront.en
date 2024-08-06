@@ -317,7 +317,7 @@ The following terms are used in reference to Workfront reports:
   </tr> 
   <tr> 
    <td>Fields</td> 
-   <td> <p>Refers to the attributes of your objects. For example, "Status" is a field for Projects, Tasks, or Issues. "Portfolio Manager" is a field for the Portfolio object.</p> <p>You can also have custom fields that you create yourself and add to custom forms.<br>For information about creating custom forms, see the article <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</p> </td> 
+   <td> <p>Refers to the attributes of your objects. For example, "Status" is a field for Projects, Tasks, or Issues. "Portfolio Manager" is a field for the Portfolio object.</p> <p>You can also have custom fields that you create yourself and add to custom forms.<br>For information about creating custom forms, see the article <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Design a form with the form designer</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>Field Name </td> 

@@ -1,11 +1,11 @@
 ---
 title: Adobe Workfront Planning release activity archives for 2023
-description: Adobe Workfront Planning capabilities are currently available to select Workfront customers. Review this article often to learn about the features recently released for the planning capabilities. 
+description: Adobe Workfront Planning capabilities are currently available to select Workfront customers. Review this article often to learn about the features recently released for the planning capabilities.
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
 ---
-
 # Adobe Workfront Planning release activity archives for 2023
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->

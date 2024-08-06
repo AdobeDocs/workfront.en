@@ -300,9 +300,9 @@ The integration between Workfront and Experience Manager Assets or Assets Essent
 
 [!DNL Workfront] has many partner integrations  enrich your [!DNL Workfront] experience.
 
-Examples of existing partner offerings include integrations with [!DNL Salesforce.com], [!DNL Oracle Responsys], and [!DNL Microsoft Visual Studio]. 
+Workfront has many partner integrations that enrich your Workfront experience. Examples of existing partner offerings include integrations with Claravine, RWS Group, and more. 
 
-For more information about these and other partner integrations, see the [[!DNL Workfront] Marketplace](https://www.workfront.com/enterprise/marketplace/apps/).
+For more information about these and other partner integrations, see the [Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?page=1&partnerLevel=All&product=WRKFRNT&sort=RELEVANCE).
 
 ## [!DNL Workfront] API
 

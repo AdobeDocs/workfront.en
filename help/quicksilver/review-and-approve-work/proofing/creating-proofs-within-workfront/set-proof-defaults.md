@@ -13,6 +13,8 @@ You can define personal proof default settings that apply to proofs you create. 
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -36,9 +38,11 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, role, or Proof Permission Profile you have, contact your Workfront or Workfront Proof administrator.
 
++++
+
 ## Configure personal proofing defaults
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Proofing**.
+{{step1-to-proofing}}
 
 1. In the upper-right corner, click your avatar, and select **Personal Settings**. 
 1. Choose the **Proofing defaults** tab, then specify the following information:

@@ -14,6 +14,8 @@ You can see a real-time view of mapped metadata in the Document Details and Summ
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following:
 
 <table>
@@ -56,6 +58,7 @@ For information on requesting additional access, see <strong>Request access to o
 
 *To find out what plan, license type, or access you have, contact your Workfront administrator.
 
++++
 
 ## Prerequisites
 
@@ -71,6 +74,7 @@ To open the Metadata panel in the Document Details:
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Hover over the document you need, then select **Document Details**.
 1. Find and expand the **Metadata** section.
+
     >[!NOTE]
     >
     >You can't edit fields in this section. They are view-only.
@@ -85,6 +89,7 @@ To open the Metadata panel in the Summary panel:
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
 1. Find the document you need.
 1. Click the **Summary icon** ![summary icon](assets/summary-panel-icon.png), then expand the **Metadata** section.
+
     >[!NOTE]
     >
     >You can't edit fields in this section. They are view-only.

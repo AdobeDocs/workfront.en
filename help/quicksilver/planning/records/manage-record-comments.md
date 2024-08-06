@@ -27,7 +27,7 @@ The right panel of a record displays the following sections:
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
++++ Expand to view access requirements for Workfront Planning. 
 
 <table style="table-layout:auto">
  <col>
@@ -80,6 +80,7 @@ You must have the following access to perform the steps in this article:
  </tbody>
 </table>
 
++++
 
 ## Considerations about commenting on a record
 

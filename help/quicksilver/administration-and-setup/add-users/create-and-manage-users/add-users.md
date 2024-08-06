@@ -83,7 +83,7 @@ Before you add a user, gather the information about the user listed below and de
 * What home team should this user be in? Should the person be on more than one team? For information about teams, see [Teams overview](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
 * What custom information do you need to associate with this user?
 
-  If information about users is captured in custom fields that you created, you must have a custom form ready when creating a user. For information about custom forms, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  If information about users is captured in custom fields that you created, you must have a custom form ready when creating a user. For information about custom forms, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Create a user from scratch
 

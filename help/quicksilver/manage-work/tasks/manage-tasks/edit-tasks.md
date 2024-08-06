@@ -25,7 +25,7 @@ You can edit information on tasks that you have created, or that you have Contri
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -64,6 +64,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 *For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Limitations for editing tasks
 
@@ -479,7 +481,7 @@ You can define default custom forms to be automatically attached to tasks when t
 
 1. Click **Add custom form** and select the custom form or forms that you want to associate with the task. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list.
 
-   For more information about building custom forms, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). You can add up to ten custom forms to a task.
+   For more information about building custom forms, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).You can add up to ten custom forms to a task
 
 1. (Conditional) If you attached a custom form to the task, edit any fields on the form. You must specify all the required fields before you can save the task.
 

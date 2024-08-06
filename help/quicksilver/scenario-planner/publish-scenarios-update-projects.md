@@ -17,7 +17,7 @@ Publishing a scenario from the [!DNL Adobe Workfront Scenario Planner] accomplis
 
 ## Access requirements
 
-You must have the following:
++++ Expand to view access requirements for the functionality in this article. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -25,40 +25,38 @@ You must have the following:
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
-   <td>[!UICONTROL Business] or higher</td> 
+   <td> <p>Current: [!UICONTROL Business] or higher</p>
+   <p>New: Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
-   <td> <p>[!UICONTROL Review] or higher</p> </td> 
+   <td> <p>New: Light or higher</p> 
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
   </tr> 
   <tr> 
-   <td>Product </td> 
-   <td> <p>You must purchase an additional license for the [!DNL Adobe Workfront Scenario Planner] to access functionality described in this article.</p> <p>For information about obtaining the [!DNL Workfront Scenario Planner], see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
+   <td>Product* </td> 
+   <td> 
+   <p>For the current Workfront plans: </p>
+   <p>You must purchase an additional license for the [!DNL Adobe Workfront Scenario Planner] to access functionality described in this article.</p> <p>For information about access and permissions for the [!DNL Workfront Scenario Planner], see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p></p> <p>Access level*</p> </td> 
-   <td> 
-    <ul> 
-    <li>[!UICONTROL Edit] access for [!DNL Scenario Planner] and Projects</li></ul> 
-    
-   <p><b>NOTE</b> 
-   
-   If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td>Access level </td> 
+   <td> <p>[!UICONTROL Edit] access for the [!DNL Scenario Planner] and [!UICONTROL Projects]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Object permissions</p> </td> 
-   <td> 
-    <ul> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <ul> 
      <li>[!UICONTROL Manage] permissions for the plan </li> 
      <li>[!UICONTROL Manage] permissions for published projects</li> 
-    </ul> <p>For information on requesting additional access to projects, see <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
+    </ul> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+*For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
-For additional information about access to the [!DNL Workfront Scenario Planner], see [Access needed to use the [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
++++
 
 ## Prerequisites
 
@@ -95,7 +93,8 @@ Before you begin:
 >
 >If you make any changes to initiatives on the plan, including resolve conflicts, you must republish the initiative in order for the new information to be visible on the project. This information displays on the projects linked to initiatives only when you publish the corresponding the initiative. For information about resolving conflicts between initiatives, see [Resolve initiative conflicts in the [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md)
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **[!UICONTROL Scenarios]**
+{{step1-to-scenario-planner}}
+
 1. (Optional and conditional) If you want to publish from an existing plan, click the **[!UICONTROL Filter]** icon ![](assets/filter-nwepng.png) in the upper-right corner of the plan and select one of the following options:
 
    <table style="table-layout:auto"> 

@@ -94,7 +94,7 @@ You can configure the following integrations for managing documents:
 
    For the current plans, a [!UICONTROL Pro] [!DNL Workfront] Plan or higher is required to use this feature. For the new plans, this feature is available with all plans. For more information about the various plans available, see [Workfront Plans](https://www.workfront.com/plans).
 
-In addition, you can enhance your [!DNL Workfront] document experience with a native Digital Asset Management (DAM) system, or with third-party DAM integrations. Administrators must enable these features in order for users to link the service to their [!DNL Workfront] account. For more information about Workfront DAM, see [Managing Documents with [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
+In addition, you can enhance your [!DNL Workfront] document experience with a third-party DAM integrations. Administrators must enable these features in order for users to link the service to their [!DNL Workfront] account.
 
 ## Configure integrations to manage documents
 
@@ -192,8 +192,6 @@ After the custom document integration is built, you can make it available to use
 
 ## Use document integrations
 
-For information about how users can use [!DNL Workfront DAM], see [Managing Documents with [!DNL Adobe Workfront DAM]](../../documents/workfront-dam-within-workfront/manage-docs-with-wf-dam.md).
-
 For information about how users can use proofing, see [Create proofs](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md).
 
 For information about how users can use third-party document integrations after you have configured them, see [Link documents from external applications](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
@@ -210,7 +208,7 @@ Information is mapped one-way only, from [!DNL Workfront] to [!DNL Workfront DAM
 You can map the same [!DNL Workfront] field to various [!DNL Workfront DAM] fields, but you cannot use the same [!DNL Workfront DAM] field for multiple [!DNL Workfront] fields.
 
 If you must configure multiple [!DNL Workfront] fields to export to one [!DNL Workfront DAM] field, first create a calculated custom field in [!DNL Workfront] to display all the individual custom fields of an object. Then, map the calculated [!DNL Workfront] field to one [!DNL Workfront DAM] field.\
-For more information about calculated custom fields, see [Add calculated data to a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+For more information about calculated custom fields, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 The mapping affects all the documents uploaded by any user from [!DNL Workfront] to [!UICONTROL Workfront] DAM.
 

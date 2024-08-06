@@ -112,7 +112,7 @@ You can log time to the following items in the timesheet:
 
 To log time on a timesheet: 
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner.
+{{step1-click-main-menu}}
 
 1. Click [!UICONTROL **Timesheets**]. Your current timesheet displays by default. 
    ![Timesheet](assets/timesheet-redesigned-nwe.png)
@@ -467,3 +467,36 @@ For more information, see [Use connected cards on boards](/help/quicksilver/agil
 
 You can log time from the Workfront mobile app.
 For more information, see [Adobe Workfront for Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) or [Adobe Workfront for iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).
+
+## Edit logged hours in lists and reports
+
+You can edit logged hours in the following areas:
+
+* All areas where you added the hours, including open timesheets
+* Hour lists and reports.
+
+You can edit the following elements of an hour entry when you edit an hour entry in a list or report:
+
+* Number of hours
+* Hour Type
+* Job role associated with the hour entry
+
+Depending on what type of hour entries you edit, the following fields are available for editing: 
+
+* When you edit project-specific hours:
+
+   * You can edit the number of hours.  
+   * You can change the Hour Type only to project-specific types.
+   * You can change the hour Job role assignment only if it was enabled in Setup. For information, see [Configure timesheet and hour preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) 
+
+* When you edit general hours: 
+
+   * You can edit the number of hours. 
+   * You can change the Hour Type only to general types. 
+   * You cannot change the hour Job role assignment, because general hours cannot be associated with roles. 
+
+* When you edit a mix of general and project-specific hours, in bulk: 
+
+   * You can edit the number of hours.
+   * You cannot change the Hour Type, because general hour types cannot be changed to project-specific types and project-specific hour types cannot be changed to general types. 
+   * You cannot change the Job role assignment, because general hours cannot be associated with roles. 

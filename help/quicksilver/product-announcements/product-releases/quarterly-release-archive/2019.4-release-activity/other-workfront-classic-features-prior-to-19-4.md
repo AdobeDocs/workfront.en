@@ -39,7 +39,6 @@ For information about the release time frame and all functionality available wit
      <p>For example, if you have created a Checkboxes field, you can change it to a Dropdown field or a Radio Buttons field. These three field display types are interchangeable.</p> 
      <p>Or, if you have created a Single Line Text Field, you can change it to a Paragraph Text field. These two field display types are interchangeable.</p> 
      <p>Previously, to change the display type of a custom field, you had to create a new field and delete the old one. This required transferring data, which was often time consuming.</p> 
-     <p>For more information, see <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create" class="MCXref xref" xrefformat="{para}">Create or edit a custom form</a> in the article <a href="../../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" xrefformat="{para}">Create or edit a custom form</a></p> 
      <div class="workfront_plans"> 
       <p><strong>Available in these environments:</strong> </p> 
       <ul> 
