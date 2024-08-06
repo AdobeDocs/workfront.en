@@ -386,7 +386,7 @@ This action module returns the capping or throttling configuration identified by
 * [Look up a package](#look-up-a-package)
 * [Import a package](#import-a-package)
 * [Publish a package](#publish-a-package)
-* [Submit an import](#submit-an-import )
+* [Submit an import](#submit-an-import)
 
 
 
