@@ -103,13 +103,13 @@ To review and approve a document:
 
 1. Review the content, and add any comments or markup. For more information about how to use the proofing viewer, see [Review proofs within Adobe Workfront: article index](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
-1. When you are finished with your review, close the proofing viewer and navigate to the document Summary to make your decision. 
+1. When you are finished with your review, close the proofing viewer.
 
-Decision buttons do not appear in viewer. You must navigate back to the document Summary to make your decision or mark your review complete. 
+Document decision buttons do not appear in viewer. You must navigate back to the document Summary to make your decision or mark your review complete. 
 
-1. 
+* **Approve**: The asset does not need changes and is ready for use.
+* **Approve with changes**: The asset needs changes and is ready for use once they are made. Additional approval is not required. 
+* **Needs work**: The asset needs changes and is not ready for use. Once the specified changes are made, the asset must be uploaded as a new version and go through another round of approvals.
 
-close proof
 
-open summary make decision - decision buttons do not appear in proof viewer
 
