@@ -115,6 +115,10 @@ You can create a connection in any Adobe Journey Optimizer module.
         <td role="rowheader">[!UICONTROL Organization ID]</td>
         <td>Enter your [!DNL Adobe] [!UICONTROL Organization ID]. This can be found in the [!UICONTROL Credentials] details section of the [!DNL Adobe Developer Console]</td>
         </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Sandbox Name]</td>
+        <td>Enter the name of the sandbox that this connection will use.</td>
+        </tr>
       </tbody>
     </table>
 
@@ -386,7 +390,7 @@ This action module returns the capping or throttling configuration identified by
 * [Look up a package](#look-up-a-package)
 * [Import a package](#import-a-package)
 * [Publish a package](#publish-a-package)
-* [Submit an import](#submit-an-import )
+* [Submit an import](#submit-an-import)
 
 
 
