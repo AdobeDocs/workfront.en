@@ -9,19 +9,16 @@ feature: Work Management, Digital Content and Documents
 
 # Use new document approvals and proofing together
 
-You can use 
+New document approvals in Workfront introduces a new set of features to help you review and approve documents. You can use the new document approvals workflow with the existing proofing viewer to add comments and markup to documents in review.
+
 
 There are some key differences in the workflow when using new document approvals and proofing together:
 
 * Decision buttons do not appear in viewer 
 
-* Participants are shown in document Summary, not proofing workflow 
+* Participants are shown in document Summary, not the proofing workflow 
 
 * SOCD is proofing related and does not reflect the decision status of the document
-
-* Setting to auto add people to proof disabled 
-
-* Updates > System activity displays activity 
 
 
 ## Upload a document and create a proof 
@@ -39,7 +36,14 @@ Drag and drop the document into the document list.
 
 Users can use the proofing viewer to add comments and markup on the document. Contiue to the next section to learn how to add reviewers and approvers. 
 
-## Open document Summary and assign reviewers and approvers 
+## Open the document Summary and assign participants
+
+You have the option to assign reviewers, approvers, or a mix of both:
+
+* **Reviewers** can add comments and mark up assets. Once finished, they can mark their review as complete. Marking the review as complete is not required for the document to move forward in the approval process.
+* **Approvers** can add comments and mark up assets. They must make a decision to move the approval process forward. 
+
+To assign participants:
 
 1. Select the document you uploaded and open the document Summary.
     ![](assets/open-doc-summary.png)
@@ -89,11 +93,6 @@ To add a new version:
 
 
 ## Review the proof and make a decision 
-
-You have the option to assign reviewers, approvers, or a mix of both:
-
-* **Reviewers** can add comments and mark up assets. Once finished, they can mark their review as complete. Marking the review as complete is not required for the document to move forward in the approval process.
-* **Approvers** can add comments and mark up assets. They must make a decision to move the approval process forward. 
 
 To review and approve a document:
 
