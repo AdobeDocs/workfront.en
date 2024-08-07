@@ -11,7 +11,6 @@ feature: Work Management, Digital Content and Documents
 
 New document approvals in Workfront introduces a new set of features to help you review and approve documents. You can use the new document approvals workflow with the existing proofing viewer to add comments and markup to documents in review.
 
-
 There are some key differences in the workflow when using new document approvals and proofing together:
 
 * Decision buttons do not appear in viewer 
@@ -24,7 +23,7 @@ There are some key differences in the workflow when using new document approvals
 ## Upload a document and create a proof 
 
 1. Go to the project, task, or issue where you want to add a new document.
-1. Click the **Documents** tab, then click the **Add New** drop-down. menu
+1. Click the **Documents** tab, then click the **Add New** drop-down menu.
 Or
 Drag and drop the document into the document list.
 
@@ -34,7 +33,7 @@ Drag and drop the document into the document list.
 
 1. Hover over the document, then click the **Create Proof** link that appears below the document name, and select **Simple Proof**. You need to create a simple proof because you will not use the proofing workflow for approvals. 
 
-Users can use the proofing viewer to add comments and markup on the document. Contiue to the next section to learn how to add reviewers and approvers. 
+Users can use the proofing viewer to add comments and markup on the document. Continue to the next section to learn how to add review participants. 
 
 ## Open the document Summary and assign participants
 
@@ -60,7 +59,7 @@ To assign participants:
 
     ![](assets/add-approvers.png)
  
-1. Once you've added all reviewers and approvers, click **Submit Request**. Reviewers and approvers are notified via email.
+1. Once you've added all reviewers and approvers, click **Submit Request**. Participants are notified via email.
 
 ## Create a new version as needed
 
@@ -87,16 +86,20 @@ To add a new version:
 
     ![](assets/add-approvers.png)
  
-1. Once you've added all reviewers and approvers, click **Submit Request**. Reviewers and approvers are notified via email.
+1. Once you've added all reviewers and approvers, click **Submit Request**. Participants are notified via email.
  
 <!-- add info about reusing previous participants once released -->
 
 
 ## Review the proof and make a decision 
 
+>[!IMPORTANT]
+>
+>Document decision buttons do not appear in viewer. You must navigate back to the document Summary to make your decision or mark your review complete. 
+
 To review and approve a document:
 
-1. Go to your email notification, and click to **Go to review**. 
+1. Go to your review email notification, and click to **Go to review**. 
 
 1. Once you're in Workfront, click **Go to proof**. 
 
@@ -104,11 +107,13 @@ To review and approve a document:
 
 1. When you are finished with your review, close the proofing viewer.
 
-Document decision buttons do not appear in viewer. You must navigate back to the document Summary to make your decision or mark your review complete. 
+1. If you are on the Document details page, the decision buttons are located in the top-right corner of the screen. 
 
-* **Approve**: The asset does not need changes and is ready for use.
-* **Approve with changes**: The asset needs changes and is ready for use once they are made. Additional approval is not required. 
-* **Needs work**: The asset needs changes and is not ready for use. Once the specified changes are made, the asset must be uploaded as a new version and go through another round of approvals.
+1. Choose one of the following decisions:
 
+    * **Approve**: The asset does not need changes and is ready for use.
+    * **Approve with changes**: The asset needs changes and is ready for use once they are made. Additional approval is not required. 
+    * **Needs work**: The asset needs changes and is not ready for use. Once the specified changes are made, the asset must be uploaded as a new version and go through another round of approvals.
 
+The document owner is notified of the decision via email.
 
