@@ -69,7 +69,6 @@ The live 24.7 release webinar was cancelled, but you can still [watch a video de
                             </li>
                         </ul>
                         <p><i>Only available for organizations on the new Ultimate plan.</i></p>
-                        <p><span class="preview">This feature is temporarily unavailable.</span></p>
                     </td>
                 </tr>
                 <tr>

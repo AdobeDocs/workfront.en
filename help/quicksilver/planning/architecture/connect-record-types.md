@@ -112,7 +112,7 @@ For an example of connecting record types and records, see [Example of connectin
 
 ## Considerations about connecting record types
 
-<!--move this to the Connect record types overview article (new)-->
+<!--DELETE THE CONTENT BELOW WHEN YOU MAKE "CONNECT RECORD TYPE OVERVIEW" ARTICLE PUBLIC-->
 
 * You can connect the following entities in Adobe Workfront Planning:
 

@@ -15,7 +15,7 @@ exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 
 {{planning-important-intro}}
 
-You can share or remove permissions to a workspace or view in Adobe Workfront Planning.  
+You can share or remove permissions to an Adobe Workfront Planning workspace or view. 
 
 This article describes the permission levels for Workfront Planning objects. 
 
@@ -31,15 +31,22 @@ You can share the following objects:
 
 * Workspaces
 
-    When you share a workspace, all record types, records, and fields associated with the workspaces are also shared. Views are not shared. 
+    * You can share workspaces with people inside your organization.
+    * When you share a workspace, all record types, records, and fields associated with the workspaces are also shared. 
+        
+        When you share a workspace, views are not shared. Views are shared separately. 
 
 * Views
 
-    * You must give users, including system administrators, permissions to access views separately from their permissions to accessing workspaces. For information, see [Share views](/help/quicksilver/planning/access/share-views.md).
-    <!--* You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.-->
-     <!--move the link above to the end of this section-->
+    * You must give users, including system administrators, permissions to access views separately from their permissions to accessing workspaces. 
+    * When you share a view, all view elements are shared, including filters, grouping, sort, or Settings. 
 
-You can share a workspace or a view with the following entities:
+        When you share a view, the records visible in the view are not shared. Records must be shared by sharing workspaces.
+    * You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.
+
+    For information, see [Share views](/help/quicksilver/planning/access/share-views.md).
+   
+Internally, you can share a workspace or a view with the following Workfront entities:
 
 * Users
 * Groups
@@ -53,15 +60,12 @@ You can share a workspace or a view with the following entities:
 * Other users, including System Administrators, can only access views they created or that have been shared with them. System administrators can be given permissions only to Manage a view.
 * You can share a link to a workspace or to a view with others. 
 
-    Users who receive the link must be active users and log in to Workfront to be able to access the workspace or the record type page displayed in the selected view. 
-
-    <!--Replace the text from "users who receive ..." with the following when public sharing of views releases:
     The following scenarios exist:
-        * Users who receive the link to a workspace must be active users and log in to Workfront to be able to access the workspace.
-        * Users who receive the link to a view can access the view in the following ways: 
+    * Users who receive the link to a workspace must be active users and log in to Workfront to be able to access the workspace.
+    * Users who receive the link to a view can access the view in the following ways: 
         
-            * Must be active users and log in to Workfront
-            * Can be external users to Workfront and access the view from a publicly shared link, without logging in to Workfront. -->
+        * Must be active users and log in to Workfront, if the link to the view was internally shared. 
+        * Can be external users to Workfront and access the view from a publicly shared link, without logging in to Workfront.
 
 ## Sharing permissions for Adobe Workfront Planning objects
 
@@ -119,7 +123,7 @@ The following are the levels of permissions for records:
 
 |        | Manage | Contribute | View  |
 |--------|--------|------------|-------|
-| Create | ✓      |            |       |
+| Create | ✓      |     ✓       |       |
 | Delete | ✓      |     ✓       |       |
 | Edit   | ✓      |    ✓        |       |
 | View   | ✓      | ✓          | ✓     |
@@ -150,23 +154,9 @@ You must give users permission to  views to allow them to have access to the fol
 * Row height
 * Settings
 
-
-<!--You can share views internally or publicly. -->
+You can share views internally or publicly.
 
 The following are the levels of permissions for views and view elements: 
-
-|        | Manage (Only invited people can access) | View (Only invited people can access)  |Everyone in the workspace can view*|
-|--------|--------|-------|------------------------------|
-| Edit   | ✓      |       |                            |
-| Delete | ✓      |       |                            |
-| Share  | ✓       |       |                           |
-| View   | ✓      | ✓     | ✓                         |
-| Access the view  | ✓      | ✓     | ✓                          |
-| Apply temporary filters, groupings, sort  | ✓      | ✓     | ✓                          |
-
-*Users must have View or higher permissions to a workspace to gain this view access.
-            
-<!--Replace the table above with the following when public sharing releases: 
 
 |   Internal sharing     | Manage (Only invited people can access) | View (Only invited people can access)  |Everyone in the workspace can view*|
 |--------|--------|-------|------------------------------|
@@ -180,7 +170,9 @@ The following are the levels of permissions for views and view elements:
 |--------|-------|
 | View   | ✓     |
 | Apply  | ✓     |
--->
+
+*Users must have View or higher permissions to a workspace to gain this view access.
+            
 
 
 <!--old view permissions, before sharing View permissions to a view through a workspace:
@@ -190,5 +182,15 @@ The following are the levels of permissions for views and view elements:
 | Delete | ✓      |       |                            
 | Share  | ✓       |       |                           
 | View   | ✓      | ✓     |                         
-| Apply  | ✓      | ✓     |    
+| Apply  | ✓      | ✓     |  
+
+
+|        | Manage (Only invited people can access) | View (Only invited people can access)  |Everyone in the workspace can view*|
+|--------|--------|-------|------------------------------|
+| Edit   | ✓      |       |                            |
+| Delete | ✓      |       |                            |
+| Share  | ✓       |       |                           |
+| View   | ✓      | ✓     | ✓                         |
+| Access the view  | ✓      | ✓     | ✓                          |
+| Apply temporary filters, groupings, sort  | ✓      | ✓     | ✓                          |
 -->
