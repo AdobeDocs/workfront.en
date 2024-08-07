@@ -20,7 +20,9 @@ When someone adds you to a comment in the record page, you receive an in-app as 
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
+<!--ensure this is truly 'Any' license when we go to GA-->
+
++++ Expand to view access requirements for Workfront Planning. 
 
 <table style="table-layout:auto">
  <col>
@@ -74,6 +76,8 @@ You must have the following access to perform the steps in this article:
   </tr>
  </tbody>
 </table>
+
++++
 
 ## Manage notification preferences  
 

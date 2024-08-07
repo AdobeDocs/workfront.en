@@ -141,7 +141,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
-* [Apply Photoshop edits](#apply-psd-edits)
+* [Apply PSD edits](#apply-psd-edits)
 * [Auto color correct an image](#auto-color-correct-an-image)
 * [Convert image format](#convert-image-format)
 * [Create a mask](#create-a-mask)
@@ -257,14 +257,14 @@ This action module applies a variety of document and layer level edits.
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>Select the file service where the you want the new file to be stored.</p>
+        <p>Select the file service where the you want the new file to be stored.</p><p>Selecting Fusion internal storage makes the file available for later modules, but does not make the file available outside of the scenario.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Output) File location]</p>
       </td>
-   <td> Enter or map the URL or path of where the new file will be stored. </td> 
+   <td> Enter or map the URL or path of where the new file will be stored. This is only necessary if you have not chosen Fusion internal storage for the output storage.</td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -316,14 +316,14 @@ This action module auto color corrects the specified image.
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>Select the file service where the you want the new file to be stored.</p>
+        <p>Select the file service where the you want the new file to be stored.</p><p>Selecting Fusion internal storage makes the file available for later modules, but does not make the file available outside of the scenario.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Output) File location]</p>
       </td>
-   <td> Enter or map the URL or path of where the new file will be stored. </td> 
+   <td> Enter or map the URL or path of where the new file will be stored. This is only necessary if you have not chosen Fusion internal storage for the output storage.</td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -380,14 +380,14 @@ This action module converts a file to JPEG, PNG, PSD or TIFF.
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>Select the file service where the you want the new file to be stored.</p>
+        <p>Select the file service where the you want the new file to be stored.</p><p>Selecting Fusion internal storage makes the file available for later modules, but does not make the file available outside of the scenario.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Output) File location]</p>
       </td>
-   <td> Enter or map the URL or path of where the new file will be stored. </td> 
+   <td> Enter or map the URL or path of where the new file will be stored. This is only necessary if you have not chosen Fusion internal storage for the output storage. </td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -439,14 +439,14 @@ This action module returns a PNG file with a mast applied around the subject.
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>Select the file service where the you want the mask file to be stored.</p>
+        <p>Select the file service where the you want the mask file to be stored.</p><p>Selecting Fusion internal storage makes the file available for later modules, but does not make the file available outside of the scenario.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Output) File location]</p>
       </td>
-   <td> Enter or map the URL or path of where the mask file will be stored. </td> 
+   <td> Enter or map the URL or path of where the mask file will be stored. This is only necessary if you have not chosen Fusion internal storage for the output storage.</td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Overwrite]</td>
@@ -569,6 +569,119 @@ This action module edits text layers on a Photoshop file.
    <td> Select the compression level for the output file. </td> 
     </tr>
   </tbody>
+</table>
+
+
+
+### Execute Photoshop actions (JSON)
+
+This action module executes Photoshop actions using JSON commands.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>For instructions on creating a connection to [!DNL Adobe Photoshop], see <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Create a connection to [!DNL Adobe Photoshop]</a> in this article.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (Input) Storage]</td>
+      <td>
+        <p>Select the file service where the file you want to edit is stored.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Input) File location]</p>
+      </td>
+   <td> Enter or map the URL or path of the file that you want to edit. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Action JSON]</td>
+      <td>
+        <p>Enter the JSON command for the action you want to take.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Fonts / Patterns / Brushes / Additional images]</td>
+      <td>
+        <p>For each font, pattern, brush, or additional image that you want to use in this action, click Add item and enter the item's storage and file location.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Font / Pattern / Brush file URL]</p>
+      </td>
+   <td> Enter or map the URL or path of the file that you want to use. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Outputs file storage]</td>
+      <td>
+        <p>Select the file service where the you want the edited file to be stored.</p><p>Selecting Fusion internal storage makes the file available for later modules, but does not make the file available outside of the scenario.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Output file URL]</p>
+      </td>
+   <td> Enter or map the URL or path of where the edited file will be stored.  This is only necessary if you have not chosen Fusion internal storage for the output storage.</td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Output file type]</p>
+      </td>
+   <td> Select the file type for the edited file. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Overwrite]</td>
+      <td>
+        <p>Select whether the newly edited file will overwrite any output file that already exists.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Compression]</p>
+      </td>
+   <td> Select the compression level for the output file. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Outputs]</td>
+      <td>
+        <p>For each converted file you want to create, click Add item and enter the storage, location, and type as listed in this table.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (Output) Storage]</td>
+      <td>
+        <p>Select the file service where the you want the new file to be stored.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Output) File location]</p>
+      </td>
+   <td> Enter or map the URL or path of where the new file will be stored. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Output) Type]</p>
+      </td>
+   <td>Select the file type that you want to convert the file to. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (Output) Overwrite]</td>
+      <td>
+        <p>Select whether the newly edited file will overwrite any output file that already exists. This applies only to files in Adobe storage.</p>
+      </td>
+    </tr>
+        <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Maximum number of returned results]</p>
+      </td>
+   <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td> 
+    </tr>
+      </tbody>
 </table>
 
 ### Execute Depth Blur
@@ -719,117 +832,6 @@ This action module executes a Photoshop action on the selected image.
    <td> Select the compression level for the output file. </td> 
     </tr>
   </tbody>
-</table>
-
-### Execute Photoshop actions (JSON)
-
-This action module executes Photoshop actions using JSON commands.
-
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Photoshop], see <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" >Create a connection to [!DNL Adobe Photoshop]</a> in this article.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL (Input) Storage]</td>
-      <td>
-        <p>Select the file service where the file you want to edit is stored.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL (Input) File location]</p>
-      </td>
-   <td> Enter or map the URL or path of the file that you want to edit. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Action JSON]</td>
-      <td>
-        <p>Enter the JSON command for the action you want to take.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Fonts / Patterns / Brushes / Additional images]</td>
-      <td>
-        <p>For each font, pattern, brush, or additional image that you want to use in this action, click Add item and enter the item's storage and file location.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Font / Pattern / Brush file URL]</p>
-      </td>
-   <td> Enter or map the URL or path of the file that you want to use. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Outputs file storage]</td>
-      <td>
-        <p>Select the file service where the you want the edited file to be stored.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Output file URL]</p>
-      </td>
-   <td> Enter or map the URL or path of where the edited file will be stored. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Output file type]</p>
-      </td>
-   <td> Select the file type for the edited file. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Overwrite]</td>
-      <td>
-        <p>Select whether the newly edited file will overwrite any output file that already exists.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Compression]</p>
-      </td>
-   <td> Select the compression level for the output file. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Outputs]</td>
-      <td>
-        <p>For each converted file you want to create, click Add item and enter the storage, location, and type as listed in this table.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL (Output) Storage]</td>
-      <td>
-        <p>Select the file service where the you want the new file to be stored.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL (Output) File location]</p>
-      </td>
-   <td> Enter or map the URL or path of where the new file will be stored. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL (Output) Type]</p>
-      </td>
-   <td>Select the file type that you want to convert the file to. </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL (Output) Overwrite]</td>
-      <td>
-        <p>Select whether the newly edited file will overwrite any output file that already exists. This applies only to files in Adobe storage.</p>
-      </td>
-    </tr>
-        <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Maximum number of returned results]</p>
-      </td>
-   <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td> 
-    </tr>
-      </tbody>
 </table>
 
 ### Execute Product Crop
@@ -1014,14 +1016,14 @@ This action module identifies the main subject of your image and removes the bac
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>Select the file service where the you want the new file to be stored.</p>
+        <p>Select the file service where the you want the new file to be stored.</p><p>Selecting Fusion internal storage makes the file available for later modules, but does not make the file available outside of the scenario.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Output) File location]</p>
       </td>
-   <td> Enter or map the URL or path of where the new file will be stored. </td> 
+   <td> Enter or map the URL or path of where the new file will be stored.  This is only necessary if you have not chosen Fusion internal storage for the output storage.</td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Overwrite]</td>
@@ -1109,14 +1111,14 @@ This action module replaces a Smart Object within a PSD layer, and generates new
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>Select the file service where the you want the new file to be stored.</p>
+        <p>Select the file service where the you want the new file to be stored.</p><p>Selecting Fusion internal storage makes the file available for later modules, but does not make the file available outside of the scenario.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Output) File location]</p>
       </td>
-   <td> Enter or map the URL or path of where the new file will be stored. </td> 
+   <td> Enter or map the URL or path of where the new file will be stored.  This is only necessary if you have not chosen Fusion internal storage for the output storage.</td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -1156,14 +1158,14 @@ This action resizes an image, using the same aspect ratio.
     <tr>
       <td role="rowheader">[!UICONTROL Storage]</td>
       <td>
-        <p>Select the file service where the file you want to resize is stored.</p>
+        <p>Select the file service where the file you want to resize is stored.</p><p>Selecting Fusion internal storage makes the file available for later modules, but does not make the file available outside of the scenario.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL File location]</p>
       </td>
-   <td> Enter or map the URL or path of the file that you want to resize. </td> 
+   <td> Enter or map the URL or path of the file that you want to resize.  This is only necessary if you have not chosen Fusion internal storage for the output storage.</td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Outputs]</td>
@@ -1263,18 +1265,17 @@ This action module adds a watermark to the selected image.
       </td>
    <td> Enter or map the distance in pixels from the top of the image that the watermark should be.</td> 
     </tr>  
-    </tr>  
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
-        <p>Select the file service where the you want the watermarked file to be stored.</p>
+        <p>Select the file service where the you want the watermarked file to be stored.</p><p>Selecting Fusion internal storage makes the file available for later modules, but does not make the file available outside of the scenario.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
         <p>[!UICONTROL (Output) File location]</p>
       </td>
-   <td> Enter or map the URL or path of where the watermarked file will be stored. </td> 
+   <td> Enter or map the URL or path of where the watermarked file will be stored. This is only necessary if you have not chosen Fusion internal storage for the output storage.</td> 
     </tr>
     <tr>
       <td role="rowheader">

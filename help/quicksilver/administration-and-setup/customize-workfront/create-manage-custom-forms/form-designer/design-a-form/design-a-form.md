@@ -47,10 +47,6 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Click **Custom Forms** in the left panel.
 
-   <!-- >[!TIP]
-    >
-    >In the view that appears, you can review all custom forms and custom fields that have been created for your organization. You can also see who created each form and the fields that are associated with it. -->
-
 1. Click **New Custom Form.**
 1. Select which object types you'd like to attach the custom form to, then click **Continue**.
 
@@ -70,6 +66,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Next, you can start adding fields to your custom form. See the following sections:
     * [Reuse an existing field or widget already used in another custom form](#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
+    * [Notes on field names and labels](#notes-on-field-names-and-labels)
     * [Add text fields](#add-text-fields)
     * [Add calculated fields](#add-calculated-fields)
     * [Add radio buttons, checkbox groups, and dropdowns](#add-radio-buttons-checkboxes-and-dropdowns)
@@ -81,9 +78,9 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Add new or existing fields to your custom form
 
-You can use new or existing fields when designing your custom form. 
+You can use new or existing fields when designing your custom form.
 
-## Reuse an existing field or widget already used in another custom form
+### Reuse an existing field or widget already used in another custom form
 
 1. On the top-left side of the screen, click **Field library**.
 
@@ -102,6 +99,41 @@ You can use new or existing fields when designing your custom form.
     or
 
     Click **Save and Close**. 
+
+### Notes on field names and labels {#notes-on-field-names-and-labels}
+
+The **label** is available for most fields. It is a descriptive label that appears above the field or widget on the custom form. You can change the label at any time.
+
+>[!NOTE]
+>
+>Avoid using special characters in this label. They don't display correctly in reports.
+
+A **name** is required for every field. This name is how the system identifies the custom field when you add it to various areas throughout Workfront, such as reports, Home, and API interactions. When you are configuring the field or widget for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.
+
+Each custom field name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form.
+
+>[!NOTE]
+>
+>Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the custom field where it might now be referenced in other areas of Workfront.
+>For example, if you add the custom field to a report and later change its name, Workfront doesn't recognize it in the report and it will stop functioning correctly there unless you re-add it to the report using the new name.
+>
+>We recommend that you do not type a name that is already used for built-in Workfront fields.
+>
+>We recommend that you do not use the period/dot character in the custom field name, to prevent errors when using the field in different areas of Workfront.
+
+The following special characters are not supported in custom field labels and names.
+
+* \t
+* \n
+* \r
+* \f
+* `[`
+* `]`
+* (
+* )
+* :
+* `{`
+* `}`
 
 ### Add text fields
 
@@ -152,13 +184,13 @@ To add a text field:
     <li>Single line text</li>
     <li>Paragraph text</li>
     <li>Text with formatting</li>
-    <li>Descriptive text - Coming soon</li>
+    <li>Descriptive text</li>
     </ul></td>
     </tr>
     <tr>
     <td>Label</td>
-    <td><p>Type a descriptive label to display above the widget. You can change the label at any time.<p>
-    <p>IMPORTANT: Avoid using special characters in this label. They don't display correctly in reports.</p></td>
+    <td><p>(Required)Type a descriptive label to display above the field. You can change the label at any time.<p>
+    <p>IMPORTANT: Avoid using special characters in this label. They don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p></td>
     <td><ul>
     <li>Single line text</li>
     <li>Paragraph text</li>
@@ -168,11 +200,7 @@ To add a text field:
     <tr>
      <td>Name</td>
     <td><p>(Required) This name is how the system identifies the field. When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p>
-    <p><b>IMPORTANT</b>:   
-      <ul> 
-      <li>Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the custom field where it might now be referenced in other areas of Workfront. <p>For example, if you add the custom field to a report and later change its name, Workfront doesn't recognize it in the report and it will stop functioning correctly there unless you re-add it to the report using the new name.</p> </li>
-      <li> <p>We recommend that you do not type a name that is already used for built-in Workfront fields.</p> </li>
-      <li><p>We recommend that you do not use the period/dot character in the custom field name, to prevent errors when using the field in different areas of Workfront.</p></li>
+    <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p>
     </td>
     <td><ul>
     <li>Single line text</li>
@@ -183,7 +211,7 @@ To add a text field:
     </tr>
     <tr>
     <td>Instructions</td>
-    <td>Type any additional information about the widget. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.
+    <td>Type any additional information about the field. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.
     <img src="assets/instructions-form-designer.png">
     </td>
     <td><ul>
@@ -279,7 +307,7 @@ To add radio buttons, checkbox groups, and dropdowns:
     </tr>
     <tr> 
      <td role="rowheader">Label</td> 
-     <td> <p>(Required) Type a descriptive label to display above the custom field. You can change the label at any time.</p> <p><b>IMPORTANT</b>: Avoid using special characters in this label. They don't display correctly in reports.</p> </td> 
+     <td> <p>(Required) Type a descriptive label to display above the custom field. You can change the label at any time.</p> <p><b>IMPORTANT</b>: Avoid using special characters in this label. They don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
      <td><ul>
     <li>Radio buttons</li>
     <li>Checkbox Group</li>
@@ -289,13 +317,8 @@ To add radio buttons, checkbox groups, and dropdowns:
      </tr> 
      <tr> 
     <td role="rowheader">Name</td> 
-     <td> <p>(Required) This name is how the system identifies the custom field when you add it to various areas throughout Workfront, such as reports, Home, and API interactions.</p> <p>When you are configuring the custom field for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p> 
-    <p><b>IMPORTANT</b>:   
-     <ul> 
-    <li>Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the custom field where it might now be referenced in other areas of Workfront. <p>For example, if you add the custom field to a report and later change its name, Workfront doesn't recognize it in the report and it will stop functioning correctly there unless you re-add it to the report using the new name.</p> </li>
-    <li> <p>We recommend that you do not type a name that is already used for built-in Workfront fields.</p> </li>
-     <li><p>We recommend that you do not use the period/dot character in the custom field name, to prevent errors when using the field in different areas of Workfront.</p></li>
-     </ul> <p>Each custom field name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form. For more information, see <a href="#Add" class="MCXref xref">Add a custom field to a custom form</a> in this article.</p> </td>
+     <td> <p>(Required) This name is how the system identifies the field. When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p> 
+    <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td>
      <td><ul>
     <li>Radio buttons</li>
     <li>Checkbox Group</li>
@@ -394,7 +417,7 @@ To add radio buttons, checkbox groups, and dropdowns:
 
 ### Add typeahead and date fields
 
- You can add typeahead and date fields to a custom form. 
+ You can add typeahead and date fields to a custom form.
 
 +++ **Expand to see descriptions of available fields**
 
@@ -432,7 +455,7 @@ To add typeahead and date fields:
     </tr>
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Required) Type a descriptive label to display above the custom field. You can change the label at any time.</p> <p><b>IMPORTANT</b>: Avoid using special characters in this label. They don't display correctly in reports.</p> </td> 
+      <td> <p>(Required) Type a descriptive label to display above the custom field. You can change the label at any time.</p> <p><b>IMPORTANT</b>: Avoid using special characters in this label. They don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
        <td><ul>
     <li>Typeahead</li>
     <li>Date Field</li>
@@ -440,14 +463,9 @@ To add typeahead and date fields:
      </tr> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td> <p>(Required) This name is how the system identifies the custom field when you add it to various areas throughout Workfront, such as reports, Home, and API interactions.</p> <p>When you are configuring the custom field for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p> 
-      <p><b>IMPORTANT</b>:   
-      <ul> 
-      <li>Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the custom field where it might now be referenced in other areas of Workfront. <p>For example, if you add the custom field to a report and later change its name, Workfront doesn't recognize it in the report and it will stop functioning correctly there unless you re-add it to the report using the new name.</p> </li>
-      <li> <p>We recommend that you do not type a name that is already used for built-in Workfront fields.</p> </li>
-      <li><p>We recommend that you do not use the period/dot character in the custom field name, to prevent errors when using the field in different areas of Workfront.</p></li>
-      </ul> <p>Each custom field name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form. For more information, see <a href="#Add" class="MCXref xref">Add a custom field to a custom form</a> in this article.</p> </td>
-         <td><ul>
+      <td> <p>(Required) This name is how the system identifies the field. When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p> 
+      <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td>
+    <td><ul>
     <li>Typeahead</li>
     <li>Date Field</li>
     </ul></td>
@@ -547,17 +565,12 @@ To add an external lookup:
     <tbody> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Required) Type a descriptive label to display above the custom field. You can change the label at any time.</p> <p><b>IMPORTANT</b>: Avoid using special characters in this label. They don't display correctly in reports.</p> </td> 
+      <td> <p>(Required) Type a descriptive label to display above the custom field. You can change the label at any time.</p> <p><b>IMPORTANT</b>: Avoid using special characters in this label. They don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td> <p>(Required) This name is how the system identifies the custom field.</p> <p>When you are configuring the custom field for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p> 
-      <p><b>IMPORTANT</b>:   
-      <ul> 
-      <li>Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the custom field where it might now be referenced in other areas of Workfront. <p>For example, if you add the custom field to a report and later change its name, Workfront doesn't recognize it in the report and it will stop functioning correctly there unless you re-add it to the report using the new name.</p> </li>
-      <li> <p>We recommend that you do not type a name that is already used for built-in Workfront fields.</p> </li>
-      <li><p>We recommend that you do not use the period/dot character in the custom field name, to prevent errors when using the field in different areas of Workfront.</p></li>
-      </ul> <p>Each custom field name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form. For more information, see <a href="#Add" class="MCXref xref">Add a custom field to a custom form</a> in this article.</p> </td>
+      <td> <p>(Required) This name is how the system identifies the field. When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p> 
+      <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td>
      </tr> 
       <td role="rowheader">Instructions</td> 
       <td> <p>Type any additional information about the custom field. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.</p> </td> 
@@ -674,11 +687,11 @@ The Workfront Mobile app -->
     <tbody> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Required) Type a descriptive label to display above the widget. You can change the label at any time.</p> <p><b>IMPORTANT</b>: Avoid using special characters in this label. They don't display correctly in reports.</p> </td> 
+      <td> <p>(Required) Type a descriptive label to display above the widget. You can change the label at any time.</p> <p><b>IMPORTANT</b>: Avoid using special characters in this label. They don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td> <p>(Required) This name is how the system identifies the widget.</p> <p>When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p> <p><b>IMPORTANT</b>: Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the widget where it might now be referenced in other areas of Workfront. </p> <p>Each widget name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form. </p> </td> 
+      <td> <p>(Required) This name is how the system identifies the widget. When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p> <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 
@@ -793,16 +806,12 @@ This table lists the available native fields for specific Workfront objects in a
     <tbody> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Required) Type a descriptive label to display above the field. You can change the label at any time.</p> <p><b>IMPORTANT</b>: Avoid using special characters in this label. They don't display correctly in reports.</p> </td> 
+      <td> <p>(Required) Type a descriptive label to display above the field. You can change the label at any time.</p> <p><b>IMPORTANT</b>: Avoid using special characters in this label. They don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Name</td> 
-      <td> <p>(Required) This name is how the system identifies the field.</p><p> When you are configuring the field for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p>
-      <p><b>IMPORTANT</b>:
-      <ul> 
-      <li>Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the field where it might now be referenced in other areas of Workfront.</p> </li>
-      <li> <p>Each field name must be unique in your organization's Workfront instance. This way, you can reuse one that was already created for another custom form.</p> </li>
-      <li><p>We recommend that you do not use the period/dot character in the custom field name, to prevent errors when using the field in different areas of Workfront.</p></td> 
+      <td role="rowheader">Name</td>
+      <td> <p>(Required) This name is how the system identifies the field. When you are configuring the field for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p>
+      <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Instructions</td> 
@@ -843,16 +852,12 @@ This table lists the available native fields for specific Workfront objects in a
     <tbody> 
      <tr> 
       <td role="rowheader">Label</td> 
-      <td> <p>(Required) Type a descriptive label to display above the widget. You can change the label at any time.</p> <p><b>IMPORTANT</b>: Avoid using special characters in this label. They don't display correctly in reports.</p> </td> 
+      <td> <p>(Required) Type a descriptive label to display above the widget. You can change the label at any time.</p> <p><b>IMPORTANT</b>: Avoid using special characters in this label. They don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Name</td> 
       <td> <p>(Required) This name is how the system identifies the widget. When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p>
-    <p><b>IMPORTANT</b>:   
-      <ul> 
-      <li>Though it's possible to do so, we recommend that you do not change this name after you or other users start using the custom form in Workfront. If you do, the system will no longer recognize the custom field where it might now be referenced in other areas of Workfront. <p>For example, if you add the custom field to a report and later change its name, Workfront doesn't recognize it in the report and it will stop functioning correctly there unless you re-add it to the report using the new name.</p> </li>
-      <li> <p>We recommend that you do not type a name that is already used for built-in Workfront fields.</p> </li>
-      <li><p>We recommend that you do not use the period/dot character in the custom field name, to prevent errors when using the field in different areas of Workfront.</p></td> 
+    <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">URL</td> 

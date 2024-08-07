@@ -14,21 +14,23 @@ exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
 
 You can share a view with others to ensure collaboration when working with records in Adobe Workfront Planning. 
 
-Granting permissions to a workspace does not give other users permissions to the views on the record type pages. You must grant permissions to individual views in a record type page to share them with other users. 
-
-When you share a view, you give others permissions to access all the elements of the view. For example, when you give them Manage permissions to a view, they can modify the grouping, filter, sort, or bar appearance. 
+>[!IMPORTANT]
+>
+>* Granting permissions to a workspace does not give other users permissions to the views on the record type pages. You must grant permissions to individual views in a record type page to share them with other users. 
+>
+>* Granting permissions to a view does not change permissions to viewing the records. Record permissions are granted by sharing workspaces.
+>
+>* When you share a view, you give others permissions to access all the elements of the view. For example, when you give them Manage permissions to a view, they can modify the grouping, filter, sort, or bar appearance. 
 
 
 You can share a view with the following entities: 
 
-* Workfront users
-* Workfront groups
-<!--* Publicly, with users outside Workfront
--->
+* Internally, with Workfront users and groups
+* Publicly, with users outside Workfront
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
++++ Expand to view access requirements for Workfront Planning. 
 
 <!--at GA the plan below will change to Prime, Select and Ultimate only-->
 
@@ -74,6 +76,7 @@ You must have the following access to perform the steps in this article:
   <tr>
    <td role="rowheader"><p>Permissions</p></td>
    <td> <p>Manage permissions to a view</p>  
+   <p>Only users with Manage permissions to a workspace can share a view publicly.</p>
 </td>
   </tr>
 
@@ -87,11 +90,23 @@ You must have the following access to perform the steps in this article:
 
 *For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
 
+## Considerations when sharing views
 
-## Share permissions to a view <!--internally-->
+* You can give View or Manage permissions to a view to internal Workfront users. 
 
-You can share views you created or views you have Manage permissions to <!--with users or groups in Workfront-->. 
+* Users with Manage permissions can modify the view settings, share, duplicate, or delete it. 
+
+* You can share views with people outside your organization with a public link.  
+
+* When you share a view publicly, the link is accessible by anyone outside of your company for a limited time, indicated by the expiration date. There is no login required to view the shared view.  
+
+* People outside your organization who have access to a view cannot create other views, edit the shared view, or add, delete, or edit record information in the view. 
+
+## Share permissions to a view internally
+
+You can share views you created or views you have Manage permissions to with users or groups in Workfront. 
 
 >[!NOTE]
 >
@@ -109,14 +124,14 @@ You can share views you created or views you have Manage permissions to <!--with
 
    ![](assets/more-menu-for-views-expanded-with-share-option.png)
 
-   <!--The Internal sharing tab should be selected by default.-->
+   The **Internal sharing** tab should be selected by default.
 
-1. (Optional) Select from the following options to share the view: 
+1. (Optional) In the **Who has access** area, select from the following options: 
 
    * **Only invited people can access**: You must specify users or groups that you want to share the view with. This is the default option.
    * **Everyone in the workspace can view**: All users that have View or higher permissions to workspaces can access the view. 
 
-1. In the **Grant view access to** field, start typing the name of a user or a group, then click it when it displays in the list.  <!--***********replace screen shot below when public sharing is released***********-->
+1. In the **Grant view access to** field, start typing the name of a user or a group, then click it when it displays in the list.  
 
     ![](assets/sharing-a-view-ui-with-groups.png)
 
@@ -129,25 +144,25 @@ You can share views you created or views you have Manage permissions to <!--with
         System administrators always receive Manage permissions to views shared with them.
 
 1. Click **Copy link** to copy a link to the view to your clipboard. 
-1. Share the copied link with others. Users who receive the link must be active users and log in to Workfront to be able to access the record type page and display it in the selected view. 
 1. Click **Save**.
 
+   The view updates with a people icon ![](assets/view-shared-with-others-people-icon.png) to indicate that the view is now shared with other users. 
+   
+   >
    >[!TIP]
    >
-   >   Views shared with you have a people indicator ![](assets/view-shared-with-others-people-icon.png) next to the view icon. Views without the people indicator are views you created. 
+   >Views without a people or a global icon are views you created and are not shared with others. Unshared views are only visible to you. 
 
+1. Share the copied link with others. Users who receive the link must be active users and log in to Workfront to be able to access the record type page and display it in the selected view. 
 
-
-<!--
 ## Share permissions to a view publicly
 
-You can share views you created or views you have Manage permissions to with people that do not have a Workfront license and who might be external to your organization. 
+You can share views you created or views you have Manage permissions to with people that do not have a Workfront license and who might be external to your organization.
 
-Consider the following when publicly sharing a Workfront Planning view: 
+>[!IMPORTANT]
+>
+>Only users with Manage permissions to a workspace can share the views of the workspace publicly.
 
-* You can share a public link to a record type page that displays in the view you are sharing.
-* People accessing the record type with the public link you provide have View permissions to the record page. They cannot modify the view, the records, or any of the fields that are visible in the view. 
-* The shared public link must have an expiration date after which the link is no longer accessible. 
 
 To share a view publicly in Workfront Planning: 
 
@@ -163,6 +178,8 @@ To share a view publicly in Workfront Planning:
 
 1. Click **Public sharing**.
 
+   ![](assets/public-sharing-tab-for-views.png)
+
 1. Enable the **Create public link** setting.
 
    A link becomes available. This is a public link. When shared, anyone with the link, including people from outside your organization can access the record type page, and view records and fields on the page. 
@@ -173,22 +190,17 @@ To share a view publicly in Workfront Planning:
 
 1. Click **Save**.
 
-1. Paste the link you copied to an email, chat message, document, or in a Workfront comment to share it with others. 
+   The view updates with a global icon ![](assets/public-shared-view-icon-highlighted.png) to indicate that the view is shared publicly.  
 
--->
+   >
+   >[!TIP]
+   >
+   >Views without a people or a global icon are views you created and are not shared with others. Unshared views are only visible to you. 
 
+
+1. (Optional) Paste the link you copied to an email, chat message, document, or in a Workfront comment to share it with others. 
 
 ## Remove permissions to a view
-
-{{step1-to-planning}}
-
-1. Open the workspace whose view you want to stop sharing, then click a record type card. This opens the record type page.
-1. Hover over the tab name of the view you want to remove sharing from and click the **More** menu ![](assets/more-menu.png), then click **Share**.
-1. Find the user or group what you want to remove, then click **Remove** in the permissions drop-down menu to the right of the user's or group's name.
-1. Click **Save**.
-   The user or the users that belong to the group removed no longer have access to the view. There is no notification for the users that have been removed from accessing the view that they lost this access.
-
-<!--Replace the above instructions with the following when public sharing is released: 
 
 {{step1-to-planning}}
 
@@ -206,4 +218,4 @@ To share a view publicly in Workfront Planning:
 
 1. Click **Save**.
    
-   People no longer have access to the view. There is no notification for the users that have been removed from accessing the view that they no longer have this access.-->
+   People no longer have access to the view. There is no notification for the users that have been removed from accessing the view that they no longer have this access.

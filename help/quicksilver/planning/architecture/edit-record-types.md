@@ -28,7 +28,7 @@ Record types are the object types of Adobe Workfront Planning. You can edit the 
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
++++ Expand to view access requirements for Workfront Planning. 
 
 <table style="table-layout:auto">
  <col>
@@ -55,9 +55,10 @@ You must have the following access to perform the steps in this article:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>Any</p> 
+   <p>New: Standard</p>
+   <p>Current: Plan</p> 
   </td>
   </tr>
   
@@ -81,6 +82,10 @@ You must have the following access to perform the steps in this article:
 
  </tbody>
 </table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 <!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -120,8 +125,8 @@ You must have the following access to perform the steps in this article:
    >
    >   You can rename the record type in the header.  
 
-    ![](assets/more-menu-options-from-record-details-page.png) 
-    
+    ![](assets/more-menu-options-from-record-type-page.png)
+   
     <!--check this screen shot - not sure this is valid ???-->
 
 1. (Optional) To edit another record type, expand the downward-pointing arrow to the right of a record type name, search for a record type, then select it when it displays in the list. 
