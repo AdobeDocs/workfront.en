@@ -6,7 +6,8 @@ title: AI Assistant in Workfront Fusion
 description: AI Assistant in Workfront Fusion
 author: Becky
 feature: Workfront Fusion
-exl-id: 7ba95790-1255-4a3e-ba7b-8dc73001b583
+hide: yes
+hidefromtoc: yes
 ---
 # AI Assistant in Workfront Fusion
 
