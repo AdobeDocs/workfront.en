@@ -298,7 +298,7 @@ To locate Workfront Planning:
 
 1. (Conditional and optional) If you are a Workfront administrator, click one of the following tabs:
     * **My workspaces**: Displays workspaces you created. <!--Replace with: Workspaces I'm on: Displays workspaces you created or workspaces that are shared with you.-->
-    * **Other workspaces**: Displays all other workspaces in the system, including the ones shared with you. <!--Replace with: Other workspaces: Displays all other workspaces in the system. >
+    * **Other workspaces**: Displays all other workspaces in the system, including the ones shared with you. <!--Replace with: Other workspaces: Displays all other workspaces in the system.-->
 
     For all other users, all workspaces that they created or are shared with them display in the **Workspaces** area.
 
