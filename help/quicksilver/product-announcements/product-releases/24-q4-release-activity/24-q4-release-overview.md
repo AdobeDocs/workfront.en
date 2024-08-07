@@ -29,6 +29,7 @@ This page provides information about functionality that is included in the Fourt
 ## Adobe Workfront enhancements
 
 * [Project enhancements](#project-enhancements)
+* [Integration enhancements](#integration-enhancements)
 * [Other enhancements](#other-enhancements)
 
 ### Project enhancements
