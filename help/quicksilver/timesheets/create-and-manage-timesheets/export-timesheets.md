@@ -9,11 +9,45 @@ exl-id: cb5b1c6c-7800-48f4-ae2c-c4007a161a6c
 ---
 # Export a list of timesheets
 
+<!--Audited: 8/2024-->
+
 As a people manager or timesheet approver, you might need to download a list of timesheets to quickly view information about the timesheets of the people you are responsible for. You can do this by exporting a list of timesheets.
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Light or higher </p>
+   <p>Current: Review or higher </p>
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>View or higher access to tasks and issues </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td> <p>View or higher permissions to the timesheet</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
+<!--Old permissions:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,13 +72,14 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-*To find out what plan or license type you have, contact your Workfront administrator.
+*To find out what plan or license type you have, contact your Workfront administrator.-->
 
 ## Export a list of timesheets
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+{{step1-to-timesheets}}
+   
+   The **Timesheets** area opens. 
 
-1. Click **Timesheets**. The **All** filter is selected by default.
 
    ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
