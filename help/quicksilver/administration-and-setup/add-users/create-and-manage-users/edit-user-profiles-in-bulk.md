@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-title: Edit user profiles in bulk
+title: Edit User Profiles in Bulk
 description: As an Adobe Workfront administrator, you can edit user accounts in bulk.
 author: Lisa
 feature: System Setup and Administration
@@ -32,6 +32,8 @@ You can edit user accounts in bulk. When bulk editing users, only the fields you
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -57,9 +59,11 @@ You must have the following to perform the steps in this article:
  </tbody> 
 </table>
 
++++
+
 ## Edit user accounts in bulk
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 
+{{step-1-to-users}}
 
 1. Select more than one user, then click the Edit icon ![](assets/edit-icon.png).
 
