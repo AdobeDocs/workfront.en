@@ -36,7 +36,13 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license*</p></td> 
    <td> <p>New: Standard</p>
-   <p>Current: Plan </p> </td> 
+   <p>Current: Plan </p> 
+   <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Administrative access to Timesheets & hours </p> </td> 
+  </tr> 
+   
+   </td> 
   </tr> 
  </tbody> 
 </table>
@@ -47,7 +53,7 @@ You must have the following access to perform the steps in this article:
 
 ## Designate timesheet approvers
 
-Typically, timesheets are approved by functional managers or human resources personnel. (Timesheets are not normally approved by project managers.)
+Typically, timesheets are approved by functional managers or human resources personnel. Timesheets are not usually approved by project managers. Project managers may approve time logged on projects, but team or human resource managers should approve timesheets. 
 
 A timesheet approver is defined when creating the Timesheet Profile. You must have a Plan license to be designated as an approver.
 

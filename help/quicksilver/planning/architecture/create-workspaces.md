@@ -92,6 +92,15 @@ For more information about access requirements, see [Access requirements in Work
 ## Considerations about workspaces
 
 * You can create workspaces for specific organizational units within your organization, to match the unique way each unit works. 
+* Depending on your Workfront license, workspaces display in the following tabs in the Planning area:
+
+   * For system administrators, workspaces display in the following tabs: 
+
+      * **My workspaces**: Displays workspaces you created. <!--Replace with: Workspaces I'm on: Displays workspaces you created or workspaces that are shared with you.-->
+      * **Other workspaces**: Displays all other workspaces in the system, including the ones shared with you. <!--Replace with: Other workspaces: Displays all other workspaces in the system. >
+
+   * For all other users, workspaces they created and workspaces others shared with them display in the Workspaces area. 
+
 * The record types that a workspace contains should reflect the work lifecycle of an organizational unit. 
 * When you create a workspace, only you have the permission to access and manage your workspace. You must share it with other users in order for them to collaborate with you in the same space. For information, see [Share a workspace](/help/quicksilver/planning/access/share-workspaces.md). System administrators can manage all workspaces, even the ones that they did not create. 
 * You can have the following: 
@@ -138,6 +147,7 @@ You can create a workspace and add record types to it to organize your objects i
     * An empty workspace named **Untitled Workspace** where you can start adding record types manually, when you create a workspace from scratch. 
     * A workspace named after the template you selected that is populated with sample record types. You can further customize the record types and the workspace.
      
+   For Workfront administrators, the new workspace displays on the **My workspaces** tab. <!--replace this with: Workspaces I'm on tab-->
 1. Click inside the name of the workspace in the header of the new workspace to rename it, then press Enter. 
 
 1. (Optional and conditional) If you created the workspace from a template, click inside the name of the **Operational Record Types** or **Taxonomies** sections 

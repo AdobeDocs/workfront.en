@@ -94,9 +94,22 @@ We recommend recreating some or all of the record types, records, fields, and vi
 
 {{step1-to-planning}}
 
-1. Click the workspace you want to delete.
+1. (Conditional) If you are a Workfront administrator, click **My workspaces** to access workspaces you created, or **Other workspaces** to access workspaces others shared with you. <!--change it to Workspaces I'm on-->
+
+1. Click the card of the workspace you want to delete.
 
    The workspace page displays. 
+
+<!--***********Replace the first step with this:*******
+
+1. (Optional) Click **Show more** to display additional workspaces. The **Show more** link displays only when you have workspaces that display on more than two rows.
+1. (Optional) ClicK **Show less** to limit the number of workspaces that display on the screen. 
+1. To delete a workspace, do one of the following:
+
+   * Hover over the workspace card, then click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the card, then click **De,ete**. 
+   * Click a workspace card to open the workspace. 
+   
+   ***********Add (Conditional) If you clicked a workspace card,******to the step below****-->
 
 1. Click the **More** menu ![](assets/more-menu.png) next to the workspace name, then click **Delete**.
 

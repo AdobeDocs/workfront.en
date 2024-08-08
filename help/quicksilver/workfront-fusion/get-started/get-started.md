@@ -23,6 +23,7 @@ This section contains the following articles:
 * [Create simple practice scenarios in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md)
 * [Create a practice automation scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-automation-scenario.md)
 * [Create a practice integration scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-scenario.md)
+* [AI Assistant in Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/fusion-ai-assistant.md)
 * [[!DNL Adobe Workfront Fusion] performance guardrails](../../workfront-fusion/get-started/fusion-performance-guardrails.md)
 * [IP Addresses for accessing [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/ip-addresses-for-fusion.md)
 * [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md)
