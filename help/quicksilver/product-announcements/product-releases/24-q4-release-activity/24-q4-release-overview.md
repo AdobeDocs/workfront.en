@@ -29,6 +29,7 @@ This page provides information about functionality that is included in the Fourt
 ## Adobe Workfront enhancements
 
 * [Project enhancements](#project-enhancements)
+* [Integration enhancements](#integration-enhancements)
 * [Other enhancements](#other-enhancements)
 
 ### Project enhancements
@@ -89,6 +90,42 @@ This page provides information about functionality that is included in the Fourt
                 </tr>
            </tbody>
         </table>
+
+### Integration enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Outlook integration login experience enhancements</a></p>
+                        <p>The login experience for Outlook integration has been streamlined so that all customers see the same button to log in to Workfront whether or not they are IMS-enabled. The subsequent login steps remain different for IMS and non-IMS instances, but the initial page is the same for all users.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 6, 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release for all customers: August 6, 2024</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
 
 ### Other enhancements
 
