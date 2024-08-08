@@ -42,7 +42,7 @@ You can add the following types of custom fields to a custom form in Workfront:
 * Text with formatting
 * Dropdown
 * Multi-Select Dropdown
-* External Lookup
+* External lookup
 * Native Field
 * Typeahead
 * Calculated
