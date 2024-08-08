@@ -95,11 +95,11 @@ To add a new version:
 
 >[!IMPORTANT]
 >
->Document decision buttons do not appear in viewer. You must navigate back to the document Summary to make your decision or mark your review complete. 
+>Document decision buttons do not appear in viewer. You must navigate back to the document Summary or Document Details page to make your decision or mark your review complete. 
 
 To review and approve a document:
 
-1. Go to your review email notification, and click to **Go to review**. 
+1. Go to your review email notification, and click to **Go to review**.
 
 1. Once you're in Workfront, click **Go to proof**. 
 
@@ -107,13 +107,13 @@ To review and approve a document:
 
 1. When you are finished with your review, close the proofing viewer.
 
-1. If you are on the Document details page, the decision buttons are located in the top-right corner of the screen. 
+1. If you are on the Document Details page, the decision buttons are located in the top-right corner of the screen. 
 
 1. Choose one of the following decisions:
 
-    * **Approve**: The asset does not need changes and is ready for use.
-    * **Approve with changes**: The asset needs changes and is ready for use once they are made. Additional approval is not required. 
-    * **Needs work**: The asset needs changes and is not ready for use. Once the specified changes are made, the asset must be uploaded as a new version and go through another round of approvals.
+    * **Approve**: The document does not need changes and is ready for use.
+    * **Approve with changes**: The document needs changes and is ready for use once they are made. Additional approval is not required. 
+    * **Needs work**: The document needs changes and is not ready for use. Once the specified changes are made, the document must be uploaded as a new version and go through another round of approvals. For more information on uploading a new version, see [ Create a new version as needed](#create-a-new-version-as-needed) in this article.
 
-The document owner is notified of the decision via email.
+Once you make a decision, the document owner is notified via email.
 
