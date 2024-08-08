@@ -7,9 +7,11 @@ recommendations: noDisplay, noCatalog
 ---
 
 <!--update metadata at GA-->
-<!--add to TOC and mini TOC when live-->
+<!--add mini TOC when live, already added to big TOC to get the link-->
 
 # Connect record types overview
+
+<!--REMOVE THE CONTENT BELOW FROM THE "CONNECT RECORD TYPES" ARTICLE WHEN YOU TURN THIS ARTICLE LIVE- THIS IS THE SAME CONTENT AS THERE, DUPLICATED-->
 
 You can indicate that individual record types relate to one another or to objects from other applications by connecting them. 
 

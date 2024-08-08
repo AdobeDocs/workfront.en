@@ -18,6 +18,10 @@ If you need instructions on creating a scenario, see [Create a scenario](../../w
 
 For information about modules, see [Modules in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
+>[!IMPORTANT]
+>
+>Connection creation is currently not available in the Creative Cloud Libraries connector. Existing connections work as expected.
+
 ## Access requirements
 
 You must have the following access to use the functionality in this article:
@@ -107,7 +111,7 @@ This action module archives an element from a library.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions about connecting your [!DNL Adobe Creative Cloud] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions.</td>
+      <td>Select an existing Creative Cloud Libraries connection. Connection creation is currently not available in the Creative Cloud Libraries connector. Existing connections work as expected.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -130,7 +134,7 @@ This action module returns a single element from a library.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions about connecting your [!DNL Adobe Creative Cloud] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions.</td>
+      <td>Select an existing Creative Cloud Libraries connection. Connection creation is currently not available in the Creative Cloud Libraries connector. Existing connections work as expected.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -176,7 +180,7 @@ This action module retrieves a list of elements in a library.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions about connecting your [!DNL Adobe Creative Cloud] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions.</td>
+      <td>Select an existing Creative Cloud Libraries connection. Connection creation is currently not available in the Creative Cloud Libraries connector. Existing connections work as expected.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -230,7 +234,7 @@ This action module uploads a small file asset to an existing library. Maximum fi
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions about connecting your [!DNL Adobe Creative Cloud] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions.</td>
+      <td>Select an existing Creative Cloud Libraries connection. Connection creation is currently not available in the Creative Cloud Libraries connector. Existing connections work as expected.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -281,7 +285,7 @@ This trigger module starts a scenario when an element is added to a library.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions about connecting your [!DNL Adobe Creative Cloud] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions.</td>
+      <td>Select an existing Creative Cloud Libraries connection. Connection creation is currently not available in the Creative Cloud Libraries connector. Existing connections work as expected.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -305,7 +309,7 @@ This trigger module starts a scenario when an element in a library is updated.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions about connecting your [!DNL Adobe Creative Cloud] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions.</td>
+      <td>Select an existing Creative Cloud Libraries connection. Connection creation is currently not available in the Creative Cloud Libraries connector. Existing connections work as expected.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
@@ -335,7 +339,7 @@ This trigger module starts a scenario when a new library is created.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions about connecting your [!DNL Adobe Creative Cloud] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions.</td>
+      <td>Select an existing Creative Cloud Libraries connection. Connection creation is currently not available in the Creative Cloud Libraries connector. Existing connections work as expected.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Limit]</td>
@@ -354,7 +358,7 @@ This trigger module starts a scenario when an existing library is updated.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions about connecting your [!DNL Adobe Creative Cloud] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions.</td>
+      <td>Select an existing Creative Cloud Libraries connection. Connection creation is currently not available in the Creative Cloud Libraries connector. Existing connections work as expected.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Limit]</td>
