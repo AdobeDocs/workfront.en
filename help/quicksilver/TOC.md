@@ -601,7 +601,7 @@ feature-set: Workfront
         * [Design a form from a copy](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
         * [Add calculated fields to a form](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
         * [Add display logic and skip logic to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
-        * [Examples of the External Lookup field in a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
+        * [Examples of the External lookup field in a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
         * [Organize and preview a form](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
       * Manage custom forms {#manage-custom-forms}
         * [Manage custom forms and fields: article index](administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)
