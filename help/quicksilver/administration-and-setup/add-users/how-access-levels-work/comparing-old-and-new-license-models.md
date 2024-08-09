@@ -16,11 +16,20 @@ role: Admin
  <col> 
  <col> 
  <col> 
+ <!--col> 
+ <col> -->
  <col> 
  <col> 
  <col> 
- <col> 
- <col> 
+ <thead> 
+  <tr> 
+   <th> </th> 
+   <th colspan="3">[!UICONTROL Legacy]</th> 
+   <!--<th>[!UICONTROL Requestor]</th> 
+   <th>[!UICONTROL External]</th> -->
+   <th colspan="3">[!UICONTROL New]</th> 
+   </tr> 
+ </thead> 
  <thead> 
   <tr> 
    <th> </th> 
@@ -230,10 +239,9 @@ role: Admin
    <!--<td></td> 
    <td></td> -->
    <td>✓</td> 
-   <td></td> 
+   <td>✓</td> 
    <td></td> 
   </tr> 
-  <tr> 
    <td>Create work tasks</td> 
    <td>✓</td> 
    <td></td> 
@@ -247,7 +255,7 @@ role: Admin
   <tr> 
    <td>Complete assigned work tasks</td> 
    <td>✓</td> 
-   <td></td> 
+   <td>✓</td> 
    <td></td> 
    <!--<td></td> 
    <td></td> -->
@@ -346,7 +354,7 @@ role: Admin
   <tr> 
    <td>Generate digital proofs</td> 
    <td>✓</td> 
-   <td></td> 
+   <td>✓</td> 
    <td></td> 
    <!--<td></td> 
    <td></td> -->
@@ -357,3 +365,7 @@ role: Admin
   </tr> 
  </tbody> 
 </table>
+
+
+<!--WFPlanning is Ultimate only>
+<!--Environment promotion is Prime and Ultimate only-->
