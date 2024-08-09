@@ -1,5 +1,5 @@
 ---
-title: Deactivate or reactivate a user
+title: Deactivate or Reactivate a User
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -41,6 +41,8 @@ You can reactivate a user at any time.
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -66,6 +68,8 @@ You must have the following to perform the steps in this article:
  </tbody> 
 </table>
 
++++
+
 ## Prerequisites
 
 Before you deactivate a Workfront administrator or Standard or Plan license user, you must associate their objects and activities with another user. 
@@ -84,7 +88,7 @@ Be aware of the following when deactivating a user:
 
 To deactivate a user:
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Users** ![](assets/users-icon-in-main-menu.png). 
+{{step-1-to-users}}
 
 1. Select a user, click the **More** icon ![](assets/more-icon.png), then click **Deactivate**.
 
@@ -98,7 +102,7 @@ Workfront administrators and Plan license users can see the deactivation date in
 
 To schedule a user for deactivation:
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Users** ![](assets/users-icon-in-main-menu.png). 
+{{step-1-to-users}}
 
 1. Select the user's name.
 
@@ -125,7 +129,7 @@ We recommend that you build a report for users that you have scheduled for deact
 
 ## Reactivate a user
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Users** ![](assets/users-icon-in-main-menu.png). 
+{{step-1-to-users}}
 
 1. Select a user, click the More icon ![](assets/more-icon.png), then click **Activate**.
 

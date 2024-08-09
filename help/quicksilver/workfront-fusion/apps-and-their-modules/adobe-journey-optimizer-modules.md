@@ -9,8 +9,6 @@ description: In an [!DNL Adobe Workfront Fusion] scenario, you can automate work
 author: Becky
 feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
-hide: yes
-hidefromtoc: yes
 ---
 # [!DNL Adobe Journey Optimizer] modules
 
@@ -114,6 +112,10 @@ You can create a connection in any Adobe Journey Optimizer module.
         <tr>
         <td role="rowheader">[!UICONTROL Organization ID]</td>
         <td>Enter your [!DNL Adobe] [!UICONTROL Organization ID]. This can be found in the [!UICONTROL Credentials] details section of the [!DNL Adobe Developer Console]</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Sandbox Name]</td>
+        <td>Enter the name of the sandbox that this connection will use.</td>
         </tr>
       </tbody>
     </table>

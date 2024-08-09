@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
-title: Create, edit, and share default filters, views, and groupings
+title: Create, Edit, and Share Default Filters, Views, and Groupings
 description: You can create default filters, views, and groupings, then make them available to users in your organization.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 32eb825c-ba50-4820-a659-adc924a6ae52
@@ -20,6 +20,8 @@ You can create default filters, views, and groupings, then make them available t
 When you create default filters, views, and groupings as described in this article, users who you share them with are able to leverage them when viewing their lists. Users can create their own filters, views, and groupings based on those you create, but they cannot directly change those you create.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article: 
 
@@ -41,6 +43,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Create default filters, views, or groupings
 
