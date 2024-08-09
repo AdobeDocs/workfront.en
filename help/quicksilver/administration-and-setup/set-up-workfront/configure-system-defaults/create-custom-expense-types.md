@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
-title: Create custom expense types
+title: Create Custom Expense Types
 description: As an [!DNL Adobe Workfront] administrator, you can create custom expense types to define and track the expenses associated with your tasks and projects. Expenses are non-labor costs that can be associated with tasks or projects.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
@@ -18,6 +18,8 @@ As an [!DNL Adobe Workfront] administrator, you can create custom expense types 
 You can edit or delete any expense types that you create. You cannot delete or edit the built-in [!DNL Workfront] expense types.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -40,6 +42,8 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
++++
+
 ## Default Expense Types
 
 The Expense Types that are in [!DNL Workfront] by default cannot be deleted or edited include the following:
@@ -53,7 +57,8 @@ The Expense Types that are in [!DNL Workfront] by default cannot be deleted or e
 
 ## Create custom expense types
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront].
+{{step-1-to-setup}}
+
 1. Click **[!UICONTROL Expense Types]**.
 1. Click **[!UICONTROL New Expense Type]**.
 1. In the **[!UICONTROL New Expense Type]** box that displays, specify the following information:
@@ -95,7 +100,8 @@ The Expense Types that are in [!DNL Workfront] by default cannot be deleted or e
 
 ## Modify custom Expense Types
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront].
+{{step-1-to-setup}}
+
 1. Click **[!UICONTROL Expense Types]**.
 1. Select the expense type that you want to modify, then click **[!UICONTROL Edit]**.
 

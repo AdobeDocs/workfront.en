@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
-title: Edit and create risk types
+title: Edit and Create Risk Types
 description: You can add risks to a project in the planning phase to identify potential obstacles prior to the approval of any work. Risks are possible events that could prevent completion of the project on time or within budget.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
@@ -16,6 +16,8 @@ exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
 You can add risks to a project in the planning phase to identify potential obstacles prior to the approval of any work. Risks are possible events that could prevent completion of the project on time or within budget.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -38,6 +40,8 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
++++
+
 ## Risks types
 
 Risk types are labels you can use for your risks to categorize them for reporting purposes. They are created in the **[!UICONTROL Setup]** area by the [!DNL Adobe Workfront] administrator. After risk types are established in your **[!UICONTROL Setup]** area, they are universal to your system. All project owners can use the same risk types for their projects.
@@ -51,7 +55,7 @@ Some risk types are already in [!DNL Workfront], by default. To reflect the need
 
 ### Edit existing risk types {#edit-existing-risk-types}
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **[!UICONTROL Risk Types]**.
 1. Select the risk type you want to edit.
@@ -68,7 +72,7 @@ You can create new risk types, in addition to the default ones, to reflect the n
 
 To create a new risk type:
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **[!UICONTROL Risk Types]**.
 1. Click **[!UICONTROL New Risk Type]**.
