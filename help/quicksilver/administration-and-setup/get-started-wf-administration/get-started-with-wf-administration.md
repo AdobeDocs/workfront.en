@@ -3,7 +3,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
-title: "Get started with Adobe Workfront administration: article index"
+title: "Get Started with Adobe Workfront Administration: Article Index"
 description: In this section, you can find information and instructions about first-time setup of Adobe Workfront, as well as information that you'll need as a Workfront administrator.
 author: Lisa
 feature: System Setup and Administration
