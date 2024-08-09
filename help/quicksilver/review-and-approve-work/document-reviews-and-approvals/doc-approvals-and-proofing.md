@@ -13,12 +13,11 @@ New document approvals in Workfront introduces a new set of features to help you
 
 There are some key differences in the workflow when using new document approvals and proofing together:
 
-* Decision buttons do not appear in viewer 
+* Decision buttons do not appear in the proofing viewer 
 
-* Participants are shown in document Summary, not the proofing workflow 
+* Participants are shown in the document Summary, not the proofing workflow 
 
-* SOCD is proofing related and does not reflect the decision status of the document
-
+* Sent, Opened, Comment, Decision (SOCD) details in the document list is proofing related and does not reflect the decision status of the document.
 
 ## Upload a document and create a proof 
 
@@ -33,7 +32,7 @@ Drag and drop the document into the document list.
 
 1. Hover over the document, then click the **Create Proof** link that appears below the document name, and select **Simple Proof**. You need to create a simple proof because you will not use the proofing workflow for approvals. 
 
-Users can use the proofing viewer to add comments and markup on the document. Continue to the next section to learn how to add review participants. 
+Users assigned as participants can use the proofing viewer to add comments and markup on the document. Continue to the next section to learn how to add review participants. 
 
 ## Open the document Summary and assign participants
 
@@ -53,9 +52,9 @@ To assign participants:
 
 1. (Optional) Set a deadline for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified deadline.
 
-1. To add an approver, click the Approver and and begin typing in a user or team name.
+1. To add an approver, click the Approver button and and begin typing in a user or team name.
 
-1. To add a reviewer, click the Reviewer checkbox and begin typing in a user or team name.
+1. To add a reviewer, click the Reviewer button and begin typing in a user or team name.
 
     ![](assets/add-approvers.png)
  
@@ -63,7 +62,7 @@ To assign participants:
 
 ## Create a new version as needed
 
-If you need another round of review and approval, you can create a new proof version.  <!-- and add the previous participants, new participants, or a mix of both. --> You can view information about previous versions and its participants in the document Summary.
+If you need another round of review and approval, you can create a new proof version.  <!-- and add the previous participants, new participants, or a mix of both. --> You can view information about previous versions and participants in the document Summary.
 
 To add a new version:
 
@@ -80,9 +79,9 @@ To add a new version:
 
 1. (Optional) Set a deadline for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified deadline.
 
-1. To add an approver, click the Approver and and begin typing in a user or team name.
+1. To add an approver, click the Approver button and and begin typing in a user or team name.
 
-1. To add a reviewer, click the Reviewer checkbox and begin typing in a user or team name.
+1. To add a reviewer, click the Reviewer button and begin typing in a user or team name.
 
     ![](assets/add-approvers.png)
  
@@ -93,9 +92,13 @@ To add a new version:
 
 ## Review the proof and make a decision 
 
+The document does not move to an approved status until all assigned approvers choose "approved".
+
+If any one approver chooses "needs work", the status of the document immediately changes to Needs work. The document will need to be revised and uploaded as a new version with a new approval workflow. 
+
 >[!IMPORTANT]
 >
->Document decision buttons do not appear in viewer. You must navigate back to the document Summary or Document Details page to make your decision or mark your review complete. 
+>Document decision buttons do not appear in the proofing viewer. You must navigate back to the document Summary or Document Details page to make your decision or mark your review complete. 
 
 To review and approve a document:
 
