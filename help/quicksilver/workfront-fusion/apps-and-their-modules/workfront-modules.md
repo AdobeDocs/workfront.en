@@ -141,7 +141,8 @@ If you see the map button above a field or function, you can use it to set varia
 
 >[!NOTE]
 >
->If you do not see the most up-to-date fields in a Workfront module, this may be because of caching issues. Wait one hour and try again.
+>* If you do not see the most up-to-date fields in a Workfront module, this may be because of caching issues. Wait one hour and try again.
+>* HTTP 429 status codes from Adobe Workfront should not cause deactivations, but instead trigger a short execution pause in the scenario.
 
 ![](assets/map-toggle-350x74.png)
 
