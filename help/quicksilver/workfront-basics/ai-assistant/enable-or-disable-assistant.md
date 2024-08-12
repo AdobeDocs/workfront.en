@@ -21,13 +21,19 @@ exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
 
 As a Workfront Administrator, you can control which users in your organization have AI Assistant enabled. This is managed through access levels.
 
+## Access requirements
+
+You must have the following access to perform the steps in this article:
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td>Any</td> 
+   <td><p>New: Any</p>
+       <p>or</p>
+       <p>Current: Not available</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
