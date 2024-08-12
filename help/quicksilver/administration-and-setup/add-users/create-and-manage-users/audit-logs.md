@@ -1,5 +1,5 @@
 ---
-title: Audit logs
+title: Audit Logs
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
