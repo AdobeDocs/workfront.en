@@ -20,7 +20,7 @@ This page provides information about functionality that is included in the Fourt
 >
 >|Monthly release|Quarterly release|
 >|----|----|
->|<ul><li>24.8 (August 2024)</li><li>24.9 (September 2024)</li><li>24.10 (October 2024)</li></ul>| <ul><li>24.10 (October 2024)</li></ul>|
+>|<ul><li>There are no planned features for the 24.8 (August 2024) release</li><li>24.9 (September 2024)</li><li>24.10 (October 2024)</li></ul>| <ul><li>24.10 (October 2024)</li></ul>|
 >
 >Note that for the final release of each quarter (24.10 this quarter), users on the fast release schedule will receive the release one day early.
 >
@@ -148,7 +148,29 @@ This page provides information about functionality that is included in the Fourt
                             </li>
                         </ul>
                     </td>
-                </tr>                
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe AI Assistant available in Workfront</a></p>
+                        <p>To make it easier for you to accomplish your work, we've added Adobe's AI Assistant to Workfront. AI Assistant can help you by:</p>
+                        <ul>
+                            <li>Summarizing work items and documents, allowing you to quickly gain a general understanding of tasks, projects, and assets.</li>
+                            <li>Providing information from Experience League documentation, bringing instructions and reference material into Workfront, while linking to more in-depth documentation.</li>
+                            <li>Creating and refining formulas for calculated custom form fields, generating formulas from text prompts, or locating errors in existing formulas.</li>
+                            </ul>
+                            <p>Your Workfront administrator can enable or disable AI Assistant for your organization. The AI Assistant is available for instances with Select, Prime, and Ultimate plans.</p>
+                        </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 28, 2024</p>
+                            </li>
+                            <li>
+                                <p class="preview">Production release: August 28, 2024</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                            
            </tbody>
         </table>   
 
