@@ -19,6 +19,7 @@ You can create records by doing one of the following:
 * Add them from the record type page
 * Copy and paste a list of records from an external list
 * Duplicate them
+<!--* Add them as you connect them from other records-->
 
 This article describes how you can create records. For information about managing records in the table or timeline views, see the following articles:
 
@@ -208,3 +209,27 @@ You can import records from other applications by linking them to existing recor
 ## Create records by duplicating them
 
 For information about duplicating records, see [Duplicate records](/help/quicksilver/planning/records/copy-or-duplicate-records.md).
+
+<!--check the steps with the release of in-context record types epic: 
+
+## Create records by connecting them
+
+You can create records while you connect them from other records. 
+
+You must have the following before you can add new records by connecting them from existing records:
+
+* Connected record types. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Connected records. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+
+To create records as you are connecting them from other records: 
+
+1. Start connecting Workfront Planning records, as described in the article [Connect records](/help/quicksilver/planning/records/connect-records.md). 
+1. (Conditional) If you cannot find a record when trying to add it from the connected record field of another record, search for a record, then click **+ Add**. The **+ Add** button is followed by the name of the record type you are connecting from. 
+
+    ![](assets/add-button-to-create-records-in-context-highlighted.png)
+
+    The record is created and added to the connected record field. 
+1. (Optional) Go to the table view of the record type whose record you created. A new record displays in the last row of the view. 
+1. (Optional) Start adding information for the new record in the table view, or click its name to open the details page and add information there. 
+
+--> 
