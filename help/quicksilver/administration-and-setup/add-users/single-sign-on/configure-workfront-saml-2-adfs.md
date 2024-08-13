@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: single-sign-on-in-workfront
-title: Configure Adobe Workfront with SAML 2.0 using ADFS
+title: Configure Adobe Workfront with SAML 2.0 Using ADFS
 description: You can enable authentication to Workfront with SAML 2.0.
-author: Becky, Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9bc5987b-6e32-47df-90c8-08ea4b1b7451
@@ -18,6 +18,8 @@ As an Adobe Workfront administrator, you can integrate Workfront with a Security
 This guide focuses on setting up ADFS without auto provisioning or attribute mappings. We recommend that you complete the setup and test it prior to setting up any auto provisioning.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article: 
 
@@ -40,6 +42,8 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
++++
+
 ## Enable authentication to Workfront with SAML 2.0
 
 To enable authentication to the Workfront web application and the Workfront mobile application with SAML 2.0, complete the following sections:
@@ -51,7 +55,8 @@ To enable authentication to the Workfront web application and the Workfront mobi
 
 ### Retrieve the Workfront SSO metadata file {#retrieve-the-workfront-sso-metadata-file}
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. In the left panel, click **System** > **Single Sign-On (SSO)**.
 1. In the **Type** drop-down menu, click **SAML 2.0** to display additional information and options.  
 1. Copy the URL that displays after **Metadata URL**. 

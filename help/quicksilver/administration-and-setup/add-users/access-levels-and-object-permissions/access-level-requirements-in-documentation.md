@@ -1,5 +1,5 @@
 ---
-title: Access requirements in Workfront documentation
+title: Access Requirements in Workfront Documentation
 content-type: reference
 product-area: system-administration
 keywords: access,level,system,administrator,planner,worker,reviewer,requestor,external,user

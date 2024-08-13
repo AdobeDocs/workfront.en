@@ -4,9 +4,9 @@ content-type: reference
 product-area: system-administration
 keywords: access,model,funnel,diagram,levels,permissions
 navigation-topic: access-levels
-title: Functionality available for each object type for new access levels
+title: Functionality Available for Each Object Type for New Access Levels
 description: The following tables lists the functionality available for each object type in the various access levels.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
@@ -319,7 +319,7 @@ Only users with a Standard license can have full access to resource management. 
 |----------------------------------------------------------------|----------|--------|-------------|---------------|
 | Edit priorities and budget hours in the Planner                | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
 | Create, edit, delete Resource Pools&#42;&#42;                  | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| `Update Planned Hours in the Workload Balancer`&#42;&#42;&#42; | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
+| Update Planned Hours in the Workload Balancer&#42;&#42;&#42;   | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
 | View project priorities in the Resource Planner                | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
 | View resource allocation in the Resource Planning tools        | ✓&#42;   | ✓&#42; | &nbsp;      | &nbsp;        |
 | View Resource Pools                                            | ✓&#42;   | ✓&#42; | &nbsp;      | &nbsp;        |
