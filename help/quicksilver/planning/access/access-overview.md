@@ -135,9 +135,6 @@ You must have the following to be able to access Workfront Planning:
    </td>
 
   </tr>
-
-
-
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront license*</p></td>
@@ -177,6 +174,7 @@ You must have the following to be able to access Workfront Planning:
 *********ensure that the link ^^^^^^^^above^^^^^^^^ to Workfront Pricing and Packaging now also includes information about Workfront Planning. If not, talk with Lauren S.***************
 
 -->
+
 ## Share the Planning area in the Main Menu with others
 
 <!--First, contact your account manager to obtain access to the current Workfront Planning program.--> 
