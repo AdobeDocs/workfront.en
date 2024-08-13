@@ -1,5 +1,5 @@
 ---
-title: Customize the Main Menu using a layout template
+title: Customize the Main Menu Using a Layout Template
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates

@@ -1,5 +1,5 @@
 ---
-title: Assign users to a layout template
+title: Assign Users to a Layout Template
 user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
@@ -25,6 +25,8 @@ For information about layout templates for groups, see [Create and modify a grou
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
@@ -46,6 +48,8 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Assign a layout template to users
 

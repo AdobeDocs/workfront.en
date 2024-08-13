@@ -1,5 +1,5 @@
 ---
-title: "Custom forms: article index"
+title: "Custom Forms: Article Index"
 user-type: administrator
 content-type: reference
 product-area: system-administration

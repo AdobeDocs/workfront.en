@@ -798,9 +798,6 @@ feature-set: Workfront
     * [Configure a blueprint](administration-and-setup/blueprints/configure-template-package.md)
     * [Actions to take after installing a blueprint](administration-and-setup/blueprints/best-next-actions-after-install.md)
     * [List of available blueprints](administration-and-setup/blueprints/list-of-available-blueprints.md)
-  * Administrator FAQs {#admin-faq}
-    * [Administrator FAQs](administration-and-setup/administrator-faqs/adminstrator-faqs.md)
-    * [AtTask OnPremise support policy](administration-and-setup/administrator-faqs/attask-onpremise-support-policy.md)
   * Administration in the Adobe Admin Console {#admin-in-admin-console}
     * [Workfront Administration in the Adobe Admin Console](administration-and-setup/adobe-admin-console/wf-admin-in-admin-console.md)
     * [Prepare for the Adobe Admin Console](administration-and-setup/adobe-admin-console/prep-for-admin-console.md)    

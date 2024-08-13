@@ -1,5 +1,5 @@
 ---
-title: About the default Adobe Workfront layout
+title: About the Default Adobe Workfront Layout
 user-type: administrator
 content-type: reference;overview
 product-area: system-administration;templates
