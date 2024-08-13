@@ -65,7 +65,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 1. View the information in the list on the right.
 
-   ![](assets/open-history-tab-350x202.png)
+<!--   ![](assets/open-history-tab-350x202.png)-->
 
    You can also click to see a full-page view of this information. The full-page view allows you to filter the history to view specific executions.
 
