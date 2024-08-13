@@ -13,6 +13,8 @@ exl-id: b04ed2e8-c60e-4978-8a9d-b9e087987ef4
 
 <!--Audited: 12/2023-->
 
+{{highlighted-preview}}
+
 {{form-designer-default}}
 
 You can build a custom form that users can attach to an Adobe Workfront object. Users who work on the object can fill out the custom form to supply information about the object.
@@ -24,6 +26,8 @@ For example, you can attach a custom form called "Marketing Content Research" to
 ## How to create a custom form
 
 The form designer has a canvas-style workspace that allows you to view the fields, canvas, and field settings all at the same time. It also allows you to drag and drop fields within the sections while designing your form. You can resize the right side of the screen to provide more room for the field options.
+
+<span class="preview">A **Layout** button (not shown in this image) allows you to choose from a two- or three-column working area. The button indicates which layout is currently selected. The three-column layout displays the field settings in the far right column. In the two-column layout, the field settings are displayed next to the field library in the far left column.</span>
 
 For more information, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
