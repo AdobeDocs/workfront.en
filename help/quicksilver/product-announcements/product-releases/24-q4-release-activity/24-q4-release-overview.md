@@ -20,7 +20,7 @@ This page provides information about functionality that is included in the Fourt
 >
 >|Monthly release|Quarterly release|
 >|----|----|
->|<ul><li>There are no planned features for the 24.8 (August 2024) release</li><li>24.9 (September 2024)</li><li>24.10 (October 2024)</li></ul>| <ul><li>24.10 (October 2024)</li></ul>|
+>|<ul><li>24.8 (August 2024)</li><li>24.9 (September 2024)</li><li>24.10 (October 2024)</li></ul>| <ul><li>24.10 (October 2024)</li></ul>|
 >
 >Note that for the final release of each quarter (24.10 this quarter), users on the fast release schedule will receive the release one day early.
 >
