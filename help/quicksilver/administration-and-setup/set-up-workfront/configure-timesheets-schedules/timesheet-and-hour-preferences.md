@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
-title: Configure timesheet and hour preferences
+title: Configure Timesheet and Hour Preferences
 description: As an [!DNL Adobe Workfront] administrator, you can specify preferences for timesheets and hours in [!DNL Workfront] in order to define what items the timesheets can pre-populate with and what items users can log time to.
 author: Alina and Lisa
 feature: System Setup and Administration
@@ -27,11 +27,11 @@ As an [!DNL Adobe Workfront] administrator, you can specify preferences for time
 >
 >For more information, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md) and [Timesheet overview](/help/quicksilver/timesheets/timesheets/timesheets-overview.md). 
 
-
-
 Any changes you make to timesheets impact all timesheets that are created in the future.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -57,7 +57,9 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Set timesheet and hour preferences
 

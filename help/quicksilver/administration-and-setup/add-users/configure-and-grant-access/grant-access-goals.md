@@ -1,10 +1,10 @@
 ---
-title: Grant access to Adobe Workfront Goals
+title: Grant Access to Adobe Workfront Goals
 user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-access-to-workfront
 description: As an Adobe Workfront administrator, you can use an access level to define a user's access to Workfront Goals.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8639da14-d545-4f9a-894b-12c29699b0db
@@ -14,6 +14,8 @@ exl-id: 8639da14-d545-4f9a-894b-12c29699b0db
 As an Adobe Workfront administrator, you can use an access level to define a user's access to Adobe Workfront Goals, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to grant users access to Workfront Goals:
 
@@ -43,6 +45,8 @@ You must have the following to grant users access to Workfront Goals:
 &#42;To find out what plan, license type, or access level you have, contact your Workfront administrator.
 
 For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+
++++
 
 ## Grant user access to Workfront Goals using a custom access level
 

@@ -1,5 +1,5 @@
 ---
-title: Grant administrative access for a layout template
+title: Grant Administrative Access for a Layout Template
 user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
@@ -21,6 +21,8 @@ For information about layout templates for groups, see [Create and modify a grou
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
@@ -41,6 +43,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Grant administrative access for a layout template
 

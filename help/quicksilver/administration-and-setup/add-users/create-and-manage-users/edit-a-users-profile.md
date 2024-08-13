@@ -1,5 +1,5 @@
 ---
-title: Edit a user's profile
+title: Edit a User's Profile
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users

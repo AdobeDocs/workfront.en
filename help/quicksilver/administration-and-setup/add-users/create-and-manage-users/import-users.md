@@ -1,10 +1,10 @@
 ---
-title: Import users
+title: Import Users
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: You can import users to the Adobe Workfront site by synchronizing users from a network directory service (such as Active Directory or another LDAP directory), or you can import users using a spreadsheet import file.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 3dd99d01-a32f-4af8-90e3-f8c0e9027651
@@ -28,6 +28,8 @@ You can import users using a spreadsheet import file.
 Before you create a new user, first ensure that you have created all objects that you want to associate with the user. For example, if you have not created a schedule, you cannot assign a schedule to the new user, and the field you use to associate a schedule with the new user does not appear in the New User screen.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -54,9 +56,11 @@ You must have the following to perform the steps in this article:
  </tbody> 
 </table>
 
++++
+
 ## Use a spreadsheet import file to import users
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 
+{{step-1-to-users}}
 
 1. Click the **New User** drop-down arrow, then click **Import Users**.
 
