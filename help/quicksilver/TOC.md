@@ -2033,11 +2033,13 @@ feature-set: Workfront
     * [Adobe Workfront Planning general information: article index](planning/general/planning-general-article-index.md)
     * [Adobe Workfront Planning overview](planning/general/planning-overview.md)
     * [Adobe Workfront Planning API basics](planning/general/planning-api-basics.md)
+    * [Adobe Workfront Planning object limitations overview](planning/general/limitations-overview.md)
     * [Adobe Workfront Planning AI Assistant overview](planning/general/planning-ai-assistant-overview.md)
     * [Adobe Workfront Planning current release activity](planning/general/release-activity.md)
     * [Adobe Workfront Planning release activity archives for 2023](planning/general/release-activity-archives-2023.md)
   * Adobe Workfront Planning architecture {#adobe-workfront-planning-architecture}
     * [Architecture: article index](planning/architecture/architecture-information.md)
+    * [Workspaces overview](planning/architecture/workspaces-overview.md)
     * [Create workspaces](planning/architecture/create-workspaces.md)
     * [Record types overview](planning/architecture/overview-of-record-types.md)
     * [Create record types](planning/architecture/create-record-types.md)

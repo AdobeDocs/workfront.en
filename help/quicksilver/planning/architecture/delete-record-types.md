@@ -130,11 +130,11 @@ For information about record types, see [Record types overview](/help/quicksilve
     The workspace opens and the record types display. 
 1. Do one of the following:
 
-   * Hover over the record type card, click the More menu, then **Delete**. 
+   * Hover over the record type card, click the **More** menu, then **Delete**. 
    * Click the card for the record type that you want to delete, and from the record type page, click the **More** menu ![](assets/more-menu.png) to the right of the record type name, then click **Delete**. 
 
    ![](assets/permanently-delete-record-type-confirmation.png)
 
 1. Type **delete** in the confirmation box, then click **Permanently delete**. This is not case sensitive. 
    
-   The selected record type, along with their fields, associated records, and views are deleted.
+   The selected record type, along with their fields, associated records, and views are deleted and cannot be recovered. 

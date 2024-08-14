@@ -30,6 +30,8 @@ Record types are the object types of Adobe Workfront Planning. You can edit the 
 
 +++ Expand to view access requirements for Workfront Planning. 
 
+<!--update the table to say that: Only system administrators can enable record types to connect from other workspaces.-->
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -98,14 +100,16 @@ Record types are the object types of Adobe Workfront Planning. You can edit the 
 
 1. Click the workspace whose record types you want to edit, 
 
-    Or
+   The workspace page opens and the record types display. 
+1. Do one of the following:
 
-    From a workspace, expand the downward-pointing arrow to the right of an existing workspace name, search for a workspace, then select it when it displays in the list.
+   * Hover over the card of a record type and click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the record type card, then click **Edit**
+      Or
+   * Click a record type card to open the record type page, click the **More** menu ![](assets/more-menu.png) to the right of the record type name, then click **Edit**. 
 
-    The workspace opens and the record types display. 
-1. Hover over the card of a record type and click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the record type card, then click **Edit**. 
+   ![](assets/more-menu-options-from-record-type-card.png)
 
-    ![](assets/more-menu-options-from-record-type-card.png)
+   <!--replace everything below with the commented out text below-->
 
 1. In the **Edit record type** box, update the following information: 
 
@@ -130,3 +134,35 @@ Record types are the object types of Adobe Workfront Planning. You can edit the 
     <!--check this screen shot - not sure this is valid ???-->
 
 1. (Optional) To edit another record type, expand the downward-pointing arrow to the right of a record type name, search for a record type, then select it when it displays in the list. 
+
+<!--*******************For GA - replace the above with this:
+
+1. In the **Edit record type** box, click the **Appearance** tab and update the following information: (*******copy the screen shot above here and update it with the Appearance tab**********)
+
+    * Edit the record type name, if needed. (*****did they add a field label for this?******)
+    * **Description**: Edit or add a description for the record type with more information about it. 
+    * Edit the color and shape of the icon associated with the record type. Do the following: 
+        * Select a color to identify the record type. This is the color of the record type icon. Gray is selected by default.
+        * Select an icon from the list, or start typing the name of an icon to describe what it represents, then select it when it displays. This is the icon of the record type. A file icon is selected by default.
+
+        ![](assets/update-record-type-box.png)
+
+1. (Conditional) If you are a system administrator, click the **Advanced settings** tab in the **Edit record type** box and update the following information: 
+
+   * **Connect from other workspaces**: Select this toggle to allow users to connect to this record type from other workspaces. This is deselected by default.
+   * **System wide**: Select this option to allow users to connect to this record from all workspaces in the system.
+   * **Specific workspaces**: Select this option to restrict the workspaces from which users can connect to this record type, then expand the drop down menu and select the workspaces you want users to connect to this record type from. You can start typing the name of a workspace, and select it when it displays in the list. 
+
+   ![](assets/edit-record-type-box-advanced-settings-tab.png)
+
+   The record type card displays a connectivity icon ![](assets/connect-from-other-workspaces-icon.png) in the upper-right corner to indicate that the record is now accessible from other workspaces. 
+
+
+1. Click **Save**.
+1. (Optional) Click the record type card from the workspace area to open the record type's page, then rename the record type in the header.  
+
+1. (Optional) To edit another record type, from the record type page, expand the downward-pointing arrow to the right of a record type name, search for a record type, then select it when it displays in the list.
+
+   ![](assets/record-type-drop-down-on-record-type-page-with-search-box.png)
+
+   -->
