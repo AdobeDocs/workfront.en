@@ -1,5 +1,5 @@
 ---
-title: "Create and manage users: article index"
+title: "Create and Manage Users: Article Index"
 user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
