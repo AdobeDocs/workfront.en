@@ -32,6 +32,7 @@ Also, Workfront Planning can link to object types from other systems, creating a
 
 The articles in the following sections describe how you can configure the Adobe Workfront Planning workspaces, define the record types which are the building blocks of those workspaces, and start using its capabilities: 
 
+* [Workspaces overview](/help/quicksilver/planning/architecture/workspaces-overview.md)
 * [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md)
 * [List of workspace templates](/help/quicksilver/planning/architecture/workspace-templates.md)
 * [Record types overview](/help/quicksilver/planning/architecture/overview-of-record-types.md)

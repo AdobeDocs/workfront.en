@@ -110,6 +110,8 @@ Although Workfront Planning is part of Workfront, it comes with proprietary conc
 
 The framework for Workfront Planning is fully customizable. You can create all record types, their attributes, and any fields associated with them to suit the exact needs of your organization. 
 
+There are limitations for how many Workfront Planning objects you can create. For more information, see [Adobe Workfront Planning object limitations overview](/help/quicksilver/planning/general/limitations-overview.md). 
+
 The following are the main Workfront Planning objects and concepts: 
 
 * **Workspace**: A collection of record types that define the operational lifecycle of a certain organization. A workspace is the work frame of an organizational unit. 
@@ -246,34 +248,6 @@ The following are the main Workfront Planning objects and concepts:
 
 
 For more information, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
-
-
-## Adobe Workfront Planning object limitations
-
-The following table shows the limits for how many objects you can create in Workfront Planning. The limitations are subject to change as we move into the next phases of development. 
-
-<!--consider making the table view a stand-alone article when we go to GA-->
-
-|       Adobe Workfront Planning  object                                                          |                                                        Limit                                                    |
-|-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
-|     Number of Workspaces for one Workfront instance                                      |   1,000                                                                                                         |
-|     Number of sections for one workspace                                      |   50                                                                                                         |
-|     Number of Record Types for one workspace                                            |   1,000 (this includes record types from all sections and those that are created when using a workspace template)  |
-|     Number of records for one record type                                               |   50,000                                                                                                        |
-|     Number of fields for one record type or taxonomy                            |   500                                                                                                           |
-|     Number of characters for a text field                                                               |   1,000 characters                                                                                              |
-|     Size of file that you can paste in a record type table                    |   1MB                                                                                                           |
-|     Size of file that you can import through the API for a record type table  |   1.5MB                                                                                                         |
-|     The rate at which API requests can be made                                    |   200 requests per minute                                                                                       |
-| Size of CSV of Excel file you can import* | 5MB |
-| Number of views one user can create for one record type | 100 |
-
-<!--add to the table above: Maximum number of views created by one use 100 -->
-
->[!IMPORTANT]
->
->*This functionality has been temporarily disabled and it will be available at a later date.
-
 
 ## Locate Adobe Workfront Planning
 

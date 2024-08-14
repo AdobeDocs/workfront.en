@@ -100,16 +100,19 @@ We recommend recreating some or all of the record types, records, fields, and vi
 
    The workspace page displays. 
 
-<!--***********Replace the first step with this:*******
+<!--***********Replace the steps from the next below till the "Type "delete" in the space ... " (but keep this last step)*******
 
-1. (Optional) Click **Show more** to display additional workspaces. The **Show more** link displays only when you have workspaces that display on more than two rows.
+1. (Optional) Click **Show more** to display additional workspaces. The **Show more** link displays only when you have more than two rows of workspace cards.
 1. (Optional) ClicK **Show less** to limit the number of workspaces that display on the screen. 
 1. To delete a workspace, do one of the following:
 
-   * Hover over the workspace card, then click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the card, then click **De,ete**. 
-   * Click a workspace card to open the workspace. 
-   
-   ***********Add (Conditional) If you clicked a workspace card,******to the step below****-->
+   * Hover over the workspace card, then click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the card
+      Or
+   * Click a workspace card to open the workspace, then click **More** to the right of the workspace name. 
+1. Click **Delete**.
+
+   ![](assets/permanently-delete-workspace-confirmation.png)
+   -->
 
 1. Click the **More** menu ![](assets/more-menu.png) next to the workspace name, then click **Delete**.
 

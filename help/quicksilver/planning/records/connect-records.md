@@ -140,8 +140,7 @@ You can connect the following:
 
 * Everyone with access to Workfront Planning and View or higher permissions to the workspace can see the connections that you make between records or between records and other applications' objects. They can view connected records and objects regardless of their permissions in the  applications you are connecting to. 
 * You can view and edit everyone else's connections, if you have Manage permissions to the workspace where the connected records are. 
-* You can connect one record to one or multiple objects from another application.
-
+* You can connect one record to one or multiple objects from another application. 
 * You can connect objects from Workfront to Workfront Planning records in the following areas:
   * From a Planning record in Workfront Planning. 
   * From the Planning section of a Workfront object. 
