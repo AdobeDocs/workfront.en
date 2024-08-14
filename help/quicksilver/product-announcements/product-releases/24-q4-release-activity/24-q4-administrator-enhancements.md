@@ -23,5 +23,4 @@ A "Layout" button on the custom form designer allows you to choose from a two- o
 >
 >This option is available only in the Preview environment while we gather feedback on the feature, and there is not a timeframe for a Production release.
 
-
 For information, see [Custom forms overview](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
