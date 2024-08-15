@@ -1,5 +1,5 @@
 ---
-title: "Design a form: article index"
+title: "Design a Form: Article Index"
 user-type: administrator
 content-type: reference
 product-area: system-administration
