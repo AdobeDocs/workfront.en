@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: manage-rate-cards
-title: Manage rate cards
+title: Manage Rate Cards
 description: Rate cards allow you to define multiple billing rates per role, based on location.
 author: Lisa
 feature: System Setup and Administration
@@ -16,6 +16,8 @@ exl-id: 3972f498-c461-4535-82c6-ad1b60d3ed86
 Rate cards allow you to define multiple billing rates per role, based on location. You could have a job role of Designer based in Paris and a second Designer based in New York, each with different billing rates. However, a location is not required for job roles on a rate card. A billing rate for a job role (and possibly location) on a rate card can also include effective dates.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -44,6 +46,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Add a rate card
 

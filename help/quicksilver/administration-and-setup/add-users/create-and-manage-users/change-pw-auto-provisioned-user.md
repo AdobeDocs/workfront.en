@@ -3,9 +3,9 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-title: Change the password for an auto-provisioned user
-description: Often, when a new user attempts to change their temporary password, they enter their email address and receive an error for an incorrect user name. They must enter their system-assigned user name, which is their Globally Unique Identifier (GUID). Because a GUID is hard to remember and use, we recommend that you change a new suser's user name to their Workfront mail address, then allow them to change their password.
-author: Caroline
+title: Change the Password for an Auto-provisioned User
+description: We recommend that you change a new user's user name to their Workfront mail address, then allow them to change their password.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 14124911-e5e1-4a4f-9b25-8b4fab0329e1
@@ -35,6 +35,8 @@ Because GUID user names can be difficult to use, we recommend you first change a
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
@@ -55,6 +57,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Change the password for an auto-provisioned user
 

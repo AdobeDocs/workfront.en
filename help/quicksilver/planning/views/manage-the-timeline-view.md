@@ -122,7 +122,7 @@ To manage a timeline view:
 
 1. Do one of the following to navigate through the timeline:
 
-    * Click the left and right icons or use the horizontal scroll to move backwards and forwards in the timeline. 
+    * Click the left and right icons or use the horizontal scroll to move backwards and forwards in the timeline. Refreshing the page preserves the selected time frame. 
     * Click **Today** to center the timeline to today's date. 
     * Select one of the following options from the time frame drop-down menu to update the time increments: 
 

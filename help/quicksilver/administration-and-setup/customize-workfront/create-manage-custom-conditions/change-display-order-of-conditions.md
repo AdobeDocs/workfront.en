@@ -1,10 +1,10 @@
 ---
-title: Change the display order of conditions
+title: Change the Display Order of Conditions
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: You can change the order in which conditions display when a user edits project or changes the condition for a task or issue.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
@@ -22,6 +22,8 @@ You can change the order in which conditions display in projects, tasks and issu
   ![](assets/change-conditions-list-dropdown-only.png)
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article: 
 
@@ -44,9 +46,11 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
++++
+
 ## Change the display order of conditions
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **Project Preferences** > **Conditions**.  
 

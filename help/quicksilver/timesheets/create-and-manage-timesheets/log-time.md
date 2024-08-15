@@ -474,6 +474,7 @@ For more information, see [Adobe Workfront for Android](/help/quicksilver/workfr
 >
 >For information, see [Manage hour types](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md). 
 >
+
 You can edit logged hours in the following areas:
 
 * All areas where you added the hours, including open timesheets

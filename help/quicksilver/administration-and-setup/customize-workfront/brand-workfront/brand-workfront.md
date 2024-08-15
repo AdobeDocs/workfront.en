@@ -1,11 +1,11 @@
 ---
-title: Custom branding in Adobe Workfront
+title: Custom Branding in Adobe Workfront
 user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
 description: As a Workfront administrator, you can customize the branding in your Workfront instance and create a custom help URL.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog

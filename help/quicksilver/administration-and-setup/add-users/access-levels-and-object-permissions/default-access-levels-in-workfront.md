@@ -4,9 +4,9 @@ content-type: reference
 product-area: system-administration
 keywords: access,model,funnel,diagram,levels,permissions
 navigation-topic: access-levels
-title: Built-in access levels
+title: Built-in Access Levels
 description: Each of the six current built-in access levels is designed for a particular type of user, including System Administrator, Planner, Worker, Reviewer, Requestor, and External User. These access levels let you control what users can edit and view in the system. If you need a custom access level, you can copy a built-in access level and modify it according to the amount of access you want it to allow for the various Workfront object types.
-author: Becky, Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
