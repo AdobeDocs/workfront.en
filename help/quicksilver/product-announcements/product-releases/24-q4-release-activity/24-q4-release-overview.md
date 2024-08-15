@@ -60,9 +60,13 @@ This page provides information about functionality that is included in the Fourt
                                 <p>Preview release: August 12, 2024</p>
                             </li>
                             <li>
+                                <p>Production for fast release: With the 24.9 release (September 2024)</p>
+                            </li>
+                            <li>
                                 <p>Production release for all customers: TBD</p>
                             </li>
                         </ul>
+                        <p><i>This feature is part of a phased release and will be available to a limited number of customers in September.</i></p>
                     </td>
                 </tr>
            </tbody>
@@ -107,7 +111,7 @@ This page provides information about functionality that is included in the Fourt
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">More relevant smart assignments</a></p>
-                        [!BADGE In production for Fast Release ]{type=Positive}
+                        [!BADGE In production ]{type=Informative}
                         <p>We have changed the algorithm that Workfront uses to calculate and suggest smart assignments for tasks. The new algorithm applies in the following areas in Workfront where you assign a task: task lists, the Assignments area in the task header, Home, and the Summary panel.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>

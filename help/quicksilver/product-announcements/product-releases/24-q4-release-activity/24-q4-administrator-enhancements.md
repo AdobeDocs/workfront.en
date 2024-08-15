@@ -15,12 +15,10 @@ For a list of all changes available at this point in the Fourth Quarter 2024 rel
 
 >[!NOTE]
 >
->Preview release: August 12, 2024; Production release: TBD
+>Preview release: August 12, 2024; Production for fast release with the 24.9 release (September 2024); Production for quarterly release: TBD
+>
+>_This feature is part of a phased release and will be available to a limited number of customers in September. It will remain in the Preview environment for an extended time while we gather feedback._
 
 A "Layout" button on the custom form designer allows you to choose from a two- or three-column working area. The original form designer uses three columns and the field settings are displayed in the far right column. If you select two columns, the field settings are displayed next to the field library in the far left column.
-
->[!NOTE]
->
->This option is available only in the Preview environment while we gather feedback on the feature, and there is not a timeframe for a Production release.
 
 For information, see [Custom forms overview](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md).
