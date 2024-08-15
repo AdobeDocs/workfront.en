@@ -68,6 +68,21 @@ Prior to this enhancement, you could only connect record types that belonged to 
 
  For information, see Edit record types (help/quicksilver/planning/architecture/edit-record-types.md). 
 
+
+### New Connections tab in the record details area
+
+Production: <date> 
+
+Preview: To be determined 
+
+We have added a new tab on the record's preview and page. Now, when you click the record name in a view, the record's preview and the record's page display the following tabs: 
+
+* **Details**: Displays all record fields, thumbnail, and cover image. 
+
+* **Connections**: Displays all record or object types and their records or objects that are connected to the selected record. You can add more records to the record or object types that already display connected records from the Connections tab.  
+
+For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).  
+
 -->
 
 ## Week of August 12, 2024

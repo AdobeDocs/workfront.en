@@ -91,7 +91,9 @@ The Planning section is available for the following Workfront objects:
 
 ## Considerations about the Planning section of Workfront objects
 
-* First, you must connect record types to Workfront object types, and records to Workfront objects to view them in Workfront. 
+* Workfront Planning record types must be connected to Workfront object types. 
+
+* At least one record must be connected to one Workfront object to be able to view records in Workfront. 
 
    For information, see the following articles:
 
