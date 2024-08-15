@@ -25,4 +25,4 @@ To make it easier for you to accomplish your work, we've added Adobe's AI Assist
 
 Your Workfront administrator can enable or disable AI Assistant for your organization. The AI Assistant is available for instances with Select, Prime, and Ultimate plans. 
 
-For more information on AI Assistant in Workfront, see [AI Assistant: article index](help\quicksilver\workfront-basics\ai-assistant\ai-assistant.md).
+For more information on AI Assistant in Workfront, see [AI Assistant: article index](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md).
