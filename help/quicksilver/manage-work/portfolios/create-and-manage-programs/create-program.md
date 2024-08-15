@@ -1,8 +1,8 @@
 ---
 product-area: programs
 navigation-topic: create and manage programs
-title: Create a program
-description: A program represents a collection of projects that share a common strategy, objective, or goal that transcends project boundaries. Programs cannot exist outside of a portfolio.
+title: Create a Program
+description: A program represents a collection of projects that share a common strategy, objective, or goal that transcends project boundaries. Programs are a subdivision of portfolios and they cannot exist outside of a portfolio. Programs typically share the same resources as other programs within the same portfolio. You can create programs to organize your portfolios when they become too large. 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
@@ -11,7 +11,12 @@ exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
 
 <!-- Audited: 1/2024 -->
 
-A program represents a collection of projects that share a common strategy, objective, or goal that transcends project boundaries. Programs cannot exist outside of a portfolio.
+A program represents a collection of projects that share a common strategy, objective, or goal that transcends project boundaries. 
+Programs are a subdivision of portfolios and they cannot exist outside of a portfolio. Programs typically share the same resources as other programs within the same portfolio. 
+
+You can create programs to organize your portfolios when they become too large. 
+
+For example, you can have a Marketing Fiscal Year 2024 Portfolio that contains all your Marketing division's projects. You might want to consider further organizing your projects into fiscal quarters and add Marketing Fiscal Quarter 1-4 2024 programs within the Marketing Fiscal Year 2024 Portfolio. 
 
 ## Access requirements
 

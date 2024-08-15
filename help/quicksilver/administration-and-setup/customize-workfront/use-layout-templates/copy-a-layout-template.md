@@ -1,5 +1,5 @@
 ---
-title: Copy a layout template
+title: Copy a Layout Template
 user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates
@@ -18,6 +18,8 @@ For more information about layout templates, see [Create and manage layout templ
 For information about layout templates for groups, see [Create and modify a group's layout templates](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article: 
 
@@ -41,9 +43,11 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
  </tbody> 
 </table>
 
++++
+
 ## Copy a layout template
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left panel, click **Interface** > **Layout Templates**.
 

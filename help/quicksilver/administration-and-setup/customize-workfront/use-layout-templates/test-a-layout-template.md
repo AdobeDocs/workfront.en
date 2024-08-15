@@ -1,5 +1,5 @@
 ---
-title: Testing a new layout template
+title: Testing a New Layout Template
 user-type: administrator
 product-area: system-administration;templates
 navigation-topic: layout-templates

@@ -114,7 +114,7 @@ Creating a scenario consists of several main tasks:
    The scenario editor displays, containing an empty module in the center, the [!DNL Google Sheets] app you pre-loaded, and some options in the toolbar at the bottom.
 
 <!--
-   ![](assets/scenario-editor-350x235.png)
+   ![](assets/scenario-editor.png)
 -->
 
    When you begin creating a new scenario, it's a good idea to start by creating a name for it.

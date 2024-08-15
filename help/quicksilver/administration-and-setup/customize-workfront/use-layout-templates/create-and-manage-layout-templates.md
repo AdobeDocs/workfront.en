@@ -1,5 +1,5 @@
 ---
-title: Create and manage layout templates
+title: Create and Manage Layout Templates
 user-type: administrator
 content-type: overview
 product-area: system-administration;templates

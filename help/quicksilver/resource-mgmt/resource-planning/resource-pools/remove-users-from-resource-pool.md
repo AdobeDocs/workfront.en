@@ -9,7 +9,7 @@ exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
 ---
 # Remove users from resource pools
 
-{{highlighted-preview}}
+{{preview-and-fast-release-Q424}}
 
 Although there is no limit to how many users you can have in a resource pool, the list of users only displays the first 2000 users, listed alphabetically.
 
@@ -69,6 +69,7 @@ To remove a user from a Resource Pool:
    Start typing the name of a company, job role, team, or group, if you want to remove all the users associated with those entities.
 
    <span class="preview">Sample image in the Preview environment:<span>
+   
    ![Remove users from Resource Pool](assets/remove-users-from-resource-pool.png)
 
    Sample image in the Production environment: 

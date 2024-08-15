@@ -140,8 +140,7 @@ You can connect the following:
 
 * Everyone with access to Workfront Planning and View or higher permissions to the workspace can see the connections that you make between records or between records and other applications' objects. They can view connected records and objects regardless of their permissions in the  applications you are connecting to. 
 * You can view and edit everyone else's connections, if you have Manage permissions to the workspace where the connected records are. 
-* You can connect one record to one or multiple objects from another application.
-
+* You can connect one record to one or multiple objects from another application. 
 * You can connect objects from Workfront to Workfront Planning records in the following areas:
   * From a Planning record in Workfront Planning. 
   * From the Planning section of a Workfront object. 
@@ -149,7 +148,6 @@ You can connect the following:
 * You can connect Workfront Planning records to Experience Manager Assets in the following areas:
 
   * From a Planning record in Workfront Planning
-  
 
 ## Prerequisites for linking records
 
@@ -175,7 +173,7 @@ To link records with other records or objects, you must have the following:
 
     The workspace opens and the record types display as cards.
 1. Click the card of a record type to open the record type page. 
-1. Select a **Table** view from the **View** drop-down menu in the upper-right corner of the record type page. 
+1. Click the name of a **Table** view to open it. 
 1. (Optional) Add records to the record type that you selected by adding a new row to the table. For information, see [Create records](/help/quicksilver/planning/records/create-records.md). 
 1. (Conditional) After you connected the selected record type with another record type, go to  the linked record column and double-click the cell corresponding to the record that you want to link with other records.
 
@@ -185,9 +183,18 @@ To link records with other records or objects, you must have the following:
 
     * Click a connected record's name from the list to add it to the selected record. The record is added automatically.
     * Start typing the name of a record and click it when it displays in the list. The record is added automatically. 
-    * Click **See all** to display all records. 
 
-1. (Conditional) If you clicked **Select all** in the previous step, the **Connect objects** box displays. 
+    <!--1. (Optional) If you cannot find a record to connect, and you want to add it, click **+ Add** to add a new record. For more information, see the "Create records by connecting them" in the article [Create records](/help/quicksilver/planning/records/create-records.md). -->
+
+    >[!TIP]
+    >
+    >    You can open a record's page by clicking the name of the record in the view, find the linked record field and double-click the field (if there are records already connected), or click **Connect records** (if the field is empty) to add records from the connected record or object type. 
+    >
+    >![](assets/connect-records-from-record-page-field.png)
+
+1. (Optional) Click **See all** to display all records. 
+
+1. (Conditional) If you clicked **See all** in the previous step, the **Connect objects** box displays. 
 
     ![](assets/connected-objects-table-for-records.png)
 
@@ -195,17 +202,11 @@ To link records with other records or objects, you must have the following:
 
     Or
 
-    Select the name of one or multiple records in the box, then click **Connect objects** in the upper-right corner of the Connect objects box. 
-
-    >[!TIP]
-    >
-    >    You can open a record's page, find the linked record field and click the connected field (if there are records already connected), or click **Connect records** (if the field is empty) to add records from the connected record or object type. 
-    >
-    >![](assets/connect-records-from-record-page-field.png)
+    Select the name of one or multiple records in the box, then click **Connect objects**.
 
     The following are added:
 
-    * The linked records display in the linked record field of the record that you selected in step 6. <!--accurate?--> 
+    * The linked records display in the linked record field of the record that you selected in a previous step. 
     * The linked fields are populated with the information from the linked records, if you added linked lookup fields when you connected the record types. 
     
     Updating the linked records updates the linked fields for the records that you are linking from automatically. You cannot manually edit linked fields. 
@@ -253,7 +254,12 @@ After you created a connection between a record type and a Workfront object type
 
     * Click an object from the list to add it to the selected record. Objects are listed alphabetically. The object is added automatically.
     * Start typing the name of an object and click it when it displays in the list. The object is added automatically. 
-    * Click **See all** to display all objects you have at least permissions to view.
+
+    >[!TIP]
+    >
+    >You can open a record's page from the view, double-click the linked record field, or click **Connect** in the field to add objects from the connected object type.
+
+1. (Optional) Click **See all** to display all objects you have at least permissions to view.
 
 1. (Conditional) If you clicked **See all** in the previous step, the **Connect objects** box displays. 
 
@@ -263,7 +269,7 @@ After you created a connection between a record type and a Workfront object type
 
     Or
 
-    Select the name of one or multiple objects in the box, then click **Connect objects** in the upper-right corner of the Connect objects box. 
+    Select the name of one or multiple objects in the box, then click **Connect objects**. 
 
     >[!IMPORTANT]
     >
@@ -274,11 +280,7 @@ After you created a connection between a record type and a Workfront object type
     The following are added: 
 
     * The selected Workfront objects are added to the linked record field. 
-    * If you added them when you connected the record type with Workfront, the linked fields (or the lookup fields) of the Workfront objects are automatically populated with information from Workfront. 
-
-    >[!TIP]
-    >
-    >You can open a record's page, find the linked record field and click the **+** icon in the field to add objects from the connected object type.
+    * If you added them when you connected the record type with Workfront, the linked fields (or the lookup fields) of the Workfront objects are automatically populated with information from Workfront.
 
     For more information about connecting record types with objects from another application, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
      

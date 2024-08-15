@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: manage-projects
-title: Edit projects
-description: You can edit a project in Adobe Workfront as often as needed. Ideally, you should edit a project when the project is in the Planning status.
+title: Edit Projects
+description: You can edit a project in Adobe Workfront as often as needed. Ideally, you should edit a project when the project is in the Planning status. This article describes how you can search for, find, and edit a project, if you have the permissions to do so. 
 author: Alina
 feature: Work Management, Projects
 role: User
