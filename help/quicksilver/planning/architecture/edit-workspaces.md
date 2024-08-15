@@ -1,5 +1,5 @@
 ---
-title: Edit workspaces
+title: Edit Workspaces
 description: You can edit the information of an existing workspace, like rename it.
 hidefromtoc: yes
 hide: yes
@@ -85,13 +85,32 @@ For more information about access requirements, see [Access requirements in Work
 
 {{step1-to-planning}}
     
+1. (Conditional) If you are a Workfront administrator, click **My workspaces** to access workspaces you created, or **Other workspaces** to access workspaces others shared with you. <!--replace My workspaces with **Workspaces I'm on**-->
+
+<!--***********Replace the steps from the next below till the "Update the following information in the Edit workspace box:" (but keep this last step)*******
+
+1. (Optional) Click **Show more** to display additional workspaces. The **Show more** link displays only when you have more than two rows of workspace cards.
+1. (Optional) ClicK **Show less** to limit the number of workspaces that display on the screen. 
+1. To edit a workspace, do one of the following:
+
+   * Hover over the workspace card, then click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the card
+      Or
+   * Click a workspace card to open the workspace, then click **More** to the right of the workspace name. 
+1. Click **Edit**.
+
+   ![](assets/edit-workspace-box.png)
+   -->
+
 1. Click a workspace card to open the workspace. 
+   
+   The workspace page opens.
+
 1. Click inside the name of the workspace in the header of the new workspace to rename it, then press **Enter**. 
 1. Click the **More** menu ![](assets/more-menu.png) to the right of the workspace name in the header, then click **Edit**.
 
    ![](assets/edit-workspace-box.png)
 
-   Update the following information in the **Edit workspace** box:
+1. Update the following information in the **Edit workspace** box:
 
    * Add a name for the workspace. <!--did they add a label for this field?-->
    * **Description**: Add information about the workspace. 

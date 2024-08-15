@@ -1,29 +1,29 @@
 ---
-title: Examples of the External Lookup field in a custom form
+title: Examples of the External Lookup Field in a Custom Form
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: An External Lookup field in a custom form calls an external API and returns values as options in a dropdown field. This article provides examples of using the External Lookup field to call the same instance of Workfront or a public API.
+description: An External lookup field in a custom form calls an external API and returns values as options in a dropdown field. This article provides examples of using the External lookup field to call the same instance of Workfront or a public API.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
 ---
-# Examples of the External Lookup field in a custom form
+# Examples of the External lookup field in a custom form
 
-An External Lookup field in a custom form calls an external API and returns values as options in a dropdown field. Users who work with the object the custom form is attached to can select one or more of these options from the dropdown.
+An External lookup field in a custom form calls an external API and returns values as options in a dropdown field. Users who work with the object the custom form is attached to can select one or more of these options from the dropdown.
 
-This article provides examples of using the External Lookup field to call the same instance of Workfront or a public API. You can also use the External Lookup to communicate with an external system such as Jira, Salesforce, or ServiceNow.
+This article provides examples of using the External lookup field to call the same instance of Workfront or a public API. You can also use the External lookup to communicate with an external system such as Jira, Salesforce, or ServiceNow.
 
-For more information about adding an External Lookup field to a custom form and additional definitions of the external lookup components, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+For more information about adding an External lookup field to a custom form and additional definitions of the external lookup components, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-## Set up an External Lookup field for the same instance of Workfront
+## Set up an External lookup field for the same instance of Workfront
 
-You can use the External Lookup to bring data from your Workfront instance into the custom form.
+You can use the External lookup to bring data from your Workfront instance into the custom form.
 
-### Use native Workfront field values in the External Lookup
+### Use native Workfront field values in the External lookup
 
-This example shows how to call the Workfront API and bring data from the existing "Status Query" field into your External Lookup field.
+This example shows how to call the Workfront API and bring data from the existing "Status Query" field into your External lookup field.
 
 1. Open the custom form.
 1. On the left side of the screen, find **External lookup** and drag it to a section on the canvas.
@@ -66,9 +66,9 @@ This example shows how to call the Workfront API and bring data from the existin
 
    ![External lookup options based on status](assets/external-lookup-project-status-example2.png)
 
-### Use custom field values in the External Lookup
+### Use custom field values in the External lookup
 
-This example shows you to call the Workfront API and bring data from a custom field into your External Lookup field. The example custom field is called "Custom Colors."
+This example shows you to call the Workfront API and bring data from a custom field into your External lookup field. The example custom field is called "Custom Colors."
 
 1. Open the custom form.
 1. On the left side of the screen, find **External lookup** and drag it to a section on the canvas.
@@ -101,11 +101,11 @@ This example shows you to call the Workfront API and bring data from a custom fi
 
 1. Click **Apply**.
 
-   When the custom form is added to a Workfront object, all of the values in the "Combo Colors" field appear in the External Lookup field dropdown.
+   When the custom form is added to a Workfront object, all of the values in the "Combo Colors" field appear in the External lookup field dropdown.
 
-## Set up an External Lookup field for a public API
+## Set up an External lookup field for a public API
 
-You can use the External Lookup to call an external, public API and retrieve data.
+You can use the External lookup to call an external, public API and retrieve data.
 
 This example shows how to call an API of countries (such as <https://api.first.org/data/v1/countries>) so that you don't have to hard code all of the country names in the dropdown options.
 
@@ -125,7 +125,7 @@ This example shows how to call an API of countries (such as <https://api.first.o
    Allows the user to search for a country in a region: <https://api.first.org/data/v1/countries?region={DE:Region}&q=$$QUERY>
 
      * The available regions are defined in a separate custom field in Workfront.
-     * When the user selects a region on the form, then the External Lookup field shows only the countries in that region (which country is in which region is defined in the API). The user can also search for a country in the selected region.
+     * When the user selects a region on the form, then the External lookup field shows only the countries in that region (which country is in which region is defined in the API). The user can also search for a country in the selected region.
 
 1. Review the **Dependencies** for the fields that this lookup field is referencing in the API.   
 
@@ -161,3 +161,23 @@ This example shows how to call an API of countries (such as <https://api.first.o
    ![Custom form with external lookup field](assets/external-lookup-countries-example1.png)
 
    ![External lookup options for a country based on region](assets/external-lookup-countries-example2.png)
+
+## Additional use cases for External lookup fields
+
+There are many other use cases for creating an External lookup.
+
+**Use case:** Replace typeahead fields, because they can cause problems with reporting.
+**Solution:** Use an API call to existing objects in the system.
+
+   Example Base API URL for templates, to replace a typeahead field:
+   `$$HOST/attask/api/v17.0/tmpl/search?isActive=true&name_Sort=asc`
+
+**Use case:** Create dropdown fields with more features (for example, there is line wrap in the External eookup field).
+**Solution:** Use an API call to existing objects in the system, or create a new object and use an API call to this object.
+
+**Use case:** Define a way for users to maintain their own fields outside of the custom forms area. Set up the External lookup field and you can give users to the objects that comprise the field. This option is good for high maintenance fields and teams.
+**Solution:** Create a new object and use an API call to this object.
+
+**Use case:** Integration with objects outside of Workfront. For example, accessing another system to get the name of every user, rather than being restricted in a typeahead field.
+**Solution:** Webhook/Fusion automation to connect to other systems.
+

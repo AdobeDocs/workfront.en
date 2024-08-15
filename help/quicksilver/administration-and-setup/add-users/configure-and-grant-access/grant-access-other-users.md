@@ -1,7 +1,7 @@
 ---
-title: Grant access to users
+title: Grant Access to Users
 description: As an Adobe Workfront administrator, you can use an access level to define a user's access to other users in Workfront.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
@@ -12,6 +12,8 @@ exl-id: 5e87cad4-4a5d-4cb2-848f-7c97ff11d0e8
 As an Adobe Workfront administrator, you can use an access level to define a user's access to other users in Workfront, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article: 
 
@@ -33,6 +35,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Configuring access to users
 

@@ -16,6 +16,8 @@ In Adobe Workfront Planning, workspaces are centralized locations for teams to p
 
 A workspace is a collection of record types used by a team and represents the team's work lifecycle. You can fully customize workspaces in Adobe Workfront Planning. 
 
+For general information about workspaces, see [Workspaces overview](/help/quicksilver/planning/architecture/workspaces-overview.md). 
+
 ## Access requirements
 
 +++ Expand to view access requirements for Workfront Planning. 
@@ -89,18 +91,6 @@ For more information about access requirements, see [Access requirements in Work
 
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>--> 
 
-## Considerations about workspaces
-
-* You can create workspaces for specific organizational units within your organization, to match the unique way each unit works. 
-* The record types that a workspace contains should reflect the work lifecycle of an organizational unit. 
-* When you create a workspace, only you have the permission to access and manage your workspace. You must share it with other users in order for them to collaborate with you in the same space. For information, see [Share a workspace](/help/quicksilver/planning/access/share-workspaces.md). System administrators can manage all workspaces, even the ones that they did not create. 
-* You can have the following: 
-
-   * Up to 50 sections in one workspace.
-   * Up to a total of 1,000 record types from all sections in one workspace. All record types are unique to each workspace. <!--this might change-->
-   * Up to 1,000 workspaces in your organization's Workfront instance. 
-
-
 ## Create a workspace
 
 You can create a workspace and add record types to it to organize your objects in Workfront Planning. For more informaton about editing a workspace, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md).
@@ -138,6 +128,7 @@ You can create a workspace and add record types to it to organize your objects i
     * An empty workspace named **Untitled Workspace** where you can start adding record types manually, when you create a workspace from scratch. 
     * A workspace named after the template you selected that is populated with sample record types. You can further customize the record types and the workspace.
      
+   For Workfront administrators, the new workspace displays on the **My workspaces** tab. <!--replace this with: **Workspaces I'm on** tab-->
 1. Click inside the name of the workspace in the header of the new workspace to rename it, then press Enter. 
 
 1. (Optional and conditional) If you created the workspace from a template, click inside the name of the **Operational Record Types** or **Taxonomies** sections 

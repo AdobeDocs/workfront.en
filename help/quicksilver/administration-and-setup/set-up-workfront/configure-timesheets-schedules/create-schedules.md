@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
-title: Create a schedule
+title: Create a Schedule
 description: You can define your users' work weeks with schedules. You can associate a schedule with a user or a project. This allows [!DNL Workfront] to calculate timelines and user availability.
 author: Lisa, Alina
 feature: System Setup and Administration

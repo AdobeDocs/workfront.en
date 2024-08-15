@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-title: Add users
+title: Add Users
 description: As a Workfront administrator or a user with full administrative access, you can add users in Workfront.
 author: Lisa
 feature: System Setup and Administration
@@ -34,6 +34,8 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -61,6 +63,8 @@ You must have the following to perform the steps in this article:
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Prerequisites
 
 Before you add a user, gather the information about the user listed below and determine which information you want to associate with that user:
@@ -87,7 +91,7 @@ Before you add a user, gather the information about the user listed below and de
 
 ## Create a user from scratch
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Users** ![](assets/users-icon-in-main-menu.png). 
+{{step-1-to-users}}
 
 1. Click **New User > New User** to add a user who has not yet been added to Workfront.
 
@@ -139,7 +143,8 @@ You can create a user by copying an existing user.
 
 To create new user by copying an existing one:
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Users** ![](assets/users-icon-in-main-menu.png). 
+{{step-1-to-users}}
+
 1. Select the user that you want to copy, then click the Copy icon ![](assets/copy-icon.png).
 1. In the **Copy User** box that displays, edit the fields available for the new user.
 

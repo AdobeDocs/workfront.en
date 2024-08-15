@@ -12,6 +12,16 @@ This page describes minor updates to the look and feel of various areas of the A
 
 For a list of all changes available with the Fourth Quarter 2024 release, see [Fourth Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
+## Look-and-feel-updates for System Preferences page
+
+>[!NOTE]
+>
+>Preview release: July 18, 2024; Production for fast release: With the 24.9 release (September 2024); Production for quarterly release: With the 24.10 release (October 2024)
+
+We have updated the Setup > System > Preferences page to a more modern design that is consistent with other areas of Workfront.
+
+For information, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+
 ## Look-and-feel update for Delete user and Deactivate user messages
 
 >[!NOTE]

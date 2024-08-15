@@ -1,10 +1,10 @@
 ---
-title: Grant access to Resource Management
+title: Grant Access to Resource Management
 user-type: administrator
 product-area: system-administration;resource-management
 navigation-topic: configure-access-to-workfront
 description: As an Adobe Workfront administrator, you can use an access level to define a user's access to Resource Management in Workfront.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 14948e33-3dd7-4ef3-9307-51628dedd1f5
@@ -14,6 +14,8 @@ exl-id: 14948e33-3dd7-4ef3-9307-51628dedd1f5
 As an Adobe Workfront administrator, you can use an access level to define a user's access to Resource Management, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article: 
 
@@ -35,6 +37,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Configure user access to Resource Management tools using a custom access level
 

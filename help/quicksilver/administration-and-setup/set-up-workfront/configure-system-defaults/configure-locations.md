@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-locations
-title: Configure locations
+title: Configure Locations
 description: As an Adobe Workfront administrator, you can configure the default locations available to assign to job roles in rate cards.
 author: Lisa
 feature: System Setup and Administration
@@ -16,6 +16,8 @@ exl-id: 69233499-fbcb-44a4-a247-d5051f9bc8b9
 Rate cards allow your organization to easily manage billing rates for projects. For more information, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md). As an [!DNL Adobe] [!DNL Workfront] administrator, you can configure the default locations available to assign to job roles in rate cards. This ensures that the rate cards accurately reflect the market rates in each location.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -38,6 +40,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Configure locations for the entire organization
 

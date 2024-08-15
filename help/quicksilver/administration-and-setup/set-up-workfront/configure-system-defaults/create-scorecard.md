@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
-title: Create a scorecard
+title: Create a Scorecard
 description: A scorecard measures how well a project aligns with the previously established criteria of a portfolio. A scorecard often reflects an organization's mission, values, and strategic goals.Portfolio managers usually define the scorecard questions and answers to ensure they are meaningful and valuable during project prioritization and selection. An [!DNL Adobe Workfront] administrator builds the scorecards based on the recommendations from portfolio managers.
 author: Lisa
 feature: System Setup and Administration
