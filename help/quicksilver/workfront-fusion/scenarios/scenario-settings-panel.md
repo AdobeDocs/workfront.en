@@ -126,10 +126,7 @@ Setting more cycles can be useful when you want to prevent connection interrupti
 >
 >![](assets/max-number-cycles-1-350x201.png)
 >
->The [!UICONTROL Maximum number of returned files] in the [!UICONTROL Dropbox] >[!UICONTROL Watch files] module is set to `10`.
->
->![](assets/max-number-cycles-10-350x175.png)
->
+>The [!UICONTROL Maximum number of returned files] in the [!UICONTROL Workfront] >[!UICONTROL Watch records] module is set to `10`.
 >If 100 requests are submitted to [!DNL Workfront], and the [!UICONTROL Limit] field is set to 10, then 90 files are left unprocessed after one scenario run. The next 10 files are processed in the next scheduled scenario execution.
 >
 >### Max number of cycles is set to 10

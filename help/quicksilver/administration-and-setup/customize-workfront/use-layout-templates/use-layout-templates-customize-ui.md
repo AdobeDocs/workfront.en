@@ -1,5 +1,5 @@
 ---
-title: Layout templates
+title: Layout Templates
 user-type: administrator
 content-type: reference
 product-area: system-administration;templates
