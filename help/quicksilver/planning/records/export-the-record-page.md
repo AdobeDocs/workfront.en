@@ -8,5 +8,4 @@ recommendations: noDisplay, noCatalog
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 <!--update the miniTOC and TOC when you make this public-->
 
-
-## Export the record page
+# Export the record page

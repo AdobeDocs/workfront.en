@@ -145,8 +145,8 @@ To connect records with other records or objects, you must have the following:
 
 You can connect records from Workfront Planning in the following areas:
 
-  * From a Planning record in Workfront Planning in the connected fields in the table view.
-  * From a Planning record in Workfront Planning in the record preview or page in the connected record fields.
+* From a Planning record in Workfront Planning in the connected fields in the table view.
+* From a Planning record in Workfront Planning in the record preview or page in the connected record fields.
   <!--
   * From a Planning record in Workfront Planning in the record preview or page in the connected record fields on the Details tab.
   * From a Planning record in the record's preview or page on the Connections tab.  --> 
