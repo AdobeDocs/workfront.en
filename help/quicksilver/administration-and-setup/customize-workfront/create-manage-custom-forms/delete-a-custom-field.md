@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Delete a custom field or widget from the system
+title: Delete a Custom Field or Widget from the System
 description: To improve system performance and to make forms easier to use for users, you might want to remove custom fields and widgets from your system when they are no longer being used.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
@@ -22,6 +22,8 @@ To improve system performance and to make forms easier to use for users, you mig
 >Or, for a workaround you can use to avoid losing data in fields no longer used, see [Remove a custom field without losing data that users have entered](#remove-a-custom-field-without-losing-data-that-users-have-entered) in this article.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -48,6 +50,8 @@ You must have the following to perform the steps in this article:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Delete a custom field or widget from the system
 
