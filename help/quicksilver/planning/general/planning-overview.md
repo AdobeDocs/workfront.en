@@ -97,6 +97,9 @@ For information about new features and when they are released, see [Adobe Workfr
 |     Access Planning records from Workfront objects                                  |      ✓                         |                                  |                 |
 |     Connect Planning records from Workfront objects                                  |      ✓                         |                                  |                 |
 |     Workfront Planning public API                                 |      ✓                         |                                  |                 |
+|     Workfront Planning AI Assistant*                                 |      ✓                         |                                  |                 |
+
+*The AI Assistant has been temporarily removed and will return at a later date.
 
 ## Enable Adobe Workfront Planning for the users in your Workfront instance
 
