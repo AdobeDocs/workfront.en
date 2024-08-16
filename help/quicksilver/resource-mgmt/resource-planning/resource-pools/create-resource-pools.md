@@ -9,7 +9,7 @@ exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
 ---
 # Create resource pools
 
-{{highlighted-preview}}
+{{preview-and-fast-release-Q424}}
 
 Resource pools are collections of users that help you manage resources easier in Adobe Workfront. For more information about resource pools, see [Resource pools overview](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
 

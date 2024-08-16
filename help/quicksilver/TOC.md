@@ -15,8 +15,10 @@ feature-set: Workfront
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
     * 2024 Q4 Release {#release-24-q4}
       * [2024 Q4 Release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
+      * [2024 Q4 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md)
       * [2024 Q4 Project enhancements](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md)
       * [2024 Q4 integration enhancements](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md)
+      * [Other enhancements during the Fourth Quarter 2024 release timeframe](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md)
       * [Look-and-feel updates during the 2024 Q4 release timeframe](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-look-and-feel-updates.md)
     * 2024 Q3 Release {#release-24-q3}
       * [2024 Q3 Release overview](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
@@ -2033,11 +2035,13 @@ feature-set: Workfront
     * [Adobe Workfront Planning general information: article index](planning/general/planning-general-article-index.md)
     * [Adobe Workfront Planning overview](planning/general/planning-overview.md)
     * [Adobe Workfront Planning API basics](planning/general/planning-api-basics.md)
+    * [Adobe Workfront Planning object limitations overview](planning/general/limitations-overview.md)
     * [Adobe Workfront Planning AI Assistant overview](planning/general/planning-ai-assistant-overview.md)
     * [Adobe Workfront Planning current release activity](planning/general/release-activity.md)
     * [Adobe Workfront Planning release activity archives for 2023](planning/general/release-activity-archives-2023.md)
   * Adobe Workfront Planning architecture {#adobe-workfront-planning-architecture}
     * [Architecture: article index](planning/architecture/architecture-information.md)
+    * [Workspaces overview](planning/architecture/workspaces-overview.md)
     * [Create workspaces](planning/architecture/create-workspaces.md)
     * [Record types overview](planning/architecture/overview-of-record-types.md)
     * [Create record types](planning/architecture/create-record-types.md)

@@ -28,9 +28,49 @@ This page provides information about functionality that is included in the Fourt
 
 ## Adobe Workfront enhancements
 
+* [Administrator enhancements]
 * [Project enhancements](#project-enhancements)
 * [Integration enhancements](#integration-enhancements)
 * [Other enhancements](#other-enhancements)
+
+### Administrator enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Layout button on the custom form designer allows two or three columns</a></p>
+                        <p>A "Layout" button on the custom form designer allows you to choose from a two- or three-column working area. The original form designer uses three columns and the field settings are displayed in the far right column. If you select two columns, the field settings are displayed next to the field library in the far left column.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 12, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 24.9 release (September 2024)</p>
+                            </li>
+                            <li>
+                                <p>Production release for all customers: TBD</p>
+                            </li>
+                        </ul>
+                        <p><i>This feature is part of a phased release and will be available to a limited number of customers in September.</i></p>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
 
 ### Project enhancements
 
@@ -71,7 +111,7 @@ This page provides information about functionality that is included in the Fourt
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">More relevant smart assignments</a></p>
-                        [!BADGE In production for Fast Release ]{type=Positive}
+                        [!BADGE In production ]{type=Informative}
                         <p>We have changed the algorithm that Workfront uses to calculate and suggest smart assignments for tasks. The new algorithm applies in the following areas in Workfront where you assign a task: task lists, the Assignments area in the task header, Home, and the Summary panel.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -148,7 +188,29 @@ This page provides information about functionality that is included in the Fourt
                             </li>
                         </ul>
                     </td>
-                </tr>                
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe AI Assistant available in Workfront</a></p>
+                        <p>To make it easier for you to accomplish your work, we've added Adobe's AI Assistant to Workfront. AI Assistant can help you by:</p>
+                        <ul>
+                            <li>Summarizing work items and documents, allowing you to quickly gain a general understanding of tasks, projects, and assets.</li>
+                            <li>Providing information from Experience League documentation, bringing instructions and reference material into Workfront, while linking to more in-depth documentation.</li>
+                            <li>Creating and refining formulas for calculated custom form fields, generating formulas from text prompts, or locating errors in existing formulas.</li>
+                            </ul>
+                            <p>Your Workfront administrator can enable or disable AI Assistant for your organization. The AI Assistant is available for instances with Select, Prime, and Ultimate plans.</p>
+                        </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 28, 2024</p>
+                            </li>
+                            <li>
+                                <p class="preview">Production release: August 28, 2024</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>                            
            </tbody>
         </table>   
 

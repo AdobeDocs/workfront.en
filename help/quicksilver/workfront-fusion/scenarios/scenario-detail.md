@@ -70,6 +70,10 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
       <td>This tab displays the visual representation of the scenario. The Diagram is the same as you will see in the scenario editor</td> 
      </tr> 
      <tr> 
+      <td role="rowheader">[!UICONTROL Reports] (tab) </td> 
+      <td> <p>Open this tab to see a graph of the number of operations performed by this scenario for the last 30 days.</p>  </td> 
+     </tr> 
+     <tr> 
       <td role="rowheader">[!UICONTROL History] (tab) </td> 
       <td> <p>Open this tab to see a history of the scenario, including any editing of the scenario. </p> <p>The [!UICONTROL History] tab also provides the scenario execution history of each run, which includes the following:</p> 
        <ul> 
