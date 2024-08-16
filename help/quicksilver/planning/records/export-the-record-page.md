@@ -93,7 +93,7 @@ To collaborate more efficiently with others that might not have a Workfront acco
 
 * The exported file preserves the layout of the record page, inclduing the thumbnail and the cover images. 
 
-# Export a record's details
+## Export a record's details
 
 {{step1-to-planning}}
 
