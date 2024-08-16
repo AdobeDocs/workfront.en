@@ -11,6 +11,40 @@ exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
+<!--
+At GA release, replace the Important below and all the text that follows before the weekly releases with this:
+
+(***********At GA - change the title to: Adobe Workfront Planning early access release activity during 2024*******)
+
+Also update the metadata: 
+
+Adobe Workfront Planning capabilities are currently available to all customers. You must purchase a Workfront Planning license, in addition to a Workfront license to be able to access these capabilities.
+
+
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
+>
+>You must purchase a Workfront Planning license, in addition to a Workfront license to be able to access and use the Workfront Planning capabilities. 
+>
+>For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+>
+
+## Workfront Planning release timeline
+
+| Time               | Release                                 |
+|--------------------|-----------------------------------------|
+| 2023               | Workfront Planning beta release         |
+| First half of 2024 | Workfront Planning early release        |
+| August 28, 2024    | Workfront Planning general availability |
+
+The following articles describe the features released during the release for Workfront Planning: 
+
+* [Adobe Workfront Planning release activity archives for 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md) lists features released during the beta release, in 2023.
+* This article lists the features that were released to Workfront Planning during the early access period in 2024.
+* `[]()` lists features released after the general availability release on August 28, 2024. 
+-->
+
 >[!IMPORTANT]
 >
 >The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
@@ -86,6 +120,13 @@ For information, see [Connect records](/help/quicksilver/planning/records/connec
 -->
 
 ## Week of August 12, 2024
+
+### AI Assistant has been temporarily removed
+
+Production: August 12, 2024
+Preview: To be determined
+
+The AI Assistant has been temporarily removed and will return at a later date. For more information about the AI Assistant, see [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
 
 ### Preserve the last viewed time frame in the timeline view
 

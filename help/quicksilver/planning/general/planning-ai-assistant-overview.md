@@ -8,10 +8,11 @@ exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
 ---
 # Adobe Workfront Planning AI Assistant overview
 
-<!-- update TOC and miniTOC when making this live-->
+<!-- update metadata above at GA-->
 
 >[!IMPORTANT]
 >
+><span class="preview">The AI Assistant has been temporarily removed and will return at a later date.</span>
 >The information in this article refers to Adobe Workfront Planning and to the Workfront AI Assistant (beta), which are new offerings from Adobe Workfront. 
 >
 >Currently, Workfront Planning is in an early access stage, and the Workfront AI Assistant is in a beta phase. 
@@ -30,7 +31,7 @@ The user's commands and the AI's execution of those commands work together to en
 
 ## Considerations about the AI Assistant
 
-* The AI Assistant is available for Workfront administrators by default. 
+* The AI Assistant is available for the main Workfront administrator by default. For information, see [Configure basic information for your system](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md). 
 
 * The Workfront administrator must enable the AI Assistant for all other users. For more information, see [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md). 
 
