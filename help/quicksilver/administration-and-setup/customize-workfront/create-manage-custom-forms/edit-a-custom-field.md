@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Add or edit a custom field, section break, or widget
+title: Add or Edit a Custom Field, Section Break, or Widget
 description: You can edit the properties of a custom field, section break, or widget that is used in custom form in your Adobe Workfront instance. These include the item's label, name, instructions, and so on.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
@@ -18,6 +18,8 @@ You can also edit the properties of a custom field, section break, or widget tha
 For information about custom fields and widgets in custom forms, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -44,6 +46,8 @@ You must have the following to perform the steps in this article:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++ Expand to view access requirements for the functionality in this article.
 
 ## Add a custom field or widget
 

@@ -24,22 +24,24 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront plan</p> </td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td>
-   <p>New plan: Standard</p>
+   <p>New: Standard</p>
    <p>or</p>
-   <p>Current plan: Plan</p></td> 
+   <p>Current: Plan</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Administrative access to custom forms</p> <p>For information about how Workfront administrators grants this access, see <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
-  </tr>  
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Administrative access to custom forms</p> </td> 
+  </tr> 
  </tbody> 
 </table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
