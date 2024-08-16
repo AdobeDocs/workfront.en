@@ -12,7 +12,7 @@ exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
 
 >[!IMPORTANT]
 >
-><span class="preview">The AI Assistant has been temporarily removed and will return at a later date.</span>
+><span class="preview">The Workfront AI Assistant has been temporarily removed and it will be available at a later date.</span>
 >The information in this article refers to Adobe Workfront Planning and to the Workfront AI Assistant (beta), which are new offerings from Adobe Workfront. 
 >
 >Currently, Workfront Planning is in an early access stage, and the Workfront AI Assistant is in a beta phase. 
