@@ -1,5 +1,5 @@
 ---
-title: Create or edit a status
+title: Create or Edit a Status
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
@@ -60,7 +60,7 @@ You can add a custom status for use by your entire organization or by a single g
 
 When you create a custom status for the entire organization, you can configure it so that all groups in the system can use it without editing it. Or you can configure it so that group administrators can modify it for their groups, as explained in [Create or edit a group status](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Setup]** ![Setup icon](/help/_includes/assets/gear-icon-setup.png).
+{{step-1-to-setup}}
 
 1. In the left panel, click **Project Preferences** > **Statuses**.
 

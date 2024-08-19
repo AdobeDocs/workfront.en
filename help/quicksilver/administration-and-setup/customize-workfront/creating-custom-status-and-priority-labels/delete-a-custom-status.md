@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
-title: Delete a custom status
+title: Delete a Custom Status
 description: You can delete a custom system status if it is no longer useful to your organization.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 73c4eb87-94f6-47bf-b447-eb02a703f7ef
@@ -35,6 +35,8 @@ For instructions on deleting a group status, see [Delete a group status](../../.
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
@@ -56,9 +58,11 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
++++
+
 ## Delete a custom system status
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left panel, click **Project Preferences** > **Statuses**.
 
