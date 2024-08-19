@@ -1,10 +1,10 @@
 ---
-title: View user login information
+title: View User Login Information
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: You can see how often users log in to Workfront, as well as the last time they logged in, by indicating that you want to include this information in the view of a list of users, or in a report for users.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
@@ -14,6 +14,8 @@ exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
 You can see how often users log in to Adobe Workfront, as well as the last time they logged in, by indicating that you want to include this information in the view of a list of users, or in a report for users.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -39,6 +41,8 @@ You must have the following to perform the steps in this article:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## How Workfront records login information
 

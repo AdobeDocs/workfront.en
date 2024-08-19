@@ -1,5 +1,5 @@
 ---
-title: Reset a user's preferences
+title: Reset a User's Preferences
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users

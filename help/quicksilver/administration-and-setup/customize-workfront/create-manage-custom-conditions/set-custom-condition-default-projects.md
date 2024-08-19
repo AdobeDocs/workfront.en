@@ -1,10 +1,10 @@
 ---
-title: Set a custom condition as the default for projects
+title: Set a Custom Condition as the Default for Projects
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
 description: If the Condition Type of a project is set to Progress Status instead of Manual, Adobe Workfront automatically displays one of three built-in default conditions on the project (On Target, At Risk, or In Trouble) as it progresses, as explained in Overview of Project Condition and Condition Type.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dba052ed-83a2-44d2-b025-d970783c4151
@@ -18,6 +18,8 @@ If the Condition Type of a project is set to Progress Status instead of Manual, 
 You can set your custom conditions as default conditions instead of using these three built-in default conditions. For example, you could change the On Target default condition to display as Tracking Well in all projects.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article: 
 
@@ -40,14 +42,16 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
++++
+
 ## Set a custom condition as a default condition for all projects:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **Project Preferences** > **Conditions**.  
 
 1. Click the **Project** tab. 
-1. Click **Set Default Conditions**. 
+1. Click **Set Default Conditions**.
 1. In the drop-down menu next to the default condition you want to change, click the custom condition you want to use instead. 
 1. Repeat the previous step for any other default condition you want to change.
 1. Click **Save**.

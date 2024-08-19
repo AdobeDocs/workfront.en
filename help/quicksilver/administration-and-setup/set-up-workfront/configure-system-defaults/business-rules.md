@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: business rules
-title: Create and edit business rules
+title: Create and Edit Business Rules
 description: A business rule allows you to apply validation to Workfront objects and prevent users from creating, editing, or deleting an object when certain conditions are met. Business rules help to improve data quality and operational efficiency by preventing actions that could compromise data integrity.
 author: Lisa
 feature: System Setup and Administration

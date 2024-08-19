@@ -1,7 +1,7 @@
 ---
-title: Create and customize priorities
+title: Create and Customize Priorities
 description: You can control the priorities for projects, tasks, and issues in the Setup area of Workfront. Priorities give importance to your projects, tasks, or issues in Adobe Workfront.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e7952cf-f07a-412b-9f9a-623cdba46849
@@ -15,6 +15,8 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 You can control the priorities for projects, tasks, and issues in the Setup area of Workfront. Priorities give importance to your projects, tasks, or issues in Adobe Workfront.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article: 
 
@@ -36,6 +38,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Customizing existing priorities
 
@@ -81,7 +85,7 @@ The priorities provided by default for each object type (project, task, and issu
 
 In addition to the default priorities provided in Workfront, you can add your own priorities to reflect the needs of your organization.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
+{{step-1-to-setup}}
 
 1. In the left panel, click **Project Preferences** > **Priorities**.
 

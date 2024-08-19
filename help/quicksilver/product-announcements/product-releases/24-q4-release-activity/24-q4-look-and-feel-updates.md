@@ -12,11 +12,21 @@ This page describes minor updates to the look and feel of various areas of the A
 
 For a list of all changes available with the Fourth Quarter 2024 release, see [Fourth Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
+## Look-and-feel-updates for System Preferences page
+
+>[!NOTE]
+>
+>Preview release: July 18, 2024; Production for fast release: With the 24.9 release (September 2024); Production for quarterly release: With the 24.10 release (October 2024)
+
+We have updated the Setup > System > Preferences page to a more modern design that is consistent with other areas of Workfront.
+
+For information, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+
 ## Look-and-feel update for Delete user and Deactivate user messages
 
 >[!NOTE]
 >
->Preview release: August 1, 2024; Production for fast release: With the 24.8 release (August 2024); Production for quarterly release: With the 24.10 release (October 2024)
+>Preview release: August 1, 2024; Production for fast release: With the 24.8 release (August 15, 2024); Production for quarterly release: With the 24.10 release (October 2024)
 
 The Delete user and Deactivate user confirmation messages that users see when deleting or deactivating a user have been updated to a more modern design that is consistent with other areas of Workfront.
 
@@ -26,7 +36,7 @@ For information on deleting and deactivating users, see [Delete users](/help/qui
 
 >[!NOTE]
 >
->Preview release: August 1, 2024; Production for fast release: With the 24.8 release (August 2024); Production for quarterly release: With the 24.10 release (October 2024)
+>Preview release: August 1, 2024; Production for fast release: With the 24.8 release (August 15, 2024); Production for quarterly release: With the 24.10 release (October 2024)
 
 We have updated the Resource Pools page with a more modern design that is consistent with other areas of Workfront.
 
@@ -46,8 +56,8 @@ For information on deleting a task, see [Delete tasks](/help/quicksilver/manage-
 
 >[!NOTE]
 >
->Preview release: July 17, 2024; Production for fast release: With the 24.8 release (August 2024); Production for quarterly release: With the 24.10 release (October 2024)
+>Preview release: July 17, 2024; Production for fast release: With the 24.8 release (August 15, 2024); Production for quarterly release: With the 24.10 release (October 2024)
 
 We have updated the Notification page (reached by clicking on the notification icon on the main toolbar, then clicking All Notifications) with a more modern design that is consistent with other areas of Workfront.
 
-For information, see [Create and manage job roles](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+For information, see [View and manage in-app notifications](/help/quicksilver/workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).

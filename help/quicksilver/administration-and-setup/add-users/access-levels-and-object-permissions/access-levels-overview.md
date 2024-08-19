@@ -1,12 +1,12 @@
 ---
-title: Access levels overview
+title: Access Levels Overview
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: access,level,system,administrator,planner,worker,reviewer,requestor,external,user
 navigation-topic: access-levels
 description: Every user must have an access level in order to log in and work in Workfront. You use the access level to control what a user can see and do with certain Workfront objects and areas. Each of the six built in access levels is attached to one of the five Workfront licenses, which are Plan, Work, Review, Request, and External.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7c323af9-8c33-48ad-9aff-96758e96b40b

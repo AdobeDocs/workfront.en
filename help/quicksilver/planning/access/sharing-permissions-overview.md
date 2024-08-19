@@ -15,7 +15,7 @@ exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 
 {{planning-important-intro}}
 
-You can share or remove permissions to a workspace or view in Adobe Workfront Planning.  
+You can share or remove permissions to an Adobe Workfront Planning workspace or view. 
 
 This article describes the permission levels for Workfront Planning objects. 
 
@@ -32,11 +32,16 @@ You can share the following objects:
 * Workspaces
 
     * You can share workspaces with people inside your organization.
-    * When you share a workspace, all record types, records, and fields associated with the workspaces are also shared. Views are not shared. 
+    * When you share a workspace, all record types, records, and fields associated with the workspaces are also shared. 
+        
+        When you share a workspace, views are not shared. Views are shared separately. 
 
 * Views
 
     * You must give users, including system administrators, permissions to access views separately from their permissions to accessing workspaces. 
+    * When you share a view, all view elements are shared, including filters, grouping, sort, or Settings. 
+
+        When you share a view, the records visible in the view are not shared. Records must be shared by sharing workspaces.
     * You can share a view publicly, with people outside your organization when you generate a public link for a view.People accessing the record page from a public link can view all records and their fields, including connected records and fields.
 
     For information, see [Share views](/help/quicksilver/planning/access/share-views.md).
@@ -118,7 +123,7 @@ The following are the levels of permissions for records:
 
 |        | Manage | Contribute | View  |
 |--------|--------|------------|-------|
-| Create | ✓      |            |       |
+| Create | ✓      |     ✓       |       |
 | Delete | ✓      |     ✓       |       |
 | Edit   | ✓      |    ✓        |       |
 | View   | ✓      | ✓          | ✓     |

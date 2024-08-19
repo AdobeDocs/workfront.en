@@ -38,13 +38,13 @@ Your users need to log in to authorize this integration in their own account. Th
   ```
 
 
-* `client_id`: This is the client ID&nbsp;generated when you created the OAuth2 app in Workfront.
+* `client_id`: This is the client ID generated when you created the OAuth2 app in Workfront.
 
-* `redirect_uri`: This is the redirect URL that you entered when creating the app. Your users will be directed to this page after they authorize the app for their account.
+* `redirect_uri`: This URL must be the same as the redirect URL that you entered in Workfront when creating the OAuth2 app. Your users will be directed to this page after they authorize the app for their account.
   
 * `response_type`: This must have the value `code`.
 
-The URL for the authorization page is therefore: 
+The URL for the authorization page is therefore:
 
 ```
 https://<URL of your organization's domain>/integrations/oauth2/authorize?client_id=<Your ClientID>&redirect_uri=<Your redirect URL>&response_type=code

@@ -1,8 +1,8 @@
 ---
 product-area: programs
 navigation-topic: create and manage programs
-title: Edit programs
-description: You can edit information on programs that you have created, or that other users have created if they shared them with you.
+title: Edit Programs
+description: You can edit information on programs that you have created, or that other users have created if they shared them with you. This article describes how you can search for, find, and edit a program, if you have the permissions to do so.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e

@@ -83,8 +83,9 @@ For information about new features and when they are released, see [Adobe Workfr
 |  Share views |✓ | |  |
 |  Share views publicly with external resources |✓ | |  |
 |  Duplicate views |✓ | |  |
-|     Submit requests                                |                               |                                  |   ✓              |
-|     Creative brief                                 |                               |                                  |   ✓              |
+|     Submit requests                                |                               |          ✓                        |                 |
+|     Export record details to Word                                 |                               |              ✓                    |                 |
+|     Export record details to PDF                                 |                               |                                  |       ✓          |
 |     Customize the color and icon of a record                                 |      ✓                         |                                  |                 |
 |     Add comments to records                                 | ✓                              |                                  |                 |
 |     Receive in-app notifications                                 | ✓                              |                                  |                 |
@@ -97,6 +98,10 @@ For information about new features and when they are released, see [Adobe Workfr
 |     Access Planning records from Workfront objects                                  |      ✓                         |                                  |                 |
 |     Connect Planning records from Workfront objects                                  |      ✓                         |                                  |                 |
 |     Workfront Planning public API                                 |      ✓                         |                                  |                 |
+|     Workfront Planning AI Assistant*                                 |      ✓                         |                                  |                 |
+|     Reporting on Workfront Planning information (Canvas Dashboard)                              |                               |       ✓                           |                 |
+
+*The AI Assistant has been temporarily removed and it will be available at a later date.
 
 ## Enable Adobe Workfront Planning for the users in your Workfront instance
 
@@ -109,6 +114,8 @@ For more information about granting access to and enabling others to use Workfro
 Although Workfront Planning is part of Workfront, it comes with proprietary concepts and terminology. Ensure you are familiar with the new concepts before embarking on setting up Workfront Planning for your organization. 
 
 The framework for Workfront Planning is fully customizable. You can create all record types, their attributes, and any fields associated with them to suit the exact needs of your organization. 
+
+There are limitations for how many Workfront Planning objects you can create. For more information, see [Adobe Workfront Planning object limitations overview](/help/quicksilver/planning/general/limitations-overview.md). 
 
 The following are the main Workfront Planning objects and concepts: 
 
@@ -247,34 +254,6 @@ The following are the main Workfront Planning objects and concepts:
 
 For more information, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md).
 
-
-## Adobe Workfront Planning object limitations
-
-The following table shows the limits for how many objects you can create in Workfront Planning. The limitations are subject to change as we move into the next phases of development. 
-
-<!--consider making the table view a stand-alone article when we go to GA-->
-
-|       Adobe Workfront Planning  object                                                          |                                                        Limit                                                    |
-|-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
-|     Number of Workspaces for one Workfront instance                                      |   1,000                                                                                                         |
-|     Number of sections for one workspace                                      |   50                                                                                                         |
-|     Number of Record Types for one workspace                                            |   1,000 (this includes record types from all sections and those that are created when using a workspace template)  |
-|     Number of records for one record type                                               |   50,000                                                                                                        |
-|     Number of fields for one record type or taxonomy                            |   500                                                                                                           |
-|     Number of characters for a text field                                                               |   1,000 characters                                                                                              |
-|     Size of file that you can paste in a record type table                    |   1MB                                                                                                           |
-|     Size of file that you can import through the API for a record type table  |   1.5MB                                                                                                         |
-|     The rate at which API requests can be made                                    |   200 requests per minute                                                                                       |
-| Size of CSV of Excel file you can import* | 5MB |
-| Number of views one user can create for one record type | 100 |
-
-<!--add to the table above: Maximum number of views created by one use 100 -->
-
->[!IMPORTANT]
->
->*This functionality has been temporarily disabled and it will be available at a later date.
-
-
 ## Locate Adobe Workfront Planning
 
 Ensure that your organization has received access to Workfront Planning and that your system or group administrator has added the Planning area to your Main Menu. For information, see [Access overview](/help/quicksilver/planning/access/access-overview.md).
@@ -287,7 +266,7 @@ To locate Workfront Planning:
 
 1. Click **Planning** ![](assets/planning-icon.png).
 
-    The Workfront Planning landing page opens. 
+    The Workfront Planning main page opens. 
 
     ![](assets/planning-landing-page-admin.png)
 
@@ -297,8 +276,8 @@ To locate Workfront Planning:
 
 
 1. (Conditional and optional) If you are a Workfront administrator, click one of the following tabs:
-    * **My workspaces**: Displays workspaces you created.
-    * **Other workspaces**: Displays all other workspaces in the system, including the ones shared with you.
+    * **My workspaces**: Displays workspaces you created. <!--Replace with: Workspaces I'm on: Displays workspaces you created or workspaces that are shared with you.-->
+    * **Other workspaces**: Displays all other workspaces in the system, including the ones shared with you. <!--Replace with: Other workspaces: Displays all other workspaces in the system.-->
 
     For all other users, all workspaces that they created or are shared with them display in the **Workspaces** area.
 

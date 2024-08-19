@@ -1,10 +1,10 @@
 ---
-title: Create direct reports
+title: Create Direct Reports
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: You can designate users as direct reports to another user. This allows you to create an organization chart that displays the management structure of your organization.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dea77522-d89f-4baa-a701-aea124d2b3a5
@@ -14,6 +14,8 @@ exl-id: dea77522-d89f-4baa-a701-aea124d2b3a5
 You can designate users as direct reports to another user. This allows you to create an organization chart that displays the management structure of your organization. For more information, see [View the organizational chart](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -40,6 +42,8 @@ You must have the following to perform the steps in this article:
  </tbody> 
 </table>
 
++++
+
 ## Create direct reports
 
 1. Begin editing a user as described in [Edit a user's profile](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
@@ -48,6 +52,5 @@ You must have the following to perform the steps in this article:
    This field cannot be blank.
 
 1. In the **Direct Reports** field, specify any users who report to the user you are editing.  
-
 1. (Optional) In the **Reports To** field, specify the name of the user who this user reports to.
 1. Click **Save Changes**.

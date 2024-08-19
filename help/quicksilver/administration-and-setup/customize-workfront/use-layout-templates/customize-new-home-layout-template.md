@@ -1,5 +1,5 @@
 ---
-title: Customize new Home using a layout template
+title: Customize New Home Using a Layout Template
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -35,6 +35,8 @@ After configuring a layout template, you must assign it to users for changes you
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
@@ -56,6 +58,8 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Customize new Home using a layout template
 

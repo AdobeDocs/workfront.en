@@ -139,11 +139,11 @@ To add a section to a record preview or page:
 
 1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the record preview  to open the record's page in a new tab. 
 
-    The record page opens. 
+    The record page opens. <!--The Details tab opens by default. -->
 
     ![](assets/details-page.png)
 
-1. In the record preview or page, hover over the white space to the left of the fields, then click the **Add section** icon ![](assets/add-section-icon.png) to add a section. 
+1. In the <!--**Details** tab of the--> record preview or page, hover over the white space to the left of the fields, then click the **Add section** icon ![](assets/add-section-icon.png) to add a section. 
 1. Click inside the section's name and replace **Untitled section** with a name, then click Enter. The fields displayed under the section are automatically part of the new section. 
 1. Start dragging and dropping fields to the new section, as described in the section [Rearrange fields in the record preview or details page](#rearrange-fields-in-the-record-preview-or-details-page) in this article. 
 
@@ -176,7 +176,13 @@ To add a section to a record preview or page:
 
     All changes to sections and field order are saved automatically. 
 
-## Rearrange fields in the record preview or details page
+<!--1. (Optional) Click the **Connections** tab. All records or objects that are connected to the selected record display under the names of the record type, or the application they belong to. 
+
+      ![](assets/connections-tab-on-record-in-workfront-planning.png)
+
+      For information about connecting records from the Connections tab, see [Connect records](/help/quicksilver/planning/records/connect-records.md). -->
+
+## Rearrange fields in the record's preview or page
 
 {{step1-to-planning}}
 

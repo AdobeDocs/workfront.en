@@ -1,5 +1,5 @@
 ---
-title: Deactivate or reactivate a custom form
+title: Deactivate or Reactivate a Custom Form
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -18,6 +18,8 @@ You can reactivate or deactivate a custom form. We recommend deactivating custom
 >If a custom form is deactivated but is still part of a queue topic or request queue definition, it will be attached to new requests. If you do not want the form to be on the requests, you must manually remove it from the request queue.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -44,6 +46,8 @@ You must have the following to perform the steps in this article:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Deactivate a custom form
 

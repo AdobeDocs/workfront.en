@@ -1,12 +1,12 @@
 ---
-title: List your users' access levels and licenses
+title: List Your Users' Access Levels and Licenses
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: access,level,license
 navigation-topic: access-levels
 description: You can see which access level and license is assigned to each user in a user list or report.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5d85509d-276a-411e-813c-8b1fa2f512db
@@ -16,6 +16,8 @@ exl-id: 5d85509d-276a-411e-813c-8b1fa2f512db
 You can see which access level and license is assigned to each user in a user list or report.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following:
 
@@ -40,9 +42,11 @@ You must have the following:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
++++
+
 ## List your users' access levels and licenses
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users**.
+{{step-1-to-users}}
 
    By default, all users who are set as Active display in the list.
 

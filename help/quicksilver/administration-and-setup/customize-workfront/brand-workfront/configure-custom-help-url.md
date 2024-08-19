@@ -1,10 +1,10 @@
 ---
-title: Configure a custom help URL
+title: Configure a Custom Help URL
 user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
 description: If you create a custom  internal help site  containing information about how your organization uses Workfront, you can configure the Main Menu Help icon to go to that site. This does not affect the main Help link in the Main Menu and the context-sensitive help links throughout Workfront, which take users to the Workfront Help site.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
@@ -22,6 +22,8 @@ This does not affect the main Help link in the Main Menu and the context-sensiti
 For information about how users access both a custom help URL that you configure in Workfront and the regular Workfront help site, see [Accessing Workfront Help in the new Adobe Workfront experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -44,9 +46,12 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
++++
+
 ## Configure a custom Help URL
 
-1. Click the Main Menu icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click Setup.
+{{step-1-to-setup}}
+
 1. Click **System** > **Preferences**.
 1. In the **General Preferences** section, in the **Custom Help URL** field, type the URL where your custom help site is located.
 

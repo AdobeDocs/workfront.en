@@ -33,6 +33,8 @@ This article describes how you can connect two Workfront Planning record types a
 
 After you establish the connection between records or object types, you can connect individual records to one another, and display fields from the linked record or object types on a Workfront Planning record. 
 
+<!-- uncomment out for the release close to GA: For general information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).-->
+
 For information about connecting a Workfront Planning record to an object from another application, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
 
 For an example of connecting record types and records, see [Example of connecting record types and records](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md). 
@@ -112,7 +114,7 @@ For an example of connecting record types and records, see [Example of connectin
 
 ## Considerations about connecting record types
 
-<!--move this to the Connect record types overview article (new)-->
+<!--DELETE THE CONTENT BELOW WHEN YOU MAKE "CONNECT RECORD TYPE OVERVIEW" ARTICLE PUBLIC-->
 
 * You can connect the following entities in Adobe Workfront Planning:
 
@@ -188,7 +190,9 @@ For an example of connecting record types and records, see [Example of connectin
 
 1. In the **Record type** field, search for a record type, or select one of the following: 
 
-    * Another record type from the section of the workspace you selected
+    * Another record type from the workspace you selected 
+
+        <!--replace screen shot below-->
 
         ![](assets/new-connection-tab-fields-with-another-record-selected.png)
 
@@ -197,8 +201,16 @@ For an example of connecting record types and records, see [Example of connectin
         >Only record types from the workspace you selected are available to connect to. 
         > 
         >If you don't have other record types in the selected workspace, the workspace section does not display. 
+        
+        <!--remove the first sentence in the tip above at GA-->
+
+        <!--FORMAT THE TIP BELOW AT RELEASE: * A record type from another workspace that was configured to connect from other workspaces. For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). (*****add screen shot****)
+        [!TIP]
+         If there are no record types that are configured to connect from other workspace, the workspace section does not display.--> 
 
     * A **Project, Portfolio, Program, Company**, or **Group** from the **Workfront Object Types** section.
+
+        <!--replace screen shot below-->
 
         ![](assets/workfront-project-connection-selection.png)
 
@@ -215,7 +227,14 @@ For an example of connecting record types and records, see [Example of connectin
     >You can have multiple connections to the same record or object type. If you do not edit the connected field name, Workfront adds a numeral after the name of the connected record, to indicate the number of connected record types by the same name. 
 
      * **Description**: Additional information about the connected record field. The description of a field displays when you hover over the field's column in a table. 
-     * **Allow multiple records**: Select this option to indicate that you allow that users can add multiple records when the linked record type field displays on the original records. This is selected by default.
+     * **Allow multiple records**: Select this option to indicate that you allow that users can add multiple records when the linked record type field displays on the original records. This is selected by default. <!--This option is available only when connecting records from two different workspaces or a record and an AEM asset object type.-->
+     <!--* **Connection type**: This option is available only when connecting records from the same workspace or a record and a Workfront object type. Choose from the following connection types:
+        * One to one
+        * One to many
+        * Many to one
+        * Many to many
+        
+        For information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md). -->
      * **Select lookup fields**: Select this option to add fields from the selected record type. The lookup fields are fields associated with the record or object type that you are linking to. Linking them displays information from the record or object you're linking to on the record you are liking from. This is selected by default. 
 
         >[!TIP]
@@ -239,7 +258,7 @@ For an example of connecting record types and records, see [Example of connectin
     >
     >Your Workfront administrator can map Workfront Planning fields to Experience Manager Assets fields through the Metadata mapping in Workfront. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en). 
 
-1. (Conditional) If you selected to connect to Experience Manager Assets or to a Workfront Planning record type, disable the **Title** toggle in the **Record appearance** area, if you don't want the title of connected records or assets to display in the linked field. When disabled, only records' thumbnails display in  the linked fields. Records without a thumbnail image display an image icon instead. The toggle is enabled by default. An example of how the connected records will display shows in the **Record appearance** area. 
+1. (Conditional) If you selected to connect to Experience Manager Assets or to a Workfront Planning record type, deselect the **Title** toggle in the **Record appearance** area, if you don't want the title of connected records or assets to display in the linked field. When deselected, only records' thumbnails display in  the linked fields. Records without a thumbnail image display an image icon instead. The toggle is selected by default. An example of how the connected records will display shows in the **Record appearance** area. 
 
     >[!TIP]
     >
