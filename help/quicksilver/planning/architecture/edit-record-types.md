@@ -137,12 +137,14 @@ Record types are the object types of Adobe Workfront Planning. You can edit the 
 
 <!--*******************For GA - replace the above with this:
 
-1. In the **Edit record type** box, click the **Appearance** tab and update the following information: (*******copy the screen shot above here and update it with the Appearance tab**********)
+1. In the **Edit record type** box, the **Appearance** tab opens by default. 
+   
+   Update the following information in the **Appearance** tab: (*******copy the screen shot above here and update it with the Appearance tab**********)
 
     * Edit the record type name, if needed. (*****did they add a field label for this?******)
     * **Description**: Edit or add a description for the record type with more information about it. 
     * Edit the color and shape of the icon associated with the record type. Do the following: 
-        * Select a color to identify the record type. This is the color of the record type icon. Gray is selected by default.
+        * Select a color to identify the record type. This is the color of the record type icon. 
         * Select an icon from the list, or start typing the name of an icon to describe what it represents, then select it when it displays. This is the icon of the record type. A file icon is selected by default.
 
         ![](assets/update-record-type-box.png)
@@ -155,10 +157,11 @@ Record types are the object types of Adobe Workfront Planning. You can edit the 
 
    ![](assets/edit-record-type-box-advanced-settings-tab.png)
 
-   The record type card displays a connectivity icon ![](assets/connect-from-other-workspaces-icon.png) in the upper-right corner to indicate that the record is now accessible from other workspaces. 
-
-
 1. Click **Save**.
+
+      The record type card displays a connectivity icon ![](assets/connect-from-other-workspaces-icon.png) in the upper-right corner to indicate that the record is now accessible from other workspaces. 
+
+
 1. (Optional) Click the record type card from the workspace area to open the record type's page, then rename the record type in the header.  
 
 1. (Optional) To edit another record type, from the record type page, expand the downward-pointing arrow to the right of a record type name, search for a record type, then select it when it displays in the list.

@@ -151,6 +151,46 @@ Preview: To be determined
 
 You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Get started with canvas dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 
+### Define format for formula field values
+
+Production: <date> 
+
+Preview: To be determined 
+
+As a workspace manager, you can now define the format for the values displayed in a formula field. You can choose from the following formats: 
+
+* Single-line text 
+* Number 
+* Percentage 
+* Currency 
+* Date
+* Tags
+
+For information, see the "Formula" section of the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
+
+### Add connection type options
+
+Production: <date> 
+Preview: To be determined 
+
+Now, when you configure a connection between two record types, you can define whether users can connect single or multiple records in each of the record types of the connection. This ensures that you can reliably design your team's workflows and ensure that users only select the information expected according to their processes.  
+
+For example, you can now choose from the following types of connections when you link two record types:  
+
+* Many to many. When you select this connection type, it is not possible to change it after you save it 
+* One to many 
+* One to one 
+* Many to one 
+ 
+This allows you to define how many records of the connected record types users can connect after a connection is established.  
+
+The new connection types are not supported for the following record type connections: 
+ 
+* When you connect record types with AEM assets 
+* When you connect record types that don't belong to the same workspace (**********ensure this feature was released before you post this release note; otherwise, hide**********) 
+
+For information, see [Connect record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md). 
+
 -->
 
 ## Week of August 12, 2024
