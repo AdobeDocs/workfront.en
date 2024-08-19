@@ -36,8 +36,7 @@ The right panel of a record displays the following sections:
 1. Click a record type card.
     The record type page opens and all records of that type display. 
 
-1. Choose a table view from the **View** drop-down menu.
-1. Click the name of a record in the table view. 
+1. From any view, click the name of a record. 
 
     The record's page opens. The Comments area opens by default in the right panel. 
 1. Click the **Show History** icon ![](assets/show-history-icon.png). All changes made to the record's fields display in the right panel, starting with the most recent one. 

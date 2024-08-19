@@ -170,7 +170,11 @@ You can connect records from Workfront Planning in the following areas:
     * Click a connected record's name from the list to add it to the selected record. The record is added automatically.
     * Start typing the name of a record and click it when it displays in the list. The record is added automatically. 
 
-    <!--1. (Optional) If you cannot find a record to connect, and you want to add it, click **+ Add** to add a new record. For more information, see the "Create records by connecting them" in the article [Create records](/help/quicksilver/planning/records/create-records.md). -->
+    <!--1. (Optional) If you cannot find a record or an object to connect, and you want to add it, click **+ Add** to add a new record. For more information, see the "Create records as you connect them" in the article [Create records](/help/quicksilver/planning/records/create-records.md).
+    
+    You can also create projects and portfolios by adding them to a record in the connected record field. You can create only blank projects, without a template by adding them to a record. 
+    
+     -->
 
     >[!TIP]
     >

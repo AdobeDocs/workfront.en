@@ -227,6 +227,8 @@ You can edit a record from the following areas:
 
     Workfront automatically saves your changes.
 
+    <!--1. (Optional) Click the **Export** icon ![](assets/export-icon-in-record-details-page.png) to export the record's details. For information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md).-->   
+
 1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record's preview to open the record's page in a new tab. Continue editing the record as described in [Edit a record from the record's page](#edit-a-record-from-the-records-page) section in this article. 
 
 ### Edit a record from the record's page
@@ -279,6 +281,9 @@ You can edit a record from the following areas:
     For more information, see [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
     Workfront automatically saves your changes.
+
+    <!--1. (Optional) Click the **Export** icon ![](assets/export-icon-in-record-details-page.png) to export the record's details. For information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md).-->     
+    
 
 ## Edit a record from a Workfront object in the Planning section
 
