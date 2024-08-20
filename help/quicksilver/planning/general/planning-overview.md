@@ -72,11 +72,11 @@ For information about new features and when they are released, see [Adobe Workfr
 |     Sort records in the timeline view                                 |                               |   ✓                              |                  |
 |     Sort groupings in the table view                                 |                               |   ✓                              |                  |
 |     Sort groupings in the timeline view                                 |                               |   ✓                              |                  |
-|     Connect workspaces                                |                               |   ✓                              |                  |
 |   Search for records in the table view    | ✓    |   |
 |   Search for records in the timeline view    | ✓    |   |
 |     Connect Workfront Planning records to Workfront projects, programs, portfolios, companies, groups  |   ✓                            |                                 |                  |
-|     Connect Workfront Planning records to Adobe Experience Manager assets                                  |      ✓                         |                                  |                 | 
+|     Connect Workfront Planning records to Adobe Experience Manager assets                                  |      ✓                         |                                  |                 |
+|     Connect Planning records from different workspaces                                  |      ✓                         |                                  |                 | 
 |     Record page with detailed information                            |   ✓                           |                                  |                  |
 |     Update the layout of the record's page              |    ✓                           |                                 |                  |
 |  Share workspaces | ✓| |  |
@@ -276,10 +276,10 @@ To locate Workfront Planning:
 
 
 1. (Conditional and optional) If you are a Workfront administrator, click one of the following tabs:
-    * **My workspaces**: Displays workspaces you created. <!--Replace with: Workspaces I'm on: Displays workspaces you created or workspaces that are shared with you.-->
-    * **Other workspaces**: Displays all other workspaces in the system, including the ones shared with you. <!--Replace with: Other workspaces: Displays all other workspaces in the system.-->
+    * **Workspaces I'm on**: Displays workspaces you created or workspaces that are shared with you.
+    * **Other workspaces**: Displays all other workspaces in the system.
 
-    For all other users, all workspaces that they created or are shared with them display in the **Workspaces** area.
+    For all other users, both workspaces that they created or are shared with them display in the **Workspaces** area.
 
 1. (Optional and recommended) Continue with some of the following actions, to build your work structure: 
 
