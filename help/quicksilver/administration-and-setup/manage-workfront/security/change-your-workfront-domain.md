@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: security
-title: Change your Adobe Workfront domain
+title: Change Your Adobe Workfront Domain
 description: As an Adobe Workfront administrator and an authorized Workfront Support contact, you can request help from the Workfront Support team to change your organization's Workfront domain.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d817bd2b-1aaa-4dde-8e75-392c1da2943a
@@ -20,6 +20,8 @@ exl-id: d817bd2b-1aaa-4dde-8e75-392c1da2943a
 As an Adobe Workfront administrator and an authorized Workfront Support contact, you can request help from the Workfront Support team to change your organization's Workfront domain.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article: 
 
@@ -42,6 +44,8 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
++++
+
 ## Request a domain change
 
 1. Begin creating a support ticket on Experience League.
@@ -58,7 +62,7 @@ If your company utilizes SSO, the following steps are required after you have yo
 >
 >This is not available if your organization's Workfront instance is enabled with Adobe IMS. See your network or IT administrator if you need more information.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left sidebar, click **System** > **Customer Info** and make sure that your domain is updated on the Customer Info page.
 
