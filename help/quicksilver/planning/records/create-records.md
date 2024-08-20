@@ -205,16 +205,15 @@ You can import records from other applications by linking them to existing recor
     * The rows contain the new records
     * The columns populate information for the fields of the records.
 
-
 ## Create records by duplicating them
 
 For information about duplicating records, see [Duplicate records](/help/quicksilver/planning/records/copy-or-duplicate-records.md).
 
 <!--check the steps with the release of in-context record types epic: 
 
-## Create records by connecting them
+## Create records as you connect them
 
-You can create records while you connect them from other records. 
+You can create records as you connect them from other records. 
 
 You must have the following before you can add new records by connecting them from existing records:
 

@@ -83,8 +83,9 @@ For information about new features and when they are released, see [Adobe Workfr
 |  Share views |✓ | |  |
 |  Share views publicly with external resources |✓ | |  |
 |  Duplicate views |✓ | |  |
-|     Submit requests                                |                               |                                  |   ✓              |
-|     Creative brief                                 |                               |                                  |   ✓              |
+|     Submit requests                                |                               |          ✓                        |                 |
+|     Export record details to Word                                 |                               |              ✓                    |                 |
+|     Export record details to PDF                                 |                               |                                  |       ✓          |
 |     Customize the color and icon of a record                                 |      ✓                         |                                  |                 |
 |     Add comments to records                                 | ✓                              |                                  |                 |
 |     Receive in-app notifications                                 | ✓                              |                                  |                 |
@@ -97,6 +98,10 @@ For information about new features and when they are released, see [Adobe Workfr
 |     Access Planning records from Workfront objects                                  |      ✓                         |                                  |                 |
 |     Connect Planning records from Workfront objects                                  |      ✓                         |                                  |                 |
 |     Workfront Planning public API                                 |      ✓                         |                                  |                 |
+|     Workfront Planning AI Assistant*                                 |      ✓                         |                                  |                 |
+|     Reporting on Workfront Planning information (Canvas Dashboard)                              |                               |       ✓                           |                 |
+
+*The AI Assistant has been temporarily removed and it will be available at a later date.
 
 ## Enable Adobe Workfront Planning for the users in your Workfront instance
 

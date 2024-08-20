@@ -1,11 +1,11 @@
 ---
-title: Approval processes and milestone paths
+title: Approval Processes and Milestone Paths
 user-type: administrator
 content-type: reference
 product-area: system-administration;projects
 navigation-topic: customize-workfront
 description: You can create an approval process that users can attach to a work item, document, or proof. You can also create milestone paths that can be applied to any project in the system.
-author: Alina, Caroline
+author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog

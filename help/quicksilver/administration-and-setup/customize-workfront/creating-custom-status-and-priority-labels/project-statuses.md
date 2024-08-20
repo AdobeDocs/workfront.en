@@ -1,11 +1,11 @@
 ---
-title: Access the list of system project statuses
+title: Access the List of System Project Statuses
 user-type: administrator
 content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 description: Users can specify the status of a project so that other users can see the project's current stage of development at a given time.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1fc91438-1ead-40d2-b0aa-863c1125c2fb
@@ -21,6 +21,8 @@ You can also add custom project statuses to match the needs in your organization
 As a Workfront administrator, you configure the default status for all new projects in the system. For instructions, see [Configure system-wide project preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article: 
 
@@ -43,13 +45,15 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
++++
+
 ## Access the project statuses
 
 As a Workfront administrator, you can access the list of system-level project statuses.
 
 For information about editing a system status and creating custom statuses, see [Create or edit a status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **Project Preferences** > **Statuses**.
 

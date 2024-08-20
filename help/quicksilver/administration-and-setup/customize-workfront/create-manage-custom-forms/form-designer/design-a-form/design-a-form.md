@@ -1,5 +1,5 @@
 ---
-title: Design a form with the form designer
+title: Design a Form with the Form Designer
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -14,6 +14,8 @@ exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 You can design a custom form with the form designer. You can attach custom forms to different Workfront objects to capture data about those objects.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -40,6 +42,8 @@ You must have the following to perform the steps in this article:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Start designing a custom form
 

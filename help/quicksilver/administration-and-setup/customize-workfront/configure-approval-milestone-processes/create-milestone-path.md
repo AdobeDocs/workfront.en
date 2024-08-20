@@ -1,5 +1,5 @@
 ---
-title: Create a milestone path
+title: Create a Milestone Path
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
