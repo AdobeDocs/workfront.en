@@ -128,7 +128,10 @@ You can create a workspace and add record types to it to organize your objects i
     * An empty workspace named **Untitled Workspace** where you can start adding record types manually, when you create a workspace from scratch. 
     * A workspace named after the template you selected that is populated with sample record types. You can further customize the record types and the workspace.
      
-   For Workfront administrators, the new workspace displays on the **My workspaces** tab. <!--replace this with: **Workspaces I'm on** tab-->
+   For Workfront administrators, the new workspace displays on the **Workspaces I'm on** tab.
+
+   For all other users who can create workspaces, the new workspace displays in the **Workspaces** area.
+
 1. Click inside the name of the workspace in the header of the new workspace to rename it, then press Enter. 
 
 1. (Optional and conditional) If you created the workspace from a template, click inside the name of the **Operational Record Types** or **Taxonomies** sections 

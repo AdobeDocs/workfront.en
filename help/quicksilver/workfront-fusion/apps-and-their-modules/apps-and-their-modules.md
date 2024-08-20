@@ -58,6 +58,7 @@ This section contains the following articles:
 * [[!DNL Datadog] modules](../../workfront-fusion/apps-and-their-modules/datadog-modules.md) 
 * [Data store modules](../../workfront-fusion/apps-and-their-modules/data-store-modules.md) 
 * [[!DNL DocuSign] modules](../../workfront-fusion/apps-and-their-modules/docusign-modules.md) 
+* [[!DNL Draft.js] modules](../../workfront-fusion/apps-and-their-modules/draft-js-modules.md)
 * [[!DNL Dropbox] modules](../../workfront-fusion/apps-and-their-modules/dropbox-modules.md)
 * [Email modules](../../workfront-fusion/apps-and-their-modules/email-modules.md) 
 * [[!UICONTROL Encryptor]](../../workfront-fusion/apps-and-their-modules/encryptor-modules.md) 
