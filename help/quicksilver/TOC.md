@@ -400,13 +400,13 @@ feature-set: Workfront
         * [R1 release webinars](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-webinars.md)
   * Announcements {#announcements}
     * [Announcements](product-announcements/announcements/announcements.md)
-    * [Custom form enhancements](product-announcements/announcements/custom-form-enhancements.md)
     * [Schedule of features no longer supported](product-announcements/announcements/feature-removal-timeline.md)
     * [Maintenance Window FAQ](product-announcements/announcements/maintenance-window-faq.md)
     * [Change required for adding proofs to your allowlist](product-announcements/announcements/proofhq-domain-change-workfront.md)
     * [Unsubscribe from Announcement Center Messages in the new Adobe Workfront experience](product-announcements/announcements/unsubscribe-from-ac-messages.md)
     * Announcement archive {#announcement-archive}
       * [Announcement archive](product-announcements/announcements/announcement-archive/announcement-archive.md)
+      * [Custom form enhancements](product-announcements/announcements/announcement-archive/custom-form-enhancements.md)
       * [Updated Mobile App for iOS and Android (Early August, 2017)](product-announcements/announcements/announcement-archive/updated-mobile-app.md)
       * [TLS 1.2 to be required in Adobe Workfront](product-announcements/announcements/announcement-archive/tls-1-disabled.md)
       * [Outlook 365 Add-In Is Now Available](product-announcements/outlook-365-add-in/outlook-365-add-in-now-available.md)
@@ -2251,6 +2251,7 @@ feature-set: Workfront
     * [Datadog modules](workfront-fusion/apps-and-their-modules/datadog-modules.md)
     * [Data store modules](workfront-fusion/apps-and-their-modules/data-store-modules.md)
     * [DocuSign modules](workfront-fusion/apps-and-their-modules/docusign-modules.md)
+    * [[!DNL Draft.js] modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/draft-js-modules.md)
     * [Dropbox modules](workfront-fusion/apps-and-their-modules/dropbox-modules.md)
     * [Email modules](workfront-fusion/apps-and-their-modules/email-modules.md)
     * [Encryptor](workfront-fusion/apps-and-their-modules/encryptor-modules.md)

@@ -94,30 +94,19 @@ We recommend recreating some or all of the record types, records, fields, and vi
 
 {{step1-to-planning}}
 
-1. (Conditional) If you are a Workfront administrator, click **My workspaces** to access workspaces you created, or **Other workspaces** to access workspaces others shared with you. <!--change it to Workspaces I'm on-->
+1. (Conditional) If you are a Workfront administrator, click **Workspaces I'm on** to access workspaces you created, or **Other workspaces** to access workspaces others shared with you. 
 
-1. Click the card of the workspace you want to delete.
-
-   The workspace page displays. 
-
-<!--***********Replace the steps from the next below till the "Type "delete" in the space ... " (but keep this last step)*******
-
-1. (Optional) Click **Show more** to display additional workspaces. The **Show more** link displays only when you have more than two rows of workspace cards.
+1. (Optional) Click **Show all** to display additional workspaces. The **Show all** link displays only when you have more than two rows of workspace cards.
 1. (Optional) ClicK **Show less** to limit the number of workspaces that display on the screen. 
 1. To delete a workspace, do one of the following:
 
    * Hover over the workspace card, then click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the card
       Or
-   * Click a workspace card to open the workspace, then click **More** to the right of the workspace name. 
+   * Click a workspace card to open the workspace, then click the **More** menu ![](assets/more-menu.png) to the right of the workspace name. 
 1. Click **Delete**.
 
    ![](assets/permanently-delete-workspace-confirmation.png)
-   -->
 
-1. Click the **More** menu ![](assets/more-menu.png) next to the workspace name, then click **Delete**.
-
-   ![](assets/permanently-delete-workspace-confirmation.png)
-   
 1. Type "**delete**" in the space provided, then click **Permanently delete**. This is not case sensitive. 
 
     The workspace is deleted and cannot be recovered. Any record types, records, fields, and views associated with them are also deleted. <!--ensure this is right at or before GA-->

@@ -15,7 +15,7 @@ To improve system performance and to make forms easier to use for users, you mig
 
 >[!CAUTION]
 >
->Deleting a custom field also deletes all custom data that users have entered in the field when filling out custom forms attached to objects. That deleted data cannot be recovered.
+>Deleting a custom field also deletes all custom data that users have entered in the field when filling out custom forms attached to objects. That deleted data cannot be recovered. Also, there is no notification system to alert people who use the custom form that it was deleted.
 >
 >You can view all custom forms and reports that use a custom field you want to delete in order to assess what the repercussions might be. For more information, see [View all custom forms that use a particular custom field or widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md) and [View all reports that use a particular custom field or widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md).
 >

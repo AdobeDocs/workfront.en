@@ -51,6 +51,8 @@ Only users with a Standard (or Plan) license can have Contribute or Manage permi
 
 System administrators can view all workspaces in the system, even the ones they did not create. 
 
+There are limitations for how many Workfront Planning objects you can have. For information, see [Adobe Workfront Planning object limitations overview](/help/quicksilver/planning/general/limitations-overview.md). 
+
 >[!INFO]
 >
 >**EXAMPLE:** 
@@ -109,19 +111,6 @@ Only users with a Standard license can have Manage permissions to views. Users w
 >There is an indication in the sharing box that users cannot be granted permissions to manage a view when they hold a lower-level license, as these permissions levels are dimmed. 
 >
 >![](assets/permissions-grayed-out-for-light-user.png)-->
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

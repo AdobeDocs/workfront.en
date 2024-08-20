@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: Configure default proof email notification settings
+title: Configure Default Proof Email Notification Settings
 description: Proofing users in Adobe Workfront can receive email notifications from both Workfront and Workfront Proof when comments or decisions are made on a proof. If users are already receiving email notifications from Workfront Proof, we recommend that you disable notifications sent from Workfront to avoid duplicate notification emails.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
@@ -48,7 +48,7 @@ You must have the following access to perform the steps in this article:
 
 To configure proof email notification settings that are sent from Workfront:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
+{{step-1-to-setup}}
 
 1. Expand **Email**, then click **Review and Approval**.  
 

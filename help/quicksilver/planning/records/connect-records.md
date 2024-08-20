@@ -422,7 +422,6 @@ To connect records with AEM assets:
 You must have the following to connect Workfront Planning records from Workfront objects: 
 
 * Connections between record types and Workfornt object types that are established in Workfront Planning.
-* At least one connection between a record and a Workfront object. 
 * Your Workfront or group administrator must add the Planning section to the Workfront object types that can connect to Planning record types in your Layout Template. 
 
 For more information, see [Manage records in the Planning section of Adobe Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md).

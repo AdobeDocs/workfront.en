@@ -86,7 +86,7 @@ In a multi-object custom form, if a calculated field references fields that are 
 
 For example, if you have a multi-object form for projects and issues, and you add a calculated field containing the {name} expression, the field displays the project name when you add the form to a project, and the task name of you add the form to a task.
 
-However, if a calculated field in the form references a field that is not compatible with all of the form's object types, a message alerts you to make adjustments.
+Fields not compatible with the object will display N/A on the form.
 
 >[!INFO]
 >
