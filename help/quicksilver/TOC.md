@@ -405,8 +405,8 @@ feature-set: Workfront
     * [Change required for adding proofs to your allowlist](product-announcements/announcements/proofhq-domain-change-workfront.md)
     * [Unsubscribe from Announcement Center Messages in the new Adobe Workfront experience](product-announcements/announcements/unsubscribe-from-ac-messages.md)
     * Announcement archive {#announcement-archive}
-      * [Custom form enhancements](product-announcements/announcements/announcement-archive/custom-form-enhancements.md)
       * [Announcement archive](product-announcements/announcements/announcement-archive/announcement-archive.md)
+      * [Custom form enhancements](product-announcements/announcements/announcement-archive/custom-form-enhancements.md)
       * [Updated Mobile App for iOS and Android (Early August, 2017)](product-announcements/announcements/announcement-archive/updated-mobile-app.md)
       * [TLS 1.2 to be required in Adobe Workfront](product-announcements/announcements/announcement-archive/tls-1-disabled.md)
       * [Outlook 365 Add-In Is Now Available](product-announcements/outlook-365-add-in/outlook-365-add-in-now-available.md)
