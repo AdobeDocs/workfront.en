@@ -10,6 +10,10 @@ exl-id: d593a9d5-6351-48ff-891d-cc1b727188bc
 ---
 # Canvas Dashboard report types overview
 
+>[!IMPORTANT]
+>
+>This page describes functionality that is only available to users enrolled in the Canvas Dashboards closed beta. See [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) to learn more.
+
 There are a number of different reports you can add to a Canvas Dashboard that visualize your Workfront data in different ways. The following types of reports can be added to a Canvas Dashboard:
 
 * Existing reports (reports created using the reporting tool)

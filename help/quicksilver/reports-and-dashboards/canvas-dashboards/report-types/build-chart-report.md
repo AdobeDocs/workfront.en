@@ -9,6 +9,10 @@ exl-id: 4262cae8-602f-416d-94b9-409eb9d6241c
 ---
 # Build a chart report in a Canvas Dashboard
 
+>[!IMPORTANT]
+>
+>This page describes functionality that is only available to users enrolled in the Canvas Dashboards closed beta. See [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) to learn more.
+
 A chart report that visualizes your data as a bar, column, line, or pie chart can be added to a Canvas Dashboard.
 
 For general information on adding and arranging reports on a Canvas Dashboard, see [Add, remove, or arrange reports in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
