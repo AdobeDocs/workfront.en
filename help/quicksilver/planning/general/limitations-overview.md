@@ -6,7 +6,7 @@ hide: yes
 recommendations: noDisplay, noCatalog
 ---
 
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
+<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Adobe Workfront Planning object limitations overview
 

@@ -34,8 +34,8 @@ A workspace is a collection of record types used by an organizational unit and i
 
    * For system administrators, workspaces display in the following tabs: 
 
-      * **My workspaces**: Displays workspaces you created. <!--Replace with: **Workspaces I'm on**: Displays workspaces you created or workspaces that are shared with you.-->
-      * **Other workspaces**: Displays all other workspaces in the system, including the ones shared with you. <!--Replace with: **Other workspaces**: Displays all other workspaces in the system.-->
+      * **Workspaces I'm on**: Displays workspaces you created or workspaces that are shared with you.
+      * **Other workspaces**: Displays all other workspaces in the system.
 
    * For all other users, workspaces they created and workspaces others shared with them display in the Workspaces area. 
 
@@ -49,6 +49,7 @@ A workspace is a collection of record types used by an organizational unit and i
     System administrators can manage all workspaces, even the ones that they did not create. 
 
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
+
 * There are limits on how many workspace objects you can create in your instance of Workfront Planning. For information, see [Adobe Workfront Planning object limitations overview](/help/quicksilver/planning/general/limitations-overview.md). 
 
 

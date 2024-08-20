@@ -93,8 +93,6 @@ The Planning section is available for the following Workfront objects:
 
 * Workfront Planning record types must be connected to Workfront object types. 
 
-* At least one record must be connected to one Workfront object to be able to view records in Workfront. 
-
    For information, see the following articles:
 
    * [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md)
