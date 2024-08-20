@@ -15,11 +15,9 @@ Canvas Dashboards is a feature currently in development that allow you to easily
 For basic information about using Canvas Dashboards, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 For a list of all Canvas Dashboards documentation, see [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
-**Beta schedule:**
+**Beta status**
 
-* Closed beta start date - TBA
-* Open beta start date - TBA
-* Planned release date - TBA
+Canvas Dashboards is currently in a closed beta testing phase, and is therefore only available by invitation to specific customers.
 
 ## Participate in the beta
 

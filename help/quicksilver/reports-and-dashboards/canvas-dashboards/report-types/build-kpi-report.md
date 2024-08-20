@@ -9,6 +9,10 @@ exl-id: e1c68ac3-112e-4f9e-b644-f44bb0778b92
 ---
 # Build a KPI report in a Canvas Dashboard
 
+>[!IMPORTANT]
+>
+>This page describes functionality that is only available to users enrolled in the Canvas Dashboards closed beta. See [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) to learn more.
+
 A KPI report that prominently displays a single aggregated KPI can be added to a Canvas Dashboard.
 
 For general information on adding and arranging reports on a Canvas Dashboard, see [Add, remove, or arrange reports in a Canvas Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md).
