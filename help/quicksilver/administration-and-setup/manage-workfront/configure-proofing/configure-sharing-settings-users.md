@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: Configure sharing settings for your users
+title: Configure Sharing Settings for Your Users
 description: As an Adobe Workfront administrator or Workfront Proof administrator, you can configure the user accounts with which proofs can be shared, whether users can see all versions of a proof, and the timing when users gain access to shared items.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
@@ -14,6 +14,8 @@ exl-id: 505c183b-6252-4367-898f-2429824860be
 As an Adobe Workfront administrator or Workfront Proof administrator, you can configure the user accounts with which proofs can be shared, whether users can see all versions of a proof, and the timing when users gain access to shared items. 
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following:
 
@@ -38,9 +40,11 @@ You must have the following:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
++++
+
 ## Configure sharing with other accounts 
 
-1. From Workfront, click the Main Menu ![](assets/main-menu-icon.png), then click Proofing ![](assets/proofing-in-main-menu.png) to access Workfront Proof.    
+{{step1-to-proofing}}    
 
 1. Click **Settings** > **Account settings**, then click the **Settings** tab.
 
@@ -51,7 +55,7 @@ You must have the following:
 
 ## Configure visibility to all versions of a shared proof
 
-1. From Workfront, click the Main Menu ![](assets/main-menu-icon.png), then click Proofing ![](assets/proofing-in-main-menu.png) to access Workfront Proof.    
+{{step1-to-proofing}}   
 
 1. Click **Settings** > **Account settings**, then click the **Settings** tab.
 
@@ -69,7 +73,7 @@ You can specify when proofs with an automated workflow are visible to users who 
 
 To configure when proofs with an automated workflow are visible to users:
 
-1. From Workfront, click the Main Menu ![](assets/main-menu-icon.png), then click Proofing ![](assets/proofing-in-main-menu.png) to access Workfront Proof.    
+{{step1-to-proofing}}   
 
 1. Click **Settings** > **Account settings**, then click the **Settings** tab.
 
