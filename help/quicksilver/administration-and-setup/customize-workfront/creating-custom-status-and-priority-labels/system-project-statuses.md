@@ -3,7 +3,7 @@ user-type: administrator
 content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-title: Overview of system project statuses
+title: Overview of System Project Statuses
 description: Workfront has 9 built-in system project statuses. The first 3 in the table below are required, which means that you can unlock, rename, and reorder them, but you cannot hide or delete them. Changing a project status is typically a manual process. However, sometimes a project status is changed automatically, depending on other activities that are happening in the system.
 author: Lisa
 feature: System Setup and Administration

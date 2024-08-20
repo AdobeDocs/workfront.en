@@ -2,21 +2,21 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
-title: List objects with a pending approval processes using a certain status
+title: List Objects with a Pending Approval Process Using a Certain Status
 description: If you try to delete a status, an error message might tell you that it can't be deleted because it's being used in pending approval processes on objects in your system. If you want to find and review those objects to decide what you need to do, you can run a report that lists them.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 52dd8750-9a6f-4ac6-9779-ba4ea9b6f4e0
 ---
-# List objects with a pending approval processes using a certain status
+# List objects with a pending approval process using a certain status
 
-If you try to delete a status, an error message might tell you that it can't be deleted because it's in at least one pending approval processes in your system. You can run a report to list the objects where it is in an pending approval process, then decide what you need to do for each one.
+If you try to delete a status, an error message might tell you that it can't be deleted because it's in at least one pending approval process in your system. You can run a report to list the objects where it is in an pending approval process, then decide what you need to do for each one.
 
 ## In Standard Mode
 
-1. Go to the **Reporting** area in the Global Navigation Bar, then select the **Reports** tab.
-1. Click the Main Menu icon ![](assets/main-menu-icon.png) in the upper-right corner, then click **Reports**.
+{{step1-to-reports}}
+
 1. Click **New Report**, then select **Project Report**, **Task Report**, or **Issue Report**.
 1. Open the **Filters** tab.
 1. Click **Add a Filter Rule**, then do the following to set up the rule:
@@ -36,7 +36,8 @@ If you try to delete a status, an error message might tell you that it can't be 
 
 ## In Text Mode
 
-1. Click the Main Menu icon ![](assets/main-menu-icon.png) in the upper-right corner, then click **Reports**.
+{{step1-to-reports}}
+
 1. Click **New Report**, then select **Project Report**, **Task Report**, or **Issue Report**.
 1. Open the **Filters** tab.
 1. Select **Switch to Text Mode**.

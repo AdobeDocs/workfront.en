@@ -1,5 +1,5 @@
 ---
-title: Create an approval process for work items
+title: Create an Approval Process for Work Items
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
