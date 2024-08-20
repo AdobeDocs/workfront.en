@@ -2250,6 +2250,7 @@ feature-set: Workfront
     * [Datadog modules](workfront-fusion/apps-and-their-modules/datadog-modules.md)
     * [Data store modules](workfront-fusion/apps-and-their-modules/data-store-modules.md)
     * [DocuSign modules](workfront-fusion/apps-and-their-modules/docusign-modules.md)
+    * [[!DNL Draft.js] modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/draft-js-modules.md)
     * [Dropbox modules](workfront-fusion/apps-and-their-modules/dropbox-modules.md)
     * [Email modules](workfront-fusion/apps-and-their-modules/email-modules.md)
     * [Encryptor](workfront-fusion/apps-and-their-modules/encryptor-modules.md)
