@@ -1,6 +1,6 @@
 ---
 title: Create records
-description: When using Adobe Workfront Planning, a record is an instance of a record type. 
+description: When using Adobe Workfront Planning, a record is an instance of a record type. You can create unique records for each record type in Workfront Planning by manually adding them to the table view, importing them from a list, duplicating them, or creating them as you connect them to other records. 
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -16,10 +16,10 @@ In Adobe Workfront Planning, a record is an instance of a record type.
 
 You can create records by doing one of the following:
 
-* Add them from the record type page
+* Add them from the record type page in the table view
 * Copy and paste a list of records from an external list
 * Duplicate them
-<!--* Add them as you connect them from other records-->
+<!--* Create them as you connect them from other records-->
 
 This article describes how you can create records. For information about managing records in the table or timeline views, see the following articles:
 
@@ -213,12 +213,18 @@ For information about duplicating records, see [Duplicate records](/help/quicksi
 
 ## Create records as you connect them
 
-You can create records as you connect them from other records. 
+You can create records or Workfront objects as you connect them from other records. 
 
-You must have the following before you can add new records by connecting them from existing records:
+You must have the following before you can add new records or Workfront objects by connecting them from existing records:
 
 * Connected record types. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Connected records. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+* Manage permissions to the workspace you want to add records to. 
+* Edit access in Workfront for the object types that you want to add (projects and portfolios.)
+
+>[!NOTE]
+>
+>Creating Workfront projects and portfolios as you connect them to Workfront Planning records is similar to creating Planning records as you connect them from other records.
 
 To create records as you are connecting them from other records: 
 

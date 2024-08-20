@@ -235,6 +235,7 @@ To add a grouping in the timeline view:
 
 1. Click outside the **Group records by** box to close it. 
 1. (Optional) Click **Settings**, then **Color** to color-code groupings. For more information, see the [Edit the timeline view settings](#edit-the-timeline-view-settings) section in this article. 
+<!--1. (Optional) Click **Breakdown** to display connected records on the timeline. For information, see [Display connected records in the timeline using Breakdown](#display-connected-records-in-the-timeline-using-breakdown) section in this article.-->
 
 <!-- 
 
@@ -323,3 +324,29 @@ Update the timeline view settings to indicate what and how information displays 
 1. Click **Save**.
 
     The records display in the timeline view with the specifications that you selected.
+
+<!--****************THIS IS INCOMPLETE*************
+
+### Display connected records in the timeline using Breakdown
+
+You can break down records in the timeline by their connected records. 
+
+### Considerations when breaking down records in the timeline view
+
+* You can display connected records or objects under the records of the selected record type in the timeline view. 
+* You can display the following in the timeline view, using the Breakdown feature:
+    * Workfront Planning records connected to the selected record type. 
+    * Workfront (*************or AEM Assets*************)  object types connected to the selected record type.
+
+* You cannot display object types that are connected to Workfront objects in Workfront. You can only display object or record types that are connected in Workfront Planning. 
+
+    For example, tasks, are connected to projects in Workfront. Using the Breakdown feature, you can display projects that are connected to campaigns in Planning, but not tasks connected to projects in Workfront. 
+
+    If you want to display both portfolios and projects in the timeline view of a Workfront Planning record type, both the portfolios and the projects must be connected to the Planning record or to a record connected to the Planning record whose timeline view you are editing. 
+* You can only display record types that are associated with at least two date fields. 
+* The date fields for the record types you want to display in the timeline view must be visible in the table view of the selected record type, as lookup fields. 
+* The Start and End dates of the record types you want to display in the timeline view must by in chronological order. For example, if a record has a Start date of January 31 and an End date of January 1, it does not display in the timeline view. For more information, see the [Manage a timeline view](#manage-a-timeline-view) section in this article. 
+
+### Use the Breakdown feature to display connected records or objects in the timeline view
+
+-->
