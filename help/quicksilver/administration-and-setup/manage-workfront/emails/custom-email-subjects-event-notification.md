@@ -1,6 +1,6 @@
 ---
 navigation-topic: notifications
-title: Customize email subjects for event notifications
+title: Customize Email Subjects for Event Notifications
 description: You can customize the subject line of the emails triggered by event notifications.
 author: Nolan
 feature: System Setup and Administration
@@ -27,6 +27,8 @@ Some event notifications have multiple subject lines, which means that those eve
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -52,9 +54,11 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
++++
+
 ## Customize email subject lines for event notifications {#customize-email-subject-lines-for-event-notifications}
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left panel, click **Email** > **Notifications**.
 

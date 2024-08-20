@@ -10,6 +10,7 @@ exl-id: d2962100-3a64-47a9-a67c-5ebf6a594711
 ---
 # Announcement archive
 
+* [Custom form enhancements](custom-form-enhancements.md)
 * [Updated Mobile App for iOS and Android (Early August, 2017)](updated-mobile-app.md)
 * [TLS 1.2 to be required in Adobe Workfront](tls-1-disabled.md)
 * [Outlook 365 Add-In Is Now Available](../../outlook-365-add-in/outlook-365-add-in-now-available.md)
