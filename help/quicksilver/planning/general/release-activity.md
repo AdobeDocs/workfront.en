@@ -69,40 +69,6 @@ Workfront Planning has temporarily been removed from the Preview and Sandbox env
 
 <!--
 
-### Landing page improvements
-
-Production: <date> 
-
-Preview: To be determined 
-
-We have made the following improvements to the Planning area's main page: 
-
-* "Workfront Planning" displays in the landing page header, to make it clear for users what area of the application they are accessing. (*******************)--not seeing this anywhere – omit this!*************????)
-
-* We added a "More" menu for each workspace card to make it easier to edit or delete the workspace from the main page. 
-
-* We added "Show all" and "Show less" links to display more or fewer workspaces in case there are more than two rows of workspace cards listed on the main page.  
-
-* For system administrators, the workspaces that they did not create have been moved from the "Other workspaces" tab to the "Workspaces I'm on" tab. The "My workspaces" tab has been removed. 
-
-For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md).
-
-
-### Connect record types across multiple workspaces
-
- Production: <date>  
-
- Preview: To be determined  
-
- You can now connect record types that belong to different workspaces.  
-
- System administrators can now configure record types to be connected from other workspaces. After this, a workspace manager can connect to these record types.  
-
-Prior to this enhancement, you could only connect record types that belonged to the same workspace, along with object types from other applications.   
-
- For information, see Edit record types (help/quicksilver/planning/architecture/edit-record-types.md). 
-
-
 ### New Connections tab in the record details area
 
 Production: <date> 
@@ -192,6 +158,38 @@ The new connection types are not supported for the following record type connect
 For information, see [Connect record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md). 
 
 -->
+
+## Week of August 19, 2024
+
+### Workfront Planning main page improvements
+
+Production: August 20, 2024
+
+Preview: To be determined 
+
+We have made the following improvements to the Planning area's main page: 
+
+* For system administrators, the workspaces that they did not create have been moved from the "Other workspaces" tab to the "Workspaces I'm on" tab. The "My workspaces" tab has been removed. 
+
+* We added a "More" menu for each workspace card to make it easier to edit or delete the workspace from the main page. 
+
+* We added "Show all" and "Show less" links to control the number of workspaces that display on the main page. When there are more than two rows of workspace cards listed on the main page, the Show all link displays to allow you to display all workspaces, only if needed. 
+
+For information, see [Edit workspaces](/help/quicksilver/planning/architecture/edit-workspaces.md).
+
+### Connect record types across multiple workspaces
+
+ Production: August 20, 2024
+
+ Preview: To be determined  
+
+ You can now connect record types that belong to different workspaces.  
+
+ System administrators can now configure record types to be connected from other workspaces. After this, a workspace manager can connect to these record types from a designated workspace or from all workspaces in the system.  
+
+Prior to this enhancement, you could connect only record types that belonged to the same workspace, along with object types from other applications.   
+
+For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). 
 
 ## Week of August 12, 2024
 

@@ -32,7 +32,7 @@ Consider the following about connecting record types:
 
     * Two record types. 
 
-        By default, you can connect two record types from the same workspace. You can also set up record types to connect with record types from other workspaces. 
+        By default, you can connect two record types from the same workspace. You can also set up record types to connect with record types from other workspaces. For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md).
     * A record type and an object type from another application. 
 
 * You can connect Workfront Planning record types with the following object types from the following applications:
@@ -83,15 +83,13 @@ Consider the following about connecting record types:
 
         >[!IMPORTANT]
         >
-        >Everyone with View or higher permissions to the workspace can view the information in the lookup fields, regardless of their permissions or access level in the application of the linked object types <!--or their permissions in other workspaces-->.
+        >Everyone with View or higher permissions to the workspace can view the information in the lookup fields, regardless of their permissions or access level in the application of the linked object types or their permissions in other workspaces. 
 
-<!--see the commented out text above for the release of cross-workspace connections-->
-
-* Linked record fields are preceded by a relationship icon ![](assets/relationship-field-icon.png). 
+        Linked record fields are preceded by a relationship icon ![](assets/relationship-field-icon.png). 
     
-    Linked fields are preceded by an icon that identifies the field type. For example, linked (or lookup) fields are preceded by icons that indicate that a field is a number, a paragraph, or a date. 
+        Linked fields are preceded by an icon that identifies the field type. For example, linked (or lookup) fields are preceded by icons that indicate that a field is a number, a paragraph, or a date. 
 
-## Connection types
+<!--## Connection types
 
 After you establish a connection between two record types or between a record and an object type from another application, you can add records in the connected record fields. 
 
@@ -108,8 +106,6 @@ Depending on how many records you can add to a connected record field, the follo
 >* Two records from different workspaces
 >
 >* A record type and AEM assets
-
-<!-- add screen shots for each type of connection below-->
 
 ### Many-to-many connection type
 
@@ -159,7 +155,7 @@ A real-life example of a one-to-one relationship is the one existing between a p
 
 When you select this connection type, you can later change it to any other connection type. 
 
- 
+--> 
 
 
 
