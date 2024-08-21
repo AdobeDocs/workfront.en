@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: Delete a group status
+title: Delete a Group Status
 description: As a group administrator, you can delete a status for a group that you manage if it is not configured as a required or locked status on the system level, or for a higher group in the hierarchy.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: bfce0325-fe6e-459f-96ca-9a5c94c61ed3
@@ -23,6 +23,8 @@ If there are any groups above the group you manage, their administrators can als
 >* Statuses that are in a pending state of approval for at least one object associated with the group or one of its subgroups.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -43,9 +45,11 @@ You must have the following to perform the steps in this article:
 
 &#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
 
++++
+
 ## Delete a group status
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left panel, click **Groups**.
 1. Click the name of the top-level group.

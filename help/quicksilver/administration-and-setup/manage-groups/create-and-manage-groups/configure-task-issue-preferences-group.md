@@ -1,11 +1,11 @@
 ---
-title: Configure task and issue preferences for a group
+title: Configure Task and Issue Preferences for a Group
 user-type: administrator
 product-area: system-administration;user-management;setup
 keywords: group,preferences,task,issue,unlock
 navigation-topic: create-and-manage-groups
 description: If groups in your organization need to configure a task or issue preference independently from the way it is configured at the system level, an Adobe Workfront administrator can unlock the preference. Then, as a group administrator, you can configure the preference for your group and it will affect all tasks or issues associated with your group.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
@@ -33,6 +33,8 @@ For information about how the Workfront administrator unlocks preferences, see [
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -52,13 +54,15 @@ You must have the following to perform the steps in this article:
 
 &#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
 
++++
+
 ## Configure unlocked task and issue preferences for a top-level group
 
 >[!TIP]
 >
 >If you are a Workfront administrator, you can bypass steps 1-4 by going to Setup > Project Preferences > Tasks & Issues, then searching for the group's name in the box at the top of the page.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 

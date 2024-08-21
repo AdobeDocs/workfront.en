@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: Reorder group statuses
+title: Reorder Group Statuses
 description: As a group administrator, you can change the order of project, task, and issue statuses for a group you manage.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 0cdb4d10-7792-4140-8dec-ef805f668f90
@@ -32,6 +32,8 @@ If there are any groups above the group you manage, their administrators can als
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -50,6 +52,8 @@ You must have the following to perform the steps in this article:
 </table>
 
 &#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
+
++++
 
 ## Default order of statuses
 
@@ -102,7 +106,7 @@ By default, statuses display in the following order:
 
 ## Reorder statuses for tasks and projects in a group you manage
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left panel, click **Groups**, then click the name of the group.
 1. In the left panel, click **Statuses**.
@@ -116,7 +120,7 @@ By default, statuses display in the following order:
 
 ## Reorder statuses for issues
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left panel, click **Groups**, then click the name of the group.
 1. In the left panel, click **Statuses**.

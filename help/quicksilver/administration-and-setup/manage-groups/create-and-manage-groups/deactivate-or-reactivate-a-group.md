@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
-title: Deactivate or reactivate a group
+title: Deactivate or Reactivate a Group
 description: You can deactivate a group you manage that you no longer use.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
@@ -18,6 +18,8 @@ If Callisto adds the <b>Is active</b> checkbox to the Details page for groups yo
 You can deactivate a group you manage that you no longer use.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -38,6 +40,8 @@ You must have the following to perform the steps in this article:
 
 &#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
 
++++
+
 ## Deactivate or reactivate a group
 
 >[!IMPORTANT]
@@ -49,9 +53,8 @@ You must have the following to perform the steps in this article:
 >* Remove it from its parent group. For more information, see the section [Remove a subgroup from its parent group and make it a top-level group](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) in the article [Manage a subgroup](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
 >
 >* Move it under an active group. For more information, see the section [Create, move, view, edit, copy, rename, export, or delete a subgroup](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#create) in the article [Manage a subgroup](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).
->
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left panel, select **Groups**.
 

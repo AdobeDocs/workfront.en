@@ -3,9 +3,9 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: manage,subgroup,edit
 navigation-topic: create-and-manage-subgroups
-title: Manage a subgroup
+title: Manage a Subgroup
 description: As an group administrator of a subgroup, you can create, move, view, edit, copy, rename, export, and delete the subgroup. You can also make a subgroup a top-level group by removing it from its parent group.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
@@ -21,6 +21,8 @@ If there are any groups above your group, their administrators can also do these
 For more information about subgroups, see [Subgroups overview](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -41,9 +43,11 @@ You must have the following to perform the steps in this article:
 
 &#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
 
++++
+
 ## Create, move, view, edit, copy, rename, export, or delete a subgroup
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 
@@ -119,9 +123,7 @@ You must have the following to perform the steps in this article:
 >
 >In Workfront, this Marketing department is represented by a group called Marketing, with 3 subgroups called Field Marketing, Product Marketing, and Digital Marketing. To list the projects that belong to the entire Marketing department (all 4 groups), you could create a Filter for the Projects area with the following Filter Rule:
 >
->```
->Group: Top Parent ID > Equal > Marketing
->```
+>`Group: Top Parent ID > Equal > Marketing`
 >
 >You can also use the Top Parent Name field to identify data associated with a top-level group, but only in Views, not in Filters or Groupings.
 
@@ -135,7 +137,7 @@ You can make a subgroup a top-level group by removing it from its parent group.
 >
 >For instructions on deactivating and reactivating groups, see the sections [View and manage a group's details](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#view) and [View and manage a group's details](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md#inactive) in the article [View and manage a group's details](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-manage-a-groups-details.md).
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 
@@ -153,8 +155,6 @@ Consider the following when you copy a subgroup.
 
 * If a subgroup you copy has its own subgroups, they are included in the copy and their names are formatted as follows:
 
-  ```
-  Original subgroup name (Copy)
-  ```
+  `Original subgroup name (Copy)`
 
 * Any subgroup that belongs to a public group is also public, so any user with edit-user access, in or out of the group, can add users to the subgroup.

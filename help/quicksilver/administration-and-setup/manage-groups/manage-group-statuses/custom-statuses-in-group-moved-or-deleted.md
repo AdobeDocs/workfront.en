@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: Custom statuses in a group that is moved or deleted
+title: Custom Statuses in a Group that Is Moved or Deleted
 description: This article explains what happens to group custom statuses when you move or delete a group.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 83885d86-eb00-46cc-93e9-e3364b6125e8

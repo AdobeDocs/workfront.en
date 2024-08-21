@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: create,group,subgroup,new
 navigation-topic: create-and-manage-groups
-title: Create a group
+title: Create a Group
 description: As an Adobe Workfront administrator, you can create groups to organize users and projects and to assign access rights within Workfront.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
@@ -24,6 +24,8 @@ If you are a group administrator or a Workfront administrator, you can also crea
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -43,13 +45,15 @@ You must have the following to perform the steps in this article:
 
 &#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
 
++++
+
 ## Create a top-level group from scratch
 
 These steps explain how to create a new group from scratch. For information about creating a group or subgroup by copying an existing one, see [Create a top-level group by copying an existing group or subgroup](#create-a-top-level-group-by-copying-an-existing-group-or-subgroup) in this article.
 
 You must be a Workfront administrator to create a top-level group.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 
@@ -121,7 +125,7 @@ Keep the following in mind when you want to do this:
 
 To create a new top-level group by copying a group or subgroup:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 

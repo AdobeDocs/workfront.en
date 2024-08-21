@@ -1,10 +1,10 @@
 ---
-title: Configure project preferences for a group
+title: Configure Project Preferences for a Group
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 description: If you are a group administrator and an Adobe Workfront administrator unlocks a project preference for all groups in the system, you can configure that preference for your group to affect all subsequent projects that your group creates.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
@@ -30,6 +30,8 @@ For information about how a Workfront administrator unlocks a project preference
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -49,13 +51,15 @@ You must have the following to perform the steps in this article:
 
 &#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
 
++++
+
 ## Configure an unlocked project preference for a group
 
 >[!TIP]
 >
 >If you are a Workfront administrator, you can bypass steps 1-4 by going to Setup > Project Preferences > Projects, then searching for the group's name in the box at the top of the page.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 
