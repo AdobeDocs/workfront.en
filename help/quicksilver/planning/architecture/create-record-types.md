@@ -167,9 +167,7 @@ For information about what record types are included with each template, see [Li
 
     The record type page displays in the table view by default. The columns of the table are fields associated with the new record type. Each row is a unique record that you must add. 
 
-    <!-->>[!TIP]
-    >
-    >    If you import a record type from an Excel or CSV file, records are also imported.-->
+    <!--TIP: If you import a record type from an Excel or CSV file, records are also imported.-->
 
     By default, the following fields display in the table view columns of an operational record type:
 
