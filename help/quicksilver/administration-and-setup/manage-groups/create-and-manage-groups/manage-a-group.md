@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: manage,group,edit,
 navigation-topic: create-and-manage-groups
-title: Manage a group
+title: Manage a Group
 description: As a group administrator, you can manage a group that you administer from the Groups area in Setup. If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for Workfront administrators (for any group).
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
@@ -24,6 +24,8 @@ As a group administrator, you can manage a group that you administer from the Gr
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -42,6 +44,8 @@ You must have the following to perform the steps in this article:
 </table>
 
 &#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
+
++++
 
 ## Manage a group's memberships
 
@@ -65,7 +69,7 @@ For instructions, see [View and manage a group's details](../../../administratio
 
 Without leaving the main page of a group you are viewing, you can quickly edit, copy, or delete the group.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **Groups**.
 

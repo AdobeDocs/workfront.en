@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: Import data into Adobe Workfront using a Kick-Start template
+title: Import Data into Workfront Using a Kick-Start Template
 description: Kick-Starts are specially formatted Excel workbooks that you can populate with data you want to import into Workfront. Adobe Workfront provides a Kick-Start template you can use to do this, as explained in Kick-Starts data importer.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
 ---
-# Import data into Adobe Workfront using a Kick-Start template
+# Import data into Workfront using a Kick-Start template
 
 <!--Audited: 12/2023-->
 

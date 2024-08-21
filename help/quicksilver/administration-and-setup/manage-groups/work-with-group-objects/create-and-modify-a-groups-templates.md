@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: Create and modify a group's project templates
+title: Create and Modify a Group's Project Templates
 description: When you are viewing a group that you manage in the Groups area, you can view and work with project templates associated with the group and any of its subgroups.
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
@@ -16,6 +16,8 @@ When you are viewing a group that you manage in the Groups area, you can view an
 If there are any groups above your group, their administrators can also do these things for your group. The same is true for Workfront administrators (for any group).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -40,9 +42,11 @@ You must have the following to perform the steps in this article:
 
 &#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
 
++++
+
 ## View, work with, and create templates for your group from the Groups area
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 
@@ -120,23 +124,23 @@ When you create a project template, the settings listed in the tables below are 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Condition Type</p> </td> 
-   <td> <p>Configured by the group-level project preference "Automatically set the project's Condition based on the Progress Status” if you associate the new template with a group, or the same system-level project preference if you don't.</p> </td> 
+   <td> <p>Configured by the group-level project preference "Automatically set the project's Condition based on the Progress Status" if you associate the new template with a group, or the same system-level project preference if you don't.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Schedule from</p> </td> 
-   <td> <p>Configured by the group-level project preference "Schedule from” if you associate the new template with a group, or the same system-level project preference if you don't.</p> </td> 
+   <td> <p>Configured by the group-level project preference "Schedule from" if you associate the new template with a group, or the same system-level project preference if you don't.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>User time off</p> </td> 
-   <td> <p>Configured by the group-level project preference "User time off” if you associate the new template with a group, or the same system-level project preference if you don't.</p> </td> 
+   <td> <p>Configured by the group-level project preference "User time off" if you associate the new template with a group, or the same system-level project preference if you don't.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Update type</p> </td> 
-   <td> <p>Configured by the group-level project preference "Project timelines will be automatically re-calculated” if you associate the new template with a group, or the same system-level project preference if you don't.</p> </td> 
+   <td> <p>Configured by the group-level project preference "Project timelines will be automatically re-calculated" if you associate the new template with a group, or the same system-level project preference if you don't.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Access section settings</p> </td> 
-   <td> <p>Configured by the group-level task preferences in the "Access” section if you associate the new template with a group, or the same system-level project preference if you don't.</p> </td> 
+   <td> <p>Configured by the group-level task preferences in the "Access" section if you associate the new template with a group, or the same system-level project preference if you don't.</p> </td> 
   </tr> 
  </tbody> 
 </table>

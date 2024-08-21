@@ -1,5 +1,5 @@
 ---
-title: Groups overview
+title: Groups Overview
 user-type: administrator
 content-type: reference;overview
 product-area: system-administration;user-management

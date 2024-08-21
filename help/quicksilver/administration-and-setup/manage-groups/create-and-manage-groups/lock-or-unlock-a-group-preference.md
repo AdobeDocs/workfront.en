@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
-title: Lock or unlock a project, task, or issue preference for subgroups
+title: Lock or Unlock a Project, Task, or Issue Preference for Subgroups
 description: As a group administrator, you can configure and then lock a project, task, or issue preference if a Workfront administrator has unlocked it at the system level.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 05c32b6f-52e1-46a7-9011-633713422f3d
@@ -39,6 +39,8 @@ For information about how a Workfront administrator can lock or unlock a prefere
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -58,9 +60,11 @@ You must have the following to perform the steps in this article:
 
 &#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
 
++++
+
 ## Lock or unlock a group project, task, or issue preference
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left panel, click **Groups**.
 1. Click the name of the group where you want to lock or unlock a project preference.

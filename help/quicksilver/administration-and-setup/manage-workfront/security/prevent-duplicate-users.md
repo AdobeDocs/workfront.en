@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: security
-title: Prevent duplicate users
+title: Prevent Duplicate Users
 description: When creating a new user in Adobe Workfront, you can no longer use an email address that is already being used by another user, even if the email address varies by case (for example, JohnDoe@example.com and johndoe@example.com). In addition, to prepare for future authentication enhancements, ensure that all users have unique email addresses in a Workfront instance.
-author: Caroline
+author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 84d9a752-e894-42cf-9b40-375e35f02c97
@@ -14,6 +14,8 @@ exl-id: 84d9a752-e894-42cf-9b40-375e35f02c97
 When creating a new user in Adobe Workfront, you can no longer use an email address that is already being used by another user, even if the email address varies by case (for example, JohnDoe@example.com and johndoe@example.com). In addition, to prepare for future authentication enhancements, ensure that all users have unique email addresses in a Workfront instance.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article: 
 
@@ -36,6 +38,8 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
++++
+
 ## Create users with unique email addresses
 
 Beginning with the 2019.4 release, when creating a new user in Workfront, you can no longer use an email address that is already being used by another user, even if the email address varies by case. For example, you cannot create one user with the email address of JohnDoe@example.com if another user has the email address of johndoe@example.com.
@@ -47,7 +51,7 @@ To fix duplicate email addresses within a Workfront instance:
 
 1. Examine any duplicate users and decide which user is no longer needed.
 
-   1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Users**. ![](assets/users-icon-in-main-menu.png)
+   {{step-1-to-users}}
 
    1. In the **Filter** menu, select **All**.
    

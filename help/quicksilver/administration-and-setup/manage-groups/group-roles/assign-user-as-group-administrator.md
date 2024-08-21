@@ -1,10 +1,10 @@
 ---
-title: Assign a user as a group administrator
+title: Assign a User as a Group Administrator
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: group-roles
 description: As a group administrator of a group, you can assign other users as group administrators for that group. Adobe Workfront administrators can also do this.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: af8c9fc1-8398-437e-b326-3b94f6e7e7e5
@@ -18,6 +18,8 @@ For more information about group administrators and what they can do, see [Group
 For general information about groups, see [Groups overview](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -38,9 +40,11 @@ You must have the following to perform the steps in this article:
 
 &#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
 
++++
+
 ## Assign a user as a group administrator
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 

@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: Create and modify a group's companies
+title: Create and Modify a Group's Companies
 description: When you are viewing a group that you manage in the Groups area, you can view and work with companies associated with the group and any of its subgroups.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
@@ -16,6 +16,8 @@ When you are viewing a group that you manage in the Groups area, you can view an
 If there are any groups above your group, their administrators can also do these things for your group. The same is true for Workfront administrators (for any group).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -36,9 +38,11 @@ You must have the following to perform the steps in this article:
 
 &#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
 
++++
+
 ## View, work with, and create companies for your group from the Groups area
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 

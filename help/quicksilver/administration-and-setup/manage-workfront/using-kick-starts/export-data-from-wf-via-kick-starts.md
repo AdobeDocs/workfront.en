@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: Export data from Adobe Workfront via Kick-Starts
+title: Export Data from Workfront via Kick-Starts
 description: As an Adobe Workfront administrator, you can use the Kick-Starts data exporter to export data from Workfront.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
 ---
-# Export data from Adobe Workfront via Kick-Starts
+# Export data from Workfront via Kick-Starts
 
 <!-- Audited: 2/2024 -->
 
