@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;projects
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: Kick-Starts scenario-simple project and task import preparation
+title: "Kick-Starts Scenario: Simple Project and Task Import Preparation"
 description: Describes in detail the available settings and controls for a basic Project and Task Import using the Kick Start method.
 author: Lisa
 feature: System Setup and Administration
@@ -12,11 +12,11 @@ exl-id: c095ce9d-b189-449b-bd13-2633837697ed
 ---
 # Kick-Starts scenario: simple project and task import preparation
 
-Describes in detail the available settings and controls for a basic Project and Task Import using the Kick Start method.
+Describes in detail the available settings and controls for a basic Project and Task Import using the Kick-Start method.
 
 ## Scenario
 
-The implementation team would rather import project and task information for active projects as opposed to manually inputting this data into the system.
+The implementation team would rather import project and task information for active projects instead of manually inputting this data into the system.
 
 * [Projects](#projects) 
 * [Task list](#task-list)

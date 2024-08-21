@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
-title: Delete a group
+title: Delete a Group
 description: You can delete a group that you manage. If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for Workfront administrators (for any group).
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f92eb1f5-fe98-4c7e-8ef7-8ed7134db8d4
@@ -16,6 +16,8 @@ You can delete a group that you manage. If there are any groups above the group 
 For information about deleting a subgroup, see [Manage a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -36,9 +38,11 @@ You must have the following to perform the steps in this article:
 
 &#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
 
++++
+
 ## Delete a group
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 

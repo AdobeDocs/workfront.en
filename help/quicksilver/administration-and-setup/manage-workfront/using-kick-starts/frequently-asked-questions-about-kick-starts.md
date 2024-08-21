@@ -4,9 +4,9 @@ content-type: faq
 product-area: system-administration
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: Frequently asked questions about Kick-Starts
+title: Frequently Asked Questions About Kick-Starts
 description: Find answers to frequently asked questions about importing and exporting Workfront data using Kick-Starts.
-author: Caroline
+author: LIsa
 feature: System Setup and Administration
 role: Admin
 exl-id: f286e03e-93a8-43f5-8c2d-2c36203776a8

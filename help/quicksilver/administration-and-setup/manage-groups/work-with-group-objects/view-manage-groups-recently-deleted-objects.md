@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: View and manage a group's recently deleted items
+title: View and Manage a Group's Recently Deleted Items
 description: When you are viewing a group that you manage in the Groups area, you can view, filter, restore, and export its recently deleted work items, documents, and templates.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: d5fbc71b-3b22-48d1-a056-f2c4b32c220c
@@ -22,6 +22,8 @@ If there are any groups above your group, their administrators can also do these
 For more information about deleted items, see [Manage deleted items](../../../administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -48,9 +50,11 @@ You must have the following to perform the steps in this article:
 
 &#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
 
++++
+
 ## View and manage a group's recently deleted items
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 

@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: View and manage a group's recently restored items
+title: View and Manage a Group's Recently Restored Items
 description: When you are viewing a group that you manage in the Groups area, you can view, vilter, group, and restore its recently restored work items, documents, and templates.
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
@@ -21,6 +21,8 @@ If there are any groups above your group, their administrators can also do these
 For more information about restored items, see [Restore deleted items](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -45,9 +47,11 @@ You must have the following to perform the steps in this article:
 
 &#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
 
++++
+
 ## View and manage a group's recently restored items
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 
