@@ -34,7 +34,13 @@ You can delete Workfront Planning fields that are no longer relevant.
 * You can delete a field only in the record type table view.
 * You cannot delete the primary field of a record. 
 * Any information stored in the field is deleted and cannot be recovered. 
-* When you delete a linked record field, all the linked lookup fields are also deleted from the record type you link from. The linked record fields of the record types you link to are not deleted. 
+* When you delete a connected record field, all the connected lookup fields are also deleted from the record type you connect from. The connected record fields of the record types you connect to are also deleted from the record you connect to.
+
+   For example, when you connect campaigns to another record type called product, and you delete the Product connected field and the Product's Status lookup field from the campaign, the following are deleted:
+      
+   * The Product connected field from the campaign
+   * The Product Status lookup field from the campaign
+   * The Campaign connected field from the product. 
 
    For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
 

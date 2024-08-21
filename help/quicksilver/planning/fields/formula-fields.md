@@ -100,10 +100,12 @@ For information, see the "Formula" section in the article [Create fields](/help/
 
 ## Considerations about formula fields
 
-* Formula fields reference fields that belong to the same record type. You cannot reference fields from other record types when creating a formula field. <!--is this still accurate??-->
+* Formula fields reference fields that belong to the same record type. 
+* You can reference fields from other record types only when you connect another record type to the one you're creating a formula field for. 
 * You cannot change the Field type of a Formula field after you save it. 
 * You can update the calculation of a formula field after you save it, and the results of the calculation update automatically for all the records of the same type. 
 * You must add the fields you reference in formulas as they display in the Workfront Planning interface. 
+* You can reference only fields that display in the table view of a record type or on the record details page. 
 <!--* You can format the result of a formula calculation by choosing from the following options:
 
    * Text

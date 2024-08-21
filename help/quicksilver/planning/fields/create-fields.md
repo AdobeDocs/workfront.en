@@ -37,9 +37,9 @@ You can create fields in the following ways in Workfront Planning:
 
 * From scratch
 * By connecting record types
-* By importing record types using an Excel or CSV file
 * By creating a record type
 * By creating a workspace from a template
+<!--* By importing record types using an Excel or CSV file-->
 
 For more information about Workfront Planning fields, see [Field overview](/help/quicksilver/planning/fields/fields-overview.md).
 
@@ -395,7 +395,13 @@ For more information, see [Formula fields overview](/help/quicksilver/planning/f
     * **Percent**: The result of the formula field displays as a number followed by a percentage symbol.  
     * **Currency**: The result of the formula field displays as a number preceded or followed by a currency symbol.  
     * **Tags**: The result of the formula field displays as a tag with the object's name. 
+    
+        >[!TIP]
+        >
+        >Tags is the perfect format for fields that show arrays. In this case, each array member displays as a separate tag.
+
     * **Date**: The result of the formula field displays as a date. 
+
 
         A preview of what the result will look like displays under the **Format** field. 
 
@@ -539,9 +545,9 @@ You can create linked record fields when you add a new connection between two re
         
 For information about connecting Workfront Planning record types, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md)
 
-## Create fields by importing record types using an Excel or CSV file
+<!--## Create fields by importing record types using an Excel or CSV file
 
-For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
+For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).-->
 
 ## Create fields by creating a record type
 

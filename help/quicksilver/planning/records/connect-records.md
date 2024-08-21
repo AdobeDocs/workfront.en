@@ -1,5 +1,5 @@
 ---
-title: Connect records
+title: Connect Records
 description: After you create connections between record types, you can connect individual records to one another.
 hidefromtoc: yes
 hide: yes
@@ -145,11 +145,11 @@ To connect records with other records or objects, you must have the following:
 
 You can connect records from Workfront Planning in the following areas:
 
-* From a Planning record in Workfront Planning in the connected fields in the table view.
+* From a Planning record in Workfront Planning in the connected record fields in the table view.
 * From a Planning record in Workfront Planning in the record preview or page in the connected record fields.
   <!--
   * From a Planning record in Workfront Planning in the record preview or page in the connected record fields on the Details tab.
-  * From a Planning record in the record's preview or page on the Connections tab.  --> 
+  * From a Planning record in the record's preview or page on the Connections tab.--> 
 
 ### Connect Adobe Workfront Planning records from the table view or the <!--Details tab of the--> record page
 
@@ -205,7 +205,7 @@ You can connect records from Workfront Planning in the following areas:
       >
       >*  We use "linked fields" and "lookup fields" interchangeably. 
       >
-      >* If you enabled the **Allow multiple records** setting when you connected the record types, the values of fields for the multiple selected objects are either displayed separated by commas or are aggregated according to the aggregator you chose.
+      >* When you choose to connect multiple records when you connected the record types, the field values from the multiple objects are either displayed separated by commas or are aggregated according to the aggregator you chose.
     
 1. (Optional) Close the record type page and go to the workspace you selected. 
 1. Click the card for the record type that you linked to. 
@@ -280,7 +280,7 @@ After you created a connection between a record type and a Workfront object type
 
    >[!TIP]
    >
-   >* When you enable the Allow multiple records setting, the values of the lookup fields are either displayed separated by commas or are aggregated according to the aggregator you chose.
+   >* When you choose to connect multiple records when connecting the record types, the values of the lookup fields are either displayed separated by commas or are aggregated according to the aggregator you chose.
    >
    >* A linked record field is not created for the linked Workfront objects in Workfront.
 
@@ -354,7 +354,7 @@ To connect records with AEM assets:
 
       >[!TIP]
       >
-      >* If you enabled the Allow multiple records setting, the values of the multiple objects display either separated by commas or aggregated according to the aggregator you chose.
+      >* When you select to connect multiple records when connecting the record types, the values of the multiple objects display either separated by commas or aggregated according to the aggregator you choose.
       >
       >* A linked record field to the Workfront Planning linked records is not created for the linked Experience Manager assets in the Experience Manager Assets application. 
      
@@ -402,6 +402,12 @@ To connect records with AEM assets:
     ![](assets/connections-tab-on-record-in-workfront-planning.png)
 
     All record or object types that are linked to the selected record type display as sections. Connected records or objects display under their record or object type names on cards. 
+
+    >[!TIP]
+    >
+    >    Only connected records that have individual records connected display by default.
+
+1. (Optional) Click **Show all connections** to show all connected record types, including the ones without connected records. 
 
 1. (Optional) Click the downward-pointing arrow to the left of a section to collapse it. 
 

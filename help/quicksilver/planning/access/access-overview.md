@@ -86,7 +86,7 @@ You must have the following to be able to access Workfront Planning:
 
 *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
 
-<!-- replace the table above with the following table at Planning GA release: 
+<!--replace the table above with the following table at Planning GA release: 
 ## Access requirements
 
 ********************do not collapse this table because this is part of the main information in this article*********
@@ -110,7 +110,7 @@ You must have the following to be able to access Workfront Planning:
  <tr>
    <td role="rowheader"><p>Adobe Workfront plan*</p></td>
    <td>
-<p>Any of the following new Workfront plans:</p>
+<p>Any of the following Workfront plans:</p>
 <ul><li>Select</li>
 <li>Prime</li>
 <li>Ultimate</li></ul>
