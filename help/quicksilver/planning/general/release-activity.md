@@ -69,6 +69,24 @@ Workfront Planning has temporarily been removed from the Preview and Sandbox env
 
 <!--
 
+### Break down connected records in the timeline view
+
+Production: <date> 
+
+Preview: To be determined 
+
+As a Timeline view manager, you can now view the relationships between connected records by breaking down records into visual hierarchies in the timeline view.  
+
+For example, when you are viewing Campaigns in the timeline view which are linked to Products, and Products have associations with Projects, you can now break down the campaigns visually by Products first, and further break down Products by Projects.  
+
+This allows you to seamlessly navigate through multiple levels of relationships, all within the same timeline view.  
+
+This is not an actual hierarchy (no object is higher than another). It is a visual hierarchy that displays connected record types in one timeline view.  
+
+You can display up to 5 levels of record types in the same timeline for one record.  
+
+For information, see [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md). 
+
 ### New Connections tab in the record details area
 
 Production: <date> 
@@ -115,7 +133,7 @@ Production: August 28, 2024
 
 Preview: To be determined 
 
-You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Get started with canvas dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 
 ### Define format for formula field values
 
@@ -836,13 +854,13 @@ From the record's preview, you can open the record page in a new browser tab.
 
 For more information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).  
 
-### The record type Excel import is temporarily disabled  
+### The record type Excel import is temporarily removed  
 
 Production: March 21, 2024 
 
 Preview: To be determined 
 
-We are temporarily disabling importing record types using an Excel or CSV file. This functionality will be available at a later date. 
+We are temporarily removing importing record types using an Excel or CSV file. This functionality will be available at a later date. 
 
 ## Week of March 11, 2024
 

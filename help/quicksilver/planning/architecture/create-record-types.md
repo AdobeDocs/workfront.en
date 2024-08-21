@@ -96,11 +96,11 @@ For more information about record types, see [Record types overview](/help/quick
         
             For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-        * When you import them using an Excel or CSV file. 
+        <!--* When you import them using an Excel or CSV file. 
 
             >[!IMPORTANT]
             >
-            >This functionality has been temporarily disabled since March 21, 2024. It will be enabled at a later date.
+            >This functionality has been temporarily removed since March 21, 2024. It will be enabled at a later date.-->
 
         <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront Planning which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
@@ -139,7 +139,9 @@ For information about what record types are included with each template, see [Li
     From a workspace, expand the downward-pointing arrow to the right of an existing workspace name, search for a workspace, then select it when it displays in the list.
 1. (Optional) Click **Add section** to add a new section to the workspace.
 1. Click **Add record type**. 
-1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. 
+
+    The Add record type box opens.
+    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
 
     ![](assets/add-record-type-box-with-appearance-options.png)
 
@@ -165,9 +167,9 @@ For information about what record types are included with each template, see [Li
 
     The record type page displays in the table view by default. The columns of the table are fields associated with the new record type. Each row is a unique record that you must add. 
 
-    >[!TIP]
+    <!-->>[!TIP]
     >
-    >    If you import a record type from an Excel or CSV file, records are also imported.
+    >    If you import a record type from an Excel or CSV file, records are also imported.-->
 
     By default, the following fields display in the table view columns of an operational record type:
 
@@ -201,11 +203,12 @@ For information about what record types are included with each template, see [Li
       * [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md)
       * [Manage record views](/help/quicksilver/planning/views/manage-record-views.md) 
 
+<!--
 ## Create record types by importing an Excel or CSV file
 
 >[!IMPORTANT]
 >
->This functionality has been temporarily disabled since March 21, 2024. It will be enabled at a later date.
+>This functionality has been temporarily removed since March 21, 2024. It will be enabled at a later date.
 
 Consider the following when importing record types using an Excel or CSV file: 
 
@@ -264,23 +267,5 @@ To import record types using an Excel file:
 
     You can start managing fields and records on the record types pages. 
     
-    Everyone with access to Workfront Planning can now view and edit the imported record types and their information. <!--this will change with permissions-->
+    Everyone with access to Workfront Planning can now view and edit the imported record types and their information.-->
 
-<!--## Connect record types with object types from another application
-
-You can connect a record type and an object type from another application. This creates a read-only record type in Workfront Planning that corresponds to the object type in the other application. 
-
-For example, you can create record types by connecting Workfront Planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront Planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
-    
-You can import the following objects from the following applications: 
-
-* From Workfront:
-
-    * Projects
-    * Portfolios
-    * Programs
-    * Company
-    * Group
-
-For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
--->
