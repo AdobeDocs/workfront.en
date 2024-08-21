@@ -701,8 +701,8 @@ feature-set: Workfront
     * Manage deleted items {#manage-deleted-items}
       * [Manage deleted items](administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
       * [Restore deleted items](administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)
-      * [View restored item](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
-      * [How deleted objects affect objects](administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
+      * [View restored items](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
+      * [How deleted objects affect hours](administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
       * [Restore individual child objects](administration-and-setup/manage-workfront/manage-deleted-items/restoring-individual-child-objects.md)
     * Diagnostics {#diagnostics}
       * [Diagnostics](administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md)

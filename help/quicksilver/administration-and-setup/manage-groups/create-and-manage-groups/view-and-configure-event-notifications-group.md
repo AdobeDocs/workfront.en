@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: view,group,event,notifications,configure,enable,disable
 navigation-topic: create-and-manage-groups
-title: View and configure event notifications for a group
+title: View and Configure Event Notifications for a Group
 description: As an group administrator, you can view the event notifications that are activated for a group you manage. Also, if a Adobe Workfront administrator unlocks an event notification, you can configure it for a top-level group that you manage. Configuration of an event notification consists of activating or deactivating it.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
@@ -26,6 +26,8 @@ For information about the default notification setting for an event, see [Event 
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -45,10 +47,13 @@ You must have the following to perform the steps in this article:
 
 &#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
 
++++
+
 ## View and configure a group's event notifications
 
 1. (Conditional and optional) If you are a Workfront administrator and you are already on the Email Notifications page (Setup > Email > Notifications), you can do the following and then skip to step 6: Delete **System Event Notifications** in the box above the list, start typing the group's name in the box, then click it when it appears.
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+
+{{step-1-to-setup}}
 
 1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 

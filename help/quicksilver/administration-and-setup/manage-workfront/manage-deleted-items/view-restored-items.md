@@ -2,13 +2,14 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
-title: View restored item
+title: View Restored Items
 description: As an Adobe Workfront administrator or a user with a Plan license, you can view which projects, tasks, issues, and documents have been restored in the past 7 days.
 feature: System Setup and Administration
 role: Admin
+author: Lisa
 exl-id: 0c0fc9df-23eb-4a2b-a5b0-6dbd742e8238
 ---
-# View restored item
+# View restored items
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
@@ -19,6 +20,8 @@ As an Adobe Workfront administrator or a user with a Plan license, you can view 
 For information about how to restore a project, task, issue, or document after it has been deleted, see [Restore deleted items](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -39,9 +42,11 @@ You must have the following to perform the steps in this article:
 
 &#42;To find out what plan or license type you have, contact your Workfront administrator.
 
++++
+
 ## View items that have been recently deleted
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
+{{step-1-to-setup}}  
 
 1. Expand **Recycle Bin**, then click **Recently Restored**.
 
