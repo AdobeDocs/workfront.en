@@ -51,7 +51,9 @@ You must have the following to perform the steps in this article:
 
 ## View and configure a group's event notifications
 
-1. (Conditional and optional) If you are a Workfront administrator and you are already on the Email Notifications page (Setup > Email > Notifications), you can do the following and then skip to step 6: Delete **System Event Notifications** in the box above the list, start typing the group's name in the box, then click it when it appears.
+>[!TIP]
+>
+>If you are a Workfront administrator and you are already on the Email Notifications page (Setup > Email > Notifications), you can do the following and then skip to step 6: Delete **System Event Notifications** in the box above the list, start typing the group's name in the box, then click it when it appears.
 
 {{step-1-to-setup}}
 
