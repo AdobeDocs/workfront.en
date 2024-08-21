@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: Event notification types
+title: Event Notification Types
 description: Event notifications are emails triggered by various types of events on objects such as projects, tasks, and issues. This article lists and describes the available types of event notifications.
 author: Nolan
 feature: System Setup and Administration

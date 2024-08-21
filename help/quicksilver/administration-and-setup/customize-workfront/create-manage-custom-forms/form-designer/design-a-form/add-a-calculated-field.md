@@ -233,7 +233,7 @@ To reuse an existing calculated custom field:
 
          **Calculated custom fields in multi-object custom forms**
 
-         In a multi-object custom form, the selected object types must be compatible with at lesat one field referenced in the form's calculated custom fields. Fields not compatable with the object will display N/A on the form. 
+         In a multi-object custom form, the selected object types must be compatible with at least one field referenced in the form's calculated custom fields. Fields not compatible with the object will display N/A on the form. 
 
          To ensure the calculated field is showing a correct result for all object types, you must use `$$OBJCODE` to define a calculation for each object type.
 
