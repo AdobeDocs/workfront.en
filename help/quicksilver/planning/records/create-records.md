@@ -1,6 +1,6 @@
 ---
 title: Create records
-description: When using Adobe Workfront Planning, a record is an instance of a record type. 
+description: When using Adobe Workfront Planning, a record is an instance of a record type. You can create unique records for each record type in Workfront Planning by manually adding them to the table view, importing them from a list, duplicating them, or creating them as you connect them to other records. 
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
@@ -16,10 +16,10 @@ In Adobe Workfront Planning, a record is an instance of a record type.
 
 You can create records by doing one of the following:
 
-* Add them from the record type page
+* Add them from the record type page in the table view
 * Copy and paste a list of records from an external list
 * Duplicate them
-<!--* Add them as you connect them from other records-->
+<!--* Create them as you connect them from other records-->
 
 This article describes how you can create records. For information about managing records in the table or timeline views, see the following articles:
 
@@ -86,10 +86,13 @@ This article describes how you can create records. For information about managin
 
 +++
 
-<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/planning/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
+
+<!--For the release of in-context record creation - add this to the table above for permissions and access:
+
+* Manage permissions to the workspace you want to add records to. 
+* Edit access in Workfront for the object types that you want to add (projects and portfolios.)
+* Manage permissions to Workfront objects (portfolios) to add children objects (projects).-->
+
 
 ## Create records by adding them to a record type <!--in a record type table (I don't think you can create them elsewhere right now)-->
 
@@ -213,12 +216,17 @@ For information about duplicating records, see [Duplicate records](/help/quicksi
 
 ## Create records as you connect them
 
-You can create records as you connect them from other records. 
+You can create records or Workfront objects as you connect them from other records. 
 
-You must have the following before you can add new records by connecting them from existing records:
+You must have the following before you can add new records or Workfront objects by connecting them from existing records:
 
 * Connected record types. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Connected records. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+* The correct access and permissions in Workfront Planning and Workfront, as described in the section [Access requirements](#access-requirements) in this article. 
+
+>[!NOTE]
+>
+>Creating Workfront projects and portfolios as you connect them to Workfront Planning records is similar to creating Planning records as you connect them from other records.
 
 To create records as you are connecting them from other records: 
 

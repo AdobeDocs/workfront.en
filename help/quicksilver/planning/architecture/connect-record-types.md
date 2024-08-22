@@ -29,13 +29,13 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 You can connect record types to one another or record types with object types from other applications. 
 
-This article describes how you can connect two Workfront Planning record types a Workfront Planning record type with an object from another application. 
+This article describes how you can connect two Workfront Planning record types, or a Workfront Planning record type with an object from another application. 
 
 After you establish the connection between records or object types, you can connect individual records to one another, and display fields from the linked record or object types on a Workfront Planning record. 
 
 For general information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
-For information about connecting a Workfront Planning record to an object from another application, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
+For information about connecting records or records with objects from other applications, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
 
 For an example of connecting record types and records, see [Example of connecting record types and records](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md). 
 
@@ -56,7 +56,9 @@ For an example of connecting record types and records, see [Example of connectin
 <td>
    <p> Product</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>To connect Adobe Workfront Planning record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Unified Experience. For information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p> </td>
+   <p> Adobe Workfront</p> 
+   <p> Adobe Workfront Planning</p>
+   <p>To connect Adobe Workfront Planning record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Unified Experience. For information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
@@ -90,7 +92,7 @@ For an example of connecting record types and records, see [Example of connectin
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
    <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create.
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p>
 </td>
   </tr>
  </tbody>
@@ -99,6 +101,86 @@ For an example of connecting record types and records, see [Example of connectin
 *For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
+
+
+<!-- replace the table above with the following table at Planning GA release: 
+
+## Access requirements
+
+You must have the following to be able to access Workfront Planning: 
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Products</p> </td>
+   <td>
+   <ul><li><p> Adobe Workfront</p></li>
+   <li><p> Adobe Workfront Planning<p></li></ul></td>
+  </tr>  
+ <tr>
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td>
+   <td>
+<p>Any of the following Workfront plans:</p>
+<ul><li>Select</li>
+<li>Prime</li>
+<li>Ultimate</li></ul>
+<p>Workfront Planning is not available for legacy Workfront plans</p>
+   </td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td>
+   <td>
+<p>Any of the following Workfront Planning plans:</p>
+<ul><li>Planning</li>
+<li>Planning Plus</li>
+</ul>
+<p>For more information about what is included in each Workfront Planning plan, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>. </p>
+   </td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront platform</p></td>
+   <td>
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning</p>
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
+   </td>
+
+  </tr>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
+   <td>
+   <p>Standard</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p>
+  </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Access level configuration</p></td>
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Object permissions</p></td>
+   <td>
+   <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p>
+  </td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Customize the Main Menu using a layout template</a> and and <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Assign users to a layout template</a>. </p>  
+</td>
+  </tr>
+ </tbody>
+</table>
+
+*For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
+
 
 <!--Maybe enable this at GA - but planing is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
@@ -137,9 +219,8 @@ For an example of connecting record types and records, see [Example of connectin
         > 
         >If you don't have other record types in the selected workspace, the workspace section does not display. 
         
-        <!--remove the first sentence in the tip above at GA-->
 
-        * A record type from another workspace that was configured to connect from other workspaces. For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). 
+    * A record type from another workspace that was configured to connect from other workspaces. For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). 
 
         >[!TIP]
         >

@@ -12,7 +12,7 @@ exl-id: d82bb8a2-a2a6-43d6-a62e-e90f69229533
 
 >[!IMPORTANT]
 >
->This page describes functionality that is only available to users enrolled in the Canvas Dashboards closed beta. See [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) to learn more.
+>This page describes functionality that is available as part of the Canvas Dashboards beta. See [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) to learn more.
 
 Canvas Dashboards allow you to easily visualize your Adobe Workfront data by adding various report types onto a customizable canvas. For basic instructions on using Canvas Dashboards, begin with the article [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md). Otherwise, refer the article index below for more information on a specific topic.
 
