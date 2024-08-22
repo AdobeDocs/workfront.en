@@ -18,6 +18,7 @@ Review the following articles:
 * [Adobe Workfront Planning object limitations overview](/help/quicksilver/planning/general/limitations-overview.md)
 * [Adobe Workfront Planning current release activity](/help/quicksilver/planning/general/release-activity.md)
 * [Adobe Workfront Planning release activity archives for 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md)
+* [Adobe Workfront Planning object limitations overview](/help/quicksilver/planning/general/limitations-overview.md)
 
 
 
