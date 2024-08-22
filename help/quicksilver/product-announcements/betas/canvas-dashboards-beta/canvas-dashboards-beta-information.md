@@ -17,7 +17,7 @@ For a list of all Canvas Dashboards documentation, see [Canvas Dashboards overvi
 
 **Beta status**
 
-Canvas Dashboards is currently in a closed beta testing phase, and is therefore only available by invitation to specific customers.
+Canvas Dashboards is currently in a public beta testing phase, and is therefore subject to frequent changes. See below for instructions on how to enroll in the beta.
 
 ## Participate in the beta
 
