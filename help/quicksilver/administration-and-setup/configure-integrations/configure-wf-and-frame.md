@@ -7,6 +7,8 @@ description: As an [!DNL Adobe Workfront] administrator, you can integrate [!DNL
 author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+hide: yes
+hidefromtoc: yes
 exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
 ---
 # Configure the [!DNL Workfront] and [!DNL Frame.io] integration

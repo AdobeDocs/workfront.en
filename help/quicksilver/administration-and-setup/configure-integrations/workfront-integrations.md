@@ -15,7 +15,6 @@ exl-id: 50088ae0-8460-4163-acab-ebb711acda5a
 This section contains the following articles:
 
 * [[!DNL Adobe Workfront] integrations](../../administration-and-setup/configure-integrations/workfront-integrations-1.md) 
-* [Configure the [!DNL Workfront] and [!DNL Frame.io] integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md)
 * [Configure the [!DNL Experience Manager Assets as a Cloud Service] integration](../../administration-and-setup/configure-integrations/configure-aacs-integration.md)
 * [Configure the [!DNL Experience Manager Assets Essentials] integration](../../documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
 * [[!DNL Workfront] and [!DNL Experience Manager Assets] Integrations](../../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md) 
