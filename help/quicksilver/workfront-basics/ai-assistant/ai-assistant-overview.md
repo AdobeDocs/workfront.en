@@ -58,6 +58,10 @@ To enable AI Assistant for your organization, **all** of the following must appl
 
    For more information, see [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
+* Workfront Planning AI Assistant has different features than Workfront AI Assistant. 
+
+   For more information about AI Assistant in Workfront Planning, see [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+
 
 ## Functionality available in AI Assistant
 
@@ -79,7 +83,7 @@ AI Assistant currently offers the following functionality:
 
    For more information, see [Generate or revise calculated field formulas with AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md).
 
-## ## Access AI Assistant
+## Access AI Assistant
 
 1. At the top of any Workfront page, click the AI Assistant icon ![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
 1. Type your question or prompt into the panel at the right of the screen.
