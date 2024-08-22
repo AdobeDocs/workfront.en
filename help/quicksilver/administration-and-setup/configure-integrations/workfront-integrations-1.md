@@ -1,5 +1,5 @@
 ---
-title: Adobe Workfront integrations
+title: Adobe Workfront Integrations
 user-type: administrator
 content-type: reference;overview
 product-area: system-administration;workfront-integrations
