@@ -19,16 +19,89 @@ You can create records by doing one of the following:
 * Add them from the record type page in the table view
 * Copy and paste a list of records from an external list
 * Duplicate them
-<!--* Create them as you connect them from other records-->
+* Create them as you connect them from other records
 
-This article describes how you can create records. For information about managing records in the table or timeline views, see the following articles:
+This article describes how you can create records. 
+
+For information about managing records in the table or timeline views, see the following articles:
 
 * [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md)
 * [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md)
 
 ## Access requirements
 
+<!--Updated for GA-->
+
 +++ Expand to view access requirements for Workfront Planning. 
+
+You must have the following to be able to access Workfront Planning:  
+
+ <table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td> Standard
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p> 
+   <p>Edit access in Workfront for the object types that you want to create (projects and portfolios) as you connect the records to them. </p>  
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td> <p>Manage permissions to the workspace you want to add records to. </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <p>Manage permissions to Workfront objects (portfolios) to add children objects (projects).</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Layout template</p></td> 
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu </p> </td> 
+  </tr> 
+</tbody> 
+</table> 
+
+ *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).   
+
+<!--OLD info: 
 
 <table style="table-layout:auto">
  <col>
@@ -82,16 +155,9 @@ This article describes how you can create records. For information about managin
  </tbody>
 </table>
 
-*For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+*For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 +++
-
-
-<!--For the release of in-context record creation - add this to the table above for permissions and access:
-
-* Manage permissions to the workspace you want to add records to. 
-* Edit access in Workfront for the object types that you want to add (projects and portfolios.)
-* Manage permissions to Workfront objects (portfolios) to add children objects (projects).-->
 
 
 ## Create records by adding them to a record type <!--in a record type table (I don't think you can create them elsewhere right now)-->
@@ -212,8 +278,6 @@ You can import records from other applications by linking them to existing recor
 
 For information about duplicating records, see [Duplicate records](/help/quicksilver/planning/records/copy-or-duplicate-records.md).
 
-<!--check the steps with the release of in-context record types epic: 
-
 ## Create records as you connect them
 
 You can create records or Workfront objects as you connect them from other records. 
@@ -237,6 +301,7 @@ To create records as you are connecting them from other records:
 
     The record is created and added to the connected record field. 
 1. (Optional) Go to the table view of the record type whose record you created. A new record displays in the last row of the view. 
-1. (Optional) Start adding information for the new record in the table view, or click its name to open the details page and add information there. 
+1. (Optional) Start adding information for the new record in the table view
+Or
+Click its name to open the details page and add information there. 
 
---> 

@@ -27,7 +27,7 @@ Adobe Workfront Planning capabilities are currently available to all customers. 
 >
 >You must purchase a Workfront Planning license, in addition to a Workfront license to be able to access and use the Workfront Planning capabilities. 
 >
->For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+>For more information about access to Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md).
 >-->
 
 >[!IMPORTANT]

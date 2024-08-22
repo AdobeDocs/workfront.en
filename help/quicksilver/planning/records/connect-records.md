@@ -18,7 +18,6 @@ hide: yes
 -->
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-<!--if you change steps here, also update steps in the "Connect records" article-->
 
 # Connect records 
 
@@ -61,6 +60,74 @@ You can connect the following:
 ## Access requirements
 
 +++ Expand to view access requirements for Workfront Planning. 
+
+You must have the following to be able to access Workfront Planning:  
+
+ <table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td> Standard
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace to connect records </p>  
+   <p>View or higher permissions to a workspace to view all connections to objects and fields from other applications, regardless of your access in the other application. </p>
+   <p>View or higher permissions to the objects you want to link from Workfront or Experience Manager Assets. </p>
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p> </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Layout template</p></td> 
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu </p> </td> 
+  </tr> 
+</tbody> 
+</table> 
+
+ *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).   
+
+<!--OLD:
 
 <table style="table-layout:auto">
  <col>
@@ -118,14 +185,9 @@ You can connect the following:
  </tbody>
 </table>
 
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
 +++
-
-<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
 ## Prerequisites for connecting records
 
@@ -143,15 +205,13 @@ To connect records with other records or objects, you must have the following:
 
 ## Connect records from Workfront Planning
 
-You can connect records from Workfront Planning in the following areas:
+You can connect records from Workfront Planning in the following areas of a Planning record:
 
-* From a Planning record in Workfront Planning in the connected record fields in the table view.
-* From a Planning record in Workfront Planning in the record preview or page in the connected record fields.
-  <!--
-  * From a Planning record in Workfront Planning in the record preview or page in the connected record fields on the Details tab.
-  * From a Planning record in the record's preview or page on the Connections tab.--> 
+* The connected record fields in the table view.
+* The record's preview or page in the connected record fields on the Details tab.
+* The record's preview or page on the Connections tab.
 
-### Connect Adobe Workfront Planning records from the table view or the <!--Details tab of the--> record page
+### Connect Adobe Workfront Planning records from the table view or the Details tab of the record page
 
 {{step1-to-planning}}
 
@@ -161,7 +221,7 @@ You can connect records from Workfront Planning in the following areas:
 1. Click the card of a record type to open the record type page. 
 1. Click the name of a **Table** view to open it. 
 1. (Optional) Add records to the record type that you selected by adding a new row to the table. For information, see [Create records](/help/quicksilver/planning/records/create-records.md). 
-1. (Conditional) After you connected the selected record type with another record type, go to  the linked record column and double-click the cell corresponding to the record that you want to link with other records.
+1. (Conditional) After you connected the selected record type with another record type, go to the linked record column and double-click the cell corresponding to the record that you want to link with other records.
 
     ![](assets/connect-other-records-smaller-box-in-table-view.png)
 
@@ -170,15 +230,15 @@ You can connect records from Workfront Planning in the following areas:
     * Click a connected record's name from the list to add it to the selected record. The record is added automatically.
     * Start typing the name of a record and click it when it displays in the list. The record is added automatically. 
 
-    <!--1. (Optional) If you cannot find a record or an object to connect, and you want to add it, click **+ Add** to add a new record. For more information, see the "Create records as you connect them" in the article [Create records](/help/quicksilver/planning/records/create-records.md).
+1. (Optional) If you cannot find a record or an object to connect, and you want to add it, click **+ Add** to add a new record. For more information, see the "Create records as you connect them" in the article [Create records](/help/quicksilver/planning/records/create-records.md).
     
-    You can also create projects and portfolios by adding them to a record in the connected record field. You can create only blank projects, without a template by adding them to a record. 
-    
-     -->
-
     >[!TIP]
     >
-    >    You can open a record's page by clicking the name of the record in the view, find the linked record field and double-click the field (if there are records already connected), or click **Connect records** (if the field is empty) to add records from the connected record or object type. 
+    >    You can open a record's page by doing the following in the table view:
+    >1. Click the name of the record in the view.
+    >1. Find the linked record field and double-click the field (if there are records already connected)
+    >Or
+    >Click **Connect records** (if the field is empty) to add records from the connected record or object type. 
     >
     >![](assets/connect-records-from-record-page-field.png)
 
@@ -205,18 +265,18 @@ You can connect records from Workfront Planning in the following areas:
       >
       >*  We use "linked fields" and "lookup fields" interchangeably. 
       >
-      >* When you choose to connect multiple records when you connected the record types, the field values from the multiple objects are either displayed separated by commas or are aggregated according to the aggregator you chose.
+      >* When you choose to connect multiple records when you connected the record types, the field values from the multiple objects are either displayed separated by commas or are aggregated according to the aggregator you chose when connecting the record types.
     
 1. (Optional) Close the record type page and go to the workspace you selected. 
 1. Click the card for the record type that you linked to. 
 
     For example, if you connected the **Campaign** record with the Product record, click the **Product** card. 
   
-    The record type card should open in the Table view. If not, select a table view. 
+    The record type card should open in the table view. If not, select a table view. 
   
     Notice that the **Campaign** linked record field displays the names of the campaigns you linked to products in the Product record type page. Updating the Campaign information automatically updates the Campaign linked record field for the Product record type.
 
-### Connect Adobe Workfront Planning records to Workfront objects from the table view or the <!--Details tab of the--> record page
+### Connect Adobe Workfront Planning records to Workfront objects from the table view or the Details tab of the record page
 
 <!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
 
@@ -236,6 +296,7 @@ After you created a connection between a record type and a Workfront object type
 1. Select a **Table** view from the **View** drop-down menu.
 
 1. Click **New record**  to add individual records to the record type that you selected. For information, see [Create records](/help/quicksilver/planning/records/create-records.md). 
+
 1. (Conditional) After you connected the selected record type with a Workfront object type, go to  the linked object column and double-click the cell corresponding to the record that you want to link with objects from Workfront.
 
     ![](assets/connect-projects-smaller-box-in-table-view.png)
@@ -248,6 +309,10 @@ After you created a connection between a record type and a Workfront object type
     >[!TIP]
     >
     >You can open a record's page from the view, double-click the linked record field, or click **Connect** in the field to add objects from the connected object type.
+
+1. (Optional) If you cannot find an object to connect, and you want to add it, click **+ Add** to create and add a new project or portfolio. 
+
+    You can only add projects without a template or portfolios when connecting them to Planning records. You cannot add new programs, users, or companies. 
 
 1. (Optional) Click **See all** to display all objects you have at least permissions to view.
 
@@ -295,7 +360,7 @@ After you created a connection between a record type and a Workfront object type
     This adds or removes linked fields from the Workfront Planning records. The information associated with the removed fields remains in Workfront. 
 
 
-### Connect Workfront Planning records to Adobe Experience Manager objects from the table view or the <!--Details tab of the--> record page
+### Connect Workfront Planning records to Adobe Experience Manager objects from the table view or the Details tab of the record page
 
 <!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
 
@@ -358,7 +423,7 @@ To connect records with AEM assets:
       >
       >* A linked record field to the Workfront Planning linked records is not created for the linked Experience Manager assets in the Experience Manager Assets application. 
      
-1. (Optional) Go to the record type you linked to Experience Manager Assets from and click the name of an asset in the linked record field. The Experience Manager details of the asset display in a pop-up window. <!--update screen shot with hi-rez picture-->
+1. (Optional) Go to the record type you linked to Experience Manager Assets from and click the name of an asset in the linked record field. The Experience Manager details of the asset display in a pop-up window. 
 
     ![](assets/asset-pop-up-window-with-aem-details-and-thumbnail.png)
 
@@ -388,10 +453,9 @@ To connect records with AEM assets:
 
     This adds or removes linked fields from the records. The information associated with the removed fields remains in Adobe Experience Assets.
 
-<!--
-### Connect Workfront Planning records from the Connections tab of the record page
+### Connect Workfront Planning records with other records or object from the Connections tab of the record page
 
-1. Go to any view of a record type that has been connected to other record types or object types from other applications. 
+1. Go to any view of a record type that has been connected to other Planning record types or object types from other applications. 
 1. Follow the steps described in the previous subsections to find a record in the view that you want to connect with other records or objects. 
 1. Click the name of a record. 
 
@@ -411,23 +475,20 @@ To connect records with AEM assets:
 
 1. (Optional) Click the downward-pointing arrow to the left of a section to collapse it. 
 
-1. (Conditional) If there are records or objects connected to the selected record, click **Connect** to add more records or objects of the same type. 
-    The Connect button does not display if there are no records currently connected to the selected record. 
-1. Follow the steps describes in the previous sections to connect records from Workfront Planning or objects from Workfront or AEM Assets. 
+1. (Conditional) Click **Connect** to add more records or objects of the same type. 
+1. Follow the steps described in the previous sections to connect records from Workfront Planning or objects from Workfront or Experience Manager Assets. 
     The records and objects are added immediately.
-1. (Optional) Hover over the connected card of a record or object, then click the **Disconnect record** icon to disconnect it from the selected record. 
+1. (Optional) Hover over the connected card of a record or object, then click the **Disconnect record** icon **-** to disconnect it from the selected record. 
 
     ![](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
 
     The record is immediately disconnected from all areas of Workfront Planning or from other applications where it might show as connected. Any lookup field values are also removed. 
 
--->    
-
 ## Connect records from Workfront objects
 
 You must have the following to connect Workfront Planning records from Workfront objects: 
 
-* Connections between record types and Workfornt object types that are established in Workfront Planning.
-* Your Workfront or group administrator must add the Planning section to the Workfront object types that can connect to Planning record types in your Layout Template. 
+* Connections between record types and Workfront object types that are established in Workfront Planning.
+* Your Workfront or group administrator must add the Planning section to the Workfront projects, portfolios, and programs in your Layout Template. 
 
 For more information, see [Manage records in the Planning section of Adobe Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
