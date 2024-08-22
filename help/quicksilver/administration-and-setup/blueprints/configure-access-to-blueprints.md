@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
-title: Configure access to blueprints
+title: Configure Access to Blueprints
 description: As a system administrator, you can enable access for users to request installation of blueprints by setting up a request queue to store the requests. There, you have a single location to track and update requests.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d85f363f-2ab4-45cb-b851-a7f33e1ca905
@@ -28,6 +28,8 @@ As a system administrator, you can:
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -35,19 +37,26 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
-   <td> <p> Any</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe [!DNL Workfront] license</strong></td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td>
+   <p>New: Standard</p>
+   <p>or</p>
+   <p>Current: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Access level configurations</strong></td> 
-   <td> <p>[!UICONTROL System Administrator]</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td>You must be a [!DNL Workfront] administrator. </td> 
   </tr> 
  </tbody> 
 </table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisites {#prerequisites}
 
@@ -62,7 +71,8 @@ You must have the following access to perform the steps in this article:
 
 Before users can request that you install blueprints for them, you must select a request queue for those requests. Until the request queue is defined, users can only browse the blueprints catalog.
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Blueprints]**.
+{{step1-to-blueprints}}
+
 1. Click **[!UICONTROL Configure blueprint requests]** on the top right of the catalog screen.
 
    <!--

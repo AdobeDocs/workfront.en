@@ -1,5 +1,5 @@
 ---
-title: Configure [!DNL Workfront] with [!DNL Adobe Experience Manager] legacy connector
+title: Configure [!DNL Workfront] with [!DNL Adobe Experience Manager] Legacy Connector
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
@@ -14,6 +14,8 @@ exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
 As an [!DNL Adobe Workfront] administrator, you can integrate [!DNL Workfront] with [!UICONTROL Adobe Experience Manager (AEM) Assets] and provide your organization with a comprehensive content management solution for the creation, sharing, and maintenance of assets within your workflow.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -37,6 +39,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+
++++
 
 ## [!DNL Workfront for AEM Assets]
 
@@ -143,7 +147,8 @@ Before you begin, you must enable permissions for workfront-service:
       To retrieve your [!DNL Workfront] API key:
 
       1. Open a browser tab, and log into your [!DNL Workfront] account as a [!DNL Workfront] administrator.
-      1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+
+      {{step-1-to-setup}}
 
       1. Click **[!UICONTROL System]** >**[!UICONTROL Customer Info]**.
 
@@ -250,7 +255,7 @@ After you install the [!UICONTROL Workfront for AEM Assets] Connector (as descri
    >
    >[!UICONTROL Workfront] recommends creating a [!UICONTROL Workfront] administrator dedicated solely to your AEM integration. For more information about assigning the [!UICONTROL Workfront] administrator access level to a user, see [Grant users administrative access to certain areas](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **[!UICONTROL Documents]**> **[!UICONTROL Custom Integration].**
 
