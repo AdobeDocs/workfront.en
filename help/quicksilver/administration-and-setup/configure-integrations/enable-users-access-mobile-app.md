@@ -1,11 +1,11 @@
 ---
-title: Enable users to access the mobile application
+title: Enable Users to Access the Mobile Application
 product-previous: mobile
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: You can enable or disable access to the [!DNL Adobe Workfront] mobile app.
-author: Lisa
+author: Nolan
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: cd09e78c-bd2a-4712-9c35-8acbf1a3729d
@@ -15,6 +15,8 @@ exl-id: cd09e78c-bd2a-4712-9c35-8acbf1a3729d
 You can enable or disable access to the [!DNL Adobe Workfront] mobile app.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -37,9 +39,11 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
++++
+
 ## Enable users to access the mobile application
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **[!UICONTROL Setup],** located in the upper-right corner of the page.
 
