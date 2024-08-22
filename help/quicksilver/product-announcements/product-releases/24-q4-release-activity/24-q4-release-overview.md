@@ -28,9 +28,10 @@ This page provides information about functionality that is included in the Fourt
 
 ## Adobe Workfront enhancements
 
-* [Administrator enhancements]
-* [Project enhancements](#project-enhancements)
+* [Administrator enhancements](#administrator-enhancements)
 * [Integration enhancements](#integration-enhancements)
+* [Project enhancements](#project-enhancements)
+* [Proofing enhancements](#proofing-enhancements)
 * [Other enhancements](#other-enhancements)
 
 ### Administrator enhancements
@@ -67,6 +68,41 @@ This page provides information about functionality that is included in the Fourt
                             </li>
                         </ul>
                         <p><i>This feature is part of a phased release and will be available to a limited number of customers in September.</i></p>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+### Integration enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Outlook integration login experience enhancements</a></p>
+                        <p>The login experience for Outlook integration has been streamlined so that all customers see the same button to log in to Workfront whether or not they are IMS-enabled. The subsequent login steps remain different for IMS and non-IMS instances, but the initial page is the same for all users.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 6, 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release for all customers: August 6, 2024</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
            </tbody>
@@ -131,7 +167,7 @@ This page provides information about functionality that is included in the Fourt
            </tbody>
         </table>
 
-### Integration enhancements
+### Proofing enhancements
 
 <table>
             <col style="width: 50%;" />
@@ -149,23 +185,22 @@ This page provides information about functionality that is included in the Fourt
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Outlook integration login experience enhancements</a></p>
-                        <p>The login experience for Outlook integration has been streamlined so that all customers see the same button to log in to Workfront whether or not they are IMS-enabled. The subsequent login steps remain different for IMS and non-IMS instances, but the initial page is the same for all users.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Chromium update for the Desktop Proofing Viewer</a></p>
+                        <p>We are upgrading the Desktop Proofing Viewer to support Chromium 126.0.6478.127 which will resolve issues with UI elements in interactive proofs.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: August 6, 2024</p>
+                                <p>Preview release: August 29, 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Production release for all customers: August 6, 2024</span></p>
+                                <p><span class="preview">Production release for all customers: August 29, 2024</span></p>
                             </li>
                         </ul>
                     </td>
                 </tr>
            </tbody>
-        </table>
-
+        </table>        
 
 ### Other enhancements
 
