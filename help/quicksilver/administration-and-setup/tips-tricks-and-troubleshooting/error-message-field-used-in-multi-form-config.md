@@ -3,9 +3,9 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 'Error message: There is a slight problem. That field is used in a multi-form configuration'
+title: "Error Message: There is a slight problem. That field is used in a multi-form configuration"
 description: When you change a calculation in a calculated custom field on a custom form and an error message tells you that the field is used in a multi-form configuration, you need to replace the field with a new field containing the calculation you want to use.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
@@ -37,7 +37,7 @@ This article explains how to find the object and then resolve the problem in one
 
 ## Find the object where the custom forms are attached {#find-the-object-where-the-custom-forms-are-attached}
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Users]** ![](assets/users-icon-in-main-menu.png).
+{{step-1-to-setup}}
 
 1. Click **[!UICONTROL Custom Forms]** > **[!UICONTROL Fields]**.
 1. Apply the **[!UICONTROL Field List]** view to find the calculated field you are trying to modify, and make note of every custom form on which it is used (e.g. Form 1, Form 2, Form 3) .
