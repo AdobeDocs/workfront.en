@@ -16,7 +16,7 @@ This article explains the pros and cons of four options you can use to export hi
 
 ## Use one of our partners
 
-[!DNL AtAppStore] ([www.atappstore.com](https://www.atappstore.com)), has an easy-to-use app (their [Workfront Snapshot](https://store.atappstore.com/product/workfront-snapshot/) solution) that allows you to download your data yourself. An optional viewer (their [Workfront Snapshot Viewer](https://store.atappstore.com/product/workfront-snapshot-viewer/) solution) allows you to easily view your data offline.
+[!DNL AtAppStore] ([www.atappstore.com](https://www.atappstore.com)) has an easy-to-use app (their [Workfront Snapshot](https://store.atappstore.com/product/workfront-snapshot/) solution) that allows you to download your data yourself. An optional viewer (their [Workfront Snapshot Viewer](https://store.atappstore.com/product/workfront-snapshot-viewer/) solution) allows you to easily view your data offline.
 
 * **Pros:** All of your core [!DNL Workfront] objects are exported, including the custom fields and notes, all of which is then stored in an easily accessible [!DNL MS Access] database. The interface of the Viewer is easy to use and read. Extracting Documents is also available separately as a service, with the output organized into a logical folder structure that maps to each document (and optionally, its previous versions).  
 

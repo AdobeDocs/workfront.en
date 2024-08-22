@@ -1,5 +1,5 @@
 ---
-title: Configure document integrations
+title: Configure Document Integrations
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
