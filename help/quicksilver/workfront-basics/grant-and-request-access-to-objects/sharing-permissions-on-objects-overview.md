@@ -134,7 +134,7 @@ The following table illustrates the level of permissions that you can select whe
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Make this visible system-wide</strong></td> 
-   <td> <p>The object can be found in searches and viewed by anyone with a Workfront account.</p> </td> 
+   <td> <p>The object can be found in searches and viewed by users with a Workfront account.</p><p><b>Note>/b>: Users with Contributor or Requestor licenses cannot see projects, even if this setting is enabled. </td> 
   </tr> 
  </tbody> 
 </table>
