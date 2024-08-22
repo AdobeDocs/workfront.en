@@ -12,10 +12,6 @@ exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-<!-- remove the references to closed beta from the entire article-->
-
-<!--update the video in the IMPORTANT below, when we have something better, especially after Open Beta - remove it-->
-
 >[!IMPORTANT]
 >
 >The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
@@ -28,7 +24,6 @@ exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 >
 >For a complete list of all sections and articles that document Workfront Planning, see [Adobe Workfront Planning: article index](/help/quicksilver/planning/planning-information.md). 
 
-<!--[View a video demonstration of Adobe Workfront Planning capabilities.](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 ## Introduction to Adobe Workfront Planning
 
@@ -50,6 +45,8 @@ The following are some of the main capabilities:
 * Link to object types from other systems, creating a coherent framework for all your processes.  
 
 ## Currently available Adobe Workfront Planning features
+
+<!--for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns-->
 
 The following table illustrates the main features that will be available in Workfront Planning, and a timeline of their availability. The list does not include all features.
 
@@ -84,7 +81,7 @@ For information about new features and when they are released, see [Adobe Workfr
 |  Share views publicly with external resources |✓ | |  |
 |  Duplicate views |✓ | |  |
 |     Submit requests                                |                               |          ✓                        |                 |
-|     Export record details to Word                                 |                               |              ✓                    |                 |
+|     Export record details to Word                                 |    ✓                           |                                  |                 |
 |     Export record details to PDF                                 |                               |                                  |       ✓          |
 |     Customize the color and icon of a record                                 |      ✓                         |                                  |                 |
 |     Add comments to records                                 | ✓                              |                                  |                 |
@@ -197,9 +194,9 @@ The following are the main Workfront Planning objects and concepts:
     * Last modified by
     * Last modified date
    
-* **Linked record types**, **Linked records**, and **Linked record fields** or **Connected record types**, **Connected records**, and **Connected fields**:  You can create a connection between the following entities in Workfront Planning:
+* **Connected record types**, **Connected records**, and **Connected fields**:  You can create a connection between the following entities in Workfront Planning:
     
-    * Two record types.
+    * Two Workfront Planning record types.
     * A record type and a Workfront project, program, portfolio, company, or group object type. 
     * A record type and an Adobe Experience Manager asset or folder. 
 
@@ -218,7 +215,7 @@ The following are the main Workfront Planning objects and concepts:
 
     >[!TIP]
     >
-    > You cannot add the following field types as lookup fields:
+    > You cannot add the following field types as lookup fields from the connected record or object types:
     >
     >* People
     >* Created by
@@ -240,11 +237,11 @@ The following are the main Workfront Planning objects and concepts:
     
     The following are view types that you can apply to the record type page: 
 
-    * **Table view**: Displays records and their fields in a table format. The rows of the table are the individual records, and the columns are the record fields. This is the default view. 
+    * **Table view**: Displays records and their fields, includind connected and lookup fields, in a table format. The rows of the table are the individual records, and the columns are the record fields. This is the default view. 
 
         ![](assets/table-view-example.png)
 
-    * **Timeline view**: Displays records that have at least two Date-type fields in a chronological timeline. 
+    * **Timeline view**: Displays records that have at least two Date-type fields in a chronological timeline. You can display up to 5 connected record types and their records in the timeline view. 
 
         ![](assets/grouping-applied-in-timeline-view.png)
 
@@ -273,7 +270,6 @@ To locate Workfront Planning:
     >[!TIP]
     >
     >    Your Workfront administrator can add the Planning area to the Select landing page option in your layout template, so you can open Planning as soon as you log in to Workfront. For information, see [Customize the landing page using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md). 
-
 
 1. (Conditional and optional) If you are a Workfront administrator, click one of the following tabs:
     * **Workspaces I'm on**: Displays workspaces you created or workspaces that are shared with you.

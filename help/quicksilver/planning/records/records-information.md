@@ -38,3 +38,4 @@ The following articles describe how you can create and manage records and their 
 * [Add a thumbnail to a record](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
 * [Add a cover image to a record](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
 * [Manage the record page layout](/help/quicksilver/planning/records/manage-the-record-page.md)
+* [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md)
