@@ -11,7 +11,7 @@ exl-id: f77990ab-da7a-4dcb-89fa-f65ed2b79522
 
 >[!IMPORTANT]
 >
->This page describes functionality that is only available to users enrolled in the Canvas Dashboards closed beta. See [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) to learn more.
+>This page describes functionality that is available as part of the Canvas Dashboards beta. See [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) to learn more.
 
 Reports created through the Adobe Workfront Reports tool can be added to a Canvas Dashboard. For more information on creating reports, see [Get started with reports](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md). 
 
