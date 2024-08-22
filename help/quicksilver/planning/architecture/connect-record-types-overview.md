@@ -7,6 +7,7 @@ recommendations: noDisplay, noCatalog
 ---
 
 <!--update metadata at GA-->
+
 # Connected record types overview
 
 You can indicate that individual record types relate to one another or to objects from other applications by connecting them. 
