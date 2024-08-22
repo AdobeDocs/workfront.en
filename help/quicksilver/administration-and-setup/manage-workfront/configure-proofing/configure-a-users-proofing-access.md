@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;setup;user-management
 navigation-topic: configure-proofing-functionality
-title: Configure a user's proofing access
+title: Configure a User's Proofing Access
 description: As a Adobe Workfront administrator or Workfront Proof administrator, you can configure a user's access to create and view proofs in Workfront and Workfront Proof.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
@@ -16,6 +16,8 @@ As a Adobe Workfront administrator or Workfront Proof administrator, you can con
 For information about proofing functionality available for basic and integrated proofing, see [Access to proofing functionality in Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -40,6 +42,8 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
++++
+
 ## Enable and disable proofing for a user (legacy plans only) {#enable-and-disable-proofing-for-a-user-legacy-plans-only}
 
 If your organization is using a legacy Select or Premium Workfront Plan, as a Workfront administrator, you can enable and disable proofing functionality for the user.
@@ -57,7 +61,8 @@ Though you can enable a user as a proofing user, he or she must have Administrat
 
 The permission profile you select is granted to the users for each proof that exists within your organization.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 
+{{step-1-to-users}}
+ 
 1. Select one or more users, then click **Edit**.  
 
 1. In the **Access** section, click one of the following Workfront Proof permission options in the **Proof Permission Profile** drop-down menu:

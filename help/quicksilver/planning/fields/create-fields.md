@@ -37,9 +37,9 @@ You can create fields in the following ways in Workfront Planning:
 
 * From scratch
 * By connecting record types
-* By importing record types using an Excel or CSV file
 * By creating a record type
 * By creating a workspace from a template
+<!--* By importing record types using an Excel or CSV file-->
 
 For more information about Workfront Planning fields, see [Field overview](/help/quicksilver/planning/fields/fields-overview.md).
 
@@ -387,7 +387,31 @@ For more information, see [Formula fields overview](/help/quicksilver/planning/f
     >* You cannot add Multi-select type fields in a formula.
     >
     >* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a formula field for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Budget in the formula you are creating for the Activity record type. 
+
+<!--1. In the **Format** field, select from the following choices to identify the format of the result displayed in the formula-type field:
+
+    * **Text**: The result of the formula field displays as plain text. 
+    * **Number**: The result of the formula field displays as a number. 
+    * **Percent**: The result of the formula field displays as a number followed by a percentage symbol.  
+    * **Currency**: The result of the formula field displays as a number preceded or followed by a currency symbol.  
+    * **Tags**: The result of the formula field displays as a tag with the object's name. 
     
+        >[!TIP]
+        >
+        >Tags is the perfect format for fields that show arrays. In this case, each array member displays as a separate tag.
+
+    * **Date**: The result of the formula field displays as a date. 
+
+
+        A preview of what the result will look like displays under the **Format** field. 
+
+        ![](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
+
+        >[!WARNING]
+        >
+        >If the result of the formula does not match the selected format, the field will show an error message where it displays. 
+
+-->
 1. Click **Create**.
 
      The new formula field is added as a column to the record type, and its values can be associated with records.
@@ -521,9 +545,9 @@ You can create linked record fields when you add a new connection between two re
         
 For information about connecting Workfront Planning record types, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md)
 
-## Create fields by importing record types using an Excel or CSV file
+<!--## Create fields by importing record types using an Excel or CSV file
 
-For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).
+For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).-->
 
 ## Create fields by creating a record type
 

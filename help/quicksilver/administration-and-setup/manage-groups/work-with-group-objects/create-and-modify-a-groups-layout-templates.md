@@ -3,9 +3,9 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: group,layout,templates
 navigation-topic: work-with-a-groups-objects
-title: Create and modify a group's layout templates
+title: Create and Modify a Group's Layout Templates
 description: When you are viewing a group that you manage in the Groups area, you can view and work with the Layout Template for which the administrators of the group, or one of its subgroups, have administrative access.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 2be211a8-df84-49c3-827f-1215c77159e0
@@ -17,6 +17,8 @@ When you are viewing a group that you manage in the Groups area, you can view an
 If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for Workfront administrators (for any group).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -37,9 +39,11 @@ You must have the following to perform the steps in this article:
 
 &#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
 
++++
+
 ## Create or modify layout templates for a group you manage
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **Groups**.
 

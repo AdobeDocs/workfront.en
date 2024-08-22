@@ -2,17 +2,19 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
-title: Configure affect on hours when an object is deleted and restored
+title: Configure Effect on Hours When an Object Is Deleted and Restored
 description: You can configure what happens to hours when someone deletes a project, task, or issue that the hours are logged against. The option you choose also determines what happens to the hours if the project, task, or issue is restored at a later time. (For more information about restoring items in Workfront, see Restore deleted items.)
 feature: System Setup and Administration
 role: Admin
 exl-id: 466c3972-8108-49a6-98f6-f65f5fcc3617
 ---
-# Configure affect on hours when an object is deleted and restored
+# Configure effect on hours when an object is deleted and restored
 
 You can configure what happens to hours when someone deletes a project, task, or issue that the hours are logged against. The option you choose also determines what happens to the hours if the project, task, or issue is restored at a later time. (For more information about restoring items in Workfront, see [Restore deleted items](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).)
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article: 
 
@@ -35,9 +37,11 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
++++
+
 ## Configure how hours are managed when an item is deleted and restored
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
+{{step-1-to-setup}} 
 
 1. Expand **Timesheets & Hours**, then click**Preferences**.
 

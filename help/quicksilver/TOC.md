@@ -400,13 +400,14 @@ feature-set: Workfront
         * [R1 release webinars](product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-webinars.md)
   * Announcements {#announcements}
     * [Announcements](product-announcements/announcements/announcements.md)
-    * [Custom form enhancements](product-announcements/announcements/custom-form-enhancements.md)
     * [Schedule of features no longer supported](product-announcements/announcements/feature-removal-timeline.md)
     * [Maintenance Window FAQ](product-announcements/announcements/maintenance-window-faq.md)
     * [Change required for adding proofs to your allowlist](product-announcements/announcements/proofhq-domain-change-workfront.md)
     * [Unsubscribe from Announcement Center Messages in the new Adobe Workfront experience](product-announcements/announcements/unsubscribe-from-ac-messages.md)
+    * [Legacy Home deprecation guide](product-announcements/announcements/legacy-home-deprecation.md)
     * Announcement archive {#announcement-archive}
       * [Announcement archive](product-announcements/announcements/announcement-archive/announcement-archive.md)
+      * [Custom form enhancements](product-announcements/announcements/announcement-archive/custom-form-enhancements.md)
       * [Updated Mobile App for iOS and Android (Early August, 2017)](product-announcements/announcements/announcement-archive/updated-mobile-app.md)
       * [TLS 1.2 to be required in Adobe Workfront](product-announcements/announcements/announcement-archive/tls-1-disabled.md)
       * [Outlook 365 Add-In Is Now Available](product-announcements/outlook-365-add-in/outlook-365-add-in-now-available.md)
@@ -427,8 +428,6 @@ feature-set: Workfront
       * [New commenting experience](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
       * [New commenting experience release activity](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
       * [New commenting experience FAQs](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
-    * Workfront and Frame.io integration beta {#frame-io-wf-integration-beta}
-      * [Adobe Workfront and Frame.io native integration beta](review-and-approve-work/Documents/wf-frame-alpha.md)
     * Workfront data lake beta {#data-lake-beta}
       * [Workfront data lake beta information](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * Administration and setup {#administration-and-setup}
@@ -701,8 +700,8 @@ feature-set: Workfront
     * Manage deleted items {#manage-deleted-items}
       * [Manage deleted items](administration-and-setup/manage-workfront/manage-deleted-items/manage-deleted-items.md)
       * [Restore deleted items](administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)
-      * [View restored item](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
-      * [How deleted objects affect objects](administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
+      * [View restored items](administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
+      * [How deleted objects affect hours](administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
       * [Restore individual child objects](administration-and-setup/manage-workfront/manage-deleted-items/restoring-individual-child-objects.md)
     * Diagnostics {#diagnostics}
       * [Diagnostics](administration-and-setup/manage-workfront/run-diagnostics/diagnostics.md)
@@ -778,7 +777,6 @@ feature-set: Workfront
   * Configure integrations {#configure-integrations}
     * [Configure integrations](administration-and-setup/configure-integrations/workfront-integrations.md)
     * [Adobe Workfront integrations](administration-and-setup/configure-integrations/workfront-integrations-1.md)
-    * [Configure the [!DNL Workfront] and [!DNL Frame.io] integration](administration-and-setup/configure-integrations/configure-wf-and-frame.md)
     * [Configure the Experience Manager Assets as a Cloud Service integration](administration-and-setup/configure-integrations/configure-aacs-integration.md)
     * [Configure the Experience Manager Assets Essentials integration](documents/adobe-workfront-for-experience-manager-assets-essentials/setup-asset-essentials.md)
     * [Configure Workfront with Adobe Experience Manager legacy connector](administration-and-setup/configure-integrations/configure-workfront-aem.md)
@@ -889,6 +887,7 @@ feature-set: Workfront
       * [Use the My Updates area](workfront-basics/using-home/using-the-home-area/my-updates-area.md)
   * AI Assistant {#ai-assistant}
     * [AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
+    * [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md)
     * [Summarize using AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md)
     * [Get help from AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md)
     * [Revise calculated field formulas with AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md)
@@ -1190,7 +1189,6 @@ feature-set: Workfront
       * [Create a project using a template](manage-work/projects/create-projects/create-project-from-template.md)
       * [Import a project from Microsoft Project](manage-work/projects/create-projects/import-project-from-ms-project.md)
       * [Create project baselines](manage-work/projects/create-projects/create-baselines.md)
-      * [Create a project connected with Frame.io](manage-work/projects/create-projects/create-frame-connected-project.md)
     * Update work on a project {#update-work-on-a-project}
       * [Update work on a project: article index](manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
       * [Apply statuses to work that is associated with a group](manage-work/projects/updating-work-in-a-project/apply-custom-status-work-assigned-to-group.md)
@@ -1801,15 +1799,12 @@ feature-set: Workfront
     * [Asset and document review and approval: article index](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
     * [Document approvals overview](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
     * [Document decision status overview](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
-    * [Get started with asset review and approval with Frame.io](review-and-approve-work/document-reviews-and-approvals/frame-wf-get-started.md)
     * Set up and manage asset and document approvals {#manage-asset-review-and-approval}
       * [Set up and manage asset and document approvals: article index](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
       * [Create a document review or approval request](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md)
-      * [Create a review or approval request for a Frame.io asset](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-request-for-frame-asset.md)
       * [Add additional reviewers or approvers to an asset or document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/add-additional-reviewers-or-approvers.md)
       * [Remove approvers or reviewers from an asset or document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
       * [Create an Approval Template for assets and documents](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
-      * [Add a Frame.io asset to a connected Workfront project](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/add-frame-asset-to-connected-project.md)
       * [Use new document approvals and proofing together](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
     * Review and approve assets and documents {#review-and-approve-documents}
       * [Review and approve documents: article index](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
@@ -2035,10 +2030,10 @@ feature-set: Workfront
     * [Adobe Workfront Planning general information: article index](planning/general/planning-general-article-index.md)
     * [Adobe Workfront Planning overview](planning/general/planning-overview.md)
     * [Adobe Workfront Planning API basics](planning/general/planning-api-basics.md)
-    * [Adobe Workfront Planning object limitations overview](planning/general/limitations-overview.md)
     * [Adobe Workfront Planning AI Assistant overview](planning/general/planning-ai-assistant-overview.md)
     * [Adobe Workfront Planning current release activity](planning/general/release-activity.md)
     * [Adobe Workfront Planning release activity archives for 2023](planning/general/release-activity-archives-2023.md)
+    * [Adobe Workfront Planning object limitations overview](planning/general/limitations-overview.md)
   * Adobe Workfront Planning architecture {#adobe-workfront-planning-architecture}
     * [Architecture: article index](planning/architecture/architecture-information.md)
     * [Workspaces overview](planning/architecture/workspaces-overview.md)
@@ -2083,6 +2078,7 @@ feature-set: Workfront
     * [Add a cover image to a record](planning/records/add-a-cover-image-to-a-record.md)
     * [Manage the record page layout](planning/records/manage-the-record-page.md)
     * [Manage records in the Planning section of Adobe Workfront objects](planning/records/manage-records-in-planning-section.md)
+    * [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md)
   * Adobe Workfront Planning views {#adobe-workfront-planning-views}
     * [Views: article index](planning/views/views-information.md)
     * [Manage record views](planning/views/manage-record-views.md)
@@ -2250,6 +2246,7 @@ feature-set: Workfront
     * [Datadog modules](workfront-fusion/apps-and-their-modules/datadog-modules.md)
     * [Data store modules](workfront-fusion/apps-and-their-modules/data-store-modules.md)
     * [DocuSign modules](workfront-fusion/apps-and-their-modules/docusign-modules.md)
+    * [[!DNL Draft.js] modules](/help/quicksilver/workfront-fusion/apps-and-their-modules/draft-js-modules.md)
     * [Dropbox modules](workfront-fusion/apps-and-their-modules/dropbox-modules.md)
     * [Email modules](workfront-fusion/apps-and-their-modules/email-modules.md)
     * [Encryptor](workfront-fusion/apps-and-their-modules/encryptor-modules.md)

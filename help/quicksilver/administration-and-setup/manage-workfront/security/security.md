@@ -5,7 +5,7 @@ product-area: system-administration
 navigation-topic: manage-workfront
 title: Security
 description: As an Adobe Workfront administrator, you can configure security preferences for your Workfront system.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog

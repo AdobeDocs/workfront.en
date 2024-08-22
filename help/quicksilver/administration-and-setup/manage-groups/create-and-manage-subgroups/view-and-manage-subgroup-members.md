@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: View and manage subgroup members
+title: View and Manage Subgroup Members
 description: When you are viewing a group that you manage, you can view and manage all of the users in the group's subgroups.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8f7b0183-6035-4dd4-8e42-fd65485449bf
@@ -16,6 +16,8 @@ When you are viewing a group that you manage, you can view and manage all of the
 If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for Workfront administrators (for any group).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -40,9 +42,11 @@ You must have the following to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
 
++++
+
 ## View and manage members of the subgroups under a group
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **Groups**.
 

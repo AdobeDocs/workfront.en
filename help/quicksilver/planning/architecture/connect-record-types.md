@@ -29,13 +29,13 @@ You can use Adobe Workfront Planning to design fully-customizable workspaces tha
 
 You can connect record types to one another or record types with object types from other applications. 
 
-This article describes how you can connect two Workfront Planning record types a Workfront Planning record type with an object from another application. 
+This article describes how you can connect two Workfront Planning record types, or a Workfront Planning record type with an object from another application. 
 
 After you establish the connection between records or object types, you can connect individual records to one another, and display fields from the linked record or object types on a Workfront Planning record. 
 
-<!-- uncomment out for the release close to GA: For general information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).-->
+For general information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
-For information about connecting a Workfront Planning record to an object from another application, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
+For information about connecting records or records with objects from other applications, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
 
 For an example of connecting record types and records, see [Example of connecting record types and records](/help/quicksilver/planning/architecture/example-connect-record-types-and-records.md). 
 
@@ -56,7 +56,9 @@ For an example of connecting record types and records, see [Example of connectin
 <td>
    <p> Product</p> </td>
    <td>
-   <p> Adobe Workfront</p> <p>To connect Adobe Workfront Planning record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Unified Experience. For information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p> </td>
+   <p> Adobe Workfront</p> 
+   <p> Adobe Workfront Planning</p>
+   <p>To connect Adobe Workfront Planning record types with Experience Manager Assets, you must have an Adobe Experience Manager Assets license and your organization's instance of Workfront must be onboarded to the Adobe Unified Experience. For information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p> </td>
   </tr>  
  <td role="rowheader"><p>Adobe Workfront agreement</p></td>
    <td>
@@ -90,7 +92,7 @@ For an example of connecting record types and records, see [Example of connectin
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
    <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create.
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p>
 </td>
   </tr>
  </tbody>
@@ -100,76 +102,92 @@ For an example of connecting record types and records, see [Example of connectin
 
 +++
 
+
+<!-- replace the table above with the following table at Planning GA release: 
+
+## Access requirements
+
+You must have the following to be able to access Workfront Planning: 
+
+<table style="table-layout:auto">
+ <col>
+ </col>
+ <col>
+ </col>
+ <tbody>
+    <tr>
+<tr>
+<td>
+   <p> Products</p> </td>
+   <td>
+   <ul><li><p> Adobe Workfront</p></li>
+   <li><p> Adobe Workfront Planning<p></li></ul></td>
+  </tr>  
+ <tr>
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td>
+   <td>
+<p>Any of the following Workfront plans:</p>
+<ul><li>Select</li>
+<li>Prime</li>
+<li>Ultimate</li></ul>
+<p>Workfront Planning is not available for legacy Workfront plans</p>
+   </td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td>
+   <td>
+<p>Any of the following Workfront Planning plans:</p>
+<ul><li>Planning</li>
+<li>Planning Plus</li>
+</ul>
+<p>For more information about what is included in each Workfront Planning plan, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>. </p>
+   </td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront platform</p></td>
+   <td>
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning</p>
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
+   </td>
+
+  </tr>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
+   <td>
+   <p>Standard</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p>
+  </td>
+  </tr>
+  <tr>
+   <td role="rowheader"><p>Access level configuration</p></td>
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
+</td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Object permissions</p></td>
+   <td>
+   <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create.</p>
+  </td>
+  </tr>
+<tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Customize the Main Menu using a layout template</a> and and <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Assign users to a layout template</a>. </p>  
+</td>
+  </tr>
+ </tbody>
+</table>
+
+*For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
+
+
 <!--Maybe enable this at GA - but planing is not supposed to have Access controls in the Workfront Access Level: 
 >[!NOTE]
 >
 >If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
 
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
 <!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>--> 
-
-
-## Considerations about connecting record types
-
-<!--DELETE THE CONTENT BELOW WHEN YOU MAKE "CONNECT RECORD TYPE OVERVIEW" ARTICLE PUBLIC-->
-
-* You can connect the following entities in Adobe Workfront Planning:
-
-    * Two record types
-
-        The record types must belong to the same workspace. 
-    * A record type and an object type from another application. 
-
-* You can connect Workfront Planning record types with the following object types from the following applications:
-
-    * Adobe Workfront:
-
-        * Projects
-        * Portfolios
-        * Programs
-        * Companies
-        * Groups
-
-    * Adobe Experience Manager Assets:
-
-        * Images
-        * Folders
-
-        >[!IMPORTANT]
-        >
-        >You must have an Adobe Experience Manager Assets license, and your organization's instance of Workfront must be onboarded to the Adobe Business Platform or the Adobe Admin Console to connect Workfront Planning records to Adobe Experience Manager Assets.
-        >
-        >If you have questions about onboarding to the Adobe Admin Console, see the [Adobe Unified Experience FAQ](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
-
-* After you create individual records for a record type, you can select the records you connect to from the linked record type field. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
-
-* After you connect a record type with another record type or with an object type from another application, the following scenarios exist: 
-    
-    * **When you connect two record types**: A linked record field is created on the record type you're connecting from. A similar linked record field is created on the record type you are connecting to. 
-
-        For example, if you connect the "Campaign" record type with the "Product" record type, a linked record field that you name "Linked Product" is created on the Campaign record type and a linked record type automatically named "Campaign" is created on the Product record type. 
-
-    * **When you connect a record type with an object type from another application**: 
-    
-        * A linked record field is created on the record type you're connecting from. No linked record field is automatically created on the other application's object type. 
-        
-        * Planning records fields are not accessible from Workfront objects.
-        * Planning record fields are accessible from Experience Manager assets when your Workfront administrator configures the metadata mapping through the integration between Workfront and Adobe Experience Manager Assets. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
-    
-    * **When you add linked (or lookup) fields of the record or object you connect to**: You can connect fields from the other application's object to the Workfront Planning record type. Linked fields are read-only and they automatically display information from connected records or objects when you connect the records or the objects. 
-
-        For example, if you connect the "Campaign" record type with a Workfront project and you select to bring the Planned Completion Date field of the project to the Workfront Planning record, a linked field called Planned Completion Date (from Project) is automatically created for the campaign. You cannot manually edit this linked field. The Planned Completion Date (from Project) field displays the Planned Completion Date of the linked projects.  
-
-        >[!IMPORTANT]
-        >
-        >    Everyone with View or higher permissions to the workspace can view the information in the linked fields, regardless of their permissions or access level in the application of the linked object types.
-
-* Linked record fields are preceded by a relationship icon ![](assets/relationship-field-icon.png). 
-    
-    Linked fields are preceded by an icon that identifies the field type. For example, linked (or lookup) fields are preceded by icons that indicate that a field is a number, a paragraph, or a date. 
 
 
 ## Connect record types
@@ -198,15 +216,16 @@ For an example of connecting record types and records, see [Example of connectin
 
         >[!TIP]
         >
-        >Only record types from the workspace you selected are available to connect to. 
         > 
         >If you don't have other record types in the selected workspace, the workspace section does not display. 
         
-        <!--remove the first sentence in the tip above at GA-->
 
-        <!--FORMAT THE TIP BELOW AT RELEASE: * A record type from another workspace that was configured to connect from other workspaces. For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). (*****add screen shot****)
-        [!TIP]
-         If there are no record types that are configured to connect from other workspace, the workspace section does not display.--> 
+    * A record type from another workspace that was configured to connect from other workspaces. For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). 
+
+        >[!TIP]
+        >
+        >If there are no record types that are configured to connect from other workspace, the workspace section does not display.
+
 
     * A **Project, Portfolio, Program, Company**, or **Group** from the **Workfront Object Types** section.
 

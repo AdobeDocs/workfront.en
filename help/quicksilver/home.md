@@ -29,7 +29,6 @@ Welcome to the Adobe Workfront product and technical documentation home page. Us
 >[!TAB Betas]
 
 * [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
-* [Workfront and Frame.io integration](/help/quicksilver/review-and-approve-work/Documents/wf-frame-alpha.md)
 
 >[!TAB Known Issues]
 

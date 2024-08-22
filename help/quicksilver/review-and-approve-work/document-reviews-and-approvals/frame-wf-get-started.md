@@ -6,6 +6,8 @@ description: Learn more about the formal review and approval process in using Wo
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
+hide: yes
+hidefromtoc: yes
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
 ---
 # Get started with asset review and approval with Frame.io

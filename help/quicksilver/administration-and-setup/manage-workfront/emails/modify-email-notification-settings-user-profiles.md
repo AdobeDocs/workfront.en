@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 keywords: modify,email,notification,settings,bulk,bulk-edit,configure,multiple,users
 navigation-topic: emails-administration
-title: Modify multiple users' email notification settings
+title: Modify Multiple Users' Email Notification Settings
 description: This article provides information for the Workfront or group administrators about how they can update the email notifications of other users.
 author: Nolan
 feature: System Setup and Administration

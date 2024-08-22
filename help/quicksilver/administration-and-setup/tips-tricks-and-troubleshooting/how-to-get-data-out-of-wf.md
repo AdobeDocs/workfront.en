@@ -3,24 +3,26 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 'Export historical data from Adobe Workfront: Pros and cons'
+title: "Export Historical Data from Adobe Workfront: Pros and Cons"
 description: This article explains the pros and cons of 4 options you can use to export historical data from Workfront.
-author: Courtney
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: ed40984f-602a-46e9-a72b-141936de8fcb
 ---
 # Export historical data from [!DNL Adobe Workfron]t: Pros and cons
 
-This article explains the pros and cons of 4 options you can use to export historical data from [!DNL Workfront].
+This article explains the pros and cons of four options you can use to export historical data from [!DNL Workfront].
 
 ## Use one of our partners
 
-[!DNL AtAppStore], a [!DNL Workfront] certified partner, has an easy-to-use app that allows you to download your data. This app also includes a viewer that allows you to easily view your data.
+[!DNL AtAppStore] ([www.atappstore.com](https://www.atappstore.com)) has an easy-to-use app (their [Workfront Snapshot](https://store.atappstore.com/product/workfront-snapshot/) solution) that allows you to download your data yourself. An optional viewer (their [Workfront Snapshot Viewer](https://store.atappstore.com/product/workfront-snapshot-viewer/) solution) allows you to easily view your data offline.
 
-* **Pros:** All your [!DNL Workfront] objects are exported, including the custom fields. The interface of the Viewer is easy to use and read, and it's easily importable in a [!DNL MS Access] Database.  
+* **Pros:** All of your core [!DNL Workfront] objects are exported, including the custom fields and notes, all of which is then stored in an easily accessible [!DNL MS Access] database. The interface of the Viewer is easy to use and read. Extracting Documents is also available separately as a service, with the output organized into a logical folder structure that maps to each document (and optionally, its previous versions).  
 
-* **Cons:** Documents are not exported. You will have to download them separately. For more information, go to [http://www.atappstore.com/App/snapshot-to-msaccess/Default.aspx.](https://www.atappstore.com/App/snapshot-to-msaccess/Default.aspx)
+* **Cons:** There is a technical limitation of 2GB of data, but AtAppStore allows you to purchase only what you need.
+
+* **Costs:** For more information, go to [https://store.atappstore.com/product/workfront-snapshot/](https://store.atappstore.com/product/workfront-snapshot/).
 
 ## Request a [!DNL Postgres] data dump file from our Database team
 
@@ -29,6 +31,7 @@ Your Account Executive can submit a request to our Database team to export a dat
 * **Pros**: You get your entire data load, including custom fields, as well as documents that are stored in the system.  
 
 * **Cons**: The database file is hard to read: there is no way you can read this file unless you upload it to a [!DNL Postgres] database and re-establish the relationships between the tables. The documents are stored on a separate file server and must be extracted separately using a separate process by the AOS team. In doing so, there is no organization to the documents, and they are all referenced by their GUID.
+
 * **Cost**: There is a cost associated with this download, depending on how long it takes the team to create the file. Check with your AE/ CAE for more information or to get this process started.
 
 ## Export via [!UICONTROL Kick-Starts]

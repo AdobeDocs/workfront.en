@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-proofing-functionality
-title: Install the Desktop Proofing Viewer for your organization
+title: Install the Desktop Proofing Viewer for your Organization
 description: The Desktop Proofing Viewer, which is designed primarily for proofing interactive content, is an application that must be installed on each user's local machine. As an Adobe Workfront administrator or Workfront Proof administrator, you can perform this installation.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
@@ -16,6 +16,8 @@ exl-id: c89b21c6-fe70-4f46-aebd-5b82a667db72
 The Desktop Proofing Viewer, which is designed primarily for proofing interactive content, is an application that must be installed on each user's local machine. As an Adobe Workfront administrator or Workfront Proof administrator, you can perform this installation.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -39,6 +41,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## System Requirements
 

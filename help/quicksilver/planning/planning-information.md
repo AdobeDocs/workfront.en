@@ -18,11 +18,7 @@ role: User, Admin
 hide: yes
 -->
 
-<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
-
-<!-- update the title to "Article index" when we get out of early access and we inhide this article-->
-
-<!--remove the video at open early access or before-->
+<!--update the metadata with real information when making this available to GA-->
 
 {{planning-important-intro}}
 
@@ -37,10 +33,6 @@ The articles in the sections listed below describe how you can configure Workfro
 ## General information about Adobe Workfront Planning  
 
 Access the following articles for general information about the new Workfront Planning: 
-
-<!--update the video when we have something better, especially after early access - remove it-->
-
-<!--* [View a video demonstration of Adobe Workfront Planning](https://video.tv.adobe.com/v/3424253/){target=_blank}-->
 
 * [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md): A high-level overview of Adobe Workfront Planning, including the terminology and concepts that are unique to this solution. We recommend that you start your journey with Workfront Planning here. 
 * [Adobe Workfront Planning object limitations overview](/help/quicksilver/planning/general/limitations-overview.md): A list of limitations for the number of objects you can create in Workfront Planning. 

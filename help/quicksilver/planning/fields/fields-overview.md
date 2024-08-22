@@ -54,7 +54,7 @@ You can add new fields in Adobe Workfront Planning that reflect your organizatio
 
            For more information about connecting record types, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).  
 
-        * By importing record types using an Excel or CSV file. For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md). 
+        <!--* By importing record types using an Excel or CSV file. For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md). -->
 
     * Automatically: 
 

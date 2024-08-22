@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: Use a custom status as a default status for a group
-description: As a group administrator, you can configure a custom status as a default status for a group or subgroup that you manage. This is useful when the system needs to automatically assign a Workfront status to a project, task, or issue. A project, task, or issue always displays the custom status that you set as a default status instead of displaying the Workfront status that it equates to.
-author: Caroline
+title: Use a Custom Status as a Default Status for a Group
+description: As a group administrator, you can configure a custom status as a default status for a group or subgroup that you manage.
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51018635-cd9a-402d-a136-c5bec4707cda
@@ -25,6 +25,8 @@ If there are any groups above the group you manage, their administrators can als
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -44,6 +46,8 @@ You must have the following to perform the steps in this article:
 
 &#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
 
++++
+
 ## Issue statuses
 
 If the custom status is an Issue status, all four issue types must be enabled for it (Bug Report, Change Order, Issue, and Request). For example, in the issue status shown below, the status Reopened cannot be used as a default status because the Change Order issue type is not selected:
@@ -52,7 +56,8 @@ If the custom status is an Issue status, all four issue types must be enabled fo
 
 ## Set a custom status as a default status for a group
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. In the left panel, click **Groups** ![](assets/groups-icon.png), then click the name of the group where you want to create or customize statuses.
 1. In the left panel, click **Statuses** ![](assets/gear-icon-settings.png).
 1. Open the **Project**, **Tasks**, or **Issues** tab, depending on the type of status you want to set as a default status.
