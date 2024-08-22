@@ -25,14 +25,13 @@ The following table shows the limits for how many objects you can create in Work
 |     Size of file that you can paste in a record type table                    |   1MB                                                                                                           |
 |     Size of file that you can import through the API for a record type table  |   1.5MB                                                                                                         |
 |     The rate at which API requests can be made                                    |   200 requests per minute                                                                                       |
-| Size of CSV of Excel file you can import* | 5MB |
 | Number of views one user can create for one record type | 100 |
 
-<!--add to the table above: Maximum number of views created by one use 100 -->
+<!--| Size of CSV of Excel file you can import* | 5MB |-->
 
->[!IMPORTANT]
+<!--[!IMPORTANT]
 >
->*This functionality has been temporarily disabled and it will be available at a later date.
+>*This functionality has been temporarily removed and it will be available at a later date.-->
 
 <!--At GA, replace the table above with this:
 
@@ -49,9 +48,11 @@ The following table shows the limits for how many objects you can create in Work
 |     Size of file that you can paste in a record type table                    |   1MB                                                                                                           |
 |     Size of file that you can import through the API for a record type table  |   1.5MB                                                                                                         |
 |     The rate at which API requests can be made                                    |   200 requests per minute                                                                                       |
-| Size of CSV of Excel file you can import** | 5MB |
 | Number of views one user can create for one record type | 100 |
 
 *We recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.
-**This functionality has been temporarily disabled and it will be available at a later date.
+
+****************KEEP THIS COMMENTED OUT:
+| Size of CSV of Excel file you can import** | 5MB |
+**This functionality has been temporarily removed and it will be available at a later date.**********************
 -->

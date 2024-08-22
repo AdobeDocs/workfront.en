@@ -55,12 +55,12 @@ The following table illustrates the main features that will be available in Work
 
 For information about new features and when they are released, see [Adobe Workfront Planning current release activity](/help/quicksilver/planning/general/release-activity.md). 
 
-|       Feature                                      |     Available now  |     Available soon   |     In research  |
+|       Feature                                      |     Available now  |     Coming soon   |     In research  |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
 |     Create workspaces                              |   ✓                           |                                  |                  |
 |     Create record types                |   ✓                           |                                  |                  |
 |     Create record custom fields                    |   ✓                           |                                  |                  |
-|     Import record types and fields using an Excel  or CSV file*                              |   ✓                           |                                  |                  |
+|     Import record types and fields using an Excel  or CSV file                              |                              |           ✓                       |                  |
 |     Link records                                   |   ✓                           |                                  |                  |
 |     View records in a table                        |   ✓                           |                                  |                  |
 |     View records in a timeline                     |   ✓                           |                                  |                  |
