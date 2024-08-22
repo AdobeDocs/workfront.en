@@ -2,7 +2,7 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: Configure integrations
+title: Configure Integrations
 description: You can integrate Adobe Workfront with third-party applications. Integrations can extend the utility of Workfront and tailor it to the needs of your organization.
 author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
