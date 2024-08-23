@@ -1,9 +1,9 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Locate submitted requests
+title: Locate Submitted Requests
 description: Learn about the areas of Adobe Workfront where you can locate requests that you or someone else submitted or requests that you never submitted and were saved as drafts. 
-author: Alina
+author: Lisa
 feature: Requests
 topic: Collaboration
 role: User
@@ -24,40 +24,46 @@ You can locate the following types of requests that you or someone else submitte
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront licenses overview*</td> 
-   <td> <p>Request or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Contributor or higher</p>
+   Or
+   <p>Current: Request or higher</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Issues</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td><p>Edit access to Issues</p></td> 
+  </tr>
+  <tr>
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions on the requests or higher</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td><p>View permissions or higher on the requests</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Locate submitted requests
 
 To locate requests that you or other users have submitted:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+{{step1-to-requests}}
+
 1. Click **Submitted** in the left panel to view all submitted requests.
 
    You can view up to 2000 requests and they may display on multiple pages.
@@ -69,7 +75,7 @@ To locate requests that you or other users have submitted:
    ![](assets/nwe-submitted-requests-new-list-350x57.png)
 
  
- 1. The following columns display by default:
+1. The following columns display by default:
 
       <table style="table-layout:auto"> 
       <col> 
