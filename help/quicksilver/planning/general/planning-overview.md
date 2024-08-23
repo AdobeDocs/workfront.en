@@ -16,14 +16,13 @@ exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 >
 >The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
 >
->Currently, Workfront Planning is in an early access stage which is open to a limited number of customers. 
+>You must be a Workfront customer and your organization must purchase an Adobe Workfront Planning plan, in addition to a Workfront plan to be able to access the capabilities of Worfront Planning. <!--Workfront Planning has been available for purchase for all Workfront customers since August 28, 2024. -->
+>For more information about obtaining access to Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md).
 >
->You must be a Workfront customer to use these capabilities. 
->
->Your account representative would have informed you if you were part of this stage.
->
->For a complete list of all sections and articles that document Workfront Planning, see [Adobe Workfront Planning: article index](/help/quicksilver/planning/planning-information.md). 
 
+This article contains general information about Workfront Planning. 
+
+For the complete list of articles that contain documentation for Workfront Planning, see [Adobe Workfront Planning: article index](/help/quicksilver/planning/planning-information.md). 
 
 ## Introduction to Adobe Workfront Planning
 
@@ -46,11 +45,16 @@ The following are some of the main capabilities:
 
 ## Currently available Adobe Workfront Planning features
 
-<!--for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns-->
+<!--for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns; also update the title of this section-->
 
 The following table illustrates the main features that will be available in Workfront Planning, and a timeline of their availability. The list does not include all features.
 
+<!--at GA: update the link below to the new place for release notes-->
+
 For information about new features and when they are released, see [Adobe Workfront Planning current release activity](/help/quicksilver/planning/general/release-activity.md). 
+
+<!-- at GA: remove the table below, and instead make a bullet list with the available features in Planning-->
+
 
 |       Feature                                      |     Available now  |     Coming soon   |     In research  |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
