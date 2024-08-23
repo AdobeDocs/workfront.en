@@ -16,7 +16,7 @@ exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 >
 >The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
 >
->You must be a Workfront customer and your organization must purchase an Adobe Workfront Planning plan, in addition to a Workfront plan to be able to access the capabilities of Worfront Planning. <!--Workfront Planning has been available for purchase for all Workfront customers since August 28, 2024. -->
+>You must be a Workfront customer and your organization must purchase an Adobe Workfront Planning plan, in addition to a Workfront plan, to be able to access the capabilities of Worfront Planning. <!--Workfront Planning has been available for purchase for all Workfront customers since August 28, 2024. -->
 >For more information about obtaining access to Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md).
 >
 
@@ -43,18 +43,56 @@ The following are some of the main capabilities:
 * Fully customize your workflows, from deciding what object types (or record types) your organization uses to configuring how these objects link to one another.  
 * Link to object types from other systems, creating a coherent framework for all your processes.  
 
-## Currently available Adobe Workfront Planning features
+## Currently available Workfront Planning features
 
 <!--for GA just make a list of what features ARE included in Planning and eliminate the last 2 columns; also update the title of this section-->
-
-The following table illustrates the main features that will be available in Workfront Planning, and a timeline of their availability. The list does not include all features.
 
 <!--at GA: update the link below to the new place for release notes-->
 
 For information about new features and when they are released, see [Adobe Workfront Planning current release activity](/help/quicksilver/planning/general/release-activity.md). 
 
-<!-- at GA: remove the table below, and instead make a bullet list with the available features in Planning-->
+The following are features that are currently available in Workfront Planning:
 
+* Create workspaces             
+* Create record types             
+* Create record custom fields             
+<!--* Import record types and fields using an Excel or CSV file-->             
+          
+* Display records in a table view            
+* Display records in a timeline view            
+* Display records in a calendar view            
+* Filter, sort, and group records in a table view
+* Filter, group, and color code records in the timeline view
+* Filter records in the calendar view 
+* Search for records in the table and timeline views             
+* Connect records that belong to the same workspace  
+* Connect records that belong to different workspaces   
+* Connect Workfront Planning records to Workfront projects, programs, portfolios, companies, groups             
+* Connect Workfront Planning records to Adobe Experience Manager assets             
+* View record information in the Details tab
+* View record connections in the Connections tab
+* Customize the layout of a record's page             
+* Share workspaces             
+* Share views             
+* Share views publicly with external resources             
+* Duplicate views             
+* Submit requests to create records            
+* Export record details to Word             
+<!--* Export record details to PDF-->
+* Add comments to records             
+* Receive in-app notifications             
+* Receive email notifications             
+* Add thumbnails and cover pages to records             
+* View history of changes on a record             
+* Rich Text formatting for Paragraph fields             
+* Access Planning records from Workfront objects             
+* Connect Planning records from Workfront objects             
+* Workfront Planning public API             
+* Adobe Workfront Planning modules for Adobe Workfront Fusion             
+* Workfront Planning AI Assistant
+* Reporting on Workfront Planning information (Canvas Dashboard)
+
+<!--OLD: 
 
 |       Feature                                      |     Available now  |     Coming soon   |     In research  |
 |----------------------------------------------------|:-----------------------------:|:--------------------------------:|:----------------:|
@@ -101,16 +139,17 @@ For information about new features and when they are released, see [Adobe Workfr
 |     Workfront Planning public API                                 |      ✓                         |                                  |                 |
 |     Workfront Planning AI Assistant*                                 |      ✓                         |                                  |                 |
 |     Reporting on Workfront Planning information (Canvas Dashboard)                              |                               |       ✓                           |                 |
+-->
 
-*The AI Assistant has been temporarily removed and it will be available at a later date.
 
-## Enable Adobe Workfront Planning for the users in your Workfront instance
+
+## Enable Workfront Planning for the users in your Workfront instance
 
 Your organization must enroll in the Adobe Workfront Planning program before you can access its capabilities. Your account representative should have given you information about enrolling in this program, if you qualify. 
 
 For more information about granting access to and enabling others to use Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md). 
 
-## Adobe Workfront Planning terminology
+## Workfront Planning terminology
 
 Although Workfront Planning is part of Workfront, it comes with proprietary concepts and terminology. Ensure you are familiar with the new concepts before embarking on setting up Workfront Planning for your organization. 
 
@@ -304,9 +343,26 @@ To locate Workfront Planning:
         * [Create records](/help/quicksilver/planning/records/create-records.md)
         * [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
 
-## Adobe Workfront Planning release activity 
+## Workfront Planning release activity 
+
+<!--update this with the new release activity page - the article index for all Planning releases-->
 
 We are releasing new features to Workfront Planning regularly. 
 
 For an up-to-date list of released features, see [Adobe Workfront Planning current release activity](/help/quicksilver/planning/general/release-activity.md)
+
+## Additional resources for Workfront Planning
+
+* [Adobe Workfront Planning: article index](/help/quicksilver/planning/planning-information.md): An index with all articles that contain documentation about Workfront Planning, grouped by area of interest. 
+* [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): With the Workfront AI Assistant for Planning you can search for records, or create, update, and delete records by using commands and letting the assistant do the work for you. 
+    <!--
+    >[!NOTE]
+    >
+    >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
+
+* [Adobe Workfront Planning modules for Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md): With the Adobe Workfront Planning modules, you can trigger a scenario when events occur in Workfront Planning. You can also create, read, update, and delete records, or perform a custom API call to your Adobe Workfront Planning account.
+
+* [Adobe Workfront Planning API basics](/help/quicksilver/planning/general/planning-api-basics.md): The goal for the Adobe Workfront Planning API is to simplify building integrations with Planning by introducing a REST-ful architecture that operates over HTTP.
+
+<!--* Workfront Planning reporting capabilities: You can now view Workfront Planning information in a report in Workfront using the Workfront Canvas Dashboard. For information, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).-->
 

@@ -289,12 +289,12 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 >
 >You must have the following to access Workfront Planning:
 >
->* A new Workfront plan and license. Workfront Planning is not available for legacy Workfront plans or licenses.
+>* A new Workfront plan and license. Workfront Planning is not available for legacy Workfront plans or licenses. 
 >* An additional license for Workfront Planning. 
 >* Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.
 >
 > For a complete list of requirements to access Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md). 
->
+> 
 >For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).-->
 
 

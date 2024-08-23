@@ -179,7 +179,7 @@ You cannot create other connected Workfront objects or Experience Manager assets
 
 For information, see [Create records](/help/quicksilver/planning/records/create-records.md). 
 
-## Export record details to Word
+### Export record details to Word
 
 Production: August 22, 2024
 
