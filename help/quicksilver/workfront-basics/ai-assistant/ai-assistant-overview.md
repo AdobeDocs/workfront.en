@@ -51,6 +51,8 @@ To enable AI Assistant for your organization, **all** of the following must appl
 * Your organization must have a Select, Prime, or Ultimate Workfront plan
 * Adobe must have a signed Adobe Gen AI agreement on file
 
+   For more information on signing the agreement, see [Sign the Adobe Gen AI agreement](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) in this article.
+
 ## Considerations about AI Assistant
 
 * AI Assistant is context sensitive to the page that you have open. For example, entering "Summarize this project" into AI Assistant on a project page returns a summary of that specific project.
