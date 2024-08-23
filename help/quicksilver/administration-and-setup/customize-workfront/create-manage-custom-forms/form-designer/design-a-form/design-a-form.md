@@ -76,7 +76,7 @@ For more detail about the information in this table, see [Access requirements in
     * [Add radio buttons, checkbox groups, and dropdowns](#add-radio-buttons-checkboxes-and-dropdowns)
     * [Add typeahead and date fields](#add-typeahead-and-date-fields)
     * [Add external lookup fields](#add-external-lookup-fields)
-    * [Add images, PDFs, and Videos](#add-images-pdfs-and-videos)
+    * [Add images, PDFs, and videos](#add-images-pdfs-and-videos)
     * [Add Workfront native fields](#add-workfront-native-fields)
     * [Add Adobe XD files](#add-adobe-xd-files)
 
@@ -145,9 +145,9 @@ The following special characters are not supported in custom field labels and na
 
 +++ **Expand to see descriptions of available text fields**
 
-* **Single Line Text Field**: Allows users to type a single line of text in the field.
-* **Paragraph Text Field**: Allows users to type multiple lines of text in the field.
-* **Text Field with Formatting**: Allows users to type multiple lines of text in the field and format the text with bold, italics, underline, bullets, numbering, hyperlinks, and block quotes. A character limit of 15,000 allows for plenty of text and formatting.
+* **Single line text field**: Allows users to type a single line of text in the field.
+* **Paragraph field**: Allows users to type multiple lines of text in the field.
+* **Text field with formatting**: Allows users to type multiple lines of text in the field and format the text with bold, italics, underline, bullets, numbering, hyperlinks, and block quotes. A character limit of 15,000 allows for plenty of text and formatting.
 
     This custom field type is not supported in filters on lists and reports.
 
@@ -165,9 +165,9 @@ To add a text field:
 
 1. On the left side of the screen, find one of the following text fields and drag it to a section on the canvas:
 
-    * Single Line Text
-    * Paragraph Text
-    * Text field with formatting
+    * Single line text
+    * Paragraph
+    * Text with formatting
     * Descriptive text
 
     ![](assets/drag-field-to-section.png)
@@ -186,7 +186,7 @@ To add a text field:
    </td>
     <td><ul>
     <li>Single line text</li>
-    <li>Paragraph text</li>
+    <li>Paragraph</li>
     <li>Text with formatting</li>
     <li>Descriptive text</li>
     </ul></td>
@@ -197,7 +197,7 @@ To add a text field:
     <p>IMPORTANT: Avoid using special characters in this label. They don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p></td>
     <td><ul>
     <li>Single line text</li>
-    <li>Paragraph text</li>
+    <li>Paragraph</li>
     <li>Text with formatting</li>
     </ul></td>
     </tr>
@@ -208,7 +208,7 @@ To add a text field:
     </td>
     <td><ul>
     <li>Single line text</li>
-    <li>Paragraph text</li>
+    <li>Paragraph</li>
     <li>Text with formatting</li>
     <li>Descriptive text</li>
     </ul></td>
@@ -220,7 +220,7 @@ To add a text field:
     </td>
     <td><ul>
     <li>Single line text</li>
-    <li>Paragraph text</li>
+    <li>Paragraph</li>
     <li>Text with formatting</li>
     </ul></td>
     </tr>
@@ -234,7 +234,7 @@ To add a text field:
      </ul></p></td> </td>
     <td><ul>
     <li>Single line text</li>
-    <li>Paragraph text</li>
+    <li>Paragraph</li>
     </ul></td>
     </tr>
     <tr>
@@ -242,7 +242,7 @@ To add a text field:
     <td>Switch between single line and paragraph text fields.</td>
     <td><ul>
     <li>Single line text</li>
-    <li>Paragraph text</li>
+    <li>Paragraph</li>
     </ul></td>
     </tr>
     <tr>
@@ -279,9 +279,9 @@ To add a calculated field, see [Add calculated fields with the form designer](/h
 +++ **Expand to see descriptions of available fields**
 
 * **Radio buttons**: Requires users to select only one choice.
-* **Checkbox Group**: Allows users to select multiple choices.
-* **Dropdown**: Provides a list of dropdown choices.
-* **Multi-Select Dropdown**: Allows users to select multiple choices from a dropdown list.
+* **Checkbox group**: Allows users to select multiple choices.
+* **Single-select dropdown**: Provides a list of dropdown choices.
+* **Multi-select dropdown**: Allows users to select multiple choices from a dropdown list.
 
 +++
 
@@ -294,9 +294,9 @@ To add radio buttons, checkbox groups, and dropdowns:
 1. On the left side of the screen, find one of the following fields and drag it to a section on the canvas.
 
     * Radio buttons
-    * Checkbox Group
-    * Dropdown
-    * Multi-Select Dropdown
+    * Checkbox group
+    * Single-select dropdown
+    * Multi-select dropdown
 
     ![Drag a field onto the canvas](assets/drag-field-to-section-041524.png)
 
@@ -314,9 +314,9 @@ To add radio buttons, checkbox groups, and dropdowns:
      <td> <p>(Required) Type a descriptive label to display above the custom field. You can change the label at any time.</p> <p><b>IMPORTANT</b>: Avoid using special characters in this label. They don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
      <td><ul>
     <li>Radio buttons</li>
-    <li>Checkbox Group</li>
-    <li>Dropdown</li>
-    <li>Multi-Select Dropdown</li>
+    <li>Checkbox group</li>
+    <li>Single-select dropdown</li>
+    <li>Multi-select dropdown</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -325,9 +325,9 @@ To add radio buttons, checkbox groups, and dropdowns:
     <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td>
      <td><ul>
     <li>Radio buttons</li>
-    <li>Checkbox Group</li>
-    <li>Dropdown</li>
-    <li>Multi-Select Dropdown</li>
+    <li>Checkbox group</li>
+    <li>Single-select dropdown</li>
+    <li>Multi-select dropdown</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -337,9 +337,9 @@ To add radio buttons, checkbox groups, and dropdowns:
     </td> 
     <td><ul>
     <li>Radio buttons</li>
-    <li>Checkbox Group</li>
-    <li>Dropdown</li>
-    <li>Multi-Select Dropdown</li>
+    <li>Checkbox group</li>
+    <li>Single-select dropdown</li>
+    <li>Multi-select dropdown</li>
     </ul></td>
     </tr> 
     <tr> 
@@ -352,19 +352,19 @@ To add radio buttons, checkbox groups, and dropdowns:
      </ul></p></td> 
      <td><ul>
     <li>Radio buttons</li>
-    <li>Checkbox Group</li>
-    <li>Dropdown</li>
-    <li>Multi-Select Dropdown</li>
+    <li>Checkbox group</li>
+    <li>Single-select dropdown</li>
+    <li>Multi-select dropdown</li>
     </ul></td>
     </tr> 
     <tr> 
      <td role="rowheader">Display Type</td> 
-    <td>Switch between radio buttons, checkbox groups, dropdowns, or multi-select dropdowns for the field.</td> 
+    <td>Switch between radio buttons, checkbox group, single-select dropdown, or multi-select dropdown for the field.</td> 
     <td><ul>
     <li>Radio buttons</li>
-    <li>Checkbox Group</li>
-    <li>Dropdown</li>
-    <li>Multi-Select Dropdown</li>
+    <li>Checkbox group</li>
+    <li>Single-select dropdown</li>
+    <li>Multi-select dropdown</li>
     </ul></td>
     </tr> 
      <tr> 
@@ -372,9 +372,9 @@ To add radio buttons, checkbox groups, and dropdowns:
     <td>Select this option if you want the field to be required in order for the user to complete the custom form. </td> 
     <td><ul>
     <li>Radio buttons</li>
-    <li>Checkbox Group</li>
-    <li>Dropdown</li>
-    <li>Multi-Select Dropdown</li>
+    <li>Checkbox group</li>
+    <li>Single-select dropdown</li>
+    <li>Multi-select dropdown</li>
     </ul></td>
      </tr> 
     <tr> 
@@ -397,9 +397,9 @@ To add radio buttons, checkbox groups, and dropdowns:
     </ol> </td> 
     <td><ul>
     <li>Radio buttons</li>
-    <li>Checkbox Group</li>
-    <li>Dropdown</li>
-    <li>Multi-Select Dropdown</li>
+    <li>Checkbox group</li>
+    <li>Single-select dropdown</li>
+    <li>Multi-select dropdown</li>
     </ul></td>
      </tr> 
     </tbody> 
@@ -435,7 +435,7 @@ To add radio buttons, checkbox groups, and dropdowns:
     * Team
     * Template
     * Company
-* **Date Field**: Displays a calendar where users can select a date and time.
+* **Date**: Displays a calendar where users can select a date and time.
 
 +++
 
@@ -444,7 +444,7 @@ To add typeahead and date fields:
 1. On the left side of the screen, find one of the following fields and drag it to a section on the canvas.
 
     * Typeahead
-    * Date Field
+    * Date
 
     ![](assets/drag-field-to-section.png)
 
@@ -462,7 +462,7 @@ To add typeahead and date fields:
       <td> <p>(Required) Type a descriptive label to display above the custom field. You can change the label at any time.</p> <p><b>IMPORTANT</b>: Avoid using special characters in this label. They don't display correctly in reports. For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td> 
        <td><ul>
     <li>Typeahead</li>
-    <li>Date Field</li>
+    <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -471,7 +471,7 @@ To add typeahead and date fields:
       <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td>
     <td><ul>
     <li>Typeahead</li>
-    <li>Date Field</li>
+    <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -481,14 +481,14 @@ To add typeahead and date fields:
       </td> 
          <td><ul>
     <li>Typeahead</li>
-    <li>Date Field</li>
+    <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
       <td role="rowheader">Display Time of Day</td> 
       <td>Select this option if you want to show the time of day along with the date in the field.</td> 
          <td><ul>
-    <li>Date Field</li>
+    <li>Date</li>
     </ul></td>
      </tr> 
      <tr> 
@@ -526,7 +526,7 @@ To add typeahead and date fields:
       <td>Select this option if you want the field to be required in order for the user to complete the custom form. </td> 
        <td><ul>
     <li>Typeahead</li>
-    <li>Date Field</li>
+    <li>Date</li>
     </ul></td>
      </tr> 
     </tbody> 
@@ -801,7 +801,7 @@ This table lists the available native fields for specific Workfront objects in a
 
 +++
 
-1. On the left side of the screen, find **Native field** and drag it to a section on the canvas.
+1. On the left side of the screen, find **Native field reference** and drag it to a section on the canvas.
 1. On the right side of the screen, configure the options for the custom field:
 
    <table style="table-layout:auto"> 
