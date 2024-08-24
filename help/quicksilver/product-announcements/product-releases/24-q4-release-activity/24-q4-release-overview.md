@@ -289,4 +289,4 @@ The following functionality is soon to be removed from Workfront:
 
 #### Deprecation of the legacy Home experience with 24.10
 
-We will be officially deprecating the legacy Home experience with the 24.10 release. Users are encouraged to begin using new Home, which will continue to be enhanced with additional features prior to the deprecation. More information about the transition, including what users and administrators can do to prepare, is forthcoming.
+We will be officially deprecating the legacy Home experience with the 24.10 release. Users are encouraged to begin using new Home, which will continue to be enhanced with additional features prior to the deprecation. For more information about the transition, including advice about what users and administrators can do to prepare, see [Legacy Home deprecation guide](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
