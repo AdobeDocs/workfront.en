@@ -2,7 +2,7 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: Agile planning tools overview
+title: Agile Planning Tools Overview
 description: As you create a board using ad hoc and connected cards, you might want to take advantage of additional agile planning tools on boards.
 author: Lisa
 feature: Agile
