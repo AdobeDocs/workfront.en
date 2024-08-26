@@ -1,14 +1,14 @@
 ---
-title: Manage record views
+title: Manage Record Views
 description: You can display records in a table, timeline, or calendar view when using Adobe Workfront Planning.
-hidefromtoc: yes
-hide: yes
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
 ---
-# Manage record views
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+# Manage record views
 
 {{planning-important-intro}}
 
@@ -35,8 +35,6 @@ This article describes the following information about record views:
 
 
 ## Access requirements
-
-<!--Updated for GA-->
 
 +++ Expand to view access requirements for the functionality in this article. 
 
@@ -81,7 +79,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license*</p></td> 
-   <td> <ul><li><p>Any, to view Workfront Planning information</p></li>
+   <td> <ul><li><p>Standard, Light, or Contributor, to view Workfront Planning information</p></li>
    <li><p>Standard, to create workspaces</p></li></ul>
    <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 

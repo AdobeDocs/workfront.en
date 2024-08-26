@@ -20,6 +20,7 @@ You can create records by doing one of the following:
 * Copy and paste a list of records from an external list
 * Duplicate them
 * Create them as you connect them from other records
+<!--* Create them by submitting a request form-->
 
 This article describes how you can create records. 
 
@@ -305,3 +306,13 @@ To create records as you are connecting them from other records:
 Or
 Click its name to open the details page and add information there. 
 
+<!--
+## Create records by submitting a request form
+
+After someone creates a request form for a record type and shares a link to it with you, you can submit a request which creates a record for that record type. 
+
+For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+Both Workfront users and users external to your organization can submit requests to Planning record types and create records, if they have a link to the request form.
+
+For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). -->
