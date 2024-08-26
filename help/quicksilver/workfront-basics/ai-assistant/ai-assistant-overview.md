@@ -51,6 +51,8 @@ To enable AI Assistant for your organization, **all** of the following must appl
 * Your organization must have a Select, Prime, or Ultimate Workfront plan
 * Adobe must have a signed Adobe Gen AI agreement on file
 
+   For more information on signing the agreement, see [Sign the Adobe Gen AI agreement](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) in this article.
+
 ## Considerations about AI Assistant
 
 * AI Assistant is context sensitive to the page that you have open. For example, entering "Summarize this project" into AI Assistant on a project page returns a summary of that specific project.
@@ -92,7 +94,21 @@ AI Assistant currently offers the following functionality:
 
 1. If AI assistant does not provide the answer you need, refine your prompt and try again.
 
+## Sign the Adobe Gen AI agreement
 
+If your organization does not have a signed Adobe Gen AI agreement on file, AI Assistant can not be enabled for your organization.
 
+If a user attempts to use AI Assistant when the Adobe Gen AI agreement has not been signed, they will see a message:
 
+* Users: Users are informed that AI Assistant has not been enabled for their organization, and that they can contact their Workfront administrator to request it for their organization.
+* Administrators: Administrators are informed that there is not a signed Adobe Gen AI agreement, and can request that a copy of the agreement be sent for signing.
+
+To request the Adobe Gen AI agreement:
+
+1. As a Workfront Administrator, click the AI Assistant icon ![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
+1. Begin typing in the AI Assistant panel.
+1. When the Adobe Gen AI agreement message appears, click **Review agreement**.
+1. Enter the name and email address of the individual at your organization who will sign the Adobe Gen AI agreement.
+
+   The agreement will be sent to this individual for signing. After it is signed and returned, AI Assistant is enabled for your organization.
 

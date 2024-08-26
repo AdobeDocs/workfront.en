@@ -12,7 +12,7 @@ Adobe Workfront community, we have news—we will soon be deprecating legacy Hom
 
 ![](assets/legacy-home-worklist-view.png)
  
-This page will be deprecated during the 24.10 release (planned for October 17, 2024). At that time, you will be required to move to the new Home experience. If you've been using legacy Home to manage your work, don't worry! In addition to continually improving new Home, we've been busy building a streamlined work management experience called My Priorities. 
+This page will be deprecated during the 24.10 release (planned for October 17, 2024). At that time, you will be required to move to the new Home experience. If you've been using legacy Home to manage your work, don't worry! In addition to continually improving new Home, we've been busy building a streamlined work management experience called Priorities. 
 Still, we know a change like this can be disruptive, and we want to help with your transition in any way we can. This page contains information about what exactly will change, advice on how to prepare for the transition, and some answers to frequently asked questions.
 
 ## Deprecation information
@@ -29,7 +29,7 @@ Still, we know a change like this can be disruptive, and we want to help with yo
 
 * New Home is already available as a replacement. See [Get started with the new Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md) for more information about using new Home. It can be customized by both users through personalization options and administrators through layout templates. 
 
-* My Priorities is in development and will serve as another element of the streamlined work management experience in Adobe Workfront.
+* Priorities is in development and will serve as another element of the streamlined work management experience in Adobe Workfront.
 
 ## Prepare for the deprecation
 
@@ -51,7 +51,7 @@ Doing this as soon as possible will then give your users time to adjust to the n
 
 ### Follow the Home experience as it develops
 
-We also recommend keeping up to date with the latest release notes (see [Product releases](/help/quicksilver/product-announcements/product-releases/product-releases.md)) to learn about any changes made to the Home experience as we get closer to the deprecation. Additionally, continue reading about My Priorities to better understand our vision for the future of work management in Adobe Workfront (more information coming soon.)
+We also recommend keeping up to date with the latest release notes (see [Product releases](/help/quicksilver/product-announcements/product-releases/product-releases.md)) to learn about any changes made to the Home experience as we get closer to the deprecation. Additionally, continue reading about Priorities to better understand our vision for the future of work management in Adobe Workfront (more information coming soon.)
 
 ### Ask for help
 
@@ -64,7 +64,7 @@ If you encounter issues during the transition, please contact your Account Execu
 No, it will be completely removed from the application.
 +++
 
-+++ Is every function of legacy Home available in new Home (or, eventually, in My Priorities)?
++++ Is every function of legacy Home available in new Home (or, eventually, in Priorities)?
 
 Nearly, with the exception of:
 
@@ -72,7 +72,7 @@ Nearly, with the exception of:
 
 * Displaying time stamps for object due dates is not currently available.
 
-* Displaying the commit date within the update feed is not currently available. However, there is an available workaround: display the commit date in the header customization through layout templates.
+* Displaying the commit date within the update feed is not currently available. However, there is an available workaround: display the commit date in the header through layout template customization.
 +++
 
 +++How do I regulate which widgets users have access to in new Home?
@@ -96,5 +96,5 @@ Custom fields can be viewed in new Home by:
 
 +++Can I submit feedback?
 
-Yes! Please do so by clicking the in-app **Give Feedback** button on your new Home page, through the upcoming My Priorities page, or through the [Workfront Ideas forum](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas).
+Yes! Please do so by clicking the in-app **Give Feedback** button on your new Home page, through the upcoming Priorities page, or through the [Workfront Ideas forum](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/idb-p/workfront-ideas).
 +++
