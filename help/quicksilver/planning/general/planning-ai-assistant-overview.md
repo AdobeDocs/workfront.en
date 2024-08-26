@@ -1,31 +1,16 @@
 ---
-title: Adobe Workfront Planning AI Assistant overview
+title: Adobe Workfront Planning AI Assistant Overview
 description: You can use the AI assistant to generate, update, or remove records based on the current page context and record structure. The user's commands and the AI's execution of those commands work together to ensure that changes made by the AI are accurately reflected in your environment.
-hidefromtoc: yes
-hide: yes
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
 ---
+
 # Adobe Workfront Planning AI Assistant overview
 
-<!-- update metadata above at GA-->
-
-
->[!IMPORTANT]
->
-><span class="preview">The Workfront AI Assistant has been temporarily removed and it will be available at a later date.</span>
->The information in this article refers to Adobe Workfront Planning and to the Workfront AI Assistant (beta), which are new offerings from Adobe Workfront.
->
->You must have the following to access Workfront Planning:
->
->* A new Workfront plan and license. Workfront Planning is not available for legacy Workfront plans or licenses. 
->* An additional license for Workfront Planning. 
->* Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.
->
-> For a complete list of requirements to access Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md). 
-> 
->For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
-
+{{planning-important-intro}}
 
 You can use the AI Assistant to generate, update, or remove records based on the current page context and record structure. 
 

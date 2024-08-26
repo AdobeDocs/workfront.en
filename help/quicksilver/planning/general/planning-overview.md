@@ -1,8 +1,9 @@
 ---
-title: Adobe Workfront Planning overview
+title: Adobe Workfront Planning Overview
 description: Adobe Workfront Planning is a new offering from Adobe Workfront. You can create fully-customizable workspaces to define workflows that meet the needs of each organizational unit in your enterprise.
-hidefromtoc: yes
-hide: yes
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 ---
@@ -10,15 +11,20 @@ exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+<!--do not use the snippet for IMPORTANT as it links to this article-->
 
 >[!IMPORTANT]
 >
 >The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
 >
->You must be a Workfront customer and your organization must purchase an Adobe Workfront Planning plan, in addition to a Workfront plan, to be able to access the capabilities of Worfront Planning. <!--Workfront Planning has been available for purchase for all Workfront customers since August 28, 2024. -->
->For more information about obtaining access to Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md).
+>You must have the following to access Workfront Planning:
 >
+>* A new Workfront plan and license. Workfront Planning is not available for legacy Workfront plans or licenses. 
+>* An additional license for Workfront Planning. 
+>* Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.
+>
+> For a complete list of requirements to access Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md). 
+> 
 
 This article contains general information about Workfront Planning. 
 
@@ -49,7 +55,7 @@ The following are some of the main capabilities:
 
 <!--at GA: update the link below to the new place for release notes-->
 
-For information about new features and when they are released, see [Adobe Workfront Planning current release activity](/help/quicksilver/planning/general/release-activity.md). 
+For information about new features and when they are released, see [Adobe Workfront Planning release activity for 2024](/help/quicksilver/planning/general/release-activity.md). 
 
 The following are features that are currently available in Workfront Planning:
 
@@ -86,7 +92,8 @@ The following are features that are currently available in Workfront Planning:
 * View history of changes on a record             
 * Rich Text formatting for Paragraph fields             
 * Access Planning records from Workfront objects             
-* Connect Planning records from Workfront objects             
+* Connect Planning records from Workfront objects 
+* Create Planning records by submitting a request form            
 * Workfront Planning public API             
 * Adobe Workfront Planning modules for Adobe Workfront Fusion             
 * Workfront Planning AI Assistant
@@ -349,7 +356,7 @@ To locate Workfront Planning:
 
 We are releasing new features to Workfront Planning regularly. 
 
-For an up-to-date list of released features, see [Adobe Workfront Planning current release activity](/help/quicksilver/planning/general/release-activity.md)
+For an up-to-date list of released features, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md). 
 
 ## Additional resources for Workfront Planning
 
@@ -364,5 +371,5 @@ For an up-to-date list of released features, see [Adobe Workfront Planning curre
 
 * [Adobe Workfront Planning API basics](/help/quicksilver/planning/general/planning-api-basics.md): The goal for the Adobe Workfront Planning API is to simplify building integrations with Planning by introducing a REST-ful architecture that operates over HTTP.
 
-<!--* Workfront Planning reporting capabilities: You can now view Workfront Planning information in a report in Workfront using the Workfront Canvas Dashboard. For information, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).-->
+* Workfront Planning reporting capabilities: You can now view Workfront Planning information in a report in Workfront using the Workfront Canvas Dashboard. For information, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 
