@@ -28,7 +28,7 @@ There are license and sharing permission restrictions to use Adobe Workfront Pla
 
 ## Access requirements 
 
-<!--do not collapse t
+<!--do not collapse the access requirements below - this is the main article about Access overview-->
 
 <!--*********ensure that the link ^^^^^^^^below^^^^^^^^ to Workfront Pricing and Packaging now also includes information about Workfront Planning. If not, talk with Lauren S.***************-->
 
@@ -80,7 +80,7 @@ You must have the following to be able to access Workfront Planning:
   <tr>
    <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <ul><li><p>Any, to view Workfront Planning information</p></li>
+   <ul><li><p>Standard, Light, or Contributor, to view Workfront Planning information</p></li>
    <li><p>Standard, to create workspaces and views</p></li></ul>
    <p>Workfront Planning is not available for legacy Workfront licenses</p>
   </td>

@@ -25,6 +25,8 @@ This article contains a list of release activity articles about the Adobe Workfr
 
 * [Fourth Quarter 2024 release activity for Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
 
+<!-- remove this after 25.1 and consider removing the pages too-->
+
 For a list of all features released prior to the general availability release on August 28, 2024, see the following articles: 
 
 * [Adobe Workfront Planning release activity for 2024](/help/quicksilver/planning/general/release-activity.md)

@@ -8,9 +8,6 @@ recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
 ---
 
-
-<!--update the metadata with real things when making this public; also update the description with something like this: Not all users in the organization have the same access and permissions to use Adobe Workfront Planning. This article describes the levels of access that users could have to Adobe Workfront Planning. -->
-
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
 
 # Overview of sharing permissions in Adobe Workfront Planning 
@@ -175,8 +172,6 @@ The following are the levels of permissions for views and view elements:
 
 *Users must have View or higher permissions to a workspace to gain this view access.
             
-
-
 <!--old view permissions, before sharing View permissions to a view through a workspace:
 |        | Manage | View  |
 |--------|--------|-------|

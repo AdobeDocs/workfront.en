@@ -13,6 +13,9 @@ recommendations: noDisplay, noCatalog
 
 You can share a workspace with others to ensure collaboration when working in Adobe Workfront Planning. 
 
+<!--
+This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). -->
+
 >[!NOTE]
 >
 >Granting permissions to a workspace does not give other users permissions to the views on the record type pages. You must grant permissions to individual views in a record type page to share them with other users. For information, see [Share a view](/help/quicksilver/planning/access/share-views.md). 

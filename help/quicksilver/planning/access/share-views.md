@@ -29,6 +29,9 @@ You can share a view with the following entities:
 * Internally, with Workfront users and groups
 * Publicly, with users outside Workfront
 
+<!--
+This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). -->
+
 ## Access requirements
 
 +++ Expand to view access requirements for Workfront Planning. 
