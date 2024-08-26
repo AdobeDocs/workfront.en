@@ -22,8 +22,6 @@ exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
 >For an overview of Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md). 
 >
 
->
-
 <!--[!IMPORTANT]
 >
 >The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 

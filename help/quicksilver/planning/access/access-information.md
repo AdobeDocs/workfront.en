@@ -1,5 +1,5 @@
 ---
-title: Adobe Workfront Planning Access Information: Article Index
+title: "Adobe Workfront Planning Access Information: Article Index"
 description: As a Workfront administrator, you must give access to your users to use Adobe Workfront Planning. The following articles contain information about what access your users need to use Workfront Planning.
 author: Alina
 feature: Workfront Planning

@@ -18,7 +18,7 @@ role: User
 
 <!--add this to miniTOC and TOC-->
 
-## Request permissions to a view or a workspace
+# Request permissions to a view or a workspace
 
 You can request permissions to a view or a workspace that others sent you a link to which has not been previously shared with you. 
 
