@@ -32,7 +32,7 @@ Some rows contain information labeled "New" and "Current." This is because Workf
    <td role="rowheader">Adobe Workfront plan</td> 
    <td> Adobe Workfront plans refer to the set of features that your organization has purchased. Most Workfront functionality is available in all plans, with a few exceptions, mostly related to strategic planning and enterprise controls. 
    <ul><li>To find out what Adobe Workfront plan your organization uses, including whether your organization is under the new or current packaging model, contact your Workfront administrator.</li>
-   <li>For instructions on how a Workfront administrator can locate your organization's Workfront plan, see <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">View your organization's cluster and Workfront plan</a>.</li></ul> </td> 
+   <li>For instructions on how a Workfront administrator can locate your organization's Workfront plan, see <a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/firewall-overview.md#view-your-organizations-cluster-and-workfront-plan" class="MCXref xref">View your organization's cluster and Workfront plan</a>.</li><li>For more information on the new Workfront plans, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>.</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
