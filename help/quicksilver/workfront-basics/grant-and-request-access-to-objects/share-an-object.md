@@ -126,7 +126,8 @@ You must have the following to share objects:
 
    ![](assets/new-share-advanced-permissions-dropdown.png)
 
-   View, Manage and Contribute have different advanced options depending on the selected object.  
+   View, Manage and Contribute have different advanced options depending on the selected object.
+
    For more information about permission levels, see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 1. (Optional) To make this object available to all users in the system, click the dropdown menu under **Who has access**, then in the drop-down menu click **Everyone in the system can view**.
