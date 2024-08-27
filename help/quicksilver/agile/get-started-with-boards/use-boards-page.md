@@ -1,7 +1,7 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Use the boards dashboard
+title: Use the Boards Dashboard
 description: The [!UICONTROL boards] dashboard shows the list of boards that you have access to, including boards you have created and boards that you have been added to.
 author: Lisa
 feature: Agile
@@ -38,11 +38,11 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
    <td> 
    <p>New: [!UICONTROL Contributor] or higher</p> 
    <p>or</p>
