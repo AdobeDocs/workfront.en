@@ -7,11 +7,8 @@ recommendations: noDisplay, noCatalog
 ---
 
 <!--update metadata at GA-->
-<!--add mini TOC when live, already added to big TOC to get the link-->
 
 # Connected record types overview
-
-<!--REMOVE THE CONTENT BELOW FROM THE "CONNECT RECORD TYPES" ARTICLE WHEN YOU TURN THIS ARTICLE LIVE- THIS IS THE SAME CONTENT AS THERE, DUPLICATED-->
 
 You can indicate that individual record types relate to one another or to objects from other applications by connecting them. 
 
@@ -89,7 +86,7 @@ Consider the following about connecting record types:
     
         Linked fields are preceded by an icon that identifies the field type. For example, linked (or lookup) fields are preceded by icons that indicate that a field is a number, a paragraph, or a date. 
 
-<!--## Connection types
+## Connection types
 
 After you establish a connection between two record types or between a record and an object type from another application, you can add records in the connected record fields. 
 
@@ -103,6 +100,7 @@ Depending on how many records you can add to a connected record field, the follo
 >[!WARNING]
 >
 >These options are not available when connecting the following: 
+>
 >* Two records from different workspaces
 >
 >* A record type and Experience Manager assets
@@ -157,7 +155,7 @@ A real-life example of a one-to-one relationship is the one existing between a p
 
 When you select this connection type, you can later change it to any other connection type. 
 
---> 
+
 
 
 

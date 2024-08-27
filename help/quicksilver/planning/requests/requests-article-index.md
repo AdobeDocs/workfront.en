@@ -13,5 +13,5 @@ You can create a request form for each record type, share it with users and they
 
 This section contains the following articles:
 
-* [Create a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
+* [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
 * [Submit Adobe Workfront Planning requests](/help/quicksilver/planning/requests/submit-requests.md)
