@@ -16,7 +16,7 @@ recommendations: noDisplay, noCatalog
 
 After you have installed a package, you can roll it back. This removes the changes that the package made in the target environment, and restores the affected objects to their previous configurations.
 
-You can roll back a promotion package within 25 hours after it is installed. After 25 hours, the roll back functionality is no longer available for that install.
+You can roll back a promotion package within 25 hours after it is installed. After 25 hours, the rollback functionality is no longer available for that install.
 
 ## Access requirements
 
@@ -26,13 +26,13 @@ You must have the following:
   <tr>
    <td><strong>[!DNL Adobe Workfront] plan</strong>
    </td>
-   <td> <p>New: Prime or Ultimate</p><P>Or</p><p>Current: Not available</p>
+   <td> <p>New: Prime or Ultimate</p><p>Or</p><p>Current: Not available</p>
    </td>
   </tr>
   <tr>
    <td><strong>[!DNL Adobe Workfront] licenses</strong>
    </td>
-   <td> [!UICONTROL Standard]
+   <td> <p>[!UICONTROL Standard]</p><p>Or</p><p>Current: Not available</p>
    </td>
   </tr>
    <tr>
@@ -71,8 +71,6 @@ For more detail about the information in this table, see [Access requirements in
 
 1. (Optional) In the Rollback Preview area, view the changes that will occur when the deployment is rolled back. 
 1. Click **Roll Back** in the upper-right corner of the screen.
-
-
 
 
 
