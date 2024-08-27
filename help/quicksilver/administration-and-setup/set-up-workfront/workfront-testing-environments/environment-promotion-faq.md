@@ -24,7 +24,7 @@ Cross-domain environment promotion is not currently supported. You must promote 
 
 ### Answer
 
-No. Environment Promotion is available for both IMS-enabled and non-IMSWorkfront instances.
+No. Environment Promotion is available for both IMS-enabled and non-IMS Workfront instances.
 
 ## How can we find out if our Workfront instance is on a Prime or Ultimate license?
 
