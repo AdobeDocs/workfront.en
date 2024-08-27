@@ -47,7 +47,7 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Prerequisites
 
-* An environment promotion package must be installed before it can be installed. 
+* An environment promotion package must be installed before it can be rolled back. 
 
   For instructions, see [Install an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
 
