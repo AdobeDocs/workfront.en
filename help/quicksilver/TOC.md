@@ -2084,6 +2084,10 @@ feature-set: Workfront
     * [Manage the record page layout](planning/records/manage-the-record-page.md)
     * [Manage records in the Planning section of Adobe Workfront objects](planning/records/manage-records-in-planning-section.md)
     * [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md)
+  * Adobe Workfront Planning requests {#adobe-workfront-planning-requests}
+    * [Adobe Workfront Planning Requests: article index](planning/requests/requests-article-index.md)
+    * [Create and manage a request form in Adobe Workfront Planning](planning/requests/create-request-form.md)
+    * [Submit Adobe Workfront Planning requests to create records](planning/requests/submit-requests.md)
   * Adobe Workfront Planning views {#adobe-workfront-planning-views}
     * [Views: article index](planning/views/views-information.md)
     * [Manage record views](planning/views/manage-record-views.md)
