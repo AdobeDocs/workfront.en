@@ -1,12 +1,13 @@
 ---
-title: Share views
+title: Share Views
 description: You can share a view with others to ensure collaboration when using Adobe Workfront Planning.
-hidefromtoc: yes
-hide: yes
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
 ---
-<!--update the metadata and description when we turn this article live-->
+
 
 # Share views
 
@@ -28,11 +29,80 @@ You can share a view with the following entities:
 * Internally, with Workfront users and groups
 * Publicly, with users outside Workfront
 
+<!--
+This article describes how you can share a view with others. For information about requesting, granting, or denying permissions to a view, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). -->
+
 ## Access requirements
 
 +++ Expand to view access requirements for Workfront Planning. 
 
-<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+<!--at GA, check that the Workfront plans article linked below has Planning info-->
+
+You must have the following to be able to access Workfront Planning:  
+
+ <table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>  <p>Manage permissions to a view</p>  
+   <p>Only users with Manage permissions to a workspace can share a view publicly.</p></td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Layout template</p></td> 
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> </td> 
+  </tr> 
+</tbody> 
+</table> 
+
+ *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+<!--OLD: 
 
 <table style="table-layout:auto">
  <col>
@@ -88,7 +158,7 @@ You can share a view with the following entities:
  </tbody>
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 +++
 
@@ -147,8 +217,7 @@ You can share views you created or views you have Manage permissions to with use
 1. Click **Save**.
 
    The view updates with a people icon ![](assets/view-shared-with-others-people-icon.png) to indicate that the view is now shared with other users. 
-   
-   >
+
    >[!TIP]
    >
    >Views without a people or a global icon are views you created and are not shared with others. Unshared views are only visible to you. 
@@ -192,7 +261,6 @@ To share a view publicly in Workfront Planning:
 
    The view updates with a global icon ![](assets/public-shared-view-icon-highlighted.png) to indicate that the view is shared publicly.  
 
-   >
    >[!TIP]
    >
    >Views without a people or a global icon are views you created and are not shared with others. Unshared views are only visible to you. 
@@ -217,5 +285,5 @@ To share a view publicly in Workfront Planning:
    1. Deselect the **Create public link** option. 
 
 1. Click **Save**.
-   
+
    People no longer have access to the view. There is no notification for the users that have been removed from accessing the view that they no longer have this access.

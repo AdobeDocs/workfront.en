@@ -73,7 +73,7 @@ The [!DNL Workfront] add-in for [!DNL Outlook] is supported in environments that
 Workfront supports the following versions of [!DNL Outlook]: 
 
 * [!DNL Outlook 2013] or later on [!DNL Windows]
-*[!DNL  Outlook 2016] or later on [!DNL Windows]
+* [!DNL Outlook 2016] or later on [!DNL Windows]
 * [!DNL Outlook] on [!DNL Mac] ([!DNL Microsoft 365])
 * [!DNL Outlook] on [!DNL Windows] ([!DNL Microsoft 365])
 * [!DNL Outlook] on the web
@@ -84,7 +84,7 @@ When configuring the client, the user must select one of the following account t
 
 * [!DNL Exchange]
 * [!DNL Office 365]
-* [!DNL Outlook.com]&#x200B;**&#x200B;**&#x200B;If the client is configured to connect with POP3 or IMAP, the [!DNL Workfront] add-in does not load.
+* [!DNL Outlook.com] If the client is configured to connect with POP3 or IMAP, the [!DNL Workfront] add-in does not load.
 
 ### Mail server requirements {#mail-server-requirements}
 

@@ -2,13 +2,13 @@
 filename: boards-early-feature-opt-in
 content-type: reference
 navigation-topic: boards
-title: Early feature opt-in for [!DNL Adobe Workfront] Boards
+title: Early Feature Opt-In for [!DNL Workfront] Boards
 description: Read this article to learn about the [!DNL Workfront Boards] early feature opt-in.
 author: Lisa
 feature: Agile
 exl-id: c4a6b045-b0f3-4d4d-994c-c03ef7ad25c8
 ---
-# Early feature opt-in for [!DNL Adobe Workfront] [!UICONTROL Boards]
+# Early feature opt-in for [!DNL Workfront] [!UICONTROL Boards]
 
 The early feature opt-in for [!DNL Adobe Workfront] [!UICONTROL Boards] was launched in July 2022.
 

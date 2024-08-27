@@ -2,7 +2,7 @@
 content-type: reference
 product-area: agile-and-teams
 navigation-topic: boards
-title: Manage workstreams
+title: Manage Workstreams
 description: A workstream is a configurable group of boards  and cards for collaborating on work.
 author: Lisa
 feature: Agile
@@ -28,20 +28,24 @@ You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Request] or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> 
+   <p>New: [!UICONTROL Contributor] or higher</p> 
+   <p>or</p>
+   <p>Current: [!UICONTROL Request] or higher</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

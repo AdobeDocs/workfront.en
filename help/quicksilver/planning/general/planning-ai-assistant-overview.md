@@ -1,29 +1,16 @@
 ---
-title: Adobe Workfront Planning AI Assistant overview
+title: Adobe Workfront Planning AI Assistant Overview
 description: You can use the AI assistant to generate, update, or remove records based on the current page context and record structure. The user's commands and the AI's execution of those commands work together to ensure that changes made by the AI are accurately reflected in your environment.
-hidefromtoc: yes
-hide: yes
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
 ---
+
 # Adobe Workfront Planning AI Assistant overview
 
-<!-- update metadata above at GA-->
-
->[!IMPORTANT]
->
-><span class="preview">The Workfront AI Assistant has been temporarily removed and it will be available at a later date.</span>
->The information in this article refers to Adobe Workfront Planning and to the Workfront AI Assistant (beta), which are new offerings from Adobe Workfront. 
->
->Currently, Workfront Planning is in an early access stage, and the Workfront AI Assistant is in a beta phase. 
->
->Workfront Planning and the AI Assistant (beta) are open to a limited number of customers. 
->
->You must be a Workfront customer to use these capabilities. 
->
->Your account representative will inform you if you are part of this stage.
->
->For more information, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+{{planning-important-intro}}
 
 You can use the AI Assistant to generate, update, or remove records based on the current page context and record structure. 
 
@@ -31,7 +18,8 @@ The user's commands and the AI's execution of those commands work together to en
 
 ## Considerations about the AI Assistant
 
-* The AI Assistant is available for the main Workfront administrator by default. For information, see [Configure basic information for your system](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md). 
+* The AI Assistant must be enabled for your organization before it is available for users in your company. For information, see [AI Assistant overview](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md). 
+* After Workfront has enabled the AI Assistant for your organization, it is available for the main Workfront administrator. For information, see [Configure basic information for your system](/help/quicksilver/administration-and-setup/get-started-wf-administration/configure-basic-info.md). 
 
 * The Workfront administrator must enable the AI Assistant for all other users. For more information, see [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md). 
 
@@ -65,7 +53,7 @@ You can use the AI Assistant to perform the following actions, at this time:
 * Delete records
 * Restore records that you just deleted
 
-## Access the AI Assistant
+## Access the AI Assistant in the Planning area
 
 1. Log in to Workfront, then go to the **Planning** area. 
 

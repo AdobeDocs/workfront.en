@@ -244,6 +244,9 @@ feature-set: Workfront
       * [Workfront Fusion release activity: Week of November 16, 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-16.md)
       * [Workfront Fusion release activity: Week of November 30, 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-30.md)
       * [Workfront Fusion release activity: Week of September 21, 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-sept-21.md)
+    * Adobe Workfront Planning release activity{#planning-release-activity}
+      * [Adobe Workfront Planning release activity](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+      * [Fourth Quarter 2024 release activity for Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
     * Adobe Workfront Scenario Planner release activity {#scenario-planner-release}
       * [Adobe Workfront Scenario Planner release activity](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
       * [Adobe Workfront Scenario Planner with the 21.3 release](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
@@ -1008,7 +1011,7 @@ feature-set: Workfront
   * [Boards overview](agile/boards-overview.md)
   * Get started with boards in Adobe Workfront {#boards-in-workfront}
     * [Get started with boards: article index](agile/get-started-with-boards/get-started-with-boards.md)
-    * [Adobe Workfront Boards video demonstrations](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
+    * [Workfront Boards video demonstrations](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
     * [Boards early feature opt-in](agile/get-started-with-boards/boards-early-feature-opt-in.md)
     * [Use the boards dashboard](agile/get-started-with-boards/use-boards-page.md)
     * [Create or edit a board](agile/get-started-with-boards/create-edit-board.md)
@@ -2032,8 +2035,8 @@ feature-set: Workfront
     * [Adobe Workfront Planning overview](planning/general/planning-overview.md)
     * [Adobe Workfront Planning API basics](planning/general/planning-api-basics.md)
     * [Adobe Workfront Planning AI Assistant overview](planning/general/planning-ai-assistant-overview.md)
-    * [Adobe Workfront Planning current release activity](planning/general/release-activity.md)
-    * [Adobe Workfront Planning release activity archives for 2023](planning/general/release-activity-archives-2023.md)
+    * [Adobe Workfront Planning release activity for 2024](planning/general/release-activity.md)
+    * [Adobe Workfront Planning release activity for 2023](planning/general/release-activity-archives-2023.md)
     * [Adobe Workfront Planning object limitations overview](planning/general/limitations-overview.md)
   * Adobe Workfront Planning architecture {#adobe-workfront-planning-architecture}
     * [Architecture: article index](planning/architecture/architecture-information.md)
