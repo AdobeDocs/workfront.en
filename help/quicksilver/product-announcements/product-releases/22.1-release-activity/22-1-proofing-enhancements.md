@@ -42,7 +42,6 @@ All users also benefit from improved connectivity between Workfront and Proof. N
 For more information, see
 
 * [Proof Roles overview](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md) 
-* &nbsp;
 
 ## Electronic Signature Enhancements for proofs
 

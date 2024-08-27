@@ -216,8 +216,7 @@ You can share views you created or views you have Manage permissions to with use
 1. Click **Save**.
 
    The view updates with a people icon ![](assets/view-shared-with-others-people-icon.png) to indicate that the view is now shared with other users. 
-   
-   >
+
    >[!TIP]
    >
    >Views without a people or a global icon are views you created and are not shared with others. Unshared views are only visible to you. 
@@ -261,7 +260,6 @@ To share a view publicly in Workfront Planning:
 
    The view updates with a global icon ![](assets/public-shared-view-icon-highlighted.png) to indicate that the view is shared publicly.  
 
-   >
    >[!TIP]
    >
    >Views without a people or a global icon are views you created and are not shared with others. Unshared views are only visible to you. 
@@ -310,5 +308,5 @@ Users who access a link to a view to which they do not have permissions can requ
    1. Deselect the **Create public link** option. 
 
 1. Click **Save**.
-   
+
    People no longer have access to the view. There is no notification for the users that have been removed from accessing the view that they no longer have this access.
