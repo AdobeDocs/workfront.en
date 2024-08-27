@@ -1,7 +1,7 @@
 ---
 title: Connect Record Types
 description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Adobe Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
-feature: Worfront Planning
+feature: Workfront Planning
 role: User
 author: Alina
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
