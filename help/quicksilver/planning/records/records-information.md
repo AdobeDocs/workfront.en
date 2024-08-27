@@ -1,22 +1,11 @@
 ---
-title: "Records: article index"
+title: "Records: Article Index"
 description: After you create record types in Adobe Workfront Planning you can create individual records of those types. The following articles describe how you can create and manage records and their information in Adobe Workfront Planning.
-hidefromtoc: yes
-hide: yes
-recommendations: noDisplay, noCatalog
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 ---
-<!-- update the metadata with real information when making this available in TOC and in the left nav
----
-title: "Records: article index"
-description: After you create record types in Adobe Workfront Planning you can create individual records of those types. The following articles describe how you can create and manage records and their information in Adobe Workfront Planning.
-hidefromtoc: yes
-author: Alina
-feature: Work Management
-role: User
-hide: yes
----
--->
 
 # Records: article index
 
