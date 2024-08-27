@@ -2,7 +2,7 @@
 filename: delete-archive-board
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Delete or archive a board
+title: Delete or Archive a Board
 description: You can delete or archive a board in Workfront. Deleting a board permanently removes it from Workfront, while archiving a board retains all cards and allows it to be restored at a later time.
 author: Lisa
 feature: Agile
@@ -14,32 +14,39 @@ You can delete or archive a board in [!DNL Workfront]. Deleting a board permanen
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront]</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Request] or higher</p> </td> 
-  </tr>
-   </tbody> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> 
+   <p>New: [!UICONTROL Contributor] or higher</p> 
+   <p>or</p>
+   <p>Current: [!UICONTROL Request] or higher</p>
+   </td> 
+  </tr> 
+ </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Delete a board
 
 When you delete a board, it is permanently removed from [!DNL Workfront] and can't be restored. Any cards on the board are also deleted along with the board.
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
+{{step1-to-boards}}
+
 1. On the dashboard, select the board to open.
 1. Click the **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) next to the board name and select **[!UICONTROL Delete]**. Then, click **[!UICONTROL Delete board]** on the confirmation message.
 
@@ -53,7 +60,8 @@ When you delete a board, it is permanently removed from [!DNL Workfront] and can
 
 Archived boards retain all cards and assignments. Any user can archive or restore a board at any time.
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
+{{step1-to-boards}}
+
 1. On the dashboard, select the board to open.
 1. Click the **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) next to the board name and select **[!UICONTROL Archive]**.
 
@@ -63,7 +71,8 @@ Archived boards retain all cards and assignments. Any user can archive or restor
 
 An archived board can be restored at any time. Any user can restore an archived board.
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Boards]**.
+{{step1-to-boards}}
+
 1. On the dashboard, click the filter icon ![Filter](assets/filter-icon-spectrum-25x25.png) and select **[!UICONTROL Archived Boards]**.
 1. Find the board you want to restore, click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) next to the board name, and select **[!UICONTROL Restore]**.
 
