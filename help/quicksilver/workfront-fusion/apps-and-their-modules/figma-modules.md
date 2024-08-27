@@ -357,7 +357,7 @@ This action module retrieves a single file or image from a Figma library
       <td>Select the file that you want to return JSON from.</td>
     </tr>
     <tr>
-      <td role="rowheader"[!UICONTROL >Node IDs]</td>
+      <td role="rowheader">[!UICONTROL Node IDs]</td>
       <td>
         <p>Enter the nodes that you want the module to render.</p>
         <p>For each node that you want to render, click <b>[!UICONTROL Add]</b> and enter the text of the node.</p>
