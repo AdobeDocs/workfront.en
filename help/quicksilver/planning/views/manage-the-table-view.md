@@ -174,6 +174,7 @@ To manage a table view:
     * [Filters](#add-filters) 
     * [Grouping](#add-groupings)
     * [Sort](#add-a-sort) 
+    * [Enable the real-time presence indicator](#enable-the-real-time-presence-indicator)
 
 
 ### Add columns (or fields) {#add-columns}
@@ -517,3 +518,11 @@ To sort grouped records:
 1. ************************* add steps here for sorting grouped records****************
 
 -->
+
+### Enable the real-time presence indicator
+
+The avatars of other users who are editing record information at the same time as you display in the upper-right corner of all record views, by default.
+
+When you display the table view, you can also view which field another user is editing at the time you are viewing the record. 
+
+For more information, see the "Enable the real-time presence indicator" section in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 

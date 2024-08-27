@@ -2067,6 +2067,7 @@ feature-set: Workfront
     * [License type overview when using Adobe Workfront Planning](planning/access/license-type-overview.md)
     * [Share workspaces](planning/access/share-workspaces.md)
     * [Share views](planning/access/share-views.md)
+    * [Request permissions to a view or a workspace](planning/access/request-permissions.md)
   * Adobe Workfront Planning records {#adobe-workfront-planning-records}
     * [Records: article index](planning/records/records-information.md) 
     * [Create records](planning/records/create-records.md)

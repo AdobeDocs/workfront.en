@@ -1,8 +1,10 @@
 ---
 title: Request Permissions to a View or a Workspace
 description: You can request permissions to a view or a workspace that others sent you a link to which has not been previously shared with you. 
-hidefrontoc: yes
-hide: yes
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
 ---
 
 <!-- update metadata when released: 
@@ -124,6 +126,6 @@ When someone shares with you a link to a workspace or a view where you do not ha
 
       * [Share views](/help/quicksilver/planning/access/share-views.md)
       * [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md)
-1. (Conditional) When the view or workspace manager grants you permissions to the view or workspace, you receive an email notification with a confirmation that the permissions were granted or denied. <!--check this - I was not able to test this-->
+1. (Conditional) When the view or workspace manager grants you permissions to the view or workspace, you receive an email notification and an in-app notification with a confirmation that the permission was granted. <!--check this - I was not able to test this-->
 
 

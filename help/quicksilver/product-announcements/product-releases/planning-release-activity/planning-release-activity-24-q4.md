@@ -34,6 +34,16 @@ For a list of all features released for Adobe Workfront Planning after the gener
 >
 >Preview and Production release: August 28, 2024
 
-Workfront Planning is available for all customers who purchased a Workfront Planning license, in addition to their Workfront license. Contact your account representative for more information about Workfront Planning. 
+Adobe Workfront Planning is a new offering from Adobe Workfront. The purpose of Workfront Planning is to unlock comprehensive visibility into the operational details of an organization, and answer critical business questions at each stage of the work management lifecycle. 
 
-For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md). 
+The following are some of the main capabilities of Adobe Workfront Planning: 
+
+* Solve the problem of planning work across all stages and for all the stakeholders that participate in the work process. 
+
+* Fully customize your workflows, from deciding what object types (or record types) your organization uses to configuring how these objects interconnect.
+
+* Connect to object types from other systems, creating a coherent framework for all your processes. 
+
+For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).  
+
+For information about features released to Workfront Planning prior to this launch, also see [Adobe Workfront Planning release activity for 2024](/help/quicksilver/planning/general/release-activity.md).
