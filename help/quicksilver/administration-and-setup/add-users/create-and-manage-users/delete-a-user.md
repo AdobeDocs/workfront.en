@@ -1,15 +1,21 @@
 ---
-title: Delete users
+title: Delete Users
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: When a user leaves your organization, can remove that user from Workfront, though we recommend deactivating users instead of deleting them.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
 ---
 # Delete users
+
+>[!IMPORTANT]
+>
+>The procedure described on this page applies only to organizations that are not yet onboarded to the Adobe Business Platform. If you have been onboarded to the Adobe Business Platform, you must delete users in the Adobe Admin Console.
+>
+>For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Business Platform, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 When a user leaves your organization, you can remove that user from Adobe Workfront.
 
@@ -28,6 +34,8 @@ When a user leaves your organization, you can remove that user from Adobe Workfr
 -->
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -53,6 +61,8 @@ You must have the following to perform the steps in this article:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Deleting vs. deactivating a user
 
@@ -112,9 +122,8 @@ You can permanently delete users one at a time, or you can permanently delete mu
 
 ## Delete one or more users
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+{{step-1-to-users}}
 
-1. Click **Users**.
 1. Select at least one user that you want to delete, click the More menu ![](assets/more-icon.png), then click **Delete**.
 1. In the box that appears, click **Delete** to confirm the deletion.
 

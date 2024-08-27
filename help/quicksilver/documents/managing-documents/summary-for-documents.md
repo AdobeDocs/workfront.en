@@ -10,7 +10,9 @@ exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
 ---
 # Summary for documents overview
 
-The Summary allows you to interact with important information directly from the documents list.
+<!--Audited: April, 2024-->
+
+You can use the Summary panel to access and update important information directly from the documents list.
 
 ## Access requirements
 
@@ -23,25 +25,27 @@ You must have the following:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p> Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront licenses*</td> 
-   <td> <p>Request or higher</p> </td> 
+   <td> <p>New: Contributor or higher</p> 
+   <p>Current: Request or higher</p>
+   </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Documents</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Documents</p>  </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View access to the object associated with the document</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View access to the object associated with the document</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 ## Open the Summary view
 
@@ -77,7 +81,7 @@ Use the Custom Forms section to add, edit, or view any custom forms associated w
 
 Use the Updates section to read an update someone made on the document or proof. The summary shows the first 2 comments made. For more information on updates, see [Comment on a proof](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof.md).
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+![Updates section in Summary panel](assets/summary-updates-section-new-comments.png)
 
 ## Approvals
 

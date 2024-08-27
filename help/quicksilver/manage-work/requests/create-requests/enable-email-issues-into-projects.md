@@ -1,9 +1,9 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Enable users to email an issue into a Request Queue project
-description: Enable users to email an issue into a Request Queue project
-author: Alina
+title: Enable Users to Email an Issue into a Request Queue Project
+description: You can configure a project to allow users to add issues to the project via email.
+author: LIsa
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
 ---
@@ -13,41 +13,39 @@ exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
 -->
 
-You can configure a project to allow users to add issues to the project via email. You can allow for issues to be emailed into a project only if the project is designated as a Request Queue. For more information about creating a Request Queue project, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+You can configure a project to allow users to add issues to the project via email. You can only allow issues to be emailed into a project if the project is designated as a Request Queue. For more information about creating a Request Queue project, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Request or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Contributor or higher</p>
+   Or
+   <p>Current: Request or higher</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Issues</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
-    <td role="rowheader">Object permissions</td> 
-    <td> <p>To configure the request queue, you must have Manage permissions to the project.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.<br></p> </td> 
-   </tr>
-  --> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Issues</p>  </td> 
+  </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisites
 
@@ -70,7 +68,7 @@ These conditions must be met, before enabling this feature:
 >
 >* Workfront allows one unique email per request queue across all clusters. If you choose to disable your request queue, you'll retain the email address you created as long as it is still in the Intake Email Address box. If you choose to discontinue use of the intake email, you must delete it from the Intake Email Field so it can be available for future use.
 >
->* If the request queue has multiple queue topics or topic groups, Workfront will randomly select the queue topic that the emailed requests will go to, making eamiled requests hard to manage. 
+>* If the request queue has multiple queue topics or topic groups, Workfront will randomly select the queue topic that the emailed requests will go to, making emailed requests hard to manage.
 >We recommend that the project that you set up to receive requests through emails should not have more than one queue topic. If the submitted requests are intended for different resources or projects you should route or move them manually, after they have been submitted. 
 
 1. Go to the project that you want to enable to receive issues via email.

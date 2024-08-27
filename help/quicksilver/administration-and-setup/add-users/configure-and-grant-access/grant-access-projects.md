@@ -1,10 +1,10 @@
 ---
-title: Grant access to projects
+title: Grant Access to Projects
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-access-to-workfront
 description: As an Adobe Workfront administrator, you can use an access level to define a user's access to projects in Workfront.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
@@ -20,6 +20,8 @@ As an Adobe Workfront administrator, you can use an access level to define a use
 For information about using custom access levels to manage users' access to other object types in Workfront, see [Create or modify custom access levels](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article: 
 
@@ -47,6 +49,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Configure user access to projects using a custom access level
 

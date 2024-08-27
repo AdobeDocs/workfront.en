@@ -1,7 +1,7 @@
 ---
-title: View and manage a group's details
+title: View and Manage a Group's Details
 description: You can view and edit the Group Details page for a group or subgroup that you manage.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: edd2c58a-f912-4638-b6a3-ff3b1b622f48
@@ -36,6 +36,8 @@ Delete this paragraph when Callisto adds the
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -55,9 +57,11 @@ You must have the following to perform the steps in this article:
 
 &#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
 
++++
+
 ## View and manage a group's details
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **Groups**.
 

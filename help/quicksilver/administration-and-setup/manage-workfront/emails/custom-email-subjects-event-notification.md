@@ -1,8 +1,8 @@
 ---
 navigation-topic: notifications
-title: Customize email subjects for event notifications
+title: Customize Email Subjects for Event Notifications
 description: You can customize the subject line of the emails triggered by event notifications.
-author: Lisa, Caroline
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
@@ -26,6 +26,8 @@ Some event notifications have multiple subject lines, which means that those eve
 >
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -52,9 +54,11 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
++++
+
 ## Customize email subject lines for event notifications {#customize-email-subject-lines-for-event-notifications}
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left panel, click **Email** > **Notifications**.
 
@@ -70,13 +74,13 @@ You must have the following access to perform the steps in this article:
 
 Some event notifications have multiple subject lines, depending on which objects they trigger.
 
-For example, “Someone includes me on a directed update” has two different subjects lines: first is for tasks, issues, template tasks and documents (also known as a “referenceObject”) and the second one is for objects that allow users to make comments, like portfolio, program, and so on (also known as a “topReferenceObject”).
+For example, "Someone includes me on a directed update" has two different subjects lines: first is for tasks, issues, template tasks and documents (also known as a "referenceObject") and the second one is for objects that allow users to make comments, like portfolio, program, and so on (also known as a "topReferenceObject").
 
 ![](assets/Ev-not-mult-subj-lines.png)
 
-If a user is included in a conversation on the task, issue, template task, or document, an email will generate with the first subject line. The subject line contains “referenceObject:name” and the system defines the object and displays the appropriate name in the subject field. The email subject line would look similar to this: "Comment on Task 123 on Project ABC." 
+If a user is included in a conversation on the task, issue, template task, or document, an email will generate with the first subject line. The subject line contains "referenceObject:name" and the system defines the object and displays the appropriate name in the subject field. The email subject line would look similar to this: "Comment on Task 123 on Project ABC." 
 
-If added to a project conversation an email with the second subject will generate. Here the subject line contains “topReferenceObject:name” and again Workfront identifies which object was referenced and will return that object name instead of “topReferenceObject:name” in the subject. The email subject line would look similar to this: "Comment on Project ABC."
+If added to a project conversation an email with the second subject will generate. Here the subject line contains "topReferenceObject:name" and again Workfront identifies which object was referenced and will return that object name instead of "topReferenceObject:name" in the subject. The email subject line would look similar to this: "Comment on Project ABC."
 
 To edit the email subject lines and add additional fields to either subject lines, see [Customize email subject lines for event notifications](#customize-email-subject-lines-for-event-notifications) in this article.
 

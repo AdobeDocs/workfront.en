@@ -3,7 +3,7 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Create Routing Rules
 description: Routing Rules control what Adobe Workfront does with issues when they are submitted to a Request Queue. For more information about creating Request Queues, see Create a Request Queue.
-author: Alina
+author: Lisa
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
@@ -18,6 +18,8 @@ Routing rules control what Adobe Workfront does with issues when they are submit
 Routing rules send issues to specific users or job roles best equipped to resolve the submitted issue or request. Routing rules are usually associated with queue topics, which are used to control which routing rule will be applied to the issue or request.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <!--drafted - replace the table at P&P:
 
@@ -67,17 +69,19 @@ You must have the following access to perform the steps in this article:
     <p>Current: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
+   <td role="rowheader">Access level configurations</td>
    <td> <p>Edit access to Projects</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p> Manage permissions to the project</p> </td> 
+   <td> <p> Manage permissions to the project</p> </td>
   </tr> 
  </tbody> 
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Create a Routing Rule
 

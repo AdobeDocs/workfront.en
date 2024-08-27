@@ -3,9 +3,9 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
-title: Actions to take after installing a blueprint
+title: Actions to Take after Installing a Blueprint
 description: This article outlines what you should do after you install a blueprint in [!DNL Adobe Workfront] to fully deploy the blueprint to your system users.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e5da58f-105a-4edf-8fc1-65e8762d43c6
@@ -91,4 +91,4 @@ The introduction of a new dashboard and its reports may make it possible to reti
 
 ### Distribute custom data to relevant forms
 
-Some reports included in a dashboard blueprint have custom data fields in either the view, filter, or grouping of the report. In some cases, the blueprint will also have a form that these fields are associated with. However, more often than not, the custom fields are not applied to a custom form. For the columns, filters, or groupings to work correctly, these fields must be associated with forms that are connected to a user, project, task, or other object record. For information, see [Add a custom field to a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
+Some reports included in a dashboard blueprint have custom data fields in either the view, filter, or grouping of the report. In some cases, the blueprint will also have a form that these fields are associated with. However, more often than not, the custom fields are not applied to a custom form. For the columns, filters, or groupings to work correctly, these fields must be associated with forms that are connected to a user, project, task, or other object record. For information, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

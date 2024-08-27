@@ -19,34 +19,35 @@ You may remove a project from a program by doing one of the following:
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>[!UICONTROL Business] or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td><p>New: Standard</p> 
+   <p>Current: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>[!UICONTROL Edit] access to Portfolios, Programs , and Projects</p> <p>You must have [!UICONTROL Delete] access to Projects to delete projects.</p> <p><b> NOTE</b>
-
-If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td>
+   <td role="rowheader">Access level</td> 
+   <td> <p>[!UICONTROL Edit] access to Portfolios, Programs , and Projects</p> <p>You must have [!UICONTROL Delete] access to Projects to delete projects.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>[!UICONTROL Manage] permissions to the portfolio, the program, and the project</p> <p>You must have [!UICONTROL Delete] permissions to the project to delete it. </p> <p>After you create a program, you have [!UICONTROL Manage] permissions to it, by default.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio, the program, and the project</p> <p>You must have [!UICONTROL Delete] permissions to the project to delete it. </p> <p>After you create a program, you have [!UICONTROL Manage] permissions to it, by default.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
+
++++
 
 ## Remove a project from a Program
 

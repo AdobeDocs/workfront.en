@@ -1,5 +1,5 @@
 ---
-title: Configure the [!DNL SharePoint] integration
+title: Configure the [!DNL SharePoint] Integration
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
@@ -35,6 +35,8 @@ This integration is compatible only with [!DNL SharePoint Online]. On-premise in
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -57,6 +59,8 @@ You must have the following to perform the steps in this article:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisites
 

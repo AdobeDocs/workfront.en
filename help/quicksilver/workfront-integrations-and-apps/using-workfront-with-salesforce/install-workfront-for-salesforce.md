@@ -24,6 +24,8 @@ For a general understanding about what you can expect by installing [!DNL Workfr
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to use the functionality described in this article:
 
 <table style="table-layout:auto"> 
@@ -41,6 +43,8 @@ You must have the following access to use the functionality described in this ar
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisites for Installing and Using [!DNL Workfront for Salesforce] {#prerequisites-for-installing-and-using-workfront-for-salesforce}
 
@@ -69,11 +73,11 @@ To install the app before it's available:
 
 1. In your Production environment, go to
 
-   [https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002SE0r](https://login.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002SE0r)
+   [https://login.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqk](https://login.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqk)
 
    In your Sandbox environment, go to
 
-   [https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002SE0r](https://test.salesforce.com/packaging/installPackage.apexp?p0=04t4K000002SE0r)
+   [https://test.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqk](https://test.salesforce.com/packaging/installPackage.apexp?p0=04tJ9000000HCqk)
 
    >[!NOTE]
    >
@@ -185,5 +189,41 @@ To install the app before it's available:
 
    The [!DNL Workfront] app is now installed on your [!DNL Salesforce] instance, and the **[!DNL Workfront]** component is now added to your environment.
 
-   [!UICONTROL Salesforce] users can use the [!DNL Workfront] app once you add the [!DNL Workfront] section to their [!UICONTROL Opportunity] or [!UICONTROL Account] page layouts.\
+      [!UICONTROL Salesforce] users can use the [!DNL Workfront] app once you add the [!DNL Workfront] section to their [!UICONTROL Opportunity] or [!UICONTROL Account] page layouts.\
    For information about configuring the [!DNL Workfront] section for users, see [Configure the [!DNL Adobe Workfront] section for [!DNL Salesforce] users](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md). 
+
+## Configure permissions for the Workfront for Salesforce integration
+
+### Permissions for `workfront_business`
+
+1. Navigate to **Setup** > **Security** > **Trusted URLs**.
+1. Select `workfront_business` from the list.
+1. Click **Edit**. 
+1. Under CSP Directives check the following options:
+
+   * connect-src (scripts)
+   * font-src (fonts)
+   * frame-src (iframe content)
+   * img-src (images)
+   * media-src (audio and video)
+   * style-src (stylesheets)
+
+1. Click **Save**. 
+
+
+### Permissions for workfront_session
+
+1. Navigate to **Setup** > **Security** > **Trusted URLs**.
+1. Select `workfront_session` from the list.
+1. Click **Edit**.
+1. Under CSP Directives check the following options:
+
+   * connect-src (scripts)
+   * font-src (fonts)
+   * frame-src (iframe content)
+   * img-src (images)
+   * media-src (audio and video)
+   * style-src (stylesheets)
+
+1. Click **Save**. 
+

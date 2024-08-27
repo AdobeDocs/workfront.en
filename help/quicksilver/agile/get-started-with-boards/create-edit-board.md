@@ -1,7 +1,7 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Create or edit a board
+title: Create or Edit a Board
 description: From the [!UICONTROL boards] dashboard, you can create a new board or edit an existing board.
 author: Lisa
 feature: Agile
@@ -14,6 +14,8 @@ exl-id: 5f755177-c8ea-4509-a34f-57ffcfd8ba7f
 From the [!UICONTROL boards] dashboard, you can create a new board or edit an existing board.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -36,6 +38,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Create a new board
 
@@ -64,7 +68,7 @@ For more detail about the information in this table, see [Access requirements in
 
       >[!NOTE]
       >
-      >If you have over 1,000 cards on the board, the board performance will be affected.
+      >The card limit for dynamic boards is 700 tasks and 700 issues, for a total of 1,400 cards. High numbers of cards on the board can affect the board performance. All archived cards, both hidden and visible, count toward this limit.
 
    1. (Optional) Select [!UICONTROL **Do not archive completed cards**] to bring completed tasks and issues onto the board as visible cards in the Completed column. When this option is not selected, completed cards at the time of board creation are brought onto the board as archived cards.
    
@@ -75,6 +79,8 @@ For more detail about the information in this table, see [Access requirements in
    1. (Optional) Click [!UICONTROL **Use advanced filters**] to display additional filter options.
 
       This is the same process as creating a filter on an intake column. For more information, see [Add an intake column to a board](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+
+      If you update the filters on a dynamic board after it is created, card settings that are not part of the Workfront task or issue (such as tags) are reset.
 
    1. After adding the filters, click [!UICONTROL **Create board**].
 
@@ -101,3 +107,4 @@ For more detail about the information in this table, see [Access requirements in
 1. Click **[!UICONTROL All Boards]** to return to the boards dashboard.
 
    You can also locate the drop-down menu labeled with the name of the current board, and click it to switch to another board.
+

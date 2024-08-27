@@ -63,3 +63,9 @@ To create a connection inside a [!DNL Workfront Fusion] module:
 1. Click **[!UICONTROL Continue]**.
 1. In the sign-in window that displays, enter your credentials to log in to the app if you haven't already done so.
 1. (Conditional) If an **[!UICONTROL Allow]** button displays, examine the actions that the connector will be able to take, then click the button to connect the app to [!DNL Workfront Fusion].
+
+   >[!NOTE]
+   >
+   >Some Microsoft apps use the same connection, which is tied to individual user permissions. Therefore, when creating a connection, the permissions consent screen displays any permissions that were previously granted to this user's connection, in addition to any new permissions needed for the current application. 
+   >
+   >For example, if a user has "Read table" permissions granted via the Excel connector and then creates a connection in the Outlook connector to read emails, the permissions consent screen will show both the already granted "Read table" permission and the newly required "Write email" permission.

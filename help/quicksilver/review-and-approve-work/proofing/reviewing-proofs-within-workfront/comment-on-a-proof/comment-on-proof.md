@@ -2,14 +2,14 @@
 content-type: reference
 product-area: documents
 navigation-topic: review-proofs-within-workfront
-title: Comment on a proof overview
+title: "Comment on a proof overview: article index"
 description: Comment on a proof
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 526d4f65-54c1-480c-ab7b-f207b74cafbf
 ---
-# Comment on a proof
+# Comment on a proof: article index
 
 * [Comment on a proof](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/comment-on-proof-1.md) 
 * [View and reply to proof comments](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/view-proof-comments.md) 

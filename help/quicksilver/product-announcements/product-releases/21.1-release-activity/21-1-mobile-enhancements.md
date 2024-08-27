@@ -21,8 +21,6 @@ We've added breadcrumb navigation to the Workfront mobile app. Now, you can use 
 
 You can now use rich text formatting in custom form text fields in the Workfront mobile app.
 
-For more information on how to create a custom form with text fields, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
-
 ## SSO users can now re-login to the Workfront app with Face ID or Fingerprint technology
 
 If your organization uses SSO, you can now use your Face ID or Fingerprint to login to the Workfront mobile app after your session as timed out. You must log in with your SSO credentials initially though.

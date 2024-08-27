@@ -2,7 +2,7 @@
 product-area: projects;templates
 navigation-topic: create-projects
 title: Create a project using a template
-description: You can use templates as a framework to create projects in Adobe Workfront. If you have projects that repeat often, using templates for the general timeline of the new project saves you from having to build the same projects repeatedly.
+description: You can use templates as a framework to create projects in Adobe Workfront. If you have projects that repeat often, using templates for the new project saves you from having to build the same projects repeatedly.
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
@@ -37,36 +37,7 @@ You have the following options for creating a project from a template:
 
 ## Access requirements
 
-<!--drafted for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Workfront license*</td> 
-   <td> <p>Current license: Standard </p>
-   Or
-   <p>Legacy license: Plan </p>
-    </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects and to Templates</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information about access to projects, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md" class="MCXref xref">Grant access to projects</a>. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to a template</p> <p>When you create a project you automatically receive Manage permissions to the project </p> <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -79,27 +50,39 @@ You must have the following access to perform the steps in this article:
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Workfront license</td> 
+   <td role="rowheader">Workfront license*</td> 
    <td> <p>New: Standard</p>
         <p>or</p>
         <p>Current: Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>Edit access to Projects and to Templates</p> </td> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>Edit access to Projects and to Templates</p>
+   
+   <p>edit access to Portfolios and Programs, if the template you use contains a Portfolio and a Program</p>
+   
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions to a template</p> <p>When you create a project, you automatically receive Manage permissions to the project.</p></td> 
+   <td> <p>View permissions to a template</p> 
+  <p>If the template you use contains a Portfolio and a Program, you must have Manage permissions to the portfolio and program to create the project </p> 
+   <p>When you create a project, you automatically receive Manage permissions to the project.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Create a project from a template in the Projects area
 
-You can create a project from the Projects area in the Main Menu , or from the Projects area of a portfolio or a program.
+You can create a project from the Projects area in the Main Menu, or from the Projects area of a portfolio or a program.
+
+>[!NOTE]
+>
+>Your system or group administrator might modify your interface using a layout template. In this case, some of the names of the sections and areas referred to in the following steps might be different in your instance of Workfront. 
 
 1. Do one of the following:
 

@@ -69,6 +69,12 @@ To use [!DNL Microsoft Dynamics] 365, you must have a [!DNL Microsoft Dynamics 3
 
 You can create a connection to your [!DNL Microsoft Dynamics 365] account directly from inside an [!DNL Microsoft Dynamics 365] module.
 
+>[!NOTE]
+>
+>Some Microsoft apps use the same connection, which is tied to individual user permissions. Therefore, when creating a connection, the permissions consent screen displays any permissions that were previously granted to this user's connection, in addition to any new permissions needed for the current application. 
+>
+>For example, if a user has "Read table" permissions granted via the Excel connector and then creates a connection in the Outlook connector to read emails, the permissions consent screen will show both the already granted "Read table" permission and the newly required "Write email" permission.
+
 1. In any [!DNL Microsoft Dynamics 365] module, click **[!UICONTROL Add]** next to the [!UICONTROL Connection] field.
 1. Enter a name for the connection.
 1. In the **[!UICONTROL Resource]** field, enter the address of your [!DNL Dynamics 365] account, without `https://`.
@@ -180,9 +186,13 @@ When you are configuring this module, the following fields display.
    <td role="rowheader">[!UICONTROL Entity Type]</td> 
    <td>Select the type of entity that you want the module to create.</td> 
   </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select Fields to Map]</td> 
+   <td>Select the fields that you want to include values for when the record is created. Available fields depend on the entity type.</td> 
+  </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Property fields]</td> 
-   <td>In these fields, enter the value that you want the work item to have for a given property. Available fields depend on the entity type.</td> 
+   <td> These are the fields that you selected. Enter the value that you want the record to have for a given property. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -315,9 +325,13 @@ When you are configuring this module, the following fields display.
    <td role="rowheader">[!UICONTROL Entity Type]</td> 
    <td>Select the type of entity that you want the module to update.</td> 
   </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Select Fields to Map]</td> 
+   <td>Select the fields that you want to include values for when the record is created. Available fields depend on the entity type.</td> 
+  </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Property fields]</td> 
-   <td>In these fields, enter the value that you want the work item to have for a given property. Available fields depend on the entity type.</td> 
+   <td>These are the fields that yous selected. Enter the value that you want the record to have for a given property.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL ID]</td> 

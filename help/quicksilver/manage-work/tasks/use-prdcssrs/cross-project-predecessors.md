@@ -29,6 +29,8 @@ For more information about predecessor relationships, see [Overview of task pred
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -40,14 +42,14 @@ You must have the following access to perform the steps in this article:
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
    <td> <p>New: Standard </p> 
    Or
    <p>Current: Plan </p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader">Access level</td> 
    <td> <p>Edit access to Tasks and Projects</p> </td> 
   </tr> 
   <tr> 
@@ -57,8 +59,9 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
 
 ## Create a cross-project predecessor
 
@@ -70,7 +73,7 @@ For more detail about the information in this table, see [Access requirements in
 1. In the **Tasks** field, begin typing the name of the task that you want to be the predecessor to your current task.
 1. Specify the following information for defining the relationship between the predecessor and dependent task:
 
-   * **Dependency Type:** Select the relationship that you want the predecessor task to have with the dependent task. The default relationship is "Finish-Start," meaning that the predecessor task must finish before the dependent task can start. For more information about the various dependency types, see [Overview of task dependency types](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md)
+   * **Dependency Type:** Select the relationship that you want the predecessor task to have with the dependent task. The default relationship is "Finish-Start," meaning that the predecessor task must finish before the dependent task can start. For more information about the various dependency types, see [Overview of task dependency types](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
    
    * **Lag:** Specify the amount of time that must pass after the completion of an enforced predecessor until the dependent task can begin. For more information about the various types of lag, see [Lag Types overview](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
    

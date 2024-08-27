@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: manage-projects
-title: Edit projects
-description: You can edit a project in Adobe Workfront as often as needed. Ideally, you should edit a project when the project is in the Planning status.
+title: Edit Projects
+description: You can edit a project in Adobe Workfront as often as needed. Ideally, you should edit a project when the project is in the Planning status. This article describes how you can search for, find, and edit a project, if you have the permissions to do so. 
 author: Alina
 feature: Work Management, Projects
 role: User
@@ -10,7 +10,7 @@ exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
 ---
 # Edit projects
 
-<!--Audited: 01/2024-->
+<!--Audited: 07/2024-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
@@ -32,6 +32,8 @@ Ideally, you should edit a project when the project is in the Planning status. F
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -41,7 +43,7 @@ Ideally, you should edit a project when the project is in the Planning status. F
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
    <td><p>New: Standard </p> 
    Or
    <p>Current: Plan </p> </td> 
@@ -54,12 +56,14 @@ Ideally, you should edit a project when the project is in the Planning status. F
    <td role="rowheader">Object permissions</td> 
    <td> 
      <p>Manage permissions to a project </p> 
-     <p> For information about project permissions, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Share a project in Adobe Workfront</a>.</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+     </td> 
   </tr> 
  </tbody> 
 </table>
 
-For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Limitations for editing projects
 
@@ -232,11 +236,17 @@ For information about creating a project from a template, see [Create a project 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Portfolio</strong></td> 
-         <td>Indicate a Portfolio that the project belongs to. You must create a Portfolio first, before it appears in the drop-down list. Only active portfolios can be associated with a project. For more information about creating portfolios, see <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Create a portfolio </a>.</td> 
+         <td>Indicate a Portfolio that the project belongs to. You must create a Portfolio first, before it appears in the drop-down list. Only active portfolios can be associated with a project. For more information about creating portfolios, see <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Create a portfolio </a>.
+         <p><b>NOTE</b></p>
+         <p>You must have Manage permissions to the portfolio to be able to add or remove it to the project.</p>
+      </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Program</strong></td> 
-         <td> <p>If you selected a Portfolio for the project, specify a Program for the project. Some Portfolios might not have Programs. You must create a Program first, before it appears in this drop-down list. Only active programs can be associated with a project. </p> <p>For more information about creating programs, see <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Create a program</a>.</p> </td> 
+         <td> <p>If you selected a Portfolio for the project, specify a Program for the project. Some Portfolios might not have Programs. You must create a Program first, before it appears in this drop-down list. Only active programs can be associated with a project. </p> <p>For more information about creating programs, see <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Create a program</a>.</p> 
+      <p><b>NOTE</b></p>
+         <p>You must have Manage permissions to the program to be able to add or remove it to the project.</p>   
+      </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Group</strong></td> 
@@ -246,7 +256,6 @@ For information about creating a project from a template, see [Create a project 
          <li> <p>When the project is created from a group's main page in the Setup area, that group is associated with the project.</p> </li> 
          </ul> </p> <p> <img src="assets/group-details-widget-350x351.png" style="width: 350;height: 351;"> </p> 
          <p><b>NOTES</b></p>
-         
          <ul>
          <li><p>If the project, or its tasks or issues are associated with a group-level custom Status, changing the Group of the project might cause the Status of the project, tasks, or issues to change to match the new group.</p></li>
          <li><p>If the project, or its tasks or issues are already associated with a group-level approval process using group-level custom statuses, changing the group might create a conflict between the approval statuses of the previous group and those existing at the system level.</p>
@@ -312,7 +321,7 @@ When selecting more than one project to edit them in bulk, the following scenari
 For information about custom form access, see the following articles: 
 
 * [Share a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
-* [Add a section break to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md) 
+* [Organize and preview a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
 
 To edit information on custom forms when editing a project:
 
@@ -325,7 +334,7 @@ To edit information on custom forms when editing a project:
 
    >[!NOTE]
    >
-   >You must build the custom forms before they are available to select in this field. Only active custom forms appear in the list. For more information about building custom forms, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). You can add up to ten custom forms to a project. 
+   >You must build the custom forms before they are available to select in this field. Only active custom forms appear in the list. For more information about building custom forms, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). You can add up to ten custom forms to a project. 
 
 
 1. (Conditional) If you attached a custom form to the project, edit any fields on the form. You must specify all required fields before you can save the project.
@@ -547,7 +556,7 @@ For information about how these settings affect creating new tasks, see the sect
    * When you select multiple projects from the same group, both system-level and group-specific task approval processes display in this field.
    * When you select multiple projects from different groups, only system-level task approval processes display in this field.
 
-1. In the **Task Default Custom Forms** box, select the custom form or forms that you want to associate with all new tasks when you add them to the project. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list. For more information about building custom forms, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md). You can associate up to ten custom forms with a task.
+1. In the **Task Default Custom Forms** box, select the custom form or forms that you want to associate with all new tasks when you add them to the project. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list. For more information about building custom forms, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). You can associate up to ten custom forms with a task.
 1. (Optional) Select **Use Work Effort to automatically calculate task Planned Hours** if you want to enable managing task effort by using Work Effort instead of Planned Hours.
 
    ![](assets/nwe-work-effort-on-projects-350x182.png)
@@ -647,6 +656,22 @@ For information about how these settings affect creating new tasks, see the sect
    </table>
 
 1. Click **Save**.
+
+### Linked folders
+
+Linked folder functionality automatically creates folders in Adobe Experience Manager Assets, and connects these folders to Workfront. 
+
+This section appears only if all of the following apply:
+
+* Your organization has been migrated to the Adobe Admin Console
+* Your organization has enabled and configured an integration with Adobe Experience Manager
+* The template used to create this project has enabled and configured linked folders.
+
+For instructions on editing Linked folders, see [Edit workflow values in a project](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) in the article Use workflows in the Experience Manager Assets integration.
+
+>[!NOTE]
+>
+>Because linked folders are created when the project is created, editing the linked folder workflow on an existing project is ineffective. Editing these values when creating a project functions as expected.
 
 ## Edit a project in the project header (limited)
 

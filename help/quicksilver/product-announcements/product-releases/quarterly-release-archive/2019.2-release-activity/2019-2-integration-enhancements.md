@@ -1,0 +1,38 @@
+---
+content-type: release-notes
+navigation-topic: 2019-2-release-activity
+title: 2019.2 Integration and Mobile enhancements
+description: This page describes all Integration and Mobile enhancements included with the 2019.2 release. The functionality is planned to be available in the Production environment the week of May 20, 2019.
+author: Luke
+feature: Product Announcements, Workfront Integrations and Apps
+recommendations: noDisplay, noCatalog
+exl-id: ad2ca56c-27cf-4238-84dc-08ce575d2bec
+---
+# 2019.2 Integration and Mobile enhancements
+
+This page describes all Integration and Mobile enhancements included with the 2019.2 release. The functionality is planned to be available in the Production environment the week of May 20, 2019.
+
+For a list of all changes made in 2019.2, see [2019.2 Release Activity Overview](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+
+## Workfront for Microsoft Teams Improvements
+
+You can now do the following when using Workfront for Microsoft Teams:
+
+* Submit Workfront requests
+
+  For information, see "Submitting Workfront Requests from Microsoft Teams."
+
+* Manage your Workfront notification settings for Microsoft Teams
+
+  Prior to this enhancement, you could not disable any of the Workfront notifications in Microsoft Teams.
+
+  For information, see [Managing Workfront Notifications and Approval Requests in Microsoft Teams](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
+
+## Updated Workfront for Adobe Creative Cloud Integration
+
+The Workfront for Adobe Creative Cloud extension now includes the integration with Workfront Library. You can now access assets saved in Workfront Library from Adobe Creative Cloud applications using the Workfront for Adobe Creative Cloud extension.
+
+## Improved List Experience in iOS and Android
+
+The look and feel for all list views are now updated in both the iOS and Android apps. This new look allows you to quickly identify the items in your list on each tab as well as expand collapse groupings from the Home tab.
+

@@ -90,7 +90,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Agile Team]</td> 
-   <td>Differs a from traditional team because they take their prospective work from a backlog and work on it within a set period of time that is called an [!UICONTROL Iteration].</td> 
+   <td>Differs from a traditional team because they take their prospective work from a backlog and work on it within a set period of time that is called an [!UICONTROL Iteration].</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL All My Teams]</td> 
@@ -247,6 +247,19 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>[!UICONTROL Baseline]</td> 
    <td>A source of data to measure iterations against in an agile environment.</td> 
   </tr> 
+
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Billable Expense]</td> 
+   <td> <p>An expense that is marked as billable to the customer. This can be either a planned expense or an actual expense.</p> <p>The Planned Billable Expense Cost and Actual Billable Expense Cost fields are available for you to add to views and reports. They do not appear on the project or task details pages.</p>
+   <p>You can find these fields in the following types of reports:</p>
+   <ul>
+   <li>Baseline</li>
+   <li>Template</li>
+   <li>Project (Financial Data)</li>
+   </ul>
+   <p>For more information about marking an expense as billable, see <a href="/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md">Manage project expenses</a>.</p>
+   </td> 
+  </tr>
   
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Billing Record]</td> 
@@ -284,7 +297,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   <tr> 
    <td>[!UICONTROL Budgeted Completion Date]</td> 
    <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that [!DNL Workfront] has removed. This field cannot be updated. </p>
-   <p> This field is still visible in [!UICONTROL project] and [!UICONTROL tasks] reports and lists.</p>  </td> 
+   <p> This field is still visible in [!UICONTROL project] reports and lists.</p>  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Budgeted Cost]</td>
@@ -424,7 +437,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>[!UICONTROL Budgeted Start Date]</td> 
   <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that [!DNL Workfront] has removed. This field cannot be updated.</p>
   <p>These areas have been removed from [!DNL Workfront]. </p> 
-  <p>The field is still visible in [!UICONTROL project] and [!UICONTROL task] reports and lists.</p>
+  <p>The field is still visible in [!UICONTROL project] reports and lists.</p>
    <!--
    <p>This field shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.</p>
    -->   
@@ -1299,6 +1312,20 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>In a [!UICONTROL Journal Entry] report, this displays the updated value of a field that replaces the [!UICONTROL Old Number Value].
    For more information, see "[!UICONTROL Old Number Value]" in this article.</td> 
   </tr>
+
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Non-Billable Expense]</td> 
+   <td> <p>An expense that is not marked as billable to the customer. This can be either a planned expense or an actual expense.</p> <p>The Planned Non-Billable Expense Cost and Actual Non-Billable Expense Cost fields are available for you to add to views and reports. They do not appear on the project or task details pages.</p>
+   <p>You can find these fields in the following types of reports:</p>
+   <ul>
+   <li>Baseline</li>
+   <li>Template</li>
+   <li>Project (Financial Data)</li>
+   </ul>
+   <p>For more information about marking an expense as billable, see <a href="/help/quicksilver/manage-work/projects/project-finances/manage-project-expenses.md">Manage project expenses</a>.</p>
+   </td> 
+  </tr>
+
   <tr> 
    <td>[!UICONTROL Non Work Day]</td> 
    <td>A day that is not allocated to the completion of any assignments. This is usually a vacation day, holiday, or weekend. The term display in the API explorer. </td> 
@@ -1498,7 +1525,7 @@ The designated full time equivalency for users. A full-time user should have 100
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Completion Date]</td> 
-   <td> <p>You can manually set the [!UICONTROL Planned Completion Date] to a date of your choosing. If you do not set the [!UICONTROL Planned Completion Date], [!DNL Workfront] sets it automatically. When set automatically, the [!UICONTROL Planned Completion Date] is: [!UICONTROL Planned Start Date] + [!UICONTROL Duration]</p> <p>For more information, see the following articles:</p> 
+   <td> <p>You can manually set the [!UICONTROL Planned Completion Date] of a task, project, or issue to a date of your choosing. If you do not set the [!UICONTROL Planned Completion Date], [!DNL Workfront] sets it automatically. When set automatically, the [!UICONTROL Planned Completion Date] is: [!UICONTROL Planned Start Date] + [!UICONTROL Duration]</p> <p>For more information, see the following articles:</p> 
     <ul> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Overview of the task [!UICONTROL Planned Completion Date]</a> </p> </li> 
      <li> <p><a href="../../../manage-work/projects/planning-a-project/project-planned-completion-date.md" class="MCXref xref">Set the project [!UICONTROL Planned Completion Date]</a> </p> </li> 
@@ -1507,6 +1534,19 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL Planned Cost]</td> 
    <td> <p>A total of the [!UICONTROL Planned Labor Cost] and the [!UICONTROL Planned Expense Cost] of the project. This does not include the [!UICONTROL Planned Risk Cost] on the project.  </p> </td> 
+  </tr> 
+
+
+
+  <tr> 
+   <td>[!UICONTROL Planned Date Alignment]</td> 
+   <td> <p>This is an automatic indicator that Workfront assigns projects, tasks, and issues to show when an item will be completed in relation to its Planned Completion Date. </p>
+   <p>The following are possible values for the Planned Date Alignment indicator: </p>
+<ul>
+<li>Will be done on the planned completion date</li>
+<li>Will be done before the planned completion date</li>
+<li>Will be done after the planned completion date</li></ul>
+<p>The Planned Date Alignment is visible in project, task, and issue lists and reports. </p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Duration]</td> 
@@ -1765,10 +1805,21 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>[!UICONTROL Rejection Issue]</td> 
    <td>In a project or a task report, this is the issue that is created when the approval for the project or the task is rejected. For information about rejection issues, see the article <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md" class="MCXref xref">Create an approval process for work items</a>. </td> 
   </tr> 
-  <tr> 
+  
+<tr>
+  <td>Relationship types</td>
+  <td><p>Workfront objects are always connected to each other using one of the following relationship types:</p> 
+  
+  <ul><li> <b>One to many</b>: In this relationship, one object can be connected to multiple other objects of different types. For example one project can have multiple tasks. The Project-Tasks relationship is a one to many relationship. You cannot display this relationship in a report using the Standard interface. You must use text mode reporting to view one to many relationships.</li>
+  <li><b>One to one</b>: In this relationship, one object can only be connected to one other object of a different type. For example, a project can only have one Group. The Project-Group relationship is a one to one relationship. You can display one to one relationships between objects in a Standard report.</li>
+  <li><b>Many to one</b>: In this relationship, multiple objects can be connected to only one other objects of a different type. For example multiple tasks can be connected to the same project. The Tasks-Project relationship is a many to one relationship. You can display many to one relationships between objects in a Standard report. </li>
+  <li><b>Many to many</b>: In this relationship, multiple objects of the same type can be connected to multiple objects of a different type. For example, several users can belong to multiple Other Teams, and the teams can belong to several users. You cannot display this relationship in a report using the Standard interface. You must use text mode reporting to view many to many relationships. </li> </ul>
+  </td></tr>
+<tr> 
    <td>[!UICONTROL Remaining Risk Cost]</td> 
    <td> <p>A project field that shows the difference between the [!UICONTROL Planned Risk Cost] of a project and the total of all [!UICONTROL Actual Costs] of all risks on the project. </p> <p>The [!UICONTROL Remaining Risk Cost] for a project is calculated using on the following formula:</p> <p><code>[!UICONTROL Remaining Risk Cost] = Project [!UICONTROL Planned Risk Cost] - SUM([!UICONTROL Actual Cost] for all risks)</code> </p> </td> 
   </tr> 
+
   <tr> 
    <td>[!UICONTROL Replanning]</td> 
    <td>Changing the dates of a project to repair or overcome problems. For example, a project that has been on hold for several months would need to be replanned to reflect accurate dates. This is a manual operation of adjusting either the dates of the project or those of the tasks. </td> 
@@ -1887,9 +1938,10 @@ The designated full time equivalency for users. A full-time user should have 100
     <ul> 
      <li> <p>[!UICONTROL Actual Cost]: a field on a risk that shows the actual cost for the risk that has occurred. In addition to reports and lists, you can locate it in the [!UICONTROL Edit Risk] box when editing or creating a risk. </p> <p>For project, task, or issue costs, see "[!UICONTROL Actual Cost]" in this article. </p> </li> 
      <li> <p>[!UICONTROL Planned Risk Cost]: a field on the project that shows a total of all [!UICONTROL Potential Risk Costs] for the project. See also "[!UICONTROL Planned Risk Cost]" in this article. </p> <p>For information about Potential Risk Cost, see <a href="../../../manage-work/projects/project-finances/potential-risk-cost.md" class="MCXref xref">Calculate Potential Risk Cost </a>. </p> </li> 
-     <li> <p>[!UICONTROL Remaining Risk Cost]: a field on the project that displays the difference between the total of the [!UICONTROL Actual Costs] of all risks and the [!UICONTROL Planned Risk Cost]. See also "Remaining Risk Cost" in this article. </p> </li> 
+     <li> <p>[!UICONTROL Remaining Risk Cost]: a field on the project that displays the difference between the total of the [!UICONTROL Actual Costs] of all risks and the [!UICONTROL Planned Risk Cost]. See also "Remaining Risk Cost" in this article. </p> </li>
     </ul> </td> 
   </tr> 
+  
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Risk Management]</td> 
    <td>Processes to identify, mitigate, and monitor risk.</td> 

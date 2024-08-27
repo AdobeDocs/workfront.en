@@ -1,13 +1,13 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Create and submit Adobe Workfront requests
+title: Create and Submit Requests
 description: Planned work is represented in Adobe Workfront by projects and tasks. However, you might work in an environment where unplanned work—in the form of random requests—can come in at any time. Workfront provides a workflow to accommodate this type of environment through the use of Request Queues.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
 ---
-# Create and submit Adobe Workfront requests
+# Create and submit requests
 
 <!--Audited: 12/2023-->
 
@@ -32,6 +32,8 @@ You can create a request in the following ways:
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -39,18 +41,18 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
    <td> <p>New: Contributor or higher</p>
    Or
    <p>Current: Request or higher</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to Issues</p>  </td> 
   </tr> 
  </tbody> 
@@ -58,6 +60,7 @@ You must have the following access to perform the steps in this article:
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
 
 ## Prerequisites for using Request Queues
 
@@ -78,7 +81,7 @@ A Workfront administrator must create the following components of a Request Queu
   For more information, see the article [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md).
 
 * (Optional) Request custom form.  
-  For more information, see the article [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  For more information, see the article [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * (Optional) Request approval process.  
   For more information, see the article [Create an approval process for work items](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
@@ -101,14 +104,9 @@ For information about creating requests from existing drafts, see [Create reques
 
 To create a request in the Workfront web app: 
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner.
+{{step1-to-requests}}
 
-   <!--
-   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-   </MadCap:conditionalText>
-   -->
-
-1. Click  **Requests**, then click **New Request** in the upper-right corner of the page.
+1. Click **New Request** in the upper-right corner of the page.
 
    >[!TIP]
    >
@@ -318,11 +316,11 @@ For information about how to enable a Request Queue to receive requests through 
 
 ## Create requests using the Outlook client
 
-You can submit requests using the Outlook client. You can create a new request or you can convert an email into a request. 
+You can submit requests using the Outlook client. You can create a new request or you can convert an email into a request.
 
 For information about submitting requests using the Outlook client, see the article [Create an Adobe Workfront request from an Outlook email](../../../workfront-integrations-and-apps/using-workfront-with-outlook/create-a-wf-request-from-an-outlook-email.md).
 
-## Create requests by using the Workfront mobile app
+## Create requests using the Workfront mobile app
 
 You can submit requests using the mobile app on your smartphone. You can create a new request and submit it to the Request Queues you have access to see in the web application. 
 

@@ -10,6 +10,8 @@ exl-id: 04f7761f-da94-4858-85c5-8dc97bd78bee
 ---
 # Modify multiple user assignments in a task list
 
+<!--Audited: 07/2024-->
+
 <!--
 <p>There is a similar article in Resource Scheduling and a similar one for Issues; when things change, you might need to update all 3</p>
 -->
@@ -24,32 +26,35 @@ For information about assigning a task to one resource in a list, see [Assign ta
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Work or higher</p> </td> 
+   <td> <p>New: Standard</p>
+   <p>Current: Work or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects and Tasks</p> <p>View or higher access to Users</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Projects and Tasks</p> <p>View or higher access to Users</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute or higher permissions to tasks</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Contribute or higher permissions to tasks</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -66,8 +71,8 @@ When assigning users to work, their availability according to their schedules af
 </ul>
 <p><strong>How removing assignees affects task hours and allocation percentages</strong></p>
 <p>(NOTE: move to the new article: /Content/Manage work/Tasks/Assign tasks/modify-task-assignments-overview.htm) </p>
-<p>Removing users can affect task hours and allocation percentages. The effect that removing a user has on the task depends on the Duration Type that was selected for the task. For information about Duration&nbsp;Type, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p>
-<p>When you delete a user from a task with the following Duration&nbsp;Types:</p>
+<p>Removing users can affect task hours and allocation percentages. The effect that removing a user has on the task depends on the Duration Type that was selected for the task. For information about Duration Type, see <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Overview of Task Duration and Duration Type</a>.</p>
+<p>When you delete a user from a task with the following Duration Types:</p>
 <ul>
 <li> <p><strong>Simple:</strong> The planned hours assigned to that user are subtracted from the task's total planned hours.</p> <note type="important">
 <span class="s1">This could negatively affect your project plan because it changes the total planned hours for the task and the project.</span>
@@ -147,7 +152,7 @@ When assigning users to work, their availability according to their schedules af
 
       1. Click **Remove All Existing Assignees**, then click **Yes, Delete All Assignees**.
 
-         This removes not only common assignees (assignees that are displayed in the edit&nbsp;dialog box), but also all assignees on all the selected tasks.
+         This removes not only common assignees (assignees that are displayed in the edit dialog box), but also all assignees on all the selected tasks.
 
       Removing users from tasks can affect task hours and allocation percentages.
       
@@ -159,7 +164,7 @@ When assigning users to work, their availability according to their schedules af
 
      >[!NOTE]
      >
-     >This option can be modified only if the Duration Type is the same across all tasks that are being edited. When the Duration Type is Calculated Work or Effort Driven you can update the Allocation %. When the Duration&nbsp;Type is Simple you can update the Hours. For information about Duration&nbsp;Type, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+     >This option can be modified only if the Duration Type is the same across all tasks that are being edited. When the Duration Type is Calculated Work or Effort Driven you can update the Allocation %. When the Duration Type is Simple you can update the Hours. For information about Duration Type, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
      >
      >
      >If the field is blank, this means that the value is different across tasks; however, you are still able to modify it.

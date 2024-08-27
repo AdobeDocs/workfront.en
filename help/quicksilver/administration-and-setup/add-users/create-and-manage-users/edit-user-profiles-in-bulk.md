@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-title: Edit user profiles in bulk
+title: Edit User Profiles in Bulk
 description: As an Adobe Workfront administrator, you can edit user accounts in bulk.
 author: Lisa
 feature: System Setup and Administration
@@ -32,6 +32,8 @@ You can edit user accounts in bulk. When bulk editing users, only the fields you
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -57,9 +59,11 @@ You must have the following to perform the steps in this article:
  </tbody> 
 </table>
 
++++
+
 ## Edit user accounts in bulk
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 
+{{step-1-to-users}}
 
 1. Select more than one user, then click the Edit icon ![](assets/edit-icon.png).
 
@@ -75,7 +79,6 @@ You must have the following to perform the steps in this article:
        <ul> 
         <li><b>Time Zone:</b> The users' time zone.</li> 
         <li><b>Locale</b>: The users' preferred locale. This affects the format of numbers and dates in the emails that come from Workfront.</li> 
-        <li><b>Show percent complete on update status</b>:   Check this option if you want to display a percent complete bar inside the Update area of all users' tasks, when using the legacy commenting experience. For information, see <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">New commenting experience</a>.</li> 
         <li><b>Send work I assign to myself to my Working On tab</b>: Check this option if you want everything that the users assign to themselves to appear directly on their Working On tab. The default is to list everything assigned to a user on their Work Request tab.</li> 
        </ul> </td> 
      </tr> 
@@ -180,7 +183,7 @@ You must have the following to perform the steps in this article:
        </ul> </p> </li> 
        <li><b>Default Hour Type</b>: Select the default hour type for the users. This is the hour type that is used by default when the users log time.</li> 
        <li> <p><b>Available Hour Types</b>: Select the hour types that should be available to the user. These hour types are visible everywhere in Workfront where the users can log time. A user can only see the hour types that are enabled at the project level as well as the user level.</p> 
-       <p>For more information about what hour types are available to users, see <a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref">Define hour types and availability for timesheets</a>.</p> 
+       <p>For more information about what hour types are available to users, see <a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref">Define hour types and availability</a>.</p> 
        </li> 
        <li> <b>FTE</b>: This is the Full Time Equivalent of the user. Workfront uses this number to calculate the availability of the user based on the Default Schedule only when the Resource Management Preferences at the system level are set to The Default Schedule. 
 
@@ -204,7 +207,7 @@ You must have the following to perform the steps in this article:
        <p>For more information about resource pools, see <a href="../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md" class="MCXref xref"> Resource pools overview </a>.</p> </li> 
        <li><b>Cost Per Hour</b>: The amount of cost per hour for the user. </li> 
        <li><b>Billing Per Hour</b>: The amount of billing per hour for the user.</li> 
-       <li><b>Custom Forms</b>: Associate an existing user custom form with the users. You must create a custom form before you can associate it with a user. Only active custom forms display in the list. For information about creating custom forms, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</li> 
+       <li><b>Custom Forms</b>: Associate an existing user custom form with the users. You must create a custom form before you can associate it with a user. Only active custom forms display in the list. For information about creating custom forms, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Design a form with the form designer</a>.</li> 
        <li><b>Comment</b>: Enter a comment in the field provided. All users selected will receive an in-app notification as well as an email notification with your comment. The comment shows in the Updates tab of the users' profile.</li> 
        </ul> </td> 
      </tr> 

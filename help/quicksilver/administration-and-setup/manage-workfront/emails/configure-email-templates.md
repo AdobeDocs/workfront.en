@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: emails-administration
-title: Configure email templates
+title: Configure Email Templates
 description: As an Adobe Workfront administrator, you can configure email templates to support reminder notifications.
-author: Lisa
+author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
@@ -19,6 +19,8 @@ Without an email template, the reminder notification will be delivered as empty 
 Email templates can be associated with reminder notifications for issues, tasks, projects, and timesheets. When creating email templates, your Workfront administrator can provide content for the email and a subject line.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -44,6 +46,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 *For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
+
++++
 
 ## Create an email template {#create-an-email-template}
 

@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 keywords: SAML 2.0,security,certificate,Admin,Exemption,configure,metadata
 navigation-topic: security
-title: Renew the Adobe Workfront SAML 2.0 metadata certificate
+title: Renew the Adobe Workfront SAML 2.0 Metadata Certificate
 description: The Adobe Workfront servers utilize the SAML 2.0 protocol for authentication and authorization. Once updated, the new certificate remains valid for one year. When it is time for you to renew the certificate on your identity provider, you receive a warning in Workfront alerting you that this change must occur. As a Workfront administrator, you can manage this change at the system level.
 author: Becky
 feature: System Setup and Administration
@@ -32,6 +32,8 @@ You must take action to update the metadata in your identity provider with the i
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
@@ -58,11 +60,13 @@ You must have the following access to perform the steps in this article:
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Configure SAML 2.0 within Workfront
 
 To review the warning message and acknowledge the update of the SAML 2.0 metadata in your identity provider:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **System** > **Single Sign-On**.
 

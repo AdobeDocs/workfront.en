@@ -1,5 +1,5 @@
 ---
-title: Create and manage layout templates
+title: Create and Manage Layout Templates
 user-type: administrator
 content-type: overview
 product-area: system-administration;templates
@@ -33,6 +33,8 @@ Every user's default Workfront layout depends on their access level and license 
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
@@ -58,6 +60,8 @@ For information on how a Workfront administrator can modify your access level, s
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Considerations for creating and managing layout templates
 

@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: single-sign-on-in-workfront
-title: Update users for single sign-on
+title: Update Users for Single Sign-On
 description: You can update users for single sign-on in Workfront.
 author: Becky
 feature: System Setup and Administration
@@ -23,6 +23,8 @@ For more information about integrating Workfront with an SSO system, see [Overvi
 
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article: 
 
@@ -46,6 +48,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## SSO usernames
 
@@ -110,9 +114,9 @@ You can start preparing your import file by building a report of all users in Wo
 
 The process of updating users for SSO either adds the SSO Username field to your Workfront users if one is not present, or updates the value in that field if there is a value already associated with the users.
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Click, **System** then select **Update Users For SSO**.
+1. Click **System**, then select **Update Users For SSO**.
 
 1. Click **Choose File** to browse for the file you prepared.
 

@@ -90,9 +90,11 @@ To log in to [!DNL Workfront] using your SSO username and password:
 
 1. Complete your login.
 
-## Log in to the [!DNL Workfront] mobile app
+## Log in to the [!DNL Workfront] mobile app using company domain
 
-1. Launch the [!DNL Workfront] mobile app, then type your organization's domain.
+1. Launch the [!DNL Workfront] mobile app, then click **Sign in with company domain**.
+
+1. Type your organization's domain.
 
    This is the SAML domain if your organization is using SSO.
 
@@ -100,7 +102,7 @@ To log in to [!DNL Workfront] using your SSO username and password:
    >
    >This is typically your company name. If you are unsure, contact your [!DNL Workfront] administrator.
 
-1. Specify the [!DNL Workfront] URL for your company or the link to your SAML authentication portal.
+<!--1. Specify the [!DNL Workfront] URL for your company or the link to your SAML authentication portal.
 
    The [!DNL Workfront] URL should display in the following format:
    **`yourDomain.my.workfront.com`**
@@ -115,12 +117,32 @@ To log in to [!DNL Workfront] using your SSO username and password:
 
 1. Tap **[!UICONTROL Continue in browser]**.
 1. Specify the **[!UICONTROL Username]** of your [!DNL Workfront] account or SAML user.
-1. Specify the **[!UICONTROL Password]** for your [!DNL Workfront] account or SAML user.
-1. (Optional) Tap the eye icon to display or hide your password.
-1. Tap **[!UICONTROL SIGN IN]**.
+1. Specify the **[!UICONTROL Password]** for your [!DNL Workfront] account or SAML user.-->
 
-   You are signed in.
+1. (Conditional) If you are logging in for the first time, a page requesting permission for the [!DNL Workfront] mobile app to access your account will display. Click **Allow access** to continue.
+
+1. You are redirected to a webpage that allows you to log in identically to the desktop site. This process varies depending on your organization's Workfront configuration, see [Log in to [!DNL Workfront] without SSO](#log-in-to-workfront-without-sso) or [Log in to [!DNL Workfront] with SSO](#log-in-to-workfront-with-sso) above for more information. 
+
+   Once complete, you are redirected by to the mobile app and signed in.
 
 1. Tap **[!UICONTROL Okay, got it]** or **[!UICONTROL GETTING STARTED]** to navigate through the tutorials displayed.
+
+   These tutorials display only the first time you access the app. They display again only when you uninstall and reinstall the [!DNL Workfront] mobile app, or if you log in as another user. After closing out the tutorials, the area that displays is the one that you selected to show
+
+## Log in to the [!DNL Workfront] mobile app using [!DNL Adobe] ID
+
+1. Launch the [!DNL Workfront] mobile app, then click **Sign in with [!DNL Adobe] ID**.
+
+>[!NOTE]
+>
+>For iOS users on IMS, you can select **Sign in with company domain** and use the domain provided by your [!DNL Workfront] administrator to log in using your [!DNL Adobe] ID.
+
+1. Type in your email, then click **Continue**.
+
+1. (Conditional) Select the account you would like to use to log in. Typically, this will be **Company or School Account** if your [!DNL Adobe] ID is associated with an organization. 
+
+1. (Conditional) Select a profile to use if your account is associated with more than one organization.
+
+1. You are now signed in. Tap **[!UICONTROL Okay, got it]** or **[!UICONTROL GETTING STARTED]** to navigate through the tutorials displayed.
 
    These tutorials display only the first time you access the app. They display again only when you uninstall and reinstall the [!DNL Workfront] mobile app, or if you log in as another user. After closing out the tutorials, the area that displays is the one that you selected to show

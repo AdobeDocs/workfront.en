@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-system-defaults
-title: Configure request types
+title: Configure Request Types
 description: While working on a project, you might discover that unexpected events arise. You can log those unexpected events as issues for a particular project or task. You can also submit requests, which are recorded as issues on a project that is designated as a Request Queue. Issues and requests are used considered to be interchangeable in Adobe Workfront.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
@@ -16,6 +16,8 @@ While working on a project, you might discover that unexpected events arise. You
 For information about creating issues in [!DNL Workfront], see [Create issues](../../../manage-work/issues/manage-issues/create-issues.md). For information about creating requests in [!DNL Workfront], see [Create and submit [!DNL Adobe Workfront] requests](../../../manage-work/requests/create-requests/create-submit-requests.md). For information about associating Request Types with projects, see [Define Request Types for a project](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -37,6 +39,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 <!--
 THIS IS DRAFTED IN FLARE
@@ -71,7 +75,7 @@ As a [!DNL Workfront] administrator, you can configure the names of the request 
 
 To customize the names of the request types:
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **[!UICONTROL Project Preferences]** > **[!UICONTROL Statuses]**.
 

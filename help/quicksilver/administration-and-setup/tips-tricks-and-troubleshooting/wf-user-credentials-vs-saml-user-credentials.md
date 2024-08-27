@@ -3,9 +3,9 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: Adobe Workfront user credentials vs. [!DNL SAML] user credentials
-description: After user creation, you can edit the user and enable "Only Allow SAML 2.0 Authentication" so that their user and password are controlled by the SAML system. With this option enabled, the user is only allowed to log in via SAML. When they go to the [!DNL Workfront] URL, they are automatically redirected to the SAML system and prompted for their SAML username and password.
-author: Caroline
+title: Adobe Workfront User Credentials vs. SAML User Credentials
+description: After user creation, you can edit the user and enable "Only Allow SAML 2.0 Authentication" so that their user and password are controlled by the SAML system. With this option enabled, the user is only allowed to log in via SAML.
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: faa55b09-10c3-48e6-8b39-33f9feb0a335

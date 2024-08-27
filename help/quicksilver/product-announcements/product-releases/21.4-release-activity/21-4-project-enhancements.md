@@ -11,7 +11,7 @@ exl-id: 6bcd332e-bd4e-4a74-bae9-9ba507299a51
 
 This page describes all Project enhancements made with the 21.4 release to the Preview environment. These enhancements will be made available in the Production environment the week of October 4, 2021.
 
-For a list of all changes available with the 21.4 release, see [21.4 Release overview](../../../product-announcements/product-releases/21.4-release-activity/21.4-release-overview.md).
+For a list of all changes available with the 21.4 release, see [21.4 Release overview](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
 ## Include images in updates
 
@@ -90,6 +90,4 @@ Viewing and selecting checkbox and radio button options in custom forms just bec
 This does depend on how you position the fields in the custom form—if you place another field in the same row with the checkbox or radio button field, the options might have only enough horizontal space to display in a single column.
 
 For information about filling out a custom form, see [Edit information in custom form fields](../../../workfront-basics/work-with-custom-forms/edit-custom-forms.md).
-
-For information about creating a checkbox or radio button field in a custom form, see the sections [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#create) and [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#configur) in the article [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
 

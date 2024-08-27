@@ -4,13 +4,15 @@ description: When you view a list of your organization's custom forms and the cu
 author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
+hidefromtoc: yes
+hide: yes
 ---
 
 # List and edit custom forms and widgets added to custom forms
 
 When you view a list of your organization's custom forms and the custom fields and widgets that have been added to them, you can use options in the toolbar to edit their properties, limit who they are shared with, copy them, and delete them. You can also view other information in the columns that display, such as which object types each custom form is associated with.
 
-For information about custom fields and widgets in custom forms, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) and [Add or edit an asset widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+For information about custom fields and widgets in custom forms, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Access requirements
 
@@ -47,9 +49,9 @@ You must have the following to perform the steps in this article:
 
    For information about what you can do when you select a custom form in the list, see the following articles:
 
-   * [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md) 
+   * [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
    * [Share a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md) 
-   * [Copy a custom form to create a new one](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/copy-custom-form-to-create-a-new-one.md) 
+   * [Copy a custom form to create a new one](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/list-edit-share-custom-forms-and-custom-fields.md) 
    * [Delete or deactivate a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
 
 1. Click the **Fields** tab.
@@ -69,13 +71,13 @@ You must have the following to perform the steps in this article:
 
    For information about what you can do when you select an item in the list, see the following articles:
 
-   * [Edit properties of a custom field, section break, or widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md) 
-   * [Configure sharing for custom fields and widgets](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/configure-sharing-for-a-custom-field.md) 
+   * [Add or edit a custom field, section break, or widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md) 
+   * [Configure sharing for custom fields and widgets in a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)
    * [Delete a custom field or widget from the system](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 
 1. Select the **Sections** tab, then make sure that **Parameter Group** is selected as the **View** for the list..
 
    All of the section breaks display in this view, along with a list of custom forms that contain each section break.
 
-   For information about editing a custom section that you select in the list, see [Add a section break to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-section-break-to-a-custom-form.md).
+   For information about editing a custom section that you select in the list, see [Organize and preview a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 

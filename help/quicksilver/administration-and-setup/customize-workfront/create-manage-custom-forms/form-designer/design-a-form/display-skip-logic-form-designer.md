@@ -1,5 +1,5 @@
 ---
-title: Add display logic and skip logic with the form designer
+title: Add Display Logic and Skip Logic to a Form
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -7,10 +7,9 @@ description: You can decide which sections of a custom form should be displayed 
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
+exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
 ---
-# Add display logic and skip logic with the form designer
-
-{{highlighted-preview-article-level}}
+# Add display logic and skip logic to a form
 
 You can decide which sections of a custom form should be displayed or skipped based on the choices that a user makes when filling it out.
 
@@ -19,6 +18,8 @@ You can decide which sections of a custom form should be displayed or skipped ba
 >Logic only applies within one form and can't be based on selections from a different form.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -45,6 +46,8 @@ You must have the following to perform the steps in this article:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Display and skip logic icons
 
@@ -112,10 +115,6 @@ Display logic defines which custom fields appear on the form when the user selec
 
    The display logic icons are added to the target field and the defining field in the form designer.
 
->[!NOTE]
->
->Display logic is temporarily unavailable when you preview your form in the form designer.
-
 ## Add skip logic to a custom form
 
 Skip logic defines custom form fields that are skipped when the user selects a specific value in a multiple choice field. Skipped fields are hidden on the form. The logic is applied to the defining field where the selection is made, not to the fields that are skipped.
@@ -146,6 +145,4 @@ Skip logic defines custom form fields that are skipped when the user selects a s
 
    The skip logic icons are added to the target field and the defining field in the form designer.
 
->[!NOTE]
->
->Skip logic is temporarily unavailable when you preview your form in the form designer.
+

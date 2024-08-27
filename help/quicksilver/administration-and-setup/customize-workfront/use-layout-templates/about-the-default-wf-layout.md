@@ -1,5 +1,5 @@
 ---
-title: About the default Adobe Workfront layout
+title: About the Default Adobe Workfront Layout
 user-type: administrator
 content-type: reference;overview
 product-area: system-administration;templates
@@ -52,7 +52,7 @@ The following table shows what left panel items are displayed for each access le
    <td rowspan="2"><strong>Projects</strong> </td> 
    <td><strong>Projects</strong> </td> 
    <td>✔ <br>(Default landing area)</td> 
-   <td><span style="font-weight: 400;"> ✔</span> <br>(Default landing areab)</td> 
+   <td><span style="font-weight: 400;"> ✔</span> <br>(Default landing area)</td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 

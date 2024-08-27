@@ -32,6 +32,8 @@ You can add a custom form only to the types of objects for which the form was cr
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the actions described in this article:
 
 <table style="table-layout:auto"> 
@@ -63,9 +65,11 @@ You must have the following access to perform the actions described in this arti
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Prerequisites
 
-Your Workfront administrator or a user with a Plan license and administrative access to custom forms must create custom forms in your environment before you can add them to objects. For more information, see [Create or edit a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Your Workfront administrator or a user with a Plan license and administrative access to custom forms must create custom forms in your environment before you can add them to objects. For more information, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Add a custom form to an object
 

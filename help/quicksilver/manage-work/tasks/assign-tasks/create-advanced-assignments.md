@@ -10,7 +10,13 @@ exl-id: 09780f78-4eb8-404d-859b-d066d462776d
 ---
 # Create advanced assignments
 
-{{highlighted-preview}}
+<!-- Audited: 07/2024-->
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release, see [Fourth Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 You can manage task or issue assignments by using Advanced Assignments.
 
@@ -20,7 +26,7 @@ You can adjust the following assignment information when making advanced assignm
 * Adjust and redistribute the number of hours each assignee is allocated.
 * Determine which user should be designated as the owner or the Primary assignee of the task or issue.
 * Specify which role each user is fulfilling when working on the task or issue.
-* <span class="preview">Override the billing rate for a job role.</span>
+<!--* <span class="preview">Override the billing rate for a job role.</span>-->
 
 >[!NOTE]
 >
@@ -39,34 +45,35 @@ In addition, you can make advanced assignments in the following areas of Workfro
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Work or higher</p> </td> 
+   <td> <p>New: Standard</p>
+    <p>Current: Work or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Tasks and Issues</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Tasks and Issues</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute or higher permissions to a the task or issue</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Contribute or higher permissions to a the task or issue</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Make advanced assignments
 
@@ -87,7 +94,7 @@ You must have the following access to perform the steps in this article:
 
 1. Click **Advanced**.
 
-   ![](assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
+   <span class="preview">![Click Advanced](assets/assignments-box-in-task-header.png)</span>
 
 1. In the **Search people, role and teams** field, start typing the name of a user, role, or team then click the name when it appears in the drop-down list.
 
@@ -104,18 +111,18 @@ You must have the following access to perform the steps in this article:
    >
    >* When adding a user assignment, notice the avatar, the user's Primary Role, or their email address to distinguish between users with identical names. 
    >Users must be associated with at least one job role to view it as you add them.
-   >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md). 
-   >
-   >
-   >* <span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to override the rate at the assignment level. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+   >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
    >
    >
    >* If a user, job role, or a team was assigned before they were deactivated, they remain assigned to the work item. In this case, we recommend the following: 
    >   
    >   * Reassign the work item to active resources. 
    >   * Associate the users in a deactivated team with an active team and reassign the work item to the active team. 
-   >   
    >
+   
+   <!-- SHOULD BE THIRD BULLET POINT IN TIP TABLE WHEN THIS FEATURE IS RELEASED 
+    * <span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to override the rate at the assignment level. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+    -->
 
 1. For each user in the **Assignee** column, specify the following information:
 
@@ -133,27 +140,22 @@ You must have the following access to perform the steps in this article:
      -->
 
      >[!TIP]
-     >
-     >
-     >   
      >   
      >   * After you manually modify assignment allocations on tasks, the Planned Hours of the tasks might update accordingly. For more information, see the section "Update task Planned Hours when managing user allocations" in the article [Planned Hours overview](../../../manage-work/tasks/task-information/planned-hours.md).
      >   * You cannot manually modify assignment allocations on issues. 
      >   * You cannot manually modify allocations for teams assigned to tasks.
-     >   
-     >
 
    * **Assignee's Role:** Select the role the user should use when fulfilling this assignment.  The Primary Role of the user displays by default. Click in the Assignee's Role box to select another role.  When you assign the task or the issue to a role first, and then add a user who can fulfill that role as a second assignment, the list of suggested users is filtered for the users who can fulfill the roles already assigned to the task and issue.
 
-     ![](assets/advanced-assignments-box-select-a-role-350x243.png)
+     ![Assignee's Role](assets/advanced-assignments-select-role.png)
 
-   <div class="preview">
+   <!--<div class="preview">
 
    * **Location**: The location comes from the rate card, if a rate card attached to the project uses locations with the job roles. The location can't be changed. 
 
    * **Billing Rates**: The billing rate for a user comes from the system rate for the user or their associated job role. The billing rate for a job role comes from the system rate or from the rate card, if a rate card is attached to the project. Existing billing rates are not displayed in this field. Click in the field to change the billing rate for this specific task assignment.
 
-   </div>
+   </div>-->   
 
    * **Duration Type**: This is only available for tasks. Click the name of the Duration Type and select a Duration Type from the drop-down menu. For information about Duration Types, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
    
@@ -163,16 +165,5 @@ You must have the following access to perform the steps in this article:
    
    * **Planned Hours**: When the Duration Type is Calculated Assignment or Simple, update the number of Planned Hours. The allocation percentages or the hours for each resource are distributed evenly as a result. Workfront calculates the Planned Hours when the Duration Type is Calculated Work or Effort Driven. For more information, see [Overview of Task Duration and Duration Type](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
-     Sample image in the Production environment:
-
-     ![](assets/qs-advanced-assignments-box-with-duration-type-and-duration-350x251.png)
-     
-     <div class="preview">
-
-     Sample image in the Preview environment:
-     
-     ![Advanced Assignments](assets/advanced-assignments-location-billing-rates.png)
-
-     </div>
 
 1. Click **Save**.

@@ -10,17 +10,22 @@ exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
 ---
 # Overview of the Adobe Workfront Goals sections
 
-
->[!NOTE]
+>[!IMPORTANT]
 >
 >Your organization must have the following to use the functionality described in this article:
 >
->* A Pro or higher [Adobe Workfront plan](https://www.workfront.com/plans). 
->* An Adobe Workfront Goals license in addition to a Workfront license.
+>* For the new plan and license structure:
 >
->  Contact your Workfront account manager to learn about a Workfront Goals license.
+>   * The Ultimate Workfront plan 
+>    
+>* For the current plan and license structure: 
 >
->For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
+>
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
+> 
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   
 
 After your Workfront administrator has granted you access to Workfront Goals, you can view goals that you or anyone else in your organization created in the Workfront Goals area.
 

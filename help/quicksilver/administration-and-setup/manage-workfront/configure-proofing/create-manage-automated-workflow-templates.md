@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;documents
 navigation-topic: configure-proofing-functionality
-title: Create and manage Automated Workflow templates
+title: Create and Manage Automated Workflow Templates
 description: As an Adobe Workfront administrator, if your organization's content review process is often repeated or content is often reviewed by the same people, you can create Automated Workflow templates that contain those reviewers with proof roles and notification settings that you specify. An Automated Workflow template can be simple with just one or two reviewers or complex with many stages and dependencies.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
@@ -29,7 +29,9 @@ For information about Automated Workflows, see [Automated Workflow overview](../
 
 ## Access requirements
 
-You must have the following:
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -51,6 +53,8 @@ You must have the following:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Create an Automated Workflow template
 

@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
-title: Restore deleted items
-description: If you are a Workfront administrator, you can restore projects, tasks, issues, documents, and templates in Adobe Workfront if they have been deleted in the past 30 days. After 30 days, these items are permanently deleted and cannot be restored. When you restore an object, all of its child objects and fields are also restored. For example, if you restore a project, all tasks, issues, documents, hours, notes, assignments, and custom data in the project are also restored.items
+title: Restore Deleted Items
+description: If you are a Workfront administrator, you can restore projects, tasks, issues, documents, and templates in Adobe Workfront if they have been deleted in the past 30 days. After 30 days, these items are permanently deleted and cannot be restored.
 feature: System Setup and Administration
 author: Lisa
 role: Admin
@@ -32,6 +32,8 @@ A group administrator can also restore these objects for a group they manage.
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -52,6 +54,8 @@ You must have the following to perform the steps in this article:
 </table>
 
 &#42;To find out what plan or license type you have, contact your Workfront administrator.
+
++++
 
 ## Information that is recovered when you restore a project, task, or issue
 

@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Delete a custom field or widget from the system
+title: Delete a Custom Field or Widget from the System
 description: To improve system performance and to make forms easier to use for users, you might want to remove custom fields and widgets from your system when they are no longer being used.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
@@ -15,13 +15,15 @@ To improve system performance and to make forms easier to use for users, you mig
 
 >[!CAUTION]
 >
->Deleting a custom field also deletes all custom data that users have entered in the field when filling out custom forms attached to objects. That deleted data cannot be recovered.
+>Deleting a custom field also deletes all custom data that users have entered in the field when filling out custom forms attached to objects. That deleted data cannot be recovered. Also, there is no notification system to alert people who use the custom form that it was deleted.
 >
 >You can view all custom forms and reports that use a custom field you want to delete in order to assess what the repercussions might be. For more information, see [View all custom forms that use a particular custom field or widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-custom-forms-that-use-a-particular-custom-field.md) and [View all reports that use a particular custom field or widget](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/view-all-reports-that-use-a-particular-custom-field.md).
 >
 >Or, for a workaround you can use to avoid losing data in fields no longer used, see [Remove a custom field without losing data that users have entered](#remove-a-custom-field-without-losing-data-that-users-have-entered) in this article.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -49,6 +51,8 @@ You must have the following to perform the steps in this article:
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Delete a custom field or widget from the system
 
 {{step-1-to-setup}}
@@ -69,8 +73,7 @@ For more detail about the information in this table, see [Access requirements in
 
    1. Add the custom fields to the new form that you want to remove from the original custom form. 
    
-      * If you are using the custom form builder, see [Reuse a custom field or widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/reuse-an-existing-field.md).
-      * If you are used the form designer, see [Add new or existing fields to your custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form).
+      For information, see the section [Add new or existing fields to your custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-new-or-existing-fields-to-your-custom-form) in [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    
    1. Save the new custom form.
 

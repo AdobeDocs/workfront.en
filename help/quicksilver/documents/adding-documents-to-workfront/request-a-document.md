@@ -13,6 +13,9 @@ You can request a document on any object that supports Documents.
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
+
 You must have the following:
 
 <table style="table-layout:auto"> 
@@ -36,7 +39,9 @@ You must have the following:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Requst a document
++++
+
+## Request a document
 
 1. Go to the area where you want the document you are requesting to reside.
 1. Click the **Documents**&nbsp;tab.&nbsp;

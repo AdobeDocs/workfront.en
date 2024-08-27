@@ -359,7 +359,7 @@ For information about the maintenance updates made during the 21.1 release, see 
 
 In an effort to increase successful email delivery, we're adding new IP addresses with the 21.1 Production release for clusters 1, 2, 3, 4, and 5.
 
-For details about which IP addresses you need to add for your cluster, see [New IP addresses for Adobe Workfront email with the 21.1 release](../../../product-announcements/announcements/announcement-archive/new-email-ip-21.1.md).
+For details about which IP addresses you need to add for your cluster, see [New IP addresses for Adobe Workfront email with the 21.1 release](../../../product-announcements/announcements/announcement-archive/new-email-ip-21-1.md).
 
 To find out which cluster you're instance is on, go to Setup > System > Customer Info.
 

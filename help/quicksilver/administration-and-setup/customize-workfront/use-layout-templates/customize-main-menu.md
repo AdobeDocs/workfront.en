@@ -1,5 +1,5 @@
 ---
-title: Customize the Main Menu using a layout template
+title: Customize the Main Menu Using a Layout Template
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -29,6 +29,8 @@ After configuring a layout template, you must assign it to users for changes you
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
@@ -55,6 +57,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 *For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Customize the Main Menu
 

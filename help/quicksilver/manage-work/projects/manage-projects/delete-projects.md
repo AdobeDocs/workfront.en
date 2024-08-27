@@ -10,7 +10,7 @@ recommendations: noDisplay, noCatalog
 ---
 # Delete projects
 
-<!--Audited: 01/2024-->
+<!--Audited: 07/2024-->
 
 You can delete a project if the project and its data are no longer needed.
 
@@ -19,6 +19,10 @@ As an alternative to deleting a project, we recommend editing the project and ch
 You can delete a project in a project list or at the project level.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,9 +34,8 @@ You can delete a project in a project list or at the project level.
   </tr> 
   <tr> 
    <td> <p>Adobe Workfront license*</p> </td> 
-   <td> <p>Current license: Plan </p> 
-   Or
-   <p>New license: Standard </p>
+   <td> <p>New license: Standard </p>
+   <p>Current license: Plan </p> 
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -46,7 +49,9 @@ You can delete a project in a project list or at the project level.
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information about access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Understand the process of deleting projects
 

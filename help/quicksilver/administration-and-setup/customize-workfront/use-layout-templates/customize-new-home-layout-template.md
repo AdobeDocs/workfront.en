@@ -1,5 +1,5 @@
 ---
-title: Customize new Home using a layout template
+title: Customize New Home Using a Layout Template
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -7,6 +7,7 @@ description: You can use a Layout Template to configure what users see when they
 author: Nolan
 feature: System Setup and Administration
 role: Admin
+exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
 ---
 # Customize new Home using a layout template
 
@@ -34,6 +35,8 @@ After configuring a layout template, you must assign it to users for changes you
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
@@ -56,6 +59,8 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
  </tbody> 
 </table>
 
++++
+
 ## Customize new Home using a layout template
 
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
@@ -74,7 +79,14 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
       <p>Select which widgets will be present in users' workspaces, their position, and choose a background. Note that while users cannot remove the selected widgets, they can move and resize them freely as well as add additional widgets.</p>
       <p>This tab essentially functions as a small new Home workspace; as such, it can be customized according to the steps described in <a href="/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Add, edit, or remove widgets in new Home</a>. Select widgets and arrange the workspace as you would like it to appear for users.</p>
       <p>To change the background, follow the steps under <b>Background customization</b> in <a href="/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md" class="MCXref xref">Get started with New Home</a>.</p>
-      </td> 
+      <p>
+
+  >[!NOTE]
+  >
+  >Only moving or resizing widgets in the Layout Template will not trigger users' new Home pages to update their layout. However, adding or removing a widget will trigger an update to users' pages.
+
+  </p>
+     </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Widget settings</td> 
@@ -85,20 +97,33 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
         <li>My tasks</li>
         <li>My issues</li>
       </ul>
-      <p>Once you have selected the widget you would like to edit, available options will display on the right. Currently, these options are <b>Filters</b> and <b>Groups</b>. You can:</p>
+      <p>Once you have selected the widget you would like to edit, available options will display on the right. These options include <b>Filters</b>, <b>Columns</b>, and <b>Groups</b>. You can:</p>
       <ul>
-        <li><b>Select which Filters or Groups will be available to users:</b><p>Check the box next to all options in the list you would like users to be able to use. Unchecked options will not appear for users.</li></p>
-        <li><b>Set a default Filter or Group for the widget:</b><p>Hover your mouse over an option and a button will appear that allows you to set that option as the default for users. The current default will have a blue Default badge to its right.</li></p>
-        <li><b>Add an existing Filter or Group to the list of available options:</b><p>Click the plus sign button at the bottom of each list to add an option to that list. Note that only existing Filters or Groups can be added in this way.</li></p>
-      </ul>
-      </td> 
-     </tr>
-    </tbody> 
-   </table>
+      <li><p><b>Select and order Filters, Columns, or Groups available to users:</b></p>
+      <p>Check the box next to all options in the list you would like users to be able to use. Unchecked options will not appear for users. Drag and drop options in the list to set an order.</li></p>
+      <p>
 
->[!IMPORTANT]
->
->If you set a default filter or grouping for a specific widget using a layout template, it may not take effect immediately due to existing user preferences. To apply the new filter or grouping immediately, either you or the user may need to reset their user preferences by appending "/resetUser" to the end of their URL.
+  >[!IMPORTANT]
+  >
+  >Users must have at least Create access to Views in order for administrator column configuration to properly apply to their new Home pages.
+
+  </p>
+      <li><p><b>Set a default Filter or Group for the widget:</b></p>
+      <p>Hover your mouse over an option and a button will appear that allows you to set that option as the default for users. The current default will have a blue Default badge to its right.</li></p>
+      <li><p><b>Add an existing Filter, Column, or Group to the list of available options:</b></p>
+      <p>Click the plus sign button at the bottom of each list to add an option to that list. Note that only existing Filters, Fields (for Columns), or Groups can be added in this way.</p></li>
+      </ul>
+      <p>
+
+  >[!NOTE]
+  >
+  >If you set a default filter or grouping for a specific widget using a layout template, it may not take effect immediately due to existing user preferences. To apply the new filter or grouping immediately, either you or the user may need to reset their user preferences by appending "/resetUser" to the end of their URL.
+
+  </p>
+  </td> 
+  </tr>
+  </tbody> 
+  </table>
 
 1. Continue customizing the layout template.
 
@@ -106,3 +131,7 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
 
    If you are finished customizing, click **Save** in the bottom-left corner.
 
+
+>[!NOTE]
+>
+>Administrators customizing their own Layout Template will need to refresh the page in order to see changes.

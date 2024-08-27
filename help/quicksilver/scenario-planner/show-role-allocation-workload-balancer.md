@@ -9,9 +9,7 @@ exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
 ---
 # Show role allocation for projects and initiatives in the [!UICONTROL Workload Balancer]
 
->[!IMPORTANT]
->
->Your organization must purchase an additional license for the [!DNL Adobe Workfront Scenario Planner] so that you can view initiative information on a project. For information about obtaining the [!DNL Workfront Scenario Planner], see [Access needed to use the [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).
+<!--Audited: 07/2024-->
 
 After you connect projects and initiatives, you can manage their resource allocation side-by-side to ensure they match. This avoids overallocating or underutilizing them.
 
@@ -21,36 +19,43 @@ For general information about reconciling resources between projects and initiat
 
 ## Access requirements
 
-You need to following: 
++++ Expand to view access requirements for the functionality in this article. 
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> plan*</b> </p> </td> 
-   <td>[!UICONTROL Business] or higher</td> 
+   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <p>Current: [!UICONTROL Business] or higher</p>
+   <p>New: Ultimate </p>
+   </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront]<b> license*</b> </p> </td> 
-   <td> <p>[!UICONTROL Review] or higher</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>New: Light or higher</p> 
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
   </tr> 
   <tr> 
-   <td><b>Product</b> </td> 
-   <td> <p>You must purchase an additional license for the [!DNL Adobe Workfront Scenario Planner] to access functionality described in this article.</p> <p>For information about obtaining the [!DNL Workfront Scenario Planner], see <a href="../scenario-planner/access-needed-to-use-sp.md">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
+   <td>Product* </td> 
+   <td> 
+   <p>For the current Workfront plans: </p>
+   <p>You must purchase an additional license for the [!DNL Adobe Workfront Scenario Planner] to access functionality described in this article.</p> <p>For information about access and permissions for the [!DNL Workfront Scenario Planner], see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><strong>Access level configurations*</strong> </td> 
-   <td> <p>[!UICONTROL View] or higher access to Projects </p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td>Access level </td> 
+   <td> <p>[!UICONTROL View] or higher access to [!UICONTROL Projects]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><strong>Object permissions</strong> </p> </td> 
-   <td> <p>[!UICONTROL View] or higher permissions to the project</p> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md">[!UICONTROL Request] access to a plan in the [!DNL Workfront Scenario Planner]</a>.</p> <p>For information about requesting additional access to a project, see <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>. </p> </td> 
+   <td> <p>Object permissions </p> </td> 
+   <td> <p>[!UICONTROL View] permissions to a project</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+*For information, see [Access requirements to Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Show role allocation for projects and initiatives in the [!UICONTROL Workload Balancer]
 
@@ -127,8 +132,6 @@ If your company has purchased a [!DNL Workfront Scenario Planner] license, you c
    >   * When tasks or issues have a [!UICONTROL Duration] of zero. 
    >   
    >
-
-    
 
 1. (Optional) If the [!UICONTROL Variance] column shows that your resources are overallocated, adjust one of the following:
 

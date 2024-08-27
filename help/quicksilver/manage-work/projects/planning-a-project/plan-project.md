@@ -79,7 +79,7 @@ Consider asking the following questions:
   For more information about defining what updates to track in Workfront, see the article [System-tracked updates](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
 * Is there any information that you are required to track that does not have a field in Workfront to store it in? If yes, create Custom Forms for projects or tasks where you can store this information.  
-  For more information about creating custom forms, see the article [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+  For more information about creating custom forms, see the article [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Are there any approval check points that must be granted before the work on a project can continue? If yes, create Approval Processes for projects or tasks that you can use as you're building your project.  
   For more information about Approval Processes, see the article [Create an approval process for work items](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
@@ -147,5 +147,5 @@ When defining tasks, consider the following:
    * Reduce the Planned Hours of each task.
    * Add more users to a task to ensure it can be completed during the time allocated for it.
    * Reassign the tasks to users who are available with no other constraints.  
-     For more information about planning your project resources, see the article [Resource Planning in Adobe Workfront](../../../resource-mgmt/resource-planning/resource-planning-overview.md).  
+     For more information about planning your project resources, see the article [Resource Planning: article index](../../../resource-mgmt/resource-planning/resource-planning-overview.md).  
      For more information about scheduling your resources to accomplish the work on a project, see [Workload Balancer overview](../../../resource-mgmt/workload-balancer/overview-workload-balancer.md). 

@@ -1,5 +1,5 @@
 ---
-title: View the number of licenses allocated and used in a group
+title: View the Number of Licenses Allocated and Used in a Group
 description: As an Adobe Workfront administrator, you can view counts of the individual types of licenses currently used in your group and its subgroups. This is useful when you need to assess whether to redistribute licenses.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
@@ -17,6 +17,8 @@ If there are any groups above the group you manage, their administrators can als
 >A user's license is counted in a particular group only if the group is the user's Home Group.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -37,9 +39,11 @@ You must have the following to perform the steps in this article:
 
 &#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
 
++++
+
 ## View the number of licenses used in a group
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 

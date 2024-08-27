@@ -36,19 +36,22 @@ You must have the following access to perform the actions described in this arti
 <col>
 </col>
 <tbody>
+ <tr> 
+   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td> 
+   <p>For the new plan and license structure:
+  <ul><li>An Ultimate plan </li>
+  Or
+  <li>An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. </li></ul> </p>
+<p>For the current plan and license structure: 
+<ul><li> A Pro or higher </li>
+  <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
+   </td> 
+  </tr>
  <tr>
- <td role="rowheader">Adobe Workfront plan</td>
+ <td role="rowheader">Adobe Workfront license</td>
  <td>
- <p>Any</p>
- 
- </td>
- </tr>
- <tr>
- <td role="rowheader">Adobe Workfront license*</td>
- <td>
- <p>New license: Contributor or higher</p>
- Or
- <p>Current license: Request or higher</p> </td>
+ <p>Any</td>
  </tr>
  <tr>
  <td role="rowheader">Product*</td>
@@ -59,7 +62,7 @@ You must have the following access to perform the actions described in this arti
  </tr>
  <tr>
  <td role="rowheader">Access level configuration</td>
- <td> <p>View or higher access to Goals</p> <p><b>NOTE</b><p>If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For more information, see <span href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md"><a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md" class="MCXref xref">Grant access to Adobe Workfront Goals</a></span></td>
+ <td> <p>View or higher access to Goals</p> </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">Object permissions</td>
@@ -70,10 +73,15 @@ You must have the following access to perform the actions described in this arti
  <p>For information about sharing goals, see <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Share a goal in Workfront Goals</a>. </p>
   </div> </td>
  </tr>
+ <tr>
+   <td role="rowheader"><p>Layout template</p></td>
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Goals area in the Main Menu. </p>  
+</td>
+  </tr>
 </tbody>
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 ## Prerequisites
 
@@ -92,7 +100,7 @@ This opens the goal list.
 1. Locate the goal you want to add comments to, then click its name to open the goal page. 
 1. Click  **Updates** in the left panel. 
 1. (Optional) To locate an existing comment, start typing a keyword <!--or a user's name--> in the **Search** box in the upper-right corner of the **Comments** tab. 
-
+   
    ![](assets/search-field-in-updates-tab-goals.png)
 
    The keyword <!--or user--> you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
@@ -101,25 +109,24 @@ This opens the goal list.
 
       >[!NOTE]
       >
-      >   You must search for a word included in a comment or reply. You cannot search for a tagged user or team. 
-
+      >You must search for a word included in a comment or reply. You cannot search for a tagged user or team.
    
-   For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
+   For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. Click the **x** icon in the search field to clear the search results and return to the complete up.
+1. Click the **x** icon in the search field to clear the search results and return to the complete update.
 1. Click the **Comments** tab in the upper-left corner of the Updates area.
-1. Start entering a comment in the **New comment** box. 
-   
+1. Start entering a comment in the **New comment** box.
+         
    ![](assets/comment-box-empty-unshimmed.png)
 
    >[!TIP]
    >
-   >Navigating away from the Updates section before you finish typing and submitting a comment keeps the comment on the page in draft mode even after you log off and log back on. Any images that are added to the comment are also saved in the draft. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.
+   >Navigating away from the Updates section before you finish typing and submitting a comment keeps the comment on the page in draft mode even after you log off and log back on. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.
 
 1. (Optional) To undo or redo a change, use the following shortcut keys:
       * CTRL + Z (⌘+z for Mac) to undo a change 
       * CTRL + Y (⌘+y for Mac) to redo a change 
-1. (Optional) To add rich-text formatting to your update, a hyperlink, or an image, use any options on the Rich Text toolbar or the icons adjacent to it. For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+1. (Optional) To add rich-text formatting to your update, a hyperlink, or an emoji, use any options on the Rich Text toolbar or the icons adjacent to it. For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 1. (Optional) In the **Tag people or teams** area, start typing the name or the email of a user, or a team that you would like to include in this comment, then select it when it displays in the list. 
 1. Select the **Private to my company** toggle to make the comment visible only to people in your company. 
 
@@ -134,10 +141,10 @@ This opens the goal list.
       >If another user submits a comment to the same item you are updating, there will be a red line with a "New" indicator to inform you of the newer comments, as well as a blue notification at the bottom of the screen indicating the number of new comments. 
       >
       >The indicator only displays only after the comment was submitted on the item, and not when the comment is still composed. 
-      >![](assets/real-time-new-red-indicator-unified-commenting.png)
+      >![](assets/real-time-new-red-indicator-unified-commenting-copy.png)
       
 1. (Optional) To edit a comment, click the **More** menu ![](assets/more-icon.png) to the right of the Like icon, then click **Edit**. 
-1. Edit the information in the comment, add or remove images, or remove any of the tagged users. 
+1. Edit the information in the comment or remove any of the tagged users. 
    You can edit your comment within 15 minutes from submitting it. An "edited" indicator is added to the left of the date stamp that displays when the comment was updated.
 
    ![](assets/edited-tag-on-comment-unified-commenting.png)
@@ -166,4 +173,5 @@ This opens the goal list.
 1. (Optional) Click the **Like** icon![](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes.
 
 1. (Optional) Click the **System Activity** tab to view updates logged by the system. When a goal is updated, Workfront generates a note about that update that and displays it in the System Activity tab. Workfront also records a system update when a result, activity, or project is added to the goal or when it is updated. <!--ensure the casing on the tab has not changed-->
+
 

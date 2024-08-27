@@ -84,6 +84,8 @@ Consider the following rules when using EXISTS statements in a filter:
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -112,6 +114,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Create complex text mode filters that span multiple levels in the object hierarchy
 
@@ -223,7 +227,9 @@ To filter issues by the Portfolio Owner Name:
 
    `EXISTS:A:$$OBJCODE=<Object code of the Linking Object>`
 
-   `EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object><br>EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
+   `EXISTS:A:<Linking Field on the Linking Object>=FIELD:<Linking Field displayed on the Original Object>`
+   
+   `EXISTS:A:<Target Object>:<Target Field>=<Your value for the Target Field>`
 
 1. Paste the following code in the **Set Filter Rules for your Report** area to replace the generic code above:
 

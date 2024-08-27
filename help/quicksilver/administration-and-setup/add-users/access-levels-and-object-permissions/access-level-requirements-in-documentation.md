@@ -1,5 +1,5 @@
 ---
-title: Access requirements in Workfront documentation
+title: Access Requirements in Workfront Documentation
 content-type: reference
 product-area: system-administration
 keywords: access,level,system,administrator,planner,worker,reviewer,requestor,external,user
@@ -8,6 +8,7 @@ description: Workfront documentation how-to articles contain a table that explai
 author: Becky
 feature: System Setup and Administration
 role: Admin
+exl-id: 39ea0d53-ec31-4644-b772-cfe260b8e013
 ---
 # Access requirements in Workfront documentation
 
@@ -93,5 +94,3 @@ Some rows contain information labeled "New" and "Current." This is because Workf
   </tr> 
  </tbody> 
 </table>
-
-

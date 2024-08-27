@@ -2,8 +2,8 @@
 product-area: resource-management
 navigation-topic: resource-pools
 title: Associate resource pools with users
-description: Associate resource pools with users
-author: Alina
+description: You must create a resource pool before you can associate it with users. You can associate users with resource pools when you are creating your resource pools.
+author: Lisa
 feature: Resource Management
 exl-id: 0816a2d6-2a45-4e01-8ca2-6d0d190b2568
 ---

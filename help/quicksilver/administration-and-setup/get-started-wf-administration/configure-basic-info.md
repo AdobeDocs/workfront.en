@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
-title: Configure basic information for your system
+title: Configure Basic Information for Your System
 description: As part of configuring your Adobe Workfront system, you can manage details about your organization in the Basic Info section of your Customer Info page.
 author: Lisa
 feature: System Setup and Administration
@@ -18,6 +18,8 @@ exl-id: bad5e700-79a6-49ed-bcf9-f0b5b3eaa909
 As part of configuring your Adobe Workfront system, you can manage details about your organization in the Basic Info section of your Customer Info page.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article: 
 
@@ -41,6 +43,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Access Customer Info
 

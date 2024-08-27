@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Configure system-wide project preferences
+title: Configure System-Wide Project Preferences
 description: As an [!DNL Adobe Workfront] administrator, you can configure the default preferences for all projects created throughout the system. These preferences impact project, task, and issue behavior.
 author: Lisa
 feature: System Setup and Administration
@@ -20,6 +20,8 @@ As an [!DNL Adobe Workfront] administrator, you can configure the default prefer
 >By default, these preferences are locked and group administrators cannot modify them at the group level unless you unlock them for all groups throughout the system. For more information, see [Lock or unlock project preferences for all groups in the system](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -44,6 +46,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Configure project preferences for the entire organization
 
@@ -107,7 +111,7 @@ Configure any of the following preferences for newly created projects throughout
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Calculate Percent Complete based on]</td> 
-   <td> <p>The percent complete of a project or parent task is based on the overall progress of the tasks. This information can be calculated based on either the Duration or the Planned Hours of the tasks on a project.</p> <p>If you select [!UICONTROL Duration], the Duration of each task in a project determines the overall percent complete for the project, and the Duration of each subtask determines the overall percent complete for its parent task.</p> <p>If you select [!UICONTROL Duration], make sure you specify the [!UICONTROL Typical hours per work day] and [!UICONTROL Typical work days per week] in the [!UICONTROL Timelines] section. [!DNL Workfront] uses this information when calculating a task's percent complete based on Duration. </p> <p>If you select [!UICONTROL Planned Hours], ensure that all tasks on each project have the amount of [!UICONTROL Planned Hours] defined, and that the amount is not zero.</p> </td> 
+   <td> <p>Workfront calculates the percent complete of a project or parent task using the percent complete of each task in the project and either the Duration or the Planned Hours of each task.</p><p>The percent complete of each task is manually set by task assignees.</p><p>You can select here whether Workfront will use the Duration or the Planned Hours of tasks to calculate the percent complete of projects.</p> <p>If you select [!UICONTROL Duration], the Duration of each task in a project determines the overall percent complete for the project, and the Duration of each subtask determines the overall percent complete for its parent task.</p> <p>If you select [!UICONTROL Duration], make sure you specify the [!UICONTROL Typical hours per work day] and [!UICONTROL Typical work days per week] in the [!UICONTROL Timelines] section. [!DNL Workfront] uses this information when calculating a task's percent complete based on Duration. </p> <p>If you select [!UICONTROL Planned Hours], ensure that all tasks on each project have the amount of [!UICONTROL Planned Hours] defined, and that the amount is not zero.</p><p>For more information, see <a href="/help/quicksilver/manage-work/tasks/task-information/project-percent-complete.md">Project Percent Complete overview</a>.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Automatically set the project's Condition based on the Progress Status]</td> 

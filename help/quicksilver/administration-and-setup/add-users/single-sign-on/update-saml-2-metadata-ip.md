@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: single-sign-on-in-workfront
-title: Update SAML 2.0 metadata in your identity provider
+title: Update SAML 2.0 Metadata in Your Identity Provider
 description: You can update SAML 2.0 metadata in your identity provider.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 75cd0ab5-8d76-40a4-96a8-00e9f0f4fec6
@@ -16,6 +16,8 @@ exl-id: 75cd0ab5-8d76-40a4-96a8-00e9f0f4fec6
 The following sections describe how to update your Security Assertion Markup Language (SAML) 2.0 metadata when using Active Directory Federation Services (ADFS) as your identity provider.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article: 
 
@@ -37,6 +39,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Use ADFS as your identity provider
 

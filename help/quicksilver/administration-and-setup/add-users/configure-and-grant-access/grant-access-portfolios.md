@@ -1,10 +1,10 @@
 ---
-title: Grant access to portfolios
+title: Grant Access to Portfolios
 user-type: administrator
 product-area: system-administration;portfolios
 navigation-topic: configure-access-to-workfront
 description: As an Adobe Workfront administrator, you can use an access level to define a user's access to portfolios in Workfront.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f4a9c4f3-8ed4-4629-aced-9cc09b8acd3f
@@ -14,6 +14,8 @@ exl-id: f4a9c4f3-8ed4-4629-aced-9cc09b8acd3f
 As an Adobe Workfront administrator, you can use an access level to define a user's access to portfolios, as explained in [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md). 
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article: 
 
@@ -35,6 +37,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
  </tbody> 
 </table>
+
++++
 
 ## Configure user access to portfolios using a custom access level
 
@@ -58,7 +62,7 @@ For information about what users in each access level can do with portfolios, se
 
 ## Access to shared portfolios
 
-As the owner or creator of an portfolio, you can share with other users by granting them permissions to it, as explained in [Share a portfolio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+As the owner or creator of an portfolio, you can share with other users by granting them permissions to it, as explained in [Share a portfolio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -74,4 +78,4 @@ When you share any object with another user, the recipient's rights on it are de
 * The permissions that you grant to your recipient for the object
 * The recipient's access level settings for the object's type
 
-For information about permissions users can grant on a portfolio when sharing it, see [Share a portfolio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio..md).
+For information about permissions users can grant on a portfolio when sharing it, see [Share a portfolio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).

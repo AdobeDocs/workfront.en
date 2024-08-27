@@ -19,7 +19,7 @@ The 23.3 release webinar was on June 29, 2023. You can [register for the webinar
 >The 23.3 release includes the option to move your organization to monthly releases. Therefore, Workfront is changing the numbering scheme of releases to account for both monthly and quarterly release tracks.
 >
 >* If you are on the **fast release (monthly)** track, the release after 23.3 will be **23.8**, on August 31, 2023. 
-> * If you are on the **quarterly** release track, the release after 23.3 will be **23.10**, in the week of October 26, 2023.
+>* If you are on the **quarterly** release track, the release after 23.3 will be **23.10**, in the week of October 26, 2023.
 > 
 > Quarterly releases will include functionality from three monthly releases. For example, the 23.10 quarterly release will include functionality released in the 23.8, 23.9, and 23.10 monthly releases.
 >
@@ -383,8 +383,8 @@ The 23.3 release webinar was on June 29, 2023. You can [register for the webinar
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">New G Suite integration now available</a></p> 
-                        <p>A new G Suite integration is now available in the Google Marketplace. The new integration authenticates using OAuth2, and replaces the previous integration.</p><p>The previous G Suite integration is now deprecated, and will be automatically uninstalled.</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">New Google Workspace integration now available</a></p> 
+                        <p>A new Google Workspace integration is now available in the Google Marketplace. The new integration authenticates using OAuth2, and replaces the previous integration.</p><p>The previous Google Workspace integration is now deprecated, and will be automatically uninstalled.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>

@@ -13,7 +13,7 @@ exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
 To aggregate several fields in Adobe Workfront and display that aggregate value in a new field, you can create the following:
 
 * A calculated custom field in a custom form  
-  For more information about adding a calculated custom field to a custom form, see the section [Add a calculated field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md#add-a-calculated-field-to-a-custom-form) in the article [Add calculated data to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+  For more information about adding a calculated custom field to a custom form, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 * A calculated column in a view  
   For more information about using calculations in a view, see the section [Use Text Mode in views](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md#use-text-mode-in-views) in the article [Overview of common uses for Text Mode](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).

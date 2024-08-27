@@ -33,6 +33,8 @@ You can create a new template in the following ways:
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following:
 
 <table style="table-layout:auto"> 
@@ -60,6 +62,8 @@ You must have the following:
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Create a template
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Templates**. 
@@ -72,7 +76,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Specify a name for the new template in the template header, then press **Enter.**
 1. Click the **Template Tasks** section in the left panel. 
-1. Click**Start Adding Template Tasks**.
+1. Click **Start Adding Template Tasks**.
 
    Or
 

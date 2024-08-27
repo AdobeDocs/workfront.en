@@ -17,6 +17,8 @@ Documents can be organized into folders. You can create personal folders in your
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -40,11 +42,13 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
++++
+
 ## Display folders
 
 You can display folders in thumbnail, standard, or list view. To change the view, use the view options in the upper-right corner.
 
-1. Click **Documents** in the Main Menu. ![](assets/main-menu-icon.png)
+{{step1-to-documents}}
 
    Or
 
@@ -58,7 +62,7 @@ You can display folders in thumbnail, standard, or list view. To change the view
 
 Create folders to better organize your documents. You can create up to 2,000 folders on an object and up to 50 subfolders within each folder. Subfolders count towards the 2,000 folder maximum.
 
-1. Click **Documents** in the Main Menu. ![](assets/main-menu-icon.png)
+{{step1-to-documents}}
 
    Or
 

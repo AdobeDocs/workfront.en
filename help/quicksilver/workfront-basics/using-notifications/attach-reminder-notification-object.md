@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: Attach a reminder notification to an object
-description: Reminder notifications can be associated with the object types Projects, Tasks, Issues, Timesheets, Templates, Template Tasks, and Recurring Timesheet Profiles.
+description: "You can associate reminder notifications with several different object types: Projects, Tasks, Issues, Timesheets, Templates, Template Tasks, and Recurring Timesheet Profiles."
 author: Lisa
 feature: Get Started with Workfront
 exl-id: ea04d807-1a9f-4a23-96de-cd83f0821ba0
 ---
 # Attach a reminder notification to an object
 
-Reminder notifications can be associated with several different object types: Projects, Tasks, Issues, Timesheets, Templates, Template Tasks, and Recurring Timesheet Profiles.
+You can associate reminder notifications with several different object types: Projects, Tasks, Issues, Timesheets, Templates, Template Tasks, and Recurring Timesheet Profiles.
 
 Before you can attach reminder notifications to an object, an [!DNL Adobe Workfront] administrator must create the notification, as described in [Set up reminder notifications](../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md). 
 

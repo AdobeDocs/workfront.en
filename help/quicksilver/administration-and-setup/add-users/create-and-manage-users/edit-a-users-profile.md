@@ -1,5 +1,5 @@
 ---
-title: Edit a user's profile
+title: Edit a User's Profile
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -27,6 +27,8 @@ exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
 As an Adobe Workfront administrator, you can create users and manage the profiles of existing ones. For information about creating users, see [Add users](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -58,7 +60,10 @@ You must have the following to perform the steps in this article:
   </tr> 
  </tbody> 
 </table> 
+
 *To find out what plan, license type, or access you have, contact your Workfront administrator.
+
++++
 
 ## Edit a user profile
 
@@ -108,7 +113,7 @@ You must have the following to perform the steps in this article:
       <p>This option is available only in the Preview and Sandbox environments. Email notifications are enabled in the Production environment by default. </p>
       </li> 
       
-      <li><b>Show percent complete on update status</b>: Check this option if you want to display a percent complete bar inside the Update area of this user's tasks, when using the legacy commenting experience. For information, see <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">New commenting experience</a>.</li> 
+      </li> 
        <li><b>Send work I assign to myself to my Working On tab</b>: Check this option if you want everything that the user assigns to themselves to appear directly on the Working On list in the Home area. The default is to list everything assigned to a user on their Ready to Start or Not Ready lists in the Home area.</li> 
        <li><b>Automatically generate proofs when uploading documents</b>: Check this option if you want the documents that the user uploads to immediately generate a proof. </li>
        </ul> </td> 
@@ -191,7 +196,7 @@ You must have the following to perform the steps in this article:
        <li>As a user with a Plan license and access to edit users, you can see only system-level Timesheet Profiles. For more information about group-level Timesheet Profiles, see <a href="../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md" class="MCXref xref">Create, edit, and assign timesheet profiles</a>.</li>
       </ul></p> </li> 
        <li><b>Default Hour Type</b>: Select the default hour type for the user. This is the hour type that is used by default when the user logs time.</li> 
-       <li><b>Available Hour Types</b>: Select the hour types that should be available to the user. These hour types are visible everywhere in Workfront where the user can log time. A user can only see the hour types that are enabled at the project level as well as the user level. For more information about what hour types are available to users, see <a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref">Define hour types and availability for timesheets</a>.</li> 
+       <li><b>Available Hour Types</b>: Select the hour types that should be available to the user. These hour types are visible everywhere in Workfront where the user can log time. A user can only see the hour types that are enabled at the project level as well as the user level. For more information about what hour types are available to users, see <a href="../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md" class="MCXref xref">Define hour types and availability</a>.</li> 
        <li><b>Log Time in:</b> Select whether the user should log time on work items in hours or days. For more information, see <a href="../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md" class="MCXref xref">Configure whether time is logged in hours or days</a>.</li>
        
       <li> <b>FTE</b>: This is the Full Time Equivalent of the user. Workfront uses this number to calculate the availability of the user based on the Default Schedule only when the Resource Management Preferences at the system level are set to The Default Schedule. 
@@ -225,7 +230,7 @@ You must have the following to perform the steps in this article:
      </tr> 
      <tr> 
       <td role="rowheader">Custom Forms</td> 
-      <td><p>Associate an existing user custom form with this user. You must create a custom form before you can associate it with a user. Only active custom forms display in the list. Fields you do not have access to edit are not displayed in an individual custom form.</p> <p>For information about creating custom forms, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</p></td> 
+      <td><p>Associate an existing user custom form with this user. You must create a custom form before you can associate it with a user. Only active custom forms display in the list. Fields you do not have access to edit are not displayed in an individual custom form.</p> <p><strong>Note:</strong> Advanced custom form features such as External lookup fields and Workfront native fields are only available when you open the user record on the details page, not on the Edit User dialog. (From the list of users, click the user name to open the details.)</p> <p>For information about creating custom forms, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md" class="MCXref xref">Design a form with the form designer</a>.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Comment</td> 

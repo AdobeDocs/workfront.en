@@ -12,6 +12,12 @@ exl-id: 31c48a50-5235-495c-8e46-0974ed98ede1
 
 <!-- Audited: 12/2023 -->
 
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers or in Production for customers who enabled fast releases. </span>
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>-->
+
 This article describes the layout of timesheets in Adobe Workfront, allowing you to better understand how to customize and utilize timesheets to record time.
 
 Timesheet and hour preferences control what appears on a timesheet. This article provides an overview of all available options. For information on selecting the options, see [Configure timesheet and hour preferences](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
@@ -113,7 +119,7 @@ You can log multiple hour entries for the same work item for different hour type
 
 ## Updates area in the left panel
 
-![Updates area in the left timesheet panel](assets/timesheet-updates-section-unshimmed-redesign.png)
+![Updates area in the left timesheet panel](assets/timesheet-updates-with-all-tab.png)
 
 You can make comments on a timesheet to communicate with your timesheet approvers or other users in the Updates section in the left panel of the timesheet.
 
@@ -121,9 +127,9 @@ Any comments made on the timesheet display in this area.
 
 ## Summary panel
 
-![Summary panel](assets/timesheet-summary-panel-for-task-unshimmed-redesign.png)
+![Summary panel](assets/timesheet-summary-panel-on-updates.png)
 
-You can access the Summary panel for tasks or issues displayed in a timesheet. From here, you can comment on tasks and issues, or update their information. For more information, see [Summary overview](../../workfront-basics/the-new-workfront-experience/summary-overview.md). 
+You can access the Summary panel for tasks or issues displayed in a timesheet. From here, you can comment on tasks and issues, or update their information. For more information, see [Summary overview](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 The comments you enter for work items in the timesheet Summary panel display in the Updates area of the task or the issue. The Summary panel is not available for projects.
 

@@ -2,7 +2,7 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Delete project templates
-description: We recommend that you deactivate templates that you are no longer using, instead of deleting them so that you can keep historic information about your projects over time. For information about deactivating a template, see Edit project templates.
+description: We recommend that you deactivate templates that you are no longer using, instead of deleting them so that you can keep historic information about your projects over time. 
 author: Alina
 feature: Work Management
 exl-id: 41e0979c-f8ef-4a07-8848-e4ee8cc212c5
@@ -53,7 +53,9 @@ You must have the following access to perform the steps in this article:
 
 ## Delete a template
 
-1. From the **Main Menu** ![](assets/main-menu-icon.png), click **Templates**. This opens a list of templates
+{{step1-to-templates}}
+
+This opens a list of templates
 
 1. Select the template that you want to delete by clicking the checkbox to the left of the template name, then click **Delete > Yes, Delete It** to confirm the deletion.
 

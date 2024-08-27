@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: security
-title: Manage API keys
+title: Manage API Keys
 description: In order to minimize API security vulnerabilities, Adobe Workfront administrators can manage the API Keys used to enable applications to access Workfront on behalf of a user.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
@@ -29,6 +29,8 @@ Examples of applications that leverage the Workfront API are:
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
@@ -50,6 +52,8 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
++++
+
 ## Workfront API Keys
 
 Each user in Workfront has a unique API Key. This key is generated on a per-user basis at the time the user accesses an integration that leverages the Workfront API (such as the Workfront mobile app or a document integration).
@@ -68,7 +72,7 @@ You can generate, reset, or remove the API Key for your administrator user accou
 >
 >You can also generate an API Key through the API. For more information, see the [Event Subscription API](../../../wf-api/general/event-subs-api.md) section in [Event Subscription API](../../../wf-api/general/event-subs-api.md).
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png). 
+{{step-1-to-setup}} 
 
 1. Click **System >** **Customer Info.**
 1. (Conditional) Perform one of the following actions:
@@ -76,7 +80,7 @@ You can generate, reset, or remove the API Key for your administrator user accou
    To generate an API Key: In the **API Key Settings** section, click **Generate API Key**.
 
    Or  
-   To reset an API Key: In the **API Key Settings** section, click **Reset**, then**Reset.**
+   To reset an API Key: In the **API Key Settings** section, click **Reset**, then **Reset.**
 
    Or
 
@@ -92,14 +96,14 @@ You can generate and manage API Keys for users in roles other than Workfront adm
 
 1. (Conditional) If your organization uses Single Sign-On (SSO) access management, temporarily disable the option requiring SSO authentication.
 
-   1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
+   {{step-1-to-setup}} 
    
-   1. Expand **System**, then click **Single Sign-on (SSO)**.  
+   1. Expand **System**, then click **Single Sign-on (SSO)**. 
+   1. In the **Type** field, select the type of SSO your organization uses.
+   1. With the type selected, scroll down and clear the **Enable** checkbox. 
       ![](assets/sysadmin-security-sso-disable-31620-350x320.png)  
+   1. Click **Save**.
 
-   1. Disable the checkbox requiring SSO authentication.
-
-      For example, if your organization uses SAML 2.0, disable **Only Allow SAML 2.0 Authentication**.
 
 1. In the address bar of a browser, enter the following API call:
 
@@ -109,7 +113,7 @@ You can generate and manage API Keys for users in roles other than Workfront adm
 
 1. (Conditional) Enable the option requiring SSO authentication if you disabled it in Step 1.
 
-   1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png). 
+   {{step-1-to-setup}}
    
    1. Expand **System**, then click **Single Sign-on (SSO)**.
    
@@ -120,7 +124,7 @@ You can generate and manage API Keys for users in roles other than Workfront adm
 
 You can configure API Keys to expire for all users in your system. When the API Key of a user expires, the user must re-authenticate to any applications that use the Workfront API to access Workfront. You can change the frequency with which the API Keys expire. You can also configure whether API Keys expire when the password of a user expires.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).    
+{{step-1-to-setup}}  
 
 1. Click **System** > **Customer Info**.
 1. In the **API Key Settings** area, in the **After creation**, **API keys expire in** drop-down list, select the timeframe when you want the API keys to expire.
@@ -145,9 +149,9 @@ If you are concerned about a particular security breach regarding your Workfront
 >
 >Removing API Keys for all users invalidates ALL of the API Keys for all the users in the system. This action will cause all of your integrations in Workfront to fail until you generate a new API Key in Workfront and update all your integrations.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).    
+{{step-1-to-setup}}  
 
-1. Expand **System**, then click **Customer Info.**
+1. Expand **System**, then click **Customer Info**.
 
 1. In the **API Key Settings** area, click **Remove all API keys**, then click **Remove** **All**.
 
@@ -201,6 +205,6 @@ After you have obtained the X.509 certificate from your Certificate Authority, y
 
 Prior to configuring your instance of Workfront to require an X.509 certificate, perform an API request to the `/login` endpoint using valid username and password parameters. You will receive a 200 response that contains a sessionID.
 
-After making the X.509 certificate a requirement via the customer info page in your instance of Workfront, make another login attempt. This time you will receive a 500 error response with the following message: “Untrusted request. Please contact your system administrator and attach certificate."
+After making the X.509 certificate a requirement via the customer info page in your instance of Workfront, make another login attempt. This time you will receive a 500 error response with the following message: "Untrusted request. Please contact your system administrator and attach certificate."
 
 After confirming that the X.509 certificate is required, perform the same login request with an additional parameter for apiCertificate set to the value of your certificate. If this operation was performed correctly you will receive a 200 response that contains a valid sessionID.

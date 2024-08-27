@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-system-defaults
-title: Configure Resource Management preferences
+title: Configure Resource Management Preferences
 description: As an [!DNL Adobe Workfront] administrator you can configure the Resource Management Preferences for your system. These Resource Management preferences determine how user availability or capacity and FTE are calculated for the [!DNL Workfront] resource scheduling and planning tools.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7cde2238-cb34-4bee-baba-69d256a3912d
@@ -48,6 +48,8 @@ As an [!DNL Adobe Workfront] administrator you can configure the [!UICONTROL Res
 </table>
 -->
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -71,6 +73,8 @@ You must have the following to perform the steps in this article:
  </tbody> 
 </table>
 
++++
+
 ## Information taken into account when calculating a user's capacity
 
 When calculating a user's capacity, Workfront takes into account the following information:
@@ -91,7 +95,8 @@ For information about planning and scheduling resources in [!DNL Workfront], see
 >
 >Because this is a global setting, this selection affects all the calculations for the entire system, for all users, in all the resource management tools.
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. Click **[!UICONTROL Resource Management]**.
 1. Select one of the following methods to calculate the availability of users in [!DNL Workfront]:
 

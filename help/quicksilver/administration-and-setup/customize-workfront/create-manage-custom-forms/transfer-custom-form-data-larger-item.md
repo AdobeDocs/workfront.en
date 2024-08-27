@@ -1,5 +1,5 @@
 ---
-title: Transfer custom form data when converting an object
+title: Transfer Custom Form Data When Converting an Object
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -11,8 +11,6 @@ exl-id: 2d4d104a-1465-43e2-8184-83dd63d9681c
 ---
 # Transfer custom form data when converting an object
 
-{{highlighted-preview}}
-
 Depending on the business needs of your organization, the work defined in a task or an issue might become too large to manage within the task or the issue. In this case, you can convert them to a larger work item:
 
 * You can convert issues to tasks, or to projects
@@ -23,6 +21,8 @@ To transfer custom form data from an issue to a task or a project, you must comp
 For more information, see [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md) or [Overview of converting issues in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -50,12 +50,14 @@ You must have the following to perform the steps in this article:
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## First: Add additional objects to the custom form
 
 {{step-1-to-setup}}
 
 1. Click **Custom Forms**.
-1. Find the form you need, then click **Edit** <span class="preview">or ![Edit icon](assets/edit-icon.png).</span>
+1. Find the form you need, then click ![Edit icon](assets/edit-icon.png).
 1. At the top of the form, add the object you plan to convert the task or issue to.
 
    >[!INFO]
@@ -87,7 +89,7 @@ First you need to make sure that you retain any custom form data on a task or is
 
 >[!TIP]
 >
->Another way to retain custom form data in this situation is to add the larger object type to the custom form. For instructions, see the section [Start editing a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md#start2) in the article [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+>Another way to retain custom form data in this situation is to add the larger object type to the custom form. For instructions, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
 

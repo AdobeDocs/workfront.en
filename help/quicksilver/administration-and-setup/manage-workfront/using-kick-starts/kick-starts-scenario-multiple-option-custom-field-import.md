@@ -3,9 +3,9 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: 'Kick-Starts Scenario: Import multiple-option custom fields into Workfront'
+title: "Kick-Starts Scenario: Import Multiple-Option Custom Fields into Workfront"
 description: You can import custom fields with multiple options in Adobe Workfront using the Kick-Start functionality.
-author: Courtney
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
@@ -45,8 +45,9 @@ If you have a good understanding of the Workfront database objects and structure
 
 To export existing data from Workfront: 
 
-1. Click **Main Menu > Setup** on the upper-right corner of the Workfront interface.  
-1. Expand the **System** menu to the left, then click **Export Data (Kick-Starts)**. 
+{{step-1-to-setup}}
+
+1. Expand **System** in the left menu, then click **Export Data (Kick-Starts)**. 
 
     ![](assets/export-data-kick-starts-link-in-setup.png)
 
@@ -82,9 +83,9 @@ To export existing data from Workfront:
 
 After scanning the information about existing custom fields in your system, you can download a new kick-start template for your import.  
 
-1. Click **Main Menu > Setup** on the upper-right corner of the Workfront interface. 
+{{step-1-to-setup}}
 
-1. Expand the **System** menu to the left.  
+1. Expand **System** in the left menu.
 
 1. Click **Import Data (Kick-Starts)**.   
 
@@ -124,9 +125,6 @@ To populate the Excel spreadsheet with information for the new custom fields:
     >
     >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
     
-
-
-
 
 1. Ensure the following information is formatted correctly:  
 
@@ -173,9 +171,9 @@ To populate the Excel spreadsheet with information for the new custom fields:
 
     * The **`setName`** and the **`setValue`** columns usually contain the same information and they should reflect the names desired in the Workfront interface for your new field. 
     
-    The value of a field is the name which appears in reports, for example, whereas the name displays in the custom forms attached to objects. 
+    The value of a field is the name which appears in reports, for example, whereas the name displays in the custom forms attached to objects.
     
-    For more information, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).
+    For more information, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
     ![](assets/parameter-sheet-filled-out-kick-starts.png)
 
@@ -196,7 +194,7 @@ To populate the Excel spreadsheet with information for the new custom fields:
 
     * **`setParameterID`** = the options corresponding to the _Brand_ custom field  have a **`setParameterID`** of 1, and the options corresponding to the _Media_ have a **`setParameterID`**of 2. The `PARAM` and `POPT` sheets cross-reference each other to indicate which options belong to which custom field.  
     * **`setDisplayOrder`**=  the display order column indicates the order in which the options will display in your custom field. You can start with 1 and continue in ascending order for all the options, regardless of which fields they will belong to. The important thing here is to have unique numbers for each option.  
-    * The **`setLabel`** and the `**setValue`** columns usually contain the same information and they should reflect the names desired in the Workfront UI. The value of an option is the name that displays in reports, for example, whereas the label displays in the custom forms when attached to an object. For more information, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md).  
+    * The **`setLabel`** and the `**setValue`** columns usually contain the same information and they should reflect the names desired in the Workfront UI. The value of an option is the name that displays in reports, for example, whereas the label displays in the custom forms when attached to an object. For more information, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).  
     * **`setIsHidden`** = enter `TRUE` if you want any of the options to be hidden.  
 
     ![](assets/parameter-option-sheet-filled-out-kick-starts.png)
@@ -239,7 +237,9 @@ To populate the Excel spreadsheet with information for the new custom fields:
 
 After performing the steps described in the previous sections, continue with the following to upload the new fields and forms into Workfront:  
 
-1. Click **Import Data** **(Kick-Starts) **under the **Main Menu > Setup > System** menu.  
+{{step-1-to-setup}}
+
+1. Click **System > Import Data (Kick-Starts)**.
 
 1. Click **Choose File** under the section **Upload data with Kick-Start spreadsheet**. 
 
@@ -248,7 +248,7 @@ After performing the steps described in the previous sections, continue with the
 
     ![](assets/kick-start-file-selected-and-upload-blue-button.png)
 
-1. A notification that the import was successful displays. Depending on how much information you are importing, this step might take a few seconds to a minute.  
+1. A notification that the import was successful displays. Depending on how much information you are importing, this step might take a few seconds to a minute.
 
     ![](assets/kick-start-successful.png)
 
@@ -259,7 +259,7 @@ After performing the steps described in the previous sections, continue with the
     >The new forms and the fields you imported are not yet connected. The form is imported with no custom fields. You must manually add the fields to the new custom form or to another existing custom form.   
 
     
-    For information about adding fields to custom forms, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md). 
+    For information about adding fields to custom forms, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. (Conditional) If the import was not successful, you receive an error message with what the problem is. Try to identify the field, the sheet, and the row number in which the problem was encountered and correct the information in the Excel file, then try importing the file one more time.
 

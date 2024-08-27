@@ -9,13 +9,15 @@ exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
 ---
 # Delete and deactivate portfolios
 
-<!--Audited: 01/2024-->
+<!--Audited: 2/2024-->
 
 Portfolios are collections of projects or programs in [!DNL Adobe Workfront]. You can delete or deactivate a portfolio if you find that it's irrelevant for your system.
 
 We recommend deactivating a portfolio that no longer needs to be associated with future projects instead of deleting it, to keep the historic information on the projects that are currently associated with the portfolio and its programs.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -24,26 +26,28 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
    <td> <p>New: [!UICONTROL Standard] </p>
    <p>Current: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>[!UICONTROL Edit] access to Projects and Portfolios</p> <p><b>NOTE</b></p> <p> If you don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects and Portfolios</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>[!UICONTROL Manage] permissions on the portfolio </p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage] permissions on the portfolio </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Overview of deleting and deactivating portfolios
 
@@ -65,9 +69,9 @@ When you deactivate a portfolio, you can still access it from the [!UICONTROL Po
 
 >[!NOTE]
 >
->Depending on how your [!DNL Workfront] or group administrator configures your layout template, the [!UICONTROL Portfolios] area might not display in the [!UICONTROL Main Menu]. For more information, see [Customize the Main Menu using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md)
+>Depending on how your [!DNL Workfront] or group administrator configures your layout template, the [!UICONTROL Portfolios] area might not display in the [!UICONTROL Main Menu]. For more information, see [Customize the Main Menu using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront].
+{{step1-click-main-menu}}
 
 1. Click **[!UICONTROL Portfolios]** .
 1. Click the name of the portfolio.
@@ -75,8 +79,8 @@ When you deactivate a portfolio, you can still access it from the [!UICONTROL Po
 
 ## Delete a portfolio
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+{{step1-click-main-menu}}
 
 1. Click **[!UICONTROL Portfolios]** .
 1. Select the portfolio, then click **[!UICONTROL Delete]**&#x200B;the [!UICONTROL Delete] icon ![](assets/delete.png).
-1. In the box that appears, click **[!UICONTROL Yes, Delete It]** to confirm.
+1. Click **[!UICONTROL Yes, Delete It]** to confirm.

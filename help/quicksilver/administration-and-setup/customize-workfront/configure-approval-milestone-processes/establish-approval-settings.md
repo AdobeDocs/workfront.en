@@ -1,10 +1,10 @@
 ---
-title: Configure global approval settings
+title: Configure Global Approval Settings
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: As an Adobe Workfront administrator, you can determine the global settings for approval processes in Workfront. These settings impact all work item approval processes in your system.
-author: Alina, Caroline
+author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
@@ -14,6 +14,8 @@ exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
 As an Adobe Workfront administrator, you can determine the global settings for approval processes in Workfront. These settings impact all work item approval processes in your system.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -38,12 +40,13 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
++++
+
 ## Configure global approval settings
 
-1. Log in to Workfront as a Workfront administrator . 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Click **Processes** > **Approvals** .  
+1. Click **Processes** > **Approvals**.  
 
 1. Click the **Settings** icon ![](assets/gear-icon-settings.png) next to the **Approvals** area name.   
 

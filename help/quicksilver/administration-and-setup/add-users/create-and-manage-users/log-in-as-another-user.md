@@ -1,28 +1,23 @@
 ---
-title: Log in as another user
+title: Log In as Another User
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: As the Adobe Workfront administrator, sometimes you might need to access Workfront on behalf of another user.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
 ---
 # Log in as another user
 
+<!--Audited: April, 2024-->
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all users only in the Preview environment.</span> -->
 
 <!--
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. Also linked to other articles: Creating and Managing Groups, etc.</p>
 -->
-
->[!IMPORTANT]
->
->The procedure described on this page applies only to organizations that have not yet been onboarded to the Adobe Admin Console. If your organization has been onboarded to the Adobe Admin Console, this action is not available.
->
->For a list of procedures that differ based on whether your organization has been onboarded to the Adobe Admin Console, see [Platform-based administration differences (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 As the Adobe Workfront administrator, sometimes you might need to access Workfront on behalf of another user.
 
@@ -47,6 +42,8 @@ Some users, such as executives, need to be able to control which administrators 
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -58,8 +55,9 @@ You must have the following to perform the steps in this article:
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td> <p>New: Standard</p>
+   <p>Current: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
@@ -69,6 +67,10 @@ You must have the following to perform the steps in this article:
   </tr> 
  </tbody> 
 </table>
+
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Log in and perform actions as another user
 
@@ -84,7 +86,7 @@ You must have the following to perform the steps in this article:
    >   
    >* You cannot reset the password of a Workfront administrator.  
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
+{{step-1-to-setup}}
 
 1. In the left panel, click **Log in As**.  
 
@@ -140,7 +142,7 @@ When you log in as another user, the last login date is modified for that user t
 
 When you log in to Workfront as another user and perform an action, Workfront clearly indicates that any action you perform is made by you on behalf of the user who you are logged in as.
 
-For example, if you comment on an item while logged in as another user, a statement indicates that the comment was made by you on behalf of the user.
+For example, if you comment on an item while logged in as another user, a statement indicates that the comment was made by you on behalf of the user when viewing the Updates section of an object.
 
 ### View audit information {#view-audit-information}
 

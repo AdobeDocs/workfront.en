@@ -3,14 +3,14 @@ user-type: administrator
 product-area: system-administration
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: Export data from Adobe Workfront via Kick-Starts
+title: Export Data from Workfront via Kick-Starts
 description: As an Adobe Workfront administrator, you can use the Kick-Starts data exporter to export data from Workfront.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7f56b63e-a674-43e4-bef6-d276898e2074
 ---
-# Export data from Adobe Workfront via Kick-Starts
+# Export data from Workfront via Kick-Starts
 
 <!-- Audited: 2/2024 -->
 
@@ -23,6 +23,8 @@ As an Adobe Workfront administrator, you can use the Kick-Starts data exporter t
 Exporting data through Kick-Starts is also helpful in understanding what fields are associated with each object, how these fields are coded, as well as how the values of these fields are formatted in the database.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article: 
 
@@ -50,6 +52,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Advantages and disadvantages of using kick-starts to export data
 
@@ -320,17 +324,17 @@ The following limitations exist when exporting data via kick-starts (data is exp
 
    The exported kick-start file is downloaded to your computer either as an Excel file, or a . zip file containing multiple Excel and properties files. Each Excel file is a collection of sheets, where each sheet represents a field associated with the object you selected. There is a **Properties** sheet associated with every export.
 
-   The **Dashboard** and **Report** options allow you to select specific dashboards and reports to include in the download. You can export only Dashboards which are shared system-wide.
+   The **Dashboard** and **Report** options allow you to select specific dashboards and reports to include in the download. You can export only Dashboards, which are shared system-wide.
 
    You cannot export matrix reports. For more information about matrix reports, see [Create a matrix report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+
+   Kick-Starts does not support Text Mode filters. For successful exporting, the reporting filters must be switched to Standard Mode.
 
    You can select up to 100 Dashboards and 100 Reports in a single export.
 
    ![](assets/kickstart-export-350x381.png)
 
    You can export multiple objects at one time.
-
-   
 
 1. (Recommended) Analyze the exported data to ensure that all the information you expect to see was exported. 
 

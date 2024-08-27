@@ -1,10 +1,10 @@
 ---
-title: Set up metadata mapping
+title: Set up Metadata Mapping
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
 description: Metadata is descriptive information associated with a document. You can set up [!DNL Adobe Workfront] to include metadata with documents sent to [!DNL Workfront] applications.
-author: Caroline
+author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
@@ -14,6 +14,8 @@ exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
 Metadata is descriptive information associated with a document. You can set up [!DNL Adobe Workfront] to include metadata with documents sent to [!DNL Workfront] applications.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -36,6 +38,8 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
++++
+
 ## About [!DNL Workfront] metadata
 
 Metadata for documents in [!DNL Workfront] can include information such as the related project name, task description, or Planned Completion Date. As a [!DNL Workfront] administrator, you can configure [!DNL Workfront] to include metadata with documents sent from [!DNL Workfront] to the following [!DNL Workfront] applications:
@@ -52,13 +56,13 @@ When a user sends a document from [!DNL Workfront] to a [!DNL Workfront] applica
 
 You can map the same [!DNL Workfront] field to various metadata fields in [!DNL Workfront DAM], but you cannot use a metadata field in either of those applications for multiple [!DNL Workfront] metadata fields.
 
-To configure multiple [!DNL Workfront] fields to export to one metadata field in a [!DNL Workfront] application, first create a calculated custom field in [!DNL Workfront] to display all the individual custom fields of an object. Then, map the calculated [!DNL Workfront] field to a metadata field in the [!DNL Workfront] application. For more information about calculated custom fields, see [Add calculated data to a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
+To configure multiple [!DNL Workfront] fields to export to one metadata field in a [!DNL Workfront] application, first create a calculated custom field in [!DNL Workfront] to display all the individual custom fields of an object. Then, map the calculated [!DNL Workfront] field to a metadata field in the [!DNL Workfront] application. For more information about calculated custom fields, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
 Before you can map fields for the metadata mapping process, you must enable the application in [!DNL Workfront]. For more information, see [Configure document integrations](../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
 ## Configure [!DNL Workfront] to send metadata
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left panel, click **[!UICONTROL Documents]** > **[!UICONTROL Metadata Mapping]**.
 
@@ -76,7 +80,8 @@ Before you can map fields for the metadata mapping process, you must enable the 
 ## Delete mapped fields
 
 1. Log in to [!DNL Workfront] as the administrator.
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+
+{{step-1-to-setup}}
 
 1. In the left panel click **[!UICONTROL Documents]** > **[!UICONTROL Metadata Mapping]**.
 

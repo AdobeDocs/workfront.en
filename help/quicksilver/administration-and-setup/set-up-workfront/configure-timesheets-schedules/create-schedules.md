@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
-title: Create a schedule
+title: Create a Schedule
 description: You can define your users' work weeks with schedules. You can associate a schedule with a user or a project. This allows [!DNL Workfront] to calculate timelines and user availability.
 author: Lisa, Alina
 feature: System Setup and Administration
@@ -31,6 +31,8 @@ For information about how schedules are used in resource planning, see [Schedule
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -55,6 +57,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Create a schedule
 

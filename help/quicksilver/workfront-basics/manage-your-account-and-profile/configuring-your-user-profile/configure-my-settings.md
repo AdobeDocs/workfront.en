@@ -249,7 +249,7 @@ You can change any of the following in this sub-section:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>(Conditional) [!UICONTROL Only Allow &lt;SSO Configuration> Authentication]</strong></td> 
-   <td> <p> If your [!DNL Workfront] administrator enabled an SSO integration with [!DNL Workfront] and has updated users for SSO, this field is selected by default. The type of SSO configuration enabled for your [!DNL Workfront] instance is visible in this field.</p> <p>When this field is selected, you are required you to log into [!DNL Workfront] with your SSO credentials. Unchecking it will allow you to log in to [!DNL Workfront] with your [!DNL Workfront] credentials.</p> <p>For more information about configuring [!DNL Workfront] with an SSO solution, see <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Single sign-on in [!DNL Adobe Workfront]</a>. For more information about updating users for SSO, see <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Update users for single sign-on</a>.</p> </td> 
+   <td> <p> If your [!DNL Workfront] administrator enabled an SSO integration with [!DNL Workfront] and has updated users for SSO, this field is selected by default. The type of SSO configuration enabled for your [!DNL Workfront] instance is visible in this field.</p> <p>When this field is selected, you are required you to log into [!DNL Workfront] with your SSO credentials. Unchecking it will allow you to log in to [!DNL Workfront] with your [!DNL Workfront] credentials.</p> <p>For more information about configuring [!DNL Workfront] with an SSO solution, see <a href="../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md" class="MCXref xref">Single sign-on in [!DNL Workfront]: article index</a>. For more information about updating users for SSO, see <a href="../../../administration-and-setup/add-users/single-sign-on/update-users-sso.md" class="MCXref xref">Update users for single sign-on</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -335,12 +335,7 @@ You can change any of the following in this sub-section:
    <td role="rowheader"><strong>[!UICONTROL Email Locale]</strong> </td> 
    <td>Specify your preferred language here. This controls the language, date, and number format used in outgoing email messages.</td> 
   </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!UICONTROL Show percent complete on update status]</strong> </td> 
-   <td>Select this option if you want to display a percent complete bar inside the Updates area of your tasks, when using the legacy commenting experience. For information, see <a href="/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md">New commenting experience</a>.
   
-   </td> 
-  </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Send work assigned to myself to my Working On tab]</strong> </td> 
    <td>Select this field to display work you are assigning to yourself directly on your [!UICONTROL Working On] tab instead of the [!UICONTROL Work Requests] tab.</td> 
@@ -522,7 +517,7 @@ You must have either of the following access or permissions in order to attach a
 
 All users can see custom forms that have been associated with their profiles.
 
-Your [!DNL Workfront] administrator must configure custom forms for the user object in order for you to be able to attach a custom form to your user profile. For more information about creating custom forms, see [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+Your [!DNL Workfront] administrator must configure custom forms for the user object in order for you to be able to attach a custom form to your user profile. For more information about creating custom forms, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ### [!UICONTROL Comment]
 

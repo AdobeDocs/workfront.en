@@ -19,4 +19,4 @@ The following releases were made available for Workfront Goals:
 * [Adobe Workfront Goals with the 21.2 release](../../../product-announcements/product-releases/goals-release-activity/goals-21.2-release/goals-release-21-2.md) 
 * [Adobe Workfront Goals with the 21.1 release](../../../product-announcements/product-releases/goals-release-activity/goals-release-21-1.md) 
 * [Workfront Goals with the 20.4 release](../../../product-announcements/product-releases/goals-release-activity/goals-release-20-4.md) 
-* [Workfront Goals with the 20.3 release - August 14, 2020](../../../product-announcements/product-releases/goals-release-activity/goals-release-20.3.md)
+* [Workfront Goals with the 20.3 release - August 14, 2020](../../../product-announcements/product-releases/goals-release-activity/goals-release-20-3.md)

@@ -1,21 +1,23 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Add additional approvers or reviewers to a document
+title: Add additional approvers or reviewers to an asset or document
 description: You can add additional approvers or reviewers to a document that already has pending approvals.
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
 ---
-# Add additional approvers or reviewers to a document
+# Add additional approvers or reviewers to an asset or document
 
-You can add additional approvers or reviewers to a document that already has pending approvals.
+You can add additional approvers or reviewers to an asset or document that already has pending approvals.
 
 >[!IMPORTANT]
 >
 >The content of this article refers to updated document approval functionality that is only available for specific accounts. For information on standard approval processes, see the articles listed in [Work approvals](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -44,7 +46,9 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
-## Add additional approvers or reviewers from the document page
++++
+
+## Add additional approvers or reviewers from the Document Details page
 
 1. Go to the document page by clicking on the name of the document, then select the version of the document you would like to add an approver or reviewer to in the version dropdown. The latest version will be selected by default.
 
@@ -54,7 +58,7 @@ You must have the following access to perform the steps in this article:
 
 1. Repeat the previous step to add additional approvers or reviewers.
 
-## Add additional approvers or reviewers from the Document Summary pane
+## Add additional approvers or reviewers from the Document Summary 
 
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
 

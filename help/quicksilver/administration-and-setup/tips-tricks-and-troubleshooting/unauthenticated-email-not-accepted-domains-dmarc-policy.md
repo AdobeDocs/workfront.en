@@ -3,9 +3,9 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: When an authenticated email is not accepted due to domain's DMARC policy
+title: Unauthenticated Email Is Not Accepted Due to Domain's DMARC Policy
 description: If an email sent from the [!DNL Workfront] system is not accepted due to domain's DMARC policy, your email administrator can fix the problem by configuring your email system to allow all email from workfront.com.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2443267a-dcc0-485b-be29-17539fb54188

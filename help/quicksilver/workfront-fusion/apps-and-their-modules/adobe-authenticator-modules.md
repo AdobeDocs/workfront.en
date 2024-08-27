@@ -8,6 +8,7 @@ title: Adobe Authenticator module
 description: With the Adobe Authenticator module, you can connect to any Adobe product with an API, using a single connection.
 author: Becky
 feature: Workfront Fusion
+exl-id: 74c943fb-37ad-4d91-8af7-9808ba69992e
 ---
 # Adobe Authenticator modules
 
@@ -151,6 +152,14 @@ To create a connection:
         </td>
       </tr>
       <tr>
+        <td role="rowheader">[!UICONTROL Base URLs]</td>
+        <td>You must add the base URLs that you want this authenticator to allow. When using the Make a custom API call module later in the scenario, you will add a relative path to the chosen URL. By entering URLs here, you can control what the Make a custom API call module can connect to, which increases security.<p>For each base URL that you want to add to the authenticator, click <b>Add item</b> and enter the base URL.</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Authentication URL]</td>
+        <td>Leave this blank to use the standard Adobe IMS authentication URL of <code>https://ims-na1.adobelogin.com</code>. If you do not use Adobe IMS for authentication, enter the URL to use for authentication.</td>
+      </tr>
+      <tr>
         <td role="rowheader">[!UICONTROL Environment]</td>
         <td>Select whether you are connecting to a production or non-production environment.</td>
       </tr>
@@ -223,4 +232,3 @@ This action module allows you to make a call to any Adobe API.
     </tr>
   </tbody>
 </table>
-

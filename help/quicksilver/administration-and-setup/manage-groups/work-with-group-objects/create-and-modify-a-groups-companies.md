@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: Create and modify a group's companies
+title: Create and Modify a Group's Companies
 description: When you are viewing a group that you manage in the Groups area, you can view and work with companies associated with the group and any of its subgroups.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
@@ -16,6 +16,8 @@ When you are viewing a group that you manage in the Groups area, you can view an
 If there are any groups above your group, their administrators can also do these things for your group. The same is true for Workfront administrators (for any group).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -36,9 +38,11 @@ You must have the following to perform the steps in this article:
 
 &#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
 
++++
+
 ## View, work with, and create companies for your group from the Groups area
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 
@@ -67,7 +71,7 @@ You must have the following to perform the steps in this article:
      </tr>
      <tr> 
       <td role="rowheader">Custom Forms section</td> 
-      <td> <p>If there are fields that you want to add to your company that are not available in Workfront, you can build a Custom Form and associate it with your company. You can attach this form to your company by selecting it from the drop-down menu. Only active companies are listed in the drop-down menu. For information about creating Custom Forms, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref" data-mc-variable-override="">Create or edit a custom form</a>. </p> </td> 
+      <td> <p>If there are fields that you want to add to your company that are not available in Workfront, you can build a custom form and associate it with your company. You can attach this form to your company by selecting it from the drop-down menu. Only active companies are listed in the drop-down menu. For information about creating custom forms, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Design a form with the form designer</a>. </p> </td> 
      </tr> 
     </tbody> 
    </table>

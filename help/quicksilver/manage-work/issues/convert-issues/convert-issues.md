@@ -19,7 +19,8 @@ For information about converting issues to projects, see [Convert an issue to a 
 
 ## Considerations when converting issues
 
-* Your Workfront administrator or group administrator has already set the preferences for what happens to an issue, its resolution, and the its Primary&nbsp;Contact's access when it is converted to a project or a task, as outlined in [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* When converting issues to tasks or projects, most information from the issue transfers to the task or project, unless otherwise specified in this article. 
+* Your Workfront administrator or group administrator has already set the preferences for what happens to an issue, its resolution, and the its Primary Contact's access when it is converted to a project or a task, as outlined in [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 * Workfront removes any approvals that are associated with issues during conversion.
 * Workfront overwrites the Resolving Object of the issue when you convert it to a task or an project. The new task or issue becomes the new Resolving Object of the issue after conversion. 
 * Consider the following:
@@ -66,22 +67,24 @@ The following table lists project information and whether it transfers from the 
   </tr> 
   <tr> 
    <td>Status</td> 
-   <td>Default status selected for the group on the template. If the template is not associated with the group, the project status is set to the default status set by the Workfront administrator in the Project&nbsp;Preferences area of Setup. For information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</td> 
+   <td>Default status selected for the group on the template. If the template is not associated with the group, the project status is set to the default status set by the Workfront administrator in the Project Preferences area of Setup. For information, see <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Configure system-wide project preferences</a>.</td> 
   </tr> 
   <tr> 
    <td>Priority</td> 
-   <td>Transfers from the template. </td> 
+   <td><p>Transfers from the issue.</p>
+   <p>When you use a template for the converted project, you have the option to manually change the Priority. If you choose not to change it, the priority of the issue transfers to the project. 
+    </td> 
   </tr> 
   <tr> 
    <td>URL</td> 
-   <td> <p>The URL&nbsp;from the issue transfers to the new project. </p> <p> If there is no URL specified on the issue, the URL from the template transfers to the project. </p> <p>If the URL&nbsp;field is empty both for the issue and for the template, the field is empty on the project. </p> </td> 
+   <td> <p>The URL from the issue transfers to the new project. </p> <p> If there is no URL specified on the issue, the URL from the template transfers to the project. </p> <p>If the URL field is empty both for the issue and for the template, the field is empty on the project. </p> </td> 
   </tr> 
   <tr> 
-   <td>Project&nbsp;Condition Type</td> 
+   <td>Project Condition Type</td> 
    <td>Transfers from the template.</td> 
   </tr> 
   <tr> 
-   <td>Project&nbsp;Condition</td> 
+   <td>Project Condition</td> 
    <td>Matches the system-level default preference as determined by the Workfront administrator in the Setup area. For information, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">Set a custom condition as the default for projects</a></td> 
   </tr> 
   <tr> 
@@ -92,17 +95,17 @@ The following table lists project information and whether it transfers from the 
    <td>Project dates</td> 
    <td> 
     <ul> 
-     <li> <p><b>Planned Start Date</b>: The closest working time based on the template schedule's working time should be preselected, according to the timezone of the template's schedule. This field is disabled if the Schedule From field is set to From&nbsp;Completion. </p> </li> 
-     <li> <p><b>Planned Completion Date</b>: The closest working time based on the template schedule's working time should be preselected, according to the timezone of the template's schedule. This field is disabled if the Schedule From field is set to From&nbsp;Start. </p> </li> 
+     <li> <p><b>Planned Start Date</b>: The closest working time based on the template schedule's working time should be preselected, according to the timezone of the template's schedule. This field is disabled if the Schedule From field is set to From Completion. </p> </li> 
+     <li> <p><b>Planned Completion Date</b>: The closest working time based on the template schedule's working time should be preselected, according to the timezone of the template's schedule. This field is disabled if the Schedule From field is set to From Start. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Portfolio</td> 
-   <td>Transfers from the template.&nbsp;Otherwise, this field is empty.</td> 
+   <td>Transfers from the template. Otherwise, this field is empty.</td> 
   </tr> 
   <tr> 
    <td>Program</td> 
-   <td>Transfers from the template.&nbsp;Otherwise, this field is empty.</td> 
+   <td>Transfers from the template. Otherwise, this field is empty.</td> 
   </tr> 
   <tr> 
    <td>Group</td> 
@@ -126,7 +129,7 @@ The following table lists project information and whether it transfers from the 
    <td>Transfers from the Template Sponsor field on the template. Otherwise, this field is empty.</td> 
   </tr> 
   <tr> 
-   <td>Resource&nbsp;Manager</td> 
+   <td>Resource Manager</td> 
    <td>Transfers from the template. Otherwise, this field is empty.</td> 
   </tr> 
   <tr> 
@@ -151,7 +154,7 @@ The following table lists project information and whether it transfers from the 
 <!--WRITER
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <h2>Convert an issue to a project</h2> 
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;moved to its own article)</p>
+<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: moved to its own article)</p>
 -->
 <!--
 <ol>
@@ -228,15 +231,15 @@ The following table lists project information and whether it transfers from the 
 
 You can view the original issue information in project and task lists and reports or in the Project Details area. For information about building reports, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-The following table illustrates which&nbsp;issue fields are visible from the converted projects and tasks. 
+The following table illustrates which issue fields are visible from the converted projects and tasks. 
 
 | Issue fields |Project or task field |Project list or report |Project Details area |Task list or report |Task Details area |
 |---|---|---|---|---|---|
 | Issue Name |Converted Issue Name |✔ |✔ |✔ |✔ |
-| Primary Contact | Converted Issue Originator Name |✔ | `✔`  |✔ |&nbsp; |
-| Entry Date |Converted Issue Entry&nbsp;Date |✔ |&nbsp; |✔ |&nbsp; |
+| Primary Contact | Converted Issue Originator Name |✔ | `✔`  |✔ |  |
+| Entry Date |Converted Issue Entry Date |✔ |  |✔ |  |
 
 
 >[!CAUTION]
 >
->If the Primary&nbsp;Contact of an issue changes or if the issue becomes unlinked from the project or task after the issue has been converted, the Converted Issue Originator Name does not update and it displays the original&nbsp;Primary&nbsp;Contact of the issue at the time the issue was converted.
+>If the Primary Contact of an issue changes or if the issue becomes unlinked from the project or task after the issue has been converted, the Converted Issue Originator Name does not update and it displays the original Primary Contact of the issue at the time the issue was converted.

@@ -70,6 +70,10 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
       <td>This tab displays the visual representation of the scenario. The Diagram is the same as you will see in the scenario editor</td> 
      </tr> 
      <tr> 
+      <td role="rowheader">[!UICONTROL Reports] (tab) </td> 
+      <td> <p>Open this tab to see a graph of the number of operations performed by this scenario for the last 30 days.</p>  </td> 
+     </tr> 
+     <tr> 
       <td role="rowheader">[!UICONTROL History] (tab) </td> 
       <td> <p>Open this tab to see a history of the scenario, including any editing of the scenario. </p> <p>The [!UICONTROL History] tab also provides the scenario execution history of each run, which includes the following:</p> 
        <ul> 
@@ -127,6 +131,10 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Stats]</p>  </td> 
       <td>This graph allows you to view the amount of data transfer and operations used throughout the runs of the scenario in a [!UICONTROL line] graph.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>[!UICONTROL Processing banner]</p>  </td> 
+      <td>If your scenario has recently executed, you may see a banner that reads:<p><code>Data is still being processed. Only partial scenario history will show until processing is complete.</code></p>This appears while the execution details are written to storage. Processing occurs immediately after the scenario executes. and should last no more than a few minutes. Details of the scenario execution may not be visible while the execution is processing.</td> 
      </tr> 
     </tbody> 
    </table>

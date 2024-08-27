@@ -2,22 +2,24 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Edit properties of a custom field, section break, or widget in a custom form
+title: Add or Edit a Custom Field, Section Break, or Widget
 description: You can edit the properties of a custom field, section break, or widget that is used in custom form in your Adobe Workfront instance. These include the item's label, name, instructions, and so on.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 8eea97e7-1d05-4145-b1fd-855a6d111107
 ---
-# Edit properties of a custom field, section break, or widget in a custom form
+# Add or edit a custom field, section break, or widget
 
-{{highlighted-preview}}
+You can add a new custom field or widget directly from the Fields area in Workfront, without opening a custom form to create the field.
 
-You can edit the properties of a custom field, section break, or widget that is used in custom form in your Adobe Workfront instance. These include the item's label, name, instructions, and so on.
+You can also edit the properties of a custom field, section break, or widget that is used in custom forms. These include the item's label, name, instructions, and so on.
 
-For information about custom fields and widgets in custom forms, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) and [Add or edit an asset widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
+For information about custom fields and widgets in custom forms, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -45,17 +47,30 @@ You must have the following to perform the steps in this article:
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
+## Add a custom field or widget
+
+{{step-1-to-setup}}
+
+1. Click **Custom Forms**.
+1. Click **Fields** to open the Fields area.
+1. Click **New Custom Field**.
+1. In the box that displays, enter the required and optional information for the item you are adding.
+
+   For more information, see [Design a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+1. Click **Create**.
+
 ## Edit a custom field, section break, or widget used in a custom form
 
 {{step-1-to-setup}}
 
-1. Click **Custom Forms.**
-1. Click **Fields** to open the Fields area.
-1. Select the custom field, section break, or widget, then click **Edit** <span class="preview">or ![Edit icon](assets/edit-icon.png).</span>
+1. Click **Custom Forms**.
+1. Click **Fields** to open the Fields area, or **Sections** to open the Sections area.
+1. Select the custom field, section break, or widget, then click ![Edit icon](assets/edit-icon.png).
 1. In the box that displays, change any of the options available for the item you are editing.
 
-   See more information about these options
-   * If you are using the custom form builder, see [Add a custom field to a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-a-custom-field-to-a-custom-form.md) or [Add or edit an asset widget in a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/add-widget-or-edit-its-properties-in-a-custom-form.md).
-   * If you are used the form designer, see [Design a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   For more information, see [Design a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-1. When you are finished, click **Save + Close**.
+1. When you are finished, click **Edit**.

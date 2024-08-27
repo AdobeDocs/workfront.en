@@ -1,12 +1,12 @@
 ---
-title: New access levels overview
+title: New Access Levels Overview
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: access,level,system,administrator,standard,light,contributor
 navigation-topic: access-levels
 description: Every user must have an access level in order to log in and work in Workfront. You use the access level to control what a user can see and do with certain Workfront objects and areas.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
@@ -209,8 +209,8 @@ The following are the highest access settings available for objects in the Light
   </tr> 
   <tr> 
    <td>Financial data</td> 
-   <td>✓</td> 
-   <td> <p>&nbsp;</p> </td> 
+   <td></td> 
+   <td> <p>✓</p> </td> 
    <td>&nbsp;</td> 
   </tr> 
   <tr> 
@@ -257,6 +257,7 @@ Users with this built-in access level:
 
 * Can make requests and update those requests
 * Can upload and approve documents
+* Can approve projects, tasks, and issues
 * Can review the status of issues they have submitted
 * Can be assigned to work items but can't complete them
 * Can access requests only from the Main Menu. For more information about request queues, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
@@ -274,8 +275,8 @@ The following are the highest access settings available for objects in the Contr
 | Project |&nbsp; |✓ |&nbsp; |
 | Task |&nbsp; |✓ |&nbsp; |
 | Issue |&nbsp; |&nbsp; |✓ |
-| Portfolios |✓ |&nbsp; |&nbsp; |
-| Programs |✓ |&nbsp; |&nbsp; |
+| Portfolios |&nbsp; |✓ |&nbsp; |
+| Programs |&nbsp; |✓ |&nbsp; |
 | Reports (including dashboards and calendar reports) |&nbsp; |✓ (Only the Details tab) |&nbsp; |
 | Filters, views, and groupings |&nbsp; |&nbsp; |✓ |
 | Document |&nbsp; |&nbsp; |✓ |
@@ -290,6 +291,13 @@ The following are the highest access settings available for objects in the Contr
 | Goals  |&nbsp; |&nbsp; |✓ |
 
 {style="table-layout:auto"}
+
+>[!IMPORTANT]
+>
+>Starting with the 24.7 release, Contributors have View access to Programs and Portfolios by default. 
+>
+>&nbsp;
+>Contributors onboarded before the 24.7 release will continue to have No access to Programs and Portfolios by default. You can update their access to view manually if needed.
 
 ### External User access level
 

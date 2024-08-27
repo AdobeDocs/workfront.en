@@ -4,9 +4,9 @@ content-type: reference
 product-area: system-administration
 keywords: access,model,funnel,diagram,levels,permissions
 navigation-topic: access-levels
-title: Functionality available for each object type for new access levels
+title: Functionality Available for Each Object Type for New Access Levels
 description: The following tables lists the functionality available for each object type in the various access levels.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a419e4fe-7781-48ac-8765-bd605fa44bc9
@@ -36,7 +36,7 @@ It also indicates which actions Workfront administrators can disable or enable u
 | Add document                 | ✓        | ✓      | &nbsp;      | &nbsp;        |
 | Add issue                    | ✓        | ✓      | &nbsp;      | &nbsp;        |
 | Add tasks                    | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Give updates/comments        | ✓        | ✓      | &nbsp;      | &nbsp;        |
+| Give updates/comments        | ✓        | ✓      | ✓      | &nbsp;        |
 | Change status                | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Log hours                    | ✓        | ✓      | &nbsp;      | &nbsp;        |
 | Edit assignments             | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
@@ -79,11 +79,11 @@ It also indicates which actions Workfront administrators can disable or enable u
 | Attach a custom form           | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Edit custom fields             | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Create an approval process     | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
-| Approve a task                 | ✓        | ✓      | &nbsp;      | &nbsp;        |
+| Approve a task                 | ✓        | ✓      | ✓           | &nbsp;        |
 | Edit finances                  | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Add/edit expenses              | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | View finance                   | ✓        | ✓      | &nbsp;      | &nbsp;        |
-| Add updates/comments           | ✓        | ✓      | &nbsp;      | &nbsp;        |
+| Add updates/comments           | ✓        | ✓      | ✓      | &nbsp;        |
 
 {style="table-layout:auto"}
 
@@ -127,7 +127,7 @@ Only users with a Standard license can have full access to portfolios.
 | Delete                   | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
 | Share                    | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
 | Share system-wide        | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| View                     | ✓&#42;   | ✓&#42; | &nbsp;      | &nbsp;        |
+| View                     | ✓&#42;   | ✓&#42; | ✓&#42;      | &nbsp;        |
 | Edit details             | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Attach custom forms      | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Edit custom fields       | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
@@ -151,7 +151,7 @@ Only users with a Standard license can have full access to programs.
 | Delete                       | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
 | Share                        | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
 | Share system-wide            | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| View                         | ✓&#42;   | ✓&#42; | &nbsp;      | &nbsp;        |
+| View                         | ✓&#42;   | ✓&#42; | ✓&#42;      | &nbsp;        |
 | Edit details                 | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Attach custom forms          | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Edit custom fields           | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
@@ -319,7 +319,7 @@ Only users with a Standard license can have full access to resource management. 
 |----------------------------------------------------------------|----------|--------|-------------|---------------|
 | Edit priorities and budget hours in the Planner                | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
 | Create, edit, delete Resource Pools&#42;&#42;                  | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
-| `Update Planned Hours in the Workload Balancer`&#42;&#42;&#42; | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
+| Update Planned Hours in the Workload Balancer&#42;&#42;&#42;   | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
 | View project priorities in the Resource Planner                | ✓&#42;   | &nbsp; | &nbsp;      | &nbsp;        |
 | View resource allocation in the Resource Planning tools        | ✓&#42;   | ✓&#42; | &nbsp;      | &nbsp;        |
 | View Resource Pools                                            | ✓&#42;   | ✓&#42; | &nbsp;      | &nbsp;        |

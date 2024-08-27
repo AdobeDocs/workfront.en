@@ -1,5 +1,5 @@
 ---
-title: Create an approval process for work items
+title: Create an Approval Process for Work Items
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
@@ -36,6 +36,8 @@ For information about approvals associated with documents or proofs, see the fol
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following:
 
 <table style="table-layout:auto"> 
@@ -62,6 +64,8 @@ You must have the following:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Create a system-level or group-level global approval process for work items
 

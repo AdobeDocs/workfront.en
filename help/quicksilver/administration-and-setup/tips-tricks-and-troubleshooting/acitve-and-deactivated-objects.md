@@ -3,9 +3,9 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: Active and deactivated objects
+title: Active and Deactivated Objects
 description: As an [!DNL Adobe Workfront] administrator, you can activate or deactivate objects within the system. We recommend that you never delete the objects that you can deactivate. You should simply deactivate the object to prevent future use and to remove it from the drop-down menus of other objects.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
@@ -76,7 +76,7 @@ A custom form must be active in order to appear on the [!UICONTROL Custom Form] 
 
 You can make a custom form active while editing the custom form.
 
-For information about editing custom forms and for a list of objects that you can associate them with, see [Create or edit a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+For information about editing custom forms and for a list of objects that you can associate them with, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Companies
 

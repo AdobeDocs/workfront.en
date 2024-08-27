@@ -1,10 +1,10 @@
 ---
-title: Brand your Adobe Workfront instance
+title: Brand your Adobe Workfront Instance
 user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
 description: As a Workfront administrator, you can brand Workfront with logos in the login screen, top navigation area, and Main Menu. You can also change the background image and color of the login screen.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
@@ -51,6 +51,8 @@ You can also change the background image and color of the login screen:
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
@@ -72,9 +74,11 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
++++
+
 ## Brand the login screen
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **System** > **Branding**.
 

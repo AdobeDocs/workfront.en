@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: group,preferences,task,groups,issue,unlock
 navigation-topic: create-and-manage-groups
-title: Configure timesheet and hour preferences for a group
+title: Configure Timesheet and Hour Preferences for a Group
 description: At the system level, an Adobe Workfront administrator can unlock the timesheet and hour preference sections General Preferences and Pre-Populate timesheets with. This allows group administrators to configure the options in those sections independently for their own groups.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
@@ -16,7 +16,7 @@ An Adobe Workfront administrator can unlock the following sections of timesheet 
 
 * General preferences
 * Where users can log time
-* Pre-Populate timesheets
+* Pre-populate timesheets
 
 If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for Workfront administrators (for any group).
 
@@ -31,6 +31,8 @@ For information about how a Workfront administrator unlocks a timesheet and hour
 >Group-level configuration is also possible for project preferences and for task and issue preferences. For information, see [Configure project preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md) and [Configure task and issue preferences for a group](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -50,6 +52,8 @@ You must have the following to perform the steps in this article:
 </table>
 
 &#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
+
++++
 
 ## Group timesheet and hour preferences
 
@@ -71,7 +75,7 @@ Consider the following information about configuring an unlocked timesheet or ho
 >
 >If you are a Workfront administrator, you can bypass steps 1-4 by going to Setup > Timesheet & Hours > Preferences, then searching for the group's name in the box at the top of the page.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left panel, click **Groups** ![](assets/groups-icon.png).
 

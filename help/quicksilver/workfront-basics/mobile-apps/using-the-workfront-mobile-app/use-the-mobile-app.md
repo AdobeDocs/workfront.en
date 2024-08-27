@@ -8,7 +8,9 @@ feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 10419dc8-8e7b-40fb-91fe-0ddbd0a493c9
 ---
-# Use the [!DNL Adobe Workfront] mobile app
+# Use the [!DNL Adobe Workfront] mobile app: article index
+
+<!-- Audited: 2/2024 -->
 
 Accelerate engagement and streamline work for teams and individuals in your organization through [!DNL Adobe Workfront's] mobile app, available on any iOS or Android device. With the app, you can:
 
@@ -30,9 +32,13 @@ In the mobile app, you can complete work items and view information like you do 
 * Create and process Workfront requests
 * Log time on a timesheet
 
+>[!IMPORTANT]
+>
+>The [!DNL Adobe Workfront] mobile app has replaced the [!DNL Workfront Proof] app. [!DNL Workfront] customers should now use the [!DNL Adobe Workfront] mobile app for conducting proof reviews and approvals.
+
 >[!NOTE]
 >
->The [!DNL Adobe Workfront] mobile app is replacing the [!DNL Workfront Proof] app, which is no longer supported and will be removed entirely with the 23.10 release in October. [!DNL Workfront] customers should now use the [!DNL Adobe Workfront] mobile app for conducting proof reviews and approvals.
+>Hyperlinks in text fields are not supported in the Workfront mobile app.
 
 For more information on the [!DNL Adobe Workfront] mobile app, review the following articles:
 
@@ -50,5 +56,4 @@ For more information on the [!DNL Adobe Workfront] mobile app, review the follow
 * [Approvals in the [!DNL Adobe Workfront] mobile app](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md)
 * [[!DNL Adobe Workfront] for [!DNL Mobile Device Management] (MDM)](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mdm.md)
 * [Configure [!DNL Adobe Workfront] for [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md)
-* [[!DNL Adobe Workfront] mobile app virtual assistant](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobile-virtual-assistant.md)
 

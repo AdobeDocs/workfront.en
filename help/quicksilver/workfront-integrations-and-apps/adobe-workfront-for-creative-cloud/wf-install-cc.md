@@ -33,6 +33,8 @@ You can install [!DNL Adobe Workfront for design and video] from the [!DNL Adobe
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -54,7 +56,9 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+
++++
 
 ## Prerequisites
 

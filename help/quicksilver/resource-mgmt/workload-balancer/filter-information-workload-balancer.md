@@ -22,7 +22,7 @@ As a resource manager, you can use the Workload Balancer to view and manage the 
 >
 >To efficiently find work items and to focus on the users or items you manage, we strongly recommend that you use filters in the Workload Balancer. This allows you to display the correct information before you start managing the assignments of your resources.
 >
->When you save and apply a new filter then navigate away from the Workload Balancer, the filter is preserved even after you log off and log back on.
+>When you save and apply a new filter, then navigate away from the Workload Balancer, the filter is preserved even after you log off and log back on.
 
 This article contains information about filters in the Workload Balancer. For information about filters in Workfront, see [Filters overview](../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -177,7 +177,7 @@ You can create a filter from scratch or edit one of the predefined filters. For 
 
       >[!IMPORTANT]
       >
-      >When referencing custom fields, you must type the field name and not the field label. The field label displays on a custom form attached to an object. For information about the difference between the label and the name of a custom field, see [Create or edit a custom form](../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md).
+      >When referencing custom fields, you must type the field name and not the field label. The field label displays on a custom form attached to an object. For information about the difference between the label and the name of a custom field, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
    1. (Conditional) If you clicked **Browse fields**, type the name of a field in the **Search** field and select it when it displays in the list.
 
@@ -199,6 +199,10 @@ You can create a filter from scratch or edit one of the predefined filters. For 
       > When you want to display work objects from a specific portfolio, you can apply the following filter: "Portfolio name contains marketing." This displays work items that belong to any portfolio that contains "marketing" in the name.
       >
       >![](assets/portfolio-name-filter-statement-wb-350x262.png)
+
+      >[!NOTE]
+      >
+      >To exclude projects in a status of On Hold, you must apply the following filter: "Project: Status does not equal On Hold." This prevents work items from On Hold projects from displaying in the Workload Balancer.
 
    1. (Optional) Click the **Delete** icon ![](assets/delete.png) to remove a filter criteria.
 

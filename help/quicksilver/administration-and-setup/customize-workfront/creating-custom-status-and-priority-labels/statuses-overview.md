@@ -3,7 +3,7 @@ user-type: administrator
 content-type: overview
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-title: Statuses overview
+title: Statuses Overview
 description: To find out what the current state of development is for a project, task, or issue, a user can view its status.
 author: Lisa
 feature: System Setup and Administration
@@ -19,6 +19,17 @@ To find out what the current state of development is for a project, task, or iss
 For example, in this project, the status Planning indicates that the project's manager is currently planning aspects of the project such as its timeline, task assignments, and approvals.
 
 ![Sample project status](assets/statuses-overview.png)
+
+You must have the following access and permissions to a project, task, or issue to view their status: 
+
+* View or higher access in your access level to Projects, Tasks, and Issues 
+* View or higher permissions on the object
+
+You must have the following access and permissions to a project, task, or issue to manually change their status: 
+
+* Edit access in your access level to Projects, Tasks, and Issues 
+* Contribute or higher permissions on the task or issue
+* Manage permissions on the project. 
 
 Changing the status of a project, task, or issue is usually a manual process. However, there are times when the status of an issue is changed automatically, depending on other factors happening in the system.
 

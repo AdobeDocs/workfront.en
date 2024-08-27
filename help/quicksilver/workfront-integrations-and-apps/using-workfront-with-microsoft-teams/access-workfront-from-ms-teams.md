@@ -32,6 +32,8 @@ The commands you use from [!DNL Microsoft Teams] to perform these actions are di
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -53,6 +55,8 @@ You must have the following access to perform the steps in this article:
 *To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
 *For more information about Workfront access requirements, see [Access requirements overview in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Prerequisites
 

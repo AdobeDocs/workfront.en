@@ -1,5 +1,5 @@
 ---
-title: Reset a user's preferences
+title: Reset a User's Preferences
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
@@ -18,6 +18,8 @@ As an Adobe Workfront administrator, you can reset or remove the user preference
 Individual users can also reset their own user preference settings.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article: 
 
@@ -43,6 +45,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## About affected settings
 
@@ -80,7 +84,7 @@ When you reset user preferences, some preferences are reverted to the system def
   </tr> 
   <tr> 
    <td>User Preferences</td> 
-   <td> <p>Reverted to the system default</p> <p>Email notifications revert to the system defaults.</p> </td> 
+   <td> <p>Reverted to the system default</p> <p>Email notifications revert to the system defaults. The default notifications are listed in <a href="/help/quicksilver/administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md">Event notifications available in Adobe Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>User-Defined Custom Tabs</td> 

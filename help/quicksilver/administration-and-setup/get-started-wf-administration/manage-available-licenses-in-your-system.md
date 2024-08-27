@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
-title: Manage available licenses in your system
+title: Manage Available Licenses in your System
 description: As an Adobe Workfront administrator, you can access information about your Workfront account, including the number of licenses purchased for your organization, as well as the number of those licenses currently in use.
 author: Lisa, Becky
 feature: System Setup and Administration
@@ -16,6 +16,8 @@ exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
 As an Adobe Workfront administrator, you can access information about your Workfront account, including the number of licenses purchased for your organization, as well as the number of those licenses currently in use.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -36,12 +38,30 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> </td> 
+   <td> <p>You must be a system administrator or a group administrator. The group administrator has a limited view of license information.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
+>[!NOTE]
+>
+>The following statements apply to the new plans only.
+>
+>For the Select plan:
+>
+>1. System administrators cannot set limits for Home Groups.
+>2. System administrators can see only the total number of licenses used across all Home Groups.
+>3. Group administrators cannot access the Licenses page at all.
+>
+>For the Prime and Ultimate plans:
+>
+>1. System administrators can add Home Groups to the Licenses page to view the utilization of licenses in those groups, and they can also set license limits.
+>2. Group administrators can access the Licenses page and view the utilization of licenses in the groups they manage that have been added to the Licenses page by system administrators.
+>3. Group administrators cannot view information for other Home Groups or add maximums.
+
++++
 
 ## View your organization's licenses
 
@@ -59,7 +79,11 @@ To view license information in your system:
    >
    >Proof licenses are available only to customers who have purchased the paid Workfront Proof add-on in addition to their Workfront license. For information about this add-on, see [Workfront Proof: article index](../../workfront-proof/workfront-proof.md).
 
-1. (Conditional) If you see the message **To set a maximum, you must add a Home Group**, add a Home Groups in your system as explained in the section [Add or remove a Home Group to the Licenses page](#add-or-remove-a-home-group-to-the-licenses-page) in this article.
+1. (Conditional) If you see the message **To set a maximum, you must add a Home Group**, add a Home Group in your system as explained in the section [Add or remove a Home Group to the Licenses page](#add-or-remove-a-home-group-to-the-licenses-page) in this article.
+
+   >[!NOTE]
+   >
+   >For the new plans, the Select plan does not allow administrators to view licenses by Home Group. You can only see the overall number of used licenses. The Prime and Ultimate plans provide the ability to set the maximum count of licenses per Home Group.
 
 ## View information about licenses for Workfront add-ons
 

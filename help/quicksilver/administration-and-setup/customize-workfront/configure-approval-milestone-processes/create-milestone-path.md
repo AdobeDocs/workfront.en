@@ -1,15 +1,17 @@
 ---
-title: Create a milestone path
+title: Create a Milestone Path
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
 description: As an Adobe Workfront administrator, you can create milestone paths which can then be applied to any project in the system. The changes you make to milestone paths in this area affect the entire Workfront system.
-author: Alina, Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
 ---
 # Create a milestone path
+
+<!--Audited: 07/2024-->
 
 <!--
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
@@ -18,6 +20,8 @@ NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THR
 As an Adobe Workfront administrator, you can create milestone paths which can then be applied to any project in the system. The changes you make to milestone paths in this area affect the entire Workfront system.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article: 
 
@@ -40,6 +44,8 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
++++
+
 ## Milestones and milestone paths
 
 You can associate the key tasks in a project with predefined milestones. This function can provide managers and other stakeholders with a high-level overview as to how a project is progressing.
@@ -52,7 +58,7 @@ For more information on how you can associate a milestone path with a project an
 
 ## Create a milestone path
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **Processes** > **Milestone Paths**.
 1. Click **New Milestone Path.**

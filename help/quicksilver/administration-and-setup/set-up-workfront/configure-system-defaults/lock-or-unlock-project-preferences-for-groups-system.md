@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Lock or unlock project preferences for all groups in the system
+title: Lock or Unlock Project Preferences for All Groups in the System
 description: Groups in your organization might need a project preference configured differently for their unique workflows. You can unlock the preference for all groups throughout the organization so that they can configure it on their own.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f5a94eaf-ebb8-424b-80ff-ba40cc985a6e
@@ -16,6 +16,8 @@ Groups in your organization might need a project preference configured different
 When a preference is unlocked and the group administrator modifies it, the projects associated with the group acquire the configuration for that preference from the group-level setting instead of from the system-level setting.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -38,11 +40,15 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
++++
+
 ## About locked and unlocked preferences
 
 Locking a project, task, or issue preference that you have configured at the system level ensures that everyone is using the same setting for that preference. Though you can still reconfigure a preference that you lock, group administrators can't reconfigure it for their groups.
 
 Conversely, unlocking a project, task, or issue preference allows group administrators more flexibility to manage the way their groups work with those items. When a preference is unlocked, group administrators can reconfigure it for their groups.
+
+If a field does not have a lock/unlock toggle, then it cannot be unlocked for group administrators to configure settings at the group level. Configuration is only available at the system level.
 
 For instructions on locking or unlocking a system-level project, task, or issue preference, see [Configure system-wide task and issue preferences](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
@@ -52,7 +58,7 @@ For instructions on locking or unlocking a system-level project, task, or issue 
 
 ## Unlock a project preference so that groups can configure it
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **[!UICONTROL Project Preferences]**, then click **[!UICONTROL Projects]**.
 

@@ -3,14 +3,16 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: access-levels
-title: Access to objects and areas by new licenses
+title: Access to Objects and Areas by New Licenses
 description: The table below tells you the highest level of access (Edit or View) that each of the Adobe Workfront licenses allow for the objects and areas in Workfront.
-author: Courtney
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
 ---
 # Access to objects and areas by new licenses
+
+<!-- Audited: 2/2024 -->
 
 The table below tells you the highest level of access (Edit or View) that each of the Adobe Workfront licenses allow for the objects and areas in Workfront.
 
@@ -33,7 +35,7 @@ The table below tells you the highest level of access (Edit or View) that each o
         <td>Projects</td>
         <td>Edit</td>
         <td>View</td>
-        <td>View (only the Details page)</td>
+        <td>View</td>
         <td>No Access</td>
     </tr>
     <tr>
@@ -54,14 +56,14 @@ The table below tells you the highest level of access (Edit or View) that each o
         <td>Portfolios</td>
         <td>Edit</td>
         <td>View</td>
-        <td>No Access</td>
+        <td>View</td>
         <td>No Access</td>
     </tr>
     <tr>
         <td>Programs</td>
         <td>Edit</td>
         <td>View</td>
-        <td>No Access</td>
+        <td>View</td>
         <td>No Access</td>
     </tr>
     <tr>

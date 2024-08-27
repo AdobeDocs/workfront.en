@@ -3,14 +3,16 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
-title: Manage hour types
+title: Manage Hour Types
 description: You can associate hour types with your hour entries. Hour types are labels you use to define your hour entries.
-author: Caroline
+author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: ad0d141b-3e56-4bb1-be24-4dd9203e7881
 ---
 # Manage hour types
+
+<!--Audited: 07/2024-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. 
 **Linked to Creating Billing Record-->
@@ -29,17 +31,19 @@ There are two sets of hour types:
    * Task Time
    * Issue Time
 
-   The [!DNL Workfront] administrator determines which project-specific hour types are made available, as described in [Define hour types and availability for timesheets](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
+   The [!DNL Workfront] administrator determines which project-specific hour types are made available, as described in [Define hour types and availability](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md).
 
    >[!NOTE]
    >
    >If you enable any project-specific hour types in your [!DNL Workfront] system, at least one project-specific hour type must be enabled on each project in your system. You cannot enable a project-specific hour type at the system level, and have no project-specific hour types available at the project level.
 
-* **General Hour Types**: General hours cannot be associated with a project, task, or issue, and are logged directly into a timesheet. For more information about logging time, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).
+* **General Hour Types**: General hours cannot be associated with a project, task, or issue, and are logged directly into a timesheet. 
+
+For information about logging hours and associating them with hour types, see [Log time](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article. 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -50,15 +54,20 @@ You must have the following access to perform the steps in this article:
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
-   <td>[!UICONTROL Plan]</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td> <p>New: [!UICONTROL Standard]</p>
+   <p>Current: [!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a [!DNL Workfront] administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>You must be a [!DNL Workfront] administrator.</p> <p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Built-in hour types
 
@@ -66,8 +75,8 @@ Workfront comes with a set of built-in hour types. These hour types cannot be ed
 
 The hour types that come with [!DNL Workfront] are:
 
-* **[!UICONTROL Sick Time]**: A general hour type that cannot be associated with hour entries on a project, task, or issue.
-* **[!UICONTROL Vacation Time]**: A general hour type that cannot be associated with hour entries on a project, task, or issue.
+* **[!UICONTROL Sick Time]**: A general hour type that cannot be associated with hour entries on a project, task, or issue. Sick Time hours cannot be counted as revenue. 
+* **[!UICONTROL Vacation Time]**: A general hour type that cannot be associated with hour entries on a project, task, or issue. Vacation Time cannot be counted as revenue. 
 * **[!UICONTROL General Overhead]**: A general hour type that cannot be associated with hour entries on a project, task, or issue. However, it can count as revenue in your project planning process.
 * **[!UICONTROL Project Time]**: A general hour type that can be associated only with hour entries on a project.
 * **[!UICONTROL Task Time]**: A general hour type that can be associated only with hour entries on a task.
@@ -75,11 +84,11 @@ The hour types that come with [!DNL Workfront] are:
 
 ## Create hour types
 
-As a [!DNL Workfront] administrator, you can create new hour types for your organization on both system and project levels. After you create hour types on the system and project levels, users can define which hour types are available for specific projects and users. For more information, see the [Define hour types and availability for timesheets](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
+As a [!DNL Workfront] administrator, you can create new hour types for your organization on both system and project levels. After you create hour types on the system and project levels, users can define which hour types are available for specific projects and users. For more information, see the [Define hour types and availability](../../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
 
 To create new hour types:
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **[!UICONTROL Timesheet & Hours]** > **[!UICONTROL Hour Types]**.
 
@@ -104,7 +113,11 @@ To create new hour types:
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Count As Revenue]</td> 
-      <td>Select this option if you want the hour entry associated with this hour type to affect your revenue calculations.</td> 
+      <td><p>Select this option if you want the hour entry associated with this hour type to affect your revenue calculations.</p>
+      <p>Sick Time and Vacation Time cannot be counted as revenue.</p>
+      <p><b>NOTE</b></p>
+      <p>When general hour types are counted as revenue, the Cost rate associated with the profile of the user logging the time is associated with the hour cost.  
+      </td> 
      </tr> 
     </tbody> 
    </table>
@@ -121,7 +134,7 @@ Deactivating hour types hides the hour types from anywhere in [!DNL Workfront] w
 
 To deactivate an hour type:
 
-1. Click **[!UICONTROL Setup]** near the upper-right corner of [!DNL Adobe Workfront] on the Global Navigation Bar.
+{{step-1-to-setup}}
 
 1. Expand **[!UICONTROL Timesheet & Hours Preferences]**, then click **[!UICONTROL Hour Types]**.
 

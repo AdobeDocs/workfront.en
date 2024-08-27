@@ -12,6 +12,10 @@ exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
 
 The [!DNL Adobe Workfront Fusion] Devtool allows you to understand and troubleshoot scenarios. The Devtool adds an extra panel to the [!DNL Chrome Developer Tools]. Using this debugger panel, you can check all the manual runs of your scenario, review all the performed operations, and see the details of every API call performed. You can see which module, operation, or single response caused the error, and use that knowledge to refine your scenario.
 
+>[!NOTE]
+>
+>Logging in the debugger panel will be limited or unavailable for confidential scenarios, automatic executions, and successful operations.
+
 For a video introduction and walkthrough of the Fusion Devtool, see 
 
 * [Fusion Development Tool](https://video.tv.adobe.com/v/3427031/){target=_blank}.
@@ -63,9 +67,13 @@ Accessing the Devtool differs based on whether you are using Fusion in the [!DNL
 * [Access the Devtool in the [!DNL Adobe Unified Experience]](#access-the-devtool-in-the-adobe-unified-experience)
 * [Access the Devtool in the classic [!DNL Fusion] experience](#access-the-devtool-in-the-classic-fusion-experience)
 
-### Access the Devtool in the [!DNL Adobe Unified Experience]
+### Access the Devtool in the [!DNL Adobe Unified Experience] or the new Fusion experience
 
-If you use Fusion in the Adobe Unified Shell, you can access the Dev Tool from the Scenario editor.
+If you use Fusion in the Adobe Unified Shell, or have updated to the new Fusion experience, you can access the Dev Tool from the Scenario editor.
+
+1. Click the **Helper tools** ![Helper tools](assets/debugger-icon.png) icon near the bottom of the screen.
+
+Or: 
 
 1. Go to the Scenario editor for the scenario you want to debug. 
   

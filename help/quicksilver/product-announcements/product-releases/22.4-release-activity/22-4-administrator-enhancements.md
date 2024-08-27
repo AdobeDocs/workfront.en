@@ -97,8 +97,6 @@ For more information, see [Early feature opt-in for Adobe Workfront Boards](/hel
 
 Editing calculations for custom fields is now easier with helpful error information indicated directly in the calculation. While you are creating a calculated field in a custom form, errors are highlighted in pink. When you hover over the highlighted portion, a tooltip displays to describe what the problem is.
 
-For more information, see [Add calculated data to a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/add-calculated-data-to-custom-form.md).
-
 [View a video demonstration of this feature.](https://video.tv.adobe.com/v/3412387/){target=_blank}
 
 ## Migration to Adobe Unified Experience

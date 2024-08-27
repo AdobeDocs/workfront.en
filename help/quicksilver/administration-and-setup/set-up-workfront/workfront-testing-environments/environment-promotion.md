@@ -8,48 +8,45 @@ description: The Environment Promotion capability is intended to provide the abi
 author: Becky
 feature: System Setup and Administration
 role: Admin
-hide: yes
-hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
 ---
-# Move objects from one [!DNL Workfront] environment to another
+# Move objects between [!DNL Workfront] environments using the [!DNL Workfront] Environment Promotion API
 
-<!-- 
-TO DO
+The Environment Promotion capability allows you  to move configuration-related objects from one environment to another. You can move these objects using the Workfront API as described in this article.
 
-Overview of value
-Check for any code changes
-Fix {}
-Add to tocs
--->
+For instructions on moving objects between environments using the Workfront application, see:
+
+* [Create or edit an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
+* [Install an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
+
 
 ## Access requirements
 
 You must have the following:
 
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!DNL Workfront] plan</td> 
-   <td> <p>Enterprise, Prime, or Ultimate</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p role="rowheader">[!DNL Workfront] license</p> </td> 
-   <td> <p>[!UICONTROL Plan] </p> <p>You must be a [!DNL Workfront] administrator. For information on [!DNL Workfront] administrators, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p role="rowheader">Object permissions</p> </td> 
-   <td> <p>All</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Support package</td> 
-   <td> <p>[!UICONTROL Plus], [!UICONTROL Preferred], or [!UICONTROL Enterprise]</p> <p>The standard support package does not have access to the Custom Refresh Sandbox, but it does have access to the Preview Sandbox.</p> </td> 
-  </tr> 
- </tbody> 
+<table>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] plan</strong>
+   </td>
+   <td> Prime or Ultimate (New plans only)
+   </td>
+  </tr>
+  <tr>
+   <td><strong>[!DNL Adobe Workfront] licenses</strong>
+   </td>
+   <td> [!UICONTROL Standard]
+   </td>
+  </tr>
+   <tr>
+   <td>Access level configurations
+   </td>
+   <td>You must be a [!DNL Workfront] administrator.
+   </td>
+  </tr>
 </table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 ## Prerequisites
 
@@ -59,66 +56,7 @@ The Create Promotion Package endpoint assumes that you have already configured t
 
 The Environment Promotion capability is intended to provide the ability to move configuration-related objects from one environment to another. It does not support the ability to move transactional objects (with limited exceptions).
 
-* [Work objects](#work-objects)
-* [Reporting objects](#reporting-objects)
-* [Custom data objects](#custom-data-objects)
-* [Organization objects](#organization-objects)
-* [Other configuration objects](#other-configuration-objects)
-
-
-### Work objects
-
-| Promotable object | Included promotable sub-objects |
-| --- | --- |
-| Project (PROJ) | Project<br>Task<br>Assignment<br>Predecessor<br>Company<br>Override Rate<br>Group<br>Role<br>Team<br>Approval Process<br>Approval Path<br>Approval Step<br>Step Approver<br>Schedule<br>Non Work Day<br>Queue Definition<br>Queue Topic Group<br>Queue Topic<br>Routing Rule<br>Milestone Path<br>Milestone<br>Hour Type<br>Resource Pool<br>Category<br>Category Parameter<br>Parameter<br>Parameter Group<br>Parameter Option<br>Category Display Logic | 
-| Template (TMPL) | Template<br>Template Task<br>Template Task Assignment<br>Template Task Predecessor<br>Company<br>Override Rate<br>Group<br>Role<br>Team<br>Approval Process<br>Approval Path<br>Approval Step<br>Step Approver<br>Schedule<br>Non Work Day<br>Queue Definition<br>Queue Topic Group<br>Queue Topic<br>Routing Rule<br>Milestone Path<br>Milestone<br>Hour Type<br>Resource Pool<br>Category<br>Category Parameter<br>Parameter<br>Parameter Group<br>Parameter Option<br>Category Display Logic | 
-
-### Reporting objects
-
-| Promotable object | Included promotable sub-objects |
-| --- | --- |
-| Layout Template (UITMPL) | Layout Template<br>Dashboard<br>Calendar<br>Calendar Section<br>External Page<br>Report<br>Filter<br>Grouping<br>View<br>Parameter  | 
-| Dashboard (PTLTAB) | Dashboard<br>Calendar<br>Calendar Section<br>External Page<br>Report<br>Filter<br>Grouping<br>View<br>Parameter  | 
-| Calendar (CALEND) | Calendar<br>Calendar Section | 
-| External Page (EXTSEC) | External Page |
-| Report (PTLSEC) | Report<br>Filter<br>Grouping<br>View<br>Parameter | 
-| Filter (UIFT) |  Filter<br>Parameter | 
-| Grouping (UIGB) | Grouping<br>Parameter | 
-| View (UIVW) | View<br>Parameter | 
-
-### Custom data objects
-
-| Promotable object | Included promotable sub-objects |
-| --- | --- |
-| Category (CTGY) | Category<br>Category Parameter<br>Parameter<br>Parameter Group<br>Parameter Option<br>Category Display Logic<br>Group | 
-| Parameter (PARAM) | Parameter<br>Parameter Option | 
-| Parameter Group (PGRP) | Parameter Group |
-
-### Organization objects
-
-| Promotable object | Included promotable sub-objects |
-| --- | --- |
-| Group (GROUP) | Group <br>Sub-groups (up to 5 levels) *<br>Category<br>Category Parameter<br>Parameter<br>Parameter Group<br>Parameter Option<br>Category Display Logic |
-| Role (ROLE) | Role |
-| Team (TEAM) | Team<br>Group |
-| Company (CMPY) | Company<br>Override Rate<br>Category<br>Category Parameter<br>Parameter<br>Parameter Group<br>Parameter <br>Category Display Logic<br>Group |
-| Portfolio (PORT) | Portfolio<br>Program<br>Group<br>Category<br>Category Parameter<br>Parameter<br>Parameter Group<br>Parameter Option<br>Category Display Logic |
-| Program (PRGM) | Program<br>Portfolio<br>Group<br>Category<br>Category Parameter<br>Parameter<br>Parameter Group<br>Parameter Option<br>Category Display Logic |
-
-### Other configuration objects
-
-| Promotable object | Included promotable sub-objects |
-| --- | --- |
-| Approval Process (ARVPRC) | Approval Process<br>Approval Path<br>Approval Step<br>Step Approver<br>Role<br>Team<br>Group |
-| Schedule (SCHED) | Schedule<br>Non Work Day<br>Group |
-| Milestone Path (MPATH) | Milestone Path<br>Milestone |
-| Timesheet Profile (TSPRO) | Timesheet Profile<br>Hour Type |
-| Hour Type (HOURT) | Hour Type |
-| Expense Type (EXPTYP) | Expense Type |
-| Risk Type (RSKTYP) | Risk Type |
-| Resource Pool (RSPL) | Resource Pool |
-
-\* Not currently available 
+For a list of promotable objects and their included promotable sub-objects, see [Supported objects for environment promotion](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) in the article [Overview of moving objects between Workfront environments](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 ## Authentication
 
@@ -429,38 +367,7 @@ The editable attributes are:
 1. description (string)
 1. status (string with value validation)
 
-Status options include:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>ASSEMBLING</td> 
-   <td><p>This status is automatically assigned while objects are being assembled.</p><p>This status cannot be set by a customer directly.</p></td> 
-  </tr> 
-  <tr> 
-   <td>DRAFT</td> 
-   <td><p>This status is assigned at the conclusion of an assembly process or when creating an empty promotion package.</p><p>It is possible for a customer to move the promotion package back to this status.</p><p>While in this status the promotion package cannot be installed in any environment.</p></td> 
-  </tr> 
-  <tr> 
-   <td>TESTING</td> 
-   <td><p>This status allows a promotion package to be installed in any Preview or Custom Refresh sandbox. While in this status the package cannot be installed in Production.</p></td> 
-  </tr> 
-  <tr> 
-   <td>ACTIVE</td> 
-   <td><p>This status allows a promotion package to be installed in any environment, including Production.</p><p>When a package status is set to ACTIVE, the <code>publishedAt</code> date is automatically set to the current timestamp of the request.</p></td> 
-  </tr> 
-  <tr> 
-   <td>DISABLED</td> 
-   <td><p>This status will be used to hide previously used promotion packages that will not be installed into any environment in the future.</p><p>When a package is in this status, it cannot be installed into any environment.</p><p>When a package status is set to DISABLED, the <code>retiredAt</code> date is automatically set to the current timestamp of the request.</p><p>Using this status is recommended over using the<code>DELETE /package</code> endpoint because it is retrievable and the installation history is retained for any deployments made with this package.</p></td> 
-  </tr> 
-  <tr> 
-   <td>ASSEMBLING_FAILED</td> 
-   <td><p>The promotion package is automatically put in this status if the ASSEMBLING stage fails.</p><p>To return the package to the ASSEMBLING stage, you must trigger the extraction process again.</p></td> 
-  </tr> 
-  </tbody> 
-</table>
+For a detailed description of available statuses, see [Environment promotion statuses](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) in the article [Overview of moving objects between Workfront environments](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 
 #### URL
@@ -616,6 +523,10 @@ For each promotion object, one of the following `actions`  will be set:
   <tr> 
    <td>USEEXISTING</td> 
    <td><p>When a corresponding record is found in the target environment, the action is set to USEEXISTING and a <code>targetId</code> is also captured in the <code>translationmap</code>.</p><p>When this action is set in the <code>translationmap</code> that is provided to the <code>/install</code> endpoint, the installation service will not create the record. However, it will use the <code>targetId</code> included in the map entry for other objects that may have a reference to this record.</p><p>For example, a "Default Group" may be found in the target environment to which a package is being deployed. It is not possible to have two "Default Group" records, so the installation service will use the GUID for the existing group in any other object creation actions that include a reference to the "Default Group", such as a project, form, or any other entity that is related to this group.</p><p><b>Note:</b> <ul><li><p>When the USEEXISTING action is assigned, the existing record in the target environment will not be modified. </p><p>For example, if the description for the "Default Group" has changed in the sandbox where the package was built from, and the description value is different in the target environment, the value will remain unchanged after an installation with this <code>translationmap</code>.</li></ul></td> 
+  </tr> 
+  <tr> 
+   <td>OVERWRITING</td> 
+   <td><p>This action will not be automatically set.</p><p>This action provides the ability to update an object that exists in the target environment. It provides an ability to do a manual override of an assigned CREATE or USEEXISTING action before executing the <code>/install</code> call.<ul><li>A user can update an object in the test environment, then use the OVERWRITING action to update that object in the target environment.</p></li><li><p>If the user installs one promotion package initially, and then a new (or updated) package in the future contains changes to objects in the initial package, the user can use OVERWRITING to replace (override) previously installed objects. </p><p>For more information on overwriting, see the section [Overwriting](#overwriting) in this article.</li><ul></td> 
   </tr> 
   <tr> 
    <td>IGNORE</td> 
@@ -997,7 +908,209 @@ _Empty_
 }
 ```
 
+## Overwriting
 
+This is a three step process. 
+
+1. Create a translation map (this is analogous to the "prepare installation" phase)
+1. Edit the generated translation map, setting the `action` and `targetId` fields for any object that they want to overwrite. The action should be `OVERWRITING`, and the `targetId` should be the uuid of  the object that should be overwritten
+1. Execute the installation.
+
+* [Step 1 - Create a Translation Map](#step-1---create-a-translation-map)
+* [Step 2 - Modify the Translation Map](#step-2---modify-the-translation-map)
+* [Step 3 - Install](#step-3---install)
+
+### **Step 1 - Create a Translation Map**
+
+#### URL
+
+```
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}/translation-map
+```
+
+#### Body 
+
+None
+
+#### Response
+
+A translation map, with a `202 - OK` status
+
+```json
+{
+    {objcode}: {
+        {object uuid}: {
+            "targetId": {uuid of object in destination},
+            "action": {installation action},
+            "name": {name of the object},
+            "isValid": true
+        },
+        {...more objects}
+    },
+    {...more objcodes}
+}
+```
+
+
+#### Example
+
+```json
+{
+    "UIVW": {
+        "109f611680bb3a2b0c0a8c1f5ec63f6d": {
+            "targetId": "6643a26b0001401ff797ccb318f97aa6",
+            "action": "CREATE",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIGB": {
+        "edb4c6c127d38910e4860eb25569a5cc": {
+            "targetId": "6643a26b000178fb5cc27b74cc1e87ec",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIFT": {
+        "f97b662e229fd09ee595d8d359ec88bd": {
+            "targetId": "6643a26b00015cdd6727b76d6fda1d1d",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "PTLSEC": {
+        "4bb80aa88a96420296a7f47bf866f162": {
+            "targetId": "4bb80aa88a96420296a7f47bf866f162",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "EXTSEC": {
+        "65f8637900015e4dceb6fe079bd5409d": {
+            "targetId": "65f8637900015e4dceb6fe079bd5409d",
+            "action": "USEEXISTING",
+            "name": "Asnyc List",
+            "isValid": true
+        }
+    },
+    "PTLTAB": {
+        "65f8638a00016422a83ddc3508852d0f": {
+            "targetId": "65f8638a00016422a83ddc3508852d0f",
+            "action": "CREATEWITHALTNAME",
+            "name": "Cool 2.0 The Best",
+            "isValid": true
+        }
+    }
+}
+```
+
+### Step 2 - Modify the Translation Map
+
+There is no endpoint for this step. 
+
+1. In the translation map returned in [Step 1 - Create a Translation Map](#step-1---create-a-translation-map), inspect the list of objects that will be installed. 
+1. Update the action field on each object to the desired install action. 
+1. Validate the `targetId` on each object. If the set action is `USEEXISTING` or `OVERWRITING`, the `targetId` should be set to the UUID of the target object in the destination environment. For any other action, the targetId should be an empty string. 
+
+    >[!NOTE] 
+    >
+    >The `targetId` is already populated if a collision was detected.
+
+### **Step 3 - Install**
+
+#### URL
+
+```
+POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/packages/{id}/install
+```
+
+#### Body
+ 
+This is an object with a single field `translationMap`, which should equal the modified translation map from [Step 2 - Modify the Translation Map](#step-2---modify-the-translation-map).
+
+```json
+{
+    "translationMap": {
+        {objcode}: {
+            {object uuid}: {
+                "targetId": {uuid of object in destination},
+                "action": {installation action},
+                "name": {name of the object},
+                "isValid": true
+            },
+            {...more objects}
+        },
+        {...more objcodes}
+    }
+}
+```
+
+
+#### Example
+
+```json
+{
+    "translationMap": {
+    "UIVW": {
+        "109f611680bb3a2b0c0a8c1f5ec63f6d": {
+            "targetId": "6643a26b0001401ff797ccb318f97aa6",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIGB": {
+        "edb4c6c127d38910e4860eb25569a5cc": {
+            "targetId": "6643a26b000178fb5cc27b74cc1e87ec",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "UIFT": {
+        "f97b662e229fd09ee595d8d359ec88bd": {
+            "targetId": "6643a26b00015cdd6727b76d6fda1d1d",
+            "action": "OVERWRITING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "PTLSEC": {
+        "4bb80aa88a96420296a7f47bf866f162": {
+            "targetId": "4bb80aa88a96420296a7f47bf866f162",
+            "action": "USEEXISTING",
+            "name": "Actual Portfolio Cost by Program",
+            "isValid": true
+        }
+    },
+    "EXTSEC": {
+        "65f8637900015e4dceb6fe079bd5409d": {
+            "targetId": "65f8637900015e4dceb6fe079bd5409d",
+            "action": "USEEXISTING",
+            "name": "Asnyc List",
+            "isValid": true
+        }
+    },
+    "PTLTAB": {
+        "65f8638a00016422a83ddc3508852d0f": {
+            "targetId": "65f8638a00016422a83ddc3508852d0f",
+            "action": "CREATEWITHALTNAME",
+            "name": "Cool 2.0 The Best",
+            "isValid": true
+        }
+    }
+}
+}
+```
+
+#### Response
+
+The response includes the `{uuid of the created installation}` and a `202 - ACCEPTED` status.
+
+Example: `b6aa0af8-3520-4b25-aca3-86793dff44a6`
 
 <!--table templates
 

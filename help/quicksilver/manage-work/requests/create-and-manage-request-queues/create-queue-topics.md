@@ -3,7 +3,7 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Create Queue Topics
 description: Queue Topics work in conjunction with Routing Rules to automatically assign incoming work to a user, job role, team, or to place it on a project. Queue Topics define the conditions that need to exist for the Routing Rule to be implemented.
-author: Alina
+author: Lisa
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
@@ -17,6 +17,8 @@ Queue Topics work in conjunction with Routing Rules to automatically assign inco
 There is no limit to the number of Queue Topics that can be assigned to a Topic Group or to a project. Queue Topics are a reportable object type.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 <!--drafted - replace table with P&P:
 
@@ -76,6 +78,8 @@ You must have the following access to perform the steps in this article:
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Create a Queue Topic
 
 1. Create a Routing Rule, a Topic Group, and a custom form, if you plan to associate them with your Queue Topic.   
@@ -83,7 +87,7 @@ For more detail about the information in this table, see [Access requirements in
 
    * [Create Routing Rules](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md) 
    * [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md) 
-   * [Create or edit a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md)
+   * [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
 
 1. Go to the project you chose to enable as a Help Request Queue and where you want to create a new queue topic.  
    For more information on how to designate a project as a Help Request Queue, see [Create a Request Queue](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
@@ -118,7 +122,7 @@ For more detail about the information in this table, see [Access requirements in
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Custom Forms</strong> </td> 
-      <td>Select any custom forms you want to associate with the queue topic. You must create custom forms for issues before you can associate them with queue topics. For information about creating custom forms, see <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-or-edit-a-custom-form.md" class="MCXref xref">Create or edit a custom form</a>.</td> 
+      <td>Select any custom forms you want to associate with the queue topic. You must create custom forms for issues before you can associate them with queue topics. For information about creating custom forms, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md">Design a form with the form designer</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Default Approval</strong></td> 

@@ -9,6 +9,8 @@ exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
 ---
 # View and manage comments on a timesheet
 
+<!-- Audited: April, 2024-->
+
 You can make comments on the following items in a timesheet:
 
 * On the timesheet
@@ -17,6 +19,8 @@ You can make comments on the following items in a timesheet:
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article. 
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -24,25 +28,28 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Review </p> </td> 
+   <td> <p>New: Light or higher </p>
+   <p>Current: Review or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access or higher to Tasks and Issues</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configuration</td> 
+   <td> <p>View or higher access to Tasks and Issues</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions on tasks and issues</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View or higher permissions on tasks and issues</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## View hour entry comments on a timesheet {#view-hour-entry-comments-on-a-timesheet}
 
@@ -52,9 +59,10 @@ By default, comments are hidden the first time you access a timesheet.
 
 To show comments on a timesheet:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
-
-1. Click **Timesheets**.
+{{step1-to-timesheets}}
+   
+   The **Timesheets** area opens. 
+   
 1. Open the timesheet where you want to display comments.
 1. Click **Show comments** in the upper-right corner of the timesheet.
    Comments display under the item where the hour entry and the comment were logged.
@@ -84,7 +92,16 @@ You can make general comments about the timesheet. Commenting on the overall tim
 
    Your comment displays in the [!UICONTROL Updates] section of the timesheet, in the Comemnts tab.
 
-1. (Optional) Click the **System Activity** tab to review system-generated updates.
+1. (Optional) Click the **System Activity** tab to review system-generated updates
+
+   Or 
+
+   Click the **All** tab to view system activity and user comments in a chronological order. 
+         
+      >[!TIP]
+      >
+      >   The All tab is a read-only tab and you cannot reply to comments from there. 
+
 
    For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 
@@ -133,7 +150,7 @@ You can comment only on tasks and issues in a timesheet. You cannot comment on p
 1. Click [!UICONTROL **Timesheets**].
 1. Go to the timesheet where you want to make a comment, and click [!UICONTROL **Timesheet**] in the left panel.
 1. Click the row of a task or an issue, then click [!UICONTROL **Open Summary**]. 
-1. Start typing an update in the [!UICONTROL **Updates**] area of the Summary panel, then click [!UICONTROL **Update**].
+1. Start typing an update in the [!UICONTROL **Updates**] area of the Summary panel, then click [!UICONTROL **Submit**].
 The update displays in the Updates section of the task and issue.
 1. (Optional) Click [!UICONTROL **Close Summary**] to close the Summary panel. 
 

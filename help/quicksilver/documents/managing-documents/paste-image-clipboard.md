@@ -22,6 +22,8 @@ This feature is browser-specific,&nbsp;as follows:
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following:
 
 <table style="table-layout:auto"> 
@@ -51,6 +53,8 @@ You must have the following:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
++++
+
 ## Paste from the Clipboard
 
 To add an image or screenshot&nbsp;to Workfront via the clipboard:
@@ -59,7 +63,7 @@ To add an image or screenshot&nbsp;to Workfront via the clipboard:
 
    For example, right-click on a browser image and select **Copy Image**, or copy an image from an image application such as Photoshop or SnagIt.
 
-1. In Workfront, Go to the **Documents**&nbsp;area where you want to add the image.
+1. In Workfront, Go to the **Documents** area where you want to add the image.
 1. Click **Add New**&nbsp;> **Paste from Clipboard**.
 
    >[!NOTE]

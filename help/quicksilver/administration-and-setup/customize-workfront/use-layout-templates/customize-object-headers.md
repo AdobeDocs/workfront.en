@@ -1,5 +1,5 @@
 ---
-title: Customize object headers using a layout template
+title: Customize Object Headers Using a Layout Template
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -27,6 +27,8 @@ After configuring a layout template, you must assign it to users for changes you
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 
@@ -52,12 +54,14 @@ You must have the following access to perform the steps in this article:
   </tr>
 </table>
 
-If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see [Create or modify custom access levels](../../add-users/configure-and-grant-access/create-modify-access-levels.md). 
+If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see [Create or modify custom access levels](../../add-users/configure-and-grant-access/create-modify-access-levels.md).
+
++++
 
 ## Customize object headers
 
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
-1. In the **Customize what users see** drop-down menu, select **Projects**, **Tasks** or **Issues**.
+1. In the **Customize what users see** drop-down menu, select **Projects**, **Tasks**, or **Issues**.
 
     <!--when this will be possible for more than 3 objects, at production, make this more general: update the sentence above to say "select an object you want to customize in the Customize what users see drop-down menu). -->
 

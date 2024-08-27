@@ -37,7 +37,7 @@ The following are benefits of the [!DNL Workfront Scenario Planner] to help you 
 
 ## Locate the [!DNL Workfront Scenario Planner] in Workfront
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Scenarios]**.
+{{step1-to-scenario-planner}}
    
    <!--drafted for Shell: or click the **Main Menu** <insert icon> in the upper-left corner, if it's available.-->
 

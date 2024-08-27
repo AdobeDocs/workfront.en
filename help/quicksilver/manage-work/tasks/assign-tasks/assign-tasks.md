@@ -10,7 +10,15 @@ exl-id: 611b136e-2c3f-4eac-9d75-e8c12e06148d
 ---
 # Assign tasks
 
-{{highlighted-preview}}
+<!--Audited: 07/2024-->
+
+<!--remove the span class preview from everywhere but the Rate Card roles references must stay in yellow; replace the intro with preview and fast track only but not sure if with the link to third quarter release?!-->
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release, see [Fourth Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
 
 You can assign tasks to users, job roles, or teams to indicate who is responsible for completing the tasks. You can assign a task to more than one resource at a time.
 
@@ -42,66 +50,38 @@ In addition to this article, we recommend that you read the following articles f
 
 ## Access requirements
 
-<!--drafted for P&P - replace table below with this:
+<!-- Audited: 07/2024-->
+
++++ Expand to view access requirements for the functionality in this article.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Current license: Standard</p> 
-   Or
-   <p>Legacy license: Work or higher</p>
+   <td> <p>New: Standard</p>
+   <p>Current: Work or higher</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects and Tasks</p> <p>View or higher access to Users</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Projects and Tasks</p> <p>View or higher access to Users</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute or higher permissions to tasks</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> </td> 
   </tr> 
  </tbody> 
 </table>
 
--->
 
-You must have the following access to perform the steps in this article:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Work or higher</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Projects and Tasks</p> <p>View or higher access to Users</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute or higher permissions to tasks</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-*To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
++++
 
 ## Considerations for multiple assignments to job roles, teams, and users
 
@@ -158,13 +138,13 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
 ## Assign a single task
 
 1. Go to a task that you want to assign.
-1. Click **Assign to** in the **Assignments** field in the header of the task or issue.
+1. Click **Assign to** in the **Assignments** field in the header of the task 
 
    Or
 
-   Click the name of the assignments if the task or issue is already assigned.
+   Click the name of the assignments if the task is already assigned.
 
-   ![](../assign-tasks/assets/advanced-assignments-link-from-task-header-nwe-350x267.png)
+   ![Assignments](assets/assignments-box-in-task-header.png)
 
 1. Do one of the following:
 
@@ -177,10 +157,12 @@ You cannot make a team be a Primary on a task/ issue. (Alina) -->
       >
       >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
       >
-      ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+      ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
       
-   * (Conditional) Click one of the names in the **Suggested assignments** list, if this list displays. For more information, see [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md). 
+   * (Conditional) Click one of the names in the <span class="preview">**Suggested assignments**</span>, **User and teams**, or **Job roles**, or <span class="preview">**Rate card roles**</span> lists when they display. For more information, see [Smart assignments overview](../../../manage-work/tasks/assign-tasks/smart-assignments.md). 
+
+      You can start typing the name of any user, team, or job role to assign to the task, then select it when it displays in the list. 
    
    * Click **Advanced**
 
@@ -225,7 +207,7 @@ To assign tasks in a list:
       >
       >You must have the View Contact Info setting enabled in your access level for Users to view users' emails. For information, see [Grant access to users](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
       >
-      ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select the System/Default Job Role to use the default billing rate for the assignment, or select a Rate Card Job Role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
+      ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select a Job role to use the default billing rate for the assignment, or select a Rate Card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>
 
 
 1. (Conditional) When visible in the **Assignments** field, click the **People** icon  in the upper-right corner of the assignments box to open the **Advanced Assignments** box and create advanced assignments.

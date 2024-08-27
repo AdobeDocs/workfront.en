@@ -1,5 +1,5 @@
 ---
-title: New licenses overview
+title: New Licenses Overview
 user-type: administrator
 content-type: reference
 product-area: system-administration
@@ -15,11 +15,11 @@ exl-id: 10a5c04d-adbf-4985-a81c-1b33868ce260
 
 <!-- Audited: 12/2023 -->
 
-Your organization purchased a certain number of licenses when it purchased Adobe Workfront. As a Workfront administrator, you give one of 3 types of Workfront licenses to each user when you assign the user an access level.
+Your organization purchased a certain number of licenses when it purchased Adobe Workfront. As a Workfront administrator, you give one of 2 types of Workfront licenses to each user when you assign the user an access level.
 
 ## How new Workfront licenses and new access levels are tied together
 
-The 3 types of new Workfront licenses allow different levels of access to Workfront. Each access level is attached to one of these licenses.
+The 2 types of new Workfront licenses allow different levels of access to Workfront. Each access level is attached to one of these licenses.
 
 Instead of assigning a license to a user, you assign them the access level attached to that license.
 

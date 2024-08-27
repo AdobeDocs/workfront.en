@@ -1,5 +1,5 @@
 ---
-title: Add calculated fields with the form designer
+title: Add Calculated Fields to a Form
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -9,7 +9,7 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
 ---
-# Add calculated fields with the form designer
+# Add calculated fields to a form
 
 You can add a calculated custom field that uses existing data to generate new data when the custom form is attached to an object. 
 
@@ -34,6 +34,8 @@ A calculated custom field can contain:
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -41,21 +43,26 @@ You must have the following to perform the steps in this article:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront plan*</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront plan</p> </td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>
+   <p>New: Standard</p>
+   <p>or</p>
+   <p>Current: Plan</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Administrative access to custom forms</p> <p>For information about how Workfront administrators grants this access, see <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Grant users administrative access to certain areas</a>.</p> </td> 
-  </tr>  
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Administrative access to custom forms</p> </td> 
+  </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access level configurations you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Reuse an existing calculated custom field in a custom form
 
@@ -75,7 +82,7 @@ You can also have a different calculation for the same field, on the new form. K
 
 To reuse an existing calculated custom field:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **Custom Forms** in the left panel.
 
@@ -113,7 +120,7 @@ To reuse an existing calculated custom field:
 >
 >Before you create a new calculated custom field, identify the existing fields that you want to include so that you are sure that the data necessary for the calculation is present in Workfront.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **Custom Forms** in the left panel.
 
@@ -226,7 +233,7 @@ To reuse an existing calculated custom field:
 
          **Calculated custom fields in multi-object custom forms**
 
-         In a multi-object custom form, the selected object types must be compatible with at lesat one field referenced in the form's calculated custom fields. Fields not compatable with the object will display N/A on the form. 
+         In a multi-object custom form, the selected object types must be compatible with at least one field referenced in the form's calculated custom fields. Fields not compatible with the object will display N/A on the form. 
 
          To ensure the calculated field is showing a correct result for all object types, you must use `$$OBJCODE` to define a calculation for each object type.
 
@@ -272,6 +279,7 @@ To reuse an existing calculated custom field:
       If you type an opening parenthesis, the closing parenthesis is added automatically.
 
       +++ **Expand to see helpful tips**
+      
       >[!TIP]
       >
       >You can do any of the following to get help with your calculation:
