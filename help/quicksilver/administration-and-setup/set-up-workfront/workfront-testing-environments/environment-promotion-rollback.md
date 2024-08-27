@@ -12,6 +12,8 @@ recommendations: noDisplay, noCatalog
 ---
 # Roll back an environment promotion package
 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 After you have installed a package, you can roll it back. This removes the changes that the package made in the target environment, and restores the affected objects to their previous configurations.
 
 You can roll back a promotion package within 25 hours after it is installed. After 25 hours, the roll back functionality is no longer available for that install.
