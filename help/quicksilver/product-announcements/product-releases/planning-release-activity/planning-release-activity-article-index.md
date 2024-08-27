@@ -4,6 +4,7 @@ title: "Adobe Workfront Planning Release Activity: Article Index"
 description: This is the release activity for the Adobe Workfront Planning product. 
 author: Alina
 feature: Product Announcements
+role: Admin
 recommendations: noDisplay, noCatalog
 ---
 

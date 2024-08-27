@@ -4,6 +4,7 @@ title: "Adobe Workfront Planning Release Activity for the 24.10 Release"
 description: This is the release activity for the Adobe Workfront Planning product for the 2024 Fourth Quarter. 
 author: Alina
 feature: Product Announcements
+role: Admin
 recommendations: noDisplay, noCatalog
 ---
 

@@ -101,7 +101,7 @@ For more information, see [Adobe Workfront Planning object limitation overview](
 
 ### Enable Workfront Planning notifications for access requests  
 
-Production and Preview: August 28, 2024 
+Preview and Production: August 28, 2024 
 
 When you request access to a workspace or a view, the user you request access from receives an email notification about the request. After the request is granted, you receive an email notification with a confirmation that your request was approved. 
 
@@ -126,7 +126,7 @@ For information, see the "Formula" section of the article [Create fields](/help/
 
 ### Enable Workfront Planning notifications for access requests
 
-Production and Preview: August 28, 2024 
+Preview and Production: August 28, 2024 
 
 When you request access to a workspace, the user you request access from receives  an email notification about the request. After the request is granted, you receive an email notification with a confirmation or a denial of your request. You can access the view or workspace from the email notification, when the permission has been granted.  
 
@@ -144,9 +144,9 @@ For information, see [Manage record views](/help/quicksilver/planning/views/mana
 
 ### Create records by submitting a request 
 
-Production: August 28, 2024 
-
 Preview: August 21, 2024
+
+Production: August 28, 2024 
 
 You can now create records by submitting a request to a request form associated with a record type.  
 
