@@ -36,9 +36,9 @@ This article describes the following information about record views:
 
 ## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article. 
++++ Expand to view access requirements for Workfront Planning. 
 
-You must have the following access to perform the steps in this article: 
+You must have the following to be able to access Workfront Planning:  
 
  <table style="table-layout:auto"> 
 <col> 
@@ -79,8 +79,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license*</p></td> 
-   <td> <ul><li><p>Standard, Light, or Contributor, to view Workfront Planning information</p></li>
-   <li><p>Standard, to create workspaces</p></li></ul>
+   <td><p> Standard </p>
    <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
@@ -92,7 +91,7 @@ You must have the following access to perform the steps in this article:
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a view</p>  
-   <p>View or higher permissions to a view to temporarily change the view settings</p> </td> 
+   <p>View permissions to a view to temporarily change the view settings</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout template</p></td> 
@@ -101,9 +100,9 @@ You must have the following access to perform the steps in this article:
 </tbody> 
 </table> 
 
- *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).   
+ *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
- +++
++++   
 
 <!--old: 
 

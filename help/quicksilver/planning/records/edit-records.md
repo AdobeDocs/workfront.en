@@ -1,8 +1,9 @@
 ---
 title: Edit records
 description: You can edit record information in Adobe Workfront Planning. You must create record types before you can start creating and editing records.
-hidefromtoc: yes
-hide: yes
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
 ---
@@ -23,8 +24,6 @@ For information about creating records, see [Create records](/help/quicksilver/p
 <!-- mention in here that the fields in the Details view are the same as the ones in the table view -- this article is linked from the Manage record views one to refer to this info-->
 
 ## Access requirements
-
-<!--Updated for GA-->
 
 +++ Expand to view access requirements for Workfront Planning.
 

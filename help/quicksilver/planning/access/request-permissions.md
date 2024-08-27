@@ -12,7 +12,7 @@ title: Request Permissions to a View or a Workspace
 description: You can request permissions to a view or a workspace that others sent you a link to which has not been previously shared with you. 
 author: Alina
 feature: Workfront Planning
-role: User
+role: User, Admin
 ---
 -->
 
@@ -21,6 +21,8 @@ role: User
 # Request permissions to a view or a workspace
 
 You can request permissions to a view or a workspace that others sent you a link to which has not been previously shared with you. 
+
+Requesting permissions to a view is similar to requesting permissions to a workspace. 
 
 ## Access requirements
 
@@ -80,8 +82,10 @@ You must have the following to be able to access Workfront Planning:
   </tr> 
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
-   <td>  <p>Manage permissions to a view</p>  
-   <p>Only users with Manage permissions to a workspace can share a view publicly.</p></td> 
+   <td>  <p>After your request for permission is granted, you could gain the following permissions:</p>
+   <ul><li><p>View or Manage for a view</p></li>
+   <li><p>View, Contribute, or Manage to a workspace</p></li></ul>  
+   <p>Only users with Manage permissions to a workspace and a view can share a view publicly.</p></td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout template</p></td> 
@@ -94,20 +98,32 @@ You must have the following to be able to access Workfront Planning:
 
  +++
 
-## Request and grant permissions to a view or workspace
+## Request permissions to a view or workspace
 
-When someone shares with you a link to a workspace or a view where you do not have access, the following scenario exists:
+Requesting permissions to a view is similar to requesting permission to a workspace. 
+
+When someone shares with you a link to a workspace or a view where you do not have access:
 
 1. Click the link shared with you for the view or the workspace. 
     
     A **You have no access** page displays to inform you that you do not have access to the view or the workspace.
 
-1. (Conditional) If the link shared is for a view for a workspace where you have access, click **Open with existing view**. If you have permissions to access the workspace, the record type page opens in the default view. 
+    ![](assets/request-access-to-view.png)
 
-1. (Optional) Add a personalized message in the box available.
+1. (Conditional) If the link shared is for a view for a workspace where you have access, click **Open with existing view**. If you have permissions to access the workspace, the record type page opens in the default view.
 
-1. Click **Request access**. 
+1. (Optional and conditional) If you do not have permissions to view the workspace, add a personalized message in the box available, then click **Request access**. 
 
-    All users with Manage permissions to the view or the workspace receive an email notification for your request.
-1. Users that received the email notification for the access request go to the view or the workspace and grant you permissions.
-1. You receive an email notification that notifies you that you have been granted the access to the view or workspace. You can access the view or workspace from the email notification. 
+    All users with Manage permissions to the view or the workspace receive the following notifications for the access request:
+      * An in-app notification
+         ![](assets/in-app-notification-for-access-request.png)
+      * An email notification
+         ![](assets/email-notification-for-access-request.png)
+   
+   For information about granting permissions to views and workspaces, see the following articles:
+
+      * [Share views](/help/quicksilver/planning/access/share-views.md)
+      * [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md)
+1. (Conditional) When the view or workspace manager grants you permissions to the view or workspace, you receive an email notification with a confirmation that the permissions were granted or denied. <!--check this - I was not able to test this-->
+
+

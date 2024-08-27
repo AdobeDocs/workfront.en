@@ -1,17 +1,14 @@
 ---
-title: Manage records in the Planning section of Adobe Workfront objects
+title: Manage Records in the Planning Section of Adobe Workfront Objects
 description: You can display the Workfront Planning records connected to Adobe Workfront objects in the Planning section of a Workfront object, in the left panel.
-hidefromtoc: yes
-hide: yes
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
 ---
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--add also Group and Company when they are available-->
-
-<!-- opening the Details preview and page is not possible yet - hid those steps, but add them when released-->
-
 
 # Manage records in the Planning section of Adobe Workfront objects
 
@@ -28,8 +25,6 @@ The Planning section is available for the following Workfront objects:
 * Company-->
 
 ## Access requirements
-
-<!--Updated for GA-->
 
 +++ Expand to view access requirements for Workfront Planning. 
 
