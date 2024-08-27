@@ -63,6 +63,14 @@ The following table shows the timeline of the release of Workfront Planning, sta
 
 ## Week of August 26, 2024
 
+### Enable Workfront Planning notifications for access requests  
+
+Production and Preview: August 28, 2024 
+
+When you request access to a workspace or a view, the user you request access from receives  an email notification about the request. After the request is granted, you receive an email notification with a confirmation or a denial of your request. You can access the view or workspace from the email notification, when the permission has been granted.  
+
+For information, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md).  
+
 ### Reporting capabilities for Workfront Planning with the Canvas Dashboard 
 
 Production: August 28, 2024 
