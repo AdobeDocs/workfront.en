@@ -1,24 +1,13 @@
 ---
 title: Manage the timeline view
 description: Access and edit records in a timeline view on the Adobe Workfront Planning record type page. Customize the timeline with filters, groupings, and settings. Use the Breakdown feature to display connected records. 
-hidefromtoc: yes
-hide: yes
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
 ---
 # Manage the timeline view
-
-<!--
-title: Manage the timeline view 
-description: You can display records in a timeline view, when accessing the record type page in Adobe Workfront Planning. 
-hidefromtoc: yes
-hide: yes
-author: Alina
-feature: Work Management
-role: User
--->
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 {{planning-important-intro}}
 
@@ -28,11 +17,9 @@ For information about record views, see [Manage record views](/help/quicksilver/
 
 ## Access requirements
 
-<!--Updated for GA-->
++++ Expand to view access requirements for Workfront Planning. 
 
-+++ Expand to view access requirements for the functionality in this article. 
-
-You must have the following access to perform the steps in this article: 
+You must have the following to be able to access Workfront Planning:  
 
  <table style="table-layout:auto"> 
 <col> 
@@ -73,8 +60,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront license*</p></td> 
-   <td> <ul><li><p>Any, to view Workfront Planning information</p></li>
-   <li><p>Standard, to create workspaces</p></li></ul>
+   <td><p> Standard </p>
    <p>Workfront Planning is not available for legacy Workfront licenses</p> 
   </td> 
   </tr> 
@@ -86,7 +72,7 @@ You must have the following access to perform the steps in this article:
 <tr> 
    <td role="rowheader"><p>Object permissions</p></td> 
    <td>   <p>Manage permissions to a view</p>  
-   <p>View or higher permissions to a view to temporarily change the view settings</p> </td> 
+   <p>View permissions to a view to temporarily change the view settings</p> </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Layout template</p></td> 
@@ -95,7 +81,9 @@ You must have the following access to perform the steps in this article:
 </tbody> 
 </table> 
 
- *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).   
+ *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++     
 
 <!--OLD: 
 
@@ -155,7 +143,6 @@ You must have the following access to perform the steps in this article:
 
 *For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
-+++
 
 ## Manage a timeline view {#manage-a-timeline-view}
 

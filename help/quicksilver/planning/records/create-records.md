@@ -1,8 +1,9 @@
 ---
-title: Create records
+title: Create Records
 description: When using Adobe Workfront Planning, a record is an instance of a record type. You can create unique records for each record type in Workfront Planning by manually adding them to the table view, importing them from a list, duplicating them, or creating them as you connect them to other records. 
-hidefromtoc: yes
-hide: yes
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
 ---
@@ -30,8 +31,6 @@ For information about managing records in the table or timeline views, see the f
 * [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md)
 
 ## Access requirements
-
-<!--Updated for GA-->
 
 +++ Expand to view access requirements for Workfront Planning. 
 
