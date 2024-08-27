@@ -174,7 +174,7 @@ This functionality includes:
 
 * Resource Grid will be replaced with the new Resource Planner
 
-  For more information, see [Resource Planning in Adobe Workfront](../../../../resource-mgmt/resource-planning/resource-planning-overview.md).
+  For more information, see [Resource Planning in Adobe Workfront](../../../../resource-mgmt/resource-planning/resource-planning-overview.md)
 
 * Resource Estimates on the Business Case will be replaced with the new Resource Budgeting section of the Business Case in the Resource Planner
 
