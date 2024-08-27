@@ -8,7 +8,6 @@ description: Explore frequently asked questions regarding Workfront environment 
 author: Becky
 feature: System Setup and Administration
 role: Admin
-recommendations: noDisplay, noCatalog
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
 ---
 # Environment promotion FAQ

@@ -8,7 +8,6 @@ description: Troubleshoot common issues with environment promotion.
 author: Becky
 feature: System Setup and Administration
 role: Admin
-recommendations: noDisplay, noCatalog
 exl-id: 830dd573-d954-4ba2-a1d3-d1645b3fbac8
 ---
 # Environment promotion troubleshooting
