@@ -2067,6 +2067,7 @@ feature-set: Workfront
     * [License type overview when using Adobe Workfront Planning](planning/access/license-type-overview.md)
     * [Share workspaces](planning/access/share-workspaces.md)
     * [Share views](planning/access/share-views.md)
+    * [Request permissions to a view or a workspace](planning/access/request-permissions.md)
   * Adobe Workfront Planning records {#adobe-workfront-planning-records}
     * [Records: article index](planning/records/records-information.md) 
     * [Create records](planning/records/create-records.md)
@@ -2083,6 +2084,10 @@ feature-set: Workfront
     * [Manage the record page layout](planning/records/manage-the-record-page.md)
     * [Manage records in the Planning section of Adobe Workfront objects](planning/records/manage-records-in-planning-section.md)
     * [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md)
+  * Adobe Workfront Planning requests {#adobe-workfront-planning-requests}
+    * [Adobe Workfront Planning Requests: article index](planning/requests/requests-article-index.md)
+    * [Create and manage a request form in Adobe Workfront Planning](planning/requests/create-request-form.md)
+    * [Submit Adobe Workfront Planning requests to create records](planning/requests/submit-requests.md)
   * Adobe Workfront Planning views {#adobe-workfront-planning-views}
     * [Views: article index](planning/views/views-information.md)
     * [Manage record views](planning/views/manage-record-views.md)

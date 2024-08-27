@@ -156,7 +156,7 @@ OLD:
 * You can update the calculation of a formula field after you save it, and the results of the calculation update automatically for all the records of the same type. 
 * You must add the fields you reference in formulas as they display in the Workfront Planning interface. 
 * You can reference only fields that display in the table view of a record type or on the record details page. 
-<!--* You can format the result of a formula calculation by choosing from the following options:
+* You can define the format for the value of a formula calculation by choosing from the following format options:
 
    * Text
    * Number
@@ -165,8 +165,7 @@ OLD:
    * Tags
    * Date
 
-   For more information, see the "Formula" section in the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). -->
-
+   For more information, see the "Formula" section in the article [Create fields](/help/quicksilver/planning/fields/create-fields.md).
 
 ## Supported formulas
 

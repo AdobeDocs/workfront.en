@@ -57,9 +57,7 @@ The following table shows the timeline of the release of Workfront Planning, sta
 
 *The beta and early release phases were available to a limited group of customers. 
 
-<!--Workfront Planning has temporarily been removed from the Preview and Sandbox environments since January 2024. All features documented in this articles are currently available in Production.  -->
-
-<!--
+<!--Workfront Planning has temporarily been removed from the Preview and Sandbox environments since January 2024. All features documented in this articles are currently available in Production. -->
 
 ## Week of August 26, 2024
 
@@ -70,6 +68,12 @@ Preview and Production release: August 28, 2024
 Workfront Planning is available for all customers who purchased a Workfront Planning license, in addition to their Workfront license. Contact your account representative for more information about purchasing Workfront Planning.
 
 For information about features released after August 28, 2024 to Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+### Workfront Planning is now available in Preview
+
+Preview: August 28, 2024
+
+With the release of Workfront Planning to general availability, the Workfront Planning capabilities are now included in the Preview environment. 
 
 ### New Adobe Workfront Planning packages and object limitations 
 
@@ -97,25 +101,17 @@ For more information, see [Adobe Workfront Planning object limitation overview](
 
 ### Enable Workfront Planning notifications for access requests  
 
-Production and Preview: August 28, 2024 
+Preview and Production: August 28, 2024 
 
-When you request access to a workspace or a view, the user you request access from receives  an email notification about the request. After the request is granted, you receive an email notification with a confirmation or a denial of your request. You can access the view or workspace from the email notification, when the permission has been granted.  
+When you request access to a workspace or a view, the user you request access from receives an email notification about the request. After the request is granted, you receive an email notification with a confirmation that your request was approved. 
+
+You can access the view or workspace from the email notification, when the permission has been granted.  <!--see if they also get an in-app notification-->
 
 For information, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md).  
 
-### Reporting capabilities for Workfront Planning with the Canvas Dashboard 
-
-Production: August 28, 2024 
-
-Preview: To be determined 
-
-You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
-
 ### Define format for formula field values
 
-Production: <date> 
-
-Preview: To be determined 
+Preview and Production: August 28, 2024
 
 As a workspace manager, you can now define the format for the values displayed in a formula field. You can choose from the following formats: 
 
@@ -128,14 +124,52 @@ As a workspace manager, you can now define the format for the values displayed i
 
 For information, see the "Formula" section of the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
 
-### AI Assistant has been re-enabled
+### Enable Workfront Planning notifications for access requests
 
-Production and Preview: August 28, 2024
+Preview and Production: August 28, 2024 
 
-The Workfront AI Assistant has been re-enabled for the Workfront Planning area. 
+When you request access to a workspace, the user you request access from receives  an email notification about the request. After the request is granted, you receive an email notification with a confirmation or a denial of your request. You can access the view or workspace from the email notification, when the permission has been granted.  
 
-For more information about the AI Assistant, see [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+For information, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md).
 
+### Real-time presence indicators in a record view 
+
+Preview and Production: August 28, 2024
+
+To understand what information is edited by other users when working in a view, we have introduced real-time presence indicators for this area of Workfront planning. 
+
+The field edited by another user will now be highlighted in the table view, and other users' avatars will be visible to you in the upper-right corner of all views. 
+
+For information, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
+
+### Create records by submitting a request 
+
+Preview: August 21, 2024
+
+Production: August 28, 2024 
+
+You can now create records by submitting a request to a request form associated with a record type.  
+
+The following capabilities are included in this update: 
+
+* As a workspace manager, you can create a request form and associate it with a record type. You can share a link to this form with others, including external users. 
+
+* When users access the form, complete it, and submit the request, a record is created for the record type associated with the request form.  
+
+For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).  
+
+### Workfront Planning records can be referenced through an External field 
+
+Preview and Production: August 28, 2024 
+
+With the release of Workfront Planning's public API, you can now reference Planning records in external fields in Workfront custom forms. 
+
+For information, see the following articles: 
+
+* [Examples of the External lookup field in a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md) 
+* [Adobe Workfront Planning API basics](/help/quicksilver/planning/general/planning-api-basics.md)
+
+<!--
 ### New Settings menu in the Calendar view
 
 Preview and Production: August 28, 2024 
@@ -159,14 +193,23 @@ There is a new Settings option with which you can personalize the look and feel 
  When matching colors to a certain field, you can select only fields with color-coded options. 
 
  For more information, see [Manage the calendar view](/help/quicksilver/planning/views/manage-the-calendar-view.md). 
+
+
+### The AI Assistant has been re-enabled for Workfront Planning
+
+Production and Preview: August 28, 2024
+
+The Workfront AI Assistant has been re-enabled for the Workfront Planning area. 
+
+For more information about the Workfront Planning AI Assistant, see [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
  
-### Real-time presence indicators in the table view 
 
-Preview and Production: August, 2024
+### Reporting capabilities for Workfront Planning with the Canvas Dashboard 
 
-To understand what information is edited by other users when working in the table view, we have introduced user real-time presence indicators for this area of Workfront planning. The field edited by another user will now be highlighted and the other user's avatar will be visible to you in the upper-right corner of the table view. 
+Production and Production: August 28, 2024 
 
-For information, see [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md). 
+You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+
 -->
 
 ## Week of August 19, 2024

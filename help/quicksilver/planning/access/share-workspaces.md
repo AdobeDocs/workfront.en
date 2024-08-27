@@ -180,7 +180,6 @@ To share a workspace with others:
 1. Share the copied link with others. Users who receive the link must be active users and log in to Workfront to be able to access the workspace. 
 1. Click **Save**.
 
-<!--
 ## Grant permissions to a workspace from a permission request
 
 Users who access a link to a workspace to which they do not have permissions can request permissions to the workspace. All users with Manage permissions to the workspace receive the permission request and can grant or deny the permissions. 
@@ -201,8 +200,7 @@ Users who access a link to a workspace to which they do not have permissions can
 1. Select the user for whom you want to approve or deny the permission, then click **Approve all** or **Deny all**. 
 1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
 
-   If you approved the request, the users are added to the sharing box of the workspace. 
--->
+   If you approved the request, the users are added to the sharing box of the workspace. The user requesting the permission receives an email confirmation that their request was approved. <!--will they also get an in-app notification??-->
 
 
 ## Remove permissions to a workspace

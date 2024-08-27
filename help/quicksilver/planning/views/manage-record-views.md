@@ -31,6 +31,7 @@ This article describes the following information about record views:
 * [Create and edit a view](#create-or-edit-record-views) 
 * [Delete a view](#delete-views)
 * [Duplicate a view](#duplicate-views)
+* [Enable the real-time presence indicators in a view](#enable-the-real-time-presence-indicator-in-a-view)
 <!--* [Add a view as a favorite](#add-a-view-as-a-favorite) - not possible yet-->
 
 
@@ -337,3 +338,22 @@ The sharing permissions of the original view do not transfer to the duplicated v
     
     The view is duplicated and the new view's name follows the following pattern: `Original view's name (Copy)`. The new view tab displays at the end of all view tabs. 
 
+## Enable the real-time presence indicator in a view
+
+The avatars of other users who are editing record information at the same time as you display in the upper-right corner of all record views, by default.
+
+When you display the table view, you can also view which field another user is editing at the time you are viewing the record. 
+
+1. Go to a record type page and open any view.
+1. (Conditional) If there are other users editing the records of the selected type at the same time, their avatars display in the upper-right corner of the view. 
+1. Click the drop-down menu next to the avatars, the select the **Show collaborators** toggle. The toggle is selected by default. 
+
+    ![](assets/show-collaborators-toggle-selected.png)
+
+1. (Conditional) Open a table view, and the field which another person is editing is outlined in the color corresponding to the outline of their their avatar in the table view. 
+
+    ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
+
+    >[!TIP]
+    >
+    >You can select the **Show collaborators** toggle from any view. The edited field is outlined only in the table view. 

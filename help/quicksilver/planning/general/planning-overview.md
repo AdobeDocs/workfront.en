@@ -371,5 +371,5 @@ For an up-to-date list of released features, see [Adobe Workfront Planning relea
 
 * [Adobe Workfront Planning API basics](/help/quicksilver/planning/general/planning-api-basics.md): The goal for the Adobe Workfront Planning API is to simplify building integrations with Planning by introducing a REST-ful architecture that operates over HTTP.
 
-* Workfront Planning reporting capabilities: You can now view Workfront Planning information in a report in Workfront using the Workfront Canvas Dashboard. For information, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+* **Workfront Planning reporting capabilities**: You can now view Workfront Planning information in a report in Workfront using the Workfront Canvas Dashboard. For information, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 

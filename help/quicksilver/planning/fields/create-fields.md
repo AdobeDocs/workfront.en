@@ -443,7 +443,7 @@ For more information, see [Formula fields overview](/help/quicksilver/planning/f
     >
     >* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a formula field for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Budget in the formula you are creating for the Activity record type. 
 
-<!--1. In the **Format** field, select from the following choices to identify the format of the result displayed in the formula-type field:
+1. In the **Format** field, select from the following choices to identify the format of the result displayed in the formula-type field:
 
     * **Text**: The result of the formula field displays as plain text. 
     * **Number**: The result of the formula field displays as a number. 
@@ -453,24 +453,21 @@ For more information, see [Formula fields overview](/help/quicksilver/planning/f
     
         >[!TIP]
         >
-        >Tags is the perfect format for fields that show arrays. In this case, each array member displays as a separate tag.
+        >We recommend tags for fields that show arrays. In this case, each array member displays as a separate tag.
+        
+        ![](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
 
     * **Date**: The result of the formula field displays as a date. 
 
-
         A preview of what the result will look like displays under the **Format** field. 
-
-        ![](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
 
         >[!WARNING]
         >
         >If the result of the formula does not match the selected format, the field will show an error message where it displays. 
 
--->
 1. Click **Create**.
 
      The new formula field is added as a column to the record type, and its values can be associated with records.
-
 
 ### People
 
