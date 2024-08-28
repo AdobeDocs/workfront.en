@@ -8,7 +8,6 @@ description: The Environment Promotion capability is intended to provide the abi
 author: Becky
 feature: System Setup and Administration
 role: Admin
-recommendations: noDisplay, noCatalog
 exl-id: dd3c29df-4583-463a-b27a-bbfc4dda8184
 ---
 # Move objects between [!DNL Workfront] environments using the [!DNL Workfront] Environment Promotion API
