@@ -186,6 +186,8 @@ You must have the following to be able to access Workfront Planning:
 
     * A record type from another workspace that was configured to connect from other workspaces. For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). 
 
+        ![](assets/connect-record-from-another-workspace-new-connection-tab.png)
+
         >[!TIP]
         >
         >If there are no record types that are configured to connect from other workspace, the workspace section does not display.

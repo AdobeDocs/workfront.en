@@ -89,7 +89,7 @@ The following are features that are currently available in Workfront Planning:
 * Receive in-app notifications             
 * Receive email notifications             
 * Add thumbnails and cover pages to records             
-* View history of changes on a record             
+* View the history of changes on a record             
 * Rich Text formatting for Paragraph fields             
 * Access Planning records from Workfront objects             
 * Connect Planning records from Workfront objects 
@@ -168,8 +168,6 @@ The following are the main Workfront Planning objects and concepts:
 
 * **Workspace**: A collection of record types that define the operational lifecycle of a certain organization. A workspace is the work frame of an organizational unit. 
 
-    One Workfront instance can have a maximum of 1,000 workspaces.
-
     ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png) 
     
     For more information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md). 
@@ -198,9 +196,15 @@ The following are the main Workfront Planning objects and concepts:
 
     ![](assets/workspaces-page-with-templates-thumbnails.png)
 
-    Adobe Workfront Planning comes with a Sales, Marketing, and Product Management workspace template. 
+    Adobe Workfront Planning contains the following templates:
     
-    For more information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).
+    * Basic: Marketing Management
+    * Advanced: Marketing Management
+    * Enterprise: Marketing Management
+    * Sales Management
+    * Product Management
+    
+    For more information, see [List of workspace templates](/help/quicksilver/planning/architecture/workspace-templates.md).
 
 * **Fields**: Fields are attributes that you can add to record types. Fields contain information about the record type. <!--check the shot below, "Connection" needs to be in lowercase-->
 
@@ -210,7 +214,7 @@ The following are the main Workfront Planning objects and concepts:
     
     * The fields you add for a record type automatically become associated with all records of that type and can be used to capture data about those records. 
 
-    * Fields display as columns in the Table view applied to a record  type page. They also display in the record's page. 
+    * Fields display as columns in the Table view applied to a record type page. They also display in the record's page. 
 
     * Fields are unique to a record type and do not transfer from one record type to another. 
 
@@ -244,7 +248,7 @@ The following are the main Workfront Planning objects and concepts:
     * Last modified by
     * Last modified date
    
-* **Connected record types**, **Connected records**, and **Connected fields**:  You can create a connection between the following entities in Workfront Planning:
+* **Connected record types**, **Connected records**, and **Connected fields**: You can create a connection between the following entities in Workfront Planning:
     
     * Two Workfront Planning record types.
     * A record type and a Workfront project, program, portfolio, company, or group object type. 
@@ -287,7 +291,7 @@ The following are the main Workfront Planning objects and concepts:
     
     The following are view types that you can apply to the record type page: 
 
-    * **Table view**: Displays records and their fields, includind connected and lookup fields, in a table format. The rows of the table are the individual records, and the columns are the record fields. This is the default view. 
+    * **Table view**: Displays records and their fields, including connected and lookup fields, in a table format. The rows of the table are the individual records, and the columns are the record fields. The table view is the default view. 
 
         ![](assets/table-view-example.png)
 
@@ -322,7 +326,7 @@ To locate Workfront Planning:
     >    Your Workfront administrator can add the Planning area to the Select landing page option in your layout template, so you can open Planning as soon as you log in to Workfront. For information, see [Customize the landing page using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md). 
 
 1. (Conditional and optional) If you are a Workfront administrator, click one of the following tabs:
-    * **Workspaces I'm on**: Displays workspaces you created or workspaces that are shared with you.
+    * **Workspaces I'm on**: Displays workspaces that you created or workspaces that are shared with you.
     * **Other workspaces**: Displays all other workspaces in the system.
 
     For all other users, both workspaces that they created or are shared with them display in the **Workspaces** area.
