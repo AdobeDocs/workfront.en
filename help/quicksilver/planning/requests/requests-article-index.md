@@ -1,15 +1,14 @@
 ---
-title: "Adobe Workfront Planning Requests: article index"
+title: "Adobe Workfront Planning Requests: Article Index"
 description: You can create a request form for each record type, share it with users and they can add new records by completing and submitting the form. 
-hidefromtoc: yes
-hide: yes
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 ---
 # Adobe Workfront Planning Requests: article index
 
 You can create a request form for each record type, share it with users and they can add new records by completing and submitting the form. 
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 This section contains the following articles:
 

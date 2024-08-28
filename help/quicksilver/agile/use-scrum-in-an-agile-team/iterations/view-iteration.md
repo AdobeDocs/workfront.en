@@ -1,7 +1,7 @@
 ---
 product-area: agile-and-teams
 navigation-topic: iterations
-title: View an iteration
+title: View an Iteration
 description: You can view all iterations for a given team, or you can view an individual iteration. Iterations display data about the stories, issues, and documents that are contained in the iteration.
 author: Lisa
 feature: Agile
@@ -13,6 +13,8 @@ You can view all iterations for a given team, or you can view an individual iter
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -22,21 +24,25 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Review] or higher</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>New: [!UICONTROL Light] or higher</p> 
+   or
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## View iterations assigned to a given team
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Teams]**.
+{{step1-to-team}}
 
 1. (Optional) Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
 
@@ -49,7 +55,7 @@ You must have the following access to perform the steps in this article:
    >**[!UICONTROL Current Iteration]** only displays in the left panel when it is assigned to the layout template and there is at least one task or issue on the iteration. For more information, see [Customize the left panel using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 
-1. (Optional) Click the name of the specific iteration that you want to view.\
+1. (Optional) Click the name of the specific iteration that you want to view.
    The iteration stories display.
 
    ![[!UICONTROL Stories in iteration]](assets/iteration-stories-list-NWE.png)

@@ -117,3 +117,4 @@ A job role must be active in order to appear in any type-ahead fields of all oth
 You can deactivate job roles when you edit them.
 
 For information about deactivating job roles, see [Deactivate job roles](../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
+

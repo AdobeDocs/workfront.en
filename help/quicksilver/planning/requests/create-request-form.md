@@ -1,8 +1,9 @@
 ---
 title: Create and Manage a Request Form in Adobe Workfront Planning
 description: After selecting a record type in Adobe Workfront Planning area, you can create a request form and associate it with that record type. You can then share a link to it with other internal or external users. Users with a link to the form can fill out the field values on it, and by submitting it, they can add a new record for the record type associated with it. 
-hidefromtoc: yes
-hide: yes
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 ---
 # Create and manage a request form in Adobe Workfront Planning
@@ -11,9 +12,13 @@ recommendations: noDisplay, noCatalog
 
 {{planning-important-intro}}
 
-After selecting a record type in Adobe Workfront Planning area, you can create a request form and associate it with that record type. You can then share a link to it with other internal or external users. <!--double-check on the external part of it-->
+You can create a request form and associate it with a record type in Adobe Workfront Planning. You can then share a link to it with other internal or external users. 
 
-Users with a link to the form can fill out the field values on it, and by submitting it, they can add a new record for the record type associated with it. 
+Users with a link to the form can update the field values on it, and add new records by submitting it. 
+
+This article describes how a workspace manager can create a request form associated with a record type. 
+
+For information about submitting a request to a record type to create a record, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
 
 ## Access requirements
 
@@ -164,9 +169,11 @@ You must have the following to be able to access Workfront Planning:
 
    >[!IMPORTANT]
    >
-   >When you select Anyone with the link, anyone, even people outside your organization without a Workfront account can access the form and submit a new record. 
+   >When you select **Anyone with the link**, anyone can access the form and submit a new record, even people outside your organization that don't have a Workfront account. 
 
-1. (Conditional) If you selected **Anyone with the link** in the previous step, select the **Link expiration date** from the available calendar. People will receive an error after the link expires and you must update the link date before they can access the form again.  <!--add info here about how long the expiration date should be; logged bug-->    
+1. (Conditional) If you selected **Anyone with the link** in the previous step, select the **Link expiration date** from the available calendar. People will receive an error after the link expires and you must update the link date before they can access the form again. 
+
+   You can select future dates within 180 days from the current date.     
 
 1. Click **Save and copy link** to save the sharing details for the form.
 
@@ -185,6 +192,7 @@ You must have the following to be able to access Workfront Planning:
    >[!TIP]
    >
    >There is an indication that the link is publicly shared when this is the case.
+   >![](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
          
 
    

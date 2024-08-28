@@ -1,25 +1,25 @@
 ---
 content-type: reference
 product-area: reports and dashboards
-navigation-topic: data lake
-title: Data Lake data dictionary
-description: This page contains information about the structure and content of the data in Workfront data lake.
+navigation-topic: data connect
+title: Workfront Data Connect data dictionary
+description: This page contains information about the structure and content of the data in Workfront Data Connect.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
 ---
-# Workfront data lake data dictionary
+# Workfront Data Connect data dictionary
 
-This page contains information about the structure and content of the data in Workfront data lake. 
+This page contains information about the structure and content of the data in Workfront Data Connect. 
 
 >[!NOTE]
 >
->The data in Workfront data lake refreshes every four hours, so recent changes may not be immediately reflected.
+>The data in Data Connect refreshes every four hours, so recent changes may not be immediately reflected.
 
 ## Table types
 
-There are a number of table types you can utilize to view your Workfront data in a way that provides the most insight.
+There are a number of table types you can utilize in Data Connect to view your Workfront data in a way that provides the most insight.
 
 * **Current table**
 
@@ -37,9 +37,9 @@ There are a number of table types you can utilize to view your Workfront data in
 
 ## Entity relationship diagram
 
-Objects in Workfront (and, therefore, in your data lake) are defined not only by their individual values, but by their relationships with other objects. The entity relationship diagram below provides a high-level mapping of object relationships in the Workfront data lake. The diagram can be viewed and downloaded using the following link:
+Objects in Workfront (and, therefore, in your Data Connect data lake) are defined not only by their individual values, but by their relationships with other objects. The entity relationship diagram below provides a high-level mapping of object relationships in Data Connect. The diagram can be viewed and downloaded using the following link:
 
-[Workfront data lake entity relationship diagram](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
+[Data Connect entity relationship diagram](/help/quicksilver/reports-and-dashboards/data-lake/assets/Workfront-data-lake_entity-relationship-diagram.pdf)
 
 >[!IMPORTANT]
 >
@@ -56,7 +56,7 @@ There are a number of date objects that provide information about when specific 
 
 ## Terminology table
 
-The following table correlates object names in Workfront (as well as their names in the interface and API) with their equivalent names in the data lake.
+The following table correlates object names in Workfront (as well as their names in the interface and API) with their equivalent names in Data Connect.
 
 <table>
 <thead>

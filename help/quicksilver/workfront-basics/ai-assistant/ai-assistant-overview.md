@@ -4,14 +4,8 @@ content-type: reference
 description: AI Assistant overview
 author: Becky
 feature: Get Started with Workfront
-hide: yes
-hidefromtoc: yes
 ---
 # AI Assistant overview
-
->[!IMPORTANT]
->
->The Workfront AI Assistant has been temporarily removed and it will be available at a later date.
 
 Workfront's AI Assistant helps you accomplish your work by offering in-app information and suggestions in a natural-language conversation. AI Assistant can give you a smoother work experience by
 
@@ -43,6 +37,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).## Prerequisites to AI Assistant
+
+## Prerequisites to AI Assistant
 
 To enable AI Assistant for your organization, **all** of the following must apply:
 

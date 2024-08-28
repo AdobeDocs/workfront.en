@@ -93,7 +93,7 @@ You must have the following to share objects:
 
 1. In the **Grant < object name > access to** box, begin typing the name of the user, team, role, group, or company with whom you want to share the object, then click the name when it appears in the drop-down list.
 
-   ![](assets/new-share-button-add-people.png) {width="350" }
+   ![](assets/new-share-button-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -126,7 +126,8 @@ You must have the following to share objects:
 
    ![](assets/new-share-advanced-permissions-dropdown.png)
 
-   View, Manage and Contribute have different advanced options depending on the selected object.  
+   View, Manage and Contribute have different advanced options depending on the selected object.
+
    For more information about permission levels, see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 1. (Optional) To make this object available to all users in the system, click the dropdown menu under **Who has access**, then in the drop-down menu click **Everyone in the system can view**.
@@ -169,7 +170,7 @@ You must have the following to share objects:
 
    Click the **Share** button next to the object name.
 
-      ![](assets/new-share-button.png)
+   ![](assets/new-share-button.png)
 
    Or
 
@@ -177,11 +178,11 @@ You must have the following to share objects:
 
    Click the **More** icon ![](assets/more-icon.png) next to the object name, then click **Share**.
 
-      ![](assets/share-a-document-350x160.png)
+   ![](assets/share-a-document-350x160.png)
 
 1. In the **Give < Object Name > access to** box, begin typing the name of the user, team, role, group, or company with whom you want to share the object, then click the name when it appears in the drop-down list.
 
-   ![](assets/list-share-add-people.png) {width="350" }
+   ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -228,7 +229,7 @@ You must have the following to share objects:
    >
    >This option is not available for all objects.
 
-   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png) {width="350" }
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png){width="350"}
 
 1. (Conditional) If you made the object public to external users, click **copy link**, then distribute the link to external users.
 
@@ -248,11 +249,11 @@ You must have the following to share objects:
 
 1. Click the checkbox next to the object(s) you would like to share, then click the **Share icon** ![](assets/share-icon.png) at the top of the page.
 
-      ![](assets/list-share-object-select.png) {width="350" }
+   ![](assets/list-share-object-select.png){width="350"}
 
 1. In the **< Object > Access** window appears, begin typing in the **Edit < Object Name > access for** box the name of the user, team, role, group, or company with whom you want to share the object(s), then click the name when it appears in the drop-down list.
 
-   ![](assets/list-share-add-people.png) {width="350" }
+   ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -280,10 +281,10 @@ You must have the following to share objects:
      >
      >You can grant Contribute permissions only to the following objects: 
      >
-     >   * Projects
-     >   * Tasks
-     >   * Issues
-     >  
+     >* Projects
+     >* Tasks
+     >* Issues
+     >
 
    * **Manage:** Users have full access to the object without administrative rights (which are granted at the access level). In addition, they also have all the View and Contribute permissions.
 
@@ -322,7 +323,7 @@ You must have the following to share objects:
    >
    >This option is not available for all objects.
 
-   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png) {width="350" }
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png){width="350"}
 
 1. (Conditional) If you made the object(s) public to external users, click **copy link**, then distribute the link to external users.
 

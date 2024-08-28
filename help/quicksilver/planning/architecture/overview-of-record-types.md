@@ -1,12 +1,11 @@
 ---
-title: Record types overview
+title: Record Types Overview
 description: Record types are the building blocks of a Adobe Workfront Planning workspace.
-hidefromtoc: yes
-hide: yes
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
 ---
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Record types overview
 

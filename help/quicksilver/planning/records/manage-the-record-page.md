@@ -1,12 +1,12 @@
 ---
-title: Manage the record page layout
+title: Manage the Record Page Layout
 description: You can edit the layout of the record preview and page in Adobe Workfront Planning.
-hidefromtoc: yes
-hide: yes
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 ---
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Manage the record page layout
 
@@ -29,8 +29,6 @@ For information, see the following articles:
 * [Create records](/help/quicksilver/planning/records/create-records.md)
 
 ## Access requirements
-
-<!--Updated for GA-->
 
 +++ Expand to view access requirements for Workfront Planning. 
 
