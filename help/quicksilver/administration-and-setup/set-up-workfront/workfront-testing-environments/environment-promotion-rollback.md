@@ -16,7 +16,7 @@ recommendations: noDisplay, noCatalog
 
 After you have installed a package, you can roll it back. This removes the changes that the package made in the target environment, and restores the affected objects to their previous configurations.
 
-You can roll back a promotion package within 25 hours after it is installed. After 25 hours, the rollback functionality is no longer available for that install.
+You can roll back a promotion package within 24 hours after it is installed. After 24 hours, the rollback functionality is no longer available for that install.
 
 ## Access requirements
 
@@ -51,7 +51,16 @@ For more detail about the information in this table, see [Access requirements in
 
   For instructions, see [Install an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
 
-* Fewer than 25 hours must have passed since the package was installed.
+
+## Determine if a specific package deployment can  be rolled back
+
+To know whether a specific package deployment can be rolled back, consider the following:
+
+* Fewer than 24 hours must have passed since the package was installed.
+* Only the most recent package deployment can be rolled back.
+* A failed deployment can be rolled back.
+* Rollbacks cannot be rolled back.
+
 
 ## Roll back an installed environment promotion package
 
@@ -67,7 +76,7 @@ For more detail about the information in this table, see [Access requirements in
    
    >[!IMPORTANT]
    >
-   >The deployment must have occurred fewer than 25 hours before you roll it back. Installations more than 25 hours old cannot be rolled back.
+   >The deployment must have occurred fewer than 24 hours before you roll it back. Installations more than 24 hours old cannot be rolled back.
 
 1. (Optional) In the Rollback Preview area, view the changes that will occur when the deployment is rolled back. 
 1. Click **Roll Back** in the upper-right corner of the screen.
