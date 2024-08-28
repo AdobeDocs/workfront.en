@@ -2,7 +2,7 @@
 product-area: agile-and-teams;setup
 navigation-topic: get-started-with-agile-in-workfront
 title: Configure Kanban
-description: You create a Kanban or Scrum agile team in [!DNL Adobe Workfront]. 
+description: You can configure the following options for Kanban agile teams during or after the team is created.
 author: Lisa
 feature: Agile
 exl-id: b4c417a6-64c8-43e0-bace-b73572247b3e
@@ -40,26 +40,26 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
    <td> <p>New: [!UICONTROL Standard]</p> 
    or
    <p>Current: [!UICONTROL Work] or higher</p> </td> 
   </tr>
 
   <tr> 
-   <td role="rowheader">Access level</td> 
+   <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to Teams</p>  </td> 
   </tr> 
 
  </tbody> 
 </table>
 
-*To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -142,7 +142,7 @@ To configure story cards that are assigned to the agile team to display addition
 1. Click the **[!UICONTROL Switch Teams]** icon ![Switch Teams icon](assets/switch-team-icon.png), then either select a new team from the drop-down menu or search for a team in the search bar.
 
 1. Select the agile team that you want to manage.
-1. Click the **[!UICONTROL More]** menu, then select **[!UICONTROL Edit]**.\
+1. Click the **[!UICONTROL More]** menu, then select **[!UICONTROL Edit]**.
    
    ![Edit team](assets/edit-team-settings-350x205.png)
 
@@ -173,8 +173,8 @@ To limit WIP for your Kanban team:
 
 1. In the **[!UICONTROL Agile]** section, in the **[!UICONTROL Methodology]** section, ensure Kanban is selected.
 
-1. In the **[!UICONTROL Story Board]** section, in the **[!UICONTROL WIP Limit]** field, specify the maximum number of items allowed in each column of the [!UICONTROL Kanban] agile story board. You can set a different limit for each column. The maximum limit you can set for each column is 100.\
-   When set, the WIP limit displays a warning message on the [!UICONTROL Kanban] agile story board any time the limit is exceeded for any column on the story board. This warning message is displayed only the first time the WIP limit is exceeded. This warning message does not display on any columns that have a status that equates with [!UICONTROL Complete].\
+1. In the **[!UICONTROL Story Board]** section, in the **[!UICONTROL WIP Limit]** field, specify the maximum number of items allowed in each column of the [!UICONTROL Kanban] agile story board. You can set a different limit for each column. The maximum limit you can set for each column is 100.
+   When set, the WIP limit displays a warning message on the [!UICONTROL Kanban] agile story board any time the limit is exceeded for any column on the story board. This warning message is displayed only the first time the WIP limit is exceeded. This warning message does not display on any columns that have a status that equates with [!UICONTROL Complete].
    The WIP limit is simply a visual warning and does not restrict your team from having more items in a single column than the limit you set.
 
    ![WIP limit](assets/wip-limit-350x193.png)
