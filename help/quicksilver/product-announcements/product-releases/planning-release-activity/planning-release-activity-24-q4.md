@@ -24,6 +24,9 @@ recommendations: noDisplay, noCatalog
 
 This article describes the features that are releasing for Workfront Planning during the 2024 Fourth Quarter release. 
 
+For information about features included in this release, see [Adobe Workfront Planning release activity for 2024](/help/quicksilver/planning/general/release-activity.md).
+
+
 <!--keep the sentence below for all future quarterly release pages-->
 <!--remove the general activity mention after fourth quarter 2024 is released-->
 
@@ -47,4 +50,3 @@ The following are some of the main capabilities of Adobe Workfront Planning:
 
 For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).  
 
-For information about features released to Workfront Planning prior to this launch, also see [Adobe Workfront Planning release activity for 2024](/help/quicksilver/planning/general/release-activity.md).
