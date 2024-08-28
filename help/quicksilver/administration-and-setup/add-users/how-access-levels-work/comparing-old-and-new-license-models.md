@@ -12,6 +12,8 @@ role: Admin
 ---
 # Compare functionality across license models
 
+This table shows the functionality available to licenses in the legacy and new licensing model.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -49,8 +51,8 @@ role: Admin
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <td>✓</td> 
-   <td></td> 
+   <!--<td>✓</td> 
+   <td></td> -->
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
