@@ -1,7 +1,7 @@
 ---
 product-area: agile-and-teams
 navigation-topic: burndown
-title: Use an alternate team schedule for burndown charts
+title: Use an Alternate Team Schedule for Burndown Charts
 description: Schedules that are defined in [!DNL Adobe Workfront] affect the burndown chart by excluding days off (weekends and holidays) from the burndown.
 author: Lisa
 feature: Agile
@@ -19,6 +19,8 @@ For more information about using the burndown chart, see the [Agile burndown cha
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -28,22 +30,27 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Work] or higher</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>New: [!UICONTROL Standard]</p> 
+   or
+   <p>Current: [!UICONTROL Work] or higher</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Use an alternate team schedule for burndown charts
 
 1. Ensure that the [!DNL Workfront] administrator has already created the alternate schedule, as described in [Create a schedule](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Teams]**.
+
+{{step1-to-team}}
 
 1. (Optional) Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
 
