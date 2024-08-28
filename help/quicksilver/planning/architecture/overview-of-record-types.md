@@ -29,7 +29,7 @@ For information about creating record types, see [Create record types](/help/qui
 * When you create a record type in a workspace that you created from scratch, you can place the record type in any section you create in the workspace. 
 * When you create a record type, only you and those you give permissions to access the workspace can view the record type. 
 * You must create a workspace before you can create record types for the workspace.  
-* You can have a total of 1,000 record types in one workspace, regardless of how many sections the workspace has. This includes record types that you create from scratch or that are created when using a template. 
+* For limitations about how many record types you can have in one workspace or Workfront instance, see [Adobe Workfront Planning object limitations overview](/help/quicksilver/planning/general/limitations-overview.md).  
 
 
 <!--
