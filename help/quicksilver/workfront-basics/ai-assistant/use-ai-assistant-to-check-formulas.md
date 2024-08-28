@@ -4,8 +4,6 @@ content-type: reference
 description: You can use AI Assistant to resolve errors in your invalid custom expressions in calculated fields.
 author: Becky
 feature: Get Started with Workfront
-hide: yes
-hidefromtoc: yes
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
 ---
 # Generate or revise calculated field formulas with AI Assistant
