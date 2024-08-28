@@ -8,7 +8,6 @@ description: The environment promotion capability is intended to provide the abi
 author: Becky
 feature: System Setup and Administration
 role: Admin
-recommendations: noDisplay, noCatalog
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
 ---
 # Create or edit an environment promotion package
