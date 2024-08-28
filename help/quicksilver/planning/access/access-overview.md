@@ -96,7 +96,7 @@ You must have the following to be able to access Workfront Planning:
    <ul>
    <li><p>View or higher permissions to workspaces and views that you did not create to access them and their objects.</p></li>
    <li><p>Contribute or higher permissions to workspaces that you did not create to edit them and create, edit, or delete record types and records.</p></li>
-   <li><p>Contribute or higher permissions to views you did not create, to edit, delete, and share them</p>
+   <li><p>Contribute or higher permissions to views that you did not create, to edit, delete, and share them</p>
    </li>
     <li><p>System Administrators can manage workspaces they did not create. </p></li>
     <li><p>System Administrators cannot access views they did not create. </p></li></ul>
@@ -106,7 +106,7 @@ You must have the following to be able to access Workfront Planning:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu and the Planning area for the objects that can connect to Workfront Planning: projects, portfolios, and programs. </p> <p>For information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Customize the Main Menu using a layout template</a> and and <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Assign users to a layout template</a>. </p>  
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu and the Planning area for the objects that can connect to Workfront Planning: projects, portfolios, and programs. </p> <p>For information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Customize the Main Menu using a layout template</a> and <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Assign users to a layout template</a>. </p>  
 </td>
   </tr>
  </tbody>
@@ -215,11 +215,11 @@ Users with any type of Workfront license can access Workfront Planning.
 
 ## Grant permissions
 
-You must give users permissions to Workfront Planning workspaces and views that you create in order for them to access them. 
+You must give users permissions to Workfront Planning workspaces and views that you create for them to access them. 
 
 For more information, see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
-Your Adobe Workfront license type works in conjunction with your Workfront Planning permissions to give you access to view, contribute, or manage Workfront Planning objects.
+Your Adobe Workfront license type works with your Workfront Planning permissions to give you access to view, contribute, or manage Workfront Planning objects.
 
 For information about how license types affect permission levels for Workfront Planning objects, see [License type overview when using Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 

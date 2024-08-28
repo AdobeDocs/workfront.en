@@ -173,7 +173,7 @@ There is a new Settings option with which you can personalize the look and feel 
 
 ### The AI Assistant has been re-enabled for Workfront Planning
 
-Production and Preview: August 28, 2024
+Preview and Production: August 28, 2024
 
 The Workfront AI Assistant has been re-enabled for the Workfront Planning area. 
 
@@ -181,7 +181,7 @@ For more information about the Workfront Planning AI Assistant, see [Adobe Workf
  
 ### Reporting capabilities for Workfront Planning with the Canvas Dashboard 
 
-Production and Production: August 28, 2024 
+Preview and Production: August 28, 2024 
 
 You can now view Workfront Planning information in a report using the Workfront Canvas Dashboard. For information, see [Get started with Canvas Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 
