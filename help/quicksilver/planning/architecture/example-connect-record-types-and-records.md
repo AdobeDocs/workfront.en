@@ -1,8 +1,8 @@
 ---
-title: Example of connecting record types and records
+title: Example of Connecting Record Types and Records
 description: This article describes an example of how to create a connection between an Adobe Workfront Planning record type and a Workfront project object type. It also describes how you can connect a Workfront Planning record with to an individual project.
-hidefromtoc: yes
-hide: yes
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
 ---

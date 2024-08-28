@@ -1,23 +1,11 @@
 ---
 title: List of workspace templates
 description: A workspace is a collection of record types used by a team and represents the team's work lifecycle. Adobe Workfront Planning comes with a set of templates to get you started with basic record types and fields when you are building your workspace.
-hide: yes
-hidefromtoc: yes
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: c4758b87-45dc-4ffd-b086-5e2e907bdf34
 ---
-<!--update the metadata with real information when making this available in TOC and in the left nav:
----
-title: List of available workspace templates
-description: You can use templates to create workspaces. This article provides a list of available workspace templates
-hidefromtoc: yes
-hide: yes
-author: Alina
-feature: Work Management
-role: User
----
-
--->
 
 # List of workspace templates
 
