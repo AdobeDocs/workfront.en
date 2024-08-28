@@ -62,3 +62,4 @@ To revise an invalid calculated field expression:
 >We recommend testing the calculated field to ensure that it retrieves the expected result.
 
 For more information on calculated fields in Workfront, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+

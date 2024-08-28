@@ -49,3 +49,4 @@ To get information or instructions from the Workfront Documentation using AI Ass
 1. View the response in the AI Assistant panel.
 1. (Optional) If the response does not contain the information you need, refine your response and try again.
 1. (Optional and conditional) If the response includes a link to an Adobe Experience League article, click the link to open the article in a new window.
+
