@@ -7,6 +7,7 @@ feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
 ---
 # Enable or disable AI Assistant
+
 As a Workfront Administrator, you can control which users in your organization have AI Assistant enabled. This is managed through access levels.
 
 ## Access requirements
