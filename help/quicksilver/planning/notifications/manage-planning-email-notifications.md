@@ -15,19 +15,11 @@ exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
 You can receive email notifications from Workfront Planning when the following scenarios exist:
 
 * Someone tags you in a record comment
-<!--
+   
+   For information about tagging others in a record comment, see [Manage record comments](/help/quicksilver/planning/records/manage-record-comments.md). 
 * Someone asks for your permission to access a view or a workspace
-* Someone confirms your access has been granted for a view or a workspace
-* Someone has denied your access for a view or a workspace. -->
-
-
->[!IMPORTANT]
->
->Your company must be an Adobe Unified Experience customer to be able to receive notifications from Workfront Planning. 
->
->For information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md). 
-
-For information about tagging others in a record comment, see [Manage record comments](/help/quicksilver/planning/records/manage-record-comments.md). 
+* Someone confirms your access has been granted for a view or a workspace <!--verify this-->
+* Someone has denied your access for a view or a workspace. <!--verify this-->
 
 ## Access requirements
 
@@ -154,7 +146,7 @@ OLD:
 -->
 
 
-## Manage email notifications <!--when someone tags you in a comment-->
+## Manage email notifications when someone tags you in a comment
 
 1. (Conditional) After someone tags you in a comment on a record, go to the email notification that informs you of the tag and of the comment. The sender of the email is Adobe Experience Cloud. 
 
@@ -167,8 +159,6 @@ OLD:
 1. (Conditional) If available, click **View all notifications**. <!--check with Lilit - do non-IMS users have this button??-->
     The **Notifications** page opens in Adobe Experience Cloud. All notifications from all Adobe Experience Cloud applications display. 
 
-<!--
 ## Manage email notifications when requesting, granting, or denying permissions to a view or a workspace
 
 For information about requesting, granting, or denying permissions to a view or a workspace, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). 
--->

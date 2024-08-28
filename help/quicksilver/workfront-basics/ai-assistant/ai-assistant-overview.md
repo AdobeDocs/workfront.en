@@ -4,8 +4,6 @@ content-type: reference
 description: AI Assistant overview
 author: Becky
 feature: Get Started with Workfront
-hide: yes
-hidefromtoc: yes
 ---
 # AI Assistant overview
 

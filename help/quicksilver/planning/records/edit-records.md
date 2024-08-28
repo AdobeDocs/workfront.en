@@ -182,6 +182,10 @@ You can edit a record from the following areas:
 
 ### Edit a record inline in the table view of a record type
 
+When you edit records from the table view, there is an indication which field is being edited by other users at the time you are viewing the record. 
+
+For more information, see [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 
+
 {{step1-to-planning}}
 
 1. Click the workspace whose records you want to edit

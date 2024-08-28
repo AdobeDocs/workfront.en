@@ -267,7 +267,6 @@ To share a view publicly in Workfront Planning:
 
 1. (Optional) Paste the link you copied to an email, chat message, document, or in a Workfront comment to share it with others. 
 
-<!--
 ## Grant permissions to a view from a permission request
 
 Users who access a link to a view to which they do not have permissions can request permissions to the view. All users with Manage permissions to the view receive the permission request and can grant or deny the permissions. 
@@ -288,8 +287,7 @@ Users who access a link to a view to which they do not have permissions can requ
 1. Select the user for whom you want to approve or deny the permission, then click **Approve all** or **Deny all**. 
 1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
 
-   If you approved the request, the users are added to the sharing box of the view. 
--->
+   If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. <!--will they also get an in-app notification??-->
 
 ## Remove permissions to a view
 

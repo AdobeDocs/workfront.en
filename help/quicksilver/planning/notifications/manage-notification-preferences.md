@@ -12,7 +12,11 @@ exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
 
 {{planning-important-intro}}
 
-When someone adds you to a comment in the record page, you receive an in-app as well as an email notification about the comment. 
+You may receive in-app or email notification when the following actions occur in Workfront Planning: 
+
+* Someone adds you to a comment on the record page
+* Someone asks for permission to access a view or a workspace
+* Someone grants or denies you permission to access a view or a workspace <!--test this - could not test before GA-->
 
 ## Access requirements
 
@@ -84,6 +88,12 @@ You must have the following to be able to access Workfront Planning:
 
 +++   
 
+
+For more information about Workfront Planning notifications, also see the following articles: 
+    
+* For information about comments on records, see [Manage record comments](/help/quicksilver/planning/records/manage-record-comments.md). 
+* For information about in-app notifications from Workfront Planning, see [Manage in-app notifications for Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md).
+* For information about email notifications from Workfront Planning, see [Manage email notifications for Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md). 
 <!--
 
 OLD: 
@@ -146,16 +156,18 @@ OLD:
 
 1. Log in to Workfront with your Adobe Experience Cloud credentials. 
 1. Click the **account menu** icon ![](assets/account-menu-icon-on-experience-cloud.png) in the upper-right of the screen, then click **Preferences**.
-1. Under the **Notifications** section, click **Workfront**, then follow the steps in the following article to manage your notification preferences for Workfront Planning: 
-[Account preferences and notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+1. Under the **Notifications** section, click **Workfront**.
+1. Select the notifications you want to receive.
+   Or
+   Deselect the notifications you want to stop receiving.
 
-For more information about Workfront Planning notifications, also see the following articles: 
-    
-* For information about comments on records, see [Manage record comments](/help/quicksilver/planning/records/manage-record-comments.md). 
-* For information about in-app notifications from Workfront Planning, see [Manage in-app notifications for Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-in-app-notifications.md).
-* For information about email notifications from Workfront Planning, see [Manage email notifications for Adobe Workfront Planning](/help/quicksilver/planning/notifications/manage-planning-email-notifications.md). 
+   ![](assets/adobe-experience-cloud-notifications-panel-for-workfront-planning.png)
+1. The following notifications are available for Workfront:
 
+   * **Mentions**: You receive a notification when someone tags you in a comment in Workfront Planning
+   * **Requests**: You receive a notification when someone requests permission to a Workfront Planning object
 
+   For more information about managing notifications, see [Account preferences and notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 <!--OLD: notifications are not available to non-IMS customers: 
 
