@@ -19,11 +19,11 @@ This example demonstrates how you can compose a query to return your custom data
 
 ### Scenario: 
 
-Your organization, PeopleSoft, utilizes a custom form named Finance Integration. The form is attached to every project, and contains the following fields:
+Your organization that utilizes a custom form named Finance Integration. The form is attached to every project, and contains the following fields:
 
-* **PeopleSoft Business Unit** - A custom field that contains a string.
-* **PeopleSoft ProjectID** - A custom field that contains a numerical string.
-* **Expanded Project Name** - A calculated custom data field that concatenates the values of PeopleSoft Business Unit, PeopleSoft ProjectID, and the native Workfront project name into a single string.
+* **Business Unit** - A custom field that contains a string.
+* **ProjectID** - A custom field that contains a numerical string.
+* **Expanded Project Name** - A calculated custom data field that concatenates the values of Business Unit, ProjectID, and the native Workfront project name into a single string.
 
 You need to include this information in the response for a query against Data Connect. Custom data values for a record in the data lake are contained in a column titled `parameterValues`. This column is stored as a JSON object.
 
@@ -34,8 +34,8 @@ SELECT
     projectid,
     parametervalues,
     name,
-    parametervalues:"DE:PeopleSoft Business Unit" :: int as PeopleSoftBusinessUnit,
-    parametervalues:"DE:PeopleSoft Project ID" :: int as PeopleSoftProjectID,
+    parametervalues:"DE:Business Unit" :: int as BusinessUnit,
+    parametervalues:"DE:Project ID" :: int as ProjectID,
     parametervalues:"DE:Expanded Project Name" :: text as ExpandedProjectName
 FROM PROJECTS_CURRENT
 WHERE ExpandedProjectName is not null
@@ -48,8 +48,8 @@ The above query returns the following data:
 * `projectid` - the native Workfront project ID
 * `parametervalues` - a column storing a JSON object
 * `name` - the native Workfront project name
-* `PeopleSoft Business Unit` - a custom data value that is included in the `parametervalues` object
-* `PeopleSoft Project ID` - a custom data value that is included in the `parametervalues` object
+* `Business Unit` - a custom data value that is included in the `parametervalues` object
+* `Project ID` - a custom data value that is included in the `parametervalues` object
 * `Expanded Project Name` - a custom data value that is included in the `parametervalues` object
 
 <!--## Task query 
