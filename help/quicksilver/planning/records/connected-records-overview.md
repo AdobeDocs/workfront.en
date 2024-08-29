@@ -1,12 +1,11 @@
 ---
 title: Connected Records Overview
 description: After you create connections between record types, you can connect individual records to one another. This article describes considerations that you must take into account when connecting records in Adobe Workfront Planning. 
-hidefromtoc: yes
-hide: yes
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 ---
-
-<!--update metadata at GA-->
 
 # Connected records overview
 
@@ -34,23 +33,17 @@ For information about how you can connect records to one another or to another o
 
 * Everyone with access to Workfront Planning and View or higher permissions to the workspace can see the connections that you make between records or between records and other applications' objects. They can view connected records and objects regardless of their permissions in the  applications you are connecting to. 
 * You can view and edit everyone else's connections, if you have Manage permissions to the workspace where the connected records are. 
-* You can connect one record to one or multiple objects from another application. <!--For more information, see the "Connections types" section in the article [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md). -->
+* You can connect one record to one or multiple objects from another application. For more information, see the "Connections types" section in the article [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Areas where you can connect records 
 
 You can connect records to other records or to objects from another application in the following areas: 
 
-* You can connect records from Workfront Planning to Workfront objects in the following areas:
-  * From a Planning record in Workfront Planning in the connected fields in the table view.
-  * From a Planning record in Workfront Planning in the record preview or page in the connected record fields.
-  <!--
-  * From a Planning record in Workfront Planning in the record preview or page in the connected record fields on the Details tab.
-  * From a Planning record in the record's preview or page on the Connections tab.  --> 
+* You can connect records from Workfront Planning to Workfront objects or Experience Manager Assets objects in the following areas of a Planning record:
 
-* You can connect Workfront Planning records to Experience Manager Assets in the following areas:
-
-  * From a Planning record in Workfront Planning in the table view.
-  <!--* From a Planning record in the Connections tab on the record's preview or page.  -->
+  * The connected record fields in the table view of a record type in Planning.
+  * The record's preview or page in the connected record fields on the Details tab.
+  * The record's preview or page on the Connections tab.
 
 * You can connect Workfront objects to Workfront Planning records in the following areas: 
     

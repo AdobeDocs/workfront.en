@@ -1,5 +1,5 @@
 ---
-title: Group administrators
+title: Group Administrators
 user-type: administrator
 content-type: reference;overview
 product-area: system-administration;user-management

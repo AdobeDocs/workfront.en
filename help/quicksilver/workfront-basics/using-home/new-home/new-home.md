@@ -14,3 +14,4 @@ This section contains the following articles:
 
 * [Get started with New Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md)
 * [Add, edit, or remove widgets in New Home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
+* [New Home widget filters overview](/help/quicksilver/workfront-basics/using-home/new-home/widget-filter-overview-new-home.md)

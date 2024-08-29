@@ -1,12 +1,12 @@
 ---
-title: Create record types
+title: Create Record Types
 description: Record types are the object types of Adobe Workfront Planning. In Workfront Planning, you can create custom record types which illustrate the work items needed in your organization's lifecycle.
-hidefromtoc: yes
-hide: yes
+feature: Workfront Planning
+role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
 ---
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
+
 <!--this is linked to the UI in an empty workspace screen-->
 
 # Create record types
@@ -20,6 +20,76 @@ For more information about record types, see [Record types overview](/help/quick
 ## Access requirements
 
 +++ Expand to view access requirements for Workfront Planning.  
+
+You must have the following to be able to access Workfront Planning:  
+
+ <table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>  </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Layout template</p></td> 
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> </td> 
+  </tr> 
+</tbody> 
+</table> 
+
+ *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++   
+
+
+<!--
+OLD: 
 
 <table style="table-layout:auto">
  <col>
@@ -67,25 +137,14 @@ For more information about record types, see [Record types overview](/help/quick
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
    <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>
  </tbody>
 </table>
 
 *For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-+++
-
-<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
-
-<!-- Notes to add for the table: for the "Workfront plans" row: the above is only for closed beta; when going to GA - activate the following plans:    
-<p>Current plan: Prime and Ultimate</p>
-<p>Legacy plan: Enterprise</p>-->
-
-<!-- Notes for the table: for the "Workfront access" row: <p>For more information, see <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront licenses overview</a>.</p>--> 
+-->
 
 ## Considerations about creating record types 
 
@@ -96,11 +155,11 @@ For more information about record types, see [Record types overview](/help/quick
         
             For information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-        * When you import them using an Excel or CSV file. 
+        <!--* When you import them using an Excel or CSV file. 
 
             >[!IMPORTANT]
             >
-            >This functionality has been temporarily disabled since March 21, 2024. It will be enabled at a later date.
+            >This functionality has been temporarily removed since March 21, 2024. It will be enabled at a later date.-->
 
         <!--this should not ne known anymore: * When you add objects from another application to a linked record field of a record. This creates a read-only record type in Workfront Planning which is connected to object types from the original application. 
         For information about connecting record types with object types from another application, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
@@ -139,7 +198,9 @@ For information about what record types are included with each template, see [Li
     From a workspace, expand the downward-pointing arrow to the right of an existing workspace name, search for a workspace, then select it when it displays in the list.
 1. (Optional) Click **Add section** to add a new section to the workspace.
 1. Click **Add record type**. 
-1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. 
+
+    The Add record type box opens.
+    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
 
     ![](assets/add-record-type-box-with-appearance-options.png)
 
@@ -165,9 +226,7 @@ For information about what record types are included with each template, see [Li
 
     The record type page displays in the table view by default. The columns of the table are fields associated with the new record type. Each row is a unique record that you must add. 
 
-    >[!TIP]
-    >
-    >    If you import a record type from an Excel or CSV file, records are also imported.
+    <!--TIP: If you import a record type from an Excel or CSV file, records are also imported.-->
 
     By default, the following fields display in the table view columns of an operational record type:
 
@@ -201,11 +260,12 @@ For information about what record types are included with each template, see [Li
       * [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md)
       * [Manage record views](/help/quicksilver/planning/views/manage-record-views.md) 
 
+<!--
 ## Create record types by importing an Excel or CSV file
 
 >[!IMPORTANT]
 >
->This functionality has been temporarily disabled since March 21, 2024. It will be enabled at a later date.
+>This functionality has been temporarily removed since March 21, 2024. It will be enabled at a later date.
 
 Consider the following when importing record types using an Excel or CSV file: 
 
@@ -264,23 +324,5 @@ To import record types using an Excel file:
 
     You can start managing fields and records on the record types pages. 
     
-    Everyone with access to Workfront Planning can now view and edit the imported record types and their information. <!--this will change with permissions-->
+    Everyone with access to Workfront Planning can now view and edit the imported record types and their information.-->
 
-<!--## Connect record types with object types from another application
-
-You can connect a record type and an object type from another application. This creates a read-only record type in Workfront Planning that corresponds to the object type in the other application. 
-
-For example, you can create record types by connecting Workfront Planning record types with Workfront projects. As a result, the Workfront project object type is imported into Workfront Planning as a read-only record type. By default, the record type is named "Workfront Project." (********************)has this name changed? Lusine wanted to change it at some point***********)
-    
-You can import the following objects from the following applications: 
-
-* From Workfront:
-
-    * Projects
-    * Portfolios
-    * Programs
-    * Company
-    * Group
-
-For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
--->

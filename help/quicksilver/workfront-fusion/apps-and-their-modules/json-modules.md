@@ -231,26 +231,26 @@ This action module transforms an object into a json string.
 >1. Connect [!UICONTROL JSON] > [!UICONTROL Create JSON] module after the [!UICONTROL Array Aggregator] module. The module's setup requires a Data structure that describes the JSON format. Click **[!UICONTROL Add]** to open the Data structure setup. The easiest way to create this Data structure is to generate it automatically from a JSON sample. Click **[!UICONTROL Generator]** and paste your JSON sample to the **[!UICONTROL Sample data]** field:
 >
 >     **Example:** 
->   
+>
 >     ```
 >     {
->
+>     
 >     "books": [
->
+>     
 >     {
->
+>     
 >     "id": "ID",
->
+>     
 >     "title": "Title",
->
+>     
 >     "author": "Author"
->
+>     
 >     }
->
+>     
 >     ]
->
+>     
 >     }
->
+>     
 >     ```
 >
 >1. Click **[!UICONTROL Save]**. The [!UICONTROL Specification] field in the Data structure now contains the generated structure.

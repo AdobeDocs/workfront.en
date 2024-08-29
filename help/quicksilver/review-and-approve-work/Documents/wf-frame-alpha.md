@@ -6,6 +6,8 @@ description: We are excited to announce the launch of our Beta program for Workf
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
+hide: yes
+hidefromtoc: yes
 exl-id: 23d1e241-ea5b-43f5-b097-8d96e13cb267
 ---
 # Beta Program –  Workfront + Frame.io

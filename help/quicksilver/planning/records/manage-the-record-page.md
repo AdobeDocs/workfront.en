@@ -1,12 +1,12 @@
 ---
-title: Manage the record page layout
+title: Manage the Record Page Layout
 description: You can edit the layout of the record preview and page in Adobe Workfront Planning.
-hidefromtoc: yes
-hide: yes
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
 ---
-<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Manage the record page layout
 
@@ -32,6 +32,8 @@ For information, see the following articles:
 
 +++ Expand to view access requirements for Workfront Planning. 
 
+You must have the following to be able to access Workfront Planning: 
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -41,51 +43,65 @@ For information, see the following articles:
     <tr>
 <tr>
 <td>
-   <p> Product</p> </td>
+   <p> Products</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <ul><li><p> Adobe Workfront</p></li>
+   <li><p> Adobe Workfront Planning<p></li></ul></td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
+ <tr>
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td>
    <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
+<p>Any of the following Workfront plans:</p>
+<ul><li>Select</li>
+<li>Prime</li>
+<li>Ultimate</li></ul>
+<p>Workfront Planning is not available for legacy Workfront plans</p>
    </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td>
    <td>
 <p>Any</p>
+<p>For more information about what is included in each Workfront Planning plan, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>. </p>
    </td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront platform</p></td>
+   <td>
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning.</p>
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
+   </td>
+
+  </tr>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>New: Standard</p>
-   Or
-   <p>Current: Plan</p> 
+   <p>Standard</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p>
   </td>
   </tr>
-  
   <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access controls for Adobe Workfront Planning</p>  
+   <td role="rowheader"><p>Access level configuration</p></td>
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
+   <td role="rowheader"><p>Object permissions</p></td>
+   <td>
+   <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p> 
+  </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu and the Planning area for projects, portfolios, and programs. </p> For more information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  </p>  
 </td>
   </tr>
-
  </tbody>
 </table>
 
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+*For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  
 
 +++
 
@@ -139,11 +155,11 @@ To add a section to a record preview or page:
 
 1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the record preview  to open the record's page in a new tab. 
 
-    The record page opens. <!--The Details tab opens by default. -->
+    The record page opens. The Details tab opens by default.
 
     ![](assets/details-page.png)
 
-1. In the <!--**Details** tab of the--> record preview or page, hover over the white space to the left of the fields, then click the **Add section** icon ![](assets/add-section-icon.png) to add a section. 
+1. In the **Details** tab of the record preview or page, hover over the white space to the left of the fields, then click the **Add section** icon ![](assets/add-section-icon.png) to add a section. 
 1. Click inside the section's name and replace **Untitled section** with a name, then click Enter. The fields displayed under the section are automatically part of the new section. 
 1. Start dragging and dropping fields to the new section, as described in the section [Rearrange fields in the record preview or details page](#rearrange-fields-in-the-record-preview-or-details-page) in this article. 
 
@@ -176,11 +192,23 @@ To add a section to a record preview or page:
 
     All changes to sections and field order are saved automatically. 
 
-<!--1. (Optional) Click the **Connections** tab. All records or objects that are connected to the selected record display under the names of the record type, or the application they belong to. 
+1. (Optional) Click the **Export** icon ![](assets/export-icon-in-record-details-page.png) to export the Details tab to a Word file. For more information, see [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md). 
+
+1. (Optional) Click the **Connections** tab next to the **Details** tab. You might have to click **More** before clicking the **Connections** tab.
+
+   All records or objects that are connected to the selected record display under the names of the record type, or the application they belong to. 
 
       ![](assets/connections-tab-on-record-in-workfront-planning.png)
 
-      For information about connecting records from the Connections tab, see [Connect records](/help/quicksilver/planning/records/connect-records.md). -->
+1. (Optional) Select the **Show all records** setting in the upper-right corner of the Connections tab. All connected record types display, including the ones that don't have any connected records yet. BY default, the toggle is deselected and record types with no connected records are hidden. 
+
+1. (Optional) Click **Connect** to add more records to the connected record types. For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).  
+
+1. (Optional) Hover over a record card, then click the disconnect record icon **-**, then click **Disconnect**. <!--this is copied to the Manage the Planning page in Workfront article; update in both articles-->
+   The following things occur: 
+   * The record is no longer connected to the Workfront object. 
+   * The Workfront object is also removed from the record's connected field from Workfront Planning. 
+   * The values for the Workfront lookup fields connected to the Planning record are also deleted.
 
 ## Rearrange fields in the record's preview or page
 

@@ -11,7 +11,7 @@ exl-id: 5cb03113-35b0-49aa-86ec-ec800cd3f4dc
 
 >[!IMPORTANT]
 >
->This page describes functionality that is only available to users enrolled in the Canvas Dashboards closed beta. See [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) to learn more.
+>This page describes functionality that is available as part of the Canvas Dashboards beta. See [Canvas Dashboards beta information](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) to learn more.
 
 You can share a Canvas Dashboard with other Adobe Workfront users so that they can view or edit it.
 

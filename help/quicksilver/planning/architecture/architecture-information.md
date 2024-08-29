@@ -1,24 +1,11 @@
 ---
-title: "Architecture: article index"
-description: The following articles describe how you can configure the architecture of Adobe Workfront Planning. As part of this configuration, you learn how you create workspaces, record types, and custom fields to map out the workflows you want to manage in Workfront Planning.
-hidefromtoc: yes
-hide: yes
-recommendations: noDisplay, noCatalog
+title: "Architecture: Article Index"
+description: The following articles describe how you can configure the architecture of Adobe Workfront Planning. As part of this configuration, you learn how you create workspaces, record types, and custom fields to map out the workflows you want to manage in Workfront Planning. 
+author: Alina
+feature: Workfront Planning
+role: User, Admin
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
 ---
-<!--
----
-title: "Architecture: article index"
-description: The following articles describe how you can configure the architecture of Adobe Workfront Planning. As part of this configuration, you learn how you create workspaces, record types, and custom fields to map out the workflows you want to manage in Workfront Planning. 
-hidefromtoc: yes
-author: Alina
-feature: Work Management
-role: User, Admin
-hide: yes
----
--->
-
-<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Architecture: article index
 

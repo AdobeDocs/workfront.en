@@ -1,23 +1,20 @@
 ---
-title: Manage records in the Planning section of Adobe Workfront objects
-description: You can display the records connected to Adobe Workfront objects in the Planning section of a Workfront object, in the left panel.
-hidefromtoc: yes
-hide: yes
+title: Manage Records in the Planning Section of Adobe Workfront Objects
+description: You can display the Workfront Planning records connected to Adobe Workfront objects in the Planning section of a Workfront object, in the left panel.
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
 ---
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--add also Group and Company when they are available-->
-
-<!-- opening the Details preview and page is not possible yet - hid those steps, but add them when released-->
-
 
 # Manage records in the Planning section of Adobe Workfront objects
 
 {{planning-important-intro}}
 
-You can display the records connected to Adobe Workfront objects in the Planning section of a Workfront object, in the left panel.
+You can display the Workfront Planning records connected to Adobe Workfront objects in the Planning section of a Workfront object, in the left panel.
 
 The Planning section is available for the following Workfront objects:
 
@@ -31,6 +28,8 @@ The Planning section is available for the following Workfront objects:
 
 +++ Expand to view access requirements for Workfront Planning. 
 
+You must have the following to be able to access Workfront Planning: 
+
 <table style="table-layout:auto">
  <col>
  </col>
@@ -40,52 +39,66 @@ The Planning section is available for the following Workfront objects:
     <tr>
 <tr>
 <td>
-   <p> Product</p> </td>
+   <p> Products</p> </td>
    <td>
-   <p> Adobe Workfront</p> </td>
+   <ul><li><p> Adobe Workfront</p></li>
+   <li><p> Adobe Workfront Planning<p></li></ul></td>
   </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
+ <tr>
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td>
    <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
+<p>Any of the following Workfront plans:</p>
+<ul><li>Select</li>
+<li>Prime</li>
+<li>Ultimate</li></ul>
+<p>Workfront Planning is not available for legacy Workfront plans</p>
    </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td>
    <td>
 <p>Any</p>
+<p>For more information about what is included in each Workfront Planning plan, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>. </p>
    </td>
+
+<tr>
+   <td role="rowheader"><p>Adobe Workfront platform</p></td>
+   <td>
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning.</p>
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
+   </td>
+
+  </tr>
   </tr>
   <tr>
    <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>New: Standard</p>
-   Or
-   <p>Current: Plan</p> 
+   <p>Standard</p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p>
   </td>
   </tr>
-  
   <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
+   <td role="rowheader"><p>Access level configuration</p></td>
    <td> <p>View or higher access to Projects, Programs, and Portfolios</p>  
 </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>In Workfront, View or higher permissions to a project, portfolio, or program</a> </p> 
+   <td role="rowheader"><p>Object permissions</p></td>
+   <td>
+   <p>In Workfront, View or higher permissions to a project, portfolio, or program</a> </p> 
    <p>In Workfront Planning, Contribute or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all Workfront Planning workspaces, including the ones they did not create</p>
-</td>
+   <p>System Administrators have permissions to all Workfront Planning workspaces, including the ones they did not create</p> 
+  </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in the Main Menu and the Planning section in the left panel to your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu and the Planning area for projects, portfolios, and programs. </p> For more information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  </p>  
 </td>
   </tr>
-
  </tbody>
 </table>
 
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+*For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -129,6 +142,7 @@ The Planning section is available for the following Workfront objects:
 
    ![](assets/planning-section-on-project.png)
 
+1. (Optional) Click **Show all connections** to show all connected record types, including the ones without connected records. By default, record types without connected records do not display.
 1. Click a record card to display more information about the record. The record preview box displays.
 1. (Optional) Start modifying fields in the record's preview box. Your changes are saved automatically.
 1. (Optional) Click the **Open in a new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview box to open the record's details page. The record's details page opens in Workfront Planning. 
@@ -137,16 +151,12 @@ The Planning section is available for the following Workfront objects:
    * The record is no longer connected to the Workfront object. 
    * The Workfront object is also removed from the record's connected field from Workfront Planning. 
    * The values for the Workfront lookup fields connected to the Planning record are also deleted.
-1. Click **Connect** to connect more records. 
+1. Click **Connect** to connect more records for the connected record types. For more information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
 
-   >[!NOTE]
-   >
-   >   The Connect button displays only for the workspaces where you have Contribute permissions. <!--they might replace this with one button at the top of the page. Rephrase-->
-
-1. Click the records you want to connect. The following things occur:
+   The following things occur:
 
    * The records are immediately connected to the Workfront object and they display in the Planning section. 
    * The Workfront object is added to the Workfront Planning record's connected field. 
    * The values for the Workfront lookup fields connected to the Planning record are populated in Workfront Planning. 
 
-<!--add more steps here for what happens after clicking Connect-->
+

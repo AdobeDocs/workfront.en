@@ -6,7 +6,7 @@ keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: manage-workfront
 title: Kick-Starts
 description: As an Adobe Workfront administrator, you can use the Kick-Starts data exporter to import and export data to and from Workfront.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
