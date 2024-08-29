@@ -16,7 +16,7 @@ You may receive in-app or email notification when the following actions occur in
 
 * Someone adds you to a comment on the record page
 * Someone asks for permission to access a view or a workspace
-* Someone grants or denies you permission to access a view or a workspace <!--test this - could not test before GA-->
+* Someone grants you permission to access a view or a workspace <!--I could not test this but Isk confirmed-->
 
 ## Access requirements
 
@@ -56,7 +56,7 @@ You must have the following to be able to access Workfront Planning:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning.</p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.</p> 
 <p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -165,7 +165,7 @@ OLD:
 1. The following notifications are available for Workfront:
 
    * **Mentions**: You receive a notification when someone tags you in a comment in Workfront Planning
-   * **Requests**: You receive a notification when someone requests permission to a Workfront Planning object
+   * **Requests**: You receive a notification when someone requests or grants you permission to a Workfront Planning object
 
    For more information about managing notifications, see [Account preferences and notifications](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 

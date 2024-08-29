@@ -3,6 +3,7 @@ title: Edit Workspaces
 description: You can edit the information of an existing workspace, like rename it.
 feature: Workfront Planning
 role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
 ---
