@@ -24,7 +24,7 @@ exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
 
 >[!IMPORTANT]
 >
->The information in this article refers to features that have been released to the new commenting experience. 
+>The information in this article refers to features that were released to the new commenting experience. 
 >
 >The beta program for the new commenting experience started in April 2023 and ended in October 2023, with the October 2023 release. 
 >

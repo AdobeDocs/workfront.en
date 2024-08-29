@@ -1,36 +1,29 @@
 ---
 title: Request Permissions to a View or a Workspace
-description: You can request permissions to a view or a workspace that others sent you a link to which has not been previously shared with you. 
+description: When someone shares a link to a view or workspace that you don't have access to, you can request permissions to be able to open it. This article explains the steps to request access to a view or workspace when you encounter a shared link that you cannot open.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 ---
 
-<!-- update metadata when released: 
-
----
-title: Request Permissions to a View or a Workspace
-description: You can request permissions to a view or a workspace that others sent you a link to which has not been previously shared with you. 
-author: Alina
-feature: Workfront Planning
-role: User, Admin
----
--->
-
-<!--add this to miniTOC and TOC-->
-
 # Request permissions to a view or a workspace
 
-You can request permissions to a view or a workspace that others sent you a link to which has not been previously shared with you. 
+You can request permissions to a view or a workspace when someone shares a link with you to the view or the workspace to which you do not have access. 
 
 Requesting permissions to a view is similar to requesting permissions to a workspace. 
+
+This article describes how to request access to a view or a workspace when someone shares a link with you and you cannot access the shared page. 
+
+For information about granting permissions to views and workspaces, see the following articles:
+
+   * [Share views](/help/quicksilver/planning/access/share-views.md)
+   * [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md)
+
 
 ## Access requirements
 
 +++ Expand to view access requirements for Workfront Planning. 
-
-<!--at GA, check that the Workfront plans article linked below has Planning info-->
 
 You must have the following to be able to access Workfront Planning:  
 
@@ -122,10 +115,6 @@ When someone shares with you a link to a workspace or a view where you do not ha
       * An email notification
          ![](assets/email-notification-for-access-request.png)
    
-   For information about granting permissions to views and workspaces, see the following articles:
-
-      * [Share views](/help/quicksilver/planning/access/share-views.md)
-      * [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md)
-1. (Conditional) When the view or workspace manager grants you permissions to the view or workspace, you receive an email notification and an in-app notification with a confirmation that the permission was granted. <!--check this - I was not able to test this-->
+1. (Conditional) When the view or workspace manager grants you permissions to the view or workspace, you receive an email notification and an in-app notification with a confirmation that the permission was granted. <!--check this - I was not able to test this, but Isk confirmed.-->
 
 
