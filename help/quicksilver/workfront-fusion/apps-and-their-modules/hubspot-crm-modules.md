@@ -127,14 +127,18 @@ This search module searches for CRM objects by custom properties or by query. To
  </tbody> 
 </table>
 
+<!-- #### Watch CRM objects -->
+
 ### Records (Deals, Contacts, and Companies) 
 
 * [[!UICONTROL Create a Record (Legacy)]](#create-a-record-legacy)
-* [[!UICONTROL Get a Record]](#get-a-record)
-* [[!UICONTROL Update a Record]](#update-a-record)
 * [[!UICONTROL Delete a Record]](#delete-a-record)
+* [[!UICONTROL Get a Record]](#get-a-record)
 * [[!UICONTROL Get a Record Property]](#get-a-record-property)
+* [[!UICONTROL Update a Record]](#update-a-record)
 * [[!UICONTROL Watch Records]](#watch-records)
+
+<!-- #### Create a record -->
 
 #### [!UICONTROL Create a Record (Legacy)]
 
@@ -155,6 +159,29 @@ This action module creates contact, a company, or a deal.
   <tr> 
    <td role="rowheader">[!UICONTROL Properties]</td> 
    <td>Fill in any properties that you want to set for the record. The available fields depend on the type of record you want to create.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Delete a Record]
+
+This action module deletes a contact, a company, or a deal.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Record Type]</td> 
+   <td>Select the type of record you want to delete.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID]</td> 
+   <td>Enter the ID of the contact, company, or deal you want to delete. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -195,6 +222,35 @@ This action module gets details of a contact, a company, or a deal.
  </tbody> 
 </table>
 
+#### [!UICONTROL Get a Record Property]
+
+This action module gets metadata for a specific record property by its (internal) name.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Record Type]</td> 
+   <td>Select the type of record that has the property you want to retrieve metadata for.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Property Name]</td> 
+   <td>Select the property that you want to retrieve metadata for.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Option ID]</td> 
+   <td> <p> Some properties have a set of available options that a user can select as the property value. Enter the ID of the option that represents the property value you want to retrieve.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<!-- #### List Records -->
+
 #### [!UICONTROL Update a Record]
 
 This action module updates a contact, a company, or a deal.
@@ -234,56 +290,6 @@ This action module updates a contact, a company, or a deal.
  </tbody> 
 </table>
 
-#### [!UICONTROL Delete a Record]
-
-This action module deletes a contact, a company, or a deal.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Record Type]</td> 
-   <td>Select the type of record you want to delete.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL ID]</td> 
-   <td>Enter the ID of the contact, company, or deal you want to delete. </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Get a Record Property]
-
-This action module gets metadata for a specific record property by its (internal) name.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Record Type]</td> 
-   <td>Select the type of record that has the property you want to retrieve metadata for.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Property Name]</td> 
-   <td>Select the property that you want to retrieve metadata for.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Option ID]</td> 
-   <td> <p> Some properties have a set of available options that a user can select as the property value. Enter the ID of the option that represents the property value you want to retrieve.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
 #### [!UICONTROL Watch Records]
 
 This trigger module starts a scenario when a contact, company, or deal has been modified or created within the last 30 days. Output is limited to 10,000 records.
@@ -317,14 +323,44 @@ This trigger module starts a scenario when a contact, company, or deal has been 
 
 ### Contacts
 
+* [[!UICONTROL Add Contacts to a List]](#add-contacts-to-a-list)
 * [[!UICONTROL Create/Update a Contact (Legacy)]](#createupdate-a-contact-legacy)
 * [[!UICONTROL Create/Update a Group of Contacts]](#createupdate-a-group-of-contacts)
-* [[!UICONTROL Add Contacts to a List]](#add-contacts-to-a-list)
-* [[!UICONTROL Remove a Contact from a List]](#remove-a-contact-from-a-list)
-* [[!UICONTROL Merge contacts]](#merge-contacts)
-* [[!UICONTROL Search for Contacts]](#search-for-contacts)
 * [[!UICONTROL List Contacts]](#list-contacts)
 * [[!UICONTROL List Contacts of a Company]](#list-contacts-of-a-company)
+* [[!UICONTROL Merge contacts]](#merge-contacts)
+* [[!UICONTROL Remove a Contact from a List]](#remove-a-contact-from-a-list)
+* [[!UICONTROL Search for Contacts]](#search-for-contacts)
+* [Watch Contacts Added to a List](#watch-contacts-added-to-a-list)
+
+#### [!UICONTROL Add Contacts to a List]
+
+This module adds contact records that have already been created in the system to a contact list.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL List ID] </td> 
+   <td>Select the ID of the list to which you want to add the contact. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL IDs/Emails] </td> 
+   <td> <p>Select how you want to identify the contacts you want to add to the list:</p> 
+    <ul> 
+     <li> <p>[!UICONTROL IDs]</p> <p>Add the IDs of the contacts that you want to add to the list.</p> </li> 
+     <li> <p>[!UICONTROL Emails]</p> <p>Add the email addresses of the contacts that you want to add to the list.</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<!-- #### Create/Update a Contact -->
 
 #### [!UICONTROL Create/Update a Contact (Legacy)]
 
@@ -368,104 +404,6 @@ Creates a group of contacts or updates them if they already exist. Performance i
       </ul> </li> 
      <li> <p><strong>[!UICONTROL Properties]</strong> </p> <p>Fill in any properties that you want to set or updatefor the contact.</p> </li> 
     </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Add Contacts to a List]
-
-This module adds contact records that have already been created in the system to a contact list.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL List ID] </td> 
-   <td>Select the ID of the list to which you want to add the contact. </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL IDs/Emails] </td> 
-   <td> <p>Select how you want to identify the contacts you want to add to the list:</p> 
-    <ul> 
-     <li> <p>[!UICONTROL IDs]</p> <p>Add the IDs of the contacts that you want to add to the list.</p> </li> 
-     <li> <p>[!UICONTROL Emails]</p> <p>Add the email addresses of the contacts that you want to add to the list.</p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Remove a Contact from a List]
-
-Removes a contact from a contact list.
-
->[!NOTE]
->
->You cannot manually remove contacts from a dynamic list.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL List ID] </td> 
-   <td>Select the ID of the list from which you want to remove the contact. </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Contact ID] </td> 
-   <td>Enter the ID of the contact you want to remove from the list. </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Merge contacts]
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL ID 1] </td> 
-   <td>Enter the ID of the one of the contacts you want to merge. </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL ID 2] </td> 
-   <td>Enter the ID of the other contact that you want to merge.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Search for Contacts]
-
-Retrieves a list of contacts using the search query.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Query]</td> 
-   <td>Enter the search query.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limit] </td> 
-   <td>Enter or map the maximum number of contacts [!DNL Workfront Fusion] should return during one scenario execution cycle. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -526,6 +464,77 @@ Retrieves a list of contacts in the company. The output is limited to 5000 conta
  </tbody> 
 </table>
 
+#### [!UICONTROL Merge contacts]
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID 1] </td> 
+   <td>Enter the ID of the one of the contacts you want to merge. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID 2] </td> 
+   <td>Enter the ID of the other contact that you want to merge.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Remove a Contact from a List]
+
+Removes a contact from a contact list.
+
+>[!NOTE]
+>
+>You cannot manually remove contacts from a dynamic list.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL List ID] </td> 
+   <td>Select the ID of the list from which you want to remove the contact. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Contact ID] </td> 
+   <td>Enter the ID of the contact you want to remove from the list. </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Search for Contacts]
+
+Retrieves a list of contacts using the search query.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Query]</td> 
+   <td>Enter the search query.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit] </td> 
+   <td>Enter or map the maximum number of contacts [!DNL Workfront Fusion] should return during one scenario execution cycle. </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 #### [!UICONTROL Watch contacts added to a list]
 
 This trigger module starts a scenario when a new contact is added to a list. This is available only to users with a paid Marketing account.
@@ -555,27 +564,8 @@ This trigger module starts a scenario when a new contact is added to a list. Thi
 
 ### Deals
 
-* [[!UICONTROL List Deal/Ticket Pipelines]](#list-dealticket-pipelines)
 * [[!UICONTROL Get a Deal's CRM Pipeline]](#get-a-deals-crm-pipeline)
-
-#### [!UICONTROL List Deal/Ticket Pipelines]
-
-Returns all deal and ticket pipelines for a given portal.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Object Type] </td> 
-   <td>Select whether you want to list deals or tickets.</td> 
-  </tr> 
- </tbody> 
-</table>
+* [[!UICONTROL List Deal/Ticket Pipelines]](#list-dealticket-pipelines)
 
 #### [!UICONTROL Get a Deal's CRM Pipeline]
 
@@ -596,6 +586,25 @@ Returns a specific deal pipeline..
   <tr> 
    <td role="rowheader">[!UICONTROL Stage ID] </td> 
    <td>Enter or map the ID of the stage you want to retrieve details for. </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL List Deal/Ticket Pipelines]
+
+Returns all deal and ticket pipelines for a given portal.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Object Type] </td> 
+   <td>Select whether you want to list deals or tickets.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -628,6 +637,8 @@ Retrieves a list of companies based on an exact match to the domain property.
   </tr> 
  </tbody> 
 </table>
+
+<!-- BECKY START CHECKING HERE -->
 
 ### Files
 
