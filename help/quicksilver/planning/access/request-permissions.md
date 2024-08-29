@@ -17,8 +17,8 @@ This article describes how to request access to a view or a workspace when someo
 
 For information about granting permissions to views and workspaces, see the following articles:
 
-   * [Share views](/help/quicksilver/planning/access/share-views.md)
-   * [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md)
+* [Share views](/help/quicksilver/planning/access/share-views.md)
+* [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md)
 
 
 ## Access requirements
