@@ -669,6 +669,8 @@ This module creates a folder.
  </tbody> 
 </table>
 
+<!-- Delete a File -->
+
 #### [!UICONTROL Delete a Folder]
 
 Marks a folder as deleted.
@@ -687,6 +689,8 @@ Marks a folder as deleted.
   </tr> 
  </tbody> 
 </table>
+
+<!-- List Files -->
 
 #### [!UICONTROL Move a File]
 
@@ -715,7 +719,17 @@ Moves a file to a different folder.
  </tbody> 
 </table>
 
+<!-- Upload a File -->
+
+<!-- Watch Files-->
+
+<!-- Tasks (All)-->
+
+<!-- Users (All)-->
+
 ### Tickets
+
+<!-- Create a Ticket -->
 
 #### [!UICONTROL Delete a Ticket]
 
@@ -735,6 +749,26 @@ Deletes an existing ticket by its ID.
   </tr> 
  </tbody> 
 </table>
+
+<!-- Get a Ticket -->
+
+<!-- List Tickets -->
+
+<!-- Update a Ticket -->
+
+<!-- Watch Tickets -->
+
+<!-- Forms (All)-->
+
+<!-- Social Media (All)-->
+
+<!-- Blog posts (All)-->
+
+<!-- Workflows (All)-->
+
+<!-- Subscriptions (All)-->
+
+<!-- Associations (All)-->
 
 ### [!UICONTROL Make an API Call]
 
