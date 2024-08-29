@@ -1,24 +1,14 @@
 ---
-title: "Fields: article index"
+title: "Fields: Article Index"
 description: You can add new fields in Adobe Workfront Planning that reflect your organization's lifecycle. Fields are attributes of record types.
-hidefromtoc: yes
-hide: yes
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d06028d9-9230-4a6c-a227-20618067192c
 ---
+
 # Fields: article index
-
-<!--
-title: Fields: article index
-description: You can add new fields in Adobe Workfront Planning that reflect your organization's lifecycle. Fields are attributes of record types. 
-hidefromtoc: yes
-author: Alina
-feature: Work Management (***************WE NEED A NEW ONE HERE***********)
-role: User, Admin
-hide: yes
--->
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 {{planning-important-intro}}
 

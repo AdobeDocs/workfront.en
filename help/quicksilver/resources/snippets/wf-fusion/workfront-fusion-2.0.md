@@ -16,5 +16,4 @@ draft: Probably
 * [Errors in Adobe Workfront Fusion](../../../workfront-fusion/errors/errors.md) 
 * [Organizations in Adobe Workfront Fusion](../../../workfront-fusion/organizations/organizations.md) 
 * [Apps and their modules](../../../workfront-fusion/apps-and-their-modules/apps-and-their-modules.md) 
-* &nbsp;
 

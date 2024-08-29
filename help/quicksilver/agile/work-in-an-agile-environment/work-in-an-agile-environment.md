@@ -2,7 +2,7 @@
 content-type: reference
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: Work in an agile environment
+title: Work in an Agile Environment
 description: Review these articles to learn how to work in an agile environment.
 author: Lisa
 feature: Agile

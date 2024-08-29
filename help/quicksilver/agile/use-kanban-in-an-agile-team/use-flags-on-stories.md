@@ -1,7 +1,7 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
-title: Use flags on stories on the Kanban board
+title: Use Flags on Stories on the Kanban Board
 description: On the [!DNL Kanban] board, flags provide a visual indication of when a story is ready to move to the next status. This enables Kanban teams to use a "pull" approach rather than a "push" approach when moving stories across statuses.
 author: Lisa
 feature: Agile
@@ -22,53 +22,57 @@ Consider the following when using flags on stories:
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
+ </col> 
  <col> 
+ </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Work] or higher</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>[!UICONTROL Worker] or higher</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>New: [!UICONTROL Standard]</p> 
+   or
+   <p>Current: [!UICONTROL Work] or higher</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Use flags on stories on the [!UICONTROL Kanban] board
 
 To change a flag on a story:
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Teams]**.
+{{step1-to-team}}
 
 1. (Optional) Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new [!UICONTROL Kanban] team from the drop-down menu or search for a team in the search bar.
 
 1. Go to the [!UICONTROL Kanban] board where you want to change a flag on a story.
-1. Expand the story tile to view the flag.\
-   The flag is set to **[!UICONTROL On Track]** for each story by default.\
+1. Expand the story tile to view the flag.
+   The flag is set to **[!UICONTROL On Track]** for each story by default.
    ![Kanban card](assets/agile-storycard-kanban-2021-350x308.png)
 
 1. Click the current flag, then select from the following flag options:
 
-   * **[!UICONTROL On Track]:** The story is in the appropriate status and no action needs to be taken at this time.\
+   * **[!UICONTROL On Track]:** The story is in the appropriate status and no action needs to be taken at this time.
 
-      This is the default flag for each story on the Kanban board.\
+      This is the default flag for each story on the Kanban board.
       ![kanban_flag_ontrack.png](assets/kanban-flag-ontrack.png)
 
-   * **[!UICONTROL Is Blocked]:** The story cannot proceed to the next status. When this flag is set on a story, the story does not count toward the WIP limit. (For more information about WIP limits, see&nbsp;the article [Configure Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).\
+   * **[!UICONTROL Is Blocked]:** The story cannot proceed to the next status. When this flag is set on a story, the story does not count toward the WIP limit. (For more information about WIP limits, see the article [Configure Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).)
 
       ![kanban_flag_blocked.png](assets/kanban-flag-blocked.png)
 
-   * **[!UICONTROL Ready to Pull]:** The story is ready to be moved to the next status by another member of the team.\
+   * **[!UICONTROL Ready to Pull]:** The story is ready to be moved to the next status by another member of the team.
 
       ![kanban_flag_ready.png](assets/kanban-flag-ready.png)

@@ -2,7 +2,7 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
-title: Kanban overview
+title: Kanban Overview
 description: Review this article to better understand how the Kanban board functions.
 author: Lisa
 feature: Agile

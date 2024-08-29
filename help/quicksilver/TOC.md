@@ -244,6 +244,9 @@ feature-set: Workfront
       * [Workfront Fusion release activity: Week of November 16, 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-16.md)
       * [Workfront Fusion release activity: Week of November 30, 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-nov-30.md)
       * [Workfront Fusion release activity: Week of September 21, 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-sept-21.md)
+    * Adobe Workfront Planning release activity{#planning-release-activity}
+      * [Adobe Workfront Planning release activity](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+      * [Fourth Quarter 2024 release activity for Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
     * Adobe Workfront Scenario Planner release activity {#scenario-planner-release}
       * [Adobe Workfront Scenario Planner release activity](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)
       * [Adobe Workfront Scenario Planner with the 21.3 release](product-announcements/product-releases/scenario-planner-release-activity/sp-release-21-3.md)
@@ -429,8 +432,8 @@ feature-set: Workfront
       * [New commenting experience](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
       * [New commenting experience release activity](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
       * [New commenting experience FAQs](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
-    * Workfront data lake beta {#data-lake-beta}
-      * [Workfront data lake beta information](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
+    * Workfront Data Connect beta {#data-lake-beta}
+      * [Workfront Data Connect beta information](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * Administration and setup {#administration-and-setup}
   * [Administration and setup: article index](administration-and-setup/administration-and-setup.md)
   * Get started with administration {#get-started-administration}
@@ -493,6 +496,7 @@ feature-set: Workfront
       * [Environment promotion overview](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
       * [Create or edit an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
       * [Install an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
+      * [Roll back an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md)
       * [Environment promotion using the API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
       * [Environment promotion FAQ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
       * [Environment promotion troubleshooting](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
@@ -1009,7 +1013,7 @@ feature-set: Workfront
   * [Boards overview](agile/boards-overview.md)
   * Get started with boards in Adobe Workfront {#boards-in-workfront}
     * [Get started with boards: article index](agile/get-started-with-boards/get-started-with-boards.md)
-    * [Adobe Workfront Boards video demonstrations](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
+    * [Workfront Boards video demonstrations](/help/quicksilver/agile/get-started-with-boards/boards-video-demonstrations.md)
     * [Boards early feature opt-in](agile/get-started-with-boards/boards-early-feature-opt-in.md)
     * [Use the boards dashboard](agile/get-started-with-boards/use-boards-page.md)
     * [Create or edit a board](agile/get-started-with-boards/create-edit-board.md)
@@ -1725,12 +1729,12 @@ feature-set: Workfront
     * [View the Project activity visualization in Enhanced analytics](enhanced-analytics/project-activity-overview.md)
     * [View the Project treemap visualization in Enhanced analytics](enhanced-analytics/project-treemap-overview.md)
     * [View the Activity by team visualization in Enhanced analytics](enhanced-analytics/activity-by-team-overview.md)
-  * Workfront data lake {#data-lake}
-    * [Workfront data lake overview](reports-and-dashboards/data-lake/data-lake-overview.md)
+  * Workfront Data Connect {#data-lake}
+    * [Workfront Data Connect overview](reports-and-dashboards/data-lake/data-lake-overview.md)
     * [Create a reader account](reports-and-dashboards/data-lake/create-a-reader-account.md)
-    * [Establish a connection to Workfront data lake](reports-and-dashboards/data-lake/share-data-externally.md)
-    * [Workfront data lake data dictionary](reports-and-dashboards/data-lake/data-dictionary.md)
-    * [Basic Workfront data lake query examples](reports-and-dashboards/data-lake/basic-query-examples.md)
+    * [Establish a connection to Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
+    * [Workfront Data Connect data dictionary](reports-and-dashboards/data-lake/data-dictionary.md)
+    * [Workfront Data Connect query examples](reports-and-dashboards/data-lake/basic-query-examples.md)
 * Manage resources {#manage-resources}
   * [Manage resources](resource-mgmt/manage-resources.md)
   * Resource Management {#resource-management}
@@ -2033,8 +2037,8 @@ feature-set: Workfront
     * [Adobe Workfront Planning overview](planning/general/planning-overview.md)
     * [Adobe Workfront Planning API basics](planning/general/planning-api-basics.md)
     * [Adobe Workfront Planning AI Assistant overview](planning/general/planning-ai-assistant-overview.md)
-    * [Adobe Workfront Planning current release activity](planning/general/release-activity.md)
-    * [Adobe Workfront Planning release activity archives for 2023](planning/general/release-activity-archives-2023.md)
+    * [Adobe Workfront Planning release activity for 2024](planning/general/release-activity.md)
+    * [Adobe Workfront Planning release activity for 2023](planning/general/release-activity-archives-2023.md)
     * [Adobe Workfront Planning object limitations overview](planning/general/limitations-overview.md)
   * Adobe Workfront Planning architecture {#adobe-workfront-planning-architecture}
     * [Architecture: article index](planning/architecture/architecture-information.md)
@@ -2065,6 +2069,7 @@ feature-set: Workfront
     * [License type overview when using Adobe Workfront Planning](planning/access/license-type-overview.md)
     * [Share workspaces](planning/access/share-workspaces.md)
     * [Share views](planning/access/share-views.md)
+    * [Request permissions to a view or a workspace](planning/access/request-permissions.md)
   * Adobe Workfront Planning records {#adobe-workfront-planning-records}
     * [Records: article index](planning/records/records-information.md) 
     * [Create records](planning/records/create-records.md)
@@ -2081,6 +2086,10 @@ feature-set: Workfront
     * [Manage the record page layout](planning/records/manage-the-record-page.md)
     * [Manage records in the Planning section of Adobe Workfront objects](planning/records/manage-records-in-planning-section.md)
     * [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md)
+  * Adobe Workfront Planning requests {#adobe-workfront-planning-requests}
+    * [Adobe Workfront Planning Requests: article index](planning/requests/requests-article-index.md)
+    * [Create and manage a request form in Adobe Workfront Planning](planning/requests/create-request-form.md)
+    * [Submit Adobe Workfront Planning requests to create records](planning/requests/submit-requests.md)
   * Adobe Workfront Planning views {#adobe-workfront-planning-views}
     * [Views: article index](planning/views/views-information.md)
     * [Manage record views](planning/views/manage-record-views.md)

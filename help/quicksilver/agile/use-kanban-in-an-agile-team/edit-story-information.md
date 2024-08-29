@@ -1,7 +1,7 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
-title: Edit story information
+title: Edit Story Information
 description: When viewing a story tile on the Kanban board, certain information is available to edit inline, directly from the story tile.
 author: Lisa
 feature: Agile
@@ -65,32 +65,36 @@ When viewing a story tile on the [!UICONTROL Kanban] board, the information in t
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
+ </col> 
  <col> 
+ </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Work] or higher</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>[!UICONTROL Worker] or higher</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>New: [!UICONTROL Standard]</p> 
+   or
+   <p>Current: [!UICONTROL Work] or higher</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## View and edit information on a story tile
 
-1. Click the *[!UICONTROL *Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Teams]**.
+{{step1-to-team}}
 
 1. (Optional) Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Kanban team from the drop-down menu or search for a team in the search bar.
 
@@ -99,8 +103,8 @@ You must have the following access to perform the steps in this article:
 
    ![](assets/story-expanded-on-kanban-board-2021-350x405.png)
 
-1. (Optional) To edit a field, click the field, then make any changes.\
-   You must have [!UICONTROL Edit] rights to the task or issue in order to edit the story tile.\
+1. (Optional) To edit a field, click the field, then make any changes.
+   You must have [!UICONTROL Edit] rights to the task or issue in order to edit the story tile.
    For more information about each field and whether it can be edited, see [Understand what information can be viewed and edited](#understand-what-information-can-be-viewed-and-edited).
 
 >[!NOTE]

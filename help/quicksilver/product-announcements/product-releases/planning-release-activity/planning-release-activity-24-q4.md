@@ -1,28 +1,12 @@
 ---
-title: "Adobe Workfront Planning Release Activity for the 24.10 Release"
-description: This is the release activity for the Adobe Workfront Planning product during the Workfront release of the 2024 Fourth Quarter. 
-recommendations: noDisplay, noCatalog
-hidefromtoc: yes
-hide: yes
----
-
-<!--update metadata:
-
----
 content-type: release-notes
 title: "Adobe Workfront Planning Release Activity for the 24.10 Release"
-description: This is the release activity for the Adobe Workfront Planning product. 
+description: This is the release activity for the Adobe Workfront Planning product for the 2024 Fourth Quarter. 
 author: Alina
 feature: Product Announcements
+role: Admin
 recommendations: noDisplay, noCatalog
-hidefromtoc: yes
-hide: yes
---- -->
-
-
-<!--add to TOC and miniTOC-->
-
-<!-- send Nolan a link to this article for the 24.10 (q4) release overview page-->
+---
 
 # Fourth Quarter 2024 release activity for Adobe Workfront Planning
 
@@ -40,17 +24,29 @@ hide: yes
 
 This article describes the features that are releasing for Workfront Planning during the 2024 Fourth Quarter release. 
 
-<!--keep the sentence below for all future quarterly release pages-->
+For information about features included in this release, see [Adobe Workfront Planning release activity for 2024](/help/quicksilver/planning/general/release-activity.md).
 
-For a list of all features released for Adobe Workfront Planning, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md). 
+
+<!--keep the sentence below for all future quarterly release pages-->
+<!--remove the general activity mention after fourth quarter 2024 is released-->
+
+For a list of all features released for Adobe Workfront Planning after the general availability release on August 28, 2024, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md). 
 
 ## General availability of Adobe Workfront Planning
 
 >[!NOTE]
 >
->Preview release: To be determined; Production release: August 28, 2024
+>Preview and Production release: August 28, 2024
 
+Adobe Workfront Planning is a new offering from Adobe Workfront. The purpose of Workfront Planning is to unlock comprehensive visibility into the operational details of an organization, and answer critical business questions at each stage of the work management lifecycle. 
 
-Workfront Planning is available for all customers who purchased a Workfront Planning license, in addition to their Workfront license. Contact your account representative for more information about Workfront Planning. 
+The following are some of the main capabilities of Adobe Workfront Planning: 
 
-For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md). 
+* Solve the problem of planning work across all stages and for all the stakeholders that participate in the work process. 
+
+* Fully customize your workflows, from deciding what object types (or record types) your organization uses to configuring how these objects interconnect.
+
+* Connect to object types from other systems, creating a coherent framework for all your processes. 
+
+For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).  
+

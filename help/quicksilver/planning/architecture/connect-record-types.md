@@ -1,22 +1,11 @@
 ---
-title: Connect record types
+title: Connect Record Types
 description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Adobe Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
-hidefromtoc: yes
-hide: yes
-recommendations: noDisplay, noCatalog
-exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
----
-<!-----
-title: Connect record types
-description: A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Adobe Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application.
-hidefromtoc: yes
-hide: yes
-feature: Work management
+feature: Workfront Planning
 role: User
 author: Alina
---->
-
-<!--update the metadata with real information when making this avilable in TOC and in the left nav-->
+exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
+---
 
 # Connect record types
 
@@ -40,8 +29,6 @@ For an example of connecting record types and records, see [Example of connectin
 <!--ensure this last linked article is right; the title and the link should have changed-->
 
 ## Access requirements
-
-<!--Updated for GA-->
 
 +++ Expand to view access requirements for Workfront Planning. 
 
@@ -198,6 +185,8 @@ You must have the following to be able to access Workfront Planning:
         
 
     * A record type from another workspace that was configured to connect from other workspaces. For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). 
+
+        ![](assets/connect-record-from-another-workspace-new-connection-tab.png)
 
         >[!TIP]
         >

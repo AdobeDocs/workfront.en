@@ -1,8 +1,9 @@
 ---
-title: Create records
+title: Create Records
 description: When using Adobe Workfront Planning, a record is an instance of a record type. You can create unique records for each record type in Workfront Planning by manually adding them to the table view, importing them from a list, duplicating them, or creating them as you connect them to other records. 
-hidefromtoc: yes
-hide: yes
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
 ---
@@ -16,10 +17,11 @@ In Adobe Workfront Planning, a record is an instance of a record type.
 
 You can create records by doing one of the following:
 
-* Add them from the record type page in the table view
+* Add records from the record type page in the table view
 * Copy and paste a list of records from an external list
-* Duplicate them
-* Create them as you connect them from other records
+* Duplicate records from a table view
+* Create records as you connect them from other records
+* Create them by submitting a request form to a record type
 
 This article describes how you can create records. 
 
@@ -29,8 +31,6 @@ For information about managing records in the table or timeline views, see the f
 * [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md)
 
 ## Access requirements
-
-<!--Updated for GA-->
 
 +++ Expand to view access requirements for Workfront Planning. 
 
@@ -159,8 +159,7 @@ You must have the following to be able to access Workfront Planning:
 
 +++
 
-
-## Create records by adding them to a record type <!--in a record type table (I don't think you can create them elsewhere right now)-->
+## Create records by adding them to a record type in a record type table 
 
 You can create records in the table view of a record type page. 
 
@@ -305,3 +304,12 @@ To create records as you are connecting them from other records:
 Or
 Click its name to open the details page and add information there. 
 
+## Create records by submitting a request form to a record type
+
+After someone creates a request form for a record type and shares a link to it with you, you can submit a request which creates a record for that record type. 
+
+For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+Both Workfront users and users external to your organization can submit requests to Planning record types and create records, if they have a link to the request form.
+
+For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).

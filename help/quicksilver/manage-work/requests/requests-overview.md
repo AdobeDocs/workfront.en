@@ -4,7 +4,7 @@ product-area: requests
 navigation-topic: projects-navigation-topic
 title: Requests
 description: Learn information about creating requests and request queues in the following sections. 
-author: Alina
+author: Lisa
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: f7c12f06-868e-45da-816b-4eb94e06c783

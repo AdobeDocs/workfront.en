@@ -4,14 +4,8 @@ content-type: reference
 description: AI Assistant overview
 author: Becky
 feature: Get Started with Workfront
-hide: yes
-hidefromtoc: yes
 ---
 # AI Assistant overview
-
->[!IMPORTANT]
->
->The Workfront AI Assistant has been temporarily removed and it will be available at a later date.
 
 Workfront's AI Assistant helps you accomplish your work by offering in-app information and suggestions in a natural-language conversation. AI Assistant can give you a smoother work experience by
 
@@ -44,12 +38,16 @@ You must have the following access to perform the steps in this article:
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).## Prerequisites to AI Assistant
 
+## Prerequisites to AI Assistant
+
 To enable AI Assistant for your organization, **all** of the following must apply:
 
 * Your organization must have migrated to Adobe IMS (Identity Management System)
 * The Adobe Unified Experience must be enabled
 * Your organization must have a Select, Prime, or Ultimate Workfront plan
 * Adobe must have a signed Adobe Gen AI agreement on file
+
+   For more information on signing the agreement, see [Sign the Adobe Gen AI agreement](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) in this article.
 
 ## Considerations about AI Assistant
 
@@ -109,4 +107,5 @@ To request the Adobe Gen AI agreement:
 1. Enter the name and email address of the individual at your organization who will sign the Adobe Gen AI agreement.
 
    The agreement will be sent to this individual for signing. After it is signed and returned, AI Assistant is enabled for your organization.
+
 
