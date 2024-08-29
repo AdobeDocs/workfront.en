@@ -20,7 +20,7 @@ This page provides information about functionality that is included in the Fourt
 >
 >|Monthly release|Quarterly release|
 >|----|----|
->|<ul><li>24.8 (August 2024)</li><li>24.9 (September 2024)</li><li>24.10 (October 2024)</li></ul>| <ul><li>24.10 (October 2024)</li></ul>|
+>|<ul><li>24.8 (August 15, 2024)</li><li>24.9 (September 12, 2024)</li><li>24.10 (October 2024)</li></ul>| <ul><li>24.10 (October 2024)</li></ul>|
 >
 >Note that for the final release of each quarter (24.10 this quarter), users on the fast release schedule will receive the release one day early.
 >
@@ -52,6 +52,25 @@ This page provides information about functionality that is included in the Fourt
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Roll back environment promotion packages</a></p>
+                        <p>To make environment promotion more flexible and easier to use, we've enabled rollback functionality. Now, you can roll back packages within 24 hours, allowing you to more easily restore previous configurations that have been affected by an environment promotion package.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 29, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production for fast release: With the 24.9 release (September 12, 2024)</p>
+                            </li>
+                            <li>
+                                <p>Production release for all customers: With the 24.10 release (October 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Layout button on the custom form designer allows two or three columns</a></p>
                         <p>A "Layout" button on the custom form designer allows you to choose from a two- or three-column working area. The original form designer uses three columns and the field settings are displayed in the far right column. If you select two columns, the field settings are displayed next to the field library in the far left column.</p>
                     </td>
@@ -61,7 +80,7 @@ This page provides information about functionality that is included in the Fourt
                                 <p>Preview release: August 12, 2024</p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 24.9 release (September 2024)</p>
+                                <p>Production for fast release: With the 24.9 release (September 12, 2024)</p>
                             </li>
                             <li>
                                 <p>Production release for all customers: TBD</p>
@@ -186,6 +205,7 @@ This page provides information about functionality that is included in the Fourt
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Chromium update for the Desktop Proofing Viewer</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>We are upgrading the Desktop Proofing Viewer to support Chromium 126.0.6478.127 which will resolve issues with UI elements in interactive proofs.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -211,6 +231,7 @@ This page provides information about functionality that is included in the Fourt
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">General availability of Adobe Workfront Planning</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>Workfront Planning is available for all customers who purchased a Workfront Planning license, in addition to their Workfront license. Contact your account representative for more information about Workfront Planning.</p>
                         <p>For the latest Workfront Planning release information each quarter, see the <a href="#workfront-planning-enhancements">Workfront Planning enhancements</a> section below.</p>
                     </td>
@@ -225,6 +246,7 @@ This page provides information about functionality that is included in the Fourt
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Adobe AI Assistant available in Workfront</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>To make it easier for you to accomplish your work, we've added Adobe's AI Assistant to Workfront. AI Assistant can help you by:</p>
                         <ul>
                             <li>Summarizing work items and documents, allowing you to quickly gain a general understanding of tasks, projects, and assets.</li>
