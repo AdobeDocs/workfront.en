@@ -27,9 +27,9 @@ exl-id: 276b28f0-3955-4a0e-aa31-604b291f2f14
 >
 >The beta program for the new commenting experience started in April 2023 and ended in October 2023, with the October 2023 release.
 > 
+>All features included in the new commenting experience have been available to all customers in the Production environment since April 11, 2024. 
 >For more information, see [New commenting experience](../../betas/new-commenting-experience-beta/unified-commenting-experience.md). 
 >
->All features included in the new commenting experience have been available to all customers in the Production environment since April 11, 2024. 
 
 ## New commenting experience location and release timeline
 

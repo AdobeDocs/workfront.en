@@ -3,6 +3,7 @@ title: Delete Workspaces
 description: You can delete workspaces when they are no longer relevant.
 feature: Workfront Planning
 role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: adec4b8e-2964-479b-8cf0-79d3afa27b2a
 ---

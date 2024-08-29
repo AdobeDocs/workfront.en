@@ -3,6 +3,7 @@ title: Manage Adobe Workfront Planning In-app Notifications
 description: When someone tags you in a record comment, you receive an email notification for that tag.
 feature: Workfront Planning
 role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
 ---
@@ -17,8 +18,7 @@ You can receive in-app notifications from Workfront Planning when the following 
    
    For information about tagging others in a record comment, see [Manage record comments](/help/quicksilver/planning/records/manage-record-comments.md). 
 * Someone asks for your permission to access a view or a workspace
-* Someone confirms your access has been granted for a view or a workspace <!--verify this-->
-* Someone has denied your access for a view or a workspace. <!--verify this-->
+* Someone confirms your access has been granted for a view or a workspace <!--Isk confirmed there is no notification for denying permissions - did not test-->
 
 ## Access requirements
 
@@ -58,7 +58,7 @@ You must have the following to be able to access Workfront Planning:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning.</p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.</p> 
 <p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -164,7 +164,10 @@ OLD:
 1. (Optional) Click **Mark all as read** to indicate that you have read all notifications.
 1. (Optional) Click **View all** to go to the **Notifications** page in Adobe Experience Cloud.
 
+## Manage in-app notifications when requesting and granting permissions
 
-## Manage in-app notifications when requesting, granting, or denying permissions to a view or a workspace
+You receive in-app notifications when someone requests or grants you permissions to a view or a workspace. 
 
 For information about requesting, granting, or denying permissions to a view or a workspace, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). 
+
+For information about managing your Workfront Planning notifications, see [Manage Adobe Workfront Planning notification preferences](/help/quicksilver/planning/notifications/manage-notification-preferences.md).

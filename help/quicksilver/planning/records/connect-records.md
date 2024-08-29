@@ -4,6 +4,9 @@ description: After you create connections between record types, you can connect 
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 ---
 <!--when you make this live, update the metadata above to this: 
