@@ -874,6 +874,7 @@ feature-set: Workfront
       * [New Home](workfront-basics/using-home/new-home/new-home.md)
       * [Get started with New Home](workfront-basics/using-home/new-home/get-started-with-new-home.md)
       * [Add, edit, or remove widgets in New Home](workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
+      * [New Home widget filters overview](workfront-basics/using-home/new-home/widget-filter-overview-new-home.md)
     * Use the Home area {#use-home-area}
       * [Use the Home area](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
       * [Get started with Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
