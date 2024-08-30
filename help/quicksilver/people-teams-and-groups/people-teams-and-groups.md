@@ -2,7 +2,7 @@
 content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: teams-and-groups
-title: Teams and groups
+title: Teams and Groups
 description: Review these areas to learn about working with teams and groups.
 author: Lisa
 feature: People Teams and Groups
