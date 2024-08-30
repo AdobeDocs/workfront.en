@@ -1,9 +1,8 @@
 ---
-navigation-topic: data-connect-beta
 title: Workfront Data Connect beta information
 description: General information about the Workfront Data Connect beta
-author: Nolan
-feature: Reports and Dashboards
+hide: yes
+hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: 2daf7617-5b3e-49f7-b93b-4210b1b2ea49
 ---
