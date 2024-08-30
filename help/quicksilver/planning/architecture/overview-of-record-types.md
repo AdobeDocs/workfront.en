@@ -3,6 +3,7 @@ title: Record Types Overview
 description: Record types are the building blocks of a Adobe Workfront Planning workspace.
 feature: Workfront Planning
 role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 1de095b3-78d9-44df-a678-51f4238deb91
 ---

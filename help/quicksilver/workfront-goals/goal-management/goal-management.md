@@ -11,20 +11,21 @@ exl-id: cba07613-9912-4929-bda4-50f503faa3e1
 ---
 # Goal management in Adobe Workfront Goals
 
-Your organization must have the following to use the functionality described in this article:
-
-* For the new plan and license structure:
-
-  * An Ultimate plan 
-    
-    Or
-    
-    An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. For information, see [Adobe Workfront plan](https://www.workfront.com/plans). 
-    
-* For the current plan and license structure: 
-
-  * A Pro or higher 
-  * An Adobe Workfront Goals license in addition to a Workfront license.
+>[!IMPORTANT]
+>
+>Your organization must have the following to use the functionality described in this article:
+>
+>* For the new plan and license structure*:
+>
+>   * An Ultimate plan 
+>    
+>* For the current plan and license structure: 
+>
+>   * A Pro or higher 
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
+>
+>*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+>
 
 Contact your Workfront account manager to learn about a Workfront Goals license.
 

@@ -18,8 +18,8 @@ You can receive email notifications from Workfront Planning when the following s
    
    For information about tagging others in a record comment, see [Manage record comments](/help/quicksilver/planning/records/manage-record-comments.md). 
 * Someone asks for your permission to access a view or a workspace
-* Someone confirms your access has been granted for a view or a workspace <!--verify this-->
-* Someone has denied your access for a view or a workspace. <!--verify this-->
+* Someone confirms your access has been granted for a view or a workspace <!--Isk confirmed that there is nno email for denying access but did not test-->
+
 
 ## Access requirements
 
@@ -57,7 +57,7 @@ You can receive email notifications from Workfront Planning when the following s
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning.</p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.</p> 
 <p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -159,6 +159,10 @@ OLD:
 1. (Conditional) If available, click **View all notifications**. <!--check with Lilit - do non-IMS users have this button??-->
     The **Notifications** page opens in Adobe Experience Cloud. All notifications from all Adobe Experience Cloud applications display. 
 
-## Manage email notifications when requesting, granting, or denying permissions to a view or a workspace
+## Manage email notifications when requesting and granting permissions
+
+You receive email notifications when someone requests or grants you permissions to a view or a workspace. 
 
 For information about requesting, granting, or denying permissions to a view or a workspace, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). 
+
+For information about managing your Workfront Planning notifications, see [Manage Adobe Workfront Planning notification preferences](/help/quicksilver/planning/notifications/manage-notification-preferences.md).

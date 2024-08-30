@@ -30,12 +30,6 @@ For additional information about access to Workfront Goals, see [Requirements to
 
 Adobe Workfront calculates goal progress automatically, based on the progress of its progress indicators.
 
-## Prerequisites
-
-You must have the following before you can start:
-
-* A Layout Template that includes the Goals area in the Main Menu.
-
 ## Overview of goal progress and threshold
 
 After you activate a goal, Workfront Goals starts calculating its progress and condition and displays the following indicators when you hover over the Progress field: 

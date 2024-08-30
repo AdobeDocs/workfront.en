@@ -19,7 +19,7 @@ This example demonstrates how you can compose a query to return your custom data
 
 ### Scenario: 
 
-Your organization that utilizes a custom form named Finance Integration. The form is attached to every project, and contains the following fields:
+Your organization utilizes a custom form named Finance Integration. The form is attached to every project, and contains the following fields:
 
 * **Business Unit** - A custom field that contains a string.
 * **ProjectID** - A custom field that contains a numerical string.

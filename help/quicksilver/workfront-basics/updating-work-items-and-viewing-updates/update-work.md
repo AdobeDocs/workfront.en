@@ -372,7 +372,7 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
    1. Click in your update where you want to insert a link.
    1. On the **Rich Text** toolbar, click the **Hyperlink** icon ![](assets/link-icon.png).  
 
-   1. In the **Create Link** box that appears, under **URL**, type or paste the URL of the source to which you want to link.
+   1. In the **Create Link** box, under **URL**, type or paste the URL of the source to which you want to link.
    
    1. Under **Text to display**, type or paste the link text.
    1. Click **Save**.
@@ -380,7 +380,7 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
 1. (Optional) To attach an image to your update, do one of the following: 
 
    * Save the image on our computer, then drag and drop it in the New comment area.
-   * Copy a screenshot from your computer, then paste it in the comment.<!-- This is not available in the legacy commenting experience.-->
+   * Copy a screenshot from your computer, then paste it in the comment.
    * Click the **Add image** icon ![](assets/add-image-mountain-with-plus-icon.png) and browse to the image on your computer. 
 
    
@@ -393,7 +393,8 @@ You can enhance your updates by using Rich Text, or adding various items to it, 
    >* Your Workfront administrator must enable adding images in the Update Feeds Preferences section of the Workfront Interface area before you can see the Image or the Add attachment icons. For information, see [Configure preferences for user updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-preferences-user-updates.md). 
    >* The maximum image file size is 7 MB. Supported image file types are .jpg, .gif, and .png.
    >* Images are accessible from the Updates section on an object and they are also available in the Documents area under the Main Menu. 
-   >* You can paste the image by right-clicking in the new comment, or by pressing CTRL + V for Windows (or ⌘ + V for Mac) on your keyboard.
+   >You can copy a screenshot from your computer using a keyboard combination, or, for example, the Print Screen function (on Windows computers).
+   >* You can paste the image by right-clicking in the new comment then clicking **Paste**, or by pressing CTRL + V for Windows (or ⌘ + V for Mac) on your keyboard.
    >* You can send an update with an image and no text.
    >* When you delete a comment that contains an image, the image is removed from the Updates section as well as from the Documents area. The image is also deleted from the Documents area when you edit a comment and delete the image.
    >* When someone deletes an image attached to a comment from the Documents area, it is also removed from the comment.
