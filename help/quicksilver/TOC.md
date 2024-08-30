@@ -1506,8 +1506,8 @@ feature-set: Workfront
     * [Team requests overview](people-teams-and-groups/work-with-team-requests/team-requests-overview.md)
     * [Manage work and team requests](people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)
   * Tips, tricks, and troubleshooting for teams and groups {#tips-tricks-people-teams-groups}
-    * [Tips, Tricks, and Troubleshooting for Teams and Groups](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
-    * [Username Already in Use](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
+    * [Tips, tricks, and troubleshooting for teams and groups](people-teams-and-groups/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-grps.md)
+    * [Username already in use](people-teams-and-groups/tips-tricks-and-troubleshooting/username-already-in-use.md)
 * Reporting {#reporting}
   * [Reports and Dashboards: article index](reports-and-dashboards/reports-and-dashboards-overview.md)
   * Canvas Dashboards {#canvas-dashboards}
