@@ -128,7 +128,7 @@ Or you can follow the steps below to send the sample data via the [!UICONTROL HT
 
    The webhook's items are now available in the mapping panel for use with subsequent modules in the scenario.
 
-## Queue
+## The webhook queue
 
 If a webhook receives data and there is not an active scenario that is expecting that data, the data is stored in the queue. Once you activate the scenario, it processes all bundles waiting in the queue sequentially.
 
