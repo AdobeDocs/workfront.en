@@ -1,7 +1,7 @@
 ---
 product-area: agile-and-teams
 navigation-topic: burndown
-title: Synchronize data in the burndown chart
+title: Synchronize Data in the Burndown Chart
 description: The burndown chart is synchronized automatically with data in your project or iteration. If the burndown chart ever becomes out of sync with data in the project or iteration, you can manually synchronize it.
 author: Lisa
 feature: Agile
@@ -13,6 +13,8 @@ The burndown chart is synchronized automatically with data in your project or it
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -22,21 +24,25 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Review] or higher</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>New: [!UICONTROL Light] or higher</p> 
+   or
+   <p>Current: [!UICONTROL Review] or higher</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Manually synchronize the burndown chart with data in your iteration
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Teams]**.
+{{step1-to-team}}
 
 1. (Optional) Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
 

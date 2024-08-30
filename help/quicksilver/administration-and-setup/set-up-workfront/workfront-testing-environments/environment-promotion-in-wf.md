@@ -8,7 +8,6 @@ description: The Environment Promotion capability is intended to provide the abi
 author: Becky
 feature: System Setup and Administration
 role: Admin
-recommendations: noDisplay, noCatalog
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
 ---
 # Overview of moving objects between Workfront environments (Environment promotion)

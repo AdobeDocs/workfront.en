@@ -1,11 +1,11 @@
 ---
 title: Workspaces Overview
 description: A workspace is a collection of record types used by a team and represents the team's work lifecycle. You can fully customize workspaces in Adobe Workfront Planning to match your organizational units' workflows. 
-hidefromtoc: yes
-hide: yes
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 ---
-<!--udpate the metadata with real information when making this avilable in TOC and in the left nav-->
 
 # Workspaces overview
 
@@ -13,7 +13,6 @@ recommendations: noDisplay, noCatalog
 
 A workspace is a collection of record types used by an organizational unit and it represents the unit's work lifecycle and processes. You can fully customize workspaces in Adobe Workfront Planning. 
 
-<!--replace shot below with new tab name for Workspaces I'm on-->
 
 ![](assets/workspaces-landing-page-admin-account.png)
 

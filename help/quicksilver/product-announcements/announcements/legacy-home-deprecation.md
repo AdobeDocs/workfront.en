@@ -47,7 +47,7 @@ We recommend administrators:
 
 1. Reassign the rest of your users to the new Home page layout.
 
-Doing this as soon as possible will then give your users time to adjust to the new experience and customize their new Home pages to best suit their individual needs.
+Doing this as soon as possible will then give your users time to adjust to the new experience and customize their new Home pages to best suit their individual needs. See [Remove, add, and rearrange widgets in new Home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) for information on how a user can customize the widgets on their own new Home page.
 
 ### Follow the Home experience as it develops
 
@@ -68,7 +68,7 @@ No, it will be completely removed from the application.
 
 Nearly, with the exception of:
 
-* Calendar, which is currently on our roadmap for new Home.
+* Calendar, which is currently on our roadmap for Priorities.
 
 * Displaying time stamps for object due dates is not currently available.
 

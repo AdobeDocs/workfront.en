@@ -3,6 +3,7 @@ title: Manage Adobe Workfront Planning In-app Notifications
 description: When someone tags you in a record comment, you receive an email notification for that tag.
 feature: Workfront Planning
 role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
 ---
@@ -11,15 +12,13 @@ exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
 
 {{planning-important-intro}}
 
-When someone tags you in a record comment, you may receive an in-app notification for that tag. 
+You can receive in-app notifications from Workfront Planning when the following scenarios exist:
 
->[!IMPORTANT]
->
->Your company must be an Adobe Unified Experience customer to be able to receive notifications from Workfront Planning. 
->
->For information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md). 
-
-For information about tagging others in a record comment, see [Manage record comments](/help/quicksilver/planning/records/manage-record-comments.md). 
+* Someone tags you in a record comment
+   
+   For information about tagging others in a record comment, see [Manage record comments](/help/quicksilver/planning/records/manage-record-comments.md). 
+* Someone asks for your permission to access a view or a workspace
+* Someone confirms your access has been granted for a view or a workspace <!--Isk confirmed there is no notification for denying permissions - did not test-->
 
 ## Access requirements
 
@@ -59,7 +58,7 @@ You must have the following to be able to access Workfront Planning:
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
-<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning.</p> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.</p> 
 <p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -152,7 +151,7 @@ OLD:
 +++
 -->
 
-## Manage in-app notifications
+## Manage in-app notifications when someone tags you in a comment
 
 1. (Conditional) After someone tags you in a comment on a record, go to the in-app **Notifications** icon ![](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud. 
 
@@ -164,3 +163,11 @@ OLD:
 
 1. (Optional) Click **Mark all as read** to indicate that you have read all notifications.
 1. (Optional) Click **View all** to go to the **Notifications** page in Adobe Experience Cloud.
+
+## Manage in-app notifications when requesting and granting permissions
+
+You receive in-app notifications when someone requests or grants you permissions to a view or a workspace. 
+
+For information about requesting, granting, or denying permissions to a view or a workspace, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md). 
+
+For information about managing your Workfront Planning notifications, see [Manage Adobe Workfront Planning notification preferences](/help/quicksilver/planning/notifications/manage-notification-preferences.md).

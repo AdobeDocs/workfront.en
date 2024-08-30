@@ -1,8 +1,9 @@
 ---
-title: Example of connecting record types and records
+title: Example of Connecting Record Types and Records
 description: This article describes an example of how to create a connection between an Adobe Workfront Planning record type and a Workfront project object type. It also describes how you can connect a Workfront Planning record with to an individual project.
-hidefromtoc: yes
-hide: yes
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
 ---
@@ -38,12 +39,21 @@ To do this:
     * **Record type**: Product <!--did they change the casing here?-->
     * **Name**: Give the new field a name. For example, "Product information." This is the name of the linked record field. 
     * **Description**: Add a description for the new field. For example, "These are the Products that I want my Campaigns associated with." The description of the field displays when hovering over the field in the column header. 
-    * **Allow multiple records**: If you leave this option selected, this allows users to select multiple records when the linked record type field (Product information) displays on the original records (Campaigns). In our case, users can select multiple Products to be connected to one Campaign. 
+    * **Connection type**: Select from the following options:
+        * **Many to many**: Users can connect one campaign to several products and one product to several campaigns. 
+        * **One to many**: Users can connect one campaign to several products, and one product to one campaign.
+        * **Many to one**: Users can connect one campaign to one product, and one product to many campaigns.
+        * **One to one**: Users can connect one campaign to one product, and one product to one campaign. 
+
+        >[!NOTE]
+        >
+        >The **Connection type** option is not available when connecting records from different workspaces or when connecting Experience Manager assets. For more information, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+        
+    * **Record appearance**: Deselect the **Title** toggle if you don't want to display the name of products when adding them to the campaign's Product information field. If enabled, records display both the thumbnail and the title. The toggle is enabled by default. 
     * **Select lookup fields**: If you leave this option selected, the **Add lookup fields** box opens next, to allow you to link Product fields with the Campaign record type. You can click **Skip** to skip this step and add Product fields later. 
 
     ![](assets/new-connection-with-product-record-type.png)
 
-1. (Optional) Deselect the **Title** toggle in the **Record appearance** section to display only the record's thumbnail image in the connected fields. If enabled, records display both the thumbnail and the title. The toggle is enabled by default. 
 1. (Conditional) If you selected the **Select lookup fields option** in the previous step, from the list of fields associated with the **Product** record type, click the **+** icon for the **Budget** field, then click **Add fields**. This creates a field called **Budget (from Product information)**, which is the name of the linked field. Any information for the Product Budget displays in this field for the Campaign records. 
 
     ![](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
@@ -132,7 +142,12 @@ To do this:
     * **Record type**: Project (from the Workfront sub-section) 
     * **Name**: Give the new field a name, for example "Project information." 
     * **Description**: Add a description for the new field. For example, "These are the Projects that I want my Campaigns associated with." The description displays in the table view, as you hover over the field name in the column header. 
-    * * **Allow multiple records**: Leaving this option selected allows users to select multiple projects when the linked project type field (Project information) displays on the original records (Campaigns).
+    * **Connection type**: Select from the following options:
+        * **Many to many**: Users can connect one campaign to several products and one product to several campaigns. 
+        * **One to many**: Users can connect one campaign to several products, and one product to one campaign.
+        * **Many to one**: Users can connect one campaign to one product, and one product to many campaigns.
+        * **One to one**: Users can connect one campaign to one product, and one product to one campaign. 
+    * **Link only objects that match this criteria**: Select a custom form from the **Custom form** drop-down menu. Only projects that are associated with the specified forms are available to be connected to campaigns. You can select multiple forms. 
     * **Select lookup fields**: If you leave this option selected, the **Add lookup fields** box opens next, to allow you to link Project fields with the Campaign record type. You can click **Skip** to skip this step and add Project fields later. 
 
      ![](assets/new-connection-tab-with-workfront-option.png)

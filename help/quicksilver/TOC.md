@@ -432,8 +432,8 @@ feature-set: Workfront
       * [New commenting experience](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
       * [New commenting experience release activity](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
       * [New commenting experience FAQs](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
-    * Workfront data lake beta {#data-lake-beta}
-      * [Workfront data lake beta information](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
+    * Workfront Data Connect beta {#data-lake-beta}
+      * [Workfront Data Connect beta information](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * Administration and setup {#administration-and-setup}
   * [Administration and setup: article index](administration-and-setup/administration-and-setup.md)
   * Get started with administration {#get-started-administration}
@@ -496,6 +496,7 @@ feature-set: Workfront
       * [Environment promotion overview](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
       * [Create or edit an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
       * [Install an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
+      * [Roll back an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md)
       * [Environment promotion using the API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
       * [Environment promotion FAQ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
       * [Environment promotion troubleshooting](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
@@ -873,6 +874,7 @@ feature-set: Workfront
       * [New Home](workfront-basics/using-home/new-home/new-home.md)
       * [Get started with New Home](workfront-basics/using-home/new-home/get-started-with-new-home.md)
       * [Add, edit, or remove widgets in New Home](workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
+      * [New Home widget filters overview](workfront-basics/using-home/new-home/widget-filter-overview-new-home.md)
     * Use the Home area {#use-home-area}
       * [Use the Home area](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
       * [Get started with Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
@@ -1727,12 +1729,12 @@ feature-set: Workfront
     * [View the Project activity visualization in Enhanced analytics](enhanced-analytics/project-activity-overview.md)
     * [View the Project treemap visualization in Enhanced analytics](enhanced-analytics/project-treemap-overview.md)
     * [View the Activity by team visualization in Enhanced analytics](enhanced-analytics/activity-by-team-overview.md)
-  * Workfront data lake {#data-lake}
-    * [Workfront data lake overview](reports-and-dashboards/data-lake/data-lake-overview.md)
+  * Workfront Data Connect {#data-lake}
+    * [Workfront Data Connect overview](reports-and-dashboards/data-lake/data-lake-overview.md)
     * [Create a reader account](reports-and-dashboards/data-lake/create-a-reader-account.md)
-    * [Establish a connection to Workfront data lake](reports-and-dashboards/data-lake/share-data-externally.md)
-    * [Workfront data lake data dictionary](reports-and-dashboards/data-lake/data-dictionary.md)
-    * [Basic Workfront data lake query examples](reports-and-dashboards/data-lake/basic-query-examples.md)
+    * [Establish a connection to Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
+    * [Workfront Data Connect data dictionary](reports-and-dashboards/data-lake/data-dictionary.md)
+    * [Workfront Data Connect query examples](reports-and-dashboards/data-lake/basic-query-examples.md)
 * Manage resources {#manage-resources}
   * [Manage resources](resource-mgmt/manage-resources.md)
   * Resource Management {#resource-management}
@@ -2067,6 +2069,7 @@ feature-set: Workfront
     * [License type overview when using Adobe Workfront Planning](planning/access/license-type-overview.md)
     * [Share workspaces](planning/access/share-workspaces.md)
     * [Share views](planning/access/share-views.md)
+    * [Request permissions to a view or a workspace](planning/access/request-permissions.md)
   * Adobe Workfront Planning records {#adobe-workfront-planning-records}
     * [Records: article index](planning/records/records-information.md) 
     * [Create records](planning/records/create-records.md)
@@ -2083,6 +2086,10 @@ feature-set: Workfront
     * [Manage the record page layout](planning/records/manage-the-record-page.md)
     * [Manage records in the Planning section of Adobe Workfront objects](planning/records/manage-records-in-planning-section.md)
     * [Export a record's details](/help/quicksilver/planning/records/export-the-record-page.md)
+  * Adobe Workfront Planning requests {#adobe-workfront-planning-requests}
+    * [Adobe Workfront Planning Requests: article index](planning/requests/requests-article-index.md)
+    * [Create and manage a request form in Adobe Workfront Planning](planning/requests/create-request-form.md)
+    * [Submit Adobe Workfront Planning requests to create records](planning/requests/submit-requests.md)
   * Adobe Workfront Planning views {#adobe-workfront-planning-views}
     * [Views: article index](planning/views/views-information.md)
     * [Manage record views](planning/views/manage-record-views.md)

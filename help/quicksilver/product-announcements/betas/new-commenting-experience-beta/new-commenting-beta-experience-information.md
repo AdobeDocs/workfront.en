@@ -15,7 +15,7 @@ exl-id: 08aea7a6-1ce2-46d9-9807-c94526851655
 
 >[!IMPORTANT]
 >
->The new commenting experience beta program is currently closed. 
+>The new commenting experience beta program is currently closed and the commenting capabilities are now available to all customers. 
 >
 >The features released during the beta period have been made available to all customers starting with the Fourth Quarter release of 2023 (October 2023). 
 

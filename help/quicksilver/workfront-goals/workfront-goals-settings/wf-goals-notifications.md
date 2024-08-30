@@ -10,6 +10,23 @@ exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
 ---
 # Enable Adobe Workfront Goals notifications
 
+>[!IMPORTANT]
+>
+>Your organization must have the following to use the functionality described in this article:
+>
+>* For the new plan and license structure:
+>
+>   * The Ultimate Workfront plan 
+>    
+>* For the current plan and license structure: 
+>
+>   * A Pro or higher Workfront plan
+>   * An Adobe Workfront Goals license in addition to a Workfront license.
+>
+>Contact your Workfront account manager to learn about a Workfront Goals license.    
+> 
+>For additional information about access to Workfront Goals, see [Requirements to use Workfront Goals](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).   
+
 Adobe Workfront Goals comes with a set of event notifications that you can enable for your account. These event notifications trigger email communication every time the condition defined by the event is met.
 
 For information about what notifications you can enable for Workfront Goals, see [Notifications: Goals](../../workfront-basics/using-notifications/notifications-goals.md).

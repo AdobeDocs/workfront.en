@@ -4,8 +4,6 @@ content-type: reference
 description: You can quickly summarize work items and documents using the Summarize this functionality.
 author: Becky
 feature: Get Started with Workfront
-hide: yes
-hidefromtoc: yes
 exl-id: c7460e8f-a7ae-415a-8db0-29736e8be0f8
 ---
 # Get help from AI Assistant
@@ -51,3 +49,4 @@ To get information or instructions from the Workfront Documentation using AI Ass
 1. View the response in the AI Assistant panel.
 1. (Optional) If the response does not contain the information you need, refine your response and try again.
 1. (Optional and conditional) If the response includes a link to an Adobe Experience League article, click the link to open the article in a new window.
+

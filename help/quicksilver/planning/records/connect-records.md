@@ -4,6 +4,9 @@ description: After you create connections between record types, you can connect 
 hidefromtoc: yes
 hide: yes
 recommendations: noDisplay, noCatalog
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 ---
 <!--when you make this live, update the metadata above to this: 
@@ -219,7 +222,7 @@ You can connect records from Workfront Planning in the following areas of a Plan
 
     The workspace opens and the record types display as cards.
 1. Click the card of a record type to open the record type page. 
-1. Click the name of a **Table** view to open it. 
+1. Click the name of a table view to open it. 
 1. (Optional) Add records to the record type that you selected by adding a new row to the table. For information, see [Create records](/help/quicksilver/planning/records/create-records.md). 
 1. (Conditional) After you connected the selected record type with another record type, go to the linked record column and double-click the cell corresponding to the record that you want to link with other records.
 
@@ -234,7 +237,7 @@ You can connect records from Workfront Planning in the following areas of a Plan
     
     >[!TIP]
     >
-    >    You can open a record's page by doing the following in the table view:
+    >    You can open a record's page and connect other records by doing the following in the table view:
     >1. Click the name of the record in the view.
     >1. Find the linked record field and double-click the field (if there are records already connected)
     >Or

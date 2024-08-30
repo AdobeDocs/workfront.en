@@ -4,8 +4,6 @@ content-type: reference
 description: You can use AI Assistant to resolve errors in your invalid custom expressions in calculated fields.
 author: Becky
 feature: Get Started with Workfront
-hide: yes
-hidefromtoc: yes
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
 ---
 # Generate or revise calculated field formulas with AI Assistant
@@ -64,3 +62,4 @@ To revise an invalid calculated field expression:
 >We recommend testing the calculated field to ensure that it retrieves the expected result.
 
 For more information on calculated fields in Workfront, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+

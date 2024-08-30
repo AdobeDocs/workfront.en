@@ -1,13 +1,12 @@
 ---
 title: Submit Adobe Workfront Planning requests
 description: After someone shares a link to a request form with you from a record type page in Adobe Workfront Planning, you can add a request to create records for the record type associated with the request form.
-hidefromtoc: yes
-hide: yes
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 ---
 # Submit Adobe Workfront Planning requests to create records
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 <!--update title when there will be more functionality added to the Planning requests, besides creating records-->
 
@@ -16,6 +15,10 @@ recommendations: noDisplay, noCatalog
 After someone shares a link to a request form with you from a record type page in Adobe Workfront Planning, you can add a request to create records for the record type associated with the request form. 
 
 Workfront users and external users can submit requests to Planning record types and create records. <!--double check on the external users-->
+
+This article describes how you can submit a request to add new records to a record type.
+
+For information about how a workspace manager can create a request form and associate it with a record type, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Access requirements
 
@@ -51,7 +54,6 @@ You must have the following to be able to access Workfront Planning:
    <td>
 <p>Any </p>  
 <p>For more information about what is included in each Workfront Planning plan, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>. </td>
-
 <tr>
    <td role="rowheader"><p>Adobe Workfront platform</p></td>
    <td>
@@ -104,7 +106,7 @@ The following must be in place before you can submit a request to a Workfront Pl
 * The request form must be shared with a link in a way you can access it. The following scenarios exist: 
 
    * If you have a Workfront account, the link has been shared only with internal people and you have access to the workspace. People outside Workfront cannot access a link shared internally. 
-   * If you don't have a Workfront account, the link has been shared with external people. Workfront users can also use a link shared with external people. 
+   * If you don't have a Workfront account, the link has been shared with external people. Workfront users can also access a link shared with external people. 
 
 * The link to the form must not be expired.
 
