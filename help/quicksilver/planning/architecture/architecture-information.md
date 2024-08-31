@@ -4,6 +4,7 @@ description: The following articles describe how you can configure the architect
 author: Alina
 feature: Workfront Planning
 role: User, Admin
+recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
 ---
 
