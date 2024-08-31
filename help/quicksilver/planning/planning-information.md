@@ -5,6 +5,7 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: 7a65d66e-a578-4016-805e-0cb04caaa18a
+recommendations: noDisplay, noCatalog
 ---
 # Adobe Workfront Planning: article index
 
