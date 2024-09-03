@@ -766,8 +766,6 @@ This action module refreshes a specified dataset.
   </tbody>
 </table>
 
-<!-- BECKY START HERE AND CHECK POUND SIGNS-->
-
 ### Apps
 
 * [Get an App](#get-an-app)
