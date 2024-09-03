@@ -204,6 +204,24 @@ This page provides information about functionality that is included in the Fourt
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Blank screen fix for Desktop Proofing Viewer Windows users</a></p>
+                        [!BADGE In production ]{type=Informative}
+                        <p>We fixed an issue with the new 2.1.36 Desktop Proofing Viewer version which caused some Windows users to see a blank screen after opening the viewer. </p>
+                        <p>New version for Windows users: 2.1.37</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 30, 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release for all customers: August 30, 2024</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Chromium update for the Desktop Proofing Viewer</a></p>
                         [!BADGE In production ]{type=Informative}
                         <p>We are upgrading the Desktop Proofing Viewer to support Chromium 126.0.6478.127 which will resolve issues with UI elements in interactive proofs.</p>
