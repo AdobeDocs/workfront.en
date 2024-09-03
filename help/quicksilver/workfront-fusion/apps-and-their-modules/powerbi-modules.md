@@ -365,38 +365,19 @@ This search module retrieves a list of reports.
   </tbody>
 </table>
 
-<!--BECKY START HERE-->
 
 ### Dataset
 
-#### [!UICONTROL List Datasets]
+* [Add/Delete Rows in a Dataset Table](#add-or-delete-rows-in-a-dataset-table)
+* [Create a Dataset](#create-a-dataset)
+* [Delete a Dataset](#delete-a-dataset)
+* [Get a Dataset](#get-a-dataset)
+* [List Datasets](#list-datasets)
+* [Refresh a Dataset](#refresh-a-dataset)
 
-This search module retrieves a list of datasets.
+#### [!UICONTROL Add or Delete Rows in a Dataset Table]
 
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>For instructions about connecting your [!DNL Power BI] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Group ID]  </td>
-      <td>Select or map the ID of the Group that owns the report that you want to retrieve metadata for.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Limit]</td>
-      <td>
-        <p>Enter or map the maximum number of records you want the module to [action] during each scenario execution cycle.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-#### [!UICONTROL Get a Dataset]
-
-This action module retrieves metadata of a specified dataset.
+This action module adds or deletes rows of a specified push dataset table.
 
 <table>
   <col/>
@@ -407,20 +388,72 @@ This action module retrieves metadata of a specified dataset.
    <td> <p>For instructions about connecting your [!DNL Power BI] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Enter a Report ID]</td>
-      <td>
-        <p>Select or map the option to choose the report that you want to retrieve metadata for.</p>
-      </td>
+      <td role="rowheader">[!UICONTROL Enter a table]</td>
+      <td>Select or map the option to select the dataset that contains the table you want to adjust..</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Report ID]</td>
+      <td role="rowheader">[!UICONTROL Dataset ID]</td>
+      <td>Enter or map the ID of the dataset that contains the rows you want to add or delete.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Table Name]  </td>
       <td>
-        <p>Enter or map the ID of the dataset that you want to retrieve metadata for.</p>
+        <p>Enter or map the name of the table that contains the rows you want to add or delete.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Group ID]  </td>
-      <td>Select or map the ID of the Group that owns the dataset that you want to retrieve metadata for.</td>
+      <td>Enter or map the ID of the group that owns the dataset.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Select the Action]</td>
+      <td>
+        <p>Select or map the action that you want to perform.</p>
+        <ul>
+          <li>
+            <p>[!UICONTROL Add rows]</p>
+          </li>
+          <li>
+            <p>[!UICONTROL Delete All Rows]</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Rows]</td>
+      <td>
+        <p>Add the row fields.</p>
+        <ul>
+          <li>
+            <p><b>[!UICONTROL Key]</b>
+            </p>
+            <p>Enter or map the key name.</p>
+          </li>
+          <li>
+            <p><b>[!UICONTROL Field Type]</b>
+            </p>
+            <p>Select or map the field type:</p>
+            <ul>
+              <li>
+                <p>Boolean</p>
+              </li>
+              <li>
+                <p>Date</p>
+              </li>
+              <li>
+                <p>Text</p>
+              </li>
+              <li>
+                <p>Number</p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p>[!UICONTROL Value]</p>
+            <p>Enter or map the key value.</p>
+          </li>
+        </ul>
+      </td>
     </tr>
   </tbody>
 </table>
@@ -596,9 +629,9 @@ This action module creates a new dataset.
   </tbody>
 </table>
 
-#### [!UICONTROL Add or Delete Rows in a Dataset Table]
+#### [!UICONTROL Delete a Dataset]
 
-This action module adds or deletes rows of a specified push dataset table.
+This action module deletes a dataset.
 
 <table>
   <col/>
@@ -609,71 +642,75 @@ This action module adds or deletes rows of a specified push dataset table.
    <td> <p>For instructions about connecting your [!DNL Power BI] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Enter a table]</td>
-      <td>Select or map the option to select the dataset that contains the table you want to adjust..</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Dataset ID]</td>
-      <td>Enter or map the ID of the dataset that contains the rows you want to add or delete.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Table Name]  </td>
+      <td role="rowheader">[!UICONTROL Enter a Report ID]</td>
       <td>
-        <p>Enter or map the name of the table that contains the rows you want to add or delete.</p>
+        <p>Select or map the option to choose the dataset that you want to delete.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Report ID]</td>
+      <td>
+        <p>Enter or map the ID of the dataset that you want to delete.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Group ID]  </td>
-      <td>Enter or map the ID of the group that owns the dataset.</td>
+      <td>Select or map the ID of the Group that owns the dataset that you want to delete.</td>
+    </tr>
+  </tbody>
+</table>
+
+#### [!UICONTROL Get a Dataset]
+
+This action module retrieves metadata of a specified dataset.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+   <td> <p>For instructions about connecting your [!DNL Power BI] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Select the Action]</td>
+      <td role="rowheader">[!UICONTROL Enter a Report ID]</td>
       <td>
-        <p>Select or map the action that you want to perform.</p>
-        <ul>
-          <li>
-            <p>[!UICONTROL Add rows]</p>
-          </li>
-          <li>
-            <p>[!UICONTROL Delete All Rows]</p>
-          </li>
-        </ul>
+        <p>Select or map the option to choose the report that you want to retrieve metadata for.</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Rows]</td>
+      <td role="rowheader">[!UICONTROL Report ID]</td>
       <td>
-        <p>Add the row fields.</p>
-        <ul>
-          <li>
-            <p><b>[!UICONTROL Key]</b>
-            </p>
-            <p>Enter or map the key name.</p>
-          </li>
-          <li>
-            <p><b>[!UICONTROL Field Type]</b>
-            </p>
-            <p>Select or map the field type:</p>
-            <ul>
-              <li>
-                <p>Boolean</p>
-              </li>
-              <li>
-                <p>Date</p>
-              </li>
-              <li>
-                <p>Text</p>
-              </li>
-              <li>
-                <p>Number</p>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <p>[!UICONTROL Value]</p>
-            <p>Enter or map the key value.</p>
-          </li>
-        </ul>
+        <p>Enter or map the ID of the dataset that you want to retrieve metadata for.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Group ID]  </td>
+      <td>Select or map the ID of the Group that owns the dataset that you want to retrieve metadata for.</td>
+    </tr>
+  </tbody>
+</table>
+
+#### [!UICONTROL List Datasets]
+
+This search module retrieves a list of datasets.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+   <td> <p>For instructions about connecting your [!DNL Power BI] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions</a></p> </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Group ID]  </td>
+      <td>Select or map the ID of the Group that owns the report that you want to retrieve metadata for.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Limit]</td>
+      <td>
+        <p>Enter or map the maximum number of records you want the module to [action] during each scenario execution cycle.</p>
       </td>
     </tr>
   </tbody>
@@ -729,36 +766,7 @@ This action module refreshes a specified dataset.
   </tbody>
 </table>
 
-#### [!UICONTROL Delete a Dataset]
-
-This action module deletes a dataset.
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>For instructions about connecting your [!DNL Power BI] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Enter a Report ID]</td>
-      <td>
-        <p>Select or map the option to choose the dataset that you want to delete.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Report ID]</td>
-      <td>
-        <p>Enter or map the ID of the dataset that you want to delete.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Group ID]  </td>
-      <td>Select or map the ID of the Group that owns the dataset that you want to delete.</td>
-    </tr>
-  </tbody>
-</table>
+<!-- BECKY START HERE-->
 
 ### Apps
 
