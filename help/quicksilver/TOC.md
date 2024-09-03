@@ -1812,6 +1812,7 @@ feature-set: Workfront
       * [Remove approvers or reviewers from an asset or document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
       * [Create an Approval Template for assets and documents](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
       * [Use new document approvals and proofing together](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
+      * [Upload a new document version and request an approval](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
     * Review and approve assets and documents {#review-and-approve-documents}
       * [Review and approve documents: article index](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
       * [Review a document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)

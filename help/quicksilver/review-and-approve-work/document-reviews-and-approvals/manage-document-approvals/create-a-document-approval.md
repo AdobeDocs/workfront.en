@@ -9,7 +9,7 @@ exl-id: a02699e1-3557-47f0-89b7-dbecb507a174
 ---
 # Create a document review or approval request
 
-cYou can request approval from other users or teams for a document in Adobe Workfront, or request they review a document without needing to approve it.
+You can request approval from other users or teams for a document in Adobe Workfront, or request they review a document without needing to approve it.
 
 >[!IMPORTANT]
 >
@@ -90,6 +90,10 @@ You must have the following access to perform the steps in this article:
    ![](assets/add-approver-and-deadline.png)
 
 1. Repeat the previous step to add additional approvers or reviewers.
+
+
+
+
 
 <!--
 ## Resubmit an approval on a new version
