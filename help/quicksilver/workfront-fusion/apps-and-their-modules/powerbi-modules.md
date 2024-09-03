@@ -766,9 +766,17 @@ This action module refreshes a specified dataset.
   </tbody>
 </table>
 
-<!-- BECKY START HERE-->
+<!-- BECKY START HERE AND CHECK POUND SIGNS-->
 
 ### Apps
+
+* [Get an App](#get-an-app)
+* [Get an App's Dashboard](#get-an-apps-dashboard)
+* [Get an App's Report](#get-an-apps-report)
+* [List App's Dashboards](#list-apps-dashboards)
+* [List App's Reports](#list-apps-reports)
+* [List Apps](#list-apps)
+* [Watch Apps](#watch-apps)
 
 #### [!UICONTROL Watch Apps]
 
