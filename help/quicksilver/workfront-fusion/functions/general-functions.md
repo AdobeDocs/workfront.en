@@ -71,7 +71,7 @@ To create an if statement that returns a value only if two or more expressions a
 
 To combine `if` statements, use the `and` and `or` operators.
 
-![and operator](/help/quicksilver/workfront-fusion/functions/assets/and%20in%20if%20statement.png)
+![and operator](/help/quicksilver/workfront-fusion/functions/assets/and-in-if-statement.png)
 
 >[!INFO]
 >
