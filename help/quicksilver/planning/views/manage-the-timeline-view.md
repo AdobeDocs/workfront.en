@@ -397,7 +397,7 @@ You can display connected records in a record's timeline view by using the Break
 * You can display connected records or objects under the records of the selected record type in the timeline view. 
 * You can display the following in the timeline view, using the Breakdown feature:
     * Workfront Planning records connected to the selected record type. 
-    * Workfront (*************or AEM Assets*************)  object types connected to the selected record type.
+    * Workfront object types or Experience Manager assets connected to the selected record type.
     * Workfront Planning records or objects from other application that are connected to records connected to the selected record type. 
     
         For example, you might connect campaigns to portfolios. In addition, you might connect  another record type, products, with projects, as well as with campaigns. When you build the campaign timeline view, you can break down the campaigns by portfolios, products, and projects. 

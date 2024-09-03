@@ -350,10 +350,12 @@ When you display the table view, you can also view which field another user is e
 
     ![](assets/show-collaborators-toggle-selected.png)
 
-1. (Conditional) Open a table view, and the field which another person is editing is outlined in the color corresponding to the outline of their their avatar in the table view. 
+1. (Conditional) Open a table view, and the field which another person is actively editing is highlighted in the color corresponding to the outline of their avatar in the table view. 
+
+    If the highlight color of the avatar is gray, the user stopped actively editing the record more than 30 seconds ago. 
 
     ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
     >[!TIP]
     >
-    >You can select the **Show collaborators** toggle from any view. The edited field is outlined only in the table view. 
+    >You can select the **Show collaborators** toggle from any view. The field currently edited by others is outlined only in the table view. 
