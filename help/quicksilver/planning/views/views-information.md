@@ -4,6 +4,7 @@ description: You can display Adobe Workfront Planning records in a table, timeli
 author: Alina
 feature: Workfront Planning
 role: User, Admin
+recommendations: noDisplay, noCatalog
 exl-id: 0f93014b-d0f7-4ea3-9b11-3314b46f1ef3
 ---
 

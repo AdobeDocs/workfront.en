@@ -51,5 +51,5 @@ To disable AI Assistant for a given access level:
 1. In the Edit Access Level window, scroll down to the bottom of the window and click **Set additional restrictions...**.
 1. In the Set additional restrictions area, enable the option **Disable the Workfront AI Assistant**.
 1. Click **Save**.
-1. Repeat steps 3-6 for each access level for which you want to enable AI assistant.
+1. Repeat steps 3-6 for each access level for which you want to disable AI assistant.
 

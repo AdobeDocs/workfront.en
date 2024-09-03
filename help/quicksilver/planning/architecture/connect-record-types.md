@@ -4,6 +4,7 @@ description: A way to indicate how individual record types relate to one another
 feature: Workfront Planning
 role: User
 author: Alina
+recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 ---
 

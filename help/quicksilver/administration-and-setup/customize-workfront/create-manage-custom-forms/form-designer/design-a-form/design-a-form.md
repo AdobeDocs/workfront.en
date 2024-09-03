@@ -298,7 +298,7 @@ To add radio buttons, checkbox groups, and dropdowns:
     * Single-select dropdown
     * Multi-select dropdown
 
-    ![Drag a field onto the canvas](assets/drag-field-to-section-041524.png)
+    ![Drag a field onto the canvas](assets/drag-field-to-section.png)
 
 1. On the right side of the screen, configure the options that are available for the type of custom field you are adding:
 
@@ -573,7 +573,7 @@ To add an external lookup:
      </tr> 
      <tr> 
       <td role="rowheader">Name</td> 
-      <td> <p>(Required) This name is how the system identifies the field. When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p> 
+      <td> <p>(Required) This name is how the system identifies the field. When you are configuring the widget for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p>
       <p>For more information, see <a href="design-a-form.md#notes-on-field-names-and-labels">Notes on field names and labels</a>.</p> </td>
      </tr> 
       <td role="rowheader">Instructions</td> 
