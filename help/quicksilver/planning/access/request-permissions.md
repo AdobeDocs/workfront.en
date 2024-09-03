@@ -9,6 +9,13 @@ recommendations: noDisplay, noCatalog
 
 # Request permissions to a view or a workspace
 
+>[!IMPORTANT]
+>
+>The functionality described in this article is available only when your organization has been onboarded to the Adobe Unified Experience. 
+>
+>For more information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md). 
+
+
 You can request permissions to a view or a workspace when someone shares a link with you to the view or the workspace to which you do not have access. 
 
 Requesting permissions to a view is similar to requesting permissions to a workspace. 
@@ -60,6 +67,8 @@ You must have the following to be able to access Workfront Planning:
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
 <p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning.</p> 
+<p><b>IMPORTANT</b></p>
+<p>The users in your organization can request permissions for views and workspaces only when your organization is onboarded to the Adobe Unified Experience. </p>
 <p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
