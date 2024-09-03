@@ -778,9 +778,9 @@ This action module refreshes a specified dataset.
 * [List Apps](#list-apps)
 * [Watch Apps](#watch-apps)
 
-#### [!UICONTROL Watch Apps]
+#### [!UICONTROL Get an App]
 
-This trigger module starts a scenario when an app is updated.
+This action module retrieves metadata of a specified app.
 
 <table>
   <col/>
@@ -791,9 +791,63 @@ This trigger module starts a scenario when an app is updated.
    <td> <p>For instructions about connecting your [!DNL Power BI] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Limit]  </td>
+      <td role="rowheader">[!UICONTROL App ID]  </td>
       <td>
-        <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p>
+        <p>Select or map the ID of the app you want to retrieve.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+#### [!UICONTROL Get an App's Dashboard]
+
+This action module retrieves metadata of a specified app's dashboard.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+   <td> <p>For instructions about connecting your [!DNL Power BI] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions</a></p> </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL App ID]  </td>
+      <td>
+        <p>Select or map the ID of the app that contains the dashboard you want to retrieve.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Report ID]</td>
+      <td>
+        <p>  Select or map the ID of the dashboard you want to retreive.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+#### [!UICONTROL Get an App's Report]
+
+This action module retrieves metadata of a specified app's report.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+   <td> <p>For instructions about connecting your [!DNL Power BI] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions</a></p> </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL App ID]  </td>
+      <td>
+        <p>Select or map the ID of the app that contains the report you want to retrieve.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Report ID]</td>
+      <td>
+        <p>  Select or map the ID of the report you want to retreive.</p>
       </td>
     </tr>
   </tbody>
@@ -810,31 +864,6 @@ This search module retrieves a list of all apps installed.
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
    <td> <p>For instructions about connecting your [!DNL Power BI] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Limit]  </td>
-      <td>
-        <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-#### [!UICONTROL List App's Reports]
-
-This search module retrieves a list of all reports from the specified app.
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>For instructions about connecting your [!DNL Power BI] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL App ID]</td>
-      <td>Select or map the ID of the app that you want to list reports from.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Limit]  </td>
@@ -870,9 +899,9 @@ This search module retrieves a list of dashboards from a specified app.
   </tbody>
 </table>
 
-#### [!UICONTROL Get an App]
+#### [!UICONTROL List App's Reports]
 
-This action module retrieves metadata of a specified app.
+This search module retrieves a list of all reports from the specified app.
 
 <table>
   <col/>
@@ -883,44 +912,21 @@ This action module retrieves metadata of a specified app.
    <td> <p>For instructions about connecting your [!DNL Power BI] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL App ID]  </td>
+      <td role="rowheader">[!UICONTROL App ID]</td>
+      <td>Select or map the ID of the app that you want to list reports from.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Limit]  </td>
       <td>
-        <p>Select or map the ID of the app you want to retrieve.</p>
+        <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p>
       </td>
     </tr>
   </tbody>
 </table>
 
-#### [!UICONTROL Get an App's Report]
+#### [!UICONTROL Watch Apps]
 
-This action module retrieves metadata of a specified app's report.
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>For instructions about connecting your [!DNL Power BI] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL App ID]  </td>
-      <td>
-        <p>Select or map the ID of the app that contains the report you want to retrieve.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Report ID]</td>
-      <td>
-        <p>  Select or map the ID of the report you want to retreive.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-#### [!UICONTROL Get an App's Dashboard]
-
-This action module retrieves metadata of a specified app's dashboard.
+This trigger module starts a scenario when an app is updated.
 
 <table>
   <col/>
@@ -931,15 +937,9 @@ This action module retrieves metadata of a specified app's dashboard.
    <td> <p>For instructions about connecting your [!DNL Power BI] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL App ID]  </td>
+      <td role="rowheader">[!UICONTROL Limit]  </td>
       <td>
-        <p>Select or map the ID of the app that contains the dashboard you want to retrieve.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Report ID]</td>
-      <td>
-        <p>  Select or map the ID of the dashboard you want to retreive.</p>
+        <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p>
       </td>
     </tr>
   </tbody>
