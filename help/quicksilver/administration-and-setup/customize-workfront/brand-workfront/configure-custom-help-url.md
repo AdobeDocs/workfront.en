@@ -3,7 +3,7 @@ title: Configure a Custom Help URL
 user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
-description: If you create a custom  internal help site  containing information about how your organization uses Workfront, you can configure the Main Menu Help icon to go to that site. This does not affect the main Help link in the Main Menu and the context-sensitive help links throughout Workfront, which take users to the Workfront Help site.
+description: If you create a custom internal help site containing information about how your organization uses Workfront, you can configure the Main Menu Help icon to go to that site.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -11,15 +11,13 @@ exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
 ---
 # Configure a custom help URL
 
-If you create a custom  internal help site  containing information about how your organization uses Workfront, you can configure the Main Menu Help icon to go to that site.
+If you create a custom internal help site containing information about how your organization uses Workfront, you can configure the Main Menu Help icon to go to that site.
 
  ![](assets/custom-help-button.png)
 
-This does not affect the main Help link in the Main Menu and the context-sensitive help links throughout Workfront, which take users to the Workfront Help site.
+This does not affect the context-sensitive help links throughout Workfront, which take users to the Workfront Help site.
 
- ![](assets/custom-help-url.png)
-
-For information about how users access both a custom help URL that you configure in Workfront and the regular Workfront help site, see [Accessing Workfront Help in the new Adobe Workfront experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+For information about how users access both a custom help URL that you configure in Workfront and the regular Workfront help site, see [Access Adobe Workfront help](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
 
 ## Access requirements
 
