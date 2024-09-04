@@ -141,6 +141,7 @@ If you see the map button above a field or function, you can use it to set varia
 
 
 ![](assets/map-toggle-350x74.png)
+
 >[!NOTE]
 >
 >* If you do not see the most up-to-date fields in a Workfront module, this may be because of caching issues. Wait one hour and try again.
