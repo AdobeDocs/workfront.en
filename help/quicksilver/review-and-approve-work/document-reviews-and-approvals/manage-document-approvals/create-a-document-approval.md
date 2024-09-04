@@ -69,7 +69,7 @@ You must have the following access to perform the steps in this article:
 
 1. Repeat the previous step to add additional approvers or reviewers.
 
-## Create a document review or approval request from the Document Summary pane
+## Create a document review or approval request from the Document Summary panel
 
 1. Go to the project, task, or issue that contains the document, then select **Documents**.
 

@@ -65,13 +65,19 @@ To find out what plan, license type, or access you have, contact your Workfront 
 
 1. Drop the new version on top of the existing file on the **Documents** tab.
 
-   For information about managing document versions, see [Manage document versions](../../documents/managing-documents/manage-document-versions.md).
+1. Once the document is uploaded, click on it and open the document Summary panel.
 
-## Use the More menu to add a new version
+1. Scroll down to the **Approvals** section in the Document Summary pane, then click **Add**.
 
-1. Select the document where you want to add a new version. 
-1. Click **Add New** > **Version**.
+  ![](assets/doc-summary-add-approvers.png)
 
-   ![](assets/add-new-version-350x185.png)
+1. (Optional) Set a deadline for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified deadline.
 
-1. Select the type of document you want to upload, then follow the prompts.
+1. To quickly add reviewers and approvers from the previous version, click the add button next to their names listed below.
+<!--need screenshot when working-->
+
+1. (Optional) change role from approver/reviewer.
+
+1. To add new approvers and reviewers, click **Reviewer** or **Approver** and begin typing the user or team.
+
+   ![](assets/add-approver-and-deadline.png)
