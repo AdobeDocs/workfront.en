@@ -650,6 +650,7 @@ This module retrieves a list of attachments belonging to the specified message.
 ### Other
 
 * [[!UICONTROL Add an Attachment]](#add-an-attachment)
+<!--Create and send a message-->
 * [[!UICONTROL Make an API Call]](#make-an-api-call)
 
 #### [!UICONTROL Add an Attachment]

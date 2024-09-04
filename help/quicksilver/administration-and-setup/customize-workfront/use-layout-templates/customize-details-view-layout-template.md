@@ -98,11 +98,13 @@ To perform them for a group, you must be a manager of that group</p> <p><b>NOTE<
 1. In the **Details** section, do any of the following to customize what users see in the Details view:
 
    * Drag any section headers ![](assets/move-icon---dots.png) to change their order.
-   * Enable or disable options under **Overview** and **Custom Forms** to show or hide them.
+   * Enable or disable options under the various areas (such as **Overview**, **Finance**, and **Custom Forms**) to show or hide them.
 
      If you hide all fields in one of these sections, the entire section is hidden.
 
-     All of the fields are enabled by default.
+     All of the fields are enabled by default. You can select or clear the **Select all** check box in an area to display or hide all of the fields in that area.
+
+   ![Details view in layout template](assets/layout-template-details-view.png)
 
 1. Continue customizing the layout template.
 

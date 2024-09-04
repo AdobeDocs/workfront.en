@@ -58,6 +58,7 @@ You can receive email notifications from Workfront Planning when the following s
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
 <p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.</p> 
+<p>The users in your organization receive notifications from Workfront Planning only when your organization is onboarded to the Adobe Unified Experience. </p>
 <p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
