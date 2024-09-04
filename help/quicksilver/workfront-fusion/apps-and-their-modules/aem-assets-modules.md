@@ -184,9 +184,18 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
+* [Copy a folder or asset](#copy-a-folder-or-asset)
+* [Create a record](#create-a-record)
+* [Delete a folder, asset, or rendition](#delete-a-folder-asset-or-rendition)
+* [Get a folder listing](#get-a-folder-listing)
+* [Make a custom API call](#make-a-custom-api-call)
+* [Move a folder or asset](#move-a-folder-or-asset)
+* [Update a record](#update-a-record)
+* [Upload an asset](#upload-an-asset)
+
 ### [!UICONTROL Copy a folder or asset]
 
-This action module copies a folder or asset to another location in your Adobe Experience Manager Assetsaccount.
+This action module copies a folder or asset to another location in your Adobe Experience Manager Assets account.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -254,7 +263,7 @@ This action module creates a folder or an asset comment.
  </tbody> 
 </table>
 
-### [!UICONTROL Delete a record]
+### [!UICONTROL Delete a folder, asset, or rendition]
 
 This action module deletes a folder, asset, or rendition.
 

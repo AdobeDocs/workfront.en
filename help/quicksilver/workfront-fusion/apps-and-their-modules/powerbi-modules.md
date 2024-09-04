@@ -67,11 +67,23 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
+* [Dashboards](#dashboards)
+* [Reports](#reports)
+* [Dataset](#dataset)
+* [Apps](#apps)
+* [Other](#other)
+
 ### Dashboards
 
-#### [!UICONTROL List Dashboards]
+* [Create a Dashboard](#create-a-dashboard)
+* [Get a Dashboard](#get-a-dashboard)
+* [Get a Dashboard Tile](#get-a-dashboard-tile)
+* [List Dashboard Tiles](#list-dashboard-tiles)
+* [List Dashboards](#list-dashboards)
 
-This search module retrieves a list of dashboards.
+#### [!UICONTROL Create a Dashboard]
+
+This action module creates a new dashboard.
 
 <table>
   <col/>
@@ -82,55 +94,14 @@ This search module retrieves a list of dashboards.
    <td> <p>For instructions about connecting your [!DNL Power BI] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Group ID]  </td>
-      <td>
-        <p>Select or map the ID of the Group that owns the dashboards you want to list.</p>
-      </td>
+      <td role="rowheader">[!UICONTROL Name]</td>
+      <td>Enter or map a name for the Dashboard.</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Limit]  </td>
-      <td>
-        <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p>
-      </td>
+      <td role="rowheader">[!UICONTROL Group ID]  </td>
+      <td>Select or map the ID of the Group that will own the new Dashboard.</td>
     </tr>
   </tbody>
-</table>
-
-#### [!UICONTROL List Dashboard Tiles]
-
-This search module retrieves a list of dashboard tiles.
-
-<table>
-<col/>
-<col/>
-<tbody>
-  <tr>
-    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>For instructions about connecting your [!DNL Power BI] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions</a></p> </td> 
-  </tr>
-  <tr>
-    <td role="rowheader">[!UICONTROL Enter a Dashboard ID]</td>
-    <td>
-      <p>Select or map the option to choose the dashboard whose tiles you want to list.</p>
-    </td>
-  </tr>
-  <tr>
-    <td role="rowheader">[!UICONTROL Dashboard ID]</td>
-    <td>
-      <p>Enter or map the ID of the dashboard that contains the tiles you want to list.</p>
-    </td>
-  </tr>
-  <tr>
-    <td role="rowheader">[!UICONTROL Group ID]  </td>
-    <td>Select or map the ID of the Group that owns the dashboards that contains the tiles you want to list.</td>
-  </tr>
-  <tr>
-    <td role="rowheader">[!UICONTROL Limit]  </td>
-    <td>
-      <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p>
-    </td>
-  </tr>
-</tbody>
 </table>
 
 #### [!UICONTROL Get a Dashboard]
@@ -199,34 +170,46 @@ This action module retrieves metadata of a specified dashboard tile.
   </tbody>
 </table>
 
-#### [!UICONTROL Create a Dashboard]
+#### [!UICONTROL List Dashboard Tiles]
 
-This action module creates a new dashboard.
+This search module retrieves a list of dashboard tiles.
 
 <table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
+<col/>
+<col/>
+<tbody>
+  <tr>
+    <td role="rowheader">[!UICONTROL Connection]</td>
    <td> <p>For instructions about connecting your [!DNL Power BI] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Name]</td>
-      <td>Enter or map a name for the Dashboard.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Group ID]  </td>
-      <td>Select or map the ID of the Group that will own the new Dashboard.</td>
-    </tr>
-  </tbody>
+  </tr>
+  <tr>
+    <td role="rowheader">[!UICONTROL Enter a Dashboard ID]</td>
+    <td>
+      <p>Select or map the option to choose the dashboard whose tiles you want to list.</p>
+    </td>
+  </tr>
+  <tr>
+    <td role="rowheader">[!UICONTROL Dashboard ID]</td>
+    <td>
+      <p>Enter or map the ID of the dashboard that contains the tiles you want to list.</p>
+    </td>
+  </tr>
+  <tr>
+    <td role="rowheader">[!UICONTROL Group ID]  </td>
+    <td>Select or map the ID of the Group that owns the dashboards that contains the tiles you want to list.</td>
+  </tr>
+  <tr>
+    <td role="rowheader">[!UICONTROL Limit]  </td>
+    <td>
+      <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p>
+    </td>
+  </tr>
+</tbody>
 </table>
 
-### Reports
+#### [!UICONTROL List Dashboards]
 
-#### [!UICONTROL List Reports]
-
-This search module retrieves a list of reports.
+This search module retrieves a list of dashboards.
 
 <table>
   <col/>
@@ -239,7 +222,7 @@ This search module retrieves a list of reports.
     <tr>
       <td role="rowheader">[!UICONTROL Group ID]  </td>
       <td>
-        <p>Select or map the ID of the Group that owns the reports you want to list.</p>
+        <p>Select or map the ID of the Group that owns the dashboards you want to list.</p>
       </td>
     </tr>
     <tr>
@@ -251,36 +234,12 @@ This search module retrieves a list of reports.
   </tbody>
 </table>
 
-#### [!UICONTROL Get a Report]
+### Reports
 
-This action module retrieves metadata of a specified report.
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>For instructions about connecting your [!DNL Power BI] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Enter a Report ID]</td>
-      <td>
-        <p>Select or map the option to choose the report that you want to retrieve metadata for.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Report ID]</td>
-      <td>
-        <p>Enter or map the ID of the report that you want to retrieve metadata for.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Group ID]  </td>
-      <td>Select or map the ID of the Group that owns the report that you want to retrieve metadata for.</td>
-    </tr>
-  </tbody>
-</table>
+* [Copy a Report](#copy-a-report)
+* [Delete a Report](#delete-a-report)
+* [Get a Report](#get-a-report)
+* [List Reports](#list-reports)
 
 #### [!UICONTROL Copy a Report]
 
@@ -348,36 +307,9 @@ This action module deletes a report.
   </tbody>
 </table>
 
-### Dataset
+#### [!UICONTROL Get a Report]
 
-#### [!UICONTROL List Datasets]
-
-This search module retrieves a list of datasets.
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>For instructions about connecting your [!DNL Power BI] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Group ID]  </td>
-      <td>Select or map the ID of the Group that owns the report that you want to retrieve metadata for.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Limit]</td>
-      <td>
-        <p>Enter or map the maximum number of records you want the module to [action] during each scenario execution cycle.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-#### [!UICONTROL Get a Dataset]
-
-This action module retrieves metadata of a specified dataset.
+This action module retrieves metadata of a specified report.
 
 <table>
   <col/>
@@ -396,12 +328,132 @@ This action module retrieves metadata of a specified dataset.
     <tr>
       <td role="rowheader">[!UICONTROL Report ID]</td>
       <td>
-        <p>Enter or map the ID of the dataset that you want to retrieve metadata for.</p>
+        <p>Enter or map the ID of the report that you want to retrieve metadata for.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Group ID]  </td>
-      <td>Select or map the ID of the Group that owns the dataset that you want to retrieve metadata for.</td>
+      <td>Select or map the ID of the Group that owns the report that you want to retrieve metadata for.</td>
+    </tr>
+  </tbody>
+</table>
+
+#### [!UICONTROL List Reports]
+
+This search module retrieves a list of reports.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+   <td> <p>For instructions about connecting your [!DNL Power BI] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions</a></p> </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Group ID]  </td>
+      <td>
+        <p>Select or map the ID of the Group that owns the reports you want to list.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Limit]  </td>
+      <td>
+        <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+### Dataset
+
+* [Add/Delete Rows in a Dataset Table](#add-or-delete-rows-in-a-dataset-table)
+* [Create a Dataset](#create-a-dataset)
+* [Delete a Dataset](#delete-a-dataset)
+* [Get a Dataset](#get-a-dataset)
+* [List Datasets](#list-datasets)
+* [Refresh a Dataset](#refresh-a-dataset)
+
+#### [!UICONTROL Add or Delete Rows in a Dataset Table]
+
+This action module adds or deletes rows of a specified push dataset table.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+   <td> <p>For instructions about connecting your [!DNL Power BI] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions</a></p> </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Enter a table]</td>
+      <td>Select or map the option to select the dataset that contains the table you want to adjust..</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Dataset ID]</td>
+      <td>Enter or map the ID of the dataset that contains the rows you want to add or delete.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Table Name]  </td>
+      <td>
+        <p>Enter or map the name of the table that contains the rows you want to add or delete.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Group ID]  </td>
+      <td>Enter or map the ID of the group that owns the dataset.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Select the Action]</td>
+      <td>
+        <p>Select or map the action that you want to perform.</p>
+        <ul>
+          <li>
+            <p>[!UICONTROL Add rows]</p>
+          </li>
+          <li>
+            <p>[!UICONTROL Delete All Rows]</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Rows]</td>
+      <td>
+        <p>Add the row fields.</p>
+        <ul>
+          <li>
+            <p><b>[!UICONTROL Key]</b>
+            </p>
+            <p>Enter or map the key name.</p>
+          </li>
+          <li>
+            <p><b>[!UICONTROL Field Type]</b>
+            </p>
+            <p>Select or map the field type:</p>
+            <ul>
+              <li>
+                <p>Boolean</p>
+              </li>
+              <li>
+                <p>Date</p>
+              </li>
+              <li>
+                <p>Text</p>
+              </li>
+              <li>
+                <p>Number</p>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <p>[!UICONTROL Value]</p>
+            <p>Enter or map the key value.</p>
+          </li>
+        </ul>
+      </td>
     </tr>
   </tbody>
 </table>
@@ -577,9 +629,9 @@ This action module creates a new dataset.
   </tbody>
 </table>
 
-#### [!UICONTROL Add or Delete Rows in a Dataset Table]
+#### [!UICONTROL Delete a Dataset]
 
-This action module adds or deletes rows of a specified push dataset table.
+This action module deletes a dataset.
 
 <table>
   <col/>
@@ -590,71 +642,75 @@ This action module adds or deletes rows of a specified push dataset table.
    <td> <p>For instructions about connecting your [!DNL Power BI] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Enter a table]</td>
-      <td>Select or map the option to select the dataset that contains the table you want to adjust..</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Dataset ID]</td>
-      <td>Enter or map the ID of the dataset that contains the rows you want to add or delete.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Table Name]  </td>
+      <td role="rowheader">[!UICONTROL Enter a Report ID]</td>
       <td>
-        <p>Enter or map the name of the table that contains the rows you want to add or delete.</p>
+        <p>Select or map the option to choose the dataset that you want to delete.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Report ID]</td>
+      <td>
+        <p>Enter or map the ID of the dataset that you want to delete.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Group ID]  </td>
-      <td>Enter or map the ID of the group that owns the dataset.</td>
+      <td>Select or map the ID of the Group that owns the dataset that you want to delete.</td>
+    </tr>
+  </tbody>
+</table>
+
+#### [!UICONTROL Get a Dataset]
+
+This action module retrieves metadata of a specified dataset.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+   <td> <p>For instructions about connecting your [!DNL Power BI] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Select the Action]</td>
+      <td role="rowheader">[!UICONTROL Enter a Report ID]</td>
       <td>
-        <p>Select or map the action that you want to perform.</p>
-        <ul>
-          <li>
-            <p>[!UICONTROL Add rows]</p>
-          </li>
-          <li>
-            <p>[!UICONTROL Delete All Rows]</p>
-          </li>
-        </ul>
+        <p>Select or map the option to choose the report that you want to retrieve metadata for.</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Rows]</td>
+      <td role="rowheader">[!UICONTROL Report ID]</td>
       <td>
-        <p>Add the row fields.</p>
-        <ul>
-          <li>
-            <p><b>[!UICONTROL Key]</b>
-            </p>
-            <p>Enter or map the key name.</p>
-          </li>
-          <li>
-            <p><b>[!UICONTROL Field Type]</b>
-            </p>
-            <p>Select or map the field type:</p>
-            <ul>
-              <li>
-                <p>Boolean</p>
-              </li>
-              <li>
-                <p>Date</p>
-              </li>
-              <li>
-                <p>Text</p>
-              </li>
-              <li>
-                <p>Number</p>
-              </li>
-            </ul>
-          </li>
-          <li>
-            <p>[!UICONTROL Value]</p>
-            <p>Enter or map the key value.</p>
-          </li>
-        </ul>
+        <p>Enter or map the ID of the dataset that you want to retrieve metadata for.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Group ID]  </td>
+      <td>Select or map the ID of the Group that owns the dataset that you want to retrieve metadata for.</td>
+    </tr>
+  </tbody>
+</table>
+
+#### [!UICONTROL List Datasets]
+
+This search module retrieves a list of datasets.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+   <td> <p>For instructions about connecting your [!DNL Power BI] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions</a></p> </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Group ID]  </td>
+      <td>Select or map the ID of the Group that owns the report that you want to retrieve metadata for.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Limit]</td>
+      <td>
+        <p>Enter or map the maximum number of records you want the module to [action] during each scenario execution cycle.</p>
       </td>
     </tr>
   </tbody>
@@ -710,9 +766,19 @@ This action module refreshes a specified dataset.
   </tbody>
 </table>
 
-#### [!UICONTROL Delete a Dataset]
+### Apps
 
-This action module deletes a dataset.
+* [Get an App](#get-an-app)
+* [Get an App's Dashboard](#get-an-apps-dashboard)
+* [Get an App's Report](#get-an-apps-report)
+* [List App's Dashboards](#list-apps-dashboards)
+* [List App's Reports](#list-apps-reports)
+* [List Apps](#list-apps)
+* [Watch Apps](#watch-apps)
+
+#### [!UICONTROL Get an App]
+
+This action module retrieves metadata of a specified app.
 
 <table>
   <col/>
@@ -723,29 +789,44 @@ This action module deletes a dataset.
    <td> <p>For instructions about connecting your [!DNL Power BI] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Enter a Report ID]</td>
+      <td role="rowheader">[!UICONTROL App ID]  </td>
       <td>
-        <p>Select or map the option to choose the dataset that you want to delete.</p>
+        <p>Select or map the ID of the app you want to retrieve.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+#### [!UICONTROL Get an App's Dashboard]
+
+This action module retrieves metadata of a specified app's dashboard.
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+   <td> <p>For instructions about connecting your [!DNL Power BI] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions</a></p> </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL App ID]  </td>
+      <td>
+        <p>Select or map the ID of the app that contains the dashboard you want to retrieve.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Report ID]</td>
       <td>
-        <p>Enter or map the ID of the dataset that you want to delete.</p>
+        <p>  Select or map the ID of the dashboard you want to retreive.</p>
       </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Group ID]  </td>
-      <td>Select or map the ID of the Group that owns the dataset that you want to delete.</td>
     </tr>
   </tbody>
 </table>
 
-### Apps
+#### [!UICONTROL Get an App's Report]
 
-#### [!UICONTROL Watch Apps]
-
-This trigger module starts a scenario when an app is updated.
+This action module retrieves metadata of a specified app's report.
 
 <table>
   <col/>
@@ -756,9 +837,15 @@ This trigger module starts a scenario when an app is updated.
    <td> <p>For instructions about connecting your [!DNL Power BI] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Limit]  </td>
+      <td role="rowheader">[!UICONTROL App ID]  </td>
       <td>
-        <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p>
+        <p>Select or map the ID of the app that contains the report you want to retrieve.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Report ID]</td>
+      <td>
+        <p>  Select or map the ID of the report you want to retreive.</p>
       </td>
     </tr>
   </tbody>
@@ -775,31 +862,6 @@ This search module retrieves a list of all apps installed.
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
    <td> <p>For instructions about connecting your [!DNL Power BI] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Limit]  </td>
-      <td>
-        <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-#### [!UICONTROL List App's Reports]
-
-This search module retrieves a list of all reports from the specified app.
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>For instructions about connecting your [!DNL Power BI] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL App ID]</td>
-      <td>Select or map the ID of the app that you want to list reports from.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Limit]  </td>
@@ -835,9 +897,9 @@ This search module retrieves a list of dashboards from a specified app.
   </tbody>
 </table>
 
-#### [!UICONTROL Get an App]
+#### [!UICONTROL List App's Reports]
 
-This action module retrieves metadata of a specified app.
+This search module retrieves a list of all reports from the specified app.
 
 <table>
   <col/>
@@ -848,44 +910,21 @@ This action module retrieves metadata of a specified app.
    <td> <p>For instructions about connecting your [!DNL Power BI] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL App ID]  </td>
+      <td role="rowheader">[!UICONTROL App ID]</td>
+      <td>Select or map the ID of the app that you want to list reports from.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Limit]  </td>
       <td>
-        <p>Select or map the ID of the app you want to retrieve.</p>
+        <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p>
       </td>
     </tr>
   </tbody>
 </table>
 
-#### [!UICONTROL Get an App's Report]
+#### [!UICONTROL Watch Apps]
 
-This action module retrieves metadata of a specified app's report.
-
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-   <td> <p>For instructions about connecting your [!DNL Power BI] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions</a></p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL App ID]  </td>
-      <td>
-        <p>Select or map the ID of the app that contains the report you want to retrieve.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Report ID]</td>
-      <td>
-        <p>  Select or map the ID of the report you want to retreive.</p>
-      </td>
-    </tr>
-  </tbody>
-</table>
-
-#### [!UICONTROL Get an App's Dashboard]
-
-This action module retrieves metadata of a specified app's dashboard.
+This trigger module starts a scenario when an app is updated.
 
 <table>
   <col/>
@@ -896,15 +935,9 @@ This action module retrieves metadata of a specified app's dashboard.
    <td> <p>For instructions about connecting your [!DNL Power BI] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to Adobe [!DNL Workfront Fusion] - Basic instructions</a></p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL App ID]  </td>
+      <td role="rowheader">[!UICONTROL Limit]  </td>
       <td>
-        <p>Select or map the ID of the app that contains the dashboard you want to retrieve.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Report ID]</td>
-      <td>
-        <p>  Select or map the ID of the dashboard you want to retreive.</p>
+        <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p>
       </td>
     </tr>
   </tbody>

@@ -52,6 +52,23 @@ This page provides information about functionality that is included in the Fourt
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">A "Select all" option is now available in layout templates</a></p>
+                        [!BADGE In production ]{type=Informative}
+                        <p>To help you more easily display and hide fields with layout templates, a "Select all" check box was added to the Overview and Finance areas of the Details view in a layout template. This option is available when you have selected Project, Task, Issue, Portfolio, or Program under under "Customize what users see".</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 29, 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release for all customers: August 6, 2024</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Roll back environment promotion packages</a></p>
                         <p>To make environment promotion more flexible and easier to use, we've enabled rollback functionality. Now, you can roll back packages within 24 hours, allowing you to more easily restore previous configurations that have been affected by an environment promotion package.</p>
                     </td>
@@ -111,6 +128,7 @@ This page provides information about functionality that is included in the Fourt
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Outlook integration login experience enhancements</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>The login experience for Outlook integration has been streamlined so that all customers see the same button to log in to Workfront whether or not they are IMS-enabled. The subsequent login steps remain different for IMS and non-IMS instances, but the initial page is the same for all users.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>

@@ -276,8 +276,8 @@ This trigger module starts a scenario when a record is added, updated, or delete
 ### Actions
 
 * [[!UICONTROL Add issue to sprint]](#add-issue-to-sprint)
-* [[!UICONTROL Custom API Call]](#custom-api-call)
 * [[!UICONTROL Create a Record]](#create-a-record)
+* [[!UICONTROL Custom API Call]](#custom-api-call)
 * [[!UICONTROL Delete a record]](#delete-a-record)
 * [[!UICONTROL Download an attachment]](#download-an-attachment)
 * [[!UICONTROL Read a record]](#read-a-record)
