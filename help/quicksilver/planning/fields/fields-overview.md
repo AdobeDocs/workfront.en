@@ -4,6 +4,7 @@ description: You can add new fields in Adobe Workfront Planning that reflect you
 author: Alina
 feature: Workfront Planning
 role: User, Admin
+recommendations: noDisplay, noCatalog
 exl-id: a1ad5ada-5010-4dec-934e-a49a3e28aa5f
 ---
 

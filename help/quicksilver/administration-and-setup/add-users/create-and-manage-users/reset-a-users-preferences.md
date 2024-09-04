@@ -104,13 +104,25 @@ When you reset user preferences, some preferences are reverted to the system def
 1. Select **Log In As**.
 1. Begin typing the name of the user whose preferences you want to reset, then click the name when it appears in the drop-down list.
 1. Select  **Log In**.
-1. In the URL field at the top of your web browser, add `/resetUser` after `workfront.com`.
+1. If your organization has not been onboarded to the Adobe Unified Experience, follow this step:
+   
+   * In the URL field at the top of your web browser, add `/resetUser` after `workfront.com`.
 
-   >[!NOTE]
-   >
-   >This is case sensitive. The U must be capitalized, and the remaining characters must be lowercase. For example:
-   >
-   >`https://company_domain.my.workfront.com/resetUser`
+     >[!NOTE]
+     >
+     >This is case sensitive. The U must be capitalized, and the remaining characters must be lowercase. For example:
+     >
+     >`https://company_domain.my.workfront.com/resetUser`
+
+1. If your organization has been onboarded to the Adobe Unified Experience, follow this step:
+
+   * In the URL field at the top of your web browser, add add `/resetUser` after `workfront`.
+
+     >[!NOTE]
+     >
+     >This is case sensitive. The U must be capitalized, and the remaining characters must be lowercase. For example:
+     >
+     >`https://experience.adobe.com/#/@company/so:(domain)-(environment)/workfront/resetUser`
 
 1. Press **Enter**.
 1. To reset all user preferences, select **Reset**.

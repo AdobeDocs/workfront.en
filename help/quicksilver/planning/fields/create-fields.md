@@ -219,7 +219,7 @@ OLD:
 
 ### Single-line text {#single-line-text}
 
-Single-line text fields capture limited alphanumeric information. For example,  you can capture the Owner, Stakeholder, Team, or Organizational unit information in a single-line text field. The content of a single-line text field can have up to 250 characters. <!-- asked Lilit if we can change this to "Single-line" since this can have numbers and text.-->
+Single-line text fields capture limited alphanumeric information. For example,  you can capture the Owner, Stakeholder, Team, or Organizational unit information in a single-line text field. The content of a single-line text field can have up to 1,000 characters. <!-- used to be 250 but just tested with 1000 and it allowed this as a maximum. -->
 
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Single-line text** field type.
 
@@ -239,9 +239,12 @@ Paragraph fields capture additional alphanumeric information about a record, sim
 
 >[!TIP]
 >
->* The content of a paragraph field can have up to 1,000 characters. 
+>* You can have a maximum of 20 paragraph fields for one record type.  
 >
->* You can use Rich Text formatting to enhance the content of paragraph fields when they display in the table view or the Details page of a record. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md). 
+>* The content of a paragraph field can have up to 100,000 characters.
+>* You can use Rich Text formatting to enhance the content of paragraph fields when they display in the table view or the Details page of a record. For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).
+>
+ 
 
 1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Paragraph** field type.
 

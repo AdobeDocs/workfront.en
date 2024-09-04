@@ -1,26 +1,12 @@
 ---
 title: Connect Records
 description: After you create connections between record types, you can connect individual records to one another.
-hidefromtoc: yes
-hide: yes
 recommendations: noDisplay, noCatalog
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 ---
-<!--when you make this live, update the metadata above to this: 
----
-title: Connect records and objects
-description: In addition to connecting records to one another, you can also connect records to objects from other applications.  
-topic: Architecture
-role: User
-hidefromtoc: yes
-hide: yes
----
--->
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
-
 
 # Connect records 
 
@@ -379,7 +365,7 @@ After you create a connection between a record type and Adobe Experience Manager
 >
 >Planning records and their fields are accessible from Experience Manager Assets when your Workfront administrator configures the metadata mapping through the integration between Workfront and Adobe Experience Manager Assets. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
-To connect records with AEM assets: 
+To connect records with Experience Manager assets: 
 
 {{step1-to-planning}}
 

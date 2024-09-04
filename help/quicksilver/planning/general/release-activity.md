@@ -93,6 +93,11 @@ When you request access to a workspace or a view, the user you request access fr
 
 You can access the view or workspace from the email notification, when the permission has been granted.  <!--see if they also get an in-app notification-->
 
+>[!NOTE]
+>
+>Your organization must be onboarded to the Adobe Unified Experience for users to be able to request and grant permissions to a view or a workspace from a permission request. 
+
+
 For information, see [Request permissions to a view or a workspace](/help/quicksilver/planning/access/request-permissions.md).  
 
 ### Define format for formula field values

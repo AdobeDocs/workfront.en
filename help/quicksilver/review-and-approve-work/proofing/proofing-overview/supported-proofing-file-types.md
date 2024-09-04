@@ -175,11 +175,8 @@ Workfront has the following limits:
 > * PPSX - Microsoft PowerPoint Slideshow
 > * XLT - Microsoft Excel Template 
 > * XLTX - Microsoft Excel Template
-
->[!WARNING]
-> We temporarily do not support the following static file type due to a security issue:
->
 > * EPS - Encapsulated PostScript
+ 
 
 * AI -&nbsp;Adobe Illustrator Artwork 
 * AIT - Adobe Illustrator Template 
