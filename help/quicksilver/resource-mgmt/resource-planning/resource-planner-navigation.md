@@ -2,9 +2,9 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
-title: Resource Planner navigation overview
+title: Resource Planner Navigation Overview
 description: By using the Adobe Workfront Resource Planner, you can easily understand the availability of your resources, as well as the planned time necessary to complete the work on your projects. You can then manage the allocation of your users and their job roles on the projects they are assigned to.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
 ---

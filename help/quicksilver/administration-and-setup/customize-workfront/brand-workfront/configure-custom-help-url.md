@@ -56,3 +56,5 @@ You must have the following access to perform the steps in this article:
    If your custom help location requires login credentials, those credentials are required for users when they access the site from Workfront. The credentials to your custom help site might need to be managed separately from the Workfront credentials if you are not using Single Sign-On (SSO).
 
 1. Click **Save**.
+
+   Once you have saved a custom help URL, you can return to the default Workfront help site by deleting the custom URL and clicking **Save**.

@@ -2,9 +2,9 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
-title: Resource Planner overview
+title: Resource Planner Overview
 description: You can estimate and budget the allocation of your resources to the projects they are assigned to and forecast their availability for future work using the Resource Planner.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
 ---

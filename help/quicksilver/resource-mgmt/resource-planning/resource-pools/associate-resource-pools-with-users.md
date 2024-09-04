@@ -39,7 +39,7 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">Adobe Workfront plan</td> 
    <td><p>New: Any</p>
        <p>or</p>
-       <p>Current: Pro and higher</p> </td> 
+       <p>Current: Pro or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
