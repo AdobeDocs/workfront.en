@@ -1750,7 +1750,7 @@ feature-set: Workfront
       * [Associate resource pools with users](resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
       * [Remove users from resource pools](resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
     * [Get started with Resource Planning](resource-mgmt/resource-planning/get-started-resource-planning.md)
-    * [Access needed to budget resources in Adobe Workfront](resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
+    * [Access needed to budget resources in Workfront](resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
     * [Resource Planner overview](resource-mgmt/resource-planning/get-started-resource-planner.md)
     * [Locate the Resource Planner](resource-mgmt/resource-planning/locate-resource-planner.md)
     * [Resource Planner navigation overview](resource-mgmt/resource-planning/resource-planner-navigation.md)

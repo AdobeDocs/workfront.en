@@ -2,9 +2,9 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: resource-planning
-title: Get started with Resource Planning
+title: Get Started with Resource Planning
 description: You can use resource planning tools to manage your job roles, their availability, and general allocation to projects based on this availability.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: 0db9fbb3-4e94-47bd-b272-00b3ca4decaf
 ---
