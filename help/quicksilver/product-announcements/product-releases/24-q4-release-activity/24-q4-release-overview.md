@@ -62,7 +62,7 @@ This page provides information about functionality that is included in the Fourt
                                 <p>Preview release: August 29, 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Production release for all customers: August 6, 2024</span></p>
+                                <p><span class="preview">Production release for all customers: August 29, 2024</span></p>
                             </li>
                         </ul>
                     </td>
