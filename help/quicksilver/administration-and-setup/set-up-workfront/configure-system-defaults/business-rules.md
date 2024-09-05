@@ -68,10 +68,17 @@ For information about date-based wildcards, see [Use date-based wildcards to gen
 
 An API wildcard is also available in business rules. You can use `$$ISAPI` to trigger the rule only in the UI or only in the API.
 
+The `$$BEFORE_STATE` and `$$AFTER_STATE` wildcards are used in expressions to access the object's field values before and after any edits.
+
+* These wildcards are both available for the edit trigger. The default state for the edit trigger (if no state is included in the expression) is the $$AFTER_STATE.
+* The object creation trigger only allows the `$$AFTER_STATE`, because the before state does not exist.
+* The object deletion trigger only allows the `$$BEFORE_STATE`, because the after state does not exist.
+
+
 Some simple business rule scenarios are:
 
 * Users cannot add new expenses during the last week of February. This formula could be stated as: `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
-* Users cannot edit a project that is in Complete status. This formula could be stated as: `IF({status} = "CPL", "You cannot edit this project because it is in Complete status.")`
+* Users cannot edit the project name of a project in Complete status. This formula could be stated as: `IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")`
 
 A scenario with nested IF statements is:
 
