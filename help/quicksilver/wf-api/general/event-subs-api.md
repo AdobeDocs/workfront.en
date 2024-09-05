@@ -446,6 +446,12 @@ For example, an **UPDATE - TASK** event subscription can be set to trigger only 
 * Applying multiple filters to a single subscription is a practice equivalent to using an **AND** logical operator.
 * Multiple event subscriptions can be applied to a single object as long as one or more event subscription field parameters are different between each event subscription.
 * When multiple event subscriptions are assigned to a single object, all event subscriptions associated with that object can be returned to a single endpoint. This practice can be used used as an equivalent substitute for logical operator **OR** which can't be set using filter parameters.
+* The following fields are not filterable:
+
+    * DOCU.groups
+    * RECORD.data
+    * RECORD_TYPE.data
+    * RECORD_TYPE.fields
 
 ### Using comparison operators
 
