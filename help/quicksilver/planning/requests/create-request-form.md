@@ -1,10 +1,11 @@
 ---
 title: Create and Manage a Request Form in Adobe Workfront Planning
-description: After selecting a record type in Adobe Workfront Planning area, you can create a request form and associate it with that record type. You can then share a link to it with other internal or external users. Users with a link to the form can fill out the field values on it, and by submitting it, they can add a new record for the record type associated with it. 
+description: After selecting a record type in Adobe Workfront Planning area, you can create a request form and associate it with that record type. You can then share a link to it with other internal or external users. Users with a link to the form can fill out the field values on it, and by submitting it, they can add a new record for the record type associated with it.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
+exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
 ---
 # Create and manage a request form in Adobe Workfront Planning
 
@@ -203,6 +204,3 @@ You must have the following to be able to access Workfront Planning:
    >
    >There is an indication that the link is publicly shared when this is the case.
    >![](assets/publicly-shared-link-to-form-on-record-type-menu-highlighted.png)
-         
-
-   

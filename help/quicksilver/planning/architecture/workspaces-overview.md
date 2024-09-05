@@ -1,12 +1,12 @@
 ---
 title: Workspaces Overview
-description: A workspace is a collection of record types used by a team and represents the team's work lifecycle. You can fully customize workspaces in Adobe Workfront Planning to match your organizational units' workflows. 
+description: A workspace is a collection of record types used by a team and represents the team's work lifecycle. You can fully customize workspaces in Adobe Workfront Planning to match your organizational units' workflows.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
+exl-id: b80d5ccf-4d22-49f2-89b6-bb9678a353c2
 ---
-
 # Workspaces overview
 
 {{planning-important-intro}}
@@ -49,7 +49,4 @@ A workspace is a collection of record types used by an organizational unit and i
 
 <!--make this live with the GA: * There is no limit for how many workspaces you can create in your environment. However, we recommend not to have too many workspaces, as they could become hard to manage and your workflows might be too fragmented.-->
 
-* There are limits on how many workspace objects you can create in your instance of Workfront Planning. For information, see [Adobe Workfront Planning object limitations overview](/help/quicksilver/planning/general/limitations-overview.md). 
-
-
-
+* There are limits on how many workspace objects you can create in your instance of Workfront Planning. For information, see [Adobe Workfront Planning object limitations overview](/help/quicksilver/planning/general/limitations-overview.md).

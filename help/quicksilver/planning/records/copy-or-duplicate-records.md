@@ -1,12 +1,12 @@
 ---
 title: Duplicate Records
-description: You can duplicate an existing record in the table view. An identical copy of the existing record is added to the record type page.  
+description: You can duplicate an existing record in the table view. An identical copy of the existing record is added to the record type page.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
+exl-id: 2fed8c96-0c9c-4662-a9c4-66dae507ff2a
 ---
-
 # Duplicate records
 
 {{planning-important-intro}}
@@ -188,4 +188,4 @@ You can create records in the table view of a record type page by duplicating an
 1. (Optional) Use the following keyboard shortcuts to undo or redo adding new records or their information, when adding them in the table view: 
 
     * CTRL + Z (⌘ + Z for Mac) to undo a change 
-    * CTRL + Shift + Z (⌘ + Shift + Z for Mac) to redo a change. 
+    * CTRL + Shift + Z (⌘ + Shift + Z for Mac) to redo a change.
