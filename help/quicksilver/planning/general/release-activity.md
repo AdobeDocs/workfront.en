@@ -139,6 +139,13 @@ The following capabilities are included in this update:
 
 * When users access the form, complete it, and submit the request, a record is created for the record type associated with the request form.  
 
+* Depending on how it is configured, the request form may display all the fields of the record type, except for fields of the following types:
+
+    * People
+    * Connected fields (includes connections with Experience Manager assets)
+    * Connected lookup fields
+    * Formula
+
 For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).  
 
 ### Workfront Planning records can be referenced through an External field 
