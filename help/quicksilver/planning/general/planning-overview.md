@@ -148,13 +148,13 @@ The following are features that are currently available in Workfront Planning:
 |     Reporting on Workfront Planning information (Canvas Dashboard)                              |                               |       ✓                           |                 |
 -->
 
-
-
 ## Enable Workfront Planning for the users in your Workfront instance
 
-Your organization must enroll in the Adobe Workfront Planning program before you can access its capabilities. Your account representative should have given you information about enrolling in this program, if you qualify. 
+After your organization purchased a license for Workfront Planning, the following must be in place before you can access Workfront Planning: 
 
-For more information about granting access to and enabling others to use Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md). 
+* Your Workfront administrator must assign you to a layout template that includes Planning in the Main Menu. For more information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) and [Assign users to a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md). 
+
+* Your Workfront administrator must assign you a Workfront license and Workfront Planning permissions that would allow you to view or create objects in Workfront Planning. For more information about granting access to and enabling others to use Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md). 
 
 ## Workfront Planning terminology
 

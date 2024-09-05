@@ -9,6 +9,8 @@ exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
 ---
 # Export a record's details
 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 To collaborate more efficiently with others that might not have a Workfront account, you can export a record's details to a file and share it with them. 
 
 ## Access requirements
@@ -143,7 +145,7 @@ You must have the following to be able to access Workfront Planning:
 * You can export a record's details to the following file formats:
 
     * .docx Word
-    * .pdf
+    * <span class="preview">.pdf</span>
 
 * You can export the Details tab of a record's page. You cannot export the Connections tab. 
 
@@ -171,12 +173,18 @@ You must have the following to be able to access Workfront Planning:
 1. Click the **Export** icon ![](assets/export-icon-in-record-details-page.png) either in the preview or the record's page, then click one of the following:
 
    * **Microsoft Word**
-   * **Adobe PDF**
+   * <span class="preview">**Adobe PDF**</span>
 
-    A Word (.docx) or a PDf file downloads and is saved to your computer.
+    A Word (.docx) <span class="preview">or a PDF</span> file downloads and is saved to your computer.
 
     The name of the exported file is the Primary field of the record. 
 
     ![](assets/exported-word-file.png)
 
-1. (Optional) Go to the downloaded file, open it and either edit it (if it is a Word file), or share it with others.
+      >[!NOTE]
+      >
+      >    Additional information that does not display on the page and is only visible after clicking Show more on the Details tab does not display in the exported PDF file. Only the information visible on the page displays in the exported file. 
+
+
+1. (Optional) Go to the downloaded file, open it and either edit it (if it is a Word file), or share it with others. 
+
