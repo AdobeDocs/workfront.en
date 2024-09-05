@@ -1,13 +1,13 @@
 ---
 content-type: release-notes
-title: "Adobe Workfront Planning Release Activity: Article Index"
-description: This is the release activity for the Adobe Workfront Planning product. 
+title: 'Adobe Workfront Planning Release Activity: Article Index'
+description: This is the release activity for the Adobe Workfront Planning product.
 author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
+exl-id: b3f1002b-e3b4-48e5-9a64-467d4f7a15b2
 ---
-
 # Adobe Workfront Planning release activity: article index
 
 <!--remove the Important with the 25.1 release-->

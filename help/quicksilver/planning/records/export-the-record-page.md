@@ -1,12 +1,12 @@
 ---
 title: Export the Record Page
-description: You can export the record's preview or details page to Word. 
+description: You can export the record's preview or details page to Word.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
+exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
 ---
-
 # Export a record's details
 
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
@@ -187,3 +187,4 @@ You must have the following to be able to access Workfront Planning:
 
 
 1. (Optional) Go to the downloaded file, open it and either edit it (if it is a Word file), or share it with others. 
+

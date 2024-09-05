@@ -4,6 +4,7 @@ description: Fourth Quarter 2024 Proofing enhancements
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
+exl-id: 337fca96-9773-4683-a82c-f6d2f5f261a0
 ---
 # Fourth Quarter 2024 Proofing enhancements
 
@@ -31,5 +32,3 @@ New version for Windows users: 2.1.37
 We are upgrading the Desktop Proofing Viewer to support Chromium 126.0.6478.127 which will resolve issues with UI elements in interactive proofs. 
 
 New version: 2.1.36
-
-
