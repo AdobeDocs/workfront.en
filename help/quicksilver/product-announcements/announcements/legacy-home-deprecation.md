@@ -5,6 +5,7 @@ title: Legacy Home deprecation guide
 description: This page contains information about the upcoming deprecation of legacy Home.
 author: Nolan
 feature: Product Announcements
+exl-id: 1fef08c9-624d-4783-a0bd-8009413fc2bd
 ---
 # Legacy Home deprecation guide
 

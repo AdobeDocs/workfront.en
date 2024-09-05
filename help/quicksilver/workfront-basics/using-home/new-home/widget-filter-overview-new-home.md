@@ -5,7 +5,7 @@ title: New Home widget filters overview
 description: You can choose from a number of widgets to customize the content that appears on your Home page. These widgets can be resized and arranged on your Home page.
 author: Courtney
 feature: Get Started with Workfront
-
+exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
 ---
 # New Home widget filters overview
 
