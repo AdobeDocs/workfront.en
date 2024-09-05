@@ -194,10 +194,10 @@ You must have the following to be able to access Workfront Planning:
 
 After your organization has purchased an additional Workfront Planning license, your system administrator  can add the Planning option to the following areas by modifying and assigning you to a layout template:
 
-   * Main menu
-   * Landing page
-   * Left panel for projects, portfolios, and programs
-   * Pins
+* Main menu
+* Landing page
+* Left panel for projects, portfolios, and programs
+* Pins
 
 To add Workfront Planning areas to your Workfront instance: 
 
