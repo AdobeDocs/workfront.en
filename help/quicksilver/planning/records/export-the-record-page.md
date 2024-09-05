@@ -1,12 +1,12 @@
 ---
 title: Export the Record Page
-description: You can export the record's preview or details page to Word. 
+description: You can export the record's preview or details page to Word.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
+exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
 ---
-
 # Export a record's details
 
 To collaborate more efficiently with others that might not have a Workfront account, you can export a record's details to a file and share it with them. 
@@ -179,4 +179,4 @@ You must have the following to be able to access Workfront Planning:
 
     ![](assets/exported-word-file.png)
 
-1. (Optional) Go to the downloaded file, open it and either edit it (if it is a Word file), or share it with others. 
+1. (Optional) Go to the downloaded file, open it and either edit it (if it is a Word file), or share it with others.

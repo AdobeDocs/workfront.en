@@ -1,13 +1,13 @@
 ---
 content-type: release-notes
-title: "Adobe Workfront Planning Release Activity for the 24.10 Release"
-description: This is the release activity for the Adobe Workfront Planning product for the 2024 Fourth Quarter. 
+title: Adobe Workfront Planning Release Activity for the 24.10 Release
+description: This is the release activity for the Adobe Workfront Planning product for the 2024 Fourth Quarter.
 author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
+exl-id: d27f937b-e179-4f67-aebd-ed351440cb0f
 ---
-
 # Fourth Quarter 2024 release activity for Adobe Workfront Planning
 
 <!--remove this important intro after the 25.1 release-->
@@ -60,5 +60,4 @@ The following are some of the main capabilities of Adobe Workfront Planning:
 
 * Connect to object types from other systems, creating a coherent framework for all your processes. 
 
-For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).  
-
+For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).

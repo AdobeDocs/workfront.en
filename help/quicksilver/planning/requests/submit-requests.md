@@ -5,6 +5,7 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
+exl-id: 635045c5-17e6-483e-912b-4e9617571137
 ---
 # Submit Adobe Workfront Planning requests to create records
 
@@ -129,9 +130,4 @@ The following must be in place before you can submit a request to a Workfront Pl
 
 1. Click **Submit**.
 
-   Your form is submitted and a new record is added to the record type associated with the form. 
-
-
-
-
-
+   Your form is submitted and a new record is added to the record type associated with the form.
