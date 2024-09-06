@@ -886,7 +886,7 @@ This trigger module starts a scenario when a new file is saved to the file manag
 
 ### Tasks
 
-* [Create a Calendar Task]
+* [Create a Calendar Task](#create-a-calendar-task)
 * [Delete a Calendar Task]
 * [Watch Task Events]
 
@@ -894,7 +894,43 @@ This trigger module starts a scenario when a new file is saved to the file manag
 
 This action module creates a new task for a calendar. The connection used in this module must use the credentials of a user with a paid Marketing account.
 
-
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Name]</td> 
+   <td>Enter or map a name for the new calendar task.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Description]</td> 
+   <td>Enter or map a description for the new calendar task.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Owner ID]</td> 
+   <td>Enter or map the owner ID of the user that is assigned to this task.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Event Date]</td> 
+   <td>Enter or map the date for this task.<p>For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in [!DNL Adobe Workfront Fusion]</a>.</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL State]</td> 
+   <td><!--BECKY START HERE--></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Campaign GUID]</td> 
+   <td></td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### Delete a Calendar Task
 
