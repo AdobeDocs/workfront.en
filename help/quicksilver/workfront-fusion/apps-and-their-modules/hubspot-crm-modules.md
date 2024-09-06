@@ -127,7 +127,7 @@ This search module searches for CRM objects by custom properties or by query. To
  </tbody> 
 </table>
 
-<!-- #### Watch CRM objects -->
+<!-- #### Watch CRM objects NEED CONNECTION EXPANDED-->
 
 ### Records (Deals, Contacts, and Companies) 
 
@@ -138,7 +138,28 @@ This search module searches for CRM objects by custom properties or by query. To
 * [[!UICONTROL Update a Record]](#update-a-record)
 * [[!UICONTROL Watch Records]](#watch-records)
 
-<!-- #### Create a record -->
+#### Create a record
+
+This action module creates a contact, a company, or a deal.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Record Type]</td> 
+   <td> <p>Select the type of record you want to create</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Property groups]</td> 
+   <td>For each property that you want to add when creating the record, select the group where the property is found. The property group will open, and you can then fill in the value for the properties. The available property groups and properties depend on the type of record you want to create.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL Create a Record (Legacy)]
 
