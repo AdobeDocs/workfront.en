@@ -70,7 +70,7 @@ An API wildcard is also available in business rules. You can use `$$ISAPI` to tr
 
 The `$$BEFORE_STATE` and `$$AFTER_STATE` wildcards are used in expressions to access the object's field values before and after any edits.
 
-* These wildcards are both available for the edit trigger. The default state for the edit trigger (if no state is included in the expression) is the $$AFTER_STATE.
+* These wildcards are both available for the edit trigger. The default state for the edit trigger (if no state is included in the expression) is the `$$AFTER_STATE`.
 * The object creation trigger only allows the `$$AFTER_STATE`, because the before state does not exist.
 * The object deletion trigger only allows the `$$BEFORE_STATE`, because the after state does not exist.
 
