@@ -14,6 +14,8 @@ exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
 
 >[!IMPORTANT]
 >
+><span class="preview">This article lists the features that were released during the early phase for Workfront Planning, in 2024, prior to the general availability release on August 28, 2024.</span>
+>
 >The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
 >
 >You must purchase a Workfront Planning plan, in addition to a Workfront plan to be able to access and use Workfront Planning capabilities. 
@@ -22,18 +24,16 @@ exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
 >For an overview of Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md). 
 >
 
-This article lists the features that were released to Workfront Planning during the early access period in 2024.
-
-The released features are listed in the order of their release, with the most recent first. 
-
-Also see the following articles for more features released for Workfront Planning: 
+For more information about Workfront Planning releases, also see the following articles: 
 
 * [Adobe Workfront Planning release activity for 2023](/help/quicksilver/planning/general/release-activity-archives-2023.md) for features released during the beta release, during 2023.
 * [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) for features currently released to Workfront Planning, after it was made general available on August 28, 2024. 
 
 ## Workfront Planning release timeline
 
-The following table shows the timeline of the release of Workfront Planning, starting with its beta availability in 2023: 
+<!-- this section is also duplicated in the 2023 release notes article-->
+
+The following table shows the timeline of the release of Workfront Planning:: 
 
 | Time               | Release                                 |
 |--------------------|-----------------------------------------|
@@ -138,6 +138,13 @@ The following capabilities are included in this update:
 * As a workspace manager, you can create a request form and associate it with a record type. You can share a link to this form with others, including external users. 
 
 * When users access the form, complete it, and submit the request, a record is created for the record type associated with the request form.  
+
+* Depending on how it is configured, the request form may display all the fields of the record type, except for fields of the following types:
+
+    * People
+    * Connected fields (includes connections with Experience Manager assets)
+    * Connected lookup fields
+    * Formula
 
 For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).  
 

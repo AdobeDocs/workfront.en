@@ -1,12 +1,12 @@
 ---
 title: Share Workspaces
-description: You can share a workspace with others to ensure collaboration when working in Adobe Workfront Planning. 
+description: You can share a workspace with others to ensure collaboration when working in Adobe Workfront Planning.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
+exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
 ---
-
 # Share workspaces
 
 {{planning-important-intro}}
@@ -54,7 +54,7 @@ You must have the following to be able to access Workfront Planning:
    <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td> 
    <td> 
 <p>Any </p> 
-<p>For more information about what is included in each Workfront Planning plan, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>. </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
@@ -218,4 +218,4 @@ Users who access a link to a workspace to which they do not have permissions can
 1. Click the drop-down menu to the right of a user or group name, then click **Remove**. 
 1. Click **Save**.
 
-    The user or the users that belong to the group removed no longer have access to the workspace or its objects. 
+    The user or the users that belong to the group removed no longer have access to the workspace or its objects.

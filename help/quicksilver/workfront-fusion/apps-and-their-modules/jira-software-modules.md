@@ -90,7 +90,7 @@ To connect [!DNL Jira Software] to [!DNL Workfront Fusion], you must create an A
 1. In [!DNL Workfront Fusion], add a [!DNL Jira] module to a scenario to open the **[!UICONTROL Create a connection]** box.
 1. Specify the following information:
 
-   * **[!UICONTROL Service URL]**
+   * **[!UICONTROL Service URL]:** This is the base URL that you use to access your Jira account. Example: `yourorganization.atlassian.net`
    * **[!UICONTROL Username]**
    * **[!UICONTROL API token]:**&nbsp;This is the API token you created in the [Create an API token in [!DNL Jira]](#create-an-api-token-in-jira) section of this article.
 
@@ -226,7 +226,7 @@ file.
      </tr> 
      <tr> 
       <td role="rowheader">[!DNL Service URL]</td> 
-      <td>Enter your [!DNL Jira] instance URL. </td> 
+      <td>Enter your [!DNL Jira] instance URL. Example: <code>yourorganization.atlassian.net</code></td> 
      </tr> 
     </tbody> 
    </table>
@@ -373,9 +373,7 @@ When you are configuring this module, the following fields display.
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
    <td> <p>Add the body content for the API call in the form of a standard JSON object.</p> <p>Note:  <p>When using conditional statements such as <code>if</code> in your JSON, put the quotation marks outside of the conditional statement.</p> 
-     <div class="example" data-mc-autonum="<b>Example: </b>"> 
-      <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
-     </div> </p> </td> 
+     <img src="assets/quotes-in-json-350x120.png">  </td> 
   </tr> 
  </tbody> 
 </table>
