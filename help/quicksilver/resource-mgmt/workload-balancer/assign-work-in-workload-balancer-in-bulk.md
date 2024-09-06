@@ -1,7 +1,7 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Assign work in bulk using the Workload Balancer
+title: Assign Work in Bulk using the Workload Balancer
 description: You can assign resources to multiple tasks and issues in bulk using the Adobe Workfront Workload Balancer.
 author: Lisa
 feature: Resource Management
@@ -11,17 +11,15 @@ exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
 
 <!--Audited: 07/2024-->
 
-<!--drafted
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment.</span> 
--->
-
 You can assign resources to multiple tasks and issues in bulk using the Adobe Workfront Workload Balancer.
 
 For general information about assigning work to users using the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Access requirements
 
-+++ Expand to view access requirements for the functionality in this article. 
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,36 +30,31 @@ For general information about assigning work to users using the Workload Balance
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> 
-   <p>New: Standard</p>
-   <p>Current:</p>
-   <ul>
-   <li><p>Plan, when using the Workload Balancer in the Resourcing area</p></li>
-   <li><p>Work, when using the Workload Balancer of a team or project</p></li></ul>
-
- </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>New: Standard</p>
+       <p>or</p>
+       <p>Current: Plan, when using the Workload Balancer in the Resourcing area;</br>
+       Work, when using the Workload Balancer of a team or project</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Access level</td> 
+   <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to the following:</p> 
     <ul> 
-     <li> <p>Resource Management</p> </li> 
-     <li> <p>Projects</p> </li> 
-     <li> <p>Tasks</p> </li> 
-     <li> <p>Issues</p> </li> 
-    </ul> 
-    
- </td> 
+     <li>Resource Management</li> 
+     <li>Projects</li> 
+     <li>Tasks</li> 
+     <li>Issues</li> 
+    </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions or higher to the projects, tasks, and issues that include Make Assignments</p> </td> 
+   <td>Contribute permissions or higher to the projects, tasks, and issues that include Make Assignments</td> 
   </tr> 
  </tbody> 
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -94,7 +87,7 @@ For general information about assigning work to users using the Workload Balance
 
 1. (Conditional) If you are accessing the Workload Balancer from the Resourcing area or for a team, expand the **Project: Name** drop-down menu and use the filter modifiers to select the project or projects that you want to make assignments for. You can select projects by Name (this is the default option) or by Status. 
 
-For information about Workfront filter modifiers, see [Filters and condition modifiers](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md). 
+   For information about Workfront filter modifiers, see [Filters and condition modifiers](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md). 
 
    >[!NOTE]
    >
@@ -104,7 +97,7 @@ For information about Workfront filter modifiers, see [Filters and condition mod
 
 1. (Optional) Click **Select project tasks** to select the task or tasks that you want to make assignments for, then in the **Task: Name** drop-down menu, select tasks by Name (this is the default option) or Status and use the filter modifiers to search for specific tasks. 
 
-For information about Workfront filter modifiers, see [Filters and condition modifiers](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   For information about Workfront filter modifiers, see [Filters and condition modifiers](../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    >[!NOTE]
    >

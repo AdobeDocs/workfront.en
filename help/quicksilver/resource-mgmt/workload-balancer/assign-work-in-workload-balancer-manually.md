@@ -1,7 +1,7 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Assign work manually using the Workload Balancer
+title: Assign Work Manually using the Workload Balancer
 description: You can manually assign work items to users using the Adobe Workfront Workload Balancer.
 author: Lisa
 feature: Resource Management
@@ -16,6 +16,8 @@ For general information about assigning work to users using the Workload Balance
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -23,35 +25,37 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, when using the Workload Balancer in the Resourcing area</p>
-   <p>Work, when using the Workload Balancer of a team or project</p>
- </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>New: Standard</p>
+       <p>or</p>
+       <p>Current: Plan, when using the Workload Balancer in the Resourcing area;</br>
+       Work, when using the Workload Balancer of a team or project</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Access level*</td> 
-   <td> <p>Edit access to&nbsp;the following:</p> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to the following:</p> 
     <ul> 
-     <li> <p>Resource Management</p> </li> 
-     <li> <p>Projects</p> </li> 
-     <li> <p>Tasks</p> </li> 
-     <li> <p>Issues</p> </li> 
-    </ul> <p><b>NOTE</b> 
-    
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+     <li>Resource Management</li> 
+     <li>Projects</li> 
+     <li>Tasks</li> 
+     <li>Issues</li> 
+    </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions or higher to the projects, tasks, and issues that include Make Assignments</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td>Contribute permissions or higher to the projects, tasks, and issues that include Make Assignments</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Manually assign work in the Workload Balancer
 

@@ -15,47 +15,9 @@ The Workload Balancer is available in multiple areas of Adobe Workfront. Navigat
 
 For more information about where the Workload Balancer is located, see [Locate the Workload Balancer](https://experienceleague.adobe.com/docs/workfront/using/manage-resources/the-workload-balancer/locate-workload-balancer.html?lang=en).
 
-
 ## Access requirements
 
-<!--drafted - replace table for P&P:
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Any </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-<td><p>Current license: Standard </p>
-    Or 
-<p>Legacy license:</p>
-    <ul>
-    <li><p>Plan, when using the Workload Balancer for a team or in the Resourcing area </p></li>
-    <li><p>Work, when using the Workload Balancer of a project </p></li>
-    </ul>
- </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to the following:</p> 
-    <ul> 
-     <li> <p>Resource Management</p> </li> 
-     <li> <p>Projects</p> </li> 
-     <li> <p>Tasks</p> </li> 
-     <li> <p>Issues</p> </li> 
-    </ul> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
--->
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -64,33 +26,37 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, when using the Workload Balancer in the Resourcing area</p>
-   <p>Work, when using the Workload Balancer of a team or project</p>
- </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>New: Standard</p>
+       <p>or</p>
+       <p>Current: Plan, when using the Workload Balancer in the Resourcing area;</br>
+       Work, when using the Workload Balancer of a team or project</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
+   <td role="rowheader">Access level configurations</td> 
    <td> <p>View or higher access to the following:</p> 
     <ul> 
-     <li> <p>Resource Management</p> </li> 
-     <li> <p>Projects</p> </li> 
-     <li> <p>Tasks</p> </li> 
-     <li> <p>Issues</p> </li> 
-    </ul> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+     <li>Resource Management</li> 
+     <li>Projects</li> 
+     <li>Tasks</li> 
+     <li>Issues</li> 
+    </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td>View or higher permissions to the projects, tasks, and issues</td> 
   </tr> 
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Considerations for viewing items in the Workload Balancer
 
@@ -150,7 +116,8 @@ After selecting the settings you want to apply to your view, the Workload Balanc
 
 To navigate the Workload Balancer for multiple projects: 
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Resourcing**.
+{{step1-to-resourcing}}
+
 1. Click **Workload Balancer** in the left panel.
 
     ![Workload Balancer](assets/nwe-balancer-global.png)
@@ -427,9 +394,11 @@ You can view more information about the tasks and the issues in the Workload Bal
 
 Navigating the Workload Balancer of a team is similar to how you navigate the Workload Balancer for multiple projects. For information, see the section [Navigate the Workload Balancer for multiple projects](#navigate-the-workload-balancer-for-multiple-projects-in-the-resourcing-area) in this article. 
 
-1. Click the **Main menu** icon ![Main menu](assets/main-menu-icon.png), then click **Teams**. 
-The page of your Home Team displays by default. 
-1. Click **Workload Balancer** in the left panel. The Workload Balancer of a team should display by default. 
+{{step1-to-team}}
+
+   The page of your Home Team displays by default.
+
+1. Click **Workload Balancer** in the left panel.
 
     ![Workload Balancer of a team](assets/nwe-balancer-team-350x172.png)
 
@@ -442,7 +411,8 @@ The page of your Home Team displays by default.
 
 ## Navigate the Workload Balancer of a single project
 
-1. Click the **Main menu** icon ![Main menu](assets/main-menu-icon.png), then click **Projects**.
+{{step1-to-projects}}
+
 1. Click the name of a project to open the project page.
 1. Click **Workload Balancer** in the left panel. You might have to click **Show More**, then **Workload Balancer**.
 
