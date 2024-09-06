@@ -118,12 +118,11 @@ This search module searches for CRM objects by custom properties or by query. To
      <li> <p><strong>[!UICONTROL Property name]</strong> </p> <p>Select the property by which you want to sort results</p> </li> 
      <li> <p><strong>[!UICONTROL Direction]</strong> </p> <p>Choose whether you want to sort the results in an ascending or descending direction.</p> </li> 
     </ul> </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+  </tr> 
+   <tr> 
     <td role="rowheader">Start Offset</td> 
     <td>Enter or map the ID of the first item you want to retrieve details for. This module only returns up to 5000 results at a time. Setting a start offset allows you to retrieve items other than the first 5000. If the start offset is 5000, the module would return items 5000-9999.</td> 
    </tr>
-  --> 
  </tbody> 
 </table>
 
@@ -705,8 +704,12 @@ Retrieves a list of companies based on an exact match to the domain property.
 ### Files
 
 * [[!UICONTROL Create a Folder]](#create-a-folder)
+* [Delete a file](#delete-a-file)
+* [List files](#list-files)
 * [[!UICONTROL Delete a Folder]](#delete-a-folder)
 * [[!UICONTROL Move a File]](#move-a-file)
+* [Upload a file](#upload-a-file)
+* [Watch files](#watch-files)
 
 #### [!UICONTROL Create a Folder]
 
@@ -881,7 +884,75 @@ This trigger module starts a scenario when a new file is saved to the file manag
  </tbody> 
 </table>
 
-<!-- Tasks (All)-->
+### Tasks
+
+* [Create a Calendar Task]
+* [Delete a Calendar Task]
+* [Watch Task Events]
+
+#### Create a Calendar task
+
+This action module creates a new task for a calendar. The connection used in this module must use the credentials of a user with a paid Marketing account.
+
+
+
+#### Delete a Calendar Task
+
+This action module deletes a calendar task. The connection used in this module must use the credentials of a user with a paid Marketing account.
+
+
+
+
+#### Watch Task Events
+
+This trigger module starts a scenario when there is a new task event in a calendar. The connection used in this module must use the credentials of a user with a paid Marketing account. The module returns up to 500 events.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Enter or map the maximum number of files you want the module to return during each scenario execution cycle.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Start Date]</td> 
+   <td>Enter or map the earliest date for which you want to watch events. Use the format <code>MM/DD/YYYY h:mm</code>.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL End Date]</td> 
+   <td>Enter or map the latest  date for which you want to watch events. Use the format <code>MM/DD/YYYY h:mm</code>.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 <!-- Users (All)-->
 
