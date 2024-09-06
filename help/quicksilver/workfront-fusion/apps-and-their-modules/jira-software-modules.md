@@ -204,6 +204,7 @@ file.
 >[!NOTE]
 >
 >Use the [!DNL Jira Server] app to connect to [!DNL Jira Server] or [!DNL Jira Data Center].
+
 1. In any [!DNL Jira Server] module in [!DNL Workfront Fusion], click **[!UICONTROL Add]** next to the [!UICONTROL connection] field.
 1. In the [!UICONTROL Create a connection] panel, fill in the following fields:
 
