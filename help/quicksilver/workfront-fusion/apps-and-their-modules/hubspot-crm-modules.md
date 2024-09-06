@@ -790,7 +790,7 @@ This search module returns a list of files stored in the file manager.
    <td>Enter or map the ID of the folder that contains the files you want to list.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL FilterD]</td> 
+   <td role="rowheader">[!UICONTROL Filter]</td> 
    <td>To include only files that contain specific characters in the filename, enter or map the characters that you want the filename to include.</td> 
   </tr> 
  </tbody> 
@@ -823,9 +823,63 @@ Moves a file to a different folder.
  </tbody> 
 </table>
 
-<!-- Upload a File -->
+#### Upload a File 
 
-<!-- Watch Files-->
+This action module uploads a file to the file manager.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Source file]</td> 
+   <td> <p>Select a source file from a previous module, or map the source file's name and data.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Access type] </td> 
+   <td>Select whether you want the file to be private, public but not indexable, or public and indexable. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Folder ID] </td> 
+   <td>Select the ID of the folder where you want to upload the file. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Overwrite]</td> 
+   <td>Enable this option to overwrite the file if it already exists in the folder.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Watch Files
+
+This trigger module starts a scenario when a new file is saved to the file manager.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Enter or map the maximum number of files you want the module to return during each scenario execution cycle.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Folder ID]</td> 
+   <td>Enter or map the ID of the folder that contains the files you want to watch.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Filter]</td> 
+   <td>To include only files that contain specific characters in the filename, enter or map the characters that you want the filename to include.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
 <!-- Tasks (All)-->
 
