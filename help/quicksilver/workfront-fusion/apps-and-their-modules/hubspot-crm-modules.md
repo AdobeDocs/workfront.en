@@ -152,7 +152,7 @@ This action module creates a contact, a company, or a deal.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
-   <td> <p>Select the type of record you want to create</p> </td> 
+   <td> <p>Select the type of record you want to create.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Property groups]</td> 
@@ -175,7 +175,7 @@ This action module creates contact, a company, or a deal.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
-   <td> <p>Select the type of record you want to create</p> </td> 
+   <td> <p>Select the type of record you want to create.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Properties]</td> 
@@ -270,7 +270,33 @@ This action module gets metadata for a specific record property by its (internal
  </tbody> 
 </table>
 
-<!-- #### List Records -->
+#### List Records
+
+This search module returns a list of contacts, companies or deals. Output is limited to 5000 contacts, 12,500 companies, or 12,500 deals.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Type]</td> 
+   <td> <p>Select the type of record you want to return.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Output Properties]</td> 
+   <td>Select the properties that you want to include in the output for this module.</td> 
+  </tr> 
+    <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</p> </td> 
+  </tr> 
+
+ </tbody> 
+</table>
 
 #### [!UICONTROL Update a Record]
 
@@ -381,7 +407,24 @@ This module adds contact records that have already been created in the system to
  </tbody> 
 </table>
 
-<!-- #### Create/Update a Contact -->
+#### Create/Update a Contact
+
+This action module creates a contact if it doesn't exist in a portal. If the contact does exist in the portal, this module updates it with the provided values.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Property groups]</td> 
+   <td>For each property that you want to add when creating the contact, select the group where the property is found. The property group will open, and you can then fill in the values for the properties.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL Create/Update a Contact (Legacy)]
 
@@ -448,12 +491,11 @@ Returns all contacts that have been created in the portal. The output is limited
   <tr> 
    <td role="rowheader">[!UICONTROL Output properties]</td> 
    <td>Select the properties that you want to appear in the module's output. </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+  </tr> 
+   <tr> 
     <td role="rowheader">Contact ID [start offset] </td> 
     <td>Enter or map the ID of the user that you want to start the list. For example, setting the Contact ID as the ID of the 101st contact will allow the module to list contacts 101-5100 rather than 1-5000. </td> 
    </tr>
-  --> 
  </tbody> 
 </table>
 
@@ -476,16 +518,17 @@ Retrieves a list of contacts in the company. The output is limited to 5000 conta
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
    <td>The maximum number of contacts [!DNL Workfront Fusion] should return during one scenario execution cycle. </td> 
-  </tr> <!--
-   <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
+  </tr> 
+   <tr> 
     <td role="rowheader">Contact ID [start offset] </td> 
     <td>Enter or map the ID of the user that you want to start the list. For example, setting the Contact ID as the ID of the 101st contact will allow the module to list contacts 101-5100 rather than 1-5000. </td> 
    </tr>
-  --> 
  </tbody> 
 </table>
 
 #### [!UICONTROL Merge contacts]
+
+This action module merges contacts
 
 <table style="table-layout:auto"> 
  <col> 
@@ -659,8 +702,6 @@ Retrieves a list of companies based on an exact match to the domain property.
  </tbody> 
 </table>
 
-<!-- BECKY START CHECKING HERE -->
-
 ### Files
 
 * [[!UICONTROL Create a Folder]](#create-a-folder)
@@ -690,7 +731,24 @@ This module creates a folder.
  </tbody> 
 </table>
 
-<!-- Delete a File -->
+#### Delete a File
+
+This action module permanently deletes a file and all related data and thumbnails from the file manager.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL File ID]</td> 
+   <td>Enter or map the ID of the file that you want to delete.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL Delete a Folder]
 
@@ -706,12 +764,37 @@ Marks a folder as deleted.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID]</td> 
-   <td>Enter the ID of the folder that you want to delete.</td> 
+   <td>Enter or map the ID of the folder that you want to delete.</td> 
   </tr> 
  </tbody> 
 </table>
 
-<!-- List Files -->
+#### List Files 
+
+This search module returns a list of files stored in the file manager.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Enter or map the maximum number of files you want the module to return during each scenario execution cycle.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Folder ID]</td> 
+   <td>Enter or map the ID of the folder that contains the files you want to list.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL FilterD]</td> 
+   <td>To include only files that contain specific characters in the filename, enter or map the characters that you want the filename to include.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL Move a File]
 
