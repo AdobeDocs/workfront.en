@@ -58,11 +58,38 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
 
 1. In the drop-down menu that appears, do either of the following:
 
-   * Click a Main Menu item.
+   * Select from the following areas: 
 
-     >[!IMPORTANT]
-     >
-     >To view the Scenarios and Goals areas requires additional licenses. For information about Workfront Goals, see [Adobe Workfront Goals overview](../../../workfront-goals/goal-management/wf-goals-overview.md) or for information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
+      * Analytics
+      * Calendars
+      * Dashboards
+      * Documents
+      * Goals
+      * Home
+      * My Updates
+      * Portfolios
+      * Programs
+      * Projects
+      * Reports
+      * Requests
+      * Resourcing
+      * Scenarios
+      * Teams
+      * Templates
+      * Timesheets
+      * Users
+      * Blueprints
+      * Planning
+
+   >[!IMPORTANT]
+   >
+   >To view the Scenarios, Goals, and Planning areas requires additional licenses. 
+   >
+   >* For information about Workfront Goals, see [Adobe Workfront Goals overview](../../../workfront-goals/goal-management/wf-goals-overview.md).
+   >
+   >* For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md).
+   >
+   >* For information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md). 
 
    * Click **Add a Dashboard**, then type a descriptive **Custom section title** and add the dashboard.
 

@@ -125,7 +125,17 @@ You must have the following to be able to access Workfront Planning:
 
    The request form contains the following information, by default:
 
-   * All the record fields available in the table view of the selected record type. 
+   * Record fields available in the table view of the selected record type. <!--they are working on removing the limitation below-->
+
+      >[!IMPORTANT]
+      >
+      >   Fields of the following types do not display in the request form: 
+      >
+      >    * People
+      >    * Connected fields (includes connections with Experience Manager assets)
+      >    * Connected lookup fields
+      >    * Formula
+
    * **Default section**: This is the default section break that Workfront applies to the request form. The Default section cannot be renamed or removed. 
    * **Subject** field: The field which will identify the request in Workfront. This capability is not yet available. 
    * All the fields associated with the record type. 
