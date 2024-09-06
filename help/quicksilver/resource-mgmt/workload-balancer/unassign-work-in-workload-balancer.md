@@ -44,7 +44,7 @@ You must have the following access to perform the steps in this article:
     <ul> 
      <li>Resource Management</li> 
      <li>Projects</li> 
-     <li>Tasks<</li> 
+     <li>Tasks</li> 
      <li>Issues</li> 
     </ul></td>
   </tr> 
