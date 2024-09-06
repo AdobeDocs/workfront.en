@@ -5,8 +5,8 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
+exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
 ---
-
 # Request permissions to a view or a workspace
 
 >[!IMPORTANT]
@@ -125,5 +125,3 @@ When someone shares with you a link to a workspace or a view where you do not ha
          ![](assets/email-notification-for-access-request.png)
    
 1. (Conditional) When the view or workspace manager grants you permissions to the view or workspace, you receive an email notification and an in-app notification with a confirmation that the permission was granted. <!--check this - I was not able to test this, but Isk confirmed.-->
-
-

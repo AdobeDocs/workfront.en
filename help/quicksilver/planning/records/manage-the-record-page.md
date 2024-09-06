@@ -210,7 +210,7 @@ To add a section to a record preview or page:
    * The Workfront object is also removed from the record's connected field from Workfront Planning. 
    * The values for the Workfront lookup fields connected to the Planning record are also deleted.
 
-## Rearrange fields in the record's preview or page
+## Rearrange fields in the record's Details tab
 
 {{step1-to-planning}}
 
@@ -234,11 +234,11 @@ To add a section to a record preview or page:
 
 1. (Optional) Click the **Open in new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in the upper-right corner of the record preview to open the record's page in a new tab. 
 
-    The record page opens. 
+    The **Details** tab of the record opens by default. 
 
     ![](assets/details-page.png)
 
-1. In the record preview or page, click the **grab** icon ![](assets/grab-icon.png) to the left of a field name, then drag and drop it in a desired spot. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. In the record **Details** tab, click the **grab** icon ![](assets/grab-icon.png) to the left of a field name, then drag and drop it in a desired spot. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
 
     The new position of the field is updated in both the preview and the page of all records of the same type for all users viewing the records. 
 

@@ -9,6 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
+exl-id: 70f7e2a8-bb27-4546-afb7-53e0eec30bf1
 ---
 # Roll back an environment promotion package
 
@@ -80,10 +81,3 @@ To know whether a specific package deployment can be rolled back, consider the f
 
 1. (Optional) In the Rollback Preview area, view the changes that will occur when the deployment is rolled back. 
 1. Click **Roll Back** in the upper-right corner of the screen.
-
-
-
-
-
-
-

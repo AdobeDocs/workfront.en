@@ -16,15 +16,15 @@ exl-id: 99fac041-a235-4991-b826-d19944164bc9
 >
 >The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
 >
->You must have the following to access Workfront Planning:
+>Your company must purchase an additional license for Workfront Planning to access its capabilities. 
 >
->* A new Workfront plan and license. Workfront Planning is not available for legacy Workfront plans or licenses. 
->* An additional license for Workfront Planning. 
->* Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.
+>For more information, contact your account manager
 >
 >For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
 
 There are license and sharing permission restrictions to use Adobe Workfront Planning. 
+
+This article describes the access and settings that you need in place to use the capabilities of Workfront Planning. 
 
 ## Access requirements 
 
@@ -106,7 +106,12 @@ You must have the following to be able to access Workfront Planning:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu and the Planning area for the objects that can connect to Workfront Planning: projects, portfolios, and programs. </p> <p>For information, see <a href="../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md">Customize the Main Menu using a layout template</a> and <a href="../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md">Assign users to a layout template</a>. </p>  
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning option  in the following areas:</p>
+   <ul><li>Main Menu</li>
+   <li>Left panel of projects, portfolios, and programs</li>
+   <li>Landing page</li>
+   <li>Pins</li></ul>
+   <p>For more information, see <a href="/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md">Create and manage layout templates</a>.</p> 
 </td>
   </tr>
  </tbody>
@@ -183,19 +188,24 @@ You must have the following to be able to access Workfront Planning:
 
 *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).  -->
 
-
-
-## Share the Planning area in the Main Menu with others
+## Share the Planning area using a layout template
 
 <!--First, contact your account manager to obtain access to the current Workfront Planning program.--> 
 
-After your organization has been enrolled in the Workfront Planning program, you can add the Planning area to the Main Menu of all users by using a layout template. 
+After your organization has purchased an additional Workfront Planning license, your system administrator  can add the Planning option to the following areas by modifying and assigning you to a layout template:
+
+* Main menu
+* Landing page
+* Left panel for projects, portfolios, and programs
+* Pins
+
+To add Workfront Planning areas to your Workfront instance: 
 
 1. Log in to **Workfront** as a Workfront administrator.  
 
-1. Add the **Planning** icon ![](assets/planning-icon.png) to the **Main Menu** using a **Layout Template**. 
+1. Go to **Main menu** > **Setup** > **Interface** > **Layout Templates** and open or create a layout template.
     
-    For information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+    For information about customizing a layout template, see [Create and manage layout templates](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 1. Assign the layout template to the users that you want to have access to Workfront Planning. 
 

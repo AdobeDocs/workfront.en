@@ -107,6 +107,11 @@ You must have the following access to perform the steps in this article:
    * My Updates
    * Boards
    * Blueprints
+   * Planning
+
+     >[!NOTE]
+     >
+     >Planning requires an additional license. For information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md)
 
 1. Do any of the following:
 
