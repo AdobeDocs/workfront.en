@@ -1,9 +1,9 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: Share the Resource Planner user view with a link
+title: Share the Resource Planner User View with a Link
 description: Adobe Workfront can generate a unique URL for the User View of the Resource Planner which you can embed into a dashboard as an External Page, or open it separately in a new browser tab. This is helpful when sharing the Resource Planner information with users who might not have direct access to the Resourcing area.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
 ---
@@ -15,32 +15,40 @@ Adobe Workfront can generate a unique URL for the User View of the Resource Plan
 
 ## Access requirements
 
-You must have the following:
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Pro and higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+    <td><p>New: Any</p>
+       <p>or</p>
+       <p>Current: Pro or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>New: Standard</p>
+       <p>or</p>
+       <p>Current: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Resource Management, Projects, and Users</p> <p>View access to Financial Data to view cost information </p> <p><b>NOTE</b> If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>View or higher access to Resource Management, Projects, and Users</p> <p>View access to Financial Data to view cost information</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions to the projects you want to display in the Resource Planner</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View or higher permissions to the projects you want to display in the Resource Planner</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 
 Consider the following when generating the unique URL for the User View of the Resource Planner:
@@ -56,10 +64,9 @@ Consider the following when generating the unique URL for the User View of the R
 
 To obtain a unique URL in the User View of the Resource Planner and share it with other users:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
+{{step1-to-resourcing}}
 
-1. Click **Resourcing**. 
-1. In the , select **View by User**.
+1. Select **View by User**.
 1. (Optional) Select the timeframe by which you want to view the information in the Resource Planner. Select from the following:
 
    * Week
