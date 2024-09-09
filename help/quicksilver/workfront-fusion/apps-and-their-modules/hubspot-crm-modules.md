@@ -79,6 +79,9 @@ If you see the map button above a field or function, you can use it to set varia
 
 ### CRM objects
 
+* [Search for CRM objects](#search-for-crm-objects)
+* [Watch CRM objects](#watch-crm-objects)
+
 #### [!UICONTROL Search for CRM Objects]
 
 This search module searches for CRM objects by custom properties or by query. To search for products or line items, use a special connection with a required custom scope.
@@ -126,7 +129,40 @@ This search module searches for CRM objects by custom properties or by query. To
  </tbody> 
 </table>
 
-<!-- #### Watch CRM objects NEED CONNECTION EXPANDED-->
+#### Watch CRM objects
+
+This trigger module starts a scenario when a CRM object is created or updated.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td>Enter or map the maximum number of items that the module will return in one execution cycle.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Object type to search]</td> 
+   <td> <p>Select the type of object that you want to search for.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Output Properties]</td> 
+   <td>Select the properties that you want to include in the output for this module.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Created/Updated]</td> 
+   <td>Select whether you want to watch created (new) or updated (modified) objects.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Filter by]</td> 
+   <td>You can add a filter to ensure that the scenario starts only when certain conditions are met.<ul><li><b>Query</b><p>Enter the query that you want to filter by.</li><li><b>Properties</b><p>For each property that you want to use to filter results, click Add item and enter the property name, operator, and property value.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
 ### Records (Deals, Contacts, and Companies) 
 
@@ -369,7 +405,8 @@ This trigger module starts a scenario when a contact, company, or deal has been 
 
 ### Contacts
 
-* [[!UICONTROL Add Contacts to a List]](#add-contacts-to-a-list)
+* [[!UICONTROL Add Contacts to a List]](#add-contacts-to-a-list)'
+<!--Create/Update a contact-->
 * [[!UICONTROL Create/Update a Contact (Legacy)]](#createupdate-a-contact-legacy)
 * [[!UICONTROL Create/Update a Group of Contacts]](#createupdate-a-group-of-contacts)
 * [[!UICONTROL List Contacts]](#list-contacts)
@@ -701,6 +738,10 @@ Retrieves a list of companies based on an exact match to the domain property.
  </tbody> 
 </table>
 
+<!--Engagements (all)-->
+
+<!--Events and notifications (all)-->
+
 ### Files
 
 * [[!UICONTROL Create a Folder]](#create-a-folder)
@@ -919,15 +960,16 @@ This action module creates a new task for a calendar. The connection used in thi
    <td>Enter or map the date for this task.<p>For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in [!DNL Adobe Workfront Fusion]</a>.</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL State]</td> 
-   <td><!--BECKY START HERE--></td> 
+   <td role="rowheader">[!UICONTROL Category]</td> 
+   <td>Select the type of event.<ul><li><b>Blog Post</b><p>Enter the content group ID. This is the ID of the blog page.</p></li><li><b>Email</b><p>Enter or map the path to the email template you want to use.</li><li><b>Landing Page</b><p>Enter or map the path to the landing page template you want to use.</li><li><b>Custom</b></li><ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader"></td> 
+   <td role="rowheader">[!UICONTROL State]</td> 
+   <td>Enter whether the event is in a "To do" or "Done" state.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Campaign GUID]</td> 
-   <td></td> 
+   <td>Enter or map the internal HubSpot ID of the campaign that this event is part of.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -936,8 +978,20 @@ This action module creates a new task for a calendar. The connection used in thi
 
 This action module deletes a calendar task. The connection used in this module must use the credentials of a user with a paid Marketing account.
 
-
-
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID]</td> 
+   <td>Enter or map the ID of the task that you want to delete.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### Watch Task Events
 
