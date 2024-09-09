@@ -786,7 +786,7 @@ This action module creates an engagement (such as a note, task, or activity) wit
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Is Active?]</td> 
-   <td>Enable this option if the new engagement will be active when it is created.</td> 
+   <td>Enable this option if the new engagement will be active when it is created. An engagement must be active to appear in the timeline.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Type]</td> 
@@ -880,7 +880,7 @@ This action module creates an engagement (such as a note, task, or activity) wit
   </tr> 
   <tr> 
    <td role="rowheader">Text</td> 
-   <td>To send an email with out HTML formatting, enter or map the text of the body of the email..</td> 
+   <td>To send a text-only email, enter or map the text of the body of the email.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -906,27 +906,23 @@ This action module creates an engagement (such as a note, task, or activity) wit
    </tr> 
   <tr> 
    <td role="rowheader">Body</td> 
-   <td>Enter or map the text of the call.</td> 
+   <td>Enter or map the details or notes for the call.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Cc</td> 
-   <td>For each email address that you want to Cc the email to, click <b>Add item</b> and enter or map the email address.</td> 
+   <td role="rowheader">External ID</td> 
+   <td>This field represents the internal ID of a call made in HubSpot. It requires no action.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Bcc</td> 
-   <td>For each email address that you want to Bcc the email to, click <b>Add item</b> and enter or map the email address.</td> 
+   <td role="rowheader">Duration</td> 
+   <td>Enter or map the length of the call in milliseconds</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Subject</td> 
-   <td>Enter or map the text of the email subject</td> 
+   <td role="rowheader">External Account ID</td> 
+   <td>This field represents the internal account ID of a call made in HubSpot. It requires no action.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">HTML</td> 
-   <td>To send an HTML-formatted email, enter or map the body of the email, including HTML tags.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Text</td> 
-   <td>To send an email with out HTML formatting, enter or map the text of the body of the email..</td> 
+   <td role="rowheader">Recording URL</td> 
+   <td>Enter or map the URL of the recording file.</td> 
   </tr> 
  </tbody> 
 </table>
