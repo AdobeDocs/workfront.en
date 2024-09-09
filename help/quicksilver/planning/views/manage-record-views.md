@@ -68,7 +68,7 @@ You must have the following to be able to access Workfront Planning:
    <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td> 
    <td> 
 <p>Any </p> 
-<p>For more information about what is included in each Workfront Planning plan, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>. </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
@@ -350,10 +350,12 @@ When you display the table view, you can also view which field another user is e
 
     ![](assets/show-collaborators-toggle-selected.png)
 
-1. (Conditional) Open a table view, and the field which another person is editing is outlined in the color corresponding to the outline of their their avatar in the table view. 
+1. (Conditional) Open a table view, and the field which another person is actively editing is highlighted in the color corresponding to the outline of their avatar in the table view. 
+
+    If the highlight color of the avatar is gray, the user stopped actively editing the record more than 30 seconds ago. 
 
     ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
     >[!TIP]
     >
-    >You can select the **Show collaborators** toggle from any view. The edited field is outlined only in the table view. 
+    >You can select the **Show collaborators** toggle from any view. The field currently edited by others is outlined only in the table view. 

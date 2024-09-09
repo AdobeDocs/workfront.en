@@ -56,7 +56,7 @@ You must have the following to be able to access Workfront Planning:
    <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td> 
    <td> 
 <p>Any </p> 
-<p>For more information about what is included in each Workfront Planning plan, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>. </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 

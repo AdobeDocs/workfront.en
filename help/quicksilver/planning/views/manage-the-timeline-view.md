@@ -48,7 +48,7 @@ You must have the following to be able to access Workfront Planning:
    <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td> 
    <td> 
 <p>Any </p> 
-<p>For more information about what is included in each Workfront Planning plan, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>. </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
@@ -397,7 +397,7 @@ You can display connected records in a record's timeline view by using the Break
 * You can display connected records or objects under the records of the selected record type in the timeline view. 
 * You can display the following in the timeline view, using the Breakdown feature:
     * Workfront Planning records connected to the selected record type. 
-    * Workfront (*************or AEM Assets*************)  object types connected to the selected record type.
+    * Workfront object types or Experience Manager assets connected to the selected record type.
     * Workfront Planning records or objects from other application that are connected to records connected to the selected record type. 
     
         For example, you might connect campaigns to portfolios. In addition, you might connect  another record type, products, with projects, as well as with campaigns. When you build the campaign timeline view, you can break down the campaigns by portfolios, products, and projects. 

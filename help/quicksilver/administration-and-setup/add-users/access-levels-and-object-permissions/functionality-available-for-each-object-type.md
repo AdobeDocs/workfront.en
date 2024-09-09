@@ -351,7 +351,7 @@ Users with a Plan license can have full access to reports. All other Access Leve
   </tr> 
   <tr> 
    <td>Edit, delete, deactivate, log in as, or reset the password for any user</td> 
-   <td>✓*</td> 
+   <td>✓*<p><b>NOTE</b>: You can not log in as any user that is a system administrator.</p></td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
@@ -359,7 +359,7 @@ Users with a Plan license can have full access to reports. All other Access Leve
   </tr> 
   <tr> 
    <td>Edit, delete, deactivate, log in as, or reset the password for any user in a group they administer</td> 
-   <td>✓*</td> 
+   <td>✓*<p><b>NOTE</b>: You can not log in as any user that is a system administrator.</p></td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 
    <td>&nbsp;</td> 

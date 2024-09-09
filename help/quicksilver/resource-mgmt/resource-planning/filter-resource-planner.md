@@ -1,9 +1,9 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: Filter information in the Resource Planner
-description: '(AL:*Iterate on this article: filtering by custom data. Other enhancements? Special characters caveat might change - follow the story to know when. It originally came in Beta 3 17.3.)'
-author: Alina
+title: Filter Information in the Resource Planner
+description: Using filters, you can modify what information displays in the Resource Planner from all the information that is stored in the system.
+author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
 ---
@@ -17,38 +17,40 @@ Using filters, you can modify what information displays in the Resource Planner 
 
 ## Access requirements
 
-You must have the following:
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
-   <td> <p>Pro and higher</p> </td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td><p>New: Any</p>
+       <p>or</p>
+       <p>Current: Pro or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Review or higher<!--
-      <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-        (this seems to be the case in NWE only, not classic. Waiting on Vazgen's response for this)
-      </MadCap:conditionalText>
-     --></p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>New: Light or higher</p>
+       <p>or</p>
+       <p>Current: Review or higher</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View or higher access to Projects, Users, and Resource Management </p> <p><b>NOTE</b> 
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>View access or higher to Projects, Users, and Resource Management</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View permissions or higher for projects</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View permissions or higher for projects</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Overview of Resource Planner filters
 
@@ -111,19 +113,17 @@ Consider the following as you create a filter:
 
 To create a filter in the Resource Planner:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
-
-1. Click **Resourcing**.
+{{step1-to-resourcing}}
 
    The **Planner** displays by default.
 
-   By default, the first time you access the Resource Planner, the <strong>Default Filter</strong> is applied.<br>For more information about the Default filter, see the <a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">Overview of the Default Filter in the Resource Planner</a> section in this article.  
+   By default, the first time you access the Resource Planner, the <strong>Default Filter</strong> is applied.<br>For more information about the Default filter, see the <a href="#overview-of-the-default-filter-in-the-resource-planner" class="MCXref xref">Overview of the Default Filter in the Resource Planner</a> section in this article.
 
-1. In the upper-left corner of the , click the **Filter** icon.  
-   ![filter_icon.png](assets/filter-icon.png)  
-   Or   
-   Expand the **Filter** drop-down menu and click **Add New Filter**.   
-   ![](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)  
+1. In the upper-left corner of the , click the **Filter** icon.
+   ![filter_icon.png](assets/filter-icon.png)
+   Or
+   Expand the **Filter** drop-down menu and click **Add New Filter**.
+   ![](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
 
 1. To build a filter using the built-in criteria, specify any of the following fields:
 
@@ -150,7 +150,7 @@ To create a filter in the Resource Planner:
    You can use user-based or date-based wildcards to filter for information associated with the logged-in user.   
    For information about supported wildcards in filters, see [Wildcard filter variables overview](../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
-1. Click **Save**to save the filter rule.
+1. Click **Save** to save the filter rule.
 1. (Optional) Click **Add Filter Rule** to add a new rule for another object or field.
 1. Click **Apply** to apply the filter without saving it.
 

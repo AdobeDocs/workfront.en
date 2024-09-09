@@ -5,9 +5,16 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
+exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
 ---
-
 # Request permissions to a view or a workspace
+
+>[!IMPORTANT]
+>
+>The functionality described in this article is available only when your organization has been onboarded to the Adobe Unified Experience. 
+>
+>For more information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md). 
+
 
 You can request permissions to a view or a workspace when someone shares a link with you to the view or the workspace to which you do not have access. 
 
@@ -54,12 +61,14 @@ You must have the following to be able to access Workfront Planning:
    <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td> 
    <td> 
 <p>Any </p> 
-<p>For more information about what is included in each Workfront Planning plan, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>. </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
 <p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning.</p> 
+<p><b>IMPORTANT</b></p>
+<p>The users in your organization can request permissions for views and workspaces only when your organization is onboarded to the Adobe Unified Experience. </p>
 <p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -116,5 +125,3 @@ When someone shares with you a link to a workspace or a view where you do not ha
          ![](assets/email-notification-for-access-request.png)
    
 1. (Conditional) When the view or workspace manager grants you permissions to the view or workspace, you receive an email notification and an in-app notification with a confirmation that the permission was granted. <!--check this - I was not able to test this, but Isk confirmed.-->
-
-

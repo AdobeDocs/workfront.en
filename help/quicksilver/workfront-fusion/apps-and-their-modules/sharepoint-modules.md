@@ -211,7 +211,7 @@ This trigger module starts a scenario when an item is updated in a folder you se
 
 ### Item
 
-* [[!UICONTROL Copy Item]](#copy-an-item)
+* [[!UICONTROL Copy an item]](#copy-an-item)
 * [[!UICONTROL Create an item]](#create-an-item)
 * [[!UICONTROL Delete an item]](#delete-an-item)
 * [[!UICONTROL Get an Item]](#get-an-item)
@@ -645,6 +645,10 @@ This action module searches for sites by a parameter you specify.
 </table>
 
 ### Other
+
+* [Get Changes](#get-changes)
+* [Make an API Call](#make-an-api-call)
+* [Watch Events](#watch-events)
 
 #### Get Changes
 

@@ -1,19 +1,17 @@
 ---
 title: Export the Record Page
-description: You can export the record's preview or details page to Word. 
+description: You can export the record's preview or details page to Word.
 feature: Workfront Planning
 role: User
 author: Alina
 recommendations: noDisplay, noCatalog
+exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
 ---
-
 # Export a record's details
 
-To collaborate more efficiently with others that might not have a Workfront account, you can export a record's details to a Word document and share it with them. 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
-<!--replace the above with this, when we release export to PDF:
-
-To collaborate more efficiently with others that might not have a Workfront account, you can export a record's details to a file and share it with them.-->
+To collaborate more efficiently with others that might not have a Workfront account, you can export a record's details to a file and share it with them. 
 
 ## Access requirements
 
@@ -48,7 +46,7 @@ You must have the following to be able to access Workfront Planning:
    <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td> 
    <td> 
 <p>Any </p> 
-<p>For more information about what is included in each Workfront Planning plan, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>. </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
@@ -144,16 +142,12 @@ You must have the following to be able to access Workfront Planning:
 
 ## Considerations about exporting a record's details:
 
-* You can export a record's details to a Word document. 
-
-<!--replace the first bullet with this, when it's possible:
-
 * You can export a record's details to the following file formats:
 
-    * Word
-    * PDF -->
+    * .docx Word
+    * <span class="preview">.pdf</span>
 
-* You can export the Details page of a record's page. You cannot export the Connections tab. 
+* You can export the Details tab of a record's page. You cannot export the Connections tab. 
 
 * The exported file preserves the layout of the record page, including the thumbnail and the cover images. 
 
@@ -176,10 +170,21 @@ You must have the following to be able to access Workfront Planning:
 
 1. Choose the **Details** tab. The Details tab should open by default.
 
-1. Click the **Export** icon ![](assets/export-icon-in-record-details-page.png) either in the preview or the record's page. 
+1. Click the **Export** icon ![](assets/export-icon-in-record-details-page.png) either in the preview or the record's page, then click one of the following:
 
-    A Word file (.docx) downloads and is saved to your computer.
+   * **Microsoft Word**
+   * <span class="preview">**Adobe PDF**</span>
+
+    A Word (.docx) <span class="preview">or a PDF</span> file downloads and is saved to your computer.
+
+    The name of the exported file is the Primary field of the record. 
 
     ![](assets/exported-word-file.png)
 
-1. (Optional) Go to the downloaded file, open it and either edit it or share it with others. 
+      >[!NOTE]
+      >
+      >    Additional information that does not display on the page and is only visible after clicking Show more on the Details tab does not display in the exported PDF file. Only the information visible on the page displays in the exported file. 
+
+
+1. (Optional) Go to the downloaded file, open it and either edit it (if it is a Word file), or share it with others. 
+
