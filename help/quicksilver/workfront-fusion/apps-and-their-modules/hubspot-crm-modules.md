@@ -159,7 +159,7 @@ This trigger module starts a scenario when a CRM object is created or updated.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Filter by]</td> 
-   <td>You can add a filter to ensure that the scenario starts only when certain conditions are met.<ul><li><b>Query</b><p>Enter the query that you want to filter by.</li><li><b>Properties</b><p>For each property that you want to use to filter results, click Add item and enter the property name, operator, and property value.</td> 
+   <td>You can add a filter to ensure that the scenario starts only when certain conditions are met.<ul><li><b>Query</b><p>Enter the query that you want to filter by.</li><li><b>Properties</b><p>For each property that you want to use to filter results, click <b>Add item</b> and enter the property name, operator, and property value.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -406,7 +406,7 @@ This trigger module starts a scenario when a contact, company, or deal has been 
 ### Contacts
 
 * [[!UICONTROL Add Contacts to a List]](#add-contacts-to-a-list)'
-<!--Create/Update a contact-->
+* [Create/Update a contact](#createupdate-a-contact)
 * [[!UICONTROL Create/Update a Contact (Legacy)]](#createupdate-a-contact-legacy)
 * [[!UICONTROL Create/Update a Group of Contacts]](#createupdate-a-group-of-contacts)
 * [[!UICONTROL List Contacts]](#list-contacts)
@@ -738,7 +738,139 @@ Retrieves a list of companies based on an exact match to the domain property.
  </tbody> 
 </table>
 
-<!--Engagements (all)-->
+### Engagements
+
+* [Associate an Engagement with a CRM object](#associate-an-engagement-with-a-crm-object)
+* [Create an Engagement](#create-an-engagement)
+* [Delete an Engagement](#delete-an-engagement)
+* [Watch Engagements](#watch-engagements)
+
+#### Associate an Engagement with a CRM object
+
+This action module associates an engagement with a contact, company, or deal.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Type]</td> 
+   <td>Select the type of CRM record that you want to associate an engagement with. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Engagement ID]</td> 
+  <td>Enter or map the ID of the engagement that you want to associate with the object.</td> 
+   </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Record ID]</td> 
+  <td>Enter or map the ID of the record that you want to associate the engagement with.</td> 
+   </tr> 
+ </tbody> 
+</table>
+
+#### Create an Engagement
+
+This action module creates an engagement (such as a note, task, or activity) with a CRM object in HubSpot. Engagements are any interaction with a contact that should be logged in the CRM.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Is Active?]</td> 
+   <td>Enable this option if the new engagement will be active when it is created.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Type]</td> 
+  <td>Select the type of engagement that you want to create.
+  <ul>
+  <li><b>Email</b><p></p>Continue to <a href="#email-fields" class="MCXref xref" >Email fields</a>.</p></li>
+  <li><b>Call</b><p>Continue to <a href="#call-fields" class="MCXref xref" >Call fields</a>.</p></li>
+  <li><b>Meeting</b><p>Continue to <a href="#meeting-fields" class="MCXref xref" >Meeting fields</a>.</p></li>
+  <li><b>Task</b><p>Continue to <a href="#task-fields" class="MCXref xref" >Task fields</a>.</p></li>
+  <li><b>Note</b><p>In the Body field, enter the text of the note.</p></li>
+  </ul>
+  </td> 
+   </tr> 
+  <tr> 
+   <td role="rowheader">Timestamp</td> 
+   <td>Enter or map a timestamp for the engagement.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Owner ID</td> 
+   <td>Enter or map the Owner ID of the person that the engagement will be assigned to.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">UID</td> 
+   <td>Enter or map an ID for the engagement, that can be used across object types.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Portal ID</td> 
+   <td>Enter or map the ID of the portal. This is useful if your organization has multiple portals.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Associated Contacts</td> 
+   <td>For each contact that you want to associate this engagement with, click <b>Add item</b> and enter the Contact ID.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Associated Companies</td> 
+   <td>For each company that you want to associate this engagement with, click <b>Add item</b> and enter the Company ID.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Associated Deals</td> 
+   <td>For each deal that you want to associate this engagement with, click <b>Add item</b> and enter the Deal ID.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Associated Tickets</td> 
+   <td>For each ticket that you want to associate this engagement with, click <b>Add item</b> and enter the Ticket ID.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Attachments</td> 
+   <td>For each attachment that you want to associate this engagement with, click <b>Add item</b> and enter the File ID of the file you want to attach.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+##### Email fields
+
+##### Call fields
+
+##### Meeting fields
+
+##### Task fields
+
+#### Delete an Engagement
+
+#### Watch Engagements
+
+This trigger module starts a scenario when a new engagement is created in a portal. This module only returns records created in the last 30 days, or the 10,000 most recently created records.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td>The maximum number of companies [!DNL Workfront Fusion] should return during one scenario execution cycle. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Since]</td> 
+   <td>Enter or map the earliest date for which you want to watch events. Use the format <code>MM/DD/YYYY h:mm</code>.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
 <!--Events and notifications (all)-->
 
