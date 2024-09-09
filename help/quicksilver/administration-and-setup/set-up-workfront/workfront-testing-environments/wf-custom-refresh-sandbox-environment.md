@@ -3,9 +3,9 @@ user-type: administrator
 content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: The [!DNL Adobe Workfront] Custom Refresh Sandbox environment
+title: The [!DNL Adobe Workfront] Custom Refresh Sandbox Environment
 description: The Custom Refresh Sandbox is an environment where you can test and work using data from your production environment. It's also ideal for running trainings and determining setup functionality.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
@@ -25,12 +25,11 @@ The Custom Refresh Sandbox is an environment where you can test and work using d
 >
 >  For more information about the Preview Sandbox, see [The [!DNL Adobe Workfront] Preview Sandbox Environment](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md).
 
-
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -50,6 +49,8 @@ You must have the following to perform the steps in this article:
   </tr> 
  </tbody> 
 </table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
