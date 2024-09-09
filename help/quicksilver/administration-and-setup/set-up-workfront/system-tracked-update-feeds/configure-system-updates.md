@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
-title: Configure system updates
+title: Configure System Updates
 description: Workfront generates automatic system updates in an object's [!UICONTROL Updates] area to record the changes that users perform on the object. As a [!DNL Workfront] administrator, you can configure which object fields and actions [!DNL Workfront] tracks to record system updates.
 author: Alina
 feature: System Setup and Administration

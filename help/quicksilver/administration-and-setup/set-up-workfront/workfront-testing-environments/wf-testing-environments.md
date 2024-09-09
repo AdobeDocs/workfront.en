@@ -3,9 +3,9 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
-title: Adobe Workfront testing environments
+title: Adobe Workfront Testing Environments
 description: You can use two [!DNL Workfront] testing environments that replicate your [!DNL Workfront] production environment. The Preview Sandbox is refreshed each weekend by Workfront. Data added to your live environment on Friday appears in your Preview Sandbox by the following Monday. The Custom Refresh Sandbox is a separate testing environment which is refreshed manually by you. There is an additional cost to obtain the Custom Refresh Sandbox.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog

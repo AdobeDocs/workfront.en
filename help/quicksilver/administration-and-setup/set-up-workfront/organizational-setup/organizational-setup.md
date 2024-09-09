@@ -3,9 +3,9 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;setup
 navigation-topic: set-up-workfront
-title: Organizational setup
+title: Organizational Setup
 description: As a part of organizing your users in [!DNL Adobe Workfront], you can associate them with job roles or companies.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog

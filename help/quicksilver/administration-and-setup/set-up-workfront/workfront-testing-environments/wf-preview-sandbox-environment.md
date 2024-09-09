@@ -5,7 +5,7 @@ product-area: system-administration
 navigation-topic: workfront-testing-environments
 title: The [!DNL Adobe Workfront] Preview Sandbox Environment
 description: The Preview Sandbox is a testing environment that serves as a replica of your live environment. It is refreshed each weekend by Workfront. Data added to your live environment on Friday appears in your Preview Sandbox by the following Monday. All support packages have access to this sandbox.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
@@ -82,7 +82,7 @@ As a [!DNL Workfront] administrator, you can access the Preview Sandbox via the 
 
 To access the Preview Sandbox:
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **[!UICONTROL System]** > **[!UICONTROL Preferences]**.
 

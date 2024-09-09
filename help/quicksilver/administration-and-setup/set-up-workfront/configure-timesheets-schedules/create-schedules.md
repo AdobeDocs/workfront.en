@@ -51,7 +51,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td>You must be a [!DNL Workfront] administrator. </td> 
+   <td>[!UICONTROL System Administrator]</td>  
   </tr> 
  </tbody> 
 </table>
