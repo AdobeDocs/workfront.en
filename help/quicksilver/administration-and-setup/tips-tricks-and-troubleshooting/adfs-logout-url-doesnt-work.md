@@ -44,11 +44,12 @@ You must have the following access to perform the steps in this article:
    <td role="rowheader">Adobe [!DNL Workfront] license</td> 
    <td> 
    <p>New: Standard</p>
+   Or
    <p>Current: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a [!DNL Workfront] administrator. For more information, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p>  </td> 
+   <td>[!UICONTROL System Administrator]</td>  
   </tr> 
  </tbody> 
 </table>

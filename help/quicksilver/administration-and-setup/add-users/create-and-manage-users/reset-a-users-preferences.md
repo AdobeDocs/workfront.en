@@ -34,12 +34,12 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td><p>New: Standard</p>
-       <p>or</p>
+       <p>Or</p>
        <p>Current: Plan</p></td>
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> </td> 
+   <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
 </table>

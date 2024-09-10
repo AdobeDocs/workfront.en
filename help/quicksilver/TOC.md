@@ -166,6 +166,7 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+      * [Workfront Fusion release activity: Week of August 19, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-8-19.md)
       * [Workfront Fusion release activity: Week of August 5, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-8-5.md)
       * [Workfront Fusion release activity: Week of July 29, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-7-29.md)
       * [Workfront Fusion release activity: Week of July 22, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-7-22.md)
@@ -1444,6 +1445,7 @@ feature-set: Workfront
       * [Remove a project from a portfolio](manage-work/portfolios/create-and-manage-portfolios/remove-project-from-portfolio.md)
       * [Review Requested Projects](manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)
     * Create and manage programs {#create-and-manage-programs}
+      * [Programs overview in [!DNL Adobe Workfront]](manage-work/portfolios/create-and-manage-programs/programs-overview.md)
       * [Create and manage programs](manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
       * [Create a program](manage-work/portfolios/create-and-manage-programs/create-program.md)
       * [Edit programs](manage-work/portfolios/create-and-manage-programs/edit-programs.md)

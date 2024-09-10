@@ -74,7 +74,6 @@ The `$$BEFORE_STATE` and `$$AFTER_STATE` wildcards are used in expressions to ac
 * The object creation trigger only allows the `$$AFTER_STATE`, because the before state does not exist.
 * The object deletion trigger only allows the `$$BEFORE_STATE`, because the after state does not exist.
 
-
 Some simple business rule scenarios are:
 
 * Users cannot add new expenses during the last week of February. This formula could be stated as: `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
@@ -86,7 +85,7 @@ Users cannot edit completed projects and cannot edit projects with a Planned Com
 
 ```
 IF(
-    {status}="CPL",
+    $$AFTER_STATE.{status}="CPL",
     "You cannot edit a completed project",
     IF(
         MONTH({plannedCompletionDate})=3,

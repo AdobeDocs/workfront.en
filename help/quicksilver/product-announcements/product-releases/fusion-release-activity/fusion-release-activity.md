@@ -20,6 +20,7 @@ For information about how to use Workfront Fusion, see [Adobe Workfront Fusion](
 
 ### August 2024
 
+* [Workfront Fusion release activity: Week of August 19, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-8-19.md)
 * [Workfront Fusion release activity: Week of August 5, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-8-5.md)
 
 ### July 2024
