@@ -103,3 +103,4 @@ If your password is managed by [!DNL Adobe], you can change the password in your
 [See this article for changing your Adobe password.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 For more information on changing your password, contact your administrator.
+
