@@ -11,7 +11,7 @@ exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
 
 Accessing [!DNL Workfront] through [!DNL Adobe Experience Cloud] gives you a seamless, unified experience for managing all of your [!DNL Adobe] applications. Single identity management gives you one place to log in, without multiple URLs or login IDs.
 
-To determine whether your organization is on the Adobe Unified Experience, examine the URL that you use to access Workfront.
+If your organization is on the Adobe Unified Experience, the URL that you use to access Workfront begins with `experience.adobe.com`.
 
 | URL | Adobe Experience|
 |------------|------------|
