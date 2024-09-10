@@ -35,30 +35,37 @@ For information about how a Workfront administrator can lock or unlock a prefere
 >* If you move a group under a group that has an unlocked preference, the moved group is not affected by that preference.
 >
 >  If the preference in the moved group is locked at the time of the move, it remains locked, but the group administrator can unlock it now because it is unlocked for the parent group.
->
 
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> <p>You must be a group administrator of the group or a Workfront administrator. For more information, see <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Group administrators</a> and <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Grant a user full administrative access</a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>New: Standard</p>
+       <p>Or</p>
+       <p>Current: Plan</p></td>
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td>You must be a group administrator of the group or a system administrator.</td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;If you need to find out what plan or license type you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

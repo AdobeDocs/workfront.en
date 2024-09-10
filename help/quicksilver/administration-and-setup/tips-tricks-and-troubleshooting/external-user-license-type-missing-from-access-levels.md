@@ -18,8 +18,6 @@ I can no longer see External User license type under Access Levels in Setup.
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
-
 +++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
@@ -41,7 +39,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td>You must be a [!DNL Workfront] administrator. </td> 
+   <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
