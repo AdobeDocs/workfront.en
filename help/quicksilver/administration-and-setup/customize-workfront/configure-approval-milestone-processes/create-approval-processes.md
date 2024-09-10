@@ -38,7 +38,7 @@ For information about approvals associated with documents or proofs, see the fol
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following:
+You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -50,14 +50,14 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>New plan: Standard </p>
+   <td> <p>New: Standard </p>
  <p>or</p> 
-<p>Current plan: Plan </p> 
+<p>Current: Plan </p> 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>If you are a Workfront administrator or you have administrative access to approval processes, you can create a system-level approval process, or a group-level approval process for a particular group.</p> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>If you are a system administrator or you have administrative access to approval processes, you can create a system-level approval process, or a group-level approval process for a particular group.</p> 
    <p>If you are a group administrator, you can create group-level approval processes for groups that you manage.</p> </td> 
   </tr> 
  </tbody> 

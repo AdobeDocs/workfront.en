@@ -13,6 +13,43 @@ exl-id: 52dd8750-9a6f-4ac6-9779-ba4ea9b6f4e0
 
 If you try to delete a status, an error message might tell you that it can't be deleted because it's in at least one pending approval process in your system. You can run a report to list the objects where it is in an pending approval process, then decide what you need to do for each one.
 
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article: 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Any</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>
+     <p>New: Standard</p>
+     <p>or</p>
+     <p>Current: Plan</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td><p>Edit access to Reports, Dashboards, Calendars</p><p>Edit access to Filters, Views, Groupings</p></td>
+  </tr>
+  <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td>You obtain Manage permissions to the reports you create.</td>
+  </tr>
+ </tbody> 
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 ## In Standard Mode
 
 {{step1-to-reports}}
