@@ -22,9 +22,8 @@ You can edit a [!UICONTROL portfolio] in the portfolio page or you can edit port
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>New: Any</p>
-   <p>Current:[!UICONTROL Business] or higher</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td> <p>Any</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe [!DNL Workfront] licenses*</td> 
