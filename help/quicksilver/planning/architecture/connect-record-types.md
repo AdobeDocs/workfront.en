@@ -10,6 +10,8 @@ exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 
 # Connect record types
 
+<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 {{planning-important-intro}}
 
 <!--
@@ -177,8 +179,7 @@ You must have the following to be able to access Workfront Planning:
 
     * Another record type from the workspace you selected 
 
-        ![](assets/new-connection-tab-fields-with-another-record-selected.png)
-
+        <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
         >[!TIP]
         >
         > 
@@ -187,7 +188,7 @@ You must have the following to be able to access Workfront Planning:
 
     * A record type from another workspace that was configured to connect from other workspaces. For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). 
 
-        ![](assets/connect-record-from-another-workspace-new-connection-tab.png)
+        <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
 
         >[!TIP]
         >
@@ -200,7 +201,7 @@ You must have the following to be able to access Workfront Planning:
 
     * **Experience Manager Assets** from the **Adobe Applications** section. 
 
-        ![](assets/aem-assets-connection-selection.png)
+        <span class="preview">![](assets/aem-assets-connection-selection.png)</span>
 
 1. Update the following information: 
 
@@ -215,7 +216,7 @@ You must have the following to be able to access Workfront Planning:
      
         This option is available only when connecting records from two different workspaces or a record and an Adobe Experience Manager asset object. 
 
-        ![](assets/new-connection-allow-multiple-records-box.png)
+        <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
      
      * **Connection type**: Select one of the following options to indicate how many records they can connect to and from:
 
@@ -226,7 +227,7 @@ You must have the following to be able to access Workfront Planning:
      
         This option is available only when connecting records from the same workspace or a record and a Workfront object type.        
 
-        ![](assets/many-to-many-connection-picker.png)
+        <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
                 
         For more information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -253,13 +254,21 @@ You must have the following to be able to access Workfront Planning:
     >
     >Your Workfront administrator can map Workfront Planning fields to Experience Manager Assets fields through the Metadata mapping in Workfront. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en). 
 
-1. (Conditional) If you selected to connect to Experience Manager Assets or to a Workfront Planning record type, deselect the **Title** toggle in the **Record appearance** area, if you don't want the title of connected records or assets to display in the linked field. When deselected, only records' thumbnails display in  the linked fields. Records without a thumbnail image display an image icon instead. The toggle is selected by default. An example of how the connected records will display shows in the **Record appearance** area. 
+1. (Conditional) If you selected to connect to Experience Manager Assets or to a Workfront Planning record type, select one of the following options in the **Record appearance** area:
+
+    * <span class="preview">**Name and image**: Both the name and the thumbnail or icon of the connected records will display in the connected record field. This is the default option. </span>
+    * <span class="preview">**Name**: Only the name of the connected records will display in the connected record field.</span>
+    * <span class="preview">**Image**: Only the thumbnail or icon of the connected records will display in the connected record field.</span>
+
+    Records without a thumbnail image display the record type icon instead. An example of how the connected records will display shows in the **Record appearance** area. 
 
     >[!TIP]
     >
     >    When you allow multiple records to be linked, displaying only the thumbnail might save space in smaller areas, like record views.
     >
-    >The title of a record is the primary field of the record. For more information, see [Primary field overview](/help/quicksilver/planning/fields/primary-field-overview.md). 
+    >The name of a record is the primary field of the record. For more information, see [Primary field overview](/help/quicksilver/planning/fields/primary-field-overview.md). 
+    >
+    >Selecting a record appearance is not available when selecting Workfront object types. 
 
 1. Click **Create**.
 
@@ -280,7 +289,7 @@ You must have the following to be able to access Workfront Planning:
     >    Everyone with View or higher permissions to the workspace can view the information in the linked fields, regardless of their permissions or access level in the application of the linked object types.
     
     
-1. (Optional) Click **Skip** to skip adding fields from the linked record or object type. The **Name** or the **Title** of the linked record is the only visible field in the table view of the record type you connect from. 
+1. (Optional) Click **Skip** to skip adding fields from the linked record or object type. The name or Primary field of the linked record is the only visible field in the table view of the record type you connect from. 
 
 1. (Optional and conditional) If you select to link a number, currency, percentage, or date-type field, also select an aggregator value to summarize multiple values. The values for the linked fields display either separated by commas or as a summarized value according to the aggregator you choose, when users select more than one linked record in the linked record field. 
 
