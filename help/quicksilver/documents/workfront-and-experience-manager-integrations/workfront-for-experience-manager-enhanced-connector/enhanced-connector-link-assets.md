@@ -6,9 +6,15 @@ draft: Probably
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 35c80f6a-419b-4237-8139-f59ab7bbd5c7
 ---
+
 # Link assets and folders with the enhanced connector
 
 You can link an asset or folder from Experience Manager Assets to any Workfront object that supports documents. Assets sent from Experience Manager Assets don't count towards your overall document storage in Workfront. Documents uploaded and sent from Workfront to Experience Manager Assets do count towards overall storage.
+
+
+>[!NOTE]
+>
+>Excel files linked through the enhanced connector cannot be previewed in Workfront. You must download the file in order to access it.
 
 ## Access requirements
 
