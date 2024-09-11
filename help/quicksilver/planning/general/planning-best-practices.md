@@ -113,7 +113,6 @@ Record types are the building blocks of a Workfront Planning Workspace. You can 
 
 Fields are attributes of record types and are displayed as columns in the table view. You can create custom fields for record types and then associate the fields with Workfront Planning records to enhance record information. 
 
-
 #### What field is recommended to be defined as Primary field?
   
 * ✅ Do use unique primary field values to make it easier to find and "pick" those records when making connections.  
@@ -297,7 +296,7 @@ We have some options that will help you to accelerate the migration process:
 
 -->     
 
-
+<!--
      
 
 1. Data Flow  
@@ -353,3 +352,4 @@ Here is a summary of how you can define the data flow within Workfront Planning 
 
 * **Fusion connector – You can create a connection to your Workfront Planning account from inside a Workfront Fusion module. **With this connector, you can trigger a scenario when events occur in Workfront Planning. You can also create, read, update, and delete records, or perform a custom API call to your Adobe Workfront Planning account. More information in Experience League in[ Adobe Workfront Planning modules](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-planning-moduleshttps:/experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-fusion/fusion-apps-and-modules/workfront-planning-modules) article.  
 
+-->
