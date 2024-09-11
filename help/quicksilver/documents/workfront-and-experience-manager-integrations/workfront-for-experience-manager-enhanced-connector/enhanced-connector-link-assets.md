@@ -18,6 +18,8 @@ You can link an asset or folder from Experience Manager Assets to any Workfront 
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -30,7 +32,9 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Request or higher</p> </td> 
+   <td> <p>Current: Request or higher</p> 
+   or
+   <p>New: Contributor or higher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -48,6 +52,7 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
++++
 
 ## Prerequisites
 
