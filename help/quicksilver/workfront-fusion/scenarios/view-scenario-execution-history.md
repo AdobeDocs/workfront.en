@@ -2,17 +2,21 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: View a scenario's execution history in Adobe Workfront Fusion
+title: View a scenario's history in Adobe Workfront Fusion
 description: You can display information about all the runs for a scenario, or you can search all executions of the scenario for specific data.
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
 ---
-# View a scenario's execution history in [!DNL Adobe Workfront Fusion]
+# View a scenario's history in [!DNL Adobe Workfront Fusion]
 
-You can display information about all the runs for a scenario, or you can search all executions of the scenario for specific data.
+You can display information about a scenario's events or executions, or you can search all executions of the scenario for specific data. 
 
-A scenario's execution history displays all of a scenario's executions for the last 30 days.
+A scenario execution represents a single run of the scenario.
+
+A scenario event is a modification to the scenario, such as editing, activating, or deactivating it. 
+
+A scenario's history displays all of a scenario's events and executions for the last 30 days.
 
 ## Access requirements
 
@@ -80,7 +84,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 >
 >The scenario history displays a **Processing** badge next to scenarios that have recently executed, while the execution details are written to storage. Processing occurs immediately after the scenario executes. and should last no more than a few minutes. Details of the scenario execution may not be visible while the execution is processing.
 
-### View scenario execution history on the [!UICONTROL History] tab
+### View scenario execution and event history on the [!UICONTROL History] tab
 
 The [!UICONTROL History] tab shows more detail than is available on the [!UICONTROL Scenario detail] page. You can also filter and sort the executions on the [!UICONTROL History] tab.
 
@@ -100,6 +104,8 @@ The [!UICONTROL History] tab shows more detail than is available on the [!UICONT
    >* The [!UICONTROL details] link is visible only if the execution has details available.
    >
    >* The scenario history displays a **Processing history** badge next to scenarios that have recently executed, while the execution details are written to storage. Processing occurs immediately after the scenario executes. and should last no more than a few minutes. Details of the scenario execution may not be visible while the execution is processing.
+
+1. To view events, enable the **Show events** toggle.
 
 ## Filter the scenario execution history
 
