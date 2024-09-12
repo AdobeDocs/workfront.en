@@ -106,7 +106,22 @@ You can create a project in Workfront using one of the following methods:
 
   For information about importing projects using kick-starts, see [Kick-Starts scenario: simple project and task import preparation](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
-* Publish an initiative from a scenario in the Adobe Workfront Scenario Planner. The Scenario Planner requires an additional license. For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md). For information about creating projects from publishing initiatives, see  [Update or create projects by publishing initiatives in the Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
+* Publish an initiative from a scenario in the Adobe Workfront Scenario Planner. 
+
+  The Scenario Planner requires one of the following:
+
+    * An additional license for the current Workfront license structure. 
+    * An Ultimate license for the new Workfront License structure. 
+  
+  For information about the Workfront Scenario Planner, see [The Scenario Planner overview](../../../scenario-planner/scenario-planner-overview.md). For information about creating projects from publishing initiatives, see  [Update or create projects by publishing initiatives in the Scenario Planner](../../../scenario-planner/publish-scenarios-update-projects.md).
+
+* Add projects as you connect them from a record type in Workfront Planning. You can create only projects without templates from Workfront Planning. 
+
+  You must have a new Workfront license and an additional Workfront Planning license for Workfront Planning. 
+
+  For information about access to Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md).
+
+  For information about creating projects by adding them to records, see the section "Create records as you connect them" in the article [Create records](/help/quicksilver/planning/records/create-records.md).  
 
 ## Prerequisites
 

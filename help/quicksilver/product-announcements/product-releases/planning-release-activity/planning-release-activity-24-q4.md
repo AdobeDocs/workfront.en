@@ -32,6 +32,22 @@ For information about features included in this release, see [Adobe Workfront Pl
 
 For a list of all features released for Adobe Workfront Planning after the general availability release on August 28, 2024, see [Adobe Workfront Planning release activity: article index](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md). 
 
+## Display Options for Connected Records 
+
+>[!NOTE]
+>
+>Preview release: September 9, 2024; Production release for all customers: With the 24.10 release (October 2024)
+
+We have redesigned the Record appearance area when connecting record types. Now, when deciding how the connected records will display in the connected fields, you can select from the following options:
+
+* Name
+* Name and image
+* Image
+
+Prior to this enhancement, you could select or deselect the Title toggle to display the name of the records or display just the icon or thumbnail. The Title toggle has been removed. 
+
+For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
+
 ## Export record details to PDF 
 
 >[!NOTE]

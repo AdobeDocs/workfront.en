@@ -52,11 +52,15 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
 ## Workfront Fusion overview
 
-The role of [!DNL Adobe Workfront Fusion] is to automate your processes so that you can concentrate on new tasks rather than repeating the same tasks again and again. It works by linking actions within and between apps and services to create a scenario that transfers and transforms your data automatically. The scenario you create watches for data in an app or service and processes that data to provide the result you want.
+The role of [!DNL Adobe Workfront Fusion] is to automate your processes so that your users don't need to spend as much time on routine tasks. It works by linking actions within and between apps and services to create a scenario that transfers and transforms your data automatically. The scenario you create watches for data in an app or service and processes that data to provide the result you want.
 
-A scenario is comprised of a series of modules that indicate how data should be transformed within an app or transferred between apps and web services.
+A scenario in Workfront Fusion represents a specific workflow. For example, a very simple scenario could watch a specific Workfront request queue for requests, and then automatically convert those requests to projects using a template.
 
-You put modules from various apps and web services into a scenario that executes a task. For example with a [!DNL Workfront Fusion for Work Automation and Integration] license, you can build a scenario that watches for new data in one app or web service, then uses that data in a subsequent module in the scenario to create a certain result, such as the creation of a new record. Once you set up a scenario, [!DNL Workfront Fusion] executes the task for you automatically.
+Scenarios can be built to address very specific situations and use cases. You can use filters to change the action based on data fields or properties, iterate through files or data, save data to a data store and use it in another scenario run, or configure your scenario in many other ways. 
+
+You can also add applications other than Workfront to your scenario. Fusion includes many dedicated connectors for outside applications, including applications by Adobe, Google, Microsoft, and many others. If there is not a dedicated connector for an application, Fusion includes ways to connect to any service with a public API.
+
+Workfront Fusion also offers features that support scenarios, such as scenario creation templates, execution history, and debugging. 
 
 >[!NOTE]
 >
@@ -66,8 +70,12 @@ You put modules from various apps and web services into a scenario that executes
 
 As you begin working with Workfront Fusion, you may find the following resources helpful:
 
-* To learn more about available [!DNL Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+* For Workfront Fusion training resources, see [Workfront Fusion Training Overview](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/introduction-and-tech-strategy).
 
-* To learn more about scenarios, see [Create a practice integration scenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/get-started/create-a-practice-scenario.md).
+* To begin creating practice scenarios, see [Create practice scenarios](../../workfront-fusion/get-started/build-practice-scenarios/create-practice-scenarios.md).
 
-* To learn more about modules, see [Types of modules](../../workfront-fusion/modules/module-types.md).
+<!--
+
+* To learn more about how scenarios work, see, see [new article]().
+
+-->
