@@ -25,8 +25,10 @@ Publishing a scenario from the [!DNL Adobe Workfront Scenario Planner] accomplis
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
-   <td> <p>Current: [!UICONTROL Business] or higher</p>
-   <p>New: Ultimate </p>
+   <td> <ul></li>
+   <li><p>New: Ultimate </p></li>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Plan. </p>
+   <li><p>Current: [!UICONTROL Business] or higher</p></ul>
    </td> 
   </tr> 
   <tr> 
@@ -36,17 +38,19 @@ Publishing a scenario from the [!DNL Adobe Workfront Scenario Planner] accomplis
   </tr> 
   <tr> 
    <td>Product* </td> 
-   <td> 
-   <p>For the current Workfront plans: </p>
-   <p>You must purchase an additional license for the [!DNL Adobe Workfront Scenario Planner] to access functionality described in this article.</p> <p>For information about access and permissions for the [!DNL Workfront Scenario Planner], see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <ul><li><p>For the new Workfront plans:</p><p> Adobe Workfront</li></p>
+   <li><p>For the current Workfront plans: </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
+   
+   <p>For more information, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Access level </td> 
-   <td> <p>[!UICONTROL Edit] access for the [!DNL Scenario Planner] and [!UICONTROL Projects]</p> </td> 
+   <td> <p>[!UICONTROL Edit] access for the [!DNL Scenario Planner] and [!UICONTROL Projects]</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Object permissions </p> </td> 
-   <td> <ul> 
+   <td>  <ul> 
      <li>[!UICONTROL Manage] permissions for the plan </li> 
      <li>[!UICONTROL Manage] permissions for published projects</li> 
     </ul> <p>For information on requesting additional access to a plan, see <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Request access to a plan in the [!DNL Scenario Planner]</a>.</p> </td> 

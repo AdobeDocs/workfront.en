@@ -1,6 +1,6 @@
 ---
 title: Manage the timeline view
-description: Access and edit records in a timeline view on the Adobe Workfront Planning record type page. Customize the timeline with filters, groupings, and settings. Use the Breakdown feature to display connected records. 
+description: Access and edit records in a timeline view on the Adobe Workfront Planning record type page. This article describes how you can create a timeline view and edit or delete an existing one. Customize the timeline with filters, groupings, and settings. Use the Breakdown feature to display connected records. 
 feature: Workfront Planning
 role: User
 author: Alina
