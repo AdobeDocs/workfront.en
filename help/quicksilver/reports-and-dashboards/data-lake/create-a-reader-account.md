@@ -17,6 +17,8 @@ For information on using a newly created connection with an external product, se
 
 ## Access requirements
 
++++ Expand to view access requirements. 
+
 You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
@@ -25,7 +27,17 @@ You must have the following access to perform the steps in this article:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront plan</td> 
-   <td>TBD</td> 
+   <td><p>Included in the following plans:</p>
+    <ul>
+        <li>Ultimate</li> 
+    </ul>    
+   <p>Can be purchased as an add-on to the following plans:</p> 
+    <ul>
+        <li>Select</li> 
+        <li>Prime</li>
+    </ul> 
+    <p>Workfront Data Connect is not available for legacy Workfront plans.</p> 
+   </td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
@@ -39,6 +51,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Create a reader account
 

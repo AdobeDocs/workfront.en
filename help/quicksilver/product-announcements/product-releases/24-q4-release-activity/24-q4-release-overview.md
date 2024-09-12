@@ -34,7 +34,7 @@ This page provides information about functionality that is included in the Fourt
 * [Proofing enhancements](#proofing-enhancements)
 * [Report and Dashboard enhancements](#report-and-dashboard-enhancements)
 * [Other enhancements](#other-enhancements)
-
+* [Functionality soon to be removed from Workfront](#functionality-soon-to-be-removed-from-workfront)
 
 ### Administrator enhancements
 
@@ -72,6 +72,7 @@ This page provides information about functionality that is included in the Fourt
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Roll back environment promotion packages</a></p>
+                        [!BADGE In production for Fast Release ]{type=Positive}
                         <p>To make environment promotion more flexible and easier to use, we've enabled rollback functionality. Now, you can roll back packages within 24 hours, allowing you to more easily restore previous configurations that have been affected by an environment promotion package.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -186,7 +187,7 @@ This page provides information about functionality that is included in the Fourt
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">More relevant smart assignments</a></p>
-                        [!BADGE In production ]{type=Informative}
+                        [!BADGE In production for Fast Release ]{type=Positive}
                         <p>We have changed the algorithm that Workfront uses to calculate and suggest smart assignments for tasks. The new algorithm applies in the following areas in Workfront where you assign a task: task lists, the Assignments area in the task header, Home, and the Summary panel.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -356,6 +357,14 @@ This page provides information about functionality that is included in the Fourt
            </tbody>
         </table>   
 
+### Functionality soon to be removed from Workfront
+
+The following functionality is soon to be removed from Workfront:
+
+#### Deprecation of the legacy Home experience with 24.10
+
+We will be officially deprecating the legacy Home experience with the 24.10 release. Users are encouraged to begin using new Home, which will continue to be enhanced with additional features prior to the deprecation. For more information about the transition, including advice about what users and administrators can do to prepare, see [Legacy Home deprecation guide](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
+
 ## Announcements
 
 ### Workfront Fusion enhancements
@@ -393,11 +402,3 @@ For information about the maintenance updates made during the Fourth Quarter 202
 ### Training updates
 
 Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the "What's New" section of the [Workfront Tutorials page](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
-
-### Functionality soon to be removed from Workfront
-
-The following functionality is soon to be removed from Workfront:
-
-#### Deprecation of the legacy Home experience with 24.10
-
-We will be officially deprecating the legacy Home experience with the 24.10 release. Users are encouraged to begin using new Home, which will continue to be enhanced with additional features prior to the deprecation. For more information about the transition, including advice about what users and administrators can do to prepare, see [Legacy Home deprecation guide](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).

@@ -34,6 +34,8 @@ Previously, configurations would be restored manually, or through another enviro
 
 For more information on rolling back an environment promotion package, see [Roll back an environment promotion package](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md).
 
+[View a video demonstration of this feature.](https://video.tv.adobe.com/v/3434025/){target=_blank}
+
 ## Layout button on the custom form designer allows two or three columns
 
 >[!NOTE]
