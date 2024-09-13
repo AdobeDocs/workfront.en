@@ -29,7 +29,7 @@ Access the following articles for general information about the new Workfront Pl
 * [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md): A high-level overview of Adobe Workfront Planning, including the terminology and concepts that are unique to this solution. We recommend that you start your journey with Workfront Planning here. 
 * [Adobe Workfront Planning object limitations overview](/help/quicksilver/planning/general/limitations-overview.md): A list of limitations for the number of objects you can create in Workfront Planning. 
 * [Adobe Workfront Planning release activity for 2024](/help/quicksilver/planning/general/release-activity.md): A list of all the features that released during the early stage of Workfront Planning, in 2024. This includes links to previous releases that occurred since the launch of the Adobe Workfront Planning beta program, on May 22, 2023.
-* [Adobe Workfront Planning best practices](/help/quicksilver/planning/general/planning-best-practices.md): A collection of best practices for using and frequently-asked questions about Workfront Planning. 
+* [Adobe Workfront Planning best practices](/help/quicksilver/planning/general/planning-best-practices.md): A collection of frequently-asked questions and best practices for using Workfront Planning. 
 
 ## Additional features available for Workfront Planning
 
