@@ -11,6 +11,11 @@ exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
 
 <!--this article used to be called "Change the date format in Adobe Workfront when using Chrome". The team decieded to make it more generic and hide the steps. Also see drafted content below-->
 
+>[!IMPORTANT]
+>
+> The information in this article applies only to organizations that have not yet been onboarded to the Adobe Unified Experience. 
+> If your organization has been onboarded to the Adobe Unified Experience, your date and time preferences are controlled by your language preference set in Adobe Unified Shell. The default language setting, and therefore the default date setting, is `en-US`. 
+
 You can change the date format of dates in [!DNL Adobe Workfront], such as [!UICONTROL Planned Completion Date], [!UICONTROL Actual Completion Date], or [!UICONTROL Projected Completion Date].  
 
 For example, you can change a date format from _DD/MM/YYYY_ to _MM/DD/YYYY_ or vice versa.
