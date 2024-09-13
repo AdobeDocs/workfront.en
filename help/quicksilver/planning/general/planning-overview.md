@@ -13,6 +13,12 @@ exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>
+
 >[!IMPORTANT]
 >
 >The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
@@ -83,8 +89,7 @@ The following are features that are currently available in Workfront Planning:
 * Share views publicly with external resources             
 * Duplicate views             
 * Submit requests to create records            
-* Export record details to Word             
-<!--* Export record details to PDF-->
+* Export record details to Word <span class="preview">and PDF.</span>            
 * Add comments to records             
 * Receive in-app notifications             
 * Receive email notifications             
