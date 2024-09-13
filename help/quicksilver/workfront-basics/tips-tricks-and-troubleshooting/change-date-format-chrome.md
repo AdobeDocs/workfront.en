@@ -14,7 +14,7 @@ exl-id: 9fac92fb-e3d1-4537-b324-4b35447cef28
 >[!IMPORTANT]
 >
 > The information in this article applies only to organizations that have not yet been onboarded to the Adobe Unified Experience. 
-> If your organization has been onboarded to the Adobe Unified Experience, your date and time preferences are controlled by your language preference set in Adobe Unified Shell. The default language setting, and therefore the default date setting, is `en-US`. 
+> If your organization has been onboarded to the Adobe Unified Experience, your date preference is controlled by your language preference set in Adobe Unified Shell. The default language setting, and therefore the default date setting, is `en-US`. 
 
 You can change the date format of dates in [!DNL Adobe Workfront], such as [!UICONTROL Planned Completion Date], [!UICONTROL Actual Completion Date], or [!UICONTROL Projected Completion Date].  
 
