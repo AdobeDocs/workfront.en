@@ -23,7 +23,7 @@ You can delete plans that you created. You cannot delete plans that are shared w
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
    <td> <ul></li>
    <li><p>New: Ultimate </p></li>
-   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Plan. </p>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Prime plans. </p>
    <li><p>Current: [!UICONTROL Business] or higher</p></ul>
    </td> 
   </tr> 

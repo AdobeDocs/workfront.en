@@ -1,8 +1,9 @@
 ---
 title: Adobe Workfront Planning Best Practices
 description: As a marketing operations leader, you can use Adobe Workfront Planning to organize work across the marketing lifecycle for all your teams. These are some best practices that we recommend when starting with Workfront Planning. 
-hidefromtoc: yes
-hide: yes
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 ---
 
