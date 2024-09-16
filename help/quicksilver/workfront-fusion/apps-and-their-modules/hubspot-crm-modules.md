@@ -1087,13 +1087,42 @@ This search module returns a list of all timeline events for a specific applicat
 
 #### Watch Calendar Events
 
+This trigger module starts a scenario when a new event is added to a calendar. It includes up to 500 tasks in the interval between the start and end date. This module can be used only with a developer connection that includes your user identifier, your HubSpot API key, Client ID, and Client Secret. 
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Events Type]</td> 
+   <td>Select whether you want to watch social events, content events, or all events.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Enter or map the maximum number of files you want the module to return during each scenario execution cycle.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Start Date]</td> 
+   <td>Enter or map the start date.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL End Date]</td> 
+   <td>Enter or map the end date.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### Watch Notifications
 
+This trigger module starts a scenario when a new notification about changes is sent.  It includes up to 500 tasks in the interval between the start and end date. This module can be used only with a developer connection that includes your user identifier, your HubSpot API key, Client ID, and Client Secret. You can have only one webhook URL per developer application in HubSpot.
 
+To create a webhook for this module, click **Add** next to the webhook field and fill out the following fields:
 
-
+<!--Continue here-->
 
 ### Files
 
