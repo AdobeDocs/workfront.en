@@ -1310,8 +1310,8 @@ This trigger module starts a scenario when a new file is saved to the file manag
 ### Tasks
 
 * [Create a Calendar Task](#create-a-calendar-task)
-* [Delete a Calendar Task]
-* [Watch Task Events]
+* [Delete a Calendar Task](#create-a-calendar-task)
+* [Watch Task Events](#watch-task-events)
 
 #### Create a Calendar task
 
