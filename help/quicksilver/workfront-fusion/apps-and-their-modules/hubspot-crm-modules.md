@@ -1122,7 +1122,28 @@ This trigger module starts a scenario when a new notification about changes is s
 
 To create a webhook for this module, click **Add** next to the webhook field and fill out the following fields:
 
-<!--Continue here-->
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Application ID]</td> 
+   <td>Enter the application ID that you want to use for this webhook. You can find the ID in your HubSpot developer portal.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Subscriptions]</td> 
+   <td> <p>For each type of notification that you want to watch, click <b>Add item</b> and select the subscription type.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Force to Remove Old Subscriptions]</td> 
+   <td>Enable this option to detach or delete old subscriptions attached to this webhook.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
 ### Files
 
@@ -1402,6 +1423,41 @@ This trigger module starts a scenario when there is a new task event in a calend
  </tbody> 
 </table>
 
+### Users
+
+#### Get an Owner
+
+This action module returns details of an owner.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Owner ID]</td> 
+   <td> <p>Enter or map the ID of the owner that you want to return details for.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### List Owners
+
+This search module returns a list of all of the owners in a HubSpot account.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 
 
@@ -1419,14 +1475,6 @@ This trigger module starts a scenario when there is a new task event in a calend
 
 
 
-
-
-
-
-
-
-
-<!-- Users (All)-->
 
 ### Tickets
 
