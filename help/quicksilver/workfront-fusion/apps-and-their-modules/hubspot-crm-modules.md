@@ -1459,26 +1459,9 @@ This search module returns a list of all of the owners in a HubSpot account.
  </tbody> 
 </table>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### Tickets
 
-<!-- Create a Ticket -->
+<!-- Create a Ticket Need to find a working connection-->
 
 #### [!UICONTROL Delete a Ticket]
 
@@ -1499,15 +1482,63 @@ Deletes an existing ticket by its ID.
  </tbody> 
 </table>
 
-<!-- Get a Ticket -->
+<!-- Get a Ticket  Need to find a working connection-->
 
-<!-- List Tickets -->
+<!-- List Tickets  Need to find a working connection-->
 
-<!-- Update a Ticket -->
+<!-- Update a Ticket Need to find a working connection--->
 
-<!-- Watch Tickets -->
+<!-- Watch Tickets Need to find a working connection-->
 
-<!-- Forms (All)-->
+### Forms
+
+#### Get a File Uploaded via Form
+
+This action module returns a file that was uploaded through a form.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL File URL]</td> 
+   <td>Enter or map the URL of the file you want to retrieve. This can be found in the form metadata.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### List Forms
+
+This action module returns all forms that have been created in the account associated with the connection used for this module.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL limit]</td> 
+   <td>Enter or map the maximum number of forms that the module will return in one execution cycle.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Submit Data to a Form
+
+
+
+#### Watch Submissions for a Form
+
+
+
+
 
 <!-- Social Media (All)-->
 
