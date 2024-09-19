@@ -94,6 +94,8 @@ image
 
 Grouping can help you further organize your work list. You can group the work list by Project, Status, Due Date, or Nothing. 
 
+Due date - planned completion 
+
 When you apply a grouping, what you select in the sort sorts within the grouping
 
 image
