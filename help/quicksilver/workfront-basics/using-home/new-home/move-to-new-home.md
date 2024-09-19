@@ -58,7 +58,7 @@ The calendar view is no longer available in New Home; however, a calendar replac
 
 ### Create a personal task
 
-Users can no longer create a personal task the same way they did in Legacy Home. To-do items have replaced this.  
+Users can no longer create a personal task the same way they did in Legacy Home. Instead, users can create To-do items. 
 
 ### View approvals I've submitted
 
@@ -75,6 +75,8 @@ Users can use the Boards widget to track high priority items if desired.
 ## Update work items
 
 In Legacy home, users could use the right panel to update their work. In New Home, users now use the Summary panel to update work. This is the same Summary panel available in Projects, Tasks, Issues, and Documents.
+
+Workfront admins can update this xxx
 
 Users can open the 
 
