@@ -73,9 +73,21 @@ If you see the map button above a field or function, you can use it to set varia
 * [Contacts](#contacts)
 * [Deals](#deals)
 * [Companies](#companies)
+* [Engagements](#engagements)
+* [Events and Notifications](#events-and-notifications)
 * [Files](#files)
+* [Tasks](#tasks)
+* [Users](#users)
 * [Tickets](#tickets)
-* [Make an API Call](#make-an-api-call)
+* [Forms](#forms)
+* [Social Media (Broadcast)](#social-media-broadcast)
+* [Blog Posts](#blog-posts)
+<!--* [Workflows]-->
+* [Subscriptions](#subscriptions)
+<!--* [Associations](#associations)-->
+* [Other](#other)
+
++++**CRM objects**
 
 ### CRM objects
 
@@ -164,12 +176,18 @@ This trigger module starts a scenario when a CRM object is created or updated.
  </tbody> 
 </table>
 
++++
+
++++**Records (Deals, Contacts, and Companies)**
+
 ### Records (Deals, Contacts, and Companies) 
 
+* [Create a Record](#create-a-record)
 * [[!UICONTROL Create a Record (Legacy)]](#create-a-record-legacy)
 * [[!UICONTROL Delete a Record]](#delete-a-record)
 * [[!UICONTROL Get a Record]](#get-a-record)
 * [[!UICONTROL Get a Record Property]](#get-a-record-property)
+* [List Records](#list-records)
 * [[!UICONTROL Update a Record]](#update-a-record)
 * [[!UICONTROL Watch Records]](#watch-records)
 
@@ -403,9 +421,13 @@ This trigger module starts a scenario when a contact, company, or deal has been 
  </tbody> 
 </table>
 
++++
+
++++**Contacts**
+
 ### Contacts
 
-* [[!UICONTROL Add Contacts to a List]](#add-contacts-to-a-list)'
+* [[!UICONTROL Add Contacts to a List]](#add-contacts-to-a-list)
 * [Create/Update a contact](#createupdate-a-contact)
 * [[!UICONTROL Create/Update a Contact (Legacy)]](#createupdate-a-contact-legacy)
 * [[!UICONTROL Create/Update a Group of Contacts]](#createupdate-a-group-of-contacts)
@@ -662,6 +684,10 @@ This trigger module starts a scenario when a new contact is added to a list. Thi
  </tbody> 
 </table>
 
++++
+
++++**Deals**
+
 ### Deals
 
 * [[!UICONTROL Get a Deal's CRM Pipeline]](#get-a-deals-crm-pipeline)
@@ -709,6 +735,10 @@ Returns all deal and ticket pipelines for a given portal.
  </tbody> 
 </table>
 
++++
+
++++**Companies**
+
 ### Companies
 
 #### [!UICONTROL Search for Companies by domain]
@@ -737,6 +767,10 @@ Retrieves a list of companies based on an exact match to the domain property.
   </tr> 
  </tbody> 
 </table>
+
++++
+
++++**Engagements**
 
 ### Engagements
 
@@ -1021,7 +1055,16 @@ This trigger module starts a scenario when a new engagement is created in a port
  </tbody> 
 </table>
 
-### Events and notifications
++++
+
++++**Events and Notifications**
+
+### Events and Notifications
+
+* [Create / Update a Timeline Event](#create--update-a-timeline-event)
+* [List Timeline Event Types](#list-timeline-event-types)
+* [Watch Calendar Events](#watch-calendar-events)
+* [Watch Notifications](#watch-notifications)
 
 #### Create / Update a Timeline Event
 
@@ -1145,12 +1188,16 @@ To create a webhook for this module, click **Add** next to the webhook field and
  </tbody> 
 </table>
 
++++
+
++++**Files**
+
 ### Files
 
 * [[!UICONTROL Create a Folder]](#create-a-folder)
-* [Delete a file](#delete-a-file)
-* [List files](#list-files)
+* [Delete a File](#delete-a-file)
 * [[!UICONTROL Delete a Folder]](#delete-a-folder)
+* [List Files](#list-files)
 * [[!UICONTROL Move a File]](#move-a-file)
 * [Upload a file](#upload-a-file)
 * [Watch files](#watch-files)
@@ -1328,6 +1375,10 @@ This trigger module starts a scenario when a new file is saved to the file manag
  </tbody> 
 </table>
 
++++
+
++++**Tasks**
+
 ### Tasks
 
 * [Create a Calendar Task](#create-a-calendar-task)
@@ -1423,7 +1474,14 @@ This trigger module starts a scenario when there is a new task event in a calend
  </tbody> 
 </table>
 
++++
+
++++**Users**
+
 ### Users
+
+* [Get an Owner](#get-an-owner)
+* [List Owners](#list-owners)
 
 #### Get an Owner
 
@@ -1459,7 +1517,18 @@ This search module returns a list of all of the owners in a HubSpot account.
  </tbody> 
 </table>
 
++++
+
++++**Tickets**
+
 ### Tickets
+
+<!--* [Create a Ticket]-->
+* [Delete a Ticket](#delete-a-ticket)
+<!--* [Create a Ticket]-->
+<!--* [Create a Ticket]-->
+<!--* [Create a Ticket]-->
+<!--* [Create a Ticket]-->
 
 <!-- Create a Ticket Need to find a working connection-->
 
@@ -1490,7 +1559,16 @@ Deletes an existing ticket by its ID.
 
 <!-- Watch Tickets Need to find a working connection-->
 
++++
+
++++**Forms**
+
 ### Forms
+
+* [Get a File Uploaded via Form](#get-a-file-uploaded-via-form)
+* [List Forms](#list-forms)
+<!--* [Submit Data to a Form]-->
+<!--* [Watch Submissions for a Form]-->
 
 #### Get a File Uploaded via Form
 
@@ -1536,7 +1614,15 @@ This action module returns all forms that have been created in the account assoc
 
 <!--#### Watch Submissions for a Form--Need to find a working connection>-->
 
++++
+
++++**Social Media (Broadcast)**
+
 ### Social Media (Broadcast)
+
+* [Cancel a Broadcast Message](#cancel-a-broadcast-message)
+* [Create a Broadcast Message](#create-a-broadcast-message)
+* [Watch Broadcast Messages](#watch-broadcast-messages)
 
 #### Cancel a Broadcast Message
 
@@ -1627,9 +1713,17 @@ This trigger module starts a scenario when a message is posted from HubSpot to t
  </tbody> 
 </table>
 
++++
 
++++**Blog Posts**
 
 ### Blog posts 
+
+<!--* [Create a Blog Post]-->
+* [Delete a Blog Post](#delete-a-blog-post)
+<!--* [List Blog Posts]-->
+* [Publish/Unpublish a Blog Post](#publish--unpublish-a-blog-post)
+<!--* [Watch Blog Posts]-->
 
 <!--
 #### Create a Blog Post May need connection
@@ -1684,6 +1778,10 @@ This action module schedules or cancels publishing of a blog post.
 
 <!--#### Watch Blog PostsMay need connection-->
 
++++
+
+<!--+++**Workflows**>
+
 <!--### Workflows May need connection
 
 #### Add a Contact to a Workflow
@@ -1693,8 +1791,14 @@ This action module schedules or cancels publishing of a blog post.
 
 -->
 
+<!--+++-->
+
++++**Subscriptions**
 
 ### Subscriptions
+
+* [Update Email Subscription](#update-email-subscription)
+* [Watch Subscriptions Timeline for a Portal](#watch-subscriptions-timeline-for-a-portal)
 
 #### Update Email Subscription
 
@@ -1727,7 +1831,7 @@ This action module updates an email subscription in HubSpot.
  </tbody> 
 </table>
 
-#### Watch Subscriptions TImeline for a Portal
+#### Watch Subscriptions Timeline for a Portal
 
 This trigger module starts a scenario when a new email timeline subscription is added to the portal.
 
@@ -1754,9 +1858,37 @@ This trigger module starts a scenario when a new email timeline subscription is 
  </tbody> 
 </table>
 
-<!-- Associations (All)-->
++++
 
-### [!UICONTROL Make an API Call]
+<!--+++**Associations**-->
+
+<!--### Associations-->
+
+<!--#### Associate CRM Objects  May need connection
+
+This action module associates two CRM objects.-->
+
+<!--#### Associate Multiple CRM Objects  May need connection-->
+
+
+
+<!--#### Delete an Association May need connection-->
+
+
+
+<!--#### Delete Multiple Associations between CRM Objects May need connection-->
+
+
+
+<!--#### List Associations for a CRM Object May need connection-->
+
+<!--+++-->
+
++++**Other**
+
+### Other
+
+#### [!UICONTROL Make an API Call]
 
 Allows you to perform a custom API call.
 
@@ -1819,6 +1951,8 @@ Allows you to perform a custom API call.
 >In our example, 3 contacts were returned:
 >
 >![](assets/hubspot-api-output.png)
+
++++
 
 ## Create a new application
 
