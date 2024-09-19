@@ -14,7 +14,7 @@ exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
 
 >[!NOTE]
 >
->This connector is currently in Beta.
+>The Boards Fusion connector is in a beta status. As a result, support for this connector is limited and may change due to future development of Boards. In addition, there may be changes to the GraphQL API without notice that could impact your Fusion connector process.
 
 Adobe Workfront Boards are flexible tools that allow team collaboration by providing access to a shared board that contains columns and cards.
 

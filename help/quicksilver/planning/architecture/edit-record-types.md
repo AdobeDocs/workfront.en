@@ -1,24 +1,12 @@
 ---
-title: Edit record types
+title: Edit Record Types
 description: You can edit record types after they have been saved. Record types are the object types of Adobe Workfront Planning.
-hidefromtoc: yes
-hide: yes
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
 ---
-<!--update the metadata with real information when making this available in TOC and in the left nav
----
-title: Edit record types
-description: You can edit record types after they have been saved. Record types are the object types of Adobe Workfront Planning.
-author: Alina
-role: User
-feature: Work Management 
-topic: Architecture
-hidefromtoc: yes
-hide: yes
----
-
--->
 
 # Edit record types
 
@@ -28,7 +16,77 @@ Record types are the object types of Adobe Workfront Planning. You can edit the 
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
++++ Expand to view access requirements for Workfront Planning. 
+
+You must have the following to be able to access Workfront Planning:  
+
+ <table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard </p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a workspace</a> </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <p>Only system administrators can enable record types to connect from other workspaces</p> </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Layout template</p></td> 
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> </td> 
+  </tr> 
+</tbody> 
+</table> 
+
+ *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++   
+
+<!--
+OLD:
 
 <table style="table-layout:auto">
  <col>
@@ -55,9 +113,10 @@ You must have the following access to perform the steps in this article:
    </td>
   </tr>
   <tr>
-   <td role="rowheader"><p>Adobe Workfront license</p></td>
+   <td role="rowheader"><p>Adobe Workfront license*</p></td>
    <td>
-   <p>Any</p> 
+   <p>New: Standard</p>
+   <p>Current: Plan</p> 
   </td>
   </tr>
   
@@ -70,7 +129,8 @@ You must have the following access to perform the steps in this article:
   <tr>
    <td role="rowheader"><p>Permissions</p></td>
    <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <p>Only system administrators can enable record types to connect from other workspaces</p>
 </td>
   </tr>
 <tr>
@@ -82,10 +142,7 @@ You must have the following access to perform the steps in this article:
  </tbody>
 </table>
 
-<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 ## Edit record types
 
@@ -93,35 +150,43 @@ You must have the following access to perform the steps in this article:
 
 1. Click the workspace whose record types you want to edit, 
 
-    Or
+   The workspace page opens and the record types display. 
+1. Do one of the following:
 
-    From a workspace, expand the downward-pointing arrow to the right of an existing workspace name, search for a workspace, then select it when it displays in the list.
+   * Hover over the card of a record type and click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the record type card, then click **Edit**
+      Or
+   * Click a record type card to open the record type page, click the **More** menu ![](assets/more-menu.png) to the right of the record type name, then click **Edit**. 
 
-    The workspace opens and the record types display. 
-1. Hover over the card of a record type and click the **More** menu ![](assets/more-menu.png) in the upper-right corner of the record type card, then click **Edit**. 
+   ![](assets/more-menu-options-from-record-type-card.png)
 
-    ![](assets/more-menu-options-from-record-type-card.png)
+1. In the **Edit record type** box, the **Appearance** tab opens by default. 
 
-1. In the **Edit record type** box, update the following information: 
+   ![](assets/edit-record-type-box-appearance-tab.png) 
 
-    * Edit the record type name, if needed. <!--did they add a field label for this? --> 
+   Update the following information in the **Appearance** tab: 
+
+    * Edit the record type name, if needed. <!--did they add a field label for this?-->
     * **Description**: Edit or add a description for the record type with more information about it. 
     * Edit the color and shape of the icon associated with the record type. Do the following: 
-        * Select a color to identify the record type. This is the color of the record type icon. Gray is selected by default.
-        * Select an icon from the list, or start typing the name of an icon to describe what it represents, then select it when it displays. This is the icon of the record type. A file icon is selected by default.
+        * Select a color to identify the record type. This is the color of the record type icon. 
+        * Select an icon from the list, or start typing the name of an icon to describe what it represents, then select it when it displays. This is the icon of the record type. A file icon is selected by default. 
 
-        ![](assets/update-record-type-box.png)
+1. (Conditional) If you are a system administrator, click the **Advanced settings** tab in the **Edit record type** box. 
+
+   ![](assets/edit-record-type-box-advanced-settings-tab.png)
+
+1. (Conditional) As a system administrator, update the following information in the **Advanced settings** tab: 
+
+      * **Connect from other workspaces**: Select this toggle to allow users to connect to this record type from other workspaces. This is deselected by default.
+      * **System wide**: Select this option to allow users to connect to this record from all workspaces in the system.
+      * **Specific workspaces**: Select this option to restrict the workspaces from which users can connect to this record type, then expand the drop down menu and select the workspaces you want users to connect to this record type from. You can start typing the name of a workspace, and select it when it displays in the list. 
 
 1. Click **Save**.
-1. (Optional) Click the record type card from the workspace area to open the record type's page. 
-1. Click the **More** menu to the right of the record type name, then click **Edit** to update information about the record type.
 
-   >[!TIP]
-   >
-   >   You can rename the record type in the header.  
+      The record type card on the workspace displays a connectivity icon ![](assets/connect-from-other-workspaces-icon.png) in the upper-right corner to indicate that the record is now accessible from other workspaces. 
 
-    ![](assets/more-menu-options-from-record-details-page.png) 
-    
-    <!--check this screen shot - not sure this is valid ???-->
+1. (Optional) Click the record type card from the workspace area to open the record type's page, then rename the record type in the header.  
 
-1. (Optional) To edit another record type, expand the downward-pointing arrow to the right of a record type name, search for a record type, then select it when it displays in the list. 
+1. (Optional) To edit another record type, from the record type page, expand the downward-pointing arrow to the right of a record type name, search for a record type, then select it when it displays in the list.
+
+   ![](assets/record-type-drop-down-on-record-type-page-with-search-box.png)

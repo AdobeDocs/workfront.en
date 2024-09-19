@@ -3,20 +3,22 @@ user-type: administrator
 product-area: system-administration;user-management
 keywords: kickstart,kick-start,kickstarts,kick-starts
 navigation-topic: use-kick-starts
-title: 'Kick-Starts Scenario: Company, Group, Role, and User Kick-Starts Preparation'
+title: "Kick-Starts Scenario: Company, Group, Role, and User Kick-Starts Preparation"
 description: When you begin implementing Adobe Workfront, rather than manually inputting data, you can import your customer list, internal departments, job roles, and user information.
 author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
 ---
-# Kick-Starts Scenario: Company, Group, Role, and User Kick-Starts Preparation
+# Kick-Starts scenario: company, group, role, and user Kick-Starts preparation
 
 When you begin implementing Adobe Workfront, rather than manually inputting data, you can import your customer list, internal departments, job roles, and user information.
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,18 +30,25 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td>Plan</td> 
+   <td>
+   <p> New: Standard</p>
+   or
+   <p>Current: Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a Workfront administrator.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td>[!UICONTROL System Administrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 ## What you can import
 
-The following table displays the Companies, Groups, and Roles to import:
+The following table displays the companies, groups, and roles to import:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -61,7 +70,7 @@ The following table displays the Companies, Groups, and Roles to import:
  </tbody> 
 </table>
 
-Role names must be unique, existing job roles cannot be imported.
+Role names must be unique. Existing job roles cannot be imported.
 
 The following tables display the users to import and several user attributes for each:
 
@@ -151,7 +160,7 @@ The following tables display the users to import and several user attributes for
 
 ## Download a Kick-Start Template
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **System** > **Kick-Starts** > **Import Data.**
 
@@ -293,4 +302,4 @@ The following tables display the users to import and several user attributes for
 1. Fill in other user details, as needed, then save the file.
 1. Import the Excel File.
 
-   Follow the directions provided in the **Importing Kick Start Files** section of this article.
+   Follow the directions provided in [Import data into Adobe Workfront using a Kick-Start template](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).

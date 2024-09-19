@@ -13,6 +13,8 @@ You can combine multiple files into a single multi-page proof. Reviewers can use
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -40,11 +42,13 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license, or Proof Permission Profile you have, contact your Workfront or Workfront Proof administrator.
 
++++
+
 ## Create a multi-page proof
 
 When this option is enabled, static files and websites are available in a single proof. When this option is disabled, all documents and websites are generated as individual proofs, and you can upload up to 100 files at a given time.
 
-To&nbsp;create a multi-page proof:
+To create a multi-page proof:
 
 1. Go to the project, task, or issue where you want the proof, then click the **Documents** section.
 1. Click **Add new** > **Proof** . 

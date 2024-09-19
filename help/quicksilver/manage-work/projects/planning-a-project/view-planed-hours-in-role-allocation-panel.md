@@ -108,10 +108,9 @@ You must have the following:
    ![](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
 1. Review the following information in the **Role Allocation** panel:
+
    |Field | Description|
    |---|---|
    | **Job Role** |Job roles assigned to tasks and issues on the project. These can be job roles assigned directly to tasks and issues or job roles associated with users assigned to tasks and issues on the project.  |
    | **Planned Hours** |The total number of Planned Hours from tasks and issues assigned to job roles or users associated with a job role on the project.  |
-
-
 

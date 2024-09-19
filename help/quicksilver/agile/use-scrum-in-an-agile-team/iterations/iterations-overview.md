@@ -1,7 +1,7 @@
 ---
 product-area: agile-and-teams
 navigation-topic: iterations
-title: Iterations overview
+title: Iterations Overview
 description: Agile iterations consist of three areas - completion status, burndown, and the story board.
 author: Lisa
 feature: Agile

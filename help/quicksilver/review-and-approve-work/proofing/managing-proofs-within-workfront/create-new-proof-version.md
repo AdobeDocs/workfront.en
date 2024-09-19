@@ -26,6 +26,8 @@ Consider the following information when you are creating a new version of a proo
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -52,6 +54,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan, role, or Proof Permission Profile you have, contact your Workfront or Workfront Proof administrator.
+
++++
 
 ## Create a new version of a proof in Workfront
 
@@ -222,7 +226,7 @@ If there was a custom subject/message included in the previous version of the pr
 
   >[!NOTE]
   >
-  >&nbsp;This is not impacted by any default custom subject/message saved in your personal settings.
+  >This is not impacted by any default custom subject/message saved in your personal settings.
 
 If you have a default subject and message saved in your personal settings, this will impact on what message is shown by default on the New version page:
 

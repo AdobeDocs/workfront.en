@@ -55,7 +55,7 @@ When updating the Duration of tasks in a list, you can use the following abbrevi
 | Hours |H |
 | Days.&nbsp;This is the default.  |D |
 | Weeks |W |
-| Months |T |
+| Months |T, MO |
 | Elapsed Minutes |EM |
 | Elapsed Hours |EH |
 | Elapsed Days |ED |

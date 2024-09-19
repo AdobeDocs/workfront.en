@@ -1,7 +1,7 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: Replace the Work On It button with a Start button
+title: Replace the Work On It Button with a Start Button
 description: Adobe Workfront's default configuration includes a Work On It button for tasks and issues that displays for items that you have been assigned to.
 author: Lisa
 feature: People Teams and Groups
@@ -19,26 +19,31 @@ You can replace the [!DNL Work On It] button with a [!UICONTROL Start] button fo
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Any</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront plan</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>Plan</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>
+   <p>New: Standard</p>
+   <p>or</p>
+   <p>Current: Plan</p></td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Configure the [!UICONTROL Start] button 
 
@@ -60,7 +65,7 @@ If you have a [!UICONTROL Plan] license, you can configure the [!UICONTROL Start
 
 To configure the Start button:
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Teams]**.
+{{step1-to-team}}
 
 1. In the **[!UICONTROL Teams]** drop-down menu, select a team.  
    or  
@@ -81,9 +86,9 @@ To configure the Start button:
 
 To associate users with a Home Team:
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront].
+{{step-1-to-users}}
 
-1. Click **[!UICONTROL Users]**, then select the user or users you want to associate with a Home Team.
+1. Select the user or users you want to associate with a Home Team.
 1. Click the **[!UICONTROL More]** menu, then select **[!UICONTROL Edit]**.  
    ![](assets/user-settings-nwe-350x291.png)
 

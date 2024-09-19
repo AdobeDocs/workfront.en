@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Enable or disable fast releases for your organization
+title: Enable or Disable Fast Releases for Your Organization
 description: You can select whether you want to receive new Workfront functionality on a monthly or quarterly basis.
 author: Becky
 feature: System Setup and Administration
@@ -41,7 +41,8 @@ Consider the following when enabling or disabling the fast release process:
 
 To enable or disable the fast release process:
 
-1. Click the **Main Menu icon**, then click **Setup**.
+{{step-1-to-setup}}
+
 1. Expand **System** in the left navigation, then click **Preferences**.
 1. To enable fast releases, check the **Allow fast release process** checkbox.
 

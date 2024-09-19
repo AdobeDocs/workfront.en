@@ -2,7 +2,7 @@
 content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
-title: Team requests overview
+title: Team Requests Overview
 description: Team requests are found in the Teams area in the Main Menu.
 author: Lisa
 feature: People Teams and Groups

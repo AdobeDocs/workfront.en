@@ -1,12 +1,12 @@
 ---
-title: How access levels and permissions work together
+title: How Access Levels and Permissions Work Together
 user-type: administrator
 content-type: reference
 product-area: system-administration
 keywords: access,model,funnel,diagram,levels,permissions
 navigation-topic: access-levels
 description: The Adobe Workfront administrator determines what access level each user should have. That access level defines what users can see and do with object types and areas in the system.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8

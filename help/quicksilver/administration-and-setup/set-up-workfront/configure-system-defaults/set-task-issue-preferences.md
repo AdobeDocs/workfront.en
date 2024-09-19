@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Configure system-wide task and issue preferences
+title: Configure System-Wide Task and Issue Preferences
 description: You can configure system-wide preferences for tasks and issues. These preferences impact the way that your users create tasks and issues in Workfront.
 author: Lisa
 feature: System Setup and Administration
@@ -43,7 +43,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>You must be a [!DNL Workfront] administrator.</p> </td> 
+   <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
 </table>
@@ -112,7 +112,7 @@ For more detail about the information in this table, see [Access requirements in
       </ul> </td> 
     </tr> 
     <tr> 
-    <td role="rowheader"[!UICONTROL >When converting an issue to a task]</td> 
+    <td role="rowheader">[!UICONTROL When converting an issue to a task]</td> 
     <td> <p>The settings in this section determine what happens during the conversion process from issue to task:</p> 
       <ul> 
       <li> <p><strong>[!UICONTROL Keep the original issue and tie its resolution to the task]</strong>: When you are converting the issue, it remains visible as an issue until the task is complete. The status of the issue automatically changes to [!UICONTROL Closed] when the task completes. When this is deselected, the issue is deleted.</p> <p><b>NOTE</b>:  <p>Users without access or permissions to delete issues will not be able to delete the issue as they are converting it, regardless of the status of this setting. For information about access and permissions to issues, see:</p> 

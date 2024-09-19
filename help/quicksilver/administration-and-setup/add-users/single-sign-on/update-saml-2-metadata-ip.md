@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: single-sign-on-in-workfront
-title: Update SAML 2.0 metadata in your identity provider
+title: Update SAML 2.0 Metadata in Your Identity Provider
 description: You can update SAML 2.0 metadata in your identity provider.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 75cd0ab5-8d76-40a4-96a8-00e9f0f4fec6

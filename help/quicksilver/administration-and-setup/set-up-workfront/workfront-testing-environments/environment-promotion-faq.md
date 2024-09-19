@@ -8,7 +8,6 @@ description: Explore frequently asked questions regarding Workfront environment 
 author: Becky
 feature: System Setup and Administration
 role: Admin
-recommendations: noDisplay, noCatalog
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
 ---
 # Environment promotion FAQ
@@ -25,7 +24,7 @@ Cross-domain environment promotion is not currently supported. You must promote 
 
 ### Answer
 
-No. Environment Promotion is available for both IMS-enabled and non-IMSWorkfront instances.
+No. Environment Promotion is available for both IMS-enabled and non-IMS Workfront instances.
 
 ## How can we find out if our Workfront instance is on a Prime or Ultimate license?
 

@@ -1,7 +1,7 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Manage user allocations in the Workload Balancer
+title: Manage User Allocations in the Workload Balancer
 description: As a Resource Manager, you can assign work to users and manage their daily, weekly, or monthly allocations from the Workload Balancer.
 author: Lisa
 feature: Resource Management
@@ -17,7 +17,7 @@ As a Resource Manager, you can assign work to users and manage their daily, week
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following:
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,26 +29,21 @@ You must have the following:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td>
-   <p>When using the Workload Balancer in the Resourcing area, you need:</p>
-   <p>New: Standard</p>
-   <p>Or</p>
-   <p>Current: Plan</p>
-   <p>When using the Workload Balancer of a team or project, you need:</p>
-   <p>New: Standard</p>
-   <p>Or</p>
-   <p>Current: Work</p>
- </td> 
-  </tr> 
+   <td><p>New: Standard</p>
+       <p>or</p>
+       <p>Current: Plan, when using the Workload Balancer in the Resourcing area;</br>
+       Work, when using the Workload Balancer of a team or project</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Access level configuration</td> 
+   <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to the following:</p> 
     <ul> 
-     <li> <p>Resource Management</p> </li> 
-     <li> <p>Projects</p> </li> 
-     <li> <p>Tasks</p> </li> 
-     <li> <p>Issues</p> </li> 
-    </ul> </td> 
+     <li>Resource Management</li> 
+     <li>Projects</li> 
+     <li>Tasks</li> 
+     <li>Issues</li> 
+    </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 

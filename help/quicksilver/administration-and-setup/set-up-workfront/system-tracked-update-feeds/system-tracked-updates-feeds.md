@@ -3,7 +3,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
-title: System-tracked updates feeds
+title: System-Tracked Updates Feeds
 description: Adobe Workfront logs the activity taking place on certain objects in their [!UICONTROL Updates] area. A system update includes a brief note describing what kind of change happened to the object. [!DNL Workfront] administrators can define what type of changes the system should track in the [!UICONTROL Updates] section.
 author: Alina
 feature: System Setup and Administration

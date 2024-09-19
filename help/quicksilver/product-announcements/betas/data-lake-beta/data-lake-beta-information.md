@@ -1,17 +1,16 @@
 ---
-navigation-topic: data-lake-beta
-title: Workfront data lake beta information
-description: General information about the Workfront data lake beta
-author: Nolan
-feature: Reports and Dashboards
+title: Workfront Data Connect beta information
+description: General information about the Workfront Data Connect beta
+hide: yes
+hidefromtoc: yes
 recommendations: noDisplay, noCatalog
 exl-id: 2daf7617-5b3e-49f7-b93b-4210b1b2ea49
 ---
-# Workfront data lake beta information
+# Workfront Data Connect beta information
 
-Workfront data lake is a new tool currently in development that provides a dedicated interface for organizations to pull data for use in popular business analyst tools or to store in external data warehouses — without the need for complicated API or Fusion solutions. This page contains information about how you can help us by testing and providing feedback on this tool during our ongoing beta.
+Workfront Data Connect is a new tool currently in development that provides a dedicated interface for organizations to pull data for use in popular business analyst tools or to store in external data warehouses — without the need for complicated API or Fusion solutions. This page contains information about how you can help us by testing and providing feedback on this tool during our ongoing beta.
 
-For information about using the Workfront data lake, see [Workfront data lake overview](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
+For information about using the Workfront Data Connect, see [Workfront Data Connect overview](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
 **Beta schedule:**
 
@@ -24,11 +23,11 @@ For information about using the Workfront data lake, see [Workfront data lake ov
 
 >[!IMPORTANT] 
 >
->You must be a Workfront system administrator to enroll in the Workfront data lake beta.
+>You must be a Workfront system administrator to enroll in the Data Connect beta.
 
 To enroll your organization in the beta, please fill out and submit the form at the following link:
 
-[Workfront data lake beta enrollment](https://adobe.ly/workfrontdatalake)
+[Workfront Data Connect beta enrollment](https://adobe.ly/workfrontdatalake)
 
 ### Provide feedback
 
@@ -42,7 +41,7 @@ Feedback is appreciated as we develop this tool over the course of the beta. Ple
 
 ## Planned features
 
-Below are lists of objects currently supported in the beta, objects we plan on adding support for over the course of the beta, and features included on our future roadmap for Workfront data lake.
+Below are lists of objects currently supported in the beta, objects we plan on adding support for over the course of the beta, and features included on our future roadmap for Data Connect.
 
 ### Objects currently available
 

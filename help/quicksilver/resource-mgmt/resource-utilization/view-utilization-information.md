@@ -1,9 +1,9 @@
 ---
 product-area: resource-management
 navigation-topic: resource-utilization
-title: View resource utilization information
+title: View Resource Utilization Information
 description: You can view the utilization of your resources in the Utilization report.
-author: Alina, Lisa
+author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
 ---

@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: manage-issues
 title: Edit issues
-description: You can edit information on issues that you have created, or that other users have created if they shared the issues with you.
+description: You can edit information on issues that you have created, or that other users have created if they shared the issues with you. This article describes how you can search for, find, and edit an issue, if you have the permissions to do so.
 author: Alina
 feature: Work Management
 topic: Collaboration

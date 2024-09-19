@@ -13,8 +13,9 @@ You can update your work from any of the following [!DNL Adobe Creative Cloud] a
 
 {{cc-app-list}}
 
-
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -44,6 +45,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+
++++
 
 ## Prerequisites
 

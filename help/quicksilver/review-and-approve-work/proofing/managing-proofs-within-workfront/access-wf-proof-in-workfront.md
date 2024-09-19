@@ -10,11 +10,11 @@ exl-id: b4e07f8d-fa68-4c55-85d0-ca84163cbf15
 ---
 # Access Workfront Proof from Adobe Workfront
 
-You can quickly access your Workfront Proof&nbsp;account directly from the Adobe Workfront interface without&nbsp;needing log in to Workfront Proof&nbsp;when the following conditions are met:
+You can quickly access your Workfront Proof account directly from the Adobe Workfront interface without needing log in to Workfront Proof when the following conditions are met:
 
-* Your Workfront environment is integrated with a Workfront Proof&nbsp;Premium account. For more information about what functionality is available only with a Workfront Proof&nbsp;Premium account, see .
+* Your Workfront environment is integrated with a Workfront Proof Premium account. For more information about what functionality is available only with a Workfront Proof Premium account, see .
 
-  You have a Workfront Proof&nbsp;license. (It is not required that you are a Workfront Proof&nbsp;administrator.)
+  You have a Workfront Proof license. (It is not required that you are a Workfront Proof administrator.)
 
 * You have administrative rights in Workfront and proofing is enabled on your Workfront user account.
 
@@ -28,9 +28,9 @@ If you cannot access Workfront Proof&nbsp;as discussed in this section, contact 
 
 ## Access Workfront Proof&nbsp;from Workfront {#access-workfront-proof-from-workfront}
 
-By default, only users with administrative rights within Workfront can access Workfront Proof as described in this section.&nbsp;
+By default, only users with administrative rights within Workfront can access Workfront Proof as described in this section.
 
-1. Click Proofing ![](assets/proofing-main-menu.png) in the Main Menu ![](assets/main-menu-icon.png).
+{{step1-to-proofing}}
 
    You are automatically logged in to your Workfront Proof Premium account.
 

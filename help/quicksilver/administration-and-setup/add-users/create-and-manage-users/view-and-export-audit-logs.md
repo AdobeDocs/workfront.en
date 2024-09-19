@@ -1,10 +1,10 @@
 ---
-title: View and export audit logs
+title: View and Export Audit Logs
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 description: You can view all audit logs in the system, or those that meet certain filtering criteria. You can also export audit logs. Audit logs list user-changes triggered in the system during the past 90 days.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b04e8ba5-c3f2-4838-8df1-35e90de5c7bd
@@ -23,7 +23,9 @@ For information about all the audit log types and what generates them, see [Audi
 
 ## Access requirements
 
-You must have the following to perform the steps in this article:
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -34,15 +36,27 @@ You must have the following to perform the steps in this article:
    <td>Any</td> 
   </tr> 
   <tr> 
+  <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>Plan </p> <p>You must be a Workfront administrator.</p> </td> 
+   <td><p>New: Standard</p>
+       <p>Or</p>
+       <p>Current: Plan</p></td>
+  </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td>[!UICONTROL System Administrator]</td>
   </tr> 
  </tbody> 
 </table>
 
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 ## View audit logs
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left panel, click **System > Audit Logs**.
 1. In the **Log Type** drop-down menu, select the type of audit log you want to view.
@@ -64,7 +78,7 @@ You must have the following to perform the steps in this article:
 
 ## Export audit logs
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).  
+{{step-1-to-setup}}  
 
 1. In the left panel, click **System > Audit Logs**.  
 

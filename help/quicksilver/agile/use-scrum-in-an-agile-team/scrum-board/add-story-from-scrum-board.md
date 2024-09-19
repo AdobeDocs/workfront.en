@@ -1,7 +1,7 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
-title: Add stories and issues from the Scrum board
+title: Add Stories and Issues from the Scrum Board
 description: You can quickly create a new story or issue directly from the Scrum board, or add an existing story or issue from the board.
 author: Lisa
 feature: Agile
@@ -17,36 +17,37 @@ You can quickly create a new story or issue directly from the Scrum board, or ad
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
- <col> 
- <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Work] or higher</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>[!UICONTROL Worker] or higher</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>[!UICONTROL Manage] access to the project the task or issue is on</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>New: [!UICONTROL Standard]</p> 
+   or
+   <p>Current: [!UICONTROL Work] or higher</p> </td> 
+  </tr>
+   <tr> 
+   <td role="rowheader">Object permissions</td> 
+   <td>[!UICONTROL Manage] access to the project the task or issue is on </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Create a new story or issue from the Scrum board
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Teams]**.
+{{step1-to-team}}
+
 1. (Optional) Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
 1. In the left panel, select **[!UICONTROL Iterations]** to choose a specific iteration, or select **[!UICONTROL Current Iteration]**.
 1. Click **[!UICONTROL Add]** on the right side of the Scrum board and select **[!UICONTROL New Story]** or **[!UICONTROL New Issue]**.
@@ -75,7 +76,8 @@ You must have the following access to perform the steps in this article:
 
 ## Add an existing story or issue from the [!UICONTROL Scrum] board
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Teams]**.
+{{step1-to-team}}
+
 1. (Optional) Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
 1. In the left panel, select **[!UICONTROL Iterations]** to choose a specific iteration, or select **[!UICONTROL Current Iteration]**.
 1. Click **[!UICONTROL Add]** on the right side of the Scrum board and select **[!UICONTROL Existing Story]** or **[!UICONTROL Existing Issue]**.

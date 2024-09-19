@@ -4,7 +4,7 @@ product-area: system-administration;user-management;setup
 navigation-topic: security
 title: Configure password policies for authentication
 description: As an Adobe Workfront administrator, you can configure password policy options to customize the authentication experience to your Workfront system.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 7832986b-a5e8-4f14-8802-d3b8e32b14bc
@@ -20,6 +20,8 @@ We recommend that you configure authentication preferences during the Workfront 
 Improved password management capabilities are coming soon or might already be available for your organization. Use either of the following sections, depending on whether your organization has access to the new authentication experience.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article: 
 
@@ -42,13 +44,15 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
++++
+
 ## Configure authentication (available for all customers) {#configure-authentication-available-for-all-customers}
 
 Authentication options are displayed for all customers. Improved password management capabilities are coming soon or might already be available for your organization, as described in the section [Configure enhanced authentication)](#configure-enhanced-authentication-coming-soon) in this article.
 
 To configure authentication preferences:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **System** > **Authentication**.
 
@@ -91,7 +95,7 @@ This section describes the enhanced authentication experience, which might not y
 
 To configure enhanced authentication preferences:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **System** > **Enhanced Authentication**.
 1. In the **Password Length** box, enter the minimum number of characters required for a valid password.

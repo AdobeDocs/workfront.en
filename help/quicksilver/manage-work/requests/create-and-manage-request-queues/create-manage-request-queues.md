@@ -2,9 +2,9 @@
 content-type: reference
 product-area: requests
 navigation-topic: requests-navigation-topic
-title: Create and manage Request Queues
+title: Create and Manage Request Queues
 description: You can create request queues in Adobe Workfront to capture unplanned work in your organization. The following articles describe how you can configure projects to function as request queues. 
-author: Alina
+author: Lisa
 feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin

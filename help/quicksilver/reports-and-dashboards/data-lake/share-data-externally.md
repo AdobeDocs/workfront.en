@@ -1,7 +1,7 @@
 ---
 content-type: overview;reference
 product-area: reports and dashboards
-navigation-topic: data lake
+navigation-topic: data connect
 title: Establish a connection to Workfront data lake
 description: Workfront data lake allows you to use your organization's Workfront data with popular business intelligence tools or store it in an external data warehouse.
 author: Nolan
@@ -9,11 +9,11 @@ feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
 ---
-# Establish a connection to Workfront data lake
+# Establish a connection to Workfront Data Connect
 
-Workfront data lake allows you to use your organization's Workfront data with business intelligence tools or store it in an external data warehouse.
+Workfront Data Connect allows you to use your organization's Workfront data with business intelligence tools or store it in an external data warehouse.
 
-In order connect your Workfront data lake data with an external product, you must first add any required IPs to the allowlist as described in [Add IPs to the allowlist](#add-ips-to-the-allowlist) below. Additionally, most products will require additional information about your data lake to establish a connection:
+In order connect your Data Connect data lake with an external product, you must first add any required IPs to the allowlist as described in [Add IPs to the allowlist](#add-ips-to-the-allowlist) below. Additionally, most products will require additional information about your data lake to establish a connection:
 
 | Field name    | Value       |
 |---------------|-------------|
@@ -26,14 +26,13 @@ In order connect your Workfront data lake data with an external product, you mus
 | Username  | The username chosen when creating the connection (found on the **Data access** page in Workfront*) |
 | Password  | The password chosen upon first Snowflake login* |
 
-*For information on where to find the **Data access** page containing your data lake connections, see [Create a reader (service) account for Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).
+*For information on where to find the **Data access** page containing your Data Connect connections, see [Create a reader (service) account for Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).
 
 >[!IMPORTANT]
 >
 >Once one entry is added to the IP allowlist, all other IP addresses are no longer permitted. Ensure you have input all required IP addresses—for both the building and reading experiences of your visualization tool—before attempting to use the tool. If not, you may encounter an error regarding invalid credentials.
 >
 >If you don't have any IP addresses included in your allowlist but are still having trouble connecting to a BI tool, check the proxy server configuration for the BI tool.
-
 
 ## Add IPs to the allowlist
 

@@ -8,9 +8,11 @@ author: Lisa
 feature: People Teams and Groups
 exl-id: dc9accf0-7ef4-4555-9b1c-d69b2110f3da
 ---
-# Username Already in Use
+# Username already in use
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -18,20 +20,27 @@ You must have the following access to perform the steps in this article:
  <col> 
  <col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
-   <td> <p>Any</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront plan</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license</strong></td> 
-   <td> <p>[!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>
+   <p>New: Standard</p>
+   <p>or</p>
+   <p>Current: Plan</p></td>
   </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Access level configurations</strong></td> 
-   <td> <p>[!UICONTROL System administrator]</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>System administrator</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Question
 
@@ -51,7 +60,8 @@ This can occur either because the username or email address is not unique in the
 
 Ensure that the username and email address is unique in the current [!DNL Workfront] instance:
 
-1. As the [!DNL Workfront] administrator, click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Users]**.
+{{step-1-to-users}}
+
 1. In the list of people, look in the **[!UICONTROL Email]** column to ensure there are no duplicate emails.
 1. Add a column for username to the view.
 

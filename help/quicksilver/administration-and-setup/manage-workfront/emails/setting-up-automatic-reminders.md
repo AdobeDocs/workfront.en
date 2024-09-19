@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: Set up automatic reminders
-description: Set up automatic reminders
+title: Set Up Automatic Reminders
+description: You can set up automatic reminders to trigger email notifications when all tasks or issues are due, late, or near the planned completion date.
 author: Nolan
 feature: System Setup and Administration
 role: Admin
@@ -29,6 +29,8 @@ An automatic reminder can be sent to one or more of the following:
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -50,11 +52,13 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
++++
+
 ## Set up automatic reminders
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
-1. Click **Email** >**Automatic Reminders**.
+1. Click **Email** > **Automatic Reminders**.
 
 1. In the **Send a late notification to** area, select any of the following options:
 
@@ -79,7 +83,7 @@ You must have the following access to perform the steps in this article:
         <td>(In the <b>Send deadline reminder to</b> area.) Select this option if you want the user assigned to a task or an issue to receive a notification about their work item approaching the due date.</td>
         <td></td>
     </tr>
-</table>
+   </table>
 
 1. Select the time for the automatic reminder to send by selecting the amount of time before or after the due date of the work item.
 

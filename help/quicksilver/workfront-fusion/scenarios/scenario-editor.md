@@ -12,7 +12,7 @@ exl-id: 4377303d-7615-41eb-b0cc-4bf884899361
 
 The scenario editor allows you to create and edit scenarios in a visual interface.
 
-![](assets/scenario-editor-350x228.jpg)
+![](assets/scenario-editor.jpg)
 
 ## Access requirements
 

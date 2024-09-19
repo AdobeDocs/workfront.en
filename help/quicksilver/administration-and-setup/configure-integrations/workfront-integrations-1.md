@@ -1,5 +1,5 @@
 ---
-title: Adobe Workfront integrations
+title: Adobe Workfront Integrations
 user-type: administrator
 content-type: reference;overview
 product-area: system-administration;workfront-integrations
@@ -95,6 +95,18 @@ We understand that the available built-in (native) integrations might not meet a
      <p>For information and instructions, see <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Install the  [!DNL Adobe Workfront] plugin for [!DNL Creative Cloud] Applications</a></p> 
      </td>  <td>&nbsp;</td> 
    <td>&nbsp;</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Adobe Experience Manager Assets and Assets Essentials </p>  </p> </td> 
+   <td> 
+    <ul> 
+     <li>Automatically create folders linked between Workfront and Adobe Experience Manager 
+      <li>Sync metadata for existing linked assets</p></li>
+      <li>Automatically update portfolio, program, project, task, issue, and documents metatada when it's change in Workfront.</li>
+      <li>Smoothly connect several Experience Manager Assets repositories to one Workfront environment, or several Workfront environments to one Experience Manager Assets repository across Organization IDs</li></ul>
+     <p>For information and instructions, see <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Overview of Adobe Experience Manager Assets integrations</a></p> 
+     </td>
+   <td><ul><li>Workfront must be in an Admin Console with an assigned Organization ID.</li><li>Workfront and Experience Manger Assets or Assets Essentials must be assigned as a product to the user configuring the integration.</li></ul></td>   <td>&nbsp;</td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Box]</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
@@ -300,9 +312,9 @@ The integration between Workfront and Experience Manager Assets or Assets Essent
 
 [!DNL Workfront] has many partner integrations  enrich your [!DNL Workfront] experience.
 
-Examples of existing partner offerings include integrations with [!DNL Salesforce.com], [!DNL Oracle Responsys], and [!DNL Microsoft Visual Studio]. 
+Workfront has many partner integrations that enrich your Workfront experience. Examples of existing partner offerings include integrations with Claravine, RWS Group, and more. 
 
-For more information about these and other partner integrations, see the [[!DNL Workfront] Marketplace](https://www.workfront.com/enterprise/marketplace/apps/).
+For more information about these and other partner integrations, see the [Exchange Marketplace](https://exchange.adobe.com/apps/browse/ec?page=1&partnerLevel=All&product=WRKFRNT&sort=RELEVANCE).
 
 ## [!DNL Workfront] API
 

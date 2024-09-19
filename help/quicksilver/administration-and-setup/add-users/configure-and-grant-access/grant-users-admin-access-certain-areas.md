@@ -1,7 +1,7 @@
 ---
-title: Grant users administrative access to certain areas
+title: Grant Users Administrative Access to Certain Areas
 description: As an Adobe Workfront administrator, you can use an access level to grant users with a Plan license administrative access to certain areas of the system.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 9d12895d-cf7f-41c6-a2ac-bb731770c187
@@ -17,6 +17,8 @@ As an Adobe Workfront administrator, you can use an access level to grant users 
 >This is different from giving a user full administrative access to Workfront, which is explained in [Grant a user full administrative access](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).​
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article: 
 
@@ -39,13 +41,15 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
++++
+
 ## Grant Plan users administrative access to certain areas of Workfront
 
 >[!IMPORTANT]
 >
 >We strongly recommend that you leave the built-in access levels unchanged so that you can refer to them after you set up your users. To customize an access level, copy the default access level and modify the copy. (You can do this for every access level except for System Administrator and External User.)
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the left panel, click **Access Levels**.
 1. Click the name of the access level you want to use to grant users administrative access to certain areas of Workfront.

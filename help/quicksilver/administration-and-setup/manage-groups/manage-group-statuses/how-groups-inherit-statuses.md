@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: How groups inherit statuses
+title: How Groups Inherit Statuses
 description: When you list the statuses available for a group, you see the following
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 3937fd72-fa54-4777-9ec4-1f097df7a2ee

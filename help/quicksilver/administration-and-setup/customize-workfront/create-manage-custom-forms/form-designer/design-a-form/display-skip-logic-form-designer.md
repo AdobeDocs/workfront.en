@@ -1,5 +1,5 @@
 ---
-title: Add display logic and skip logic to a form
+title: Add Display Logic and Skip Logic to a Form
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -18,6 +18,8 @@ You can decide which sections of a custom form should be displayed or skipped ba
 >Logic only applies within one form and can't be based on selections from a different form.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -44,6 +46,8 @@ You must have the following to perform the steps in this article:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Display and skip logic icons
 

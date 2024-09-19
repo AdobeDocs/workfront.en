@@ -13,6 +13,8 @@ You can print a proof summary, save it as a PDF, or export it as an XLS file or 
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -40,13 +42,16 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, role, or Proof Permission Profile you have, contact your Workfront or Workfront Proof administrator.
 
++++
+
 ## Print a proof summary or save it as a PDF file
 
 You can print a proof summary directly from the document list.
 
 >[!NOTE]
 >
->You cannot print multiple proof summaries from the document list at the same time.
+>* Summaries larger than 1 GB are not supported.
+>* You cannot print multiple proof summaries from the document list at the same time.
 
 1. From the document list that contains the proof, hover over the row containing the document, then click **Print Summary**.
 

@@ -24,6 +24,12 @@ These templates automate Workfront processes and workflows.
 
 This Fusion Template creates a standard checklist for all cards that enter a specific column on a specific board on a timed basis.
 
+### [!BADGE New! ]{type=Informative} Workfront > Workfront Boards - Create a board off a custom configuration
+
+<!--new Aug 1. 2024-->
+
+This scenario is triggered by a new project being created. With this scenario, you can create a board named after the project, rename or creates columns based on your needs, create custom tags, and associate an intake column filter with the originating project.  Thousands of additional changes could be made, but starting here will allow you to see the possibilities in creating a starting point for your organization's board standardization.
+
 ### Workfront - Project Creation from CSV
 
 This automation creates new projects in Workfront based off Name, Portfolio, Status, Planned Start Date, and Template details that you specify in a CSV.

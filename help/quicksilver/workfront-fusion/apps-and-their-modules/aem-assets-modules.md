@@ -64,6 +64,9 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 * You must set up [!UICONTROL Server-to-server] flow in the [!DNL Adobe Developer console].
 
    For instructions on setting up [!UICONTROL Server-to-server] flow in the [!DNL Adobe Developer console], see [Generating Access Tokens for Server Side APIs](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
+* Your Adobe Experience Manager technical account must have write permissions.
+
+   For instructions on adding write permissions to your Adobe Experience Manager technical account, see [Service credentials](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials) in the Adobe Experience Manager documentation.
 
 ## Connect [!DNL Adobe Experience Manager Assets] to [!DNL Workfront Fusion] {#connect-adobe-experience-manager-assets-to-workfront-fusion}
 
@@ -94,9 +97,13 @@ To create a connection for your [!DNL Adobe Experience Manager Assets] modules:
 
 >[!NOTE]
 >
->The information for these fields is generated as part of setting up [!UICONTROL Server-to-server] flow on the [!DNL Adobe Developer Console]. You can find these values in the service credentials JSON file generated as part of that setup.
+>* The information for these fields is generated as part of setting up [!UICONTROL Server-to-server] flow on the [!DNL Adobe Developer Console]. You can find these values in the service credentials JSON file generated as part of that setup.
 >
->For instructions on setting up [!UICONTROL Server-to-server] flow on the [!UICONTROL Adobe Developer Console], see [Generating Access Tokens for Server Side APIs](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
+>   For instructions on setting up [!UICONTROL Server-to-server] flow on the [!UICONTROL Adobe Developer Console], see [Generating Access Tokens for Server Side APIs](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
+>
+>* Your Adobe Experience Manager technical account must have write permissions.
+>
+>   For instructions on adding write permissions to your Adobe Experience Manager technical account, see [Service credentials](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials) in the Adobe Experience Manager documentation.
 
 
 <table style="table-layout:auto"> 
@@ -177,9 +184,18 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
+* [Copy a folder or asset](#copy-a-folder-or-asset)
+* [Create a record](#create-a-record)
+* [Delete a folder, asset, or rendition](#delete-a-folder-asset-or-rendition)
+* [Get a folder listing](#get-a-folder-listing)
+* [Make a custom API call](#make-a-custom-api-call)
+* [Move a folder or asset](#move-a-folder-or-asset)
+* [Update a record](#update-a-record)
+* [Upload an asset](#upload-an-asset)
+
 ### [!UICONTROL Copy a folder or asset]
 
-This action module copies a folder or asset to another location in your Adobe Experience Manager Assetsaccount.
+This action module copies a folder or asset to another location in your Adobe Experience Manager Assets account.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -247,7 +263,7 @@ This action module creates a folder or an asset comment.
  </tbody> 
 </table>
 
-### [!UICONTROL Delete a record]
+### [!UICONTROL Delete a folder, asset, or rendition]
 
 This action module deletes a folder, asset, or rendition.
 

@@ -1,7 +1,7 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-agile-in-workfront
-title: Create an agile team
+title: Create an Agile Team
 description: Adobe Workfront enables agile teams to complete work in an incremental, organized way.
 author: Lisa
 feature: Agile
@@ -34,11 +34,11 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
    <td> <p>New: Standard</p>
    Current: 
    <ul><li><p>[!UICONTROL Plan] to create a new agile team</p></li> 
@@ -47,7 +47,7 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,13 +65,13 @@ The [!DNL Kanban] agile methodology in [!DNL Workfront] enables you to more easi
 
 The following functionality supports this methodology:
 
-* Display the backlog on the [!DNL Kanban] agile story board.\
+* Display the backlog on the [!DNL Kanban] agile story board.
    For more information, see [Add the backlog to the [!UICONTROL Kanban] board](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md).
 
-* Configure items on the backlog to be automatically added to the [!UICONTROL Kanban] agile story board when other items are moved to a status that equates with Complete.\
+* Configure items on the backlog to be automatically added to the [!UICONTROL Kanban] agile story board when other items are moved to a status that equates with Complete.
    For more information, see the section [Configure stories to be automatically added from the backlog](../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur5) in the article [Configure Kanban](../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
-* Configure a Work In Progress (WIP) limit to be displayed on the [!UICONTROL Kanban] agile story board.\
+* Configure a Work In Progress (WIP) limit to be displayed on the [!UICONTROL Kanban] agile story board.
    For more information, see [Manage the work in progress (WIP) limit on the Kanban board](../../agile/use-kanban-in-an-agile-team/work-in-progress-limit-on-the-kanban-board.md).
 
 ### Benefits of using Scrum in [!DNL Workfront]
@@ -83,7 +83,7 @@ The following functionality supports this methodology:
 * Include issues on the [!UICONTROL Scrum] story board
 * Include issues on the backlog of an agile team
 * Subtasks can be displayed on the [!UICONTROL Scrum] story board
-* View a burndown chart to see progress against stories during the iteration\
+* View a burndown chart to see progress against stories during the iteration
    For more information, see [Agile burndown chart overview](../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md).
 
 ## Create an agile team
@@ -144,19 +144,21 @@ The following functionality supports this methodology:
 
 You can convert an existing team to be an agile team:
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Teams]**.
+{{step1-to-team}}
+
 1. Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new team from the drop-down menu or search for a team in the search bar.
 
 1. Select the team that you want to convert to an agile team.
-1. Click the **[!UICONTROL More]** menu, then select **[!UICONTROL Edit]**.\
-   Only team members with either a [!UICONTROL Plan] or [!UICONTROL Work] license see this option.\
+1. Click the **[!UICONTROL More]** menu, then select **[!UICONTROL Edit]**.
+
+   Only team members with a [!UICONTROL Standard], [!UICONTROL Plan], or [!UICONTROL Work] license see this option.
    ![](assets/edit-team-settings-350x205.png)
 
 1. In the **[!UICONTROL Agile]** section, select **[!UICONTROL This is an Agile Team]**.
 
 1. In the **[!UICONTROL Methodology]** section, select whether the team will be using a **[!UICONTROL Scrum]** or **[!UICONTROL Kanban]** agile methodology.
 
-1. Click **Save Changes.**
+1. Click **Save Changes**.
 
    The team is saved as an Agile team. You can configure the new team as a Scrum or a Kanban team when you edit the team. 
 

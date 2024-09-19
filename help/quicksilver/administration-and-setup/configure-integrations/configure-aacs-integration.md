@@ -1,7 +1,7 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Configure the [!UICONTROL Experience Manager Assets as a Cloud Service] integration
+title: Configure the [!UICONTROL Experience Manager Assets as a Cloud Service] Integration
 description: You can connect your work with your content in [!DNL Experience Manager Assets].
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
@@ -14,7 +14,7 @@ exl-id: bc58cc77-a177-417f-a5a4-eec51e305219
 
 >[!IMPORTANT]
 >
->This functionality is available only to organization that have been onboarded to the [!DNL Adobe Admin Console].
+>This functionality is available only to organizations that have been onboarded to the [!DNL Adobe Admin Console].
 
 You can connect your work with your content in [!DNL Experience Manager Assets]â€‹:
 
@@ -33,36 +33,35 @@ You can connect your work with your content in [!DNL Experience Manager Assets]â
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following:
+You must have the following access to perform the steps in this article:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] plan</strong>
+   <td>[!DNL Adobe Workfront] plan
    </td>
    <td>Any
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] licenses</strong>
+   <td>[!DNL Adobe Workfront] license
    </td>
-   <td>Current: [!UICONTROL Plan] <br>
-   New: [!UICONTROL Standard]
-   </td>
+   <td><p>Current: [!UICONTROL Plan]</p>
+   <p>New: [!UICONTROL Standard]</p></td>
   </tr>
   <tr>
-   <td><strong>[!DNL Experience Manager] license</strong>
+   <td>[!DNL Experience Manager] license
    </td>
    <td>[!UICONTROL Standard]
    </td>
   </tr>
   <tr>
-   <td><strong>Product</strong>
+   <td>Product
    </td>
    <td>You must have [!DNL Experience Manager Assets as a Cloud Service], and you must be added to the product as a user.
    </td>
   </tr>
   <tr>
-   <td>Access level configurations*
+   <td>Access level configurations
    </td>
    <td>You must be a [!DNL Workfront] administrator.
    </td>
@@ -72,7 +71,6 @@ You must have the following:
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
 
 ## Prerequisites
 

@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: get-started-with-workfront
-title: Browser requirements for Workfront
+title: Browser Requirements for Workfront
 description: The information in this article has moved. Please see Adobe Workfront browser requirements.
 author: Caroline
 feature: System Setup and Administration

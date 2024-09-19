@@ -8,7 +8,7 @@ author: Becky
 feature: Workfront Fusion
 exl-id: cd00008a-833c-46dd-a82d-22f27809493e
 ---
-# Create practice scenarios in [!DNL Adobe Workfront Fusion]
+# Create practice scenarios in [!DNL Adobe Workfront Fusion]: article index
 
 This section contains the following articles:
 

@@ -2,7 +2,7 @@
 content-type: reference
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: Kanban in an agile team
+title: Kanban in an Agile Team
 description: Review these articles to learn more about using Kanban in an agile team.
 author: Lisa
 feature: Agile

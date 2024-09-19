@@ -19,7 +19,7 @@ The 23.3 release webinar was on June 29, 2023. You can [register for the webinar
 >The 23.3 release includes the option to move your organization to monthly releases. Therefore, Workfront is changing the numbering scheme of releases to account for both monthly and quarterly release tracks.
 >
 >* If you are on the **fast release (monthly)** track, the release after 23.3 will be **23.8**, on August 31, 2023. 
-> * If you are on the **quarterly** release track, the release after 23.3 will be **23.10**, in the week of October 26, 2023.
+>* If you are on the **quarterly** release track, the release after 23.3 will be **23.10**, in the week of October 26, 2023.
 > 
 > Quarterly releases will include functionality from three monthly releases. For example, the 23.10 quarterly release will include functionality released in the 23.8, 23.9, and 23.10 monthly releases.
 >

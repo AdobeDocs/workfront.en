@@ -1,5 +1,5 @@
 ---
-title: "Manage custom forms and fields: article index"
+title: "Manage Custom Forms and Fields: Article Index"
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms

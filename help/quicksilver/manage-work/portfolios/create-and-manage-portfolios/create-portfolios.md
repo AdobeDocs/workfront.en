@@ -25,8 +25,7 @@ You can use Portfolios to group projects that belong to the same product lines, 
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>New: Any</p>
-   <p>Current:[!UICONTROL Business] or higher</p> </td> 
+   <td> <p>Any</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
@@ -47,6 +46,27 @@ You can use Portfolios to group projects that belong to the same product lines, 
 *For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
+
+## Ways to create portfolios
+
+You can create a portfolios in Workfront using one of the following methods:
+
+* Create a portfolio from scratch starting in the Portfolios area of the Main Menu. This article describes how you can create a portfolio from scratch. 
+
+* Import a portfolio using kick-starts.
+
+   As a Workfront administrator, you can import portfolios using a kick-start.
+
+   For information about importing data using kick-starts in Workfront, see [Import data into Adobe Workfront using a Kick-Start template](/help/quicksilver/administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+
+* Add portfolios as you connect them from a record type in Workfront Planning. 
+
+   You must have a new Workfront license and an additional Workfront Planning license for Workfront Planning.
+
+   For information about access to Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md).
+
+   For information about creating portfolios by adding them to records, see the section "Create records as you connect them" in the article [Create records](/help/quicksilver/planning/records/create-records.md). 
+
 
 ## Create a portfolio
 

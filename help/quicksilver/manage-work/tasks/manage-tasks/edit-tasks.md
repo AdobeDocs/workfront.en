@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: manage-tasks
-title: Edit tasks
-description: You can edit information on tasks that you have created, or that you have Contribute or Manage permissions to.
+title: Edit Tasks
+description: You can edit information on tasks that you have created, or that you have Contribute or Manage permissions to. This article describes how you can search for, find, and edit a task, if you have the permissions to do so.
 author: Alina
 feature: Work Management, Tasks
 role: User

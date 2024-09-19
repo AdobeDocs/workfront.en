@@ -1,12 +1,12 @@
 ---
-title: Primary field overview
+title: Primary Field Overview
 description: In the table view of a record type in Adobe Workfront Planning, you can designate a single-line text, number, or formula field as the primary field. The primary field becomes the title of the records of that type.
-hidefromtoc: yes
-hide: yes
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: fe3127ab-3f59-46a0-a747-9e9e1582265b
 ---
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 # Primary field overview
 

@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: Locked and unlocked group statuses
-description: Locking a group's custom statuses is a way to ensure that people in the group and its subgroups are using the same processes in their flow of work. When a group status is locked, it's available to all users in the group and in lower groups. Though you (or a Workfront administrator) can edit or delete a status that you lock, administrators of subgroups below can't do so for those groups. Conversely, unlocking a group's custom statuses allows administrators of lower subgroups more flexibility to manage their workflows. They can change the attributes of an unlocked status or delete it for their groups.
-author: Caroline
+title: Locked and Unlocked Group Statuses
+description: Locking a group's custom statuses is a way to ensure that people in the group and its subgroups are using the same processes in their flow of work. When a group status is locked, it's available to all users in the group and in lower groups.
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 3463e4cb-7336-49b7-b81a-c2acef72f61d

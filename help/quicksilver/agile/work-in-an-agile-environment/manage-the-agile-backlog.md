@@ -1,7 +1,7 @@
 ---
 product-area: agile-and-teams
 navigation-topic: work-in-an-agile-environment
-title: Manage the agile backlog
+title: Manage the Agile Backlog
 description: Tasks and issues can be assigned to an agile team and added to that team's backlog as stories, depending on the agile methodology the team is using.
 author: Lisa
 feature: Agile
@@ -33,20 +33,18 @@ You must have the following access to perform the steps in this article:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license</strong></td> 
-   <td> <p>New: [!UICONTROL Standard]</p><p>Or</p><p>Current: [!UICONTROL Work] or higher</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>New: [!UICONTROL Standard]</p> 
+   or
+   <p>Current: [!UICONTROL Work] or higher</p> </td> 
+  </tr>
   <tr> 
-   <td role="rowheader"><strong>Access level configurations</strong></td> 
-   <td> <p>New: [!UICONTROL Standard]</p><p>Or</p><p>Current: [!UICONTROL Worker] or higher</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>[!UICONTROL Manage] access to the project the story is on</p>  </td> 
+   <td role="rowheader">Object permissions</td> 
+   <td>[!UICONTROL Manage] access to the project the story is on </td> 
   </tr> 
  </tbody> 
 </table>
@@ -72,7 +70,7 @@ You can reorder stories in the backlog list by using the drag-and-drop method.
    >
    >If a task or issue has an agile team assigned and the project is not in a status that equates with Current, they do not display on the backlog. However, they do still affect the backlog count in the Order column.
 
-1. Select one or more stories, then drag the stories to the order where you want them to appear in the backlog.\
+1. Select one or more stories, then drag the stories to the order where you want them to appear in the backlog.
    ![Drag and drop backlog items](assets/agile-backlog-drag-and-drop.png)
 
 ### Break down stories {#break-down-stories}
@@ -90,8 +88,8 @@ Because stories in a backlog vary in size, users can break them down into workab
 To break down a story:
 
 1. Go to the backlog that contains the story you want to break down.
-1. Select the story you want to break down, then click **[!UICONTROL Breakdown Story]**.\
-   The [!UICONTROL Breakdown Story] dialog box is displayed.\
+1. Select the story you want to break down, then click **[!UICONTROL Breakdown Story]**.
+   The [!UICONTROL Breakdown Story] dialog box is displayed.
    ![Breakdown Story dialog](assets/backlog-breakdown-dialog.png)
 
 1. Specify a name and estimate for the story, and select whether the story is ready.
@@ -173,19 +171,17 @@ You can assign a task or issue to an agile team. After it is assigned, the task 
 
 To assign a task or issue to an agile team:
 
-1. Go to the Project that contains the task that you want to assign.
+1. Go to the project that contains the task that you want to assign.
 1. Select the task or issue in the list.
 1. Click **[!UICONTROL Edit]**.
 1. Click **[!UICONTROL Assignments]**.
 1. (Optional) Delete any existing assignees.
 1. Click **[!UICONTROL Add Assignee]**.
 1. Begin typing the name of the agile team you want to be assigned to the task or issue, then click the team name when it appears in the drop-down list.
-1. Click **[!UICONTROL Save Changes]**.\
+1. Click **[!UICONTROL Save Changes]**.
    The task or issue is now available on the team backlog.
 
-## Move stories into or out ofthe backlog
-
- {#move-stories-from-the-backlog-to-an-iteration-or-kanban-board}
+## Move stories into or out of the backlog
 
 * [Move stories from the backlog to an iteration or + board](#move-stories-from-the-backlog-to-an-iteration-or--board)
 * [Move existing stories to the backlog](#move-existing-stories-to-the-backlog)
@@ -194,9 +190,9 @@ To assign a task or issue to an agile team:
 ### Move stories from the backlog to an iteration or + board
 
 1. Go to the backlog of the agile team.
-1. Select the stories you want to move to an iteration or Kanban board, then click **[!UICONTROL More]** > **[!UICONTROL Move to]**.\
-   If moving the story to a [!UICONTROL Kanban] board, the [!UICONTROL Move Story to the Kanban] Board is displayed.\
-   If moving the story to an iteration, the [!UICONTROL Move Story to an Iteration] dialog box is displayed.\
+1. Select the stories you want to move to an iteration or Kanban board, then click **[!UICONTROL More]** > **[!UICONTROL Move to]**.
+   If moving the story to a [!UICONTROL Kanban] board, the [!UICONTROL Move Story to the Kanban] Board is displayed.
+   If moving the story to an iteration, the [!UICONTROL Move Story to an Iteration] dialog box is displayed.
    ![Move Story dialog](assets/agile-backlog-addtoiteration.png)
 
 1. Do either of the following:

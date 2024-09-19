@@ -1,7 +1,7 @@
 ---
-title: Grant a user full administrative access
+title: Grant a User Full Administrative Access
 description: You can grant users full administrative access to Workfront.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 46bcb65a-1cb7-443b-88ba-6d0e516e3050
@@ -28,6 +28,8 @@ As an Adobe Workfront administrator, you can create another Workfront administra
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
@@ -49,9 +51,11 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
++++
+
 ## Grant full System Administrator access to a single user
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png).   
+{{step-1-to-users}} 
 
 1. Click the name of the user to whom you want to grant administrator rights.
 1. Click the More menu ![](assets/more-icon.png), then click **Edit**.  

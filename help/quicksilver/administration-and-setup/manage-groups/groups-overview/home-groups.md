@@ -1,10 +1,10 @@
 ---
-title: Home Groups overview
+title: Home Groups Overview
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: groups-overview
-description: A Home Group is assigned in the user's profile. All users are required to have a Home Group. A user can belong to more than one group, but they can have only one Home Group. Although any existing group in the system can be assigned as a user's Home Group, we recommend creating and assigning new groups that represent larger organizational units. When establishing Home Groups, consider how your organization divides your Adobe Workfront users.
-author: Caroline
+description: A Home Group is assigned in the user's profile. All users are required to have a Home Group.
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 89adb9ea-bfde-4c0d-9fec-b1f97e925340

@@ -91,6 +91,11 @@ The following table lists the fields available for event subscription resources:
    <td> </td> 
    <td> </td> 
    <td> opTaskID </td> 
+  </tr>
+  <tr> 
+   <td> </td> 
+   <td> </td> 
+   <td> parameterValues </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -316,7 +321,7 @@ The following table lists the fields available for event subscription resources:
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>groups</td> 
+   <td>groups<p><b>NOTE</b>: This field is not filterable.</p></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1846,7 +1851,7 @@ The following table lists the fields available for event subscription resources:
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>data</td> 
+   <td>data<p><b>NOTE</b>: This field is not filterable.</p></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1896,7 +1901,7 @@ The following table lists the fields available for event subscription resources:
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>data</td> 
+   <td>data<p><b>NOTE</b>: This field is not filterable.</p></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1916,7 +1921,7 @@ The following table lists the fields available for event subscription resources:
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>fields</td> 
+   <td>fields<p><b>NOTE</b>: This field is not filterable.</p></td> 
   </tr> 
   <tr> 
    <td> </td> 

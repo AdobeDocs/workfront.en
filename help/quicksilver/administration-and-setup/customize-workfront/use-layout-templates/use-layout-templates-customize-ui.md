@@ -1,5 +1,5 @@
 ---
-title: Layout templates
+title: Layout Templates
 user-type: administrator
 content-type: reference
 product-area: system-administration;templates
@@ -29,7 +29,7 @@ This section contains the following articles:
 * [Customize Filters, Views, and Groupings using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) 
 * [Customize user interface terminology using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md) 
 * [Customize the landing page using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md) 
-* [Testing a new layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md) 
+* [Test a new layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/test-a-layout-template.md) 
 * [Grant administrative access for a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/grant-admin-access-layout-template.md) 
 * [Assign users to a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md) 
 * [Copy a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/copy-a-layout-template.md)

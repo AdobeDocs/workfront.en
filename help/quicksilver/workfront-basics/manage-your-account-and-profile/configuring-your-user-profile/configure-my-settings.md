@@ -333,7 +333,8 @@ You can change any of the following in this sub-section:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Email Locale]</strong> </td> 
-   <td>Specify your preferred language here. This controls the language, date, and number format used in outgoing email messages.</td> 
+   <td><p>Specify your preferred language here. This controls the language, date, and number format used in outgoing email messages.</p>
+   <p><strong>NOTE:</strong> When your organization is on the Adobe Unified Experience, language preferences are stored in your Adobe profile and the email locale is not used. For more information, see <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md#change-the-adobe-experience-cloud-language">Change the Adobe Experience Cloud language</a> in the article <a href="/help/quicksilver/workfront-basics/supported-languages-in-workfront.md">Supported languages in Adobe Workfront</a>.</p></td> 
   </tr> 
   
   <tr> 

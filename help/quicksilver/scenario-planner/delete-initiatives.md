@@ -21,8 +21,10 @@ You can delete initiatives on a plan that you created or on a plan that someone 
  <tbody> 
   <tr> 
    <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
-   <td> <p>Current: [!UICONTROL Business] or higher</p>
-   <p>New: Ultimate </p>
+   <td> <ul></li>
+   <li><p>New: Ultimate </p></li>
+   <p>The Scenario Planner is not available for the new Workfront Select or Workfront Prime plans. </p>
+   <li><p>Current: [!UICONTROL Business] or higher</p></ul>
    </td> 
   </tr> 
   <tr> 
@@ -32,9 +34,11 @@ You can delete initiatives on a plan that you created or on a plan that someone 
   </tr> 
   <tr> 
    <td>Product* </td> 
-   <td> 
-   <p>For the current Workfront plans: </p>
-   <p>You must purchase an additional license for the [!DNL Adobe Workfront Scenario Planner] to access functionality described in this article.</p> <p>For information about access and permissions for the [!DNL Workfront Scenario Planner], see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
+   <td> <ul><li><p>For the new Workfront plans:</p><p> Adobe Workfront</li></p>
+   <li><p>For the current Workfront plans: </p>
+   <p>Adobe Workfront</p> <p>Adobe Workfront Scenario Planner</p></li></ul>
+   
+   <p>For more information, see <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Access needed to use the [!DNL Scenario Planner]</a>. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Access level </td> 
@@ -90,9 +94,9 @@ You can delete one initiative at a time, or you can delete multiple initiatives 
 
 ### Delete initiatives in bulk {#delete-initiatives-in-bulk}
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png), then click [!UICONTROL Scenarios].
+{{step1-to-scenario-planner}}
 
-   A list of plans displays. 
+  A list of plans displays. 
 
 1. Click the name of a plan to open it, then locate the initiative you want to delete.
 1. Select the boxes to the left of the initiatives that you want to delete, then click **[!UICONTROL Delete]** from the menu that appears at the bottom of the plan, then click **[!UICONTROL Yes, delete them]**.

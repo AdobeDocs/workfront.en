@@ -3,9 +3,9 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
-title: Actions to take after installing a blueprint
+title: Actions to Take after Installing a Blueprint
 description: This article outlines what you should do after you install a blueprint in [!DNL Adobe Workfront] to fully deploy the blueprint to your system users.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 6e5da58f-105a-4edf-8fc1-65e8762d43c6

@@ -1,5 +1,5 @@
 ---
-title: Configure the [!DNL SharePoint] integration
+title: Configure the [!DNL SharePoint] Integration
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
