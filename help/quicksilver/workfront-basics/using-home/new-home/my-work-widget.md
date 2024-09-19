@@ -79,7 +79,7 @@ You can fine-tune the My Work filters to focus on specific items in your list of
        <ul>
       <li>Incomplete predecessors or task constraints that prevent the item from being worked on</li>
       or
-      <li>Planned start dates more than two weeks in the future</li>
+      <li>The Planned Start Date more than two weeks in the future</li>
       </ul>
        </td>
     </tr>
