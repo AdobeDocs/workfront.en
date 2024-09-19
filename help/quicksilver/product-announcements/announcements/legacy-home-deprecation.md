@@ -74,6 +74,10 @@ Nearly, with the exception of:
 * Displaying time stamps for object due dates is not currently available.
 
 * Displaying the commit date within the update feed is not currently available. However, there is an available workaround: display the commit date in the header through layout template customization.
+* Approvals I've Submitted is not currently supported in New Home. If you need this functionality, please upvote or post a comment here in the following Community posts:
+    * [Add "Approvals I Submitted" Widget to New Home](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
+    * [Add "Approvals I've Submitted" to the new Home](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
+
 +++
 
 +++How do I regulate which widgets users have access to in new Home?
