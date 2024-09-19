@@ -6,6 +6,8 @@ title: Working with large files in Adobe Workfront Fusion
 description: Large file support is currently available for the Workfront and HTTP connectors.
 author: Becky
 feature: Workfront Fusion
+hide: yes
+hidefromtoc: yes
 ---
 # Working with large files in Adobe Workfront Fusion
 
