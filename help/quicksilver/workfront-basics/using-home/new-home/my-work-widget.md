@@ -55,7 +55,7 @@ For more detail about the information in this table, see [Access requirements in
 
 You can fine-tune the My Work filters to focus on specific items in your list of work:   
 
-image
+![](assets/filter-my-work-widget.png)
 
 ### Filter details
 
@@ -73,13 +73,13 @@ image
 >
 >If you are looking for more specific filtering options, you can use the My Task or My Issue widgets. 
 
-## Sort and group your work
+## Organize your work
 
-You can use the My Work widget's sorting and grouping features to organize your work.
+You can use the My Work widget's sorting and grouping features to organize your work in a way that makes sense to you.
 
 ### Sort
 
-Sorting can help you organize your work in a way that makes sense to you. You can sort the work list by Due Date, Name, Percent Complete, and Status. 
+You can sort the work list by Due Date, Name, Percent Complete, and Status. 
 
 Past-due items display a warning icon next to the date. Workfront uses the Planned Completion Date to determine if tasks and issues are past due.
 
@@ -88,17 +88,20 @@ Past-due items display a warning icon next to the date. Workfront uses the Plann
 >To create a list that displays all past-due items at the top of the My Work widget, sort by Due Date and do not apply a group. 
 
 
-image
+![](assets/sort-my-work-widget.png)
 
 ### Group
 
-Grouping can help you further organize your work list. You can group the work list by Project, Status, Due Date, or Nothing. 
+Grouping can help you further organize your work list. You can group the work list by 
 
-Due date - planned completion 
+* Project
+* Status 
+* Due Date
+    The due date is determined by the Planned Completion Date.
 
 When you apply a grouping, what you select in the sort sorts within the grouping
 
-image
+![](assets/group-my-work-widget.png)
 
 ## Update work item information in the Summary
 
