@@ -1627,7 +1627,29 @@ This trigger module starts a scenario when a message is posted from HubSpot to t
  </tbody> 
 </table>
 
-<!-- Blog posts (All)-->
+<!--
+
+### Blog posts 
+
+#### Create a Blog Post
+
+
+
+#### Delete a Blog Post
+
+
+
+#### List Blog Posts
+
+
+
+#### Publish / Unpublish a Blog Post
+
+
+
+#### Watch Blog Posts
+
+-->
 
 <!-- Workflows (All)-->
 
