@@ -51,13 +51,14 @@ The following connectors do **not** support large files.
 
 If a connector is not on this list, it does not support large files. For these connectors, Fusion's total processing capacity for files is **1 GB**. 
 
-This limit is based on a total memory cost. Every operation contributes to that cost. If a single file of 400 MB is downloaded and uploaded then the total cost to the file capacity would be 800 MB.
+This limit is based on a total memory cost. Every operation contributes to that cost. If a single file of 400 MB is downloaded and uploaded then the total cost to the file capacity would be 800 MB.-->
 
--->
 
-<!--
 
-## Connectors that support large files
+
+
+
+<!--## Connectors that support large files
 
 The following connectors support large files.
 
@@ -141,3 +142,5 @@ Adobe Lightroom
 If a file is not on this list, it does not support large files. For these connectors, Fusion's total processing capacity for files is **1 GB**. 
 
 This limit is based on a total memory cost. Every operation contributes to that cost. If a single file of 400 MB is downloaded and uploaded then the total cost to the file capacity would be 800 MB.
+
+-->
