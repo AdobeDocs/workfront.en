@@ -1524,7 +1524,7 @@ This action module returns all forms that have been created in the account assoc
    <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL limit]</td> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
    <td>Enter or map the maximum number of forms that the module will return in one execution cycle.</td> 
   </tr> 
  </tbody> 
@@ -1534,13 +1534,98 @@ This action module returns all forms that have been created in the account assoc
 
 
 
-<!--#### Watch Submissions for a Form-->
+<!--#### Watch Submissions for a Form--Need to find a working connection>-->
 
+### Social Media (Broadcast)
 
+#### Cancel a Broadcast Message
 
+This action module cancels a scheduled broadcast, such as a tweet or a Facebook post.
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Broadcast ID]</td> 
+   <td>Enter or map the ID of the broadcast that you want to cancel.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
-<!-- Social Media (All)-->
+#### Create a Broadcast Message
+
+This action module creates and immediately publishes a message on the specified social media channel.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Channel ID]</td> 
+   <td>Enter or map the ID of the channel that you want to use for this broadcast.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Title]</td> 
+   <td>Enter or map a title for this broadcast.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
+   <td>Enter or map the text of the broadcast.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Photo URL]</td> 
+   <td>Enter or map the URL of a photo that you want to include in the broadcast.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Thumbnail URL]</td> 
+   <td>Enter or map the URL of a thumbnail that you want to use for this broadcast.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Trigger at]</td> 
+   <td>Enter or map the date and time that you want the broadcast to be sent. If this is left blank, the broadcast is sent immediately.<p>For a list of supported date and time formats, see <a href="../../workfront-fusion/mapping/type-coercion.md" class="MCXref xref">Type coercion in [!DNL Adobe Workfront Fusion]</a>.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Watch Broadcast Messages
+
+This trigger module starts a scenario when a message is posted from HubSpot to the specified social media channel.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td>Enter or map the maximum number of items that the module will return in one execution cycle.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Filter by Status]</td> 
+   <td>To start the scenario only when the message is in a specific status, select the status.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Filter by Channel]</td> 
+   <td>To start the scenario only when the message is on a specific channel, select the channel.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Broadcast ID]</td> 
+   <td>To start the scenario only when the message is on or after a specific date, enter or map the date in the format <code>MM/DD/YYYY</code>.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
 <!-- Blog posts (All)-->
 
