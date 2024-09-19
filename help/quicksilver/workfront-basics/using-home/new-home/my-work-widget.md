@@ -10,10 +10,7 @@ feature: Get Started with Workfront
 
 # Manage your work with the My Work widget
 
-The My Work widget displays all of your assigned tasks, issues, and requests in one place. Here, you can filter and organize your work, log time, make updates, and mark work items complete. 
-
-image
-
+The My Work widget displays all of your assigned tasks, issues, and requests in one place. Here, you can filter and organize your work, log time, make updates, and mark work items complete.
 
 ## Access requirements
 
@@ -33,16 +30,18 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] license</strong></td> 
-   <td> <p>New:</p><ul><li>[!UICONTROL Contributor] for approvals only</li> <li>[!UICONTROL Standard] or higher for all other objects</li> <p>Or</p> 
-  </ul><p>Current:</p><ul><li>[!UICONTROL Review] for approvals only</li> <li>[!UICONTROL Work] or higher for all other objects</li> </td> 
+   <td> <p>Current: Contribute</p>
+   <p>Or</p> 
+   <p>New:[!UICONTROL Light] or higher<p> 
+  </td> 
   </tr> </ul>
   <tr> 
    <td role="rowheader"><strong>Access level configurations</strong></td> 
    <td> <p>[!UICONTROL View] or higher access to Projects, Tasks, Issues, and Documents</p> </td> 
-  </tr> 
+  </tr>  
   <tr> 
    <td role="rowheader"><strong>Object permissions</strong></td> 
-   <td> <p>Contribute permissions or higher to the tasks and issues you need to work on</p>  </td> 
+   <td> <p>Contribute permissions or higher to the tasks and issues that you need to work on</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -59,29 +58,67 @@ You can fine-tune the My Work filters to focus on specific items in your list of
 
 ### Filter details
 
-| Filter         | Details       |
-|----------------|-------------------|
-| Working on   |     Displays items that you are currently working on              |
-| Ready to start |  Displays items with no incomplete predecessors or task constraints  and the Planned Start Date is in the past or up to two weeks in the future                  |
-| Not ready      | Displays items that have incomplete predecessors or task constraints that prevent the item from being worked on or the Planned start date is more than two weeks in the                  |
-| Requested           |  Displays issues that you have not started work on                |
-| Delegated by me       | Displays items that you have delegated to other users                 |
-| Delegated to me       |  Displays items users have delegated to you                |
-| Completed         | Displays work completed within the last two weeks. This filter option does not include approvals.                  |
+<table>
+  <tbody>
+    <tr>
+      <td>Working on</td>
+      <td>Displays items that you are currently working on</td>
+    </tr>
+    <tr>
+      <td>Ready to start</td>
+      <td>Displays items with 
+      <ul>
+      <li>No incomplete predecessors or task constraints</li>
+      <li>The Planned Start Date is in the past or up to two weeks in the future</li>
+      </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Not ready</td>
+      <td>Displays items that have
+       <ul>
+      <li>Incomplete predecessors or task constraints that prevent the item from being worked on</li>
+      or
+      <li>Planned start dates more than two weeks in the future</li>
+      </ul>
+       </td>
+    </tr>
+    <tr>
+      <td>Requested</td>
+      <td>Displays issues that you have not started work on</td>
+    </tr>
+    <tr>
+      <td>Delegated by me</td>
+      <td>Displays items that you have delegated to other users</td>
+    </tr>
+    <tr>
+      <td>Delegated to me</td>
+      <td>Displays items users have delegated to you</td>
+    </tr>
+    <tr>
+      <td>Completed</td>
+      <td>Displays work completed within the last two weeks. This filter option does not include approvals.</td>
+    </tr>
+  </tbody>
+</table>
 
 >[!TIP]
 >
->If you are looking for more specific filtering options, you can use the My Task or My Issue widgets. 
+>If you are looking for more specific filtering options, you can use the My Task or My Issue widgets. For more information on My Task and My Issue filters, see [New Home widget filters overview](/help/quicksilver/workfront-basics/using-home/new-home/widget-filter-overview-new-home.md).
 
 ## Organize your work
 
-You can use the My Work widget's sorting and grouping features to organize your work in a way that makes sense to you.
+You can use the My Work widget's sorting and group features to organize your work in a way that makes sense to you.
 
 ### Sort
 
-You can sort the work list by Due Date, Name, Percent Complete, and Status. 
+You can sort the work list by 
 
-Past-due items display a warning icon next to the date. Workfront uses the Planned Completion Date to determine if tasks and issues are past due.
+* Due Date
+    Past-due items display a warning icon next to the date. Workfront uses the Planned Completion Date to determine if tasks and issues are past due.
+* Name 
+* Percent Complete
+* Status
 
 >[!TIP]
 >
@@ -92,14 +129,17 @@ Past-due items display a warning icon next to the date. Workfront uses the Plann
 
 ### Group
 
-Grouping can help you further organize your work list. You can group the work list by 
+You can group the work list by 
 
 * Project
 * Status 
 * Due Date
-    The due date is determined by the Planned Completion Date.
+    The Due Date is determined by the Planned Completion Date.
 
-When you apply a grouping, what you select in the sort sorts within the grouping
+>[!NOTE]
+>
+>When you apply a grouping, your selection in the Sort menu determines the order within the grouping.
+
 
 ![](assets/group-my-work-widget.png)
 
@@ -111,14 +151,15 @@ You can open the Summary panel to quickly update information in a task or issue.
 * Add an update
 * Navigate to the Document area to upload a document
 * View work item details and update custom fields
+    Workfront administrators can customize which fields appear in the Summary in the Layout template. For more information, see [Customize Home and Summary using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 * Change the work item status
 * View subtasks
 * Log time
 * View attached approval processes
 
-To open the Summary, hover over the work item, then click the **Summary** icon ![](assets/open-summary.png).
+To open the Summary, hover over the work item, then click the **Summary** icon ![](assets/open-summary-new-home.png).
 
-image
+For additional information about how to use the Summary panel, see [Summary overview](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 ## Use quick actions to update work items
 
@@ -129,9 +170,9 @@ You can use the quick actions menu to
  * Update a custom form
  * Upload a file
 
-To locate the quick actions menu, hover over the work item. The quick actions list displays near the Done button. 
+To locate the quick actions menu, hover over the work item. The quick actions list displays near the **Work On It** or **Done** button. 
 
-image
+![](assets/quick-actions-new-home.png)
 
 
 ## View approvals and team requests
@@ -142,7 +183,7 @@ Approvals and team requests do not display in the My Work widget. If you regular
 * All approvals
 * Team requests 
 
-For information about adding widgets to your New Home page, see [Customize New Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+For information about adding widgets to your New Home page, see [Add, edit, or remove widgets in New Home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
 
 
 

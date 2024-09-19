@@ -14,6 +14,7 @@ You can use filters on the following widgets to find and organize work:
 * [My Projects](#my-projects)
 * [My Tasks](#my-tasks)
 * [My Issues](#my-issues)
+* [My Work]
 
 ## My Projects
 
@@ -224,4 +225,52 @@ You can use the following filters in the My Issues widget:
     <td>Unassigned In My Role</td>
     <td>Displays all issues that do not have a primary user assigned but do have a role assigned </td>
   </tr>
+</table>
+
+## My Work
+
+You can use the following filters in the My Work widget:
+
+<table>
+  <tbody>
+    <tr>
+      <td>Working on</td>
+      <td>Displays items that you are currently working on</td>
+    </tr>
+    <tr>
+      <td>Ready to start</td>
+      <td>Displays items with 
+      <ul>
+      <li>No incomplete predecessors or task constraints</li>
+      <li>The Planned Start Date is in the past or up to two weeks in the future</li>
+      </ul>
+      </td>
+    </tr>
+    <tr>
+      <td>Not ready</td>
+      <td>Displays items that 
+       <ul>
+      <li>Have incomplete predecessors or task constraints that prevent the item from being worked on</li>
+      or
+      <li>Have a Planned start date more than two weeks in the future</li>
+      </ul>
+       </td>
+    </tr>
+    <tr>
+      <td>Requested</td>
+      <td>Displays issues that you have not started work on</td>
+    </tr>
+    <tr>
+      <td>Delegated by me</td>
+      <td>Displays items that you have delegated to other users</td>
+    </tr>
+    <tr>
+      <td>Delegated to me</td>
+      <td>Displays items users have delegated to you</td>
+    </tr>
+    <tr>
+      <td>Completed</td>
+      <td>Displays work completed within the last two weeks. This filter option does not include approvals.</td>
+    </tr>
+  </tbody>
 </table>
