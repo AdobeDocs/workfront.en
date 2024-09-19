@@ -1,14 +1,14 @@
 ---
 product-area: home
 navigation-topic: use-the-home-area
-title: Use the My Work widget
-description: Use the My Work widget 
+title: Manage your work with the My Work widget
+description: The My Work widget displays all of your assigned tasks, issues, and requests in one place. Here, you can filter and organize your work, log time, make updates, and mark work items complete. 
 author: Courtney
 feature: Get Started with Workfront
 
 ---
 
-# Use the My Work widget
+# Manage your work with the My Work widget
 
 The My Work widget displays all of your assigned tasks, issues, and requests in one place. Here, you can filter and organize your work, log time, make updates, and mark work items complete. 
 
@@ -62,7 +62,7 @@ image
 | Filter         | Details       |
 |----------------|-------------------|
 | Working on   |     Displays items that you are currently working on              |
-| Ready to start |  Displays items with no incomplete predecessors or task constraints and the Planned Start Date is in the past or up to two weeks in the future                  |
+| Ready to start |  Displays items with no incomplete predecessors or task constraints  and the Planned Start Date is in the past or up to two weeks in the future                  |
 | Not ready      | Displays items that have incomplete predecessors or task constraints that prevent the item from being worked on or the Planned start date is more than two weeks in the                  |
 | Requested           |  Displays issues that you have not started work on                |
 | Delegated by me       | Displays items that you have delegated to other users                 |
@@ -75,7 +75,7 @@ image
 
 ## Sort and group your work
 
-You can use the My Work widget's sorting and grouping to organize your work.
+You can use the My Work widget's sorting and grouping features to organize your work.
 
 ### Sort
 
