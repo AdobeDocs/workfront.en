@@ -1627,33 +1627,132 @@ This trigger module starts a scenario when a message is posted from HubSpot to t
  </tbody> 
 </table>
 
-<!--
+
 
 ### Blog posts 
 
-#### Create a Blog Post
-
+<!--
+#### Create a Blog Post May need connection
+-->
 
 
 #### Delete a Blog Post
 
+This action module deletes a single blog post.
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID]</td> 
+   <td>Enter or map the ID of the blog post that you want to delete.</td> 
+  </tr> 
+ </tbody> 
+</table>
 
-#### List Blog Posts
+<!--#### List Blog Posts May need connection
 
-
+This search module retrieves posts from a HubSpot blog.-->
 
 #### Publish / Unpublish a Blog Post
 
+This action module schedules or cancels publishing of a blog post.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID]</td> 
+   <td>Enter or map the ID of the blog post that you want to schedule or cancel.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Action]</td> 
+   <td>Select whether you want to schedule the blog post, or cancel a previously scheduled blog post.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<!--#### Watch Blog PostsMay need connection-->
+
+<!--### Workflows May need connection
+
+#### Add a Contact to a Workflow
 
 
-#### Watch Blog Posts
+#### Remove a Contact from a Workflow
 
 -->
 
-<!-- Workflows (All)-->
 
-<!-- Subscriptions (All)-->
+### Subscriptions
+
+#### Update Email Subscription
+
+This action module updates an email subscription in HubSpot.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Email]</td> 
+   <td>Enter or map the email address of the subscription you want to update.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Statuses]</td> 
+   <td>For each status that you want to update the subscription for, click <b>Add item</b> and enter the status's ID, and whether the email address will be subscribed to that status.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Portal Subscription Legal Status]</td> 
+   <td>To record the legal basis for this subscription for GDPR, select the legal status of this subscription.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Portal Subscription Legal Basis Explanation]</td> 
+   <td>To add a note regarding the legal basis for this subscription for GDPR, enter or map the text of the note.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Watch Subscriptions TImeline for a Portal
+
+This trigger module starts a scenario when a new email timeline subscription is added to the portal.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL HubSpot CRM] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td>Enter or map the maximum number of items that the module will return in one execution cycle.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Start Timestamp]</td> 
+   <td>To return results from on or after a specific date, enter the date in the format <code>MM/DD/YYYY.</code></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL End Timestamp]</td> 
+   <td>To return results from on or before a specific date, enter the date in the format <code>MM/DD/YYYY.</code></td> 
+  </tr> 
+ </tbody> 
+</table>
 
 <!-- Associations (All)-->
 
