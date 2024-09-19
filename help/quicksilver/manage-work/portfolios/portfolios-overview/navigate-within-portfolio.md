@@ -19,6 +19,9 @@ For more information about portfolios, see [Portfolio overview in [!DNL Adobe Wo
 
 ## Access requirements
 
+
++++ Expand to view access requirements for the functionality in this article. 
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -26,25 +29,28 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td> <p>New: [!UICONTROL Standard] </p>
+   <p>Current: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>[!UICONTROL Edit] access to Projects and Portfolios</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>[!UICONTROL Edit] access to Projects and Portfolios</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>View or higher permissions to the projects</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>View or higher permissions to the projects</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Navigate within a portfolio
 
@@ -54,14 +60,14 @@ You must have the following access to perform the steps in this article:
 1. From the **[!UICONTROL Filter]** drop-down menu, select the following:
 
    * **[!UICONTROL Portfolios I Own]**: Includes a list of portfolios for which you are designated as the [!UICONTROL Portfolio Manager].
-   * **[!UICONTROL All]**: Includes all portfolios for which you have at least access to View.\
+   * **[!UICONTROL All]**: Includes all portfolios for which you have at least access to View.
 
-      For more information about access to Portfolios, see [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).\
+      For more information about access to Portfolios, see [Access levels overview](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
       For more information about permissions to Portfolios, see  [Share a portfolio](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
       To add new portfolios, see [Create a portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
-1. Click the name of a portfolio to access it.\
+1. Click the name of a portfolio to access it.
    The following portfolio performance metrics are displayed in the [!UICONTROL Portfolio Details] area inside a portfolio:
 
    * Whether the portfolio is [!UICONTROL On Time]
@@ -90,7 +96,7 @@ You must have the following access to perform the steps in this article:
       For more information about creating filters, see [Filters overview](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 
-1. Click **[!UICONTROL Programs]** in the left panel to create Programs within the portfolio or manage existing ones.\
+1. Click **[!UICONTROL Programs]** in the left panel to create Programs within the portfolio or manage existing ones.
    For information about programs, see the [Create and manage programs](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md) section.
 
 1. (Optional) Expand the **[!UICONTROL Portfolio Details]** area in the left panel, then click **[!UICONTROL Overview]** or **[!UICONTROL Custom Forms]** to edit information about the portfolio.

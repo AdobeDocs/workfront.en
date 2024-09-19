@@ -1,24 +1,13 @@
 ---
-title: Manage the table view
-description: You can display records and their fields in a table view, when accessing the record type page in Adobe Workfront Planning.
-hidefromtoc: yes
-hide: yes
+title: Manage the Table View
+description: You can display records and their fields in a table view, when accessing the record type page in Adobe Workfront Planning. This article describes how you can create a table view and edit or delete an existing one.
+feature: Workfront Planning
+role: User
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
 ---
 # Manage the table view
-
-<!--
-title: Manage the table view
-description: You can display records in a table view when using Adobe Workfront Planning. 
-hidefromtoc: yes
-author: Alina
-feature: Work Management
-role: User
-hide: yes
--->
-
-<!--update the metadata with real information when making this available in TOC and in the left nav-->
 
 {{planning-important-intro}}
 
@@ -28,9 +17,77 @@ For information about record views and how to manage them, see [Manage record vi
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
++++ Expand to view access requirements for Workfront Planning. 
 
-<!--at GA the plan below will change to Prime, Select and Ultimate only-->
+You must have the following to be able to access Workfront Planning:  
+
+ <table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td><p> Standard </p>
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p>   
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td>   <p>Manage permissions to a view</p>  
+   <p>View permissions to a view to temporarily change the view settings</p> </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Layout template</p></td> 
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> </td> 
+  </tr> 
+</tbody> 
+</table> 
+
+ *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++   
+
+
+<!--
+OLD:
 
 <table style="table-layout:auto">
  <col>
@@ -86,7 +143,7 @@ You must have the following access to perform the steps in this article:
  </tbody>
 </table>
 
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 ## Edit records using the table view
 
@@ -117,6 +174,7 @@ To manage a table view:
     * [Filters](#add-filters) 
     * [Grouping](#add-groupings)
     * [Sort](#add-a-sort) 
+    * [Enable the real-time presence indicator](#enable-the-real-time-presence-indicator)
 
 
 ### Add columns (or fields) {#add-columns}
@@ -129,9 +187,8 @@ Adding columns to a view is identical to adding fields to a record type.
 
 You can add up to 500 fields (or columns) in a table view. 
 
-1. Go to a record type page and select a **Table** view from the view drop-down menu.
+1. Go to a record type page and click a table view tab, or click **+ View** to add a new view, then choose **Table**. 
 
-    <!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Start adding fields (or columns), as described in the article [Create fields](/help/quicksilver/planning/fields/create-fields.md). 
 
     The columns you add are visible to all users who access the record type and are added as new fields on the record's page.
@@ -207,9 +264,8 @@ The rows of a table view display individual records of the selected record type.
 
 You can have up to 50,000 records (or rows) for a record typeS. 
 
-1. Go to a record type page and select a **Table** view from the view drop-down menu.
+1. Go to a record type page and click a table view tab, or click **+ View** to add a new view, then choose **Table**. 
 
-<!-- replace above with this when view redesign: Go to a record type page and click a table view tab, or click **+ View **to add a new view, then choose **Table**. -->
 1. Start adding records (or rows), as described in the article [Create records](/help/quicksilver/planning/records/create-records.md). 
 
     The records you add in the table view are saved immediately and are visible to all users who have View or higher permissions to the workspace. 
@@ -223,13 +279,8 @@ You can have up to 50,000 records (or rows) for a record typeS.
     >[!NOTE]
     >
     >You cannot reorder rows if you apply at least one sort to the table view. 
-
-    <!-- this is not possible right now:
-
-    1. To reorder the rows, click the row header, drag and drop it in the desired location. 
-
-        The changes you make to the row order are permanent and visible to all users who access the record type
-    -->
+    >
+    >The changes you make to the row order are visible to all users who access the record type
 
 <!-- this section below links from the timeline view; consider splitting them if they become different-->
 
@@ -238,6 +289,7 @@ You can have up to 50,000 records (or rows) for a record typeS.
 Filters help you reduce the amount of information displayed on the screen.
 
 Consider the following when working with filters in the table view: 
+
 <!-- this list is almost identical to the one for the table view - update both-->
 
 * The filters you create for the table view work independently from the filters in the timeline view when applied to the same record type. 
@@ -466,3 +518,11 @@ To sort grouped records:
 1. ************************* add steps here for sorting grouped records****************
 
 -->
+
+### Enable the real-time presence indicator
+
+The avatars of other users who are editing record information at the same time as you display in the upper-right corner of all record views, by default.
+
+When you display the table view, you can also view which field another user is editing at the time you are viewing the record. 
+
+For more information, see the "Enable the real-time presence indicator" section in the article [Manage record views](/help/quicksilver/planning/views/manage-record-views.md). 

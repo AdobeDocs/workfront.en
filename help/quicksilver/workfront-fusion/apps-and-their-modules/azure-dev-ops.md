@@ -121,13 +121,13 @@ When you are configuring this module, the following fields display.
 
 ### Actions 
 
-* [Custom API Call](#custom-api-call)
-* [Read record](#read-record)
 * [Create a record](#create-a-record)
+* [Custom API Call](#custom-api-call)
+* [Download an attachment](#download-an-attachment)
+* [Link work items](#link-work-items)
+* [Read record](#read-record)
 * [Update a work item](#update-a-work-item)
 * [[!UICONTROL Upload an attachment]](#upload-an-attachment)
-* [Download an attachment](#download-an-attachment)
-* [Link work items]([!UICONTROL #link-work-items])
 
 #### [!UICONTROL Custom API Call] 
 
@@ -177,43 +177,6 @@ When you are configuring this module, the following fields display.
  </tbody> 
 </table>
 
-#### [!UICONTROL Read record]
-
-This action module reads data from a single record in [!DNL Azure DevOps].
-
-You specify the ID of the record.
-
-The module returns the ID of the record and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display.
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Azure DevOps] account to [!DNL Workfront Fusion], see <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">Connect [!DNL Azure DevOps] to [!UICONTROL Workfront Fusion]</a> in this article.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Record type]</td> 
-   <td> <p>Select whether you want to read a project or a work item</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Project]</strong>: Select the project that you want to read..</p> </li> 
-     <li> <p><strong>[!UICONTROL Work item]</strong>: Select the project that contains the work item you want to read, then select the work item type.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Outputs]</td> 
-   <td>Select the information you want included in the output bundle for this module. Available fields depend on the work item type.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL ID]</td> 
-   <td>Enter or map the ID of the record you want to read.</td> 
-  </tr> 
- </tbody> 
-</table>
-
 #### [!UICONTROL Create a record] 
 
 This action module creates a new project or work item.
@@ -247,6 +210,99 @@ The module outputs the object ID for the newly created work item, or the URL and
        <li> <p><strong>[!UICONTROL Other fields]</strong>:In these fields, enter the value that you want the work item to have for a given property. Available fields depend on the work item type.</p> </li> 
       </ul> </li> 
     </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Download an attachment]
+
+This action module downloads an attachment.
+
+The module returns the file content of the attachment.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL Azure DevOps] account to [!DNL Workfront Fusion], see <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">Connect [!DNL Azure DevOps] to [!UICONTROL Workfront Fusion]</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Attachment URL]</td> 
+   <td> <p>Enter or map the URL of the attachment that you want to download.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Link work items]  
+
+This action module links two work items and defines the relationship between them.
+
+The module returns the ID of the main work item and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
+
+When you are configuring this module, the following fields display.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL Azure DevOps] account to [!DNL Workfront Fusion], see <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">Connect [!DNL Azure DevOps] to [!UICONTROL Workfront Fusion]</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Work item ID]</td> 
+   <td>Enter or map the ID of the main work item item that you want to link another work item to.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Linked work item ID]</td> 
+   <td>Enter or map the ID of the work item that you want to link to the main work item.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Link Type]</td> 
+   <td> <p>Define the relationship between the work items that you want to link.</p> <p>For more information, see <a href="https://docs.microsoft.com/en-us/azure/devops/boards/queries/link-type-reference?view=azure-devops">Link Type Reference</a> in the [!UICONTROL Azure DevOps] Documentation.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Comment]</td> 
+   <td>Enter or map the text of a comment. This is useful for explaining the reasoning or intention of the link.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Read record]
+
+This action module reads data from a single record in [!DNL Azure DevOps].
+
+You specify the ID of the record.
+
+The module returns the ID of the record and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
+
+When you are configuring this module, the following fields display.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL Azure DevOps] account to [!DNL Workfront Fusion], see <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">Connect [!DNL Azure DevOps] to [!UICONTROL Workfront Fusion]</a> in this article.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Record type]</td> 
+   <td> <p>Select whether you want to read a project or a work item</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Project]</strong>: Select the project that you want to read..</p> </li> 
+     <li> <p><strong>[!UICONTROL Work item]</strong>: Select the project that contains the work item you want to read, then select the work item type.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Outputs]</td> 
+   <td>Select the information you want included in the output bundle for this module. Available fields depend on the work item type.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ID]</td> 
+   <td>Enter or map the ID of the record you want to read.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -313,62 +369,6 @@ The module returns the attachment ID and a download URL for the attachment.
   <tr> 
    <td role="rowheader">[!UICONTROL Source file] </td> 
    <td>Select a source file from a previous module, or enter or map the source file's name and content.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Download an attachment]
-
-This action module downloads an attachment.
-
-The module returns the file content of the attachment.
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Azure DevOps] account to [!DNL Workfront Fusion], see <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">Connect [!DNL Azure DevOps] to [!UICONTROL Workfront Fusion]</a> in this article.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Attachment URL]</td> 
-   <td> <p>Enter or map the URL of the attachment that you want to download.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Link work items]  
-
-This action module links two work items and defines the relationship between them.
-
-The module returns the ID of the main work item and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
-
-When you are configuring this module, the following fields display.
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Azure DevOps] account to [!DNL Workfront Fusion], see <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref">Connect [!DNL Azure DevOps] to [!UICONTROL Workfront Fusion]</a> in this article.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Work item ID]</td> 
-   <td>Enter or map the ID of the main work item item that you want to link another work item to.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Linked work item ID]</td> 
-   <td>Enter or map the ID of the work item that you want to link to the main work item.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Link Type]</td> 
-   <td> <p>Define the relationship between the work items that you want to link.</p> <p>For more information, see <a href="https://docs.microsoft.com/en-us/azure/devops/boards/queries/link-type-reference?view=azure-devops">Link Type Reference</a> in the [!UICONTROL Azure DevOps] Documentation.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Comment]</td> 
-   <td>Enter or map the text of a comment. This is useful for explaining the reasoning or intention of the link.</td> 
   </tr> 
  </tbody> 
 </table>

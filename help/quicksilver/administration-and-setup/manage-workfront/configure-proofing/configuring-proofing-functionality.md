@@ -3,7 +3,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;documents;setup
 navigation-topic: manage-workfront
-title: Configure proofing functionality
+title: Configure Proofing Functionality
 description: You can configure the proofing settings for your organization.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents

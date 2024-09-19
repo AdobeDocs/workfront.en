@@ -112,7 +112,7 @@ Depending on how your Workfront administrator configures the Project, Task, or I
    1. (Conditional) When the **Autosave** toggle is enabled:
 
       1. Select the tasks you want to delete, then click **More**
-      1. Click **Delete**, then **Yes, Delete It** to confirm the deletion.
+      1. Click **Delete**, then **Delete** to confirm the deletion.
 
          The tasks are deleted.
 
@@ -143,7 +143,7 @@ Depending on how your Workfront administrator configures the Project, Task, or I
    ![](assets/delete-tasks-task-level-nwe-350x225.png)
 
 1. Click **Delete Task**.
-1. If the deletion is allowed, click **Yes, Delete it**.
+1. If the deletion is allowed, click **Delete**.
 
    Your Workfront administrator or group administrator might not allow the deletion of tasks where hours are logged.
 

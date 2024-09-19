@@ -13,6 +13,8 @@ You can use the proof approval report to view information about proofs in your e
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following:
 
 <table style="table-layout:auto"> 
@@ -40,9 +42,12 @@ You must have the following:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
++++
+
 ## Use the proof approval report
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Reports**. 
+{{step1-to-reports}}
+
 1. Click **New Report**, then scroll to select **Proof Approval**.
 
    ![](assets/proof-approval-report.png)

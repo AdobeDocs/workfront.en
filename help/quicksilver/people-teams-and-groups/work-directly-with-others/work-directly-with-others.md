@@ -2,7 +2,7 @@
 content-type: reference
 product-area: user-management
 navigation-topic: people-teams-and-groups
-title: Work directly with others
+title: Work Directly with Others
 description: Review these articles to learn how to work directly with others in Workfront.
 author: Lisa
 feature: People Teams and Groups

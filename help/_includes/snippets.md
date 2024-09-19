@@ -12,6 +12,14 @@
 
 <span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
 
+## Preview and fast release Q4 2024 {#preview-and-fast-release-Q424}
+
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+
+<span class="preview">For information about the current release, see [Fourth Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
+
 ## Preview and fast release Q4 2023 {#preview-and-fast-release}
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
@@ -264,6 +272,21 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 >
 >The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
 >
+>You must have the following to access Workfront Planning:
+>
+>* A new Workfront plan and license. Workfront Planning is not available for legacy Workfront plans or licenses. 
+>* An additional license for Workfront Planning. 
+>* Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.
+>
+> For a complete list of requirements to access Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md). 
+> 
+>For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+
+<!--OLD: 
+>[!IMPORTANT]
+>
+>The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
+>
 >Currently, Workfront Planning is in an early access stage which is open to a limited number of customers. 
 >
 >You must be a Workfront customer to use these capabilities. 
@@ -271,6 +294,7 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 >Your account representative will inform you if you are part of this stage.
 >
 >For more information, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+-->
 
 <!-- Manage Work -->
 
@@ -318,7 +342,9 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 
 ## Latest DPV Version {#latest-version}
 
-**Latest version**: 2.1.35 as of 7/04/2024
+**Latest version**: 
+* Mac: 2.1.36 as of 8/29/2024
+* Windows: 2.1.37 of 8/30/2024
 
 <!-- Release -->
 

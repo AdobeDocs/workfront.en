@@ -15,5 +15,4 @@ exl-id: 4bb4b61a-eafe-41f1-9f5d-20583fb76d81
 You can access support documentation for [!UICONTROL [!DNL Workfront] DAM]  in the following locations:
 
 * If you are using the stand-alone [!UICONTROL Workfront DAM] application (outside of the main [!DNL Workfront] application), see the [!DNL Webdam] Help Site.
-* If you are leveraging [!UICONTROL [!DNL Workfront] DAM] functionality within the main [!DNL Workfront] application, see [[!UICONTROL [!UICONTROL Adobe Workfront] DAM] within [!DNL Adobe Workfront]](../../documents/workfront-dam-within-workfront/workfront-dam-in-workfrontt.md)
 * NOTE: If you need to submit a feature request or log an issue, contact [!DNL Workfront] Customer Support by phone, email, or the [!DNL Workfront] Help site. For more information, see [Contact Customer Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).

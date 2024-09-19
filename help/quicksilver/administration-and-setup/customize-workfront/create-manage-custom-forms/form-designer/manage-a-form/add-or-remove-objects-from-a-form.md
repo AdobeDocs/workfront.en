@@ -1,5 +1,5 @@
 ---
-title: Add or delete object types from an existing custom form
+title: Add or Delete Object Types from an Existing Custom Form
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -14,6 +14,8 @@ exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
 You can add or delete object types from an existing custom form with the form designer. 
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -40,6 +42,8 @@ You must have the following to perform the steps in this article:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Add object types to an existing custom form 
 

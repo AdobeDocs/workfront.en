@@ -13,6 +13,8 @@ You can view the current active stages on a proof that contains an Automated Wor
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -39,6 +41,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan, role, or Proof Permission Profile you have, contact your Workfront or Workfront Proof administrator.
+
++++
 
 ## View active stages on a proof
 

@@ -2,9 +2,9 @@
 content-type: overview
 product-area: resource-management
 navigation-topic: resource-management-overview
-title: Get started with Resource Management
+title: Get Started with Resource Management
 description: Resource Management allows you to configure your system to accurately forecast the use of your resources based on their availability so that the work that must be done is completed on time and on budget.
-author: Alina
+author: Lisa
 feature: Resource Management
 exl-id: b10ef503-60ea-4450-b63e-b2918e9bcc11
 ---
@@ -131,11 +131,11 @@ The following users have access to the Resource Management tools in Workfront:
 You must be one of the following users and have the following access and permissions to access resource management tools:
 
 * The system administrator.
-* A user with a Plan license.  
+* A user with a Standard or Plan license.  
   
   A user with a Work license can use the Workload Balancer of a project and manage assignments and allocations.
 
-  In addition to having a Work or higher license, you must have the following to use specific resource management tools:
+  In addition to having a Work or higher license (or a Standard license), you must have the following to use specific resource management tools:
 
    * Edit access to Resource Management (not needed for making assignments in the Workload Balancer)
    * Edit access to Financial Data to display Cost information in the Resource Planner
@@ -162,7 +162,6 @@ You must meet a set of requirements before you can efficiently use the resource 
 For information about what the requirements are for each resource management tool in Workfront see the following:
 
 * The section [Prerequisites for working in the Resource Planner](../../resource-mgmt/resource-planning/get-started-resource-planner.md#prerequisites-for-working-in-the-resource-planner) in the article [Resource Planner overview](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
-<!--remove this at production: * The section "Prerequisites" in the article [Get started with Resource Scheduling](../../resource-mgmt/resource-scheduling/get-started-resource-scheduling.md).-->
 * The section [Best practices for using the Workload Balancer](../../resource-mgmt/workload-balancer/overview-workload-balancer.md#best-practices-for-using-the-workload-balancer) in the article [Workload Balancer overview](../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 * [Access needed to budget resources in Adobe Workfront](../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 * [Access needed to manage resources in the Workload Balancer](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).

@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: Create and manage a group's timesheet profiles
+title: Create and Manage a Group's Timesheet Profiles
 description: When you are viewing a group that you manage in the Groups area, you can view and work with the timesheet profiles for which the administrators of the group, or one of its subgroups, have administrative access.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5c895e77-bd88-435f-a903-37c2325eab45
@@ -20,6 +20,8 @@ When you are viewing a group that you manage in the Groups area, you can view an
 If there are any groups above the group you manage, their administrators can also do this for your group. The same is true for Workfront administrators (for any group).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -44,6 +46,8 @@ You must have the following to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
++++
+
 ## Create and edit group-level timesheet profiles
 
 You can create and edit timesheet profiles for use in a group you manage. For instructions, see [Create, edit, and assign timesheet profiles](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
@@ -60,7 +64,8 @@ For information about on deleting group timesheets, see [Delete timesheets in Ad
 
 ## Export group-level timesheet profiles
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
+
 1. Click **Groups**.
 
    In the list that displays, you can see the groups you manage, along with any subgroups they have. Adobe Workfront administrators can see all groups.

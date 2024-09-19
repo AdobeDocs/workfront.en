@@ -9,11 +9,15 @@ exl-id: ff0823f2-61d0-453f-ae1c-68f0f1465d73
 ---
 # View total hours on the timesheet
 
+<!--Audited: 8/2024-->
+
 You can view the total number of hours on your timesheet. The total number of timesheet hours includes hours logged for projects, tasks, issues, and all general hours.
 
 The total hours reflect hours submitted through the timesheet, the Updates area, or in the Hours area for projects, tasks, or issues.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article. 
 
 You must have the following access to perform the steps in this article:
 
@@ -22,25 +26,28 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Review </p> </td> 
+   <td> <p>New: Light or higher </p>
+   <p>Current: Review or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>View access or higher to Tasks and Issues</p> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configuration</td> 
+   <td> <p>View or higher access to Tasks and Issues</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>View or higher permissions on tasks and issues</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>View or higher permissions on tasks and issues</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*To find out what plan or license type you have, contact your Workfront administrator.
+*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## View the total hours of a timesheet in the timesheet header
 
@@ -50,7 +57,9 @@ You can view a timesheet's Total Hours in the timesheet header.
 
 ## View the total hours on your timesheet in a list of timesheets
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Timesheets**. The **All** filter is selected by default and it displays all the timesheets you have access to view.
+{{step1-to-timesheets}}
+   
+   The **Timesheets** area opens. 
 
    ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
@@ -62,7 +71,7 @@ You can view a timesheet's Total Hours in the timesheet header.
 
      Select **My Timesheets** to view only your timesheets.
 
-     This applies the My Timesheet Approvals or the My&nbsp;Timesheet filters to the list of timesheets.
+     This applies the My Timesheet Approvals or the My Timesheet filters to the list of timesheets.
 
      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
@@ -70,7 +79,7 @@ You can view a timesheet's Total Hours in the timesheet header.
 
    >[!NOTE]
    >
-   >The My Timesheet Approvals and My&nbsp;Timesheets options do not display at the top of the timesheet list or in the list of filters if your Workfront administrator or a group administrator removed the My&nbsp;Timesheet Approvals and the My&nbsp;Timesheets filters from either the List Controls in the Setup area or from your Layout Template.&nbsp;For more information see the following articles:
+   >The My Timesheet Approvals and My Timesheets options do not display at the top of the timesheet list or in the list of filters if your Workfront administrator or a group administrator removed the My Timesheet Approvals and the My Timesheets filters from either the List Controls in the Setup area or from your Layout Template. For more information see the following articles:
    >
    >   
    >   
@@ -92,4 +101,4 @@ You can view a timesheet's Total Hours in the timesheet header.
 
    >[!TIP]
    >
-   >When using the Standard view for a list of timesheets, the Total Hours column displays in red if the time logged for the items on the timesheet exceeds the number of hours in the timesheet's time frame.&nbsp;For more information, see the "Total Hours"&nbsp;field in [Glossary of Adobe Workfront terminology](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   >When using the Standard view for a list of timesheets, the Total Hours column displays in red if the time logged for the items on the timesheet exceeds the number of hours in the timesheet's time frame. For more information, see the "Total Hours" field in [Glossary of Adobe Workfront terminology](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).

@@ -1,9 +1,9 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Delete a request draft
+title: Delete a Request Draft
 description: You can delete request drafts as you are creating them, by discarding them.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
 ---
@@ -11,7 +11,7 @@ exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
 
 You can delete request drafts as you are creating them, by discarding them.
 
-For information see:
+For information, see:
 
 * [Create and submit Adobe Workfront requests](../../../manage-work/requests/create-requests/create-submit-requests.md) 
 * [Create requests from drafts](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)
@@ -20,6 +20,8 @@ You can delete drafted requests after they are saved as drafts if you no longer 
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -27,21 +29,26 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Request or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Contributor or higher</p>
+   Or
+   <p>Current: Request or higher</p>
+    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Issues</p> <p>Note: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Issues</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Prerequisites for deleting request drafts
 
@@ -53,8 +60,9 @@ You must do the following before you can delete&nbsp;a request draft:
 
 ## Delete a request draft
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
-1. Click&nbsp;**Requests**, then click **Drafts** in the left panel.
+{{step1-to-requests}}
+
+1. Select **Drafts** in the left panel.
 
    All drafts for all request queues display in this list. 
 

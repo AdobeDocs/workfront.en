@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-proofing-functionality
-title: Configure proof settings for your organization
+title: Configure Proof Settings for Your Organization
 description: As an Adobe Workfront administrator or Workfront Proof administrator, you can customize the default proof settings for your organization. These settings include default sharing options, branding, and more.
 author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
@@ -14,6 +14,8 @@ exl-id: 29405172-c3dd-431f-a242-fd38b53a307d
 As an Adobe Workfront administrator or Workfront Proof administrator, you can customize the default proof settings for your organization. These settings include default sharing options, branding, and more.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following:
 
@@ -38,6 +40,8 @@ You must have the following:
 
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 
++++
+
 ## Configure actions
 
 For information about using actions in the proofing viewer, see [Use actions on proof comments](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/use-actions-on-comments-in-viewer.md).
@@ -50,7 +54,7 @@ You can configure actions for your organization in the following ways:
 
 ### Add or rename an action {#add-or-rename-an-action}
 
-1. From Workfront, click the Main Menu ![](assets/main-menu-icon.png), then click Proofing ![](assets/proofing-in-main-menu.png) to access Workfront Proof.  
+{{step1-to-proofing}}
 
 1. Click **Settings** > **Account settings** in the upper-right corner of the Workfront Proof interface, then click the **Settings** tab.
 
@@ -67,7 +71,7 @@ You can configure actions for your organization in the following ways:
 
 ### Deactivate or reactivate an action {#deactivate-or-reactivate-an-action}
 
-1. From Workfront, click the Main Menu ![](assets/main-menu-icon.png), then click Proofing ![](assets/proofing-in-main-menu.png) to access Workfront Proof.  
+{{step1-to-proofing}} 
 
 1. Click **Settings** > **Account settings** in the upper-right corner of the Workfront Proof interface, then click the **Settings** tab.
 
@@ -76,7 +80,7 @@ You can configure actions for your organization in the following ways:
 
 ### Reorder actions {#reorder-actions}
 
-1. From Workfront, click the Main Menu ![](assets/main-menu-icon.png), then click Proofing ![](assets/proofing-in-main-menu.png) to access Workfront Proof.  
+{{step1-to-proofing}} 
 
 1. Click **Settings** > **Account settings** in the upper-right corner of the Workfront Proof interface, then click the **Settings** tab.
 
@@ -92,7 +96,7 @@ For information about how users can select devices when reviewing interactive co
 
 To add a custom device:
 
-1. From Workfront, click the Main Menu ![](assets/main-menu-icon.png), then click Proofing ![](assets/proofing-in-main-menu.png) to access Workfront Proof.  
+{{step1-to-proofing}} 
 
 1. Click **Settings** > **Account settings** in the upper-right corner of the Workfront Proof interface, then click the **Settings** tab.
 

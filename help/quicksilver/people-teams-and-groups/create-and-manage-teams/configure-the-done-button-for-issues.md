@@ -1,7 +1,7 @@
 ---
 product-area: agile-and-teams;setup
 navigation-topic: create-and-manage-teams
-title: Configure the Done button for issues
+title: Configure the Done Button for Issues
 description: The Done button can automatically set the status of a task or an issue. By default, Adobe Workfront marks an issue as Resolved when an assignee clicks Done on their work item.
 author: Lisa
 feature: People Teams and Groups
@@ -22,36 +22,41 @@ Users with certain permissions can configure the [!UICONTROL Done] button to ref
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Any</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront plan</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>
+   <p>New: Standard</p>
+   <p>or</p>
+   <p>Current: Plan</p></td>
   </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td>System administrator access is required to configure the [!UICONTROL Done] button when the [!UICONTROL Resolved] status is deleted</td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>System administrator access is required to configure the Done button when the Resolved status is deleted</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Configure the [!UICONTROL Done] button for a Team 
 
 You can change which status is applied to the work item with the [!UICONTROL Done] button. You can also set multiple statuses and allow the user to choose which status is appropriate.
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Teams]**.
+{{step1-to-team}}
 
 1. Click the **[!UICONTROL Switch team]** icon, then either select a new team from the drop-down menu or search for a team in the search bar.
 1. Click the **[!UICONTROL More]** menu, then click **[!UICONTROL Edit]**.

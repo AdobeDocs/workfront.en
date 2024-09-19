@@ -4,13 +4,15 @@ product-area: system-administration;workfront-integrations
 navigation-topic: administration-and-setup
 title: Blueprints
 description: Review these articles to learn how to use Blueprints in Adobe Workfront.
-author: Lisa
+author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 03a23bb6-f30d-4f4d-9e17-069e37ec474a
 ---
 # Blueprints
+
+This section contains the following articles:
 
 * [Blueprints overview](../../administration-and-setup/blueprints/blueprints-overview.md) 
 * [Configure access to blueprints](../../administration-and-setup/blueprints/configure-access-to-blueprints.md) 

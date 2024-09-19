@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: start-with-workfront-administration
-title: Configure your firewall's allowlist
+title: Configure Your Firewall's Allowlist
 description: If your firewall or mail server is configured to allow access to only certain vendors, you must add certain IP addresses to its allowlist. This opens communication between your environment and the Adobe Workfront servers and allows your users to send messages from Workfront and to use SSO with Active Directory or LDAP.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 264eed40-6d90-498b-83cc-2500c8b19c84
@@ -53,7 +53,8 @@ The IP addresses that you must add to your allowlist on your firewall depend on 
 
 To locate your organization's cluster:
 
-1. As a Workfront administrator, click the **Main Menu** icon ![Main Menu](assets/main-menu-icon.png), then click **Setup**.
+{{step-1-to-setup}}
+
 1. In the left navigation, click **System**, then select **Customer Info**.
 1. Locate the **Cluster Setup** field at the upper-right corner of the page. Your organization's cluster is listed here.
 

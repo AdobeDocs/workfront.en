@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: security
-title: Restrict access to Adobe Workfront by IP address
+title: Restrict Access to Adobe Workfront by IP Dddress
 description: You can configure an Adobe Workfront IP allowlist that limits access to Workfront to 45 IP addresses or IP address ranges that you specify. This provides an additional layer of security for the Workfront application.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: aed65b42-d534-453a-885d-f922114987bc
@@ -16,6 +16,8 @@ You can configure an Adobe Workfront IP allowlist that limits access to Workfron
 These IP addresses or IP address ranges should be provided by your network administrator.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -38,6 +40,8 @@ You must have the following to perform the steps in this article:
  </tbody> 
 </table>
 
++++
+
 ## Other allowlists
 
 If your firewall or mail server is configured to allow access to only certain vendors, you must add certain IP addresses to its allowlist. This opens communication between your environment and the Adobe Workfront servers. For information about that, see [Configure your firewall's allowlist](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
@@ -48,7 +52,7 @@ Also, if your organization uses the Enterprise plan, you can configure the Workf
 
 After you add IP addresses to the Workfront allowlist, only those IP addresses can be used to access Workfront. Users who try to access Workfront from another IP address receive an error message indicating that their IP address is blocked.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **System** > **Customer Info.**
 

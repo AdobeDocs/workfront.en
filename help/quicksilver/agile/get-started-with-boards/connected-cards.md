@@ -1,7 +1,7 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Use connected cards on boards
+title: Use Connected Cards on Boards
 description: You can add a card on your board that is connected to existing tasks and issues in Workfront.
 author: Lisa
 feature: Agile
@@ -66,7 +66,8 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Add a connected card
 
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Boards]**.
+{{step1-to-boards}}
+
 1. Access a board. For information, see [Create or edit a board](../../agile/get-started-with-boards/create-edit-board.md).
 1. Click **[!UICONTROL Add card] &gt; [!UICONTROL Connected card]**.
 1. Choose a project, then choose a task or issue to add as a card on the board.

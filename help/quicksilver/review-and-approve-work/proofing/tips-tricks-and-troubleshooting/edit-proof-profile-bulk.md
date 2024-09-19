@@ -12,6 +12,8 @@ exl-id: a804a007-7c9f-471e-ad07-8adca6672575
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -39,9 +41,11 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, role, or Proof Permission Profile you have, contact your Workfront or Workfront Proof administrator.
 
++++
+
 ## Edit the Proof Permission Profile field in Bulk
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 
+{{step-1-to-users}}
 
 1. Sort your users by **Access Level**. We recommend batch editing by Access Level to ensure the **Proof Permission Profile** field appears. 
 

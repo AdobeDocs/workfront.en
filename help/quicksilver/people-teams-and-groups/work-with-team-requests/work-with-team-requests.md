@@ -2,7 +2,7 @@
 content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
-title: Work with team requests
+title: Work with Team Requests
 description: Review these articles to learn how to work with team requests in Workfront.
 author: Lisa
 feature: People Teams and Groups

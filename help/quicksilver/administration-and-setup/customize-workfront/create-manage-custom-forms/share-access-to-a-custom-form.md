@@ -1,5 +1,5 @@
 ---
-title: Share a custom form
+title: Share a Custom Form
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -14,6 +14,8 @@ exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
 You can configure access for a custom form to control who—person, role, group, team, company—can view, share, and edit it.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following to perform the steps in this article:
 
@@ -40,6 +42,8 @@ You must have the following to perform the steps in this article:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Access to custom forms {#access-to-custom-forms}
 

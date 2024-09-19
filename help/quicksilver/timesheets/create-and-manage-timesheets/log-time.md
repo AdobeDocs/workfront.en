@@ -41,11 +41,8 @@ You must have the following access to perform the steps in this article and log 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
-   <td> <p>New: 
-   <ul><li>Light or higher to log General Hours in a timesheet</li>
-   <li>Standard to log hours on a project, task, or issue</li></ul> 
-
-
+   <td> <p>New: </p>
+   <p>Light or higher to log hours on a project, task, issue, or General Hours on a timesheet</p>
    <p>Current: 
    <ul><li>Review or higher to log General Hours in a timesheet</li>
    <li>Work or higher to log hours on a project, task, or issue</li></ul> </td> 
@@ -467,3 +464,44 @@ For more information, see [Use connected cards on boards](/help/quicksilver/agil
 
 You can log time from the Workfront mobile app.
 For more information, see [Adobe Workfront for Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) or [Adobe Workfront for iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).
+
+## Edit logged hours in lists and reports
+
+>[!CAUTION]
+>
+>* You cannot modify hour entries that belong to a closed timesheet. You must first re-open the timesheet, and then change the hour entry information.
+>* When you change the Hour Type from an type that does not count as revenue to another type that counts as revenue, changes to the project's finances also occur. Changing Hour Types from a type that counts as revenue to a type that does not count as revenue updates the project's finances, as well. 
+>
+>For information, see [Manage hour types](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/hour-types.md). 
+>
+
+You can edit logged hours in the following areas:
+
+* All areas where you added the hours, including open timesheets
+* Hour lists and reports.
+
+You can edit the following elements of an hour entry when you edit an hour entry in a list or report:
+
+* Number of hours
+* Hour Type
+* Job role associated with the hour entry
+
+Depending on what type of hour entries you edit, the following fields are available for editing: 
+
+* When you edit project-specific hours:
+
+   * You can edit the number of hours.  
+   * You can change the Hour Type only to project-specific types.
+   * You can change the hour Job role assignment only if it was enabled in Setup. For information, see [Configure timesheet and hour preferences](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) 
+
+* When you edit general hours: 
+
+   * You can edit the number of hours. 
+   * You can change the Hour Type only to general types. 
+   * You cannot change the hour Job role assignment, because general hours cannot be associated with roles. 
+
+* When you edit a mix of general and project-specific hours, in bulk: 
+
+   * You can edit the number of hours.
+   * You cannot change the Hour Type, because general hour types cannot be changed to project-specific types and project-specific hour types cannot be changed to general types. 
+   * You cannot change the Job role assignment, because general hours cannot be associated with roles. 

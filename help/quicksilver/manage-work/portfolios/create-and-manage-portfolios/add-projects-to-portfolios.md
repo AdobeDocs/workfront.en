@@ -28,7 +28,8 @@ Consider the following when adding projects to portfolios:
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
-   <td> <p>Any</p> </td> 
+   <td> <p>Any</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
@@ -36,12 +37,12 @@ Consider the following when adding projects to portfolios:
    <p>Current:[!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations</td> 
-   <td> <p>[!UICONTROL View] access to Portfolios or higher</p> <p>[!UICONTROL Edit] access to Projects</p> </td> 
+   <td role="rowheader">Access level</td> 
+   <td> <p>[!UICONTROL Edit] access Portfolios</p> <p>[!UICONTROL Edit] access to Projects</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>[!UICONTROL View] permissions to the portfolio</p> <p>[!UICONTROL Manage] permissions to the projects</p>  </td> 
+   <td> <p>[!UICONTROL Manage] permissions to the portfolio</p> <p>[!UICONTROL Manage] permissions to the projects</p>  </td> 
   </tr> 
  </tbody> 
 </table>

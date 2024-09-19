@@ -1,5 +1,5 @@
 ---
-title: New licenses overview
+title: New Licenses Overview
 user-type: administrator
 content-type: reference
 product-area: system-administration

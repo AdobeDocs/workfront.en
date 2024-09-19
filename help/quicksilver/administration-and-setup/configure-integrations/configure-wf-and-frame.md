@@ -1,5 +1,5 @@
 ---
-title: Configure the [!DNL Workfront] and [!DNL Frame.io] integration
+title: Configure the [!DNL Workfront] and [!DNL Frame.io] Integration
 user-type: administrator
 product-area: system-administration;workfront-integrations;setup
 navigation-topic: administrator-integrations
@@ -7,6 +7,8 @@ description: As an [!DNL Adobe Workfront] administrator, you can integrate [!DNL
 author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
+hide: yes
+hidefromtoc: yes
 exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
 ---
 # Configure the [!DNL Workfront] and [!DNL Frame.io] integration
@@ -20,25 +22,23 @@ The Workfront administrator enables the integration between Workfront and Frame.
 >
 >This functionality is available only to organization that have been onboarded to the [!DNL Adobe Admin Console].
 
-You must have the following:
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] plan</strong>
-   </td>
-   <td>Any
-   </td>
+   <td>[!DNL Adobe Workfront] plan</td>
+   <td>Any</td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] licenses</strong>
+   <td>[!DNL Adobe Workfront] licenses
    </td>
-   <td>Current: [!UICONTROL Plan] <br>
-   New: [!UICONTROL Standard]
-   </td>
+   <td><p>Current: [!UICONTROL Plan]</p>
+   <p>New: [!UICONTROL Standard]</p></td>
   </tr>
-  
   <tr>
-   <td><strong>Access level configurations</strong>
+   <td>Access level configurations
    </td>
    <td>You must be a [!DNL Workfront] administrator.
    </td>
@@ -48,6 +48,7 @@ You must have the following:
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
 
 ## Configure a default [!DNL Frame.io] account [!BADGE Coming soon]{type=Informative}
 

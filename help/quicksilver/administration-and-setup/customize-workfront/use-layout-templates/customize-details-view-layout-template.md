@@ -1,5 +1,5 @@
 ---
-title: Customize the Details view using a layout template
+title: Customize the Details View Using a Layout Template
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -45,7 +45,7 @@ The changes you make to the Details view for an object also determine the availa
   ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
   
 
-* Summary ![](assets/summary-panel-icon.png) panel for lists of tasks and issues
+* Summary panel ![](assets/summary-panel-icon.png) for lists of tasks and issues
 
   ![](assets/summary-area.png)
 
@@ -61,6 +61,8 @@ For information about layout templates for groups, see [Create and modify a grou
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
@@ -72,16 +74,22 @@ You must have the following access to perform the steps in this article:
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td><p>New: Standard</p>
+  <p> Current: Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
    <td> <p>To perform these steps at the system level, you need the System Administrator access level.
-To perform them for a group, you must be a manager of that group</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+To perform them for a group, you must be a manager of that group.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Customize what users see in the Details view
 
@@ -94,11 +102,13 @@ To perform them for a group, you must be a manager of that group</p> <p><b>NOTE<
 1. In the **Details** section, do any of the following to customize what users see in the Details view:
 
    * Drag any section headers ![](assets/move-icon---dots.png) to change their order.
-   * Enable or disable options under **Overview** and **Custom Forms** to show or hide them.
+   * Enable or disable options under the various areas (such as **Overview**, **Finance**, and **Custom Forms**) to show or hide them.
 
      If you hide all fields in one of these sections, the entire section is hidden.
 
-     All of the fields are enabled by default.
+     All of the fields are enabled by default. You can select or clear the **Select all** check box in an area to display or hide all of the fields in that area.
+
+   ![Details view in layout template](assets/layout-template-details-view.png)
 
 1. Continue customizing the layout template.
 

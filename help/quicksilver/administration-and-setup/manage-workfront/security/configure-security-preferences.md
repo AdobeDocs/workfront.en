@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: security
-title: Configure system preferences
+title: Configure System Preferences
 description: As an Adobe Workfront administrator, you can configure preferences for your Workfront system, including security preferences.
 author: Becky
 feature: System Setup and Administration
@@ -30,6 +30,8 @@ We recommend that you configure your system preferences during the Workfront imp
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto"> 
@@ -54,6 +56,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Configure your system preferences
 

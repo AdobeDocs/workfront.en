@@ -96,17 +96,13 @@ A [!DNL Microsoft Word] template is a regular [!DNL Microsoft Word] document (.d
 
 ### Simple value tag {#simple-value-tag}
 
-A simple value tag is simply replaced with a corresponding value. The tag's name corresponds with the [!UICONTROL Key] field's value, which is placed inside double curly braces; for example, 
-
-
-<pre>&#123;&#123;name&#125;&#125;</pre>
-
-
-.
+A simple value tag is simply replaced with a corresponding value. The tag's name corresponds with the [!UICONTROL Key] field's value, which is placed inside double curly braces; for example, `{{name}}`.
 
 **Example:** To create a document that says "Hi, Petr!", you could use a [!DNL Microsoft Word Template] module to create the following template:
 
-<pre>> Hi &#123;&#123;name&#125;&#125;!</pre>
+```
+> Hi {{name}}!
+```
 
 To do this, you would set up the module as follows:
 
@@ -117,12 +113,21 @@ To do this, you would set up the module as follows:
 You can use a condition tag to wrap text that should be rendered only when certain conditions are met. To wrap the text, place it between opening and closing condition tags, such as "hasPhone" if the condition is whether or not the data includes a phone number. The name of an opening tag is prepended with a hash sign #, the name of a closing tag is prepended with a slash /, as shown in the example below.
 
 **Example:** To produce a document that includes a customer's phone number if the input data includes a phone number, but no email address, you could use a [!DNL Microsoft Word Template] module and create the following template:
-<pre>> &#123;&#123;#hasPhone&#125;&#125;Phone: &#123;&#123;phone&#125;&#125; &#123;&#123;/hasPhone&#125;&#125;</pre><pre>> &#123;&#123;#hasEmail&#125;&#125;Email: &#123;&#123;email&#125;&#125; &#123;&#123;/hasEmail&#125;&#125;</pre>To do this, you would set up the module as follows:
+
+```
+> {{#hasPhone}}Phone: {{phone}} {{/hasPhone}}
+> {{#hasEmail}}Email: {{email}} {{/hasEmail}}
+```
+
+To do this, you would set up the module as follows:
 
 ![](assets/word-template-conditional-350x501.png)
 
 In the document, the phone number would appear as follows:
-<pre>> Phone: 4445551234</pre>
+
+```
+> Phone: 4445551234
+```
 
 ### Loop tag {#loop-tag}
 
@@ -135,7 +140,11 @@ You can use a loop tag, also known as a section tag, to repeat a section of text
 
 **Example:** To produce a document that lists the name and phone number of each contact in a customer list, you could use a [!DNL Microsoft Word Template] module and create the following template:
 
-<pre>> &#123;&#123;#contact&#125;&#125;</pre><pre>>     &#123;&#123;name&#125;&#125;, &#123;&#123;phone&#125;&#125;</pre><pre>> &#123;&#123;/contact&#125;&#125;</pre>
+```
+> {{#contact}}
+>     {{name}}, {{phone}}
+> {{/contact}}
+```
 
 To do this, you would set up the module as follows:
 

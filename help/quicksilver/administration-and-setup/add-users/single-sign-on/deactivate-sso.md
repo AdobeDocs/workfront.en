@@ -2,9 +2,9 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: single-sign-on-in-workfront
-title: Deactivate single sign-on in Adobe Workfront
+title: Deactivate Single Sign-On in Adobe Workfront
 description: You can deactivate single sign-on in Workfront.
-author: Caroline
+author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d661da6-dc7b-4dea-a56c-28e296acd980
@@ -17,6 +17,8 @@ After you deactivate single sign-on (SSO) in Adobe Workfront, users need to log 
 
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article: 
 
@@ -39,9 +41,11 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
++++
+
 ## Deactivate SSO
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. Click **System** > **Single Sign-On (SSO)**.
 

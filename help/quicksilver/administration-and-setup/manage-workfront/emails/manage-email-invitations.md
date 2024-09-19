@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: Manage email invitations to new users
+title: Manage Email Invitations to New Users
 description: As an Adobe Workfront administrator, you can add users to Workfront and notify them that they have been added, by using email invitations.
 author: Nolan
 feature: System Setup and Administration
@@ -38,6 +38,8 @@ For information about receiving email invitations, see [Receive email invitation
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -59,6 +61,8 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
++++
+
 ## Generate email invitations {#generate-email-invitations}
 
 Email invitations are generated in the following scenarios:
@@ -74,7 +78,8 @@ Email invitations are generated in the following scenarios:
 
 To manually generate email invitations to existing unregistered users:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Users** ![](assets/users-icon-in-main-menu.png). 
+{{step-1-to-users}} 
+
 1. Select the user who shows the **Unregistered** label after their name.
 
    ![](assets/unreg-user-qs-350x221.png)
@@ -95,7 +100,7 @@ To manually generate email invitations to existing unregistered users:
 
 As a Workfront administrator, you can configure the message you include with the email invitations for new users.
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png).
+{{step-1-to-setup}}
 
 1. In the list on the left, click **Email** > **Invitations**.
 

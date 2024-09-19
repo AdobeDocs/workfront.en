@@ -23,4 +23,5 @@ This section contains the following subsections:
 * [Grant and request permissions to objects](../workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md) 
 * [Manage your account and profile](../workfront-basics/manage-your-account-and-profile/manage-your-account-and-profile.md) 
 * [Mobile Apps](../workfront-basics/mobile-apps/mobile-apps.md) 
+* [AI Assistant in Workfront](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant.md)
 * [Tips, Tricks, and Troubleshooting for Adobe Workfront Basics](../workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)

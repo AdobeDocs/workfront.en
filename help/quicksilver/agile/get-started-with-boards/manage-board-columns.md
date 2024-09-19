@@ -1,7 +1,7 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Manage board columns
+title: Manage Board Columns
 description: A new board contains three columns by default. You can add more columns, change the order of the columns, rename columns, and delete any columns that you don't need. You can also define column policies.
 author: Lisa
 feature: Agile
@@ -18,6 +18,8 @@ Column settings include policies, which allow you to define options for what hap
 For information about sorting the cards in columns, see [Filter and search in a board](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -41,6 +43,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Add a column to a board
 

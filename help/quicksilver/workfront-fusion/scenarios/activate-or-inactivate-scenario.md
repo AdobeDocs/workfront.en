@@ -18,7 +18,7 @@ You can work with scenarios either in an active or an inactive state:
 
 * An inactive scenario executes only when you run it manually.
 
-   This is useful when you want to run the scenario only at certain times.
+   This is useful when you want to run the scenario manually every time.
 
 You can activate or deactivate a scenario at any time, depending on how you want to use the scenario.
 
@@ -70,6 +70,6 @@ You must create a scenario before you can activate it.
 ## Activate or deactivate a scenario:
 
 1. Click **[!UICONTROL Scenarios]** ![](assets/scenarios-icon.png) in the left panel, then click the scenario to open it.
-1. In the upper-right corner of the window, click the **[!UICONTROL On/Off]** toggle.
+1. In the lower-left corner of the window, click the **[!UICONTROL On/Off]** toggle.
 
    ![](assets/on-off-switch.jpg)

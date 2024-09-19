@@ -2,7 +2,7 @@
 content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
-title: Manage work and team requests
+title: Manage Work and Team Requests
 description: A request represents a pending task or issue assignment. Work requests are made to individuals, and team requests are made to teams.
 author: Lisa
 feature: People Teams and Groups, Work Management
@@ -18,26 +18,36 @@ A request represents a pending task or issue assignment. Work requests are made 
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Any</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>Review or higher to assign or work on a request; Work or higher to reassign a request</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>
+   <p>To assign or work on a request:
+   <p>New: Light or higher</br>
+    or</br>
+   Current: Review or higher</p>
+   <p>To reassign a request:
+   <p>New: Standard</br>
+    or</br>
+   Current: Work or higher</p></td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Assign a request to a team {#assign-a-request-to-a-team}
 
@@ -58,7 +68,7 @@ You can manually assign a request to a team from the team page, as described in 
 
 To manually assign a request to a team from the team page:
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Teams]**.
+{{step1-to-team}}
 
 1. Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new team from the drop-down menu or search for a team in the search bar.
 
@@ -74,7 +84,8 @@ To manually assign a request to a team from the team page:
 
 You can reassign requests that have been assigned to your team:
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront], then click **[!UICONTROL Teams]**.
+{{step1-to-team}}
+
 1. Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new team from the drop-down menu or search for a team in the search bar.
 1. In the left navigation panel, select **[!UICONTROL Team Requests]**.
 1. Click the **[!UICONTROL Reassign]** icon.  

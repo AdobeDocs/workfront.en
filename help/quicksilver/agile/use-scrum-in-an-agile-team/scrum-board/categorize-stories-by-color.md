@@ -1,7 +1,7 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
-title: Categorize stories by color on the Scrum board
+title: Categorize Stories by Color on the Scrum Board
 description: The default color association of Scrum board stories differs depending on whether the story board is located on an iteration or on a project.
 author: Lisa
 feature: Agile
@@ -19,36 +19,34 @@ The default color association of stories differs depending on whether the story 
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
- <col> 
- </col> 
- <col> 
- </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Work] or higher</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>Access level configurations*</strong></td> 
-   <td> <p>[!UICONTROL Worker] or higher</p> <p>Note: If you still don't have access, ask your [!DNL Workfront] administrator if they set additional restrictions in your access level. For information on how a [!DNL Workfront] administrator can change your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
+   <td> <p>New: [!UICONTROL Standard]</p> 
+   or
+   <p>Current: [!UICONTROL Work] or higher</p> </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Change the color of stories when using free form
 
 If the agile team settings have been configured so the [!UICONTROL Associate Card Color to] option is set to [!UICONTROL Free Form], users can manually change the color of individual story tiles. This can be useful to communicate other types of information that is important to the team or the organization:
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe] Workfront, then click **[!UICONTROL Teams]**.
+{{step1-to-team}}
 
 1. (Optional) Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new Scrum team from the drop-down menu or search for a team in the search bar.
 

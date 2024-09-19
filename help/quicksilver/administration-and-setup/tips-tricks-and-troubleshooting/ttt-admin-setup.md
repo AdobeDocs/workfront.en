@@ -3,9 +3,9 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: Tips, tricks, and troubleshooting for administration and setup
+title: Tips, Tricks, and Troubleshooting for Administration and Setup
 description: Find miscellaneous helps for administrating your organization's Workfront system in this section.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog

@@ -15,6 +15,8 @@ Consider the following when creating static proofs for a website or other web co
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -42,6 +44,8 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, role, or Proof Permission Profile you have, contact your Workfront or Workfront Proof administrator.
 
++++
+
 ## Create a static proof for a website or other web content
 
 To create a static proof, the website needs to be publicly accessible (not behind a firewall), or your organization's allowlist must include the Workfront domain. Workfront cannot capture a password-protected website as a static proof.
@@ -65,7 +69,7 @@ To create a static proof, the website needs to be publicly accessible (not behin
 
    >[!NOTE]
    >
-   > The URL must be less than 1,000 characters.
+   > The URL must be less than 2,000 characters.
 
 1. Click the URL you have added.
 

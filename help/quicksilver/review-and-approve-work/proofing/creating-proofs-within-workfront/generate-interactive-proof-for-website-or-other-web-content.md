@@ -19,6 +19,8 @@ In an interactive proof, reviewers can navigate and interact as they normally wo
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -45,6 +47,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 &#42;To find out what plan, role, or Proof Permission Profile you have, contact your Workfront or Workfront Proof administrator.
+
++++
 
 ## Create an interactive proof for a website or other web content
 

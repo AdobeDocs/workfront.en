@@ -19,6 +19,8 @@ You can make comments on the following items in a timesheet:
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article. 
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -36,7 +38,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Access level configuration</td> 
-   <td> <p>View access or higher to Tasks and Issues</p> </td> 
+   <td> <p>View or higher access to Tasks and Issues</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
@@ -47,6 +49,8 @@ You must have the following access to perform the steps in this article:
 
 *To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
++++
+
 ## View hour entry comments on a timesheet {#view-hour-entry-comments-on-a-timesheet}
 
 You can configure comments that are made on individual hour entries to be displayed in the timesheet. The option to show and hide comments does not affect comments made on the overall timesheet or comments made on individual items. For more information, see&nbsp; [Make comments on a timesheet](#make-comments-on-a-timesheet).
@@ -55,9 +59,10 @@ By default, comments are hidden the first time you access a timesheet.
 
 To show comments on a timesheet:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront.
-
-1. Click **Timesheets**.
+{{step1-to-timesheets}}
+   
+   The **Timesheets** area opens. 
+   
 1. Open the timesheet where you want to display comments.
 1. Click **Show comments** in the upper-right corner of the timesheet.
    Comments display under the item where the hour entry and the comment were logged.

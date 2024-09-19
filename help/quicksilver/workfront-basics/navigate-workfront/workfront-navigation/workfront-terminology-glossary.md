@@ -297,7 +297,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
   <tr> 
    <td>[!UICONTROL Budgeted Completion Date]</td> 
    <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that [!DNL Workfront] has removed. This field cannot be updated. </p>
-   <p> This field is still visible in [!UICONTROL project] and [!UICONTROL tasks] reports and lists.</p>  </td> 
+   <p> This field is still visible in [!UICONTROL project] reports and lists.</p>  </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Budgeted Cost]</td>
@@ -437,7 +437,7 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>[!UICONTROL Budgeted Start Date]</td> 
   <td> <p>This is a deprecated field. Any information that this field might display is related to a feature that [!DNL Workfront] has removed. This field cannot be updated.</p>
   <p>These areas have been removed from [!DNL Workfront]. </p> 
-  <p>The field is still visible in [!UICONTROL project] and [!UICONTROL task] reports and lists.</p>
+  <p>The field is still visible in [!UICONTROL project] reports and lists.</p>
    <!--
    <p>This field shows the date when the budgeting of resources starts, as defined in the Legacy Resource Estimates area of the Business Case of a project, or the Capacity Planner.</p>
    -->   
@@ -1534,6 +1534,19 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL Planned Cost]</td> 
    <td> <p>A total of the [!UICONTROL Planned Labor Cost] and the [!UICONTROL Planned Expense Cost] of the project. This does not include the [!UICONTROL Planned Risk Cost] on the project.  </p> </td> 
+  </tr> 
+
+
+
+  <tr> 
+   <td>[!UICONTROL Planned Date Alignment]</td> 
+   <td> <p>This is an automatic indicator that Workfront assigns projects, tasks, and issues to show when an item will be completed in relation to its Planned Completion Date. </p>
+   <p>The following are possible values for the Planned Date Alignment indicator: </p>
+<ul>
+<li>Will be done on the planned completion date</li>
+<li>Will be done before the planned completion date</li>
+<li>Will be done after the planned completion date</li></ul>
+<p>The Planned Date Alignment is visible in project, task, and issue lists and reports. </p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Planned Duration]</td> 

@@ -1,8 +1,9 @@
 ---
-title: Create records
-description: When using Adobe Workfront Planning, a record is an instance of a record type. 
-hidefromtoc: yes
-hide: yes
+title: Create Records
+description: When using Adobe Workfront Planning, a record is an instance of a record type. You can create unique records for each record type in Workfront Planning by manually adding them to the table view, importing them from a list, duplicating them, or creating them as you connect them to other records. 
+feature: Workfront Planning
+role: User, Admin
+author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
 ---
@@ -16,17 +17,91 @@ In Adobe Workfront Planning, a record is an instance of a record type.
 
 You can create records by doing one of the following:
 
-* Manually create them for record types
-* Create records by copying and pasting information from an external list. 
+* Add records from the record type page in the table view
+* Copy and paste a list of records from an external list
+* Duplicate records from a table view
+* Create records as you connect them from other records
+* Create them by submitting a request form to a record type
 
-This article describes how you can create records. For information about managing records in the table or timeline views, see the following articles:
+This article describes how you can create records. 
+
+For information about managing records in the table or timeline views, see the following articles:
 
 * [Manage the table view](/help/quicksilver/planning/views/manage-the-table-view.md)
 * [Manage the timeline view](/help/quicksilver/planning/views/manage-the-timeline-view.md)
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article: 
++++ Expand to view access requirements for Workfront Planning. 
+
+You must have the following to be able to access Workfront Planning:  
+
+ <table style="table-layout:auto"> 
+<col> 
+</col> 
+<col> 
+</col> 
+<tbody> 
+    <tr> 
+<tr> 
+<td> 
+   <p> Products</p> </td> 
+   <td> 
+   <ul><li><p> Adobe Workfront</p></li> 
+   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+  </tr>   
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
+   <td> 
+<p>Any of the following Workfront plans:</p> 
+<ul><li>Select</li> 
+<li>Prime</li> 
+<li>Ultimate</li></ul> 
+<p>Workfront Planning is not available for legacy Workfront plans</p> 
+   </td> 
+<tr> 
+   <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td> 
+   <td> 
+<p>Any </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
+   </td> 
+ <tr> 
+   <td role="rowheader"><p>Adobe Workfront platform</p></td> 
+   <td> 
+<p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning.</p> 
+<p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+   </td> 
+   </tr> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Adobe Workfront license*</p></td> 
+   <td> Standard
+   <p>Workfront Planning is not available for legacy Workfront licenses</p> 
+  </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Access level configuration</p></td> 
+   <td> <p>There are no access level controls for Adobe Workfront Planning</p> 
+   <p>Edit access in Workfront for the object types that you want to create (projects and portfolios) as you connect the records to them. </p>  
+</td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Object permissions</p></td> 
+   <td> <p>Manage permissions to the workspace you want to add records to. </p>  
+   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
+   <p>Manage permissions to Workfront objects (portfolios) to add children objects (projects).</p>
+   </td> 
+  </tr> 
+<tr> 
+   <td role="rowheader"><p>Layout template</p></td> 
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu </p> </td> 
+  </tr> 
+</tbody> 
+</table> 
+
+ *For more information about Workfront access requirements, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).   
+
+<!--OLD info: 
 
 <table style="table-layout:auto">
  <col>
@@ -80,14 +155,11 @@ You must have the following access to perform the steps in this article:
  </tbody>
 </table>
 
-*For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+*For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
 
-<!--Maybe enable this at GA - but Planning is not supposed to have Access controls in the Workfront Access Level: 
->[!NOTE]
->
->If you don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see [Create or modify custom access levels](/help/quicksilver/planning/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). -->
++++
 
-## Create records by manually adding them to a record type <!--in a record type table (I don't think you can create them elsewhere right now)-->
+## Create records by adding them to a record type in a record type table 
 
 You can create records in the table view of a record type page. 
 
@@ -110,7 +182,8 @@ For information about editing record information, see [Edit records](/help/quick
 
         * Click **New record** in the last row of the table 
 
-        * Click **Shift + Enter** on your keyboard from any column or row of the table. This ads an empty row. 
+        * Click **Shift + Enter** on your keyboard from any column or row of the table. This adds an empty row under the record you start from. 
+        * Hover over a record's primary field, click the **More** menu ![](assets/more-menu.png) to the right of the field, then click **Insert record above** or **Insert record below**. 
 
         ![](assets/adding-a-new-campaign-in-table-row.png)
 
@@ -171,7 +244,7 @@ You can import records from other applications by linking them to existing recor
    
 -->
 
-## Create records by copying and pasting information from an external list
+## Create records by copying and pasting them from an external list
 
 1. Start creating records in the Table view, as described in the section [Create records by manually adding them to a record type](#create-records-by-manually-adding-them-to-a-record-type) in this article. 
 
@@ -199,3 +272,44 @@ You can import records from other applications by linking them to existing recor
     
     * The rows contain the new records
     * The columns populate information for the fields of the records.
+
+## Create records by duplicating them
+
+For information about duplicating records, see [Duplicate records](/help/quicksilver/planning/records/copy-or-duplicate-records.md).
+
+## Create records as you connect them
+
+You can create records or Workfront objects as you connect them from other records. 
+
+You must have the following before you can add new records or Workfront objects by connecting them from existing records:
+
+* Connected record types. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Connected records. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md).
+* The correct access and permissions in Workfront Planning and Workfront, as described in the section [Access requirements](#access-requirements) in this article. 
+
+>[!NOTE]
+>
+>Creating Workfront projects and portfolios as you connect them to Workfront Planning records is similar to creating Planning records as you connect them from other records.
+
+To create records as you are connecting them from other records: 
+
+1. Start connecting Workfront Planning records, as described in the article [Connect records](/help/quicksilver/planning/records/connect-records.md). 
+1. (Conditional) If you cannot find a record when trying to add it from the connected record field of another record, search for a record, then click **+ Add**. The **+ Add** button is followed by the name of the record type you are connecting from. 
+
+    ![](assets/add-button-to-create-records-in-context-highlighted.png)
+
+    The record is created and added to the connected record field. 
+1. (Optional) Go to the table view of the record type whose record you created. A new record displays in the last row of the view. 
+1. (Optional) Start adding information for the new record in the table view
+Or
+Click its name to open the details page and add information there. 
+
+## Create records by submitting a request form to a record type
+
+After someone creates a request form for a record type and shares a link to it with you, you can submit a request which creates a record for that record type. 
+
+For information, see [Create and manage a request form in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+Both Workfront users and users external to your organization can submit requests to Planning record types and create records, if they have a link to the request form.
+
+For information, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md).

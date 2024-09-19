@@ -1,5 +1,5 @@
 ---
-title: Customize the Main Menu using a layout template
+title: Customize the Main Menu Using a Layout Template
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
@@ -20,6 +20,8 @@ As an Adobe Workfront administrator or a group administrator, you can use a layo
 >[!NOTE]
 >
 >The Main Menu options that users see depend on their license type and what settings are configured in their access level. Some users who will use this layout template may not see all the options you choose here. For more information see [How access levels and permissions work together](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) and [Configurable access to functionality for each object type](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+>
+>You might see different options in the Main Menu if your organization has been onboarded on the Adobe Workfront Unified Experience. For information, see [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md). 
 
 For information about creating layout templates, see [Create and manage layout templates](../use-layout-templates/create-and-manage-layout-templates.md). 
 
@@ -107,6 +109,11 @@ You must have the following access to perform the steps in this article:
    * My Updates
    * Boards
    * Blueprints
+   * Planning
+
+     >[!NOTE]
+     >
+     >Planning requires an additional license. For information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md)
 
 1. Do any of the following:
 

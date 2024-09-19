@@ -1,7 +1,7 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: Edit team settings
+title: Edit Team Settings
 description: Workfront administrators and users with a Plan or Work license can edit Team Settings.
 author: Lisa
 feature: People Teams and Groups
@@ -9,36 +9,41 @@ exl-id: b6761188-8630-446e-bc70-70fe272881ce
 ---
 # Edit team settings
 
-As an [!DNL Adobe Workfront] administrator or a user with a [!UICONTROL Plan] or [!UICONTROL Work] license, you can edit [!UICONTROL Team Settings].
+As an [!DNL Adobe Workfront] administrator or a user with a [!UICONTROL Standard], [!UICONTROL Plan] or [!UICONTROL Work] license, you can edit [!UICONTROL Team Settings].
 
 You can add users to a team, set the team layout template, and set how status is recorded when work items are completed by a team.
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article.
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
- </col> 
  <col> 
- </col> 
  <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Any</p> </td> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>Adobe Workfront plan</p> </td> 
+   <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>Work or higher</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>
+   <p>New: Standard</p>
+   <p>or</p>
+   <p>Current: Work or higher</p></td>
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Edit team settings
 
-1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **[!UICONTROL Teams]**.
+{{step1-to-team}}
 
 1. Click the **[!UICONTROL Switch team]** icon ![Switch team icon](assets/switch-team-icon.png), then either select a new team from the drop-down menu or search for a team in the search bar.
 

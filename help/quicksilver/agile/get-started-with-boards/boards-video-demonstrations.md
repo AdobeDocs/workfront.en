@@ -2,13 +2,13 @@
 filename: boards-video-demonstrations
 content-type: reference
 navigation-topic: boards
-title: Adobe Workfront Boards video demonstrations
+title: Workfront Boards Video Demonstrations
 description: These videos will introduce you to the different types of boards available in Adobe Workfront, and show examples of how you can use boards in your daily work.
 author: Lisa
 feature: Agile
 exl-id: 54a5fe37-7a0a-45b1-a0bb-c5e345d3f34d
 ---
-# Adobe Workfront Boards video demonstrations
+# Workfront Boards video demonstrations
 
 <!--Audited: 12/2023-->
 

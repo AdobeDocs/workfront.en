@@ -3,9 +3,9 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: Active and deactivated objects
+title: Active and Deactivated Objects
 description: As an [!DNL Adobe Workfront] administrator, you can activate or deactivate objects within the system. We recommend that you never delete the objects that you can deactivate. You should simply deactivate the object to prevent future use and to remove it from the drop-down menus of other objects.
-author: Caroline
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a0617270-e233-4ebe-a5ee-8df7a8a85823
@@ -117,3 +117,4 @@ A job role must be active in order to appear in any type-ahead fields of all oth
 You can deactivate job roles when you edit them.
 
 For information about deactivating job roles, see [Deactivate job roles](../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
+

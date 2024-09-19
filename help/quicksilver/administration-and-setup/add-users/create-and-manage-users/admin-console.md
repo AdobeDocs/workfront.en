@@ -1,5 +1,5 @@
 ---
-title: Manage users in the Adobe Admin Console
+title: Manage Users in the Adobe Admin Console
 description: As an Adobe administrator, you can create Adobe Workfront users and system administrators using the Adobe Admin Console.
 author: Becky
 feature: System Setup and Administration
@@ -42,6 +42,8 @@ You must have the following access to perform the steps in this article:
   </tr> 
  </tbody> 
 </table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

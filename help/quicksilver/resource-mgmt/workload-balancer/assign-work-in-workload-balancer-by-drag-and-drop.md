@@ -1,7 +1,7 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Assign work in the Workload Balancer by dragging and dropping
+title: Assign Work in the Workload Balancer by Dragging and Dropping
 description: You can assign work items using the Adobe Workfront Workload Balancer by dragging and dropping work items to the correct users.
 author: Lisa
 feature: Resource Management
@@ -9,13 +9,13 @@ exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
 ---
 # Assign work in the Workload Balancer by dragging and dropping
 
-<!--remove production and preview preferences at release-->
-
 You can assign work items using the Adobe Workfront Workload Balancer by dragging and dropping work items to the correct users.
 
 For general information about assigning work to users using the Workload Balancer, see [Overview of assigning work in the Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article. 
 
 You must have the following access to perform the steps in this article:
 
@@ -24,35 +24,37 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, to assign work in the Workload Balancer in the Resourcing area</p>
-   <p>Work, to assign work in the Workload Balancer of a team or project</p>
- </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>New: Standard</p>
+       <p>or</p>
+       <p>Current: Plan, to assign work in the Workload Balancer in the Resourcing area;</br>
+       Work, to assign work in the Workload Balancer of a team or project</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Access level*</td> 
+   <td role="rowheader">Access level configurations</td> 
    <td> <p>Edit access to the following:</p> 
     <ul> 
-     <li> <p>Resource Management</p> </li> 
-     <li> <p>Projects</p> </li> 
-     <li> <p>Tasks</p> </li> 
-     <li> <p>Issues</p> </li> 
-    </ul> <p><b>NOTE</b>
-    
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+     <li>Resource Management</li> 
+     <li>Projects</li> 
+     <li>Tasks</li> 
+     <li>Issues</li> 
+    </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions or higher to the projects, tasks, and issues that include Make Assignments</p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td>Contribute permissions or higher to the projects, tasks, and issues that include Make Assignments</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Assign an item by dragging and dropping
 
