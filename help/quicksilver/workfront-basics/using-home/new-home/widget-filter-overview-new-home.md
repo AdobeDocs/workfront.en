@@ -248,11 +248,11 @@ You can use the following filters in the My Work widget:
     </tr>
     <tr>
       <td>Not ready</td>
-      <td>Displays items that 
+      <td>Displays items that have
        <ul>
-      <li>Have incomplete predecessors or task constraints that prevent the item from being worked on</li>
+      <li>Incomplete predecessors or task constraints that prevent the item from being worked on</li>
       or
-      <li>Have a Planned start date more than two weeks in the future</li>
+      <li>The Planned Start Date more than two weeks in the future</li>
       </ul>
        </td>
     </tr>
