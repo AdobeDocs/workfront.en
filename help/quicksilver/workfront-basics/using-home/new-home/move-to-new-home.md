@@ -76,7 +76,7 @@ Users can use the Boards widget to track high priority items if desired.
 
 In Legacy home, users could use the right panel to update their work. In New Home, users now use the Summary panel to update work. This is the same Summary panel available in Projects, Tasks, Issues, and Documents.
 
-Workfront admins can update this xxx
+Workfront administrators can customize which fields appear in the Summary in the Layout template. For more information, see [Customize Home and Summary using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 Users can open the 
 
