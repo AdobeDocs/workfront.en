@@ -27,7 +27,7 @@ For example, you can attach a custom form called "Marketing Content Research" to
 
 The form designer has a canvas-style workspace that allows you to view the fields, canvas, and field settings all at the same time. It also allows you to drag and drop fields within the sections while designing your form. You can resize the right side of the screen to provide more room for the field options.
 
-<span class="preview">A **Layout** button (not shown in this image) allows you to choose from a two- or three-column working area. The button indicates which layout is currently selected. The three-column layout displays the field settings in the far right column. In the two-column layout, the field settings are displayed next to the field library in the far left column.</span>
+<span class="preview">A Layout button (not shown in this image) allows you to choose from a two- or three-column working area. The button indicates which layout is currently selected. The three-column layout displays the field settings in the far right column. In the two-column layout, the field settings are displayed next to the field library in the far left column.</span>
 
 For more information, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
@@ -42,19 +42,19 @@ In a custom form, you can create additional fields that prompt users for informa
 You can add the following types of custom fields to a custom form in Workfront:
 
 * Single line text
-* Paragraph text
+* Paragraph
 * Text with formatting
-* Dropdown
-* Multi-Select Dropdown
+* Single-select dropdown
+* Multi-elect dropdown
 * External lookup
-* Native Field
+* Native field reference
 * Typeahead
 * Calculated
-* Date Field
-* Checkbox Group
-* Radio Buttons
-* Descriptive Text
-* Section Break
+* Date
+* Checkbox group
+* Radio buttons
+* Descriptive text
+* Section break
 * Adobe XD
 * Image
 * PDF
