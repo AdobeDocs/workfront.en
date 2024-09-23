@@ -47,7 +47,7 @@ Users can still delegate work from New Home in the following widgets:
 * My Issues
 * Awaiting My Approvals
 
-Users can find work delegated to the in the following widgets:
+Users can find work delegated to them in the following widgets:
 
 * My Work widget using the Delegated to me filter
 * Awaiting my Approvals using the Delegated approvals filter
@@ -86,8 +86,8 @@ In Legacy home, users could use the right panel to update their work. In New Hom
 In the Summary, users can
 
 * Update the percent complete
-* Add an update
-* Navigate to the Document area to upload a document
+* Add an Update
+* Navigate to the Documents area to upload a document
 * View work item details and update custom fields
     Workfront administrators can customize which fields appear in the Summary in the Layout template. For more information, see [Customize Home and Summary using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 * Change the work item status
@@ -123,7 +123,7 @@ To locate the quick actions menu, hover over the work item. The quick actions li
 
 ### View approvals and team requests
 
-Users can still manage Approvals and team requests in New Home using the following widgets:
+Users can still manage approvals and team requests in New Home using the following widgets:
 
 * Awaiting my approval
 * All approvals
@@ -133,9 +133,9 @@ For information about adding widgets to your New Home page, see [Add, edit, or r
 
 ## Learn about available widgets
 
-Widgets are the foundation of the new Home. By adding widgets to the Home page, users can choose the type of information that displays to best meet their work needs. Some widgets are only available to specific license types, as the objects they track are only available to those licenses. 
+Widgets are the foundation of the New Home. By adding widgets to the Home page, users can choose the type of information that displays to best meet their work needs. Some widgets are only available to specific license types, as the objects they track are only available to those licenses. 
 
-Workfront administrators can customize which widgets are available in New Home using the Layout Template. For more information, see [Customize new Home using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
+Workfront administrators can customize which widgets are available in New Home using a layout template. For more information, see [Customize new Home using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
 
 +++ Expand to view a detailed list of the available widgets
 Below are the 11 widgets currently available to choose from, as well as a summary of the information they display:
@@ -144,10 +144,10 @@ Below are the 11 widgets currently available to choose from, as well as a summar
    Displays all of your assigned tasks, issues, and requests in one place. You can click the Work On It button to start working on an item, or the Done button to mark them complete. You can also update information (Status, Condition, Percent Complete) about tasks and issues, log time, and add updates from the My Work widget. 
 
 * **Boards**\
-    Displays any boards you have created or have been invited to use. You can also create a new board based on the following templates: Basic board, Kanban board, Retrospective board, Dynamic board
+    Displays any boards you have created or have been invited to use. You can also create a new board based on the following templates: Basic board, Kanban board, Retrospective board, Dynamic board.
 
 * **My projects**\
-    Displays projects you own or projects you are on in a list. You can use  existing filters, views, or groupings to customize the list, or you can create a project directly from the widget.
+    Displays _projects you own_ or _projects you are on_ in a list. You can use  existing filters, views, or groupings to customize the list, or you can create a project directly from the widget.
 
 * **My tasks**\
     Displays tasks that are assigned to you in a list. You can use  existing filters, views, or groupings to customize the list, or you can create a task directly from the widget. You can also delegate your tasks while you are away from the office. 
@@ -156,7 +156,7 @@ Below are the 11 widgets currently available to choose from, as well as a summar
     Displays issues that are assigned to you in a list. You can use existing filters, views, or groupings to customize the list, or you can create an issue directly from the widget. This widget only includes issues whose associated projects are set to Current and doesn't include completed projects. You can also delegate your issues while you are away from the office. 
 
 * **My requests**\
-    Displays all requests you have submitted, a filter to only display open requests, and a button that opens the summary pane for a request.
+    Displays all requests you have submitted, a filter to only display open requests, and a button that opens the summary panel for a request.
 
 * **Team requests**\
     Displays all pending requests for teams that you are on sorted by team, as well as buttons to directly assign a request to a user or to work on it yourself.
@@ -168,7 +168,7 @@ Below are the 11 widgets currently available to choose from, as well as a summar
         Displays 2 charts with information about average approval time and decisions as well as list views of pending and overdue approvals. <span style="color: #ff0000;">This feature is part of a phased release and is currently only available for specific customers.</span>
 
 * **Mentions**\
-    Displays recent comment threads from across Workfront, similarly to the My Updates page. You can use the reply button to compose a reply within the widget. This widget also shows comments made on tasks and issues that you are assigned to, that you assigned to another user, that you own, that you are primary contact on, or that you created—as long as the task or issue has been updated in the last 30 days.
+    Displays recent comment threads from across Workfront, similar to the My Updates page. You can use the reply button to compose a reply within the widget. This widget also shows comments made on tasks and issues that you are assigned to, that you assigned to another user, that you own, that you are primary contact on, or that you created—as long as the task or issue has been updated in the last 30 days.
 
 * **To-dos**\
     This unique widget allows you to add items to a personal checklist that you can freely edit. To-dos are tracked as tasks in your personal project, and remain for up to two weeks after completion.
@@ -243,16 +243,16 @@ By default, the Home page is populated with a few specific widgets based on your
 
 To help minimize disruption for you and your organization, below are some recommendations that will help ease the transition.
 
-### Begin the transition to new Home
+### Begin the transition to New Home
 
-Our primary recommendation is to begin transitioning to new Home as soon as possible. Organizationally, this means your administrator customizing users' experiences through layout templates—similarly to legacy Home—to make sure each user has what they need. 
+Our primary recommendation is to begin transitioning to new Home as soon as possible. Organizationally, this means your administrator customizing users' experiences through layout templates—similar to legacy Home—to make sure each user has what they need. 
 
 We recommend administrators:
 
-1. Build a default new Home page layout using layout templates (or, optionally, create one for each user, team, group, or job role that requires a unique layout.) See [Customize new Home using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md) for more information.
+1. Build a default New Home page layout using layout templates (or, optionally, create one for each user, team, group, or job role that requires a unique layout.) See [Customize new Home using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md) for more information.
 
 1. Assign your new layout templates to a small number of test users, who can verify that their widgets and general settings meet their work needs.
 
-1. Reassign the rest of your users to the new Home page layout.
+1. Reassign the rest of your users to the New Home page layout.
 
-Doing this as soon as possible will then give your users time to adjust to the new experience and customize their new Home pages to best suit their individual needs. See [Remove, add, and rearrange widgets in new Home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) for information on how a user can customize the widgets on their own new Home page.
+Doing this as soon as possible will then give your users time to adjust to the new experience and customize their New Home pages to best suit their individual needs. See [Remove, add, and rearrange widgets in new Home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) for information on how a user can customize the widgets on their own new Home page.

@@ -45,7 +45,7 @@ Below are the 11 widgets currently available to choose from, as well as a summar
     Displays issues that are assigned to you in a list. You can use existing filters, views, or groupings to customize the list, or you can create an issue directly from the widget. This widget only includes issues whose associated projects are set to Current and doesn't include completed projects. You can also delegate your issues while you are away from the office. 
 
 * **My requests**\
-    Displays all requests you have submitted, a filter to only display open requests, and a button that opens the summary pane for a request.
+    Displays all requests you have submitted, a filter to only display open requests, and a button that opens the summary panel for a request.
 
 * **Team requests**\
     Displays all pending requests for teams that you are on sorted by team, as well as buttons to directly assign a request to a user or to work on it yourself.
@@ -57,7 +57,7 @@ Below are the 11 widgets currently available to choose from, as well as a summar
         Displays 2 charts with information about average approval time and decisions as well as list views of pending and overdue approvals. <span style="color: #ff0000;">This feature is part of a phased release and is currently only available for specific customers.</span>
 
 * **Mentions**\
-    Displays recent comment threads from across Workfront, similarly to the My Updates page. You can use the reply button to compose a reply within the widget. This widget also shows comments made on tasks and issues that you are assigned to, that you assigned to another user, that you own, that you are primary contact on, or that you created—as long as the task or issue has been updated in the last 30 days.
+    Displays recent comment threads from across Workfront, similar to the My Updates page. You can use the reply button to compose a reply within the widget. This widget also shows comments made on tasks and issues that you are assigned to, that you assigned to another user, that you own, that you are primary contact on, or that you created—as long as the task or issue has been updated in the last 30 days.
 
 * **To-dos**\
     This unique widget allows you to add items to a personal checklist that you can freely edit. To-dos are tracked as tasks in your personal project, and remain for up to two weeks after completion.
