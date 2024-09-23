@@ -163,12 +163,55 @@ A Category object is a custom form.
 
 A Customer object represents an organization that uses an instance of Workfront.
 
+<table>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>customEnumTypes</b><p>Added the following possible values:
+            </p>
+            <ul>
+              <li>
+                <p>Assignment Priorities (PRIORITY_ASSIGNMENT)
+                </p>
+              </li>
+             </ul>
+          </li>
+              <p>The CustomEnum object aids with converting status codes into human-readable text.</p>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
 ### CustomerPreferences (CUSTPR)
 
 A CustomerPreferences object represents the set of preferences that a customer has set for their instance of Workfront.
 
+<table>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>name</b><p>removed the following possible values:
+            </p>
+            <ul>
+              <li>
+                <p>Enable Zoom integration in the updates stream (password:zoomIntegrationEnabled)
+                </p>
+              </li>
+             </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
 ### Document (DOCU)
