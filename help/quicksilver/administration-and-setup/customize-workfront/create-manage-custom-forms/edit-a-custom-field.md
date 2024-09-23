@@ -58,7 +58,7 @@ For more detail about the information in this table, see [Access requirements in
 1. Click **New Custom Field**.
 1. In the box that displays, enter the required and optional information for the item you are adding.
 
-   For more information, see [Design a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   For more information, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Click **Create**.
 
@@ -71,6 +71,6 @@ For more detail about the information in this table, see [Access requirements in
 1. Select the custom field, section break, or widget, then click ![Edit icon](assets/edit-icon.png).
 1. In the box that displays, change any of the options available for the item you are editing.
 
-   For more information, see [Design a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   For more information, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. When you are finished, click **Edit**.
