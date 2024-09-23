@@ -53,7 +53,7 @@ The Condition values that we refer to in this article are available in Workfront
   <tr> 
    <td role="rowheader">Object permissions</td> 
    <td> <p>View or higher permissions on tasks and issues to view their Condition</p>
-   <p>Manage permissions on tasks and issues to update the Condition</p>
+   <p>Contribute permissions on tasks and issues to update the Condition</p>
   </td> 
   </tr> 
  </tbody> 

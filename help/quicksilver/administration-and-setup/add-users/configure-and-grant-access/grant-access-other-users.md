@@ -89,7 +89,7 @@ You can manage what information users can view and edit for other users using a 
       <td> <p>Allows users to do the following for any user in Workfront:</p> 
        <ul> 
         <li>Edit, delete, or deactivate the user</li> 
-        <li>Log in as the user</li> 
+        <li>Log in as the user<p><b>NOTE</b>: You can not log in as any user that is a system administrator.</p></li> 
         <li>Reset the user's password</li> 
        </ul> <p>This option is disabled by default.</p> </td> 
      </tr> 

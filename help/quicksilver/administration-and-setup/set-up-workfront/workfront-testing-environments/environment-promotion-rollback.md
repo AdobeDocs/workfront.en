@@ -9,10 +9,11 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
+exl-id: 70f7e2a8-bb27-4546-afb7-53e0eec30bf1
 ---
 # Roll back an environment promotion package
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+
 
 After you have installed a package, you can roll it back. This removes the changes that the package made in the target environment, and restores the affected objects to their previous configurations.
 
@@ -80,10 +81,3 @@ To know whether a specific package deployment can be rolled back, consider the f
 
 1. (Optional) In the Rollback Preview area, view the changes that will occur when the deployment is rolled back. 
 1. Click **Roll Back** in the upper-right corner of the screen.
-
-
-
-
-
-
-

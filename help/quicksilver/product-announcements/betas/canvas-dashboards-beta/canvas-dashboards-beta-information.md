@@ -17,9 +17,15 @@ For a list of all Canvas Dashboards documentation, see [Canvas Dashboards overvi
 
 **Beta status**
 
-Canvas Dashboards is currently in a public beta testing phase, and is therefore subject to frequent changes. See below for instructions on how to enroll in the beta.
+Canvas Dashboards is currently in a closed beta testing phase, and is therefore subject to frequent changes. See below for instructions on how to enroll in the beta.
 
 ## Participate in the beta
+
+>[!IMPORTANT]
+>
+>Canvas Dashboards is currently in closed beta, and is therefore only available to specific organizations. We continue to directly invite organizations to the beta from a waitlist of those that have expressed interest. You can add your organization to the waitlist by submitting [this Adobe feedback program form](https://www.feedbackprogram.adobe.com/c/r/Workfront-Canvas-Dashboards-Visualizations-Beta). Additionally, organizations that have purchased Workfront Planning as part of their package have been given beta access in order to test cross-product reporting capabilities.
+>
+>Eventually we will transition to an open beta, at which point the enrollment process will become available to all organizations.
 
 ### Enroll
 
@@ -27,11 +33,7 @@ To enroll in the beta:
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Dashboards**.
 
-1. Click the **Join the Canvas Dashboards beta** beta button in the top-right corner of the page.
-
-   >[!NOTE]
-   >
-   >This button is available only if your organization has been accepted into the closed beta. When the open beta begins, this will be available for all organizations.
+1. Click the **Join the Canvas Dashboards beta** beta button in the top-right corner of the page. Note that this button will only be available if your organization has been invited to the closed beta.
 
 1. Read the terms, then click **Accept**. You are now enrolled in the beta; please note, however, that it will take a few minutes for your Workfront data to become fully accessible in Canvas Dashboards. 
 

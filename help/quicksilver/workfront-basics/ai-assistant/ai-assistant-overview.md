@@ -1,9 +1,10 @@
 ---
-title: 'AI Assistant overview'
+title: AI Assistant overview
 content-type: reference
 description: AI Assistant overview
 author: Becky
 feature: Get Started with Workfront
+exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
 ---
 # AI Assistant overview
 
@@ -107,5 +108,3 @@ To request the Adobe Gen AI agreement:
 1. Enter the name and email address of the individual at your organization who will sign the Adobe Gen AI agreement.
 
    The agreement will be sent to this individual for signing. After it is signed and returned, AI Assistant is enabled for your organization.
-
-

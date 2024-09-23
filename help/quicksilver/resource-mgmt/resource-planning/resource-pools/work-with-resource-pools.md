@@ -1,7 +1,7 @@
 ---
 product-area: resource-management
 navigation-topic: resource-planning
-title: Resource pools overview
+title: Resource Pools Overview
 description: As a resource manager, you can manage your resources by adding users to resource pools.
 author: Lisa
 feature: Resource Management

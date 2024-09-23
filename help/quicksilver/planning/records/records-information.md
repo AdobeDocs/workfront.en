@@ -5,6 +5,7 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
+recommendations: noDisplay, noCatalog
 ---
 
 # Records: article index

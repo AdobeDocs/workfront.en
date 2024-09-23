@@ -43,16 +43,20 @@ You must have the following access to perform the steps in this article:
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td><p>New: Standard</p>
+  <p> Current: Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
    <td> <p>To perform these steps at the system level, you need the System Administrator access level.
-To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE</b>: If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+To perform them for a group, you must be a manager of that group.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 
@@ -62,7 +66,7 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
 
 1. Click the down arrow ![](assets/dropdown-arrow.png) under **Customize what users see**, then click **Home and Summary**.
 
-1. In the list that appears on the left, click the object type (**Tasks**, **Issues**, **Projects**, **Documents**, or **Document Versions**) that you want to customize in Home and Summary.
+1. In the list on the left, click the object type (**Tasks**, **Issues**, **Projects**, **Documents**, or **Document Versions**) that you want to customize in Home and Summary.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -133,7 +137,7 @@ To perform them for a group, you must be a manager of that group.</p> <p><b>NOTE
         <li>Planned Completion Date</li>
         <li>Commit Date</li>
         <li>Submitted Date</li>
-       </ul><p><b>NOTE</b>:  When this option is enabled, work items that become past due are moved to the Late grouping in the Home Work List based on date only, not time.</p></td> 
+       </ul><p><b>NOTE</b>:</p> <p> When this option is enabled, work items that become past due are moved to the Late grouping in the Home Work List based on date only, not time.</p></td> 
      </tr> 
     </tbody> 
    </table>

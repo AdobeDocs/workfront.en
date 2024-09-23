@@ -24,7 +24,7 @@ After the monthly releases to Production, the same features are also available i
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>  
 -->
 
-You can add comments to all goals you can view in Adobe Workfront Goals.
+You can add comments to all goals that you can view in Adobe Workfront Goals.
 
 ## Access requirements
 
@@ -40,9 +40,8 @@ You must have the following access to perform the actions described in this arti
    <td role="rowheader">Adobe Workfront plan*</td> 
    <td> 
    <p>For the new plan and license structure:
-  <ul><li>An Ultimate plan </li>
-  Or
-  <li>An additional license for Adobe Workfront Goals for the Prime or Select Adobe Workfront plans. </li></ul> </p>
+  <ul><li>An Ultimate plan </li></ul>
+   </p>
 <p>For the current plan and license structure: 
 <ul><li> A Pro or higher </li>
   <li>An Adobe Workfront Goals license in addition to a Workfront license.</li></ul></p>
@@ -83,29 +82,24 @@ You must have the following access to perform the actions described in this arti
 
 *For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
-## Prerequisites
-
-You must have the following before you can start:
-
-* A Layout Template that includes the Goals area in the Main Menu.
-
 ## Manage goal comments
 
 You can add comments to goals in the Updates section of a goal's page.
-
-You can reply to or like a comment that you or others added in this area. 
 
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **Goals**. 
 This opens the goal list. 
 1. Locate the goal you want to add comments to, then click its name to open the goal page. 
 1. Click  **Updates** in the left panel. 
-1. (Optional) To locate an existing comment, start typing a keyword <!--or a user's name--> in the **Search** box in the upper-right corner of the **Comments** tab. 
+
+   For more information about managing comments to Workfront objects, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
+
+<!--   
+1. (Optional) To locate an existing comment, start typing a keyword (*****or a user's name********) in the **Search** box in the upper-right corner of the **Comments** tab. 
    
    ![](assets/search-field-in-updates-tab-goals.png)
 
-   The keyword <!--or user--> you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
+   The keyword (****or user****) you searched for is highlighted and the comments that contain it display at the top of the Updates section. 
 
-   <!--change the NOTE below when functionality changes-->
 
       >[!NOTE]
       >
@@ -164,7 +158,7 @@ This opens the goal list.
          For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 
 1. (Optional) Click the **More** menu ![](assets/more-icon.png) to the right of a comment, then click **Delete** to delete a comment you added. For more information, see [Update work](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-9 above. For more information about replying to updates, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md). <!--insure this stays accurate-->
+1. (Optional) Click **Reply** to reply to an existing comment, then follow the steps 5-9 above. For more information about replying to updates, see [Reply to updates](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md). (**********insure this stays accurate*********)
 1. (Conditional and optional) If other users have added comments that display outside of the visible area in the Updates section, click **View** inside the blue **new comments banner** at the bottom of the screen  to display these comments.
    
    ![](assets/blue-new-comments-banner-with-view-button.png)
@@ -172,6 +166,6 @@ This opens the goal list.
    Additional comments display at the bottom of the screen.
 1. (Optional) Click the **Like** icon![](assets/like-icon.png) to like a comment that someone else added. The icon updates with the number of likes.
 
-1. (Optional) Click the **System Activity** tab to view updates logged by the system. When a goal is updated, Workfront generates a note about that update that and displays it in the System Activity tab. Workfront also records a system update when a result, activity, or project is added to the goal or when it is updated. <!--ensure the casing on the tab has not changed-->
+1. (Optional) Click the **System Activity** tab to view updates logged by the system. When a goal is updated, Workfront generates a note about that update that and displays it in the System Activity tab. Workfront also records a system update when a result, activity, or project is added to the goal or when it is updated. (*********ensure the casing on the tab has not changed**********)-->
 
 

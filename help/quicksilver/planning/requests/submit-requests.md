@@ -5,6 +5,7 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
+exl-id: 635045c5-17e6-483e-912b-4e9617571137
 ---
 # Submit Adobe Workfront Planning requests to create records
 
@@ -53,7 +54,7 @@ You must have the following to be able to access Workfront Planning:
    <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td>
    <td>
 <p>Any </p>  
-<p>For more information about what is included in each Workfront Planning plan, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>. </td>
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </td>
 <tr>
    <td role="rowheader"><p>Adobe Workfront platform</p></td>
    <td>
@@ -129,9 +130,4 @@ The following must be in place before you can submit a request to a Workfront Pl
 
 1. Click **Submit**.
 
-   Your form is submitted and a new record is added to the record type associated with the form. 
-
-
-
-
-
+   Your form is submitted and a new record is added to the record type associated with the form.

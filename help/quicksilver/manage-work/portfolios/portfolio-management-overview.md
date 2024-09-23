@@ -2,14 +2,14 @@
 content-type: overview;reference
 product-area: portfolios
 navigation-topic: projects-navigation-topic
-title: Portfolio Management
-description: Find out information about portfolio management in the following sections.
+title: "Portfolio Management: Article Index"
+description: A Portfolio is a collection of projects that have unifying characteristics. Find out information about portfolio management in the following sections.
 author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
 exl-id: 89f572a8-f585-4eee-a346-9e3188496c6d
 ---
-# Portfolio Management
+# Portfolio Management: article index
 
 This section contains the following subsections:
 

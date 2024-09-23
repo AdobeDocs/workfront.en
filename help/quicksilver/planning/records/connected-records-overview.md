@@ -1,12 +1,12 @@
 ---
 title: Connected Records Overview
-description: After you create connections between record types, you can connect individual records to one another. This article describes considerations that you must take into account when connecting records in Adobe Workfront Planning. 
+description: After you create connections between record types, you can connect individual records to one another. This article describes considerations that you must take into account when connecting records in Adobe Workfront Planning.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
+exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
 ---
-
 # Connected records overview
 
 {{planning-important-intro}}
@@ -47,5 +47,4 @@ You can connect records to other records or to objects from another application 
 
 * You can connect Workfront objects to Workfront Planning records in the following areas: 
     
-    * From the Planning section of a Workfront object. 
-
+    * From the Planning section of a Workfront object.

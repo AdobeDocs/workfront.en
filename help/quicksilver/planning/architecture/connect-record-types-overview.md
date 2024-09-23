@@ -5,8 +5,8 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
+exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
 ---
-
 # Connected record types overview
 
 You can indicate that individual record types relate to one another or to objects from other applications by connecting them. 
@@ -152,9 +152,4 @@ For example, if you connect campaigns with projects and you choose this type of 
 
 A real-life example of a one-to-one relationship is the one existing between a person and their country's unique identifier (like a Social Security Number, Passport ID, local identification ID): each person has only one unique identifier for a country and each unique identifier can be linked to only one person. 
 
-When you select this connection type, you can later change it to any other connection type. 
-
-
-
-
-
+When you select this connection type, you can later change it to any other connection type.
