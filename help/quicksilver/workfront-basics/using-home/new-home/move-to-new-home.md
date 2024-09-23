@@ -9,7 +9,7 @@ feature: Get Started with Workfront
 
 # Move from Legacy Home to New Home
 
-Legacy Home will be removed from Workfront on 10/17 with the Q4 release. This article provides information on which functionality will be available in new home as well as recommendations for moving users to the New Home experience. 
+Legacy Home will be removed from Workfront on 10/17 with the Q4 release. This article provides information on which functionality will be available in new home as well as recommendations for Workfront administrators moving users to the New Home experience. 
 
 For more information on the Legacy Home deprecation, see the [Legacy Home Deprecation Guide](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
 
