@@ -34,6 +34,10 @@ The My Work widget was created in widget-form to mirror the Legacy Home worklist
 * Commit Date 
 * My Priority 
 
+| **Legacy Home** | **New Home** |
+|------------|-----------|
+|       ![](assets/filter-list-legacy.png)     |    ![](assets/filter-list-my-work.png)         |
+
 #### Delegate work
 
 Users can still delegate work from New Home in the following widgets:
@@ -47,6 +51,10 @@ Users can find work delegated to the in the following widgets:
 
 * My Work widget using the Delegated to me filter
 * Awaiting my Approvals using the Delegated approvals filter
+
+| **Legacy Home** | **New Home** |
+|------------|-----------|
+|       ![](assets/delegate-legacy.png)     |    ![](assets/delegate-my-work.png)         |
 
 #### Use the calendar view
 
@@ -87,6 +95,10 @@ In the Summary, users can
 * Log time
 * View attached approval processes
 * Upload files - This functionality is new 
+
+| **Legacy Home** | **New Home** |
+|------------|-----------|
+|   ![](assets/right-panel-legacy.png)         |     ![](assets/summary-new-home.png)        |
 
 
 #### Open the summary panel
@@ -166,6 +178,8 @@ Below are the 11 widgets currently available to choose from, as well as a summar
     >You must have permission to create tasks in order to create to-dos in the To-dos widget, and only personal tasks that are entered by the current user will appear in the widget.
 
     +++
+
+    ![](assets/widgets-menu.png)
 
 ### View widgets available for each license type
 
