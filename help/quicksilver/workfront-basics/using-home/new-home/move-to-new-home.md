@@ -9,7 +9,7 @@ feature: Get Started with Workfront
 
 # Move from Legacy Home to New Home
 
-Legacy Home will be removed from Wokrfront on 10/17 with the Q4 release. This article provides information on which functionality will be available in new home as well as recommendations for moving users to the New Home experience. 
+Legacy Home will be removed from Workfront on 10/17 with the Q4 release. This article provides information on which functionality will be available in new home as well as recommendations for moving users to the New Home experience. 
 
 For more information on the Legacy Home deprecation, see the [Legacy Home Deprecation Guide](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
 
@@ -20,11 +20,11 @@ For more information on the Legacy Home deprecation, see the [Legacy Home Deprec
 
 #### Organize work with the My Work widget
 
-The My Work widget was created as closely to the Legacy Home Work list as possible. Users can group and filter their Work list in the My Work widget with similar filters and groupings: 
+The My Work widget was created in widget-form to mirror the Legacy Home worklist as closely as possible. Users can group and filter their Work list in the My Work widget with similar filters and groupings: 
 
-| **Filter** | **Group** |
+| **Filter** | **Grouping** |
 |------------|-----------|
-| - Working on <br> - Ready to start <br> - Not ready <br> - Requested <br> - Delegated <br> - Completed | - Project <br> - Status  <br> - Due Date |
+| - Working on <br> - Ready to start <br> - Not ready <br> - Requested <br> - Delegated <br> - Completed | - Project <br> - Status  <br> - Due Date <br> - Nothing |
 
 
 **Legacy Home groupings not available in New Home**
@@ -54,11 +54,11 @@ The calendar view is no longer available in New Home; however, a calendar replac
 
 #### Create a personal task
 
-Users can no longer create a personal task the same way they did in Legacy Home. Instead, users can create To-do items. 
+Users can no longer create a personal task the exact same way they did in Legacy Home, Instead, users can create To-do items. 
 
 #### View approvals I've submitted
 
-Users can't view approvals they have submitted in New Home. If users in your organization need this functionality, please upvote or post a comment here in the following Community posts:
+Users can't view approvals they have submitted in New Home. If users in your organization need this functionality, you can build an approvals report as a workaround or upvote or post a comment here in the following Community posts:
 
 * [Add "Approvals I Submitted" Widget to New Home](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
 * [Add "Approvals I've Submitted" to the new Home](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
