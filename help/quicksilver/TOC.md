@@ -881,6 +881,7 @@ feature-set: Workfront
       * [Manage your work with the My Work widget](workfront-basics/using-home/new-home/my-work-widget.md)
     * Use the Home area {#use-home-area}
       * [Use the Home area](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
+      * [Move from Legacy home to New Home](workfront-basics/using-home/new-home/move-to-new-home.md)
       * [Get started with Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
       * [Display items in the Work List in the Home area](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
       * [Prioritize work in the Home area](workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
