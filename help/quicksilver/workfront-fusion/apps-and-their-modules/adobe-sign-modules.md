@@ -132,7 +132,7 @@ This trigger module starts a scenario when an event that you select occurs.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Adobe Acrobat Sign] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Adobe Acrobat Sign] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Scopes]</td> 
@@ -477,7 +477,7 @@ This action module creates records linked to a module you select.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Adobe Acrobat Sign] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Adobe Acrobat Sign] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -595,7 +595,7 @@ This module allows you to perform a custom API call.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Adobe Acrobat Sign] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Adobe Acrobat Sign] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
@@ -639,7 +639,7 @@ This action module lists all records of the selected type that the account has a
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Adobe Acrobat Sign] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Adobe Acrobat Sign] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -692,7 +692,7 @@ This action module retrieves information from a single record.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Adobe Acrobat Sign] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Adobe Acrobat Sign] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -721,7 +721,7 @@ Read additional information related to a single record.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Adobe Acrobat Sign] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Adobe Acrobat Sign] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -762,7 +762,7 @@ This action module updates a single record in [!DNL Adobe Acrobat Sign].
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Adobe Acrobat Sign] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Adobe Acrobat Sign] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -823,7 +823,7 @@ This action module updates records related to a specific object.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Adobe Acrobat Sign] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Adobe Acrobat Sign] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -901,7 +901,7 @@ Upload a transient document. A transient document is available for 7 days after 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Adobe Acrobat Sign] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Adobe Acrobat Sign] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -940,7 +940,7 @@ This search module searches for agreements based on criteria you provide.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>For instructions about connecting your [!DNL Adobe Acrobat Sign] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Adobe Acrobat Sign] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 

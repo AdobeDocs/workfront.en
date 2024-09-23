@@ -93,7 +93,7 @@ Triggers when a new presentation is created or updated.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>For instructions about connecting your [!DNL Google Slides] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Google Slides] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Watch] </td> 
@@ -120,7 +120,7 @@ Retrieves a list of all presentations.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>For instructions about connecting your [!DNL Google Slides] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Google Slides] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose a drive location]</td> 
@@ -152,7 +152,7 @@ Gets the latest version of a specified presentation.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>For instructions about connecting your [!DNL Google Slides] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Google Slides] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose a drive]</td> 
@@ -180,7 +180,7 @@ Gets the latest version of the specified page or of the thumbnail of a page in t
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>For instructions about connecting your [!DNL Google Slides] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Google Slides] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Presentation ID]</td> 
@@ -207,7 +207,7 @@ Creates a new presentation by replacing all tags like `{{Name}}`, `{{Email}}` in
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>For instructions about connecting your [!DNL Google Slides] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Google Slides] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Title] </td> 
@@ -280,7 +280,7 @@ Uploads an image with provided data.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>For instructions about connecting your [!DNL Google Slides] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Google Slides] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose a Presentation]</td> 
@@ -324,7 +324,7 @@ Refreshes the chart data stored in a presentation specified by ID.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>For instructions about connecting your [!DNL Google Slides] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Google Slides] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose a drive]</td> 
@@ -356,7 +356,7 @@ Creates an empty slide or deletes an existing slide on the specified presentatio
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>For instructions about connecting your [!DNL Google Slides] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Google Slides] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Select the method]</td> 
@@ -401,7 +401,7 @@ Performs an arbitrary authorized API call.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>For instructions about connecting your [!DNL Google Slides] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Google Slides] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
@@ -455,7 +455,7 @@ This module makes all links in a presentation clickable, or inserts a link into 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>For instructions about connecting your [!DNL Google Slides] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a></p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Google Slides] account to [!DNL Workfront Fusion], see <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose a Presentation]</td> 
