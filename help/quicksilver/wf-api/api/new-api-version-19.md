@@ -228,7 +228,7 @@ A Document object represents a file (such as written material, images, or other 
             <p><b>createLargeDocument</b><p>Added the field <code>folderID</code>.</p>
           </li>
           <li>
-            <p><b>sendDocumentsToExternalProvider</b><p></p>
+            <p><b>sendDocumentsToExternalProvider</b><p>Added.</p>
           </li>
         </ul>
       </td>
@@ -350,26 +350,115 @@ The JournalEntry object can be set up to log information about specific object f
 </table>
 
 
-### Parameter
+### Parameter (PARAM)
 
 A Parameter object is a custom field.
 
-
+<table>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>dataType</b></p><p>Added the following possible value:
+            <ul>
+            <li>Duration (DRTN)</li>
+            <ul>
+          </li>
+          <li>
+            <p><b>configurations</b><p>Added.</p>
+          </li>
+        </ul>
+      </td>
+  </tbody>
+</table>
 
 ### Role (ROLE)
 
 A Role object (job role) represents a functional capacity or a skill set a user might fill, such as Designer or Product Manager.
 
-
+<table>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+    The following fields have been added:
+        <ul>
+          <li><p><b>lastUpdateDate</b></li>
+          <li><p><b>lastUpdatedByID</b></li>
+          </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Reference fields</td>
+      <td>
+        The following fields have been added:
+        <ul>
+          <li><p><b>lastUpdatedBy</b></li>
+          </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### TemplateAssignment (TASSGN)
 
 A TemplateAssignment object represents the connection between a template task and the user, team, or group that is assigned to work on it. When the template is used for a project, that user, team, or group is assigned to the task.
 
+<table>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>Added the following direct fields:
+        <ul>
+          <li>
+            <p><b>categoryID</b><p>A category is a custom form.
+            </p>
+          </li>
+        </ul>
+      </td>
+    <tr>
+      <td role="rowheader">Reference fields</td>
+      <td>Added the following reference fields:
+        <ul>
+          <li>
+            <p><b>category</b><p>A category is a custom form.
+            </p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Collection fields</td>
+      <td>Added the following collection fields:
+        <ul>
+          <li>
+            <p><b>objectCategories</b><p>A category is a custom form.
+            </p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
 ### Timesheet (TSHET)
 
 A Timesheet object represents a virtual timecard that allows Users to enter actual hours worked for Tasks, Projects, and overhead Hour Types.
 
-
+<table>
+  <tbody>
+    <tr>
+      <td role="rowheader">Core fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>objCode</b></p><p>Removed.</p>
+          </li>
+        </ul>
+      </td>
+  </tbody>
+</table>
 
 
