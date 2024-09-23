@@ -1,6 +1,6 @@
 ---
 title: Manage the calendar view
-description: You can display records and their fields in a calendar view.
+description: You can display records and their fields in a calendar view. This article describes how you can create a calendar view and edit or delete an existing one.
 feature: Workfront Planning
 role: User
 author: Alina
