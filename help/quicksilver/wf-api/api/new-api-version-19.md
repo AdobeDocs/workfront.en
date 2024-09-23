@@ -145,7 +145,7 @@ A Category object is a custom form.
   <tbody>
     <tr>
       <td role="rowheader">Actions</td>
-      <td>Added the following actions
+      <td>Added the following actions:
         <ul>
           <li>
             <p><b>activateClassifiers</b><p</p>
@@ -198,7 +198,7 @@ A CustomerPreferences object represents the set of preferences that a customer h
       <td>
         <ul>
           <li>
-            <p><b>name</b><p>removed the following possible values:
+            <p><b>name</b><p>Removed the following possible values:
             </p>
             <ul>
               <li>
@@ -218,24 +218,136 @@ A CustomerPreferences object represents the set of preferences that a customer h
 
 A Document object represents a file (such as written material, images, or other forms of information).
 
+<table>
+  <tbody>
+    <tr>
+      <td role="rowheader">Actions</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>createLargeDocument</b><p>Added the field <code>folderID</code>.</p>
+          </li>
+          <li>
+            <p><b>sendDocumentsToExternalProvider</b><p></p>
+          </li>
+        </ul>
+      </td>
+  </tbody>
+</table>
 
 
 ### ExchangeRate (EXRATE)
 
 An ExchangeRate object represents a currency exchange rate set up in Workfront. ExchangeRate objects are not dynamic.
 
-
+<table>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+      <ul>
+      <li>The following fields have added the validator <code>REQUIRED</code>:
+        <ul>
+          <li><p><b>currency</b></li>
+          <li><p><b>rate</b></li></ul>
+      <li>The following fields have been added:
+        <ul>
+          <li><p><b>enteredByID</b></li>
+          <li><p><b>entryDate</b></li>
+          <li><p><b>lastUpdateDate</b></li>
+          <li><p><b>lastUpdatedByID</b></li>
+          </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Reference fields</td>
+      <td>
+      <ul>
+        <li>The following fields have been added:
+        <ul>
+          <li><p><b>enteredBy</b></li>
+          <li><p><b>lastUpdatedBy</b></li>
+          </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### Hour (HOUR)
 
 An Hour object represents an hour logged by a user on a timesheet.
 
-
+<table>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+      The following fields have been added:
+        <ul>
+          <li><p><b>assignedApproverID</b></li>
+          <li><p><b>isBillable</b></li>
+          <li><p><b>isBilled</b></li>
+          <li><p><b>rejectedByID</b></li>
+          <li><p><b>rejectedOnDate</b></li>
+          <li><p><b>rejectionComment</b></li>
+          <li><p><b>submittedByID</b></li>
+          </ul>
+     </td>
+    </tr>
+    <tr>
+      <td role="rowheader">Actions</td>
+      <td>
+      The following actions have been added:
+        <ul>
+          <li><p><b>approve</b></li>
+          <li><p><b>unapprove</b></li>
+          </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 ### JournalEntry (JRNLE)
 
 The JournalEntry object can be set up to log information about specific object fields any time those fields are modified. When a field is set up to be logged as a part of the Journal Entry object, a corresponding Journal Entry will be created every time that field is modified.
 
+<table>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+        <ul>
+          <li>
+            <p><b>flags</b><p>Added the following possible values:
+            </p>
+            <ul>
+              <li>
+                <p>Is cost rate (CR)
+                </p>
+              </li>
+              <li>
+                <p>Is billing rate (BR)
+                </p>
+              </li>
+              <li>
+                <p>Is general finance (GF)
+                </p>
+              </li>
+              <li>
+                <p>Is combined finance (CF)
+                </p>
+              </li>
+             </ul>
+          </li>
+        </ul>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 
 ### Parameter
