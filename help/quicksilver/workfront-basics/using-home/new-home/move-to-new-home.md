@@ -177,9 +177,9 @@ Below are the 11 widgets currently available to choose from, as well as a summar
     >
     >You must have permission to create tasks in order to create to-dos in the To-dos widget, and only personal tasks that are entered by the current user will appear in the widget.
 
-    +++
++++
 
-    ![](assets/widgets-menu.png)
+![](assets/widgets-menu.png)
 
 ### View widgets available for each license type
 
