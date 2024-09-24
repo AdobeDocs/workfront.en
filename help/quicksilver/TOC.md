@@ -408,10 +408,10 @@ feature-set: Workfront
   * Announcements {#announcements}
     * [Announcements](product-announcements/announcements/announcements.md)
     * [Schedule of features no longer supported](product-announcements/announcements/feature-removal-timeline.md)
+    * [Legacy Home deprecation guide](product-announcements/announcements/legacy-home-deprecation.md)
     * [Maintenance Window FAQ](product-announcements/announcements/maintenance-window-faq.md)
     * [Change required for adding proofs to your allowlist](product-announcements/announcements/proofhq-domain-change-workfront.md)
     * [Unsubscribe from Announcement Center Messages in the new Adobe Workfront experience](product-announcements/announcements/unsubscribe-from-ac-messages.md)
-    * [Legacy Home deprecation guide](product-announcements/announcements/legacy-home-deprecation.md)
     * Announcement archive {#announcement-archive}
       * [Announcement archive](product-announcements/announcements/announcement-archive/announcement-archive.md)
       * [Custom form enhancements](product-announcements/announcements/announcement-archive/custom-form-enhancements.md)
@@ -878,8 +878,10 @@ feature-set: Workfront
       * [Get started with New Home](workfront-basics/using-home/new-home/get-started-with-new-home.md)
       * [Add, edit, or remove widgets in New Home](workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
       * [New Home widget filters overview](workfront-basics/using-home/new-home/widget-filter-overview-new-home.md)
+      * [Manage your work with the My Work widget](workfront-basics/using-home/new-home/my-work-widget.md)
     * Use the Home area {#use-home-area}
       * [Use the Home area](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
+      * [Move from Legacy home to New Home](workfront-basics/using-home/new-home/move-to-new-home.md)
       * [Get started with Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
       * [Display items in the Work List in the Home area](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
       * [Prioritize work in the Home area](workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
@@ -1011,6 +1013,7 @@ feature-set: Workfront
     * [Duplicate approval processes showing in the Home Work List](workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
     * [Filter buttons do not display in page headers](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
     * [Projects I'm On filter includes unexpected results](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
+    * [Multiple browser tabs cause Workfront to log out](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
 * Agile {#agile}
   * [Agile](agile/agile.md)
   * [Boards overview](agile/boards-overview.md)
@@ -2128,6 +2131,7 @@ feature-set: Workfront
     * [IP Addresses for accessing Adobe Workfront Fusion](workfront-fusion/get-started/ip-addresses-for-fusion.md)
     * [Adobe Workfront Fusion licenses](workfront-fusion/get-started/license-automation-vs-integration.md)
     * [Operations in [!DNL Adobe Workfront Fusion]](workfront-fusion/get-started/operations-in-workfront-fusion.md)
+    * [Working with large files in Fusion](/help/quicksilver/workfront-fusion/get-started/fusion-large-files.md)
     * [Adobe Workfront Fusion video overviews](/help/quicksilver/workfront-fusion/get-started/fusion-basics-videos.md)
   * Adobe Workfront Fusion basics {#workfront-fusion-basics}
     * [Adobe Workfront Fusion basics](workfront-fusion/workfront-fusion-basics/workfront-fusion-basics.md)
