@@ -111,10 +111,10 @@ For additional information about how to use the Summary panel, see [Summary over
 
 In addition to the Summary panel, users can also use quick actions to
  
- * Log time
- * Add an Update
- * Update a custom form
- * Upload a file
+* Log time
+* Add an Update
+* Update a custom form
+* Upload a file
 
 To locate the quick actions menu, hover over the work item. The quick actions list displays near the **Work On It** or **Done** button. 
 
