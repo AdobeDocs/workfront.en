@@ -9,7 +9,7 @@ feature: Get Started with Workfront
 
 # Move from Legacy Home to New Home
 
-Legacy Home will be removed from Workfront on 10/17 with the Q4 release. This article provides information on which functionality will be available in new home as well as recommendations for Workfront administrators moving users to the New Home experience. 
+Legacy Home will be removed from Workfront on 10/17 with the Q4 release. This article provides information on which functionality will be available in new home as well as recommendations for Workfront administrators moving users to New Home. 
 
 For more information on the Legacy Home deprecation, see the [Legacy Home Deprecation Guide](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
 
@@ -256,3 +256,5 @@ We recommend administrators:
 1. Reassign the rest of your users to the New Home page layout.
 
 Doing this as soon as possible will then give your users time to adjust to the new experience and customize their New Home pages to best suit their individual needs. See [Remove, add, and rearrange widgets in new Home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) for information on how a user can customize the widgets on their own new Home page.
+
+

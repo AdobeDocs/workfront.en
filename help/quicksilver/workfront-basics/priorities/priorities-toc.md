@@ -11,4 +11,4 @@ recommendations: noDisplay, noCatalog
 
 This section contains the following subsections:
 
-* [Get started with Priorities]
+* [Get started with Priorities](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
