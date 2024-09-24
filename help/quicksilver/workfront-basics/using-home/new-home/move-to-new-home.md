@@ -120,6 +120,14 @@ To locate the quick actions menu, hover over the work item. The quick actions li
 
 ![](assets/quick-actions-new-home.png)
 
+#### Update custom forms
+
+Users can update custom forms from the quick actions on a task or issue.
+
+| **Legacy Home** | **New Home** |
+|------------|-----------|
+|   ![](assets/legacy-home-update-custom-forms.png)         |     ![](assets/new-home-update-custom-forms.png)        |
+
 
 ### View approvals and team requests
 
