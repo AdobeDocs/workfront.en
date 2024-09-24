@@ -18,9 +18,9 @@ exl-id: 899641a0-a104-4be9-b423-34a32e985b53
 >
 >Because this feature is still in the early stages of development, it is available only to internal Workfront users.
 
-You can use AI to enter a text prompt describing what you need a module to do. Fusion will then generate an HTTP module that will connect to the correct endpoint of the desired API.
+You can use AI to enter a text prompt describing what you need a section of your scenario to do. Fusion will then generate modules that will perform those actions, which you can use in your scenario.
 
-As with anything generated from AI, we recommend that you double check and test the generated module to ensure that it is performing as intended.
+As with anything generated from AI, we recommend that you double check and test the generated modules to ensure that they are  performing as intended.
 
 ## Currently supported AI module applications
 
