@@ -22,7 +22,7 @@ You can easily change any Automated Workflow template, adding or removing review
 Consider the following when you use an Automated Workflow template:
 
 1. An Automated Workflow template's settings determine what you can do with the Automated Workflow for a proof. For example, if the Add a stage button disabled in the template, it is not visible as you work with the Automated Workflow settings for the proof. 
-1. When a person is added to a sage in an Automated Workflow template, but also already present as a reviewer on the proof, applying the template removes the reviewer from the stage. If you don't add another reviewer to the stage, a message will prompt you to add one. 
+1. When a person is added to a stage in an Automated Workflow template, but also already present as a reviewer on the proof, applying the template removes the reviewer from the stage. If you don't add another reviewer to the stage, a message will prompt you to add one. 
 1. Your ability to modify an Automated Workflow template depends on the template settings configured by the Workfront administrator, as described in . If the ability to modify the template is disabled, only the owner of the template can modify it.
 
 For information about Automated Workflows, see [Automated Workflow overview](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
