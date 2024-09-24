@@ -177,9 +177,9 @@ Below are the 11 widgets currently available to choose from, as well as a summar
     >
     >You must have permission to create tasks in order to create to-dos in the To-dos widget, and only personal tasks that are entered by the current user will appear in the widget.
 
-    +++
++++
 
-    ![](assets/widgets-menu.png)
+![](assets/widgets-menu.png)
 
 ### View widgets available for each license type
 
@@ -256,3 +256,17 @@ We recommend administrators:
 1. Reassign the rest of your users to the New Home page layout.
 
 Doing this as soon as possible will then give your users time to adjust to the new experience and customize their New Home pages to best suit their individual needs. See [Remove, add, and rearrange widgets in new Home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) for information on how a user can customize the widgets on their own new Home page.
+
+### Resources for end users
+
+**Help articles**
+
+* [Manage your work with the My Work widget](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
+
+**Training**
+
+* [Worker Fundamentals in Adobe Workfront](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
+
+>[!IMPORTANT]
+>
+>This is a free course, but you must log in and enroll to access it.
