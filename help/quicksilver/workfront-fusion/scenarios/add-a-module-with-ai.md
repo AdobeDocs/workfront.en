@@ -24,12 +24,12 @@ As with anything generated from AI, we recommend that you double check and test 
 
 ## Currently supported AI module applications
 
-The Fusion AI can currently generate modules that connect to the following applciations:
+The Fusion AI can currently generate modules that connect to the following applications:
 
 * Adobe Firefly
 * Azure OpenAI
 * Microsoft Graph 
-* Adobe Maestro
+* Adobe Workfront Planning
 * Adobe Analytics
 * Adobe PDF Services
 * Adobe Marketo
