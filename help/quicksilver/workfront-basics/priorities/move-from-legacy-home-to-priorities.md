@@ -74,6 +74,16 @@ Users can flag high-priority work with the following:
 
 ### View approvals and team requests
 
+Approvals and 
+
+Users can still manage approvals and team requests in New Home using the following widgets:
+
+* Awaiting my approval
+* All approvals
+* Team requests 
+
+For information about adding widgets to your New Home page, see [Add, edit, or remove widgets in New Home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+
 ## Prepare for the deprecation
 
 To help minimize disruption for you and your organization, below are some recommendations that will help ease the transition.
