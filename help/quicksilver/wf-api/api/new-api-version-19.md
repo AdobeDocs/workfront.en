@@ -61,7 +61,7 @@ The Assignment object added the flag **DATA_EXTENDIBLE**.
       <td>Added the following direct fields:
         <ul>
           <li>
-            <p><b>categoryID</b><p>A category is a custom form.
+            <p><b>categoryID</b><p>A category is a custom form. This field supports the ability to add a custom form to an assignment.
             </p>
           </li>
           <li>
@@ -81,7 +81,7 @@ The Assignment object added the flag **DATA_EXTENDIBLE**.
       <td>Added the following reference fields:
         <ul>
           <li>
-            <p><b>category</b><p>A category is a custom form.
+            <p><b>category</b><p>A category is a custom form. This field supports the ability to add a custom form to an assignment.
             </p>
           </li>
         </ul>
@@ -92,7 +92,7 @@ The Assignment object added the flag **DATA_EXTENDIBLE**.
       <td>Added the following collection fields:
         <ul>
           <li>
-            <p><b>objectCategories</b><p>A category is a custom form.
+            <p><b>objectCategories</b><p>A category is a custom form. This field supports the ability to add a custom form to an assignment.
             </p>
           </li>
         </ul>
@@ -111,7 +111,7 @@ A Category object is a custom form.
   <tbody>
     <tr>
       <td role="rowheader">Direct fields</td>
-      <td>
+      <td>The following fields have been added to support the ability to add a custom form to an assignment.
         <ul>
           <li>
             <p><b>catObjCode</b><p>Added the following possible values:
@@ -364,7 +364,7 @@ A Parameter object is a custom field.
             <p><b>dataType</b></p><p>Added the following possible value:
             <ul>
             <li>Duration (DRTN)</li>
-            <ul>
+            </ul>
           </li>
           <li>
             <p><b>configurations</b><p>Added.</p>
@@ -413,7 +413,7 @@ A TemplateAssignment object represents the connection between a template task an
       <td>Added the following direct fields:
         <ul>
           <li>
-            <p><b>categoryID</b><p>A category is a custom form.
+            <p><b>categoryID</b><p>A category is a custom form. This field supports the ability to add a custom form to an assignment.
             </p>
           </li>
         </ul>
@@ -423,7 +423,7 @@ A TemplateAssignment object represents the connection between a template task an
       <td>Added the following reference fields:
         <ul>
           <li>
-            <p><b>category</b><p>A category is a custom form.
+            <p><b>category</b><p>A category is a custom form. This field supports the ability to add a custom form to an assignment.
             </p>
           </li>
         </ul>
@@ -434,7 +434,7 @@ A TemplateAssignment object represents the connection between a template task an
       <td>Added the following collection fields:
         <ul>
           <li>
-            <p><b>objectCategories</b><p>A category is a custom form.
+            <p><b>objectCategories</b><p>A category is a custom form. This field supports the ability to add a custom form to an assignment.
             </p>
           </li>
         </ul>
