@@ -50,7 +50,9 @@ The Fusion AI can currently generate modules that connect to the following appli
 
    Or
 
-   Right click on a blank area of the scenario editor, then select **Generate with AI**.
+   Click the Generate with AI icon ![Generate with AI](assets/generate-with-ai-icon-beta.png) near the bottom of the scenario editor page.
+
+     That AI Assistant panel opens.
 1. Enter a text prompt into the box. 
 
    For tips on prompts, see [Tips for creating text prompts](#tips-for-creating-text-prompts) in this article.
