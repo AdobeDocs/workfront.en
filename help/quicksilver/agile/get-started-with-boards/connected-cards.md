@@ -24,6 +24,8 @@ When any one of the following details is updated for the card in one location, i
 * [!UICONTROL Subtasks]
 * [!UICONTROL Documents]
 
+To synchronize connected cards with Workfront, click the **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) next to the board name and select **[!UICONTROL Sync connected items]**.
+
 >[!NOTE]
 >
 >A single connected task or issue can only be added once per board. The same task or issue can be connected to multiple boards.
