@@ -21,17 +21,17 @@ You can zero in on the work most important to you using filters. You can filter 
 
 | Filter         | Description       |
 |----------------|-------------------|
-| Working on it  | Tasks and issues you are currently working on                  |
-| Ready to start | Tasks that are ready for you to start                  |
-| Not ready      | Tasks that are not ready for you to start                  |
-| Done           | Tasks and issues marked Done                  |
-| Project        | Projects that have been shared with you/you are assigned to?                  |
-| Due date       | Task and issue planned completion date?                  |
+| Working on it  | Tasks and issues you are currently working on |
+| Ready to start | Tasks that are ready for you to start |
+| Not ready      | Tasks that are not ready for you to start  |
+| Done           | Tasks and issues marked Done   |
+| Project        | Projects that have been shared with you/you are assigned to? |
+| Due date       | Task and issue planned completion date?  |
 | Status         | The status of the task or issue |     
 
 For more information, see []().
 
-### Organize your work with Groups and My Focus
+### Organize your work with Groups
 
 After you have filtered your work, you can group items based on
 
@@ -42,12 +42,33 @@ After you have filtered your work, you can group items based on
 
 For more information, see []().
 
+### Prioritize important work items with My Focus
+
+My Focus 
+ 
+Urgent 
+Primary 
+Secondary 
+Normal (default) 
+
+For more information, see []().
+
+### Calendar [!BADGE Coming soon]{type=Informative}
+
+## Work on tasks and issues
+
+### Add an Update
+
+### Log time
+
+### Upload assets
+
+### Review and approve assets [!BADGE Coming soon]{type=Informative}
+
+## Create personal to-do items
+
 ## Use Catch me up to see what you missed [!BADGE Coming soon]{type=Informative}
 
 Use the Catch me up feature to see what you missed. You can summarize the last 24 hours, 3 days, and 7 days. Catch me up summarizes updates, uploaded documents, approvals. 
 
 screenshot?
-
-## Work on tasks and issues
-
-## Create personal to-do items
