@@ -87,6 +87,9 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 <p><strong>Add a user to an organization that has not been onboarded to the Adobe Business Console</strong></p>
 
 -->
+>[!NOTE]
+>
+>If your organization is currently in the process of moving to the Adobe Admin Console, you cannot manage users in Workfront (adding or deleting users.) You can perform these actions in the Adobe Admin Console after your migration is complete.
 
 To add users to the organization, you must be an administrator at the organization you want to add users to. For information about roles, see [Organization roles in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/organization-roles.md).
 
