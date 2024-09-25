@@ -41,7 +41,19 @@ Groupings
 
 #### Delegate work
 
-Users cannot see delegated work in Priorities at this time. To view delegated work, see
+Users cannot delegate or view delegated work in Priorities at this time. 
+
+Users can still delegate work from New Home in the following widgets:
+
+* My Work
+* My Tasks
+* My Issues
+* Awaiting My Approvals
+
+Users can view delegated work from New Home in the following widgets
+
+* My Work widget using the Delegated to me filter
+* Awaiting my Approvals using the Delegated approvals filter
 
 #### Use the calendar view
 
@@ -49,13 +61,13 @@ A calendar replacement view is not available at this time, but it is on the road
 
 #### Create a personal task
 
-Users users cannot create personal tasks in priorities.
+Users users cannot create personal tasks or to-do items in priorities.
 
 #### Add items to My Priority
 
-Users can prioritize work with the new My Focus column. The My Focus column is unique to each users and does not impact 
+Users can prioritize work with the new My Focus column. The My Focus column is unique to each users and does not impact task, issue, or product data. 
 
-Users can flag high-priority work with the following: 
+Users can flag high-priority work with the following options: 
 
 * Urgent 
 * Primary 
@@ -64,28 +76,43 @@ Users can flag high-priority work with the following:
 
 #### View approvals I've submitted
 
-### Update work items
-
-#### View and update custom forms
-
-#### Use the Summary panel
-
-#### Open the summary panel
+Users cannot view approvals they've submitted in Priorities. As a workaround, users can create an approval report to view this information. 
 
 ### View approvals and team requests
 
-Approvals and 
-
-Users can still manage approvals and team requests in New Home using the following widgets:
+Users cannot interact wtih approvals and team requests in Priorities. However, they can manage approval and team requests in New Home using the following widgets:
 
 * Awaiting my approval
 * All approvals
 * Team requests 
 
-For information about adding widgets to your New Home page, see [Add, edit, or remove widgets in New Home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+### Update work items
+
+#### Update custom forms
+
+Users can update custom forms from the quick actions on a task or issue.
+
+| **Legacy Home** | **Priorities** |
+|------------|-----------|
+|   ![](assets)         |     ![](assets)        |
+
+
+
+#### Use the Summary panel
+
+Opens task overview and details instead - details on what is included And how to customize here.
+
+#### Open the Summary panel
+
+On the **Table** tab, click into the name cell of the work item. Don't click the name of the work item.
+
+![](assets/open-summary-priorities.png)
+
 
 ## Prepare for the deprecation
 
 To help minimize disruption for you and your organization, below are some recommendations that will help ease the transition.
+
+Info about how admins can use or not use LT?
 
 ### Help articles for end users
