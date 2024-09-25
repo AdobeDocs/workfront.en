@@ -33,8 +33,8 @@ It also indicates which actions Workfront administrators can disable or enable u
 | Update custom fields         | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Add an approval process      | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Approve a project            | ✓        | ✓      | &nbsp;      | &nbsp;        |
-| Add document                 | ✓        | ✓      | &nbsp;      | &nbsp;        |
-| Add issue                    | ✓        | ✓      | &nbsp;      | &nbsp;        |
+| Add document                 | ✓        | ✓      | ✓      | &nbsp;        |
+| Add issue                    | ✓        | ✓      | ✓      | &nbsp;        |
 | Add tasks                    | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Give updates/comments        | ✓        | ✓      | ✓      | &nbsp;        |
 | Change status                | ✓        | &nbsp; | &nbsp;      | &nbsp;        |

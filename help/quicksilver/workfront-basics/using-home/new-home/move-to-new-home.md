@@ -9,7 +9,7 @@ feature: Get Started with Workfront
 
 # Move from Legacy Home to New Home
 
-Legacy Home will be removed from Workfront on 10/17 with the Q4 release. This article provides information on which functionality will be available in new home as well as recommendations for Workfront administrators moving users to New Home. 
+Legacy Home will be removed from Workfront on 10/17 with the Q4 release. This article provides information on which functionality will be available in new home as well as recommendations for Workfront administrators moving users to the New Home experience. 
 
 For more information on the Legacy Home deprecation, see the [Legacy Home Deprecation Guide](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
 
@@ -120,14 +120,6 @@ To locate the quick actions menu, hover over the work item. The quick actions li
 
 ![](assets/quick-actions-new-home.png)
 
-#### Update custom forms
-
-Users can update custom forms from the quick actions on a task or issue.
-
-| **Legacy Home** | **New Home** |
-|------------|-----------|
-|   ![](assets/legacy-home-update-custom-forms.png)         |     ![](assets/new-home-update-custom-forms.png)        |
-
 
 ### View approvals and team requests
 
@@ -185,9 +177,9 @@ Below are the 11 widgets currently available to choose from, as well as a summar
     >
     >You must have permission to create tasks in order to create to-dos in the To-dos widget, and only personal tasks that are entered by the current user will appear in the widget.
 
-    +++
++++
 
-    ![](assets/widgets-menu.png)
+![](assets/widgets-menu.png)
 
 ### View widgets available for each license type
 
@@ -265,4 +257,16 @@ We recommend administrators:
 
 Doing this as soon as possible will then give your users time to adjust to the new experience and customize their New Home pages to best suit their individual needs. See [Remove, add, and rearrange widgets in new Home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) for information on how a user can customize the widgets on their own new Home page.
 
+### Resources for end users
 
+**Help articles**
+
+* [Manage your work with the My Work widget](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
+
+**Training**
+
+* [Worker Fundamentals in Adobe Workfront](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
+
+>[!IMPORTANT]
+>
+>This is a free course, but you must log in and enroll to access it.
