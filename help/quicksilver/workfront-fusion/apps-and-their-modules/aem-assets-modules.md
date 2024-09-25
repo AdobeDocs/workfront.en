@@ -121,20 +121,28 @@ To create a connection for your [!DNL Adobe Experience Manager Assets] modules:
                   <td>Enter the URL for your [!DNL Adobe Experience Manager] instance. Do not include a slash <code>/</code> at the end of the URL.</td>
               </tr>
               <tr>
+                  <td role="rowheader">[!UICONTROL Account details fill options]</td>
+                  <td>Select whether you want to provide JSON describing your account details, or if you want to enter details manually.</td>
+              </tr>
+              <tr>
+                  <td role="rowheader">[!UICONTROL Technical account details in JSON format]</td>
+                  <td>If providing JSON, enter or paste the JSON describing your account details.</td>
+              </tr>
+              <tr>
                   <td role="rowheader">[!UICONTROL Client ID]</td>
-                  <td>Enter the Client ID generated in the [!UICONTROL Server-to-server] setup.</td>
+                  <td>If entering details manually, enter the Client ID generated in the [!UICONTROL Server-to-server] setup.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Client Secret]</td>
-                  <td>Enter the Client Secret generated in the [!UICONTROL Server-to-server] setup.</td>
+                  <td>If entering details manually, enter the Client Secret generated in the [!UICONTROL Server-to-server] setup.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Technical account ID]</td>
-                  <td>Enter the ID of the technical account. This is the "[!UICONTROL id]" field in the client credentials JSON file.</td>
+                  <td>If entering details manually, enter the ID of the technical account. This is the "[!UICONTROL id]" field in the client credentials JSON file.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Org ID]</td>
-                  <td class="">Enter the ID of your organization. This is the "[!UICONTROL org]" field in the client credentials JSON file.</td>
+                  <td class="">If entering details manually, enter the ID of your organization. This is the "[!UICONTROL org]" field in the client credentials JSON file.</td>
               </tr>
               <tr>
                   <td role="rowheader">[!UICONTROL Meta Scopes]</td>
