@@ -71,7 +71,7 @@ This option sends an email with a public proof link to a contact from [!DNL Work
 
 ## Download the proof
 
-You can download a copy of the proof document to your mobile device.
+You can download a copy of the proof document to your mobile device. Note that while you cannot preview video files, you can still download them.
 
 1. Open the document proof and select the **[!UICONTROL More]** menu ![More menu](assets/mobile-verticalmoremenu-20x33.png) on the upper right of the document. Then, select **[!UICONTROL More]**.
 1. Select **[!UICONTROL Download]**.
