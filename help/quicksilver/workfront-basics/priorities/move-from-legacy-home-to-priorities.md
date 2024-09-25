@@ -15,7 +15,7 @@ For more information on the Legacy Home deprecation, see the [Legacy Home Deprec
 
 ## Understand what is changing from Legacy Home to Priorities
 
-### Work list
+### Worklist
 
 #### Organize work
 
@@ -65,7 +65,7 @@ Users users cannot create personal tasks or to-do items in priorities.
 
 #### Add items to My Priority
 
-Users can prioritize work with the new My Focus column. The My Focus column is unique to each users and does not impact task, issue, or product data. 
+Users can prioritize work with the new My Focus column. The My Focus column is unique to each user and does not impact task, issue, or product data. 
 
 Users can flag high-priority work with the following options: 
 
@@ -80,7 +80,7 @@ Users cannot view approvals they've submitted in Priorities. As a workaround, us
 
 ### View approvals and team requests
 
-Users cannot interact wtih approvals and team requests in Priorities. However, they can manage approval and team requests in New Home using the following widgets:
+Users cannot interact with approvals and team requests in Priorities. However, they can manage approval and team requests in New Home using the following widgets:
 
 * Awaiting my approval
 * All approvals
@@ -90,17 +90,22 @@ Users cannot interact wtih approvals and team requests in Priorities. However, t
 
 #### Update custom forms
 
-Users can update custom forms from the quick actions on a task or issue.
+Users can update custom forms inside the task view by clicking the task name, navigating to the Details tab, and scrolling to the bottom of the page.
 
-| **Legacy Home** | **Priorities** |
-|------------|-----------|
-|   ![](assets)         |     ![](assets)        |
-
-
+![](assets/custom-form-priorities.png)
 
 #### Use the Summary panel
 
-Opens task overview and details instead - details on what is included And how to customize here.
+The Summary panel displays for tasks and issues. In the Summary, users can
+
+* Log time
+* Upload a file
+* Navigate to the Details tab in Priorities
+* Update task and issue information
+
+![](assets/assignment-summary.png)
+
+<!--Can admins customize this? It looks different from the task/issue summary in other areas. -->
 
 #### Open the Summary panel
 
@@ -111,8 +116,12 @@ On the **Table** tab, click into the name cell of the work item. Don't click the
 
 ## Prepare for the deprecation
 
-To help minimize disruption for you and your organization, below are some recommendations that will help ease the transition.
+To help minimize disruption for you and your organization, below are some recommendations that will help ease the transition:
 
-Info about how admins can use or not use LT?
+
+<!--Will priorities be enabled by default? Should we highlight they can disable if needed?-->
+<!--Info about how admins can use or not use LT?-->
 
 ### Help articles for end users
+
+* [Get started with Priorities](/)
