@@ -103,7 +103,7 @@ The Summary panel displays for tasks and issues. In the Summary, users can
 * Navigate to the Details tab in Priorities
 * Update task and issue information
 
-![](assets/assignment-summary.png)
+![](assets/assignments-summary.png)
 
 <!--Can admins customize this? It looks different from the task/issue summary in other areas. -->
 
@@ -124,4 +124,4 @@ To help minimize disruption for you and your organization, below are some recomm
 
 ### Help articles for end users
 
-* [Get started with Priorities](/)as
+* [Get started with Priorities](/)
