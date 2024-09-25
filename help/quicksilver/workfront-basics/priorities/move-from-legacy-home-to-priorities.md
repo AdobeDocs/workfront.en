@@ -124,4 +124,4 @@ To help minimize disruption for you and your organization, below are some recomm
 
 ### Help articles for end users
 
-* [Get started with Priorities](/)
+* [Get started with Priorities](/)as
