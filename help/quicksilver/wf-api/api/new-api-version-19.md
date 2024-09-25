@@ -141,6 +141,8 @@ A Category object is a custom form.
 
 ### Classifier (CLSF)
 
+A Classifier is a location.
+
 <table>
   <tbody>
     <tr>
