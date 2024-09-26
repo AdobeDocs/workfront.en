@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 
 # Get started with Priorities
 
-Priorities is a streamlined, intuitive experience tailored for individual contributors /task ownders. Priorities will be rolled out in phases, starting with the worklist.
+Priorities is a streamlined, intuitive experience tailored for individual contributors /task owners. Priorities will be rolled out in phases, starting with the worklist.
 
 With Priorities, you can enjoy
 
@@ -113,9 +113,9 @@ In Priorities, you can update work items to keep your work item details current,
 
 ### Add and view updates
 
-Add an update directly from the task/issue. 
+Add an update on an task or issue to communicate your progress to others.
 
-can also view system activity
+The Updates section shows system updates, and up to 200 of the most recent updates users made within the past 90 days.
 
 For more information, see [Add and view updates in Priorities]().
 
@@ -123,7 +123,7 @@ For more information, see [Add and view updates in Priorities]().
 
 ### Log time
 
-You can log time from the work list or 
+You can log time for work items to indicate the number of hours you spend working on them. You can also log time that is not related to work, like vacation, sick time, or time you spend in meetings. The time you log displays in your timesheet.
 
 For more information, see [Log time in Priorities]().
 
@@ -142,7 +142,11 @@ For more information, see [Upload files in Priorities]().
 
 ![](assets/upload-file.png)
 
-### View documents
+### View documents [!BADGE Coming soon]{type=Informative}
+
+The Documents tab will allow you to view all files related to a work item. You will be able to filter documents by name, file type, or person, and sort by name and upload date.
+
+You will also be able to open the document or proof.
 
 ### Add quick links
 
@@ -154,12 +158,12 @@ For more information, see [Add and manage quick links in Priorities]().
 
 ### Review and approve assets [!BADGE Coming soon]{type=Informative}
 
-We're adding an approval tab?
+Too soon to include this?
 
 
 ## Use Catch me up to see what you missed [!BADGE Coming soon]{type=Informative}
 
-Use the Catch me up feature to see what you missed. Catch me up can summarize updates, uploaded documents, approvals, and other noteable changes about your projects, tasks, and issues for the following timeframes: 24 hours, 3 days, 7 days. 
+Use the Catch me up feature to see what you missed. Catch me up will summarize updates, uploaded documents, approvals, and other notable changes about your projects within the following time frames: 24 hours, 3 days, 7 days. 
 
 
 ![](assets/catch-me-up.png)
