@@ -13,6 +13,7 @@ exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
 This section contains the following articles:
 
 * [Get started with [!UICONTROL Home]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
+* [Move from Legacy home to New Home](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
 * [Use the [!UICONTROL My Updates] area](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md)
 * [Display items in the [!UICONTROL Work List] in the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
 * [Prioritize work in the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)

@@ -32,7 +32,9 @@ This page provides information about functionality that is included in the Fourt
 * [Integration enhancements](#integration-enhancements)
 * [Project enhancements](#project-enhancements)
 * [Proofing enhancements](#proofing-enhancements)
+* [Report and Dashboard enhancements](#report-and-dashboard-enhancements)
 * [Other enhancements](#other-enhancements)
+* [Functionality soon to be removed from Workfront](#functionality-soon-to-be-removed-from-workfront)
 
 ### Administrator enhancements
 
@@ -52,7 +54,25 @@ This page provides information about functionality that is included in the Fourt
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">A "Select all" option is now available in layout templates</a></p>
+                        [!BADGE In production ]{type=Informative}
+                        <p>To help you more easily display and hide fields with layout templates, a "Select all" check box was added to the Overview and Finance areas of the Details view in a layout template. This option is available when you have selected Project, Task, Issue, Portfolio, or Program under under "Customize what users see".</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 29, 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release for all customers: August 29, 2024</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">Roll back environment promotion packages</a></p>
+                        [!BADGE In production for Fast Release ]{type=Positive}
                         <p>To make environment promotion more flexible and easier to use, we've enabled rollback functionality. Now, you can roll back packages within 24 hours, allowing you to more easily restore previous configurations that have been affected by an environment promotion package.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -77,16 +97,16 @@ This page provides information about functionality that is included in the Fourt
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: August 12, 2024</p>
+                                <p><s>Preview release: August 12, 2024</s></p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 24.9 release (September 12, 2024)</p>
+                                <p>Production for fast release: N/A</p>
                             </li>
                             <li>
-                                <p>Production release for all customers: TBD</p>
+                                <p>Production release for all customers: N/A</p>
                             </li>
                         </ul>
-                        <p><i>This feature is part of a phased release and will be available to a limited number of customers in September.</i></p>
+                        <p><i>This feature has been removed from Preview and will not be released with any future releases.</i></p>
                     </td>
                 </tr>
            </tbody>
@@ -111,6 +131,7 @@ This page provides information about functionality that is included in the Fourt
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md" class="MCXref xref" xrefformat="{para}">Outlook integration login experience enhancements</a></p>
+                        [!BADGE In production ]{type=Informative}
                         <p>The login experience for Outlook integration has been streamlined so that all customers see the same button to log in to Workfront whether or not they are IMS-enabled. The subsequent login steps remain different for IMS and non-IMS instances, but the initial page is the same for all users.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -166,7 +187,7 @@ This page provides information about functionality that is included in the Fourt
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md" class="MCXref xref" xrefformat="{para}">More relevant smart assignments</a></p>
-                        [!BADGE In production ]{type=Informative}
+                        [!BADGE In production for Fast Release ]{type=Positive}
                         <p>We have changed the algorithm that Workfront uses to calculate and suggest smart assignments for tasks. The new algorithm applies in the following areas in Workfront where you assign a task: task lists, the Assignments area in the task header, Home, and the Summary panel.</p>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
@@ -204,6 +225,24 @@ This page provides information about functionality that is included in the Fourt
                 </tr>
                 <tr>
                     <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Blank screen fix for Desktop Proofing Viewer Windows users</a></p>
+                        [!BADGE In production ]{type=Informative}
+                        <p>We fixed an issue with the new 2.1.36 Desktop Proofing Viewer version which caused some Windows users to see a blank screen after opening the viewer. </p>
+                        <p>New version for Windows users: 2.1.37</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: August 30, 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release for all customers: August 30, 2024</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Chromium update for the Desktop Proofing Viewer</a></p>
                         [!BADGE In production ]{type=Informative}
                         <p>We are upgrading the Desktop Proofing Viewer to support Chromium 126.0.6478.127 which will resolve issues with UI elements in interactive proofs.</p>
@@ -221,6 +260,39 @@ This page provides information about functionality that is included in the Fourt
                 </tr>
            </tbody>
         </table>        
+
+### Report and Dashboard enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-report-and-dashboard-enhancements.md" class="MCXref xref" xrefformat="{para}">Workfront Data Connect available for new plans</a></p>
+                        <p>Workfront Data Connect will become available for organizations on one of the new Workfront plans. Data Connect allows organizations to access their data as a secure and scalable data lake, which can be analyzed and visualized using business intelligence tools or stored externally. Additionally, organizations can use Data Connect to view data analytics that were previously unavailable, such as time-based trend analysis, variable mapping, and analysis of external system data in combination with Workfront data.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p><span class="preview">Production release for all customers: With the 24.10 release (October 2024)</span></p>
+                            </li>
+                        </ul>
+                        <p><i>Only available for organizations on one of the new Adobe Workfront plans. Data Connect is included in the Ultimate plan or can be purchased as an add-on to the Prime and Select plans.</i></p>
+                    </td>
+                </tr>
+           </tbody>
+        </table>    
 
 ### Other enhancements
 
@@ -285,6 +357,14 @@ This page provides information about functionality that is included in the Fourt
            </tbody>
         </table>   
 
+### Functionality soon to be removed from Workfront
+
+The following functionality is soon to be removed from Workfront:
+
+#### Deprecation of the legacy Home experience with 24.10
+
+We will be officially deprecating the legacy Home experience with the 24.10 release. Users are encouraged to begin using new Home, which will continue to be enhanced with additional features prior to the deprecation. For more information about the transition, including advice about what users and administrators can do to prepare, see [Legacy Home deprecation guide](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
+
 ## Announcements
 
 ### Workfront Fusion enhancements
@@ -322,11 +402,3 @@ For information about the maintenance updates made during the Fourth Quarter 202
 ### Training updates
 
 Explore the latest updates made to learning programs, learning paths, videos, and guides for each Adobe Workfront product release. For more information, see the "What's New" section of the [Workfront Tutorials page](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html).
-
-### Functionality soon to be removed from Workfront
-
-The following functionality is soon to be removed from Workfront:
-
-#### Deprecation of the legacy Home experience with 24.10
-
-We will be officially deprecating the legacy Home experience with the 24.10 release. Users are encouraged to begin using new Home, which will continue to be enhanced with additional features prior to the deprecation. For more information about the transition, including advice about what users and administrators can do to prepare, see [Legacy Home deprecation guide](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).

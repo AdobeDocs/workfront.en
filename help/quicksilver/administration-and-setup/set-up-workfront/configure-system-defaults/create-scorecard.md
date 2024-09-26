@@ -25,21 +25,21 @@ The questions and answers chosen for a scorecard must be quantifiable in order t
 
 +++ Expand to view access requirements for the functionality in this article.
 
-You must have the following to perform the steps in this article:
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
    <td> <p>Current: [!UICONTROL Business] or higher</p> 
    Or
    <p>New: [!UICONTROL Prime] or higher</p>
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] license</td> 
    <td><p>Current: [!UICONTROL Plan]</p>
    Or
    <p>New: [!UICONTROL Standard]</p>
@@ -47,6 +47,8 @@ You must have the following to perform the steps in this article:
   </tr> 
  </tbody> 
 </table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

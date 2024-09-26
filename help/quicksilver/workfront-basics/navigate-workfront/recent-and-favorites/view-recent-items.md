@@ -9,7 +9,7 @@ exl-id: 531b6b77-bf54-4ab3-a757-5c59fc0586a6
 ---
 # View recent items
 
-The [!UICONTROL Recents] menu is located on the top navigation bar. This menu shows recently viewed projects, reports, dashboards, tasks, issues, etc.
+The [!UICONTROL Recents] menu is located on the top navigation bar. This menu shows recently viewed projects, reports, dashboards, tasks, issues, etc. Only objects viewed within the past two weeks are included, up to twenty per object type, and are listed in order of most recent viewing.
 
 ## Access requirements
 

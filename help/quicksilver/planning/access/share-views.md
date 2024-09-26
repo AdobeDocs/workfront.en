@@ -66,12 +66,13 @@ You must have the following to be able to access Workfront Planning:
    <td role="rowheader"><p>Adobe Workfront Planning plan*</p></td> 
    <td> 
 <p>Any </p> 
-<p>For more information about what is included in each Workfront Planning plan, see <a href="https://business.adobe.com/products/workfront/pricing.html">Adobe Workfront pricing and packaging</a>. </p> 
+<p>For more information about what is included in each Workfront Planning plan, contact your Workfront account manager. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront platform</p></td> 
    <td> 
 <p>Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience to be able to access all the capabilities of Workfront Planning.</p> 
+<p>Your organization must be onboarded to the Adobe Unified Experience for users to be able to request and grant permissions to a view from a permission request. </p>
 <p>For more information, see <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
@@ -284,6 +285,9 @@ Users who access a link to a view to which they do not have permissions can requ
    The **Pending access requests** box displays. 
 
       ![](assets/notifications-list-approval-box.png)
+1. (Optional) For the user whose permissions you want to approve, select one of the following options from the drop-down menu to the right of the user's name: 
+   * **View**
+   * **Manage**
 1. Select the user for whom you want to approve or deny the permission, then click **Approve all** or **Deny all**. 
 1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
 

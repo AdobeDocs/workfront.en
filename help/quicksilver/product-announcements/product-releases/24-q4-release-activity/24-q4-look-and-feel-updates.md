@@ -16,7 +16,7 @@ For a list of all changes available with the Fourth Quarter 2024 release, see [F
 
 >[!NOTE]
 >
->Preview release: July 18, 2024; Production for fast release: With the 24.9 release (September 2024); Production for quarterly release: With the 24.10 release (October 2024)
+>Preview release: July 18, 2024; Production for fast release: With the 24.9 release (September 12, 2024); Production for quarterly release: With the 24.10 release (October 2024)
 
 We have updated the Setup > System > Preferences page to a more modern design that is consistent with other areas of Workfront.
 

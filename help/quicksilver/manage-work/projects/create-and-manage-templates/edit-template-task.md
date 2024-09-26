@@ -10,7 +10,9 @@ exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
 ---
 # Edit a template task
 
-After creating a template, you can edit information on the template tasks. The information you update on a template task is associated with project tasks after you use the template to create a project or you attach the template to a project.
+<!--Audited: 09/2024-->
+
+After creating a template, you can edit the information of the template tasks. The information you update on a template task is associated with project tasks after you use the template to create a project or you attach the template to a project.
 
 For information about creating a template, see [Create a project template](../../../manage-work/projects/create-and-manage-templates/create-template.md).
 
@@ -22,6 +24,8 @@ You can edit template task or you can edit template tasks in bulk.
 
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article. 
 
 You must have the following access to perform the steps in this article:
 
@@ -49,7 +53,9 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access level you have, contact your Workfront administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Prerequisites
 
@@ -82,7 +88,7 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 
    >[!TIP]
    >
-   >For information about all fields that display in the Details area, continue with editing all fields using the Edit Template Task box below.
+   >For information about all fields that display in the Details area, continue with editing all fields using the Edit Template Task box, as described below.
 
 1. (Conditional) To edit all information about the template task, click the **More** menu ![](assets/qs-more-icon-on-an-object.png) next to the name of the template task, then click **Edit**.
 
@@ -206,7 +212,7 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 
 ### Finance {#finance}
 
-1. Begin editing a task as described above.
+1. Begin editing a template task as described above.
 1. Click **Finance**.
 
    ![edit_task_finance.png](assets/edit-task-finance-350x216.png)
@@ -253,7 +259,7 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 
 ### Settings {#settings}
 
-1. Begin editing a task as described above.
+1. Begin editing a template task as described above.
 1. Click **Settings**.
 
    ![](assets/edit-template-tasks-settings-classic-350x231.png)
@@ -313,7 +319,7 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 
 ### Assignments {#assignments}
 
-1. Begin editing a task as described above.
+1. Begin editing a template task as described above.
 1. Click **Assignments**.
 
    ![assignments_edit_tasks.png](assets/assignments-edit-tasks-350x87.png)
@@ -337,14 +343,22 @@ You can edit a template task using the Edit Template Task or Template Task Detai
 
 ### Custom Forms {#custom-forms}
 
-You can define default custom forms to be automatically attached to tasks when the tasks are added to a project. For information about setting up the project to include default task custom forms , see the "Tasks" section in the article [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
+You can define custom forms to be automatically attached by default to tasks when the tasks are added to a project. For information about setting up the project to include default task custom forms, see the "Tasks" section in the article [Edit projects](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. Begin editing a task as described above. test
+You can also add custom forms to the future tasks of a project when the project is created from a template, by adding the custom forms to the template tasks. 
+
+1. Begin editing a template task as described above.
 1. Click **Custom Forms**.
 
    ![custom_forms_edit_task.png](assets/custom-forms-edit-task-350x136.png)
 
-1. Select the custom form or forms that you want to associate with the template task. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list. For more information about building custom forms, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). You can add up to ten custom forms to a template task. The forms are automatically added to the tasks created from the template. 
+1. Select the custom form or forms that you want to associate with the template task. 
+
+   You must build the custom forms before they are available to select in this field. 
+   Only active custom forms display in the list. 
+   For more information about building custom forms, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). 
+   You can add up to ten custom forms to a template task. 
+   The forms are automatically added to the tasks created from the template. 
 1. (Conditional and optional) If you attached a custom form to the template task, edit any fields on the form. You must specify all required fields before you can save the template task.
 
    >[!NOTE]
@@ -362,14 +376,12 @@ You can define default custom forms to be automatically attached to tasks when t
 
 ### Comment {#comment}
 
-1. Begin editing a task as described above.
+1. Begin editing a template task as described above.
 1. Click **Comment**.
 
    ![comment_edit_task.png](assets/comment-edit-task-350x138.png)
 
 1. Specify a comment that you want to display in the updates stream of the template task in the available field. This comment is visible for everyone with View access to the template and the template task and with access to view Notes.
 1. Click **Save Changes**.
-
-   Your changes will be submitted for this template task.
 
    When you or another user creates a project from this template, all settings you applied to template tasks become the settings for the project tasks.

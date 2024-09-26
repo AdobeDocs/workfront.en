@@ -117,13 +117,14 @@ If you see the map button above a field or function, you can use it to set varia
 
 ![](assets/map-toggle-350x74.png)
 
-* [Aggregate to JSON](#aggregate-to-json) 
 * [Convert JSON to XML](#convert-json-to-xml) 
 * [Parse JSON](#parse-json) 
 * [Create JSON](#create-json) 
 * [Transform JSON](#transform-json)
 
-### [!UICONTROL Aggregate to JSON]
+### Aggregators
+
+#### [!UICONTROL Aggregate to JSON]
 
 This aggregator module aggregates output from a previous module into JSON. 
 
@@ -154,7 +155,14 @@ This aggregator module aggregates output from a previous module into JSON.
  </tbody> 
 </table>
 
-### [!UICONTROL Convert JSON to XML]
+### Transformers
+
+* [Convert JSON to XML](#convert-json-to-xml) 
+* [Create JSON](#create-json) 
+* [Parse JSON](#parse-json) 
+* [Transform JSON](#transform-json)
+
+#### [!UICONTROL Convert JSON to XML]
 
 This action module converts a JSON string to XML.
 
@@ -169,7 +177,22 @@ This action module converts a JSON string to XML.
  </tbody> 
 </table>
 
-### [!UICONTROL Parse JSON]
+#### [!UICONTROL Create JSON]
+
+This action module creates JSON from a data structure.
+
+<table style="table-layout:auto"> 
+ <col data-mc-conditions=""> 
+ <col data-mc-conditions=""> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Data structure</td> 
+   <td> <p>Select the data structure that you want to use to create JSON. For more information, see <a href="#data-structure" class="MCXref xref">Data structure</a> in this article.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Parse JSON]
 
 This action module parses a JSON string into a data structure, which allows you to access the data inside the JSON string.
 
@@ -188,22 +211,7 @@ This action module parses a JSON string into a data structure, which allows you 
  </tbody> 
 </table>
 
-### [!UICONTROL Create JSON]
-
-This action module creates JSON from a data structure.
-
-<table style="table-layout:auto"> 
- <col data-mc-conditions=""> 
- <col data-mc-conditions=""> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">Data structure</td> 
-   <td> <p>Select the data structure that you want to use to create JSON. For more information, see <a href="#data-structure" class="MCXref xref">Data structure</a> in this article.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### [!UICONTROL Transform JSON]
+#### [!UICONTROL Transform JSON]
 
 This action module transforms an object into a json string.
 

@@ -1,7 +1,7 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Update work items in the Workload Balancer using the Summary 
+title: Update Work Items in the Workload Balancer Using the Summary 
 description: You can open the Summary panel in the Workload Balancer to update work items in the Assigned and Unassigned Work areas. 
 author: Lisa
 feature: Resource Management
@@ -9,48 +9,52 @@ exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
 ---
 # Update work items in the Workload Balancer using the Summary
 
-{{highlighted-preview}}
-
 You can use the Summary panel of a task or an issue to update important information for that item. in the Workload Balancer.
 
-The Summary panel is available for tasks and issuesin both the Assigned and Unassigned Work areas of the Workload Balancer.
+The Summary panel is available for tasks and issues in both the Assigned and Unassigned Work areas of the Workload Balancer.
 
 ## Access requirements
 
-You must have the following:
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan, when using the Workload Balancer in the Resourcing area</p>
-   <p>Work, when using the Workload Balancer of a team or project</p> 
- </p> </td> 
-  </tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>New: Standard</p>
+       <p>or</p>
+       <p>Current: Plan, when using the Workload Balancer in the Resourcing area;</br>
+       Work, when using the Workload Balancer of a team or project</p></td>
+  </tr>
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to&nbsp;the following:</p> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to the following:</p> 
     <ul> 
-     <li> <p>Resource Management</p> </li> 
-     <li> <p>Projects</p> </li> 
-     <li> <p>Tasks</p> </li> 
-     <li> <p>Issues</p> </li> 
-    </ul> <p>If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can change your access level, see <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+     <li>Resource Management</li> 
+     <li>Projects</li> 
+     <li>Tasks</li> 
+     <li>Issues</li> 
+    </ul>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Contribute permissions or higher to the projects, tasks, and issues </p> <p>For information on requesting additional access, see <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td>Contribute permissions or higher to the projects, tasks, and issues</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Update tasks and issues in the Workload Balancer Summary panel
 
@@ -76,15 +80,7 @@ You must have the following:
 
    The Summary panel opens on the right.
 
-   <div class="preview">
-
-   Example of the Summary panel in the Preview environment:
    ![Summary panel](assets/summary-panel-task-wb-new-comments.png)
-
-   </div>
-   
-   Example of the Summary panel in the Production environment:
-   ![Summary panel](assets/summary-panel-for-task-in-workload-balancer-350x449.png)
 
 1. Modify a number of fields for the work item, enter an update, or you navigate from here to other areas of Workfront to add documents or other information to the work item.
 

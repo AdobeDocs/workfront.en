@@ -5,8 +5,8 @@ title: Use new document approvals and proofing together
 description: You can use new document approvals with proofing.
 author: Courtney
 feature: Work Management, Digital Content and Documents
+exl-id: be484629-6e70-4809-ad4c-a489d5814da6
 ---
-
 # Use new document approvals and proofing together
 
 New document approvals in Workfront introduces a new set of features to help you review and approve documents. You can use the new document approvals workflow with the existing proofing viewer to add comments and markup to documents in review.
@@ -119,4 +119,3 @@ To review and approve a document:
     * **Needs work**: The document needs changes and is not ready for use. Once the specified changes are made, the document must be uploaded as a new version and go through another round of approvals. For more information on uploading a new version, see [ Create a new version as needed](#create-a-new-version-as-needed) in this article.
 
 Once you make a decision, the document owner is notified via email.
-

@@ -30,15 +30,20 @@ You must have the following access to perform the steps in this article:
    <td>Any</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront license</td> 
-   <td>Plan</td> 
+   <td role="rowheader">Adobe Workfront license*</td> 
+   <td><p>New: Standard</p>
+  <p> Current: Plan</p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Access level configurations</td> 
-   <td> <p>To perform these steps at the system level, you need the System Administrator access level.</p> </td> 
+   <td> <p>To perform these steps at the system level, you need the System Administrator access level.
+To perform them for a group, you must be a manager of that group.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
 +++
 

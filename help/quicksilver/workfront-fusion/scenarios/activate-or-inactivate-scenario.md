@@ -18,7 +18,7 @@ You can work with scenarios either in an active or an inactive state:
 
 * An inactive scenario executes only when you run it manually.
 
-   This is useful when you want to run the scenario only at certain times.
+   This is useful when you want to run the scenario manually every time.
 
 You can activate or deactivate a scenario at any time, depending on how you want to use the scenario.
 

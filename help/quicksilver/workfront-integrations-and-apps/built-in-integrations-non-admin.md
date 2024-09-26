@@ -41,6 +41,17 @@ The following built-in integrations are currently available in Workfront.
      <p>For information and instructions, see <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Install the  [!DNL Adobe Workfront] plugin for [!DNL Creative Cloud] Applications</a>.</p> </td> 
   </tr> 
   <tr> 
+   <td role="rowheader"> <p>Adobe Experience Manager Assets and Assets Essentials </p>  </p> </td> 
+   <td> 
+    <ul> 
+     <li>Automatically create folders linked between Workfront and Adobe Experience Manager 
+      <li>Sync metadata for existing linked assets</p></li>
+      <li>Automatically update portfolio, program, project, task, issue, and documents metatada when it's change in Workfront.</li>
+      <li>Smoothly connect several Experience Manager Assets repositories to one Workfront environment, or several Workfront environments to one Experience Manager Assets repository across Organization IDs</li></ul>
+     <p>For information and instructions, see <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Overview of Adobe Experience Manager Assets integrations</a></p> 
+     </td>
+  </tr> 
+  <tr> 
    <td role="rowheader"> <p>Box</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
    <td> 
     <ul> 

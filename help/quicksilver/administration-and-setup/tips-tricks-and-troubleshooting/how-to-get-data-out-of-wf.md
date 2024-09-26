@@ -10,7 +10,7 @@ feature: System Setup and Administration
 role: Admin
 exl-id: ed40984f-602a-46e9-a72b-141936de8fcb
 ---
-# Export historical data from [!DNL Adobe Workfron]t: Pros and cons
+# Export historical data from [!DNL Adobe Workfront]: Pros and cons
 
 This article explains the pros and cons of four options you can use to export historical data from [!DNL Workfront].
 
@@ -26,11 +26,11 @@ This article explains the pros and cons of four options you can use to export hi
 
 ## Request a [!DNL Postgres] data dump file from our Database team
 
-Your Account Executive can submit a request to our Database team to export a database dump file (.dmp [!DNL Postgres] file) with your data. An additional request will go to our AOS team to retrieve all of your stored documents.
+You must submit a request to our Customer Support team, who will then submit a request to our Database team to export a database dump file (.dmp [!DNL Postgres] file) with your data. An additional request will go to our NOC team to retrieve all of your stored documents.
 
 * **Pros**: You get your entire data load, including custom fields, as well as documents that are stored in the system.  
 
-* **Cons**: The database file is hard to read: there is no way you can read this file unless you upload it to a [!DNL Postgres] database and re-establish the relationships between the tables. The documents are stored on a separate file server and must be extracted separately using a separate process by the AOS team. In doing so, there is no organization to the documents, and they are all referenced by their GUID.
+* **Cons**: The database file is hard to read: there is no way you can read this file unless you upload it to a [!DNL Postgres] database and re-establish the relationships between the tables. The documents are stored on a separate file server and must be extracted separately using a separate process by the NOC team. In doing so, there is no organization to the documents, and they are all referenced by their GUID.
 
 * **Cost**: There is a cost associated with this download, depending on how long it takes the team to create the file. Check with your AE/ CAE for more information or to get this process started.
 

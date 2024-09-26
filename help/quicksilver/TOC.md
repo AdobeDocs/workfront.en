@@ -19,6 +19,7 @@ feature-set: Workfront
       * [2024 Q4 Integration enhancements](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md)
       * [2024 Q4 Project enhancements](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md)
       * [2024 Q4 Proofing enhancements](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md)
+      * [2024 Q4 Report and Dashboard enhancements](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-report-and-dashboard-enhancements.md)
       * [Other enhancements during the Fourth Quarter 2024 release timeframe](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md)
       * [Look-and-feel updates during the 2024 Q4 release timeframe](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-look-and-feel-updates.md)
     * 2024 Q3 Release {#release-24-q3}
@@ -166,6 +167,8 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+      * [Workfront Fusion release activity: Week of September 9, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-9-9.md)
+      * [Workfront Fusion release activity: Week of August 19, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-8-19.md)
       * [Workfront Fusion release activity: Week of August 5, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-8-5.md)
       * [Workfront Fusion release activity: Week of July 29, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-7-29.md)
       * [Workfront Fusion release activity: Week of July 22, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-7-22.md)
@@ -405,10 +408,10 @@ feature-set: Workfront
   * Announcements {#announcements}
     * [Announcements](product-announcements/announcements/announcements.md)
     * [Schedule of features no longer supported](product-announcements/announcements/feature-removal-timeline.md)
+    * [Legacy Home deprecation guide](product-announcements/announcements/legacy-home-deprecation.md)
     * [Maintenance Window FAQ](product-announcements/announcements/maintenance-window-faq.md)
     * [Change required for adding proofs to your allowlist](product-announcements/announcements/proofhq-domain-change-workfront.md)
     * [Unsubscribe from Announcement Center Messages in the new Adobe Workfront experience](product-announcements/announcements/unsubscribe-from-ac-messages.md)
-    * [Legacy Home deprecation guide](product-announcements/announcements/legacy-home-deprecation.md)
     * Announcement archive {#announcement-archive}
       * [Announcement archive](product-announcements/announcements/announcement-archive/announcement-archive.md)
       * [Custom form enhancements](product-announcements/announcements/announcement-archive/custom-form-enhancements.md)
@@ -875,8 +878,10 @@ feature-set: Workfront
       * [Get started with New Home](workfront-basics/using-home/new-home/get-started-with-new-home.md)
       * [Add, edit, or remove widgets in New Home](workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
       * [New Home widget filters overview](workfront-basics/using-home/new-home/widget-filter-overview-new-home.md)
+      * [Manage your work with the My Work widget](workfront-basics/using-home/new-home/my-work-widget.md)
     * Use the Home area {#use-home-area}
       * [Use the Home area](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
+      * [Move from Legacy home to New Home](workfront-basics/using-home/new-home/move-to-new-home.md)
       * [Get started with Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
       * [Display items in the Work List in the Home area](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
       * [Prioritize work in the Home area](workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
@@ -1008,6 +1013,7 @@ feature-set: Workfront
     * [Duplicate approval processes showing in the Home Work List](workfront-basics/tips-tricks-and-troubleshooting/duplicate-apprval-processes-home.md)
     * [Filter buttons do not display in page headers](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
     * [Projects I'm On filter includes unexpected results](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
+    * [Multiple browser tabs cause Workfront to log out](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
 * Agile {#agile}
   * [Agile](agile/agile.md)
   * [Boards overview](agile/boards-overview.md)
@@ -1444,6 +1450,7 @@ feature-set: Workfront
       * [Remove a project from a portfolio](manage-work/portfolios/create-and-manage-portfolios/remove-project-from-portfolio.md)
       * [Review Requested Projects](manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)
     * Create and manage programs {#create-and-manage-programs}
+      * [Programs overview in [!DNL Adobe Workfront]](manage-work/portfolios/create-and-manage-programs/programs-overview.md)
       * [Create and manage programs](manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
       * [Create a program](manage-work/portfolios/create-and-manage-programs/create-program.md)
       * [Edit programs](manage-work/portfolios/create-and-manage-programs/edit-programs.md)
@@ -1750,7 +1757,7 @@ feature-set: Workfront
       * [Associate resource pools with users](resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
       * [Remove users from resource pools](resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
     * [Get started with Resource Planning](resource-mgmt/resource-planning/get-started-resource-planning.md)
-    * [Access needed to budget resources in Adobe Workfront](resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
+    * [Access needed to budget resources in Workfront](resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
     * [Resource Planner overview](resource-mgmt/resource-planning/get-started-resource-planner.md)
     * [Locate the Resource Planner](resource-mgmt/resource-planning/locate-resource-planner.md)
     * [Resource Planner navigation overview](resource-mgmt/resource-planning/resource-planner-navigation.md)
@@ -2036,6 +2043,7 @@ feature-set: Workfront
   * Adobe Workfront Planning general information {#adobe-workfront-planning-general-information}
     * [Adobe Workfront Planning general information: article index](planning/general/planning-general-article-index.md)
     * [Adobe Workfront Planning overview](planning/general/planning-overview.md)
+    * [Adobe Workfront Planning best practices](planning/general/planning-best-practices.md)
     * [Adobe Workfront Planning API basics](planning/general/planning-api-basics.md)
     * [Adobe Workfront Planning AI Assistant overview](planning/general/planning-ai-assistant-overview.md)
     * [Adobe Workfront Planning release activity for 2024](planning/general/release-activity.md)
@@ -2124,6 +2132,7 @@ feature-set: Workfront
     * [IP Addresses for accessing Adobe Workfront Fusion](workfront-fusion/get-started/ip-addresses-for-fusion.md)
     * [Adobe Workfront Fusion licenses](workfront-fusion/get-started/license-automation-vs-integration.md)
     * [Operations in [!DNL Adobe Workfront Fusion]](workfront-fusion/get-started/operations-in-workfront-fusion.md)
+    * [Working with large files in Fusion](/help/quicksilver/workfront-fusion/get-started/fusion-large-files.md)
     * [Adobe Workfront Fusion video overviews](/help/quicksilver/workfront-fusion/get-started/fusion-basics-videos.md)
   * Adobe Workfront Fusion basics {#workfront-fusion-basics}
     * [Adobe Workfront Fusion basics](workfront-fusion/workfront-fusion-basics/workfront-fusion-basics.md)
