@@ -384,3 +384,4 @@ Only users with a Standard license can have full access to resource management. 
 | View the Check-in area in the left panel |&nbsp; |✓ |
 | View the Settings area in the left panel |✓ |✓  |
 | Print a list of goals |✓ |✓  |
+

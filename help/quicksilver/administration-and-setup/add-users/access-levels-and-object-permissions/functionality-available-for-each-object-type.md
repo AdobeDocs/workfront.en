@@ -572,3 +572,4 @@ Only users with a Plan license can have full access to [select object or area]. 
 | View the Graphs section in the left panel |✓ |✓ |
 | View the Goal Alignment section in the left panel |✓ |✓ |
 
+
