@@ -13,7 +13,7 @@ For a list of all changes available at this point in the Fourth Quarter 2024 rel
 
 ## Simplify the Workfront experience for task owners with Priorities
 
-Introducing Priorities: a simpler, streamlined, and intuitive Workfront experience for task owners.
+Introducing Priorities: a simpler, streamlined, and more intuitive Workfront experience for task owners.
 
 Priorities enhances focus and productivity to help customers accomplish more in less time. 
 
