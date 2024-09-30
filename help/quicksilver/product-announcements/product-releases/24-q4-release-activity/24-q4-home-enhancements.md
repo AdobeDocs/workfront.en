@@ -4,7 +4,6 @@ description: Fourth Quarter 2024 Home enhancements
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-exl-id: 1559312e-2e51-4075-b9a9-923211abd125
 ---
 # Fourth Quarter 2024 Home enhancements
 
