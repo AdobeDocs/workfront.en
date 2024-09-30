@@ -19,6 +19,10 @@ The following tables lists the functionality available for each object type in t
 
 It also indicates which actions Workfront administrators can disable or enable using an access level.
 
+>[!NOTE]
+>
+>This article describes functionality available to access levels in the current Workfront plan model. To see functionality available in the new plan model, see [Functionality available for each object type for new access levels](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md).
+
 ## Projects
 
 Only users with a Plan license can be granted full access to projects. 
@@ -567,4 +571,5 @@ Only users with a Plan license can have full access to [select object or area]. 
 | View the Goal List section in the left panel |✓ |✓ |
 | View the Graphs section in the left panel |✓ |✓ |
 | View the Goal Alignment section in the left panel |✓ |✓ |
+
 
