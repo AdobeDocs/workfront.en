@@ -16,7 +16,7 @@ For a list of all changes available at this point in the Fourth Quarter 2024 rel
 
 Introducing Priorities: a simpler, streamlined, and intuitive Workfront experience for task owners.
 
-Priorities enhances focus and productivity by leveraging AI to help customers accomplish more in less time. 
+Priorities enhances focus and productivity to help customers accomplish more in less time. 
 
 With Priorities, you can enjoy
 
@@ -24,7 +24,7 @@ With Priorities, you can enjoy
 * Greater productivity: Access project context and perform tasks quicker with fewer clicks
 * Personalized features: Benefit from features uniquely designed for task owners
 
-Priorities is intended to replace Legacy Home and will roll out in phases.
+Priorities is intended to replace Legacy Home and new functionality will release in phases.
 
 For more information, see [Get started with Priorities](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
 

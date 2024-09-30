@@ -63,7 +63,7 @@ A calendar replacement view is not available at this time, but it is on the road
 
 #### Create a personal task
 
-Users users cannot create personal tasks or to-do items in priorities.
+Users users cannot create personal tasks or to-do items in Priorities.
 
 #### Add items to My Priority
 
@@ -111,18 +111,16 @@ The Summary panel displays for tasks and issues. In the Summary, users can
 
 #### Open the Summary panel
 
-On the **Table** tab, click into the name cell of the work item. Don't click the name of the work item.
+On the **Table** tab, click into the name cell of the work item. Clicking on the name of the work item takes you to the Details page and does not open the Summary panel. 
 
 ![](assets/open-summary-priorities.png)
 
 
 ## Prepare for the deprecation
 
-To help minimize disruption for you and your organization, below are some recommendations that will help ease the transition:
-
-
-<!--Will priorities be enabled by default? Should we highlight they can disable if needed?-->
-<!--Info about how admins can use or not use LT?-->
+* Share the [Get started with Priorities](//help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md) article with your end users. 
+* Priorities will be enabled by default. Workfront Administrators can disable Priorities in Setup > System > Preferences. 
+* Workfront Administrators cannot customize priorities through the Layout Template at this time.
 
 ### Help articles for end users
 
