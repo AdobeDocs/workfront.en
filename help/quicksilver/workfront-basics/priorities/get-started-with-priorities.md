@@ -86,7 +86,7 @@ After you have filtered your work, you can group items based on
 * Status
 * Project
 
-For more information, see [Find and organize your work in Priorities]().
+<!--For more information, see [Find and organize your work in Priorities]().-->
 
 ### Prioritize important work items with My Focus
 
@@ -99,7 +99,7 @@ My Focus is a column in the worklist that helps you to prioritize your work. The
 
 Once you have assigned focus levels to your work items, you can sort the column to surface urgent items at the top of your worklist.
 
-For more information, see [Prioritize important work items with My Focus]().
+<!--For more information, see [Prioritize important work items with My Focus]().-->
 
 ![](assets/my-focus-column.png)
 
@@ -117,7 +117,7 @@ Add an update on an task or issue to communicate your progress to others.
 
 The Updates section shows system updates, and up to 200 of the most recent updates users made within the past 90 days.
 
-For more information, see [Add and view updates in Priorities]().
+<!--For more information, see [Add and view updates in Priorities]().-->
 
 ![](assets/new-update.png)
 
@@ -125,7 +125,7 @@ For more information, see [Add and view updates in Priorities]().
 
 You can log time for work items to indicate the number of hours you spend working on them. You can also log time that is not related to work, like vacation, sick time, or time you spend in meetings. The time you log displays in your timesheet.
 
-For more information, see [Log time in Priorities]().
+<!--For more information, see [Log time in Priorities]().-->
 
 ![](assets/log-time.png)
 
@@ -138,7 +138,7 @@ Upload files directly to the task or issue's Documents area without having to na
 * Add additional files
 * Import files from connected document integrations
 
-For more information, see [Upload files in Priorities]().
+<!--For more information, see [Upload files in Priorities]().-->
 
 ![](assets/upload-file.png)
 
@@ -154,11 +154,15 @@ You can embed frequently used links in the work item's details page. Quick links
 
 ![](assets/quick-links.png)
 
-For more information, see [Add and manage quick links in Priorities]().
+<!--For more information, see [Add and manage quick links in Priorities]().-->
 
 ### Review and approve assets [!BADGE Coming soon]{type=Informative}
 
-Too soon to include this?
+The ability to review and approve assets is on the Priorities roadmap.
+
+For now, we recommend using the Awaiting My Approval and All Approvals widgets in New Home. 
+
+For more information, see [Add, edit, or remove widgets in New Home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
 
 
 ## Use Catch me up to see what you missed [!BADGE Coming soon]{type=Informative}
