@@ -7,9 +7,9 @@ feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 ---
 
-<span class="preview">Priorities will be available in Preview on 10/3/2024</span>
-
 # Move from Legacy Home to Priorities
+
+<span class="preview">Priorities will be available in Preview on 10/3/2024</span>
 
 Legacy Home will be removed from Workfront on 10/17 with the Q4 release. This article provides information on which functionality will be available in Priorities as well as recommendations for Workfront administrators moving users to Priorities. 
 
