@@ -43,9 +43,7 @@ Groupings
 
 #### Delegate work
 
-Users cannot delegate or view delegated work in Priorities at this time. 
-
-Users can still delegate work from New Home in the following widgets:
+Users cannot delegate or view delegated work in Priorities at this time. However, users can still delegate work from New Home in the following widgets:
 
 * My Work
 * My Tasks
