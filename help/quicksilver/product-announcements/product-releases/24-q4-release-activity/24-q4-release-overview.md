@@ -30,6 +30,7 @@ This page provides information about functionality that is included in the Fourt
 
 * [Administrator enhancements](#administrator-enhancements)
 * [Integration enhancements](#integration-enhancements)
+* [Home enhancements](#home-enhancements)
 * [Project enhancements](#project-enhancements)
 * [Proofing enhancements](#proofing-enhancements)
 * [Report and Dashboard enhancements](#report-and-dashboard-enhancements)
@@ -148,6 +149,42 @@ This page provides information about functionality that is included in the Fourt
            </tbody>
         </table>
 
+### Home enhancements
+
+<table>
+            <col style="width: 50%;" />
+            <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="Link">Title</a></p>
+                        <p>Description</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: October 3, 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release for all customers: October 17, 2024</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+        </table>
+
+
 ### Project enhancements
 
 <table>
@@ -221,6 +258,23 @@ This page provides information about functionality that is included in the Fourt
                     <td>
                         <p><span class="bold">Release dates</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Copy/paste issue fix for the Desktop Proofing Viewer</a></p>
+                        <p>We have fixed an issue where content pastes incorrectly in Updates section of the Desktop Proofing Viewer.</p>
+                        <p>New version: 2.1.39</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: October 2, 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release for all customers: October 2, 2024</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>

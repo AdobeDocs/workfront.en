@@ -1,29 +1,31 @@
 ---
 navigation-topic: get-started-with-workfront
 title: Get started with Priorities
-description: Get started with Priorities
+description: Priorities is a streamlined, intuitive experience tailored for task owners. 
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 ---
 
+<span class="preview">Priorities will be available in Preview on 10/3/2024</span>
+
 # Get started with Priorities
 
-Priorities is a streamlined, intuitive experience tailored for individual contributors /task owners. Priorities will be rolled out in phases, starting with the worklist.
+Priorities is a streamlined, intuitive experience tailored for task owners. Priorities will be rolled out in phases, starting with the worklist.
 
 With Priorities, you can enjoy
 
-* Clearer priorities: Organize your day or week with consolidated navigation for better clarity
-* Greater productivity: Access project and task contexts and perform actions with fewer clicks
-* Personalized features: Benefit from features uniquely designed for individual contributors
+* Manage and prioritize daily tasks: Organize your day or week with consolidated navigation for better clarity
+* Greater productivity: Access project context and perform tasks quicker with fewer clicks
+* Personalized features: Benefit from features uniquely designed for task owners
 
 ## Find and organize your work
 
-Still need intro
+In Priorities, you can filter and group your work to help you manage deadlines and prioritize your what is important to you. You can also quickly identify Urgent work with the My Focus column.
 
 ### Find your work with filters
 
-Find you most important work with filters. You can filter tasks and issues assigned to you in the following ways:
+Find your most important work with filters. You can filter tasks and issues assigned to you in the following ways:
 
 <table>
   <tbody>
@@ -64,7 +66,7 @@ Find you most important work with filters. You can filter tasks and issues assig
     </tr>
     <tr>
     <td>Project</td>
-    <td>Displays projects that contains tasks or issues you've been assigned to</td>
+    <td>Displays projects that contain tasks or issues you've been assigned to</td>
     </tr>
     <tr>
     <td>Due date</td>
@@ -113,7 +115,7 @@ In Priorities, you can update work items to keep your work item details current,
 
 ### Add and view updates
 
-Add an update on an task or issue to communicate your progress to others.
+Add an update on a task or issue to communicate your progress to others.
 
 The Updates section shows system updates, and up to 200 of the most recent updates users made within the past 90 days.
 
@@ -171,3 +173,9 @@ Use the Catch me up feature to see what you missed. Catch me up will summarize u
 
 
 ![](assets/catch-me-up.png)
+
+## Considerations
+
+* Accessing tasks in Priorities is across tabs. We plan to add additional tabs, like Documents, Subtasks, Approvals, etc, in the future. Let us know you need these items by submitting feedback using the **Give Feedback** button.
+
+
