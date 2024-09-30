@@ -118,10 +118,10 @@ On the **Table** tab, click into the name cell of the work item. Clicking on the
 
 ## Prepare for the deprecation
 
-* Share the [Get started with Priorities](//help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md) article with your end users. 
+* Share the [Get started with Priorities](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md) article with your end users. 
 * Priorities will be enabled by default. Workfront Administrators can disable Priorities in Setup > System > Preferences. 
 * Workfront Administrators cannot customize priorities through the Layout Template at this time.
 
 ### Help articles for end users
 
-* [Get started with Priorities](//help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
+* [Get started with Priorities](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
