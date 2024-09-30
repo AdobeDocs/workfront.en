@@ -22,13 +22,13 @@ You can delegate the following objects in [!DNL Adobe Workfront]:
 
 * Tasks assigned to you
 * Issues assigned to you
-* Project, task, issue, document approvals assigned to you.
+* Project, task, or issue approvals assigned to you.
 
 This article contains general information about delegating tasks and issues.
 
-For information about delegating project, task, issue, and document approvals, see [Delegate approval request](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
+For information about delegating project, task, and issue approvals, see [Delegate approval request](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
-For information about how to delegate tasks and issues see [Delegate tasks and issues](../../manage-work/delegate-work/how-to-delegate-work.md).
+For information about how to delegate tasks and issues, see [Delegate tasks and issues](../../manage-work/delegate-work/how-to-delegate-work.md).
 
 ## Delegate work overview
 
@@ -37,6 +37,7 @@ Consider the following when you delegate tasks and issues:
 * Your [!DNL Workfront] or group administrator must enable the Delegation preferences in the [!UICONTROL Setup] area before you can delegate your work to others.
 
    For information, see [Configure system-wide task and issue preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+   
 * You can delegate tasks and issues only from the [!UICONTROL Home] area.
 * Exceptions exist for the following license types:
 
