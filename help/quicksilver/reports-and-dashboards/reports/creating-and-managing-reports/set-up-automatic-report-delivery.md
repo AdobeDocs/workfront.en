@@ -124,7 +124,7 @@ To schedule a report for automatic delivery or to edit or delete an existing rep
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Time</p> </td> 
-      <td> <p>Select the time of day for the delivery to be sent.</p> <p>Tip: Because system loads can affect report delivery times, there may be a delay between the scheduled time and the actual delivery time. If you need a report delivered by a specific time, we recommend scheduling the delivery prior to the time that it is needed. For example, we recommend scheduling the delivery a day prior to the date when it is needed.</p> </td> 
+      <td> <p>Select the time of day for the delivery to be sent.</p> <p>Tip: Because system loads can affect report delivery times, there may be a delay of up to 24 hours between the scheduled time and the actual delivery time. If you need a report delivered by a specific time, we recommend scheduling the delivery prior to the time that it is needed. In general, we recommend scheduling the delivery at least a day prior to the date when it is needed.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Repeats On</p> </td> 

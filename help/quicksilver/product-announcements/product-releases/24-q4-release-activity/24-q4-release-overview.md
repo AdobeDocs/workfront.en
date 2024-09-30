@@ -98,16 +98,16 @@ This page provides information about functionality that is included in the Fourt
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p>Preview release: August 12, 2024</p>
+                                <p><s>Preview release: August 12, 2024</s></p>
                             </li>
                             <li>
-                                <p>Production for fast release: With the 24.9 release (September 12, 2024)</p>
+                                <p>Production for fast release: N/A</p>
                             </li>
                             <li>
-                                <p>Production release for all customers: TBD</p>
+                                <p>Production release for all customers: N/A</p>
                             </li>
                         </ul>
-                        <p><i>This feature is part of a phased release and will be available to a limited number of customers in September.</i></p>
+                        <p><i>This feature has been removed from Preview and will not be released with any future releases.</i></p>
                     </td>
                 </tr>
            </tbody>
