@@ -28,4 +28,4 @@ Priorities is intended to replace Legacy Home and will roll out in phases.
 
 For more information, see [Get started with Priorities](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
 
-<div class="extension video"><iframe allowfullscreen embedded-video src="https://video.tv.adobe.com/v/3434848/" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"><source src="https://video.tv.adobe.com/v/3434848/" type="" /><p>Your browser does not support the iframe element.</p></iframe></div>
+<div class="extension video"><iframe allowfullscreen embedded-video src="https://video.tv.adobe.com/v/3434848/?quality=12&learn=on" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"><source src="https://video.tv.adobe.com/v/3434848/?quality=12&learn=on" type="" /><p>Your browser does not support the iframe element.</p></iframe></div>

@@ -167,8 +167,14 @@ This page provides information about functionality that is included in the Fourt
                 </tr>
                 <tr>
                     <td>
-                        <a href="Link">Title</a></p>
-                        <p>Description</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">Introducing Priorities: a simpler, streamlined, and intuitive Workfront experience for task owners.</a></p>
+                        <p>Priorities enhances focus and productivity to help customers accomplish more in less time.</p>
+                        <p>With Priorities, you can enjoy:</p>
+                        <ul>
+                        <li>Manage and prioritize daily tasks: Organize your day or week with consolidated navigation for better clarity</li>
+                        <li>Greater productivity: Access project context and perform tasks quicker with fewer clicks</li>
+                        <li>Personalized features: Benefit from features uniquely designed for task owners</li>
+                        </ul>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -176,7 +182,7 @@ This page provides information about functionality that is included in the Fourt
                                 <p>Preview release: October 3, 2024</p>
                             </li>
                             <li>
-                                <p><span class="preview">Production release for all customers: October 17, 2024</span></p>
+                                <p>Production release for all customers: October 17, 2024</p>
                             </li>
                         </ul>
                     </td>
