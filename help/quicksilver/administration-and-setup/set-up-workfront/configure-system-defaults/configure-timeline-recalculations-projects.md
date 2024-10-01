@@ -72,6 +72,11 @@ As an [!DNL Adobe Workfront] administrator, you can configure when [!DNL Workfro
 
    The timeline of all projects in the system recalculates automatically based on the Update Type of each project.
 
+>[!IMPORTANT]
+>
+>For the Preview and Custom Refresh Sandbox environments, the nightly recalculation is disabled, and the project timelines are not recalculated automatically. You must manually recalculate the project timeline for the Preview and the Custom Refresh Sandbox environments. For information, see [Recalculate project timelines](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md).
+
+
 ## Recalculate timelines for the entire [!DNL Workfront] instance
 
 You can run the [!UICONTROL Recalculate Timeline] diagnostic to manually recalculate all timelines in the [!DNL Workfront] system. This allows all Project Managers to see the influence of external changes immediately on both planned and projected dates. For more information, see [Use Diagnostics to trigger automated processes](../../../administration-and-setup/manage-workfront/run-diagnostics/use-diagnostics-to-trigger-automated-processes.md).
