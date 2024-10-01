@@ -26,7 +26,7 @@ For more information, see [Customize the Details view using a layout template](/
 
 >[!NOTE]
 >
->Preview release: August 29, 2024; Production for fast release: With the 24.9 release (September 12, 2024); Production for quarterly release: With the 24.10 release (October 2024)
+>Preview release: August 29, 2024; Production for fast release: With the 24.9 release (September 12, 2024); Production for quarterly release: With the 24.10 release (October 17, 2024)
 
 To make environment promotion more flexible and easier to use, we've enabled rollback functionality. Now, you can roll back packages within 24 hours, allowing you to more easily restore previous configurations that have been affected by an environment promotion package.
 
