@@ -17,6 +17,7 @@ feature-set: Workfront
       * [2024 Q4 Release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
       * [2024 Q4 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md)
       * [2024 Q4 Integration enhancements](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md)
+      * [2024 Q4 Home enhancements](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md)
       * [2024 Q4 Project enhancements](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md)
       * [2024 Q4 Proofing enhancements](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md)
       * [2024 Q4 Report and Dashboard enhancements](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-report-and-dashboard-enhancements.md)
@@ -871,6 +872,9 @@ feature-set: Workfront
     * [Understand the navigation for a Work-license user](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
     * [Understand the navigation for a Review-license user](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
     * [Overview of the Project, Task, and Issue dates in Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
+  * Priorities {#priorities}
+    * [Priorities: article index](workfront-basics/priorities/priorities-toc.md)
+    * [Get started with Priorities](workfront-basics/priorities/get-started-with-priorities.md)
   * Home {#home}
     * [Home](workfront-basics/using-home/home.md)
     * New Home {#new-home}
@@ -882,6 +886,7 @@ feature-set: Workfront
     * Use the Home area {#use-home-area}
       * [Use the Home area](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
       * [Move from Legacy home to New Home](workfront-basics/using-home/new-home/move-to-new-home.md)
+      * [Move from Legacy home to Priorities](workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
       * [Get started with Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
       * [Display items in the Work List in the Home area](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
       * [Prioritize work in the Home area](workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
