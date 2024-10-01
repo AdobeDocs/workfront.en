@@ -2,7 +2,7 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Generate a module using AI
+title: Generate a scenario segment using AI
 description: You can enter a text prompt to create an HTTP module configured to the prompt.
 author: Becky
 feature: Workfront Fusion
@@ -87,6 +87,7 @@ Text prompts should include the following information at a minimum:
 >This includes the application `Workfront Planning` and the action `get field details`.
 >
 >The following example is NOT correct:
+>
 >* `Generate an image in Adobe Firefly and upload it to Dropbox`
 >
 >    This example is incorrect because it includes more than one application

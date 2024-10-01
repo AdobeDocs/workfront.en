@@ -163,6 +163,16 @@ The steps for configuring single sign-on in the Preview Sandbox are similar to t
 
 For more information about configuring [!DNL Workfront] with SSO, see [Overview of single sign-on in Adobe Workfront](../../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md).
 
+## Automatic recalculation of project timelines 
+
+Recalculating timelines allows managers to see how forces outside of the project are impacting the project's timeline. A project's timeline refers to the planned and projected dates for the project.
+
+As a Workfront administrator, you can configure when Workfront automatically recalculates project timelines. Workfront can recalculate project timelines either every night or when the project scope changes, or both.
+
+For information, see [Configure timeline recalculations for projects](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md). 
+
+For the Preview environment, the nightly recalculation is disabled, and the project timelines are not recalculated automatically. You must manually recalculate the project timeline for the Preview environment. For information, see [Recalculate project timelines](/help/quicksilver/manage-work/projects/manage-projects/recalculate-project-timeline.md). 
+
 ## Preview environment performance and availability
 
 [!DNL Workfront] Preview environments are not intended for performance or load testing. Rather, use these environments to validate feature functionality with your organization's existing workflows.
