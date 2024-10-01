@@ -122,8 +122,12 @@ For more detail about the information in this table, see [Access requirements in
       <td>Lets you specify whether users will see the New Home experience by default. When enabled, users will see the New Home experience by default, but can still opt to enable or disable New Home on an individual basis. When disabled, users will not see the banner that allows them to switch to New Home—however, they can still navigate to their New Home page by manually entering <code>/home/workspaces</code> at the end of their instance URL. This setting is enabled by default.</td> 
      </tr>
      <tr> 
+      <td role="rowheader">Enable the Priorities worklist </td> 
+      <td>Lets you choose to enable or disable the Priorities worklist experience for your users. For more information about Priorities, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Get started with Priorities</a>.</td> 
+     </tr>
+     <tr> 
       <td role="rowheader">Test Environments</td> 
-      <td>Lets you access your Workfront test environments. For more information, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">The Adobe Workfront Preview Sandbox Environment</a>.</p></td> 
+      <td>Lets you access your Workfront test environments. For more information, see <a href="/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md">The Adobe Workfront Preview Sandbox Environment</a>.</p></td> 
     </tbody> 
    </table>
 
