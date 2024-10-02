@@ -17,7 +17,7 @@ exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 <!--
 You can use Adobe Workfront Planning to design fully-customizable workspaces that contain record types needed in your organization. A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application. -->
 
-You can connect record types to one another or record types with object types from other applications. 
+You can connect record types to one another or you can connect record types with object types from other applications. 
 
 This article describes how you can connect two Workfront Planning record types, or a Workfront Planning record type with an object from another application. 
 
