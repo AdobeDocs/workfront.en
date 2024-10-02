@@ -108,7 +108,7 @@ To customize New Home using a layout template:
       <p>Once you have selected the widget you would like to edit, available options will display on the right. These options include <b>Filters</b>, <b>Columns</b>, and <b>Groups</b>. You can:</p>
       <ul>
       <li><p><b>Select and order Filters, Columns, or Groups available to users:</b></p>
-      <p>Check the box next to all options in the list you would like users to be able to use. Unchecked options will not appear for users. Drag and drop options in the list to set an order.</li></p>
+      <p>Check the box next to all options in the list you would like users to be able to use. These options do not extend to the Summary panel. You must configure that area in the Summary tab in the Layout Template. Unchecked options will not appear for users. Drag and drop options in the list to set an order.</li></p>
       <p>
 
   >[!IMPORTANT]

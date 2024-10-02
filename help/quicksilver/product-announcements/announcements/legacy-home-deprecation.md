@@ -50,6 +50,13 @@ We recommend administrators:
 
 Doing this as soon as possible will then give your users time to adjust to the new experience and customize their new Home pages to best suit their individual needs. See [Remove, add, and rearrange widgets in new Home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) for information on how a user can customize the widgets on their own new Home page.
 
+### Learn what is available in new Home and Priorities
+
+This articles below provide information on what functionality is available in new Home and Priorities:
+
+* [Move from Legacy Home to New Home](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
+* [Move from Legacy Home to Priorities](/help/quicksilver/workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
+
 ### Follow the Home experience as it develops
 
 We also recommend keeping up to date with the latest release notes (see [Product releases](/help/quicksilver/product-announcements/product-releases/product-releases.md)) to learn about any changes made to the Home experience as we get closer to the deprecation. Additionally, continue reading about Priorities to better understand our vision for the future of work management in Adobe Workfront (more information coming soon.)
