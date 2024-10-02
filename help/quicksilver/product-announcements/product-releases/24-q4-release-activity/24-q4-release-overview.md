@@ -167,7 +167,7 @@ This page provides information about functionality that is included in the Fourt
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">Introducing Priorities: a simpler, streamlined, and intuitive Workfront experience for task owners.</a></p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">Introducing Priorities: a simpler, streamlined, and intuitive Workfront experience for task owners</a></p>
                         <p>Priorities enhances focus and productivity to help customers accomplish more in less time.</p>
                         <p>With Priorities, you can enjoy:</p>
                         <ul>
