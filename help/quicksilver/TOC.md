@@ -918,6 +918,7 @@ feature-set: Workfront
     * [Tag others on updates](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
     * [View all updates in a Note report](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
     * [Work On It and Done button overview](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
+    * [Summarize updates with AI Assistant](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/summarize-updates-ai-assistant.md)
   * Work with custom forms {#work-with-custom-forms}
     * [Work with custom forms](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
     * [Add a custom form to an object](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
@@ -1239,6 +1240,7 @@ feature-set: Workfront
       * [Manage a project in the Agile View](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
       * [Overview of project metrics](manage-work/projects/manage-projects/project-metrics.md)
       * [Project limits overview](manage-work/projects/manage-projects/project-maximums.md)
+      * [Summarize updates with AI Assistant](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
     * Create and manage project templates {#create-and-manage-project-templates}
       * [Create and manage project templates: article index](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
       * [Project template overview](manage-work/projects/create-and-manage-templates/project-template-overview.md)
