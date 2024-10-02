@@ -84,7 +84,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
    >The scenario history displays a **Processing** badge next to scenarios that have recently executed, while the execution details are written to storage. Processing occurs immediately after the scenario executes. and should last no more than a few minutes. Details of the scenario execution may not be visible while the execution is processing.
    
 1. To view details for a specific scenario execution, click on that execution in the right panel.
-1. To view events, click the **Events** tab in the right panel.
+1. To view events, click the **Events** tab of the panel on the right.
 
 
 ### View scenario history on the [!UICONTROL History] tab
