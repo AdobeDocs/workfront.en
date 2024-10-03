@@ -52,14 +52,14 @@ The Fusion AI can currently generate modules that connect to the following appli
 
    Click the Generate with AI icon ![Generate with AI](assets/generate-with-ai-icon-beta.png) near the bottom of the scenario editor page.
 
-     That AI Assistant panel opens.
+     The AI Assistant panel opens.
 1. Enter a text prompt into the box. 
 
    For tips on prompts, see [Tips for creating text prompts](#tips-for-creating-text-prompts) in this article.
 
-   The module or set of modules is generated.
+   AI Assistant generates the module or set of modules.
 1. (Conditional) If necessary, add your API token for the application into the modules. 
-1. Check the modules to ensure that they are to be configured for the appropriate application and action.
+1. Check the modules to ensure that they are configured for the appropriate application and action.
 1. (Conditional) If the generated scenario section is not attached to your scenario, drag it into place.
 
 We recommend testing the modules to ensure that they are performing as intended.
