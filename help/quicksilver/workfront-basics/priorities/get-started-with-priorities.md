@@ -186,6 +186,7 @@ Use the Catch me up feature to see what you missed. Catch me up will summarize u
 
 ## Considerations
 
+* Workfront Administrators cannot customize priorities through the Layout Template at this time.
 * Accessing tasks in Priorities is across tabs. We plan to add additional tabs, like Documents, Subtasks, Approvals, etc, in the future. Let us know you need these items by submitting feedback using the **Give Feedback** button.
 
 
