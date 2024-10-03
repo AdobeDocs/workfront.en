@@ -59,8 +59,6 @@ To find out what plan, license type, or access you have, contact your Workfront 
 1. Go to the Documents area where the document is uploaded.
 1. From your desktop or a separate browser tab, drag the new version of the document on top of the existing version in Workfront.
 
-   ![](assets/drag-drop-doc-qs-350x145.png)
-
    As you drag the new version, you can hover over a Workfront documents folder to open it. You can then scroll up and down by dragging the files to the top or bottom of the screen.
 
 1. Drop the new version on top of the existing file on the **Documents** tab.
