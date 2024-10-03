@@ -274,6 +274,8 @@ To reuse an existing calculated custom field:
 
    1. Click in the large text box, then click **Expressions** and **Fields** that are available to add them to your calculation.
 
+      Expand an object name under **Fields** to see all of the fields available for that object. The list is limited to 200 items. If you know the field name you can search for it.
+
       You can also start typing an expression or field in the large text box, then select it when it displays. Each item displays with an "F" for field or an "E" for expression.
 
       If you type an opening parenthesis, the closing parenthesis is added automatically.

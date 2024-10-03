@@ -9,21 +9,23 @@ feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
 ---
-# Customize new Home using a layout template
+# Customize new Home using a Layout Template
 
-You can use a Layout Template to configure what users see when they open new Home.
+You can use a Layout Template to configure what users see when they first open new Home.
 
 You can configure:
 
-* Which widgets display in the workspace by default, and their layout on the page
+* Which widgets display in the workspace by default
 * Which background is selected
 * Specific widget settings, including which filters and groups are available for the My Projects, My Tasks, and My Issues widgets, as well as their defaults
 
 >[!IMPORTANT]
 >
->The administrator layout template choices described on this page override individual users' customization choices.
->
->When changes to a layout template are saved, users on that layout template will have their new Home page changed to match the layout template and their existing widget selections will pushed to the bottom of the page. While widgets selected by the administrator may be repositioned and resized by a user, they cannot be removed.
+>End users are able to change their background and reorder widgets on the page after the Layout Template is applied. They are not able to remove widgets included by a Workfront Administrator. 
+> <br>
+>Administrators have the ability to add new widgets for users. However, if an end user has already customized their widget order or background selection, those specific customizations are not altered.
+
+
 
 For information about new Home, see [Get started with New Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
@@ -65,7 +67,9 @@ To perform them for a group, you must be a manager of that group.</p> </td>
 
 +++
 
-## Customize new Home using a layout template
+## Customize New Home using a layout template
+
+To customize New Home using a layout template:
 
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -104,7 +108,7 @@ To perform them for a group, you must be a manager of that group.</p> </td>
       <p>Once you have selected the widget you would like to edit, available options will display on the right. These options include <b>Filters</b>, <b>Columns</b>, and <b>Groups</b>. You can:</p>
       <ul>
       <li><p><b>Select and order Filters, Columns, or Groups available to users:</b></p>
-      <p>Check the box next to all options in the list you would like users to be able to use. Unchecked options will not appear for users. Drag and drop options in the list to set an order.</li></p>
+      <p>Check the box next to all options in the list you would like users to be able to use. These options do not extend to the Summary panel. You must configure that area in the Summary tab in the Layout Template. Unchecked options will not appear for users. Drag and drop options in the list to set an order.</li></p>
       <p>
 
   >[!IMPORTANT]

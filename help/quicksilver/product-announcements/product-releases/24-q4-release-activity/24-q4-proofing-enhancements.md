@@ -12,6 +12,12 @@ This page describes all proofing enhancements made with the Fourth Quarter 2024 
 
 For a list of all changes available at this point in the Fourth Quarter 2024 release cycle, see [Fourth Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
+## Copy/paste issue fix for the Desktop Proofing Viewer
+
+We have fixed an issue where content pastes incorrectly in Updates section of the Desktop Proofing Viewer.
+
+New version: 2.1.39
+
 ## Blank screen fix for Desktop Proofing Viewer Windows users
 
 >[!NOTE]

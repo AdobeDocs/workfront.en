@@ -52,6 +52,10 @@ If you have questions about onboarding to the [!DNL Adobe Admin Console], see th
 
    ![Sign in to [!DNL Adobe Experience Cloud]](assets/aec-login-page.png)
 
+>[!NOTE]
+>
+>If a browser tab session expires in a page where you have Workfront open, and you have an active Workfront session in another browser tab, you can reload the expired tab to reopen the Workfront page.
+
 ## Access [!DNL Workfront]
 
 Once you are logged in to [!DNL Adobe Experience Cloud], you can view all of the [!DNL Workfront] organizations and environments that you have access to by clicking the organization switcher in the top navigation area. Select the [!DNL Workfront] organization or environment that you want to work in. Environments could include [!UICONTROL Preview] and [!UICONTROL Sandbox] if your organization uses them.
@@ -103,4 +107,5 @@ If your password is managed by [!DNL Adobe], you can change the password in your
 [See this article for changing your Adobe password.](https://helpx.adobe.com/manage-account/using/change-or-reset-password.html){target="_blank"}
 
 For more information on changing your password, contact your administrator.
+
 

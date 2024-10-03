@@ -124,7 +124,7 @@ To schedule a report for automatic delivery or to edit or delete an existing rep
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Time</p> </td> 
-      <td> <p>Select the time of day for the delivery to be sent.</p> <p>Tip: Because system loads can affect report delivery times, there may be a delay between the scheduled time and the actual delivery time. If you need a report delivered by a specific time, we recommend scheduling the delivery prior to the time that it is needed. For example, we recommend scheduling the delivery a day prior to the date when it is needed.</p> </td> 
+      <td> <p>Select the time of day for the delivery to be sent.</p> <p>Tip: Because system loads can affect report delivery times, there may be a delay of up to 24 hours between the scheduled time and the actual delivery time. If you need a report delivered by a specific time, we recommend scheduling the delivery prior to the time that it is needed. In general, we recommend scheduling the delivery at least a day prior to the date when it is needed.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>Repeats On</p> </td> 
@@ -154,6 +154,12 @@ To schedule a report for automatic delivery or to edit or delete an existing rep
    The report displays in the **Repeating Deliveries** section (in the **Send Report** dialog box) and it will send at the scheduled time.
 
    For information about size limitations that can affect the delivery of your reports, see the sections [Report delivery limits](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits) and [Export limits](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export).
+
+>[!IMPORTANT]
+>
+>Scheduled reports are subject to an internal time limit when being processed for delivery. In the event a report takes longer than the limit to be sent, you will receive a notification and the report will no longer be delivered regardless of any remaining scheduled deliveries. To continue sending the report, first try reducing the size of the report through filters and views, then create a new scheduled delivery.
+>
+>If you are using a scheduled report delivery to analyze Workfront data through a BI tool, we recommend using Workfront Data Connect instead. For more information, see [Workfront Data Connect overview](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
 1. (Optional) To delete a scheduled delivery:
 
