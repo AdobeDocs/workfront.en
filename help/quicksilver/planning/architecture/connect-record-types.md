@@ -17,7 +17,7 @@ exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 <!--
 You can use Adobe Workfront Planning to design fully-customizable workspaces that contain record types needed in your organization. A way to indicate how individual record types relate to one another is to connect them. Also, you can connect Workfront Planning record types with object types from other applications to enhance your users' experience and keep their focus in one application. -->
 
-You can connect record types to one another or record types with object types from other applications. 
+You can connect record types to one another or you can connect record types with object types from other applications. 
 
 This article describes how you can connect two Workfront Planning record types, or a Workfront Planning record type with an object from another application. 
 
@@ -177,7 +177,7 @@ You must have the following to be able to access Workfront Planning:
 
 1. In the **Record type** field, search for a record type, or select one of the following: 
 
-    * Another record type from the workspace you selected 
+    * Another record type from the current workspace
 
         <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
         >[!TIP]
@@ -192,7 +192,7 @@ You must have the following to be able to access Workfront Planning:
 
         >[!TIP]
         >
-        >If there are no record types that are configured to connect from other workspace, the workspace section does not display.
+        >If there are no record types that are configured to connect from other workspaces, the workspace section does not display.
 
 
     * A **Project, Portfolio, Program, Company**, or **Group** from the **Workfront Object Types** section.
@@ -212,7 +212,7 @@ You must have the following to be able to access Workfront Planning:
     >You can have multiple connections to the same record or object type. If you do not edit the connected field name, Workfront adds a numeral after the name of the connected record, to indicate the number of connected record types by the same name. 
 
      * **Description**: Additional information about the connected record field. The description of a field displays when you hover over the field's column in a table. 
-     * **Allow multiple records**: Select this option to indicate that you allow that users can add multiple records when the linked record type field displays on the original records. This is selected by default. 
+     * **Allow multiple records**: Select this option to indicate that you allow users to add multiple records when the linked record type field displays on the original records. This is selected by default. 
      
         This option is available only when connecting records from two different workspaces or a record and an Adobe Experience Manager asset object. 
 
@@ -231,7 +231,7 @@ You must have the following to be able to access Workfront Planning:
                 
         For more information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
-     * **Select lookup fields**: Select this option to add fields from the selected record type. The lookup fields are fields associated with the record or object type that you are linking to. Linking them displays information from the record or object you're linking to on the record you are liking from. This is selected by default. 
+     * **Select lookup fields**: Select this option to add fields from the selected record type. The lookup fields are fields associated with the record or object type that you are linking to. Linking them displays information from the record or object you're linking to on the record you are linking from. This is selected by default. 
 
         >[!TIP]
         >
@@ -299,7 +299,7 @@ You must have the following to be able to access Workfront Planning:
 
     * Records are grouped by each unique combination of field values 
 
-    * The timeline view is built based on the first date value. 
+    * The timeline view is built based on the first date value
 
     >[!IMPORTANT]
     >
@@ -325,7 +325,7 @@ You must have the following to be able to access Workfront Planning:
 
     >[!NOTE]
     >
-    >For example, you can link the Product record (linked record) from the Campaign record (original record) and name it "Product field". You can also choose to link the Budget field of the Product record from the Campaign record and call it "Product Budget". If you allowed to select multiple records in the "Product field", you can select Product 1 with a Budget of $100,000 and Product 2 with a Budget of $110,000, and Product 3 with a Budget of $100,000. You can view the following Budget information in the linked field from the original record, depending on which aggregator you choose: 
+    >For example, you can link the Product record (linked record) from the Campaign record (original record) and name it "Product field." You can also choose to link the Budget field of the Product record from the Campaign record and call it "Product Budget." If you allowed to select multiple records in the "Product field," you can select Product 1 with a Budget of $100,000 and Product 2 with a Budget of $110,000, and Product 3 with a Budget of $100,000. You can view the following Budget information in the linked field from the original record, depending on which aggregator you choose: 
     >
     >* **None**: $100,000, $110,000, $100,000
     >* **MAX**: $110,000
@@ -347,11 +347,11 @@ You must have the following to be able to access Workfront Planning:
 
         `<Name of the original field on the linked record> (from <Name of your linked field>)`
 
-        For example, if you linked a Campaign record type with a Program record type and name the Program linked record field "Program information", then select to also display the Program's Budget field in the Campaign's table view, the linked field is automatically named `Budget (from Program information)` in the campaign's table view. 
+        For example, if you linked a Campaign record type with a Program record type and name the Program linked record field "Program information," then selected to also display the Program's Budget field in the Campaign's table view, the linked field is automatically named `Budget (from Program information)` in the campaign's table view. 
 
     * When you link record types to one another, a linked record field is also added on the record type you are linking to. The name of the linked record field on the linked record type is the name of the record type that you link from. 
     
-        For example, if you link the "Product" record type from the "Campaign" record type and you name the connected field of the Campaign "Linked Product", a "Campaign" linked record field is created for the Product record type. 
+        For example, if you link the "Product" record type from the "Campaign" record type and you named the connected field of the Campaign "Linked Product", a "Campaign" linked record field is created for the Product record type. 
 
         >[!TIP]
         >
@@ -359,7 +359,7 @@ You must have the following to be able to access Workfront Planning:
 
 1. (Optional and conditional) From either the original record type or the linked record type table view, click the downward-pointing arrow in the header of the linked record fields, then click one of the following:
 
-    * **Edit field**: You can update the **Name** and the **Description** information of the field. 
+    * **Edit field**: Update the **Name** and the **Description** information of the field. 
     * **Edit lookup fields**: Add or remove any of the linked record's fields. 
 
     ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
