@@ -16,11 +16,28 @@ For a list of all changes available with the Fourth Quarter 2024 release, see [F
 
 >[!NOTE]
 >
->Preview release: September 19, 2024; Production release for all customers: With the 24.10 release (October 17, 2024)
+>Preview release: September 26, 2024; Production release for all customers: With the 24.10 release (October 17, 2024)
 
-We have made a variety of updates to the dashboards interface to match the design of other areas of Workfront. These changes include a new Print Preview screen when printing a dashboard, as well as the removal of the ability to place calendars into dashboards. Existing calendars on dashboards will instead display a link to the calendar.
+We have made a variety of updates to the dashboards interface to match the design of other areas of Workfront, including improvements to the print preview screen when printing a dashboard.
+
+As a consequence of these changes, calendars can no longer be placed into dashboards. Existing calendars on dashboards will instead display a link to the calendar.
 
 For more information about dashboards, see [Create and manage dashboards](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md). For more information about calendars, see [Calendar reports overview](/help/quicksilver/reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
+
+<!--
+
+## Look and feel updates for reports
+
+>[!NOTE]
+>
+>Preview release: September 19, 2024; Production release for all customers: With the 24.10 release (October 17, 2024)
+
+We have made a variety of updates to the reports interface to match the design of other areas of Workfront, including:
+
+* changes to existing reports that improve their use in Canvas Dashboards
+* an expanded color palette for conditional formatting rules in reports
+
+For more information about -->
 
 ## Look-and-feel-updates for System Preferences page
 
