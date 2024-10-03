@@ -12,6 +12,20 @@ This page describes enhancements made with the Fourth Quarter 2024 release to th
 
 For a list of all changes available at this point in the Fourth Quarter 2024 release cycle, see [Fourth Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
+## Summarize projects or updates with one click
+
+>[!NOTE]
+>
+>Preview release: October 3, 2024; Production release for all customers: With the 24.10 release (October 17, 2024)
+
+To make it easier to quickly see highlights of a project or an update stream, we've added Summarize buttons to those areas of Workfront. Now, you can click the button to generate a summary in the AI Assistant.
+
+Previously users could open AI Assistant and type in a prompt to create a summary of the project or update stream.
+
+Your Workfront administrator can enable or disable AI Assistant for your organization. The AI Assistant is available for instances with Select, Prime, and Ultimate plans.
+
+For more information, see [Summarize using AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md).
+
 ## Adobe AI Assistant available in Workfront
 
 >[!NOTE]
