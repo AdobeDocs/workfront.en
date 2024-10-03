@@ -15,10 +15,6 @@ The purpose of the dashboard is to provide quick access to information. You can 
 
   For more information about creating reports, see [Create a custom report](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-* Calendars
-
-  For more information about creating calendars, see [Calendars: article index](../../../reports-and-dashboards/reports/calendars/calendars.md).
-
 * External pages
 
   For more information about creating external pages, see [Embed an external web page in a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md).
@@ -27,7 +23,7 @@ After you create these items and you add them to a dashboard, you can edit the d
 
 Any changes made to a dashboard will impact all users who have access to that dashboard.
 
-When you share a dashboard with users, all the reports, calendars, and external pages are also shared with the same users.
+When you share a dashboard with users, all the reports and external pages are also shared with the same users.
 
 ## Access requirements
 
@@ -80,7 +76,7 @@ For information on creating dashboards, see [Create a dashboard](../../../report
    * **Name**: Edit the name of the dashboard.
    * **Description**: Specify a description for the dashboard.
 
-1. In the **Available Reports & Calendars** section, start typing the name of a report, calendar, or external page in the **Search by name or type ...** field, then drag and drop the report or calendar in the layout pane to the right.
+1. In the **Available Reports** section, start typing the name of a report or external page in the **Search by name or type ...** field, then drag and drop the report in the layout pane to the right.
 
    >[!NOTE]
    >
