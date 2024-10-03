@@ -51,7 +51,3 @@ Within each calendar report, you can create groups of items that allow you to na
 >[!NOTE]
 >
 >If you see a 504 error when running a calendar report, you probably have too many filters in the report. Reducing the number of filters should allow the report to run.
-
-## Add your calendars to a dashboard
-
-You can have quick access to your calendar reports by displaying them on a dashboard. To learn how to add a calendar to a dashboard, see [Edit a dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md).

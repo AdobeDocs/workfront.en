@@ -34,6 +34,45 @@ In order connect your Data Connect data lake with an external product, you must 
 >
 >If you don't have any IP addresses included in your allowlist but are still having trouble connecting to a BI tool, check the proxy server configuration for the BI tool.
 
+## Access requirements
+
++++ Expand to view access requirements. 
+
+You must have the following access to perform the steps in this article: 
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront plan</td> 
+   <td><p>Included in the following plans:</p>
+    <ul>
+        <li>Ultimate</li> 
+    </ul>    
+   <p>Can be purchased as an add-on to the following plans:</p> 
+    <ul>
+        <li>Select</li> 
+        <li>Prime</li>
+    </ul> 
+    <p>Workfront Data Connect is not available for legacy Workfront plans.</p> 
+   </td> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td>Plan</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>You must be a Workfront administrator.</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 ## Add IPs to the allowlist
 
 1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **Setup**.
