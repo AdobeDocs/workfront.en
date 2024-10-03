@@ -33,3 +33,4 @@ This section contains the following articles:
 * [Manage a project in the Agile View](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md) 
 * [Project limits overview](../../../manage-work/projects/manage-projects/project-maximums.md) 
 * [Overview of project metrics](../../../manage-work/projects/manage-projects/project-metrics.md)
+* [Summarize updates with AI Assistant](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)

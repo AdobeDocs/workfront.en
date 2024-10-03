@@ -13,6 +13,10 @@ For a list of all changes available at this point in the Fourth Quarter 2024 rel
 
 ## Simplify the Workfront experience for task owners with Priorities
 
+>[!NOTE]
+>
+>Preview release: October 3, 2024; Production release for all customers: With the 24.10 release (October 17, 2024).
+
 Introducing Priorities: a simpler, streamlined, and more intuitive Workfront experience for task owners.
 
 Priorities enhances focus and productivity to help customers accomplish more in less time. 
