@@ -17,6 +17,8 @@ When you delete a connected card from any other board type that has an intake co
 
 Archiving a card sends it to the archive and you can restore it to the board later.
 
+Archived cards do not sync to Workfront tasks and issues. If you restore a card, it will sync again.
+
 ## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
