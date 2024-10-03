@@ -6,7 +6,7 @@ description: The project header includes a button that uses AI Assistant to summ
 author: Becky
 feature: Get Started with Workfront
 ---
-# Summarize updates with AI Assistant
+# Summarize projects with AI Assistant
 
 Workfront's AI Assistant can summarize projects, allowing you to quickly understand project information, such as project purpose and status, gives examples of tasks that are completed and that are still pending, and provides some additional details and notes.
 
