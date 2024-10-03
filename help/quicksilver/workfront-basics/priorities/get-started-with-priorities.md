@@ -9,8 +9,6 @@ recommendations: noDisplay, noCatalog
 
 # Get started with Priorities
 
-<span class="preview">Priorities will be available in Preview on 10/3/2024</span>
-
 Priorities is a streamlined, intuitive experience tailored for task owners. Priorities will be rolled out in phases, starting with the worklist.
 
 With Priorities, you can enjoy
