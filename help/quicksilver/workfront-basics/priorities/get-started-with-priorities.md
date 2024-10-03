@@ -116,7 +116,7 @@ In Priorities, you can update work items to keep your work item details current,
 >[!NOTE]
 >
 >Light, Review, Contributor, and Requestor licenses have limited access to Priorities. For more information about how these license types can interact with tasks and issues, see 
-
+>
 >* [Access to objects and areas by for new licenses](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
 >* [Functionality available for each object type for new access levels](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md) 
 >* [Access to objects and areas by license type](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md) 
