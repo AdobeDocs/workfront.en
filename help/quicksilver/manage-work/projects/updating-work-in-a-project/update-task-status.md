@@ -1,13 +1,15 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Update task status
+title: Update Task Status
 description: You can update a task's status to inform others about where the task is (and the overall project) and how it is progressing.
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
 ---
 # Update task status
+
+<!--Audited: 10/2024-->
 
 You can update a task's status to inform others about where the task is (and the overall project) and how it is progressing.
 
@@ -16,6 +18,8 @@ The default statuses are New, In Progress, and Complete. Your Adobe Workfront ad
 You can manually update task statuses or you can let Workfront automatically update them when certain actions take place.
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article. 
 
 You must have the following access to manually update tasks: 
 
@@ -45,7 +49,9 @@ You must have the following access to manually update tasks:
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Considerations about updating the Status of tasks
 

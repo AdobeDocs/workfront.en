@@ -28,6 +28,8 @@ You can add comments to all goals that you can view in Adobe Workfront Goals.
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article. 
+
 You must have the following access to perform the actions described in this article:
 
 <table style="table-layout:auto">
@@ -81,6 +83,8 @@ You must have the following access to perform the actions described in this arti
 </table>
 
 *For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Manage goal comments
 

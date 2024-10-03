@@ -20,7 +20,7 @@ This page provides information about functionality that is included in the Fourt
 >
 >|Monthly release|Quarterly release|
 >|----|----|
->|<ul><li>24.8 (August 15, 2024)</li><li>24.9 (September 12, 2024)</li><li>24.10 (October 2024)</li></ul>| <ul><li>24.10 (October 2024)</li></ul>|
+>|<ul><li>24.8 (August 15, 2024)</li><li>24.9 (September 12, 2024)</li><li>24.10 (October 17, 2024)</li></ul>| <ul><li>24.10 (October 17, 2024)</li></ul>|
 >
 >Note that for the final release of each quarter (24.10 this quarter), users on the fast release schedule will receive the release one day early.
 >
@@ -29,7 +29,9 @@ This page provides information about functionality that is included in the Fourt
 ## Adobe Workfront enhancements
 
 * [Administrator enhancements](#administrator-enhancements)
+* [Document management enhancements](#document-management-enhancements)
 * [Integration enhancements](#integration-enhancements)
+* [Home enhancements](#home-enhancements)
 * [Project enhancements](#project-enhancements)
 * [Proofing enhancements](#proofing-enhancements)
 * [Report and Dashboard enhancements](#report-and-dashboard-enhancements)
@@ -39,8 +41,8 @@ This page provides information about functionality that is included in the Fourt
 ### Administrator enhancements
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -50,6 +52,22 @@ This page provides information about functionality that is included in the Fourt
                     <td>
                         <p><span class="bold">Release dates</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">A counter on custom forms shows the number of fields</a></p>
+                        <p>Custom forms are limited to 500 fields. On a long form, it can be difficult to know how many fields are on the form and whether you are approaching the limit. A counter has been added to custom forms on the bottom left. The counter displays how many fields are used on the form, and it is always visible as you scroll within the form designer.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: October 1, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production release for all customers: With the 24.10 release (October 17, 2024)</p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -84,7 +102,7 @@ This page provides information about functionality that is included in the Fourt
                                 <p>Production for fast release: With the 24.9 release (September 12, 2024)</p>
                             </li>
                             <li>
-                                <p>Production release for all customers: With the 24.10 release (October 2024)</p>
+                                <p>Production release for all customers: With the 24.10 release (October 17, 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -110,13 +128,68 @@ This page provides information about functionality that is included in the Fourt
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
+
+### Document management enhancements
+
+>[!IMPORTANT]
+>
+>The features listed in **Document management enhancements** are part of a phased release and are only available for specific customers.
+
+<table>
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">View document decision status directly in the document list</a></p>
+                        <p>You can now view a document's decision status directly in the document list.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: October 3, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production release for all customers: With the 24.10 release (October 17, 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">Quickly add previous reviewers and approvers to new document versions</a></p>
+                        <p>You can now quickly add reviewers and approvers from previous document versions.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: October 3, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production release for all customers: With the 24.10 release (October 17, 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+</table>
 
 ### Integration enhancements
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -146,13 +219,55 @@ This page provides information about functionality that is included in the Fourt
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
+
+### Home enhancements
+
+<table>
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
+            <tbody>
+                <tr>
+                    <td>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">Introducing Priorities: a simpler, streamlined, and intuitive Workfront experience for task owners</a></p>
+                        <p>Priorities enhances focus and productivity to help customers accomplish more in less time.</p>
+                        <p>With Priorities, you can enjoy:</p>
+                        <ul>
+                        <li>Manage and prioritize daily tasks: Organize your day or week with consolidated navigation for better clarity</li>
+                        <li>Greater productivity: Access project context and perform tasks quicker with fewer clicks</li>
+                        <li>Personalized features: Benefit from features uniquely designed for task owners</li>
+                        </ul>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: October 3, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production release for all customers: With the 24.10 release (October 17, 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+           </tbody>
+</table>
+
 
 ### Project enhancements
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -179,7 +294,7 @@ This page provides information about functionality that is included in the Fourt
                                 <p>Production for fast release: With the 24.5 release (May 16, 2024)</p>
                             </li>
                             <li>
-                                <p>Production release for all customers: With the 24.10 release (October 2024)</p>
+                                <p>Production release for all customers: With the 24.10 release (October 17, 2024)</p>
                             </li>
                         </ul>
                     </td>
@@ -199,19 +314,19 @@ This page provides information about functionality that is included in the Fourt
                                 <p>Production for fast release: With the 24.5 release (May 16, 2024)</p>
                             </li>
                             <li>
-                                <p>Production release for all customers: With the 24.10 release (October 2024)</p>
+                                <p>Production release for all customers: With the 24.10 release (October 17, 2024)</p>
                             </li>
                         </ul>
                     </td>
                 </tr>
            </tbody>
-        </table>
+</table>
 
 ### Proofing enhancements
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -221,6 +336,24 @@ This page provides information about functionality that is included in the Fourt
                     <td>
                         <p><span class="bold">Release dates</span>
                         </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md" class="MCXref xref" xrefformat="{para}">Copy/paste issue fix for the Desktop Proofing Viewer</a></p>
+                        [!BADGE In production ]{type=Informative}
+                        <p>We have fixed an issue where content pastes incorrectly in Updates section of the Desktop Proofing Viewer.</p>
+                        <p>New version: 2.1.39</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: October 2, 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release for all customers: October 2, 2024</span></p>
+                            </li>
+                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -259,13 +392,13 @@ This page provides information about functionality that is included in the Fourt
                     </td>
                 </tr>
            </tbody>
-        </table>        
+</table>        
 
 ### Report and Dashboard enhancements
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
                 <tr>
                     <td>
@@ -285,21 +418,37 @@ This page provides information about functionality that is included in the Fourt
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
-                                <p><span class="preview">Production release for all customers: With the 24.10 release (October 2024)</span></p>
+                                <p>Production release for all customers: With the 24.10 release (October 17, 2024)</p>
                             </li>
                         </ul>
                         <p><i>Only available for organizations on one of the new Adobe Workfront plans. Data Connect is included in the Ultimate plan or can be purchased as an add-on to the Prime and Select plans.</i></p>
                     </td>
                 </tr>
            </tbody>
-        </table>    
+</table>    
 
 ### Other enhancements
 
 <table>
-            <col style="width: 50%;" />
-            <col style="width: 50%;" />
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
             <tbody>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-other-enhancements.md" class="MCXref xref" xrefformat="{para}">Summarize projects or updates with one click</a></p>
+                        <p>To make it easier to quickly see highlights of a project or an update stream, we've added Summarize buttons to those areas of Workfront. Now, you can click the button to generate a summary in the AI Assistant.</p><p>Previously users could open AI Assistant and type in a prompt to create a summary of the project or update stream.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: October 3, 2024</p>
+                            </li>
+                            <li>
+                                <p>Production release for all customers: With the 24.10 release (October 17, 2024)</p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
                 <tr>
                     <td>
                         <a href="/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md" class="MCXref xref" xrefformat="{para}">General availability of Adobe Workfront Planning</a></p>
@@ -355,7 +504,7 @@ This page provides information about functionality that is included in the Fourt
                     </td>
                 </tr>                            
            </tbody>
-        </table>   
+</table>   
 
 ### Functionality soon to be removed from Workfront
 

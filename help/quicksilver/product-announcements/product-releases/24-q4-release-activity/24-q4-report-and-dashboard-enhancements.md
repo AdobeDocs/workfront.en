@@ -15,7 +15,7 @@ For a list of all changes available at this point in the Fourth Quarter 2024 rel
 
 >[!NOTE]
 >
->Production release for all customers: With the 24.10 release (October 2024)
+>Production release for all customers: With the 24.10 release (October 17, 2024)
 >
 >_Only available for organizations on one of the new Adobe Workfront plans. Data Connect is included in the Ultimate plan or can be purchased as an add-on to the Prime and Select plans._
 

@@ -25,4 +25,5 @@ This section contains the following articles:
 * [Tag others on updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md) 
 * [View all updates in a Note report](../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md) 
 * [Work On It and Done button overview](../../workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
+* [Summarize updates with AI Assistant](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/summarize-updates-ai-assistant.md)
 
