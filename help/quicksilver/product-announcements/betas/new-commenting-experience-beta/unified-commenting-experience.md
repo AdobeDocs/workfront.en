@@ -29,6 +29,8 @@ exl-id: f750b35b-8021-4cc1-81d6-e1ece2530438
 >The beta program for the new commenting experience started in April 2023 and ended in October 2023, with the October 2023 release. 
 >
 >Since April 11, 2024 all features for the new commenting experience have been available in the Production environment for all customers. 
+>
+> The previous commenting experience has been removed from Workfront. 
 
 ## Features
 
@@ -41,7 +43,7 @@ Among the improvements included in the new commenting experience are the followi
 * Real-time indicator when new comments are added to an object
 * Editing comments after submitting them
 
-The following features have been removed or will be deprecated from the new experience:
+The following features have been removed from the new experience:
 
 * Comment on a system update. Comments added to the system updates in the past have been imported as read-only comments in the new System Activity tab. 
 * Ability to edit Status, Condition, Commit Date, and Percent Complete while commenting on tasks and issues. 
@@ -75,17 +77,14 @@ The following table illustrates the features that will be available in the new c
   <tr>
    <td><strong>Feature </strong>
    </td>
-   <td><strong>Exists in old commenting experience </strong>
+   <td><strong>Existed in old commenting experience </strong>
    </td>
    <td><strong>Exists in the new commenting experience </strong>
    </td>
-   <td><strong>Will be introduced in the new commenting experience </strong>
+   
+   <td><strong>Introduced in the new commenting experience </strong>
    </td>
-   <td><strong>When will be introduced in the new commenting experience </strong>
-   </td>
-   <td><strong>In research </strong>
-   </td>
-  </tr>
+   </tr>
   <tr>
    <td>Create/read/reply/delete comments 
    </td>
@@ -93,12 +92,10 @@ The following table illustrates the features that will be available in the new c
   </td>
    <td>✓ 
    </td>
+   
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
+   
   </tr>
   <tr>
    <td>Rich text (excludes quoting and emojis)
@@ -107,12 +104,10 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓
    </td>
+   
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
+   >
   </tr>
 
 <tr>
@@ -124,10 +119,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
+   
   </tr>
 
  <tr>
@@ -137,12 +129,9 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> ✓
    </td>
-   <td> 
+    <td> Q2, 2023
    </td>
-   <td> Q2, 2023
-   </td>
-   <td> 
-   </td>
+   
   </tr>
   <tr>
 <tr>
@@ -152,12 +141,9 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td> Q2, 2023
    </td>
-   <td> 
-   </td>
+   
   </tr>
   <tr>
    <td>React to comments (Like) 
@@ -168,10 +154,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
+   
   </tr>
   <tr>
    <td>Attach images to comments 
@@ -180,12 +163,9 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓ 
    </td>
-   <td> 
+      <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
+   
   </tr>
   <tr>
    <td>Tag people in comments 
@@ -196,10 +176,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
+   
   </tr>
   <tr>
    <td>Remove thread participants
@@ -210,23 +187,13 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
-
-
   <tr>
    <td>Automatically tag all thread participants
    </td>
    <td> 
    </td>
    <td>✓
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -241,10 +208,6 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
   <tr>
    <td>Undo posting of a comment 
@@ -253,11 +216,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>Replaced with edit comment 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-   <td> 
+     <td> 
    </td>
   </tr>
   <tr>
@@ -269,11 +228,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>Edit comments 
    </td>
@@ -283,11 +238,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>Saving comment drafts when navigating away from the page 
    </td>
@@ -297,21 +248,13 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>See new comments in real time (includes seeing when a comment is deleted)
    </td>
    <td> 
    </td>
    <td>✓
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -325,10 +268,6 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
   </tr>
     <tr>
    <td>Copy thread link 
@@ -337,11 +276,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> Replaced with Copy link
    </td>
-   <td> 
-   </td>
    <td>Q2, 2023 
-   </td>
-   <td> 
    </td>
   </tr>
   <tr>
@@ -353,11 +288,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
   <tr>
    <td>Quote comment text 
    </td>
@@ -365,13 +296,9 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td>✓
    </td>
-   <td> 
+  <td>Q2, 2023 
    </td>
-   <td>Q2, 2023 
-   </td>
-   <td> 
-   </td>
-  </tr>
+   </tr>
   <tr>
    <td>Copy body text 
    </td>
@@ -379,13 +306,9 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>
    </td>
-   <td> 
-   </td>
-  </tr>
+   </tr>
     <tr>
    <td>Search in comments 
    </td>
@@ -393,12 +316,9 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>Q1, 2024 
    </td>
-   <td> 
-   </td>
+   
   </tr>
 
 <tr>
@@ -408,13 +328,9 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>Q1, 2024 
    </td>
-   <td> 
-   </td>
-  </tr>
+     </tr>
 
 <tr>
    <td>Drag and drop images in a comment
@@ -423,22 +339,14 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>Q1, 2024 
    </td>
-   <td> 
-   </td>
-  </tr>
+    </tr>
 
 <tr>
    <td>Edit custom form 
    </td>
    <td>✓ 
-   </td>
-   <td> 
-   </td>
-   <td> 
    </td>
    <td> 
    </td>
@@ -454,10 +362,6 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
-   <td>
-   </td>
   </tr>
 <tr>
    <td>Reply to system updates 
@@ -466,11 +370,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> 
    </td>
-   <td> 
-   </td>
    <td>
-   </td>
-   <td> 
    </td>
   </tr>
 <tr>
@@ -480,11 +380,7 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> ✓
    </td>
-   <td> 
-   </td>
    <td>
-   </td>
-   <td> 
    </td>
   </tr>
 
@@ -493,13 +389,9 @@ The following table illustrates the features that will be available in the new c
    </td>
    <td> ✓
    </td>
-   <td> Might be released at a later date
-   </td>
    <td> 
    </td>
-   <td>
-   </td>
-   <td> ✓
+   <td> 
    </td>
   </tr>
 </table>
@@ -513,41 +405,41 @@ The following table illustrates the features that will be available in the new c
 >For more information about managing updates for Workfront objects, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). 
 
 
-The following is a planned timeline with key milestones for the release of the new commenting experience to the Production environment. In addition to the milestones below, we will continue to improve the commenting experience with smaller enhancements. 
+The following information describes the timeline with key milestones for the release of the new commenting experience to the Production environment. In addition to the milestones below, we will continue to improve the commenting experience with smaller enhancements. 
 
-For information about the features released for the new commenting experience after the beta period closed, see the current release overview page. 
+For information about the features released for the new commenting experience after the beta period closed, see the current release overview page. For more information, see [Product releases](/help/quicksilver/product-announcements/product-releases/product-releases.md). 
 
-The following is a planned timeline for the release of the new commenting experience:
+The following was a planned timeline for the release of the new commenting experience:
 
 * With the 23.2 release (April 6, 2023): 
-    * Launch the commenting experience Beta for issues
-    * Release the new commenting experience for goals (as the only experience)
+    * Launched the commenting experience Beta for issues
+    * Released the new commenting experience for goals (as the only experience)
 * With the 23.3 release (July 20, 2023): 
-    * Launch the commenting experience Beta for projects, tasks, and documents. 
-    * Release the new commenting experience for cards in the Boards area (as the only experience)
+    * Launched the commenting experience Beta for projects, tasks, and documents. 
+    * Released the new commenting experience for cards in the Boards area (as the only experience)
 * During the Fourth Quarter 2023 release (limited release, only available to customers that choose the fast release): 
-    * Release the new commenting experience for templates, template tasks, programs, portfolios, teams, users, and timesheets (as the only experience)
-    * Update the commenting experience Beta for projects, tasks, issues, and documents to become the default option. The "Beta" label is removed. 
+    * Released the new commenting experience for templates, template tasks, programs, portfolios, teams, users, and timesheets (as the only experience)
+    * Updated the commenting experience Beta for projects, tasks, issues, and documents to become the default option. The "Beta" label was removed. 
 * With the Fourth Quarter 2023 (23.10) release (October 26, 2023)
-    * Release the new commenting experience for templates, template tasks, programs, portfolios, teams, users, and timesheets (as the only experience) to all customers. 
-    * Make the new commenting experience for projects, tasks, issues, and documents the default option. 
+    * Released the new commenting experience for templates, template tasks, programs, portfolios, teams, users, and timesheets (as the only experience) to all customers. 
+    * Made the new commenting experience for projects, tasks, issues, and documents the default option. 
     
     >[!IMPORTANT]
     >
-    >    This will conclude the Beta stage of the new commenting experience. 
+    >    This concluded the Beta stage of the new commenting experience. 
 
-    * Make all features released for the new commenting experience starting with this date part of the current regular monthly and quarterly releases.
+    * Made all features released for the new commenting experience starting with this date part of the current regular monthly and quarterly releases.
 * End of 2023: 
-    * Keep the legacy commenting experience as a secondary option for the following objects: projects, tasks, issues, and documents. The new commenting experience is the default option for all users for these objects. 
-    * Make the new commenting experience the only experience for all other objects. 
-
-    >[!NOTE]
-    >
-    >    Iterations will continue to have the legacy commenting experience. The new commenting experience will not be available for iterations. 
+    * Kept the legacy commenting experience as a secondary option for the following objects: projects, tasks, issues, and documents. The new commenting experience is the default option for all users for these objects. 
+    * Made the new commenting experience the only experience for all other objects. 
 
 * With the Second Quarter 2024 release (April 11, 2024):
 
-    Remove the option to switch back to the legacy commenting stream and make the new commenting stream the only experience for all objects.
+    Removed the option to switch back to the legacy commenting stream and make the new commenting stream the only experience for all objects.
+
+* October 3, 2024: 
+
+    Removed the Leave Feedback button in the Updates area. 
 
 ## Locate the new commenting experience
 
