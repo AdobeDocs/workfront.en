@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: View and update Percent Complete for tasks
+title: View and Update Percent Complete for Tasks
 description: You can update the percent complete of a task to indicate the progress that you have made on the task towards completing it.
 author: Alina
 feature: Work Management
@@ -14,6 +14,8 @@ exl-id: e53bca4d-1ed3-4e4d-8a35-217529a246dc
 You can update the percent complete of a task to indicate the progress that you have made on the task towards completing it. 
 
 ## Access Requirements
+
++++ Expand to view access requirements for the functionality in this article. 
 
 You must have the following access to manually update tasks: 
 
@@ -43,8 +45,9 @@ You must have the following access to manually update tasks:
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator. For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
++++
 
 ## Areas where you can update the percent complete of a task
 

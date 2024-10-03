@@ -140,17 +140,33 @@ You must have the following to be able to access Workfront Planning:
    * **Subject** field: The field which will identify the request in Workfront. This capability is not yet available. 
    * All the fields associated with the record type. 
 
-   The fields contained in the request form will be visible to everyone submitting a request to this record type. 
+      The fields contained in the request form will be visible to everyone submitting a request to this record type. 
 
 1. (Optional) Hover over any fields on the form that you want to remove, then click the **x** icon to remove them. They are added to the **Fields** tab to the left of the form. 
 
    For example, remove the **Subject** field, as this is not visible in Workfront Planning. <!--remove this step when we connect intake with the Requests area in Workfront-->
-1. Click any field, then use the controls on the right side of the form to define their size, or any of the following information about the fields:
+1. Click any field, then use the controls in the right panel in the form to define their size, or any of the following information:
 
    * **Label**: this is the name of the field as it will appear on the request form. This does not change the name of the record field.
    * **Instructions**: Add more information about the field.
    * **Make a required field**: When selected, the field must have a value. Otherwise, the form cannot be submitted. 
    * **Add logic**: Define what conditions must be met in order for the field to display or be hidden.
+
+   The field type of each field displays at the top of the right panel, after you select the field on the form. The names of the field types on the request form differ from their names in the table view. The following table describes the differences between the names of the field types in the table view and the names of the same fields in the record type's request form:  
+
+   | Workfront Planning field type | Request form field type |
+   |-------------------------------|-------------------------|
+   | Single-line text              | Single line text        |
+   | Paragraph                     | Text with formatting    |
+   | Currency, Number, Percentage  | Single line text        |
+   | Single-select                 | Single-select dropdown  |
+   | Multi-select                  | Multi-select dropdown   |
+   | Checkbox                      | Checkbox group          |
+
+   >[!NOTE]
+   >
+   >   The formats of the fields are preserved. For example, although Currency and Percentage display as Single line text fields the information in the fields displays as currency and as a percentage value.
+
 
 1. (Optional) Click the **Content elements** tab on the left side of the form, and add any of the following elements:
 
