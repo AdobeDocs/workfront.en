@@ -11,6 +11,8 @@ exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
 ---
 # Customize Home and Summary using a layout template
 
+<span class="preview">This article will be renamed to "Customize the Summary panel using a layout template" when Legacy Home is removed from Workfront with the Q4 release on October 17. 2024.</span>
+
 You can use a Layout Template to configure what users see when they click a task or issue in Home and in the Summary. Each configuration you make using the steps below affects the Home area and the Summary panel in the same way. These customizations don't apply to the Document Summary panel.
 
 You can configure:

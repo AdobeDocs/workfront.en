@@ -32,3 +32,15 @@ Priorities is intended to replace Legacy Home and new functionality will release
 For more information, see [Get started with Priorities](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
 
 [View a video demonstration of this feature](https://video.tv.adobe.com/v/3434848/){target=_blank}
+
+## Deprecation of the legacy Home experience with 24.10
+
+We will be officially deprecating the legacy Home experience with the 24.10 release. 
+
+With this change, the _Home and Summary_ page in the Layout Template will be renamed to _Summary panel_. Customizations in this area will still apply to the Summary panel in new Home. 
+
+Users are encouraged to begin using new Home, which will continue to be enhanced with additional features prior to the deprecation. For more information about the transition, including advice about what users and administrators can do to prepare, see [Legacy Home deprecation guide](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
+
+>[!NOTE]
+>
+>After Legacy home is deprecated, _new Home_ will be referred to as _Home_ in Workfront. All _new Home_ documentation will be renamed to _Home_. 
