@@ -155,6 +155,12 @@ To schedule a report for automatic delivery or to edit or delete an existing rep
 
    For information about size limitations that can affect the delivery of your reports, see the sections [Report delivery limits](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#understanding-export-limits) and [Export limits](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md#export).
 
+>[!IMPORTANT]
+>
+>Scheduled reports are subject to an internal time limit when being processed for delivery. In the event a report takes longer than the limit to be sent, you will receive a notification and the report will no longer be delivered regardless of any remaining scheduled deliveries. To continue sending the report, first try reducing the size of the report through filters and views, then create a new scheduled delivery.
+>
+>If you are using a scheduled report delivery to analyze Workfront data through a BI tool, we recommend using Workfront Data Connect instead. For more information, see [Workfront Data Connect overview](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
+
 1. (Optional) To delete a scheduled delivery:
 
    1. In the **Repeating Deliveries** panel, click the scheduled delivery, then click **Delete**.

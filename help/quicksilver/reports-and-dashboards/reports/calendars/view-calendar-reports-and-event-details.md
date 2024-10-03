@@ -48,14 +48,14 @@ You must have the following access to perform the steps in this article:
 
    Depending on your access level, you might see the following calendars listed:
 
-   * Your default [!DNL Adobe Workfront] calendar\
+   * Your default [!DNL Adobe Workfront] calendar
 
       Workfront creates a calendar for you based on the projects, tasks, and issues that are assigned to you or that are assigned to teams, groups, or roles to which you are assigned.
-   * Calendars that you have created\
+   * Calendars that you have created
 
       To learn about creating calendars, see [Calendar reports overview](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
-   * Calendars that other users have shared with you\
+   * Calendars that other users have shared with you
 
       To learn about sharing calendars, see [[!UICONTROL Share a calendar] report](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
 
