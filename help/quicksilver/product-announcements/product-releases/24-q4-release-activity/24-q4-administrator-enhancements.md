@@ -12,6 +12,18 @@ This page describes all administrator enhancements made with the Fourth Quarter 
 
 For a list of all changes available at this point in the Fourth Quarter 2024 release cycle, see [Fourth Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
+## A counter on custom forms shows the number of fields
+
+>[!NOTE]
+>
+>Preview release: October 1, 2024; Production release for all customers: With the 24.10 release (October 17, 2024)
+
+Custom forms are limited to 500 fields. On a long form, it can be difficult to know how many fields are on the form and whether you are approaching the limit.
+
+A counter has been added to custom forms on the bottom left. The counter displays how many fields are used on the form, and it is always visible as you scroll within the form designer.
+
+For more information, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
 ## A "Select all" option is now available in layout templates
 
 >[!NOTE]
