@@ -1,25 +1,18 @@
 ---
-title: Summarize using AI Assistant
-content-type: reference
-description: You can quickly summarize work items and documents using the Summarize this functionality.
+product-area: projects
+navigation-topic: update-work-items-and-view-updates
+title: Summarize projects with AI Assistant
+description: The project header includes a button that uses AI Assistant to summarize projects.
 author: Becky
 feature: Get Started with Workfront
-exl-id: b7d4d9a5-cdc5-43a6-a58f-57480f702034
 ---
-# Summarize using AI Assistant
+# Summarize updates with AI Assistant
+
+Workfront's AI Assistant can summarize projects, allowing you to quickly understand project information, such as project purpose and status, gives examples of tasks that are completed and that are still pending, and provides some additional details and notes.
+
+You can use the Project Summary button to generate a summary, or you can enter a prompt into AI Assistant.
 
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
-
-Workfront's AI Assistant can summarize some objects, giving you a high-level view of the object's intent or details. 
-
-For example, if you ask AI Assistant to summarize a project, it returns brief descriptions of the project's purpose and status, gives examples of tasks that are completed and that are still pending, and provides some additional details and notes.
-
-AI Assistant can summarize the following objects:
-
-* Projects
-* Tasks
-* Issues
-* Documents
 
 >[!NOTE]
 >
@@ -47,6 +40,13 @@ You must have the following access to perform the steps in this article:
        <p>or</p>
        <p>Current: Not available</p></td>
   </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td><p>New: Standard</p>
+       <p>or</p>
+       <p>Current: Not available</p></td>
+  </tr> 
+ </tbody> 
  </tbody> 
 </table>
 
@@ -61,27 +61,21 @@ For more detail about the information in this table, see [Access requirements in
 
    For more information, see [Enable or disable AI Assistant](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
+
+
 <div class="preview">
 
-## Summarize using Summarize buttons
+## Summarize using Project Summary button
 
-The following areas have buttons that generate summaries using AI Assistant:
+1. Navigate to the update stream that you want to summarize. 
+1. Click the **Project Summary** button.
 
-* Project header: Project Summary
-* Updates area: Summarize Contents
-
-To use the Project Summary or Summarize Contents button:
-
-1. Click the button.
-
-   AI Assistant opens, with a prompt to summarize the project or the last 7 days of comments on the update stream.
+   AI Assistant opens, with a prompt to summarize the project.
 
    AI Assistant may take a few moments to generate the summary, depending on how large or complex the object is.
 
 1. View the AI summary in the AI Assistant panel.
-1. (Optional) Refine the prompt to ensure that it gives you the information you need. 
-
-   For example, you can refine the Summarize Contents prompt to summarize comments for the last 14 days, instead of the last 7. 
+1. (Optional) Refine the prompt to ensure that it gives you the information you need.
 
    </div>
 

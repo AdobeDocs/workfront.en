@@ -26,7 +26,7 @@ For more information, see [Customize the Details view using a layout template](/
 
 >[!NOTE]
 >
->Preview release: August 29, 2024; Production for fast release: With the 24.9 release (September 12, 2024); Production for quarterly release: With the 24.10 release (October 2024)
+>Preview release: August 29, 2024; Production for fast release: With the 24.9 release (September 12, 2024); Production for quarterly release: With the 24.10 release (October 17, 2024)
 
 To make environment promotion more flexible and easier to use, we've enabled rollback functionality. Now, you can roll back packages within 24 hours, allowing you to more easily restore previous configurations that have been affected by an environment promotion package.
 
@@ -40,9 +40,9 @@ For more information on rolling back an environment promotion package, see [Roll
 
 >[!NOTE]
 >
->Preview release: August 12, 2024; Production for fast release: With the 24.9 release (September 12, 2024); Production for quarterly release: TBD
+>Preview release: ~~August 12, 2024~~; Production for fast release: N/A; Production for quarterly release: N/A
 >
->_This feature is part of a phased release and will be available to a limited number of customers in September. It will remain in the Preview environment for an extended time while we gather feedback._
+>_This feature has been removed from Preview and will not be released with any future releases._
 
 A "Layout" button on the custom form designer allows you to choose from a two- or three-column working area. The original form designer uses three columns and the field settings are displayed in the far right column. If you select two columns, the field settings are displayed next to the field library in the far left column.
 
