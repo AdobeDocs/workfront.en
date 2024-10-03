@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Updates section overview
+title: Updates Section Overview
 description: The Updates section of an object displays comments that users make on the object or system updates that track changes to the object.
 author: Alina
 feature: Get Started with Workfront
