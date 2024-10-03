@@ -33,4 +33,4 @@ For more information, see [Document decision status overview](/help/quicksilver/
 
 You can now quickly add reviewers and approvers from previous document versions.
 
-For more information, see [Upload a new document version and request an approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md).
+<!-- For more information, see [Upload a new document version and request an approval](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md). -->
