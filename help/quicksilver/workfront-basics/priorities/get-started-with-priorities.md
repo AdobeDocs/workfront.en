@@ -9,8 +9,6 @@ recommendations: noDisplay, noCatalog
 
 # Get started with Priorities
 
-<span class="preview">Priorities will be available in Preview on 10/3/2024</span>
-
 Priorities is a streamlined, intuitive experience tailored for task owners. Priorities will be rolled out in phases, starting with the worklist.
 
 With Priorities, you can enjoy
@@ -112,6 +110,16 @@ The Calendar view will provide a visual representation of your tasks and issues.
 ## Work on tasks and issues
 
 In Priorities, you can update work items to keep your work item details current, log time to track your work hours accurately, upload assets without having to navigate to a project, and add quick links for easy access to frequently used resources.
+
+>[!NOTE]
+>
+>Light, Review, Contributor, and Requestor licenses have limited access to Priorities. For more information about how these license types can interact with tasks and issues, see 
+>
+>* [Access to objects and areas by for new licenses](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
+>* [Functionality available for each object type for new access levels](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md) 
+>* [Access to objects and areas by license type](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md) 
+>* [Functionality available for each object type](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md) 
+
 
 ### Add and view updates
 
