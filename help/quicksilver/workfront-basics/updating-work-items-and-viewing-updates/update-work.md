@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Update work
+title: Update Work
 description: You can add an update on an Adobe Workfront object (project, task, or issue) to communicate about progress on the object. Users who are assigned or subscribed to the object can view your update. You can also tag users to bring their attention to the update.
 author: Alina
 feature: Get Started with Workfront
@@ -124,12 +124,19 @@ For more detail about the information in this table, see [Access requirements in
 
    * From a Workfront object, in the Updates section (for projects, tasks, and issues)  
    * From the Home area (for tasks and issues)
+
+      For information, see [Manage your work with the My Work widget](/help/quicksilver/workfront-basics/using-home/new-home/my-work-widget.md).
    * From the Summary panel in the following areas (for tasks, issues, and documents):
    
       * A list of objects
       * A timesheet
       * Home
       * The Workload Balancer 
+
+      For more information, see the following articles:
+
+      * [Summary overview](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md)
+      * [Update work items in the Workload Balancer using the Summary](/help/quicksilver/resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
 
 <!--info for April 11: hide the section below: add an update to a work item-->
 

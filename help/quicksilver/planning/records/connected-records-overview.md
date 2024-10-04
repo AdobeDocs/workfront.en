@@ -24,9 +24,9 @@ For information about how you can connect records to one another or to another o
 * You can browse and add records and objects of the linked record and object types from the linked record fields. 
 * You can add fields (lookup fields) of the linked record types in the table of the record type you are linking from. 
 
-    You can add fields (lookup fields) of the record types you are linking from in the table of the record type you are linking to. 
+    Also, you can add fields (lookup fields) of the record types you are linking from in the table of the record type you are linking to. 
 
-    For example, if you link the record type of Product from the record type of Campaign, you can display Product fields for campaigns, as well as Campaign fields for Products. 
+    For example, if you link the record type of Product from the record type of Campaign, you can display product fields for campaigns, as well as campaign fields for products. 
 * You cannot manually update the values of lookup fields on the records you are linking from. 
 
   The values of the lookup fields populate the Workfront Planning record that you are linking from automatically after they are updated on the original record or object. 

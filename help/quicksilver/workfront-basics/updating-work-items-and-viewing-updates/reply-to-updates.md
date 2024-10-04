@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Reply to updates
+title: Reply to Updates
 description: When someone adds or replies to an update on a work object, their reply appears in the communication thread in the Updates section for the object. You can add a reply to an update or Like it if you have View access to the object.
 author: Nolan and Alina
 feature: Get Started with Workfront
@@ -47,6 +47,8 @@ This article describes how you reply to comments from most objects in Workfront.
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article. 
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -74,6 +76,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 *To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements for Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Reply to an update or a reply in Workfront
 

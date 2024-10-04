@@ -9,8 +9,6 @@ recommendations: noDisplay, noCatalog
 
 # Move from Legacy Home to Priorities
 
-<span class="preview">Priorities will be available in Preview on 10/3/2024</span>
-
 Legacy Home will be removed from Workfront on 10/17 with the Q4 release. This article provides information on which functionality will be available in Priorities as well as recommendations for Workfront administrators moving users to Priorities. 
 
 For more information on the Legacy Home deprecation, see the [Legacy Home Deprecation Guide](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
