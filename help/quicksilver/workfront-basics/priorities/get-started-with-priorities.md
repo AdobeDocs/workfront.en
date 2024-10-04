@@ -86,7 +86,7 @@ After you have filtered your work, you can group items based on
 * Status
 * Project
 
-<!--For more information, see [Find and organize your work in Priorities]().-->
+<!--For more information, see [Filter and group your work in Priorities]().-->
 
 ### Prioritize important work items with My Focus
 
@@ -99,7 +99,7 @@ My Focus is a column in the worklist that helps you to prioritize your work. The
 
 Once you have assigned focus levels to your work items, you can sort the column to surface urgent items at the top of your worklist.
 
-<!--For more information, see [Prioritize important work items with My Focus]().-->
+<!--For more information, see [Prioritize important work items]().-->
 
 ![](assets/my-focus-column.png)
 
