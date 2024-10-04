@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 ---
 
-# Get started with Priorities
+# Get started with [!DNL Priorities]
 
 Priorities is a streamlined, intuitive experience tailored for task owners. Priorities will be rolled out in phases, starting with the worklist.
 
@@ -175,9 +175,9 @@ For now, we recommend using the Awaiting My Approval and All Approvals widgets i
 For more information, see [Add, edit, or remove widgets in New Home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
 
 
-## Use Catch me up to see what you missed [!BADGE Coming soon]{type=Informative}
+## Use [!DNL Catch me up] to see what you missed [!BADGE Coming soon]{type=Informative}
 
-Use the Catch me up feature to see what you missed. Catch me up will summarize updates, uploaded documents, approvals, and other notable changes about your projects within the following time frames: 24 hours, 3 days, 7 days. 
+Use the [!DNL Catch me up] feature to see what you missed. Catch me up will summarize updates, uploaded documents, approvals, and other notable changes about your projects within the following time frames: 24 hours, 3 days, 7 days. 
 
 
 ![](assets/catch-me-up.png)
