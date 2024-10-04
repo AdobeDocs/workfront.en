@@ -2,17 +2,23 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: View a scenario's execution history in Adobe Workfront Fusion
+title: View a scenario's history in Adobe Workfront Fusion
 description: You can display information about all the runs for a scenario, or you can search all executions of the scenario for specific data.
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
 ---
-# View a scenario's execution history in [!DNL Adobe Workfront Fusion]
+# View a scenario's history in [!DNL Adobe Workfront Fusion]
 
-You can display information about all the runs for a scenario, or you can search all executions of the scenario for specific data.
+You can display information about a scenario's events or executions, or you can search all executions of the scenario for specific data. 
 
-A scenario's execution history displays all of a scenario's executions for the last 30 days.
+A scenario execution represents a single run of the scenario.
+
+A scenario event is a modification to the scenario, such as editing, activating, or deactivating it. 
+
+>[!NOTE]
+>
+>A scenario's history displays all of a scenario's events and executions for the last 30 days.
 
 ## Access requirements
 
@@ -53,9 +59,9 @@ To find out what plan, license type, or access you have, contact your [!DNL Work
 
 For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## View all executions of a scenario
+## View scenario history
 
-### View scenario execution history on the [!UICONTROL Scenario Detail] page
+### View scenario history on the [!UICONTROL Scenario Detail] page
 
 1. Click the **[!UICONTROL Scenario]** tab in the left panel, then click the scenario.
 
@@ -63,9 +69,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
    If you are working on the scenario in the Scenario editor, click the left arrow ![](assets/exit-editing-arrow.png) near the upper-left corner of the window.
 
-1. View the information in the list on the right.
-
-   You can also click to see a full-page view of this information. The full-page view allows you to filter the history to view specific executions.
+1. View the execution history in the **History** tab of the panel on the right.
 
    The following details are listed for every execution of the scenario:
 
@@ -74,13 +78,16 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
    * Run **[!UICONTROL Duration]**
    * Number of **[!UICONTROL Operations]**
    * Size of **[!UICONTROL Data Transfer]**
-   * Link to **[!UICONTROL Details]**
+  
+   >[!NOTE]
+   >
+   >The scenario history displays a **Processing** badge next to scenarios that have recently executed, while the execution details are written to storage. Processing occurs immediately after the scenario executes. and should last no more than a few minutes. Details of the scenario execution may not be visible while the execution is processing.
+   
+1. To view details for a specific scenario execution, click on that execution in the right panel.
+1. To view events, click the **Events** tab of the panel on the right.
 
->[!NOTE]
->
->The scenario history displays a **Processing** badge next to scenarios that have recently executed, while the execution details are written to storage. Processing occurs immediately after the scenario executes. and should last no more than a few minutes. Details of the scenario execution may not be visible while the execution is processing.
 
-### View scenario execution history on the [!UICONTROL History] tab
+### View scenario history on the [!UICONTROL History] tab
 
 The [!UICONTROL History] tab shows more detail than is available on the [!UICONTROL Scenario detail] page. You can also filter and sort the executions on the [!UICONTROL History] tab.
 
@@ -91,7 +98,7 @@ The [!UICONTROL History] tab shows more detail than is available on the [!UICONT
    If you are working on the scenario in the Scenario editor, click the left arrow ![](assets/exit-editing-arrow.png) near the upper-left corner of the window.
 
 1. Click the **[!UICONTROL History]** tab near the upper-left corner of the page
-1. (Optional) For detailed information about a selected scenario run, including which bundles were processed, click the **[!UICONTROL Details]** link.
+1. (Optional) For detailed information about a selected scenario run, including which bundles were processed, click the **[!UICONTROL Details]** button in the line for that execution.
 
    For more information on processing bundles, see [Scenario execution flow in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
 
@@ -100,6 +107,8 @@ The [!UICONTROL History] tab shows more detail than is available on the [!UICONT
    >* The [!UICONTROL details] link is visible only if the execution has details available.
    >
    >* The scenario history displays a **Processing history** badge next to scenarios that have recently executed, while the execution details are written to storage. Processing occurs immediately after the scenario executes. and should last no more than a few minutes. Details of the scenario execution may not be visible while the execution is processing.
+
+1. To view events, enable the **Show events** toggle.
 
 ## Filter the scenario execution history
 
@@ -122,13 +131,7 @@ You can sort the scenario execution history.
 
 ## Search all executions of a scenario
 
-1. Click the **[!UICONTROL Scenario]** icon ![](assets/scenarios-icon.png) in the left panel, then click the scenario.
-
-   Or
-
-   If you are working on the scenario in the Scenario editor, click the left arrow ![](assets/exit-editing-arrow.png) near the upper-left corner of the window.
-
-1. Click the **[!UICONTROL History]** tab near the upper-left corner of the screen.
+1. Open the full-page history for a scenario as described in [View scenario execution history on the [!UICONTROL History] tab](#view-scenario-execution-history-on-the-history-tab) in this article.
 1. Click **[!UICONTROL Fulltext search]** at the top of the list of executions.
 
    Or
