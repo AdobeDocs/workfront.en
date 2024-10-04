@@ -67,7 +67,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. To restore an archived card, click the **[!UICONTROL More]** menu ![More menu](assets/more-icon-spectrum.png) on the card and select **[!UICONTROL Restore]**.
 
-## Filter a board to show archived cards {#filter-a-board-to-show-archived-cards}
+## Filter a board to show archived cards
 
 By default, only active cards are displayed on a board. You can filter the board to also display any archived cards.
 
