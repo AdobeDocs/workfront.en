@@ -738,7 +738,7 @@ See a list of the [!DNL Workfront] object types for which you can use this modul
 
 +++ **[!UICONTROL Upload Document]**
 
-This action module uploads a document to a [!DNL Workfront] object, such as a project, task, or issue.
+This action module uploads a document to a [!DNL Workfront] object, such as a project, task, or issue. This module uploads the document in chunks, which makes the upload process smoother for Workfront. 
 
 You specify the location for the document, the file you want to upload, and an optional new name for the file.
 
@@ -761,6 +761,51 @@ When you are configuring this module, the following fields display.
   <tr> 
    <td>[!UICONTROL Related Record Type]</td> 
    <td>Select the type of [!DNL Workfront] record where you want the module to upload the document.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Folder ID]</td> 
+   <td>Depending on the type of related record, you may need to enter or map a folder ID.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Source file]</td> 
+   <td> <p>Select a source file from a previous module, or map the source file's name and data.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+See a list of the [!DNL Workfront] object types for which you can use this module in [[!DNL Workfront] object types available for each [!DNL Workfront] module](#workfront-object-types-available-for-each-workfront-module).
+
++++
+
++++ **[!UICONTROL Upload Document (Legacy)]**
+
+This action module uploads a document to a [!DNL Workfront] object, such as a project, task, or issue. It uploads the entire document at once. 
+
+You specify the location for the document, the file you want to upload, and an optional new name for the file.
+
+The module returns the ID of the document and any associated fields, along with any custom fields and values that the connection accesses. You can map this information in subsequent modules in the scenario.
+
+When you are configuring this module, the following fields display.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Connect [!DNL Workfront] to [!DNL Workfront Fusion]</a> in this article.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Related Record ID]</td> 
+   <td>Enter the unique [!DNL Workfront] ID of the record to which you want to upload the document.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Related Record Type]</td> 
+   <td>Select the type of [!DNL Workfront] record where you want the module to upload the document.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Folder ID]</td> 
+   <td>Depending on the type of related record, you may need to enter or map a folder ID.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Source file]</td> 
