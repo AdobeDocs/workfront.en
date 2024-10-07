@@ -74,6 +74,10 @@ Find your most important work with filters. You can filter tasks and issues assi
     <td>Status</td>
     <td>Displays tasks or issues in new, in progress, and complete statuses</td>
     </tr>
+     <tr>
+    <td>My Focus</td>
+    <td>Displays tasks or issues in that have assigned focus levels. Focus levels are assigned and managed by the individual user.</td>
+    </tr>
   </tbody>
 </table>
 
@@ -82,6 +86,7 @@ Find your most important work with filters. You can filter tasks and issues assi
 After you have filtered your work, you can group items based on
 
 * None
+* My Focus
 * Week due
 * Status
 * Project

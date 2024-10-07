@@ -67,6 +67,10 @@ You can filter tasks and issues assigned to you.
     <td>Status</td>
     <td>Displays tasks or issues in new, in progress, and complete statuses</td>
     </tr>
+    <tr>
+    <td>My Focus</td>
+    <td>Displays tasks or issues in that have assigned focus levels. Focus levels are assigned and managed by the individual user.</td>
+    </tr>
   </tbody>
 </table>
 
