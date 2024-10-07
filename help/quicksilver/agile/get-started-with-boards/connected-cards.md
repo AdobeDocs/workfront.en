@@ -24,7 +24,7 @@ When any one of the following details is updated for the card in one location, i
 * [!UICONTROL Subtasks]
 * [!UICONTROL Documents]
 
-To synchronize connected cards with Workfront, click the **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) next to the board name and select **[!UICONTROL Sync connected items]**.
+To synchronize connected cards with Workfront, click the **[!UICONTROL More]** menu ![[!UICONTROL More menu]](assets/more-icon-spectrum.png) next to the board name and select **[!UICONTROL Sync connected items]**. Archived cards do not sync to Workfront tasks and issues. If you restore a card, it will sync again.
 
 >[!NOTE]
 >
