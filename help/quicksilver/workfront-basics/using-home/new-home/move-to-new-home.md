@@ -265,6 +265,7 @@ Doing this as soon as possible will then give your users time to adjust to the n
 
 **Training**
 
+* [Remove, add, and rearrange widgets in Home](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/home/remove-add-and-rearrange-widgets) tutorial
 * [Worker Fundamentals in Adobe Workfront](https://adobe-ats.sabacloud.com/Saba/Web_spf/PRODTNT100/app/me/learningeventdetail/cours000000000098821?regId=regdw000000001250612)
 
 >[!IMPORTANT]
