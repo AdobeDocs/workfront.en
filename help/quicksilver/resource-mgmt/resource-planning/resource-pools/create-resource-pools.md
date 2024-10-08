@@ -7,7 +7,12 @@ author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
 ---
-# Create resource pools
+# Create resource pools {#create-resource-pools}
+
+>[!CONTEXTUALHELP]
+>id="wf_resource_pools"
+>title="Resource pools"
+>abstract="A Resource Pool is a collection of users that are needed at the same time for the completion of a project. After you create a resource pool, you can associate it with projects and templates."
 
 {{preview-and-fast-release-Q424}}
 
