@@ -28,7 +28,7 @@ You can change date formats in Workfront in the following ways, depending on wha
    For example, if the default language in your browser is set to *[!UICONTROL English (United States)]*, the dates display in the following formats:
 
    * MM/DD/YYYY
-   * Mon DD, YYY
+   * Month DD, YYYY
 
    To change the language settings in [!DNL Chrome] or any other browser, you must modify the settings of that browser. The steps to modify a browser's settings vary from browser to browser. Refer to your browser's [!UICONTROL Help], [!UICONTROL Preferences], or [!UICONTROL Settings] areas to learn how to modify its settings.
 
