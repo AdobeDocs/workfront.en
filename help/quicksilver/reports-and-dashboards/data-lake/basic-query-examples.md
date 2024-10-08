@@ -6,7 +6,6 @@ title: Data Connect query examples
 description: Example queries you can use to familiarize yourself with the syntax and structure of specific kinds of queries.
 author: Nolan
 feature: Reports and Dashboards
-recommendations: noDisplay, noCatalog
 exl-id: f2da081c-bdce-4012-9797-75be317079ef
 ---
 # Workfront Data Connect query examples
