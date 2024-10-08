@@ -279,6 +279,12 @@ An ExchangeRate object represents a currency exchange rate set up in Workfront. 
   </tbody>
 </table>
 
+### Group (GROUP)
+
+A Group object represents a set of users and teams. Groups often represent departmental structure.
+
+The Group object added the flag **SHARABLE**.
+
 ### Hour (HOUR)
 
 An Hour object represents an hour logged by a user on a timesheet.
@@ -297,6 +303,11 @@ An Hour object represents an hour logged by a user on a timesheet.
           <li><p><b>rejectedOnDate</b></li>
           <li><p><b>rejectionComment</b></li>
           <li><p><b>submittedByID</b></li>
+          </ul>
+          <p>The following changed were made to the <b>hours</b> field.</p>
+          <ul> 
+          <li> Removed validator <b>GREATER_THAN</b></li>
+          <li> Added validator <b>NOT_EQUAL</b></li>
           </ul>
      </td>
     </tr>
@@ -369,6 +380,22 @@ A Parameter object is a custom field.
             </ul>
           </li>
           <li>
+            <p><b>displayType</b></p><p>Added the following possible values:
+            <ul>
+            <li>Adobe XD (ADOBEXD)</li>
+            <li>Image (IMAGE)</li>
+            <li>PDF (PDF)</li>
+            <li>Video (VIDEO)</li>
+            <li>External Lookup (EXTRNL)</li>
+            <li>Multi-Select External Lookup (MULTEXTRNL)</li>
+            <li>Native Field (WFNATIVE)</li>
+            <li>Planning Field (WFPLANNING)</li>
+            <li>Time-phased KPI (TIMEPHASED)</li>
+            <li>Rollup (ROLLUP)</li>
+            <li>Documents (DOCUMENT)</li>
+           </ul>
+          </li>
+          <li>
             <p><b>configurations</b><p>Added.</p>
           </li>
         </ul>
@@ -404,9 +431,38 @@ A Role object (job role) represents a functional capacity or a skill set a user 
   </tbody>
 </table>
 
+### ScoreCardQuestion {#scorecardquestion}
+
+A ScoreCardQuestion object represents a question that has been added to a Scorecard. These questions are usually determined by the Portfolio manager, and their answers allow the manager to understand how well a project aligns with the goals of the portfolio.
+
+<table>
+  <tbody>
+    <tr>
+      <td role="rowheader">Direct fields</td>
+      <td>
+            <p><b>displayType</b></p><p>Added the following possible values:
+            <ul>
+            <li>Adobe XD (ADOBEXD)</li>
+            <li>Image (IMAGE)</li>
+            <li>PDF (PDF)</li>
+            <li>Video (VIDEO)</li>
+            <li>External Lookup (EXTRNL)</li>
+            <li>Multi-Select External Lookup (MULTEXTRNL)</li>
+            <li>Native Field (WFNATIVE)</li>
+            <li>Planning Field (WFPLANNING)</li>
+            <li>Time-phased KPI (TIMEPHASED)</li>
+            <li>Rollup (ROLLUP)</li>
+            <li>Documents (DOCUMENT)</li>
+           </ul>
+      </td>
+  </tbody>
+</table>
+
 ### TemplateAssignment (TASSGN)
 
 A TemplateAssignment object represents the connection between a template task and the user, team, or group that is assigned to work on it. When the template is used for a project, that user, team, or group is assigned to the task.
+
+The TemplateAssignment object added the flag **DATA_EXTENDIBLE**.
 
 <table>
   <tbody>
