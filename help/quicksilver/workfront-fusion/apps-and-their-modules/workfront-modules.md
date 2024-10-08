@@ -318,6 +318,10 @@ This action module makes one of the following conversions:
 * Convert Issue to Task
 * Convert Task to Project
 
+>[!NOTE]
+>
+>As of July 2024, custom forms can be included when converting an object.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
@@ -597,6 +601,10 @@ See a list of the [!DNL Workfront] object types for which you can use this modul
 +++ **[!UICONTROL Misc Action]**
 
 This action module lets you perform actions against the API.
+
+>[!NOTE]
+>
+>As of July 2024, the `convertToProject` action includes the field `copyCategories`. When set to `TRUE`, any custom forms will be included in the project that the issue is converted to.
 
 When you are configuring this module, the following fields display.
 

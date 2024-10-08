@@ -88,6 +88,7 @@ You can filter items in the [!UICONTROL Work List] to see only specific types of
         <p>Displays only tasks that are ready for you to start. Both of the following statements must be true:</p> 
         <ul> 
          <li> <p>The tasks and their parents have no predecessors or task constraints preventing them from being worked on.</p> </li> 
+         <li> <p>All predecessor tasks have been completed.</p> </li> 
          <li> <p>The [!UICONTROL Planned Start Date] of the tasks is in the past or up to two weeks in the future.</p> </li> 
         </ul> 
        </div> </td> 

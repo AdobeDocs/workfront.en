@@ -37,7 +37,10 @@ For more information, see [Get started with Priorities](/help/quicksilver/workfr
 
 We will be officially deprecating the legacy Home experience with the 24.10 release. 
 
-With this change, the _Home and Summary_ area in the Layout Template will be renamed to _Summary panel_. Customizations in this area will still apply to the Summary panel in new Home. For more information, see [Customize Home and Summary using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+With this change, the following areas of the Layout Template will be renamed:
+
+* The _Home workspace_ area will be renamed to _Home_. 
+* The _Home and Summary_ area will be renamed to _Summary panel_. Customizations in this area will still apply to the Summary panel in new Home. For more information, see [Customize Home and Summary using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 
 Users are encouraged to begin using new Home, which will continue to be enhanced with additional features prior to the deprecation. For more information about the transition, including advice about what users and administrators can do to prepare, see [Legacy Home deprecation guide](/help/quicksilver/product-announcements/announcements/legacy-home-deprecation.md).
 
