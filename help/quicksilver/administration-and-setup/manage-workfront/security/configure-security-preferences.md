@@ -123,7 +123,7 @@ For more detail about the information in this table, see [Access requirements in
      </tr>
      <tr> 
       <td role="rowheader">Enable the Priorities worklist </td> 
-      <td>Lets you choose to enable or disable the Priorities worklist experience for your users. <!--Users will still see the Priorities icons in Workfront, but they will not have access to the functionality.--> For more information about Priorities, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Get started with Priorities</a>.</td> 
+      <td>Lets you choose to enable or disable the Priorities worklist experience for your users. Users will still see the Priorities icons in Workfront, but they will not have access to the functionality. For more information about Priorities, see <a href="/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md">Get started with Priorities</a>.</td> 
      </tr>
      <tr> 
       <td role="rowheader">Test Environments</td> 
