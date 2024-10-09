@@ -1,7 +1,7 @@
 ---
 navigation-topic: get-started-with-workfront
 title: Log time in Priorities
-description: Priorities is a streamlined, intuitive experience tailored for task owners. 
+description: You can log time for work items in Adobe Workfront to indicate the number of hours you spend working on them. The time you log displays in your timesheet. 
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
