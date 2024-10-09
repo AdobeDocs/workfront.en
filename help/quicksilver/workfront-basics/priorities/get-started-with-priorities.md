@@ -132,7 +132,7 @@ Add an update on a task or issue to communicate your progress to others.
 
 The Updates section shows system updates, and up to 200 of the most recent updates users made within the past 90 days.
 
-For more information, see [Add and view updates in Priorities](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md).
+For more information, see [Add and view comments in Priorities](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md).
 
 ![](assets/new-update.png)
 
