@@ -17,7 +17,7 @@ Your visibility to objects in Adobe Workfront depends on your access to that typ
 >
 >* Scenario Planner plans in the Adobe Workfront Scenario Planner. For more information, see [Request access to a plan in the Scenario Planner](../../scenario-planner/request-access-to-plan.md). This requires an additional license.
 >
->* Views and workspaces in Workfront Planning. For more information, see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). 
+>* Views and workspaces in Workfront Planning. For more information, see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). This requires an additional license. 
 
 
 Your Workfront administrator configures your access to a type of object in your access level. For more information, see [How access levels and permissions work together](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
