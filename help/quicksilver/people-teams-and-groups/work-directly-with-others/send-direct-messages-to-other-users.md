@@ -21,29 +21,6 @@ The user you are sending the message to receives the following types of notifica
 
 ## Access requirements
 
-You must have the following access to perform the steps in this article:
-
-<table style="table-layout:auto"> 
- <col> 
- </col> 
- <col> 
- </col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Any</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>Review or higher</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-&#42;To find out what plan or license type you have, contact your [!DNL Workfront] administrator.
-
-## Access requirements
-
 +++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
@@ -59,9 +36,14 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td>
+   <p>To send a message from the user's home page, you must have:
    <p>New: Light or higher</p>
    <p>or</p>
-   <p>Current: Review or higher</p></td>
+   <p>Current: Review or higher</p>
+   <p>To send a message from the User list, you must have:</p>
+   <p>New: Standard</p>
+   <p>or</p>
+   <p>Current: Work or higher</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -70,7 +52,7 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-## Send a message unrelated to a work item to another user
+## Send a message unrelated to a work item to another user from their home page
 
 1. Go to the home page of the user you want to send a message to.  
    You can do the following to navigate to a user's home page:
@@ -79,7 +61,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. On the **[!UICONTROL Updates]** tab, click in the text box field.
 
-   ![Message user on the [!UICONTROL Updates] tab](assets/message-user-NWE.png)
+   ![Message user on the [!UICONTROL Updates] tab](assets/send-message-to-user-on-updates-tab.png)
 
 1. Type your message.
 1. (Optional) Click in the **[!UICONTROL Notify]** field, then begin typing the name of another user you want to include in this message.  
@@ -87,4 +69,17 @@ For more detail about the information in this table, see [Access requirements in
 1. (Optional) Select **[!UICONTROL Private to my company]** to make this message visible only to other users in your company.  
 
 1. Click **[!UICONTROL Update].** 
+   The message is posted at the top of the list of messages on the **[!UICONTROL Updates]** tab on the user's home page.
+
+## Send a message to one or more users from the User list.
+
+This option is only available if you have a Standard license.
+
+{{step-1-to-users}}
+
+1. Select the user or users you want to send a message to, and click [!UICONTROL **Send Update to User**].
+1. Type your message in the [!UICONTROL Send update to user] window.
+1. (Optional) TAG PEOPLE
+1. (Optional) Select **[!UICONTROL Private to my company]** to make this message visible only to other users in your company.
+1. Click [!UICONTROL **Send**].
    The message is posted at the top of the list of messages on the **[!UICONTROL Updates]** tab on the user's home page.
