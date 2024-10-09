@@ -46,12 +46,12 @@ For more detailed information about adding updates, see [Add an update to a work
 1. Click on a work item name to open the Overview page.
 1. Locate the **Updates** area in the botton-right corner of the screen.
 1. On the Comments tab, find the comment you want to reply to, then click **Reply**. 
-1. (Conditional) If you want to reply to bring the content of a message into your reply, click the **More** menu next to the body of the message and choose **Quote reply**.
-    ![](assets/more-menu-comment.png)
+1. (Conditional) If you want to reply to bring the content of a message into your reply, click the **More** menu icon ![](assets/more-icon.png) next to the body of the message and choose **Quote reply**.
+    
 1. Type your reply, then click **Submit**. 
 
     >[!IMPORTANT]
     >
     >You can edit your comment only within 15 minutes from submitting it. To edit a comment, click the More menu in the upper-right corner of the comment, then click Edit.
-    
-![](assets/reply-to-comment.png)
+
+    ![](assets/reply-to-comment.png)
