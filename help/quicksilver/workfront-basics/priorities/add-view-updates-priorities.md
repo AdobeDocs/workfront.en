@@ -9,8 +9,50 @@ recommendations: noDisplay, noCatalog
 
 # Add and view comments in Priorities
 
+You can add an update on a task or issue to communicate to others about progress on the work item. 
+
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article:
+
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td> 
+   <p>Current: Request or higher for issues <!--and documents-->; Review or higher for all other objects</p>
+   <p>New: Contributor or higher for issues <!--and documents-->: Light or higher for all other objects</p> 
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Access level configurations</strong></td> 
+   <td> <p>View or Edit access for the object the update is on</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
+   <td> <p>View access to the object</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 
 ## Add a quick comment
+
+You can add a comment from the worklist:
 
 {{step1-to-priorities}}
 
@@ -28,7 +70,9 @@ recommendations: noDisplay, noCatalog
 
 For more detailed information about adding updates, see [Add an update to a work item](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-## View and add updates in a work item
+## View and add comments and system updates in a work item
+
+You can view and add comments and view system updates in an individual work item:
 
 {{step1-to-priorities}}
 
@@ -40,6 +84,8 @@ For more detailed information about adding updates, see [Add an update to a work
 ![](assets/updates-area-in-overview.png)
 
 ## Reply to a comment
+
+You can reply to a comment in a work item:
 
 {{step1-to-priorities}}
 
