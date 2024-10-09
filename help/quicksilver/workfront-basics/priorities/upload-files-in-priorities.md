@@ -9,6 +9,8 @@ recommendations: noDisplay, noCatalog
 
 # Upload files in Priorities
 
+You can upload files from the Priorities work list or from individual work items. Files uploaded from Priorities appear in the Document tab of the work item. 
+
 ## Access Requirements
 
 
