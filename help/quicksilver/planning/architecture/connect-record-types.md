@@ -262,13 +262,15 @@ You must have the following to be able to access Workfront Planning:
 
     Records without a thumbnail image display the record type icon instead. An example of how the connected records will display shows in the **Record appearance** area. 
 
-    >[!TIP]
+    >[!NOTE]
     >
-    >    When you allow multiple records to be linked, displaying only the thumbnail might save space in smaller areas, like record views.
+    >* When you allow multiple records to be linked, displaying only the thumbnail might save space in smaller areas, like record views.
     >
-    >The name of a record is the primary field of the record. For more information, see [Primary field overview](/help/quicksilver/planning/fields/primary-field-overview.md). 
+    >* The name of a record is the primary field of the record. For more information, see [Primary field overview](/help/quicksilver/planning/fields/primary-field-overview.md). 
     >
-    >Selecting a record appearance is not available when selecting Workfront object types. 
+    >* Selecting a record appearance is not available when selecting Workfront object types. 
+    >
+    >* What you select in the Record appearance area determines how the records display in connections everywhere in the system, including all the views and Details pages. 
 
 1. Click **Create**.
 

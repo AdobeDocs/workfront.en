@@ -131,13 +131,15 @@ You must have the following to be able to access Workfront Planning:
       >
       >   Fields of the following types do not display in the request form: 
       >
-      >    * People
-      >    * Connected fields (includes connections with Experience Manager assets)
+      >    * People (includes Created by and Last modified by)
+      >    * Connected fields (includes connections with Workfront, and Experience Manager assets)
       >    * Connected lookup fields
       >    * Formula
+      >    * Created date
+      >    * Last modified date
 
    * **Default section**: This is the default section break that Workfront applies to the request form. The Default section cannot be renamed or removed. 
-   * **Subject** field: The field which will identify the request in Workfront. This capability is not yet available. 
+   * **Subject** field: The field which will identify the request in Workfront. This capability is not yet available. The configuration and the value of the Subject field are not editable. 
    * All the fields associated with the record type. 
 
       The fields contained in the request form will be visible to everyone submitting a request to this record type. 
@@ -152,21 +154,23 @@ You must have the following to be able to access Workfront Planning:
    * **Make a required field**: When selected, the field must have a value. Otherwise, the form cannot be submitted. 
    * **Add logic**: Define what conditions must be met in order for the field to display or be hidden.
 
-   The field type of each field displays at the top of the right panel, after you select the field on the form. The names of the field types on the request form differ from their names in the table view. The following table describes the differences between the names of the field types in the table view and the names of the same fields in the record type's request form:  
-
-   | Workfront Planning field type | Request form field type |
-   |-------------------------------|-------------------------|
-   | Single-line text              | Single line text        |
-   | Paragraph                     | Text with formatting    |
-   | Currency, Number, Percentage  | Single line text        |
-   | Single-select                 | Single-select dropdown  |
-   | Multi-select                  | Multi-select dropdown   |
-   | Checkbox                      | Checkbox group          |
-
    >[!NOTE]
    >
-   >   The formats of the fields are preserved. For example, although Currency and Percentage display as Single line text fields the information in the fields displays as currency and as a percentage value.
-
+   >   The field type of each field displays at the top of the right panel, after you select the field on the form. 
+   >   
+   >
+   >   The table below displays the names of the field types in the table view and the names of the same fields in the record type's request form. The formats of each field match between the table view and the request form. 
+   >
+   >   | Workfront Planning field type | Request form field type |
+   >   |-------------------------------|-------------------------|
+   >   | Single-line text              | Single-line text        |
+   >   | Paragraph                     | Paragraph   |
+   >   | Currency, Number, Percentage  | Single-line text (the formats of these fields remains currency, number, and percentage)       |
+   >   | Single-select                 | Single-select  |
+   >   | Multi-select                  | Multi-select   |
+   >   | Checkbox                      | Checkbox        |
+   >   | Date                          | Date            |
+   >
 
 1. (Optional) Click the **Content elements** tab on the left side of the form, and add any of the following elements:
 
