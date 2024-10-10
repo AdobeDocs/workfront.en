@@ -16,7 +16,9 @@ feature-set: Workfront
     * 2024 Q4 Release {#release-24-q4}
       * [2024 Q4 Release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
       * [2024 Q4 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md)
+      * [2024 Q4 Document management enhancements](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md)
       * [2024 Q4 Integration enhancements](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-integration-enhancements.md)
+      * [2024 Q4 Home enhancements](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md)
       * [2024 Q4 Project enhancements](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-project-enhancements.md)
       * [2024 Q4 Proofing enhancements](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-proofing-enhancements.md)
       * [2024 Q4 Report and Dashboard enhancements](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-report-and-dashboard-enhancements.md)
@@ -167,6 +169,8 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+      * [Workfront Fusion release activity: Week of October 7, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-10-7.md)
+      * [Workfront Fusion release activity: Week of September 30, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-9-30.md)
       * [Workfront Fusion release activity: Week of September 9, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-9-9.md)
       * [Workfront Fusion release activity: Week of August 19, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-8-19.md)
       * [Workfront Fusion release activity: Week of August 5, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-8-5.md)
@@ -871,6 +875,9 @@ feature-set: Workfront
     * [Understand the navigation for a Work-license user](workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md)
     * [Understand the navigation for a Review-license user](workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md)
     * [Overview of the Project, Task, and Issue dates in Workfront](workfront-basics/navigate-workfront/workfront-navigation/definitions-pti-dates.md)
+  * Priorities {#priorities}
+    * [Priorities: article index](workfront-basics/priorities/priorities-toc.md)
+    * [Get started with Priorities](workfront-basics/priorities/get-started-with-priorities.md)
   * Home {#home}
     * [Home](workfront-basics/using-home/home.md)
     * New Home {#new-home}
@@ -881,6 +888,8 @@ feature-set: Workfront
       * [Manage your work with the My Work widget](workfront-basics/using-home/new-home/my-work-widget.md)
     * Use the Home area {#use-home-area}
       * [Use the Home area](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
+      * [Move from Legacy home to New Home](workfront-basics/using-home/new-home/move-to-new-home.md)
+      * [Move from Legacy home to Priorities](workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
       * [Get started with Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
       * [Display items in the Work List in the Home area](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
       * [Prioritize work in the Home area](workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
@@ -912,6 +921,7 @@ feature-set: Workfront
     * [Tag others on updates](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
     * [View all updates in a Note report](workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
     * [Work On It and Done button overview](workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
+    * [Summarize updates with AI Assistant](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/summarize-updates-ai-assistant.md)
   * Work with custom forms {#work-with-custom-forms}
     * [Work with custom forms](workfront-basics/work-with-custom-forms/work-with-custom-forms.md)
     * [Add a custom form to an object](workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
@@ -1233,6 +1243,7 @@ feature-set: Workfront
       * [Manage a project in the Agile View](manage-work/projects/manage-projects/manage-projects-in-agile-view.md)
       * [Overview of project metrics](manage-work/projects/manage-projects/project-metrics.md)
       * [Project limits overview](manage-work/projects/manage-projects/project-maximums.md)
+      * [Summarize updates with AI Assistant](/help/quicksilver/manage-work/projects/manage-projects/summarize-projects-ai-assistant.md)
     * Create and manage project templates {#create-and-manage-project-templates}
       * [Create and manage project templates: article index](manage-work/projects/create-and-manage-templates/create-manage-templates.md)
       * [Project template overview](manage-work/projects/create-and-manage-templates/project-template-overview.md)
@@ -1741,6 +1752,7 @@ feature-set: Workfront
     * [Establish a connection to Workfront Data Connect](reports-and-dashboards/data-lake/share-data-externally.md)
     * [Workfront Data Connect data dictionary](reports-and-dashboards/data-lake/data-dictionary.md)
     * [Workfront Data Connect query examples](reports-and-dashboards/data-lake/basic-query-examples.md)
+    * [View Workfront Data Connect usage metrics](reports-and-dashboards/data-lake/view-usage-metrics.md)
 * Manage resources {#manage-resources}
   * [Manage resources](resource-mgmt/manage-resources.md)
   * Resource Management {#resource-management}
@@ -1818,6 +1830,7 @@ feature-set: Workfront
       * [Remove approvers or reviewers from an asset or document](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/remove-approvers-or-reviewers.md)
       * [Create an Approval Template for assets and documents](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
       * [Use new document approvals and proofing together](review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md)
+      * [Upload a new document version and request an approval](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/upload-new-doc-version.md)
     * Review and approve assets and documents {#review-and-approve-documents}
       * [Review and approve documents: article index](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-documents-toc.md)
       * [Review a document](review-and-approve-work/document-reviews-and-approvals/review-and-approve-documents/review-a-document.md)
@@ -2217,7 +2230,7 @@ feature-set: Workfront
     * [Activate or deactivate a scenario in Adobe Workfront Fusion](workfront-fusion/scenarios/activate-or-inactivate-scenario.md)
     * [Add a filter to a scenario in Adobe Workfront Fusion](workfront-fusion/scenarios/add-a-filter-to-a-scenario.md)
     * [Debug scenarios with the Adobe Workfront Fusion DevTool](workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md)
-    * [Generate a module using AI](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
+    * [Generate a scenario segment using AI](/help/quicksilver/workfront-fusion/scenarios/add-a-module-with-ai.md)
     * Adobe Workfront Fusion scenario templates {#fusion-scenario-templates}
       * [Scenario Templates](workfront-fusion/scenarios/templates/fusion-templates.md)
       * [[!DNL Fusion] templates overview](/help/quicksilver/workfront-fusion/scenarios/templates/fusion-templates-overview.md)

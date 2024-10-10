@@ -12,6 +12,18 @@ This page describes all administrator enhancements made with the Fourth Quarter 
 
 For a list of all changes available at this point in the Fourth Quarter 2024 release cycle, see [Fourth Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
+## A counter on custom forms shows the number of fields
+
+>[!NOTE]
+>
+>Preview release: October 1, 2024; Production release for all customers: With the 24.10 release (October 17, 2024)
+
+Custom forms are limited to 500 fields. On a long form, it can be difficult to know how many fields are on the form and whether you are approaching the limit.
+
+A counter has been added to custom forms on the bottom left. The counter displays how many fields are used on the form, and it is always visible as you scroll within the form designer.
+
+For more information, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
 ## A "Select all" option is now available in layout templates
 
 >[!NOTE]
@@ -26,7 +38,7 @@ For more information, see [Customize the Details view using a layout template](/
 
 >[!NOTE]
 >
->Preview release: August 29, 2024; Production for fast release: With the 24.9 release (September 12, 2024); Production for quarterly release: With the 24.10 release (October 2024)
+>Preview release: August 29, 2024; Production for fast release: With the 24.9 release (September 12, 2024); Production for quarterly release: With the 24.10 release (October 17, 2024)
 
 To make environment promotion more flexible and easier to use, we've enabled rollback functionality. Now, you can roll back packages within 24 hours, allowing you to more easily restore previous configurations that have been affected by an environment promotion package.
 
@@ -40,9 +52,9 @@ For more information on rolling back an environment promotion package, see [Roll
 
 >[!NOTE]
 >
->Preview release: August 12, 2024; Production for fast release: With the 24.9 release (September 12, 2024); Production for quarterly release: TBD
+>Preview release: ~~August 12, 2024~~; Production for fast release: N/A; Production for quarterly release: N/A
 >
->_This feature is part of a phased release and will be available to a limited number of customers in September. It will remain in the Preview environment for an extended time while we gather feedback._
+>_This feature has been removed from Preview and will not be released with any future releases._
 
 A "Layout" button on the custom form designer allows you to choose from a two- or three-column working area. The original form designer uses three columns and the field settings are displayed in the far right column. If you select two columns, the field settings are displayed next to the field library in the far left column.
 

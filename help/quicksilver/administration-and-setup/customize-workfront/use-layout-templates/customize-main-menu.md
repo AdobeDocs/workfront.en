@@ -45,7 +45,7 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
-   <td><p>Current:Plan</p>
+   <td><p>Current: Plan</p>
    Or
    <p>New: Standard</p></td> 
   </tr> 

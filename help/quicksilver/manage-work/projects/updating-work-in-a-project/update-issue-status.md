@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: update-work-in-a-project
-title: Update issue status
+title: Update Issue Status
 description: You can update the status of an issue to inform others about where the issue is and how it is progressing.
 author: Alina
 feature: Work Management
@@ -15,6 +15,8 @@ You can update the status of an issue to inform others about where the issue is 
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article. 
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -27,9 +29,9 @@ You must have the following access to perform the steps in this article:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>New license: Contributor or higher</p>
+   <td> <p>New: Contributor or higher</p>
    Or
-   <p>Current license: Request or higher</p>
+   <p>Current: Request or higher</p>
    </td> 
   </tr> 
   <tr> 
@@ -43,7 +45,9 @@ You must have the following access to perform the steps in this article:
  </tbody> 
 </table>
 
-*To find out what plan, license type, or access you have, contact your Workfront administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Issue statuses
 
