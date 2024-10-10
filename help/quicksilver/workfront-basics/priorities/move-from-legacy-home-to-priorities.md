@@ -74,7 +74,7 @@ Users can flag high-priority work with the following options:
 
 #### View approvals I've submitted
 
-Users cannot view approvals they've submitted in Priorities. As a workaround, users can create an approval report to view this information. 
+Users cannot view approvals they've submitted in Priorities. As a workaround, users can view this information in the My approvals widget in Home using the Approvals I've Submitted filter option. 
 
 ### View approvals and team requests
 

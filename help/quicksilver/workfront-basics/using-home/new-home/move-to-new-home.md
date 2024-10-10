@@ -45,12 +45,12 @@ Users can still delegate work from New Home in the following widgets:
 * My Work
 * My Tasks
 * My Issues
-* Awaiting My Approvals
+* My Approvals
 
 Users can find work delegated to them in the following widgets:
 
 * My Work widget using the Delegated to me filter
-* Awaiting my Approvals using the Delegated approvals filter
+* My Approvals using the Delegated approvals filter
 
 | **Legacy Home** | **New Home** |
 |------------|-----------|
@@ -66,10 +66,7 @@ Users can no longer create a personal task the exact same way they did in Legacy
 
 #### View approvals I've submitted
 
-Users can't view approvals they have submitted in New Home. If users in your organization need this functionality, you can build an approvals report as a workaround or upvote or post a comment here in the following Community posts:
-
-* [Add "Approvals I Submitted" Widget to New Home](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
-* [Add "Approvals I've Submitted" to the new Home](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
+Users can view approvals they have submitted in New Home in the My approvals widget using the Approvals I've Submitted filter.
 
 #### Add items to My Priority
 
