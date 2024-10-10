@@ -69,6 +69,7 @@ You can fine-tune the My Work filters to focus on specific items in your list of
       <td>Displays items with 
       <ul>
       <li>No incomplete predecessors or task constraints</li>
+      <p>and</p>
       <li>The Planned Start Date is in the past or up to two weeks in the future</li>
       </ul>
       </td>
@@ -78,7 +79,7 @@ You can fine-tune the My Work filters to focus on specific items in your list of
       <td>Displays items that have
        <ul>
       <li>Incomplete predecessors or task constraints that prevent the item from being worked on</li>
-      or
+      <p>or</p>
       <li>The Planned Start Date more than two weeks in the future</li>
       </ul>
        </td>
@@ -122,7 +123,7 @@ You can sort the work list by
 
 >[!TIP]
 >
->To create a list that displays all past-due items at the top of the My Work widget, sort by Due Date and do not apply a group. 
+>To create a list that displays all past-due items at the top of the My Work widget, sort by Due Date and do not apply a grouping. 
 
 
 ![](assets/sort-my-work-widget.png)
@@ -151,7 +152,7 @@ You can open the Summary panel to quickly update information in a task or issue.
 * Add an update
 * Navigate to the Document area to upload a document
 * View work item details and update custom fields
-    Workfront administrators can customize which fields appear in the Summary in the Layout template. For more information, see [Customize Home and Summary using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+    Workfront administrators can customize which fields appear in the Summary in the layout template. For more information, see [Customize Home and Summary using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
 * Change the work item status
 * View subtasks
 * Log time
@@ -165,10 +166,10 @@ For additional information about how to use the Summary panel, see [Summary over
 
 You can use the quick actions menu to 
  
- * Log time
- * Add an Update
- * Update a custom form
- * Upload a file
+* Log time
+* Add an Update
+* Update a custom form
+* Upload a file
 
 To locate the quick actions menu, hover over the work item. The quick actions list displays near the **Work On It** or **Done** button. 
 

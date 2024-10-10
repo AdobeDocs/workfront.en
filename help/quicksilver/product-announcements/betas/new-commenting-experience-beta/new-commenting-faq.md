@@ -26,7 +26,7 @@ We don't plan on bringing back the ability to perform these actions, since those
 
 ## Are there plans to have a combined view of comments and system updates? 
 
-There are currently no plans to provide a combined view. Please provide your feedback and use cases via the in-app Leave feedback button or submit requests in the Workfront Ideas area of the Community so that we can better understand how required the functionality is. 
+There are currently no plans to provide a combined view. Please submit a request with the Support team if needed, so that we can better understand how required the functionality is. 
 
 ## Will you bring back the functionality of undoing a posted comment?
 
@@ -34,11 +34,11 @@ We have replaced the functionality of undoing a posted comment with the ability 
 
 ## Will the functionality of removing thread participants be limited to specific license types? 
 
-There are currently no plans to add permission or access controls for who can use this newly introduced functionality. Please provide your feedback and use cases via the in-app Leave feedback button or submit requests in the Workfront Ideas area of the Community so that we can better understand how important this functionality is. 
+There are currently no plans to add permission or access controls for who can use this newly introduced functionality. Please submit a request with the Support team, if needed, so that we can better understand how important this functionality is. 
 
 ## Is there a way to control who can edit comments? 
 
-There are currently no plans to add permission or access controls over who can edit comments. Please provide your feedback and use cases via the in-app Leave feedback button or submit requests in the Workfront Ideas area of the Community so that we can better understand how important this functionality is.
+There are currently no plans to add permission or access controls over who can edit comments. Please submit a request with the Support team, if needed, so that we can better understand how important this functionality is.
 
 ## Will it be possible to search or filter comments? 
 

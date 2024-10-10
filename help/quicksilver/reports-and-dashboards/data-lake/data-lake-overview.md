@@ -28,3 +28,4 @@ For more information about Data Connect, see the following articles:
 * [Establish a connection to Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/share-data-externally.md)
 * [Workfront Data Connect data dictionary](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md)
 * [Workfront Data Connect query examples](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md)
+* [View Workfront Data Connect usage metrics](/help/quicksilver/reports-and-dashboards/data-lake/view-usage-metrics.md)

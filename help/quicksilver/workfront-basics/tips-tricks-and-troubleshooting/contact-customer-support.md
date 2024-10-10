@@ -46,14 +46,9 @@ You can submit a support ticket from the self-serve [!DNL Experience League] por
 
    From the [!UICONTROL Support] homepage, you can navigate to your open support cases, log a new case, view the top [!UICONTROL Support] articles, or access additional learning sources.
 
-1. To submit a case, select the option **[!UICONTROL Open a support case]**, then click **[!UICONTROL Sign] In**.
+<!--1. To submit a case, select the option **[!UICONTROL Open a support case]**, then click **[!UICONTROL Sign] In**.-->
 
-1. Click **[!UICONTROL Open case]** in the left sidebar.
-
-<!--
-   ![](assets/left-nav-bar-for-exl-support-portal.png)
--->
-
+1. Click **[!UICONTROL Open Ticket]** in the left sidebar.
    The [!UICONTROL case creation] page opens where you can enter your product name ([!DNL Adobe Workfront], [!DNL Adobe Workfront Fusion], etc.), case title, and case description.
 
    >[!TIP]
@@ -81,7 +76,7 @@ If you have any questions or problems submitting a request, call the Customer Su
 
 ## View and manage your support cases
 
-1. Navigate to the **[!UICONTROL My cases]** page. This page opens when you submit a case, or you can open it by clicking **[!UICONTROL My cases]** in the left navigation.
+1. Navigate to the **[!UICONTROL My Cases]** page. This page opens when you submit a case, or you can open it by clicking **[!UICONTROL My Cases]** in the left navigation.
 
 1. (Optional) Use the options at the top of the page to filter by **Product ([!DNL Experience Cloud] solution)** or case **[!UICONTROL Status]** ([!UICONTROL Open] or Cl[!UICONTROL ]osed). You can also use the [!UICONTROL search] box to search for any keywords pertaining to your support cases.
 
@@ -91,9 +86,9 @@ If you have any questions or problems submitting a request, call the Customer Su
 
 1. (Optional) In the case view, review the latest comments with the assigned case owner and add any additional attachments or responses.
 
-1. (Optional) To escalate the case, click **[!UICONTROL Escalate to management]** on the right side of the page under **[!UICONTROL Case Detail].
+1. (Optional) To escalate the case, click **[!UICONTROL Escalate to management]** on the right side of the page under **[!UICONTROL Case Detail]**.
 
-1. Click the **[!UICONTROL Close case]** button to close the case.
+1. (Optional) To close the case, click the **[!UICONTROL Close case]** button.
 
 
 <!--drafted: I took the information above from this blog post by Jon Chen (on September 13, 2022): https://experienceleaguecommunities.adobe.com/t5/workfront-blogs/how-to-submit-a-support-ticket-on-experience-league/ba-p/461737)

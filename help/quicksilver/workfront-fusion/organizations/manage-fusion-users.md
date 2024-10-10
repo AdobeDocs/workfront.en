@@ -29,6 +29,10 @@ exl-id: fbb858a6-1230-41b4-892a-4ffeb2711922
 
 -->
 
+>[!NOTE]
+>
+>If your organization is currently in the process of moving to the Adobe Admin Console, you cannot manage users in Workfront (adding or deleting users.) You can perform these actions in the Adobe Admin Console after your migration is complete.
+
 ## Access requirements
 
 You must have the following access to use the functionality in this article:

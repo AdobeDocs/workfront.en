@@ -104,14 +104,16 @@ You must have the following to be able to access Workfront Planning:
 
 ## Considerations about the Planning section of Workfront objects
 
-* Workfront Planning record types must be connected to Workfront object types. 
+Consider the following when you view Workfront Planning records from the Planning section of a Workfront object: 
+
+* Workfront Planning record types must first be connected to Workfront object types. 
 
    For information, see the following articles:
 
    * [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [Connect records](/help/quicksilver/planning/records/connect-records.md)
-* You can view the Planning section in a Workfront object, even when there are no records associated with the Workfront object.  
-* You can connect Planning records with Workfront objects from Workfront, in the Planning section when there is at least one record connected to the Workfront object.
+* You can view the Planning section from a Workfront object, even when there are no records associated with the Workfront object.  
+* In addition to connecting Workfront objects from the Planning area of Workfront, you can connect Planning records with Workfront objects from Workfront from the Planning section.
 
 ## Manage records in the Planning section
 
@@ -124,13 +126,17 @@ You must have the following to be able to access Workfront Planning:
 1. Click the card of a record type that is connected to a Workfront project, portfolio, or program. 
 1. Go to a connected record field that has a connection with a Workfront object, either in the table view or from a record's details page. For information, see [Connect records](/help/quicksilver/planning/records/connect-records.md). 
 1. Click the name of a Workfront object in the connected record field.
-  The objects's page opens in Workfront.  
+  The object's page opens in Workfront.  
+
+   >[!NOTE]
+   >
+   >  If you know of a Workfront object already connected to a Planning record, you can navigate to the Planning section from the Workfront object.
 
 1. Click **Planning** in the left panel. 
 
       >[!NOTE]
       >
-      >   Your Workfront or group administrator must add the Planning section to your layout template before it displays for a Worfront project, portfolio, or program. 
+      >   Your Workfront or group administrator must add the Planning section to your layout template before it displays for a Workfront project, portfolio, or program. 
 
    The Planning section displays with the following information: 
    
@@ -146,7 +152,7 @@ You must have the following to be able to access Workfront Planning:
 1. Click a record card to display more information about the record. The record preview box displays.
 1. (Optional) Start modifying fields in the record's preview box. Your changes are saved automatically.
 1. (Optional) Click the **Open in a new tab** icon ![](assets/open-details-in-a-new-tab-icon.png) in the upper-right corner of the preview box to open the record's details page. The record's details page opens in Workfront Planning. 
-1. Hover over a record card, then click the disconnect record icon **-**, then click **Disconnect**. 
+1. (Optional) Hover over a record card, then click the disconnect record icon **-**, then click **Disconnect**. 
    The following things occur: 
    * The record is no longer connected to the Workfront object. 
    * The Workfront object is also removed from the record's connected field from Workfront Planning. 

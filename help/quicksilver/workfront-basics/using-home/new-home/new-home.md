@@ -16,3 +16,4 @@ This section contains the following articles:
 * [Add, edit, or remove widgets in New Home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
 * [New Home widget filters overview](/help/quicksilver/workfront-basics/using-home/new-home/widget-filter-overview-new-home.md)
 * [Manage your work with the My Work widget](/help/quicksilver/workfront-basics/using-home/new-home/my-work-widget.md)
+* [Move from Legacy home to New Home](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)

@@ -19,6 +19,11 @@ The following tables lists the functionality available for each object type in t
 
 It also indicates which actions Workfront administrators can disable or enable using an access level.
 
+>[!NOTE]
+>
+>This article describes functionality available to access levels in the current Workfront plan model. To see functionality available in the new plan model, see [Functionality available for each object type for various access levels](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+
+
 ## Projects
 
 | Action                       | Standard | Light  | Contributor | External user |
@@ -33,8 +38,8 @@ It also indicates which actions Workfront administrators can disable or enable u
 | Update custom fields         | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Add an approval process      | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Approve a project            | ✓        | ✓      | &nbsp;      | &nbsp;        |
-| Add document                 | ✓        | ✓      | &nbsp;      | &nbsp;        |
-| Add issue                    | ✓        | ✓      | &nbsp;      | &nbsp;        |
+| Add document                 | ✓        | ✓      | ✓      | &nbsp;        |
+| Add issue                    | ✓        | ✓      | ✓      | &nbsp;        |
 | Add tasks                    | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Give updates/comments        | ✓        | ✓      | ✓      | &nbsp;        |
 | Change status                | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
@@ -379,3 +384,4 @@ Only users with a Standard license can have full access to resource management. 
 | View the Check-in area in the left panel |&nbsp; |✓ |
 | View the Settings area in the left panel |✓ |✓  |
 | Print a list of goals |✓ |✓  |
+

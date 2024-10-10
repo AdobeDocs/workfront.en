@@ -6,7 +6,6 @@ title: Workfront Data Connect data dictionary
 description: This page contains information about the structure and content of the data in Workfront Data Connect.
 author: Nolan
 feature: Reports and Dashboards
-recommendations: noDisplay, noCatalog
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
 ---
 # Workfront Data Connect data dictionary

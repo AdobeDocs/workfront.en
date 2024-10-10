@@ -79,9 +79,9 @@ To add a new version:
 
 1. (Optional) Set a deadline for the approval. Users and teams are notified by email 72 hours, then 24 hours before the specified deadline.
 
-1. To add an approver, click the Approver button and and begin typing in a user or team name.
+1. To add an approver, click the Approver button and and begin typing in a user or team name,<span class="preview"> or choose an approver from the previous version.</span>
 
-1. To add a reviewer, click the Reviewer button and begin typing in a user or team name.
+1. To add a reviewer, click the Reviewer button and begin typing in a user or team name, <span class="preview">or choose a reviewer from the previous version. </span>
 
     ![](assets/add-approvers.png)
  

@@ -11,7 +11,14 @@ hidefromtoc: yes
 ---
 # Working with large files in Adobe Workfront Fusion
 
-Large file support is currently available for the Workfront and HTTP connectors.
+Some Fusion connectors can support file sized over the 1 GB limit.
+
+## Connectors that support large files
+
+Large file support is currently available for the following connectors:
+
+* Workfront
+* HTTP
 
 ## Large file size effect on scenario execution time
 

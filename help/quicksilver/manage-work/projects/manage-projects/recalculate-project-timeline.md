@@ -80,7 +80,7 @@ However, you must have the following access to manually recalculate the timeline
 
 ## Automatic recalculation
 
-By default, project timelines are automatically recalculated daily when the project scope changes or every night. The Workfront administrator determines whether to automatically calculate timelines every night or with every scope change by managing the Timelines settings in the Project&nbsp;Preferences area of Setup. For more information, see [Configure timeline recalculations for projects](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+By default, project timelines are automatically recalculated daily when the project scope changes or every night. The Workfront administrator determines whether to automatically calculate timelines every night or with every scope change by managing the Timelines settings in the Project Preferences area of Setup. For more information, see [Configure timeline recalculations for projects](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
 >[!NOTE]
 >
@@ -89,12 +89,17 @@ By default, project timelines are automatically recalculated daily when the proj
 * [Automatic recalculation of project timelines](#automatic-recalculation-of-project-timelines) 
 * [Actions that trigger an automatic recalculation of project timelines](#actions-that-trigger-an-automatic-recalculation-of-project-timelines)
 
+
+>[!IMPORTANT]
+>
+>For the Preview and Custom Refresh Sandbox environments, the nightly recalculation is disabled, and the project timelines are not recalculated automatically. You must manually recalculate the project timeline for the Preview and the Custom Refresh Sandbox environments. 
+
 ### Automatic recalculation of project timelines {#automatic-recalculation-of-project-timelines}
 
 Adobe Workfront recalculates timelines daily only for projects where all of the following conditions are met:
 
 * Have a status of Current
-* Update Type of the project is set to Automatic or Automatic and On&nbsp;Change
+* Update Type of the project is set to Automatic or Automatic and On Change
 
   For information about the type of project Update Type, see [Project Update Type overview](../../../manage-work/projects/planning-a-project/project-update-type-overview.md).
 
