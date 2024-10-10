@@ -177,7 +177,7 @@ The following are the main Workfront Planning objects and concepts:
     
     For more information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md). 
 
-* **Record Type**: The object type or Workfront Planning.  
+* **Record Type**: The object type of Workfront Planning.  
     
     Unlike Workfront, where the object types are predefined, in Workfront Planning, you can create your own object types.  
     
@@ -193,7 +193,7 @@ The following are the main Workfront Planning objects and concepts:
        
     After adding a record type to a workspace, you can start adding records of that type on the record type's page. 
 
-    For example, "Campaign" can be a record type and "Summer Campaign for EMEA" is a record of the Campaign record type
+    For example, "Campaign" can be a record type and "Summer Campaign for EMEA" is a record of the Campaign record type.
         
     For more information, see [Create records](/help/quicksilver/planning/records/create-records.md).
 

@@ -139,7 +139,6 @@ To customize New Home using a layout template:
 
    If you are finished customizing, click **Save** in the bottom-left corner.
 
-
->[!NOTE]
+>[!IMPORTANT]
 >
->Administrators customizing their own Layout Template will need to refresh the page in order to see changes.
+>You must refresh the new Home page to see customizations from the Layout Template. 
