@@ -1,4 +1,4 @@
-  ---
+---
 title: Create OAuth2 Applications for [!DNL Workfront] Integrations
 user-type: administrator
 product-area: system-administration;workfront-integrations
@@ -176,9 +176,9 @@ For instructions on configuring and using the OAuth2 application with user crede
 >
 >If you are creating an application to connect to Workfront Fusion, use one of the following redirect URLs:
 >
->* https://app.workfrontfusion.com/oauth/cb/workfront-workfront 
->* https://app-eu.workfrontfusion.com/oauth/cb/workfront-workfront (EU Data center)
->* https://app-az.workfrontfusion.com/oauth/cb/workfront-workfront (Azure Data Center)
+>* `https://app.workfrontfusion.com/oauth/cb/workfront-workfront` 
+>* `https://app-eu.workfrontfusion.com/oauth/cb/workfront-workfront` (EU Data center)
+>* `https://app-az.workfrontfusion.com/oauth/cb/workfront-workfront` (Azure Data Center)
 
 {{step-1-to-setup}}
 
