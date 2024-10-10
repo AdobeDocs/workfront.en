@@ -9,9 +9,13 @@ exl-id: 809605a0-8c24-4873-b98f-504a158be022
 ---
 # Use the [!UICONTROL My Updates] area
 
+>[!IMPORTANT]
+>
+>This functionality was removed with the Legacy Home deprecation on 10/17/2014.
+
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: there is a similar article like this in the "My Work" folder that is conditioned for Classic only)</p>
--->
+
 
 You can use the [!UICONTROL My Updates] area to quickly review the approvals waiting for your decision or the conversations you have been included in.
 
@@ -156,3 +160,5 @@ You must have the following before you begin:
 
       ![](assets/reply-in-the-my-updates-area.png)
 1. (Optional) Click **[!UICONTROL Pin current page]** to pin the [!UICONTROL My Updates] area to your top navigation.
+
+-->

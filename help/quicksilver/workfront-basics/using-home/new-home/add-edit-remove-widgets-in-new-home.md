@@ -1,14 +1,14 @@
 ---
 product-area: home
 navigation-topic: new-home
-title: Add, edit, or remove widgets in New Home
-description: You can choose from a number of widgets to customize the content that appears on your Home page. These widgets can be resized and arranged on your Home page.
-author: Nolan
+title: Add, edit, or remove widgets in Home
+description: You can choose from a number of widgets to customize the content that appears on your Home page. These widgets can be resized and rearranged.
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
 ---
 
-# Add, edit, or remove widgets in New Home
+# Add, edit, or remove widgets in Home
 
 You can choose from a number of widgets to customize the content that appears on your Home page. These widgets can be resized and rearranged.
 

@@ -9,6 +9,11 @@ exl-id: 8647df70-c9cc-47fb-a7f7-a83d0fd061b4
 ---
 # Prioritize work in the [!UICONTROL Home] area
 
+>[!IMPORTANT]
+>
+>This functionality was removed with the Legacy Home deprecation on 10/17/2014.
+
+
 You can prioritize items from your [!UICONTROL Work List] in [!UICONTROL Home]. Items you add to [!UICONTROL My Priority] are priorities for you only. They are not prioritized for anyone else, and no one can prioritize them for you. You can add up to 20 items under the [!UICONTROL My Priority] [!UICONTROL Sort By] option.
 
 ## Access requirements

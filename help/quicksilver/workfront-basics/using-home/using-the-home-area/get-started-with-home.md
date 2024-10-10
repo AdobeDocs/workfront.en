@@ -2,12 +2,12 @@
 content-type: overview
 navigation-topic: use-the-home-area
 title: Get started with [!UICONTROL Home]
-description: The [!UICONTROL Home] area is your one-stop shop to find tasks, issues, and approvals assigned to you. There are two ways to view your work in the [!UICONTROL Home] area, either from the [!UICONTROL Work List] or the [!UICONTROL Calendar].
+description: Home helps you manage your work. You can customize this flexible space to highlight the work that is most important to you and streamline your task, issue, request, and approval management.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
 ---
-# Get started with the Home
+# Get started with Home
 
 <!--Audited: 12/2023-->
 
@@ -17,11 +17,11 @@ exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
 
 Home helps you manage your work. You can customize this flexible space to highlight the work that is most important to you and streamline your task, issue, request, and approval management.
 
-## Customize the Home
+## Customize Home
 
-The new Home is designed to be highly customizable, allowing you to select the widgets that track your most important work, filter the scope of that work based on when it's due, and even add a splash of color.
+Home is designed to be highly customizable, allowing you to select the widgets that track your most important work, filter the scope of that work based on when it's due, and even add a splash of color.
 
-### Widgets
+## Add Widgets
 
 Widgets are the foundation of the new Home. By adding widgets to your Home page, you can choose the type of information that displays to best meet your work needs. Some widgets are only available to specific license types, as the objects they track are only available to those licenses. 
 
