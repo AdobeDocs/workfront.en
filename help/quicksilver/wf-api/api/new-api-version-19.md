@@ -150,7 +150,7 @@ A Classifier is a location.
       <td>Added the following actions:
         <ul>
           <li>
-            <p><b>activateClassifiers</b><p</p>
+            <p><b>activateClassifiers</b></p>
           </li>
           <li>
             <p><b>deactivateClassifiers</b><p></p>
