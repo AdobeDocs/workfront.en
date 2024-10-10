@@ -30,8 +30,8 @@ This page provides information about functionality that is included in the Fourt
 
 * [Administrator enhancements](#administrator-enhancements)
 * [Document management enhancements](#document-management-enhancements)
-* [Integration enhancements](#integration-enhancements)
 * [Home enhancements](#home-enhancements)
+* [Integration enhancements](#integration-enhancements)
 * [Project enhancements](#project-enhancements)
 * [Proofing enhancements](#proofing-enhancements)
 * [Report and Dashboard enhancements](#report-and-dashboard-enhancements)
@@ -158,6 +158,23 @@ This page provides information about functionality that is included in the Fourt
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
                             <li>
+                                <p><s>Preview release: October 3, 2024</s></p>
+                            </li>
+                            <li>
+                                <p>Production release for all customers: With the 24.10 release (October 17, 2024)</p>
+                            </li>
+                            <p><i>This feature has been temporarily removed from Preview.</i></p>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">Quickly add previous reviewers and approvers to new document versions</a></p>
+                        <p>You can now quickly add reviewers and approvers from previous document versions.</p>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
                                 <p>Preview release: October 3, 2024</p>
                             </li>
                             <li>
@@ -166,10 +183,56 @@ This page provides information about functionality that is included in the Fourt
                         </ul>
                     </td>
                 </tr>
+           </tbody>
+</table>
+
+### Home enhancements
+
+<table>
+        <col style="width: 50%;" />
+        <col style="width: 50%;" />
+            <tbody>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-document-mgmt-enhancements.md">Quickly add previous reviewers and approvers to new document versions</a></p>
-                        <p>You can now quickly add reviewers and approvers from previous document versions.</p>
+                        <p><span class="bold">Feature</span>
+                        </p>
+                    </td>
+                    <td>
+                        <p><span class="bold">Release dates</span>
+                        </p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">Updates to the Awaiting my approval widget in new Home</a></p>
+                        [!BADGE In production ]{type=Informative}
+                        <p>We've made the following Changes to the Awaiting my approval widget:</p>
+                            <ul>
+                                <li>Renamed the widget: The name of this widget is now My approvals.</li>
+                                <li>Added Approvals I've Submitted as a filter option: You can now view approvals you have submitted in new Home with this widget.</li>
+                            </ul>
+                    </td>
+                    <td><p><b>Available on these dates:</b></p>
+                        <ul>
+                            <li>
+                                <p>Preview release: October 10, 2024</p>
+                            </li>
+                            <li>
+                                <p><span class="preview">Production release for all customers: October 10, 2024</span></p>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">Introducing Priorities: a simpler, streamlined, and intuitive Workfront experience for task owners</a></p>
+                        <p>Priorities enhances focus and productivity to help customers accomplish more in less time.</p>
+                        <p>With Priorities, you can enjoy:</p>
+                            <ul>
+                                <li>Manage and prioritize daily tasks: Organize your day or week with consolidated navigation for better clarity.</li>
+                                <li>Greater productivity: Access project context and perform tasks quicker with fewer clicks.</li>
+                                <li>Personalized features: Benefit from features uniquely designed for task owners.</li>
+                            </ul>
                     </td>
                     <td><p><b>Available on these dates:</b></p>
                         <ul>
@@ -220,48 +283,6 @@ This page provides information about functionality that is included in the Fourt
                 </tr>
            </tbody>
 </table>
-
-### Home enhancements
-
-<table>
-        <col style="width: 50%;" />
-        <col style="width: 50%;" />
-            <tbody>
-                <tr>
-                    <td>
-                        <p><span class="bold">Feature</span>
-                        </p>
-                    </td>
-                    <td>
-                        <p><span class="bold">Release dates</span>
-                        </p>
-                    </td>
-                </tr>
-                <tr>
-                    <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-home-enhancements.md">Introducing Priorities: a simpler, streamlined, and intuitive Workfront experience for task owners</a></p>
-                        <p>Priorities enhances focus and productivity to help customers accomplish more in less time.</p>
-                        <p>With Priorities, you can enjoy:</p>
-                        <ul>
-                        <li>Manage and prioritize daily tasks: Organize your day or week with consolidated navigation for better clarity</li>
-                        <li>Greater productivity: Access project context and perform tasks quicker with fewer clicks</li>
-                        <li>Personalized features: Benefit from features uniquely designed for task owners</li>
-                        </ul>
-                    </td>
-                    <td><p><b>Available on these dates:</b></p>
-                        <ul>
-                            <li>
-                                <p>Preview release: October 3, 2024</p>
-                            </li>
-                            <li>
-                                <p>Production release for all customers: With the 24.10 release (October 17, 2024)</p>
-                            </li>
-                        </ul>
-                    </td>
-                </tr>
-           </tbody>
-</table>
-
 
 ### Project enhancements
 
@@ -536,11 +557,11 @@ There are no Workfront Proof updates at this point in the release. This area wil
 
 There are no Workfront Goals updates at this point in the release. This area will be updated when updates are available.
 
-### API version 18
+### API version 19
 
-For API version 18, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
+For API version 19, we've modified some resources and endpoints. Some of the changes support new functionality, and others make it easier for you to use the information available through the API.
 
-For information on what's new and updated, see [What's new in API version 18](/help/quicksilver/wf-api/api/new-api-version-18.md).
+For information on what's new and updated, see [What's new in API version 19](/help/quicksilver/wf-api/api/new-api-version-19.md).
 
 For information on API versions, see [API versioning and support schedule](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
