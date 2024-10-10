@@ -107,7 +107,7 @@ You must have the following access to perform the steps in this article:
 
 1. (Conditional) From the new Home area, do the following:
 
-   1. Go to the **Awaiting my approval** widget and find the request for more access, then click **Grant access**. 
+   1. Go to the **My approval** widget and find the request for more access, then click **Grant access**. 
 
       ![](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
 

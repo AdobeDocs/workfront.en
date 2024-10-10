@@ -80,7 +80,7 @@ Users cannot view approvals they've submitted in Priorities. As a workaround, us
 
 Users cannot interact with approvals and team requests in Priorities. However, they can manage approval and team requests in New Home using the following widgets:
 
-* Awaiting my approval
+* My approval
 * All approvals
 * Team requests 
 

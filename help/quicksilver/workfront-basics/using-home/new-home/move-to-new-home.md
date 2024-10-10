@@ -125,7 +125,7 @@ To locate the quick actions menu, hover over the work item. The quick actions li
 
 Users can still manage approvals and team requests in New Home using the following widgets:
 
-* Awaiting my approval
+* My approval
 * All approvals
 * Team requests 
 
@@ -161,7 +161,7 @@ Below are the 11 widgets currently available to choose from, as well as a summar
 * **Team requests**\
     Displays all pending requests for teams that you are on sorted by team, as well as buttons to directly assign a request to a user or to work on it yourself.
 
-* **Awaiting my approval**\
+* **My approval**\
     Displays all of your pending assigned or delegated approvals, a button to delegate approvals, and buttons to make approval decisions directly within the widget.
 
 * **All approvals**\
@@ -196,15 +196,15 @@ By default, the Home page is populated with a few specific widgets based on your
     </tr>
     <tr>
         <td>Light</td>
-        <td>My Work, Awaiting My Approval</td>
+        <td>My Work, My approval</td>
     </tr>
     <tr>
         <td>Contributor</td>
-        <td>My Requests, Mentions, Awaiting My Approval, Boards</td>
+        <td>My Requests, Mentions, My approval, Boards</td>
     </tr>
     <tr>
         <td>External</td>
-        <td>Awaiting My Approval</td>
+        <td>My approval</td>
     </tr>
 </table>
 
@@ -227,7 +227,7 @@ By default, the Home page is populated with a few specific widgets based on your
     </tr>
     <tr>
         <td>Request</td>
-        <td>My Projects, Awaiting My Approval</td>
+        <td>My Projects, My approval</td>
     </tr>
     <tr>
         <td>Contribute</td>
@@ -235,7 +235,7 @@ By default, the Home page is populated with a few specific widgets based on your
     </tr>
     <tr>
         <td>External</td>
-        <td>Awaiting My Approval</td>
+        <td>My approval</td>
     </tr>
 </table>
 

@@ -116,7 +116,7 @@ Reviewers and approvers can be added to a single-use approval workflow or a reus
 Users can access the Frame.io viewer in the following ways:
 
 * Workfront email notifications
-* The Awaiting my approval widget in the new Workfront Home area
+* The My approval widget in the new Workfront Home area
     ![](assets/awaiting-my-approval.png)
 
 >[!NOTE]
