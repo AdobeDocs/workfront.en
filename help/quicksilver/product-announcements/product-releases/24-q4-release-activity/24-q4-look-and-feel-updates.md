@@ -16,26 +16,29 @@ For a list of all changes available with the Fourth Quarter 2024 release, see [F
 
 >[!NOTE]
 >
->Preview release: September 26, 2024; Production release for all customers: With the 24.10 release (October 17, 2024)
+>Preview release: October 15; Production release for all customers: With the 24.10 release (October 17, 2024)
 
 We have made a variety of updates to the dashboards interface to match the design of other areas of Workfront, including improvements to the print preview screen when printing a dashboard.
 
 For more information about dashboards, see [Create and manage dashboards](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md). For more information about calendars, see [Calendar reports overview](/help/quicksilver/reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
-<!--
-
 ## Look and feel updates for reports
 
 >[!NOTE]
 >
->Preview release: September 19, 2024; Production release for all customers: With the 24.10 release (October 17, 2024)
+>Preview release: Starting September 12, 2024; Production release for all customers: Varied, all updates will be available by November 8, 2024
 
-We have made a variety of updates to the reports interface to match the design of other areas of Workfront, including:
+We have made a variety of updates to the reports interface to match the design of other areas of Workfront. These updates include some additional changes to various reporting features, including:
 
-* changes to existing reports that improve their use in Canvas Dashboards
-* an expanded color palette for conditional formatting rules in reports
+* A new button to enter text mode when editing a report column
+* Small changes to the function of relative date wildcards and wildcard shortcuts
+* Conditional rules no longer require clicking a "Done" button to be created
+* An expanded color palette for conditional formatting rules in reports
+* Changes to existing reports that improve their use in Canvas Dashboards
 
-For more information about -->
+These updates are being implemented individually in preview and production starting September 12, 2024. All updates will be completely implemented in production for all customer by November 8, 2024.
+
+For more information about reporting in Workfront, see [Get started with reports](/help/quicksilver/reports-and-dashboards/reports/reporting/get-started-reports-workfront.md).
 
 ## Look-and-feel-updates for System Preferences page
 
