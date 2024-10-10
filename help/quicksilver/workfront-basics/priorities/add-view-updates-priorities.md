@@ -1,7 +1,7 @@
 ---
 navigation-topic: get-started-with-workfront
 title: Add and view comments in Priorities
-description: Priorities is a streamlined, intuitive experience tailored for task owners. 
+description: You can add an update on a task or issue to communicate to others about progress on the work item. 
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
