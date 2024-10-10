@@ -20,8 +20,6 @@ For a list of all changes available with the Fourth Quarter 2024 release, see [F
 
 We have made a variety of updates to the dashboards interface to match the design of other areas of Workfront, including improvements to the print preview screen when printing a dashboard.
 
-As a consequence of these changes, calendars can no longer be placed into dashboards. Existing calendars on dashboards will instead display a link to the calendar.
-
 For more information about dashboards, see [Create and manage dashboards](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md). For more information about calendars, see [Calendar reports overview](/help/quicksilver/reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
 
 <!--
