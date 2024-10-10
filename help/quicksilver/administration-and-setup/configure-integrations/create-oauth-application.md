@@ -1,4 +1,4 @@
----
+  ---
 title: Create OAuth2 Applications for [!DNL Workfront] Integrations
 user-type: administrator
 product-area: system-administration;workfront-integrations
@@ -171,6 +171,14 @@ When creating an OAuth2 application, choose the type of application that best me
 For instructions on configuring and using the OAuth2 application with user credentials (authorization code flow), see [Configure and use your organization's custom OAuth 2 applications using JWT flow](../../wf-api/api/oauth-app-jwt-flow.md).
 
 ### Create an OAuth2 application using user credentials (Authorization code flow) {#create-an-oauth2-application-using-user-credentials-authorization-code-flow}
+
+>[!NOTE]
+>
+>If you are creating an application to connect to Workfront Fusion, use one of the following redirect URLs:
+>
+>* https://app.workfrontfusion.com/oauth/cb/workfront-workfront 
+>* https://app-eu.workfrontfusion.com/oauth/cb/workfront-workfront (EU Data center)
+>* https://app-az.workfrontfusion.com/oauth/cb/workfront-workfront (Azure Data Center)
 
 {{step-1-to-setup}}
 
