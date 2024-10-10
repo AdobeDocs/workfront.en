@@ -69,8 +69,12 @@ The following objects have an Updates section where you can add comments or revi
 * Timesheets
 * Teams
 * Goals
-* Cards in the Boards area
 * Iterations
+
+The following objects have areas where you can add comments and review system updates: 
+
+* Cards on boards
+* Records in Workfront Planning
 
 <!--info for April 11: remove all the information below, all the way down to the following section: -->
 
@@ -114,20 +118,23 @@ Depending on what objects you access the commenting experience for, you might fi
 
 <!--Info for April 11: reword the section title below to: Overview of the Updates section; and remove the preview tags-->
 
-### Overview of the Updates section 
+### Updates section tabs overview  
 
 ![Updates section](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
-* The Updates section displays information in the following tabs:
+The Updates section displays information in the following tabs:
 
-  * **Comments**: Displays comments made by users and replies to those comments. Use the Comments tab to add new comments or reply to existing ones. For information about updating objects, see [Update work](../updating-work-items-and-viewing-updates/update-work.md).
-  * **System Activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, changes in status, name, or custom fields are captured with system updates. Your Workfront or group administrator can enable system updates for your objects. Any replies that were made to system activity records in the legacy commenting experience are populated on the System Activity tab as read-only. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-  * **All (read-only)**: Displays both user comments and system activity comments in one place. This is a view-only tab. You cannot reply to comments or tag other users in existing comments in the All tab. To reply to a specific comment, use the link from the All tab to the Comments tab. For information about updating objects, see [Update work](../updating-work-items-and-viewing-updates/update-work.md).
+* **Comments**: Displays comments made by users and replies to those comments. Use the Comments tab to add new comments or reply to existing ones. For information about updating objects, see [Update work](../updating-work-items-and-viewing-updates/update-work.md).
+* **System activity**: Displays system updates which are informational messages that Workfront creates to record certain events on an objects. For example, changes in status, name, or custom fields are captured with system updates. Your Workfront or group administrator can enable system updates for your objects. Any replies that were made to system activity records in the legacy commenting experience are populated on the System activity tab as read-only. For more information, see [Configure system updates](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* **All (read-only)**: Displays both user comments and system activity comments in one place. This is a view-only tab. You cannot reply to comments or tag other users in existing comments in the All tab. To reply to a specific comment, use the link from the All tab to the Comments tab. For information about updating objects, see [Update work](../updating-work-items-and-viewing-updates/update-work.md).
 
     >[!NOTE]
     >
-    >The Comments and System Activity tabs update in real-time. You must refresh the All tab to view the most recent updates. 
+    >The Comments and System activity tabs update in real-time. You must refresh the All tab to view the most recent updates. 
 
+### Similarities and differences between the Updates areas of different objects
+
+There are differences between how comments and updates display for different objects. 
 
 * The following objects have similar experiences in all three tabs in the Updates section:
 
@@ -139,19 +146,32 @@ Depending on what objects you access the commenting experience for, you might fi
   * Users
   * Timesheets
 
-* The following objects don't have a System Activity tab or an All tab, and the experience in the Comments tab matches that of all other objects:
+* The following objects don't have a System activity tab or an All tab, and the experience in the Comments tab matches that of all other objects:
 
   * Team
   * Template
   * Template Task
 
-* The following objects don't have a System Activity tab or an All tab, and the experience in the Comments tab differs from that of all other objects:
+* The following objects don't have a System activity tab or an All tab, and the experience in the Comments tab differs from that of all other objects:
+
   * Iterations
-  * Ad-hoc Card
+  * Ad-hoc cards in the Boards area
 
     For more information about updates on cards, see [Add an ad hoc card to a board](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
-* The following objects don't have an All tab, and the experience in the Comments tab matches that of most objects:
+* The following objects have a System activity tab and they don't have an All tab:
+
+  * Connected cards in the Boards area
+
+    For information, see [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md). 
+
+* The following objects have a History tab that replaces the System activity tab:
+
+  * Records in Workfront Planning
+
+    For information, see [History section overview](/help/quicksilver/planning/records/history-section-overview.md).
+
+* The following objects don't have an All tab, and the experience in the Comments tab matches that of most objects: 
 
   * Goals
 

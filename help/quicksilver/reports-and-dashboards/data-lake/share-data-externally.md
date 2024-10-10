@@ -2,11 +2,10 @@
 content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Establish a connection to Workfront data lake
-description: Workfront data lake allows you to use your organization's Workfront data with popular business intelligence tools or store it in an external data warehouse.
+title: Establish a connection to Workfront Data Connect
+description: Workfront Data Connect allows you to use your organization's Workfront data with business intelligence tools or store it in an external data warehouse.
 author: Nolan
 feature: Reports and Dashboards
-recommendations: noDisplay, noCatalog
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
 ---
 # Establish a connection to Workfront Data Connect
@@ -97,16 +96,16 @@ For more detail about the information in this table, see [Access requirements in
 
 ## Share data with Business intelligence tools
 
-A number of common business intelligence tools are listed below; the links will take you to the service's documentation site to learn more about connecting to your data lake.
+A number of common business intelligence tools are listed below; visit their documentation sites to learn more about connecting to your data lake.
 
-* [Tableau](https://help.tableau.com/current/pro/desktop/en-us/basicconnectoverview.htm)
-* [Power BI](https://learn.microsoft.com/power-query/connectors/snowflake)
-* [Domo](https://www.domo.com/appstore/connector/snowflake-connector/overview)
+* Tableau
+* Power BI
+* Domo
 * SAP HANA
 
 ## Store data in an external data warehouse
 
-A number of common data warehouses are listed below; the links will take you to each service's documentation site where you can learn more about connecting to your data lake.
+A number of common data warehouses are listed below; visit their documentation sites to learn more about connecting to your data lake.
 
-* [Databricks](https://docs.databricks.com/en/connect/index.html)
-* [AWS Redshift](https://docs.aws.amazon.com/redshift/latest/gsg/federated-query.html)
+* Databricks
+* AWS Redshift
