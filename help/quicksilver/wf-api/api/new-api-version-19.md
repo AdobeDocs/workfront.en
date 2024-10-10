@@ -378,7 +378,7 @@ A Parameter object is a custom field.
             </ul>
           </li>
           <li>
-            <p><b>displayType</b></p><p>Added the following possible values:
+            <p><b>displayType</b></p><p>To create a more user-friendly and flexible system, the <b>Widget (WIDGET)</b> field type has been deprecated, and split into the following field types:
             <ul>
             <li>Adobe XD (ADOBEXD)</li>
             <li>Image (IMAGE)</li>
@@ -438,7 +438,7 @@ A ScoreCardQuestion object represents a question that has been added to a Scorec
     <tr>
       <td role="rowheader">Direct fields</td>
       <td>
-            <p><b>displayType</b></p><p>Added the following possible values:
+            <p><b>displayType</b></p><p>To create a more user-friendly and flexible system, the <b>Widget (WIDGET)</b> field type has been deprecated, and split into the following field types:
             <ul>
             <li>Adobe XD (ADOBEXD)</li>
             <li>Image (IMAGE)</li>
