@@ -30,20 +30,20 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront plan</p> </td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td>Any</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td>
-   <p>To send a message from the user's home page, you must have:
-   <p>New: Light or higher</p>
-   <p>or</p>
-   <p>Current: Review or higher</p>
-   <p>To send a message from the User list, you must have:</p>
-   <p>New: Standard</p>
-   <p>or</p>
-   <p>Current: Work or higher</p></td>
+   <p>To send a message from the user's home page, you must have:<br>
+   New: Light or higher<br>
+   or<br>
+   Current: Review or higher</p>
+   <p>To send a message from the User list, you must have:<br>
+   New: Standard<br>
+   or<br>
+   Current: Work or higher</p></td>
   </tr> 
  </tbody> 
 </table>
@@ -71,15 +71,15 @@ For more detail about the information in this table, see [Access requirements in
 1. Click **[!UICONTROL Update].** 
    The message is posted at the top of the list of messages on the **[!UICONTROL Updates]** tab on the user's home page.
 
-## Send a message to one or more users from the User list.
+## Send a message to one or more users from the User list
 
-This option is only available if you have a Standard license.
+This option is only available if you have a Standard, Plan, or Work license.
 
 {{step-1-to-users}}
 
 1. Select the user or users you want to send a message to, and click [!UICONTROL **Send Update to User**].
 1. Type your message in the [!UICONTROL Send update to user] window.
-1. (Optional) TAG PEOPLE
+1. (Optional) Search for any additional users you want to tag on the message. You do not need to tag the users you already selected in the user list.
 1. (Optional) Select **[!UICONTROL Private to my company]** to make this message visible only to other users in your company.
 1. Click [!UICONTROL **Send**].
-   The message is posted at the top of the list of messages on the **[!UICONTROL Updates]** tab on the user's home page.
+   The message is posted at the top of the list of messages on the **[!UICONTROL Updates]** tab on each user's home page.
