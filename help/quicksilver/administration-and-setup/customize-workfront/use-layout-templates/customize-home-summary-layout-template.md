@@ -1,19 +1,18 @@
 ---
-title: Customize Home and Summary Using a Layout Template
+title: Customize the Summary Panel Using a Layout Template
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: You can use a Layout Template to configure what users see when they click a task or issue in Home and in the Summary. Each configuration you make using the steps below affects the Home area and the Summary panel in the same way. These customizations don't apply to the Document Summary panel.
+description: You can use a Layout Template to configure what users see when they click a task or issue in the Summary. Each configuration you make using the steps below affects the the Summary panel. These customizations don't apply to the Document Summary panel.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
 ---
-# Customize Home and Summary using a layout template
+# Customize the Summary panel using a layout template
 
-<span class="preview">This article will be renamed to "Customize the Summary panel using a layout template" when Legacy Home is removed from Workfront with the Q4 release on October 17. 2024.</span>
 
-You can use a Layout Template to configure what users see when they click a task or issue in Home and in the Summary. Each configuration you make using the steps below affects the Home area and the Summary panel in the same way. These customizations don't apply to the Document Summary panel.
+You can use a Layout Template to configure what users see when they click a task or issue in the Summary. Each configuration you make using the steps below affects the the Summary panel. These customizations don't apply to the Document Summary panel.
 
 You can configure:
 
@@ -22,7 +21,7 @@ You can configure:
 
 You can also customize the fields that users see in the Home area when users click a project approval, document approval, or document version approval that is assigned to them.
 
-For information about the Home area, see [Use the Home area](../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md). For information about the Summary panel, see [Summary overview](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+For information about the Summary panel, see [Summary overview](../../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 For information about creating layout templates, see [Create and manage layout templates](../use-layout-templates/create-and-manage-layout-templates.md). 
 
@@ -62,11 +61,11 @@ To perform them for a group, you must be a manager of that group.</p> </td>
 
 +++
 
-## Customize Home and Summary using a layout template
+## Customize the Summary panel using a layout template
 
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-1. Click the down arrow ![](assets/dropdown-arrow.png) under **Customize what users see**, then click **Home and Summary**.
+1. Click the down arrow ![](assets/dropdown-arrow.png) under **Customize what users see**, then click **Summary panel**.
 
 1. In the list on the left, click the object type (**Tasks**, **Issues**, **Projects**, **Documents**, or **Document Versions**) that you want to customize in Home and Summary.
 
@@ -76,13 +75,13 @@ To perform them for a group, you must be a manager of that group.</p> </td>
     <tbody> 
      <tr> 
       <td role="rowheader">Tasks</td> 
-      <td> <p>In Home, your configuration for this setting affects the area to the right of a task when a user clicks the task. And, in a list of tasks, it affects the Summary panel that displays on the right side of the page when a user selects a task, then clicks the Open Summary icon <img src="assets/summary-panel-icon.png">.</p> <p>For example, you can determine which fields users see in the Details area when users select tasks in Home:</p> <p><img src="assets/home-details-adobe branding.jpg"></p> <p>And when they select a task in the Summary:</p> <p> <img src="assets/summary-details.jpg"> </p> </td> 
+      <td><p> <img src="assets/summary-details.jpg"> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Issues</td> 
-      <td> <p>In Home, your configuration for this setting affects the area to the right of an issue when a user clicks the issue.</p> <p>In a list of issues, this setting affects the Summary panel that displays on the right side of the page when a user selects an issue, then clicks the Open Summary icon <img src="assets/summary-panel-icon.png">.</p> </td> 
+      <td><p>In a list of issues, this setting affects the Summary panel that displays on the right side of the page when a user selects an issue, then clicks the Open Summary icon <img src="assets/summary-panel-icon.png">.</p> </td> 
      </tr> 
-     <tr> 
+     <!--<tr> 
       <td role="rowheader">Projects</td> 
       <td>In Home, when a user clicks a project approval assigned to them, your configuration for this setting affects the area to the right of the approval.</td> 
      </tr> 
@@ -93,7 +92,7 @@ To perform them for a group, you must be a manager of that group.</p> </td>
      <tr> 
       <td role="rowheader">Document Versions</td> 
       <td>In Home, when a user clicks an approval assigned to them for a particular version of a document, your configuration for this setting affects the area to the right of the approval.</td> 
-     </tr> 
+     </tr> -->
     </tbody> 
    </table>
 
@@ -113,7 +112,7 @@ To perform them for a group, you must be a manager of that group.</p> </td>
 
    ![](assets/lt-home-add-hide-fields-adobe-branding.png)
 
-1. Repeat steps 3-6 to customize Home area and the Summary panel for any other object types.
+1. Repeat steps 3-6 to customize the Summary panel for any other object types.
 1. Click **Global settings**, near the lower left corner, then enable or disable any of the following options related to Adobe Workfront objects in Home and Summary:
 
    <table style="table-layout:auto"> 
