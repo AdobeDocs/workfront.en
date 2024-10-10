@@ -50,8 +50,8 @@ Below are the 11 widgets currently available to choose from, as well as a summar
 * **Team requests**\
     Displays all pending requests for teams that you are on sorted by team, as well as buttons to directly assign a request to a user or to work on it yourself.
 
-* **Awaiting my approval**\
-    Displays all of your pending assigned or delegated approvals, a button to delegate approvals, and buttons to make approval decisions directly within the widget.
+* **My approval**\
+    Displays all of your pending, assigned, delegated, and submitted approvals; a button to delegate approvals; and buttons to make approval decisions directly within the widget.
 
 * **All approvals**\
         Displays 2 charts with information about average approval time and decisions as well as list views of pending and overdue approvals. <span style="color: #ff0000;">This feature is part of a phased release and is currently only available for specific customers.</span>
@@ -79,15 +79,15 @@ By default, the Home page is populated with a few specific widgets based on your
     </tr>
     <tr>
         <td>Light</td>
-        <td>My Work, Awaiting My Approval</td>
+        <td>My Work, My approval</td>
     </tr>
     <tr>
         <td>Contributor</td>
-        <td>My Requests, Mentions, Awaiting My Approval, Boards</td>
+        <td>My Requests, Mentions, My approval, Boards</td>
     </tr>
     <tr>
         <td>External</td>
-        <td>Awaiting My Approval</td>
+        <td>My approval</td>
     </tr>
 </table>
 
@@ -110,7 +110,7 @@ By default, the Home page is populated with a few specific widgets based on your
     </tr>
     <tr>
         <td>Request</td>
-        <td>My Projects, Awaiting My Approval</td>
+        <td>My Projects, My approval</td>
     </tr>
     <tr>
         <td>Contribute</td>
@@ -118,7 +118,7 @@ By default, the Home page is populated with a few specific widgets based on your
     </tr>
     <tr>
         <td>External</td>
-        <td>Awaiting My Approval</td>
+        <td>My approval</td>
     </tr>
 </table>
 
