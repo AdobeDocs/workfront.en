@@ -159,18 +159,7 @@ You must have the following to be able to access Workfront Planning:
    >   The field type of each field displays at the top of the right panel, after you select the field on the form. 
    >   
    >
-   >   The table below displays the names of the field types in the table view and the names of the same fields in the record type's request form. The formats of each field match between the table view and the request form. 
-   >
-   >   | Workfront Planning field type | Request form field type |
-   >   |-------------------------------|-------------------------|
-   >   | Single-line text              | Single-line text        |
-   >   | Paragraph                     | Paragraph   |
-   >   | Currency, Number, Percentage  | Single-line text (the formats of these fields remains currency, number, and percentage)       |
-   >   | Single-select                 | Single-select  |
-   >   | Multi-select                  | Multi-select   |
-   >   | Checkbox                      | Checkbox        |
-   >   | Date                          | Date            |
-   >
+   >   Currency, Number, and Percentage fields display as a Single-line text field type. However, the field format is preserved and the values inside these fields will display as Currency, Number, and Percentage values.
 
 1. (Optional) Click the **Content elements** tab on the left side of the form, and add any of the following elements:
 
