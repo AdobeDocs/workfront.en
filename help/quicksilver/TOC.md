@@ -892,6 +892,7 @@ feature-set: Workfront
       * [Move from Legacy home to Priorities](workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
       * [Get started with Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
       * [Display items in the Work List in the Home area](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
+      * [Home widget filters overview](workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)
       * [Prioritize work in the Home area](workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
       * [Manage work and team requests in the Home area](workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
       * [Update or edit a work item in the Home area](workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)

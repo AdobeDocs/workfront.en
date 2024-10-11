@@ -105,7 +105,7 @@ You can fine-tune the My Work filters to focus on specific items in your list of
 
 >[!TIP]
 >
->If you are looking for more specific filtering options, you can use the My Task or My Issue widgets. For more information on My Task and My Issue filters, see [New Home widget filters overview](/help/quicksilver/workfront-basics/using-home/new-home/widget-filter-overview-new-home.md).
+>If you are looking for more specific filtering options, you can use the My Task or My Issue widgets. For more information on My Task and My Issue filters, see [Home widget filters overview](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md).
 
 ## Organize your work
 

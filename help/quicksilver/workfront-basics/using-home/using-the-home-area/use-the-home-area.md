@@ -17,6 +17,7 @@ This section contains the following articles:
 * [Move from Legacy home to Priorities](/help/quicksilver/workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
 * [Use the [!UICONTROL My Updates] area](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md)
 * [Display items in the [!UICONTROL Work List] in the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
+* [Home widget filters overview](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)
 * [Prioritize work in the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
 * [Manage work and team requests in the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
 * [Update or edit a work item in the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)

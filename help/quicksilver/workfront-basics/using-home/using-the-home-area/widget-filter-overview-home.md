@@ -1,20 +1,20 @@
 ---
 product-area: home
 navigation-topic: new-home
-title: New Home widget filters overview
+title: Home widget filters overview
 description: You can choose from a number of widgets to customize the content that appears on your Home page. These widgets can be resized and arranged on your Home page.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
 ---
-# New Home widget filters overview
+# Home widget filters overview
 
 You can use filters on the following widgets to find and organize work:
 
 * [My Projects](#my-projects)
 * [My Tasks](#my-tasks)
 * [My Issues](#my-issues)
-* [My Work]
+* [My Work](#my-work)
 
 ## My Projects
 
