@@ -180,7 +180,7 @@ To locate the quick actions menu, hover over the work item. The quick actions li
 
 Approvals and team requests do not display in the My Work widget. If you regularly work with approvals and team requests, we recommend you add the following widgets to your New Home page:
 
-* Awaiting my approval
+* My approval
 * All approvals
 * Team requests 
 

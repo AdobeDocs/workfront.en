@@ -56,6 +56,7 @@ Some rows contain information labeled "New" and "Current." This is because Workf
    <li>Workfront Fusion</li>
    <li>Workfront Goals</li>
    <li>Workfront Scenario Planner</li>
+   <li>Workfront Planning</li>
    </ul>
    <p>To find out if your organization has purchased one of these additional products, contact your Workfront administrator.</p></td> 
   </tr> 
