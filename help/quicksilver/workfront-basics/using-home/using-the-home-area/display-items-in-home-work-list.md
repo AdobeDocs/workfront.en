@@ -114,7 +114,7 @@ You can filter items in the [!UICONTROL Work List] to see only specific types of
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Personal</strong></td> 
-      <td>Displays only personal tasks. These are tasks that you create as a [!UICONTROL To Do] task, as described in the section <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task">Create a personal task</a> in the article <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md">Create work items from the [!UICONTROL Home] area</a>.</td> 
+      <td>Displays only personal tasks. These are tasks that you create as a [!UICONTROL To Do] task, as described in the section <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task">Create a personal task</a> in the article <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md">Create work items and projects from the [!UICONTROL Home] area</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>[!UICONTROL Approvals]</strong></td> 

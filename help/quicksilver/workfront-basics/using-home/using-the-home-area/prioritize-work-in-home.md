@@ -13,6 +13,8 @@ exl-id: 8647df70-c9cc-47fb-a7f7-a83d0fd061b4
 >
 >This functionality was removed with the Legacy Home deprecation on 10/17/2014.
 
+<!--You can prioritize your work in the new Priorities area. See []().
+
 
 You can prioritize items from your [!UICONTROL Work List] in [!UICONTROL Home]. Items you add to [!UICONTROL My Priority] are priorities for you only. They are not prioritized for anyone else, and no one can prioritize them for you. You can add up to 20 items under the [!UICONTROL My Priority] [!UICONTROL Sort By] option.
 
@@ -88,3 +90,4 @@ You can remove items from [!UICONTROL My Priority] by completing the work item o
 1. In the left panel, click the **[!UICONTROL More]** icon, then select **[!UICONTROL Remove from My Priority]**.
 
    ![[!UICONTROL Remove from [!UICONTROL My Priority]]](assets/getting-started-remove-from-priority-nwe-350x395.png)
+-->

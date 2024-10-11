@@ -20,7 +20,7 @@ This section contains the following articles:
 * [Prioritize work in the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
 * [Manage work and team requests in the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
 * [Update or edit a work item in the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
-* [Create work items from the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
+* [Create work items and projects from the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
 * [Log time on a work item from the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
 * [Mark an item as [!UICONTROL Done] in the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
 * [[!UICONTROL Home Calendar] view](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md)
