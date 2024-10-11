@@ -25,7 +25,7 @@ Home is designed to be highly customizable, allowing you to select the widgets t
 
 Widgets are the foundation of the new Home. By adding widgets to your Home page, you can choose the type of information that displays to best meet your work needs. Some widgets are only available to specific license types, as the objects they track are only available to those licenses. 
 
-For information on adding, moving, resizing, or deleting widgets, see [Add, edit, or remove widgets in New Home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+For information on adding, moving, resizing, or deleting widgets, see [Add, edit, or remove widgets in Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
 ### Background customization
 

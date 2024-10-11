@@ -184,7 +184,7 @@ Approvals and team requests do not display in the My Work widget. If you regular
 * All approvals
 * Team requests 
 
-For information about adding widgets to your New Home page, see [Add, edit, or remove widgets in New Home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+For information about adding widgets to your New Home page, see [Add, edit, or remove widgets in Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
 
 

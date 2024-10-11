@@ -129,7 +129,7 @@ Users can still manage approvals and team requests in New Home using the followi
 * All approvals
 * Team requests 
 
-For information about adding widgets to your New Home page, see [Add, edit, or remove widgets in New Home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+For information about adding widgets to your New Home page, see [Add, edit, or remove widgets in Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
 ## Learn about available widgets
 
@@ -261,7 +261,7 @@ Doing this as soon as possible will then give your users time to adjust to the n
 
 **Help articles**
 
-* [Manage your work with the My Work widget](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
+* [Manage your work with the My Work widget](/help/quicksilver/workfront-basics/using-home/using-the-home-area/my-work-widget.md.md)
 
 **Training**
 

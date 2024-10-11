@@ -14,13 +14,6 @@ exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
 
 The [!UICONTROL Work List] in the [!UICONTROL Home] area displays all work items that are assigned to you. You can control which items display in your [!UICONTROL Work List], by using filters and by grouping and sorting your work items.
 
->[!NOTE]
->
->* When converting an issue to a task or a project, the issue is removed from the the Home area of the user assigned to the issue.
->
->* When converting a task to a project, the task is deleted and it is removed from the Home area of the user assigned to the task.
-
-
 ## Access requirements
 
  +++ Expand to view access requirements for the functionality in this article.
@@ -57,7 +50,7 @@ For more detail about the information in this table, see [Access requirements in
 
 +++
 
-## Filter the [!UICONTROL Work List]
+## Filter your work
 
 You can filter items in the [!UICONTROL Work List] to see only specific types of items. For example, you can filter the [!UICONTROL Work List] to display only issues or requests.
 
@@ -69,90 +62,6 @@ You can filter items in the [!UICONTROL Work List] to see only specific types of
 1. Click the **[!UICONTROL Filter]** ![](assets/filter-nwepng.png) drop-down menu. If you have any filters selected, the number of selected filters shows in place of the icon.
 1. Select from the following filter options to specify the type of items you want to display:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader"><strong>[!UICONTROL All]</strong></td> 
-      <td>Displays and selects all items. This includes tasks, issues, approvals, personal tasks, and completed tasks and issues. </td>
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Tasks: Working On]</strong></td> 
-      <td> <p>Displays only tasks that you are actively working on. These are tasks assigned to you for which you have clicked the [!UICONTROL Work On It] button.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Tasks: Ready to Start]</strong></td> 
-      <td> 
-       <div> 
-        <p>Displays only tasks that are ready for you to start. Both of the following statements must be true:</p> 
-        <ul> 
-         <li> <p>The tasks and their parents have no predecessors or task constraints preventing them from being worked on.</p> </li> 
-         <li> <p>All predecessor tasks have been completed.</p> </li> 
-         <li> <p>The [!UICONTROL Planned Start Date] of the tasks is in the past or up to two weeks in the future.</p> </li> 
-        </ul> 
-       </div> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Tasks: Not Ready]</strong></td> 
-      <td> 
-       <div> 
-        <p>Displays only tasks that are not yet ready to start. Either one of the following statements must be true:</p> 
-        <ul> 
-         <li> <p>The tasks and their parents might have predecessors or task constraints that prevent them from being worked on.</p> </li> 
-         <li> <p>The tasks have a [!UICONTROL Planned Start Date] that is more than two weeks in the future.</p> </li> 
-        </ul> 
-       </div> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Issues: Working On]</strong></td> 
-      <td> <p>Displays only issues that you are actively working on. These are issues assigned to you for which you have clicked the [!UICONTROL Work On It] button.</p> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Issues: Requested]</strong></td> 
-      <td>Displays only issues that you are assigned to but for which you have not clicked the [!UICONTROL Work On It] button.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>Personal</strong></td> 
-      <td>Displays only personal tasks. These are tasks that you create as a [!UICONTROL To Do] task, as described in the section <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task">Create a personal task</a> in the article <a href="../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md">Create work items and projects from the [!UICONTROL Home] area</a>.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Approvals]</strong></td> 
-      <td> 
-       <div> 
-        <p>Displays only approvals assigned or delegated to you and approvals you have submitted. Approvals include approvals on work items (projects, tasks, and issues), and approvals for documents, proofs, requests for access, and timesheets. For more information about approvals, see the following articles:</p> 
-        <ul> 
-         <li><a href="../../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">View approvals</a> </li> 
-        </ul> 
-        <ul> 
-         <li> <p><a href="../../../review-and-approve-work/manage-approvals/manage-approvals.md" class="MCXref xref">Work approvals</a> </p> </li> 
-        </ul> 
-        <p>Note: Approvals that you submitted and where you are also one of the approvers are counted twice.</p> 
-       </div> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Delegated: Delegated by me]</strong></td> 
-      <td> 
-       <div> 
-        <p>Displays only work items that you have delegated to another user.</p> 
-        <p>For more information about delegating tasks, see <a href="/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md#delegate-tasks-and-issues-to-another-user" class="MCXref xref">Delegate tasks and issues to another user</a>.
-       </div> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Delegated: Delegated to me]</strong></td> 
-      <td> 
-       <div> 
-        <p>Displays only work items that have been temporarily delegated to you by another user.</p> 
-       </div> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Completed]</strong></td> 
-      <td> <p>Displays only completed tasks, issues, and personal tasks. Completed work displays for the previous two weeks and it is grouped in the Work List according to the week in which they were completed. Approvals are not included.</p> <p>Completed work is hidden in the [!UICONTROL Work List] unless you select this filter.</p> </td> 
-     </tr> 
-    </tbody> 
-   </table>
-
-   ![](assets/displaying-work-items-filters-nwe-350x401.png)
 
    >[!TIP]
    >
@@ -178,50 +87,6 @@ You can group and sort the [!UICONTROL Work List] by [!UICONTROL Planned Complet
 
 1. Select from the following options:
 
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Planned Completion]</strong></td> 
-      <td> <p> Items display in the following groupings in the [!UICONTROL Work List], depending on their [!UICONTROL Planned Completion Date] (the number of items contained within each grouping displays in parenthesis next to the heading title):</p> 
-       <ul> 
-        <li> <p>[!UICONTROL Late]</p> </li> 
-        <li> <p>[!UICONTROL No Planned Completion Date]</p> </li> 
-        <li> <p>[!UICONTROL This Week]</p> <p>This grouping is expanded by default.</p> </li> 
-        <li> <p>[!UICONTROL Next Week]</p> </li> 
-        <li> <p>[!UICONTROL Planned], followed by various [!UICONTROL Planned Completion Dates] (multiple groupings)</p> </li> 
-        <li> <p>[!UICONTROL Complete]</p> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Planned Start]</strong></td> 
-      <td> <p>Items display in the following groupings in the [!UICONTROL Work List], depending on their [!UICONTROL Planned Start Date] (the number of items contained within each grouping displays in parenthesis next to the heading title):</p> 
-       <ul> 
-        <li> <p>[!UICONTROL Late]</p> </li> 
-        <li> <p>[!UICONTROL This Week] </p> <p>This grouping is expanded by default.</p> </li> 
-        <li> <p>[!UICONTROL Next Week]</p> </li> 
-        <li> <p>[!UICONTROL Planned], followed by various [!UICONTROL Planned Start Dates] (multiple groupings)</p> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Commit Date]</strong></td> 
-      <td> <p>Items display in the following groupings in the [!UICONTROL Work List] (the number of items contained within each grouping displays in parenthesis next to the heading title):</p> 
-       <ul> 
-        <li> <p>[!UICONTROL No Commit Date]</p> </li> 
-        <li> <p>[!UICONTROL Committed Next Week]</p> </li> 
-       </ul> </td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>[!UICONTROL Project]</strong></td> 
-      <td>Items are grouped according to project, and projects appear alphabetically in the [!UICONTROL Work List]. (The number of items contained within each grouping displays in parenthesis next to the heading title.)</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader"><strong>[!UICONTROL My Priority]</strong></td> 
-      <td>Items display in an order you choose. For more information, see <a href="../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md" class="MCXref xref">Prioritize work in the [!UICONTROL Home] area</a>.</td> 
-     </tr> 
-    </tbody> 
-   </table>
 
 >[!NOTE]
 >
@@ -255,12 +120,6 @@ To search the [!UICONTROL Work List]:
 1. Begin typing the name of the item name you are searching for.\
    The [!UICONTROL Work List] is automatically filtered as to include items with a matching name.
 
-## Change the size of the Work List
-
-You can change the size of the [!UICONTROL Work List] so that it consumes anywhere between about a quarter of the Home area to about half of the [!UICONTROL Home] area.
-
-1. Click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, or (if available), click the **[!UICONTROL Main Menu]** icon ![Main Menu](/help/_includes/assets/main-menu-icon-left-nav.png) in the upper-left corner, then click **[!UICONTROL Home]**.
-1. Mouse over the right edge of the [!UICONTROL Work List], then drag left or right until the Work List is the desired size.
 
 ## Collapse and expand groupings
 

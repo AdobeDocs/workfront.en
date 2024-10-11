@@ -172,7 +172,7 @@ The ability to review and approve assets is on the Priorities roadmap.
 
 For now, we recommend using the Awaiting My Approval and All Approvals widgets in New Home. 
 
-For more information, see [Add, edit, or remove widgets in New Home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
+For more information, see [Add, edit, or remove widgets in Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
 
 ## Use Catch me up to see what you missed [!BADGE Coming soon]{type=Informative}
