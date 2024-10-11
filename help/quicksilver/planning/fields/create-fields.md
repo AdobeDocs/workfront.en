@@ -271,8 +271,8 @@ You can use a multi-select field to capture additional information in any format
 1. Add the following information in the **New field** tab:
      * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
-     * **Choices**: The options  available to select from the drop-down menu after the field is saved. You can have both numbers and letters for the name of each choice. 
-1. Click **Add choice** to add as many choices as needed. There is no limit to how many choices you can add to a multi-select field.
+     * **Choices**: The options that users can select when updating this field. You can use both numbers and letters for the name of each choice. 
+1. Click **Add choice** to add more choices. There is no limit to how many choices you can add to a multi-select field.
 1. (Optional) Manually drag and drop each choice in the desired order, or select the 
 **Sort choices A-Z** option if you want the choices to be automatically listed in alphabetical order. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Optional) To remove a choice, click the **x** icon to the right of it.
@@ -295,7 +295,7 @@ Single-select fields capture additional information in any format by selecting o
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table.
      * **Choices**: The options  available to select from the drop-down menu after the field is saved. You can have both numbers and letters for the name of each choice. 
      
-1. Click **Add choice** to add as many choices as needed. There is no limit to how many choices you can add to a single-select field.     
+1. Click **Add choice** to add more choices. There is no limit to how many choices you can add to a single-select field.     
 1. (Optional) Manually drag and drop each choice in the desired order, or select the **Sort choices A-Z** option if you want the choices to be automatically listed in alphabetical order. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
 1. (Optional) To remove a choice, click the **x** icon to the right of it.
 1. Click the color swatch to the left of a choice to expand the color selector and customize the color of each option. 
@@ -345,7 +345,7 @@ Number field types capture information in a number format.
 
     * **Name**: The name of the field type, as it will appear in a table or the record page. 
     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table. 
-    * **Precision**: The number of decimal places that you want to record for the field. You can display up to 6 decimals.
+    * **Precision**: The number of decimal places that you want to record for the field. You can display up to 6 decimal places.
     * **Allow negative numbers**: Select this option if you want to allow negative numbers in this field. This option is unselected by default. 
     
     >[!NOTE]
@@ -367,7 +367,7 @@ Percentage field types capture information in a number format followed by a perc
 1. Add the following information in the **New field** tab:
      * **Name**: The name of the field type, as it will appear in a table or the record page. 
      * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table. 
-    * **Precision**: The number of decimal places that you want to record for the field. You can display up to 6 decimals.
+    * **Precision**: The number of decimal places that you want to record for the field. You can display up to 6 decimal places.
     * **Allow negative numbers**: Select this option if you want to allow negative percentage values in this field. This option is unselected by default. 
 
     >[!NOTE]
@@ -444,7 +444,10 @@ For more information, see [Formula fields overview](/help/quicksilver/planning/f
     >
     >* You cannot add Multi-select type fields in a formula.
     >
-    >* You can reference a field that is up to 4 levels away from the current record type. For example, if you are creating a formula field for an Activity record type, and the Activity is connected to the Product record type which is connected to the Campaign record type which is connected to a Workfront Project, you can reference the project's Budget in the formula you are creating for the Activity record type. 
+    >* You can reference a field that is up to 4 fields (and objects) away from the current record type. For example, if you are creating a formula field for an Activity record type (1), and the Activity is connected to the Campaign record type (2) which is connected to a Workfront Project (3), you can reference the project's Budget field (4) in the formula you are creating for the Activity record type. 
+    >
+    >![](assets/formula-example-project-budget-four-fields-removed.png)
+    >
 
 1. In the **Format** field, select from the following choices to identify the format of the result displayed in the formula-type field:
 
@@ -598,7 +601,7 @@ You can use the Last modified date field type to add the date when a record was 
 
 You can create linked record fields when you add a new connection between two record types, or a record type and an object types from other applications. 
         
-For information about connecting Workfront Planning record types, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md)
+For information about connecting Workfront Planning record types, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
 
 <!--## Create fields by importing record types using an Excel or CSV file
 

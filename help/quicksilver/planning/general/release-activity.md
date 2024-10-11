@@ -16,7 +16,7 @@ exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
 >
 ><span class="preview">This article lists the features that were released during the early phase for Workfront Planning, in 2024, prior to the general availability release on August 28, 2024.</span>
 >
->The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
+>The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
 >
 >You must purchase a Workfront Planning plan, in addition to a Workfront plan to be able to access and use Workfront Planning capabilities. 
 >

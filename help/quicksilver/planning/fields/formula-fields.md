@@ -169,7 +169,7 @@ OLD:
 
 ## Supported formulas
 
-Adobe Workfront Planning formula fields support all expressions from the Workfront calculated fields. For more information, see [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Adobe Workfront Planning formula fields support all expressions from the Workfront calculated fields. For a list of Workfront expressions, see [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 In addition, we support the following expressions for Workfront Planning formula fields:
 
