@@ -15,6 +15,44 @@ You can customize the columns on the worklist in Priorities to support the way y
 >
 >You cannot add custom data to columns at this time.
 
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article:
+
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td> 
+   <p>Current: Reviewer or higher</p>
+   <p>New: Light or higher</p> 
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Access level configurations</strong></td> 
+   <td> <p>View or Edit access for the object the update is on</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
+   <td> <p>View access to the object</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 ## Enable or disable columns 
 
 {{step1-to-priorities}}

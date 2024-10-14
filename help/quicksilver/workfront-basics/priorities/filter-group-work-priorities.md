@@ -1,7 +1,7 @@
 ---
 navigation-topic: get-started-with-workfront
 title: Filter and group your work with Priorities
-description: Priorities is a streamlined, intuitive experience tailored for task owners. 
+description: You can use filters to find work you and looking for and then apply a grouping to keep it organized. 
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
@@ -9,13 +9,55 @@ recommendations: noDisplay, noCatalog
 
 # Filter and group your work with Priorities
 
+You can use filters to find work you and looking for and then apply a grouping to keep it organized. 
+
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to perform the steps in this article:
+
+<table style="table-layout:auto"> 
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront plan</strong></td> 
+   <td> <p>Any</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
+   <td> 
+   <p>Current: Reviewer or higher</p>
+   <p>New: Light or higher</p> 
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Access level configurations</strong></td> 
+   <td> <p>View or Edit access for the object the update is on</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><strong>Object permissions</strong></td> 
+   <td> <p>View access to the object</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 ## Filter your work
 
 You can filter tasks and issues assigned to you.
 
-1. Navigate to Priorities from the main menu or home side rail. 
-1. On the Table tab, locate Filters at the top of the worklist.
+{{step1-to-priorities}}
+
+1. Click **Filters** in the top right of the worklist.
 1. Select one or many filters to narrow down your work items.
+  ![](assets/filters.png)
 
 +++Expand to see detailed information about available filters
 <table>
@@ -78,19 +120,42 @@ You can filter tasks and issues assigned to you.
 
 1. (Optional) Click **Back to default** to reset your selection.
 
-### Group your work
+## Group your work
 
-1. Navigate to Priorities from the main menu or home side rail. 
-1. On the Table tab, locate Group at the top of the worklist.
-1. Select one or many filters to narrow down your work items.
-You can group items based on
+{{step1-to-priorities}}
 
-* None
-* Week due
-* Status
-* Project
+1. Click **Groups** in the top right of the worklist.
+1. Select a group to organize your work list
+  ![](assets/groups.png)
 
-### Sort your work
+  +++Expand to see detailed information about available groups
+
+| Group     | Description |
+|-----------|-------------|
+| None      |   This removes groupings from the worklist.          |
+| My Focus  |   This groups items based on the focus level you assign.          |
+| Week due  |   This groups items based on the week they are due. Due dates are determined by the Planned Completion Date.           |
+| Status    |   This groups items by the following statuses:  New, In progress, Complete. <br>Note: You can't use custom statuses in Priorities at this time.          |
+| Project   |   This groups items by project.          |
+
++++
+
+## Sort your work
+
+To sort your work, open **Group** and click **Sort ascending** or **Sort descending** .
+
+![](assets/expand-sort-groups.png)
+
+>[!IMPORTANT]
+>
+>The sort option is temporarily unavailable if you have a group applied. 
+
+
 
 ## Expand or collapse all sections
+
+To expand or collapse all sections, open **Group** and click **Expand all** or **Collapse all**.
+
+![](assets/expand-sort-groups.png)
+
 
