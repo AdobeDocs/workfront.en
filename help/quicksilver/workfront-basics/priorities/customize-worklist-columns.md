@@ -28,7 +28,7 @@ You can customize the columns on the worklist in Priorities to support the way y
 {{step1-to-priorities}}
 
 1. Click **Columns** on the right side of the screen.
-1. Click the Drag icon and move the column to your desired location. This updates in the worklist automatically. 
+1. Click the Drag icon and move the column to your desired location. Moving columns updates in the worklist automatically.
     ![](assets/reorder-columns.png)
 
 ## Reset Column widths
