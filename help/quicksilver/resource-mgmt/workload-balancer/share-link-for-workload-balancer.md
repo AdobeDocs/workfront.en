@@ -97,7 +97,7 @@ The user who receives the shared link cannot do the following in the Workload Ba
 You need the following access to view information in the Workload Balancer from a shared link:
 
 * A valid Adobe Workfront license and you must be logged in to Workfront. 
-* At least&nbsp;View access to Resource Management in your Access Level. For information about granting Resource Management access, see [Grant access to Resource Management](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md). 
+* At least View access to Resource Management in your Access Level. For information about granting Resource Management access, see [Grant access to Resource Management](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md). 
 * View permissions to the projects, tasks, issues, and users displayed in the Workload Balancer.
 
 ## Share the Workload Balancer with other users from a link
@@ -126,8 +126,8 @@ You need the following access to view information in the Workload Balancer from 
    * Paste it into an e-mail, chat message, or any other application and share that with other users. 
    * Add it to a custom section as an external page, add the custom section to a user's profile, or to a Layout Template, then share the Layout Template with users, teams, job roles, or groups.
 
-     For information about creating an&nbsp;External Page, see [Embed an external web page in a dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). For information about adding custom sections to a Layout Template, see [Customize the left panel using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+     For information about creating an External Page, see [Embed an external web page in a dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md). For information about adding custom sections to a Layout Template, see [Customize the left panel using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
      >[!IMPORTANT]
      >
-     >When you add the Workload Balancer to the custom section of an object, the information in the Workload Balancer is not filtered by the object.&nbsp;The Workload Balancer displays the information filtered by the originally applied filters.
+     >When you add the Workload Balancer to the custom section of an object, the information in the Workload Balancer is not filtered by the object. The Workload Balancer displays the information filtered by the originally applied filters.
