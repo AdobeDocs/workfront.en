@@ -24,13 +24,13 @@ The Comments summary can be accessed directly from the following areas:
 
 ### The Proof Viewer {#the-proof-viewer}
 
-You can print the proof's Comments summary, including the thumbnails or full-view image of the proof, by clicking on the **[!UICONTROL Print]** icon in the Proof Viewer. (1)
+You can print the proof's Comments summary, including the thumbnails or full-view image of the proof, by clicking on the **[!UICONTROL Print]** icon in the Proof Viewer.
 
 ![PV_print_all_comm.png](assets/pv-print-all-comm-350x158.png)
 
 ### The Proof Details Page {#the-proof-details-page}
 
-You can print the proof's Comment summary by clicking on the **[!UICONTROL Print]** icon on the Proof details page. (2)
+You can print the proof's Comment summary by clicking on the **[!UICONTROL Print]** icon on the Proof details page.
 
 ![proof_details_page.png](assets/proof-details-page-350x231.png)
 
@@ -40,17 +40,18 @@ You can print the proof's Comment summary by clicking on the **[!UICONTROL Print
 
 To access the [!UICONTROL Comments Summary] page from a list view:
 
-1. Click on the **[!UICONTROL Actions]** menu. (3)
-1. Select **[!UICONTROL Print comments]**. (4)
+1. Click on the **[!UICONTROL Actions]** menu.
+1. Select **[!UICONTROL Print comments]**.
 
-![List_view.png](assets/list-view-350x155.png)\
-On the Comments summary page you have the following print options to choose from:
+   ![List_view.png](assets/list-view-350x155.png)
 
-* Thumbnail view (1)
-* Full page view (2)
-* Print the page (3)
-* Export the proof with comments to a PDF file (4)
-* Export the proof comments to an [!DNL Excel] file (5)
+   On the Comments summary page you have the following print options to choose from:
+
+   * Thumbnail view (1)
+   * Full page view (2)
+   * Print the page (3)
+   * Export the proof with comments to a PDF file (4)
+   * Export the proof comments to an [!DNL Excel] file (5)
 
 ![PV_thumb_full_option_callouts.png](assets/pv-thumb-full-option-callouts-350x154.png)
 
@@ -83,7 +84,8 @@ To download the [!DNL Excel] summary:
 To download the [!DNL Excel] summary from the Proof details page:
 
 1. Click the Export to **[!DNL Excel]** icon. (2)
-1. ![Export_to_excel.png](assets/export-to-excel-350x185.png)
+
+   ![Export_to_excel.png](assets/export-to-excel-350x185.png)
 
 ## Exporting to PDF
 
