@@ -30,8 +30,8 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> 
-   <p>Current: Reviewer or higher</p>
-   <p>New: Light or higher</p> 
+   <p>Current: Request or higher</p>
+   <p>New: Contributor or higher</p> 
    </td> 
   </tr> 
   <tr> 

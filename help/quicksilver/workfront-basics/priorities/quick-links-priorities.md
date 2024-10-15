@@ -9,7 +9,9 @@ recommendations: noDisplay, noCatalog
 
 # Add and manage quick links in Priorities
 
-You save links you visit often in a task or issue in Priorities. 
+You can save links you visit often in a task or issue and access from the Overview tab in Priorities. 
+
+## Access requirements
 
 +++ Expand to view access requirements for the functionality in this article.
 
@@ -28,8 +30,8 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> 
-   <p>Current: Reviewer or higher</p>
-   <p>New: Light or higher</p> 
+   <p>Current: Request or higher for issues; Work or higher for tasks</p>
+   <p>New: Contributor or higher or issues; Light or higher for tasks</p> 
    </td> 
   </tr> 
   <tr> 
