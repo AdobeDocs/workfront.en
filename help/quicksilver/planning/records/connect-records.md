@@ -50,7 +50,7 @@ You can connect the following:
 
 +++ Expand to view access requirements for Workfront Planning. 
 
-You must have the following to be able to access Workfront Planning:  
+You must have the following access to perform the steps in this article:  
 
  <table style="table-layout:auto"> 
 <col> 
@@ -64,7 +64,12 @@ You must have the following to be able to access Workfront Planning:
    <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+   <li><p> Adobe Workfront Planning<p></li>
+   <li><p>Adobe Experience Manager Assets, if you want to connect AEM assets with Planning records<p>
+   <p>You must have an Adobe Experience Manager Assets license and an integration between AEM Assets and Workfront.
+    For information, see <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials: article index</a>. </p>
+   </li>  
+   </ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
