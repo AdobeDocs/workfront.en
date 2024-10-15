@@ -236,9 +236,11 @@ When this option is enabled, any asset that has been pushed to Adobe Experience 
 
 ## Set up workflows (Optional)
 
-A workflow is a set of actions that connect Workfront to Adobe Experience Manager as a Cloud Service. As a Workfront administrator, you can configure workflows in Workfront, then assign them to Project Templates. When a Project is created using a Project Template to which a workflow is assigned, the actions defined in the workflow are triggered. 
+A workflow is a set of actions that connect Workfront to Adobe Experience Manager as a Cloud Service. As a Workfront administrator, you can configure workflows in Workfront, then assign them to Project Templates. 
 
-Workflows are enabled and configured for the Adobe Experience Manager as a whole. These workflows can then be applied to project templates, and adjusted or customized at the template or project level.
+When a Project is created using a Project Template to which a workflow is assigned, the actions defined in the workflow are triggered. 
+
+Workflows are enabled and configured for the Adobe Experience Manager as a whole. These workflows can then be applied to project templates. They can be adjusted or customized at the template level, or at the project level when a project is created from that template.
 
 The followings workflows are available in the Adobe Experience Manager integration:
 
