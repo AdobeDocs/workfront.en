@@ -11,6 +11,19 @@ This page describes all Home enhancements made with the Fourth Quarter 2024 rele
 
 For a list of all changes available at this point in the Fourth Quarter 2024 release cycle, see [Fourth Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
+## Updates to the Awaiting my approval widget in new Home
+
+>[!NOTE]
+>
+>Preview release: October 10, 2024; Production release for all customers: October 10, 2024.
+
+We've made the following Changes to the Awaiting my approval widget:
+
+* **Renamed the widget**: The name of this widget is now My approvals.
+* **Added Approvals I've Submitted as a filter option**: You can now view approvals you have submitted in new Home with this widget.
+
+For more information, see [Get started with new Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+
 ## Simplify the Workfront experience for task owners with Priorities
 
 >[!NOTE]

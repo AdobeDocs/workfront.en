@@ -26,13 +26,13 @@ For more information on the widgets available in New Home, see [Get started with
 
 ## New Contributor default landing page: New Home
 
-New Home is now the default landing page for Contributor/Requestor accounts. This new default home page includes a number of widgets specifically selected to best enable Contributors to manage their work right away. Upon their first visit to the page, Contributors will also be instructed on using New Home and the specific widgets available by default in a customized walkthrough. These default widgets for Contributors are: My Requests, Mentions, Awaiting My Approval, and Boards. Note that if a layout with a custom home page is currently being used by a contributor account, it will remain their home page.
+New Home is now the default landing page for Contributor/Requestor accounts. This new default home page includes a number of widgets specifically selected to best enable Contributors to manage their work right away. Upon their first visit to the page, Contributors will also be instructed on using New Home and the specific widgets available by default in a customized walkthrough. These default widgets for Contributors are: My Requests, Mentions, My approval, and Boards. Note that if a layout with a custom home page is currently being used by a contributor account, it will remain their home page.
 
 For more information on using New Home, see [Get started with New Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 ## Changes to work tracking in New Home
 
-Based on user feedback, we have removed the page-wide time range filter and summary bar that tallied tasks due and completed. Project, Task, and Issue widgets each have built-in filtering features allowing you to customize their scope on an individual basis. Additionally, these widgets will now only include content that is currently active based on status, ensuring the work they track is always relevant. We've also limited which widgets display item-count bubbles to those where it is most useful: My Work, Mentions, Awaiting My Approval, and To-dos.
+Based on user feedback, we have removed the page-wide time range filter and summary bar that tallied tasks due and completed. Project, Task, and Issue widgets each have built-in filtering features allowing you to customize their scope on an individual basis. Additionally, these widgets will now only include content that is currently active based on status, ensuring the work they track is always relevant. We've also limited which widgets display item-count bubbles to those where it is most useful: My Work, Mentions, My approval, and To-dos.
 
 For more information on tracking work in New Home, see [Get started with New Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 

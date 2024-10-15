@@ -172,6 +172,14 @@ For instructions on configuring and using the OAuth2 application with user crede
 
 ### Create an OAuth2 application using user credentials (Authorization code flow) {#create-an-oauth2-application-using-user-credentials-authorization-code-flow}
 
+>[!NOTE]
+>
+>If you are creating an application to connect to Workfront Fusion, use one of the following redirect URLs:
+>
+>* `https://app.workfrontfusion.com/oauth/cb/workfront-workfront` 
+>* `https://app-eu.workfrontfusion.com/oauth/cb/workfront-workfront` (EU Data center)
+>* `https://app-az.workfrontfusion.com/oauth/cb/workfront-workfront` (Azure Data Center)
+
 {{step-1-to-setup}}
 
 1. In the left navigation panel, click **[!UICONTROL System]**, then select **[!UICONTROL OAuth2 Applications]**.

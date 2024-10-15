@@ -57,8 +57,6 @@ For additional information about commenting on cards, goals, and records in Work
 
 * [Manage goal comments in Adobe Workfront Goals](../../workfront-goals/goal-management/manage-goal-comments.md). 
 
-   You must have an additional license to access Workfront Goals.
-
 * [Add an ad hoc card to a board](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md)
 
 * [Use connected cards on boards](/help/quicksilver/agile/get-started-with-boards/connected-cards.md)

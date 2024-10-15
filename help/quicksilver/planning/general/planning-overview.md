@@ -1,6 +1,6 @@
 ---
 title: Adobe Workfront Planning Overview
-description: Adobe Workfront Planning is a new offering from Adobe Workfront. You can create fully-customizable workspaces to define workflows that meet the needs of each organizational unit in your enterprise.
+description: Adobe Workfront Planning is an additional capability from Adobe Workfront. You can create fully-customizable workspaces to define workflows that meet the needs of each organizational unit in your enterprise.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -21,7 +21,7 @@ exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 
 >[!IMPORTANT]
 >
->The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
+>The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
 >
 >You must have the following to access Workfront Planning:
 >
@@ -38,9 +38,9 @@ For the complete list of articles that contain documentation for Workfront Plann
 
 ## Introduction to Adobe Workfront Planning
 
-Adobe Workfront Planning is a new offering from Adobe Workfront. The purpose of Workfront Planning is to unlock comprehensive visibility into the operational details of an organization, and answer critical business questions at each stage of the work management lifecycle. 
+Adobe Workfront Planning is an additional capability from Adobe Workfront. The purpose of Workfront Planning is to unlock comprehensive visibility into the operational details of an organization, and answer critical business questions at each stage of the work management lifecycle. 
 
-Teams and leadership need clear answers to questions like:  
+Workfront Planning can answer questions like:  
 
 * How many campaigns are we running in EMEA for Q4?
 * Do we have any audience overlaps between concurrent campaigns?
@@ -63,7 +63,7 @@ The following are some of the main capabilities:
 
 For information about new features and when they are released, see [Adobe Workfront Planning release activity for 2024](/help/quicksilver/planning/general/release-activity.md). 
 
-The following are features that are currently available in Workfront Planning:
+The following features are currently available in Workfront Planning:
 
 * Create workspaces             
 * Create record types             
@@ -86,7 +86,7 @@ The following are features that are currently available in Workfront Planning:
 * Customize the layout of a record's page             
 * Share workspaces             
 * Share views             
-* Share views publicly with external resources             
+* Share views publicly with any external resource, even people who are not Workfront users         
 * Duplicate views             
 * Submit requests to create records            
 * Export record details to Word <span class="preview">and PDF.</span>            
@@ -155,11 +155,11 @@ The following are features that are currently available in Workfront Planning:
 
 ## Enable Workfront Planning for the users in your Workfront instance
 
-After your organization purchased a license for Workfront Planning, the following must be in place before you can access Workfront Planning: 
+After your organization purchases a license for Workfront Planning, as a Workfront administrator, you must ensure the following are in place before users can access Workfront Planning:
 
-* Your Workfront administrator must assign you to a layout template that includes Planning in the Main Menu. For more information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) and [Assign users to a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md). 
+* Assign the users who need access to Planning a layout template that includes Planning in the Main Menu. For more information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) and [Assign users to a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md). 
 
-* Your Workfront administrator must assign you a Workfront license and Workfront Planning permissions that would allow you to view or create objects in Workfront Planning. For more information about granting access to and enabling others to use Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md). 
+* Assign users a Workfront license and Workfront Planning permissions that would allow you to either 5554hview or create objects in Workfront Planning. For more information about granting access to and enabling others to use Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md). 
 
 ## Workfront Planning terminology
 
@@ -177,7 +177,7 @@ The following are the main Workfront Planning objects and concepts:
     
     For more information, see [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md). 
 
-* **Record Type**: The object type or Workfront Planning.  
+* **Record Type**: The name of object types in Workfront Planning.  
     
     Unlike Workfront, where the object types are predefined, in Workfront Planning, you can create your own object types.  
     
@@ -193,7 +193,7 @@ The following are the main Workfront Planning objects and concepts:
        
     After adding a record type to a workspace, you can start adding records of that type on the record type's page. 
 
-    For example, "Campaign" can be a record type and "Summer Campaign for EMEA" is a record of the Campaign record type
+    For example, "Campaign" can be a record type and "Summer Campaign for EMEA" is a record of the Campaign record type.
         
     For more information, see [Create records](/help/quicksilver/planning/records/create-records.md).
 
@@ -292,7 +292,7 @@ The following are the main Workfront Planning objects and concepts:
 
     ![](assets/view-types-drop-down-from-record-type-list.png)
 
-    Views contain personalized settings of a specific view type, such as the list of fields (columns), a list of records (rows), their order (sort), an applied or applicable filter and grouping.  
+    Views contain personalized settings of a specific view type, such as the list of fields (columns), a list of records (rows), their order (sort), an applied or applicable filter and a grouping.  
     
     The following are view types that you can apply to the record type page: 
 
@@ -312,7 +312,7 @@ For more information, see [Manage record views](/help/quicksilver/planning/views
 
 ## Locate Adobe Workfront Planning
 
-Ensure that your organization has received access to Workfront Planning and that your system or group administrator has added the Planning area to your Main Menu. For information, see [Access overview](/help/quicksilver/planning/access/access-overview.md).
+To locate Adobe Planning, ensure that your organization has received access to Workfront Planning and that your system or group administrator has added the Planning area to your Main Menu. For information, see [Access overview](/help/quicksilver/planning/access/access-overview.md).
 
 To locate Workfront Planning:   
 
