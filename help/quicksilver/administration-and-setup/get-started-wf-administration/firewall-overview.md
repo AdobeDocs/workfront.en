@@ -17,7 +17,7 @@ Because Adobe Workfront communicates with your organization's network, your orga
 This is accomplished through an allowlist, which is essentially a "list" of sites that are "allowed" to send or receive data through the firewall. Sites can be identified in one of two ways:
 
 * **IP address**: a series of numbers such as 52.31.132.175
-* **Domain**: part of a URL, such as "thisdomain" in www.thisdomain.com
+* **Domain**: part of a URL, such as `thisdomain` in `www.thisdomain.com`.
 
 Workfront uses specific IP addresses and domains for web communication. These must be added to your organization's allowlist before you can use Workfront in your organization.
 

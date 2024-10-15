@@ -624,6 +624,35 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <td>[!UICONTROL Condition Update]</td> 
    <td> <p>This field shows the current condition of tasks, projects or issues. This option shows the most recent updates that the owners of tasks, projects or issues have provided in the [!UICONTROL Update Status] field, along with the new condition.</p> <p>Comments made on condition updates are not displayed in the [!UICONTROL Condition Update] column; only the main update is displayed.</p> </td> 
   </tr> 
+
+  <tr> 
+   <td>[!UICONTROL Connected record types]</td> 
+   <td> <p>In Workfront Planning, you can create a connection between one of the following: </p>
+   <ul>
+   <li>Two record types</li>
+   <li>A record type and a Workfront object type</li>
+   <li>A record type and an Adobe Experience Manager asset</li></ul>
+   <p>Connecting record types allows you to display information from one record or object type on another record type.</p>
+   <p>For information, see <a href="/help/quicksilver/planning/architecture/connect-record-types-overview.md">Connected record types overview</a>  </p>
+  <p>Workfront Planning requires an additional license. </p>
+ </td> 
+  </tr> 
+
+  <tr> 
+   <td>[!UICONTROL Connected records]</td> 
+   <td> <p>In Workfront Planning, after you connect two record types, you can connect two individual records of those types to one another.  </p>
+   <p>Connecting records allows you to display information from one record or object from another application on another record.</p>
+   <p>For information, see <a href="/help/quicksilver/planning/records/connected-records-overview.md">Connected records overview</a>. </p>
+
+  <p>Workfront Planning requires an additional license. </p>
+ </td> 
+  </tr> 
+
+<tr> 
+   <td>[!UICONTROL Connections]</td> 
+   <td> <p>In Workfront Planning, connections may refer to connected record types or connected records. Workfront Planning requires an additional license.</p> </td> 
+  </tr> 
+
   <tr> 
    <td>[!UICONTROL Constraint Date]</td> 
    <td> <p>If you are using a [!UICONTROL Task Constraint] that is tied to a specific date, such as [!UICONTROL Must Start On], then that specific date becomes the [!UICONTROL Constraint Date] of the task.</p> <p>The following task constraints update the [!UICONTROL Constraint Date] field:</p> 
@@ -877,9 +906,9 @@ The following table is a list of commonly used terms in Adobe Workfront:
    <p>For more information, see <a href="../../../wf-api/general/api-explorer.md">API Explorer</a> and <a href="../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md">Text Mode overview</a>.</p>  
 
    <p>By default, Workfront comes with a set of fields that define both objects and their information. You can also create custom fields to define objects, but you cannot create custom objects.</p> 
-   </td> 
-  </tr>
 
+   <p>In Workfront Planning, you can create custom fields for all record type. Workfront record types come with a very limited number of fields. You must create all fields from scratch and associate them with record types. For information, see <a href="/help/quicksilver/planning/fields/fields-overview.md">Field overview</a>. </p> <p>Workfront Planning requires an additional license. </p>   
+  </tr>
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Filter]</td> 
    <td> <p>One of the main building blocks of a report or a list element that defines what information displays on the screen. For more information about reporting elements, see <a href="../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md" class="MCXref xref">Reporting elements: filters, views, and groupings</a>.</p> <p>The Filter determines the results that display in a report or on an [!DNL Workfront] panel listing, like projects, tasks, or issues.</p> </td> 
@@ -1026,7 +1055,6 @@ The designated full time equivalency for users. A full-time user should have 100
    <li><b>Billed and Approved</b>: the hours have been logged, approved by the Project Owner, and the billing record status has been marked as Billed.</li>
    </ul> 
 
-
    <p>When hours are part of a billing record, the Hour Status indicates whether the hours have been approved or if the Billing Record they belong to has been billed. The Hour Status of an hour entry is only visible in an hour list or report. </p>
 
    <p>For more information about adding hours to billing records, see the section "Add Hours to billing records" in the article <a href="../../../manage-work/projects/project-finances/create-billing-records.md" >Create billing records</a>.</p>
@@ -1037,8 +1065,6 @@ The designated full time equivalency for users. A full-time user should have 100
    
    <p>General Hours that are not logged directly on work items do not display an Hour Status. </p> </td> 
   </tr>
-
-
   
   <tr> 
    <td>[!UICONTROL Hour Type]</td> 
@@ -1242,6 +1268,14 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL List Controls]</td> 
    <td> <p>A part of [!UICONTROL Interface Setup] that allows linking custom Filters, Views, and Groupings to individual Users or globally to all Users.</p> </td> 
+  </tr> 
+<tr> 
+   <td>[!UICONTROL Lookup fields]</td> 
+   <td> <p>In Workfront Planning, after you establish the connection between two record types and you link individual records together, you can reference the linked records' fields on the record you are connecting from.</p>
+   <p>For example, if you connect a Campaign record type with a Workfront Project object type, you can display the Budget field of connected projects on the campaign records. The Budget project field is a lookup field from projects on a campaign.</p> <p>The values of lookup fields are automatically populated on the records they are connected from.</p>
+   <p>For information, see <a href="/help/quicksilver/planning/records/connected-records-overview.md">Connected records overview</a>.</p>
+   <p>Workfront Planning requires an additional license.</p>
+    </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1793,6 +1827,24 @@ The designated full time equivalency for users. A full-time user should have 100
    <td>[!UICONTROL Ready]</td> 
    <td> <p>This field on a task report indicates whether an [!UICONTROL Agile] task has been marked as [!UICONTROL Ready] on the backlog. This flag only applies to [!UICONTROL Agile] tasks, which are tasks assigned to an [!UICONTROL Agile] team. </p> </td> 
   </tr> 
+
+<tr> 
+   <td>[!UICONTROL Record]</td> 
+   <td> <p>In Workfront Planning, a record is a unique instance of a record type.</p>
+<p>After adding a record type to a workspace, you can start adding records of that type on the record type's page.</p>
+<p>For example, "Campaign" can be a record type and "Summer Campaign for EMEA" is a record of the Campaign record type.</p>
+<p>For information about creating records, see <a href="/help/quicksilver/planning/records/create-records.md">Create records</a>. </p> <p>Workfront Planning requires an additional license. </p></td> 
+  </tr> 
+
+
+<tr> 
+   <td>[!UICONTROL Record type]</td> 
+   <td> <p>The object type of Workfront Planning.</p>
+<p>Unlike Workfront, where the object types are predefined, in Workfront Planning, you can create your own object types.Workfront Planning object types are called record types.</p>
+<p>For example, in Workfront the object types of Program, Portfolio, Project, Task, or Issue are already created.</p>
+<p>In Workfront Planning, you can create any record types that meet your organization's workflows. Later, you can define how the record types relate to one another or form dependencies.</p> For information about creating record types, see <a href="/help/quicksilver/planning/architecture/create-record-types.md">Create record types</a>. </p> <p>Workfront Planning requires an additional license. </p></td> 
+  </tr> 
+
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
    <td>[!UICONTROL Recurrence Frequency]</td> 
    <td> <p>A field that displays in the [!UICONTROL Task Details] or the [!UICONTROL Edit Task] box of a parent of recurring tasks. It is the frequency with which the tasks in the recurrence occur. For information about creating recurring tasks, see <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Create recurring tasks</a>. </p> </td> 
@@ -2334,7 +2386,14 @@ The designated full time equivalency for users. A full-time user should have 100
   <tr> 
    <td>[!UICONTROL View]</td> 
    <td> <p>Views refer to a reporting element which allows you to modify the columns in a report or in a list of objects.</p> 
-   <p> View also refers to a user's right to only view information on an object, according to their access level or at a permissions sharing level on that object.</p> </td> 
+   <p> View also refers to a user's right to only view information on an object, according to their access level or at a permissions sharing level on that object.</p> 
+   <p>In Workfront Planning, records display on the record type page in one of the following view types:</p>
+   <ul><li>Table</li>
+   <li>Timeline</li>
+   <li>Calendar</li></ul>
+   <p>In Workfront Planning, views include the filters, groupings, sorting, and other settings applied to the records on the screen.</p> <p>For information, see <a href="/help/quicksilver/planning/views/manage-record-views.md">Manage record views</a>.</p>   
+   <p>Workfront Planning requires an additional license.</p>
+   </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL View Icons]</td> 
@@ -2476,5 +2535,14 @@ You must use the additional <code>[!UICONTROL usewidths=true]</code> line of cod
    </code>
     <p>For information about using text mode, see <a href="../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md" class="MCXref xref">Text mode syntax overview</a>. </p> </td> 
   </tr> 
+
+  <tr> 
+   <td>[!UICONTROL Workspace] </td> 
+   <td> <p>In Workfront Planning, a workspace is a collection of record types that define the operational lifecycle of a certain organization. A workspace is the work frame of an organizational unit.</p>
+   <p>Workfront Planning requires an additional license. </p>
+   <p>For information, see <a href="/help/quicksilver/planning/architecture/create-workspaces.md">Create workspaces</a>. </p> </td> 
+  </tr> 
  </tbody> 
 </table>
+
+
