@@ -27,7 +27,7 @@ You can use the My Focus column to prioritize your work. The My Focus column is 
 
     ![](assets/my-focus.png)
 
->[!TIP]
->
->You can Filter and Group you work by your focus levels.
+    >[!TIP]
+    >
+    >You can Filter and Group you work by your focus levels.
 

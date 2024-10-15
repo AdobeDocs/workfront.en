@@ -1,7 +1,7 @@
 ---
 navigation-topic: get-started-with-workfront
 title: Upload files in Priorities
-description: You can upload files from the Priorities worklist or from individual work items. Files uploaded from Priorities appear in the Document tab of the work item.  
+description: You can upload files from the Priorities worklist or from individual work items. Files uploaded from Priorities appear in the Documents tab of the work item.  
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 
 # Upload files in Priorities
 
-You can upload files from the Priorities worklist or from individual work items. Files uploaded from Priorities appear in the Document tab of the work item. 
+You can upload files from the Priorities worklist or from individual work items. Files uploaded from Priorities appear in the Documents tab of the work item. 
 
 ## Access requirements
 

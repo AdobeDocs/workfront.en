@@ -30,7 +30,7 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront license*</strong></td> 
    <td> 
-   <p>Current: Reviewer or higher for issues; Work or higher for tasks</p>
+   <p>Current: Review or higher for issues; Work or higher for tasks</p>
    <p>New: Light or higher for issues <!--and documents-->: Standard or higher tasks</p> 
    </td> 
   </tr> 

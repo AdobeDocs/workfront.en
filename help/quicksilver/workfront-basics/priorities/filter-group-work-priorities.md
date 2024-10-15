@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 
 # Filter and group your work with Priorities
 
-You can use filters to find work you and looking for and then apply a grouping to keep it organized. 
+You can use filters to find work you are looking for and then apply a grouping to keep it organized. 
 
 ## Access requirements
 
@@ -67,7 +67,7 @@ You can filter tasks and issues assigned to you.
    <th>Description</th>
    </tr>
     <tr>
-      <td>Working on</td>
+      <td>Working on it</td>
       <td>Displays items that you are currently working on</td>
     </tr>
     <tr>
