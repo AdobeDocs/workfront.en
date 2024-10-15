@@ -29,6 +29,7 @@ This table describes some features that differ between the two experiences.
 | The proofing viewer opens in a new tab | The proofing viewer opens inside Workfront |
 | URL used to access Workfront is `experience.adobe.com` | URL used to access Workfront is `(CompanyName).my.workfront.com` |
 | Date format (such as MM/DD/YYYY) is based on Unified Experience language settings. If the user has not updated their language settings, `en-US` settings are used. | Date format (such as MM/DD/YYYY) is based on browser preferences |
+| The JumpSeat integration is not supported | The Jumpseat integration is supported |
 
 {style="table-layout:auto"}
 
