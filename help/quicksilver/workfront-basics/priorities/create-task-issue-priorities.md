@@ -71,8 +71,8 @@ To create a task or issue in a project:
     | Name          |  Enter a name.           |
     | Description (Optional)  |  Enter a description.           |
     | Project       |  Begin typing a project name, then select it from the drop-down list.           |
-    | Assignees  (Optional)     |  Assign people to the work item.           |
-    | Due date  (Optional)      |  Choose a due date.           |
+    | Assignees (Optional)     |  Assign people to the work item.           |
+    | Due date (Optional)      |  Choose a due date.           |
 
 1. Click **Create**.
   

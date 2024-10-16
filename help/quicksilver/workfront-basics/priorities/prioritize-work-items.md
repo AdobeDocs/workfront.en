@@ -9,13 +9,13 @@ recommendations: noDisplay, noCatalog
 
 # Prioritize important work items
 
-You can use the My Focus column to prioritize your work. The My Focus column is a personal value and does not impact task or issue data. 
+You can use the My Focus column to prioritize your work. The My Focus column is a personal value and does not impact the priority set on the task or issue.
 
 ## Prioritize your work with the My Focus column
 
 {{step1-to-priorities}}
 
-1. Locate the work item you want to focus on. 
+1. Locate the work item that you want to focus on. 
 1. In the **My Focus** column, choose one of the following focus levels:
 
     | Focus     | Description |
@@ -29,5 +29,5 @@ You can use the My Focus column to prioritize your work. The My Focus column is 
 
     >[!TIP]
     >
-    >You can Filter and Group you work by your focus levels.
+    >You can Filter and Group your work by your focus levels.
 

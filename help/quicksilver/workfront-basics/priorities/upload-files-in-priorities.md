@@ -51,7 +51,7 @@ To find out what plan, license type, or access you have, contact your Workfront 
 1. (Optional) Select a folder.
 1. Drag and drop your file or Cmd/Ctrl + V to paste from your clipboard
 or
-Click **Add files** to browse files or import files from a document cloud provider.
+Click **Add files** to browse files or import files from a Document Cloud provider.
 ![](assets/add-files.png)
 1. (Optional) Add a comment.
 1. (Optional) Add more files.
@@ -72,7 +72,7 @@ Click **Add files** to browse files or import files from a document cloud provid
 1. (Optional) Select a folder.
 1. Drag and drop your file or Cmd/Ctrl + V to paste from your clipboard
 or
-Click **Add files** to browse files or import files from a document cloud provider.
+Click **Add files** to browse files or import files from a Document Cloud provider.
 ![](assets/add-files.png)
 1. (Optional) Add a comment.
 1. (Optional) Add more files.

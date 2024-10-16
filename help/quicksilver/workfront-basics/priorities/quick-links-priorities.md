@@ -1,7 +1,7 @@
 ---
 navigation-topic: get-started-with-workfront
 title: Add and manage quick links in Priorities
-description: You save links you visit often in a task or issue in Priorities.
+description: You save links that you visit often in a task or issue in Priorities.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 
 # Add and manage quick links in Priorities
 
-You can save links you visit often in a task or issue and access from the Overview tab in Priorities. 
+You can save links that you visit often in a task or issue and access from the Overview tab in Priorities. 
 
 ## Access requirements
 
@@ -84,4 +84,4 @@ You must have the following access to perform the steps in this article:
 1. Click on a work item name to open the Overview page.
 1. Click **Edit Details** in the top-right corner of the screen.
     ![](assets/edit-details.png)
-1. Find the link you want to remove, then click the Delete icon ![](assets/delete-icon.png). 
+1. Find the link that you want to remove, then click the Delete icon ![](assets/delete-icon.png). 

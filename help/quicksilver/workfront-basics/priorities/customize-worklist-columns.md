@@ -66,7 +66,7 @@ You must have the following access to perform the steps in this article:
 {{step1-to-priorities}}
 
 1. Click **Columns** on the right side of the screen.
-1. Click the Drag icon and move the column to your desired location. Moving columns updates in the worklist automatically.
+1. Click the **Drag** icon and move the column to your desired location. Moving columns updates in the worklist automatically.
     ![](assets/reorder-columns.png)
 
 ## Reset Column widths
@@ -74,5 +74,5 @@ You must have the following access to perform the steps in this article:
 {{step1-to-priorities}}
 
 1. Click **Columns** on the right side of the screen.
-1. Click the More icon ![](assets/more-icon.png), and choose **Reset column widths**.
+1. Click the **More** icon ![](assets/more-icon.png), and choose **Reset column widths**.
  ![](assets/columns.png)

@@ -9,7 +9,7 @@ recommendations: noDisplay, noCatalog
 
 # Filter and group your work with Priorities
 
-You can use filters to find work you are looking for and then apply a grouping to keep it organized. 
+You can use filters to find the work you are looking for and then apply a grouping to keep it organized. 
 
 ## Access requirements
 
@@ -135,14 +135,14 @@ You can filter tasks and issues assigned to you.
 | None      |   This removes groupings from the worklist.          |
 | My Focus  |   This groups items based on the focus level you assign.          |
 | Week due  |   This groups items based on the week they are due. Due dates are determined by the Planned Completion Date.           |
-| Status    |   This groups items by the following statuses:  New, In progress, Complete. <br>Note: You can't use custom statuses in Priorities at this time.          |
+| Status    |   This groups items by the following statuses: New, In progress, Complete. <br>Note: You can't use custom statuses in Priorities at this time.          |
 | Project   |   This groups items by project.          |
 
 +++
 
 ## Sort your work
 
-To sort your work, open **Group** and click **Sort ascending** or **Sort descending** .
+To sort your work, open **Group** and click **Sort ascending** or **Sort descending**.
 
 ![](assets/expand-sort-groups.png)
 
