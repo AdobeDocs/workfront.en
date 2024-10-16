@@ -52,7 +52,7 @@ For more information on rolling back an environment promotion package, see [Roll
 
 >[!NOTE]
 >
->Preview release: ~~August 12, 2024~~; Production for fast release: N/A; Production for quarterly release: N/A
+>~~Preview release: August 12, 2024~~; Production for fast release: N/A; Production for quarterly release: N/A
 >
 >_This feature has been removed from Preview and will not be released with any future releases._
 

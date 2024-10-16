@@ -15,7 +15,7 @@ exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
 >[!IMPORTANT]
 >
 ><span class="preview">This article lists the features that were released during the beta phase for Workfront Planning, in 2023.</span>
->The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
+>The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
 >
 >You must purchase a Workfront Planning plan, in addition to a Workfront plan to be able to access and use Workfront Planning capabilities. 
 >

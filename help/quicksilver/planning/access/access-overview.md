@@ -14,7 +14,7 @@ exl-id: 99fac041-a235-4991-b826-d19944164bc9
 
 >[!IMPORTANT]
 >
->The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
+>The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
 >
 >Your company must purchase an additional license for Workfront Planning to access its capabilities. 
 >

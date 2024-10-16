@@ -274,7 +274,7 @@ You must install the correct plugin for the Adobe Creative Cloud application you
 
 >[!IMPORTANT]
 >
->The information in this article refers to Adobe Workfront Planning, a new offering from Adobe Workfront. 
+>The information in this article refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
 >
 >You must have the following to access Workfront Planning:
 >

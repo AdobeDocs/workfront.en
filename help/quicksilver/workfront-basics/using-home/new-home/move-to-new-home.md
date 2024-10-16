@@ -45,12 +45,12 @@ Users can still delegate work from New Home in the following widgets:
 * My Work
 * My Tasks
 * My Issues
-* Awaiting My Approvals
+* My Approvals
 
 Users can find work delegated to them in the following widgets:
 
 * My Work widget using the Delegated to me filter
-* Awaiting my Approvals using the Delegated approvals filter
+* My Approvals using the Delegated approvals filter
 
 | **Legacy Home** | **New Home** |
 |------------|-----------|
@@ -66,10 +66,7 @@ Users can no longer create a personal task the exact same way they did in Legacy
 
 #### View approvals I've submitted
 
-Users can't view approvals they have submitted in New Home. If users in your organization need this functionality, you can build an approvals report as a workaround or upvote or post a comment here in the following Community posts:
-
-* [Add "Approvals I Submitted" Widget to New Home](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
-* [Add "Approvals I've Submitted" to the new Home](https://experienceleaguecommunities.adobe.com/t5/workfront-ideas/add-quot-approvals-i-submitted-quot-widget-to-new-home/idc-p/704664#M25269)
+Users can view approvals they have submitted in New Home in the My approvals widget using the Approvals I've Submitted filter.
 
 #### Add items to My Priority
 
@@ -125,7 +122,7 @@ To locate the quick actions menu, hover over the work item. The quick actions li
 
 Users can still manage approvals and team requests in New Home using the following widgets:
 
-* Awaiting my approval
+* My approval
 * All approvals
 * Team requests 
 
@@ -161,7 +158,7 @@ Below are the 11 widgets currently available to choose from, as well as a summar
 * **Team requests**\
     Displays all pending requests for teams that you are on sorted by team, as well as buttons to directly assign a request to a user or to work on it yourself.
 
-* **Awaiting my approval**\
+* **My approval**\
     Displays all of your pending assigned or delegated approvals, a button to delegate approvals, and buttons to make approval decisions directly within the widget.
 
 * **All approvals**\
@@ -196,15 +193,15 @@ By default, the Home page is populated with a few specific widgets based on your
     </tr>
     <tr>
         <td>Light</td>
-        <td>My Work, Awaiting My Approval</td>
+        <td>My Work, My approval</td>
     </tr>
     <tr>
         <td>Contributor</td>
-        <td>My Requests, Mentions, Awaiting My Approval, Boards</td>
+        <td>My Requests, Mentions, My approval, Boards</td>
     </tr>
     <tr>
         <td>External</td>
-        <td>Awaiting My Approval</td>
+        <td>My approval</td>
     </tr>
 </table>
 
@@ -227,7 +224,7 @@ By default, the Home page is populated with a few specific widgets based on your
     </tr>
     <tr>
         <td>Request</td>
-        <td>My Projects, Awaiting My Approval</td>
+        <td>My Projects, My approval</td>
     </tr>
     <tr>
         <td>Contribute</td>
@@ -235,7 +232,7 @@ By default, the Home page is populated with a few specific widgets based on your
     </tr>
     <tr>
         <td>External</td>
-        <td>Awaiting My Approval</td>
+        <td>My approval</td>
     </tr>
 </table>
 

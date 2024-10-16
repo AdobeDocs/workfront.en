@@ -1,15 +1,13 @@
 ---
 product-area: resource-management
 navigation-topic: resource-pools
-title: Remove users from resource pools
+title: Remove Users from Resource Pools
 description: Although there is no limit to how many users you can have in a resource pool, the list of users only displays the first 2000 users, listed alphabetically.
 author: Lisa
 feature: Resource Management
 exl-id: b888aa95-8d42-4cc3-8a99-6842435c84d2
 ---
 # Remove users from resource pools
-
-{{preview-and-fast-release-Q424}}
 
 Although there is no limit to how many users you can have in a resource pool, the list of users only displays the first 2000 users, listed alphabetically.
 
@@ -66,16 +64,11 @@ To remove a user from a Resource Pool:
 1. Start typing the name of a user that you want to remove in the **Search in this Resource Pool** field.  
    Or  
    Start typing the name of a company, job role, team, or group, if you want to remove all the users associated with those entities.
-
-   <span class="preview">Sample image in the Preview environment:<span>
    
    ![Remove users from Resource Pool](assets/remove-users-from-resource-pool.png)
 
-   Sample image in the Production environment: 
-   ![Search in Resource Pool](assets/search-inside-new-resource-pool-350x314.png)
-
-1. Click the 'x' icon at the user level to remove a user from the Resource Pool. They are removed from all the lists they appear in.  
-   Or  
-   To remove all users associated with a job role, group, team, or company, click **Remove** at the job role, group, team level, or company level. This removes all the users associated with that job role, group, team, or company from the Resource Pool.
+1. Click the X icon at the user level to remove a user from the Resource Pool. They are removed from all the lists they appear in.
+   <!--Or  
+   To remove all users associated with a job role, group, team, or company, click **Remove** at the job role, group, team level, or company level. This removes all the users associated with that job role, group, team, or company from the Resource Pool.-->
 
 1. Click **Save**.
