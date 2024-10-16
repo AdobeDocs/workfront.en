@@ -36,14 +36,10 @@ You must have the following access to perform the steps in this article:
   <tr> 
    <td role="rowheader">Adobe Workfront license</td> 
    <td>
-   <p>To send a message from the user's profile page, you must have:<br>
-   New: Light or higher<br>
-   or<br>
-   Current: Review or higher</p>
-   <p>To send a message from the User list, you must have:<br>
-   New: Standard<br>
-   or<br>
-   Current: Work or higher</p></td>
+   <p>New: Light or higher</p>
+   <p>or</p>
+   <p>Current: Review or higher</p>
+   </td>
   </tr> 
  </tbody> 
 </table>
@@ -55,9 +51,8 @@ For more detail about the information in this table, see [Access requirements in
 ## Send a message unrelated to a work item to another user from their profile page
 
 1. Go to the profile page of the user you want to send a message to.  
-   You can do the following to navigate to a user's profile page:
-
-   * Click the linked name of the user as it appears anywhere in the [!DNL Workfront] interface. User names are displayed in many areas of the [!DNL Workfront] interface, such as in a comment made by the user.
+   
+   To navigate to a user's profile page, click the linked name of the user as it appears anywhere in the [!DNL Workfront] interface. User names are displayed in many areas, such as in a comment made by the user.
 
 1. On the **[!UICONTROL Updates]** tab, click in the text box field.
 
@@ -71,6 +66,7 @@ For more detail about the information in this table, see [Access requirements in
 1. Click **[!UICONTROL Update].** 
    The message is posted at the top of the list of messages on the **[!UICONTROL Updates]** tab on the user's profile page.
 
+<!--
 ## Send a message to one or more users from the User list
 
 This option is only available if you have a Standard, Plan, or Work license.
@@ -83,3 +79,4 @@ This option is only available if you have a Standard, Plan, or Work license.
 1. (Optional) Select **[!UICONTROL Private to my company]** to make this message visible only to other users in your company.
 1. Click [!UICONTROL **Send**].
    The message is posted at the top of the list of messages on the **[!UICONTROL Updates]** tab on each user's profile page.
+-->
