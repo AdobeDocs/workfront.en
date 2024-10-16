@@ -10,7 +10,7 @@ exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
 
 # Connect record types
 
-<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview Sandbox environment.</span>-->
 
 {{planning-important-intro}}
 
@@ -184,7 +184,8 @@ You must have the following access to perform the steps in this article:
 
     * Another record type from the current workspace
 
-        <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
+        ![](assets/many-to-many-connection-picker.png)
+
         >[!TIP]
         >
         > 
@@ -193,7 +194,7 @@ You must have the following access to perform the steps in this article:
 
     * A record type from another workspace that was configured to connect from other workspaces. For information, see [Edit record types](/help/quicksilver/planning/architecture/edit-record-types.md). 
 
-        <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
+        ![](assets/new-connection-allow-multiple-records-box.png)
 
         >[!TIP]
         >
@@ -206,7 +207,7 @@ You must have the following access to perform the steps in this article:
 
     * **Experience Manager Assets** from the **Adobe Applications** section. 
 
-        <span class="preview">![](assets/aem-assets-connection-selection.png)</span>
+        ![](assets/aem-assets-connection-selection.png)
 
 1. Update the following information: 
 
@@ -221,7 +222,7 @@ You must have the following access to perform the steps in this article:
      
         This option is available only when connecting records from two different workspaces or a record and an Adobe Experience Manager asset object. 
 
-        <span class="preview">![](assets/new-connection-allow-multiple-records-box.png)</span>
+        ![](assets/new-connection-allow-multiple-records-box.png)
      
      * **Connection type**: Select one of the following options to indicate how many records they can connect to and from:
 
@@ -232,7 +233,7 @@ You must have the following access to perform the steps in this article:
      
         This option is available only when connecting records from the same workspace or a record and a Workfront object type.        
 
-        <span class="preview">![](assets/many-to-many-connection-picker.png)</span>
+        ![](assets/many-to-many-connection-picker.png)
                 
         For more information about connection types, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -261,9 +262,9 @@ You must have the following access to perform the steps in this article:
 
 1. (Conditional) If you selected to connect to Experience Manager Assets or to a Workfront Planning record type, select one of the following options in the **Record appearance** area:
 
-    * <span class="preview">**Name and image**: Both the name and the thumbnail or icon of the connected records will display in the connected record field. This is the default option. </span>
-    * <span class="preview">**Name**: Only the name of the connected records will display in the connected record field.</span>
-    * <span class="preview">**Image**: Only the thumbnail or icon of the connected records will display in the connected record field.</span>
+    * **Name and image**: Both the name and the thumbnail or icon of the connected records will display in the connected record field. This is the default option. 
+    * **Name**: Only the name of the connected records will display in the connected record field.
+    * **Image**: Only the thumbnail or icon of the connected records will display in the connected record field.
 
     Records without a thumbnail image display the record type icon instead. An example of how the connected records will display shows in the **Record appearance** area. 
 
@@ -275,7 +276,7 @@ You must have the following access to perform the steps in this article:
     >
     >* Selecting a record appearance is not available when selecting Workfront object types. 
     >
-    >* What you select in the Record appearance area determines how the records display in connections everywhere in the system, including all the views and Details pages. 
+    >* What you select in the Record appearance area determines how the records display in connections everywhere in the system, including all the views and details pages. 
 
 1. Click **Create**.
 
