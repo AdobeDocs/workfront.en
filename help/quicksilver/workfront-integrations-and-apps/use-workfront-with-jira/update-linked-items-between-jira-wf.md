@@ -116,7 +116,7 @@ The following list shows which [!DNL Workfront] fields synchronize with [!DNL Ji
   </tr> 
   <tr> 
    <td>[!UICONTROL Comments]</td> 
-   <td> <p>The comment is added to the <strong>[!DNL Workfront]</strong> tab of the [!DNL Jira] issue. It is not added to the <strong>[!UICONTROL Comments]</strong> tab of the [!DNL Jira] issue</p> <p>Note: When you link two existing items manually, the comments that were added to the [!DNL Workfront] item before linking it to [!DNL Jira] do not synchronize to the [!DNL Jira] issue. </p> </td> 
+   <td> <p>The comment is added to the <strong>[!DNL Workfront]</strong> tab of the [!DNL Jira] issue. It is not added to the <strong>[!UICONTROL Comments]</strong> tab of the [!DNL Jira] issue</p> <p>Note: When you link two existing items manually, the comments that were added to the [!DNL Workfront] item before linking it to [!DNL Jira] do not synchronize to the [!DNL Jira] issue. </p> <p>Jira comments do synchronize to Workfront.</td> 
   </tr> 
  </tbody> 
 </table>

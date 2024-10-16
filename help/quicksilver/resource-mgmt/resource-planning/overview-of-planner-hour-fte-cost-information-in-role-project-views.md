@@ -323,7 +323,7 @@ Consider the following when working with Budgeted Hours:
 
 >[!NOTE]
 >
->**When the NET Hours, FTE, or Cost display in red, there is not enough Available time or budget to cover either the Budgeted** or the Planned time or cost associated with the work. In this case, the resources are overallocated.
+>When the NET Hours, FTE, or Cost display in red, there is not enough Available time or budget to cover either the Budgeted or the Planned time or cost associated with the work. In this case, the resources are overallocated.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(the table below is ideal but it does not transfer to Markdown)</p>
