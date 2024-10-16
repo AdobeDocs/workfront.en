@@ -11,8 +11,6 @@ exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 ---
 # Design a form with the form designer
 
-{{highlighted-preview}}
-
 You can design a custom form with the form designer. You can attach custom forms to different Workfront objects to capture data about those objects.
 
 ## Access requirements
@@ -86,7 +84,7 @@ For more detail about the information in this table, see [Access requirements in
 
 You can use new or existing fields when designing your custom form.
 
-<span class="preview">Custom forms are limited to 500 fields. A counter on the bottom left displays how many fields are used on the form, and it is always visible as you scroll within the form designer.</span>
+Custom forms are limited to 500 fields. A counter on the bottom left displays how many fields are used on the form, and it is always visible as you scroll within the form designer.
 
 ### Reuse an existing field or widget already used in another custom form
 
