@@ -96,18 +96,18 @@ The following sections illustrate where you can access the Workload Balancer wit
 
   Your Home Team's page displays. 
   
-    Click **Workload Balancer** in the left panel.
+1. Click **Workload Balancer** in the left panel.
 
-    ![](assets/nwe-balancer-team-350x172.png)
+  ![](assets/nwe-balancer-team-350x172.png)
 
-    The Workload Balancer of a team displays the following information, by default:
+  The Workload Balancer of a team displays the following information, by default:
 
-    * **Unassigned Work**: Items assigned to the team and not assigned to users. 
-    * **Assigned Work**: All members of the team with all their assignments. 
-    
-      >[!TIP]
-      >
-      >Team members might be assigned to work also assigned to the team or to work assigned to other teams or roles.  
+  * **Unassigned Work**: Items assigned to the team and not assigned to users. 
+  * **Assigned Work**: All members of the team with all their assignments. 
+  
+    >[!TIP]
+    >
+    >Team members might be assigned to work also assigned to the team or to work assigned to other teams or roles.  
 
 ### Access the Workload Balancer for a project
   
