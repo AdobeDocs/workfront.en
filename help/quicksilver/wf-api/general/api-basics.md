@@ -49,7 +49,11 @@ Each object in the system is given a unique URI consisting of the object type an
 
 The object type is case insensitive and can be either the abbreviated ObjCode (such as&nbsp;proj) or the alternate object name (project).
 
-For a list of valid ObjCodes, see&nbsp; [API Explorer](../../wf-api/general/api-explorer.md).
+For a list of objects, valid ObjCodes, and object fields, see&nbsp; [API Explorer](../../wf-api/general/api-explorer.md).
+
+>[!NOTE]
+>
+>In the context of the Workfront API, a custom form is a `Category` object, and a custom field is a `Parameter` object.
 
 ### Operations
 
