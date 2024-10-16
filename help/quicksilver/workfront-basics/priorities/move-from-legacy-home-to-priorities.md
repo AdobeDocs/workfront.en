@@ -23,7 +23,7 @@ The Priorities table view displays tasks and issues assigned to you or your team
 
 | **Filter** | **Grouping** |
 |------------|-----------|
-| - Working on <br> - Ready to start <br> - Not ready <br> - Requested <br> - Done <br> - Project <br> - Due Date <br> - Status | - None <br> - Week Due  <br> - Status <br> - Project |
+| - Working on <br> - Ready to start <br> - Not ready <br> - Requested <br> - Done <br> - Project <br> - Due Date <br> - Status <br> - My Focus | - None <br> - My Focus  <br> - Week Due  <br> - Status <br> - Project |
 
 
 **Legacy Home filter and grouping options not available in Priorities**

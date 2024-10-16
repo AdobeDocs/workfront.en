@@ -67,10 +67,10 @@ For more detail about the information in this table, see [Access requirements in
 
 The following areas have buttons that generate summaries using AI Assistant:
 
-* Project header: Project Summary
-* Updates area: Summarize Contents
+* Project header: Summarize project
+* Updates area: Summarize comments
 
-To use the Project Summary or Summarize Contents button:
+To use the Summarize project or Summarize comments button:
 
 1. Click the button.
 
