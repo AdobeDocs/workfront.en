@@ -135,7 +135,7 @@ You can filter items in the [!UICONTROL Work List] to see only specific types of
       <td> 
        <div> 
         <p>Displays only work items that you have delegated to another user.</p> 
-        <p>For more information about delegating tasks, see <a href="/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md#delegate-tasks-and-issues-to-another-user" class="MCXref xref">Delegate tasks and issues to another user</a>.
+        <p>For more information about delegating tasks, see <a href="/help/quicksilver/manage-work/delegate-work/how-to-delegate-work.md#delegate-tasks-and-issues-to-another-user" class="MCXref xref">Delegate tasks and issues</a>.
        </div> </td> 
      </tr> 
      <tr> 
