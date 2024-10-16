@@ -7,7 +7,7 @@ feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 ---
 
-# Get started with Priorities
+# Get started with [!DNL Priorities]
 
 Priorities is a streamlined, intuitive experience tailored for task owners. Priorities will be rolled out in phases, starting with the worklist.
 
@@ -74,6 +74,10 @@ Find your most important work with filters. You can filter tasks and issues assi
     <td>Status</td>
     <td>Displays tasks or issues in new, in progress, and complete statuses</td>
     </tr>
+     <tr>
+    <td>My Focus</td>
+    <td>Displays tasks or issues in that have assigned focus levels. Focus levels are assigned and managed by the individual user.</td>
+    </tr>
   </tbody>
 </table>
 
@@ -82,11 +86,12 @@ Find your most important work with filters. You can filter tasks and issues assi
 After you have filtered your work, you can group items based on
 
 * None
+* My Focus
 * Week due
 * Status
 * Project
 
-<!--For more information, see [Find and organize your work in Priorities]().-->
+For more information, see [Filter and group your work in Priorities](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
 ### Prioritize important work items with My Focus
 
@@ -99,7 +104,7 @@ My Focus is a column in the worklist that helps you to prioritize your work. The
 
 Once you have assigned focus levels to your work items, you can sort the column to surface urgent items at the top of your worklist.
 
-<!--For more information, see [Prioritize important work items with My Focus]().-->
+For more information, see [Prioritize important work items](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
 
 ![](assets/my-focus-column.png)
 
@@ -127,7 +132,7 @@ Add an update on a task or issue to communicate your progress to others.
 
 The Updates section shows system updates, and up to 200 of the most recent updates users made within the past 90 days.
 
-<!--For more information, see [Add and view updates in Priorities]().-->
+For more information, see [Add and view comments in Priorities](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md).
 
 ![](assets/new-update.png)
 
@@ -135,7 +140,7 @@ The Updates section shows system updates, and up to 200 of the most recent updat
 
 You can log time for work items to indicate the number of hours you spend working on them. You can also log time that is not related to work, like vacation, sick time, or time you spend in meetings. The time you log displays in your timesheet.
 
-<!--For more information, see [Log time in Priorities]().-->
+For more information, see [Log time in Priorities](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
 
 ![](assets/log-time.png)
 
@@ -148,7 +153,7 @@ Upload files directly to the task or issue's Documents area without having to na
 * Add additional files
 * Import files from connected document integrations
 
-<!--For more information, see [Upload files in Priorities]().-->
+For more information, see [Upload files in Priorities](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md).
 
 ![](assets/upload-file.png)
 
@@ -164,7 +169,7 @@ You can embed frequently used links in the work item's details page. Quick links
 
 ![](assets/quick-links.png)
 
-<!--For more information, see [Add and manage quick links in Priorities]().-->
+For more information, see [Add and manage quick links in Priorities](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md).
 
 ### Review and approve assets [!BADGE Coming soon]{type=Informative}
 
@@ -175,9 +180,9 @@ For now, we recommend using the My approval and All Approvals widgets in New Hom
 For more information, see [Add, edit, or remove widgets in New Home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md).
 
 
-## Use Catch me up to see what you missed [!BADGE Coming soon]{type=Informative}
+## Use [!DNL Catch me up] to see what you missed [!BADGE Coming soon]{type=Informative}
 
-Use the Catch me up feature to see what you missed. Catch me up will summarize updates, uploaded documents, approvals, and other notable changes about your projects within the following time frames: 24 hours, 3 days, 7 days. 
+Use the [!DNL Catch me up] feature to see what you missed. Catch me up will summarize updates, uploaded documents, approvals, and other notable changes about your projects within the following time frames: 24 hours, 3 days, 7 days. 
 
 
 ![](assets/catch-me-up.png)
