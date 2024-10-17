@@ -9,6 +9,7 @@ author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
 ---
+
 # Manage work items and team requests in the [!UICONTROL Home] area
 
 When work tasks and issues are assigned to you, they are listed in the My Work widget, My Tasks widget, and My Issues widget.  You can view, work on, or remove work items and requests. 
@@ -59,7 +60,7 @@ This article describes how to use the filters in the [!UICONTROL Home] area to v
 To view a work item in the My Work widget:
 
 1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
-1. (Conditional) Click **Customize** to add the My Work widget.
+1. (Conditional) Click **Customize** to add the **My Work** widget.
 
 1. Click the **Filter** icon ![](assets/filter-nwepng.png) in the top-left corner of the widget worklist. 
 
@@ -85,7 +86,7 @@ You can access a request assigned to your team directly from the Team Requests w
 To access a team request:
 
 1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
-1. (Conditional) Add the Team Requests to your home screen. Click **Customize**, and find **Team Requests**. 
+1. (Conditional) Click **Customize** to add the **Team Requests** widget. 
 
    The widget displays team requests under team groupings. The **[!UICONTROL Team Requests]** widget displays and shows all requests assigned to any team you are on. For more information about working with team requests, see [Manage work and team requests](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
@@ -99,7 +100,7 @@ When you click the [!UICONTROL Work On It] button, you are indicating to the use
 To work on a work item:
 
 1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
-1. (Conditional) Click **Customize** to add the My Work widget.
+1. (Conditional) Click **Customize** to add the **My Work** widget.
 
 1. In the **[!UICONTROL worklist]** area of the widget, select the request you want to work on, then click **[!UICONTROL Work On It]**.
 1. Hover over the work item, then click the **Summary** icon to view information about the work item.
@@ -114,7 +115,7 @@ If you decide that you should not be working on the work item, you can either co
 To remove a work item: 
 
 1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
-1. (Conditional) Click **Customize** to add the My Work widget.
+1. (Conditional) Click **Customize** to add the **My Work** widget.
 
 1. In the widget worklist, hover over the work item, then click the **Summary** icon to view information about the work item.
     ![](assets/open-summary-new-home.png)
