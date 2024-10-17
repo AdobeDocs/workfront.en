@@ -317,7 +317,7 @@ To navigate the Workload Balancer for multiple projects:
         
         >[!TIP]
         >
-        >If your Workfront or group administrator enabled delegations in your environment, use the Assignments tab to assign users to the task or issue. For information about delegating work, see [Manage task and issue delegation](../../manage-work/delegate-work/how-to-delegate-work.md).
+        >If your Workfront or group administrator enabled delegations in your environment, use the Assignments tab to assign users to the task or issue. For information about delegating work, see [Delegate tasks and issues](../../manage-work/delegate-work/how-to-delegate-work.md).
 
     * **Edit allocations**, then edit the daily or weekly allocations for the user. For information about managing user allocations, see [Manage user allocations in the Workload Balancer](../workload-balancer/manage-user-allocations-workload-balancer.md).
     

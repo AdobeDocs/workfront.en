@@ -24,13 +24,18 @@ You can delegate the following objects in [!DNL Adobe Workfront]:
 * Issues assigned to you
 * Project, task, or issue approvals assigned to you.
 
-This article contains general information about delegating tasks and issues.
+   >[!TIP]
+   >
+   >   You cannot delegate timesheet, document, or proof approvals. 
+
+
+This article contains general information about delegating tasks and issues assigned to you.
 
 For information about delegating project, task, and issue approvals, see [Delegate approval request](../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
 
 For information about how to delegate tasks and issues, see [Delegate tasks and issues](../../manage-work/delegate-work/how-to-delegate-work.md).
 
-## Delegate work overview
+## Delegate tasks and issues overview
 
 Consider the following when you delegate tasks and issues:
 
@@ -56,7 +61,7 @@ Consider the following when you delegate tasks and issues:
 * If additional tasks and issues are assigned to you during the time you have selected to have your work delegated to other users, the new assigned work is automatically delegated to the same person for the time frame you selected if the task or issue dates are within that time frame.
 * The same user can be selected as the delegate by multiple users.
 * Delegated tasks and issues do not display in resource management tools, like the [!UICONTROL Workload Balancer] or the [!UICONTROL Resource Planner] for the delegated users.
-* You can view delegated work and delegates names in several areas of [!DNL Workfront]. For more information, see the section "Locate delegated work and delegates information" in the article [Manage task and issue delegation](../delegate-work/how-to-delegate-work.md).
+* You can view delegated work and delegates names in several areas of [!DNL Workfront]. For more information, see the section "Locate delegated work and delegates information" in the article [Delegate tasks and issues](../delegate-work/how-to-delegate-work.md).
 
 
    >[!IMPORTANT]

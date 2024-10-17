@@ -22,7 +22,7 @@ You may receive in-app or email notification when the following actions occur in
 
 +++ Expand to view access requirements for Workfront Planning. 
 
-You must have the following to be able to access Workfront Planning:  
+You must have the following access to perform the steps in this article:  
 
  <table style="table-layout:auto"> 
 <col> 

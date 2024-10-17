@@ -40,7 +40,7 @@ You can delete Workfront Planning fields that are no longer relevant.
 
 +++ Expand to view access requirements for Workfront Planning. 
 
-You must have the following to be able to access Workfront Planning:  
+You must have the following access to perform the steps in this article:  
 
  <table style="table-layout:auto"> 
 <col> 
