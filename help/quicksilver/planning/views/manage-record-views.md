@@ -39,7 +39,7 @@ This article describes the following information about record views:
 
 +++ Expand to view access requirements for Workfront Planning. 
 
-You must have the following to be able to access Workfront Planning:  
+You must have the following access to perform the steps in this article:  
 
  <table style="table-layout:auto"> 
 <col> 

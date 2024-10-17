@@ -50,7 +50,7 @@ You can connect the following:
 
 +++ Expand to view access requirements for Workfront Planning. 
 
-You must have the following to be able to access Workfront Planning:  
+You must have the following access to perform the steps in this article:  
 
  <table style="table-layout:auto"> 
 <col> 
@@ -64,7 +64,12 @@ You must have the following to be able to access Workfront Planning:
    <p> Products</p> </td> 
    <td> 
    <ul><li><p> Adobe Workfront</p></li> 
-   <li><p> Adobe Workfront Planning<p></li></ul></td> 
+   <li><p> Adobe Workfront Planning<p></li>
+   <li><p>Adobe Experience Manager Assets, if you want to connect AEM assets with Planning records<p>
+   <p>You must have an Adobe Experience Manager Assets license and an integration between AEM Assets and Workfront.
+    For information, see <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md">Adobe Workfront for Experience Manager Assets and Assets Essentials: article index</a>. </p>
+   </li>  
+   </ul></td> 
   </tr>   
 <tr> 
    <td role="rowheader"><p>Adobe Workfront plan*</p></td> 
@@ -140,7 +145,7 @@ You can connect records from Workfront Planning in the following areas of a Plan
 * The record's preview or page in the connected record fields on the Details tab.
 * The record's preview or page on the Connections tab.
 
-### Connect Adobe Workfront Planning records from the table view or the Details tab of the record page
+### Connect Adobe Workfront Planning records from the table view or the Details area
 
 {{step1-to-planning}}
 
@@ -158,6 +163,11 @@ You can connect records from Workfront Planning in the following areas of a Plan
 
     * Click a connected record's name from the list to add it to the selected record. The record is added automatically.
     * Start typing the name of a record and click it when it displays in the list. The record is added automatically. 
+
+    >[!TIP]
+    >
+    >    If only the image of the record was selected to display when the record types were connected, only the thumbnail or the icon of the record displays in the connected field. For more information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md). 
+
 
 1. (Optional) If you cannot find a record or an object to connect, and you want to add it, click **+ Add** to add a new record. For more information, see the section "Create records as you connect them" in the article [Create records](/help/quicksilver/planning/records/create-records.md).
     

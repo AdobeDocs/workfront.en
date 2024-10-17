@@ -9,11 +9,11 @@ exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
 ---
 # Export a record's details
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>-->
 
 
 To collaborate more efficiently with others that might not have a Workfront account, you can export a record's details to a file and share it with them. 
@@ -22,7 +22,7 @@ To collaborate more efficiently with others that might not have a Workfront acco
 
 +++ Expand to view access requirements for Workfront Planning. 
 
-You must have the following to be able to access Workfront Planning:  
+You must have the following access to perform the steps in this article:  
 
  <table style="table-layout:auto"> 
 <col> 
@@ -150,7 +150,7 @@ You must have the following to be able to access Workfront Planning:
 * You can export a record's details to the following file formats:
 
     * .docx Word
-    * <span class="preview">.pdf</span>
+    * .pdf
 
 * You can export the Details tab of a record's page. You cannot export the Connections tab. 
 
@@ -178,9 +178,9 @@ You must have the following to be able to access Workfront Planning:
 1. Click the **Export** icon ![](assets/export-icon-in-record-details-page.png) either in the preview or the record's page, then click one of the following:
 
    * **Microsoft Word**
-   * <span class="preview">**Adobe PDF**</span>
+   * **Adobe PDF**
 
-    A Word (.docx) <span class="preview">or a PDF</span> file downloads and is saved to your computer.
+    A Word (.docx) or a PDF file downloads and is saved to your computer.
 
     The name of the exported file is the Primary field of the record. 
 
@@ -188,7 +188,7 @@ You must have the following to be able to access Workfront Planning:
 
       >[!NOTE]
       >
-      >    Additional information that does not display on the page and is only visible after clicking Show more on the Details tab does not display in the exported PDF file. Only the information visible on the page displays in the exported file. 
+      >    Additional information that does not display on the page and is only visible after clicking Show more in the record details area does not display in the exported PDF file. Only the information visible on the page displays in the exported file. 
 
 
 1. (Optional) Go to the downloaded file, open it and either edit it (if it is a Word file), or share it with others. 

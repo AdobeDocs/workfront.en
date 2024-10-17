@@ -13,11 +13,11 @@ exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
 
 <!--do not use the snippet for IMPORTANT as it links to this article-->
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers, or in the Production environment for customers who enabled fast releases.</span>
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>
+<span class="preview">For information about the current release, see [Fourth Quarter 2023 release overview](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).</span>-->
 
 >[!IMPORTANT]
 >
@@ -80,7 +80,9 @@ The following features are currently available in Workfront Planning:
 * Connect records that belong to the same workspace  
 * Connect records that belong to different workspaces   
 * Connect Workfront Planning records to Workfront projects, programs, portfolios, companies, groups             
-* Connect Workfront Planning records to Adobe Experience Manager assets             
+* Connect Workfront Planning records to Adobe Experience Manager assets          
+    You must have an Adobe Experience Manager Assets license and an integration between AEM Assets and Workfront.
+    For information, see [Adobe Workfront for Experience Manager Assets and Assets Essentials: article index](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md). 
 * View record information in the Details tab
 * View record connections in the Connections tab
 * Customize the layout of a record's page             
@@ -89,7 +91,7 @@ The following features are currently available in Workfront Planning:
 * Share views publicly with any external resource, even people who are not Workfront users         
 * Duplicate views             
 * Submit requests to create records            
-* Export record details to Word <span class="preview">and PDF.</span>            
+* Export record details to Word and PDF.
 * Add comments to records             
 * Receive in-app notifications             
 * Receive email notifications             
@@ -102,7 +104,8 @@ The following features are currently available in Workfront Planning:
 * Workfront Planning public API             
 * Adobe Workfront Planning modules for Adobe Workfront Fusion             
 * Workfront Planning AI Assistant
-* Reporting on Workfront Planning information (Canvas Dashboard)
+* Reporting on Workfront Planning information
+    You can report on Planning information using the Canvas Dashboard. For information, see [Canvas Dashboards overview](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md). 
 
 <!--OLD: 
 
@@ -369,7 +372,7 @@ For an up-to-date list of released features, see [Adobe Workfront Planning relea
 
 ## Additional resources for Workfront Planning
 
-* [Adobe Workfront Planning: article index](/help/quicksilver/planning/planning-information.md): An index with all articles that contain documentation about Workfront Planning, grouped by area of interest. 
+* [Adobe Workfront Planning: article index](/help/quicksilver/planning/planning-information.md): An index of all articles that contain documentation about Workfront Planning, grouped by area of interest. 
 * [Adobe Workfront Planning AI Assistant overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): With the Workfront AI Assistant for Planning you can search for records, or create, update, and delete records by using commands and letting the assistant do the work for you. 
     <!--
     >[!NOTE]

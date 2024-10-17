@@ -29,10 +29,10 @@ This example shows how to call the Workfront API and bring data from the existin
 1. On the left side of the screen, find **External lookup** and drag it to a section on the canvas.
 1. Enter the **Label** and **Name** for the field.
 1. Select the **Format** for the field.
-1. Enter the API URL call in the **Base API URL** field.
+1. Enter the API call in the **Base API URL** field.
 
-   * You can add $$HOST to reference the same instance.
-   * You can add $$QUERY to filter the results based on querying a different field.
+   * To reference the same instance of Workfront that the custom form is in, use $$HOST for the URL.
+   * To filter the results based on querying a different field, add $$QUERY.
 
    **Example**
    `$$HOST/attask/api/v15.0/project/search?status={DE:StatusQuery}&$$QUERY`
