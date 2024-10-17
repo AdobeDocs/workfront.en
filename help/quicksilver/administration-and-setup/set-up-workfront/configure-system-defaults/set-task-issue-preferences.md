@@ -66,9 +66,9 @@ For more detail about the information in this table, see [Access requirements in
     * [[!UICONTROL Actual Dates]](#actual-dates)
     * [[!UICONTROL Delegation]](#delegation)
 
-   <!--
+<!--
   <li class="preview" data-mc-conditions="QuicksilverOrClassic.Draft mode"><a href="#work-on-it" class="MCXref xref">Work On It</a> </li>
-  -->
+-->
 
 * [[!UICONTROL Access]](#access)
 
