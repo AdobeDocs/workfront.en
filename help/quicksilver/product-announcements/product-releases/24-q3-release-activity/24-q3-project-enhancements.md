@@ -32,7 +32,7 @@ For information about updating Commit Date and Condition, see the following arti
 
 >[!NOTE]
 >
->Preview release: February 13, 2024; Production for fast release: With the 24.5 release (May 16, 2024); Production release for all customers: With the 24.10 release (October 2024).
+>Preview release: February 13, 2024; Production for fast release: With the 24.5 release (May 16, 2024); Production release for all customers: To be announced.
 
 We have added the same functionality for more relevant smart assignments to the Assignments field in the following areas:  
 
@@ -46,7 +46,7 @@ For more information, see [Smart assignments overview](/help/quicksilver/manage-
 
 >[!NOTE]
 >
->Preview release: December 21, 2023; Production for fast release: With the 24.5 release (May 16, 2024); Production release for all customers: With the 24.10 release (October 2024).
+>Preview release: December 21, 2023; Production for fast release: With the 24.5 release (May 16, 2024); Production release for all customers: To be announced.
 
 We have changed the algorithm that Workfront uses to calculate and suggest smart assignments for tasks. The new algorithm applies in the following areas in Workfront where you assign a task: task lists, the Assignments area in the task header, Home, and the Summary panel. 
 
