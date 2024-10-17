@@ -32,7 +32,7 @@ This article describes the access and settings that you need in place to use the
 
 <!--*********ensure that the link ^^^^^^^^below^^^^^^^^ to Workfront Pricing and Packaging now also includes information about Workfront Planning. If not, talk with Lauren S.***************-->
 
-You must have the following to be able to access Workfront Planning: 
+You must have the following access to perform the steps in this article: 
 
 <table style="table-layout:auto">
  <col>
@@ -122,7 +122,7 @@ You must have the following to be able to access Workfront Planning:
 
 <!--Acccess and permissions before GA (OLD): 
 
-You must have the following to be able to access Workfront Planning:
+You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto">
  <col>

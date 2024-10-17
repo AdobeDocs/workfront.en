@@ -98,16 +98,16 @@ The following sections illustrate where you can access the Workload Balancer wit
   
 1. Click **Workload Balancer** in the left panel.
 
-  ![](assets/nwe-balancer-team-350x172.png)
+   ![](assets/nwe-balancer-team-350x172.png)
 
-  The Workload Balancer of a team displays the following information, by default:
+   The Workload Balancer of a team displays the following information, by default:
 
-  * **Unassigned Work**: Items assigned to the team and not assigned to users. 
-  * **Assigned Work**: All members of the team with all their assignments. 
+   * **Unassigned Work**: Items assigned to the team and not assigned to users. 
+   * **Assigned Work**: All members of the team with all their assignments. 
   
-    >[!TIP]
-    >
-    >Team members might be assigned to work also assigned to the team or to work assigned to other teams or roles.  
+     >[!TIP]
+     >
+     >Team members might be assigned to work also assigned to the team or to work assigned to other teams or roles.
 
 ### Access the Workload Balancer for a project
   
@@ -116,30 +116,30 @@ The following sections illustrate where you can access the Workload Balancer wit
 1. Click the name of a project to open the project page.
 1. Click **Workload Balancer** in the left panel. You might have to click **Show More**, then **Workload Balancer**.
 
-    The Workload Balancer for the project displays.
+   The Workload Balancer for the project displays.
 
-    ![](assets/nwe-balancer-project-350x152.png) 
+   ![](assets/nwe-balancer-project-350x152.png)
 
-    The Workload Balancer of a project displays the following by information, by default:
+   The Workload Balancer of a project displays the following by information, by default:
 
-    * **Unassigned Work**: Items from the project that are assigned to job roles or teams and are not assigned to users.  
-    * **Assigned Work**: Users assigned to items on the project. 
+   * **Unassigned Work**: Items from the project that are assigned to job roles or teams and are not assigned to users.
+   * **Assigned Work**: Users assigned to items on the project.
 
-      >[!TIP]
-      >
-      >You can display all users in the system instead of only the ones on the project (in the Assigned Work area) by enabling the Show all users option. For information, see [Navigate the Workload Balancer](../workload-balancer/navigate-the-workload-balancer.md).
+     >[!TIP]
+     >
+     >You can display all users in the system instead of only the ones on the project (in the Assigned Work area) by enabling the Show all users option. For information, see [Navigate the Workload Balancer](../workload-balancer/navigate-the-workload-balancer.md).
 
 
 ## Add the Workload Balancer to a custom section
 
-You can add the Workload Balancer to any custom  section.
+You can add the Workload Balancer to any custom section.
 
-Most customizations that you have already applied to the Workload Balancer are preserved when adding it to a custom section. 
+Most customizations that you have already applied to the Workload Balancer are preserved when adding it to a custom section.
 
 1. Access the Workload Balancer by going to any of the following areas:
 
    * The Resourcing area
-   * A team 
+   * A team
    * A project
 
 1. Obtain a shareable link and copy it to your clipboard as described in [Share the Workload Balancer with a link](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md).
