@@ -75,7 +75,7 @@ To filter your work:
    | My Requests  | Displays all requests that you have submitted                                                                 |
    | My Approvals | Displays all of your pending, assigned, delegated, and submitted approvals    |
 
-1. Click the **Filter** icon ![](assets/filter-nwepng.png) in the top-right corner of the widget worklist. 
+1. Click the **Filter** icon ![](assets/filter-nwepng.png) in the right-top corner of the widget worklist. 
 1. Choose a **Suggested** filter or a filter that you have created. 
    For detailed information on suggested filters, see [Home widget filters overview](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md).
 1. (Optional) Toggle **Stack filters** on to select multiple filter options. 
