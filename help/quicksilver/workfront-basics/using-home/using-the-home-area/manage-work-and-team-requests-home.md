@@ -102,8 +102,10 @@ To work on a work item:
 1. (Conditional) Click **Customize** to add the My Work widget.
 
 1. In the **[!UICONTROL worklist]** area of the widget, select the request you want to work on, then click **[!UICONTROL Work On It]**.
-1. Hover over the work item, then click the **Summary** icon ![](assets/open-summary-new-home.png) to view information about the work item.
-   ![](assets/my-work-work-on-it.png)
+1. Hover over the work item, then click the **Summary** icon to view information about the work item.
+
+   ![](assets/open-summary-new-home.png)
+
 
 ## Remove a work item
 
@@ -114,9 +116,9 @@ To remove a work item:
 1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Click **Customize** to add the My Work widget.
 
-1. In the widget worklist, hover over the work item, then click the **Summary** icon ![](assets/open-summary-new-home.png) to view information about the work item.
-   ![](assets/my-work-work-on-it.png)
-1. in the Assignments section, remove your name. 
+1. In the widget worklist, hover over the work item, then click the **Summary** icon to view information about the work item.
+    ![](assets/open-summary-new-home.png)
+1. in the **Assignments** section, remove your name. 
    ![](assets/remove-assignment.png)
 
 
