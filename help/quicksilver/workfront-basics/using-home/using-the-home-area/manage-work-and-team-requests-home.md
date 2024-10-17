@@ -7,9 +7,11 @@ author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
 ---
-# Manage work and team requests in the [!UICONTROL Home] area
+# Manage work items and team requests in the [!UICONTROL Home] area
 
-When work tasks and issues are assigned to you, they are listed on the [!UICONTROL Work List] in the [!UICONTROL Home] area. You can view, reassign, reply to, work on, or remove a request. Work requests in the [!UICONTROL Home] area are not limited to issues associated with request queues.
+When work tasks and issues are assigned to you, they are listed in the My Work widget, My Tasks widget, and My Issues widget.  You can view, work on, or remove work items and requests. 
+
++++ Expand to view access requirements for the functionality in this article.
 
 ## Access requirements
 
@@ -42,18 +44,22 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-## View a work request
++++
 
-Work requests that are assigned to you are displayed in the left panel in [!UICONTROL Home]. You can configure which requests are displayed in [!UICONTROL Home] using the filter at the top of the [!UICONTROL Work List].
+## View a work item in the My Work widget
+
+Work itemsa that are assigned to you are display in the My Work widget in [!UICONTROL Home]. You can configure which work items are displayed in the My Work widget using the filter at the top of the widget [!UICONTROL worklist].
 
 You can select filters that display items that are ready for you to work on, or items that you are currently working on already.
 
-This article describes how to use the filters in the [!UICONTROL Home] area to view items that you are currently working on or might consider starting to work on. For information about all filters in the [!UICONTROL Home] area, see [Display items in the Work List in the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+This article describes how to use the filters in the [!UICONTROL Home] area to view items that you are currently working on or might consider starting to work on. For information about how to use filters in the [!UICONTROL Home] area, see [Display items in the [!UICONTROL worklist] in the [!UICONTROL Home] area](/help/quicksilver/workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+
+To view a work item in the My Work widget:
 
 1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
-1. Click the **[!UICONTROL Filter]** drop-down menu.
+1. (Conditional) Click **Customize** to add the My Work widget.
 
-   ![](assets/displaying-work-items-filters-nwe-350x401.png)
+1. Click the **Filter** icon ![](assets/filter-nwepng.png) in the top-left corner of the widget worklist. 
 
 1. Click either or both of the following options for tasks:
 
@@ -67,24 +73,53 @@ This article describes how to use the filters in the [!UICONTROL Home] area to v
    * The tasks and their parents might have predecessors or task constraints that prevent them from being worked on.
    * The tasks or issues have a [!UICONTROL Planned Start Date] that is more than two weeks in the future.
 
-
 1. Click **[!UICONTROL Working On]** under [!UICONTROL Tasks] or [!UICONTROL Issues] to display tasks and issues that you are currently working on.
 1. Click **[!UICONTROL Requested]** under [!UICONTROL Issues] to display issues that have been requested from you (you are assigned to them), but you have not accepted to work on yet.
 
-## Access a team request
+## Access a team request in the Team Request widget
 
-You can access a request assigned to your team directly from the [!UICONTROL Home] area. For more information about team requests, see [Team requests overview](../../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
+You can access a request assigned to your team directly from the Team Requests widget in [!UICONTROL Home] area. For more information about team requests, see [Team requests overview](../../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md).
+
+To access a team request:
 
 1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
-1. In the **[!UICONTROL Work List]** area, click to expand the **[!UICONTROL Team Requests]** grouping.
+1. (Conditional) Add the Team Requests to your home screen. Click **Customize**, and find **Team Requests**. 
 
-   If there are no requests assigned to your team, the grouping does not display.
+   The widget displays team requests under team groupings. The **[!UICONTROL Team Requests]** widget displays and shows all requests assigned to any team you are on. For more information about working with team requests, see [Manage work and team requests](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
-   ![](assets/team-requests-expanded-home-group-by-drop-down-nwe-350x314.png)
+   ![](assets/team-request-widget.png)
 
-1. Click the team name.\
-   The **[!UICONTROL Team Requests]** section displays and shows all requests assigned to your team. For more information about working with team requests, see [Manage work and team requests](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
+## Work on a work item in the My Work widget
+
+When you click the [!UICONTROL Work On It] button, you are indicating to the user who submitted the work item and to any other user who might be assigned to the work item that you are going to start work.
+
+To work on a work item:
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) Click **Customize** to add the My Work widget.
+
+1. In the **[!UICONTROL worklist]** area of the widget, select the request you want to work on, then click **[!UICONTROL Work On It]**.
+1. Hover over the work item, then click the **Summary** icon ![](assets/open-summary-new-home.png) to view information about the work item.
+   ![](assets/my-work-work-on-it.png)
+
+## Remove a work item
+
+If you decide that you should not be working on the work item, you can either convert the task or issue back to a request or remove it from your list.
+
+To remove a work item: 
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) Click **Customize** to add the My Work widget.
+
+1. In the widget worklist, hover over the work item, then click the **Summary** icon ![](assets/open-summary-new-home.png) to view information about the work item.
+   ![](assets/my-work-work-on-it.png)
+1. in the Assignments section, remove your name. 
+   ![](assets/remove-assignment.png)
+
+
+
+<!--
 ## Reassign a request
 
 1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
@@ -98,6 +133,8 @@ You can access a request assigned to your team directly from the [!UICONTROL Hom
    >![Reassign button](assets/reassign-in-left-panel-350x204.png)
 
 1. If a task's status is changed to [!UICONTROL New] or [!UICONTROL In Progress] after it was completed, you must unassign the user, save the task, then reassign the user in order for the task to reappear in their Home Work List.
+
+
 
 ## Reply to a request
 
@@ -115,38 +152,6 @@ You can reply to a request to further clarify the request or to propose a new da
    >[!TIP]
    >
    >If the work request is still in the Ready to Start or [!UICONTROL Not Ready] state, you can use the **[!UICONTROL Reply]** button in the **[!UICONTROL More]** menu in the [!UICONTROL Work List].\
-   >![[!UICONTROL Reply button]](assets/reassign-in-left-panel-350x204.png)   >
+   >![[!UICONTROL Reply button]](assets/reassign-in-left-panel-350x204.png)   
 
-## Work on a request
-
-When you click the [!UICONTROL Work On It] button, you are indicating to the user who submitted the request and to any other user who might be assigned to the request that you are going to start working on the request. For more information about working on requests, see  [Manage work and team requests](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
-
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
-1. In the **[!UICONTROL Work List]** area, select the request you want to work on, then click **[!UICONTROL Work On It]**.\
-   Information about the issue is displayed in the right panel.
-
-## Remove a request
-
-If you decide that you should not be working on the request, you can either convert the task or issue back to a request or remove it from your list.
-
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
-1. In the **[!UICONTROL Work List]**, point to the item waiting to be worked on.
-1. Click the **[!UICONTROL Assignments]** widget and remove yourself. This removes the work item from your Work List. If the request is not assigned to anyone else or to another team or job role, the request is left unassigned.
-
-   Or
-
-   Click the **[!UICONTROL More]** menu icon ![](assets/more-icon.png) to the right of the task or issue name in the [!UICONTROL Home Work] List.
-
-   ![](assets/more-menu-in-home-work-list-convert-to-request-remove-add-to-priority-options-nwe-350x160.png)
-
-1. Select from the following options:
-
-   * **[!UICONTROL Convert to work request]:** Select this option to convert the work item back to a work request.\
-
-      The work item is transitioned back to a request, and you remain assigned to the request.\
-      You can accept the request at a later time by clicking **[!UICONTROL Work on It]** again.
-
-   * **[!UICONTROL Remove]:** Select this option to remove a request from your [!UICONTROL Work List].\
-
-      You are unassigned from the request and the request is no longer associated with your name in [!DNL Adobe Workfront].\
-      If the request is not assigned to anyone else or to another team or job role, the request is left unassigned.
+   -->

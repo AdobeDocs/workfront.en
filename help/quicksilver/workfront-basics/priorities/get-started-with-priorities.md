@@ -17,6 +17,11 @@ With Priorities, you can enjoy
 * Greater productivity: Access project context and perform tasks quicker with fewer clicks
 * Personalized features: Benefit from features uniquely designed for task owners
 
+>[!IMPORTANT]
+>
+>Workfront Administrators cannot customize priorities through the Layout Template at this time.
+
+
 ## Find and organize your work
 
 In Priorities, you can filter and group your work to help you manage deadlines and prioritize your what is important to you. You can also quickly identify Urgent work with the My Focus column.
@@ -189,7 +194,6 @@ Use the [!DNL Catch me up] feature to see what you missed. Catch me up will summ
 
 ## Considerations
 
-* Workfront Administrators cannot customize priorities through the Layout Template at this time.
 * Accessing tasks in Priorities is across tabs. We plan to add additional tabs, like Documents, Subtasks, Approvals, etc, in the future. Let us know you need these items by submitting feedback using the **Give Feedback** button.
 
 
