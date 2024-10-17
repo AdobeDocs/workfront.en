@@ -274,3 +274,26 @@ You can use the following filters in the My Work widget:
     </tr>
   </tbody>
 </table>
+
+## My Approvals
+
+You can use the following filters in the My Approvals widget:
+
+<table>
+  <tbody>
+    <tr>
+      <td>Delegated approvals</td>
+      <td>Displays approvals delegated to you</td>
+    </tr>
+    <tr>
+      <td>My approvals</td>
+      <td>Displays items that require your approval
+      </td>
+    </tr>
+    <tr>
+      <td>Approvals I've Submitted</td>
+      <td>Displays items you have submitted for approval
+       </td>
+    </tr>
+  </tbody>
+</table>
