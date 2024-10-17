@@ -49,10 +49,13 @@ To do this:
         >
         >The **Connection type** option is not available when connecting records from different workspaces or when connecting Experience Manager assets. For more information, see [Connected record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
         
-    * **Record appearance**: Deselect the **Title** toggle if you don't want to display the name of products when adding them to the campaign's Product information field. If enabled, records display both the thumbnail and the title. The toggle is enabled by default. 
+    * **Record appearance**: Choose from the following options:
+        * **Name and image**: Displays the name and the thumbnail or the icon of the connected records. This is selected by default.
+        * **Name**: Displays only the name of the connected records.
+        * **Image**: Displays only the thumbnail or the icon of the connected records.
     * **Select lookup fields**: If you leave this option selected, the **Add lookup fields** box opens next, to allow you to link Product fields with the Campaign record type. You can click **Skip** to skip this step and add Product fields later. 
 
-    ![](assets/new-connection-with-product-record-type.png)
+        ![](assets/new-connection-with-product-record-type.png)
 
 1. (Conditional) If you selected the **Select lookup fields option** in the previous step, from the list of fields associated with the **Product** record type, click the **+** icon for the **Budget** field, then click **Add fields**. This creates a field called **Budget (from Product information)**, which is the name of the linked field. Any information for the Product Budget displays in this field for the Campaign records. 
 
