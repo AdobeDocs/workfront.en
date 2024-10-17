@@ -393,7 +393,7 @@ Regardless of the method you use to create filters, creating a filter from scrat
      >
      >When you connect a group of AND statements by multiple OR statements, you must repeat the fields that are not changing between the OR statements for each group of statements. 
      >
-     >![Connected filter statements](assets/filters-and-statements-connected-by-or-statements-builder-ui-old-filters-2022.png)
+     >![Connected filter statements](assets/filters-and-statements-connected-by-or-statements-builder-ui-legacy-filters.png)
      >
      >When you build a filter for tasks that contain the word "marketing" and are in projects with a status of Current or Planning, you must have the following filter rules:
      >

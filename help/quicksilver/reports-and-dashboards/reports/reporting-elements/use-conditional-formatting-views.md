@@ -133,7 +133,7 @@ For information on creating a report, see [Create a report](../../../reports-and
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Text Color</strong></td> 
-      <td> <p>Select the color in which the text is displayed. There are 8 colors available.</p> <p><b>NOTE</b></p> <p> If the field contains a hyperlink, the text color selections are not applied to this field.</p> </td> 
+      <td> <p>Select the color in which the text is displayed using the color selector.</p> <p><b>NOTE</b></p> <p> If the field contains a hyperlink, the text color selections are not applied to this field.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Text Format</strong></td> 
@@ -145,7 +145,7 @@ For information on creating a report, see [Create a report](../../../reports-and
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Background</strong></td> 
-      <td>Select the color of the background for the text. There are 8 colors available.</td> 
+      <td>Select the color of the background for the text using the color selector.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Show Icon</strong></td> 
@@ -183,6 +183,6 @@ For information on creating a report, see [Create a report](../../../reports-and
    * Add the column rule again for the red background on late projects.
    * When you save the rules and the view, the red background is not applied to a canceled project.
 
-1. Click **Done**.
+1. Click **Save**.
 1. Click **Save + Close**.  
    On the report, users see changes to the format if the specified conditions have been met.
