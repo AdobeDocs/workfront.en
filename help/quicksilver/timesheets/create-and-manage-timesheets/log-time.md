@@ -330,9 +330,6 @@ You can log project-specific time in Home.
 
 For general information about using the Home area, see [Use the Home area](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
-* For information about using the legacy Home area, see [Use the Home area](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
-* For information about using the new Home area, see [Get started with New Home](../../workfront-basics/using-home/new-home/get-started-with-new-home.md).
-
 <!--#### Log time on a work item from the new Home area-->
 
 You can log time to tasks and issues in any of the widgets using the Summary panel in the Home area. For information, see the [Summary panel](#summary-panel) section in this article. 
