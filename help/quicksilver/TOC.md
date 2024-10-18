@@ -890,7 +890,7 @@ feature-set: Workfront
     * [Home](workfront-basics/using-home/home.md)
     * Use the Home area {#use-home-area}
       * [Use the Home area](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
-      * [Move from Legacy home to New Home](workfront-basics/using-home/new-home/move-to-new-home.md)
+      <!--* [Move from Legacy home to New Home](workfront-basics/using-home/new-home/move-to-new-home.md)-->
       * [Move from Legacy home to Priorities](workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
       * [Get started with Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
       * [Add, edit, or remove widgets in New Home](workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)

@@ -54,7 +54,7 @@ Doing this as soon as possible will then give your users time to adjust to the n
 
 This articles below provide information on what functionality is available in new Home and Priorities:
 
-* [Move from Legacy Home to New Home](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
+<!--* [Move from Legacy Home to New Home](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)-->
 * [Move from Legacy Home to Priorities](/help/quicksilver/workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
 
 ### Follow the Home experience as it develops

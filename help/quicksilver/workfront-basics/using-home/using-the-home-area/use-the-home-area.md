@@ -13,7 +13,7 @@ exl-id: 246e3f71-6403-4381-866c-fa693fb9944d
 This section contains the following articles:
 
 * [Move from Legacy home to Priorities](/help/quicksilver/workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
-* [Move from Legacy home to New Home](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
+<!--* [Move from Legacy home to New Home](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)-->
 * [Get started with [!UICONTROL Home]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
 * [Add, edit, or remove widgets in New Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
 * [Use the [!UICONTROL My Updates] area](../../../workfront-basics/using-home/using-the-home-area/my-updates-area.md)
