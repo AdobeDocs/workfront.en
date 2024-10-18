@@ -24,7 +24,6 @@ New Home is a major new feature that we are excited to continue developing and i
 
 New Home will be the default experience for all users upon its release. However, you can choose to revert to the existing Home experience as we continue developing its capabilities.
 
-For more information, see [Get started with New Home in Adobe Workfront](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
 
 [View a video demonstration of this feature](https://video.tv.adobe.com/v/3420969/){target=_blank}
 

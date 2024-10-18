@@ -60,68 +60,75 @@ For more information about viewing items awaiting approvals or items that you ha
 
 ## Approve work from the Home area
 
-1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) Click **Customize** to add the **My Approvals** widget.
+1. (Conditional) Click the **Filter** drop-down menu, then select **All** to see approvals assigned and delegated to you.
 
    >[!NOTE]
    >
-   >Your Workfront administrator might make the following changes to the Home icon in your environment:
-   >
-   >   
-   >* Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
-   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
+   >Approvals assigned to Job Roles or Groups don't display in Home. Approvals assigned to Teams display in the My Approvals widget for each team member.
 
-1. Click the **Filter** drop-down menu.
 
-   ![](assets/displaying-work-items-filters-nwe-350x401.png)
-
-1. Select **Approvals**.  
-   All work items that require your approval display.&nbsp;
-
-   >[!NOTE]
-   >
-   >Approvals assigned to Job Roles or Groups don't display in Home. Approvals assigned to Teams display in the Team Request grouping in the Work List.
-
-1. (Optional) Change the order in which approvals are displayed, as described in the section "Group and sort by Date, Project, or Priority" in the article [Display items in the Work List in the Home area](../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 1. Select the item where you want to make an approval decision.
 
-   ![](assets/task-approval-home-350x127.png)
+   ![](assets/my-approvals-widget.png)
 
 1. Click one of the available options when making an approval decision in the right panel. The following options display in the upper-right corner of the page, depending on the type of item you are approving:
 
-   * **Projects:** Click **Approve**&nbsp;or **Reject**.
-   
-   * **Tasks:**&nbsp;Click **Approve**&nbsp;or **Reject**&nbsp;.
-   
-   * **Issues:**&nbsp;Click **Approve**&nbsp;or **Reject** .
-   
-   * **Timesheets:**&nbsp;Click **Approve**&nbsp;or **Reject**&nbsp;.
-   
-   * **Documents:**&nbsp;Click **Approve**,&nbsp;**Reject**, or **Changes**.  
-     &nbsp;Consider the following when viewing&nbsp; approvals:
-
-      * Proof approvals display here when a user shares a proof with you, as described in the section "Share a proof link" in the article [Share a proof within Adobe Workfront](../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md).
-      * Proofing approvals are displayed in the Home area&nbsp;only if your Workfront environment is integrated with a Workfront Proof Premium account. If you cannot use proofing as discussed here, contact your Workfront administrator.
-      * You receive an in-app notification, notifying you of the proofing approval.  
-        For more information about in-app notifications, see [View and manage in-app notifications](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+   <table>
+   <tr>
+      <td>
+      <p><strong>Access</strong></p>
+      </td>
+      <td>
+      <p><strong>Work items</strong></p>
+      </td>
+      <td>
+      <p><strong>Documents</strong></p>
+      </td>
+      <td>
+      <p><strong>Proofs</strong></p>
+      </td>
+   </tr>
+   <tr>
+      <td>
+       <ul>
+      <li>Grant</li>
+      <li>Ignore</li>
+      </ul>
+      You can adjust the level of access in the <b>Change access</b> drop-down menu if desired.
+      </td>
+      <td>
+         <ul>
+         <li>Approve</li>
+         <li>Reject</li>
+         </ul>
+      You can leave a comment with your decision by click ing the drop-down menu in the decision button.
+      </td>
+      <td>
+   Assigned as an approver
+         <ul>
+         <li>Approve</li>
+         <li>Approve with changes</li>
+         <li>Needs work</li>
+         </ul>
+   Assigned as a reviewer
+         <ul>
+         <li>Complete my review</li>
+         </ul>
+      The options in this column apply only to new document approvals. Legacy document approvals appear the same as Work item approvals. 
+      </td>
+      <td>
+         <ul>
+         <li>Go to proof</li>
+         </ul>
+         You make your decision in the proof viewer. For information about reviewing a proof, see <a href="../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md">Review proofs within Adobe Workfront</a>.
+      </td>
+   </tr>
+   </table>
       
-      * The name of the user who requested the approval&nbsp;is displayed next to the thumbnail image in the Home area, with the following text:  
-        "*User A* would like your approval on..."       
-      
-        <!--      
-        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">      
-        (NOTE:&nbsp;From&nbsp;Courtney: Is this true?)      
-        </MadCap:conditionalText>      
-        -->
+After you make a decision, the approval is removed from the My Approval widget.   
 
-        If the user name is not available, the following text is displayed:  
-        "A new version of a proof is ready to view"
-      * To make an approval decision on the proof,&nbsp;click **Go to Proof**, click **Finish review**, then click&nbsp;one of the available options. The available options when approving a proof are:&nbsp;**Approved**, **Approved with changes**, **Changes required**, and **Not relevant**.
-      
-      * After a decision is made on the proof, the proof remains in the My Approvals tab with the text "Decision Made" until you click the **Refresh** button, or until you refresh the browser page.
-
-        For information about reviewing a proof, see [Review proofs within Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
-
-   * **Access:** Select the level of access to grant in the **Change access** drop-down menu, then click **Grant Access**. Or, click **Ignore**.
 
 ## Approve work directly from a project, task, or issue
 

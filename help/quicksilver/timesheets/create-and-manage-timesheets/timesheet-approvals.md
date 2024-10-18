@@ -116,7 +116,7 @@ If the following notification settings are in place, the user who submits the ti
 
    The Home area opens.
 
-1. Ensure you have the **My Approvals** widget added to your Home area. For more information, see [Add, edit, or remove widgets in New Home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md). 
+1. Ensure you have the **My Approvals** widget added to your Home area. For more information, see [Add, edit, or remove widgets in New Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md). 
 1. Find a timesheet approval in your My Approvals widget.
 1. (Optional) Expand the drop-down menu to the right of the Approve or Reject buttons to add a comment about your decision, then click **Add**. 
 1. Click one of the following buttons to make your approval decision:
