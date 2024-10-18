@@ -3,7 +3,7 @@ content-type: overview
 navigation-topic: use-the-home-area
 title: Get started with [!UICONTROL Home]
 description: Home helps you manage your work. You can customize this flexible space to highlight the work that is most important to you and streamline your task, issue, request, and approval management.
-author: Nolan
+author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
 ---
@@ -20,12 +20,6 @@ Home helps you manage your work. You can customize this flexible space to highli
 ## Customize Home
 
 Home is designed to be highly customizable, allowing you to select the widgets that track your most important work, filter the scope of that work based on when it's due, and even add a splash of color.
-
-## Add Widgets
-
-Widgets are the foundation of the new Home. By adding widgets to your Home page, you can choose the type of information that displays to best meet your work needs. Some widgets are only available to specific license types, as the objects they track are only available to those licenses. 
-
-For information on adding, moving, resizing, or deleting widgets, see [Add, edit, or remove widgets in Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
 ### Background customization
 
@@ -45,3 +39,11 @@ You can add a bit of personal flare to your Home page by selecting a colorful ba
     The Customize panel opens. 
 
 1. In the **Background** section of the **Customize** panel, click the color you would like to select for your Home background. You can also click **None** to remove the background.
+
+## Manage you work
+
+### Add Widgets
+
+Widgets are the foundation of the new Home. By adding widgets to your Home page, you can choose the type of information that displays to best meet your work needs. Some widgets are only available to specific license types, as the objects they track are only available to those licenses. 
+
+For information on adding, moving, resizing, or deleting widgets, see [Add, edit, or remove widgets in Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).

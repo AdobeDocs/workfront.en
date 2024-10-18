@@ -54,52 +54,52 @@ You can create a personal to-do item that is available only to you in the [!UICO
 1. (Conditional) Add the to-do widget to your home screen. Click **Customize**, and find **To-dos**. 
 1. Go to the **To-do** widget, then click **Add to-do**. 
 1. Type the 
-1. (Optional) Click the Date icon ![](assets/date-icon.png) to add a due date for the item. 
+1. (Optional) Click the **Date** icon ![](assets/date-icon.png) to add a due date for the item. 
 ![](assets/my-work-to-dos.png)
 
 
 
 ## Add a task to a project
 
-You can add a task an existing project directly from the Home area:
+You can add a task to an existing project directly from the Home area:
 
 1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Add the **My Tasks** widget to your home screen. Click **Customize**, and find **My Tasks**. 
 1. Go to the **My Tasks** widget, then click **New**. 
    ![](assets/create-new-task.png)
-1. In the New Task dialog box, enter the task name.
+1. In the **New Task** dialog box, enter the task name.
 1. Begin typing a project name, then select the name from the list.
 1. (Optional) Enter information in the following fields:
 
    | Field | Instructions |
    |----------|----------|
-   | Description    | Enter a description.   |
-   | Assignments    | Assign users.   |
-   | Duration    | Enter the duration.   |
-   | Planned Completion Date    | Choose a planned completion date.   |
-   | More options | Choose more options to configure more settings for the task. For more information on creating tasks, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).   |
+   | **Description**    | Enter a description.   |
+   | **Assignments**    | Assign users.   |
+   | **Duration**    | Enter the duration.   |
+   | **Planned Completion Date**   | Choose a planned completion date.   |
+   |**More options** | Choose more options to configure more settings for the task. For more information on creating tasks, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).   |
 
 1. Click **Create task**.
 
 
 ## Add an issue to a project
 
-You can add an issue an existing project directly from the Home area:
+You can add an issue to an existing project directly from the Home area:
 
 1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Add the **My Issues** widget to your home screen. Click **Customize**, and find **My Issues**. 
 1. Go to the **My Issues** widget, then click **New**. 
    ![](assets/create-new-issue.png)
-1. In the New issue dialog box, begin typing a project name, then select the name from the list.
+1. In the **New issue dialog** box, begin typing a project name, then select the name from the list.
 1. Enter an issue name. 
 1. (Optional) Enter information in the following fields:
 
    | Field | Instructions |
    |----------|----------|
-   | Description    | Enter a description.   |
-   | Assignments    | Assign users.   |
-   | Priority    | Choose a priority level.   |
-   | Documents    | Upload a document.   |
+   | **Description**    | Enter a description.   |
+   | **Assignments**    | Assign users.   |
+   | **Priority**    | Choose a priority level.   |
+   | **Documents**    | Upload a document.   |
 
 1. Click **Save new issue**.
 
@@ -112,7 +112,7 @@ You can create a request directly from the Home area:
 1. Go to the **My Requests** widget, then click **New**. 
    ![](assets/create-new-request.png)
 
-1. In the New request dialog, begin typing the name of the request queue. 
+1. In the **New request** dialog, begin typing the name of the request queue. 
 1. Fill out the relevant fields.
 1. Click **Submit**.
 
