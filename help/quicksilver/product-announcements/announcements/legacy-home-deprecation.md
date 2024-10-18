@@ -28,7 +28,7 @@ Still, we know a change like this can be disruptive, and we want to help with yo
 
 **What can I use instead?**
 
-* New Home is already available as a replacement. See [Get started with the new Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md) for more information about using new Home. It can be customized by both users through personalization options and administrators through layout templates. 
+* New Home is already available as a replacement. See [Get started with the new Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md) for more information about using new Home. It can be customized by both users through personalization options and administrators through layout templates. 
 
 * Priorities is in development and will serve as another element of the streamlined work management experience in Adobe Workfront.
 

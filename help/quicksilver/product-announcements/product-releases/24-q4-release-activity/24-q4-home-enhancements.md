@@ -23,7 +23,7 @@ We've made the following Changes to the Awaiting my approval widget:
 * **Added Approvals I've Submitted as a filter option**: You can now view approvals you have submitted in new Home with this widget.
 * **Deadline**: You can now see the proof deadline if one has been set. If a deadline is not set, the deadline defaults to the creation date.
 
-For more information, see [Get started with new Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+For more information, see [Get started with Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 ## Simplify the Workfront experience for task owners with Priorities
 
