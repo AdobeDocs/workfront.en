@@ -78,7 +78,7 @@ For more information about viewing items awaiting approvals or items that you ha
    <table>
    <tr>
       <td>
-      <p><strong>Access</strong</p>
+      <p><strong>Access</strong></p>
       </td>
       <td>
       <p><strong>Work items</strong</p>
