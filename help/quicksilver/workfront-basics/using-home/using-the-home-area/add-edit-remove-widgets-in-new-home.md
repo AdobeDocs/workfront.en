@@ -80,11 +80,11 @@ Widgets are the foundation of Home. By adding widgets to your Home page, you can
 
 To add a widget:
 
-1. Navigate to your Home page, either by clicking on the Adobe Workfront icon ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) at the top of your screen if Home is set as your landing page, or by clicking on the main menu icon ![Main Menu Icon](../new-home/assets/main-menu-icon-left-nav.png) then clicking on **Home**.
+1. Navigate to your Home page, either by clicking on the Adobe Workfront icon ![Adobe Workfront Icon](assets/home-icon-30x29.png) at the top of your screen if Home is set as your landing page, or by clicking on the main menu icon ![Main Menu Icon](assets/main-menu-icon.png) then clicking on **Home**.
 
 1. Click **Customize** at the upper-right corner of the screen.
 
-    ![Customize Button](../new-home/assets/customize-button.png)
+    ![Customize Button](assets/customize-button.png)
 1. Scroll to the **Widgets** section, then select the widgets you want to add.
 
     +++ Expand to view a detailed list of the available widgets
@@ -135,30 +135,30 @@ To add a widget:
 
 ## Move or resize a widget on your Home page
 
-1. Navigate to your Home page, either by clicking on the Adobe Workfront icon ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) at the top of your screen if Home is set as your landing page, or by clicking on the main menu icon ![Main Menu Icon](../new-home/assets/main-menu-icon-left-nav.png) then clicking on **Home**.
+1. Navigate to your Home page, either by clicking on the Adobe Workfront icon ![Adobe Workfront Icon](assets/home-icon-30x29.png) at the top of your screen if Home is set as your landing page, or by clicking on the main menu icon ![Main Menu Icon](assets/main-menu-icon.png) then clicking on **Home**.
 
 1. Find the widget you would like to move or resize on your Home page.
 
 1. Move the widget by hovering your cursor over the top edge of the widget until it becomes a hand, then click and drag until the widget is in your desired location. Other widgets will shift around it as you move the widget.
 
-1. Resize the widget by clicking and dragging on the resize icon ![Resize Icon](../new-home/assets/resize-icon.png) in the bottom-right corner of the widget.
+1. Resize the widget by clicking and dragging on the resize icon ![Resize Icon](assets/resize-icon.png) in the bottom-right corner of the widget.
 
 ## Remove a widget from your Home page
 
-1. Navigate to your Home page, either by clicking on the Adobe Workfront icon ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) at the top of your screen if Home is set as your landing page, or by clicking on the main menu icon ![Main Menu Icon](../new-home/assets/main-menu-icon-left-nav.png) then clicking on **Home**.
+1. Navigate to your Home page, either by clicking on the Adobe Workfront icon ![Adobe Workfront Icon](assets/home-icon-30x29.png) at the top of your screen if Home is set as your landing page, or by clicking on the main menu icon ![Main Menu Icon](assets/main-menu-icon.png) then clicking on **Home**.
 
-1. Find the widget on your Home page you would like to remove, then click on the more icon ![More Icon](../new-home/assets/more-icon.png) in the top-right corner of the widget.
+1. Find the widget on your Home page you would like to remove, then click on the more icon ![More Icon](assets/more-icon.png) in the top-right corner of the widget.
 
 1. Click **Remove**.
 
 
 ## Change the color of your background
 
-1. Navigate to your Home page, either by clicking on the Adobe Workfront icon ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) at the top of your screen if Home is set as your landing page, or by clicking on the main menu icon ![Main Menu Icon](../new-home/assets/main-menu-icon-left-nav.png) then clicking on **Home**.
+1. Navigate to your Home page, either by clicking on the Adobe Workfront icon ![Adobe Workfront Icon](assets/home-icon-30x29.png) at the top of your screen if Home is set as your landing page, or by clicking on the main menu icon ![Main Menu Icon](assets/main-menu-icon.png) then clicking on **Home**.
 
 1. Click **Customize** at the upper-right corner of the screen.
 
-    ![Customize Button](../new-home/assets/customize-button.png)
+    ![Customize Button](assets/customize-button.png)
 
     The Customize panel opens. 
 
