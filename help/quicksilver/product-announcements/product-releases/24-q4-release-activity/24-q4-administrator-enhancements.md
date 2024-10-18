@@ -12,6 +12,18 @@ This page describes all administrator enhancements made with the Fourth Quarter 
 
 For a list of all changes available at this point in the Fourth Quarter 2024 release cycle, see [Fourth Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
+## Access level now available in environment promotion
+
+>[!NOTE]
+>
+>Preview release: October 17, 2024; Production release for all customers: With the 24.10 release (October 17, 2024)
+
+To expand the capabilities of environment promotion functionality, we've added the ability to include access levels. Now, you can configure an access level in a Sandbox environment, and then promote that access level to your production environment.
+
+Previously, access levels were not available for environment promotion.
+
+For more information on objects available for environment promotion, see [Supported objects for environment promotion](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) in the article Environment promotion overview.
+
 ## A counter on custom forms shows the number of fields
 
 >[!NOTE]
