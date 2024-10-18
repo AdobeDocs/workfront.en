@@ -81,13 +81,13 @@ For more information about viewing items awaiting approvals or items that you ha
       <p><strong>Access</strong></p>
       </td>
       <td>
-      <p><strong>Work items</strong</p>
+      <p><strong>Work items</strong></p>
       </td>
       <td>
-      <p><strong>Documents</strong</p>
+      <p><strong>Documents</strong></p>
       </td>
       <td>
-      <p><strong>Proofs</strong</p>
+      <p><strong>Proofs</strong></p>
       </td>
    </tr>
    <tr>
