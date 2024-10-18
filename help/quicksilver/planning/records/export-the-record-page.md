@@ -88,63 +88,6 @@ You must have the following access to perform the steps in this article:
 
 +++   
 
-<!--OLD:
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   Or
-   <p>Current: Plan</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access controls for Adobe Workfront Planning</p>  
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>View or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). -->
-
 ## Considerations about exporting a record's details:
 
 * You can export a record's details to the following file formats:
@@ -152,7 +95,7 @@ You must have the following access to perform the steps in this article:
     * .docx Word
     * .pdf
 
-* You can export the Details tab of a record's page. You cannot export the Connections tab. 
+* You can export the Details tab of a record's page. 
 
 * The exported file preserves the layout of the record page, including the thumbnail and the cover images. 
 
@@ -175,7 +118,7 @@ You must have the following access to perform the steps in this article:
 
 1. Choose the **Details** tab. The Details tab should open by default.
 
-1. Click the **Export** icon ![](assets/export-icon-in-record-details-page.png) either in the preview or the record's page, then click one of the following:
+1. Click the **Export** menu ![](assets/export-icon-in-record-details-page.png) either in the preview or the record's page, then click one of the following:
 
    * **Microsoft Word**
    * **Adobe PDF**

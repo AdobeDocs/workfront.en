@@ -73,8 +73,6 @@ To insert a user-based wildcard in a report:
 
    For a complete list of user-based wildcards, see [Wildcard filter variables overview](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
-   ![](assets/user-based-wildcard-in-project-filter-350x74.png)
-
 1. Click **Save + Close**.
 
 ## Additional information

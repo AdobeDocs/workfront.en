@@ -62,7 +62,6 @@ To insert a date-based wildcard in a report:
 
 1. Go to a report for which you want to insert a date-based wildcard.
 1. Click **Report Actions**, then **Edit**.
-
 1. Click the **Filters** tab.
 1. Click **Add a Filter Rule**.
 1. Start typing the name of the field that you want to filter by.  
@@ -73,7 +72,7 @@ To insert a date-based wildcard in a report:
    >
    >You must always select the **Equal** filter variable when working with wildcards in Adobe Workfront.
 
-1. In the **Start typing name ...** box, type: `$$TODAY` if you want to display information about something that occurs the same day that the report is run.
+1. Click the **Set relative date** toggle, then in the text box that appears type: `$$TODAY` if you want to display information about something that occurs the same day that the report is run.
 
    Or
 
@@ -85,8 +84,6 @@ To insert a date-based wildcard in a report:
 1. (Optional) If you want to display information about something that occurred within a timeframe before the date when the report is run, type `$$TODAY-1w` to display information from the previous week, or `$$TODAY-2m` to display information from the previous two months. You can also indicate timeframes for quarters, hours, days, or years.
 
    For a complete list of attributes, qualifiers, and operators that you can use in date-based wildcards, see the article [Wildcard filter variables overview](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
-
-   ![](assets/video-date-based-wildcard-in-task-filter-350x81.png)
 
 1. Click **Save + Close**.
 

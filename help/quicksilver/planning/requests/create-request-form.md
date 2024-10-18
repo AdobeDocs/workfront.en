@@ -169,11 +169,12 @@ You must have the following access to perform the steps in this article:
    For more information about building a custom form, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). 
 
 1. (Optional) Click **Preview** to view how the form will display for other users when they will use it to submit a new record.
+1. (Optional) Click the **More** menu ![](assets/more-menu.png) to the right of the form's name in the header, then click **Edit** to update the name of the form.
 1. Click **Publish** to publish the form and obtain a unique link for it. 
 
    The following things occur:
 
-   * The Publish button is removed.
+   * The **Publish** button is removed.
    * The **Unpublish** button is added to the form. Clicking it will prevent the form from being accessible. 
    * A **Share** button is added to the form.
 
