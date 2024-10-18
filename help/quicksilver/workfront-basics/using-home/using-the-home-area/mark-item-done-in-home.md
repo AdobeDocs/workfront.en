@@ -3,7 +3,7 @@ product-area: projects
 navigation-topic: use-the-home-area
 title: Mark an item as Done in the Home area
 description: You can mark a task or issue as Done if you are the task or issue assignee. When you mark a task or issue as Done, the status of the task or issue is changed to Complete.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 4c3638aa-5ee3-422a-9fee-41c4749fe48b
 ---
@@ -70,20 +70,6 @@ You can mark a work item as Done in the My Tasks and My Issues widget using the 
 1. Click **Mark as done** at the top of the Summary panel.
 
 
-
-
-
-
-
-<!--
-## Mark a task or issue as [!UICONTROL Done]
-
-Only the user assigned to the task or issue can mark it as [!UICONTROL Done].
-
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
-1. In the **[!UICONTROL Work List]**, locate any of the items waiting to be worked on.
-
-
 ## Understand the options of the [!UICONTROL Done] button 
 
 By default, clicking the [!UICONTROL Done] button on a work item changes the status of that item to [!UICONTROL Complete] (for tasks) or [!UICONTROL Resolved] (for issues).
@@ -100,7 +86,7 @@ Depending on how many statuses are associated with the [!UICONTROL Done] button 
 
 When the [!UICONTROL Done] button is associated with one status and the work item is assigned to you only, the button reads **[!UICONTROL Done]**. When you click it, the status of the task or the issue is changed to the status associated with the [!UICONTROL Done] button.
 
-![Done button](assets/Done.png)
+![Done button](assets/done-button-status.png)
 
 To understand which status is associated with the [!UICONTROL Done] button, check the [!UICONTROL Team Settings] of your Home Team for the [!UICONTROL Done Button] section, as described in [Edit team settings](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md).
 
@@ -114,13 +100,12 @@ To understand how you can associate multiple statuses with the [!UICONTROL Done]
 
 ### [!UICONTROL Done] button for items assigned to multiple resources 
 
-When the task or the issue is assigned to more than one resource, the button shows the word **[!UICONTROL Done]** which is followed by a drop-down menu. In the drop-down menu, you have the option to chose between **[!UICONTROL Done with my part]** (which lets team members know you are complete with your portion of the task), or the status associated with the [!UICONTROL Done] button (which completes the item). After you select **[!UICONTROL Done with my part]**, the work item is removed from your Work List, but remains in the Work List of those still assigned to the work item.\
+When the task or the issue is assigned to more than one resource, the button shows the word **[!UICONTROL Done]** which is followed by a drop-down menu. In the drop-down menu, you have the option to choose between **[!UICONTROL Done with my part]** (which lets team members know you are complete with your portion of the task), or the status associated with the [!UICONTROL Done] button (which completes the item). After you select **[!UICONTROL Done with my part]**, the work item is removed from your Work List, but remains in the Work List of those still assigned to the work item.\
 If the Done button is associated with multiple statuses, they are listed under **Done with my part**.
 
 >[!NOTE]
 >
 >On a task or issue with multiple assignees, each user is responsible for indicating that their own assignment on the task or issue has actually been completed. For this reason, each assignee must click [!UICONTROL Done] to show they have completed the work assigned to them on the item.
 
-![](assets/marking-an-item-done-with-my-part-grop-by-drop-down-nwe-350x266.png)
+![](assets/done-with-my-part.png)
 
--->

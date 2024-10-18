@@ -1,11 +1,9 @@
-
-
 ---
 product-area: projects;agile-and-teams
 navigation-topic: use-the-home-area
 title: Manage work and team requests in the Home area
-description: When work tasks and issues are assigned to you, they are listed on the [!UICONTROL Work List] in the [!UICONTROL Home] area. You can view, reassign, reply to, work on, or remove a request. Work requests in the [!UICONTROL Home] area are not limited to issues associated with request queues.
-author: Lisa
+description: When work tasks and issues are assigned to you, they are listed in the My Work widget, My Tasks widget, and My Issues widget.  You can view, work on, or remove work items and requests. 
+author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 79826743-eeb9-4849-b46f-cc3f086e3194
 ---
@@ -51,7 +49,7 @@ You must have the following access to perform the steps in this article:
 
 ## View a work item in the My Work widget
 
-Work itemsa that are assigned to you are display in the My Work widget in [!UICONTROL Home]. You can configure which work items are displayed in the My Work widget using the filter at the top of the widget [!UICONTROL worklist].
+Work items that are assigned to you are display in the My Work widget in [!UICONTROL Home]. You can configure which work items are displayed in the My Work widget using the filter at the top of the widget [!UICONTROL worklist].
 
 You can select filters that display items that are ready for you to work on, or items that you are currently working on already.
 
@@ -92,7 +90,6 @@ To access a team request:
 
    ![](assets/team-request-widget.png)
 
-
 ## Work on a work item in the My Work widget
 
 When you click the [!UICONTROL Work On It] button, you are indicating to the user who submitted the work item and to any other user who might be assigned to the work item that you are going to start work.
@@ -110,7 +107,7 @@ To work on a work item:
 
 ## Remove a work item
 
-If you decide that you should not be working on the work item, you can either convert the task or issue back to a request or remove it from your list.
+If you decide that you should not be working on the work item, you can remove it from your list.
 
 To remove a work item: 
 

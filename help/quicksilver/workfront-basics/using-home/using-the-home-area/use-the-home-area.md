@@ -25,7 +25,7 @@ This section contains the following articles:
 * [Log time on a work item from the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
 * [Mark an item as [!UICONTROL Done] in the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
 
-The following articles containfunctionality was removed with the Legacy Home deprecation on 10/17/2014:
+The following articles contain functionality was removed with the Legacy Home deprecation on 10/17/2014:
 
 * [Prioritize work in the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
 * [[!UICONTROL Home Calendar] view](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md)

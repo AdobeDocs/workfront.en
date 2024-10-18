@@ -3,18 +3,11 @@ product-area: projects
 navigation-topic: use-the-home-area
 title: Use the My Updates area
 description: You can use the [!UICONTROL My Updates] area to quickly review the approvals waiting for your decision or the conversations you have been included in.
-author: Lisa
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
 ---
 # Use the [!UICONTROL My Updates] area
-
->[!IMPORTANT]
->
->This functionality was removed with the Legacy Home deprecation on 10/17/2014.
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: there is a similar article like this in the "My Work" folder that is conditioned for Classic only)</p>
 
 
 You can use the [!UICONTROL My Updates] area to quickly review the approvals waiting for your decision or the conversations you have been included in.
@@ -26,6 +19,8 @@ For information about [!DNL Adobe Workfront] licenses, see [[!DNL Adobe Workfron
 If you have a license type different than Review, the [!DNL Workfront] or Group administrator must add the [!UICONTROL My Updates] area to your layout template to display it in the Main Menu. For information, see [Customize the [!UICONTROL Main Menu] using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
 
 You must have the following access to perform the steps in this article:
 
@@ -55,6 +50,8 @@ You must have the following access to perform the steps in this article:
 </table>
 
 *To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator. For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Prerequisites
 
@@ -160,5 +157,3 @@ You must have the following before you begin:
 
       ![](assets/reply-in-the-my-updates-area.png)
 1. (Optional) Click **[!UICONTROL Pin current page]** to pin the [!UICONTROL My Updates] area to your top navigation.
-
--->
