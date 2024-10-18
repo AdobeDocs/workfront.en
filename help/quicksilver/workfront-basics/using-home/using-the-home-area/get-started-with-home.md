@@ -137,7 +137,7 @@ You can add a bit of personal flare to your Home page by selecting a colorful ba
 
 1. Click **Customize** at the upper-right corner of the screen.
 
-    ![Customize Button](../new-home/assets/customize-button.png)
+    ![Customize Button](assets/customize-button.png)
 
     The Customize panel opens. 
 
@@ -156,7 +156,7 @@ To go back to the current Home experience:
 
 1. Click on the **Go back to the current Home** button in the bottom-right corner of the page.
 
-    ![Go back to current Home button](../new-home/assets/go-back-to-current-home-button.png)
+    ![Go back to current Home button](assets/customize-button.png)
 
     A confirmation window displays. 
 
