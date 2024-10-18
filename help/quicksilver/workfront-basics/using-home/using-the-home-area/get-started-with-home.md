@@ -132,8 +132,8 @@ You can add a bit of personal flare to your Home page by selecting a colorful ba
 
 1. Go to your Home page, by doing one of the following: 
 
-    * If Home is set as your landing page, click the **Adobe Workfront** icon ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) in the upper-left corner of your screen.
-    * Click the **Main Menu** icon in the upper-right corner of the screen, or the **Main Menu** icon ![Main Menu Icon](../new-home/assets/main-menu-icon-left-nav.png) in the upper-left corner, if available, then click **Home**.
+    * If Home is set as your landing page, click the **Adobe Workfront** icon ![Adobe Workfront Icon](assets/home-icon-30x29.png) in the upper-left corner of your screen.
+    * Click the **Main Menu** icon in the upper-right corner of the screen, or the **Main Menu** icon ![Main Menu Icon](assets/main-menu-icon.png) in the upper-left corner, if available, then click **Home**.
 
 1. Click **Customize** at the upper-right corner of the screen.
 
@@ -149,7 +149,10 @@ If you prefer the existing Home experience, you can toggled off the new Home exp
 
 To go back to the current Home experience:
 
-1. Go to your Home page, either by clicking the **Adobe Workfront** icon ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) in the upper-left corner of your screen if Home is set as your landing page, or click the **Main Menu** icon in the upper-right corner ![](assets/dots-main-menu.png) or the **Main Menu** icon ![Main Menu Icon](../new-home/assets/main-menu-icon-left-nav.png) in the upper-left corner, if available, then click **Home**.
+1. Go to your Home page, by doing one of the following: 
+
+    * If Home is set as your landing page, click the **Adobe Workfront** icon ![Adobe Workfront Icon](assets/home-icon-30x29.png) in the upper-left corner of your screen.
+    * Click the **Main Menu** icon in the upper-right corner of the screen, or the **Main Menu** icon ![Main Menu Icon](assets/main-menu-icon.png) in the upper-left corner, if available, then click **Home**.
 
 1. Click on the **Go back to the current Home** button in the bottom-right corner of the page.
 
