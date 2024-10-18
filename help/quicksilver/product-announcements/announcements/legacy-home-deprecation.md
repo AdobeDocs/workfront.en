@@ -48,7 +48,7 @@ We recommend administrators:
 
 1. Reassign the rest of your users to the new Home page layout.
 
-Doing this as soon as possible will then give your users time to adjust to the new experience and customize their new Home pages to best suit their individual needs. See [Remove, add, and rearrange widgets in new Home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) for information on how a user can customize the widgets on their own new Home page.
+Doing this as soon as possible will then give your users time to adjust to the new experience and customize their new Home pages to best suit their individual needs. See [Remove, add, and rearrange widgets in new Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) for information on how a user can customize the widgets on their own new Home page.
 
 ### Learn what is available in new Home and Priorities
 
