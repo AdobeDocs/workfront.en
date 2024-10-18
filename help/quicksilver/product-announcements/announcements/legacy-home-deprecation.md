@@ -28,7 +28,7 @@ Still, we know a change like this can be disruptive, and we want to help with yo
 
 **What can I use instead?**
 
-* New Home is already available as a replacement. See [Get started with the new Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md) for more information about using new Home. It can be customized by both users through personalization options and administrators through layout templates. 
+* New Home is already available as a replacement. See [Get started with the new Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md) for more information about using new Home. It can be customized by both users through personalization options and administrators through layout templates. 
 
 * Priorities is in development and will serve as another element of the streamlined work management experience in Adobe Workfront.
 
@@ -48,13 +48,13 @@ We recommend administrators:
 
 1. Reassign the rest of your users to the new Home page layout.
 
-Doing this as soon as possible will then give your users time to adjust to the new experience and customize their new Home pages to best suit their individual needs. See [Remove, add, and rearrange widgets in new Home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md) for information on how a user can customize the widgets on their own new Home page.
+Doing this as soon as possible will then give your users time to adjust to the new experience and customize their new Home pages to best suit their individual needs. See [Remove, add, and rearrange widgets in new Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md) for information on how a user can customize the widgets on their own new Home page.
 
 ### Learn what is available in new Home and Priorities
 
 This articles below provide information on what functionality is available in new Home and Priorities:
 
-* [Move from Legacy Home to New Home](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)
+<!--* [Move from Legacy Home to New Home](/help/quicksilver/workfront-basics/using-home/new-home/move-to-new-home.md)-->
 * [Move from Legacy Home to Priorities](/help/quicksilver/workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
 
 ### Follow the Home experience as it develops

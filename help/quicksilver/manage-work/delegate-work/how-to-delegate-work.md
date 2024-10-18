@@ -101,7 +101,7 @@ To delegate your tasks and issues to others:
 1. Go to the [!UICONTROL **Home**] area.
 1. Ensure you have the [!UICONTROL **My Work**], [!UICONTROL **My Tasks**], or [!UICONTROL **My Issues**] widgets added to your [!UICONTROL **Home**].
 
-   For information, see [Add, edit, or remove widgets in Home](/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
+   For information, see [Add, edit, or remove widgets in Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
 
 1. Click [!UICONTROL **Delegate**] in the upper-left corner of the [!UICONTROL **My Work**], [!UICONTROL **My Tasks**], or [!UICONTROL **My Issues**] widgets.
 

@@ -1,20 +1,21 @@
 ---
 product-area: home
 navigation-topic: new-home
-title: New Home widget filters overview
+title: Home widget filters overview
 description: You can choose from a number of widgets to customize the content that appears on your Home page. These widgets can be resized and arranged on your Home page.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
 ---
-# New Home widget filters overview
+# Home widget filters overview
 
 You can use filters on the following widgets to find and organize work:
 
 * [My Projects](#my-projects)
 * [My Tasks](#my-tasks)
 * [My Issues](#my-issues)
-* [My Work]
+* [My Work](#my-work)
+* [My Approvals](#my-approvals)
 
 ## My Projects
 
@@ -271,6 +272,29 @@ You can use the following filters in the My Work widget:
     <tr>
       <td>Completed</td>
       <td>Displays work completed within the last two weeks. This filter option does not include approvals.</td>
+    </tr>
+  </tbody>
+</table>
+
+## My Approvals
+
+You can use the following filters in the My Approvals widget:
+
+<table>
+  <tbody>
+    <tr>
+      <td>Delegated approvals</td>
+      <td>Displays approvals delegated to you</td>
+    </tr>
+    <tr>
+      <td>My approvals</td>
+      <td>Displays items that require your approval
+      </td>
+    </tr>
+    <tr>
+      <td>Approvals I've Submitted</td>
+      <td>Displays items you have submitted for approval
+       </td>
     </tr>
   </tbody>
 </table>

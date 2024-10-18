@@ -3,13 +3,17 @@ product-area: calendars;setup
 navigation-topic: use-the-home-area
 title: Configure your Home Calendar view settings
 description: You can configure the Home Calendar settings to integrate with a web-based version of Outlook and help you track your workload against your available work hours.
-author: Nolan
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 2acd930b-5923-452e-9d8d-a6121d8d37ac
 ---
 # Configure your [!UICONTROL Home Calendar] view settings
 
-<!--Audited: 01/2024-->
+>[!IMPORTANT]
+>
+>This functionality was removed with the Legacy Home deprecation on 10/17/2014.
+
+<!--
 
 You can configure the [!UICONTROL Home Calendar] settings to do the following:
 
@@ -114,8 +118,4 @@ Consider the following as you configure your Home Calendar with your [!DNL Micro
 
 For information about using the [!UICONTROL Calendar] view to manage your work assignments and integrated calendar events, see [Use the [!UICONTROL Home Calendar] view](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
 
-<!--
-<MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
-(NOTE: from Courtney: [step #] Type your weekly work hours under How many hours a week do you work?This number affects the Allocation bar, which helps you track your workload against your available work hours. For more information, see "Allocation Bar" in the article "Understanding the Home Calendar View.")
-</MadCap:conditionalText>
 -->

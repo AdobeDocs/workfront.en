@@ -9,6 +9,12 @@ exl-id: c8801cb4-0485-44a1-9a7d-a17a96bca419
 ---
 # View the [!UICONTROL Home Calendar]
 
+>[!IMPORTANT]
+>
+>This functionality was removed with the Legacy Home deprecation on 10/17/2014.
+
+<!--
+
 You can use the [!UICONTROL Calendar] view in [!DNL Adobe Workfront Home] to manage all your assigned work items in one place. Your [!UICONTROL Home Calendar] view is visible only to you, and only you can manage your [!UICONTROL Home Calendar].
 
 To learn more about the Home Calendar, see [Home Calendar view](../../../workfront-basics/using-home/using-the-home-area/home-calendar-view.md).
@@ -67,3 +73,5 @@ You must have the following access to perform the steps in this article:
    All the work items assigned to you or assigned to your groups, teams, or roles display in the left panel.
 
    You can manage your workday by dragging and dropping tasks from the left panel to your calendar. To learn about how to populate your [!UICONTROL Home Calendar], see [Use the [!UICONTROL Home Calendar] view](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
+
+-->
