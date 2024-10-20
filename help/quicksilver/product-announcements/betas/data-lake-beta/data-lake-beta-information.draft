@@ -8,14 +8,12 @@ exl-id: 2daf7617-5b3e-49f7-b93b-4210b1b2ea49
 ---
 # Workfront Data Connect beta information
 
-Workfront Data Connect is a new tool currently in development that provides a dedicated interface for organizations to pull data for use in popular business analyst tools or to store in external data warehouses — without the need for complicated API or Fusion solutions. This page contains information about how you can help us by testing and providing feedback on this tool during our ongoing beta.
+Workfront Data Connect has been released. For information about using Workfront Data Connect, see [Workfront Data Connect overview](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
-For information about using the Workfront Data Connect, see [Workfront Data Connect overview](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
-
-**Beta schedule:**
+<!--**Beta schedule:**
 
 * Beta start date - April 15, 2024
-* Planned release date - TBA
+* Planned release date - October 17, 2024
 
 ## Participate in the beta
 
@@ -96,3 +94,4 @@ Below are lists of objects currently supported in the beta, objects we plan on a
 
 * Limit available objects during reader account setup.
 * Associate a reader account with a specific group or groups in Workfront to limit visibility of records to only group members.
+-->

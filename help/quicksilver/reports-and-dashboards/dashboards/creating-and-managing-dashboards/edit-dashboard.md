@@ -76,7 +76,7 @@ For information on creating dashboards, see [Create a dashboard](../../../report
    * **Name**: Edit the name of the dashboard.
    * **Description**: Specify a description for the dashboard.
 
-1. In the **Available Reports** section, start typing the name of a report or external page in the **Search by name or type ...** field, then drag and drop the report in the layout pane to the right.
+1. In the **Available Reports & Calendars** section, start typing the name of a report, calendar, or external page in the search bar, then drag and drop the report, calendar, or external page in the layout pane to the right.
 
    >[!NOTE]
    >
