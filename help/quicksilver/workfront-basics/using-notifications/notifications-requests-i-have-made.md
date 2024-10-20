@@ -39,7 +39,7 @@ See also [Event notifications](../../workfront-basics/using-notifications/event-
    <td><strong>Instant</strong> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>A personal task I've assigned to someone else is completed</strong> </p> <p>A notification is sent out to the user who assigned an ad-hoc task to someone else when that task is completed. </p> <p>For more information about ad hoc tasks, see <a href="../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md" class="MCXref xref">Create work items from the [!UICONTROL Home] area</a>.</p> <p>The subject of the instant notification email is: <em>Task Completion: &lt;Task Name></em></p> <p> <p>Note:  You cannot configure this notification for a daily digest email.</p> </p> </td> 
+   <td> <p><strong>A personal task I've assigned to someone else is completed</strong> </p> <p>A notification is sent out to the user who assigned an ad-hoc task to someone else when that task is completed. </p> <p>For more information about ad hoc tasks, see <a href="../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md" class="MCXref xref">Create work items and projects from the [!UICONTROL Home] area</a>.</p> <p>The subject of the instant notification email is: <em>Task Completion: &lt;Task Name></em></p> <p> <p>Note:  You cannot configure this notification for a daily digest email.</p> </p> </td> 
    <td> Task Name<br>Default Project Name (Personal Project of the user who received the personal task)<br>Task Reference Number<br>Task Owner Name<br>New Task Status<br>Date and Time when the task was completed<br>Previous Task Status<br><strong>[!UICONTROL See More Details]</strong> button<br><br><br></td> 
    <td><strong>Instant</strong> </td> 
   </tr> 

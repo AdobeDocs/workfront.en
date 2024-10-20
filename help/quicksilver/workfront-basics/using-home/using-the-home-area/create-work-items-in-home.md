@@ -1,20 +1,20 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: Create work items from the Home area
-description: You can create work items from the [!UICONTROL Home] area. You can create personal tasks for yourself, request work from other users, or add tasks to specific projects.
-
-author: Nolan
+title: Create work items and projects from the Home area
+description: You can create work items and projects from the [!UICONTROL Home] area.
+author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
 ---
-# Create work items from the Home area
+# Create work items and projects from the Home area
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From Courtney: Need to rename)</p>
--->
+You can create work items and projects from the [!UICONTROL Home] area. From Home, you can 
 
-You can create work items from the [!UICONTROL Home] area. You can create personal tasks for yourself, request work from other users, or add tasks to specific projects.
+* Create personal to-dos for yourself
+* Submit requests
+* Add tasks and issues to specific projects
+* Create projects from a template, blank project, or import an MS project.
 
 ## Access requirements
 
@@ -46,71 +46,117 @@ You must have the following access to perform the steps in this article:
 
 &#42;To find out what plan, license type, or access you have, contact your [!DNL Workfront] administrator.
 
-## Create a personal task
+## Create a personal to-do item
 
-You can create a personal task that is available only to you in the [!UICONTROL Home] area:
-
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
-1. Click **[!UICONTROL New Task]** > **[!UICONTROL Personal]**.
-
-   ![](assets/creating-work-items-new-task-personal-nwe-350x228.png)
-
-1. In the **[!UICONTROL Name]** field, specify a name for the task.
-1. (Optional) Click **[!UICONTROL Select date]**, then select the date when the task is due. This sets the [!UICONTROL Planned Completion Date] for the task.\
-   You can change the **[!UICONTROL Planned Completion Date]** by clicking on the date in the right panel or editing the **[!UICONTROL This will be done by]** date directly in the task.
-
-1. Click **[!UICONTROL Create]** to save the task.\
-   The task is assigned to you and is available in the [!UICONTROL Home] area.
-
->[!NOTE]
->
->* When you create a personal task, it is stored in a "hidden" project that is not searchable in [!UICONTROL Workfront]. The project is named "< User Name >'s Tasks". The "User Name" is the full name of the user who created the task. You can access this project only when you click the personal task in the [!UICONTROL Home] area, from the breadcrumb of the task, for example. 
->
->* Unlike regular project tasks, personal tasks have a limited set of fields that are visible in the Workfront interface, and don't influence the timeline or the progress of any project. Reassigning a personal task to another user adds all task fields to a personal task, but the task remains on the personal project of the user who created the task.
->
->
->* Personal tasks display on timesheets only when they have hours logged or they are pinned to the timesheet. You can only pin a personal task to a timesheet only when there are hours logged for the task. For more information, see [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md). 
-> 
->* We recommend that you create a project and move any personal tasks to it, if you want to make personal tasks part of the regular workflow.
->
-> ![[!UICONTROL Project for personal tasks]](assets/createworkitems-personal--project-350x105.png)
-
-## Request work from another user
-
-You can request work from another user directly from the Home area. When you request work from another user as described in this section, the task is displayed as a request in the user's Home area until the user clicks **[!UICONTROL Work On It]**.
-
-To request work from another user from the [!UICONTROL Home] area:
+You can create a personal to-do item that is available only to you in the [!UICONTROL Home] area:
 
 1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
-1. Click **[!UICONTROL New Task]**, then select **[!UICONTROL Request]**.
+1. (Conditional) Add the to-do widget to your home screen. Click **Customize**, and find **To-dos**. 
+1. Go to the **To-do** widget, then click **Add to-do**. 
+1. Type the 
+1. (Optional) Click the **Date** icon ![](assets/date-icon.png) to add a due date for the item. 
+![](assets/my-work-to-dos.png)
 
-   ![](assets/creating-work-items-new-task-request-nwe-350x283.png)
 
-1. In the **[!UICONTROL Name]** field, specify a name for the task. 
-1. In the **[!UICONTROL Assign to]** field, begin typing the name of the user, team, or role who you want to assign, then click the name when it appears in the drop-down menu.
-1. In the [!UICONTROL Add As] drop-down menu, select whether to add a task or issue. 
-1. Click **[!UICONTROL Select date]**, then select the date and time when the task is due.
-1. Click **[!UICONTROL Create]** to save the task.\
-   The task is displayed as a work request in the [!UICONTROL Home] area of the user you designated.
 
-## Add a task or issue to a project
+## Add a task to a project
 
-You can add a task or issue to an existing project directly from the Home area:
+You can add a task to an existing project directly from the Home area:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **Home**.
-1. Click **[!UICONTROL New Task]**, then select **[!UICONTROL Project Task]**.
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) Add the **My Tasks** widget to your home screen. Click **Customize**, and find **My Tasks**. 
+1. Go to the **My Tasks** widget, then click **New**. 
+   ![](assets/create-new-task.png)
+1. In the **New Task** dialog box, enter the task name.
+1. Begin typing a project name, then select the name from the list.
+1. (Optional) Enter information in the following fields:
 
-   ![](assets/creating-work-items-new-project-task-nwe-350x358.png)
+   | Field | Instructions |
+   |----------|----------|
+   | **Description**    | Enter a description.   |
+   | **Assignments**    | Assign users.   |
+   | **Duration**    | Enter the duration.   |
+   | **Planned Completion Date**   | Choose a planned completion date.   |
+   |**More options** | Choose more options to configure more settings for the task. For more information on creating tasks, see [Edit tasks](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).   |
 
-1. In the **[!UICONTROL Name]** field, specify a name for the task or issue.
-1. In the **[!UICONTROL Assign to]** field, begin typing the name of the user, team, or role who you want to assign, then click the name when it appears in the drop-down menu.
-1. Begin typing the name of the project where you want to create the task or issue, then click the name when it appears in the drop-down menu.
+1. Click **Create task**.
 
-   >[!IMPORTANT]
-   >
-   >The task or issue appears on the [!UICONTROL Work List] only when the project [!UICONTROL Status] is set to [!UICONTROL Current].
 
-1. (Conditional) To create an issue, select **[!UICONTROL Issue]** from the **[!UICONTROL Add As]** drop-down menu. By default, **[!UICONTROL Task]** is selected.
+## Add an issue to a project
 
-1. Click **[!UICONTROL Select date]**, then select the date and time when the task is due.
-1. Click **[!UICONTROL Create]** to save the task.
+You can add an issue to an existing project directly from the Home area:
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) Add the **My Issues** widget to your home screen. Click **Customize**, and find **My Issues**. 
+1. Go to the **My Issues** widget, then click **New**. 
+   ![](assets/create-new-issue.png)
+1. In the **New issue dialog** box, begin typing a project name, then select the name from the list.
+1. Enter an issue name. 
+1. (Optional) Enter information in the following fields:
+
+   | Field | Instructions |
+   |----------|----------|
+   | **Description**    | Enter a description.   |
+   | **Assignments**    | Assign users.   |
+   | **Priority**    | Choose a priority level.   |
+   | **Documents**    | Upload a document.   |
+
+1. Click **Save new issue**.
+
+## Create a request
+
+You can create a request directly from the Home area:
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) Add the **My Requests** widget to your home screen. Click **Customize**, and find **My Requests**. 
+1. Go to the **My Requests** widget, then click **New**. 
+   ![](assets/create-new-request.png)
+
+1. In the **New request** dialog, begin typing the name of the request queue. 
+1. Fill out the relevant fields.
+1. Click **Submit**.
+
+For more information about submitting requests, see [Create and submit requests](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+
+## Create a project
+
+You can create a project directly from the Home area:
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) Add the **My Projects** widget to your home screen. Click **Customize**, and find **My Projects**. 
+1. Go to the **My Projects** widget, then click **New**. 
+   ![](assets/create-new-project.png)
+1. Choose one of the following options:
+
+   | Field | Instructions |
+   |----------|----------|
+   | From a template    | Go to [Create a project using a template](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md) for detailed instructions on creating a project from a template.   |
+   | Blank project    | Go to [Create a project from scratch](/help/quicksilver/manage-work/projects/create-projects/create-project.md#create-a-project-from-scratch) for detailed instructions on creating a blank project.   |
+   | Import MS Project   | Go to [Import a project from Microsoft Project](/help/quicksilver/manage-work/projects/create-projects/import-project-from-ms-project.md) for detailed instructions on importing an MS project.   |
+
+
+<!--
+## Create a board
+
+You can create a board directly from the Home area:
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) Add the **Boards** widget to your home screen. Click **Customize**, and find **Boards**. -->
+
+
+
+
+
+<!--
+## Delete a to-do item
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Go to the to-do widget.
+1. Hover over the item, then click the **Delete** icon ![](assets/delete-to-do.png). 
+
+## Edit a to-do item
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Go to the to-do widget.
+1. Edit the item name.
+1. Click on the **Date** icon ![](assets/date-icon.png) to add or adjust a due date. -->

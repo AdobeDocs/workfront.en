@@ -9,6 +9,12 @@ exl-id: 07b33b56-ae57-4ae5-890e-c21feae1c4fd
 ---
 # Use the [!UICONTROL Home Calendar] view
 
+>[!IMPORTANT]
+>
+>This functionality was removed with the Legacy Home deprecation on 10/17/2014.
+
+<!--
+
 You can use the Calendar view in the [!UICONTROL Home] area to manage your work day and work assignments. Only you can view and manage your [!UICONTROL Home Calendar].
 
 >[!NOTE]
@@ -17,7 +23,7 @@ You can use the Calendar view in the [!UICONTROL Home] area to manage your work 
 >
 >  <!--
 >  <li data-mc-conditions="QuicksilverOrClassic.Draft mode">Due to a temporary problem, your Workfront Calendar data might not display as described in this article. This problem will be fixed in the near future. (NOTE: From Alina: Spoke with Lisa and Court and they agreed to draft or delete this. Court could not remember what this was referring to and Lisa did not add this note. Lisa might update this if she hears from the team that this is still accurate.)</li>>
->  -->
+>  
 
 
 ## Access requirements
@@ -268,3 +274,5 @@ To update the integrated calendar events in your [!UICONTROL Home Calendar]:
 ## Specify which calendars you view
 
 You can specify which integrated calendars, such as your PTO, Birthdays, or Holidays calendar, you want to view on your [!UICONTROL Home Calendar]. For instructions, see [Configure your [!UICONTROL Home Calendar] view settings](../../../workfront-basics/using-home/using-the-home-area/configure-home-calendar-view.md).
+
+-->

@@ -2,170 +2,219 @@
 content-type: overview
 navigation-topic: use-the-home-area
 title: Get started with [!UICONTROL Home]
-description: The [!UICONTROL Home] area is your one-stop shop to find tasks, issues, and approvals assigned to you. There are two ways to view your work in the [!UICONTROL Home] area, either from the [!UICONTROL Work List] or the [!UICONTROL Calendar].
-author: Nolan
+description: Home helps you manage your work. You can customize this flexible space to highlight the work that is most important to you and streamline your task, issue, request, and approval management.
+author: Courtney
 feature: Get Started with Workfront
 exl-id: eddb2db0-88c5-40f9-ba05-14839a3dfc7f
 ---
-# Get started with [!UICONTROL Home]
+# Get started with Home
 
 <!--Audited: 12/2023-->
 
-This article describes an overview of the current [!UICONTROL Home] area in [!DNL Adobe Workfront]. For information about working in the new [!UICONTROL Home], see [Get started with New Home](../new-home/get-started-with-new-home.md).
+>[!IMPORTANT]
+>
+>Content in this article was replaced with content from the Get started with new Home article. New Home will now be referred to as Home. 
 
-There are two ways to view your work in the current [!UICONTROL Home] area:
+The new Home experience in Adobe Workfront aims to improve the current Home experience while providing a more flexible way for you to focus on the right work.
 
-* From the [!UICONTROL Work List] 
-* From the [!UICONTROL Calendar].
+The new Home is a powerful new feature for managing your work. You can customize this flexible space to highlight the work that is most important to you and streamline your task, issue, request, and approval management.
 
-## [!UICONTROL Work List]
+## Customize the new Home
 
-You can view all of your assigned work in one place, in the [!UICONTROL Work List]:
+The new Home is designed to be highly customizable, allowing you to select the widgets that track your most important work, filter the scope of that work based on when it's due, and even add a splash of color.
 
-![[!UICONTROL Work List] panels](assets/worklist-and-right-panel-home.png)
+### Widgets
 
-Review the following sections in the current [!UICONTROL Home] area, as highlighted in the above image: 
+Widgets are the foundation of the new Home. By adding widgets to your Home page, you can choose the type of information that displays to best meet your work needs. Some widgets are only available to specific license types, as the objects they track are only available to those licenses. 
 
-* **A**: Use the left panel to filter, sort, and select work assigned to you.
+For information on adding, moving, resizing, or deleting widgets, see [Add, edit, or remove widgets in New Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
-* **B**: After selecting a work item in the left panel, use the right panel to interact with custom fields, make updates, and log time.
+Below are the 11 widgets currently available to choose from, as well as a summary of the information they display:
 
-For more information about using the [!UICONTROL Home Work List], see the following articles:
+* **My Work**\
+    A great place to start for managing a variety of work, this widget displays all of your assigned tasks, issues, and requests in one place. You can click the Work On It button to start working on an item, or the Done button to mark them complete. You can also update information (Status, Condition, Percent Complete) about tasks and issues, log time, and add updates from the My Work widget. 
 
-* [Display items in the [!UICONTROL Work List] in the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
-* [Create work items from the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
+* **Boards**\
+    Displays any boards you have created or have been invited to use. You can also create a new board based on the following templates: Basic board, Kanban board, Retrospective board, Dynamic board
 
-## [!UICONTROL Calendar]
+* **My projects**\
+    Displays projects you own or projects you are on in a list. You can use  existing filters, views, or groupings to customize the list, or you can create a project directly from the widget.
 
-You can visualize your work by displaying when work items are due and you can block out time to complete them, by reviewing your work in the [!UICONTROL Calendar] in the [!UICONTROL Home] area: 
+* **My tasks**\
+    Displays tasks that are assigned to you in a list. You can use  existing filters, views, or groupings to customize the list, or you can create a task directly from the widget. You can also delegate your tasks while you are away from the office. 
 
-![](assets/calendar-home-nwe-350x114.png)
+* **My issues**\
+    Displays issues that are assigned to you in a list. You can use existing filters, views, or groupings to customize the list, or you can create an issue directly from the widget. This widget only includes issues whose associated projects are set to Current and doesn't include completed projects. You can also delegate your issues while you are away from the office. 
 
-Review the following sections in the current [!UICONTROL Home] area, as highlighted in the above image: 
+* **My requests**\
+    Displays all requests you have submitted, a filter to only display open requests, and a button that opens the summary panel for a request.
 
-* **A**: Use the [!UICONTROL Calendar] view to create a visual map of the work you need to complete. Simply click and drag work items from the [!UICONTROL Work List] on to the [!UICONTROL Calendar] to block out time to work.
+* **Team requests**\
+    Displays all pending requests for teams that you are on sorted by team, as well as buttons to directly assign a request to a user or to work on it yourself.
 
-* **B**: Use the [!UICONTROL Calendar]'s sync option to sync with your [!DNL Outlook] calendar. Manage meetings and work all in one place.
+* **My approval**\
+    Displays all of your pending, assigned, delegated, and submitted approvals; a button to delegate approvals; and buttons to make approval decisions directly within the widget.
 
-* **C**: Use the [!UICONTROL Details] button to open a new right panel where you can view more information about the work item.
+* **All approvals**\
+        Displays 2 charts with information about average approval time and decisions as well as list views of pending and overdue approvals. <span style="color: #ff0000;">This feature is part of a phased release and is currently only available for specific customers.</span>
 
-* **D**: Use the due bar to keep track of when work assigned to you is due.
+* **Mentions**\
+    Displays recent comment threads from across Workfront, similar to the My Updates page. You can use the reply button to compose a reply within the widget. This widget also shows comments made on tasks and issues that you are assigned to, that you assigned to another user, that you own, that you are primary contact on, or that you created—as long as the task or issue has been updated in the last 30 days.
 
-For more information on how to use the Home Calendar, see [Use the [!UICONTROL Home Calendar] view](../../../workfront-basics/using-home/using-the-home-area/use-home-calendar-view.md).
+* **To-dos**\
+    This unique widget allows you to add items to a personal checklist that you can freely edit. To-dos are tracked as tasks in your personal project, and remain for up to two weeks after completion.
 
-## Find your work
+    >[!NOTE]
+    >
+    >You must have permission to create tasks in order to create to-dos in the To-dos widget, and only personal tasks that are entered by the current user will appear in the widget.
 
-The [!UICONTROL Home] area is your one-stop shop to find tasks, issues, and approvals assigned to you. The filter, grouping, and sorting options work together to support you in organizing your work items the way you want. You can use groupings to group items together, filters to focus in on work that needs to be completed, and lastly, sorting to list the items in the ascending or descending order of your grouping.
+By default, the Home page is populated with a few specific widgets based on your license type. The tables below outline which widgets users of each license type see when they first navigate to New Home.
+
+<table border=1 class="inlineTable">
+    <tr>
+        <td><b>New license type</b></td>
+        <td><b>Default widgets</b></td>
+    </tr>
+    <tr>
+        <td>Standard</td>
+        <td>My Projects, My Work, Mentions, To-dos</td>
+    </tr>
+    <tr>
+        <td>Light</td>
+        <td>My Work, My approval</td>
+    </tr>
+    <tr>
+        <td>Contributor</td>
+        <td>My Requests, Mentions, My approval, Boards</td>
+    </tr>
+    <tr>
+        <td>External</td>
+        <td>My approval</td>
+    </tr>
+</table>
+
+<table border=1 class="inlineTable">
+    <tr>
+        <td><b>Current license type</b></td>
+        <td><b>Default widgets</b></td>
+    </tr>
+    <tr>
+        <td>Plan</td>
+        <td>My Projects, Mentions, To-dos</td>
+    </tr>
+    <tr>
+        <td>Work</td>
+        <td>My Work, Mentions, To-dos</td>
+    </tr>
+    <tr>
+        <td>Review</td>
+        <td>My Work, Mentions</td>
+    </tr>
+    <tr>
+        <td>Request</td>
+        <td>My Projects, My approval</td>
+    </tr>
+    <tr>
+        <td>Contribute</td>
+        <td>My Work, Mentions</td>
+    </tr>
+    <tr>
+        <td>External</td>
+        <td>My approval</td>
+    </tr>
+</table>
+
+### Background customization
+
+You can add a bit of personal flare to your Home page by selecting a colorful banner for the top of the page.
+
+**To change the color of your Home background:**
+
+1. Go to your Home page, by doing one of the following: 
+
+    * If Home is set as your landing page, click the **Adobe Workfront** icon ![Adobe Workfront Icon](assets/home-icon-30x29.png) in the upper-left corner of your screen.
+    * Click the **Main Menu** icon in the upper-right corner of the screen, or the **Main Menu** icon ![Main Menu Icon](assets/main-menu-icon.png) in the upper-left corner, if available, then click **Home**.
+
+1. Click **Customize** at the upper-right corner of the screen.
+
+    ![Customize Button](assets/customize-button.png)
+
+    The Customize panel opens. 
+
+1. In the **Background** section of the **Customize** panel, click the color you would like to select for your Home background. You can also click **None** to remove the background.
+
+## Revert to the current Home experience
+
+If you prefer the existing Home experience, you can toggled off the new Home experience.
+
+To go back to the current Home experience:
+
+1. Go to your Home page, by doing one of the following: 
+
+    * If Home is set as your landing page, click the **Adobe Workfront** icon ![Adobe Workfront Icon](assets/home-icon-30x29.png) in the upper-left corner of your screen.
+    * Click the **Main Menu** icon in the upper-right corner of the screen, or the **Main Menu** icon ![Main Menu Icon](assets/main-menu-icon.png) in the upper-left corner, if available, then click **Home**.
+
+1. Click on the **Go back to the current Home** button in the bottom-right corner of the page.
+
+    ![Go back to current Home button](assets/customize-button.png)
+
+    A confirmation window displays. 
+
+1. Take a brief survey about your experience with the new Home or click **Go Back to the current Home** to revert to the current Home experience.
 
 >[!NOTE]
 >
->The filter and sort options are stored in the browser. If you consistently use the same browser on the same computer (and do not clear the site data) the filters and sorting will not change, but if you switch browsers or computers then the filters and sorting will be different.
+> System Administrators can disable the new Home as the default for their users. For information on changing the default Home experience for users across a system, see [Configure system preferences](/help/quicksilver/administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
-### Group similar work items together with groupings
 
-You can use groupings to display like items under a common header in the Work List. You can group items by:
 
-* [!UICONTROL Planned Completion]
-* [!UICONTROL Planned Start]
-* [!UICONTROL Commit Date]
-* [!UICONTROL Project]
-* [!UICONTROL My Priority]
 
-For more information on how to use groupings, see [Display items in the [!UICONTROL Work List] in the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
-![](assets/group-by-drop-down-expanded-in-home-with-planned-start-date-nwe-350x273.png)
 
-### Narrow your focus with filters
 
-The [!UICONTROL Work List] Filter allows you to narrow your focus to specific work items.
 
-The following are examples of how you can filter items you view in Home: 
 
-* Filter by item type and state.
 
-   For example, if you want to display all the tasks, you can select the [!UICONTROL Tasks] filter. If you want to be more specific than this and display only tasks that are ready for you to start working on, then select the [!UICONTROL Ready to Start] filters under the [!UICONTROL Tasks] filter.
 
-* Filter by item type only.
 
-   For example, you can select [!UICONTROL Issues] to see all issues in all states ([!UICONTROL Working On] or [!UICONTROL Requested]), or [!UICONTROL Approvals] to see all work item, request for access, timesheet, document, and proof approvals.
 
-For more information on how to use filters, see [Display items in the [!UICONTROL Work List] in the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
-![](assets/displaying-work-items-filters-nwe-350x401.png)
 
-### Access work assigned to your team
 
-The [!UICONTROL Home] area has a permanent grouping ([!UICONTROL Team Requests]) that displays tasks and issues assigned to your teams. Teams display in this section. Clicking the name of a team opens the Team Requests page of that team. 
 
->[!NOTE]
->
->The filter and sorting options do not affect the [!UICONTROL Team Requests] grouping. This grouping is visible as long as you have work assigned to your team.
 
-For more information on accessing team requests, see the article [[!UICONTROL Manage] work and team requests in the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md).
+<!--
+Home helps you manage your work. You can customize this flexible space to highlight the work that is most important to you and streamline your task, issue, request, and approval management.
 
-![](assets/team-requests-expanded-home-group-by-drop-down-nwe-350x314.png)
+## Customize Home
 
-### Monitor work that you submitted
+Home is designed to be highly customizable, allowing you to select the widgets that track your most important work, filter the scope of that work based on when it's due, and even add a splash of color.
 
-Keep track of work that you submitted for approval directly from [!UICONTROL Work List]. There is a permanent grouping for [!UICONTROL Approvals I've Submitted] when you select to view [!UICONTROL Approvals] in the [!UICONTROL Work List]. You can remind the approver about the work that needs approval. You can also recall the approval if needed.
+### Background customization
 
->[!NOTE]
->
->The filter and sorting  do not affect the [!UICONTROL Approvals I've Submitted] grouping. This grouping is visible as long as you have work waiting for approval.
->
->The number of approvals in the [!UICONTROL Approvals] filter does not display the number of items you submitted for approval. The [!UICONTROL Approvals] filter displays only the items waiting for your approval. 
+You can add a bit of personal flare to your Home page by selecting a colorful banner for the top of the page.
 
-![](assets/approvals-expanded-home-group-by-drop-down-nwe-350x415.png)
+**To change the color of your Home background:**
 
-## Prioritize what's important to you
+1. Go to your Home page, by doing one of the following: 
 
-The [!UICONTROL Work List] allows you to surface and prioritize work that is important to you with the [!UICONTROL My Priority] grouping. You can add up to 20 items to your [!UICONTROL My Priority] list. 
+    * If Home is set as your landing page, click the **Adobe Workfront** icon ![Adobe Workfront Icon](../new-home/assets/home-icon-30x29.png) in the upper-left corner of your screen.
+    * Click the **Main Menu** icon in the upper-right corner of the screen, or the **Main Menu** icon ![Main Menu Icon](../new-home/assets/main-menu-icon-left-nav.png) in the upper-left corner, if available, then click **Home**.
 
->[!NOTE]
->
->Any work items added to [!UICONTROL My Priority] are visible only to you, and no one can prioritize work for you.
+1. Click **Customize** at the upper-right corner of the screen.
 
-For more information on how to use [!UICONTROL My Priority], see [Prioritize work in the [!UICONTROL Home] area](../../../workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md).
+    ![Customize Button](../new-home/assets/customize-button.png)
 
-![](assets/prioritizing-in-home-group-by-drop-down-nwe-350x412.png)
+    The Customize panel opens. 
 
-## Get it done
+1. In the **Background** section of the **Customize** panel, click the color you would like to select for your Home background. You can also click **None** to remove the background.
 
-After clicking the name of an item in the [!UICONTROL Work List], use the right panel in [!UICONTROL Home] to update and complete your work.
+## Manage you work
 
-### Work in a space customized for you
+### Add Widgets
 
-Your [!DNL Workfront] administrator can add up to 16 custom fields to items in the [!UICONTROL Work List ]to make it easier to find and update the information you need. Most of the fields are editable, so you don't have to navigate into the work item.
+Widgets are the foundation of the new Home. By adding widgets to your Home page, you can choose the type of information that displays to best meet your work needs. Some widgets are only available to specific license types, as the objects they track are only available to those licenses. 
 
-To update any of the fields in this area, simply click a field. If the field is editable, you can modify it in the right panel. 
+For information on adding, moving, resizing, or deleting widgets, see [Add, edit, or remove widgets in Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
 
->[!NOTE]
->
->You can't update the [!UICONTROL Commit Date] if this field is added to a work item from a layout template.
-
-![](assets/16-fields-home-350x137.png)
-
-### Update others with important information
-
-Communicate quickly and efficiently with others from the [!UICONTROL Home] area. Using the commenting area of a work item, you can ask questions, notify others of recent updates, or reply to direct comments from the [!UICONTROL Home] area. In addition, you can update others on the progress you're making by:
-
-* Updating the [!UICONTROL Commit Date] in the commenting area
-
-   >[!NOTE]
-   >
-   >   This is the only place where you can update the Commit Date in Home.  
-
-* Reporting on how you feel things are going by adding a comment or updating the [!UICONTROL Condition] of an item
-* Updating the percent complete bar
-
-For more information on communicating in the [!UICONTROL Home] area, see [Update work](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-
-![](assets/updates-home-350x198.png)
-
-### Log your time
-
-Keep track of the hours you've worked on individual work items. You can choose a general hour type, such as [!UICONTROL Task Time], or you can choose a project-specific hour type set up by your [!DNL Workfront] administrator.
-
-For more information on how to log time in the [!UICONTROL Home] area, see the section [Home](../../../timesheets/create-and-manage-timesheets/log-time.md#home) in the article [Log time](../../../timesheets/create-and-manage-timesheets/log-time.md).
-
-![](assets/log-time-home-350x181.png)
+-->
