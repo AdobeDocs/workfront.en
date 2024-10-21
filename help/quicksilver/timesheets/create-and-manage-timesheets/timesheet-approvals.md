@@ -1,7 +1,7 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Approve a timesheet
+title: Approve a Timesheet
 description: The process of approving timesheets provides managers with visibility into the work hours of their direct reports. Approvers can verify that all time recorded has been allocated in the correct areas and that a sufficient number of hours have been recorded for the period.
 author: Alina
 feature: Timesheets
@@ -61,15 +61,20 @@ For more information about designating timesheet approvers, see the section [Cre
 
 ## Approve a timesheet
 
-You can approve any timesheets that have been submitted where you have been designated as an approver. When a timesheet is submitted for approval, the timesheet is listed in the **Approvals** area on your **Home**  page. For more information, see [Approving work](../../review-and-approve-work/manage-approvals/approving-work.md).
+You can approve any timesheets that have been submitted where you have been designated as an approver. When a timesheet is submitted for approval, the timesheet is listed in the **My Approvals** widget in your **Home** area. For more information, see [Approving work](../../review-and-approve-work/manage-approvals/approving-work.md).
 
-If the Workfront administrator has enabled the Timesheet Approval to User and the Timesheet Rejection to User event handlers, you are notified after the timesheet is approved or rejected. For information about enabling event notifications, see [Event notification types](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+If the following notification settings are in place, the user who submits the timesheet for approval receives an email after a timesheet is approved:
 
-To approve a timesheet:
+* The Workfront administrator has enabled the Timesheet Approval to User and the Timesheet Rejection to User event handlers. For information about enabling event notifications, see [Event notification types](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+* The My timesheet is approved personal notification is enabled on the user's profile page. For more information, see [Modify your own email notifications](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md). 
+
+### Approve a timesheet from the Timesheets area
 
 {{step1-to-timesheets}}
    
    The **Timesheets** area opens. 
+
+1. (Conditional) If the last time you accessed opens, click **Back to timesheets** in the upper-left corner of the screen.   
 
 1. Select the **My Timesheet Approvals** in the upper-right corner of the page to view only timesheets that you approve
 
@@ -81,11 +86,9 @@ To approve a timesheet:
 
    >[!NOTE]
    >
-   >The My Timesheet Approvals option does not display at the top of the timesheet list or in the list of filters if your Workfront administrator or a group administrator removed the My Timesheet Approvals filter from either the List Controls in the Setup area or from your Layout Template. For more information see the following articles:
+   >The My Timesheet Approvals option does not display at the top of the timesheet list or in the list of filters if your Workfront administrator or a group administrator removed the My Timesheet Approvals filter from either the List Controls in the Setup area or from your Layout Template. 
    >
-   >   
-   >   
-   >   * [Customize Filters, Views, and Groupings using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) 
+   >For more information see [Customize Filters, Views, and Groupings using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) 
    >   
    >
 
@@ -106,3 +109,21 @@ To approve a timesheet:
    If approved, the timesheet status changes to **Closed**.
 
    If rejected, the timesheet status changes to **Rejected**.
+
+### Approve a Timesheets from the Home area
+
+{{step1-to-home}}
+
+   The Home area opens.
+
+1. Ensure you have the **My Approvals** widget added to your Home area. For more information, see [Add, edit, or remove widgets in New Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md). 
+1. Find a timesheet approval in your My Approvals widget.
+1. (Optional) Expand the drop-down menu to the right of the Approve or Reject buttons to add a comment about your decision, then click **Add**. 
+1. Click one of the following buttons to make your approval decision:
+
+   * Approve
+   * Reject
+
+   The approval is removed from the **My Approvals** widget. 
+
+

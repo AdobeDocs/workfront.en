@@ -8,9 +8,13 @@ exl-id: 699199a7-1a11-4025-aa90-6721e5cb6b45
 ---
 # [!UICONTROL Home] area for Reviewers
 
+>[!IMPORTANT]
+>
+>This functionality was removed with the Legacy Home deprecation on 10/17/2014.
+
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: from Alina: not sure if we should still keep this one or not. In the past, Reviewers had a limited "Home" area which was their default page. Since now they created a "My Updates" area which is their new default, not sure if this makes much sense to still keep. The "My Updates" article is linked from this one, right at the top.)</p>
--->
+
 
 Reviewers are assigned the [!UICONTROL My Updates] area by default. They can access a modified version of the [!UICONTROL Home] area only when an [!DNL Adobe Workfront] administrator adds the [!UICONTROL Home] area to their layout template.
 
@@ -128,3 +132,4 @@ You must have the following access to perform the steps in this article:
 1. Click **[!UICONTROL Update]**.
 
  
+-->

@@ -99,7 +99,7 @@ You can assign work items that have not yet been assigned to a user or reassign 
 
       >[!TIP]
       >
-      > If your Workfront or group administrator enabled delegations in your environment, use the Assignments tab to assign users to the task or issue. Use the Delegations tab to view users who are delegated to the work item. For information about delegating work, see [Manage task and issue delegation](../../manage-work/delegate-work/how-to-delegate-work.md). 
+      > If your Workfront or group administrator enabled delegations in your environment, use the Assignments tab to assign users to the task or issue. Use the Delegations tab to view users who are delegated to the work item. For information about delegating work, see [Delegate tasks and issues](../../manage-work/delegate-work/how-to-delegate-work.md). 
 
 
      This assigns or reassigns the work item to the specified assignees.

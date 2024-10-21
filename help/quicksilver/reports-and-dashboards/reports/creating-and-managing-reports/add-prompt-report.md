@@ -69,11 +69,11 @@ For instructions on creating a report, see [Create a report](../../../reports-an
 1. Go to the report where you want to add a prompt.
 1. Expand **Report Actions**, and then click **Edit**.
 
-1. Click **Report Settings**.
-1. In the **Report Prompts** area, click **Add a Prompt**.  
-   ![](assets/qs-add-a-prompt-350x216.png)
+1. Click the **Report Settings** button.
+1. Click the **Report Prompts** tab, then click **Add a Prompt**.  
+   ![](assets/create-report-prompt-tab.png)
 
-1. (Conditional) Select the field that you want the prompt to be based on. Start typing the name of the field, and click to select it when it appears in the list.  
+1. (Conditional) Select the field that you want the prompt to be based on. Start typing the name of the field, then click to select it when it appears in the list.  
    The options available to users running the report will differ depending on the field you select.  
    For example, if you select a date field such as Actual Completion Date on a task report, "Actual Completion Date" is the name of the prompt. When editing this prompt as you are running this report, you can choose from a set of modifiers to build your filtering statement. This process is identical to building a filter. For more information about modifiers, see [Filter and condition modifiers](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
@@ -86,8 +86,9 @@ For instructions on creating a report, see [Create a report](../../../reports-an
    Specify the following information for the custom prompt: The condition of a custom prompt can only be edited using text mode. This allows for multiple conditions to be applied in a single field.
 
    * **Field name:** This is the name of the prompt, as you see it before you run the report.
-   * **Label:** This is the name of one of the options inside the prompt as you see it before you run the report.
+   * **Dropdown Item Label:** This is the name of one of the options inside the prompt as you see it before you run the report.
    * **Condition:** Enter a condition that defines the prompt.
+   * **Default:** You can select one item to to be the default option for this prompt.
 
    Use the same syntax that you would use when entering a text mode filter, and join your statements by "&". For more information about editing a filter in text mode, see [Edit a filter using text mode](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
@@ -122,7 +123,7 @@ To run a report with a prompt:
 
 1. Go to the report with the prompt.
 
-   ![](assets/qs-prompt-drop-downs-350x229.png)
+   ![](assets/run-report-prompts.png)
 
 1. Choose a condition for one or all the prompts displayed on the **Prompts** tab.  
    (Optional) You can leave the prompts blank and not filter the report by the prompt conditions.
@@ -139,13 +140,14 @@ To run a report with a prompt:
 
 >[!CAUTION]
 >
->When you share a prompted report outside Workfront, the user viewing the report must be logged in to Workfront to run the report using the prompt. If the user viewing the report is not logged in, all the results of the report display without applying the prompt.
+>When you share a prompted report, both logged in and not logged in users viewing the report using the public share link cannot run the report using its prompts. In this case, the results of the report display without applying any prompts, and the information displayed will instead be based on the user's access level and permissions or the report's Run As User access level and permissions, if one is set.
 
 The following are limitations in sharing prompted reports from Workfront:
 
-* When you share a report publicly users cannot run the report by applying the prompt, unless they have Workfront credentials and log in first to view the report in Workfront.
+* When you share a report publicly, users cannot run the report with applied prompts, unless they: have Workfront credentials, log in first, and navigate to the report directly in Workfront (not through the public share link).
 
   For more information about sharing reports, see the article [Share a report in Adobe Workfront](../../../reports-and-dashboards/reports/creating-and-managing-reports/share-report.md).
-* When you schedule a prompted report for delivery the report in the email attachment includes the data of the report umprompted. When the user clicks the link in the email to access the report, they must log in first to view the report and run the prompt themselves.
+
+* When you schedule a prompted report for delivery the report in the email attachment includes the data of the report unprompted. When the user clicks the link in the email to access the report, they must log in first to view the report and run the prompt themselves.
 
   For information about scheduling a delivered report, see [Schedule an automatic report delivery](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-automatic-report-delivery.md).

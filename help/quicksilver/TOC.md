@@ -439,8 +439,6 @@ feature-set: Workfront
       * [New commenting experience](product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md)
       * [New commenting experience release activity](product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md)
       * [New commenting experience FAQs](product-announcements/betas/new-commenting-experience-beta/new-commenting-faq.md)
-    * Workfront Data Connect beta {#data-lake-beta}
-      * [Workfront Data Connect beta information](/help/quicksilver/product-announcements/betas/data-lake-beta/data-lake-beta-information.md)
 * Administration and setup {#administration-and-setup}
   * [Administration and setup: article index](administration-and-setup/administration-and-setup.md)
   * Get started with administration {#get-started-administration}
@@ -878,24 +876,28 @@ feature-set: Workfront
   * Priorities {#priorities}
     * [Priorities: article index](workfront-basics/priorities/priorities-toc.md)
     * [Get started with Priorities](workfront-basics/priorities/get-started-with-priorities.md)
+    * [Filter and group your work in Priorities](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
+    * [Customize the worklist columns](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
+    * [Prioritize important work items](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)
+    * [Create tasks and issues in Priorities](/help/quicksilver/workfront-basics/priorities/create-task-issue-priorities.md)
+    * [Add and view updates in Priorities](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md)
+    * [Log time in Priorities](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md)
+    * [Upload files in Priorities](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)
+    * [Add and manage quick links in Priorities](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
   * Home {#home}
     * [Home](workfront-basics/using-home/home.md)
-    * New Home {#new-home}
-      * [New Home](workfront-basics/using-home/new-home/new-home.md)
-      * [Get started with New Home](workfront-basics/using-home/new-home/get-started-with-new-home.md)
-      * [Add, edit, or remove widgets in New Home](workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md)
-      * [New Home widget filters overview](workfront-basics/using-home/new-home/widget-filter-overview-new-home.md)
-      * [Manage your work with the My Work widget](workfront-basics/using-home/new-home/my-work-widget.md)
     * Use the Home area {#use-home-area}
       * [Use the Home area](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
-      * [Move from Legacy home to New Home](workfront-basics/using-home/new-home/move-to-new-home.md)
       * [Move from Legacy home to Priorities](workfront-basics/priorities/move-from-legacy-home-to-priorities.md)
       * [Get started with Home](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
+      * [Add, edit, or remove widgets in New Home](workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
       * [Display items in the Work List in the Home area](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
+      * [Home widget filters overview](workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md)
+      * [Manage your work with the My Work widget](workfront-basics/using-home/using-the-home-area/my-work-widget.md)
       * [Prioritize work in the Home area](workfront-basics/using-home/using-the-home-area/prioritize-work-in-home.md)
       * [Manage work and team requests in the Home area](workfront-basics/using-home/using-the-home-area/manage-work-and-team-requests-home.md)
       * [Update or edit a work item in the Home area](workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md)
-      * [Create work items from the Home area](workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
+      * [Create work items and projects from the Home area](workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)
       * [Log time on a work item from the Home area](workfront-basics/using-home/using-the-home-area/log-time-on-work-item-in-home.md)
       * [Mark an item as Done in the Home area](workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md)
       * [Home Calendar view](workfront-basics/using-home/using-the-home-area/home-calendar-view.md)
@@ -1497,7 +1499,7 @@ feature-set: Workfront
   * Delegate work {#delegate-work}
     * [Delegate work](manage-work/delegate-work/delegate-work.md)
     * [Delegate tasks and issues overview](manage-work/delegate-work/delegate-work-overview.md)
-    * [Manage task and issue delegation](manage-work/delegate-work/how-to-delegate-work.md)
+    * [Delegate tasks and issues](manage-work/delegate-work/how-to-delegate-work.md)
 * Teams and groups {#teams-groups}
   * [Teams and groups](people-teams-and-groups/people-teams-and-groups.md)
   * Create and manage teams {#create-manage-teams}

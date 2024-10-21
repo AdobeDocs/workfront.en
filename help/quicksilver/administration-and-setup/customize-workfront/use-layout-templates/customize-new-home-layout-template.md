@@ -27,7 +27,7 @@ You can configure:
 
 
 
-For information about new Home, see [Get started with New Home](/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md).
+For information about new Home, see [Get started with Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 For information about creating layout templates, see [Create and manage layout templates](../use-layout-templates/create-and-manage-layout-templates.md). 
 
@@ -85,8 +85,8 @@ To customize New Home using a layout template:
       <td role="rowheader">Design & layout</td> 
       <td>
       <p>Select which widgets will be present in users' workspaces, their position, and choose a background. Note that while users cannot remove the selected widgets, they can move and resize them freely as well as add additional widgets.</p>
-      <p>This tab essentially functions as a small new Home workspace; as such, it can be customized according to the steps described in <a href="/help/quicksilver/workfront-basics/using-home/new-home/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Add, edit, or remove widgets in new Home</a>. Select widgets and arrange the workspace as you would like it to appear for users.</p>
-      <p>To change the background, follow the steps under <b>Background customization</b> in <a href="/help/quicksilver/workfront-basics/using-home/new-home/get-started-with-new-home.md" class="MCXref xref">Get started with New Home</a>.</p>
+      <p>This tab essentially functions as a small new Home workspace; as such, it can be customized according to the steps described in <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Add, edit, or remove widgets in Home</a>. Select widgets and arrange the workspace as you would like it to appear for users.</p>
+      <p>To change the background, follow the steps under <b>Background customization</b> in <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">Get started with Home</a>.</p>
       <p>
 
   >[!NOTE]
