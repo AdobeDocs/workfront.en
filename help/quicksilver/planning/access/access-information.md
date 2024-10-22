@@ -16,7 +16,7 @@ As a Workfront administrator, you must give access to your users to use Adobe Wo
 
 The following articles contain information about what access your users need to use Workfront Planning capabilities: 
 
-* [Access overview](/help/quicksilver/planning/access/access-overview.md)
+* [Adobe Planning access overview](/help/quicksilver/planning/access/access-overview.md)
 * [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md)
 * [Share workspaces](/help/quicksilver/planning/access/share-workspaces.md)
 * [Share views](/help/quicksilver/planning/access/share-views.md)

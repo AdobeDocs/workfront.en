@@ -1336,7 +1336,7 @@ feature-set: Workfront
       * [Overview of task Original Duration and Original Planned Hours](manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
       * [Difference between Planned Duration and Duration for tasks](manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
     * Create tasks {#create-tasks}
-      * [Create tasks](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
+      * [Create tasks: article index](manage-work/tasks/create-tasks/create-tasks-overview-1.md)
       * [Create tasks overview](manage-work/tasks/create-tasks/create-tasks-overview.md)
       * [Create tasks in a project](manage-work/tasks/create-tasks/create-tasks-in-project.md)
       * [Create subtasks](manage-work/tasks/create-tasks/create-subtasks.md)
@@ -2086,7 +2086,7 @@ feature-set: Workfront
     * [Primary field overview](planning/fields/primary-field-overview.md)
   * Adobe Workfront Planning access {#adobe-workfront-planning-access}
     * [Adobe Workfront Planning access information: article index](planning/access/access-information.md)
-    * [Access overview](planning/access/access-overview.md)
+    * [Adobe Workfront Planning access overview](planning/access/access-overview.md)
     * [Overview of sharing permissions in Adobe Workfront Planning](planning/access/sharing-permissions-overview.md)
     * [License type overview when using Adobe Workfront Planning](planning/access/license-type-overview.md)
     * [Share workspaces](planning/access/share-workspaces.md)
