@@ -92,6 +92,7 @@ Because environment promotion deals with object configuration, transactional obj
 | Risk Type (RSKTYP) | Risk Type |
 | Resource Pool (RSPL) | Resource Pool |
 | Access Level (ACSLVL) | Access Level |
+| Rate Card (RTCRD) | Rate Card |
 
 \* Not currently available 
 
