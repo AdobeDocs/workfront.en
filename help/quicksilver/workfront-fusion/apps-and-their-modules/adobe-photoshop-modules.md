@@ -234,7 +234,7 @@ This action module applies a variety of document and layer level edits.
       <td role="rowheader">
         <p>[!UICONTROL (Options) Fonts]</p>
       </td>
-   <td> For each font that the document needs, click Add item and enter the font's stornge location and file location. </td> 
+   <td> For each font that the document needs, click Add item and enter the font's storage location and file location. </td> 
     </tr>
     <tr>
       <td role="rowheader">

@@ -3,15 +3,15 @@ title: Customize New Home Using a Layout Template
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: You can use a Layout Template to configure what users see when they open new Home.
+description: You can use a Layout Template to configure what users see when they open Home.
 author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b9997e79-a893-49dd-8c90-290399b2d2f7
 ---
-# Customize new Home using a Layout Template
+# Customize Home using a Layout Template
 
-You can use a Layout Template to configure what users see when they first open new Home.
+You can use a Layout Template to configure what users see when they first open Home.
 
 You can configure:
 
@@ -27,7 +27,7 @@ You can configure:
 
 
 
-For information about new Home, see [Get started with Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+For information about home, see [Get started with Home](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 For information about creating layout templates, see [Create and manage layout templates](../use-layout-templates/create-and-manage-layout-templates.md). 
 
@@ -67,9 +67,9 @@ To perform them for a group, you must be a manager of that group.</p> </td>
 
 +++
 
-## Customize New Home using a layout template
+## Customize Home using a layout template
 
-To customize New Home using a layout template:
+To customize Home using a layout template:
 
 1. Begin working on a layout template, as described in [Create and manage layout templates](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -85,13 +85,13 @@ To customize New Home using a layout template:
       <td role="rowheader">Design & layout</td> 
       <td>
       <p>Select which widgets will be present in users' workspaces, their position, and choose a background. Note that while users cannot remove the selected widgets, they can move and resize them freely as well as add additional widgets.</p>
-      <p>This tab essentially functions as a small new Home workspace; as such, it can be customized according to the steps described in <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Add, edit, or remove widgets in Home</a>. Select widgets and arrange the workspace as you would like it to appear for users.</p>
+      <p>This tab essentially functions as a small Home workspace; as such, it can be customized according to the steps described in <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md" class="MCXref xref">Add, edit, or remove widgets in Home</a>. Select widgets and arrange the workspace as you would like it to appear for users.</p>
       <p>To change the background, follow the steps under <b>Background customization</b> in <a href="/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md" class="MCXref xref">Get started with Home</a>.</p>
       <p>
 
   >[!NOTE]
   >
-  >Only moving or resizing widgets in the Layout Template will not trigger users' new Home pages to update their layout. However, adding or removing a widget will trigger an update to users' pages.
+  >Only moving or resizing widgets in the Layout Template will not trigger users' Home pages to update their layout. However, adding or removing a widget will trigger an update to users' pages.
 
   </p>
      </td> 
@@ -113,7 +113,8 @@ To customize New Home using a layout template:
 
   >[!IMPORTANT]
   >
-  >Users must have at least Create access to Views in order for administrator column configuration to properly apply to their new Home pages.
+  >* The Filter, Columns, and Group options are linked to the list customization options in the Layout Template. Changes made here will apply to those settings as well.
+  >* Users must have at least Create access to Views in order for administrator column configuration to properly apply to their Home pages.
 
   </p>
       <li><p><b>Set a default Filter or Group for the widget:</b></p>
@@ -141,4 +142,4 @@ To customize New Home using a layout template:
 
 >[!IMPORTANT]
 >
->You must refresh the new Home page to see customizations from the Layout Template. 
+>You must refresh the Home page to see customizations from the Layout Template. 
