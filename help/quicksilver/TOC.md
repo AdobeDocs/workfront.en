@@ -1509,7 +1509,7 @@ feature-set: Workfront
     * [Create and manage Agile teams](people-teams-and-groups/create-and-manage-teams/create-and-manage-agile-teams.md)
     * [Edit team settings](people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)
     * [Manage what your team is working on](people-teams-and-groups/create-and-manage-teams/manage-what-your-team-is-working-on.md)
-    * [Deactivate a team](people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md)
+    * [Deactivate or delete a team](people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md)
     * [Configure the Done button for tasks](people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
     * [Configure the Done button for issues](people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
     * [Replace the Work On It button with a Start button](people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)
