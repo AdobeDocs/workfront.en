@@ -49,11 +49,11 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Click the **[!UICONTROL More]** menu ![](assets/more-icon.png), then select **[!UICONTROL Edit]**.
 
-   Only team members with either a [!UICONTROL Plan] or [!UICONTROL Work] license see this option. 
+   Only team members with either a [!UICONTROL Standard], [!UICONTROL Plan], or [!UICONTROL Work] license see this option. 
     
    If you should have the [!UICONTROL Edit] option but you do not see it, ask your Workfront administrator to verify that [!UICONTROL Team Settings] is visible in the layout template for [!UICONTROL Scrum Team], [!UICONTROL Kanban Team], or [!UICONTROL Waterfall Team].
 
-   ![](assets/edit-team-settings-1.png)
+   ![](assets/edit-team-settings.png)
 
 1. In team settings, you can make the following kinds of changes:
 
