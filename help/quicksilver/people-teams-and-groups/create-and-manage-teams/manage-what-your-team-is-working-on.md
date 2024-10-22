@@ -15,4 +15,4 @@ You can assign unassigned items, adjust current assignments, adjust current allo
 
 For detailed information about how to manage work assigned to your team, see [[!UICONTROL Workload Balancer]](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md). 
 
-![](assets/team-page-with-team-requests-and-balancer-sections-left.png)
+![Team page showing Workload Balancer](assets/team-page-workload-balancer.png)

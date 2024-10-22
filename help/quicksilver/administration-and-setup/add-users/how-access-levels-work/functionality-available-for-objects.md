@@ -107,7 +107,7 @@ It also indicates which actions Workfront administrators can disable or enable u
 | Attach custom forms           | ✓        | ✓      | ✓           | &nbsp;        |
 | Edit custom fields            | ✓        | ✓      | ✓           | &nbsp;        |
 | Approve issues                | ✓        | ✓      | ✓           | &nbsp;        |
-| Add an approval process       | ✓        | ✓      | ✓           | &nbsp;        |
+| Add an approval process       | ✓        | &nbsp; | &nbsp;      | &nbsp;        |
 | Add documents                 | ✓        | ✓      | ✓           | &nbsp;        |
 | Copy issues                   | ✓        | ✓      | ✓           | &nbsp;        |
 | Move issues                   | ✓        | ✓      | ✓           | &nbsp;        |
