@@ -69,7 +69,7 @@ To configure the Start button:
 
 1. In the **[!UICONTROL Teams]** drop-down menu, select a team.  
    or  
-   Click **[!UICONTROL Create Team]**.
+   Click **[!UICONTROL Create new team]**.
 
 1. Click the **[!UICONTROL More]** icon ![](assets/more-icon.png), then click **[!UICONTROL Edit]**. 
 

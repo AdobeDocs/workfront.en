@@ -49,7 +49,7 @@ For more detail about the information in this table, see [Access requirements in
 
 1. Click the **[!UICONTROL Switch Teams]** icon ![Switch team icon](assets/switch-team-icon.png), then click **[!UICONTROL Create New Team]**.
 
-   ![Select Create new team.](assets/create-new-team-350x198.png)
+   ![Select Create new team.](assets/create-new-team.png)
 
 1. In the **[!UICONTROL New Team]** box that displays, enter the following information:
 
