@@ -79,7 +79,7 @@ For more detail about the information in this table, see [Access requirements in
     * [Add images, PDFs, and videos](#add-images-pdfs-and-videos)
     * [Add Workfront native fields](#add-workfront-native-fields)
     * [Add Adobe XD files](#add-adobe-xd-files)
-    <!--* [Add Planning connection fields](#add-planning-connections-fields)-->
+    <!--* [Add Planning connection fields](#add-planning-connection-fields)-->
 
 ## Add new or existing fields to your custom form
 

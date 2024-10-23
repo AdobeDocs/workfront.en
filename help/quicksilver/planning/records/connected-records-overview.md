@@ -9,6 +9,8 @@ exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
 ---
 # Connected records overview
 
+<!--for the Planning connection field, see commented out below; also add preview tags-->
+
 {{planning-important-intro}}
 
 You can connect Adobe Workfront Planning records to one another or to objects from other applications. 
@@ -48,3 +50,6 @@ You can connect records to other records or to objects from another application 
 * You can connect Workfront objects to Workfront Planning records in the following areas: 
     
     * From the Planning section of a Workfront object.
+    <!--* From a Planning connection field on a Workfront object's custom form. -->
+
+    For information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
