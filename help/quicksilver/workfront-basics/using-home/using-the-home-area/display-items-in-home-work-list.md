@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: use-the-home-area
-title: Display items in the [!UICONTROL worklist] in the Home area
+title: Display Items in the [!UICONTROL Worklist] in the Home Area
 description: Each widget contains its own worklist. Worklists display all work items that are assigned to you. You can control which items display in your [!UICONTROL worklist], by using filters and groupings.
 author: Courtney
 feature: Get Started with Workfront, Work Management

@@ -14,12 +14,13 @@ When a task is ready to start, Adobe Workfront adds a Can Start indicator to the
 
 When the task is ready to be worked on, the Can Start field on the task is set to True.
 
-## How Workfront marks a task as "Can&nbsp;Start"
+## How Workfront marks a task as "Can Start"
 
 Workfront checks for the following things before it marks a task as True for the Can Start field:
 
-* If the task has a parent, it checks to see if the value of Can Start for the parent it set to True. If the value for the parent is False, then all the subtasks have the value of Can Start set to False, as well.&nbsp;
-* It also checks to see if the predecessors of the task as well as the predecessors of their parents are complete. If they are complete, the Can Start value for the task is set to True. If any of the task predecessors or their parents' predecessors are not complete, or have a status of Complete-Pending Approval, then the Can Start value for the task is set to False.&nbsp;
+* Whether the value of Can Start for the parent it set to True, if the task has a parent. If the value for the parent is False, then all the subtasks have the value of Can Start set to False, as well.
+* Whether the predecessors of the task as well as the predecessors of their parents are complete. If they are complete, the Can Start value for the task is set to True. If any of the task predecessors or their parents' predecessors are not complete, or have a status of Complete-Pending Approval, then the Can Start value for the task is set to False.
+* Whether the task dependency type is either Start-Start or Start-Finish. If the dependency type is Start-Start or Start-Finish, the dependent task will have the "Can start" flag set to True after the parent task is in progress (or after the percent complete of the parent task is greater than 1%). <!--not sure if this should say PARENT or PREDECESSOR??; asking on the issue-->
 
   For information about task predecessors, see [Overview of task predecessors](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 

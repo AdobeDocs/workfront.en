@@ -45,7 +45,7 @@ The following task statuses are provided with your Workfront instance:
   <tr> 
    <td>Complete (required status)</td> 
    <td> <p>You can manually mark a task complete when the work on it is completed.</p> <p>When the Tracking Mode of a task is set to Autocomplete, the task is automatically marked Complete when it reaches the Planned Completion Date.</p> </td> 
-   <td> <p>When a task is completed, the percent complete of the task is marked as 100%. The task is removed from the assignee's Work List in the Home area when it is completed.</p> <p>When you mark a task as Complete, the task shows a value for the Actual Completion Date.</p> <p><b>NOTE</b>: If the task has incomplete issues and you change the task status to Complete, the status automatically changes to Complete - Pending Issues.</p> </td> 
+   <td> <p>When a task is completed, the percent complete of the task is marked as 100%. The task is removed from the assignee's My Work list in the Home area when it is completed.</p> <p>When you mark a task as Complete, the task shows a value for the Actual Completion Date.</p> <p><b>NOTE</b>: If the task has incomplete issues and you change the task status to Complete, the status automatically changes to Complete - Pending Issues.</p> </td> 
   </tr> 
  </tbody> 
 </table>

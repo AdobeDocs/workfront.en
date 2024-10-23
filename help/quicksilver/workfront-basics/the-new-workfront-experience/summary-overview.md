@@ -181,9 +181,7 @@ Use the [!UICONTROL Documents] section of the [!UICONTROL Summary] to see docume
 
 Use the [!UICONTROL Details] section of the [!UICONTROL Summary] to view high-level work item details, make assignments, or add start dates. Click **[!UICONTROL See all]** to go directly to the [!UICONTROL Details] tab on the task or issue.
 
->[!NOTE]
->
->The fields that appear in this section are the same fields that appear in the right panel in Home. You can customize these fields [Customize [!UICONTROL Home] and [!UICONTROL Summary] using a layout template](../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+
 
 ![Details section in Summary panel](assets/summary-details-section.png)
 
