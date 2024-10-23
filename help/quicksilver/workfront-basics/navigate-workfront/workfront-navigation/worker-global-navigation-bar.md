@@ -18,7 +18,7 @@ As a [!UICONTROL Worker], your main responsibility is to complete work. The area
 
 The following areas are included in the default layout of a [!UICONTROL Worker]:
 
-* **[!UICONTROL Home]**: Tasks and issues assigned to you display here. This is the default landing page for a Worker , however, it doesn't appear in the [!UICONTROL Main Menu] unless a Workfront administrator adds it in the layout template .  For information, see [Get started with [!UICONTROL Home]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+* **[!UICONTROL Home]**: Tasks and issues assigned to you display here. This is the default landing page for a Worker, however, it doesn't appear in the [!UICONTROL Main Menu] unless a Workfront administrator adds it in the layout template.  For information, see [Get started with [!UICONTROL Home]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
 * **[!UICONTROL Projects]**: Projects that are shared with you display here. For information, see [Projects: article index](../../../manage-work/projects/projects-overview.md).
 

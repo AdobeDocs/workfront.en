@@ -4,6 +4,7 @@ navigation-topic: the-new-workfront-experience
 title: Object headers overview
 description: You can view information at a glance about objects in [!DNL Adobe Workfront] when you review their header. The information in a header can include the owner of the object, the status, or the percent complete.
 feature: Get Started with Workfront
+author: Courtney
 exl-id: 76e21df0-9272-4bfb-8a97-c16ae5f4b5dc
 ---
 # Object headers overview
@@ -25,12 +26,12 @@ For example, to access the header of a project:
 
    ![](assets/project-header-350x18.png)
 
-## [!UICONTROL Home] header overview 
+<!--## [!UICONTROL Home] header overview 
 
 The following headers are available in Home:
 
 * Task: For more information on how you can use this header, see the [Task header overview](#task-header-overview) in this article.
-* Issue: For more information on how you can use this header, see the [Issue header overview](#issue-header-overview) in this article.
+* Issue: For more information on how you can use this header, see the [Issue header overview](#issue-header-overview) in this article.-->
 
 ## Customizable headers
 
@@ -74,8 +75,8 @@ The project header displays the following information, by default:
    <td> <p>The text "[!UICONTROL PROJECT]" displays above the project name in the header.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">The actions area of the task</td> 
-   <td> <p>Next to the name of the project, the actions area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p>  </td> 
+   <td role="rowheader">The actions area of the project</td> 
+   <td> <p>Next to the name of the project, the actions area displays which includes the <b>Share</b> option.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
@@ -138,7 +139,7 @@ The task header includes the following information, by default:
   </tr> 
   <tr> 
    <td role="rowheader">The actions area of the task</td> 
-   <td> <p>Next to the name of the task, the [!UICONTROL actions] area displays.</p> <p> <img src="assets/nwe-dependency-action-area.png"> </p> <p>If the Dependency icon displays, you can click the icon to see any predecessors or successors for the task.</p> </td> 
+   <td> <p>Next to the name of the task, the actions area displays which includes the <b>Share</b> option.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p> <p>If the Dependency icon displays, you can click the icon to see any predecessors or successors for the task.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
@@ -201,7 +202,7 @@ The issue header includes the following information, by default:
   </tr> 
   <tr> 
    <td role="rowheader">The actions area of the issue</td> 
-   <td> <p>Next to the name of the issue, the [!UICONTROL actions] area displays.</p> <p> <img src="assets/nwe-dependency-action-area.png"> </p> <p>If the [!UICONTROL Dependency] icon displays, you can click the icon to see any predecessors or successors for the issue.</p>  </td> 
+   <td> <p>Next to the name of the issue, the actions area displays which includes the <b>Share</b> option.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> <p>If the [!UICONTROL Dependency] icon displays, you can click the icon to see any predecessors or successors for the issue.</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
@@ -268,7 +269,7 @@ The program header displays the following information:
   </tr> 
   <tr> 
    <td role="rowheader">The actions area of the program</td> 
-   <td> <p>Next to the name of the program, the [!UICONTROL actions] area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
+   <td> <p>Next to the name of the program, the actions area displays which includes the <b>Share</b> option.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Percent Complete]</td> 
@@ -322,8 +323,8 @@ The portfolio header includes the following information:
    <td> <p>If the portfolio is deactivated, the text "[!UICONTROL PORTFOLIO DEACTIVATED]" displays above the portfolio name in the header.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">The [!UICONTROL actions] area of the portfolio</td> 
-   <td> <p>Next to the name of the portfolio, the [!UICONTROL actions] area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
+   <td role="rowheader">The actions area of the portfolio</td> 
+   <td> <p>Next to the name of the portfolio, the [!UICONTROL actions] area displays.</p> <p> <img src="assets/actions-area-icons-with-share-button.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
@@ -386,7 +387,7 @@ The template header displays the following information:
   </tr> 
   <tr> 
    <td role="rowheader">The actions area of the template</td> 
-   <td> <p>Next to the name of the template, the actions area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
+   <td> <p>Next to the name of the template, the actions area displays.</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Template Owner]</td> 
@@ -433,7 +434,7 @@ The template task header displays the following information:
   </tr> 
   <tr> 
    <td role="rowheader">The actions area of the template task</td> 
-   <td> <p>Next to the name of the template task, the actions area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p> </td> 
+   <td> <p>Next to the name of the template task, the actions area displays.</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Assignments]</td> 
@@ -479,12 +480,15 @@ The billing record header displays the following information:
    <td> <p>The text "[!UICONTROL BILLING RECORD]" displays above the billing record name in the header.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">The actions area of the billing record</td> 
+   <td role="rowheader">The More menu for the billing record</td> 
    <td> <p>Next to the name of the billing record, the [!UICONTROL More] menu <img src="assets/more-menu.png"> displays, which allows you to select the following options:</p> 
     <ul> 
      <li> <p>[!UICONTROL Edit]</p> </li> 
-     <li> <p> </p> </li> 
-    </ul> </td> 
+     <li> <p> Delete </p> </li> 
+    </ul>
+    <p><b>NOTE</b></p>
+    <p>The More menu does not display for billing records with a Status of Billed. You cannot edit or delete Billed records.</p>
+     </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Billing Record Total]</td> 
@@ -536,7 +540,7 @@ The user header displays the following information:
   </tr> 
   <tr> 
    <td role="rowheader">The actions area of the user</td> 
-   <td> <p>Next to the name of the user, the actions area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
+   <td> <p>Next to the name of the user, the actions area displays.</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Email address</td> 
@@ -583,7 +587,7 @@ The team header displays the following information:
   </tr> 
   <tr> 
    <td role="rowheader">The actions area of the team</td> 
-   <td> <p>Next to the name of the team, the [!UICONTROL actions] area displays.</p> <p> <img src="assets/nwe-switch-team-actions-area.png"> </p></td> 
+   <td> <p>Next to the name of the team, the actions area displays.</p> <p> <img src="assets/actions-area-icons-for-a-team.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team member profile pictures</td> 
@@ -626,8 +630,7 @@ The iteration header displays the following information:
   </tr> 
   <tr> 
    <td role="rowheader">The actions area of the iteration</td> 
-   <td> <p>In the upper-right corner of the header, the actions area displays.</p> <p> <img src="assets/nwe-iteration-action-area.png"> </p></td> 
-  </tr> 
+   <td> <p>Next to the name of the iteration, the actions area displays.</p> <p> <img src="assets/actions-area-icons-for-an-iteration.png">
   <tr> 
    <td role="rowheader">Owner</td> 
    <td>This is the [!UICONTROL Owner] of the iteration. You cannot edit the [!UICONTROL Owner] in the header.</td> 
@@ -729,7 +732,7 @@ The document header displays the following information:
   </tr> 
   <tr> 
    <td role="rowheader">The actions area of the document</td> 
-   <td> <p>Next to the name of the document, the actions area displays.</p> <p> <img src="assets/nwe-doc-version-actions-area.png"> </p></td> 
+   <td> <p>Next to the name of the document, the actions area displays.</p> <p> <img src="assets/actions-area-icons-for-a-document.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">The approval [!UICONTROL Decision] area</td> 
@@ -767,7 +770,7 @@ The company header displays the following information:
    <td> <p>The text "[!UICONTROL COMPANY]" displays above the company name in the header.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">The actions area of the company</td> 
+   <td role="rowheader">The More menu of the company</td> 
    <td> <p>Next to the name of the company, the [!UICONTROL More] menu <img src="assets/more-menu.png"> displays, which allows you to select the following options:</p> 
     <ul> 
      <li> <p>[!UICONTROL Edit]</p> </li> 
@@ -813,7 +816,7 @@ The plan header displays the following information:
   </tr> 
   <tr> 
    <td role="rowheader">The actions area of the plan</td> 
-   <td> <p>Next to the name of the plan, the actions area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p></td> 
+   <td> <p>Next to the name of the plan, the actions area displays.</p> <p> <img src="assets/actions-area-icons-without-share-button.png"> </p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Additional plan actions</td> 
@@ -879,9 +882,9 @@ The goal header displays the following information:
    <td> <p>The text "[!UICONTROL GOAL]" displays above the goal name in the header.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">The actions area of the goal</td> 
-   <td> <p>Next to the name of the goal, the actions area displays.</p> <p> <img src="assets/nwe-general-actions-area.png"> </p>
-   You can perform the following actions from the actions area of the goal:
+   <td role="rowheader">The More menu of the goal</td> 
+   <td> <p>Next to the name of the goal, the More menu <img src="assets/more-icon.png"> displays.</p> </p>
+   You can perform the following actions from the More menu of a goal:
    <ul><li>[!UICONTROL Edit]</li>
    <li>[!UICONTROL Copy goal]</li>
    <li>[!UICONTROL Delete goal]</li>

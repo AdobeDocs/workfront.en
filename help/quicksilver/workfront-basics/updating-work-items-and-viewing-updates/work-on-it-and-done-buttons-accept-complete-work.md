@@ -26,25 +26,26 @@ Depending what area of Workfront you access your task or issue from, the Work On
 
 * When the task or issue is first assigned to you and the status is New, the button displays as Work on it.
 
-  ![](assets/nwe-work-on-it-button.png)
+  ![](assets/nwe-work-on-it-button.png) 
 
   >[!TIP]
   >
   >You can replace the Work On It button with a Start button. For information about replacing the Work On It button with a Start button, see  [Replace the Work On It button with a Start button](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md) .
 
-* After you have clicked Work On It accept, the button changes to Mark as done or Done, depending on where in Workfront you access the task or the issue from. For information about where you can access the Work On It button, see the section [Locate the Work On It and Done button](#locate-the-work-on-it-and-done-button) in this article.
+* After you have clicked Work On It accept, the button changes to Mark as done. For information about where you can access the Work On It button, see the section [Locate the Work On It and Done button](#locate-the-work-on-it-and-done-button) in this article.
 
   ![](assets/nwe-mark-as-done-button-350x122.png)
 
-* If you are not the only one assigned to the task or issue and you are accessing your work item from the Work List in the Home area, the button changes to Done with my part.
 
-  ![](assets/home-left-done-with-my-part-button-350x184.png)
+<!--If you are not the only one assigned to the task or issue and you are accessing your work item from the My Work widget in the Home area, the button changes to Done with my part.
 
-## Locate the Work On It and Done button {#locate-the-work-on-it-and-done-button}
+  ![](assets/home-left-done-with-my-part-button-350x184.png)-->
 
-You can locate the Work On it and Done button in the following areas of Workfront:
+## Locate the Work On It and Mark as done button {#locate-the-work-on-it-and-done-button}
 
-* The Home area, both in the Work List or the details panel
+You can locate the Work On it and Mark as done button in the following areas of Workfront:
+
+* The Home area in the My Work widget
 
   For information about marking an item as Done in the Home area, see [Mark an item as Done in the Home area](../../workfront-basics/using-home/using-the-home-area/mark-item-done-in-home.md). 
 
@@ -52,13 +53,13 @@ You can locate the Work On it and Done button in the following areas of Workfron
 
   For information about the object headers, see [New object headers](../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 
-* In the task or issue Summary panel in a list or in the Workload Balancer
+* In the task or issue Summary panel
 
   For information about using the Summary panel, see [Summary overview](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-## Overview of fields that automatically update when you click the Work On It and Done button
+## Overview of fields that automatically update when you click the Work On It and Mark as done button
 
-The benefit of using the Work On It and Done buttons is that you can allow Workfront to automatically update information on the work item assigned to you.
+The benefit of using the Work On It and Mark as done buttons is that you can allow Workfront to automatically update information on the work item assigned to you.
 
 * [Work On It button](#work-on-it-button) 
 * [Start button](#start-button) 
@@ -105,7 +106,11 @@ In addition to the fields that update when you click the Work On It button, the 
 
 ### The Done button {#the-done-button}
 
-If you have access to edit teams, you can configure the Done button for a team to update the task or issue statuses when you mark an item as completed. When users with that team as their Home Team click the Done button on their items the following fields automatically update on a task or issue:
+>[!NOTE]
+>
+>The Done button displays as Mark as done in all areas of Workfront.
+
+If you have access to edit teams, you can configure the Done button for a team to update the task or issue statuses when you mark an item as completed. When users with that team as their Home Team click the Mark as done button on their items the following fields automatically update on a task or issue:
 
 * Status
 * Assignment Status updates from Working to Done

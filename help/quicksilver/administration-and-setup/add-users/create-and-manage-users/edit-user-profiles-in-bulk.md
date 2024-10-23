@@ -81,7 +81,7 @@ For more detail about the information in this table, see [Access requirements in
        <ul> 
         <li><b>Time Zone:</b> The users' time zone.</li> 
         <li><b>Locale</b>: The users' preferred locale. This affects the format of numbers and dates in the emails that come from Workfront.</li> 
-        <li><b>Send work I assign to myself to my Working On tab</b>: Check this option if you want everything that the users assign to themselves to appear directly on their Working On tab. The default is to list everything assigned to a user on their Work Request tab.</li> 
+        <li><b>Send work I assign to myself to my Working On tab</b>: This setting refers to a deprecated feature that has been removed from Workfront.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
