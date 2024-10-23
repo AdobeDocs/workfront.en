@@ -92,7 +92,7 @@ You must have the following access to perform the steps in this article:
   </tr>
 <tr>
    <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu and the Planning area for projects, portfolios, and programs. </p> For more information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  </p>  
+   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu and the Planning area for projects, portfolios, and programs. </p> For more information, see <a href="/help/quicksilver/planning/access/access-overview.md">Adobe Planning access overview</a>. </p>  </p>  
 </td>
   </tr>
  </tbody>

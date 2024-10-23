@@ -8,7 +8,7 @@ exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
 ---
 # Approve a Business Case
 
-After you complete and submit the Business Case for a project request, the Business Case must be approved. This depends on the workflow in your organization. A project can start without the Business Case having to be approved, but your Adobe Workfront administrator and project owners might not consider it ideal to do so.&nbsp;
+After you complete and submit the Business Case for a project request, the Business Case must be approved. This depends on the workflow in your organization. A project can start without the Business Case having to be approved, but your Adobe Workfront administrator and project owners might not consider it ideal to do so. 
 
 For more information about completing and submitting a Business Case, see the article [Create a Business Case for a project](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
@@ -45,16 +45,16 @@ You must have the following access to perform the steps in this article:
 
 Consider the following when approving a Business Case of a project:
 
-* You must have Manage permissions to a project to approve the Business Case for it.&nbsp;
-* You will not be able to see the projects which are waiting for the Business Case to be approved under your Approvals in Home.
+* You must have Manage permissions to a project to approve the Business Case for it. 
+* You will not be able to see the projects which are waiting for the Business Case to be approved under the My Approvals widget in Home.
 * You must manually go to the individual projects that need Business Case approval to see that they are pending approval. There is no Workfront notification mechanism that alerts someone that they must approve the Business Case of a project. 
-* You can find the projects waiting for the approval of the Business Case either by building a project report, or by accessing the portfolio they are associated with.&nbsp;
+* You can find the projects waiting for the approval of the Business Case either by building a project report, or by accessing the portfolio they are associated with. 
 
   For more information about Portfolios, see the article [Portfolio overview in Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 ## Approve the Business Case by building a project report
 
-You can build a report for projects to see what projects need their Business Case approved.&nbsp;
+You can build a report for projects to see what projects need their Business Case approved. 
 
 To build a report for projects which are pending approval of their Business Cases:
 
@@ -66,23 +66,23 @@ To build a report for projects which are pending approval of their Business Case
 
 1. Start typing "Status" in the **Show in this column** field, and select this field when it appears in the list.
 
-   &nbsp;This column will display the status of the projects.
+    This column will display the status of the projects.
 
 1. Select the **Filters** tab of the report, then click **Add a Filter Rule**.
 
 1. Start typing "Status" in the **Only show me Projects in which the ...** field, and select it when it appears in the list.
 1. Select **Equal** for the filter modifier.
-1. Start typing "Requested" in the available field.&nbsp;
+1. Start typing "Requested" in the available field. 
 
    This ensures that the report includes only projects which are in the Requested status.
 
-   &nbsp; ![requested_projects_filter.png](assets/requested-projects-filter-350x14.png)
+     ![requested_projects_filter.png](assets/requested-projects-filter-350x14.png)
 
 1. (Optional) Click **Add another Filter Rule**.
 
    You can add additional filters, to show only projects where you are the Project Owner, or the Project Sponsor, or the Portfolio Owner.
 
-   For example, you can use the following filter statements:&nbsp;
+   For example, you can use the following filter statements: 
    
      ```   
      Project Sponsor ID Equals $$USER.ID
@@ -100,7 +100,7 @@ To build a report for projects which are pending approval of their Business Case
      Project Portfolio Owner ID Equals $$USER. ID
      ```   
    
-     to display where you are designated as the Portfolio Manager.&nbsp;
+     to display where you are designated as the Portfolio Manager. 
 
 1. Click **Save+Close**.
 

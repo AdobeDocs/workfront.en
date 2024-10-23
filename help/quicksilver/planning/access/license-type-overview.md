@@ -19,7 +19,7 @@ Your Adobe Workfront license type works in conjunction with your Adobe Workfront
 
 For information about permissions to objects in Workfront Planning, see [Overview of sharing permissions in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md). 
 
-For information about access to Workfront Planning, see [Access overview](/help/quicksilver/planning/access/access-overview.md). 
+For information about access to Workfront Planning, see [Adobe Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
 
 ## The relationship between Workfront license types and Workfront Planning permissions
 

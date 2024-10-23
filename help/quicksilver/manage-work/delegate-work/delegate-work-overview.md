@@ -44,7 +44,7 @@ Consider the following when you delegate tasks and issues:
    For information, see [Configure system-wide task and issue preferences](../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
    
 * You can delegate tasks and issues only from the [!UICONTROL Home] area.
-* Exceptions exist for the following license types:
+* When delegating work, there are exceptions for the following license types:
 
    * You can delegate work to Reviewers or Requestors, although [!DNL Workfront] doesn't recommend it.
    * Reviewers can delegate work to others. They cannot view work items in their [!UICONTROL Home] area. They can view only approvals.
