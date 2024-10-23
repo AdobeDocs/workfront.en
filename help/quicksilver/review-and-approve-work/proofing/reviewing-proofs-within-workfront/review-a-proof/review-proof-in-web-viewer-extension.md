@@ -18,6 +18,8 @@ The Adobe Workfront review tool is a browser extension that allows you to proof 
 * Chrome
 * Edge
 
+For websites that prevent opening their site in iFrames, such as Figma, we recommend using Desktop Proof Viewer.
+
 ## Prerequisites
 
 To use the web review tool, a Workfront Administrator must disable the setting that opens the Desktop Proofing Viewer automatically for interactive content:
@@ -37,7 +39,6 @@ To use the web review tool, a Workfront Administrator must disable the setting t
 
 Reviewers and approvers must install the Adobe Workfront review in one of the following browsers:
 
-
 * [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
 
 * [Chrome extension](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml) 
@@ -48,4 +49,6 @@ Once you install the extension, interactive proofs open in the Adobe Workfront r
 
  
 The setting to open the Desktop Proofing Viewer for Interactive Proofing must be disabled to use the Workfront review tool. See the [Prerequisites](#prerequisites) section above for information on disabling this setting.
+ 
+
  
