@@ -23,6 +23,7 @@ As an Adobe Workfront administrator or a group administrator, you can create and
 * Main Menu
 * Left navigation panel
 * Home area 
+* Summary panel
 * Views, filters, and groupings people use with lists and reports.
 * On-screen terminology
 * Project, task, and issue headers
@@ -95,7 +96,8 @@ For more information about layout templates, see [Layout templates](../../../adm
    * [Customize the left panel using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) 
    * [Customize pinned pages using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md) 
    * [Customize the Details view using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md) 
-   * [Customize Home and Summary using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md) 
+   * [Customize the Summary panel using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md) 
+   * [Customize Home using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
    * [Customize the landing page using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md) 
    * [Customize Filters, Views, and Groupings using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md) 
    * [Customize user interface terminology using a layout template](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-terminology.md)

@@ -1,5 +1,5 @@
 ---
-title: Access Overview
+title: Adobe Workfront Planning Access Overview
 description: Not all users in the organization have the same access and permissions to use Adobe Workfront Planning. This article describes the access and permissions that users could have to use the capabilities of Adobe Workfront Planning.
 author: Alina
 feature: Workfront Planning
@@ -8,7 +8,7 @@ role: User, Admin
 exl-id: 99fac041-a235-4991-b826-d19944164bc9
 ---
 
-# Access overview
+# Adobe Workfront Planning access overview
 
 <!--do not use the snippet for IMPORTANT , as it links to this article-->
 
