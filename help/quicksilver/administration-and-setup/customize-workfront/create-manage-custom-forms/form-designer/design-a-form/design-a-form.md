@@ -1,5 +1,5 @@
 ---
-title: Design a Form with the Form Designer
+title: Create a Custom Form
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -9,9 +9,9 @@ feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 ---
-# Design a form with the form designer
+# Create a custom form
 
-You can design a custom form with the form designer. You can attach custom forms to different Workfront objects to capture data about those objects.
+You can design a custom form with the form designer in Adobe Workfront. You can attach custom forms to different Workfront objects to capture data about those objects.
 
 ## Access requirements
 
@@ -79,6 +79,7 @@ For more detail about the information in this table, see [Access requirements in
     * [Add images, PDFs, and videos](#add-images-pdfs-and-videos)
     * [Add Workfront native fields](#add-workfront-native-fields)
     * [Add Adobe XD files](#add-adobe-xd-files)
+    <!--* [Add Planning connection fields](#add-planning-connections-fields)-->
 
 ## Add new or existing fields to your custom form
 
@@ -895,6 +896,103 @@ This table lists the available native fields for specific Workfront objects in a
     or
 
     Click **Save and Close**.
+
+<!--
+### Add Planning connection fields
+
+>[!IMPORTANT]
+>
+>The information in this section refers to Adobe Workfront Planning, an additional capability from Adobe Workfront. 
+>
+>You must have the following to access Workfront Planning:
+>
+>* A new Workfront plan and license. Workfront Planning is not available for legacy Workfront plans or licenses. 
+>* An additional license for Workfront Planning. 
+>* Your organization's instance of Workfront must be onboarded to the Adobe Unified Experience.
+>
+> For a complete list of requirements to access Workfront Planning, see [Adobe Workfront Planning access overview](/help/quicksilver/planning/access/access-overview.md). 
+> 
+>For more information about Workfront Planning, see [Adobe Workfront Planning overview](/help/quicksilver/planning/general/planning-overview.md).
+
+You can view records connected from Workfront Planning in a custom field on a Workfront object by adding a  Planning connection custom field to an object's custom form. 
+
+You can add the Planning connection field to all objects' custom forms. However, you can display connected records only on the custom forms associated with Workfront objects that can be connected from Workfront Planning. 
+
+>[!NOTE]
+>
+>Users viewing information in the custom field must have access to Workfront Planning and to the workspaces that contain the record types connected to Workfront objects.
+
+
+To add a Planning connection field:
+
+1. On the left side of the screen, find **Planning connection** and drag it to a section on the canvas. 
+1. On the right side of the screen, configure the options for the custom field:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader">Label</td> 
+      <td> <p>(Required) Type a descriptive label to display above the field. You can change the label at any time.</p> <p><b>IMPORTANT</b>:</p> <p>Avoid using special characters in this label.</p> 
+      <p>We recommend that you choose a label by which you can easily identify where the Planning record is coming from. Add information like the name of the workspace or the name of the record type. </p>   </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Name</td>
+      <td> <p>(Required) The name is how the system identifies the field. When you are configuring the field for the first time and you type the label, the Name field populates automatically to match it. But the Label and Name fields are not synchronized—this gives you the freedom to change the label that your users see without having to change the name that the system sees.</p></td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Instructions</td> 
+      <td> <p>(Recommended) Type any additional information about the field. When users fill out the custom form, they can hover over the question mark icon to view a tool tip containing the information you type here.</p>
+      <p>Here, you can add explicit information about the record and the objects you are connecting. </p>
+      </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Object type</td> 
+      <td><p>(Required) Select a Workfront object type that is connected to a record type in Workfront Planning.</p>
+      You may select from the following object types:
+      <ul><li> Project</li>
+      <li> Portfolio</li><li> Program</li><li> Company</li><li> Group</li></ul>
+       <p>Only Workfront object types for the form's object types are available.</p> <p> For example, if the Object Types list at the top of the form designer shows Project, you can only select Project in this field, and you cannot select Portfolios, although portfolios can also be connected to record types.</p>
+      </td>
+     </tr>
+     <tr> 
+      <td role="rowheader">Workspace</td> 
+      <td> <p>(Required) Select the workspace where the records you want to display in Workfront come from in Workfront Planning.</p> <p> Only workspaces that are connected to the object types you selected in the I=Object type field display. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">Record Type</td> 
+      <td><p>(Required) Select the Workfornt Planning record type whose records are connected to the Workfront object associated with this form.</p><p>Only record types that have connections to the object type you selected in the Object type field display. </p></td> 
+     </tr>
+     <tr> 
+      <td role="rowheader">Connection field</td> 
+      <td><p>(Required) Select the Workfront Planning connection field that displays the Workfront objects that are associated with this form.</p> <p> <b>NOTE</b></p><p>You can have multiple connection fields between the same object and record types.</p>  </td> 
+     </tr>
+    </tbody> 
+   </table>
+
+1. (Optional) Repeat the previous steps to add any other fields. 
+
+    or
+
+    To copy a field, hover over a field, and click the copy icon.
+
+    ![copy icon](assets/copy-field.png)
+
+1. To save your changes, click **Apply** and move on to another section to continue building your form.
+
+    or
+
+    Click **Save and Close**.
+
+    You can now attach the form to an object connected from Workfront Planning and do one of the following:
+
+    * View Workfront Planning record types connected to the Workfront object
+    * Connect or disconnect records from the Workfront object associated with the form. 
+
+    For more information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
+
+-->
 
 ## Organize and preview a form with the form designer
 

@@ -30,7 +30,7 @@ For more information on previewing a custom form in the form designer, see [Orga
 
 Advanced custom form features such as External Lookup fields and Workfront native fields are now available when you attach a custom form to a company or a user. The advanced features are available on the Company Details and User Details pages, not on the Edit Company and Edit User dialogs. The custom form must be created in the new form designer to take advantage of these field types.
 
-For more information about custom form fields, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+For more information about custom form fields, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## JumpSeat integration now available for new package types
 
@@ -58,7 +58,7 @@ Native fields used in custom forms become available in the field library in the 
 
 This feature is available only in the form designer beta, not in the legacy form builder.
 
-For more information, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+For more information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 [View a video demonstration of this feature.](https://video.tv.adobe.com/v/3427702/){target=_blank}
 

@@ -78,7 +78,7 @@ For more detail about the information in this table, see [Access requirements in
    Similarly, if an access option for a section break on the original form isn't compatible with an object type you add to the new one, a message prompts you to adjust the option.
 
 1. Select the form that you just copied, then click ![Edit icon](assets/edit-icon.png).
-1. Make any changes to the form, as explained in the following sections of the [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) article:
+1. Make any changes to the form, as explained in the following sections of the [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) article:
 
    * [Reuse an existing field or widget already used in another custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
      * [Add text fields](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md#add-text-fields)
