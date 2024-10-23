@@ -99,7 +99,7 @@ The following features are currently available in Workfront Planning:
 * View the history of changes on a record             
 * Rich Text formatting for Paragraph fields             
 * Access Planning records from Workfront objects             
-* Connect Planning records from Workfront objects 
+* Connect and disconnect Planning records from Workfront objects 
 * Create Planning records by submitting a request form            
 * Workfront Planning public API             
 * Adobe Workfront Planning modules for Adobe Workfront Fusion             
