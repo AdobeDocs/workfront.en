@@ -44,7 +44,7 @@ You must have the following access to perform the actions described in this arti
 
 ## Prerequisites
 
-* Your Workfront administrator or a Plan user with administrative access to custom forms must create custom forms in your environment. For more information, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+* Your Workfront administrator or a Plan user with administrative access to custom forms must create custom forms in your environment. For more information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * You must have custom forms attached to an object.
 
   For information about how to apply custom forms to an object, see [Add a custom form to an object](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).

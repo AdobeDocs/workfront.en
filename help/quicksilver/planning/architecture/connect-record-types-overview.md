@@ -9,6 +9,8 @@ exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
 ---
 # Connected record types overview
 
+<!--see the commented out markers below for the Planning connection field, might not display in green; also add Preview tags for the article-->
+
 You can indicate that individual record types relate to one another or to objects from other applications by connecting them. 
 
 This article is an overview of record type connections and describes the types of connections you can establish between record and object types. 
@@ -64,8 +66,10 @@ Consider the following about connecting record types:
     
         * A linked record field is created on the record type you're connecting from. No linked record field is automatically created on the other application's object type. 
         * Planning records fields are not accessible from Workfront objects.
-        * Planning record fields are accessible from Experience Manager assets when your Workfront administrator configures the metadata mapping through the integration between Workfront and Adobe Experience Manager Assets. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
         * Planning records are visible from the Workfront object's Planning tab. For information, see [Manage records in the Planning section of Adobe Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+        <!--* Planning records are visible from a Workfront object's custom form when you add the Planning connection field type to the form. For information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). -->
+        * Planning record fields are accessible from Experience Manager assets when your Workfront administrator configures the metadata mapping through the integration between Workfront and Adobe Experience Manager Assets. For more information, see [Configure asset metadata mapping between Adobe Workfront and Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+        
 
     * **When you add lookup fields from the record or object you connect to**: In addition to creating a linked record field, you can also connect to fields from the connected record or object type which are called lookup fields. A linked (or lookup field) with information from the record you're connecting to displays on the record that you're connecting from.
 

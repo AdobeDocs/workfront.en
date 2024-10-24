@@ -166,7 +166,7 @@ You must have the following access to perform the steps in this article:
    * **Descriptive text**
    * **Section Break** 
 
-   For more information about building a custom form, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). 
+   For more information about building a custom form, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). 
 
 1. (Optional) Click **Preview** to view how the form will display for other users when they will use it to submit a new record.
 1. (Optional) Click the **More** menu ![](assets/more-menu.png) to the right of the form's name in the header, then click **Edit** to update the name of the form.
