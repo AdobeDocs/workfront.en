@@ -47,3 +47,4 @@ You can add the new field to forms for all object types. However, you can edit t
 Editing the Planning connection fields for Workfront objects in bulk is not yet available.  
 
 For information, see [Create a custom form](help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+

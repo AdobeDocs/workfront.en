@@ -27,8 +27,10 @@ This page provides information about functionality that is included in the First
 
 ## Adobe Workfront enhancements
 
-* [Administrator enhancements](#administrator-enhancements)
+<!--* [Administrator enhancements](#administrator-enhancements)-->
 * [Other enhancements](#other-enhancements)
+
+<!--
 
 ### Administrator enhancements
 
@@ -66,7 +68,9 @@ This page provides information about functionality that is included in the First
                 </td>
             </tr>
         </tbody>
-</table>   
+</table> 
+
+-->
 
 ### Other enhancements
 
