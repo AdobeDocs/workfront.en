@@ -31,7 +31,7 @@ To use the web review tool for URL and ZIP proofs, a Workfront Administrator mus
 1. In the drop-down menu, choose **Disabled**. Interactive proofs created from a URL or ZIP file now automatically open in the Adobe Workfront Review tool, which is a web-based browser.
 1. Click **Save**.
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >This change applies to all interactive proofs in your Preview and Production environments. We recommend testing the new experience in your Preview environment before enabling it in Production. You can easily switch back to the Desktop Viewer by changing the account setting back to either **Enabled for all interactive proofs**.
 
@@ -45,13 +45,13 @@ To use the web review tool for ZIP proofs only, a Workfront Administrator must a
 1. In the drop-down menu, choose **Enabled only for interactive proofs created from a URL**. Interactive proofs created from a ZIP file now automatically open in the Adobe Workfront Review tool, which is a web-based browser. Interactive proofs created from a URL still still open in the Desktop Proofing Viewer.
 1. Click **Save**.
 
->[!IMPORTANT]
+>[!NOTE]
 >
 >This change applies to all interactive proofs in your Preview and Production environments. We recommend testing the new experience in your Preview environment before enabling it in Production. You can easily switch back to the Desktop Viewer by changing the account setting back to either **Enabled for all interactive proofs**. 
 
 ## Install the extension
 
-Reviewers and approvers must install the Adobe Workfront review in one of the following browsers:
+Reviewers and approvers must install the Adobe Workfront review tool. in one of the following browsers:
 
 * [Firefox extension](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
 
@@ -59,10 +59,12 @@ Reviewers and approvers must install the Adobe Workfront review in one of the fo
 
 * [Edge](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen) 
 
-Once you install the extension, interactive proofs open in the Adobe Workfront review tool automatically. 
+Once you install the extension, interactive proofs open in the Adobe Workfront review tool automatically.
+ 
+>[!IMPORTANT]
+>
+>You must remove the Legacy Web Viewer extension to use the Adobe Workfront Review tool. 
+ 
 
- 
-The setting to open the Desktop Proofing Viewer for Interactive Proofing must be disabled to use the Workfront review tool. See the [Prerequisites](#prerequisites) section above for information on disabling this setting.
- 
 
  
