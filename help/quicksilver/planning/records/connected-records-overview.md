@@ -9,7 +9,9 @@ exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
 ---
 # Connected records overview
 
-<!--for the Planning connection field, see commented out below; also add preview tags-->
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>   
 
 {{planning-important-intro}}
 
@@ -50,6 +52,6 @@ You can connect records to other records or to objects from another application 
 * You can connect Workfront objects to Workfront Planning records in the following areas: 
     
     * From the Planning section of a Workfront object.
-    <!--* From a Planning connection field on a Workfront object's custom form. -->
+    * <span class="preview">From a Planning connection field on a Workfront object's custom form. </span>
 
     For information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md)

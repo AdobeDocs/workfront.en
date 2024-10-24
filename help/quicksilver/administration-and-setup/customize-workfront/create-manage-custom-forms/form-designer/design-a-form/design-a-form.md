@@ -11,6 +11,10 @@ exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
 ---
 # Create a custom form
 
+<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>   
+
 You can design a custom form with the form designer in Adobe Workfront. You can attach custom forms to different Workfront objects to capture data about those objects.
 
 ## Access requirements
@@ -79,7 +83,7 @@ For more detail about the information in this table, see [Access requirements in
     * [Add images, PDFs, and videos](#add-images-pdfs-and-videos)
     * [Add Workfront native fields](#add-workfront-native-fields)
     * [Add Adobe XD files](#add-adobe-xd-files)
-    <!--* [Add Planning connection fields](#add-planning-connection-fields)-->
+    * <span class="preview">[Add Planning connection fields](#add-planning-connection-fields)</span>
 
 ## Add new or existing fields to your custom form
 
@@ -897,7 +901,8 @@ This table lists the available native fields for specific Workfront objects in a
 
     Click **Save and Close**.
 
-<!--
+<div class="preview">
+
 ### Add Planning connection fields
 
 >[!IMPORTANT]
@@ -921,7 +926,6 @@ You can add the Planning connection field to all objects' custom forms. However,
 >[!NOTE]
 >
 >Users viewing information in the custom field must have access to Workfront Planning and to the workspaces that contain the record types connected to Workfront objects.
-
 
 To add a Planning connection field:
 
@@ -958,15 +962,15 @@ To add a Planning connection field:
      </tr>
      <tr> 
       <td role="rowheader">Workspace</td> 
-      <td> <p>(Required) Select the workspace where the records you want to display in Workfront come from in Workfront Planning.</p> <p> Only workspaces that are connected to the object types you selected in the I=Object type field display. </td> 
+      <td> <p>(Required) Select the Planning workspace where the records you want to display in Workfront come from.</p> <p> Only workspaces that are connected to the object types you selected in the Object type field display. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Record Type</td> 
-      <td><p>(Required) Select the Workfornt Planning record type whose records are connected to the Workfront object associated with this form.</p><p>Only record types that have connections to the object type you selected in the Object type field display. </p></td> 
+      <td><p>(Required) Select the Workfront Planning record type that has a connection with the Workfront object type.</p><p>Only record types that have connections to the object type you selected in the Object type field display. </p></td> 
      </tr>
      <tr> 
       <td role="rowheader">Connection field</td> 
-      <td><p>(Required) Select the Workfront Planning connection field that displays the Workfront objects that are associated with this form.</p> <p> <b>NOTE</b></p><p>You can have multiple connection fields between the same object and record types.</p>  </td> 
+      <td><p>(Required) Select the connection field between the selected Planning record type that you want to display on the Workfront objects and the Workfront object type. </p> <p> <b>NOTE</b></p><p>You can have multiple connection fields between the same object and record types, but you can select only one field.</p>  </td> 
      </tr>
     </tbody> 
    </table>
@@ -987,12 +991,12 @@ To add a Planning connection field:
 
     You can now attach the form to an object connected from Workfront Planning and do one of the following:
 
-    * View Workfront Planning record types connected to the Workfront object
-    * Connect or disconnect records from the Workfront object associated with the form. 
+    * View Workfront Planning record types connected to the Workfront object, if there are any. 
+    * Connect or disconnect records from the Workfront object. 
 
     For more information, see [Manage record connections from Workfront objects](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
 
--->
+</div>
 
 ## Organize and preview a form with the form designer
 
