@@ -61,7 +61,3 @@ If you regularly review interactive content in the Desktop Proofing Viewer, your
    >The Desktop Proofing Viewer does not support websites that require you to log in.
 
 1. Click&nbsp;**Open Proof**&nbsp;in the screen that appears.&nbsp;
-
-&nbsp;
-
-&nbsp;

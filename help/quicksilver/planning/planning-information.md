@@ -77,7 +77,7 @@ The following sections contain articles that describe in detail the features cur
     * Manage the layout of a record page
     * Record comments and History section
     * Share records
-    * Workfront Planning section for Workfront objects
+    * Manage Workfront Planning records from Workfront
 
 * [Adobe Workfront Planning Requests: article index](/help/quicksilver/planning/requests/requests-article-index.md) contains the following information:
 
