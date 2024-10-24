@@ -13,6 +13,9 @@ feature-set: Workfront
     * [Product releases overview](product-announcements/product-releases/product-releases.md)
     * [Adobe Workfront release schedule and process](product-announcements/product-releases/workfront-release-schedule.md)
     * [Prepare for an Adobe Workfront quarterly release](product-announcements/product-releases/release-readiness.md)
+    * 2025 Q1 Release {#release-25-q1}
+      * [2025 Q1 Release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
+      * [Look-and-feel updates during the 2025 Q1 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-look-and-feel-updates.md)
     * 2024 Q4 Release {#release-24-q4}
       * [2024 Q4 Release overview](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
       * [2024 Q4 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-administrator-enhancements.md)
@@ -169,6 +172,7 @@ feature-set: Workfront
       * [21.1 Other enhancements](product-announcements/product-releases/21.1-release-activity/21-1-other-enhancements.md)
     * Adobe Workfront Fusion release activity {#fusion-release}
       * [Adobe Workfront Fusion release activity](product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+      * [Workfront Fusion release activity: Week of October 21, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-10-21.md)
       * [Workfront Fusion release activity: Week of October 7, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-10-7.md)
       * [Workfront Fusion release activity: Week of September 30, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-9-30.md)
       * [Workfront Fusion release activity: Week of September 9, 2024](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-2024-9-9.md)
@@ -253,6 +257,7 @@ feature-set: Workfront
       * [Workfront Fusion release activity: Week of September 21, 2020](product-announcements/product-releases/fusion-release-activity/fusion-release-archive/fusion-release-archive-2020/fusion-sept-21.md)
     * Adobe Workfront Planning release activity{#planning-release-activity}
       * [Adobe Workfront Planning release activity](product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md)
+      * [First Quarter 2025 release activity for Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
       * [Fourth Quarter 2024 release activity for Adobe Workfront Planning](product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
     * Adobe Workfront Scenario Planner release activity {#scenario-planner-release}
       * [Adobe Workfront Scenario Planner release activity](product-announcements/product-releases/scenario-planner-release-activity/sp-release-activity.md)

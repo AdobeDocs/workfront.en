@@ -24,6 +24,7 @@ exl-id: b3f1002b-e3b4-48e5-9a64-467d4f7a15b2
 
 This article contains a list of release activity articles about the Adobe Workfront Planning product. 
 
+* [First Quarter 2025 release activity for Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
 * [Fourth Quarter 2024 release activity for Adobe Workfront Planning](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
 
 <!-- remove this after 25.1 and consider removing the pages too-->
