@@ -48,3 +48,5 @@ Editing the Planning connection fields for Workfront objects in bulk is not yet 
 
 For information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
+[View a video demonstration of this feature](https://video.tv.adobe.com/v/3435633/){target=_blank}
+
