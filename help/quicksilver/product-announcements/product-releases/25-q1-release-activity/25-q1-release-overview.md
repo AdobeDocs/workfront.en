@@ -23,7 +23,7 @@ This page provides information about functionality that is included in the First
 >
 >Note that for the final release of each quarter (25.1 this quarter), users on the fast release schedule will receive the release one day early.
 >
->For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). 
 
 ## Adobe Workfront enhancements
 
