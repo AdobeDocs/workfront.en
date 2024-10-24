@@ -12,7 +12,7 @@ hide: yes
 
 When you view a list of your organization's custom forms and the custom fields and widgets that have been added to them, you can use options in the toolbar to edit their properties, limit who they are shared with, copy them, and delete them. You can also view other information in the columns that display, such as which object types each custom form is associated with.
 
-For information about custom fields and widgets in custom forms, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+For information about custom fields and widgets in custom forms, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Access requirements
 
@@ -49,7 +49,7 @@ You must have the following to perform the steps in this article:
 
    For information about what you can do when you select a custom form in the list, see the following articles:
 
-   * [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+   * [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
    * [Share a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md) 
    * [Copy a custom form to create a new one](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/list-edit-share-custom-forms-and-custom-fields.md) 
    * [Delete or deactivate a custom form](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
