@@ -21,7 +21,7 @@ This page provides information about functionality that is included in the First
 >|----|----|
 >|<ul><li>24.11 (November 14, 2024)</li><li>24.12 (December 12, 2024)</li><li>25.1 (January 15, 2025)</li></ul>| <ul><li>25.1 (January 16, 2025)</li></ul>|
 >
->Note that for the final release of each quarter (24.10 this quarter), users on the fast release schedule will receive the release one day early.
+>Note that for the final release of each quarter (25.1 this quarter), users on the fast release schedule will receive the release one day early.
 >
 >For more information on the fast release process, see [Enable or disable the fast release process](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
