@@ -10,9 +10,9 @@ feature: Digital Content and Documents
 
 # Review interactive content with the Adobe Workfront review tool
 
-<span class="preview">The Adobe Workfront Review tool will be available on November 8, 2024.</span>
+<span class="preview">The Adobe Workfront Review tool will be available on November 7, 2024. This extension is currently in beta.</span>
 
-The Adobe Workfront review tool is a browser extension that allows you to proof interactive content in a ZIP file or with a URL. The Adobe Workfront review tool is available in the following browsers:
+The Adobe Workfront review tool is a web-based browser extension that allows you to proof interactive content in a ZIP file or with a URL. The Adobe Workfront review tool is available in the following browsers:
 
 * Firefox
 * Chrome
@@ -28,7 +28,7 @@ To use the web review tool for URL and ZIP proofs, a Workfront Administrator mus
 1. In Workfront's Main Menu, click **Proofing**.
 1. Click **Account settings**, then click the **Settings** tab.
 1. In the **Proof Defaults** section, find **Desktop Proofing Viewer for Interactive proofing** and click **Setup**.
-1. In the drop-down menu, choose **Disabled**. Interactive proofs created from a ZIP file now automatically open in the Adobe Workfront Review tool, which is a web-based browser.
+1. In the drop-down menu, choose **Disabled**. Interactive proofs created from a URL or ZIP file now automatically open in the Adobe Workfront Review tool, which is a web-based browser.
 1. Click **Save**.
 
 >[!IMPORTANT]
