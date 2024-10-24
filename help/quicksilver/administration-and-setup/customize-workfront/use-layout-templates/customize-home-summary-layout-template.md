@@ -67,7 +67,7 @@ To perform them for a group, you must be a manager of that group.</p> </td>
 
 1. Click the down arrow ![](assets/dropdown-arrow.png) under **Customize what users see**, then click **Summary panel**.
 
-1. In the list on the left, click the object type (**Tasks**, **Issues**, **Projects**, **Documents**, or **Document Versions**) that you want to customize in Home and Summary.
+1. In the list on the left, click the object type (**Tasks**, **Issues**, **Projects**, **Documents**, or **Document Versions**) that you want to customize in the Summary panel.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -109,7 +109,7 @@ To perform them for a group, you must be a manager of that group.</p> </td>
 
    ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
-1. (Conditional) If the **Set primary action button** drop-down menu appears (if you select **Tasks** or **Issues** in the list on the left), click the primary action (**Done** or **Status**) that you want available for users in the Home area and in the Summary panel when they view a task or an issue.
+1. (Conditional) If the **Set primary action button** drop-down menu appears (if you select **Tasks** or **Issues** in the list on the left), click the primary action (**Done** or **Status**) that you want available for users in the Summary panel when they view a task or an issue.
 
    ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
@@ -118,7 +118,7 @@ To perform them for a group, you must be a manager of that group.</p> </td>
    ![](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. Repeat steps 3-6 to customize the Summary panel for any other object types.
-1. Click **Global settings**, near the lower left corner, then enable or disable any of the following options related to Adobe Workfront objects in Home and Summary:
+1. Click **Global settings**, near the lower left corner, then enable or disable any of the following options related to Adobe Workfront objects in the Summary:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -126,7 +126,7 @@ To perform them for a group, you must be a manager of that group.</p> </td>
     <tbody> 
      <tr> 
       <td role="rowheader">Show updates for work</td> 
-      <td>Displays any updates made on a selected task or issue in Home or Summary. This includes both system updates and updates made by a user. Users can still filter out system updates, as described in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">Enable or disable system updates</a> in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Update work</a>.</td> 
+      <td>Displays any updates made on a selected task or issue in the Summary panel. This includes both system updates and updates made by a user. Users can still filter out system updates, as described in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#enable" class="MCXref xref">Enable or disable system updates</a> in <a href="../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md" class="MCXref xref">Update work</a>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Log time against work</td> 
@@ -134,16 +134,16 @@ To perform them for a group, you must be a manager of that group.</p> </td>
      </tr> 
      <tr> 
       <td role="rowheader">View documents associated with work</td> 
-      <td>Displays a Documents area in Home and Summary when a task or issue is selected, listing any documents attached to the task or issue. Users can click documents to view them in a preview window.</td> 
+      <td>Displays a Documents area in the Summary panel when a task or issue is selected, listing any documents attached to the task or issue. Users can click documents to view them in a preview window.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Hide timestamp</td> 
-      <td>Hides timestamps for the following date fields in Home and Summary:
+      <td>Hides timestamps for the following date fields in the Summary panel:
        <ul>
         <li>Planned Completion Date</li>
         <li>Commit Date</li>
         <li>Submitted Date</li>
-       </ul><p><b>NOTE</b>:</p> <p> When this option is enabled, work items that become past due are moved to the Late grouping in the Home Work List based on date only, not time.</p></td> 
+       </ul></td> 
      </tr> 
     </tbody> 
    </table>

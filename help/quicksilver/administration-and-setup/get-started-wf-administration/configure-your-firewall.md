@@ -84,7 +84,7 @@ For more information, see the section [View your organization's cluster and Work
 
 ### IP addresses to allow for Clusters 1, 2, 3, 5, 7, 8 and 9 {#ip-addresses-to-allow-for-clusters-1-2-3-5-7-8-and-9}
 
-If your Production environment is on Cluster 1, 2, 3, 5, or 7 you must allow the following IP addresses.
+If your Production environment is on Cluster 1, 2, 3, 5, 7, 8, or 9 you must allow the following IP addresses.
 
 <table style="table-layout:auto"> 
  <col> 

@@ -48,11 +48,11 @@ You must have the following access to perform the steps in this article:
 
 To apply this filter:
 
-1. Go to a list of tasks.
-1. From the **Filter**&nbsp;drop-down menu, select **New Filter**.
+1. Go to a list of tasks or a task report.
+1. From the **Filter** drop-down menu, select **New filter**.
 
-1. Click**Switch to Text Mode**.
-1. In the **Set Filter Rules for your Report** area, paste the following code:  
+1. (Conditional) Click **Text mode** if you accessed the filter from a list or **Switch to Text Mode**, if you accessed the filter from a report.
+1. In the new area, paste the following code:  
    <pre>predecessorsMM:projectID=FIELD:projectID<br>predecessorsMM:projectID_Mod=ne<br>percentComplete=100<br>percentComplete_Mod=ne</pre>
 
-1. Click **Save Filter**.
+1. (Conditional) Click **Save Filter** if you accessed the filter from a report, or **Apply**, then **Save as new** if you accessed the filter from a task list.

@@ -34,7 +34,7 @@ Custom forms are limited to 500 fields. On a long form, it can be difficult to k
 
 A counter has been added to custom forms on the bottom left. The counter displays how many fields are used on the form, and it is always visible as you scroll within the form designer.
 
-For more information, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+For more information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## A "Select all" option is now available in layout templates
 

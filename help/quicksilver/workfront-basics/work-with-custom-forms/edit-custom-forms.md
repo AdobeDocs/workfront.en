@@ -48,7 +48,7 @@ You must have the following:
 
 ## Prerequisites
 
-* Your Workfront administrator or a Plan user with administrative access to custom forms must create custom forms in your environment. For more information, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+* Your Workfront administrator or a Plan user with administrative access to custom forms must create custom forms in your environment. For more information, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 * You must have custom forms attached to an object.
 
   For information about how to apply custom forms to an object, see [Add a custom form to an object](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
@@ -85,7 +85,7 @@ Editing information on a custom form attached to an object is identical for all 
    * You can format text fields (bold, italicize, or underline) only if the user who created the form set them up as a Text Field with Formatting field type. Single Line Text Fields and Paragraph Text Fields cannot be formatted.
    * You can update the time of the day in a Date field type only if the user who created the form has included it when creating the field.
 
-   For information about all of the field types, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   For information about all of the field types, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Click **Save Changes**.
 

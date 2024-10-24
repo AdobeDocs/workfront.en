@@ -65,8 +65,8 @@ For more information about filters in lists and reports, see the following artic
 
 You can use either built-in filters or build custom filters in the following areas of Workfront:
 
-* Home   
-  For information, see the [Filter the Work List](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filter-the-work-list) section in the article [Display items in the Work List in the Home area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+<!--* Home   
+  For information, see the [Filter the Work List](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md#filter-the-work-list) section in the article [Display items in the Work List in the Home area](../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).-->
 * Requests area. You cannot customize filters in the Requests area.
 
   For information, see [Locate submitted requests](../../../manage-work/requests/create-requests/locate-submitted-requests.md). 
