@@ -20,7 +20,7 @@ Workfront checks for the following things before it marks a task as True for the
 
 * Whether the value of Can Start for the parent it set to True, if the task has a parent. If the value for the parent is False, then all the subtasks have the value of Can Start set to False, as well.
 * Whether the predecessors of the task as well as the predecessors of their parents are complete. If they are complete, the Can Start value for the task is set to True. If any of the task predecessors or their parents' predecessors are not complete, or have a status of Complete-Pending Approval, then the Can Start value for the task is set to False.
-* Whether the task dependency type is either Start-Start or Start-Finish. If the dependency type is Start-Start or Start-Finish, the dependent task will have the "Can start" flag set to True after the parent task is in progress (or after the percent complete of the parent task is greater than 1%). <!--not sure if this should say PARENT or PREDECESSOR??; asking on the issue-->
+* Whether the task dependency type is either Start-Start or Start-Finish. If the dependency type is Start-Start or Start-Finish, the dependent task will have the "Can start" flag set to True after the predecessor task is in progress (or after the percent complete of the predecessor task is greater than 1%). 
 
   For information about task predecessors, see [Overview of task predecessors](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 

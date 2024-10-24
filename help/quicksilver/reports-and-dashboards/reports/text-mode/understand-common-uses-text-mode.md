@@ -52,7 +52,7 @@ You can use text mode when you want to achieve the following in&nbsp;Workfront:
 
 You can use text mode to add a calculated custom field to a Custom Form.
 
-For more information about adding a calculated custom field to a Custom Form, see [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+For more information about adding a calculated custom field to a Custom Form, see [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 For more information about creating a calculated custom field in text mode, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 

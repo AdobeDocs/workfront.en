@@ -55,7 +55,7 @@ The following steps show how you can create a calculated field for an issue cust
 
    For information about creating a custom form and adding calculated fields to it, see the following articles:
 
-   * [Design a form with the form designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+   * [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
    * [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
 
 1. Copy and paste the following text mode code into the **Calculation** field of the custom form:
