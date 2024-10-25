@@ -68,8 +68,6 @@ You must have the following access to perform the steps in this article:
 1. Click **Text mode**.
 1. In the area displayed, add the following code:
 
-   `
-   actualCompletionDate=FIELD:plannedCompletionDate<br>actualCompletionDate_Mod=gt
-   `
+   `actualCompletionDate=FIELD:plannedCompletionDate<br>actualCompletionDate_Mod=gt`
 
 1. Click **Apply** > **Save as new**.
