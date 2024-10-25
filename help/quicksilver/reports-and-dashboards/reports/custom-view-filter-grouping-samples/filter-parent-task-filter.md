@@ -10,6 +10,8 @@ exl-id: 4c3956e1-59e0-4bf2-8739-8064271d6281
 ---
 # Filter: display parent tasks
 
+<!--Audited: 10/2024-->
+
 You can apply the task filters below to display working tasks. Working tasks are tasks that can be worked independently and are not parent tasks to other tasks. In one example, a filter identifies children tasks that could be parents themselves. In this case, they are not working tasks.
 
 >[!TIP]
@@ -20,6 +22,8 @@ You can apply the task filters below to display working tasks. Working tasks are
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article. 
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -27,47 +31,53 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Request to modify a filter </p>
-   <p>Plan to modify a report</p> </td> 
+   <td> 
+    <p>New:</p>
+   <ul><li><p>Contributor to modify a filter </p></li>
+   <li><p>Standard to modify a report</p></li> </ul>
+
+   <p>Current:</p>
+   <ul><li><p>Request to modify a filter </p></li>
+   <li><p>Plan to modify a report</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Reports, Dashboards, Calendars to modify a report</p> <p>Edit access to Filters, Views, Groupings to modify a filter</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr>
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Reports, Dashboards, Calendars to modify a report</p> <p>Edit access to Filters, Views, Groupings to modify a filter</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions to a report</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Display tasks with no children (they could have a parent)
 
-You can apply the following filter to a task report to display tasks with no children.&nbsp;They could have parents of their own and be children of other tasks.
+You can apply the following filter to a task report to display tasks with no children. They could have parents of their own and be children of other tasks.
 
-1. From the **Main Menu** ![](assets/main-menu-icon.png), click **Reports.** 
+1. From the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![](assets/lines-main-menu.png) in the upper-left corner, if available, click **Reports**. 
 
 1. Click **New Report**.
 1. Select a **Task Report**.
 1. Click **Filters**.
 1. Click **Add a Filter Rule**.
-1. In the **Start typing field name ...** line, start typing **Number of Children**.
+1. In the **Start typing field name ...** line, start typing **Number of Children**, then click **Task >> Number of Children** when it displays in the list.
 
 1. Select **Equal (Case Sensitive)** for your modifier, then enter **0** for the number of children.  
    ![](assets/parent-task-filter-from-the-ui-350x76.png)
 
    Or
 
-   Click&nbsp;**Switch to Text Mode**, and in the&nbsp;text editing window, copy and paste the following text:&nbsp;
+   Click **Switch to Text Mode**, and in the text editing window, copy and paste the following text
 
    ```
    numberOfChildren=0
@@ -83,12 +93,13 @@ You can apply the following filter to a task report to display tasks with no chi
 
 You can apply the following filter to a task report to display tasks with parents, meaning they are children tasks. However, these tasks could also have children of their own because the filter does not exclude their children. Children tasks that are also parents for other tasks are not considered working tasks.
 
-1. From the **Main Menu** ![](assets/main-menu-icon.png), click **Reports.
+1. From the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![](assets/lines-main-menu.png) in the upper-left corner, if available, click **Reports**. 
+
 1. Click **New Report**.
 1. Select a **Task Report**.
 1. Click **Filters**.
 1. Click **Add a Filter Rule**.
-1. In the **Start typing field name ...** line, start typing **Parent ID**.
+1. In the **Start typing field name ...** line, start typing **Parent ID**, then select **Task >> Parent ID** when it displays in the list.
 1. Select **Is Not Blank** for your modifier.
     
     ![](assets/filter-parent-id-not-blank-350x100.png)  
@@ -105,24 +116,25 @@ You can apply the following filter to a task report to display tasks with parent
 
 ## Display tasks with no children and no parents (standalone tasks)
 
-You can apply the following filter to a task report to display standalone working tasks.&nbsp;These tasks don't have a parent and they have no children of their own.
+You can apply the following filter to a task report to display standalone working tasks. These tasks don't have a parent and they have no children of their own.
 
-1. From the **Main Menu** ![](assets/main-menu-icon.png), click **Reports.** 
+1. From the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![](assets/lines-main-menu.png) in the upper-left corner, if available, click **Reports**. 
+
 1. Click **New Report**.
 1. Select a **Task Report**.
 1. Click **Filters**.
-1. Click **Add a Filter Rule** and in the **Start typing field name ...** line start typing **Number of Children** select **Equal (Case Sensitive)** for your modifier, then enter **0** for the number of children.
-1. Click **Add another Filter Rule** and in the **Start typing field name ...** line start typing **Parent ID**, then select **Is Blank**.
+1. Click **Add a Filter Rule**.
+1. In the **Start typing field name ...** line start typing **Number of Children**, then select **Task >> Number of Children** from the list.
+1. Select **Equal (Case Sensitive)** for your modifier, then enter **0** for the number of children.
+1. Click **Add another Filter Rule**. 
+1. In the **Start typing field name ...** line start typing **Parent ID**, then select **Task >> Parent ID** from the list.
+1. Select **Is Blank** for the modifier.
 
    ![](assets/filter-parent-id-blank-and-zero-children-350x121.png)
 
    Or
 
-   Instead of steps 6-7, click&nbsp;**Switch to Text Mode** and in the&nbsp;text editing window, copy and paste the following text:&nbsp;
-
-   <!--
-   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: ensure steps above stay accurate)</p>
-   -->
+   Instead of steps 6-10 <!--ensure steps above stay accurate-->, click **Switch to Text Mode** and in the text editing window, copy and paste the following text:
 
    ```
    numberOfChildren=0
