@@ -9,11 +9,15 @@ exl-id: 55cc5562-13d5-4089-8937-f33d0cde3cac
 ---
 # Configure the [!UICONTROL Done] button for tasks
 
-The [!UICONTROL Done] button can automatically set the status of a task or an issue. By default, [!UICONTROL Adobe Workfront] marks a task as [!UICONTROL Completed] when an assignee clicks Done on their work item.
+The [!UICONTROL Done] button can automatically set the status of a task or an issue. By default, [!UICONTROL Adobe Workfront] marks a task as [!UICONTROL Completed] when an assignee clicks Mark as done on their work item.
+
+>[!NOTE]
+>
+>The Done button displays as Mark as done in all areas of Workfront.
 
 ## Overview
 
-Users with certain permissions can configure the [!UICONTROL Done] button to reflect certain statuses in the system. There are two different ways the [!UICONTROL Done] button works for tasks in [!UICONTROL Workfront]:
+Users with certain permissions can configure the [!UICONTROL Done] button to associate it with certain statuses in the system. There are two different ways the [!UICONTROL Done] button works for tasks in [!UICONTROL Workfront]:
 
 * If the user has an assigned Home Team, a [!DNL Workfront] administrator or a user with a [!UICONTROL Plan] license can configure the [!UICONTROL Done] button to reflect certain statuses for team members. See [Configure the [!UICONTROL Done] button for a Team](#configure-the-uicontrol-done-button-for-a-team) in this article.
 * If the user does not have a [!UICONTROL Home Team], but they have [!UICONTROL Other Teams] in their profile, Workfront searches for the setting of the [!UICONTROL Done] button on any of the teams associated with the user. The selection is random and the status associated with any of the teams is used for the task. 
@@ -92,7 +96,7 @@ To associate users with a Home Team:
 1. Click the **[!UICONTROL Main Menu]** icon ![](assets/main-menu-icon.png) in the upper-right corner of [!DNL Adobe Workfront].
 
 1. Click **[!UICONTROL Users]**, then select the user or users you want to associate with a Home Team.
-1. Click the **[!UICONTROL More]** menu, then select **[!UICONTROL Edit]**.  
+1. Click the **[!UICONTROL More]** menu, then click **[!UICONTROL Edit]**.  
    ![](assets/user-settings-nwe-350x291.png)
 
 1. In the **[!UICONTROL Organization]** section, select the **[!UICONTROL Home Team]** field. Start typing the name of the team whose settings you want to associate with the users. Click the name of the team when you see it in the list.

@@ -417,6 +417,7 @@ feature-set: Workfront
   * Announcements {#announcements}
     * [Announcements](product-announcements/announcements/announcements.md)
     * [Schedule of features no longer supported](product-announcements/announcements/feature-removal-timeline.md)
+    * [Enhanced Analytics deprecation guide](product-announcements/announcements/enhanced-analytics-deprecation.md)
     * [Legacy Home deprecation guide](product-announcements/announcements/legacy-home-deprecation.md)
     * [Maintenance Window FAQ](product-announcements/announcements/maintenance-window-faq.md)
     * [Change required for adding proofs to your allowlist](product-announcements/announcements/proofhq-domain-change-workfront.md)
@@ -923,6 +924,7 @@ feature-set: Workfront
     * [Updates section overview](workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
     * [Update work](workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
     * [Character limits in fields](workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
+    * [Create personal tasks](workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md)
     * [Reply to updates](workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)
     * [Reply to email notifications](workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md)
     * [Tag others on updates](workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
@@ -1613,6 +1615,7 @@ feature-set: Workfront
       * [Custom view, filter, and grouping samples: article index](reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
       * [Reports or lists: display users associated with an object](reports-and-dashboards/reports/custom-view-filter-grouping-samples/display-object-users-in-report.md)
       * [Filter: display incomplete cross-project predecessors](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md)
+      * [Filter: personal tasks](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)
       * [Filter: display incomplete cross-project successors](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md)
       * [Filter: display your current projects pending approval](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-current-projects-pending-approval.md)
       * [Filter: display only items in an approval status](reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md)

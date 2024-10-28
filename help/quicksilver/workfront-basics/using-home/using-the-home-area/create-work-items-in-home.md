@@ -48,16 +48,20 @@ You must have the following access to perform the steps in this article:
 
 ## Create a personal to-do item
 
-You can create a personal to-do item that is available only to you in the [!UICONTROL Home] area:
+You can create a personal to-do item in the [!UICONTROL Home] area. The to-do items are personal tasks that you create for yourself. 
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
-1. (Conditional) Add the to-do widget to your home screen. Click **Customize**, and find **To-dos**. 
+You and other users can view your personal tasks in a personal task report. From there, they can add them to projects, if needed. 
+
+To create a to-do item: 
+
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main menu** ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **[!UICONTROL Home]**.
+1. (Conditional) Click **Customize**, then click **To-dos** to add the to-do widget to your home screen.
 1. Go to the **To-do** widget, then click **Add to-do**. 
-1. Type the 
+1. Type the name for your personal to-do item, then click Enter. 
 1. (Optional) Click the **Date** icon ![](assets/date-icon.png) to add a due date for the item. 
 ![](assets/my-work-to-dos.png)
-
-
+1. (Optional) Create a personal task report or filter. For information about creating a personal task filter, see [Filter: personal task](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
+   You can view your to-do items as well as other users' to-do items in the personal task report. 
 
 ## Add a task to a project
 

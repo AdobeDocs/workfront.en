@@ -11,6 +11,10 @@ exl-id: 2e72854a-2d49-4665-b307-b88f660b141e
 
 The [!UICONTROL Done] button can automatically set the status of a task or an issue. By default, [!DNL Adobe Workfront] marks an issue as [!UICONTROL Resolved] when an assignee clicks [!UICONTROL Done] on their work item.
 
+>[!NOTE]
+>
+>The Done button displays as Mark as done in all areas of Workfront.
+
 ## Overview
 
 Users with certain permissions can configure the [!UICONTROL Done] button to reflect certain statuses in the system. There are 3 different ways the [!UICONTROL Done] button works for issues in [!DNL Workfront]:
