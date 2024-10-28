@@ -3,13 +3,15 @@ content-type: reference
 product-area: reporting;projects
 keywords: calculated,aggregates,advanced,views
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Grouping: display the result of aggregating multiple calculated values in a grouping'
+title: 'Grouping: Display the Result of Aggregating Multiple Calculated Values in a Grouping'
 description: You can use text mode in a column to display a calculation between two fields in the view of a report or list. Each line displays the calculation for each object in the report or list.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: e67c0b10-af9f-4657-8f99-8b63ae3c0865
 ---
 # Grouping: display the result of aggregating multiple calculated values in a grouping
+
+<!--Audited: 10/2024-->
 
 You can use text mode in a column to display a calculation between two fields in the view of a report or list. Each line displays the calculation for each object in the report or list.
 
@@ -19,6 +21,8 @@ You can display the aggregated value of multiple calculated view items in the sa
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article. 
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -26,33 +30,39 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Request to modify a grouping </p>
-   <p>Plan to modify a report</p> </td> 
+   <td> 
+    <p>New:</p>
+   <ul><li><p>Contributor to modify a filter </p></li>
+   <li><p>Standard to modify a report</p></li> </ul>
+
+   <p>Current:</p>
+   <ul><li><p>Request to modify a filter </p></li>
+   <li><p>Plan to modify a report</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Reports, Dashboards, Calendars to modify a report</p> <p>Edit access to Filters, Views, Groupings to modify a grouping</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr>  
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Reports, Dashboards, Calendars to modify a report</p> <p>Edit access to Filters, Views, Groupings to modify a filter</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions to a report</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Display the result of aggregating multiple calculated values in a grouping
 
 1. Go to a task report, click **Report Actions** > **Edit**.
-1. In the **Groupings** tab, click **Add Grouping**, and start typing **Project Name** in the **Group your Report** > **First by** field, then select it when it displays in the list. 
+1. In the **Groupings** tab, click **Add grouping**, and start typing **Project Name** in the **Group by** field, then select **Project > Name** it when it displays in the list. 
 
 1. In the **Columns(View)** tab, click **Add Column**, then start typing **Planned Hours** in the **Show in this column** field, then select it when it displays in the list.
 
@@ -60,10 +70,9 @@ You must have the following access to perform the steps in this article:
    >
    >Always start adding as much information using the Standard interface before you edit information in text mode. Add fields that are closest to or contain the most amount of information that for the calculation you are trying to make.
 
-1. In the **Summarize this column by** field, select **Sum**, then click **Done**.
-1. Click **Switch to Text Mode** in the column you added. 
-1. Hover over the text mode area, and click **Click to edit text**.
-1. Replace the `valuefield ` and the `aggregator.valuefield` lines with the lines highlighted in the following text mode example:
+1. In the **Summarize this column by** field, select **Sum**. 
+1. Click **Switch to Text Mode** in the column you added, then click **Edit Text Mode**. 
+1. Replace the text in the box with the following text mode example:
 
    ```
    valueformat=compound
@@ -87,5 +96,5 @@ You must have the following access to perform the steps in this article:
    >
    >
    >The `minutesAsHoursString` definition of the `aggregator.displayformat` line means there is no need to divide each field by 60 as done on the `valueexpression` for the results. In this `aggregator.valuefield=workRequired` becomes: `aggregator.valueexpression=ROUND(({workRequired}-{actualWorkRequired}),2`.
-
+1. Click **Done**.
 1. Click **Save+Close**.
