@@ -2,15 +2,22 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Filter: display incomplete cross-project successors'
-description: This task filter returns incomplete cross-project successors.
-author: Lisa and Nolan
+title: 'Filter: Personal Tasks'
+description: This task filter returns ad hoc work requests sent to a user, or to-do items added by users in their Home area. Personal tasks are not connected to a project but they can be moved to a project, if needed.
+author: Nolan
 feature: Reports and Dashboards
-exl-id: aea955b1-581a-4ce0-8634-863ba1083c05
 ---
-# Filter: display incomplete cross-project successors
+# Filter: personal tasks
 
-This task filter returns incomplete cross-project successors.
+<!--Audited: 10/2024-->
+
+This task filter returns ad hoc work requests sent to a user, or to-do items added by users in their Home area. 
+
+Ad hoc work requests and to-do items are saved in Adobe Workfront as personal tasks. 
+
+Personal tasks are not connected to a project but they can be moved to a project, if needed.
+
+![](assets/personal-tasks-report.png)
 
 ## Access requirements
 
@@ -52,15 +59,17 @@ You must have the following access to perform the steps in this article:
 
 +++
 
-## Filter cross-project successors
+## Filter personal tasks
 
-To apply this filter:
+To create this filter:
 
-1. Go to a list of tasks.
-1. From the **Filter** drop-down menu, select **New filter**.
+1. Go to a list of tasks or a task report.
+1. From the **Filter** drop-down menu, click **New filter**.
+1. (Conditional) Click **Add a filter rule** of you are accessing the filter from a report, or start selecting your filter criteria in the first field, if you are accessing the filter from a list.
+1. (Conditional) Select the following filtering criteria: 
 
-1. Click **Text mode**.
-1. In the area displayed, paste the following code:  
-   <pre>percentComplete=100<br>percentComplete_Mod=ne<br>successorsMM:projectID=FIELD:projectID<br>successorsMM:projectID_Mod=ne</pre>
+    * From a list filter: **Task** > **Personal** **Is true**
+    * From a report filter: **Task** > **Personal** > **Equals** > **True**. 
+1. Save the filter. 
 
-1. Click **Apply** > **Save as new**.
+    The list displays only personal tasks that are not on any projects. 

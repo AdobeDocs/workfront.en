@@ -34,7 +34,7 @@ You must have Edit access to Issues and Manage permissions on the issue to be ab
 You can manually set the Planned Completion Date of an issue in the following areas of Workfront:
 
 * In the Edit Issue box or in the Issue Details area when creating or editing an issue. For information, see [Edit issues](../../../manage-work/issues/manage-issues/edit-issues.md).
-* In the Home area if the Planned Completion Date displays when viewing an issue. For information, see [Update or edit a work item in the Home area](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
+* In the Home area if the Planned Completion Date displays in the Summary panel of an issue. For information, see [Update or edit a work item in the Home area](../../../workfront-basics/using-home/using-the-home-area/update-and-edit-work-item-home.md).
 * In the issue header. For information, see [New object headers](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
 * In an issue list or report when the Planned Completion Date field displays in the view.
 

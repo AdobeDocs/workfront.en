@@ -65,7 +65,7 @@ You can view updates on any work item in the [!UICONTROL Work List]:
 
 You can provide updates on any work item in the [!UICONTROL Work] List:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **[!UICONTROL Home]**.
 1. (Conditional) Click **Customize** to add any of the following widgets:
 
    | Widget         | Description                                                                                      |
@@ -96,7 +96,7 @@ For more detailed information about adding updates, see [Add an update to a work
 
 You can edit any field on any work item that you have access to edit.
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **[!UICONTROL Home]**.
 1. (Conditional) Click **Customize** to add any of the following widgets:
 
    | Widget         | Description                                                                                      |
