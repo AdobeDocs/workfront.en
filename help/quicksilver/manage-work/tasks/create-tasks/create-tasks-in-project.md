@@ -10,15 +10,32 @@ exl-id: 96f80e7b-6ad5-40ae-861d-8d97c570f2ac
 ---
 # Create tasks in a project
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 10/2024 -->
 
-You can create tasks in a project only after you create the project.
+You can create tasks in Adobe Workfront in the following ways:
 
-For example, after creating a project, you might want to add tasks and modify them to organize the project plan. For more information about creating a project, see [Create a project](../../../manage-work/projects/create-projects/create-project.md).
+* Create a task in a project from scratch, after the project is created. 
 
-<!--Not possible anymore, after new Home: For information about creating personal tasks that are not in a project, see the [Create a personal task](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md#create-a-personal-task) section in the article [Create work items and projects from the Home area](../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).-->
+   After creating a project, you can add tasks and modify them to organize the project plan. For more information about creating a project, see [Create a project](../../../manage-work/projects/create-projects/create-project.md).
 
-This article describes how you create tasks from scratch. You can also create tasks in the following ways:
+* Create tasks by adding a template to a project. 
+
+   For information, see [Attach a template to a project](/help/quicksilver/manage-work/projects/create-and-manage-templates/attach-template-to-project.md). 
+
+* Create personal tasks and moving them to a project. 
+
+   You can create personal tasks by doing one of the following:
+
+   * Create an ad hoc work request and send it to a user 
+   * Create a to-do item in the Home area
+
+   For information about creating personal tasks that are not on a project, see [Create personal tasks](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md). 
+
+   You can move personal tasks to a project and they become working tasks. 
+
+This article describes how you create tasks from scratch and how you can move personal tasks to a project. 
+
+You can also create tasks in the following ways:
 
 * By copying or duplicating existing tasks. For information, see [Copy and duplicate tasks](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 * By moving tasks from one project to another. For information, see [Move tasks](../../../manage-work/tasks/manage-tasks/move-tasks.md).
@@ -146,3 +163,21 @@ For more detail about the information in this table, see [Access requirements in
          * Click **Undo** at any time to reverse your last change, or **Cancel** to reverse all the changes you made to the task list. 
          * If you previously clicked **Undo**, click **Redo** to re-apply the last change you canceled.
          * Click **Save** to save your changes to the task list.
+
+## Create tasks by moving a personal task to a project
+
+1. (Conditional) Ensure you or other users have created personal tasks. 
+
+   For information, see [Create personal tasks](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md). 
+1. Create a personal task filter and apply it to a task report or list. 
+
+   For information, see [Filter: personal tasks](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md). 
+
+   ![](assets/personal-tasks-report.png)
+1. Click a task name in the personal task report to open it. 
+
+   Workfront saves personal tasks in an unlisted personal project that is always named according to this pattern: "< User's full name >'s Tasks. For example, a personal project could be named "Rick's Tasks." 
+
+1. From the task page, click the **More menu** ![](assets/more-icon.png), then click **Move**. For more information about moving tasks, see [Move tasks](/help/quicksilver/manage-work/tasks/manage-tasks/move-tasks.md).
+
+   After you finish moving the task, the task displays on the project you selected. The project timeline might be affected by the timeline of the new task. 
