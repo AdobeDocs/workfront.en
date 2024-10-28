@@ -89,6 +89,7 @@ This section provides examples of custom views, filters, and groupings that you 
 
 * [Filter: display incomplete cross-project predecessors](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-predecessors.md) 
 * [Filter: display incomplete cross-project successors](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-cross-project-successors.md) 
+* [Filter: personal tasks](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md)
 * [Filter: display your current projects pending approval](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-current-projects-pending-approval.md) 
 * [Filter: display only items in an approval status](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-for-items-in-approval-status.md) 
 * [Filter: eliminate items in a list by comparing two fields](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-items-by-comparing-two-fields.md) 

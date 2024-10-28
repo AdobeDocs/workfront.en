@@ -10,7 +10,7 @@ exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
 
 # Create a custom report
 
-<!--Audited: 12/2023-->
+<!--Audited: 10/2024-->
 
 You can provide access to the information your organization needs in Adobe Workfront by creating reports. You can use any of the built-in reports available in Workfront, or you can build your custom reports from scratch.
 
@@ -120,7 +120,7 @@ You must have the following access to perform the steps in this article:
 
    Or
 
-   To change an existing column, click the column, click the **Remove** icon ![](assets/x-icon-circled.png) to the left of the current field in the **Show in this column field** box in the upper-left corner of the report builder, and start typing a new field, then click it when it displays in the list.
+   To change an existing column, click the column, click the **Remove** icon ![](assets/remove-column-icon.png) to the right of the current field in the **Show in this column field** area in the upper-left corner of the report builder, and start typing a new field, then click it when it displays in the list.
 
    For more information about the fields you see in the columns, see [Glossary of Adobe Workfront terminology](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
@@ -190,7 +190,7 @@ You must have the following access to perform the steps in this article:
 
 1. Start creating a report as described in the [Create a report](#create-a-report) section in this article.
 1. In the report builder, select the **Groupings** tab to identify how you want to group items in the report.
-1. Click **Add Grouping** to add a new grouping.
+1. Click **Add grouping** to add a new grouping.
 
    Or
 
