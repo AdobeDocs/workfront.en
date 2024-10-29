@@ -181,7 +181,6 @@ This page provides information about functionality that is included in the Fourt
                         <li>
                             <p>Production release for all customers: With the 24.10 release (October 17, 2024)</p>
                         </li>
-                        <p><i>This feature has been temporarily removed from Preview.</i></p>
                     </ul>
                 </td>
             </tr>
