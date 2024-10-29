@@ -1,6 +1,6 @@
 ---
 title: Connect Records
-description: After you create connections between record types, you can connect individual records to one another.
+description: After you create connections between record types, you can connect individual records to one another. You can display information from one record on another record when you connect them. 
 recommendations: noDisplay, noCatalog
 feature: Workfront Planning
 role: User, Admin
@@ -12,7 +12,7 @@ exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
 
 {{planning-important-intro}}
 
-You can connect Adobe Workfront Planning records to one another or to objects from other applications. 
+You can connect Adobe Workfront Planning records to one another or to objects from other applications. You can display information from one record on another record when you connect them. 
 
 This article describes how you can connect records. For more general information about connecting records, see [Connected records overview](/help/quicksilver/planning/records/connected-records-overview.md). 
 
@@ -123,19 +123,21 @@ You must have the following access to perform the steps in this article:
 
 +++
 
-## Prerequisites for connecting records
+## Considerations for connecting records
 
-To connect records with other records or objects, you must have the following:
+* To connect records with other records or objects, you must have the following:
 
-* At least one workspace, record type, and record. 
+    * At least one workspace, record type, and record. 
 
-  For more information, see the following articles:
+    For more information, see the following articles:
 
-  * [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md)
-  * [Create record types](/help/quicksilver/planning/architecture/create-record-types.md)
-  * [Create records](/help/quicksilver/planning/records/create-records.md)
+    * [Create workspaces](/help/quicksilver/planning/architecture/create-workspaces.md)
+    * [Create record types](/help/quicksilver/planning/architecture/create-record-types.md)
+    * [Create records](/help/quicksilver/planning/records/create-records.md)
 
-* Connections between record types, or between record types and objects from other applications. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
+    * Connections between record types, or between record types and objects from other applications. For information, see [Connect record types](/help/quicksilver/planning/architecture/connect-record-types.md).
+
+* You can connect one or several records or objects to each other. This depends on the connection type you selected when connecting the record or object types. For information, see [Connect record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md). 
 
 ## Connect records from Workfront Planning
 
