@@ -20,8 +20,6 @@ For a list of all changes available at this point in the Fourth Quarter 2024 rel
 >[!NOTE]
 >
 >~~Preview release: October 3, 2024~~; Production for all customers: With the 24.10 release (October 17, 2024)
->
->_This feature has been temporarily removed from Preview._
 
 You can now view a document's decision status directly in the document list. 
 
