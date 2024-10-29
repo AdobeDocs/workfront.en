@@ -2,13 +2,15 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Grouping: indicate whether the results of a grouping should be collapsed or expanded using text mode'
+title: 'Grouping: Indicate Whether the Results of a Grouping Should Be Collapsed or Expanded Using Text Mode'
 description: 'Grouping: indicate whether the results of a grouping should be collapsed or expanded using text mode'
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 2880e06f-34f3-47b1-9462-5a15a20d6fee
 ---
 # Grouping: indicate whether the results of a grouping should be collapsed or expanded using text mode
+
+<!--Audited: 10/2024-->
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this article: NWE only; not possible in classic) </p>
@@ -30,6 +32,8 @@ You can also indicate whether a grouping should display expanded or collapsed us
 
 ## Access requirements
 
++++ Expand to view access requirements for the functionality in this article. 
+
 You must have the following access to perform the steps in this article:
 
 <table style="table-layout:auto"> 
@@ -37,48 +41,51 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Request to modify a grouping </p>
-   <p>Plan to modify a report</p> </td> 
+   <td> 
+    <p>New:</p>
+   <ul><li><p>Contributor to modify a filter </p></li>
+   <li><p>Standard to modify a report</p></li> </ul>
+
+   <p>Current:</p>
+   <ul><li><p>Request to modify a filter </p></li>
+   <li><p>Plan to modify a report</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Reports, Dashboards, Calendars to modify a report</p> <p>Edit access to Filters, Views, Groupings to modify a grouping</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
-  </tr>  
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Reports, Dashboards, Calendars to modify a report</p> <p>Edit access to Filters, Views, Groupings to modify a filter</p> </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions to a report</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Indicate whether the results of a grouping should be collapsed or expanded using text mode
 
 1. Go to a list of objects.
 1. From the **Grouping**drop-down menu, select **New Grouping**.
 
-1. Add a grouping and click **Switch to Text Mode**.
+1. Add a grouping, then click **Switch to Text Mode**.
 
    Or
 
    If the grouping is already in text mode, add the following code to the grouping level that you want to display collapsed:
 
-   ```
-   group.0.iscollapsed=true
-   ```
+   `group.0.iscollapsed=true`
 
 1. (Optional) If you want the grouping to display expanded, add the following code to the appropriate grouping level:
 
-   ```
-   group.0.iscollapsed=false
-   ```
+   `group.0.iscollapsed=false`
 
-1. Click **Done**, then **Save Grouping**.
+1. Click **Done**, then **Save Grouping**. 
+1. (optional) Update the name of the grouping, then click **Save Grouping**.

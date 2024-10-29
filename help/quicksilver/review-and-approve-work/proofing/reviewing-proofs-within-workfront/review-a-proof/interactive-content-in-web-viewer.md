@@ -9,6 +9,11 @@ exl-id: daddc225-62df-4e1a-98fd-8bb7c7c5553b
 ---
 # Set up interactive content proofing in Web Proofing Viewer
 
+>[!IMPORTANT]
+>
+>This is a legacy browser extension and is no longer supported. We recommend installing the new browser extension currently in beta: [Adobe Workfront review tool](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/review-proof-in-web-viewer-extension.md). 
+
+
 We recommend that you review all interactive content using the Desktop Proofing Viewer. However, if your organization's policies prevent this, your Workfront administrator can configure your system to use the Web Proofing Viewer for interactive proofing. For comparative information about these two viewers, see [Differences between the Web Proofing Viewer and the Desktop Proofing Viewer overview](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
 
 After your Workfront administrator configures your system for interactive proofing in the Web Proofing Viewer, you need to download an extension in order to add comments and markups to interactive proofs:
@@ -41,5 +46,3 @@ The Web Proofing Viewer has the following limitations:
 1. In the Web Proofing Viewer, click **Reload the proof**.
 
 With the extension installed on your browser, the proofing viewer takes a static screenshot of your content every time you click **Add comment**. This screenshot is where you can add comments with markups.
-
-&nbsp;

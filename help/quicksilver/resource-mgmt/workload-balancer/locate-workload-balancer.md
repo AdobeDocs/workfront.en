@@ -94,7 +94,7 @@ The following sections illustrate where you can access the Workload Balancer wit
 
 {{step1-to-team}}
 
-  Your Home Team's page displays. 
+   Your Home Team's page displays. 
   
 1. Click **Workload Balancer** in the left panel.
 
