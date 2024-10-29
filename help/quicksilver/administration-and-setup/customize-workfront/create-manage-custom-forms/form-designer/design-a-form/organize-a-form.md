@@ -154,13 +154,10 @@ In a custom form with a section break configured with the Limited Edit permissio
 
 1. (Optional) To position a custom field or widget above or below another one, drag it above or below until a horizontal blue line appears between the items.
 
-<div class="preview">
-
-1. To move a custom field to another section on the form, you can drag and drop it into place, or click the **Move to** icon on the field and select the section to move it to.
-
+1. To move a custom field to another section on the form, you can drag and drop it into place, <span class="preview">or click the **Move to** icon on the field and select the section to move it to.</span>
+   
+   <span class="preview">Sample image in the Preview environment:</span>
    ![Move field to a section](assets/move-field-to-section.png)
-
-</div>
 
 1. To save your changes, click **Apply** 
 
