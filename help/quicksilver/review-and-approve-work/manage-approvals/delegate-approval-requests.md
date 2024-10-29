@@ -75,11 +75,7 @@ After the approval delegation stops or is canceled, the user designated as the a
 * Continues to have View access to work items  
   Users who have been granted View access&nbsp;to objects via an approval delegation retain that View access even after the approval delegation stops or is recalled. To remove View access to any objects that the user had access to during the time that approvals were being delegated, you must go to the object and remove access rights directly from the object.
 
-## Delegate approval requests in the Home area
-
-You can delegate approval requests from the Home area.
-
-### Delegate your approvals to another user {#delegate-your-approvals-to-another-user}
+## Delegate your approvals to another user {#delegate-your-approvals-to-another-user}
 
 You can delegate the following types of approvals, regardless of how&nbsp;the approval was assigned to you (whether assigned directly to you, to a team you are a member of, or to your job role):
 
@@ -99,18 +95,8 @@ Consider the following when delegating approvals:
 
 To delegate approvals to another user:
 
-1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
-
-   >[!NOTE]
-   >
-   >Your Workfront administrator might make the following changes to the Home icon in your environment:
-   >
-   >* Replace it with an image customized to illustrate your organization. In this case, the icon will look different that shown in this article. 
-   >* Replace the page linked to it with a different page. In this case, click the **Main Menu** ![](assets/main-menu-icon.png) in the upper-right corner of the page, then click **Home**.
-
-   Or
-
-   Click the **Main Menu** icon > **your name** > **Time Off** in the left panel. 
+1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. (Conditional) Click **Customize** to add the My Approvals widget.
 
 1. (Optional and conditional) In the Home area, click the **Filter** drop-down menu, then click **Approvals**.
 
@@ -134,7 +120,13 @@ To delegate approvals to another user:
 
 1. Click **Save**.
 
-### Update or stop an approval delegation {#update-or-stop-an-approval-delegation}
+## Delegate approvals from your user profile
+
+   Or
+
+   Click the **Main Menu** icon > **your name** > **Time Off** in the left panel. 
+
+## Update or stop an approval delegation {#update-or-stop-an-approval-delegation}
 
 1. Click the **Home** icon ![](assets/home-icon-30x29.png) in the upper-left corner of Adobe Workfront.
 
@@ -161,7 +153,7 @@ To delegate approvals to another user:
 
      ![](assets/stop-delegation-nwe.png)
 
-### View delegated approvals {#view-delegated-approvals}
+## View delegated approvals {#view-delegated-approvals}
 
 You can view only the following types of approval delegations in the Work List:
 
