@@ -76,29 +76,45 @@ If you plan on working with larger files, we recommend replacing the legacy modu
 
 ## FAQ 
 
-What is the new file size limit? With Fusion's increased data transfer capabilities, users can now process files exceeding the previous 1GB limit, enhancing efficiency and productivity.  While the platform can support individual files up to 15GB for a single action (e.g. upload file) there are other factors that affect data transfer. The file size limit of single action depends on the web service Fusion connects to. Data transfer is the total processing for a single execution. This means multiple actions in a single execution contribute to the total data transfer. Fusion will process files until the execution limit of 40 minutes is reached.  Large files may take some time to upload, download, or process in your Fusion scenario. While there is no limit on individual file size, there is a 40-minute limit on scenario execution time. Therefore, if large files cause the execution to take more than 40 minutes, the scenario fails. Scenario execution time can also be affected by scenario size, module complexity, and network speed. Therefore, we recommend that you consider these aspects of your scenarios when using large files.  
+### What is the new file size limit? 
 
-How does Fusion's new file transfer work? When Fusion processes files, larger files will be added to persistent storage (S3 Bucket or Azure Blob Storage). When a Fusion module executes a file action, like upload or download, Fusion will use the file in persistent storage as the source rather than active memory.  
+Users can now process files exceeding the previous 1 GB limit, enhancing efficiency and productivity.  Although the platform can support individual files up to 15 GB for a single action (such as uploading a file), there are other factors that affect data transfer. The file size limit of single action ultimately depends on the web service that Fusion connects to. Data transfer is the total processing for a single execution. This means multiple actions in a single execution contribute to the total data transfer. 
 
-Will I be able to work with larger files using incomplete executions? Yes, Fusion will support incomplete executions with larger files. It's important to note that incomplete executions are limited in size for an organization and should be actively managed.  
+Fusion processes files until the execution limit of 40 minutes is reached. Large files may take some time to upload, download, or process in your Fusion scenario. While there is no limit on individual file size, there is a 40 minute limit on scenario execution time. Therefore, if large files cause the execution to take more than 40 minutes, the scenario fails. Scenario execution time can also be affected by scenario size, module complexity, and network speed. Therefore, we recommend that you consider these aspects of your scenarios when using large files.  
 
-Can I use larger files with any connector? Each Fusion connector must be updated to support larger files. The supported connectors include Workfront, http, and AEM Assets. Fusion connectors are still limited by the file size supported by the web service. File size limits are typically included in the API documentation for web service endpoints that download and upload files.  
+### How does Fusion's new file transfer work? 
 
-Does this affect operations? No, the number of operations executed by a module are the same.  
+When Fusion processes files, larger files are added to persistent storage (S3 Bucket or Azure Blob Storage). When a Fusion module executes a file action, like upload or download, Fusion uses the file in persistent storage as the source instead of active memory.  
 
-I'm not seeing larger files accounted for in file transfer data displayed on the dashboard or on the detail page of a scenario execution, when will Fusion's UI be updated? We are actively working on updates to Fusion's UI for file transfer, with a targeted release in Q1 2025. 
+### Can I work with larger files using incomplete executions? 
 
-Designing a scenario to work within the 40 minutes execution limit seems complicated, what are some easier ways to think about the new file processing limits that will help me design scenarios?  
+Yes, Fusion supports incomplete executions with larger files. Note that incomplete executions are limited in size for an organization, and should be actively managed.  
 
-Understand your business requirements for execution time – Fusion's platform limit for execution time is 40 minutes. But most business process automations are expected to execute much faster. For example, userinitiated automations with resultdependent continuation. In such cases an execution time of 40 minutes would probably be an intolerable amount of time for a user to wait.  
+### an I use larger files with any connector? 
 
-Using execution time while designing – When designing your scenario, it is essential to understand the module execution time for individual file actions, such as uploads and downloads. This knowledge will aid in planning scenarios that involve multiple file actions. For instance, if Fusion downloads a document in 144 seconds (2.4 minutes), you can anticipate that a single execution can perform similar actions multiple times. To ensure accuracy in your design, it is advisable to round the module's execution time to include a buffer. In this case the module execution takes 144 seconds to execute, and we should plan for 3 minutes execution time for download. If your requirements include both an upload and a download, the expected execution time would be approximately 6 minutes. Note that Fusion execution times are capped at 40 minutes. 
+Each Fusion connector must be updated to support larger files. The supported connectors include Workfront, HTTP, and AEM Assets. Fusion connectors are still limited by the file size supported by the web service. File size limits are typically included in the API documentation for web service endpoints that download and upload files.  
 
-Consolidate file actions – the most common example of file actions in a Fusion scenario is one download and one upload. Most scenarios with only these two actions will execute in a few minutes. When possible Fusion designers should constrain their scenarios to one download and one upload.  
+### Does this affect operations? 
 
-Calculating size using the mapping panel – Workfront and other web services include the file size of a file in the download module's output. You can use this data to filter out files too large for a module upload or too large for the scenario execution time.  
+No, the number of operations executed by a module are the same.  
 
-Isolate file actions in their own scenario when working with multiple files - Fusion designers should consider isolating file actions into separate scenarios. For example, a Fusion scenario triggered by a new Workfront request with multiple attached files may need to accommodate up to 30 files. Given that uploading and downloading each file could take up to 3 minutes, processing all files in a single execution would surpass Fusion's 40-minute execution limit. The solution is to create a file actions scenario dedicated to handling the upload and download of individual files. The request-triggered scenario would iterate through the attached files, invoking the file actions scenario for each file using the HTTP module. This approach ensures that each file is processed within the execution time limits. 
+### When will Fusion's UI be updated to display file transfer data? 
+
+We are actively working on updates to Fusion's UI for file transfer on the dashboard and scenario execution detail page, with a targeted release in Q1 2025. 
+
+### What are some ways to think about the new file processing limits that will help me design scenarios?  
+
+Designing a scenario to work within the 40 minutes execution limit can seem complicated. We recommend keeping the following in mind when designing a scenario:
+
+* Understand your business requirements for execution time – Fusion's platform limit for execution time is 40 minutes. But most business process automations are expected to execute much faster. For example, userinitiated automations with resultdependent continuation. In such cases an execution time of 40 minutes would probably be an intolerable amount of time for a user to wait.  
+
+* Using execution time while designing – When designing your scenario, it is essential to understand the module execution time for individual file actions, such as uploads and downloads. This knowledge will aid in planning scenarios that involve multiple file actions. For instance, if Fusion downloads a document in 144 seconds (2.4 minutes), you can anticipate that a single execution can perform similar actions multiple times. To ensure accuracy in your design, it is advisable to round the module's execution time to include a buffer. In this case the module execution takes 144 seconds to execute, and we should plan for 3 minutes execution time for download. If your requirements include both an upload and a download, the expected execution time would be approximately 6 minutes. Note that Fusion execution times are capped at 40 minutes. 
+
+* Consolidate file actions – the most common example of file actions in a Fusion scenario is one download and one upload. Most scenarios with only these two actions will execute in a few minutes. When possible Fusion designers should constrain their scenarios to one download and one upload.  
+
+* Calculating size using the mapping panel – Workfront and other web services include the file size of a file in the download module's output. You can use this data to filter out files too large for a module upload or too large for the scenario execution time.  
+
+* Isolate file actions in their own scenario when working with multiple files - Fusion designers should consider isolating file actions into separate scenarios. For example, a Fusion scenario triggered by a new Workfront request with multiple attached files may need to accommodate up to 30 files. Given that uploading and downloading each file could take up to 3 minutes, processing all files in a single execution would surpass Fusion's 40-minute execution limit. The solution is to create a file actions scenario dedicated to handling the upload and download of individual files. The request-triggered scenario would iterate through the attached files, invoking the file actions scenario for each file using the HTTP module. This approach ensures that each file is processed within the execution time limits. 
 
 <!--
 ## Connectors that do not support large files
