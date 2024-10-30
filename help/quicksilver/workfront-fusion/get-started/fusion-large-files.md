@@ -6,8 +6,6 @@ title: Working with large files in Adobe Workfront Fusion
 description: Large file support is currently available for the Workfront and HTTP connectors.
 author: Becky
 feature: Workfront Fusion
-hide: yes
-hidefromtoc: yes
 ---
 # Working with large files in Adobe Workfront Fusion
 
@@ -76,21 +74,7 @@ If you plan on working with larger files, we recommend replacing the legacy modu
 
 ![Upload document](assets/new-upload-document.png)
 
-
-
-Workfront Fusion: Increased File Size Processing 
-
-We are excited to introduce enhanced data transfer capabilities in Workfront Fusion, enabling scenarios to process significantly larger files. This new capability is exclusively available to Workfront Ultimate customers. 
-
-To handle larger files, Fusion connectors require updates. For the initial release, only the Workfront and http connectors support larger files. Other connectors will be supported in future releases.  
-
-A close-up of a document
-
-Description automatically generatedFusion's module for "Upload Document" has been modified to handle larger files. The former version of this module will be updated to have "(Legacy)" appended to the module name. In most cases the legacy module will continue to function. If you plan on working with larger files it would be a good idea to replace the legacy module with the new "Upload document" module. The new upload document module prevents timeouts and other errors.  
-
- 
-
-FAQ 
+## FAQ 
 
 What is the new file size limit? With Fusion's increased data transfer capabilities, users can now process files exceeding the previous 1GB limit, enhancing efficiency and productivity.  While the platform can support individual files up to 15GB for a single action (e.g. upload file) there are other factors that affect data transfer. The file size limit of single action depends on the web service Fusion connects to. Data transfer is the total processing for a single execution. This means multiple actions in a single execution contribute to the total data transfer. Fusion will process files until the execution limit of 40 minutes is reached.  Large files may take some time to upload, download, or process in your Fusion scenario. While there is no limit on individual file size, there is a 40-minute limit on scenario execution time. Therefore, if large files cause the execution to take more than 40 minutes, the scenario fails. Scenario execution time can also be affected by scenario size, module complexity, and network speed. Therefore, we recommend that you consider these aspects of your scenarios when using large files.  
 
