@@ -73,5 +73,6 @@ To apply this grouping:
    group.0.valueformat=HTML
    textmode=true
 ```
+
 1. Click **Done**. 
 1. Update the grouping name, then click **Save Grouping**.

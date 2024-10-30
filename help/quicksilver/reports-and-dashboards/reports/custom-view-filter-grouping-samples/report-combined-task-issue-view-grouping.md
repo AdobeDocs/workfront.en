@@ -275,6 +275,7 @@ To build a report with this view:
    group.0.valueformat=string
    textmode=true
    ```
+   
    This grouping groups all the Tasks together, and all the Issues together.
 
 1. Click **Save + Close**.
