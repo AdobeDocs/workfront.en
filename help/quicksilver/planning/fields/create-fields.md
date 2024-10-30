@@ -16,11 +16,10 @@ exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
 
 # Create fields
 
-<!--
 <span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
--->
+
 
 {{planning-important-intro}}
 
@@ -233,7 +232,7 @@ Single-line text fields capture limited alphanumeric information. For example,  
 
 1. Add the following information in the **New field** tab:
      * **Name**: The name of the field type, as it will appear in a table or the Details page of the record. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column header in a table.
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column header in a table, or <span class="preview"> when you click the information icon next to the field name in the record's details page.</span>
 1. Click **Create**. 
 
     The new single-line field is added as a column to the record type, and its values can be associated with records. 

@@ -12,13 +12,9 @@ exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 <!--take Preview and Production references at Production time-->
 
-<!--
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
-
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
-
--->
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -147,7 +143,8 @@ You must have the following access to perform the steps in this article:
       >    * Created date
       >    * Last modified date
 
-      <!--
+      <!--replace the above with this: 
+
             >[!IMPORTANT]
             >
             > Depending on what environment you use to create a request form, the following scenarios exist:
@@ -158,9 +155,11 @@ You must have the following access to perform the steps in this article:
             >    * Formula
             >    * Created date
             >    * Last modified date
-            >* <span class="preview">Fields of the following types do not display in the request form in the Production environment but they display in the Preview environment:</span>
-            >    * <span class="preview">Connected fields (includes connections with Workfront, and Experience Manager assets)</span>
-            >    * <span class="preview">Connected lookup fields</span>
+            >    * Workfront object connected fields
+            >    * Workfront objects connected lookup fields
+            >* <span class="preview">Fields of the following types do not display in the request form in the Production environment. They display in the Preview environment:</span>
+            >    * <span class="preview">Planning records' connected fields (includes connections with Workfront, and Experience Manager assets)</span>
+            >    * <span class="preview">Planning records' connected lookup fields</span>
       -->
 
    * **Default section**: This is the default section break that Workfront applies to the request form. The Default section cannot be renamed or removed. 
