@@ -2,25 +2,29 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Report: combined task and issue View and Grouping'
+title: 'Report: Combined Task and Issue View and Grouping'
 description: This Work Item report shows both tasks and issues which users have accepted to work on in one report. It is best when combined with a custom grouping.
-author: Lisa and Nolan
+author: Nolan
 feature: Reports and Dashboards
 exl-id: 6eaae772-229d-44ea-b285-cbaf9e46eade
 ---
 # Report: combined task and issue View and Grouping
 
-This Work Item report&nbsp;shows both tasks and issues which users have accepted to work on in one report. It is best when combined with a custom grouping.
+<!--Audited: 10/2024-->
+
+This Work Item report  shows both tasks and issues which users have accepted to work on in one report. It is best when combined with a custom grouping.
 
 This report uses `sharecol=true` in the view to combine multiple fields under the same column header. For more information on the `sharecol` tag, see [View: merge information from multiple columns in one shared column](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
 >[!TIP]
 >
->&nbsp;The Work Item view&nbsp;displays only tasks and issues that have been accepted by the users assigned to them. This report does not&nbsp;display work items that have not been moved from the Work Requests or Team Requests lists into the user's Working On list.
+>  The Work Item view  displays only tasks and issues that have been accepted by the users assigned to them. This report does not  display work items that have not been moved from the Work Requests or Team Requests lists into the user's Working On list.
 
 ![work_item_report.png](assets/work-item-report-350x46.png)
 
 ## Access requirements
+
++++ Expand to view access requirements for the functionality in this article. 
 
 You must have the following access to perform the steps in this article:
 
@@ -29,40 +33,47 @@ You must have the following access to perform the steps in this article:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront plan*</td> 
+   <td role="rowheader">Adobe Workfront plan</td> 
    <td> <p>Any</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront license*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> 
+    <p>New:</p>
+   <ul><li><p>Contributor to modify a filter </p></li>
+   <li><p>Standard to modify a report</p></li> </ul>
+
+   <p>Current:</p>
+   <ul><li><p>Request to modify a filter </p></li>
+   <li><p>Plan to modify a report</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Access level configurations*</td> 
-   <td> <p>Edit access to Reports, Dashboards, Calendars</p> <p>Edit access to Filters, Views, Groupings</p> <p><b>NOTE</b>
-   
-   If you still don't have access, ask your Workfront administrator if they set additional restrictions in your access level. For information on how a Workfront administrator can modify your access level, see <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Create or modify custom access levels</a>.</p> </td> 
+   <td role="rowheader">Access level configurations</td> 
+   <td> <p>Edit access to Reports, Dashboards, Calendars to modify a report</p> <p>Edit access to Filters, Views, Groupings to modify a filter</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Object permissions</td> 
-   <td> <p>Manage permissions to a report</p> <p>For information on requesting additional access, see <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Request access to objects </a>.</p> </td> 
+   <td> <p>Manage permissions to a report</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
+*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
+
++++
 
 ## Build a report with combined task and issue View and Grouping
 
 To build a report with this view:
 
-1. From the **Main Menu** ![](assets/main-menu-icon.png), click&nbsp;**Reports**. 
+1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** icon ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **Reports**. 
 
-1. Click **New Report** and select the object **Work Item** from the drop-down menu.
+1. Click **New Report** > **More** > **Work Item** from the drop-down menu.
 
-1. In the**Column Preview** area,&nbsp;click the header of the only column displayed.
-1. Click**Switch to Text Mode**.
-1. Mouse over the text mode area, and click **Click to edit text**.
-1. Remove the text you find in the **Text Mode** box, and replace it with the following code: 
+1. In the**Column Preview** area,  click the header of the only column displayed. This is the **Ext Ref** column. 
+1. Click **Switch to Text Mode**.
+1. Mouse over the text mode area, and click **Edit Text Mode**.
+1. Remove the text you find in the text mode box, and replace it with the following code: 
 
    ```
    column.0.description=Task or Issue 
@@ -253,8 +264,9 @@ To build a report with this view:
    column.15.width=1
    ```
 
+1. Click **Done**.
 1. (Optional) Click **Groupings** to add a grouping to the report. 
-1. (Optional) If you are adding a grouping, click **Switch to Text Mode**. 
+1. (Optional and conditional) If you are adding a grouping, click **Switch to Text Mode**. 
 1. (Optional) Replace the text inside the grouping text mode area with the following code:
 
    ```
@@ -263,7 +275,7 @@ To build a report with this view:
    group.0.valueformat=string
    textmode=true
    ```
-
    This grouping groups all the Tasks together, and all the Issues together.
 
 1. Click **Save + Close**.
+1. (Optional) Update the name of the report, then click **Apply**.
